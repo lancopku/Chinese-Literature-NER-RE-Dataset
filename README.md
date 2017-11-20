@@ -5,7 +5,7 @@ We provide a new Chinese literature dataset for Named Entity Recognition (NER) a
 
 We define 6 entity tags and 9 relation tags based on several available NER and RE datasets but with some additional categories specific to Chinese literature text. 
 
-![NER](ner.jpg?raw=true "Optional Title")
-![RE](relation.jpg?raw=true "Optional Title")
+![ner.png](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset/ner.png)
+![relation.png](https://github.com/lancopku/LabelEmb/blob/master/Figures/relation.png)
 
 The dataset is described at 
