@@ -24,6 +24,7 @@ End Index: the end index of an entity. It starts at 0, and is incremented every 
 Value: words being referred to an identifiable object.
 
 
+
 ## Relation
 Each relation is identified by R tag, which can take several attributes: 
 
@@ -34,4 +35,13 @@ Arg1 and Arg2: two entities associated with a relation.
 Type: one of the relation tags.
 
 
+bibtex
 
+@inproceedings{dnerre,
+author = {Jingjing Xu and Ji Wen and Xu Sun and Qi Su},
+title = {A Discourse-Level Named Entity Recognition and Relation Extraction Dataset for Chinese Literature Text}, 
+journal = {CoRR},
+volume = {abs/1711.07010},
+year = {2017},
+url = {http://arxiv.org/abs/1711.07010},
+}
