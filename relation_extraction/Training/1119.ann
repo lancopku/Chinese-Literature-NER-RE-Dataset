@@ -1,0 +1,200 @@
+T1	Thing-Nominal 18 23	沿途的风景
+T2	Location-Nominal 18 20	沿途
+R1	Located Arg1:T1 Arg2:T2	
+T3	Thing-Nominal 29 31	风景
+T4	Thing-Nominal 41 46	美丽的风景
+T5	Time-Implicit 70 73	每一刻
+T6	Thing-Nominal 79 85	每一处的风景
+T7	Location-Nominal 79 82	每一处
+R2	Located Arg1:T6 Arg2:T7	
+T8	Person-Nominal 94 96	良师
+T9	Person-Nominal 100 102	良友
+T10	Person-Nominal 112 113	人
+T11	Person-Nominal 124 125	人
+T12	Person-Nominal 136 137	人
+T13	Person-Nominal 148 149	人
+T14	Person-Nominal 160 161	人
+T15	Person-Pronoun 168 170	自己
+*	Coreference T15 T14
+T16	Person-Nominal 172 173	人
+T17	Person-Nominal 185 186	人
+T18	Person-Nominal 199 203	更多的人
+T19	Thing-Nominal 221 231	一张有去无回的单车票
+T20	Person-Nominal 253 254	人
+T21	Thing-Nominal 260 262	心胸
+T22	Thing-Nominal 293 294	书
+T23	Thing-Nominal 301 302	茶
+T24	Thing-Nominal 310 311	酒
+T25	Thing-Nominal 327 329	大海
+T26	Thing-Nominal 375 378	一扇窗
+T27	Thing-Nominal 387 390	一壶茶
+T28	Thing-Nominal 398 401	一把琴
+T29	Thing-Nominal 409 412	一首诗
+T30	Thing-Nominal 445 447	夏花
+T31	Thing-Nominal 454 456	冬雪
+T32	Time-Implicit 484 487	依偎时
+T33	Time-Implicit 495 498	别离后
+T34	Person-Nominal 516 517	人
+T35	Thing-Nominal 518 522	感情动物
+T36	Person-Nominal 574 575	人
+T37	Person-Nominal 634 635	人
+T38	Person-Nominal 651 652	人
+T39	Person-Nominal 671 677	活得清醒的人
+T40	Location-Nominal 696 698	遍地
+T41	Person-Nominal 700 706	活得糊涂的人
+T42	Location-Nominal 743 746	口袋里
+T43	Thing-Nominal 747 748	钱
+R3	Located Arg1:T43 Arg2:T42	
+T44	Person-Nominal 753 757	没钱的人
+T45	Location-Nominal 762 765	口袋里
+T46	Thing-Nominal 766 767	钱
+R4	Located Arg1:T46 Arg2:T45	
+T47	Person-Nominal 768 775	心里却有钱的人
+T48	Thing-Nominal 772 773	钱
+R5	Ownership Arg1:T47 Arg2:T48	
+T49	Location-Nominal 780 783	口袋里
+T50	Thing-Nominal 784 785	钱
+R6	Located Arg1:T50 Arg2:T49	
+T51	Person-Nominal 786 793	心里也有钱的人
+T52	Thing-Nominal 790 791	钱
+R7	Ownership Arg1:T51 Arg2:T52	
+T53	Location-Nominal 798 801	口袋里
+T54	Thing-Nominal 802 803	钱
+R8	Located Arg1:T54 Arg2:T53	
+T55	Person-Nominal 804 809;810 812	心里却没钱 的人
+T56	Thing-Nominal 808 809	钱
+T57	Time-Implicit 818 826	某个不经意的瞬间
+T58	Person-Pronoun 827 828	你
+T59	Person-Nominal 834 837	每个人
+T60	Person-Pronoun 845 846	你
+T61	Person-Nominal 852 854	别人
+T62	Person-Pronoun 890 891	你
+T63	Time-Implicit 890 896	你想吃的时候
+T64	Time-Implicit 900 905	想爱的时候
+T65	Person-Nominal 906 907	人
+T66	Person-Pronoun 909 910	你
+T67	Person-Nominal 920 922	君子
+T68	Person-Nominal 927 929	小人
+T69	Thing-Nominal 934 936	天地
+T70	Person-Nominal 961 965	睿智的人
+T71	Person-Nominal 974 978	豁达的人
+T72	Person-Nominal 986 990	得道的人
+T73	Person-Nominal 998 1002	厚德的人
+T74	Person-Nominal 1010 1014	明理的人
+T75	Person-Nominal 1022 1026	自信的人
+T76	Person-Nominal 1035 1039	重义的人
+T77	Person-Nominal 1047 1051	浓情的人
+T78	Person-Nominal 1059 1063	宁静的人
+T79	Person-Nominal 1071 1075	知足的人
+T80	Person-Nominal 1085 1087	小人
+T81	Person-Pronoun 1093 1094	他
+*	Coreference T81 T80
+T82	Person-Pronoun 1112 1113	你
+T83	Person-Pronoun 1120 1122	自己
+T84	Thing-Pronoun 1145 1146	它
+T85	Thing-Nominal 1137 1139	往事
+*	Coreference T84 T85
+T86	Person-Pronoun 1162 1163	你
+T87	Thing-Nominal 1173 1175	小事
+T88	Thing-Nominal 1183 1185	大事
+T89	Thing-Nominal 1208 1212	天下之物
+T90	Thing-Nominal 1229 1233	天下之事
+T91	Thing-Nominal 1244 1248	大事难事
+T92	Person-Pronoun 1294 1296	自己
+T93	Person-Nominal 1331 1333	他人
+T94	Person-Pronoun 1340 1342	自己
+T95	Time-Implicit 1347 1349	明天
+T96	Time-Implicit 1355 1357	今天
+T97	Thing-Nominal 1383 1386	超然物
+T98	Person-Pronoun 1401 1402	我
+T99	Person-Pronoun 1543 1545	自己
+T100	Thing-Nominal 1549 1553	一个故事
+T101	Person-Nominal 1554 1558	一位少年
+T102	Person-Nominal 1561 1568	一位年长的智者
+T103	Person-Pronoun 1569 1570	他
+*	Coreference T103 T101
+T104	Person-Pronoun 1581 1583	自己
+T105	Person-Nominal 1589 1591	别人
+T106	Person-Nominal 1594 1595	人
+T107	Person-Nominal 1598 1600	智者
+T108	Person-Pronoun 1603 1604	他
+T109	Person-Nominal 1607 1609	孩子
+T110	Person-Pronoun 1611 1612	你
+*	Coreference T110 T109
+T111	Person-Pronoun 1630 1631	我
+*	Coreference T111 T107
+T112	Person-Pronoun 1633 1634	你
+T113	Person-Pronoun 1645 1647	自己
+T114	Person-Nominal 1649 1651	别人
+T115	Person-Pronoun 1652 1653	你
+T116	Person-Nominal 1666 1668	少年
+T117	Person-Pronoun 1679 1680	我
+T118	Time-Implicit 1679 1689	我感到痛苦忧伤的时候
+T119	Person-Pronoun 1692 1694	自己
+T120	Person-Nominal 1697 1699	别人
+T121	Person-Pronoun 1712 1713	我
+T122	Time-Implicit 1712 1719	我欣喜若狂之时
+T123	Person-Pronoun 1721 1723	自己
+T124	Person-Nominal 1726 1728	别人
+T125	Person-Nominal 1745 1747	智者
+T126	Thing-Nominal 1750 1751	头
+R9	Part-Whole Arg1:T126 Arg2:T125	
+T127	Person-Nominal 1763 1765	别人
+T128	Person-Pronoun 1767 1769	自己
+T129	Person-Nominal 1771 1773	少年
+T130	Person-Nominal 1792 1794	别人
+T131	Person-Nominal 1800 1802	别人
+T132	Person-Nominal 1809 1811	别人
+T133	Time-Implicit 1808 1816	在别人需要的时候
+T134	Person-Nominal 1825 1827	智者
+T135	Thing-Nominal 1827 1829	两眼
+R10	Part-Whole Arg1:T135 Arg2:T134	
+T136	Person-Nominal 1844 1845;1846 1847	别 人
+T137	Person-Nominal 1849 1851	别人
+T138	Person-Nominal 1853 1855	少年
+T139	Person-Nominal 1875 1878	每个人
+T140	Person-Nominal 1885 1887	智者
+T141	Person-Pronoun 1907 1909	自己
+T142	Person-Pronoun 1911 1913	自己
+T143	Person-Pronoun 1927 1928	你
+T144	Person-Pronoun 1958 1959	我
+T145	Thing-Pronoun 1965 1967	它们
+T146	Person-Nominal 1975 1977	智者
+T147	Person-Nominal 1995 1997	少年
+T148	Person-Nominal 2012 2014	少年
+T149	Person-Nominal 2017 2020	壮年人
+T150	Person-Nominal 2025 2027	老人
+T151	Time-Implicit 2010 2012	后来
+T152	Time-Implicit 2029 2032	再后来
+T153	Person-Pronoun 2033 2034	他
+T154	Time-Implicit 2033 2044	他离开这个世界很久以后
+T155	Person-Nominal 2045 2047	人们
+T156	Person-Pronoun 2053 2054	他
+*	Coreference T153 T148
+T157	Person-Nominal 2058 2060	人们
+T158	Person-Pronoun 2062 2063	他
+T159	Person-Nominal 2064 2068	一位智者
+T160	Person-Pronoun 2071 2072	他
+T161	Person-Nominal 2073 2079	一个愉快的人
+T162	Person-Pronoun 2091 2092	他
+T163	Person-Nominal 2093 2094	人
+T164	Person-Pronoun 2103 2105	我们
+T165	Person-Nominal 2109 2110	人
+T166	Person-Pronoun 2117 2119	自己
+T167	Person-Nominal 2120 2122	别人
+T168	Person-Nominal 2124 2126	别人
+T169	Person-Pronoun 2127 2129	自己
+T170	Person-Nominal 2131 2133	别人
+T171	Person-Nominal 2134 2136	别人
+T172	Person-Pronoun 2138 2140	自己
+T173	Person-Pronoun 2141 2143	自己
+T174	Person-Nominal 2151 2155	所有的人
+T175	Person-Pronoun 2158 2159	你
+T176	Thing-Nominal 2160 2164	萝卜白菜
+T177	Person-Pronoun 2169 2170	你
+T178	Thing-Nominal 2172 2174	萝卜
+T179	Thing-Nominal 2181 2183	白菜
+T180	Person-Nominal 2190 2191	人
+T181	Person-Nominal 2196 2198	别人
+T182	Person-Nominal 2202 2203	人
+T183	Person-Pronoun 2208 2210	自己

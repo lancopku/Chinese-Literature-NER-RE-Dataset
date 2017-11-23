@@ -1,0 +1,177 @@
+T1	Location-Nominal 0 7	老家以前的乡村
+T2	Location-Nominal 0 2	老家
+T3	Thing-Nominal 10 14	土质房屋
+R1	Located Arg1:T3 Arg2:T1	
+T4	Thing-Nominal 15 17	土坯
+T5	Thing-Nominal 18 19	墙
+T6	Thing-Nominal 20 22	土坯
+T7	Thing-Nominal 23 24	炕
+T8	Thing-Nominal 25 27	土坯
+T9	Thing-Nominal 30 32	房屋
+T10	Thing-Nominal 28 35	构建房屋的材料
+T11	Thing-Nominal 39 41	风雨
+T12	Time-Implicit 54 56	初春
+T13	Thing-Nominal 57 59	碱土
+T14	Thing-Nominal 61 62	盖
+T15	Time-Implicit 63 65	深秋
+T16	Thing-Nominal 66 68	黄泥
+T17	Thing-Nominal 69 70	墙
+T18	Thing-Nominal 71 73	泥土
+T19	Person-Nominal 88 89	人
+T20	Thing-Nominal 94 98	土质房屋
+T21	Person-Pronoun 103 104	我
+T22	Thing-Nominal 106 113	这样的土质乡村
+T23	Location-Nominal 119 121	满地
+T24	Thing-Nominal 121 134	疯长的绿草和恣意开放的野花
+R2	Located Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 139 141	知了
+T26	Thing-Nominal 147 149	鸟儿
+T27	Thing-Nominal 156 157	头
+T28	Location-Nominal 159 163;164 165	妥帖的土 屋
+T29	Location-Nominal 170 176	温暖的土炕上
+T30	Thing-Nominal 167 168	头
+T31	Thing-Nominal 179 185	琥珀色的阳光
+T32	Thing-Nominal 190 192	泥土
+T33	Thing-Nominal 200 203	土房子
+T34	Thing-Nominal 218 220	烟火
+T35	Person-Nominal 229 230	人
+T36	Thing-Nominal 248 250	染料
+T37	Thing-Pronoun 253 254	它
+*	Coreference T37 T33
+T38	Person-Nominal 261 265	一位老农
+T39	Thing-Nominal 276 278	乡村
+T40	Location-Nominal 282 285	乡村里
+T41	Thing-Nominal 286 291	这些土房子
+R3	Located Arg1:T41 Arg2:T40	
+T42	Person-Nominal 303 307	远方游子
+T43	Location-Nominal 312 315	乡村里
+T44	Thing-Nominal 316 319	土房子
+R4	Located Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 322 327	一部部词典
+T46	Thing-Nominal 331 333	乡村
+T47	Thing-Nominal 342 344	乡村
+T48	Location-Nominal 350 354	房前屋后
+T49	Person-Pronoun 355 360	儿时的我们
+T50	Time-Implicit 355 357	儿时
+T51	Thing-Nominal 363 365	土堆
+T52	Thing-Nominal 368 370	泥泡
+T53	Thing-Nominal 374 376	泥球
+T54	Person-Pronoun 378 380	我们
+T55	Thing-Nominal 395 397	黄土
+T56	Thing-Nominal 400 403	土房子
+T57	Thing-Nominal 406 408	乡村
+T58	Thing-Nominal 411 413	魂魄
+T59	Thing-Nominal 417 422	这些土房子
+T60	Thing-Nominal 424 431	偏僻稀疏的乡村
+T61	Person-Nominal 439 440	人
+T62	Time-Explicit 445 451	8月初的一天
+T63	Person-Nominal 452 454	妻子
+T64	Person-Nominal 455 457	同学
+R5	Social Arg1:T64 Arg2:T63	
+T65	Person-Nominal 462 466	同学家属
+T66	Person-Pronoun 467 468	我
+*	Coreference T66 T65
+T67	Thing-Nominal 481 487	妻子的同学家
+T68	Person-Nominal 481 483	妻子
+T69	Location-Name 489 501	安达东湖旅游区的芦苇深处
+R6	Located Arg1:T67 Arg2:T69	
+T70	Location-Name 489 496	安达东湖旅游区
+T71	Thing-Nominal 578 580	风光
+T72	Thing-Nominal 508 532	湖泊、湿地、草原、鸟类以及植物等多种自然生态资源
+T73	Person-Nominal 542 546	一方子民
+T74	Person-Nominal 553 555	人们
+T75	Location-Nominal 560 563;564 565	理想之 所
+T76	Person-Nominal 566 568	游人
+T77	Location-Nominal 503 507	该旅游区
+T78	Location-Pronoun 570 572	这里
+*	Coreference T78 T77
+R7	Located Arg1:T72 Arg2:T77	
+T79	Thing-Nominal 605 609	农家土屋
+T80	Thing-Nominal 613 622	鲜美可口的地产鱼类
+T81	Thing-Nominal 624 630	妻子的同学家
+T82	Thing-Nominal 631 636	一溜土房子
+T83	Person-Nominal 624 626	妻子
+T84	Person-Nominal 649 657	热情朴实的两口子
+T85	Location-Nominal 680 682	天上
+T86	Location-Nominal 686 688	水里
+T87	Thing-Nominal 691 696	上尖的盘子
+T88	Thing-Nominal 698 705	两张合并的桌面
+*	Coreference T87 T88
+T89	Person-Nominal 706 711	他们两口子
+T90	Person-Pronoun 706 708	他们
+T91	Person-Nominal 714 719	前来的客人
+T92	Person-Nominal 722 725	客人们
+T93	Location-Nominal 739 741	堤坝
+T94	Thing-Nominal 743 752	一望无际的湿地风光
+T95	Location-Nominal 755 760	宽广的湖面
+T96	Thing-Nominal 761 762	船
+T97	Thing-Nominal 771 775	新翻泥土
+T98	Thing-Nominal 784 786	青草
+T99	Thing-Nominal 793 795	野花
+T100	Thing-Nominal 802 811	美不胜收的天然画卷
+T101	Location-Nominal 828 832	芦苇深处
+T102	Thing-Nominal 833 841	十几户土坯房人家
+R8	Located Arg1:T102 Arg2:T101	
+T103	Person-Nominal 843 845	游人
+T104	Thing-Pronoun 854 856	它们
+*	Coreference T104 T102
+T105	Location-Nominal 859 862	旅游区
+T106	Thing-Nominal 874 880	这些土坯房子
+T107	Thing-Nominal 881 883	绿波
+T108	Location-Nominal 890 894	湖泊之上
+T109	Person-Nominal 909 913	八方游客
+T110	Person-Pronoun 916 917	我
+T111	Location-Nominal 918 929	一个摇摇欲坠的土房子前
+T112	Person-Name 932 937	同行的树权
+T113	Metric 944 946	几年
+T114	Location-Name 947 952	东湖旅游区
+T115	Thing-Nominal 957 962	这些土房子
+T116	Person-Pronoun 976 977	他
+T117	Person-Pronoun 983 984	我
+T118	Person-Pronoun 989 990	我
+T119	Thing-Nominal 997 1000	土房子
+T120	Person-Nominal 1003 1005	祖先
+T121	Person-Pronoun 1095 1097	我们
+T122	Thing-Nominal 1117 1120	土房子
+T123	Person-Pronoun 1122 1123	我
+T124	Person-Pronoun 1133 1134	我
+T125	Thing-Nominal 1142 1145	土房子
+T126	Time-Implicit 1149 1151	平时
+T127	Thing-Nominal 1155 1160	一处土房子
+T128	Person-Pronoun 1161 1162	我
+T129	Location-Name 1192 1194	东湖
+T130	Person-Pronoun 1195 1196	我
+T131	Thing-Nominal 1198 1204	一座土坯房子
+T132	Person-Nominal 1206 1207	人
+T133	Thing-Nominal 1217 1221	四面墙体
+T134	Thing-Nominal 1225 1228	大窟窿
+T135	Thing-Nominal 1229 1234	农用拖拉机
+T136	Person-Nominal 1255 1259	附近村民
+T137	Thing-Nominal 1262 1265	这房子
+T138	Person-Nominal 1268 1270	主人
+T139	Person-Nominal 1278 1279	人
+T140	Thing-Nominal 1292 1298	这座土坯房子
+T141	Person-Pronoun 1301 1302	我
+T142	Person-Pronoun 1320 1321	谁
+T143	Thing-Nominal 1336 1341	这座土坯房
+T144	Person-Pronoun 1352 1354	我们
+T145	Person-Pronoun 1369 1371	我们
+T146	Location-Nominal 1389 1397	坑坑洼洼的土路上
+T147	Location-Nominal 1401 1407	蒿草和野花中
+T148	Location-Nominal 1411 1419	飞鸟嬉戏的湖泊旁
+T149	Thing-Nominal 1411 1413	飞鸟
+T150	Thing-Nominal 1422 1433	清风、白云、蓝天、绿水
+T151	Thing-Nominal 1437 1448;1449 1453	那一座座掩映在芦苇花里 的土房子
+T152	Location-Nominal 1444 1448	芦苇花里
+R9	Located Arg1:T151 Arg2:T152	
+T153	Thing-Nominal 1454 1458	一缕凉风
+T154	Location-Nominal 1467 1470	房顶上
+T155	Thing-Nominal 1470 1475	那几簇青草
+R10	Located Arg1:T155 Arg2:T154	
+T156	Thing-Nominal 1481 1491	一幅美轮美奂的水彩画
+T157	Location-Nominal 1493 1496	天地间
+T158	Location-Nominal 1497 1502	绿波起伏处
+T159	Thing-Nominal 1503 1510	褐黄色的土房子
+T160	Location-Nominal 1513 1517	古朴乡村
+R11	Located Arg1:T159 Arg2:T160	
+R12	Ownership Arg1:T138 Arg2:T137	

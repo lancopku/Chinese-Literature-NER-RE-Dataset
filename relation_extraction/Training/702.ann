@@ -1,0 +1,133 @@
+T1	Thing-Nominal 19 21	银发
+T2	Metric 25 27	两鬓
+T3	Thing-Nominal 29 32	老花镜
+T4	Thing-Nominal 41 43	夕阳
+T5	Location-Nominal 49 51	厨房
+T6	Location-Nominal 51 53	灶台
+T7	Location-Nominal 55 57	超市
+T8	Person-Nominal 65 67	孙子
+T9	Thing-Nominal 74 76	双手
+R1	Part-Whole Arg1:T9 Arg2:T8	
+T10	Time-Implicit 88 90	当年
+T11	Thing-Nominal 112 116	滔滔江水
+T12	Thing-Nominal 121 123	残月
+T13	Thing-Nominal 124 126	流云
+T14	Location-Name 140 142	西湖
+T15	Thing-Nominal 148 150	碧水
+T16	Thing-Nominal 152 154	湖面
+R2	Located Arg1:T15 Arg2:T14	
+R3	Located Arg1:T16 Arg2:T14	
+T17	Thing-Nominal 155 160	巧磨的明镜
+*	Coreference T17 T16
+T18	Location-Nominal 162 165	八角亭
+T19	Thing-Nominal 167 169	垂柳
+T20	Location-Nominal 182 185	九曲桥
+R4	Near Arg1:T19 Arg2:T18	
+T21	Person-Nominal 189 194	依偎的恋人
+T22	Location-Name 198 200	西湖
+T23	Time-Implicit 202 204	今日
+T24	Thing-Nominal 214 219	湖畔的高楼
+T25	Location-Nominal 214 216	湖畔
+R5	Near Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 221 222	车
+T27	Thing-Nominal 223 224	马
+T28	Location-Nominal 235 239	老年大学
+T29	Person-Nominal 241 245	顶尖师资
+T30	Location-Pronoun 248 250	这里
+*	Coreference T30 T28
+T31	Person-Pronoun 252 254	他们
+*	Coreference T31 T29
+T32	Person-Nominal 265 267	师资
+T33	Person-Nominal 267 269	艺花
+T34	Location-Nominal 279 281	校园
+T35	Location-Nominal 291 293	校园
+T36	Person-Pronoun 303 305	他们
+T37	Person-Nominal 309 310	人
+T38	Location-Nominal 323 325	校园
+T39	Thing-Nominal 327 329	黄鹂
+T40	Person-Nominal 352 354	同伴
+T41	Location-Nominal 374 379	欢快的舞厅
+T42	Person-Nominal 381 395	一群身着紧装的“白发年青人”
+T43	Metric 381 383	一群
+T44	Thing-Nominal 385 387	紧装
+R6	Part-Whole Arg1:T44 Arg2:T42	
+T45	Thing-Nominal 399 406	五色缤纷的彩裙
+T46	Person-Nominal 410 412	编导
+T47	Thing-Nominal 417 419	孔雀
+T48	Thing-Nominal 420 421	屏
+T49	Location-Nominal 423 427	舞池中央
+T50	Thing-Nominal 435 440	挺拔的身躯
+T51	Metric 475 477	一朝
+T52	Metric 477 479	一夕
+T53	Thing-Nominal 486 488	汗水
+T54	Location-Nominal 514 518	老年大学
+T55	Location-Nominal 523 525	楼上
+T56	Thing-Nominal 525 527	古筝
+R7	Located Arg1:T56 Arg2:T55	
+T57	Location-Nominal 541 543	楼下
+T58	Thing-Nominal 543 545	琴弦
+R8	Located Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 551 555	潺潺流水
+T60	Thing-Nominal 563 564	山
+T61	Thing-Nominal 574 575	山
+T62	Thing-Nominal 576 577	水
+T63	Location-Nominal 583 585	三楼
+T64	Person-Pronoun 588 589	谁
+T65	Time-Explicit 596 597	秦
+T66	Time-Explicit 597 598	汉
+T67	Location-Nominal 612 614	贾府
+T68	Person-Nominal 626 628	后人
+T69	Location-Nominal 635 637	画室
+T70	Thing-Nominal 646 648	国画
+T71	Thing-Nominal 649 651	剪纸
+T72	Thing-Nominal 652 654	摄影
+T73	Thing-Nominal 655 657	书法
+R9	Located Arg1:T70 Arg2:T69	
+R10	Located Arg1:T71 Arg2:T69	
+R11	Located Arg1:T72 Arg2:T69	
+R12	Located Arg1:T73 Arg2:T69	
+T74	Metric 659 662	一朵朵
+T75	Thing-Nominal 662 664	玫瑰
+T76	Metric 665 668	一朵朵
+T77	Thing-Nominal 668 670	牡丹
+T78	Metric 672 675	一枝枝
+T79	Thing-Nominal 675 677	雪梅
+T80	Metric 678 681	一蓬蓬
+T81	Thing-Nominal 681 683	莲花
+T82	Thing-Nominal 659 664	一朵朵玫瑰
+T83	Thing-Nominal 665 670	一朵朵牡丹
+T84	Thing-Nominal 672 677	一枝枝雪梅
+T85	Thing-Nominal 678 683	一蓬蓬莲花
+T86	Thing-Nominal 685 687	鸳鸯
+T87	Thing-Nominal 688 689	水
+T88	Thing-Nominal 690 692	鸡群
+T89	Thing-Nominal 692 693	鹤
+T90	Thing-Nominal 696 700	浓墨大笔
+T91	Thing-Nominal 701 703	骏马
+T92	Metric 709 712	一张张
+T93	Metric 716 719	一滴滴
+T94	Metric 726 729	一把把
+T95	Thing-Nominal 730 731	峰
+T96	Thing-Nominal 732 734	汗水
+T97	Thing-Nominal 722 724	泪花
+T98	Metric 736 739	一篓篓
+T99	Metric 746 749	一本本
+T100	Thing-Nominal 758 760	金奖
+T101	Thing-Nominal 760 762	银奖
+T102	Metric 770 773	一屡屡
+T103	Person-Pronoun 779 780	我
+T104	Thing-Nominal 788 792	老年大学
+T105	Person-Pronoun 795 796	谁
+T106	Person-Pronoun 799 800	他
+T107	Location-Nominal 805 812	惠州市老年大学
+T108	Person-Nominal 814 816	艺花
+T109	Person-Nominal 817 819	艺人
+T110	Person-Nominal 821 823	艺人
+T111	Person-Nominal 865 869	老年朋友
+T112	Person-Nominal 877 881	老年朋友
+T113	Person-Nominal 889 893	老年朋友
+T114	Person-Nominal 903 907	老年朋友
+T115	Person-Pronoun 912 914	我们
+T116	Location-Pronoun 917 919	这里
+T117	Location-Pronoun 900 902	这里
+*	Coreference T117 T107 T116

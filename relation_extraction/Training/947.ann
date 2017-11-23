@@ -1,0 +1,153 @@
+T1	Person-Pronoun 5 6	我
+T2	Location-Nominal 10 15	儿时的故乡
+T3	Time-Implicit 10 12	儿时
+T4	Location-Nominal 17 21	我的故乡
+T5	Location-Name 21 24	水里村
+*	Coreference T5 T4
+T6	Location-Nominal 26 33	渭北下镇东南角
+T7	Location-Nominal 40 48	不见其名的小村庄
+T8	Location-Pronoun 49 50	它
+*	Coreference T8 T7
+T9	Location-Name 51 56	神寺村一组
+T10	Location-Name 59 62	南七乡
+T11	Time-Explicit 65 69	本世纪初
+T12	Location-Name 76 77;78 80	下 吉镇
+T13	Location-Name 99 102	水里村
+T14	Person-Nominal 103 106	不少人
+T15	Location-Pronoun 116 117	它
+*	Coreference T15 T13
+T16	Location-Name 119 122	神寺村
+T17	Location-Nominal 143 146	小村庄
+T18	Location-Name 148 151	水里村
+T19	Metric 153 157	三十来户
+T20	Person-Nominal 153 159	三十来户人家
+T21	Metric 164 167	二百人
+T22	Time-Implicit 169 177	上世纪六七十年代
+T23	Person-Pronoun 178 179	我
+T24	Location-Pronoun 181 183	那里
+*	Coreference T24 T18
+T25	Location-Nominal 193 195	故乡
+T26	Time-Implicit 214 217	小时候
+T27	Location-Nominal 218 220	村子
+T28	Thing-Nominal 232 234	古树
+T29	Thing-Nominal 235 237	鲜花
+T30	Thing-Nominal 238 240	湿地
+R1	Located Arg1:T28 Arg2:T27	
+R2	Located Arg1:T29 Arg2:T27	
+R3	Located Arg1:T30 Arg2:T27	
+T31	Location-Nominal 241 243	村里
+T32	Thing-Nominal 243 245	绿树
+T33	Thing-Nominal 255 257	鸟雀
+T34	Location-Nominal 253 255	枝头
+R4	Located Arg1:T32 Arg2:T31	
+R5	Located Arg1:T33 Arg2:T34	
+T35	Location-Nominal 268 274	村北东西两头
+T36	Thing-Nominal 277 281	一块湿地
+R6	Located Arg1:T36 Arg2:T35	
+T37	Thing-Name 284 288	“涝池”
+T38	Location-Nominal 289 291	池内
+T39	Thing-Nominal 292 295	深水井
+R7	Located Arg1:T39 Arg2:T38	
+T40	Location-Nominal 296 298	周围
+T41	Thing-Nominal 299 302	芦苇荡
+R8	Located Arg1:T41 Arg2:T40	
+T42	Location-Nominal 303 307	涝池四周
+T43	Thing-Nominal 309 313	杨柳榆槐
+R9	Located Arg1:T43 Arg2:T42	
+T44	Location-Nominal 320 322	湿地
+T45	Person-Nominal 324 327	孩子们
+T46	Location-Nominal 324 330	孩子们的乐园
+*	Coreference T46 T44
+T47	Person-Pronoun 336 337	我
+T48	Person-Nominal 339 341	玩伴
+T49	Location-Nominal 344 346	湿地
+T50	Thing-Nominal 347 349	蝴蝶
+T51	Thing-Nominal 351 353	芦花
+T52	Thing-Nominal 359 361	冰雪
+T53	Person-Nominal 378 380	父母
+T54	Location-Nominal 382 384	门前
+T55	Location-Nominal 395 398	村南边
+T56	Thing-Nominal 399 403	一大土壕
+R10	Located Arg1:T56 Arg2:T55	
+T57	Time-Implicit 409 411	夏天
+T58	Thing-Nominal 411 413	雨水
+T59	Person-Nominal 415 417	大家
+T60	Location-Nominal 419 421	壕里
+T61	Person-Nominal 429 432	伙伴们
+T62	Location-Nominal 436 438	壕底
+T63	Thing-Nominal 439 441	泥塑
+T64	Time-Implicit 454 455;456 458	大 半天
+T65	Person-Nominal 464 466	父母
+T66	Person-Pronoun 473 477	那时的我
+T67	Thing-Nominal 485 490	电影放映机
+T68	Thing-Nominal 494 497	黄泥巴
+T69	Thing-Nominal 499 506	一台电影放映机
+T70	Abstract 509 513	光学原理
+T71	Time-Implicit 519 521	晚上
+T72	Location-Nominal 523 525	壕里
+T73	Thing-Nominal 526 531	一块塑料布
+R11	Located Arg1:T73 Arg2:T72	
+T74	Thing-Nominal 532 534	银幕
+T75	Person-Nominal 543 552	不少好奇的大人小孩
+T76	Location-Nominal 559 563	十村八堡
+T77	Location-Nominal 568 570	村里
+T78	Person-Nominal 575 577;578 582	不少 外村孩子
+T79	Location-Nominal 578 580	外村
+T80	Person-Pronoun 591 592	我
+T81	Location-Nominal 593 596	其村庄
+T82	Person-Pronoun 602 603	我
+T83	Person-Nominal 611 615	外村朋友
+T84	Person-Pronoun 619 620	我
+T85	Location-Nominal 626 630	村子中间
+T86	Thing-Nominal 631 642	一棵生长四百余年的古槐
+R12	Located Arg1:T86 Arg2:T85	
+T87	Time-Implicit 635 639	四百余年
+T88	Thing-Nominal 643 645	树冠
+R13	Part-Whole Arg1:T88 Arg2:T86	
+T89	Thing-Nominal 647 649	巨伞
+T90	Person-Nominal 677 679	孩子
+T91	Thing-Nominal 701 703	古槐
+T92	Location-Nominal 706 708	村子
+T93	Location-Nominal 734 736	树下
+T94	Organization-Nominal 723 732	村上开会和理论学习
+T95	Location-Nominal 739 745	村里“饭场”
+T96	Location-Pronoun 748 750	这里
+*	Coreference T96 T93
+T97	Time-Implicit 751 755	每到饭点
+T98	Location-Pronoun 777 779	这里
+T99	Metric 788 792	二三十人
+T100	Person-Nominal 793 795	大家
+T101	Person-Nominal 834 836	人们
+T102	Location-Pronoun 838 840	这里
+T103	Person-Nominal 862 865	一些人
+T104	Person-Nominal 881 882	人
+T105	Time-Explicit 887 896	上世纪八十年代初期
+T106	Organization-Nominal 899 901	村组
+T108	Thing-Nominal 918 922	涝池土壕
+T109	Thing-Nominal 925 927	古槐
+T107	Location-Nominal 930 932	饭场
+T110	Location-Nominal 947 948	村
+T111	Person-Pronoun 961 962	我
+T112	Location-Nominal 967 969	故乡
+T113	Time-Implicit 978 982	三十年前
+T114	Time-Explicit 986 988	今天
+T115	Time-Implicit 1007 1009	去年
+T116	Person-Nominal 1010 1013	一发小
+T117	Time-Implicit 1015 1017	当年
+T118	Thing-Nominal 1015 1031	当年村上的涝池、土壕、古槐、饭场
+T119	Person-Pronoun 1033 1035	我们
+T120	Time-Implicit 1050 1054	五六年前
+T121	Location-Name 1055 1058	临渭区
+T122	Location-Name 1060 1067	渭北葡萄观光园
+T123	Location-Nominal 1069 1072	核心区
+T124	Location-Name 1074 1078	水里村头
+*	Coreference T124 T123
+T125	Location-Nominal 1081 1090	名不见经传的小村庄
+T126	Location-Nominal 1111 1113	水里
+T127	Location-Nominal 1114 1116	故乡
+T128	Location-Nominal 1117 1119	故乡
+T129	Location-Nominal 1120 1122	水里
+T130	Person-Pronoun 1131 1132	我
+T131	Location-Pronoun 1142 1143	你
+T132	Person-Pronoun 1124 1125	我
+T133	Person-Pronoun 1126 1127	我

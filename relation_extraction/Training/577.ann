@@ -1,0 +1,418 @@
+T1	Location-Name 0 6	惠州五眼桥畔
+T2	Time-Implicit 7 9	近年
+T3	Location-Nominal 17 19	城门
+T4	Location-Name 21 24	朝京门
+T5	Location-Name 29 31	北门
+*	Coreference T4 T5
+T6	Location-Nominal 36 39	城门上
+T7	Thing-Nominal 42 44	城楼
+R1	Located Arg1:T7 Arg2:T6	
+T8	Location-Name 62 64	惠州
+T9	Location-Nominal 66 70	千年古邑
+*	Coreference T9 T8
+T10	Person-Nominal 77 79	人们
+T11	Location-Name 82 85	朝京门
+T12	Location-Pronoun 91 93	这里
+*	Coreference T12 T11
+T13	Location-Nominal 99 101	城楼
+T14	Thing-Name 103 105	东江
+T15	Thing-Nominal 121 123	大海
+T16	Thing-Nominal 147 150	古城墙
+T17	Thing-Pronoun 152 153	它
+*	Coreference T17 T16
+T18	Location-Name 154 157	朝京门
+R2	Near Arg1:T17 Arg2:T18	
+T19	Metric 160 164	四五十米
+T20	Person-Pronoun 166 167	我
+T21	Thing-Pronoun 171 172	它
+T22	Person-Pronoun 173 174	我
+T23	Thing-Pronoun 176 177	它
+T24	Person-Pronoun 187 188	我
+T25	Person-Nominal 193 196	老熟人
+T26	Location-Nominal 200 206	我家的老祖宅
+T27	Location-Nominal 208 211	古城墙
+R3	Near Arg1:T26 Arg2:T27	
+T28	Person-Pronoun 216 217	我
+T29	Location-Nominal 219 221	老宅
+T30	Person-Pronoun 230 231	我
+T31	Person-Pronoun 236 237	我
+T32	Location-Name 281 283	惠州
+T33	Time-Explicit 283 285	明代
+T34	Thing-Nominal 292 295	古城墙
+T35	Thing-Pronoun 316 317	它
+*	Coreference T35 T34
+T36	Thing-Pronoun 333 334	它
+T37	Thing-Nominal 348 350	城基
+*	Coreference T36 T37
+T38	Thing-Pronoun 352 353	它
+T39	Thing-Pronoun 391 392	它
+T40	Location-Name 403 407	东江之岸
+R4	Located Arg1:T39 Arg2:T40	
+T41	Person-Pronoun 409 410	我
+T42	Thing-Pronoun 420 421	它
+T43	Person-Pronoun 434 435	我
+T44	Location-Pronoun 436 438	那里
+T45	Thing-Pronoun 448 449	它
+T46	Thing-Nominal 460 463	古城墙
+T47	Thing-Pronoun 464 465	你
+*	Coreference T46 T47 T45
+T48	Thing-Pronoun 469 470	你
+T49	Thing-Pronoun 480 481	你
+T50	Thing-Nominal 501 503	史册
+T51	Person-Nominal 518 521	惠州人
+T52	Person-Nominal 529 533	我的长辈
+T53	Person-Nominal 535 539	我的老师
+T54	Person-Pronoun 540 541	我
+T55	Thing-Pronoun 545 546	它
+T56	Person-Pronoun 551 552	我
+T57	Person-Nominal 557 559	堂兄
+T58	Person-Pronoun 561 562	我
+R5	Family Arg1:T57 Arg2:T56	
+T59	Location-Name 564 574	我们首都的军事博物馆
+T60	Thing-Nominal 583 585	照片
+T61	Location-Name 592 594	中国
+T62	Person-Pronoun 611 612	我
+T63	Time-Explicit 629 634	1925年
+T64	Organization-Name 638 640	俄共
+T65	Organization-Nominal 645 649	国共两党
+T66	Time-Implicit 657 659	那年
+T67	Time-Implicit 660 662	十月
+T68	Location-Name 672 678	惠州北门江岸
+T69	Thing-Nominal 678 680	黄叶
+T70	Thing-Nominal 681 683	木棉
+R6	Part-Whole Arg1:T69 Arg2:T70	
+R7	Located Arg1:T70 Arg2:T68	
+T71	Location-Pronoun 687 689	这里
+T72	Person-Nominal 698 703	黄埔学生军
+T73	Location-Name 707 712	惠州北城门
+T74	Time-Explicit 714 727	1925年10月14日凌晨
+T75	Organization-Name 728 734	黄埔军官学校
+T76	Person-Name 728 740	黄埔军官学校总指挥蒋介石
+R8	Ownership Arg1:T76 Arg2:T75	
+T77	Person-Name 741 749	苏联顾问加仑将军
+T78	Person-Name 750 758	中共党代表周恩来
+T79	Location-Name 763 766	惠州城
+T80	Person-Nominal 771 774;775 778	黄埔学 生军官
+T81	Location-Name 781 784	北城门
+T82	Location-Name 785 788	朝京门
+*	Coreference T81 T82
+T83	Person-Name 793 796	陈炯明
+T84	Person-Name 803 806	杨坤如
+R9	Social Arg1:T83 Arg2:T84	
+T85	Thing-Nominal 811 813	城墙
+T86	Person-Nominal 829 833	黄埔军人
+T87	Person-Nominal 859 863	热血男儿
+*	Coreference T86 T87 T89
+T88	Person-Nominal 870 877	我们东江的子弟
+T89	Person-Pronoun 883 885	他们
+T90	Person-Pronoun 892 894	他们
+T91	Thing-Nominal 911 913	竹梯
+R10	Use Arg1:T90 Arg2:T91	
+T92	Thing-Nominal 916 918	城墙
+T93	Person-Pronoun 923 925	他们
+T94	Person-Pronoun 935 937	他们
+T95	Person-Pronoun 954 956	他们
+T96	Person-Nominal 974 976	战士
+T97	Person-Name 1048 1051	杨坤如
+T98	Person-Name 1059 1062	杨坤如
+T99	Location-Name 1068 1070	香港
+T100	Thing-Nominal 1075 1077	城墙
+T101	Person-Nominal 1080 1082	烈士
+T102	Location-Name 1090 1093	北城门
+T103	Metric 1097 1100	百余米
+T104	Location-Nominal 1101 1102	山
+T105	Location-Name 1106 1110	中山公园
+*	Coreference T104 T105
+R11	Near Arg1:T102 Arg2:T105	
+T106	Thing-Nominal 1115 1119	烈士的遗
+R12	Located Arg1:T106 Arg2:T105	
+T107	Location-Name 1121 1123	东江
+T108	Thing-Nominal 1126 1128	古榕
+T109	Person-Nominal 1135 1139	黄埔军人
+T110	Person-Nominal 1145 1147	战友
+R13	Social Arg1:T109 Arg2:T110	
+T111	Organization-Name 1150 1156	黄埔军官学校
+T112	Location-Name 1157 1161	山望野亭
+T113	Person-Name 1171 1174	蒋介石
+T114	Person-Name 1182 1185	周恩来
+T115	Person-Nominal 1196 1200	黄埔军人
+T116	Person-Nominal 1202 1204	烈士
+T117	Location-Name 1241 1244	北城门
+T118	Person-Nominal 1245 1247	烈士
+T119	Location-Name 1255 1257	惠州
+T120	Thing-Nominal 1282 1285	古城墙
+T121	Person-Pronoun 1286 1287	我
+T122	Thing-Pronoun 1288 1289	你
+T123	Person-Nominal 1296 1298	老人
+T124	Location-Nominal 1304 1310	城墙下的街道
+T125	Location-Name 1312 1315	北门街
+*	Coreference T125 T124
+T126	Location-Nominal 1331 1333	民居
+T127	Location-Nominal 1334 1336	门楼
+T128	Location-Nominal 1337 1338	檐
+R14	Part-Whole Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 1347 1349	壁画
+R15	Located Arg1:T129 Arg2:T128	
+T130	Person-Nominal 1350 1352	人们
+T131	Thing-Nominal 1359 1361	木屐
+T132	Thing-Nominal 1365 1368	花岗岩
+T133	Location-Name 1369 1372	麻石街
+R16	Located Arg1:T132 Arg2:T133	
+T134	Time-Explicit 1389 1397	上世纪五六十年代
+T135	Location-Name 1398 1401	北门街
+T136	Person-Nominal 1402 1404	居民
+T137	Time-Implicit 1404 1406	每天
+T138	Location-Nominal 1409 1412	古城墙
+T139	Location-Nominal 1415 1417	城墙
+T140	Thing-Nominal 1421 1426	花岗岩石阶
+R17	Near Arg1:T140 Arg2:T139	
+T141	Location-Name 1429 1434	北门的水头
+T142	Time-Implicit 1437 1439	每天
+T143	Person-Pronoun 1446 1448	我们
+T144	Thing-Name 1456 1458	东江
+T145	Thing-Nominal 1460 1463	母亲河
+*	Coreference T144 T145
+T146	Person-Nominal 1464 1467	惠州人
+T147	Thing-Name 1486 1489	东江水
+T148	Person-Pronoun 1492 1493	我
+T149	Time-Implicit 1493 1495	儿时
+T150	Thing-Nominal 1505 1510	花岗岩石阶
+T151	Time-Implicit 1515 1517	夏天
+T152	Thing-Nominal 1522 1524	瀑布
+T153	Thing-Nominal 1539 1542	花岗岩
+T154	Thing-Nominal 1553 1555	石阶
+T155	Person-Pronoun 1557 1558	我
+T156	Person-Nominal 1565 1568	女人们
+R18	Social Arg1:T155 Arg2:T156	
+T157	Time-Explicit 1570 1575	1963年
+T158	Person-Nominal 1576 1580	惠州居民
+T159	Person-Pronoun 1593 1595	她们
+*	Coreference T159 T156
+T160	Time-Implicit 1595 1597	每天
+T161	Location-Name 1619 1621	东江
+T162	Person-Pronoun 1625 1626	我
+T163	Person-Nominal 1629 1633	邻家大姐
+T164	Person-Nominal 1634 1637	婶娘们
+T165	Person-Nominal 1644 1646	女人
+*	Coreference T164 T165 T163 T167
+T166	Person-Pronoun 1647 1648	我
+T167	Person-Pronoun 1651 1653	她们
+T168	Thing-Nominal 1660 1662	凉帽
+T169	Person-Pronoun 1677 1679	她们
+T170	Person-Pronoun 1698 1700	她们
+T171	Thing-Nominal 1701 1702	草
+T172	Thing-Nominal 1704 1705	柴
+T173	Thing-Nominal 1707 1708	水
+T174	Person-Nominal 1717 1722	劳动的好手
+T175	Person-Pronoun 1723 1725	她们
+*	Coreference T175 T174
+T176	Time-Implicit 1725 1727	每天
+T177	Location-Nominal 1731 1734	古城墙
+T178	Location-Nominal 1735 1738	高石阶
+T179	Thing-Nominal 1741 1745	花岗岩石
+T180	Person-Pronoun 1750 1752	她们
+R19	Located Arg1:T179 Arg2:T178	
+T181	Location-Pronoun 1759 1761	这里
+T182	Person-Pronoun 1764 1765	我
+T183	Person-Nominal 1768 1771	小姑娘
+*	Coreference T182 T183
+T184	Person-Nominal 1775 1778	大人们
+T185	Thing-Nominal 1808 1811	高石阶
+T186	Location-Nominal 1820 1822	城墙
+T187	Thing-Nominal 1828 1831	小水桶
+T188	Person-Pronoun 1840 1841	我
+R20	Use Arg1:T188 Arg2:T187	
+T189	Location-Name 1848 1850	东江
+T190	Thing-Nominal 1851 1852	舸
+R21	Located Arg1:T190 Arg2:T189	
+T191	Thing-Nominal 1878 1880	石阶
+T192	Person-Nominal 1883 1890	东江上的打渔人
+T193	Person-Pronoun 1894 1895	我
+T194	Person-Nominal 1896 1899	老街坊
+*	Coreference T194 T192
+R22	Social Arg1:T193 Arg2:T194	
+T195	Person-Pronoun 1900 1901	我
+T196	Person-Nominal 1902 1905	同龄人
+R23	Social Arg1:T195 Arg2:T196	
+T197	Person-Name 1908 1914	叫东顺的孩子
+*	Coreference T197 T196
+T198	Person-Nominal 1915 1917	父母
+R24	Family Arg1:T197 Arg2:T198	
+T199	Person-Nominal 1918 1920	叔伯
+R25	Family Arg1:T197 Arg2:T199	
+T200	Person-Nominal 1925 1927	渔民
+*	Coreference T198 T200 T199
+T201	Person-Nominal 1928 1934	北门街的街坊
+T202	Location-Nominal 1943 1946	东顺家
+T203	Thing-Nominal 1947 1948	鱼
+T204	Time-Implicit 1950 1952	每天
+T205	Person-Name 1967 1969	东顺
+T206	Person-Nominal 1970 1973	长辈们
+R26	Family Arg1:T205 Arg2:T206	
+T207	Thing-Nominal 1976 1978	小船
+R27	Use Arg1:T206 Arg2:T207	
+T208	Location-Name 1980 1982	东江
+T209	Thing-Nominal 1986 1991	东江鱼丰虾
+T210	Thing-Nominal 1999 2000	网
+T211	Location-Nominal 2012 2014	江面
+T212	Person-Nominal 2028 2033	东顺的父母
+T213	Thing-Nominal 2040 2043	渔篓子
+T214	Location-Nominal 2045 2048	高石阶
+R28	Use Arg1:T212 Arg2:T213	
+T215	Location-Nominal 2051 2054	古城墙
+T216	Location-Nominal 2056 2057;2058 2059	老 街
+T217	Person-Nominal 2064 2066	街坊
+T218	Thing-Nominal 2087 2089	江鲤
+T219	Thing-Nominal 2096 2098	边鱼
+T220	Thing-Nominal 2114 2117	红眼俊
+T221	Thing-Nominal 2121 2123	鲮鱼
+*	Coreference T220 T221
+T222	Thing-Nominal 2131 2135	‘红眼俊
+T223	Person-Nominal 2152 2154	母亲
+T224	Person-Nominal 2156 2158	母亲
+T225	Person-Pronoun 2167 2168	我
+R29	Family Arg1:T224 Arg2:T225	
+T226	Thing-Nominal 2172 2173	鱼
+T227	Thing-Nominal 2177 2178	鱼
+T228	Thing-Nominal 2184 2186;2187 2188	花生 油
+T229	Thing-Nominal 2197 2199	姜丝
+T230	Thing-Nominal 2205 2208	绵豉酱
+T231	Thing-Nominal 2210 2213	黄豆酱
+*	Coreference T230 T231
+T232	Person-Nominal 2220 2223	惠州人
+T233	Thing-Nominal 2224 2227	绵豉酱
+T234	Metric 2231 2234	几分钟
+T235	Thing-Nominal 2237 2239	锅盖
+T236	Location-Nominal 2252 2254	厨房
+T237	Location-Nominal 2256 2258	天井
+R30	Near Arg1:T237 Arg2:T236	
+T238	Thing-Nominal 2265 2267	石阶
+T239	Time-Implicit 2267 2269	每日
+T240	Person-Nominal 2280 2287	北门街的孩子们
+T241	Location-Name 2288 2290	东江
+T242	Person-Pronoun 2302 2304	他们
+*	Coreference T242 T240
+T243	Time-Implicit 2323 2325	冬季
+T244	Time-Implicit 2326 2330	每天傍晚
+T245	Location-Nominal 2337 2340	大浴场
+*	Coreference T245 T241
+T246	Person-Nominal 2347 2350	孩子们
+T247	Location-Name 2360 2362	东江
+T248	Person-Nominal 2365 2367	孩子
+T249	Person-Pronoun 2390 2392	他们
+T250	Person-Nominal 2414 2416	游子
+*	Coreference T250 T249
+T251	Location-Nominal 2421 2423	故乡
+*	Coreference T251 T247
+T252	Location-Nominal 2431 2433	城墙
+T253	Person-Nominal 2439 2443	子民百姓
+T254	Location-Nominal 2451 2454	高石阶
+T255	Location-Nominal 2455 2458	古城墙
+T256	Thing-Nominal 2469 2473	花岗岩石
+T257	Thing-Nominal 2498 2501	高石阶
+T258	Thing-Nominal 2502 2505	古城墙
+T259	Location-Nominal 2529 2533	东江河畔
+R31	Near Arg1:T258 Arg2:T259	
+R32	Near Arg1:T257 Arg2:T259	
+T260	Location-Name 2535 2537	东江
+T261	Person-Pronoun 2567 2568	我
+T262	Thing-Nominal 2594 2596	野草
+T263	Location-Nominal 2587 2589	墙缝
+T264	Person-Nominal 2611 2614	野草们
+T265	Thing-Nominal 2629 2632	古城墙
+T266	Person-Pronoun 2636 2637	我
+T267	Person-Nominal 2638 2647	街坊邻居大婶大娘们
+T268	Person-Nominal 2651 2654	凤尾草
+R33	Social Arg1:T266 Arg2:T267	
+T269	Thing-Nominal 2662 2665	凤尾草
+T270	Location-Nominal 2667 2674	古城墙的缝隙间
+R34	Located Arg1:T269 Arg2:T270	
+T271	Thing-Pronoun 2696 2698	它们
+*	Coreference T271 T269 T273
+T272	Thing-Nominal 2705 2707	叶片
+R35	Part-Whole Arg1:T272 Arg2:T271	
+T273	Thing-Nominal 2713 2715	小草
+T274	Location-Name 2736 2738	惠州
+T275	Person-Nominal 2746 2748	人们
+T276	Person-Nominal 2758 2765	老一辈的惠州人
+T277	Person-Pronoun 2775 2777	他们
+*	Coreference T277 T276
+T278	Person-Nominal 2793 2797	邻家大娘
+T279	Person-Pronoun 2799 2800	我
+R36	Social Arg1:T278 Arg2:T279	
+T280	Thing-Nominal 2804 2807	凤尾草
+T281	Metric 2812 2814	2两
+T282	Time-Implicit 2829 2834	过去的年代
+T283	Person-Pronoun 2836 2837	我
+T284	Person-Nominal 2838 2842	左邻右舍
+R37	Social Arg1:T283 Arg2:T284	
+T285	Thing-Nominal 2848 2851	中草药
+R38	Use Arg1:T284 Arg2:T285	
+T286	Person-Nominal 2856 2860	百姓人家
+T287	Thing-Nominal 2875 2877;2878 2879	凤尾 草
+T288	Person-Pronoun 2882 2883	我
+T289	Time-Implicit 2899 2902	早些年
+T290	Location-Nominal 2905 2910	古城墙根儿
+T291	Location-Name 2918 2921	沿江路
+R39	Near Arg1:T291 Arg2:T290	
+T292	Location-Nominal 2922 2923	路
+*	Coreference T292 T291
+T293	Thing-Nominal 2931 2934	大叶榕
+R40	Near Arg1:T293 Arg2:T292	
+T294	Thing-Nominal 2942 2944	枝桠
+R41	Part-Whole Arg1:T294 Arg2:T293	
+T295	Thing-Nominal 2957 2960	古城墙
+T296	Location-Nominal 2973 2975	墙缝
+T297	Thing-Nominal 2979 2982	凤尾草
+R42	Located Arg1:T297 Arg2:T296	
+T298	Thing-Pronoun 2993 2994	它
+*	Coreference T298 T297
+T299	Thing-Nominal 3004 3007	古城墙
+T300	Thing-Nominal 3023 3026	凤尾草
+T301	Thing-Nominal 3030 3033	古城墙
+T302	Thing-Pronoun 3039 3040	你
+*	Coreference T302 T300
+T303	Location-Name 3046 3049	东江边
+T304	Location-Nominal 3057 3058	江
+*	Coreference T304 T303
+T305	Location-Nominal 3059 3061	对岸
+T306	Location-Nominal 3071 3073	田野
+*	Coreference T306 T305
+T307	Location-Name 3082 3086	江北新城
+T308	Location-Pronoun 3087 3089	那里
+*	Coreference T308 T307
+T309	Location-Nominal 3090 3096	我们这座城市
+T310	Location-Nominal 3097 3101	行政中心
+R43	Part-Whole Arg1:T310 Arg2:T307	
+T311	Location-Name 3104 3107	碧水湾
+T312	Location-Name 3109 3113	“丽港城
+T313	Location-Name 3116 3120	江畔花园
+T314	Location-Name 3122 3127	“城市花园
+T315	Location-Name 3129 3133	“帝景湾
+T316	Location-Nominal 3135 3139	住宅小区
+*	Coreference T315 T316 T314 T313 T312 T311
+T317	Thing-Nominal 3146 3150	高楼大厦
+R44	Located Arg1:T317 Arg2:T316	
+T318	Thing-Nominal 3160 3163	霓虹灯
+T319	Location-Nominal 3168 3172	这座古城
+T320	Thing-Nominal 3193 3196	古城墙
+T321	Location-Nominal 3189 3192	我故乡
+T322	Thing-Pronoun 3200 3201	你
+*	Coreference T322 T320
+T323	Thing-Nominal 3211 3213	老书
+T324	Thing-Pronoun 3232 3233	你
+T325	Thing-Pronoun 3260 3261	你
+T326	Thing-Nominal 3272 3275	高石阶
+T327	Thing-Nominal 3280 3283	花岗岩
+R45	Located Arg1:T326 Arg2:T327	
+T328	Location-Nominal 3286 3288	墙缝
+T329	Thing-Nominal 3289 3291	小草
+R46	Located Arg1:T329 Arg2:T328	
+T330	Thing-Pronoun 3312 3313	你
+T331	Person-Pronoun 3326 3327	我
+T332	Person-Nominal 3328 3334	我的父老乡亲
+T333	Thing-Pronoun 3338 3339	你
+T334	Thing-Pronoun 3342 3343	你
+T335	Location-Nominal 3344 3350	我们这座古城
+T336	Thing-Nominal 3357 3359	城标
+*	Coreference T334 T336

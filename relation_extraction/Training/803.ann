@@ -1,0 +1,238 @@
+T1	Person-Nominal 0 2	恩师
+T2	Person-Pronoun 6 7	我
+R1	Social Arg1:T1 Arg2:T2	
+T3	Time-Explicit 7 11	初中时代
+T4	Person-Nominal 12 16	语文老师
+T5	Person-Pronoun 19 20	她
+R2	General-Special Arg1:T1 Arg2:T4	
+*	Coreference T5 T4
+T6	Person-Pronoun 28 29	我
+T7	Person-Pronoun 55 56	我
+T8	Person-Pronoun 67 68	她
+T9	Person-Pronoun 80 81	我
+T10	Time-Implicit 94 97	小时候
+T11	Person-Pronoun 98 99	我
+T12	Person-Nominal 110 113	同龄人
+R3	Social Arg1:T11 Arg2:T12	
+T13	Person-Pronoun 130 131	我
+T14	Thing-Nominal 138 140	孤雁
+T15	Person-Nominal 146 148	自己
+*	Coreference T13 T15
+T16	Person-Pronoun 170 171	我
+T17	Person-Nominal 177 182	班上某些人
+R4	Social Arg1:T16 Arg2:T17	
+T18	Person-Pronoun 190 191	我
+T19	Person-Nominal 208 210	对方
+*	Coreference T17 T19
+T20	Person-Pronoun 236 237	我
+T21	Location-Nominal 258 261	角落里
+T22	Time-Explicit 277 281	初一年级
+T23	Person-Nominal 284 299	那位年近六十的班主任兼语文老师
+T24	Time-Implicit 318 320	这时
+T25	Person-Name 326 327;328 330	王 老师
+T26	Person-Pronoun 333 334	我
+T27	Person-Pronoun 344 345	她
+*	Coreference T27 T25
+R5	Social Arg1:T26 Arg2:T25	
+T28	Person-Pronoun 346 347	她
+T29	Person-Nominal 361 363	严师
+*	Coreference T28 T29 T31 T33
+T30	Location-Nominal 369 371	讲台
+T31	Person-Nominal 375 378	黑面神
+T32	Person-Pronoun 380 381	我
+T33	Person-Pronoun 414 415	她
+T34	Person-Pronoun 433 434	我
+T35	Person-Pronoun 453 454	她
+T36	Person-Pronoun 456 457	我
+T37	Person-Pronoun 476 477	我
+T38	Time-Implicit 496 498	此前
+T39	Person-Pronoun 499 500	我
+T40	Person-Pronoun 529 530	我
+T41	Person-Pronoun 567 568	我
+T42	Person-Pronoun 579 580	我
+T43	Person-Pronoun 595 596	我
+T44	Thing-Nominal 603 606	丑小鸭
+T45	Person-Name 613 616	王老师
+T46	Person-Pronoun 626 627	我
+T47	Thing-Nominal 646 649	作文本
+T48	Person-Pronoun 659 660	我
+T49	Person-Pronoun 681 682	我
+T50	Location-Nominal 704 706	讲台
+T51	Person-Pronoun 711 712	我
+T52	Thing-Nominal 719 721	双腿
+R6	Part-Whole Arg1:T52 Arg2:T51	
+T53	Person-Pronoun 752 753	我
+T54	Person-Nominal 758 760	自己
+*	Coreference T53 T54
+T55	Person-Pronoun 809 810	我
+T56	Location-Nominal 812 815	讲台下
+T57	Person-Nominal 820 826	瞧不起我的人
+T58	Person-Pronoun 839 840	我
+T59	Person-Pronoun 852 853	我
+T60	Person-Nominal 857 859	别人
+T61	Person-Name 870 873	王老师
+T62	Person-Pronoun 875 876	我
+T63	Person-Pronoun 887 888	我
+T64	Time-Implicit 903 905	此后
+T65	Person-Pronoun 906 907	我
+T66	Person-Pronoun 919 920	我
+T67	Thing-Nominal 935 936	纸
+T68	Person-Pronoun 945 946	我
+T69	Person-Name 953 956	王老师
+T70	Person-Pronoun 960 961	她
+*	Coreference T70 T69
+T71	Person-Pronoun 984 985	我
+T72	Person-Pronoun 996 997	我
+T73	Thing-Nominal 1000 1001	笔
+R7	Use Arg1:T72 Arg2:T73	
+T74	Time-Implicit 1002 1005	几天后
+T75	Person-Pronoun 1006 1007	我
+T76	Person-Name 1038 1041	王老师
+T77	Person-Name 1048 1051	王老师
+T78	Person-Pronoun 1056 1057	我
+T79	Time-Implicit 1067 1072	一天放学后
+T80	Person-Name 1073 1076	王老师
+T81	Person-Pronoun 1077 1078	我
+T82	Location-Nominal 1080 1083	办公室
+T83	Thing-Nominal 1086 1089	办公桌
+T84	Thing-Nominal 1094 1095	纸
+R8	Located Arg1:T84 Arg2:T83	
+R9	Located Arg1:T83 Arg2:T82	
+T85	Person-Pronoun 1101 1102	我
+T86	Person-Nominal 1122 1125	中学生
+T87	Person-Pronoun 1130 1131	我
+*	Coreference T87 T80 T91 T94
+T88	Person-Pronoun 1133 1134	你
+*	Coreference T88 T85 T89 T92 T93 T95
+T89	Person-Pronoun 1145 1146	你
+T90	Organization-Nominal 1152 1156	我们学校
+R10	Ownership Arg1:T87 Arg2:T90	
+T91	Person-Pronoun 1163 1164	我
+T92	Person-Pronoun 1167 1168	你
+T93	Person-Pronoun 1173 1174	我
+T94	Person-Pronoun 1190 1191	您
+T95	Person-Pronoun 1199 1200	我
+T96	Person-Pronoun 1209 1210	我
+T97	Thing-Nominal 1212 1216	征文启事
+T98	Person-Name 1226 1229	王老师
+T99	Person-Pronoun 1235 1236	我
+T100	Person-Pronoun 1240 1241	你
+*	Coreference T99 T100 T102
+T101	Person-Nominal 1254 1256	高手
+T102	Person-Pronoun 1266 1267	你
+T103	Person-Pronoun 1291 1292	我
+T104	Time-Implicit 1302 1308	那几天的晚上
+T105	Person-Pronoun 1309 1310	我
+T106	Time-Implicit 1326 1328	深夜
+T107	Time-Implicit 1332 1335	午夜时
+T108	Person-Pronoun 1337 1338	我
+T109	Person-Pronoun 1355 1356	我
+T110	Thing-Nominal 1361 1362	笔
+R11	Use Arg1:T109 Arg2:T110	
+T111	Time-Implicit 1379 1384	一个星期后
+T112	Person-Pronoun 1385 1386	我
+T113	Location-Nominal 1392 1394	考场
+T114	Person-Nominal 1399 1401	自己
+*	Coreference T112 T114
+T115	Metric 1420 1424	一个多月
+T116	Person-Nominal 1439 1441	自己
+T117	Person-Pronoun 1448 1449	我
+*	Coreference T117 T116
+T118	Thing-Nominal 1463 1465	泪水
+T119	Thing-Nominal 1479 1481	书桌
+T120	Thing-Nominal 1487 1488	书
+T121	Thing-Nominal 1485 1486	笔
+T122	Person-Pronoun 1499 1500	我
+T123	Person-Pronoun 1520 1521	我
+T124	Person-Pronoun 1527 1528	我
+T125	Thing-Nominal 1539 1540	笔
+R12	Ownership Arg1:T124 Arg2:T125	
+T126	Person-Pronoun 1551 1552	我
+T127	Person-Name 1564 1567	王老师
+T128	Time-Implicit 1572 1578	第二天放学后
+T129	Person-Pronoun 1579 1580	她
+*	Coreference T129 T127
+T130	Person-Pronoun 1583 1584	我
+T131	Person-Pronoun 1598 1599	我
+T132	Person-Pronoun 1602 1603	她
+T133	Person-Pronoun 1612 1613	我
+T134	Person-Nominal 1630 1632	恩师
+*	Coreference T132 T134
+T135	Person-Nominal 1633 1635	自己
+T136	Person-Pronoun 1638 1639	我
+*	Coreference T136 T135
+T137	Person-Pronoun 1650 1651	她
+T138	Person-Pronoun 1653 1654	我
+T139	Person-Pronoun 1682 1683	我
+T140	Person-Nominal 1704 1706	自己
+T141	Person-Pronoun 1719 1720	我
+*	Coreference T140 T141
+T142	Time-Implicit 1728 1731	一年后
+T143	Person-Pronoun 1732 1733	我
+T144	Person-Nominal 1740 1743	中学生
+R13	General-Special Arg1:T144 Arg2:T143	
+R14	General-Special Arg1:T86 Arg2:T88	
+T145	Thing-Nominal 1761 1763	证书
+T146	Person-Pronoun 1766 1767	我
+R15	Ownership Arg1:T146 Arg2:T145	
+T147	Person-Name 1787 1790	王老师
+T148	Time-Implicit 1795 1800	中考结束后
+T149	Person-Pronoun 1801 1802	我
+T150	Organization-Nominal 1806 1811	市重点高中
+T151	Time-Implicit 1812 1817	分别的时候
+T152	Person-Pronoun 1818 1819	我
+T153	Person-Pronoun 1831 1832	我
+T154	Person-Pronoun 1833 1834	她
+*	Coreference T147 T154
+T155	Metric 1834 1836	几年
+T156	Person-Pronoun 1846 1847	她
+T157	Person-Pronoun 1857 1858	她
+T158	Person-Nominal 1864 1866	老师
+*	Coreference T157 T158
+T159	Person-Pronoun 1875 1876	我
+T160	Person-Pronoun 1885 1886	她
+T161	Person-Pronoun 1892 1893	我
+T162	Time-Implicit 1912 1916	高中以后
+T163	Person-Pronoun 1917 1918	我
+T164	Time-Explicit 1942 1944	现在
+T165	Time-Implicit 1947 1950	工作后
+T166	Person-Pronoun 1961 1962	我
+T167	Time-Implicit 1977 1984	夜深人静的时候
+T168	Person-Pronoun 1985 1986	我
+T169	Thing-Nominal 1989 1991	电脑
+T170	Thing-Nominal 2000 2001	笔
+T171	Thing-Nominal 2002 2003	书
+T172	Thing-Nominal 2009 2013	获奖证书
+T173	Person-Pronoun 2018 2019	我
+T174	Thing-Nominal 2020 2022	书橱
+R16	Located Arg1:T172 Arg2:T174	
+R17	Ownership Arg1:T173 Arg2:T174	
+R18	Ownership Arg1:T173 Arg2:T172	
+T175	Time-Implicit 2023 2025	这时
+T176	Person-Pronoun 2026 2027	我
+T177	Person-Name 2032 2033;2034 2036	王 老师
+T178	Person-Pronoun 2045 2046	我
+T179	Person-Name 2051 2054	王老师
+T180	Time-Implicit 2059 2065	节假日的时候
+T181	Person-Pronoun 2066 2067	我
+T182	Person-Pronoun 2076 2077	她
+T183	Thing-Nominal 2071 2072	门
+T184	Person-Pronoun 2079 2080	我
+*	Coreference T182 T179
+T185	Time-Implicit 2086 2088	去年
+T186	Person-Name 2089 2092	王老师
+T187	Organization-Nominal 2093 2095	学校
+R19	Ownership Arg1:T186 Arg2:T187	
+T188	Person-Pronoun 2098 2099	我
+T189	Person-Pronoun 2104 2105	她
+T190	Person-Pronoun 2112 2113	她
+T191	Person-Pronoun 2133 2134	她
+T192	Person-Nominal 2138 2142	我的恩师
+*	Coreference T191 T192 T194
+T193	Person-Pronoun 2145 2146	我
+T194	Person-Nominal 2145 2151	我人生的贵人
+T195	Person-Pronoun 2152 2153	她
+T196	Person-Name 2155 2157	伯乐
+T197	Person-Pronoun 2163 2164	我
+T198	Person-Pronoun 2175 2176	她
+T199	Person-Pronoun 2184 2185	我

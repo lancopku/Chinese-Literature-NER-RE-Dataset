@@ -1,0 +1,167 @@
+T1	Person-Name 0 3	张国荣
+T2	Person-Nominal 0 5	张国荣哥哥
+T3	Person-Nominal 10 12	霸王
+T4	Person-Nominal 13 14	姬
+T5	Abstract 9 15	《霸王别姬》
+T6	Person-Pronoun 29 30	我
+T7	Person-Nominal 35 37	哥哥
+*	Coreference T7 T2 T9 T11 T16 T17 T19 T20 T21 T26 T27 T31 T34 T35 T39 T43
+T8	Person-Pronoun 42 44	我们
+T9	Person-Pronoun 47 48	他
+T10	Thing-Nominal 61 64	爬山虎
+T11	Person-Pronoun 71 72	你
+T12	Person-Nominal 109 111	男儿
+T13	Thing-Nominal 111 112	身
+R1	Part-Whole Arg1:T13 Arg2:T12	
+T14	Person-Pronoun 113 115	哥哥
+T15	Person-Nominal 118 120	霸王
+T16	Person-Nominal 159 164	哥哥张国荣
+T17	Person-Pronoun 168 169	他
+T18	Person-Pronoun 181 183	我们
+T19	Person-Pronoun 186 187	他
+T20	Person-Pronoun 193 196	他自己
+T21	Person-Nominal 202 204	虞姬
+T22	Person-Pronoun 213 215	我们
+T23	Person-Nominal 219 221	戏痴
+T24	Person-Nominal 222 224	戏疯
+T25	Person-Nominal 230 235	张国荣哥哥
+*	Coreference T23 T25 T24
+T26	Person-Pronoun 246 249	他自己
+T27	Person-Pronoun 251 252	他
+T28	Person-Pronoun 261 262	你
+T29	Person-Nominal 274 275	人
+T30	Thing-Nominal 288 292	旋转木马
+T31	Person-Pronoun 312 313	他
+T32	Thing-Nominal 353 354	眼
+T33	Thing-Nominal 358 359	心
+T34	Person-Pronoun 362 363	他
+T35	Person-Pronoun 367 368	他
+T36	Person-Pronoun 374 375	我
+R2	Part-Whole Arg1:T32 Arg2:T36	
+R3	Part-Whole Arg1:T33 Arg2:T36	
+T37	Person-Nominal 386 389	看戏者
+*	Coreference T37 T36
+T38	Thing-Nominal 405 406	涕
+T39	Person-Pronoun 417 419	哥哥
+T40	Person-Pronoun 431 433	我们
+R4	Part-Whole Arg1:T36 Arg2:T40	
+T41	Thing-Nominal 439 441	泪水
+R5	Part-Whole Arg1:T41 Arg2:T40	
+T42	Person-Pronoun 442 443	他
+T43	Person-Pronoun 421 422	他
+T44	Person-Nominal 463 468	张国荣哥哥
+T45	Person-Nominal 458 460	观众
+T46	Metric 454 455;456 458	一 批批
+R6	Part-Whole Arg1:T40 Arg2:T45	
+T47	Person-Name 470 473	程蝶衣
+T48	Person-Nominal 474 475	男
+T49	Person-Nominal 476 477	女
+T50	Person-Nominal 480 482	旦角
+T51	Person-Name 482 484	虞姬
+T52	Person-Nominal 486 487	人
+T53	Person-Pronoun 489 490	他
+*	Coreference T53 T47 T61 T69 T72 T74
+T54	Person-Name 492 494	虞姬
+T55	Thing-Nominal 520 521	兔
+T56	Thing-Pronoun 528 529	我
+*	Coreference T56 T55
+T57	Location-Nominal 545 547	戏园
+T58	Person-Nominal 549 551	观众
+T59	Thing-Nominal 562 563	手
+R7	Part-Whole Arg1:T59 Arg2:T58	
+T60	Location-Nominal 568 570	舞台
+T61	Person-Pronoun 572 573	他
+T62	Person-Nominal 595 596	人
+T63	Person-Name 606 609	张爱玲
+T64	Person-Pronoun 613 614	你
+T65	Person-Pronoun 617 618	我
+*	Coreference T65 T63
+T66	Thing-Nominal 637 638	心
+R8	Part-Whole Arg1:T66 Arg2:T65	
+T67	Thing-Nominal 651 652	花
+T68	Metric 649 651	一朵
+T69	Person-Name 656 658	蝶衣
+T70	Person-Name 659 662	段小楼
+T71	Person-Pronoun 669 670	他
+*	Coreference T71 T70 T73 T75
+T72	Person-Pronoun 692 693	你
+T73	Person-Pronoun 698 699	我
+T74	Person-Nominal 694 697	真虞姬
+T75	Person-Nominal 700 703	假霸王
+T76	Person-Nominal 705 706	人
+T77	Person-Name 719 722	段小楼
+T78	Person-Pronoun 728 730	自己
+*	Coreference T78 T77 T80
+T79	Person-Nominal 743 747	真的霸王
+T80	Person-Pronoun 750 751	他
+T81	Person-Name 763 765	蝶衣
+T82	Person-Nominal 783 785	观众
+T83	Person-Pronoun 790 791	他
+*	Coreference T83 T81
+T84	Person-Pronoun 802 803	他
+T85	Person-Pronoun 826 828	我们
+T86	Person-Nominal 861 863	虞姬
+T87	Person-Pronoun 871 872	他
+T88	Thing-Nominal 914 916	篝火
+T89	Thing-Nominal 917 919	战马
+T90	Thing-Nominal 920 922	狂沙
+T91	Person-Nominal 925 927	英雄
+T92	Person-Nominal 930 932	美人
+T93	Metric 940 942	一幅
+T94	Person-Nominal 952 956	末路英雄
+*	Coreference T94 T91 T97 T101 T102
+T95	Person-Nominal 974 978	江东父老
+T96	Person-Name 997 999	刘邦
+T97	Person-Pronoun 1012 1014	自己
+T98	Person-Nominal 1021 1023	贤臣
+T99	Person-Nominal 1049 1053	美人虞姬
+*	Coreference T99 T92 T87 T86 T100 T104
+T100	Person-Nominal 1067 1069	美人
+T101	Person-Nominal 1076 1078	君王
+T102	Person-Nominal 1094 1095	君
+T103	Person-Pronoun 1100 1102	我们
+T104	Person-Nominal 1109 1111	红颜
+T105	Person-Name 1121 1123	蝶衣
+T106	Person-Nominal 1132 1133	人
+T107	Person-Nominal 1149 1151	虞姬
+T108	Thing-Nominal 1159 1161	身体
+R9	Part-Whole Arg1:T108 Arg2:T105	
+T109	Person-Pronoun 1174 1175	他
+*	Coreference T109 T105
+T110	Person-Nominal 1190 1191	人
+T111	Thing-Nominal 1192 1194	牢笼
+T112	Person-Nominal 1195 1196	人
+T113	Person-Pronoun 1201 1203	自我
+*	Coreference T113 T112
+T114	Person-Nominal 1244 1246	名角
+T115	Person-Nominal 1269 1271	名角
+T116	Person-Nominal 1279 1281	常人
+T117	Person-Nominal 1302 1303	人
+T118	Person-Nominal 1307 1308	人
+T119	Location-Nominal 1312 1314	台上
+T120	Location-Nominal 1318 1320	台下
+T121	Thing-Nominal 1345 1347	苦药
+T122	Person-Pronoun 1351 1352	你
+T123	Thing-Nominal 1378 1380	抚尺
+T124	Thing-Nominal 1383 1384	锣
+T125	Thing-Nominal 1387 1388	身
+T126	Thing-Nominal 1394 1396	手势
+T127	Thing-Nominal 1407 1409	京戏
+T128	Thing-Nominal 1410 1412	国粹
+*	Coreference T128 T127
+T129	Person-Nominal 1429 1431	人们
+T130	Thing-Nominal 1444 1445	手
+T131	Thing-Nominal 1446 1447	足
+T132	Thing-Nominal 1449 1450	眉
+T133	Thing-Nominal 1450 1451	眼
+T134	Person-Nominal 1457 1459	演员
+T135	Person-Pronoun 1494 1496	哥哥
+*	Coreference T135 T44 T137 T138 T141
+T136	Person-Pronoun 1500 1502	我们
+T137	Person-Pronoun 1505 1506	他
+T138	Person-Pronoun 1519 1520	他
+T139	Person-Nominal 1521 1523	观众
+R10	Part-Whole Arg1:T136 Arg2:T139	
+T140	Person-Pronoun 1530 1532	我们
+*	Coreference T140 T136
+T141	Person-Pronoun 1557 1558	君

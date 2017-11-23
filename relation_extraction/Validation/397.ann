@@ -1,0 +1,114 @@
+T2	Time-Implicit 8 10	每天
+T1	Thing-Nominal 4 8	有些东西
+T3	Thing-Nominal 20 24	有的东西
+T4	Thing-Pronoun 38 39	它
+*	Coreference T4 T3
+T5	Location-Nominal 40 44	心灵深处
+T6	Thing-Nominal 44 49	打下的烙印
+R1	Located Arg1:T6 Arg2:T5	
+T7	Location-Nominal 56 59	那年春
+T8	Person-Pronoun 60 61	我
+T9	Location-Nominal 63 65	本村
+T10	Organization-Nominal 63 67	本村学校
+T11	Thing-Nominal 71 73	住房
+T12	Thing-Nominal 78 85	靠近院子的竹园
+T13	Thing-Nominal 87 90	一小块
+R2	Part-Whole Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 93 97	一间房子
+R3	Located Arg1:T14 Arg2:T13	
+T15	Person-Pronoun 98 99	我
+T16	Location-Pronoun 101 103	那里
+T17	Location-Nominal 93 97	一间房子
+*	Coreference T16 T17
+T18	Time-Implicit 107 109	一天
+T19	Thing-Nominal 115 118	办公桌
+T20	Location-Nominal 115 122	办公桌下砖缝里
+T21	Thing-Nominal 124 137	一个一寸来高毛茸茸的小东西
+R4	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 119 121	砖缝
+T23	Thing-Nominal 146 157	一株破缝而出的竹笋幼芽
+T24	Metric 124 126	一个
+T25	Metric 126 128	一寸
+T26	Metric 146 148	一株
+T27	Thing-Pronoun 158 159	她
+T28	Person-Nominal 160 167	一个莽撞的顽童
+T29	Person-Pronoun 176 177	我
+T30	Person-Nominal 182 184	人们
+T31	Person-Pronoun 199 200	我
+T32	Thing-Nominal 202 206	这株幼芽
+T33	Person-Pronoun 214 215	我
+T34	Thing-Nominal 219 221	幼芽
+T35	Thing-Pronoun 240 241	她
+T36	Person-Pronoun 257 258	我
+T37	Thing-Nominal 270 272	桌子
+*	Coreference T37 T19
+T38	Thing-Nominal 275 278	两块转
+T39	Thing-Pronoun 280 281	她
+T40	Thing-Pronoun 298 299	她
+T41	Thing-Pronoun 301 302	她
+T42	Thing-Nominal 304 307	同类们
+T43	Thing-Nominal 319 321	笋儿
+T44	Thing-Pronoun 334 335	她
+T45	Thing-Nominal 336 337	节
+R5	Part-Whole Arg1:T45 Arg2:T44	
+T46	Thing-Nominal 341 343	篱笆
+T47	Person-Pronoun 362 363	我
+T48	Metric 371 375	一夜之间
+T49	Thing-Pronoun 376 377	她
+T50	Metric 381 385	好几公分
+T51	Time-Implicit 386 390	时隔几天
+T52	Person-Pronoun 391 392	她
+T53	Metric 395 397	尺把
+T54	Thing-Pronoun 402 403	她
+T55	Thing-Nominal 403 410	那嫩黄色的裙衣
+R6	Part-Whole Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 419 423	点点斑痕
+R7	Located Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 430 440;441 448	那丰满圆润和富有气节 的玉洁冰清之体
+R8	Part-Whole Arg1:T57 Arg2:T54	
+T58	Person-Pronoun 449 450	我
+T59	Thing-Pronoun 475 476	她
+T60	Thing-Pronoun 452 453	其
+*	Coreference T59 T60
+T61	Thing-Pronoun 486 487	她
+T62	Thing-Nominal 490 496	园子内的笋儿
+T63	Location-Nominal 511 517	这世俗的环境
+T64	Person-Nominal 521 525	时间老人
+T65	Thing-Nominal 526 532	最珍贵的礼品
+T66	Thing-Nominal 534 538	世间万物
+T67	Time-Implicit 539 541	这时
+T68	Thing-Nominal 539 544	这时的笋儿
+T69	Metric 546 550	一人多高
+T70	Thing-Nominal 554 562	层层叠叠褐色衣裙
+R9	Part-Whole Arg1:T70 Arg2:T68	
+T71	Thing-Nominal 563 565	枝干
+R10	Part-Whole Arg1:T71 Arg2:T68	
+T72	Location-Nominal 576 578	窗前
+T73	Person-Pronoun 579 580	我
+T74	Thing-Nominal 603 605	竹子
+T75	Thing-Pronoun 606 607	她
+T76	Thing-Nominal 616 618	枝条
+R11	Part-Whole Arg1:T76 Arg2:T74	
+T77	Person-Pronoun 636 637	我
+T78	Thing-Nominal 673 675	窗门
+T79	Thing-Pronoun 679 680	她
+T80	Thing-Nominal 684 686	阳光
+T81	Person-Pronoun 713 714	我
+T82	Location-Nominal 737 739	校园
+T83	Thing-Nominal 744 751	一株碧绿的青云
+T84	Thing-Nominal 765 767	竹子
+*	Coreference T83 T84 T74 T23 T21 T27 T32 T43 T68 T75 T96
+T85	Person-Pronoun 769 770	我
+T86	Thing-Pronoun 782 783	她
+T87	Thing-Nominal 783 785	枝叶
+R12	Part-Whole Arg1:T87 Arg2:T84	
+T88	Thing-Nominal 791 793	屋檐
+T89	Thing-Nominal 796 798	蓝天
+T90	Location-Nominal 802 805	窗棂处
+T91	Thing-Nominal 809 816	“S”形的曲线
+T92	Thing-Nominal 822 827	黑色的凹陷
+T93	Thing-Pronoun 869 870	她
+T94	Time-Implicit 898 903	时隔十来年
+T95	Thing-Nominal 909 911	竹子
+T96	Thing-Nominal 916 920	那棵竹子
+T97	Time-Implicit 948 950	明天

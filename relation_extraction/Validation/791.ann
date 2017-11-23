@@ -1,0 +1,126 @@
+T1	Location-Nominal 0 8	一望无际的黑土地
+T2	Thing-Nominal 10 11	冰
+T3	Thing-Nominal 14 15	雪
+T4	Thing-Nominal 23 25	春风
+T5	Person-Nominal 30 34	天真少年
+T6	Metric 28 30	一个
+T7	Thing-Nominal 36 38	风筝
+T8	Thing-Nominal 49 50	风
+T9	Person-Pronoun 53 54	他
+*	Coreference T9 T5
+T10	Thing-Nominal 55 57	衣角
+T11	Thing-Nominal 59 60;61 64	他 的长发
+R1	Part-Whole Arg1:T11 Arg2:T5	
+T12	Thing-Nominal 71 77	他自做的风筝
+*	Coreference T12 T7
+T13	Location-Nominal 90 96	北方早春大地
+T14	Thing-Nominal 106 108	夕阳
+T15	Location-Nominal 113 114	山
+T16	Thing-Nominal 116 121	火红的晚霞
+T17	Location-Nominal 124 126	大地
+T18	Thing-Nominal 129 130	草
+T19	Thing-Nominal 131 132	木
+T20	Location-Nominal 133 137	远处村庄
+T21	Thing-Nominal 141 145	袅袅炊烟
+T22	Metric 146 148	一个
+T23	Person-Nominal 148 157	浑身湿透的赤足少年
+T24	Metric 159 161	一串
+T25	Thing-Nominal 161 166	沉甸甸的鱼
+T26	Person-Pronoun 178 179	他
+*	Coreference T26 T23
+T27	Time-Implicit 184 188	明天早上
+T28	Time-Implicit 176 178	这时
+T29	Location-Nominal 199 201	层林
+T30	Location-Nominal 204 206	万山
+T31	Location-Nominal 209 211	大地
+T32	Thing-Nominal 216 221	晚归的牛群
+T33	Person-Nominal 222 224	牧人
+T34	Metric 238 240	一个
+T35	Person-Nominal 241 247	几岁的中学生
+T36	Thing-Nominal 250 255	自制的画板
+T37	Thing-Nominal 248 249	肩
+R2	Part-Whole Arg1:T37 Arg2:T35	
+R3	Located Arg1:T36 Arg2:T37	
+T38	Thing-Nominal 256 257	手
+R4	Part-Whole Arg1:T38 Arg2:T35	
+T39	Thing-Nominal 261 263	唐诗
+T40	Metric 258 259;260 261	一 本
+R5	Located Arg1:T39 Arg2:T38	
+T41	Person-Pronoun 264 265	他
+*	Coreference T41 T35
+T42	Person-Nominal 287 299	描绘田园风光的诗人和画家
+T43	Metric 285 287	一个
+T44	Location-Nominal 275 279	山山水水
+T45	Location-Nominal 301 306	过膝的大雪
+T46	Location-Nominal 307 312	凛冽的寒风
+T47	Person-Nominal 315 324	背着沉重书包的青年
+T48	Metric 313 315	一个
+T49	Location-Nominal 328 330	山岗
+T50	Person-Pronoun 334 335	他
+T51	Location-Nominal 341 343	雪国
+T52	Location-Nominal 351 353	雪地
+T53	Person-Pronoun 363 364	他
+*	Coreference T53 T47 T54
+T54	Person-Pronoun 380 382	自己
+T55	Location-Nominal 396 397	京
+T56	Thing-Nominal 406 408	汽车
+T57	Time-Implicit 395 405	赴京求学的第一个寒假
+T58	Person-Nominal 409 413	我一个人
+T59	Location-Nominal 416 427	家乡那个清冷的临时小站
+T60	Person-Pronoun 429 430	我
+*	Coreference T60 T58
+T61	Thing-Nominal 437 455	没有一丝尘杂的北方冬季里这凉凉的空气
+T62	Metric 435 437	一口
+T63	Person-Pronoun 469 470	我
+T64	Person-Pronoun 478 479	我
+T65	Location-Nominal 482 484	故乡
+T66	Location-Nominal 499 501	大地
+T67	Thing-Nominal 508 510	晚霞
+T68	Location-Nominal 518 519	河
+T69	Thing-Nominal 524 525	鱼
+T70	Time-Implicit 526 528	冬天
+T71	Thing-Nominal 531 532	雪
+T72	Thing-Nominal 533 535	空气
+T73	Location-Nominal 568 570	猎圈
+T74	Location-Nominal 558 560	村尾
+T75	Location-Nominal 556 558	村头
+T76	Location-Nominal 571 573	鸡场
+T77	Thing-Nominal 582 584	污水
+T78	Time-Implicit 590 592	那年
+T79	Thing-Nominal 605 606	雨
+T80	Thing-Nominal 627 629	粮食
+T81	Location-Nominal 636 643	产粮大市的家乡
+*	Coreference T81 T65
+T82	Thing-Nominal 649 651	粮食
+T83	Thing-Nominal 652 654	种子
+T84	Thing-Nominal 654 656	肥料
+T85	Person-Nominal 659 662	孩子们
+T86	Organization-Nominal 670 675	市里的学校
+T87	Person-Nominal 683 685	农民
+T88	Person-Nominal 708 711	青壮年
+T89	Location-Nominal 719 721	城市
+T90	Person-Nominal 724 728	天真少年
+T91	Person-Nominal 734 738	纯真少女
+T92	Person-Nominal 744 746	三陪
+T93	Person-Nominal 747 750	冼头妹
+T94	Person-Nominal 751 754	按摩女
+T95	Time-Implicit 760 763	学生时
+T96	Person-Pronoun 763 764	我
+T97	Location-Nominal 763 785	我常去写生的那个风景宜人而幽静的水库风景区,
+T98	Location-Nominal 796 812	旅游&quot;度假村&quot
+T99	Person-Pronoun 814 815	我
+T100	Location-Nominal 840 842	故乡
+T101	Person-Pronoun 847 848	我
+T102	Location-Pronoun 856 857	你
+*	Coreference T102 T100 T112 T113
+T103	Person-Nominal 895 900	乡亲父老们
+T104	Person-Nominal 911 914	少年们
+T105	Thing-Nominal 915 916	脸
+T106	Person-Nominal 922 924	少女
+T107	Thing-Nominal 952 954	沙尘
+T108	Thing-Nominal 955 957	雾霾
+T109	Person-Nominal 965 968	孩子们
+T110	Thing-Nominal 965 971	孩子们的风筝
+T111	Thing-Nominal 986 988	透雨
+T112	Location-Nominal 991 995	我的故乡
+T113	Location-Nominal 1013 1027	我已逝去的那个魂牵梦绕的故乡

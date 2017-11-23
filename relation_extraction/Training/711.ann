@@ -1,0 +1,150 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 5 7	院落
+T3	Thing-Nominal 14 16	植物
+T4	Thing-Nominal 17 19	雀鸟
+T5	Thing-Nominal 20 22	昆虫
+T6	Thing-Pronoun 23 25	它们
+R1	Part-Whole Arg1:T5 Arg2:T6	
+R2	Part-Whole Arg1:T4 Arg2:T6	
+R3	Part-Whole Arg1:T3 Arg2:T6	
+T7	Metric 30 32	一支
+T8	Thing-Nominal 32 37	天使小乐队
+*	Coreference T8 T6
+T9	Time-Implicit 56 60	夏末秋初
+T10	Thing-Nominal 61 64	南瓜藤
+T11	Thing-Nominal 71 73	茎叶
+R4	Part-Whole Arg1:T11 Arg2:T10	
+T12	Location-Nominal 80 83	绿草丛
+T13	Thing-Pronoun 97 99	它们
+*	Coreference T13 T10 T19
+T14	Thing-Nominal 122 124	雨露
+T15	Thing-Nominal 125 127	阳光
+T16	Thing-Nominal 128 130	沃土
+T17	Thing-Nominal 136 138	黄桂
+T18	Thing-Nominal 148 150	草根
+T19	Thing-Pronoun 165 168	探险家
+T20	Person-Pronoun 211 213	我们
+T21	Person-Nominal 215 216	人
+T22	Thing-Nominal 244 247	南瓜藤
+T23	Thing-Nominal 249 250	肺
+T24	Thing-Nominal 252 253	胃
+T25	Thing-Pronoun 269 271	它们
+*	Coreference T25 T22 T34
+T26	Thing-Nominal 287 289	身姿
+R5	Located Arg1:T26 Arg2:T25	
+T27	Metric 292 294	几个
+T28	Person-Nominal 294 297	小学生
+T29	Thing-Nominal 309 314	硕大的叶子
+R6	Part-Whole Arg1:T29 Arg2:T22	
+T30	Metric 319 322	一朵朵
+T31	Thing-Nominal 322 328	金黄色南瓜花
+R7	Located Arg1:T31 Arg2:T22	
+T32	Thing-Nominal 334 337	小喇叭
+*	Coreference T32 T31
+T33	Person-Pronoun 340 341	我
+T34	Thing-Pronoun 351 353	它们
+T35	Location-Nominal 354 356	院子
+T36	Thing-Nominal 358 361	大香樟
+T37	Thing-Nominal 362 365	高水杉
+T38	Thing-Nominal 367 371	矮柿子树
+T39	Thing-Nominal 372 376	野橘子树
+T40	Thing-Nominal 387 388	风
+T41	Thing-Nominal 391 392	蝶
+T42	Thing-Nominal 392 393	鸟
+T43	Person-Pronoun 406 407	我
+T44	Thing-Nominal 416 418	瓜藤
+T45	Location-Nominal 416 421	瓜藤的旁边
+T46	Metric 422 424	一株
+T47	Thing-Nominal 424 426;427 428	夹竹 桃
+T48	Thing-Nominal 434 435	花
+T49	Person-Name 448 456	理查德・克莱德曼
+T50	Abstract 458 465	《秋日的私语》
+T51	Thing-Pronoun 467 468	它
+*	Coreference T51 T47 T53
+T52	Thing-Nominal 491 492	根
+R8	Part-Whole Arg1:T52 Arg2:T51	
+T53	Thing-Pronoun 477 478	它
+T54	Person-Pronoun 499 500	我
+T55	Thing-Pronoun 503 504	它
+T56	Metric 511 514	一朵朵
+T57	Thing-Nominal 514 522	鲜活的粉红色花儿
+R9	Part-Whole Arg1:T57 Arg2:T53	
+T58	Thing-Nominal 529 532	夹竹桃
+T59	Thing-Nominal 534 535	尘
+T60	Thing-Nominal 536 540	有毒气体
+T61	Thing-Pronoun 550 551	它
+*	Coreference T61 T58 T62
+T62	Thing-Nominal 558 563	自然清洁工
+T63	Location-Nominal 577 580	院墙边
+T64	Thing-Nominal 581 584	香樟树
+T65	Thing-Pronoun 586 590	这棵樟树
+*	Coreference T65 T64 T67 T74 T120 T125
+T66	Person-Pronoun 592 593	我
+T67	Thing-Pronoun 602 603	它
+T68	Organization-Nominal 605 608	共和国
+T69	Person-Pronoun 612 614	我们
+T70	Organization-Nominal 616 618	学校
+T71	Person-Nominal 619 623	首任校长
+T72	Person-Name 623 626	陈昌茂
+T73	Person-Name 614 626	这所学校的首任校长陈昌茂
+T74	Thing-Nominal 640 642	校树
+T75	Thing-Pronoun 646 647	它
+T76	Thing-Nominal 652 654	枝叶
+R10	Located Arg1:T75 Arg2:T76	
+T77	Thing-Pronoun 671 672	它
+T78	Thing-Nominal 678 679	风
+T79	Thing-Nominal 680 681	雨
+T80	Thing-Nominal 682 683	霜
+T81	Thing-Nominal 684 685	雪
+T82	Time-Explicit 694 704	2007年冬那场雪灾
+T83	Thing-Pronoun 706 707	它
+T84	Thing-Nominal 708 710	枝桠
+R11	Part-Whole Arg1:T84 Arg2:T83	
+T85	Thing-Pronoun 723 724	它
+T86	Thing-Pronoun 727 728	我
+*	Coreference T86 T85
+T87	Time-Implicit 749 751	春秋
+T88	Thing-Pronoun 752 753	它
+T89	Thing-Nominal 754 755	风
+T90	Person-Nominal 758 759	人
+T91	Thing-Nominal 759 760	心
+T92	Thing-Nominal 760 761	脾
+R12	Part-Whole Arg1:T91 Arg2:T90	
+R13	Part-Whole Arg1:T92 Arg2:T90	
+T93	Thing-Nominal 769 771	蟋蟀
+T94	Thing-Nominal 773 775	昆虫
+R14	General-Special Arg1:T94 Arg2:T93	
+T95	Person-Pronoun 782 784	我们
+T96	Thing-Nominal 800 801	种
+T97	Time-Implicit 805 807	夏天
+T98	Thing-Pronoun 808 809	它
+T99	Thing-Nominal 812 814	麻雀
+T100	Thing-Nominal 815 818	山喜鹊
+T101	Thing-Nominal 819 821	鸣蝉
+T102	Person-Pronoun 842 844	我们
+T103	Time-Implicit 865 867	冬日
+T104	Thing-Pronoun 868 869	它
+T105	Thing-Nominal 876 877	雪
+T106	Thing-Nominal 880 881	松
+T107	Thing-Nominal 881 882	柏
+T108	Thing-Nominal 886 887	竹
+T109	Thing-Nominal 887 888	梅
+T110	Person-Pronoun 893 894	我
+T111	Thing-Nominal 897 899	太阳
+T112	Location-Nominal 920 922	院落
+T113	Organization-Nominal 939 941	国家
+T114	Location-Nominal 946 948	农村
+T115	Location-Nominal 953 955	校舍
+T116	Thing-Nominal 968 969	花
+T117	Thing-Nominal 971 972	草
+T118	Location-Nominal 974 976	院子
+T119	Thing-Nominal 982 984	水泥
+T120	Thing-Pronoun 993 998	那棵大香樟
+T121	Person-Pronoun 1011 1012	我
+T122	Thing-Nominal 1013 1014	眼
+R15	Part-Whole Arg1:T122 Arg2:T121	
+T123	Person-Pronoun 1020 1021	我
+T124	Thing-Nominal 1024 1025	心
+R16	Part-Whole Arg1:T124 Arg2:T123	
+T125	Thing-Pronoun 1027 1028	树
+T126	Location-Nominal 1047 1049	院落

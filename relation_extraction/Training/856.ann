@@ -1,0 +1,225 @@
+T1	Time-Implicit 0 2	儿时
+T2	Person-Pronoun 3 4	我
+T3	Thing-Nominal 8 10	灯笼
+T4	Thing-Nominal 13 15	灯笼
+T5	Time-Implicit 19 21	现在
+T6	Thing-Nominal 22 24	灯笼
+T7	Thing-Nominal 38 40	自己
+*	Coreference T7 T4 T8
+T8	Thing-Pronoun 55 56	它
+T9	Person-Pronoun 68 69	你
+T10	Time-Implicit 76 78	那时
+T11	Thing-Nominal 79 81	灯笼
+T12	Person-Nominal 84 86	父母
+T13	Person-Nominal 92 94	父母
+T14	Time-Implicit 107 109	那时
+T15	Location-Nominal 109 111	家里
+T16	Thing-Nominal 112 113	钱
+T17	Thing-Nominal 114 116	灯笼
+T18	Person-Nominal 122 124	父母
+T19	Thing-Nominal 131 132	手
+R1	Ownership Arg1:T18 Arg2:T19	
+T20	Person-Pronoun 133 135	他们
+*	Coreference T20 T18 T21
+T21	Person-Nominal 137 139	自己
+T22	Thing-Nominal 140 141	手
+T23	Person-Pronoun 147 149	我们
+T24	Person-Nominal 149 153	这些孩子
+*	Coreference T23 T24
+T25	Person-Pronoun 157 159	他们
+R2	Family Arg1:T25 Arg2:T23	
+T26	Person-Pronoun 164 166	我们
+T27	Person-Nominal 166 170	这些孩子
+*	Coreference T26 T27
+T28	Person-Pronoun 178 180	他们
+*	Coreference T25 T28
+T29	Person-Nominal 183 187	我们孩子
+T30	Person-Nominal 196 199	父母亲
+T31	Thing-Nominal 201 202	纸
+T32	Thing-Nominal 204 206	灯笼
+R3	Part-Whole Arg1:T31 Arg2:T32	
+T33	Time-Implicit 209 211	正月
+T34	Thing-Nominal 214 216	花灯
+T35	Person-Nominal 223 225	父亲
+T36	Person-Pronoun 240 241	他
+*	Coreference T35 T36
+T37	Thing-Nominal 242 244	锯子
+R4	Use Arg1:T36 Arg2:T37	
+T38	Thing-Nominal 246 253	几个方形木片片
+T39	Thing-Nominal 258 260	铁丝
+T40	Thing-Nominal 261 264	木片片
+T41	Thing-Nominal 270 274	两个眼眼
+R5	Located Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 276 281	一截细铁丝
+T43	Thing-Nominal 293 299	木片片的眼眼
+R6	Located Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 307 308	钩
+T45	Thing-Nominal 313 316	木片片
+T46	Thing-Nominal 319 321	灯笼
+T47	Thing-Nominal 322 324	架子
+R7	Part-Whole Arg1:T47 Arg2:T46	
+T48	Thing-Nominal 331 333	巧手
+T49	Thing-Nominal 335 338	红灯笼
+T50	Person-Nominal 345 347	母亲
+T51	Person-Nominal 350 352	父亲
+R8	Family Arg1:T50 Arg2:T51	
+T52	Person-Nominal 363 365	母亲
+T53	Thing-Nominal 365 366	手
+R9	Part-Whole Arg1:T53 Arg2:T52	
+T54	Thing-Nominal 367 369	剪刀
+R10	Located Arg1:T54 Arg2:T53	
+R11	Use Arg1:T52 Arg2:T54	
+T55	Thing-Nominal 374 378	灯笼架子
+T56	Thing-Nominal 387 389	纸张
+T57	Thing-Nominal 401 402	纸
+T58	Thing-Nominal 410 414	灯笼架子
+R12	Located Arg1:T57 Arg2:T58	
+T59	Thing-Nominal 421 423	灯笼
+T60	Person-Nominal 431 433	父母
+T61	Thing-Nominal 435 437	灯笼
+T62	Thing-Nominal 441 443	兔子
+T63	Thing-Nominal 446 450	兔娃灯笼
+T64	Thing-Nominal 454 456	小鸡
+T65	Thing-Nominal 459 463	鸡娃灯笼
+T66	Thing-Nominal 438 440	有的
+T67	Thing-Nominal 451 453	有的
+*	Coreference T66 T63
+*	Coreference T67 T65
+T68	Thing-Nominal 464 466	有的
+T69	Thing-Nominal 467 469	小狗
+T70	Thing-Nominal 472 476	狗娃灯笼
+*	Coreference T68 T70
+T71	Thing-Nominal 477 479	有的
+T72	Thing-Nominal 480 482	小猪
+T73	Thing-Nominal 485 489	猪娃灯笼
+*	Coreference T71 T73
+T74	Thing-Nominal 490 491;492 493	有 的
+T75	Thing-Nominal 494 496	小猫
+T76	Thing-Nominal 499 503	猫娃灯笼
+*	Coreference T74 T76
+T77	Thing-Nominal 511 513	灯笼
+R13	General-Special Arg1:T63 Arg2:T77	
+R14	General-Special Arg1:T65 Arg2:T77	
+R15	General-Special Arg1:T70 Arg2:T77	
+R16	General-Special Arg1:T73 Arg2:T77	
+R17	General-Special Arg1:T76 Arg2:T77	
+T78	Person-Nominal 538 540	父母
+T79	Person-Nominal 550 552	父母
+T80	Thing-Nominal 556 558	动物
+T81	Thing-Pronoun 563 565	它们
+*	Coreference T81 T80
+T82	Thing-Nominal 568 572	艺术作品
+R18	General-Special Arg1:T77 Arg2:T82	
+R19	General-Special Arg1:T62 Arg2:T80	
+R20	General-Special Arg1:T64 Arg2:T80	
+R21	General-Special Arg1:T69 Arg2:T80	
+R22	General-Special Arg1:T72 Arg2:T80	
+R23	General-Special Arg1:T75 Arg2:T80	
+T83	Person-Nominal 577 579	父母
+T84	Person-Nominal 580 582	自己
+*	Coreference T83 T84
+T85	Thing-Nominal 584 586	灯笼
+R24	Create Arg1:T83 Arg2:T85	
+T86	Person-Pronoun 589 591	我们
+T87	Person-Nominal 591 595	这些孩子
+*	Coreference T86 T87 T88
+R25	Family Arg1:T83 Arg2:T86	
+T88	Person-Pronoun 597 599	我们
+T89	Thing-Nominal 603 605	灯笼
+T90	Person-Nominal 611 613	同伴
+R26	Social Arg1:T88 Arg2:T90	
+R27	Ownership Arg1:T88 Arg2:T89	
+T91	Time-Explicit 621 625	正月初十
+T92	Time-Implicit 629 631	这天
+*	Coreference T92 T91
+T93	Person-Pronoun 638 640	我们
+T94	Person-Nominal 640 644	这些孩子
+*	Coreference T93 T94 T95
+T95	Person-Nominal 647 649	自己
+T96	Thing-Nominal 650 652	灯笼
+R28	Ownership Arg1:T95 Arg2:T96	
+T97	Thing-Nominal 656 657	门
+T98	Thing-Nominal 662 663	门
+T99	Thing-Nominal 666 668	灯笼
+T100	Location-Nominal 674 676	村子
+T101	Thing-Nominal 677 679	灯笼
+T102	Location-Nominal 681 683	村子
+T103	Person-Nominal 684 686	孩子
+T104	Location-Nominal 688 690	村子
+T105	Location-Nominal 697 699	村子
+T106	Location-Nominal 706 708	山村
+*	Coreference T106 T105
+T107	Person-Pronoun 721 723	我们
+T108	Thing-Nominal 725 727	灯笼
+R29	Ownership Arg1:T107 Arg2:T108	
+T109	Location-Nominal 734 736	东头
+T110	Location-Nominal 738 740	西头
+T111	Location-Nominal 743 745	南边
+T112	Location-Nominal 747 749	北边
+T113	Person-Nominal 756 761	同村的伙伴
+R30	Social Arg1:T107 Arg2:T113	
+T114	Person-Pronoun 773 775	我们
+T115	Thing-Nominal 788 790	灯笼
+T116	Thing-Nominal 795 797	灯笼
+T117	Person-Nominal 799 801	大家
+*	Coreference T117 T114
+T118	Thing-Nominal 816 818	灯笼
+T119	Person-Nominal 785 787	谁谁
+T120	Person-Nominal 792 794	谁谁
+T121	Person-Nominal 814 815	谁
+T122	Person-Pronoun 820 821	他
+*	Coreference T122 T121
+T123	Person-Nominal 820 822	他妈
+R31	Family Arg1:T122 Arg2:T123	
+T124	Person-Nominal 826 827	谁
+T125	Thing-Nominal 828 830	灯笼
+T126	Person-Pronoun 832 833	他
+*	Coreference T126 T124
+T127	Person-Nominal 832 834	他妈
+R32	Family Arg1:T126 Arg2:T127	
+T128	Thing-Nominal 836 837	灰
+T129	Person-Pronoun 839 841	我们
+T130	Thing-Nominal 844 846	灯笼
+R33	Ownership Arg1:T129 Arg2:T130	
+R34	Ownership Arg1:T121 Arg2:T118	
+R35	Ownership Arg1:T124 Arg2:T125	
+R36	Ownership Arg1:T119 Arg2:T115	
+R37	Ownership Arg1:T120 Arg2:T116	
+T131	Time-Implicit 861 863	当时
+T132	Person-Pronoun 864 865	我
+T133	Thing-Nominal 884 885	人
+T134	Person-Pronoun 890 892	我们
+T135	Time-Implicit 917 919	深夜
+T136	Person-Pronoun 920 922	我们
+T137	Location-Nominal 937 938	家
+T138	Location-Nominal 941 942	家
+T139	Person-Pronoun 943 945	我们
+T140	Thing-Nominal 948 950	灯笼
+R38	Ownership Arg1:T139 Arg2:T140	
+T141	Location-Nominal 951 953	屋子
+T142	Person-Nominal 957 959	父母
+T143	Person-Pronoun 961 963	我们
+R39	Family Arg1:T142 Arg2:T143	
+T144	Time-Explicit 970 975	正月十五夜
+T145	Time-Explicit 977 980	元宵节
+T146	Time-Implicit 981 983	这夜
+*	Coreference T144 T145 T146 T150
+T147	Person-Pronoun 984 986	我们
+T148	Thing-Nominal 990 992	灯笼
+R40	Ownership Arg1:T147 Arg2:T148	
+T149	Location-Nominal 1004 1006	山村
+T150	Time-Implicit 1011 1013	这夜
+T151	Time-Implicit 1011 1016	这夜睡下后
+T152	Person-Pronoun 1017 1018	我
+T153	Person-Nominal 1025 1027	自己
+*	Coreference T152 T153
+T154	Person-Nominal 1030 1032	同伴
+R41	Social Arg1:T153 Arg2:T154	
+T155	Thing-Nominal 1043 1046	红灯笼
+R42	Ownership Arg1:T153 Arg2:T155	
+R43	Ownership Arg1:T154 Arg2:T155	
+T156	Thing-Nominal 1048 1051	红灯笼
+T157	Thing-Nominal 1054 1056	大地
+T158	Person-Pronoun 1061 1063	我们
+T159	Time-Implicit 1064 1066	童年
+T160	Thing-Nominal 1075 1076	人

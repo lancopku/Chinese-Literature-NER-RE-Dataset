@@ -1,0 +1,200 @@
+T1	Person-Pronoun 0 2	我们
+T2	Thing-Pronoun 15 16	这
+T3	Location-Name 18 25	金寨县响洪甸镇
+T4	Location-Name 28 30	齐云
+T5	Location-Nominal 31 33	地方
+*	Coreference T5 T4
+T6	Location-Nominal 37 39	山根
+T7	Location-Pronoun 44 46	左侧
+T8	Location-Nominal 47 52	连绵的山峦
+*	Coreference T7 T8
+T9	Location-Pronoun 53 55	右侧
+T10	Location-Nominal 56 63	哗哗流淌的溪水
+*	Coreference T10 T9
+T11	Location-Nominal 66 73	山峦和溪水之间
+T12	Location-Nominal 83 85	民居
+*	Coreference T12 T11
+T13	Metric 78 80	一户
+T14	Metric 80 82	一户
+T15	Person-Pronoun 86 88	我们
+T16	Location-Nominal 91 94	农家乐
+T17	Location-Nominal 97 99	溪流
+R1	Near Arg1:T17 Arg2:T16	
+T18	Location-Nominal 100 102	溪流
+*	Coreference T18 T17
+T19	Location-Nominal 107 108	山
+R2	Near Arg1:T19 Arg2:T18	
+T20	Location-Nominal 129 131	河滩
+T21	Location-Nominal 143 147	大山深处
+T22	Location-Name 148 154	红石谷风景区
+R3	Near Arg1:T22 Arg2:T21	
+T23	Location-Name 156 158	阜阳
+T24	Time-Implicit 161 165	当天下午
+T25	Person-Pronoun 166 168	我们
+T26	Location-Name 173 176	红石谷
+*	Coreference T26 T22
+T27	Time-Implicit 177 179	初春
+T28	Metric 168 170	几个
+T29	Metric 189 191	一切
+T30	Thing-Nominal 205 207	石径
+T31	Metric 226 229	一会儿
+T32	Location-Nominal 233 236	头顶的
+T33	Thing-Nominal 236 238	枝叶
+T34	Thing-Nominal 246 248	雨水
+T35	Metric 254 257	一会儿
+T36	Location-Nominal 231 232	山
+T37	Location-Nominal 259 260	水
+R4	Near Arg1:T37 Arg2:T36	
+T38	Metric 269 271	一头
+T39	Location-Nominal 282 284	山下
+T40	Time-Implicit 292 294	不时
+T41	Thing-Nominal 297 302	赭色的顽石
+T42	Metric 306 309	一片片
+T43	Thing-Nominal 309 314	雪白的浪花
+T44	Thing-Nominal 319 321	水雾
+T45	Time-Implicit 315 317	然后
+T46	Location-Nominal 326 329	山谷里
+T47	Metric 332 334	两侧
+T48	Location-Nominal 330 332	溪流
+T49	Location-Nominal 335 338	山坡上
+R5	Near Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 342 344	茶树
+T51	Thing-Nominal 345 347	茶树
+T52	Metric 350 353	一簇簇
+T53	Thing-Nominal 365 369	六安瓜片
+T54	Location-Pronoun 370 373	原产地
+T55	Metric 375 378	近千亩
+T56	Location-Nominal 381 382;383 384	茶 园
+*	Coreference T56 T54
+T57	Location-Nominal 387 390	山腰上
+R6	Near Arg1:T57 Arg2:T56	
+T58	Location-Nominal 396 398	山顶
+R7	Near Arg1:T58 Arg2:T57	
+T59	Location-Nominal 426 430	梯田上的
+T60	Thing-Nominal 430 432	茶树
+R8	Located Arg1:T60 Arg2:T59	
+T61	Metric 433 435	一线
+T62	Thing-Nominal 435 437	泉流
+T63	Thing-Nominal 440 442	雾中
+R9	Located Arg1:T63 Arg2:T62	
+T64	Location-Nominal 470 472	山脚
+R10	Located Arg1:T62 Arg2:T64	
+T65	Person-Name 488 490	骡子
+T66	Person-Name 498 500	骡子
+T67	Person-Pronoun 501 502	他
+*	Coreference T67 T66
+T68	Time-Implicit 525 529	行到半途
+T69	Person-Name 538 540	骡子
+T70	Person-Pronoun 538 542	骡子他们
+T71	Person-Pronoun 545 547	你们
+*	Coreference T71 T70 T76
+T72	Location-Nominal 548 550	山顶
+T73	Person-Pronoun 552 553	我
+T74	Time-Implicit 553 555	慢慢
+T75	Location-Nominal 560 562	山下
+R11	Near Arg1:T75 Arg2:T72	
+T76	Person-Pronoun 563 565	你们
+T77	Metric 569 571	一个
+T78	Person-Pronoun 579 580	我
+*	Coreference T78 T73 T81
+T79	Metric 583 585	一段
+T80	Metric 591 594	一句话
+T81	Person-Pronoun 598 599	我
+T82	Metric 618 620	两旁
+T83	Thing-Nominal 629 631	野花
+T84	Metric 645 646;647 648	一 堆
+T85	Metric 649 651	一片
+T86	Location-Pronoun 644 645	这
+T87	Location-Pronoun 648 649	那
+R12	Near Arg1:T87 Arg2:T86	
+T88	Time-Implicit 666 673	花儿们的好时候
+T89	Location-Nominal 681 684	枝丫上
+T90	Metric 686 689	一簇簇
+T91	Thing-Nominal 690 692	嫩芽
+T92	Location-Nominal 705 707	崖尖
+T93	Location-Nominal 708 710	崖底
+R13	Near Arg1:T93 Arg2:T92	
+T94	Metric 711 713	一簇
+T95	Metric 713 715	一簇
+T96	Thing-Nominal 716 719	杜鹃花
+T97	Location-Nominal 720 723	远远地
+T98	Person-Nominal 739 741	女子
+T99	Metric 757 759	一点
+T100	Metric 759 761	一点
+T101	Location-Nominal 770 773	石阶间
+T102	Thing-Nominal 778 780	嫩芽
+T103	Location-Nominal 794 797	石头缝
+T104	Person-Pronoun 810 811	我
+T105	Metric 811 813	一直
+T106	Metric 823 825	一位
+T107	Person-Nominal 825 827	老汉
+T108	Thing-Nominal 833 838	绞股蓝的芽
+T109	Person-Pronoun 843 844	我
+T110	Thing-Nominal 851 855	绞股蓝茶
+T111	Person-Pronoun 857 859	老汉
+*	Coreference T111 T107
+T112	Location-Nominal 863 865	山里
+T113	Thing-Nominal 866 868	植物
+T114	Location-Nominal 880 884	出口附近
+T115	Location-Nominal 887 890	溪流旁
+T116	Metric 891 893	一块
+T117	Location-Nominal 893 896	石头上
+R14	Near Arg1:T117 Arg2:T115	
+R15	Near Arg1:T115 Arg2:T114	
+T118	Person-Name 898 900	骡子
+T119	Person-Pronoun 900 902	他们
+T120	Thing-Nominal 903 904	山
+R16	Part-Whole Arg1:T118 Arg2:T119	
+T121	Metric 905 907	一股
+T122	Location-Nominal 911 913	山脚
+T123	Location-Nominal 920 926	石径下的水洞
+T124	Location-Nominal 940 943	溪流边
+T125	Location-Nominal 944 947	山坡上
+T126	Metric 951 953	各种
+T127	Thing-Nominal 953 955	树木
+T128	Thing-Nominal 956 958	柳树
+T129	Thing-Nominal 956 958	柳树
+T130	Thing-Nominal 962 964	桑树
+T131	Thing-Nominal 965 968	栗子树
+T132	Metric 969 971	一阵
+T133	Thing-Nominal 971 972	风
+R17	Part-Whole Arg1:T128 Arg2:T127	
+T134	Thing-Nominal 959 961	枫树
+R18	Part-Whole Arg1:T134 Arg2:T127	
+R19	Part-Whole Arg1:T130 Arg2:T127	
+R20	Part-Whole Arg1:T131 Arg2:T127	
+T135	Location-Nominal 993 996	树梢上
+T136	Thing-Nominal 990 992	声音
+R21	Located Arg1:T136 Arg2:T135	
+T137	Person-Pronoun 1002 1003	我
+T138	Location-Nominal 1004 1006	面前
+T139	Metric 1019 1022	一股股
+T140	Person-Pronoun 1030 1031	我
+*	Coreference T140 T137
+T141	Metric 1054 1056	一草
+T142	Metric 1056 1058	一木
+T143	Metric 1059 1061	一坡
+T144	Metric 1061 1063	一水
+T145	Location-Nominal 1079 1081	山里
+T146	Metric 1082 1084	一切
+T147	Metric 1090 1092	一切
+T148	Metric 1099 1101	一切
+T149	Metric 1106 1109	，一切
+T150	Person-Pronoun 1156 1158	我们
+T151	Thing-Nominal 1160 1163	栖息地
+T152	Time-Implicit 1165 1168	这几年
+T153	Time-Implicit 1173 1176	节假日
+T154	Metric 1178 1180	几位
+T155	Time-Implicit 1189 1191	每次
+T156	Person-Name 1194 1196	骡子
+T157	Metric 1197 1199	一个
+T158	Location-Nominal 1203 1204	山
+T159	Person-Pronoun 1205 1207	我们
+T160	Person-Pronoun 1209 1210	他
+*	Coreference T160 T156
+T161	Time-Implicit 1211 1213	前世
+T162	Thing-Nominal 1217 1219	猴子
+T163	Person-Pronoun 1222 1224	我们
+T164	Time-Implicit 1225 1227	前世
+T165	Thing-Nominal 1232 1233;1234 1235	猴 子
+T166	Location-Nominal 1243 1244	山

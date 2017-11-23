@@ -1,0 +1,77 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 3 4	雪
+T3	Thing-Pronoun 7 8	它
+T4	Thing-Nominal 18 19	雪
+T5	Person-Pronoun 24 25	我
+T6	Thing-Nominal 28 30	春雪
+R1	Part-Whole Arg1:T6 Arg2:T2	
+T7	Thing-Pronoun 38 39	它
+T8	Thing-Nominal 42 43	雪
+T9	Thing-Nominal 52 54	春雪
+T10	Thing-Pronoun 57 58	它
+*	Coreference T9 T10
+*	Coreference T2 T3
+T11	Thing-Nominal 58 60	自己
+T12	Thing-Nominal 71 73	春雪
+T13	Thing-Pronoun 74 75	它
+*	Coreference T12 T13
+T14	Thing-Pronoun 79 80	它
+T15	Thing-Nominal 85 87	冬雪
+T16	Thing-Nominal 116 118	自己
+T17	Thing-Nominal 125 127	自己
+T18	Thing-Nominal 135 137	冬雪
+T19	Thing-Nominal 147 149	春雪
+T20	Person-Pronoun 150 152	我们
+T21	Thing-Nominal 165 167	自己
+T22	Person-Pronoun 176 177	你
+T23	Thing-Pronoun 180 181	它
+T24	Thing-Pronoun 190 191	它
+T25	Person-Nominal 196 198	人们
+T26	Thing-Pronoun 207 208	它
+T27	Person-Nominal 220 221	人
+T28	Thing-Pronoun 230 231	它
+T29	Person-Nominal 240 241	人
+T30	Thing-Pronoun 244 245	它
+T31	Thing-Pronoun 266 267	它
+T32	Thing-Nominal 284 286	春雪
+T33	Person-Nominal 288 289	人
+T34	Thing-Nominal 302 304	冬雪
+T35	Person-Pronoun 305 306	我
+T36	Thing-Pronoun 316 317	它
+T37	Thing-Nominal 349 351	北风
+T38	Person-Nominal 353 354	人
+T39	Thing-Nominal 360 362	冬雪
+T40	Person-Nominal 371 372	人
+T41	Thing-Nominal 392 394	春雪
+T42	Person-Pronoun 396 398	我们
+T43	Thing-Nominal 406 408	冬雪
+T44	Thing-Pronoun 420 421	它
+T45	Thing-Nominal 459 461	春雪
+T46	Thing-Pronoun 462 463	它
+T47	Thing-Nominal 483 485	冬雪
+T48	Thing-Pronoun 487 488	它
+T49	Thing-Nominal 492 493	山
+T50	Time-Implicit 503 505	冬天
+T51	Thing-Pronoun 507 508	它
+T52	Thing-Nominal 517 519;520 521	常青 树
+T53	Thing-Nominal 522 524	冬雪
+T54	Thing-Nominal 534 536	自己
+T55	Thing-Nominal 538 539	树
+T56	Thing-Nominal 557 559	别人
+T57	Thing-Nominal 563 565	春雪
+T58	Thing-Pronoun 569 570	它
+T59	Thing-Nominal 575 577	大地
+T60	Thing-Nominal 587 589	万物
+T61	Person-Pronoun 604 606	我们
+T62	Thing-Nominal 636 638	春雪
+T63	Thing-Nominal 640 642	春雪
+T64	Thing-Pronoun 643 644	它
+T65	Thing-Nominal 648 649	雪
+T66	Thing-Nominal 655 656	雪
+T67	Thing-Pronoun 666 667	它
+T68	Thing-Pronoun 677 678	它
+T69	Person-Nominal 730 731	人
+*	Coreference T6 T7
+*	Coreference T28 T30 T26
+T70	Thing-Nominal 330 332	脸上
+T71	Thing-Nominal 601 603	春雪

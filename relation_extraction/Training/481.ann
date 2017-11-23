@@ -1,0 +1,208 @@
+T1	Person-Pronoun 16 18	你们
+T2	Person-Pronoun 22 23	我
+T3	Person-Pronoun 29 31	你们
+T4	Person-Pronoun 84 86	自己
+T5	Person-Pronoun 68 70	我们
+T6	Person-Pronoun 56 58	我们
+T7	Person-Pronoun 129 130	我
+T8	Person-Pronoun 134 135	我
+T9	Person-Nominal 143 145	爸爸
+T10	Person-Nominal 149 151	爸爸
+T11	Person-Pronoun 156 157	我
+T12	Person-Pronoun 159 160	我
+T13	Person-Nominal 162 165	我爸爸
+T14	Person-Pronoun 162 163	我
+T15	Person-Pronoun 168 169	他
+*	Coreference T15 T13
+T16	Person-Pronoun 174 175	我
+R1	Family Arg1:T9 Arg2:T8	
+R2	Family Arg1:T11 Arg2:T10	
+T17	Person-Nominal 183 185	老师
+T18	Abstract 191 200	《世上只有妈妈好》
+T19	Time-Implicit 177 182	小学一年级
+T20	Person-Pronoun 201 202	我
+T21	Abstract 210 219	《世上只有爸爸好》
+T22	Person-Nominal 227 230	全班人
+T23	Person-Pronoun 236 237	我
+T24	Person-Nominal 291 295	一位父亲
+T25	Person-Pronoun 285 286	我
+T26	Person-Pronoun 275 276	他
+T27	Person-Pronoun 245 246	他
+T28	Person-Nominal 257 264	成功或伟大的人
+T29	Person-Nominal 265 267	孩子
+T30	Person-Pronoun 269 271	我们
+T31	Person-Pronoun 307 308	我
+T32	Person-Nominal 314 322	一个非常优秀的人
+T33	Person-Pronoun 310 311	我
+T34	Person-Nominal 325 327	爸爸
+T35	Person-Pronoun 331 332	我
+T36	Person-Nominal 335 340	优秀的女儿
+T37	Person-Pronoun 334 335	他
+*	Coreference T37 T34
+T38	Person-Pronoun 343 344	我
+T39	Person-Pronoun 352 354	自己
+*	Coreference T39 T38
+T40	Person-Nominal 356 362	一个大写的人
+T41	Person-Pronoun 366 367	我
+T42	Person-Pronoun 384 385	我
+T43	Person-Nominal 390 392	爸爸
+T44	Person-Pronoun 414 415	你
+T45	Person-Pronoun 457 458	我
+T46	Person-Nominal 481 484	每个人
+T47	Person-Pronoun 505 506	你
+T48	Thing-Nominal 518 519	家
+T49	Person-Pronoun 524 525	你
+T50	Thing-Nominal 525 530	最后的港湾
+*	Coreference T50 T48
+T51	Person-Pronoun 494 495	谁
+T52	Person-Pronoun 540 541	我
+T53	Person-Pronoun 546 547	我
+T54	Person-Nominal 548 553	幸福的人!
+T55	Person-Pronoun 555 556	我
+T56	Person-Pronoun 561 562	我
+T57	Person-Nominal 573 575	爸爸
+R3	Family Arg1:T57 Arg2:T55	
+T58	Person-Pronoun 582 583	我
+T59	Person-Nominal 587 589	爸爸
+T60	Person-Pronoun 599 600	我
+T61	Person-Nominal 607 609	爸爸
+T62	Person-Pronoun 614 615	我
+T63	Person-Pronoun 628 629	我
+T64	Location-Name 630 632	西湖
+T65	Thing-Nominal 633 635	动物
+T66	Person-Nominal 636 638	爸爸
+T67	Person-Nominal 659 663	我的爸爸
+T68	Person-Pronoun 659 660	我
+R4	Family Arg1:T67 Arg2:T68	
+T69	Person-Pronoun 645 646	我
+T70	Location-Nominal 647 650	雨天里
+T71	Person-Pronoun 670 672	把我
+T72	Person-Pronoun 679 680	他
+T73	Person-Nominal 687 689	爸爸
+*	Coreference T73 T72
+T74	Person-Pronoun 698 699	我
+T75	Person-Nominal 705 707	爸爸
+R5	Family Arg1:T74 Arg2:T75	
+T76	Person-Nominal 713 715	爸爸
+T77	Thing-Nominal 716 718	墨水
+T78	Person-Pronoun 721 722	我
+T79	Time-Implicit 722 726	高二那年
+*	Coreference T78 T76
+T80	Person-Pronoun 736 737	我
+T81	Person-Nominal 742 744	爸爸
+T82	Person-Nominal 759 761	爸爸
+T83	Person-Pronoun 752 753	我
+T84	Person-Pronoun 769 770	我
+T85	Thing-Nominal 771 773	照片
+T86	Person-Nominal 784 786	爸爸
+T87	Person-Nominal 826 828	爸爸
+T88	Person-Nominal 823 825	好人
+T89	Person-Pronoun 818 819	我
+T90	Person-Pronoun 793 794	我
+T91	Person-Nominal 799 801	爸爸
+T92	Person-Pronoun 834 835	我
+T93	Person-Nominal 841 843	爸爸
+T94	Person-Nominal 853 855	爸爸
+T95	Person-Pronoun 856 857	我
+T96	Person-Pronoun 845 846	我
+T97	Person-Nominal 871 873	爸爸
+T98	Person-Pronoun 882 883	我
+R6	Family Arg1:T98 Arg2:T97	
+T99	Person-Nominal 893 896	我妈妈
+T100	Person-Pronoun 890 891	我
+T101	Person-Pronoun 899 900	她
+*	Coreference T101 T99
+T102	Person-Pronoun 893 894	我
+R7	Family Arg1:T99 Arg2:T100	
+T103	Person-Pronoun 905 906	我
+T104	Person-Pronoun 907 908	她
+T105	Person-Nominal 928 932	慈母严父
+T106	Person-Pronoun 960 961	我
+T107	Person-Nominal 988 993	我两个弟弟
+T108	Person-Pronoun 984 985	我
+R8	Family Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 996 998	他们
+*	Coreference T109 T107
+T110	Person-Pronoun 1003 1004	我
+T111	Person-Pronoun 1007 1008	我
+T112	Person-Pronoun 1019 1021	他们
+T113	Person-Pronoun 1024 1025	我
+T114	Person-Pronoun 1026 1027	我
+T115	Person-Pronoun 1038 1039	我
+T116	Person-Pronoun 1041 1043	他们
+T117	Person-Nominal 1051 1053	大弟
+T118	Person-Nominal 1054 1068	我们村里里的supersta
+T119	Person-Pronoun 1054 1056	我们
+*	Coreference T118 T117 T120
+T120	Person-Pronoun 1070 1071	他
+T121	Person-Nominal 1084 1087	成年人
+T122	Person-Nominal 1089 1097	几岁而已的小儿童
+T123	Person-Nominal 1100 1108	他忠诚的fans
+T124	Person-Pronoun 1100 1101	他
+T125	Person-Nominal 1117 1123	他的fans
+T126	Person-Nominal 1112 1114	弟弟
+T127	Person-Pronoun 1117 1118	他
+*	Coreference T127 T126
+T128	Person-Nominal 1129 1131	强哥
+T129	Location-Nominal 1139 1141	我家
+T130	Person-Pronoun 1139 1140	我
+T131	Person-Nominal 1152 1154	弟弟
+T132	Location-Nominal 1158 1160	故里
+T133	Person-Nominal 1219 1221	爸爸
+T134	Person-Pronoun 1201 1202	我
+T135	Person-Pronoun 1183 1184	我
+T136	Person-Nominal 1162 1164	大弟
+T137	Person-Nominal 1172 1179	有情有义的英雄
+T138	Person-Pronoun 1165 1166	我
+*	Coreference T137 T136
+R9	Family Arg1:T138 Arg2:T136	
+T139	Person-Nominal 1223 1227	弟弟俩人
+T140	Person-Pronoun 1230 1231	我
+T141	Person-Pronoun 1236 1237	我
+T142	Person-Pronoun 1245 1246	我
+T143	Person-Nominal 1247 1249	我弟
+T144	Person-Pronoun 1247 1248	我
+T145	Person-Pronoun 1276 1277	我
+T146	Person-Pronoun 1294 1295	我
+T147	Person-Nominal 1297 1303	我的fans
+T148	Person-Pronoun 1297 1298	我
+T149	Person-Nominal 1305 1307	小弟
+T150	Person-Pronoun 1316 1317	他
+T151	Person-Nominal 1320 1323	他哥哥
+*	Coreference T150 T149
+T152	Person-Pronoun 1320 1321	他
+T153	Person-Pronoun 1330 1331	他
+T154	Person-Pronoun 1327 1328	我
+T155	Person-Pronoun 1344 1345	他
+T156	Person-Nominal 1347 1351	美术天才
+T157	Person-Pronoun 1375 1376	我
+T158	Person-Nominal 1382 1386	一个人才
+T159	Person-Pronoun 1379 1380	他
+T160	Person-Nominal 1388 1390	家人
+T161	Person-Pronoun 1391 1392	我
+T162	Person-Pronoun 1408 1409	我
+T163	Person-Pronoun 1441 1442	我
+T164	Person-Nominal 1464 1475	走过岁月的风风雨雨的人
+T165	Metric 1458 1463	几十个春秋
+T166	Person-Pronoun 1455 1456	我
+T167	Person-Pronoun 1489 1491	我们
+T168	Thing-Nominal 1505 1507	空气
+T169	Location-Nominal 1522 1526	我们身边
+R10	Located Arg1:T168 Arg2:T169	
+T170	Person-Pronoun 1522 1524	我们
+T171	Person-Pronoun 1561 1563	自己
+T172	Person-Nominal 1565 1567	一人
+T173	Person-Pronoun 1582 1584	自己
+T174	Person-Pronoun 1600 1601	你
+T175	Person-Pronoun 1662 1663	你
+T176	Thing-Nominal 1627 1629	雨伞
+T177	Person-Nominal 1617 1620	每个人
+T178	Person-Nominal 1675 1676	人
+T179	Person-Pronoun 1682 1683	你
+T180	Person-Pronoun 1701 1702	你
+T181	Person-Pronoun 1707 1709	自己
+T182	Person-Pronoun 1730 1732	你们
+T183	Person-Pronoun 1738 1739	我
+T184	Person-Pronoun 1743 1745	你们
+T185	Thing-Nominal 1735 1736	花
+T186	Thing-Nominal 1733 1734	花

@@ -1,0 +1,311 @@
+T1	Time-Explicit 0 4	暮春四月
+T2	Person-Pronoun 10 12	我们
+T3	Thing-Nominal 14 16	汽车
+R1	Use Arg1:T2 Arg2:T3	
+T4	Location-Nominal 17 21	曲沃县城
+T5	Location-Nominal 29 33	沁水河谷
+T6	Thing-Nominal 35 39	山间公路
+T7	Thing-Name 46 48	沁河
+T8	Thing-Nominal 65 67	松柏
+T9	Thing-Nominal 72 74	芳草
+T10	Location-Nominal 77 79	谷底
+T11	Thing-Nominal 80 82	河水
+T12	Thing-Nominal 91 98	两岸的青山翠树
+R2	Located Arg1:T11 Arg2:T10	
+T13	Person-Nominal 105 107	母亲
+T14	Thing-Nominal 117 119	艳阳
+T15	Thing-Nominal 129 135	莽莽太岳群山
+T16	Person-Nominal 151 158	一位娇艳的新娘
+T17	Thing-Nominal 160 162	汽车
+T18	Thing-Nominal 164 168	沁河大桥
+T19	Location-Name 170 172	郑庄
+T20	Location-Name 173 175	郑庄
+T21	Location-Nominal 177 181	深山小镇
+*	Coreference T21 T20
+T22	Thing-Nominal 183 190	沿街的商场店铺
+T23	Location-Nominal 195 197	店铺
+T24	Thing-Nominal 198 203	陈列的物品
+R3	Located Arg1:T24 Arg2:T23	
+T25	Location-Nominal 211 217	平原上的小镇
+T26	Location-Name 222 224	郑庄
+T27	Thing-Nominal 235 237	柏油
+T28	Thing-Nominal 235 242	柏油铺就的公路
+T29	Metric 249 252	10里
+T30	Thing-Nominal 255 257	溪水
+T31	Location-Nominal 255 268	溪水环绕、青堂瓦舍的小北庄
+T32	Location-Nominal 272 276	胡沟山口
+T33	Thing-Nominal 277 281;282 286	一条清粼 粼的小河
+T34	Location-Nominal 287 289	胡沟
+T35	Thing-Nominal 310 312	万马
+T36	Person-Pronoun 336 338	我们
+T37	Thing-Nominal 340 342;343 351	小河 两岸边的砂砾大路
+T38	Location-Name 353 355	胡沟
+T39	Thing-Nominal 359 366	姹紫嫣红的山花
+T40	Person-Pronoun 369 371	我们
+T41	Person-Nominal 404 408	一位文人
+T42	Person-Pronoun 409 410	他
+T43	Person-Name 414 417	张继善
+*	Coreference T43 T41
+T44	Location-Nominal 396 401	大山的深处
+T45	Person-Name 419 422	张继善
+T46	Location-Name 423 436	山西省曲沃县里村镇张家湾村
+T47	Person-Nominal 423 442	山西省曲沃县里村镇张家湾村里的强壮汉子
+*	Coreference T47 T45
+T48	Time-Implicit 443 448	十八岁那年
+T49	Person-Pronoun 448 449	他
+T50	Organization-Name 450 454	曲村中学
+T51	Person-Nominal 461 471	一名光荣的解放军战士
+T52	Person-Pronoun 494 495	他
+T53	Organization-Nominal 511 513	部队
+T54	Person-Pronoun 516 517	他
+T55	Person-Nominal 522 527	大半年农民
+T56	Time-Implicit 528 537	上世纪的七十年代初
+T57	Person-Pronoun 538 539	他
+T58	Organization-Name 542 546	县交通局
+T59	Person-Nominal 549 554	公路养护工
+T60	Person-Nominal 555 558	收料员
+T61	Person-Nominal 559 565	办公室材料员
+T62	Person-Pronoun 578 579	他
+T63	Person-Pronoun 588 589	他
+T64	Location-Name 591 595	省城太原
+T65	Organization-Nominal 597 601;602 608	桃园路的 一个文化单位
+T66	Time-Explicit 619 622	20年
+R4	Ownership Arg1:T63 Arg2:T65	
+T67	Person-Pronoun 650 651	他
+T68	Abstract 691 700	长篇小说《石家湾》
+T69	Abstract 701 714	中篇小说《杏花岭上的钟声》
+T70	Abstract 715 723;724 725	《门啊，该不该敲 》
+T71	Abstract 726 734	诗集《蒙蒙的雨》
+T72	Abstract 735 741	《淡淡的云》
+T73	Abstract 742 748	《弯弯的河》
+T74	Abstract 764 770	《大山深处》
+T75	Abstract 757 763	《塔儿山下》
+T76	Abstract 752 756	《追梦》
+T77	Person-Pronoun 779 780	他
+T78	Person-Nominal 782 784;785 792	山西 省作家协会会员
+R5	Part-Whole Arg1:T77 Arg2:T78	
+T79	Person-Nominal 796 798	读者
+T80	Person-Pronoun 810 811	他
+T81	Person-Nominal 816 818	作家
+T82	Person-Name 829 832	张继善
+T83	Person-Nominal 833 837	几位文友
+R6	Social Arg1:T82 Arg2:T83	
+T84	Location-Name 840 845;846 848	太岳山的沁 水县
+T85	Location-Name 851 854	沁水县
+T86	Time-Explicit 855 861	抗日战争时期
+T87	Location-Nominal 863 869	晋冀鲁豫边区
+R7	Part-Whole Arg1:T85 Arg2:T87	
+T88	Person-Name 870 874	陈赓将军
+T89	Person-Nominal 876 888	八路军第四纵队的英雄儿女
+T90	Person-Nominal 893 895	日寇
+T91	Person-Name 914 917	张继善
+T92	Location-Nominal 919 928	大山深处的山庄窝铺
+T93	Person-Nominal 931 942	一位苍颜白发的放羊老汉
+T94	Thing-Nominal 946 953	“最后的一碗饭
+T95	Thing-Nominal 957 959	军粮
+T96	Thing-Nominal 960 966	最后的一尺布
+T97	Thing-Nominal 971 973	军装
+T98	Thing-Nominal 974 980	最后的老棉被
+T99	Thing-Nominal 983 985	担架
+T100	Person-Nominal 987 993	最后的亲骨肉
+T101	Person-Name 1020 1023	张继善
+T102	Person-Nominal 1033 1038	边区老百姓
+T103	Organization-Name 1044 1047	共产党
+T104	Organization-Name 1048 1051	八路军
+T105	Organization-Name 1055 1061	日本帝国主义
+T106	Person-Pronoun 1070 1072	他们
+T107	Thing-Nominal 1081 1087	金色的百灵鸟
+T108	Location-Nominal 1090 1094	太岳大地
+T109	Person-Nominal 1101 1104	山民们
+T110	Thing-Nominal 1109 1114	坚固的穴巢
+T111	Person-Name 1123 1126	张继善
+T112	Location-Name 1130 1133	太岳山
+T113	Location-Nominal 1144 1150	这块革命老区
+*	Coreference T113 T112
+*	Coreference T106 T102
+R8	Social Arg1:T91 Arg2:T93	
+T114	Time-Explicit 1159 1166	1999年5月
+T115	Person-Name 1167 1170	张继善
+T116	Location-Name 1173 1180	繁华的省城太原
+T117	Person-Pronoun 1185 1186	他
+T118	Time-Explicit 1191 1194	20年
+T119	Organization-Name 1203 1207	沁水县委
+T120	Organization-Name 1208 1211	县政府
+T121	Person-Pronoun 1214 1215	他
+T122	Metric 1229 1233	30公里
+T123	Thing-Nominal 1225 1240	县城东北30公里处的24座荒山
+T124	Thing-Nominal 1241 1247	山间的一条河
+T125	Location-Nominal 1251 1258	我们眼前的胡沟
+T126	Location-Pronoun 1259 1260	它
+*	Coreference T126 T125
+T127	Metric 1263 1267	16华里
+T128	Metric 1271 1274	4华里
+T129	Metric 1279 1280;1281 1284	一 万余亩
+T130	Person-Pronoun 1286 1287	我
+T131	Person-Nominal 1288 1290	妻子
+T132	Person-Name 1290 1293	韩春梅
+*	Coreference T132 T131
+R9	Family Arg1:T130 Arg2:T131	
+T133	Person-Nominal 1294 1296	儿子
+T134	Person-Name 1296 1299	张民刚
+*	Coreference T133 T134
+T136	Person-Nominal 1305 1310	这里的山民
+T137	Location-Nominal 1332 1334	胡沟
+T138	Person-Pronoun 1342 1344	我们
+T139	Thing-Nominal 1350 1361	几孔被山民遗弃的破窑洞
+T140	Thing-Nominal 1369 1375	黑森森的窑洞
+T141	Location-Nominal 1383 1389	窑洞外的空地
+T142	Thing-Nominal 1392 1400	齐腰深的黄蒿野草
+R10	Located Arg1:T142 Arg2:T141	
+T143	Thing-Nominal 1406 1416	叫不上名堂的飞禽走兽
+T144	Person-Pronoun 1429 1430	我
+T145	Thing-Nominal 1444 1446	报纸
+T146	Thing-Nominal 1448 1450	手机
+T147	Thing-Nominal 1457 1458	电
+T148	Time-Explicit 1459 1461	晚上
+T149	Thing-Nominal 1465 1467	蜡烛
+T150	Location-Nominal 1437 1441	大山深处
+T151	Person-Pronoun 1471 1473	他们
+T152	Location-Nominal 1479 1485	半山腰石缝间
+T153	Thing-Nominal 1487 1491	一股清泉
+R11	Located Arg1:T153 Arg2:T152	
+T154	Thing-Nominal 1498 1500	小潭
+T155	Thing-Nominal 1501 1504	饮用水
+T156	Location-Name 1509 1512	胡沟村
+T157	Location-Name 1513 1519	山口的小北庄
+T158	Metric 1519 1522	6公里
+T159	Thing-Nominal 1526 1538	高低不平弯弯曲曲的山石路
+T160	Metric 1543 1547	不足一米
+T161	Thing-Nominal 1548 1550	汽车
+T162	Thing-Nominal 1551 1554	拖拉机
+T163	Thing-Nominal 1563 1565	物品
+T164	Person-Nominal 1568 1569	人
+T165	Thing-Nominal 1572 1573	肩
+T166	Person-Name 1575 1578	张继善
+T167	Thing-Nominal 1582 1585	一双手
+R12	Part-Whole Arg1:T167 Arg2:T166	
+T168	Time-Implicit 1598 1605	2000年春天
+T169	Person-Name 1606 1609	张继善
+T170	Location-Name 1619 1621	胡沟
+T171	Person-Pronoun 1634 1635	他
+T172	Location-Name 1636 1640	小北庄村
+T173	Person-Nominal 1642 1644	民工
+T174	Thing-Nominal 1650 1658	河岸边的羊肠小道
+T175	Thing-Nominal 1664 1666	汽车
+T176	Thing-Nominal 1667 1670	拖拉机
+T177	Thing-Nominal 1679 1683	砂砾公路
+T178	Thing-Nominal 1690 1692	电杆
+T179	Thing-Nominal 1695 1697	电线
+T180	Thing-Nominal 1707 1711	变压器;
+T181	Location-Nominal 1699 1703	住地窑洞
+R13	Near Arg1:T180 Arg2:T181	
+T182	Thing-Nominal 1713 1716	塑料管
+T183	Thing-Nominal 1718 1719;1720 1728	西 岭半山坡的小水潭
+T184	Thing-Nominal 1732 1735	清泉水
+T185	Person-Nominal 1736 1741	一家三口人
+T186	Time-Implicit 1743 1746	几个月
+T187	Thing-Nominal 1755 1757	道路
+T188	Thing-Nominal 1761 1765	电灯电视
+T189	Location-Name 1770 1777	沉寂多年的胡沟
+T190	Person-Nominal 1791 1798	张继善一家三口
+T191	Person-Pronoun 1801 1802	他
+T192	Person-Nominal 1805 1810	小北庄村民
+R14	Social Arg1:T192 Arg2:T190	
+T193	Location-Nominal 1813 1819	巍巍大山深处
+T194	Thing-Nominal 1831 1833	住宅
+T195	Thing-Nominal 1835 1836	苗
+T196	Thing-Nominal 1837 1838	树
+T197	Person-Pronoun 1844 1845	他
+T198	Organization-Nominal 1847 1851;1852 1856	沁水县委 、县政府
+T199	Location-Name 1857 1859	胡沟
+T200	Thing-Nominal 1867 1870	一座山
+T201	Thing-Nominal 1870 1873	一条沟
+T202	Person-Pronoun 1879 1880	他
+T203	Thing-Nominal 1881 1886	沟底的小河
+T204	Thing-Nominal 1889 1894	三道拦水坝
+T205	Metric 1900 1908	18000立方米
+T207	Thing-Nominal 1926 1930	山上的树
+T208	Time-Explicit 1932 1937	2002年
+T209	Person-Pronoun 1940 1941	他
+T210	Location-Name 1952 1959	最北端的胡家岭
+T211	Location-Name 1961 1968	最南边的焦家山
+T212	Person-Pronoun 1969 1970	他
+T213	Person-Nominal 1976 1980	山民兄弟
+T214	Metric 2007 2013	6400余亩
+T215	Person-Pronoun 2022 2023	他
+T216	Thing-Nominal 2026 2028	枣树
+T217	Thing-Nominal 2029 2031	桃树
+T218	Thing-Nominal 2032 2034	杏树
+T219	Thing-Nominal 2036 2044	晋农一号优种核桃
+T220	Thing-Nominal 2045 2047	刺槐
+T221	Thing-Nominal 2048 2050	曲柳
+T222	Thing-Nominal 2051 2054	毛白杨
+T223	Thing-Nominal 2055 2060	数十个树种
+R15	General-Special Arg1:T223 Arg2:T222	
+T224	Time-Implicit 2061 2065	10多年
+T225	Person-Pronoun 2066 2067	他
+T226	Thing-Nominal 2069 2072	栽的树
+T227	Thing-Nominal 2073 2083	买断大山前原有的松柏
+T228	Person-Pronoun 2099 2100	他
+T229	Metric 2109 2114	600余亩
+T230	Location-Nominal 2116 2126	当年退耕还林后的平地
+T231	Location-Nominal 2127 2129	梯田
+T232	Person-Pronoun 2133 2134	他
+T233	Thing-Nominal 2136 2137	树
+T234	Thing-Nominal 2140 2141	草
+T235	Person-Pronoun 2151 2152	我
+T236	Person-Nominal 2158 2161	许多人
+T237	Person-Pronoun 2162 2163	我
+T238	Abstract 2170 2179	《作家买断万亩山》
+T239	Thing-Name 2183 2185	党报
+T240	Person-Name 2194 2197	张继善
+T241	Location-Nominal 2194 2204	张继善一家的胡沟山庄
+T242	Time-Explicit 2220 2223	14年
+T243	Thing-Nominal 2230 2234	太岳大山
+T244	Thing-Nominal 2247 2249	铁锨
+T245	Thing-Nominal 2250 2252	镢头
+T246	Thing-Nominal 2254 2256	扁担
+T247	Thing-Nominal 2257 2259	水桶
+T248	Person-Pronoun 2260 2261	他
+T249	Location-Nominal 2267 2271	太岳大山
+T250	Thing-Nominal 2275 2281	一棵参天大树
+T251	Person-Nominal 2284 2286	别人
+T252	Person-Pronoun 2290 2291	他
+T253	Person-Pronoun 2300 2301	他
+T254	Location-Nominal 2309 2313	革命老区
+T255	Thing-Nominal 2340 2349	漫山遍野的年轻小树
+T256	Thing-Nominal 2367 2369	春风
+T257	Person-Name 2410 2415	文友张继善
+T258	Person-Pronoun 2426 2427	他
+T259	Time-Implicit 2444 2451	2011年初夏
+T260	Abstract 2464 2474	长篇小说《黄河作证》
+T261	Organization-Name 2454 2461	中国文联出版社
+T262	Abstract 2475 2482	《三晋都市报》
+T263	Person-Pronoun 2504 2505	他
+T264	Person-Pronoun 2526 2527	他
+T265	Person-Pronoun 2537 2538	我
+T266	Thing-Nominal 2540 2544	窑洞的床
+T267	Thing-Nominal 2568 2572	一轮圆月
+T268	Thing-Nominal 2584 2591	近处的片片树叶
+T269	Thing-Nominal 2597 2604	亮晶晶的露水珠
+T270	Person-Name 2619 2622	张继善
+R16	Located Arg1:T269 Arg2:T268	
+*	Coreference T258 T257
+R17	Located Arg1:T255 Arg2:T254	
+R18	Social Arg1:T252 Arg2:T251	
+R19	Use Arg1:T248 Arg2:T247	
+R20	Use Arg1:T248 Arg2:T246	
+R21	Use Arg1:T248 Arg2:T244	
+R22	Use Arg1:T248 Arg2:T245	
+R23	Social Arg1:T237 Arg2:T236	
+R24	Social Arg1:T237 Arg2:T232	
+R25	Social Arg1:T213 Arg2:T215	
+T206	Thing-Nominal 1921 1923	水汞
+R26	Use Arg1:T202 Arg2:T206	
+T271	Thing-Nominal 1924 1925	水
+T272	Thing-Nominal 1825 1826	河
+T273	Thing-Nominal 1827 1828	坝
+T274	Thing-Nominal 1820 1821	山
+R27	Use Arg1:T185 Arg2:T182	
+R28	Part-Whole Arg1:T165 Arg2:T164	
+T135	Location-Name 1301 1303	胡沟

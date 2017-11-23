@@ -1,0 +1,251 @@
+T1	Time-Implicit 0 5	很小的时候
+T2	Person-Nominal 8 11	大人们
+T3	Person-Nominal 13 20	我们这一带的人
+R1	General-Special Arg1:T3 Arg2:T2	
+T4	Person-Pronoun 21 25	绝大部分
+T5	Location-Name 27 35	山西洪洞县大槐树
+T6	Person-Pronoun 46 47	你
+T7	Thing-Nominal 49 50	鞋
+R2	Ownership Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 54 58	脚小趾甲
+T9	Person-Pronoun 52 53	你
+R3	Part-Whole Arg1:T8 Arg2:T9	
+T10	Time-Implicit 64 66	儿时
+T11	Person-Nominal 83 85	大人
+T12	Person-Pronoun 108 109	我
+T13	Location-Name 96 98	中国
+T14	Person-Pronoun 130 131	我
+T15	Time-Implicit 134 142	有生之年的某一天
+T16	Location-Pronoun 145 149	那个地方
+*	Coreference T16 T5
+T17	Thing-Nominal 153 165	那棵祖祖辈辈传说的大槐树
+T18	Thing-Nominal 27 35	山西洪洞县大槐树
+*	Coreference T17 T18
+T19	Time-Implicit 173 181	今年的十一黄金周
+T20	Person-Pronoun 181 182	我
+T21	Person-Nominal 184 188	我的骑友
+R4	Social Arg1:T21 Arg2:T20	
+T23	Metric 195 200	800公里
+T24	Metric 205 207	多年
+T25	Organization-Nominal 236 238	社会
+T26	Person-Pronoun 246 248	我们
+T22	Person-Nominal 181 182;183 192	我 和我的骑友一行四人
+*	Coreference T26 T22
+T27	Time-Implicit 258 265	9月29日8点
+T28	Location-Name 266 276	河南焦作沁阳怀府广场
+T29	Time-Implicit 282 287	第一天晚上
+T30	Location-Name 290 295	山西的垣曲
+T31	Time-Implicit 298 301	第一天
+T32	Person-Pronoun 310 311	你
+T33	Person-Pronoun 312 313	我
+T34	Location-Name 317 319	济源
+T35	Location-Name 320 324	王屋邵原
+T36	Time-Implicit 332 335	一点多
+T37	Thing-Nominal 328 331	上坡路
+T38	Location-Name 348 350	山西
+T39	Thing-Nominal 345 346	饭
+T40	Person-Pronoun 354 356	我们
+T41	Location-Nominal 362 366	山西境内
+T42	Time-Implicit 354 367	我们兴致勃勃跨进山西境内时
+T43	Thing-Nominal 372 378	一条过河道路
+T44	Thing-Nominal 381 382	桥
+R5	Located Arg1:T44 Arg2:T43	
+T45	Person-Nominal 389 394	前面的骑友
+T46	Location-Nominal 395 399	桥下河道
+T47	Person-Nominal 406 407	人
+T48	Thing-Nominal 408 409	车
+T49	Thing-Nominal 411 412	水
+T50	Person-Pronoun 414 415	我
+T51	Location-Nominal 416 418	岭上
+T52	Thing-Nominal 424 425	道
+T53	Location-Nominal 426 428	下游
+T54	Location-Nominal 416 418	岭上
+T55	Thing-Nominal 440 445	一些小轿车
+T56	Person-Nominal 447 451	当地山民
+T57	Location-Nominal 458 468	这条河西边岭上的村庄
+T58	Metric 471 474	十几里
+T59	Thing-Nominal 479 484	一条土坡路
+T60	Thing-Nominal 487 489;490 492	这条 小路
+*	Coreference T60 T59
+T61	Location-Nominal 494 497	石河滩
+T62	Location-Nominal 500 502	河滩
+*	Coreference T62 T61
+T63	Thing-Nominal 503 507	两股河水
+R6	Located Arg1:T63 Arg2:T62	
+T64	Thing-Nominal 514 517	大卡车
+T65	Thing-Nominal 523 526	小轿车
+T66	Thing-Nominal 527 530	摩托车
+T67	Thing-Nominal 544 546	车辆
+R7	General-Special Arg1:T67 Arg2:T66	
+R8	General-Special Arg1:T67 Arg2:T65	
+R9	General-Special Arg1:T67 Arg2:T64	
+T68	Location-Nominal 536 539	河滩上
+R10	Located Arg1:T67 Arg2:T68	
+T69	Thing-Nominal 551 553	轿车
+T70	Thing-Nominal 562 567	几辆面的车
+T71	Metric 562 564	几辆
+T72	Thing-Nominal 574 579	一辆面的车
+R11	Part-Whole Arg1:T72 Arg2:T70	
+T73	Location-Nominal 581 585	河水中间
+R12	Located Arg1:T72 Arg2:T73	
+T74	Person-Pronoun 589 593	我们三个
+T75	Thing-Nominal 600 601	车
+T76	Metric 614 618	三四十斤
+T77	Person-Pronoun 621 623	我们
+T78	Person-Nominal 625 627	两人
+T79	Thing-Nominal 639 644	沉重的东西
+T80	Thing-Nominal 648 652	水中乱石
+T81	Location-Nominal 648 653	水中乱石上
+T82	Person-Nominal 665 666	人
+T83	Thing-Nominal 667 668	车
+T84	Location-Nominal 684 689	长途骑旅中
+T85	Time-Implicit 702 704	有时
+T86	Person-Nominal 706 707	人
+T87	Time-Implicit 710 712	有时
+T88	Person-Nominal 714 715	人
+T89	Thing-Nominal 720 727	刚整理好的装备
+T90	Thing-Nominal 729 730	脚
+T91	Thing-Nominal 731 732	鞋
+T92	Time-Implicit 728 737	洗脚穿鞋准备出发时
+T93	Person-Nominal 738 742	一位骑友
+T94	Thing-Nominal 738 744;745 746	一位骑友的车 胎
+R13	Ownership Arg1:T93 Arg2:T94	
+T95	Thing-Nominal 755 757	车胎
+T96	Person-Pronoun 759 761	我们
+T97	Thing-Nominal 762 763	车
+T98	Location-Nominal 773 776	住宿地
+T99	Metric 778 783	40多公里
+T100	Location-Nominal 796 799	目的地
+*	Coreference T100 T98 T179
+T101	Person-Pronoun 802 804	我俩
+*	Coreference T101 T96
+T102	Time-Implicit 802 805;806 810	我俩心 急如焚时
+T103	Thing-Nominal 815 824	一辆想过河的面包车
+T104	Metric 815 817	一辆
+T105	Person-Nominal 825 830	面的车师傅
+R14	Ownership Arg1:T105 Arg2:T103	
+T106	Person-Pronoun 832 834	我们
+T107	Location-Nominal 832 836	我们面前
+T108	Person-Pronoun 840 842	我们
+T109	Metric 860 863	十几里
+T110	Location-Nominal 856 858	前面
+T111	Thing-Nominal 860 866;867 868	十几里上坡弯 路
+T112	Person-Pronoun 880 881	我
+T113	Person-Pronoun 884 886	你们
+*	Coreference T112 T105 T149 T151 T152 T154
+*	Coreference T113 T106
+T114	Person-Pronoun 890 892	我们
+T115	Person-Nominal 913 918	面的车师傅
+T116	Thing-Nominal 851 852	天
+T117	Location-Pronoun 922 923	这
+T118	Thing-Nominal 925 927	省道
+T119	Person-Pronoun 948 949	我
+T120	Person-Pronoun 951 953	你们
+T121	Person-Pronoun 960 962	你们
+T122	Thing-Nominal 954 955	车
+T123	Thing-Nominal 966 967	车
+T124	Thing-Nominal 970 971	车
+T125	Thing-Nominal 982 985	后车门
+R15	Part-Whole Arg1:T125 Arg2:T103	
+T126	Person-Pronoun 986 988	我俩
+T127	Thing-Nominal 1004 1005	车
+T128	Thing-Nominal 1008 1011	面包车
+*	Coreference T128 T103 T129 T135 T155
+T129	Thing-Pronoun 1013 1014	这
+T130	Thing-Nominal 1015 1022	一辆八成新的车
+R16	General-Special Arg1:T130 Arg2:T129	
+T131	Metric 1015 1017	一辆
+T132	Metric 1017 1019	八成
+T133	Thing-Nominal 1023 1031	里面的装饰和车座
+R17	Located Arg1:T133 Arg2:T129	
+T134	Location-Nominal 1040 1042	车里
+T135	Thing-Nominal 1057 1061	人家的车
+T136	Thing-Nominal 1064 1065	车
+T137	Person-Pronoun 1074 1076	我们
+T138	Thing-Nominal 1089 1090	坡
+T139	Thing-Nominal 1105 1106	车
+T140	Metric 1120 1124;1125 1126	一个半小 时
+T141	Location-Nominal 1129 1131	省道
+T142	Location-Nominal 1135 1137	省道
+T143	Thing-Nominal 1139 1144	几公里的坡
+T144	Metric 1139 1142	几公里
+T145	Person-Pronoun 1146 1148	我们
+T146	Thing-Nominal 1149 1150	车
+T147	Thing-Nominal 1154 1163	刚走过的沿河滩坡路
+T148	Time-Implicit 1146 1164	我们下车回头看着刚走过的沿河滩坡路时
+T149	Person-Nominal 1170 1177	这位面的车师傅
+T150	Person-Pronoun 1190 1192	我们
+T151	Person-Nominal 1202 1211	这位素不相识的师傅
+T152	Person-Nominal 1223 1232	这位山西面的车师傅
+T153	Time-Implicit 1216 1236	还没有来得及问这位山西面的车师傅的名字时
+T154	Person-Pronoun 1237 1239	人家
+T155	Thing-Nominal 1242 1243	车
+T156	Person-Pronoun 1245 1246;1247 1248	我 们
+T157	Location-Nominal 1257 1259	下坡
+T158	Thing-Nominal 1271 1276	车后的青烟
+T159	Location-Nominal 1278 1282	九宵云外
+T160	Thing-Nominal 1295 1302	一瓶五味子糖浆
+T161	Metric 1295 1297	一瓶
+T162	Time-Implicit 1308 1311	第二天
+T163	Time-Implicit 1311 1317	快骑到正午时
+T164	Location-Nominal 1326 1331	一个苹果园
+T165	Metric 1326 1328	一个
+T166	Thing-Nominal 1335 1337	苹果
+R18	Located Arg1:T166 Arg2:T164	
+T167	Person-Nominal 1345 1347	果农
+T168	Person-Pronoun 1349 1351	我们
+T169	Metric 1366 1368	半篓
+T170	Thing-Nominal 1366 1368;1369 1374	半篓 刮风落下的
+T171	Person-Pronoun 1375 1377	你们
+*	Coreference T171 T168
+T172	Location-Nominal 1389 1391	盆里
+T173	Thing-Nominal 1393 1396	半盆水
+R19	Located Arg1:T173 Arg2:T172	
+T174	Person-Pronoun 1404 1406	我们
+T175	Metric 1411 1414	四五个
+T176	Person-Nominal 1406 1408	每人
+T177	Time-Implicit 1415 1419	晚上九点
+T178	Person-Pronoun 1420 1423	我们还
+T179	Location-Nominal 1427 1429;1430 1431	食宿 地
+T180	Location-Nominal 1437 1442	路边的山村
+T181	Organization-Nominal 1448 1454	一户留守家庭
+T182	Person-Nominal 1455 1459	两位老人
+T183	Person-Nominal 1460 1469	一个上小学的小孙子
+R20	Family Arg1:T183 Arg2:T182	
+T184	Person-Pronoun 1472 1474	我们
+T185	Person-Nominal 1480 1484	房东大伯
+R21	Part-Whole Arg1:T185 Arg2:T182	
+T186	Metric 1495 1498	一天多
+T187	Thing-Nominal 1500 1505	一碗甜面片
+T188	Metric 1500 1502	一碗
+T189	Person-Pronoun 1508 1510	我们
+T190	Thing-Nominal 1512 1513	面
+R22	Use Arg1:T189 Arg2:T190	
+T191	Person-Nominal 1515 1520	两位老人家
+*	Coreference T191 T182 T205
+T192	Thing-Nominal 1522 1523	水
+T193	Person-Pronoun 1524 1526	我们
+T194	Thing-Nominal 1527 1528	脚
+T195	Person-Pronoun 1537 1539	我们
+T196	Time-Implicit 1544 1546	现在
+T197	Person-Nominal 1548 1550	别人
+T198	Person-Pronoun 1552 1554	我们
+T199	Location-Name 1556 1561	山西洪洞县
+T200	Time-Implicit 1548 1569	别人询问我们这次山西洪洞县寻根溯源的经历时
+T201	Person-Nominal 1574 1581	这位面的车师傅
+T202	Thing-Nominal 1581 1590	那张和蔼善意的笑脸
+R23	Part-Whole Arg1:T202 Arg2:T201	
+T203	Time-Implicit 1593 1604;1605 1629	看到这次骑行照的那些山 山水水，沟沟壑壑，朵朵鲜花，郁郁葱葱的美景照片时
+T204	Person-Nominal 1635 1639	这位果农
+*	Coreference T204 T167
+T205	Person-Nominal 1640 1646	山村两位老人
+T206	Thing-Nominal 1658 1662	这些照片
+T207	Metric 1667 1670	几分钟
+T208	Person-Nominal 1671 1674	山西人
+T209	Person-Nominal 1686 1690	中华民族
+T210	Person-Pronoun 1700 1701	我
+T211	Location-Nominal 1703 1705	世上
+T212	Person-Nominal 1707 1709	好人
+R24	General-Special Arg1:T208 Arg2:T204	
+R25	General-Special Arg1:T208 Arg2:T205	
+R26	General-Special Arg1:T208 Arg2:T201	

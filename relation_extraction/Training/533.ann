@@ -1,0 +1,250 @@
+T1	Time-Implicit 2 5	三年前
+T2	Person-Pronoun 6 7	我
+T3	Person-Nominal 8 14	一位本家兄长
+R1	Family Arg1:T2 Arg2:T3	
+T4	Person-Pronoun 15 16	我
+T5	Location-Name 18 27	广东樟木头镇观音山
+T6	Person-Pronoun 35 36	我
+T7	Location-Name 53 56	观音山
+T8	Person-Pronoun 59 60	我
+T9	Time-Implicit 70 74	今年暑期
+T10	Location-Name 94 99	东莞观音山
+T11	Person-Nominal 100 102	女儿
+T12	Person-Pronoun 104 105	我
+R2	Family Arg1:T12 Arg2:T11	
+T13	Person-Nominal 118 120	跟班
+*	Coreference T11 T13
+T14	Location-Name 122 125	耀佛岭
+T15	Location-Nominal 130 131	山
+T16	Person-Pronoun 148 149	我
+T17	Person-Nominal 153 155	女儿
+T18	Location-Nominal 171 173	石阶
+T19	Person-Pronoun 177 178	我
+T20	Location-Name 197 200	耀佛岭
+T21	Person-Nominal 219 221	女儿
+T22	Location-Nominal 226 230	一座亭子
+T23	Person-Pronoun 233 234	我
+T24	Person-Nominal 239 240	爸
+*	Coreference T23 T24
+T25	Person-Pronoun 247 248	我
+T26	Person-Nominal 260 262	女儿
+T27	Person-Pronoun 266 267	我
+T28	Location-Nominal 278 279	亭
+T29	Person-Pronoun 288 289	她
+*	Coreference T29 T26
+T30	Person-Pronoun 300 301	我
+T31	Person-Nominal 306 308	女儿
+T32	Person-Pronoun 312 313	她
+*	Coreference T32 T31
+T33	Person-Nominal 335 336	爸
+T34	Person-Nominal 342 344	八仙
+T35	Location-Name 350 353	观音山
+T36	Person-Nominal 358 359	仙
+T37	Person-Pronoun 365 366	你
+T38	Person-Pronoun 374 375	你
+T39	Person-Pronoun 385 386	我
+T40	Person-Nominal 389 391	女儿
+T41	Person-Nominal 396 398	学生
+*	Coreference T40 T41 T37
+*	Coreference T38 T39
+T42	Person-Nominal 406 408	女儿
+T43	Person-Pronoun 414 415	我
+T44	Person-Nominal 421 423	女儿
+T45	Person-Nominal 436 438	八仙
+T46	Location-Name 473 474;475 477	耀 佛岭
+T47	Thing-Nominal 481 482	竹
+T48	Person-Pronoun 487 489	他们
+*	Coreference T48 T45
+T49	Person-Pronoun 547 548	我
+T50	Person-Pronoun 553 554	我
+T51	Person-Nominal 564 566	女儿
+T52	Thing-Nominal 581 583	睫毛
+R3	Part-Whole Arg1:T52 Arg2:T51	
+T53	Location-Nominal 605 606	山
+T54	Location-Nominal 608 609	亭
+T55	Person-Pronoun 611 612	她
+T56	Person-Nominal 623 625	女儿
+T57	Person-Pronoun 631 632	我
+T58	Person-Pronoun 634 635	我
+T59	Location-Nominal 640 641	山
+T60	Location-Nominal 646 647	亭
+T61	Location-Name 664 667	耀佛岭
+R4	Part-Whole Arg1:T59 Arg2:T61	
+R5	Part-Whole Arg1:T60 Arg2:T61	
+T62	Person-Pronoun 692 693	你
+T63	Thing-Nominal 704 705	鸟
+T64	Location-Nominal 713 714	泉
+T65	Person-Pronoun 717 718	你
+R6	Located Arg1:T63 Arg2:T61	
+R7	Part-Whole Arg1:T64 Arg2:T61	
+T66	Person-Pronoun 753 754	我
+T67	Person-Pronoun 764 765	我
+T68	Location-Name 777 780	耀佛岭
+T69	Location-Nominal 786 787	山
+T70	Location-Nominal 788 789	亭
+T71	Location-Name 813 816	耀佛岭
+T72	Person-Pronoun 836 837	我
+T73	Time-Implicit 833 835	此时
+T74	Location-Name 844 847	耀佛岭
+T75	Person-Pronoun 853 854	我
+T76	Thing-Nominal 871 873	古柏
+T77	Thing-Nominal 876 879	白樟木
+T78	Location-Name 881 884	观音山
+T79	Thing-Nominal 886 887	花
+T80	Thing-Nominal 888 889	草
+T81	Location-Nominal 893 894	林
+T82	Thing-Nominal 896 898	鸟儿
+R8	Located Arg1:T82 Arg2:T81	
+R9	Located Arg1:T79 Arg2:T78	
+R10	Located Arg1:T80 Arg2:T78	
+R11	Part-Whole Arg1:T81 Arg2:T78	
+T83	Location-Name 902 905	耀佛岭
+T84	Person-Nominal 909 911	智者
+T85	Person-Nominal 930 932	处子
+T86	Thing-Nominal 938 940	树木
+T87	Thing-Nominal 967 969	鸟儿
+T88	Location-Nominal 975 977	亭梁
+R12	Located Arg1:T87 Arg2:T88	
+T89	Person-Pronoun 988 989	我
+T90	Person-Nominal 990 992	女儿
+T91	Person-Pronoun 1004 1005	我
+T92	Person-Pronoun 1013 1014	我
+T93	Thing-Nominal 1019 1021	鸟儿
+T94	Person-Nominal 1028 1030	山神
+T95	Person-Nominal 1033 1035	精灵
+T96	Person-Pronoun 1041 1042	我
+T97	Thing-Pronoun 1051 1052	它
+T98	Location-Nominal 1054 1055	亭
+*	Coreference T97 T93
+T99	Person-Pronoun 1065 1066	我
+T100	Thing-Nominal 1076 1078	冰茶
+T101	Person-Nominal 1086 1088	女儿
+T102	Thing-Nominal 1093 1095	鸟儿
+T103	Person-Pronoun 1110 1112	我们
+T104	Person-Nominal 1126 1128	精灵
+T105	Thing-Nominal 1129 1131	鸟儿
+T106	Person-Nominal 1156 1158	女儿
+T107	Thing-Nominal 1171 1173	鸟儿
+T108	Location-Nominal 1178 1179	亭
+T109	Person-Nominal 1199 1201	女儿
+T110	Thing-Nominal 1211 1213	小鸟
+T111	Person-Pronoun 1221 1222	我
+T112	Person-Nominal 1223 1225	女儿
+R13	Family Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 1249 1251	树杈
+T114	Thing-Nominal 1253 1255	鸟巢
+R14	Located Arg1:T114 Arg2:T113	
+T115	Location-Name 1258 1261	耀佛岭
+T116	Person-Nominal 1270 1272	仙人
+T117	Location-Name 1306 1309	仙宫岭
+T118	Location-Nominal 1312 1314	山腰
+T119	Person-Pronoun 1326 1327	我
+T120	Person-Nominal 1328 1330	女儿
+T121	Location-Name 1339 1342	仙宫岭
+T122	Person-Nominal 1365 1367	女儿
+T123	Location-Nominal 1371 1372;1373 1374	长 廊
+T124	Person-Pronoun 1378 1380	我们
+T125	Location-Nominal 1403 1405	小道
+T126	Person-Pronoun 1423 1424	我
+T127	Time-Implicit 1426 1430	千百来年
+T128	Location-Name 1430 1433	仙宫岭
+T129	Location-Nominal 1433 1435	密林
+R15	Part-Whole Arg1:T129 Arg2:T128	
+T130	Thing-Nominal 1440 1442	藤蔓
+R16	Located Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 1445 1447	山石
+R17	Located Arg1:T131 Arg2:T128	
+T132	Person-Nominal 1472 1474	文人
+T133	Person-Nominal 1486 1489	修道人
+T134	Person-Nominal 1502 1504	信徒
+T135	Location-Nominal 1510 1514	曲径小道
+T136	Thing-Nominal 1530 1532	古树
+T137	Location-Name 1541 1544	仙宫山
+T138	Thing-Nominal 1520 1522	基石
+R18	Located Arg1:T138 Arg2:T137	
+R19	Located Arg1:T136 Arg2:T137	
+T139	Person-Pronoun 1569 1570	我
+T140	Person-Name 1575 1579	太上老君
+T141	Person-Nominal 1580 1587	元始天尊弟子们
+T142	Location-Name 1617 1620	观音山
+T143	Person-Pronoun 1656 1657	我
+T144	Person-Pronoun 1678 1679	我
+T145	Location-Name 1683 1686	观音山
+T146	Person-Name 1772 1775	郑板桥
+T147	Thing-Nominal 1776 1778	风竹
+T148	Location-Name 1791 1794	观音山
+T149	Thing-Nominal 1803 1805	松竹
+T150	Thing-Nominal 1811 1813	花草
+R20	Located Arg1:T150 Arg2:T148	
+R21	Located Arg1:T149 Arg2:T148	
+T151	Location-Nominal 1838 1840	林丛
+T152	Person-Nominal 1843 1847	一双情侣
+T153	Person-Pronoun 1879 1883	我们爷俩
+T154	Person-Nominal 1889 1890;1891 1892	女 儿
+T155	Thing-Nominal 1895 1897	纸巾
+T156	Person-Nominal 1898 1900	女孩
+R22	Use Arg1:T156 Arg2:T155	
+R23	Ownership Arg1:T154 Arg2:T155	
+T157	Person-Pronoun 1915 1916	我
+T158	Location-Name 1928 1931	观音山
+T159	Location-Name 1972 1975	观音场
+T160	Person-Pronoun 1983 1985	我们
+T161	Location-Name 1992 1996	不二法门
+T162	Location-Name 1998 2004	山顶观音广场
+T163	Location-Nominal 2044 2046	山岭
+T164	Person-Name 2060 2064	观音菩萨
+T165	Thing-Nominal 2070 2072	净瓶
+T166	Person-Nominal 2066 2068	众生
+R24	Ownership Arg1:T164 Arg2:T165	
+T167	Thing-Nominal 2076 2080	莲花宝座
+T168	Person-Nominal 2142 2148	百千万亿众生
+T169	Person-Name 2156 2161	观世音菩萨
+T170	Person-Name 2167 2172	观世音菩萨
+T171	Location-Name 2221 2226	临观音广场
+T172	Person-Nominal 2241 2243	商贾
+T173	Person-Nominal 2244 2246	妇人
+T174	Person-Nominal 2247 2249	姑娘
+T175	Person-Nominal 2250 2252	儿童
+T176	Person-Nominal 2262 2269	信念迷蒙的要员
+T177	Person-Pronoun 2270 2272	他们
+T178	Person-Pronoun 2304 2305	我
+T179	Person-Nominal 2317 2319	本人
+*	Coreference T178 T179
+T180	Location-Name 2361 2367	观音山感恩湖
+T181	Person-Nominal 2381 2384	世人们
+T182	Person-Nominal 2393 2395	父母
+T183	Person-Pronoun 2397 2399	我们
+R25	Family Arg1:T183 Arg2:T182	
+T184	Person-Pronoun 2409 2411	我们
+T185	Person-Pronoun 2422 2424	我们
+T186	Person-Pronoun 2435 2437	我们
+T187	Person-Pronoun 2448 2450	我们
+T188	Person-Pronoun 2506 2508	我们
+T189	Person-Nominal 2545 2547	人们
+T190	Person-Nominal 2581 2583	别人
+T191	Person-Pronoun 2639 2640	我
+T192	Person-Nominal 2642 2644	自己
+*	Coreference T191 T192
+T193	Person-Name 2681 2684	观世音
+T194	Person-Nominal 2722 2726	一位博友
+T195	Person-Nominal 2761 2763	人类
+T196	Person-Pronoun 2782 2784	我们
+T197	Person-Nominal 2895 2897	世人
+T198	Person-Nominal 2940 2944	朝拜者们
+T199	Time-Implicit 2993 2995	夜幕
+T200	Person-Pronoun 2998 2999	我
+T201	Person-Nominal 3000 3002	女儿
+T202	Location-Nominal 3009 3011	山脚
+T203	Time-Implicit 3021 3023	一天
+T204	Location-Name 3031 3034	观音山
+T205	Location-Name 3044 3048	观音广场
+T206	Thing-Nominal 3052 3053;3054 3057	观 音法像
+T207	Person-Nominal 3065 3067	人们
+T208	Person-Nominal 3073 3075	世人
+T209	Person-Nominal 3114 3116	女儿
+T210	Person-Nominal 3119 3121	爸爸
+T211	Location-Nominal 3124 3126	山上
+T212	Person-Nominal 3136 3138	女儿
+T213	Thing-Nominal 3151 3155	观音法像
+T214	Thing-Nominal 3127 3129	观音
+R26	Located Arg1:T214 Arg2:T211	

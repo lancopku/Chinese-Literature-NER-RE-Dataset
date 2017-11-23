@@ -1,0 +1,120 @@
+T1	Time-Implicit 2 7	就要开学了
+T2	Location-Name 13 19	剑阁县元山镇
+T3	Metric 19 23	10公里
+T5	Location-Nominal 39 50	清澈见底的小溪边菜园里
+T6	Person-Nominal 53 57	爷爷奶奶
+T7	Person-Pronoun 62 63	她
+T8	Thing-Nominal 65 71	一副近视眼镜
+R2	Use Arg1:T7 Arg2:T8	
+T9	Person-Nominal 75 82	70多岁的爷爷
+R3	Family Arg1:T9 Arg2:T7	
+T10	Metric 75 79	70多岁
+T11	Metric 65 67	一副
+T12	Location-Name 91 95	“柳树”
+T13	Location-Pronoun 95 98	这地方
+*	Coreference T13 T12
+T14	Thing-Nominal 102 106	参天柳树
+T15	Thing-Nominal 110 113	老柳树
+T16	Thing-Nominal 118 122	新的柳树
+T17	Thing-Nominal 104 106	柳树
+R4	General-Special Arg1:T17 Arg2:T15	
+R5	General-Special Arg1:T17 Arg2:T16	
+T18	Person-Nominal 129 132	女孩子
+T19	Person-Name 133 135	梁力
+T4	Person-Nominal 8 37	居住在相距剑阁县元山镇10公里一个叫“柳树”地名的女中学生
+*	Coreference T7 T4
+R1	Family Arg1:T6 Arg2:T4	
+T20	Time-Implicit 143 145	如今
+T21	Organization-Name 146 153	梓潼县自强中学
+T22	Organization-Nominal 162 164	学校
+*	Coreference T22 T21
+T23	Person-Pronoun 169 170	她
+T24	Person-Nominal 181 189;190 191	年事已高的爷爷奶 奶
+*	Coreference T24 T6
+T25	Person-Nominal 205 209	爷爷奶奶
+T26	Person-Nominal 214 216	孩子
+T27	Person-Pronoun 219 221	自己
+*	Coreference T26 T23 T19 T18 T27 T30 T43
+T28	Person-Pronoun 236 237	她
+T29	Time-Explicit 248 258	2010年5月29日
+T30	Person-Name 259 265	读小学的梁力
+T31	Person-Name 265 277	从事个体货运业的父亲梁红
+R6	Family Arg1:T31 Arg2:T30	
+T32	Person-Nominal 279 281	母亲
+R7	Family Arg1:T32 Arg2:T30	
+R8	Family Arg1:T32 Arg2:T25	
+R9	Family Arg1:T31 Arg2:T25	
+R10	Family Arg1:T31 Arg2:T32	
+T33	Location-Name 286 288	陕西
+T34	Location-Nominal 291 293	途中
+T35	Thing-Nominal 297 301	惨重车祸
+R11	Located Arg1:T35 Arg2:T34	
+T36	Location-Nominal 304 306	山崖
+T37	Person-Nominal 309 310	爸
+T38	Person-Nominal 310 312	妈妈
+*	Coreference T31 T37
+*	Coreference T32 T38
+T39	Person-Nominal 319 321	爸爸
+T40	Person-Nominal 321 323	妈妈
+T41	Time-Implicit 317 319	那时
+T42	Metric 324 328	三十来岁
+T43	Person-Name 329 331	梁力
+T44	Person-Nominal 336 338	孤儿
+R12	General-Special Arg1:T44 Arg2:T43	
+T45	Metric 340 343	11岁
+T46	Person-Name 344 346	梁力
+T47	Person-Nominal 355 360	亲朋邻友们
+R13	Social Arg1:T47 Arg2:T46	
+T48	Person-Nominal 361 363	爸爸
+T49	Person-Nominal 363 365	妈妈
+T50	Person-Pronoun 378 379	她
+T51	Time-Implicit 395 400	从那一天起
+T52	Person-Nominal 402 404	孩子
+T53	Thing-Nominal 402 410	孩子天真灿烂的脸
+R14	Part-Whole Arg1:T53 Arg2:T52	
+*	Coreference T52 T50 T60
+T54	Time-Implicit 424 426	当时
+T55	Person-Name 424 453	当时在剑阁县元山镇民政办实习的一位黑龙江籍高校实习生刘志远
+T56	Organization-Name 427 436	剑阁县元山镇民政办
+T57	Person-Name 456 458	小刘
+*	Coreference T57 T55 T89
+T58	Person-Name 464 471	同校好朋友高龙
+R15	Social Arg1:T58 Arg2:T57	
+T59	Person-Pronoun 472 474	他们
+R16	Part-Whole Arg1:T58 Arg2:T59	
+R17	Part-Whole Arg1:T57 Arg2:T59	
+T60	Person-Nominal 482 486	遇难孩子
+T61	Location-Nominal 482 488	遇难孩子家庭
+T62	Metric 490 493	11岁
+T63	Person-Name 494 496	梁力
+T64	Person-Name 513 515	小高
+*	Coreference T64 T58 T76 T79 T81 T87
+T65	Person-Name 521 522;523 524	梁 力
+T66	Metric 533 537	从当月起
+T67	Person-Nominal 538 543	救助方个人
+T68	Location-Name 544 546	北京
+T69	Metric 555 559	150元
+T70	Thing-Nominal 550 555	生活补助费
+T71	Time-Explicit 567 574	2013年秋季
+T72	Time-Implicit 604 607	三年来
+T73	Thing-Nominal 616 626	这笔为数不多的助学金
+T74	Person-Pronoun 634 636	梁力
+T75	Location-Nominal 638 644;645 646	遥远的异地他 乡
+T76	Person-Nominal 648 656	一位热心肠的哥哥
+T77	Person-Nominal 660 664	危困儿童
+T78	Person-Nominal 670 674	黑龙江人
+T79	Person-Name 696 721	现已26岁、就读于黑龙江省哈尔滨工业大学的高龙先生
+T80	Person-Nominal 734 737	研究生
+T81	Person-Pronoun 743 744	他
+T82	Location-Name 745 747	北京
+T83	Organization-Name 747 756	中国建筑设计研究院
+T84	Person-Nominal 767 769	母亲
+T85	Person-Nominal 772 780	一位灾区贫困儿童
+T86	Metric 772 774	一位
+T87	Person-Name 784 786	高龙
+R18	Family Arg1:T84 Arg2:T87	
+T88	Person-Nominal 789 797	四川地震灾区人民
+T89	Person-Name 804 811	同窗学友刘志远
+T90	Location-Name 813 817;818 820	剑阁县元 山镇
+T91	Location-Name 822 825	柳树村
+R19	Part-Whole Arg1:T91 Arg2:T90	

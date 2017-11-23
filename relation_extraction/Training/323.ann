@@ -1,0 +1,228 @@
+T1	Time-Implicit 0 2	后来
+T2	Organization-Nominal 5 7	小乡
+T3	Location-Nominal 9 12	五个村
+T4	Location-Nominal 13 15	一乡
+T5	Person-Nominal 16 19	我父亲
+T6	Person-Nominal 22 25	乡文书
+R1	General-Special Arg1:T6 Arg2:T5	
+T7	Person-Nominal 28 30	人们
+T8	Location-Nominal 36 39	我们家
+T9	Person-Pronoun 41 42	我
+R2	Social Arg1:T9 Arg2:T7	
+R3	Family Arg1:T9 Arg2:T5	
+T10	Time-Implicit 47 49	那时
+T11	Person-Nominal 50 54	小乡干部
+T12	Thing-Nominal 57 59	工资
+T13	Time-Implicit 63 65	每月
+T14	Thing-Nominal 67 69	粮食
+T15	Person-Nominal 81 83	乡长
+R4	Social Arg1:T15 Arg2:T9	
+R5	Social Arg1:T15 Arg2:T5	
+T16	Location-Nominal 84 87	我们家
+T17	Person-Nominal 89 92	我父亲
+T18	Location-Nominal 93 96	他们家
+T19	Location-Nominal 97 100	办公室
+T20	Location-Nominal 102 106	自己的家
+T21	Time-Explicit 109 114	1952年
+T22	Organization-Nominal 114 116	上级
+T23	Person-Nominal 131 133	干部
+T24	Thing-Nominal 136 141	家里的粮食
+T25	Location-Nominal 148 150	前方
+T26	Person-Nominal 151 156	耿直的父亲
+*	Coreference T26 T17 T39 T36
+T27	Person-Nominal 159 164	全乡的村长
+R6	Social Arg1:T27 Arg2:T26	
+T28	Location-Nominal 165 168	我们家
+T29	Thing-Nominal 172 179	所有的盆盆罐罐
+T30	Person-Nominal 188 190	自家
+T31	Thing-Nominal 193 195	粮食
+T32	Person-Pronoun 199 201	我们
+*	Coreference T32 T30
+T33	Thing-Nominal 203 205	糠菜
+T34	Person-Nominal 216 222	人家那些干部
+R7	Social Arg1:T34 Arg2:T32	
+T35	Person-Nominal 231 234	我母亲
+T36	Person-Pronoun 237 238	他
+R8	Family Arg1:T36 Arg2:T35	
+R9	Family Arg1:T35 Arg2:T9	
+T37	Organization-Nominal 244 246	小乡
+T38	Time-Implicit 244 252	小乡工作的那几年
+T39	Person-Nominal 254 256	父亲
+R10	Part-Whole Arg1:T27 Arg2:T34	
+T40	Person-Nominal 262 264	全村
+T41	Thing-Nominal 264 271	结婚对联和春联
+T42	Person-Nominal 275 277	父亲
+T43	Person-Nominal 280 282	人家
+*	Coreference T40 T43
+T44	Thing-Nominal 282 286	一针一线
+T45	Organization-Nominal 290 292	上级
+T46	Thing-Nominal 293 295	公粮
+T47	Physical 297 299	收成
+T48	Person-Nominal 311 313	人们
+T49	Person-Nominal 324 329	耿直的父亲
+T50	Person-Pronoun 337 338	他
+*	Coreference T50 T49 T58
+T51	Thing-Nominal 339 345	自己家的地瓜
+T52	Metric 347 349	几斤
+T53	Metric 360 365	2斤12两
+T54	Thing-Nominal 372 374	地瓜
+T55	Metric 375 377	一斤
+T56	Thing-Nominal 377 379	瓜干
+T57	Person-Nominal 380 382	人们
+T58	Person-Nominal 385 387	父亲
+T59	Person-Nominal 390 392	人家
+*	Coreference T59 T57
+T60	Person-Pronoun 398 399	他
+T61	Person-Nominal 404 406	人们
+T62	Person-Pronoun 407 408	他
+T63	Person-Nominal 415 420	二斤拾二两
+*	Coreference T63 T62
+T64	Organization-Nominal 425 427	小乡
+T65	Time-Implicit 423 425	后来
+T66	Person-Nominal 430 432	父亲
+T67	Organization-Nominal 436 439	供销社
+T68	Organization-Nominal 445 448	小饭店
+T69	Person-Nominal 443 452	一个小饭店的负责人
+R11	General-Special Arg1:T69 Arg2:T66	
+T70	Time-Implicit 453 459	六十年代前后
+T71	Organization-Nominal 460 462	国家
+T72	Time-Implicit 460 468	国家最困难的时期
+T73	Person-Pronoun 469 470	我
+R12	Family Arg1:T66 Arg2:T73	
+T74	Location-Nominal 471 473	学校
+T75	Thing-Nominal 475 478	国库粮
+T76	Time-Implicit 480 482	每月
+T77	Metric 482 483;484 486	二 十斤
+T78	Thing-Nominal 489 501	一个小小的馒头或高粱窝头
+T79	Person-Nominal 511 520	在家吃糠咽菜的母亲
+T80	Person-Nominal 521 525	三个弟弟
+R13	Family Arg1:T79 Arg2:T80	
+R14	Family Arg1:T79 Arg2:T73	
+R15	Family Arg1:T80 Arg2:T73	
+T81	Person-Pronoun 532 533	我
+*	Coreference T79 T35 T86
+T82	Time-Implicit 533 535	每周
+T83	Thing-Nominal 545 549	四个馒头
+T84	Metric 545 547	四个
+T85	Metric 521 523	三个
+T86	Person-Nominal 550 552	母亲
+T87	Person-Nominal 553 556	弟弟们
+*	Coreference T87 T80
+T88	Person-Nominal 556 558	每人
+T89	Metric 558 560	一个
+T90	Time-Implicit 561 563	那时
+T91	Organization-Nominal 563 565	饭店
+T92	Thing-Nominal 568 569	饭
+T93	Thing-Nominal 576 577	菜
+T94	Person-Nominal 578 580	父亲
+T95	Time-Implicit 580 582	每次
+T96	Thing-Nominal 587 589	菜叶
+T97	Person-Pronoun 594 595	我
+T98	Person-Nominal 600 602	父亲
+T99	Person-Pronoun 615 616	他
+T100	Time-Implicit 621 626	有一个周末
+T101	Person-Pronoun 626 627	我
+T102	Person-Nominal 630 632	母亲
+T103	Person-Nominal 633 636	弟弟们
+T104	Person-Pronoun 641 642	我
+T105	Thing-Nominal 643 652	干裂了纹的四个馒头
+T106	Person-Nominal 662 664	父亲
+T107	Thing-Nominal 656 658	篮子
+T108	Metric 648 650	四个
+T109	Person-Pronoun 669 670	他
+*	Coreference T109 T106 T111
+R16	Family Arg1:T102 Arg2:T106	
+R17	Family Arg1:T103 Arg2:T106	
+T110	Person-Pronoun 684 685	我
+T111	Person-Pronoun 695 696	你
+T112	Person-Pronoun 701 703	他们
+T113	Person-Nominal 630 636	母亲和弟弟们
+*	Coreference T112 T113
+T114	Person-Nominal 714 716	父亲
+T115	Person-Nominal 733 735	母亲
+T116	Person-Nominal 736 738	父亲
+T117	Person-Nominal 749 750	我
+T118	Metric 753 756	一辈子
+T119	Metric 238 241	一辈子
+T120	Person-Nominal 757 760	父亲他
+*	Coreference T120 T114 T122
+T121	Person-Pronoun 769 770	我
+T122	Person-Nominal 782 786	我的父亲
+T123	Person-Pronoun 798 800	我们
+T124	Person-Pronoun 803 804	他
+T125	Person-Pronoun 810 811	我
+T126	Person-Nominal 821 824	我父亲
+T127	Person-Pronoun 847 848	他
+T128	Thing-Nominal 853 855	旱烟
+T129	Metric 850 853	一辈子
+T130	Metric 858 861	一辈子
+T131	Thing-Nominal 861 878	母亲用手缝的对襟布扣褂子和大裆裤子
+T132	Person-Nominal 861 863	母亲
+R18	Create Arg1:T132 Arg2:T131	
+T133	Time-Implicit 879 881;882 884	那个 年代
+T134	Thing-Nominal 884 892	叫“制服”的衣服
+T135	Person-Pronoun 892 893	他
+T136	Metric 893 895	一件
+T137	Person-Pronoun 904 905	他
+T138	Person-Pronoun 915 917	我们
+T139	Person-Pronoun 919 920	他
+T140	Organization-Nominal 923 925	公家
+T141	Time-Implicit 932 941	那个人人自危的年代
+*	Coreference T141 T133
+T142	Person-Nominal 943 945	父亲
+T143	Time-Explicit 951 962	文化大革命一打三反期间
+T144	Person-Nominal 965 968	我爷爷
+R19	Family Arg1:T144 Arg2:T139	
+R20	Family Arg1:T144 Arg2:T132	
+R21	Family Arg1:T144 Arg2:T125	
+R22	Family Arg1:T144 Arg2:T103	
+T145	Person-Nominal 982 985	我父亲
+T146	Person-Nominal 996 998	父亲
+T147	Person-Pronoun 1010 1011	他
+T148	Person-Pronoun 1036 1037	他
+T149	Person-Pronoun 1050 1051	他
+T150	Thing-Nominal 1055 1057	旱烟
+T151	Thing-Nominal 1063 1064;1065 1066	火 柴
+T152	Thing-Nominal 1071 1078	七十元的火柴钱
+T153	Person-Nominal 1091 1093	父亲
+T154	Person-Nominal 1109 1111	党员
+R23	General-Special Arg1:T154 Arg2:T153	
+T155	Person-Pronoun 1118 1119	他
+T156	Location-Nominal 1120 1122	煤场
+T157	Location-Nominal 1126 1131	偌大的煤场
+*	Coreference T157 T156
+T158	Thing-Nominal 1131 1135	一堆堆煤
+R24	Located Arg1:T158 Arg2:T157	
+T159	Thing-Nominal 1136 1138	小山
+*	Coreference T159 T158
+T160	Person-Pronoun 1140 1141	他
+T161	Person-Nominal 1146 1150	亲戚朋友
+R25	Social Arg1:T161 Arg2:T160	
+T162	Person-Pronoun 1152 1153	谁
+*	Coreference T162 T161
+T163	Person-Pronoun 1163 1164	他
+T164	Person-Nominal 1171 1177	很多亲戚朋友
+R26	Part-Whole Arg1:T164 Arg2:T161	
+T165	Person-Nominal 1179 1181	父亲
+T166	Person-Pronoun 1183 1185	我们
+T167	Person-Nominal 1198 1200	别人
+T168	Organization-Nominal 1201 1203	公家
+T169	Person-Pronoun 1222 1223	他
+T170	Person-Pronoun 1229 1230	他
+T171	Person-Pronoun 1231 1233	我们
+T172	Person-Pronoun 1242 1244	我们
+T173	Person-Nominal 1248 1253	亲爱的父亲
+*	Coreference T165 T173 T174 T176 T182
+T174	Person-Pronoun 1257 1258	你
+T175	Time-Implicit 1254 1256	今年
+T176	Person-Nominal 1259 1261	母亲
+T177	Person-Nominal 1257 1261	你和母亲
+T178	Person-Pronoun 1270 1272	你们
+*	Coreference T177 T178
+T179	Metric 1262 1266	100岁
+T180	Time-Implicit 1262 1268	100岁生日
+T181	Location-Name 1273 1275	天国
+T182	Person-Pronoun 1289 1290	您
+T183	Person-Nominal 1291 1293	母亲
+T184	Person-Pronoun 1297 1299	我们
+T185	Person-Pronoun 1307 1308	您

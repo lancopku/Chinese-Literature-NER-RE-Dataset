@@ -1,0 +1,298 @@
+T1	Thing-Nominal 0 2	那桥
+T2	Thing-Nominal 4 16	一座虚架在寒溪河上的古桥
+T3	Thing-Nominal 17 19	那路
+T4	Thing-Nominal 21 37	一条连接长江文明和黄河文明的古路
+T5	Thing-Nominal 39 42	米仓道
+T6	Person-Pronoun 44 45	我
+T7	Person-Nominal 49 55	故事的主人公
+T8	Person-Pronoun 58 59	我
+T9	Person-Nominal 61 65	考古专家
+T10	Person-Nominal 70 75	考古参与者
+T11	Person-Pronoun 66 67	我
+T12	Location-Name 77 85	米仓道考古调查队
+T13	Person-Nominal 86 102	负责组织联络和后勤服务的工作人员
+T14	Person-Pronoun 121 122	我
+T15	Person-Nominal 125 140	米仓道考古调查中最重大的发现者
+T16	Time-Explicit 152 161	2011年9月4日
+T17	Organization-Name 162 174	全国政协文史与学习委员会
+T18	Organization-Name 175 186	陕西省政协和四川省政协
+T19	Location-Name 207 209	西安
+T20	Metric 214 216	四日
+T21	Location-Name 219 221	广元
+T22	Person-Nominal 241 244	与会者
+T23	Abstract 247 253	《广元共识》
+T24	Time-Explicit 273 276	10月
+T25	Organization-Name 277 283	中共巴中市委
+T26	Organization-Name 284 291	巴中市人民政府
+T27	Thing-Nominal 295 298	米仓道
+T28	Time-Explicit 305 314	2012年3月5日
+T29	Organization-Name 316 324	四川省考古研究院
+T30	Person-Nominal 330 357	国内顶尖级考古专家、文史专家和联合国教科文组织东亚代表
+T31	Location-Name 359 361	巴中
+T32	Organization-Name 362 370	米仓道考古调查队
+T33	Person-Pronoun 376 377	我
+T34	Person-Nominal 380 385;386 394	市文广新局 分管文化的副局长
+T35	Person-Nominal 406 411	其中的一员
+T36	Time-Explicit 412 416	3月6日
+T37	Thing-Nominal 432 435	米仓道
+T38	Time-Explicit 442 452	3000多年的秦以前
+T39	Person-Nominal 453 456	古巴人
+T40	Thing-Nominal 460 463	米仓道
+T41	Location-Name 467 470	米仓山
+T42	Thing-Pronoun 474 475	它
+T43	Thing-Nominal 476 483	金牛道、荔枝道
+*	Coreference T42 T37
+T44	Thing-Nominal 486 487;488 492	三 大古蜀道
+T45	Location-Name 494 496	中国
+T46	Time-Implicit 496 498	古代
+T47	Thing-Nominal 498 517	连接南北的经济要道、军事要道和文化通道
+T48	Thing-Nominal 528 531	米仓道
+T49	Metric 554 558	三千多年
+T50	Thing-Pronoun 559 560	它
+*	Coreference T50 T48
+T51	Location-Nominal 570 574	这条路上
+T52	Person-Nominal 591 592	人
+T53	Thing-Nominal 600 604	文化遗迹
+T54	Time-Implicit 605 607	今天
+T55	Person-Pronoun 608 609;610 611	我 们
+T56	Person-Nominal 614 616	祖先
+T57	Person-Nominal 622 624	子孙
+T58	Person-Pronoun 637 639	我们
+T59	Organization-Nominal 649 652	调查队
+T60	Person-Pronoun 659 660	我
+T61	Time-Explicit 665 673	3月6日到11日
+T62	Metric 681 683	6天
+T63	Location-Name 691 704	巴州区、平昌县、通江县境内
+T64	Metric 713 716	6天来
+T65	Person-Pronoun 717 718	我
+T66	Person-Pronoun 756 757	我
+T67	Person-Nominal 759 766	400万巴中人
+T68	Person-Nominal 779 782	专家们
+T69	Person-Pronoun 784 785	我
+T70	Location-Name 788 801	巴州区、平昌县、通江县境内
+T71	Thing-Nominal 813 816	米仓道
+T72	Thing-Nominal 823 826	米仓道
+T73	Thing-Nominal 852 855	米仓道
+T74	Location-Name 858 861	米仓山
+T75	Thing-Nominal 865 868	米仓山
+T76	Location-Name 869 873	南江境内
+R1	Located Arg1:T75 Arg2:T76	
+T77	Thing-Nominal 874 876	南江
+T78	Thing-Nominal 878 881	米仓道
+T79	Thing-Nominal 899 908	这条古老的文化线路
+T80	Person-Pronoun 919 920	我
+T81	Time-Explicit 947 956	3月12日早上6点
+T82	Person-Nominal 957 961	全体队员
+T83	Location-Name 962 966	通江县城
+T84	Location-Name 970 972	汉中
+T85	Location-Name 978 980	汉中
+T86	Person-Nominal 985 991	南江县的同志
+T87	Location-Name 985 988	南江县
+T88	Location-Name 997 1005	汉中市金江大酒店
+T89	Time-Implicit 1006 1010	晚上8点
+T90	Person-Name 1011 1022	省考古研究院院长高达伦
+T91	Person-Nominal 1024 1028	全体队员
+T92	Metric 1039 1043	一个小时
+T93	Metric 1061 1065	三个小时
+T94	Person-Nominal 1069 1080	南江县文物局的三名同志
+T95	Organization-Name 1069 1075	南江县文物局
+T96	Person-Nominal 1089 1091	对方
+T97	Location-Name 1098 1101	南江县
+T98	Person-Pronoun 1125 1126	我
+T99	Person-Nominal 1137 1143	南江县的同志
+T100	Location-Name 1137 1140	南江县
+T101	Person-Pronoun 1145 1147	他们
+*	Coreference T101 T99
+T102	Time-Explicit 1156 1159	3月份
+T103	Thing-Nominal 1163 1165	大雪
+T104	Thing-Nominal 1166 1167	山
+T105	Thing-Nominal 1181 1186	厚厚的积雪
+T106	Time-Explicit 1188 1192	5月中旬
+T107	Person-Name 1207 1210	高院长
+T108	Person-Name 1213 1216	高院长
+T109	Thing-Nominal 1224 1226	地图
+T110	Metric 1227 1229	片刻
+T111	Person-Name 1230 1233	高院长
+T112	Person-Nominal 1242 1251	调查队AB两组人员
+T113	Thing-Nominal 1254 1258	两条线路
+T114	Person-Pronoun 1261 1262	我
+T115	Person-Nominal 1265 1272	随行服务的同志
+T116	Person-Pronoun 1277 1278	我
+T117	Organization-Nominal 1282 1284	A组
+T118	Thing-Nominal 1285 1287	线路
+T119	Location-Name 1289 1291	南郑
+T120	Location-Name 1295 1297;1298 1303	青树 镇、喜神坝
+T121	Location-Name 1304 1307	桃园镇
+T122	Thing-Nominal 1315 1318	米仓道
+T123	Thing-Nominal 1311 1331	一条事关米仓道是否存在的最重要的调查线路
+T124	Time-Explicit 1333 1340	13日早上7点
+T125	Organization-Nominal 1341 1345	AB两组
+T126	Organization-Name 1348 1350	汉中
+T127	Thing-Nominal 1354 1359	各自的线路
+T128	Person-Pronoun 1369 1370	我
+T129	Organization-Nominal 1373 1375	A组
+T130	Organization-Nominal 1432 1434	B组
+T131	Thing-Nominal 1384 1393;1394 1395	南郑的大高桥和定波 桥
+T132	Location-Name 1384 1386	南郑
+R2	Located Arg1:T131 Arg2:T132	
+T133	Thing-Nominal 1402 1406	蜀门秦关
+T134	Thing-Nominal 1411 1424	红军战壕和巴山游击队纪念馆
+T135	Thing-Nominal 1442 1447	南郑的庙坝
+T136	Location-Name 1442 1444	南郑
+R3	Located Arg1:T135 Arg2:T136	
+T137	Thing-Nominal 1450 1454;1455 1457	南北两面 挡墙
+T138	Person-Pronoun 1458 1459	我
+T139	Thing-Nominal 1466 1472	米仓道的主体
+T140	Location-Name 1473 1475	巴中
+R4	Located Arg1:T139 Arg2:T140	
+T141	Person-Pronoun 1476 1478	我们
+T142	Thing-Nominal 1481 1486	最要的线路
+T143	Thing-Nominal 1496 1499	米仓道
+T144	Thing-Nominal 1509 1515;1516 1518	巴山游击队纪 念馆
+T145	Person-Pronoun 1521 1523	我们
+T146	Location-Name 1525 1532	桃园镇的两河口
+T147	Thing-Nominal 1534 1537	两河口
+T148	Thing-Pronoun 1538 1539	你
+*	Coreference T148 T147
+T149	Person-Pronoun 1541 1543	我们
+T150	Time-Implicit 1552 1562	当我们考察完两河口后
+T151	Person-Pronoun 1553 1555	我们
+T152	Thing-Nominal 1558 1561	两河口
+T153	Time-Implicit 1574 1579	下午4点半
+T154	Person-Nominal 1580 1582	大家
+T155	Person-Name 1587 1590	高院长
+T156	Person-Nominal 1592 1594	大家
+T157	Location-Nominal 1596 1598	宾馆
+T158	Time-Implicit 1601 1604	晚饭后
+T159	Thing-Nominal 1610 1615	专家的车队
+T160	Location-Nominal 1619 1622	两河口
+T161	Person-Pronoun 1624 1625	我
+T162	Person-Pronoun 1630 1631	我
+T163	Person-Name 1634 1644	四川飞天影像老总吕林
+T164	Person-Nominal 1649 1653	他的助手
+T165	Person-Pronoun 1649 1650	他
+*	Coreference T165 T163
+T166	Person-Pronoun 1679 1680	我
+T167	Person-Name 1685 1687	吕林
+T168	Thing-Nominal 1694 1697	米仓道
+T169	Thing-Nominal 1704 1707	两河口
+T170	Thing-Nominal 1710 1718	米仓道的必经之地
+*	Coreference T169 T170
+T171	Person-Pronoun 1719 1720	我
+T172	Person-Name 1721 1723	吕林
+T173	Location-Nominal 1727 1733	两河口的上游
+T174	Thing-Nominal 1734 1737	截贤岭
+R5	Located Arg1:T174 Arg2:T173	
+T175	Person-Name 1744 1745;1746 1747	萧 何
+T176	Person-Name 1750 1752	韩信
+T177	Thing-Nominal 1764 1767	截贤岭
+T178	Person-Pronoun 1780 1781	我
+T179	Person-Nominal 1783 1785	祖先
+T180	Thing-Nominal 1793 1795	遗存
+T181	Person-Pronoun 1804 1806	我们
+T182	Person-Name 1824 1826	吕林
+T183	Person-Nominal 1834 1838	当地群众
+T184	Person-Nominal 1850 1853	梦中人
+T185	Person-Nominal 1861 1865	一行三人
+T186	Person-Pronoun 1859 1861	我们
+T187	Location-Nominal 1869 1871	村子
+T188	Person-Pronoun 1872 1873;1874 1875	我 们
+T189	Time-Implicit 1886 1888	5点
+T190	Person-Pronoun 1899 1901	我们
+T191	Time-Implicit 1915 1918	第二天
+T192	Person-Nominal 1918 1921	专家们
+T193	Location-Name 1924 1926	桃园
+T194	Location-Name 1930 1934	南江县城
+T195	Person-Nominal 1951 1960	一位年近70的老人
+T196	Person-Pronoun 1962 1964	我们
+T197	Location-Name 1965 1968	两河口
+T198	Thing-Nominal 1969 1971	桥孔
+R6	Located Arg1:T198 Arg2:T197	
+T199	Person-Pronoun 1985 1986	他
+*	Coreference T199 T195
+T200	Time-Implicit 1986 1991	很小的时候
+T201	Thing-Nominal 2005 2007	公路
+T202	Thing-Nominal 2008 2010	新桥
+T203	Thing-Nominal 2011 2015	不少桥孔
+T204	Thing-Nominal 2027 2032	自己的耳朵
+T205	Person-Pronoun 2027 2029	自己
+R7	Part-Whole Arg1:T204 Arg2:T205	
+T206	Person-Pronoun 2041 2043	我们
+T207	Person-Pronoun 2050 2051	我
+T208	Person-Nominal 2053 2055	老人
+T209	Person-Name 2060 2062	吕林
+T210	Person-Nominal 2063 2067	他的助手
+T211	Person-Pronoun 2063 2064	他
+*	Coreference T211 T209
+T212	Thing-Nominal 2071 2074	摄像机
+T213	Person-Pronoun 2076 2078	我们
+T214	Person-Pronoun 2093 2094	我
+T215	Person-Nominal 2096 2098	老人
+T216	Person-Pronoun 2099 2101	我们
+T217	Person-Nominal 2107 2109	老人
+T218	Location-Name 2119 2122	两河口
+T219	Time-Implicit 2127 2130	5点半
+T220	Person-Nominal 2133 2135	老人
+T221	Person-Pronoun 2140 2142	我们
+T222	Thing-Nominal 2144 2151	一排方正的桥孔
+T223	Location-Nominal 2152 2154	河底
+R8	Located Arg1:T222 Arg2:T223	
+T224	Metric 2167 2170	14个
+T225	Person-Pronoun 2184 2185	我
+T226	Person-Name 2186 2188	吕林
+T227	Person-Pronoun 2198 2199	我
+T228	Person-Name 2202 2207	高大伦院长
+T229	Person-Name 2219 2222	高院长
+T230	Person-Nominal 2237 2240	专家们
+T231	Person-Pronoun 2245 2247	我们
+T232	Thing-Nominal 2249 2253	河的两岸
+T233	Person-Pronoun 2261 2263	我们
+T234	Location-Nominal 2265 2267	河岸
+T235	Thing-Nominal 2269 2271	树林
+T236	Thing-Nominal 2273 2275	山崖
+T237	Time-Implicit 2261 2276	我们爬上河岸走进树林勘察山崖时
+T238	Thing-Nominal 2289 2292	栈道孔
+T239	Thing-Nominal 2293 2296;2297 2299	一排栈 道孔
+T240	Metric 2301 2304	26个
+T241	Metric 2305 2308	26个
+T242	Person-Pronoun 2309 2310	我
+T243	Person-Name 2311 2313	吕林
+T244	Person-Name 2324 2327	高院长
+T245	Person-Nominal 2329 2336	A组的所有专家
+T246	Person-Name 2340 2357	联合国教科文组织东亚代表杜晓帆先生
+T247	Person-Nominal 2361 2364	专家们
+T248	Location-Nominal 2380 2383	河中间
+T249	Thing-Nominal 2387 2393	几个圆形桥孔
+R9	Located Arg1:T249 Arg2:T248	
+T250	Person-Name 2394 2408	中国人民大学国学院教授王子今
+T251	Thing-Nominal 2412 2417	古老的桥孔
+T252	Metric 2421 2423	千年
+T253	Thing-Nominal 2428 2432	这些桥孔
+T254	Location-Name 2437 2440	两河口
+T255	Thing-Nominal 2442 2445;2446 2447	五座古 桥
+R10	Located Arg1:T255 Arg2:T254	
+T257	Person-Name 2486 2489	高院长
+T258	Person-Pronoun 2490 2491	我
+T259	Thing-Nominal 2493 2496	两河口
+T260	Thing-Nominal 2501 2504	米仓道
+T256	Location-Name 2450 2453	米仓山
+T261	Thing-Nominal 2454 2457	米仓道
+T262	Thing-Nominal 2467 2484	古代重要的军事、文化、经济通道之一
+*	Coreference T262 T261
+T263	Thing-Nominal 2524 2526	潮水
+T264	Person-Pronoun 2527 2528	我
+T265	Thing-Nominal 2532 2534	双眼
+T266	Thing-Nominal 2549 2552	米仓道
+T267	Person-Nominal 2556 2558	祖先
+T268	Location-Name 2562 2564	巴中
+T269	Thing-Nominal 2568 2571	两河口
+T270	Thing-Nominal 2572 2588	这个事关米仓道存在和走向的两河口
+T271	Thing-Nominal 2592 2594	桥孔
+T272	Person-Pronoun 2601 2603	我们
+T273	Person-Pronoun 2613 2614	我
+T274	Thing-Nominal 2617 2619	那桥
+T275	Thing-Nominal 2620 2622	那路
+T276	Location-Nominal 2645 2660	长江文明和黄河文明的连接道路上
+T277	Person-Name 2666 2668	秦渊
+T278	Time-Explicit 2671 2676	1970年
+T279	Person-Nominal 2678 2690	四川省巴中市作家协会主席

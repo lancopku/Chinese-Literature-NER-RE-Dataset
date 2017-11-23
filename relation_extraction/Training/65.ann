@@ -1,0 +1,80 @@
+T1	Person-Pronoun 11 12	她
+T2	Person-Pronoun 15 16	她
+T3	Person-Pronoun 19 20	她
+T4	Person-Pronoun 23 24	她
+T5	Thing-Nominal 2 9	一幅纯美的面画
+T6	Thing-Pronoun 0 1	这
+*	Coreference T5 T6
+T7	Metric 2 4	一幅
+T8	Time-Implicit 28 32	千百年来
+T9	Metric 28 31	千百年
+T10	Person-Nominal 34 37	多少人
+T11	Person-Pronoun 63 65	她们
+*	Coreference T11 T10
+T12	Location-Nominal 38 42	这条线上
+T13	Person-Pronoun 74 76	她们
+T14	Person-Pronoun 85 87	她们
+T15	Person-Nominal 108 113	那么一些人
+T16	Person-Pronoun 114 116	他们
+*	Coreference T16 T15
+T17	Person-Pronoun 125 127	他们
+T18	Person-Pronoun 136 138	他们
+T19	Person-Pronoun 148 150	他们
+T20	Person-Nominal 167 171	做儿女的
+T21	Person-Nominal 173 175	儿女
+T22	Person-Nominal 177 181	做夫妻的
+T23	Person-Nominal 183 184	夫
+T24	Person-Nominal 187 191	做媳妇的
+T25	Person-Nominal 194 196	媳妇
+*	Coreference T20 T21
+*	Coreference T22 T23
+*	Coreference T24 T25
+T26	Person-Nominal 198 202	做父母的
+T27	Person-Nominal 209 215	做兄弟姐妹的
+T28	Person-Nominal 221 225	做朋友的
+T29	Person-Pronoun 234 235	我
+T30	Person-Pronoun 241 243	他们
+T31	Person-Pronoun 305 306	我
+T32	Person-Pronoun 316 318	他们
+T33	Person-Pronoun 319 321	他们
+T34	Person-Nominal 327 329	他人
+T35	Person-Nominal 337 339	他人
+T36	Person-Nominal 347 349	他人
+T37	Person-Pronoun 358 360	他们
+T38	Person-Pronoun 390 392	他们
+T39	Person-Nominal 399 406	除自己以外的人
+T40	Thing-Nominal 407 414	除自己以外的事
+T41	Person-Pronoun 400 402	自己
+*	Coreference T41 T38 T43
+T42	Time-Explicit 415 418	有时候
+T43	Person-Pronoun 422 424	自己
+T44	Person-Nominal 422 426;427 428	自己的同 胞
+T45	Thing-Nominal 439 443	刀光剑影
+T46	Person-Pronoun 449 451	他们
+T47	Person-Pronoun 459 461	自己
+T48	Person-Pronoun 465 467	他们
+T49	Person-Nominal 475 477	别人
+T50	Thing-Nominal 475 481	别人的钱袋子
+R1	Create Arg1:T49 Arg2:T50	
+T51	Person-Pronoun 485 487	他们
+T52	Location-Nominal 493 497	地平线上
+T53	Thing-Nominal 493 500	地平线上的热浪
+R2	Located Arg1:T53 Arg2:T52	
+T55	Thing-Nominal 505 509;510 512	平线上的 热浪
+R3	Located Arg1:T55 Arg2:T52	
+T54	Thing-Nominal 512 514	一浪
+T56	Thing-Nominal 516 518	一浪
+T57	Thing-Nominal 528 533	险峻的高山
+T58	Person-Pronoun 535 537	他们
+T59	Thing-Nominal 542 544	门户
+T60	Thing-Name 545 547	太阳
+T61	Thing-Nominal 551 556	阴冷的树影
+T62	Time-Implicit 559 561	明天
+T63	Location-Nominal 564 574	本就不安守的悬崖边上
+T64	Person-Nominal 578 580	他人
+T65	Thing-Nominal 587 589	嗓门
+T66	Thing-Nominal 591 595;596 603	从前发生 过了的无聊故事
+T67	Person-Nominal 617 618	君
+T68	Thing-Nominal 626 630	一江春水
+T69	Thing-Nominal 647 651	污泥浊水
+T70	Thing-Nominal 663 665	苦水

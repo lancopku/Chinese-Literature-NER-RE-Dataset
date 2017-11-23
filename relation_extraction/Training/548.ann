@@ -1,0 +1,129 @@
+T1	Location-Nominal 0 2	窗外
+T2	Thing-Nominal 9 11	槐树
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 19 20	枝
+T4	Location-Nominal 30 32	屋檐
+R2	Part-Whole Arg1:T3 Arg2:T2	
+T5	Thing-Nominal 38 39	槐
+*	Coreference T5 T2
+T6	Location-Nominal 50 51	窗
+T7	Thing-Nominal 52 53	槐
+T8	Thing-Nominal 66 68	绿叶
+R3	Part-Whole Arg1:T8 Arg2:T7	
+T9	Person-Pronoun 70 71	我
+T10	Location-Nominal 72 74	窗口
+T11	Person-Pronoun 80 81	我
+T12	Thing-Nominal 83 84	槐
+T13	Thing-Nominal 86 87	槐
+T14	Thing-Nominal 92 93	槐
+T15	Thing-Nominal 98 99	槐
+T16	Person-Pronoun 117 118	我
+T17	Thing-Nominal 121 122	槐
+T18	Person-Pronoun 125 126	我
+T19	Person-Pronoun 149 150	我
+T20	Thing-Nominal 154 155	槐
+T21	Thing-Nominal 160 162	嫩枝
+R4	Part-Whole Arg1:T21 Arg2:T20	
+T22	Person-Pronoun 186 187	我
+T23	Time-Implicit 202 204	夏初
+T24	Thing-Nominal 205 206	槐
+T25	Thing-Nominal 211 213	叶片
+R5	Part-Whole Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 238 239	花
+R6	Part-Whole Arg1:T26 Arg2:T24	
+T28	Person-Pronoun 256 257	我
+T27	Thing-Nominal 264 265	槐
+T29	Person-Pronoun 268 269	我
+T30	Location-Nominal 278 279	窗
+T31	Thing-Nominal 282 283	枝
+T32	Thing-Nominal 286 287	叶
+T33	Thing-Nominal 290 291	槐
+R7	Part-Whole Arg1:T32 Arg2:T33	
+R8	Part-Whole Arg1:T31 Arg2:T33	
+T34	Person-Pronoun 335 336	我
+T35	Thing-Nominal 341 342	槐
+T36	Thing-Nominal 357 358	蝉
+T37	Thing-Nominal 368 369	槐
+T38	Thing-Nominal 373 374	蝉
+T39	Thing-Nominal 380 381	我
+R9	Located Arg1:T37 Arg2:T38	
+T40	Person-Pronoun 387 388	我
+T41	Thing-Nominal 391 392	蝉
+T42	Thing-Nominal 393 394	蝉
+T43	Thing-Nominal 400 402	树枝
+R10	Located Arg1:T42 Arg2:T43	
+T44	Thing-Pronoun 409 410	它
+T45	Thing-Pronoun 410 412	自己
+*	Coreference T42 T44 T45
+T46	Thing-Nominal 433 436	槐枝叶
+T47	Thing-Nominal 443 444	蝉
+T48	Thing-Pronoun 455 456	它
+*	Coreference T47 T48
+T49	Person-Pronoun 461 462	我
+T50	Thing-Nominal 467 468	蝉
+T51	Time-Explicit 473 475	大唐
+T52	Time-Explicit 518 519	唐
+T53	Person-Name 520 522	王维
+T54	Person-Pronoun 550 551	我
+T55	Time-Explicit 554 556	唐代
+T56	Person-Name 573 575	王维
+T57	Person-Pronoun 584 585	我
+T58	Thing-Nominal 605 606	蝉
+T59	Person-Nominal 622 624	唐人
+T60	Thing-Nominal 627 628	蝉
+T61	Thing-Nominal 638 639	蝉
+T62	Time-Explicit 648 650	唐代
+T63	Person-Name 650 656	大诗人李商隐
+T64	Thing-Nominal 664 665	蝉
+T65	Location-Nominal 667 668	园
+T66	Thing-Nominal 669 670	蝉
+T67	Thing-Nominal 672 673	树
+T68	Thing-Nominal 674 675	蝉
+T69	Thing-Nominal 840 841	蝉
+T70	Location-Nominal 851 853	窗外
+T71	Location-Nominal 854 855	园
+R11	Near Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 856 857	槐
+R12	Located Arg1:T72 Arg2:T70	
+T73	Person-Pronoun 886 887	我
+T74	Time-Explicit 891 898	大唐之前的南朝
+T75	Person-Name 900 902	王藉
+T76	Person-Nominal 957 961	墨客骚人
+T77	Person-Name 1014 1017	王昌龄
+T78	Person-Pronoun 1070 1071	你
+T79	Person-Nominal 1073 1075	诗人
+T80	Thing-Nominal 1076 1077	蝉
+T81	Time-Explicit 1149 1150	唐
+T82	Person-Name 1151 1154	卢照邻
+T83	Time-Explicit 1165 1166	唐
+T84	Person-Name 1168 1171	李百药
+T85	Person-Pronoun 1257 1258	我
+T86	Time-Implicit 1273 1277	那个下午
+T87	Thing-Nominal 1278 1279	蝉
+T88	Time-Implicit 1286 1290	那个下午
+T89	Thing-Nominal 1293 1294	槐
+T90	Location-Nominal 1297 1299	窗外
+T91	Person-Pronoun 1300 1301	我
+R13	Located Arg1:T89 Arg2:T90	
+T92	Person-Pronoun 1302 1303	我
+T93	Thing-Nominal 1310 1311	槐
+T94	Thing-Nominal 1324 1326	秋蝉
+T95	Time-Implicit 1331 1335	那个夏天
+T96	Thing-Nominal 1350 1351	蝉
+T97	Location-Nominal 1365 1367	巷口
+T98	Person-Nominal 1368 1370	行人
+T99	Thing-Nominal 1381 1382	槐
+T100	Thing-Nominal 1392 1394	枯叶
+R14	Part-Whole Arg1:T100 Arg2:T99	
+T101	Person-Name 1429 1432	骆宾王
+T102	Thing-Nominal 1441 1443	寒蝉
+T103	Thing-Nominal 1453 1454	蝉
+T104	Location-Nominal 1497 1499	窗外
+T105	Thing-Nominal 1507 1509	槐树
+R15	Located Arg1:T105 Arg2:T104	
+T106	Thing-Nominal 1511 1512	树
+*	Coreference T106 T105
+T107	Thing-Nominal 1520 1522	蝉子
+T108	Person-Pronoun 1523 1524	我
+T109	Thing-Nominal 1528 1530	窗门
+T110	Thing-Nominal 1556 1557	蝉

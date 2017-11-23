@@ -1,0 +1,460 @@
+T1	Time-Implicit 2 4	黄昏
+T2	Thing-Name 5 7	太阳
+T3	Thing-Nominal 5 10	太阳的余晖
+T4	Location-Nominal 11 23	盆景园西边花梨树的枝丫间
+T5	Location-Name 11 14	盆景园
+T6	Thing-Nominal 29 34	一地的金黄
+T7	Metric 29 31	一地
+T8	Thing-Nominal 36 39	花梨树
+T9	Thing-Nominal 43 44	干
+R1	Part-Whole Arg1:T9 Arg2:T8	
+T10	Thing-Nominal 45 47	根盘
+R2	Part-Whole Arg1:T10 Arg2:T8	
+T11	Person-Nominal 51 55	一位朋友
+T12	Metric 51 53	一位
+T13	Person-Nominal 58 62	这位朋友
+*	Coreference T13 T11 T24
+T14	Time-Implicit 62 65	早些年
+T15	Organization-Nominal 66 68	部队
+T16	Thing-Nominal 69 71	大车
+R3	Use Arg1:T13 Arg2:T16	
+T17	Thing-Nominal 74 76	木料
+T18	Location-Name 78 81	俄贤岭
+T19	Thing-Nominal 83 85	洪水
+T20	Location-Nominal 88 90	路边
+T21	Thing-Nominal 90 94	一株花梨
+R4	Located Arg1:T21 Arg2:T20	
+R5	General-Special Arg1:T8 Arg2:T21	
+T22	Thing-Nominal 97 101	一片崖壁
+T23	Metric 97 99	一片
+T24	Person-Pronoun 104 105	他
+T25	Location-Nominal 105 109	泥里水里
+T26	Location-Nominal 126 129	院子里
+T27	Thing-Nominal 132 133	洞
+R6	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 136 139	几锹土
+T29	Metric 136 138	几锹
+T30	Person-Pronoun 140 141	谁
+T31	Thing-Pronoun 142 143	它
+*	Coreference T31 T21 T35 T38 T43
+T32	Thing-Nominal 159 161	虬根
+R7	Part-Whole Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 167 170	水泥地
+T34	Thing-Nominal 172 176	大包小洞
+R8	Located Arg1:T34 Arg2:T33	
+T35	Thing-Pronoun 188 189	她
+T36	Person-Pronoun 194 195	我
+R9	Social Arg1:T36 Arg2:T24	
+T37	Location-Name 197 200	俄贤岭
+T38	Thing-Nominal 197 203	俄贤岭的花梨
+T39	Thing-Nominal 211 212	电
+T40	Thing-Nominal 213 214	雷
+T41	Thing-Nominal 216 220	狂风恶雨
+T42	Thing-Nominal 230 234	海南花梨
+T43	Thing-Nominal 229 244	将海南花梨的品质张扬到极致的树
+T44	Time-Implicit 247 249	现在
+T45	Person-Nominal 250 252	母亲
+T46	Thing-Nominal 256 261	树下的躺椅
+R10	Use Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 265 278	树上即将飘落的最后几片落叶
+T48	Location-Nominal 265 267	树上
+R11	Located Arg1:T47 Arg2:T48	
+T49	Person-Nominal 280 282	母亲
+R12	Family Arg1:T45 Arg2:T36	
+T51	Person-Pronoun 288 289	她
+*	Coreference T51 T49 T70
+T52	Thing-Nominal 291 293	这树
+T53	Location-Nominal 296 298	树上
+T54	Thing-Nominal 299 300	鸟
+T55	Thing-Nominal 301 302	蝶
+T56	Thing-Nominal 303 304	蜂
+R13	Located Arg1:T54 Arg2:T53	
+R14	Located Arg1:T56 Arg2:T53	
+R15	Located Arg1:T55 Arg2:T53	
+T57	Thing-Nominal 307 311	虫豸蚊蝇
+R16	Located Arg1:T57 Arg2:T53	
+T58	Thing-Nominal 314 325	开花很“妖邪”的凤凰树
+T59	Thing-Nominal 334 340;341 343	花花、毛毛的 虫子
+T60	Thing-Pronoun 346 347	她
+T50	Thing-Nominal 284 287	花梨树
+*	Coreference T52 T50 T60 T72 T71 T73 T74 T75 T98
+T61	Thing-Nominal 346 349	她的花
+R17	Part-Whole Arg1:T61 Arg2:T60	
+T62	Location-Nominal 355 359	庄稼地里
+T63	Thing-Nominal 359 362	油菜花
+R18	Located Arg1:T63 Arg2:T62	
+T64	Thing-Nominal 370 372	果实
+T65	Thing-Nominal 374 386	家乡菜园篱笆上的峨眉豆荚
+R19	Part-Whole Arg1:T64 Arg2:T60	
+T66	Thing-Nominal 374 380	家乡菜园篱笆
+*	Coreference T65 T66
+T67	Location-Nominal 398 400	树下
+T68	Thing-Nominal 403 412	一种清清爽爽的香味
+R20	Located Arg1:T68 Arg2:T67	
+T69	Person-Pronoun 414 415	我
+T70	Person-Nominal 417 420	老人家
+T71	Thing-Nominal 422 433	出产中国第一好木料的树
+T72	Thing-Pronoun 421 422	这
+T73	Thing-Pronoun 450 451	她
+T74	Thing-Pronoun 458 459	她
+T75	Thing-Pronoun 461 462	她
+T76	Person-Nominal 471 473	农民
+T77	Thing-Nominal 475 480	家具、农具
+T78	Thing-Nominal 482 503	船桨、牛轭，做算盘、花瓶，做锄头柄、榔头把
+T79	Person-Nominal 504 509	海南小娃娃
+T80	Thing-Nominal 510 512	毛笔
+T81	Thing-Nominal 514 516	笔管
+T82	Thing-Nominal 521 525	她的骨格
+T83	Thing-Pronoun 521 522	她
+R21	Part-Whole Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 461 468	她的格(心材)
+R22	Part-Whole Arg1:T84 Arg2:T75	
+T85	Person-Nominal 529 531	母亲
+T86	Thing-Nominal 535 539	一棵好树
+T87	Metric 535 537	一棵
+T88	Person-Pronoun 542 543	我
+T89	Organization-Nominal 546 548	皇家
+T90	Thing-Nominal 551 553	这树
+T91	Thing-Nominal 535 539	一棵好树
+T92	Location-Nominal 556 559	皇宫里
+T93	Thing-Nominal 561 569	不少花梨做的物件
+R23	Located Arg1:T93 Arg2:T92	
+T94	Person-Nominal 570 572	母亲
+T95	Thing-Nominal 579 584	哪样好东西
+T96	Person-Nominal 584 586	皇上
+T97	Location-Nominal 593 595	皇宫
+T98	Thing-Nominal 599 601	花梨
+T99	Person-Nominal 616 619	咱农民
+T100	Location-Nominal 616 621	咱农民家里
+T101	Thing-Nominal 624 628	一只锅盖
+T102	Metric 624 626	一只
+T103	Person-Nominal 635 637	母亲
+T104	Person-Nominal 642 643	人
+T105	Person-Nominal 669 670	人
+T106	Person-Nominal 681 682	人
+T107	Thing-Nominal 686 687	树
+T108	Thing-Nominal 694 696	花梨
+T109	Thing-Nominal 705 710	皇家的宠物
+T110	Person-Nominal 712 718	哪位大腕大款
+T111	Thing-Nominal 712 721	哪位大腕大款的收藏
+T112	Organization-Nominal 705 707	皇家
+T113	Person-Pronoun 725 726	我
+T114	Thing-Nominal 727 729	花梨
+T115	Person-Pronoun 730 731	我
+T117	Person-Nominal 737 739	乡邻
+T116	Thing-Nominal 737 747	乡邻的刨子把、斧头柄
+R24	Ownership Arg1:T117 Arg2:T116	
+T118	Person-Nominal 751 753	木匠
+T119	Thing-Nominal 751 763	木匠手头一把曲尺或是墨斗
+R25	Ownership Arg1:T118 Arg2:T119	
+T120	Person-Pronoun 766 767	我
+T121	Thing-Nominal 769 772	一盆水
+T122	Metric 769 771	一盆
+T123	Person-Nominal 775 777	母亲
+T124	Person-Pronoun 780 781	她
+*	Coreference T124 T123
+T125	Location-Nominal 780 783	她脚前
+T126	Thing-Nominal 785 787	盆面
+T127	Thing-Nominal 789 795	一些花梨木屑
+R26	Located Arg1:T127 Arg2:T126	
+T128	Metric 789 791	一些
+T129	Thing-Nominal 796 800	这些宝贝
+*	Coreference T129 T127
+T130	Person-Pronoun 801 802	我
+T131	Thing-Nominal 803 812	一盆悬崖式博兰盆景
+T132	Person-Nominal 813 817	一位朋友
+R27	Social Arg1:T132 Arg2:T130	
+R28	Ownership Arg1:T130 Arg2:T131	
+T133	Thing-Nominal 820 822	花梨
+T134	Thing-Nominal 824 826	降香
+*	Coreference T134 T133
+T135	Thing-Nominal 836 837	水
+T136	Thing-Nominal 849 853	盆的边沿
+T137	Thing-Nominal 849 850	盆
+R29	Part-Whole Arg1:T136 Arg2:T137	
+T138	Thing-Nominal 785 786	盆
+R30	Part-Whole Arg1:T126 Arg2:T138	
+T139	Thing-Nominal 855 861	少许花梨油晕
+R31	Located Arg1:T139 Arg2:T136	
+T140	Person-Nominal 865 867	母亲
+T141	Thing-Nominal 874 875	眼
+T142	Thing-Nominal 869 871	身子
+R32	Ownership Arg1:T140 Arg2:T142	
+R33	Part-Whole Arg1:T141 Arg2:T140	
+T143	Person-Pronoun 883 884	我
+T144	Person-Pronoun 886 887	我
+T145	Person-Nominal 890 891	妈
+*	Coreference T145 T140 T146
+T146	Person-Pronoun 895 896	您
+T147	Person-Nominal 892 894	儿子
+*	Coreference T147 T144
+T148	Person-Nominal 901 903	母亲
+T149	Thing-Nominal 912 915	两只脚
+R34	Part-Whole Arg1:T149 Arg2:T148	
+T150	Person-Pronoun 930 931	我
+T151	Time-Implicit 934 936	小时
+T152	Person-Pronoun 936 937	您
+T153	Person-Pronoun 938 939	我
+T154	Thing-Nominal 940 941	脚
+T155	Person-Pronoun 944 945	我
+T156	Person-Pronoun 946 947	您
+T157	Thing-Nominal 948 949	脚
+T158	Person-Pronoun 950 951	我
+T159	Person-Nominal 971 973	母亲
+T160	Thing-Nominal 973 975	两手
+R35	Part-Whole Arg1:T160 Arg2:T159	
+T161	Person-Pronoun 979 980	你
+*	Coreference T161 T159 T158 T167
+T162	Person-Nominal 982 989	快要抱孙子的人
+R36	General-Special Arg1:T162 Arg2:T161	
+T163	Time-Implicit 1000 1002	这时
+T164	Person-Nominal 1002 1004	妻子
+R37	Family Arg1:T164 Arg2:T158	
+T165	Person-Nominal 1011 1013	母亲
+R38	Family Arg1:T164 Arg2:T165	
+T166	Person-Nominal 1017 1018	妈
+T167	Person-Pronoun 1019 1020	他
+T168	Person-Pronoun 1033 1034	您
+T169	Person-Pronoun 1037 1038	他
+T170	Person-Pronoun 1042 1043	我
+T171	Thing-Nominal 1045 1047	身子
+R39	Ownership Arg1:T170 Arg2:T171	
+T172	Thing-Nominal 1048 1050	双脚
+R40	Part-Whole Arg1:T172 Arg2:T170	
+T173	Thing-Nominal 1054 1055	手
+T174	Thing-Nominal 1057 1058	水
+R41	Part-Whole Arg1:T173 Arg2:T170	
+T175	Thing-Nominal 1060 1061	水
+T176	Thing-Nominal 1066 1067	水
+T177	Person-Pronoun 1071 1072	我
+T178	Person-Nominal 1074 1076	母亲
+T179	Thing-Nominal 1074 1079	母亲的裤脚
+R42	Ownership Arg1:T178 Arg2:T179	
+T180	Thing-Nominal 1082 1087	布鞋、线袜
+R43	Ownership Arg1:T178 Arg2:T180	
+T181	Thing-Nominal 1090 1094	母亲的脚
+R44	Part-Whole Arg1:T181 Arg2:T178	
+T182	Location-Nominal 1096 1098	盆里
+R45	Located Arg1:T181 Arg2:T182	
+T183	Thing-Nominal 1102 1114	母亲有些浮肿、苍白的双脚
+*	Coreference T183 T181 T199 T200
+T184	Person-Pronoun 1115 1116	我
+T185	Thing-Nominal 1117 1119	脚踝
+R46	Part-Whole Arg1:T185 Arg2:T183	
+T186	Person-Pronoun 1127 1129	母亲
+T187	Thing-Nominal 1129 1132	脚后跟
+R47	Part-Whole Arg1:T187 Arg2:T183	
+T188	Thing-Nominal 1132 1144	那硬硬、厚厚、干裂的老茧
+R48	Located Arg1:T188 Arg2:T187	
+T189	Thing-Nominal 1147 1150	我的手
+T190	Person-Pronoun 1147 1148	我
+R49	Part-Whole Arg1:T189 Arg2:T190	
+T191	Time-Implicit 1153 1160	逝去的那些日子
+T192	Person-Nominal 1163 1165	母亲
+T193	Thing-Nominal 1162 1174	与母亲一起走过的长坡小坎
+T194	Person-Pronoun 1175 1176	我
+T195	Thing-Nominal 1175 1178	我的眼
+R50	Part-Whole Arg1:T195 Arg2:T194	
+T196	Thing-Nominal 1182 1184	泪水
+R51	Located Arg1:T196 Arg2:T195	
+T197	Person-Nominal 1188 1190	儿子
+T198	Person-Pronoun 1191 1192	我
+T199	Thing-Nominal 1199 1204	母亲的双脚
+T200	Thing-Nominal 1205 1209	母亲的脚
+T201	Thing-Nominal 1214 1216	五指
+R52	Part-Whole Arg1:T201 Arg2:T200	
+T202	Thing-Nominal 1225 1228	佛手瓜
+T203	Person-Pronoun 1229 1230	我
+T204	Thing-Nominal 1235 1244	童年裹脚留下的印记
+T205	Time-Implicit 1245 1246;1247 1248	当 年
+T206	Person-Nominal 1250 1252	外婆
+R53	Family Arg1:T206 Arg2:T203	
+T207	Person-Pronoun 1256 1257	我
+*	Coreference T207 T206
+T208	Thing-Nominal 1256 1260	我这小脚
+R54	Part-Whole Arg1:T208 Arg2:T207	
+T209	Metric 1260 1263	一辈子
+T210	Person-Nominal 1270 1273	我女儿
+R55	Family Arg1:T210 Arg2:T206	
+T211	Person-Nominal 1205 1207	母亲
+T212	Thing-Nominal 1288 1292	母亲左脚
+R56	Part-Whole Arg1:T212 Arg2:T200	
+T213	Thing-Nominal 1295 1302	一块椭圆形的疤
+R57	Located Arg1:T213 Arg2:T212	
+T214	Metric 1295 1297	一块
+T215	Thing-Nominal 1305 1307;1308 1310	一枚 印章
+T216	Location-Nominal 1312 1314	脚上
+R58	Located Arg1:T215 Arg2:T216	
+T217	Time-Implicit 1317 1320	3岁时
+T219	Thing-Nominal 1327 1328	鱼
+T220	Person-Pronoun 1329 1330	她
+T221	Thing-Nominal 1335 1336	船
+T222	Thing-Nominal 1338 1344	未熄尽的劈柴
+T223	Person-Nominal 1347 1349	外公
+T224	Person-Pronoun 1351 1352	我
+R59	Family Arg1:T223 Arg2:T224	
+R60	Family Arg1:T223 Arg2:T210	
+R61	Family Arg1:T223 Arg2:T206	
+T218	Person-Nominal 1320 1322	外婆
+T225	Person-Nominal 1322 1324	外公
+T226	Metric 1362 1368	半袋烟的功夫
+T227	Person-Nominal 1370 1372	你妈
+T228	Person-Pronoun 1372 1373	她
+*	Coreference T228 T227 T210 T211
+T229	Person-Nominal 1379 1381	你妈
+T230	Person-Pronoun 1387 1389	你们
+R62	Part-Whole Arg1:T224 Arg2:T230	
+T231	Thing-Nominal 1399 1401	右脚
+T232	Thing-Nominal 1401 1409	一个月牙形的伤疤
+R63	Located Arg1:T232 Arg2:T231	
+T233	Thing-Nominal 1412 1415	小酒盅
+T234	Person-Pronoun 1417 1418	我
+T235	Person-Nominal 1426 1427	妈
+T236	Thing-Nominal 1428 1432	这个伤口
+*	Coreference T236 T232 T259
+T237	Person-Nominal 1437 1439	母亲
+T238	Person-Pronoun 1445 1446	我
+*	Coreference T235 T237 T238 T250 T256
+T239	Person-Pronoun 1447 1448	你
+*	Coreference T239 T234
+T240	Thing-Nominal 1452 1454	粮食
+T241	Person-Pronoun 1458 1460	你们
+T242	Person-Nominal 1471 1473	你爹
+R64	Family Arg1:T242 Arg2:T241	
+R65	Family Arg1:T242 Arg2:T239	
+R66	Family Arg1:T242 Arg2:T237	
+T243	Location-Nominal 1474 1481	人家挖剩的荷塘
+T244	Person-Pronoun 1474 1476	人家
+T245	Time-Implicit 1470 1484	和你爹到人家挖剩的荷塘挖藕时
+T246	Thing-Nominal 1485 1487	铁锹
+T247	Thing-Nominal 1495 1497	滴水
+T248	Thing-Nominal 1499 1500	冰
+T249	Thing-Nominal 1501 1502	脚
+T250	Person-Pronoun 1517 1519	自己
+T251	Thing-Nominal 1506 1507	锹
+R67	Part-Whole Arg1:T249 Arg2:T250	
+T252	Time-Implicit 1524 1529	苦难的岁月
+T253	Location-Nominal 1530 1535	我的手指间
+T254	Person-Nominal 1540 1542	父亲
+*	Coreference T254 T242
+T255	Time-Explicit 1542 1547	1971年
+T256	Person-Nominal 1552 1559	刚过40的母亲
+T257	Thing-Nominal 1561 1563	腰杆
+R68	Part-Whole Arg1:T257 Arg2:T256	
+T258	Person-Nominal 1572 1576	六儿一女
+*	Coreference T258 T241 T287
+T259	Thing-Nominal 1598 1603	母亲的伤疤
+T260	Person-Pronoun 1604 1605	我
+T261	Person-Pronoun 1608 1609	妈
+T262	Person-Nominal 1617 1619	母亲
+T263	Thing-Nominal 1628 1631	小虫子
+T264	Person-Pronoun 1646 1647	我
+T265	Person-Nominal 1651 1653	母亲
+T266	Time-Implicit 1664 1666	小时
+T267	Person-Nominal 1666 1668	母亲
+T268	Time-Implicit 1668 1670	冬天
+T269	Person-Pronoun 1671 1672	我
+T270	Thing-Nominal 1673 1674	脚
+T271	Person-Nominal 1684 1686	母亲
+T272	Person-Nominal 1686 1688	孩子
+T273	Person-Nominal 1696 1699	大伢子
+*	Coreference T273 T269
+T274	Location-Name 1712 1715	俄贤岭
+T275	Thing-Nominal 1720 1722	水墨
+T276	Thing-Nominal 1730 1738	出外觅食的相思鸟
+T277	Location-Nominal 1743 1747	花梨树上
+R69	Located Arg1:T276 Arg2:T277	
+T278	Thing-Nominal 1748 1750	幼鸟
+T279	Thing-Nominal 1758 1760	老鸟
+T280	Location-Nominal 1758 1762	老鸟嘴里
+T281	Thing-Nominal 1763 1764	食
+R70	Located Arg1:T281 Arg2:T280	
+T282	Time-Implicit 1765 1766;1767 1768	秋 天
+T283	Thing-Nominal 1765 1766;1767 1770	秋 天的风
+T284	Person-Nominal 1775 1777	妻子
+T285	Thing-Nominal 1780 1784	毛线外套
+T286	Person-Nominal 1786 1788	母亲
+T287	Person-Nominal 1807 1813	我们六儿一女
+T288	Person-Nominal 1815 1817	母亲
+T289	Thing-Nominal 1818 1820	小鸟
+T290	Person-Nominal 1823 1825	母亲
+T291	Time-Implicit 1828 1830	冬天
+T292	Person-Pronoun 1831 1833	你们
+T293	Thing-Nominal 1840 1843	红萝上
+T294	Thing-Nominal 1848 1855	治冻疮的干鸡屎
+T295	Person-Pronoun 1863 1864	你
+T296	Person-Nominal 1869 1873	老五老六
+R71	Part-Whole Arg1:T296 Arg2:T287	
+T297	Person-Pronoun 1875 1876	你
+T298	Person-Pronoun 1877 1878	你
+T299	Person-Nominal 1882 1883;1884 1885	老 大
+R72	Part-Whole Arg1:T299 Arg2:T287	
+T300	Person-Nominal 1891 1895	老五老六
+T301	Person-Nominal 1902 1904	老六
+R73	Part-Whole Arg1:T301 Arg2:T287	
+T302	Person-Nominal 1910 1912	母亲
+T303	Thing-Nominal 1916 1920	花梨树干
+T304	Thing-Nominal 1921 1925	一块伤疤
+R74	Located Arg1:T303 Arg2:T304	
+T305	Thing-Nominal 1926 1927	树
+T306	Thing-Nominal 1934 1938	老干虬枝
+R75	Part-Whole Arg1:T306 Arg2:T305	
+T307	Person-Pronoun 1943 1944	我
+T308	Person-Nominal 1948 1949	人
+T309	Thing-Nominal 1952 1955	每棵树
+T310	Thing-Nominal 1958 1960	灵魂
+T311	Thing-Nominal 1962 1964	花梨
+T312	Person-Nominal 1967 1969	母亲
+T313	Person-Nominal 1976 1978	母亲
+T314	Thing-Nominal 1985 1986	风
+T315	Thing-Nominal 1987 1988	雨
+T316	Thing-Pronoun 1988 1989	她
+*	Coreference T316 T311 T305 T317
+T317	Thing-Pronoun 1995 1996	她
+T318	Person-Pronoun 2003 2004	我
+T319	Thing-Nominal 2015 2016	果
+T320	Person-Nominal 2025 2027	母亲
+T321	Person-Nominal 2032 2033	人
+T322	Thing-Nominal 2035 2036	树
+T323	Person-Pronoun 2043 2044	我
+T324	Thing-Nominal 2048 2051	一棵树
+T325	Thing-Nominal 2053 2055	花梨
+T326	Person-Pronoun 2056 2057	我
+T327	Thing-Nominal 2063 2068	一棵花梨树
+T328	Metric 2063 2065	一棵
+T329	Person-Pronoun 2069 2070	我
+T330	Person-Pronoun 2078 2080	你们
+T331	Person-Pronoun 2082 2083	我
+*	Coreference T329 T323 T326 T320
+T332	Person-Nominal 2085 2087	母亲
+T333	Location-Nominal 2085 2089	母亲眼角
+T334	Thing-Nominal 2091 2096	晶莹的泪珠
+R76	Located Arg1:T334 Arg2:T333	
+T335	Person-Nominal 2098 2100	妻子
+T336	Person-Nominal 2101 2103	母亲
+T337	Thing-Nominal 2105 2107	指甲
+T338	Thing-Nominal 2110 2115	干净的鞋袜
+T339	Person-Nominal 2117 2119	儿子
+T340	Person-Nominal 2121 2123	母亲
+T341	Person-Pronoun 2128 2129	我
+T342	Thing-Nominal 2131 2134	花梨树
+T343	Person-Pronoun 2139 2140	谁
+T344	Thing-Nominal 2145 2148	一棵树
+T345	Thing-Nominal 2151 2154	一棵树
+T346	Metric 2145 2147	一棵
+T347	Metric 2151 2153	一棵
+T348	Person-Nominal 2155 2157	母亲
+T349	Person-Pronoun 2158 2159	你
+T350	Metric 2160 2163	一辈子
+T351	Location-Name 2169 2174	海南俄贤岭
+T352	Thing-Nominal 2169 2180	海南俄贤岭的一棵花梨树
+R77	Located Arg1:T352 Arg2:T351	
+T353	Thing-Nominal 2181 2182	风
+T354	Metric 2175 2177	一棵
+T355	Thing-Nominal 2184 2185	风
+T356	Thing-Nominal 2186 2187	雨
+T357	Thing-Nominal 2190 2191	雨
+T358	Thing-Nominal 2207 2212	不屈的头颅
+T359	Thing-Nominal 2231 2236	一棵花梨树
+T360	Metric 2231 2233	一棵
+R78	Part-Whole Arg1:T358 Arg2:T348	

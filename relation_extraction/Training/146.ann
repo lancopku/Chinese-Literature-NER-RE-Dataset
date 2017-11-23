@@ -1,0 +1,141 @@
+T1	Person-Nominal 3 5	寨民
+T2	Thing-Nominal 10 11	盐
+T3	Thing-Nominal 17 27	艾丽姑娘家的竹楼两层
+T4	Location-Nominal 17 22	艾丽姑娘家
+T5	Person-Name 17 21	艾丽姑娘
+R1	Located Arg1:T3 Arg2:T4	
+T6	Location-Nominal 36 44	竹楼的露天阳台上
+T7	Location-Name 55 57	中国
+T8	Thing-Nominal 60 62	黛山
+T9	Thing-Nominal 70 72	山岗
+T10	Thing-Nominal 72 74	云雾
+T11	Thing-Nominal 79 81	海涛
+T12	Person-Nominal 85 86	人
+T13	Location-Name 96 100	邻国老挝
+T14	Thing-Nominal 103 105	群山
+T15	Location-Nominal 117 126	群山起伏的翠绿丛中
+T16	Thing-Nominal 129 138;139 142	耸立的圆顶白塔和红 墙佛寺
+T17	Location-Nominal 148 151	山坡上
+R2	Located Arg1:T16 Arg2:T15	
+T18	Thing-Nominal 153 156	铁皮盖
+T19	Thing-Nominal 157 162	简易住房群
+R3	Located Arg1:T19 Arg2:T17	
+T20	Thing-Nominal 165 170	老挝的村寨
+T21	Location-Name 165 167	老挝
+R4	Located Arg1:T20 Arg2:T21	
+T22	Person-Nominal 173 181	分居在三国的亲友
+T23	Person-Nominal 201 209	国境线上少数民族
+T24	Organization-Nominal 215 217	政府
+T25	Person-Nominal 229 233	边境居民
+T26	Time-Implicit 240 242	平时
+T27	Person-Nominal 258 260	傣族
+T28	Person-Nominal 261 262	客
+T29	Time-Implicit 268 270	中午
+T30	Person-Pronoun 271 273	我们
+T31	Location-Nominal 275 286	艾丽姑娘家竹楼的火塘边
+T32	Thing-Nominal 275 280	艾丽姑娘家
+T33	Person-Name 275 279	艾丽姑娘
+T34	Location-Nominal 287 292	红漆矮几上
+T35	Thing-Nominal 295 299	美味菜肴
+R5	Located Arg1:T35 Arg2:T34	
+T36	Location-Nominal 300 303	火塘里
+T37	Thing-Nominal 305 313	直冒香味的野猪肉
+R6	Located Arg1:T37 Arg2:T36	
+T38	Person-Nominal 314 316	主人
+T39	Thing-Nominal 320 321	酒
+T40	Thing-Nominal 322 323	菜
+T41	Person-Pronoun 324 326	我们
+T42	Thing-Nominal 328 336	香醇的糯米酸枣酒
+T43	Thing-Nominal 339 344	喷香的腊肉
+T44	Thing-Nominal 348 357	别有风味的傣族菜肴
+T45	Thing-Nominal 358 361	酸鸡肉
+T46	Thing-Nominal 362 364	酸鱼
+T47	Location-Pronoun 373 375	这里
+T48	Thing-Nominal 384 391	真正的山珍海味
+T49	Person-Name 392 394	大李
+T50	Person-Nominal 394 403	这位豪爽的东北汉子
+*	Coreference T50 T49
+T51	Time-Implicit 404 406	平时
+T52	Time-Implicit 415 417	这时
+T53	Thing-Nominal 419 421	醉眼
+T54	Time-Implicit 426 428	这时
+T55	Location-Nominal 429 431	远处
+T56	Thing-Nominal 438 440	筒箫
+T57	Location-Nominal 448 452	父母脸上
+T58	Person-Nominal 448 450	父母
+T59	Person-Nominal 459 461	母亲
+T60	Person-Nominal 463 465	女儿
+R7	Family Arg1:T60 Arg2:T59	
+T61	Person-Pronoun 469 470	他
+T62	Person-Pronoun 476 477	他
+T63	Person-Nominal 481 494	这两位远道来的雅司(老师)
+T64	Person-Name 497 501	艾丽姑娘
+T65	Location-Nominal 501 503	脸上
+T66	Person-Nominal 513 514	人
+T67	Thing-Nominal 516 518	乳燕
+T68	Thing-Nominal 519 520	翅
+R8	Part-Whole Arg1:T67 Arg2:T68	
+T69	Thing-Nominal 523 525	竹楼
+T70	Person-Name 534 537	艾丽娜
+T71	Person-Nominal 540 543	小伙子
+T72	Thing-Nominal 545 547	竹楼
+T73	Person-Pronoun 548 549	我
+T74	Person-Name 550 552	大李
+T75	Person-Pronoun 561 562	他
+T76	Time-Implicit 564 566	那天
+T77	Thing-Nominal 581 583	筒箫
+T78	Person-Name 584 587	艾丽娜
+T79	Person-Nominal 579 594	吹着筒箫和艾丽娜载歌载舞的青年
+T80	Person-Pronoun 595 596	他
+*	Coreference T80 T79
+T81	Person-Name 597 599	扎布
+T82	Person-Nominal 601 607	艾丽艺专同学
+T83	Person-Name 601 603	艾丽
+T84	Time-Implicit 608 611	毕业后
+T85	Person-Name 611 613	扎布
+T86	Location-Nominal 616 618;619 623	这边 州歌舞团
+T87	Person-Name 624 626	艾丽
+T88	Person-Pronoun 631 633	他们
+T89	Time-Implicit 635 637	明年
+T90	Time-Implicit 637 643	“牡瑙摆”节
+T91	Time-Implicit 646 648	这时
+T92	Thing-Nominal 648 653	艾丽的脸颊
+T93	Person-Name 648 650	艾丽
+R9	Part-Whole Arg1:T92 Arg2:T93	
+T94	Thing-Nominal 661 663	春阳
+T95	Thing-Nominal 671 677	一朵出水芙蓉
+T96	Thing-Nominal 678 679;680 684	明 净的眼睛
+R10	Part-Whole Arg1:T96 Arg2:T93	
+T97	Thing-Nominal 685 695	甜美而带点羞怯的嘴唇
+R11	Part-Whole Arg1:T97 Arg2:T93	
+T98	Person-Nominal 709 715	傣族年轻一代
+T99	Person-Nominal 728 730	雅司
+T100	Person-Pronoun 731 733	我们
+T101	Thing-Nominal 735 738	杜鹃花
+T102	Person-Nominal 742 748	远方来的客人
+T103	Person-Name 754 758	艾丽姑娘
+T104	Person-Name 760 762	扎布
+T105	Thing-Nominal 763 765	竹楼
+T106	Person-Pronoun 768 769	我
+T107	Person-Nominal 774 807	这对傣家新一代幸福的“小普卯”(傣族青年)和“小普扫”(傣族姑娘)
+T108	Location-Nominal 817 826	翠绿嫣红的山花丛中
+T109	Time-Implicit 827 829	此刻
+T110	Thing-Nominal 833 835	筒箫
+T111	Thing-Nominal 838 850	版纳情歌的悠扬悦耳的情歌
+T112	Person-Nominal 852 854	主人
+T113	Thing-Nominal 857 858	酒
+T114	Thing-Nominal 859 860	莱
+T115	Person-Name 861 863	大李
+T116	Person-Nominal 863 872	这位豪爽的东北汉子
+*	Coreference T116 T115
+T117	Time-Implicit 873 875	平时
+T118	Time-Implicit 885 887	这时
+T119	Thing-Nominal 889 891	醉眼
+T120	Person-Pronoun 907 909	我们
+T121	Person-Nominal 921 923	人民
+T122	Person-Nominal 933 935	人民
+T123	Person-Pronoun 942 944	我们
+T124	Thing-Nominal 946 957	这个国境线上的特殊之家
+T125	Thing-Pronoun 958 959	它
+*	Coreference T125 T124
+T126	Person-Pronoun 984 986	他们

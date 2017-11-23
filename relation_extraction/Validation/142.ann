@@ -1,0 +1,176 @@
+T1	Person-Pronoun 0 1	我
+T2	Person-Nominal 2 9	中国人民解放军
+T3	Person-Nominal 16 17	民
+T4	Location-Name 13 15	广州
+T5	Metric 25 28	61年
+T6	Person-Nominal 32 44	最初的辽东老兵、岭南客子
+T7	Person-Nominal 52 58	道地的新客家
+T8	Metric 63 68	大半个世纪
+T9	Thing-Nominal 86 93	最后一截蜡烛头
+T10	Person-Nominal 97 100	少年人
+T11	Person-Nominal 104 107	老年人
+T12	Person-Nominal 124 125	人
+T13	Time-Implicit 129 131	这天
+T14	Person-Pronoun 131 132	我
+T15	Time-Implicit 138 140	当年
+T16	Location-Name 142 144	广州
+T17	Location-Nominal 145 152	第一个住处附近
+T18	Thing-Nominal 162 173	那座著名的高层宾馆大厦
+T19	Location-Nominal 159 162	财厅前
+R1	Located Arg1:T18 Arg2:T19	
+T20	Time-Implicit 174 176	当年
+T21	Thing-Nominal 177 194	一座前面看三层、后面看四层的小白楼
+T22	Thing-Nominal 195 205	中共广州市委的办公楼
+T23	Organization-Name 195 201	中共广州市委
+R2	Ownership Arg1:T23 Arg2:T22	
+T24	Person-Pronoun 206 207	我
+T25	Location-Nominal 212 217;218 220	这座小白楼 前面
+T26	Organization-Name 221 229	三楼的市委工业部
+T27	Time-Implicit 236 238	白天
+T28	Thing-Nominal 242 244	工厂
+T29	Person-Nominal 274 276	干部
+T30	Thing-Nominal 291 295	那么多钱
+T31	Location-Nominal 302 306	市委食堂
+T32	Thing-Nominal 307 309	晚饭
+T33	Time-Implicit 312 314	晚上
+T34	Time-Implicit 318 321	晚饭后
+T35	Location-Nominal 323 330	小白楼底层后门
+T36	Thing-Nominal 331 334	越华路
+T37	Thing-Nominal 336 339	小北路
+T38	Thing-Nominal 342 345	法政路
+T39	Thing-Nominal 348 351	登瀛路
+T40	Thing-Nominal 354 362	一座不太高的小山
+T41	Location-Nominal 363 365	山头
+T42	Thing-Nominal 366 385	一座也是前面看三层、后面看四层的小楼;
+R3	Located Arg1:T42 Arg2:T41	
+T43	Person-Nominal 389 392	国民党
+T44	Organization-Name 389 398	国民党政权的盐务局
+T45	Time-Implicit 399 400;401 402	当 时
+T46	Person-Nominal 405 415	几位有家眷的处级干部
+T47	Person-Nominal 416 426	我们五个单身科级干部
+T48	Thing-Nominal 427 429	宿舍
+T49	Thing-Nominal 435 437	三楼
+T50	Thing-Nominal 448 454	一溜三间房子
+T51	Location-Nominal 445 447	半边
+R4	Located Arg1:T50 Arg2:T51	
+T52	Location-Nominal 455 459	另外半边
+T53	Thing-Nominal 460 462	阳台
+R5	Located Arg1:T53 Arg2:T52	
+T54	Person-Pronoun 463 464	我
+T55	Location-Nominal 465 468	右手边
+T56	Thing-Nominal 468 473	把头的一间
+R6	Located Arg1:T56 Arg2:T55	
+T57	Person-Name 474 481	朱森林和孙惠康
+T58	Location-Nominal 482 484	中间
+T59	Location-Nominal 487 491;492 494	隔上楼楼 梯口
+T60	Person-Name 495 506	林丹和梁雪怡两位女同志
+T61	Location-Nominal 508 511	左手边
+T62	Person-Pronoun 516 518	我们
+T63	Person-Nominal 521 540	灶王爷贴在腿肚子上―人走家搬”的单身汉
+T64	Person-Pronoun 542 543	我
+T65	Location-Nominal 545 548	右手边
+T66	Thing-Nominal 548 552	这间房子
+R7	Located Arg1:T66 Arg2:T65	
+T67	Person-Pronoun 554 555	我
+T68	Organization-Name 558 569	地方国营广东苎麻纺织厂
+T69	Person-Nominal 571 573	厂长
+T70	Time-Implicit 570 577	代厂长的前一天
+T71	Person-Nominal 580 594	一位朱森林叫他“宫主”的同志
+T72	Person-Name 582 585	朱森林
+T73	Person-Pronoun 595 596	我
+T74	Person-Pronoun 599 600	他
+*	Coreference T74 T71 T75
+T75	Person-Nominal 604 616	广州市青年文化宫的负责人
+T76	Person-Nominal 629 631	秘书
+T77	Person-Name 622 628	第二书记王德
+T78	Time-Implicit 646 649	第二天
+T79	Person-Pronoun 649 650	我
+T80	Thing-Nominal 653 655	工厂
+T81	Location-Name 660 662	广州
+T82	Thing-Nominal 664 669	第二个住处
+R8	Located Arg1:T82 Arg2:T81	
+T83	Time-Implicit 670 672	当年
+T84	Organization-Name 674 687	广东纺织厂和广东苎麻纺织厂
+T85	Person-Nominal 687 694	三位工厂领导人
+T86	Thing-Nominal 694 696	宿舍
+T87	Person-Nominal 698 706	孙中山大元帅府”
+T88	Person-Pronoun 707 708	我
+T89	Thing-Nominal 711 717	一间长条小屋
+T90	Location-Nominal 709 711	二楼
+R9	Located Arg1:T89 Arg2:T90	
+T91	Person-Name 721 724;725 728	孙中山 大元帅
+T92	Thing-Nominal 721 724;725 733	孙中山 大元帅的图书室，
+R10	Ownership Arg1:T91 Arg2:T92	
+T93	Person-Pronoun 735 736	我
+T94	Person-Nominal 737 749	一个24岁转业大兵单身汉
+T95	Location-Nominal 751 755	一个地方
+T96	Thing-Nominal 756 757	风
+T97	Thing-Nominal 758 759	雨
+T98	Person-Pronoun 770 771	我
+T99	Location-Nominal 774 780	登瀛路小山上
+T100	Thing-Nominal 780 790	这落籍广州第一个住处
+R11	Located Arg1:T100 Arg2:T99	
+T101	Location-Name 783 785	广州
+T102	Location-Nominal 791 796	一排明窗下
+T103	Thing-Nominal 797 801	一处峭壁
+R12	Located Arg1:T103 Arg2:T102	
+T104	Thing-Nominal 802 804	峭壁
+T105	Location-Nominal 807 813	下面小山丘上
+T106	Thing-Nominal 814 829	十多棵威风凛凛高高大大的凤凰木
+R13	Located Arg1:T106 Arg2:T105	
+T107	Time-Implicit 831 835	花开时节
+T108	Location-Nominal 841 845	靠近小楼
+T109	Thing-Nominal 845 850	几棵的枝头
+R14	Located Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 853 855	窗子
+T111	Thing-Nominal 856 857	手
+T112	Thing-Nominal 860 862	小楼
+T113	Location-Nominal 864 866	山顶
+R15	Located Arg1:T112 Arg2:T113	
+T114	Location-Nominal 874 876	近处
+T115	Thing-Nominal 876 889	一个围墙装有电网的独立大院
+R16	Located Arg1:T115 Arg2:T114	
+T116	Time-Implicit 890 891;892 893	当 时
+T117	Person-Nominal 895 899	苏联专家
+T118	Thing-Nominal 902 908	这座独立大院
+T119	Organization-Name 909 915	中共广州市委
+T120	Thing-Nominal 919 924	墙头的电网
+T121	Location-Nominal 919 921	墙头
+R17	Located Arg1:T120 Arg2:T121	
+T122	Person-Nominal 930 935	中共的市委
+T123	Person-Nominal 941 945	人民大众
+T124	Time-Implicit 951 953	当年
+T125	Location-Nominal 954 959	这间小屋里
+T126	Person-Pronoun 962 963	我
+T127	Thing-Nominal 967 968	窗
+T128	Person-Pronoun 977 978	我
+T129	Thing-Nominal 986 997	独立大院附近的湛家大街
+T130	Location-Nominal 986 992	独立大院附近
+R18	Located Arg1:T129 Arg2:T130	
+T131	Time-Explicit 999 1008	明世宗朱厚的嘉靖中
+T132	Thing-Nominal 1018 1027	明代广州城的小北门
+T133	Person-Pronoun 1032 1033	我
+T134	Thing-Nominal 1035 1045	明代嘉靖中的附近一带
+T135	Thing-Nominal 1067 1075	落籍广州第一住处
+T136	Location-Name 1069 1071	广州
+T137	Person-Pronoun 1076 1077	我
+T138	Location-Name 1086 1094	湛家大街的街道上
+T139	Location-Name 1097 1104	湛家大街的街口
+T140	Thing-Nominal 1106 1116	中共广州市委的信访处
+R19	Located Arg1:T140 Arg2:T139	
+T141	Thing-Nominal 1117 1123;1124 1125	接受举报的部 门
+R20	Located Arg1:T141 Arg2:T139	
+T142	Person-Pronoun 1126 1127	我
+T143	Location-Nominal 1132 1137	大院墙头上
+T144	Thing-Nominal 1138 1140	电网
+R21	Located Arg1:T144 Arg2:T143	
+T145	Person-Pronoun 1145 1146	我
+T146	Person-Nominal 1150 1152	人们
+T147	Metric 1157 1160	几百年
+T148	Thing-Nominal 1161 1165	湛家大街
+T149	Thing-Nominal 1186 1190	湛家大街
+T150	Time-Implicit 1182 1184;1185 1186	解放 前
+T151	Person-Pronoun 1203 1204	我
+T152	Location-Name 1208 1213	湛家大街上
+T153	Person-Name 1225 1228	湛若水
+T154	Thing-Nominal 1230 1234	湛家大街

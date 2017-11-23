@@ -1,0 +1,345 @@
+T1	Time-Implicit 0 7	一个晴朗的夏日
+T2	Person-Pronoun 8 9	我
+T3	Thing-Nominal 10 11	车
+R1	Use Arg1:T2 Arg2:T3	
+T4	Location-Name 13 16	折多山
+T5	Location-Name 19 21	垭口
+T6	Thing-Nominal 57 59	雪峰
+T7	Thing-Nominal 62 64	银屏
+T8	Thing-Nominal 105 107	白云
+T9	Location-Nominal 108 110	北方
+T10	Person-Pronoun 123 124	我
+T11	Location-Nominal 136 138	地上
+T12	Thing-Nominal 138 140	碧草
+R2	Located Arg1:T12 Arg2:T11	
+T13	Location-Nominal 146 148	山坡
+T14	Thing-Nominal 158 160	野花
+R3	Located Arg1:T14 Arg2:T13	
+T15	Thing-Nominal 32 34	苍山
+T16	Thing-Nominal 37 39	迭岭
+T17	Location-Nominal 183 189	公路的边坡上
+T18	Location-Nominal 192 195	玛尼堆
+T19	Thing-Nominal 213 215	经石
+R4	Located Arg1:T19 Arg2:T18	
+R5	Part-Whole Arg1:T18 Arg2:T17	
+T20	Location-Nominal 216 219	玛玛尼
+T21	Thing-Nominal 224 226	木杆
+R6	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 227 228	杆
+T23	Thing-Nominal 239 242	牛毛绳
+R7	Located Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 252 254	经幡
+T25	Thing-Nominal 258 260	哈达
+R8	Located Arg1:T25 Arg2:T23	
+R9	Located Arg1:T24 Arg2:T23	
+T26	Thing-Nominal 266 267	绳
+T27	Thing-Nominal 269 271	经幡
+*	Coreference T26 T23
+R10	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 287 290	玛尼石
+T29	Person-Pronoun 298 299	我
+T30	Thing-Nominal 300 302	提包
+T31	Thing-Nominal 308 310	哈达
+R11	Located Arg1:T31 Arg2:T30	
+R12	Use Arg1:T29 Arg2:T30	
+T32	Location-Nominal 315 318	玛尼堆
+T33	Thing-Nominal 319 321	经绳
+R13	Located Arg1:T33 Arg2:T32	
+R14	Located Arg1:T31 Arg2:T33	
+T34	Time-Implicit 333 337	许多年前
+T35	Person-Pronoun 338 339	我
+T36	Location-Pronoun 342 344	这里
+T37	Location-Name 346 348	垭口
+T38	Location-Nominal 351 353	雪域
+T39	Time-Explicit 364 365;366 369	半 个世纪
+T40	Person-Pronoun 371 372	我
+T41	Location-Name 374 377	折多山
+T42	Thing-Nominal 385 386	雪
+T43	Thing-Nominal 388 389	路
+T44	Thing-Nominal 391 392	车
+T45	Location-Nominal 419 423	川藏公路
+T46	Location-Name 425 427	垭口
+T47	Location-Nominal 430 432	山腰
+T48	Location-Nominal 445 447	河谷
+T49	Person-Pronoun 461 463	我们
+T50	Thing-Nominal 464 466	汽车
+R15	Use Arg1:T49 Arg2:T50	
+T51	Location-Name 467 471	立曲河边
+R16	Located Arg1:T50 Arg2:T51	
+T52	Person-Pronoun 494 495	我
+T53	Location-Nominal 500 502	水面
+T54	Thing-Nominal 510 512	彩带
+T55	Location-Nominal 518 520	草甸
+R17	Located Arg1:T54 Arg2:T55	
+T56	Thing-Nominal 530 532	雪峰
+T57	Thing-Nominal 551 553	牦牛
+T58	Location-Nominal 555 557	草丛
+R18	Located Arg1:T57 Arg2:T58	
+T59	Thing-Nominal 570 572	犄角
+T60	Thing-Nominal 576 577	蹄
+R19	Part-Whole Arg1:T59 Arg2:T57	
+R20	Part-Whole Arg1:T60 Arg2:T57	
+T61	Location-Nominal 579 581	河里
+T62	Thing-Nominal 592 594	脖子
+R21	Part-Whole Arg1:T62 Arg2:T57	
+T63	Thing-Pronoun 598 599	它
+*	Coreference T63 T57
+T64	Thing-Nominal 605 607	尾巴
+R22	Part-Whole Arg1:T64 Arg2:T63	
+T65	Location-Nominal 614 616	岸边
+T66	Location-Nominal 623 625	河滩
+T67	Location-Name 629 632	立曲河
+T68	Location-Name 633 636	雅砻江
+R23	Part-Whole Arg1:T67 Arg2:T68	
+T69	Location-Name 645 657	折多山上的柯哲德沼泽地带
+T70	Location-Name 664 668	木雅地区
+T71	Location-Name 669 673	木雅地区
+T72	Location-Name 675 682	雅砻江中游以东
+T73	Location-Name 683 689;690 691	道孚、丹巴以 南
+T74	Location-Name 692 696	九龙以北
+T75	Location-Name 697 702	折多山以西
+T76	Location-Name 675 689;690 705	雅砻江中游以东，道孚、丹巴以 南，九龙以北，折多山以西的地域
+*	Coreference T71 T73
+T77	Person-Nominal 707 709	学者
+T78	Person-Nominal 715 720	这里的居民
+T79	Time-Implicit 722 724	古代
+T80	Person-Nominal 724 730	党项人的后裔
+*	Coreference T78 T80
+T81	Time-Explicit 731 733	唐代
+T82	Person-Nominal 738 740	吐蕃
+T83	Location-Name 803 805	木雅
+T84	Person-Nominal 808 811	木雅人
+T85	Person-Nominal 815 820	古代党项人
+T86	Person-Pronoun 837 839	我们
+T87	Thing-Nominal 840 842	汽车
+R24	Use Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 854 858	木雅藏寨
+T89	Location-Nominal 861 865	河谷坡地
+R25	Located Arg1:T88 Arg2:T89	
+T90	Metric 869 871	数丈
+T91	Thing-Nominal 873 875	墙体
+T92	Thing-Nominal 877 879	乱石
+R26	Part-Whole Arg1:T91 Arg2:T88	
+T93	Location-Nominal 889 891	屋顶
+T94	Thing-Nominal 899 901	白石
+R27	Located Arg1:T94 Arg2:T93	
+T95	Location-Name 903 907	立曲河畔
+T96	Location-Nominal 910 912	小村
+R28	Part-Whole Arg1:T96 Arg2:T95	
+T97	Thing-Nominal 921 923	古碉
+T98	Location-Name 928 932	木雅地区
+T99	Location-Nominal 971 973	雪山
+T100	Location-Nominal 973 975	草原
+T101	Thing-Nominal 995 997	墙体
+T102	Location-Pronoun 1015 1017	这里
+T103	Location-Nominal 1035 1037	战场
+*	Coreference T102 T103
+T104	Time-Implicit 1038 1040	古代
+T105	Person-Nominal 1045 1048	党项人
+T106	Location-Name 1057 1061	横断山脉
+T107	Person-Nominal 1070 1073	木雅人
+T108	Location-Name 1077 1080	折多山
+T109	Person-Pronoun 1082 1084	他们
+*	Coreference T109 T107
+T110	Person-Pronoun 1091 1093	他们
+T111	Thing-Nominal 1107 1109	古碉
+T112	Person-Nominal 1118 1121	木雅人
+T113	Location-Name 1163 1170	折多山的雪峰下
+T114	Person-Nominal 1171 1174	木雅人
+T115	Person-Pronoun 1179 1181	他们
+T116	Person-Nominal 1181 1183	祖先
+*	Coreference T114 T115
+T117	Location-Name 1192 1195	折多山
+T118	Location-Name 1198 1200	折拉
+*	Coreference T117 T118
+T119	Thing-Nominal 1206 1210	岩石山峰
+T120	Location-Name 1216 1220	青藏高原
+T121	Location-Name 1221 1224	折多山
+R29	Part-Whole Arg1:T121 Arg2:T120	
+T122	Location-Pronoun 1232 1233	它
+*	Coreference T122 T121 T124
+T123	Location-Name 1235 1239	横断山脉
+T124	Location-Nominal 1240 1245	大雪山中段
+T125	Thing-Nominal 1246 1248	主峰
+T126	Metric 1251 1256	4962米
+T127	Location-Nominal 1262 1264	山脊
+T128	Location-Name 1267 1270	大渡河
+T129	Location-Name 1271 1274	雅砻江
+T130	Location-Nominal 1275 1278	分水岭
+*	Coreference T127 T130
+T131	Thing-Pronoun 1281 1282	它
+*	Coreference T131 T125
+T132	Location-Name 1284 1286	康巴
+T133	Time-Implicit 1299 1301	古代
+T134	Location-Nominal 1302 1308	川藏茶马驿道
+T135	Time-Implicit 1309 1310;1311 1312	现 代
+T136	Location-Nominal 1313 1317	川藏公路
+T137	Location-Name 1323 1326	折多山
+T138	Person-Nominal 1327 1333	康藏地区人们
+T139	Location-Nominal 1337 1339	关内
+T140	Location-Nominal 1342 1344	关外
+T141	Location-Name 1356 1364	折多山南端的垭口
+T142	Location-Nominal 1376 1380	雪域高原
+T143	Location-Nominal 1391 1395	横断山脉
+T144	Thing-Nominal 1396 1400	茶马古道
+R30	Located Arg1:T144 Arg2:T143	
+T145	Person-Nominal 1407 1409	官员
+T146	Person-Nominal 1410 1415	戍边的军人
+T147	Person-Nominal 1416 1421	商旅的马帮
+T148	Person-Nominal 1422 1427	朝圣的信徒
+T149	Thing-Nominal 1436 1438	古道
+T150	Time-Explicit 1467 1476	上个世纪50年代初
+T151	Person-Nominal 1483 1485	农奴
+T152	Location-Nominal 1488 1492	祖国边疆
+T153	Person-Nominal 1499 1504	人民解放军
+T154	Location-Name 1496 1498	西藏
+T155	Thing-Nominal 1531 1532	路
+T156	Thing-Nominal 1533 1534	桥
+T157	Location-Nominal 1520 1524	世界屋脊
+R31	Located Arg1:T155 Arg2:T157	
+R32	Located Arg1:T156 Arg2:T157	
+T158	Location-Name 1544 1546	北京
+T159	Location-Name 1547 1549	拉萨
+T160	Thing-Nominal 1550 1552	金桥
+T161	Thing-Nominal 1555 1559	川藏公路
+*	Coreference T161 T160
+T162	Thing-Nominal 1561 1565	五星红旗
+T163	Thing-Nominal 1578 1584	川藏茶马古道
+T164	Location-Name 1588 1591	折多山
+T165	Location-Nominal 1593 1597	川藏公路
+T166	Metric 1603 1608	4000米
+T167	Location-Nominal 1593 1613	川藏公路上第一座海拔4000米以上的雪山
+*	Coreference T164 T167 T168
+T168	Location-Name 1620 1626	康藏高原之关
+T169	Time-Explicit 1629 1637	上个世纪50年代
+T170	Person-Name 1639 1642	毛泽东
+T171	Person-Pronoun 1668 1669	我
+T172	Location-Name 1679 1681	康巴
+T173	Thing-Nominal 1683 1687	川藏公路
+T174	Location-Name 1697 1701	横断山脉
+T175	Location-Name 1704 1706	康南
+T176	Location-Name 1709 1711	拉萨
+T177	Person-Pronoun 1729 1731	我们
+T178	Location-Name 1734 1738	康巴大地
+T179	Location-Name 1741 1745	雅砻源头
+T180	Location-Name 1748 1750;1751 1753	雀儿 山巅
+T181	Location-Name 1776 1780	横断山脉
+T182	Location-Name 1786 1790	大渡河畔
+T183	Location-Name 1796 1800	雅砻江边
+T184	Location-Nominal 1806 1810	原始森林
+T185	Location-Name 1824 1828	康巴地区
+T186	Location-Name 1837 1839	康巴
+T187	Person-Nominal 1844 1847	筑路者
+T188	Metric 1885 1888	三千里
+T189	Thing-Nominal 1888 1892	川藏公路
+T190	Person-Pronoun 1894 1896	我们
+T191	Location-Nominal 1898 1902	雪域高原
+T192	Thing-Nominal 1903 1905	哈达
+T193	Person-Pronoun 1952 1953	我
+T194	Thing-Nominal 1960 1962	汽车
+T195	Location-Nominal 1963 1967	川藏公路
+T196	Thing-Nominal 1973 1975	雪峰
+T197	Thing-Nominal 1976 1977	车
+T198	Thing-Nominal 1981 1982	窗
+R33	Part-Whole Arg1:T198 Arg2:T197	
+T199	Thing-Nominal 1988 1990	经幡
+T200	Thing-Nominal 1994 1996	白塔
+T201	Thing-Nominal 2000 2003	玛尼堆
+T202	Location-Nominal 2011 2015	川藏公路
+R34	Located Arg1:T201 Arg2:T202	
+R35	Located Arg1:T200 Arg2:T202	
+R36	Located Arg1:T199 Arg2:T202	
+T203	Location-Name 2028 2031	松林口
+T204	Location-Name 2034 2037	折多山
+T205	Location-Name 2048 2051	鲜水河
+T207	Location-Nominal 2072 2077	康北的农区
+T206	Location-Name 2054 2059	鲜水河流域
+*	Coreference T206 T207
+T208	Location-Nominal 2079 2081;2082 2083	河两 岸
+T209	Location-Nominal 2083 2085	田野
+T210	Location-Nominal 2088 2090	村舍
+R37	Near Arg1:T210 Arg2:T208	
+R38	Near Arg1:T208 Arg2:T209	
+T211	Thing-Nominal 2105 2107	藏寨
+T212	Location-Name 2110 2112	康北
+T213	Thing-Nominal 2123 2125	白墙
+R39	Part-Whole Arg1:T213 Arg2:T211	
+T214	Thing-Nominal 2125 2127	红壁
+R40	Part-Whole Arg1:T214 Arg2:T211	
+T215	Thing-Nominal 2127 2129	花窗
+R41	Part-Whole Arg1:T215 Arg2:T211	
+T216	Person-Nominal 2160 2162	主人
+T217	Location-Nominal 2168 2170	屋顶
+T218	Thing-Nominal 2176 2178	经幡
+R42	Located Arg1:T218 Arg2:T217	
+T219	Thing-Pronoun 2188 2189	它
+*	Coreference T219 T218
+T220	Person-Nominal 2192 2196	雪域人家
+T221	Person-Nominal 2197 2198	神
+T222	Time-Implicit 2224 2230	日头西斜时分
+T223	Location-Name 2235 2238	鲜水河
+T224	Location-Name 2239 2242	泥曲河
+T225	Thing-Nominal 2231 2233	汽车
+T226	Location-Name 2247 2249	炉霍
+T227	Location-Name 2254 2257	寿灵寺
+T228	Thing-Nominal 2259 2261	经幢
+T229	Thing-Nominal 2262 2264	法轮
+R43	Located Arg1:T228 Arg2:T227	
+R44	Located Arg1:T229 Arg2:T227	
+T230	Location-Name 2276 2278	炉霍
+T231	Location-Name 2281 2284;2285 2286	霍尔章 谷
+*	Coreference T230 T231
+T232	Person-Nominal 2290 2297	山崖上的蒙古人
+T233	Location-Name 2307 2309	甘孜
+T234	Location-Name 2310 2312	炉霍
+T235	Location-Name 2315 2317	石棉
+T236	Location-Name 2318 2320	越西
+T237	Metric 2326 2332	500多公里
+T238	Location-Name 2339 2345	鲜水河地震带
+T239	Location-Name 2347 2349	炉霍
+T240	Time-Implicit 2362 2367	三十多年前
+T241	Metric 2370 2374	7.9级
+T242	Person-Nominal 2397 2401	全国人民
+T243	Person-Nominal 2412 2415	炉霍人
+T244	Person-Pronoun 2443 2444	我
+R45	Part-Whole Arg1:T239 Arg2:T238	
+T245	Location-Name 2448 2451	鲜水河
+T246	Thing-Nominal 2453 2457	炉霍大桥
+T247	Location-Nominal 2460 2463	寿灵寺
+R46	Located Arg1:T246 Arg2:T245	
+T248	Location-Nominal 2476 2478	新城
+T249	Location-Name 2495 2498	鲜水河
+T250	Person-Pronoun 2507 2508	我
+T251	Thing-Nominal 2589 2591	糌粑
+T252	Location-Name 2595 2598	鲜水河
+T253	Person-Pronoun 2601 2602	我
+T254	Location-Nominal 2609 2613	边陲小城
+*	Coreference T254 T252 T256
+T255	Person-Pronoun 2617 2618	我
+T256	Location-Pronoun 2631 2633	这里
+T257	Person-Pronoun 2634 2635	我
+T258	Time-Explicit 2640 2642	三年
+T259	Location-Nominal 2682 2684	城市
+T260	Person-Nominal 2697 2699	人们
+T261	Time-Implicit 2754 2758	三十多年
+T262	Thing-Nominal 2769 2771	白发
+T263	Thing-Nominal 2780 2782	帐篷
+T264	Location-Nominal 2815 2817	山坡
+T265	Thing-Nominal 2819 2822	玛尼旗
+R47	Located Arg1:T265 Arg2:T264	
+T266	Person-Pronoun 2846 2847	我
+T267	Location-Nominal 2861 2863	雪域
+T268	Thing-Nominal 2865 2868	川藏路
+T269	Location-Nominal 2869 2871	高原
+T270	Thing-Nominal 2873 2876	格桑花
+R48	Located Arg1:T270 Arg2:T269	
+R49	Located Arg1:T268 Arg2:T267	
+T271	Location-Name 2880 2882	康巴
+T272	Person-Pronoun 2883 2884	我
+T273	Thing-Nominal 2916 2919	格桑花
+T274	Thing-Nominal 2923 2925	芳草
+T275	Thing-Nominal 2932 2934	列车
+T276	Location-Name 2949 2952	折多山
+T277	Thing-Nominal 2955 2958	康巴路
+T278	Location-Name 2972 2976	雅砻源头
+T279	Location-Name 2979 2983	雀儿山巅

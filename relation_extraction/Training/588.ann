@@ -1,0 +1,288 @@
+T1	Location-Name 0 4	蓟东长城
+T2	Location-Pronoun 8 10	这里
+*	Coreference T2 T1
+T3	Thing-Nominal 11 15	空心敌楼
+R1	Located Arg1:T3 Arg2:T1	
+T4	Person-Pronoun 19 20	你
+T5	Location-Name 22 32	抚宁县石门寨北部山区
+T6	Thing-Nominal 41 43	山脊
+T7	Thing-Nominal 46 50	明代长城
+T8	Thing-Nominal 61 63	城墙
+R2	Part-Whole Arg1:T8 Arg2:T7	
+T9	Thing-Nominal 72 76	空心敌楼
+R3	Located Arg1:T9 Arg2:T8	
+T10	Person-Nominal 96 100	摄影驴友
+T11	Location-Pronoun 104 106	这里
+T12	Person-Pronoun 110 112	我们
+T13	Thing-Nominal 115 117	长城
+T14	Location-Name 121 123	蓟东
+T15	Thing-Nominal 130 132	照片
+T16	Time-Implicit 160 164	今年仲夏
+T17	Person-Pronoun 165 166	我
+T18	Location-Name 167 178	抚宁县驻操营西的板厂峪
+T19	Thing-Nominal 191 193	长城
+T20	Person-Pronoun 210 211	我
+R4	Located Arg1:T7 Arg2:T5	
+T21	Time-Implicit 226 228	傍晚
+T22	Thing-Nominal 231 233	落日
+T23	Thing-Nominal 233 235	飞霞
+T24	Thing-Nominal 241 242	鸦
+T25	Thing-Nominal 260 262	星辰
+T26	Location-Name 265 270	疆沟砬子山
+T27	Thing-Nominal 270 272	龙脊
+T28	Thing-Nominal 297 301	空心敌楼
+T29	Thing-Nominal 314 316	望孔
+T30	Thing-Nominal 346 348	眼睛
+T31	Person-Pronoun 349 350	我
+T32	Thing-Nominal 370 373	野长城
+T33	Time-Explicit 375 379	四百余年
+T34	Thing-Nominal 386 387	灯
+T35	Thing-Nominal 380 382	烽火
+T36	Thing-Nominal 383 384	烟
+T37	Thing-Nominal 408 410	珠链
+T38	Thing-Nominal 427 428	笔
+T39	Person-Pronoun 429 430	我
+T40	Thing-Nominal 441 443	长城
+*	Coreference T32 T40
+T41	Time-Explicit 456 459	千百年
+T42	Thing-Nominal 460 462	长城
+T43	Thing-Nominal 492 494	长城
+T44	Thing-Nominal 498 500	长城
+T45	Location-Nominal 504 507	长城窟
+T46	Person-Nominal 521 523;524 525	长城 人
+T47	Person-Pronoun 530 532	他们
+*	Coreference T46 T47
+T48	Location-Nominal 533 535	阵地
+T49	Metric 536 538	万里
+T50	Thing-Nominal 538 540	长龙
+T51	Person-Pronoun 548 549	我
+T52	Person-Nominal 559 561	古人
+T53	Thing-Nominal 567 568	薪
+T54	Thing-Nominal 568 569	火
+T55	Person-Pronoun 572 573	我
+T56	Person-Nominal 578 582	红山祖先
+T57	Thing-Nominal 583 584	木
+T58	Thing-Nominal 586 587	火
+T59	Location-Name 588 590	北京
+T60	Time-Explicit 601 603	万年
+T61	Time-Implicit 623 626	那一天
+T62	Thing-Nominal 627 629	长城
+T63	Person-Pronoun 641 642	我
+T64	Location-Nominal 654 657	长城窟
+T65	Person-Nominal 660 661	兵
+T66	Person-Nominal 662 663	卒
+T67	Thing-Nominal 665 667	壁洞
+T68	Time-Implicit 689 691	现在
+T69	Person-Pronoun 699 700	我
+T70	Thing-Nominal 724 728	空心敌楼
+T71	Time-Implicit 729 744	明朝隆庆二年(公元1568年)
+T72	Person-Name 743 751	)民族英雄戚继光
+T73	Location-Name 755 757	蓟北
+T74	Thing-Nominal 760 762	长城
+T75	Thing-Nominal 766 770	实心碉楼
+T76	Thing-Nominal 776 780	新式碉楼
+*	Coreference T76 T70
+T77	Person-Name 783 784;785 787	戚 继光
+T78	Person-Nominal 792 795	义乌兵
+T79	Person-Nominal 798 803	长城的主力
+*	Coreference T78 T79
+T80	Time-Explicit 807 813	明朝隆庆三年
+T81	Person-Nominal 817 819	兵卒
+T82	Location-Name 822 825	山海关
+T83	Location-Name 828 833	北京昌平县
+T84	Location-Nominal 835 836	镇
+T85	Metric 838 842	一千公里
+T86	Thing-Nominal 846 848	长城
+T87	Thing-Nominal 852 854	土木
+T88	Time-Implicit 856 860	隆庆五年
+T89	Thing-Nominal 874 878	空心敌楼
+T90	Thing-Nominal 882 886	空心敌台
+*	Coreference T89 T90
+T91	Time-Explicit 892 903	万历三年(1575年)
+T92	Thing-Nominal 912 916	空心敌楼
+T93	Person-Nominal 926 928	来犯
+T94	Person-Nominal 929 931	敌人
+T95	Organization-Nominal 939 941	国军
+T96	Time-Implicit 946 950	和平时期
+T97	Person-Nominal 954 956	守卒
+T98	Thing-Nominal 959 960	雨
+T99	Person-Name 982 985	戚继光
+T100	Thing-Name 982 986	戚继光传
+T101	Time-Explicit 991 996	隆庆五年秋
+T102	Metric 1006 1009	二千里
+T103	Person-Nominal 1017 1018	兵
+T104	Person-Nominal 1028 1032	这些将士
+T105	Location-Name 1037 1039	蓟北
+T106	Thing-Nominal 1043 1045	长城
+R5	Create Arg1:T104 Arg2:T106	
+T107	Thing-Nominal 1048 1050	长城
+T108	Person-Nominal 1054 1056	媳妇
+T109	Person-Nominal 1057 1059	孩子
+R6	Family Arg1:T104 Arg2:T108	
+R7	Family Arg1:T104 Arg2:T109	
+T110	Time-Explicit 1072 1076	明朝后期
+T111	Thing-Nominal 1077 1081	蓟北长城
+T112	Thing-Nominal 1083 1085	敌楼
+R8	Located Arg1:T112 Arg2:T111	
+T113	Person-Nominal 1090 1092	守军
+T114	Thing-Nominal 1099 1102	许家楼
+T115	Thing-Nominal 1103 1106	陈家楼
+T116	Thing-Nominal 1107 1110	张家楼
+T117	Thing-Nominal 1111 1114	龚家楼
+T118	Thing-Nominal 1115 1118	吴家楼
+R9	General-Special Arg1:T118 Arg2:T112	
+R10	General-Special Arg1:T117 Arg2:T112	
+R11	General-Special Arg1:T116 Arg2:T112	
+R12	General-Special Arg1:T115 Arg2:T112	
+R13	General-Special Arg1:T114 Arg2:T112	
+T119	Person-Pronoun 1123 1125	我们
+T120	Person-Nominal 1134 1137	长城人
+T121	Time-Implicit 1131 1133	那时
+T122	Thing-Nominal 1140 1142	敌楼
+T123	Thing-Nominal 1147 1149	油灯
+R14	Located Arg1:T122 Arg2:T123	
+T124	Person-Pronoun 1170 1172	他们
+T125	Person-Pronoun 1179 1181	他们
+*	Coreference T124 T120
+T126	Person-Pronoun 1193 1194	我
+T127	Time-Implicit 1194 1198	今年秋天
+T128	Thing-Nominal 1203 1207	长城油灯
+T129	Thing-Pronoun 1215 1216	它
+*	Coreference T129 T128
+T130	Organization-Name 1221 1231	板厂峪长城文物陈列馆
+T131	Thing-Nominal 1242 1246	长城油灯
+T132	Thing-Nominal 1249 1252	穿心灯
+T133	Thing-Nominal 1253 1255	碟灯
+T134	Thing-Nominal 1256 1258	壶灯
+T135	Thing-Nominal 1259 1261	宋灯
+T136	Thing-Nominal 1262 1265	葫芦灯
+R15	General-Special Arg1:T136 Arg2:T131	
+R16	General-Special Arg1:T135 Arg2:T131	
+R17	General-Special Arg1:T134 Arg2:T131	
+R18	General-Special Arg1:T133 Arg2:T131	
+R19	General-Special Arg1:T132 Arg2:T131	
+T137	Thing-Nominal 1272 1273	陶
+T138	Thing-Nominal 1275 1276	瓷
+T139	Thing-Nominal 1278 1279	铁
+T140	Thing-Nominal 1281 1282	铜
+T141	Person-Pronoun 1285 1286	我
+T142	Thing-Nominal 1291 1293	油灯
+T143	Thing-Nominal 1294 1295	陶
+T144	Metric 1302 1306	10厘米
+T145	Thing-Nominal 1307 1310	灯油碗
+T146	Metric 1312 1315	7厘米
+T147	Thing-Nominal 1319 1320	釉
+R20	Located Arg1:T147 Arg2:T145	
+T148	Metric 1333 1336	三厘米
+T149	Metric 1340 1343	五厘米
+T150	Thing-Nominal 1349 1351	灯油
+R21	Located Arg1:T150 Arg2:T142	
+T151	Person-Pronoun 1360 1361	你
+T152	Thing-Nominal 1364 1366	长城
+T153	Metric 1366 1368	万里
+T154	Thing-Nominal 1371 1373	明月
+T155	Thing-Nominal 1376 1378	望孔
+T156	Thing-Nominal 1392 1394	珠链
+T157	Person-Nominal 1421 1427	边墙内的人们
+T158	Person-Nominal 1434 1443	边墙外的居心叵测者
+T159	Person-Pronoun 1458 1459	你
+T160	Thing-Nominal 1466 1467;1468 1469	油 灯
+T161	Thing-Nominal 1471 1473	长城
+T162	Thing-Nominal 1485 1489	一盏油灯
+T163	Thing-Nominal 1506 1508	油灯
+T164	Thing-Nominal 1515 1517	精灵
+T165	Location-Nominal 1519 1520	家
+T166	Location-Nominal 1521 1522	国
+T167	Thing-Pronoun 1533 1534	它
+*	Coreference T167 T163
+T168	Time-Implicit 1537 1540	千百年
+T169	Person-Nominal 1544 1548	长城卫士
+T170	Person-Pronoun 1564 1565	我
+T171	Person-Pronoun 1570 1572	我们
+T172	Thing-Nominal 1579 1581	长城
+T173	Person-Pronoun 1595 1597	我们
+T174	Thing-Nominal 1621 1623	油灯
+T175	Location-Nominal 1626 1630	砖洞洞里
+R22	Located Arg1:T174 Arg2:T175	
+T176	Location-Nominal 1421 1424	边墙内
+T177	Location-Nominal 1434 1437	边墙外
+T178	Thing-Nominal 1631 1633	灯焰
+R23	Part-Whole Arg1:T178 Arg2:T174	
+T179	Thing-Nominal 1634 1635	豆
+T180	Thing-Nominal 1639 1640	猫
+T181	Thing-Nominal 1640 1641	狗
+T182	Thing-Nominal 1641 1642	鸡
+T183	Thing-Nominal 1642 1643	羊
+T184	Location-Nominal 1660 1662	长城
+T185	Time-Implicit 1668 1671	千百年
+T186	Location-Nominal 1682 1691	旅游开发的热点地区
+*	Coreference T184 T186
+T187	Location-Name 1692 1696	蓟东长城
+T188	Person-Nominal 1698 1704	义乌兵后裔们
+T189	Person-Nominal 1706 1709	有心人
+*	Coreference T188 T189
+T190	Thing-Nominal 1711 1713	长城
+T191	Person-Nominal 1728 1733	义乌兵后裔
+T192	Location-Name 1733 1736	龚家楼
+T193	Person-Name 1738 1741	龚老哥
+*	Coreference T191 T193 T194 T197
+T194	Person-Nominal 1742 1755	一位令人尊敬的退休小学校长
+T195	Location-Nominal 1759 1763	自家楼台
+*	Coreference T195 T192
+T196	Thing-Nominal 1766 1769	气死猫
+T197	Person-Pronoun 1775 1776	他
+T198	Thing-Nominal 1787 1789	简册
+T199	Thing-Nominal 1802 1806	长城油灯
+T200	Person-Pronoun 1808 1810	我们
+T201	Person-Nominal 1810 1815	义乌兵后裔
+*	Coreference T200 T201
+T202	Time-Explicit 1817 1821	四百余年
+T203	Person-Pronoun 1825 1827	我们
+T204	Person-Nominal 1827 1832	二十几代人
+*	Coreference T203 T204
+T205	Person-Pronoun 1842 1844	我们
+T206	Thing-Pronoun 1849 1850	它
+*	Coreference T206 T199
+T207	Person-Nominal 1854 1857	义乌兵
+T208	Person-Name 1863 1870	民族英雄戚继光
+T209	Person-Nominal 1878 1880	专家
+T210	Person-Nominal 1885 1887	浙兵
+T211	Location-Nominal 1901 1905	他们家乡
+T212	Person-Pronoun 1901 1903	他们
+*	Coreference T212 T210
+T213	Person-Name 1933 1935	谭伦
+T214	Person-Name 1936 1939	戚继光
+T215	Organization-Nominal 1942 1944	朝廷
+R24	Social Arg1:T214 Arg2:T213	
+T216	Organization-Nominal 1953 1955	朝廷
+T217	Person-Nominal 1958 1959	兵
+T218	Person-Pronoun 1962 1964	他们
+T219	Person-Nominal 1970 1978	一万二千名义乌兵
+T220	Person-Nominal 1994 1996	浙人
+*	Coreference T220 T219
+T221	Location-Name 2013 2023	板厂峪长城文物陈列馆
+T222	Thing-Nominal 2027 2031	长城油灯
+R25	Located Arg1:T222 Arg2:T221	
+T223	Person-Nominal 2035 2037	后人
+T224	Person-Nominal 2039 2042	长城人
+T225	Thing-Nominal 2048 2050	青丝
+T226	Thing-Nominal 2050 2052	白发
+T227	Organization-Nominal 2086 2087	国
+T228	Organization-Nominal 2088 2089	家
+T229	Person-Pronoun 2098 2099	我
+T230	Location-Name 2108 2110	义乌
+T231	Person-Nominal 2114 2120	戍北的义乌兵
+T232	Location-Nominal 2130 2132	长城
+T233	Location-Nominal 2140 2142	长城
+T234	Time-Implicit 2164 2167	那一夜
+T235	Person-Pronoun 2168 2169	我
+T236	Location-Nominal 2170 2174	峻岭之下
+T237	Person-Name 2175 2183	义乌兵后裔许国华
+T238	Person-Nominal 2184 2186	兄弟
+*	Coreference T237 T238
+T239	Thing-Nominal 2189 2191	油灯
+T240	Thing-Nominal 2197 2199	长城
+T241	Person-Pronoun 2228 2230	我们
+T242	Thing-Nominal 2242 2246	长城油灯
+T243	Person-Pronoun 2248 2250	我们
+T244	Thing-Nominal 2255 2257	薪火

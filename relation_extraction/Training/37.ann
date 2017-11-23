@@ -1,0 +1,307 @@
+T1	Location-Name 5 15	广西壮族自治区博物馆
+T2	Location-Nominal 2 20	高高的广西壮族自治区博物馆的大楼上,
+T3	Location-Nominal 22 24	门前
+T4	Location-Name 27 31	民族大道
+T5	Thing-Nominal 32 33	车
+T6	Thing-Nominal 34 36	流水
+T7	Person-Nominal 37 38	人
+T8	Location-Nominal 45 47	馆内
+T9	Thing-Nominal 48 51	文物苑
+R1	Located Arg1:T9 Arg2:T8	
+T10	Thing-Nominal 52 55	风雨桥
+R2	Located Arg1:T10 Arg2:T8	
+T11	Location-Nominal 58 60;61 63	水塘 两岸
+R3	Located Arg1:T10 Arg2:T11	
+R4	Part-Whole Arg1:T11 Arg2:T8	
+T12	Person-Nominal 64 68	壮族民居
+T13	Thing-Nominal 69 70	塘
+T14	Thing-Nominal 73 82	飞檐斗拱的侗族鼓楼
+T15	Person-Nominal 78 80	侗族
+T16	Location-Nominal 87 89	园内
+R5	Located Arg1:T14 Arg2:T16	
+T17	Thing-Nominal 90 98	石桥、流水、花果
+T18	Person-Nominal 99 101	游人
+T19	Thing-Nominal 102 115	“叮叮咚咚”的少数民族乐曲
+T20	Person-Nominal 116 121;122 128	翩翩起舞的 少数民族少女
+T21	Person-Nominal 131 133	观众
+T22	Thing-Nominal 133 138	热烈的掌声
+T23	Thing-Nominal 143 151	一首欢乐的大合唱
+T24	Location-Name 152 162	广西壮族自治区博物馆
+T25	Location-Nominal 165 177	休闲、学习、游玩的好地方
+R6	General-Special Arg1:T25 Arg2:T24	
+T26	Person-Pronoun 179 180	我
+T27	Thing-Nominal 186 189	一阵风
+T28	Person-Pronoun 192 193	我
+T29	Thing-Nominal 198 200	荷香
+T30	Thing-Nominal 205 207	荷香
+T31	Time-Implicit 208 213	三十多年前
+T32	Metric 208 212	三十多年
+T33	Person-Pronoun 213 214	我
+T34	Location-Nominal 218 222	这个地方
+T35	Time-Implicit 224 226	那时
+*	Coreference T35 T31
+T36	Location-Pronoun 226 228	这里
+T37	Location-Nominal 230 235	一个大荷塘
+R7	General-Special Arg1:T37 Arg2:T34	
+T38	Metric 230 232	一个
+T39	Location-Nominal 236 238	塘里
+*	Coreference T39 T34 T45 T46 T50 T55 T59
+T40	Thing-Nominal 242 248	翠绿色的荷叶
+R8	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 252 257	粉红的荷花
+R9	Located Arg1:T41 Arg2:T39	
+T42	Thing-Nominal 258 260	夏风
+T43	Thing-Nominal 263 267	阵阵荷香
+*	Coreference T43 T29
+T44	Person-Nominal 268 269	人
+T45	Location-Nominal 272 277	这百亩荷塘
+T46	Location-Nominal 279 286	生我育我的地方
+T47	Person-Pronoun 288 289	我
+T48	Time-Implicit 287 292	从我懂事起
+T49	Person-Pronoun 292 293	我
+T50	Location-Pronoun 295 297	这里
+T51	Thing-Nominal 304 305	鱼
+T52	Thing-Nominal 306 307	虾
+T53	Thing-Nominal 309 310	花
+T54	Thing-Nominal 311 312	莲
+T55	Location-Nominal 313 315	荷塘
+T56	Person-Nominal 318 323	我们几代人
+T57	Thing-Pronoun 324 325	它
+T58	Thing-Nominal 313 315	荷塘
+*	Coreference T57 T58
+T59	Location-Name 335 338	龙珠塘
+T60	Time-Implicit 339 342	小时候
+T61	Person-Pronoun 342 343	我
+T62	Person-Nominal 344 346	母亲
+R10	Family Arg1:T62 Arg2:T61	
+T63	Location-Pronoun 346 348	这里
+T64	Location-Name 352 355	龙珠塘
+*	Coreference T63 T64
+T65	Person-Nominal 356 358	母亲
+T66	Person-Pronoun 359 360	我
+T67	Thing-Nominal 326 333	一个好听的名字
+T68	Time-Implicit 372 378	很久很久以前
+T69	Location-Name 379 382	龙珠塘
+T70	Thing-Nominal 385 386	塘
+T71	Thing-Nominal 390 394	一片荒地
+T72	Location-Nominal 395 398	荒地上
+T73	Person-Nominal 400 406	一个孤寡妇人
+T74	Time-Implicit 407 410	有一天
+T75	Person-Nominal 411 413	妇人
+*	Coreference T75 T73
+T76	Location-Nominal 420 423	荒地上
+T77	Thing-Nominal 424 432;433 436	一条被人砍掉尾巴 的小蛇
+T78	Thing-Nominal 437 439	小蛇
+T79	Metric 400 402	一个
+T80	Metric 424 426	一条
+T81	Person-Nominal 445 447	妇人
+T82	Thing-Pronoun 448 449	它
+T83	Thing-Pronoun 453 454	它
+T84	Location-Nominal 455 456	家
+T85	Location-Nominal 461 464	河沟里
+T86	Thing-Nominal 465 468	小鱼虾
+R11	Located Arg1:T86 Arg2:T85	
+T87	Person-Nominal 473 475	妇人
+T88	Person-Nominal 477 479	小孩
+T89	Person-Pronoun 482 483	她
+T90	Thing-Nominal 484 487	秃尾蛇
+*	Coreference T90 T83 T78 T77 T82
+T91	Person-Nominal 490 493	亲儿女
+T92	Thing-Nominal 500 503	好吃的
+T93	Thing-Pronoun 507 508	它
+T94	Metric 510 513	几十年
+T95	Person-Nominal 517 519	妇人
+T96	Thing-Nominal 523 526	秃尾蛇
+T97	Thing-Nominal 529 535	数米长的大蛇
+R12	General-Special Arg1:T97 Arg2:T96	
+T98	Time-Implicit 536 539	有一天
+T99	Person-Nominal 540 542	妇人
+T100	Thing-Nominal 543 546	秃尾蛇
+T101	Thing-Nominal 549 551	蛇儿
+*	Coreference T101 T100 T103
+T102	Person-Pronoun 553 554	我
+*	Coreference T102 T99
+T103	Thing-Pronoun 562 563	你
+T104	Thing-Pronoun 564 565	你
+T105	Person-Pronoun 573 574	我
+T106	Thing-Nominal 575 576	你
+T107	Thing-Pronoun 581 584	你自己
+*	Coreference T107 T106
+T108	Time-Implicit 591 594	第二天
+T109	Person-Nominal 595 597	妇人
+T110	Thing-Nominal 598 601	竹箩筐
+R13	Use Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 603 606	秃尾蛇
+T112	Location-Nominal 608 610	河边
+T113	Thing-Pronoun 612 613	它
+T114	Location-Nominal 616 618	河里
+T115	Time-Implicit 619 622	几年后
+T116	Person-Nominal 623 625	妇人
+T117	Person-Nominal 630 631	人
+T118	Person-Nominal 632 634	妇人
+T119	Time-Implicit 637 641	当天晚上
+T120	Thing-Nominal 642 644	风雨
+T121	Thing-Nominal 647 649	雷电
+T122	Time-Implicit 652 655	天亮后
+T123	Person-Nominal 659 661	妇人
+T124	Location-Nominal 659 667	妇人住的那片荒地
+T125	Location-Nominal 671 676;677 679	一个圆形大 水塘
+T126	Person-Nominal 680 682	人们
+T127	Thing-Nominal 686 689	秃尾蛇
+T128	Thing-Nominal 693 695	神龙
+T129	Location-Nominal 697 699	天上
+T130	Thing-Nominal 702 704	龙珠
+T131	Location-Pronoun 705 707	这里
+*	Coreference T131 T124
+T132	Person-Nominal 714 716	妇人
+T133	Thing-Nominal 709 711	水塘
+T134	Location-Nominal 718 720	塘底
+T135	Time-Implicit 721 723	每年
+T136	Time-Implicit 725 732	妇人祭日的那晚
+T137	Thing-Nominal 735 737;738 740	风雨 雷电
+T138	Time-Implicit 745 747	那时
+T139	Thing-Nominal 747 750	秃尾龙
+*	Coreference T139 T127 T141
+T140	Person-Nominal 754 758	它的母亲
+*	Coreference T140 T123
+T141	Thing-Pronoun 754 755	它
+T142	Person-Nominal 760 762	后人
+T143	Thing-Nominal 765 768	秃尾龙
+T144	Location-Name 776 779	龙珠塘
+T145	Time-Implicit 781 783	后来
+T146	Person-Nominal 783 785	人们
+T147	Location-Nominal 786 788	塘边
+T148	Thing-Nominal 793 797	塘中的水
+T149	Location-Nominal 793 795	塘中
+R14	Located Arg1:T148 Arg2:T149	
+T150	Time-Implicit 797 801	一年四季
+T151	Location-Nominal 804 806	塘中
+T152	Thing-Nominal 808 810	莲藕
+R15	Located Arg1:T152 Arg2:T151	
+T153	Time-Implicit 811 815	每到夏天
+T154	Location-Nominal 816 820	百亩荷塘
+T155	Thing-Nominal 821 825	绿叶红花
+R16	Located Arg1:T155 Arg2:T154	
+T156	Thing-Nominal 826 828	微风
+T157	Thing-Nominal 831 833	荷香
+T158	Metric 833 835	数里
+T159	Thing-Nominal 836 841	种出的莲藕
+T160	Person-Nominal 856 865	走过路过的风水先生
+T161	Location-Nominal 870 874	风水宝地
+T162	Location-Nominal 867 868	这
+*	Coreference T162 T144 T154 T181 T185 T192 T196 T198
+R17	General-Special Arg1:T161 Arg2:T162	
+T163	Time-Explicit 876 883	一九七七年深秋
+T164	Time-Implicit 886 893	莲藕丰收的季节
+T165	Time-Implicit 894 898	有天夜里
+T166	Person-Nominal 899 901	母亲
+T167	Thing-Nominal 915 920	几十斤莲藕
+T168	Metric 915 918	几十斤
+T169	Time-Implicit 921 923	平时
+T170	Person-Nominal 923 925	母亲
+T171	Thing-Nominal 926 928	莲藕
+T172	Metric 930 934	十斤八斤
+T173	Time-Implicit 938 940	今天
+T174	Person-Pronoun 947 948	我
+T175	Thing-Pronoun 951 952	之
+T176	Person-Nominal 953 955	母亲
+T177	Time-Implicit 958 960	现在
+T178	Time-Implicit 963 966	过几天
+T179	Thing-Nominal 967 969	藕根
+R18	Part-Whole Arg1:T179 Arg2:T159	
+T180	Person-Pronoun 974 975	我
+T181	Location-Nominal 978 982	百亩藕塘
+T182	Thing-Nominal 987 989	藕根
+T183	Person-Nominal 995 997	母亲
+T184	Organization-Nominal 1006 1008	政府
+T185	Location-Nominal 1011 1013	藕塘
+T186	Thing-Nominal 1014 1024	一座全区最大的博物馆
+R19	Create Arg1:T184 Arg2:T186	
+T187	Location-Nominal 1034 1036	荷塘
+T188	Person-Pronoun 1037 1039	我们
+T189	Person-Pronoun 1046 1051	你们这一代
+T190	Time-Implicit 1063 1069	第二天刚放学
+T191	Person-Pronoun 1069 1070	我
+T192	Location-Nominal 1073 1075	荷塘
+T193	Thing-Nominal 1078 1086	数十台大型抽水机
+T194	Metric 1078 1081	数十台
+T195	Thing-Nominal 1095 1097	塘水
+R20	Located Arg1:T195 Arg2:T192	
+T196	Location-Nominal 1103 1110	渐渐露底的荷塘
+T197	Person-Pronoun 1111 1112	我
+T198	Location-Pronoun 1128 1130	这里
+T199	Thing-Nominal 1133 1134	莲
+T200	Time-Implicit 1136 1140	那段时间
+T201	Person-Pronoun 1143 1144	我
+T202	Location-Nominal 1146 1148	荷塘
+T203	Thing-Nominal 1151 1152	鱼
+T204	Thing-Nominal 1153 1154	虾
+T205	Thing-Nominal 1156 1157	藕
+T206	Thing-Nominal 1158 1159	莲
+T207	Thing-Nominal 1162 1174	阵阵推土机和搅拌机的声音
+T208	Thing-Nominal 1164 1171	推土机和搅拌机
+T209	Time-Explicit 1176 1181	1978年
+T210	Time-Explicit 1182 1195	广西壮族自治区成立二十周年
+*	Coreference T210 T209
+T211	Location-Name 1182 1189	广西壮族自治区
+T212	Location-Nominal 1196 1203	一座现代化高楼
+T213	Location-Nominal 1204 1205	塘
+T214	Location-Name 1214 1221;1222 1225	广西壮族自治区 博物馆
+*	Coreference T212 T216
+T215	Time-Implicit 1211 1213	现在
+T216	Location-Pronoun 1208 1209	那
+T217	Thing-Pronoun 1226 1227	它
+T218	Thing-Nominal 1214 1221;1222 1225	广西壮族自治区 博物馆
+*	Coreference T217 T218 T219 T236
+T219	Thing-Nominal 1228 1261	当时自治区内最高最大，现代化设备最完善，收藏文物品类最丰富的博物馆
+T220	Time-Implicit 1228 1230	当时
+T221	Time-Implicit 1262 1264	每年
+T222	Thing-Nominal 1264 1282	各种各样的文物、书画、党政廉政宣传等
+R21	Located Arg1:T222 Arg2:T217	
+T223	Person-Nominal 1288 1294	数十万的观众
+T224	Metric 1288 1291	数十万
+T225	Time-Implicit 1295 1297	现时
+T226	Location-Name 1298 1308	广西壮族自治区博物馆
+T227	Location-Name 1309 1312	龙珠塘
+T228	Location-Nominal 1318 1320	街上
+T229	Person-Nominal 1323 1330	任何一个南宁人
+T230	Location-Name 1330 1335	广西博物馆
+*	Coreference T230 T226 T234
+T231	Person-Pronoun 1339 1341	他们
+*	Coreference T231 T229
+T232	Person-Pronoun 1351 1352	你
+T233	Location-Name 1353 1357	民族大道
+T234	Location-Nominal 1359 1362	博物馆
+T235	Person-Nominal 1366 1370	南宁市民
+T236	Thing-Pronoun 1376 1377	它
+T237	Organization-Nominal 1394 1398	党和国家
+T238	Person-Nominal 1405 1409	广大民众
+T239	Location-Nominal 1411 1417	休闲娱乐场地
+T240	Location-Name 1423 1426	龙珠塘
+T241	Person-Nominal 1423 1427	龙珠塘人
+T242	Location-Name 1443 1446	龙珠塘
+T243	Location-Pronoun 1446 1447	你
+*	Coreference T243 T242
+T244	Person-Nominal 1448 1450	子孙
+T245	Person-Pronoun 1457 1458	他
+T246	Person-Pronoun 1459 1460	他
+*	Coreference T245 T244
+T247	Location-Nominal 1466 1469	博物馆
+T248	Time-Implicit 1473 1475	如今
+T249	Person-Pronoun 1477 1484	龙珠塘子孙的我
+T250	Person-Nominal 1477 1482	龙珠塘子孙
+R22	General-Special Arg1:T250 Arg2:T249	
+T251	Person-Nominal 1446 1450	你的子孙
+*	Coreference T251 T250
+T252	Person-Nominal 1488 1495	塘里种藕捉鱼人
+T253	Person-Nominal 1499 1521	博物馆里一名掌握现代科学技术的文物保护工作者
+*	Coreference T253 T249
+T254	Location-Name 1538 1541	龙珠塘
+T255	Time-Implicit 1535 1537	昔日
+T256	Location-Pronoun 1548 1549	它
+*	Coreference T256 T254
+T257	Thing-Nominal 1551 1559;1560 1612	有名的广西壮族自 治区博物馆民族文物苑以及南宁民族广场、广西壮族自治区人民大会堂、广西民族宫、广西科技馆等区内有名的大建筑
+T258	Person-Pronoun 1615 1616	我
+T259	Location-Nominal 1619 1620;1621 1622	荷 塘
+T260	Thing-Nominal 1625 1627	荷香
+R23	Located Arg1:T260 Arg2:T259	

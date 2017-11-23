@@ -1,0 +1,274 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 4 5	书
+T3	Thing-Nominal 9 10	书
+T4	Metric 6 8	有时
+T5	Metric 11 13	有时
+T6	Thing-Nominal 14 16	借书
+T7	Thing-Nominal 20 21	书
+T8	Person-Nominal 23 25	自己
+T9	Thing-Nominal 37 40	有些书
+R1	Ownership Arg1:T8 Arg2:T7	
+T10	Metric 61 66	一生的时间
+T11	Abstract 80 88	四大古典文学名著
+T12	Abstract 89 97	四大现代文学名著
+T13	Person-Nominal 98 100	有人
+T14	Abstract 101 106	《红楼梦》
+T15	Thing-Nominal 108 114	情骂俏的淫书
+T16	Person-Nominal 115 117	有人
+T17	Abstract 132 136	《三国》
+T18	Person-Nominal 129 131	有人
+T19	Thing-Nominal 137 141	军事著作
+T20	Person-Nominal 142 144	有人
+T21	Abstract 149 153	商业经典
+T22	Abstract 162 166	《水浒》
+T23	Abstract 170 174	《三国》
+T24	Abstract 191 195	《水浒》
+T25	Person-Nominal 212 214	老者
+T26	Person-Nominal 181 182;183 184	少 年
+R2	Social Arg1:T26 Arg2:T25	
+T27	Person-Nominal 225 228	还有人
+T28	Abstract 216 218	三国
+T29	Abstract 233 237	《西游》
+T30	Person-Nominal 256 264	囊中羞涩的工薪族
+T31	Thing-Nominal 266 267	书
+T32	Abstract 281 284	辞海》
+T33	Metric 292 296	二十五元
+T34	Metric 301 303	每月
+T35	Metric 307 311	二十四元
+T36	Time-Implicit 298 300	那时
+T37	Time-Implicit 284 287	征订时
+T38	Person-Pronoun 313 314	我
+T39	Metric 318 321	一个月
+T40	Metric 326 333	交款后二十多天
+T41	Person-Pronoun 347 348	我
+T42	Person-Nominal 350 352	女儿
+R3	Family Arg1:T41 Arg2:T42	
+T43	Person-Nominal 355 357	我们
+T44	Time-Implicit 357 359	那时
+T45	Person-Nominal 359 364	前后十代人
+T46	Person-Nominal 365 371	文革的发动者
+T47	Location-Nominal 382 384	农村
+T48	Time-Implicit 390 392	如今
+T49	Person-Nominal 392 397	你们这代人
+T50	Person-Nominal 416 418	女儿
+T51	Person-Pronoun 420 421	我
+R4	Family Arg1:T51 Arg2:T50	
+T52	Person-Pronoun 427 428	我
+T53	Person-Nominal 531 533	黄帝
+T54	Time-Explicit 533 538	五十七岁时
+T55	Abstract 540 545	‘四大丑女
+T56	Person-Nominal 541 551	四大丑女’之首的嫫母
+T57	Person-Nominal 556 558	爱妃
+*	Coreference T57 T56
+R5	Family Arg1:T57 Arg2:T53	
+T58	Person-Nominal 561 567	普天下的臣民
+R6	Social Arg1:T58 Arg2:T57	
+R7	Social Arg1:T58 Arg2:T53	
+T59	Person-Nominal 572 580	战国七雄的齐宣王
+T60	Person-Nominal 584 602	奇丑无比、四十岁还没有嫁出去的锺离春
+T61	Person-Nominal 603 605	王后
+*	Coreference T61 T60
+R8	Family Arg1:T59 Arg2:T60	
+R9	Family Arg1:T59 Arg2:T61	
+T62	Person-Nominal 609 612	天下人
+T63	Person-Name 620 621;622 624	钟 离春
+R10	Social Arg1:T63 Arg2:T62	
+T64	Person-Nominal 630 636	四大丑女之二
+*	Coreference T63 T64
+T65	Person-Name 649 651	卧龙
+T66	Person-Nominal 640 653	得一人可安天下’的卧龙先生
+T67	Person-Nominal 663 668	看家的贤妻
+T68	Person-Nominal 671 680	大多数的帝王将相们
+T69	Person-Nominal 692 697	七十二偏妃
+T70	Person-Nominal 698 700	佳丽
+T71	Person-Nominal 703 705	宫女
+R11	Family Arg1:T69 Arg2:T68	
+R12	Family Arg1:T70 Arg2:T68	
+R13	Family Arg1:T71 Arg2:T68	
+T72	Person-Pronoun 725 727	他们
+R14	Part-Whole Arg1:T72 Arg2:T69	
+R15	Part-Whole Arg1:T70 Arg2:T72	
+R16	Part-Whole Arg1:T71 Arg2:T72	
+T73	Person-Nominal 763 766	穷秀才
+T74	Time-Implicit 766 768	古时
+T75	Time-Implicit 771 777	三年灾害时期
+T76	Person-Nominal 777 781	人民教师
+T77	Person-Nominal 784 787	老农民
+T78	Time-Implicit 799 801	当今
+T79	Person-Nominal 802 804;805 810	人类 灵魂工程师
+T80	Person-Pronoun 827 828	我
+T81	Person-Pronoun 838 839	我
+T82	Time-Implicit 845 847	最近
+T83	Abstract 851 855	《野人》
+T84	Person-Pronoun 857 858	我
+T85	Person-Nominal 867 870	野蛮人
+T86	Person-Nominal 863 865	野人
+*	Coreference T85 T86 T87
+T87	Person-Pronoun 874 876	它们
+T88	Thing-Nominal 880 882	工具
+T89	Thing-Nominal 889 890	书
+T90	Person-Pronoun 906 908	它们
+T91	Person-Nominal 910 912	人类
+T92	Person-Nominal 914 915	书
+T93	Person-Nominal 939 958	脑袋长得像个葫芦头、比孔圣人还丑的苍颉
+T94	Person-Name 956 958	苍颉
+T95	Abstract 964 967	象形字
+T96	Person-Name 970 974	轩辕黄帝
+T97	Person-Nominal 977 982	第一个学生
+*	Coreference T97 T96
+T98	Abstract 996 1000	《难经》
+T99	Thing-Nominal 987 996	中华民族的第一部书
+T100	Person-Nominal 1026 1028	今人
+T101	Thing-Nominal 1004 1005	简
+T102	Thing-Nominal 1007 1008	绢
+T103	Thing-Nominal 1012 1013	纸
+T104	Thing-Nominal 1020 1022	甲骨
+T105	Thing-Nominal 1031 1032	笔
+T106	Thing-Nominal 1040 1046	黄帝的御用笔
+T107	Abstract 1054 1061	‘贝多罗‘树叶
+T108	Thing-Nominal 1052 1053	纸
+T109	Time-Implicit 1063 1065	从此
+T110	Thing-Nominal 1065 1070	中华第一书
+T111	Person-Pronoun 1078 1080	今人
+T112	Thing-Pronoun 1085 1088	此御书
+*	Coreference T112 T110
+T113	Abstract 1095 1096;1097 1100	社 会科学
+T114	Abstract 1101 1105	自然科学
+T115	Person-Nominal 1108 1110	人类
+T116	Thing-Nominal 1117 1119	书籍
+T117	Thing-Nominal 1129 1131	汽车
+*	Coreference T116 T117
+T118	Time-Implicit 1138 1140	远古
+T119	Time-Implicit 1143 1145	当代
+T120	Person-Nominal 1147 1149	人们
+T121	Person-Nominal 1166 1168	人类
+T122	Time-Implicit 1191 1195	近两千年
+T123	Thing-Nominal 1212 1214	动物
+T124	Person-Pronoun 1225 1226	我
+T125	Thing-Nominal 1234 1235	书
+T126	Person-Pronoun 1236 1237	你
+T127	Thing-Pronoun 1240 1241	它
+*	Coreference T127 T125 T128 T130 T131 T141
+T128	Thing-Pronoun 1245 1246	它
+T129	Person-Pronoun 1251 1252	你
+T130	Thing-Pronoun 1254 1255	它
+T131	Thing-Pronoun 1259 1260	它
+T132	Person-Pronoun 1265 1266	你
+T133	Thing-Pronoun 1268 1269	她
+T134	Thing-Name 1273 1274	她
+T135	Person-Pronoun 1279 1280	你
+T136	Thing-Pronoun 1282 1283	她
+T137	Thing-Pronoun 1287 1288	她
+T138	Thing-Nominal 1290 1292	废纸
+*	Coreference T138 T137
+T139	Thing-Nominal 1295 1297	虫子
+T140	Person-Nominal 1311 1314	社会人
+T141	Thing-Pronoun 1317 1318	她
+T142	Person-Nominal 1332 1335	读书人
+T143	Thing-Nominal 1336 1337	书
+T144	Thing-Nominal 1343 1344	书
+T145	Person-Nominal 1360 1363	读书人
+T146	Person-Nominal 1368 1371	政治家
+T147	Person-Nominal 1376 1379	阶下囚
+R17	Social Arg1:T145 Arg2:T146	
+R18	Social Arg1:T145 Arg2:T147	
+T148	Thing-Nominal 1390 1392	坏书
+T149	Thing-Nominal 1396 1398	毒品
+*	Coreference T148 T149 T150
+T150	Thing-Nominal 1401 1403	疫苗
+T151	Person-Pronoun 1407 1408	你
+T152	Person-Pronoun 1417 1418	你
+T153	Thing-Nominal 1425 1427	好书
+T154	Person-Pronoun 1436 1437	你
+T155	Person-Nominal 1455 1458	书呆子
+T156	Person-Pronoun 1462 1463	你
+T157	Time-Explicit 1483 1487	十岁那年
+T158	Thing-Nominal 1488 1492	第一本书
+T159	Metric 1494 1500	四十年的时间
+T160	Person-Pronoun 1506 1507	我
+T161	Thing-Nominal 1519 1525	二十个编织袋
+T162	Thing-Nominal 1528 1539	两米高、两米宽的大书橱
+T163	Thing-Nominal 1546 1550	剩下的书
+T164	Location-Nominal 1552 1556	桌子底下
+R19	Located Arg1:T163 Arg2:T164	
+T165	Location-Nominal 1557 1560	床下边
+R20	Located Arg1:T163 Arg2:T165	
+T166	Person-Pronoun 1564 1565	我
+T167	Time-Explicit 1573 1585	‘十亿人民九亿麻’的今天
+T168	Metric 1615 1618	有时候
+T169	Thing-Nominal 1622 1624	好书
+T170	Location-Nominal 1639 1647	整个小区的楼房里
+T171	Thing-Nominal 1653 1658	不灭的明灯
+R21	Located Arg1:T171 Arg2:T170	
+T172	Location-Nominal 1660 1664	我的桌前
+T173	Thing-Nominal 1667 1674	一幅自撰的对联
+R22	Located Arg1:T173 Arg2:T172	
+T174	Thing-Nominal 1731 1732	手
+T175	Person-Nominal 1739 1741	画家
+T176	Time-Implicit 1750 1755	真的有一天
+T177	Thing-Nominal 1759 1763	一本杂志
+T178	Person-Pronoun 1756 1757	我
+T179	Thing-Nominal 1767 1772	自己的名字
+R23	Located Arg1:T179 Arg2:T177	
+T180	Person-Pronoun 1773 1774	我
+T181	Location-Nominal 1781 1782	家
+T182	Thing-Nominal 1796 1798	鱼儿
+T183	Person-Nominal 1790 1793	垂钓者
+T184	Person-Nominal 1811 1817	对弈者的黑马
+T185	Thing-Nominal 1824 1827	两只车
+T186	Person-Nominal 1830 1835	乒乓球高手
+T187	Thing-Nominal 1841 1844	侧旋球
+R24	Use Arg1:T186 Arg2:T187	
+R25	Use Arg1:T184 Arg2:T185	
+T188	Person-Nominal 1846 1847;1848 1849	对 手
+R26	Social Arg1:T188 Arg2:T186	
+T189	Location-Nominal 1866 1872	邻居家的院子
+T190	Time-Explicit 1889 1893	三十年前
+T191	Person-Pronoun 1911 1912	我
+T192	Abstract 1900 1903	处女作
+T193	Abstract 1942 1946	报告文学
+T194	Abstract 1939 1941	游记
+T195	Abstract 1936 1938	杂文
+T196	Abstract 1933 1935	散文
+T197	Abstract 1930 1932	小说
+T198	Abstract 1927 1929	诗歌
+T199	Person-Pronoun 1977 1978	我
+T200	Thing-Pronoun 2003 2004	她
+T201	Thing-Nominal 2000 2001	书
+*	Coreference T200 T201
+T202	Thing-Nominal 2022 2023	书
+T203	Thing-Pronoun 2025 2026	她
+*	Coreference T203 T202
+T204	Thing-Nominal 2039 2040	书
+T205	Person-Nominal 2042 2045	教育家
+T206	Thing-Nominal 2047 2048	书
+T207	Person-Nominal 2056 2059	史学家
+T208	Person-Nominal 2070 2073	文学家
+T209	Person-Nominal 2084 2087	孩子们
+T210	Person-Nominal 2099 2102	探索者
+T211	Person-Name 2114 2116	懒汉
+T212	Person-Name 2127 2129	刘歌
+T213	Thing-Nominal 2132 2133	书
+T214	Thing-Nominal 2134 2136	阳光
+*	Coreference T213 T214
+T215	Thing-Nominal 2118 2119	书
+T216	Thing-Nominal 2120 2126	无声的催眠曲
+*	Coreference T215 T216
+T217	Thing-Nominal 2104 2105	书
+T218	Thing-Nominal 2106 2112	心中的启明星
+*	Coreference T217 T218
+T219	Thing-Nominal 2089 2090	书
+T220	Thing-Nominal 2091 2097	医治幼稚的药
+*	Coreference T219 T220
+T221	Thing-Nominal 2075 2076	书
+T222	Thing-Nominal 2077 2083	人类的营养品
+*	Coreference T221 T222
+T223	Thing-Nominal 2061 2062	书
+T224	Thing-Nominal 2063 2068	进步的阶梯
+T225	Thing-Nominal 2049 2055	智慧的钥匙;
+*	Coreference T206 T225
+T226	Thing-Nominal 2184 2188	一本好书
+T227	Person-Pronoun 2190 2191	你
+T228	Person-Nominal 2217 2220	拓荒者
+*	Coreference T228 T227 T229
+T229	Person-Nominal 2223 2234	人类文明史上璀灿的明星

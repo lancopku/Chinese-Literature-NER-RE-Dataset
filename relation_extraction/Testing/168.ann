@@ -1,0 +1,80 @@
+T1	Person-Pronoun 4 5	我
+T2	Thing-Nominal 18 22	一只蜻蜓
+T3	Person-Pronoun 23 27	年幼的我
+T4	Thing-Pronoun 37 38	它
+*	Coreference T4 T2
+T5	Thing-Nominal 38 43	透明的翅膀
+R1	Part-Whole Arg1:T5 Arg2:T2	
+T6	Thing-Pronoun 45 46	它
+T7	Location-Nominal 49 60;61 65	一只正在苦苦寻觅食物的 蚂蚁面前
+R2	Located Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 75 77	蜻蜓
+T9	Thing-Nominal 78 80	蚂蚁
+T10	Thing-Nominal 86 90	庞然大物
+T11	Thing-Nominal 93 95	蚂蚁
+T12	Thing-Nominal 110 114	这只蚂蚁
+T13	Thing-Nominal 118 121;122 125	另外两 只蚂蚁
+T14	Location-Nominal 134 138	蜻蜓身上
+T15	Thing-Nominal 166 170	一群蚂蚁
+T16	Time-Implicit 178 180	此时
+T17	Thing-Nominal 181 182;183 184	群 蚁
+T18	Person-Pronoun 187 188	我
+T19	Thing-Nominal 209 213	一只公鸡
+T20	Location-Nominal 218 221	我跟前
+T21	Thing-Nominal 232 234	蜻蜓
+T22	Thing-Nominal 235 237	蚂蚁
+T23	Location-Nominal 242 243;244 245	嘴 里
+T24	Thing-Nominal 261 263	螳螂
+T25	Thing-Nominal 264 265	蝉
+T26	Thing-Nominal 266 268	黄雀
+T27	Thing-Nominal 274 276	蜻蜒
+T28	Person-Nominal 285 289	玉皇大帝
+T29	Thing-Nominal 292 294	大水
+T30	Person-Nominal 296 301	某地的民众
+T31	Time-Implicit 302 304	此时
+T32	Person-Nominal 305 310	观音菩萨就
+T33	Thing-Nominal 311 314	碧玉簪
+T34	Thing-Nominal 317 319	蜻蜓
+T35	Person-Nominal 322 326	天兵天将
+T36	Person-Nominal 334 336	人们
+T37	Thing-Nominal 337 338	信
+T38	Thing-Nominal 339 343	两只翅膀
+T39	Thing-Nominal 362 364	蜻蜓
+T40	Person-Nominal 367 369	人们
+T41	Thing-Nominal 370 371	信
+T42	Thing-Pronoun 373 375	它们
+*	Coreference T42 T39
+T43	Person-Nominal 377 387	上天与人间的重要使者
+T44	Thing-Pronoun 389 391	它们
+T45	Person-Name 399 406	宋代诗人杨万里
+T46	Abstract 407 411	《小池》
+T47	Thing-Nominal 420 422	小荷
+T48	Thing-Nominal 424 427	尖尖角
+T49	Thing-Nominal 430 432	蜻蜓
+T50	Person-Pronoun 440 441	我
+T51	Person-Name 444 446	老舍
+T52	Abstract 449 454	《想北平》
+T53	Thing-Nominal 464 466	蜻蜓
+T54	Thing-Nominal 469 477	雨后什刹海的蜻蜓
+T55	Location-Name 471 474	什刹海
+T56	Person-Pronoun 480 481	我
+T57	Thing-Nominal 483 486	玉泉山
+T58	Thing-Nominal 494 496	石山
+T59	Thing-Nominal 497 503	水中的小蝌蚪
+T60	Location-Nominal 497 499	水中
+R3	Located Arg1:T59 Arg2:T60	
+T61	Thing-Nominal 504 511	苇叶上的嫩蜻蜓
+T62	Location-Nominal 504 507	苇叶上
+R4	Located Arg1:T61 Arg2:T62	
+T63	Person-Pronoun 523 524	我
+T64	Thing-Nominal 525 527	蜻蜓
+T65	Thing-Nominal 534 550	那些在蜻蜓的翅膀上颤动着的小村庄
+T66	Person-Name 558 561	纪象启
+T67	Time-Explicit 567 574	1957年3月
+T68	Person-Nominal 576 581	山东广饶人
+T69	Person-Nominal 582 592	为山东省散文学会会员
+T70	Thing-Nominal 598 602	各类报刊
+T71	Metric 606 611	700余篇
+T72	Metric 613 618	120万字
+T73	Abstract 626 632	《淄水清清》
+T74	Abstract 636 642	《春风秋月》

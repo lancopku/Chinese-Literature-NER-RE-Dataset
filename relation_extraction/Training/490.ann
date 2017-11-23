@@ -1,0 +1,157 @@
+T1	Person-Pronoun 13 14	你
+T2	Thing-Nominal 26 28	爪牙
+T3	Thing-Nominal 30 32	筋骨
+T4	Thing-Nominal 35 37	蚯蚓
+T5	Thing-Nominal 45 50	深掩的泥土
+T6	Person-Nominal 82 83	人
+T7	Time-Explicit 91 99	上世纪90年代初
+T8	Person-Pronoun 100 101	我
+T9	Thing-Nominal 102 106	千军万马
+T10	Thing-Nominal 107 110	独木桥
+T11	Location-Name 127 129	温州
+T12	Person-Nominal 140 145	廉价劳动力
+T13	Thing-Nominal 152 155	小渔村
+T14	Person-Pronoun 170 171	我
+T15	Person-Nominal 174 177	外乡人
+T16	Time-Implicit 189 193	几个月后
+T17	Thing-Nominal 196 198	火车
+T18	Person-Pronoun 202 203	我
+T19	Location-Name 205 209	大兴安岭
+T20	Person-Pronoun 214 215	我
+T21	Location-Name 216 224	内蒙古阿里河山区
+T22	Thing-Nominal 225 226	马
+T23	Thing-Nominal 228 229	木
+T24	Thing-Nominal 231 233	木耳
+T25	Thing-Nominal 257 266	莽苍雪原、浩瀚林海
+T26	Location-Nominal 267 270	山谷间
+T27	Thing-Nominal 274 276	落日
+R1	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 278 288	那大美不言的壮丽图景
+T29	Person-Pronoun 292 293	我
+T30	Location-Nominal 310 312	北方
+T31	Person-Pronoun 313 314	它
+T32	Person-Pronoun 329 330	我
+T33	Location-Name 332 334	苏州
+T34	Location-Nominal 346 348	家乡
+T35	Location-Nominal 420 425	异乡天空下
+T36	Thing-Nominal 425 427	野狗
+T37	Thing-Nominal 442 450	冰棍糖球油条烧饼
+T38	Thing-Nominal 453 456;457 458	蔬菜水 果
+T39	Thing-Nominal 463 465	蚕茧
+T40	Location-Nominal 467 470	铜材厂
+T41	Thing-Nominal 471 473	锅炉
+T42	Location-Nominal 475 478	粮管所
+T43	Person-Nominal 479 482	搬运工
+T44	Location-Nominal 484 487	灯具厂
+T45	Person-Nominal 491 494	电焊工
+T46	Thing-Nominal 498 500	饭馆
+T47	Person-Nominal 506 511	图书管理员
+T48	Person-Pronoun 516 517	我
+T49	Person-Pronoun 534 535	我
+T50	Metric 523 527	七十二行
+T51	Metric 537 541	七十三行
+T52	Thing-Nominal 574 575	家
+T53	Location-Nominal 581 584	脊背上
+T54	Person-Nominal 586 587	妻
+T55	Metric 594 598	四五十次
+T56	Person-Pronoun 602 603	她
+*	Coreference T56 T54
+T57	Person-Pronoun 611 613	自己
+T58	Location-Nominal 624 629	阿里河山间
+T59	Thing-Nominal 629 631	云雾
+R2	Located Arg1:T59 Arg2:T58	
+T60	Person-Nominal 644 651	生活不如意的人
+T61	Thing-Nominal 702 704;705 724	那支 写过情诗、情书，让初恋如红豆般美丽的笔
+T62	Person-Nominal 725 748	那支写过所见所闻所思所感，饱含渴盼与梦想的笔;
+T63	Person-Nominal 748 765;766 778	那支给襁褓中的女儿写信，告诉她极端 困苦中对她的爱与希望的笔
+T64	Person-Nominal 751 757	襁褓中的女儿
+T65	Person-Pronoun 762 763	她
+T66	Thing-Nominal 791 796	人力三轮车
+T67	Person-Pronoun 797 798	我
+T68	Thing-Nominal 804 806	车轮
+T69	Location-Nominal 817 822	下一个路口
+T70	Person-Nominal 830 831	人
+T71	Person-Pronoun 835 836	我
+T72	Time-Implicit 847 854	一个夏日的午后
+T73	Person-Pronoun 855 856	我
+T74	Abstract 858 864	《宿迁市报》
+T75	Person-Name 864 869	编辑胡继风
+T76	Person-Pronoun 877 878	我
+T77	Abstract 878 882	《雪原》
+T78	Person-Pronoun 894 895	我
+T79	Person-Pronoun 896 897	我
+T80	Time-Implicit 897 899	当时
+*	Coreference T80 T72
+T81	Person-Nominal 902 906	人力车夫
+T82	Person-Nominal 926 931	编辑、记者
+T83	Thing-Nominal 936 940	一组照片
+T84	Person-Pronoun 944 945	我
+T85	Location-Nominal 948 950	小屋
+T86	Thing-Nominal 950 957	排满旧书的课桌
+R3	Located Arg1:T86 Arg2:T85	
+T87	Person-Pronoun 959 960	我
+T88	Person-Pronoun 977 978	我
+T89	Thing-Nominal 981 985	书法条幅
+T90	Person-Pronoun 988 989	我
+T91	Thing-Nominal 993 997	散文手稿
+T92	Person-Pronoun 1000 1001	我
+T93	Person-Nominal 1003 1005	妻女
+T94	Person-Pronoun 1035 1036	我
+T95	Person-Pronoun 1047 1049	他们
+T96	Thing-Nominal 1028 1032	其它报纸
+T97	Person-Pronoun 1055 1056	我
+T98	Person-Pronoun 1067 1068	我
+T99	Organization-Nominal 1088 1097	为数众多的厂矿企业
+T100	Person-Nominal 1120 1122	工人
+T101	Metric 1110 1113	几十年
+T102	Time-Implicit 1074 1076	当时
+T103	Person-Nominal 1127 1135	担任领导职务的人
+T104	Location-Nominal 1151 1153	街头
+T105	Person-Pronoun 1161 1162	我
+T106	Person-Nominal 1165 1168	搬运工
+T107	Thing-Nominal 1189 1194	磨破的双肩
+T108	Person-Pronoun 1196 1198	他们
+T109	Thing-Nominal 1198 1204	沉重无比的家
+*	Coreference T108 T103
+T110	Person-Nominal 1213 1216	一些人
+T111	Person-Pronoun 1219 1221	自己
+T112	Person-Nominal 1260 1262	人;
+T113	Person-Nominal 1294 1295	人
+T114	Person-Nominal 1308 1309	人
+T115	Person-Pronoun 1323 1325	他们
+T116	Person-Nominal 1342 1344	人们
+T117	Abstract 1357 1362;1363 1364	《车夫生活 》
+T118	Person-Pronoun 1382 1383	我
+T119	Thing-Pronoun 1398 1399	它
+T120	Person-Pronoun 1368 1369	我
+T121	Person-Nominal 1373 1375	车夫
+*	Coreference T118 T121
+T122	Person-Pronoun 1400 1401	我
+T123	Person-Pronoun 1406 1407	我
+T124	Person-Pronoun 1437 1438	我
+T125	Thing-Pronoun 1442 1443	它
+T126	Person-Pronoun 1444 1445	我
+T127	Person-Pronoun 1454 1456	自己
+T128	Person-Pronoun 1462 1463	我
+T129	Person-Pronoun 1469 1470	我
+T130	Person-Nominal 1491 1492	人
+T131	Person-Pronoun 1477 1478	我
+T132	Person-Pronoun 1482 1484	自己
+*	Coreference T132 T131
+T133	Thing-Nominal 1541 1549	那雪原谷底的太阳
+T134	Location-Nominal 1542 1546	雪原谷底
+R4	Located Arg1:T133 Arg2:T134	
+T135	Location-Nominal 1559 1561	海上
+T136	Person-Pronoun 1565 1566	我
+T137	Person-Pronoun 1578 1580	我们
+T138	Person-Pronoun 1609 1611	自己
+T139	Person-Pronoun 1656 1657	我
+T140	Person-Pronoun 1672 1673	我
+T141	Thing-Nominal 1676 1682	大量教育论文
+T142	Person-Pronoun 1683 1684	我
+T143	Person-Pronoun 1765 1767	我们
+T144	Abstract 1727 1737	《中国散文家力作选》
+T145	Abstract 1716 1726	全国散文作家精品集》
+T146	Abstract 1704 1715	《中国散文大系抒情卷》
+*	Coreference T138 T137
+R5	Located Arg1:T133 Arg2:T135	

@@ -1,0 +1,138 @@
+T1	Person-Nominal 0 1	人
+T2	Person-Nominal 6 10	青涩少年
+T3	Person-Nominal 11 15	白发老人
+T4	Thing-Nominal 17 18	书
+T5	Thing-Nominal 36 39	几本书
+T6	Person-Pronoun 40 41	他
+*	Coreference T6 T1
+T7	Time-Implicit 55 58	前不久
+T8	Location-Nominal 59 60;61 62	我 家
+T9	Thing-Nominal 59 60;61 64	我 家藏书
+R1	Located Arg1:T9 Arg2:T8	
+T10	Thing-Name 68 74	《心态养生》
+T11	Thing-Nominal 65 76	新增的《心态养生》一书
+T12	Person-Pronoun 79 80	我
+T13	Thing-Nominal 80 97	心目中印象深刻，读之难忘的一本好书
+R2	General-Special Arg1:T13 Arg2:T11	
+T14	Organization-Name 101 113	安徽滁州老年文化艺术学校
+T15	Person-Nominal 101 115	安徽滁州老年文化艺术学校学员
+T16	Person-Pronoun 116 117	我
+R3	General-Special Arg1:T15 Arg2:T16	
+T17	Time-Implicit 118 126	去年下学期开学时
+T18	Thing-Nominal 128 151	一本由姬树明校长亲自编纂的教材新书《心态养生》
+T19	Person-Name 131 136	姬树明校长
+*	Coreference T18 T11 T21 T23 T26 T25
+T20	Person-Pronoun 167 168	我
+T21	Thing-Nominal 170 196	这本凝聚着作者智慧与力量，饱含着编者心血与汗水的新书
+T22	Person-Nominal 186 188	编者
+R4	Create Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 217 223	《心态养生》
+T24	Person-Pronoun 224 225	我
+T25	Thing-Pronoun 243 244	她
+T26	Thing-Nominal 230 235	眼前的新书
+T27	Thing-Nominal 245 260	充满端庄、清秀气质的淡绿色封面
+R5	Part-Whole Arg1:T27 Arg2:T25	
+T28	Thing-Nominal 263 275;276 284	封底上姬校长的书法手迹“ 仁者寿”三个大字
+T29	Thing-Nominal 263 265	封底
+R6	Part-Whole Arg1:T29 Arg2:T27	
+R7	Located Arg1:T28 Arg2:T29	
+T30	Person-Name 266 269	姬校长
+*	Coreference T30 T19
+T31	Thing-Pronoun 286 287	之
+T32	Thing-Nominal 288 297	此前出版的五本教材
+T33	Time-Implicit 288 290	此前
+T34	Person-Nominal 310 312	读者
+T35	Thing-Nominal 315 325	一篇篇文短意长的文章
+R8	Located Arg1:T35 Arg2:T31	
+T36	Thing-Nominal 326 336;337 342	这辑自全国各地报刊的 68篇文章
+*	Coreference T36 T35 T39
+T37	Thing-Nominal 354 356	散文
+T38	Thing-Nominal 358 360	诗歌
+T39	Thing-Nominal 361 363	文章
+T40	Person-Nominal 394 396	读者
+T41	Thing-Nominal 437 441	一本好书
+R9	General-Special Arg1:T41 Arg2:T31	
+T42	Thing-Nominal 444 458;459 463	一件实用价值与收藏价值并存的 无价之宝
+T43	Metric 437 439	一本
+T44	Metric 444 446	一件
+T45	Person-Pronoun 496 497	我
+T46	Thing-Nominal 499 507	新书《心态养生》
+R10	General-Special Arg1:T42 Arg2:T31	
+T47	Time-Implicit 495 508	当我喜获新书《心态养生》时
+T48	Thing-Nominal 542 550	返家途中的公交车
+T49	Person-Pronoun 552 553	我
+T50	Thing-Nominal 561 565	这本新书
+*	Coreference T46 T31 T50 T57 T58 T64 T71 T73 T75
+T51	Time-Implicit 566 570	回到家中
+R11	Use Arg1:T49 Arg2:T50	
+T52	Person-Pronoun 571 572	我
+T53	Person-Nominal 585 586;587 588	老 伴
+R12	Family Arg1:T53 Arg2:T52	
+T54	Time-Implicit 604 606	晚上
+T55	Thing-Name 609 617	央视《新闻联播》
+T56	Person-Pronoun 619 620	我
+T57	Thing-Nominal 623 625	新书
+R13	Use Arg1:T56 Arg2:T57	
+T58	Thing-Nominal 638 640	全书
+T59	Time-Implicit 645 647;648 653	深夜 十一点多钟
+T60	Time-Implicit 654 656	此刻
+*	Coreference T60 T59
+T61	Person-Pronoun 657 666	正准备掩卷入睡的我
+*	Coreference T61 T56
+T62	Person-Pronoun 683 684	我
+T63	Thing-Nominal 679 681	新书
+T64	Thing-Nominal 705 711	《心态养生》
+T65	Person-Pronoun 712 713	我
+T66	Person-Nominal 715 717	故人
+T67	Person-Nominal 719 720	人
+T68	Thing-Nominal 723 725	新书
+T69	Thing-Nominal 731 733	旧书
+T70	Person-Pronoun 739 740	我
+T71	Thing-Nominal 746 754	新书《心态养生》
+T72	Thing-Nominal 744 745	手
+R14	Part-Whole Arg1:T72 Arg2:T70	
+T73	Thing-Nominal 772 776	这本新书
+T74	Organization-Nominal 778 780	我校
+T75	Thing-Nominal 778 790	我校编印的第六本校本教材
+T76	Thing-Nominal 793 824;825 830	形成系列性图书的《三字经简注》、《老年养生随谈》、《学书浅说》 等五本教材
+T77	Person-Pronoun 833 834	我
+T78	Thing-Nominal 834 842	学习、珍藏的对象
+R15	General-Special Arg1:T78 Arg2:T76	
+R16	General-Special Arg1:T78 Arg2:T75	
+T79	Person-Pronoun 845 846	我
+T80	Thing-Nominal 848 856	这一本本精美图书
+T81	Thing-Nominal 864 872	一扇扇记忆的门窗
+T82	Thing-Nominal 875 883	一件件经典的收藏
+T83	Person-Nominal 887 895	一位位亲密的老友
+T84	Thing-Nominal 898 906	一阵阵翻腾的心浪
+T85	Time-Implicit 907 909	今后
+T86	Organization-Nominal 910 912	我校
+T87	Thing-Nominal 920 933	类似于《心态养生》的好教材
+T88	Person-Pronoun 956 957	我
+T89	Thing-Nominal 960 962	新书
+T90	Thing-Nominal 965 967	故知
+*	Coreference T90 T69
+T91	Thing-Nominal 972 978	《心态养生》
+T92	Thing-Nominal 983 987	一支新歌
+T93	Thing-Pronoun 988 989	这
+*	Coreference T93 T92 T98
+T94	Thing-Nominal 990 999	献给老年大学的颂歌
+R17	General-Special Arg1:T94 Arg2:T93	
+T95	Thing-Pronoun 1000 1001	这
+T96	Thing-Nominal 1002 1011	献给各位老师的赞歌
+R18	General-Special Arg1:T96 Arg2:T93	
+T97	Thing-Nominal 1014 1016	歌声
+T98	Thing-Nominal 1021 1030;1031 1036	这激越高亢而又轻柔 舒展的旋律
+T99	Person-Pronoun 1038 1039	我
+T100	Thing-Nominal 1045 1047	新书
+T101	Person-Pronoun 1083 1085	自己
+*	Coreference T101 T99
+T102	Person-Pronoun 1093 1094	我
+T103	Organization-Nominal 1099 1103	老年大学
+T104	Thing-Nominal 1106 1110	晚晴之路
+T105	Location-Nominal 1112 1120	这座长者精神家园
+*	Coreference T105 T103
+T106	Person-Nominal 1123 1130	众多的老年朋友
+R19	Social Arg1:T106 Arg2:T102	
+T107	Person-Pronoun 1190 1191	我
+T108	Thing-Nominal 1193 1195	新书

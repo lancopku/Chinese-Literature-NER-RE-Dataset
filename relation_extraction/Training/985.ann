@@ -1,0 +1,49 @@
+T1	Location-Nominal 1 3	山下
+T2	Time-Implicit 0 8	在山下的许多年岁
+T3	Person-Pronoun 9 10	我
+T4	Person-Pronoun 17 18	我
+T5	Thing-Nominal 21 24	这座山
+T6	Person-Pronoun 27 28	他
+T7	Person-Pronoun 32 33	我
+T8	Location-Nominal 34 36	山下
+T9	Person-Pronoun 40 41	他
+T10	Thing-Nominal 48 50	羽毛
+T11	Thing-Nominal 71 75	一双翅膀
+T12	Thing-Nominal 78 81	一座山
+T13	Metric 87 91	三百多年
+T14	Person-Pronoun 100 101	他
+T15	Location-Nominal 105 108	山脚下
+T16	Thing-Nominal 110 115	一泓泓温泉
+R1	Located Arg1:T16 Arg2:T15	
+T17	Location-Nominal 119 123	岩层深处
+T18	Location-Nominal 125 127	地面
+T19	Thing-Nominal 118 133	从岩层深处涌出地面的滚烫的热水
+T20	Person-Pronoun 135 136	他
+T21	Thing-Nominal 135 142	他的沸腾的热血
+R3	Part-Whole Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 143 148	灼人的热泪
+R4	Part-Whole Arg1:T22 Arg2:T20	
+T23	Thing-Nominal 160 162	温泉
+T24	Person-Pronoun 164 165	他
+T25	Location-Nominal 170 171	山
+T26	Time-Explicit 164 165;168 172	他 这座山下
+T27	Thing-Nominal 176 179	温泉水
+T28	Person-Nominal 188 193	这里的女子
+T29	Person-Pronoun 199 200	他
+T30	Location-Name 201 203	米脂
+T31	Location-Name 205 207	西安
+T32	Location-Name 209 211	北京
+T33	Person-Nominal 200 218	从米脂、从西安、从北京带来的大量嫔妃
+T34	Location-Pronoun 188 190	这里
+T35	Location-Pronoun 221 223	这里
+*	Coreference T34 T25
+T36	Thing-Nominal 230 232	温泉
+T37	Thing-Nominal 224 226	香风
+T38	Person-Nominal 235 240	这里的女子
+T39	Location-Pronoun 235 237	这里
+T40	Person-Pronoun 264 265	他
+T41	Location-Nominal 273 275	山北
+T42	Person-Nominal 268 279	那个仆倒在山北的那个人
+R2	Located Arg1:T19 Arg2:T18	
+T43	Location-Pronoun 153 155	这里
+*	Coreference T43 T15

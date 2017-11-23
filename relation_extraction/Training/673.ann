@@ -1,0 +1,161 @@
+T1	Thing-Nominal 26 28	春晖
+T2	Person-Nominal 28 30	仙姝
+T3	Thing-Nominal 33 35	白璧
+T4	Thing-Nominal 38 40	赤芯
+T5	Thing-Nominal 40 41	金
+T6	Thing-Nominal 43 46	玉粉黛
+T7	Thing-Nominal 50 51	花
+T8	Thing-Nominal 54 55	花
+T9	Person-Nominal 63 64	人
+T10	Location-Name 78 83	南翔古猗园
+T11	Thing-Nominal 85 89	牡丹仙子
+R1	Located Arg1:T11 Arg2:T10	
+T12	Thing-Pronoun 103 104	它
+*	Coreference T12 T11 T27
+T13	Time-Implicit 111 113	近年
+T14	Location-Nominal 115 117	小区
+T15	Person-Nominal 125 127	前辈
+T16	Time-Implicit 162 167	4月10日
+T17	Thing-Nominal 168 170	阳光
+T18	Thing-Nominal 173 175	微风
+T19	Thing-Nominal 178 180	地铁
+T20	Time-Implicit 185 187	双休
+T21	Location-Pronoun 195 197	这里
+*	Coreference T21 T10
+T22	Person-Nominal 200 212	扛着“长炮短枪”的发烧友
+T23	Person-Nominal 215 222;223 225	一群幼儿园的小 朋友
+T24	Metric 215 217	一群
+T25	Location-Nominal 226 232	一片小山坡上
+T26	Thing-Nominal 233 237	数株牡丹
+T27	Thing-Nominal 235 237	牡丹
+R2	Located Arg1:T26 Arg2:T25	
+T28	Thing-Pronoun 242 243	这
+*	Coreference T28 T26
+T29	Thing-Nominal 246 250	冰山一角
+T30	Thing-Nominal 252 256	一群樱花
+T31	Metric 252 254	一群
+T32	Thing-Nominal 259 265	一棵高大的树
+T33	Thing-Nominal 266 273	白色的“绣球”
+R3	Located Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 226 231	一片小山坡
+R4	Located Arg1:T34 Arg2:T10	
+R5	Located Arg1:T30 Arg2:T10	
+R6	Located Arg1:T32 Arg2:T10	
+T35	Location-Name 275 277	天公
+T36	Thing-Nominal 281 283;284 289	二棵 千年的柏树
+R7	Located Arg1:T36 Arg2:T10	
+T37	Metric 281 283	二棵
+T38	Thing-Nominal 293 298	一大片树冠
+R8	Part-Whole Arg1:T38 Arg2:T36	
+T39	Metric 293 296	一大片
+T40	Thing-Nominal 301 306	一大片浓荫
+R9	Located Arg1:T40 Arg2:T36	
+T41	Location-Nominal 307 310	盆景园
+T42	Thing-Nominal 313 315	小树
+R10	Located Arg1:T42 Arg2:T41	
+R11	Part-Whole Arg1:T41 Arg2:T10	
+T43	Thing-Nominal 322 326	虬枝错节
+R12	Part-Whole Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 332 334	柳眉
+T45	Thing-Nominal 337 339	亭阁
+T46	Thing-Nominal 346 350	清澈的湖
+T47	Thing-Nominal 354 365	一幅幅欣欣向荣的春光图
+R13	Located Arg1:T44 Arg2:T10	
+R14	Located Arg1:T45 Arg2:T10	
+R15	Located Arg1:T46 Arg2:T10	
+T48	Thing-Nominal 367 369	微风
+T49	Thing-Nominal 372 374	仙子
+T50	Thing-Nominal 380 381	蝶
+T51	Thing-Nominal 384 388	古猗浓荫
+T52	Thing-Nominal 389 391	春光
+T53	Thing-Nominal 417 419	绿波
+T54	Thing-Nominal 422 424	奇葩
+T55	Thing-Nominal 425 427	梅花
+T56	Thing-Nominal 429 431	牡丹
+T57	Location-Nominal 444 447	牡丹园
+R16	Part-Whole Arg1:T57 Arg2:T10	
+T58	Thing-Nominal 457 462	成片的绿叶
+T59	Thing-Nominal 449 453	柔和的风
+R17	Located Arg1:T59 Arg2:T57	
+R18	Located Arg1:T58 Arg2:T57	
+T60	Thing-Nominal 465 469	陈阵微波
+T61	Thing-Nominal 470 472	花儿
+T62	Thing-Nominal 439 446	花之冠──牡丹
+R19	Located Arg1:T62 Arg2:T57	
+T63	Thing-Pronoun 498 500	它们
+*	Coreference T63 T61
+T64	Thing-Nominal 509 511	绿波
+T65	Thing-Nominal 516 518	蝴蝶
+T66	Person-Nominal 537 539	姐妹
+T67	Thing-Nominal 548 551	绿草坪
+T68	Thing-Nominal 560 562	绿叶
+T69	Location-Pronoun 614 616	这里
+*	Coreference T69 T57
+T70	Thing-Nominal 618 631	好多好多、好大好大的白牡丹
+R20	Located Arg1:T70 Arg2:T69	
+T71	Thing-Pronoun 633 636	单瓣的
+T72	Thing-Pronoun 639 642	重瓣的
+R21	Part-Whole Arg1:T71 Arg2:T70	
+R22	Part-Whole Arg1:T72 Arg2:T70	
+T73	Person-Pronoun 643 644	我
+T74	Thing-Pronoun 645 646	它
+*	Coreference T74 T70
+T75	Thing-Nominal 650 652	白璧
+T76	Person-Pronoun 660 661	我
+T77	Thing-Pronoun 662 663	它
+T78	Thing-Nominal 675 678;679 681	红色的 花芯
+T79	Thing-Nominal 683 687	金黄的边
+R23	Located Arg1:T79 Arg2:T78	
+T80	Person-Nominal 690 694	白衣天使
+T81	Thing-Nominal 696 703	紫红宝石的钻戒
+R24	Use Arg1:T80 Arg2:T81	
+T82	Thing-Pronoun 716 721	几株紫红的
+T83	Thing-Nominal 736 739	黑牡丹
+R25	General-Special Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 780 781	花
+T85	Thing-Nominal 784 785	花
+T86	Thing-Nominal 806 808	牡丹
+T87	Thing-Pronoun 833 834	它
+T88	Person-Pronoun 848 849	我
+T89	Thing-Nominal 839 843	我的光影
+T90	Thing-Nominal 858 860	枝头
+T91	Thing-Name 872 874	金乌
+T92	Person-Nominal 881 883	少女
+T93	Thing-Nominal 904 906	柳翠
+T94	Thing-Nominal 900 901	壑
+T95	Location-Name 889 891	扶桑
+T96	Thing-Nominal 913 915	牡丹
+T97	Thing-Nominal 908 910	小径
+T98	Thing-Nominal 918 920	眼球
+T99	Thing-Nominal 922 932	一小片粉红色的樱花林
+T100	Person-Pronoun 936 937	我
+T101	Thing-Nominal 942 944	枝头
+T102	Thing-Nominal 951 953	花朵
+R26	Located Arg1:T102 Arg2:T101	
+T103	Thing-Nominal 956 963	无边自由的苍穹
+T104	Time-Implicit 964 966	今天
+T105	Thing-Name 967 969	太阳
+*	Coreference T105 T91 T107
+T106	Person-Nominal 970 979	尚未卸完冬装的人们
+T107	Thing-Pronoun 984 985	它
+T108	Thing-Nominal 989 994	粉色的樱花
+T109	Person-Nominal 996 998	少女
+T110	Thing-Name 1000 1002	太阳
+T111	Thing-Nominal 1026 1028	樱花
+R27	General-Special Arg1:T111 Arg2:T108	
+T112	Location-Nominal 1032 1039	喜马拉雅山一带
+T113	Location-Name 1032 1037	喜马拉雅山
+T114	Person-Nominal 1046 1048	众人
+T115	Location-Name 1053 1055	扶桑
+T116	Location-Nominal 1063 1065	列岛
+R28	Part-Whole Arg1:T116 Arg2:T115	
+T117	Thing-Nominal 1068 1070	国花
+T118	Abstract 1072 1076	军国主义
+T119	Thing-Nominal 1077 1078	狐
+T120	Thing-Nominal 1079 1080	虎
+T121	Thing-Nominal 1089 1090	刀
+T122	Person-Nominal 1106 1110	两国人民
+T123	Person-Nominal 1120 1122	来者
+T124	Location-Name 1125 1127	德国
+T125	Person-Nominal 1149 1151	人类
+T126	Location-Nominal 1152 1154	世界

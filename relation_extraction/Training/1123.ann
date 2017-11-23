@@ -1,0 +1,235 @@
+T1	Person-Pronoun 0 1	我
+T2	Person-Name 2 4	方杰
+T3	Person-Pronoun 19 21	我们
+T4	Person-Nominal 34 38	方杰母亲
+T5	Person-Name 34 36	方杰
+R1	Family Arg1:T4 Arg2:T5	
+T6	Person-Pronoun 61 62	我
+T7	Person-Pronoun 63 64	他
+*	Coreference T7 T2
+T8	Thing-Nominal 64 65	口
+R2	Part-Whole Arg1:T8 Arg2:T7	
+T9	Time-Implicit 86 88	之后
+T10	Person-Pronoun 89 90	我
+T11	Thing-Nominal 91 92	头
+R3	Part-Whole Arg1:T11 Arg2:T10	
+T12	Person-Pronoun 107 109	我们
+T13	Metric 111 113	多年
+T14	Person-Nominal 116 119	他母亲
+T15	Person-Pronoun 116 117	他
+R4	Family Arg1:T14 Arg2:T15	
+T16	Thing-Nominal 126 132	很多很多的钱
+T17	Location-Nominal 133 135	他家
+T18	Person-Pronoun 133 134	他
+T19	Thing-Nominal 145 146	钱
+T20	Person-Pronoun 148 149	他
+T21	Time-Implicit 152 154	以后
+T22	Location-Nominal 157 160	他们家
+T23	Person-Pronoun 157 159	他们
+T24	Person-Pronoun 165 166	我
+T25	Person-Pronoun 168 169	他
+T26	Person-Pronoun 172 173	我
+T27	Person-Pronoun 185 186	我
+T28	Person-Name 192 194	方杰
+T29	Person-Pronoun 195 196	我
+T30	Metric 196 198	半晌
+T31	Person-Pronoun 208 209	我
+T32	Metric 216 219	一会儿
+T33	Person-Nominal 227 229	我妈
+T34	Person-Pronoun 227 228	我
+R5	Family Arg1:T34 Arg2:T33	
+T35	Thing-Nominal 241 244	很多钱
+T36	Person-Pronoun 246 247	她
+*	Coreference T36 T33
+T37	Person-Pronoun 258 260	我们
+T38	Person-Pronoun 265 266	我
+T39	Person-Pronoun 282 283	我
+T40	Thing-Nominal 285 286	头
+R6	Part-Whole Arg1:T40 Arg2:T39	
+T41	Person-Pronoun 289 290	他
+T42	Person-Pronoun 292 293	他
+T43	Person-Name 302 304	阿杰
+T44	Person-Pronoun 305 306	你
+*	Coreference T44 T43
+T45	Person-Pronoun 311 312	我
+T46	Time-Implicit 315 319	这段时间
+T47	Person-Pronoun 319 320	你
+T48	Person-Nominal 325 327	阿姨
+T49	Person-Pronoun 328 329	她
+*	Coreference T49 T48
+T50	Person-Pronoun 332 333	你
+T51	Person-Pronoun 338 340	我们
+T52	Person-Name 351 353	方杰
+T53	Thing-Nominal 354 358	自己的手
+T54	Person-Pronoun 354 356	自己
+*	Coreference T54 T52 T59
+R7	Part-Whole Arg1:T53 Arg2:T54	
+T55	Location-Nominal 360 365	我的手背上
+T56	Person-Pronoun 360 361	我
+R8	Located Arg1:T53 Arg2:T55	
+T57	Person-Pronoun 366 367	我
+T58	Thing-Nominal 370 373	他手心
+T59	Person-Pronoun 370 371	他
+R9	Part-Whole Arg1:T58 Arg2:T59	
+T60	Person-Pronoun 379 380	他
+T61	Person-Name 385 388	“阿冰
+T62	Person-Pronoun 389 390	你
+T63	Person-Pronoun 400 401	你
+T64	Person-Pronoun 408 409	我
+T65	Person-Pronoun 412 413	你
+T66	Person-Pronoun 432 433	我
+T67	Location-Nominal 437 440	他身边
+T68	Person-Pronoun 437 438	他
+T69	Person-Pronoun 443 444	他
+T70	Person-Pronoun 446 447	他
+T71	Person-Pronoun 457 458	我
+T72	Person-Pronoun 465 466	他
+T73	Person-Pronoun 469 470	我
+T74	Person-Nominal 471 472	人
+T75	Person-Nominal 481 483	夫妻
+T76	Person-Pronoun 493 495	各自
+T77	Person-Pronoun 499 501	我们
+T78	Person-Nominal 504 506	夫妻
+T79	Person-Nominal 509 511	情侣
+T80	Person-Pronoun 512 513	他
+T81	Person-Pronoun 516 517	我
+T82	Person-Pronoun 522 523	他
+T83	Person-Pronoun 528 529	我
+T84	Person-Pronoun 536 537	他
+T85	Thing-Nominal 540 541	手
+T86	Person-Pronoun 547 548	我
+T87	Time-Implicit 553 555	当初
+T88	Person-Nominal 555 557	我俩
+T89	Time-Implicit 555 560	我俩相恋时
+T90	Person-Name 561 563	方杰
+T91	Thing-Nominal 564 565	房
+T92	Thing-Nominal 566 567	车
+T93	Person-Nominal 568 571	我父母
+T94	Person-Pronoun 568 569	我
+R10	Family Arg1:T93 Arg2:T94	
+T95	Person-Pronoun 594 596	他们
+*	Coreference T95 T93
+T96	Person-Nominal 605 607	别人
+T97	Person-Pronoun 614 615	他
+T98	Metric 615 617	多年
+T99	Time-Implicit 624 626	现在
+T100	Person-Pronoun 627 628	他
+T101	Thing-Nominal 631 632	房
+T102	Thing-Nominal 634 635	车
+T103	Person-Nominal 637 640	我父母
+T104	Person-Pronoun 637 638	我
+R11	Family Arg1:T103 Arg2:T104	
+T105	Person-Pronoun 641 642	他
+T106	Person-Pronoun 650 652	我们
+T107	Person-Pronoun 657 658	我
+T108	Time-Implicit 658 660	整天
+T109	Thing-Nominal 665 667	茶饭
+T110	Person-Nominal 684 686	父母
+T111	Person-Pronoun 693 695	他们
+*	Coreference T111 T110
+T112	Person-Pronoun 702 703	我
+T113	Location-Nominal 704 707	方杰家
+T114	Person-Name 704 706	方杰
+T115	Person-Pronoun 715 716	我
+T116	Person-Nominal 727 729	父亲
+T117	Person-Name 739 741	小冰
+T118	Person-Pronoun 735 736	我
+T119	Person-Nominal 743 747	方杰他妈
+T120	Person-Pronoun 745 746	他
+T121	Person-Name 743 745	方杰
+R12	Family Arg1:T121 Arg2:T119	
+*	Coreference T120 T121
+T122	Thing-Nominal 755 758	很多钱
+T123	Thing-Nominal 764 768	车和房子
+T124	Person-Nominal 783 784	人
+T125	Thing-Nominal 784 785	财
+T126	Person-Pronoun 789 790	你
+T127	Person-Pronoun 799 800	我
+T128	Person-Nominal 802 804	父亲
+T129	Person-Nominal 808 810	母亲
+R13	Family Arg1:T129 Arg2:T128	
+T130	Person-Nominal 815 816	爸
+T131	Person-Nominal 817 818	妈
+T132	Person-Name 819 821	阿杰
+T133	Person-Pronoun 823 824	我
+T134	Person-Pronoun 825 826	他
+T135	Person-Pronoun 828 829	我
+*	Coreference T134 T132
+T136	Person-Nominal 837 839	母亲
+T137	Person-Pronoun 841 842	我
+T138	Person-Pronoun 852 853	你
+T139	Person-Pronoun 853 855	自己
+T140	Person-Pronoun 861 863	我们
+T141	Person-Pronoun 867 869	我们
+T142	Person-Nominal 871 877	这么一个女儿
+T143	Person-Pronoun 870 871	你
+T144	Person-Nominal 880 882	父亲
+T145	Person-Pronoun 890 891	我
+T146	Thing-Nominal 900 902	胃口
+T147	Thing-Nominal 903 904	饭
+T148	Person-Pronoun 906 908	自己
+T149	Location-Nominal 910 913	房间里
+T150	Person-Pronoun 918 919	他
+T151	Time-Implicit 935 938	多年前
+T152	Time-Implicit 940 947	一次同学聚会上
+T153	Person-Pronoun 948 949	我
+T154	Person-Name 952 954	方杰
+T155	Person-Pronoun 955 956	他
+T156	Person-Pronoun 962 963	我
+T157	Time-Implicit 973 976	临别前
+T158	Person-Pronoun 977 979	我们
+T159	Time-Implicit 992 1002	我回公司上班的第一天
+T160	Person-Pronoun 992 993	我
+T161	Organization-Nominal 994 996	公司
+T162	Person-Pronoun 1006 1007	他
+T163	Time-Implicit 1015 1019	每天早上
+T164	Person-Pronoun 1019 1020	他
+T165	Person-Pronoun 1023 1024	我
+T166	Person-Pronoun 1041 1042	他
+T167	Location-Nominal 1045 1049	公司门口
+T168	Person-Pronoun 1051 1052	我
+T169	Person-Pronoun 1059 1060	他
+T170	Person-Pronoun 1057 1058	我
+T171	Person-Pronoun 1073 1074	我
+T172	Person-Nominal 1075 1079	方杰母亲
+T173	Person-Name 1075 1077	方杰
+R14	Family Arg1:T172 Arg2:T173	
+T174	Person-Pronoun 1082 1084	我们
+T175	Person-Nominal 1087 1091	茫茫人海
+T176	Person-Pronoun 1107 1108	他
+T177	Person-Pronoun 1110 1111	我
+T178	Person-Pronoun 1117 1118	我
+T179	Person-Pronoun 1121 1122	我
+T180	Person-Pronoun 1126 1127	他
+T181	Person-Pronoun 1128 1129	我
+T182	Person-Pronoun 1136 1137	我
+T183	Person-Pronoun 1142 1143	我
+T184	Time-Implicit 1142 1149	我需要他的时候
+T185	Person-Pronoun 1145 1146	他
+T186	Person-Pronoun 1150 1151	他
+T187	Person-Pronoun 1163 1164	我
+T188	Person-Pronoun 1175 1176	他
+T189	Person-Pronoun 1184 1185	他
+T190	Person-Pronoun 1186 1187	我
+T191	Person-Pronoun 1192 1194	他们
+T192	Organization-Nominal 1195 1197	公司
+T193	Time-Implicit 1203 1208	回来的时候
+T194	Person-Pronoun 1209 1210	他
+T195	Thing-Nominal 1218 1221	酸萝卜
+T196	Person-Pronoun 1214 1215	我
+T197	Person-Pronoun 1222 1223	我
+T198	Metric 1226 1229	好几天
+T199	Person-Pronoun 1237 1238	我
+T200	Person-Pronoun 1253 1254	我
+T201	Thing-Nominal 1275 1279	一篇日志
+T202	Person-Pronoun 1280 1281	我
+T203	Person-Nominal 1287 1288	人
+T204	Person-Nominal 1295 1306	一个各方面都合得来的人
+T205	Person-Pronoun 1310 1311	我
+T206	Person-Nominal 1312 1315	男朋友
+T207	Metric 1318 1320	多年
+T208	Person-Pronoun 1325 1326	他
+T209	Person-Pronoun 1332 1333	我
+T210	Time-Implicit 1363 1365	今晚
+T211	Person-Pronoun 1366 1367	我
+*	Coreference T176 T173

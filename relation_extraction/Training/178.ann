@@ -1,0 +1,273 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 2 5	洋槐花
+T3	Thing-Nominal 10 13	洋槐花
+T4	Thing-Nominal 17 18	雪
+T5	Thing-Nominal 22 23	霞
+T6	Person-Pronoun 25 26	我
+T7	Thing-Nominal 27 30	洋槐花
+T8	Thing-Pronoun 31 32	它
+*	Coreference T8 T7
+T9	Thing-Pronoun 35 36	它
+T10	Thing-Pronoun 51 52	它
+T11	Person-Nominal 54 56	人们
+T12	Thing-Nominal 59 65	一种野生食物
+T13	Thing-Nominal 67 70	洋槐花
+T14	Time-Implicit 81 87	暮春的季节里
+T15	Thing-Nominal 90 92	花絮
+T16	Thing-Nominal 93 95	双手
+T17	Location-Nominal 111 121	一张小女孩儿的面颊上
+T18	Person-Nominal 113 117	小女孩儿
+T19	Thing-Nominal 125 126	槐
+T20	Thing-Nominal 130 131	花
+T21	Person-Pronoun 149 150	谁
+T22	Thing-Nominal 160 163	哪片云
+T23	Thing-Nominal 164 165	雨
+T24	Thing-Nominal 183 187	洋槐花儿
+T25	Person-Nominal 197 198	人
+T26	Thing-Nominal 201 215	一大摊红红绿绿黑黑白白的事体
+T27	Person-Nominal 217 218	人
+T28	Thing-Nominal 226 229	洋槐花
+T29	Time-Implicit 240 246	春初还是春尾
+T30	Thing-Pronoun 307 309	自己
+*	Coreference T30 T28
+T31	Person-Nominal 317 325	一朵伤感的小女人
+T32	Thing-Nominal 327 328	风
+T33	Time-Implicit 333 337	初夏时分
+T34	Thing-Nominal 342 345	洋槐花
+T35	Time-Implicit 372 375	春末端
+T36	Thing-Nominal 383 387	洋槐花儿
+T37	Location-Pronoun 398 400	这里
+T38	Location-Nominal 392 396	锻铸世界
+*	Coreference T37 T38
+T39	Thing-Nominal 403 405	阳光
+T40	Location-Nominal 408 410	地上
+T41	Thing-Nominal 411 413	烟尘
+T42	Location-Nominal 418 420	树上
+T43	Thing-Nominal 421 423	秋千
+T44	Thing-Nominal 424 427	洋槐花
+T45	Thing-Pronoun 435 437	自己
+*	Coreference T45 T44
+T46	Thing-Nominal 450 453	洋槐花
+T47	Thing-Nominal 470 474	一袭白绫
+T48	Location-Nominal 475 477	身上
+R1	Located Arg1:T47 Arg2:T48	
+T49	Thing-Nominal 479 481	天涯
+T50	Thing-Nominal 487 496	一嘟咙一嘟咙的繁花
+T51	Time-Implicit 507 511	暮春时月
+T52	Thing-Nominal 518 519	蜂
+T53	Thing-Nominal 520 521	蝶
+T54	Person-Nominal 543 546	女孩子
+T55	Location-Nominal 547 551	洋槐树上
+T56	Thing-Nominal 552 553	蜂
+T57	Thing-Nominal 554 555	碟
+T58	Thing-Nominal 557 558	花
+T59	Thing-Nominal 559 564	喜悦的面容
+T60	Person-Pronoun 573 574	她
+T61	Person-Pronoun 593 595	;她
+T62	Thing-Nominal 606 608	日月
+*	Coreference T60 T54
+T63	Thing-Nominal 627 630	洋槐花
+T64	Person-Nominal 651 655	小女孩儿
+T65	Thing-Nominal 656 660	洋槐花儿
+T66	Location-Nominal 662 669	洁儿白的灯盏里
+T67	Thing-Nominal 693 694	鸟
+T68	Location-Nominal 700 702	树上
+R2	Located Arg1:T67 Arg2:T68	
+T69	Time-Implicit 718 724	四月末五月初
+T70	Time-Implicit 726 730	春夏交替
+T71	Time-Implicit 731 738	热凉杂糅的时候
+*	Coreference T71 T69
+T72	Thing-Nominal 739 742	洋槐花
+T73	Thing-Pronoun 743 745	自己
+*	Coreference T73 T72
+T74	Time-Implicit 762 769	这个特殊的季节
+T75	Thing-Nominal 772 774	桃李
+T76	Thing-Nominal 775 777	青果
+T77	Thing-Nominal 802 804	水分
+T78	Time-Implicit 823 826	小时候
+T79	Person-Nominal 827 830	家乡人
+T80	Thing-Nominal 833 834	粮
+T81	Thing-Nominal 835 836	食
+T82	Time-Implicit 841 848	春末夏初的时刻
+T83	Thing-Nominal 849 851	庄稼
+T84	Location-Nominal 854 861	青黄不接的隘口
+R3	Located Arg1:T83 Arg2:T84	
+T85	Person-Nominal 862 869	饥肠辘辘的人们
+T86	Thing-Nominal 878 880	肚皮
+T87	Time-Implicit 885 888	那时候
+*	Coreference T87 T82
+T88	Location-Nominal 891 893	地上
+T89	Location-Nominal 898 900	树上
+T90	Thing-Nominal 905 909	洋槐花儿
+T91	Person-Nominal 918 920	大家
+T92	Thing-Nominal 926 933	白腾腾的洋槐花
+T93	Location-Nominal 957 961	满村满巷
+T94	Thing-Nominal 963 965;966 967	洋槐 花
+R4	Located Arg1:T94 Arg2:T93	
+T95	Thing-Nominal 978 981	洋槐花
+T96	Location-Nominal 972 976	满天满地
+T97	Location-Nominal 988 992	家家户户
+T98	Thing-Nominal 995 998	洋槐花
+T99	Person-Nominal 1000 1002	人人
+T100	Location-Nominal 1002 1004	满嘴
+T101	Location-Nominal 1004 1007	满肚子
+T102	Thing-Nominal 1011 1014	洋槐花
+T103	Thing-Nominal 1023 1027	谁家村落
+T104	Location-Nominal 1030 1037	一片洋槐林之中
+R5	Located Arg1:T103 Arg2:T104	
+T105	Person-Nominal 1044 1048;1049 1050	幸福的公 主
+T106	Location-Nominal 1054 1059	前世的天堂
+T107	Thing-Nominal 1061 1067	盈盈的洋槐花
+T108	Thing-Nominal 1105 1110	洋槐花菇蕾
+T109	Thing-Nominal 1114 1118	一种小吃
+T110	Time-Explicit 1120 1132	上个世纪六、七十年代时期
+T111	Time-Implicit 1133 1137	每到春季
+T112	Thing-Nominal 1138 1144	这洋槐花菇蕾
+T113	Location-Nominal 1146 1151	咱农家桌上
+T114	Thing-Nominal 1151 1157	上好的饭食了
+T115	Time-Implicit 1158 1161	那时侯
+T116	Thing-Nominal 1162 1164	农村
+T117	Thing-Nominal 1170 1172	粮食
+T118	Person-Nominal 1179 1181	人们
+T119	Thing-Nominal 1187 1191	各种野菜
+T120	Time-Implicit 1175 1179	一年四季
+T121	Thing-Nominal 1199 1205	这洋槐花菇蕾
+T122	Thing-Nominal 1207 1212	最好的食物
+T123	Person-Nominal 1215 1217	人们
+T124	Time-Implicit 1223 1229	每到农历三月
+T125	Thing-Nominal 1230 1237	农村的田野渠畔
+T126	Location-Nominal 1238 1242	房前屋后
+T127	Thing-Nominal 1243 1251	一树一树的洋槐花
+R6	Located Arg1:T127 Arg2:T126	
+T128	Thing-Nominal 1254 1256	白云
+T129	Location-Nominal 1259 1262	空气中
+T130	Person-Nominal 1265 1266	人
+T131	Time-Implicit 1270 1273	这时候
+*	Coreference T131 T124
+T132	Person-Nominal 1274 1276	人们
+T133	Location-Nominal 1284 1286	家里
+T134	Thing-Nominal 1288 1293	洋槐花菇蕾
+T135	Thing-Nominal 1297 1302	洋槐花菇蕾
+T136	Thing-Nominal 1311 1316	采摘的槐花
+T137	Thing-Nominal 1326 1330	一些面粉
+T138	Thing-Nominal 1334 1339	少量的馍块
+T139	Location-Nominal 1345 1347	里面
+T140	Thing-Nominal 1349 1357;1358 1359	适量的食盐、五香 粉
+R7	Located Arg1:T140 Arg2:T139	
+T141	Thing-Nominal 1361 1363	食油
+T142	Thing-Nominal 1370 1373	洋槐花
+T143	Location-Nominal 1385 1387	笼里
+T144	Time-Implicit 1400 1404	吃的时候
+T145	Thing-Nominal 1409 1418;1419 1423	一些蒜泥、陈醋和油 烧红辣椒
+T146	Thing-Nominal 1430 1432	唇齿
+T147	Person-Nominal 1457 1459	人们
+T148	Thing-Nominal 1468 1469	饭
+T149	Thing-Nominal 1476 1478	食品
+T150	Thing-Nominal 1490 1498	各种绿色野菜食品
+T151	Thing-Nominal 1505 1511	这洋槐花菇蕾
+T152	Person-Nominal 1515 1519	广大顾客
+T153	Thing-Nominal 1522 1526	一道名菜
+T154	Thing-Nominal 1528 1529	鸟
+T155	Thing-Nominal 1535 1537	天露
+T156	Person-Nominal 1543 1544	人
+T157	Thing-Nominal 1550 1554	洋槐花儿
+T158	Person-Nominal 1561 1567	许多热心的人
+T159	Location-Nominal 1578 1580	树上
+T160	Time-Implicit 1592 1601	洋槐花儿盛开的时节
+T161	Thing-Nominal 1592 1596	洋槐花儿
+T162	Time-Implicit 1603 1606	好时节
+*	Coreference T162 T160
+T163	Person-Nominal 1615 1616	人
+T164	Thing-Nominal 1618 1622	洋槐花儿
+T165	Thing-Nominal 1623 1627	洋槐花儿
+T166	Location-Nominal 1611 1614	道路上
+T167	Thing-Nominal 1630 1632	麦浆
+T168	Time-Implicit 1643 1645	那年
+T169	Location-Nominal 1646 1650	大山深处
+T170	Thing-Nominal 1651 1654	下化乡
+R8	Located Arg1:T170 Arg2:T169	
+T171	Thing-Nominal 1658 1663	蒙蒙的春雨
+T172	Location-Name 1666 1669	下化村
+T173	Location-Name 1670 1673	上化村
+T174	Location-Nominal 1674 1680	两面的山坡上
+T175	Thing-Nominal 1681 1687	雪白的洋槐花
+R9	Located Arg1:T175 Arg2:T174	
+T176	Location-Nominal 1688 1692	漫山遍野
+T177	Location-Nominal 1707 1710	仙境里
+T178	Person-Pronoun 1713 1715	我们
+T179	Thing-Nominal 1716 1717	雨
+T180	Thing-Nominal 1718 1719	车
+T181	Thing-Nominal 1722 1724	相机
+T182	Thing-Nominal 1729 1732	摄像机
+T183	Thing-Nominal 1738 1746	这美丽的人间仙境
+T184	Person-Nominal 1753 1758	所有的观众
+T185	Time-Implicit 1762 1766	去年春天
+T186	Location-Name 1768 1777	国家级旅游城市永济
+T187	Thing-Nominal 1780 1782	微风
+T188	Location-Name 1786 1798	普救寺、鹳雀楼公路的两旁
+T189	Thing-Nominal 1799 1802	洋槐花
+R10	Located Arg1:T189 Arg2:T188	
+T190	Person-Nominal 1807 1815	采摘洋槐花的人们
+T191	Location-Nominal 1821 1822;1823 1826	树 上树下
+T192	Thing-Nominal 1827 1837	那男男女女开朗的笑脸
+T193	Location-Nominal 1840 1842	树上
+T194	Thing-Nominal 1842 1851	那雪白粉嫩的洋槐花
+R11	Located Arg1:T194 Arg2:T193	
+T195	Thing-Nominal 1853 1855	春风
+T196	Thing-Nominal 1860 1862	春风
+T197	Thing-Nominal 1867 1869	春风
+T198	Thing-Nominal 1875 1876	蛙
+T199	Time-Implicit 1875 1882	蛙声响起一片时
+T200	Thing-Nominal 1883 1886	洋槐花
+T201	Thing-Nominal 1891 1896	一滴滴的泪
+T202	Thing-Nominal 1898 1900	日月
+T203	Thing-Nominal 1907 1908	蝶
+T204	Thing-Nominal 1911 1912	蝶
+T205	Person-Name 1921 1924	薛振堂
+T206	Time-Explicit 1926 1931	1956年
+T207	Person-Nominal 1934 1941	山西省河津市人
+T208	Person-Nominal 1942 1947	教育工作者
+T209	Person-Nominal 1948 1964	中国作家协会文学艺术家俱乐部会员
+T210	Person-Nominal 1965 1975	中国现代作家协会会员
+T211	Person-Nominal 1976 1981;1982 1989	中国散文诗 作家学会会员，
+T212	Person-Nominal 1989 2009	中华诗词研究会会员,中国诗词家协会会员，
+T213	Person-Nominal 2009 2018	中华诗词一级著作家
+T214	Person-Nominal 2019 2041	中华诗词学术研究院第一届理事会终身名誉副院长
+T215	Person-Nominal 2043 2052	山西省散文学会会员
+T216	Person-Nominal 2053 2061	华夏诗学协会会员
+T217	Person-Nominal 2069 2077	世界汉诗协会会员
+T218	Person-Nominal 2062 2069	昭通诗社会员、
+T219	Person-Nominal 2078 2086	观音山文学社会员
+T220	Person-Nominal 2087 2100	中华全国农民报协会特约记者
+T221	Person-Nominal 2101 2103;2104 2106	特约 编委
+T222	Person-Nominal 2107 2126	《走向新世纪》系列丛书全国十佳明星作者
+T223	Person-Nominal 2127 2132	一级撰稿人
+T224	Person-Nominal 2133 2142	河津市作家协会会员
+T225	Person-Nominal 2143 2156	运城市、河津市楹联学会会员
+T226	Abstract 2162 2164;2165 2169	《作 家时代》
+T227	Abstract 2170 2176	《文学月刊》
+T228	Abstract 2177 2184	《中国教育报》
+T229	Abstract 2185 2192	《中国楹联报》
+T230	Abstract 2193 2200	《中华楹联报》
+T231	Abstract 2201 2208	《中国社会报》
+T232	Abstract 2209 2216	《山西农民报》
+T233	Abstract 2217 2223	《诗词世界》
+T234	Abstract 2224 2225;2226 2233	《 现代作家文学》
+T235	Abstract 2234 2243	《映山红》文学季刊
+T236	Abstract 2250 2255	《新国风》
+T237	Abstract 2244 2249	《中国魂》
+T238	Abstract 2263 2269	《齐鲁诗歌》
+T239	Abstract 2256 2262	《河北诗人》
+T240	Abstract 2269 2277	、《中国微型诗》
+T241	Abstract 2278 2285	《华夏微型诗》
+T242	Abstract 2287 2296	《中国微型散文诗》
+T243	Abstract 2297 2303	《大风》诗歌
+T244	Abstract 2304 2310	《长风诗刊》
+T245	Abstract 2311 2317	《长江诗歌》
+T246	Abstract 2318 2325	《你我他》文学
+T247	Abstract 2326 2332	《咸阳诗刊》
+T248	Abstract 2333 2338	《军山湖》
+T249	Abstract 2339 2345	《运城日报》
+T250	Abstract 2346 2347;2348 2353	《 黄河晨报》
+T251	Abstract 2354 2360	《河东楹联》
+T252	Thing-Nominal 2361 2367	全国各类报刊

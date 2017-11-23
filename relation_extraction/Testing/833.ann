@@ -1,0 +1,51 @@
+T1	Time-Implicit 17 19	有时
+T2	Thing-Nominal 20 21	人
+T3	Thing-Nominal 26 28	动物
+R1	General-Special Arg1:T2 Arg2:T3	
+T4	Location-Nominal 43 46	海平面
+T5	Thing-Nominal 63 65	盖子
+T6	Person-Pronoun 69 70	你
+T7	Person-Nominal 71 73	凡人
+T8	Person-Nominal 75 77	圣人
+T9	Thing-Nominal 81 82	人
+T10	Thing-Nominal 101 102	帆
+T11	Person-Pronoun 109 110	我
+T12	Person-Pronoun 133 134	你
+T13	Person-Pronoun 141 142	你
+T14	Thing-Nominal 148 149	人
+T15	Person-Pronoun 152 153	你
+T16	Person-Pronoun 165 166	你
+T17	Person-Nominal 167 170	一个人
+T18	Person-Pronoun 195 196	我
+T19	Person-Pronoun 199 200	你
+T20	Person-Pronoun 207 208	你
+T21	Thing-Nominal 233 234	缰
+T22	Person-Pronoun 238 239	你
+T23	Person-Pronoun 240 241	我
+T24	Person-Pronoun 242 244	他(
+T25	Person-Pronoun 244 245	她
+T26	Time-Implicit 248 252	每时每刻
+T27	Person-Nominal 275 277	母亲
+T28	Person-Pronoun 278 279	你
+R2	Family Arg1:T27 Arg2:T28	
+T29	Person-Pronoun 288 289	你
+T30	Person-Pronoun 292 293	你
+T31	Organization-Nominal 297 298;299 301	大 家庭
+T32	Person-Nominal 317 319	自己
+*	Coreference T30 T32
+T33	Thing-Name 355 359	人间词话
+T34	Person-Nominal 371 375	大学问者
+T35	Time-Implicit 391 393	昨夜
+T36	Thing-Nominal 393 395	西风
+T37	Thing-Nominal 397 398	树
+T38	Thing-Nominal 401 403	高楼
+T39	Thing-Nominal 415 417	衣带
+T40	Thing-Nominal 427 428	人
+T41	Person-Pronoun 439 440	他
+T42	Person-Nominal 450 452	那人
+*	Coreference T42 T41
+T43	Thing-Nominal 454 456	灯火
+T44	Location-Nominal 454 459	灯火阑珊处
+T45	Person-Name 461 468	国学大师王国维
+T46	Thing-Nominal 490 491	人
+T47	Location-Nominal 523 525	地狱

@@ -1,0 +1,86 @@
+T1	Person-Nominal 20 22	母亲
+T2	Person-Nominal 23 25	母亲
+T3	Person-Nominal 42 44	母亲
+T4	Person-Nominal 69 71	母亲
+T5	Person-Nominal 80 82	母亲
+T6	Person-Pronoun 93 94	我
+R1	Family Arg1:T6 Arg2:T5	
+T7	Person-Nominal 98 100	母亲
+T8	Person-Nominal 107 109	母亲
+T9	Person-Pronoun 130 132	我们
+R2	Family Arg1:T9 Arg2:T8	
+T10	Time-Implicit 151 153	一天
+T11	Person-Nominal 154 160	我们姐弟几个
+T12	Person-Nominal 162 164	母亲
+R3	Family Arg1:T11 Arg2:T12	
+T13	Person-Nominal 170 172	母亲
+T14	Person-Nominal 174 176	母亲
+T15	Person-Nominal 177 179	母亲
+T16	Person-Pronoun 186 187	她
+*	Coreference T15 T16
+T17	Person-Nominal 200 204	我们几个
+*	Coreference T11 T17
+T18	Person-Nominal 207 209	母亲
+T19	Person-Pronoun 216 217	我
+T20	Person-Nominal 231 233	母亲
+T21	Person-Pronoun 245 246	她
+T22	Person-Nominal 254 256	母亲
+T23	Person-Pronoun 263 264	我
+*	Coreference T22 T23 T20 T21 T25
+T24	Person-Name 268 269	波
+*	Coreference T24 T19
+T25	Person-Pronoun 271 272	我
+T26	Person-Pronoun 277 278	他
+T27	Person-Name 283 284	波
+T28	Person-Pronoun 285 286	我
+*	Coreference T26 T27 T28 T36
+T29	Person-Nominal 290 292	母亲
+T30	Person-Nominal 303 305	母亲
+T31	Person-Nominal 328 330	母亲
+T32	Location-Nominal 341 343	家里
+T33	Thing-Nominal 345 347	面粉
+T34	Thing-Nominal 351 353	面粉
+T35	Thing-Nominal 358 360	袋子
+R4	Located Arg1:T34 Arg2:T35	
+T36	Person-Pronoun 362 363	他
+T37	Person-Pronoun 371 372	我
+*	Coreference T31 T37
+T38	Person-Pronoun 378 379	他
+T39	Thing-Nominal 380 382	馒头
+R5	Create Arg1:T37 Arg2:T39	
+T40	Person-Nominal 384 386	母亲
+T41	Person-Nominal 397 399	母亲
+T42	Person-Nominal 404 406	母亲
+T43	Time-Implicit 413 416	几天前
+T44	Person-Nominal 418 421	全家人
+R6	Family Arg1:T42 Arg2:T44	
+T45	Thing-Nominal 423 427	一锅饺子
+R7	Create Arg1:T42 Arg2:T45	
+T46	Person-Nominal 430 432	大姐
+T47	Person-Nominal 436 437	娘
+T48	Person-Pronoun 437 438	您
+*	Coreference T48 T47 T53
+T49	Person-Pronoun 442 443	我
+*	Coreference T46 T49 T51
+T50	Person-Name 445 446	波
+T51	Person-Pronoun 449 450	我
+T52	Person-Nominal 453 459	我们姐妹三个
+T53	Person-Nominal 463 465	母亲
+T54	Person-Pronoun 471 472	我
+*	Coreference T50 T54
+R8	Family Arg1:T54 Arg2:T46	
+T55	Person-Nominal 473 475	母亲
+T56	Person-Pronoun 482 483	我
+T57	Person-Nominal 484 486	母亲
+T58	Person-Pronoun 494 495	她
+*	Coreference T58 T57
+T59	Person-Pronoun 502 503	我
+T60	Person-Pronoun 504 505	我
+T61	Thing-Nominal 507 508	刀
+T62	Thing-Nominal 515 517	泪水
+T63	Person-Nominal 534 536	母亲
+T64	Person-Pronoun 537 538	我
+T65	Person-Nominal 541 543	母亲
+T66	Person-Pronoun 579 581	我们
+T67	Thing-Nominal 584 586	面粉
+T68	Thing-Nominal 592 594	麦子

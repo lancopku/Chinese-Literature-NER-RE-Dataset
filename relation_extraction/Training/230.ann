@@ -1,0 +1,396 @@
+T1	Location-Nominal 0 2	河北
+T2	Location-Nominal 2 4	遵化
+T3	Location-Nominal 5 7	天津
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T4	Location-Nominal 7 9	蓟县
+R2	Part-Whole Arg1:T4 Arg2:T3	
+T5	Location-Nominal 10 13	接壤处
+T6	Metric 14 16	一个
+T7	Location-Nominal 16 19	石门镇
+T8	Location-Nominal 20 22	小镇
+*	Coreference T8 T7
+T9	Location-Nominal 22 24	东南
+T10	Metric 24 27	三华里
+T11	Metric 28 30	一座
+T12	Thing-Nominal 30 34	白杨掩映
+T13	Location-Nominal 35 39	绿色军营
+T14	Person-Pronoun 43 44	我
+T15	Time-Implicit 44 46	曾经
+T16	Location-Nominal 46 53	从军服役的地方
+T17	Location-Pronoun 40 41	这
+*	Coreference T17 T13 T16 T18 T20 T26
+T18	Location-Pronoun 54 56	这里
+T19	Person-Pronoun 57 58	我
+T20	Location-Nominal 62 66	第二故乡
+T21	Time-Implicit 68 73	三十多年后
+T22	Metric 73 75	一个
+T23	Time-Implicit 75 77	深秋
+T24	Person-Pronoun 79 80	我
+T25	Person-Nominal 81 83	战友
+T26	Location-Nominal 85 94	这座魂牵梦绕的军营
+T27	Person-Pronoun 97 99	自己
+T28	Time-Implicit 99 107	过往的青春记忆时
+T29	Thing-Nominal 108 113	记忆的潮水
+T30	Person-Pronoun 114 115	我
+T31	Time-Implicit 115 118	久久地
+T32	Location-Nominal 118 126	遥望着营房正南的
+T33	Location-Nominal 126 128;129 131	那个 村庄
+T34	Location-Name 133 135	张庄
+*	Coreference T34 T33 T35
+T35	Location-Pronoun 136 137	它
+T36	Location-Nominal 140 143	遵化县
+T37	Location-Nominal 143 146	石门镇
+T38	Location-Nominal 149 152	行政村
+R3	Part-Whole Arg1:T38 Arg2:T37	
+R4	Part-Whole Arg1:T37 Arg2:T36	
+T39	Organization-Nominal 156 159	炮兵团
+T40	Organization-Nominal 159 162	指挥连
+R5	Part-Whole Arg1:T40 Arg2:T39	
+T41	Location-Nominal 162 170	的军民共建联系点
+*	Coreference T41 T38
+R6	Part-Whole Arg1:T41 Arg2:T40	
+T42	Location-Nominal 172 175	眼前的
+T43	Location-Nominal 175 177	张庄
+T44	Person-Pronoun 181 182	我
+T45	Location-Nominal 182 188	记忆中的张庄
+*	Coreference T45 T43 T46 T48 T55 T56
+T46	Location-Pronoun 189 190	它
+T47	Thing-Nominal 191 196	灿烂的暖阳
+T48	Location-Pronoun 200 201	它
+T49	Thing-Nominal 202 207	茂密的槐林
+T50	Location-Nominal 211 213	村西
+T51	Thing-Nominal 213 222	那条汩汩流淌的小河
+T52	Time-Implicit 223 228	日夜不停地
+T53	Metric 231 232;233 234	一 曲
+T54	Thing-Nominal 234 241	和谐美妙的乐章
+T55	Location-Nominal 242 248	眼前的小张庄
+T56	Location-Nominal 254 262	我记忆中的小张庄
+T57	Thing-Nominal 266 276	那些低矮不齐的土坯房
+T58	Time-Implicit 277 279	如今
+T59	Thing-Nominal 279 290	已是排列有序的红砖楼房
+T60	Time-Implicit 291 293	当年
+T61	Thing-Nominal 297 302	物质的匮乏
+T62	Thing-Nominal 303 305	柴草
+T63	Person-Nominal 306 309	当地人
+T64	Thing-Nominal 309 311	做饭
+T65	Thing-Nominal 311 318	取暖的主要燃料
+*	Coreference T65 T62
+T66	Time-Implicit 319 328	一到农闲的深秋时节
+T67	Location-Nominal 329 335	广袤的田野上
+T68	Location-Nominal 335 339	到处都是
+T69	Person-Nominal 339 352	手拿竹耙、身背筐篓的拾柴人
+T70	Time-Implicit 353 354;355 356	如 今
+T71	Person-Pronoun 358 359	我
+T72	Location-Nominal 359 367	一览无余的视线里
+T73	Metric 374 376	一个
+T74	Thing-Nominal 376 381	背筐的人影
+T75	Person-Pronoun 382 383	我
+T76	Thing-Nominal 383 392	下意识地翻一下手机
+T77	Location-Nominal 393 397	屏幕上的
+T78	Time-Explicit 397 409	时间显示是：11点30分
+T79	Time-Implicit 410 414	这个时间
+*	Coreference T79 T78 T81
+T80	Person-Nominal 417 419	村民
+T81	Time-Implicit 419 425	做午饭的时间
+T82	Person-Pronoun 427 428	我
+T83	Time-Implicit 428 430	始终
+T84	Person-Nominal 434 438	农家户落
+T85	Thing-Nominal 439 443	袅袅炊烟
+T86	Person-Nominal 444 449	随行的战友
+T87	Time-Implicit 451 460	改革开放三十多年了
+T88	Location-Nominal 461 473	电气化早已覆盖了中国农村
+T89	Thing-Nominal 474 476	烧柴
+T90	Thing-Nominal 477 479	做饭
+T91	Time-Implicit 479 488	早已成为历史的记忆
+T92	Location-Name 502 506	冀东农村
+T93	Location-Nominal 508 513	普通的村庄
+*	Coreference T93 T92 T95 T100
+T94	Person-Pronoun 515 516	我
+T95	Location-Pronoun 530 533	，这里
+T96	Metric 534 536	一群
+T97	Person-Nominal 536 543	聪颖活泼的孩子
+T98	Location-Nominal 527 530	记忆中
+T99	Location-Nominal 544 547	记忆中
+T100	Location-Pronoun 548 550	这里
+T101	Metric 552 554	一群
+T102	Thing-Nominal 554 561	清澈如水的眼睛
+T103	Time-Explicit 563 570	那是1981年
+T104	Person-Pronoun 571 572	我
+T105	Thing-Nominal 572 574	从军
+T106	Metric 575 578	第二个
+T107	Time-Implicit 578 580	春天
+T108	Person-Nominal 581 584	指导员
+T109	Person-Name 584 587	袁春明
+T110	Person-Pronoun 588 589	我
+T111	Location-Nominal 592 594	连部
+T112	Person-Pronoun 595 596	他
+T113	Person-Pronoun 604 606	你的
+T114	Person-Nominal 606 608	班长
+T115	Person-Name 608 611	王兴隆
+T116	Time-Implicit 611 616	当副班长时
+T117	Location-Name 618 620	张庄
+T118	Thing-Nominal 620 622	学校
+T119	Person-Nominal 624 629	校外辅导员
+*	Coreference T119 T115 T114 T120 T121 T122 T126
+T120	Person-Nominal 612 615	副班长
+T121	Person-Pronoun 630 631	他
+T122	Person-Nominal 635 637	班长
+T123	Thing-Nominal 638 643	事务比较多
+T124	Organization-Nominal 644 646	连队
+T125	Person-Pronoun 654 655	你
+T126	Person-Pronoun 657 658	他
+*	Coreference T125 T113 T110 T104 T94 T82 T75 T71
+T127	Location-Nominal 659 661	学校
+T128	Person-Nominal 671 676	校外辅导员
+T129	Person-Pronoun 692 693	我
+T130	Time-Implicit 699 701	一时
+T131	Person-Nominal 708 711	指导员
+T132	Person-Pronoun 717 718	我
+T133	Person-Pronoun 728 729	你
+T134	Person-Nominal 735 737	新兵
+T135	Organization-Nominal 742 744	部队
+T136	Person-Nominal 745 747	军民
+T137	Metric 750 752	一些
+T138	Thing-Nominal 752 754	事情
+T139	Person-Nominal 759 762	指导员
+T140	Thing-Nominal 762 767	信任的目光
+T141	Person-Pronoun 768 769	我
+T142	Time-Implicit 776 778	临别
+T143	Person-Nominal 779 782	指导员
+T144	Person-Pronoun 788 790	我的
+T145	Location-Nominal 790 792	肩膀
+T146	Time-Implicit 795 797	明天
+T147	Time-Implicit 799 801	周六
+*	Coreference T147 T146
+T148	Person-Name 803 805	兴隆
+T149	Person-Nominal 805 807	班长
+*	Coreference T149 T148
+T150	Person-Pronoun 808 809	你
+T151	Time-Implicit 813 815	以后
+T152	Person-Pronoun 818 819	你
+T153	Location-Nominal 822 824	学校
+T154	Thing-Nominal 824 827	搞辅导
+T155	Person-Nominal 829 832	指导员
+T156	Location-Name 833 835	河北
+T157	Person-Nominal 835 838	正定人
+*	Coreference T157 T155 T139 T131 T109 T108 T143 T158
+T158	Person-Nominal 862 868	优秀政工干部
+T159	Person-Pronoun 871 872	我
+T160	Person-Nominal 872 874	新兵
+*	Coreference T160 T159
+T161	Time-Implicit 874 878;879 882	下连的第 一天起
+T162	Person-Pronoun 887 888	他
+T163	Time-Implicit 895 897	此刻
+T164	Person-Pronoun 899 900	我
+T165	Metric 900 903	又一次
+T166	Time-Implicit 914 919	第二天下午
+T167	Person-Pronoun 920 921	我
+T168	Person-Nominal 922 927	王兴隆班长
+T169	Location-Nominal 928 934	营房的小南门
+T170	Thing-Nominal 937 952	沿着那条开满各色花朵的田间小路
+T171	Thing-Nominal 941 947	开满各色花朵
+T172	Location-Name 953 960	徒步赶往了张庄
+T173	Location-Nominal 961 963	营房
+T174	Location-Name 964 966	张庄
+T175	Metric 966 971	大约三华里
+T176	Thing-Nominal 976 978	学校
+T177	Location-Nominal 981 986	村子的北端
+R7	Located Arg1:T176 Arg2:T177	
+T178	Thing-Nominal 987 994	坐北朝南的教室
+T179	Thing-Nominal 995 1001	土坯梁檩结构
+T180	Thing-Nominal 1002 1004	学校
+T181	Thing-Nominal 1004 1008	没有围墙
+T182	Location-Nominal 1009 1012	校园外
+T183	Metric 1013 1015	一片
+T184	Thing-Nominal 1015 1020	茂密的槐林
+T185	Metric 1023 1025	一所
+T186	Time-Implicit 1025 1028	五年制
+T187	Thing-Nominal 1028 1032	复式小学
+T188	Metric 1033 1035;1036 1038	七八 十个
+T189	Person-Nominal 1038 1040	孩子
+T190	Metric 1043 1045	一个
+T191	Thing-Nominal 1045 1048	大教室
+T192	Thing-Nominal 1049 1051	全校
+T193	Metric 1053 1055	两名
+T194	Person-Nominal 1055 1058	女教师
+T195	Person-Nominal 1059 1066	年龄稍大的一位
+T196	Metric 1066 1072	约四十岁上下
+T197	Person-Nominal 1083 1090	是学校的负责人
+*	Coreference T195 T197
+T198	Person-Nominal 1091 1094	另一位
+R8	Part-Whole Arg1:T195 Arg2:T194	
+R9	Part-Whole Arg1:T198 Arg2:T194	
+T199	Metric 1094 1096;1097 1099	二十 出头
+T200	Person-Pronoun 1105 1107	她们
+*	Coreference T200 T194 T201
+T201	Person-Pronoun 1111 1113	她们
+T202	Thing-Nominal 1113 1118	说话的声音
+T203	Time-Implicit 1132 1137	从那一天起
+T204	Metric 1150 1152	每个
+T205	Time-Implicit 1152 1157	周六的下午
+T206	Person-Pronoun 1158 1159	我
+T207	Location-Nominal 1163 1167	张庄学校
+T208	Person-Nominal 1168 1170	学生
+T209	Metric 1191 1192;1193 1194	一 群
+T210	Person-Nominal 1194 1201	聪颖活泼的孩子
+T211	Time-Implicit 1202 1204	那时
+T212	Person-Pronoun 1207 1208	我
+T213	Location-Nominal 1208 1214	走近这所校园
+T214	Person-Nominal 1215 1218	孩子们
+T215	Person-Nominal 1229 1234	辅导员叔叔
+T216	Time-Implicit 1238 1240	每次
+T217	Location-Nominal 1240 1244	走进教室
+T218	Person-Pronoun 1245 1247	他们
+T219	Metric 1257 1259	一声
+T220	Person-Nominal 1260 1263	辅导员
+*	Coreference T220 T215 T212 T206
+T221	Time-Implicit 1267 1269	当时
+T222	Organization-Nominal 1270 1272	我部
+T223	Organization-Nominal 1272 1274	三营
+T224	Location-Nominal 1274 1276	南疆
+T225	Time-Implicit 1276 1286	自卫作战刚刚凯旋归来
+T226	Metric 1287 1289	一群
+T227	Person-Nominal 1289 1291	孩子
+T228	Person-Nominal 1292 1295	解放军
+T229	Metric 1296 1298	一种
+T230	Organization-Nominal 1309 1311	部队
+T231	Thing-Nominal 1312 1316	英雄故事
+T232	Person-Nominal 1321 1324	孩子们
+T233	Person-Pronoun 1329 1330	我
+T234	Person-Nominal 1332 1336	这群孩子
+T235	Person-Nominal 1338 1340	雷锋
+T236	Person-Nominal 1347 1350	董存瑞
+T237	Thing-Nominal 1353 1355	碉堡
+T238	Person-Nominal 1342 1346	助人为乐
+T239	Person-Nominal 1361 1364	孩子们
+T240	Organization-Nominal 1367 1370	本部队
+T241	Location-Nominal 1370 1372	南疆
+T242	Person-Nominal 1375 1379	功臣人物
+T243	Person-Nominal 1383 1387	英雄营长
+T244	Person-Name 1387 1388;1389 1391	阎 红计
+*	Coreference T244 T243
+T245	Person-Nominal 1392 1396	报话功臣
+T246	Person-Name 1396 1399	朱京津
+*	Coreference T246 T245
+T247	Person-Nominal 1405 1407	雷锋
+T248	Person-Pronoun 1408 1409	我
+T249	Location-Nominal 1409 1411	心中
+T250	Thing-Nominal 1412 1416	主题演讲
+T251	Time-Implicit 1433 1435	当时
+T252	Location-Pronoun 1435 1437	这里
+T253	Metric 1442 1446	十分简陋
+T254	Metric 1447 1449	两位
+T255	Person-Nominal 1449 1451	老师
+T256	Location-Nominal 1451 1453	以校
+T257	Location-Nominal 1453 1455	为家
+T258	Thing-Nominal 1456 1462	用辛勤的汗水
+T259	Person-Nominal 1469 1476	这群祖国的花朵
+T260	Person-Nominal 1477 1480	孩子们
+*	Coreference T260 T259
+T261	Metric 1488 1491	一个个
+T262	Person-Pronoun 1512 1513	我
+T263	Person-Nominal 1535 1539	有的孩子
+T264	Person-Pronoun 1541 1544	自己的
+T265	Metric 1548 1550	一位
+T266	Person-Nominal 1550 1553	科学家
+T267	Person-Nominal 1555 1559	有的孩子
+T268	Thing-Nominal 1560 1565	自己的理想
+T269	Metric 1567 1569	一位
+T270	Person-Nominal 1569 1572	音乐家
+T271	Person-Nominal 1573 1578	更多孩子们
+T272	Metric 1583 1585	一名
+T273	Thing-Nominal 1579 1581	理想
+T274	Person-Nominal 1585 1590	解放军战士
+T275	Metric 1592 1594	一个
+T276	Person-Nominal 1595 1597	雷锋
+T277	Person-Nominal 1599 1605	助人为乐的人
+T278	Time-Implicit 1611 1613	春天
+T279	Person-Nominal 1614 1616	冬天
+T280	Person-Pronoun 1617 1618	我
+T281	Person-Nominal 1620 1624	群孩子们
+T282	Thing-Nominal 1627 1630	讲故事
+T283	Thing-Nominal 1631 1634	做游戏
+T284	Person-Nominal 1646 1648	孩子
+T285	Thing-Nominal 1648 1655	健康成长的活动
+T286	Person-Nominal 1659 1663	孩子们也
+T287	Person-Pronoun 1666 1667;1668 1669	自 己
+T288	Person-Nominal 1673 1676	孩子们
+T289	Person-Pronoun 1680 1682	自己
+*	Coreference T289 T287
+*	Coreference T288 T286 T284 T281
+T290	Time-Implicit 1683 1687	这年秋天
+T291	Person-Pronoun 1688 1689	我
+T292	Location-Name 1693 1696	遵化县
+T293	Organization-Nominal 1696 1707	优秀校外辅导员工作会议
+T294	Time-Implicit 1709 1713	当年年底
+T295	Person-Name 1714 1717	王兴隆
+T296	Person-Nominal 1717 1719	班长
+*	Coreference T296 T295
+T297	Person-Pronoun 1725 1726	我
+T298	Time-Implicit 1727 1736	替班长后的次年春天
+T299	Organization-Nominal 1737 1739	连队
+T300	Person-Nominal 1743 1752	德才兼备的袁亮同志
+T301	Person-Pronoun 1755 1757	我的
+T302	Thing-Nominal 1757 1763	校外辅导工作
+T303	Time-Implicit 1764 1766	从此
+T304	Person-Pronoun 1767 1768	我
+T305	Location-Nominal 1774 1778	这个村庄
+T306	Location-Name 1782 1784	张庄
+T307	Thing-Nominal 1789 1793	绿色军营
+T308	Person-Pronoun 1797 1799	我的
+T309	Location-Nominal 1799 1801	脑海
+T310	Metric 1804 1806	一份
+T311	Time-Implicit 1814 1820	许多年过去了
+T312	Person-Pronoun 1821 1822	我
+T313	Metric 1823 1825	几次
+T314	Time-Implicit 1822 1823	曾
+T315	Location-Nominal 1825 1829	梦游张庄
+T316	Person-Nominal 1833 1842	那群活蹦乱跳的孩子
+T317	Metric 1853 1859	一晃三十多个
+T318	Time-Implicit 1859 1860	春
+T319	Time-Implicit 1860 1861	秋
+T320	Thing-Nominal 1848 1852	光阴似箭
+T321	Thing-Nominal 1864 1870	，岁月的风尘
+T322	Person-Pronoun 1872 1873	我
+T323	Person-Nominal 1873 1880	模糊了那群孩子
+T324	Metric 1890 1893	一双双
+T325	Thing-Nominal 1893 1900	清澈如水的眼睛
+T326	Metric 1906 1908;1909 1910	一张 张
+T327	Thing-Nominal 1910 1917	天真烂漫的笑脸
+T328	Person-Pronoun 1921 1923	他们
+T329	Person-Nominal 1927 1930	男孩子
+T330	Person-Nominal 1938 1941	女孩子
+T331	Time-Implicit 1949 1953	日月如梭
+T332	Time-Implicit 1954 1956	当年
+T333	Metric 1956 1959	那一群
+T334	Person-Nominal 1959 1964	活泼的孩子
+T335	Time-Implicit 1965 1967	早已
+T336	Time-Implicit 1971 1978	创业的黄金岁月
+T337	Person-Pronoun 1979 1980	我
+T338	Person-Pronoun 1984 1986	他们
+T339	Person-Pronoun 1994 1996	他们
+T340	Location-Nominal 1996 2006	在物欲横流的金钱社会
+T341	Time-Implicit 2012 2014	当年
+T342	Thing-Nominal 2014 2023	助人为乐的童心夙愿
+T343	Time-Implicit 2025 2032	重访军营的那天
+T344	Location-Nominal 2027 2029	军营
+T345	Person-Pronoun 2034 2035	我
+T346	Time-Implicit 2035 2042	匆匆离别的时候
+T347	Metric 2045 2047	众多
+T348	Person-Nominal 2047 2053	战友集体组团
+T349	Person-Nominal 2054 2056	个人
+T350	Location-Nominal 2056 2062	活动空间狭小
+T351	Location-Nominal 2069 2077	近在咫尺的小张庄
+T352	Person-Pronoun 2083 2085	自己
+T353	Time-Implicit 2092 2095	当年的
+T354	Person-Nominal 2095 2099	那群孩子
+T355	Person-Pronoun 2106 2107	我
+T356	Location-Nominal 2107 2112	遥望着张庄
+T357	Location-Name 2126 2129	张庄的
+T358	Person-Nominal 2129 2133	那群孩子
+T359	Location-Name 2144 2146	张庄
+T360	Person-Nominal 2148 2150	百姓
+T361	Person-Name 2161 2164	李清莹
+T362	Location-Name 2165 2167	山西
+T363	Person-Nominal 2167 2171	长子县人
+*	Coreference T363 T361

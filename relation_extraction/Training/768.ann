@@ -1,0 +1,102 @@
+T1	Location-Nominal 0 2	窗外
+T2	Thing-Nominal 3 4	风
+T3	Thing-Nominal 6 7	雨
+T4	Person-Pronoun 13 14	我
+T5	Location-Nominal 19 21	窗前
+T6	Thing-Nominal 24 26	雨点
+T7	Thing-Nominal 29 31	玻璃
+T8	Thing-Nominal 32 34	雨水
+T9	Thing-Nominal 46 47	蚓
+T10	Thing-Nominal 51 56	伤心的玻璃
+T11	Thing-Nominal 57 60;61 65	泪流满 面的脸庞
+*	Coreference T11 T10 T15
+T12	Person-Pronoun 66 67	我
+T13	Thing-Nominal 70 71	手
+R1	Part-Whole Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 79 80	它
+T15	Thing-Nominal 76 80	冰冷的它
+T16	Metric 102 104	一位
+T17	Person-Nominal 104 106	诗人
+T18	Person-Nominal 120 121;122 123	亲 人
+T19	Thing-Nominal 157 159	枝叶
+T20	Person-Pronoun 162 163	我
+T21	Time-Implicit 165 172	去年的这个时候
+T22	Thing-Nominal 176 178	泪水
+T23	Thing-Nominal 184 189	细细的雨丝
+T24	Person-Nominal 193 195	亲人
+T25	Time-Implicit 202 206	这个时节
+T26	Person-Nominal 208 209	人
+T27	Time-Implicit 224 230	今年的清明节
+T28	Person-Pronoun 232 233	我
+T29	Person-Nominal 234 236	姐弟
+R2	Family Arg1:T29 Arg2:T28	
+T30	Person-Nominal 241 243	父亲
+T31	Location-Nominal 247 252	父亲的坟头
+T32	Location-Nominal 260 264	坟的周围
+T33	Person-Nominal 267 269	父亲
+T34	Thing-Nominal 274 276	蕨菜
+T35	Person-Pronoun 277 278	我
+T36	Thing-Nominal 279 281	镰刀
+T37	Thing-Nominal 286 290	灌木杂草
+T38	Thing-Nominal 299 301	冥纸
+T39	Thing-Nominal 314 319	炽热的火焰
+T40	Thing-Nominal 322 324	纸钱
+T41	Location-Nominal 302 304	坟头
+T42	Thing-Nominal 325 330	燃烬的纸灰
+T43	Thing-Nominal 331 333	乱风
+T44	Thing-Nominal 337 339	蝙蝠
+T45	Thing-Nominal 340 343	黑蝴蝶
+T46	Location-Nominal 344 345;346 347	坟 头
+T47	Location-Nominal 351 364	我与父亲已属两个世界的空间
+T48	Person-Pronoun 368 369	我
+T49	Thing-Nominal 375 383	已化作灰沫的东西
+T50	Thing-Nominal 388 390	精灵
+T51	Person-Pronoun 392 393	我
+T52	Person-Pronoun 411 412	我
+T53	Person-Pronoun 418 419	您
+T54	Thing-Nominal 422 425	火化炉
+T55	Metric 428 430	一捧
+T56	Thing-Nominal 430 432	骨灰
+T57	Person-Nominal 444 451	有血有肉的生灵
+T58	Thing-Nominal 460 462	灰沫
+T59	Metric 458 460	一撮
+T60	Metric 442 444	一个
+T61	Person-Pronoun 470 471	我
+T62	Person-Nominal 472 476	无神论者
+*	Coreference T62 T61
+T63	Person-Pronoun 478 479	我
+T64	Person-Nominal 482 484	亡父
+T65	Person-Pronoun 502 503	他
+*	Coreference T65 T64
+T66	Person-Nominal 507 511	两对儿女
+R3	Family Arg1:T66 Arg2:T65	
+T67	Person-Pronoun 524 525	我
+T68	Person-Nominal 533 535	父亲
+T69	Time-Implicit 537 541	每年清明
+T70	Time-Implicit 543 545	冬至
+T71	Person-Pronoun 546 547	我
+T72	Location-Name 548 552	桐城老家
+T73	Location-Nominal 548 555	桐城老家的祖坟
+T74	Person-Pronoun 566 567	我
+T75	Person-Nominal 570 573;574 578	已有岁 半的儿子
+T76	Person-Pronoun 580 581	他
+*	Coreference T76 T68
+T77	Person-Pronoun 606 607	我
+T78	Metric 608 610	一串
+T79	Thing-Nominal 610 615	清脆的鞭炮
+T80	Person-Nominal 616 618	父亲
+T81	Location-Nominal 626 628	山坡
+T82	Thing-Nominal 638 641	杜鹃花
+T83	Thing-Nominal 644 646	红霞
+T84	Metric 642 644	片片
+T85	Location-Nominal 648 650	坡上
+T86	Person-Pronoun 651 652	我
+T87	Person-Nominal 658 660	父亲
+T88	Thing-Nominal 665 666;667 670	红 绸被面
+T89	Metric 664 665	床
+T90	Person-Pronoun 684 685	我
+T91	Location-Nominal 692 694	墓地
+T92	Person-Pronoun 703 704	我
+T93	Thing-Nominal 709 716	插于坟头的纸标
+T94	Person-Pronoun 719 720	我
+T95	Thing-Nominal 729 730	风

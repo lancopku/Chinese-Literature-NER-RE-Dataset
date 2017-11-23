@@ -1,0 +1,184 @@
+T1	Location-Nominal 1 3	小城
+T2	Person-Name 20 23	邓丽君
+T3	Person-Pronoun 34 35	我
+T4	Location-Nominal 52 54	小巷
+T5	Location-Nominal 59 61	小巷
+T6	Location-Nominal 77 79	小巷
+T7	Metric 83 88	3、4百米
+T8	Metric 93 95	2米
+T9	Location-Name 98 106	江西万载县公安局
+T10	Location-Name 110 113	南门桥
+T11	Location-Nominal 121 125	一条小巷
+R1	Near Arg1:T11 Arg2:T10	
+R2	Near Arg1:T11 Arg2:T9	
+T12	Thing-Pronoun 126 127	她
+R3	Located Arg1:T12 Arg2:T11	
+T13	Location-Name 132 136	南门大街
+T14	Location-Name 141 143	横街
+T15	Location-Name 148 151	万载县
+T16	Location-Nominal 151 153	城里
+T17	Location-Nominal 162 169	一条亘古的街道
+R4	Part-Whole Arg1:T17 Arg2:T15	
+R5	Part-Whole Arg1:T17 Arg2:T16	
+T18	Location-Nominal 170 172	路面
+T19	Thing-Nominal 174 177	青石板
+R6	Part-Whole Arg1:T18 Arg2:T17	
+R7	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 197 200	青石板
+T21	Thing-Nominal 208 211	青石板
+T22	Thing-Nominal 214 217	独轮车
+T23	Metric 220 223	一条条
+T24	Thing-Nominal 223 225	履痕
+R8	Located Arg1:T24 Arg2:T21	
+T25	Metric 233 235	块块
+T26	Thing-Nominal 235 238	青石板
+T27	Location-Nominal 245 247	小巷
+T29	Thing-Nominal 260 266	低矮的木板房
+T28	Location-Nominal 253 257	小巷两旁
+R9	Located Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 267 269	木板
+R10	Part-Whole Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 285 287	木板
+T32	Person-Nominal 292 294	居民
+T33	Location-Name 297 299	龙河
+T34	Thing-Nominal 304 305	墙
+T35	Thing-Nominal 306 307	瓦
+T36	Metric 314 316	几处
+T37	Thing-Nominal 316 321	斑驳的白墙
+T38	Thing-Nominal 336 343	店铺老字号招牌
+R11	Located Arg1:T38 Arg2:T37	
+T39	Location-Nominal 346 348	住房
+T40	Thing-Nominal 353 358	卖货的柜台
+R12	Located Arg1:T40 Arg2:T39	
+T41	Location-Nominal 359 363;364 365	房子的厅 堂
+R13	Part-Whole Arg1:T41 Arg2:T39	
+T42	Thing-Nominal 373 375	货品
+T43	Metric 376 380	一层一层
+T44	Thing-Nominal 381 383	货架
+R14	Located Arg1:T42 Arg2:T44	
+R15	Located Arg1:T44 Arg2:T41	
+T45	Metric 400 403	一个个
+T46	Person-Nominal 404 405	人
+T47	Person-Nominal 413 414	人
+T48	Location-Pronoun 416 420	这条小巷
+*	Coreference T48 T27 T11 T6 T13 T14 T17 T62
+T49	Time-Implicit 420 423	过去的
+T50	Location-Nominal 435 438	剃头店
+T51	Location-Nominal 443 446	南货店
+T52	Location-Nominal 447 450	工商联
+T53	Location-Nominal 451 453	旅馆
+T54	Location-Nominal 454 457	烟酒店
+T55	Location-Nominal 458 460	饭店
+T56	Location-Nominal 461 464	卫生院
+T57	Location-Nominal 465 468	爆竹店
+T58	Location-Nominal 469 472	雨伞店
+T59	Location-Nominal 439 442	铁木篾
+R16	Near Arg1:T50 Arg2:T48	
+R17	Near Arg1:T59 Arg2:T48	
+R18	Near Arg1:T51 Arg2:T48	
+R19	Near Arg1:T52 Arg2:T48	
+R20	Near Arg1:T53 Arg2:T48	
+R21	Near Arg1:T54 Arg2:T48	
+R22	Near Arg1:T55 Arg2:T48	
+R23	Near Arg1:T56 Arg2:T48	
+R24	Near Arg1:T57 Arg2:T48	
+R25	Near Arg1:T58 Arg2:T48	
+T60	Thing-Nominal 474 475	星
+T61	Thing-Nominal 476 477	棋
+T62	Location-Nominal 481 483	全街
+T63	Thing-Nominal 489 491	麻雀
+T64	Thing-Nominal 494 496	五脏
+R26	Part-Whole Arg1:T64 Arg2:T63	
+T65	Location-Nominal 500 502	小巷
+T66	Person-Nominal 504 506	人们
+T67	Metric 517 519	三两
+T68	Thing-Nominal 519 521	高粱
+T69	Metric 523 525	两个
+T70	Thing-Nominal 525 527	皮蛋
+T71	Metric 529 531	半斤
+T72	Thing-Nominal 531 533	酱油
+T73	Location-Nominal 535 538	铁匠铺
+T74	Location-Nominal 552 555	剃头店
+T75	Location-Nominal 568 570	饭店
+T76	Thing-Nominal 577 580	东坡肉
+R27	Located Arg1:T76 Arg2:T75	
+T77	Metric 587 589	一支
+T78	Thing-Nominal 612 614	兰天
+T79	Thing-Nominal 614 616	白云
+T80	Person-Nominal 621 623	人们
+T81	Location-Nominal 630 632	小巷
+T82	Location-Nominal 647 651	基督教堂
+R28	Near Arg1:T82 Arg2:T81	
+T83	Person-Nominal 655 658	信徒们
+R29	Ownership Arg1:T83 Arg2:T82	
+T84	Time-Explicit 671 678	每年的大年三十
+T85	Location-Nominal 681 683	小巷
+T86	Thing-Nominal 703 704	耳
+T87	Thing-Nominal 707 709	炮仗
+T88	Thing-Nominal 712 714	爆竹
+*	Coreference T88 T87
+T90	Location-Nominal 720 724	花炮之乡
+*	Coreference T90 T85
+T91	Time-Explicit 730 734	道光年间
+T92	Thing-Nominal 734 738	万载花炮
+T89	Location-Name 715 717	万载
+*	Coreference T89 T15
+T93	Time-Explicit 754 758	光绪年间
+T94	Thing-Nominal 759 761	爆竹
+T95	Person-Nominal 763 767	男妇大小
+T96	Location-Nominal 776 778	小巷
+T97	Location-Name 781 784	康乐镇
+R30	Part-Whole Arg1:T96 Arg2:T97	
+T98	Location-Nominal 786 788	爆庄
+T99	Metric 788 790;791 794	26 0余家
+T100	Thing-Nominal 804 806	爆竹
+T101	Location-Name 809 811	赣州
+T102	Location-Name 812 814	广东
+T103	Location-Name 815 817	浙江
+T104	Location-Name 818 820	汉口
+T105	Location-Name 830 832	朝鲜
+T106	Location-Name 833 835	日本
+T107	Location-Name 836 838	印度
+T108	Location-Name 839 841	伊朗
+T109	Location-Nominal 849 851	小巷
+T110	Metric 853 855	家家
+T111	Person-Nominal 855 859	男女老少
+T112	Location-Nominal 864 867	爆竹厂
+T113	Thing-Nominal 869 872	半成品
+R31	Located Arg1:T113 Arg2:T112	
+T114	Time-Implicit 876 878	昔日
+T115	Location-Nominal 879 881	小巷
+T116	Location-Nominal 895 897	小巷
+T117	Location-Pronoun 913 924	这条不很引人注目的小巷
+*	Coreference T117 T116 T124 T125
+T118	Metric 927 930	一座座
+T119	Location-Nominal 930 932	店铺
+T120	Location-Nominal 933 935	住房
+T121	Metric 938 941	一个个
+T122	Person-Nominal 956 958	人们
+T123	Person-Nominal 975 977	人们
+T124	Location-Pronoun 978 982	这条小巷
+T125	Location-Nominal 996 1003	昔日热闹的小巷
+T126	Location-Nominal 1012 1014	店铺
+T127	Person-Nominal 1042 1045	老太太
+T128	Person-Nominal 1046 1049	老大爷
+T129	Location-Nominal 1051 1053;1054 1057	门口 的竹椅
+R32	Near Arg1:T129 Arg2:T126	
+T130	Thing-Nominal 1068 1070	麻将
+T131	Location-Nominal 1079 1081	小巷
+T132	Thing-Nominal 1091 1093	太阳
+T133	Thing-Nominal 1095 1097	爆竹
+T134	Person-Nominal 1098 1100	老人
+T135	Person-Nominal 1085 1100	坐在门前边晒太阳边结爆竹的老人
+T136	Metric 1108 1111	每一位
+T137	Location-Nominal 1112 1114	小巷
+T138	Person-Nominal 1116 1118	游客
+T139	Location-Nominal 1120 1122	小巷
+T140	Location-Nominal 1125 1127	闹市
+T141	Person-Nominal 1164 1166	人们
+T142	Location-Nominal 1192 1194	小城
+T143	Person-Nominal 1201 1205	你的朋友
+T144	Person-Pronoun 1201 1202	你
+R33	Social Arg1:T143 Arg2:T144	
+T145	Location-Nominal 1209 1211	小城
+T146	Person-Name 1222 1225	邓丽君

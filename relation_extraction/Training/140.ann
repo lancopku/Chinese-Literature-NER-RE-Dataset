@@ -1,0 +1,163 @@
+T1	Thing-Nominal 0 5	交会的列车
+T2	Thing-Nominal 9 14	我们的列车
+T3	Person-Pronoun 9 11	我们
+R1	Use Arg1:T3 Arg2:T2	
+T4	Time-Implicit 21 23	那时
+T5	Location-Nominal 24 28	货车尾部
+T6	Thing-Nominal 30 34	一辆守车
+R2	Located Arg1:T6 Arg2:T5	
+T7	Person-Pronoun 35 37	我们
+T8	Location-Nominal 40 43	守车里
+T9	Person-Nominal 45 47	同事
+T10	Person-Nominal 49 51	车长
+R3	Social Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 51 54	一支烟
+T12	Person-Pronoun 58 59	我
+T13	Thing-Nominal 64 65	烟
+T14	Person-Nominal 66 68	车长
+T15	Metric 74 76	三十
+T16	Person-Pronoun 78 80	你们
+T17	Person-Pronoun 86 87	我
+T18	Thing-Nominal 90 91	车
+T19	Person-Nominal 94 96	车长
+T20	Thing-Nominal 101 102	头
+R4	Part-Whole Arg1:T20 Arg2:T19	
+T21	Person-Pronoun 106 108	我们
+T22	Person-Pronoun 119 120	我
+T23	Location-Nominal 124 125	家
+T24	Person-Nominal 130 132	家人
+T25	Time-Implicit 134 137	除夕夜
+T26	Person-Nominal 140 143	许多人
+T27	Person-Nominal 154 156	同事
+T28	Thing-Nominal 168 171	这趟车
+T29	Thing-Nominal 174 175	车
+T30	Thing-Pronoun 178 180	我们
+T31	Person-Nominal 185 187	同事
+T32	Person-Pronoun 195 197	我们
+T33	Location-Nominal 203 205	窗外
+T34	Person-Nominal 206 208	车长
+T35	Thing-Nominal 216 219	信号旗
+T36	Thing-Nominal 221 222	门
+T37	Thing-Nominal 229 230	车
+T38	Location-Nominal 242 245	不远处
+T39	Location-Nominal 248 258	一个农村集镇的小站上
+R5	Located Arg1:T37 Arg2:T39	
+R6	Family Arg1:T22 Arg2:T24	
+T40	Person-Nominal 265 267	车长
+T41	Location-Nominal 272 274	后面
+T42	Thing-Nominal 276 278	客车
+R7	Located Arg1:T42 Arg2:T41	
+T43	Person-Nominal 285 287	同事
+T44	Thing-Nominal 303 304	车
+T45	Thing-Nominal 306 307	灯
+T46	Thing-Nominal 310 315	中间的煤炉
+T47	Location-Nominal 310 312	中间
+R8	Located Arg1:T46 Arg2:T47	
+T48	Location-Nominal 316 319	缝隙里
+T49	Thing-Nominal 332 334	客车
+T50	Thing-Nominal 361 365	我们的车
+T51	Person-Pronoun 361 363	我们
+R9	Ownership Arg1:T51 Arg2:T50	
+T52	Person-Nominal 376 378	车长
+T53	Thing-Nominal 381 383	车门
+T54	Thing-Nominal 389 390	车
+T55	Thing-Nominal 400 405	车站值班室
+T56	Location-Nominal 395 399	列车中部
+R10	Located Arg1:T55 Arg2:T56	
+T57	Person-Pronoun 425 426	我
+T58	Location-Nominal 438 439	家
+T59	Person-Pronoun 447 448	我
+T60	Person-Pronoun 449 450	你
+T61	Person-Nominal 454 457	大伙儿
+T62	Person-Pronoun 460 461	我
+T63	Thing-Nominal 463 464	肉
+T64	Thing-Nominal 465 466	菜
+T65	Person-Nominal 487 494	很壮实的中年人
+T66	Thing-Nominal 503 506;507 510	鼓囊囊 的麻袋
+T67	Location-Nominal 512 515	地板上
+R11	Located Arg1:T66 Arg2:T67	
+T68	Person-Pronoun 516 518	我们
+T69	Thing-Nominal 529 535	小站养路工区
+T70	Location-Nominal 527 529	前面
+R12	Located Arg1:T69 Arg2:T70	
+T71	Location-Nominal 541 545	这边农村
+T72	Thing-Nominal 548 550	年货
+T73	Thing-Nominal 563 564	车
+T74	Person-Pronoun 568 570	你们
+T75	Thing-Nominal 574 575	车
+T76	Person-Pronoun 580 581	我
+T77	Person-Pronoun 588 590	你们
+T78	Thing-Nominal 594 595	车
+T79	Thing-Nominal 616 619	自行车
+T80	Person-Name 624 626	老张
+T81	Person-Nominal 638 641	大伙儿
+T82	Thing-Nominal 645 653	有滋有味的年夜饭
+T83	Person-Pronoun 659 661	我们
+T84	Thing-Nominal 668 673	又一阵列车
+T85	Thing-Nominal 688 690	机车
+T86	Thing-Nominal 693 695	汽笛
+T87	Location-Nominal 698 701	守车内
+T88	Person-Pronoun 709 711	我们
+T89	Thing-Nominal 727 733	热乎乎的家门
+T90	Person-Pronoun 742 744	我们
+T91	Thing-Nominal 748 750	列车
+T92	Time-Implicit 765 778	又是一阵刹车的晃动停下来时
+T93	Person-Name 779 781	老张
+T94	Location-Nominal 783 786	车窗上
+T95	Thing-Nominal 810 811	车
+T96	Person-Pronoun 818 819	他
+T97	Thing-Nominal 823 825	小站
+T98	Person-Pronoun 828 830	我们
+T99	Person-Name 834 836	老张
+*	Coreference T96 T93
+T100	Thing-Nominal 843 845	麻袋
+T101	Location-Nominal 856 857	家
+T102	Person-Pronoun 861 863	我们
+T103	Location-Nominal 869 872	天际边
+T104	Thing-Nominal 872 873	家
+R13	Located Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 877 887	那个戈壁小城市的灯火
+T106	Location-Nominal 879 884	戈壁小城市
+T107	Person-Nominal 889 895	我的那个同事
+T108	Person-Pronoun 889 890	我
+R14	Social Arg1:T108 Arg2:T107	
+T109	Location-Nominal 900 901	家
+T110	Thing-Nominal 917 922	煤炉的火光
+T111	Person-Pronoun 924 925	他
+*	Coreference T111 T107
+T112	Thing-Nominal 932 935	一趟车
+T113	Thing-Nominal 939 943	我们的车
+T114	Person-Pronoun 939 941	我们
+T115	Thing-Nominal 949 952	一趟车
+T116	Thing-Nominal 956 960	我们的车
+T117	Person-Pronoun 956 958	我们
+T118	Location-Nominal 977 979	家里
+T119	Thing-Nominal 983 985	小站
+T120	Location-Nominal 997 999	家里
+T121	Thing-Nominal 999 1004	温暖的小站
+T122	Person-Pronoun 1005 1007	我们
+T123	Time-Implicit 1016 1023	列车缓缓启动时
+T124	Thing-Nominal 1016 1018	列车
+T125	Location-Nominal 1033 1034	家
+T126	Time-Implicit 1043 1045	那天
+T127	Location-Nominal 1046 1047	家
+T128	Time-Implicit 1048 1056	第二天凌晨近四点
+T129	Metric 1058 1061	许多年
+T130	Time-Implicit 1064 1069	每逢除夕夜
+T131	Person-Pronoun 1070 1071	我
+T132	Time-Implicit 1075 1083	这一年的年三十，
+T133	Thing-Nominal 1085 1096	行驶在除夕夜的这趟火车
+T134	Time-Implicit 1088 1091	除夕夜
+T135	Location-Nominal 1111 1112	家
+T136	Location-Nominal 1100 1102	小站
+T137	Time-Explicit 1119 1124	1976年
+T138	Person-Name 1132 1135	孙海龙
+T139	Person-Nominal 1136 1137	男
+T140	Time-Explicit 1146 1151	1982年
+T141	Metric 1203 1206	数十次
+T142	Person-Nominal 1215 1224	甘肃省作家协会会员
+T143	Person-Nominal 1225 1235	中国铁路作家协会会员
+T144	Metric 1160 1162	百万
+T145	Thing-Nominal 1166 1171	省内外报刊
+T146	Thing-Nominal 979 982	爆竹声
+R15	Located Arg1:T146 Arg2:T118	

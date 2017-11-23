@@ -1,0 +1,305 @@
+T1	Location-Name 0 11	Wellington街
+T2	Location-Nominal 21 24	商业街
+R1	General-Special Arg1:T1 Arg2:T2	
+T3	Location-Pronoun 25 26	它
+*	Coreference T3 T1 T7 T10 T11
+T4	Location-Name 28 37	Lasalle西面
+T5	Location-Name 38 46	Woodland
+R2	Near Arg1:T5 Arg2:T4	
+T6	Location-Name 54 60	McGill
+T7	Location-Nominal 62 65	这条街
+T8	Thing-Nominal 65 67	店铺
+R3	Located Arg1:T8 Arg2:T7	
+T9	Person-Nominal 70 72	行人
+T10	Location-Pronoun 79 80	它
+T11	Location-Nominal 83 85	老街
+T12	Person-Nominal 90 91	人
+T13	Location-Name 110 120	Wellington
+T14	Location-Name 122 136	DeL&#39;église
+T15	Location-Nominal 136 139	街角处
+T16	Location-Name 140 167	NotreDamedesSeptDouleurs大教堂
+T17	Person-Nominal 170 171	人
+R4	Part-Whole Arg1:T16 Arg2:T15	
+R5	Part-Whole Arg1:T15 Arg2:T14	
+R6	Part-Whole Arg1:T15 Arg2:T13	
+T18	Person-Pronoun 179 180	我
+T19	Location-Nominal 184 186	大街
+T20	Location-Pronoun 187 188	它
+*	Coreference T19 T20
+T21	Metric 191 194	数百年
+T22	Location-Nominal 206 209	这条街
+T23	Location-Nominal 210 212	周围
+R7	Near Arg1:T23 Arg2:T22	
+T24	Person-Nominal 218 220	居民
+T25	Person-Nominal 222 224	法裔
+R8	General-Special Arg1:T25 Arg2:T24	
+T26	Person-Nominal 229 238	世界上各个种族的人
+T27	Person-Pronoun 245 246	我
+T28	Location-Pronoun 251 253	这里
+T29	Person-Nominal 254 257	中国人
+*	Coreference T28 T22
+R9	General-Special Arg1:T29 Arg2:T24	
+R10	General-Special Arg1:T26 Arg2:T24	
+T30	Thing-Nominal 263 265	商店
+T31	Person-Nominal 266 268	老板
+R11	Ownership Arg1:T31 Arg2:T30	
+T32	Person-Nominal 270 273	中国人
+R12	General-Special Arg1:T32 Arg2:T31	
+T33	Person-Pronoun 274 275	我
+T34	Person-Nominal 277 282	我们的同胞
+T35	Person-Pronoun 311 313	他们
+*	Coreference T35 T34
+R13	Social Arg1:T33 Arg2:T34	
+T36	Person-Nominal 322 325	中国人
+T37	Location-Pronoun 327 329	这里
+T38	Location-Nominal 337 341	小唐人街
+*	Coreference T37 T38
+T39	Person-Pronoun 342 343	我
+T40	Location-Name 345 357	Wellington大街
+T41	Organization-Nominal 359 361;362 364	独立 王国
+T42	Location-Pronoun 365 366	它
+T43	Organization-Nominal 369 375	政府服务机构
+T44	Organization-Nominal 376 383	各大银行分理处
+T45	Thing-Nominal 384 389	连锁大超市
+T46	Thing-Nominal 395 398	咖啡店
+T47	Thing-Nominal 399 401	餐馆
+T48	Thing-Nominal 402 407	疏菜水果店
+T49	Thing-Nominal 408 411	服装店
+R14	Part-Whole Arg1:T43 Arg2:T42	
+R15	Part-Whole Arg1:T42 Arg2:T44	
+R16	Located Arg1:T45 Arg2:T42	
+R17	Located Arg1:T46 Arg2:T42	
+R18	Located Arg1:T47 Arg2:T42	
+R19	Located Arg1:T48 Arg2:T42	
+R20	Located Arg1:T49 Arg2:T42	
+T50	Location-Nominal 426 428	大街
+*	Coreference T50 T42 T51
+T51	Location-Pronoun 447 449	这里
+T52	Person-Nominal 463 467	行乞的人
+T53	Person-Pronoun 497 498	我
+T54	Person-Pronoun 507 508	我
+T55	Person-Pronoun 513 515	他们
+T56	Person-Nominal 520 526	年富力强的人
+R21	General-Special Arg1:T56 Arg2:T55	
+*	Coreference T55 T52
+T57	Person-Nominal 539 541	乞者
+T58	Person-Nominal 543 549	一位中年女人
+R22	General-Special Arg1:T58 Arg2:T57	
+T59	Person-Pronoun 560 561	她
+T60	Location-Nominal 562 564	街上
+*	Coreference T59 T58
+T61	Person-Nominal 568 569	人
+T62	Thing-Nominal 570 571	手
+R23	Part-Whole Arg1:T62 Arg2:T59	
+T63	Thing-Nominal 573 574	钱
+T64	Location-Nominal 578 582	交通路口
+T65	Thing-Nominal 588 590	红灯
+R24	Located Arg1:T65 Arg2:T64	
+T66	Person-Nominal 600 601	人
+T67	Time-Implicit 606 610	刚出国时
+T68	Person-Nominal 613 615	乞者
+T69	Person-Pronoun 616 617	我
+T70	Person-Nominal 623 626	我女儿
+R25	Family Arg1:T70 Arg2:T69	
+T71	Person-Nominal 638 642	一位老人
+R26	General-Special Arg1:T68 Arg2:T71	
+R27	Social Arg1:T69 Arg2:T68	
+R28	Social Arg1:T70 Arg2:T68	
+R29	Social Arg1:T70 Arg2:T71	
+T72	Person-Pronoun 646 647	我
+T73	Metric 642 644	五块
+T74	Thing-Nominal 642 645	五块钱
+T75	Thing-Nominal 659 661	地铁
+T76	Time-Implicit 664 666	当时
+T77	Location-Nominal 666 668	车厢
+T78	Person-Nominal 673 675	乘客
+T79	Thing-Nominal 678 679	书
+T80	Thing-Nominal 681 682	报
+T81	Person-Nominal 683 685	有的
+R32	General-Special Arg1:T81 Arg2:T78	
+T82	Person-Nominal 675 677	有的
+R30	General-Special Arg1:T82 Arg2:T78	
+R31	Ownership Arg1:T82 Arg2:T79	
+R33	Ownership Arg1:T82 Arg2:T80	
+T83	Person-Pronoun 704 705	我
+T84	Person-Nominal 707 711	一位先生
+R34	Social Arg1:T83 Arg2:T84	
+T85	Person-Pronoun 716 717	他
+*	Coreference T85 T84
+T86	Thing-Nominal 726 728	礼帽
+R35	Ownership Arg1:T85 Arg2:T86	
+T87	Thing-Nominal 735 736	手
+R36	Part-Whole Arg1:T87 Arg2:T85	
+R37	Located Arg1:T86 Arg2:T87	
+T88	Person-Nominal 751 753	乘客
+T89	Person-Pronoun 777 778	我
+T90	Person-Pronoun 782 783	我
+T91	Person-Pronoun 786 787	他
+T92	Thing-Nominal 787 788	钱
+T93	Person-Pronoun 793 794	我
+T94	Time-Implicit 796 798	当时
+T95	Time-Implicit 803 805	现在
+T96	Person-Pronoun 805 806	我
+T97	Person-Nominal 812 816	那位先生
+T98	Person-Nominal 823 825	穷人
+T99	Person-Pronoun 839 840	我
+T100	Person-Pronoun 847 848	我
+T101	Time-Implicit 850 852	当时
+T102	Person-Pronoun 859 860	他
+T103	Thing-Nominal 860 861	钱
+T104	Thing-Nominal 864 866	礼帽
+T105	Person-Nominal 878 882	那位先生
+T106	Thing-Nominal 883 884	头
+R38	Part-Whole Arg1:T106 Arg2:T105	
+R39	Located Arg1:T104 Arg2:T106	
+T107	Person-Nominal 888 891	行乞者
+R40	General-Special Arg1:T105 Arg2:T107	
+R41	Social Arg1:T85 Arg2:T88	
+T108	Time-Implicit 892 894	后来
+T109	Person-Pronoun 894 895	我
+T110	Thing-Nominal 903 904	鱼
+T111	Thing-Nominal 907 908	鱼
+T112	Person-Nominal 921 924	每个人
+T113	Person-Nominal 926 928	自己
+*	Coreference T112 T113
+T114	Time-Implicit 939 942	那以后
+T115	Location-Nominal 944 946	路上
+T116	Person-Nominal 949 953	行乞的人
+T117	Person-Pronoun 954 955	我
+R42	Social Arg1:T117 Arg2:T116	
+T118	Person-Pronoun 975 976	我
+T119	Location-Nominal 972 974	路上
+T120	Location-Nominal 979 982	大教堂
+T121	Location-Name 984 988	田园超市
+T122	Location-Name 991 995	田园超市
+T123	Location-Nominal 997 1000	大教堂
+T124	Location-Nominal 1001 1004	大教堂
+T125	Person-Pronoun 1005 1006	我
+T126	Time-Implicit 1014 1016	清晨
+T127	Time-Implicit 1017 1019	白天
+T128	Time-Implicit 1020 1022	傍晚
+T129	Time-Implicit 1023 1025	午夜
+T130	Location-Name 1037 1049	Wellington大街
+T131	Person-Pronoun 1050 1051	我
+R43	Part-Whole Arg1:T120 Arg2:T130	
+R44	Part-Whole Arg1:T121 Arg2:T130	
+T132	Person-Pronoun 1059 1060	我
+T133	Time-Implicit 1062 1064	夜晚
+T134	Time-Implicit 1070 1072	午夜
+T135	Location-Nominal 1073 1075	街上
+T136	Person-Nominal 1080 1082	行人
+T137	Thing-Nominal 1083 1085	车辆
+T138	Time-Implicit 1092 1094	这时
+T139	Person-Pronoun 1094 1095	我
+T140	Person-Nominal 1102 1104	自己
+*	Coreference T139 T140
+T141	Person-Pronoun 1115 1116	我
+T142	Time-Implicit 1121 1123	午夜
+T143	Thing-Nominal 1125 1128	大教堂
+T144	Thing-Nominal 1129 1133	两个尖顶
+R45	Part-Whole Arg1:T144 Arg2:T143	
+T145	Person-Pronoun 1147 1148	我
+T146	Person-Pronoun 1154 1155	我
+T147	Thing-Nominal 1177 1179	大雪
+T148	Time-Implicit 1176 1182	下大雪的时候
+T149	Thing-Nominal 1185 1187	雪花
+T150	Thing-Nominal 1203 1206	大教堂
+T151	Person-Nominal 1229 1231	自己
+*	Coreference T146 T151
+T152	Location-Name 1244 1255	Wellington街
+T153	Time-Implicit 1258 1260	夜晚
+T154	Time-Explicit 1264 1267	圣诞节
+T155	Time-Implicit 1269 1271	那时
+*	Coreference T155 T154
+T156	Thing-Nominal 1271 1273	彩灯
+R46	Located Arg1:T156 Arg2:T152	
+T157	Thing-Nominal 1276 1278	白雪
+T158	Location-Nominal 1283 1285	大街
+*	Coreference T158 T152
+R47	Located Arg1:T157 Arg2:T158	
+T159	Thing-Nominal 1292 1294	晚装
+T160	Person-Pronoun 1295 1296	我
+T161	Location-Nominal 1299 1301	大街
+T162	Time-Implicit 1323 1326	有一年
+T163	Person-Nominal 1332 1335	孩子们
+T164	Location-Nominal 1336 1338	商店
+T165	Person-Pronoun 1347 1348	我
+T166	Person-Pronoun 1349 1351	他们
+*	Coreference T166 T163
+R48	Family Arg1:T165 Arg2:T163	
+T167	Location-Nominal 1353 1354	家
+T168	Person-Nominal 1359 1361	自己
+T169	Person-Nominal 1361 1364	一个人
+*	Coreference T168 T165 T169
+T170	Location-Nominal 1368 1370	路上
+T171	Thing-Nominal 1371 1372	雪
+R49	Located Arg1:T171 Arg2:T170	
+T172	Location-Nominal 1376 1378	教堂
+T173	Time-Implicit 1373 1381	快走到教堂的时候
+T174	Person-Pronoun 1382 1383	我
+T175	Person-Nominal 1398 1403	一个小伙子
+T176	Location-Nominal 1404 1408	教堂门口
+T177	Person-Pronoun 1411 1412	我
+T178	Person-Nominal 1427 1430	小伙子
+T179	Person-Nominal 1448 1450	亲人
+T180	Location-Nominal 1461 1462	家
+T181	Person-Nominal 1467 1469	亲人
+R50	Family Arg1:T178 Arg2:T179	
+R51	Social Arg1:T177 Arg2:T178	
+T182	Person-Pronoun 1471 1472	我
+T183	Person-Pronoun 1477 1478	我
+T184	Person-Nominal 1479 1482	一位母
+*	Coreference T183 T184
+T185	Person-Pronoun 1495 1496	我
+T186	Thing-Nominal 1497 1498	包
+R52	Ownership Arg1:T185 Arg2:T186	
+T187	Thing-Nominal 1500 1502	零钱
+R53	Located Arg1:T187 Arg2:T186	
+T188	Person-Pronoun 1506 1507	他
+*	Coreference T188 T178 T191
+T189	Metric 1513 1516	二十块
+T190	Thing-Nominal 1518 1520	纸币
+R54	Located Arg1:T190 Arg2:T186	
+T191	Person-Pronoun 1523 1524	他
+T192	Location-Nominal 1525 1527	饭店
+T193	Thing-Nominal 1530 1533	年夜饭
+T194	Person-Pronoun 1541 1543	”我
+T195	Thing-Nominal 1545 1546	泪
+T196	Person-Nominal 1548 1551	小伙子
+T197	Thing-Nominal 1553 1554	手
+R55	Part-Whole Arg1:T197 Arg2:T196	
+T198	Thing-Nominal 1556 1559	小提琴
+R56	Located Arg1:T198 Arg2:T197	
+R57	Ownership Arg1:T196 Arg2:T198	
+T199	Person-Pronoun 1562 1563	我
+T200	Person-Pronoun 1572 1573	我
+T201	Person-Pronoun 1575 1576	他
+*	Coreference T201 T196
+T202	Person-Nominal 1579 1581	自己
+*	Coreference T200 T202
+T203	Person-Nominal 1582 1584	孩子
+T204	Time-Implicit 1585 1587	这时
+T205	Person-Pronoun 1588 1589	我
+T206	Thing-Nominal 1590 1592	眼泪
+T207	Person-Pronoun 1599 1600	他
+T208	Person-Pronoun 1610 1611	您
+T209	Person-Nominal 1612 1614	夫人
+*	Coreference T209 T205 T208 T210
+T210	Person-Pronoun 1621 1622	我
+T211	Person-Pronoun 1623 1624	他
+T212	Time-Implicit 1635 1637	这时
+T213	Person-Pronoun 1652 1653	我
+T214	Time-Implicit 1654 1657	圣诞节
+T215	Time-Implicit 1672 1674	夜晚
+T216	Person-Pronoun 1682 1683	我
+T217	Location-Name 1690 1701	Wellington街
+T218	Location-Nominal 1705 1708	大教堂
+T219	Thing-Nominal 1712 1714	寒风
+T220	Person-Nominal 1718 1722	小提琴手
+*	Coreference T220 T211
+T221	Thing-Nominal 1732 1735	风情画
+T222	Person-Pronoun 1741 1742	我
+T223	Time-Implicit 1751 1754	圣诞节
+T224	Person-Pronoun 1755 1756	我
+T225	Location-Nominal 1757 1760	大教堂
+T226	Person-Nominal 1782 1783	人

@@ -1,0 +1,331 @@
+T1	Person-Pronoun 9 10	你
+T2	Person-Pronoun 35 36	我
+T3	Time-Explicit 37 42	1996年
+T4	Time-Implicit 49 51	清晨
+T5	Person-Nominal 52 61	一佩戴红领巾的少年
+T6	Thing-Nominal 55 58	红领巾
+R1	Ownership Arg1:T5 Arg2:T6	
+T7	Person-Nominal 64 66	人们
+T8	Thing-Name 71 75	中兴大桥
+T9	Thing-Nominal 79 81	桥栏
+R2	Part-Whole Arg1:T9 Arg2:T8	
+T10	Person-Nominal 89 91	少年
+T12	Thing-Nominal 104 106	绿树
+T11	Location-Name 99 104	反帝河两岸
+R3	Located Arg1:T12 Arg2:T11	
+T13	Location-Nominal 110 112	河面
+T14	Location-Nominal 117 120	河尽头
+T15	Thing-Nominal 127 129	红日
+T16	Location-Nominal 120 124	地平线上
+R4	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 135 137	天空
+T18	Thing-Nominal 138 140	河面
+T19	Thing-Nominal 153 155	旭日
+T20	Thing-Nominal 158 160	残阳
+T21	Person-Pronoun 178 179	我
+T22	Thing-Nominal 189 190	画
+T23	Time-Implicit 191 193	中午
+T24	Location-Nominal 198 200	路边
+T25	Thing-Nominal 202 207	大型收割机
+T26	Location-Nominal 213 216	窄田里
+R5	Located Arg1:T25 Arg2:T26	
+T27	Thing-Nominal 217 218	麦
+R6	Located Arg1:T27 Arg2:T26	
+T28	Location-Nominal 220 222	小田
+T29	Thing-Nominal 223 225	大机
+*	Coreference T25 T29
+R7	Near Arg1:T26 Arg2:T24	
+T30	Location-Nominal 240 241	家
+T31	Person-Nominal 243 244	妻
+T32	Thing-Nominal 253 254	我
+T33	Time-Implicit 257 259	傍晚
+T34	Person-Nominal 261 263	老农
+T35	Thing-Nominal 265 267	铁锹
+T36	Thing-Nominal 270 273	高桥上
+R8	Use Arg1:T34 Arg2:T35	
+T37	Thing-Nominal 283 285	夕阳
+T38	Person-Pronoun 297 298	他
+*	Coreference T38 T34
+T39	Person-Pronoun 331 332	我
+T40	Time-Implicit 335 337	夜晚
+T41	Person-Pronoun 338 339	我
+T42	Person-Nominal 340 342	同事
+R9	Social Arg1:T41 Arg2:T42	
+T43	Location-Nominal 345 346	镇
+T44	Thing-Nominal 352 353;354 357	柏 油公路
+T45	Thing-Nominal 359 360	月
+T46	Time-Implicit 371 373	如今
+T48	Location-Nominal 374 375	村
+T47	Thing-Nominal 376 378	公路
+T49	Person-Nominal 378 380	人们
+T50	Location-Nominal 381 382	城
+T51	Thing-Nominal 395 396	月
+T52	Thing-Nominal 398 399	日
+T53	Thing-Nominal 404 405	道
+T54	Time-Implicit 412 414	明晨
+T55	Thing-Nominal 415 417	旭日
+T56	Thing-Nominal 419 420	车
+T57	Thing-Nominal 421 422	马
+T58	Person-Pronoun 428 429	我
+T59	Time-Implicit 438 440	春天
+T60	Thing-Nominal 444 447	虞美人
+T61	Thing-Pronoun 452 453	它
+*	Coreference T61 T60
+T62	Thing-Nominal 458 461	变色龙
+T63	Thing-Nominal 470 471	蕾
+T64	Thing-Nominal 475 476	花
+T65	Thing-Nominal 480 481	实
+T66	Thing-Nominal 492 494	罂粟
+T67	Thing-Nominal 485 486	汁
+R10	Part-Whole Arg1:T63 Arg2:T60	
+R11	Part-Whole Arg1:T64 Arg2:T60	
+R12	Part-Whole Arg1:T65 Arg2:T60	
+R13	Part-Whole Arg1:T67 Arg2:T60	
+R14	General-Special Arg1:T61 Arg2:T66	
+T68	Thing-Nominal 496 497	汁
+T69	Person-Pronoun 501 502	我
+T70	Time-Implicit 514 516	夏季
+T71	Thing-Nominal 520 521	苞
+T72	Thing-Nominal 524 526	芙蓉
+R15	Part-Whole Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 527 529	荷叶
+T74	Thing-Nominal 533 535	露珠
+R16	Located Arg1:T73 Arg2:T74	
+T75	Person-Nominal 544 548	辑毒英雄
+T76	Thing-Nominal 553 554	笔
+T77	Thing-Nominal 562 563	伞
+T78	Thing-Nominal 564 566	明珠
+R17	Located Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 567 569	银茎
+T80	Thing-Nominal 580 582	蜂窝
+T81	Person-Pronoun 584 585	我
+T82	Thing-Nominal 590 592	荷藕
+T84	Person-Pronoun 610 611	我
+T85	Person-Nominal 615 620	几位老校长
+T86	Thing-Nominal 623 624	杆
+T87	Thing-Nominal 629 630	叶
+T88	Thing-Nominal 631 632	节
+T89	Thing-Nominal 637 638	花
+T90	Thing-Nominal 659 661	瘦竹
+T83	Thing-Nominal 603 605	瘦竹
+R18	Part-Whole Arg1:T86 Arg2:T90	
+R19	Part-Whole Arg1:T87 Arg2:T90	
+R20	Part-Whole Arg1:T88 Arg2:T90	
+T91	Thing-Nominal 672 673	冰
+T92	Thing-Nominal 674 675	雪
+T93	Thing-Nominal 686 688	腊梅
+T94	Thing-Nominal 689 691	枯枝
+R21	Located Arg1:T93 Arg2:T94	
+T95	Person-Pronoun 701 702	我
+T96	Person-Nominal 719 721	人们
+T97	Thing-Nominal 723 725	腊梅
+T98	Location-Nominal 739 740	院
+T99	Thing-Nominal 738 739	雪
+T100	Person-Pronoun 750 751	我
+T101	Person-Nominal 753 757	人民教师
+T102	Location-Name 776 786	南京玉花台烈士纪念馆
+T103	Location-Nominal 790 793	五彩石
+T104	Thing-Nominal 795 799	大姆指甲
+T105	Person-Pronoun 806 807	我
+T106	Thing-Pronoun 810 811	它
+R22	Located Arg1:T106 Arg2:T103	
+T107	Person-Nominal 812 814	先烈
+T108	Person-Name 836 838	女娲
+T109	Thing-Nominal 839 840	石
+T110	Thing-Nominal 847 850	红蜻蜓
+T111	Location-Nominal 852 854	荷尖
+R23	Located Arg1:T110 Arg2:T111	
+T112	Location-Nominal 859 861	水里
+T113	Thing-Nominal 856 858	倒影
+R24	Located Arg1:T113 Arg2:T112	
+T114	Thing-Nominal 868 869	翅
+T115	Thing-Nominal 872 874	蚊蝇
+T116	Person-Nominal 880 882	冠军
+R25	Part-Whole Arg1:T114 Arg2:T110	
+T117	Person-Nominal 903 905	人们
+T118	Time-Implicit 901 903	现在
+T119	Thing-Nominal 908 910	瓦屋
+T120	Thing-Nominal 910 912	楼房
+T121	Thing-Nominal 912 914	别墅
+T122	Thing-Nominal 915 917	草屋
+T123	Thing-Nominal 920 922	麻雀
+T124	Thing-Nominal 924 925	窝
+R26	Located Arg1:T124 Arg2:T122	
+T125	Thing-Nominal 933 936	小益鸟
+R27	General-Special Arg1:T123 Arg2:T125	
+T126	Thing-Nominal 954 956	草屋
+T127	Thing-Nominal 958 959	巢
+R28	Located Arg1:T127 Arg2:T126	
+*	Coreference T127 T124
+T128	Thing-Nominal 946 947	虫
+T129	Thing-Nominal 947 948	粮
+T130	Person-Pronoun 963 964	我
+T131	Thing-Nominal 970 972	麻雀
+T132	Thing-Nominal 975 977	飞鸽
+T133	Person-Pronoun 985 986	我
+T134	Time-Implicit 998 1000	每月
+T135	Thing-Nominal 1021 1023	象鸽
+T136	Thing-Nominal 1029 1033	主席台上
+T137	Thing-Nominal 1039 1042	君子兰
+R29	Located Arg1:T136 Arg2:T137	
+T138	Thing-Pronoun 1043 1044	它
+*	Coreference T138 T137
+T139	Person-Nominal 1072 1074	君子
+T140	Person-Nominal 1093 1097	腐败分子
+T141	Person-Nominal 1099 1101	有人
+*	Coreference T141 T140
+T142	Person-Pronoun 1111 1112	我
+T143	Thing-Pronoun 1115 1116	它
+T144	Location-Nominal 1117 1119	田间
+T145	Thing-Nominal 1119 1121	杂草
+T146	Thing-Nominal 1121 1124	喇叭花
+*	Coreference T146 T145
+R30	Located Arg1:T145 Arg2:T144	
+T147	Thing-Nominal 1127 1129	喇叭
+T148	Thing-Nominal 1135 1137	嫩叶
+T149	Thing-Nominal 1137 1139	软茎
+T150	Thing-Nominal 1140 1142	白根
+R31	Part-Whole Arg1:T148 Arg2:T146	
+R32	Part-Whole Arg1:T149 Arg2:T146	
+R33	Part-Whole Arg1:T150 Arg2:T146	
+T151	Person-Nominal 1151 1153	百姓
+T152	Person-Nominal 1163 1167	我一同学
+T153	Person-Pronoun 1163 1164	我
+R34	Social Arg1:T153 Arg2:T152	
+T154	Organization-Nominal 1168 1172	反贪部门
+R35	Ownership Arg1:T152 Arg2:T154	
+T155	Person-Pronoun 1189 1190	他
+*	Coreference T152 T155
+T156	Person-Nominal 1192 1195	仙人掌
+T157	Person-Nominal 1196 1198	人们
+T158	Thing-Nominal 1216 1218	翡翠
+T159	Thing-Nominal 1206 1208	碧玉
+T160	Thing-Nominal 1208 1209	珠
+T161	Thing-Nominal 1220 1221	草
+T162	Thing-Nominal 1222 1224	黄花
+T163	Person-Nominal 1226 1228	君子
+T164	Thing-Nominal 1238 1240	霜雪
+T165	Thing-Nominal 1246 1248	雨露
+T166	Person-Pronoun 1272 1273	我
+T167	Thing-Nominal 1276 1279	仙人掌
+T168	Thing-Pronoun 1282 1283	其
+*	Coreference T168 T167
+T169	Person-Nominal 1293 1295	自己
+*	Coreference T166 T169
+T170	Thing-Nominal 1298 1301	招待桌
+T171	Thing-Nominal 1303 1305	螃蟹
+R36	Located Arg1:T171 Arg2:T170	
+T172	Location-Nominal 1316 1318	稻田
+T173	Location-Nominal 1318 1320	河塘
+R37	Located Arg1:T171 Arg2:T173	
+R38	Located Arg1:T171 Arg2:T172	
+T174	Thing-Nominal 1341 1343	甲鱼
+T175	Thing-Nominal 1347 1349	黑壳
+R39	Part-Whole Arg1:T175 Arg2:T174	
+T176	Thing-Nominal 1353 1354	桌
+R40	Located Arg1:T174 Arg2:T176	
+T177	Person-Nominal 1368 1370	权贵
+T178	Thing-Nominal 1372 1375	中华烟
+T179	Thing-Nominal 1375 1378	茅台酒
+T180	Person-Nominal 1380 1382	买者
+T181	Thing-Nominal 1423 1424	画
+T182	Abstract 1433 1439	腰锥间盘突出
+T183	Thing-Nominal 1442 1443	床
+T184	Person-Nominal 1453 1455	贤妻
+T185	Person-Nominal 1515 1517	贤妻
+T186	Time-Explicit 1520 1522	子夜
+T187	Person-Nominal 1536 1538;1539 1542	村镇 办助理
+T188	Person-Pronoun 1547 1548	他
+*	Coreference T188 T187 T195 T196
+T189	Person-Nominal 1553 1555	百姓
+R41	Social Arg1:T188 Arg2:T189	
+T190	Time-Implicit 1491 1493	午后
+T191	Person-Pronoun 1558 1559	我
+T192	Person-Nominal 1560 1562	老天
+T193	Thing-Nominal 1566 1567	笔
+T194	Thing-Nominal 1568 1569	书
+T195	Person-Nominal 1573 1575	好友
+T196	Person-Nominal 1576 1578	同龄
+T197	Metric 1581 1583	七载
+T198	Thing-Nominal 1596 1597	牛
+T199	Person-Nominal 1617 1618	君
+T200	Person-Nominal 1639 1641	小鬼
+T201	Person-Nominal 1647 1649	朋友
+T202	Thing-Nominal 1656 1658	猫子
+T203	Person-Nominal 1673 1675	路人
+T204	Location-Nominal 1580 1581	院
+T205	Location-Nominal 1687 1688	家
+T206	Thing-Nominal 1693 1696	六月雪
+T207	Thing-Nominal 1698 1699	叶
+T208	Thing-Nominal 1700 1701	花
+R42	Part-Whole Arg1:T207 Arg2:T206	
+R43	Part-Whole Arg1:T208 Arg2:T206	
+T209	Thing-Nominal 1705 1707	灌木
+T210	Time-Explicit 1713 1715	元朝
+T211	Person-Name 1730 1733	关汉卿
+T212	Person-Name 1735 1737	窦娥
+T213	Person-Pronoun 1748 1749	我
+R44	General-Special Arg1:T206 Arg2:T209	
+T214	Person-Pronoun 1768 1769	我
+T215	Thing-Nominal 1779 1780	河
+T216	Thing-Nominal 1787 1789	青蛙
+T217	Thing-Nominal 1790 1792	乌龟
+T218	Thing-Nominal 1793 1795	王八
+T219	Thing-Nominal 1796 1797	鬼
+T220	Thing-Nominal 1798 1799	蛙
+T221	Thing-Nominal 1814 1816	龟鳖
+T222	Thing-Nominal 1826 1829	蛤贝蚬
+T223	Person-Nominal 1830 1832	百姓
+T224	Thing-Nominal 1833 1834	网
+R45	Use Arg1:T223 Arg2:T224	
+T225	Thing-Nominal 1838 1839	蛙
+T226	Thing-Nominal 1840 1841	鳖
+T227	Thing-Nominal 1845 1846	龟
+T228	Thing-Nominal 1853 1854	蛙
+T229	Thing-Nominal 1862 1864	乌龟
+T230	Person-Nominal 1872 1873	鬼
+*	Coreference T225 T216
+*	Coreference T226 T218
+T231	Time-Explicit 1883 1891	2008年春节前
+T232	Thing-Nominal 1894 1896	大雪
+T233	Person-Pronoun 1898 1899	我
+T234	Thing-Nominal 1907 1910	松雪图
+T235	Thing-Nominal 1918 1919	松
+T236	Thing-Nominal 1920 1921	根
+R46	Part-Whole Arg1:T236 Arg2:T235	
+T237	Thing-Nominal 1947 1949	银絮
+T238	Thing-Nominal 1953 1954	雪
+T239	Thing-Nominal 1955 1956	枝
+R47	Part-Whole Arg1:T239 Arg2:T235	
+R48	Located Arg1:T238 Arg2:T239	
+T240	Thing-Nominal 1965 1966	花
+T241	Thing-Nominal 1970 1971	露
+T242	Thing-Nominal 1979 1981	雪松
+T243	Person-Pronoun 1984 1985	我
+T244	Thing-Nominal 1993 1995	雪松
+T245	Time-Implicit 1997 2001	那天早晨
+T246	Organization-Name 2003 2004;2005 2010	盐 城师范学院
+T247	Thing-Name 2013 2018	陶行知塑像
+T248	Thing-Nominal 2019 2021	大道
+T249	Person-Nominal 2024 2026	老者
+T250	Person-Nominal 2032 2034	青年
+R49	Social Arg1:T250 Arg2:T249	
+T251	Person-Nominal 2043 2045	老者
+T252	Person-Nominal 2046 2048	自己
+*	Coreference T250 T252 T253
+T253	Person-Pronoun 2054 2055	你
+T254	Person-Pronoun 2056 2057	您
+*	Coreference T254 T251
+T255	Person-Nominal 2069 2071	他俩
+T256	Person-Pronoun 2076 2077	我
+T257	Thing-Nominal 2077 2079	相机
+R50	Use Arg1:T256 Arg2:T257	
+T258	Person-Nominal 2086 2088	他们
+T259	Thing-Nominal 2096 2098	大地
+T260	Thing-Nominal 2099 2101	白银
+T261	Thing-Nominal 2102 2103	雪
+R51	Located Arg1:T261 Arg2:T259	
+T262	Thing-Nominal 2125 2126;2127 2128	照 片
+T263	Person-Pronoun 2140 2141	我
+T264	Thing-Nominal 2146 2147	画
+T265	Person-Pronoun 2149 2150	我

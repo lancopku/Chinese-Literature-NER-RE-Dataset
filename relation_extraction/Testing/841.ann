@@ -1,0 +1,444 @@
+T1	Person-Nominal 0 2	有人
+T2	Person-Nominal 11 13	有人
+T3	Person-Pronoun 37 38	我
+T4	Person-Pronoun 49 50	我
+T5	Time-Implicit 47 49	现在
+T6	Person-Nominal 92 94	胎儿
+T7	Person-Nominal 112 114	有的
+T8	Person-Nominal 131 133	父母
+T9	Person-Nominal 138 140	邻里
+T10	Person-Nominal 147 149	母亲
+T11	Person-Nominal 189 193	有的胎儿
+T12	Person-Nominal 227 233	这样的的胎儿
+T13	Person-Nominal 238 242	有的孕妇
+T14	Thing-Nominal 266 267	糠
+T15	Thing-Nominal 268 269	菜
+T16	Person-Nominal 286 291	这样的母亲
+*	Coreference T13 T16
+*	Coreference T12 T11
+R1	Family Arg1:T7 Arg2:T8	
+T17	Person-Nominal 296 298	胎儿
+R2	Family Arg1:T17 Arg2:T16	
+T18	Person-Nominal 303 308	;有的孕妇
+T19	Thing-Nominal 321 323	金食
+T20	Person-Nominal 323 325	玉宴
+T21	Person-Nominal 326 328	有人
+T22	Thing-Nominal 331 332	饭
+T23	Thing-Nominal 334 335	口
+T24	Thing-Nominal 335 336	衣
+T25	Thing-Nominal 338 339	手
+R3	Part-Whole Arg1:T25 Arg2:T18	
+R4	Part-Whole Arg1:T23 Arg2:T18	
+T26	Thing-Nominal 349 351	电视
+T27	Location-Nominal 352 354	公园
+T28	Thing-Nominal 364 365	车
+T29	Thing-Nominal 366 367	车
+T30	Person-Nominal 369 371;372 375	这样 的孕妇
+T31	Person-Nominal 384 386	胎儿
+R5	Family Arg1:T31 Arg2:T30	
+T32	Time-Implicit 392 396	刚翻身时
+T33	Person-Nominal 392 399	刚翻身时的孕妇
+T34	Thing-Nominal 404 406	炕席
+T35	Thing-Nominal 408 409	草
+*	Coreference T35 T34
+T36	Thing-Nominal 416 417	草
+T37	Person-Nominal 410 412	孩子
+R6	Family Arg1:T37 Arg2:T33	
+T38	Thing-Nominal 425 427	草沫
+T39	Thing-Nominal 428 430	土沫
+T40	Person-Nominal 431 432;433 437	这 样的婴儿
+*	Coreference T37 T40
+T41	Person-Nominal 443 448	现代的婴儿
+T42	Time-Implicit 460 463	生产时
+T43	Person-Nominal 463 465	医生
+T44	Time-Implicit 468 470	生后
+T45	Location-Nominal 472 475	育婴室
+T46	Person-Nominal 484 489	这样的婴儿
+*	Coreference T46 T41
+T47	Person-Nominal 495 497	儿童
+T48	Person-Nominal 502 504	有的
+T49	Thing-Nominal 515 516	衣
+T50	Thing-Nominal 520 521	食
+T51	Person-Nominal 567 572	这样的儿童
+*	Coreference T51 T48
+T52	Person-Nominal 578 586	五六十年代的儿童
+T53	Time-Explicit 578 583	五六十年代
+T54	Person-Nominal 600 608	计划生育前的儿童
+T55	Location-Nominal 600 605	计划生育前
+T56	Person-Nominal 621 623	子女
+T57	Person-Nominal 625 628	孩子们
+*	Coreference T56 T57 T54
+T58	Time-Explicit 633 638	计划生育后
+T59	Person-Nominal 633 641	计划生育后的儿童
+T60	Person-Nominal 645 651	跨世纪的儿童
+*	Coreference T59 T60 T61 T62
+T61	Person-Nominal 654 658	独生子女
+T62	Person-Pronoun 669 671	他们
+T63	Person-Nominal 683 691	五六十年代的学生
+T64	Time-Explicit 683 688	五六十年代
+T65	Thing-Nominal 710 712	衣服
+R7	Ownership Arg1:T63 Arg2:T65	
+T66	Person-Nominal 720 724	有的孩子
+T67	Thing-Nominal 730 731	脚
+R8	Part-Whole Arg1:T67 Arg2:T66	
+T68	Thing-Nominal 739 741	本子
+T69	Thing-Nominal 742 743	纸
+R9	Part-Whole Arg1:T69 Arg2:T68	
+T70	Person-Pronoun 753 755	他们
+*	Coreference T70 T63
+T71	Person-Nominal 760 765	现代的学生
+T72	Time-Explicit 760 762	现代
+T73	Person-Nominal 779 781	父母
+T74	Thing-Nominal 784 786	明珠
+R10	Family Arg1:T71 Arg2:T73	
+T75	Thing-Nominal 803 805	电脑
+R11	Use Arg1:T71 Arg2:T75	
+T76	Thing-Nominal 813 814	车
+T77	Person-Nominal 818 823	现在的学生
+T78	Person-Pronoun 828 829	我
+T79	Time-Implicit 828 832	我小时候
+T80	Thing-Nominal 834 837	草泥房
+T81	Thing-Nominal 844 845	房
+T82	Thing-Nominal 849 852	南北炕
+T83	Thing-Nominal 854 855	棚
+T84	Time-Implicit 856 858	冬季
+T85	Location-Nominal 858 859;860 861	屋 内
+T86	Time-Implicit 864 866	早上
+T87	Thing-Nominal 867 868	炕
+T88	Person-Nominal 868 870	孩子
+T89	Thing-Nominal 876 878	衣服
+T90	Thing-Nominal 887 888	衣
+*	Coreference T89 T90
+T91	Person-Nominal 891 893	孩子
+T92	Thing-Nominal 896 898	内衣
+R12	General-Special Arg1:T92 Arg2:T90	
+T93	Thing-Nominal 904 907	冰凉衣
+T94	Time-Implicit 913 915	那时
+T95	Person-Nominal 913 917	那时的人
+R13	Located Arg1:T87 Arg2:T85	
+T96	Thing-Nominal 930 933	砖瓦房
+T97	Location-Nominal 934 936	室内
+T98	Thing-Nominal 937 939	暖气
+T99	Thing-Nominal 940 942	火炉
+T100	Thing-Nominal 952 954	衬衣
+T101	Thing-Nominal 954 956	衬裤
+T102	Thing-Nominal 960 962	睡衣
+T103	Location-Nominal 967 969	城市
+T104	Thing-Nominal 972 976	高楼大厦
+T105	Time-Implicit 977 979	冬季
+T106	Location-Nominal 979 981	室内
+T107	Metric 990 993	16度
+T108	Person-Nominal 994 997	现代人
+R14	Ownership Arg1:T108 Arg2:T100	
+R15	Ownership Arg1:T108 Arg2:T101	
+R16	Ownership Arg1:T108 Arg2:T102	
+T109	Time-Implicit 1003 1008	过去的年代
+T110	Time-Explicit 1012 1020	三年自然灾害时期
+T111	Person-Nominal 1021 1023	人们
+T112	Thing-Nominal 1030 1031	糠
+T113	Thing-Nominal 1032 1033	菜
+T114	Thing-Nominal 1048 1049	票
+T115	Location-Nominal 1052 1054	农村
+T116	Time-Implicit 1056 1058	每年
+T117	Thing-Nominal 1059 1061	小麦
+T118	Thing-Nominal 1062 1063;1064 1065	稻 子
+T119	Metric 1070 1074	100斤
+T120	Thing-Nominal 1081 1083	细粮
+T121	Time-Implicit 1086 1090	过年节时
+T122	Thing-Nominal 1094 1096	细粮
+T123	Time-Implicit 1097 1101	那个时代
+T124	Time-Implicit 1120 1122	那时
+T125	Time-Explicit 1130 1135	五十年代初
+T126	Location-Name 1137 1141	团山子乡
+T127	Thing-Nominal 1146 1149	自行车
+T128	Time-Explicit 1150 1157	文化大革命期间
+R17	Use Arg1:T111 Arg2:T114	
+T130	Thing-Nominal 1180 1184	交通工具
+T131	Organization-Nominal 1188 1190	公社
+T132	Person-Nominal 1193 1202	一台胶轮式的拖拉机
+T129	Organization-Name 1158 1162	红星公社
+T133	Organization-Nominal 1164 1167	讲用团
+T134	Organization-Nominal 1204 1207	讲用团
+T135	Thing-Nominal 1195 1197	胶轮
+R18	Part-Whole Arg1:T135 Arg2:T132	
+T136	Time-Explicit 1208 1213	80年代初
+T137	Location-Name 1213 1216	烟筒山
+T138	Thing-Nominal 1217 1219	班车
+T139	Person-Nominal 1220 1222	人们
+T140	Location-Nominal 1223 1225	县里
+T141	Thing-Nominal 1235 1238	自行车
+T142	Organization-Pronoun 1248 1250	我场
+T143	Thing-Nominal 1256 1258	班车
+T144	Thing-Nominal 1262 1265	四轮车
+T145	Thing-Nominal 1266 1269	大汽车
+T146	Thing-Nominal 1272 1274	小车
+T147	Thing-Nominal 1275 1277	轿车
+R19	Ownership Arg1:T142 Arg2:T143	
+R20	Ownership Arg1:T142 Arg2:T146	
+R21	Ownership Arg1:T142 Arg2:T147	
+T148	Location-Name 1288 1290	县城
+T149	Thing-Nominal 1291 1293	火车
+T150	Thing-Nominal 1298 1302	高速公路
+T151	Thing-Nominal 1303 1305	高铁
+T152	Thing-Nominal 1306 1307;1308 1311	空 中客机
+T153	Time-Explicit 1323 1328	80年代初
+T154	Person-Pronoun 1329 1330	我
+T155	Thing-Nominal 1333 1336	家属房
+R22	Ownership Arg1:T154 Arg2:T155	
+T156	Location-Name 1339 1343	塔头甸子
+R23	Located Arg1:T155 Arg2:T156	
+T157	Time-Implicit 1345 1347	雨后
+T158	Thing-Nominal 1350 1352	道路
+T159	Location-Nominal 1364 1367	家属区
+T160	Time-Implicit 1362 1364	现在
+T161	Thing-Nominal 1375 1378	水泥路
+T162	Thing-Nominal 1379 1381	彩钢
+T163	Thing-Nominal 1382 1384	房盖
+T164	Thing-Nominal 1385 1388	彩钢窗
+T165	Thing-Nominal 1389 1391	砖房
+R24	Part-Whole Arg1:T164 Arg2:T165	
+R25	Part-Whole Arg1:T163 Arg2:T165	
+T166	Time-Implicit 1399 1402	小时候
+T167	Person-Nominal 1404 1407	老年人
+T168	Time-Implicit 1408 1410	冬季
+T169	Thing-Nominal 1414 1418	大棉袍子
+R26	Ownership Arg1:T167 Arg2:T169	
+T170	Location-Nominal 1420 1422	炕头
+T171	Thing-Nominal 1426 1428	火盆
+T172	Location-Nominal 1430 1432	炕上
+T173	Person-Nominal 1461 1466	现在的老人
+T174	Time-Implicit 1461 1463	现在
+T175	Thing-Nominal 1481 1483	手机
+T176	Thing-Nominal 1485 1487	电视
+T177	Person-Pronoun 1493 1495	他们
+*	Coreference T173 T177
+R27	Ownership Arg1:T173 Arg2:T175	
+T178	Location-Nominal 1501 1503	城市
+T179	Person-Nominal 1503 1508	离退休人员
+T180	Location-Nominal 1529 1531	公园
+T181	Organization-Nominal 1533 1539	老年活动中心
+T182	Thing-Nominal 1541 1543	麻将
+T183	Thing-Nominal 1545 1547	扑克
+T184	Thing-Nominal 1549 1550	棋
+T185	Person-Nominal 1552 1554	老友
+R28	Use Arg1:T179 Arg2:T182	
+R29	Use Arg1:T179 Arg2:T183	
+R30	Use Arg1:T179 Arg2:T184	
+R31	Social Arg1:T179 Arg2:T185	
+T186	Person-Nominal 1564 1566	有的
+T187	Organization-Nominal 1567 1571	老年大学
+T188	Thing-Nominal 1579 1581	乐器
+T189	Person-Nominal 1590 1592	有的
+T190	Person-Nominal 1604 1606	有的
+T191	Location-Nominal 1607 1610	绘画室
+T192	Person-Nominal 1623 1625	有的
+T193	Location-Nominal 1626 1627	家
+T194	Person-Nominal 1629 1631	儿孙
+R32	Family Arg1:T192 Arg2:T194	
+R33	General-Special Arg1:T186 Arg2:T179	
+R34	General-Special Arg1:T189 Arg2:T179	
+R35	General-Special Arg1:T190 Arg2:T179	
+R36	General-Special Arg1:T192 Arg2:T179	
+T195	Person-Nominal 1643 1645	有的
+T196	Person-Pronoun 1655 1657	他们
+T197	Person-Nominal 1648 1652	公职人员
+T198	Time-Explicit 1659 1663	60岁后
+T199	Organization-Nominal 1667 1669	国家
+*	Coreference T195 T196
+T200	Person-Nominal 1701 1703;1704 1707	现在 城镇人
+T201	Time-Implicit 1701 1703	现在
+T202	Person-Nominal 1719 1730	下岗和无收入的城镇居民
+T203	Person-Pronoun 1738 1740	他们
+*	Coreference T203 T202
+T204	Person-Nominal 1745 1748	这些人
+R37	General-Special Arg1:T195 Arg2:T204	
+R38	General-Special Arg1:T202 Arg2:T204	
+T205	Time-Implicit 1754 1760	刚翻身的时候
+T206	Time-Explicit 1761 1764;1765 1776	194 9年我6岁的时候的春天
+T207	Location-Nominal 1777 1779	农村
+T208	Person-Pronoun 1784 1786	我们
+T209	Location-Nominal 1789 1792	两个屯
+T210	Person-Nominal 1794 1799	病死的孩子
+T211	Location-Nominal 1806 1809	草甸子
+T212	Location-Nominal 1810 1813	地边子
+T213	Thing-Nominal 1818 1820	谷草
+T214	Person-Nominal 1823 1825;1826 1827	死孩 子
+T215	Location-Name 1830 1838	团山子北片的村屯
+T216	Organization-Nominal 1844 1847	卫生所
+T217	Person-Nominal 1848 1850	人们
+T218	Location-Nominal 1854 1856	乡里
+T219	Person-Nominal 1864 1865	医
+T220	Thing-Nominal 1866 1867	药
+T221	Person-Nominal 1868 1870	人们
+T222	Thing-Nominal 1871 1872	钱
+T223	Person-Nominal 1875 1880	那时的孩子
+T224	Person-Nominal 1881 1886	那时的人们
+T225	Time-Implicit 1901 1903	现在
+T226	Location-Nominal 1903 1905	城镇
+T227	Location-Nominal 1915 1917	农村
+T228	Organization-Nominal 1922 1925	卫生所
+T229	Location-Nominal 1943 1945	村里
+T230	Location-Nominal 1951 1953	县城
+T231	Person-Nominal 1970 1975	现在的人们
+T232	Time-Implicit 1981 1984	小时候
+T233	Time-Implicit 1986 1995	冬季忙做棉衣的时候
+T234	Thing-Nominal 1990 1992	棉衣
+T235	Person-Nominal 1996 1998	妈妈
+T236	Person-Pronoun 2011 2012	我
+R39	Family Arg1:T236 Arg2:T235	
+T237	Time-Implicit 2014 2019	一觉醒来时
+T238	Person-Nominal 2022 2024	妈妈
+T239	Thing-Nominal 2026 2028	油灯
+T240	Thing-Nominal 2030 2032	针线
+T241	Person-Nominal 2037 2039	人们
+T242	Thing-Nominal 2060 2062	油灯
+T243	Thing-Nominal 2065 2067	电灯
+T244	Thing-Nominal 2073 2076	电饭锅
+T245	Thing-Nominal 2077 2080	电炒锅
+T246	Thing-Nominal 2081 2084	电磁炉
+T247	Person-Nominal 2090 2092	人们
+T248	Thing-Nominal 2097 2099	衣服
+T249	Thing-Nominal 2100 2102	衣服
+T250	Location-Nominal 2105 2107	商店
+R40	Located Arg1:T249 Arg2:T250	
+T251	Location-Nominal 2123 2124	村
+T252	Location-Nominal 2125 2126	村
+T253	Thing-Nominal 2140 2141	马
+T254	Thing-Nominal 2142 2143	信
+T255	Physical 2152 2154	地球
+T256	Person-Nominal 2152 2158	地球对面的人
+T257	Thing-Nominal 2164 2166	电话
+T258	Thing-Nominal 2175 2179	视屏电话
+T259	Thing-Nominal 2188 2190	电脑
+T260	Thing-Nominal 2191 2193	电视
+T261	Person-Nominal 2243 2247	现代人们
+T262	Person-Nominal 2267 2269	木工
+T263	Thing-Nominal 2274 2275	锛
+T264	Thing-Nominal 2277 2278	斧
+T265	Thing-Nominal 2279 2280	锯
+T266	Metric 2284 2286	一天
+R41	Use Arg1:T261 Arg2:T257	
+R42	Use Arg1:T261 Arg2:T258	
+R43	Use Arg1:T261 Arg2:T259	
+R44	Use Arg1:T261 Arg2:T260	
+R45	Use Arg1:T262 Arg2:T263	
+R46	Use Arg1:T262 Arg2:T265	
+R47	Use Arg1:T262 Arg2:T264	
+T267	Person-Nominal 2305 2310	现代的木工
+T268	Thing-Nominal 2313 2315	电锯
+T269	Thing-Nominal 2316 2318	电子
+T270	Thing-Nominal 2319 2321	电钻
+T271	Thing-Nominal 2322 2325;2326 2329	现代木 工工具
+R48	Use Arg1:T267 Arg2:T268	
+R49	Use Arg1:T267 Arg2:T269	
+R50	Use Arg1:T267 Arg2:T270	
+R51	General-Special Arg1:T268 Arg2:T271	
+R52	General-Special Arg1:T269 Arg2:T271	
+R53	General-Special Arg1:T270 Arg2:T271	
+T272	Person-Pronoun 2338 2340	他们
+*	Coreference T272 T267
+T273	Thing-Nominal 2353 2355	水泥
+T274	Thing-Nominal 2357 2358	砖
+T275	Thing-Nominal 2360 2361	瓦
+T276	Person-Nominal 2362 2365	现在人
+T277	Thing-Nominal 2370 2372	地基
+T278	Thing-Nominal 2373 2375	开购
+T279	Thing-Nominal 2379 2381	土地
+T280	Thing-Nominal 2382 2385	推土机
+T281	Person-Nominal 2450 2457	现在搞建筑的人
+R54	Use Arg1:T276 Arg2:T278	
+R55	Use Arg1:T276 Arg2:T280	
+T282	Person-Nominal 2462 2468	过去林业工人
+T283	Thing-Nominal 2470 2472	手锯
+T284	Thing-Nominal 2473 2475	木头
+R56	Use Arg1:T282 Arg2:T283	
+T285	Time-Implicit 2488 2490	现在
+T286	Thing-Nominal 2492 2494	油锯
+T287	Thing-Nominal 2495 2498	割灌机
+T288	Thing-Nominal 2499 2501	木头
+T289	Thing-Nominal 2503 2504	楞
+T290	Thing-Nominal 2506 2507	车
+T291	Thing-Nominal 2509 2512	装载机
+T292	Person-Nominal 2521 2528	现代的林业工人
+R57	Use Arg1:T292 Arg2:T286	
+R58	Use Arg1:T292 Arg2:T288	
+R59	Use Arg1:T292 Arg2:T291	
+T293	Person-Nominal 2534 2538	旧时农民
+T294	Thing-Nominal 2541 2543	黄土
+T295	Person-Nominal 2563 2568	现代的农民
+T296	Thing-Nominal 2578 2581	播种机
+T297	Thing-Nominal 2588 2590	农药
+R60	Use Arg1:T295 Arg2:T297	
+T298	Thing-Nominal 2591 2592	虫
+T299	Thing-Nominal 2593 2594	草
+T300	Location-Nominal 2601 2603	田间
+T301	Time-Implicit 2606 2609	秋收时
+T302	Thing-Nominal 2621 2623	机械
+T303	Metric 2632 2635	20天
+T304	Person-Nominal 2642 2646	现代农民
+R61	Use Arg1:T304 Arg2:T302	
+T305	Thing-Nominal 2651 2652	锄
+T306	Metric 2671 2673	两月
+T307	Metric 2676 2679	十个月
+T308	Time-Implicit 2684 2686	现在
+T309	Location-Nominal 2695 2697	外地
+T310	Location-Nominal 2702 2704	农村
+T311	Location-Nominal 2707 2710	新农村
+T312	Person-Nominal 2715 2716;2717 2720	参 保人员
+T313	Person-Nominal 2734 2739	现在的农民
+T314	Organization-Nominal 2745 2752	工矿企事业单位
+T315	Person-Nominal 2753 2755	职工
+R62	Ownership Arg1:T315 Arg2:T314	
+T316	Metric 2770 2772	一天
+T317	Person-Nominal 2789 2791	人们
+T318	Person-Nominal 2796 2801	过去的人们
+T319	Person-Nominal 2830 2833	现代人
+T320	Location-Nominal 2862 2864	市场
+T321	Person-Nominal 2868 2870	人们
+T322	Organization-Nominal 2874 2876	国家
+T323	Person-Nominal 2880 2882	百姓
+T324	Time-Implicit 2890 2892	过去
+T325	Time-Explicit 2894 2897	过年时
+T326	Thing-Nominal 2902 2904	水果
+T327	Thing-Nominal 2913 2915	茶几
+T328	Thing-Nominal 2921 2923	水果
+R63	Located Arg1:T327 Arg2:T328	
+T329	Thing-Nominal 2924 2928	有的水果
+T330	Thing-Nominal 2931 2932	洋
+T331	Thing-Nominal 2933 2934	海
+T332	Time-Implicit 2938 2940	冬季
+T333	Person-Nominal 2940 2942	百姓
+T334	Thing-Nominal 2950 2952	蔬菜
+T335	Thing-Nominal 2953 2955	冰箱
+T336	Thing-Nominal 2962 2964	水果
+T338	Thing-Nominal 2966 2968	付食
+T337	Thing-Nominal 2965 2966	肉
+T339	Thing-Nominal 2964 2965	鱼
+T340	Person-Nominal 2970 2974	平民百姓
+T341	Person-Nominal 2982 2984	外地
+T342	Person-Nominal 2989 2992	现代人
+R64	Located Arg1:T336 Arg2:T335	
+R65	Located Arg1:T339 Arg2:T335	
+R66	Located Arg1:T338 Arg2:T335	
+R67	Located Arg1:T337 Arg2:T335	
+R68	General-Special Arg1:T340 Arg2:T342	
+T343	Person-Pronoun 3002 3004	我们
+T344	Person-Pronoun 3027 3028	我
+T345	Organization-Nominal 3038 3039	国
+T346	Person-Nominal 3040 3041	民
+T347	Person-Nominal 3062 3065	现在人
+T348	Person-Pronoun 3088 3090	我们
+T349	Person-Pronoun 3102 3104	我们
+T350	Person-Nominal 3104 3110	现代的中国人
+*	Coreference T349 T350 T351
+T351	Person-Nominal 3111 3116	最幸福的人
+T352	Person-Pronoun 3117 3119	我们
+T353	Organization-Name 3121 3123	中国
+T354	Organization-Nominal 3127 3129	国家
+R69	General-Special Arg1:T353 Arg2:T354	
+T355	Organization-Nominal 3130 3134	我们的党
+T358	Organization-Nominal 3150 3154	我们的党
+T359	Person-Pronoun 3156 3158	我们
+T360	Person-Nominal 3159 3163	幸福的人
+*	Coreference T359 T360
+T356	Organization-Nominal 3141 3146	我们的国家

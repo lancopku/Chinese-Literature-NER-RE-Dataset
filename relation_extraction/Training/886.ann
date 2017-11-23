@@ -1,0 +1,356 @@
+T1	Person-Pronoun 14 16	我们
+T2	Person-Nominal 16 18	人类
+*	Coreference T1 T2
+T3	Location-Nominal 29 31	公园
+T4	Location-Nominal 31 33	大街
+T5	Location-Nominal 36 40	公共场合
+R1	General-Special Arg1:T4 Arg2:T5	
+R2	General-Special Arg1:T3 Arg2:T5	
+T6	Person-Pronoun 42 44	我们
+T7	Organization-Nominal 72 74	国家
+T8	Person-Nominal 74 78	大多数人
+T9	Person-Pronoun 84 85	我
+T10	Location-Nominal 89 91	城市
+T11	Location-Nominal 94 98	公园边上
+T12	Location-Nominal 94 96	公园
+R3	Part-Whole Arg1:T12 Arg2:T10	
+T13	Thing-Nominal 106 107	墙
+T14	Location-Nominal 117 119	公园
+T15	Time-Implicit 133 135	清晨
+T16	Person-Pronoun 135 136	我
+T17	Time-Implicit 137 139	有时
+T18	Metric 142 144	一夜
+T19	Time-Implicit 145 150	方欲入睡时
+T20	Location-Nominal 161 163	公园
+T21	Person-Nominal 168 170	老者
+T22	Person-Nominal 170 172	少者
+T23	Person-Pronoun 198 200	她们
+R4	General-Special Arg1:T22 Arg2:T23	
+R5	General-Special Arg1:T21 Arg2:T23	
+T24	Thing-Nominal 232 234	嗓子
+T25	Person-Pronoun 267 269	我们
+T26	Person-Pronoun 279 281	她们
+*	Coreference T26 T23
+T27	Location-Nominal 284 286	公园
+T28	Person-Pronoun 290 291	我
+T29	Thing-Nominal 306 307	墙
+T30	Person-Pronoun 311 313	我们
+T31	Person-Nominal 316 321	公园管理者
+T32	Thing-Nominal 327 330	玻璃墙
+T33	Organization-Nominal 313 315	物业
+T34	Person-Pronoun 353 355	我们
+T35	Thing-Nominal 387 388	水
+T36	Thing-Nominal 388 390	楼台
+T37	Thing-Nominal 392 393	月
+T38	Person-Pronoun 396 397	我
+T39	Time-Implicit 400 402	每天
+T40	Location-Nominal 413 415	公园
+T41	Person-Pronoun 419 420	我
+T42	Thing-Nominal 422 425	单元楼
+T43	Metric 425 429	三五十秒
+T44	Location-Nominal 434 436	公园
+T45	Location-Nominal 442 444	我家
+T46	Location-Nominal 445 447	公园
+R6	Near Arg1:T45 Arg2:T46	
+T47	Time-Implicit 458 460	清晨
+T48	Person-Pronoun 460 461	我
+T49	Location-Nominal 464 466	公园
+T50	Time-Explicit 156 159	五六点
+T51	Time-Explicit 470 472	六点
+T52	Time-Implicit 476 479	洗漱后
+T53	Thing-Nominal 481 484	温凉水
+T54	Location-Nominal 486 488	公园
+T55	Location-Nominal 491 498	正面北侧人行道
+T56	Metric 502 507	200余米
+T57	Location-Nominal 513 516	西三路
+T58	Location-Nominal 517 518;519 525	公 园一侧人行道
+T59	Metric 531 535	80余米
+T60	Location-Nominal 537 544	公园西侧中段门
+T61	Location-Nominal 549 551	公园
+T62	Location-Nominal 554 556	公园
+T63	Person-Pronoun 558 559	我
+T64	Thing-Nominal 565 566	兔
+T65	Thing-Nominal 566 567	龙
+T66	Thing-Nominal 567 568	蛇
+T67	Thing-Nominal 577 578	虎
+T68	Time-Implicit 583 585	有时
+T69	Location-Nominal 598 599	廊
+T70	Location-Nominal 600 601	桥
+T71	Location-Nominal 602 603	坡
+T72	Location-Nominal 604 605	林
+T73	Person-Pronoun 641 642	我
+T74	Person-Nominal 659 662	晨练者
+R7	Social Arg1:T73 Arg2:T74	
+T75	Person-Nominal 691 693	坏人
+T76	Person-Pronoun 700 701;702 703	我 们
+T77	Location-Name 704 710	渭南朝阳公园
+T78	Metric 713 715	两年
+T79	Metric 717 719	三年
+T80	Time-Implicit 748 750	有时
+T81	Person-Pronoun 797 798	我
+T82	Time-Implicit 818 820	中午
+T83	Location-Nominal 821 823	公园
+*	Coreference T83 T77
+T84	Time-Implicit 828 830	清晨
+T85	Location-Nominal 831 833	公园
+T86	Location-Nominal 846 847	家
+T87	Thing-Nominal 852 853	车
+T88	Location-Nominal 854 858	5公里外
+T89	Metric 854 857	5公里
+T90	Organization-Nominal 859 861	单位
+T91	Time-Implicit 868 870	中午
+R8	Part-Whole Arg1:T90 Arg2:T88	
+T92	Time-Implicit 887 889	有时
+T93	Time-Implicit 901 906	节假休息日
+T94	Person-Nominal 907 909	朋友
+T95	Location-Nominal 910 912	公园
+T97	Person-Nominal 929 932	小孙子
+T98	Location-Nominal 933 935	公园
+T96	Person-Pronoun 917 919	我辈
+T99	Time-Implicit 938 939;940 941	这 时
+T100	Person-Pronoun 942 944	她们
+*	Coreference T100 T97
+T101	Person-Nominal 945 948	爷奶们
+R9	Family Arg1:T100 Arg2:T101	
+T102	Person-Pronoun 955 956	我
+T103	Location-Nominal 961 966	公园的边上
+T104	Location-Nominal 977 978	家
+T105	Time-Implicit 993 995	晚间
+T106	Location-Nominal 997 999	公园
+T107	Time-Implicit 1008 1012	十点以后
+T108	Time-Implicit 1013 1015	这时
+T109	Location-Nominal 1016 1018	公园
+T110	Thing-Nominal 1036 1040	过山火车
+R10	Located Arg1:T110 Arg2:T109	
+T111	Time-Implicit 1087 1089	冬季
+T112	Time-Implicit 1111 1113	这时
+T113	Location-Nominal 1115 1117	公园
+T114	Person-Pronoun 1122 1123	我
+T115	Person-Nominal 1124 1126	妻子
+T116	Person-Name 1126 1128	文子
+*	Coreference T115 T116 T119
+R11	Family Arg1:T114 Arg2:T115	
+T117	Time-Implicit 1131 1133	这时
+T118	Person-Pronoun 1134 1135	我
+T119	Person-Pronoun 1146 1147	她
+T120	Thing-Nominal 1153 1157	我的右臂
+R12	Part-Whole Arg1:T120 Arg2:T118	
+T121	Person-Pronoun 1168 1172	我们二人
+T122	Location-Nominal 1173 1175	公园
+T123	Location-Nominal 1178 1180	公园
+T124	Location-Nominal 1185 1187	公园
+T125	Location-Pronoun 1188 1189	她
+*	Coreference T125 T124
+T126	Time-Implicit 1189 1191	有时
+T127	Person-Nominal 1193 1196	睡美人
+T128	Person-Pronoun 1206 1207	我
+T129	Location-Nominal 1215 1217	国内
+T130	Location-Nominal 1224 1226	公园
+R13	Part-Whole Arg1:T130 Arg2:T129	
+T131	Time-Implicit 1229 1232	旬日前
+T132	Person-Pronoun 1233 1234	我
+T133	Person-Name 1235 1237	文子
+T134	Location-Name 1241 1245	西子湖畔
+T135	Location-Nominal 1252 1254	公园
+T136	Person-Pronoun 1258 1259	我
+T137	Location-Pronoun 1260 1262	她们
+*	Coreference T135 T137 T138 T139
+T138	Location-Pronoun 1264 1266	她们
+T139	Location-Pronoun 1269 1271	她们
+T140	Location-Name 1282 1286	朝阳公园
+T141	Person-Pronoun 1298 1299	你
+T142	Thing-Nominal 1313 1315	霓光
+T143	Thing-Nominal 1315 1317	灯彩
+T144	Person-Nominal 1334 1336	少妇
+T145	Time-Implicit 1377 1379	白日
+T146	Location-Nominal 1394 1396	远方
+T147	Location-Nominal 1398 1400	城市
+R14	Part-Whole Arg1:T147 Arg2:T146	
+T148	Location-Nominal 1401 1405	水泥森林
+T149	Thing-Nominal 1401 1403	水泥
+T150	Location-Nominal 1417 1419	公园
+T151	Thing-Nominal 1419 1421	大树
+T152	Time-Implicit 1431 1436	夜间降临后
+T153	Person-Pronoun 1437 1439	我等
+T154	Person-Nominal 1441 1443	奶奶
+R15	Family Arg1:T153 Arg2:T154	
+T155	Thing-Nominal 1456 1458	树影
+T156	Thing-Nominal 1465 1467	花砖
+T157	Thing-Nominal 1475 1478	拇指尖
+T158	Thing-Nominal 1481 1482;1483 1484	青 蛙
+T159	Location-Nominal 1490 1493	木桥下
+T160	Location-Nominal 1493 1495	水里
+T161	Thing-Nominal 1508 1509	虫
+T162	Thing-Nominal 1509 1510	鱼
+R16	Located Arg1:T161 Arg2:T160	
+R17	Located Arg1:T162 Arg2:T160	
+T163	Location-Nominal 1518 1520	公园
+T164	Time-Implicit 1540 1542	深夜
+T165	Person-Pronoun 1571 1572	我
+T166	Person-Pronoun 1601 1602	我
+T167	Person-Pronoun 1616 1617	我
+T168	Person-Pronoun 1633 1634	我
+T169	Thing-Nominal 1646 1648	阳光
+T170	Person-Pronoun 1663 1664	我
+T171	Time-Implicit 1664 1666	此时
+T172	Location-Nominal 1667 1669	公园
+T173	Location-Pronoun 1670 1671	她
+*	Coreference T172 T173
+T174	Person-Pronoun 1702 1703	我
+T175	Time-Implicit 1705 1707	夜夜
+T176	Person-Nominal 1708 1709	妻
+T177	Person-Name 1709 1711	文子
+*	Coreference T176 T177
+T178	Location-Nominal 1714 1716	公园
+T179	Time-Implicit 1717 1719	朝朝
+T180	Time-Implicit 1730 1732	来日
+T181	Location-Pronoun 1736 1738	这里
+*	Coreference T178 T181
+T182	Person-Nominal 1743 1745	市民
+T183	Time-Implicit 1748 1753	春天的清晨
+T184	Person-Pronoun 1754 1755	我
+T185	Location-Nominal 1759 1761	公园
+T186	Person-Pronoun 1762 1763	我
+T187	Thing-Nominal 1767 1769	梯级
+T188	Location-Nominal 1770 1772	林间
+T189	Thing-Nominal 1773 1775	坡路
+T190	Thing-Nominal 1775 1777	窄道
+R18	Located Arg1:T189 Arg2:T188	
+R19	Located Arg1:T190 Arg2:T188	
+T191	Person-Nominal 1787 1789	老者
+T192	Person-Nominal 1789 1791	弱者
+T193	Person-Pronoun 1792 1793	我
+T194	Person-Nominal 1801 1803	对方
+R20	General-Special Arg1:T192 Arg2:T194	
+R21	General-Special Arg1:T191 Arg2:T194	
+R22	Social Arg1:T193 Arg2:T192	
+R23	Social Arg1:T193 Arg2:T191	
+T195	Person-Pronoun 1812 1814	她们
+R24	General-Special Arg1:T192 Arg2:T195	
+R25	General-Special Arg1:T191 Arg2:T195	
+T196	Person-Pronoun 1826 1828	她们
+*	Coreference T195 T196
+T197	Location-Nominal 1839 1841	城市
+T198	Person-Pronoun 1841 1842	我
+T199	Time-Implicit 1843 1845	今天
+T200	Time-Implicit 1854 1859	夏天的清早
+T201	Person-Pronoun 1860 1861	我
+T202	Thing-Nominal 1862 1866	运动短裤
+R26	Ownership Arg1:T201 Arg2:T202	
+T203	Location-Nominal 1868 1869;1870 1871	公 园
+T204	Person-Pronoun 1873 1874	我
+T205	Thing-Nominal 1877 1878	汗
+T206	Person-Pronoun 1883 1884	我
+T207	Person-Nominal 1892 1898	对面走来的人
+R27	Social Arg1:T206 Arg2:T207	
+T208	Person-Pronoun 1900 1901	我
+T209	Location-Nominal 1907 1909	路面
+T210	Person-Nominal 1910 1912	对方
+*	Coreference T207 T210
+T211	Time-Implicit 1933 1935	夏天
+T212	Person-Nominal 1937 1939	人们
+T213	Time-Implicit 1950 1954	秋冬季节
+T214	Person-Pronoun 1954 1955	我
+T215	Location-Nominal 1957 1959	公园
+T216	Person-Pronoun 1960 1962	我们
+T217	Location-Nominal 1976 1977	园
+*	Coreference T217 T215
+T218	Thing-Nominal 1978 1980	核桃
+T219	Thing-Nominal 1980 1982	柿子
+T220	Thing-Nominal 1988 1989	果
+R28	General-Special Arg1:T219 Arg2:T220	
+R29	General-Special Arg1:T218 Arg2:T220	
+R30	Located Arg1:T219 Arg2:T217	
+R31	Located Arg1:T218 Arg2:T217	
+T221	Person-Pronoun 1995 1996	我
+T222	Thing-Nominal 2010 2013	胶鞋刷
+T223	Location-Nominal 2015 2017	路面
+T224	Thing-Nominal 2019 2021	残枝
+T225	Thing-Nominal 2021 2023	落叶
+R32	Located Arg1:T224 Arg2:T223	
+R33	Located Arg1:T225 Arg2:T223	
+T226	Person-Nominal 2031 2036	公园环卫工
+R34	Social Arg1:T221 Arg2:T226	
+T227	Person-Nominal 2043 2045	人们
+T228	Location-Nominal 2047 2049	路面
+T229	Thing-Nominal 2051 2052;2053 2054	积 雪
+R35	Located Arg1:T229 Arg2:T228	
+T230	Person-Nominal 2063 2065	大伯
+T231	Person-Nominal 2065 2068	大妈们
+T232	Thing-Nominal 2077 2079	叶子
+R36	Located Arg1:T232 Arg2:T228	
+T233	Person-Pronoun 2084 2085	我
+T234	Location-Nominal 2108 2110	公园
+T235	Thing-Nominal 2148 2150	鞭子
+T236	Thing-Nominal 2151 2153	陀螺
+T237	Location-Nominal 2156 2157	坡
+T238	Person-Nominal 2168 2174	吃力爬行的人
+T239	Time-Implicit 2155 2158	下坡时
+T240	Location-Nominal 2176 2181	危险狭窄道
+T241	Person-Nominal 2185 2187	他人
+T242	Person-Nominal 2190 2193	老弱者
+T243	Location-Nominal 2197 2199	水上
+T244	Location-Nominal 2199 2201	水边
+T245	Location-Nominal 2213 2215	树丛
+T246	Location-Nominal 2219 2221	路面
+T247	Person-Nominal 2232 2234	他人
+T248	Location-Nominal 2236 2239	最高处
+T249	Location-Nominal 2241 2247	公共园地平地
+T250	Thing-Nominal 2250 2252	木椅
+T251	Thing-Nominal 2252 2254	石凳
+T252	Person-Nominal 2267 2269	他人
+T253	Person-Nominal 2272 2274	自己
+T254	Location-Nominal 2312 2314	公园
+R37	Located Arg1:T250 Arg2:T254	
+R38	Located Arg1:T251 Arg2:T254	
+T255	Person-Nominal 2329 2331	大家
+T256	Person-Pronoun 2342 2344	我们
+T257	Location-Nominal 2349 2351	家里
+T258	Thing-Nominal 2369 2371	核桃
+T259	Thing-Nominal 2371 2372;2373 2374	柿 子
+T260	Thing-Nominal 2383 2384	花
+T261	Thing-Nominal 2385 2386	枝
+T262	Person-Nominal 2398 2401	小伙子
+T263	Thing-Nominal 2408 2410	公园
+T264	Thing-Nominal 2412 2414	果子
+R39	General-Special Arg1:T259 Arg2:T264	
+R40	General-Special Arg1:T258 Arg2:T264	
+T265	Person-Nominal 2422 2424	青年
+T266	Person-Nominal 2437 2439	姑娘
+T267	Thing-Nominal 2443 2444	花
+T268	Person-Nominal 2446 2448	自己
+*	Coreference T266 T268
+T269	Thing-Nominal 2449 2450	头
+R41	Part-Whole Arg1:T269 Arg2:T266	
+R42	Located Arg1:T267 Arg2:T269	
+T270	Person-Nominal 2466 2471	香港部分人
+T271	Person-Nominal 2487 2489	人类
+T272	Person-Pronoun 2497 2499	我们
+T273	Organization-Nominal 2501 2503	祖国
+T274	Person-Pronoun 2510 2511	其
+T275	Person-Nominal 2511 2513	父母
+R43	Family Arg1:T274 Arg2:T275	
+T276	Person-Pronoun 2522 2524	她们
+*	Coreference T274 T276
+T277	Organization-Nominal 2530 2532	国家
+T278	Location-Name 2538 2540	香港
+T279	Person-Pronoun 2550 2552	她们
+T280	Person-Nominal 2568 2570	民众
+T281	Person-Nominal 2584 2587	小学生
+T282	Person-Pronoun 2590 2592	她们
+*	Coreference T279 T282
+T284	Location-Name 2613 2615	香港
+T283	Location-Nominal 2609 2611	东方
+T285	Thing-Nominal 2611 2613	明珠
+T286	Person-Nominal 2625 2627	亲者
+T287	Person-Nominal 2628 2630	仇者
+T288	Person-Nominal 2633 2635	人类
+T289	Person-Pronoun 2638 2640	她们
+T290	Person-Pronoun 2660 2661	我
+T291	Location-Nominal 2669 2671	公园
+T292	Location-Nominal 2671 2673	公路
+T293	Location-Nominal 2673 2677	公共场合
+R44	General-Special Arg1:T292 Arg2:T293	
+R45	General-Special Arg1:T291 Arg2:T293	
+T294	Person-Pronoun 2703 2705	我们
+T295	Person-Nominal 2716 2718	众人

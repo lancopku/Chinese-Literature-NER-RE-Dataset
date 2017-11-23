@@ -1,0 +1,165 @@
+T1	Thing-Nominal 0 4	凤凰古镇
+T2	Thing-Nominal 6 8	凤镇
+T3	Location-Name 11 24	商洛市柞水县东南部大山深处
+R1	Located Arg1:T1 Arg2:T3	
+T4	Thing-Nominal 26 28	县城
+T5	Metric 28 32	45公里
+T6	Thing-Nominal 77 86	姿态不同的凤凰图案
+T7	Location-Nominal 70 74	桥栏板上
+R2	Located Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 62 69	一小小的石拱桥
+T9	Location-Nominal 57 62	内一百米处
+R3	Located Arg1:T8 Arg2:T9	
+T10	Thing-Nominal 42 55	一座高耸、华美的牌坊式大门
+T11	Thing-Nominal 34 36	凤镇
+T12	Thing-Nominal 90 93	石拱桥
+T13	Location-Nominal 96 100	古镇入口
+T14	Thing-Nominal 104 108	老房子，
+T15	Thing-Nominal 119 123	中心街道
+T16	Thing-Nominal 144 147	两条街
+T17	Thing-Nominal 151 153	古镇
+T18	Thing-Nominal 159 164	展翅的凤凰
+T19	Thing-Nominal 166 168	古镇
+T20	Thing-Nominal 173 175	石板
+T21	Thing-Nominal 178 180	房子
+T22	Time-Explicit 182 189	清代和民国时期
+T23	Thing-Nominal 192 194	砖木
+T24	Location-Nominal 199 200	顶
+T25	Thing-Nominal 201 203	黑瓦
+R4	Located Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 204 206	撩檐
+T27	Thing-Nominal 207 208	花
+T28	Thing-Nominal 209 210	画
+T29	Location-Nominal 211 213	正面
+T30	Thing-Nominal 215 219	木质雕花
+R5	Located Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 220 224	镂花木窗
+T32	Thing-Nominal 225 226;227 229	木 板壁
+T33	Thing-Nominal 230 233	木楼板
+T34	Thing-Nominal 238 240	民居
+T35	Thing-Nominal 243 245	商铺
+T36	Thing-Nominal 250 252	房舍
+T37	Thing-Nominal 252 254	门户
+R6	Part-Whole Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 259 261	商号
+T39	Thing-Nominal 268 272	徽式山墙
+T40	Thing-Nominal 290 295	笔直的廊柱
+T41	Location-Nominal 299 302	石鼓上
+R7	Located Arg1:T40 Arg2:T41	
+T42	Thing-Nominal 305 307	民房
+T43	Thing-Nominal 310 314	店铺钱庄
+T44	Thing-Nominal 315 317	墙壁
+T45	Thing-Nominal 323 325	房顶
+T46	Thing-Nominal 328 330	屋檐
+T47	Thing-Nominal 352 356	各户宗地
+T48	Thing-Nominal 367 371	前堂后院
+T49	Thing-Nominal 372 374	前堂
+T50	Thing-Nominal 375 379	商号门脸
+T51	Thing-Nominal 385 387	后院
+T52	Thing-Nominal 388 394	住宿休闲场所
+T53	Thing-Nominal 395 407	几个挂着百年老招牌的店子
+T54	Thing-Nominal 414 416	店门
+T55	Thing-Nominal 417 424	一块块活动木板
+T56	Thing-Nominal 432 434	木板
+T57	Thing-Nominal 440 442	木板
+T58	Time-Explicit 452 454	清朝
+T59	Time-Explicit 455 459	民国初期
+T60	Thing-Nominal 466 470	店堂楼板
+T61	Thing-Nominal 472 474	墙壁
+T62	Thing-Nominal 476 479	构皮纸
+T63	Thing-Nominal 480 482	柱头
+T64	Location-Nominal 491 493	店里
+T65	Thing-Nominal 495 499	服装百货
+R8	Located Arg1:T65 Arg2:T64	
+T66	Thing-Nominal 504 527	木耳、香菇、核桃、栗子、熏腊肉、干豆豉、香豆干
+T67	Location-Nominal 533 537	杂货铺里
+T68	Thing-Nominal 539 541	草鞋
+R9	Located Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 544 556	簸箕、笸篮、竹篮、荆木筐
+R10	Located Arg1:T69 Arg2:T67	
+T70	Location-Nominal 557 561	玉石铺外
+T71	Thing-Nominal 570 579	芝麻苕糖、玉米苕糖
+R11	Located Arg1:T71 Arg2:T70	
+T72	Location-Nominal 580 582	镇上
+T73	Location-Nominal 590 592	堂内
+T74	Thing-Nominal 595 600	陶制大酒缸
+R12	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 606 611	“酒”标签
+T76	Location-Nominal 617 627	同兴和”等餐馆大堂里
+T77	Thing-Nominal 629 639	老式大方桌、长条板凳
+R13	Located Arg1:T77 Arg2:T76	
+T78	Location-Nominal 650 652	街中
+T79	Person-Nominal 652 653;654 661	一 对炸麻花的夫妻
+T80	Thing-Nominal 664 672	老式柴桌子、老灶
+T81	Thing-Nominal 675 678	木瓣柴
+T82	Person-Pronoun 679 681	他们
+*	Coreference T82 T79
+T83	Location-Nominal 681 689	旁边的简易案子上
+T84	Thing-Nominal 691 705	当地铁匠铺人工打制的刀斧镰锄
+R14	Located Arg1:T84 Arg2:T83	
+T85	Person-Nominal 693 697	铁匠铺人
+T86	Location-Nominal 706 712	少数民居檐下
+T87	Thing-Nominal 717 724	金灿灿的玉米穗
+R15	Located Arg1:T87 Arg2:T86	
+T88	Location-Nominal 725 727	房头
+T89	Thing-Nominal 729 736	辣椒串、蒜辫子
+R16	Located Arg1:T89 Arg2:T88	
+T90	Thing-Nominal 737 741	大红门联
+T91	Time-Explicit 808 810	唐代
+T92	Thing-Nominal 814 816	集市
+T93	Thing-Nominal 793 796	凤凰山
+T94	Thing-Nominal 759 762	凤凰镇
+T95	Location-Nominal 764 783	川河、皂河、水滴沟河三水交汇的三角洲上
+R17	Located Arg1:T94 Arg2:T95	
+T96	Thing-Nominal 787 790	一座山
+T97	Location-Nominal 784 786	镇南
+R18	Located Arg1:T96 Arg2:T97	
+T98	Thing-Nominal 798 800	当地
+T99	Time-Explicit 867 871	清末民初
+T100	Thing-Nominal 872 880;881 884	各类商埠字号、店 铺钱庄
+T101	Time-Explicit 817 819;820 823	清顺 治年初
+T102	Person-Nominal 824 837	河南、湖北、四川等地的商人
+T103	Location-Name 856 859	凤凰镇
+T104	Thing-Nominal 886 888	街巷
+T105	Thing-Nominal 902 909	32个大的商号
+T106	Thing-Nominal 910 913	凤凰镇
+T107	Thing-Nominal 923 927	长江水系
+T108	Thing-Nominal 928 932	黄河水系
+T109	Thing-Nominal 933 939	重要商贸集镇
+T110	Thing-Nominal 952 960	北方的山货土特产
+T111	Thing-Nominal 973 975	水路
+T112	Thing-Nominal 976 978	汉江
+T113	Location-Name 980 982	汉口
+T114	Thing-Nominal 983 991	江南的丝绸、稻米
+T115	Thing-Nominal 993 995	水路
+T116	Location-Name 1006 1008	秦岭
+T117	Location-Name 1010 1012	长安
+T118	Time-Implicit 1014 1020	最繁荣的时期
+T119	Time-Implicit 1021 1023	每天
+T120	Thing-Nominal 1024 1030	二百多家货物
+T121	Location-Nominal 1031 1033	码头
+R19	Located Arg1:T120 Arg2:T121	
+T122	Thing-Nominal 1092 1094	大山
+T123	Location-Nominal 1083 1086	深山里
+T124	Thing-Nominal 1063 1066	凤凰镇
+R20	Located Arg1:T124 Arg2:T123	
+T125	Time-Explicit 1037 1046	上世纪三十年代以后
+T126	Thing-Nominal 1098 1100	古镇
+T127	Thing-Nominal 1113 1119	现代商业城市
+T128	Location-Nominal 1131 1133	山外
+T129	Thing-Nominal 1179 1183	人间烟火
+T130	Thing-Nominal 1186 1188	古镇
+T131	Thing-Nominal 1173 1175	古镇
+T132	Person-Nominal 1155 1156	人
+T133	Person-Nominal 1146 1148	店家
+T134	Person-Nominal 1141 1143	游客
+T135	Person-Pronoun 1135 1136	我
+T136	Thing-Nominal 1197 1201	袅袅烟气
+T137	Thing-Nominal 1206 1208	古镇
+T138	Thing-Nominal 1232 1234	古镇
+T139	Person-Name 1246 1249	杨孝琴
+T140	Person-Nominal 1250 1263	陕西省旬阳县人大常委会干部
+T141	Person-Nominal 1264 1271	安康市作协会员
+T142	Abstract 1281 1285	《觅迹》
+T143	Abstract 1300 1304	《小村》
+T144	Abstract 1325 1333	《秋访王愚老家》

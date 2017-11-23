@@ -1,0 +1,424 @@
+T1	Thing-Name 0 2	华山
+T2	Thing-Name 4 6	西岳
+T3	Person-Pronoun 29 30	我
+T4	Thing-Name 37 39	五岳
+T5	Thing-Name 8 12	中华五岳
+*	Coreference T1 T2
+R1	Part-Whole Arg1:T2 Arg2:T5	
+T6	Time-Explicit 48 53	2012年
+T7	Person-Pronoun 54 55	我
+T8	Location-Name 67 69	华山
+T9	Thing-Name 71 73	五岳
+T10	Thing-Name 76 78	泰山
+T11	Thing-Name 79 81	泰山
+T12	Thing-Name 83 85	东岳
+*	Coreference T11 T12
+T13	Thing-Name 87 91	西岳华山
+T14	Person-Pronoun 94 95	我
+T15	Person-Name 102 106	孔老夫子
+T16	Location-Nominal 107 109	泰山
+T17	Location-Name 115 117	泰山
+T18	Location-Name 126 130	齐鲁大地
+T19	Person-Pronoun 146 147	我
+T20	Person-Nominal 154 158	教书先生
+T21	Person-Nominal 165 169	凡夫俗子
+T22	Person-Nominal 197 199	君子
+T23	Time-Implicit 206 210	几百年后
+T24	Person-Nominal 218 223	落魄的书生
+T25	Location-Nominal 143 145	高山
+*	Coreference T16 T25
+T26	Location-Name 226 228	泰山
+T27	Location-Name 245 247	齐鲁
+T28	Person-Name 284 287	孔夫子
+T29	Person-Pronoun 292 293	他
+*	Coreference T29 T28 T30
+T30	Person-Nominal 294 298	至圣先师
+T31	Location-Nominal 299 300	庙
+T32	Person-Pronoun 302 303	他
+T33	Person-Name 307 311	后生杜甫
+T34	Time-Explicit 316 318	唐朝
+T35	Person-Nominal 319 321	小吏
+T36	Person-Nominal 357 359	人们
+T37	Person-Pronoun 361 362	他
+T38	Person-Nominal 364 366	诗圣
+*	Coreference T37 T38 T33 T35
+T39	Person-Nominal 376 380	文人墨客
+T40	Location-Name 410 412	泰山
+T41	Thing-Nominal 413 415	石壁
+R2	Located Arg1:T41 Arg2:T40	
+T42	Person-Nominal 425 427	自己
+*	Coreference T42 T39
+T43	Person-Nominal 445 447	皇帝
+T44	Location-Name 465 467	泰山
+T45	Location-Nominal 484 486	他家
+T46	Location-Name 494 497;498 499	齐鲁大 地
+T47	Location-Name 516 518	泰山
+T48	Location-Name 525 528	十八盘
+R3	Part-Whole Arg1:T48 Arg2:T47	
+T49	Location-Name 531 534	十八盘
+T50	Location-Name 537 540	南天门
+T51	Location-Name 541 544	南天门
+T52	Location-Name 546 548	天街
+R4	Part-Whole Arg1:T52 Arg2:T51	
+R5	Part-Whole Arg1:T51 Arg2:T47	
+T53	Location-Name 563 565	天街
+T54	Person-Name 566 569	郭沫若
+T55	Person-Pronoun 570 571	他
+*	Coreference T54 T55
+T56	Person-Nominal 626 630	列位看官
+T57	Person-Pronoun 637 638	我
+T58	Person-Pronoun 661 662	我
+T59	Location-Name 663 665	泰山
+T60	Location-Name 682 684	泰山
+T61	Thing-Name 688 690	泰山
+T62	Thing-Nominal 699 701	高山
+T63	Thing-Pronoun 704 705	它
+*	Coreference T63 T62 T61
+T64	Person-Pronoun 724 725	我
+T65	Person-Pronoun 729 730	你
+T66	Thing-Name 739 741	泰山
+T67	Thing-Pronoun 754 755	它
+T68	Location-Name 757 759	华山
+T69	Thing-Pronoun 765 766	它
+T70	Thing-Pronoun 774 775	它
+T71	Thing-Nominal 779 783	泰山主峰
+*	Coreference T66 T67
+T72	Metric 785 790	1545米
+T73	Thing-Nominal 791 795	华山主峰
+T74	Metric 797 802	2169米
+T75	Thing-Name 803 805	泰山
+*	Coreference T4 T5
+T76	Thing-Name 806 808	华山
+T77	Person-Pronoun 816 817	我
+T78	Thing-Name 818 820	华山
+T79	Person-Pronoun 861 862	我
+T80	Time-Implicit 854 860	看那部电影时
+T81	Person-Pronoun 883 885	我们
+T82	Person-Nominal 883 891	我们的解放军战士
+R6	Social Arg1:T81 Arg2:T82	
+T83	Person-Nominal 894 896	土匪
+R7	Social Arg1:T82 Arg2:T83	
+T84	Person-Nominal 900 903	解放军
+T85	Location-Name 904 906	华山
+T86	Person-Pronoun 912 913	我
+T87	Location-Nominal 916 918	我家
+T89	Location-Nominal 922 924	山坡
+T88	Location-Nominal 918 920	院子
+R8	Part-Whole Arg1:T88 Arg2:T87	
+R9	Near Arg1:T89 Arg2:T88	
+T90	Person-Pronoun 930 931	我
+T91	Location-Name 942 948	祖国首都北京
+T92	Thing-Nominal 950 952	地图
+T93	Location-Name 955 957	西安
+T94	Location-Pronoun 958 962	我们那里
+T95	Person-Nominal 967 969	大家
+T96	Location-Name 980 982	西安
+T97	Location-Name 983 985	西安
+T98	Location-Nominal 986 990	华夏古都
+*	Coreference T97 T98
+T99	Person-Pronoun 1000 1002	我们
+*	Coreference T99 T95
+T100	Location-Name 1003 1005	西安
+T101	Location-Name 1008 1011	兵马俑
+T102	Location-Name 1012 1016	秦陵地宫
+T103	Location-Name 1017 1020	捉蒋亭
+T104	Location-Nominal 1026 1034	贵妃洗澡，的地方
+T105	Location-Name 1035 1038	华清池
+*	Coreference T104 T105
+T106	Person-Pronoun 1054 1055	我
+T107	Person-Nominal 1063 1065	自己
+*	Coreference T106 T107 T108
+T108	Person-Nominal 1066 1076	开了眼界见过世面的人
+T109	Location-Nominal 1080 1082	街上
+T110	Time-Explicit 1097 1106	2012年五一前夕
+T111	Person-Pronoun 1107 1108	我
+T112	Person-Nominal 1113 1115	自己
+*	Coreference T111 T112
+T113	Person-Nominal 1129 1131	国人
+T114	Time-Explicit 1140 1146	今年五一前夕
+T115	Person-Pronoun 1147 1148	我
+T116	Thing-Name 1153 1157	达陕高速
+T117	Organization-Nominal 1197 1199	国家
+T118	Time-Explicit 1201 1209	五个月后的国庆时
+T119	Time-Implicit 1218 1221	那时候
+T120	Person-Nominal 1231 1240	一个自驾游的爱好者
+T121	Thing-Nominal 1241 1245	达陕高速
+T122	Person-Name 1270 1272	李白
+*	Coreference T115 T120
+T123	Location-Name 1277 1279	蜀道
+T124	Thing-Name 1287 1291	达陕高速
+T125	Thing-Nominal 1318 1319	桥
+T126	Thing-Nominal 1320 1321	洞
+T127	Person-Nominal 1325 1329	我的爱人
+T128	Thing-Nominal 1342 1344	隧洞
+T129	Location-Name 1347 1349	西安
+T130	Person-Pronoun 1350 1351	我
+T131	Person-Pronoun 1371 1372	我
+T132	Person-Pronoun 1379 1380	我
+T133	Location-Name 1384 1386	陕西
+T134	Thing-Name 1392 1394	华山
+T135	Thing-Nominal 1403 1405	蛟龙
+T136	Person-Pronoun 1409 1410	我
+T137	Thing-Name 1416 1418	华山
+T138	Location-Name 1419 1421	陕西
+R10	Located Arg1:T137 Arg2:T138	
+T139	Location-Name 1424 1426	西安
+R11	Part-Whole Arg1:T139 Arg2:T138	
+T140	Metric 1428 1432	九十公里
+T141	Person-Pronoun 1449 1450	我
+T142	Person-Nominal 1459 1461	别人
+T143	Person-Nominal 1464 1466	自己
+*	Coreference T141 T143
+T144	Thing-Nominal 1477 1481	井底之蛙
+T145	Thing-Name 1491 1493	华山
+T146	Person-Pronoun 1495 1496	我
+T147	Time-Explicit 1501 1505	二十年后
+T148	Person-Pronoun 1510 1511	我
+T149	Time-Implicit 1519 1522	出发前
+T150	Person-Nominal 1546 1550	我的驴友
+T151	Person-Nominal 1556 1558	大家
+*	Coreference T151 T150
+T152	Person-Nominal 1560 1562	自己
+R12	Social Arg1:T152 Arg2:T150	
+T153	Thing-Name 1572 1574	华山
+T154	Thing-Name 1581 1583	华山
+T155	Thing-Nominal 1593 1595	石头
+*	Coreference T154 T155
+T156	Person-Nominal 1598 1600	自己
+T157	Thing-Name 1601 1603	华山
+T158	Person-Pronoun 1611 1612	我
+*	Coreference T156 T158
+T159	Location-Name 1614 1616	华山
+T160	Person-Pronoun 1619 1620	我
+T161	Person-Pronoun 1624 1626	我们
+T162	Location-Name 1628 1630	华山
+T163	Thing-Name 1645 1647	华山
+T164	Person-Pronoun 1656 1658	我们
+T165	Thing-Name 1663 1665	北峰
+T166	Person-Pronoun 1666 1668	我们
+T167	Location-Name 1672 1674	华山
+T168	Person-Nominal 1675 1680	解放军英雄
+T169	Location-Name 1693 1695	华山
+T170	Person-Nominal 1699 1704	解放军战士
+T171	Person-Pronoun 1708 1710	我们
+T172	Person-Pronoun 1717 1719	我们
+T173	Location-Nominal 1725 1728	北峰顶
+T174	Person-Name 1729 1731	金庸
+T175	Person-Pronoun 1758 1760	我们
+T176	Person-Nominal 1762 1766;1767 1768	金庸的粉 丝
+*	Coreference T175 T176
+T177	Location-Name 1780 1782	华山
+T178	Person-Nominal 1794 1798	英雄豪杰
+T179	Time-Implicit 1813 1816	这时候
+T180	Location-Nominal 1818 1820	北峰
+T181	Location-Name 1831 1834	苍龙岭
+T182	Thing-Nominal 1839 1841	蛟龙
+T183	Person-Pronoun 1852 1854	我们
+T184	Location-Name 1855 1858	苍龙岭
+T185	Person-Nominal 1877 1879	别人
+T186	Person-Pronoun 1885 1886	我
+T187	Person-Nominal 1913 1918	有文人墨客
+T188	Time-Implicit 1924 1927	这时候
+T189	Person-Pronoun 1928 1930	我们
+T190	Person-Pronoun 1944 1946	我们
+T191	Person-Name 1960 1962	韩愈
+T192	Person-Nominal 2004 2006	侄儿
+R13	Family Arg1:T192 Arg2:T191	
+T193	Person-Name 2012 2015	韩湘子
+*	Coreference T193 T192
+T194	Person-Nominal 2006 2008	八仙
+R14	Part-Whole Arg1:T193 Arg2:T194	
+T195	Location-Name 2022 2024	华山
+T196	Location-Nominal 2028 2029	山
+*	Coreference T196 T195
+T197	Location-Name 2032 2035	苍龙岭
+T198	Thing-Nominal 2063 2065	老虎
+T199	Person-Pronoun 2077 2078	我
+T200	Person-Pronoun 2091 2092	我
+T201	Location-Name 2096 2098	华山
+T202	Thing-Nominal 2105 2107	石梯
+R15	Located Arg1:T202 Arg2:T201	
+T203	Thing-Nominal 2130 2132;2133 2134	铁栏 杆
+R16	Located Arg1:T203 Arg2:T201	
+T204	Person-Name 2135 2137	韩愈
+T205	Person-Nominal 2142 2144	仙人
+T206	Person-Name 2162 2164	韩愈
+T207	Person-Nominal 2186 2190	谦谦君子
+T208	Person-Nominal 2200 2204	我的小孩
+T209	Person-Pronoun 2205 2206	我
+R17	Family Arg1:T208 Arg2:T209	
+T210	Location-Name 2210 2212	华山
+T211	Thing-Nominal 2214 2216	照片
+T212	Person-Nominal 2222 2224	博友
+T213	Person-Pronoun 2227 2228	她
+R18	Social Arg1:T212 Arg2:T213	
+*	Coreference T213 T208
+T214	Person-Nominal 2232 2234	孩子
+T215	Person-Name 2257 2259	韩愈
+T216	Person-Pronoun 2266 2267	我
+*	Coreference T216 T214
+R19	Create Arg1:T208 Arg2:T211	
+T217	Thing-Nominal 2274 2276	苍龙
+T218	Thing-Nominal 2278 2280	老龙
+*	Coreference T217 T218
+T219	Person-Pronoun 2283 2285	我们
+T220	Thing-Nominal 2298 2302	华山五峰
+T221	Thing-Nominal 2304 2306	苍龙
+T222	Person-Pronoun 2317 2318	我
+T223	Thing-Nominal 2329 2332	大石头
+T224	Person-Nominal 2352 2356	我的家人
+T225	Person-Pronoun 2359 2360	我
+R20	Family Arg1:T225 Arg2:T224	
+T226	Person-Pronoun 2363 2364	我
+T227	Thing-Name 2377 2381	华山五峰
+T228	Thing-Name 2382 2384	南峰
+T229	Person-Pronoun 2387 2389	我们
+T230	Location-Name 2394 2396	南峰
+T231	Location-Name 2399 2402	南天门
+T232	Location-Name 2403 2406	南天门
+T233	Location-Name 2415 2419	长空栈道
+R21	Near Arg1:T233 Arg2:T232	
+R22	Part-Whole Arg1:T231 Arg2:T230	
+T234	Person-Pronoun 2420 2421	我
+T235	Person-Nominal 2423 2425	家人
+R23	Family Arg1:T234 Arg2:T235	
+T236	Person-Pronoun 2431 2432	我
+T237	Location-Nominal 2440 2442	山坡
+T238	Metric 2447 2450	五六米
+T239	Person-Nominal 2460 2462	游人
+T240	Location-Nominal 2468 2470	绝壁
+T241	Location-Nominal 2474 2476	栈道
+R24	Located Arg1:T241 Arg2:T240	
+T242	Person-Nominal 2480 2484	工作人员
+T243	Location-Pronoun 2486 2488	那里
+*	Coreference T243 T241
+T244	Person-Pronoun 2489 2490	我
+T245	Person-Nominal 2497 2498;2499 2502	工 作人员
+T246	Person-Pronoun 2505 2506	我
+*	Coreference T245 T246
+T247	Person-Pronoun 2520 2521	我
+T248	Person-Nominal 2530 2534	工作人员
+T249	Person-Pronoun 2535 2536	我
+T250	Person-Pronoun 2541 2542	我
+T251	Thing-Nominal 2518 2519	票
+T252	Thing-Nominal 2525 2526	票
+T253	Thing-Nominal 2546 2547	票
+T254	Location-Name 2554 2558	长空栈道
+T255	Location-Nominal 2568 2570	栈道
+*	Coreference T255 T254
+T256	Location-Nominal 2582 2584	脚下
+T257	Thing-Nominal 2593 2595	木板
+R25	Located Arg1:T257 Arg2:T256	
+T258	Thing-Nominal 2601 2606	铁链子扶手
+R26	Located Arg1:T258 Arg2:T257	
+T259	Location-Nominal 2642 2644	石壁
+T260	Person-Pronoun 2695 2696	我
+T261	Person-Nominal 2699 2707	天不怕地不怕的人
+*	Coreference T260 T261
+T262	Person-Pronoun 2734 2735	我
+T263	Location-Nominal 2737 2739	栈道
+T264	Person-Pronoun 2745 2746	我
+T265	Person-Pronoun 2754 2755	我
+T266	Time-Implicit 2763 2769	我回头的时候
+T267	Person-Pronoun 2770 2771	我
+T268	Person-Nominal 2776 2782	一个美国青年
+T269	Person-Pronoun 2785 2786	我
+T270	Person-Nominal 2787 2790	中国人
+T271	Person-Pronoun 2795 2796	我
+*	Coreference T269 T270
+R27	Social Arg1:T267 Arg2:T268	
+T272	Person-Pronoun 2806 2807	我
+T273	Person-Nominal 2812 2816	咱中国人
+T274	Person-Pronoun 2819 2820	我
+T275	Thing-Nominal 2826 2828	铁链
+R28	Use Arg1:T274 Arg2:T275	
+T276	Location-Nominal 2841 2847	栈道的半中间
+T277	Time-Implicit 2848 2851	这时候
+T278	Person-Pronoun 2852 2853	我
+T279	Person-Nominal 2856 2859	美国佬
+*	Coreference T268 T279
+T280	Person-Pronoun 2877 2878	我
+T281	Person-Nominal 2879 2881	老师
+R29	Social Arg1:T280 Arg2:T281	
+T282	Person-Pronoun 2882 2883	我
+T283	Person-Pronoun 2901 2903	他们
+*	Coreference T283 T281
+T284	Person-Nominal 2905 2908	美国佬
+T285	Person-Pronoun 2914 2915	我
+T286	Person-Pronoun 2936 2937	我
+T287	Person-Nominal 2941 2950	一位二十多岁的大学
+T288	Person-Nominal 2952 2954	老师
+T289	Person-Nominal 2966 2968	老师
+R30	Social Arg1:T287 Arg2:T288	
+T290	Person-Pronoun 2971 2972	我
+T291	Person-Nominal 2982 2985	大学生
+T292	Person-Pronoun 2988 2989	我
+R31	Social Arg1:T291 Arg2:T292	
+T293	Person-Nominal 2990 2993	美国佬
+T294	Person-Pronoun 2994 2995	我
+T295	Person-Pronoun 2996 2997	他
+*	Coreference T295 T293
+T296	Thing-Nominal 3016 3018	铁链
+T297	Location-Nominal 3033 3035	绝壁
+T298	Person-Pronoun 3038 3039	我
+T299	Person-Nominal 3042 3045	中国人
+*	Coreference T298 T299
+T300	Person-Pronoun 3066 3067	我
+T301	Person-Nominal 3069 3072	美国佬
+T302	Thing-Nominal 3073 3075	相机
+T303	Person-Pronoun 3085 3086	我
+T304	Thing-Nominal 3092 3094	铁链
+R33	Use Arg1:T303 Arg2:T304	
+T305	Person-Nominal 3096 3099	大学生
+T306	Thing-Nominal 3101 3103	相机
+T307	Person-Pronoun 3110 3111	我
+T308	Thing-Nominal 3127 3129	铁链
+T309	Thing-Nominal 3132 3134	相机
+R32	Use Arg1:T300 Arg2:T302	
+R34	Use Arg1:T307 Arg2:T309	
+T310	Person-Nominal 3135 3138	大学生
+T311	Person-Pronoun 3164 3165	我
+T312	Person-Nominal 3167 3169;3170 3171	胆小 鬼
+*	Coreference T311 T312
+T313	Person-Pronoun 3176 3177	他
+T314	Person-Pronoun 3185 3186	他
+*	Coreference T313 T310
+T315	Person-Pronoun 3198 3200	我们
+T316	Person-Nominal 3206 3214	一对热恋中的男女
+T317	Person-Nominal 3215 3217	男的
+T318	Location-Name 3230 3232	华山
+T319	Person-Nominal 3239 3241	女的
+T320	Person-Pronoun 3249 3250;3251 3252	我 们
+T321	Person-Pronoun 3260 3262	我们
+T322	Location-Name 3270 3274	长空栈道
+T323	Person-Pronoun 3277 3278	我
+T324	Location-Name 3281 3283	华山
+T325	Person-Pronoun 3295 3296	我
+T326	Person-Pronoun 3312 3314	我们
+T327	Person-Nominal 3328 3332	华山挑夫
+T328	Person-Pronoun 3333 3335	他们
+*	Coreference T328 T327
+T329	Time-Implicit 3335 3337	每天
+T330	Location-Nominal 3341 3342	山
+T331	Person-Pronoun 3350 3352	他们
+T332	Person-Pronoun 3353 3354	我
+T333	Person-Pronoun 3363 3364	我
+T334	Location-Name 3371 3373	华山
+*	Coreference T330 T334
+T335	Person-Nominal 3377 3381	文人墨客
+T336	Thing-Nominal 3390 3392	苍松
+T337	Thing-Nominal 3392 3394	翠柏
+T338	Location-Nominal 3406 3408	道观
+T340	Person-Name 3416 3418	老聃
+T339	Person-Nominal 3409 3415	道教的祖师爷
+*	Coreference T340 T339
+T341	Person-Nominal 3490 3494	皇帝老儿
+T342	Person-Nominal 3501 3503	有人
+T343	Location-Name 3507 3509	华山
+T344	Location-Name 3515 3517	陕西
+R35	Part-Whole Arg1:T343 Arg2:T344	
+T345	Person-Pronoun 3518 3519	我
+T346	Location-Name 3523 3525	华山
+T347	Location-Name 3530 3532	五岳
+T348	Location-Name 3533 3535	华山
+T349	Person-Pronoun 3541 3542	我

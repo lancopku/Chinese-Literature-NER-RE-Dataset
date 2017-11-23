@@ -1,0 +1,145 @@
+T1	Person-Pronoun 8 9	我
+T2	Person-Pronoun 10 11	我
+T3	Person-Pronoun 14 15	我
+T4	Time-Implicit 15 17	童年
+T5	Location-Nominal 22 24	村庄
+T6	Thing-Nominal 62 63	风
+T7	Thing-Nominal 66 68	秋叶
+T8	Thing-Nominal 70 72	风雨
+T9	Location-Pronoun 90 92	那里
+*	Coreference T9 T5
+T10	Person-Nominal 93 96	父辈们
+T11	Person-Pronoun 102 104	他们
+*	Coreference T11 T10 T13 T14 T16 T19
+T12	Location-Nominal 107 109	村庄
+T13	Person-Pronoun 112 114	他们
+T14	Person-Pronoun 127 129	他们
+T15	Location-Nominal 137 139	村庄
+T16	Person-Nominal 154 156	自己
+T17	Person-Nominal 157 160	儿孙们
+R1	Family Arg1:T16 Arg2:T17	
+T18	Thing-Nominal 167 169	食粮
+T19	Person-Pronoun 173 175	他们
+T20	Location-Nominal 178 180	村庄
+T21	Time-Implicit 207 209	来年
+T22	Thing-Nominal 211 212	花
+T23	Person-Pronoun 235 237	他们
+T24	Thing-Nominal 237 238	骨
+T25	Person-Nominal 243 244	人
+T26	Thing-Nominal 249 251	韭菜
+T27	Person-Nominal 268 272	他们祖辈
+R2	Family Arg1:T23 Arg2:T27	
+T28	Location-Nominal 273 275	村庄
+T29	Person-Pronoun 288 290	他们
+T30	Thing-Nominal 296 298	春燕
+T31	Location-Nominal 310 312	村庄
+T32	Thing-Nominal 314 316	他们
+T33	Location-Nominal 320 324	这块土地
+*	Coreference T33 T31
+T34	Location-Nominal 346 348	村里
+T35	Person-Nominal 355 357	孩子
+T36	Location-Nominal 359 361	村庄
+T37	Location-Nominal 362 364	山外
+T38	Person-Pronoun 374 376	他们
+T39	Person-Nominal 383 389	村里的年轻人
+R3	Social Arg1:T38 Arg2:T39	
+T40	Person-Nominal 412 417	他们的父辈
+T41	Thing-Nominal 421 423	红土
+T42	Person-Pronoun 431 433	他们
+R4	Family Arg1:T38 Arg2:T40	
+T43	Person-Nominal 440 442	自己
+T44	Person-Nominal 448 450	自己
+*	Coreference T44 T43 T35 T38 T42
+T45	Person-Nominal 462 465	村里人
+T46	Location-Nominal 487 489	外面
+T47	Person-Nominal 500 504	跟随者们
+T48	Location-Nominal 506 508	村庄
+T49	Person-Pronoun 524 526	他们
+*	Coreference T49 T47 T52 T53 T54
+R5	General-Special Arg1:T47 Arg2:T45	
+T50	Person-Nominal 529 532	先行者
+T51	Person-Nominal 540 542	别人
+T52	Person-Nominal 544 546	自己
+R6	Social Arg1:T49 Arg2:T51	
+T53	Person-Pronoun 555 557	他们
+T54	Person-Pronoun 573 575	他们
+T55	Person-Nominal 580 583	父辈们
+R7	Family Arg1:T54 Arg2:T55	
+T56	Location-Nominal 609 611	外面
+T57	Person-Pronoun 619 621	他们
+T58	Person-Pronoun 674 676	他们
+T59	Person-Nominal 717 719	人们
+T60	Thing-Nominal 723 724	纸
+T61	Person-Pronoun 727 729	他们
+R8	Social Arg1:T59 Arg2:T61	
+T62	Person-Nominal 735 737	别人
+T63	Location-Nominal 764 766	外面
+T64	Person-Nominal 789 791	家人
+R9	Family Arg1:T61 Arg2:T64	
+T65	Person-Nominal 803 805	家人
+T66	Location-Nominal 809 811	家里
+T67	Person-Nominal 877 883	极少数的孩子
+T68	Location-Nominal 884 886	异乡
+T69	Location-Pronoun 893 894	那
+*	Coreference T68 T69
+T70	Person-Nominal 895 896	妻
+T71	Person-Nominal 897 898	子
+T72	Person-Nominal 902 904	人妻
+R10	General-Special Arg1:T72 Arg2:T67	
+R11	Family Arg1:T70 Arg2:T67	
+R12	Family Arg1:T71 Arg2:T67	
+T73	Thing-Nominal 914 917	格子房
+T74	Person-Pronoun 921 923	他们
+*	Coreference T67 T74 T76
+T75	Location-Nominal 931 933	村庄
+T76	Person-Pronoun 939 941	他们
+T77	Person-Nominal 958 965	大多数的孩子们
+T78	Thing-Nominal 971 973	浮萍
+T79	Location-Nominal 1006 1008	港湾
+T80	Thing-Nominal 1023 1025	小窝
+T81	Person-Pronoun 1027 1029	他们
+*	Coreference T81 T77 T82 T88 T85
+T82	Person-Pronoun 1048 1050	他们
+T83	Person-Nominal 1056 1059	失败者
+T84	Person-Nominal 1078 1082	他们父辈
+T85	Person-Pronoun 1083 1085	他们
+T86	Time-Implicit 1085 1087	童年
+T87	Location-Nominal 1088 1090	土地
+T88	Person-Pronoun 1091 1093	他们
+T89	Thing-Nominal 1101 1102	云
+T90	Location-Nominal 1106 1108	故乡
+*	Coreference T87 T90
+T91	Person-Nominal 1190 1194	后辈子孙
+T92	Location-Nominal 1195 1196;1197 1198	村 庄
+T93	Location-Nominal 1222 1224	村庄
+T94	Thing-Nominal 1235 1237	杜鹃
+T95	Location-Nominal 1245 1247	山岗
+R13	Located Arg1:T94 Arg2:T95	
+T96	Thing-Nominal 1251 1253	溪流
+T97	Time-Implicit 1268 1270	晨起
+T98	Thing-Nominal 1271 1273	炊烟
+T99	Person-Nominal 1286 1288	游子
+T100	Location-Nominal 1291 1293	村庄
+T101	Person-Nominal 1296 1298	父母
+R14	Family Arg1:T99 Arg2:T101	
+T102	Thing-Nominal 1312 1314	图画
+T103	Person-Nominal 1352 1355	孩子们
+R15	General-Special Arg1:T103 Arg2:T99	
+T104	Person-Nominal 1368 1370	父母
+R16	Family Arg1:T103 Arg2:T104	
+T105	Thing-Nominal 1386 1388	昙花
+T106	Thing-Nominal 1408 1409	花
+T107	Thing-Nominal 1411 1412	雨
+T108	Person-Nominal 1424 1427	孩子们
+T109	Location-Nominal 1431 1433	村里
+T110	Person-Nominal 1438 1440	父母
+R17	Family Arg1:T108 Arg2:T110	
+T111	Thing-Nominal 1455 1457	流星
+T112	Thing-Nominal 1467 1469	日记
+T113	Person-Nominal 1487 1489	儿孙
+T114	Location-Nominal 1492 1494	村庄
+T115	Location-Nominal 1514 1516	村庄
+T116	Person-Nominal 1520 1522	父母
+T117	Person-Nominal 1528 1530	游子
+T118	Thing-Nominal 1541 1543	花朵
+T119	Thing-Nominal 1550 1552	果实

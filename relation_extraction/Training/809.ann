@@ -1,0 +1,85 @@
+T1	Person-Pronoun 0 1	我
+T2	Time-Implicit 10 12	儿时
+T3	Thing-Nominal 22 24	清涕
+T4	Thing-Nominal 20 21	鼻
+R1	Part-Whole Arg1:T4 Arg2:T1	
+T5	Person-Nominal 28 30	母亲
+R2	Family Arg1:T1 Arg2:T5	
+T6	Person-Pronoun 42 43	我
+T7	Location-Nominal 63 64	家
+T8	Location-Nominal 65 67	门前
+T9	Location-Name 69 72	环城湖
+R3	Located Arg1:T9 Arg2:T8	
+T10	Time-Implicit 76 78	童年
+T11	Person-Pronoun 90 91	我
+T12	Location-Nominal 93 95	天堂
+*	Coreference T9 T12
+T13	Person-Nominal 97 99	母亲
+T14	Location-Nominal 103 105	岸边
+T15	Person-Nominal 109 113	我们兄弟
+T16	Location-Nominal 114 115	家
+R4	Family Arg1:T15 Arg2:T13	
+T17	Person-Nominal 120 121;122 123	有 人
+T18	Person-Nominal 128 130	孩子
+T19	Location-Nominal 132 134	你家
+T20	Person-Nominal 135 139	两个小子
+*	Coreference T18 T20
+T21	Location-Nominal 142 144	水里
+T22	Metric 147 149	半天
+T23	Person-Nominal 158 160	母亲
+T24	Person-Pronoun 185 187	我们
+T25	Thing-Nominal 201 202	水
+T26	Metric 224 227	几十年
+T27	Time-Implicit 238 240	童年
+T28	Thing-Nominal 257 258	水
+T29	Person-Pronoun 267 268	我
+T30	Time-Implicit 281 283	每年
+T31	Time-Implicit 285 287	夏季
+T32	Person-Pronoun 288 289	我
+T33	Thing-Nominal 302 304	秋风
+T34	Thing-Nominal 307 309	湖水
+T35	Thing-Nominal 318 320	冷风
+T36	Thing-Nominal 321 323	凉水
+T37	Thing-Nominal 325 326	水
+T39	Thing-Nominal 341 343	颈椎
+T40	Thing-Nominal 344 345	腰
+T41	Thing-Nominal 346 347	背
+T38	Thing-Nominal 379 381	湖水
+T42	Person-Nominal 389 391	诗人
+T43	Time-Implicit 402 406	30多年
+T44	Location-Name 408 410	泰山
+T45	Location-Nominal 422 424	顶峰
+T46	Thing-Nominal 448 450	被窝
+T47	Person-Pronoun 489 490	我
+T48	Person-Name 519 522	赵本山
+T49	Time-Explicit 564 566	如今
+T50	Time-Explicit 568 574	11月的中旬
+T51	Person-Pronoun 585 587	我们
+T52	Person-Nominal 590 593	神经病
+*	Coreference T51 T52
+T53	Thing-Nominal 596 598	湖水
+T54	Person-Nominal 601 603	有人
+T55	Person-Nominal 625 627	同行
+T56	Metric 631 633	数年
+T57	Time-Implicit 642 644	每年
+T58	Time-Implicit 659 663	每天清晨
+T59	Thing-Nominal 665 667	棉衣
+T60	Thing-Nominal 669 671	泳裤
+T61	Person-Nominal 708 710	别人
+T62	Person-Pronoun 714 715	我
+R5	Social Arg1:T62 Arg2:T55	
+T63	Person-Nominal 727 732	最爱水的人
+*	Coreference T62 T63
+T64	Thing-Nominal 740 741	水
+T65	Location-Nominal 750 752	深渊
+T66	Person-Pronoun 754 755	你
+T67	Thing-Nominal 761 762	刀
+T68	Location-Nominal 781 783	地狱
+T69	Metric 808 811	50米
+T70	Person-Pronoun 869 870	我
+T71	Person-Nominal 881 884	冬泳者
+T72	Location-Nominal 905 907	湖面
+T73	Person-Pronoun 921 922	我
+T74	Person-Nominal 930 935	勇(泳)者
+T75	Thing-Nominal 944 945;946 947	大 雪
+T76	Person-Pronoun 965 966	我

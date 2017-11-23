@@ -1,0 +1,132 @@
+T1	Person-Pronoun 0 1	我
+T2	Time-Implicit 11 13	至今
+T3	Time-Implicit 23 27	暑假期间
+T4	Person-Nominal 29 32	小孙子
+R1	Family Arg1:T4 Arg2:T1	
+T5	Location-Nominal 33 35	公园
+T6	Location-Name 36 42	老战友俱乐部
+R2	Part-Whole Arg1:T6 Arg2:T5	
+T7	Organization-Nominal 46 49	老头队
+T8	Thing-Nominal 50 51	棋
+T9	Person-Nominal 53 56	小孙子
+T10	Thing-Nominal 58 60	象棋
+T11	Person-Pronoun 66 67	我
+T12	Thing-Nominal 74 75	车
+T13	Thing-Nominal 78 79	马
+T14	Thing-Nominal 87 88	象
+T15	Person-Nominal 98 101	小孙子
+T16	Organization-Nominal 103 109	老战友俱乐部
+T17	Person-Nominal 118 121	小孙子
+T18	Person-Pronoun 129 130	我
+R3	Family Arg1:T18 Arg2:T17	
+T19	Person-Pronoun 137 138	他
+*	Coreference T19 T17
+T20	Person-Pronoun 141 142	我
+T21	Location-Nominal 145 147	商店
+T22	Thing-Nominal 151 153	象棋
+T23	Person-Pronoun 156 157	我
+T24	Person-Nominal 176 179	小孙子
+T25	Person-Pronoun 184 185	他
+*	Coreference T25 T24
+T26	Person-Pronoun 188 189	我
+T27	Person-Nominal 219 222	小孙子
+T28	Person-Nominal 238 244	六岁的小孙子
+T29	Person-Pronoun 247 248	我
+T30	Person-Pronoun 255 256	我
+T31	Person-Pronoun 266 267	他
+*	Coreference T31 T28
+T32	Person-Nominal 276 279	“爷爷
+*	Coreference T30 T32
+R4	Family Arg1:T32 Arg2:T31	
+T33	Location-Nominal 297 301	街头地摊
+T34	Location-Nominal 304 307	大树下
+T35	Person-Nominal 345 348	中国人
+T36	Person-Nominal 376 382	性格急躁的人
+T37	Person-Nominal 384 386	对方
+T38	Person-Pronoun 387 388	他
+T39	Person-Pronoun 392 393	他
+*	Coreference T36 T38
+T40	Person-Pronoun 402 403	他
+T41	Person-Nominal 427 432	慢性格的人
+T42	Person-Nominal 434 436	对方
+T43	Time-Implicit 472 476	半个小时
+T44	Person-Pronoun 483 484	我
+T45	Person-Nominal 487 496	想从中学点棋艺的人
+*	Coreference T45 T44
+T46	Person-Pronoun 517 518	我
+T47	Person-Nominal 540 543	有的人
+T48	Person-Pronoun 561 562	我
+T49	Person-Name 572 575	梁秋实
+T50	Person-Pronoun 610 611	我
+T51	Person-Nominal 638 647	赶尽杀绝一步不让者
+T52	Person-Nominal 649 658	好勇斗狠同归于尽者
+T53	Person-Nominal 660 669	一面下棋一面讥骂者
+T54	Person-Nominal 692 696	看下棋者
+T55	Person-Pronoun 715 717	他们
+*	Coreference T55 T54
+T56	Location-Nominal 719 722	门后角
+T57	Person-Pronoun 741 742	他
+T58	Person-Nominal 749 752	被挖者
+T59	Person-Pronoun 797 798	我
+T60	Location-Nominal 867 869	桌上
+T61	Person-Pronoun 909 910	我
+T62	Person-Nominal 916 918	有人
+T63	Person-Nominal 938 942	两个朋友
+T64	Person-Pronoun 936 937	我
+R5	Social Arg1:T63 Arg2:T64	
+T65	Thing-Nominal 959 961	棋子
+T66	Thing-Nominal 965 967	盘上
+R6	Located Arg1:T65 Arg2:T66	
+T67	Thing-Nominal 970 972	屋瓦
+T68	Person-Nominal 977 984	一位棋瘾较小者
+T69	Person-Nominal 990 992	对方
+T70	Person-Pronoun 999 1000	你
+T71	Person-Pronoun 1005 1006	你
+*	Coreference T69 T70
+T72	Person-Pronoun 1053 1054	我
+T73	Person-Nominal 1076 1078	对方
+T74	Person-Name 1121 1124	彭老总
+T75	Person-Name 1125 1128	毛岸英
+T76	Person-Name 1132 1135	彭老总
+T77	Person-Name 1139 1142	毛岸英
+T78	Organization-Nominal 1152 1154	学校
+T79	Person-Name 1156 1161	一同事老吴
+T80	Person-Pronoun 1154 1155	我
+R7	Social Arg1:T80 Arg2:T79	
+T81	Person-Pronoun 1171 1172	我
+T82	Location-Nominal 1175 1179	学生宿舍
+T83	Person-Pronoun 1181 1182	他
+*	Coreference T83 T79
+T84	Person-Name 1183 1190	宿舍管理员老陈
+T85	Person-Name 1208 1210	老吴
+T86	Person-Name 1219 1221	老陈
+T87	Person-Name 1229 1231	老陈
+T88	Thing-Nominal 18 19	棋
+T89	Person-Nominal 822 824	神仙
+T90	Thing-Nominal 829 830	棋
+T91	Thing-Nominal 842 843	剑
+T92	Thing-Nominal 844 845	弩
+T93	Thing-Nominal 849 851	鹌鹑
+T94	Thing-Nominal 897 898	棋
+T95	Thing-Nominal 920 921	棋
+T96	Thing-Nominal 1015 1016	棋
+T97	Person-Nominal 1011 1013	此公
+*	Coreference T68 T97
+T98	Thing-Nominal 1030 1031	棋
+T99	Thing-Nominal 1040 1041	车
+T100	Thing-Nominal 1060 1061	棋
+T101	Thing-Nominal 1065 1066	棋
+T102	Thing-Nominal 1079 1080	棋
+T103	Thing-Nominal 1098 1099	棋
+T104	Person-Nominal 1102 1107	势均力敌者
+T105	Location-Name 1111 1115	朝鲜战场
+T106	Thing-Nominal 1129 1130	棋
+T107	Thing-Nominal 1136 1137	棋
+T108	Thing-Nominal 1163 1164	棋
+T109	Thing-Nominal 1191 1192	棋
+T110	Person-Nominal 1200 1202	双方
+R8	Part-Whole Arg1:T84 Arg2:T110	
+R9	Part-Whole Arg1:T83 Arg2:T110	
+T111	Thing-Nominal 1213 1214	棋
+T112	Thing-Nominal 1232 1233	棋
+T113	Person-Nominal 1254 1255	师

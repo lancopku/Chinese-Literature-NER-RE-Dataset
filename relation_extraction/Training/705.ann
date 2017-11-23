@@ -1,0 +1,221 @@
+T1	Person-Pronoun 1 3	我们
+T2	Location-Nominal 5 7	高峰
+T3	Location-Nominal 9 11	来路
+T4	Person-Nominal 24 26	我们
+T5	Location-Nominal 28 33	崎岖的小道
+T6	Location-Nominal 36 41	起伏的山峦
+T7	Location-Nominal 44 49	如画的田园
+T8	Location-Nominal 67 69	高峰
+T9	Person-Pronoun 79 81	我们
+T10	Metric 83 86	一道道
+T11	Metric 90 93	一重重
+T12	Person-Pronoun 95 97	我们
+T13	Thing-Nominal 99 101	荆棘
+T14	Thing-Nominal 103 105	泪水
+T15	Thing-Nominal 109 111	鲜花
+T16	Metric 117 120	一幕幕
+T17	Metric 128 131	一桩桩
+T18	Person-Pronoun 142 143	我
+T19	Person-Nominal 144 155	白发苍苍满面皱纹的老者
+*	Coreference T19 T18 T21
+T20	Location-Nominal 168 170	高峰
+T21	Person-Pronoun 175 176	我
+T22	Person-Nominal 179 182	年轻人
+T23	Person-Nominal 187 190	年轻人
+T24	Time-Implicit 208 210	当年
+T25	Person-Nominal 225 227	人们
+T26	Metric 233 235	一首
+T27	Time-Implicit 253 255	冬至
+T28	Time-Implicit 256 258	旧岁
+T29	Time-Implicit 263 265	新春
+T30	Person-Pronoun 270 271	我
+T31	Thing-Nominal 292 294	太阳
+T32	Time-Implicit 300 307	冬至这一天清晨
+T33	Person-Pronoun 308 309	我
+T34	Location-Nominal 312 314	窗前
+T35	Thing-Nominal 316 321	温暖的阳光
+T36	Thing-Nominal 327 329	寒风
+T37	Thing-Nominal 331 333	衣襟
+T38	Thing-Nominal 362 365	投影机
+T39	Metric 365 368	一幕幕
+T40	Time-Implicit 388 392	童年时代
+T41	Time-Implicit 394 396	昨天
+T42	Metric 416 419	一次次
+T43	Location-Nominal 420 423	稻草堆
+T44	Location-Nominal 429 432	晒谷场
+T45	Thing-Nominal 433 435	陀螺
+T46	Person-Pronoun 449 450	我
+T47	Person-Nominal 451 454	大孩子
+T48	Time-Implicit 459 461	月夜
+T49	Thing-Nominal 465 467	电筒
+T50	Thing-Nominal 468 470	青蛙
+T51	Thing-Nominal 471 473	田鼠
+T53	Thing-Nominal 499 502	树皮粥
+T52	Thing-Nominal 496 498	野菜
+T54	Thing-Nominal 517 519	山薯
+T55	Time-Implicit 544 548	少年时期
+T56	Time-Implicit 552 554	那时
+*	Coreference T56 T55
+T57	Thing-Nominal 566 567	书
+T58	Thing-Nominal 569 570	头
+T59	Thing-Nominal 571 572	脑
+*	Coreference T59 T58
+T60	Person-Nominal 585 587	校长
+T61	Person-Pronoun 590 591	我
+T62	Person-Pronoun 595 596	我
+T63	Metric 596 598	一片
+T64	Thing-Nominal 598 604;605 606	小小的油印奖 状
+T65	Person-Pronoun 612 613	我
+T66	Person-Pronoun 621 622	我
+T67	Thing-Nominal 625 626	书
+T68	Location-Nominal 628 630	中学
+T69	Metric 641 645	一担茅草
+T70	Location-Nominal 646 648	街上
+T71	Thing-Nominal 667 668	嘴
+T72	Thing-Nominal 661 662	脸
+R1	Located Arg1:T71 Arg2:T72	
+T73	Time-Implicit 680 685	高中时暑假
+T74	Location-Nominal 687 691	郊区林场
+T78	Thing-Nominal 715 716	手
+T77	Metric 707 711	20几块
+T75	Metric 693 696	一大片
+T76	Location-Nominal 693 698	一大片山坡
+T79	Metric 699 702	数百个
+T80	Thing-Nominal 699 704	数百个树坑
+R2	Located Arg1:T80 Arg2:T76	
+T81	Thing-Nominal 707 712	20几块钱
+R3	Located Arg1:T81 Arg2:T78	
+T82	Location-Nominal 724 726	学校
+T83	Thing-Nominal 757 762	早晨的太阳
+T84	Person-Nominal 781 783	农民
+T85	Location-Nominal 779 780	乡
+T86	Time-Implicit 800 803	头一回
+T87	Thing-Nominal 805 806	牛
+T88	Location-Nominal 809 810	田
+T89	Thing-Nominal 812 813;814 816	老 母牛
+*	Coreference T89 T87
+T90	Person-Pronoun 817 818	我
+*	Coreference T90 T84
+T91	Location-Nominal 821 827	干硬的红薯地
+*	Coreference T91 T88
+T92	Thing-Nominal 834 836	膝盖
+R4	Part-Whole Arg1:T92 Arg2:T90	
+T93	Metric 838 840	一块
+T94	Thing-Nominal 838 842	一块皮肉
+R5	Part-Whole Arg1:T94 Arg2:T92	
+T95	Person-Pronoun 843 844	我
+T96	Thing-Nominal 844 845	泪
+R6	Part-Whole Arg1:T96 Arg2:T95	
+T97	Person-Nominal 851 855	一群农友
+T98	Metric 851 853	一群
+T99	Time-Implicit 859 862	那一年
+T100	Person-Pronoun 873 874;875 876	我 们
+T101	Location-Nominal 880 887	村头的大榕树下
+T102	Time-Explicit 901 909	恢复高考的那一年
+T103	Person-Nominal 920 924	一名教师
+T104	Metric 920 922	一名
+T105	Person-Pronoun 925 926	我
+T106	Person-Pronoun 934 935	我
+T107	Person-Pronoun 946 947	我
+T108	Location-Nominal 956 958	讲台
+T109	Time-Implicit 954 961	初上讲台那节课
+T110	Person-Pronoun 962 963	我
+T111	Thing-Nominal 963 964	脸
+T112	Person-Nominal 979 981	学生
+T113	Time-Implicit 1012 1024	那多年的班主任的艰苦日子
+T114	Person-Nominal 1016 1019	班主任
+T115	Person-Nominal 1026 1028	学生
+T116	Person-Pronoun 1036 1038	他们
+*	Coreference T116 T115
+T117	Person-Nominal 1040 1042	爹娘
+R7	Family Arg1:T117 Arg2:T116	
+T118	Time-Implicit 1044 1047	那一次
+T119	Person-Nominal 1047 1051	一个男生
+T120	Location-Nominal 1055 1056	院
+T121	Person-Pronoun 1058 1059	我
+T122	Person-Nominal 1059 1062	一个人
+*	Coreference T122 T121 T125
+T123	Person-Pronoun 1063 1064	他
+*	Coreference T123 T119
+T124	Person-Nominal 1069 1071	家长
+T125	Person-Pronoun 1075 1076	我
+T126	Thing-Nominal 1077 1078	手
+R8	Part-Whole Arg1:T126 Arg2:T125	
+T127	Person-Nominal 1084 1087	中壮年
+T128	Time-Implicit 1098 1100	那时
+T129	Person-Nominal 1103 1105	领导
+T130	Person-Nominal 1123 1124	人
+T131	Thing-Nominal 1125 1126	书
+T132	Person-Pronoun 1153 1154	我
+T133	Person-Nominal 1163 1165	学生
+T134	Time-Implicit 1184 1186	那时
+T135	Person-Nominal 1206 1208	师生
+T136	Time-Implicit 1214 1217	那些年
+T137	Person-Nominal 1228 1230	教师
+T138	Location-Nominal 1255 1258	颁奖台
+T139	Thing-Nominal 1261 1265	荣誉证书
+T140	Person-Pronoun 1277 1278	我
+T141	Thing-Nominal 1279 1280	泪
+R9	Part-Whole Arg1:T141 Arg2:T140	
+T142	Person-Nominal 1302 1304	博士
+T143	Person-Nominal 1305 1309	高层领导
+T144	Person-Nominal 1310 1312	专家
+T145	Person-Nominal 1312 1314	老板
+T146	Person-Nominal 1315 1322	事业有成的学生
+T147	Person-Pronoun 1328 1329	我
+T148	Time-Implicit 1338 1346	自获奖后十年八载
+T149	Person-Pronoun 1347 1348	我
+T150	Thing-Nominal 1348 1350	青丝
+R10	Part-Whole Arg1:T150 Arg2:T149	
+T151	Time-Implicit 1355 1358	夕阳红
+T152	Person-Pronoun 1380 1382	自我
+T153	Person-Pronoun 1392 1393	我
+T154	Thing-Nominal 1376 1388	一部值得自我欣赏的自传书
+T155	Metric 1376 1378	一部
+T156	Person-Nominal 1411 1413	学生
+T157	Person-Nominal 1414 1416	同事
+T158	Person-Nominal 1417 1419	亲戚
+R11	Social Arg1:T156 Arg2:T149	
+R12	Social Arg1:T157 Arg2:T149	
+R13	Family Arg1:T158 Arg2:T149	
+R14	Social Arg1:T142 Arg2:T147	
+R15	Social Arg1:T144 Arg2:T147	
+R16	Social Arg1:T143 Arg2:T147	
+R17	Social Arg1:T145 Arg2:T147	
+R18	Social Arg1:T146 Arg2:T147	
+R19	Social Arg1:T133 Arg2:T132	
+R20	Social Arg1:T124 Arg2:T121	
+R21	Family Arg1:T124 Arg2:T123	
+T159	Metric 1445 1448	一幕幕
+T160	Metric 1448 1451	一桩桩
+T161	Person-Pronoun 1453 1454	我
+T162	Thing-Nominal 1455 1456	眼
+R22	Part-Whole Arg1:T162 Arg2:T161	
+T163	Person-Pronoun 1461 1462	我
+T164	Metric 1466 1469	每一刻
+T165	Thing-Nominal 1520 1521	花
+T166	Thing-Nominal 1522 1523	花
+T167	Metric 1538 1541	一幕幕
+T168	Metric 1541 1544	一桩桩
+T169	Metric 1550 1553	一曲曲
+T170	Person-Pronoun 1582 1583	我
+T171	Person-Pronoun 1589 1590	我
+T172	Abstract 1610 1620	《钢铁是怎样练成的》
+T173	Abstract 1391 1399	《我的风雨人生》
+T174	Thing-Nominal 1621 1622	书
+T175	Person-Name 1624 1625;1626 1627	保 尔
+T176	Person-Pronoun 1635 1636	我
+*	Coreference T176 T175
+T177	Person-Pronoun 1658 1659	我
+*	Coreference T177 T171 T178
+T178	Person-Nominal 1660 1670	一个普普通通的教书郎
+T179	Person-Nominal 1676 1677	我
+T180	Thing-Nominal 1672 1673	书
+T181	Person-Nominal 1674 1675	人
+T182	Person-Pronoun 1696 1697	我
+T183	Person-Pronoun 1703 1704	我
+T184	Thing-Nominal 1719 1721	阴霾
+T185	Thing-Nominal 1723 1725	阳光
+T186	Thing-Nominal 1727 1729	枯草
+T187	Thing-Nominal 1731 1733	鲜花
+T188	Time-Implicit 1753 1755	今天

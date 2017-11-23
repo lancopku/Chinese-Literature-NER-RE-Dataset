@@ -1,0 +1,342 @@
+T1	Location-Name 1 3	藏北
+T2	Location-Nominal 9 12	画廊里
+T3	Thing-Nominal 13 15	天空
+T4	Thing-Nominal 34 42	半空中的朵朵白云
+T5	Location-Nominal 34 37	半空中
+R1	Located Arg1:T4 Arg2:T5	
+T6	Person-Nominal 56 57	人
+T7	Location-Nominal 65 69	道路两旁
+T8	Thing-Nominal 71 78	无边无际的草原
+R2	Located Arg1:T8 Arg2:T7	
+T9	Thing-Nominal 80 85	我们的眼睛
+T10	Person-Pronoun 80 82	我们
+R3	Part-Whole Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 93 103	星星点点的绵羊和牦牛
+T12	Thing-Nominal 112 113	草
+T13	Thing-Nominal 126 129	格桑花
+T14	Thing-Nominal 157 164	远处的冰山雪峰
+T15	Location-Nominal 157 159	远处
+R4	Located Arg1:T14 Arg2:T15	
+T16	Thing-Nominal 166 171	一匹匹白马
+T17	Thing-Nominal 173 178	明亮的阳光
+T18	Thing-Nominal 180 181	蹄
+T19	Thing-Nominal 185 189	五彩经幡
+T20	Thing-Nominal 190 191	风
+T21	Location-Nominal 218 220	耳边
+T22	Thing-Nominal 224 226	道路
+T23	Location-Nominal 234 239	尽头的远方
+T24	Thing-Nominal 240 246	路边的藏杨树
+T25	Location-Nominal 240 242	路边
+R5	Located Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 250 255	金色的叶子
+T27	Thing-Nominal 257 262	一个个天使
+T28	Thing-Nominal 264 266	翅膀
+T29	Person-Pronoun 269 271	我们
+T30	Location-Nominal 273 277	天路”上
+T31	Thing-Nominal 280 282	汽车
+T32	Thing-Nominal 296 307	这空寂而辽阔的藏北高原
+T33	Thing-Nominal 312 314	高原
+T34	Person-Pronoun 322 323	我
+T35	Person-Pronoun 325 327	自己
+T36	Thing-Nominal 334 336	脸庞
+T37	Thing-Nominal 339 340	花
+T38	Time-Implicit 361 365	中午时分
+T39	Person-Pronoun 366 368	我们
+T40	Location-Name 370 374	纳木错湖
+T41	Thing-Nominal 393 395	湖面
+T42	Metric 398 406	1920平方公里
+T43	Metric 409 414	4700米
+T44	Location-Name 416 418	西藏
+T45	Thing-Nominal 418 421;422 424	最大的 湖泊
+T46	Thing-Nominal 430 438	海拔最高的咸水湖
+T47	Thing-Pronoun 439 440	它
+T48	Thing-Nominal 376 380	纳木错”
+*	Coreference T47 T48
+T49	Thing-Nominal 442 451	藏传佛教的著名圣地
+T50	Person-Nominal 452 455	信徒们
+T51	Thing-Nominal 458 465	四大威猛湖之一
+T52	Thing-Nominal 475 482;483 490	直插云霄的念青 唐古拉山的主峰
+T53	Location-Name 466 474	纳木错湖的东南面
+R6	Located Arg1:T52 Arg2:T53	
+T54	Location-Nominal 491 493	北面
+T55	Thing-Nominal 497 506	和缓连绵的高原丘陵
+R7	Located Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 507 509	草原
+T57	Thing-Nominal 512 514	天湖
+T58	Thing-Nominal 515 517	天湖
+T59	Thing-Nominal 519 526	一面巨大的明镜
+T60	Location-Name 530 535	藏北高原上
+T61	Thing-Nominal 536 538	湖水
+T62	Thing-Nominal 549 551	宝石
+T63	Thing-Nominal 555 557	湖波
+T64	Thing-Nominal 563 565	沙滩
+T65	Location-Nominal 574 576	四周
+T66	Person-Nominal 583 584	人
+T67	Location-Pronoun 586 588	这里
+T68	Thing-Nominal 598 604;605 606	真正的人间仙 境
+T69	Thing-Nominal 608 611	纳木错
+T70	Person-Nominal 613 614	人
+T71	Thing-Pronoun 619 620	它
+*	Coreference T71 T69
+T72	Location-Nominal 620 622	身后
+T73	Thing-Nominal 623 629	念青唐古拉山
+R8	Located Arg1:T73 Arg2:T72	
+T74	Metric 631 636	7111米
+T75	Thing-Nominal 637 643	念青唐古拉山
+T76	Thing-Nominal 646 647	雪
+T77	Thing-Nominal 648 653	白皑皑雪峰
+T78	Location-Nominal 658 665	蓝莹莹的湖面上
+T79	Thing-Nominal 666 668	景色
+T80	Time-Implicit 674 676	清晨
+T81	Location-Nominal 677 680	湖面上
+T82	Thing-Nominal 680 682	雾霭
+R9	Located Arg1:T82 Arg2:T81	
+T83	Location-Nominal 685 687	周围
+T84	Thing-Nominal 688 690	群山
+R10	Located Arg1:T84 Arg2:T83	
+T85	Thing-Nominal 691 693	雾气
+T86	Thing-Nominal 701 703	太阳
+T87	Thing-Nominal 706 707	云
+T88	Thing-Nominal 708 709	雾
+T89	Thing-Nominal 711 713	清风
+T90	Thing-Nominal 716 723	浩渺无际的湖面
+T91	Person-Nominal 731 741	一个个体态袅娜的仙女
+T92	Thing-Nominal 744 746	素巾
+T93	Thing-Nominal 749 751	湖波
+T94	Thing-Nominal 742 743	手
+R11	Part-Whole Arg1:T94 Arg2:T91	
+T95	Thing-Nominal 756 768	这时的念青唐古拉山的主峰
+T96	Thing-Nominal 773 775	山体
+T97	Location-Nominal 780 782	峰顶
+T98	Thing-Nominal 782 784	白雪
+R12	Located Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 787 789	主峰
+T100	Person-Nominal 791 798	一个威猛的武士
+T101	Thing-Nominal 801 803	圣湖
+T102	Thing-Nominal 804 806	高原
+T103	Thing-Nominal 815 817	狂风
+T104	Thing-Nominal 822 824	乌云
+T105	Thing-Nominal 828 830	风雪
+T106	Thing-Nominal 833 835	湖面
+T107	Thing-Nominal 837 839	波光
+T108	Time-Implicit 842 844	傍晚
+T109	Thing-Nominal 845 847	湖水
+T110	Thing-Nominal 848 850	夕阳
+T111	Thing-Nominal 856 858	金光
+T112	Person-Nominal 864 865	人
+T113	Location-Nominal 866 868	湖畔
+T114	Thing-Nominal 875 880	牧民的帐篷
+R13	Located Arg1:T114 Arg2:T113	
+T115	Person-Nominal 875 877	牧民
+R14	Ownership Arg1:T115 Arg2:T114	
+T116	Person-Nominal 888 895	三五成群的牧民
+T117	Thing-Nominal 900 903	青稞酒
+T118	Thing-Nominal 909 911	山峰
+T119	Thing-Nominal 904 906	天地
+T120	Thing-Nominal 915 917	湖水
+T121	Thing-Nominal 926 928	山水
+T122	Person-Nominal 938 939	人
+T123	Time-Explicit 943 950	公元12世纪末
+T124	Person-Name 951 970	藏传佛教达隆嘎举派创始人达隆塘巴等高僧
+T125	Location-Nominal 973 975	湖上
+T126	Location-Pronoun 985 987	这里
+*	Coreference T126 T125
+T127	Thing-Nominal 988 995	胜乐金刚的道场
+T128	Thing-Nominal 1000 1003	绕灵湖
+T129	Time-Implicit 1016 1020	每逢羊年
+T130	Person-Nominal 1023 1033	成千上万的各地朝圣者
+T131	Thing-Nominal 1034 1036	天湖
+T132	Thing-Nominal 1045 1048	纳木错
+T133	Thing-Nominal 1049 1053	一面大湖
+T134	Metric 1058 1063	600公里
+T135	Metric 1072 1078	20到30天
+T136	Person-Pronoun 1079 1081	我们
+T137	Location-Nominal 1082 1084	湖边
+T138	Person-Nominal 1097 1102	一个转湖者
+T139	Person-Pronoun 1103 1105	他们
+*	Coreference T139 T138
+T140	Location-Nominal 1105 1107	手里
+T141	Thing-Nominal 1109 1112	转经轮
+R15	Located Arg1:T141 Arg2:T140	
+T142	Location-Nominal 1132 1140	通往圣湖的道路上
+T143	Time-Implicit 1141 1143	每天
+T144	Person-Nominal 1148 1156	络绎不绝的朝圣者
+T145	Person-Pronoun 1164 1166	他们
+*	Coreference T145 T144
+T146	Thing-Nominal 1169 1171	衣裳
+T147	Thing-Nominal 1176 1178	灰尘
+T148	Thing-Nominal 1179 1181	面孔
+T149	Thing-Nominal 1184 1186	额头
+T150	Thing-Nominal 1188 1190	血痂
+T151	Person-Pronoun 1205 1207	他们
+T152	Thing-Nominal 1211 1213	两手
+R16	Part-Whole Arg1:T152 Arg2:T151	
+T153	Thing-Nominal 1217 1219	头顶
+T154	Thing-Nominal 1223 1225	双臂
+R17	Part-Whole Arg1:T154 Arg2:T151	
+T155	Thing-Nominal 1228 1230	手指
+T156	Location-Nominal 1240 1242	胸口
+T157	Time-Implicit 1232 1237	向上触唇后
+T158	Thing-Nominal 1250 1251;1252 1253	上 身
+T159	Thing-Nominal 1258 1260	膝盖
+T160	Thing-Nominal 1261 1263	胸膛
+T161	Thing-Nominal 1264 1266	额头
+T162	Thing-Nominal 1270 1272	土地
+T163	Thing-Nominal 1283 1285	身体
+T164	Location-Nominal 1302 1307	神灵的脚下
+T165	Person-Pronoun 1309 1311	他们
+T166	Thing-Nominal 1314 1315	山
+T167	Thing-Nominal 1316 1317	水
+T168	Thing-Nominal 1327 1328	风
+T169	Thing-Nominal 1329 1330	雪
+T170	Thing-Nominal 1348 1350	道路
+T171	Thing-Nominal 1362 1366	滚滚红尘
+T172	Person-Pronoun 1372 1373;1374 1375	他 们
+T173	Person-Nominal 1404 1410	我们每一个人
+T174	Person-Nominal 1412 1419	雪域高原的同胞
+T175	Person-Pronoun 1434 1435	我
+T176	Location-Name 1439 1441	藏北
+T177	Thing-Nominal 1451 1455	雪山天湖
+T178	Thing-Nominal 1459 1463	蓝天白云
+T179	Thing-Nominal 1467 1471	草地牛羊
+T180	Thing-Nominal 1497 1503	藏南的日喀则
+T181	Location-Nominal 1497 1499	藏南
+R18	Located Arg1:T180 Arg2:T181	
+T182	Person-Pronoun 1494 1496	我们
+T183	Thing-Nominal 1504 1507	日喀则
+T184	Location-Name 1509 1526	雅鲁藏布江和年楚河汇合的肥沃河谷中
+R19	Located Arg1:T183 Arg2:T184	
+T185	Thing-Nominal 1527 1529	风景
+T186	Thing-Nominal 1534 1541	连绵不断的雪山
+T187	Person-Nominal 1545 1547	上苍
+T188	Thing-Nominal 1553 1558	丰美的草地
+T189	Thing-Nominal 1559 1563	遍地牛羊
+T190	Person-Nominal 1565 1567	上苍
+T191	Location-Nominal 1574 1577	河谷中
+T192	Person-Nominal 1590 1593	牧人们
+T193	Thing-Nominal 1594 1596	草地
+T194	Thing-Nominal 1603 1606	酥油茶
+T195	Location-Nominal 1607 1610	脸颊上
+T196	Person-Nominal 1619 1621	孩童
+T197	Person-Nominal 1628 1635	身材窈窕的藏女
+T198	Thing-Nominal 1637 1638	腰
+T199	Thing-Nominal 1640 1642	麦子
+T200	Thing-Nominal 1643 1649	金黄的青稞麦
+T201	Thing-Nominal 1654 1656	油彩
+T202	Location-Name 1662 1670	雅鲁藏布江的这边
+T203	Thing-Nominal 1671 1685	雪山、草原、帐篷、牛羊和麦地
+R20	Located Arg1:T203 Arg2:T202	
+T204	Location-Nominal 1686 1691	江的另一边
+T205	Thing-Nominal 1695 1702	金黄色的大山丘
+R21	Located Arg1:T205 Arg2:T204	
+T206	Person-Nominal 1704 1705	人
+T207	Thing-Nominal 1718 1720	金瓶
+T208	Thing-Nominal 1723 1725	小山
+T209	Location-Nominal 1726 1728	山上
+T210	Thing-Nominal 1732 1733	寺
+T211	Thing-Nominal 1734 1739	美丽的风景
+T212	Person-Pronoun 1741 1742	我
+T213	Location-Nominal 1747 1749	山下
+T214	Thing-Nominal 1750 1756	红彤彤的树林
+R22	Located Arg1:T214 Arg2:T213	
+T215	Thing-Nominal 1757 1761	一棵棵树
+T216	Thing-Nominal 1763 1771	一支支燃烧的火炬
+T217	Thing-Nominal 1772 1776	粼粼江水
+T218	Thing-Nominal 1778 1783;1784 1792	蓝天、白云 、红树林、金砂山
+T219	Person-Nominal 1819 1823	任何画师
+T220	Thing-Nominal 1846 1851	神圣的高原
+T221	Person-Pronoun 1852 1853	我
+T222	Person-Nominal 1862 1871	一位手牵孩子的牧人
+T223	Thing-Nominal 1872 1874	草原
+T224	Location-Nominal 1878 1881	他身后
+T225	Person-Pronoun 1878 1879	他
+*	Coreference T225 T222
+T226	Person-Nominal 1883 1891	背着鲜奶桶的妇女
+T227	Thing-Nominal 1885 1888	鲜奶桶
+T228	Person-Nominal 1892 1897	他们一家子
+T229	Thing-Nominal 1904 1905;1906 1914	一 座炊烟袅袅的土屋
+T230	Thing-Nominal 1907 1909	炊烟
+T231	Location-Nominal 1917 1923	土屋的外墙上
+T232	Thing-Nominal 1925 1931	一团团的牛粪
+R23	Located Arg1:T232 Arg2:T231	
+T233	Thing-Nominal 1932 1934	夕阳
+T234	Person-Pronoun 1935 1937	他们
+T235	Thing-Nominal 1938 1942	他们的家
+T236	Location-Nominal 1952 1955	更远处
+T237	Thing-Nominal 1959 1963	一群牛羊
+T238	Location-Nominal 1964 1966;1967 1970	牛羊 的后面
+T239	Person-Nominal 1971 1978	一对年轻的夫妻
+T240	Person-Nominal 1983 1985	孩子
+T241	Thing-Nominal 1990 1992	家什
+T242	Thing-Nominal 1993 1997	一条大狗
+T243	Thing-Nominal 1998 2000	牛羊
+T244	Person-Nominal 2001 2003	夫妻
+T245	Thing-Nominal 2016 2018	泪水
+T246	Thing-Nominal 2023 2027	我的眼眶
+T247	Person-Pronoun 2023 2024	我
+R24	Part-Whole Arg1:T246 Arg2:T247	
+T248	Person-Nominal 2034 2035	人
+T249	Person-Nominal 2046 2047	人
+T250	Location-Name 2053 2058	扎什伦布寺
+T251	Person-Pronoun 2059 2060	我
+T252	Thing-Nominal 2068 2076	宏伟的扎什伦布寺
+T253	Location-Name 2078 2091	日喀则城西北的尼玛日山南坡
+R25	Located Arg1:T252 Arg2:T253	
+T254	Thing-Nominal 2093 2094	山
+T255	Thing-Nominal 2097 2099	殿宇
+T256	Thing-Nominal 2102 2104	重楼
+T257	Thing-Nominal 2104 2106	叠阁
+T258	Location-Nominal 2107 2109	寺内
+T259	Thing-Nominal 2110 2112;2113 2119	四大 扎仓(僧院)
+R26	Located Arg1:T259 Arg2:T258	
+T260	Thing-Nominal 2120 2125	62个米村
+T261	Thing-Nominal 2126 2133	佛堂和灵塔祀殿
+T262	Metric 2133 2136	60座
+T263	Metric 2139 2144	3600间
+T264	Thing-Nominal 2137 2139	房舍
+T265	Person-Nominal 2149 2150	人
+T266	Thing-Nominal 2154 2165	强巴佛殿里的强巴大铜佛
+T267	Location-Name 2154 2159	强巴佛殿里
+R27	Located Arg1:T266 Arg2:T267	
+T268	Thing-Nominal 2166 2168	佛像
+T269	Metric 2169 2173;2174 2175	26.2 米
+T270	Metric 2177 2181	11.5
+T271	Thing-Nominal 2183 2196	世界上最高、最大的铜佛塑像
+T272	Person-Nominal 2197 2203	110名工匠
+T273	Metric 2205 2207	4年
+T274	Metric 2215 2220	6700两
+T275	Metric 2223 2227	23万斤
+T276	Thing-Nominal 2213 2215	黄金
+T277	Thing-Nominal 2221 2223	黄铜
+T278	Thing-Nominal 2230 2234;2235 2245	大小钻石 、珍珠、珊瑚、松耳石
+T279	Metric 2245 2250	1400颗
+T280	Person-Nominal 2260 2263	强巴佛
+T281	Person-Nominal 2264 2272	掌管来生的未来佛
+T282	Person-Nominal 2279 2282	信徒们
+T283	Location-Name 2287 2293	扎什伦布寺里
+T284	Person-Nominal 2297 2305	年轻或年老的僧人
+T285	Thing-Nominal 2308 2310	红袍
+T286	Thing-Nominal 2310 2312	脚步
+T287	Location-Nominal 2316 2322	长长的走廊上
+T288	Person-Pronoun 2327 2329	他们
+*	Coreference T288 T284
+T289	Person-Nominal 2341 2347;2348 2357	那些穿越万水 千山从各地来的信徒
+T290	Person-Pronoun 2358 2360	他们
+*	Coreference T290 T289
+T291	Thing-Nominal 2374 2381	一个个的转经筒
+T292	Person-Pronoun 2382 2384	他们
+T293	Location-Nominal 2395 2404	屋与屋之间的小巷里
+T294	Location-Nominal 2407 2408;2409 2410	墙 上
+T295	Thing-Nominal 2413 2422	各种奇特的花纹图案
+R28	Located Arg1:T295 Arg2:T294	
+T296	Person-Pronoun 2439 2441	我们
+T297	Thing-Nominal 2462 2466	青山绿水
+T298	Person-Pronoun 2473 2475	我们
+T299	Person-Nominal 2480 2482	后世
+T300	Thing-Nominal 2501 2509	艺术的建筑和塑像
+T301	Location-Name 2524 2526	藏北
+T302	Location-Name 2527 2529	藏南
+T303	Person-Pronoun 2545 2546	我
+T304	Person-Nominal 2591 2593	人类
+T305	Person-Pronoun 2602 2603	我
+T306	Thing-Nominal 2605 2612	永远的藏北藏南

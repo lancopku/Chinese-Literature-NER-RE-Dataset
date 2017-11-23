@@ -1,0 +1,234 @@
+T1	Thing-Nominal 0 1	树
+T2	Thing-Nominal 6 7	山
+T3	Time-Implicit 12 19	金秋的一个早上
+T4	Person-Pronoun 20 21	我
+T5	Organization-Name 23 27	乐行山水
+T6	Thing-Nominal 44 46	大巴
+T7	Location-Name 48 54	黄岩北门广场
+T8	Location-Name 59 60;61 65	甬 台温高速
+T9	Location-Nominal 71 73	隧道
+T10	Metric 78 83	一个半小时
+T11	Location-Name 95 98	公孟山
+T12	Location-Name 101 104	前坑村
+R1	Near Arg1:T12 Arg2:T11	
+T13	Location-Name 106 109	公孟山
+T14	Location-Name 112 127	浙江省仙居县西北部田市镇公孟村
+T15	Location-Nominal 129 131	县城
+T16	Metric 132 136	38公里
+R2	Near Arg1:T15 Arg2:T13	
+T17	Metric 141 146	1000米
+T18	Location-Name 152 165	国家重点风景名胜区公盂景区
+T19	Location-Nominal 168 170	景区
+R3	Part-Whole Arg1:T13 Arg2:T14	
+R4	Part-Whole Arg1:T13 Arg2:T18	
+T20	Location-Name 180 186	淡竹乡林坑村
+T21	Location-Name 191 194	苍山村
+T22	Location-Name 199 204	柯思西平村
+T23	Location-Name 209 212	前坑村
+T24	Location-Nominal 177 178	山
+R5	Near Arg1:T24 Arg2:T20	
+R6	Near Arg1:T24 Arg2:T21	
+R7	Near Arg1:T24 Arg2:T22	
+R8	Near Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 215 217	林木
+T26	Thing-Nominal 229 230	花
+T27	Person-Nominal 250 252	游客
+T28	Location-Name 255 263	华东的“香格里拉
+T29	Location-Name 265 273	浙江的“西双版纳
+T30	Location-Name 283 286	公盂山
+T31	Location-Name 293 295	于山
+*	Coreference T31 T30 T29 T28
+T32	Time-Explicit 299 300	宋
+T33	Time-Explicit 301 307	仁宗赵侦四年
+T34	Location-Name 309 316	永安县十三都乡
+T35	Time-Explicit 321 326	1973年
+T36	Location-Name 338 341	公盂村
+T37	Location-Name 345 347	公盂
+T38	Person-Pronoun 367 369	我们
+T39	Thing-Nominal 370 371	车
+R9	Use Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 418 420;421 422	对讲 机
+T41	Organization-Nominal 400 404	爬山梯队
+R10	Use Arg1:T41 Arg2:T40	
+T42	Person-Nominal 434 436	自己
+T43	Organization-Name 472 475	公盂村
+T44	Location-Nominal 476 478	山路
+T45	Location-Nominal 499 501	山路
+T46	Location-Nominal 504 506	悬崖
+T47	Person-Pronoun 511 513	我们
+T48	Location-Nominal 531 534	庄稼地
+T49	Location-Nominal 541 542;543 544	陡 坡
+T50	Thing-Nominal 589 592	对讲机
+T51	Person-Pronoun 619 621	你们
+T52	Person-Pronoun 635 637	我们
+T53	Location-Name 644 646	公孟
+T54	Location-Nominal 661 663	幽谷
+T55	Location-Nominal 664 666	清溪
+T56	Location-Nominal 667 669	奇峰
+T57	Thing-Nominal 670 672	怪石
+T58	Location-Nominal 673 675	飞瀑
+T59	Location-Nominal 676 678	流泉
+T60	Location-Nominal 688 690	山道
+T61	Location-Name 693 695	公盂
+R11	Part-Whole Arg1:T54 Arg2:T53	
+R12	Part-Whole Arg1:T55 Arg2:T53	
+R13	Part-Whole Arg1:T56 Arg2:T53	
+R14	Part-Whole Arg1:T58 Arg2:T53	
+R15	Part-Whole Arg1:T59 Arg2:T53	
+R16	Located Arg1:T57 Arg2:T53	
+T62	Person-Nominal 698 700	有人
+T63	Thing-Nominal 707 708	画
+T64	Person-Pronoun 714 716	我们
+T65	Thing-Nominal 719 721	大山
+T66	Location-Nominal 779 780	山
+T67	Location-Name 789 792	公盂村
+T68	Person-Pronoun 793 795	我们
+T69	Metric 800 805	一个半小时
+T70	Metric 813 818	二个半小时
+T71	Location-Nominal 821 823	村落
+T72	Location-Name 828 830	上坪
+T73	Location-Name 831 833	下坪
+T74	Location-Nominal 835 838	自然村
+*	Coreference T73 T74 T72
+T75	Location-Nominal 841 843	村子
+T76	Location-Nominal 845 847	奇峰
+R17	Near Arg1:T76 Arg2:T75	
+T77	Location-Nominal 853 855	村庄
+T78	Location-Nominal 863 865	盆地
+*	Coreference T77 T78
+T79	Metric 871 875	600米
+T80	Location-Nominal 878 880	山岙
+R18	Part-Whole Arg1:T77 Arg2:T80	
+T81	Location-Name 885 887	公盂
+T82	Person-Nominal 895 897	有人
+T83	Location-Name 899 901	公盂
+T84	Thing-Nominal 907 909	画，
+T85	Person-Nominal 924 926	有人
+T86	Location-Name 928 930	公盂
+T87	Person-Nominal 954 956	有人
+T88	Location-Name 958 960	公盂
+T89	Thing-Nominal 966 967	书
+T90	Thing-Nominal 980 981	书
+T91	Location-Nominal 986 988	村口
+T92	Thing-Nominal 1009 1011	竹林
+T93	Thing-Nominal 996 998	蓝天
+T94	Thing-Nominal 998 1000	白云
+T95	Location-Nominal 1016 1019	小水库
+R19	Near Arg1:T95 Arg2:T91	
+R20	Near Arg1:T92 Arg2:T91	
+T96	Location-Nominal 1027 1029	小径
+T97	Location-Name 1034 1036	下坪
+T98	Location-Name 1042 1044	上坪
+R21	Near Arg1:T97 Arg2:T98	
+T99	Location-Nominal 1046 1047	村
+T100	Time-Implicit 1049 1052	上百年
+T101	Location-Nominal 1061 1068	多合院的老房子
+T102	Location-Nominal 1093 1095	猪圈
+R22	Part-Whole Arg1:T102 Arg2:T101	
+T103	Thing-Nominal 1101 1102	猪
+R23	Located Arg1:T103 Arg2:T102	
+T104	Location-Nominal 1103 1104	村
+T105	Location-Name 1109 1112	公盂岩
+R24	Near Arg1:T105 Arg2:T104	
+T106	Thing-Nominal 1141 1143	石柱
+R25	Located Arg1:T106 Arg2:T105	
+T107	Metric 1149 1153	200米
+T108	Location-Name 1168 1174	公盂岭公盂岩
+T109	Metric 1188 1191	千余米
+T110	Metric 1194 1198	一二百米
+T111	Location-Nominal 1264 1266	山野
+T112	Thing-Nominal 1293 1295	五谷
+T113	Person-Pronoun 1298 1300	我们
+T114	Location-Nominal 1312 1313	村
+T115	Location-Nominal 1316 1317	村
+T116	Thing-Nominal 1331 1333	梯田
+T117	Location-Nominal 1339 1342	庄稼地
+T118	Thing-Nominal 1356 1359	高粱粟
+T119	Thing-Nominal 1361 1363	水稻
+T120	Thing-Nominal 1365 1367	玉米
+T121	Thing-Nominal 1369 1371	黄豆
+R26	Located Arg1:T118 Arg2:T117	
+R27	Located Arg1:T119 Arg2:T117	
+R28	Located Arg1:T120 Arg2:T117	
+R29	Located Arg1:T121 Arg2:T117	
+T122	Thing-Nominal 1386 1388	秸秆
+T123	Thing-Nominal 1398 1400	玉米
+T124	Thing-Nominal 1430 1432	玉米
+T125	Person-Pronoun 1467 1469	我们
+T126	Person-Pronoun 1494 1496	我们
+T127	Thing-Nominal 1486 1488	白云
+T128	Thing-Nominal 1501 1503	枫叶
+T129	Thing-Nominal 1513 1515	落叶
+T130	Location-Nominal 1558 1559	村
+T131	Location-Nominal 1560 1561	屋
+T132	Thing-Nominal 1572 1574	照片
+T133	Person-Pronoun 1585 1587	我们
+T134	Location-Nominal 1593 1594	村
+T135	Person-Nominal 1630 1633	大伙儿
+*	Coreference T133 T135
+T136	Thing-Nominal 1639 1640	茶
+T137	Thing-Nominal 1645 1647	零食
+T138	Thing-Nominal 1674 1677	炖土鸡
+T139	Thing-Nominal 1679 1683	红烧猪肉
+T140	Thing-Nominal 1684 1687	长豇豆
+T141	Thing-Nominal 1688 1692	石磨豆腐
+T143	Thing-Nominal 1697 1700	绿豆面
+T142	Thing-Nominal 1693 1696	炒鸡蛋
+T144	Thing-Nominal 1701 1703	芋头
+T145	Person-Pronoun 1711 1713	我们
+T146	Location-Name 1723 1729	公盂村办公楼
+T147	Thing-Nominal 1736 1738;1739 1740	集体 照
+T148	Location-Name 1745 1748	公盂背
+T149	Person-Pronoun 1785 1787	我们
+T150	Person-Nominal 1790 1792	网友
+*	Coreference T149 T150
+T151	Person-Nominal 37 39	网友
+T152	Location-Name 1810 1813	公盂背
+T153	Location-Nominal 1842 1845	流石坡
+T154	Thing-Nominal 1867 1869	流石
+T155	Location-Nominal 1895 1898	流石坡
+T156	Thing-Nominal 1908 1912	荆棘柴草
+T157	Thing-Nominal 1926 1928	柴草
+R30	Located Arg1:T156 Arg2:T155	
+T158	Thing-Nominal 1935 1939	柴草灌木
+T159	Location-Nominal 1950 1952	山崖
+T160	Person-Name 1953 1957	鲁迅先生
+T161	Thing-Nominal 1987 1989	荆棘
+T162	Person-Pronoun 2008 2010	我们
+T163	Location-Name 2015 2018	公盂背
+T164	Person-Pronoun 2049 2051	我们
+T165	Metric 2054 2058	一个小时
+T166	Location-Nominal 2078 2080	右峰
+T167	Metric 2083 2087	一二十米
+T168	Location-Nominal 2088 2090	左峰
+T169	Metric 2093 2096	百十米
+T170	Location-Name 2122 2127	公盂背顶峰
+T171	Person-Pronoun 2128 2130	我们
+T172	Thing-Nominal 2151 2153	绳索
+R31	Use Arg1:T171 Arg2:T172	
+T173	Location-Nominal 2173 2175	山顶
+T174	Location-Name 2198 2201	公盂背
+T175	Person-Pronoun 2202 2203	我
+T176	Location-Nominal 2209 2211	山顶
+T177	Person-Pronoun 2213 2214;2215 2216	我 们
+T178	Location-Nominal 2231 2233	村庄
+T179	Location-Nominal 2234 2236	竹海
+T180	Location-Nominal 2237 2239	石林
+T181	Location-Nominal 2240 2242	山脉
+T182	Location-Nominal 2243 2245	公路
+T183	Location-Nominal 2246 2248	河道
+T184	Location-Nominal 2273 2275	山坡
+T185	Person-Pronoun 2281 2283	我们
+T186	Location-Nominal 2303 2305	岩崖
+T187	Thing-Nominal 2323 2326	大鳄鱼
+T188	Thing-Nominal 2329 2331	犀牛
+T189	Location-Nominal 2383 2385	城市
+T190	Person-Pronoun 2397 2399	我们
+T191	Person-Nominal 2401 2403	古人
+T192	Location-Name 2421 2423	公盂
+T193	Location-Nominal 2451 2453	乡村
+T194	Thing-Pronoun 2479 2480	它
+T195	Person-Nominal 2484 2486	后人
+*	Coreference T192 T193
+T196	Location-Nominal 2266 2268	崖壁
+R32	Near Arg1:T196 Arg2:T184	

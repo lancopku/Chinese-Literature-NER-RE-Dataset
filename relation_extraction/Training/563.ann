@@ -1,0 +1,158 @@
+T1	Person-Pronoun 8 9	我
+T2	Person-Nominal 11 13	自己
+*	Coreference T1 T2
+T3	Location-Nominal 21 23	县里
+T4	Person-Pronoun 56 57	我
+T5	Organization-Nominal 58 60	企业
+T6	Person-Pronoun 84 85	我
+T7	Organization-Name 89 99	广西容县电力有限公司
+T8	Person-Nominal 177 179	自己
+T9	Person-Nominal 226 232	公司党委书记
+T10	Person-Nominal 233 236	总经理
+T11	Person-Name 236 239	李广岩
+*	Coreference T11 T10 T9 T12
+T12	Person-Pronoun 247 248	他
+T13	Location-Nominal 249 251	县里
+T14	Person-Pronoun 257 258	我
+T15	Person-Pronoun 269 270	我
+T16	Person-Name 272 286	经理室一位叫卢莉莉的工作人员
+R1	Social Arg1:T16 Arg2:T15	
+T17	Person-Pronoun 287 288	我
+T18	Organization-Nominal 302 304	公司
+*	Coreference T18 T7
+T19	Person-Pronoun 319 320	她
+*	Coreference T19 T16
+T20	Person-Pronoun 336 337	我
+T21	Person-Pronoun 352 353	她
+T22	Person-Name 364 370	副总经理梁清
+T23	Person-Nominal 380 384	其他领导
+T24	Location-Nominal 393 396	办公室
+T25	Person-Nominal 398 400	领导
+T26	Person-Pronoun 401 402	她
+T27	Person-Pronoun 406 407	我
+T28	Person-Pronoun 426 427	她
+T29	Person-Name 433 439;440 443	公司党委副书 记黄植
+T30	Person-Pronoun 444 445	我
+R2	Social Arg1:T29 Arg2:T30	
+T31	Person-Pronoun 452 453	我
+T32	Location-Nominal 454 463	黄植副书记的办公室
+T33	Person-Pronoun 471 472	我
+T34	Organization-Nominal 477 479	公司
+T35	Person-Pronoun 480 481	我
+T36	Person-Name 493 498	黄植副书记
+T37	Person-Pronoun 503 504	我
+T38	Person-Name 515 519	黄副书记
+T39	Organization-Nominal 532 534	公司
+T40	Organization-Nominal 547 549	公司
+T41	Location-Nominal 552 555	办公室
+T42	Thing-Nominal 558 560	电表
+R3	Located Arg1:T42 Arg2:T41	
+T43	Time-Implicit 617 620	下班后
+T44	Location-Nominal 624 627	办公室
+T45	Location-Nominal 643 645	楼道
+T46	Location-Nominal 646 649	卫生间
+T47	Thing-Nominal 650 652	电灯
+R4	Located Arg1:T47 Arg2:T46	
+R5	Located Arg1:T47 Arg2:T45	
+T48	Thing-Nominal 672 674	空调
+T49	Thing-Nominal 677 679	空调
+T50	Location-Nominal 707 710	办公室
+T51	Thing-Nominal 753 755	电话
+T52	Person-Nominal 766 768	超者
+T53	Person-Nominal 782 784	员工
+T54	Thing-Nominal 785 789	办公电话
+*	Coreference T54 T51
+T55	Thing-Nominal 863 867;868 871	文印、复 印用纸
+T56	Thing-Nominal 882 884	电脑
+T57	Person-Nominal 892 898	输出修改用纸
+T58	Thing-Nominal 943 946	旧报纸
+T59	Thing-Nominal 947 949	杂志
+T60	Location-Nominal 974 977	洗车场
+T61	Thing-Nominal 983 984	车
+R6	Located Arg1:T61 Arg2:T60	
+T62	Person-Nominal 987 991	公司干部
+T63	Person-Nominal 992 994	员工
+T64	Person-Nominal 994 996	自己
+*	Coreference T64 T63 T62
+T65	Thing-Nominal 999 1000	车
+T66	Organization-Nominal 1009 1011	公司
+R7	Ownership Arg1:T11 Arg2:T18	
+T67	Person-Name 1024 1028	黄副书记
+T68	Person-Pronoun 1051 1052	我
+T69	Person-Pronoun 1076 1077	他
+*	Coreference T69 T67
+T70	Person-Pronoun 1101 1102	我
+T71	Person-Pronoun 1150 1151	他
+T72	Person-Pronoun 1165 1166	我
+T73	Person-Pronoun 1204 1205	他
+T74	Location-Nominal 1212 1215	洗车场
+T75	Person-Nominal 1216 1218	干部
+T76	Person-Nominal 1219 1221	职工
+T77	Person-Pronoun 1229 1230	我
+T78	Person-Nominal 1311 1313	干部
+T79	Person-Nominal 1314 1316	职工
+T80	Person-Pronoun 1330 1331	他
+T81	Thing-Nominal 1335 1340	旧报纸杂志
+T82	Person-Pronoun 1353 1354	我
+T83	Person-Name 1394 1398	黄副书记
+T84	Organization-Nominal 1402 1404	公司
+R8	Ownership Arg1:T83 Arg2:T84	
+T85	Organization-Nominal 1411 1415	地方政府
+T86	Location-Nominal 1418 1419	县
+T87	Organization-Nominal 1425 1428	小纸厂
+T88	Time-Implicit 1435 1437	每年
+T89	Metric 1457 1462	600多吨
+T90	Location-Name 1522 1526	容城电站
+T91	Metric 1559 1561	2万
+T92	Organization-Nominal 1593 1595	公司
+T93	Metric 1598 1601	20万
+T94	Person-Pronoun 1632 1633	我
+T95	Organization-Nominal 1677 1679	公司
+T96	Time-Implicit 1691 1696	一个半小时
+T97	Person-Name 1706 1710	黄副书记
+T98	Organization-Nominal 1711 1713	公司
+T99	Person-Pronoun 1728 1729	我
+T100	Organization-Nominal 1734 1736	公司
+T101	Person-Nominal 1758 1762	领导班子
+T102	Person-Nominal 1785 1788	当家人
+T103	Person-Nominal 1792 1795	当家人
+T104	Person-Nominal 1798 1805	勤俭节约的楷模
+*	Coreference T103 T104
+R9	Part-Whole Arg1:T102 Arg2:T101	
+T105	Person-Pronoun 1807 1808	我
+T106	Person-Name 1814 1817	李广岩
+T107	Person-Name 1834 1836	李总
+*	Coreference T107 T106
+T108	Person-Nominal 1843 1847	几位领导
+R10	Social Arg1:T107 Arg2:T108	
+T109	Person-Pronoun 1857 1858	我
+T110	Person-Pronoun 1862 1863	我
+R11	Social Arg1:T105 Arg2:T106	
+T111	Time-Explicit 1872 1881	每年的10月31日
+T112	Time-Explicit 1883 1888	世界勤俭日
+*	Coreference T111 T112
+T113	Organization-Name 1892 1895	联合国
+T114	Thing-Name 1901 1903	地球
+T115	Person-Pronoun 1949 1950	我
+T116	Person-Name 1957 1961	黄副书记
+T117	Location-Nominal 1973 1979	公司办公大楼
+T118	Person-Pronoun 1982 1983	我
+T119	Time-Explicit 1991 1993;1994 1999	上世 纪六十年代
+T120	Person-Pronoun 2010 2012	咱们
+T121	Thing-Nominal 2013 2016	传家宝
+T122	Thing-Nominal 2031 2034	老歌书
+T123	Organization-Nominal 2040 2043	该公司
+T124	Person-Pronoun 2049 2051	咱们
+T125	Thing-Nominal 2052 2055	传家宝
+T126	Metric 2071 2073	一寸
+T127	Thing-Nominal 2073 2074	钢
+T128	Thing-Nominal 2081 2082	米
+T129	Metric 2083 2085	一尺
+T130	Thing-Nominal 2085 2086	布
+T131	Metric 2087 2089	一分
+T132	Person-Pronoun 2092 2094	咱们
+T133	Thing-Nominal 2102 2103	钢
+T134	Thing-Nominal 2106 2108	刀刃
+T135	Metric 2111 2113	千日
+T136	Thing-Nominal 2114 2115	柴
+T137	Thing-Nominal 2117 2119	一日

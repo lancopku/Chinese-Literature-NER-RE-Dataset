@@ -1,0 +1,97 @@
+T1	Person-Nominal 0 1	人
+T2	Thing-Nominal 7 9	图画
+T3	Location-Nominal 53 55	楼台
+T4	Thing-Nominal 65 66	瓦
+T5	Thing-Nominal 73 74	烟
+T6	Thing-Nominal 78 79	炭
+T7	Thing-Nominal 83 85	松烟
+T8	Thing-Nominal 90 92	翡翠
+T9	Thing-Nominal 92 94	玻璃
+T10	Location-Nominal 96 98	紫山
+T11	Person-Nominal 132 136	英国人民
+T12	Location-Nominal 150 153	飞机场
+T13	Thing-Nominal 155 157	飞机
+T14	Location-Nominal 166 168	草堂
+T15	Location-Nominal 174 176	高楼
+T16	Location-Nominal 179 181	地坪
+T17	Location-Nominal 186 188	大厦
+T18	Thing-Nominal 188 190	衣裳
+T19	Person-Pronoun 193 194	我
+T20	Person-Nominal 197 208	小有学习过机械制图的人
+T21	Metric 195 197	一个
+*	Coreference T20 T19
+T22	Location-Nominal 254 258	草木原野
+T23	Thing-Nominal 262 268	直角丁字直尺
+T24	Thing-Nominal 269 272	三角板
+T25	Thing-Nominal 276 280	圆角规尺
+T26	Thing-Nominal 283 285	圆规
+T27	Thing-Nominal 287 290	橡皮擦
+T28	Thing-Nominal 297 307	天坛深绿软硬木的铅笔
+T29	Metric 295 297	一枝
+T30	Thing-Nominal 379 381	三山
+T31	Thing-Nominal 382 384	日月
+T32	Location-Nominal 385 387	天地
+T33	Location-Nominal 416 424	藏在机械里的空间
+T34	Metric 413 415	一个
+T35	Thing-Nominal 428 435	暗藏的螺丝母孔
+T36	Thing-Nominal 436 439	内燃机
+T37	Location-Nominal 442 449	燃烧的汽缸空间
+T38	Metric 440 442	一个
+T39	Location-Nominal 452 454	桥头
+T40	Thing-Nominal 467 471	过桥的水
+T41	Thing-Nominal 517 519	朝阳
+T42	Thing-Nominal 530 531	草
+T43	Thing-Nominal 531 532	树
+T44	Thing-Nominal 602 604	模具
+T45	Location-Nominal 617 619	世界
+T46	Location-Nominal 620 622	中国
+T47	Thing-Nominal 665 671	中国的铁路通
+T48	Location-Nominal 673 675	外国
+T49	Thing-Nominal 676 678	香烟
+T50	Location-Nominal 684 686	兰天
+T51	Thing-Nominal 688 690	白云
+T52	Person-Pronoun 706 707	我
+T53	Thing-Nominal 718 723	铅笔的笔芯
+T54	Thing-Nominal 725 727	石墨
+*	Coreference T54 T53 T55
+T55	Thing-Nominal 728 729	芯
+T56	Thing-Nominal 745 749	硬质铅笔
+T57	Thing-Nominal 755 759	软质铅笔
+T58	Thing-Nominal 767 774	软硬适中的铅笔
+T59	Thing-Nominal 780 792	硬度在HB和H之间的铅笔
+T60	Thing-Nominal 813 817	特种铅笔
+T61	Thing-Nominal 819 823	玻璃铅笔
+T62	Thing-Nominal 824 827;828 829	变色铅 笔
+T63	Thing-Nominal 830 834	炭画铅笔
+T64	Thing-Nominal 835 839	晒图铅笔
+T65	Thing-Nominal 840 844	水彩铅笔
+T66	Thing-Nominal 845 849	粉彩铅笔
+R1	General-Special Arg1:T60 Arg2:T61	
+R2	General-Special Arg1:T60 Arg2:T62	
+R3	General-Special Arg1:T60 Arg2:T63	
+R4	General-Special Arg1:T60 Arg2:T64	
+R5	General-Special Arg1:T60 Arg2:T65	
+R6	General-Special Arg1:T60 Arg2:T66	
+T67	Thing-Pronoun 851 853	它们
+*	Coreference T67 T60
+T68	Thing-Nominal 895 896	笔
+T69	Location-Nominal 978 985	优美的房屋楼亭
+T70	Thing-Nominal 990 991	纸
+T71	Thing-Nominal 992 994	衣裳
+T72	Thing-Nominal 994 996	西裤
+T73	Person-Pronoun 1034 1035	我
+T74	Person-Name 1041 1047	齐白石老先生
+T75	Thing-Nominal 1048 1050	虾米
+T76	Location-Nominal 1078 1080	竹林
+T77	Thing-Nominal 1090 1091	衣
+T78	Location-Nominal 1106 1108	房屋
+T79	Thing-Nominal 1112 1113	云
+T80	Person-Nominal 1130 1132	人类
+T81	Person-Pronoun 1163 1165	我们
+T82	Person-Pronoun 1206 1207	我
+T83	Location-Nominal 1208 1210	草野
+T84	Location-Nominal 1238 1245	工业文明的领地
+T85	Thing-Nominal 1246 1248	山石
+T86	Thing-Nominal 1271 1273	微风
+T87	Thing-Nominal 1269 1271	草树
+T88	Location-Nominal 1277 1279	城市

@@ -1,0 +1,261 @@
+T1	Time-Implicit 2 5	端午节
+T2	Person-Nominal 11 15	乡村女儿
+T3	Location-Nominal 21 23	娘家
+T4	Thing-Nominal 26 32	那素素的绿妆
+T5	Person-Pronoun 54 55	我
+T6	Time-Implicit 56 59	端午节
+T7	Person-Nominal 63 65	弟弟
+T8	Thing-Nominal 85 87	夕阳
+T9	Person-Nominal 98 102	我的弟弟
+T10	Person-Pronoun 98 99	我
+R1	Family Arg1:T9 Arg2:T10	
+T11	Person-Pronoun 126 127	我
+T12	Time-Implicit 131 141	从前那个珍贵的端午节
+T13	Person-Nominal 143 145	弟弟
+T14	Person-Nominal 158 159	人
+T15	Person-Nominal 163 165	母亲
+T16	Person-Pronoun 166 167	他
+*	Coreference T16 T13
+T17	Person-Pronoun 172 173	我
+T18	Person-Pronoun 179 180	我
+T19	Person-Nominal 183 186	老儿子
+T20	Person-Nominal 186 189	大孙子
+T21	Person-Nominal 190 193	老太太
+T22	Person-Pronoun 204 205	他
+T23	Person-Pronoun 215 216	我
+T24	Person-Pronoun 217 218	他
+T25	Time-Implicit 223 226	那一年
+T26	Person-Nominal 227 229	母亲
+T27	Person-Pronoun 234 235	她
+*	Coreference T27 T26
+T28	Person-Nominal 239 247	各奔东西的儿女们
+T29	Person-Nominal 248 250	大姐
+T30	Person-Nominal 251 253	三姐
+T31	Person-Nominal 254 256	小妹
+T32	Location-Name 280 282	上海
+T33	Person-Nominal 284 286	二姐
+T34	Metric 287 290	很多年
+T35	Thing-Nominal 305 307	家书
+T36	Time-Implicit 312 317	端午节临近
+T37	Person-Nominal 318 320	母亲
+T38	Person-Nominal 324 327	二女儿
+R2	Family Arg1:T38 Arg2:T37	
+T39	Thing-Nominal 330 336	那晶莹的泪迹
+T40	Person-Pronoun 340 341	她
+*	Coreference T40 T37
+T41	Thing-Nominal 345 347	眼睛
+R3	Part-Whole Arg1:T41 Arg2:T40	
+T42	Person-Pronoun 349 351	我们
+T43	Person-Nominal 360 362	弟弟
+T44	Time-Explicit 367 369	周日
+T45	Person-Pronoun 374 375	他
+*	Coreference T45 T43
+T46	Person-Nominal 377 379	大家
+T47	Person-Nominal 381 383	二姐
+T48	Thing-Nominal 381 386	二姐的路费
+T49	Person-Pronoun 388 389	她
+*	Coreference T49 T47
+T50	Time-Implicit 391 393	节前
+T51	Location-Nominal 394 395	家
+T52	Time-Implicit 400 402	当时
+T53	Person-Pronoun 412 414	我们
+T54	Person-Nominal 414 420	兄弟姐妹六个
+T55	Person-Nominal 423 427	一位亲人
+T56	Thing-Nominal 430 432	路费
+T57	Person-Pronoun 444 445	我
+T58	Person-Nominal 449 455	我们兄弟姐妹
+T59	Person-Pronoun 449 451	我们
+T60	Person-Nominal 463 465	父母
+T61	Time-Implicit 475 479	端午那天
+T62	Thing-Nominal 480 485	足足的太阳
+T63	Person-Nominal 488 490	母亲
+T64	Thing-Nominal 488 493	母亲的院落
+R4	Ownership Arg1:T63 Arg2:T64	
+T65	Thing-Nominal 496 498	天空
+T66	Person-Nominal 511 512	人
+T67	Thing-Nominal 520 527	一点飕飕的凉风
+T68	Location-Nominal 530 532	里面
+T69	Person-Nominal 533 539	我们全家大小
+T70	Person-Nominal 541 546	二十几口人
+T71	Thing-Nominal 555 558	小屋子
+T72	Thing-Nominal 578 585	飞回来的燕子们
+T73	Person-Nominal 586 588	父母
+T74	Thing-Nominal 593 595	笑纹
+T75	Thing-Nominal 596 598	眼睛
+T76	Thing-Nominal 602 604	泪花
+R5	Part-Whole Arg1:T75 Arg2:T73	
+T77	Person-Nominal 605 607	大家
+T78	Thing-Nominal 611 616	这顿团圆饭
+T79	Person-Nominal 617 619	弟弟
+T80	Person-Nominal 632 635	孩子们
+T81	Thing-Nominal 636 638	艾蒿
+T82	Thing-Nominal 642 644	植物
+T83	Thing-Nominal 649 651	艾蒿
+T84	Thing-Nominal 680 682;683 684	中草 药
+T85	Person-Nominal 698 699	人
+T86	Person-Pronoun 701 702	她
+T87	Time-Implicit 704 707	端午节
+T88	Thing-Pronoun 713 714	她
+T89	Thing-Nominal 728 729	蚊
+T90	Thing-Pronoun 733 734	她
+*	Coreference T88 T83
+T91	Thing-Pronoun 745 746	她
+T92	Thing-Pronoun 752 754	自己
+T93	Thing-Pronoun 770 771	她
+T94	Time-Implicit 766 768	端午
+T95	Thing-Nominal 776 789	一扎扎带着清晨露珠儿的艾草
+T96	Thing-Nominal 792 804;805 806	几只颜色不同且艳丽的纸葫 芦
+T97	Location-Nominal 809 812	房檐上
+R6	Located Arg1:T95 Arg2:T97	
+T98	Thing-Nominal 814 816	晨风
+T99	Thing-Nominal 819 825	绿丛中的彩蝶
+T100	Thing-Nominal 835 837	艾草
+T101	Person-Nominal 842 844	弟弟
+T102	Time-Implicit 845 847	端午
+T103	Person-Nominal 854 857	孩子们
+T104	Time-Implicit 858 861	端午节
+T105	Thing-Nominal 868 873	香甜的粽子
+T106	Person-Nominal 875 878	孩子们
+T107	Person-Nominal 897 899	帮手
+T108	Thing-Nominal 915 918	活兔子
+T109	Thing-Nominal 922 934	他们(她们)的手腕、脚腕
+T110	Person-Pronoun 922 928	他们(她们)
+*	Coreference T110 T107
+T111	Thing-Nominal 937 940	五色线
+T112	Location-Nominal 941 943	胸前
+T115	Thing-Nominal 945 957	香包和小扫帚捆一起的饰物
+T116	Person-Nominal 972 975	孩子们
+T117	Person-Pronoun 996 1002	他们(她们)
+*	Coreference T117 T116
+T118	Thing-Pronoun 1014 1016	它们
+R7	Located Arg1:T115 Arg2:T112	
+T113	Thing-Nominal 945 947	香包
+T114	Thing-Nominal 948 951	小扫帚
+T119	Time-Implicit 1021 1023	端午
+T120	Person-Nominal 1030 1032	母亲
+T121	Time-Implicit 1032 1035	几天前
+T122	Thing-Nominal 1044 1053	十几个孩子们的饰物
+T123	Person-Nominal 1044 1050	十几个孩子们
+R8	Ownership Arg1:T123 Arg2:T122	
+T124	Person-Nominal 1084 1088	她老人家
+T125	Person-Pronoun 1084 1085	她
+T126	Thing-Nominal 1089 1090	药
+T127	Person-Nominal 1106 1111	这时的弟弟
+T128	Time-Implicit 1106 1108	这时
+*	Coreference T125 T120
+T129	Thing-Nominal 1093 1095	病体
+T130	Location-Name 1115 1117	厨房
+T131	Person-Nominal 1120 1122	别人
+T132	Person-Pronoun 1145 1146	他
+*	Coreference T132 T127
+T133	Person-Pronoun 1162 1163	他
+T134	Thing-Nominal 1163 1164	脸
+R9	Part-Whole Arg1:T134 Arg2:T133	
+T135	Location-Nominal 1174 1177	荷塘中
+T136	Time-Implicit 1172 1174	雨后
+T137	Thing-Nominal 1177 1182	浑圆的水面
+R10	Located Arg1:T137 Arg2:T135	
+T138	Thing-Nominal 1193 1195	粽子
+T139	Person-Nominal 1198 1201	姐妹们
+T140	Location-Nominal 1210 1213	清水中
+T141	Thing-Nominal 1214 1216	粽叶
+R11	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 1226 1232	白胖胖的粽米
+T143	Location-Nominal 1235 1238	桌子旁
+T144	Person-Nominal 1242 1245	一圈人
+T145	Location-Nominal 1246 1248	盆里
+T146	Thing-Nominal 1250 1252;1253 1254	好多 手
+R12	Located Arg1:T146 Arg2:T145	
+T147	Thing-Nominal 1260 1264	满盆粽子
+T148	Thing-Nominal 1270 1274	满桌菜肴
+T149	Person-Nominal 1275 1277	大家
+T150	Thing-Nominal 1290 1295	二姐的泪眼
+T151	Person-Nominal 1290 1292	二姐
+R13	Part-Whole Arg1:T150 Arg2:T151	
+T152	Person-Pronoun 1306 1307	她
+T153	Location-Nominal 1319 1322	饭桌上
+T154	Thing-Nominal 1324 1325	泪
+T155	Thing-Nominal 1326 1328	美酒
+T156	Person-Nominal 1335 1337	大家
+T157	Time-Implicit 1350 1354	来年端午
+T158	Person-Pronoun 1359 1360	我
+T159	Person-Pronoun 1381 1382	我
+T160	Thing-Nominal 1383 1385	喉咙
+T161	Time-Implicit 1398 1400	那天
+T162	Person-Pronoun 1401 1402	我
+T163	Person-Pronoun 1414 1415	我
+T164	Time-Implicit 1418 1427	最珍贵的团圆纪念日
+T165	Time-Implicit 1432 1439	那个端午节过后
+T166	Person-Nominal 1443 1445	弟弟
+T167	Time-Implicit 1449 1456	一次煤烟中毒后
+T168	Thing-Nominal 1451 1453	煤烟
+T169	Person-Pronoun 1463 1465	我们
+T170	Time-Implicit 1473 1475	端午
+T171	Time-Implicit 1480 1482	每年
+T172	Thing-Nominal 1489 1491	茱萸
+T173	Person-Nominal 1493 1494	人
+T174	Person-Pronoun 1503 1504	他
+T175	Person-Nominal 1466 1468	弟弟
+*	Coreference T174 T175
+T176	Time-Implicit 1519 1521	那年
+T177	Person-Nominal 1523 1525	弟弟
+T178	Person-Pronoun 1534 1535	他
+*	Coreference T178 T177
+T179	Thing-Nominal 1544 1549	大大的太阳
+T180	Person-Nominal 1550 1551	人
+T181	Location-Nominal 1557 1559	里边
+T182	Thing-Nominal 1561 1565	飕飕凉风
+T183	Thing-Nominal 1572 1574	粽叶
+T184	Location-Nominal 1566 1569	市面上
+T185	Thing-Nominal 1578 1580	田野
+T186	Thing-Nominal 1584 1586	艾蒿
+T187	Time-Implicit 1587 1589	端午
+T188	Person-Pronoun 1597 1598	我
+T189	Thing-Nominal 1617 1618	云
+T190	Person-Pronoun 1623 1624	我
+T191	Person-Pronoun 1627 1628	我
+T192	Time-Implicit 1643 1646	端午节
+T193	Person-Nominal 1656 1658	弟弟
+T194	Person-Nominal 1688 1694	中国作协会员
+T195	Person-Nominal 1695 1706	鞍山师院中文系客座教授
+T196	Person-Name 1707 1716	钢都文学社长邢绍忠
+T197	Time-Explicit 1724 1732	2010年12月
+T198	Location-Name 1733 1735	北京
+T199	Time-Implicit 1750 1753	前不久
+T200	Time-Explicit 1755 1760	2011年
+T201	Organization-Name 1760 1766	中国散文学会
+T202	Person-Pronoun 1784 1785	他
+*	Coreference T202 T196
+T203	Abstract 1788 1795	《黄土的思念》
+T204	Person-Nominal 1808 1811	小说家
+T205	Person-Name 1812 1821	市作协副主席卜庆祥
+T206	Abstract 1839 1846	《美丽的乡愁》
+T207	Metric 1850 1854	18分钟
+T208	Person-Nominal 1879 1881	作者
+T209	Metric 1895 1897	半年
+T210	Metric 1938 1941	40部
+T211	Metric 1946 1948	6部
+T212	Metric 1951 1953	4部
+T213	Time-Explicit 1958 1963	1969年
+T214	Person-Pronoun 1964 1965	他
+T215	Abstract 1966 1972	《鞍山日报》
+T216	Abstract 1980 1989	《花果山上不老松》
+T217	Abstract 2003 2008	《大公报》
+T218	Time-Explicit 2012 2017	1987年
+T219	Person-Pronoun 2018 2019	他
+T220	Person-Nominal 2021 2023	校长
+T221	Abstract 2030 2040	《聂老师与三个孤儿》
+T222	Abstract 2042 2048	《人民教育》
+T223	Abstract 2065 2074	《校园里的特立档案
+T224	Abstract 2077 2083	《辽宁日报》
+T225	Abstract 2110 2114;2115 2119	《检察官 的风采》
+T226	Abstract 2142 2148	《辽宁日报》
+T227	Abstract 2149 2155	《辽宁散文》
+T228	Abstract 2183 2191	《“槛外人”语》
+T229	Person-Pronoun 2061 2062	他
+T230	Time-Explicit 2055 2060	1992年
+T231	Time-Explicit 2134 2139	2010年
+T232	Metric 2163 2167	10多篇
+T233	Time-Explicit 2170 2175	2015年
+T234	Time-Explicit 2100 2105	1996年
+T235	Person-Pronoun 2106 2107	他

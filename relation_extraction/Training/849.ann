@@ -1,0 +1,93 @@
+T1	Person-Nominal 1 4	投递员
+T2	Thing-Nominal 9 15	《读者》杂志
+T3	Person-Pronoun 17 18	我
+R1	Social Arg1:T1 Arg2:T3	
+T4	Person-Pronoun 24 25	我
+T5	Time-Explicit 27 32	2014年
+T6	Metric 39 41	一年
+T7	Person-Pronoun 47 48	我
+T8	Location-Nominal 47 50	我床头
+T9	Thing-Nominal 61 67	《读者》杂志
+R2	Located Arg1:T9 Arg2:T8	
+T10	Metric 85 87	多年
+T11	Time-Implicit 91 93	每年
+T12	Thing-Nominal 106 110	《读者》
+T13	Thing-Nominal 111 115	《散文》
+T14	Thing-Nominal 116 118	杂志
+R3	General-Special Arg1:T13 Arg2:T14	
+R4	General-Special Arg1:T12 Arg2:T14	
+T15	Person-Pronoun 119 120	我
+T16	Person-Pronoun 135 136	我
+T17	Thing-Nominal 145 147	杂志
+R5	Ownership Arg1:T16 Arg2:T17	
+T18	Thing-Nominal 167 169	树叶
+T19	Location-Nominal 164 166	路上
+T20	Person-Pronoun 178 179	我
+T21	Person-Pronoun 208 209	我
+T22	Person-Nominal 211 213	自己
+T23	Metric 213 215	一年
+T24	Thing-Nominal 229 231	杂志
+T25	Thing-Nominal 237 239	剪报
+R6	Ownership Arg1:T21 Arg2:T24	
+R7	Ownership Arg1:T21 Arg2:T25	
+T26	Metric 244 246	一年
+T27	Person-Pronoun 306 307	我
+T28	Person-Pronoun 333 334	我
+T29	Time-Explicit 346 350	当今时代
+T30	Person-Pronoun 368 369	我
+T31	Person-Nominal 372 375	一些人
+T32	Person-Nominal 387 390	一些人
+R8	Social Arg1:T30 Arg2:T31	
+R9	Social Arg1:T30 Arg2:T32	
+T33	Person-Nominal 414 417	很多人
+T34	Person-Pronoun 423 424	我
+T35	Thing-Nominal 434 435	泪
+T36	Thing-Nominal 445 446	草
+T37	Thing-Nominal 446 447	木
+T38	Metric 461 463	一年
+T39	Time-Implicit 465 469	临近年终
+T40	Thing-Nominal 472 474	报刊
+T41	Thing-Nominal 474 476	杂志
+T42	Thing-Nominal 480 482	特刊
+T43	Person-Nominal 486 491	弄文字的人
+T44	Time-Implicit 501 503	年终
+T45	Time-Implicit 520 522	来年
+T46	Thing-Nominal 534 535	笔
+R10	Use Arg1:T43 Arg2:T46	
+T47	Thing-Nominal 557 559	尘埃
+T48	Thing-Nominal 562 564	落叶
+T49	Thing-Nominal 565 567	日历
+T50	Time-Explicit 598 600	冬至
+T51	Person-Pronoun 624 625	我
+T52	Person-Pronoun 632 633	我
+T53	Person-Pronoun 639 640	我
+T54	Location-Nominal 644 646	书房
+T55	Location-Nominal 652 654	客厅
+T56	Thing-Nominal 668 671	落地窗
+T57	Person-Pronoun 682 683	我
+R11	Located Arg1:T56 Arg2:T55	
+T58	Person-Pronoun 687 688	我
+T59	Thing-Nominal 690 691	窗
+*	Coreference T59 T56
+T60	Location-Nominal 690 692	窗前
+T61	Thing-Nominal 693 695	夕阳
+T62	Location-Nominal 700 702	屋里
+T63	Location-Nominal 712 714	屋外
+T64	Metric 731 733	一年
+T65	Location-Nominal 734 736	濠梁
+T66	Thing-Nominal 737 738	鱼
+R12	Located Arg1:T66 Arg2:T65	
+T67	Person-Pronoun 745 746	我
+T68	Location-Nominal 748 750	窗外
+T69	Thing-Nominal 752 754	法桐
+R13	Located Arg1:T69 Arg2:T68	
+T70	Thing-Nominal 764 766	枝干
+R14	Part-Whole Arg1:T70 Arg2:T69	
+T71	Time-Implicit 795 797	今年
+T72	Time-Implicit 800 802	来年
+T73	Metric 809 811	一年
+T74	Person-Pronoun 828 830	我们
+T75	Metric 817 820	很多年
+T76	Time-Implicit 847 849	冬天
+T77	Time-Implicit 854 856	春天
+T78	Time-Implicit 778 783	下一个春天

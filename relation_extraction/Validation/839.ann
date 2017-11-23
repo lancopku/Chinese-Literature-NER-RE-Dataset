@@ -1,0 +1,328 @@
+T1	Time-Implicit 0 7	跨入十二月不久
+T2	Location-Nominal 8 10	超市
+T3	Location-Nominal 11 13	商场
+T4	Thing-Nominal 19 22	圣诞树
+R1	Located Arg1:T4 Arg2:T3	
+R2	Located Arg1:T4 Arg2:T2	
+T5	Location-Nominal 27 32	幼儿园门口
+T6	Person-Pronoun 60 61	我
+T7	Person-Nominal 63 66	基督徒
+T8	Person-Pronoun 76 77	我
+T9	Person-Name 83 85	耶稣
+T10	Person-Name 95 97	耶稣
+T11	Person-Nominal 99 108	一个死了二千年的人
+T12	Metric 103 106	二千年
+*	Coreference T10 T11 T13
+T13	Person-Pronoun 119 120	他
+T14	Person-Pronoun 127 128	他
+T15	Person-Pronoun 136 137	他
+T16	Person-Nominal 146 148	自己
+T17	Person-Nominal 146 151	自己的百姓
+T18	Person-Pronoun 164 165	我
+T19	Organization-Name 191 196	国民党政府
+T20	Person-Nominal 191 199	国民党政府所在地
+T21	Location-Name 200 202	南京
+R3	Ownership Arg1:T20 Arg2:T21	
+T22	Time-Implicit 212 214	次日
+T23	Person-Name 219 222	毛泽东
+T24	Location-Name 231 233	延安
+T25	Person-Nominal 244 249	国民党官员
+R4	Ownership Arg1:T25 Arg2:T19	
+T26	Organization-Name 258 260	中国
+T27	Person-Name 266 269	毛泽东
+T28	Person-Nominal 272 276	共产党人
+R5	General-Special Arg1:T27 Arg2:T28	
+T29	Person-Nominal 281 285	人民大众
+T30	Person-Name 288 290	耶稣
+T31	Person-Nominal 293 295	自己
+*	Coreference T30 T31
+T32	Person-Nominal 293 298	自己的百姓
+R6	Social Arg1:T30 Arg2:T32	
+*	Coreference T15 T16
+R7	Social Arg1:T15 Arg2:T17	
+T33	Person-Nominal 317 319	自己
+T34	Person-Nominal 317 322	自己的百姓
+R8	Social Arg1:T33 Arg2:T34	
+T35	Time-Implicit 340 342	当时
+T36	Location-Name 342 344	延安
+T37	Person-Nominal 345 349	共产党人
+T38	Organization-Nominal 350 352	军队
+T39	Organization-Nominal 355 358	国民党
+T40	Person-Nominal 361 363	赤匪
+R9	General-Special Arg1:T37 Arg2:T40	
+T41	Time-Implicit 365 367	当时
+T42	Person-Name 368 371	毛泽东
+T43	Location-Name 372 374	延安
+T44	Person-Name 388 394	美国记者斯诺
+T45	Thing-Nominal 395 396	笔
+R10	Use Arg1:T44 Arg2:T45	
+T46	Person-Pronoun 408 409	我
+T47	Person-Pronoun 414 415	他
+T48	Time-Implicit 416 421	傍晚的时候
+T49	Person-Name 422 425	毛泽东
+T50	Location-Nominal 429 431	街上
+T51	Person-Nominal 436 443	两个年轻的农民
+R11	Social Arg1:T49 Arg2:T51	
+T52	Person-Name 459 461	斯诺
+T53	Person-Name 464 466;467 468	毛泽 东
+R12	Social Arg1:T52 Arg2:T53	
+*	Coreference T47 T49
+R13	Social Arg1:T46 Arg2:T47	
+T54	Time-Implicit 471 473	当时
+T55	Location-Name 473 475	延安
+T56	Organization-Name 483 486	共产党
+T57	Organization-Pronoun 487 488	其
+*	Coreference T57 T56
+T58	Organization-Nominal 488 490	军队
+T59	Person-Nominal 494 496	赤匪
+T60	Person-Nominal 500 506	穷苦人的救星
+T61	Person-Pronoun 507 509	他们
+*	Coreference T60 T61
+T62	Person-Nominal 519 521	地主
+T63	Person-Nominal 522 526	高利贷者
+T64	Person-Nominal 527 531	地方军阀
+T65	Thing-Nominal 540 542	地契
+T66	Thing-Nominal 545 547	土地
+T67	Person-Nominal 550 552	农民
+T68	Person-Nominal 553 555	士兵
+T69	Thing-Nominal 556 558	寺庙
+T70	Thing-Nominal 559 563	祠堂地产
+T71	Organization-Nominal 573 575	政府
+T72	Person-Nominal 579 581	童工
+T73	Thing-Nominal 583 585	鸦片
+T74	Person-Nominal 601 603	农民
+T75	Person-Nominal 605 607	工人
+T76	Person-Nominal 608 610	士兵
+T77	Person-Nominal 612 614	公民
+R14	General-Special Arg1:T74 Arg2:T77	
+R15	General-Special Arg1:T75 Arg2:T77	
+R16	General-Special Arg1:T76 Arg2:T77	
+R17	Social Arg1:T61 Arg2:T62	
+R18	Social Arg1:T61 Arg2:T63	
+R19	Social Arg1:T61 Arg2:T64	
+T78	Person-Name 618 620	斯诺
+T79	Organization-Nominal 626 629	共产党
+T80	Organization-Pronoun 641 642	她
+*	Coreference T80 T79
+T81	Person-Nominal 656 660	无地农民
+T82	Person-Nominal 661 663	贫民
+T83	Person-Nominal 667 671	红军士兵
+T84	Person-Nominal 673 675	农民
+*	Coreference T83 T84 T85
+T85	Person-Pronoun 676 678	他们
+T86	Person-Nominal 676 678;679 685	他们 的政治领导人
+T87	Person-Nominal 688 690	农民
+*	Coreference T86 T87
+T88	Person-Pronoun 693 695	他们
+T89	Person-Nominal 704 706	农民
+R20	Social Arg1:T88 Arg2:T89	
+T90	Person-Name 711 713	斯诺
+T91	Person-Nominal 718 722	中共要人
+T92	Person-Nominal 738 742	红军战士
+T93	Person-Nominal 754 757	老百姓
+T94	Thing-Nominal 761 762	鱼
+T95	Thing-Nominal 763 764	水
+R21	Social Arg1:T91 Arg2:T93	
+R22	Social Arg1:T92 Arg2:T93	
+T96	Person-Name 772 774	斯诺
+T97	Organization-Name 785 790	美国合众社
+T98	Person-Nominal 791 799	伦敦泰晤士报记者
+T99	Person-Name 800 807	哈里森・福尔曼
+R23	General-Special Arg1:T98 Arg2:T99	
+T100	Person-Nominal 835 840	国民党当局
+T101	Time-Explicit 844 851	1944年6月
+T102	Person-Pronoun 852 853	他
+T103	Organization-Nominal 854 861	中外记者参观团
+T104	Location-Name 863 865	延安
+T105	Location-Nominal 866 873	华北抗日根据地
+T106	Location-Nominal 875 877	战地
+*	Coreference T105 T106
+T107	Person-Pronoun 883 884	他
+T108	Person-Name 887 890	毛泽东
+T109	Person-Name 892 894	朱德
+T110	Person-Name 895 898	彭德怀
+T111	Person-Name 899 901	贺龙
+T112	Person-Name 902 904	陈毅
+T113	Person-Name 905 908	叶剑英
+T114	Person-Name 909 911	王震
+T115	Person-Name 912 915	吕正操
+T116	Person-Nominal 919 923	中共领袖
+T117	Person-Nominal 924 926	将领
+T118	Person-Pronoun 931 932	他
+*	Coreference T118 T107 T102 T99 T119
+R24	General-Special Arg1:T108 Arg2:T116	
+R25	General-Special Arg1:T108 Arg2:T117	
+R26	General-Special Arg1:T109 Arg2:T116	
+R27	General-Special Arg1:T109 Arg2:T117	
+R28	General-Special Arg1:T110 Arg2:T116	
+R29	General-Special Arg1:T110 Arg2:T117	
+R30	General-Special Arg1:T111 Arg2:T116	
+R31	General-Special Arg1:T111 Arg2:T117	
+R32	General-Special Arg1:T112 Arg2:T116	
+R33	General-Special Arg1:T112 Arg2:T117	
+R34	General-Special Arg1:T113 Arg2:T116	
+R35	General-Special Arg1:T113 Arg2:T117	
+R36	General-Special Arg1:T114 Arg2:T116	
+R37	General-Special Arg1:T114 Arg2:T117	
+R38	General-Special Arg1:T115 Arg2:T116	
+R39	General-Special Arg1:T115 Arg2:T116	
+T119	Person-Pronoun 931 932	他
+T120	Location-Name 935 937	延安
+T121	Organization-Name 946 949	国民党
+T122	Location-Name 965 967	延安
+T123	Person-Name 968 971	福尔曼
+T124	Person-Pronoun 976 977	他
+*	Coreference T124 T123
+T125	Time-Explicit 998 1003	1945年
+T126	Person-Name 1003 1006	福尔曼
+T127	Time-Implicit 1006 1009	回国后
+T128	Thing-Name 1019 1028	来自红色中国的报道
+T129	Thing-Name 1034 1038	北行漫记
+*	Coreference T128 T129
+T130	Location-Nominal 1056 1058;1059 1061	抗战 圣地
+T131	Location-Name 1061 1063	延安
+*	Coreference T130 T131
+T132	Location-Nominal 1069 1074	抗日根据地
+T133	Location-Nominal 1074 1079	陕甘宁边区
+*	Coreference T132 T133
+T134	Organization-Nominal 1090 1093	八路军
+T135	Person-Name 1098 1100	斯诺
+T136	Thing-Name 1104 1108	西行漫记
+T137	Person-Name 1115 1118	福尔曼
+T138	Thing-Name 1120 1124	北行漫记
+T139	Organization-Name 1128 1133	中国共产党
+T140	Person-Nominal 1128 1136	中国共产党的领袖
+T141	Person-Nominal 1139 1142	劳动者
+*	Coreference T140 T141
+R40	Ownership Arg1:T140 Arg2:T139	
+T142	Person-Name 1156 1159	福尔曼
+T143	Person-Name 1162 1165	毛泽东
+R41	General-Special Arg1:T143 Arg2:T140	
+T144	Person-Nominal 1169 1175	普通的老百姓
+R42	Social Arg1:T143 Arg2:T144	
+R43	Social Arg1:T142 Arg2:T143	
+T145	Person-Pronoun 1181 1182	他
+T146	Location-Nominal 1181 1186	他的会客室
+T147	Location-Nominal 1209 1211	窑洞
+T148	Thing-Nominal 1193 1195	砖地
+T149	Thing-Nominal 1196 1199	白墙壁
+T150	Thing-Nominal 1206 1208	家具
+R44	Located Arg1:T148 Arg2:T147	
+R45	Located Arg1:T149 Arg2:T147	
+R46	Located Arg1:T150 Arg2:T147	
+*	Coreference T146 T147
+T151	Location-Nominal 1216 1218	窑洞
+T152	Thing-Nominal 1225 1227	火光
+T153	Thing-Nominal 1233 1236;1237 1238	翻转杆 子
+T154	Thing-Nominal 1240 1242	蜡烛
+R47	Located Arg1:T154 Arg2:T153	
+T155	Person-Nominal 1245 1247	客人
+T156	Thing-Nominal 1249 1251	淡茶
+T157	Thing-Nominal 1252 1256	土制糖果
+T158	Thing-Nominal 1257 1259	香烟
+T159	Person-Name 1260 1263	福尔曼
+T160	Person-Nominal 1267 1270	小孩子
+T161	Person-Nominal 1271 1274	大人们
+T162	Person-Pronoun 1287 1289	他们
+T163	Person-Nominal 1296 1297;1298 1299	客 人
+T164	Metric 1299 1302	几分钟
+T165	Thing-Nominal 1307 1310	一块糖
+*	Coreference T162 T160 T167
+R48	Social Arg1:T162 Arg2:T163	
+T166	Person-Name 1316 1319	毛泽东
+T167	Person-Pronoun 1320 1322	他们
+T168	Person-Name 1337 1340	毛泽东
+T169	Person-Name 1341 1344	福尔曼
+T170	Person-Name 1353 1356	毛泽东
+T171	Location-Name 1357 1358;1359 1360	延 安
+T172	Person-Pronoun 1391 1392	他
+*	Coreference T172 T168 T173
+T173	Person-Name 1410 1411	毛
+T174	Person-Nominal 1441 1448	共产党领导成员
+T175	Person-Nominal 1460 1465	这些领导人
+T176	Person-Nominal 1466 1475	不是些人云亦云的人
+*	Coreference T175 T176
+R49	General-Special Arg1:T175 Arg2:T174	
+T177	Person-Name 1479 1480	毛
+R50	Social Arg1:T177 Arg2:T175	
+T178	Person-Pronoun 1503 1504	他
+*	Coreference T178 T177 T181
+T179	Person-Nominal 1504 1508	党内同事
+R51	Social Arg1:T178 Arg2:T179	
+T180	Organization-Nominal 1521 1523	党委
+T181	Person-Name 1533 1534	毛
+T182	Time-Implicit 1543 1545	当时
+T183	Organization-Name 1545 1548	国民党
+T184	Organization-Name 1551 1553	中国
+T185	Person-Nominal 1558 1560	人民
+T186	Thing-Nominal 1561 1562	鱼
+T187	Thing-Nominal 1562 1563	肉
+T188	Thing-Nominal 1591 1593	牛毛
+T189	Person-Name 1596 1598	孔子
+T190	Location-Name 1599 1601	泰山
+T191	Thing-Nominal 1610 1611	虎
+T192	Person-Nominal 1612 1614	人民
+T193	Thing-Nominal 1617 1618	水
+T194	Thing-Nominal 1619 1620	火
+T195	Person-Nominal 1632 1634	官员
+T196	Time-Explicit 1647 1655	抗日战争胜利前夕
+T197	Person-Name 1656 1659	毛泽东
+T198	Location-Name 1660 1662	延安
+T199	Organization-Nominal 1664 1665;1666 1670	中 外记者团
+T200	Organization-Name 1687 1689	中国
+T201	Organization-Name 1695 1697	中国
+T202	Time-Implicit 1717 1719	当年
+T203	Person-Name 1720 1722	斯诺
+T204	Person-Name 1723 1726	毛泽东
+T205	Location-Nominal 1727 1731	简陋窑洞
+T206	Person-Nominal 1732 1737	国民党要人
+T207	Location-Nominal 1738 1740	别墅
+R52	Ownership Arg1:T206 Arg2:T207	
+T208	Person-Name 1741 1744	彭德怀
+T209	Thing-Nominal 1745 1748	降落伞
+R53	Ownership Arg1:T208 Arg2:T209	
+T210	Thing-Nominal 1750 1752	背心
+R54	Ownership Arg1:T208 Arg2:T210	
+T211	Person-Nominal 1753 1757;1758 1759	国民党将 军
+T212	Thing-Nominal 1760 1763	毛料服
+R55	Ownership Arg1:T211 Arg2:T212	
+T213	Person-Name 1764 1767	林伯渠
+T214	Thing-Nominal 1768 1770	绳子
+T215	Thing-Nominal 1773 1777	断腿眼镜
+R56	Ownership Arg1:T213 Arg2:T215	
+R57	Located Arg1:T214 Arg2:T215	
+T216	Person-Nominal 1779 1784	国民党高官
+T217	Thing-Nominal 1785 1788	金丝镜
+R58	Ownership Arg1:T216 Arg2:T217	
+T218	Organization-Name 1798 1801	共产党
+T219	Organization-Nominal 1817 1818	国
+T220	Time-Implicit 1823 1825	当下
+T221	Person-Pronoun 1826 1827	我
+T222	Location-Name 1833 1835	延安
+T223	Person-Name 1839 1840;1841 1843	毛 泽东
+R59	Social Arg1:T204 Arg2:T208	
+R60	Social Arg1:T208 Arg2:T213	
+R61	Social Arg1:T204 Arg2:T213	
+T224	Person-Pronoun 1848 1849	他
+*	Coreference T224 T223 T225 T227
+T225	Person-Nominal 1854 1856	自己
+T226	Person-Nominal 1854 1859	自己的百姓
+R62	Social Arg1:T225 Arg2:T226	
+T227	Person-Pronoun 1873 1874	他
+T228	Person-Nominal 1875 1880	他的同志们
+T229	Person-Nominal 1885 1887	人民
+T230	Time-Implicit 1895 1897	今天
+T231	Organization-Name 1898 1902;1903 1904	中国共产 党
+T232	Person-Pronoun 1907 1908	他
+T233	Organization-Name 1911 1914	共产党
+*	Coreference T233 T231
+R63	Social Arg1:T227 Arg2:T228	
+T234	Person-Nominal 1925 1927	人民
+T235	Person-Pronoun 1934 1935	我
+T236	Location-Name 1939 1941	延安
+T237	Person-Name 1956 1959	毛泽东
+T238	Organization-Name 1977 1979	中国
+T239	Person-Nominal 2058 2060	人民
+T240	Organization-Nominal 2064 2066	政府
+T241	Person-Nominal 2071 2073	官员
+T242	Person-Pronoun 2082 2083	我

@@ -1,0 +1,143 @@
+T1	Thing-Nominal 2 4	荷塘
+T2	Thing-Nominal 7 12	细嫩的荷杆
+T3	Thing-Nominal 15 20	淡绿的新叶
+R1	Part-Whole Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 21 26	带露的清荷
+T7	Person-Nominal 66 71	远行的少女
+T8	Thing-Pronoun 78 79	她
+T9	Person-Pronoun 87 88	她
+T11	Thing-Nominal 97 106	这散漏着水波的新荷
+T12	Thing-Nominal 132 134	池水
+T13	Thing-Nominal 137 146	一层薄薄的浅绿纱衣
+T14	Thing-Nominal 147 149	微风
+T15	Thing-Nominal 154 156	涟漪
+T16	Thing-Nominal 159 161	绿绸
+T17	Thing-Nominal 165 167	晨红
+T19	Thing-Nominal 176 181	猩红的流光
+T21	Thing-Nominal 240 245	七色的彩虹
+T22	Location-Nominal 251 256	氤氲的绿烟
+T23	Thing-Nominal 264 269	渐宽的荷叶
+T24	Thing-Nominal 273 275	水珠
+R2	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 284 286	阳光
+T26	Thing-Nominal 288 290	清风
+T27	Person-Nominal 305 307	少女
+T28	Person-Nominal 312 314	秋千
+T29	Thing-Nominal 338 342	剪剪清风
+T30	Thing-Nominal 343 347	滟滟阳光
+T31	Thing-Nominal 348 352	涟涟青波
+T32	Thing-Nominal 360 362	清荷
+T35	Person-Pronoun 397 398	我
+T36	Thing-Pronoun 422 423	她
+T37	Thing-Pronoun 430 431	她
+T39	Person-Pronoun 456 457	我
+T40	Thing-Nominal 475 476	溪
+T43	Thing-Pronoun 527 529	她们
+T44	Location-Nominal 547 549	荷塘
+T45	Thing-Nominal 556 558	绿裙
+T46	Thing-Nominal 566 568	莲儿
+T48	Thing-Pronoun 588 589	她
+T51	Thing-Pronoun 660 661	她
+T52	Thing-Nominal 689 691	荷塘
+T53	Thing-Nominal 693 698	暖暖的阳光
+T54	Thing-Nominal 699 703	温温的风
+T55	Location-Nominal 707 709	山川
+T56	Person-Pronoun 713 714	我
+T57	Person-Pronoun 717 718	我
+T58	Thing-Nominal 733 735	新蜓
+T59	Thing-Nominal 742 744	新荷
+T60	Location-Nominal 750 752	荷塘
+T61	Thing-Nominal 772 774	荷叶
+T62	Thing-Nominal 784 788	她的新翅
+T63	Thing-Nominal 793 797	嫩绿新阳
+T64	Thing-Nominal 803 805	新荷
+T65	Person-Nominal 826 828	少女
+T66	Person-Pronoun 852 853	我
+T67	Thing-Nominal 859 860	莲
+T68	Thing-Nominal 866 867	荷
+T69	Person-Pronoun 876 877	我
+T70	Location-Nominal 883 885	池边
+T71	Thing-Nominal 889 891	荷塘
+T72	Thing-Pronoun 908 909	她
+T73	Thing-Nominal 924 926	池水
+T75	Person-Pronoun 987 988	我
+T76	Thing-Nominal 990 992	荷塘
+T77	Thing-Nominal 1010 1012	游蛇
+T78	Person-Pronoun 1055 1056	她
+T79	Thing-Nominal 1060 1070	一群刚出生不久的蝌蚪
+T80	Thing-Pronoun 1095 1097	他们
+T81	Thing-Nominal 1152 1158	一池浅绿纱衣
+T82	Thing-Nominal 1167 1173	叶面上的水珠
+T83	Thing-Nominal 1186 1191	青绿的天空
+T84	Thing-Nominal 1181 1183	流星
+T85	Thing-Nominal 1207 1212	氤氲的涟漪
+T86	Thing-Nominal 1249 1251	阳光
+T87	Thing-Nominal 1257 1259	波峰
+T5	Location-Nominal 37 39	水中
+R3	Located Arg1:T4 Arg2:T5	
+T6	Location-Nominal 52 54	水里
+T89	Thing-Nominal 40 45	婆娑的倩影
+R4	Located Arg1:T89 Arg2:T6	
+T90	Thing-Nominal 79 84	婀娜的身姿
+*	Coreference T8 T4
+T10	Location-Nominal 172 175	荷叶上
+R5	Located Arg1:T17 Arg2:T10	
+T18	Thing-Nominal 182 183	风
+T20	Location-Nominal 184 187	荷叶上
+R6	Located Arg1:T19 Arg2:T20	
+T91	Thing-Nominal 216 221	氤氲的荷色
+T92	Location-Nominal 222 225;226 227	这池塘 上
+R7	Located Arg1:T91 Arg2:T92	
+T93	Thing-Nominal 228 229	烟
+T94	Thing-Nominal 230 231	雾
+R8	Located Arg1:T21 Arg2:T22	
+T95	Location-Nominal 291 293	荷面
+R9	Located Arg1:T24 Arg2:T95	
+T33	Thing-Nominal 375 378	这天地
+T96	Thing-Pronoun 380 381	她
+T34	Location-Nominal 389 395	这浅绿青波里
+*	Coreference T96 T32
+R10	Located Arg1:T32 Arg2:T34	
+T38	Thing-Nominal 435 443	这氤氲柔美的景致
+T97	Thing-Nominal 444 454	一首舒缓柔美的轻音乐
+T42	Location-Nominal 530 532	荷间
+T41	Location-Nominal 541 543	风中
+T47	Location-Nominal 584 586	泥中
+R11	Located Arg1:T46 Arg2:T47	
+T49	Location-Nominal 589 595	苞蕾的闺房里
+R12	Located Arg1:T46 Arg2:T49	
+T98	Thing-Nominal 603 605	素指
+T99	Thing-Nominal 610 612	眸子
+T100	Thing-Nominal 613 615	细柳
+T101	Thing-Pronoun 630 631	她
+*	Coreference T48 T46
+T102	Thing-Nominal 632 636	粉腿香臂
+T103	Thing-Nominal 642 644	泥水
+T104	Thing-Nominal 647 649	蕾门
+T50	Location-Nominal 653 657	绿锦之上
+T105	Thing-Nominal 667 672	姣丽的芳容
+T106	Thing-Nominal 661 666	窈窕的玉姿
+T107	Thing-Nominal 677 684	纯真清澈的光辉
+*	Coreference T72 T71
+T74	Thing-Nominal 927 928	风
+T108	Thing-Nominal 931 933	青涟
+T109	Thing-Nominal 935 936;937 938	新 荷
+T110	Thing-Nominal 952 954	绿涟
+T111	Location-Nominal 947 949	荷面
+R13	Located Arg1:T110 Arg2:T111	
+T112	Thing-Nominal 997 1006	一条黑色发亮的飘带
+T113	Location-Nominal 1007 1009	水里
+R14	Located Arg1:T112 Arg2:T113	
+T114	Location-Nominal 1017 1019	岸边
+T115	Person-Pronoun 1051 1052	我
+T116	Thing-Pronoun 1071 1073	他们
+*	Coreference T116 T79
+T117	Thing-Nominal 1076 1078	长尾
+R15	Part-Whole Arg1:T117 Arg2:T116	
+T118	Location-Nominal 1088 1092	这青波里
+T119	Thing-Nominal 1144 1145	风
+T120	Location-Nominal 1167 1170	叶面上
+R16	Located Arg1:T82 Arg2:T120	
+T121	Thing-Nominal 1199 1203	青波碧纱
+T122	Thing-Nominal 1221 1226	泛起的绿浪
+T123	Thing-Nominal 1260 1263	这绿浪

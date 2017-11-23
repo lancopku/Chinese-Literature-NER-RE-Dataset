@@ -1,0 +1,318 @@
+T1	Person-Nominal 10 12	父亲
+T2	Time-Explicit 17 19	十年
+T3	Person-Pronoun 15 17	我们
+R1	Family Arg1:T3 Arg2:T1	
+T4	Person-Nominal 25 27	父亲
+T5	Person-Nominal 83 85	父亲
+T6	Thing-Nominal 86 87	书
+T7	Person-Nominal 93 95	父亲
+T8	Person-Pronoun 101 103	我们
+T9	Person-Nominal 112 114	父亲
+T10	Person-Nominal 2886 2888	父亲
+T11	Person-Pronoun 2895 2897	我们
+T12	Person-Pronoun 2904 2906	我们
+T13	Thing-Nominal 2922 2923	书
+T14	Person-Pronoun 2927 2929	我们
+T15	Person-Nominal 2938 2941	下一代
+R2	Family Arg1:T11 Arg2:T10	
+T16	Person-Nominal 2840 2843	姊妹们
+T17	Person-Nominal 2870 2872	父亲
+R3	Family Arg1:T17 Arg2:T16	
+T18	Thing-Nominal 2821 2826	父亲的遗物
+T19	Thing-Nominal 2838 2839	书
+T20	Person-Pronoun 2833 2835	我们
+T21	Person-Nominal 2804 2806	父亲
+T22	Person-Pronoun 2807 2808	您
+*	Coreference T22 T21
+T23	Person-Nominal 2812 2814	儿女
+T24	Person-Pronoun 2815 2816	您
+R4	Family Arg1:T23 Arg2:T21	
+T25	Thing-Nominal 2735 2739	他的骨灰
+T26	Thing-Nominal 2742 2744	大海
+T27	Person-Pronoun 2746 2748	我们
+T28	Person-Pronoun 2752 2753	他
+*	Coreference T28 T27
+T29	Person-Nominal 2711 2713	父亲
+T30	Person-Nominal 2714 2718	无神论者
+R5	Part-Whole Arg1:T29 Arg2:T30	
+T31	Thing-Nominal 2722 2728	他的《遗书》
+T32	Person-Nominal 2634 2636	父亲
+T33	Metric 2653 2657	六个小时
+T34	Thing-Nominal 2658 2662	他的床头
+T35	Physical 2670 2677	“唐宋八大家”
+T36	Thing-Nominal 2668 2680	一套“唐宋八大家”的文集
+R6	Located Arg1:T36 Arg2:T34	
+T37	Person-Name 2684 2686	韩愈
+T38	Person-Pronoun 2696 2698	我们
+T39	Abstract 2703 2707	《师说》
+T40	Thing-Nominal 2684 2688	韩愈一集
+R7	Part-Whole Arg1:T40 Arg2:T36	
+T41	Person-Pronoun 2443 2444	我
+T42	Person-Nominal 2449 2451	父亲
+T43	Abstract 2457 2461	《老子》
+T44	Person-Pronoun 2463 2464	我
+T45	Person-Nominal 2468 2470	父亲
+T46	Person-Pronoun 2471 2473	我们
+T47	Person-Nominal 2488 2491	姊妹们
+T48	Person-Nominal 2506 2508	父亲
+T49	Person-Nominal 2514 2516	一人
+T50	Person-Nominal 2518 2520	父亲
+T51	Person-Nominal 2523 2525	自己
+T52	Person-Nominal 2533 2539	我们姊妹五人
+T53	Person-Pronoun 2545 2546	他
+T54	Person-Pronoun 2559 2561	我们
+T55	Person-Pronoun 2585 2586	他
+T56	Person-Pronoun 2593 2594	你
+T57	Person-Pronoun 2621 2622	他
+R8	Family Arg1:T52 Arg2:T50	
+R9	Family Arg1:T45 Arg2:T46	
+*	Coreference T53 T50
+T58	Person-Pronoun 2183 2185	我们
+T59	Person-Nominal 2197 2199	姊妹
+T60	Thing-Nominal 2214 2218	家家书架
+T61	Thing-Nominal 2223 2224	书
+R10	Located Arg1:T61 Arg2:T60	
+T62	Person-Nominal 2249 2251	小弟
+R11	Family Arg1:T62 Arg2:T59	
+T63	Thing-Nominal 2252 2256	他的藏书
+T64	Person-Nominal 2273 2276	藏书家
+T65	Person-Pronoun 2288 2290	我们
+T66	Person-Nominal 2290 2293	下一代
+T67	Person-Nominal 2303 2305	父亲
+T68	Person-Nominal 2328 2330	二姐
+T69	Person-Nominal 2331 2334	二姐夫
+R12	Family Arg1:T68 Arg2:T69	
+T70	Person-Nominal 2335 2338	我爱妻
+T71	Person-Nominal 2346 2348	教师
+T72	Person-Pronoun 2355 2356	我
+R13	Family Arg1:T72 Arg2:T70	
+T73	Person-Nominal 2370 2374	职工教师
+T74	Person-Nominal 2375 2377	小弟
+T75	Person-Nominal 2390 2394	乡村教师
+T76	Time-Implicit 2388 2390	几年
+T77	Person-Nominal 2395 2400	我的外甥女
+T78	Person-Nominal 2401 2403	女儿
+R14	Family Arg1:T78 Arg2:T72	
+R15	Family Arg1:T78 Arg2:T72	
+R16	Family Arg1:T74 Arg2:T72	
+T79	Person-Nominal 1868 1870	父亲
+T80	Person-Pronoun 1879 1881	我们
+T81	Time-Implicit 1889 1893	解放初期
+T82	Person-Pronoun 1900 1901	他
+T83	Person-Pronoun 1907 1909	我们
+T84	Person-Pronoun 1914 1915	他
+T85	Location-Nominal 1923 1928	学校图书馆
+T86	Person-Pronoun 1932 1934	我们
+T87	Thing-Nominal 1930 1939	适合我们年龄段的书
+T88	Person-Pronoun 1941 1943	我们
+T89	Person-Pronoun 1947 1948	我
+T90	Physical 1961 1967	《儿童时代》
+T91	Person-Nominal 1972 1974	母亲
+T92	Person-Nominal 1983 1985	父亲
+R17	Family Arg1:T92 Arg2:T91	
+T93	Person-Pronoun 1993 1994	我
+T94	Person-Nominal 2007 2009	全家
+T96	Thing-Nominal 2017 2019	咸菜
+T95	Thing-Nominal 2014 2016	窝头
+T97	Time-Implicit 2011 2014	好几天
+T98	Person-Pronoun 2051 2053	我们
+T99	Thing-Nominal 2053 2059	上学用具和书
+T100	Person-Pronoun 2084 2086	我们
+T101	Thing-Nominal 2094 2100	自己喜爱的书
+T102	Person-Pronoun 2101 2103	我们
+T103	Person-Nominal 2117 2119	父亲
+T104	Person-Nominal 2124 2126	父亲
+T105	Person-Pronoun 2127 2129	我们
+T106	Person-Pronoun 2143 2145	我们
+T107	Person-Pronoun 2153 2154	他
+T108	Person-Pronoun 2175 2176	他
+*	Coreference T107 T103 T108
+*	Coreference T100 T98 T102
+R18	Family Arg1:T83 Arg2:T82	
+*	Coreference T82 T79
+T109	Abstract 1473 1479	“改革开放”
+T110	Time-Implicit 1473 1483	“改革开放”后没几年
+T111	Person-Nominal 1484 1486	父亲
+T112	Person-Pronoun 1519 1520	我
+T113	Person-Pronoun 1515 1516	我
+T114	Person-Pronoun 1511 1512	他
+T115	Person-Pronoun 1494 1495	我
+T116	Person-Pronoun 1497 1498	他
+T117	Abstract 1525 1531	‘改革开放’
+T118	Thing-Nominal 1541 1544	这些书
+T119	Person-Pronoun 1582 1583	他
+T120	Thing-Nominal 1606 1610	健身类书
+T121	Person-Nominal 1612 1614	自己
+T122	Thing-Nominal 1621 1627	花卉培植类书
+T123	Thing-Nominal 1632 1636	各种花草
+T124	Thing-Nominal 1639 1641	食谱
+T125	Person-Nominal 1642 1644	自己
+T126	Thing-Nominal 1646 1651	爱吃的饭菜
+T127	Thing-Nominal 1660 1665	他的毛笔字
+T128	Person-Pronoun 1678 1679	他
+T129	Thing-Nominal 1690 1694	书法类书
+T130	Person-Nominal 1704 1707	小学生
+T131	Person-Nominal 1711 1713	自己
+T132	Abstract 1732 1735	古诗文
+T133	Time-Explicit 1744 1746	晚上
+T134	Person-Pronoun 1759 1760	我
+T135	Person-Pronoun 1763 1764	他
+T136	Person-Pronoun 1766 1767	他
+T137	Thing-Nominal 1773 1777;1778 1781	他作的古 体诗河
+T138	Person-Pronoun 1783 1784	我
+T139	Person-Pronoun 1801 1802	我
+T140	Person-Pronoun 1804 1805	他
+T141	Person-Nominal 1806 1808	自己
+T142	Thing-Nominal 1812 1814	毛笔
+T143	Thing-Nominal 1822 1824	宣纸
+T144	Person-Nominal 1828 1833	他的老朋友
+T145	Thing-Nominal 1835 1838;1839 1840	各类书 籍
+T146	Person-Nominal 1848 1850	父亲
+R19	Family Arg1:T111 Arg2:T115	
+*	Coreference T114 T111
+R20	Part-Whole Arg1:T120 Arg2:T118	
+R21	Part-Whole Arg1:T122 Arg2:T118	
+R22	Part-Whole Arg1:T124 Arg2:T118	
+R23	Family Arg1:T134 Arg2:T135	
+R24	Social Arg1:T144 Arg2:T140	
+T147	Time-Implicit 1165 1170	文革开始时
+T148	Person-Pronoun 1171 1172	他
+T149	Organization-Nominal 1173 1176	某中学
+T150	Person-Pronoun 1185 1186	他
+T151	Person-Nominal 1190 1192	校长
+R25	Social Arg1:T151 Arg2:T150	
+T152	Abstract 1199 1207	“反动学术权威”
+T153	Organization-Nominal 1219 1223	校办工厂
+T154	Person-Nominal 1227 1232	这时的父亲
+T155	Person-Pronoun 1252 1253	他
+T156	Organization-Nominal 1265 1269	校办工厂
+T157	Person-Nominal 1282 1285	很多人
+T158	Person-Nominal 1289 1291	自己
+T159	Thing-Nominal 1293 1298	矿石收音机
+T160	Person-Nominal 1299 1301	父亲
+T161	Person-Pronoun 1306 1307	他
+*	Coreference T161 T160
+T162	Thing-Nominal 1318 1323	矿石收音机
+T163	Person-Nominal 1326 1328	别人
+T164	Person-Nominal 1339 1347	学校军宣队的战士
+T165	Time-Explicit 1351 1354	星期日
+T166	Location-Nominal 1355 1357	我家
+T167	Person-Pronoun 1360 1361	他
+T168	Thing-Nominal 1368 1381	我家桌上、床上的物理类书刊
+T169	Person-Nominal 1383 1385	父亲
+T170	Thing-Nominal 1387 1393	一个个纸箱子
+T171	Location-Nominal 1397 1400	床底下
+R26	Located Arg1:T168 Arg2:T170	
+T172	Person-Nominal 1401 1403	外人
+T173	Thing-Nominal 1411 1414	红宝书
+T174	Thing-Nominal 1415 1429	大量鲁迅先生的杂文著作单行本
+T175	Person-Name 1417 1421	鲁迅先生
+T176	Person-Nominal 1441 1443	父亲
+T177	Abstract 1453 1455	杂文
+T178	Person-Name 1448 1452	鲁迅先生
+R27	Social Arg1:T167 Arg2:T164	
+R28	Create Arg1:T160 Arg2:T162	
+T179	Time-Implicit 755 758	两年多
+T180	Time-Explicit 764 770	1952年秋
+T181	Person-Nominal 771 773	父亲
+T182	Person-Nominal 794 798	物理教员
+T183	Thing-Nominal 825 832	家中的有关书籍
+T184	Person-Pronoun 800 801	他
+T185	Time-Implicit 840 844	文革开始
+T186	Person-Pronoun 848 849	他
+T187	Thing-Nominal 849 857	买得读得最多的书
+T188	Time-Implicit 863 866	前些年
+T189	Person-Nominal 869 874;875 881	一位他四十 多年前的学生
+T190	Person-Nominal 884 889	我们厂厂长
+*	Coreference T190 T189
+T191	Person-Nominal 899 902	赵老师
+T192	Person-Nominal 915 923	我们农村来的学生
+T193	Person-Pronoun 936 937	他
+T194	Organization-Nominal 941 946	某业余学校
+T195	Person-Nominal 951 957	我的一个徒弟
+T196	Person-Pronoun 959 960	我
+R29	Social Arg1:T196 Arg2:T195	
+T197	Person-Nominal 965 968	赵老师
+T198	Person-Pronoun 979 980	他
+T199	Thing-Nominal 992 996	几友粉笔
+T200	Person-Pronoun 1008 1009	他
+T201	Thing-Nominal 1014 1016	圆规
+T202	Thing-Nominal 1020 1022	黑板
+T203	Thing-Nominal 1029 1031	圆规
+T204	Person-Pronoun 1051 1052	他
+T205	Thing-Nominal 1053 1057	教学用品
+T206	Thing-Nominal 1063 1064	手
+T207	Thing-Nominal 1071 1074	下课铃
+T208	Thing-Nominal 1077 1080	下课铃
+T209	Person-Nominal 1091 1095	职工教师
+T210	Person-Nominal 1090 1102	从职工教师岗位上退休的我
+T211	Person-Pronoun 1104 1105	他
+T212	Person-Nominal 1112 1114	父亲
+T213	Person-Nominal 1130 1131	谁
+T214	Person-Pronoun 1146 1147	我
+*	Coreference T184 T181 T191
+R30	Social Arg1:T192 Arg2:T191	
+R31	Ownership Arg1:T193 Arg2:T194	
+*	Coreference T198 T197
+R32	Use Arg1:T198 Arg2:T199	
+R33	Use Arg1:T200 Arg2:T201	
+R34	Ownership Arg1:T204 Arg2:T205	
+R35	Part-Whole Arg1:T206 Arg2:T204	
+T215	Person-Nominal 637 639	父亲
+T216	Person-Nominal 648 655	我们一家七口人
+T217	Person-Pronoun 656 657	他
+T218	Thing-Nominal 658 660	书刊
+T219	Person-Nominal 667 670	全家人
+T220	Person-Nominal 684 691	年小不懂事的我
+T221	Thing-Nominal 724 731	家中的物理书刊
+T222	Person-Nominal 739 741	父亲
+T223	Organization-Nominal 439 443	青岛中学
+T224	Person-Nominal 447 449	教员
+T225	Person-Nominal 457 459	上级
+T226	Person-Nominal 462 468	有能力的职员
+T227	Person-Nominal 477 479	父亲
+T228	Person-Nominal 500 506	想教语文的人
+T229	Person-Nominal 510 517	想教数理化的人
+T230	Person-Nominal 533 555	要求进步然而却对物理知之甚少的年近四十的父亲
+T231	Person-Pronoun 578 579	他
+T232	Person-Pronoun 596 597	他
+T233	Thing-Nominal 601 610	有关物理教学的书刊
+T234	Thing-Nominal 628 632	这类书籍
+*	Coreference T231 T230
+R36	Social Arg1:T225 Arg2:T226	
+T235	Physical 368 375	《社会发展史》
+T236	Physical 376 391	《辩证唯物主义与历史唯物主义》
+T237	Thing-Nominal 394 397	政治书
+T238	Physical 398 405	《地覆天翻记》
+T239	Thing-Nominal 406 416	反映解放区新生活的书
+T240	Person-Nominal 362 364	父亲
+T241	Person-Pronoun 420 421	他
+T242	Person-Pronoun 425 426	他
+T243	Abstract 299 304	“八一五”
+T244	Location-Nominal 304 306	日本
+T245	Person-Pronoun 315 316	他
+T246	Location-Nominal 320 322	家乡
+T247	Location-Name 324 326	青岛
+T248	Location-Name 329 331	青岛
+T249	Person-Pronoun 335 336	他
+T250	Organization-Name 338 342	青岛一中
+T251	Organization-Nominal 338 345	青岛一中总务处
+T252	Person-Nominal 346 348	职员
+R37	Ownership Arg1:T252 Arg2:T251	
+T253	Person-Pronoun 351 355;356 358	年龄还小 的我
+T254	Person-Pronoun 251 252	他
+T255	Person-Nominal 261 270	“坊子站代理站长”
+T256	Location-Nominal 277 281	老家农村
+T257	Person-Nominal 289 293	日本鬼子
+T258	Organization-Nominal 149 153	胶济铁路
+T259	Person-Nominal 163 172	新文化运动代表人物
+T260	Thing-Nominal 163 172;173 176	新文化运动代表人物 的作品
+T261	Person-Name 182 186	作家冰心
+T262	Abstract 186 197	《春水》、《繁星》诗体
+T263	Abstract 217 223	“七七”事变
+T264	Person-Nominal 227 229	日寇
+T265	Location-Nominal 232 233;234 237	铁 路沿线
+R38	Ownership Arg1:T5 Arg2:T6	
+R39	Part-Whole Arg1:T261 Arg2:T259	
+*	Coreference T255 T254
+*	Coreference T257 T264

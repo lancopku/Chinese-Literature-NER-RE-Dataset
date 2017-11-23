@@ -1,0 +1,137 @@
+T1	Time-Implicit 0 17	每当听到藏歌《我和草原有个约定》时
+T2	Abstract 6 16	《我和草原有个约定》
+T3	Person-Pronoun 18 19	我
+T4	Person-Pronoun 28 30	自己
+*	Coreference T4 T3
+T5	Thing-Nominal 31 36	内蒙古草原
+T6	Time-Explicit 67 79	2008年9月下旬的一天
+T7	Person-Pronoun 80 81	我
+T8	Person-Nominal 82 84	妻子
+R1	Family Arg1:T8 Arg2:T7	
+T9	Person-Nominal 85 88	二儿子
+T10	Organization-Name 89 94	包头医学院
+R2	Family Arg1:T9 Arg2:T7	
+T11	Location-Name 97 99	西宁
+T12	Location-Name 100 102	包头
+T13	Thing-Nominal 107 109	列车
+T14	Person-Pronoun 110 112	我们
+T15	Thing-Nominal 115 116	车
+T16	Location-Name 120 122	西宁
+T17	Location-Name 123 125	宁夏
+T18	Location-Name 126 129	银川市
+T19	Thing-Nominal 130 134	普快列车
+T20	Location-Name 137 139	银川
+T21	Location-Name 142 145	包头市
+T22	Thing-Nominal 146 150	普快列车
+T23	Location-Name 152 154	西宁
+T24	Location-Name 155 157	包头
+T25	Metric 161 169	两个夜晚一个白天
+T26	Location-Name 171 173	包头
+T27	Time-Implicit 175 180	那个白天里
+T28	Person-Nominal 184 186	孩子
+T29	Organization-Nominal 188 191	医学院
+T30	Thing-Nominal 200 201	饭
+T31	Time-Implicit 209 214	傍晚六时许
+T32	Person-Pronoun 215 216	我
+T33	Person-Nominal 217 219	妻子
+R3	Family Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 221 223	火车
+T35	Location-Name 224 228	首都北京
+T36	Time-Implicit 231 233	那时
+T37	Person-Nominal 235 242	在家务农的妻子
+T38	Person-Pronoun 257 258	我
+T39	Location-Name 265 267	首都
+T40	Person-Pronoun 268 269	我
+T41	Location-Nominal 277 281	硬卧铺上
+T42	Time-Implicit 274 282	刚躺到硬卧铺上时
+T43	Person-Nominal 292 294	妻子
+T44	Location-Name 300 302	北京
+T45	Person-Nominal 306 308	妻子
+T46	Person-Pronoun 314 315	我
+T47	Person-Pronoun 317 318	她
+T48	Person-Pronoun 318 319	她
+*	Coreference T48 T45
+T49	Person-Pronoun 327 328	我
+T50	Thing-Nominal 337 339	火车
+T51	Time-Implicit 340 344	那些年里
+T52	Person-Pronoun 344 345	我
+T53	Location-Nominal 349 352	列车上
+T54	Time-Implicit 361 368	困得睁不开眼时
+T55	Person-Pronoun 378 379	我
+T56	Thing-Nominal 383 390	列车窗外的风景
+T57	Location-Nominal 383 387	列车窗外
+R4	Located Arg1:T56 Arg2:T57	
+T58	Thing-Nominal 392 397	一片片山林
+T59	Thing-Nominal 398 402	几座茅屋
+T60	Thing-Nominal 403 412	或碧绿或金黄的庄稼
+T61	Thing-Nominal 414 417	有牛羊
+T62	Location-Nominal 418 421	天空中
+T63	Thing-Nominal 421 426	翱翔的鹰隼
+R5	Located Arg1:T63 Arg2:T62	
+T64	Thing-Nominal 427 429	湖泊
+T65	Thing-Nominal 431 433	河流
+T66	Thing-Nominal 434 436	沙漠
+T67	Thing-Nominal 437 441	戈壁瀚海
+T68	Thing-Nominal 442 450	一望无际的大草原
+T69	Location-Nominal 465 471	青海河湟谷地
+T70	Thing-Nominal 463 464	家
+R6	Located Arg1:T70 Arg2:T69	
+T71	Time-Implicit 472 476	一年四季
+T72	Time-Implicit 484 488	这些年来
+T73	Location-Nominal 493 495	西部
+T74	Thing-Nominal 501 507	工业开发园区
+T75	Thing-Nominal 512 520	工厂的高楼和烟囱
+T76	Thing-Nominal 521 525	雨后春笋
+T77	Person-Pronoun 546 547	我
+T78	Thing-Nominal 548 554	内蒙古大草原
+T79	Person-Pronoun 559 560	我
+T80	Thing-Nominal 562 564	窗帘
+T81	Thing-Nominal 571 573	眼睛
+T82	Location-Nominal 574 576	窗外
+T83	Location-Nominal 583 585	窗外
+T84	Thing-Nominal 598 606;607 610	一些黑的厂房和几 处灯光
+T85	Person-Pronoun 621 622	我
+T86	Location-Nominal 627 630	列车上
+T87	Thing-Nominal 632 637	可看的风景
+T88	Person-Nominal 649 655	身边的乘客们
+T89	Location-Nominal 659 665	稍暗的灯光下
+T90	Thing-Nominal 666 667	书
+T91	Thing-Nominal 669 671	杂志
+T92	Person-Nominal 685 686	人
+T93	Thing-Nominal 691 693	晚餐
+T94	Person-Nominal 696 697	人
+T95	Thing-Nominal 718 721	大草原
+T96	Person-Pronoun 722 724	他们
+T97	Person-Pronoun 746 748	他们
+T98	Thing-Nominal 759 760	手
+T99	Thing-Nominal 762 764	五指
+T100	Location-Nominal 770 773	车窗外
+T101	Thing-Nominal 774 778	草原美景
+R7	Located Arg1:T101 Arg2:T100	
+T102	Person-Pronoun 780 781	我
+T103	Person-Pronoun 789 790	我
+T104	Person-Nominal 791 793	妻子
+T105	Thing-Nominal 796 798	列车
+T106	Location-Name 810 812	首都
+T107	Location-Name 816 820	河南郑州
+T108	Person-Nominal 828 830	大儿
+T109	Location-Name 835 837	西宁
+T110	Location-Name 848 850	北京
+T111	Location-Name 851 853	包头
+T112	Thing-Nominal 869 877	秀美壮阔的大草原
+T113	Thing-Nominal 881 884	大草原
+T114	Thing-Nominal 887 891	小草甸子
+T115	Person-Pronoun 918 919	我
+T116	Location-Name 924 927	内蒙古
+T117	Thing-Nominal 928 930	草原
+T118	Location-Name 933 937	呼伦贝尔
+T119	Location-Name 939 943	乌珠穆沁
+T120	Thing-Nominal 946 948	草原
+T121	Person-Pronoun 951 952	我
+T122	Time-Explicit 970 980	2015年2月11日
+T123	Location-Name 981 983	湟中
+*	Coreference T96 T94
+R8	Part-Whole Arg1:T98 Arg2:T97	
+R9	Family Arg1:T104 Arg2:T103	
+R10	Family Arg1:T108 Arg2:T103	
+T124	Time-Implicit 865 867	白天

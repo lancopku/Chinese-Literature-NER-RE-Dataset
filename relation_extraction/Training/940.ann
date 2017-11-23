@@ -1,0 +1,266 @@
+T1	Thing-Nominal 0 4	一轮明月
+T2	Location-Nominal 7 9	山岭
+R1	Located Arg1:T1 Arg2:T2	
+T3	Thing-Nominal 10 15	蜿蜒的公路
+T4	Thing-Nominal 17 19	带子
+T5	Location-Nominal 22 24	山腰
+R2	Located Arg1:T3 Arg2:T5	
+T6	Location-Nominal 27 34	朦胧的云山深处
+T7	Metric 44 48	三十余年
+T8	Time-Implicit 44 48	三十余年
+T9	Person-Nominal 49 51	舅父
+T10	Thing-Nominal 62 65	旅行车
+T11	Location-Nominal 67 69	谷底
+R3	Located Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 75 79	碧海青天
+T13	Thing-Nominal 82 96	一座横跨悬崖峭壁间的公路桥梁
+T14	Thing-Nominal 100 108	神话世界里的天桥
+T15	Thing-Nominal 112 114	天桥
+T16	Person-Pronoun 115 116	我
+T17	Location-Name 131 138	椰风蕉雨的赤道
+T18	Time-Implicit 141 143	那时
+T19	Location-Nominal 144 148	祖国大陆
+T20	Thing-Nominal 151 155	五星红旗
+R4	Located Arg1:T20 Arg2:T19	
+T21	Person-Nominal 156 163	寄人篱下的华侨
+T22	Location-Nominal 170 176	异国的阳光下
+T23	Time-Implicit 178 180	一天
+T24	Person-Nominal 181 183	妈妈
+T25	Person-Pronoun 184 185	我
+T26	Person-Nominal 187 189	舅舅
+R5	Family Arg1:T25 Arg2:T24	
+R6	Family Arg1:T26 Arg2:T25	
+T27	Person-Pronoun 194 195	我
+T28	Person-Nominal 206 208	舅舅
+T29	Person-Nominal 209 214	留美工程师
+R7	Part-Whole Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 221 225	新型桥梁
+R8	Ownership Arg1:T28 Arg2:T30	
+T31	Organization-Nominal 228 232	当地政府
+T32	Person-Pronoun 238 239	他
+T33	Person-Nominal 242 246	华侨诗人
+R9	Part-Whole Arg1:T32 Arg2:T33	
+T34	Organization-Nominal 248 253	华文报纸上
+T35	Person-Nominal 261 262;263 264	舅 父
+T36	Person-Pronoun 281 282	我
+T37	Person-Nominal 288 290	舅舅
+T38	Person-Pronoun 291 292	你
+*	Coreference T38 T37
+T39	Location-Name 297 301	‘唐山’
+T40	Person-Nominal 305 307	舅舅
+T41	Person-Pronoun 310 311	我
+T42	Thing-Nominal 310 313	我的头
+R10	Part-Whole Arg1:T42 Arg2:T41	
+T43	Organization-Nominal 316 327	华侨欢庆国庆节的晚会上
+T44	Thing-Nominal 335 336	手
+R11	Part-Whole Arg1:T44 Arg2:T40	
+T45	Person-Pronoun 345 346	你
+T46	Person-Pronoun 357 358	我
+T47	Person-Pronoun 360 361	他
+T48	Location-Nominal 361 365;366 369	新买的小 轿车里
+T49	Thing-Nominal 370 371	车
+T50	Location-Nominal 372 379	明晃晃的月光中
+R12	Located Arg1:T49 Arg2:T50	
+T51	Location-Nominal 386 394	黑黝黝的热带森林
+R13	Located Arg1:T49 Arg2:T51	
+T52	Person-Nominal 396 398	舅舅
+T53	Person-Pronoun 399 400	我
+T54	Location-Nominal 408 411	树干间
+T55	Thing-Nominal 414 425	一座座“天桥”般的东西
+R14	Located Arg1:T55 Arg2:T54	
+T56	Person-Pronoun 426 427	我
+T57	Thing-Pronoun 433 434	那
+*	Coreference T57 T55
+T58	Person-Pronoun 440 441	他
+*	Coreference T58 T52
+T59	Person-Nominal 449 452	管林人
+T60	Thing-Nominal 454 456	梯子
+T61	Person-Pronoun 460 461	我
+T62	Thing-Nominal 469 476	“天桥”的树干
+T63	Person-Nominal 477 479	舅舅
+T64	Thing-Nominal 481 483	手电
+T65	Metric 497 502	成百上千只
+T66	Thing-Nominal 497 507	成百上千只白色的小鸟
+T67	Thing-Name 490 494	“天桥”
+R15	Part-Whole Arg1:T66 Arg2:T67	
+T68	Location-Nominal 511 517;518 519	紧靠树干的一 排
+T69	Thing-Nominal 519 521	小鸟
+T70	Thing-Nominal 522 532	尾巴上奇特的角质圆环
+T71	Location-Nominal 534 537	杆刺上
+T72	Location-Nominal 522 525	尾巴上
+R16	Located Arg1:T70 Arg2:T71	
+T73	Location-Nominal 538 541	圆环上
+T74	Thing-Nominal 543 548	许多小白球
+R17	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 551 554	小花圈
+T76	Thing-Nominal 555 560	第一排小鸟
+T77	Thing-Nominal 562 567	弯曲的鸟喙
+R18	Part-Whole Arg1:T77 Arg2:T76	
+T78	Thing-Nominal 569 574	另一排小鸟
+T79	Thing-Nominal 569 577	另一排小鸟的圆环
+T80	Thing-Nominal 586 592	最后一排小鸟
+T81	Thing-Nominal 593 594	嘴
+R19	Part-Whole Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 596 604	另一棵大树的杆刺
+T83	Thing-Nominal 607 612	密集的小鸟
+T84	Thing-Nominal 614 616	亮光
+T85	Metric 628 630	几只
+T86	Location-Nominal 632 637	“天桥”上
+T87	Thing-Nominal 632 641	“天桥”上的母
+鸟
+R20	Located Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 632 639;640 641	“天桥”上的母 鸟
+R21	Located Arg1:T88 Arg2:T86	
+T89	Person-Pronoun 651 653	我们
+T90	Person-Nominal 655 657	舅舅
+T91	Thing-Nominal 661 663	小鸟
+T92	Thing-Name 666 670	“米利”
+T93	Thing-Pronoun 682 684	它们
+T94	Time-Implicit 700 702	晚上
+T95	Location-Nominal 704 709	两棵大树间
+T96	Thing-Nominal 711 715;716 719	这种别致 的鸟床
+R22	Located Arg1:T96 Arg2:T95	
+T97	Thing-Nominal 720 722	鸟床
+T98	Metric 727 731	一丈多长
+T99	Metric 732 736	七、八尺
+T100	Thing-Nominal 739 741	鸟床
+T101	Thing-Nominal 743 747	几只母鸟
+T102	Location-Nominal 748 750	树梢
+R23	Located Arg1:T101 Arg2:T102	
+T103	Time-Implicit 756 758	夜里
+T104	Thing-Nominal 759 761	母鸟
+T105	Location-Nominal 764 767	鸟床上
+R24	Located Arg1:T104 Arg2:T105	
+T106	Thing-Name 782 786	“天桥”
+T107	Thing-Nominal 791 794	小鸟们
+T108	Thing-Name 804 808	“天桥”
+T109	Thing-Nominal 811 814	母鸟们
+T110	Thing-Nominal 817 822	雪白的翅膀
+R25	Part-Whole Arg1:T110 Arg2:T109	
+T111	Thing-Nominal 828 831	小鸟们
+T112	Location-Nominal 828 834	小鸟们的身上
+R26	Located Arg1:T110 Arg2:T112	
+T113	Location-Nominal 835 837	当地
+T114	Person-Nominal 835 837;838 841	当地 的土人
+R27	Ownership Arg1:T114 Arg2:T113	
+T115	Thing-Name 848 854	“米利”小鸟
+T116	Person-Nominal 855 857	华侨
+T117	Thing-Pronoun 859 861	它们
+*	Coreference T117 T115 T118
+T118	Thing-Name 862 867	“孝子鸟”
+T119	Person-Nominal 869 871	舅舅
+T120	Person-Nominal 879 884	每个中国人
+T121	Thing-Name 887 893	‘米利’小鸟
+T122	Person-Nominal 897 901	祖国母亲
+T123	Person-Pronoun 912 913	我
+T124	Time-Implicit 909 911	当时
+T125	Person-Nominal 919 921	舅舅
+T126	Thing-Name 925 931	“米利”小鸟
+T127	Thing-Nominal 939 942	旅行车
+T128	Location-Nominal 945 950	崇山峻岭中
+R28	Located Arg1:T127 Arg2:T128	
+T129	Thing-Nominal 955 962	一座座公路桥梁
+T130	Person-Pronoun 963 964	我
+T131	Thing-Nominal 968 970	马达
+T132	Person-Pronoun 973 974	我
+T133	Person-Nominal 976 978	舅舅
+T134	Person-Pronoun 993 994	我
+T135	Time-Implicit 991 993	后来
+T136	Location-Name 996 998	赤道
+T137	Person-Pronoun 1008 1010	我们
+T138	Location-Nominal 1011 1013	祖国
+T139	Thing-Nominal 1020 1022	书信
+T140	Time-Implicit 1025 1027	前年
+R29	Use Arg1:T137 Arg2:T139	
+T141	Organization-Nominal 1028 1030	组织
+T142	Person-Pronoun 1033 1034	我
+T143	Person-Nominal 1037 1046	前来香港旅游的妈妈
+T144	Person-Nominal 1047 1053	年迈的外祖母
+R30	Family Arg1:T143 Arg2:T142	
+R31	Family Arg1:T144 Arg2:T142	
+T145	Person-Nominal 1056 1058	舅舅
+T146	Location-Name 1061 1063	广西
+T147	Thing-Nominal 1065 1067	电报
+T148	Person-Pronoun 1069 1070	他
+*	Coreference T148 T145
+T149	Location-Name 1076 1078	香港
+T150	Person-Nominal 1086 1088	舅父
+T151	Time-Implicit 1084 1086	到时
+T152	Thing-Nominal 1094 1106	一座山区急需的新型石拱桥
+T153	Person-Pronoun 1112 1113	他
+T154	Person-Nominal 1115 1118	外祖母
+T155	Person-Nominal 1119 1121	妈妈
+T156	Location-Nominal 1123 1126	他那里
+T157	Time-Implicit 1136 1140	过了几天
+T158	Person-Pronoun 1141 1143	我们
+T159	Location-Nominal 1144 1148	香港报上
+T160	Person-Nominal 1156 1158	舅父
+T161	Location-Nominal 1159 1161	国内
+T162	Person-Nominal 1169 1173	山区人民
+T163	Thing-Nominal 1174 1178	“天桥”
+T164	Person-Nominal 1183 1186	亲人们
+T165	Person-Nominal 1196 1199	外祖母
+T166	Thing-Nominal 1209 1211	眼睛
+R32	Part-Whole Arg1:T166 Arg2:T165	
+T167	Thing-Nominal 1217 1219	护照
+T168	Person-Pronoun 1225 1226	我
+*	Coreference T168 T165
+T169	Person-Nominal 1229 1232	你阿舅
+T170	Location-Nominal 1235 1240	‘天桥’上
+T171	Person-Pronoun 1250 1251	我
+T172	Person-Nominal 1258 1260	舅舅
+T173	Person-Pronoun 1265 1266	我
+T174	Location-Name 1267 1269	香港
+T175	Location-Name 1275 1277	广西
+T176	Person-Nominal 1280 1282	舅父
+R33	Ownership Arg1:T176 Arg2:T175	
+T177	Person-Pronoun 1283 1284	我
+T178	Person-Nominal 1286 1288	妈妈
+T179	Location-Name 1289 1291	赤道
+T180	Thing-Nominal 1291 1297	制作的榴莲糕
+R34	Create Arg1:T178 Arg2:T180	
+T181	Person-Nominal 1300 1302	舅舅
+T182	Time-Implicit 1310 1313	那一年
+T183	Person-Nominal 1314 1317	外祖母
+T184	Person-Nominal 1320 1322	舅舅
+T185	Location-Name 1323 1325;1326 1328	“唐 山”
+T186	Person-Nominal 1334 1335	人
+T187	Person-Nominal 1338 1340	孩子
+T188	Thing-Nominal 1342 1350	热带果王――榴莲
+T189	Location-Name 1355 1357	南洋
+T190	Location-Name 1361 1365	“唐山”
+T191	Person-Nominal 1370 1372	舅舅
+T192	Thing-Nominal 1374 1376	榴莲
+T193	Location-Nominal 1382 1384	祖国
+T194	Thing-Name 1387 1393	“米利”小鸟
+T195	Time-Implicit 1395 1397	后来
+T196	Person-Nominal 1398 1401	外祖母
+T197	Person-Nominal 1404 1405	人
+T198	Thing-Nominal 1406 1409	榴莲糕
+T199	Person-Nominal 1410 1412	舅舅
+T200	Person-Pronoun 1415 1416	他
+*	Coreference T200 T199
+T201	Person-Nominal 1424 1426	舅父
+T202	Thing-Nominal 1426 1429	榴莲糕
+T203	Organization-Nominal 1439 1441	祖国
+T204	Person-Pronoun 1444 1445	我
+*	Coreference T204 T201
+T205	Thing-Name 1450 1454	‘鸟床’
+T206	Person-Pronoun 1458 1459	我
+T207	Location-Nominal 1461 1464	座位上
+T208	Person-Nominal 1475 1477	舅舅
+T209	Person-Pronoun 1488 1489	你
+T210	Person-Pronoun 1490 1491	我
+*	Coreference T210 T208
+*	Coreference T209 T206
+T211	Location-Nominal 1500 1508	祖国母亲的怀抱里
+T212	Person-Pronoun 1509 1510	我
+T213	Thing-Name 1515 1518;1519 1522	‘米利 ’小鸟
+T214	Organization-Nominal 1529 1533	祖国母亲
+T215	Thing-Name 1534 1538	‘鸟床’
+T216	Thing-Nominal 1541 1544	旅行车
+T217	Location-Nominal 1546 1548	谷底
+R35	Located Arg1:T216 Arg2:T217	
+T218	Thing-Nominal 1554 1556	车窗
+T219	Location-Nominal 1562 1569	月色溶溶的夜空
+T220	Thing-Nominal 1573 1582	几座雄伟的“天桥”

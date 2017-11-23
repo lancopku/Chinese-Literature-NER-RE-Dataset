@@ -1,0 +1,302 @@
+T1	Time-Implicit 2 5	小时候
+T2	Person-Nominal 6 8	妈妈
+T3	Person-Nominal 12 17	典型败家子
+T4	Thing-Nominal 22 23	嘴
+T5	Person-Nominal 27 29	那人
+*	Coreference T5 T3
+T6	Person-Pronoun 39 40	她
+*	Coreference T6 T2
+T7	Person-Nominal 54 55	人
+T8	Person-Pronoun 63 64	我
+R1	Family Arg1:T8 Arg2:T2	
+T9	Person-Nominal 74 76	母亲
+T10	Person-Nominal 81 84	女孩子
+T11	Time-Implicit 92 94	儿时
+T12	Person-Nominal 95 98	贪吃婆
+T13	Person-Nominal 105 106	人
+T14	Person-Nominal 110 112	长辈
+T15	Person-Pronoun 118 119	我
+T16	Person-Pronoun 142 143	我
+T17	Time-Implicit 142 149	我成长的年代里
+T18	Person-Nominal 150 152	人们
+T19	Thing-Nominal 154 156	菜篮
+T20	Thing-Nominal 160 162	鱼肉
+T21	Person-Nominal 172 173	人
+T22	Person-Pronoun 179 180	我
+T23	Time-Implicit 206 210	长大以后
+T24	Thing-Nominal 212 216	文学作品
+T25	Thing-Nominal 217 219	报刊
+T26	Thing-Nominal 220 224	电影图片
+T27	Thing-Nominal 234 238	烛光晚餐
+T28	Person-Nominal 240 241	人
+T29	Thing-Nominal 241 242	手
+T30	Location-Nominal 243 247	高脚酒杯
+T31	Thing-Nominal 252 259	或深或浅的液体
+T32	Time-Implicit 290 294	喜庆时刻
+T33	Thing-Nominal 300 310	嘭”大声响的冒泡汽酒
+T34	Time-Implicit 311 313	顿时
+T35	Thing-Nominal 322 324	香槟
+T36	Thing-Nominal 325 327;328 329	白兰 地
+T37	Thing-Nominal 330 333	人头马
+T38	Thing-Nominal 334 337	威士忌
+T39	Thing-Nominal 338 340	xo
+T40	Thing-Nominal 340 344	这些洋酒
+T41	Person-Nominal 354 356	人们
+T42	Thing-Nominal 356 364	耳熟能详的奢侈品
+T43	Location-Nominal 387 388	家
+T44	Location-Nominal 406 410	天南海北
+T45	Thing-Nominal 411 415	无数美食
+R2	Located Arg1:T45 Arg2:T44	
+T46	Person-Name 416 418	李白
+T47	Thing-Nominal 418 420	斗酒
+T48	Person-Nominal 448 449	人
+T49	Time-Implicit 453 455	古今
+T50	Person-Nominal 470 472	人家
+T51	Time-Implicit 473 477	逢年过节
+T52	Person-Nominal 478 480	人人
+T53	Thing-Nominal 484 488	各色美食
+T54	Person-Pronoun 495 497	自己
+T55	Time-Implicit 511 514	平日里
+T56	Person-Nominal 519 520	人
+T57	Person-Pronoun 522 523	你
+T58	Person-Pronoun 535 536	人
+T59	Person-Pronoun 540 542	我们
+T60	Location-Name 544 548	福建前线
+T61	Person-Name 550 553	蒋介石
+T62	Location-Nominal 556 558	大陆
+T63	Location-Nominal 565 568	我们家
+T64	Person-Pronoun 565 567	我们
+T65	Location-Nominal 574 576	山区
+T66	Time-Implicit 577 579	当时
+T67	Time-Implicit 581 585	困难时期
+*	Coreference T67 T66
+T68	Person-Nominal 588 590	哥哥
+T69	Thing-Nominal 590 593	一顿饭
+T70	Thing-Nominal 595 604	两块手指粗的咸带鱼
+T71	Location-Nominal 605 607	全村
+T72	Person-Nominal 613 614	人
+T73	Person-Nominal 638 645	百多年后的国人
+T74	Time-Implicit 638 642	百多年后
+T75	Person-Nominal 660 662	古人
+T76	Location-Nominal 663 664	国
+T77	Location-Nominal 665 666	家
+T78	Person-Nominal 675 678	年轻人
+T79	Location-Nominal 696 698	家国
+T80	Person-Nominal 706 709	几代人
+T81	Person-Pronoun 720 721	我
+T82	Location-Nominal 738 739	国
+T83	Person-Nominal 760 763	多数人
+T84	Thing-Nominal 768 769	钱
+T85	Location-Nominal 771 775	茶馆酒楼
+T86	Person-Pronoun 780 781	我
+T87	Thing-Nominal 794 796	工厂
+T88	Thing-Nominal 799 801	商店
+T89	Person-Nominal 896 897	人
+T90	Location-Nominal 909 911	四处
+T91	Person-Nominal 924 926	先生
+T92	Person-Nominal 927 930	美国人
+T93	Location-Nominal 932 934	国内
+T94	Time-Implicit 932 940	国内正热衷洋酒时
+T95	Thing-Nominal 937 939	洋酒
+T96	Person-Pronoun 941 942	他
+T97	Person-Pronoun 947 948	他
+T98	Person-Nominal 949 951	国人
+*	Coreference T96 T91
+T99	Thing-Nominal 956 958	挂历
+T100	Thing-Nominal 959 960	手
+T101	Thing-Nominal 961 963	酒杯
+T102	Thing-Nominal 967 971	洋人图片
+T103	Person-Pronoun 980 982	我们
+T104	Thing-Nominal 985 987	酒杯
+T105	Person-Pronoun 990 992	你们
+T106	Thing-Nominal 994 996	筷子
+R3	Use Arg1:T105 Arg2:T106	
+T107	Thing-Nominal 997 998	饭
+T108	Thing-Nominal 1009 1011	挂历
+T109	Person-Pronoun 1013 1014	我
+T110	Person-Pronoun 1029 1031	我们
+T111	Person-Nominal 1044 1045;1046 1047	别 人
+T112	Thing-Nominal 1048 1052	家常便饭
+T113	Location-Name 1057 1059	美国
+T114	Thing-Nominal 1063 1068	曾经的美酒
+T115	Person-Nominal 1075 1078	西方人
+T116	Thing-Nominal 1075 1082	西方人的葡萄酒
+T117	Person-Nominal 1083 1086	中国人
+T118	Thing-Nominal 1086 1093	柴米油盐酱醋茶
+T119	Thing-Nominal 1094 1095	茶
+R4	Part-Whole Arg1:T119 Arg2:T118	
+T120	Thing-Nominal 1099 1106	生活中的常用品
+T121	Person-Nominal 1122 1125	法国人
+T122	Location-Name 1128 1130	中国
+T123	Person-Pronoun 1144 1146	他们
+*	Coreference T123 T121
+T124	Thing-Nominal 1148 1149	酒
+T125	Thing-Nominal 1154 1155	酒
+T126	Thing-Nominal 1160 1161	酒
+T127	Location-Nominal 1162 1164	器皿
+R5	Located Arg1:T126 Arg2:T127	
+T128	Person-Nominal 1181 1184	西方人
+T129	Thing-Nominal 1186 1188	美酒
+T130	Thing-Nominal 1189 1193	眼鼻口舌
+T131	Thing-Nominal 1198 1200	耳朵
+T132	Thing-Nominal 1209 1211	碰杯
+T133	Thing-Nominal 1221 1223	耳朵
+T134	Person-Nominal 1240 1242	国人
+T135	Thing-Nominal 1244 1245	茶
+T136	Person-Nominal 1264 1267	欧洲人
+T137	Person-Nominal 1273 1275	教徒
+T138	Thing-Nominal 1276 1278	面包
+T139	Thing-Nominal 1279 1282	葡萄酒
+T140	Thing-Nominal 1284 1290	上帝的血和肉
+T141	Person-Nominal 1284 1286	上帝
+T142	Thing-Nominal 1293 1296	葡萄酒
+T143	Thing-Nominal 1302 1310	不可或缺的饮料酒
+T144	Time-Implicit 1314 1320	民富国强之后
+T145	Person-Nominal 1321 1323	人们
+T146	Location-Nominal 1339 1343	西方国家
+T147	Thing-Nominal 1360 1363	葡萄酒
+T148	Thing-Nominal 1373 1376	新产品
+T149	Thing-Nominal 1378 1380	冰酒
+T150	Thing-Nominal 1383 1385;1386 1389	成熟 的葡萄
+T151	Metric 1390 1394	零下8度
+T152	Thing-Nominal 1395 1397	葡萄
+T153	Thing-Nominal 1400 1401	冰
+T154	Time-Implicit 1395 1402	葡萄都结成冰后
+T155	Thing-Nominal 1409 1414	那样的葡萄
+T156	Thing-Nominal 1414 1416	水分
+T157	Thing-Nominal 1429 1435	欧洲的葡萄酒
+T158	Location-Nominal 1429 1431	欧洲
+T159	Thing-Nominal 1455 1458	葡萄酒
+T160	Person-Nominal 1451 1452	人
+T161	Location-Name 1463 1465	法国
+T162	Location-Name 1466 1469	意大利
+T163	Location-Name 1470 1473	西班牙
+T164	Thing-Nominal 1479 1484	世界葡萄酒
+T165	Person-Nominal 1490 1492	国人
+T166	Thing-Nominal 1503 1505	酒池
+T167	Thing-Nominal 1512 1514	湖泊
+T168	Thing-Nominal 1516 1519	葡萄酒
+T169	Location-Name 1521 1523	法国
+T170	Thing-Nominal 1530 1532	香槟
+T171	Location-Name 1534 1536	法国
+T172	Location-Nominal 1542 1546	那个地区
+T173	Thing-Nominal 1549 1551	水土
+T174	Thing-Nominal 1556 1558	葡萄
+T175	Thing-Nominal 1561 1562	酒
+T176	Thing-Nominal 1566 1568	气酒
+T177	Thing-Nominal 1581 1597	中国南方高山产的大红袍、铁观音茶
+T178	Location-Nominal 1581 1585	中国南方
+T179	Thing-Nominal 1585 1587	高山
+R6	Located Arg1:T179 Arg2:T178	
+T180	Person-Nominal 1603 1606	法国人
+T181	Thing-Nominal 1607 1614	经营和管理酒庄
+T182	Thing-Nominal 1636 1637;1638 1639	酒 庄
+T183	Location-Nominal 1648 1653	大香槟地区
+T184	Thing-Nominal 1656 1665	15000多家酒庄
+R7	Located Arg1:T184 Arg2:T183	
+T185	Location-Pronoun 1666 1668	那里
+*	Coreference T185 T183
+T186	Thing-Nominal 1670 1673	葡萄酒
+T187	Thing-Nominal 1677 1679	葡萄
+T188	Thing-Nominal 1691 1692	酒
+T189	Thing-Nominal 1700 1701	瓶
+T190	Person-Pronoun 1715 1717	自己
+T191	Thing-Nominal 1733 1735	葡萄
+T192	Thing-Nominal 1760 1763	葡萄酒
+T193	Thing-Nominal 1769 1775	那些著名酒庄
+T194	Person-Pronoun 1783 1785	自己
+T195	Thing-Nominal 1783 1787	自己产品
+T196	Person-Pronoun 1790 1791	你
+T197	Person-Nominal 1797 1799	作家
+T198	Thing-Nominal 1800 1804	自己作品
+T199	Person-Pronoun 1800 1802	自己
+*	Coreference T199 T197
+T200	Person-Nominal 1808 1810	读者
+T201	Thing-Nominal 1827 1834	精心酝酿的结晶
+T202	Person-Nominal 1845 1847	人们
+T203	Person-Nominal 1854 1862	味蕾发达的西方人
+T204	Thing-Nominal 1865 1867	美酒
+T205	Location-Nominal 1886 1888	北欧
+T206	Thing-Nominal 1902 1907	挪威的森林
+T207	Location-Name 1902 1904	挪威
+R8	Located Arg1:T206 Arg2:T207	
+T208	Thing-Nominal 1911 1913	冰川
+T209	Thing-Nominal 1914 1917	海岸线
+T210	Thing-Nominal 1921 1923	酒庄
+T211	Thing-Nominal 1931 1934	葡萄酒
+T212	Thing-Nominal 1938 1942;1943 1947	漂亮的长 廊和花园
+T213	Location-Nominal 1950 1961	婚礼、聚会等的社交场所
+T214	Time-Implicit 1965 1970	许多世纪前
+T215	Thing-Nominal 1972 1975	中国茶
+T216	Person-Nominal 1977 1983	欧洲宫廷贵族
+T217	Thing-Nominal 1994 1997	葡萄酒
+T218	Person-Nominal 2007 2009	国人
+T219	Person-Nominal 2014 2016	国人
+T220	Thing-Nominal 2017 2020	葡萄酒
+T221	Location-Nominal 2030 2032	酒里
+T222	Thing-Nominal 2033 2035	饮料
+R9	Located Arg1:T222 Arg2:T221	
+T223	Location-Name 2039 2041	西方
+T224	Person-Nominal 2041 2047	钟爱葡萄酒者
+T225	Thing-Nominal 2043 2046	葡萄酒
+T226	Person-Nominal 2063 2065	人士
+T227	Thing-Nominal 2060 2063	葡萄酒
+R10	Create Arg1:T226 Arg2:T227	
+T228	Person-Pronoun 2069 2071	我们
+T229	Person-Nominal 2080 2083	美国人
+T230	Thing-Nominal 2085 2086	茶
+T231	Time-Implicit 2080 2084;2085 2087	美国人喝 茶时
+T232	Thing-Nominal 2089 2092	碧螺春
+T233	Thing-Nominal 2093 2095	龙井
+T234	Thing-Nominal 2097 2099	白糖
+T235	Thing-Nominal 2099 2101	酱油
+T236	Metric 2119 2122	几十年
+T237	Thing-Nominal 2126 2129	葡萄酒
+T238	Person-Pronoun 2151 2153	自己
+T239	Person-Nominal 2157 2167	专业的酿造师、品酒师
+T240	Location-Name 2171 2173	中国
+T241	Person-Nominal 2174 2177	一群人
+T242	Thing-Nominal 2178 2181	葡萄酒
+T243	Location-Nominal 2195 2201	葡萄酒的产地
+T244	Thing-Nominal 2195 2198	葡萄酒
+T245	Location-Nominal 2207 2211	北方地区
+T246	Location-Nominal 2213 2215	全国
+T247	Time-Implicit 2218 2221	前不久
+T248	Location-Nominal 2222 2223	国
+T249	Location-Name 2243 2249	福州郊区北峰
+T250	Thing-Nominal 2250 2255	龙晶葡萄园
+R11	Located Arg1:T250 Arg2:T249	
+T251	Thing-Nominal 2258 2264	百种名品葡萄
+T252	Thing-Nominal 2269 2272	黑珍珠
+T253	Thing-Nominal 2273 2277	马斯卡特
+T254	Thing-Nominal 2278 2281	美人指
+T255	Thing-Nominal 2282 2285	金手指
+T256	Thing-Nominal 2286 2289	寒香蜜
+T257	Thing-Nominal 2290 2293	醉香妃
+T258	Thing-Nominal 2298 2301	黑葡萄
+T259	Thing-Nominal 2302 2305	紫葡萄
+T260	Thing-Nominal 2306 2309	红葡萄
+T261	Thing-Nominal 2310 2313	绿葡萄
+T262	Thing-Nominal 2314 2328;2329 2330	那一片片，一排排，一架架的葡 萄
+T263	Person-Nominal 2332 2333	人
+T264	Location-Nominal 2338 2341	园区内
+T265	Thing-Nominal 2344 2345	酒
+T266	Thing-Nominal 2348 2350	葡萄
+T267	Thing-Nominal 2353 2358	风情红酒坊
+T268	Thing-Nominal 2360 2365	优质葡萄酒
+T269	Thing-Nominal 2370 2373	葡萄酒
+T270	Person-Pronoun 2374 2375	我
+T271	Person-Nominal 2377 2382	许多西方人
+T272	Thing-Nominal 2383 2384	茶
+T273	Person-Pronoun 2420 2421	我
+T274	Thing-Nominal 2426 2428	葡萄
+酒
+T276	Person-Pronoun 2453 2454	我
+T275	Thing-Nominal 2468 2471	葡萄酒
+T277	Person-Pronoun 2501 2503	我们
+T278	Thing-Nominal 2448 2450;2451 2452	葡萄 酒
+T279	Location-Nominal 157 158	街
+R12	Located Arg1:T20 Arg2:T279	
+R13	Located Arg1:T31 Arg2:T30	
+R14	General-Special Arg1:T92 Arg2:T91	
+R15	Use Arg1:T103 Arg2:T104	

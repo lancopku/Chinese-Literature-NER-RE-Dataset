@@ -1,0 +1,189 @@
+T1	Person-Name 1 3	张春
+T2	Thing-Nominal 4 6	电报
+T3	Person-Name 17 23	张春媳妇桂枝
+R1	Family Arg1:T3 Arg2:T1	
+T4	Person-Nominal 25 31	大门口邮递员
+T5	Location-Nominal 25 28	大门口
+R2	Social Arg1:T4 Arg2:T3	
+T6	Location-Nominal 43 45	手上
+T7	Thing-Nominal 43 50	手上的肥皂泡沫
+R3	Located Arg1:T7 Arg2:T6	
+T8	Location-Nominal 52 54	门口
+*	Coreference T8 T5
+T9	Person-Nominal 57 60	邮递员
+*	Coreference T9 T4
+T10	Person-Pronoun 64 65	你
+*	Coreference T10 T3 T12 T13 T14
+T11	Organization-Nominal 66 69	张春家
+T12	Person-Name 72 74	桂枝
+T13	Person-Pronoun 80 81	我
+T14	Person-Nominal 82 86	张春媳妇
+T15	Person-Nominal 88 91	邮递员
+T16	Thing-Nominal 92 94	电报
+T17	Person-Name 96 98	桂枝
+T18	Person-Name 99 101	桂枝
+T19	Thing-Nominal 103 105	衣襟
+R4	Use Arg1:T18 Arg2:T19	
+T20	Thing-Nominal 107 108	手
+R5	Part-Whole Arg1:T20 Arg2:T18	
+T21	Thing-Nominal 111 113	电报
+T22	Thing-Nominal 122 124	电报
+T23	Thing-Nominal 131 133	电报
+T24	Person-Nominal 135 138	邮递员
+T25	Person-Pronoun 139 140	我
+T26	Person-Name 144 148	我家老张
+T27	Person-Pronoun 154 155	您
+*	Coreference T27 T24
+T28	Thing-Nominal 159 161	电报
+T29	Person-Nominal 167 170	邮递员
+T30	Thing-Nominal 172 174	电报
+T31	Person-Nominal 178 180	大哥
+R6	Family Arg1:T31 Arg2:T26	
+T32	Person-Name 188 190	桂枝
+T33	Thing-Nominal 194 198	这几个字
+R7	Located Arg1:T33 Arg2:T30	
+T34	Person-Nominal 208 211	发报人
+T35	Person-Name 218 220	桂枝
+T36	Person-Nominal 229 232	邮递员
+T37	Thing-Nominal 234 237	自行车
+R8	Use Arg1:T36 Arg2:T37	
+T38	Location-Nominal 239 242	别的院
+T39	Thing-Nominal 244 245	信
+T40	Person-Name 249 251	桂枝
+T41	Thing-Nominal 253 255	电报
+T42	Thing-Nominal 261 268	洗衣盆旁的小板
+T43	Thing-Nominal 261 264	洗衣盆
+T44	Person-Nominal 291 295	这一家人
+T45	Person-Nominal 303 306	你家人
+R9	Part-Whole Arg1:T45 Arg2:T44	
+T46	Person-Nominal 316 318	你哥
+T47	Person-Pronoun 325 326	他
+*	Coreference T47 T46 T26 T1
+T48	Person-Nominal 331 332	人
+T49	Location-Nominal 339 341	村里
+T50	Person-Nominal 342 348	你家兄弟姐妹
+T51	Metric 348 351	好几个
+T52	Person-Pronoun 353 354	他
+T53	Person-Pronoun 363 365	你们
+R10	Family Arg1:T53 Arg2:T47	
+T54	Person-Pronoun 371 372	他
+T55	Location-Nominal 373 375	城里
+T56	Person-Pronoun 379 381	你们
+T57	Thing-Nominal 383 387	吃的喝的
+T58	Person-Pronoun 389 391	你们
+T59	Thing-Nominal 392 393	钱
+T60	Person-Pronoun 394 396	你们
+T61	Location-Nominal 398 400	城里
+T62	Location-Nominal 410 412	城里
+T63	Thing-Nominal 419 420	钱
+T64	Thing-Nominal 422 423	水
+T65	Thing-Nominal 424 426	水钱
+T66	Thing-Nominal 428 429	菜
+T67	Thing-Nominal 430 431;432 433	菜 钱
+T68	Location-Nominal 436 440	你们村里
+T69	Thing-Nominal 442 443	水
+T70	Thing-Nominal 443 444	井
+T71	Thing-Nominal 448 449	菜
+T72	Location-Nominal 449 451	院里
+R11	Located Arg1:T71 Arg2:T72	
+T73	Location-Nominal 443 445	井里
+R12	Located Arg1:T69 Arg2:T73	
+T74	Person-Pronoun 453 455	我们
+T75	Location-Nominal 453 456	我们这
+T76	Person-Nominal 458 462	一大家子
+T77	Person-Pronoun 472 473	我
+T78	Person-Nominal 477 479	壮工
+R13	General-Special Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 491 492;493 496	来 回路费
+T80	Person-Nominal 499 502	农村人
+T81	Thing-Nominal 506 508	眼皮
+T82	Person-Nominal 510 516	七大姑八大姨
+T83	Organization-Pronoun 517 519	哪家
+T84	Person-Pronoun 528 529	谁
+T85	Person-Pronoun 530 531	谁
+T86	Thing-Nominal 551 552	钱
+T87	Thing-Nominal 564 571	不值钱的土特产
+T88	Person-Pronoun 577 578	我
+T89	Person-Pronoun 581 582	他
+T90	Person-Pronoun 589 590	他
+T91	Person-Pronoun 594 595	我
+T92	Organization-Nominal 598 600	他家
+T93	Person-Name 607 609	老张
+T94	Location-Nominal 617 619	老家
+T95	Person-Name 621 623	桂枝
+T96	Person-Pronoun 639 641	自己
+*	Coreference T96 T95 T100
+T97	Person-Nominal 650 655	对面来的人
+T98	Person-Name 668 672	丈夫老张
+*	Coreference T98 T97 T93 T88
+T99	Person-Name 673 675	老张
+T100	Person-Pronoun 678 679	你
+T101	Thing-Nominal 694 696	眼睛
+T102	Person-Name 698 700	桂枝
+T103	Person-Pronoun 703 704	你
+*	Coreference T103 T99
+T104	Person-Name 708 710	老张
+T105	Person-Nominal 711 713	媳妇
+*	Coreference T105 T102 T107 T110
+R14	Family Arg1:T104 Arg2:T102	
+T106	Thing-Nominal 722 725	桂枝胳
+R15	Part-Whole Arg1:T106 Arg2:T102	
+T107	Person-Pronoun 729 730	她
+T108	Thing-Nominal 734 737	一张纸
+T109	Metric 734 736	一张
+T110	Person-Pronoun 743 744	你
+T111	Person-Pronoun 751 752	我
+*	Coreference T111 T104
+T112	Person-Name 756 758	桂枝
+T113	Thing-Nominal 763 765	电报
+T114	Person-Nominal 772 774	女人
+T115	Person-Nominal 775 777	男人
+R16	General-Special Arg1:T114 Arg2:T112	
+T116	Person-Name 780 782	老张
+R17	General-Special Arg1:T115 Arg2:T116	
+T117	Person-Name 787 789	桂枝
+T118	Thing-Nominal 784 786	电报
+T119	Thing-Nominal 794 796	电报
+T120	Person-Nominal 799 802	你大哥
+R18	Family Arg1:T120 Arg2:T116	
+*	Coreference T120 T31
+T121	Person-Pronoun 807 808	你
+T122	Person-Pronoun 811 812	我
+T123	Person-Pronoun 816 817	你
+T124	Person-Name 831 833	老张
+T125	Person-Pronoun 839 840	你
+T126	Person-Nominal 840 850	这个不讲理的混娘儿们
+*	Coreference T126 T125 T117 T122 T127 T128
+*	Coreference T121 T116
+T127	Person-Pronoun 857 858	你
+T128	Person-Pronoun 865 866	你
+T129	Person-Nominal 875 878	你家人
+T130	Person-Pronoun 881 882	你
+T131	Person-Name 888 890	桂枝
+T132	Organization-Nominal 896 898	谁家
+T133	Person-Nominal 899 900	人
+T134	Person-Name 907 909	老张
+T135	Person-Nominal 935 940	发电报的人
+T136	Person-Name 948 950	桂枝
+T137	Person-Pronoun 953 954	你
+T138	Person-Pronoun 958 959	我
+T139	Person-Pronoun 960 961	你
+*	Coreference T138 T134
+T140	Person-Name 970 972	桂枝
+*	Coreference T139 T140
+T141	Person-Pronoun 978 979	你
+T142	Person-Name 986 988	老张
+*	Coreference T141 T142 T143
+T143	Person-Pronoun 994 995	我
+T144	Person-Nominal 1004 1007	你大哥
+R19	Family Arg1:T144 Arg2:T140	
+T145	Person-Nominal 1011 1014	我大哥
+T146	Person-Pronoun 1015 1016	我
+T147	Thing-Nominal 1021 1023	电报
+T148	Person-Name 1024 1028;1029 1030	你弟弟桂 田
+R20	Family Arg1:T148 Arg2:T140	
+T149	Location-Name 1037 1041	你们刘村
+T150	Location-Name 1044 1048	我们张庄
+T151	Person-Name 1050 1052	桂枝
+T152	Person-Nominal 1068 1075	我那苦命的大哥
+*	Coreference T152 T144

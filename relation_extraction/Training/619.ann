@@ -1,0 +1,198 @@
+T1	Thing-Nominal 5 9	枝头小鸟
+T2	Person-Nominal 21 23	人们
+T3	Location-Nominal 38 45	东城的每个角落
+T4	Person-Nominal 48 55	爱好晨炼的朋友
+T5	Person-Nominal 61 63	有的
+T6	Person-Nominal 69 71	有的
+T7	Person-Nominal 77 79	有的
+T8	Person-Nominal 85 87	有的
+T9	Thing-Nominal 65 68	自行车
+T10	Thing-Nominal 73 76	电动车
+T11	Thing-Nominal 81 84	摩托车
+T12	Thing-Nominal 89 92	小轿车
+R1	Use Arg1:T8 Arg2:T12	
+R2	Use Arg1:T7 Arg2:T11	
+R3	Use Arg1:T6 Arg2:T10	
+R4	Use Arg1:T5 Arg2:T9	
+T13	Thing-Nominal 100 108	“11号万能车”
+T14	Location-Nominal 120 133	地处南山麓的笔架山森林公园
+T15	Thing-Nominal 139 141	绿树
+T16	Thing-Nominal 134 136	山水
+T17	Thing-Nominal 144 146	芳草
+T18	Thing-Nominal 149 151	繁花
+T19	Person-Nominal 155 157	人们
+T20	Location-Nominal 162 166	天然氧吧
+*	Coreference T20 T14 T21
+T21	Location-Pronoun 167 168	她
+T22	Person-Nominal 176 180;181 183	数千东阳 市民
+T23	Location-Nominal 185 187	景区
+T24	Location-Nominal 213 218	古老的土地
+T25	Person-Nominal 247 251	赶早的人
+T26	Location-Nominal 259 265	笔架山的顶峰
+T27	Person-Nominal 269 272	有的人
+T28	Thing-Nominal 295 297	山谷
+T29	Person-Nominal 298 301	有的人
+T30	Location-Nominal 330 334	天然氧吧
+T31	Thing-Nominal 336 340	鲜新空气
+T32	Person-Nominal 341 350	一位六十多岁的老者
+T33	Person-Pronoun 353 354	我
+R5	Social Arg1:T33 Arg2:T32	
+T34	Person-Pronoun 356 357	他
+T35	Time-Implicit 361 365	三、四年
+T36	Location-Name 393 396	笔架山
+T37	Time-Explicit 311 313	晚上
+T38	Person-Pronoun 440 441	我
+T39	Person-Nominal 444 449	几位女同胞
+R6	Social Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 451 452	脚
+R7	Part-Whole Arg1:T40 Arg2:T39	
+T41	Person-Pronoun 457 459	她们
+T42	Person-Pronoun 466 468	她们
+T43	Thing-Nominal 486 488	血液
+T44	Thing-Nominal 512 514	泡泡
+T45	Thing-Nominal 520 523	脚底皮
+T46	Person-Nominal 549 554	几位登山者
+T47	Thing-Nominal 557 560	照相机
+T48	Location-Name 566 569	笔架山
+T49	Thing-Nominal 577 579	照片
+T50	Time-Implicit 582 588	改革开放以来
+T51	Location-Name 588 590	东城
+T52	Location-Name 604 607	笔架山
+T55	Person-Nominal 666 669	市民们
+T56	Metric 680 685	十几平方米
+T57	Metric 675 679	几平方米
+T58	Location-Nominal 692 702	几十平方米的活动场地
+T59	Metric 692 697	几十平方米
+T60	Location-Nominal 707 712;713 717	半山腰的“ 松鹤亭”
+T61	Location-Nominal 723 735	好多个大小不等的活动场所
+T62	Person-Nominal 739 745	一批批登山者
+T63	Location-Nominal 766 770	森林公园
+T53	Location-Nominal 653 662	笔架山的山顶、山腰
+R8	Part-Whole Arg1:T58 Arg2:T53	
+T54	Location-Nominal 776 790	森林公园中的路、亭、活动场地
+T64	Person-Nominal 795 797	市民
+T65	Thing-Nominal 813 816	青石板
+T66	Thing-Nominal 823 828	“延龄路”
+T67	Person-Nominal 830 832	市民
+T68	Thing-Nominal 847 856	山腰上的“松鹤亭”
+T69	Person-Nominal 859 861	市民
+T70	Organization-Nominal 862 866	一些单位
+T71	Person-Nominal 874 879	一对老夫妻
+T72	Time-Implicit 881 883	几年
+T73	Abstract 888 894	愚公移山精神
+T74	Location-Nominal 906 910	半山腰处
+T75	Thing-Nominal 913 917	一条新路
+T76	Thing-Nominal 922 927	“鸳鸯路”
+T77	Person-Nominal 931 934	登山者
+T78	Thing-Nominal 939 942	元宝湖
+T79	Location-Nominal 943 950	笔架山森林公园
+R9	Located Arg1:T78 Arg2:T79	
+T80	Thing-Nominal 943 955	笔架山森林公园的一颗明珠
+*	Coreference T80 T78
+T81	Thing-Nominal 957 961	蓝蓝湖水
+T82	Metric 970 975	400来米
+T83	Thing-Nominal 968 983	一条400来米的平展展“跑道”
+T84	Thing-Nominal 989 993	茵茵绿树
+T85	Thing-Nominal 994 998	萋萋芳草
+T86	Thing-Nominal 1000 1004	丛丛鲜花
+T87	Thing-Nominal 1008 1010	球场
+T88	Thing-Nominal 1011 1013	平台
+T89	Thing-Nominal 1014 1016	椅凳
+T90	Location-Nominal 1031 1046	一个美丽的让人喜爱的元宝湖景点
+T91	Person-Nominal 1064 1083	成群结队的、三三两两的、成双成对的市民
+T92	Location-Nominal 1086 1090	湖边大道
+T93	Person-Nominal 1091 1093	有的
+T94	Person-Nominal 1099 1101	有的
+T95	Person-Nominal 1107 1109	有的
+T96	Person-Nominal 1113 1115	有的
+T97	Person-Nominal 1119 1121	有的
+T98	Person-Nominal 1126 1128	有的
+T99	Person-Nominal 1146 1155	一位80多岁的老者
+T100	Abstract 1185 1192	《志愿军军歌》
+T101	Abstract 1193 1205;1206 1211	一条大河波浪翻的电影《上 甘岭》插曲
+T102	Abstract 1215 1229	日落西山红霞飞的《打靶归来》
+T103	Person-Nominal 1237 1241	一名老兵
+*	Coreference T103 T99
+T104	Person-Nominal 1252 1261	一位患过中风的老人
+T105	Person-Nominal 1269 1273	他的儿子
+R10	Family Arg1:T105 Arg2:T104	
+T106	Person-Pronoun 1275 1276	他
+T107	Location-Nominal 1282 1285	元宝湖
+T108	Thing-Nominal 1276 1281	乘坐的轮椅
+R11	Use Arg1:T106 Arg2:T108	
+T109	Person-Nominal 1291 1293	老人
+T110	Thing-Nominal 1294 1296	轮椅
+T111	Thing-Nominal 1301 1305	他的双手
+T112	Thing-Nominal 1309 1326	随身带来的一个可滑动的铝质的四脚架
+T113	Thing-Nominal 1333 1336	四脚架
+T114	Person-Pronoun 1365 1366	他
+*	Coreference T114 T109
+T115	Metric 1376 1379	几百米
+T116	Person-Nominal 1386 1388;1389 1390	见证 者
+T117	Location-Nominal 1400 1402	湖畔
+T118	Person-Nominal 1402 1404	有的
+T119	Location-Nominal 1413 1416	篮球场
+T120	Location-Nominal 1427 1431	紫藤架下
+T121	Person-Nominal 1431 1433	有人
+T122	Location-Nominal 1441 1445	太湖石上
+T123	Person-Nominal 1446 1448	有人
+T124	Thing-Nominal 1451 1453	笛子
+T125	Location-Nominal 1462 1465	戏曲角
+T126	Abstract 1471 1480	现代京剧《红灯记》
+T128	Abstract 1489 1505	越剧《梁山伯与祝英台》的十八相送
+T129	Abstract 1506 1515;1516 1517	《何文秀》的桑园访 妻
+T130	Abstract 1518 1531	《碧玉簪》的手心手背都是肉
+T127	Abstract 1481 1488	《沙家浜》选段
+T131	Abstract 1532 1542	婺剧的《白牡丹对课》
+T132	Thing-Nominal 1556 1561	清清的湖水
+T133	Time-Explicit 1567 1571	每天早晨
+T134	Person-Nominal 1574 1581	一些游泳爱好者
+T135	Time-Implicit 1583 1585	春末
+T136	Time-Implicit 1586 1588	初冬
+T137	Thing-Nominal 1600 1602	高空
+T138	Thing-Nominal 1603 1607	白云朵朵
+T139	Thing-Nominal 1613 1615	绿树
+T140	Location-Nominal 1622 1626	人间瑶池
+T141	Location-Nominal 1645 1650	博物馆广场
+T142	Location-Nominal 1645 1667	博物馆广场、朝阳、东岘两路南端及城南东路一段
+T143	Location-Nominal 1669 1678	人气最旺的景点之一
+*	Coreference T143 T142
+T144	Time-Implicit 1679 1683	五点多钟
+T145	Location-Nominal 1686 1695	广场中央的露天舞池
+T146	Person-Nominal 1707 1711	男男女女
+T147	Location-Nominal 1717 1721	其它场地
+T148	Person-Nominal 1723 1725	有的
+T149	Person-Nominal 1739 1741	有的
+T150	Person-Nominal 1746 1748	有的
+T151	Person-Nominal 1759 1761	有的
+T152	Location-Nominal 1772 1776	整个广场
+T153	Person-Nominal 1791 1796	几千晨练者
+T154	Location-Nominal 1807 1820	一个非常热闹的“露水市场”
+T155	Time-Implicit 1822 1825	前几年
+T156	Person-Nominal 1827 1832	附近的农民
+T157	Thing-Nominal 1835 1840	剩余的萝卜
+T158	Thing-Nominal 1841 1843	青菜
+T159	Thing-Nominal 1845 1847	黄瓜
+T160	Location-Nominal 1855 1867	几百个摊位的“农贸市场”
+T161	Thing-Nominal 1869 1871	蔬菜
+T162	Thing-Nominal 1872 1874	水果
+T163	Thing-Nominal 1883 1885	图书
+T164	Thing-Nominal 1886 1888	碟片
+T165	Thing-Nominal 1889 1892	保健品
+T166	Thing-Nominal 1910 1913	拖拉机
+T167	Thing-Nominal 1914 1916	汽车
+T168	Thing-Nominal 1938 1940	太阳
+T169	Person-Nominal 1950 1952	人们
+T170	Thing-Nominal 1875 1881	日常生活用品
+R12	Social Arg1:T156 Arg2:T153	
+R13	Part-Whole Arg1:T27 Arg2:T25	
+R14	Part-Whole Arg1:T29 Arg2:T25	
+*	Coreference T41 T39 T42
+R15	Use Arg1:T46 Arg2:T47	
+T171	Person-Pronoun 838 839	他
+T172	Person-Pronoun 832 833	你
+R16	Social Arg1:T77 Arg2:T71	
+R17	Part-Whole Arg1:T93 Arg2:T91	
+R18	Part-Whole Arg1:T94 Arg2:T91	
+R19	Part-Whole Arg1:T95 Arg2:T91	
+T173	Thing-Nominal 1755 1758	太极剑

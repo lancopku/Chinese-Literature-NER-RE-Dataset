@@ -1,0 +1,137 @@
+T1	Location-Nominal 2 6	老同学家
+T2	Thing-Nominal 7 8	门
+R1	Located Arg1:T2 Arg2:T1	
+T3	Person-Nominal 2 5	老同学
+T4	Thing-Nominal 14 16	字画
+R2	Located Arg1:T4 Arg2:T1	
+T5	Person-Pronoun 20 21	我
+R3	Social Arg1:T5 Arg2:T3	
+T6	Person-Nominal 26 29	老同学
+T7	Person-Pronoun 30 31	我
+T8	Location-Nominal 33 35	屋内
+T9	Thing-Nominal 37 38	茶
+T10	Thing-Nominal 39 40	水
+T11	Person-Pronoun 46 47	我
+T12	Thing-Nominal 50 51	茶
+T13	Thing-Nominal 54 55	字
+T14	Person-Nominal 57 59	老弟
+T15	Person-Pronoun 61 62	你
+T16	Person-Nominal 63 67	书法行家
+T17	Person-Pronoun 69 70	我
+*	Coreference T14 T15
+T18	Person-Nominal 81 84	老同学
+T19	Person-Pronoun 86 87	我
+R4	General-Special Arg1:T16 Arg2:T19	
+*	Coreference T17 T18 T22
+T20	Thing-Nominal 88 90	字画
+T21	Person-Pronoun 101 102	我
+T22	Person-Pronoun 114 115	他
+T23	Person-Pronoun 123 125	字画
+T24	Thing-Nominal 128 129	画
+R5	Part-Whole Arg1:T24 Arg2:T23	
+T25	Person-Nominal 133 135	老翁
+T26	Thing-Nominal 139 141	扁担
+R6	Use Arg1:T25 Arg2:T26	
+T27	Thing-Nominal 147 149	峻峰
+T28	Location-Nominal 152 154	山上
+R7	Located Arg1:T27 Arg2:T28	
+T29	Location-Nominal 159 161	近处
+T31	Thing-Nominal 166 168	杂木
+T30	Thing-Nominal 162 164	石阶
+T32	Location-Nominal 162 166	石阶两边
+R8	Located Arg1:T31 Arg2:T32	
+T33	Thing-Nominal 173 175	溪流
+T34	Location-Nominal 176 180	杂木丛中
+R9	Located Arg1:T33 Arg2:T34	
+T35	Thing-Nominal 191 195	高楼大厦
+T36	Location-Nominal 185 187	远处
+R10	Located Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 197 198	画
+T38	Thing-Nominal 199 200	山
+T39	Thing-Nominal 208 209	字
+T40	Thing-Nominal 211 212	笔
+T41	Thing-Nominal 218 219	笔
+T42	Thing-Nominal 232 233	泥
+T43	Thing-Nominal 234 235	水
+T44	Person-Nominal 243 245	大家
+T45	Person-Nominal 265 267	老弟
+T46	Person-Pronoun 276 277	我
+*	Coreference T46 T45
+T47	Thing-Nominal 280 281	头
+R11	Part-Whole Arg1:T47 Arg2:T46	
+T48	Person-Nominal 283 286	老同学
+T49	Person-Pronoun 289 290	你
+T50	Thing-Nominal 294 298	书法字画
+T51	Person-Pronoun 298 299	我
+T52	Thing-Nominal 310 314	这副字画
+T53	Person-Pronoun 325 326	我
+T54	Person-Pronoun 339 340	我
+T55	Person-Pronoun 346 347	你
+T56	Person-Nominal 349 353	一县之长
+*	Coreference T55 T56 T48
+T57	Thing-Nominal 365 366	画
+T58	Thing-Nominal 363 364	字
+*	Coreference T58 T57
+R12	Located Arg1:T24 Arg2:T39	
+T59	Person-Nominal 369 371	老弟
+T60	Person-Pronoun 376 377	我
+T61	Metric 379 381	五年
+T62	Person-Nominal 393 395	老弟
+T63	Person-Nominal 400 402	父亲
+R13	Family Arg1:T60 Arg2:T63	
+T64	Person-Pronoun 406 407	我
+T65	Thing-Nominal 409 411	茶杯
+*	Coreference T64 T62
+T66	Person-Nominal 427 432	我的老伯父
+T67	Person-Nominal 435 439	他老人家
+*	Coreference T66 T67 T63
+T68	Person-Pronoun 427 428	我
+R14	Social Arg1:T68 Arg2:T66	
+T69	Person-Nominal 445 448	老父亲
+T70	Person-Pronoun 459 460	我
+T71	Thing-Nominal 460 463	这幅画
+R15	Family Arg1:T69 Arg2:T70	
+T72	Person-Pronoun 464 465	他
+*	Coreference T72 T69
+T73	Thing-Nominal 467 469	这画
+*	Coreference T73 T71
+T74	Person-Pronoun 469 470	你
+*	Coreference T74 T70
+T75	Person-Pronoun 480 481	你
+T76	Person-Pronoun 492 493	我
+T77	Person-Pronoun 496 497	你
+*	Coreference T77 T75 T79
+T78	Person-Pronoun 503 504	我
+T79	Person-Nominal 514 517	老同学
+T80	Thing-Nominal 522 523	画
+T81	Thing-Nominal 526 527	画
+T82	Person-Pronoun 529 531	我们
+T83	Person-Nominal 531 534	老李家
+*	Coreference T82 T83
+T84	Person-Pronoun 540 541	我
+T85	Thing-Nominal 546 547	字
+R16	Located Arg1:T81 Arg2:T85	
+T86	Thing-Nominal 553 554	字
+T87	Person-Nominal 563 564	官
+T88	Thing-Nominal 588 590	担子
+T89	Thing-Nominal 583 585	肩上
+R17	Located Arg1:T88 Arg2:T89	
+T90	Person-Nominal 594 597	老同学
+*	Coreference T84 T90 T92
+T91	Person-Pronoun 600 601	我
+T92	Person-Nominal 608 610	主人
+T93	Thing-Nominal 616 617	门
+T94	Thing-Nominal 622 623	包
+T95	Person-Pronoun 618 619	我
+R18	Ownership Arg1:T95 Arg2:T94	
+T96	Thing-Nominal 624 625	包
+T97	Thing-Nominal 631 635	名人字画
+R19	Located Arg1:T97 Arg2:T96	
+T98	Thing-Nominal 642 643	路
+T99	Person-Pronoun 644 645	我
+T100	Person-Pronoun 650 651	我
+T101	Thing-Nominal 655 656	字
+T102	Person-Pronoun 660 661	我
+T103	Person-Pronoun 672 673	字
+T104	Person-Pronoun 674 675	您
+T105	Person-Pronoun 687 688	您

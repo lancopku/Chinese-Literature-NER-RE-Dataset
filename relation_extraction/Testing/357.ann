@@ -1,0 +1,223 @@
+T1	Person-Name 0 6	退休干部高老
+T2	Time-Implicit 7 10	两年前
+T3	Person-Nominal 10 12	老伴
+R1	Family Arg1:T3 Arg2:T1	
+T4	Person-Nominal 15 17	子女
+R2	Family Arg1:T4 Arg2:T3	
+R3	Family Arg1:T4 Arg2:T1	
+T5	Thing-Pronoun 22 24	一切
+T6	Thing-Nominal 36 38	身板
+R4	Ownership Arg1:T1 Arg2:T6	
+T7	Thing-Nominal 41 44	退休费
+T8	Time-Implicit 60 62	一天
+T9	Person-Name 62 64	高老
+*	Coreference T9 T1 T11 T14
+T10	Location-Nominal 65 67	超市
+T11	Person-Pronoun 70 71	他
+T12	Thing-Nominal 72 77	装货的筐子
+T13	Thing-Nominal 79 81	货架
+T14	Person-Pronoun 83 85	自己
+T15	Thing-Nominal 93 95	货物
+T16	Person-Name 105 107	高老
+T17	Person-Nominal 112 120;121 122	一位穿着长裙的女 士
+T18	Thing-Nominal 130 132	货筐
+T19	Thing-Nominal 125 127	货筐
+T20	Location-Nominal 125 129	货筐旁边
+T21	Thing-Nominal 130 136	货筐里的东西
+R5	Located Arg1:T21 Arg2:T18	
+T22	Person-Name 142 144	高老
+T23	Person-Nominal 160 164	那位女士
+*	Coreference T23 T17 T25 T28 T29
+T24	Thing-Nominal 149 151	东西
+*	Coreference T24 T21
+T25	Person-Nominal 167 169	女士
+T26	Person-Pronoun 177 178	谁
+T27	Thing-Nominal 185 187	筐子
+*	Coreference T27 T18 T152
+T28	Person-Nominal 197 200	老娘我
+T29	Person-Nominal 203 206	老大姐
+T30	Thing-Nominal 211 213	筐子
+T31	Person-Pronoun 214 215	我
+T32	Person-Name 219 221	高老
+*	Coreference T31 T32 T34
+T33	Person-Pronoun 227 228	谁
+T34	Person-Pronoun 229 230	你
+T35	Person-Nominal 231 234	老大姐
+T36	Person-Nominal 237 239	女士
+T37	Person-Nominal 241 242;243 244	高 老
+T38	Person-Pronoun 248 249	我
+*	Coreference T38 T36
+T39	Person-Name 259 261	高老
+T40	Person-Nominal 266 270	那位女士
+T41	Person-Pronoun 282 284	自己
+*	Coreference T41 T39 T47 T48
+T42	Person-Pronoun 304 305	您
+T43	Person-Nominal 305 308	大妹子
+*	Coreference T43 T42 T40
+T44	Person-Nominal 312 314	女士
+T45	Thing-Nominal 323 325	裙子
+R6	Use Arg1:T44 Arg2:T45	
+T46	Thing-Nominal 328 330	两腿
+R7	Part-Whole Arg1:T46 Arg2:T44	
+T47	Person-Pronoun 348 349	你
+T48	Person-Nominal 350 353	懒老头
+T49	Thing-Nominal 355 357	东西
+T50	Thing-Nominal 362 364	筐子
+T51	Location-Nominal 367 369	地上
+T52	Person-Nominal 376 377	人
+T53	Person-Pronoun 383 384	她
+*	Coreference T53 T44 T59 T57
+T54	Thing-Nominal 386 390	自己的腿
+*	Coreference T54 T46 T58
+T55	Person-Pronoun 393 394	你
+T56	Person-Pronoun 396 397	你
+T57	Person-Pronoun 400 401	我
+T58	Thing-Nominal 400 406	我这苗条细腿
+T59	Person-Pronoun 386 388	自己
+T60	Thing-Nominal 410 413	紫茄子
+T61	Person-Name 417 419	高老
+T62	Person-Nominal 425 428	大妹子
+T63	Person-Pronoun 437 438	您
+*	Coreference T63 T62
+T64	Person-Pronoun 443 444	我
+*	Coreference T64 T61
+T65	Person-Pronoun 452 453	您
+T66	Thing-Nominal 445 448	急救车
+T67	Location-Nominal 454 456	医院
+T68	Person-Name 465 467	高老
+T69	Thing-Nominal 469 471	手机
+R8	Use Arg1:T68 Arg2:T69	
+T70	Location-Nominal 480 482	医院
+T71	Person-Name 483 485	高老
+T72	Person-Nominal 487 489	女士
+T73	Thing-Nominal 487 493	女士的身份证
+R9	Ownership Arg1:T72 Arg2:T73	
+T74	Person-Nominal 505 509	那位女士
+T75	Thing-Nominal 513 515	眼睛
+R10	Part-Whole Arg1:T75 Arg2:T74	
+T76	Person-Pronoun 523 524	我
+*	Coreference T76 T74
+T77	Thing-Nominal 525 528	身份证
+*	Coreference T77 T73
+T78	Person-Pronoun 529 530	你
+*	Coreference T78 T71
+T79	Person-Pronoun 531 532	你
+T80	Person-Pronoun 541 542	我
+T81	Person-Pronoun 547 548	你
+T82	Person-Pronoun 553 554	您
+T83	Person-Pronoun 560 561	我
+T84	Person-Name 570 572	高老
+T85	Organization-Nominal 579 581	社会
+T86	Person-Nominal 582 586	骗子坏人
+T87	Person-Pronoun 592 593	你
+T88	Person-Nominal 602 604	女士
+T89	Person-Name 608 610	高老
+T90	Person-Pronoun 620 621	我
+T91	Thing-Nominal 622 627	我的身份证
+R11	Ownership Arg1:T90 Arg2:T91	
+*	Coreference T90 T89
+T92	Person-Pronoun 629 630	您
+T93	Person-Pronoun 633 634	您
+T94	Person-Nominal 655 657	女士
+T95	Person-Nominal 665 668	两个人
+T96	Thing-Nominal 671 674	身份证
+T97	Person-Name 676 678	高老
+T98	Person-Nominal 680 682	女士
+T99	Person-Pronoun 701 702	他
+*	Coreference T99 T97
+T100	Person-Name 715 718	甄黛玉
+T101	Person-Pronoun 721 722	她
+*	Coreference T101 T100 T94
+T102	Person-Name 723 726	林黛玉
+T103	Person-Name 727 730	林黛玉
+T104	Person-Name 734 736	高老
+T105	Person-Nominal 757 761	那位女士
+T106	Person-Name 768 780	电视剧《红楼梦》中林黛玉
+T107	Person-Name 798 801	甄黛玉
+T108	Person-Name 803 805	高老
+T109	Person-Name 815 818	高梓泰
+*	Coreference T109 T104 T110
+T110	Person-Name 828 845	高梓泰……高梓泰……高……梓……泰
+T111	Person-Pronoun 819 821	自己
+*	Coreference T111 T107
+T112	Person-Name 850 853	高梓泰
+T113	Person-Pronoun 860 861	她
+T114	Person-Pronoun 875 876	她
+T115	Location-Nominal 896 898	医院
+T116	Person-Name 903 906	甄黛玉
+T117	Person-Nominal 925 927	大夫
+T118	Thing-Nominal 930 935	消炎止痛药
+T119	Metric 938 942	一段时间
+T120	Person-Name 949 952	高梓泰
+T121	Thing-Nominal 958 964	一间特需病房
+T122	Person-Name 966 969	甄黛玉
+T123	Location-Nominal 970 972	医院
+T124	Person-Nominal 978 993	甄黛玉的儿子、儿媳、女儿、女婿
+T125	Person-Nominal 995 997	母亲
+R12	Family Arg1:T124 Arg2:T125	
+T126	Person-Name 978 981	甄黛玉
+*	Coreference T125 T126
+T127	Location-Nominal 1007 1009	医院
+T128	Person-Nominal 1012 1014	女儿
+T129	Person-Name 1018 1021	高梓泰
+R13	Family Arg1:T128 Arg2:T125	
+T130	Person-Nominal 1024 1028	我们兄妹
+T131	Metric 1028 1030	几岁
+T132	Person-Nominal 1031 1033	父亲
+R14	Family Arg1:T132 Arg2:T130	
+R15	Family Arg1:T132 Arg2:T125	
+T133	Person-Nominal 1039 1041	母亲
+T134	Person-Nominal 1041 1044	一个人
+T135	Person-Pronoun 1045 1047	我们
+*	Coreference T135 T130 T146 T158
+T136	Time-Implicit 1059 1061	如今
+T137	Person-Pronoun 1061 1063	我们
+T138	Person-Nominal 1073 1075	母亲
+T139	Person-Nominal 1089 1094	你这老头子
+*	Coreference T139 T129 T141
+T140	Person-Nominal 1095 1097	我妈
+*	Coreference T140 T133
+T141	Person-Pronoun 1111 1112	你
+T142	Person-Name 1124 1127	高梓泰
+T143	Thing-Nominal 1134 1160;1161 1167	所有的住院费、医药费、伙食营养费、护理费、误工费和精 神损失费等等
+T144	Person-Pronoun 1170 1171	我
+T145	Person-Nominal 1176 1179	大妹子
+T146	Person-Nominal 1180 1186	你们做子女的
+T147	Person-Name 1198 1201	高梓泰
+T148	Person-Name 1205 1208	甄黛玉
+T149	Person-Pronoun 1216 1217	她
+*	Coreference T149 T148 T163
+T150	Person-Nominal 1233 1239	帅气的高老头
+*	Coreference T150 T147 T151 T157
+T151	Person-Pronoun 1242 1243	他
+T152	Thing-Nominal 1258 1263	地上的货筐
+T153	Person-Pronoun 1290 1291	他
+T154	Person-Nominal 1295 1298	好老头
+R16	General-Special Arg1:T154 Arg2:T153	
+T155	Time-Implicit 1300 1302	这时
+T156	Person-Nominal 1305 1311	甄黛玉的儿子
+R17	Family Arg1:T156 Arg2:T149	
+R18	Family Arg1:T156 Arg2:T128	
+T157	Person-Nominal 1320 1324	您老人家
+T158	Person-Nominal 1332 1338	我们做儿女的
+T159	Thing-Nominal 1342 1346	定心丸儿
+T160	Person-Pronoun 1363 1364	我
+T161	Person-Pronoun 1365 1366	我
+T162	Person-Name 1375 1378	高梓泰
+*	Coreference T161 T162
+T163	Person-Name 1392 1396	甄大妹子
+T164	Person-Nominal 1397 1403	你们做子女的
+T165	Person-Pronoun 1406 1407	我
+T166	Person-Pronoun 1418 1419	她
+T167	Person-Name 1437 1440	甄黛玉
+T168	Person-Nominal 1441 1445	其子女们
+*	Coreference T168 T164 T175
+T169	Location-Nominal 1452 1457	喧闹的病房
+T170	Thing-Nominal 1468 1472	几双眼睛
+T171	Thing-Nominal 1475 1479	小探照灯
+T172	Person-Name 1498 1501	甄黛玉
+T173	Person-Name 1504 1507	甄黛玉
+T174	Person-Pronoun 1535 1536	我
+*	Coreference T174 T173
+T175	Person-Pronoun 1544 1546	你们
+T176	Person-Name 1556 1564	你们的高梓泰大伯

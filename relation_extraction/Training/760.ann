@@ -1,0 +1,410 @@
+T1	Time-Implicit 24 26	童年
+T2	Time-Implicit 41 44	近年来
+T3	Time-Implicit 45 47	儿时
+T4	Location-Nominal 47 49	老家
+T5	Metric 50 52	一颗
+T6	Thing-Nominal 52 55	老榆树
+T7	Person-Pronoun 59 60	我
+T8	Thing-Pronoun 84 85	他
+*	Coreference T8 T6
+T9	Thing-Nominal 93 96	老榆树
+T10	Location-Nominal 98 114	距我家窑洞门口约七八丈外的硷边缘
+T11	Location-Nominal 99 105	我家窑洞门口
+R1	Located Arg1:T9 Arg2:T10	
+T12	Location-Nominal 121 122	硷
+T13	Location-Nominal 123 126	下坡底
+T14	Location-Nominal 128 130	学校
+T15	Location-Nominal 127 135	去学校的交际路口
+T16	Person-Pronoun 137 139	我们
+T17	Thing-Pronoun 147 148	他
+T18	Thing-Pronoun 155 156	他
+T19	Thing-Nominal 160 163	迎客榆
+T20	Metric 158 160	一颗
+T21	Person-Nominal 171 174	老哨兵
+T22	Metric 169 171	一位
+T23	Thing-Nominal 176 184	老榆树的正身躯干
+R2	Part-Whole Arg1:T23 Arg2:T19	
+T24	Location-Nominal 186 188	地面
+T25	Time-Implicit 196 199	那时候
+T26	Location-Nominal 200 201	村
+T27	Person-Nominal 202 209	七八岁的小孩们
+T28	Thing-Nominal 212 214	树杈
+R3	Part-Whole Arg1:T28 Arg2:T19	
+T29	Thing-Nominal 229 231	树干
+R4	Part-Whole Arg1:T29 Arg2:T19	
+T30	Person-Nominal 242 244	大人
+T31	Time-Implicit 240 242	当时
+*	Coreference T31 T25
+T32	Thing-Nominal 258 260	分枝
+T33	Metric 256 258	四根
+R5	Part-Whole Arg1:T32 Arg2:T29	
+T34	Metric 263 265	一根
+T35	Thing-Nominal 265 267	枝干
+T36	Thing-Nominal 277 279	枝干
+T37	Thing-Nominal 321 323	枝干
+T38	Thing-Pronoun 339 340	他
+T39	Thing-Nominal 339 343	他的躯干
+*	Coreference T39 T23
+T40	Thing-Nominal 369 372	扁形洞
+T41	Metric 364 368	一尺多长
+T42	Metric 361 363	一条
+T43	Thing-Nominal 385 393	粘稠状的混浊浓液
+T44	Person-Nominal 398 400	老翁
+T45	Metric 396 398	一位
+T46	Thing-Nominal 406 412	暗褐色的树皮
+T47	Thing-Nominal 413 415	苍龙
+T48	Thing-Nominal 415 417	鳞甲
+T49	Thing-Nominal 425 427	裂纹
+T50	Person-Nominal 437 444	历经风霜的老人
+T51	Thing-Nominal 445 452	干瘪深皱的体肤
+R6	Part-Whole Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 453 455	榆树
+T53	Thing-Nominal 468 471	老榆树
+T54	Person-Nominal 479 480;481 484	我 的爷爷
+T55	Person-Nominal 485 488	叔父们
+T56	Person-Pronoun 479 480	我
+R7	Family Arg1:T54 Arg2:T56	
+R8	Family Arg1:T55 Arg2:T54	
+T57	Person-Pronoun 493 494	我
+T58	Person-Nominal 499 501	爷爷
+T59	Person-Pronoun 502 503	他
+*	Coreference T59 T58 T60
+T60	Person-Pronoun 505 507	自己
+T61	Time-Implicit 507 513	从记事时候起
+T62	Thing-Nominal 516 520	这颗榆树
+*	Coreference T62 T53 T38 T17 T9 T18 T64
+T63	Person-Pronoun 526 527	我
+T64	Thing-Pronoun 528 529	它
+T65	Thing-Nominal 544 547	老榆树
+T66	Person-Nominal 552 554	村人
+T67	Metric 558 560	一颗
+T68	Thing-Nominal 560 571	身躯矮小、不成大材的树
+T69	Person-Pronoun 572 573	我
+T70	Time-Explicit 578 583	1968年
+T71	Person-Nominal 587 590	我父亲
+R9	Family Arg1:T69 Arg2:T71	
+T72	Thing-Nominal 615 624	老榆树近三尺的躯干
+R10	Part-Whole Arg1:T72 Arg2:T65	
+T73	Thing-Pronoun 630 631	它
+T74	Metric 635 637	一颗
+T75	Thing-Nominal 637 646	堂堂七尺之躯的大树
+R11	Part-Whole Arg1:T72 Arg2:T73	
+*	Coreference T75 T73 T68 T65
+T76	Thing-Nominal 649 652	老榆树
+T77	Location-Nominal 649 659	老榆树下面不到一丈处
+T78	Thing-Nominal 663 665	碾子
+T79	Thing-Nominal 666 668	石磨
+T80	Person-Nominal 671 676	我们几家人
+T81	Thing-Nominal 677 678	米
+T82	Thing-Nominal 680 681	面
+T83	Thing-Nominal 684 686	树冠
+R12	Part-Whole Arg1:T83 Arg2:T76	
+T84	Thing-Nominal 690 696	巨大的太阳伞
+T85	Metric 688 690	一把
+*	Coreference T84 T83
+T86	Time-Implicit 697 699	夏天
+T87	Person-Nominal 700 707	推磨滚碾的人们
+T88	Thing-Nominal 708 709	阳
+T89	Time-Implicit 711 713	冬天
+T90	Thing-Nominal 714 715	沙
+T91	Time-Implicit 716 720	每逢夏日
+T92	Person-Nominal 721 731	我们硷上几家大人小孩
+T93	Time-Implicit 732 739	天天中午和晚上
+T94	Thing-Nominal 742 744	饭碗
+T95	Location-Nominal 751 753	树下
+T96	Time-Implicit 756 758	饭后
+T97	Location-Nominal 768 770	地上
+T98	Metric 772 774	一张
+T99	Thing-Nominal 774 777	烂席片
+T100	Thing-Nominal 778 781	破麻袋
+T101	Time-Implicit 790 792	常年
+T102	Location-Nominal 796 806	我们孩子们的生活乐园
+T103	Person-Nominal 796 801	我们孩子们
+T104	Person-Nominal 807 810	女人们
+T105	Location-Nominal 807 815	女人们的聊天场所
+T106	Location-Nominal 816 824	男人们的憩息帐篷
+T107	Person-Nominal 816 819	男人们
+*	Coreference T106 T105 T95 T77 T102
+T108	Time-Implicit 825 829	夏秋季节
+T109	Person-Nominal 830 831;832 834	女 人们
+T110	Location-Nominal 839 841	树下
+T111	Thing-Nominal 846 848	针线
+T112	Person-Nominal 850 853	小孩们
+T113	Location-Nominal 869 871	树上
+T114	Person-Nominal 874 877	男人们
+T115	Time-Implicit 878 885	每天工余、饭后
+T116	Time-Implicit 853 855	每天
+T117	Time-Implicit 835 837	天天
+T118	Time-Implicit 898 903	中午和晚上
+T119	Location-Nominal 904 906	树下
+T120	Thing-Nominal 911 914	老榆树
+T121	Person-Nominal 917 922	我们几家人
+T122	Thing-Nominal 917 930	我们几家人离不开的生活伙伴
+*	Coreference T122 T120 T123
+T123	Thing-Nominal 935 945	我们几家人的救命恩人
+T124	Time-Explicit 946 953;954 955	上世纪六七十年 代
+T125	Time-Implicit 956 972	每年春天，到三四月青黄不接的时候
+T126	Time-Implicit 973 976	上年度
+T127	Organization-Nominal 976 979	生产队
+T128	Thing-Nominal 982 987	有限的口粮
+T129	Thing-Nominal 992 997	山上的野菜
+T130	Time-Implicit 1003 1005	这时
+*	Coreference T130 T125
+T131	Thing-Nominal 1005 1007	榆树
+T132	Thing-Nominal 1011 1013	榆花
+R13	Located Arg1:T132 Arg2:T131	
+T133	Thing-Nominal 1017 1024	我们的主要食源
+T134	Person-Nominal 1017 1019	我们
+*	Coreference T133 T132
+T135	Person-Pronoun 1025 1027	我们
+T136	Location-Nominal 1030 1032	树上
+T137	Thing-Nominal 1034 1036	榆钱
+T138	Thing-Nominal 1048 1050	玉米
+T139	Thing-Nominal 1051 1053	高粱
+T140	Thing-Nominal 1054 1057	杂粮面
+T141	Thing-Nominal 1060 1061	锅
+T142	Thing-Nominal 1068 1072	简单调料
+T143	Person-Nominal 1078 1081	小孩们
+T144	Location-Nominal 1090 1092	树上
+T145	Thing-Nominal 1096 1098	榆钱
+T146	Metric 1094 1096	几把
+T147	Thing-Nominal 1114 1116	嫩叶
+T148	Thing-Nominal 1109 1111	榆树
+R14	Located Arg1:T147 Arg2:T148	
+T149	Thing-Nominal 1122 1123	猪
+T150	Thing-Nominal 1126 1129	老叶子
+T151	Thing-Nominal 1135 1136	羊
+T152	Time-Implicit 1138 1141	有时候
+T153	Person-Pronoun 1142 1144	我们
+T154	Thing-Nominal 1145 1152	较粗一点的树枝
+T155	Thing-Nominal 1156 1158	叶子
+T156	Thing-Nominal 1159 1160	羊
+T157	Thing-Nominal 1161 1163	树枝
+T158	Thing-Nominal 1166 1167	火
+T159	Thing-Nominal 1168 1170	树皮
+T160	Thing-Nominal 1175 1180	外面的粗皮
+R15	Part-Whole Arg1:T160 Arg2:T159	
+T161	Thing-Nominal 1183 1188	里面的细皮
+R16	Part-Whole Arg1:T161 Arg2:T159	
+T162	Thing-Nominal 1192 1194	面粉
+T163	Thing-Nominal 1204 1206	粗粮
+T164	Person-Nominal 1220 1225	我们那时候
+T165	Thing-Nominal 1235 1237	煤炭
+T166	Location-Nominal 1238 1240	山里
+T167	Thing-Nominal 1242 1244	柴草
+T168	Thing-Nominal 1245 1247	树枝
+T169	Thing-Nominal 1250 1251	饭
+T170	Thing-Nominal 1257 1258;1259 1260	燃 料
+R17	General-Special Arg1:T170 Arg2:T167	
+R18	General-Special Arg1:T170 Arg2:T168	
+T171	Time-Implicit 1261 1263	每年
+T172	Thing-Nominal 1268 1271	老榆树
+T173	Thing-Nominal 1276 1278	树枝
+R19	Part-Whole Arg1:T173 Arg2:T172	
+T174	Time-Implicit 1285 1287	冬天
+T175	Thing-Nominal 1290 1292	大风
+T176	Thing-Nominal 1289 1299	被大风吹下来的枯干枝
+T177	Thing-Nominal 1309 1311	炭火
+T178	Person-Pronoun 1306 1308	我们
+T179	Thing-Nominal 1312 1316	主要燃料
+*	Coreference T179 T176
+T180	Person-Pronoun 1318 1319;1320 1321	爷 爷
+T181	Time-Explicit 1323 1328	民国十八年
+T182	Location-Name 1329 1331	陕北
+T183	Person-Nominal 1349 1350	人
+T184	Time-Explicit 1351 1353	那时
+*	Coreference T184 T181
+T185	Thing-Nominal 1354 1357	老榆树
+T186	Thing-Nominal 1358 1360	叶子
+T187	Thing-Nominal 1361 1364	嫩树枝
+R20	Part-Whole Arg1:T186 Arg2:T185	
+R21	Part-Whole Arg1:T187 Arg2:T185	
+T188	Thing-Nominal 1367 1372	我们村里人
+T189	Thing-Pronoun 1377 1378	他
+*	Coreference T189 T185
+T190	Person-Nominal 1382 1388	我家几十口人
+T191	Person-Nominal 1391 1393	父亲
+T192	Person-Pronoun 1398 1399	我
+T193	Time-Explicit 1401 1411	建国后的三年困难时期
+T194	Thing-Nominal 1414 1417	老榆树
+T195	Thing-Nominal 1419 1421	榆钱
+T196	Thing-Nominal 1422 1424	叶子
+R22	Part-Whole Arg1:T195 Arg2:T194	
+R23	Part-Whole Arg1:T196 Arg2:T194	
+T197	Person-Nominal 1427 1430	我们家
+*	Coreference T197 T190 T202 T206
+T198	Thing-Nominal 1437 1441;1442 1444	赤裸裸的 树干
+R24	Part-Whole Arg1:T198 Arg2:T194	
+T199	Time-Explicit 1446 1455	那个饥馑困苦的岁月
+*	Coreference T199 T193
+T200	Person-Nominal 1464 1470	我们家几代人
+T201	Thing-Nominal 1457 1460	老榆树
+T202	Person-Nominal 1476 1481	我们全家人
+T203	Thing-Nominal 1482 1484	家畜
+T204	Thing-Nominal 1490 1492	食料
+T205	Thing-Nominal 1493 1495	燃料
+T206	Person-Nominal 1497 1500	我们家
+T207	Thing-Nominal 1504 1509	救命大恩树
+*	Coreference T207 T201
+T208	Metric 1501 1502;1503 1504	一 颗
+T209	Thing-Nominal 1512 1515	老榆树
+T210	Person-Pronoun 1517 1518	我
+T211	Time-Implicit 1518 1521	小时候
+T212	Thing-Name 1517 1528	我小时候最亲密的老朋友
+T213	Person-Pronoun 1531 1532	我
+T214	Person-Nominal 1535 1543	慈祥可爱的老爷爷
+T215	Metric 1533 1535	一位
+T216	Person-Pronoun 1544 1545	我
+T217	Thing-Pronoun 1551 1552	它
+T218	Thing-Nominal 1553 1554	身
+R25	Part-Whole Arg1:T218 Arg2:T217	
+T219	Time-Implicit 1564 1568	一年四季
+T220	Person-Pronoun 1569 1570	我
+T221	Thing-Pronoun 1577 1578	它
+T222	Thing-Nominal 1578 1583	中间的树杈
+R26	Part-Whole Arg1:T222 Arg2:T221	
+T223	Thing-Nominal 1593 1595	树枝
+T224	Thing-Pronoun 1589 1590	它
+R27	Part-Whole Arg1:T223 Arg2:T224	
+T225	Metric 1591 1593	几根
+T226	Thing-Nominal 1599 1600	杈
+*	Coreference T226 T222
+T227	Thing-Pronoun 1606 1607	它
+T228	Thing-Nominal 1613 1614	枝
+*	Coreference T228 T223
+T229	Thing-Pronoun 1620 1621	它
+T230	Thing-Nominal 1622 1624	肩膀
+T231	Thing-Nominal 1625 1627	臂腕
+R28	Part-Whole Arg1:T230 Arg2:T229	
+R29	Part-Whole Arg1:T231 Arg2:T229	
+T232	Person-Pronoun 1629 1630	我
+T233	Time-Implicit 1630 1633;1634 1639	童年的 大部分时光
+T234	Thing-Nominal 1641 1642	它
+T235	Thing-Pronoun 1649 1650	它
+T236	Person-Pronoun 1652 1653	我
+T237	Time-Implicit 1660 1666	我快乐的时候
+T238	Person-Nominal 1670 1671	朋
+T239	Person-Nominal 1672 1673	友
+T240	Person-Nominal 1678 1681	小朋友
+T241	Metric 1676 1678	几个
+T242	Location-Nominal 1684 1686	树上
+T243	Person-Nominal 1693 1694;1695 1697	一 个人
+T244	Thing-Nominal 1699 1701	树杈
+T245	Thing-Nominal 1705 1707	树枝
+T246	Time-Implicit 1716 1727	我忧闷或受到委屈的时候
+T247	Person-Nominal 1728 1731	一个人
+T248	Thing-Nominal 1769 1772	老榆树
+T249	Person-Pronoun 1775 1776	我
+T250	Person-Nominal 1781 1801	少言寡语，惯于把情感和话语深埋在心底的人
+T251	Metric 1779 1781	一个
+*	Coreference T250 T249 T253
+T252	Person-Nominal 1806 1809	任何人
+T253	Person-Nominal 1823 1829	孤独寡言孩子
+T254	Metric 1821 1823	一个
+T255	Time-Implicit 1834 1843	在那个童年的岁月里
+T256	Thing-Name 1846 1853	我的榆树老爷爷
+*	Coreference T256 T248 T212 T209 T217 T221 T224 T227 T229 T234 T235 T259 T260 T267
+T257	Person-Pronoun 1854 1855	我
+T258	Person-Pronoun 1858 1860	自己
+*	Coreference T258 T257
+T259	Thing-Pronoun 1869 1870	他
+T260	Thing-Pronoun 1872 1873	他
+T261	Person-Pronoun 1882 1883	我
+T262	Person-Pronoun 1889 1890	我
+T263	Person-Pronoun 1907 1908	我
+T264	Person-Pronoun 1909 1910	我
+T265	Person-Nominal 1920 1922	别人
+T266	Time-Implicit 1909 1925	我遇到不顺心的事或受到别人欺负后
+T267	Thing-Pronoun 1937 1938	他
+T268	Thing-Nominal 1945 1947	斧头
+T269	Thing-Nominal 1949 1950	身
+R30	Part-Whole Arg1:T269 Arg2:T267	
+T270	Thing-Nominal 1957 1959	小刀
+T271	Person-Pronoun 1967 1969	自己
+*	Coreference T271 T263 T264
+T272	Thing-Name 1983 1988	榆树老爷爷
+*	Coreference T272 T269 T273
+T273	Thing-Pronoun 1992 1993	它
+T274	Person-Pronoun 2029 2030	我
+T275	Time-Implicit 2029 2035	我懵懂的童年
+T276	Person-Nominal 2076 2078	盘古
+T277	Time-Implicit 2075 2084	自盘古开天辟地以来
+T278	Person-Pronoun 2095 2096	我
+T279	Person-Pronoun 2109 2111	自己
+*	Coreference T279 T278
+T280	Person-Nominal 2108 2118	比自己大两三岁的女孩
+T281	Person-Nominal 2127 2129	世人
+T282	Person-Pronoun 2133 2134	我
+T283	Person-Pronoun 2137 2138	我
+T284	Person-Pronoun 2141 2142	我
+T285	Time-Implicit 2144 2146	那时
+T286	Person-Pronoun 2150 2151	我
+T287	Thing-Nominal 2158 2160	孤舟
+T288	Person-Pronoun 2188 2189	我
+T289	Person-Pronoun 2196 2197	我
+T290	Thing-Nominal 2205 2207	蜘蛛
+T291	Metric 2202 2205	上千只
+T292	Thing-Pronoun 2208 2210	它们
+*	Coreference T292 T290
+T293	Thing-Nominal 2238 2240	游丝
+T294	Person-Nominal 2291 2294	任何人
+T295	Person-Pronoun 2276 2277	我
+T296	Time-Implicit 2298 2310	一个风和日丽的静静的中午
+T297	Person-Nominal 2311 2315	我一个人
+*	Coreference T297 T289
+T298	Thing-Name 2319 2324	榆树老爷爷
+T299	Thing-Pronoun 2347 2348	他
+*	Coreference T299 T298
+T300	Person-Pronoun 2349 2350	我
+T301	Thing-Pronoun 2354 2355	他
+T302	Person-Pronoun 2358 2359	我
+T303	Person-Pronoun 2367 2368	我
+T304	Thing-Pronoun 2374 2375	他
+T305	Person-Nominal 2378 2381	任何人
+T306	Thing-Nominal 2387 2393;2394 2395	树上过夜的小 鸟
+T307	Thing-Nominal 2401 2408	头顶路过的月亮
+T308	Person-Pronoun 2410 2411	我
+T309	Thing-Nominal 2415 2418	老榆树
+T310	Person-Pronoun 2421 2422	我
+T311	Person-Pronoun 2444 2445	我
+T312	Thing-Nominal 2453 2454;2455 2460	削 铅笔的小刀
+T313	Thing-Nominal 2455 2457	铅笔
+T314	Thing-Pronoun 2463 2464	他
+T315	Thing-Nominal 2464 2467	主枝干
+R31	Part-Whole Arg1:T315 Arg2:T314	
+T316	Location-Nominal 2463 2471	他主枝干的最高处
+T317	Location-Nominal 2473 2479	最隐蔽的地方
+T318	Thing-Nominal 2505 2513	榆树最高贵的部位
+T319	Thing-Nominal 2516 2523	榆树芳香的年轮
+*	Coreference T318 T319
+T320	Thing-Nominal 2559 2562	纪念碑
+T321	Thing-Nominal 2551 2553	榆树
+*	Coreference T320 T321 T322
+T322	Thing-Nominal 2565 2568	老榆树
+T323	Thing-Nominal 2579 2581	月亮
+T324	Thing-Nominal 2591 2594	大理石
+T325	Person-Pronoun 2606 2607	我
+T326	Thing-Nominal 2618 2621	老榆树
+T327	Metric 2616 2618	一颗
+T328	Person-Pronoun 2626 2628	自己
+*	Coreference T328 T325
+T329	Person-Pronoun 2640 2642	我们
+T330	Time-Implicit 2640 2652	我们似乎还不懂生命的时候
+T331	Time-Implicit 2682 2685	那时候
+*	Coreference T331 T330
+T332	Person-Pronoun 2696 2698	我们
+T333	Location-Nominal 2690 2695	世界的低处
+T334	Person-Pronoun 2686 2688	我们
+T335	Person-Pronoun 2713 2715	自己
+*	Coreference T335 T332
+T336	Thing-Nominal 2722 2723	心
+T337	Thing-Nominal 2715 2717	露珠
+R32	Part-Whole Arg1:T336 Arg2:T335	
+T338	Thing-Pronoun 2724 2725	它
+*	Coreference T338 T336 T340
+T339	Thing-Nominal 2764 2766	器皿
+T340	Thing-Pronoun 2768 2769	它
+T341	Thing-Nominal 2796 2799	老榆树
+T342	Person-Pronoun 2800 2801	我
+T343	Person-Pronoun 2820 2821	我
+T344	Person-Pronoun 2835 2836	我

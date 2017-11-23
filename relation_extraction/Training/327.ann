@@ -1,0 +1,195 @@
+T1	Time-Explicit 0 5	1993年
+T2	Person-Nominal 6 8	笔者
+T3	Person-Name 11 24	年过半百的陈团成、李妹夫妻
+T4	Person-Name 16 19	陈团成
+T5	Person-Name 20 22	李妹
+R1	Family Arg1:T4 Arg2:T5	
+T6	Person-Pronoun 25 27	他们
+*	Coreference T6 T3
+T7	Person-Nominal 32 34	子女
+R2	Family Arg1:T7 Arg2:T6	
+T8	Time-Implicit 42 46	连续七年
+T9	Location-Name 47 53	城关溪泛舟河
+T10	Location-Nominal 56 58	河底
+R3	Part-Whole Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 59 60	沙
+T12	Thing-Nominal 62 66	自制的船
+R4	Create Arg1:T6 Arg2:T12	
+T13	Location-Nominal 69 71	船上
+T14	Location-Nominal 73 75	岸边
+T15	Thing-Nominal 80 83	拖拉机
+T16	Person-Pronoun 89 91	他们
+T17	Person-Name 116 119	陈团成
+T18	Location-Nominal 122 129	一个姓郭的家庭
+T19	Time-Implicit 130 133	3岁时
+T20	Person-Nominal 133 135	母亲
+R5	Family Arg1:T20 Arg2:T17	
+T21	Person-Pronoun 140 141	他
+*	Coreference T21 T17
+T22	Organization-Nominal 143 150	一户姓陈的人家
+T23	Time-Implicit 153 155	从小
+T24	Metric 160 164	27岁时
+T25	Organization-Nominal 168 171	李妹家
+T26	Person-Pronoun 174 175	他
+T27	Person-Nominal 178 184	自己的小儿子
+R6	Family Arg1:T27 Arg2:T26	
+T28	Person-Pronoun 178 180	自己
+*	Coreference T28 T26
+T29	Person-Name 187 190	李陈郭
+*	Coreference T29 T27
+T30	Person-Name 168 170	李妹
+R7	Family Arg1:T27 Arg2:T30	
+T31	Location-Nominal 225 231	省定的贫困乡
+T32	Person-Nominal 232 235	全家人
+T33	Person-Name 193 196	陈团成
+T34	Location-Name 199 222	福建省德化县盖德乡(2012年撤乡设镇)盖德村
+R8	General-Special Arg1:T31 Arg2:T34	
+T35	Time-Explicit 244 251	上世70年代初
+R9	Part-Whole Arg1:T33 Arg2:T32	
+R10	Part-Whole Arg1:T28 Arg2:T32	
+R11	Part-Whole Arg1:T30 Arg2:T32	
+R12	Part-Whole Arg1:T7 Arg2:T32	
+T36	Thing-Nominal 252 253;254 258	一 阵强台风
+T37	Thing-Nominal 261 266	他家的房子
+R13	Ownership Arg1:T32 Arg2:T37	
+T38	Person-Nominal 267 268	人
+T39	Person-Nominal 272 276	举家老小
+*	Coreference T39 T32 T42 T43
+T40	Organization-Nominal 285 288	生产队
+T41	Location-Nominal 289 292	旧仓库
+T42	Person-Pronoun 294 296	他们
+T43	Person-Nominal 303 306	全家人
+T44	Location-Nominal 310 314;315 320	一个遮风 挡雨的地方
+*	Coreference T44 T41
+T45	Time-Implicit 321 323	之后
+T46	Person-Pronoun 324 326	他们
+T47	Person-Nominal 336 339	一家人
+T48	Time-Implicit 344 346	何时
+T49	Thing-Nominal 349 352	新房子
+T50	Time-Explicit 354 359	1992年
+T51	Person-Name 360 366	三女儿郭斯贴
+R14	Part-Whole Arg1:T51 Arg2:T47	
+R15	Family Arg1:T51 Arg2:T33	
+R16	Family Arg1:T51 Arg2:T30	
+T52	Organization-Name 375 381	德化第一中学
+T53	Person-Nominal 384 388	每个父母
+T54	Person-Name 394 400	陈团成和李妹
+R17	General-Special Arg1:T53 Arg2:T54	
+T55	Time-Implicit 405 407	此前
+T56	Person-Nominal 415 418	大女儿
+T57	Person-Nominal 426 429	二女儿
+R18	Part-Whole Arg1:T57 Arg2:T47	
+R19	Part-Whole Arg1:T47 Arg2:T56	
+T58	Person-Nominal 441 444	三女儿
+T59	Organization-Nominal 445 447	县城
+T60	Thing-Nominal 451 458	一笔不少的学费
+T61	Person-Name 469 472	陈团成
+T62	Person-Pronoun 485 486	他
+*	Coreference T62 T61
+T63	Thing-Nominal 494 495	沙
+T64	Person-Nominal 501 503	老婆
+R20	Family Arg1:T64 Arg2:T61	
+*	Coreference T64 T30
+T65	Metric 508 512	10公里
+T66	Location-Nominal 514 516	城关
+T67	Location-Nominal 527 529	城关
+T68	Time-Implicit 525 530	刚到城关时
+T69	Person-Nominal 541 544	夫妻俩
+R21	Part-Whole Arg1:T62 Arg2:T69	
+R22	Part-Whole Arg1:T64 Arg2:T69	
+T70	Time-Implicit 555 557	白天
+T71	Time-Implicit 563 565	晚上
+T72	Time-Implicit 570 572	冬天
+T73	Location-Nominal 567 569	桥孔
+T74	Location-Nominal 551 553	桥孔
+T75	Person-Pronoun 581 583	他们
+T76	Thing-Nominal 572 574	风雨
+T77	Thing-Nominal 547 548	家
+R23	Located Arg1:T77 Arg2:T74	
+T78	Location-Nominal 591 593	家里
+T79	Time-Implicit 601 609	两个多月后的一天
+T80	Metric 601 605	两个多月
+T81	Thing-Nominal 610 612	洪水
+T82	Person-Pronoun 613 615	他们
+T83	Location-Nominal 617 619	桥孔
+T84	Thing-Nominal 622 624	家当
+R24	Ownership Arg1:T82 Arg2:T84	
+T85	Time-Implicit 630 632	后来
+T86	Person-Name 633 636	陈团成
+T87	Location-Nominal 638 640	岸边
+T88	Thing-Nominal 642 646	简陋草房
+R25	Located Arg1:T88 Arg2:T87	
+T89	Thing-Nominal 647 651	一张席子
+T90	Thing-Nominal 657 658	床
+T91	Time-Implicit 660 664	半年之后
+T93	Thing-Nominal 678 683	地上的草席
+*	Coreference T93 T89
+T94	Thing-Nominal 690 692	青草
+T95	Person-Pronoun 696 698	他们
+T92	Person-Nominal 665 668	夫妻俩
+*	Coreference T95 T92 T117
+T96	Person-Name 706 709	陈团成
+T97	Thing-Nominal 711 713	铁桶
+R26	Use Arg1:T96 Arg2:T97	
+T98	Abstract 714 716	浮力
+T99	Location-Nominal 720 724	岸边水上
+T100	Thing-Nominal 726 730	简陋木屋
+R27	Create Arg1:T96 Arg2:T100	
+R28	Create Arg1:T86 Arg2:T88	
+T101	Thing-Nominal 734 738	水上人家
+*	Coreference T100 T101
+T102	Time-Implicit 740 748	停止捞沙的日子里
+T103	Person-Name 749 752	陈团成
+T104	Person-Name 756 758	李妹
+T105	Time-Implicit 759 761	天天
+T106	Location-Nominal 762 764	城里
+T107	Person-Nominal 765 767	人家
+T108	Thing-Nominal 768 770	房子
+T109	Person-Pronoun 777 779	他们
+T110	Person-Pronoun 789 791	他们
+T111	Time-Implicit 813 820	20年后的今天
+T112	Person-Nominal 821 824	三女儿
+R29	Family Arg1:T112 Arg2:T92	
+T113	Time-Explicit 824 829	2002年
+T114	Organization-Name 829 839	北京师范大学外文学院
+T115	Organization-Name 844 851	北京丰台区政府
+T116	Time-Implicit 842 844	现在
+T117	Person-Nominal 854 856	儿子
+T118	Time-Explicit 856 859;860 862	201 3年
+T119	Organization-Name 862 868	北京化工大学
+T120	Time-Explicit 874 879	2002年
+T121	Location-Nominal 879 881	村里
+T122	Location-Nominal 881 883	新村
+T123	Thing-Nominal 886 893	生产队的旧仓库
+T124	Person-Nominal 898 901	建筑工
+T125	Person-Name 902 905	陈团成
+R30	General-Special Arg1:T124 Arg2:T125	
+T126	Metric 910 912	3年
+T127	Person-Pronoun 915 917	自己
+*	Coreference T127 T125 T147 T148 T149
+T128	Abstract 928 934	钢筋水泥结构
+T129	Metric 934 937	五层半
+T130	Metric 938 945	600多平方米
+T131	Thing-Nominal 945 947	楼房
+T132	Thing-Nominal 948 950	房子
+T133	Time-Implicit 952 954	每月
+T134	Metric 958 963	1000元
+T135	Thing-Nominal 970 972	房子
+T136	Person-Nominal 975 978	夫妻俩
+T137	Time-Implicit 978 980	去年
+T138	Location-Name 986 988	北京
+T139	Person-Nominal 992 994	农民
+T140	Location-Name 998 1000	北京
+T141	Person-Name 1008 1014	习近平总书记
+T142	Person-Nominal 1016 1024	全国劳动模范代表
+T143	Abstract 1032 1035	中国梦
+T144	Organization-Nominal 1036 1038	国家
+T145	Person-Nominal 1040 1042	民族
+T146	Person-Nominal 1046 1052	每一个中国人
+R31	Part-Whole Arg1:T146 Arg2:T145	
+T147	Person-Pronoun 1057 1067	年届七旬乐观豁达的他
+T148	Person-Pronoun 1085 1086	他
+T149	Person-Nominal 1088 1098	县老年大学山歌班班长
+T150	Person-Pronoun 1099 1100	他
+T151	Person-Nominal 1110 1114	8张碟片
+T152	Person-Nominal 1115 1118	夫妻俩

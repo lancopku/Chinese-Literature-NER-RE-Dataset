@@ -1,0 +1,198 @@
+T1	Location-Name 0 3	燕山街
+T2	Location-Nominal 9 11	街道
+*	Coreference T1 T2
+T3	Person-Nominal 27 29	有人
+T4	Thing-Nominal 31 32	糖
+T5	Thing-Nominal 32 33	果
+T6	Thing-Nominal 33 34	瓜
+T7	Thing-Nominal 34 35	菜
+R1	Ownership Arg1:T3 Arg2:T4	
+R2	Ownership Arg1:T3 Arg2:T5	
+R3	Ownership Arg1:T3 Arg2:T6	
+R4	Ownership Arg1:T3 Arg2:T7	
+T8	Person-Nominal 38 40	有人
+T9	Thing-Nominal 42 44	古董
+T10	Thing-Nominal 44 46	书籍
+R5	Ownership Arg1:T8 Arg2:T9	
+R6	Ownership Arg1:T8 Arg2:T10	
+T11	Person-Pronoun 51 52	我
+T12	Location-Nominal 53 55	书斋
+T13	Thing-Nominal 70 72	大脑
+R7	Part-Whole Arg1:T13 Arg2:T11	
+T14	Thing-Nominal 81 82	手
+T15	Thing-Nominal 83 84	脚
+R8	Part-Whole Arg1:T14 Arg2:T11	
+R9	Part-Whole Arg1:T15 Arg2:T11	
+T16	Location-Nominal 90 92	小街
+T17	Person-Nominal 99 101	老翁
+T18	Thing-Nominal 107 109	地毯
+T19	Thing-Nominal 118 120	古董
+T20	Thing-Nominal 123 124	铜
+T21	Thing-Nominal 127 131	千手观音
+R10	Part-Whole Arg1:T20 Arg2:T21	
+T22	Thing-Nominal 145 149	大日如来
+T23	Thing-Nominal 158 162	武将关公
+T24	Thing-Nominal 153 154	刀
+T25	Person-Pronoun 165 166	我
+T26	Person-Nominal 188 192	如来佛祖
+T27	Person-Pronoun 196 197	他
+*	Coreference T27 T26 T29
+T28	Person-Nominal 198 201	属羊人
+T29	Person-Nominal 202 205	保护神
+T30	Person-Nominal 209 213	千手观音
+T31	Person-Pronoun 236 237	我
+T32	Person-Pronoun 250 251	我
+R11	General-Special Arg1:T21 Arg2:T19	
+R12	General-Special Arg1:T22 Arg2:T19	
+R13	General-Special Arg1:T23 Arg2:T19	
+R14	Located Arg1:T19 Arg2:T18	
+R15	Ownership Arg1:T17 Arg2:T19	
+R16	Ownership Arg1:T17 Arg2:T18	
+T33	Thing-Nominal 259 263	千手观音
+T34	Person-Pronoun 264 265	我
+T35	Thing-Nominal 268 269	宝
+*	Coreference T35 T33
+T36	Thing-Nominal 272 276	两个宝物
+T37	Person-Pronoun 282 283	我
+T38	Thing-Nominal 284 286	书桌
+R17	Located Arg1:T36 Arg2:T38	
+R18	Ownership Arg1:T37 Arg2:T38	
+R19	Ownership Arg1:T37 Arg2:T36	
+T39	Thing-Nominal 289 290	书
+T40	Person-Pronoun 339 340	我
+T41	Person-Nominal 342 343	佛
+T42	Person-Nominal 349 353	大日如来
+T43	Person-Nominal 354 355;356 358	观 士音
+T44	Person-Pronoun 360 361	我
+T45	Thing-Nominal 382 384	古物
+T46	Person-Pronoun 386 387	我
+T47	Thing-Nominal 393 395	活物
+*	Coreference T45 T47 T48 T51
+T48	Thing-Pronoun 400 402	他们
+T49	Person-Pronoun 403 404	我
+T50	Person-Pronoun 416 417	我
+T51	Thing-Pronoun 423 425	他们
+T52	Time-Implicit 432 435	数年后
+T53	Person-Pronoun 436 437	我
+T54	Location-Nominal 438 440	市镇
+T55	Location-Nominal 442 444	省城
+T56	Thing-Nominal 447 449	旧书
+T57	Thing-Nominal 449 451	废纸
+T58	Thing-Nominal 452 453	镡
+T59	Thing-Nominal 454 455	罐
+R20	Ownership Arg1:T53 Arg2:T56	
+R21	Ownership Arg1:T53 Arg2:T57	
+R22	Ownership Arg1:T53 Arg2:T58	
+R23	Ownership Arg1:T53 Arg2:T59	
+T60	Thing-Nominal 463 465	书案
+T61	Thing-Nominal 467 471	大日如来
+T62	Thing-Nominal 472 476	千手观音
+R24	Located Arg1:T60 Arg2:T61	
+R25	Located Arg1:T62 Arg2:T60	
+T63	Thing-Pronoun 491 492;493 494	他 们
+T64	Person-Pronoun 497 498	我
+T65	Thing-Pronoun 524 526	他们
+T66	Person-Pronoun 529 530	我
+T67	Person-Pronoun 531 532	我
+T68	Thing-Pronoun 536 538	他们
+*	Coreference T68 T65 T63
+T69	Person-Nominal 551 553	伴侣
+T70	Person-Pronoun 566 567	我
+T71	Thing-Pronoun 572 574	他们
+T72	Thing-Pronoun 584 586	他们
+T73	Thing-Nominal 598 602	千手观音
+T74	Thing-Nominal 624 626;627 629	大日 如来
+T75	Thing-Pronoun 650 652	他们
+T76	Thing-Nominal 654 655	案
+R26	Located Arg1:T75 Arg2:T76	
+T77	Thing-Nominal 662 664	镜子
+T78	Person-Pronoun 668 669	我
+T79	Person-Pronoun 677 678	我
+T80	Metric 673 675	一日
+T81	Person-Pronoun 686 687	我
+T82	Person-Pronoun 706 707	我
+T83	Person-Pronoun 716 717	我
+T84	Metric 723 726	几十年
+T85	Thing-Nominal 750 751	书
+R27	Create Arg1:T83 Arg2:T85	
+T86	Thing-Pronoun 764 766	他们
+T87	Person-Pronoun 769 770	我
+T88	Person-Pronoun 774 775	我
+T89	Person-Pronoun 778 779	我
+T90	Thing-Pronoun 782 784	他们
+T91	Thing-Pronoun 788 790	他们
+T92	Thing-Pronoun 792 794	他们
+T93	Person-Pronoun 803 804	我
+T94	Thing-Pronoun 816 818	他们
+T95	Person-Pronoun 827 828	我
+T96	Thing-Pronoun 838 840	他们
+T97	Person-Nominal 820 822	精灵
+T98	Person-Nominal 832 834	精灵
+T99	Person-Pronoun 855 856	我
+T100	Time-Implicit 858 862	古稀之年
+T101	Person-Pronoun 863 864	我
+T102	Location-Nominal 865 867	书屋
+R28	Ownership Arg1:T101 Arg2:T102	
+T103	Thing-Nominal 873 875	书籍
+R29	Located Arg1:T103 Arg2:T102	
+R30	Ownership Arg1:T101 Arg2:T103	
+T104	Thing-Nominal 881 885	千手观音
+T105	Person-Pronoun 876 877	我
+T106	Thing-Nominal 888 892	大日如来
+T107	Time-Implicit 903 905	一天
+T108	Person-Nominal 906 910	我的老师
+T109	Person-Pronoun 911 912	我
+R31	Social Arg1:T108 Arg2:T109	
+T110	Person-Nominal 928 929	人
+T111	Person-Pronoun 945 946	我
+T112	Person-Pronoun 953 954	我
+T113	Person-Pronoun 958 959	我
+T114	Thing-Nominal 979 980	书
+T115	Thing-Nominal 986 988	镜子
+R32	Create Arg1:T113 Arg2:T114	
+T116	Time-Implicit 1000 1002	一天
+T117	Person-Nominal 1003 1007	一位友人
+T118	Location-Nominal 1008 1010	我家
+T119	Person-Pronoun 1015 1016	我
+T120	Thing-Nominal 1020 1024	千手观音
+T121	Thing-Nominal 1027 1031	大日如来
+T122	Thing-Nominal 1016 1017	案
+R33	Located Arg1:T120 Arg2:T122	
+R34	Located Arg1:T121 Arg2:T122	
+R35	Located Arg1:T122 Arg2:T118	
+R36	Social Arg1:T117 Arg2:T119	
+T123	Person-Pronoun 1033 1034	我
+T124	Thing-Nominal 1061 1063	宝物
+T125	Thing-Nominal 1066 1068	宝物
+T126	Person-Pronoun 1077 1078	我
+T127	Person-Pronoun 1085 1086	你
+*	Coreference T127 T117 T142 T147
+R37	General-Special Arg1:T120 Arg2:T124	
+R38	General-Special Arg1:T121 Arg2:T124	
+T128	Thing-Nominal 1045 1047	作品
+R39	General-Special Arg1:T128 Arg2:T124	
+R40	Create Arg1:T119 Arg2:T128	
+T129	Person-Name 1099 1102	凡・高
+T130	Thing-Nominal 1103 1104	画
+T131	Person-Name 1105 1108	黄宾虹
+T132	Thing-Nominal 1109 1110	画
+T133	Person-Name 1111 1114	王憨山
+T134	Thing-Nominal 1115 1116	画
+R41	Create Arg1:T129 Arg2:T130	
+R42	Create Arg1:T131 Arg2:T132	
+R43	Create Arg1:T133 Arg2:T134	
+T135	Person-Nominal 1128 1129	人
+T136	Thing-Nominal 1139 1141	古物
+T137	Thing-Nominal 1148 1150	作品
+T138	Time-Explicit 1153 1158	春秋战国时
+T139	Thing-Nominal 1160 1162	文物
+T140	Person-Name 1167 1170	王羲之
+T141	Thing-Nominal 1171 1173	手迹
+T142	Person-Pronoun 1192 1193	他
+T143	Person-Pronoun 1197 1198	我
+T144	Thing-Nominal 1206 1208	宝物
+T145	Person-Pronoun 1210 1211	我
+T146	Thing-Nominal 1215 1217	长廊
+T147	Person-Nominal 1226 1228	友人
+T148	Person-Pronoun 1232 1233	我
+R44	Social Arg1:T147 Arg2:T148	

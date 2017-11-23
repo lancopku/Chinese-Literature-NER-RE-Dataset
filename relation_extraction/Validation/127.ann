@@ -1,0 +1,56 @@
+T1	Time-Implicit 0 2	夏天
+T2	Time-Implicit 3 10	生命疯长的季节
+T3	Person-Nominal 11 13	母亲
+T4	Location-Nominal 14 18	农家院里
+T5	Thing-Nominal 20 27	各种夏天的蔬菜
+R1	Located Arg1:T5 Arg2:T4	
+T6	Thing-Pronoun 37 39	它们
+*	Coreference T6 T5
+T7	Thing-Nominal 53 56	身段儿
+R2	Part-Whole Arg1:T7 Arg2:T5	
+T8	Time-Implicit 70 72	早上
+T9	Thing-Nominal 74 77	花骨朵
+T10	Time-Implicit 91 94	;昨天
+T11	Metric 97 99	一寸
+T12	Time-Implicit 102 104	今天
+T13	Location-Nominal 118 125	东西南三面院墙
+T14	Location-Nominal 115 118	农家院
+R3	Part-Whole Arg1:T13 Arg2:T14	
+T15	Person-Nominal 128 130	母亲
+T16	Thing-Nominal 133 135	豆荚
+R4	Located Arg1:T16 Arg2:T13	
+T17	Thing-Nominal 136 144	那些豆荚的秧和叶
+T18	Thing-Nominal 138 140	豆荚
+R5	Part-Whole Arg1:T17 Arg2:T18	
+T19	Thing-Pronoun 160 161	你
+T20	Thing-Pronoun 162 163	我
+T21	Thing-Pronoun 163 164	我
+T22	Thing-Pronoun 165 166	你
+T23	Thing-Pronoun 167 168	你
+T24	Thing-Pronoun 169 170	我
+T25	Thing-Pronoun 170 171	我
+T26	Thing-Pronoun 172 173	你
+T27	Thing-Pronoun 174 175	你
+T28	Thing-Pronoun 178 179	我
+T29	Thing-Pronoun 179 180	我
+T30	Thing-Pronoun 182 183	你
+T31	Location-Nominal 194 201	院子的大门楼子
+T32	Thing-Pronoun 202 204	它们
+*	Coreference T32 T17
+R6	Located Arg1:T32 Arg2:T31	
+T33	Location-Nominal 215 217	上面
+T34	Thing-Nominal 225 230	整个门楼子
+T35	Thing-Pronoun 233 235	它们
+T36	Location-Nominal 237 239	领地
+T37	Thing-Nominal 244 246	豆秧
+T38	Location-Nominal 249 255	墙外的胡同里
+R7	Located Arg1:T37 Arg2:T38	
+T39	Person-Nominal 258 268	每一个走近农家院的人
+T40	Thing-Nominal 276 279	满院墙
+T41	Person-Nominal 292 295	这家人
+T42	Thing-Nominal 305 308	一粒栗
+T43	Thing-Nominal 311 314	万颗籽
+T44	Thing-Nominal 320 324	一面院墙
+T45	Thing-Nominal 334 336	院墙
+T46	Location-Pronoun 341 343	这里
+T47	Location-Nominal 349 353	这户人家

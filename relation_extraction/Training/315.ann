@@ -1,0 +1,225 @@
+T1	Person-Pronoun 1 2	我
+T2	Thing-Nominal 4 13	一座座翠如碧玉山峰
+T3	Thing-Nominal 14 27	一条条穿越城乡的绿莹莹河水
+T4	Thing-Nominal 28 43	一座座绿树与绿花相拥的城镇乡村
+T5	Metric 49 54	三十多年前
+T6	Person-Name 54 59	邓小平同志
+T7	Location-Name 62 65	峨眉山
+T8	Organization-Name 73 79	故乡峨眉山市
+T9	Organization-Nominal 81 85	四川西南
+R1	Part-Whole Arg1:T8 Arg2:T9	
+T10	Metric 89 97	1170平方公里
+T11	Metric 104 107	75%
+T12	Location-Name 121 123	峨眉
+*	Coreference T12 T8 T7
+T13	Location-Nominal 134 137	市境内
+T14	Thing-Nominal 137 139	山峦
+T15	Thing-Nominal 142 144	河流
+T16	Thing-Nominal 149 153	茂林修竹
+T17	Thing-Nominal 154 158	异草奇花
+T18	Thing-Nominal 174 181	丰富的森林资源
+T19	Physical 186 193	良好的生态环境
+T20	Person-Nominal 197 204	世世代代峨眉人
+T21	Thing-Nominal 207 216	取之不尽的木材资源
+R2	Use Arg1:T20 Arg2:T21	
+T22	Organization-Nominal 219 221	社会
+T23	Thing-Nominal 224 233	极其丰富的物质财富
+T24	Time-Explicit 243 251	上世纪五十年代初
+T25	Location-Nominal 251 253	全市
+*	Coreference T25 T13
+T26	Metric 258 260	两次
+T27	Time-Implicit 268 275	52年至53年
+T28	Thing-Name 278 282	成渝铁路
+T29	Location-Name 283 285	峨眉
+R3	Near Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 286 287	树
+T31	Thing-Nominal 288 290	枕木
+R4	Located Arg1:T30 Arg2:T29	
+R5	Located Arg1:T31 Arg2:T28	
+T32	Metric 291 295	两年时间
+T33	Thing-Nominal 297 298	树
+T34	Metric 298 305	40多万立方米
+T35	Thing-Nominal 310 314	原始森林
+T36	Time-Explicit 317 322	1958年
+T37	Person-Nominal 322 324	全民
+T38	Thing-Nominal 330 331	树
+T39	Thing-Nominal 332 334	木炭
+T40	Metric 335 337	两年
+T41	Thing-Nominal 338 339	树
+T42	Metric 339 342	百万株
+T43	Time-Explicit 345 355	六十年代“文革”时期
+T44	Abstract 358 367	“以粮为纲”的口号
+T45	Location-Nominal 369 373	不少地方
+T46	Thing-Nominal 374 375	林
+T47	Thing-Nominal 376 377	荒
+T48	Thing-Nominal 378 379	地
+T49	Location-Nominal 383 385	山区
+T50	Person-Nominal 383 387	山区农民
+T51	Thing-Nominal 396 397	树
+T52	Thing-Nominal 398 399	钱
+T53	Thing-Nominal 406 408	森林
+T54	Thing-Nominal 418 424	意盎然的山峰
+T55	Thing-Nominal 429 433	荒山秃岭
+T56	Time-Implicit 435 439	七十年代
+T57	Location-Nominal 439 441	全市
+T58	Abstract 441 446	森林覆盖率
+T59	Metric 448 451	15%
+T60	Person-Nominal 457 458	人
+T61	Location-Name 462 464	峨眉
+T62	Thing-Nominal 472 475	癞子头
+T63	Thing-Nominal 478 480	森林
+T64	Physical 487 491	生态环境
+T65	Thing-Nominal 494 496	水土
+T66	Physical 499 501	雨量
+T67	Physical 504 506	气候
+T68	Time-Explicit 511 517	980年7月
+T69	Person-Name 518 540	改革开放和现代化建设的设计师敬爱的邓小平同志
+*	Coreference T69 T6 T70 T73 T74
+T70	Person-Name 547 551	小平同志
+T71	Person-Name 552 561	四川省委书记谭启龙
+R6	Social Arg1:T71 Arg2:T70	
+T72	Person-Nominal 552 566	四川省委书记谭启龙等领导同志
+R7	Social Arg1:T72 Arg2:T70	
+T73	Person-Nominal 579 582	老人家
+T74	Person-Pronoun 588 589	他
+T75	Location-Nominal 591 602	万年寺清音阁一带的山路
+T76	Person-Pronoun 604 605	他
+T77	Thing-Nominal 609 611	树木
+T78	Location-Nominal 607 609	山上
+T79	Location-Nominal 614 620	贫瘠的山地里
+T80	Thing-Nominal 620 622	玉米
+R8	Located Arg1:T80 Arg2:T79	
+T81	Person-Nominal 627 631;632 638	山地里辛 勤劳作的山民
+T82	Person-Name 640 644	小平同志
+T83	Person-Nominal 651 658	陪同的领导同志
+*	Coreference T83 T72 T95 T96
+T84	Person-Nominal 661 665	山区农民
+R9	Part-Whole Arg1:T81 Arg2:T84	
+T85	Location-Nominal 675 677	山地
+T86	Thing-Nominal 678 680	玉米
+T87	Thing-Nominal 688 689	树
+T88	Thing-Nominal 690 691	林
+T89	Person-Pronoun 699 700	他
+*	Coreference T89 T82
+T90	Location-Name 704 707	峨眉山
+T91	Thing-Nominal 710 712	宝库
+T92	Thing-Pronoun 725 726	它
+R10	Located Arg1:T92 Arg2:T90	
+T93	Person-Nominal 727 731	子子孙孙
+T94	Person-Name 744 748	小平同志
+T95	Person-Nominal 757 767	在场的省地(市)领导
+T96	Person-Nominal 774 776	大家
+T97	Location-Name 784 787	峨眉山
+T98	Thing-Nominal 807 808	树
+T99	Thing-Nominal 809 810	林
+T100	Person-Nominal 816 820	山区农民
+T101	Thing-Nominal 835 839	经济林木
+T102	Thing-Nominal 840 844	服务旅游
+T103	Person-Nominal 849 853	山区农民
+T104	Time-Implicit 862 864	随后
+T105	Organization-Name 866 868	省委
+T106	Organization-Name 870 873	山地委
+T107	Organization-Name 874 878	峨眉县委
+T108	Person-Name 888 892	小平同志
+T109	Location-Nominal 906 908	山区
+R11	Part-Whole Arg1:T109 Arg2:T97	
+T110	Time-Implicit 916 920	八十年代
+T115	Thing-Nominal 952 954	森林
+T116	Thing-Nominal 935 946	会议和报纸、电台、电视
+T111	Organization-Name 865 878	从省委到乐山地委、峨眉县委
+R12	Use Arg1:T111 Arg2:T116	
+T112	Person-Nominal 964 966	全民
+R13	Part-Whole Arg1:T103 Arg2:T112	
+T113	Physical 975 987	封山育林和天然林保护工程
+T114	Metric 995 999	59万亩
+T117	Physical 1004 1008	森林资源
+T118	Abstract 1013 1022	保护森林的法律法规
+T119	Thing-Nominal 1040 1041	树
+T120	Thing-Nominal 1042 1043	林
+T121	Metric 1044 1047	十年内
+T122	Metric 1049 1050;1051 1054	2 0万亩
+T123	Location-Nominal 1057 1059	荒山
+T124	Thing-Nominal 1060 1061	林
+R14	Located Arg1:T124 Arg2:T123	
+T125	Metric 1061 1064	8万亩
+T126	Location-Nominal 1068 1070	荒山
+T127	Abstract 1081 1087	林权制度改革
+T128	Physical 1090 1093	自留山
+T129	Person-Nominal 1102 1104	农民
+T130	Location-Nominal 1115 1117	全市
+*	Coreference T130 T97
+T131	Location-Nominal 1131 1143	海拔较高、坡高较大的山地
+R15	Part-Whole Arg1:T131 Arg2:T130	
+T132	Person-Nominal 1151 1158	退耕还林的农户
+T133	Time-Implicit 1158 1161	前三年
+T134	Thing-Nominal 1163 1165	现金
+T135	Thing-Nominal 1170 1172	口粮
+T136	Metric 1181 1186	6.6万亩
+T137	Thing-Nominal 1194 1198	经济林木
+T138	Thing-Nominal 1205 1206	茶
+T139	Metric 1198 1203	1.2万亩
+T140	Metric 1206 1212	12.3万亩
+T141	Thing-Nominal 1213 1215	蔬菜
+T142	Metric 1215 1221	11.4万亩
+T143	Thing-Nominal 1223 1228	药材、苦笋
+T144	Time-Implicit 1233 1237	与此同时
+T145	Location-Nominal 1238 1240	城镇
+T146	Thing-Nominal 1244 1250	电力、天然气
+T147	Location-Nominal 1251 1253	农林
+T148	Thing-Nominal 1255 1257	沼气
+T149	Thing-Nominal 1265 1267	木材
+T150	Thing-Nominal 1268 1270	燃料
+R16	General-Special Arg1:T150 Arg2:T149	
+R17	General-Special Arg1:T150 Arg2:T148	
+R18	General-Special Arg1:T150 Arg2:T146	
+T151	Physical 1280 1284	森林资源
+T152	Metric 1286 1289	三十年
+T153	Metric 1292 1295	三十年
+T154	Person-Nominal 1298 1302	全市人民
+T155	Person-Name 1303 1307	小平同志
+T156	Thing-Nominal 1314 1315	树
+T157	Thing-Nominal 1316 1317	林
+T158	Location-Nominal 1328 1330	全市
+T159	Abstract 1330 1335	森林覆盖率
+T160	Time-Implicit 1336 1341	80年代初
+T161	Metric 1342 1345	16%
+T162	Metric 1349 1355	57.45%
+T163	Location-Name 1356 1358	峨眉
+T164	Location-Name 1380 1385	峨眉山景区
+R19	Part-Whole Arg1:T164 Arg2:T163	
+T165	Person-Nominal 1395 1399	1万多人
+T166	Thing-Nominal 1403 1416	茶叶、核桃、板栗和中药黄连
+T167	Person-Nominal 1429 1433	山区农民
+T168	Location-Name 1435 1438	峨眉山
+T169	Thing-Nominal 1446 1454	宾馆、饭店、酒楼
+T170	Location-Name 1465 1467	峨眉
+*	Coreference T170 T168
+T171	Thing-Nominal 1469 1470	山
+T172	Thing-Nominal 1471 1472	水
+T173	Thing-Nominal 1476 1477	花
+T174	Thing-Nominal 1474 1475	鸟
+T175	Abstract 1483 1501	国家级园林绿化城市、优秀旅游城市称号
+T176	Abstract 1361 1378	全国造林绿化百佳县(市)的光荣称号
+T177	Time-Explicit 1502 1507	1996年
+T178	Location-Name 1507 1510	峨眉山
+T179	Organization-Name 1511 1519	联合国教科文组织
+T180	Abstract 1524 1535	世界自然与文化遗产名录
+T181	Location-Name 1538 1541	峨眉山
+T182	Abstract 1544 1553	5A级国家旅游景区
+T183	Location-Name 1559 1561	峨眉
+T184	Person-Pronoun 1564 1565	我
+T185	Person-Nominal 1569 1573	全市人民
+T186	Organization-Nominal 1574 1578	党和政府
+T187	Person-Name 1585 1589	小平同志
+T188	Person-Pronoun 1598 1599	我
+T189	Person-Name 1603 1607	小平同志
+T190	Person-Nominal 1608 1615	无产阶级革命家
+T191	Location-Name 1635 1637	峨眉
+T192	Person-Pronoun 1645 1647	我们
+*	Coreference T192 T185
+T193	Thing-Nominal 1650 1651	粮
+T194	Thing-Nominal 1653 1654	树
+T195	Thing-Nominal 1665 1667	青山
+T196	Thing-Nominal 1667 1669	绿水
+T197	Person-Name 1678 1680	小平
+*	Coreference T197 T189

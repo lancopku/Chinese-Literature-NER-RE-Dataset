@@ -1,0 +1,170 @@
+T1	Thing-Nominal 8 10	烟雨
+T2	Time-Implicit 4 6	三月
+T3	Location-Name 13 15	江南
+T4	Time-Implicit 17 19	寒冬
+T5	Thing-Nominal 22 24	冰雪
+T6	Thing-Nominal 27 29	流水
+T7	Thing-Nominal 32 34	新芽
+T8	Thing-Nominal 37 41	鸟语花香
+T9	Thing-Nominal 42 46	欢歌笑语
+T10	Location-Name 52 54	江南
+T11	Time-Implicit 60 62	冬天
+T12	Thing-Nominal 68 75	轻松多彩的春装
+T13	Time-Implicit 76 77;78 79	惊 蛰
+T14	Thing-Nominal 84 91	树木新绿的芽苞
+T15	Thing-Nominal 97 102	久违的枝头
+T16	Thing-Nominal 84 86	树木
+R1	Part-Whole Arg1:T15 Arg2:T16	
+R2	Located Arg1:T14 Arg2:T15	
+T17	Thing-Nominal 103 105	微风
+T18	Thing-Nominal 116 117	眼
+T19	Location-Nominal 132 138;139 140	日新月异的世 界
+T20	Time-Implicit 153 155	三月
+T21	Location-Name 156 158	江南
+T22	Person-Nominal 169 176	勤劳善良的人们
+T23	Abstract 191 194	中国梦
+T24	Thing-Nominal 206 210	和风细雨
+T25	Thing-Nominal 231 233	画卷
+T26	Location-Nominal 236 238	桥头
+T27	Thing-Nominal 240 241	眼
+T28	Thing-Nominal 244 246	烟雨
+T29	Location-Name 248 250	江南
+T30	Thing-Nominal 257 259	春雨
+T31	Thing-Nominal 261 262	油
+T32	Person-Nominal 265 268	春姑娘
+T33	Thing-Nominal 272 274;275 277	远山 近水
+T34	Thing-Nominal 285 290	远处的大厦
+T35	Location-Nominal 285 287	远处
+R3	Located Arg1:T34 Arg2:T35	
+T36	Thing-Nominal 292 298	天宫里的琼楼
+T37	Location-Nominal 292 294	天宫
+R4	Located Arg1:T36 Arg2:T37	
+T38	Thing-Nominal 305 309	车水马龙
+T39	Location-Nominal 305 312	车水马龙的街边
+T40	Person-Nominal 313 315	人们
+T41	Thing-Nominal 319 329	一把把五颜六色的小伞
+T42	Metric 319 322	一把把
+R5	Use Arg1:T40 Arg2:T41	
+T43	Thing-Nominal 315 316	手
+R6	Part-Whole Arg1:T43 Arg2:T40	
+R7	Located Arg1:T41 Arg2:T43	
+T44	Location-Name 331 333	江南
+T45	Thing-Nominal 337 338	花
+T46	Thing-Nominal 333 334	锦
+R8	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 349 350	车
+T48	Thing-Nominal 352 353	船
+T49	Person-Nominal 387 390	江南人
+T50	Location-Name 396 398	江南
+T51	Time-Implicit 399 401	当年
+T52	Person-Name 402 405	乾隆爷
+T53	Location-Name 412 414	江南
+T54	Location-Name 433 435	江南
+T55	Location-Name 471 476	唐后主李煜
+T56	Thing-Nominal 451 453	美景
+T57	Location-Name 489 491	江南
+T58	Person-Name 500 502	杜牧
+T59	Thing-Nominal 506 507	烟
+T60	Thing-Nominal 508 510	寒水
+T61	Thing-Nominal 510 511	月
+T62	Thing-Nominal 512 513	沙
+T63	Time-Implicit 514 515	夜
+T64	Location-Name 516 518	秦淮
+T65	Location-Nominal 519 521	酒家
+T66	Person-Nominal 522 524	商女
+T67	Thing-Nominal 531 532	江
+R9	Located Arg1:T67 Arg2:T64	
+T68	Thing-Name 534 537	后庭花
+T69	Thing-Name 543 548	宋诗人林升
+T70	Person-Nominal 550 553	当政者
+T71	Location-Name 556 558	江南
+T72	Organization-Name 564 565	金
+T73	Thing-Nominal 571 572	诗
+*	Coreference T69 T73
+T74	Location-Nominal 573 575	山外
+T75	Thing-Nominal 575 577	青山
+R10	Located Arg1:T75 Arg2:T74	
+T76	Location-Nominal 577 579	楼外
+T77	Thing-Nominal 579 580	楼
+R11	Located Arg1:T77 Arg2:T76	
+T78	Location-Name 581 583	西湖
+R12	Part-Whole Arg1:T78 Arg2:T71	
+T79	Person-Nominal 593 595	游人
+T80	Location-Name 599 601	杭州
+T81	Location-Name 602 604	汴州
+R13	Part-Whole Arg1:T78 Arg2:T80	
+T82	Thing-Nominal 589 591	暖风
+T83	Thing-Nominal 581 585	西湖歌舞
+R14	Located Arg1:T83 Arg2:T78	
+T84	Person-Nominal 615 618	当政者
+T85	Person-Pronoun 630 632	自己
+R15	Create Arg1:T85 Arg2:T69	
+T86	Time-Implicit 638 640	如今
+T87	Location-Name 641 644	秦淮河
+T88	Location-Name 647 650	西湖祠
+*	Coreference T87 T64
+T89	Location-Nominal 657 667	现代化城市的参观景点
+R16	General-Special Arg1:T89 Arg2:T88	
+R17	General-Special Arg1:T89 Arg2:T87	
+R18	Near Arg1:T88 Arg2:T78	
+T90	Location-Name 671 673	江南
+T91	Location-Name 679 681	北方
+T92	Location-Name 684 686	江南
+R19	Near Arg1:T91 Arg2:T90	
+T93	Person-Nominal 693 694	人
+T94	Thing-Nominal 700 708	大自然的物华天宝
+T95	Person-Nominal 713 721	一代代的绝世佳人
+T96	Person-Nominal 738 741	当朝者
+T97	Location-Name 765 767	江南
+T98	Person-Nominal 772 776	当政的人
+*	Coreference T98 T96
+T99	Location-Name 793 795	江南
+T100	Person-Name 815 822	清寒俊朗的许仙
+T101	Person-Name 824 832	貌美如花的白素贞
+T102	Person-Nominal 833 835	两人
+R20	Part-Whole Arg1:T101 Arg2:T102	
+R21	Part-Whole Arg1:T100 Arg2:T102	
+T103	Thing-Nominal 841 847	三月西湖美景
+T104	Location-Nominal 849 851	断桥
+T105	Time-Implicit 841 843	三月
+T106	Person-Pronoun 876 877	我
+T107	Location-Name 886 888	江南
+T108	Location-Name 891 893	江南
+T109	Location-Name 896 898	江南
+T110	Location-Name 901 903	江南
+T111	Location-Name 909 913	江南大地
+*	Coreference T111 T109
+T112	Person-Nominal 914 915	人
+T113	Location-Nominal 916 917	地
+T114	Time-Implicit 924 927	新时代
+T115	Person-Nominal 924 931	新时代的开拓者
+T116	Person-Nominal 935 937	古人
+T117	Abstract 958 962	改革开放
+T118	Thing-Nominal 970 971	风
+T119	Thing-Nominal 972 973	浪
+T120	Location-Name 1001 1003	江南
+T121	Thing-Nominal 1004 1006	高楼
+T122	Person-Nominal 1017 1018	人
+T123	Thing-Nominal 1006 1007	林
+T124	Location-Nominal 1031 1037	高科技产业园
+T125	Location-Nominal 1039 1041	各地
+T126	Person-Nominal 1057 1059	人民
+T127	Person-Nominal 1070 1074	更多的人
+T128	Location-Name 1076 1078	江南
+T129	Location-Name 1081 1083	江南
+T130	Location-Name 1085 1087	江南
+T131	Location-Name 1098 1100	江南
+T132	Thing-Nominal 1109 1114	江南的烟雨
+T133	Location-Name 1109 1111	江南
+R22	Located Arg1:T132 Arg2:T133	
+T134	Thing-Nominal 1116 1118	轻纱
+T135	Thing-Nominal 1120 1122	薄雾
+T136	Person-Nominal 1154 1157	江南人
+T137	Person-Nominal 1164 1165	人
+T138	Person-Nominal 1186 1187	人
+T139	Person-Nominal 1213 1214	人
+T140	Thing-Nominal 1220 1221	烟
+T141	Thing-Nominal 1222 1224	轻水
+T142	Thing-Nominal 1224 1225	月
+T143	Thing-Nominal 1226 1227	纱
+T144	Thing-Nominal 1208 1209	景

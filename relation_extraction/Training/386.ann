@@ -1,0 +1,156 @@
+T1	Person-Nominal 1 9	前庄后院的壮劳力
+T2	Location-Nominal 1 5	前庄后院
+T3	Location-Nominal 20 24	苏北农村
+T4	Person-Pronoun 17 35	生活在苏北农村四十多年、五大三粗的我
+T5	Metric 24 28	四十多年
+T6	Thing-Nominal 48 52	那几亩田
+R1	Ownership Arg1:T4 Arg2:T6	
+T7	Time-Implicit 54 60;61 64	新千年的第一 个春天
+T8	Location-Name 71 73	太仓
+T9	Location-Name 75 77	太仓
+T10	Person-Pronoun 80 81	我
+T11	Thing-Nominal 99 101	文凭
+T12	Location-Nominal 108 111	工厂里
+T13	Thing-Nominal 111 118	吱吱嗡嗡的机器
+R2	Located Arg1:T13 Arg2:T12	
+T14	Person-Pronoun 120 121	我
+T15	Thing-Nominal 138 144	工地上的塔吊
+T16	Location-Nominal 138 141	工地上
+R3	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 148 150	长臂
+R4	Part-Whole Arg1:T17 Arg2:T15	
+T18	Thing-Nominal 159 166	这里的大街小巷
+T19	Thing-Pronoun 169 171	它们
+*	Coreference T19 T18
+T20	Person-Pronoun 183 184	我
+*	Coreference T20 T4
+T21	Person-Nominal 191 193	朋友
+T22	Person-Nominal 200 202	友人
+*	Coreference T22 T21
+T23	Person-Pronoun 207 208	我
+T24	Person-Nominal 211 216	一名送水工
+R5	General-Special Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 221 230	满载桶装水的摩托车
+R6	Use Arg1:T23 Arg2:T25	
+T26	Location-Nominal 238 249	学校、工厂和小区等地方
+T27	Time-Implicit 251 253	每天
+T28	Person-Nominal 255 257	别人
+T29	Time-Implicit 264 271	一年三百六十天
+T30	Thing-Nominal 285 286	水
+T31	Thing-Nominal 293 297	市区地图
+T32	Thing-Nominal 300 302	街道
+T33	Thing-Nominal 303 304	图
+T34	Thing-Nominal 298 299	手
+T35	Thing-Nominal 310 317	雨后春笋的高楼
+T36	Thing-Nominal 319 324	小区的编号
+T37	Person-Pronoun 329 330	你
+T38	Person-Nominal 346 348	客户
+R7	Social Arg1:T38 Arg2:T37	
+T39	Thing-Nominal 355 358	冤枉路
+T40	Thing-Nominal 363 367	防盗门铃
+T41	Person-Pronoun 371 372	你
+T42	Thing-Nominal 390 391	楼
+T43	Thing-Nominal 404 407	防盗门
+T44	Person-Pronoun 411 412	你
+T45	Thing-Nominal 420 423	桶装水
+T46	Thing-Nominal 429 434	铁将军把门
+T47	Time-Implicit 410 435	当你满怀信心肩扛手提桶装水蹬蹬上楼遇上铁将军把门时
+T48	Thing-Nominal 442 446	一盆凉水
+T49	Thing-Nominal 426 427	楼
+T50	Person-Pronoun 449 450	你
+T51	Thing-Nominal 450 454	泄气皮球
+T52	Thing-Nominal 458 461	满桶水
+T53	Person-Nominal 463 464;465 471	办 事严谨的老板
+T54	Person-Pronoun 475 476	他
+T55	Person-Pronoun 482 483	你
+*	Coreference T54 T53
+T56	Time-Implicit 490 497	情绪偶尔低落时
+T57	Time-Implicit 448 464;465 472	当你泄气皮球似的带回满桶水面对办 事严谨的老板时
+T58	Person-Pronoun 498 499	我
+T59	Person-Nominal 522 524	朋友
+T60	Person-Nominal 534 550;551 554	家中身体欠佳的妻子和两个正在上学 的孩子
+R8	Family Arg1:T60 Arg2:T58	
+R9	Social Arg1:T22 Arg2:T23	
+T61	Person-Pronoun 556 557	我
+T62	Person-Pronoun 564 566	自己
+*	Coreference T62 T61
+T63	Time-Implicit 573 578	下班的时候
+T64	Person-Pronoun 579 580	我
+T65	Thing-Nominal 582 584	纸笔
+R10	Use Arg1:T64 Arg2:T65	
+T66	Person-Nominal 588 595	记录在册的客户
+T67	Thing-Nominal 596 598	地图
+T68	Person-Nominal 608 611	有心人
+T69	Person-Pronoun 617 618	我
+T70	Person-Nominal 629 633	一些客户
+T71	Person-Nominal 622 625	太仓通
+R11	General-Special Arg1:T71 Arg2:T69	
+T72	Person-Nominal 656 658	老板
+T73	Person-Pronoun 663 664	我
+R12	Social Arg1:T72 Arg2:T73	
+R13	Social Arg1:T54 Arg2:T55	
+T74	Person-Pronoun 685 686	我
+T75	Thing-Nominal 694 695	水
+T76	Metric 730 732	一只
+T77	Metric 735 737	一桶
+T78	Time-Implicit 728 742	手提一只、肩扛一桶快步上楼时
+T79	Time-Implicit 506 550;551 555	当想到求职场供大于求的境遇，想到朋友的一片好心，尤其想到家中身体欠佳的妻子和两个正在上学 的孩子时
+T80	Thing-Nominal 728 729	手
+T81	Thing-Nominal 733 734	肩
+T82	Location-Nominal 743 745	脑中
+T83	Time-Implicit 765 777	顺利送达、轻车熟路返回时
+T84	Thing-Nominal 805 806	水
+T85	Person-Pronoun 807 808	我
+T86	Location-Nominal 814 818	太仓市区
+T87	Location-Name 814 816	太仓
+R14	Part-Whole Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 821 823	道路
+T89	Person-Pronoun 827 828	我
+T90	Thing-Nominal 832 837	大多数高楼
+T91	Person-Pronoun 837 838	我
+T92	Person-Pronoun 843 844	我
+T93	Thing-Nominal 851 855	高楼大厦
+T94	Time-Implicit 842 856	当我送水一次次征服高楼大厦时
+T95	Person-Pronoun 859 861	自己
+T96	Person-Nominal 865 870	登山运动员
+T97	Thing-Nominal 876 878	身体
+T98	Thing-Nominal 889 890	水
+T99	Thing-Nominal 882 886	经济收入
+T100	Person-Pronoun 893 894	我
+T101	Person-Pronoun 902 903	我
+T102	Thing-Nominal 909 916	人生最大的本钱
+T103	Thing-Nominal 919 920	水
+T104	Location-Name 940 942	太仓
+T105	Location-Nominal 944 948	投资热土
+R15	General-Special Arg1:T105 Arg2:T104	
+T106	Person-Nominal 951 959	四面八方的建设者
+T107	Thing-Nominal 961 962	水
+T108	Person-Pronoun 997 998	你
+T109	Person-Nominal 1018 1020	客户
+T110	Thing-Nominal 1029 1030	水
+T111	Person-Pronoun 1032 1033	我
+T112	Location-Name 1040 1047	上海“后花园”
+T113	Location-Name 1050 1052	太仓
+*	Coreference T112 T113
+T114	Time-Implicit 1058 1062	春夏秋冬
+T115	Thing-Nominal 1068 1070	雨雪
+T116	Thing-Nominal 1080 1082	寒风
+T117	Thing-Nominal 1087 1088;1089 1090	烈 日
+T118	Person-Pronoun 1092 1093	我
+T119	Time-Implicit 1093 1095	每天
+T120	Thing-Nominal 1098 1099	水
+T121	Thing-Nominal 1103 1104	画
+T122	Thing-Nominal 1116 1117	街
+T123	Metric 1131 1135	十多年来
+T124	Thing-Nominal 1130 1131	水
+T125	Person-Pronoun 1136 1137	我
+T126	Time-Implicit 1137 1139	每天
+T127	Time-Implicit 1147 1149	每天
+T128	Person-Pronoun 1161 1162	我
+T129	Thing-Nominal 1167 1177	《送水工的快乐》一稿
+R16	Create Arg1:T128 Arg2:T129	
+T130	Organization-Nominal 1179 1185	《太仓日报》
+T131	Metric 1191 1193	几天
+T132	Person-Pronoun 1202 1203	我
+T133	Person-Pronoun 1218 1219	我
+T134	Thing-Nominal 1229 1234	欢快的小鸟

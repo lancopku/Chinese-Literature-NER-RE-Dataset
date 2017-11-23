@@ -1,0 +1,409 @@
+T1	Location-Nominal 0 2	东边
+T2	Thing-Nominal 3 7	那片厂房
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Pronoun 14 15	它
+*	Coreference T3 T2 T8
+T4	Thing-Nominal 18 20	围墙
+T5	Thing-Nominal 21 23	院子
+R2	Part-Whole Arg1:T4 Arg2:T2	
+R3	Part-Whole Arg1:T5 Arg2:T2	
+T6	Thing-Nominal 27 29	大楼
+T7	Time-Implicit 25 34	两边大楼先后崛起后
+T8	Thing-Pronoun 35 36	它
+T9	Person-Nominal 49 53	裹脚女人
+T10	Person-Nominal 56 58	自己
+*	Coreference T9 T10
+T11	Person-Pronoun 71 72	我
+T12	Thing-Nominal 86 87	土
+T13	Person-Pronoun 88 89	我
+T14	Time-Implicit 81 83	春天
+T15	Time-Implicit 91 95	这个秋天
+T16	Person-Nominal 99 101	儿子
+T17	Thing-Nominal 103 105	蛐蛐
+R4	Family Arg1:T13 Arg2:T16	
+T18	Metric 107 110	十几天
+T19	Person-Pronoun 111 112	我
+T20	Location-Nominal 115 117	乡下
+T21	Thing-Pronoun 124 125	它
+T22	Thing-Nominal 138 145	东面的半截围墙
+T23	Thing-Nominal 154 157	规划图
+R5	Located Arg1:T23 Arg2:T22	
+R6	Part-Whole Arg1:T22 Arg2:T21	
+T24	Time-Implicit 161 163	那时
+T25	Thing-Nominal 163 168	两扇大铁门
+T26	Time-Implicit 176 178	清晨
+T27	Time-Implicit 179 181	黄昏
+T28	Thing-Nominal 200 205	收废品的车
+T29	Thing-Nominal 201 203	废品
+R7	Located Arg1:T28 Arg2:T29	
+T30	Location-Nominal 213 217	我家阳台
+T31	Location-Nominal 220 226	厂房的院子里
+T32	Thing-Nominal 229 231	红砖
+T33	Thing-Nominal 236 238	烟囱
+R8	Located Arg1:T33 Arg2:T31	
+R9	Part-Whole Arg1:T32 Arg2:T33	
+T34	Thing-Nominal 244 246	天空
+T35	Location-Nominal 247 252	院子的东侧
+T36	Thing-Nominal 258 260	孤杨
+R10	Located Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 264 266	树冠
+R11	Part-Whole Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 270 272	院子
+T39	Location-Nominal 279 281	地上
+T40	Thing-Nominal 284 286	破车
+T41	Thing-Nominal 287 289	残骸
+R12	Part-Whole Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 290 294	旧式解放
+T43	Thing-Nominal 295 297	吉普
+T44	Thing-Nominal 306 308	拖车
+T45	Thing-Nominal 311 312	锈
+R13	Located Arg1:T45 Arg2:T44	
+R14	Located Arg1:T45 Arg2:T43	
+R15	Located Arg1:T45 Arg2:T42	
+T46	Location-Nominal 320 322	楼里
+T47	Thing-Nominal 323 327	自来水管
+R16	Located Arg1:T47 Arg2:T46	
+T48	Metric 331 333	三天
+T49	Time-Implicit 338 340	傍晚
+T50	Person-Nominal 341 345	楼下大妈
+T51	Person-Pronoun 346 347	我
+T52	Location-Nominal 350 354	那个院子
+T53	Thing-Nominal 355 356	水
+R17	Located Arg1:T53 Arg2:T52	
+R18	Social Arg1:T51 Arg2:T50	
+T54	Person-Pronoun 358 360	我们
+T55	Thing-Nominal 361 366	那扇大铁门
+T56	Thing-Nominal 374 376	小门
+R19	Located Arg1:T56 Arg2:T55	
+T57	Location-Nominal 380 385	院子的角落
+T58	Thing-Nominal 389 392	压水井
+R20	Located Arg1:T58 Arg2:T57	
+T59	Person-Nominal 393 404	一个四十来岁的瘦削女人
+T60	Thing-Nominal 408 410	水桶
+T61	Thing-Nominal 412 413	水
+R21	Located Arg1:T60 Arg2:T61	
+R22	Use Arg1:T59 Arg2:T60	
+T62	Thing-Nominal 416 418	衣服
+T63	Thing-Nominal 430 432	水珠
+T64	Person-Pronoun 435 436	她
+T65	Thing-Nominal 437 439	裤脚
+T66	Thing-Nominal 440 442	布鞋
+R24	Ownership Arg1:T64 Arg2:T65	
+R25	Ownership Arg1:T64 Arg2:T66	
+*	Coreference T64 T59
+R23	Located Arg1:T63 Arg2:T65	
+R26	Located Arg1:T63 Arg2:T66	
+T67	Person-Pronoun 445 447	我们
+T68	Person-Pronoun 450 451	她
+R27	Social Arg1:T67 Arg2:T68	
+T69	Location-Nominal 465 467	井台
+T70	Person-Pronoun 469 471	我们
+T71	Thing-Nominal 478 482	多半桶水
+T72	Location-Nominal 488 490	屋子
+T73	Time-Implicit 492 495	不一会
+T74	Thing-Nominal 500 502	炊烟
+T75	Location-Nominal 506 509	破院子
+T76	Thing-Nominal 517 519	孤杨
+R28	Located Arg1:T76 Arg2:T75	
+T77	Thing-Nominal 523 526	鸡崽儿
+T78	Location-Nominal 538 540	门口
+R29	Located Arg1:T77 Arg2:T78	
+T79	Person-Nominal 545 547	女人
+T80	Thing-Pronoun 548 550	它们
+*	Coreference T80 T77
+T81	Thing-Nominal 557 560	纸盒子
+R30	Located Arg1:T80 Arg2:T81	
+T82	Thing-Nominal 567 571	破吉普车
+R31	Located Arg1:T81 Arg2:T82	
+T83	Thing-Nominal 583 585	鸡窝
+T84	Person-Pronoun 591 592	我
+*	Coreference T83 T82
+T85	Person-Nominal 606 608	大妈
+T86	Person-Nominal 613 615	女人
+T87	Location-Nominal 617 619	屋子
+T88	Time-Implicit 624 627	第二天
+T89	Time-Implicit 629 631	周末
+*	Coreference T88 T89
+T90	Person-Pronoun 632 633	我
+T91	Person-Nominal 635 637	儿子
+T92	Location-Nominal 638 642	那个院子
+T93	Thing-Nominal 643 645	衣服
+T94	Location-Nominal 646 648	水井
+R32	Located Arg1:T94 Arg2:T92	
+T95	Thing-Nominal 656 659	洗衣板
+T96	Thing-Nominal 652 654	石头
+R33	Part-Whole Arg1:T96 Arg2:T95	
+R34	Near Arg1:T95 Arg2:T94	
+T97	Person-Nominal 660 662	女人
+T98	Location-Nominal 664 667	屋门口
+T99	Person-Pronoun 668 669	她
+*	Coreference T99 T97
+T100	Thing-Nominal 670 673	鸡崽儿
+R35	Ownership Arg1:T97 Arg2:T100	
+T101	Thing-Nominal 676 679	小笨狗
+T102	Location-Pronoun 681 683	那里
+*	Coreference T102 T98
+T103	Thing-Nominal 686 688	脑袋
+R36	Part-Whole Arg1:T103 Arg2:T101	
+T104	Person-Nominal 690 692	女人
+T105	Thing-Nominal 690 697	女人的一只脚上
+R37	Located Arg1:T103 Arg2:T105	
+T106	Thing-Nominal 695 696	脚
+R38	Part-Whole Arg1:T106 Arg2:T104	
+T107	Thing-Nominal 698 700	眼睛
+R39	Part-Whole Arg1:T107 Arg2:T101	
+T108	Thing-Nominal 714 716	光点
+T109	Thing-Nominal 717 720	杨树叶
+T110	Person-Nominal 726 728	女人
+T111	Person-Pronoun 729 730	她
+T112	Thing-Nominal 731 733	宝贝
+*	Coreference T100 T112
+T113	Person-Nominal 737 739	儿子
+T114	Thing-Nominal 740 744	那条小狗
+T115	Person-Pronoun 747 748	我
+T116	Person-Nominal 760 762	女人
+T117	Location-Nominal 769 770	屋
+T118	Thing-Nominal 775 778	小板凳
+T119	Person-Pronoun 779 780	我
+R40	Family Arg1:T115 Arg2:T113	
+*	Coreference T101 T114
+R41	Social Arg1:T115 Arg2:T116	
+R42	Located Arg1:T118 Arg2:T117	
+T120	Person-Nominal 782 784	孩子
+*	Coreference T120 T113
+T121	Thing-Nominal 792 795	鸡崽儿
+T122	Person-Pronoun 796 797	她
+T123	Thing-Nominal 804 807	鸡崽儿
+T124	Person-Nominal 808 810	孩子
+*	Coreference T122 T116
+R43	Social Arg1:T124 Arg2:T122	
+T125	Thing-Nominal 813 816	鸡崽儿
+T126	Person-Nominal 822 824	儿子
+T127	Thing-Nominal 824 825	手
+R44	Part-Whole Arg1:T127 Arg2:T126	
+R45	Located Arg1:T125 Arg2:T127	
+T128	Person-Pronoun 828 829	他
+*	Coreference T128 T126
+T129	Person-Pronoun 834 835	我
+T130	Location-Nominal 848 850	屋子
+T131	Location-Nominal 851 853	屋子
+T132	Thing-Nominal 869 872	简易床
+T133	Thing-Nominal 878 880	衣柜
+T134	Thing-Nominal 881 883	碗柜
+R46	Located Arg1:T132 Arg2:T131	
+R47	Located Arg1:T133 Arg2:T131	
+R48	Located Arg1:T134 Arg2:T131	
+T135	Thing-Nominal 886 890	几块木板
+T136	Thing-Nominal 891 894	两摞砖
+R49	Located Arg1:T135 Arg2:T136	
+T137	Location-Nominal 901 903	门口
+T138	Thing-Nominal 907 913	小蜂窝煤炉子
+R50	Located Arg1:T138 Arg2:T137	
+T139	Thing-Nominal 908 911	蜂窝煤
+R51	Located Arg1:T139 Arg2:T138	
+T140	Thing-Nominal 917 919	铝锅
+R52	Located Arg1:T140 Arg2:T138	
+T141	Thing-Nominal 925 927	中药
+R53	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 932 935	塑料绳
+T143	Thing-Nominal 946 951	孤杨的枝桠
+R54	Located Arg1:T142 Arg2:T143	
+T144	Thing-Nominal 969 971	床单
+R55	Located Arg1:T144 Arg2:T142	
+T145	Person-Nominal 1001 1003	自己
+T146	Time-Implicit 1003 1005	当年
+T147	Thing-Nominal 1014 1015	头
+R56	Part-Whole Arg1:T147 Arg2:T145	
+T149	Thing-Nominal 1029 1034	一盆仙人掌
+T148	Location-Nominal 1019 1022	窗子下
+R57	Located Arg1:T149 Arg2:T148	
+T150	Location-Nominal 1039 1041	窗台
+T151	Thing-Nominal 1045 1050	两盆蚂蚱花
+T152	Thing-Nominal 1055 1057	泥土
+T153	Thing-Nominal 1061 1063	阳光
+T154	Thing-Nominal 1081 1085	葡萄树苗
+T155	Thing-Nominal 1090 1093	塑料绳
+R58	Located Arg1:T154 Arg2:T155	
+T156	Thing-Nominal 1109 1111	树茎
+T157	Thing-Nominal 1119 1122	小巴掌
+T159	Thing-Nominal 1132 1134	龙须
+R59	Part-Whole Arg1:T156 Arg2:T154	
+R60	Located Arg1:T157 Arg2:T156	
+T158	Location-Nominal 1123 1126	巴掌下
+R61	Located Arg1:T159 Arg2:T158	
+T160	Thing-Nominal 1136 1138	小猫
+T161	Thing-Nominal 1139 1141	爪子
+R62	Part-Whole Arg1:T161 Arg2:T160	
+T162	Thing-Nominal 1145 1148	塑料绳
+T163	Person-Pronoun 1149 1150	我
+T164	Location-Nominal 1158 1160	城市
+T165	Person-Nominal 1162 1165;1166 1167	这个女 人
+*	Coreference T145 T163
+T166	Location-Nominal 1172 1174	森林
+T167	Thing-Nominal 1181 1185	向日葵花
+R63	Located Arg1:T167 Arg2:T166	
+T168	Thing-Nominal 1192 1194	阳光
+T169	Person-Pronoun 1197 1198	你
+T170	Thing-Nominal 1200 1202	花草
+T171	Person-Nominal 1214 1216	女人
+T172	Thing-Nominal 1218 1219	花
+*	Coreference T169 T171
+T173	Person-Pronoun 1220 1221	我
+T174	Person-Nominal 1241 1244	我家的
+T175	Person-Nominal 1245 1247	丈夫
+*	Coreference T174 T175
+T176	Time-Implicit 1250 1254	收废品时
+T177	Thing-Nominal 1251 1253	废品
+T178	Person-Nominal 1256 1261	搬家的人家
+T179	Thing-Nominal 1282 1285	仙人掌
+R64	General-Special Arg1:T179 Arg2:T172	
+T180	Person-Pronoun 1299 1300	她
+T181	Person-Nominal 1308 1314	江浙一带的人
+T182	Location-Name 1308 1312	江浙一带
+R65	General-Special Arg1:T181 Arg2:T180	
+R66	Family Arg1:T180 Arg2:T175	
+T183	Person-Nominal 1318 1320	孩子
+T184	Thing-Nominal 1324 1325	花
+T185	Person-Nominal 1326 1328	女人
+T186	Person-Nominal 1332 1334	孩子
+T187	Person-Nominal 1347 1349	男孩
+T188	Person-Nominal 1356 1358	女人
+R67	Family Arg1:T187 Arg2:T188	
+T189	Organization-Nominal 1377 1379	学校
+T190	Organization-Name 1392 1394	南开
+T191	Time-Implicit 1396 1398	明年
+T192	Person-Pronoun 1429 1430	我
+T193	Person-Nominal 1446 1451	亲人的孩子
+T194	Time-Implicit 1459 1461	此后
+T195	Time-Implicit 1462 1465	每周末
+T196	Person-Nominal 1465 1467	孩子
+T197	Person-Pronoun 1471 1472	我
+T198	Person-Pronoun 1473 1474	他
+*	Coreference T196 T198
+T199	Thing-Nominal 1476 1480	那只小狗
+T200	Thing-Nominal 1481 1486	那群鸡崽儿
+T201	Location-Nominal 1490 1493	院墙角
+T202	Thing-Nominal 1494 1496	草丛
+R68	Located Arg1:T202 Arg2:T201	
+T203	Thing-Nominal 1498 1500	蚂蚱
+R69	Located Arg1:T203 Arg2:T202	
+T204	Thing-Nominal 1501 1504	鸡崽儿
+T205	Person-Nominal 1522 1524	孩子
+T206	Person-Pronoun 1526 1527	她
+T207	Location-Nominal 1516 1517	街
+T208	Person-Pronoun 1530 1531	她
+T209	Person-Nominal 1539 1541	孩子
+T210	Person-Pronoun 1543 1544	我
+R70	Family Arg1:T209 Arg2:T210	
+R71	Social Arg1:T208 Arg2:T210	
+T211	Time-Implicit 1548 1552	每天下班
+T212	Person-Nominal 1554 1556	孩子
+T213	Location-Pronoun 1558 1560	那里
+T214	Person-Nominal 1571 1573	儿子
+T215	Thing-Nominal 1575 1577	拎袋
+T216	Thing-Nominal 1581 1583	李杏
+R72	Located Arg1:T216 Arg2:T215	
+T217	Person-Nominal 1590 1592	女人
+T218	Person-Pronoun 1597 1598	她
+T219	Person-Pronoun 1609 1610	我
+T220	Thing-Nominal 1644 1652	厂房东面的规划图
+T221	Person-Pronoun 1662 1663	我
+T222	Person-Pronoun 1672 1673	我
+T223	Location-Nominal 1674 1676	乡下
+T224	Time-Implicit 1672 1678	我到乡下之后
+T225	Thing-Nominal 1709 1711	孤杨
+T226	Location-Pronoun 1714 1716	那里
+T227	Location-Nominal 1644 1646	厂房
+R73	Located Arg1:T225 Arg2:T227	
+*	Coreference T227 T226
+T228	Thing-Nominal 1720 1722	枝桠
+R74	Part-Whole Arg1:T228 Arg2:T225	
+T229	Thing-Nominal 1730 1733	塑料绳
+R75	Located Arg1:T229 Arg2:T228	
+T230	Person-Pronoun 1735 1736	我
+T231	Person-Name 1753 1756	华老师
+T232	Person-Pronoun 1757 1758	你
+*	Coreference T232 T231 T235
+T233	Person-Nominal 1764 1769	楼下的大妈
+T234	Thing-Nominal 1771 1772	菜
+T235	Person-Pronoun 1773 1774	我
+T236	Person-Nominal 1783 1785	大妈
+*	Coreference T236 T233 T239
+T237	Location-Nominal 1786 1791	那个旧厂房
+T238	Person-Nominal 1795 1797	女人
+T239	Person-Pronoun 1802 1803	你
+T240	Person-Pronoun 1808 1809	我
+T241	Person-Pronoun 1829 1831	他们
+T242	Location-Nominal 1838 1839	家
+T243	Person-Nominal 1850 1852	大妈
+T244	Person-Pronoun 1867 1868	她
+*	Coreference T244 T238
+T245	Time-Implicit 1867 1871	她临走时
+T246	Person-Pronoun 1873 1874	我
+*	Coreference T246 T243 T248
+T247	Person-Pronoun 1877 1878	你
+T248	Person-Pronoun 1884 1885	我
+T249	Person-Pronoun 1888 1889	你
+T250	Person-Nominal 1894 1896	大妈
+T251	Person-Pronoun 1903 1904	我
+*	Coreference T247 T251 T249
+T252	Thing-Nominal 1906 1908	布包
+T253	Thing-Nominal 1915 1920	小孩的围巾
+T254	Thing-Nominal 1921 1923	手套
+T255	Thing-Nominal 1926 1930	一包花籽
+T256	Person-Pronoun 1944 1945	她
+T257	Thing-Nominal 1948 1950	钩针
+R76	Use Arg1:T256 Arg2:T257	
+T258	Thing-Nominal 1959 1961	围巾
+*	Coreference T258 T253
+T259	Thing-Nominal 1970 1973	葡萄叶
+T260	Person-Nominal 1987 1989	妈妈
+T261	Person-Nominal 1990 1992	阿姨
+T262	Thing-Nominal 1999 2001	废墟
+T263	Person-Nominal 2002 2004	儿子
+T264	Person-Pronoun 2007 2008	我
+*	Coreference T264 T260
+R77	Family Arg1:T263 Arg2:T264	
+T265	Person-Pronoun 2027 2028	她
+*	Coreference T265 T261
+T266	Person-Nominal 2036 2038	孩子
+T267	Thing-Nominal 2040 2042	小嘴
+R78	Part-Whole Arg1:T267 Arg2:T266	
+*	Coreference T266 T263 T268
+T268	Person-Pronoun 2043 2044	他
+T269	Person-Nominal 2047 2050	有些人
+T270	Thing-Nominal 2058 2060	小狗
+T271	Thing-Nominal 2061 2064	鸡崽儿
+T272	Person-Nominal 2072 2074	儿子
+T273	Thing-Nominal 2091 2094	那些花
+T274	Person-Pronoun 2096 2097	我
+T275	Thing-Nominal 2108 2111	那些花
+T276	Time-Implicit 2114 2116	过去
+T277	Person-Pronoun 2124 2125	我
+T278	Thing-Nominal 2140 2141	花
+T279	Person-Pronoun 2164 2165	我
+T280	Person-Nominal 2168 2170	儿子
+T281	Thing-Nominal 2171 2172	手
+R79	Part-Whole Arg1:T281 Arg2:T280	
+T282	Person-Pronoun 2179 2180	他
+T283	Thing-Nominal 2182 2184	手套
+R80	Located Arg1:T283 Arg2:T281	
+T284	Thing-Nominal 2197 2200	葡萄叶
+T285	Person-Nominal 2207 2209	妈妈
+T286	Person-Nominal 2211 2213	儿子
+T287	Thing-Nominal 2215 2217	脑袋
+R81	Part-Whole Arg1:T287 Arg2:T286	
+T288	Person-Pronoun 2218 2219	我
+T289	Thing-Nominal 2234 2236	电脑
+T290	Thing-Nominal 2252 2254	破楼
+T291	Location-Pronoun 2260 2262	这里
+T292	Thing-Nominal 2267 2270	高垣埤
+T293	Person-Pronoun 2273 2274	我
+T294	Person-Nominal 2286 2290	我的儿子
+T295	Time-Implicit 2290 2292	周末
+T296	Thing-Nominal 2300 2302	小狗
+T297	Thing-Nominal 2304 2306	蚂蚱
+T298	Thing-Nominal 2316 2318	泥土
+T299	Location-Nominal 2321 2324	破院子
+R82	Located Arg1:T298 Arg2:T299	
+R83	Family Arg1:T294 Arg2:T293	

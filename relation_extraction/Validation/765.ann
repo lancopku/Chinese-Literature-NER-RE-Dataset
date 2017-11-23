@@ -1,0 +1,170 @@
+T1	Time-Implicit 11 14	小时候
+T2	Location-Nominal 15 21	我们家的花园
+T3	Thing-Nominal 25 28	紫色花
+T4	Person-Pronoun 35 36	我
+T5	Time-Implicit 36 38	那时
+*	Coreference T5 T1
+T6	Thing-Nominal 51 55	其他的花
+T7	Person-Pronoun 68 69	它
+R1	Create Arg1:T7 Arg2:T3	
+T8	Time-Implicit 76 83	黄昏日落的时候
+T9	Thing-Nominal 84 87	紫色花
+T10	Person-Nominal 105 107	妈妈
+T11	Person-Nominal 111 112	我
+T12	Person-Pronoun 123 124	我
+T13	Person-Pronoun 155 156	我
+T14	Thing-Nominal 163 166	紫色花
+T15	Thing-Pronoun 175 176	它
+*	Coreference T15 T14
+T16	Location-Nominal 197 199	大学
+T17	Location-Nominal 200 205	学校的花园
+T18	Time-Implicit 218 222	傍晚时分
+T19	Location-Nominal 224 226	校园
+T20	Time-Implicit 235 237	春天
+T21	Thing-Nominal 238 253	贴在地上小小的、不起眼的蝴蝶花
+T22	Thing-Nominal 256 258	紫花
+T23	Thing-Nominal 261 263	春风
+T24	Person-Pronoun 272 273	我
+T25	Thing-Nominal 280 282	绿叶
+T26	Thing-Nominal 279 289	被绿叶遮挡着的蝴蝶花
+T27	Thing-Pronoun 292 294	它们
+*	Coreference T27 T26
+T28	Thing-Nominal 296 305	一丁点大的浅色花苞
+R2	Part-Whole Arg1:T28 Arg2:T27	
+T29	Thing-Nominal 309 311	花苞
+*	Coreference T29 T28
+T30	Time-Implicit 328 333	花开的时候
+T31	Thing-Nominal 337 339	蝴蝶
+T32	Thing-Nominal 358 361	紫蝴蝶
+T33	Time-Implicit 388 393	工作几年后
+T34	Person-Pronoun 394 396	我们
+T35	Location-Nominal 399 404	两层的楼房
+T36	Metric 397 399	一幢
+T37	Location-Nominal 409 411	房间
+T38	Person-Pronoun 412 413	我
+T39	Person-Nominal 418 421	老教授
+T40	Metric 416 418	几位
+T41	Person-Name 433 442	国画家段虚谷老先生
+T42	Location-Nominal 433 445	国画家段虚谷老先生的屋后
+T43	Thing-Nominal 456 468	缠绕着的藤蔓上长出的绿叶
+T44	Location-Nominal 474 476	学校
+T45	Person-Pronoun 490 491	我
+T46	Thing-Pronoun 498 499	它
+*	Coreference T46 T43
+T47	Person-Name 565 568	段师母
+T48	Thing-Nominal 507 509;510 513	那绿 色藤蔓
+T49	Thing-Nominal 456 462	缠绕着的藤蔓
+*	Coreference T49 T48
+T50	Thing-Nominal 518 520	瀑布
+T51	Thing-Nominal 540 547	圆锥形的小花苞
+T52	Thing-Nominal 562 563	花
+T53	Thing-Nominal 575 577	紫藤
+T54	Thing-Nominal 580 582	紫藤
+T55	Person-Pronoun 592 593	它
+R3	Create Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 635 637	花苞
+T57	Thing-Nominal 614 617	紫藤花
+T58	Metric 612 614	几串
+T59	Time-Implicit 706 710	没过几天
+T60	Thing-Nominal 714 716	花朵
+T61	Metric 711 714	一串串
+T62	Metric 722 725	一串串
+T63	Thing-Nominal 725 731	浅紫色的葡萄
+T64	Thing-Nominal 733 735	绿叶
+T65	Person-Name 743 745	段老
+*	Coreference T65 T41 T70
+T66	Location-Nominal 743 748	段老的屋后
+*	Coreference T66 T42
+T67	Thing-Nominal 758 760	藤萝
+T68	Metric 756 758	这片
+T69	Thing-Nominal 762 766;767 770	紫中带绿 的瀑布
+*	Coreference T69 T67 T73 T79
+T70	Person-Name 774 778	段老先生
+T71	Thing-Nominal 782 784	窗户
+T72	Metric 780 782	一扇
+T73	Thing-Pronoun 793 794	它
+T74	Person-Pronoun 806 807	我
+T75	Person-Nominal 811 812	人
+T76	Location-Nominal 814 816	屋外
+T77	Thing-Nominal 821 823	紫藤
+T78	Person-Pronoun 838 839	我
+T79	Thing-Nominal 841 842	它
+T80	Thing-Nominal 895 897	紫藤
+T81	Thing-Pronoun 912 913	它
+*	Coreference T81 T80
+T82	Person-Pronoun 919 920	我
+T83	Time-Implicit 950 952	黄昏
+T84	Thing-Nominal 953 955	晚霞
+T85	Location-Nominal 957 961	半边天空
+T86	Thing-Nominal 966 975	布满紫藤的半壁墙面
+T87	Thing-Nominal 968 970	紫藤
+T88	Person-Name 999 1003	段老先生
+T89	Person-Pronoun 1005 1006	我
+T90	Thing-Nominal 1007 1009	紫藤
+T91	Thing-Nominal 1024 1026	花瓣
+T92	Person-Pronoun 1032 1033	他
+T93	Person-Pronoun 1034 1035	我
+*	Coreference T92 T88 T96 T97
+T94	Thing-Nominal 1039 1041	枕套
+T95	Metric 1037 1039	一对
+T96	Person-Nominal 1051 1054	老先生
+T97	Person-Pronoun 1055 1056	他
+T98	Thing-Nominal 1057 1059	画笔
+T99	Person-Pronoun 1069 1070	我
+T100	Thing-Nominal 1087 1090	绣花线
+T101	Thing-Nominal 1102 1104	宝贝
+T102	Person-Pronoun 1184 1185	他
+T103	Person-Name 1120 1124	段老先生
+T104	Thing-Nominal 1136 1144	段老先生种的紫藤
+T105	Thing-Nominal 1048 1050	紫藤
+*	Coreference T105 T104 T90
+T106	Time-Explicit 1157 1162	一九七七年
+T107	Person-Name 1162 1164	段老
+T108	Person-Pronoun 1169 1170	我
+T109	Person-Pronoun 1173 1174	他
+T110	Person-Pronoun 1188 1189	他
+T111	Person-Name 1214 1217	李老师
+T112	Person-Pronoun 1221 1222	我
+T113	Person-Pronoun 1226 1227	你
+*	Coreference T113 T111 T114
+T114	Person-Pronoun 1229 1230	你
+T115	Person-Name 1232 1236;1237 1238	徐永年老 师
+T116	Person-Pronoun 1240 1241	他
+*	Coreference T115 T116
+T117	Person-Pronoun 1244 1245	我
+*	Coreference T117 T110 T102 T107 T103 T109 T120 T124
+T118	Person-Pronoun 1249 1250	我
+T119	Thing-Nominal 1251 1253	泪水
+T120	Person-Nominal 1259 1275	这位种紫藤，画山水、花鸟的老画家
+T121	Thing-Nominal 1262 1264	紫藤
+T122	Thing-Nominal 1266 1268	山水
+T123	Thing-Nominal 1269 1271	花鸟
+T124	Person-Pronoun 1279 1280	他
+T125	Thing-Nominal 1282 1284	紫藤
+T126	Thing-Nominal 1289 1290	花
+T127	Thing-Pronoun 1291 1292	它
+*	Coreference T127 T125
+T128	Thing-Nominal 1307 1309	草木
+T129	Time-Implicit 1344 1346	春天
+T130	Location-Nominal 1347 1349	澳洲
+T131	Thing-Nominal 1353 1361	深深浅浅的紫色花
+T132	Person-Pronoun 1368 1369	我
+T133	Thing-Nominal 1371 1374	紫玫瑰
+T134	Thing-Nominal 1380 1384	紫色玫瑰
+*	Coreference T134 T133 T136 T138 T139
+T135	Thing-Nominal 1395 1399	各色玫瑰
+T136	Thing-Pronoun 1400 1401	它
+T137	Person-Pronoun 1421 1422	你
+T138	Thing-Pronoun 1427 1428	它
+T139	Thing-Pronoun 1453 1455	自己
+T140	Person-Nominal 1476 1477	人
+T141	Person-Nominal 1483 1484	人
+T142	Time-Implicit 1492 1494	今年
+T143	Person-Pronoun 1495 1496	我
+T144	Location-Nominal 1497 1499	后院
+T145	Metric 1501 1503	一株
+T146	Location-Nominal 1503 1508	小小的紫藤
+T147	Thing-Nominal 1523 1524;1525 1533	密 密的嫩绿色小叶片
+T148	Person-Pronoun 1534 1535	它
+R4	Ownership Arg1:T148 Arg2:T146	
+T149	Person-Pronoun 1558 1559	我

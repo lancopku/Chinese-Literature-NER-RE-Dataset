@@ -1,0 +1,109 @@
+T1	Abstract 6 12	西方经济学界
+T2	Location-Nominal 30 37	城市中的一街道
+T4	Person-Nominal 81 83	笔者
+T5	Location-Nominal 116 120	这条街道
+T6	Abstract 139 143	线性关系
+T3	Organization-Nominal 40 46	一间“超市”
+T7	Organization-Nominal 124 131	新建的“超市”
+T8	Person-Name 299 301	培根
+T9	Person-Nominal 226 235;236 243	具现实购买力以及潜 在购买力的人群
+T10	Location-Nominal 226 235;236 245	具现实购买力以及潜 在购买力的人群地段
+T11	Organization-Nominal 219 223	“超市”
+T12	Organization-Nominal 207 211	“超市”
+T13	Person-Nominal 393 402	世界著名拳击运动员
+T14	Person-Name 393 405	世界著名拳击运动员梅威瑟
+T15	Person-Nominal 423 425	对手
+T16	Metric 507 511	300%
+T17	Metric 532 539	2200万美元
+T18	Location-Name 624 626	欧美
+T19	Location-Name 630 632	美国
+T20	Abstract 634 638	工业革命
+T21	Location-Name 642 644	英国
+T22	Time-Explicit 650 657	19世纪下半叶
+T23	Thing-Nominal 658 665	东西海岸线铁路
+T24	Thing-Nominal 705 707	铁路
+T25	Person-Nominal 732 737	自己居住地
+T26	Thing-Nominal 737 739	太阳
+T27	Abstract 781 795	运转的协调性、可控性与高效率
+T28	Person-Nominal 846 848	人们
+T29	Person-Nominal 874 882	法国科学传记作家
+T30	Person-Name 874 884	法国科学传记作家巴莱
+R1	Part-Whole Arg1:T30 Arg2:T29	
+R2	Part-Whole Arg1:T14 Arg2:T13	
+T31	Person-Name 928 931	巴莱伯
+T32	Abstract 932 943	《爱因斯坦：思考的乐趣
+T33	Thing-Nominal 965 966	钟
+T34	Person-Nominal 1031 1033	人们
+T35	Person-Nominal 1053 1055	人们
+T36	Thing-Nominal 1088 1089	钟
+T37	Person-Nominal 1091 1094	西方人
+T38	Thing-Name 1111 1116	“甲虫钟”
+T39	Thing-Nominal 1118 1119	纸
+T40	Location-Nominal 1139 1144	平置的纸上
+T41	Thing-Nominal 1145 1149	一只甲虫
+R3	Located Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 1152 1154	甲虫
+T43	Person-Nominal 1188 1190	人们
+T44	Thing-Nominal 1218 1220	甲虫
+T45	Person-Nominal 1266 1268	人们
+T46	Thing-Nominal 1276 1278	睡莲
+T47	Person-Nominal 1279 1281	人们
+T48	Thing-Nominal 1294 1302	池塘里的一朵睡莲
+T49	Location-Nominal 1294 1297	池塘里
+R4	Located Arg1:T48 Arg2:T49	
+T50	Metric 1310 1312	两朵
+T51	Metric 1318 1331	4朵、8朵、16朵、32朵
+T52	Person-Nominal 1336 1338	人们
+T53	Thing-Nominal 1342 1343	花
+T54	Metric 1344 1347	32朵
+T55	Metric 1351 1355	256朵
+T56	Metric 1358 1366	224“睡莲秒”
+T57	Thing-Name 1370 1373	睡莲钟
+T58	Thing-Nominal 1385 1387	睡莲
+T59	Abstract 1391 1393	指数
+T60	Person-Nominal 1433 1435	人们
+T61	Thing-Nominal 1437 1439	地球
+T62	Thing-Nominal 1441 1442	钟
+T63	Thing-Nominal 1443 1445	地球
+T64	Thing-Nominal 1466 1468	太阳
+T65	Time-Implicit 1469 1478	每天正午当空的时候
+T66	Time-Explicit 1505 1512	公元1900年
+T67	Metric 1497 1503	1“太阳秒“
+T68	Metric 1482 1496	一个平均太阳的1/86400
+T69	Person-Nominal 1522 1524	人们
+T70	Abstract 1539 1543	“光速”
+T71	Person-Nominal 1573 1575	人们
+T72	Person-Nominal 1585 1587	人们
+T73	Thing-Nominal 1589 1593	“时钟”
+T74	Time-Implicit 1623 1628	更早的时候
+T75	Person-Nominal 1628 1630	人们
+T76	Person-Nominal 1646 1649	中国人
+T77	Location-Nominal 1651 1654	猫眼里
+T78	Person-Nominal 1660 1664	法国作家
+T79	Person-Name 1660 1668	法国作家波特莱尔
+R5	Part-Whole Arg1:T79 Arg2:T78	
+T80	Person-Pronoun 1669 1670	他
+*	Coreference T80 T79
+T81	Abstract 1675 1679	《时钟》
+T82	Person-Pronoun 1744 1746	我们
+T83	Abstract 1777 1779	力学
+T84	Abstract 1781 1784	电磁学
+T85	Person-Nominal 1808 1815	宗教神秘主义者
+T86	Thing-Nominal 1854 1856	地球
+T87	Metric 1860 1866	45.6亿年
+T88	Person-Nominal 1867 1869	人类
+T89	Time-Implicit 1873 1879	250多万年
+T90	Metric 1873 1879	250多万年
+T91	Time-Implicit 1860 1866	45.6亿年
+T92	Person-Name 1880 1884	莎士比亚
+T93	Person-Pronoun 1885 1886	他
+*	Coreference T93 T92
+T94	Abstract 1887 1895	《亨利四世上篇》
+T95	Person-Nominal 1945 1952	当代杰出科学家
+T96	Person-Name 1945 1954	当代杰出科学家霍金
+R6	Part-Whole Arg1:T96 Arg2:T95	
+T97	Abstract 1962 1968	量子引力理论
+T98	Thing-Nominal 1982 1986	地球表面
+T99	Abstract 2002 2007	广义相对论
+T100	Person-Pronoun 2009 2011	我们
+T101	Location-Nominal 2042 2049	一片奇幻的宇宙

@@ -1,0 +1,166 @@
+T1	Person-Pronoun 1 2	我
+T2	Location-Nominal 19 22	炊烟里
+T3	Time-Implicit 70 74	腊八这天
+T4	Location-Nominal 75 77	外面
+T5	Person-Nominal 58 60	母亲
+T6	Thing-Nominal 63 67	年节食品
+T7	Time-Implicit 33 35	腊月
+T8	Time-Implicit 24 27	小时候
+T9	Location-Nominal 85 87	屋里
+T10	Person-Nominal 90 92	母亲
+T11	Person-Nominal 93 95	父亲
+T12	Time-Implicit 112 114	腊八
+T13	Thing-Nominal 118 120	眼睛
+T14	Person-Pronoun 126 127	我
+T15	Person-Nominal 137 139	父亲
+T16	Location-Nominal 140 142	灶前
+R1	Family Arg1:T15 Arg2:T14	
+R2	Family Arg1:T11 Arg2:T10	
+T17	Person-Nominal 146 148	母亲
+T18	Location-Nominal 151 153	锅里
+T19	Thing-Nominal 158 161	腊八粥
+R3	Located Arg1:T19 Arg2:T18	
+T20	Location-Nominal 162 165	小屋里
+T21	Thing-Nominal 165 167	热气
+R4	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 173 176	腊八粥
+T23	Person-Pronoun 180 181	我
+T24	Thing-Nominal 194 200	那香喷喷的粥
+T25	Thing-Nominal 201 202	锅
+T26	Thing-Nominal 262 264	肚皮
+T27	Thing-Nominal 257 259	小脸
+T28	Person-Pronoun 230 231	我
+T29	Thing-Nominal 209 212	腊八粥
+T30	Thing-Nominal 212 214	热气
+T31	Person-Nominal 268 270	母亲
+T32	Person-Nominal 283 285	小孩
+T33	Person-Nominal 285 287	小孩
+T34	Person-Pronoun 287 288	你
+*	Coreference T34 T33
+T35	Time-Implicit 293 295	腊八
+T36	Thing-Nominal 307 309	糍粑
+T37	Thing-Nominal 322 324	糍粑
+T38	Thing-Nominal 332 337	五六户人家
+T39	Thing-Nominal 342 344	灶火
+T40	Thing-Nominal 351 353	糯米
+T41	Thing-Nominal 354 356	木桶
+T42	Thing-Nominal 359 361	热气
+T43	Person-Pronoun 418 419	我
+T44	Person-Pronoun 414 415	你
+T45	Thing-Nominal 405 407	米饭
+T46	Thing-Nominal 399 401	木棒
+T47	Thing-Nominal 395 397	哑铃
+T48	Person-Nominal 384 392	几个力气大的汉子
+T49	Thing-Nominal 365 367	糯米
+T50	Location-Nominal 369 383	青石岩雕刻成纹理分明的石臼里
+R5	Located Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 435 438	熟糯米
+T52	Person-Nominal 444 447	汉子们
+T53	Thing-Nominal 448 450	槌棒
+T54	Location-Nominal 451 453	石里
+T55	Thing-Nominal 454 456	糕料
+R6	Located Arg1:T55 Arg2:T54	
+R7	Use Arg1:T52 Arg2:T53	
+T56	Location-Nominal 469 475	方桌的石磨上
+T57	Person-Nominal 477 480	妇女们
+T58	Person-Nominal 539 541	农人
+T59	Thing-Nominal 510 515	热温的糕坏
+T60	Thing-Nominal 493 499	几双灵巧的手
+T61	Thing-Nominal 546 548	糍粑
+T62	Person-Nominal 657 659	父亲
+T63	Location-Nominal 649 651	旁边
+T64	Person-Nominal 643 647	我们小孩
+T65	Person-Pronoun 643 645	我们
+T66	Person-Nominal 638 640	母亲
+T67	Person-Nominal 633 635	父亲
+T68	Time-Implicit 623 628	过两三天后
+T69	Thing-Nominal 630 632	石磨
+T70	Person-Nominal 611 613	母亲
+T71	Thing-Nominal 615 617	黄豆
+T72	Thing-Nominal 618 620	井水
+T73	Time-Implicit 605 607	腊月
+T74	Thing-Nominal 608 610	豆腐
+T75	Thing-Nominal 663 670	那盆泡胀了黄豆
+T76	Thing-Nominal 672 674	豆浆
+T77	Person-Nominal 676 679	小伙们
+T78	Location-Nominal 693 696	石磨边
+T79	Person-Nominal 699 701	父亲
+T80	Thing-Nominal 704 706	黄豆
+T81	Thing-Nominal 709 713	一桶豆浆
+T82	Thing-Nominal 717 719	豆浆
+T83	Person-Nominal 720 722	父亲
+T84	Thing-Nominal 724 726	纱布
+R8	Use Arg1:T83 Arg2:T84	
+T85	Person-Nominal 746 750	小伙伴们
+T86	Person-Pronoun 751 752	谁
+*	Coreference T86 T85
+T87	Thing-Nominal 758 762	干柴烈火
+T88	Location-Nominal 763 765	锅上
+T89	Thing-Nominal 765 767	热气
+R9	Located Arg1:T89 Arg2:T88	
+T90	Person-Nominal 779 782	孩子们
+T91	Thing-Nominal 785 787	脖颈
+T92	Location-Nominal 799 801	锅内
+T93	Location-Nominal 816 818	锅内
+T94	Thing-Nominal 820 839	一块块、一团团洁白似雪、细腻如脂的豆脑
+R10	Located Arg1:T94 Arg2:T93	
+T95	Person-Nominal 840 843	孩子们
+T96	Location-Nominal 900 902	肚中
+T97	Thing-Nominal 878 886	那又嫩又软的豆脑
+T98	Person-Nominal 870 872	每人
+T99	Person-Nominal 864 866	母亲
+T100	Person-Nominal 852 855	大人们
+T101	Person-Pronoun 909 910	谁
+T102	Person-Nominal 918 920	主人
+T103	Person-Pronoun 925 926	你
+T104	Thing-Nominal 936 938	肚皮
+T105	Thing-Nominal 964 969	火红的炉火
+T106	Location-Nominal 970 973	灶膛里
+R11	Located Arg1:T105 Arg2:T106	
+T107	Location-Nominal 985 988	大锅中
+T108	Thing-Nominal 988 993	蒸笼的水汽
+R12	Located Arg1:T108 Arg2:T107	
+T109	Location-Nominal 996 1002	厨房各个角落
+T110	Location-Nominal 1003 1005;1006 1007	空气 中
+T111	Person-Pronoun 954 955	我
+T112	Time-Implicit 945 952	腊月二十八晚上
+T113	Person-Nominal 1016 1018	母亲
+T114	Person-Pronoun 1032 1033	我
+T115	Thing-Nominal 1043 1045	大锅
+T116	Person-Nominal 1052 1054	母亲
+T117	Thing-Nominal 1080 1085	厨房的灯火
+T118	Person-Pronoun 1103 1104	我
+T119	Person-Nominal 1105 1107	母亲
+R13	Family Arg1:T119 Arg2:T118	
+T120	Time-Implicit 1152 1158	每年大年三十
+T121	Thing-Nominal 1159 1162	团年饭
+T122	Person-Nominal 1179 1181	母亲
+T123	Person-Nominal 1182 1184	奶奶
+T124	Thing-Nominal 1187 1189	灶台
+T125	Person-Pronoun 1208 1209	我
+T126	Person-Nominal 1210 1212	哥哥
+T127	Person-Nominal 1264 1265	人
+T128	Thing-Nominal 1260 1272	一碗碗诱人食欲的美味佳肴
+T129	Location-Nominal 1250 1256	厨房与堂屋间
+T130	Person-Pronoun 1244 1246	我们
+T131	Thing-Nominal 1233 1239	厨房里的菜肴
+T132	Location-Nominal 1233 1236	厨房里
+R14	Located Arg1:T131 Arg2:T132	
+T133	Person-Nominal 1214 1216	父亲
+T134	Thing-Nominal 1275 1277	桌子
+T135	Person-Nominal 1283 1285	父亲
+T136	Time-Implicit 1278 1282	每到这时
+T137	Thing-Nominal 1287 1290	三根香
+T138	Location-Nominal 1295 1298	灶台上
+R15	Located Arg1:T137 Arg2:T138	
+T139	Person-Nominal 1303 1306	灶王爷
+T140	Thing-Nominal 1315 1317	鞭炮
+T141	Location-Nominal 1318 1320	院中
+T142	Person-Nominal 1323 1326	一家人
+T143	Thing-Nominal 1359 1361	乡村
+T144	Thing-Nominal 1369 1373	燃气灶具
+T145	Thing-Nominal 1375 1381	烧柴禾的灶台
+T146	Location-Nominal 1397 1400	灶膛里
+T147	Thing-Nominal 1401 1403	火焰
+R16	Located Arg1:T147 Arg2:T146	
+T148	Person-Nominal 1386 1392	最得力的助手

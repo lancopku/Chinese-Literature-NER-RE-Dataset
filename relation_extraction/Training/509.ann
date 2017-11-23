@@ -1,0 +1,199 @@
+T1	Person-Pronoun 2 3	我
+T2	Person-Nominal 10 12	父亲
+R1	Family Arg1:T1 Arg2:T2	
+T3	Person-Nominal 14 16	兽医
+*	Coreference T2 T3
+T4	Person-Pronoun 21 22	我
+T5	Person-Nominal 26 28	兽医
+T6	Person-Nominal 39 41	父亲
+T7	Location-Nominal 42 44	村里
+T8	Person-Nominal 48 51	挣钱人
+*	Coreference T6 T8
+T9	Person-Nominal 68 70	乡亲
+T10	Person-Pronoun 81 82	他
+T11	Person-Pronoun 90 92	我们
+T12	Person-Nominal 100 106	一位兽医父亲
+T13	Person-Pronoun 106 107	我
+*	Coreference T10 T12
+R2	Family Arg1:T13 Arg2:T12	
+T14	Person-Pronoun 119 120	我
+T15	Person-Nominal 125 127	父亲
+T16	Person-Nominal 133 135	兽医
+T17	Thing-Nominal 145 146	猪
+T18	Thing-Nominal 147 148	牛
+T19	Thing-Nominal 149 150	羊
+T20	Person-Nominal 137 155	给那些不会说话的猪、牛、羊看病的医生
+*	Coreference T20 T16
+T21	Person-Nominal 158 160	人医
+T22	Person-Nominal 165 167	兽医
+T23	Person-Nominal 181 183	人们
+T24	Person-Nominal 190 198	从事这项工作的人
+*	Coreference T24 T22
+T25	Person-Pronoun 224 225	我
+T26	Time-Implicit 231 235	那天傍晚
+T27	Person-Nominal 236 238	父亲
+T28	Location-Nominal 241 242	家
+T29	Metric 242 245	几十里
+T30	Organization-Nominal 247 250	兽医站
+T31	Thing-Nominal 251 254	自行车
+T32	Location-Nominal 257 259	村里
+T33	Person-Nominal 259 267	一位上了年纪的人
+R3	Ownership Arg1:T27 Arg2:T30	
+T34	Person-Nominal 276 278	父亲
+T35	Thing-Nominal 279 280	猪
+T36	Person-Nominal 281 283	父亲
+T37	Thing-Nominal 286 287	猪
+T38	Thing-Nominal 288 289	猪
+T39	Time-Implicit 294 296	早上
+T40	Time-Implicit 305 307	明天
+T41	Person-Nominal 312 314	那人
+T42	Person-Nominal 322 324	父亲
+T43	Thing-Nominal 345 349	牛牙叉骨
+T44	Thing-Nominal 351 352	驴
+T45	Person-Nominal 355 357	兽医
+T46	Person-Nominal 367 369	老子
+T47	Person-Nominal 378 380	那人
+*	Coreference T46 T47
+T48	Person-Nominal 387 389	父亲
+T49	Thing-Nominal 391 393	椅子
+T50	Thing-Nominal 402 403	烟
+T51	Person-Pronoun 404 405	他
+*	Coreference T51 T48
+T52	Time-Implicit 405 407	那天
+T53	Thing-Nominal 411 413;414 415	一支 烟
+T54	Location-Nominal 430 433	屋子里
+T55	Person-Pronoun 436 437	我
+T56	Person-Pronoun 451 452	我
+T57	Person-Nominal 455 457	别人
+T58	Person-Nominal 461 463	父亲
+T59	Person-Nominal 466 468	父亲
+T60	Person-Nominal 475 477	父亲
+T61	Metric 500 502	一分
+T62	Person-Nominal 526 528	父亲
+T63	Location-Nominal 529 531	村里
+T64	Person-Nominal 539 541	人们
+T65	Person-Pronoun 545 546	我
+T66	Person-Nominal 549 551	父亲
+T67	Person-Nominal 552 554	兽医
+T68	Person-Pronoun 561 562	他
+*	Coreference T68 T66
+R4	Social Arg1:T62 Arg2:T64	
+T69	Person-Pronoun 581 582	我
+T70	Person-Pronoun 593 594	我
+T71	Person-Nominal 599 601	兽医
+T72	Person-Nominal 606 616	干了一辈子兽医的父亲
+T73	Location-Nominal 617 619	家里
+T74	Time-Explicit 627 632	上班前一晚
+T75	Person-Pronoun 633 634	我
+T76	Person-Nominal 640 642	父亲
+T77	Person-Pronoun 643 644	我
+R5	Family Arg1:T77 Arg2:T76	
+T78	Person-Nominal 647 649	父亲
+T79	Person-Pronoun 654 655	我
+T80	Person-Pronoun 668 669	我
+T81	Person-Pronoun 680 681	他
+T82	Person-Pronoun 685 686	我
+T83	Person-Pronoun 692 693	我
+T84	Person-Nominal 695 697	父亲
+*	Coreference T84 T81
+T85	Person-Nominal 704 706	人家
+T86	Person-Nominal 706 711	一个女孩子
+*	Coreference T86 T85 T88
+T87	Person-Nominal 713 715	兽医
+T88	Person-Pronoun 717 718	我
+T89	Thing-Nominal 725 727	狮子
+T90	Person-Nominal 733 735	父亲
+T91	Person-Pronoun 742 743	我
+T92	Person-Pronoun 748 749	他
+T93	Person-Nominal 750 752	父亲
+*	Coreference T93 T92
+T94	Person-Pronoun 775 776	我
+T95	Person-Nominal 782 784	父亲
+T96	Location-Nominal 786 792	一个山村小站
+T97	Time-Implicit 796 799	那时候
+T98	Person-Nominal 800 802	父亲
+T99	Person-Pronoun 809 810	他
+*	Coreference T99 T98
+T100	Person-Pronoun 822 823	我
+T101	Location-Nominal 852 854	站上
+T102	Person-Pronoun 861 862	他
+T103	Person-Nominal 865 867	同事
+R6	Social Arg1:T103 Arg2:T100	
+T104	Person-Nominal 872 875	同事们
+T105	Person-Name 882 885	文师傅
+T106	Person-Pronoun 887 889	我们
+*	Coreference T106 T104
+T107	Person-Nominal 890 894;895 897	免费指导 老师
+T108	Person-Pronoun 899 901	我们
+T109	Person-Pronoun 904 905	他
+*	Coreference T109 T107
+*	Coreference T105 T102
+T110	Person-Pronoun 916 917	我
+T111	Person-Nominal 930 932	同学
+R7	Social Arg1:T111 Arg2:T110	
+T112	Person-Pronoun 936 937	我
+T113	Person-Nominal 945 947	医生
+*	Coreference T112 T113
+T114	Person-Pronoun 952 953	我
+T115	Thing-Nominal 954 956	电话
+T116	Person-Nominal 958 965	远方的一位朋友
+R8	Social Arg1:T116 Arg2:T114	
+T117	Person-Pronoun 969 970	她
+T118	Person-Pronoun 971 972	我
+*	Coreference T117 T116
+T119	Person-Pronoun 978 979	我
+T120	Person-Pronoun 986 987	她
+T121	Person-Pronoun 988 989	我
+T122	Organization-Nominal 990 998	一家政府机关单位
+T123	Person-Nominal 1002 1004	父亲
+T124	Person-Pronoun 1006 1008	我们
+T125	Person-Pronoun 1051 1052	我
+T126	Location-Nominal 1053 1058	基层兽医站
+T127	Time-Explicit 1063 1066	16年
+T128	Time-Explicit 1068 1071	16年
+T129	Person-Pronoun 1072 1073	我
+T130	Person-Nominal 1078 1080	兽医
+*	Coreference T129 T130
+T131	Person-Nominal 1095 1097	父亲
+T132	Person-Nominal 1114 1116	父亲
+T133	Person-Nominal 1153 1155	自己
+T134	Person-Nominal 1121 1122	人
+T135	Person-Nominal 1144 1145	人
+*	Coreference T133 T135
+T136	Time-Implicit 1170 1173	前不久
+T137	Organization-Nominal 1174 1180	有家事业单位
+T138	Person-Pronoun 1183 1184	我
+R9	Ownership Arg1:T125 Arg2:T126	
+T139	Person-Pronoun 1191 1192	我
+T140	Person-Nominal 1200 1202	父亲
+T141	Person-Pronoun 1212 1213	我
+T142	Person-Pronoun 1216 1217	你
+*	Coreference T142 T139
+*	Coreference T140 T141
+T143	Person-Pronoun 1225 1226	我
+T144	Time-Implicit 1239 1242	十几年
+T145	Time-Implicit 1260 1264	几天之后
+T146	Person-Pronoun 1265 1266	我
+T147	Person-Nominal 1337 1344	基层兽医工作者
+T148	Thing-Nominal 1346 1348	青丝
+T149	Thing-Nominal 1350 1352	白发
+T150	Person-Nominal 1356 1358	父亲
+T151	Person-Pronoun 1365 1366	我
+*	Coreference T151 T147
+T152	Time-Implicit 1372 1375	前几天
+T153	Person-Nominal 1376 1378	父亲
+T154	Person-Pronoun 1382 1383	我
+T155	Organization-Nominal 1384 1386	医院
+T156	Person-Nominal 1389 1391	父亲
+T157	Person-Pronoun 1401 1402	他
+*	Coreference T157 T156
+T158	Location-Nominal 1411 1413	农村
+T159	Person-Nominal 1413 1418	养家畜的人
+T160	Person-Pronoun 1430 1432	你们
+T161	Organization-Nominal 1448 1450	国家
+T162	Person-Nominal 1468 1470	父亲
+T163	Thing-Nominal 1490 1493	玻璃窗
+T164	Person-Nominal 1496 1498	父亲
+R10	Social Arg1:T56 Arg2:T57	
+R11	Family Arg1:T78 Arg2:T79	
+T165	Thing-Nominal 1478 1480	太阳

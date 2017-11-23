@@ -1,0 +1,153 @@
+T1	Time-Implicit 0 4	七十年前
+T2	Person-Nominal 5 7	爷爷
+T3	Person-Nominal 11 13	地主
+R1	Social Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 11 17	地主家的农田
+R2	Use Arg1:T2 Arg2:T4	
+T5	Thing-Nominal 19 20	星
+T6	Thing-Nominal 21 22	月
+T7	Thing-Nominal 26 28	咸菜
+T8	Thing-Nominal 28 30	稀粥
+T9	Location-Name 45 47	赤县
+T10	Time-Implicit 50 54	六十年前
+T11	Thing-Nominal 55 57	春雷
+T12	Thing-Nominal 60 61	天
+T13	Organization-Name 67 70	共产党
+T14	Organization-Nominal 65 67	救星
+*	Coreference T14 T13
+T15	Person-Nominal 71 74	穷苦人
+R3	General-Special Arg1:T15 Arg2:T2	
+T16	Thing-Nominal 83 85	房屋
+T17	Thing-Nominal 87 89	农田
+T18	Time-Implicit 99 103	五十年前
+T19	Person-Nominal 104 106	父亲
+R4	Family Arg1:T19 Arg2:T2	
+T20	Thing-Nominal 110 114	公社的田
+R5	Use Arg1:T19 Arg2:T20	
+T21	Abstract 121 125	社会主义
+T22	Thing-Nominal 126 130	天灾人祸
+T23	Time-Explicit 132 136	困难时期
+T24	Metric 137 139	三年
+T25	Time-Implicit 141 145	四十年前
+T26	Abstract 149 153	社会主义
+T27	Thing-Nominal 154 155	草
+T28	Abstract 158 162	资本主义
+T29	Thing-Nominal 163 164	苗
+T30	Person-Pronoun 168 170	自己
+T31	Thing-Pronoun 167 168	啥
+T32	Thing-Nominal 177 179	肚子
+R6	Part-Whole Arg1:T32 Arg2:T30	
+T33	Abstract 192 197	文化大革命
+T34	Metric 198 200	十年
+T35	Time-Explicit 191 200	“文化大革命”十年
+T36	Time-Implicit 222 226	三十年前
+T37	Person-Pronoun 227 228	我
+T38	Thing-Nominal 232 238	联产承包的田
+R7	Use Arg1:T37 Arg2:T38	
+T39	Abstract 239 243	改革开放
+T40	Person-Pronoun 243 244	我
+R8	Family Arg1:T37 Arg2:T19	
+R9	Family Arg1:T37 Arg2:T2	
+T41	Thing-Nominal 246 249	拖拉机
+R10	Use Arg1:T40 Arg2:T41	
+R11	Ownership Arg1:T40 Arg2:T41	
+T42	Thing-Nominal 254 256	黄土
+T43	Thing-Nominal 257 259	朝天
+T44	Thing-Nominal 252 253	面
+R12	Part-Whole Arg1:T44 Arg2:T40	
+T45	Thing-Nominal 256 257	背
+R13	Part-Whole Arg1:T45 Arg2:T40	
+T46	Thing-Nominal 261 262	头
+T47	Thing-Nominal 264 266	腰腿
+T48	Person-Nominal 271 272	人
+R14	Part-Whole Arg1:T47 Arg2:T48	
+R15	Part-Whole Arg1:T46 Arg2:T48	
+T49	Thing-Nominal 263 264	秧
+T50	Thing-Nominal 268 270	机械
+R16	Use Arg1:T48 Arg2:T50	
+T51	Person-Pronoun 276 277	我
+T52	Thing-Nominal 279 282	拖拉机
+T53	Thing-Nominal 287 290	方向盘
+R17	Part-Whole Arg1:T53 Arg2:T52	
+R18	Create Arg1:T51 Arg2:T53	
+T54	Time-Implicit 298 302	二十年前
+T55	Abstract 303 307	市场经济
+T56	Thing-Nominal 309 310	田
+T57	Person-Pronoun 307 308	我
+R19	Use Arg1:T57 Arg2:T56	
+T58	Thing-Nominal 311 315	塑料大棚
+T59	Location-Nominal 316 318	田园
+R20	Located Arg1:T58 Arg2:T59	
+T60	Thing-Nominal 319 323	蔬菜瓜果
+R21	Located Arg1:T60 Arg2:T59	
+T61	Time-Implicit 323 325	四季
+T62	Person-Pronoun 328 330	自己
+T63	Person-Nominal 336 339	城里人
+T64	Person-Nominal 348 352	咱乡下人
+*	Coreference T62 T64 T77 T87 T116
+T65	Abstract 343 345	市场
+T66	Location-Nominal 357 358;359 361	农 家院
+T67	Thing-Nominal 353 355	笑声
+T68	Location-Nominal 365 371	无垠的粮谷田
+R22	Located Arg1:T67 Arg2:T68	
+T69	Thing-Nominal 374 376	庄稼
+R23	Located Arg1:T69 Arg2:T68	
+T70	Thing-Nominal 382 386	手机彩铃
+T71	Thing-Nominal 386 388	喜讯
+R24	Located Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 374 381	庄稼拔节的声音
+T73	Location-Nominal 391 395	楼上楼下
+T74	Thing-Nominal 396 400	电灯电话
+R25	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 401 405	家用电器
+R26	General-Special Arg1:T75 Arg2:T74	
+T76	Person-Nominal 410 413	城里人
+T77	Person-Pronoun 417 418	咱
+T78	Time-Implicit 420 423	十年前
+T79	Person-Pronoun 424 425	我
+T80	Thing-Nominal 427 433	国家免税的田
+R27	Use Arg1:T79 Arg2:T80	
+T81	Thing-Nominal 435 436	粮
+T82	Thing-Nominal 437 438	税
+T83	Time-Implicit 442 444	今朝
+T84	Thing-Nominal 447 449	税赋
+T85	Time-Implicit 450 452	古今
+T86	Location-Nominal 452 454	中外
+T87	Person-Nominal 459 462	我农民
+T88	Organization-Nominal 462 463	党
+T89	Time-Implicit 467 469	如今
+T90	Person-Pronoun 470 471	我
+T91	Thing-Nominal 474 480	国家补钱的田
+R28	Use Arg1:T90 Arg2:T91	
+T92	Thing-Nominal 482 484	农资
+T93	Thing-Nominal 486 488	农机
+T94	Thing-Nominal 490 492	农书
+T95	Location-Nominal 496 498	家园
+R29	Ownership Arg1:T87 Arg2:T95	
+T96	Thing-Nominal 499 503	沧海桑田
+T97	Thing-Nominal 507 508	衣
+T98	Thing-Nominal 509 510	食
+T99	Thing-Nominal 513 514	酒
+T100	Thing-Nominal 518 519	墨
+T101	Thing-Nominal 519 521	诗文
+T102	Time-Implicit 524 526	如今
+T103	Location-Nominal 527 529	乡下
+T104	Thing-Nominal 530 532	良田
+R30	Located Arg1:T104 Arg2:T103	
+T105	Location-Nominal 533 535	城市
+T106	Thing-Nominal 536 538	楼房
+R31	Located Arg1:T106 Arg2:T105	
+T107	Thing-Nominal 539 543	时毛穿戴
+T108	Time-Implicit 547 549	昨天
+T109	Person-Nominal 544 546	名流
+T110	Person-Nominal 550 551	亲
+T111	Thing-Nominal 559 561	飞机
+T112	Location-Name 562 564	北京
+T113	Location-Name 566 568	海南
+T114	Thing-Nominal 570 574	锦绣河山
+T115	Person-Nominal 576 581	三代种田人
+T116	Person-Nominal 617 621	咱庄稼人
+R32	General-Special Arg1:T116 Arg2:T115	
+R33	General-Special Arg1:T64 Arg2:T37	
+R34	General-Special Arg1:T64 Arg2:T19	
+R35	General-Special Arg1:T64 Arg2:T2	

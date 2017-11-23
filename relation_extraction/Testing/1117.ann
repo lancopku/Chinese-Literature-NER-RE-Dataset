@@ -1,0 +1,177 @@
+T1	Person-Name 0 12	可敬可亲可爱的邓小平同志
+T2	Person-Pronoun 16 18	我们
+T3	Location-Nominal 21 22	河
+T4	Thing-Nominal 28 30	老鼠
+T5	Thing-Nominal 31 33	好猫
+T6	Person-Pronoun 36 38	我们
+T7	Thing-Nominal 41 46	出国的大门
+T8	Person-Pronoun 47 54	激动又兴奋的我
+T9	Location-Nominal 59 60	国
+T10	Time-Implicit 69 76	办理注销户口时
+T11	Thing-Nominal 98 100	双脚
+T12	Person-Pronoun 96 97	我
+R1	Part-Whole Arg1:T11 Arg2:T12	
+T13	Location-Name 102 106	澳大利亚
+T14	Time-Implicit 96 107	我的双脚踏上澳大利亚时
+T15	Thing-Nominal 127 132	美丽的花园
+T16	Thing-Nominal 133 139	现代化的都市
+T17	Location-Name 141 144	墨尔本
+T18	Time-Implicit 146 151	盛情的夏季
+T19	Location-Nominal 152 158	湛蓝的天空里
+T20	Thing-Nominal 161 165	朵朵白云
+R2	Located Arg1:T20 Arg2:T19	
+T21	Thing-Nominal 166 172	金黄色的沙滩
+T22	Thing-Nominal 175 182	一望无边的海洋
+T23	Thing-Nominal 184 189	璀璨的浪花
+T24	Person-Pronoun 193 195	我们
+T25	Thing-Nominal 199 200	物
+T26	Person-Pronoun 202 204	我们
+T27	Person-Nominal 218 225	几千名中国学生
+T28	Location-Nominal 228 230	车站
+T29	Person-Nominal 231 236	澳大利亚人
+T30	Thing-Nominal 237 242	奇怪的眼光
+T31	Person-Pronoun 245 247	他们
+*	Coreference T31 T27
+T32	Location-Nominal 253 255	旅店
+T33	Thing-Nominal 263 264	钱
+T34	Person-Pronoun 271 273	我们
+T35	Time-Implicit 288 292	两个月后
+T36	Person-Pronoun 293 294	我
+T37	Thing-Nominal 300 304	一份工作
+T38	Person-Nominal 330 334	很多学生
+T39	Time-Implicit 362 364	当时
+T40	Location-Name 366 370	澳大利亚
+T41	Location-Nominal 372 374	国内
+T42	Person-Nominal 388 390	干部
+T43	Person-Nominal 391 393	党员
+T44	Person-Nominal 394 396	教师
+T45	Person-Nominal 397 399	医生
+T46	Person-Pronoun 413 415	他们
+T47	Person-Nominal 388 399	干部、党员、教师、医生
+*	Coreference T46 T47 T48
+T48	Person-Pronoun 415 417	自己
+T49	Person-Pronoun 419 421	自己
+T50	Thing-Nominal 422 425	铁饭碗
+R3	Ownership Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 428 430	学费
+T52	Metric 434 437	几个月
+T53	Person-Nominal 443 445	学生
+T54	Location-Nominal 471 478	山穷水尽的处境
+T55	Location-Nominal 484 485	府
+T56	Time-Implicit 511 515	一次晚上
+T57	Thing-Nominal 518 520	火车
+T58	Time-Implicit 515 523	下课乘火车回来时
+T59	Person-Nominal 536 539	一个人
+T60	Location-Nominal 541 547	车站的靠椅上
+T61	Location-Nominal 550 553	背包里
+T62	Thing-Nominal 555 563	一张三口子的照片
+R4	Located Arg1:T62 Arg2:T61	
+T63	Thing-Nominal 566 568	月光
+T64	Location-Nominal 541 543	车站
+T65	Thing-Nominal 544 546	靠椅
+R5	Located Arg1:T65 Arg2:T64	
+T66	Thing-Nominal 579 583	洪水猛兽
+T67	Location-Nominal 589 591	周身
+R6	Located Arg1:T66 Arg2:T67	
+T68	Location-Nominal 596 601	夜晚的天空
+T69	Thing-Nominal 602 608;609 610	密密匝匝的星 星
+R7	Located Arg1:T69 Arg2:T68	
+T70	Location-Nominal 620 624	我头顶上
+R8	Located Arg1:T69 Arg2:T70	
+T71	Person-Pronoun 620 621	我
+T72	Thing-Nominal 629 631	眼睛
+T73	Thing-Nominal 635 636	手
+T74	Thing-Pronoun 641 643	它们
+*	Coreference T74 T69
+T75	Thing-Nominal 656 661	沙沙的轻风
+T76	Location-Nominal 674 679	美好的家乡
+T77	Thing-Nominal 705 707	明月
+T78	Thing-Nominal 703 704	头
+T79	Thing-Nominal 709 710	头
+T80	Location-Nominal 711 713	故乡
+T81	Location-Nominal 744 749	一根情丝上
+T82	Thing-Nominal 752 753	风
+T83	Thing-Nominal 754 755	雨
+T84	Thing-Nominal 757 759	高山
+T85	Thing-Nominal 762 763	海
+T86	Thing-Nominal 764 766	天空
+T87	Thing-Pronoun 777 778	她
+T88	Location-Pronoun 780 782	那里
+T89	Thing-Nominal 783 785	泪花
+T90	Location-Nominal 786 788	口中
+R9	Located Arg1:T89 Arg2:T90	
+T91	Location-Nominal 802 805	脑海里
+T92	Location-Nominal 812 814	故乡
+T93	Location-Nominal 817 819	老家
+T94	Person-Pronoun 822 824	我们
+T95	Thing-Nominal 824 837	在外学习、工作、奋斗的源泉
+T96	Thing-Nominal 842 853	一幅富有诗情画意的景观
+T97	Person-Nominal 855 857	父母
+T98	Person-Nominal 858 860	妻儿
+T99	Person-Nominal 862 864	发小
+T100	Person-Nominal 865 869	同窗好友
+T101	Thing-Nominal 871 875	山山水水
+T102	Thing-Nominal 877 881	五谷杂粮
+T103	Thing-Nominal 882 884	小鱼
+T104	Thing-Nominal 884 886	小虾
+T105	Location-Nominal 895 897	故乡
+T106	Organization-Nominal 903 906	洋插队
+T107	Location-Nominal 908 909	山
+T108	Location-Nominal 910 911	乡
+T109	Thing-Nominal 933 935	根系
+T110	Person-Nominal 937 942	澳大利亚人
+T111	Person-Nominal 958 963;964 968	我们11个 中国学生
+T112	Location-Nominal 971 984	一幢破旧的三房一厅的别墅里
+T113	Time-Implicit 985 987	晚上
+T114	Person-Nominal 989 991	大家
+T115	Location-Nominal 994 997	屋子里
+T116	Thing-Nominal 998 1003	炸开了的锅
+T117	Thing-Nominal 1005 1006	饭
+T118	Thing-Nominal 1008 1009	菜
+T119	Thing-Nominal 1011 1012	饭
+T120	Thing-Nominal 1018 1020	炉灶
+T121	Thing-Nominal 1026 1028	水斗
+T122	Thing-Nominal 1033 1036	洗澡间
+T123	Thing-Nominal 1042 1044	木板
+T124	Thing-Nominal 1048 1050	台子
+T125	Person-Nominal 1080 1084	两位女生
+T126	Thing-Nominal 1105 1108	厕所间
+T127	Location-Nominal 1122 1125	院子里
+T128	Location-Nominal 1127 1131	整幢屋子
+T129	Thing-Nominal 1139 1143	一件家用
+T130	Thing-Nominal 1148 1150	地毯
+T131	Location-Nominal 1153 1156	地毯上
+T132	Location-Nominal 1159 1162	地毯上
+T133	Location-Nominal 1166 1169	地毯上
+T134	Thing-Nominal 1186 1192	一个安稳的家
+T135	Time-Implicit 1194 1197	两年前
+T136	Location-Nominal 1202 1204	老家
+T137	Location-Name 1206 1209	海宁市
+T138	Thing-Nominal 1217 1218	潮
+T139	Location-Nominal 1226 1229	火车站
+T140	Location-Nominal 1230 1239	一座小巧玲珑的小山
+R10	Near Arg1:T140 Arg2:T139	
+T141	Metric 1241 1243	百米
+T142	Location-Nominal 1248 1251	坡峰处
+T143	Time-Implicit 1262 1263	今
+T144	Thing-Nominal 1265 1272	林林总总的高楼
+T145	Thing-Nominal 1278 1280	古镇
+T146	Thing-Nominal 1284 1287	大都市
+T147	Thing-Nominal 1288 1292	古道小巷
+T148	Thing-Nominal 1295 1301	钢筋水泥大道
+T149	Person-Name 1302 1315;1316 1317	陈家洛、王国维、徐志摩、金 庸
+T150	Person-Pronoun 1317 1319	他们
+*	Coreference T150 T149
+T151	Location-Nominal 1320 1322	老家
+T152	Thing-Nominal 1325 1326	路
+T153	Person-Nominal 1329 1333	亲朋好友
+T154	Person-Nominal 1334 1339	父老乡亲们
+T155	Thing-Nominal 1352 1362	三居室或四居室的套房
+T156	Metric 1366 1368	百倍
+T157	Person-Nominal 1375 1376	人
+T158	Location-Nominal 1382 1388	我以前的老家
+T159	Person-Pronoun 1382 1383	我
+T160	Thing-Nominal 871 875	山山水水
+T161	Location-Nominal 1405 1407	故乡
+T162	Person-Nominal 1413 1414	人
+T163	Thing-Nominal 1399 1403	神州大地

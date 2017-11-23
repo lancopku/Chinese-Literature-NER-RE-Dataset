@@ -1,0 +1,135 @@
+T1	Thing-Nominal 0 2	葡萄
+T2	Thing-Nominal 19 21	葡萄
+T3	Thing-Nominal 39 41	葡萄
+T4	Metric 45 47	一亩
+T5	Time-Implicit 50 52	春天
+T6	Time-Implicit 53 55	夏秋
+T7	Thing-Nominal 62 63	芽
+T8	Thing-Nominal 65 66	叶
+T9	Location-Name 92 98	关中渭河两岸
+T10	Location-Nominal 111 113	角落
+T11	Thing-Nominal 115 117	葡萄
+R1	Part-Whole Arg1:T8 Arg2:T11	
+R2	Part-Whole Arg1:T7 Arg2:T11	
+T12	Person-Nominal 148 151	果农们
+T13	Person-Pronoun 178 179	我
+T14	Thing-Nominal 193 195	葡萄
+T15	Thing-Pronoun 196 198	她们
+*	Coreference T14 T15 T16 T17 T20
+T16	Thing-Pronoun 208 210	她们
+T17	Thing-Pronoun 202 204	她们
+T18	Thing-Nominal 210 211	水
+T19	Thing-Nominal 212 213	火
+T20	Thing-Pronoun 215 217	她们
+T21	Person-Nominal 223 227	果农农民
+T22	Person-Nominal 229 231	市民
+T23	Person-Nominal 231 235;236 237	黎民百姓 们
+T24	Organization-Nominal 261 262	家
+T25	Time-Implicit 270 277	每年的早春三月
+T26	Time-Implicit 281 283	七月
+T27	Thing-Nominal 280 281	火
+T28	Metric 286 290	150天
+T29	Location-Nominal 301 305	冻土层下
+T30	Thing-Nominal 306 310	葡萄苗树
+R3	Located Arg1:T30 Arg2:T29	
+T31	Person-Nominal 312 316	农民兄弟
+T32	Person-Nominal 316 320	一家老小
+T33	Location-Nominal 339 341	农家
+T34	Organization-Nominal 347 348	家
+T35	Metric 354 356	一亩
+T36	Location-Nominal 372 376	葡萄苗树
+T37	Metric 385 387	一米
+T38	Location-Nominal 396 398	边畔
+T39	Location-Nominal 398 400	埂路
+T40	Time-Implicit 425 430	冰封大地前
+T41	Thing-Nominal 434 436	底肥
+T42	Thing-Nominal 436 438	鸡粪
+R4	General-Special Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 447 450	葡萄树
+T44	Location-Nominal 451 453	根底
+R5	Located Arg1:T42 Arg2:T44	
+T45	Time-Implicit 454 456	开春
+T46	Thing-Nominal 457 458	芽
+T47	Thing-Nominal 459 460	叶
+T48	Thing-Nominal 461 462	枝
+T49	Thing-Nominal 463 464	花
+T50	Thing-Nominal 468 469	果
+R6	Part-Whole Arg1:T46 Arg2:T43	
+R7	Part-Whole Arg1:T47 Arg2:T43	
+R8	Part-Whole Arg1:T48 Arg2:T43	
+R9	Part-Whole Arg1:T50 Arg2:T43	
+R10	Part-Whole Arg1:T49 Arg2:T43	
+T51	Thing-Nominal 480 481	肥
+T52	Thing-Nominal 482 483	肥
+T53	Thing-Nominal 487 488	花
+T54	Thing-Nominal 489 490	花
+T55	Thing-Nominal 491 492	枝
+T56	Thing-Nominal 493 494	尖
+T57	Thing-Nominal 495 496	顶
+T58	Thing-Nominal 506 508	果子
+T59	Time-Implicit 506 511	果子定型期
+T60	Person-Nominal 512 514	果农
+R11	Part-Whole Arg1:T57 Arg2:T43	
+R12	Part-Whole Arg1:T56 Arg2:T43	
+R13	Part-Whole Arg1:T55 Arg2:T43	
+R14	Part-Whole Arg1:T54 Arg2:T43	
+R15	Part-Whole Arg1:T53 Arg2:T43	
+T61	Organization-Nominal 526 527	家
+T62	Thing-Nominal 566 567	雨
+T63	Thing-Nominal 578 580	葡萄
+T64	Thing-Nominal 601 602	虫
+T65	Thing-Nominal 618 619	风
+T66	Thing-Nominal 625 626	苗
+T67	Thing-Nominal 628 629	花
+T68	Thing-Nominal 641 642	风
+T69	Thing-Nominal 650 652	鸟雀
+T70	Thing-Nominal 680 684	围网屏账
+T71	Metric 690 694	150天
+T72	Thing-Nominal 726 727	树
+T73	Thing-Nominal 730 732	葡萄
+R16	Part-Whole Arg1:T73 Arg2:T72	
+T74	Person-Nominal 748 750	果农
+T75	Location-Nominal 766 767	村
+T76	Location-Nominal 768 769	乡
+T77	Location-Nominal 770 771	镇
+T78	Time-Implicit 783 785	今年
+T79	Thing-Nominal 785 787	葡萄
+T80	Metric 807 808;809 810	两 元
+T81	Person-Nominal 821 825	少数果农
+T82	Thing-Nominal 828 833	催熟发红剂
+R17	Use Arg1:T81 Arg2:T82	
+T83	Person-Pronoun 834 836	他们
+*	Coreference T83 T81
+T84	Metric 839 841	几天
+T85	Person-Nominal 863 867	外地果商
+T86	Thing-Nominal 878 879	车
+R18	Use Arg1:T85 Arg2:T86	
+T87	Person-Nominal 884 889	本地市民们
+T88	Thing-Nominal 901 903	葡萄
+T89	Metric 906 908	几天
+T90	Thing-Nominal 910 912	盘子
+R19	Located Arg1:T88 Arg2:T90	
+T91	Person-Nominal 941 945	果农兄弟
+T92	Person-Nominal 945 947	自己
+*	Coreference T91 T92
+T93	Time-Implicit 954 956	往年
+T94	Metric 956 958	一亩
+T95	Metric 973 975	一斤
+T96	Metric 981 983	一亩
+T97	Thing-Nominal 986 988	葡萄
+T98	Metric 988 992	七八千斤
+T99	Metric 999 1002	三四元
+T100	Metric 1006 1009	两万元
+T101	Thing-Nominal 1015 1017	化肥
+T102	Thing-Nominal 1017 1019	农药
+T103	Thing-Nominal 1020 1021	水
+T104	Metric 1023 1027	5000
+T105	Person-Nominal 1050 1051	农
+T106	Metric 1052 1056	150天
+T107	Metric 1070 1074	150天
+T108	Metric 1081 1085	150天
+T109	Metric 1090 1092	每斤
+T110	Metric 1092 1096	3以上元
+T111	Time-Implicit 1108 1110	今年
+T112	Thing-Nominal 1111 1113	葡萄
+T113	Metric 1130 1132	2元

@@ -1,0 +1,94 @@
+T1	Location-Nominal 6 9	电脑前
+T2	Time-Explicit 52 54	如今
+T3	Person-Nominal 105 107	自己
+T4	Time-Explicit 111 113	而今
+T5	Person-Pronoun 132 133	我
+T6	Person-Nominal 133 139;140 142	一样或者不同 的人
+T7	Person-Pronoun 144 146	他们
+*	Coreference T7 T6
+T8	Thing-Nominal 210 218	一本寻了好久的书
+T9	Person-Nominal 224 226	别人
+T10	Thing-Nominal 227 228	书
+T11	Thing-Nominal 236 238	电脑
+T12	Person-Pronoun 264 266	他们
+T13	Person-Nominal 273 275	自己
+T14	Time-Implicit 296 301	静静的夜里
+T15	Person-Nominal 320 322	自己
+T16	Person-Pronoun 341 342	我
+T17	Person-Nominal 402 404	人们
+T18	Time-Implicit 401 412	当人们都进入梦乡的时候
+T19	Time-Implicit 421 424	有时候
+T20	Location-Nominal 427 436	洒满融融月光的窗前
+T21	Thing-Nominal 431 433	月光
+R1	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 440 441	灯
+T23	Person-Pronoun 550 551	你
+T24	Person-Pronoun 576 577	你
+T25	Location-Nominal 583 586	书桌旁
+T26	Location-Nominal 589 592	沙发上
+T27	Location-Nominal 597 599	床上
+T28	Person-Pronoun 601 602	你
+T29	Thing-Nominal 602 613	喜欢的或精致或朴实的书
+T30	Thing-Nominal 615 617	面前
+R2	Located Arg1:T29 Arg2:T30	
+T31	Thing-Nominal 619 621	双手
+R3	Part-Whole Arg1:T31 Arg2:T28	
+T32	Thing-Nominal 633 635	眼睛
+R4	Part-Whole Arg1:T32 Arg2:T28	
+T33	Time-Implicit 639 641	这时
+T34	Person-Pronoun 652 653	你
+T35	Person-Nominal 677 679	作家
+T36	Time-Implicit 710 714	春的静夜
+T37	Location-Nominal 721 723	窗外
+T38	Location-Nominal 727 730	空气中
+T39	Time-Implicit 755 759	夏的静夜
+T40	Thing-Nominal 774 776	汗水
+T41	Location-Nominal 780 782	肌肤
+R5	Located Arg1:T40 Arg2:T41	
+T42	Person-Pronoun 795 796	我
+T43	Time-Implicit 818 822	秋的静夜
+T44	Thing-Nominal 823 824;825 826	虫 儿
+T45	Location-Nominal 828 830	外面
+R6	Located Arg1:T44 Arg2:T45	
+T46	Location-Nominal 833 839	凉爽的斗室里
+T47	Time-Implicit 855 857	此时
+T48	Time-Implicit 867 871	冬的寒夜
+T49	Location-Nominal 874 879	外面的世界
+T50	Thing-Nominal 879 881	北风
+R7	Located Arg1:T50 Arg2:T49	
+T51	Thing-Nominal 884 885;886 887	雪 花
+R8	Located Arg1:T51 Arg2:T49	
+T52	Location-Nominal 890 893	房间里
+T53	Person-Pronoun 907 908	我
+T54	Time-Implicit 917 921	春夏秋冬
+T55	Thing-Nominal 922 926	风霜雨雪
+T56	Person-Nominal 965 967	作家
+T57	Location-Nominal 974 975;976 980	海 的遥远处
+T58	Thing-Nominal 987 991	日月星辰
+T59	Person-Pronoun 1012 1013	你
+T60	Thing-Nominal 1017 1021	金戈铁马
+T61	Person-Nominal 1027 1029	情侣
+T62	Thing-Nominal 1044 1046	禾苗
+T63	Person-Pronoun 1060 1061	你
+T64	Thing-Pronoun 1067 1068	她
+T65	Person-Pronoun 1077 1078	你
+T66	Person-Pronoun 1095 1096	你
+T67	Thing-Nominal 1108 1110	篝火
+T68	Person-Pronoun 1105 1106	你
+T69	Person-Pronoun 1122 1123	你
+T70	Thing-Nominal 1125 1130	甘甜的泉水
+T71	Person-Pronoun 1131 1132	你
+T72	Person-Pronoun 1140 1141	你
+T73	Person-Pronoun 1087 1088	你
+T74	Thing-Pronoun 1084 1085	她
+T75	Thing-Pronoun 1103 1104	她
+T76	Person-Pronoun 1113 1114	你
+T77	Thing-Pronoun 1120 1121	她
+T78	Person-Pronoun 1138 1139	她
+T79	Person-Pronoun 1186 1187	我
+T80	Person-Nominal 1211 1212;1213 1216	伟 大名人
+T81	Person-Pronoun 1217 1219	他们
+*	Coreference T81 T80
+T82	Person-Pronoun 1228 1229	你
+T83	Person-Nominal 1231 1233	自己
+T84	Person-Pronoun 1248 1249	我

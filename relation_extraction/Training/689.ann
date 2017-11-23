@@ -1,0 +1,250 @@
+T1	Time-Implicit 0 2	当年
+T2	Location-Name 3 9	云南乌蒙山区
+T3	Location-Nominal 3 11	云南乌蒙山区深处
+T4	Person-Nominal 12 14	知青
+T5	Metric 50 54	40多年
+T6	Thing-Nominal 55 56	指
+T7	Thing-Nominal 71 73	每餐
+T8	Time-Implicit 88 90	昨天
+T9	Person-Nominal 107 109	知青
+T10	Thing-Nominal 77 78	食
+T11	Time-Implicit 127 131	耳顺之年
+T12	Location-Nominal 160 162	山里
+T13	Thing-Name 172 175	大自然
+T14	Thing-Nominal 188 195	自然生态的风光
+T15	Thing-Nominal 196 203	富氧清晰的空气
+T16	Thing-Nominal 204 211	朦胧晨曦的鸟鸣
+T17	Thing-Nominal 212 219	挂满枝头的果实
+T18	Thing-Nominal 220 227	甘甜润嗓的清泉
+T19	Thing-Nominal 228 235	森林可觅的山珍
+T20	Thing-Nominal 236 243	绿色清淡的餐桌
+T21	Thing-Nominal 255 257	歌声
+T22	Person-Nominal 261 265	山区农民
+T23	Person-Pronoun 279 280	谁
+T24	Time-Implicit 315 317	现在
+T25	Person-Nominal 326 327	人
+T26	Thing-Name 359 361	自然
+T27	Thing-Name 368 370	自然
+T28	Location-Nominal 391 392	市
+T29	Location-Name 403 405	上海
+T30	Abstract 403 408	上海世博会
+T31	Location-Nominal 415 417	城市
+T32	Thing-Nominal 425 426	碳
+T33	Thing-Nominal 438 440	空气
+T34	Abstract 425 428	碳排放
+T35	Abstract 443 447	白色污染
+T36	Thing-Nominal 461 463	阴霾
+T37	Person-Nominal 480 482	人们
+T38	Location-Nominal 496 500	全国城市
+R1	General-Special Arg1:T31 Arg2:T38	
+T39	Location-Name 504 507	中山市
+R2	General-Special Arg1:T38 Arg2:T39	
+T40	Location-Nominal 511 528	回归自然成为环境优美的花园城市之一
+R3	General-Special Arg1:T40 Arg2:T39	
+T41	Location-Nominal 529 547	这个中国唯一以伟人名字命名的地级城市
+*	Coreference T41 T39
+T42	Location-Nominal 549 557	珠江三角洲中南部
+R4	Near Arg1:T39 Arg2:T42	
+T43	Location-Name 549 554	珠江三角洲
+T44	Time-Explicit 558 563	1997年
+T45	Organization-Name 564 567	联合国
+T46	Time-Explicit 578 583	2005年
+T47	Abstract 569 571;572 577	“世 界人居奖”
+T48	Organization-Name 584 589	中国社科院
+T49	Thing-Nominal 584 603	中国社科院公布的我国城市综合竞争力排名
+R5	Create Arg1:T48 Arg2:T49	
+T50	Location-Name 603 606	中山市
+T51	Time-Implicit 613 617	以此同时
+T52	Location-Name 617 620	中山市
+T54	Location-Nominal 638 651	全国9个获此殊荣的城市之一
+R7	General-Special Arg1:T54 Arg2:T52	
+T53	Abstract 622 632;633 635	首批“全国文明城市” 称号
+T55	Time-Explicit 652 659	2011年3月
+T56	Organization-Name 660 663	国务院
+T57	Location-Name 668 671	中山市
+T58	Location-Nominal 673 681	国家历史文化名城
+R6	General-Special Arg1:T58 Arg2:T57	
+T59	Location-Name 683 686	中山市
+T60	Location-Name 714 718	五桂山脉
+T61	Location-Nominal 709 713	城市之肺
+R8	General-Special Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 719 723	莽莽群山
+T63	Thing-Nominal 724 728	重峦叠嶂
+T64	Thing-Nominal 729 743;744 748	品种繁多的树木乔灌木与杂草丛 生的植被
+R9	Located Arg1:T62 Arg2:T60	
+R10	Located Arg1:T63 Arg2:T60	
+R11	Located Arg1:T64 Arg2:T60	
+T65	Person-Nominal 754 755	人
+T66	Thing-Nominal 776 780	野生动物
+T67	Thing-Nominal 775 795	为野生动物的繁衍与生存营造出理想的栖息地
+R12	Located Arg1:T67 Arg2:T60	
+T68	Thing-Name 817 826	山峦之中的长江水库
+T69	Thing-Nominal 827 831	崇山峻岭
+T70	Thing-Nominal 833 837	碧水青山
+R13	Located Arg1:T68 Arg2:T60	
+R14	Located Arg1:T69 Arg2:T60	
+R15	Located Arg1:T70 Arg2:T60	
+T71	Thing-Nominal 838 839	谷
+T72	Thing-Nominal 840 841	湖
+T73	Location-Nominal 843 845	谷内
+T74	Thing-Nominal 846 847	谷
+R16	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 848 850	飞鸟
+T76	Location-Nominal 852 854	林间
+R17	Located Arg1:T75 Arg2:T76	
+T77	Location-Nominal 860 862	湖中
+T78	Thing-Nominal 863 864	湖
+R18	Located Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 873 875	游鱼
+R19	Located Arg1:T71 Arg2:T60	
+*	Coreference T76 T60
+R20	Located Arg1:T78 Arg2:T60	
+T80	Thing-Nominal 878 880	水鸟
+T81	Location-Nominal 882 884	水面
+T82	Location-Nominal 892 897	远处的水面
+T83	Thing-Nominal 905 907	鱼群
+T84	Thing-Nominal 908 910	清波
+T85	Location-Nominal 911 913	树丛
+T86	Thing-Nominal 914 916	鸟鸣
+R21	Located Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 917 919	碧水
+T88	Thing-Nominal 920 922	青山
+T89	Thing-Nominal 923 925	白云
+T90	Thing-Nominal 927 929	蓝天
+T91	Thing-Nominal 930 932	层峦
+T92	Thing-Nominal 933 935	叠翠
+T93	Thing-Nominal 936 938	流泉
+T94	Thing-Nominal 939 941	飞瀑
+T95	Thing-Nominal 944 948	古诗佳句
+T96	Location-Nominal 975 979	世外桃源
+T97	Person-Name 991 993	歌德
+T98	Thing-Name 993 998	《浮士德》
+R22	Create Arg1:T97 Arg2:T98	
+T99	Person-Nominal 1028 1030	人类
+T100	Location-Nominal 1024 1026	世间
+T101	Location-Pronoun 1049 1051	这里
+T102	Person-Nominal 1057 1067	全国各地富起来的人们
+*	Coreference T101 T59
+T103	Location-Nominal 1075 1082	依山傍水的雅居
+T104	Location-Name 1082 1087	乐凯茵新城
+R23	General-Special Arg1:T103 Arg2:T104	
+T105	Location-Nominal 1089 1098	五桂山的长江水库边
+R24	Near Arg1:T104 Arg2:T105	
+T106	Location-Name 1101 1105	挪威森林
+T107	Thing-Nominal 1123 1127	绿水青山
+T108	Thing-Nominal 1134 1135;1136 1153	高 楼大厦和掩饰在花木丛林中的栋栋别墅
+T109	Location-Name 1106 1108	天誉
+T110	Location-Name 1109 1113	君临天下
+R25	Part-Whole Arg1:T106 Arg2:T104	
+R26	Part-Whole Arg1:T109 Arg2:T104	
+R27	Part-Whole Arg1:T110 Arg2:T104	
+T111	Location-Nominal 1157 1159	城市
+T112	Location-Nominal 1162 1166	城市闹区
+R28	Part-Whole Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 1181 1191	长长慢坡的小区林荫道
+R29	Located Arg1:T113 Arg2:T104	
+T114	Thing-Nominal 1192 1194	路灯
+R30	Located Arg1:T114 Arg2:T113	
+T115	Person-Name 1202 1205	郭沫若
+T116	Thing-Name 1205 1212	《天上的街市》
+R31	Create Arg1:T115 Arg2:T116	
+T117	Thing-Nominal 1219 1224	远远的街灯
+T118	Thing-Nominal 1229 1236	闪着无数的明星
+T119	Thing-Nominal 1237 1242	天上的明星
+T120	Thing-Nominal 1249 1254	无数的街灯
+T121	Thing-Nominal 1268 1276	高楼现的盏盏灯光
+T122	Thing-Nominal 1277 1284	天上闪烁的明星
+T123	Location-Nominal 1305 1308	运动场
+T124	Thing-Nominal 1308 1310	灯光
+R32	Located Arg1:T124 Arg2:T123	
+T125	Person-Nominal 1313 1318;1319 1321	喜爱体育的 健儿
+T126	Location-Nominal 1333 1337	活动场所
+T127	Thing-Nominal 1337 1339	灯火
+R33	Located Arg1:T127 Arg2:T126	
+T128	Person-Nominal 1349 1356	爱好跳舞的人群
+T129	Location-Nominal 1361 1363	泳池
+T130	Thing-Nominal 1363 1368	照明的光亮
+R34	Located Arg1:T130 Arg2:T129	
+R35	Part-Whole Arg1:T123 Arg2:T104	
+R36	Part-Whole Arg1:T126 Arg2:T104	
+R37	Part-Whole Arg1:T129 Arg2:T104	
+T131	Thing-Nominal 1369 1378	游水划动溅起的水花
+T132	Thing-Nominal 1383 1385	珍珠
+T133	Location-Nominal 1400 1404	绿荫地带
+R38	Part-Whole Arg1:T133 Arg2:T104	
+T134	Thing-Nominal 1404 1407	花草丛
+R39	Located Arg1:T134 Arg2:T133	
+T135	Thing-Nominal 1410 1434	蟋蟀清脆的音符与山边树林间昆虫求偶窃窃私语的对唱
+R40	Located Arg1:T135 Arg2:T134	
+T136	Location-Nominal 1449 1457	池塘里或山边小溪
+R41	Part-Whole Arg1:T136 Arg2:T104	
+T137	Thing-Nominal 1460 1467	几声沉闷的蛙叫
+R42	Located Arg1:T137 Arg2:T136	
+T138	Thing-Nominal 1473 1482	晚归轿车驶过的声响
+T139	Person-Nominal 1492 1493	人
+R43	Located Arg1:T138 Arg2:T104	
+T140	Thing-Nominal 1503 1508	清晨的空气
+T141	Time-Implicit 1503 1505	清晨
+T142	Thing-Nominal 1513 1515	鸟儿
+T143	Location-Nominal 1516 1518	树间
+R44	Located Arg1:T142 Arg2:T143	
+T144	Person-Nominal 1531 1538	早起晨炼的人们
+T145	Location-Nominal 1539 1553	各小区的山地公园开阔运动场地
+T146	Thing-Nominal 1554 1558	健身器材
+R45	Located Arg1:T146 Arg2:T145	
+R46	Part-Whole Arg1:T145 Arg2:T104	
+T147	Organization-Nominal 1574 1581	舞蹈队、太极队
+T148	Person-Nominal 1592 1595	上班族
+T149	Thing-Nominal 1596 1597	车
+R47	Use Arg1:T148 Arg2:T149	
+T150	Person-Nominal 1601 1616	爷爷、奶奶、公公、婆婆、阿姨们
+T151	Person-Nominal 1621 1623;1624 1628	入托 的宝宝们
+R48	Family Arg1:T150 Arg2:T151	
+T152	Location-Nominal 1630 1635	儿童游乐场
+T153	Location-Name 1641 1646	奥斯陆公园
+T154	Location-Name 1647 1651	凯茵新城
+*	Coreference T154 T104
+T155	Location-Nominal 1647 1669	凯茵新城地势最高的休闲、运动、娱乐的活动场地
+*	Coreference T153 T155 T176
+T156	Location-Nominal 1670 1675	东北面高处
+R49	Part-Whole Arg1:T156 Arg2:T153	
+T157	Thing-Nominal 1676 1679	一泉水
+T158	Location-Nominal 1680 1683	山谷中
+R50	Located Arg1:T157 Arg2:T158	
+R51	Part-Whole Arg1:T158 Arg2:T156	
+T159	Location-Nominal 1688 1697	杂草丛生的石崖边上
+R52	Located Arg1:T157 Arg2:T159	
+T160	Thing-Nominal 1708 1710	阳光
+R53	Part-Whole Arg1:T159 Arg2:T158	
+T161	Thing-Nominal 1714 1716	银线
+T162	Thing-Nominal 1717 1719	珍珠
+T163	Thing-Nominal 1727 1729	溪流
+T164	Thing-Nominal 1721 1723	水帘
+T165	Location-Nominal 1730 1736	东面峡谷深处
+R54	Part-Whole Arg1:T165 Arg2:T153	
+T166	Thing-Nominal 1736 1743	一股清澈的泉水
+T167	Thing-Nominal 1744 1747	杂草丛
+R55	Located Arg1:T167 Arg2:T165	
+R56	Located Arg1:T166 Arg2:T167	
+T168	Location-Nominal 1751 1760	水边山凹狭长的地带
+T169	Location-Name 1760 1762;1763 1767	“开 心农场”
+R57	Near Arg1:T169 Arg2:T168	
+R58	Near Arg1:T166 Arg2:T168	
+T170	Location-Nominal 1767 1780	一块块两三平米见方的菜地里
+R59	Part-Whole Arg1:T170 Arg2:T169	
+T171	Thing-Nominal 1780 1784	各样蔬菜
+R60	Located Arg1:T171 Arg2:T170	
+T172	Person-Nominal 1791 1793	主人
+T173	Location-Nominal 1802 1805	西北面
+R61	Part-Whole Arg1:T173 Arg2:T153	
+T174	Thing-Nominal 1805 1816	为开辟公园裸露出的石壁
+R62	Located Arg1:T174 Arg2:T173	
+T175	Person-Nominal 1835 1836	人
+T176	Location-Pronoun 1845 1847	这里
+T177	Person-Nominal 1901 1902	人
+T178	Thing-Name 1903 1905	自然
+T179	Location-Name 1920 1924	凯茵新城
+T180	Location-Name 1939 1942	中山市
+T181	Location-Name 1963 1965	中山
+*	Coreference T181 T180
+T182	Time-Implicit 1996 2007	社会主义生态文明新时代

@@ -1,0 +1,61 @@
+T1	Abstract 26 31	游戏发生说
+T2	Person-Nominal 33 37	原始人类
+T3	Thing-Nominal 45 46	日
+T4	Person-Nominal 101 106	我们的祖先
+T5	Thing-Nominal 127 129	石壁
+T6	Person-Nominal 190 198	一个经历正常的人
+T7	Metric 190 192	一个
+T8	Person-Pronoun 201 202	他
+*	Coreference T8 T6 T12
+T9	Time-Implicit 203 205	童年
+T10	Time-Implicit 206 210	少年时期
+T11	Time-Implicit 220 224	这一时期
+*	Coreference T11 T10 T9
+T12	Person-Pronoun 233 235	自己
+T13	Person-Nominal 263 266	小孩子
+T14	Person-Nominal 272 275	成年人
+T15	Person-Nominal 282 285	成年人
+T16	Person-Pronoun 286 288	我们
+*	Coreference T16 T15
+T17	Person-Pronoun 328 330	我们
+T18	Location-Nominal 334 336	星空
+T19	Location-Nominal 338 340	宇宙
+T20	Person-Nominal 349 351	人群
+T21	Person-Pronoun 444 446	我们
+T22	Person-Nominal 464 467	一种人
+T23	Person-Nominal 493 497	另一种人
+T24	Thing-Nominal 504 507	安眠药
+T25	Thing-Nominal 509 511	小羊
+T26	Person-Nominal 525 529	这两种人
+R1	Part-Whole Arg1:T22 Arg2:T26	
+R2	Part-Whole Arg1:T23 Arg2:T26	
+T27	Time-Implicit 571 573	早上
+T28	Person-Nominal 579 580;581 585	最 后一种人
+T29	Person-Nominal 643 646	这种人
+*	Coreference T29 T28 T30
+T30	Person-Pronoun 663 665	他们
+T31	Person-Name 701 703	陆游
+T32	Thing-Nominal 704 705	衣
+T33	Location-Nominal 720 722	河山
+T34	Person-Name 728 730	岳飞
+T35	Person-Pronoun 752 754	他们
+R3	Part-Whole Arg1:T31 Arg2:T35	
+R4	Part-Whole Arg1:T34 Arg2:T35	
+T36	Person-Pronoun 762 764	自己
+*	Coreference T36 T35
+T37	Person-Pronoun 795 796	我
+T38	Person-Pronoun 882 883	你
+T39	Person-Pronoun 885 887	自己
+*	Coreference T39 T38
+T40	Person-Nominal 904 905	人
+T41	Person-Nominal 967 972	理想主义者
+T42	Person-Nominal 977 980	梦想家
+T43	Location-Nominal 934 936	宇宙
+T44	Person-Pronoun 942 943	你
+T45	Person-Pronoun 929 930	你
+T46	Person-Nominal 1044 1046	人类
+T47	Time-Implicit 1055 1058	某一天
+T48	Person-Pronoun 1079 1081	自我
+T49	Person-Nominal 1073 1075	人类
+*	Coreference T48 T49
+T50	Person-Nominal 1059 1061	人类

@@ -1,0 +1,264 @@
+T1	Person-Pronoun 16 17	我
+T2	Time-Implicit 12 14	深夜
+T3	Person-Pronoun 30 31	我
+T4	Person-Pronoun 37 38	我
+T5	Person-Pronoun 45 46	你
+T6	Person-Pronoun 49 50	我
+T7	Person-Pronoun 54 55	我
+T8	Person-Pronoun 58 59	你
+T9	Person-Pronoun 64 65	你
+T10	Person-Pronoun 59 61	自己
+*	Coreference T10 T8
+T11	Person-Pronoun 69 70	你
+T12	Metric 79 87	一年、两年、十年
+T13	Person-Pronoun 92 93	你
+T14	Person-Pronoun 93 94	我
+T15	Person-Pronoun 95 96	我
+T16	Person-Pronoun 100 101	我
+T17	Person-Nominal 102 103;104 108	幸 福的男人
+R1	General-Special Arg1:T17 Arg2:T16	
+T18	Person-Pronoun 111 112	我
+T19	Person-Pronoun 120 121	我
+T20	Person-Pronoun 123 124	我
+T21	Person-Pronoun 135 136	我
+T22	Person-Pronoun 137 138	你
+T23	Time-Implicit 139 152	我们相识后第十二个生日那日
+T24	Time-Implicit 155 157	今日
+*	Coreference T24 T23
+T25	Person-Pronoun 153 154	你
+T26	Person-Pronoun 139 141	我们
+R2	Part-Whole Arg1:T22 Arg2:T26	
+R3	Part-Whole Arg1:T21 Arg2:T26	
+T27	Time-Implicit 160 162	冬日
+T28	Location-Nominal 162 164	外面
+T29	Thing-Nominal 166 167	冰
+R4	Located Arg1:T29 Arg2:T28	
+T30	Person-Pronoun 168 169	你
+T31	Person-Pronoun 175 176	我
+T32	Person-Pronoun 189 190	你
+T33	Time-Implicit 198 207	晚间7点到凌晨2点
+T34	Person-Pronoun 208 209	我
+T35	Thing-Nominal 214 216	衣服
+R5	Use Arg1:T34 Arg2:T35	
+T36	Person-Pronoun 217 218	你
+T37	Person-Pronoun 222 224	我们
+T38	Time-Implicit 222 234	我们相识第十二个生日那日
+T39	Person-Pronoun 234 236	我们
+T40	Person-Pronoun 241 242	我
+T41	Person-Pronoun 253 254	你
+T42	Person-Pronoun 257 258	我
+T43	Location-Nominal 257 260	我身边
+T44	Person-Pronoun 285 286	我
+T45	Person-Pronoun 278 279	我
+T46	Person-Pronoun 291 292	你
+T47	Person-Nominal 295 297	情人
+T48	Person-Pronoun 293 294	你
+T49	Person-Pronoun 306 307	我
+T50	Thing-Nominal 302 303	门
+T51	Person-Pronoun 314 315	你
+T52	Person-Pronoun 316 317	你
+T53	Person-Pronoun 321 322	他
+T54	Person-Pronoun 328 329	他
+T55	Person-Pronoun 333 334	你
+T56	Person-Pronoun 344 346	自己
+*	Coreference T56 T55 T58
+T57	Person-Pronoun 348 349	他
+T58	Person-Pronoun 358 359	我
+T59	Person-Pronoun 362 363	我
+T60	Person-Pronoun 373 374	我
+T61	Person-Pronoun 378 380	你们
+R6	Part-Whole Arg1:T57 Arg2:T61	
+R7	Part-Whole Arg1:T55 Arg2:T61	
+T62	Person-Pronoun 393 394	我
+T63	Person-Pronoun 401 402	你
+T64	Person-Pronoun 405 406	我
+T65	Person-Pronoun 409 410	我
+T66	Person-Pronoun 415 416	你
+T67	Person-Pronoun 419 421	我们
+T68	Person-Pronoun 429 430	我
+T69	Person-Pronoun 433 434	你
+T70	Person-Pronoun 439 440	我
+T71	Person-Pronoun 442 443	我
+T72	Person-Pronoun 445 446	你
+T73	Location-Nominal 424 426	故乡
+T74	Person-Pronoun 452 453	你
+T75	Location-Nominal 456 458	外面
+T76	Person-Pronoun 461 462	我
+T77	Person-Pronoun 473 474	你
+T78	Person-Pronoun 496 497	我
+T79	Time-Implicit 492 494	深夜
+T80	Person-Pronoun 509 510	我
+T81	Person-Pronoun 516 517	我
+T82	Person-Pronoun 524 525	我
+T83	Person-Pronoun 531 532	你
+T84	Person-Pronoun 537 538	你
+T85	Person-Pronoun 556 557	我
+T86	Person-Pronoun 564 565	我
+T87	Person-Pronoun 573 574	我
+T88	Person-Pronoun 583 584	我
+T89	Person-Pronoun 586 587	你
+T90	Person-Pronoun 597 598	你
+T91	Person-Nominal 614 620	一个爱你的人
+T92	Location-Nominal 611 613	家中
+*	Coreference T91 T88
+T93	Person-Pronoun 623 624	你
+T94	Person-Pronoun 627 628	我
+T95	Person-Pronoun 634 635	你
+T96	Person-Pronoun 640 641	你
+T97	Person-Pronoun 658 659	我
+T98	Person-Pronoun 675 676	你
+T99	Person-Nominal 670 671	人
+T100	Person-Pronoun 681 682	我
+T101	Person-Pronoun 689 690	我
+T102	Person-Pronoun 711 712	我
+T103	Person-Pronoun 721 722	你
+T104	Person-Pronoun 728 729	你
+T105	Person-Pronoun 724 725	我
+T106	Person-Pronoun 744 745	我
+T107	Person-Pronoun 749 750	你
+T108	Thing-Nominal 750 756	那粉红的面孔
+R8	Part-Whole Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 759 760	你
+T110	Thing-Nominal 760 766	那欢快的笑语
+R9	Create Arg1:T109 Arg2:T110	
+T111	Person-Pronoun 767 768	我
+T112	Person-Pronoun 775 776	我
+T113	Person-Pronoun 779 780	我
+T114	Time-Implicit 789 791	昨日
+T115	Person-Pronoun 831 832	我
+T116	Person-Pronoun 845 846	你
+T117	Person-Pronoun 848 849	我
+T118	Person-Pronoun 864 865	你
+T119	Person-Pronoun 869 870	我
+T120	Person-Pronoun 872 873	我
+T121	Person-Pronoun 876 877	你
+T122	Person-Pronoun 879 880	我
+T123	Time-Implicit 883 885	每天
+T124	Person-Pronoun 885 886	我
+T125	Person-Pronoun 890 891	你
+T126	Person-Pronoun 899 900	我
+T127	Person-Pronoun 902 903	你
+T128	Person-Pronoun 904 905	我
+T129	Person-Pronoun 910 911	我
+T130	Person-Pronoun 917 918	我
+T131	Person-Pronoun 929 930	我
+T132	Person-Pronoun 933 934	你
+T133	Person-Pronoun 935 936	你
+T134	Person-Pronoun 947 948	我
+T135	Person-Pronoun 954 955	你
+T136	Person-Pronoun 957 958	你
+T137	Person-Pronoun 965 966	你
+T138	Person-Pronoun 968 969	我
+T139	Person-Pronoun 974 975	你
+T140	Person-Pronoun 983 984	你
+T141	Person-Pronoun 987 988	我
+T142	Organization-Nominal 989 995	温馨的家庭!
+T143	Person-Pronoun 995 996	你
+T144	Person-Pronoun 998 999	我
+T145	Person-Pronoun 1006 1007	我
+T146	Person-Pronoun 1019 1020	我
+T147	Person-Pronoun 1035 1036	我
+T148	Person-Pronoun 1049 1050	我
+T149	Time-Implicit 1045 1046;1047 1048	夜 晚
+T150	Thing-Nominal 1051 1052	枕
+T151	Time-Implicit 1063 1065	昨日
+T152	Thing-Nominal 1072 1079	一个女孩的面孔
+T153	Person-Nominal 1072 1076	一个女孩
+R10	Part-Whole Arg1:T152 Arg2:T153	
+T154	Time-Implicit 1090 1093	三年前
+T155	Person-Pronoun 1084 1085	我
+T156	Person-Pronoun 1096 1097	她
+T157	Person-Nominal 1098 1112	一个天真烂漫十八岁的纯情少女
+R11	General-Special Arg1:T157 Arg2:T156	
+T158	Person-Pronoun 1113 1114	她
+T159	Person-Pronoun 1115 1116	我
+R12	Social Arg1:T159 Arg2:T158	
+R13	Social Arg1:T5 Arg2:T6	
+T160	Person-Nominal 1131 1138	多才多艺的才子
+R14	General-Special Arg1:T160 Arg2:T159	
+T161	Person-Nominal 1141 1151	她今生追寻的生活伴侣
+*	Coreference T161 T159
+T162	Person-Pronoun 1152 1153	我
+T163	Person-Pronoun 1155 1156	她
+T164	Person-Nominal 1157 1173	动了真情一心想与我共白头的好女孩
+R15	General-Special Arg1:T164 Arg2:T163	
+T165	Person-Pronoun 1181 1182	我
+T166	Person-Pronoun 1188 1189	我
+T167	Person-Pronoun 1190 1191	她
+T168	Person-Pronoun 1196 1197	我
+T169	Person-Pronoun 1206 1207	我
+T170	Person-Pronoun 1210 1211	我
+T171	Person-Nominal 1219 1223	我的妻子
+T172	Person-Pronoun 1226 1227	我
+T173	Person-Nominal 1243 1257	一个深爱自己又美貌动人的女孩
+T174	Person-Nominal 1260 1264	每个男人
+T175	Person-Pronoun 1247 1249	自己
+*	Coreference T175 T174
+T176	Person-Pronoun 1270 1271	我
+T177	Person-Nominal 1279 1285	我们每一个人
+R16	General-Special Arg1:T174 Arg2:T176	
+R17	General-Special Arg1:T177 Arg2:T176	
+T178	Person-Nominal 1306 1317	年轻漂亮而又真情的异性
+R18	General-Special Arg1:T178 Arg2:T173	
+T179	Person-Nominal 1319 1325	我们每一个人
+T180	Person-Pronoun 1334 1335	我
+T181	Person-Pronoun 1340 1342	自己
+*	Coreference T181 T180
+T182	Person-Nominal 1355 1356	人
+T183	Person-Pronoun 1377 1378	我
+T184	Person-Pronoun 1383 1384	我
+T185	Person-Nominal 1385 1392	非常正常的男人
+R19	General-Special Arg1:T185 Arg2:T184	
+T186	Person-Pronoun 1399 1400	我
+T187	Person-Pronoun 1404 1405	我
+T188	Person-Nominal 1406 1411	一个痴情人
+R20	General-Special Arg1:T188 Arg2:T187	
+T189	Person-Pronoun 1414 1415	我
+T190	Person-Pronoun 1425 1426	我
+T191	Person-Nominal 1425 1434	我生命中最爱的女人
+T192	Person-Nominal 1437 1441	这个女孩
+T193	Person-Pronoun 1448 1449	你
+T194	Person-Pronoun 1441 1442	你
+T195	Person-Pronoun 1453 1454	你
+T196	Person-Pronoun 1458 1459	我
+T197	Person-Pronoun 1466 1467	我
+T198	Person-Pronoun 1473 1474	我
+T199	Person-Pronoun 1479 1480	你
+T200	Person-Pronoun 1483 1484	我
+T201	Person-Nominal 1485 1490	三十岁的人
+R21	General-Special Arg1:T201 Arg2:T200	
+T202	Organization-Nominal 1501 1503	家庭
+T203	Person-Nominal 1504 1506	妻子
+R22	Family Arg1:T171 Arg2:T169	
+T204	Person-Nominal 1509 1512	好男人
+T205	Person-Nominal 1517 1519	妻子
+*	Coreference T203 T171 T208 T209 T212
+T206	Person-Pronoun 1526 1528	我们
+T207	Person-Pronoun 1540 1541	我
+T208	Person-Nominal 1550 1555	你一个女人
+T209	Person-Pronoun 1557 1558	你
+*	Coreference T194 T191 T226
+T210	Person-Pronoun 1564 1566	自己
+T211	Time-Implicit 1566 1569	十年前
+T212	Person-Pronoun 1576 1578	自己
+T213	Person-Nominal 1581 1584	好男人
+T214	Person-Pronoun 1587 1588	你
+T215	Person-Pronoun 1596 1597	你
+T216	Person-Nominal 1598 1606	不会有情人的老公
+T217	Person-Nominal 1609 1619;1620 1626	一个能让你在爱的乐园 里畅游的女人
+R23	General-Special Arg1:T216 Arg2:T207	
+R24	General-Special Arg1:T213 Arg2:T207	
+T218	Person-Pronoun 1645 1646	我
+T219	Person-Pronoun 1657 1658	我
+T220	Time-Implicit 1658 1660	今后
+T221	Person-Nominal 1667 1671	新的伴侣
+T222	Person-Pronoun 1681 1682	我
+T223	Person-Pronoun 1689 1690	我
+T224	Person-Pronoun 1698 1699	我
+T225	Person-Pronoun 1705 1706	我
+T226	Person-Nominal 1704 1713	了我心中最爱的女人
+T227	Person-Pronoun 1720 1721	你
+T228	Person-Pronoun 1723 1724	我
+T229	Person-Pronoun 1747 1748	我
+T230	Person-Pronoun 1760 1761	我
+T231	Person-Pronoun 1767 1768	我

@@ -1,0 +1,114 @@
+T1	Thing-Nominal 6 8	阴霾
+T2	Thing-Nominal 11 13	蓝天
+T3	Thing-Nominal 16 18	白云
+T4	Thing-Nominal 21 23	飞鸟
+T5	Person-Pronoun 74 75	你
+T6	Person-Nominal 88 89	人
+T7	Thing-Nominal 104 105	雨
+T8	Thing-Nominal 117 118	心
+T9	Thing-Nominal 119 120	肺
+T10	Thing-Nominal 78 79	眼
+R1	Part-Whole Arg1:T10 Arg2:T5	
+T11	Location-Nominal 122 124	房子
+T12	Thing-Nominal 126 128	光线
+T13	Thing-Nominal 138 139	手
+T14	Thing-Nominal 147 149	五指
+R2	Part-Whole Arg1:T14 Arg2:T13	
+T15	Person-Pronoun 150 151	你
+T16	Thing-Nominal 192 193	床
+T17	Thing-Nominal 251 256	大红的鲜血
+T18	Thing-Nominal 304 305	手
+T19	Thing-Nominal 307 308	窗
+T20	Thing-Nominal 327 329	阳光
+T21	Thing-Nominal 339 340	脸
+T22	Location-Nominal 353 354	房
+T23	Person-Nominal 360 361	人
+T24	Time-Implicit 369 371	每天
+T25	Thing-Nominal 371 372	茶
+T26	Thing-Nominal 373 374	饭
+T27	Thing-Nominal 378 379	门
+T28	Location-Nominal 392 393	地
+T29	Metric 390 392	几亩
+T30	Location-Nominal 394 404	那一片很小很小的地方
+*	Coreference T28 T30
+T31	Time-Implicit 405 408	有时候
+T32	Person-Pronoun 409 410	你
+T33	Thing-Nominal 424 425	门
+T34	Time-Implicit 437 441	一个晴天
+T35	Person-Pronoun 445 446	你
+T36	Thing-Nominal 450 451	手
+R3	Part-Whole Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 453 454	笔
+R4	Located Arg1:T37 Arg2:T36	
+T38	Person-Nominal 462 463	人
+T39	Location-Nominal 511 515	大街小巷
+T40	Location-Nominal 516 518	城市
+T41	Person-Nominal 538 545	摆摊叫卖的阿姨
+T42	Person-Nominal 547 554	傲慢急催的买主
+T43	Person-Nominal 557 562	恩爱的夫妻
+T44	Person-Nominal 564 569	亲密的母子
+T45	Person-Nominal 574 580	顽皮的小女孩
+T46	Thing-Nominal 584 585	手
+R5	Part-Whole Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 587 589	玩具
+R6	Located Arg1:T47 Arg2:T46	
+T48	Person-Pronoun 590 591	她
+*	Coreference T48 T45
+T49	Person-Pronoun 593 594	你
+*	Coreference T49 T35
+T50	Person-Nominal 635 640	一家五口人
+T51	Person-Nominal 641 643	爷爷
+T52	Thing-Nominal 645 647	轮椅
+T53	Thing-Nominal 649 650	头
+T54	Thing-Nominal 652 653	胸
+R7	Part-Whole Arg1:T53 Arg2:T51	
+R8	Part-Whole Arg1:T54 Arg2:T51	
+T55	Person-Nominal 655 660	几岁的孙子
+T56	Thing-Nominal 662 664	轮椅
+T57	Person-Nominal 669 671	奶奶
+T58	Thing-Nominal 675 680	爷爷的衣服
+T59	Person-Pronoun 696 697	她
+*	Coreference T59 T57
+T60	Person-Nominal 695 709	陪她走过无数地风风雨雨的伴侣
+*	Coreference T60 T51 T69
+T61	Person-Nominal 710 712	爸爸
+T62	Person-Nominal 712 714	妈妈
+T63	Person-Nominal 721 728	前面的祖孙三人
+T64	Person-Nominal 736 741	他们三代人
+*	Coreference T64 T63 T67
+T65	Thing-Nominal 752 757	午后的阳光
+T66	Person-Pronoun 772 773	你
+T67	Person-Pronoun 778 780	他们
+T68	Location-Nominal 795 802	小路转弯的地方
+T69	Person-Nominal 807 817	这位被推着行走的老人
+T70	Time-Implicit 822 825	年轻时
+T71	Location-Nominal 878 880	广场
+T72	Location-Nominal 886 891	干净的地方
+T73	Metric 884 886	一块
+T74	Thing-Nominal 899 916	青翠欲滴的着“好高”、“好高”灌木
+T75	Metric 897 899	几株
+T76	Thing-Nominal 919 928	即将面临凋零的残花
+T77	Person-Nominal 938 943	顽皮的小孩
+T78	Person-Pronoun 944 946	他们
+*	Coreference T78 T77
+T79	Thing-Nominal 952 953	脸
+R9	Part-Whole Arg1:T79 Arg2:T77	
+T80	Thing-Nominal 963 964	手
+R10	Part-Whole Arg1:T80 Arg2:T78	
+T81	Thing-Nominal 969 970	线
+T82	Metric 967 969	一根
+T83	Thing-Nominal 971 972	嘴
+R11	Part-Whole Arg1:T83 Arg2:T78	
+T84	Thing-Nominal 976 978	风筝
+T85	Location-Nominal 979 984	洁净的天空
+T86	Thing-Nominal 991 992	风
+T87	Person-Nominal 1003 1008	追梦的少年
+T88	Metric 1001 1003	一个
+T89	Location-Nominal 1108 1113	陌生的地方
+T90	Location-Nominal 1064 1074	你从来没有来过的地方
+T91	Person-Nominal 1123 1127	陌生的人
+T92	Time-Implicit 1135 1142	一个清澈的早晨
+T93	Time-Implicit 1144 1151	一个慵懒的午后
+T94	Person-Nominal 1185 1190	陌生的小孩
+T95	Person-Pronoun 1192 1193	你
+T96	Person-Pronoun 1221 1223	自己

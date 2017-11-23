@@ -1,0 +1,172 @@
+T1	Thing-Nominal 0 3	一把壶
+T2	Thing-Nominal 4 7	两只碗
+T3	Location-Nominal 9 13	杂草丛中
+R1	Located Arg1:T2 Arg2:T3	
+R2	Located Arg1:T1 Arg2:T3	
+T4	Location-Nominal 18 20	周围
+T5	Thing-Nominal 21 33	刚绽放的黄白、粉红的棉花
+R3	Located Arg1:T5 Arg2:T4	
+T6	Thing-Nominal 34 35	壶
+T7	Thing-Nominal 40 41	碗
+T8	Location-Nominal 50 57	家乡田野的垅头
+T9	Time-Implicit 59 61	小时
+T10	Thing-Nominal 66 67	稻
+T11	Thing-Nominal 68 69	麦
+T12	Thing-Nominal 90 95	提把壶的茶
+T13	Thing-Nominal 103 104	茶
+T14	Location-Nominal 106 108	碗里
+T15	Thing-Nominal 111 113	壶嘴
+T16	Location-Nominal 115 119;120 125	干得冒火 的嗓子眼里
+T17	Thing-Nominal 131 135	一股清泉
+T18	Location-Nominal 137 142	干渴的身体
+R4	Located Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 168 172	提把壶茶
+T20	Location-Nominal 174 177	提把壶
+T21	Thing-Nominal 174 180	提把壶泡的茶
+R5	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 182 184	那壶
+T23	Thing-Name 187 194	宜兴紫砂提梁壶
+T24	Metric 220 223	四五斤
+T25	Location-Nominal 231 233	土窑
+T26	Thing-Nominal 234 240	麦秆稻草棉梗
+T27	Thing-Nominal 247 248	壶
+T28	Thing-Nominal 250 252	泥土
+T29	Thing-Nominal 257 259	指甲
+T30	Thing-Nominal 272 274	土屑
+T31	Thing-Nominal 275 277	那茶
+T32	Thing-Name 280 285	“三匹半”
+T33	Location-Nominal 286 288	鄂西
+T34	Thing-Nominal 307 311	三片茶叶
+T35	Thing-Nominal 319 322	一壶茶
+T36	Thing-Nominal 343 345	茶叶
+T37	Time-Implicit 361 363	晚秋
+T38	Thing-Nominal 361 364;365 372	晚秋即 将飘落的枇杷叶
+T39	Metric 377 379	一尺
+T40	Thing-Nominal 390 391	茶
+T41	Thing-Name 382 387	“三匹半”
+T42	Thing-Nominal 395 396	茶
+T43	Thing-Nominal 403 411	海南的鹧鸪、苦丁
+T44	Location-Name 403 405	海南
+R6	Located Arg1:T43 Arg2:T44	
+T45	Thing-Nominal 412 420	药店清热的溪黄草
+T46	Location-Nominal 412 414	药店
+R7	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 426 427	茶
+T48	Thing-Nominal 434 435	茶
+T49	Thing-Nominal 443 445	茶汤
+T50	Thing-Nominal 446 447	茶
+T51	Thing-Name 459 462	铁观音
+T52	Thing-Nominal 473 475	口水
+T53	Thing-Nominal 476 477	嘴
+T54	Thing-Nominal 482 484	茶虫
+T55	Thing-Nominal 494 495	茶
+T56	Thing-Nominal 496 497	壶
+T57	Thing-Nominal 512 515	野泥土
+T58	Time-Implicit 522 524	夏秋
+T59	Thing-Nominal 526 528	晨雾
+T60	Location-Nominal 530 535	鄂西的村庄
+R8	Located Arg1:T59 Arg2:T60	
+T61	Person-Nominal 536 540	家家户户
+T62	Thing-Nominal 540 542	炊烟
+T63	Thing-Nominal 545 546	锅
+T64	Thing-Nominal 547 548	勺
+T65	Person-Pronoun 552 553	你
+T66	Location-Nominal 555 559	哪家院子
+T67	Person-Nominal 572 574	乡亲
+T68	Location-Nominal 575 576	地
+T69	Thing-Nominal 577 579	左手
+T70	Thing-Nominal 584 586	农具
+T71	Thing-Nominal 587 594	犁、锄、锹、镰
+R9	Part-Whole Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 595 597	右手
+T73	Thing-Nominal 599 604	一提把壶茶
+T74	Thing-Nominal 607 609	牲口
+T75	Thing-Nominal 611 612	壶
+T76	Thing-Nominal 614 615	绳
+T77	Thing-Nominal 622 623	套
+T78	Location-Nominal 626 631	牯牛的角上
+T79	Thing-Nominal 626 628	牯牛
+T80	Thing-Nominal 633 634	茶
+T81	Thing-Nominal 636 638	牯牛
+R10	Located Arg1:T80 Arg2:T78	
+T82	Thing-Nominal 656 658	晨雾
+T83	Time-Implicit 652 655	这会儿
+T84	Thing-Nominal 661 663	露珠
+T85	Location-Nominal 666 677	田埂蒲公英甜美的小花上
+T86	Thing-Nominal 668 676	蒲公英甜美的小花
+R11	Located Arg1:T82 Arg2:T85	
+T87	Thing-Nominal 678 682	一轮朝阳
+T88	Location-Nominal 684 690	村头老柳树上
+R12	Located Arg1:T87 Arg2:T88	
+T89	Thing-Nominal 702 705	隔夜茶
+T90	Thing-Nominal 709 710	茶
+T91	Person-Pronoun 725 726	我
+T92	Thing-Nominal 730 734	提把壶茶
+T93	Location-Nominal 771 773	眼里
+T94	Thing-Nominal 767 769	汗水
+R13	Located Arg1:T94 Arg2:T93	
+T95	Thing-Nominal 774 775	眼
+T96	Thing-Nominal 781 787	这时的隔夜茶
+T97	Thing-Nominal 808 811	隔夜茶
+T98	Thing-Nominal 817 818	药
+T99	Time-Implicit 820 822	小时
+T100	Person-Nominal 838 840	外婆
+T101	Person-Pronoun 842 843	我
+R14	Family Arg1:T101 Arg2:T100	
+T102	Thing-Nominal 844 847	隔夜茶
+T103	Person-Nominal 850 852	外婆
+T104	Location-Nominal 853 855	茶里
+T105	Thing-Nominal 857 868;869 870	花椒粉胡椒面或是野草末 末
+R15	Located Arg1:T105 Arg2:T104	
+T106	Thing-Nominal 871 872	茶
+T107	Person-Pronoun 884 894	又是一个活蹦乱跳的我
+T108	Thing-Nominal 903 904	茶
+T109	Person-Pronoun 910 911	我
+T110	Thing-Nominal 914 918	提把壶茶
+T111	Thing-Pronoun 963 964	它
+T112	Location-Nominal 995 1002	空调房、茶艺室
+T113	Thing-Pronoun 1016 1017	它
+T114	Thing-Pronoun 1023 1024	它
+*	Coreference T111 T110
+T115	Location-Nominal 1029 1035	我家乡原野上
+T116	Thing-Nominal 1029 1045	我家乡原野上的稻麦粟豆、高粱棉花
+R16	Located Arg1:T116 Arg2:T115	
+T117	Thing-Pronoun 1046 1047	它
+T118	Person-Pronoun 1050 1051	我
+T119	Person-Nominal 1052 1056	我的乡亲
+T120	Thing-Pronoun 1062 1064	他们
+T121	Thing-Nominal 1085 1088	大碗茶
+T122	Person-Nominal 1090 1094	城市市民
+T123	Thing-Nominal 1095 1099	提把壶茶
+T124	Person-Nominal 1103 1113	鄂西乡村我的兄弟姊妹
+T125	Location-Nominal 1103 1107	鄂西乡村
+T126	Person-Nominal 1115 1117	有人
+T127	Person-Pronoun 1129 1130	我
+T128	Thing-Nominal 1139 1144	精致的龙井
+T129	Thing-Nominal 1145 1147	猴魁
+T130	Thing-Nominal 1149 1153	君山银针
+T131	Person-Pronoun 1154 1155	我
+T132	Thing-Nominal 1162 1169	家乡的提把壶茶
+T133	Location-Nominal 1162 1164	家乡
+T134	Person-Nominal 1203 1205	母亲
+T135	Person-Pronoun 1206 1207	我
+T136	Location-Nominal 1209 1211	垅头
+T137	Person-Pronoun 1212 1213	我
+T138	Thing-Nominal 1216 1219	包袱皮
+T139	Thing-Nominal 1222 1224	小手
+T140	Thing-Nominal 1227 1230	提把壶
+T141	Person-Nominal 1231 1236	年轻的母亲
+T142	Person-Pronoun 1238 1239	我
+T143	Thing-Nominal 1244 1246	锄头
+T144	Thing-Nominal 1248 1249;1250 1251	镰 刀
+R17	Family Arg1:T141 Arg2:T142	
+T145	Location-Nominal 1255 1257	田间
+T146	Location-Nominal 1259 1261	地头
+T147	Time-Implicit 1264 1272	时下正值炎炎夏日
+T148	Thing-Nominal 1277 1283	提把壶的耳朵
+T149	Thing-Nominal 1277 1280	提把壶
+R18	Part-Whole Arg1:T148 Arg2:T149	
+T150	Thing-Nominal 1288 1293	干渴的嗓子
+T151	Location-Nominal 90 93	提把壶
+R19	Located Arg1:T12 Arg2:T151	
+R20	Located Arg1:T13 Arg2:T14	

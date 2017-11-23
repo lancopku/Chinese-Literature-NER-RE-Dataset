@@ -1,0 +1,45 @@
+T1	Location-Nominal 0 2	南国
+T2	Time-Implicit 12 14	清晨
+T3	Thing-Nominal 16 17	雾
+T4	Thing-Nominal 19 21	晨雾
+T5	Time-Implicit 32 34	清晨
+T6	Location-Nominal 35 37	校道
+T7	Person-Pronoun 39 40	我
+T8	Thing-Nominal 42 44	露水
+R1	Located Arg1:T8 Arg2:T6	
+T9	Thing-Nominal 64 66	外套
+R2	Ownership Arg1:T7 Arg2:T9	
+T10	Thing-Nominal 67 69	秋风
+T11	Person-Pronoun 71 72	我
+T12	Thing-Nominal 71 75	我的发梢
+T13	Thing-Nominal 76 78	指尖
+T14	Person-Pronoun 80 81	我
+T15	Thing-Nominal 82 84	脸颊
+R3	Part-Whole Arg1:T15 Arg2:T14	
+R4	Part-Whole Arg1:T13 Arg2:T15	
+R5	Located Arg1:T13 Arg2:T15	
+R6	Part-Whole Arg1:T12 Arg2:T14	
+T16	Thing-Nominal 99 100	人
+T17	Person-Pronoun 109 110	我
+T18	Person-Pronoun 124 125	我
+T19	Time-Implicit 128 131	秋天里
+T20	Time-Implicit 148 151	秋天里
+T21	Thing-Nominal 152 153	云
+T22	Thing-Nominal 154 155	云
+T23	Time-Implicit 164 167	秋天里
+T24	Thing-Nominal 174 176	落叶
+T25	Thing-Nominal 185 186	人
+T26	Thing-Nominal 199 200	人
+T27	Time-Implicit 207 211	每逢秋天
+T28	Person-Pronoun 212 213	我
+T29	Location-Nominal 218 220	城市
+T30	Location-Nominal 223 225	山野
+T31	Person-Nominal 231 233	自己
+*	Coreference T28 T31
+T32	Thing-Nominal 235 237	城市
+T33	Location-Nominal 240 242	城市
+T34	Person-Nominal 248 250	人们
+T35	Thing-Nominal 258 260	大包
+T36	Location-Nominal 262 264	路上
+T37	Time-Implicit 265 267	有时
+R7	Ownership Arg1:T31 Arg2:T35	

@@ -1,0 +1,160 @@
+T1	Time-Implicit 0 4	二十年前
+T2	Person-Pronoun 5 6	我
+T3	Person-Nominal 7 9	外孙
+T4	Thing-Nominal 10 12	象棋
+T5	Thing-Nominal 15 16	车
+T6	Thing-Nominal 16 17	马
+T7	Thing-Nominal 17 18	炮
+T8	Person-Pronoun 20 21	我
+T9	Person-Nominal 22 24	孙女
+T10	Thing-Nominal 25 27	英语
+T11	Thing-Nominal 28 29	A
+T12	Thing-Nominal 30 31	B
+T13	Thing-Nominal 32 33	C
+T14	Thing-Nominal 34 35	D
+T15	Thing-Nominal 37 39	OK
+T16	Thing-Nominal 40 43	yes
+R1	Part-Whole Arg1:T7 Arg2:T4	
+R2	Part-Whole Arg1:T6 Arg2:T4	
+R3	Part-Whole Arg1:T5 Arg2:T4	
+R4	Part-Whole Arg1:T11 Arg2:T10	
+R5	Part-Whole Arg1:T12 Arg2:T10	
+R6	Part-Whole Arg1:T13 Arg2:T10	
+R7	Part-Whole Arg1:T14 Arg2:T10	
+R8	Part-Whole Arg1:T15 Arg2:T10	
+R9	Part-Whole Arg1:T16 Arg2:T10	
+T17	Time-Implicit 53 57	二十年后
+T18	Person-Nominal 58 60	外孙
+T19	Person-Nominal 61 63	孙女
+T20	Time-Implicit 74 77	黄金周
+T21	Time-Implicit 78 81	节假日
+T22	Person-Nominal 81 84	孩子们
+T23	Location-Nominal 84 87	回家来
+T24	Person-Nominal 89 91	老人
+T25	Person-Nominal 93 95	外孙
+T26	Person-Pronoun 98 99	我
+T27	Person-Nominal 100 104	常败将军
+T28	Metric 108 110	屡战
+T29	Metric 110 112	屡败
+T30	Thing-Nominal 115 119	举手投降
+T31	Person-Nominal 122 124	外孙
+T32	Person-Nominal 122 125	外孙女
+T33	Thing-Nominal 126 128	电脑
+T34	Thing-Nominal 136 140	注册QQ
+T35	Thing-Nominal 141 146	邮箱com
+T36	Person-Pronoun 149 150	我
+T37	Thing-Nominal 150 151	手
+T38	Thing-Nominal 151 152	足
+T39	Person-Nominal 161 163	爷爷
+T40	Person-Nominal 164 166	外公
+T41	Person-Pronoun 167 168	你
+T42	Person-Nominal 170 173	大学生
+*	Coreference T42 T41 T40 T39
+T43	Person-Pronoun 185 186	我
+T44	Person-Nominal 190 193	大学生
+T45	Organization-Name 197 201	老年大学
+T46	Person-Nominal 202 204	学员
+T47	Organization-Pronoun 205 208	年轻时
+T48	Organization-Nominal 223 225	高中
+T49	Time-Implicit 230 232	天天
+T50	Thing-Nominal 235 237	养家
+T51	Person-Nominal 237 239	糊口
+T52	Thing-Nominal 245 247	读书
+T53	Time-Implicit 252 256	年老退休
+T54	Location-Nominal 259 261	家里
+T55	Thing-Nominal 267 269	打牌
+T56	Thing-Nominal 269 272	搓麻将
+T57	Time-Implicit 274 277	有时间
+T58	Thing-Nominal 277 279	种花
+T59	Thing-Nominal 279 281	弄草
+T60	Thing-Nominal 286 290	家务琐事
+T61	Location-Nominal 296 298	心里
+T62	Person-Pronoun 306 307	我
+T63	Organization-Name 310 316	上虞老年大学
+T64	Person-Name 321 326	季羡林先生
+T65	Thing-Nominal 327 333	《九十述怀》
+T66	Metric 338 340	七十
+T67	Person-Nominal 340 343	小弟弟
+T68	Metric 344 347	八十多
+T69	Metric 350 355	九十不稀奇
+T70	Person-Pronoun 358 360	我们
+T71	Location-Nominal 360 363	班级里
+T72	Metric 365 369	八十多岁
+T73	Metric 370 374	年近九十
+T74	Person-Nominal 375 377	老者
+T75	Person-Pronoun 378 380	他们
+*	Coreference T75 T74
+T76	Organization-Name 421 427	上虞老年大学
+T77	Organization-Name 428 431	南党委
+T78	Organization-Nominal 432 434	政府
+T79	Person-Nominal 437 440	老年人
+T80	Organization-Nominal 443 447	公益学校
+T81	Organization-Nominal 451 455	老年大学
+T82	Person-Nominal 448 450	上级
+T83	Person-Nominal 463 465	领导
+T84	Time-Implicit 460 462	时常
+T85	Location-Nominal 467 471	各个教室
+T86	Person-Nominal 476 480	老年学生
+T87	Organization-Nominal 489 493	老年大学
+T88	Organization-Pronoun 501 503	我们
+T89	Organization-Nominal 503 509	上虞老年大学
+*	Coreference T89 T88
+T90	Person-Nominal 509 515	特聘来的老师
+T91	Person-Nominal 519 522	精英”
+*	Coreference T91 T90
+T92	Person-Nominal 541 542;543 544	校 长
+T93	Person-Nominal 544 546	老师
+T94	Person-Nominal 548 552	老年学生
+T95	Person-Nominal 553 555	学生
+T96	Person-Nominal 559 561	老师
+T97	Person-Nominal 562 566	老年同学
+T98	Person-Pronoun 573 575	我们
+T99	Location-Nominal 575 579	在学校里
+T100	Person-Nominal 591 598	结识了许多朋友
+T101	Person-Nominal 612 618	使人心情舒畅
+T102	Person-Pronoun 624 627	我们的
+T103	Organization-Nominal 627 631	老年大学
+T104	Time-Implicit 632 635	每学期
+T105	Metric 638 640	一些
+T106	Thing-Nominal 640 642	活动
+T107	Thing-Nominal 644 651	政治时事报告会
+T108	Thing-Nominal 652 661	书面摄影优秀作品展
+T109	Thing-Nominal 662 664	唱歌
+T110	Thing-Nominal 666 668	舞蹈
+T111	Thing-Nominal 669 671	戏曲
+T112	Thing-Nominal 672 676	乐器表演
+R10	Part-Whole Arg1:T107 Arg2:T106	
+R11	Part-Whole Arg1:T108 Arg2:T106	
+R12	Part-Whole Arg1:T109 Arg2:T106	
+R13	Part-Whole Arg1:T110 Arg2:T106	
+R14	Part-Whole Arg1:T111 Arg2:T106	
+R15	Part-Whole Arg1:T112 Arg2:T106	
+T113	Organization-Nominal 677 681	各个班级
+T114	Thing-Nominal 684 690	组织班会活动
+T115	Thing-Nominal 692 696	短途旅游
+T116	Thing-Nominal 700 703	茶话会
+T117	Thing-Nominal 704 707	座谈会
+R16	Part-Whole Arg1:T114 Arg2:T115	
+R17	Part-Whole Arg1:T116 Arg2:T114	
+R18	Part-Whole Arg1:T117 Arg2:T114	
+T118	Organization-Nominal 779 782	共产党
+T119	Organization-Nominal 783 787	人民政府
+T120	Person-Nominal 795 800	感谢老师们
+T121	Person-Pronoun 807 808	我
+T122	Metric 809 811	一个
+T123	Location-Nominal 811 816	小城镇里的
+T124	Person-Nominal 816 820	小老百姓
+T125	Organization-Nominal 826 830	老年大学
+T126	Metric 834 836	一个
+T127	Person-Nominal 836 839	幸运者
+T128	Organization-Nominal 841 845	老年大学
+T129	Person-Pronoun 847 848	我
+T130	Person-Pronoun 851 852	我
+T131	Metric 853 857	年近八十
+T132	Location-Nominal 858 860	满头
+T133	Thing-Nominal 860 862	白发
+T134	Person-Pronoun 864 865	我
+T135	Person-Pronoun 865 867	自己
+*	Coreference T135 T134 T130 T129 T127 T121
+T136	Thing-Nominal 873 877	朝如青丝
+T137	Time-Implicit 881 888	八十岁圆大学梦

@@ -1,0 +1,281 @@
+T1	Time-Implicit 1 16	“全国学人民解放军”的火红年代
+T2	Person-Pronoun 17 18	我
+T3	Person-Nominal 26 36	一名光荣的解放军战士
+R1	General-Special Arg1:T3 Arg2:T2	
+T4	Time-Implicit 37 42	入伍的当年
+T5	Organization-Name 57 60;61 62	北京军 区
+T6	Organization-Nominal 67 71	总参谋部
+T7	Organization-Nominal 74 78	我们部队
+T8	Location-Name 79 83	华北地区
+T9	Physical 91 95	军事演习
+T10	Thing-Nominal 97 101	北上列车
+T11	Location-Name 102 104	广东
+T12	Location-Name 106 108	湖南
+T13	Location-Name 110 112	湖北
+T14	Location-Name 114 116	河南
+T15	Location-Name 118 120	河北
+T16	Location-Name 125 128	怀来县
+T17	Location-Pronoun 133 135	这里
+*	Coreference T17 T16 T18
+T18	Location-Nominal 136 142	此行的第一站
+T19	Location-Pronoun 147 149	这里
+T20	Physical 152 163	北方气候和熟悉北方地形
+T21	Organization-Nominal 170 180	长期驻守在南方的部队
+R2	General-Special Arg1:T21 Arg2:T7	
+T22	Person-Pronoun 192 194	我们
+T23	Person-Name 204 211	战斗英雄董存瑞
+T24	Location-Name 214 217	南山堡
+T25	Location-Name 221 229	董存瑞事迹展览馆
+T26	Person-Name 232 240	英雄的父亲董全忠
+R3	Family Arg1:T26 Arg2:T23	
+T27	Person-Nominal 232 234	英雄
+*	Coreference T27 T23 T28
+T28	Person-Nominal 241 243	儿子
+T29	Person-Nominal 251 252;253 260	英 雄的弟弟董存金
+R4	Family Arg1:T29 Arg2:T26	
+R5	Family Arg1:T29 Arg2:T23	
+T30	Organization-Nominal 262 265	民兵连
+T31	Person-Name 273 276	毛主席
+T32	Person-Pronoun 282 284	我们
+T33	Person-Nominal 287 289	英雄
+T34	Person-Nominal 287 297	英雄的双目失明的母亲
+R7	Family Arg1:T34 Arg2:T27	
+T35	Person-Nominal 298 307	在县妇联工作的妹妹
+R6	Family Arg1:T35 Arg2:T34	
+T36	Physical 309 313	正式演习
+T37	Location-Name 314 317	张家口
+T38	Location-Nominal 317 324	附近的一个山坡
+R8	Near Arg1:T38 Arg2:T37	
+T39	Person-Nominal 329 340	总参谋部和北京军区首长
+T40	Person-Pronoun 348 350	我们
+T41	Abstract 353 369;370 372	定点跳伞和夜间伪装匍匐侦查这两个 科目
+T42	Time-Implicit 350 352	白天
+T43	Time-Implicit 374 385	以后长达两个月的时间里
+T44	Person-Pronoun 386 388	我们
+T45	Person-Pronoun 417 419	我们
+T46	Location-Name 424 428	宣化地道
+T47	Location-Name 429 430;431 436	张 家口麻纺厂
+T48	Location-Name 437 444	包钢第二机械厂
+T49	Person-Pronoun 446 448	我们
+T50	Person-Name 452 471	69军侦察处长、华东二级战斗英雄高锦堂
+T51	Person-Name 487 491;492 508	蒙驻军某 部副团长、全国一级战斗英雄郭恩志
+T52	Organization-Name 515 518	美李军
+T53	Person-Name 526 535	草原英雄小姐妹玉蓉
+T54	Person-Pronoun 540 541	她
+*	Coreference T54 T53
+T55	Location-Name 543 545	北京
+T56	Thing-Nominal 547 552;553 555	当年冻伤的 脚趾
+R9	Part-Whole Arg1:T56 Arg2:T54	
+T57	Person-Pronoun 587 588	我
+T58	Time-Implicit 563 568	7月30日
+T59	Person-Nominal 588 592	参演官兵
+R10	Part-Whole Arg1:T57 Arg2:T59	
+T60	Location-Nominal 594 596	首都
+*	Coreference T60 T55
+T61	Person-Pronoun 611 612	我
+T62	Location-Name 613 615	北京
+T63	Metric 615 617	三天
+T64	Time-Implicit 627 629	翌日
+T65	Person-Pronoun 630 632	我们
+T66	Thing-Nominal 645 650	崭新的军装
+R11	Use Arg1:T65 Arg2:T66	
+T67	Location-Name 656 663	北京军区大礼堂
+T68	Person-Nominal 667 678	总参谋部和北京军区首长
+T69	Person-Name 683 687;688 692	彭绍辉副 总参谋长
+T70	Person-Name 693 700	郑位三代司令员
+T71	Thing-Nominal 709 712	主席台
+T72	Person-Name 731 738	独臂将军彭绍辉
+*	Coreference T72 T69
+T73	Person-Pronoun 749 751	我们
+T74	Person-Name 756 767	身材高大的郑位三代司令
+*	Coreference T74 T70
+T75	Organization-Name 769 773	北京军区
+T76	Person-Pronoun 775 777	我们
+T77	Location-Name 777 779	华北
+T78	Organization-Nominal 782 786	两大军区
+R12	Part-Whole Arg1:T75 Arg2:T78	
+T79	Person-Nominal 804 808	两位首长
+R13	Part-Whole Arg1:T74 Arg2:T79	
+R14	Part-Whole Arg1:T72 Arg2:T79	
+T80	Time-Explicit 832 837	建军节这天
+T81	Person-Pronoun 838 840	我们
+T82	Thing-Nominal 842 851	北京军区专派的汽车
+T83	Organization-Name 842 846	北京军区
+T84	Location-Name 857 862	天安门广场
+T85	Time-Explicit 863 865	那天
+*	Coreference T85 T80
+T86	Thing-Nominal 870 872	大雨
+T87	Organization-Nominal 888 890	总参
+T88	Person-Nominal 888 892;893 897	总参派来 的摄影师
+T89	Person-Pronoun 911 913	我们
+T90	Person-Pronoun 944 946	我们
+T91	Location-Nominal 957 959	北方
+T92	Location-Nominal 952 956	广场四周
+R15	Part-Whole Arg1:T91 Arg2:T92	
+T93	Location-Name 965 971	天安门城楼;
+R16	Near Arg1:T93 Arg2:T92	
+R17	Near Arg1:T93 Arg2:T91	
+T94	Location-Nominal 971 973	南面
+R18	Part-Whole Arg1:T94 Arg2:T92	
+T95	Location-Name 974 980	古老的大前门
+R19	Near Arg1:T95 Arg2:T94	
+R20	Near Arg1:T95 Arg2:T92	
+T96	Location-Nominal 981 983	西侧
+R21	Part-Whole Arg1:T96 Arg2:T92	
+T97	Location-Name 984 989	人民大会堂
+R22	Near Arg1:T97 Arg2:T96	
+R23	Near Arg1:T97 Arg2:T92	
+T98	Location-Nominal 990 992	东边
+R24	Part-Whole Arg1:T98 Arg2:T92	
+T99	Location-Name 993 998	历史博物馆
+R25	Near Arg1:T99 Arg2:T97	
+R26	Near Arg1:T99 Arg2:T92	
+T100	Location-Nominal 1000 1002	中心
+R27	Part-Whole Arg1:T100 Arg2:T92	
+T101	Location-Name 1005 1017	庄严肃穆的人民英雄纪念碑
+R28	Near Arg1:T101 Arg2:T100	
+T102	Person-Pronoun 1018 1020	我们
+T103	Person-Pronoun 1036 1038	我们
+T104	Person-Pronoun 1049 1051	我们
+T105	Thing-Nominal 1055 1057	地铁
+R29	Use Arg1:T104 Arg2:T105	
+T106	Location-Name 1066 1071	军事博物馆
+T107	Thing-Nominal 1061 1063	地铁
+T108	Person-Pronoun 1072 1074	我们
+T109	Person-Name 1079 1082	毛泽东
+T110	Thing-Nominal 1079 1088	毛泽东用过的一把锁
+R30	Use Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 1089 1098	朱德用过的一支手枪
+T112	Person-Name 1089 1091	朱德
+R31	Use Arg1:T112 Arg2:T111	
+T113	Organization-Nominal 1101 1103	我军
+T114	Thing-Nominal 1101 1113	我军击落的美国无人侦察机
+T115	Person-Pronoun 1115 1116	我
+T116	Person-Pronoun 1142 1143	我
+T117	Organization-Nominal 1144 1146	我军
+T118	Person-Pronoun 1159 1160	我
+T119	Organization-Name 1167 1170	党中央
+T120	Person-Name 1170 1173	毛主席
+*	Coreference T120 T109
+T121	Person-Pronoun 1178 1179	我
+T122	Location-Nominal 1188 1190	战场
+T123	Person-Nominal 1192 1195	战友们
+R32	Social Arg1:T121 Arg2:T123	
+T124	Organization-Nominal 1200 1202	我军
+T125	Person-Nominal 1219 1227	一切敢于来犯之敌
+T126	Location-Name 1231 1236	军事博物馆
+T127	Person-Pronoun 1247 1249	我们
+T128	Thing-Nominal 1253 1255	雨衣
+T129	Thing-Nominal 1261 1263	汽车
+T130	Location-Name 1271 1274	颐和园
+T131	Location-Nominal 1277 1289;1290 1296	这座清王朝动用海军经费修 建的皇家园林
+*	Coreference T131 T130
+T132	Organization-Name 1342 1346	北洋水师
+T133	Person-Pronoun 1358 1360	我们
+T134	Location-Nominal 1361 1363	东门
+R33	Part-Whole Arg1:T134 Arg2:T130	
+T135	Thing-Nominal 1368 1375	雕梁画栋的长廊
+R34	Located Arg1:T135 Arg2:T130	
+T136	Thing-Nominal 1382 1387	两旁的雨帘
+R35	Located Arg1:T135 Arg2:T136	
+T137	Thing-Nominal 1388 1393	外面的景色
+T138	Location-Name 1398 1406	万寿山腰的佛香阁
+T139	Location-Name 1408 1411	排云殿
+T140	Location-Name 1421 1424	昆明湖
+T141	Location-Name 1441 1445	十七孔桥
+T142	Thing-Nominal 1452 1453	雨
+T143	Thing-Nominal 1456 1462	传说中的仙境
+T144	Thing-Nominal 1473 1479;1480 1481	众多的亭台楼 阁
+T145	Thing-Name 1485 1487	铜亭
+R36	Part-Whole Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1494 1498	这座亭子
+*	Coreference T146 T145 T148 T150
+T147	Location-Nominal 1504 1509	座落的地方
+R37	Located Arg1:T146 Arg2:T147	
+T148	Thing-Nominal 1517 1519	全亭
+T149	Thing-Nominal 1521 1523	纯铜
+T150	Thing-Nominal 1546 1550	一座残亭
+T151	Thing-Nominal 1560 1565	铜壶和铜碗
+T152	Thing-Nominal 1557 1559	桌上
+R38	Located Arg1:T151 Arg2:T152	
+T153	Thing-Nominal 1571 1583	桌子四方的铜椅(或铜凳)
+T154	Time-Explicit 1592 1596	8月2日
+T155	Thing-Nominal 1604 1606	大雨
+T156	Person-Pronoun 1613 1615	我们
+T157	Person-Nominal 1625 1627	司机
+R39	Social Arg1:T157 Arg2:T156	
+T158	Thing-Nominal 1636 1638	汽车
+T159	Person-Pronoun 1649 1651	我们
+T160	Location-Name 1655 1657	长陵
+T161	Location-Nominal 1655 1660	长陵的大殿
+R40	Part-Whole Arg1:T161 Arg2:T160	
+T162	Location-Nominal 1662 1664	殿中
+T163	Thing-Nominal 1666 1675	又高又粗又直的立柱
+R41	Located Arg1:T163 Arg2:T162	
+T164	Person-Pronoun 1676 1678	我们
+T165	Thing-Nominal 1683 1688	这些圆柱形
+*	Coreference T165 T163 T173
+T166	Thing-Nominal 1691 1697	朱红色的立柱
+R42	General-Special Arg1:T166 Arg2:T165	
+T167	Metric 1700 1702	数丈
+T168	Person-Nominal 1705 1710	两个成年人
+T169	Metric 1705 1707	两个
+T170	Thing-Nominal 1727 1733	凹凸不平之处
+T171	Location-Nominal 1734 1738	整座大殿
+*	Coreference T171 T161
+T172	Location-Nominal 1738 1743	东西北三面
+R43	Part-Whole Arg1:T172 Arg2:T171	
+T173	Thing-Nominal 1750 1754	这些立柱
+T174	Person-Nominal 1757 1765	我国古代劳动人民
+T175	Person-Name 1785 1790	明成祖朱棣
+T176	Thing-Nominal 1791 1795	巨大石碑
+R44	Ownership Arg1:T175 Arg2:T176	
+T177	Person-Pronoun 1797 1799	我们
+T178	Location-Name 1803 1806	八达岭
+T179	Location-Name 1809 1811	长城
+T180	Thing-Nominal 1809 1814	长城的石级
+R45	Located Arg1:T180 Arg2:T179	
+T181	Person-Pronoun 1835 1837	我们
+T182	Location-Name 1838 1840	长城
+T183	Location-Name 1849 1851	长城
+T184	Person-Nominal 1853 1856	战友们
+T185	Person-Nominal 1869 1882	身穿雨衣勇往而上的现代军人
+*	Coreference T185 T184
+T186	Person-Pronoun 1886 1887	我
+T187	Metric 1899 1902	两千年
+T188	Person-Pronoun 1904 1906	我们
+T189	Time-Implicit 1908 1911	秦汉时
+T190	Person-Nominal 1913 1919	守边疆的勇士
+T191	Location-Name 1924 1926	长城
+T192	Thing-Nominal 1924 1933	长城最高处的烽火台
+R46	Located Arg1:T192 Arg2:T191	
+T193	Person-Pronoun 1934 1935	我
+T194	Location-Name 1951 1953	长城
+T195	Thing-Nominal 1963 1968	华夏的大地
+T196	Location-Name 1963 1965	华夏
+T197	Thing-Pronoun 1951 1960	长城内外哪一寸土地
+R47	Part-Whole Arg1:T197 Arg2:T195	
+R48	Located Arg1:T195 Arg2:T196	
+T198	Person-Nominal 1971 1981	蒙汉哪一个民族的后裔
+T199	Person-Nominal 1985 1990	炎黄的子孙
+R49	General-Special Arg1:T199 Arg2:T198	
+T200	Person-Nominal 1994 1996	胡人
+T201	Location-Name 1998 2007	不可逾越的万里长城
+*	Coreference T201 T194 T204 T212
+T202	Person-Name 2025 2028	秦始皇
+T203	Person-Nominal 2029 2035	后来的经营者
+T204	Location-Name 2038 2042	万里长城
+T205	Time-Implicit 2062 2064	而今
+T206	Thing-Nominal 2072 2074	城墙
+T207	Person-Nominal 2077 2078	敌
+T208	Person-Nominal 2085 2089	中国人民
+T209	Thing-Nominal 2101 2104	新长城
+T210	Organization-Name 2108 2113	人民解放军
+T211	Thing-Nominal 2119 2123	铜墙铁壁
+T212	Location-Name 2124 2131	历史遗留的长城
+T213	Physical 2136 2142	世界八大奇迹
+T214	Person-Pronoun 2149 2151	我们
+T215	Location-Name 2154 2156	长城
+T216	Thing-Nominal 2167 2171	崇山峻岭
+T217	Person-Nominal 2176 2178	世人
+T218	Person-Nominal 2181 2185	中华民族

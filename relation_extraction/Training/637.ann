@@ -1,0 +1,143 @@
+T1	Person-Nominal 5 10	户外的人们
+T2	Thing-Nominal 30 31	天
+T3	Thing-Nominal 35 36	树
+T4	Thing-Nominal 40 42	花儿
+T5	Thing-Nominal 49 51	桂花
+T6	Thing-Nominal 54 60;61 64	这条铺满鹅卵 石的路
+T7	Person-Nominal 64 66	人们
+T8	Person-Name 81 83	汪妈
+T9	Person-Nominal 85 99	今年春天搬到这个小区的新住户
+T10	Person-Nominal 81 84	汪妈家
+*	Coreference T9 T10
+T11	Person-Pronoun 100 101	她
+*	Coreference T11 T8
+T12	Thing-Nominal 106 109	这条路
+T13	Person-Nominal 113 119	上大班的外孙
+T14	Thing-Nominal 122 123	菜
+R1	Family Arg1:T13 Arg2:T11	
+T15	Person-Name 130 132	汪妈
+T16	Time-Implicit 125 129	这天早晨
+T17	Person-Nominal 134 136	外孙
+R2	Family Arg1:T17 Arg2:T15	
+T18	Location-Nominal 141 143	菜场
+T19	Thing-Nominal 146 147	菜
+R3	Located Arg1:T19 Arg2:T18	
+T20	Person-Name 154 156	汪妈
+T21	Thing-Nominal 160 163	这条路
+T22	Thing-Nominal 175 185;186 191	了一支路旁最近的开满 桂花的树枝
+T23	Person-Name 204 206	汪妈
+T24	Thing-Nominal 208 215	开满桂花的树枝
+T25	Person-Nominal 219 222	众多人
+T26	Person-Name 228 230	汪妈
+T27	Location-Nominal 237 239	楼道
+T28	Person-Name 239 241	汪妈
+T29	Person-Pronoun 255 256	她
+*	Coreference T29 T28
+T30	Thing-Nominal 257 261	桂花树枝
+T31	Thing-Nominal 263 269	装满水的瓶子
+R4	Located Arg1:T30 Arg2:T31	
+T32	Person-Name 624 626	汪妈
+T33	Thing-Nominal 630 633	这条路
+T34	Person-Nominal 635 637	外孙
+T35	Person-Nominal 638 640	外孙
+T36	Person-Name 644 646	豆豆
+*	Coreference T36 T34
+T37	Thing-Nominal 657 661	一张小脸
+T38	Person-Name 669 671	汪妈
+T39	Person-Name 673 675	豆豆
+T40	Person-Name 683 685	豆豆
+R5	Part-Whole Arg1:T37 Arg2:T36	
+R6	Family Arg1:T39 Arg2:T38	
+T41	Thing-Nominal 685 690	机灵的眼睛
+R7	Part-Whole Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 695 700	被摘的树枝
+T43	Person-Nominal 706 708	外婆
+T44	Person-Pronoun 709 711	我们
+T45	Person-Nominal 709 713	我们老师
+T46	Thing-Nominal 717 721	公园的花
+T47	Person-Nominal 736 740	你们老师
+T48	Person-Name 748 750	汪妈
+T49	Person-Nominal 752 755	小外孙
+T50	Thing-Nominal 767 770	五味瓶
+R8	Family Arg1:T49 Arg2:T48	
+T51	Thing-Nominal 274 278	桂花树枝
+T52	Person-Name 290 292	汪妈
+T53	Time-Implicit 315 317	中午
+T54	Person-Nominal 317 322	汪妈的女儿
+T55	Person-Name 322 324	丽丽
+*	Coreference T55 T54
+T56	Thing-Nominal 331 332	门
+T57	Person-Nominal 345 346	妈
+T58	Person-Pronoun 355 356	你
+T59	Person-Name 359 361	汪妈
+T60	Thing-Nominal 368 370	餐桌
+T61	Thing-Nominal 372 375	桂花枝
+T62	Person-Name 378 380	丽丽
+T63	Thing-Nominal 382 387	手中的提包
+T64	Thing-Nominal 390 392	餐桌
+T65	Person-Nominal 399 400	妈
+T66	Person-Pronoun 401 402	我
+T67	Person-Pronoun 405 406	你
+T68	Thing-Nominal 414 420	路上的桂花树
+T69	Person-Pronoun 423 424	我
+T70	Person-Nominal 444 445	妈
+T71	Person-Pronoun 446 447	您
+T72	Person-Pronoun 448 449	我
+T73	Person-Nominal 450 452	护士
+T74	Person-Pronoun 456 457	我
+T75	Person-Pronoun 463 464	您
+T76	Thing-Nominal 466 468	植物
+T77	Person-Nominal 478 480	孩子
+T78	Person-Pronoun 483 484	我
+T79	Person-Name 491 493	汪妈
+T80	Person-Nominal 502 503	妈
+T81	Thing-Nominal 504 507	您的花
+T82	Person-Name 515 517	汪妈
+T83	Thing-Nominal 519 523	桂花树枝
+T84	Location-Nominal 518 526	摘桂花树枝的地方
+T85	Person-Name 529 531	丽丽
+T86	Person-Name 532 534	丽丽
+T87	Thing-Nominal 544 554	那条铺满鹅卵石的小路
+T88	Person-Nominal 557 558;559 561	几 个人
+T89	Thing-Nominal 563 571	那棵不大的桂花树
+T90	Person-Nominal 582 585	还有人
+T91	Person-Name 590 592	丽丽
+T92	Person-Name 606 608	丽丽
+R9	Social Arg1:T90 Arg2:T92	
+*	Coreference T66 T62
+*	Coreference T69 T79
+T93	Time-Implicit 779 781	晚上
+T94	Person-Nominal 786 788	大家
+T95	Person-Nominal 796 801	丽丽的丈夫
+T96	Person-Name 801 803	大刘
+*	Coreference T96 T95 T97
+T97	Person-Pronoun 811 812	他
+T98	Thing-Nominal 822 827	被摘的树枝
+T99	Person-Name 832 834	丽丽
+R10	Family Arg1:T99 Arg2:T96	
+T100	Person-Name 846 848	大刘
+T101	Thing-Nominal 849 851	抽屉
+T102	Thing-Nominal 855 859	一卷胶带
+T103	Person-Name 879 881	大刘
+T104	Person-Name 860 862	丽丽
+R11	Family Arg1:T103 Arg2:T104	
+T105	Thing-Nominal 890 895	一块硬纸板
+T106	Thing-Nominal 896 897	笔
+T107	Thing-Nominal 912 915	手电筒
+T108	Person-Name 916 918	丽丽
+T109	Time-Implicit 925 930	第二天早晨
+T110	Person-Nominal 931 933	路人
+T111	Thing-Nominal 935 945	这条铺满鹅卵石的小路
+T112	Thing-Nominal 950 952	树枝
+T113	Thing-Nominal 962 964	树枝
+T114	Thing-Nominal 967 972	一块小牌子
+T115	Person-Nominal 983 985;986 987	我母 亲
+T116	Thing-Nominal 989 993	这棵树枝
+T117	Person-Pronoun 994 995	她
+*	Coreference T117 T115 T119
+T118	Person-Nominal 1004 1006	大家
+T119	Person-Pronoun 1009 1010	她
+T120	Person-Name 1015 1017	大刘
+R12	Located Arg1:T102 Arg2:T101	
+R13	Use Arg1:T103 Arg2:T105	
+R14	Use Arg1:T103 Arg2:T106	

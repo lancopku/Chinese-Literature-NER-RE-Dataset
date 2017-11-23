@@ -1,0 +1,95 @@
+T1	Thing-Nominal 0 4	五星红旗
+T2	Organization-Nominal 6 8	祖国
+T3	Organization-Name 8 12	伟大母亲
+*	Coreference T3 T2 T6
+T4	Abstract 27 33	特色社会主义
+T5	Time-Explicit 55 72	2013年12月14日21时11分
+T6	Organization-Nominal 73 75	中国
+T7	Thing-Nominal 73 84	中国嫦娥三号月球着陆器
+T8	Metric 89 93	750牛
+T9	Thing-Nominal 93 99	核动力发动机
+R1	Part-Whole Arg1:T9 Arg2:T7	
+T10	Location-Nominal 101 108	离月表约3米处
+T11	Thing-Nominal 111 115;116 117	识障“眼 ”
+R2	Part-Whole Arg1:T11 Arg2:T7	
+T12	Thing-Nominal 122 124	蓝光
+T13	Metric 120 122	一缕
+T14	Metric 128 130	一只
+T15	Thing-Nominal 125 127	身体
+R3	Part-Whole Arg1:T15 Arg2:T7	
+T16	Thing-Nominal 130 134	太空蜂鸟
+*	Coreference T16 T15 T18 T20
+T17	Metric 137 139	一只
+T18	Thing-Nominal 139 141	鹰隼
+T19	Metric 144 146	一架
+T20	Thing-Nominal 146 149	直升机
+T21	Person-Pronoun 183 184	我
+T22	Person-Nominal 185 189	古稀老人
+*	Coreference T22 T21
+T23	Thing-Nominal 190 192	肉眼
+R4	Part-Whole Arg1:T23 Arg2:T21	
+T24	Metric 204 206	一片
+T25	Thing-Nominal 206 217	平整无碍无陨石坑的月面
+T26	Thing-Nominal 211 214	陨石坑
+T27	Thing-Nominal 228 230	电视
+T28	Thing-Nominal 239 243	嫦娥三号
+*	Coreference T28 T7 T29 T31
+T29	Thing-Nominal 267 270	着陆器
+T30	Location-Nominal 281 284	虹湾区
+T31	Thing-Name 292 298	嫦娥“姑娘”
+T32	Thing-Nominal 302 306	五星红旗
+T33	Thing-Nominal 311 313	阳光
+T34	Person-Pronoun 327 328	我
+T35	Location-Nominal 332 340	北京飞行控制中心
+T36	Time-Implicit 352 357	也就在同时
+T37	Thing-Nominal 358 360	电视
+T38	Person-Nominal 364 367	主持人
+T39	Organization-Nominal 377 379	中国
+T40	Organization-Nominal 380 383	前苏联
+T41	Organization-Nominal 384 386	美国
+T42	Thing-Nominal 399 401	月球
+T43	Organization-Nominal 392 410	世界上第三个在月球上实现软着陆的国家
+*	Coreference T43 T39
+T44	Thing-Nominal 411 412;413 416	五 星红旗
+T45	Thing-Nominal 422 426	地外天体
+*	Coreference T45 T42 T53
+T46	Time-Implicit 428 431	紧接着
+T47	Time-Explicit 432 440	15日4时35分
+T48	Thing-Nominal 441 446	月球巡视器
+T49	Thing-Name 446 448	玉兔
+*	Coreference T49 T48 T55
+T50	Thing-Nominal 454 461	嫦娥三号着陆器
+T51	Location-Nominal 465 469	月球表土
+T52	Thing-Nominal 481 484	中国印
+T53	Thing-Nominal 493 494	月
+T54	Thing-Name 501 503	嫦娥
+*	Coreference T54 T50
+T55	Thing-Name 504 506	玉兔
+T56	Thing-Nominal 530 534	五星红旗
+T57	Thing-Nominal 519 521	照片
+T58	Person-Pronoun 535 536	我
+T60	Person-Nominal 550 552	友人
+T59	Thing-Nominal 561 565	嫦娥三号
+T61	Thing-Nominal 573 575	月球
+T62	Time-Explicit 596 601	2013年
+T63	Abstract 607 611	天宫授课
+T64	Abstract 614 621;622 626	7000米深海 龙宫探宝
+T65	Abstract 629 638	辽宁号航母南海训练
+T66	Abstract 641 646	粮食十连增
+T67	Abstract 649 658	广东恒大足球夺亚冠
+T68	Person-Nominal 671 675	中华儿女
+T69	Person-Nominal 699 703	中华民族
+T70	Abstract 718 722	嫦娥奔月
+T71	Thing-Nominal 770 772	设备
+T72	Abstract 810 812;813 817	观天 看地测月
+T73	Person-Nominal 854 857	中国人
+T74	Person-Pronoun 858 860	自己
+*	Coreference T74 T73
+T75	Abstract 868 872	中国创造
+T76	Abstract 876 880	中国制造
+T77	Person-Nominal 899 901	神仙
+T78	Thing-Nominal 909 912	生命体
+T79	Thing-Nominal 917 920	DNA
+T80	Thing-Nominal 931 933	细胞
+T81	Thing-Nominal 958 962	五星红旗
+T82	Person-Pronoun 984 985	我

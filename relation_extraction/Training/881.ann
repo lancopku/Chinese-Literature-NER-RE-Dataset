@@ -1,0 +1,357 @@
+T1	Time-Explicit 1 8	改革开放的年代
+T2	Organization-Name 9 11	中国
+T3	Thing-Nominal 11 13	铁路
+R1	Ownership Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 26 28	列车
+T5	Thing-Nominal 29 35	动力牵引机车
+R2	Part-Whole Arg1:T5 Arg2:T4	
+T6	Thing-Nominal 45 49	内燃机车
+T7	Thing-Nominal 50 54	电力机车
+T8	Thing-Nominal 57 60;61 63	老蒸汽 机车
+R3	General-Special Arg1:T6 Arg2:T5	
+R4	General-Special Arg1:T7 Arg2:T5	
+R5	General-Special Arg1:T8 Arg2:T5	
+T9	Location-Nominal 65 69	高速铁路
+T10	Thing-Nominal 72 74	列车
+R6	Located Arg1:T10 Arg2:T9	
+T11	Metric 83 89	六、七十公里
+T12	Metric 94 98	二百公里
+T13	Location-Nominal 102 106	高速铁路
+T14	Metric 111 117	四、五百公里
+T15	Thing-Nominal 120 121;122 123	机 车
+T16	Thing-Nominal 131 135	蒸汽机车
+R7	General-Special Arg1:T16 Arg2:T15	
+T17	Organization-Pronoun 156 158	我国
+*	Coreference T17 T2
+T18	Organization-Name 176 179	新中国
+T19	Thing-Nominal 182 186	蒸汽机车
+T20	Location-Nominal 187 191	中华大地
+T21	Metric 201 206	近半个世纪
+T22	Thing-Nominal 211 215	蒸汽机车
+T23	Organization-Name 216 219	新中国
+T24	Person-Nominal 236 240	中国人民
+T25	Thing-Nominal 250 254	蒸汽机车
+T26	Person-Nominal 257 259	人民
+T27	Thing-Nominal 262 266	老火车头
+*	Coreference T25 T27
+T28	Time-Explicit 268 286	上个世纪末叶的一九九五年九月二十五日
+T30	Location-Name 295 299	宁夏区段
+T29	Location-Name 288 293	包兰铁路线
+R8	Part-Whole Arg1:T30 Arg2:T29	
+T31	Location-Name 304 307	石嘴山
+T32	Organization-Nominal 308 313	铁路机务段
+*	Coreference T31 T32
+T33	Thing-Nominal 322 326	蒸汽机车
+T34	Person-Nominal 337 345	一位铁道部副部长
+T35	Person-Nominal 359 363	铁路职工
+T36	Person-Nominal 364 374	已退休的老火车司机们
+T37	Thing-Nominal 380 382	热泪
+R9	Social Arg1:T35 Arg2:T36	
+R10	Social Arg1:T34 Arg2:T35	
+R11	Social Arg1:T34 Arg2:T36	
+R12	Ownership Arg1:T34 Arg2:T32	
+R13	Ownership Arg1:T35 Arg2:T32	
+R14	Ownership Arg1:T36 Arg2:T32	
+T38	Location-Nominal 384 386	会场
+T39	Metric 395 400	二、三十年
+T40	Person-Nominal 401 406	老火车司机
+T41	Person-Nominal 408 410	儿女
+R15	Family Arg1:T40 Arg2:T41	
+T42	Person-Nominal 424 426	有的
+T43	Thing-Nominal 428 430	轮椅
+T44	Person-Nominal 431 433	家人
+R16	Family Arg1:T42 Arg2:T44	
+R17	Ownership Arg1:T42 Arg2:T43	
+T45	Person-Pronoun 436 438	他们
+R18	General-Special Arg1:T42 Arg2:T40	
+*	Coreference T45 T40 T46
+T46	Person-Nominal 442 444	自己
+T47	Thing-Nominal 453 457	老火车头
+T48	Person-Name 465 468	李兰波
+T49	Person-Nominal 469 474	老机车司机
+R19	General-Special Arg1:T48 Arg2:T49	
+T50	Person-Nominal 476 483	中国第一代司机
+T51	Organization-Name 487 492	许州铁路局
+T52	Location-Nominal 494 497	大西北
+T53	Person-Nominal 504 506	老翁
+R20	General-Special Arg1:T48 Arg2:T50	
+*	Coreference T53 T48 T57
+T54	Organization-Nominal 511 513	私塾
+T55	Thing-Nominal 521 522;523 526	兰 亭行书
+T56	Location-Nominal 529 531	会场
+T57	Person-Pronoun 532 533	他
+T58	Person-Nominal 534 536	女儿
+R21	Family Arg1:T57 Arg2:T58	
+T59	Location-Nominal 537 539	商店
+T60	Thing-Nominal 544 546	红纸
+T61	Thing-Nominal 554 558	五言律诗
+R22	Located Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 548 549	毫
+R23	Use Arg1:T57 Arg2:T62	
+T63	Organization-Name 561 563	华夏
+T64	Metric 567 570	一世纪
+T65	Organization-Name 573 576	新中国
+T66	Time-Implicit 584 589	来到会场后
+T67	Location-Nominal 586 588	会场
+T68	Person-Pronoun 590 591	他
+T69	Person-Nominal 592 594	儿子
+R24	Family Arg1:T68 Arg2:T69	
+R25	Family Arg1:T58 Arg2:T69	
+T70	Thing-Nominal 602 606	老火车头
+R26	Located Arg1:T60 Arg2:T70	
+T71	Organization-Name 609 612	新中国
+T72	Time-Explicit 609 620	新中国成立前的半个世纪
+T73	Person-Nominal 622 627	外国侵略者
+T74	Thing-Nominal 628 630	铁路
+T75	Location-Nominal 633 637	中国大地
+R27	Located Arg1:T74 Arg2:T75	
+T76	Person-Pronoun 638 640	他们
+*	Coreference T76 T73
+T77	Thing-Nominal 641 643	火车
+R28	Use Arg1:T76 Arg2:T77	
+R29	Located Arg1:T77 Arg2:T74	
+T78	Organization-Name 646 648	中国
+T79	Person-Nominal 658 661	侵略者
+T80	Thing-Nominal 662 666	战争武器
+T81	Organization-Name 667 669	中国
+T82	Person-Nominal 671 677	第一代铁路人
+T83	Location-Nominal 691 695	东北三省
+T84	Person-Nominal 696 699	日本人
+T85	Thing-Name 702 706	满蒙铁路
+T86	Location-Name 707 709	山东
+T87	Thing-Nominal 710 712	铁路
+R30	Located Arg1:T87 Arg2:T86	
+T88	Time-Implicit 714 716	当年
+T89	Person-Nominal 717 721	老司机们
+T90	Person-Nominal 723 725	年青
+*	Coreference T89 T90 T95 T96
+T91	Person-Nominal 729 732	擦车夫
+T92	Person-Nominal 733 736	烧水生
+R31	General-Special Arg1:T91 Arg2:T89	
+R32	General-Special Arg1:T92 Arg2:T89	
+T93	Person-Nominal 740 743	日本人
+R33	Social Arg1:T89 Arg2:T93	
+T94	Thing-Nominal 745 747	机车
+T95	Person-Pronoun 756 758	他们
+T96	Person-Nominal 764 766	自己
+T97	Person-Nominal 767 770	中国人
+R34	General-Special Arg1:T96 Arg2:T97	
+T98	Person-Nominal 772 781	原银川铁路局副局长
+T99	Organization-Name 773 778	银川铁路局
+T100	Person-Name 784 790	纪振林老先生
+R35	Ownership Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 794 798	东北铁路
+T102	Person-Nominal 800 803	司炉生
+*	Coreference T100 T102 T104
+T103	Organization-Nominal 811 815	抗联组织
+T104	Person-Nominal 818 821	联络员
+T105	Person-Nominal 824 828	铁路职工
+R36	General-Special Arg1:T104 Arg2:T105	
+T106	Organization-Nominal 836 838	抗联
+T107	Time-Implicit 842 844	那时
+T108	Thing-Nominal 845 847	机车
+T109	Organization-Name 851 853	日本
+R37	Ownership Arg1:T100 Arg2:T103	
+R38	Ownership Arg1:T100 Arg2:T101	
+T110	Time-Explicit 858 864	新中国成立后
+T111	Organization-Name 858 861	新中国
+T112	Location-Name 866 868	北京
+T113	Organization-Name 869 872	长辛店
+T114	Location-Name 873 875	山东
+T115	Organization-Name 876 881	四方机车厂
+T116	Organization-Nominal 885 887	自己
+T117	Thing-Nominal 888 892	蒸汽机车
+R39	Create Arg1:T115 Arg2:T117	
+R40	Create Arg1:T113 Arg2:T117	
+*	Coreference T116 T115 T113
+T118	Time-Implicit 893 895	当时
+*	Coreference T118 T110
+T119	Thing-Nominal 901 906	仿日式机车
+R41	General-Special Arg1:T119 Arg2:T117	
+T120	Time-Explicit 909 913	一九六五
+T121	Organization-Name 915 917	中国
+T122	Thing-Nominal 923 934	前进型、建设型大型机车
+T123	Location-Name 935 939	山西大同
+R42	General-Special Arg1:T122 Arg2:T117	
+T124	Time-Explicit 944 950	解放战争时期
+T125	Location-Nominal 951 959	抗美援朝战争时期
+T126	Organization-Name 952 953	美
+T127	Organization-Name 954 955	朝
+T128	Organization-Name 960 962	中国
+T129	Person-Nominal 963 971	第一代火车司机们
+T130	Organization-Name 974 977	新中国
+T131	Person-Nominal 988 990	敌人
+T132	Thing-Nominal 991 993	炮火
+T133	Thing-Nominal 994 996	飞机
+R43	Ownership Arg1:T131 Arg2:T132	
+R44	Ownership Arg1:T131 Arg2:T133	
+R45	Social Arg1:T129 Arg2:T131	
+T134	Thing-Nominal 1002 1003;1004 1006	火 车头
+T135	Thing-Nominal 1012 1014	列车
+T136	Organization-Nominal 1017 1019	祖国
+*	Coreference T136 T130
+T137	Location-Name 1025 1027	朝鲜
+T138	Metric 1028 1031	三千里
+T139	Thing-Nominal 1031 1032	河
+T140	Thing-Nominal 1032 1033	山
+T141	Location-Nominal 1020 1024	大江南北
+T142	Organization-Name 1035 1038	新中国
+T143	Organization-Name 1044 1045	美
+T144	Organization-Name 1046 1047	朝
+T145	Person-Nominal 1057 1065	已故的老火车司机
+T146	Person-Name 1065 1068	刘银裕
+*	Coreference T145 T146 T148
+T147	Time-Explicit 1069 1075	新中国成立后
+T148	Person-Pronoun 1076 1077	他
+T149	Organization-Name 1069 1072	新中国
+T150	Organization-Name 1078 1083	青岛机务段
+T151	Thing-Nominal 1084 1086	火车
+R46	Ownership Arg1:T148 Arg2:T150	
+T152	Time-Explicit 1087 1095	一九五零年的一天
+T153	Person-Nominal 1100 1102	上级
+R47	Social Arg1:T148 Arg2:T153	
+T154	Person-Pronoun 1111 1112	他
+T155	Person-Nominal 1116 1117;1118 1120	伙 计们
+R48	Social Arg1:T154 Arg2:T155	
+R49	Ownership Arg1:T155 Arg2:T150	
+T156	Location-Nominal 1121 1122	家
+T157	Location-Name 1131 1133	朝鲜
+T158	Person-Pronoun 1136 1138	他们
+T159	Person-Nominal 1139 1141	家属
+R50	Family Arg1:T158 Arg2:T159	
+T160	Person-Nominal 1144 1146	领导
+R51	Social Arg1:T159 Arg2:T160	
+T161	Time-Implicit 1159 1162	三年后
+T162	Time-Explicit 1163 1168	一九五三年
+*	Coreference T161 T162
+T163	Person-Nominal 1169 1172	全车人
+T164	Location-Name 1175 1177	青岛
+T165	Time-Implicit 1231 1233	当年
+T166	Person-Nominal 1234 1237	铁路人
+T167	Thing-Nominal 1242 1244	红心
+R52	Part-Whole Arg1:T167 Arg2:T166	
+T168	Organization-Nominal 1249 1251	祖国
+T169	Thing-Nominal 1265 1269	蒸汽机车
+T170	Thing-Nominal 1290 1293	火车头
+T171	Thing-Nominal 1300 1302	列车
+T172	Thing-Nominal 1303 1305	铁路
+R53	Located Arg1:T171 Arg2:T172	
+T173	Organization-Nominal 1313 1315	一组
+T174	Person-Nominal 1315 1317	三人
+R54	Ownership Arg1:T174 Arg2:T173	
+T175	Person-Nominal 1318 1320	司机
+T176	Person-Nominal 1321 1324	副司机
+T177	Person-Nominal 1326 1331	烧火的司炉
+R55	Ownership Arg1:T176 Arg2:T173	
+R56	Ownership Arg1:T175 Arg2:T173	
+R57	Ownership Arg1:T177 Arg2:T173	
+T178	Person-Nominal 1342 1344	列车
+T179	Time-Implicit 1350 1353	进站时
+T180	Location-Nominal 1351 1352	站
+T181	Location-Nominal 1364 1366	前方
+T182	Time-Implicit 1372 1375	确认后
+T183	Thing-Nominal 1380 1382	手势
+T184	Person-Nominal 1393 1395	司机
+T185	Thing-Nominal 1401 1403	列车
+T186	Thing-Nominal 1417 1419	信号
+T187	Thing-Nominal 1358 1360	信号
+T188	Thing-Nominal 1367 1371	绿色信号
+T189	Person-Nominal 1437 1439	司机
+T190	Thing-Nominal 1434 1435	车
+T191	Thing-Nominal 1442 1444	汽门
+T192	Thing-Nominal 1448 1451	制动阀
+T193	Thing-Nominal 1452 1454	列车
+R58	Part-Whole Arg1:T192 Arg2:T193	
+R59	Part-Whole Arg1:T191 Arg2:T193	
+T194	Person-Nominal 1469 1473	火车司机
+T195	Thing-Nominal 1480 1482	列车
+T196	Location-Nominal 1496 1497	坡
+T197	Thing-Nominal 1500 1502	车轮
+T198	Thing-Nominal 1490 1492	重车
+R60	Part-Whole Arg1:T197 Arg2:T195	
+T199	Thing-Nominal 1517 1518	车
+*	Coreference T199 T195
+T200	Person-Nominal 1528 1530	司机
+T201	Thing-Nominal 1533 1536	撒沙阀
+R61	Part-Whole Arg1:T201 Arg2:T199	
+T202	Thing-Nominal 1537 1539	芝麻
+T203	Thing-Nominal 1543 1545	沙粒
+T204	Location-Nominal 1548 1552	机车顶部
+T205	Thing-Nominal 1553 1555	沙塔
+R62	Located Arg1:T205 Arg2:T204	
+R63	Located Arg1:T203 Arg2:T205	
+T206	Thing-Nominal 1561 1563	沙管
+T207	Location-Nominal 1565 1569	车轮底部
+T208	Thing-Nominal 1570 1572	钢轨
+R64	Located Arg1:T203 Arg2:T208	
+R65	Located Arg1:T208 Arg2:T207	
+R66	Part-Whole Arg1:T206 Arg2:T199	
+T209	Thing-Nominal 1574 1576	车轮
+T210	Thing-Nominal 1578 1580	沙粒
+T211	Thing-Nominal 1581 1583	车轮
+T212	Thing-Nominal 1584 1586	钢轨
+T213	Thing-Nominal 1593 1595	列车
+T214	Location-Nominal 1604 1606	坡顶
+T215	Thing-Nominal 1611 1613	列车
+T216	Location-Nominal 1614 1616	隧道
+R67	Located Arg1:T215 Arg2:T216	
+T217	Thing-Nominal 1621 1623	火车
+*	Coreference T217 T215
+T218	Thing-Nominal 1626 1628	黑烟
+T219	Person-Nominal 1642 1646	乘务人员
+T220	Thing-Nominal 1648 1650	脖子
+R68	Part-Whole Arg1:T220 Arg2:T219	
+T221	Thing-Nominal 1653 1655	毛巾
+R69	Located Arg1:T221 Arg2:T220	
+T222	Thing-Nominal 1656 1657	水
+R70	Located Arg1:T221 Arg2:T222	
+T223	Thing-Nominal 1669 1673	蒸汽机车
+T224	Person-Nominal 1677 1681	乘务人员
+T225	Person-Nominal 1687 1689	自己
+*	Coreference T224 T225
+T226	Person-Nominal 1690 1692	孩子
+R71	Family Arg1:T225 Arg2:T226	
+T227	Thing-Nominal 1697 1699	列车
+T228	Location-Nominal 1702 1705	中间站
+T229	Person-Nominal 1706 1708	司机
+T230	Thing-Nominal 1721 1722	车
+*	Coreference T230 T227
+T231	Thing-Nominal 1723 1724	手
+R72	Part-Whole Arg1:T231 Arg2:T229	
+T232	Thing-Nominal 1728 1729;1730 1731	车 轴
+R73	Part-Whole Arg1:T232 Arg2:T230	
+T233	Thing-Nominal 1737 1738	手
+T234	Thing-Nominal 1740 1743	检车锤
+R74	Located Arg1:T234 Arg2:T233	
+R75	Use Arg1:T229 Arg2:T234	
+T235	Thing-Nominal 1748 1750	部件
+R76	Part-Whole Arg1:T235 Arg2:T230	
+T236	Thing-Nominal 1765 1767	列车
+T237	Location-Nominal 1769 1772	终点站
+T238	Thing-Nominal 1773 1775	机车
+*	Coreference T238 T236
+T239	Organization-Nominal 1783 1786	机务段
+T240	Person-Nominal 1791 1795	乘务人员
+T241	Thing-Nominal 1797 1799	棉纱
+T242	Thing-Nominal 1800 1802	机车
+R77	Use Arg1:T240 Arg2:T241	
+T243	Person-Nominal 1807 1810	副司机
+T244	Thing-Nominal 1811 1813	油壶
+T245	Thing-Nominal 1819 1820	油
+R78	Located Arg1:T245 Arg2:T244	
+R79	Use Arg1:T243 Arg2:T244	
+T246	Person-Nominal 1834 1836	司机
+T247	Time-Implicit 1837 1840	交班时
+T248	Person-Nominal 1853 1856	值班员
+R80	Social Arg1:T246 Arg2:T248	
+T249	Thing-Nominal 1858 1862	蒸汽机车
+T250	Time-Implicit 1858 1865	蒸汽机车的年代
+T251	Organization-Name 1869 1872	新中国
+T252	Metric 1876 1880	半个世纪
+T253	Thing-Nominal 1882 1886	蒸汽机车
+T254	Person-Nominal 1887 1893	老一辈铁路人
+T255	Organization-Nominal 1920 1922	祖国
+*	Coreference T255 T251
+R81	Social Arg1:T175 Arg2:T176	
+R82	Social Arg1:T175 Arg2:T177	
+R83	Social Arg1:T176 Arg2:T177	

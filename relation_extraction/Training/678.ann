@@ -1,0 +1,209 @@
+T1	Location-Name 3 6	锦州市
+T2	Organization-Nominal 0 17	活跃在锦州市的一支军休老年文艺团队
+T4	Organization-Pronoun 28 30	他们
+T5	Person-Nominal 28 38	他们的领军人物、团长
+T6	Person-Name 39 42	王素梅
+*	Coreference T6 T5
+T7	Person-Name 44 47	王素梅
+T8	Person-Nominal 82 84	老师
+R1	Social Arg1:T8 Arg2:T7	
+T9	Person-Pronoun 91 92	她
+*	Coreference T9 T7
+T10	Thing-Nominal 112 114	歌片
+T11	Thing-Nominal 107 109	简谱
+R2	Use Arg1:T9 Arg2:T11	
+R3	Use Arg1:T9 Arg2:T10	
+T12	Person-Nominal 119 130	学校文艺演出的积极分子
+R4	General-Special Arg1:T12 Arg2:T9	
+T13	Person-Pronoun 131 132	她
+T14	Person-Nominal 142 144	老师
+T16	Time-Implicit 149 151	那时
+T15	Person-Nominal 156 160	歌唱演员
+T17	Person-Nominal 166 186	军装的，佩戴红色五线谱肩章的部队文工团员
+T18	Thing-Nominal 166 168	军装
+T19	Thing-Nominal 172 179	红色五线谱肩章
+R5	Use Arg1:T17 Arg2:T19	
+R6	Use Arg1:T17 Arg2:T18	
+T20	Time-Implicit 192 197	十七岁那年
+T21	Organization-Name 198 203	空政歌舞团
+T22	Location-Nominal 204 206	学校
+T23	Person-Nominal 208 210	演员
+T24	Person-Pronoun 220 221	她
+T25	Location-Nominal 239 241	家里
+T26	Person-Nominal 241 243	父亲
+R7	Family Arg1:T26 Arg2:T24	
+T27	Person-Pronoun 248 249	她
+T28	Location-Nominal 262 269	抗美援朝的战场
+T29	Person-Name 271 278	他的战友马股长
+T30	Person-Pronoun 271 272	他
+*	Coreference T30 T26
+R8	Social Arg1:T29 Arg2:T30	
+T31	Organization-Name 279 281	美国
+T32	Thing-Nominal 279 283	美国飞机
+R9	Ownership Arg1:T31 Arg2:T32	
+T33	Thing-Nominal 285 287;288 289	一条 腿
+T34	Metric 285 287	一条
+R10	Part-Whole Arg1:T33 Arg2:T29	
+T35	Person-Nominal 290 298	当时在场的四个人
+R11	Social Arg1:T35 Arg2:T29	
+T36	Person-Nominal 301 302	人
+T37	Metric 295 297	四个
+T38	Person-Name 317 320	马股长
+*	Coreference T38 T29
+T39	Person-Nominal 312 313	人
+T40	Location-Nominal 327 330	战场上
+*	Coreference T40 T28
+T41	Time-Implicit 331 335	战争年代
+T42	Location-Nominal 344 346	战地
+T43	Person-Nominal 350 354	医务人员
+T44	Person-Nominal 357 359	伤员
+T45	Person-Pronoun 362 363	她
+T46	Person-Pronoun 383 384	她
+T47	Person-Nominal 386 388	父亲
+T48	Person-Nominal 394 396	演员
+T49	Organization-Nominal 369 371	医校
+T50	Time-Implicit 363 368	高中毕业后
+T51	Time-Implicit 374 377	毕业后
+T52	Time-Implicit 405 408	第二年
+T53	Organization-Nominal 412 419	部队的护士学校
+T54	Time-Implicit 420 423	毕业后
+T55	Organization-Nominal 426 430	部队医院
+T56	Person-Pronoun 436 437	她
+T57	Time-Explicit 455 460	1982年
+T58	Organization-Name 462 467	中国共产党
+T59	Person-Nominal 469 470;471 475	部 队伤病员
+T60	Metric 479 482	三十年
+T61	Person-Nominal 486 493	骨伤外科护士长
+*	Coreference T61 T56
+T62	Time-Implicit 501 504	退休后
+T63	Person-Pronoun 504 505	她
+T64	Organization-Name 509 512	军休所
+T65	Organization-Name 515 518	军休所
+T66	Person-Nominal 515 527	军休所里这些昔日的老军人
+R12	General-Special Arg1:T66 Arg2:T63	
+T67	Person-Nominal 533 536	新市民
+T68	Person-Pronoun 546 547	她
+T69	Person-Nominal 553 555	大家
+T70	Person-Pronoun 567 568	她
+R13	General-Special Arg1:T67 Arg2:T66	
+T71	Organization-Name 573 585	所(后改为军休服务中心)
+*	Coreference T71 T65
+T72	Person-Nominal 573 587	所(后改为军休服务中心)领导
+T73	Thing-Nominal 596 600	活动场地
+T74	Thing-Nominal 603 605	操场
+T75	Thing-Nominal 606 608	舞台
+T76	Person-Pronoun 666 668	他们
+T77	Location-Name 686 689	锦州市
+T78	Organization-Name 705 710	中央电视台
+T79	Person-Pronoun 732 733	她
+T80	Organization-Nominal 732 736	她的团队
+R14	Ownership Arg1:T79 Arg2:T80	
+T81	Person-Nominal 742 744;745 748	13 0多人
+T82	Person-Nominal 759 760	人
+T83	Organization-Nominal 762 765	艺术团
+T84	Organization-Name 766 771	“万岁团”
+*	Coreference T84 T83 T80
+T85	Person-Nominal 784 787	这些人
+T86	Time-Implicit 788 792	战争年代
+T87	Thing-Nominal 794 795	枪
+T88	Thing-Nominal 796 797	炮
+R15	Use Arg1:T85 Arg2:T87	
+R16	Use Arg1:T85 Arg2:T88	
+R17	Ownership Arg1:T85 Arg2:T84	
+T89	Person-Nominal 798 800	行家
+R18	General-Special Arg1:T89 Arg2:T85	
+T90	Time-Implicit 801 803	如今
+T91	Person-Pronoun 840 841	她
+T92	Time-Implicit 856 859	演出时
+T93	Thing-Nominal 861 863	服装
+T94	Organization-Nominal 867 873	厂矿企业单位
+T95	Thing-Nominal 877 879	道具
+T96	Person-Pronoun 880 882	自己
+T97	Person-Nominal 913 916	军休人
+T98	Thing-Nominal 922 924	幻灯
+T99	Location-Nominal 926 927;928 929	舞 台
+T100	Person-Pronoun 933 935	他们
+*	Coreference T96 T100 T85 T81
+T101	Person-Pronoun 983 985	他们
+T102	Person-Pronoun 1005 1007	他们
+T103	Organization-Nominal 1023 1028	支文化新军
+T104	Time-Explicit 1029 1034	2006年
+T105	Time-Explicit 1037 1047	红军长征胜利70周年
+T106	Metric 1050 1054	两个多月
+T107	Person-Nominal 1084 1088	业内人士
+T108	Organization-Nominal 1092 1096	专业团队
+T109	Metric 1100 1104	三五个月
+T110	Person-Pronoun 1112 1114	他们
+T111	Metric 1117 1121	两个多月
+T112	Person-Pronoun 1141 1143	他们
+T113	Organization-Name 1145 1150	中央电视台
+T114	Person-Name 1163 1165	他们
+T115	Thing-Nominal 1168 1170	军装
+T116	Time-Explicit 1180 1185	2008年
+T117	Organization-Nominal 1203 1213	来自全国60支代表队
+T118	Person-Pronoun 1215 1216	她
+T119	Person-Nominal 1244 1247	专家们
+T120	Time-Explicit 1273 1278	2012年
+T121	Person-Name 1312 1329	国务院副总理、全国老龄委主任回良玉
+T122	Thing-Name 1281 1289	短剧《军人本色》
+T123	Thing-Name 1151 1157	《星光大道》
+R19	Ownership Arg1:T113 Arg2:T123	
+T124	Thing-Name 1066 1083	风格独特的大型声乐套曲《长征组歌》
+R20	Create Arg1:T110 Arg2:T124	
+T125	Thing-Nominal 613 622;623 643	快板、表演唱、小品 、三句半、独唱、小合唱、西河大鼓等小节目
+R21	Create Arg1:T76 Arg2:T125	
+T126	Thing-Name 671 683	16人的舞蹈《今夜无眠》
+R22	Create Arg1:T76 Arg2:T126	
+T127	Person-Nominal 671 674	16人
+T128	Person-Pronoun 1333 1335	他们
+T129	Location-Name 1337 1340	辽宁省
+T130	Location-Name 1341 1344	锦州市
+T131	Time-Explicit 1363 1371	2010年10月
+T132	Location-Name 1372 1375	辽宁省
+T133	Location-Name 1385 1387	锦州
+R23	Part-Whole Arg1:T133 Arg2:T132	
+*	Coreference T133 T1
+T3	Organization-Name 20 27	锦州军休艺术团
+*	Coreference T3 T2
+T134	Person-Pronoun 1390 1392	他们
+T135	Thing-Nominal 1394 1398	五个节目
+R24	Create Arg1:T134 Arg2:T135	
+T136	Metric 1394 1396	五个
+T137	Thing-Nominal 1408 1409	歌
+T138	Thing-Nominal 1413 1414	歌
+T139	Thing-Nominal 1418 1419	歌
+T140	Person-Pronoun 1427 1428	她
+T141	Person-Pronoun 1422 1428	身穿军装的她
+T142	Thing-Nominal 1424 1426	军装
+R25	Use Arg1:T141 Arg2:T142	
+*	Coreference T140 T141
+T143	Person-Nominal 1430 1450	救死扶伤、为病患解除痛苦的“白衣天使”;
+R26	General-Special Arg1:T143 Arg2:T141	
+T144	Person-Pronoun 1452 1453	她
+T145	Time-Implicit 1450 1452	如今
+T146	Thing-Nominal 1455 1457	戎装
+*	Coreference T146 T142
+T147	Person-Nominal 1459 1465;1466 1481	传播欢乐、为 丰富人们精神生活的“快乐大使”
+R27	General-Special Arg1:T147 Arg2:T144	
+T148	Thing-Nominal 1484 1486	桑榆
+T149	Thing-Nominal 1489 1490	霞
+T150	Person-Name 1494 1496	如今
+T151	Person-Name 1497 1504	69岁的王素梅
+T152	Person-Name 1501 1504	王素梅
+*	Coreference T151 T152 T153 T157
+T153	Person-Pronoun 1505 1506	她
+T154	Person-Nominal 1513 1515	演员
+T155	Person-Nominal 1522 1526;1527 1528	编导、指 挥
+T156	Person-Nominal 1531 1533	团长
+T157	Person-Nominal 1541 1552	锦州军休艺术团的领头人
+T158	Person-Pronoun 1553 1554	她
+T159	Person-Nominal 1565 1573	退休干部先进个人
+R28	General-Special Arg1:T159 Arg2:T158	
+T160	Location-Name 1559 1562	锦州市
+T161	Location-Name 1577 1580	辽宁省
+T162	Person-Nominal 1583 1587;1588 1596	2013 年度模范军休干部
+R29	General-Special Arg1:T162 Arg2:T158	
+T163	Person-Pronoun 1598 1599	她
+T164	Person-Pronoun 1610 1611	她
+T165	Person-Pronoun 1615 1616	她
+T166	Person-Pronoun 1607 1609	我们

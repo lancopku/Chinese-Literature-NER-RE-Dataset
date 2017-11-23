@@ -1,0 +1,230 @@
+T1	Organization-Name 0 2	华夏
+T2	Time-Implicit 2 3	古
+T3	Organization-Name 4 6	中国
+*	Coreference T1 T3
+T4	Organization-Nominal 8 13	自己的国家
+T5	Organization-Nominal 14 16	祖国
+*	Coreference T4 T5
+T6	Organization-Nominal 17 19	祖国
+T7	Person-Nominal 20 24	中国人民
+T8	Organization-Name 20 22	中国
+T9	Organization-Nominal 27 31	自己国家
+*	Coreference T9 T8 T6
+T10	Time-Implicit 40 46	很久很久以前
+T11	Organization-Nominal 47 49	祖国
+T12	Organization-Name 51 53	中国
+*	Coreference T12 T11
+T13	Organization-Name 54 56	中国
+T14	Person-Pronoun 58 59	我
+T15	Organization-Nominal 63 65	祖国
+*	Coreference T15 T13 T16
+T16	Organization-Pronoun 66 68	我国
+T17	Thing-Nominal 68 70	土地
+T18	Metric 75 83	960万平方公里
+T19	Thing-Nominal 84 86	土地
+T20	Thing-Nominal 94 96	河山
+T21	Organization-Nominal 102 106	中华民族
+T22	Metric 112 115	五千年
+T23	Thing-Nominal 128 129	风
+T24	Thing-Nominal 131 132	雨
+T25	Organization-Nominal 143 145	祖国
+T26	Metric 160 162	百年
+T27	Person-Nominal 166 170	上几辈人
+T28	Organization-Name 194 196	中国
+T29	Person-Nominal 204 208	中华儿女
+T30	Person-Nominal 223 225	自己
+*	Coreference T29 T30
+T31	Organization-Nominal 223 227	自己祖国
+*	Coreference T28 T31 T32 T34 T35
+T32	Organization-Nominal 237 239	祖国
+T33	Metric 254 257	千百年
+T34	Organization-Pronoun 270 271	她
+T35	Organization-Pronoun 274 275	她
+T36	Time-Implicit 291 293	今年
+T37	Person-Pronoun 293 294	我
+T38	Person-Nominal 301 302	人
+T39	Time-Implicit 303 304;305 306	老 年
+T40	Person-Nominal 312 314	自己
+*	Coreference T37 T40
+T41	Person-Nominal 333 334	人
+T42	Person-Nominal 343 345	自己
+*	Coreference T41 T42
+T43	Person-Nominal 363 365;366 367	一个 人
+T44	Person-Pronoun 392 393	我
+T45	Organization-Nominal 396 398	祖国
+T46	Person-Pronoun 400 401	我
+T47	Person-Pronoun 402 403	我
+T48	Location-Nominal 399 406	生我养我的地方
+*	Coreference T45 T48
+T49	Thing-Nominal 412 414	土地
+T50	Thing-Nominal 422 424	阳光
+R1	Located Arg1:T50 Arg2:T49	
+T51	Time-Explicit 429 434	1900年
+T52	Organization-Nominal 434 438	八国联军
+T53	Location-Name 441 443	北京
+T54	Organization-Name 444 448	中华民族
+T55	Organization-Nominal 455 457	国家
+T56	Time-Explicit 467 472	1931年
+T57	Organization-Name 479 481	日本
+T58	Location-Nominal 484 487;488 489	我的家 乡
+T59	Location-Name 489 493	东北沈阳
+T60	Person-Nominal 494 498	中国同胞
+T61	Organization-Name 509 514	沈阳邮政局
+T62	Person-Nominal 517 519	父亲
+R2	Ownership Arg1:T62 Arg2:T61	
+T63	Organization-Nominal 522 524	邮局
+*	Coreference T63 T61
+T64	Person-Pronoun 484 485	我
+R3	Family Arg1:T64 Arg2:T62	
+T65	Person-Nominal 530 532	妻子
+T66	Person-Nominal 532 534	儿女
+R4	Family Arg1:T62 Arg2:T65	
+R5	Family Arg1:T62 Arg2:T66	
+T67	Metric 552 554	千里
+T68	Location-Name 559 561	河北
+T69	Location-Name 562 564	山东
+T70	Location-Name 565 567	江苏
+T71	Location-Name 568 570	浙江
+T72	Location-Name 571 573	江西
+T73	Location-Name 574 576	福建
+T74	Location-Nominal 577 579	省区
+R6	General-Special Arg1:T73 Arg2:T74	
+R7	General-Special Arg1:T72 Arg2:T74	
+R8	General-Special Arg1:T71 Arg2:T74	
+R9	General-Special Arg1:T70 Arg2:T74	
+R10	General-Special Arg1:T69 Arg2:T74	
+R11	General-Special Arg1:T68 Arg2:T74	
+T75	Metric 582 585	14年
+T76	Time-Explicit 588 595	1945年8月
+T77	Organization-Name 600 602	日本
+T78	Person-Pronoun 623 624	我
+T79	Time-Implicit 625 629	学生时代
+T80	Time-Explicit 631 637	抗日战争时期
+*	Coreference T79 T80
+T81	Person-Nominal 644 646	父亲
+T82	Organization-Nominal 652 654	家庭
+T83	Person-Pronoun 661 662	我
+T84	Organization-Nominal 666 668	小学
+T85	Organization-Nominal 671 673	初中
+T86	Organization-Nominal 676 678	高中
+T87	Time-Explicit 680 685	1937年
+T88	Metric 694 696	8年
+T89	Person-Nominal 699 703	中国军民
+T90	Time-Implicit 709 711	那时
+*	Coreference T90 T87
+T91	Organization-Nominal 717 719	小学
+T92	Person-Nominal 722 724	少年
+T93	Person-Pronoun 711 712	我
+*	Coreference T93 T92
+T94	Time-Implicit 726 729	这期间
+T95	Location-Nominal 743 745	全国
+T96	Time-Implicit 755 757	那时
+T97	Person-Pronoun 757 758	我
+T98	Organization-Nominal 759 761	学校
+T99	Time-Implicit 762 764	天天
+T100	Abstract 771 775	松花江上
+T101	Abstract 776 781	打回老家去
+T102	Abstract 782 786	游击队歌
+T103	Abstract 787 798	大刀向鬼子们的头上砍去
+T104	Location-Name 771 774	松花江
+T105	Location-Nominal 778 780	老家
+T106	Organization-Nominal 782 785	游击队
+T107	Thing-Nominal 787 789	大刀
+T108	Person-Nominal 790 793	鬼子们
+T109	Location-Nominal 802 806	中华大地
+T110	Person-Pronoun 811 812	我
+T111	Person-Nominal 813 818	东北沈阳人
+*	Coreference T110 T111
+T112	Location-Nominal 829 831	故乡
+T113	Location-Name 846 849	松花江
+T114	Location-Name 813 817	东北沈阳
+*	Coreference T112 T114
+T115	Person-Pronoun 855 856	我
+T116	Location-Nominal 857 858	家
+T117	Location-Name 859 862;863 865	东北松 花江
+T118	Location-Pronoun 867 869	那里
+*	Coreference T118 T117 T122 T125
+T119	Thing-Nominal 870 872	森林
+T120	Thing-Nominal 872 874	煤矿
+R12	Located Arg1:T119 Arg2:T118	
+R13	Located Arg1:T120 Arg2:T118	
+T121	Time-Implicit 884 891	那个悲惨的时候
+T122	Location-Nominal 895 899	我的家乡
+T123	Person-Pronoun 915 916	我
+T124	Person-Pronoun 933 934	我
+T125	Location-Nominal 938 940	故乡
+T126	Person-Nominal 945 946	爹
+T127	Person-Nominal 946 947	娘
+T128	Person-Nominal 941 942	爹
+T129	Person-Nominal 942 943	娘
+T130	Location-Nominal 959 960	堂
+T131	Person-Pronoun 1011 1012	我
+T132	Organization-Nominal 1021 1024	游击队
+T133	Person-Pronoun 1026 1028	我们
+T134	Location-Pronoun 1031 1033	这里
+T135	Thing-Nominal 1037 1039	土地
+T136	Metric 1035 1037	一寸
+T137	Person-Pronoun 1041 1043	我们
+T138	Person-Nominal 1043 1045	自己
+*	Coreference T137 T138 T140
+T139	Person-Nominal 1050 1051	谁
+T140	Person-Pronoun 1056 1058	我们
+T141	Person-Pronoun 1061 1062	他
+*	Coreference T139 T141
+T142	Person-Nominal 1076 1078	人民
+T143	Person-Nominal 1091 1095	游击队员
+T144	Person-Pronoun 1114 1116	我们
+T145	Person-Nominal 1117 1121	人民群众
+T146	Organization-Nominal 1122 1124	国家
+T147	Organization-Nominal 1124 1126	民族
+T148	Person-Nominal 1144 1148	祖国人民
+T149	Organization-Nominal 1150 1152	祖国
+T150	Organization-Nominal 1160 1161	国
+T151	Person-Nominal 1167 1171	中国人民
+T152	Organization-Name 1174 1176	日本
+T153	Person-Nominal 1174 1179	日本侵略者
+R14	Social Arg1:T151 Arg2:T153	
+T154	Metric 1187 1189	3年
+T155	Time-Implicit 1182 1184	不久
+T156	Person-Nominal 1189 1191	人民
+T157	Time-Explicit 1199 1204	1949年
+T158	Organization-Name 1215 1222	中华人民共和国
+T159	Organization-Nominal 1224 1225	国
+T160	Organization-Nominal 1226 1227	邦
+*	Coreference T158 T159 T160
+T161	Person-Nominal 1229 1231	人民
+T162	Organization-Nominal 1234 1235	党
+T163	Time-Explicit 1234 1244	党的十一届三中全会后
+T164	Time-Explicit 1258 1265	改革30多年来
+T165	Organization-Nominal 1275 1276	党
+T166	Organization-Nominal 1295 1297	国家
+T167	Organization-Nominal 1302 1304	民族
+T168	Person-Nominal 1316 1318	人民
+T169	Organization-Nominal 1337 1339	祖国
+T170	Thing-Nominal 1339 1340	日
+T171	Thing-Nominal 1341 1342	月
+T172	Organization-Pronoun 1345 1347	我国
+*	Coreference T172 T169
+T173	Organization-Nominal 1354 1360	社会主义国家
+R15	General-Special Arg1:T172 Arg2:T173	
+T174	Location-Name 1361 1363	香港
+T175	Location-Name 1364 1366	澳门
+T176	Organization-Nominal 1368 1370	祖国
+R16	Part-Whole Arg1:T175 Arg2:T176	
+R17	Part-Whole Arg1:T174 Arg2:T176	
+T177	Person-Nominal 1374 1377	外国人
+T178	Organization-Name 1382 1384	中国
+T179	Person-Nominal 1406 1410	人民群众
+T180	Person-Name 1419 1424	习近平主席
+T181	Person-Nominal 1436 1442	13亿中国人
+T182	Organization-Nominal 1445 1447	国家
+T183	Organization-Name 1453 1455	中国
+*	Coreference T182 T183
+T184	Organization-Name 1460 1462	中国
+T185	Organization-Name 1479 1483	中华民族
+T186	Organization-Name 1488 1490	中国
+T187	Organization-Nominal 1499 1501	祖国
+*	Coreference T186 T187 T189 T190
+T188	Person-Pronoun 1508 1510	我们
+T189	Organization-Pronoun 1511 1512	她
+T190	Organization-Pronoun 1516 1517	她

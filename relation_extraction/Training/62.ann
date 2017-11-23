@@ -1,0 +1,236 @@
+T1	Thing-Nominal 0 2	泡桐
+T2	Thing-Nominal 3 6	木麻黄
+T3	Thing-Nominal 7 15	极平常的两个树种
+R1	Part-Whole Arg1:T2 Arg2:T3	
+R2	Part-Whole Arg1:T1 Arg2:T3	
+T4	Location-Nominal 19 25	中国一北一南
+T5	Location-Nominal 19 30	中国一北一南的两个县域
+T6	Thing-Pronoun 32 34	它们
+*	Coreference T6 T3
+T7	Thing-Nominal 37 38	树
+T8	Person-Nominal 68 71	两个人
+T9	Person-Nominal 72 78	两个县委书记
+T10	Person-Name 82 89	兰考县的焦裕禄
+T11	Person-Name 93 100	东山县的谷文昌
+R3	Part-Whole Arg1:T10 Arg2:T9	
+R4	Part-Whole Arg1:T11 Arg2:T9	
+T12	Thing-Nominal 102 104	泡桐
+T13	Thing-Nominal 105 108	木麻黄
+T14	Thing-Nominal 135 136	沙
+T15	Thing-Nominal 152 154	农田
+T16	Thing-Nominal 177 182	更好的树种
+T17	Thing-Nominal 198 200	泡桐
+T18	Thing-Pronoun 208 209	它
+*	Coreference T18 T17 T28
+T19	Thing-Nominal 208 212	它的湿材
+T20	Thing-Nominal 220 222	干材
+R5	Part-Whole Arg1:T20 Arg2:T17	
+T21	Thing-Nominal 226 230	一般木材
+T22	Metric 231 236	百分之四十
+T23	Thing-Nominal 238 247	我国最轻的木材之一
+R6	Part-Whole Arg1:T17 Arg2:T23	
+T24	Thing-Nominal 255 257	纹理
+T25	Thing-Nominal 265 267	模型
+T26	Thing-Nominal 268 270	箱柜
+T27	Thing-Nominal 271 273	乐器
+T28	Thing-Nominal 261 278	加工制作模型、箱柜、乐器的优良用材
+T30	Thing-Nominal 306 309	木麻黄
+T31	Thing-Nominal 331 335	渔船底板
+T32	Physical 338 344	“南海铁木”
+T29	Physical 283 284;285 289	“ 三傻树”
+T33	Person-Name 350 353	焦裕禄
+T34	Person-Name 354 357	谷文昌
+T35	Person-Pronoun 377 379	他们
+T36	Thing-Nominal 402 404	泡桐
+T37	Thing-Nominal 405 408	木麻黄
+T38	Time-Implicit 421 425	九十年代
+T39	Thing-Nominal 426 441	一部上座率最高的宽银幕电影幕布
+T40	Person-Name 451 454	焦裕禄
+T41	Thing-Nominal 461 465	泡桐树苗
+T42	Thing-Nominal 456 458	铁锹
+T43	Person-Nominal 469 471;472 481	浩浩 荡荡的兰考父老乡亲
+T44	Thing-Nominal 485 488	漫黄沙
+T45	Person-Nominal 503 507	无数观众
+T46	Person-Nominal 513 519	这位山东汉子
+*	Coreference T46 T40
+T47	Time-Explicit 526 532	一年零三个月
+T48	Location-Name 520 522	兰考
+T49	Person-Pronoun 547 548	他
+T50	Person-Pronoun 555 556	我
+T51	Location-Name 558 560	兰考
+T52	Thing-Nominal 563 565	沙堆
+T53	Person-Pronoun 569 570	我
+T54	Thing-Nominal 574 579	兰考的沙丘
+T55	Person-Pronoun 586 588	你们
+T56	Thing-Nominal 589 591	沙丘
+T57	Person-Name 597 600	谷文昌
+T58	Person-Nominal 603 609	太行山的儿子
+*	Coreference T58 T57 T62
+T59	Person-Pronoun 611 612	他
+T60	Thing-Nominal 622 627	十多个树种
+T61	Thing-Nominal 628 634	几十万株苗木
+T62	Person-Pronoun 641 642	他
+T63	Thing-Nominal 651 653	风沙
+T64	Thing-Nominal 656 657;658 659	风 沙
+T65	Thing-Nominal 665 668	木麻黄
+T66	Person-Name 675 678	谷文昌
+T67	Thing-Pronoun 671 672	它
+*	Coreference T67 T65
+T68	Person-Name 679 688	原中组部部长张全景
+T69	Location-Name 690 693	东山县
+T70	Abstract 703 718;719 723	长篇通讯《人民的好县委书记―― 谷文昌》
+T71	Time-Explicit 733 738	1959年
+T72	Thing-Nominal 749 753	有线广播
+T73	Person-Nominal 764 768	各级干部
+T74	Thing-Nominal 772 774	雨幕
+T75	Person-Nominal 775 779	东山人民
+T76	Location-Nominal 786 790	百里海滩
+T77	Person-Nominal 793 797	造林大军
+T78	Thing-Nominal 806 808	汗水
+T79	Thing-Nominal 809 811	雨水
+T80	Person-Pronoun 816 817	我
+T81	Person-Name 824 827	谷文昌
+T82	Thing-Nominal 824 830	谷文昌的电影
+T83	Thing-Nominal 849 851	银幕
+T84	Person-Name 852 855	谷文昌
+T85	Person-Pronoun 866 867	我
+T86	Location-Name 868 870	东山
+T87	Time-Explicit 872 875	十四年
+T88	Thing-Nominal 891 895	我的骨灰
+T89	Location-Name 897 899	东山
+T90	Person-Pronoun 900 901	我
+T91	Person-Nominal 904 909	东山的人民
+T92	Thing-Nominal 910 915	东山的大树
+R7	Social Arg1:T68 Arg2:T66	
+T93	Time-Implicit 923 926	前不久
+T94	Person-Nominal 927 931	一位领导
+T95	Person-Nominal 977 983;984 987	倡导和热爱种 树的人
+T96	Thing-Nominal 991 992	树
+T97	Person-Pronoun 1006 1007	我
+T98	Location-Name 1035 1038	兰考县
+T99	Time-Explicit 1041 1046	人间五月天
+T100	Thing-Nominal 1049 1053	高速公路
+T101	Location-Nominal 1054 1056	县城
+T102	Thing-Nominal 1060 1067	一望无际的麦田
+T103	Thing-Nominal 1076 1079	泡桐树
+T104	Location-Nominal 1103 1107	大街小巷
+T105	Thing-Nominal 1114 1122	列队有序的泡桐树
+T106	Thing-Nominal 1122 1127	开放的花枝
+T107	Thing-Nominal 1130 1137	一个个花的隧道
+T108	Person-Nominal 1138 1139	人
+T109	Person-Nominal 1149 1150;1151 1153	兰 考人
+T110	Person-Pronoun 1155 1157	我们
+T111	Thing-Nominal 1158 1160	泡桐
+T112	Location-Name 1164 1167	兰考县
+T113	Thing-Nominal 1179 1182	泡桐木
+T114	Organization-Nominal 1178 1189	以泡桐木加工为主的企业
+T115	Organization-Nominal 1194 1199	个体加工户
+T116	Thing-Nominal 1206 1211	兰考的泡桐
+T117	Location-Name 1214 1216	日本
+T118	Thing-Nominal 1218 1220	兰桐
+*	Coreference T118 T116
+T119	Person-Nominal 1227 1230	日本人
+T120	Person-Nominal 1232 1235	兰考人
+T121	Thing-Nominal 1232 1240	兰考人生产的泡桐
+R8	Part-Whole Arg1:T106 Arg2:T105	
+T122	Time-Implicit 1242 1247	前些年夏天
+T123	Location-Name 1249 1252	东山岛
+T124	Thing-Nominal 1263 1264	沙
+T125	Thing-Nominal 1266 1267	林
+T126	Thing-Nominal 1269 1270	礁
+T127	Thing-Nominal 1260 1261	水
+T128	Person-Nominal 1273 1276	东山人
+T129	Person-Pronoun 1278 1279	我
+R9	Social Arg1:T129 Arg2:T128	
+T130	Location-Name 1293 1295	东山
+T131	Abstract 1297 1302;1303 1307	“全国生态 示范县”
+T132	Abstract 1308 1317	“全省环境最佳县”
+T133	Thing-Nominal 1319 1335	沿海岸线绵延的“绿色屏障”木麻黄
+T134	Thing-Nominal 1338 1350	一道独特而又迷人的风景线
+*	Coreference T134 T133
+T135	Person-Pronoun 1351 1353	我们
+T136	Thing-Nominal 1362 1363;1364 1374	一 排排四季常青的木麻黄
+T137	Thing-Nominal 1389 1391	材林
+T138	Thing-Nominal 1392 1395	经济林
+T139	Metric 1407 1410	几百里
+T140	Thing-Nominal 1413 1424	莽莽苍苍的“绿色长城”
+*	Coreference T140 T136
+T141	Person-Name 1428 1434	文学大师冰心
+T142	Thing-Nominal 1476 1479	木麻黄
+T143	Location-Nominal 1480 1485;1486 1487	这座花园城 市
+T144	Location-Pronoun 1495 1496	她
+*	Coreference T144 T143
+T145	Thing-Nominal 1504 1506	清风
+T146	Person-Nominal 1510 1513	东山人
+T147	Person-Nominal 1516 1517	人
+T148	Thing-Nominal 1519 1520	树
+T149	Thing-Nominal 1521 1522	树
+T150	Thing-Nominal 1529 1530	粮
+T151	Thing-Nominal 1531 1532	粮
+T152	Person-Nominal 1534 1535	人
+T153	Thing-Nominal 1538 1540	林带
+T154	Thing-Nominal 1542 1544	粮带
+T155	Thing-Nominal 1545 1546;1547 1548	钱 带
+T156	Thing-Nominal 1554 1558	这样的树
+T157	Location-Name 1570 1572	兰考
+T158	Thing-Nominal 1578 1582	“焦桐”
+T159	Time-Explicit 1585 1591	一九六三年春
+T160	Person-Name 1592 1595	焦裕禄
+T161	Location-Name 1596 1599	兰考县
+T162	Thing-Nominal 1609 1614	一株泡桐树
+T163	Time-Explicit 1618 1622	半个世纪
+T164	Thing-Nominal 1623 1625	现树
+T165	Thing-Nominal 1636 1638	树冠
+R10	Part-Whole Arg1:T165 Arg2:T164	
+T166	Thing-Nominal 1654 1655	花
+T167	Person-Nominal 1739 1743	有个小孩
+T168	Person-Nominal 1744 1745	爹
+R11	Family Arg1:T167 Arg2:T168	
+T169	Person-Pronoun 1755 1756	咱
+T170	Person-Nominal 1760 1761	爹
+T171	Person-Nominal 1764 1766;1767 1769	县委 书记
+T172	Location-Nominal 1708 1714	焦裕禄的陵园
+T173	Location-Nominal 1717 1723	焦裕禄的展室
+T174	Person-Nominal 1733 1736	小孩子
+T175	Thing-Nominal 1676 1683	五月洁白的鲜花
+T176	Thing-Nominal 1666 1670	“焦桐”
+R12	Part-Whole Arg1:T175 Arg2:T176	
+T177	Person-Pronoun 1658 1659	我
+T178	Person-Pronoun 1699 1700	我
+T179	Person-Nominal 1771 1773	好人
+T180	Person-Nominal 1774 1776	小孩
+T181	Person-Pronoun 1779 1780	我
+T182	Person-Nominal 1785 1789	县委书记
+T183	Person-Nominal 1792 1794	好人
+T184	Location-Name 1798 1800	东山
+T185	Location-Nominal 1805 1809	赤山林场
+T187	Thing-Nominal 1823 1827	茫茫林海
+T188	Location-Nominal 1829 1831	陵园
+T189	Thing-Nominal 1833 1841	谷文昌的半身雕像
+R13	Located Arg1:T189 Arg2:T188	
+T190	Person-Nominal 1842 1845	东山人
+T191	Person-Name 1847 1850	谷书记
+T192	Thing-Nominal 1865 1867	树林
+T193	Location-Name 1860 1862	东山
+T194	Time-Explicit 1871 1875	清明时节
+T195	Person-Pronoun 1884 1885	你
+T196	Thing-Nominal 1890 1892	眼眶
+T197	Person-Nominal 1901 1904	东山人
+T198	Person-Name 1907 1909	谷公
+T199	Person-Nominal 1912 1914	祖宗
+T200	Person-Pronoun 1923 1924	我
+T201	Person-Name 1930 1937	著名诗人臧克家
+T202	Person-Nominal 1941 1944	有的人
+T203	Person-Pronoun 1947 1948	他
+T204	Person-Nominal 1953 1956	有的人
+T205	Person-Pronoun 1959 1960	他
+*	Coreference T205 T204
+*	Coreference T203 T202
+T186	Thing-Nominal 1813 1819	谷文昌的陵园
+R14	Located Arg1:T186 Arg2:T187	
+T206	Time-Explicit 741 743	三年
+R15	Social Arg1:T10 Arg2:T11	
+R16	Social Arg1:T33 Arg2:T34	
+R17	Use Arg1:T40 Arg2:T42	
+T207	Thing-Nominal 459 460	手
+R18	Located Arg1:T41 Arg2:T207	

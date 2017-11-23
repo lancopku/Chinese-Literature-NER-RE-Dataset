@@ -1,0 +1,40 @@
+T1	Time-Implicit 0 8	许多个安静的夜晚
+T2	Person-Pronoun 9 10	我
+T3	Location-Nominal 15 17	故乡
+T4	Thing-Nominal 31 35	我的目光
+T5	Person-Pronoun 31 32	我
+T6	Thing-Nominal 39 48	一幢又一幢高楼大厦
+T7	Thing-Nominal 52 59	一条又一条街道
+T8	Person-Pronoun 74 75	我
+T9	Person-Pronoun 116 117	我
+T10	Person-Pronoun 162 163	我
+T11	Thing-Nominal 78 81	老黄牛
+T12	Location-Nominal 82 89	茂密的玉米地里
+T13	Location-Nominal 93 98	老黄牛后面
+T14	Person-Nominal 103 105	父亲
+T15	Thing-Nominal 93 96	老黄牛
+R1	Located Arg1:T11 Arg2:T12	
+T16	Thing-Nominal 106 107	汗
+T17	Location-Nominal 108 110	满面
+R2	Located Arg1:T16 Arg2:T17	
+T18	Person-Nominal 120 122	母亲
+T19	Location-Nominal 123 130	高高的棉花棵里
+T20	Person-Pronoun 134 135	她
+*	Coreference T20 T18
+T21	Thing-Nominal 138 143	酸疼的腰身
+R3	Part-Whole Arg1:T21 Arg2:T18	
+T22	Thing-Nominal 148 150	衣襟
+T23	Thing-Nominal 155 160	脸上的汗水
+T24	Location-Nominal 155 157	脸上
+R4	Located Arg1:T23 Arg2:T24	
+T25	Person-Pronoun 166 170	童年的我
+T26	Location-Nominal 171 174	田埂上
+T27	Location-Nominal 178 181	脚丫上
+T28	Thing-Nominal 183 185	泥巴
+R5	Located Arg1:T28 Arg2:T27	
+T29	Thing-Nominal 186 192	旧旧的棉布裙
+T30	Thing-Nominal 201 208	一筐鲜嫩的青草
+T31	Thing-Nominal 196 198	裙边
+T32	Location-Nominal 209 212	发梢上
+T33	Thing-Nominal 214 222	一只绿色的苍耳子
+R6	Located Arg1:T33 Arg2:T32	

@@ -1,0 +1,187 @@
+T1	Thing-Nominal 63 65	铁路
+T2	Organization-Nominal 68 72	铁路医院
+T3	Person-Pronoun 77 78	我
+T4	Person-Nominal 81 83	老师
+R1	Social Arg1:T3 Arg2:T4	
+T5	Time-Explicit 78 81	体检时
+T6	Person-Pronoun 92 93	我
+T7	Time-Explicit 89 92	这一夜
+T8	Person-Pronoun 105 106	我
+T9	Person-Pronoun 112 113	我
+T10	Thing-Nominal 128 134	一只无形的手
+T11	Person-Pronoun 137 138	我
+T12	Person-Pronoun 144 145	我
+T13	Person-Pronoun 148 149	我
+T14	Person-Nominal 151 162	北大荒知青中最幸运的人
+*	Coreference T13 T14
+T15	Person-Nominal 151 156	北大荒知青
+T16	Location-Name 151 154	北大荒
+R2	Ownership Arg1:T15 Arg2:T16	
+T17	Time-Explicit 164 167	第二天
+T18	Person-Name 190 193	王大夫
+T19	Organization-Nominal 196 199	县医院
+T20	Organization-Name 201 206	武装民兵连
+T21	Person-Nominal 207 209	医生
+R3	Ownership Arg1:T21 Arg2:T20	
+*	Coreference T18 T21
+T22	Person-Pronoun 210 212	我们
+T23	Person-Pronoun 220 221	我
+T24	Thing-Nominal 239 242	血压计
+T25	Thing-Nominal 243 246	水银柱
+T26	Person-Pronoun 254 255	我
+T27	Person-Nominal 263 265	自己
+*	Coreference T27 T26
+T28	Person-Name 282 285	王大夫
+T29	Thing-Nominal 288 291	听诊器
+T30	Person-Pronoun 294 295	他
+*	Coreference T28 T30
+T31	Metric 303 307	低压90
+T32	Metric 307 312	高压130
+T33	Person-Nominal 332 344	一直站在我身旁的两位老师
+T34	Person-Name 347 350	王大夫
+R4	Social Arg1:T33 Arg2:T34	
+T35	Person-Name 360 363	王大夫
+T36	Person-Pronoun 372 373	你
+T37	Person-Pronoun 336 337	我
+R5	Social Arg1:T37 Arg2:T33	
+T38	Person-Pronoun 388 389	我
+*	Coreference T38 T36
+T39	Person-Nominal 399 403	两位老师
+T40	Location-Name 418 421	哈尔滨
+T41	Person-Pronoun 441 442	我
+T42	Person-Name 444 447	王大夫
+R6	Social Arg1:T42 Arg2:T41	
+T43	Person-Pronoun 455 456	我
+T44	Person-Pronoun 464 465	我
+T45	Person-Pronoun 467 468	他
+*	Coreference T45 T42
+T46	Person-Pronoun 485 486	我
+T47	Time-Explicit 504 515	绥化铁路司机学校毕业后
+T48	Person-Pronoun 516 517	我
+T49	Organization-Name 521 533	哈尔滨铁路局三棵树机务段
+T50	Person-Nominal 536 545	一名蒸汽机车乘务员
+*	Coreference T48 T50
+T51	Time-Explicit 546 553	一九八零年十月
+T52	Organization-Name 553 559	三棵树机务段
+T53	Thing-Nominal 566 570	内燃机车
+T54	Thing-Nominal 572 576	蒸汽机车
+T55	Thing-Nominal 578 590	第一台崭新的国产内燃机车
+T56	Organization-Name 592 598	三棵树机务段
+T57	Organization-Nominal 599 602	机务段
+*	Coreference T57 T56
+T58	Person-Nominal 612 614	职工
+T59	Person-Nominal 615 618	家属们
+R7	Family Arg1:T58 Arg2:T59	
+T60	Thing-Nominal 622 625;626 629	新型内 燃机车
+T61	Person-Nominal 645 647	大家
+T62	Person-Pronoun 663 664	我
+T63	Person-Nominal 672 678	内燃机车司机
+*	Coreference T62 T63
+T64	Organization-Nominal 706 709	铁路局
+T65	Person-Pronoun 716 717	我
+T66	Person-Nominal 721 736	哈尔滨铁路局第一个内燃机车司机
+T67	Organization-Name 721 727	哈尔滨铁路局
+*	Coreference T65 T66
+T68	Person-Pronoun 738 740	我们
+T69	Thing-Name 740 753	东方红{3｝127内燃机车
+T70	Thing-Nominal 754 764	哈尔滨铁路局鉴定机车
+*	Coreference T69 T70
+T71	Thing-Nominal 769 773	国际列车
+T72	Thing-Nominal 774 778	专运列车
+T73	Person-Pronoun 789 790	我
+T75	Location-Name 805 808	长春站
+T76	Time-Implicit 805 813	长春站开车后不久
+T77	Person-Pronoun 814 815	我
+T78	Thing-Nominal 817 822	操纵台仪表
+T79	Thing-Nominal 827 829	风泵
+T80	Thing-Nominal 832 835	柴油机
+T81	Thing-Nominal 864 869	速度控制器
+T82	Person-Nominal 876 878	司机
+T83	Thing-Nominal 882 884	列车
+T84	Thing-Nominal 887 889	列车
+T85	Person-Pronoun 902 903	我
+T86	Thing-Nominal 905 911	机车重联插座
+T88	Thing-Nominal 927 931	重联插座
+T89	Thing-Nominal 944 948	重联插座
+T90	Person-Name 956 958	小吴
+T91	Thing-Nominal 960 963	暖风机
+T92	Person-Pronoun 983 984	我
+T93	Thing-Nominal 986 991	速度控制器
+T94	Thing-Nominal 998 1001	柴油机
+T95	Thing-Nominal 1013 1015	列车
+T96	Time-Explicit 1022 1024	这时
+T97	Organization-Name 1025 1034	沈阳铁路局行车调度
+T98	Organization-Name 1036 1042;1043 1046	东北铁路交通 指挥部
+T99	Person-Nominal 1049 1054	19次司机
+T74	Thing-Name 792 798;799 800	19次国际列 车
+T100	Location-Name 1064 1069	哈尔滨车站
+T101	Person-Pronoun 1070 1071	我
+T102	Thing-Nominal 1075 1076	表
+T103	Metric 1083 1087	6分半钟
+T104	Thing-Nominal 1088 1090	机车
+T105	Thing-Nominal 1108 1112	无线列调
+T106	Organization-Nominal 1113 1115	调度
+T107	Thing-Nominal 1130 1135	19次列车
+T108	Location-Name 1147 1149	哈站
+*	Coreference T108 T100
+T109	Person-Pronoun 1157 1158	我
+T110	Thing-Nominal 1184 1189	速度控制器
+T111	Person-Name 1206 1211	副司机小吴
+T112	Person-Nominal 1206 1209	副司机
+*	Coreference T111 T112
+T113	Person-Nominal 916 919	副司机
+T87	Person-Name 919 920;921 923	吴 炳文
+*	Coreference T113 T87
+T114	Location-Nominal 1217 1220	机械间
+T115	Location-Nominal 1221 1224	冷却间
+T116	Time-Explicit 1246 1253	下午2点59分
+T117	Thing-Name 1254 1261	19次国际列车
+T118	Location-Name 1265 1270	哈尔滨车站
+T119	Time-Implicit 1271 1276	三个多小时
+T120	Person-Pronoun 1277 1278	我
+T121	Person-Pronoun 1299 1300	我
+T122	Time-Implicit 1296 1298	后来
+T123	Person-Nominal 1304 1308	指导司机
+T124	Person-Nominal 1309 1313	教育科长
+T125	Person-Nominal 1314 1320	机务段副段长
+*	Coreference T121 T123 T124 T125
+T126	Organization-Name 1334 1335	党
+T127	Person-Nominal 1336 1341	国家领导人
+T128	Location-Name 1342 1346	黑龙江省
+T129	Location-Name 1348 1353	建三江垦区
+T130	Location-Name 1354 1356;1357 1360	鹤北 林业局
+T131	Location-Name 1361 1365	大庆油田
+T132	Person-Pronoun 1368 1369	我
+T133	Person-Name 1372 1375	邹家华
+T134	Person-Nominal 1375 1378	副总理
+*	Coreference T133 T134
+R8	Social Arg1:T132 Arg2:T133	
+T135	Person-Name 1379 1381	李鹏
+T136	Person-Nominal 1381 1383	总理
+*	Coreference T136 T135
+R9	Social Arg1:T132 Arg2:T135	
+T137	Person-Name 1384 1387	江泽民
+T138	Person-Nominal 1387 1390	总书记
+*	Coreference T138 T137
+T139	Person-Pronoun 1407 1408	我
+T140	Person-Nominal 1418 1420	老师
+T141	Person-Nominal 1421 1423	学生
+T142	Person-Nominal 1424 1426	医生
+T143	Person-Nominal 1427 1430	求医者
+R10	Social Arg1:T140 Arg2:T141	
+R11	Social Arg1:T142 Arg2:T143	
+T144	Person-Pronoun 1458 1459	我
+T145	Person-Pronoun 1471 1472	我
+T146	Person-Name 3 6	刘老师
+T147	Person-Pronoun 8 9	我
+T148	Location-Nominal 12 15	县医院
+T149	Person-Pronoun 18 19	他
+*	Coreference T149 T146
+T150	Time-Implicit 0 2	晚上
+T151	Organization-Nominal 22 26	“铁路局
+T152	Organization-Nominal 31 35	铁路医院
+T153	Person-Nominal 39 41	学员
+T154	Person-Nominal 49 51	老师
+T155	Location-Name 57 60	饶河县
+R12	Social Arg1:T153 Arg2:T154	
+T156	Thing-Nominal 1409 1411	铁路

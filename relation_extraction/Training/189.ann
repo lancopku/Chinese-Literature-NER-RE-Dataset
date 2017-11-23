@@ -1,0 +1,240 @@
+T1	Thing-Nominal 1 2	雪
+T2	Location-Nominal 18 23	寒冷的海边
+T3	Thing-Nominal 5 12	一场洁白的盛宴
+R1	Located Arg1:T3 Arg2:T2	
+T4	Person-Nominal 24 27	老天爷
+T5	Time-Implicit 34 38	入冬以来
+T6	Thing-Nominal 39 41	天气
+T7	Thing-Nominal 51 59	冬天盛开的雪花儿
+T8	Person-Pronoun 60 61	我
+T9	Thing-Nominal 62 64	脖子
+R2	Part-Whole Arg1:T9 Arg2:T8	
+T10	Person-Pronoun 92 93	我
+T11	Person-Pronoun 102 103	雪
+T12	Time-Implicit 102 108	雪落的这一天
+T13	Time-Explicit 109 113	腊月十六
+T14	Thing-Nominal 119 120	雪
+T15	Thing-Nominal 141 144	雪花儿
+T16	Location-Nominal 145 151	昏暗的天空中
+R3	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 168 176	一床毛绒绒的毯子
+T18	Location-Nominal 181 183	大地
+R4	Located Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 184 185	我
+T20	Thing-Nominal 190 195	草原上的雪
+T21	Location-Nominal 190 193	草原上
+R5	Located Arg1:T20 Arg2:T21	
+T22	Thing-Nominal 199 203	海边的雪
+T23	Location-Nominal 199 201	海边
+R6	Located Arg1:T22 Arg2:T23	
+T24	Person-Pronoun 205 206	我
+T25	Thing-Nominal 208 214	最开阔的雪景
+T26	Thing-Nominal 217 219	海风
+T27	Thing-Nominal 223 225	落雪
+T28	Thing-Nominal 233 238	漫天的雪花
+T29	Thing-Nominal 239 245	数不清的蝴蝶
+T30	Thing-Nominal 252 254	海风
+T31	Thing-Nominal 257 267	这些有生命一样的蝴蝶
+T32	Thing-Nominal 292 294	海风
+T33	Thing-Nominal 299 302	蝴蝶们
+T34	Location-Nominal 315 321	开阔的海滩上
+R7	Located Arg1:T33 Arg2:T34	
+T35	Location-Nominal 325 329	我的眼前
+T36	Person-Pronoun 325 326	我
+T37	Thing-Nominal 349 354	清冷的空气
+T38	Person-Pronoun 365 366	我
+T39	Thing-Nominal 372 374	落雪
+T40	Thing-Nominal 403 404	雪
+T41	Location-Nominal 406 408	地上
+R8	Located Arg1:T40 Arg2:T41	
+T42	Thing-Nominal 432 433	耳
+T43	Thing-Nominal 439 445	雨帘状的落雪
+T44	Thing-Nominal 452 459;460 463	海滩上几只木船 的轮廓
+T45	Location-Nominal 452 455	海滩上
+R9	Located Arg1:T44 Arg2:T45	
+T46	Location-Nominal 465 468	海滩上
+T47	Thing-Nominal 469 473	兀立之物
+R10	Located Arg1:T47 Arg2:T46	
+T48	Location-Nominal 478 480	海边
+T49	Location-Nominal 481 483	身上
+T50	Thing-Nominal 486 488	雪花
+R11	Located Arg1:T50 Arg2:T49	
+T51	Person-Pronoun 491 492	我
+T52	Thing-Nominal 496 497	雪
+T53	Thing-Nominal 502 507	绒绒的白雪
+T54	Person-Pronoun 512 513	我
+T55	Location-Nominal 521 531	松软富有弹性的雪地上
+T56	Person-Nominal 534 536	上苍
+T57	Person-Pronoun 543 544	我
+T58	Thing-Nominal 546 547	脸
+R12	Part-Whole Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 550 552	眼睛
+R13	Part-Whole Arg1:T59 Arg2:T57	
+T60	Thing-Nominal 554 562	晶莹的六角形雪花
+T61	Thing-Nominal 568 570	脸庞
+T62	Thing-Nominal 581 588	每个细小的毛孔
+T63	Thing-Nominal 599 603	这场大雪
+T64	Thing-Nominal 630 639	这纷纷扬扬的雪花儿
+T65	Thing-Nominal 646 648	雪仗
+T66	Thing-Nominal 650 652	雪人
+T67	Thing-Nominal 653 656	溜冰车
+T68	Location-Nominal 670 672	手里
+T69	Thing-Nominal 677 686	一个捏得满意的雪团
+R14	Located Arg1:T69 Arg2:T68	
+T70	Person-Nominal 688 689	人
+T71	Thing-Nominal 695 697	雪团
+T72	Location-Nominal 698 706	玩伴后面的脖颈里
+R15	Located Arg1:T71 Arg2:T72	
+T73	Person-Nominal 712 714	别人
+T74	Thing-Nominal 716 717	腰
+T75	Thing-Nominal 724 725;726 727	雪 团
+T76	Location-Nominal 728 731	后背里
+R16	Located Arg1:T75 Arg2:T76	
+T77	Time-Implicit 760 762	昨天
+T78	Time-Implicit 747 749	童年
+T79	Time-Implicit 764 766	冬天
+T80	Thing-Nominal 770 771	雪
+T81	Thing-Nominal 775 776	雪
+T82	Time-Implicit 781 783	冬天
+T83	Thing-Nominal 785 787	海滩
+T84	Thing-Nominal 807 809	海水
+T85	Thing-Nominal 809 815	一层一层白浪
+T86	Thing-Nominal 816 818	沙滩
+T87	Thing-Nominal 827 832	一地的白雪
+T88	Thing-Nominal 833 838	近岸的海浪
+T89	Location-Nominal 833 835	近岸
+R17	Located Arg1:T88 Arg2:T89	
+T90	Thing-Nominal 847 849	海水
+T91	Thing-Nominal 849 859	那层层推波助浪的白线
+T92	Thing-Nominal 860 869	一道道波纹状的图案
+T93	Thing-Nominal 872 874	海滩
+T94	Thing-Nominal 875 880	奇异的景象
+T95	Person-Pronoun 912 913	我
+T96	Metric 917 919	几年
+T97	Thing-Nominal 920 922	雪天
+T98	Thing-Nominal 923 925	大海
+T99	Thing-Nominal 929 933	冰面花纹
+T100	Thing-Nominal 940 942	图案
+T101	Thing-Nominal 951 953	雪花
+T102	Person-Pronoun 954 955	我
+T103	Thing-Nominal 961 966	海边的栈道
+T104	Location-Nominal 961 963	海边
+R18	Located Arg1:T103 Arg2:T104	
+T105	Location-Nominal 971 973	身后
+T106	Thing-Nominal 975 982	一串清晰的脚印
+R19	Located Arg1:T106 Arg2:T105	
+T107	Location-Name 983 989	北戴河的海边
+T108	Location-Name 993 999	鸽子窝公园内
+T109	Thing-Nominal 1002 1006	很多的树
+R20	Located Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 1007 1010	这些树
+T111	Thing-Nominal 1013 1015	松树
+T112	Thing-Nominal 1018 1020	雪花
+T113	Location-Nominal 1028 1031	树杈上
+R21	Located Arg1:T112 Arg2:T113	
+T114	Location-Nominal 1032 1036	松枝头上
+T115	Thing-Nominal 1037 1043	洁白的雪花儿
+T116	Location-Nominal 1044 1050	绿色的松树上
+R22	Located Arg1:T115 Arg2:T116	
+T117	Thing-Nominal 1070 1071	风
+T118	Thing-Nominal 1075 1077	海天
+T119	Thing-Nominal 1097 1102	细碎的银光
+T120	Thing-Nominal 1103 1109	花瓣似的雪花
+T121	Location-Nominal 1113 1116	树杈上
+R23	Located Arg1:T120 Arg2:T121	
+T122	Thing-Nominal 1121 1125	我的肩头
+T123	Thing-Nominal 1121 1122	我
+*	Coreference T122 T123
+T124	Location-Nominal 1128 1133	我的衣服上
+T125	Person-Pronoun 1128 1129	我
+T126	Person-Pronoun 1137 1138	我
+T127	Person-Pronoun 1143 1144	我
+T128	Person-Pronoun 1148 1150	自已
+T129	Thing-Nominal 1155 1156	雪
+T130	Person-Pronoun 1157 1158	我
+T131	Person-Pronoun 1165 1166	我
+T132	Thing-Nominal 1201 1203;1204 1209	白雪 皑皑的沙滩
+T133	Person-Pronoun 1222 1223	我
+T134	Person-Pronoun 1229 1230	我
+T135	Thing-Nominal 1233 1240	无人走过的雪地
+T136	Thing-Nominal 1243 1248	自已的脚印
+T137	Person-Pronoun 1257 1259	自已
+T138	Person-Pronoun 1261 1263	自已
+T139	Thing-Nominal 1275 1277	雪花
+T140	Location-Nominal 1279 1284	茫茫的大海
+R24	Located Arg1:T139 Arg2:T140	
+T141	Person-Pronoun 1291 1292	我
+T142	Location-Nominal 1294 1302	海边的一块礁石上
+T143	Thing-Nominal 1304 1309	漫天的大雪
+T144	Thing-Nominal 1316 1318	大海
+T145	Thing-Nominal 1324 1326	海水
+T146	Thing-Nominal 1329 1331	雪花
+T147	Thing-Nominal 1340 1344	几个浪涌
+T148	Thing-Nominal 1346 1350	这些雪花
+T149	Thing-Nominal 1371 1374	雪花儿
+T150	Location-Nominal 1376 1391	房檐、石头、树杈、枝头等陆地上
+R25	Located Arg1:T149 Arg2:T150	
+T151	Thing-Nominal 1406 1408	雪花
+T152	Person-Pronoun 1410 1411	我
+T153	Thing-Nominal 1467 1469	落雪
+T154	Thing-Nominal 1475 1484	雪中的北戴河鸽子窝
+T155	Thing-Nominal 1506 1508	千山
+T156	Thing-Nominal 1508 1509	鸟
+T157	Person-Nominal 1514 1515	人
+T158	Thing-Nominal 1522 1525	鸽子窝
+T159	Thing-Nominal 1532 1534	鸽子
+T160	Person-Nominal 1535 1538	当地人
+T161	Thing-Nominal 1539 1541	海鸥
+T162	Person-Pronoun 1555 1556	我
+T163	Thing-Nominal 1557 1560	鸽子窝
+T164	Thing-Nominal 1566 1571	很多的海鸥
+T165	Location-Nominal 1572 1576;1577 1579	冰封的海 面上
+R26	Located Arg1:T164 Arg2:T165	
+T166	Thing-Nominal 1582 1587	海边的礁石
+T167	Location-Nominal 1582 1584	海边
+R27	Located Arg1:T166 Arg2:T167	
+T168	Thing-Nominal 1588 1593	落脚的枝头
+T169	Thing-Nominal 1594 1600	北极似的海面
+T170	Thing-Nominal 1601 1606	翱翔的天堂
+T171	Thing-Nominal 1607 1612	冰冷的岸边
+T172	Thing-Nominal 1613 1618	觅食的源头
+T173	Thing-Nominal 1619 1623	这些海鸥
+T174	Thing-Nominal 1629 1631	候鸟
+T175	Thing-Nominal 1640 1643	家雀儿
+T176	Thing-Nominal 1644 1658	一个死心塌地留守这儿的家雀儿
+T177	Thing-Pronoun 1659 1661	它们
+*	Coreference T177 T175
+T178	Location-Pronoun 1665 1667	这里
+T179	Location-Pronoun 1671 1673	这里
+T180	Location-Pronoun 1680 1682	这里
+T181	Thing-Pronoun 1688 1690	它们
+T182	Thing-Nominal 1692 1696	这片海滩
+T183	Person-Nominal 1696 1698;1699 1702	真正 的主人
+T184	Time-Implicit 1704 1706	此时
+T185	Thing-Nominal 1733 1740	气象万千的景象
+T186	Person-Nominal 1743 1744	人
+T187	Thing-Nominal 1752 1757	美好的景色
+T188	Person-Nominal 1761 1762	人
+T189	Location-Nominal 1767 1769	海边
+T190	Person-Nominal 1774 1783	几个同样观雪的路人
+T191	Person-Pronoun 1784 1786	我们
+T192	Person-Nominal 1808 1812	陌生之人
+T193	Person-Pronoun 1816 1817	我
+T194	Person-Nominal 1820 1822	对方
+T195	Thing-Nominal 1846 1848	雪花
+T196	Person-Nominal 1861 1862	人
+T197	Person-Nominal 1863 1864	人
+T198	Thing-Nominal 1893 1895	落雪
+T199	Person-Nominal 1896 1898	上苍
+T200	Thing-Nominal 1898 1903	送来的礼物
+T201	Thing-Nominal 1904 1906	雪花
+T202	Person-Nominal 1915 1923	认识和不认识的人
+T203	Thing-Nominal 1925 1933	数不清的洁白身躯
+T204	Person-Pronoun 1944 1945	我
+T205	Person-Pronoun 1952 1953	我
+T206	Person-Name 1975 1978	丁飞宇
+T207	Person-Nominal 1978 1987	河北省作家协会会员
+T208	Abstract 1989 1993	《长城》
+T209	Abstract 1994 1999	《小小说》
+T210	Thing-Nominal 2006 2012	多篇文学作品
+T211	Thing-Nominal 1723 1724	雪

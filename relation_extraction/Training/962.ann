@@ -1,0 +1,147 @@
+T1	Location-Nominal 0 1	家
+T2	Location-Nominal 8 9	家
+T3	Person-Nominal 11 15	每个儿女
+T4	Time-Implicit 28 33	小时放学后
+T5	Person-Pronoun 34 35	我
+T6	Person-Pronoun 48 49	我
+T7	Person-Nominal 53 55	妈妈
+R1	Family Arg1:T7 Arg2:T6	
+T8	Person-Pronoun 58 59	我
+T9	Thing-Nominal 63 68	香喷喷的饭
+T10	Person-Nominal 69 71	爸爸
+T11	Person-Pronoun 72 73	我
+R2	Family Arg1:T11 Arg2:T10	
+T12	Thing-Nominal 76 81	热腾腾的茶
+T13	Location-Nominal 82 84	我家
+T14	Location-Nominal 86 88	农村
+T15	Time-Implicit 89 91	那时
+T16	Time-Implicit 96 98	冬天
+T18	Location-Nominal 112 114	炕上
+T19	Location-Nominal 116 121;122 124	热乎乎的被 窝里
+T17	Person-Nominal 128 130	妈妈
+T20	Person-Pronoun 131 132	我
+T21	Thing-Nominal 133 134	饭
+T22	Person-Nominal 135 137	爸爸
+T23	Person-Pronoun 138 139	我
+T24	Thing-Nominal 140 141	茶
+T25	Person-Pronoun 143 144	我
+T26	Thing-Nominal 148 149	脚
+T27	Thing-Nominal 99 102	脚丫子
+R3	Part-Whole Arg1:T26 Arg2:T25	
+T28	Thing-Nominal 153 154	手
+R4	Part-Whole Arg1:T28 Arg2:T25	
+T29	Location-Nominal 158 160	学校
+T30	Person-Nominal 160 162	老师
+T31	Thing-Nominal 163 165	屁股
+T32	Person-Nominal 168 170	老师
+T33	Time-Implicit 170 172	今天
+T34	Person-Pronoun 177 178	我
+T35	Thing-Nominal 200 201	脚
+T36	Thing-Nominal 205 206	手
+T37	Person-Nominal 218 223	风云的爸爸
+T38	Thing-Nominal 218 227	风云的爸爸织的毛袜
+T39	Location-Nominal 213 215	脚上
+R5	Located Arg1:T38 Arg2:T39	
+T40	Location-Nominal 228 230	手上
+T41	Thing-Nominal 233 243	风云的爸爸织的毛手套
+R6	Located Arg1:T41 Arg2:T40	
+T42	Person-Name 233 235	风云
+T43	Person-Nominal 233 238	风云的爸爸
+R7	Family Arg1:T43 Arg2:T42	
+T44	Person-Nominal 256 261	你们的儿子
+T45	Person-Pronoun 256 258	你们
+T46	Person-Nominal 264 268	爸爸妈妈
+T47	Person-Pronoun 270 271	我
+T48	Person-Pronoun 291 292	我
+T49	Person-Nominal 294 299	满月的女儿
+T50	Person-Nominal 321 323	父母
+T51	Person-Name 334 336	风云
+T52	Person-Pronoun 337 338	我
+T53	Person-Pronoun 342 343	我
+T54	Person-Nominal 346 350	爸爸妈妈
+T55	Person-Pronoun 354 355	我
+T56	Person-Pronoun 376 378	他们
+*	Coreference T56 T54
+T58	Person-Nominal 383 391	一位算卦的老爷爷
+T59	Person-Pronoun 395 396	我
+T60	Time-Implicit 395 399	我出生时
+T61	Person-Nominal 415 417	爸爸
+T62	Thing-Nominal 419 421	骡子
+T63	Person-Pronoun 423 424	我
+T64	Metric 427 430	几公里
+T65	Location-Nominal 425 434	离家几公里外的医院
+T66	Time-Implicit 413 415	白天
+T67	Time-Implicit 437 439	晚上
+T68	Person-Nominal 439 441	妈妈
+T69	Person-Pronoun 443 444	我
+T70	Location-Nominal 445 447	炕上
+T71	Person-Nominal 452 455;456 457	爸爸妈 妈
+T72	Time-Implicit 463 465	后来
+T73	Person-Nominal 467 475	这位算卦的老爷爷
+T74	Person-Pronoun 478 479	我
+T75	Person-Pronoun 496 497	我
+T76	Person-Name 498 502	“风云”
+*	Coreference T76 T75
+T77	Time-Implicit 510 514	当天晚上
+T78	Person-Pronoun 515 516	我
+T79	Thing-Nominal 515 516;517 520	我 的嘴巴
+T80	Person-Nominal 536 540	爸爸妈妈
+T81	Person-Pronoun 544 545	我
+T82	Person-Pronoun 564 565	我
+T83	Person-Nominal 570 573	一家人
+T84	Person-Nominal 582 586	爸爸妈妈
+T85	Person-Pronoun 590 591	我
+T86	Person-Pronoun 600 601	我
+T87	Person-Pronoun 614 615	我
+T88	Time-Implicit 614 618	我小时候
+T89	Time-Explicit 626 628	而今
+T90	Person-Nominal 629 631	爸爸
+T91	Person-Pronoun 638 639	我
+T92	Person-Pronoun 640 641	我
+T93	Person-Pronoun 646 647	他
+*	Coreference T93 T90
+T94	Location-Nominal 653 654	家
+T95	Person-Pronoun 659 660	他
+T96	Location-Nominal 663 666	大门外
+T97	Person-Nominal 670 672	妈妈
+T98	Location-Nominal 696 697	家
+T99	Person-Pronoun 702 703	她
+T100	Time-Implicit 709 713	离开家时
+T101	Person-Nominal 714 716	妈妈
+T102	Person-Pronoun 720 721	我
+T103	Location-Nominal 722 725	大门外
+T104	Person-Pronoun 726 727	我
+T105	Person-Pronoun 728 729	你
+*	Coreference T105 T101
+T106	Thing-Nominal 729 730	腿
+R8	Part-Whole Arg1:T106 Arg2:T105	
+T107	Person-Pronoun 741 742	她
+T108	Time-Implicit 748 752	回头看时
+T109	Person-Nominal 755 757	妈妈
+T110	Location-Nominal 762 764	门旁
+T111	Person-Pronoun 766 767	我
+T112	Person-Nominal 775 777	爸爸
+T113	Thing-Nominal 779 781	拐杖
+R9	Use Arg1:T112 Arg2:T113	
+T114	Location-Nominal 783 785	门前
+T115	Person-Pronoun 786 787	我
+T116	Person-Pronoun 791 792	我
+T117	Person-Nominal 796 800	我的爸爸
+T118	Location-Nominal 806 812	我的乡村小屋
+T119	Location-Nominal 814 824	那充满温馨而祥和的家
+T120	Person-Nominal 827 828	妻
+T121	Location-Nominal 831 832	家
+T122	Thing-Nominal 834 836	房子
+T123	Location-Nominal 837 838	家
+T124	Location-Nominal 848 849	家
+T125	Person-Pronoun 852 853	我
+T126	Person-Pronoun 859 860	我
+T127	Location-Nominal 859 865	我停泊的港湾
+T128	Location-Nominal 22 27	停泊的港湾
+T129	Thing-Nominal 247 252	再大的风雪
+T130	Thing-Nominal 300 301	奶
+R10	Part-Whole Arg1:T79 Arg2:T78	
+T57	Thing-Nominal 579 580	饭
+T131	Thing-Nominal 702 708	她满眼的泪花
+R11	Part-Whole Arg1:T131 Arg2:T99	
+T132	Location-Nominal 711 712	家

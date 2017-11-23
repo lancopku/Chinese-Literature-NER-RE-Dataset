@@ -1,0 +1,292 @@
+T2	Thing-Nominal 13 16	二月花
+T1	Thing-Nominal 5 8	三秋树
+T3	Person-Name 20 29	清代著名画家郑板桥
+T4	Thing-Nominal 30 34	书斋题联
+R1	Create Arg1:T3 Arg2:T4	
+T5	Thing-Nominal 45 47	笔墨
+T6	Thing-Nominal 65 66	兰
+T7	Thing-Nominal 66 67	竹
+T8	Thing-Nominal 70 72	枝蔓
+T9	Thing-Nominal 81 85	三秋之树
+T10	Thing-Nominal 94 95	枝
+T11	Thing-Nominal 96 97	叶
+R2	Part-Whole Arg1:T10 Arg2:T9	
+R3	Part-Whole Arg1:T11 Arg2:T9	
+T12	Thing-Nominal 99 101	落霞
+T13	Thing-Nominal 102 104	孤鹜
+T14	Person-Name 117 121;122 126	唐代大文 学家王勃
+T15	Time-Implicit 140 142	后来
+T16	Person-Pronoun 142 143	他
+*	Coreference T16 T14 T21
+T17	Location-Nominal 144 146	水里
+T18	Location-Nominal 162 164	水上
+T19	Person-Nominal 177 181	有一个人
+T20	Location-Pronoun 183 185	这里
+*	Coreference T20 T17
+T21	Person-Pronoun 195 196	你
+T22	Thing-Nominal 224 226	落霞
+T23	Thing-Nominal 226 228	孤鹜
+T24	Person-Nominal 258 259	鬼
+T25	Person-Nominal 261 262	鬼
+T26	Person-Nominal 269 275	一代文学巨匠
+T27	Person-Nominal 276 280	语言大师
+T28	Person-Name 280 282	老舍
+R4	General-Special Arg1:T28 Arg2:T27	
+R5	General-Special Arg1:T28 Arg2:T26	
+T29	Person-Pronoun 300 301	他
+*	Coreference T29 T28 T30
+T30	Person-Pronoun 323 324	我
+T31	Person-Pronoun 361 362	你
+T32	Person-Nominal 407 409	读者
+T33	Person-Pronoun 412 413	你
+T34	Person-Pronoun 415 416	你
+T35	Person-Pronoun 422 423	你
+T36	Person-Pronoun 452 453	我
+T37	Location-Nominal 564 566	民间
+T38	Time-Explicit 581 583;584 587	20 12年
+T39	Abstract 587 593	诺贝尔文学奖
+T40	Person-Pronoun 595 596	他
+T41	Person-Name 551 553	莫言
+*	Coreference T41 T40 T84
+T42	Person-Name 605 608	蒲松龄
+T43	Location-Nominal 612 613	我
+T44	Metric 616 619	三百里
+T45	Location-Name 626 628	淄川
+T46	Time-Explicit 629 633	三百年前
+T47	Location-Name 635 640	淄川蒲家庄
+T48	Thing-Nominal 643 645	大柳
+R6	Located Arg1:T48 Arg2:T47	
+T49	Person-Nominal 652 655;656 658	白胡子 老头
+T50	Person-Pronoun 659 660	他
+*	Coreference T50 T49
+T51	Thing-Nominal 666 669	小方桌
+T52	Thing-Nominal 670 671	桌
+*	Coreference T51 T52
+T53	Thing-Nominal 674 677	茶壶茶
+T54	Thing-Nominal 678 679	碗
+T55	Thing-Nominal 680 683	烟笸箩
+T56	Thing-Nominal 683 686	烟袋锅
+R7	Located Arg1:T53 Arg2:T52	
+R8	Located Arg1:T54 Arg2:T52	
+R9	Located Arg1:T55 Arg2:T52	
+R10	Located Arg1:T56 Arg2:T52	
+T57	Person-Nominal 687 693	来来往往的人
+T58	Thing-Nominal 707 709	小桌
+T59	Thing-Nominal 714 715	茶
+T60	Thing-Nominal 720 721	烟
+T61	Person-Pronoun 723 724	你
+T62	Thing-Nominal 731 732	茶
+T63	Thing-Nominal 726 727	烟
+*	Coreference T61 T57
+T64	Person-Nominal 736 741	白胡子老人
+T65	Person-Pronoun 756 757	我
+*	Coreference T65 T64 T69
+T66	Person-Nominal 768 770	奇人
+T67	Person-Nominal 773 775	牛鬼
+T68	Person-Nominal 775 777	蛇神
+T69	Person-Pronoun 795 796	他
+T70	Thing-Nominal 802 804	眼睛
+T71	Person-Nominal 806 810	三岁孩童
+T72	Thing-Nominal 811 813	眼睛
+R11	Part-Whole Arg1:T70 Arg2:T69	
+R12	Part-Whole Arg1:T72 Arg2:T71	
+T73	Person-Pronoun 824 825	他
+T74	Person-Pronoun 834 835	他
+T75	Thing-Nominal 836 838	茶水
+T76	Person-Pronoun 841 842	他
+T77	Thing-Nominal 843 844	烟
+T78	Thing-Name 872 874	聊斋
+T79	Person-Nominal 879 886	这个白胡子老头
+T80	Person-Name 891 894	蒲松龄
+*	Coreference T79 T80 T83
+T81	Thing-Nominal 906 908	铜钱
+T82	Thing-Nominal 909 911	黑痣
+T83	Person-Nominal 912 914	天才
+R13	Part-Whole Arg1:T82 Arg2:T83	
+T84	Person-Pronoun 612 613	我
+T85	Person-Nominal 916 919	我爷爷
+T86	Person-Nominal 916 926	我爷爷的老老老老爷爷
+R14	Family Arg1:T86 Arg2:T85	
+T87	Person-Nominal 929 933	贩马的人
+R15	General-Special Arg1:T86 Arg2:T87	
+T88	Time-Implicit 934 936	每年
+T89	Thing-Nominal 945 947	骏马
+T90	Location-Nominal 948 955	蒲家庄大柳树下
+T91	Person-Pronoun 958 959	他
+*	Coreference T91 T86 T98
+T94	Thing-Nominal 969 974	蒲松龄的烟
+T92	Thing-Nominal 961 966	蒲松龄的茶
+T93	Person-Name 980 983	蒲松龄
+R16	Social Arg1:T86 Arg2:T93	
+T95	Thing-Name 989 991	聊斋
+T96	Person-Nominal 995 999	母耗子精
+T97	Person-Name 999 1001	阿纤
+*	Coreference T96 T97
+T98	Person-Nominal 1006 1011	我这位祖先
+T99	Thing-Name 1021 1023	聊斋
+T100	Person-Pronoun 1036 1037	我
+T101	Location-Name 1036 1037;1038 1043	我 的故乡高密
+T102	Person-Name 1047 1049	阿纤
+T103	Person-Name 1050 1054	蒲老前辈
+T104	Thing-Nominal 1055 1056	笔
+R17	Use Arg1:T103 Arg2:T104	
+T105	Person-Pronoun 1062 1063	她
+*	Coreference T105 T102
+T106	Thing-Nominal 1080 1081	粮
+T107	Person-Nominal 1087 1089	百姓
+T108	Person-Pronoun 1093 1094	她
+T109	Location-Nominal 1099 1101	地洞
+T110	Thing-Nominal 1103 1105	粮食
+R18	Located Arg1:T110 Arg2:T109	
+T111	Person-Nominal 1110 1112	灾民
+R19	Social Arg1:T105 Arg2:T111	
+T112	Person-Pronoun 1116 1117	她
+T113	Person-Nominal 1122 1125	穷小子
+R20	Family Arg1:T113 Arg2:T112	
+T114	Person-Nominal 1118 1119	妻
+*	Coreference T112 T114
+T115	Person-Name 1133 1135	阿纤
+T116	Time-Implicit 1135 1137	夜里
+T117	Thing-Nominal 1143 1144	牙
+R21	Part-Whole Arg1:T117 Arg2:T115	
+T118	Person-Pronoun 1165 1166	我
+T119	Person-Nominal 1173 1178	马贩子祖先
+T120	Person-Pronoun 1181 1182	我
+T121	Person-Nominal 1185 1188	祖师爷
+R22	Family Arg1:T120 Arg2:T121	
+R23	Family Arg1:T120 Arg2:T119	
+T122	Person-Nominal 1189 1191	祖先
+T123	Thing-Nominal 1194 1196	白马
+T124	Person-Pronoun 1197 1198	我
+T125	Thing-Pronoun 1201 1203	红马
+*	Coreference T119 T122
+R24	Use Arg1:T122 Arg2:T123	
+R25	Use Arg1:T124 Arg2:T125	
+T126	Person-Pronoun 1204 1206	我们
+T127	Thing-Nominal 1207 1208	马
+R26	Use Arg1:T126 Arg2:T127	
+T128	Thing-Name 1214 1218	胶济铁路
+T129	Thing-Nominal 1220 1223;1224 1225	电气列 车
+R27	Located Arg1:T129 Arg2:T128	
+T130	Location-Nominal 1235 1242	蒲家庄大柳树下
+T131	Person-Nominal 1243 1246	祖师爷
+T132	Thing-Nominal 1248 1249	树
+T133	Person-Pronoun 1254 1256	我们
+T134	Person-Nominal 1257 1261	他老人家
+*	Coreference T131 T134
+T135	Person-Nominal 1264 1266	祖先
+T136	Person-Pronoun 1286 1287	我
+T137	Person-Nominal 1297 1299	祖师
+T138	Person-Pronoun 1302 1303	我
+T139	Thing-Nominal 1310 1312	锥子
+T140	Person-Pronoun 1315 1316	他
+*	Coreference T140 T137
+T141	Person-Pronoun 1323 1324	我
+T142	Person-Pronoun 1347 1348	我
+T143	Person-Pronoun 1349 1350	他
+T144	Person-Pronoun 1363 1364	他
+T145	Person-Pronoun 1372 1373	你
+T146	Person-Pronoun 1377 1378	我
+*	Coreference T144 T146 T147 T149
+T147	Person-Pronoun 1387 1388	我
+*	Coreference T142 T145 T150 T152
+T148	Person-Name 1408 1411	蒲大哥
+T149	Person-Pronoun 1412 1413	我
+T150	Person-Nominal 1415 1418	灰孙子
+T151	Person-Pronoun 1424 1425	您
+T152	Person-Pronoun 1429 1430	他
+*	Coreference T151 T148 T156
+T153	Person-Nominal 1437 1439	祖先
+T154	Person-Pronoun 1440 1441	我
+T155	Thing-Nominal 1441 1443	屁股
+R28	Part-Whole Arg1:T155 Arg2:T154	
+T156	Person-Nominal 1463 1464	师
+T157	Person-Pronoun 1474 1475	我
+T158	Person-Nominal 1482 1485	祖师爷
+T159	Thing-Nominal 1493 1494	笔
+T160	Person-Pronoun 1496 1497	我
+T161	Person-Pronoun 1518 1519	我
+T162	Thing-Nominal 1523 1527	黄毛大笔
+*	Coreference T159 T162
+T163	Person-Pronoun 1541 1543	我们
+T164	Thing-Nominal 1547 1549	电脑
+R29	Use Arg1:T163 Arg2:T164	
+T165	Person-Nominal 1558 1560	祖先
+T166	Person-Nominal 1574 1576	孽障
+T167	Person-Pronoun 1588 1589	我
+*	Coreference T166 T167
+T168	Person-Nominal 1592 1595	祖师爷
+T169	Person-Name 1603 1605	莫言
+T170	Location-Nominal 1739 1741	民间
+T171	Person-Name 1760 1762	老舍
+T172	Thing-Name 1764 1769	济南的冬天
+T173	Location-Name 1764 1766	济南
+R30	Create Arg1:T171 Arg2:T172	
+T174	Time-Implicit 1806 1810	小雪之后
+T175	Location-Name 1811 1813	济南
+T176	Thing-Nominal 1836 1841	中国山水画
+T177	Person-Pronoun 1843 1844	你
+T178	Person-Name 1857 1860	朱自清
+T179	Thing-Name 1862 1863	春
+R31	Create Arg1:T178 Arg2:T179	
+T180	Person-Nominal 1884 1886	人们
+T181	Thing-Nominal 1901 1902	纸
+T182	Person-Nominal 1920 1922	师生
+T183	Person-Name 1938 1941	周敦颐
+T184	Thing-Name 1944 1947	爱莲说
+R32	Create Arg1:T183 Arg2:T184	
+T185	Thing-Nominal 1973 1974	花
+T186	Thing-Nominal 1979 1980	蔓
+T187	Thing-Nominal 1981 1982	枝
+T188	Abstract 1988 1990	对比
+T189	Abstract 1991 1993	拟人
+T190	Abstract 1994 1996	描写
+T191	Abstract 1997 1999	抒情
+T192	Person-Name 2028 2031	刘禹锡
+T193	Thing-Name 2033 2036	陋室铭
+R33	Create Arg1:T192 Arg2:T193	
+T194	Location-Nominal 2046 2048	居室
+T195	Person-Nominal 2054 2056	朋友
+T196	Person-Nominal 2059 2061	古贤
+R34	Social Arg1:T192 Arg2:T195	
+T197	Thing-Nominal 2088 2089	画
+T198	Person-Nominal 2126 2129	许多人
+T199	Person-Nominal 2140 2142	后人
+T200	Person-Nominal 2175 2177	名家
+R35	General-Special Arg1:T171 Arg2:T200	
+R36	General-Special Arg1:T178 Arg2:T200	
+R37	General-Special Arg1:T183 Arg2:T200	
+R38	General-Special Arg1:T192 Arg2:T200	
+T201	Thing-Nominal 2240 2241	金
+T202	Thing-Nominal 2237 2238	沙
+T203	Person-Pronoun 2243 2245	我们
+T204	Thing-Nominal 2265 2266	泥
+T205	Thing-Nominal 2267 2268	水
+T206	Location-Nominal 2349 2351	考场
+T207	Person-Nominal 2520 2522	读者
+T208	Person-Nominal 2537 2539	读者
+T209	Person-Name 2544 2548	哈姆雷特
+T210	Thing-Nominal 2559 2561	冰山
+T211	Person-Name 2588 2591	海明威
+T212	Thing-Nominal 2611 2614	白开水
+T213	Person-Nominal 2674 2676	古人
+T214	Person-Name 2690 2700	大文豪列夫?托尔斯泰
+T215	Person-Nominal 2704 2709	语言艺术家
+T216	Organization-Name 2733 2741	前苏联文学顾问会
+T217	Person-Nominal 2775 2777	警察
+T218	Person-Nominal 2783 2789	游行示威的人
+R39	Social Arg1:T217 Arg2:T218	
+T219	Person-Name 2847 2851	鲁迅先生
+T220	Person-Nominal 2890 2892	有人
+T221	Person-Pronoun 2904 2905	您
+T222	Person-Pronoun 2941 2942	您
+T223	Person-Pronoun 2949 2950	我
+T224	Person-Pronoun 2951 2952	我
+T225	Person-Nominal 2959 2962	我自己
+T226	Person-Pronoun 2963 2964	您
+*	Coreference T224 T225
+T227	Person-Nominal 3003 3008	天才的姐妹
+T228	Person-Pronoun 3011 3013	我们
+T229	Person-Name 3015 3018	契诃夫
+T230	Thing-Nominal 3065 3067	美酒
+T231	Thing-Nominal 3098 3100	佳酿

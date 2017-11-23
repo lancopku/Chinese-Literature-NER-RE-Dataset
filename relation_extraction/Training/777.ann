@@ -1,0 +1,134 @@
+T1	Thing-Nominal 5 8	木棉树
+T2	Thing-Pronoun 9 10	它
+*	Coreference T2 T1
+T3	Thing-Nominal 11 18	硕大如火的花朵
+R1	Part-Whole Arg1:T3 Arg2:T1	
+T4	Person-Pronoun 22 23	我
+T5	Thing-Nominal 38 41	木棉花
+T6	Person-Pronoun 44 45	我
+*	Coreference T5 T3
+T7	Location-Nominal 59 60;61 65	自 己的故乡
+T8	Person-Pronoun 59 60;61 62	自 己
+*	Coreference T8 T6
+T9	Time-Implicit 69 72	童年时
+T10	Person-Nominal 73 77	我的父亲
+T11	Thing-Nominal 103 105	火焰
+T12	Thing-Nominal 106 107	树
+T13	Thing-Nominal 133 135	叶子
+T14	Thing-Nominal 145 147	微风
+T15	Thing-Nominal 128 131	木棉花
+R2	Part-Whole Arg1:T13 Arg2:T15	
+T16	Thing-Nominal 150 152	树枝
+T17	Thing-Nominal 155 161	满树的木棉花
+T18	Person-Nominal 180 181	人
+T19	Location-Name 207 214	我的家乡攀枝花
+T20	Location-Nominal 240 242	山野
+T21	Location-Name 245 249	攀枝花市
+*	Coreference T21 T19 T22 T29 T34
+T22	Location-Nominal 258 262	我的故乡
+T23	Person-Pronoun 272 273	我
+T24	Thing-Nominal 278 281	木棉树
+T25	Thing-Name 285 288	英雄树
+*	Coreference T25 T24
+T26	Thing-Nominal 301 304	木棉花
+R3	Part-Whole Arg1:T26 Arg2:T25	
+T27	Person-Nominal 309 322	建设攀枝花市的那些先驱者们
+T28	Person-Pronoun 323 325	他们
+*	Coreference T28 T27 T32 T37 T41
+T29	Location-Name 329 338	繁荣富强的攀枝花市
+T30	Person-Nominal 340 341	妻
+T31	Person-Nominal 342 343	子
+T32	Person-Pronoun 345 347	自己
+T33	Location-Nominal 348 350	故土
+T34	Location-Nominal 358 370	这片当年贫穷而落后的土地
+T35	Time-Implicit 360 362	当年
+T36	Metric 358 360	这片
+T37	Person-Pronoun 387 389	他们
+T38	Thing-Nominal 391 392	汗
+T39	Thing-Nominal 395 397	大刀
+T40	Thing-Nominal 397 399	阔斧
+T41	Person-Pronoun 406 408	自己
+T42	Location-Nominal 466 467	乡
+T43	Location-Nominal 458 460	故土
+*	Coreference T42 T43
+T44	Time-Implicit 470 477	每当夜深人静时
+T45	Thing-Nominal 483 485	明月
+T46	Metric 481 483	一轮
+T47	Person-Nominal 486 495	思念故土的亲朋好友
+T48	Person-Pronoun 510 511;512 513	他 们
+T49	Location-Name 519 523	攀枝花市
+T50	Person-Nominal 545 552	令人敬重的先辈
+*	Coreference T50 T48 T51 T53 T54 T59 T60 T61
+T51	Person-Nominal 537 543	攀枝花的英雄
+T52	Location-Nominal 555 569	攀枝花7440平方公里的土地
+T53	Person-Nominal 576 583	攀枝花建设者们
+T54	Person-Pronoun 612 614	他们
+T55	Location-Name 643 651	“象牙微雕”钢城
+T56	Location-Name 653 655	攀钢
+*	Coreference T56 T55
+T57	Location-Name 656 660	成昆铁路
+T58	Location-Name 661 666	二滩水电站
+T59	Person-Nominal 673 675;676 683	攀枝 花建设先驱者们
+T60	Person-Pronoun 693 695	他们
+T61	Person-Nominal 726 728	英雄
+T62	Organization-Nominal 731 733	中国
+T63	Thing-Nominal 747 749	木棉
+T64	Person-Name 767 772	唐代皇甫松
+T65	Thing-Nominal 783 786	木棉花
+T66	Thing-Nominal 793 794	花
+*	Coreference T66 T65
+T67	Person-Nominal 797 798	郎
+T68	Person-Nominal 801 803	诗人
+T69	Thing-Nominal 804 806	木棉
+T70	Thing-Nominal 807 809	荔枝
+T71	Person-Nominal 812 816	青年男女
+T72	Person-Name 826 831	清代陈恭尹
+T73	Person-Nominal 862 864	诗人
+*	Coreference T73 T72
+T74	Person-Nominal 905 906	人
+T75	Person-Pronoun 918 919	我
+T76	Thing-Nominal 921 924	木棉树
+T77	Thing-Pronoun 927 928	它
+*	Coreference T77 T76
+T78	Thing-Nominal 938 941	木棉花
+T79	Thing-Pronoun 944 945	它
+*	Coreference T79 T78
+T80	Location-Nominal 961 963	枝头
+T81	Person-Nominal 964 965	人
+T82	Location-Nominal 956 957	山
+T83	Person-Pronoun 967 968	我
+T84	Thing-Nominal 974 977	木棉花
+T85	Metric 972 974	一朵
+T86	Thing-Pronoun 980 981	它
+*	Coreference T86 T84
+T87	Person-Pronoun 993 995	自己
+*	Coreference T87 T83
+T88	Location-Nominal 996 998	故乡
+T89	Person-Pronoun 1006 1007	我
+T90	Location-Nominal 1013 1021	开满木棉花的热土
+T91	Location-Nominal 1023 1027	这片热土
+*	Coreference T91 T90 T92 T100 T102
+T92	Location-Name 1030 1038	富甲天下的聚宝盆
+T93	Thing-Nominal 1050 1051	铁
+T94	Thing-Nominal 1062 1063	钛
+T95	Thing-Nominal 1073 1077	水能资源
+T96	Thing-Nominal 1085 1088	苏铁树
+T97	Metric 1078 1085	234776株
+T98	Person-Nominal 1118 1122	子孙后代
+T99	Person-Pronoun 1128 1130	我们
+T100	Location-Nominal 1137 1141	这片土地
+T101	Person-Pronoun 1144 1146	自己
+*	Coreference T101 T99
+T102	Location-Pronoun 1153 1154	它
+T103	Location-Nominal 1156 1160	中华大地
+T104	Person-Nominal 1169 1179	不畏艰难险阻的开发者
+T105	Thing-Nominal 1187 1196	高大而坚强的木棉树
+T106	Location-Name 1197 1200	攀枝花
+T107	Person-Pronoun 1214 1216	他们
+*	Coreference T107 T104 T110 T111 T112
+T108	Person-Pronoun 1220 1221	我
+T109	Thing-Nominal 1224 1227	木棉树
+T110	Person-Nominal 1232 1247	曾经开发和建设攀枝花的先驱者们
+T111	Person-Nominal 1262 1272	像木棉树一样的英雄们
+T112	Person-Pronoun 1275 1277	你们
+T113	Person-Pronoun 1273 1274	我

@@ -1,0 +1,200 @@
+T1	Location-Nominal 0 6	门前小公园里
+T2	Thing-Nominal 7 17	一棵高大粗壮的海棠树
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 18 25	黑紫皴裂的树皮
+T4	Thing-Pronoun 28 29	它
+*	Coreference T4 T2
+T5	Thing-Pronoun 55 56	它
+T6	Thing-Nominal 64 66	枝丫
+T7	Thing-Nominal 67 68	枝
+T8	Thing-Nominal 69 70	叶
+T9	Person-Nominal 79 86	精力充沛的壮年
+T10	Time-Implicit 88 94	每到冬雪消融
+T11	Thing-Nominal 102 104	海棠
+T12	Thing-Nominal 104 109	皴裂的树皮
+R2	Part-Whole Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 120 125	鼓胀的枝丫
+T14	Thing-Nominal 127 137	一簇簇米粒大小的花苞
+T15	Thing-Nominal 138 143	那些小花苞
+T16	Person-Nominal 144 148;149 150	青纯的村 姑
+T17	Thing-Nominal 168 170	红唇
+T18	Person-Nominal 179 181	人们
+T19	Thing-Pronoun 199 200	它
+T20	Thing-Nominal 203 208	清晨的彩霞
+*	Coreference T19 T15
+T21	Thing-Nominal 218 225	重葩叠萼的花束
+T22	Thing-Nominal 227 232	整个海棠树
+T23	Person-Nominal 282 284	众人
+T24	Time-Implicit 294 296	古代
+T25	Person-Nominal 297 298;299 303	喜 爱海棠者
+T26	Person-Nominal 306 308	其人
+T27	Person-Name 310 318	宋代的文学家曾巩
+T28	Time-Explicit 310 312	宋代
+T29	Time-Implicit 319 330	任齐州(济南)太守期间
+T30	Location-Name 332 336	珍珠泉畔
+T31	Thing-Nominal 338 350	一所名为“名士轩”的别墅
+R3	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 357 361	一株海棠
+T33	Thing-Nominal 375 379	那株海棠
+T34	Thing-Name 382 385	宋海棠
+T35	Thing-Name 389 392	宋海棠
+T36	Thing-Nominal 394 398	西府海棠
+T37	Person-Name 400 409	宋代文学大师苏东坡
+T38	Person-Name 414 419	学生邵民瞻
+R4	Social Arg1:T38 Arg2:T37	
+T39	Thing-Nominal 425 429	一枝海棠
+T40	Location-Nominal 432 436	邵宅堂前
+R5	Located Arg1:T39 Arg2:T40	
+T41	Person-Pronoun 440 441	他
+*	Coreference T41 T37
+T42	Time-Explicit 400 402	宋代
+T43	Thing-Nominal 443 445	书信
+T44	Thing-Nominal 452 453;454 455	海 棠
+T45	Person-Pronoun 460 461	他
+T46	Thing-Nominal 462 464	海棠
+T47	Thing-Nominal 486 491	那株海棠树
+T48	Location-Name 498 510	江苏省宜兴市闸口乡永定村
+R6	Located Arg1:T47 Arg2:T48	
+T49	Time-Explicit 512 514;515 518	19 82年
+T50	Location-Name 519 522	宜兴市
+T51	Thing-Nominal 536 539	海棠园
+R7	Located Arg1:T51 Arg2:T50	
+T52	Person-Pronoun 543 544	他
+T53	Thing-Nominal 548 550	海棠
+T54	Time-Explicit 552 559	宋神宗元丰七年
+T55	Location-Name 562 564	黄州
+T56	Time-Implicit 560 565	谪居黄州时
+T57	Abstract 576 580	《海棠》
+T58	Thing-Nominal 583 585	东风
+T59	Thing-Nominal 591 593	香雾
+T60	Thing-Nominal 595 596	月
+T61	Thing-Nominal 604 605	花
+T62	Thing-Nominal 610 612	高烛
+T63	Thing-Nominal 613 615	红装
+T64	Person-Pronoun 628 629	他
+T65	Thing-Nominal 631 633	海棠
+T66	Thing-Nominal 641 644	海棠树
+T67	Person-Name 654 657	孙悟空
+T68	Person-Nominal 665 679	一个素衣宽带，韬光养晦的哲人
+T69	Person-Nominal 686 699	一群机灵活泼天真灵动的幼童
+T70	Thing-Nominal 700 701;702 708	俊 俏美丽的花朵
+T71	Location-Nominal 715 718	枝丫上
+R8	Located Arg1:T70 Arg2:T71	
+T72	Thing-Nominal 728 729	门
+T73	Person-Nominal 730 735	玩耍的孩童
+T74	Thing-Nominal 737 747	一张张粉红俏皮的笑脸
+T75	Person-Name 768 773	周恩来总理
+T76	Thing-Nominal 780 782	海棠
+T77	Location-Name 787 793	中南海西花厅
+T78	Person-Pronoun 797 798	他
+*	Coreference T78 T75
+T79	Time-Implicit 807 813	每到春暖花开
+T80	Thing-Nominal 814 822	西花厅的西府海棠
+T81	Location-Name 814 817	西花厅
+R9	Located Arg1:T80 Arg2:T81	
+T82	Thing-Nominal 843 855	一张张晶莹剔透的俏丽笑脸
+T83	Person-Pronoun 859 860	他
+T84	Thing-Nominal 865 867	案头
+T85	Person-Pronoun 874 875	他
+T86	Thing-Nominal 882 884	海棠
+T87	Thing-Nominal 892 897	清晨的朝霞
+T88	Thing-Nominal 901 903	落日
+T89	Location-Nominal 916 920	海棠树下
+T90	Thing-Nominal 907 911	一对伉俪
+R10	Located Arg1:T90 Arg2:T89	
+T91	Person-Nominal 943 945	人民
+T92	Thing-Nominal 948 952	一对伉俪
+T93	Thing-Nominal 955 962	密匝匝的海棠花
+T94	Person-Nominal 965 972	万千个各族儿童
+T95	Person-Nominal 975 982	他们万千个孩子
+T96	Person-Pronoun 975 977	他们
+T97	Thing-Nominal 986 991	祖国的花朵
+T98	Person-Nominal 983 985	孩童
+T99	Person-Pronoun 1000 1002	他们
+T100	Person-Pronoun 1018 1019	我
+T101	Time-Implicit 1015 1017	当年
+T102	Time-Explicit 1029 1037	一九五四年的春天
+T103	Time-Implicit 1049 1057	春风化雨的日子里
+T104	Thing-Nominal 1058 1069	中南海西花厅的西府海棠
+T105	Location-Name 1058 1064	中南海西花厅
+R11	Located Arg1:T104 Arg2:T105	
+T106	Person-Name 1081 1089;1090 1093	精通外交辞令的周 总理,
+T107	Location-Name 1096 1098	瑞士
+T108	Organization-Name 1100 1105	日内瓦会议
+T109	Thing-Nominal 1110 1114	西府海棠
+T110	Person-Nominal 1125 1130	妇联副主席
+T111	Person-Name 1131 1134	邓颖超
+T112	Thing-Nominal 1137 1142	一束海棠花
+T113	Thing-Nominal 1145 1147	标本
+T114	Person-Nominal 1149 1150;1151 1152	总 理
+T115	Person-Nominal 1161 1163	总理
+T116	Location-Nominal 1168 1170	国内
+T117	Thing-Nominal 1170 1178	寓意深远的海棠花
+T118	Thing-Nominal 1186 1191	一支芍药花
+T119	Person-Nominal 1195 1199	这对伉俪
+T120	Thing-Nominal 1205 1207	花卉
+T121	Metric 1199 1201	千里
+T122	Person-Nominal 1213 1215	人们
+T123	Time-Implicit 1224 1229	一场春雨后
+T124	Thing-Nominal 1230 1233	海棠树
+T125	Thing-Nominal 1235 1240	妩媚的红妆
+T126	Thing-Pronoun 1257 1258	它
+T127	Thing-Nominal 1265 1270	万千个枝丫
+T128	Location-Nominal 1259 1262	春风中
+R12	Located Arg1:T127 Arg2:T128	
+T129	Thing-Nominal 1274 1281	满树莹莹的琼花
+T130	Thing-Pronoun 1287 1288	它
+*	Coreference T126 T124
+T131	Time-Implicit 1296 1298	晚春
+T132	Thing-Nominal 1299 1304	莹白的花瓣
+T133	Thing-Nominal 1305 1307	雪片
+T134	Location-Nominal 1316 1322	嫩绿的草地上
+R13	Located Arg1:T132 Arg2:T134	
+T135	Thing-Nominal 1324 1326	绿草
+T136	Thing-Pronoun 1336 1337	它
+T137	Time-Implicit 1342 1349	海棠树的繁花期
+T138	Thing-Nominal 1342 1345	海棠树
+T139	Location-Nominal 1352 1355	枝条上
+T140	Thing-Nominal 1357 1367	一串串翡翠般的小果实
+R14	Located Arg1:T140 Arg2:T139	
+T141	Thing-Pronoun 1368 1370	它们
+*	Coreference T141 T138
+T142	Thing-Nominal 1392 1398	一粒粒红玛瑙
+T143	Thing-Nominal 1399 1402;1403 1406	一粒粒 红珊瑚
+T144	Thing-Nominal 1407 1410	海棠树
+T145	Thing-Nominal 1410 1415	浓密的绿叶
+R15	Part-Whole Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1416 1427	一串串密匝匝的火红果实
+T147	Thing-Nominal 1433 1436	海棠树
+T148	Person-Nominal 1453 1454	人
+T149	Thing-Nominal 1455 1463	甘甜醇香的海棠果
+T150	Person-Pronoun 1466 1467	我
+T151	Thing-Nominal 1476 1483	西花厅的海棠果
+T152	Location-Name 1476 1479	西花厅
+R16	Located Arg1:T151 Arg2:T152	
+T153	Person-Nominal 1487 1489	总理
+T154	Person-Nominal 1499 1501	大家
+T155	Person-Pronoun 1542 1543	他
+*	Coreference T155 T153
+T156	Person-Nominal 1556 1557	党
+T157	Person-Nominal 1576 1577	党
+T158	Thing-Nominal 1579 1581	祖国
+T159	Person-Nominal 1583 1585	人民
+T160	Thing-Nominal 1598 1601	海棠树
+T161	Person-Pronoun 1607 1608	我
+T162	Location-Nominal 1613 1615	树下
+T163	Person-Nominal 1620 1624	总理夫妇
+T164	Thing-Nominal 1626 1628	海棠
+T165	Person-Nominal 1649 1650	人
+T166	Thing-Nominal 1661 1665	江河之水
+T167	Person-Name 1697 1700	赵公爷
+T168	Thing-Nominal 1703 1710	至高无上的圣殿
+T169	Thing-Nominal 1711 1713	金钱
+T170	Person-Nominal 1730 1731	人
+T171	Thing-Nominal 1750 1755	饥渴的土地
+T172	Thing-Nominal 1757 1760	及时雨
+T173	Thing-Nominal 1767 1770	启明星
+T174	Person-Pronoun 1773 1774	我
+T175	Thing-Nominal 1784 1795	历史天空中闪烁的启明星
+T176	Metric 1808 1810	百年
+T177	Metric 1811 1813	千年

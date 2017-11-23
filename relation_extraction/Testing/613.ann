@@ -1,0 +1,333 @@
+T1	Thing-Name 121 124	安昌河
+T2	Thing-Nominal 116 119	一条河
+*	Coreference T2 T1
+T3	Person-Pronoun 101 102	我
+T4	Location-Nominal 104 109	城市的上空
+T5	Person-Pronoun 94 95	我
+T6	Person-Pronoun 87 88	我
+T7	Thing-Nominal 77 84;85 86	湛蓝湛蓝的!飞 机
+T8	Thing-Nominal 71 76	窗外的天空
+T9	Person-Pronoun 62 63	我
+T10	Thing-Nominal 65 68	电脑桌
+T11	Thing-Nominal 52 54	太阳
+T12	Thing-Nominal 48 51	窗玻璃
+T13	Thing-Nominal 44 47	整爿墙
+T14	Location-Nominal 36 38	书房
+R1	Located Arg1:T10 Arg2:T14	
+T15	Person-Pronoun 24 25	我
+T16	Thing-Nominal 130 133	一座桥
+R2	Located Arg1:T16 Arg2:T2	
+T17	Time-Explicit 141 143	昨晚
+T18	Person-Pronoun 143 144	我
+T19	Location-Nominal 146 150	观景阳台
+T20	Person-Nominal 154 159	4岁的外孙
+R3	Family Arg1:T20 Arg2:T18	
+T21	Person-Pronoun 161 162	我
+T22	Person-Pronoun 165 166	我
+T23	Person-Nominal 167 169	外孙
+R4	Family Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 170 171;172 174	那 座桥
+T25	Thing-Nominal 183 185	彩虹
+T26	Person-Nominal 179 181	外孙
+T27	Person-Pronoun 186 187	我
+T28	Person-Nominal 189 191	外孙
+T29	Person-Nominal 198 200	外孙
+T30	Thing-Nominal 202 204	月亮
+T31	Thing-Nominal 206 207	弓
+T32	Person-Pronoun 208 209	我
+T33	Thing-Nominal 211 214	锯镰刀
+T34	Person-Nominal 215 217	外孙
+T35	Person-Pronoun 218 219	我
+T36	Thing-Nominal 223 226	锯镰刀
+T37	Person-Nominal 228 230	外孙
+T38	Thing-Nominal 235 238	锯镰刀
+T39	Person-Pronoun 239 240	我
+T40	Thing-Nominal 241 244	锯镰刀
+T41	Person-Nominal 245 249	农民伯伯
+T42	Thing-Nominal 250 252	谷子
+R5	Use Arg1:T41 Arg2:T40	
+T43	Thing-Nominal 260 262	锯齿
+R6	Part-Whole Arg1:T43 Arg2:T40	
+T44	Person-Pronoun 263 264	我
+T45	Time-Implicit 276 281	8月立秋前
+T46	Location-Nominal 288 290	东方
+T47	Thing-Nominal 296 298	月亮
+T48	Thing-Nominal 311 316	凉丝丝的风
+T49	Person-Nominal 322 326	两男两女
+T50	Person-Nominal 317 319	四人
+*	Coreference T49 T50
+T51	Location-Nominal 329 334	金黄的稻田
+T52	Person-Nominal 337 341	一个男人
+R7	Part-Whole Arg1:T52 Arg2:T49	
+T54	Person-Nominal 346 350	一个男人
+R8	Part-Whole Arg1:T54 Arg2:T49	
+T55	Thing-Nominal 352 354	箩筐
+T53	Thing-Nominal 343 345	拌桶
+T56	Person-Nominal 356 360	两个女人
+T57	Thing-Nominal 362 365	锯镰刀
+T58	Thing-Nominal 371 375	一条黄狗
+T59	Thing-Nominal 368 370	挡席
+T60	Thing-Nominal 380 382	尾巴
+R9	Part-Whole Arg1:T60 Arg2:T58	
+T61	Location-Nominal 390 392	田边
+T62	Person-Nominal 393 395	男人
+T63	Thing-Nominal 397 399	拌桶
+T64	Thing-Nominal 400 402	箩筐
+T65	Person-Nominal 403 405	女人
+T66	Thing-Nominal 406 408	挡席
+T67	Thing-Nominal 411 413	拌桶
+T68	Thing-Nominal 421 423	谷粒
+T69	Thing-Nominal 428 430	拌桶
+R10	Use Arg1:T62 Arg2:T63	
+R11	Use Arg1:T62 Arg2:T64	
+R12	Use Arg1:T65 Arg2:T66	
+R13	Use Arg1:T65 Arg2:T67	
+T70	Person-Nominal 436 438	女人
+T71	Thing-Nominal 455 457	稻子
+T72	Person-Nominal 460 462	女人
+T73	Thing-Nominal 460 465	女人的手里
+T74	Person-Nominal 469 471	女人
+T75	Thing-Nominal 442 443	头
+T76	Thing-Nominal 472 476;477 478	稻把子谷 穗
+T77	Thing-Nominal 481 483	谷兜
+T78	Person-Nominal 485 488	打谷人
+T79	Person-Nominal 491 494	打谷人
+T80	Person-Nominal 497 499	男人
+R14	Part-Whole Arg1:T75 Arg2:T70	
+T81	Thing-Nominal 501 503	围腰
+T82	Thing-Nominal 508 511	谷把子
+T83	Thing-Nominal 515 517	拌桶
+T84	Thing-Nominal 522 524	臂膀
+R15	Part-Whole Arg1:T84 Arg2:T80	
+T85	Thing-Nominal 531 533	双手
+R16	Part-Whole Arg1:T85 Arg2:T80	
+T86	Thing-Nominal 539 542	谷把子
+T87	Thing-Nominal 544 546	谷粒
+T88	Thing-Nominal 548 550	拌桶
+T89	Person-Nominal 554 557	庄稼人
+T90	Location-Nominal 599 601	田野
+T91	Person-Nominal 628 630	人类
+T92	Thing-Nominal 681 683	稻谷
+T93	Thing-Nominal 686 693	突突突的收割机
+T94	Location-Nominal 695 697	田野
+R17	Located Arg1:T93 Arg2:T94	
+T95	Thing-Nominal 707 710	那座桥
+T96	Thing-Nominal 714 717	小浮桥
+T97	Thing-Nominal 720 722	栏杆
+T98	Thing-Nominal 723 725	桥面
+T99	Metric 728 731	约3米
+T100	Thing-Nominal 732 733	桥
+T101	Thing-Nominal 743 746	小浮桥
+*	Coreference T96 T95
+T102	Thing-Nominal 764 767	小浮桥
+T103	Thing-Nominal 777 778	水
+T104	Thing-Nominal 787 791	交通要道
+T105	Thing-Nominal 792 804	连接东南北文化经济的枢纽
+*	Coreference T105 T104
+T106	Person-Nominal 807 809	行人
+T107	Person-Pronoun 815 816	我
+T108	Time-Explicit 834 836	中午
+T109	Thing-Nominal 842 843	雨
+T110	Thing-Nominal 847 849	乌云
+T111	Thing-Nominal 852 854	暴雨
+T112	Person-Nominal 857 862	街上的行人
+T113	Thing-Nominal 865 867	双手
+R18	Part-Whole Arg1:T113 Arg2:T112	
+T114	Thing-Nominal 870 871	箭
+T115	Location-Nominal 875 880	两旁的商店
+T116	Person-Pronoun 886 887	我
+T117	Location-Nominal 901 903	商店
+T118	Thing-Nominal 907 909	大雨
+T119	Person-Nominal 917 918	人
+T120	Location-Nominal 919 921	天空
+T121	Location-Nominal 932 934	街上
+T122	Thing-Nominal 937 942	跑水的河流
+T123	Metric 947 951	3个小时
+T124	Thing-Nominal 947 953	3个小时的雨
+T125	Person-Nominal 959 961	人们
+T126	Location-Nominal 967 969	商店
+T127	Thing-Nominal 974 976	天空
+T128	Location-Nominal 981 983	街上
+T129	Location-Nominal 986 988	街道
+T130	Metric 1001 1005	下午4点
+T131	Person-Pronoun 1007 1008	我
+T132	Thing-Nominal 1014 1017	小浮桥
+T133	Location-Nominal 1018 1020	桥面
+T134	Thing-Nominal 1028 1029	水
+T135	Person-Nominal 1030 1032	大人
+T136	Thing-Nominal 1032 1034	小腿
+R19	Part-Whole Arg1:T136 Arg2:T135	
+T137	Person-Nominal 1037 1044	负责安全的人员
+T138	Person-Nominal 1046 1047	人
+T139	Thing-Nominal 1057 1058	水
+T140	Location-Nominal 1065 1067	桥面
+T141	Thing-Nominal 1070 1072	波浪
+R20	Social Arg1:T137 Arg2:T135	
+T142	Person-Nominal 1073 1077	安全人员
+T143	Person-Nominal 1079 1081	行人
+T144	Thing-Nominal 1082 1084	车辆
+R21	Social Arg1:T143 Arg2:T142	
+T145	Person-Nominal 1087 1089	有人
+T146	Person-Nominal 1094 1097	几个人
+T147	Person-Pronoun 1109 1110	我
+T148	Person-Pronoun 1116 1117	我
+T149	Person-Pronoun 1123 1124	我
+T150	Person-Nominal 1144 1147	一个人
+T151	Thing-Nominal 1152 1156	一个浪头
+T152	Person-Nominal 1163 1165	大家
+T153	Location-Nominal 1168 1170	码头
+T154	Location-Nominal 1172 1174	河岸
+T155	Location-Nominal 1176 1178	桥面
+T156	Person-Nominal 1184 1185	人
+T157	Thing-Nominal 1202 1203	水
+T158	Thing-Nominal 1207 1209	浪头
+T159	Thing-Nominal 1215 1218	我的心
+T160	Person-Nominal 1222 1224	那人
+T161	Person-Pronoun 1236 1237	我
+T162	Thing-Nominal 1237 1239	脑子
+T163	Thing-Nominal 1273 1276	彩虹桥
+T164	Abstract 1280 1284	改革开放
+T165	Organization-Name 1285 1286	党
+T166	Organization-Name 1287 1289	政府
+T167	Thing-Nominal 1300 1304	河里的水
+T168	Thing-Nominal 1325 1329	生活垃圾
+T169	Location-Nominal 1318 1320	水面
+T170	Thing-Nominal 1330 1332	废纸
+T171	Thing-Nominal 1333 1336	烂菜叶
+T172	Thing-Nominal 1337 1340	死耗子
+T173	Thing-Nominal 1354 1357	造纸厂
+T174	Location-Nominal 1350 1352	上游
+R22	Located Arg1:T173 Arg2:T174	
+R23	Part-Whole Arg1:T170 Arg2:T168	
+R24	Part-Whole Arg1:T171 Arg2:T168	
+R25	Part-Whole Arg1:T172 Arg2:T168	
+T175	Thing-Nominal 1367 1369	河水
+T176	Abstract 1373 1376;1377 1378	改革开 放
+T177	Organization-Name 1379 1381	政府
+T178	Thing-Nominal 1382 1385	造纸厂
+T179	Location-Name 1391 1393	绵阳
+T180	Thing-Nominal 1395 1399	文明城市
+T181	Thing-Nominal 1400 1404	卫生城市
+T182	Location-Nominal 1414 1416	街道
+T183	Thing-Nominal 1425 1429	两旁花卉
+T184	Thing-Nominal 1440 1444	河里的水
+T185	Thing-Nominal 1450 1452	镜子
+R26	Located Arg1:T178 Arg2:T179	
+T186	Location-Nominal 1459 1465	南河体育中心
+T187	Time-Explicit 1487 1492	2008年
+T188	Abstract 1492 1498	5.12地震
+T189	Location-Name 1507 1509	北川
+T190	Location-Name 1510 1512	安县
+T191	Location-Name 1513 1514;1515 1516	平 武
+T192	Organization-Name 1528 1530	政府
+T193	Person-Name 1537 1543	胡锦涛总书记
+T194	Person-Name 1544 1549	温家宝总理
+T195	Person-Nominal 1550 1557	国家和省市领导
+R27	Part-Whole Arg1:T194 Arg2:T195	
+R28	Part-Whole Arg1:T193 Arg2:T195	
+T196	Location-Nominal 1561 1567	南河体育中心
+T197	Person-Nominal 1572 1574	灾民
+T198	Person-Nominal 1576 1579	灾民们
+T199	Time-Implicit 1588 1591	近些年
+T200	Person-Nominal 1516 1523	极重灾区的灾民
+T201	Location-Name 1592 1595	绵阳市
+T202	Organization-Name 1595 1597	政府
+T203	Location-Nominal 1598 1604	南河体育中心
+T204	Location-Nominal 1611 1618	全民健身活动场
+T205	Person-Nominal 1622 1624	市民
+T206	Thing-Nominal 1630 1632	单杠
+T207	Thing-Nominal 1633 1635	双杠
+T208	Thing-Nominal 1636 1638	链梯
+T209	Thing-Nominal 1639 1641	吊环
+T210	Thing-Nominal 1642 1644	秋千
+T211	Thing-Nominal 1645 1648;1649 1651	下腰训 练器
+T212	Thing-Nominal 1652 1657	伸腰训练器
+T213	Thing-Nominal 1658 1661	摸高器
+T214	Thing-Nominal 1662 1668	仰卧起坐平台
+T215	Thing-Nominal 1669 1672	梅花桩
+T216	Thing-Nominal 1673 1678	臂力训练器
+T217	Thing-Nominal 1679 1684	鞍马训练器
+T218	Person-Pronoun 1690 1691	我
+T219	Person-Nominal 1692 1694	老伴
+R29	Family Arg1:T219 Arg2:T218	
+T220	Location-Nominal 1700 1704	体育中心
+T221	Person-Nominal 1707 1709	外孙
+R30	Family Arg1:T221 Arg2:T219	
+R31	Family Arg1:T221 Arg2:T218	
+R32	Located Arg1:T206 Arg2:T204	
+R33	Located Arg1:T208 Arg2:T204	
+R34	Located Arg1:T209 Arg2:T204	
+R35	Located Arg1:T210 Arg2:T204	
+R36	Located Arg1:T211 Arg2:T204	
+R37	Located Arg1:T212 Arg2:T204	
+R38	Located Arg1:T213 Arg2:T204	
+T222	Location-Nominal 2264 2269	新型电子城
+T223	Location-Name 2269 2271	绵阳
+*	Coreference T223 T222
+T224	Thing-Nominal 2249 2251	楼房
+T225	Thing-Nominal 2252 2254	街道
+T226	Thing-Nominal 2255 2257	繁花
+T227	Thing-Nominal 2228 2232	田园风光
+T228	Thing-Nominal 2235 2239	新鲜氧气
+T229	Person-Pronoun 2186 2187	我
+T230	Organization-Nominal 2188 2192	绵阳卫校
+T231	Thing-Nominal 2203 2208	一根小板凳
+T232	Location-Nominal 2211 2214	菜地埂
+T233	Thing-Nominal 2161 2163	蜜蜂
+T234	Thing-Nominal 2164 2166	蝴蝶
+T235	Person-Nominal 1964 1967	年轻人
+T236	Person-Nominal 1991 1995	郊区农民
+T237	Person-Nominal 1729 1731	外孙
+T238	Thing-Nominal 1781 1783	猴子
+T239	Person-Nominal 1797 1799	观众
+T240	Person-Pronoun 1801 1802	他
+T241	Thing-Nominal 1744 1746	双脚
+R39	Part-Whole Arg1:T241 Arg2:T237	
+T242	Thing-Nominal 1726 1728	秋千
+T243	Thing-Nominal 1717 1720	太空球
+T244	Thing-Nominal 1755 1756	头
+R40	Part-Whole Arg1:T244 Arg2:T237	
+T245	Person-Pronoun 1766 1767	他
+T246	Person-Pronoun 1811 1812	你
+T247	Person-Pronoun 1818 1819	他
+T248	Thing-Nominal 1826 1829	太空球
+T249	Person-Pronoun 1850 1851	我
+T250	Thing-Nominal 1858 1859	梯
+T251	Thing-Nominal 1866 1868	云梯
+T252	Thing-Nominal 1870 1871	手
+T253	Person-Nominal 1903 1905	老伴
+T254	Thing-Nominal 1908 1913	转体训练器
+R41	Use Arg1:T253 Arg2:T254	
+T255	Thing-Nominal 1919 1921	两手
+R42	Part-Whole Arg1:T255 Arg2:T253	
+T256	Thing-Nominal 1944 1946	钟摆
+T257	Time-Implicit 1973 1981	20世纪70年代
+T258	Location-Nominal 1987 1989	菜地
+T259	Thing-Nominal 2004 2006	油菜
+T260	Thing-Nominal 2007 2009	菠菜
+T261	Thing-Nominal 2010 2012	韭菜
+T262	Thing-Nominal 2013 2016	卷心菜
+T263	Thing-Nominal 2017 2018	葱
+T264	Thing-Nominal 2025 2027	冬瓜
+T265	Thing-Nominal 2028 2030	丝瓜
+T266	Thing-Nominal 2031 2033	黄瓜
+T267	Thing-Nominal 2034 2036	番茄
+T268	Thing-Nominal 2037 2039	豇豆
+T269	Thing-Nominal 2045 2048	白菜苔
+T270	Thing-Nominal 2049 2052	红菜苔
+T271	Thing-Nominal 2053 2055	扁豆
+T272	Thing-Nominal 2056 2058	菠菜
+T273	Thing-Nominal 2064 2067	胡萝卜
+T274	Thing-Nominal 2068 2070	花菜
+T275	Thing-Nominal 2071 2074	大白菜
+T276	Thing-Nominal 2075 2078	小白菜
+T277	Thing-Nominal 2079 2081	青菜
+T278	Thing-Nominal 2082 2084	菠菜
+T279	Thing-Nominal 2101 2104	菜花儿
+T280	Person-Nominal 2112 2122	城里的小靓妹小帅哥们
+T281	Location-Nominal 2135 2141	油菜花儿田埂
+T282	Time-Explicit 2059 2061	冬天
+T283	Time-Explicit 2098 2100	春天
+T284	Time-Explicit 2040 2042	秋天
+T285	Time-Explicit 1999 2001	春天
+T286	Time-Explicit 2019 2021	夏天

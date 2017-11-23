@@ -1,0 +1,172 @@
+T1	Location-Nominal 1 3	院里
+T2	Thing-Nominal 3 5	枯木
+T3	Thing-Nominal 7 8	花
+T4	Thing-Nominal 20 24	满头白发
+T5	Thing-Nominal 29 32	小脚丫
+T6	Thing-Nominal 33 40	肉嘟嘟的小嘴巴
+T7	Person-Pronoun 47 48	他
+T8	Person-Nominal 54 56	爸妈
+T9	Person-Nominal 78 79	儿
+T10	Person-Nominal 80 81	女
+T11	Person-Nominal 90 92	孩子
+R1	Family Arg1:T9 Arg2:T8	
+R2	Family Arg1:T10 Arg2:T8	
+R3	Family Arg1:T11 Arg2:T8	
+T12	Time-Implicit 111 115	今年春节
+T13	Person-Nominal 140 142	观众
+T14	Person-Nominal 150 151	人
+T15	Person-Nominal 155 156	人
+T16	Person-Nominal 160 162	父母
+T17	Person-Nominal 169 170	人
+T18	Person-Nominal 219 221	妈妈
+T19	Person-Nominal 224 226	孩子
+T20	Thing-Nominal 222 223	饭
+T21	Thing-Nominal 227 228	碗
+T22	Person-Nominal 229 231	爸爸
+T23	Person-Nominal 234 236	妈妈
+T24	Thing-Nominal 232 233	锅
+T25	Thing-Nominal 238 242	语文作业
+T26	Person-Nominal 243 245	爸爸
+T27	Thing-Nominal 247 251	数学作业
+T28	Location-Nominal 276 278	草丛
+T29	Metric 281 283	一款
+T30	Thing-Nominal 283 292	九成新的智能型手机
+T31	Person-Nominal 308 310	失主
+T32	Person-Nominal 312 314	孩子
+T33	Thing-Nominal 322 323	金
+T34	Person-Nominal 331 332;333 334	孩 子
+T35	Person-Pronoun 336 338	自己
+*	Coreference T35 T34
+T36	Thing-Nominal 339 341	东西
+T37	Person-Nominal 347 349	别人
+T38	Thing-Nominal 360 362	饺子
+T39	Thing-Nominal 364 367	电炉丝
+T40	Thing-Nominal 375 383	半生不熟的片儿汤
+T41	Thing-Nominal 387 392	邻居家的门
+T42	Thing-Nominal 395 396	锅
+T43	Thing-Nominal 402 403	菜
+T44	Thing-Nominal 408 409	门
+T45	Thing-Nominal 410 412	邻居
+T46	Location-Nominal 413 415	阳台
+T47	Thing-Nominal 423 424	葱
+T48	Thing-Nominal 434 436	排骨
+T49	Metric 428 430	一根
+T50	Thing-Nominal 437 438	葱
+T51	Time-Implicit 448 450	中午
+T52	Thing-Nominal 450 452	饭桌
+T53	Metric 458 460	一道
+T54	Thing-Nominal 460 464	红烧排骨
+T55	Person-Nominal 466 468	同事
+T56	Thing-Nominal 480 482	病床
+T57	Person-Nominal 485 489	班中姐妹
+T58	Person-Pronoun 493 494	她
+*	Coreference T58 T55 T59
+T59	Person-Pronoun 496 497	她
+T60	Thing-Nominal 503 505	补品
+T61	Metric 501 503	一些
+T62	Metric 509 511	一束
+T63	Thing-Nominal 511 513	鲜花
+T64	Person-Pronoun 526 527	她
+T65	Location-Nominal 532 534	病房
+T66	Person-Nominal 554 557	亲姐妹
+T67	Person-Nominal 558 560	同事
+T68	Location-Nominal 575 576;577 579	婆 婆家
+T69	Person-Nominal 583 585	婆婆
+T70	Thing-Nominal 589 591	午餐
+T71	Thing-Nominal 598 599	碗
+T72	Person-Pronoun 605 606	你
+T73	Person-Pronoun 619 620	我
+T74	Person-Nominal 600 602	婆婆
+*	Coreference T73 T74 T76 T77
+T75	Thing-Nominal 620 622	身体
+R4	Part-Whole Arg1:T75 Arg2:T73	
+T76	Person-Pronoun 630 631	我
+T77	Person-Nominal 653 654	妈
+T78	Person-Pronoun 655 656	我
+*	Coreference T78 T72
+T79	Time-Implicit 660 662	饭后
+T80	Thing-Nominal 663 668	正午的阳光
+T81	Thing-Nominal 674 676	椅子
+T82	Metric 673 674	张
+T83	Thing-Nominal 679 682	剃须刀
+T84	Person-Nominal 683 685	老人
+T85	Thing-Nominal 687 693	脖根里的短发
+T86	Thing-Nominal 696 698	剪子
+T87	Thing-Nominal 701 709	耳边和头顶的长发
+T88	Thing-Nominal 713 718	银质挖耳勺
+T89	Person-Nominal 719 721	老人
+T90	Thing-Nominal 723 725	耳朵
+R5	Part-Whole Arg1:T90 Arg2:T89	
+T91	Person-Nominal 727 729	老人
+T92	Thing-Nominal 761 763	青菜
+T93	Metric 760 761	把
+T94	Person-Pronoun 781 783	我们
+T95	Time-Implicit 784 791	趔趄无知的童年
+T96	Person-Nominal 792 803	天真好奇而又鲁莽的少年
+T97	Person-Nominal 804 815	朝气蓬勃意气风发的青年
+T98	Person-Nominal 838 843	我们的孩子
+T99	Thing-Nominal 865 870	我们的眼角
+T100	Thing-Nominal 873 876	鱼尾纹
+R6	Located Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 882 886	我们的头
+T102	Thing-Nominal 893 895	白发
+R7	Located Arg1:T102 Arg2:T101	
+T103	Metric 891 893	根根
+T104	Person-Nominal 902 913	世界上最疼爱我们的父母
+R8	Family Arg1:T94 Arg2:T104	
+T105	Person-Pronoun 915 917	我们
+*	Coreference T105 T94 T109 T111 T112 T113 T115 T116
+T106	Thing-Nominal 927 929	电话
+T107	Person-Pronoun 933 935	他们
+*	Coreference T107 T104 T108 T110 T114 T117
+T108	Person-Nominal 955 957	父母
+T109	Person-Pronoun 974 976	你们
+T110	Person-Nominal 988 990	父母
+T111	Person-Pronoun 993 995	我们
+T112	Person-Nominal 1013 1024	忙于工作和小家庭的儿女
+T113	Person-Nominal 1030 1032	儿女
+T114	Person-Pronoun 1033 1035	他们
+T115	Person-Pronoun 1038 1040	儿女
+T116	Person-Nominal 1043 1045	儿女
+T117	Person-Pronoun 1046 1048	他们
+T118	Person-Nominal 1064 1066	父母
+T119	Thing-Nominal 1064 1069	父母的黑发
+T120	Thing-Nominal 1075 1077	身体
+R9	Part-Whole Arg1:T120 Arg2:T118	
+T121	Person-Nominal 1116 1117	人
+T122	Person-Nominal 1119 1126	年少轻狂的我们
+T123	Person-Nominal 1127 1129	父母
+R10	Family Arg1:T122 Arg2:T123	
+T124	Person-Nominal 1142 1144	父母
+T125	Person-Nominal 1148 1150	父母
+*	Coreference T124 T123 T125
+T126	Person-Nominal 1163 1165	坏人
+T127	Person-Nominal 1184 1186	父母
+T128	Person-Nominal 1194 1196	古人
+T129	Thing-Nominal 1201 1202	树
+T130	Thing-Nominal 1205 1206	风
+T131	Person-Name 1218 1220	许慎
+T132	Person-Nominal 1268 1270	老人
+T133	Person-Nominal 1271 1273	子女
+R11	Family Arg1:T133 Arg2:T132	
+T134	Person-Nominal 1279 1281	老人
+T135	Person-Pronoun 1292 1294	我们
+T136	Time-Implicit 1316 1318	中年
+T137	Person-Nominal 1328 1329	老
+T138	Person-Nominal 1339 1341	父母
+T139	Person-Nominal 1434 1436	父母
+T140	Location-Nominal 1437 1439	楼下
+T141	Thing-Nominal 1441 1443	太阳
+T142	Thing-Nominal 1446 1450	家常便饭
+T143	Person-Nominal 1462 1464	父母
+T144	Person-Nominal 1503 1505	儿女
+T145	Person-Nominal 1507 1509	父母
+T146	Thing-Nominal 1522 1524	羊羔
+T147	Thing-Nominal 1527 1528;1529 1530	乌 鸦
+T148	Person-Nominal 1542 1543	人
+T149	Person-Nominal 1536 1540	万物之长
+*	Coreference T149 T148
+T150	Thing-Nominal 1561 1562	鸦
+T151	Thing-Nominal 1563 1564	雀
+T152	Person-Nominal 1566 1567	人
+T153	Person-Pronoun 1599 1601	我们

@@ -1,0 +1,446 @@
+T1	Thing-Nominal 9 10	路
+T2	Location-Nominal 11 15	一个地方
+T3	Thing-Nominal 18 20	公路
+T4	Thing-Pronoun 28 29	它
+T5	Location-Nominal 45 52	杭州湾跨海大桥
+T6	Location-Name 57 59	慈溪
+T7	Location-Name 64 66	上海
+T8	Location-Name 67 69	宁波
+T9	Location-Name 95 98	长三角
+T10	Location-Name 108 110	慈溪
+R1	Part-Whole Arg1:T10 Arg2:T9	
+T11	Time-Implicit 121 128	一个夏日的傍晚
+T12	Location-Name 131 134	周巷镇
+T13	Location-Name 137 139	沙黄
+R2	Part-Whole Arg1:T13 Arg2:T12	
+T14	Time-Implicit 141 147	一段时间以来
+T15	Thing-Nominal 156 158	烟尘
+T16	Location-Name 182 184	沙黄
+T18	Thing-Nominal 216 225	一层白色的地毯布,
+T19	Thing-Nominal 221 224	地毯布
+T20	Location-Nominal 211 213	路面
+T21	Person-Nominal 229 233	铺路大军
+T22	Location-Name 250 252	余慈
+T23	Person-Pronoun 266 267	我
+T25	Time-Implicit 289 296	,两年多的时光
+T26	Location-Name 300 303	沙黄村
+T27	Location-Nominal 306 311	城乡结合处
+T28	Location-Nominal 322 325	综合楼
+T29	Thing-Nominal 351 353	别墅
+R4	Near Arg1:T29 Arg2:T28	
+T30	Location-Nominal 358 361	城中村
+T31	Person-Nominal 387 389	自己
+T32	Person-Pronoun 394 395	我
+T33	Location-Name 411 414	沙黄村
+T34	Location-Name 432 435	沙黄江
+T35	Metric 445 448	二米宽
+T36	Thing-Nominal 449 452	水泥路
+T37	Thing-Nominal 453 458	河岸上的花
+T38	Thing-Nominal 459 460	草
+T39	Thing-Nominal 461 462	树
+T40	Thing-Nominal 463 464	桥
+R5	Near Arg1:T36 Arg2:T34	
+R6	Near Arg1:T37 Arg2:T34	
+R7	Near Arg1:T38 Arg2:T34	
+R8	Near Arg1:T39 Arg2:T34	
+T41	Person-Nominal 474 480	一百多户村民
+T42	Time-Implicit 487 493	半年多的日月
+T43	Person-Pronoun 498 499	我
+T44	Time-Implicit 502 505	十多年
+T45	Person-Pronoun 530 531	我
+T46	Thing-Nominal 535 537	房子
+T47	Location-Nominal 541 544	沙黄江
+T48	Thing-Nominal 549 551	平房
+R9	Near Arg1:T48 Arg2:T47	
+*	Coreference T48 T46
+T49	Person-Nominal 562 567	村里的领导
+T50	Person-Nominal 568 571	房东们
+R10	Social Arg1:T50 Arg2:T49	
+T51	Person-Pronoun 581 582	我
+T52	Person-Nominal 583 585	爱人
+R11	Family Arg1:T51 Arg2:T52	
+T53	Location-Nominal 594 596	故乡
+T54	Location-Nominal 596 598	老屋
+T55	Person-Pronoun 605 606	我
+T56	Person-Nominal 607 609	家人
+R12	Family Arg1:T55 Arg2:T56	
+T57	Location-Nominal 612 617	那间老平房
+T58	Location-Name 626 629	沙黄江
+T59	Thing-Nominal 32 42	打开致富路上的金钥匙
+*	Coreference T59 T4 T3
+T60	Location-Name 101 104	大上海
+T61	Location-Nominal 156 165	烟尘四起的南北路面
+T62	Location-Nominal 182 186	沙黄村庄
+T63	Location-Nominal 187 190	这条路
+T17	Location-Nominal 204 213	新铺的混凝土的路面
+T64	Thing-Nominal 207 210	混凝土
+R3	Located Arg1:T18 Arg2:T17	
+T65	Thing-Nominal 269 270	车
+T24	Thing-Nominal 280 285	白色地毯布
+*	Coreference T27 T26 T30 T68
+T66	Location-Nominal 332 336	一片空地
+T67	Thing-Nominal 343 353	一排排拔地而起的别墅
+T68	Location-Nominal 372 385	个人人向往式的人居型的新村
+T69	Location-Nominal 594 598	故乡老屋
+T71	Thing-Nominal 636 637	江
+T72	Location-Name 640 642	慈溪
+T73	Location-Nominal 647 650	城中村
+T74	Metric 652 658	长近八百多米
+T75	Metric 660 665	约十米多宽
+T76	Thing-Nominal 650 674	一条长近八百多米环村约十米多宽的而又不起眼的小河
+T77	Thing-Pronoun 675 676	它
+*	Coreference T77 T76 T70 T81 T83
+T78	Location-Name 679 681	周巷
+T79	Location-Name 688 691	东黄江
+T80	Location-Nominal 694 697	傅家河
+T81	Thing-Pronoun 714 715	它
+T82	Location-Name 716 719	沙黄村
+T83	Thing-Pronoun 724 725	它
+T84	Person-Nominal 733 736	村民们
+T85	Thing-Pronoun 741 742	它
+T86	Time-Implicit 754 758	十多年前
+T87	Location-Name 768 771	沙黄村
+T88	Person-Pronoun 772 773	我
+T89	Thing-Nominal 781 786	沙黄江的水
+T90	Thing-Nominal 792 797	软软的水草
+T91	Location-Nominal 798 800	小河
+R13	Located Arg1:T90 Arg2:T91	
+T92	Thing-Nominal 819 824	河上的岸柳
+T93	Thing-Nominal 825 827	花草
+T94	Thing-Nominal 838 841	这条河
+T95	Location-Nominal 845 856	这个城乡结合处的新农村
+T96	Thing-Nominal 859 862	这条河
+T97	Person-Nominal 864 867	沙黄人
+T98	Thing-Nominal 872 874;875 876	母亲 河
+T99	Person-Nominal 886 890	世代村民
+T100	Thing-Pronoun 891 892	它
+T101	Thing-Pronoun 895 896	它
+T102	Location-Name 921 924	沙黄江
+T103	Time-Implicit 932 939	春暧花开的时节
+T104	Time-Implicit 942 944	早上
+T105	Time-Implicit 948 950	下午
+T106	Thing-Nominal 956 960	一把竹椅
+T108	Physical 1031 1033	读者
+T107	Physical 962 980;981 1014	一本&lt;&lt;梨风&gt;&g t;、&lt;&lt;浙东&gt;&gt;、&lt;&lt;文学港
+T109	Thing-Nominal 1045 1049	文学刊物
+T112	Person-Nominal 1052 1054	房东
+T110	Thing-Nominal 1055 1065	那棵十多年的桔子树枝
+R14	Ownership Arg1:T112 Arg2:T110	
+T111	Thing-Nominal 1068 1078	那通往水面的石板平台
+T113	Thing-Nominal 1080 1082	桔花
+T114	Thing-Nominal 1083 1089	岸上其它的花
+T115	Location-Name 1095 1098	沙黄江
+T116	Thing-Nominal 1115 1122	那些益智的文字
+T117	Person-Nominal 1147 1150	房东家
+T118	Thing-Nominal 1150 1154	那条扑鱼
+T119	Person-Pronoun 1159 1160	我
+T120	Thing-Nominal 1159 1164	我住的房子
+T122	Thing-Nominal 1178 1183	那一只小船
+T121	Location-Nominal 1170 1177	一层层水泥台阶
+R15	Near Arg1:T122 Arg2:T121	
+T123	Person-Nominal 1192 1196	房东师傅
+T124	Thing-Nominal 1201 1202	脚
+T125	Thing-Nominal 1204 1205	船
+R16	Located Arg1:T124 Arg2:T125	
+T126	Physical 1235 1239	”落汤鸡
+T127	Person-Nominal 1259 1261	自己
+T128	Person-Nominal 1294 1296	自己
+T129	Thing-Nominal 1296 1297	手
+R17	Part-Whole Arg1:T129 Arg2:T128	
+T130	Thing-Nominal 1300 1302	双桨
+T131	Metric 1306 1310	十来米宽
+T132	Thing-Nominal 1316 1318	浪花
+T133	Thing-Nominal 1330 1334	河上小桥
+T134	Thing-Nominal 1335 1345	沿河而建的石砌的坡岸
+T135	Location-Name 1355 1358	沙黄江
+T136	Location-Name 1360 1363	东黄江
+T137	Location-Nominal 1369 1379;1380 1382	村北那条横贯东西的万 安江
+T138	Thing-Nominal 1448 1456	扑面而来的香樟树
+T139	Thing-Nominal 1457 1460	夜来香
+T140	Thing-Nominal 1461 1464	夹竹桃
+T141	Thing-Nominal 1466 1473	多种树木\花草
+T142	Thing-Nominal 1477 1479	小船
+T143	Thing-Nominal 1466 1476	多种树木\花草的倒影
+T144	Thing-Nominal 1482 1488	欢笑般的浪花
+T145	Thing-Nominal 1494 1496	小船
+T146	Thing-Nominal 1500 1501;1502 1503	双 桨
+T147	Thing-Nominal 1505 1510	岸柳的倒影
+T148	Person-Nominal 1513 1515	渔人
+T149	Thing-Nominal 1524 1528	夕阳余辉
+T150	Thing-Nominal 1531 1533	波光
+T151	Location-Nominal 1544 1546	河面
+T152	Person-Nominal 1555 1557	自己
+T153	Time-Implicit 1562 1565	在那时
+T154	Thing-Nominal 1570 1576	房东的小木船
+T155	Person-Nominal 1570 1572	房东
+T156	Thing-Nominal 1578 1580	石阶
+T157	Person-Nominal 1582 1584	自己
+T158	Thing-Nominal 1601 1603	小船
+T159	Person-Nominal 1606 1608	自己
+T160	Thing-Nominal 1624 1626	双浆
+T161	Thing-Nominal 1629 1631	水花
+T162	Location-Nominal 1633 1636	河面上
+T163	Thing-Nominal 1656 1658	夕阳
+T164	Location-Nominal 1660 1664	沙黄江面
+T165	Thing-Nominal 1669 1676	水乡的江南小桥
+T166	Thing-Nominal 1677 1679	流水
+T167	Person-Nominal 1680 1682	人家
+T168	Thing-Nominal 1682 1683;1684 1688	如 画的美景
+T169	Thing-Nominal 1695 1702	一船落日的余辉
+T170	Time-Implicit 1714 1719	开春的时候
+T171	Thing-Nominal 1723 1731	很很多红红的龙虾
+T172	Location-Nominal 1735 1738	河岸边
+T173	Thing-Nominal 1759 1761	水草
+T174	Thing-Nominal 1762 1764	石头
+T175	Location-Nominal 1762 1768	石头的缝隙间
+T176	Time-Implicit 1769 1773	不一会儿
+T177	Thing-Pronoun 1775 1777	它们
+T178	Thing-Nominal 1781 1782	头
+R18	Part-Whole Arg1:T178 Arg2:T177	
+T179	Person-Pronoun 1802 1803	你
+T180	Thing-Nominal 1807 1809	龙虾
+T181	Thing-Nominal 1818 1822	一根绳子
+T182	Thing-Nominal 1823 1825	龙虾
+T183	Thing-Nominal 1829 1831	绳子
+T184	Thing-Nominal 1851 1853	龙虾
+T185	Thing-Nominal 1869 1874	聪明的龙虾
+T186	Thing-Nominal 1890 1896;1897 1899	一圈圈小小的 涟漪
+T187	Thing-Nominal 1903 1905	龙虾
+T188	Thing-Nominal 1922 1924	水草
+T189	Person-Pronoun 1926 1927	你
+T190	Person-Pronoun 1935 1936	我
+T191	Location-Nominal 1940 1942	街上
+T193	Thing-Nominal 1949 1951	水果
+T192	Thing-Nominal 1946 1957;1958 1959	用来装水果的红色网格袋 子
+T194	Person-Nominal 1961 1963	房东
+T195	Person-Nominal 1961 1963	房东
+T196	Thing-Nominal 1968 1975	长短适中的铁丝
+T197	Thing-Nominal 1977 1979	网圈
+T198	Thing-Nominal 1984 1988	一根竹杆
+T199	Thing-Nominal 1990 1992	网杆
+T200	Thing-Nominal 1995 1999	一个小网
+T201	Time-Implicit 2005 2014	每天早上起来的时候
+T202	Person-Nominal 2020 2023	子女们
+T203	Location-Nominal 2027 2029	河边
+T204	Thing-Nominal 2034 2039	红红的龙虾
+T205	Location-Nominal 2041 2043	河边
+R19	Located Arg1:T204 Arg2:T205	
+T206	Person-Pronoun 2046 2047	你
+T207	Person-Pronoun 2061 2062	你
+T208	Person-Nominal 2076 2079	子女们
+T209	Person-Pronoun 2082 2083	我
+R20	Family Arg1:T208 Arg2:T209	
+T210	Thing-Nominal 2094 2098	一网龙虾
+T211	Person-Pronoun 2110 2112	我们
+T212	Thing-Nominal 2122 2124	龙虾
+T213	Person-Nominal 2138 2140;2141 2143	房东 阿姨
+T214	Thing-Nominal 2157 2164	一盆红红的龙虾
+T215	Person-Pronoun 2169 2171	我们
+T216	Thing-Nominal 2177 2187	供全家共享的“佳品”
+*	Coreference T216 T214
+T217	Person-Pronoun 2202 2203	我
+T218	Location-Nominal 2204 2208	第二故乡
+T219	Location-Name 2218 2221	沙黄江
+T220	Thing-Nominal 2223 2236	一株有几十年的野生的杵桃树
+T221	Thing-Nominal 2259 2261	树杆
+R21	Part-Whole Arg1:T221 Arg2:T220	
+T222	Thing-Pronoun 2270 2271	它
+*	Coreference T222 T221
+T223	Person-Nominal 2275 2277	人们
+T224	Location-Nominal 2281 2287	钓鱼理想场所
+T225	Thing-Nominal 2288 2293	这株杵桃树
+T226	Person-Nominal 2300 2302	孩子
+T227	Person-Pronoun 2305 2306	我
+T228	Person-Nominal 2316 2318	钓友
+R22	Social Arg1:T228 Arg2:T227	
+T229	Thing-Nominal 2336 2338	鱼儿
+T230	Thing-Nominal 2343 2346	这株树
+T231	Person-Nominal 2351 2354	钓友们
+T232	Time-Implicit 2363 2368	五、六月间
+T233	Thing-Pronoun 2369 2370	它
+T234	Thing-Nominal 2369 2373	它的枝条
+T235	Thing-Nominal 2379 2391	许多红红而又毛茸茸的红果
+R23	Located Arg1:T235 Arg2:T234	
+T236	Thing-Pronoun 2393 2394	它
+T237	Thing-Nominal 2401 2402	风
+T238	Location-Nominal 2408 2410	河水
+T239	Person-Pronoun 2415 2416	我
+T240	Time-Implicit 2416 2420	童年时代
+T241	Thing-Nominal 2422 2426	这种果实
+*	Coreference T241 T235
+T242	Thing-Pronoun 2451 2452	它
+T243	Person-Nominal 2450 2454	吃它的人
+T244	Person-Nominal 2466 2470	一些孩子
+T245	Person-Nominal 2476 2480	一些孩子
+T246	Thing-Nominal 2487 2495	河面上的杵桃枝杆
+T247	Thing-Nominal 2508 2519	挂在绵绵的枝条上的果实
+T248	Thing-Nominal 2520 2525	弯弯的树枝
+T249	Thing-Nominal 2536 2537	手
+T250	Thing-Nominal 2550 2556	紫红色的果子
+T251	Thing-Nominal 2558 2559	嘴
+R24	Located Arg1:T247 Arg2:T248	
+T252	Time-Implicit 2594 2596	秋季
+T253	Location-Nominal 2597 2600	河面上
+T254	Person-Nominal 2612 2616	大人小孩
+T255	Time-Implicit 2619 2623	这个时节
+T256	Location-Nominal 2631 2633	河边
+T257	Person-Nominal 2636 2638	人们
+T258	Location-Nominal 2643 2645	江面
+T259	Thing-Nominal 2648 2652;2653 2656	一团红红 的凌角
+T260	Thing-Nominal 2606 2608	凌角
+T261	Thing-Nominal 2662 2675	厚厚的而又很重的团团的叶子
+T262	Thing-Nominal 2701 2702	嘴
+T263	Thing-Nominal 2705 2706	手
+T264	Thing-Nominal 2690 2691	皮
+T265	Person-Pronoun 2707 2708	我
+T266	Thing-Nominal 2726 2728	刀子
+T267	Thing-Nominal 2716 2718	凌角
+T268	Thing-Nominal 2729 2731	凌角
+T269	Person-Pronoun 2742 2743	我
+T270	Person-Pronoun 2761 2762	我
+T271	Thing-Nominal 2767 2771	沙黄江水
+T272	Thing-Pronoun 2778 2779	它
+*	Coreference T272 T271 T387
+T273	Person-Pronoun 2790 2791	我
+T274	Location-Nominal 2793 2796	这个村
+T275	Time-Implicit 2797 2800	十多年
+T276	Thing-Nominal 2807 2809	岸柳
+T277	Person-Pronoun 2817 2818	我
+T278	Person-Pronoun 2823 2824	我
+T279	Person-Nominal 2849 2852	沙黄人
+T280	Person-Nominal 2854 2857	慈溪人
+T281	Thing-Nominal 2858 2860	大海
+T282	Location-Name 2875 2877	慈溪
+T283	Person-Pronoun 2888 2889	我
+T284	Person-Nominal 2892 2899	沙黄村的老人们
+T285	Location-Name 2902 2905	沙黄村
+T286	Person-Nominal 2911 2915	黄氏家簇
+T287	Person-Pronoun 2921 2922	我
+T288	Person-Nominal 2940 2943	新村民
+T289	Location-Name 2949 2952	沙黄江
+T290	Thing-Nominal 2954 2961	唯一的一座小桥
+T291	Thing-Nominal 2963 2965	石桥
+T292	Thing-Nominal 2974 2977	水泥桥
+T293	Thing-Pronoun 2978 2979	它
+T294	Person-Nominal 2981 2986	黄姓两兄弟
+T295	Person-Nominal 2987 2990	后代们
+*	Coreference T293 T292 T298 T299
+T296	Location-Name 3000 3002	东黄
+T297	Location-Name 3003 3005	西黄
+T298	Thing-Nominal 3005 3009	必经之路
+T299	Thing-Nominal 3015 3018	这座桥
+T300	Location-Nominal 3020 3026	乡间的娱乐场
+T301	Location-Nominal 3029 3035	消息的传播地
+T302	Time-Explicit 3052 3056	每天晚上
+T303	Person-Nominal 3059 3066	很多的男女老幼
+T304	Thing-Nominal 3068 3070;3071 3077	小桥 的两侧的桥栏
+T305	Person-Pronoun 3079 3081	他们
+T306	Thing-Nominal 3091 3093	河水
+T307	Person-Nominal 3103 3113	那些爱好越剧的戏迷们
+T308	Person-Nominal 3133 3140	纳凉的新老村民
+*	Coreference T305 T303
+T309	Person-Nominal 3145 3149	两三个人
+T310	Person-Pronoun 3151 3152	你
+T311	Person-Pronoun 3155 3156	我
+T312	Person-Pronoun 3157 3158	我
+T313	Person-Nominal 3174 3176	人们
+T314	Person-Nominal 3203 3209	在场的男女们
+T316	Person-Nominal 3240 3244	有的孩子
+T317	Person-Nominal 3247 3250	大人们
+T318	Thing-Nominal 3250 3253	这条江
+T319	Person-Nominal 3260 3263	老者们
+T320	Location-Name 3275 3278	沙黄江
+T321	Location-Pronoun 3283 3284	它
+*	Coreference T321 T320
+T322	Person-Nominal 3286 3289	先民们
+T323	Thing-Nominal 3289 3297	相依为命的母亲河
+T324	Thing-Nominal 3303 3306	一条河
+*	Coreference T324 T323
+T325	Person-Nominal 3308 3314	世代的村民们
+T326	Thing-Pronoun 3318 3319	它
+T327	Person-Nominal 3326 3329	村民们
+T328	Thing-Nominal 3343 3344	船
+T329	Time-Implicit 3362 3365	那一刻
+T330	Person-Pronoun 3366 3367	我
+T331	Time-Implicit 3373 3377	很多年前
+T332	Person-Nominal 3378 3381	先民们
+T333	Person-Nominal 3393 3395	老人
+T334	Person-Nominal 3401 3404	先辈们
+T335	Thing-Nominal 3406 3407	船
+T336	Person-Nominal 3423 3426	先民们
+T337	Person-Nominal 3432 3434	队长
+T338	Person-Nominal 3439 3442	社员们
+T339	Thing-Nominal 3446 3450	上工的船
+T341	Thing-Nominal 3466 3467	船
+T342	Thing-Nominal 3494 3507	每家每户的农家肥之类的东西
+T343	Thing-Nominal 3510 3515	来往的船支
+T344	Thing-Nominal 3517 3522	摇动的双桨
+T345	Location-Nominal 3526 3528	河岸
+T346	Location-Nominal 3675 3684	沙黄江村中间的大道
+T347	Person-Pronoun 3688 3689	我
+T348	Thing-Nominal 3696 3698	芦苇
+T349	Thing-Nominal 3701 3706	尖尖的内芽
+R25	Part-Whole Arg1:T349 Arg2:T348	
+T350	Time-Explicit 3708 3710	下午
+T352	Thing-Nominal 3728 3732	野芦苇笋
+T353	Thing-Nominal 3736 3738	外皮
+T354	Thing-Nominal 3739 3745	内黄色的笋肉
+T355	Thing-Nominal 3748 3752	一些肉丝
+T356	Thing-Nominal 3761 3763	芦苇
+T357	Thing-Nominal 3763 3766	长叶子
+T358	Thing-Nominal 3761 3766	芦苇长叶子
+T359	Thing-Nominal 3783 3787	内的叶子
+T360	Thing-Pronoun 3788 3789	它
+T361	Thing-Nominal 3791 3793	芦笛
+T362	Location-Nominal 3820 3825	美丽的水乡
+T363	Thing-Nominal 3832 3850	一条流淌了六百多年的不起眼的村内河流
+T364	Person-Nominal 3852 3854	人们
+T365	Thing-Nominal 3865 3876	一条穿过村庄的高速公路
+T366	Thing-Nominal 3877 3880	这条路
+T367	Thing-Nominal 3885 3888	沙黄江
+T368	Person-Pronoun 3894 3895	它
+T369	Location-Name 3908 3910	慈溪
+T370	Thing-Nominal 3531 3533	水花
+T371	Location-Nominal 3540 3544	田间地头
+T372	Thing-Nominal 3546 3553	四名山里的竹笋
+T373	Thing-Nominal 3554 3556	野味
+R26	General-Special Arg1:T373 Arg2:T372	
+T374	Thing-Nominal 3560 3563	水泥船
+T375	Location-Name 3571 3573	慈溪
+T376	Thing-Nominal 3577 3579	食盐
+T377	Thing-Nominal 3580 3582	大米
+T378	Thing-Nominal 3583 3585	棉花
+T379	Thing-Nominal 3586 3588	榨菜
+T380	Thing-Nominal 3589 3592	土特产
+R27	General-Special Arg1:T380 Arg2:T379	
+R28	General-Special Arg1:T380 Arg2:T378	
+T381	Person-Nominal 3642 3644	人们
+T382	Location-Nominal 3608 3610	山里
+T383	Location-Nominal 3619 3622	沙黄江
+T384	Person-Nominal 3626 3629	老人们
+T385	Thing-Nominal 3599 3601	河流
+R29	General-Special Arg1:T1 Arg2:T3	
+R30	Near Arg1:T60 Arg2:T10	
+R31	Near Arg1:T66 Arg2:T28	
+T70	Thing-Name 631 634	沙黄江
+*	Coreference T95 T87
+*	Coreference T96 T98 T100
+R32	General-Special Arg1:T141 Arg2:T138	
+R33	General-Special Arg1:T143 Arg2:T139	
+R34	General-Special Arg1:T143 Arg2:T140	
+*	Coreference T177 T171
+T386	Thing-Pronoun 1928 1929	它
+*	Coreference T386 T187
+*	Coreference T199 T198
+R35	Located Arg1:T260 Arg2:T253	
+T387	Thing-Pronoun 2802 2803	它
+R36	Part-Whole Arg1:T279 Arg2:T280	
+*	Coreference T365 T366
+T351	Location-Nominal 3719 3723	沙黄江畔
+R37	Located Arg1:T352 Arg2:T351	
+R38	Part-Whole Arg1:T354 Arg2:T352	
+R39	Part-Whole Arg1:T357 Arg2:T356	
+R40	Social Arg1:T338 Arg2:T337	
+R41	Use Arg1:T334 Arg2:T335	
+*	Coreference T328 T326
+T315	Person-Nominal 3231 3238	这些乘凉的乡邻

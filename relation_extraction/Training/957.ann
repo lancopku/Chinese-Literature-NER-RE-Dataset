@@ -1,0 +1,267 @@
+T1	Person-Nominal 0 2	父亲
+T2	Person-Nominal 7 9	父亲
+T3	Person-Nominal 17 19	儿子
+R1	Family Arg1:T3 Arg2:T2	
+T4	Metric 23 25	几天
+T5	Time-Implicit 23 25	几天
+T6	Person-Nominal 29 31	父亲
+T7	Person-Nominal 39 41	父亲
+T8	Thing-Nominal 53 55	电话
+T9	Person-Nominal 57 59	母亲
+T12	Person-Nominal 82 84	父亲
+T13	Time-Implicit 95 97	自小
+T14	Person-Nominal 97 99	父亲
+T15	Person-Pronoun 102 103	我
+R2	Family Arg1:T9 Arg2:T3	
+T16	Location-Nominal 111 113	家里
+T17	Person-Pronoun 119 120	他
+*	Coreference T17 T14
+T18	Person-Pronoun 126 127	我
+T19	Person-Nominal 128 130	姐姐
+R3	Family Arg1:T18 Arg2:T19	
+T20	Person-Pronoun 133 134	他
+T21	Organization-Nominal 136 138	大学
+T22	Person-Pronoun 146 147	我
+T23	Person-Pronoun 159 160	我
+T24	Person-Nominal 163 165	父亲
+T25	Location-Nominal 165 168	工地上
+T26	Person-Nominal 179 181	父亲
+T27	Person-Nominal 218 220	母亲
+T28	Person-Pronoun 222 223	我
+T29	Person-Nominal 227 229	你爸
+T30	Person-Pronoun 239 240	你
+T31	Person-Pronoun 245 246	你
+T32	Person-Pronoun 248 249	你
+T33	Person-Pronoun 261 262	你
+T34	Person-Nominal 271 273	母亲
+T36	Person-Nominal 275 277	父亲
+T35	Person-Nominal 293 295	父亲
+T37	Person-Nominal 301 303	父亲
+T38	Person-Nominal 312 314	父亲
+T39	Metric 314 316	十岁
+T40	Time-Implicit 312 319	父亲十岁的时候
+T41	Person-Nominal 323 325	父亲
+T42	Person-Nominal 330 332	奶奶
+T43	Time-Implicit 326 328	自小
+T44	Person-Nominal 337 339	奶奶
+T45	Time-Implicit 352 358	我三岁的时候
+T46	Person-Pronoun 352 353	我
+T47	Metric 353 355	三岁
+T48	Person-Nominal 358 360	奶奶
+R5	Family Arg1:T46 Arg2:T48	
+T49	Person-Nominal 366 368	父亲
+T50	Person-Nominal 369 372	四姊妹
+T51	Metric 377 379	三个
+T52	Person-Nominal 379 381	姐姐
+T53	Location-Nominal 384 386	家中
+T54	Person-Nominal 389 391	儿子
+*	Coreference T54 T49
+T55	Person-Nominal 397 400	全家人
+T56	Person-Nominal 409 411	父亲
+T57	Time-Implicit 409 416	父亲出生的年月
+T58	Time-Implicit 424 430	“文革”时期
+*	Coreference T58 T57
+T59	Person-Nominal 434 437	全家人
+T60	Time-Explicit 457 459	现在
+T61	Person-Nominal 466 468	父亲
+T62	Person-Nominal 468 471	几姊妹
+T63	Person-Nominal 496 498	父亲
+T64	Person-Pronoun 509 510	我
+T65	Person-Nominal 533 544	所有经历过那段时光的人
+T66	Person-Nominal 566 568	父亲
+T67	Person-Pronoun 585 586	我
+T68	Time-Explicit 603 605	如今
+T69	Person-Pronoun 605 606	我
+T70	Person-Nominal 612 614	父亲
+T71	Person-Nominal 622 624	父亲
+T72	Person-Nominal 635 637	父亲
+T73	Person-Pronoun 643 644	我
+T74	Person-Nominal 662 663;664 665	父 亲
+T75	Time-Implicit 666 673	现在有一段时间
+T76	Person-Nominal 677 679	父亲
+T77	Person-Nominal 691 693	父亲
+T78	Location-Nominal 696 697	家
+T79	Time-Implicit 700 705	在我小时候
+T80	Person-Pronoun 701 702	我
+T81	Time-Implicit 716 720	每年春天
+T82	Thing-Nominal 722 724	水稻
+T83	Location-Nominal 726 728	田里
+R6	Located Arg1:T82 Arg2:T83	
+T84	Person-Nominal 729 731	父亲
+T85	Location-Nominal 740 742	家中
+T86	Person-Pronoun 746 747	我
+T87	Person-Nominal 748 750	母亲
+T88	Person-Nominal 750 752	两人
+T89	Time-Implicit 755 760;761 762	收谷子的时 节
+T90	Thing-Nominal 756 758	谷子
+T91	Person-Nominal 762 764	父亲
+T92	Location-Nominal 770 774	庄稼地里
+T93	Person-Nominal 804 806	父亲
+T94	Time-Implicit 802 811	每次父亲回家的时候
+T95	Person-Pronoun 811 812	我
+T96	Person-Nominal 822 824	父亲
+T97	Thing-Nominal 830 831	糖
+T98	Thing-Nominal 832 834	饼干
+T99	Person-Nominal 843 845	母亲
+T100	Person-Pronoun 856 857	我
+T101	Location-Nominal 859 862	院子里
+T102	Person-Nominal 865 868	小伙伴
+T103	Location-Nominal 865 871	小伙伴的家里
+T104	Person-Nominal 876 878	父亲
+T105	Time-Implicit 874 881	每次父亲临走时
+T106	Person-Nominal 883 885	母亲
+T107	Person-Nominal 888 890	父亲
+T108	Thing-Nominal 897 902	换洗的衣服
+T110	Person-Nominal 909 911	父亲
+T111	Person-Nominal 924 926	母亲
+T112	Thing-Nominal 933 934	肉
+T113	Person-Nominal 947 949	自己
+T114	Time-Implicit 995 998	长大后
+T115	Person-Nominal 1019 1021	父亲
+T116	Person-Nominal 1084 1086	父亲
+T117	Metric 1093 1097	一两个月
+T118	Time-Implicit 1093 1097	一两个月
+T119	Time-Implicit 1125 1127	以前
+T120	Person-Nominal 1128 1130	父亲
+T121	Person-Nominal 1136 1138	父亲
+T122	Time-Implicit 1142 1145	早些年
+T123	Time-Implicit 1169 1178	高考结束的那个暑假
+T124	Person-Pronoun 1179 1180	我
+T125	Person-Nominal 1182 1185	父母亲
+T126	Location-Nominal 1182 1190	父母亲打工的地方
+T127	Person-Nominal 1191 1193	父亲
+T128	Person-Pronoun 1194 1195	我
+T129	Location-Nominal 1197 1199	城市
+T130	Person-Nominal 1204 1206	父亲
+T131	Location-Nominal 1210 1213	窗外的
+T132	Thing-Nominal 1210 1217	窗外的一些建筑
+R8	Located Arg1:T132 Arg2:T131	
+T133	Person-Pronoun 1219 1220	我
+T134	Thing-Pronoun 1222 1223	这
+*	Coreference T134 T132
+T135	Person-Pronoun 1224 1226	他们
+T136	Time-Implicit 1226 1230	九十年代
+T137	Thing-Nominal 1235 1237	建筑
+T138	Location-Nominal 1261 1262;1263 1264	城 市
+T139	Person-Nominal 1271 1273	父亲
+T140	Person-Nominal 1275 1277	自己
+T141	Location-Pronoun 1286 1288	这里
+*	Coreference T141 T138
+T142	Location-Nominal 1289 1298	在城市的某一个角落
+T143	Person-Nominal 1305 1307	父亲
+T147	Person-Nominal 1327 1329	父亲
+T150	Time-Explicit 1337 1342	八十年代时
+T151	Person-Pronoun 1342 1344	我们
+T152	Location-Nominal 1342 1346	我们那里
+T153	Thing-Nominal 1362 1364	庄稼
+T154	Person-Nominal 1370 1372	父亲
+T155	Person-Nominal 1376 1377	人
+T156	Person-Nominal 1382 1385	打石匠
+T157	Thing-Nominal 1409 1411	石头
+T158	Location-Nominal 1412 1417	遥远的山上
+R9	Located Arg1:T157 Arg2:T158	
+T159	Thing-Nominal 1438 1439	手
+T160	Thing-Nominal 1440 1441	肩
+T161	Person-Pronoun 1445 1447	他们
+T162	Location-Nominal 1452 1458	在我们村子里
+T163	Location-Nominal 1459 1467	许多老房子的院子
+T164	Person-Nominal 1469 1471	父亲
+T165	Time-Implicit 1471 1473	当年
+T166	Time-Explicit 1477 1479	如今
+T167	Location-Nominal 1479 1482	村子里
+T168	Organization-Nominal 1485 1487	石场
+T169	Person-Nominal 1489 1491	父亲
+T170	Location-Name 1501 1504	大巴山
+T171	Thing-Nominal 1499 1500	家
+R10	Located Arg1:T171 Arg2:T170	
+T172	Location-Pronoun 1505 1507	那里
+*	Coreference T172 T170
+T173	Thing-Nominal 1514 1515	山
+T174	Thing-Nominal 1517 1518	树
+T175	Time-Implicit 1520 1522	以前
+T176	Time-Implicit 1522 1528	每到冬天来临
+T177	Person-Nominal 1529 1531	父亲
+T178	Location-Nominal 1534 1535	山
+T179	Thing-Nominal 1536 1537	炭
+T180	Location-Nominal 1539 1542	院子里
+T183	Location-Nominal 1554 1556	山里
+T184	Thing-Nominal 1557 1559	干草
+T185	Thing-Nominal 1561 1565	塑料薄膜
+T188	Time-Implicit 1575 1577	冬天
+T189	Thing-Pronoun 1579 1581	这里
+T192	Thing-Nominal 1599 1601	柴火
+T193	Thing-Nominal 1607 1608	炭
+T194	Time-Implicit 1610 1612	冬天
+T195	Location-Nominal 1613 1619	空旷的山野里
+T198	Location-Nominal 1642 1644	山谷
+T199	Time-Implicit 1645 1649	整个冬日
+T200	Person-Nominal 1649 1651	父亲
+T201	Thing-Nominal 1655 1657	斧子
+T202	Thing-Nominal 1658 1660	炭窑
+T203	Person-Nominal 1662 1664	母亲
+T204	Thing-Nominal 1670 1671	炭
+T205	Time-Implicit 1672 1677	冬天的早晨
+T206	Thing-Nominal 1678 1681;1682 1683	外面的 水
+T207	Location-Nominal 1678 1680	外面
+R15	Located Arg1:T206 Arg2:T207	
+T208	Thing-Nominal 1686 1687	冰
+T209	Thing-Nominal 1690 1695	流动的山泉
+T210	Thing-Nominal 1699 1701	冰柱
+T211	Location-Nominal 1704 1707	悬崖上
+R16	Located Arg1:T210 Arg2:T211	
+T212	Person-Nominal 1708 1710	母亲
+T213	Time-Implicit 1710 1715	前一天晚上
+T214	Location-Nominal 1723 1726	集市上
+T215	Thing-Nominal 1728 1730	木炭
+T216	Time-Implicit 1733 1740	第二天天还未亮
+T217	Person-Nominal 1741 1742;1743 1744	母 亲
+T218	Thing-Nominal 1751 1753	木炭
+T219	Location-Nominal 1754 1757	集市上
+T220	Location-Nominal 1760 1761	家
+T221	Location-Nominal 1762 1764	集市
+T222	Metric 1765 1769	两个小时
+T223	Time-Implicit 1765 1769	两个小时
+T224	Person-Nominal 1773 1775	母亲
+T225	Thing-Nominal 1780 1783	手电筒
+T226	Thing-Nominal 1786 1792	沉甸甸的木炭
+T227	Location-Nominal 1795 1798	山路上
+T228	Location-Nominal 1801 1803;1804 1805	集市 上
+T229	Time-Implicit 1799 1803;1804 1806	赶到集市 上时
+T230	Thing-Nominal 1814 1816	木炭
+T231	Location-Nominal 1818 1824	集市的空地上
+R17	Located Arg1:T230 Arg2:T231	
+T232	Person-Nominal 1826 1830	来往的人
+T233	Time-Implicit 1837 1839	一天
+T234	Metric 1837 1839	一天
+T236	Person-Nominal 1849 1850	人
+T237	Person-Nominal 1856 1858	父母
+T238	Person-Nominal 1881 1883	父母
+T239	Person-Pronoun 1885 1886	我
+T240	Person-Nominal 1895 1897	父亲
+T241	Person-Nominal 1926 1928	父亲
+T242	Person-Pronoun 1946 1947	我
+T243	Time-Implicit 23 25	几天
+T244	Person-Nominal 66 71	两个大男人
+*	Coreference T30 T28
+T10	Abstract 424 427	“文革
+R4	Family Arg1:T50 Arg2:T49	
+T11	Thing-Nominal 903 907	吃的腊肉
+T109	Person-Nominal 973 982	每一个打工回来的人
+T245	Location-Nominal 983 984	家
+T246	Metric 1112 1115	一分钱
+T144	Thing-Nominal 1311 1314	一座城
+T145	Person-Nominal 1315 1321	一代又一代人
+T146	Person-Nominal 1332 1336	一个石匠
+T148	Thing-Nominal 1378 1379	山
+T149	Thing-Nominal 1380 1381	石
+T247	Thing-Nominal 1461 1464	老房子
+T181	Person-Nominal 1542 1550	几位年轻有力的人
+T182	Thing-Nominal 1567 1574	一个简易的草棚
+R7	Part-Whole Arg1:T185 Arg2:T182	
+R11	Part-Whole Arg1:T184 Arg2:T182	
+*	Coreference T189 T182
+T186	Thing-Nominal 1589 1595	几口烧炭的窑
+T187	Thing-Nominal 1635 1639	一缕青烟
+R12	Located Arg1:T187 Arg2:T198	
+T190	Person-Nominal 1842 1843	人
+T191	Metric 1862 1864;1865 1866	一分 钱

@@ -1,0 +1,192 @@
+T1	Thing-Nominal 2 4	铁油
+T2	Thing-Nominal 5 7	画笔
+R1	Located Arg1:T1 Arg2:T2	
+T3	Thing-Nominal 8 10	墓碑
+R2	Located Arg1:T2 Arg2:T3	
+T4	Metric 35 37	一年
+T5	Thing-Nominal 42 44	风雨
+T6	Thing-Nominal 45 47	墓碑
+T7	Thing-Nominal 56 57	雨
+T8	Thing-Nominal 76 78	山丘
+T9	Thing-Nominal 81 83	墓碑
+T10	Thing-Nominal 88 90	晨阳
+T11	Thing-Nominal 93 95	夕阳
+T12	Time-Implicit 109 111	去年
+T13	Thing-Nominal 112 114	墓碑
+T14	Person-Pronoun 116 117	我
+T15	Time-Implicit 122 124	去年
+T16	Thing-Nominal 125 127	铁油
+T17	Time-Implicit 131 133	去年
+T18	Time-Implicit 138 140	前年
+T19	Thing-Nominal 141 143	绿漆
+T20	Person-Pronoun 146 147	我
+T21	Time-Implicit 151 153	去年
+T22	Person-Pronoun 155 156	我
+T23	Thing-Nominal 166 168	衣服
+T24	Time-Implicit 169 171	前年
+T25	Person-Pronoun 173 174	我
+T26	Thing-Nominal 183 185	短发
+T27	Thing-Nominal 186 188	山风
+T28	Person-Pronoun 200 201	我
+R3	Part-Whole Arg1:T26 Arg2:T25	
+T29	Time-Implicit 209 211	每年
+T30	Thing-Nominal 214 216	锄头
+T31	Location-Nominal 217 218	山
+T33	Thing-Nominal 223 224	土
+T32	Location-Nominal 220 222	墓前
+R4	Near Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 227 230	苦芦草
+T35	Thing-Nominal 231 232	根
+R5	Part-Whole Arg1:T35 Arg2:T34	
+T36	Location-Nominal 235 239	墓地后面
+T37	Thing-Nominal 240 242	杂草
+R6	Located Arg1:T37 Arg2:T36	
+T38	Metric 245 247	一年
+T39	Thing-Pronoun 254 256	它们
+*	Coreference T39 T37 T34
+T40	Thing-Nominal 266 268	杂草
+T41	Thing-Nominal 272 274	苦芦
+T42	Thing-Nominal 275 279	水泥墓台
+T43	Thing-Nominal 283 285	缝隙
+T44	Person-Nominal 287 290	小孩子
+T45	Thing-Nominal 300 301	香
+T46	Person-Nominal 304 306	爸爸
+T47	Person-Nominal 307 309	爸爸
+T48	Person-Nominal 317 319	自己
+T49	Person-Nominal 319 321	爷爷
+*	Coreference T44 T48
+R7	Family Arg1:T44 Arg2:T49	
+T50	Time-Implicit 328 330	每年
+T51	Time-Implicit 344 346	清明
+T52	Person-Pronoun 362 363	我
+T53	Person-Pronoun 366 367	他
+T54	Person-Nominal 360 362	神明
+T55	Person-Pronoun 367 368	他
+T56	Person-Pronoun 371 372	我
+*	Coreference T54 T53
+T57	Person-Nominal 388 390	爷爷
+T58	Time-Explicit 402 404	清明
+T59	Thing-Nominal 419 421	新漆
+T60	Thing-Nominal 422 424	碑铭
+R8	Located Arg1:T59 Arg2:T60	
+T61	Person-Pronoun 433 434	我
+T62	Person-Nominal 444 446	爷爷
+T63	Metric 448 451	17年
+T64	Time-Implicit 453 456	小时候
+T65	Person-Nominal 456 458	爷爷
+T66	Person-Pronoun 459 460	我
+R9	Family Arg1:T65 Arg2:T66	
+T67	Time-Implicit 466 468	那时
+T68	Person-Nominal 483 485	妈妈
+T69	Time-Implicit 489 492	小时候
+T70	Person-Nominal 492 494	爷爷
+T71	Time-Implicit 492 497	爷爷得病后
+T72	Person-Pronoun 504 505	你
+T73	Person-Nominal 510 512	爷爷
+T74	Person-Pronoun 513 514	你
+T75	Person-Nominal 515 517	爷爷
+T76	Person-Nominal 519 521	别人
+T77	Person-Pronoun 524 525	你
+T78	Person-Nominal 525 527	爷爷
+T79	Person-Pronoun 531 532	你
+T80	Person-Nominal 545 548	我爷爷
+T81	Person-Pronoun 545 546	我
+*	Coreference T81 T79 T77 T74 T72
+T82	Person-Pronoun 563 564	我
+T83	Time-Implicit 583 584;585 587	小 时候
+T84	Person-Nominal 627 629	大人
+T85	Person-Nominal 642 645	小孩子
+R10	Family Arg1:T84 Arg2:T85	
+T86	Person-Nominal 654 656	别人
+T87	Person-Nominal 654 659	别人的爷爷
+T88	Person-Nominal 662 667	自己的爷爷
+T89	Person-Nominal 676 678	爷爷
+T90	Person-Pronoun 685 686	我
+T91	Person-Pronoun 687 688	他
+*	Coreference T91 T89 T95
+T92	Time-Implicit 698 700	当时
+T93	Person-Nominal 700 704	他的儿子
+T94	Person-Nominal 704 706;707 709	我的 爸爸
+*	Coreference T93 T94
+T95	Person-Nominal 737 741	将死的人
+T96	Person-Nominal 751 753	爷爷
+T97	Time-Implicit 751 756	爷爷临终前
+T98	Person-Pronoun 760 761	他
+T99	Person-Nominal 760 765	他的小孙女
+R11	Family Arg1:T98 Arg2:T99	
+*	Coreference T96 T98
+T100	Person-Pronoun 768 769	他
+T101	Metric 773 777	十几年后
+T102	Person-Nominal 777 780	小孙女
+T103	Person-Pronoun 782 783	他
+T104	Location-Nominal 783 786	墓碑前
+T105	Location-Nominal 799 800	家
+T106	Person-Pronoun 801 803	爷爷
+T107	Thing-Nominal 804 808	大幅照片
+T108	Person-Pronoun 827 828	我
+T109	Person-Nominal 832 836	我的爷爷
+T110	Person-Nominal 840 844	这个男人
+*	Coreference T109 T110
+T111	Person-Pronoun 853 854	我
+*	Coreference T102 T108
+T112	Person-Pronoun 857 859	我们
+T113	Metric 861 863	几年
+T114	Person-Pronoun 881 882	他
+T115	Person-Pronoun 874 875	我
+T116	Person-Pronoun 889 890	我
+T118	Person-Pronoun 891 892	他
+T119	Person-Pronoun 908 909	他
+T117	Time-Explicit 914 916	如今
+T120	Person-Pronoun 917 918	我
+T121	Person-Nominal 937 939	自己
+*	Coreference T120 T121
+T122	Person-Nominal 956 961	最亲近的人
+T123	Thing-Nominal 970 972	遗书
+T124	Thing-Nominal 987 988	火
+T125	Thing-Nominal 991 993	灰烬
+T126	Thing-Nominal 996 998	遗书
+T127	Person-Nominal 1026 1028	生者
+T128	Thing-Nominal 1075 1077	遗书
+T129	Person-Nominal 1092 1094	死神
+T130	Thing-Nominal 1107 1109	遗书
+T131	Person-Nominal 1137 1139	爷爷
+T132	Thing-Nominal 1147 1148	眼
+T133	Person-Pronoun 1154 1156	我们
+T134	Person-Nominal 1170 1174	故去的人
+R12	General-Special Arg1:T131 Arg2:T134	
+T135	Person-Pronoun 1180 1181	我
+T136	Person-Nominal 1195 1200	爱着你的人
+T137	Person-Pronoun 1205 1206	你
+T138	Person-Pronoun 1207 1208	你
+T139	Person-Pronoun 1248 1249	你
+T140	Person-Pronoun 1251 1252	你
+T141	Person-Nominal 1259 1263	后来的人
+T142	Person-Pronoun 1270 1271	你
+T143	Time-Implicit 1276 1278	那时
+T144	Person-Pronoun 1279 1280	你
+T145	Time-Implicit 1283 1285	现在
+T146	Person-Pronoun 1287 1288	你
+T147	Person-Pronoun 1298 1299	你
+T148	Person-Pronoun 1320 1321	你
+T149	Thing-Nominal 1325 1327	皱纹
+T150	Person-Pronoun 1331 1332	你
+T151	Person-Nominal 1337 1339	有人
+T152	Person-Pronoun 1343 1345	他们
+*	Coreference T151 T152
+T153	Person-Pronoun 1363 1364	我
+T154	Person-Pronoun 1379 1380	我
+T155	Person-Pronoun 1381 1382	我
+T156	Person-Pronoun 1391 1392	我
+T157	Thing-Nominal 1396 1398	睫毛
+R13	Part-Whole Arg1:T157 Arg2:T156	
+T158	Location-Nominal 1418 1420	墓地
+T159	Thing-Nominal 1425 1427	鞭炮
+T160	Thing-Nominal 1437 1440	红纸屑
+R14	Part-Whole Arg1:T160 Arg2:T159	
+T161	Person-Nominal 1447 1449	生者
+T162	Person-Nominal 1450 1452	死者
+T163	Time-Implicit 1462 1464	每年
+T164	Thing-Nominal 1470 1471	画
+T165	Thing-Nominal 1473 1474	草
+T166	Thing-Nominal 1475 1476;1477 1478	香 烛
+T167	Metric 1489 1492	几十年

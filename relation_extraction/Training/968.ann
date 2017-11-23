@@ -1,0 +1,104 @@
+T1	Person-Nominal 1 3	母亲
+T2	Location-Nominal 1 6	母亲的故乡
+T3	Person-Pronoun 36 37	我
+T4	Location-Name 7 12	“织金洞”
+T5	Location-Pronoun 13 14	他
+*	Coreference T5 T4
+T6	Location-Name 56 60;61 62	“打鸡洞 ”
+T7	Time-Implicit 71 75	前年夏天
+T9	Location-Nominal 100 117	一条刻满名人真迹摩崖石刻的天然回廊
+T11	Location-Nominal 136 157	一个巨大、幽深的，喀什特地貌特有的岩溶洞口
+T13	Person-Nominal 183 199	操着略带本地口音普通话的美女导游
+T12	Location-Nominal 201 205	洞口石阶
+T14	Location-Nominal 223 230	洞口顶端及周边
+T15	Thing-Nominal 223 234	洞口顶端及周边的钟乳石
+R1	Located Arg1:T15 Arg2:T14	
+T16	Location-Nominal 242 244	底部
+T17	Thing-Nominal 248 250	青苔
+T18	Thing-Nominal 251 261	一些不知名的矮小植物
+R2	Located Arg1:T17 Arg2:T16	
+R3	Located Arg1:T18 Arg2:T16	
+T19	Location-Nominal 264 270	洞口正下方处
+T20	Thing-Nominal 274 276	蟾蜍
+T21	Thing-Nominal 277 282	巨型钟乳石
+R4	Located Arg1:T21 Arg2:T19	
+T23	Thing-Nominal 294 297	小蟾蜍
+T24	Thing-Nominal 290 300	几只貌似小蟾蜍的石头
+T25	Abstract 306 312	“井底之蛙”
+T27	Location-Name 375 381	“九霄灵殿”
+T28	Abstract 388 392	“西游记
+T29	Thing-Name 403 407	如来佛主
+T30	Location-Nominal 414 416	神潭
+T31	Thing-Pronoun 418 419	他
+T32	Location-Nominal 418 421	他身旁
+T33	Thing-Name 424 427	众罗汉
+R5	Ownership Arg1:T33 Arg2:T32	
+T34	Thing-Name 455 457	佛祖
+T35	Thing-Name 473 476	弟子们
+T36	Location-Nominal 513 518	佛祖的经堂
+T37	Thing-Name 513 515	佛祖
+T38	Thing-Name 562 571	“金银塔林”钟乳石
+T39	Thing-Name 494 500	“乐山大佛”
+T40	Thing-Name 534 540	“普贤骑象”
+T41	Organization-Nominal 579 581	佛家
+T42	Thing-Name 628 630	吴刚
+T43	Thing-Name 593 597	飞天舞娘
+T44	Thing-Pronoun 631 632	你
+*	Coreference T44 T42
+T45	Thing-Name 645 647	嫦娥
+T46	Thing-Name 648 653	“广寒宫”
+T47	Thing-Name 655 665	“桫椤”、“银雨树”
+T48	Location-Name 674 678	万寿宫里
+T49	Thing-Name 679 692	太白金星、张果老、南极仙翁
+T50	Thing-Name 699 718	“鸡血石、珍珠石、松子石......”
+T51	Person-Nominal 723 725	男人
+T52	Thing-Pronoun 739 741	他们
+*	Coreference T52 T49
+T53	Thing-Name 747 752	“老药王”
+T54	Person-Pronoun 1208 1209	你
+T55	Thing-Nominal 1172 1176	漫天白云
+T56	Location-Nominal 1181 1183	天堂
+T57	Location-Nominal 1185 1187	故乡
+T58	Location-Nominal 1156 1158	洞外
+T59	Time-Implicit 1154 1159	走出洞外时
+T60	Abstract 791 794	“梁祝
+T61	Thing-Pronoun 805 807	他们
+T62	Thing-Name 791 795	“梁祝”
+*	Coreference T61 T62
+T63	Thing-Name 829 833	玉皇大帝
+T64	Location-Nominal 836 842	五彩金幔之下
+T65	Thing-Pronoun 845 846	他
+*	Coreference T65 T63
+T66	Location-Nominal 857 860	瑶池里
+T68	Person-Nominal 898 902	导游小姐
+T69	Person-Pronoun 908 910	我们
+T70	Person-Nominal 922 924	大家
+T71	Metric 926 928	半只
+T72	Location-Nominal 935 936	空
+T73	Thing-Nominal 939 941	鹌鹑
+T74	Thing-Name 928 932	‘烤鸭’
+T75	Person-Nominal 962 964	婆媳
+T76	Person-Nominal 970 979	烫着卷发的时髦媳妇
+T77	Person-Nominal 984 989	年迈的婆婆
+T79	Thing-Name 1033 1041	一只“金鸡独立”
+T80	Person-Nominal 1050 1066	当初那位偶然发现“打鸡洞”的猎人
+T81	Person-Nominal 1086 1089	楚霸王
+T82	Person-Nominal 1122 1124	霸王
+T83	Thing-Name 1130 1135	“霸王魁”
+T84	Thing-Name 1136 1141	“霸王鞭”
+T8	Abstract 322 323;324 331	“ 金蟾坐洞观天”
+R7	Located Arg1:T29 Arg2:T30	
+T10	Thing-Nominal 439 449	窃窃私语、昏昏欲睡者
+T22	Thing-Pronoun 772 773	他
+*	Coreference T22 T53
+T26	Thing-Name 845 853	他的乖巧“玉龙”
+T85	Thing-Name 861 867	“镂空玉柱”
+T86	Thing-Name 868 874	“仙鹤起舞”
+R6	Located Arg1:T85 Arg2:T66	
+R8	Located Arg1:T86 Arg2:T66	
+T67	Thing-Name 1072 1077	那只“金鸡
+T78	Time-Implicit 1084 1086	当年
+T87	Location-Nominal 1145 1147	洞里
+R9	Located Arg1:T83 Arg2:T87	
+R10	Located Arg1:T84 Arg2:T87	
+T88	Location-Name 1201 1206	“织金洞”

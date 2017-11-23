@@ -1,0 +1,437 @@
+T1	Person-Nominal 7 10	文友们
+T2	Thing-Nominal 12 15	黑明寺
+T3	Thing-Nominal 15 20	万亩野山茶
+T4	Thing-Pronoun 21 22	她
+T5	Location-Name 24 46	豫鄂边桐柏、枣阳、唐河两省三县交界崇山峻岭中
+*	Coreference T4 T2
+R1	Located Arg1:T2 Arg2:T5	
+T6	Person-Name 50 57	汉朝光武帝刘秀
+T7	Person-Nominal 58 60;61 65	二十 八宿名将
+T8	Location-Nominal 66 68	故乡
+T9	Person-Nominal 69 70	人
+T10	Thing-Nominal 74 77	大自然
+T11	Person-Pronoun 85 86	谁
+T12	Thing-Nominal 89 92	好山茶
+T13	Person-Name 94 118	文友、中纪委党办原主任、中国诗词书画研究会长晨崧
+T14	Location-Nominal 125 129	桐柏老区
+T15	Thing-Nominal 130 136	万亩野山茶林
+T16	Person-Pronoun 142 143	他
+*	Coreference T16 T13
+T17	Thing-Nominal 146 147	山
+T18	Thing-Nominal 153 154;155 156	野 茶
+T19	Thing-Nominal 162 163	岩
+T20	Thing-Nominal 164 165	花
+T21	Person-Nominal 170 174	仙子诗翁
+T22	Thing-Nominal 174 176	桐柏
+T23	Thing-Nominal 188 196	七八只雪白的茶鹅
+T24	Person-Nominal 199 202	茶友们
+T25	Thing-Nominal 205 206	翅
+R2	Part-Whole Arg1:T23 Arg2:T25	
+T26	Thing-Nominal 207 208	羽
+R3	Part-Whole Arg1:T26 Arg2:T23	
+T27	Person-Nominal 225 227	茶客
+T28	Time-Implicit 236 242	欣逢谷雨之前
+T29	Thing-Nominal 243 245	野鸟
+T30	Thing-Nominal 252 254	茶树
+T31	Location-Nominal 256 258	层林
+R4	Located Arg1:T30 Arg2:T31	
+T32	Location-Nominal 247 249	茶荫
+R5	Located Arg1:T29 Arg2:T32	
+T33	Person-Pronoun 261 262	我
+T34	Location-Name 266 271	梅子沟西山
+T35	Location-Name 277 282	玉皇顶东沟
+T36	Thing-Nominal 283 285	溪泉
+T37	Thing-Nominal 291 294	茶凤凰
+T38	Thing-Nominal 298 300	醴泉
+T39	Thing-Nominal 301 303	石块
+T40	Thing-Nominal 308 312	茶林山径
+T41	Thing-Nominal 313 314	山
+T42	Thing-Nominal 315 316	水
+T43	Thing-Nominal 319 320	水
+T44	Thing-Nominal 321 322	路
+T45	Time-Implicit 327 329	当年
+T46	Person-Nominal 329 331	神农
+T47	Thing-Nominal 332 334	万草
+T48	Thing-Nominal 335 337	五谷
+T49	Thing-Nominal 342 344	野茶
+T50	Person-Name 350 352	陆羽
+T51	Thing-Nominal 353 355	泉茶
+T52	Location-Nominal 373 378	茶林混交里
+T53	Thing-Nominal 381 383	蛛丝
+T54	Thing-Nominal 386 393	含苞怒放的藤花
+T55	Thing-Nominal 396 397	河
+T56	Thing-Nominal 398 400	水路
+T57	Thing-Nominal 401 402	山
+T58	Person-Pronoun 406 407	我
+T59	Location-Nominal 408 412	东坡东沟
+T60	Thing-Nominal 412 414	溪河
+R6	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 417 419	群峰
+T62	Location-Nominal 422 424	两岸
+T63	Thing-Nominal 425 426	山
+T64	Thing-Nominal 427 428	溪
+T65	Thing-Nominal 436 439	越碧溪
+T66	Thing-Nominal 447 449	石头
+T67	Thing-Nominal 451 452	桥
+T68	Thing-Nominal 465 467	另石
+T69	Person-Nominal 470 473	白头翁
+T70	Location-Nominal 484 487	丛林下
+T71	Location-Nominal 488 491	溪畔上
+T72	Thing-Nominal 494 499	几丛野山茶
+R7	Located Arg1:T72 Arg2:T70	
+R8	Located Arg1:T72 Arg2:T71	
+T73	Location-Nominal 500 506	厚绿的叶子里
+T74	Thing-Nominal 509 518	两朵与众不同的鲜花
+R9	Located Arg1:T74 Arg2:T73	
+T75	Location-Nominal 519 522	茶根下
+T76	Thing-Nominal 524 528	一层落花
+R10	Located Arg1:T76 Arg2:T75	
+T77	Person-Pronoun 531 532	我
+T78	Thing-Nominal 535 540	桐柏山茶花
+T79	Time-Implicit 541 543	深秋
+T80	Time-Implicit 546 548	隆冬
+T81	Time-Implicit 551 553	隆冬
+T82	Time-Implicit 555 557	春口
+T83	Time-Implicit 558 562	谷雨之后
+T84	Thing-Nominal 565 567	茶花
+T85	Thing-Nominal 570 573	这茶花
+T86	Thing-Nominal 576 578	白瓣
+T87	Location-Nominal 579 582	红蕊心
+R11	Located Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 595 596	头
+T89	Location-Nominal 604 605;606 607	高 坎
+T90	Thing-Nominal 609 613	两棵花儿
+R12	Located Arg1:T90 Arg2:T89	
+T91	Location-Nominal 622 626	油桐树，
+T92	Thing-Nominal 626 632	落下的油桐花
+R13	Located Arg1:T92 Arg2:T91	
+T93	Location-Nominal 637 642	山茶枝叶上
+R14	Located Arg1:T92 Arg2:T93	
+T94	Thing-Nominal 647 649	山茶
+T95	Thing-Nominal 650 651	花
+T96	Thing-Nominal 654 656	山风
+T97	Thing-Nominal 659 661	林涛
+T98	Thing-Nominal 669 672	画眉鸟
+T99	Thing-Nominal 673 676	山八哥
+T100	Thing-Nominal 677 684	野竹雀一应鸟儿
+T101	Person-Nominal 695 696	人
+T102	Person-Nominal 700 701	人
+T103	Thing-Nominal 703 707	这古茶根
+T104	Thing-Nominal 721 723	野火
+T105	Thing-Nominal 727 729	春风
+T106	Thing-Nominal 739 741	新根
+T107	Thing-Nominal 734 736	老柢
+T108	Metric 744 747	千万年
+T109	Thing-Nominal 747 750	野山茶
+T110	Thing-Nominal 781 783	山涛
+T111	Thing-Nominal 787 788	芽
+T112	Thing-Nominal 789 790	叶
+T113	Time-Implicit 791 793	四季
+T114	Location-Nominal 793 797	云里雾里
+T115	Thing-Nominal 797 798	虹
+T116	Thing-Nominal 799 800	霞
+T117	Thing-Nominal 805 810	这深山老林
+R15	Located Arg1:T115 Arg2:T114	
+R16	Located Arg1:T116 Arg2:T114	
+T118	Thing-Nominal 859 862	哈密瓜
+T119	Thing-Nominal 863 868	吐鲁番葡萄
+T120	Thing-Nominal 896 897	鸟
+T121	Thing-Nominal 899 900	花
+T122	Person-Nominal 906 908	王者
+T123	Person-Nominal 916 919	采茶人
+T124	Thing-Nominal 922 923	蜂
+T125	Thing-Nominal 924 926	野花
+T126	Person-Pronoun 945 946	我
+T127	Location-Nominal 952 955	野茶林
+T128	Thing-Nominal 964 966	鸟儿
+R17	Located Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 978 982	几道弯儿
+T130	Person-Nominal 985 989	年青母亲
+T131	Person-Nominal 997 999	娃娃
+T132	Thing-Nominal 1000 1001	茶
+R18	Family Arg1:T131 Arg2:T130	
+T133	Person-Nominal 1002 1004	娃娃
+T134	Thing-Nominal 1006 1007	茶
+T135	Thing-Nominal 1016 1017	茶
+T136	Thing-Nominal 1021 1029	无限悠长的马头琴
+T137	Metric 1037 1039	三日
+T138	Metric 1046 1048	三年
+T139	Person-Nominal 1063 1065	后人
+T140	Person-Nominal 1067 1070	娃娃们
+T141	Person-Nominal 1076 1080	这老祖宗
+T142	Thing-Nominal 1084 1088	青山野茶
+T143	Person-Nominal 1094 1096	祖宗
+T144	Thing-Nominal 1097 1099	茶饭
+T145	Person-Nominal 1101 1104	子孙们
+T146	Person-Name 1109 1111	陆羽
+T147	Abstract 1111 1115	《茶经》
+T148	Person-Nominal 1117 1119	上者
+T149	Thing-Nominal 1120 1122	烂石
+T150	Thing-Nominal 1124 1126	溪水
+T151	Thing-Nominal 1126 1128	碧浪
+T152	Metric 1138 1140	几丈
+T153	Thing-Nominal 1134 1135	玉
+T154	Thing-Nominal 1141 1144	一巨石
+T155	Thing-Nominal 1150 1152	溪水
+T156	Thing-Nominal 1175 1188	一头保护万年野山茶的亿龄猛
+T157	Thing-Nominal 1179 1184	万年野山茶
+T158	Thing-Nominal 1204 1205	鼻
+T159	Thing-Nominal 1206 1207	目
+T160	Thing-Nominal 1211 1213	山花
+T161	Thing-Nominal 1215 1217	雄狮
+T162	Thing-Nominal 1218 1224	每个石质细胞
+T163	Location-Nominal 1233 1238	茶川茶林里
+T164	Thing-Nominal 1239 1240	桂
+R19	Located Arg1:T164 Arg2:T163	
+T165	Thing-Nominal 1241 1242	茶
+R20	Located Arg1:T165 Arg2:T163	
+T166	Thing-Nominal 1248 1249	鸟
+T167	Thing-Nominal 1250 1251	泉
+T168	Person-Nominal 1256 1257	人
+T169	Thing-Nominal 1263 1264	牙
+T170	Thing-Nominal 1265 1266	爪
+T171	Thing-Nominal 1272 1276	吾野山茶
+T172	Person-Pronoun 1272 1273	吾
+R21	Ownership Arg1:T172 Arg2:T171	
+T173	Person-Pronoun 1277 1278	我
+T174	Thing-Nominal 1278 1281	花木根
+R22	Ownership Arg1:T173 Arg2:T174	
+T175	Thing-Nominal 1285 1287	血肉
+T176	Person-Pronoun 1284 1285	尔
+T177	Person-Nominal 1292 1294	俗人
+T178	Thing-Nominal 1301 1305	嘉木瑶草
+T179	Person-Pronoun 1306 1307	吾
+T180	Thing-Nominal 1312 1313	茶
+T181	Thing-Nominal 1327 1329	林木
+T182	Thing-Nominal 1334 1338	丛丛野茶
+T183	Thing-Nominal 1339 1341	枝叶
+T184	Person-Nominal 1367 1369	处女
+T185	Person-Nominal 1375 1376	人
+T186	Location-Nominal 1318 1326	浸水石隙吐雾崖面
+R23	Located Arg1:T181 Arg2:T186	
+T187	Organization-Name 1384 1391	桐柏县林业公安
+T188	Organization-Name 1398 1404	禺峰野茶团队
+T189	Person-Pronoun 1407 1409	自己
+T190	Thing-Nominal 1410 1413	眼珠子
+R24	Part-Whole Arg1:T190 Arg2:T189	
+T191	Thing-Nominal 1417 1423	上万亩野茶林
+T192	Thing-Nominal 1425 1426	林
+T193	Thing-Nominal 1427 1428	火
+T194	Location-Name 1431 1435	野茶林区
+T195	Thing-Nominal 1452 1455	山野茶
+R25	Located Arg1:T195 Arg2:T194	
+T196	Person-Nominal 1463 1465	后人
+T197	Thing-Nominal 1466 1469	摇钱树
+T198	Person-Nominal 1470 1473	苦心人
+T199	Thing-Nominal 1478 1483	禺峰野山茶
+T200	Person-Name 1478 1480	禺峰
+T201	Person-Name 1484 1491	法人代表田玉峰
+T202	Thing-Nominal 1502 1504	野茶
+T203	Metric 1512 1514	两年
+T204	Metric 1517 1519	八年
+T205	Metric 1520 1522	十年
+T206	Thing-Nominal 1526 1531	一把忧喜泪
+T207	Person-Name 1534 1536	禺峰
+R26	Ownership Arg1:T200 Arg2:T199	
+T208	Person-Pronoun 1538 1539	谁
+T209	Person-Pronoun 1544 1545	他
+*	Coreference T209 T207
+T210	Thing-Nominal 1546 1549	野山茶
+T211	Person-Nominal 1552 1556	至亲厚友
+T212	Person-Nominal 1558 1562	妻子儿女
+T213	Thing-Nominal 1571 1574	野山茶
+T214	Person-Pronoun 1576 1577	他
+T215	Person-Nominal 1580 1587	万年难求的知音
+T216	Person-Nominal 1588 1595	千年才遇的知己
+T217	Thing-Nominal 1602 1616	地球第一的金矿、银矿、宝石矿
+T218	Location-Name 1634 1637	黑明寺
+T219	Thing-Nominal 1637 1642	万亩野山茶
+R27	Located Arg1:T219 Arg2:T218	
+T220	Person-Nominal 1646 1652	周围千家万户
+T221	Thing-Nominal 1660 1662	野花
+T222	Thing-Nominal 1662 1664	野茶
+T223	Thing-Nominal 1664 1667	野山泉
+T224	Person-Nominal 1686 1688	君子
+T225	Thing-Nominal 1693 1695	木兰
+T226	Location-Nominal 1693 1697	木兰之室
+T227	Person-Name 1698 1700	禺峰
+T228	Person-Nominal 1701 1704	茶绅士
+T229	Person-Pronoun 1710 1711	他
+*	Coreference T229 T227
+T230	Thing-Nominal 1721 1728	米面油盐茶醋酒
+T231	Thing-Nominal 1731 1740	千家万户的舌尖味蕾
+T232	Person-Pronoun 1747 1748	他
+T233	Thing-Nominal 1762 1764	野茶
+T234	Person-Nominal 1766 1772	天下千城百姓
+T235	Thing-Nominal 1778 1781;1782 1787	五湖四 海美茗佳茶
+T236	Person-Name 1802 1812	程湾乡党委书记张东升
+T237	Thing-Nominal 1793 1796	桐柏山
+T238	Thing-Nominal 1825 1828	野山茶
+T239	Location-Name 1837 1839	程湾
+T240	Person-Pronoun 1836 1837	俺
+*	Coreference T240 T236
+T241	Thing-Nominal 1843 1847	青山绿水
+T242	Person-Nominal 1853 1857	老百姓们
+T243	Time-Implicit 1857 1862	当代和今后
+T244	Person-Nominal 1872 1873	母
+T245	Person-Nominal 1874 1875	子
+T246	Person-Nominal 1883 1885	人民
+T247	Organization-Name 1888 1895	桐柏县委县政府
+T248	Thing-Nominal 1905 1909	金山银山
+T249	Thing-Nominal 1912 1916	绿山青山
+T250	Thing-Nominal 1917 1924	今天的绿水青山
+T251	Thing-Nominal 1927 1934	长久的金山银山
+T252	Thing-Nominal 1939 1941	青山
+T253	Location-Nominal 1949 1952	破岩中
+T254	Thing-Nominal 1946 1947	根
+R28	Located Arg1:T254 Arg2:T253	
+T255	Person-Name 1970 1973	郑板桥
+T256	Thing-Nominal 1975 1976	竹
+T257	Person-Pronoun 1977 1978	我
+T258	Person-Pronoun 1981 1982	他
+*	Coreference T258 T255
+T259	Thing-Nominal 1984 1989	桐柏野山茶
+T260	Location-Name 1984 1986	桐柏
+R29	Located Arg1:T259 Arg2:T260	
+T261	Person-Name 2002 2004	禺峰
+T262	Thing-Nominal 2006 2009	野山茶
+T263	Person-Name 2022 2024	禺峰
+T264	Thing-Nominal 2034 2036	甘香
+T265	Thing-Nominal 2038 2044	清醇的野山茶
+T266	Thing-Nominal 2049 2052	禺峰茶
+T267	Person-Pronoun 2055 2056	谁
+T268	Person-Nominal 2057 2059	百姓
+T269	Thing-Nominal 2063 2064	鸡
+T270	Location-Name 2067 2070	梅子沟
+T271	Metric 2075 2078	几千头
+T272	Person-Name 2080 2082	禺峰
+T273	Person-Pronoun 2084 2085	他
+T274	Person-Pronoun 2087 2088	他
+T275	Organization-Nominal 2089 2093	野茶团队
+R30	Ownership Arg1:T274 Arg2:T275	
+T276	Thing-Nominal 2095 2096	茶
+*	Coreference T273 T272
+T277	Thing-Nominal 2101 2106	夏茶和秋茶
+T278	Thing-Nominal 2113 2116	野山茶
+T279	Person-Nominal 2143 2145	人类
+T280	Person-Name 2159 2162	田禺峰
+T281	Thing-Nominal 2164 2171	这几万亩野茶山
+T282	Abstract 2181 2185;2186 2187	《红楼梦 》
+T283	Thing-Nominal 2197 2200	青埂峰
+T284	Person-Nominal 2203 2209	古代盘古女娲
+T285	Thing-Nominal 2209 2212	神炼石
+T286	Person-Pronoun 2219 2220	他
+T287	Person-Pronoun 2221 2222	他
+T288	Organization-Nominal 2223 2227	野茶团队
+R31	Ownership Arg1:T287 Arg2:T288	
+*	Coreference T286 T280
+T289	Location-Nominal 2236 2239	国内外
+T290	Person-Pronoun 2243 2245	我们
+T291	Thing-Nominal 2245 2246;2247 2255	淮 河源国家森林公园
+T292	Thing-Nominal 2256 2264	黑明寺万亩野茶林
+T293	Location-Nominal 2282 2286	地球上空
+T294	Thing-Nominal 2289 2294	臭氧层漏洞
+R32	Located Arg1:T294 Arg2:T293	
+T295	Thing-Nominal 2303 2307	千顷林涛
+T296	Thing-Nominal 2307 2311	万朵祥云
+T297	Metric 2303 2305	千顷
+T298	Metric 2307 2309	万朵
+T299	Thing-Nominal 2326 2327	鸟
+T300	Thing-Nominal 2334 2337	野桂叶
+T301	Thing-Nominal 2340 2344	百尺沃土
+T302	Thing-Nominal 2348 2352	千岁根须
+T303	Thing-Nominal 2356 2357	云
+T304	Thing-Nominal 2358 2359	雾
+T305	Person-Name 2360 2362	禺峰
+T306	Thing-Nominal 2365 2369	霜风冰雪
+T307	Person-Nominal 2391 2393	神农
+T308	Person-Nominal 2397 2401	汉唐帝子
+T309	Person-Nominal 2421 2423	茶仙
+T310	Person-Name 2423 2424;2425 2426	卢 仝
+T311	Metric 2427 2429	七碗
+T312	Thing-Nominal 2441 2443	古茶
+T313	Thing-Nominal 2444 2446	今月
+T314	Thing-Nominal 2449 2451	古月
+T315	Thing-Nominal 2452 2454	今茗
+T316	Location-Name 2455 2458	黑明寺
+T317	Thing-Nominal 2458 2462	万亩野茶
+R33	Located Arg1:T317 Arg2:T316	
+T318	Thing-Nominal 2465 2467	睫毛
+T319	Location-Nominal 2469 2472	眼睛上
+R34	Located Arg1:T318 Arg2:T319	
+T320	Person-Pronoun 2472 2474	自己
+T321	Location-Nominal 2482 2487	地面茶丛上
+T322	Thing-Pronoun 2490 2491	它
+T323	Thing-Nominal 2494 2495	茶
+*	Coreference T322 T317
+T324	Thing-Nominal 2503 2505	根土
+T325	Thing-Nominal 2508 2513	野山茶的土
+T326	Thing-Nominal 2508 2511	野山茶
+T327	Time-Implicit 2514 2518	一万年后
+T328	Time-Implicit 2519 2523	一万年前
+T329	Person-Pronoun 2550 2551	你
+T330	Time-Implicit 2563 2567	亿万年前
+T331	Thing-Nominal 2568 2571	类人猿
+T332	Thing-Nominal 2572 2575	类人猿
+T333	Thing-Nominal 2587 2589	烂石
+T334	Thing-Nominal 2583 2586	野山茶
+T335	Time-Implicit 2590 2594	一千年后
+T336	Time-Implicit 2595 2599	一千年前
+T337	Thing-Nominal 2606 2607	雷
+T338	Thing-Nominal 2608 2609	冰
+T339	Thing-Nominal 2618 2619	风
+T340	Thing-Nominal 2626 2628	沙砾
+T341	Thing-Nominal 2632 2636	日月雨雪
+T342	Thing-Nominal 2652 2659	生长野山茶的根
+T343	Thing-Nominal 2654 2657	野山茶
+T344	Time-Implicit 2661 2665	一千年前
+T345	Time-Implicit 2666 2670	一千年后
+T346	Thing-Nominal 2674 2679	一茬茬烈火
+T347	Thing-Nominal 2698 2700	茶苗
+T348	Thing-Nominal 2700 2702	茶枝
+T349	Thing-Nominal 2720 2722	新叶
+T350	Thing-Nominal 2741 2744	古茶根
+T351	Location-Nominal 2745 2749	钻石隙里
+T352	Location-Nominal 2753 2757	拧岩缝里
+T353	Thing-Nominal 2770 2772;2773 2774	古茶 树
+T354	Thing-Pronoun 2775 2776	您
+*	Coreference T354 T353
+T355	Thing-Nominal 2779 2781	柢系
+T356	Location-Nominal 2808 2814	谷川山林深处
+T357	Thing-Nominal 2819 2827	一尊雄壮肥厚青山
+T358	Thing-Nominal 2842 2851	出两条野茶溪碧林沟
+T359	Person-Nominal 2858 2861	老乡们
+T360	Thing-Nominal 2863 2866	老熊岭
+T361	Thing-Nominal 2871 2872	头
+T362	Thing-Nominal 2873 2874	云
+T363	Thing-Nominal 2875 2876	雾
+T364	Person-Nominal 2887 2889	玉皇
+T365	Thing-Nominal 2890 2892	紫烟
+T366	Thing-Nominal 2878 2884	更高的玉皇顶
+T367	Thing-Nominal 2895 2900	野熊哮茶川
+T368	Person-Nominal 2907 2909	人类
+T369	Person-Nominal 2909 2911	鼻祖
+T370	Person-Nominal 2911 2917	有熊氏的英雄
+T371	Person-Pronoun 2921 2922	他
+*	Coreference T371 T370
+T372	Thing-Nominal 2925 2928	野山茶
+T373	Thing-Nominal 2938 2943	禺峰野山茶
+T374	Person-Name 2938 2940	禺峰
+T375	Location-Nominal 2956 2962	你骨头榫儿里
+T376	Person-Pronoun 2956 2957	你
+T377	Person-Nominal 2964 2971	茶君子茶仙女们
+T378	Location-Name 2986 2989	野茶林
+T379	Thing-Nominal 2990 2993	黑明寺
+R35	Located Arg1:T379 Arg2:T378	
+T380	Person-Nominal 2994 2997	禅茶佛
+T381	Person-Nominal 2999 3000	客
+T382	Thing-Nominal 3002 3011	黑绿的西茶峡梅子沟
+T383	Thing-Nominal 3012 3021	墨绿的东茶沟老熊岭
+T384	Person-Nominal 3029 3031	笔者
+T385	Thing-Nominal 3036 3041	每一团野云
+T386	Thing-Nominal 3042 3046;3047 3048	每一只野 鸟
+T387	Thing-Nominal 3049 3056	每一野岭野山川
+T388	Thing-Nominal 3086 3088	野茶
+T389	Thing-Nominal 3096 3098	野茶
+T390	Thing-Nominal 3124 3133	真善美的野生动植物
+T391	Person-Nominal 3144 3155	神密生态的掌门神主任公

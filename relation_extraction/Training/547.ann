@@ -1,0 +1,166 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 2 4	祖国
+T3	Person-Pronoun 9 10	我
+T4	Location-Nominal 11 13	祖国
+T5	Location-Nominal 24 28	风景圣地
+T6	Person-Pronoun 30 31	我
+T7	Location-Nominal 42 46	名山大川
+T8	Person-Pronoun 48 49	我
+T9	Person-Pronoun 64 65	我
+T10	Person-Pronoun 69 70	我
+T11	Person-Pronoun 74 75	我
+T12	Person-Pronoun 93 94	我
+T13	Location-Name 108 110	周庄
+T14	Location-Nominal 125 127	小镇
+*	Coreference T13 T14 T15 T19
+T15	Location-Pronoun 129 130	它
+T16	Location-Nominal 132 136	江南名城
+T17	Location-Nominal 143 145	苏杭
+T18	Person-Nominal 159 163	历史名人
+T19	Location-Pronoun 164 166	那里
+T20	Location-Pronoun 188 189	它
+T21	Location-Nominal 193 195	小城
+T22	Location-Nominal 206 208	小城
+*	Coreference T20 T21
+T23	Location-Pronoun 210 211	它
+T24	Location-Nominal 213 215	苏杭
+T25	Location-Pronoun 227 229	自己
+*	Coreference T25 T23
+T26	Person-Pronoun 247 248	我
+T27	Location-Nominal 255 257	土地
+T28	Person-Pronoun 259 260	我
+T29	Person-Nominal 263 268	那里的人们
+T30	Location-Pronoun 276 277	它
+T31	Location-Pronoun 280 281	它
+T32	Location-Pronoun 284 285	它
+T33	Location-Name 286 288	周庄
+*	Coreference T33 T32 T36
+T34	Person-Pronoun 318 319	你
+T35	Location-Nominal 328 329	城
+T36	Location-Pronoun 342 344	这里
+T37	Thing-Pronoun 352 353	它
+T38	Thing-Nominal 345 346	水
+*	Coreference T37 T38
+T39	Thing-Nominal 289 290	水
+R2	Near Arg1:T39 Arg2:T35	
+T40	Person-Pronoun 333 334	你
+T41	Person-Pronoun 377 378	你
+T42	Person-Pronoun 390 391	你
+T43	Person-Pronoun 399 400	你
+T44	Thing-Pronoun 406 407	它
+T45	Thing-Pronoun 408 409	它
+T46	Person-Pronoun 417 418	你
+T47	Person-Pronoun 422 423	你
+T48	Thing-Nominal 451 452	水
+T49	Thing-Nominal 464 465	水
+T50	Person-Pronoun 466 467	你
+T51	Location-Name 505 507	周庄
+T52	Thing-Nominal 508 509	水
+T53	Thing-Nominal 528 530	绸缎
+*	Coreference T52 T53 T56
+T54	Location-Name 533 535	周庄
+T55	Location-Nominal 536 540	大街小巷
+R1	Part-Whole Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 550 552	翡翠
+T57	Person-Nominal 555 557	人们
+T58	Thing-Nominal 575 577	小船
+T59	Location-Nominal 579 581	两岸
+T60	Person-Nominal 581 583	人们
+R3	Use Arg1:T60 Arg2:T58	
+T61	Location-Nominal 592 594	河面
+T62	Location-Nominal 599 601	两岸
+T63	Location-Nominal 619 621	两岸
+T64	Person-Pronoun 640 641	你
+T65	Location-Name 646 649	威尼斯
+T66	Person-Nominal 678 682	两岸的人
+T67	Person-Pronoun 683 685	我们
+T68	Person-Nominal 692 694	人们
+T69	Location-Nominal 696 701	自家的门前
+T70	Thing-Nominal 718 719	船
+T71	Person-Nominal 726 731	热心的人们
+T72	Location-Nominal 732 734	屋里
+T73	Person-Pronoun 735 737	我们
+T74	Person-Nominal 758 760	主人
+T75	Person-Pronoun 771 772	你
+T76	Person-Nominal 788 790	游人
+T77	Location-Pronoun 797 799	这里
+T78	Person-Nominal 824 829	不顺心的人
+T79	Person-Nominal 832 845	在生意场上争得你死我活的人
+T80	Person-Nominal 848 861	倦怠了工作的、心灵疲惫的人
+T81	Person-Nominal 864 870;871 879	久居高楼大厦 ，水泥丛中的人;
+T82	Person-Nominal 881 899	压抑自己的感情，时常处于郁闷之中的人
+T83	Location-Pronoun 900 902	这里
+T84	Location-Pronoun 922 924	这里
+T85	Person-Pronoun 925 926	你
+T86	Person-Pronoun 943 944	你
+T87	Person-Pronoun 953 954	你
+T88	Person-Pronoun 965 966	你
+T89	Person-Pronoun 974 975	你
+T90	Person-Pronoun 1000 1001	你
+T91	Location-Name 1027 1029	周庄
+*	Coreference T84 T91
+T92	Location-Nominal 1046 1048	长河
+T93	Location-Name 1055 1057	周庄
+T94	Time-Implicit 1059 1063	九百多年
+T95	Location-Nominal 1067 1069	小河
+T96	Thing-Nominal 1076 1078	名桥
+R4	Located Arg1:T96 Arg2:T95	
+T97	Time-Implicit 1081 1085	四五百年
+T98	Thing-Name 1097 1100	富安桥
+T99	Thing-Pronoun 1102 1103	它
+*	Coreference T99 T98 T101
+T100	Time-Explicit 1105 1110	1355年
+T101	Thing-Nominal 1111 1114	这座桥
+T102	Thing-Nominal 1125 1127	桥身
+R5	Part-Whole Arg1:T102 Arg2:T101	
+T103	Thing-Nominal 1132 1134	桥楼
+T104	Time-Implicit 1142 1144	今天
+T105	Person-Pronoun 1145 1147	我们
+T106	Thing-Nominal 1157 1159	飞檐
+T107	Thing-Nominal 1159 1161	朱栏
+T108	Thing-Nominal 1163 1164	梁
+T109	Thing-Nominal 1165 1166	栋
+R6	Part-Whole Arg1:T109 Arg2:T98	
+R7	Part-Whole Arg1:T106 Arg2:T98	
+R8	Part-Whole Arg1:T107 Arg2:T98	
+R9	Part-Whole Arg1:T108 Arg2:T98	
+T110	Location-Nominal 1185 1189	江南水乡
+T111	Thing-Nominal 1192 1201	立体型桥楼合壁建筑
+T112	Person-Nominal 1204 1207	设计者
+R10	Create Arg1:T112 Arg2:T111	
+T113	Person-Nominal 1214 1217	工匠们
+R11	Create Arg1:T113 Arg2:T111	
+T114	Location-Nominal 1229 1230	桥
+T115	Time-Implicit 1244 1246	古代
+T116	Person-Nominal 1248 1251	动人民
+T117	Thing-Name 1273 1275	双桥
+T118	Thing-Pronoun 1276 1277	它
+*	Coreference T118 T117 T127 T128
+T119	Time-Explicit 1279 1283	明万历年
+T120	Person-Nominal 1303 1306	亲兄弟
+T121	Time-Implicit 1325 1327	古代
+T123	Thing-Nominal 1357 1359	钥匙
+T124	Thing-Nominal 1350 1356	现代城市之门
+T122	Thing-Nominal 1327 1331;1332 1336	地位显赫 人家的门
+T125	Time-Implicit 1383 1386	几百年
+T126	Location-Pronoun 1419 1421	那里
+T127	Thing-Pronoun 1423 1425	自己
+T128	Thing-Pronoun 1442 1443	它
+T129	Thing-Pronoun 1446 1447	它
+T130	Thing-Nominal 1450 1451	砖
+T131	Thing-Nominal 1454 1455	石
+T132	Thing-Nominal 1457 1458	孔
+T133	Thing-Pronoun 1484 1486	它们
+T134	Person-Nominal 1503 1505	人们
+T135	Thing-Nominal 1534 1536	河水
+T136	Person-Nominal 1549 1554	这里的人们
+T137	Person-Pronoun 1566 1567	你
+T138	Person-Pronoun 1585 1586	我
+T139	Location-Name 1588 1590	周庄
+T140	Location-Nominal 1611 1613	小河
+T141	Thing-Nominal 1620 1621	水
+T142	Thing-Nominal 1628 1629	桥
+T143	Thing-Pronoun 1630 1632	它们
+T144	Person-Pronoun 1636 1637	我
+T145	Person-Pronoun 1644 1645	我
+T146	Person-Pronoun 1651 1652	我

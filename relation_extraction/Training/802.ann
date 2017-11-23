@@ -1,0 +1,268 @@
+T1	Location-Name 1 3	仙牙
+T2	Location-Name 5 11	峨眉四峨山麓
+R1	Part-Whole Arg1:T1 Arg2:T2	
+T3	Metric 14 17	八百米
+T4	Thing-Nominal 31 32	崖
+T5	Metric 34 36	四米
+T6	Thing-Nominal 38 40	山洞
+R2	Located Arg1:T4 Arg2:T6	
+T7	Metric 43 48	一六十公分
+T8	Thing-Nominal 48 50	兽牙
+T9	Thing-Nominal 55 57	仙牙
+R3	Located Arg1:T8 Arg2:T6	
+T10	Location-Nominal 58 60	该村
+*	Coreference T1 T10
+T11	Location-Name 71 74	仙牙村
+T12	Thing-Nominal 76 77	碑
+T13	Time-Implicit 80 84	癸巳春分
+T14	Person-Nominal 86 88	友人
+T15	Thing-Nominal 92 94	名山
+T16	Thing-Name 94 101	峨眉之西麓仙牙
+R4	General-Special Arg1:T16 Arg2:T15	
+T17	Thing-Nominal 105 107	桃花
+R5	Located Arg1:T17 Arg2:T16	
+T18	Time-Explicit 110 116	早晨八点左右
+T19	Thing-Nominal 117 119	太阳
+T20	Location-Nominal 120 122	城市
+T21	Person-Nominal 132 134	病人
+T22	Thing-Nominal 135 139	彩超底片
+T23	Time-Implicit 141 143	此时
+T24	Person-Pronoun 144 146	我们
+T25	Thing-Name 154 158	南门大桥
+T26	Thing-Nominal 159 160	车
+T27	Thing-Nominal 161 162	轮
+R6	Part-Whole Arg1:T27 Arg2:T26	
+T29	Thing-Nominal 167 169	菜花
+T28	Location-Nominal 164 167	路两旁
+R7	Located Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 191 192	车
+T31	Location-Name 200 203	双福镇
+T32	Location-Name 204 206	烂街
+R8	Part-Whole Arg1:T32 Arg2:T31	
+T33	Location-Name 208 211	普兴河
+T34	Thing-Nominal 221 223	车轮
+T35	Thing-Nominal 226 228	深山
+T36	Person-Pronoun 238 240	我们
+T37	Thing-Nominal 243 245	蚂蚁
+T38	Thing-Nominal 266 267	坡
+T39	Thing-Nominal 282 284	崖壁
+T40	Person-Pronoun 303 304	我
+T41	Location-Name 310 312	仙牙
+T42	Person-Pronoun 313 315	我们
+T43	Location-Nominal 319 326	这个小小的村落
+*	Coreference T43 T41
+T44	Thing-Nominal 329 331	青山
+T45	Thing-Nominal 334 336	浅谷
+T46	Thing-Nominal 337 338	山
+T47	Thing-Nominal 357 358	谷
+T48	Thing-Nominal 368 369	云
+T49	Thing-Nominal 370 371	鸟
+T50	Thing-Nominal 382 384	双峰
+T51	Thing-Nominal 388 389	乳
+T52	Thing-Nominal 397 399	巨臂
+T53	Thing-Nominal 411 413	白墙
+T54	Thing-Nominal 413 415	青瓦
+T55	Thing-Nominal 429 430	刃
+T56	Thing-Nominal 433 435	怪石
+T57	Thing-Nominal 443 445	苍松
+T58	Thing-Nominal 445 447	翠柏
+T59	Thing-Nominal 448 450	山脊
+T60	Thing-Nominal 463 465	银镯
+T61	Location-Nominal 470 472	山口
+T62	Thing-Nominal 476 477	坡
+T63	Thing-Nominal 485 487	巨石
+T64	Thing-Nominal 491 496	仙牙”二字
+R9	Located Arg1:T64 Arg2:T63	
+T65	Thing-Nominal 505 509	三角大石
+T66	Person-Nominal 515 519	神仙鬼怪
+T67	Thing-Nominal 520 521	牙
+R10	Part-Whole Arg1:T67 Arg2:T66	
+T68	Time-Implicit 531 535	正值春分
+T69	Time-Implicit 537 540	逢周末
+T70	Thing-Nominal 541 543	车辆
+T71	Thing-Nominal 551 553	村道
+T72	Thing-Nominal 565 567	单车
+T73	Location-Name 592 601	农家乐“彝汉情深“
+T74	Person-Pronoun 602 603	我
+T75	Person-Nominal 609 613	彝族同胞
+T76	Person-Nominal 623 626	老板娘
+T77	Person-Nominal 627 631	彝族女子
+R11	General-Special Arg1:T76 Arg2:T77	
+T78	Location-Pronoun 632 634	这里
+*	Coreference T78 T73
+T79	Thing-Nominal 635 637	民居
+T80	Thing-Nominal 653 655	红砖
+T81	Thing-Nominal 655 657	绿瓦
+T82	Location-Nominal 662 664	闹市
+T83	Location-Nominal 667 669	院坝
+T84	Location-Nominal 671 675	茶肆餐馆
+T85	Thing-Nominal 682 683	烟
+T86	Thing-Nominal 686 687	肉
+T87	Thing-Nominal 697 700	羊肉串
+T88	Thing-Nominal 705 707	音箱
+T89	Location-Nominal 754 756	山上
+T90	Thing-Nominal 756 758	桃花
+R12	Located Arg1:T90 Arg2:T89	
+T91	Location-Nominal 765 767	山顶
+T92	Thing-Nominal 790 792	桃花
+T93	Location-Nominal 819 821	路旁
+T94	Location-Nominal 826 828	石隙
+R13	Located Arg1:T92 Arg2:T94	
+R14	Located Arg1:T92 Arg2:T93	
+T95	Thing-Nominal 852 853	树
+T96	Thing-Nominal 864 866	枝干
+T97	Thing-Nominal 872 873	树
+T98	Thing-Nominal 877 879	春风
+T99	Thing-Nominal 881 882	花
+T100	Thing-Nominal 982 983	叶
+T101	Thing-Nominal 984 985	花
+R15	Located Arg1:T101 Arg2:T100	
+T102	Thing-Nominal 994 995	花
+T103	Thing-Nominal 996 997	叶
+T104	Thing-Nominal 1005 1007	山风
+T105	Thing-Nominal 1010 1012	落英
+T106	Thing-Nominal 1036 1038	树木
+T107	Thing-Nominal 1041 1043	枝条
+R16	Part-Whole Arg1:T107 Arg2:T106	
+T108	Thing-Nominal 1063 1065	彩云
+T109	Thing-Nominal 1073 1075	山坡
+T110	Thing-Nominal 1084 1086	锦缎
+T111	Thing-Nominal 1089 1091	绿草
+T112	Thing-Nominal 1094 1096	野花
+T113	Thing-Nominal 1097 1098	雪
+T114	Thing-Nominal 1099 1101	翠柏
+T115	Thing-Nominal 1104 1106	黄土
+T116	Person-Pronoun 1110 1111	你
+T117	Thing-Nominal 1112 1114	眼睛
+R17	Part-Whole Arg1:T117 Arg2:T116	
+T118	Location-Nominal 1135 1137	山外
+T119	Thing-Nominal 1157 1159	桃花
+T120	Thing-Nominal 1164 1168	仙牙桃花
+*	Coreference T119 T120
+T121	Time-Implicit 1148 1150	此时
+T122	Thing-Nominal 1153 1154	山
+R18	Located Arg1:T106 Arg2:T109	
+T123	Location-Nominal 1173 1175	桃林
+T124	Thing-Nominal 1185 1187	春衫
+T125	Person-Nominal 1178 1182	男女老幼
+T126	Thing-Nominal 1220 1222	树杈
+T127	Thing-Nominal 1236 1237	枝
+T128	Person-Nominal 1239 1241	少妇
+T129	Person-Nominal 1248 1257	特别吸引男人目光者
+T130	Thing-Nominal 1286 1288	黑丝
+T131	Person-Nominal 1320 1323	绝色者
+T132	Thing-Nominal 1333 1334	花
+T133	Time-Implicit 1337 1341	午餐之后
+T134	Person-Nominal 1343 1344	友
+T135	Person-Nominal 1348 1350	少年
+T136	Location-Nominal 1354 1356	山脚
+T137	Thing-Nominal 1361 1363	小径
+T138	Thing-Nominal 1364 1365	山
+T139	Thing-Nominal 1371 1372	带
+T140	Thing-Nominal 1386 1388	桃花
+T141	Person-Nominal 1391 1393	美女
+T142	Thing-Nominal 1396 1397;1398 1399	山 坡
+T143	Location-Nominal 1411 1413	山顶
+T144	Person-Pronoun 1419 1421	我们
+T145	Thing-Nominal 1426 1428	手脚
+T146	Thing-Nominal 1432 1433	荆
+T147	Thing-Nominal 1434 1435	棘
+T148	Location-Nominal 1438 1440	山巅
+R19	Use Arg1:T144 Arg2:T146	
+R20	Use Arg1:T144 Arg2:T147	
+R21	Part-Whole Arg1:T145 Arg2:T144	
+T149	Thing-Nominal 1443 1445	远山
+T150	Metric 1450 1452	万里
+T151	Thing-Nominal 1394 1395	云
+T152	Thing-Nominal 1455 1457	锦被
+T153	Person-Nominal 1461 1463	游人
+T154	Thing-Nominal 1464 1465	蚁
+T155	Thing-Name 1469 1471	峨山
+T156	Thing-Nominal 1499 1500	山
+T157	Thing-Nominal 1501 1502	谷
+T158	Location-Nominal 1506 1508	山下
+T159	Person-Nominal 1508 1510	游人
+T160	Thing-Nominal 1531 1533	桃花
+T161	Thing-Nominal 1550 1551	天
+T162	Thing-Nominal 1552 1553	地
+T163	Thing-Nominal 1576 1578	山脊
+T164	Location-Nominal 1586 1589	芳草地
+T165	Time-Implicit 1579 1582	攀登不
+T166	Location-Nominal 1598 1600	山顶
+T167	Location-Nominal 1591 1593	半山
+T168	Thing-Nominal 1601 1602	草
+R22	Located Arg1:T168 Arg2:T166	
+R23	Located Arg1:T168 Arg2:T167	
+T169	Metric 1603 1605	一尺
+T170	Thing-Nominal 1614 1615	花
+T171	Thing-Nominal 1622 1623	星
+T172	Thing-Nominal 1637 1639	桃树
+T173	Thing-Nominal 1643 1645	青石
+T174	Thing-Nominal 1646 1648	杂花
+T175	Person-Nominal 1660 1662	少年
+T176	Person-Pronoun 1672 1676	我们四人
+T177	Thing-Nominal 1686 1688	繁花
+T178	Thing-Nominal 1697 1699	红英
+T179	Thing-Nominal 1702 1703	蜂
+T180	Thing-Nominal 1704 1705	蝶
+T181	Thing-Nominal 1710 1712	草木
+T182	Thing-Nominal 1731 1732	桃
+T183	Thing-Nominal 1733 1734	花
+T184	Thing-Nominal 1744 1745	花
+T185	Thing-Nominal 1747 1748	花
+T186	Person-Nominal 1749 1753	男女老幼
+T187	Time-Implicit 1762 1766	去年今日
+T188	Thing-Nominal 1767 1768	门
+T189	Thing-Nominal 1772 1774	桃花
+T190	Thing-Nominal 1787 1789	桃花
+T191	Thing-Nominal 1792 1794	春风
+T192	Person-Name 1796 1798	崔护
+T193	Thing-Nominal 1804 1806	桃花
+T194	Person-Pronoun 1811 1812	他
+*	Coreference T194 T192
+T195	Thing-Nominal 1821 1823	桃花
+T196	Person-Pronoun 1827 1828	他
+T197	Person-Nominal 1847 1849	他人
+T198	Thing-Nominal 1857 1859	春江
+T199	Thing-Nominal 1863 1865	杖藜
+T200	Thing-Nominal 1874 1876	柳絮
+T201	Thing-Nominal 1877 1878	风
+T202	Thing-Nominal 1882 1884	桃花
+T203	Thing-Nominal 1885 1886	水
+T204	Person-Name 1889 1891	杜甫
+T205	Thing-Nominal 1895 1897	桃花
+T206	Person-Name 1905 1907	老杜
+*	Coreference T206 T204
+T207	Person-Nominal 1919 1924	读此文章者
+T208	Person-Pronoun 1928 1929	我
+T209	Person-Nominal 1931 1933	桃花
+T210	Person-Nominal 1927 1934	解我胸中桃花者
+T211	Person-Pronoun 1937 1939	鄙人
+T212	Location-Name 1957 1959	仙牙
+*	Coreference T208 T211
+T213	Time-Implicit 1968 1970	春日
+T214	Location-Name 1973 1975	普兴
+T215	Thing-Nominal 1978 1980	飞轮
+T216	Thing-Nominal 1981 1983	浮云
+T217	Thing-Nominal 1976 1977	脚
+T218	Thing-Nominal 1989 1991	桃花
+T219	Location-Nominal 1995 1997	山腰
+T220	Thing-Nominal 1997 1998	树
+R24	Located Arg1:T220 Arg2:T219	
+T221	Location-Nominal 2004 2006	山中
+T222	Location-Nominal 2006 2008	山外
+T223	Thing-Nominal 2012 2014	玉带
+T224	Thing-Nominal 2023 2025	青山
+T225	Thing-Nominal 2031 2033	桃花
+T226	Thing-Nominal 2034 2035	米
+T227	Thing-Nominal 2042 2044	山坡
+T228	Person-Nominal 2057 2059	美人
+T229	Person-Pronoun 2060 2061	我
+T230	Thing-Nominal 2062 2064	佳酿
+T231	Thing-Nominal 2076 2078	桃花
+T232	Thing-Nominal 2086 2088	黑丝
+T233	Location-Nominal 2093 2094	岭
+T234	Thing-Nominal 2095 2097	双峰
+T235	Thing-Nominal 2101 2103	乌云
+T236	Thing-Nominal 2104 2105	日
+T237	Thing-Nominal 2106 2108	春衫

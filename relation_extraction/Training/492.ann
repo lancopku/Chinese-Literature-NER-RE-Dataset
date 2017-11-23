@@ -1,0 +1,38 @@
+T1	Person-Nominal 4 6	常人
+T2	Thing-Nominal 27 29	冰霜
+T3	Thing-Nominal 115 118	彩虹桥
+T4	Person-Nominal 167 168	人
+T5	Thing-Nominal 141 144	常青树
+T6	Location-Nominal 226 230;231 234	如风如云 的四周
+T7	Person-Nominal 275 276	人
+T8	Location-Nominal 284 289	清明的风里
+T9	Thing-Nominal 305 311	一壶陈年佳酿
+T10	Location-Nominal 331 335	合欢树上
+T11	Thing-Nominal 338 344	粉色的小花扇
+R1	Located Arg1:T11 Arg2:T10	
+T12	Thing-Nominal 348 353	一串串青籽
+T13	Location-Nominal 396 398	枝头
+T14	Thing-Nominal 444 445	叶
+T15	Thing-Nominal 491 493	野菊
+T16	Location-Nominal 488 490	路边
+R2	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 497 499	山野
+T18	Thing-Nominal 517 518	山
+T19	Thing-Nominal 525 526	山
+T20	Location-Nominal 534 541	山顶的梧桐树下
+T21	Person-Nominal 569 570	人
+T22	Person-Nominal 579 580	人
+T23	Thing-Nominal 649 652	珍珠贝
+T24	Location-Name 685 689	长江源头
+T25	Location-Name 690 694	黄河尾上
+T26	Thing-Nominal 704 706	浪花
+R3	Located Arg1:T26 Arg2:T25	
+R4	Located Arg1:T26 Arg2:T24	
+T27	Thing-Nominal 709 714	人间坎坷路
+T28	Thing-Nominal 728 731	玫瑰园
+T29	Thing-Nominal 736 739	万花海
+T30	Location-Nominal 768 777	幽幽清清的午夜灯下
+T31	Person-Nominal 817 818	人
+T32	Person-Nominal 837 838	人
+T33	Location-Nominal 841 845	有缘树下
+T34	Location-Nominal 858 862	有情花丛

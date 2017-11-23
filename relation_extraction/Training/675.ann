@@ -1,0 +1,410 @@
+T1	Person-Pronoun 0 1	我
+T2	Time-Implicit 10 14	这个冬日
+T3	Thing-Nominal 17 34	一首叫《天堂里有没有车来车往》老歌
+T4	Thing-Nominal 50 51	车
+T5	Thing-Nominal 52 53	车
+T6	Thing-Nominal 55 56	车
+T7	Thing-Nominal 57 58	车
+T8	Person-Pronoun 62 63	你
+T9	Person-Nominal 67 69	天使
+T10	Thing-Name 73 75	月儿
+T11	Time-Implicit 78 80	黑夜
+T12	Thing-Nominal 83 85	空气
+T13	Person-Pronoun 104 105	我
+T14	Time-Implicit 115 120	这一季的冬
+T15	Person-Pronoun 109 110	我
+T16	Time-Implicit 131 135	这个冬日
+T17	Time-Implicit 136 147	我所经历的最寒冷的冬日
+T18	Time-Implicit 148 153	这样的冬日
+*	Coreference T17 T16 T14 T2 T24
+T19	Person-Pronoun 154 155	我
+T20	Person-Pronoun 136 137	我
+T21	Thing-Nominal 160 169	一股挥之不去的软雾
+T22	Location-Nominal 177 181	这个城市
+R1	Located Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 184 191	一团巨大的阴霾
+T24	Time-Implicit 196 200	这个冬天
+T25	Thing-Pronoun 207 208	它
+T26	Time-Implicit 208 212	一天到晚
+T27	Thing-Nominal 214 216	冷雨
+T28	Thing-Nominal 218 220	薄雪
+T29	Thing-Nominal 226 229	雨夹雪
+T30	Person-Nominal 231 232	人
+T31	Person-Pronoun 240 241	我
+T32	Time-Implicit 245 252;253 254	难得的双休日早 晨
+T33	Thing-Nominal 257 259	被子
+R2	Use Arg1:T31 Arg2:T33	
+T34	Thing-Nominal 271 276	床头的手机
+R3	Ownership Arg1:T31 Arg2:T34	
+T35	Location-Nominal 271 273	床头
+R4	Located Arg1:T34 Arg2:T35	
+T36	Thing-Nominal 291 297	打错了的电话
+T37	Thing-Nominal 299 306	这个烦人的电话
+R5	General-Special Arg1:T36 Arg2:T37	
+T38	Person-Pronoun 307 308	我
+T39	Thing-Nominal 311 312	虫
+T40	Thing-Nominal 334 336	衣服
+R6	Use Arg1:T38 Arg2:T40	
+T41	Person-Pronoun 343 344	我
+T42	Thing-Nominal 349 357	每天必听的收音机
+R7	Use Arg1:T41 Arg2:T42	
+T43	Thing-Nominal 358 360	电台
+T44	Thing-Nominal 365 374;375 378	一首阿桑的《温柔的 慈悲》
+T45	Person-Name 379 381	阿桑
+R8	Create Arg1:T45 Arg2:T44	
+T46	Metric 365 367	一首
+R9	Located Arg1:T43 Arg2:T42	
+T47	Person-Nominal 384 387	好歌手
+R10	General-Special Arg1:T47 Arg2:T45	
+T48	Person-Pronoun 388 389	她
+*	Coreference T48 T45
+T49	Thing-Nominal 388 392	她的嗓声
+R11	Create Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 397 405	这种忧怨苦情的歌
+R12	General-Special Arg1:T50 Arg2:T44	
+T51	Person-Nominal 407 408	人
+T52	Thing-Nominal 420 422	歌声
+T53	Person-Pronoun 430 431	我
+T54	Person-Pronoun 450 451	我
+T55	Thing-Nominal 441 447	不争气的肚子
+R13	Part-Whole Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 458 460	晨雾
+T57	Person-Pronoun 461 462	我
+T58	Location-Nominal 464 472	楼下的一家米粉店
+T59	Thing-Nominal 475 479	一碗米粉
+R14	Use Arg1:T57 Arg2:T59	
+T60	Location-Nominal 484 485	家
+T61	Thing-Nominal 488 501	近两个月都没完成的一个中篇
+T62	Metric 489 492	两个月
+R15	Create Arg1:T57 Arg2:T61	
+T63	Thing-Nominal 505 506	笔
+R16	Use Arg1:T57 Arg2:T63	
+T65	Thing-Nominal 511 512	心
+R19	Part-Whole Arg1:T65 Arg2:T57	
+T66	Thing-Nominal 540 546	短短的一小段
+T64	Thing-Nominal 507 510	两小段
+R17	Part-Whole Arg1:T64 Arg2:T61	
+R18	Part-Whole Arg1:T66 Arg2:T61	
+T67	Location-Nominal 554 560	楼下的大市场
+T68	Person-Nominal 566 567	人
+T69	Person-Nominal 574 578	身边的人
+T70	Person-Pronoun 593 595	他们
+*	Coreference T70 T69
+T71	Person-Pronoun 598 599	我
+T72	Person-Pronoun 602 604	他们
+T73	Time-Implicit 612 614	此时
+T74	Person-Nominal 616 626	为写小说绞尽脑汁的人
+R20	General-Special Arg1:T74 Arg2:T71	
+T75	Thing-Nominal 618 620	小说
+R21	Create Arg1:T74 Arg2:T75	
+T76	Location-Nominal 635 643	喧闹熙攘的人群里
+T77	Person-Pronoun 646 647	谁
+T78	Person-Pronoun 650 651	我
+T79	Person-Pronoun 656 658	他们
+T80	Person-Pronoun 673 674	我
+T81	Person-Pronoun 680 681	我
+T82	Location-Nominal 683 692	汽车站前的那条大街
+T83	Thing-Nominal 694 703	汽车站旁的一个报摊
+T84	Location-Nominal 683 686	汽车站
+R22	Near Arg1:T84 Arg2:T82	
+R23	Near Arg1:T83 Arg2:T84	
+T85	Thing-Nominal 706 710	两份报纸
+T86	Metric 706 708	两份
+R24	Ownership Arg1:T81 Arg2:T85	
+T87	Thing-Nominal 713 715	报纸
+*	Coreference T87 T85
+T88	Location-Nominal 716 718	世界
+T89	Thing-Nominal 732 740	这小小的一些文字
+R25	Located Arg1:T89 Arg2:T87	
+T90	Person-Pronoun 743 744	我
+T91	Person-Pronoun 747 748	我
+T92	Person-Pronoun 756 757	你
+T93	Person-Nominal 753 755	叔叔
+*	Coreference T92 T93 T91
+T94	Thing-Nominal 756 762	你掉的十元钱
+R26	Ownership Arg1:T92 Arg2:T94	
+T95	Thing-Nominal 767 774	一个童稚的声音
+T96	Person-Pronoun 776 777	你
+T97	Person-Pronoun 786 787	我
+T98	Person-Pronoun 789 790	他
+T99	Person-Pronoun 800 801	他
+T100	Thing-Nominal 789 795	他递过来的钱
+*	Coreference T100 T94
+T101	Time-Implicit 786 796	我接过他递过来的钱时
+T102	Person-Nominal 804 815	楼下搬过来不久的新人家
+T103	Person-Pronoun 816 817	他
+R27	Part-Whole Arg1:T99 Arg2:T102	
+T104	Person-Name 818 820	亮亮
+*	Coreference T104 T103 T114
+T105	Person-Nominal 821 824	他父亲
+T106	Person-Name 825 827	老蔡
+*	Coreference T106 T105 T142
+R28	Family Arg1:T105 Arg2:T104	
+T107	Person-Nominal 830 837	摆水果摊生意的
+R29	General-Special Arg1:T107 Arg2:T106	
+T108	Person-Pronoun 838 840	他们
+R30	Part-Whole Arg1:T106 Arg2:T108	
+R31	Part-Whole Arg1:T104 Arg2:T108	
+T109	Time-Implicit 841 845	一天到晚
+T110	Thing-Nominal 848 851	几个钱
+T111	Person-Pronoun 861 862	我
+T112	Thing-Nominal 867 869	短篇
+R32	Create Arg1:T111 Arg2:T112	
+T113	Location-Nominal 870 872	他家
+R33	Ownership Arg1:T105 Arg2:T113	
+T114	Person-Pronoun 879 880	你
+T115	Person-Name 883 885	亮亮
+T116	Person-Pronoun 888 889	他
+T117	Person-Pronoun 894 895	我
+T118	Person-Pronoun 897 899	亮亮
+*	Coreference T117 T116
+T119	Person-Pronoun 900 901	你
+*	Coreference T119 T111 T120 T123
+T120	Person-Nominal 905 916	我家楼上的那个作家叔叔
+T121	Person-Pronoun 921 922	他
+T122	Person-Pronoun 924 925	我
+T123	Person-Nominal 927 931	作家叔叔
+T124	Person-Pronoun 932 933	我
+T125	Person-Pronoun 946 947	他
+T126	Person-Pronoun 949 950	我
+T127	Person-Nominal 954 958	作家叔叔
+T128	Person-Pronoun 962 963	你
+T129	Person-Name 967 970	徐叔叔
+T130	Person-Pronoun 965 966	我
+*	Coreference T129 T130
+T131	Person-Pronoun 974 975	我
+T132	Time-Implicit 982 984	这时
+T133	Person-Name 985 991	他的姐姐小红
+T134	Person-Pronoun 1007 1009	亮亮
+T135	Person-Pronoun 1004 1005	他
+T136	Thing-Nominal 995 1000	一串冰葫芦
+R34	Use Arg1:T133 Arg2:T136	
+T137	Thing-Nominal 1010 1016	这个冰糖葫芦
+T138	Metric 995 997	一串
+R35	Family Arg1:T133 Arg2:T135	
+R36	Family Arg1:T133 Arg2:T105	
+T139	Person-Pronoun 1018 1019	你
+T140	Person-Pronoun 1023 1025	我们
+T141	Location-Nominal 1028 1029	家
+*	Coreference T141 T113 T159 T163
+T142	Person-Nominal 1034 1036	爸爸
+T143	Person-Pronoun 1041 1043	我们
+R37	Part-Whole Arg1:T134 Arg2:T143	
+R38	Part-Whole Arg1:T133 Arg2:T143	
+T144	Person-Pronoun 1046 1048	你们
+T145	Thing-Pronoun 1052 1054	什么
+T146	Person-Pronoun 1056 1057	我
+T147	Person-Pronoun 1058 1060	你们
+R39	Ownership Arg1:T139 Arg2:T137	
+T148	Person-Name 1067 1070	徐叔叔
+T149	Person-Pronoun 1072 1073	我
+T150	Person-Pronoun 1079 1081	亮亮
+*	Coreference T149 T150
+T151	Thing-Pronoun 1074 1075	它
+T152	Thing-Nominal 1084 1090	那串冰糖葫芦
+T153	Person-Pronoun 1095 1096	他
+T154	Person-Nominal 1097 1100	他姐姐
+T155	Thing-Nominal 991 992	手
+R40	Part-Whole Arg1:T155 Arg2:T133	
+T156	Thing-Nominal 1100 1101	手
+T157	Thing-Nominal 1102 1103	手
+T158	Person-Pronoun 1111 1113	他们
+*	Coreference T158 T143
+T159	Location-Nominal 1111 1115	他们的家
+T160	Person-Pronoun 1121 1123	他们
+T161	Location-Nominal 1105 1107	对街
+T162	Person-Pronoun 1129 1130	我
+T163	Location-Nominal 1138 1147	他们简陋而贫寒的家
+T164	Person-Pronoun 1148 1149	我
+T165	Person-Nominal 1155 1158	小男孩
+T166	Person-Name 1159 1161	亮亮
+*	Coreference T166 T165
+T167	Person-Nominal 1162 1164	姐姐
+T168	Person-Nominal 1165 1167	小红
+*	Coreference T168 T167 T154 T133
+T169	Person-Pronoun 1168 1169	我
+T170	Time-Implicit 1170 1175	下班回家时
+T171	Person-Pronoun 1181 1183	他们
+T172	Person-Pronoun 1188 1190	他们
+T173	Thing-Nominal 1191 1192	手
+T174	Thing-Nominal 1194 1195	手
+T175	Person-Pronoun 1198 1199	我
+T176	Time-Implicit 1196 1200	见到我时
+T177	Person-Nominal 1206 1210	作家叔叔
+T178	Person-Nominal 1213 1217	作家叔叔
+*	Coreference T177 T175
+T179	Person-Pronoun 1224 1225	我
+T180	Thing-Nominal 1226 1228	报纸
+R41	Use Arg1:T179 Arg2:T180	
+T181	Thing-Nominal 1232 1236	裤子口袋
+R42	Located Arg1:T180 Arg2:T181	
+T182	Person-Pronoun 1239 1243	亮亮他们
+*	Coreference T182 T172
+T183	Location-Nominal 1248 1255	斑马线的路中央
+T184	Thing-Nominal 1256 1265	那串红红的冰糖葫芦
+T185	Location-Nominal 1268 1271	他手上
+R43	Located Arg1:T184 Arg2:T185	
+T186	Person-Pronoun 1268 1269	他
+T187	Time-Implicit 1273 1275	此时
+T188	Time-Implicit 1278 1283	上午十点多
+T189	Thing-Nominal 1284 1289	浓浓的大雾
+T190	Thing-Nominal 1299 1305	她本身的面貌
+T191	Location-Nominal 1294 1296	世界
+R44	Located Arg1:T190 Arg2:T191	
+T192	Thing-Name 1307 1309	太阳
+T193	Thing-Pronoun 1319 1320	它
+*	Coreference T193 T192
+T194	Time-Implicit 1327 1332	这一季的冬
+T195	Thing-Name 1334 1336	太阳
+T196	Person-Name 1352 1354	亮亮
+T197	Person-Pronoun 1368 1369	他
+T198	Thing-Nominal 1359 1361	阳光
+T199	Thing-Nominal 1368 1379	他身穿的那一身红色校服
+R45	Use Arg1:T197 Arg2:T199	
+T200	Thing-Nominal 1387 1394	一堆燃烧的火焰
+T201	Thing-Nominal 1404 1410	那一小堆火焰
+*	Coreference T201 T200
+T202	Location-Nominal 1414 1416	大街
+T203	Thing-Nominal 1422 1431	“戛――”的刹车声
+T204	Thing-Nominal 1438 1444	一辆公共汽车
+T205	Person-Pronoun 1445 1447	他们
+T206	Metric 1438 1440	一辆
+T207	Person-Nominal 1452 1455;1456 1464	走在小 红前面的一位妇女
+T208	Person-Name 1470 1472	小红
+T209	Person-Name 1482 1484	小红
+T210	Person-Name 1485 1487	亮亮
+T212	Person-Name 1502 1504	亮亮
+T211	Thing-Nominal 1490 1491	手
+T213	Thing-Nominal 1510 1511	车
+*	Coreference T213 T204
+T214	Location-Nominal 1515 1516;1517 1518	地 上
+T215	Thing-Nominal 1519 1527	红的血和白的脑浆
+R46	Part-Whole Arg1:T215 Arg2:T212	
+T216	Person-Pronoun 1533 1534	我
+T217	Person-Name 1545 1547	亮亮
+T218	Person-Name 1550 1552	亮亮
+T219	Person-Pronoun 1559 1560	他
+T220	Person-Pronoun 1566 1567	我
+T221	Person-Pronoun 1572 1573	我
+T222	Thing-Nominal 1576 1578	机械
+T223	Thing-Nominal 1580 1590	亮亮尚有些温热的身体
+T224	Person-Name 1580 1582	亮亮
+R47	Ownership Arg1:T224 Arg2:T223	
+T225	Person-Nominal 1600 1610	一个个活泼幼小的生命
+*	Coreference T225 T224
+T226	Location-Nominal 1617 1622	宽阔的大街
+T227	Thing-Nominal 1626 1633	一个小小的身体
+*	Coreference T227 T223
+T228	Person-Name 1645 1647	亮亮
+T229	Thing-Nominal 1648 1654	那小小的尸体
+R48	Ownership Arg1:T228 Arg2:T229	
+T230	Person-Nominal 1655 1656	人
+T231	Thing-Nominal 1657 1660	破毛毯
+T232	Thing-Nominal 1664 1665	头
+R49	Part-Whole Arg1:T232 Arg2:T229	
+T233	Thing-Nominal 1668 1673	干了的血块
+T234	Thing-Nominal 1675 1681	面目全非的脸
+R50	Part-Whole Arg1:T234 Arg2:T232	
+R51	Located Arg1:T233 Arg2:T234	
+T235	Person-Pronoun 1683 1684	我
+T236	Person-Pronoun 1700 1701	我
+T237	Person-Pronoun 1702 1703	他
+T238	Thing-Nominal 1718 1720	警车
+T239	Person-Nominal 1728 1731	肇事者
+T240	Thing-Nominal 1734 1735	车
+T241	Person-Name 1738 1740	亮亮
+T242	Person-Nominal 1751 1756	看热闹的人
+T243	Location-Nominal 1758 1763	宽敞的大街
+T244	Thing-Nominal 1777 1778;1779 1784	街 两旁的车辆
+T245	Person-Nominal 1789 1793	几个交警
+T246	Person-Name 1795 1797	亮亮
+T247	Person-Nominal 1810 1814	另外几个
+T248	Thing-Nominal 1820 1825	两边的车辆
+T249	Person-Nominal 1841 1842	人
+T250	Thing-Nominal 1864 1873	一个正在举行的葬礼
+T251	Thing-Nominal 1850 1861	一出正在上演经典的哑剧
+T252	Time-Implicit 1875 1877	这时
+T253	Thing-Nominal 1880 1885	细细的雨丝
+T254	Person-Nominal 1894 1899	亮亮的妈妈
+R52	Family Arg1:T254 Arg2:T246	
+T255	Person-Name 1908 1912	姐姐小红
+R53	Family Arg1:T254 Arg2:T255	
+R54	Family Arg1:T254 Arg2:T105	
+*	Coreference T209 T255
+T256	Person-Name 1921 1923	亮亮
+T257	Thing-Nominal 1921 1926	亮亮的尸体
+*	Coreference T257 T229 T308
+T258	Person-Pronoun 1937 1938	我
+T259	Person-Pronoun 1955 1957	她们
+T260	Person-Pronoun 1958 1960	她们
+R55	Part-Whole Arg1:T255 Arg2:T259	
+R56	Part-Whole Arg1:T254 Arg2:T259	
+T261	Person-Name 1969 1971	亮亮
+T262	Person-Pronoun 1979 1980	他
+T263	Thing-Nominal 1984 1994	一串未吃完的冰糖葫芦
+*	Coreference T263 T184 T152 T151 T137 T136 T266 T270
+T264	Thing-Nominal 1998 2000	泥尘
+R57	Part-Whole Arg1:T264 Arg2:T263	
+T265	Person-Nominal 2001 2004	亮亮妈
+*	Coreference T265 T254
+T266	Thing-Nominal 2012 2018	那串冰糖葫芦
+T267	Person-Pronoun 2021 2022	他
+T268	Person-Pronoun 2031 2033	亮亮
+T269	Person-Nominal 2034 2037	我的儿
+*	Coreference T269 T268
+T270	Thing-Nominal 2039 2045	这串冰糖葫芦
+T271	Person-Pronoun 2050 2051	你
+T272	Person-Nominal 2060 2063	我的儿
+T273	Person-Nominal 2067 2071	周围的人
+T274	Location-Nominal 2086 2092	宽阔的大街上
+T275	Thing-Nominal 2099 2104	飞驰的车辆
+T276	Person-Nominal 2109 2111	人们
+T277	Person-Nominal 2123 2125	亮亮
+T278	Location-Nominal 2135 2142	这拥挤的大街上
+*	Coreference T278 T274 T280 T305
+T279	Thing-Nominal 2145 2147	冬雨
+T280	Location-Nominal 2156 2171	这条片刻前充满了死亡气息的大街
+T281	Person-Pronoun 2172 2173	我
+T282	Person-Pronoun 2176 2177	我
+T283	Thing-Nominal 2192 2194	细雨
+T284	Person-Pronoun 2196 2197	我
+T285	Thing-Nominal 2199 2201	冬雨
+T286	Location-Nominal 2204 2206	耳边
+T287	Thing-Nominal 2204 2205	耳
+R58	Part-Whole Arg1:T287 Arg2:T284	
+T288	Person-Pronoun 2207 2208	我
+T289	Thing-Nominal 2212 2214	声音
+T290	Thing-Name 2221 2223	月儿
+T291	Time-Implicit 2226 2228	黑夜
+T292	Person-Nominal 2231 2233	孩子
+T293	Person-Pronoun 2233 2234	你
+*	Coreference T293 T292
+T294	Person-Pronoun 2237 2238	我
+T295	Person-Pronoun 2239 2240	你
+T296	Person-Pronoun 2243 2244	你
+T297	Person-Nominal 2247 2251	你的爸爸
+*	Coreference T297 T296
+T298	Location-Nominal 2252 2258	那遥远的地方
+T299	Thing-Nominal 2260 2261	车
+T300	Thing-Nominal 2262 2263	车
+T301	Location-Nominal 2265 2271	那安静的地方
+T302	Thing-Nominal 2271 2273	小河
+R59	Located Arg1:T302 Arg2:T301	
+T303	Location-Nominal 2279 2285	那洁白的地方
+T304	Person-Name 2317 2319	亮亮
+T305	Location-Nominal 2333 2341	这苍白冷酷的大街
+T306	Person-Pronoun 2343 2344	我
+T307	Thing-Nominal 2348 2353	薄薄的毯子
+T308	Thing-Nominal 2356 2363	一个小小的尸体
+*	Coreference T307 T231
+T309	Person-Name 2368 2370	亮亮
+T310	Person-Pronoun 2376 2377	我
+T311	Time-Implicit 2378 2382	一个寒冬
+T312	Time-Implicit 2389 2396	这个寒冷的冬日
+*	Coreference T311 T312 T314
+T313	Person-Pronoun 2397 2398	我
+T314	Time-Implicit 2414 2415	它
+T315	Person-Pronoun 2427 2428	我
+T316	Person-Pronoun 2438 2439	我
+T317	Person-Pronoun 2452 2453	我
+T318	Person-Name 2467 2469	亮亮

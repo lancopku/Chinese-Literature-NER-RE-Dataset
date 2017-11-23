@@ -1,0 +1,265 @@
+T1	Person-Nominal 0 2	母亲
+T3	Location-Nominal 5 18	望楼河畔秦标村一个中农家庭
+T4	Time-Explicit 41 44	解放前
+T5	Person-Nominal 45 47	母亲
+T6	Person-Nominal 48 50	父母
+T8	Person-Nominal 58 60	父亲
+R4	Family Arg1:T8 Arg2:T5	
+T9	Time-Implicit 61 63	从小
+T10	Organization-Nominal 67 69	我家
+T11	Person-Nominal 77 82	家庭的主妇
+T12	Time-Explicit 83 86	解放后
+T13	Person-Nominal 87 89	父亲
+T14	Person-Nominal 90 92	母亲
+T16	Person-Nominal 94 100	我们姐弟四人
+T17	Metric 98 100	四人
+T18	Person-Nominal 102 104	妹妹
+R5	Family Arg1:T16 Arg2:T13	
+T19	Location-Nominal 108 110	家里
+T20	Person-Nominal 112 114	父亲
+T21	Location-Nominal 115 117	外地
+T22	Person-Nominal 123 125	爷爷
+T23	Person-Nominal 126 128	奶奶
+T24	Person-Nominal 129 131	姑姑
+R7	Family Arg1:T24 Arg2:T23	
+R8	Family Arg1:T24 Arg2:T22	
+R9	Family Arg1:T24 Arg2:T22	
+R10	Family Arg1:T22 Arg2:T20	
+R11	Family Arg1:T24 Arg2:T20	
+R12	Family Arg1:T23 Arg2:T20	
+T25	Location-Nominal 132 134	家里
+T26	Person-Nominal 134 135	人
+T27	Thing-Nominal 136 137	物
+T28	Time-Implicit 144 159	在五十年代“人民公社”的日子里
+T29	Organization-Name 150 154	人民公社
+T30	Person-Pronoun 166 168	我们
+T31	Thing-Nominal 181 186	稀糊糊的粥
+T32	Thing-Nominal 187 193	一些野生杂菜
+T33	Thing-Nominal 198 202	一顿干饭
+T34	Person-Nominal 215 218	一家人
+T35	Person-Nominal 222 223;224 225	母 亲
+T36	Time-Explicit 232 236	早出晚归
+T37	Organization-Nominal 238 241	生产队
+T38	Thing-Nominal 249 250	粮
+T39	Location-Nominal 251 254	在家里
+T40	Person-Nominal 254 256	母亲
+T41	Thing-Nominal 259 260	菜
+T42	Thing-Nominal 262 263	猪
+T44	Person-Nominal 276 278	母亲
+T45	Person-Nominal 281 289	一个缠
+足的妇女
+T46	Person-Pronoun 297 298	她
+T47	Thing-Nominal 306 311	勤劳的双手
+R13	Part-Whole Arg1:T47 Arg2:T46	
+T48	Location-Nominal 321 324	在家中
+T49	Person-Nominal 325 327	母亲
+T51	Person-Pronoun 337 338	她
+T52	Thing-Nominal 344 345	腰
+T53	Thing-Nominal 347 348	腿
+R14	Part-Whole Arg1:T52 Arg2:T51	
+R15	Part-Whole Arg1:T53 Arg2:T51	
+T54	Thing-Nominal 357 359	手掌
+R16	Part-Whole Arg1:T54 Arg2:T51	
+T55	Location-Nominal 360 362	腰间
+T56	Thing-Nominal 360 361	腰
+R17	Part-Whole Arg1:T56 Arg2:T51	
+T57	Person-Pronoun 365 366	我
+T60	Thing-Nominal 378 380	泪珠
+R20	Part-Whole Arg1:T60 Arg2:T57	
+T61	Person-Pronoun 381 382	她
+T62	Person-Nominal 385 386	妈
+*	Coreference T62 T61
+T63	Person-Pronoun 403 404	她
+T64	Person-Nominal 411 413	孩子
+T65	Person-Nominal 416 420	你们姐弟
+T67	Person-Nominal 428 429	妈
+T68	Person-Nominal 440 442	母亲
+T69	Thing-Nominal 448 453	春天的阳光
+T70	Time-Implicit 448 450	春天
+T71	Person-Pronoun 457 458	我
+T73	Person-Pronoun 461 462	我
+T74	Person-Nominal 472 474	母亲
+T76	Person-Nominal 490 492	子女
+T77	Time-Implicit 497 503	一九六零年后
+T79	Person-Nominal 504 508	我们姐弟
+T80	Person-Nominal 516 518	母亲
+T81	Person-Nominal 520 522	父亲
+T82	Thing-Nominal 534 535	衣
+T83	Thing-Nominal 536 537	食
+T84	Thing-Nominal 539 540	钱
+T85	Person-Pronoun 545 547	我们
+T86	Time-Implicit 551 553	有时
+T87	Location-Nominal 554 556	家里
+T89	Person-Nominal 561 563	母亲
+T90	Person-Nominal 567 569	子女
+T91	Person-Pronoun 573 574	我
+T92	Person-Nominal 575 577	父亲
+T93	Time-Implicit 578 584	“文革”期间
+T94	Person-Pronoun 585 586	我
+T95	Person-Nominal 587 589	父亲
+T96	Person-Name 594 597	臭老九
+T97	Person-Nominal 600 602	叛徒
+T98	Location-Nominal 608 610	讲台
+T99	Location-Nominal 623 625	牛棚
+T100	Thing-Nominal 613 615	高帽
+T101	Location-Name 628 634	“五七”干校
+T102	Person-Nominal 635 637	父亲
+T103	Person-Nominal 639 641	书生
+T104	Thing-Nominal 657 658	风
+T105	Thing-Nominal 661 662	雨
+T106	Time-Implicit 678 682	冬天到了
+T107	Person-Nominal 683 685	父亲
+T108	Thing-Nominal 683 688	父亲的棉袄
+T109	Thing-Nominal 692 693	钱
+T110	Person-Nominal 697 699	母亲
+T111	Person-Nominal 701 703	父亲
+T112	Thing-Nominal 717 718	针
+T113	Thing-Nominal 719 720	线
+T114	Time-Implicit 724 726	有时
+T115	Person-Nominal 727 729	父亲
+T116	Person-Nominal 732 734	母亲
+T117	Thing-Nominal 734 735	泪
+T118	Thing-Nominal 737 738	脸
+R21	Part-Whole Arg1:T117 Arg2:T116	
+R22	Part-Whole Arg1:T118 Arg2:T116	
+T119	Person-Pronoun 742 743	他
+T120	Thing-Nominal 744 745	药
+T121	Thing-Nominal 746 747	茶
+T122	Person-Nominal 757 764	体弱多病的父亲
+T123	Person-Nominal 765 767	母亲
+T124	Person-Nominal 779 781	父亲
+T125	Time-Implicit 778 789	在父亲蒙冤受屈的日子里
+T126	Person-Pronoun 790 791	我
+T127	Person-Nominal 796 798	母亲
+T128	Person-Nominal 808 810	母亲
+T129	Organization-Name 821 824	四人帮
+T130	Time-Explicit 818 826	粉碎“四人帮”后
+T131	Location-Nominal 827 830	全国的
+T132	Person-Nominal 845 847	父亲
+T134	Person-Nominal 878 882	人民教师
+T135	Person-Nominal 889 891	父亲
+T137	Person-Pronoun 899 900	我
+T138	Person-Nominal 902 904	母亲
+T139	Person-Nominal 905 907	父亲
+T140	Time-Explicit 910 912	今天
+T141	Person-Pronoun 916 917	你
+T142	Person-Pronoun 920 921	你
+*	Coreference T141 T139
+T143	Organization-Nominal 930 933	党组织
+T144	Person-Pronoun 934 935	你
+T145	Person-Pronoun 943 944	你
+T148	Organization-Nominal 956 957	党
+T150	Time-Implicit 969 971	后来
+T151	Person-Nominal 972 974	父亲
+T152	Location-Nominal 979 980	家
+T153	Time-Implicit 983 985	晚年
+T154	Person-Nominal 988 990	母亲
+T155	Person-Nominal 995 997	妻子
+T156	Time-Implicit 1016 1018	有时
+T157	Location-Nominal 1019 1020;1021 1022	家 里
+T158	Thing-Nominal 1019 1029	家
+里有些好吃的食品
+T159	Person-Nominal 1030 1032	母亲
+T160	Person-Nominal 1042 1044	父亲
+T161	Person-Nominal 1045 1048	孙子们
+R23	Family Arg1:T161 Arg2:T160	
+R24	Family Arg1:T161 Arg2:T159	
+T162	Person-Nominal 1049 1051	母亲
+T163	Person-Nominal 1064 1066	父亲
+T164	Time-Implicit 1062 1064	晚年
+T165	Person-Nominal 1094 1096	母亲
+T166	Person-Nominal 1098 1100	父亲
+T167	Location-Nominal 1101 1104	厕所中
+T168	Time-Implicit 1109 1111	有时
+T169	Person-Nominal 1112 1114	父亲
+T170	Thing-Nominal 1117 1118	床
+T171	Person-Nominal 1121 1122;1123 1124	母 亲
+T172	Person-Nominal 1126 1128	父亲
+T173	Location-Nominal 1126 1131	父亲的床头
+T174	Thing-Nominal 1133 1134	泪
+R25	Part-Whole Arg1:T174 Arg2:T171	
+T175	Time-Implicit 1143 1145	时而
+T176	Person-Nominal 1146 1148	父亲
+T177	Thing-Nominal 1149 1150	茶
+T178	Thing-Nominal 1151 1152	药
+T179	Time-Implicit 1153 1155	时而
+T180	Person-Nominal 1162 1164	时而
+T181	Thing-Nominal 1165 1166	手
+R26	Part-Whole Arg1:T181 Arg2:T171	
+T182	Person-Nominal 1172 1174	父亲
+T183	Thing-Nominal 1177 1179	脸颊
+R27	Part-Whole Arg1:T183 Arg2:T182	
+T184	Time-Implicit 1180 1182	时而
+T185	Thing-Nominal 1185 1186	盆
+T186	Thing-Nominal 1185 1190	盆中的热水
+R28	Located Arg1:T186 Arg2:T185	
+T187	Person-Nominal 1195 1197	父亲
+T188	Person-Nominal 1203 1205	父亲
+T189	Time-Explicit 1202 1211	在父亲去世的那一天
+T190	Person-Nominal 1212 1214	母亲
+T191	Person-Nominal 1217 1219	父亲
+T192	Thing-Nominal 1227 1229	泪水
+R29	Part-Whole Arg1:T192 Arg2:T190	
+T193	Person-Nominal 1231 1233	父亲
+T194	Thing-Nominal 1236 1238	胸脯
+R30	Part-Whole Arg1:T194 Arg2:T193	
+T195	Time-Explicit 1247 1249	如今
+T196	Person-Nominal 1250 1252	父亲
+T197	Metric 1259 1261	九年
+T198	Person-Nominal 1263 1265	母亲
+T199	Person-Nominal 1271 1276	年老的母亲
+T200	Time-Implicit 1282 1284	一天
+T201	Person-Pronoun 1290 1291	我
+T202	Person-Nominal 1293 1295	母亲
+T203	Thing-Nominal 1293 1301	母亲布满皱纹的脸
+R31	Part-Whole Arg1:T203 Arg2:T202	
+T204	Person-Pronoun 1304 1305	我
+T205	Person-Nominal 1308 1310	母亲
+T206	Thing-Nominal 1308 1315	母亲的满头银丝
+R32	Part-Whole Arg1:T206 Arg2:T205	
+T207	Person-Pronoun 1318 1319	我
+T208	Person-Nominal 1321 1323	母亲
+T209	Thing-Nominal 1325 1326	腰
+R33	Part-Whole Arg1:T209 Arg2:T208	
+T210	Thing-Nominal 1329 1331	拐杖
+T211	Person-Pronoun 1342 1343	我
+T212	Thing-Nominal 1341 1346	，我的眼泪
+R34	Part-Whole Arg1:T212 Arg2:T211	
+T213	Person-Nominal 1350 1352	母亲
+T214	Person-Pronoun 1364 1365	她
+*	Coreference T214 T213
+T215	Person-Pronoun 1367 1368;1369 1370	我 们
+T216	Person-Nominal 1367 1372	我
+们子女
+T217	Thing-Nominal 1383 1385	汗水
+T218	Thing-Nominal 1378 1379	心
+T219	Person-Pronoun 1393 1394	我
+T220	Person-Nominal 1397 1399	母亲
+T221	Person-Nominal 1409 1411	儿子
+T222	Person-Pronoun 1425 1426	我
+T224	Person-Nominal 1431 1433	母亲
+T225	Person-Pronoun 1444 1445	她
+*	Coreference T225 T224
+T227	Person-Nominal 1447 1452	我们一家人
+T228	Thing-Nominal 1458 1463	一头老黄牛
+T229	Time-Explicit 1474 1476	现在
+T230	Person-Nominal 1476 1478	母亲
+T231	Person-Pronoun 1487 1488	我
+T233	Person-Nominal 1498 1500	母亲
+*	Coreference T6 T5
+T7	Time-Implicit 888 897	在父亲平反的日子里
+T136	Abstract 1068 1079	“糖尿病”、“肾积水”
+R1	Family Arg1:T16 Arg2:T14	
+T2	Thing-Nominal 160 162	粮食
+R2	Create Arg1:T40 Arg2:T41	
+T15	Person-Nominal 281 284;285 289	一个缠 足的妇女
+*	Coreference T46 T44
+T43	Organization-Nominal 513 515	小学
+R3	Part-Whole Arg1:T102 Arg2:T103	
+T50	Time-Implicit 772 776	夜深人静
+T58	Organization-Nominal 948 949	党
+R6	Located Arg1:T158 Arg2:T157	
+T59	Location-Nominal 1217 1222	父亲的身上
+T66	Location-Nominal 1231 1239	父亲凉了的胸脯上
+R18	Located Arg1:T192 Arg2:T66	
+T72	Person-Nominal 1367 1368;1369 1372	我 们子女

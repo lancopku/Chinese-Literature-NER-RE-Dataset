@@ -1,0 +1,126 @@
+T1	Person-Nominal 28 30	鄙人
+T2	Person-Pronoun 32 34	自己
+*	Coreference T2 T1
+T3	Person-Nominal 61 65	心理学家
+T4	Time-Implicit 82 86	孩提时代
+T5	Time-Implicit 89 93	秋去冬来
+T6	Time-Implicit 94 98	傍晚时分
+T7	Person-Pronoun 99 100	我
+T8	Person-Nominal 108 114	七八个小伙伴
+T9	Thing-Nominal 103 107	一个大屋
+T10	Location-Nominal 118 121	禾场上
+T11	Thing-Nominal 123 128	晴朗的天空
+T12	Thing-Nominal 133 140	一群南飞的大雁
+T13	Metric 144 147	七八只
+T14	Metric 150 156	十几二十多只
+T15	Location-Nominal 158 164	我们的头顶上
+T16	Person-Pronoun 158 160	我们
+T17	Location-Nominal 166 171	蓝天白云下
+T18	Person-Pronoun 177 179	我们
+T19	Time-Implicit 174 176	这时
+T20	Thing-Nominal 199 201	雁鹅
+T21	Thing-Nominal 203 205	竹篙
+T22	Thing-Pronoun 207 209	它们
+*	Coreference T22 T20
+T23	Thing-Nominal 221 223	头雁
+T24	Location-Nominal 238 241	蓝天上
+T25	Thing-Nominal 242 246	一根竹杆
+R1	Located Arg1:T25 Arg2:T24	
+T26	Person-Pronoun 251 253	我们
+T27	Thing-Nominal 265 268	人字!
+T28	Thing-Nominal 263 264	鹅
+T29	Thing-Pronoun 269 271	它们
+*	Coreference T29 T28
+T30	Location-Nominal 286 289	半空中
+T31	Thing-Nominal 297 300	人”字
+T32	Person-Nominal 308 312	小伙伴们
+T33	Thing-Nominal 308 315	小伙伴们的手掌
+R2	Part-Whole Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 326 328	太阳
+T35	Thing-Nominal 330 333	地平线
+T36	Thing-Nominal 335 337	天空
+T37	Thing-Pronoun 344 346	它们
+T38	Person-Nominal 357 359	大家
+T39	Thing-Pronoun 364 366	它们
+T40	Location-Nominal 369 374	南天的尽头
+T41	Metric 380 385	大半个世纪
+T42	Location-Nominal 386 390	天上人间
+T43	Metric 430 433	多少年
+T44	Person-Pronoun 435 436	我
+T45	Thing-Nominal 460 462	天人
+T46	Thing-Pronoun 472 473	它
+T47	Time-Explicit 500 510	2013年12月1日
+T48	Person-Nominal 511 520	县作家协会组织会员
+T49	Location-Nominal 527 535	国家级自然保护区
+T50	Location-Name 537 543	东洞庭湖湿地
+T51	Person-Pronoun 546 547	我
+T52	Person-Nominal 549 553	名誉主席
+*	Coreference T52 T51
+T53	Person-Nominal 561 563	老夫
+T54	Person-Nominal 565 567	少年
+T55	Person-Pronoun 569 570	我
+T56	Location-Nominal 572 577	皇天后土间
+T57	Person-Pronoun 582 583	我
+T58	Location-Nominal 585 590	茫茫原野上
+T59	Person-Pronoun 596 598	自己
+T60	Time-Implicit 603 608	下午四时许
+T61	Person-Pronoun 609 610	我
+T62	Location-Name 612 622	东洞庭湖六门闸大堤上
+T63	Location-Nominal 625 628	脚底下
+T64	Thing-Nominal 629 631	湖草
+R3	Located Arg1:T64 Arg2:T63	
+T65	Thing-Nominal 643 645	波光
+T66	Location-Nominal 648 654	湖光山色之中
+T67	Thing-Nominal 660 662	天鹅
+T68	Thing-Nominal 667 669	大雁
+T69	Thing-Nominal 673 675	白鹭
+T70	Location-Nominal 676 679	浅水中
+R4	Located Arg1:T67 Arg2:T66	
+R5	Located Arg1:T69 Arg2:T70	
+R6	Located Arg1:T68 Arg2:T66	
+T71	Person-Nominal 690 692	网友
+T72	Time-Implicit 695 697	今年
+T73	Location-Pronoun 698 700	这儿
+T74	Thing-Nominal 703 705	候鸟
+T75	Metric 707 711	12万只
+T76	Person-Name 741 749	县文联秘书长小肖
+T77	Person-Nominal 754 761	这些人类的朋友
+T78	Person-Pronoun 771 772	我
+T79	Person-Nominal 787 789	六人
+T80	Organization-Nominal 784 794	这支由六人组成小分队
+T81	Person-Pronoun 795 797	我们
+T82	Location-Nominal 809 812	浅草区
+T83	Thing-Nominal 804 806	牛羊
+T84	Thing-Nominal 815 823	郁郁葱葱的水草地
+T85	Person-Nominal 827 828	人
+T86	Thing-Nominal 835 837	沼泽
+T87	Person-Name 849 851	小肖
+T88	Person-Pronoun 867 869	我们
+T89	Location-Nominal 872 876	水草丛中
+T90	Thing-Nominal 877 883	许多新鲜的鸟
+R7	Located Arg1:T90 Arg2:T89	
+T91	Person-Name 895 897	小杨
+T92	Thing-Nominal 899 902	这只鸟
+T93	Metric 904 907	十几斤
+T94	Thing-Nominal 916 920	一片滩涂
+T95	Metric 921 923	百米
+T96	Thing-Nominal 930 935	栖“对鸭子
+T97	Thing-Nominal 937 946	翩翩起舞的“五鸭子
+T98	Thing-Nominal 948 957	正待起飞的“七鸭子
+T99	Thing-Nominal 961 970;971 976	许多姿态各异、大小 不同的候鸟
+T100	Person-Pronoun 985 987	我们
+T101	Thing-Pronoun 990 992	它们
+T102	Person-Pronoun 1005 1007	我们
+T103	Thing-Pronoun 1013 1015	它们
+T104	Thing-Nominal 1027 1031	一群大雁
+T105	Location-Nominal 1033 1038	大堤不远处
+R8	Located Arg1:T104 Arg2:T105	
+T106	Location-Nominal 1040 1048	采风队伍的头顶上
+T107	Person-Nominal 1081 1083	大家
+T108	Person-Pronoun 1086 1087	我
+T109	Person-Name 1092 1094	小杨
+R9	Social Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 1096 1100	这群大雁
+T111	Metric 1102 1106	20多只
+T112	Person-Name 1108 1110	小杨
+T113	Metric 1125 1126;1127 1129	2 4只

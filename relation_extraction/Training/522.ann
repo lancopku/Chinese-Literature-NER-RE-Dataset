@@ -1,0 +1,200 @@
+T1	Time-Implicit 0 2	初冬
+T2	Location-Nominal 13 15	县城
+T3	Location-Name 23 27	金塔公园
+R1	Part-Whole Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 40 42	石像
+T5	Thing-Nominal 47 49	石像
+T6	Time-Implicit 54 56	古代
+T7	Person-Nominal 59 60;61 62	母 亲
+T8	Person-Nominal 68 70	儿子
+R2	Family Arg1:T8 Arg2:T7	
+T9	Person-Pronoun 76 77	她
+*	Coreference T9 T7
+T10	Thing-Nominal 81 83	毛巾
+T11	Person-Nominal 112 114	孩儿
+T12	Person-Nominal 115 117	小孩
+*	Coreference T11 T12
+T13	Person-Nominal 137 139	妈妈
+T14	Person-Nominal 142 144	妈妈
+R3	Family Arg1:T13 Arg2:T12	
+T15	Person-Nominal 151 153	妈妈
+T16	Person-Nominal 155 157	儿子
+T17	Person-Nominal 168 175	这位年轻的母亲
+T18	Person-Nominal 179 181	儿子
+T19	Thing-Nominal 183 186	大灰狼
+T20	Thing-Nominal 187 190	小白兔
+T21	Person-Nominal 198 200	儿子
+T22	Person-Nominal 228 235	这位年轻的母亲
+T23	Person-Nominal 237 239	儿子
+T24	Person-Pronoun 250 251	她
+*	Coreference T24 T22
+T25	Time-Implicit 251 254	几十年
+T26	Person-Pronoun 266 267	她
+T27	Person-Nominal 271 272;273 274	儿 子
+T28	Person-Pronoun 276 277	她
+T29	Person-Nominal 278 280	自己
+*	Coreference T29 T28 T32
+T30	Person-Nominal 291 293	儿子
+T31	Person-Pronoun 296 297	他
+*	Coreference T31 T30
+T32	Person-Nominal 308 310	自己
+T33	Thing-Nominal 311 315	参天大树
+T34	Person-Pronoun 353 354	我
+T35	Thing-Nominal 358 362	水獭母子
+T36	Location-Name 380 385	日本宫崎县
+T37	Location-Nominal 389 391	河上
+T38	Thing-Nominal 394 396	瀑布
+R4	Located Arg1:T38 Arg2:T37	
+R5	Part-Whole Arg1:T37 Arg2:T36	
+T39	Location-Nominal 398 406	瀑布后面的岩石上
+T40	Thing-Nominal 409 413	水獭母子
+T41	Thing-Nominal 415 419	水獭妈妈
+T42	Thing-Nominal 432 434	水獭
+T43	Thing-Nominal 439 440;441 443	小 水獭
+T44	Thing-Nominal 455 459	水獭妈妈
+T45	Location-Nominal 462 465	瀑布边
+T46	Thing-Nominal 467 469	小鱼
+T47	Location-Nominal 473 477	农村住户
+T48	Thing-Nominal 479 481	小鸡
+T49	Thing-Pronoun 484 486	孩子
+T50	Time-Implicit 487 491	一天夜里
+T51	Thing-Nominal 492 496	水獭妈妈
+T52	Thing-Pronoun 508 509	它
+*	Coreference T52 T51
+T53	Location-Nominal 510 513	河岸边
+T54	Location-Nominal 514 516	草地
+R6	Near Arg1:T54 Arg2:T53	
+R7	Located Arg1:T52 Arg2:T54	
+T55	Thing-Nominal 539 541	小鸡
+T56	Thing-Nominal 549 553	水獭妈妈
+T57	Thing-Nominal 558 559	蛇
+T58	Location-Nominal 567 569	草丛
+R8	Located Arg1:T56 Arg2:T58	
+T59	Thing-Nominal 570 572	小鸡
+T60	Thing-Pronoun 592 593	它
+*	Coreference T60 T56
+T61	Thing-Nominal 597 599	猎物
+T62	Thing-Nominal 606 610	水獭妈妈
+T63	Thing-Nominal 617 619	小鸡
+*	Coreference T61 T63
+T64	Thing-Nominal 623 627	水獭妈妈
+T65	Thing-Nominal 647 649	铁器
+T66	Person-Nominal 654 656	猎人
+T67	Thing-Nominal 657 659	枪管
+T68	Thing-Nominal 663 666	捕兽器
+T69	Thing-Nominal 667 671	水獭妈妈
+R9	Use Arg1:T66 Arg2:T67	
+R10	Use Arg1:T66 Arg2:T68	
+*	Coreference T67 T65 T68
+T70	Thing-Nominal 685 687	小鸡
+T71	Thing-Nominal 694 698	水獭妈妈
+T72	Thing-Pronoun 705 706	它
+*	Coreference T72 T71
+T73	Thing-Nominal 718 720	小鸡
+T74	Thing-Pronoun 740 741	它
+T75	Thing-Nominal 756 758	铁器
+T76	Person-Nominal 759 761	猎人
+T77	Thing-Pronoun 767 768	它
+T78	Thing-Nominal 782 785	小水獭
+T79	Thing-Nominal 790 793	小水獭
+T80	Thing-Pronoun 801 802	它
+T81	Thing-Pronoun 803 804	它
+*	Coreference T80 T79
+T82	Thing-Nominal 826 828	小鸡
+T83	Thing-Pronoun 847 848	它
+T84	Thing-Pronoun 868 869	它
+T85	Thing-Nominal 874 876	小鸡
+T86	Thing-Nominal 889 893	水獭妈妈
+T87	Thing-Nominal 903 906	小水獭
+T88	Thing-Nominal 912 914	小鸡
+T89	Thing-Pronoun 916 917	它
+*	Coreference T89 T86
+T90	Thing-Nominal 921 924	小水獭
+T91	Thing-Nominal 968 971	老水獭
+T92	Thing-Pronoun 982 983	它
+T93	Thing-Nominal 982 986	它的尾巴
+R11	Part-Whole Arg1:T93 Arg2:T91	
+*	Coreference T92 T91
+T94	Thing-Nominal 992 995	铁夹子
+T95	Thing-Pronoun 1008 1009	它
+T96	Thing-Nominal 1013 1015	尾巴
+T97	Thing-Nominal 1018 1020	小鸡
+T98	Thing-Nominal 1025 1028	老水獭
+T99	Thing-Pronoun 1031 1032	它
+T100	Person-Nominal 1033 1035	猎人
+T101	Thing-Nominal 1038 1041	铁夹子
+R12	Use Arg1:T100 Arg2:T101	
+T102	Thing-Nominal 1049 1051	小鸡
+T103	Person-Nominal 1055 1057	猎人
+T104	Thing-Nominal 1063 1066	小水獭
+T105	Thing-Pronoun 1073 1074	它
+T106	Thing-Pronoun 1075 1076	它
+T107	Thing-Nominal 1077 1080	老水獭
+T108	Thing-Pronoun 1098 1099	它
+T109	Location-Name 1131 1133	湖州
+T110	Time-Explicit 1129 1131	唐朝
+T111	Time-Implicit 1143 1145	冬天
+T112	Location-Nominal 1152 1154	茅屋
+T113	Person-Nominal 1157 1161	一对母子
+T114	Person-Nominal 1166 1168	儿子
+T115	Person-Name 1168 1170	孟郊
+T116	Person-Nominal 1182 1184	母亲
+T117	Person-Pronoun 1186 1187	他
+R14	Family Arg1:T116 Arg2:T117	
+*	Coreference T117 T115
+T118	Person-Pronoun 1194 1195	他
+T119	Thing-Nominal 1197 1199	衣服
+T120	Person-Nominal 1207 1209	母亲
+T121	Person-Nominal 1218 1220	母亲
+T122	Person-Name 1232 1234	孟郊
+T123	Thing-Nominal 1243 1244	书
+T124	Thing-Nominal 1175 1176	书
+T125	Person-Nominal 1247 1249	娘亲
+T126	Person-Nominal 1256 1257	娘
+T127	Person-Pronoun 1258 1259	你
+*	Coreference T127 T126 T125 T120
+T128	Person-Nominal 1272 1273	娘
+T129	Person-Nominal 1282 1284	孩子
+T130	Person-Name 1291 1293	孟郊
+*	Coreference T129 T130 T133
+T131	Person-Nominal 1295 1297	母亲
+T132	Person-Pronoun 1321 1322	您
+T133	Person-Pronoun 1323 1324	我
+T134	Person-Nominal 1329 1331	娘亲
+T135	Person-Pronoun 1331 1332	你
+T136	Person-Pronoun 1335 1336	我
+T137	Person-Pronoun 1340 1341	我
+T138	Person-Pronoun 1349 1350	您
+*	Coreference T134 T135
+T139	Person-Nominal 1352 1354	娘亲
+T140	Person-Pronoun 1362 1363	你
+T141	Person-Nominal 1379 1381	儿子
+T142	Person-Pronoun 1384 1385	我
+*	Coreference T139 T142
+T143	Person-Name 1392 1394	孟郊
+*	Coreference T143 T141 T140 T145
+T144	Person-Nominal 1402 1403	娘
+T145	Person-Pronoun 1404 1405	我
+T146	Person-Nominal 1415 1417	状元
+T147	Person-Nominal 1365 1367	状元
+T148	Person-Pronoun 1421 1422	我
+T149	Person-Pronoun 1423 1424	您
+*	Coreference T149 T144
+T150	Location-Nominal 1425 1426	城
+T151	Person-Name 1433 1435	孟郊
+T152	Location-Nominal 1435 1437	京城
+T153	Person-Nominal 1440 1442	娘亲
+T154	Time-Implicit 1469 1472	第二天
+T155	Time-Implicit 1473 1475	清晨
+T156	Person-Nominal 1476 1478	孟郊
+T157	Thing-Nominal 1480 1482	包袱
+T158	Person-Nominal 1484 1486	母亲
+T159	Location-Nominal 1496 1498	家乡
+T160	Location-Nominal 1499 1500	京
+T161	Person-Nominal 1506 1508	母亲
+T162	Person-Name 1512 1514	孟郊
+T163	Person-Nominal 1592 1594	母亲
+T164	Thing-Nominal 1598 1600	大地
+T165	Thing-Nominal 1606 1607	犊
+R13	Family Arg1:T158 Arg2:T156	
+R15	Family Arg1:T151 Arg2:T153	

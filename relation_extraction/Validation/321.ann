@@ -1,0 +1,415 @@
+T1	Location-Nominal 1 2	山
+T2	Person-Nominal 7 8	仙
+T3	Location-Nominal 11 12	水
+T4	Thing-Nominal 17 18	龙
+T5	Person-Name 24 29	唐代刘禹锡
+T6	Abstract 30 33	陋室铭
+T7	Person-Pronoun 39 40	我
+T8	Location-Nominal 46 48	家乡
+T9	Location-Name 48 52	合乐苗乡
+*	Coreference T9 T8 T11 T13 T20 T38 T46
+T10	Thing-Nominal 52 54	苗绣
+T11	Location-Nominal 61 63	苗乡
+T12	Thing-Nominal 67 69	苗绣
+T13	Location-Pronoun 73 75	这里
+T14	Location-Nominal 75 77	山间
+R1	Part-Whole Arg1:T14 Arg2:T13	
+T15	Thing-Nominal 82 84	清泉
+T16	Thing-Nominal 77 79	水草
+R2	Located Arg1:T15 Arg2:T14	
+R3	Located Arg1:T16 Arg2:T14	
+T17	Person-Nominal 87 91	苗家汉子
+T18	Person-Nominal 94 96	姑娘
+R4	Social Arg1:T18 Arg2:T17	
+T19	Person-Name 101 107	明状元杨升庵
+T20	Location-Pronoun 112 118	这片神秘土地
+T21	Thing-Nominal 123 125	铜鼓
+T22	Thing-Nominal 132 133	钗
+T23	Thing-Nominal 134 135	钏
+T24	Thing-Nominal 136 138	金银
+T25	Person-Nominal 139 141	马郎
+T26	Person-Nominal 148 153	长征久戍人
+T27	Thing-Nominal 156 160	千层石蹬
+T28	Location-Nominal 164 166	夜市
+T29	Thing-Nominal 166 168	千灯
+R5	Located Arg1:T29 Arg2:T28	
+T30	Person-Nominal 172 174	游女
+T31	Location-Nominal 180 182	长山
+T32	Location-Name 186 188	淮阴
+T33	Location-Nominal 192 194	苗乡
+T34	Organization-Nominal 197 199	苗家
+T35	Time-Implicit 205 209	数百年后
+T36	Metric 205 208	数百年
+T37	Person-Pronoun 209 210	我
+T38	Location-Nominal 212 218	这片美丽土地
+T39	Thing-Nominal 222 239	这里的山山水水、人文风俗、民族文化
+R6	Located Arg1:T39 Arg2:T38	
+T40	Person-Nominal 250 254	苗家姑娘
+T41	Person-Pronoun 246 247	我
+T42	Thing-Nominal 250 266	苗家姑娘身上一套套做工精美的衣裙
+R7	Ownership Arg1:T40 Arg2:T42	
+T43	Thing-Nominal 271 281	令人叫绝的精湛艺术品
+T44	Time-Explicit 286 291	1975年
+T45	Person-Pronoun 292 293	我
+T46	Location-Name 294 296	合乐
+T47	Person-Pronoun 300 301	我
+T48	Person-Nominal 305 311	一位苗家姑娘
+R8	General-Special Arg1:T40 Arg2:T48	
+T49	Person-Pronoun 312 313	她
+*	Coreference T49 T48
+T50	Thing-Nominal 315 317	苗服
+T51	Thing-Nominal 327 333	亮亮的大眼睛
+T52	Thing-Nominal 335 339	绣花衣裙
+T53	Person-Pronoun 349 350	我
+T54	Person-Pronoun 351 352	她
+T55	Person-Pronoun 357 358	我
+T56	Person-Pronoun 362 363	她
+T57	Thing-Nominal 370 379	那身绣工精美的衣裙
+*	Coreference T57 T52 T58
+T58	Thing-Nominal 387 389	衣裙
+T59	Person-Pronoun 390 391	她
+R9	Create Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 394 403	一针一线、一花一朵
+R10	Part-Whole Arg1:T60 Arg2:T58	
+T61	Location-Nominal 406 410	田边地角
+T62	Person-Pronoun 422 423	她
+T63	Person-Nominal 425 431	我们苗家姑娘
+*	Coreference T63 T40 T64 T66
+T64	Person-Pronoun 435 437	自己
+T65	Person-Nominal 439 441	阿妈
+T66	Person-Pronoun 444 446	我们
+R11	Family Arg1:T65 Arg2:T66	
+T67	Location-Name 456 458	合乐
+T68	Person-Pronoun 458 459	我
+T69	Person-Nominal 463 465;466 470	许多 苗家姑娘
+R12	General-Special Arg1:T63 Arg2:T69	
+T70	Thing-Nominal 481 483	绣品
+T71	Thing-Nominal 475 476	缝
+T72	Thing-Nominal 477 478	针
+T73	Location-Nominal 490 499	田边地角、路旁竹楼
+T74	Person-Nominal 504 508	绣花苗女
+*	Coreference T74 T69 T78
+T75	Thing-Nominal 509 515	黄灿灿的绣品
+*	Coreference T75 T70
+T76	Thing-Nominal 516 518	阳光
+T77	Thing-Nominal 528 530	绣品
+T78	Person-Nominal 544 550	一个个苗家女
+T79	Thing-Nominal 576 579	那画面
+T80	Person-Nominal 596 601	每个苗家女
+T81	Thing-Nominal 605 609	几身嫁衣
+T82	Thing-Nominal 610 612	嫁衣
+T83	Metric 605 607	几身
+*	Coreference T82 T81
+R13	Create Arg1:T80 Arg2:T81	
+T84	Person-Pronoun 613 615	自己
+*	Coreference T84 T80
+T85	Person-Pronoun 623 624	谁
+T86	Person-Pronoun 629 630	谁
+T87	Person-Nominal 638 641	娘家人
+R14	Family Arg1:T87 Arg2:T86	
+T88	Person-Nominal 633 635	大家
+R15	Social Arg1:T88 Arg2:T86	
+R16	Social Arg1:T88 Arg2:T87	
+T89	Person-Nominal 650 652	苗女
+T90	Person-Nominal 656 660	绣花能手
+T91	Thing-Nominal 671 675	一件衣裙
+T92	Thing-Nominal 677 682	一件艺术品
+T93	Thing-Nominal 685 689	苗家衣物
+T94	Thing-Nominal 693 696	艺术品
+T95	Metric 671 673	一件
+T96	Metric 677 679	一件
+T97	Person-Pronoun 701 702	我
+T98	Person-Nominal 712 714;715 717	新郎 新娘
+T99	Thing-Nominal 724 747	衣领、衣襟、袖筒、袖口、裙边、围腰、披肩、腰带
+T100	Thing-Nominal 749 753	各色丝线
+T101	Thing-Nominal 759 763	图案花纹
+R17	Located Arg1:T101 Arg2:T99	
+T102	Person-Pronoun 795 796	我
+T103	Person-Pronoun 801 802	我
+T105	Person-Nominal 814 816	天仙
+T106	Metric 825 827	几年
+T104	Metric 830 832	一件
+T107	Person-Nominal 835 836;837 840	伴 郎伴娘
+R18	Social Arg1:T107 Arg2:T98	
+T108	Person-Nominal 841 852	其它参加喜宴的男女老少
+R19	Social Arg1:T108 Arg2:T107	
+R20	Social Arg1:T108 Arg2:T98	
+T109	Person-Nominal 853 855	个个
+*	Coreference T109 T108 T115 T116 T117
+T110	Thing-Nominal 857 861	自制衣裙
+R21	Create Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 862 866	花纹图案
+R22	Located Arg1:T111 Arg2:T110	
+T112	Person-Pronoun 872 873	我
+T113	Thing-Nominal 878 880	绣品
+T114	Location-Nominal 878 889	绣品比赛大厅和展览大厅
+T115	Person-Nominal 890 896	眼前男女老少
+T116	Person-Nominal 896 897;898 899	个 个
+T117	Person-Nominal 901 903	模特
+T118	Thing-Nominal 904 921	晃动的苗服、苗裙、腰带、坎肩、花包
+T119	Thing-Nominal 921 923	件件
+*	Coreference T119 T118
+T120	Thing-Nominal 925 930	精美艺术品
+R23	General-Special Arg1:T120 Arg2:T119	
+T121	Thing-Nominal 689 691	件件
+*	Coreference T121 T93
+R24	General-Special Arg1:T94 Arg2:T121	
+R25	General-Special Arg1:T92 Arg2:T91	
+R26	General-Special Arg1:T42 Arg2:T43	
+T122	Person-Pronoun 933 934	我
+T123	Person-Pronoun 944 945	我
+T124	Person-Nominal 948 952	中华民族
+T125	Thing-Nominal 948 954	中华民族服饰
+R27	Create Arg1:T124 Arg2:T125	
+R28	Part-Whole Arg1:T123 Arg2:T124	
+T126	Thing-Name 956 958	苗绣
+R29	General-Special Arg1:T125 Arg2:T126	
+T127	Location-Name 967 969	丽江
+T128	Person-Pronoun 969 970	我
+T129	Person-Nominal 973 976	土家人
+T131	Person-Nominal 981 985	纳西族人
+T132	Person-Nominal 988 991	白族人
+T133	Thing-Name 999 1015	蜀绣、湘绣、苏绣、粤绣等民族工艺
+T134	Person-Pronoun 1017 1018	我
+T135	Thing-Name 1022 1024	苗绣
+T136	Thing-Pronoun 1027 1028	其
+R30	Part-Whole Arg1:T133 Arg2:T136	
+T130	Thing-Nominal 976 980	街边绣花
+T137	Thing-Nominal 973 980	土家人街边绣花
+T138	Thing-Nominal 988 995	白族人手工衣饰
+R31	Part-Whole Arg1:T137 Arg2:T136	
+R32	Part-Whole Arg1:T138 Arg2:T136	
+T139	Thing-Name 1043 1045	苗绣
+T140	Thing-Name 1052 1054	苗绣
+T141	Thing-Nominal 1055 1065	中华民族优秀传统工艺
+R33	General-Special Arg1:T141 Arg2:T140	
+T142	Time-Implicit 1073 1075	至今
+T143	Location-Name 1083 1089	湖北马山楚墓
+T144	Thing-Name 1091 1100	战国“龙凤虎纹绣”
+T145	Location-Name 1127 1133	云南晋宁石寨
+R34	Located Arg1:T144 Arg2:T143	
+T146	Thing-Nominal 1127 1139	云南晋宁石寨出土青铜文物
+R35	Located Arg1:T146 Arg2:T145	
+T147	Thing-Nominal 1140 1147	人物衣饰、花纹
+R36	Located Arg1:T147 Arg2:T146	
+T148	Time-Implicit 1151 1154	汉晋时
+T149	Thing-Nominal 1161 1163	服饰
+T150	Abstract 1166 1168	汉书
+T151	Person-Nominal 1172 1173;1174 1178	西 南各民族
+T152	Thing-Nominal 1181 1182	斑
+T153	Thing-Nominal 1190 1192	斑衣
+T154	Thing-Nominal 1197 1205	绣图案花纹的衣服
+*	Coreference T154 T153
+T155	Abstract 1207 1210	后汉书
+T156	Person-Nominal 1215 1219	苗族先民
+T157	Thing-Nominal 1221 1223	木皮
+T158	Thing-Nominal 1229 1233	五色衣服
+T159	Abstract 1244 1247	三国志
+T160	Person-Name 1251 1254	诸葛亮
+T161	Abstract 1255 1263	成都先进蜀锦技术
+T162	Location-Name 1255 1257	成都
+T163	Person-Nominal 1265 1271	西南少数民族
+T164	Person-Nominal 1275 1277	军师
+*	Coreference T164 T160 T171
+T165	Time-Implicit 1273 1275	当年
+T166	Location-Nominal 1279 1283	西南边境
+T167	Person-Name 1286 1288	孟获
+T168	Location-Nominal 1288 1292	在此不远
+T169	Location-Nominal 1300 1302	边城
+T170	Thing-Name 1302 1306	叙永苗绣
+T171	Person-Name 1310 1314	诸葛先生
+T172	Person-Nominal 1322 1324	苗族
+T173	Person-Nominal 1325 1336	一个没有文字记载的民族
+R37	General-Special Arg1:T173 Arg2:T172	
+T174	Person-Nominal 1337 1339	苗族
+T175	Thing-Nominal 1355 1356;1357 1360	苗 家刺绣
+T176	Thing-Nominal 1373 1377	苗绣图案
+R38	Located Arg1:T176 Arg2:T175	
+T177	Person-Nominal 1380 1382	苗族
+T178	Person-Nominal 1404 1408	苗族先民
+R39	Part-Whole Arg1:T178 Arg2:T177	
+T179	Location-Name 1409 1411	中原
+T180	Person-Nominal 1418 1422	一位母亲
+T181	Metric 1418 1420	一位
+R40	Part-Whole Arg1:T180 Arg2:T177	
+T182	Thing-Nominal 1433 1436	一座山
+T183	Thing-Nominal 1439 1442	一条河
+T184	Thing-Nominal 1445 1447	衣服
+T185	Thing-Nominal 1451 1453	记号
+R41	Located Arg1:T185 Arg2:T184	
+T186	Location-Name 1455 1457	黄河
+T187	Person-Pronoun 1457 1458	她
+*	Coreference T187 T180
+T188	Thing-Nominal 1459 1461	右袖
+R42	Part-Whole Arg1:T188 Arg2:T184	
+T189	Thing-Nominal 1463 1467	一条黄线
+R43	Located Arg1:T189 Arg2:T188	
+T190	Location-Name 1469 1471	长江
+T191	Thing-Nominal 1472 1474	左袖
+R44	Part-Whole Arg1:T191 Arg2:T184	
+T192	Thing-Nominal 1476 1478;1479 1481	一条 蓝线
+R45	Located Arg1:T192 Arg2:T191	
+T193	Metric 1463 1465	一条
+T194	Metric 1476 1478	一条
+T195	Location-Name 1483 1486	洞庭湖
+T196	Thing-Nominal 1487 1489	胸襟
+R46	Part-Whole Arg1:T196 Arg2:T184	
+T197	Thing-Nominal 1490 1495	湖泊状图案
+R47	Located Arg1:T197 Arg2:T196	
+T198	Location-Name 1497 1499	京都
+T199	Thing-Nominal 1501 1503	大花
+R48	Located Arg1:T199 Arg2:T196	
+T200	Location-Nominal 1505 1509	田野山岗
+T201	Thing-Nominal 1510 1514	交错条纹
+R49	Located Arg1:T201 Arg2:T196	
+T202	Location-Nominal 1515 1526	水塘、水井、小路、稻穗
+T203	Thing-Nominal 1532 1534	记号
+T204	Time-Implicit 1535 1537	最后
+R50	Ownership Arg1:T180 Arg2:T184	
+T205	Thing-Nominal 1544 1550	她的衣领裤脚
+T206	Person-Pronoun 1544 1545	她
+R51	Ownership Arg1:T206 Arg2:T205	
+T207	Thing-Nominal 1552 1554	记号
+R52	Located Arg1:T207 Arg2:T205	
+T208	Person-Nominal 1565 1567	族人
+R53	Social Arg1:T208 Arg2:T206	
+T209	Person-Pronoun 1572 1573	她
+T210	Thing-Nominal 1575 1579	所记符号
+*	Coreference T210 T207
+T211	Thing-Nominal 1581 1585	各色丝线
+T212	Person-Nominal 1590 1592	女儿
+T213	Thing-Nominal 1587 1589	一套
+T214	Thing-Nominal 1593 1595	嫁妆
+R54	Family Arg1:T212 Arg2:T209	
+T215	Person-Nominal 1596 1598	女儿
+T216	Time-Implicit 1596 1600;1601 1602	女儿出嫁 时
+T217	Person-Nominal 1610 1614	同族姐妹
+R55	Social Arg1:T217 Arg2:T215	
+T218	Person-Nominal 1634 1636	情郎
+R56	Social Arg1:T217 Arg2:T218	
+T219	Person-Nominal 1646 1648	苗家
+T220	Thing-Nominal 1650 1661	今天这样独特精美的服饰
+R57	Ownership Arg1:T219 Arg2:T220	
+T221	Thing-Name 1664 1666	苗绣
+T222	Time-Implicit 1671 1673	唐代
+T223	Thing-Nominal 1673 1675	史书
+T224	Person-Nominal 1677 1679	苗族
+R58	Create Arg1:T224 Arg2:T221	
+T225	Thing-Nominal 1682 1686	卉服鸟案
+T226	Person-Name 1700 1704	宋代朱辅
+T227	Time-Implicit 1700 1702	宋代
+T228	Abstract 1705 1709	溪蛮丛笑
+T229	Person-Nominal 1711 1713	苗族
+T230	Thing-Nominal 1716 1719	斑细布
+T231	Thing-Nominal 1721 1722	裳
+T232	Time-Implicit 1725 1727	明代
+T233	Abstract 1727 1731	《黔记》
+T234	Abstract 1731 1737	《贵州通史》
+T235	Person-Nominal 1740 1742	苗族
+T236	Thing-Nominal 1744 1746	彩线
+R59	Use Arg1:T235 Arg2:T236	
+T237	Thing-Nominal 1747 1751	绣花衣裙
+R60	Create Arg1:T235 Arg2:T237	
+T238	Thing-Nominal 1753 1756	成土锦
+T239	Thing-Nominal 1757 1760	花布条
+R61	Use Arg1:T235 Arg2:T238	
+R62	Create Arg1:T235 Arg2:T239	
+T240	Time-Implicit 1762 1767	清、民两代
+T241	Thing-Nominal 1770 1774	苗族刺绣
+*	Coreference T241 T221
+T242	Thing-Nominal 1775 1777	锦衣
+T243	Thing-Nominal 1781 1783	苗锦
+T244	Thing-Name 1788 1790	苗绣
+T245	Location-Nominal 1813 1815	全国
+T246	Location-Nominal 1816 1819	全世界
+R63	Part-Whole Arg1:T245 Arg2:T246	
+T247	Thing-Name 1826 1828	苗绣
+T248	Person-Nominal 1831 1835	苗家女儿
+T249	Person-Nominal 1770 1772	苗族
+R64	Part-Whole Arg1:T248 Arg2:T249	
+T250	Thing-Name 1844 1846	苗绣
+T251	Person-Nominal 1854 1859	每个苗家女
+T252	Person-Nominal 1864 1867	苗家女
+*	Coreference T252 T248 T265
+R65	General-Special Arg1:T251 Arg2:T252	
+T253	Time-Implicit 1867 1869	从小
+T254	Person-Nominal 1870 1872	母亲
+R66	Family Arg1:T254 Arg2:T252	
+T255	Person-Nominal 1873 1883	周围技艺高超绣花能手
+R67	Social Arg1:T255 Arg2:T252	
+T256	Time-Implicit 1889 1893	青春妙龄
+T257	Thing-Nominal 1908 1910	衣裙
+T258	Thing-Nominal 1918 1920	嫁衣
+T259	Person-Pronoun 1921 1922	我
+T260	Thing-Name 1927 1931	合乐苗绣
+T261	Thing-Name 1932 1936	叙永苗绣
+R68	General-Special Arg1:T247 Arg2:T260	
+R69	General-Special Arg1:T247 Arg2:T261	
+T262	Thing-Nominal 1941 1943	平绣
+T263	Thing-Nominal 1944 1946	凸绣
+T264	Thing-Nominal 1950 1952	平绣
+T265	Person-Nominal 1956 1960	苗家女人
+T266	Thing-Nominal 1964 1966	凸绣
+T267	Thing-Nominal 1967 1969	底部
+R70	Part-Whole Arg1:T267 Arg2:T266	
+T268	Thing-Nominal 1970 1975	几层剪纸花
+T269	Metric 1970 1972	几层
+T270	Thing-Nominal 1977 1981	所绣花样
+R71	Located Arg1:T270 Arg2:T266	
+T271	Location-Nominal 1989 1995	叙永南面苗乡
+T272	Location-Name 1989 1991	叙永
+T273	Person-Nominal 1995 1998	很多人
+T274	Thing-Nominal 2001 2003	图案
+R72	Located Arg1:T274 Arg2:T266	
+T275	Thing-Nominal 2058 2069;2070 2097	牡丹、清荷、石榴、桃子 、蝴蝶、鸳鸯、喜鹊、虎豹、飞龙、彩凤虫鱼花鸟，走兽飞禽
+T276	Person-Nominal 2098 2101	绣花人
+T277	Person-Pronoun 2101 2103	自己
+*	Coreference T277 T276 T289
+T278	Thing-Nominal 2107 2109	图案
+T279	Thing-Nominal 2112 2130;2131 2140	衣襟、衣领、衣袖、裙脚、头帕、腰带、 披肩、围腰、荷包等
+T280	Thing-Nominal 2186 2190	每套衣裙
+T281	Person-Nominal 2205 2209	长辈女性
+T282	Person-Nominal 2210 2212	闺蜜
+R73	Social Arg1:T281 Arg2:T276	
+R74	Social Arg1:T282 Arg2:T276	
+T283	Person-Nominal 2219 2220	师
+T284	Person-Nominal 2221 2222	徒
+R75	Social Arg1:T283 Arg2:T284	
+T285	Person-Nominal 2223 2225	女子
+T286	Person-Pronoun 2234 2236	自己
+*	Coreference T286 T285
+T287	Person-Nominal 2237 2239	家人
+R76	Family Arg1:T287 Arg2:T285	
+T288	Thing-Name 2242 2244	苗绣
+T289	Person-Pronoun 2263 2265	自己
+T290	Thing-Name 2286 2288	苗绣
+T291	Location-Nominal 2371 2374;2375 2378	叙永3 个苗乡
+T292	Location-Name 2371 2373	叙永
+R77	Part-Whole Arg1:T291 Arg2:T292	
+T293	Thing-Nominal 2379 2381	服饰
+T294	Thing-Nominal 2387 2389	图案
+T295	Thing-Nominal 2419 2422	蝴蝶纹
+R78	General-Special Arg1:T294 Arg2:T295	
+T296	Person-Nominal 2426 2432	哪一支系苗族
+T297	Abstract 2442 2446	苗族古歌
+T298	Person-Nominal 2460 2462	苗人
+T299	Person-Nominal 2474 2477	苗家人
+*	Coreference T299 T298
+T300	Thing-Nominal 2485 2488	蝴蝶纹
+T301	Person-Nominal 2455 2457	妈妈
+T302	Thing-Nominal 2449 2451	蝴蝶
+T303	Thing-Name 2506 2508	苗绣
+T304	Thing-Nominal 2508 2518	这朵少数民族文化奇葩
+*	Coreference T304 T303 T306
+T305	Location-Name 2532 2534	中华
+T306	Thing-Nominal 2569 2580	这朵传承千年的苗绣奇葩
+T307	Location-Nominal 2582 2587	民族百花园
+*	Coreference T307 T305 T310
+T308	Location-Name 2601 2612	云贵川三省交界边城叙永
+T309	Location-Name 2617 2626	乌蒙大山下合乐苗乡
+T310	Location-Name 2633 2637	神州大地
+T311	Location-Name 2641 2645	四海五洲
+T312	Person-Nominal 2648 2650	世人
+R79	Part-Whole Arg1:T310 Arg2:T311	
+T313	Time-Implicit 2671 2673;2674 2678	中华 历史长河
+T314	Metric 2225 2228	七八岁

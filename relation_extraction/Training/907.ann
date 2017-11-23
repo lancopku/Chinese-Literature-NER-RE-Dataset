@@ -1,0 +1,447 @@
+T1	Abstract 0 2	自省
+T2	Person-Name 18 20	孔子
+T3	Person-Nominal 38 41	中国人
+T4	Person-Name 51 53	孔子
+T5	Person-Name 72 74	孔子
+T7	Person-Name 72 79	孔子的学生曾子
+T9	Person-Nominal 80 83	他自己
+T10	Person-Nominal 126 131	最早的名人
+T11	Time-Implicit 133 137	从此之后
+T12	Abstract 138 140	自省
+T13	Person-Name 168 174	唐太宗李世民
+T14	Person-Pronoun 185 186	他
+*	Coreference T14 T13
+T15	Person-Pronoun 223 224	我
+T16	Person-Nominal 300 302	自己
+T17	Person-Nominal 340 342	自己
+T18	Person-Nominal 359 361	人家
+T19	Person-Nominal 410 411	人
+T20	Person-Nominal 421 424	任何人
+T21	Person-Pronoun 484 485	我
+T22	Person-Nominal 508 510	人家
+T23	Person-Nominal 513 515	古人
+T24	Person-Nominal 539 546	惟一的“天子”
+T25	Person-Nominal 547 548;549 550	皇 帝
+T26	Person-Pronoun 553 554	他
+*	Coreference T26 T25
+T27	Person-Nominal 583 587	共产党员
+T28	Organization-Nominal 598 601	党组织
+T31	Organization-Nominal 614 616	中央
+T32	Organization-Nominal 621 626	单位、组织
+T33	Organization-Nominal 631 633	政府
+T34	Organization-Nominal 635 637	国家
+T35	Person-Nominal 650 656	全体人民群众
+T37	Person-Nominal 662 664	成员
+T38	Time-Explicit 681 683	今天
+T39	Person-Nominal 686 688	自己
+T40	Person-Nominal 697 699	自己
+T41	Time-Explicit 699 701	今日
+T42	Organization-Nominal 702 703	党
+T43	Time-Explicit 707 709	今日
+T44	Organization-Nominal 710 712	单位
+T45	Organization-Nominal 713 715	国家
+T46	Time-Explicit 719 721	今日
+T47	Person-Nominal 722 731;732 733	服务对象、同事、朋 友
+T48	Person-Nominal 734 738	人民群众
+T49	Time-Explicit 742 744	今日
+T50	Person-Nominal 745 747	妻子
+T51	Person-Nominal 748 750	父母
+R3	Family Arg1:T51 Arg2:T50	
+T52	Person-Nominal 769 771	自己
+T53	Person-Nominal 782 784	朋友
+T54	Time-Explicit 800 802	今日
+T55	Person-Nominal 820 822	朋友
+T56	Person-Nominal 864 871	一个守信用的人
+T57	Person-Nominal 924 926	古人
+T58	Person-Nominal 936 938	人家
+T59	Person-Nominal 972 974	朋友
+T60	Person-Nominal 986 988	朋友
+T61	Time-Explicit 992 994	今日
+T62	Time-Implicit 1000 1002	古时
+T63	Person-Nominal 1022 1023	人
+T64	Person-Nominal 1032 1034	人们
+T65	Person-Nominal 1049 1051	朋友
+T66	Person-Nominal 1060 1062	朋友
+T67	Person-Nominal 1068 1073	“社会人”
+T68	Person-Nominal 1073 1079	和“自然人”
+T69	Organization-Nominal 1087 1104	相关的组织、相关单位
+、政府、国家
+T73	Person-Nominal 1107 1116	日常工作的服务对象
+T74	Person-Nominal 1117 1123	全体人民群众
+T75	Time-Explicit 1139 1141	今天
+T76	Person-Nominal 1144 1146	自己
+T77	Person-Nominal 1155 1157	自己
+T78	Organization-Nominal 1161 1176	相关组织、相关单位、政府、国家
+T79	Person-Nominal 1182 1184	自己
+T80	Person-Nominal 1187 1191	服务对象
+T81	Person-Nominal 1192 1194	群众
+T82	Person-Nominal 1215 1217	自己
+T83	Time-Explicit 1243 1245	今天
+T84	Person-Nominal 1269 1271	老师
+T85	Person-Pronoun 1277 1278	我
+T86	Person-Nominal 1286 1288	老师
+T87	Person-Pronoun 1289 1290	我
+T88	Person-Pronoun 1295 1296	我
+T89	Person-Pronoun 1311 1312	我
+T90	Time-Explicit 1312 1314	今天
+T91	Person-Nominal 1336 1338	本人
+T92	Person-Nominal 1355 1357	老师
+T93	Person-Nominal 1387 1389	自己
+T94	Person-Nominal 1390 1392	老师
+T95	Person-Nominal 1427 1429	人家
+T96	Organization-Nominal 1455 1456	党
+T97	Organization-Nominal 1473 1475	国家
+T98	Person-Pronoun 1486 1487	我
+T99	Time-Explicit 1487 1489	今日
+T100	Person-Nominal 1505 1507	领导
+T101	Person-Nominal 1509 1511	老师
+T102	Person-Pronoun 1503 1514	作为领导（或老师）的我
+T103	Time-Explicit 1515 1517	今日
+T104	Person-Nominal 1518 1524;1525 1529	下级、下属（ 或学生）
+R5	Social Arg1:T104 Arg2:T102	
+T105	Person-Nominal 1580 1582	自己
+T106	Time-Implicit 1600 1604	今年以来
+T107	Location-Nominal 1605 1607	全国
+T108	Organization-Nominal 1611 1612	党
+T109	Organization-Nominal 1629 1631	中央
+T110	Organization-Nominal 1637 1638	党
+T111	Person-Pronoun 1700 1702	我们
+T112	Person-Name 1705 1707	曾子
+T113	Person-Name 1726 1728	孔子
+T114	Person-Name 1728 1730	曾子
+T115	Person-Nominal 1735 1737	文人
+T116	Person-Nominal 1740 1742	文盲
+T117	Person-Nominal 1757 1762	愚昧的国人
+T118	Person-Name 1765 1767	孔子
+T119	Person-Nominal 1770 1772	门徒
+T120	Time-Explicit 1830 1832	今日
+T121	Person-Nominal 1846 1848	文人
+T122	Person-Nominal 1860 1868	各类名人“大家”
+T123	Person-Nominal 1902 1904	国人
+T124	Person-Pronoun 1979 1980	我
+T125	Organization-Nominal 1979 1981	我党
+T126	Organization-Nominal 1994 1996	中央
+T127	Organization-Nominal 1998 1999	党
+T128	Person-Nominal 2011 2012;2013 2015	总 书记
+T129	Person-Nominal 2059 2063	党内同志
+T130	Person-Nominal 2087 2089	党员
+T131	Person-Nominal 2100 2102	同志
+T132	Person-Nominal 2104 2106	圣贤
+T133	Organization-Nominal 2135 2137	中央
+T134	Person-Nominal 2143 2152	一个合格的共产党员
+T135	Person-Name 2153 2155	曾子
+T136	Person-Name 2156 2158	孔子
+T137	Person-Pronoun 2164 2165	他
+*	Coreference T137 T135
+T138	Person-Nominal 2178 2180	别人
+T139	Person-Nominal 2190 2191	人
+T140	Person-Nominal 2215 2217	别人
+T141	Person-Nominal 2236 2240	一个圣贤
+T142	Person-Nominal 2244 2248	一个先师
+T143	Person-Pronoun 2249 2250	他
+*	Coreference T143 T142
+T144	Person-Pronoun 2252 2254	我们
+T145	Abstract 2314 2317	十八大
+T146	Time-Explicit 2314 2317;2318 2320	十八大 以来
+T147	Person-Pronoun 2321 2322	我
+T148	Organization-Nominal 2321 2323	我党
+T149	Person-Pronoun 2381 2383	他们
+T150	Person-Nominal 2350 2354	腐败分子
+T151	Person-Nominal 2368 2372	腐败分子
+*	Coreference T149 T151
+T152	Person-Pronoun 2389 2390	我
+T153	Person-Pronoun 2393 2395	他们
+T154	Person-Pronoun 2404 2406	他们
+T155	Person-Pronoun 2419 2421	他们
+T156	Thing-Nominal 2441 2444	后悔药
+T157	Organization-Nominal 2465 2466	党
+T158	Person-Nominal 2465 2469	党内同志
+T159	Person-Nominal 2471 2473	圣贤
+T160	Person-Nominal 2515 2525	一个受人敬重的好党员
+T161	Time-Implicit 2526 2530	几十年来
+T162	Person-Nominal 2531 2533	国人
+T163	Time-Explicit 2570 2572	如今
+T164	Organization-Name 2573 2577	中共中央
+T165	Abstract 2583 2592	社会主义核心价值观
+T166	Person-Nominal 2598 2599	人
+T167	Person-Nominal 2618 2620	公民
+T168	Abstract 2660 2663	中国梦
+T169	Location-Name 2726 2728	中国
+T170	Person-Nominal 2726 2731	中国的公民
+T171	Person-Pronoun 2732 2734	我们
+*	Coreference T171 T170
+T172	Person-Pronoun 2754 2755	我
+T173	Person-Nominal 2763 2767	共产党人
+T174	Person-Pronoun 2768 2770	我们
+*	Coreference T174 T173
+T175	Person-Pronoun 2787 2788	我
+T176	Person-Nominal 2793 2796	领导人
+T177	Person-Pronoun 2797 2799	我们
+*	Coreference T177 T176
+T178	Person-Nominal 2807 2809	自己
+T179	Person-Nominal 2814 2816	群众
+T180	Location-Name 2821 2823	中国
+T181	Person-Nominal 2827 2830	中国人
+T182	Location-Name 2825 2833	所有中国人的中国
+T183	Organization-Nominal 2841 2846	某一个政党
+T184	Location-Name 2836 2849	某一个人或某一个政党的中国
+T185	Person-Nominal 2861 2866	所有中国人
+T186	Organization-Nominal 2878 2883	某一个政党
+T187	Person-Nominal 2892 2895	中国人
+T188	Person-Nominal 2900 2902	自己
+T189	Person-Pronoun 2903 2904	我
+T190	Organization-Nominal 2905 2907	国家
+T191	Person-Pronoun 2912 2913	我
+T192	Organization-Nominal 2914 2916	国家
+T193	Person-Pronoun 2921 2922	我
+T194	Person-Pronoun 2955 2956	我
+T195	Person-Nominal 2958 2960	国人
+T196	Person-Nominal 2972 2975	领导者
+T197	Time-Implicit 3006 3009	上一年
+T198	Time-Implicit 3010 3015	过去许多年
+T199	Location-Nominal 3023 3028	步行商业街
+T200	Person-Nominal 3036 3038	行人
+T201	Thing-Nominal 3049 3053	大包小包
+T202	Location-Nominal 3055 3058	商店里
+T203	Location-Nominal 3060 3063	街道上
+T204	Person-Nominal 3066 3068	人们
+T205	Time-Implicit 3086 3088	冬天
+T206	Thing-Nominal 3086 3093	冬天清凉的空气
+T207	Thing-Nominal 3097 3104	一层白色的气浪
+T208	Location-Nominal 3109 3117	黑压压的人群头上
+T209	Thing-Nominal 3120 3125	白色的气浪
+T210	Thing-Nominal 3126 3137	各种形状和色彩的圣诞灯
+T211	Location-Nominal 3140 3142	空中
+R10	Located Arg1:T210 Arg2:T211	
+T212	Thing-Nominal 3143 3146	有些灯
+T213	Person-Name 3148 3152	圣诞老人
+T214	Thing-Nominal 3156 3159	有些灯
+T215	Thing-Nominal 3161 3163	小鹿
+T216	Thing-Nominal 3170 3179	无数成簇成串的小灯
+T217	Location-Nominal 3190 3192	树上
+R11	Located Arg1:T216 Arg2:T217	
+T218	Thing-Nominal 3193 3194	树
+T219	Location-Nominal 3204 3206	房上
+T220	Thing-Nominal 3207 3208	房
+T221	Thing-Nominal 3225 3227	水帘
+T222	Thing-Nominal 3230 3232	瀑布
+T223	Location-Nominal 3237 3239	地面
+T224	Thing-Nominal 3240 3244	这些小灯
+T225	Thing-Nominal 3265 3268	一棵草
+T226	Thing-Nominal 3272 3275	一片草
+T227	Thing-Nominal 3277 3278	原
+R13	Part-Whole Arg1:T227 Arg2:T226	
+T228	Thing-Nominal 3279 3282	一粒沙
+T229	Thing-Nominal 3286 3289	一片沙
+T230	Thing-Nominal 3292 3293	漠
+R14	Part-Whole Arg1:T230 Arg2:T229	
+T231	Thing-Nominal 3294 3297	一滴水
+T232	Thing-Nominal 3301 3304	一片水
+T233	Thing-Nominal 3306 3307	洋
+R15	Part-Whole Arg1:T232 Arg2:T233	
+T234	Thing-Nominal 3308 3312	无数小灯
+T235	Thing-Nominal 3320 3323	满天星
+T236	Person-Pronoun 3335 3336	我
+T237	Metric 3338 3341	几百个
+T238	Thing-Nominal 3338 3344	几百个小星星
+T239	Location-Nominal 3346 3347	家
+T240	Thing-Pronoun 3349 3351	他们
+*	Coreference T240 T238
+T241	Location-Nominal 3371 3377	临街的窗户上
+R16	Located Arg1:T240 Arg2:T241	
+T242	Thing-Nominal 3380 3386	黑洞洞的窗户
+T243	Thing-Nominal 3394 3401	满
+窗的小星星
+T244	Thing-Nominal 3404 3406	窗子
+T245	Thing-Nominal 3415 3418	小星星
+T247	Location-Nominal 3419 3426	街对面的居民家
+T248	Thing-Nominal 3427 3430	小星星
+R17	Located Arg1:T248 Arg2:T247	
+T249	Thing-Nominal 3438 3441	小星星
+T250	Location-Nominal 3444 3453	一条弯弯曲曲的街道
+T251	Thing-Nominal 3455 3456;3457 3459	小 星星
+T252	Thing-Nominal 3455 3463	小
+星星蜿蜒的河
+T253	Thing-Nominal 3476 3478	星星
+T254	Location-Nominal 3479 3490	天上的，地上的，家里的
+T255	Thing-Nominal 3479 3493	天上的，地上的，家里的小星星
+R19	Located Arg1:T255 Arg2:T254	
+T256	Thing-Nominal 3525 3527	星星
+T257	Person-Pronoun 3532 3533	我
+T258	Location-Nominal 3535 3540	童年的家乡
+T259	Location-Name 3543 3545	南京
+T260	Location-Nominal 3543 3553	南京城里的一个小院子
+T261	Metric 3554 3557	五六户
+T262	Person-Nominal 3554 3559	五六户人家
+T263	Time-Implicit 3560 3568	在最热的夏季晚上
+T264	Thing-Nominal 3569 3571	青石
+T265	Location-Nominal 3569 3576	青石铺就的地上
+T266	Thing-Nominal 3578 3582	凉爽的水
+T267	Thing-Nominal 3588 3590	竹椅
+T268	Thing-Nominal 3592 3594	竹床
+T269	Person-Nominal 3595 3597	大人
+T270	Person-Nominal 3601 3603	小孩
+T271	Thing-Nominal 3607 3610	萤火虫
+T272	Thing-Nominal 3612 3614	蛐蛐
+T273	Thing-Nominal 3625 3627	星星
+T274	Person-Nominal 3629 3631	人们
+T275	Thing-Nominal 3635 3637	星星
+T276	Person-Pronoun 3642 3643	我
+T277	Location-Nominal 3645 3647	老家
+T278	Person-Nominal 3648 3650	外婆
+T280	Location-Nominal 3655 3664	广东南海的一个村庄
+T281	Person-Nominal 3674 3676	外公
+R23	Family Arg1:T281 Arg2:T278	
+T282	Location-Nominal 3676 3681	紫砂茶壶里
+T283	Thing-Nominal 3684 3689	一颗颗龙眼
+R24	Located Arg1:T283 Arg2:T282	
+T284	Person-Nominal 3700 3702	外公
+T285	Thing-Nominal 3702 3704	烟斗
+T286	Person-Nominal 3717 3719	外公
+T287	Person-Pronoun 3735 3736	我
+T288	Time-Implicit 3738 3742	几十年前
+T289	Location-Name 3738 3747	几十年前的苏北农村
+T290	Location-Nominal 3748 3751	祖屋里
+T291	Thing-Nominal 3748 3755	祖屋里的小油灯
+R25	Located Arg1:T291 Arg2:T290	
+T292	Thing-Nominal 3757 3759	火苗
+T293	Location-Nominal 3766 3769	屋梁上
+T294	Thing-Nominal 3766 3772	屋梁上的鸟窝
+R26	Located Arg1:T294 Arg2:T293	
+T295	Thing-Nominal 3773 3776	小燕子
+T296	Thing-Nominal 3790 3792	火苗
+T297	Person-Nominal 3799 3801	奶奶
+T298	Thing-Nominal 3799 3806	奶奶脸上的褶子
+T299	Location-Name 3824 3826	北京
+T300	Thing-Nominal 3824 3831	北京夜晚的路灯
+R28	Located Arg1:T300 Arg2:T299	
+T301	Time-Explicit 3832 3837	八十年代中
+T302	Person-Pronoun 3838 3840	我们
+T303	Person-Nominal 3838 3844	我们几个朋友
+T304	Location-Nominal 3846 3849	天桥上
+T305	Thing-Nominal 3864 3872	路边不太高的高楼
+T306	Person-Pronoun 3913 3915	你们
+T307	Person-Nominal 3936 3937;3938 3939	大 家
+T308	Time-Implicit 3945 3947	当年
+T309	Time-Implicit 3957 3959	当年
+T310	Person-Pronoun 3967 3969	我们
+T311	Person-Nominal 3971 3979	新一届大学毕业生
+T312	Location-Nominal 3981 3986	同一间宿舍
+T313	Time-Explicit 3990 3992	四年
+T314	Organization-Nominal 3994 4000	同一个单
+位
+T315	Time-Explicit 4016 4018	四年
+T316	Organization-Nominal 4035 4037	学校
+T317	Time-Explicit 4040 4043	二十年
+T318	Person-Nominal 4051 4053	同学
+T319	Person-Nominal 4057 4059	驴友
+T320	Thing-Nominal 4062 4069	一个一个小星星
+T321	Person-Pronoun 4074 4075	你
+T322	Location-Nominal 4081 4083	学校
+T323	Location-Nominal 4090 4092	学校
+T324	Thing-Nominal 4096 4098	星星
+T325	Person-Pronoun 4103 4104	你
+T326	Location-Nominal 4107 4109	学校
+T327	Person-Nominal 4112 4114	驴友
+T328	Person-Pronoun 4117 4118	你
+T329	Person-Pronoun 4131 4132	你
+T330	Person-Pronoun 4147 4148	你
+T331	Thing-Nominal 4159 4161	星星
+T332	Location-Nominal 4162 4164	天空
+R29	Located Arg1:T331 Arg2:T332	
+T333	Person-Pronoun 4185 4186	她
+T334	Thing-Nominal 4206 4209	小星星
+T335	Location-Name 4225 4227	黄山
+T336	Location-Nominal 4246 4248	河上
+T337	Location-Nominal 4251 4254	渔船上
+T338	Thing-Nominal 4251 4259	渔船上的点点灯火
+R30	Located Arg1:T338 Arg2:T337	
+T339	Time-Implicit 4260 4263	年轻时
+T340	Thing-Nominal 4269 4271	月亮
+T341	Thing-Nominal 4280 4282	月亮
+T342	Time-Implicit 4283 4286	年长时
+T343	Thing-Nominal 4293 4295	星星
+T344	Thing-Nominal 4304 4306	星星
+T345	Person-Nominal 4331 4333	父母
+T346	Person-Nominal 4340 4342	游子
+R31	Family Arg1:T346 Arg2:T345	
+T347	Person-Pronoun 4351 4352	你
+T348	Person-Nominal 4369 4371	老爸
+R32	Family Arg1:T348 Arg2:T347	
+T349	Person-Pronoun 4382 4383	我
+T350	Person-Pronoun 4393 4394	你
+T351	Location-Nominal 4397 4399	国内
+T352	Time-Implicit 4400 4402	一年
+T353	Location-Nominal 4417 4419	国外
+T354	Time-Explicit 4420 4422	一年
+T355	Time-Explicit 4425 4428	一个月
+T356	Thing-Nominal 4446 4448	星星
+T357	Person-Nominal 4441 4443	父母
+T359	Person-Pronoun 4479 4480	我
+T360	Person-Nominal 4 18	中国古代伟大的教育家、思想家
+R33	Part-Whole Arg1:T2 Arg2:T360	
+*	Coreference T9 T7
+T6	Person-Nominal 101 103	朋友
+T8	Person-Nominal 141 154	许多思想家、政治家、科学家
+T361	Person-Nominal 257 259	百姓
+T362	Time-Implicit 376 378	古代
+T363	Time-Implicit 379 381	当代
+T364	Time-Implicit 390 392	古代
+T29	Organization-Nominal 604 609;610 612	上级各级党 组织
+T30	Person-Nominal 640 649	日常工作的服务对象
+T36	Abstract 1055 1057	今日
+T70	Organization-Nominal 1087 1097;1098 1104	相关的组织、相关单位 、政府、国家
+T71	Person-Nominal 1220 1228	一个诚实守信之人
+T72	Time-Implicit 1726 1732	孔子曾子时代
+T365	Metric 1835 1838	几千年
+T366	Time-Explicit 1844 1846	如今
+T367	Person-Nominal 1851 1855	有识之士
+T368	Metric 2296 2298	一年
+T369	Metric 2301 2303	一月
+T370	Metric 2309 2311	日日
+T371	Location-Nominal 2375 2377	监狱
+T372	Person-Nominal 2836 2840	某一个人
+T373	Person-Nominal 2873 2877	某一个人
+*	Coreference T189 T187
+T374	Time-Implicit 2992 2999	每一年的圣诞节
+T375	Location-Nominal 3066 3070	人们嘴里
+T376	Thing-Nominal 3066 3075	人们嘴里呼出的热气
+R1	Located Arg1:T376 Arg2:T375	
+T377	Thing-Nominal 3075 3084	和头上蒸腾出的热气
+T378	Location-Nominal 3076 3078	头上
+R2	Located Arg1:T377 Arg2:T378	
+R4	Located Arg1:T207 Arg2:T208	
+R6	Located Arg1:T216 Arg2:T219	
+T379	Thing-Nominal 3250 3253	火柴头
+T380	Thing-Nominal 3394 3395;3396 3401	满 窗的小星星
+T381	Location-Nominal 3410 3414	左邻右舍
+R7	Located Arg1:T245 Arg2:T381	
+T246	Thing-Nominal 3431 3436	家家的窗户
+T382	Thing-Nominal 4459 4464	天上的星星
+T383	Location-Nominal 3468 3470	夜空
+R8	Located Arg1:T253 Arg2:T383	
+T384	Thing-Nominal 3500 3502	眼睛
+R9	Part-Whole Arg1:T384 Arg2:T255	
+R12	Located Arg1:T266 Arg2:T265	
+T279	Thing-Nominal 3702 3707	烟斗的火星
+T385	Thing-Nominal 3717 3726	外公眯着的一对眼睛
+R18	Part-Whole Arg1:T385 Arg2:T286	
+T386	Thing-Nominal 3778 3779	头
+R20	Part-Whole Arg1:T386 Arg2:T295	
+T387	Location-Nominal 3799 3803	奶奶脸上
+R21	Located Arg1:T298 Arg2:T387	
+T388	Time-Implicit 3824 3828	北京夜晚
+T389	Location-Nominal 3852 3854	脚下
+T390	Thing-Nominal 3852 3861	脚下流动的车灯之河
+R22	Located Arg1:T390 Arg2:T389	
+T391	Location-Nominal 3864 3866	路边
+R27	Located Arg1:T305 Arg2:T391	
+T392	Thing-Nominal 3925 3927	毛发
+T393	Metric 3990 3992	四年
+T394	Thing-Nominal 4076 4078	眼睛
+*	Coreference T394 T320
+T395	Thing-Nominal 4175 4177	灯火
+T396	Location-Name 4243 4245	漓江
+T358	Location-Nominal 4459 4461	天上
+R34	Located Arg1:T382 Arg2:T358	
+T397	Thing-Nominal 4476 4478	星星

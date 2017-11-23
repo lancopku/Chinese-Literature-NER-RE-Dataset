@@ -1,0 +1,120 @@
+T1	Person-Nominal 10 17	我的许多花友们
+T2	Person-Pronoun 10 11	我
+R1	Social Arg1:T1 Arg2:T2	
+T3	Time-Implicit 3 5	冬天
+T4	Thing-Nominal 30 35	常绿的杜鹃
+T5	Thing-Nominal 36 38	叶子
+*	Coreference T5 T4
+T6	Thing-Nominal 51 56	多年生草本
+T7	Time-Implicit 65 72	这个多雪的寒冬
+T8	Thing-Nominal 68 69	雪
+T9	Person-Pronoun 73 74	我
+T10	Thing-Nominal 77 82	我的花儿们
+T11	Person-Pronoun 77 78	我
+R2	Ownership Arg1:T11 Arg2:T10	
+T12	Time-Implicit 85 87	春天
+T13	Person-Pronoun 90 91	我
+T14	Thing-Nominal 92 94	花儿
+T15	Thing-Nominal 102 103	雪
+T16	Time-Implicit 106 108	春天
+T17	Time-Implicit 119 125	波士顿的冬天
+T18	Location-Name 119 122	波士顿
+T19	Person-Pronoun 126 128	我们
+T20	Time-Implicit 130 134	隆冬时节
+T21	Location-Name 135 138	洛杉矶
+T22	Location-Name 139 143	圣地亚哥
+T23	Metric 156 159;160 161	80多 度
+T24	Location-Nominal 169 171	北国
+T25	Person-Pronoun 174 176	我们
+T26	Person-Nominal 180 184	小朋友们
+T27	Location-Name 187 192	南加州遍地
+T28	Thing-Nominal 193 196	棕榈树
+R3	Located Arg1:T28 Arg2:T27	
+T29	Location-Nominal 201 203	北方
+T30	Person-Pronoun 206 207	我
+T31	Thing-Nominal 222 224	夕阳
+T32	Thing-Nominal 227 238	圣地亚哥的巴尔博亚公园
+T33	Location-Name 227 231	圣地亚哥
+R4	Located Arg1:T32 Arg2:T33	
+T34	Person-Pronoun 240 241	我
+T35	Thing-Nominal 256 265	美轮美奂的传统建筑
+T36	Location-Nominal 266 271	古典花园里
+T37	Person-Pronoun 282 283	你
+T38	Location-Pronoun 291 293	那里
+*	Coreference T38 T36
+T39	Time-Implicit 294 296	傍晚
+T40	Location-Name 300 303	海港村
+T41	Thing-Nominal 304 313	旖旎迷人的小镇风光
+T42	Thing-Nominal 314 319	美丽的海景
+T43	Thing-Nominal 320 325	远方的大桥
+T44	Location-Nominal 320 322	远方
+R5	Located Arg1:T43 Arg2:T44	
+T45	Thing-Nominal 328 333	往来的白帆
+T46	Person-Nominal 335 336	人
+T47	Location-Name 347 353	圣地亚哥海边
+T48	Thing-Nominal 354 356	涛声
+T49	Location-Nominal 358 360	耳畔
+R6	Located Arg1:T48 Arg2:T47	
+T50	Thing-Nominal 363 368	我们的汽车
+T51	Person-Pronoun 363 365	我们
+R7	Ownership Arg1:T51 Arg2:T50	
+T52	Location-Nominal 373 377	海滨大道
+T53	Person-Pronoun 380 386	阳光下的自己
+T54	Thing-Nominal 388 392	短袖长裙
+T55	Thing-Nominal 395 397	墨镜
+T56	Thing-Nominal 399 403	一顶草帽
+R8	Ownership Arg1:T53 Arg2:T56	
+T57	Location-Nominal 410 416	岸边的岩石上
+T58	Location-Nominal 410 412	岸边
+T59	Location-Name 453 460	阳光明媚的加州
+T60	Location-Nominal 462 469	冰天雪地的北国
+R9	Near Arg1:T60 Arg2:T59	
+T61	Time-Implicit 485 487	此时
+T62	Person-Nominal 488 490	女儿
+T63	Person-Pronoun 496 497	我
+R10	Family Arg1:T63 Arg2:T62	
+T64	Thing-Nominal 497 502	波士顿的雪
+T65	Location-Name 497 500	波士顿
+T66	Thing-Nominal 532 540	红砖建筑屋顶上面
+*	Coreference T64 T66
+T67	Location-Nominal 515 517	后湾
+T68	Thing-Nominal 547 552	今冬的大雪
+T69	Thing-Nominal 557 570;571 574	多少幅BackBay隆冬的 水彩画
+T70	Location-Name 577 580	波士顿
+T71	Location-Pronoun 590 592	这里
+*	Coreference T71 T70
+T72	Person-Nominal 593 595	人们
+T73	Time-Implicit 615 618	一年里
+T74	Time-Implicit 623 625	天天
+T75	Thing-Nominal 626 630	鲜花碧叶
+T76	Person-Nominal 656 657	人
+T77	Person-Pronoun 664 665	我
+T78	Location-Name 684 687	波士顿
+T79	Time-Implicit 687 692	漫长的冬天
+T80	Person-Pronoun 693 694	我
+T81	Time-Implicit 695 698;699 706	波士顿 的春天到来之时
+T82	Location-Name 695 698	波士顿
+T83	Time-Implicit 710 715	加州的春天
+T84	Location-Name 710 712	加州
+T85	Location-Nominal 728 732	温暖地区
+T86	Thing-Nominal 737 738	胎
+T87	Thing-Nominal 739 740	骨
+T88	Time-Implicit 722 742	经历了一场在温暖地区所没有的脱胎换骨之后
+T89	Person-Pronoun 762 764	我们
+T90	Thing-Nominal 769 771	春光
+T91	Person-Nominal 782 784	上苍
+T92	Time-Implicit 794 800	波士顿的春天
+T93	Location-Name 794 797	波士顿
+T94	Time-Implicit 801 805	此时此刻
+T95	Person-Nominal 815 818	孩子们
+T96	Time-Implicit 806 814	一个静谧的风雪夜
+T97	Person-Pronoun 825 826	我
+T98	Location-Nominal 828 834	温暖的壁炉旁
+T99	Location-Nominal 839 841	手中
+T100	Thing-Nominal 842 843	书
+R11	Located Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 848 849;850 866	一 支小小的、散发着丁香花芬芳的蜡烛
+T102	Time-Implicit 873 875	春天
+T103	Time-Implicit 882 889	春暖花开的时刻
+*	Coreference T103 T102
+T104	Thing-Nominal 858 861	丁香花

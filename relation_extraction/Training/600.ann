@@ -1,0 +1,155 @@
+T1	Person-Nominal 255 257	游客
+T2	Person-Nominal 272 274	游客
+T3	Person-Nominal 368 370	村民
+T4	Organization-Nominal 135 137	县委
+T5	Organization-Nominal 138 141	县人大
+T6	Organization-Nominal 142 145	县政府
+T7	Organization-Nominal 146 149	县政协
+T8	Person-Nominal 149 151	领导
+T10	Time-Explicit 168 170	冬至
+T11	Person-Nominal 174 177	土家人
+T12	Thing-Nominal 188 191	过年猪
+T13	Time-Explicit 194 196	腊月
+T14	Location-Nominal 210 213	山寨里
+T15	Person-Nominal 427 430	男主人
+T16	Person-Nominal 433 435	邻居
+T17	Person-Nominal 436 438	家族
+T18	Person-Nominal 439 443	亲朋好友
+R1	Social Arg1:T15 Arg2:T16	
+R2	Family Arg1:T15 Arg2:T17	
+R3	Social Arg1:T15 Arg2:T18	
+T19	Time-Explicit 445 447	明天
+T20	Thing-Nominal 461 464	泡汤肉
+T21	Person-Nominal 467 471	小孩子们
+T22	Location-Nominal 453 455	我家
+T23	Person-Nominal 510 513	女主人
+T24	Time-Implicit 507 509	清晨
+T25	Thing-Nominal 516 517	猪
+T26	Thing-Nominal 522 523	猪
+T27	Thing-Nominal 533 535	肠肚
+T28	Person-Nominal 640 643	土家人
+R4	Part-Whole Arg1:T27 Arg2:T26	
+T29	Thing-Nominal 553 555	粉肠
+T30	Person-Nominal 571 574	乡下人
+T31	Person-Nominal 578 581	女主人
+T32	Location-Nominal 583 586	猪栏边
+T34	Thing-Nominal 609 611	眼圈
+T35	Thing-Nominal 614 616	泪水
+T36	Thing-Nominal 618 619	脸
+T37	Thing-Nominal 624 626	梨花
+T38	Person-Nominal 1014 1017	男主人
+T39	Thing-Nominal 1018 1021	杀猪凳
+T40	Thing-Nominal 1030 1032	猪血
+T41	Thing-Nominal 1033 1035	木盆
+T42	Thing-Nominal 1039 1041	凉水
+T43	Thing-Nominal 1042 1043	盐
+T44	Thing-Nominal 1044 1046	芡粉
+T45	Thing-Nominal 1047 1048	水
+T46	Person-Nominal 1057 1059	祭师
+T47	Person-Nominal 1062 1064	香案
+T48	Person-Nominal 987 990	一家人
+T49	Person-Nominal 991 997	前来帮忙的人
+R5	Social Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 952 956	男人的手
+T51	Thing-Nominal 957 959	眼睛
+T52	Thing-Nominal 962 964	脸上
+T53	Person-Nominal 939 942	女主人
+R6	Part-Whole Arg1:T51 Arg2:T53	
+R7	Part-Whole Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 978 981	婀娜腰
+R8	Part-Whole Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 983 984	水
+T56	Person-Nominal 903 906	男主人
+T58	Thing-Nominal 922 923	水
+T59	Person-Nominal 803 806	男主人
+T60	Thing-Nominal 810 814	杀猪工具
+T61	Thing-Nominal 817 819	尖刀
+T62	Thing-Nominal 820 822	屠刀
+T63	Thing-Nominal 823 825	砍刀
+T64	Thing-Nominal 826 827;828 829	刮 刀
+T65	Thing-Nominal 830 832	刨子
+T66	Thing-Nominal 833 835	挺棍
+T67	Thing-Nominal 836 838	杠子
+T68	Thing-Nominal 839 841	抓钩
+T69	Thing-Nominal 842 844	挂钩
+T70	Thing-Nominal 851 853	鲜血
+T72	Person-Pronoun 878 879	他
+T73	Person-Pronoun 885 886	他
+T74	Thing-Nominal 644 647	过年猪
+T75	Thing-Nominal 659 661	年猪
+T77	Person-Nominal 695 699	老杀猪匠
+T78	Thing-Nominal 712 714	猪血
+T79	Person-Nominal 737 739	屠夫
+T81	Person-Nominal 768 770	村民
+T82	Thing-Nominal 771 773	年猪
+T83	Person-Nominal 795 798	女主人
+T85	Thing-Nominal 384 386	年猪
+T88	Location-Nominal 412 416	乡野上空
+T89	Location-Nominal 228 232	五彩森林
+T90	Location-Nominal 234 238	黄水林海
+T91	Thing-Nominal 240 244	生态年猪
+T92	Location-Nominal 246 250	林海雪原
+T93	Person-Nominal 278 281	土家人
+T94	Thing-Nominal 283 286	过年猪
+T95	Thing-Nominal 291 294	刨汤肉
+T96	Thing-Nominal 304 307	泡汤肉
+T97	Thing-Nominal 309 311	咂酒
+T98	Location-Nominal 314 318	林海雪原
+T99	Thing-Nominal 1 4	过年猪
+T100	Thing-Nominal 10 13	泡汤肉
+T101	Thing-Nominal 30 32	年猪
+T102	Time-Implicit 41 44	兔年冬
+T103	Location-Name 45 47	渝东
+T104	Location-Name 47 50	石柱县
+R10	Part-Whole Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 55 59	生态年猪
+T106	Location-Nominal 60 64	林海雪原
+T107	Location-Nominal 73 77	黄水景区
+T109	Thing-Nominal 91 93	暖阳
+T110	Thing-Nominal 100 102	余雪
+T111	Location-Nominal 104 107	黄连地
+T112	Location-Nominal 108 111	莼田坎
+T113	Location-Nominal 119 129	乡村旅游农家乐接待点
+R11	Located Arg1:T110 Arg2:T111	
+R12	Ownership Arg1:T8 Arg2:T7	
+R13	Ownership Arg1:T8 Arg2:T6	
+R14	Ownership Arg1:T8 Arg2:T5	
+R15	Ownership Arg1:T8 Arg2:T4	
+R16	Located Arg1:T43 Arg2:T41	
+R17	Located Arg1:T45 Arg2:T41	
+R18	Located Arg1:T43 Arg2:T41	
+R19	Use Arg1:T59 Arg2:T60	
+R20	Part-Whole Arg1:T78 Arg2:T75	
+T114	Location-Nominal 87 89	景点
+T115	Person-Nominal 180 184	家家户户
+R21	Part-Whole Arg1:T115 Arg2:T11	
+R22	Family Arg1:T59 Arg2:T83	
+T116	Thing-Nominal 339 342	刨汤肉
+T108	Physical 78 86	中国一号水杉母树
+T117	Location-Nominal 95 99	林海人家
+T9	Person-Nominal 152 157	县内外游客
+T118	Thing-Nominal 260 271	一道独具土家年味的佳肴
+R23	Social Arg1:T2 Arg2:T93	
+T84	Thing-Nominal 345 358	刚宰杀、才烫刨出来的新鲜肉
+*	Coreference T116 T84
+T86	Thing-Nominal 423 425	年猪
+T87	Thing-Nominal 456 458	年猪
+T119	Thing-Nominal 488 490	年猪
+T120	Thing-Nominal 493 495	年猪
+T121	Thing-Nominal 557 559	粉肠
+T122	Thing-Nominal 564 567;568 570	下酒的 好菜
+T33	Thing-Nominal 589 599	一个劲儿哼哼要食的猪
+R24	Located Arg1:T35 Arg2:T36	
+R25	Part-Whole Arg1:T34 Arg2:T31	
+T123	Location-Nominal 656 658	乡村
+T76	Thing-Nominal 670 677	手工屠宰的猪肉
+T80	Person-Nominal 784 792	技术最好的杀猪匠
+*	Coreference T80 T79
+T71	Person-Nominal 863 871	敦实矮壮的杀猪匠
+*	Coreference T72 T71 T73
+T57	Person-Nominal 894 902	挂满泪水的女主人
+R9	Family Arg1:T56 Arg2:T57	
+T124	Thing-Nominal 932 933	手
+R26	Part-Whole Arg1:T124 Arg2:T56	
+R27	Use Arg1:T38 Arg2:T39	
+T125	Thing-Nominal 1029 1036	接猪血的木盆里

@@ -1,0 +1,78 @@
+T1	Time-Implicit 1 5	黄梅时节
+T2	Thing-Nominal 5 8	家家雨
+T3	Location-Nominal 9 13	青草池塘
+T4	Thing-Nominal 15 16	蛙
+R1	Located Arg1:T4 Arg2:T3	
+T5	Time-Implicit 19 25	江南梅雨时令
+T6	Thing-Nominal 32 39	古城南京的梅雨
+T7	Location-Name 32 36	古城南京
+T8	Metric 47 50	一个月
+T9	Time-Implicit 56 59	近几日
+T10	Thing-Nominal 61 63	大雨
+T11	Thing-Nominal 73 74	雨
+T12	Thing-Nominal 75 76	丝
+T13	Thing-Nominal 77 78	帛
+T14	Thing-Nominal 98 100	大地
+T15	Thing-Nominal 161 168	这绵绵长长的雨
+T16	Thing-Nominal 201 206	这密密雨丝
+T17	Thing-Nominal 216 218	烟笼
+T18	Thing-Nominal 221 225	青青柳条
+T19	Location-Name 239 244	雨中的江南
+T20	Thing-Nominal 271 276	迷蒙的双眸
+T21	Thing-Nominal 278 282	浓浓雨幕
+T22	Thing-Nominal 295 299	湖光山色
+T23	Thing-Nominal 306 310	雨水云天
+T24	Thing-Nominal 332 334	秋水
+T25	Location-Nominal 341 347	江南水乡古镇
+T26	Thing-Nominal 351 394	小桥、流水、乌蓬船，阡陌、荷塘、绿树、青藤、烟柳巷，素雅的青石板路、高大通透的白墙灰瓦
+R2	Located Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 397 401;402 408	那古色古 香的镂窗雕栏
+T28	Location-Nominal 419 425	林中、水面上
+T29	Thing-Nominal 426 428	飞鸟
+R3	Located Arg1:T29 Arg2:T28	
+T30	Location-Nominal 429 431	水底
+T31	Thing-Nominal 432 434	游鱼
+R4	Located Arg1:T31 Arg2:T30	
+T32	Location-Nominal 435 438	池塘边
+T33	Thing-Nominal 441 442	蛙
+R5	Located Arg1:T33 Arg2:T32	
+T34	Location-Nominal 447 452	树丛、花间
+T35	Thing-Nominal 453 454	蝉
+R6	Located Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 465 467	芙蓉
+T37	Thing-Nominal 461 462;463 464	清 水
+T38	Location-Nominal 483 485	阡上
+T39	Thing-Nominal 485 489	寒烟暮雨
+R7	Located Arg1:T39 Arg2:T38	
+T40	Thing-Nominal 495 505	湿滑狭长、逼仄的小巷
+T41	Thing-Nominal 507 513	一把淡雅纸伞
+T42	Location-Nominal 516 519	那墙角
+T43	Thing-Nominal 519 532	迎风恋雨暗自绽放的各色花草
+R8	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 535 542;543 546	那墨绿如毯的片 片青苔
+T45	Location-Nominal 549 556	那花蕊及花茎上
+T46	Thing-Nominal 561 568	晶莹剔透的玑珠
+R9	Located Arg1:T46 Arg2:T45	
+T47	Person-Nominal 577 578	人
+T48	Thing-Nominal 625 630	江南的雨巷
+T49	Location-Name 625 627	江南
+R10	Located Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 633 643	一幅淡雅素朴的水墨画
+T51	Thing-Nominal 649 651	梨花
+T52	Thing-Pronoun 704 705	它
+T53	Thing-Nominal 722 726	江南水乡
+T54	Person-Nominal 731 734	女儿家
+T55	Thing-Nominal 768 770	青鸟
+T56	Location-Nominal 772 774	云外
+T57	Thing-Nominal 776 778	丁香
+T58	Location-Name 785 787	江南
+T59	Thing-Nominal 788 792	烟雨江南
+T60	Person-Pronoun 814 815	我
+T61	Location-Nominal 807 810	雨巷中
+T62	Thing-Nominal 818 820	丁香
+T63	Thing-Nominal 834 838	一川烟草
+T64	Location-Nominal 839 841	满城
+T65	Thing-Nominal 844 849	梅子黄时雨
+T66	Thing-Nominal 841 843	风絮
+R11	Located Arg1:T66 Arg2:T64	
+T67	Thing-Nominal 739 743	高山流水

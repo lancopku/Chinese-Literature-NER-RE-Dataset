@@ -1,0 +1,306 @@
+T1	Thing-Nominal 1 9	“字如其人”成语
+T2	Person-Nominal 17 19	家族
+T3	Person-Nominal 21 23	父亲
+T4	Person-Nominal 23 27	弟兄五个
+R1	Part-Whole Arg1:T3 Arg2:T4	
+T5	Person-Pronoun 28 29	我
+T6	Person-Pronoun 31 33	他们
+*	Coreference T6 T4
+T7	Person-Pronoun 43 45	他们
+T8	Person-Nominal 54 56	二叔
+R2	Part-Whole Arg1:T8 Arg2:T6	
+T9	Person-Pronoun 61 62	他
+*	Coreference T9 T8 T10
+T10	Person-Nominal 66 67	人
+T11	Thing-Nominal 48 50	字体
+T12	Thing-Nominal 63 65	楷体
+R3	General-Special Arg1:T11 Arg2:T12	
+T13	Person-Nominal 75 77	三叔
+T14	Person-Nominal 78 80	四叔
+R4	Part-Whole Arg1:T13 Arg2:T6	
+R5	General-Special Arg1:T14 Arg2:T6	
+T15	Thing-Nominal 83 85	草书
+R6	General-Special Arg1:T11 Arg2:T15	
+T16	Person-Nominal 86 88	三叔
+T17	Person-Pronoun 94 95	他
+*	Coreference T17 T16
+T18	Thing-Nominal 90 91	脸
+R7	Part-Whole Arg1:T18 Arg2:T16	
+T19	Thing-Nominal 96 98	柳体
+R8	General-Special Arg1:T11 Arg2:T19	
+T20	Person-Nominal 110 112	四叔
+R9	Family Arg1:T5 Arg2:T6	
+R10	Family Arg1:T5 Arg2:T3	
+T21	Person-Pronoun 131 132	他
+*	Coreference T21 T20
+T22	Thing-Nominal 134 137	毛笔字
+T23	Person-Name 138 141	王羲之
+T24	Thing-Name 141 142;143 148	《 兰亭集序》
+R11	Create Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 153 160	流畅优美的线条
+T26	Thing-Nominal 161 168	春天出游的小蛇
+R12	Create Arg1:T21 Arg2:T25	
+T27	Thing-Nominal 171 173	小路
+T28	Thing-Nominal 181 194	藤蔓上那深深浅浅不同的绿叶
+T29	Thing-Nominal 197 198	风
+T30	Thing-Nominal 204 206	屋檐
+T31	Thing-Nominal 225 226	腿
+T32	Thing-Nominal 222 223	腰
+T33	Thing-Nominal 246 248	胳膊
+T34	Thing-Nominal 249 250	腿
+T35	Person-Nominal 252 254	五叔
+T36	Person-Nominal 274 276	父亲
+T37	Person-Nominal 278 280	老大
+*	Coreference T37 T36 T39
+T38	Thing-Nominal 289 292	毛笔字
+T39	Person-Pronoun 293 294	他
+T40	Thing-Nominal 310 313	仿宋体
+T41	Thing-Nominal 314 316	大字
+T42	Location-Nominal 323 325;326 328	金陵 街头
+*	Coreference T11 T40
+T43	Thing-Nominal 336 338	棱角
+T44	Person-Pronoun 350 351	我
+T45	Person-Pronoun 355 357	他们
+T46	Thing-Nominal 358 359	字
+T47	Person-Nominal 360 361	人
+*	Coreference T47 T45
+R13	Create Arg1:T45 Arg2:T46	
+T48	Person-Nominal 365 368	叔叔们
+T49	Person-Pronoun 369 370	我
+R14	Family Arg1:T48 Arg2:T49	
+T50	Person-Pronoun 381 383	他们
+*	Coreference T50 T48
+T51	Person-Pronoun 388 389	我
+T52	Person-Pronoun 405 406	我
+T53	Thing-Nominal 408 417	他们风格迥异的字体
+T54	Person-Pronoun 408 410	他们
+T55	Thing-Nominal 422 426	人的长相
+T56	Person-Nominal 422 423	人
+R15	Ownership Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 434 435	字
+T58	Thing-Nominal 449 455	“字如其人”
+*	Coreference T58 T1
+T59	Person-Name 463 473	浦口区人民法院庄院长
+T60	Time-Explicit 475 480	1986年
+T61	Person-Pronoun 481 482	我
+T62	Person-Nominal 483 485	丈夫
+T63	Person-Nominal 486 488	父亲
+R16	Family Arg1:T63 Arg2:T62	
+R17	Family Arg1:T62 Arg2:T61	
+T64	Person-Name 496 504	浦口法院的庄院长
+T65	Person-Pronoun 505 506	他
+T66	Person-Pronoun 515 517	你们
+T67	Person-Nominal 481 485	我和丈夫
+*	Coreference T66 T67 T69
+T68	Person-Name 519 522	李一萍
+*	Coreference T68 T63 T70 T71 T76
+T69	Person-Pronoun 527 529	我们
+T70	Person-Nominal 536 541	你们的父亲
+T71	Person-Nominal 543 558	那个皮肤很白，字很清秀的文化人
+T72	Person-Pronoun 560 561	我
+T73	Person-Pronoun 567 568	他
+T74	Time-Implicit 571 575	三十年前
+T75	Person-Pronoun 576 577	我
+*	Coreference T75 T73 T64 T59 T65 T77 T85
+T76	Person-Nominal 578 581	你父亲
+T77	Person-Nominal 578 586	你父亲一案书记员
+T78	Person-Nominal 587 593	一个白面书生
+R18	General-Special Arg1:T78 Arg2:T75	
+T79	Person-Nominal 607 611	一院之长
+R19	General-Special Arg1:T79 Arg2:T75	
+T80	Time-Implicit 612 614	每天
+T81	Person-Nominal 614 618	接待的人
+T82	Thing-Nominal 619 623	处理的事
+T83	Person-Nominal 628 634	许多许多的人
+T84	Thing-Nominal 635 636	事
+T85	Person-Pronoun 651 654	他自己
+T86	Person-Nominal 656 657;658 661	毛 头小伙
+T87	Person-Nominal 664 671	头发花白的老人
+R20	General-Special Arg1:T87 Arg2:T85	
+T88	Person-Nominal 674 676	父亲
+T89	Thing-Nominal 674 680	父亲的字和人
+R21	Ownership Arg1:T88 Arg2:T89	
+T90	Person-Pronoun 687 688	我
+T91	Person-Pronoun 693 694	他
+T92	Thing-Nominal 699 700	字
+T93	Person-Nominal 706 708	父亲
+T94	Thing-Nominal 706 711	父亲的笔桶
+R22	Ownership Arg1:T93 Arg2:T94	
+T95	Thing-Nominal 713 717	好多毛笔
+R23	Located Arg1:T95 Arg2:T94	
+R24	Ownership Arg1:T93 Arg2:T95	
+T96	Person-Pronoun 734 735	我
+T97	Thing-Pronoun 740 742	它们
+*	Coreference T97 T95
+T98	Thing-Nominal 743 745	笔套
+T99	Thing-Nominal 752 763	那如婴儿细软毛发的笔头
+R25	Part-Whole Arg1:T99 Arg2:T97	
+T100	Thing-Nominal 768 771	一撮毛
+R26	Part-Whole Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 773 775	竹管
+T102	Person-Pronoun 777 778	我
+T103	Thing-Nominal 781 782	笔
+T104	Thing-Nominal 783 787	新的笔毛
+T105	Thing-Nominal 785 787	笔毛
+R27	Part-Whole Arg1:T105 Arg2:T103	
+T106	Thing-Nominal 795 800	饱满的水滴
+T107	Thing-Nominal 808 812	猫的胡须
+T108	Person-Nominal 822 824	父亲
+T109	Thing-Nominal 815 817	旧的
+T110	Thing-Nominal 831 833	新的
+T111	Thing-Nominal 837 839	新的
+T112	Thing-Nominal 843 845	新的
+T113	Thing-Nominal 849 858	社区的事，大家的事
+T114	Person-Pronoun 859 860	他
+*	Coreference T114 T108
+T115	Thing-Nominal 867 869	新笔
+T116	Thing-Nominal 872 876	选民名单
+T117	Organization-Nominal 880 884	五好家庭
+T118	Person-Nominal 888 890	父亲
+T119	Thing-Nominal 892 893	烟
+T120	Thing-Nominal 896 897	酒
+T121	Thing-Nominal 900 902	麻将
+T122	Thing-Nominal 905 906	牌
+T123	Thing-Nominal 935 938	印刷体
+R28	General-Special Arg1:T11 Arg2:T123	
+T124	Thing-Nominal 943 948;949 954	那些密密麻 麻的印刷体
+T125	Thing-Nominal 957 964	一道廉价的背景
+*	Coreference T125 T124
+T126	Person-Pronoun 977 978	他
+T127	Thing-Nominal 983 991	那么多无用的字库
+T128	Thing-Nominal 995 997	煤炉
+T129	Time-Implicit 992 998	而后生煤炉时
+T130	Thing-Nominal 999 1002	引火纸
+T131	Person-Nominal 1003 1009;1010 1022	一个对人世还 有企图，对书法有野心的人
+R29	General-Special Arg1:T131 Arg2:T118	
+T132	Thing-Nominal 1029 1032	旧报纸
+T133	Thing-Nominal 1033 1042	别人扔掉的廉价宣纸
+T134	Person-Nominal 1033 1035	别人
+T135	Person-Pronoun 1048 1049	他
+T136	Person-Nominal 1102 1104	父亲
+T137	Thing-Nominal 1105 1116	满街不体面和蹩脚的招牌
+T138	Thing-Nominal 1140 1145	你的好东西
+T139	Person-Nominal 1148 1150	顾客
+T140	Person-Pronoun 1140 1141	你
+R30	Social Arg1:T140 Arg2:T139	
+T141	Thing-Nominal 1160 1162	招牌
+R31	General-Special Arg1:T141 Arg2:T137	
+T142	Person-Nominal 1174 1176	过客
+T143	Person-Nominal 1181 1183	父亲
+T144	Person-Nominal 1186 1190	下岗工人
+T145	Thing-Nominal 1195 1198	价目表
+T146	Thing-Nominal 1191 1194	早点摊
+R32	Create Arg1:T143 Arg2:T145	
+R33	Ownership Arg1:T144 Arg2:T146	
+R34	Located Arg1:T145 Arg2:T146	
+T147	Location-Nominal 1203 1218;1219 1227	包子店，面店，菜场的摊位，米店 ，杂货铺，裁缝店
+T148	Location-Nominal 1228 1237	这条街上的许多地方
+R35	Part-Whole Arg1:T147 Arg2:T148	
+T149	Person-Nominal 1241 1243	父亲
+T150	Thing-Nominal 1241 1249	父亲那清秀的字体
+R36	Create Arg1:T149 Arg2:T150	
+T151	Person-Nominal 1250 1252	父亲
+T152	Thing-Nominal 1255 1256	钱
+T153	Person-Pronoun 1258 1259	他
+T154	Location-Nominal 1258 1266	他住所门外的桌上
+T155	Thing-Nominal 1274 1279;1280 1287	一些新鲜蔬 菜，滚烫的早点
+R37	Located Arg1:T155 Arg2:T154	
+T156	Time-Implicit 1291 1295	逢年过节
+T157	Person-Nominal 1296 1299	大伙儿
+T158	Thing-Nominal 1301 1303	东西
+T159	Person-Nominal 1308 1310	父亲
+T160	Location-Nominal 1317 1320	我这儿
+T161	Person-Nominal 1321 1323	父亲
+T162	Thing-Nominal 1331 1336	耀眼的光环
+T163	Thing-Nominal 1339 1340;1341 1345	显 赫的地位
+T164	Time-Implicit 1361 1367	去年那个酷暑
+T165	Time-Implicit 1368 1371	最热时
+T166	Metric 1375 1378	38度
+T167	Person-Nominal 1389 1391	父亲
+T168	Thing-Nominal 1392 1397	一份感谢信
+R38	Create Arg1:T167 Arg2:T168	
+T169	Thing-Nominal 1410 1414	写字的手
+R39	Ownership Arg1:T167 Arg2:T169	
+T170	Metric 1430 1439	30分钟，一个钟点
+T171	Person-Nominal 1451 1453	父亲
+T172	Thing-Nominal 1462 1469	手臂上的老人斑
+T173	Thing-Nominal 1470 1475	哀伤的眼睛
+R40	Ownership Arg1:T171 Arg2:T172	
+T174	Thing-Nominal 1481 1482;1483 1489	窗 外刺眼的阳光
+T175	Thing-Nominal 1492 1493	字
+T176	Thing-Nominal 1497 1499	纸背
+T177	Person-Nominal 1513 1515	父亲
+T178	Thing-Nominal 1523 1525	手腕
+R41	Ownership Arg1:T177 Arg2:T178	
+T179	Person-Pronoun 1528 1529	他
+T180	Thing-Nominal 1534 1536	额头
+R42	Part-Whole Arg1:T180 Arg2:T179	
+R43	Part-Whole Arg1:T172 Arg2:T171	
+R44	Part-Whole Arg1:T169 Arg2:T167	
+T181	Thing-Nominal 1542 1543;1544 1545	手 臂
+R45	Part-Whole Arg1:T181 Arg2:T179	
+T182	Location-Nominal 1542 1543;1544 1546	手 臂上
+T183	Thing-Nominal 1547 1548	汗
+R46	Located Arg1:T183 Arg2:T182	
+T184	Thing-Nominal 1553 1557	有些字迹
+T185	Thing-Nominal 1418 1420	字迹
+R47	Part-Whole Arg1:T184 Arg2:T185	
+T186	Thing-Nominal 1567 1570	小水滩
+T187	Thing-Nominal 1571 1573	毛笔
+T188	Thing-Nominal 1575 1577	字粒
+T189	Thing-Nominal 1578 1586	被风雨打散的船只
+T190	Location-Nominal 1590 1596	黑色的湖泊里
+R48	Located Arg1:T189 Arg2:T190	
+T191	Person-Nominal 1597 1599	父亲
+T192	Thing-Nominal 1617 1626	辛苦架构的亭台楼阁
+T193	Person-Pronoun 1631 1632	他
+T194	Thing-Nominal 1632 1634	汗珠
+R49	Create Arg1:T193 Arg2:T194	
+T195	Thing-Nominal 1639 1641	纸上
+T196	Person-Nominal 1654 1656	父亲
+T197	Person-Pronoun 1680 1681	他
+T198	Thing-Nominal 1684 1686	毛笔
+R50	Use Arg1:T197 Arg2:T198	
+T199	Thing-Nominal 1690 1696	泄了气的皮球
+T200	Person-Pronoun 1713 1714	我
+T201	Person-Nominal 1717 1719	父亲
+T202	Person-Nominal 1742 1744	爸爸
+T203	Person-Pronoun 1745 1746	我
+T204	Person-Pronoun 1747 1748	你
+T205	Thing-Nominal 1749 1751	电脑
+R51	Use Arg1:T203 Arg2:T205	
+T206	Time-Implicit 1775 1777	今年
+T207	Person-Pronoun 1778 1779	我
+T208	Thing-Nominal 1785 1798	那张1米*1.5米的表扬信
+T209	Metric 1787 1794	1米*1.5米
+T210	Thing-Nominal 1800 1805	班驳的痕迹
+T211	Thing-Nominal 1806 1811	揉散的淤血
+T212	Thing-Nominal 1823 1825	淤伤
+T213	Thing-Nominal 1832 1835;1836 1839	那顽固 的颜色
+T214	Person-Nominal 1845 1847	父亲
+T215	Person-Nominal 1863 1867	耄耋老人
+R52	General-Special Arg1:T215 Arg2:T214	
+T216	Thing-Pronoun 1849 1850	它
+*	Coreference T216 T208
+T217	Thing-Nominal 1885 1899	那给人们生活带来方便的小黑板
+T218	Person-Nominal 1887 1889	人们
+T219	Location-Nominal 1904 1913	社区墙外醒目的位置
+R53	Located Arg1:T217 Arg2:T219	
+T220	Person-Nominal 1920 1922	父亲
+T221	Thing-Nominal 1926 1928	上面
+*	Coreference T221 T217
+T222	Person-Nominal 1955 1957	父亲
+T223	Thing-Nominal 1974 1976	粉笔
+T224	Thing-Nominal 1978 1980	毛笔
+T225	Thing-Nominal 1994 1998	大幅标语
+T226	Thing-Nominal 1999 2003	普通书信
+T227	Thing-Nominal 2005 2007	毛笔
+T228	Thing-Nominal 2008 2010	粉笔
+T229	Person-Nominal 2011 2013	父亲
+T230	Person-Pronoun 2016 2018	自己
+*	Coreference T230 T229 T232 T233
+T231	Organization-Nominal 2021 2023	社会
+T232	Person-Pronoun 2024 2025	他
+T233	Person-Nominal 2037 2040	他的人
+T234	Thing-Nominal 2024 2027	他的字
+R54	Create Arg1:T232 Arg2:T234	

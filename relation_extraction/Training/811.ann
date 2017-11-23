@@ -1,0 +1,107 @@
+T1	Thing-Nominal 8 10	钻石
+T2	Person-Nominal 23 27	耄耋之人
+T3	Metric 36 39	60年
+T4	Time-Implicit 41 45	前30年
+T5	Time-Implicit 69 73	后30年
+T6	Thing-Nominal 31 33	风云
+T7	Person-Nominal 99 101	我俩
+T8	Metric 152 155	10年
+T9	Thing-Nominal 157 158	苯
+T10	Time-Implicit 172 175	离休时
+T11	Person-Nominal 176 178	俩人
+*	Coreference T11 T7
+T12	Person-Pronoun 186 187	我
+T13	Thing-Nominal 202 204	下肢
+R1	Part-Whole Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 211 212;213 214	结 肠
+T15	Thing-Nominal 216 217	肺
+T16	Thing-Nominal 225 226	血
+T17	Metric 226 228	七天
+R2	Part-Whole Arg1:T14 Arg2:T12	
+R3	Part-Whole Arg1:T15 Arg2:T12	
+R4	Part-Whole Arg1:T16 Arg2:T12	
+T18	Person-Pronoun 244 246	我们
+T19	Person-Pronoun 297 299	我们
+T20	Person-Nominal 309 313	共产党员
+T21	Organization-Name 309 312	共产党
+R5	Ownership Arg1:T20 Arg2:T21	
+T22	Thing-Name 337 339	鲁迅
+T23	Thing-Nominal 368 369	米
+T24	Thing-Nominal 370 371	肉
+T25	Thing-Nominal 376 377	粪
+T26	Thing-Nominal 382 384	衣服
+T27	Thing-Nominal 378 380	机器
+T28	Thing-Nominal 385 387	架子
+T29	Person-Nominal 392 394	死人
+T30	Person-Pronoun 399 401	我们
+T31	Time-Implicit 399 404	我们离休后
+T32	Person-Nominal 429 440	诗、书、画(三绝)艺人
+*	Coreference T30 T32
+T33	Thing-Nominal 453 456	药罐子
+T34	Metric 484 486	十年
+T35	Person-Pronoun 495 496	我
+T36	Thing-Nominal 513 516	药罐子
+T37	Organization-Nominal 549 551	大学
+T38	Thing-Nominal 572 573	窗
+T39	Metric 573 575	七年
+T40	Person-Pronoun 576 577	我
+T41	Person-Nominal 578 583	优秀研究生
+*	Coreference T40 T41 T44 T46 T48
+T42	Organization-Name 590 594	中国作协
+T43	Organization-Name 614 620	中华诗词学会
+T44	Person-Nominal 620 622	会员
+R6	Ownership Arg1:T44 Arg2:T43	
+T45	Organization-Name 623 624;625 628	中 国作协
+T46	Person-Nominal 630 634	优秀作家
+T47	Person-Nominal 641 645	合格作家
+T48	Person-Nominal 646 648	诗人
+T49	Person-Name 652 657	老伴朱旭楼
+R7	Family Arg1:T40 Arg2:T49	
+T50	Organization-Name 669 673	中国书协
+T51	Organization-Name 703 707	中国书协
+T52	Organization-Name 708 713	浙江省书协
+T53	Organization-Name 714 722	中国老年书画研究
+T54	Person-Nominal 723 725	会员
+T55	Person-Nominal 726 731	创作研究员
+*	Coreference T49 T54 T55
+R8	Ownership Arg1:T49 Arg2:T51	
+R9	Ownership Arg1:T49 Arg2:T52	
+R10	Ownership Arg1:T49 Arg2:T53	
+T56	Person-Pronoun 733 734	我
+T57	Time-Implicit 736 738	两年
+T58	Person-Nominal 743 746;747 749	三绝” 艺人
+R11	General-Special Arg1:T49 Arg2:T58	
+*	Coreference T56 T58
+T59	Metric 764 765	分
+T60	Metric 766 767	秒
+T61	Location-Nominal 797 801	大江南北
+T62	Thing-Nominal 802 806	山山水水
+T63	Location-Nominal 809 817	本省本地区的城乡
+T64	Location-Nominal 818 820	农村
+T65	Person-Pronoun 837 839	我们
+T66	Person-Nominal 852 854	群众
+T67	Metric 864 868	20多年
+T68	Time-Implicit 870 872	每天
+T69	Thing-Nominal 943 946	保健品
+R12	Use Arg1:T65 Arg2:T69	
+T70	Time-Implicit 949 952	近几年
+T71	Thing-Nominal 958 961	酵母硒
+T72	Person-Nominal 977 979	我俩
+T73	Person-Pronoun 1005 1007	我们
+T74	Person-Nominal 1019 1021	人们
+T75	Person-Pronoun 1023 1025	我们
+*	Coreference T75 T72
+T76	Person-Pronoun 1047 1049	我们
+T77	Thing-Nominal 1049 1051	枯木
+T78	Organization-Name 1099 1107	文化部中国文化城
+T79	Thing-Nominal 1133 1135	石碑
+T80	Person-Name 1163 1166	朱旭楼
+T81	Thing-Nominal 1144 1145	笔
+T82	Thing-Nominal 1175 1176	书
+T83	Thing-Nominal 1177 1178	画
+T84	Location-Name 1185 1186	欧
+T85	Location-Name 1187 1188	亚
+T86	Person-Nominal 1230 1232	后人
+T87	Location-Name 1113 1114	欧
+T88	Location-Name 1115 1116	亚
+T89	Location-Nominal 1125 1131	全国各大景区

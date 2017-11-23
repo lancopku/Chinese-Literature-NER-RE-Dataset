@@ -1,0 +1,297 @@
+T1	Person-Nominal 0 2	母亲
+T2	Location-Nominal 3 5	屋子
+T3	Location-Nominal 8 10	阳台
+T4	Location-Nominal 14 21	母亲不大的阳台
+*	Coreference T4 T3 T10
+T5	Thing-Nominal 26 28	鲜花
+T6	Thing-Nominal 29 32	红的花
+T7	Thing-Nominal 33 36	绿的叶
+T8	Thing-Nominal 37 40	紫的茎
+T9	Metric 42 44	一个
+T10	Location-Nominal 44 46	花园
+T11	Thing-Nominal 48 52	花园的花
+T12	Thing-Nominal 57 60	仙客来
+T13	Thing-Nominal 61 64	蝴蝶梅
+T14	Thing-Nominal 65 68	玻璃翠
+T15	Thing-Nominal 69 72	月月菊
+T16	Thing-Nominal 73 76	洋绣球
+T17	Thing-Pronoun 77 80	这些花
+R1	Part-Whole Arg1:T12 Arg2:T17	
+R2	Part-Whole Arg1:T13 Arg2:T17	
+R3	Part-Whole Arg1:T14 Arg2:T17	
+R4	Part-Whole Arg1:T15 Arg2:T17	
+R5	Part-Whole Arg1:T16 Arg2:T17	
+T18	Metric 86 89	六十盆
+T19	Thing-Nominal 101 102	花
+T20	Person-Nominal 109 111	母亲
+T21	Thing-Nominal 112 115	这些花
+T22	Person-Pronoun 119 120	她
+*	Coreference T22 T20
+T23	Person-Nominal 121 123	女儿
+R6	Family Arg1:T23 Arg2:T22	
+T24	Person-Nominal 125 127	母亲
+T25	Time-Implicit 127 131	每天早晨
+T26	Person-Pronoun 141 142	她
+*	Coreference T26 T24
+T27	Thing-Nominal 143 144	花
+T28	Thing-Nominal 154 155	花
+T29	Thing-Nominal 148 149	穗
+T30	Thing-Nominal 160 161	水
+T31	Thing-Nominal 197 199	手脚
+T32	Thing-Nominal 172 173	花
+T33	Person-Nominal 169 171	母亲
+T34	Thing-Nominal 190 191	花
+T35	Thing-Nominal 192 193	水
+R7	Part-Whole Arg1:T31 Arg2:T33	
+T36	Metric 208 210	一片
+T37	Thing-Nominal 210 212	枝叶
+T38	Metric 213 215	一枝
+T39	Thing-Nominal 215 217	根茎
+T40	Person-Nominal 218 220	母亲
+T41	Thing-Nominal 224 225	手
+T42	Thing-Nominal 221 223	喷壶
+R8	Part-Whole Arg1:T41 Arg2:T40	
+R9	Located Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 236 238	壶口
+T44	Thing-Nominal 242 243	水
+T45	Metric 253 256	一滴滴
+T46	Thing-Nominal 260 262	花朵
+T47	Thing-Nominal 264 266	枝叶
+T48	Thing-Nominal 268 270	花盆
+T49	Person-Nominal 273 275	母亲
+T50	Thing-Nominal 277 278	花
+T51	Person-Pronoun 283 285	我们
+T52	Location-Nominal 287 289	平房
+T53	Time-Implicit 293 297	每年春天
+T54	Person-Nominal 300 302	妈妈
+*	Coreference T54 T49
+T55	Person-Nominal 304 308	街坊邻居
+R10	Social Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 310 314	花的种子
+T57	Person-Nominal 315 317	妈妈
+T58	Thing-Nominal 319 324	自家的种子
+T59	Person-Nominal 325 327	别人
+T60	Location-Nominal 330 332	院子
+T61	Location-Nominal 334 336	屋子
+T62	Thing-Nominal 341 343	鲜花
+T63	Time-Implicit 344 348	盛夏时节
+T64	Location-Nominal 349 351	院子
+T65	Thing-Nominal 354 356	鲜花
+T66	Thing-Nominal 361 363	月季
+T67	Thing-Nominal 368 370	梨花
+T68	Thing-Nominal 366 367	火
+T69	Thing-Nominal 373 374	雪
+T70	Thing-Nominal 375 378	迎春花
+T71	Thing-Nominal 381 386	小姑娘的脸
+T72	Location-Nominal 389 391	院子
+T73	Location-Nominal 410 412	画廊
+T74	Person-Nominal 413 415	母亲
+T75	Person-Nominal 417 423	画廊的工程师
+*	Coreference T75 T74
+*	Coreference T73 T72
+T76	Metric 404 406	一个
+T77	Person-Nominal 425 427	母亲
+T78	Location-Nominal 429 431	楼房
+T79	Thing-Nominal 437 438	花
+T80	Location-Nominal 447 449	阳台
+T81	Location-Nominal 451 455	方寸之地
+T82	Person-Nominal 459 461	母亲
+T83	Location-Pronoun 467 472	这个小地方
+*	Coreference T83 T80
+T84	Person-Pronoun 486 488	我们
+T85	Person-Nominal 493 495	妈妈
+T86	Person-Pronoun 497 499	我们
+T87	Person-Pronoun 502 503	她
+T88	Thing-Nominal 504 505	花
+T89	Location-Nominal 507 509	地方
+T90	Thing-Nominal 565 572	喝完的饮料瓶子
+T91	Metric 572 575	一个个
+T92	Thing-Nominal 584 586	花盆
+T93	Thing-Nominal 587 592	饮料的瓶子
+T94	Thing-Nominal 597 599	花种
+T95	Thing-Nominal 602 609	喝完牛奶的袋子
+T96	Thing-Nominal 615 620	鲜花的种子
+T97	Location-Nominal 630 637	可以种植的地方
+T98	Thing-Nominal 641 646	合适的土壤
+T99	Person-Nominal 656 657	芽
+T100	Thing-Nominal 659 660	花
+T101	Person-Nominal 662 664	母亲
+T102	Thing-Nominal 666 667	花
+T103	Location-Nominal 668 670	阳台
+T104	Person-Pronoun 673 674	她
+*	Coreference T104 T101
+T105	Thing-Nominal 677 678	花
+T106	Thing-Pronoun 711 713	它们
+*	Coreference T106 T105 T117
+T107	Thing-Nominal 750 753	杨秀秀
+T108	Thing-Name 765 767	大秀
+T109	Thing-Name 768 770	二秀
+T110	Thing-Name 771 773	三秀
+T111	Thing-Nominal 774 777	蝴蝶梅
+T112	Thing-Name 794 796	大梅
+T113	Thing-Name 796 798	小梅
+T114	Person-Nominal 805 807	母亲
+T115	Person-Pronoun 815 816	她
+*	Coreference T115 T114
+T116	Time-Implicit 800 804	每次回家
+T117	Thing-Pronoun 816 822	那些宝贝花儿
+T118	Person-Pronoun 828 830	我们
+T119	Thing-Nominal 831 833	茉莉
+T120	Thing-Nominal 835 840	小朵的白花
+T121	Location-Nominal 850 851	屋
+T122	Thing-Nominal 852 855	君子兰
+T123	Thing-Nominal 866 872	橘黄色的花瓣
+T124	Thing-Nominal 874 876	铃铛
+*	Coreference T124 T123 T125
+T125	Thing-Pronoun 888 890	自己
+T126	Thing-Nominal 898 904	紫色的牵牛花
+T127	Location-Nominal 906 914	阳台不起眼的角落
+T128	Person-Nominal 948 950	老人
+T129	Person-Nominal 953 958	爱花的女人
+T130	Person-Nominal 959 961	闺女
+T131	Person-Nominal 962 964	妈妈
+T132	Thing-Nominal 967 968	花
+T133	Person-Nominal 977 979	女儿
+T134	Metric 975 977	六个
+T135	Person-Pronoun 973 979	我们六个女儿
+T136	Person-Nominal 980 989	六个花骨朵般的女儿
+*	Coreference T136 T135 T118
+T137	Person-Nominal 990 992	母亲
+T138	Person-Pronoun 995 997	我们
+T139	Person-Pronoun 1002 1004	你们
+*	Coreference T139 T138
+T140	Person-Pronoun 1007 1008	我
+*	Coreference T137 T140
+T141	Person-Nominal 1029 1031	人母
+T142	Person-Pronoun 1042 1044	自己
+T143	Person-Nominal 1046 1048	母亲
+*	Coreference T142 T143
+T144	Thing-Nominal 1065 1066	海
+T145	Thing-Nominal 1068 1069	山
+T146	Time-Implicit 1076 1080	去年秋天
+T147	Person-Pronoun 1081 1082	我
+T148	Person-Nominal 1085 1087	母亲
+R11	Family Arg1:T148 Arg2:T147	
+T149	Person-Pronoun 1088 1089	她
+*	Coreference T149 T148 T152 T158
+T150	Person-Pronoun 1093 1094	我
+T151	Person-Pronoun 1096 1097	你
+*	Coreference T151 T150
+T152	Person-Pronoun 1100 1101	我
+T153	Thing-Nominal 1102 1103	花
+T154	Person-Pronoun 1104 1105	我
+*	Coreference T154 T147 T157 T162
+T155	Thing-Nominal 1106 1107	花
+T156	Thing-Nominal 1117 1119	花草
+T157	Person-Pronoun 1122 1123	我
+T158	Person-Nominal 1126 1128	母亲
+T159	Location-Nominal 1140 1142	阳台
+T160	Metric 1149 1151	一盆
+T161	Thing-Nominal 1151 1157	蓝色的喇叭花
+T162	Person-Pronoun 1158 1159	我
+T163	Person-Pronoun 1163 1164	她
+T164	Person-Nominal 1145 1147	母亲
+*	Coreference T164 T163
+T165	Location-Nominal 1165 1167	街上
+T166	Thing-Nominal 1172 1173	花
+T167	Person-Nominal 1174 1181	街上的园林工人
+T168	Person-Nominal 1218 1219	人
+T169	Thing-Nominal 1235 1240	阳台的花盆
+T170	Thing-Nominal 1247 1253	病病恹恹的花
+T171	Metric 1245 1247	一朵
+*	Coreference T170 T161 T174 T179 T186 T187 T198 T199 T203
+T172	Thing-Nominal 1262 1264	枝桠
+T173	Thing-Nominal 1269 1272	花骨朵
+T174	Thing-Pronoun 1279 1280	它
+T175	Thing-Nominal 1286 1288	花盆
+T176	Thing-Nominal 1293 1294	水
+T177	Time-Implicit 1321 1326	晚上的时候
+T178	Person-Nominal 1327 1329	母亲
+T179	Thing-Nominal 1331 1335	这盆小花
+T180	Location-Nominal 1337 1339	卧室
+T181	Thing-Nominal 1342 1344	茶几
+T182	Time-Implicit 1346 1351	白天的时候
+T183	Location-Nominal 1353 1355	阳台
+T184	Thing-Nominal 1359 1361	阳光
+T185	Location-Nominal 1359 1364;1365 1367	阳光充沛的 地方
+T186	Thing-Pronoun 1369 1372	这朵花
+T187	Thing-Pronoun 1388 1396	这朵瘦瘦弱弱的花
+T188	Person-Pronoun 1398 1399	我
+T189	Time-Implicit 1402 1407	我的小时候
+T190	Person-Pronoun 1408 1416	那个瘦弱爱哭的我
+*	Coreference T190 T188 T191
+T191	Person-Pronoun 1417 1425	那个多病蜡黄的我
+T192	Person-Nominal 1428 1430	母亲
+T193	Person-Pronoun 1437 1438	我
+T194	Person-Nominal 1446 1447	人
+T195	Person-Nominal 1460 1462	母亲
+T196	Person-Pronoun 1463 1464	我
+T197	Location-Nominal 1468 1470	阳台
+T198	Thing-Nominal 1473 1481	那朵蓝色的喇叭花
+T199	Thing-Pronoun 1484 1485	它
+T200	Thing-Nominal 1498 1499	花
+T201	Thing-Nominal 1505 1507	喷壶
+T202	Thing-Nominal 1522 1523	水
+T203	Thing-Pronoun 1536 1537	它
+T204	Thing-Nominal 1548 1550	花朵
+T205	Person-Nominal 1552 1554	母亲
+T206	Person-Nominal 1572 1574	妈妈
+*	Coreference T206 T205 T207 T209
+T207	Person-Pronoun 1583 1585	自己
+T208	Thing-Nominal 1586 1587	花
+T209	Person-Nominal 1599 1605	不识字的母亲
+T210	Person-Pronoun 1609 1611	我们
+T211	Person-Nominal 1613 1616	女孩子
+T212	Person-Nominal 1619 1620	花
+T213	Person-Pronoun 1634 1636	自己
+*	Coreference T213 T211
+T214	Person-Nominal 1658 1660	母亲
+T215	Thing-Nominal 1661 1662	花
+T216	Person-Pronoun 1675 1676	我
+T217	Person-Nominal 1695 1706	她的六个花骨朵般的女儿
+T218	Person-Pronoun 1695 1696	她
+*	Coreference T218 T214
+R12	Part-Whole Arg1:T216 Arg2:T217	
+T219	Metric 1706 1709	一个个
+T220	Person-Nominal 1734 1738	她的女儿
+*	Coreference T220 T217 T221 T222 T224 T226
+T221	Person-Nominal 1745 1750	她的女儿们
+T222	Person-Nominal 1759 1761	女儿
+T223	Thing-Nominal 1771 1772	花
+T224	Person-Nominal 1794 1797	女儿们
+T225	Person-Nominal 1809 1811	母亲
+T226	Person-Pronoun 1814 1816	我们
+T227	Thing-Nominal 1818 1819	花
+T228	Person-Nominal 1820 1821	人
+T229	Person-Pronoun 1830 1831	你
+T230	Thing-Nominal 1832 1833	花
+T231	Thing-Pronoun 1835 1836	它
+*	Coreference T231 T230 T232
+T232	Thing-Pronoun 1843 1844	她
+T233	Thing-Nominal 1846 1848	笑脸
+R13	Part-Whole Arg1:T233 Arg2:T229	
+T234	Time-Implicit 1944 1949	每天的清晨
+T235	Thing-Nominal 1951 1953	太阳
+T236	Location-Nominal 1969 1971	阳台
+T237	Thing-Nominal 1980 1982	鲜花
+T238	Location-Nominal 1984 1989	母亲的花园
+T239	Thing-Nominal 1991 1993	阳光
+T240	Location-Nominal 1999 2000	屋
+T241	Person-Nominal 2018 2020	母亲
+T242	Thing-Nominal 2025 2026	窗
+T243	Thing-Nominal 2037 2041	她的鲜花
+T244	Thing-Nominal 2047 2052	温暖的阳光
+T245	Person-Pronoun 2068 2069	她
+*	Coreference T245 T241
+T246	Thing-Nominal 2072 2074	发迹
+T247	Thing-Nominal 2078 2083	银色的头发
+T248	Thing-Nominal 2087 2088	脸
+R14	Part-Whole Arg1:T248 Arg2:T241	
+T249	Time-Implicit 2101 2104	这一刻
+T250	Person-Nominal 2105 2107	母亲
+T251	Person-Pronoun 2112 2113	她
+*	Coreference T251 T250
+T252	Thing-Nominal 2144 2146	眉头
+T253	Thing-Nominal 2147 2149	眼角
+R15	Part-Whole Arg1:T252 Arg2:T251	
+R16	Part-Whole Arg1:T253 Arg2:T251	

@@ -1,0 +1,301 @@
+T1	Time-Implicit 0 6	乙未年的春节
+T2	Person-Pronoun 7 8	我
+T3	Location-Name 10 14	河南信阳
+T4	Person-Nominal 31 33	爱人
+R1	Family Arg1:T4 Arg2:T2	
+T5	Location-Nominal 34 35	家
+T6	Thing-Nominal 40 42	阳光
+T7	Thing-Nominal 52 59	沿途的一山一水
+T8	Thing-Nominal 61 65	一木一草
+T9	Metric 74 78	几百公里
+T10	Time-Implicit 89 93	午后不久
+T11	Thing-Nominal 94 95	车
+T12	Location-Name 100 113	大别山北麓一个叫周党的小镇
+R2	Located Arg1:T11 Arg2:T12	
+T13	Location-Pronoun 114 116	这里
+*	Coreference T13 T12 T23 T30 T35 T70 T78
+T14	Location-Name 117 121;122 126	湖北的将 军县红安
+R3	Near Arg1:T13 Arg2:T14	
+T15	Metric 133 136	十几里
+T16	Location-Nominal 142 146	革命老区
+R4	General-Special Arg1:T16 Arg2:T13	
+T17	Location-Nominal 147 152	这里的乡村
+R5	General-Special Arg1:T16 Arg2:T17	
+T18	Location-Nominal 156 161	关中的乡村
+T19	Person-Nominal 171 176	这里的百姓
+T20	Person-Nominal 181 182;183 187	关 中的百姓
+T21	Time-Implicit 198 200	明天
+T22	Time-Implicit 202 204	初一
+*	Coreference T22 T21
+T23	Location-Nominal 208 215	这块红色的土地
+T24	Thing-Nominal 236 243	周边毓秀的山岗
+R6	Near Arg1:T24 Arg2:T23	
+T25	Location-Nominal 249 261	树林里那或隐或现的村落里
+T26	Location-Nominal 265 272	小镇的大街小巷
+T27	Thing-Nominal 275 276	车
+T28	Person-Pronoun 277 278	我
+T29	Person-Nominal 279 281	儿子
+R7	Family Arg1:T29 Arg2:T28	
+R8	Family Arg1:T29 Arg2:T4	
+T30	Location-Nominal 286 301	这片既陌生又熟悉的欢乐的海洋里
+T31	Person-Nominal 314 316	亲人
+T32	Thing-Nominal 327 334	一群受惊的水鸭
+T33	Location-Nominal 344 346	河滩
+T34	Location-Name 348 356	一条叫竹竿的河流
+T35	Location-Nominal 358 360	小镇
+T36	Location-Nominal 365 367	河西
+T37	Thing-Nominal 367 369	商铺
+R9	Located Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 372 374	街道
+R10	Located Arg1:T38 Arg2:T36	
+T39	Thing-Nominal 380 384	农贸集市
+R11	Located Arg1:T39 Arg2:T36	
+T40	Person-Nominal 385 387	人群
+T41	Thing-Nominal 394 401	四通八达的街道
+*	Coreference T41 T38
+T42	Person-Nominal 407 408	人
+T43	Organization-Nominal 420 423	镇政府
+T44	Location-Nominal 425 427	河东
+T45	Location-Nominal 434 440	逶迤的山峦下
+T46	Location-Nominal 446 448	对岸
+T47	Location-Nominal 456 458	小镇
+T48	Person-Pronoun 463 464	我
+T49	Time-Implicit 466 469;470 471	孩提时 代
+T50	Location-Nominal 471 475	我的老家
+T51	Location-Pronoun 476 477	那
+*	Coreference T51 T50 T66 T69 T73 T77
+T52	Location-Nominal 478 492	一个从汉代就开始了繁华的古镇
+R12	General-Special Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 493 495	街道
+R13	Located Arg1:T53 Arg2:T50	
+T54	Thing-Nominal 496 504	一个巨大的十字架
+T55	Organization-Nominal 505 530;531 545	供销社、电影院、卫生院、镇政府、派出所、工商所、财 政所、税务所、兽医站、照相馆
+T56	Location-Nominal 548 557	几个大小不一的饭馆
+T57	Thing-Nominal 558 560	星辰
+T58	Thing-Nominal 566 569	十字架
+T59	Location-Nominal 571 578	镇东南的高岗上
+T60	Thing-Nominal 580 591;592 593	一座西晋时始建的司马迁 祠
+R14	Located Arg1:T60 Arg2:T59	
+T61	Time-Implicit 582 585	西晋时
+T62	Thing-Nominal 594 601	一条小小的芝水
+T63	Location-Nominal 603 608	古镇的南侧
+R15	Located Arg1:T62 Arg2:T63	
+R16	Part-Whole Arg1:T63 Arg2:T51	
+R17	Part-Whole Arg1:T59 Arg2:T51	
+T64	Thing-Nominal 615 620	镇东的水河
+R18	Near Arg1:T64 Arg2:T51	
+T65	Location-Name 629 631	黄河
+T66	Location-Name 632 640	那个叫芝川的古镇
+T67	Person-Pronoun 642 643	我
+T68	Time-Implicit 643 645	童年
+T69	Location-Nominal 642 651	我童年最向往的地方
+T70	Location-Name 661 664	周党镇
+T71	Person-Pronoun 665 666	我
+T72	Metric 678 681	三十年
+T73	Location-Nominal 682 690	我曾经向往的古镇
+T74	Person-Pronoun 682 683	我
+T75	Time-Implicit 699 701	当年
+T76	Person-Pronoun 718 719	我
+T77	Location-Nominal 725 736	难得流淌了两千年的芝水
+T78	Location-Name 756 760	周党小镇
+T79	Person-Nominal 756 763	周党小镇的人潮
+T80	Location-Name 770 772	豫南
+T81	Person-Pronoun 784 785	我
+T82	Thing-Nominal 784 788	我的神经
+R19	Part-Whole Arg1:T82 Arg2:T81	
+T83	Person-Pronoun 789 790	我
+T84	Thing-Nominal 791 800	一个采撷民俗的蜜蜂
+T85	Thing-Nominal 802 806	一条街飞
+T86	Thing-Nominal 807 811	另一条街
+T87	Metric 802 804	一条
+T88	Metric 808 810	一条
+T89	Thing-Nominal 812 835;836 853	那些不知道名字的时令蔬菜、干菜、日常器皿、生活 器具、活鸡鲜鱼、五金百货、鞭炮烟花
+T90	Location-Name 857 859	北方
+T91	Thing-Nominal 856 880	在北方极少见到的箍蒸笼、编筐和制作座椅等民间手艺
+T92	Thing-Nominal 883 895	一台充满地域色彩的生活剧
+T93	Metric 883 885	一台
+T94	Thing-Nominal 900 913	一幅现代版的《清明上河图》
+T95	Metric 900 902	一幅
+T96	Person-Nominal 915 924	我这个来自异乡的人
+T97	Thing-Nominal 935 940	长长的石桥
+T98	Thing-Nominal 942 947	开阔的河滩
+T99	Thing-Nominal 948 950	水草
+T100	Thing-Nominal 953 957;958 959	宁静的河 水
+T101	Thing-Nominal 960 967	一条银色的长蛇
+T102	Metric 960 962	一条
+T103	Time-Implicit 983 985	雨季
+T104	Person-Pronoun 992 993	我
+T105	Time-Implicit 1000 1005	夏季的傍晚
+T106	Location-Nominal 1006 1013	这偌大的河滩上
+T107	Person-Nominal 1017 1018;1019 1025	歇 夏乘凉的人群
+T108	Location-Nominal 1026 1029	这河滩
+T109	Location-Nominal 1006 1012	这偌大的河滩
+*	Coreference T108 T109
+T110	Thing-Nominal 1031 1037	关中道的河流
+T111	Thing-Nominal 1038 1040	泥沙
+T112	Time-Implicit 1044 1046	雨季
+T113	Thing-Nominal 1053 1058	松软的河沙
+T114	Thing-Nominal 1059 1064	清澈的河水
+T115	Thing-Nominal 1065 1070	徜徉的水鸟
+T116	Thing-Nominal 1072 1077	不远的山峦
+T117	Metric 1098 1100	几天
+T118	Person-Pronoun 1102 1103	我
+T119	Thing-Nominal 1111 1112	车
+T120	Location-Nominal 1115 1123	这片陌生的土地上
+R20	Located Arg1:T119 Arg2:T120	
+T121	Thing-Nominal 1125 1126	山
+T122	Thing-Nominal 1130 1131	水
+T123	Location-Nominal 1135 1140	这里的乡镇
+T124	Location-Nominal 1155 1159	最小的乡
+T125	Person-Nominal 1162 1165	几万人
+T126	Location-Nominal 1169 1172	浅山区
+T127	Thing-Nominal 1173 1175	田地
+T128	Thing-Nominal 1182 1184	村庄
+T129	Thing-Nominal 1188 1193	一颗颗星辰
+T130	Thing-Nominal 1197 1199	田地
+T131	Location-Nominal 1201 1206	某个山湾里
+R21	Located Arg1:T128 Arg2:T130	
+R22	Located Arg1:T128 Arg2:T131	
+T132	Thing-Nominal 1211 1218	一条窄窄的泥路
+T133	Metric 1211 1213	一条
+T134	Location-Nominal 1220 1228	若干个孤独的村落
+T135	Location-Nominal 1241 1243	村庄
+T136	Location-Nominal 1247 1252	北方的村落
+T137	Location-Nominal 1300 1307;1308 1311	普通，甚至简陋 的村落
+T138	Person-Nominal 1316 1318	人们
+T139	Person-Pronoun 1336 1337	我
+T140	Location-Nominal 1339 1344	这里的村庄
+T141	Location-Name 1346 1348	北方
+T142	Location-Nominal 1355 1357	空村
+T143	Person-Nominal 1358 1361	年轻人
+T144	Thing-Nominal 1363 1365	候鸟
+T145	Time-Implicit 1373 1375	春节
+T146	Location-Nominal 1382 1390	一个空壳般的村庄
+T147	Person-Nominal 1393 1397	几个老人
+T148	Time-Implicit 1417 1420	前些年
+T149	Time-Implicit 1411 1413	童年
+T150	Person-Pronoun 1421 1422	我
+T151	Person-Nominal 1428 1429;1430 1439	雄 踞中原大地的河南人
+T152	Person-Nominal 1440 1446	犹太人的后裔
+T153	Person-Nominal 1440 1443	犹太人
+T154	Thing-Nominal 1448 1453	他们的躯体
+T155	Person-Pronoun 1448 1450	他们
+R23	Ownership Arg1:T155 Arg2:T154	
+T156	Thing-Nominal 1457 1464	桀骜不驯的血液
+R24	Part-Whole Arg1:T156 Arg2:T154	
+T157	Person-Pronoun 1468 1469	我
+T158	Time-Implicit 1477 1480	近几年
+T159	Person-Pronoun 1483 1484	我
+T160	Location-Nominal 1485 1489	这片土地
+T161	Person-Nominal 1500 1510	生活在这里的每一个人
+T162	Person-Pronoun 1532 1533	我
+T163	Person-Pronoun 1549 1550	我
+T164	Person-Pronoun 1553 1554	我
+T165	Thing-Nominal 1601 1603;1604 1607	一点 点曙光
+T166	Location-Nominal 1609 1618	我路过的每一个村庄
+T167	Person-Pronoun 1619 1620	我
+T168	Thing-Nominal 1624 1639	停泊在房前屋后的不同型号的轿车
+T169	Location-Nominal 1627 1631	房前屋后
+R25	Located Arg1:T168 Arg2:T169	
+T170	Thing-Nominal 1640 1643	这些车
+*	Coreference T170 T168 T174
+T171	Thing-Nominal 1646 1659	外出打工者的一张张“船票”
+T172	Person-Nominal 1646 1651	外出打工者
+T173	Thing-Nominal 1671 1678	那些轿车的车牌
+T174	Thing-Nominal 1671 1675	那些轿车
+R26	Located Arg1:T173 Arg2:T174	
+T175	Person-Nominal 1685 1694	同一个乡镇的打工者
+R27	General-Special Arg1:T172 Arg2:T175	
+T176	Location-Nominal 1701 1706	某一个城市
+T177	Location-Nominal 1711 1722	大江南北的许多大中城市
+T178	Location-Nominal 1738 1742	一个地方
+T179	Person-Nominal 1752 1755	外乡人
+T180	Thing-Nominal 1761 1765	一把钥匙
+T181	Metric 1761 1763	一把
+T182	Location-Name 1766 1769	周党镇
+T183	Location-Nominal 1770 1786;1787 1788	鄂豫皖交界，淮河上游的一个普通小 镇
+*	Coreference T183 T182 T189
+T184	Thing-Nominal 1791 1802	水稻、茶叶和板栗等作物
+T185	Time-Implicit 1803 1806	除夕夜
+T186	Location-Nominal 1807 1812	竹竿河两岸
+T187	Thing-Nominal 1812 1819	持续燃放的焰火
+R28	Located Arg1:T187 Arg2:T186	
+T188	Person-Pronoun 1821 1822	我
+T189	Location-Name 1825 1827	周党
+T190	Location-Nominal 1829 1838	一个生产花炮的地方
+R29	General-Special Arg1:T190 Arg2:T189	
+T191	Person-Nominal 1839 1842	周党人
+T192	Thing-Nominal 1849 1858	连夜不断的爆竹烟花
+T193	Time-Implicit 1885 1889	正月初一
+T194	Time-Implicit 1895 1898	一大早
+T195	Location-Nominal 1903 1906	院落里
+T196	Thing-Nominal 1906 1908;1909 1917	不时 传来拜年的问候声
+R30	Located Arg1:T196 Arg2:T195	
+T197	Person-Nominal 1922 1926	家里的人
+T198	Thing-Nominal 1931 1932	门
+T199	Person-Nominal 1939 1941	岳母
+T200	Person-Pronoun 1943 1944	我
+T201	Time-Implicit 1945 1947	初一
+T202	Person-Nominal 1947 1951	村里的人
+T203	Person-Nominal 1971 1976	几个年轻人
+T204	Metric 1971 1973	几个
+T205	Person-Nominal 2013 2018	几个年轻人
+T206	Metric 2013 2015	几个
+T207	Thing-Nominal 2026 2028	礼品
+T208	Person-Pronoun 2045 2046	我
+T209	Location-Nominal 2084 2086	家乡
+T210	Location-Nominal 2103 2105	乡村
+T211	Person-Pronoun 2122 2123	我
+T212	Person-Nominal 2146 2148	族亲
+T213	Time-Implicit 2153 2157	正月初五
+T214	Person-Nominal 2160 2162	大家
+T215	Organization-Nominal 2176 2181	请客的一家
+T216	Organization-Nominal 2171 2173	一家
+T217	Person-Pronoun 2185 2187	自己
+T218	Thing-Nominal 2187 2192	最好的饭食
+T219	Thing-Nominal 2195 2197	一桌
+R31	Located Arg1:T218 Arg2:T219	
+T220	Thing-Nominal 2200 2205	最好的酒水
+T221	Person-Nominal 2208 2210	族亲
+T222	Thing-Nominal 2211 2213	一桌
+T223	Thing-Nominal 2220 2222	两桌
+T224	Thing-Nominal 2225 2227	三桌
+T225	Person-Pronoun 2228 2229	我
+T226	Person-Nominal 2237 2238	人
+T227	Person-Nominal 2247 2249	主人
+T228	Person-Nominal 2257 2261	姊妹兄弟
+R32	Family Arg1:T199 Arg2:T200	
+R33	Family Arg1:T4 Arg2:T199	
+T229	Thing-Nominal 2266 2269	这种饭
+T230	Time-Implicit 2275 2277	十五
+T231	Person-Nominal 2286 2293	乡村的青壮年人
+T232	Thing-Nominal 2296 2298	候鸟
+T233	Location-Nominal 2303 2310	某个追梦的城市
+T234	Thing-Nominal 2338 2340	美酒
+T235	Person-Nominal 2343 2351	每一个倦飞的候鸟
+*	Coreference T235 T231
+T236	Location-Name 2355 2357	信阳
+T237	Location-Name 2362 2364	渭南
+T238	Location-Name 2392 2394	龙山
+T239	Thing-Nominal 2402 2406	多处遗址
+T240	Location-Pronoun 2398 2400	这里
+T241	Location-Nominal 2408 2412	两座城市
+T242	Metric 2414 2415;2416 2417	千 里
+T243	Location-Nominal 2430 2440	我国南北分界线的北麓
+T244	Person-Pronoun 2486 2487	我
+T245	Person-Pronoun 2491 2492	我
+T246	Location-Nominal 2497 2504	这块红色的土壤
+*	Coreference T246 T236
+T247	Person-Name 2521 2524	王旺山
+*	Coreference T244 T247 T251
+T248	Time-Explicit 2526 2533	1966年1月
+T249	Person-Nominal 2536 2540	陕西韩城
+R34	General-Special Arg1:T249 Arg2:T247	
+T250	Person-Nominal 2549 2553	高级记者
+R35	General-Special Arg1:T250 Arg2:T247	
+T251	Person-Nominal 2555 2615;2616 2642	中国戏剧文学学会会员，中国报告文学学会会员，中国散文学会会员，陕西文艺评论家协会会员，陕西省作家协会理事，陕西作协签约作 家。陕西省书法家协会会员。渭南市作协副主席兼秘书长。
+T252	Thing-Nominal 2644 2654	文学、戏剧作品12部
+R36	Create Arg1:T247 Arg2:T252	
+T253	Metric 2651 2654	12部
+T254	Thing-Nominal 2655 2661	戏剧文学作品
+R37	Create Arg1:T247 Arg2:T254	

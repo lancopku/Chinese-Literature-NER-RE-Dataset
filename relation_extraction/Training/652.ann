@@ -1,0 +1,175 @@
+T1	Person-Name 0 5	方志敏先生
+T2	Thing-Nominal 6 13	《可爱的中国》
+R1	Create Arg1:T1 Arg2:T2	
+T3	Person-Pronoun 17 19	我们
+T4	Person-Nominal 22 26	那一代人
+T5	Person-Nominal 22 32	那一代人理想中的母亲
+R2	General-Special Arg1:T4 Arg2:T1	
+T6	Person-Pronoun 37 39	我们
+T7	Organization-Nominal 37 42	我们共和国
+T8	Time-Implicit 42 44	童年
+T9	Person-Nominal 81 84	儿女们
+T10	Thing-Nominal 85 87	摇篮
+T11	Location-Nominal 85 88	摇篮里
+T12	Thing-Nominal 100 102	谷堆
+T13	Location-Nominal 100 104	谷堆旁边
+T14	Person-Nominal 105 107	妈妈
+R3	Family Arg1:T14 Arg2:T9	
+T15	Person-Nominal 127 129	母亲
+*	Coreference T15 T14
+T16	Time-Implicit 155 161	早晨八九点钟
+T17	Thing-Name 162 164	太阳
+T18	Person-Pronoun 165 167	他们
+T19	Person-Nominal 171 173	母亲
+T20	Person-Nominal 192 194	母亲
+T21	Time-Implicit 213 215	那时
+T22	Person-Nominal 215 220	我们的母亲
+*	Coreference T22 T19 T25
+T23	Thing-Nominal 223 225	胸脯
+R4	Part-Whole Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 233 235	乳汁
+R5	Located Arg1:T24 Arg2:T23	
+T25	Person-Pronoun 247 248	她
+T26	Person-Nominal 250 266	这么一群善解人意、奋发向上的儿女
+T27	Person-Pronoun 215 217	我们
+*	Coreference T27 T26 T18 T9 T34 T35
+T28	Organization-Nominal 269 272	共和国
+T29	Time-Implicit 269 276	共和国童年时代
+T30	Person-Nominal 276 278	母亲
+T31	Time-Implicit 289 291	至今
+T32	Person-Nominal 311 313	母亲
+T33	Time-Implicit 320 322	去年
+T34	Person-Nominal 322 333	那些天真烂漫的一群儿女
+T35	Person-Pronoun 358 360	他们
+T36	Location-Nominal 364 366	都市
+T37	Thing-Nominal 372 376	皮尔卡丹
+T38	Person-Nominal 384 386	小秘
+R6	Social Arg1:T38 Arg2:T35	
+T39	Thing-Nominal 395 401	XO与人头马
+T40	Location-Nominal 388 392	星级酒店
+T41	Person-Pronoun 405 407	他们
+T42	Person-Nominal 411 417	一群乡村贵族
+T43	Person-Nominal 419 421	母亲
+T45	Person-Pronoun 432 434	他们
+T46	Thing-Nominal 452 453	彩
+T47	Location-Nominal 457 459	赌场
+T48	Location-Nominal 465 467	豪门
+T49	Metric 459 463	一夜之间
+T50	Person-Nominal 474 476	母亲
+T51	Thing-Nominal 474 482	母亲养老送终的钱
+T44	Thing-Nominal 419 431;432 441	母亲惨淡经营积攒起来要给 他们盖房娶媳妇的钱
+R7	Use Arg1:T45 Arg2:T44	
+T52	Location-Nominal 493 497	卡拉OK
+T53	Location-Nominal 502 504	网吧
+T54	Time-Implicit 513 518	今后的日子
+T55	Person-Nominal 528 530	母亲
+T56	Thing-Nominal 528 539	母亲那温暖而宽广的胸怀
+R8	Part-Whole Arg1:T56 Arg2:T55	
+T57	Organization-Nominal 544 553;554 557	南方某一中型国有工 矿企业
+T58	Location-Nominal 544 546	南方
+T59	Person-Nominal 571 576	自己的职工
+T60	Person-Nominal 577 588	周围地盘上的一群儿女们
+T61	Organization-Nominal 607 609	国家
+T62	Abstract 613 614;615 617	公 有制
+T63	Person-Nominal 621 623	母亲
+T64	Person-Pronoun 628 630	他们
+T65	Person-Nominal 641 647	社会主义母亲
+T66	Person-Pronoun 654 656	他们
+T67	Thing-Nominal 665 670	母亲的乳汁
+R9	Use Arg1:T66 Arg2:T67	
+T68	Person-Nominal 665 667	母亲
+R10	Create Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 672 675;676 678	国家的 资产
+T70	Organization-Nominal 672 674	国家
+R11	Ownership Arg1:T70 Arg2:T69	
+T71	Person-Pronoun 683 685	他们
+T72	Time-Implicit 691 694	近年来
+T73	Thing-Nominal 711 715	国有森林
+T74	Thing-Nominal 719 731	藏羚羊和穿山甲等珍稀动物
+T75	Person-Nominal 735 739	车匪路霸
+T76	Thing-Nominal 744 748	沃土良田
+T77	Person-Nominal 755 767	风华正茂率先富起来的一群
+T78	Thing-Nominal 772 781	楼群别墅和高级轿车
+T79	Thing-Nominal 789 801	偷税漏税和玩彩票剩下的钱
+R12	Use Arg1:T77 Arg2:T78	
+R13	Use Arg1:T77 Arg2:T79	
+T80	Person-Nominal 802 806	后辈儿孙
+R14	Family Arg1:T77 Arg2:T80	
+T81	Thing-Nominal 808 810	坟地
+R15	Use Arg1:T80 Arg2:T81	
+T82	Thing-Nominal 819 823	墓室宫殿
+R16	Part-Whole Arg1:T82 Arg2:T81	
+T83	Location-Nominal 830 835	另一个世界
+T84	Location-Nominal 850 852	祖国
+T85	Person-Nominal 853 858	我们的母亲
+T86	Person-Pronoun 859 860	她
+*	Coreference T86 T85
+T87	Person-Nominal 890 892	母亲
+T88	Person-Nominal 890 904	母亲鞠躬尽瘁死而后已的儿女们
+T89	Thing-Nominal 876 878	胸怀
+R17	Part-Whole Arg1:T89 Arg2:T86	
+T90	Person-Nominal 909 911	母亲
+T91	Person-Nominal 923 926	儿女们
+T92	Thing-Nominal 941 942	血
+T93	Time-Implicit 976 978	眼下
+T94	Person-Nominal 979 982	儿女们
+T95	Abstract 990 994	小康社会
+T96	Person-Nominal 1005 1010	我们的母亲
+T97	Person-Nominal 1011 1014	儿女们
+T98	Thing-Nominal 1011 1017	儿女们的富足
+R18	Part-Whole Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 1043 1045	寸草
+T100	Organization-Nominal 1063 1068	我们的祖国
+T101	Person-Nominal 1074 1076	母亲
+T102	Person-Nominal 1085 1090	母亲的儿女
+*	Coreference T102 T97
+T103	Person-Nominal 1100 1102	母亲
+T104	Person-Nominal 1104 1125	一群蓬勃奋发、励精图治、拼搏奉献的优秀儿女
+T105	Person-Name 1127 1149	雷锋、王进喜、焦裕禄、邓稼先、孔繁森和钱学森
+T106	Location-Name 1153 1157	河南洛阳
+T107	Person-Name 1153 1157;1158 1166	河南洛阳 的公安局长任长霞
+T108	Person-Name 1170 1183	青岛港务局刷新记录的许振超
+T109	Organization-Name 1170 1175	青岛港务局
+T110	Location-Name 1170 1172	青岛
+T111	Person-Nominal 1187 1199	神舟飞船的航天员和设计师
+T112	Thing-Nominal 1187 1191	神舟飞船
+T113	Person-Nominal 1203 1218;1219 1226	面对大地震从容不迫舍己救人有名 的和无名的英雄
+T114	Location-Nominal 1229 1234	我们的祖国
+T115	Thing-Nominal 1238 1243	沉重的翅膀
+T116	Person-Pronoun 1255 1257	他们
+*	Coreference T116 T104
+T117	Location-Nominal 1258 1263	我们的祖国
+T118	Person-Pronoun 1278 1279;1280 1281	他 们
+T119	Person-Pronoun 1282 1284	我们
+T120	Person-Nominal 1287 1291	祖国母亲
+*	Coreference T120 T103 T132
+T121	Time-Implicit 1303 1305	如今
+T122	Person-Pronoun 1306 1308	我们
+T123	Organization-Nominal 1309 1312	共和国
+T124	Abstract 1317 1321	综合国力
+T125	Abstract 1326 1330	年GDP
+T126	Metric 1332 1337	50万亿元
+T127	Metric 1342 1347	3万亿美元
+T128	Abstract 1338 1342	外汇储备
+T129	Person-Pronoun 1348 1350	我们
+T130	Abstract 1355 1360	北京奥运会
+T131	Person-Pronoun 1361 1363	我们
+T132	Person-Nominal 1385 1394	我们功勋卓著的母亲
+T133	Thing-Name 1397 1409	达芬奇笔下的《蒙娜丽莎》
+T134	Person-Name 1397 1400	达芬奇
+T135	Person-Nominal 1437 1440	儿女们
+T136	Abstract 1442 1446	改革开放
+T137	Person-Pronoun 1483 1485	我们
+T138	Person-Nominal 1487 1489	母亲
+T139	Person-Nominal 1503 1505	我们
+T140	Person-Nominal 1510 1512	母亲
+T141	Person-Nominal 1518 1521	儿女们
+T142	Person-Nominal 1531 1536	我们的母亲
+T143	Person-Pronoun 1542 1543	我
+T144	Thing-Nominal 1547 1549	华发
+T145	Person-Pronoun 1553 1555	我们
+T146	Person-Pronoun 1560 1562	我们
+T147	Person-Nominal 1565 1567	母亲
+T148	Person-Nominal 1571 1576	我们的母亲
+T149	Person-Name 1579 1582	达芬奇
+T150	Thing-Name 1579 1591	达芬奇笔下的《蒙娜丽莎》

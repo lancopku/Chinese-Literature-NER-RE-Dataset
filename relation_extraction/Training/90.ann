@@ -1,0 +1,154 @@
+T1	Time-Explicit 0 2	十月
+T2	Location-Nominal 0 5	十月的北方
+T3	Location-Nominal 6 10	满山遍野
+T4	Time-Implicit 14 16	往日
+T5	Person-Nominal 33 34	人
+T6	Person-Pronoun 45 46	我
+T7	Person-Nominal 47 49	朋友
+T8	Thing-Nominal 60 82	原野上一片枯黄的草丛中盛开着许多白色的小野花
+T9	Location-Nominal 60 63	原野上
+T10	Metric 63 65	一片
+T11	Thing-Nominal 104 105;106 108	小 野花
+T12	Thing-Pronoun 115 117	它们
+T13	Metric 117 120	一簇簇
+T14	Metric 121 124	一片片
+T15	Location-Nominal 132 134	天上
+T16	Metric 135 138	一朵朵
+T17	Thing-Nominal 132 140	天上的一朵朵白云
+T18	Thing-Pronoun 146 148	它们
+T19	Person-Nominal 154 160	草原上游牧人
+T20	Person-Pronoun 167 168	你
+T21	Thing-Pronoun 178 180	它们
+T23	Thing-Nominal 182 196	辽阔的水面上飘过的一片片白帆
+T24	Person-Pronoun 197 198	我
+T25	Thing-Nominal 203 206	小野花
+T26	Thing-Pronoun 212 213	它
+T27	Thing-Pronoun 216 219	小野花
+T28	Time-Implicit 242 250	向阳花刚刚开花时
+T29	Thing-Pronoun 255 256	它
+T30	Person-Nominal 281 283	有人
+T31	Thing-Pronoun 284 285	它
+T32	Thing-Name 287 288;289 291	紫 菀花
+T33	Thing-Pronoun 297 298	它
+T34	Person-Pronoun 305 306	我
+T35	Thing-Pronoun 311 312	它
+T36	Thing-Name 322 326	“野菊花
+T37	Person-Pronoun 328 329	你
+T38	Thing-Pronoun 334 335	它
+T39	Person-Pronoun 355 356	我
+T40	Thing-Nominal 361 366	许多小蜜蜂
+T41	Thing-Nominal 367 370	小蝴蝶
+T42	Thing-Nominal 371 374	小野花
+T43	Thing-Nominal 381 386	小小的野花
+T44	Thing-Name 402 405	牡丹花
+T45	Person-Pronoun 431 432	我
+T46	Thing-Nominal 434 438	一朵野花
+T47	Metric 434 436	一朵
+T48	Person-Nominal 442 444	朋友
+T49	Thing-Nominal 451 453	照片
+T50	Person-Pronoun 462 463	我
+T51	Person-Nominal 465 467	朋友
+T52	Thing-Pronoun 472 474	它们
+T53	Thing-Pronoun 479 481	它们
+T54	Location-Nominal 483 485	野外
+T55	Location-Nominal 498 500	家里
+T56	Person-Pronoun 501 502	我
+T57	Thing-Name 507 518	一本《看图识野花》的书
+T58	Thing-Nominal 524 527	小野花
+T59	Thing-Pronoun 545 546	它
+T60	Thing-Pronoun 554 555	它
+T61	Thing-Pronoun 566 567	它
+T62	Person-Nominal 576 580	植物学家
+T63	Person-Pronoun 587 588	我
+T64	Time-Implicit 613 619	当百花争艳时
+T65	Thing-Nominal 632 638	那小小的野花
+T66	Thing-Pronoun 646 647	它
+T67	Thing-Pronoun 652 653	它
+T68	Person-Pronoun 655 656	你
+T69	Person-Pronoun 666 667	你
+T70	Thing-Pronoun 672 673	它
+T71	Thing-Pronoun 674 675	它
+T72	Person-Pronoun 712 713	我
+T73	Thing-Nominal 715 718	小野花
+T74	Thing-Pronoun 731 732	它
+T75	Person-Pronoun 740 741	你
+T76	Thing-Pronoun 769 770	它
+T77	Thing-Nominal 792 794	野花
+T78	Time-Implicit 804 809	北方的十月
+T79	Person-Pronoun 818 819	我
+T80	Metric 834 836	一群
+T81	Thing-Nominal 834 838	一群大雁
+T82	Location-Nominal 851 854	远处，
+T83	Person-Nominal 867 870	。朋友
+T84	Person-Pronoun 871 872	我
+T85	Person-Pronoun 879 880	你
+T86	Person-Pronoun 890 891	我
+T87	Person-Pronoun 908 909	谁
+T88	Person-Pronoun 918 919	你
+T89	Location-Name 938 944	“喜玛拉雅山
+T90	Thing-Name 978 988	那原野上的“小野花”
+T91	Thing-Nominal 20 22	树叶
+T92	Thing-Nominal 25 27	百花
+T93	Location-Nominal 60 71	原野上一片枯黄的草丛中
+T94	Thing-Nominal 216 224	小野花黄色的花蕊
+R1	Part-Whole Arg1:T94 Arg2:T27	
+T95	Thing-Nominal 225 227;228 236	白色 略带点紫色的花瓣
+R2	Part-Whole Arg1:T95 Arg2:T27	
+T96	Person-Nominal 294 296	有人
+T97	Thing-Nominal 272 274	花朵
+T98	Thing-Pronoun 687 688	它
+T99	Thing-Pronoun 689 690	它
+*	Coreference T66 T65
+T100	Thing-Pronoun 721 722	它
+*	Coreference T100 T73
+T101	Person-Nominal 725 726	人
+T102	Thing-Pronoun 755 756	它
+T103	Thing-Nominal 783 788	温室的花草
+T104	Person-Pronoun 795 796	我
+T105	Thing-Nominal 854 859	大片的稻田
+T106	Person-Nominal 964 966	自己
+T107	Location-Nominal 51 53	郊外
+R3	Located Arg1:T8 Arg2:T93	
+T108	Thing-Nominal 88 89	草
+T109	Thing-Nominal 91 92	花
+T110	Thing-Nominal 98 100	阳光
+T111	Location-Nominal 127 130	原野上
+R4	Located Arg1:T12 Arg2:T111	
+*	Coreference T12 T11
+R5	Located Arg1:T17 Arg2:T15	
+T112	Thing-Nominal 141 143	秋风
+T113	Location-Nominal 154 157	草原上
+T114	Thing-Nominal 154 163	草原上游牧人的羊群
+R6	Located Arg1:T114 Arg2:T113	
+T115	Location-Nominal 182 188	辽阔的水面上
+R7	Located Arg1:T23 Arg2:T115	
+T22	Thing-Nominal 242 245	向阳花
+*	Coreference T26 T25
+T116	Thing-Nominal 267 269	草丛
+T117	Thing-Nominal 278 280	纽扣
+T118	Thing-Name 299 304	“大丁草”
+T119	Thing-Pronoun 319 320	它
+T120	Thing-Nominal 331 333	秋风
+T121	Thing-Nominal 389 392	玫瑰花
+T122	Location-Nominal 440 441	家
+T123	Thing-Pronoun 492 494	它们
+T124	Thing-Pronoun 582 583	它
+T125	Thing-Pronoun 600 601	花
+T126	Person-Nominal 622 625	多少人
+T127	Person-Nominal 641 644	多少人
+T128	Thing-Nominal 736 737	水
+T129	Thing-Nominal 742 743	肥
+T130	Location-Nominal 783 785	温室
+R8	Located Arg1:T103 Arg2:T130	
+T131	Location-Nominal 804 806	北方
+T132	Thing-Nominal 821 823	窗户
+T133	Thing-Nominal 826 827	天
+T134	Thing-Nominal 828 829	天
+T135	Thing-Nominal 830 831	云
+R9	Located Arg1:T105 Arg2:T82	
+T136	Thing-Nominal 862 867	金黄的浪花
+T137	Person-Pronoun 896 897	他
+*	Coreference T137 T83
+*	Coreference T85 T84
+T138	Location-Nominal 978 982	那原野上
+R10	Located Arg1:T90 Arg2:T138	

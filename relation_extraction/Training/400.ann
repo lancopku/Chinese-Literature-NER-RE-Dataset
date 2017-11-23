@@ -1,0 +1,146 @@
+T1	Person-Nominal 4 9	一对小青年
+T2	Person-Pronoun 21 22	我
+T3	Time-Explicit 30 33	两年前
+T4	Location-Name 34 47	上海华山医院脑外科4号病房
+T5	Person-Nominal 65 75	一个20岁出头的姑娘
+T6	Thing-Nominal 55 63	靠北窗的5号床位
+T7	Person-Nominal 95 99	别的病友
+T8	Person-Pronoun 104 105	我
+T9	Person-Pronoun 106 107	她
+T10	Physical 110 113	胶质瘤
+T11	Physical 116 122	恶性脑部肿瘤
+T12	Location-Pronoun 125 126	她
+T13	Person-Nominal 156 159	她妈妈
+T15	Location-Nominal 165 166	家
+T14	Person-Nominal 169 176	一个年老的爸爸
+T16	Person-Pronoun 186 187	你
+T17	Time-Explicit 189 194	早上八点多
+T18	Person-Nominal 195 198	她爸爸
+T19	Metric 210 214	60开外
+T20	Thing-Nominal 223 234	一副度数很高的近视眼镜
+R1	Part-Whole Arg1:T20 Arg2:T18	
+T21	Person-Pronoun 244 245	他
+T22	Person-Pronoun 256 257	他
+T23	Person-Pronoun 269 271	女儿
+T24	Person-Pronoun 272 273	他
+R2	Family Arg1:T24 Arg2:T23	
+R3	Family Arg1:T14 Arg2:T13	
+T25	Person-Pronoun 283 284	他
+T26	Person-Nominal 285 287	女儿
+T27	Person-Nominal 309 311	女儿
+T28	Person-Nominal 321 328	一个雇佣的阿姨
+T29	Person-Nominal 331 334	两三个
+T30	Metric 338 340	一个
+T31	Time-Implicit 342 344	每天
+T32	Person-Pronoun 345 346	他
+T33	Thing-Nominal 352 357	一瓶白蛋白
+T34	Person-Nominal 358 360	女儿
+T35	Person-Nominal 364 366	医生
+T36	Time-Implicit 373 375	天天
+T37	Person-Nominal 381 383	自己
+T38	Metric 395 399	好几百元
+T39	Thing-Nominal 402 407	他的退休金
+T40	Thing-Nominal 409 416	女儿不高的工资
+T41	Person-Pronoun 423 424	他
+T42	Person-Pronoun 440 442	女儿
+T43	Thing-Nominal 460 464	一个苹果
+T44	Person-Nominal 468 470	女儿
+T45	Location-Nominal 471 477	卖汽车的车城
+T46	Person-Nominal 480 482	老板
+T47	Person-Nominal 483 484	人
+T48	Person-Nominal 491 494	别的人
+T49	Metric 488 490	一次
+T50	Time-Implicit 502 507	有一天晚上
+T51	Person-Nominal 508 518	一个22岁左右的小伙
+T52	Thing-Nominal 525 527	鲜花
+T53	Person-Nominal 528 531	巧克力
+T54	Person-Nominal 532 534	水果
+R4	Part-Whole Arg1:T52 Arg2:T51	
+R5	Part-Whole Arg1:T53 Arg2:T51	
+R6	Part-Whole Arg1:T54 Arg2:T51	
+R7	Social Arg1:T47 Arg2:T46	
+T55	Person-Nominal 536 539	小伙子
+T56	Location-Nominal 548 551	眼睛里
+T57	Thing-Nominal 563 567	她的小名
+T58	Location-Nominal 570 576	床边的凳子上
+T59	Person-Pronoun 593 594	我
+T60	Person-Pronoun 595 596	你
+T61	Person-Pronoun 599 600	你
+T62	Person-Nominal 617 619	姑娘
+T63	Location-Nominal 617 622	姑娘的脸上
+T64	Person-Nominal 629 632	小伙子
+T65	Thing-Nominal 634 637	她的手
+R8	Part-Whole Arg1:T65 Arg2:T64	
+T66	Thing-Nominal 641 645	她的手臂
+R9	Part-Whole Arg1:T66 Arg2:T64	
+T67	Person-Nominal 657 660	我妻子
+T68	Person-Nominal 664 667	那姑娘
+T69	Person-Nominal 678 680	家属
+T70	Person-Pronoun 681 682	我
+T71	Location-Nominal 685 689	过道边上
+T72	Thing-Nominal 690 692	躺椅
+T73	Time-Explicit 693 695	这时
+T74	Thing-Nominal 696 700	每个床位
+T75	Thing-Nominal 703 705	布幔
+T76	Person-Pronoun 716 717	我
+T77	Thing-Nominal 646 648	四目
+T78	Thing-Nominal 729 733	一层帐幕
+T79	Person-Nominal 719 725	这对年轻的恋
+T80	Thing-Nominal 740 742	电灯
+T81	Thing-Nominal 750 758	一两个微弱的脚灯
+T82	Person-Pronoun 763 764	我
+T83	Person-Pronoun 778 780	他俩
+R10	Social Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 789 793	一双小鸟
+T85	Thing-Nominal 816 831	一支悠长缠绵而深情委婉的小夜曲
+*	Coreference T83 T79
+T86	Person-Pronoun 839 840	我
+T87	Time-Implicit 834 838	天蒙蒙亮
+T88	Person-Nominal 843 846	小伙子
+T89	Person-Pronoun 849 850	他
+*	Coreference T89 T88
+T90	Person-Pronoun 849 850	他
+T91	Person-Nominal 851 853	姑娘
+T92	Person-Nominal 873 875	姑娘
+T93	Person-Nominal 890 893	那姑娘
+T94	Person-Nominal 907 910	那小伙
+T95	Location-Nominal 913 915	车城
+T96	Time-Implicit 921 927	此后的好多天
+T97	Person-Pronoun 931 932	他
+T98	Person-Nominal 948 952	他的父母
+T99	Person-Pronoun 954 955	他
+T100	Person-Pronoun 969 970	他
+T101	Person-Pronoun 973 974	他
+T102	Person-Nominal 976 981	垂死的姑娘
+T103	Person-Pronoun 986 987	他
+T104	Person-Nominal 1002 1004	自己
+T105	Person-Pronoun 1013 1014	她
+T106	Person-Pronoun 1017 1018	她
+*	Coreference T105 T102 T106
+T107	Person-Pronoun 1026 1027	我
+T108	Time-Explicit 1033 1037	一个晚上
+T109	Person-Nominal 1053 1056	一个人
+T110	Person-Nominal 1061 1063	自己
+T111	Person-Nominal 1067 1071	周围的人
+T112	Person-Nominal 1064 1066	家人
+T113	Person-Nominal 1079 1081;1082 1084	周围 的人
+T114	Person-Nominal 1103 1108	这个小伙子
+T115	Person-Nominal 1112 1116	这个姑娘
+T116	Person-Nominal 1121 1122	她
+T117	Person-Nominal 1129 1130	她
+*	Coreference T117 T115 T116 T119
+T118	Time-Implicit 1133 1139	几个月或几天
+T119	Person-Pronoun 1146 1147	她
+T120	Person-Nominal 1151 1153	自己
+T121	Person-Pronoun 1159 1160	她
+T122	Time-Explicit 1176 1183	这么温馨的一夜
+T123	Location-Nominal 1186 1193	生命短暂的姑娘
+T124	Location-Pronoun 1207 1208	她
+T125	Abstract 1224 1228	“绝恋”
+T126	Abstract 1235 1237	绝恋
+T127	Person-Pronoun 1229 1230	我
+T128	Person-Nominal 1245 1247	死神
+T129	Person-Nominal 1240 1242	爱神
+R11	Family Arg1:T23 Arg2:T22	
+R12	Social Arg1:T47 Arg2:T44	
+R13	Social Arg1:T67 Arg2:T68	

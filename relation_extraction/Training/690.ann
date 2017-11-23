@@ -1,0 +1,432 @@
+T1	Time-Implicit 0 4	春夏之交
+T2	Person-Nominal 7 8	人
+T3	Thing-Nominal 11 24	那五彩绽放，色彩斑澜的花朵
+T4	Time-Implicit 25 29	古往今来
+T5	Person-Nominal 33 37	文人墨客
+T6	Thing-Nominal 41 48	我们城市的花朵
+T7	Location-Nominal 41 45	我们城市
+T8	Person-Pronoun 41 43	我们
+R1	Located Arg1:T6 Arg2:T7	
+T9	Location-Nominal 59 60;61 64	我 们家乡
+T10	Person-Pronoun 59 60;61 62	我 们
+T11	Time-Implicit 82 85	小时候
+T12	Location-Nominal 85 90	家舍的庭院
+T13	Thing-Nominal 91 98	一个不大的花坛
+R2	Located Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 99 101	花坛
+*	Coreference T14 T13
+T15	Thing-Nominal 117 121	花坛中央
+R3	Part-Whole Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 122 131	一棵碗大一样的树杆
+R4	Located Arg1:T16 Arg2:T15	
+T17	Location-Nominal 138 140	地上
+R5	Located Arg1:T16 Arg2:T17	
+T18	Time-Implicit 142 144	那时
+T19	Person-Pronoun 144 145	我
+T20	Thing-Pronoun 149 150	它
+*	Coreference T20 T16 T22
+T21	Thing-Nominal 153 154	树
+T22	Thing-Nominal 159 161	这树
+T23	Thing-Pronoun 169 170	它
+T24	Thing-Nominal 173 175	小花
+R6	Located Arg1:T24 Arg2:T23	
+T25	Person-Nominal 178 180	爷爷
+R7	Family Arg1:T25 Arg2:T19	
+T26	Thing-Nominal 180 187	用来写字的毛笔
+R8	Use Arg1:T25 Arg2:T26	
+T27	Thing-Nominal 187 189	笔头
+R9	Part-Whole Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 194 199	雪白的小花
+T29	Person-Nominal 204 206	爷爷
+T30	Thing-Nominal 212 215	白兰花
+T31	Thing-Pronoun 210 211	它
+R10	General-Special Arg1:T30 Arg2:T31	
+T32	Thing-Pronoun 216 217	它
+T33	Thing-Nominal 216 223	它开出来的花朵
+R11	Located Arg1:T33 Arg2:T32	
+T34	Time-Implicit 227 231	刚发芽时
+T35	Thing-Nominal 232 234	身躯
+T36	Thing-Nominal 239 245	它旁边的叶子
+R12	Part-Whole Arg1:T35 Arg2:T32	
+T37	Thing-Pronoun 239 240	它
+*	Coreference T37 T35
+R13	Part-Whole Arg1:T36 Arg2:T32	
+T38	Thing-Nominal 256 261	雪白的脸宠
+T39	Thing-Nominal 267 273	清清的花香味
+R14	Part-Whole Arg1:T38 Arg2:T35	
+R15	Located Arg1:T39 Arg2:T38	
+T40	Time-Implicit 286 294	在幼儿园里的时候
+T41	Location-Nominal 287 290	幼儿园
+T42	Person-Nominal 299 301	老师
+T43	Person-Nominal 303 306	小孩子
+R16	Social Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 309 310	花
+T45	Thing-Nominal 311 312	鱼
+T46	Person-Nominal 313 315	老师
+T47	Time-Implicit 315 317	一天
+T48	Thing-Nominal 319 324	一只小瓶子
+R17	Use Arg1:T46 Arg2:T48	
+T49	Person-Pronoun 325 327	我们
+T50	Location-Nominal 333 335	里面
+T51	Thing-Nominal 337 345	一株刚发芽的种子
+R18	Located Arg1:T51 Arg2:T48	
+T52	Person-Pronoun 346 348	我们
+T53	Thing-Nominal 350 354	这只瓶子
+*	Coreference T53 T48
+T54	Thing-Nominal 358 363	装药的瓶子
+T55	Person-Pronoun 368 370	我们
+T56	Time-Implicit 368 381	我们平常哪里有不舒服的时候
+T57	Thing-Pronoun 372 374	哪里
+R19	Part-Whole Arg1:T57 Arg2:T55	
+T58	Person-Nominal 382 385	家里人
+R20	Family Arg1:T58 Arg2:T55	
+T59	Thing-Nominal 393 395	瓶子
+*	Coreference T59 T54
+T60	Thing-Nominal 400 406	一颗颗药泥子
+R21	Located Arg1:T60 Arg2:T59	
+T61	Person-Pronoun 407 409	我们
+T62	Person-Nominal 412 414	老师
+T63	Thing-Nominal 415 421	瓶子里的宝贝
+*	Coreference T63 T51 T67 T70 T71 T80
+T64	Person-Pronoun 427 429	我们
+R22	Use Arg1:T62 Arg2:T63	
+T65	Person-Pronoun 434 436	我们
+T66	Person-Nominal 466 469	同学们
+R23	Social Arg1:T19 Arg2:T66	
+T67	Thing-Nominal 471 484	眼前一株长出绿油油的小东西
+T68	Location-Nominal 471 473	眼前
+R24	Located Arg1:T67 Arg2:T68	
+T69	Person-Nominal 488 490	老师
+T70	Thing-Pronoun 493 494	它
+T71	Thing-Nominal 496 501	大树的孩子
+T72	Thing-Nominal 506 518;519 520	一棵能为我们遮风挡雨的大 树
+T73	Metric 506 508	一棵
+T74	Thing-Nominal 513 514	风
+T75	Thing-Nominal 515 516	雨
+T76	Person-Pronoun 524 526	我们
+T77	Person-Nominal 532 541	社会林立硕大的栋梁
+T78	Time-Implicit 543 545	那时
+T79	Person-Nominal 548 550	老师
+T80	Thing-Nominal 548 569	老师眼前那株开着绿绿的，又可爱的叶子的宝贝
+T81	Thing-Nominal 556 566	绿绿的，又可爱的叶子
+R25	Part-Whole Arg1:T81 Arg2:T80	
+T82	Person-Pronoun 575 576	我
+T83	Thing-Nominal 587 599	老师手上那株绿色的小宝贝
+*	Coreference T83 T81
+T84	Time-Implicit 603 606	有一天
+T85	Person-Nominal 587 589	老师
+T86	Thing-Nominal 608 615	家里庭院的花坛
+T87	Location-Nominal 608 612	家里庭院
+R26	Located Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 625 636	那跟老师长得一样的宝贝
+T89	Person-Nominal 627 629	老师
+T90	Person-Pronoun 637 638	我
+T91	Thing-Pronoun 639 640	它
+T92	Person-Nominal 648 651	家里人
+T93	Person-Nominal 656 658	家人
+*	Coreference T93 T92
+T94	Person-Pronoun 652 653	我
+R27	Family Arg1:T92 Arg2:T94	
+T95	Person-Pronoun 660 661	我
+T96	Thing-Pronoun 663 664	那
+*	Coreference T96 T88
+T97	Thing-Nominal 665 671	桔子树的嫩芽
+R28	General-Special Arg1:T97 Arg2:T96	
+T98	Thing-Nominal 679 695	黄橙橙的，甜丝丝的，香喷喷的桔子
+T99	Person-Pronoun 697 698	我
+T100	Time-Implicit 707 709	每天
+T101	Thing-Nominal 709 711	眼睛
+R29	Part-Whole Arg1:T101 Arg2:T99	
+T102	Thing-Nominal 719 724	那两株盆栽
+T103	Thing-Nominal 736 750	一株会长出各式各样果实的树苗
+T104	Person-Pronoun 767 768	我
+T105	Thing-Nominal 772 784	那充满生机的和惊喜的花坛
+*	Coreference T105 T86
+T106	Person-Pronoun 787 788	我
+T107	Thing-Nominal 793 796	玉兰树
+T108	Person-Pronoun 798 799	我
+T109	Location-Nominal 798 805	我上小学的路上
+T110	Thing-Nominal 808 829	两旁整齐地排列得像穿着绿绿军装一样的玉兰树
+R30	Located Arg1:T110 Arg2:T109	
+T111	Thing-Nominal 819 823	绿绿军装
+T112	Time-Implicit 830 833	那时候
+T113	Thing-Nominal 836 847;848 850	这站得直直的，高高的玉 兰树
+*	Coreference T113 T110 T115
+T114	Person-Pronoun 851 852	我
+T115	Thing-Pronoun 856 857	它
+T116	Thing-Nominal 856 860	它的下腿
+R31	Part-Whole Arg1:T116 Arg2:T115	
+T117	Time-Implicit 862 869	在学校里上课时
+T118	Location-Nominal 863 865	学校
+T119	Person-Nominal 875 878	同学们
+T120	Thing-Nominal 875 892	同学们带有几颗从树上摘下来的小白花
+T121	Thing-Nominal 895 901	自己的文具盒
+R32	Located Arg1:T120 Arg2:T121	
+T122	Person-Pronoun 895 897	自己
+*	Coreference T122 T119 T123
+R33	Ownership Arg1:T122 Arg2:T121	
+T123	Person-Pronoun 905 907	他们
+T124	Thing-Nominal 914 917	文具盒
+*	Coreference T124 T121
+T125	Person-Nominal 925 927	少女
+T126	Thing-Nominal 946 956	家里的那一棵白兰花树
+T127	Location-Nominal 946 948	家里
+T128	Metric 950 952	一棵
+R34	Located Arg1:T126 Arg2:T127	
+T129	Thing-Nominal 972 977	碗大的树杆
+R35	Part-Whole Arg1:T129 Arg2:T126	
+T130	Person-Pronoun 988 989	我
+T131	Person-Nominal 991 994	很多人
+T132	Thing-Nominal 997 1009	一根用来采摘白兰花的竹杆
+R36	Create Arg1:T131 Arg2:T132	
+T133	Thing-Nominal 1014 1021	摘下来的白兰花
+T134	Thing-Nominal 1028 1029	茶
+T135	Person-Nominal 1039 1041	同伴
+T137	Person-Pronoun 1051 1052	我
+R37	Social Arg1:T137 Arg2:T135	
+T136	Thing-Nominal 1045 1046	树
+T138	Thing-Nominal 1056 1057	树
+R38	Use Arg1:T137 Arg2:T138	
+R39	Use Arg1:T135 Arg2:T136	
+T139	Thing-Nominal 1092 1095	玉兰树
+T140	Thing-Nominal 1098 1117	一种跟叶子一样绿，还有小小花纹的毛毛虫
+R40	Located Arg1:T140 Arg2:T139	
+T141	Thing-Pronoun 1118 1119	它
+*	Coreference T141 T140 T147 T151 T157 T172 T179 T181 T194 T193
+T142	Thing-Nominal 1122 1131	叶子上大部分的叶身
+T143	Thing-Nominal 1122 1124	叶子
+T144	Thing-Nominal 1101 1103	叶子
+R41	Part-Whole Arg1:T142 Arg2:T143	
+T145	Thing-Nominal 1136 1144	一条长长的叶梗子
+T146	Person-Pronoun 1145 1147	我们
+T147	Thing-Nominal 1149 1151;1152 1154	这种 怪物
+T148	Time-Implicit 1157 1160	有时候
+T149	Person-Pronoun 1161 1163	我们
+T150	Person-Nominal 1166 1169	大人们
+T151	Thing-Nominal 1166 1175	大人们手指粗的怪物
+T152	Location-Nominal 1176 1178	树上
+T153	Person-Nominal 1185 1186	人
+T154	Location-Nominal 1188 1190	树下
+T155	Time-Implicit 1182 1191	偶尔有人经过树下时
+T156	Person-Nominal 1198 1200	路人
+T157	Thing-Pronoun 1213 1214	它
+T158	Location-Nominal 1219 1225	谁的身子背后
+T159	Person-Pronoun 1219 1220	谁
+T160	Time-Implicit 1234 1236	周末
+T161	Person-Pronoun 1236 1238	我们
+T162	Thing-Nominal 1242 1245	玉兰树
+T163	Thing-Nominal 1242 1249	玉兰树下的花坛
+T164	Location-Nominal 1242 1246	玉兰树下
+R42	Near Arg1:T163 Arg2:T164	
+T165	Person-Pronoun 1259 1261	我们
+T166	Thing-Nominal 1265 1268	玉兰树
+T167	Thing-Nominal 1265 1273;1274 1276	玉兰树上掉下来的 叶子
+T168	Thing-Nominal 1280 1282	叶身
+R43	Part-Whole Arg1:T168 Arg2:T167	
+T169	Thing-Nominal 1294 1300	各种刀剑玩具
+R44	Create Arg1:T165 Arg2:T169	
+T170	Thing-Pronoun 1302 1304	它们
+*	Coreference T170 T169
+T171	Thing-Nominal 1302 1307	它们的锋刃
+R45	Part-Whole Arg1:T171 Arg2:T170	
+R46	Use Arg1:T165 Arg2:T170	
+T172	Thing-Nominal 1310 1318	那些绿茸茸的怪物
+T173	Thing-Nominal 1320 1331	勤劳在树杆下作业的蚂蚁
+T174	Thing-Nominal 1336 1341	强悍的将军
+T175	Thing-Nominal 1344 1360	头前的那两颗锋利地像大刀一样牙齿
+R47	Part-Whole Arg1:T175 Arg2:T173	
+T176	Thing-Pronoun 1361 1362	它
+*	Coreference T173 T174 T176 T178 T187 T186
+T177	Thing-Nominal 1363 1369	毛毛虫的克星
+R48	General-Special Arg1:T177 Arg2:T176	
+T178	Thing-Nominal 1378 1380	它们
+T179	Thing-Nominal 1383 1385	毛虫
+T180	Thing-Nominal 1388 1395	那颗无情的利牙
+*	Coreference T180 T175 T188
+T181	Thing-Nominal 1406 1411	那长长怪物
+T182	Time-Implicit 1418 1420	有时
+T183	Location-Nominal 1422 1428	花坛中泥土里
+T184	Thing-Nominal 1423 1434	坛中泥土里爬出来的蚯蚓
+T185	Time-Implicit 1442 1444	有时
+T186	Thing-Nominal 1445 1447	将领
+T187	Thing-Nominal 1372 1374	大将
+T188	Thing-Nominal 1454 1456	牙刃
+T189	Thing-Nominal 1459 1464	我们的手指
+T190	Person-Pronoun 1459 1461	我们
+R49	Part-Whole Arg1:T189 Arg2:T190	
+T191	Person-Nominal 1471 1473	重者
+T192	Person-Nominal 1480 1485	邻居的老人
+T193	Thing-Nominal 1488 1493	这种毛毛虫
+T194	Thing-Nominal 1363 1366	毛毛虫
+T195	Thing-Nominal 1502 1511	一只色彩斑澜的蝴蝶
+T196	Person-Pronoun 1520 1521	我
+R50	Social Arg1:T192 Arg2:T196	
+T197	Person-Nominal 1528 1530	叔叔
+R51	Family Arg1:T197 Arg2:T196	
+T198	Location-Nominal 1534 1536	家乡
+T199	Location-Nominal 1541 1547	碧绿的田野上
+T200	Thing-Nominal 1551 1558	小小绿色的怪物
+T201	Thing-Nominal 1565 1573	小草和野菜的叶子
+T202	Thing-Nominal 1582 1589	早已枯黄的衣裳
+T203	Thing-Nominal 1594 1600;1601 1605	白白嫩嫩的彩 色小翅膀
+T204	Time-Implicit 1627 1629	一天
+T205	Organization-Nominal 1621 1623	小学
+T206	Person-Nominal 1636 1638	老师
+T207	Thing-Nominal 1645 1651	一大堆竹杆子
+T208	Thing-Nominal 1639 1641	讲台
+T209	Thing-Nominal 1654 1656	讲台
+R52	Located Arg1:T207 Arg2:T209	
+R53	Use Arg1:T206 Arg2:T207	
+T210	Person-Pronoun 1658 1659	我
+T211	Thing-Nominal 1665 1670	竹杆子一端
+T212	Thing-Nominal 1665 1668	竹杆子
+R54	Part-Whole Arg1:T211 Arg2:T212	
+T213	Thing-Nominal 1672 1680;1681 1699	跟爷爷用来写字的 ，一颗颗，洁白的，跟白兰花一样的笔头
+R55	Located Arg1:T213 Arg2:T211	
+*	Coreference T212 T207 T215
+T214	Person-Nominal 1700 1702	老师
+T215	Thing-Pronoun 1706 1707	这
+T216	Thing-Nominal 1708 1710	毛笔
+R56	General-Special Arg1:T216 Arg2:T215	
+T217	Person-Pronoun 1713 1715	我们
+T218	Thing-Nominal 1717 1725	写古老的东方汉字
+T219	Thing-Nominal 1727 1730	毛笔字
+*	Coreference T218 T219
+T220	Person-Pronoun 1732 1733	我
+T221	Location-Nominal 1735 1737	家里
+T222	Person-Nominal 1742 1743	爷
+T223	Person-Nominal 1673 1675	爷爷
+R57	Family Arg1:T223 Arg2:T210	
+T224	Thing-Nominal 1750 1756	着洁白的笔头
+T225	Thing-Nominal 1759 1768	浓浓的，黑黑的墨水
+R58	Located Arg1:T225 Arg2:T224	
+T226	Thing-Nominal 1772 1787	那零星点点的躲藏在树上的白兰花
+T227	Thing-Nominal 1788 1794	高高的玉兰树
+R59	Located Arg1:T226 Arg2:T227	
+T228	Location-Nominal 1807 1814	很多美丽的地方
+T229	Thing-Nominal 1818 1824	玉兰树的踪影
+R60	Located Arg1:T229 Arg2:T228	
+T230	Thing-Pronoun 1828 1829	它
+T231	Thing-Nominal 1818 1821	玉兰树
+*	Coreference T230 T231 T233
+T232	Person-Pronoun 1825 1826	我
+T233	Thing-Nominal 1831 1842	这座城市里最美丽的花朵
+T234	Location-Nominal 1831 1835	这座城市
+T235	Thing-Pronoun 1843 1844	它
+T236	Location-Nominal 1846 1850	我们当地
+T237	Person-Pronoun 1846 1848	我们
+T238	Person-Pronoun 1865 1866	它
+T239	Thing-Nominal 1868 1870	笔头
+T240	Thing-Nominal 1873 1879	散发出的香味
+T241	Location-Nominal 1897 1900	学校里
+T242	Thing-Pronoun 1916 1917	它
+T243	Thing-Nominal 1920 1924;1925 1943	那棵只是 默默无闻地为我们从前遮风挡雨的玉兰树
+T244	Person-Pronoun 1931 1933	我们
+T245	Time-Implicit 1953 1955	如今
+T246	Person-Pronoun 1965 1966	我
+T247	Thing-Nominal 1989 1994	一朵白兰花
+T248	Thing-Nominal 2015 2028	那刚刚种在马路两旁的玉兰树
+T249	Person-Pronoun 2029 2030	我
+T250	Person-Nominal 2034 2036	孩子
+T251	Thing-Nominal 2052 2068	小小，纯色的，好像笔锋一样的花儿
+T252	Thing-Nominal 1960 1964	白兰花香
+R61	Use Arg1:T246 Arg2:T252	
+T253	Thing-Nominal 1991 1994	白兰花
+*	Coreference T251 T253
+T254	Person-Pronoun 2078 2079	我
+T255	Location-Nominal 2082 2085	这城市
+*	Coreference T255 T234 T257 T295 T330
+T256	Person-Nominal 2082 2090	这城市的很多人们
+T257	Location-Nominal 2109 2114	我们城市里
+T258	Thing-Nominal 2106 2124	守候在我们城市里一条江边上的一座宝塔
+T259	Thing-Name 2129 2132	文峰塔
+*	Coreference T259 T258 T265 T268 T313 T316 T325
+T260	Location-Nominal 2109 2119	我们城市里一条江边上
+R62	Located Arg1:T258 Arg2:T260	
+T261	Thing-Nominal 2137 2142	一根笔杆子
+T262	Location-Nominal 2145 2148	江水边
+R63	Located Arg1:T261 Arg2:T262	
+T263	Metric 2137 2139	一根
+T264	Thing-Nominal 2151 2160	多么富有诗意的画幅
+T265	Thing-Pronoun 2166 2167	它
+T266	Thing-Nominal 2168 2171	白兰花
+T267	Thing-Nominal 2178 2179	树
+T268	Thing-Nominal 2191 2193	宝塔
+T269	Location-Nominal 2191 2196;2197 2199	宝塔附近的 地方
+T270	Person-Nominal 2201 2207	很多贤才杰士
+T271	Location-Pronoun 2208 2210	这里
+*	Coreference T271 T269 T274
+T272	Location-Nominal 2215 2224	很多市内重要的建筑
+T273	Location-Nominal 2227 2245	“市政府”、“市中学”、“著名旅馆”
+R64	General-Special Arg1:T272 Arg2:T273	
+T274	Location-Pronoun 2248 2249	此
+T275	Location-Nominal 2256 2257;2258 2259	市 内
+T276	Thing-Nominal 2260 2263	白兰花
+T277	Thing-Nominal 2273 2281	醒脑提神的玉兰油
+T278	Person-Nominal 2283 2292	当地的很多商业人士
+T279	Thing-Pronoun 2295 2296	它
+*	Coreference T279 T276
+T280	Thing-Nominal 2307 2318;2319 2320	许多名为玉兰词眼招牌用 品
+T281	Thing-Nominal 2323 2328	高大的树木
+T282	Person-Pronoun 2329 2330	我
+T283	Time-Implicit 2334 2337	小时候
+T284	Location-Nominal 2338 2341	市党校
+T285	Thing-Nominal 2342 2354	一棵高过于六层高的玉兰树
+R65	Located Arg1:T285 Arg2:T284	
+T286	Metric 2342 2344	一棵
+T287	Person-Pronoun 2381 2383	我们
+T288	Location-Nominal 2394 2406	人杰地灵，钟灵毓秀的宝地
+T289	Location-Pronoun 2391 2392	这
+*	Coreference T289 T284 T296
+R66	General-Special Arg1:T288 Arg2:T289	
+T290	Person-Nominal 2416 2424	我们一代莘莘学子
+T291	Organization-Nominal 2437 2438	党
+T292	Organization-Nominal 2439 2440	国
+T293	Person-Nominal 2436 2440;2441 2451	于党于国 一直艰苦奋斗的老干部
+T294	Person-Nominal 2452 2461	来过我们城市的游客
+T295	Location-Nominal 2454 2458	我们城市
+T296	Location-Pronoun 2471 2473	这里
+T297	Time-Implicit 2480 2485	夜幕刚降时
+T298	Thing-Pronoun 2486 2487	它
+*	Coreference T298 T285
+T299	Person-Pronoun 2493 2495	我们
+T300	Thing-Pronoun 2496 2497	它
+T301	Thing-Pronoun 2503 2504	它
+T302	Location-Nominal 2514 2516	塔上
+T303	Thing-Nominal 2516 2523	五彩缤纷的彩灯
+R67	Located Arg1:T303 Arg2:T302	
+T304	Thing-Nominal 2526 2531	美丽的彩光
+R68	Located Arg1:T304 Arg2:T303	
+T305	Thing-Nominal 2532 2537	天上的彩霞
+T306	Thing-Nominal 2548 2554	金红色的霞光
+T307	Thing-Nominal 2557 2559	江水
+R69	Located Arg1:T306 Arg2:T307	
+T308	Time-Implicit 2548 2561	金红色的霞光散落到江水上时
+T309	Thing-Nominal 2563 2570	反射上来的光线
+T310	Thing-Nominal 2573 2574	龙
+T311	Thing-Nominal 2576 2577	舞
+T312	Location-Nominal 2581 2583	塔上
+R70	Located Arg1:T309 Arg2:T312	
+T313	Thing-Nominal 2514 2515	塔
+T314	Person-Nominal 2586 2593	一位下凡的仙女
+T315	Person-Pronoun 2603 2605	我们
+T316	Thing-Nominal 2596 2619	平常白日当头，我们根本司空见惯，习以为常的宝塔
+T317	Thing-Nominal 2624 2629	落归的夕阳
+T318	Person-Nominal 2632 2634	仙女
+T319	Thing-Nominal 2631 2641	为仙女披上诱惑的彩裳
+T320	Person-Pronoun 2643 2644	其
+T321	Time-Implicit 2649 2651	此时
+T322	Thing-Nominal 2653 2654	诗
+T323	Thing-Nominal 2655 2656	画
+T324	Thing-Nominal 2673 2677	蓝天白云
+T325	Thing-Nominal 2672 2681	在蓝天白云下的宝塔
+T326	Thing-Nominal 2686 2694	那白嫩嫩的白兰花
+T327	Thing-Nominal 2691 2694	白兰花
+*	Coreference T326 T327 T331
+T328	Person-Pronoun 2697 2698	这
+T329	Person-Nominal 2700 2715	那位只爱在夕随傍晚才露脸的仙女
+*	Coreference T329 T328 T318 T314 T320
+T330	Location-Nominal 2724 2732;2733 2735	这座充满想象的城 市，
+T331	Thing-Pronoun 2738 2739	它
+T332	Thing-Pronoun 2774 2775	它
+T333	Location-Nominal 2797 2799	城市

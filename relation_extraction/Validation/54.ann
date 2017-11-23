@@ -1,0 +1,90 @@
+T1	Thing-Nominal 1 2	梅
+T2	Thing-Nominal 19 20	梅
+T3	Thing-Nominal 36 37	梅
+T4	Thing-Pronoun 41 42	你
+*	Coreference T4 T3
+T5	Thing-Pronoun 59 60	你
+T6	Person-Nominal 75 78	幸运儿
+R1	Part-Whole Arg1:T5 Arg2:T6	
+T7	Thing-Nominal 97 99	草根
+T8	Thing-Nominal 92 94	青山
+T9	Thing-Pronoun 111 112	你
+T10	Thing-Pronoun 152 153	你
+T11	Thing-Pronoun 162 163	你
+T12	Thing-Pronoun 449 450	你
+T13	Thing-Nominal 488 490	冰雪
+T14	Thing-Nominal 494 496	桃李
+T15	Thing-Nominal 173 174	皮
+R2	Part-Whole Arg1:T15 Arg2:T11	
+T16	Thing-Nominal 184 185	干
+T17	Thing-Nominal 186 187	枝
+R3	Part-Whole Arg1:T16 Arg2:T11	
+R4	Part-Whole Arg1:T17 Arg2:T11	
+T18	Thing-Nominal 207 208	苞
+R5	Part-Whole Arg1:T18 Arg2:T11	
+T19	Thing-Nominal 523 524	梅
+T20	Thing-Nominal 525 526	鹤
+T21	Location-Nominal 538 542	山壑水滨
+T22	Location-Nominal 543 547	皇家大院
+T23	Thing-Pronoun 557 558	你
+T24	Thing-Pronoun 704 705	你
+T25	Person-Nominal 720 722	勇士
+T26	Thing-Pronoun 723 724	你
+T27	Thing-Pronoun 744 745	你
+T28	Location-Name 747 749	神州
+T29	Thing-Nominal 750 751	根
+T30	Thing-Nominal 752 754	龙须
+*	Coreference T29 T30
+R6	Part-Whole Arg1:T29 Arg2:T27	
+T31	Thing-Nominal 755 756	花
+R7	Part-Whole Arg1:T31 Arg2:T27	
+T32	Thing-Nominal 774 775	叶
+T33	Thing-Nominal 779 780	果
+T34	Thing-Pronoun 791 792	你
+R8	Part-Whole Arg1:T32 Arg2:T34	
+R9	Part-Whole Arg1:T33 Arg2:T34	
+T35	Location-Nominal 812 816	深山穷谷
+T36	Time-Explicit 848 849	唐
+T37	Time-Explicit 850 851	宋
+T38	Person-Pronoun 857 858	我
+T39	Location-Nominal 867 871	北疆南域
+T40	Thing-Pronoun 886 887	你
+T41	Time-Implicit 890 896	天寒地冻之际
+T42	Thing-Nominal 917 921	风霜冰雪
+T43	Thing-Nominal 951 953	画卷
+T44	Person-Nominal 962 964	名士
+T45	Person-Nominal 972 974	哲人
+T46	Person-Nominal 982 984	诗翁
+T47	Person-Nominal 1012 1016	凡夫俗子
+T48	Person-Pronoun 1022 1023	我
+T49	Person-Nominal 1099 1102	文人墨
+T50	Person-Name 1111 1114	陆放翁
+T51	Person-Name 1121 1124	苏东坡
+T52	Person-Name 1132 1135	毛润之
+*	Coreference T50 T49 T51 T52
+T53	Thing-Nominal 1140 1141	梅
+T54	Thing-Pronoun 1148 1149	你
+T55	Person-Pronoun 1169 1170	我
+T56	Person-Pronoun 1171 1172	你
+*	Coreference T54 T53
+T57	Person-Pronoun 1189 1191	我们
+T58	Thing-Pronoun 1224 1225	你
+T59	Thing-Pronoun 1234 1235	你
+T60	Thing-Pronoun 1248 1249	你
+T61	Thing-Pronoun 1255 1256	你
+T62	Person-Nominal 1266 1268	君子
+T63	Thing-Pronoun 1280 1281	你
+T64	Thing-Nominal 233 235	游龙
+T65	Thing-Nominal 287 289	冰雪
+T66	Thing-Nominal 311 313	夕阳
+T67	Thing-Nominal 335 337	明月
+T68	Thing-Nominal 634 635	冰
+T69	Thing-Nominal 636 637	雪
+T70	Thing-Nominal 679 681	悬崖
+T71	Thing-Nominal 681 683	险峰
+T72	Thing-Nominal 1035 1037	梅花
+T73	Thing-Nominal 1055 1057	秋月
+T74	Location-Name 1053 1055	汉宫
+T75	Person-Pronoun 1081 1082	你
+T76	Person-Nominal 1083 1087	旷世骄子
+*	Coreference T75 T76

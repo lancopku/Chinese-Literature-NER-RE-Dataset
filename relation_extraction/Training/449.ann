@@ -1,0 +1,151 @@
+T1	Person-Nominal 3 5	夫妻
+T2	Person-Nominal 13 15	夫君
+T3	Person-Pronoun 21 22	我
+*	Coreference T3 T2
+T4	Person-Pronoun 37 38	你
+T5	Person-Pronoun 40 41	我
+T6	Time-Implicit 53 55	冬天
+T7	Thing-Nominal 56 58	手脚
+T8	Location-Nominal 61 63	身下
+T9	Thing-Nominal 64 66	三床
+R1	Located Arg1:T9 Arg2:T8	
+T10	Location-Nominal 67 69	身上
+T11	Thing-Nominal 72 76	两床棉被
+R2	Located Arg1:T11 Arg2:T10	
+T12	Person-Pronoun 77 78	我
+T13	Person-Pronoun 92 93	我
+T14	Location-Nominal 95 99	大棉衣里
+T15	Thing-Nominal 101 105	小棉被心
+R3	Located Arg1:T15 Arg2:T14	
+T16	Time-Implicit 108 110	那时
+T17	Thing-Nominal 118 119	衣
+T18	Person-Nominal 131 133	夫君
+T19	Thing-Nominal 143 145	手指
+T20	Thing-Nominal 146 148	手指
+T21	Person-Pronoun 152 153	他
+*	Coreference T21 T18
+T22	Person-Nominal 171 173	夫君
+T23	Person-Pronoun 175 176	我
+R4	Family Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 178 183	一个暖手宝
+T25	Time-Implicit 186 188	那时
+T26	Thing-Nominal 189 192	暖手宝
+T27	Location-Nominal 207 210	寒风中
+T28	Person-Pronoun 215 216	我
+T29	Location-Nominal 221 223	雪中
+T30	Thing-Nominal 224 225	炭
+T31	Person-Pronoun 226 227	我
+T32	Person-Nominal 240 249	不苟言笑的中原汉子
+T33	Person-Pronoun 281 282	他
+*	Coreference T33 T32
+T34	Thing-Nominal 287 292	一床电热毯
+T35	Time-Implicit 293 295	当晚
+T36	Person-Pronoun 296 297	我
+T37	Thing-Nominal 298 301	电热毯
+T38	Location-Nominal 311 313	窗外
+T39	Thing-Nominal 313 315	寒风
+T40	Time-Implicit 326 329	这一晚
+T41	Person-Pronoun 330 331	我
+T42	Thing-Nominal 340 343	一本书
+T43	Location-Nominal 335 336;337 338	被 中
+T44	Thing-Nominal 357 360	电热汀
+T45	Thing-Nominal 361 364	电热器
+T46	Person-Pronoun 370 371	我
+T47	Thing-Nominal 373 375	房子
+T48	Thing-Nominal 379 381	地暖
+T49	Thing-Nominal 382 384	地暖
+T50	Thing-Nominal 388 390	棉衣
+T51	Time-Implicit 408 410	那日
+T52	Person-Nominal 411 413	夫君
+T53	Person-Pronoun 417 418	我
+T54	Thing-Nominal 448 450	地暖
+T55	Person-Pronoun 457 458	我
+T56	Thing-Nominal 462 464	人家
+T57	Thing-Nominal 466 468	地暖
+T58	Thing-Nominal 473 474	水
+T59	Thing-Nominal 477 481	整个地面
+T60	Thing-Nominal 491 494	漏水点
+T61	Thing-Nominal 496 498	地面
+T62	Thing-Nominal 512 515	空调线
+T63	Thing-Nominal 518 520	空调
+T64	Thing-Nominal 523 525	地暖
+T65	Thing-Nominal 535 537	空调
+T66	Person-Pronoun 539 540	我
+T67	Thing-Nominal 551 553	地暖
+T68	Thing-Nominal 554 556	空调
+T69	Person-Nominal 565 567	夫君
+T70	Person-Pronoun 569 570	我
+R5	Family Arg1:T70 Arg2:T69	
+T71	Person-Pronoun 577 578	我
+T72	Person-Pronoun 586 587	他
+*	Coreference T72 T69
+T73	Person-Pronoun 599 600	我
+T74	Person-Pronoun 601 602	你
+T75	Location-Nominal 603 604	家
+T76	Time-Implicit 606 608	那天
+T77	Person-Nominal 609 611	夫君
+T78	Person-Pronoun 612 613	我
+T79	Thing-Nominal 615 619	一大捆书
+T80	Thing-Nominal 633 634	书
+T81	Thing-Nominal 641 645	我的冰手
+T82	Person-Pronoun 641 642	我
+R6	Part-Whole Arg1:T81 Arg2:T82	
+T83	Location-Nominal 650 656	在他的大手里
+T84	Person-Pronoun 651 652	他
+T85	Thing-Nominal 662 663	手
+T86	Person-Pronoun 668 669	他
+T87	Thing-Nominal 671 674	我的手
+T88	Person-Pronoun 671 672	我
+R7	Part-Whole Arg1:T87 Arg2:T88	
+T89	Thing-Nominal 676 682	他的棉衣口袋
+T90	Person-Pronoun 676 677	他
+R8	Ownership Arg1:T90 Arg2:T89	
+T91	Person-Pronoun 683 684	我
+T92	Thing-Nominal 690 691	手
+T93	Thing-Nominal 701 704	暖手宝
+T94	Person-Nominal 713 714	人
+T95	Time-Implicit 731 734	多年后
+T96	Person-Pronoun 742 743	我
+T97	Time-Implicit 750 755	后来的日子
+T98	Person-Pronoun 756 757	他
+T99	Time-Implicit 759 761	每天
+T100	Person-Pronoun 763 764	我
+T101	Location-Nominal 765 766	家
+T102	Time-Implicit 767 769	每天
+T103	Thing-Nominal 770 773	我的手
+T104	Person-Pronoun 770 771	我
+R9	Part-Whole Arg1:T103 Arg2:T104	
+T105	Thing-Nominal 775 779	他的口袋
+T106	Person-Pronoun 775 776	他
+R10	Ownership Arg1:T106 Arg2:T105	
+T107	Thing-Nominal 784 785	手
+T108	Person-Pronoun 791 792	他
+T109	Thing-Nominal 798 800	上衣
+T110	Thing-Nominal 804 808	我的双手
+T111	Person-Pronoun 804 805	我
+R11	Part-Whole Arg1:T110 Arg2:T111	
+T112	Thing-Nominal 817 823	他的两个胳膊
+T113	Person-Pronoun 817 818	他
+R12	Part-Whole Arg1:T112 Arg2:T113	
+T114	Person-Pronoun 828 829	他
+T115	Thing-Nominal 846 848	心脏
+T116	Thing-Nominal 854 856	心脏
+T117	Thing-Nominal 860 862	双手
+T118	Person-Pronoun 875 876	我
+T119	Thing-Nominal 879 883	他的心脏
+T120	Person-Pronoun 879 880	他
+R13	Part-Whole Arg1:T119 Arg2:T120	
+T121	Person-Nominal 894 896	夫君
+T122	Person-Pronoun 900 902	我们
+T123	Person-Pronoun 908 909	我
+T124	Person-Pronoun 919 920	他
+*	Coreference T124 T121
+T125	Person-Pronoun 922 923	我
+T126	Person-Pronoun 928 929	我
+T127	Person-Pronoun 932 933	他
+T128	Person-Pronoun 950 951	我
+T129	Person-Pronoun 964 965	他
+T130	Thing-Nominal 967 969	身体
+T131	Person-Pronoun 977 978	他
+T132	Person-Pronoun 986 988	自己
+T133	Person-Pronoun 993 994	我

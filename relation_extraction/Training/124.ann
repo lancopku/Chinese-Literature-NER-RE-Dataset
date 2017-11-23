@@ -1,0 +1,279 @@
+T1	Time-Explicit 0 4	阳春三月
+T2	Person-Name 10 17	横溪镇长蒋劲松
+T3	Organization-Name 23 32	上海经纬规划设计院
+T4	Organization-Name 33 41	浙江省仙居县文联
+T5	Organization-Name 48 52	登山协会
+T6	Organization-Name 42 47	摄影家协会
+T7	Person-Nominal 59 60;61 64	外 县来宾
+T8	Person-Nominal 66 68	百人
+T9	Organization-Nominal 69 73	合成团队
+T10	Location-Name 75 79	苍岭古道
+T11	Thing-Nominal 85 89	巍巍苍岭
+T12	Thing-Nominal 91 96	仙霞岭山系
+R1	Part-Whole Arg1:T11 Arg2:T12	
+T13	Thing-Nominal 101 103	主峰
+T14	Metric 103 109	1200多米
+T15	Location-Nominal 112 116	仙居西部
+T16	Thing-Nominal 117 121	喜马拉雅
+T17	Thing-Nominal 122 129	古老的苍岭驿道
+T18	Metric 132 137	700多米
+T19	Location-Nominal 138 142	风门山口
+R2	Located Arg1:T11 Arg2:T15	
+T20	Thing-Nominal 148 150	仙居
+T21	Thing-Nominal 151 153	缙云
+T22	Time-Explicit 163 168	1958年
+T23	Thing-Nominal 168 172	仙缙公路
+T24	Time-Implicit 168 175	仙缙公路通车前
+T25	Thing-Pronoun 176 177	它
+T26	Thing-Nominal 180 194	仙居和祖国西部内地的商贸要道
+*	Coreference T25 T17
+T27	Thing-Nominal 201 206	东部的海盐
+T28	Location-Nominal 201 203	东部
+R3	Located Arg1:T27 Arg2:T28	
+T29	Thing-Nominal 209 212	永安溪
+T30	Location-Name 216 218	皤滩
+T31	Location-Name 222 225	苍岭内
+T32	Location-Name 227 231	西南诸省
+T33	Time-Implicit 241 243	每年
+T34	Metric 243 248	3万吨以上
+T35	Thing-Nominal 250 254	苍岭驿道
+T36	Thing-Nominal 262 266	苍岭丹枫
+T37	Location-Name 267 269	仙居
+T38	Thing-Nominal 267 273	仙居八景之一
+*	Coreference T38 T36
+T39	Location-Name 276 278	仙居
+T40	Location-Nominal 282 286	醉美之地
+T41	Thing-Pronoun 295 296	它
+*	Coreference T41 T35
+T42	Organization-Name 301 306	横溪镇政府
+T43	Thing-Nominal 313 317	苍岭古道
+T44	Location-Name 334 337	横溪镇
+T45	Thing-Nominal 338 339	车
+T46	Metric 344 347	半小时
+T47	Location-Name 351 355	苍岭坑村
+T48	Thing-Pronoun 356 357	它
+T49	Metric 359 364	200多户
+T50	Metric 365 370	六七百人口
+T51	Thing-Nominal 371 377	这古老的村落
+T52	Thing-Nominal 380 382	大山
+T53	Thing-Nominal 386 390	苍岭古道
+T54	Location-Nominal 402 404	村南
+T55	Thing-Nominal 397 401	台金高速
+T56	Thing-Nominal 409 411	大山
+T57	Thing-Nominal 412 417	苍岭主隧道
+T58	Metric 418 424	7000多米
+T59	Location-Name 441 445	苍岭坑村
+T60	Thing-Nominal 446 447	山
+T61	Thing-Nominal 448 450	汽车
+T62	Location-Nominal 451 459	高低起伏的峰谷间
+T63	Thing-Nominal 464 469	路旁的枫树
+T64	Location-Nominal 464 466	路旁
+R4	Located Arg1:T63 Arg2:T64	
+T65	Thing-Nominal 469 476	已吐嫩黄的雀舌
+T66	Person-Nominal 477 482	村里的向导
+T67	Location-Nominal 477 479	村里
+T68	Person-Pronoun 484 485	我
+T69	Thing-Nominal 492 499	原先的苍岭丹枫
+T70	Person-Nominal 505 507	一人
+T71	Time-Implicit 513 517	秋冬时节
+T72	Thing-Nominal 518 522	落地枫叶
+T73	Metric 523 526	一尺多
+T74	Thing-Nominal 530 534	那些古枫
+T75	Time-Explicit 535 540	大跃进年代
+T76	Person-Nominal 553 554	人
+T77	Thing-Nominal 562 567	重栽的枫树
+T78	Metric 569 572	一两丈
+T79	Metric 576 579	十来年
+T80	Thing-Nominal 580 584	苍岭丹枫
+T81	Thing-Nominal 598 605	绵延起伏的山峦
+T82	Location-Nominal 612 618	不远的山谷中
+T83	Thing-Nominal 619 626	几棵野樱桃的花
+R5	Located Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 621 624	野樱桃
+T85	Person-Nominal 635 636	客
+T86	Time-Implicit 638 640	春天
+T87	Location-Name 645 647	苍岭
+T88	Thing-Nominal 657 658	花
+T89	Thing-Nominal 660 662	丹霞
+T90	Thing-Nominal 669 671	鸟道
+T91	Thing-Nominal 672 674	盘谷
+T92	Thing-Nominal 675 677	羊肠
+T93	Thing-Nominal 687 688	车
+T94	Location-Name 689 692	龙王庙
+T95	Person-Nominal 693 695	大家
+T96	Thing-Nominal 696 697	车
+T97	Thing-Nominal 701 705	这龙王庙
+T98	Person-Nominal 706 708	村民
+T99	Location-Nominal 714 716	旁边
+T100	Thing-Nominal 716 718	涧水
+R6	Located Arg1:T100 Arg2:T99	
+T101	Location-Nominal 721 723	龙潭
+T102	Location-Nominal 724 726	潭中
+T103	Thing-Nominal 726 728	岩壁
+R7	Located Arg1:T103 Arg2:T102	
+T104	Thing-Nominal 732 734	龙爪
+T105	Location-Nominal 735 737	潭下
+T106	Thing-Nominal 738 742	石拱古桥
+R8	Located Arg1:T106 Arg2:T105	
+T107	Time-Explicit 745 750	清道光9年
+T108	Location-Name 753 756	龙王庙
+T109	Thing-Nominal 762 768	留存的古驿道
+T110	Thing-Nominal 772 774	山石
+T111	Thing-Nominal 779 781	石级
+T112	Person-Nominal 792 794	行人
+T113	Person-Nominal 811 812;813 822	那 些古老的食盐挑夫们
+T114	Thing-Nominal 824 829	沉重的担子
+T115	Thing-Nominal 843 844	头
+T116	Thing-Nominal 845 847	凉帽
+T117	Thing-Nominal 848 850	冷饭
+T118	Thing-Nominal 851 852	腰
+T119	Metric 853 855	一里
+T120	Thing-Nominal 860 862	苍岭
+T121	Person-Pronoun 868 870	他们
+*	Coreference T121 T113
+T122	Person-Pronoun 877 879	他们
+T123	Location-Nominal 880 887	这崎岖的山道上
+T124	Thing-Nominal 889 894	岁月的云烟
+T125	Location-Nominal 904 907	古道旁
+T126	Thing-Nominal 909 915	许多摩崖石刻
+R9	Located Arg1:T126 Arg2:T125	
+T127	Thing-Nominal 920 922	驿道
+T128	Time-Explicit 935 939	光绪八年
+T129	Person-Name 940 943	陈大宝
+T130	Thing-Nominal 945 947	山路
+T131	Thing-Nominal 955 960	古道的山石
+T132	Location-Nominal 955 957	古道
+R10	Located Arg1:T131 Arg2:T132	
+T133	Time-Explicit 970 978	清同治、光绪年间
+T134	Person-Name 1003 1005	石迈
+T135	Location-Name 992 1000	南宋末年苍岭坑村
+T136	Person-Nominal 1006 1007	人
+T137	Person-Pronoun 1008 1009	他
+*	Coreference T137 T134
+T138	Time-Implicit 1024 1027	临终前
+T139	Thing-Nominal 1031 1046	一条长20里、宽5尺的山道路基
+T140	Metric 1034 1037	20里
+T141	Metric 1039 1041	5尺
+T142	Thing-Nominal 980 982	路基
+T143	Location-Nominal 1049 1051	山上
+T144	Thing-Nominal 1053 1067	高一人许、面积约3平方的岩洞
+R11	Located Arg1:T144 Arg2:T143	
+T145	Metric 1061 1064	3平方
+T146	Time-Implicit 1070 1072	当年
+T147	Location-Nominal 1072 1079	石迈的劳动住所
+T148	Person-Name 1072 1074	石迈
+T149	Thing-Name 1082 1084;1085 1087	石迈 洞”
+T150	Person-Nominal 1090 1091	人
+T151	Location-Nominal 1100 1111	一处叫二里半茶亭的遗迹
+T152	Location-Name 1103 1108	二里半茶亭
+T153	Location-Pronoun 1114 1116	这里
+*	Coreference T153 T151
+T154	Thing-Nominal 1118 1120	古道
+T155	Location-Nominal 1120 1126	重要的歇息处
+T156	Person-Nominal 1127 1131	过往行人
+T157	Location-Pronoun 1132 1133	此
+T158	Thing-Nominal 1134 1135	茶
+T159	Thing-Nominal 1142 1146	山谷胜景
+T160	Thing-Nominal 1157 1159	茶亭
+T161	Thing-Nominal 1161 1162	亭
+T162	Thing-Nominal 1165 1169	残垣断壁
+T163	Thing-Nominal 1170 1174	檩柱骨立
+T164	Time-Implicit 1178 1181	前几年
+T165	Person-Nominal 1183 1184	人
+T166	Person-Nominal 1188 1190	团队
+T167	Person-Pronoun 1205 1206	我
+T168	Person-Nominal 1210 1218	一对孪生的小姑娘
+T169	Thing-Nominal 1223 1225	小脸
+R12	Part-Whole Arg1:T169 Arg2:T168	
+T170	Thing-Nominal 1228 1230	苹果
+T171	Thing-Nominal 1233 1235	山路
+T172	Person-Pronoun 1246 1248	她们
+*	Coreference T172 T168
+T173	Metric 1250 1253	11岁
+T174	Person-Pronoun 1254 1255	我
+T175	Location-Name 1262 1264	苍岭
+T176	Person-Pronoun 1270 1272	她们
+T177	Location-Nominal 1281 1285	风门山口
+T178	Thing-Nominal 1289 1296	先行的采风团旗
+T179	Location-Nominal 1297 1300	山崖上
+R13	Located Arg1:T178 Arg2:T179	
+T180	Person-Nominal 1308 1310	大家
+T181	Thing-Nominal 1311 1312	手
+T182	Person-Pronoun 1320 1322	我们
+T183	Location-Nominal 1327 1329	山口
+T184	Thing-Nominal 1333 1335	山风
+T185	Location-Nominal 1340 1342	山口
+T186	Person-Nominal 1362 1364	行人
+T187	Location-Nominal 1364 1371	休息纳凉的佳所
+T188	Person-Nominal 1372 1375	挑担者
+T189	Location-Nominal 1384 1386	路旁
+T190	Location-Nominal 1386 1393	黑黝黝的岩面上
+T191	Thing-Nominal 1400 1407	苍岭丹枫”石刻
+R14	Located Arg1:T191 Arg2:T190	
+T192	Thing-Nominal 1414 1419	这里的丛林
+T193	Location-Pronoun 1414 1416	这里
+R15	Located Arg1:T192 Arg2:T193	
+T194	Thing-Nominal 1429 1432	杜鹃花
+T195	Thing-Nominal 1434 1436	嫩芽
+T196	Location-Nominal 1449 1453	风门右侧
+T197	Person-Pronoun 1454 1456	我们
+T198	Thing-Nominal 1457 1462	另一条山道
+T199	Location-Name 1469 1472	秧田矶
+T200	Metric 1476 1480	数百米远
+T201	Location-Nominal 1481 1484	山弯处
+T202	Thing-Nominal 1485 1490	一座小楼房
+R16	Located Arg1:T202 Arg2:T201	
+T203	Thing-Nominal 1494 1498	苍岭隧道
+T204	Thing-Nominal 1503 1505	隧道
+T205	Thing-Nominal 1506 1508;1509 1512	大山 的山腰
+T206	Person-Nominal 1515 1520	往来的车辆
+T207	Location-Pronoun 1521 1523	这里
+*	Coreference T207 T201
+T208	Thing-Nominal 1529 1531	隧道
+T209	Thing-Nominal 1545 1554	一个叫马林街的山村
+T210	Location-Name 1548 1551	马林街
+T211	Location-Pronoun 1555 1557	这里
+*	Coreference T211 T210
+T212	Thing-Nominal 1558 1564	一二十栋民房
+T213	Person-Nominal 1567 1569	无人
+T214	Thing-Nominal 1572 1576	许多房屋
+T215	Location-Nominal 1583 1591	一处塌楼的残墙上
+T216	Thing-Nominal 1594 1600;1601 1602	一个时髦的坤 包
+R17	Located Arg1:T216 Arg2:T215	
+T217	Person-Nominal 1606 1608	全家
+T218	Thing-Nominal 1611 1613	山林
+T219	Time-Implicit 1617 1620	前几年
+T220	Thing-Nominal 1622 1623	山
+T221	Person-Pronoun 1629 1630	我
+T222	Thing-Nominal 1633 1637	这小山村
+T223	Person-Nominal 1645 1649	懂内情者
+T224	Person-Pronoun 1651 1652	我
+T225	Thing-Nominal 1657 1661	羊肠小道
+T226	Person-Nominal 1663 1665	山民
+T227	Thing-Nominal 1669 1676	稍开阔处的村庄
+T228	Thing-Nominal 1693 1700	叫跑马岗的山道
+T229	Thing-Name 1694 1697	跑马岗
+T230	Location-Nominal 1706 1708	村里
+T231	Thing-Nominal 1709 1711	午膳
+T232	Thing-Nominal 1714 1717	一截路
+T233	Thing-Nominal 1719 1720	头
+T234	Thing-Nominal 1725 1730	几棵大枫树
+T235	Thing-Nominal 1744 1749	未塌的山居
+T236	Thing-Nominal 1755 1761	这回程的景点
+T237	Location-Nominal 1764 1765;1766 1767	镇 里
+T238	Location-Name 1783 1786	苍岭坑
+T239	Person-Pronoun 1792 1794	我们
+T240	Location-Name 1797 1800	苍岭上
+T241	Person-Pronoun 1805 1806	我
+T242	Location-Name 1823 1825	苍岭
+T243	Thing-Nominal 1854 1858	断壁残亭
+T244	Thing-Nominal 1876 1878	东风
+T245	Thing-Nominal 1879 1881	新枫
+T246	Thing-Nominal 1883 1886	青鸦嘴
+T247	Thing-Nominal 1887 1889	老竹
+T248	Thing-Nominal 1891 1893	绿浪
+T249	Person-Nominal 1897 1899	游宾
+T250	Thing-Nominal 1903 1905	旌旗
+T251	Thing-Nominal 1906 1907	手
+T252	Location-Nominal 1908 1910	苍穹
+R18	Located Arg1:T250 Arg2:T252	

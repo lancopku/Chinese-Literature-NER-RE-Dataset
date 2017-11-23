@@ -1,0 +1,176 @@
+T1	Person-Pronoun 11 12	俺
+T2	Person-Nominal 15 18	耄耋人
+T3	Time-Implicit 20 25	1935年
+T4	Person-Pronoun 26 27	我
+*	Coreference T4 T1
+T5	Location-Name 30 36	山东省夏津县
+T6	Location-Name 30 46	山东省夏津县一个含辛茹苦的小村落
+T7	Time-Implicit 47 49	当时
+T8	Location-Nominal 49 50	家
+T9	Thing-Nominal 56 57	房
+T10	Thing-Nominal 61 62	地
+T11	Person-Nominal 73 74	父
+R1	Family Arg1:T11 Arg2:T4	
+T12	Location-Name 75 77	延安
+T13	Person-Nominal 82 86	母子童媳
+R2	Family Arg1:T13 Arg2:T11	
+R3	Family Arg1:T13 Arg2:T4	
+T14	Thing-Nominal 107 108	饭
+T15	Thing-Nominal 115 116	柴
+T16	Thing-Nominal 117 118	火
+T17	Thing-Nominal 124 126	落叶
+T18	Thing-Name 135 136	月
+T19	Thing-Nominal 111 113	汉字
+T20	Organization-Name 150 155	中国共产党
+T21	Time-Implicit 145 148	解放后
+T22	Person-Pronoun 157 159	我们
+T23	Organization-Name 165 170	中国共产党
+T24	Person-Pronoun 172 174	我们
+T25	Organization-Nominal 180 181	党
+*	Coreference T25 T23 T52
+T26	Person-Pronoun 186 187	我
+T27	Location-Nominal 195 197	祖国
+T28	Person-Nominal 208 212	儿童团长
+T29	Person-Nominal 213 221	村、乡团支部书记
+R4	General-Special Arg1:T28 Arg2:T26	
+R5	General-Special Arg1:T29 Arg2:T26	
+T30	Time-Explicit 229 237	953年7月1日
+T31	Location-Name 239 247	艾庄小乡岳集大庙
+T32	Person-Pronoun 237 238	我
+T33	Organization-Nominal 251 252	党
+T34	Time-Explicit 265 268	那一天
+*	Coreference T34 T30
+T35	Thing-Nominal 268 270	阳光
+T36	Person-Name 285 288	毛主席
+T37	Organization-Nominal 299 306	农村信用合作社
+T38	Location-Nominal 293 295	大庙
+*	Coreference T38 T31
+T39	Location-Nominal 308 310	大庙
+T40	Person-Name 311 319	区党委书记张子贤
+T41	Person-Pronoun 320 321	我
+T42	Person-Nominal 322 330	青梅竹马的童养媳
+R6	Social Arg1:T42 Arg2:T41	
+T43	Location-Nominal 337 339	大庙
+T44	Person-Nominal 340 344	新娘新郎
+T45	Person-Pronoun 369 370	我
+T46	Person-Name 384 393	县委宣传科科长宋云
+T47	Person-Pronoun 408 409	俺
+*	Coreference T47 T45
+T48	Time-Implicit 417 419	当时
+T49	Time-Implicit 446 448	那时
+T50	Abstract 453 462	马列主义毛泽东思想
+T51	Person-Pronoun 450 451	我
+T52	Organization-Name 492 495	共产党
+T53	Organization-Nominal 498 501	新中国
+T54	Person-Name 507 510	毛主席
+T55	Person-Pronoun 513 515	我们
+T56	Time-Implicit 534 541	上世纪60年代
+T57	Thing-Nominal 542 585	一部根据真实故事改编的以歌颂农村妇女敢于与封建礼教作斗争，争取婚姻自由的电影《刘巧儿》
+T58	Person-Name 581 584	刘巧儿
+T59	Person-Nominal 556 560	农村妇女
+T60	Thing-Nominal 578 580	电影
+R7	General-Special Arg1:T59 Arg2:T58	
+T61	Location-Nominal 588 590	全国
+T62	Person-Nominal 591 594;595 596	我的老 伴
+T63	Person-Name 599 602	刘桂英
+T64	Person-Name 606 609	刘巧儿
+*	Coreference T63 T62 T42 T68 T74
+T65	Person-Pronoun 621 622	我
+R8	Family Arg1:T62 Arg2:T65	
+T66	Person-Nominal 613 614	母
+R9	Family Arg1:T64 Arg2:T66	
+T67	Person-Nominal 627 633	影片的主人公
+*	Coreference T67 T58
+T68	Person-Nominal 634 636	老伴
+T69	Person-Nominal 621 626	我的童养媳
+T70	Person-Nominal 615 617	姑姑
+R10	Family Arg1:T70 Arg2:T66	
+R11	Family Arg1:T70 Arg2:T63	
+T71	Time-Implicit 649 651	现在
+T72	Person-Name 652 654	柱儿
+T73	Person-Nominal 656 658	子孙
+R12	Family Arg1:T73 Arg2:T72	
+T74	Person-Nominal 661 668	风雨同舟的老伴
+T75	Person-Nominal 671 675	两个儿子
+R13	Family Arg1:T75 Arg2:T74	
+R14	Family Arg1:T75 Arg2:T65	
+T76	Organization-Nominal 677 679	部队
+T77	Person-Pronoun 680 682	一个
+T78	Location-Nominal 683 687	老山前线
+T79	Organization-Nominal 690 691	党
+T80	Person-Nominal 694 701	保家卫国的英雄
+R15	General-Special Arg1:T80 Arg2:T77	
+R16	Part-Whole Arg1:T77 Arg2:T75	
+T81	Person-Pronoun 702 704	一个
+R17	Part-Whole Arg1:T81 Arg2:T75	
+T82	Person-Nominal 711 720	武警部队光荣的警官
+R18	General-Special Arg1:T82 Arg2:T81	
+T83	Person-Nominal 721 725	两个孙子
+R19	Family Arg1:T83 Arg2:T74	
+R20	Family Arg1:T83 Arg2:T75	
+R21	Family Arg1:T83 Arg2:T65	
+T84	Organization-Nominal 735 737	部队
+T85	Time-Implicit 725 730	大学毕业后
+T86	Person-Nominal 746 748	孙女
+R22	Family Arg1:T86 Arg2:T83	
+R23	Family Arg1:T86 Arg2:T74	
+R24	Family Arg1:T86 Arg2:T65	
+T87	Person-Nominal 755 758	总经理
+R25	General-Special Arg1:T87 Arg2:T86	
+T88	Time-Implicit 748 753	大学毕业后
+T89	Person-Nominal 760 762	军人
+T90	Person-Pronoun 769 770	我
+T91	Person-Pronoun 784 785	我
+T92	Thing-Nominal 795 796	诗
+T93	Thing-Nominal 799 800	诗
+T94	Person-Pronoun 807 808	我
+T95	Thing-Nominal 807 815	我晚年的精神支柱
+T96	Thing-Nominal 804 806	写作
+T97	Thing-Nominal 819 820	诗
+T98	Organization-Nominal 824 825	党
+T99	Person-Nominal 835 837	老伴
+T100	Person-Nominal 873 875	老伴
+T101	Thing-Nominal 882 883	泪
+T102	Thing-Nominal 884 885	诗
+T103	Location-Name 892 897	夏津小苦井
+T104	Person-Nominal 911 914	大救星
+T105	Organization-Nominal 916 917	党
+T106	Abstract 920 923	三大山
+T107	Person-Nominal 926 927	父
+T108	Location-Name 928 930	延安
+T109	Person-Nominal 934 938	母子童媳
+T110	Location-Nominal 954 955	乡
+T111	Location-Nominal 955 956	庙
+T112	Thing-Nominal 962 964	惊雷
+T113	Thing-Nominal 964 965	云
+T114	Location-Nominal 968 970	神州
+T115	Abstract 977 980	马列毛
+T116	Person-Pronoun 994 995	我
+T117	Thing-Nominal 1019 1021	斧头
+T118	Thing-Nominal 1011 1013	镰刀
+T119	Organization-Nominal 1030 1032	信合
+T120	Person-Nominal 1036 1038	夫妻
+T121	Location-Nominal 1059 1062	百强县
+T122	Person-Nominal 1064 1068	庄户人家
+T123	Location-Name 1072 1074	华夏
+T124	Thing-Nominal 1075 1077	井水
+T125	Location-Nominal 1084 1087	俺家乡
+T126	Thing-Nominal 1089 1091	棉田
+T127	Thing-Nominal 1092 1093	海
+T128	Thing-Nominal 1093 1094	花
+T129	Thing-Nominal 1098 1100	江山
+T130	Location-Name 1103 1105	夏津
+T131	Location-Nominal 1106 1110	泽国水乡
+T132	Thing-Nominal 1110 1112	鱼米
+T133	Abstract 1120 1123	三代表
+T134	Abstract 1125 1129	小平理论
+T135	Organization-Nominal 1138 1140	社会
+T136	Thing-Nominal 1151 1153	宝典
+T137	Thing-Nominal 1153 1155	红歌
+T138	Thing-Nominal 1159 1161	夕阳
+T139	Thing-Nominal 1161 1163	红纸
+T140	Organization-Nominal 1169 1170	党
+T141	Thing-Nominal 1172 1175	茅台酒
+T142	Person-Nominal 1176 1180	炎黄子孙
+T143	Thing-Nominal 1181 1182	杯
+R26	Use Arg1:T142 Arg2:T143	

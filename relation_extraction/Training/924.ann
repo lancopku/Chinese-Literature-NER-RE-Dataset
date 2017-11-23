@@ -1,0 +1,150 @@
+T1	Time-Implicit 0 1	春
+T2	Thing-Nominal 2 4	冬雪
+T3	Time-Implicit 2 3	冬
+T5	Location-Nominal 17 19	村头
+T6	Location-Nominal 25 27	母亲
+T7	Time-Implicit 29 33	冬的前头
+T8	Time-Implicit 40 41	春
+T9	Time-Implicit 46 48	春天
+T10	Person-Nominal 56 58	母亲
+T11	Person-Nominal 68 70	母亲
+T13	Time-Implicit 92 94	冬日
+T14	Person-Pronoun 101 103	自己
+T15	Person-Nominal 107 109	母亲
+T16	Thing-Nominal 126 131	手中的犁耙
+T17	Location-Nominal 138 141	田地间
+T18	Person-Nominal 142 144	母亲
+T20	Thing-Nominal 142 152	母亲撒下的每一粒籽种
+T21	Person-Pronoun 156 157	我
+T22	Person-Nominal 176 178	母亲
+T24	Thing-Nominal 182 187	每一粒庄稼
+T25	Person-Nominal 192 197	自己的孩子
+T26	Person-Pronoun 192 194	自己
+T27	Person-Nominal 201 203	母亲
+T28	Location-Nominal 204 208	乡间小路
+T29	Time-Implicit 232 233	春
+T31	Person-Nominal 244 246	母亲
+T32	Thing-Nominal 247 249	雨水
+T33	Location-Nominal 251 254	在田间
+T35	Person-Nominal 260 262	母亲
+T36	Thing-Nominal 264 269	村头的柳树
+T37	Location-Nominal 264 266	村头
+R2	Located Arg1:T36 Arg2:T37	
+T38	Person-Nominal 270 272	母亲
+T40	Time-Implicit 283 284	夏
+T41	Person-Nominal 296 298	母亲
+T43	Location-Nominal 302 304	田间
+T45	Thing-Nominal 323 328	高傲的头颅
+T46	Thing-Nominal 312 317	凌乱的杂草
+T48	Thing-Nominal 330 338	一行行绿色的稻田
+T50	Person-Pronoun 341 342	我
+T51	Person-Nominal 353 355	母亲
+T52	Person-Nominal 368 370	母亲
+T53	Thing-Nominal 368 379	母亲亲手种下的五谷杂粮
+T54	Time-Implicit 381 383	夏日
+T55	Thing-Nominal 397 399	骄阳
+T56	Thing-Nominal 388 390	心脏
+T57	Thing-Nominal 411 413	农田
+T58	Person-Nominal 417 419	母亲
+T59	Time-Implicit 427 431	傍晚时分
+T62	Person-Nominal 447 449	母亲
+T64	Thing-Nominal 458 460	麦苗
+T65	Person-Nominal 461 463	母亲
+T66	Location-Nominal 484 486	乡村
+T67	Person-Nominal 488 490	母亲
+T68	Time-Implicit 492 494	夏日
+T70	Thing-Nominal 496 502	一颗参天大树
+T71	Person-Nominal 503 505	儿子
+T72	Location-Nominal 506 508	树下
+T73	Thing-Nominal 509 510	风
+T74	Thing-Nominal 511 512	雨
+T75	Time-Implicit 514 515	秋
+T76	Person-Nominal 527 529	母亲
+T78	Thing-Nominal 539 547	一幅金灿灿的画卷
+T79	Person-Pronoun 551 552	我
+T80	Person-Nominal 574 576	母亲
+T82	Time-Implicit 569 571	秋日
+T83	Person-Nominal 589 591	母亲
+T84	Thing-Nominal 589 594	母亲的镰刀
+R3	Ownership Arg1:T83 Arg2:T84	
+T85	Person-Pronoun 596 597	我
+T86	Thing-Nominal 596 600	我的稿纸
+R4	Ownership Arg1:T85 Arg2:T86	
+T87	Person-Pronoun 603 604	我
+T88	Time-Implicit 623 625	秋日
+T89	Location-Nominal 623 628	秋日的麦田
+T90	Person-Nominal 629 631	母亲
+T92	Thing-Nominal 641 645	一株庄稼
+T93	Time-Implicit 647 649	傍晚
+T94	Location-Nominal 650 656	在乡间小路上
+T96	Person-Nominal 676 678	母亲
+T97	Time-Implicit 680 682	秋日
+T98	Person-Nominal 683 685	母亲
+T99	Thing-Nominal 686 688	庄稼
+T100	Person-Nominal 698 700	母亲
+T101	Thing-Nominal 701 703	麦田
+T102	Thing-Nominal 709 714	来年的种子
+T103	Time-Implicit 709 711	来年
+T104	Location-Nominal 716 718	粮仓
+T105	Time-Implicit 720 721	冬
+T106	Person-Nominal 740 742	母亲
+T107	Thing-Nominal 743 745	犁耙
+T108	Person-Pronoun 752 753	我
+T109	Thing-Nominal 752 756	我的笔尖
+T110	Thing-Nominal 762 764	冬雪
+T111	Time-Implicit 762 763	冬
+T112	Person-Nominal 770 772	母亲
+T113	Location-Nominal 773 778	在田间地头
+T114	Person-Nominal 798 800	母亲
+T115	Person-Nominal 816 818	母亲
+T116	Thing-Nominal 819 821	犁耙
+T117	Person-Pronoun 824 825	我
+T118	Thing-Nominal 824 828	我的稿纸
+R5	Ownership Arg1:T117 Arg2:T118	
+T121	Thing-Nominal 845 848	一场雪
+T122	Person-Nominal 860 862	母亲
+T123	Thing-Nominal 863 868	村口的柳树
+T124	Location-Nominal 863 865	村口
+R6	Located Arg1:T123 Arg2:T124	
+T125	Location-Nominal 873 876	在村头
+T126	Location-Nominal 880 882	乡村
+T127	Thing-Nominal 884 886	暖阳
+T128	Person-Nominal 889 891	母亲
+T129	Location-Nominal 893 895	地头
+T130	Time-Implicit 901 903	明年
+T131	Thing-Nominal 905 907	大豆
+T132	Thing-Nominal 909 911	高粱
+T134	Thing-Nominal 915 917	土炕
+T135	Person-Nominal 921 923	母亲
+T136	Time-Implicit 930 934	这个冬天
+T137	Person-Nominal 939 941	母亲
+T138	Person-Pronoun 935 936	我
+T139	Thing-Nominal 939 944	母亲的额头
+R7	Part-Whole Arg1:T139 Arg2:T137	
+T141	Thing-Nominal 948 952	几缕白发
+R8	Part-Whole Arg1:T141 Arg2:T137	
+T4	Thing-Nominal 87 97	曲僵了一个冬日的土地
+R9	Create Arg1:T14 Arg2:T4	
+T12	Thing-Nominal 101 106	自己的筋骨
+T142	Thing-Nominal 107 114	母亲紧皱的眉宇
+R10	Part-Whole Arg1:T142 Arg2:T15	
+T143	Location-Nominal 126 128	手中
+R11	Located Arg1:T16 Arg2:T143	
+T19	Location-Nominal 166 169	纸张间
+T23	Thing-Nominal 209 213	晨光晚霞
+T144	Thing-Nominal 224 226	山路
+T145	Thing-Nominal 232 234	春风
+T30	Thing-Nominal 290 292	麦苗
+R1	Located Arg1:T46 Arg2:T43	
+T34	Thing-Nominal 353 360	母亲辛勤的汗水
+R12	Part-Whole Arg1:T34 Arg2:T51	
+R13	Create Arg1:T52 Arg2:T53	
+T39	Thing-Nominal 403 407	一场雨露
+T42	Thing-Nominal 432 433	蛙
+T44	Time-Implicit 438 446	在夏日寂静的夜晚
+T47	Thing-Nominal 474 476	稻田
+T49	Thing-Nominal 516 518	秋风
+T60	Thing-Nominal 521 523	麦浪
+R14	Located Arg1:T102 Arg2:T104	
+T61	Thing-Nominal 722 731	热闹了多半年的土地
+R15	Ownership Arg1:T108 Arg2:T109	

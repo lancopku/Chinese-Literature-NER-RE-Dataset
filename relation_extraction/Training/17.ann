@@ -1,0 +1,268 @@
+T1	Thing-Nominal 0 5	漳州水仙花
+T2	Location-Name 0 2	漳州
+R1	Located Arg1:T1 Arg2:T2	
+T3	Time-Implicit 14 21	马年前夜的除夕
+T4	Thing-Pronoun 22 23	您
+T5	Metric 46 48	多日
+T6	Person-Nominal 50 53	漳州人
+T7	Location-Nominal 93 101	人们的眼前和耳畔
+T8	Person-Nominal 93 95	人们
+T9	Person-Nominal 109 111	大家
+T10	Location-Name 115 121;122 123	九龙江畔圆山 下
+*	Coreference T4 T1
+T11	Thing-Pronoun 124 125	您
+T12	Location-Name 133 144	央视演播厅的贵宾圆桌上
+T13	Person-Nominal 154 161	两岸三地明星们
+T14	Thing-Nominal 167 179	中华大观园里的百花仙子们
+T15	Thing-Nominal 191 195	名贵花卉
+T16	Time-Implicit 201 206;207 208	这寒冬腊月 里
+T17	Thing-Nominal 209 216	那些百花仙子们
+T18	Thing-Nominal 225 234	那欢喜漫天雪的梅花
+T19	Thing-Nominal 239 243	庞然大物
+T20	Location-Nominal 250 256	区区圆桌之上
+T21	Thing-Nominal 257 262	漳州水仙花
+T22	Location-Name 257 259	漳州
+R2	Located Arg1:T21 Arg2:T22	
+T23	Time-Explicit 264 267;268 270	198 3年
+T24	Thing-Pronoun 278 279	您
+T25	Thing-Nominal 284 288	千山万水
+T26	Location-Nominal 294 298	百花丛中
+T27	Thing-Nominal 298 304	最鲜艳的牡丹
+R3	Located Arg1:T27 Arg2:T26	
+T28	Thing-Pronoun 307 308	您
+T29	Thing-Nominal 312 315	水仙花
+T30	Thing-Pronoun 316 317	您
+*	Coreference T30 T29
+T31	Thing-Nominal 321 327	十大名花之一
+T32	Location-Name 328 330	漳州
+T33	Time-Explicit 341 346	1984年
+T34	Thing-Pronoun 347 348	您
+T35	Thing-Nominal 351 356	漳州的市花
+T36	Time-Explicit 357 362	1997年
+T37	Thing-Pronoun 363 364	您
+T38	Thing-Nominal 369 372;373 375	福建的 省花
+T39	Thing-Pronoun 376 377	您
+T40	Location-Name 381 386	福建及漳州
+T41	Person-Nominal 400 405	漳州的儿女
+T42	Person-Pronoun 406 408	我们
+*	Coreference T42 T41
+T43	Thing-Pronoun 410 411	您
+T44	Thing-Nominal 413 419	这张侨乡名片
+T45	Thing-Nominal 420 425	漳州水仙花
+T46	Person-Pronoun 426 427	您
+T47	Person-Nominal 431 433;434 435	漳州 人
+T48	Person-Pronoun 443 444	您
+T49	Thing-Nominal 453 457	冰肌玉骨
+T50	Person-Nominal 462 463	人
+T51	Person-Nominal 479 483	历代文人
+T52	Thing-Nominal 483 490	赋诗咏词的名花
+T53	Thing-Nominal 491 494;495 503	丹青妙 手泼墨挥毫的宠物
+T54	Time-Explicit 506 508	宋代
+T55	Person-Pronoun 517 518	您
+T56	Person-Name 519 524	宋人黄庭坚
+T57	Abstract 528 533	《洛神赋》
+T58	Person-Name 526 528	曹植
+T59	Person-Nominal 535 537	嫔妃
+T60	Thing-Pronoun 543 544	您
+T61	Thing-Nominal 545 549	凌波仙子
+T62	Location-Nominal 553 555	水上
+T63	Person-Name 570 576	大理学家朱熹
+T64	Thing-Nominal 584 588	水中仙子
+T65	Thing-Nominal 592 596	翠袖花冠
+T66	Thing-Nominal 596 599	白玉英
+T67	Person-Name 601 607	清代康熙皇帝
+T68	Abstract 608 616;617 622	《御制案头水仙花 偶作二首》
+T69	Thing-Pronoun 632 633	您
+T70	Thing-Nominal 635 639	翠帔缃冠
+T71	Thing-Nominal 639 642	白玉珈
+T72	Thing-Nominal 648 650	泥沙
+T73	Person-Nominal 651 653	骚人
+T74	Thing-Nominal 672 673	肌
+T75	Thing-Nominal 669 671	冰雪
+T76	Thing-Nominal 682 685	藐姑山
+T77	Thing-Nominal 686 688	群花
+T78	Location-Nominal 690 693	轩窗外
+R4	Located Arg1:T77 Arg2:T78	
+T79	Time-Explicit 702 714	”1879年10月11日
+T80	Organization-Name 717 722	漳州云霄县
+T81	Person-Name 723 729	鉴湖女侠秋瑾
+T82	Location-Nominal 732 735	寒风中
+T83	Thing-Pronoun 739 740	您
+T84	Person-Nominal 749 752	凌波女
+T85	Thing-Nominal 754 755	风
+T86	Thing-Nominal 755 757	倦眼
+T87	Thing-Nominal 762 764	玉盏
+T88	Thing-Nominal 767 770	滴瑶台
+T89	Thing-Nominal 765 766	根
+T90	Thing-Nominal 775 776	雪
+T91	Thing-Nominal 781 782	梅
+T92	Thing-Nominal 786 788	花癖
+T93	Time-Implicit 796 798	当代
+T94	Person-Name 798 799;800 806	著 名画家赖少其
+T95	Location-Name 807 809	漳州
+T96	Thing-Nominal 815 818	水仙花
+T97	Time-Implicit 814 821	为水仙花作画时
+T98	Location-Name 832 835	龙江滨
+T99	Thing-Nominal 836 840	白裙绿裳
+T100	Thing-Nominal 840 844	黄头巾;
+T101	Thing-Nominal 844 845	脸
+T102	Thing-Nominal 852 854	明月
+T103	Thing-Nominal 854 856	清风
+T104	Location-Nominal 861 865	百花村里
+T105	Thing-Nominal 865 868	水仙花
+R5	Located Arg1:T105 Arg2:T104	
+T106	Thing-Nominal 875 876	尘
+T107	Person-Nominal 889 892	一美人
+T108	Location-Name 887 889	漳州
+T109	Time-Explicit 895 897	明代
+T110	Thing-Pronoun 900 901	您
+T111	Thing-Nominal 903 909	海上丝绸之路
+T112	Location-Nominal 912 921	东南亚、欧洲和美洲
+T113	Time-Explicit 923 928	清道光年间
+T114	Person-Name 929 936	蔡坂花农张子张
+T115	Thing-Nominal 938 942	自家祖厝
+T116	Thing-Pronoun 949 950	您
+T117	Thing-Nominal 957 959	名花
+*	Coreference T110 T105
+T118	Thing-Pronoun 975 976	您
+T119	Location-Nominal 993 999	一泓清水之上
+T120	Thing-Nominal 1004 1010	碧玉般的臂膀
+T121	Thing-Nominal 1013 1020	美丽的金盏花朵
+T122	Time-Implicit 1034 1036	今年
+T123	Person-Name 1037 1043	总导演冯小刚
+T124	Thing-Pronoun 1060 1061	您
+T125	Person-Nominal 1063 1070	祖国芬芳的使者
+T126	Person-Nominal 1077 1084	海外华侨和华人
+T127	Time-Explicit 1092 1098	大年三十晚上
+T128	Person-Nominal 1099 1102	二姑妈
+T129	Location-Name 1103 1113	遥远的印尼首都雅加达
+T130	Person-Nominal 1122 1125	全家人
+T131	Person-Pronoun 1121 1122	她
+*	Coreference T131 T128
+T132	Thing-Nominal 1127 1139	一盆正在盛开的故乡水仙花
+T133	Person-Nominal 1162 1166	她老人家
+T134	Thing-Nominal 1186 1194	一盆盆漳州水仙花
+T135	Location-Nominal 1175 1183	晚演播厅的圆桌上
+R6	Located Arg1:T134 Arg2:T135	
+T136	Person-Pronoun 1200 1201	她
+T137	Thing-Nominal 1226 1229	水仙花
+T138	Person-Pronoun 1241 1242	我
+T139	Thing-Nominal 1247 1248	花
+T140	Thing-Nominal 1249 1256	女孩子喜爱之物
+T141	Time-Explicit 1257 1266	20世纪80年代末
+T142	Person-Pronoun 1267 1268	我
+T143	Time-Implicit 1275 1281	每年临近元旦
+T144	Thing-Nominal 1287 1289	家门
+T145	Thing-Pronoun 1292 1293	您
+T146	Person-Nominal 1295 1296	人
+T147	Person-Pronoun 1303 1304	我
+T148	Thing-Pronoun 1307 1308	您
+T149	Thing-Pronoun 1331 1332	您
+T150	Person-Nominal 1337 1338	人
+T151	Person-Pronoun 1342 1343	我
+T152	Thing-Nominal 1362 1364	鼻子
+T153	Thing-Pronoun 1369 1370	您
+T154	Person-Pronoun 1386 1387	我
+T155	Person-Pronoun 1406 1408	我们
+T156	Thing-Pronoun 1410 1411	您
+T157	Thing-Nominal 1413 1415	家园
+T158	Thing-Nominal 1426 1431	漳州水仙花
+T159	Person-Nominal 1433 1434	人
+T160	Thing-Nominal 1441 1446	漳州水仙花
+T161	Person-Nominal 1448 1449	人
+T162	Person-Pronoun 1459 1460	我
+T163	Thing-Pronoun 1463 1464	您
+T164	Thing-Nominal 1480 1484	水中仙子
+T165	Thing-Nominal 1484 1487	素衣裳
+T166	Thing-Nominal 1500 1507	国色天香的牡丹
+T167	Thing-Nominal 1508 1515	幽香远溢的兰花
+T168	Thing-Nominal 1516 1520	百花仙子
+T169	Thing-Nominal 1523 1525	蔬菜
+T170	Thing-Pronoun 1534 1535	您
+T171	Person-Pronoun 1548 1549	我
+T172	Thing-Pronoun 1551 1552	您
+T173	Time-Implicit 1571 1576	每一年春晚
+T174	Thing-Nominal 1583 1589	漳州凌波仙子
+T175	Location-Nominal 1577 1582	播厅圆桌上
+R7	Located Arg1:T174 Arg2:T175	
+T176	Person-Nominal 1597 1598	人
+T177	Person-Nominal 1602 1609	圆桌旁的贵宾们
+T178	Person-Nominal 1613 1620;1621 1624	电视机前的海内 外观众
+T179	Thing-Pronoun 1629 1630	您
+T180	Thing-Pronoun 1636 1637	您
+T181	Person-Name 1639 1642	孙大圣
+T182	Thing-Nominal 1650 1660	自身的花、叶、根、须
+T183	Person-Nominal 1696 1698	天女
+T184	Thing-Nominal 1699 1700	花
+T185	Person-Nominal 1706 1707	宾
+T186	Thing-Nominal 1703 1705	花篮
+T187	Thing-Nominal 1712 1714	孔雀
+T188	Thing-Nominal 1715 1716	屏
+T189	Thing-Nominal 1719 1721	天鹅
+T190	Thing-Nominal 1722 1723	翅
+T191	Thing-Nominal 1728 1730	喜鹊
+T192	Thing-Nominal 1731 1732	巢
+T193	Thing-Nominal 1735 1737	羊群
+T194	Thing-Nominal 1745 1747	金鱼
+T195	Thing-Nominal 1748 1750	水”
+T196	Thing-Nominal 1752 1754	金猴
+T197	Thing-Nominal 1755 1756	棒
+T198	Thing-Pronoun 1762 1763	您
+T199	Person-Nominal 1771 1776	我们漳州人
+T200	Location-Nominal 1779 1793	家家户户的阳台、庭院、厅堂品
+T201	Location-Nominal 1798 1803;1804 1809	宾馆、酒店 等公共场所
+T202	Person-Pronoun 1815 1817	我们
+T203	Thing-Pronoun 1819 1820	您
+T204	Thing-Nominal 1845 1856	真正的有生命的艺术珍品
+T205	Person-Nominal 1858 1864;1865 1872	电视机前20 几亿海内外观众
+T206	Time-Implicit 1873 1878	观看春晚时
+T207	Thing-Nominal 1884 1890	漳州凌波仙子
+T208	Thing-Nominal 1897 1902	漳州水仙花
+T209	Thing-Pronoun 1905 1906	您
+*	Coreference T209 T208
+T210	Person-Nominal 1909 1914	华侨、华人
+T211	Location-Nominal 1918 1928	世界各地的“唐人街”
+T212	Person-Nominal 1931 1938	祖国的美好使者
+T213	Time-Explicit 1939 1948	1988年7月1日
+T214	Organization-Name 1949 1957;1958 1961	夏威夷水仙花皇后 旅游团
+T215	Person-Nominal 1965 1969	漳州先民
+T216	Person-Nominal 1972 1974	后裔
+T217	Location-Name 1976 1979	檀香山
+T218	Metric 1979 1984	200周年
+T219	Location-Name 1988 1990	漳州
+T220	Location-Name 1994 1996	漳州
+T221	Location-Name 1998 2001	夏威夷
+T222	Thing-Nominal 2002 2007	洁白水仙花
+T223	Location-Name 2022 2024	漳州
+T224	Location-Name 2025 2030	美国檀香山
+T225	Time-Explicit 2032 2037	2013年
+T226	Thing-Nominal 2041 2045	友好城市
+T227	Thing-Pronoun 2046 2047	您
+T228	Thing-Nominal 2049 2053	凌波仙子
+*	Coreference T228 T227
+T229	Person-Nominal 2056 2061	华侨、华人
+T230	Location-Name 2065 2068	夏威夷
+T231	Metric 2068 2073	200多年
+T232	Person-Nominal 2081 2087	中美两国人民
+T233	Location-Name 2091 2094	檀香山
+T234	Location-Name 2101 2103	漳州
+T235	Location-Name 2104 2107	檀香山
+T236	Person-Nominal 2107 2111	两市人民
+T237	Organization-Nominal 2118 2122	两地政府
+T238	Person-Nominal 2135 2140;2141 2145	夏威夷的华 侨、华人
+T239	Time-Implicit 2145 2152	每年春节前四周
+T240	Thing-Nominal 2157 2160	水仙花
+T241	Person-Nominal 2163 2170	华侨、华人女孩
+T242	Person-Nominal 2172 2177	水仙花皇后
+T243	Person-Nominal 2178 2181	公主们
+T244	Thing-Nominal 2187 2191	中华服装
+T245	Thing-Nominal 2208 2211	水仙花
+T246	Person-Nominal 2218 2223	我们漳州人
+T247	Time-Implicit 2234 2239	来年的春晚
+T248	Thing-Pronoun 2246 2247	您
+T249	Thing-Nominal 2270 2274	凌波仙子
+T250	Person-Pronoun 2286 2288	我们
+T251	Person-Nominal 2294 2306	世界各地的海外侨胞和华人
+T252	Location-Name 2317 2319	漳州
+T253	Thing-Nominal 2337 2342	漳州水仙花
+T254	Thing-Nominal 2279 2285	祖国大好河山

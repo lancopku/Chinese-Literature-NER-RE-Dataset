@@ -1,0 +1,292 @@
+T1	Location-Name 0 3	长白山
+T2	Person-Pronoun 10 12	我们
+T3	Person-Nominal 51 57	热爱山水的人
+*	Coreference T2 T3
+T4	Location-Name 88 91	长白山
+T5	Location-Nominal 104 105	山
+T6	Location-Nominal 121 123	森林
+T7	Person-Nominal 131 135	专业学者
+T8	Thing-Nominal 152 154	植物
+T9	Location-Nominal 157 158	山
+R1	Located Arg1:T8 Arg2:T9	
+T10	Location-Name 175 178	长白山
+T11	Location-Name 205 208	长白山
+T12	Time-Explicit 220 226	两万六千年前
+T13	Location-Name 229 231	吉林
+T14	Person-Nominal 235 238	安图人
+T15	Location-Name 248 253	长白山林间
+T16	Thing-Nominal 254 257	披毛犀
+T17	Thing-Nominal 258 261	东北虎
+R2	Located Arg1:T16 Arg2:T15	
+R3	Located Arg1:T17 Arg2:T15	
+T18	Thing-Pronoun 271 273	它们
+*	Coreference T18 T17 T16
+T19	Person-Nominal 275 277	自己
+*	Coreference T14 T19 T21
+T20	Location-Nominal 293 295	火山
+*	Coreference T15 T20
+T21	Person-Pronoun 296 298	他们
+T22	Person-Pronoun 303 305	他们
+T23	Person-Nominal 307 309	某人
+T24	Thing-Nominal 312 314	牙齿
+R4	Part-Whole Arg1:T24 Arg2:T23	
+T25	Time-Explicit 316 324	20世纪60年代
+T26	Person-Nominal 327 335	一名年轻考古学者
+T27	Person-Nominal 347 349	先民
+T28	Thing-Nominal 350 352	牙齿
+R5	Part-Whole Arg1:T28 Arg2:T27	
+T29	Person-Nominal 339 341;342 345	那个 年轻人
+*	Coreference T29 T26 T31
+T30	Location-Name 360 363	长白山
+T31	Person-Pronoun 373 374	他
+T32	Location-Nominal 379 381	大山
+T33	Person-Nominal 392 395	肃慎人
+T34	Location-Name 398 401	长白山
+T35	Location-Name 463 466	不咸山
+T36	Location-Name 469 472	长白山
+*	Coreference T35 T36 T40
+T37	Person-Nominal 485 495	我们古老的先民肃慎人
+T38	Time-Explicit 496 498	汉代
+T39	Thing-Pronoun 499 500	它
+T40	Location-Name 501 505	单单大岭
+T41	Location-Nominal 480 481	山
+T42	Time-Explicit 506 509	北魏时
+T43	Thing-Pronoun 510 511	它
+T44	Location-Name 514 517	徒太山
+T45	Location-Name 519 522	太皇山
+T46	Time-Explicit 524 526	唐代
+T47	Location-Name 529 532	太白山
+T48	Location-Name 535 538	长白山
+T49	Time-Explicit 542 546	辽金时代
+T50	Person-Nominal 557 560	肃慎人
+T51	Person-Name 605 608	夫余人
+T52	Person-Nominal 610 613	肃慎人
+T53	Thing-Nominal 614 616	矢石
+R6	Use Arg1:T51 Arg2:T53	
+T54	Person-Nominal 622 625	高句丽
+T55	Location-Name 635 637	中原
+T56	Person-Nominal 638 641	渤海人
+T57	Location-Nominal 649 651	东北
+T58	Person-Name 654 659	耶律阿保机
+T59	Person-Name 668 672	颜阿骨打
+T60	Person-Name 685 689	努尔哈赤
+T61	Location-Nominal 690 692	东北
+T62	Location-Name 706 709	长白山
+T63	Time-Implicit 746 750	千百年来
+T64	Location-Nominal 762 764	大山
+T65	Location-Name 781 787	长白山的顶峰
+T66	Location-Name 790 793	长白山
+T67	Location-Name 803 805	天池
+T68	Location-Nominal 812 813	山
+*	Coreference T66 T68
+T69	Location-Nominal 829 831	大山
+T70	Location-Nominal 835 837	大山
+T71	Location-Name 864 867	长白山
+T72	Location-Nominal 872 876	神灵之山
+*	Coreference T71 T72
+T73	Time-Implicit 880 884	一千年前
+T74	Location-Name 888 891	长白山
+T75	Time-Explicit 903 916	唐天宝十二年(公元753年
+T76	Person-Name 918 924	康玄宗李隆基
+T77	Person-Name 925 932	渤海文王大钦茂
+T78	Location-Name 933 936	长白山
+T79	Time-Explicit 949 961	金大定十二年(1172年
+T80	Person-Name 963 968	世宗完颜雍
+T81	Location-Name 970 973	长白山
+T82	Location-Nominal 983 987	山的北地
+T83	Location-Nominal 989 991	庙宇
+R7	Near Arg1:T83 Arg2:T82	
+T84	Time-Explicit 992 1002	明昌四年(1193年
+T85	Person-Name 1004 1008;1009 1010	章宗完颜 景
+T86	Time-Explicit 1023 1025	唐代
+T87	Time-Explicit 1029 1031	金代
+T88	Location-Name 1061 1064	长白山
+T89	Time-Explicit 1079 1083	元明两代
+T90	Location-Name 1098 1101	长白山
+T91	Person-Nominal 1109 1114	金王朝皇帝
+T92	Location-Name 1121 1124	长白山
+T93	Time-Explicit 1131 1132	清
+T94	Location-Name 1135 1138	长白山
+T95	Person-Name 1155 1168;1169 1171	清朝的祖先爱新觉罗・布库里 雍顺
+T96	Location-Name 1175 1189	长白山东坡下的“布勒瑚里池”
+T97	Location-Nominal 1190 1192	神山
+*	Coreference T94 T97
+T98	Time-Explicit 1215 1220	康熙十六年
+T99	Person-Name 1221 1229;1230 1232	清朝内大臣觉罗武 默讷
+T100	Person-Nominal 1233 1235	皇上
+R8	Social Arg1:T100 Arg2:T99	
+T101	Location-Nominal 1244 1246	东北
+T102	Location-Nominal 1249 1253	龙兴之地
+T103	Person-Pronoun 1254 1256	他们
+T104	Location-Name 1277 1281	山顶天池
+T105	Person-Name 1296 1299	武默讷
+T106	Person-Name 1301 1315	从江南流放到东北的诗人吴兆骞
+T107	Person-Name 1323 1327	康熙皇帝
+T108	Person-Nominal 1328 1333	年轻的皇帝
+*	Coreference T108 T107 T109
+T109	Person-Pronoun 1378 1379	他
+T110	Location-Name 1408 1411	长白山
+T111	Location-Name 1442 1452	吉林市西郊温德赫恩山
+T112	Person-Name 1453 1455	康熙
+T113	Location-Name 1466 1469	长白山
+T114	Person-Name 1470 1473;1474 1475	雍正皇 帝
+T115	Time-Explicit 1553 1555	八年
+T116	Person-Name 1566 1570	康熙皇帝
+T117	Location-Name 1582 1584	盛京
+T118	Location-Name 1586 1588	沈阳
+*	Coreference T118 T117
+T119	Location-Name 1593 1595	吉林
+T120	Location-Name 1629 1632	长白山
+T121	Location-Name 1642 1644	吉林
+T122	Person-Nominal 1648 1653	詹事府詹事
+T123	Person-Name 1654 1661	起居注官崔蔚林
+T124	Person-Name 1663 1668	新科进士孙
+T125	Location-Name 1692 1695	长白山
+T126	Person-Nominal 1726 1730	古塔将军
+T127	Person-Nominal 1734 1739	吉林将军)
+*	Coreference T126 T127
+T128	Location-Name 1740 1743	吉林城
+T129	Person-Nominal 1759 1761	官员
+T130	Location-Name 1772 1775	长白山
+T131	Time-Explicit 1789 1803	康熙二十三年(1684年)冬
+T132	Location-Name 1808 1810	台湾
+T133	Organization-Nominal 1816 1818	朝廷
+T134	Person-Name 1829 1832;1833 1842	内阁学 士兼礼部侍郎范承勋
+T135	Location-Name 1846 1849	长白山
+T136	Time-Explicit 1850 1864	康熙三十五年(1696年)春
+T137	Person-Nominal 1865 1867	皇帝
+T138	Location-Name 1872 1875	噶尔丹
+T139	Person-Name 1880 1887	宗人府丞刘元慧
+T140	Location-Name 1889 1892	长白山
+T141	Location-Name 1901 1905	松花江畔
+T142	Location-Name 1906 1909	小白山
+T143	Location-Name 1897 1900	吉林城
+R9	Part-Whole Arg1:T141 Arg2:T143	
+R10	Part-Whole Arg1:T142 Arg2:T143	
+T144	Person-Nominal 1914 1916	皇帝
+T145	Person-Nominal 1922 1926	钦差大臣
+T146	Person-Nominal 1932 1936	吉林将军
+T147	Person-Name 1948 1952	康熙皇帝
+T148	Location-Name 1953 1956	长白山
+T149	Person-Nominal 1964 1970	吉林地方官员
+T150	Location-Name 1972 1975	长白山
+T151	Time-Explicit 1981 1993	康熙五十年(1711年)
+T152	Person-Name 1994 2004	吉林打牲乌拉总管穆克
+T153	Location-Name 2006 2008;2009 2010	鸭绿 江
+T154	Location-Name 2015 2018	长白山
+T155	Person-Pronoun 2035 2036	他
+*	Coreference T155 T152 T156
+T156	Person-Nominal 2037 2050	第二个登上长白山的清朝官员
+T157	Location-Nominal 2028 2029	山
+*	Coreference T150 T157
+T158	Time-Explicit 2051 2057	光绪三十四年
+T159	Person-Name 2058 2069;2070 2071	钦差大臣东三省总督徐世 昌
+T160	Person-Nominal 2072 2078	奉天候补知县
+T161	Person-Nominal 2079 2086	奉吉勘界副委员
+T162	Person-Name 2086 2089	刘建封
+*	Coreference T162 T161 T160
+T163	Location-Name 2091 2094	长白山
+T164	Location-Name 2109 2112	长白山
+T165	Person-Name 2119 2122	刘建封
+T166	Location-Name 2124 2127	长白山
+T167	Location-Name 2130 2132	天池
+T168	Person-Name 2171 2174	刘建封
+T169	Person-Pronoun 2176 2177	他
+*	Coreference T169 T168
+T170	Person-Nominal 2202 2204	后人
+T171	Person-Pronoun 2209 2210	他
+T172	Person-Name 2216 2219	刘建封
+*	Coreference T172 T171
+T173	Location-Nominal 2272 2276	神山圣地
+T174	Location-Name 2284 2287	长白山
+*	Coreference T173 T174 T175
+T175	Location-Pronoun 2294 2295	它
+T176	Location-Name 2299 2301	泰山
+T177	Location-Name 2302 2304	黄山
+T178	Location-Name 2305 2307	庐山
+T179	Location-Name 2322 2325	长白山
+T180	Location-Name 2330 2332	关东
+R11	Part-Whole Arg1:T179 Arg2:T180	
+T181	Location-Pronoun 2333 2334	它
+T182	Location-Pronoun 2346 2347	它
+T183	Location-Nominal 2363 2365	关东
+*	Coreference T181 T179
+T184	Person-Pronoun 2374 2376	我们
+T185	Location-Name 2388 2391	长白山
+T186	Location-Name 2424 2426	关东
+T187	Location-Name 2430 2432;2433 2434	长白 山
+T188	Person-Nominal 2440 2443	关东人
+T189	Person-Nominal 2446 2449	关内人
+T190	Person-Nominal 2450 2453	海外人
+T191	Location-Pronoun 2459 2460	它
+*	Coreference T191 T187
+T192	Person-Pronoun 2469 2470	我
+T193	Location-Name 2480 2483	长白山
+T194	Time-Explicit 2501 2508	1996年夏季
+T195	Person-Pronoun 2509 2510	我
+T196	Organization-Nominal 2515 2519	著名院校
+T197	Person-Nominal 2520 2524	林业学者
+T198	Location-Name 2532 2535	长白山
+T199	Location-Name 2538 2539	山
+T200	Person-Pronoun 2541 2542	我
+T201	Person-Nominal 2558 2561	专家们
+*	Coreference T201 T197
+T202	Location-Name 2571 2574	长白山
+T203	Location-Name 2591 2594	长白山
+T204	Person-Nominal 2597 2602	所有林业人
+T205	Person-Pronoun 2611 2612	我
+T206	Location-Pronoun 2620 2621	它
+*	Coreference T206 T203
+T207	Location-Pronoun 2632 2633	它
+T208	Location-Name 2642 2644	天池
+T209	Location-Name 2646 2649	乘槎河
+T210	Location-Nominal 2652 2654	悬崖
+T211	Person-Pronoun 2674 2675	我
+T212	Location-Name 2678 2680	关东
+T213	Location-Nominal 2702 2706	原始森林
+T214	Person-Pronoun 2730 2731	我
+T215	Location-Name 2756 2757;2758 2760	长 白山
+T216	Person-Pronoun 2764 2765	我
+T217	Person-Nominal 2768 2770	自己
+*	Coreference T216 T217
+T218	Person-Pronoun 2776 2777	我
+T219	Person-Pronoun 2779 2780	我
+T220	Location-Name 2790 2793	长白山
+T221	Person-Pronoun 2804 2805	我
+T222	Location-Name 2810 2813	长白山
+T223	Person-Pronoun 2824 2825	我
+T224	Location-Nominal 2840 2844	这座大山
+*	Coreference T222 T224
+T225	Location-Name 2851 2854	长白山
+T226	Location-Name 2876 2880	吉林大地
+T227	Location-Name 2882 2884	东北
+R12	Part-Whole Arg1:T225 Arg2:T226	
+R13	Part-Whole Arg1:T226 Arg2:T227	
+T228	Location-Pronoun 2894 2895	它
+*	Coreference T228 T225
+T229	Location-Name 3007 3010	长白山
+T230	Person-Pronoun 3011 3013	我们
+T231	Person-Pronoun 3020 3022	我们
+T232	Person-Pronoun 3033 3034	我
+T233	Location-Name 3046 3049	长白山
+T234	Person-Nominal 857 859	神巫
+T235	Location-Nominal 1262 1267	崇山峻岭间
+T236	Location-Name 1507 1510	长白山
+T237	Thing-Nominal 1460 1461	坛
+T238	Location-Nominal 1528 1534	祖宗发祥圣地
+*	Coreference T236 T238
+T239	Person-Name 1493 1497	乾隆皇帝
+T240	Person-Nominal 1498 1500	臣子
+T241	Location-Nominal 1502 1504	圣殿
+R14	Social Arg1:T239 Arg2:T240	
+T242	Time-Explicit 1541 1548	公元1682年
+T243	Organization-Nominal 1609 1611	队伍
+T244	Location-Name 1614 1618	岳镇海渎
+T245	Location-Name 1624 1628	先师阙里
+T246	Location-Name 1714 1718	“长白山
+T247	Location-Name 2146 2148	辽东
+T248	Time-Implicit 2197 2199	百年
+T249	Location-Name 2961 2963	长白
+T250	Time-Explicit 3090 3100	2012年3月15日
+T251	Location-Name 3101 3103	江城
+T252	Location-Name 3113 3116	长白山

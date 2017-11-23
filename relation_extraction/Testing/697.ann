@@ -1,0 +1,207 @@
+T1	Thing-Nominal 0 2	沧海
+T2	Thing-Nominal 2 4	桑田
+T3	Person-Pronoun 10 11	您
+T4	Thing-Nominal 10 20	您那慈祥的面孔和眼睛
+R1	Part-Whole Arg1:T4 Arg2:T3	
+T5	Person-Pronoun 23 25	我们
+T6	Person-Pronoun 32 34	我们
+T7	Person-Pronoun 51 52	您
+T8	Person-Pronoun 53 55	我们
+T9	Person-Pronoun 63 65	我们
+T10	Person-Pronoun 70 71	您
+T11	Person-Pronoun 84 85	她
+T12	Person-Pronoun 92 93	你
+T13	Thing-Nominal 95 96	花
+T14	Person-Pronoun 120 121	你
+T15	Person-Pronoun 125 126	你
+T16	Person-Pronoun 141 143	我们
+T17	Person-Pronoun 155 156	您
+T18	Person-Pronoun 162 164	我们
+T19	Person-Pronoun 176 178	我们
+T20	Time-Implicit 173 175	此时
+T21	Person-Pronoun 189 191	我们
+T22	Person-Pronoun 206 208	我们
+T23	Person-Nominal 231 233	母亲
+T24	Person-Pronoun 234 235	您
+*	Coreference T24 T23
+R2	Family Arg1:T23 Arg2:T22	
+T25	Person-Pronoun 220 221	您
+T26	Person-Pronoun 241 243	我们
+T27	Person-Pronoun 246 247	您
+T28	Person-Pronoun 251 253	我们
+T29	Person-Pronoun 272 273	您
+T30	Thing-Nominal 251 258	我们离去的背影
+T31	Thing-Nominal 206 219	我们内心的毅力和自信的眼神
+R3	Create Arg1:T22 Arg2:T31	
+T32	Thing-Nominal 181 183	语言
+T33	Person-Pronoun 277 278	您
+T34	Thing-Nominal 281 284	老槐树
+T35	Person-Pronoun 287 289	我们
+T36	Time-Implicit 299 300	夜
+T37	Time-Implicit 307 309	晚上
+*	Coreference T37 T36
+T38	Thing-Nominal 306 311	，晚上的风
+T39	Thing-Nominal 324 328	您的背影
+R4	Ownership Arg1:T29 Arg2:T39	
+T40	Person-Pronoun 329 331	我们
+T41	Person-Pronoun 348 349	你
+T42	Person-Nominal 353 355	母亲
+T43	Person-Pronoun 364 365	谁
+T44	Person-Nominal 375 377	母亲
+T45	Person-Pronoun 381 382	她
+T46	Person-Pronoun 394 395	她
+T47	Person-Pronoun 404 405	她
+T48	Person-Nominal 419 421	别人
+T49	Person-Pronoun 422 423	她
+T50	Person-Nominal 441 443	别人
+T51	Person-Pronoun 444 445	她
+T52	Person-Pronoun 452 453	我
+T53	Time-Implicit 458 461	花开时
+T54	Thing-Nominal 458 459	花
+T55	Person-Pronoun 475 476	她
+T56	Person-Pronoun 479 480	她
+T57	Person-Nominal 474 482	疼她、关心她的人
+T58	Person-Pronoun 493 494	我
+T59	Person-Nominal 496 499	这种人
+R5	General-Special Arg1:T59 Arg2:T56	
+T60	Person-Pronoun 512 514	自己
+*	Coreference T60 T59
+T61	Person-Nominal 530 532	别人
+T62	Person-Pronoun 534 535	她
+T63	Person-Nominal 546 550	这样的人
+T64	Person-Nominal 553 563	有理智并让人钦佩的人
+R6	General-Special Arg1:T64 Arg2:T63	
+T65	Person-Pronoun 565 566	你
+T66	Person-Nominal 576 581	照顾你的人
+T67	Person-Pronoun 582 583	你
+T68	Person-Nominal 589 593	你的母亲
+R7	Family Arg1:T68 Arg2:T67	
+*	Coreference T66 T68
+T69	Person-Pronoun 594 595	我
+T70	Person-Nominal 596 598	小树
+T71	Person-Nominal 606 608	母亲
+T72	Person-Pronoun 611 612	她
+*	Coreference T72 T70
+T73	Thing-Nominal 611 618	她的甘露和雨水
+R8	Use Arg1:T72 Arg2:T73	
+T74	Person-Pronoun 644 646	我们
+T75	Person-Pronoun 657 659	我们
+T76	Person-Pronoun 680 682	我们
+T77	Time-Implicit 697 702;703 707	心里感到安 慰的时候
+T78	Person-Pronoun 710 712	我们
+T79	Location-Nominal 719 726	一个安静的处所
+T80	Thing-Pronoun 728 729	它
+T81	Person-Pronoun 750 752	自己
+*	Coreference T81 T78
+T82	Location-Nominal 740 742	外界
+T83	Person-Nominal 775 776	人
+T84	Thing-Pronoun 777 778	它
+T85	Thing-Pronoun 800 801	它
+T86	Thing-Pronoun 808 809	它
+T87	Thing-Pronoun 810 811	这
+T88	Person-Pronoun 814 816	我们
+T89	Person-Pronoun 831 833	我们
+T90	Person-Pronoun 866 867	我
+T91	Person-Pronoun 881 882	你
+T92	Person-Pronoun 883 884	她
+T93	Person-Pronoun 888 889	她
+T94	Person-Pronoun 891 892	你
+T95	Person-Pronoun 897 898	你
+T96	Thing-Nominal 899 905	刚开放的花朵
+T97	Thing-Nominal 913 915	月光
+T98	Person-Pronoun 923 924	她
+T99	Person-Pronoun 927 928	你
+T100	Person-Pronoun 930 931	你
+T101	Thing-Nominal 945 953	崭新的面孔和微笑
+R9	Ownership Arg1:T98 Arg2:T101	
+T102	Person-Pronoun 957 958	你
+T103	Thing-Nominal 965 971	最纯洁的微笑
+T104	Thing-Nominal 992 995	玫瑰花
+T105	Person-Pronoun 996 997	她
+T106	Person-Pronoun 1003 1004	你
+T107	Person-Pronoun 1005 1006	她
+T108	Person-Pronoun 1009 1010	她
+T109	Person-Pronoun 1024 1025	你
+T110	Person-Pronoun 1034 1035	她
+T111	Person-Pronoun 1013 1015	自己
+*	Coreference T111 T108
+T112	Person-Pronoun 1069 1070	你
+T113	Person-Pronoun 1089 1090	你
+T114	Person-Pronoun 1099 1100	她
+T115	Person-Pronoun 1107 1108	你
+T116	Person-Pronoun 1116 1117	我
+T117	Person-Pronoun 1119 1120	你
+T118	Thing-Pronoun 1200 1201	这
+T119	Person-Pronoun 1215 1216	你
+T120	Person-Pronoun 1247 1248	你
+T121	Person-Pronoun 1255 1256	你
+T122	Person-Nominal 1262 1266	你的母亲
+R10	Family Arg1:T122 Arg2:T121	
+T123	Person-Pronoun 1268 1269	我
+T124	Person-Pronoun 1275 1276	我
+T125	Person-Pronoun 1290 1291	你
+T126	Person-Pronoun 1296 1297	你
+T127	Person-Pronoun 1305 1306	我
+T128	Person-Pronoun 1307 1308	你
+T129	Person-Pronoun 1319 1320	你
+T130	Person-Nominal 1336 1337	人
+T131	Person-Pronoun 1344 1345	人
+T132	Person-Nominal 1352 1356	这样的人
+T133	Person-Pronoun 1346 1347	我
+T134	Person-Nominal 1295 1301	在你身旁的人
+T135	Person-Pronoun 1362 1363	她
+T136	Person-Pronoun 1368 1369	我
+T137	Person-Nominal 1371 1373	母亲
+T138	Thing-Nominal 1374 1379	夕阳的微光
+T139	Person-Pronoun 1387 1388	我
+T140	Person-Pronoun 1391 1393	自己
+*	Coreference T140 T139
+T141	Person-Pronoun 1398 1399	她
+T142	Person-Pronoun 1412 1413	我
+T143	Person-Pronoun 1420 1421	你
+T144	Person-Pronoun 1424 1425	我
+T145	Time-Implicit 1421 1423	如今
+T146	Person-Nominal 1424 1433	我当年认识的那个人
+T147	Person-Nominal 1437 1455	那个穿着漂亮的衣裳在玩耍的那个小女孩
+T148	Person-Pronoun 1457 1458	你
+*	Coreference T147 T146 T143
+T149	Person-Pronoun 1467 1468	我
+T150	Person-Pronoun 1475 1476	你
+T151	Person-Pronoun 1489 1490	我
+T152	Time-Implicit 1500 1502	如今
+T153	Person-Pronoun 1503 1504	你
+T154	Person-Pronoun 1508 1509	我
+T155	Person-Pronoun 1520 1521	你
+T156	Time-Implicit 1524 1527	有一天
+T157	Person-Pronoun 1527 1528	你
+T158	Location-Nominal 1531 1536	自己的舞台
+T159	Person-Pronoun 1531 1533	自己
+*	Coreference T159 T157
+T160	Person-Pronoun 1539 1541	自己
+T161	Person-Pronoun 1553 1554	我
+T162	Person-Pronoun 1563 1564	我
+T163	Thing-Nominal 1567 1568	花
+T164	Person-Pronoun 1588 1589	我
+T165	Person-Pronoun 1597 1598	我
+T166	Thing-Nominal 1601 1609;1610 1611	梦中如期绽放的花 儿
+T167	Person-Pronoun 1616 1618	我们
+T168	Person-Pronoun 1628 1630	我们
+T169	Location-Nominal 1634 1640	黑暗的角落里
+T170	Time-Implicit 1651 1653	黎明
+T171	Person-Pronoun 1663 1665	我们
+T172	Location-Nominal 1666 1669	土壤中
+T173	Thing-Nominal 1671 1673;1674 1677	有力 的臂膀
+R11	Part-Whole Arg1:T173 Arg2:T171	
+T174	Person-Pronoun 1680 1681	您
+T175	Person-Pronoun 1687 1689	我们
+T176	Person-Nominal 1687 1693	我们每一个人
+R12	Part-Whole Arg1:T176 Arg2:T175	
+T177	Thing-Nominal 1700 1703	集结号
+T178	Thing-Nominal 1729 1730	星
+T179	Thing-Nominal 1727 1728	斗
+T180	Person-Pronoun 1732 1733	您
+T181	Person-Pronoun 1735 1737	我们
+T182	Time-Implicit 1755 1757	同时
+T183	Person-Pronoun 1760 1762	我们
+T184	Person-Nominal 1765 1771	世上所有母亲
+T185	Person-Nominal 1773 1775	儿女

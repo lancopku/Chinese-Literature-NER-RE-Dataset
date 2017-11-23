@@ -1,0 +1,319 @@
+T1	Time-Explicit 0 9	2015年正月初八
+T2	Person-Pronoun 10 11	我
+T3	Person-Name 14 28	四川省摄影家协会副主席冉玉杰
+T4	Person-Name 29 47	中国国家地理杂志社特约编辑刘乾坤先生
+T5	Location-Name 54 60;61 62	小金县城美兴 镇
+T6	Thing-Nominal 66 72	国道351线
+T7	Location-Name 75 78	夹金山
+T8	Location-Name 80 82	宝兴
+T9	Location-Name 83 85	雅安
+T10	Location-Name 87 89	成都
+R1	Near Arg1:T8 Arg2:T7	
+R2	Near Arg1:T9 Arg2:T8	
+T11	Time-Implicit 90 94	当日上午
+T12	Location-Name 96 99	夹金山
+T13	Time-Implicit 94 102	翻越夹金山的时候
+T14	Location-Nominal 104 106	山顶
+T15	Thing-Nominal 108 119	奇幻如梦景般的云海景观
+R3	Located Arg1:T15 Arg2:T14	
+T16	Person-Nominal 122 124	大家
+R4	Near Arg1:T10 Arg2:T9	
+T17	Time-Explicit 135 143	2014年10月
+T18	Location-Name 144 147	小金县
+T19	Person-Name 174 177	冉主席
+T20	Time-Explicit 182 186	大年初六
+T21	Location-Name 189 191	小金
+T22	Person-Nominal 193 195;196 198	各族 群众
+T23	Time-Implicit 209 217	完成拍摄任务之后
+T24	Person-Name 218 226	组织者刘乾坤老师
+T25	Location-Name 232 235	夹金山
+T26	Thing-Nominal 248 254	夹金山的冬景
+T27	Location-Name 248 251	夹金山
+R5	Located Arg1:T26 Arg2:T27	
+T28	Person-Nominal 258 266	土生土长的小金人
+T29	Person-Pronoun 267 268	我
+T30	Thing-Nominal 269 277	夹金山的云海景观
+T31	Location-Name 269 272	夹金山
+R6	Located Arg1:T30 Arg2:T31	
+T32	Metric 294 297	二十年
+T33	Location-Name 304 308	小金境内
+T34	Thing-Nominal 309 313	自然风光
+R7	Located Arg1:T34 Arg2:T33	
+T35	Person-Nominal 337 340	摄友们
+T36	Location-Nominal 341 344	镜头里
+T37	Thing-Nominal 350 360	夹金山云海的壮美景观
+T38	Location-Name 350 353	夹金山
+R8	Located Arg1:T37 Arg2:T38	
+T39	Location-Name 371 377;378 384	交通已经十分 便捷的夹金山
+T40	Thing-Nominal 402 408	夹金云海景观
+T41	Location-Name 402 404	夹金
+R9	Located Arg1:T40 Arg2:T41	
+T42	Person-Pronoun 410 411	我
+T43	Thing-Nominal 414 416	琵琶
+T44	Thing-Nominal 418 419	面
+T45	Thing-Nominal 423 424	肩
+T46	Thing-Nominal 432 437	庐山真面目
+T47	Person-Pronoun 444 445	我
+T48	Thing-Nominal 454 457	夹金山
+T49	Thing-Name 460 463	甲金山
+T50	Location-Name 467 484	四川省阿坝藏族羌族自治州小金县南部
+R10	Located Arg1:T48 Arg2:T50	
+T51	Metric 487 492	4114米
+T52	Location-Pronoun 521 523	这里
+*	Coreference T52 T50 T59
+T53	Thing-Nominal 523 525	地势
+T54	Thing-Nominal 528 530	山岭
+T55	Thing-Nominal 533 537	重峦叠嶂
+T56	Thing-Nominal 538 540	危岩
+T57	Thing-Nominal 543 545	峭壁
+T58	Thing-Nominal 548 550	空气
+T59	Location-Nominal 560 562	当地
+T60	Location-Name 572 575	夹金山
+T61	Location-Name 577 580	夹金山
+T62	Thing-Nominal 581 583	鸟儿
+T63	Person-Nominal 587 588	人
+T64	Location-Name 595 598	夹金山
+T65	Person-Nominal 601 603	神仙
+T66	Location-Pronoun 622 624	这里
+*	Coreference T66 T61
+T67	Thing-Nominal 625 632	丰富的森林资源
+R11	Located Arg1:T67 Arg2:T66	
+R12	Located Arg1:T54 Arg2:T52	
+R13	Located Arg1:T55 Arg2:T52	
+R14	Located Arg1:T56 Arg2:T52	
+R15	Located Arg1:T57 Arg2:T52	
+R16	Located Arg1:T53 Arg2:T52	
+T68	Thing-Nominal 633 635	植被
+R17	Located Arg1:T68 Arg2:T66	
+T69	Thing-Nominal 642 645	金丝猴
+T70	Thing-Nominal 646 649	扭角羚
+T71	Thing-Nominal 650 662	国家一、二类野生保护动物
+T72	Thing-Nominal 668 680	四姑娘山景区巴郎山的云海
+T73	Location-Name 668 677	四姑娘山景区巴郎山
+R20	Located Arg1:T72 Arg2:T73	
+T74	Person-Pronoun 687 688	我
+T75	Person-Pronoun 692 693	我
+T76	Person-Pronoun 714 716	我们
+T77	Thing-Nominal 717 718	车
+T78	Location-Name 720 725	夹金山垭口
+T79	Time-Implicit 714 728	我们驱车来到夹金山垭口的时候
+T80	Person-Pronoun 745 746	我
+T81	Person-Nominal 752 753	人
+T82	Person-Nominal 761 762	人
+T83	Thing-Nominal 762 763	目
+T84	Thing-Nominal 764 765	口
+T85	Thing-Nominal 767 772	洁白的云团
+T86	Thing-Nominal 773 775	潮水
+T87	Thing-Nominal 779 783	莽莽苍山
+T88	Thing-Nominal 785 787	峰顶
+T89	Person-Nominal 800 801	人
+T90	Person-Pronoun 811 812	我
+T91	Person-Pronoun 821 823	自己
+T92	Thing-Nominal 825 829	一朵流云
+T93	Person-Nominal 831 833	大家
+T94	Location-Nominal 836 838	车上
+T95	Thing-Nominal 840 847	自己的长枪短炮
+T96	Person-Pronoun 840 842	自己
+R21	Located Arg1:T95 Arg2:T94	
+R22	Ownership Arg1:T96 Arg2:T95	
+T97	Location-Name 853 855	神山
+T98	Person-Pronoun 861 863	我们
+T99	Thing-Nominal 861 868	我们的特殊礼物
+R23	Ownership Arg1:T98 Arg2:T99	
+T100	Thing-Nominal 870 871	山
+T101	Person-Nominal 872 873	人
+T102	Thing-Nominal 874 875	峰
+T103	Location-Name 876 881	夹金山南麓
+T104	Thing-Nominal 882 892	雅安市宝兴县的硗碛乡
+R24	Located Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 894 896	山顶
+T106	Thing-Nominal 909 911	山峦
+T107	Thing-Nominal 912 914	主峰
+T108	Metric 926 930	几十公里
+T109	Time-Implicit 937 946	每到隆冬至初春时节
+T110	Thing-Nominal 958 964	乳白色的云雾
+T111	Location-Nominal 978 985	雄奇的雪山之巅
+R25	Located Arg1:T110 Arg2:T111	
+T112	Thing-Nominal 990 991;992 996	无 数的沟壑
+T113	Thing-Nominal 1009 1011	旭日
+T114	Thing-Nominal 1014 1016	云海
+T115	Thing-Nominal 1022 1024	碧波
+T116	Thing-Nominal 1030 1032	雪山
+T117	Thing-Nominal 1036 1038	蓝天
+T118	Thing-Nominal 1042 1049	一幅美丽的壮锦
+T119	Thing-Nominal 1050 1052;1053 1056	漫涌 的云潮
+T120	Thing-Nominal 1059 1061	大海
+T121	Person-Nominal 1079 1080	人
+T122	Location-Nominal 1087 1092	这高原地区
+T123	Location-Nominal 1093 1098	蔚蓝的天空
+T124	Thing-Nominal 1102 1106	一朵白云
+R26	Located Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 1121 1127	那洁白的云朵
+T126	Time-Implicit 1120 1131	当那洁白的云朵连成一片
+T127	Thing-Nominal 1161 1167	巴郎山的云海
+T128	Location-Name 1161 1164	巴郎山
+R27	Located Arg1:T127 Arg2:T128	
+T129	Person-Pronoun 1174 1176	我们
+T130	Location-Name 1182 1185	夹金山
+T131	Thing-Nominal 1185 1194	波澜壮阔的云海奇观
+R28	Located Arg1:T131 Arg2:T130	
+T132	Person-Nominal 1197 1198	人
+T133	Person-Pronoun 1206 1208	你们
+T134	Time-Implicit 1208 1210	今天
+T135	Thing-Nominal 1217 1225	(夹金山的)云海
+T136	Thing-Nominal 1237 1239	垭口
+T137	Time-Implicit 1252 1264	当我们正在忙碌拍摄的时候
+T138	Person-Pronoun 1253 1255	我们
+T139	Location-Name 1267 1269	垭口
+T140	Person-Nominal 1273 1275	青年
+T141	Person-Pronoun 1276 1278	我们
+T142	Thing-Nominal 1291 1296	一串羊肉串
+T143	Person-Pronoun 1299 1301	你们
+T144	Thing-Nominal 1306 1313	最漂亮的云海!
+T145	Person-Nominal 1315 1317	小伙
+T146	Person-Pronoun 1327 1328	我
+T147	Thing-Nominal 1333 1341	一位摄影人的照片
+T148	Person-Nominal 1333 1338	一位摄影人
+R29	Ownership Arg1:T148 Arg2:T147	
+T149	Thing-Nominal 1359 1362	羊肉串
+T150	Thing-Nominal 1369 1375	最漂亮的云海
+T151	Person-Pronoun 1379 1380	我
+T152	Person-Pronoun 1391 1393	我们
+T153	Person-Pronoun 1404 1406	我们
+T154	Location-Nominal 1412 1416	云海边上
+T155	Thing-Nominal 1419 1421	美景
+T156	Person-Name 1423 1427	乾坤老师
+T157	Location-Nominal 1435 1439	云海边际
+T158	Thing-Nominal 1441 1447	更美妙的景色
+R30	Located Arg1:T158 Arg2:T157	
+T159	Person-Pronoun 1449 1451	咱们
+T160	Person-Nominal 1453 1455	大家
+T161	Thing-Nominal 1457 1459	行头
+T162	Thing-Nominal 1463 1465	云海
+T163	Person-Nominal 1494 1497	摄影家
+T164	Thing-Nominal 1504 1509	他们的作品
+T165	Person-Pronoun 1504 1506	他们
+R31	Create Arg1:T165 Arg2:T164	
+*	Coreference T165 T163
+T166	Person-Pronoun 1518 1520	我们
+T167	Thing-Nominal 1528 1529	车
+T168	Location-Nominal 1532 1533;1534 1537	一 道山梁
+T169	Location-Nominal 1539 1541	云海
+R32	Near Arg1:T169 Arg2:T168	
+T170	Person-Nominal 1548 1550	大家
+T171	Thing-Nominal 1562 1563	车
+T172	Thing-Nominal 1564 1565	嘴
+T173	Time-Implicit 1593 1600	还在山顶的时候
+T174	Location-Nominal 1595 1597	山顶
+T175	Thing-Nominal 1601 1605	茫茫云海
+T176	Location-Nominal 1606 1610	我们脚下
+R33	Located Arg1:T175 Arg2:T176	
+T177	Person-Pronoun 1606 1608	我们
+T178	Time-Implicit 1611 1615	此时此刻
+T179	Thing-Pronoun 1616 1617	她
+*	Coreference T179 T175
+T180	Person-Pronoun 1621 1623	我们
+T181	Person-Nominal 1645 1652	身着素装的少女
+T182	Person-Nominal 1662 1663	人
+T183	Thing-Nominal 1670 1672	艳阳
+T184	Thing-Nominal 1680 1682	旭日
+T185	Location-Nominal 1691 1693	眼前
+T186	Thing-Nominal 1696 1698	云雾
+R34	Located Arg1:T186 Arg2:T185	
+T187	Thing-Nominal 1699 1712	若隐若现的雪山、森林、沟壑
+T188	Thing-Nominal 1715 1720	蔚蓝的天空
+T189	Thing-Nominal 1722 1730	数不清的精美画面
+T190	Thing-Nominal 1764 1766	祖国
+T191	Thing-Nominal 1767 1771	名山大川
+T192	Location-Name 1774 1782	革命圣山夹金山遭
+T193	Thing-Nominal 1783 1787	如此景观
+T194	Person-Name 1794 1799	冉玉杰主席
+T195	Person-Nominal 1800 1808	其他几位摄影大师
+T196	Person-Nominal 1827 1829	先烈
+T197	Thing-Nominal 1834 1836	美景
+T198	Person-Nominal 1843 1849	列位摄影大师
+T199	Thing-Nominal 1874 1881	无数精美的作品
+T200	Person-Pronoun 1883 1884	我
+T201	Location-Nominal 1899 1904	大师们身边
+T202	Person-Nominal 1899 1902	大师们
+T203	Person-Nominal 1917 1919	大家
+T204	Thing-Nominal 1934 1939	我们的汽车
+T205	Person-Pronoun 1934 1936	我们
+R35	Ownership Arg1:T205 Arg2:T204	
+T206	Thing-Nominal 1947 1952	乳白色云雾
+T207	Thing-Nominal 1958 1960	美景
+T208	Person-Nominal 1962 1966	所有人激
+T209	Person-Pronoun 1979 1980	我
+T210	Thing-Nominal 1987 1997	夹金山云海的壮丽景象
+T211	Location-Name 1987 1990	夹金山
+R36	Located Arg1:T210 Arg2:T211	
+T212	Person-Pronoun 2001 2003	我们
+T213	Location-Nominal 2013 2016	每一处
+T214	Thing-Nominal 2016 2021	美丽的景致
+R37	Located Arg1:T214 Arg2:T213	
+T215	Thing-Nominal 2022 2026	浓密云层
+T216	Thing-Nominal 2030 2038;2039 2045	森林、沟壑、雾凇 等珍贵的奇观
+T217	Person-Nominal 2054 2056	大家
+T218	Location-Name 2069 2073	夹金山脚
+T219	Time-Implicit 2077 2081	午后时光
+T220	Thing-Nominal 2085 2090	拍摄的美景
+T221	Person-Nominal 2091 2094	同车人
+T222	Location-Name 2101 2103	小金
+T223	Person-Nominal 2108 2112	小金人民
+T224	Time-Implicit 2106 2119	享受小金人民盛情款待的同时
+T225	Thing-Nominal 2124 2137	历史名山夹金山云海壮丽奇观
+T226	Location-Name 2124 2131	历史名山夹金山
+R38	Located Arg1:T225 Arg2:T226	
+T227	Person-Name 2149 2152	刘期荣
+T228	Person-Nominal 2153 2154	男
+T229	Time-Explicit 2158 2166	1965年10月
+T230	Person-Nominal 2169 2179	四川省阿坝州小金县人
+T231	Person-Nominal 2180 2189	阿坝州作家协会会员
+T232	Person-Nominal 2190 2199	四川省作家协会会员
+T233	Person-Nominal 2200 2204;2205 2218	文学季刊 《夹金山》(内部刊物)主编
+T234	Person-Nominal 2221 2223	教师
+T235	Person-Nominal 2224 2233	县委宣传部新闻干事
+T236	Person-Nominal 2237 2244	乡科级领导干部
+T237	Organization-Name 2249 2257	小金县文体广新局
+T238	Time-Implicit 2260 2267	上世界八十年代
+T239	Thing-Nominal 2278 2284	省州报刊杂志
+T240	Thing-Nominal 2287 2300	诗歌、小说、散文等文学作品
+T241	Metric 2300 2304	60余万
+T242	Abstract 2308 2319;2320 2324	散文集《圣山情结》《格 桑花开》
+T243	Thing-Nominal 2334 2337	夹金山
+T244	Thing-Nominal 2337 2359	是中国工农红军万里长征徒步翻越的第一座大雪山
+*	Coreference T244 T243 T252
+T245	Time-Implicit 2360 2362	当年
+T246	Person-Nominal 2362 2366	红军将士
+T247	Location-Name 2376 2381	夹金山南麓
+T248	Thing-Nominal 2382 2385	硗碛乡
+R39	Located Arg1:T248 Arg2:T247	
+T249	Location-Name 2389 2392	夹金山
+T250	Person-Nominal 2398 2402	四方面军
+T251	Location-Name 2416 2418	中国
+T252	Thing-Pronoun 2434 2435	它
+T253	Thing-Nominal 2452 2455;2456 2462	一座不 朽的历史丰碑
+T254	Time-Implicit 2463 2472	八十年后的隆冬时节
+T255	Person-Nominal 2475 2479	革命前辈
+T256	Person-Pronoun 2492 2493	我
+T257	Person-Nominal 2494 2497	摄友们
+T258	Thing-Nominal 2498 2499	车
+T259	Location-Name 2503 2506	夹金山
+T260	Thing-Nominal 2556 2564	一幅幅精美的画卷
+T261	Person-Nominal 2572 2574	游客
+T262	Person-Pronoun 2578 2580	我们
+T263	Location-Pronoun 2588 2590	这里
+T264	Time-Implicit 2590 2594	春夏时节
+T265	Thing-Nominal 2595 2597	山花
+T266	Time-Implicit 2600 2602	秋季
+T267	Thing-Nominal 2603 2605	层林
+T268	Thing-Nominal 2613 2621	其广袤的原始森林
+T269	Thing-Nominal 2624 2638;2639 2654	那栖居丛林的金丝猴、扭角羚羊 、牛羚、马鹿、红腹锦鸡、野画眉
+T270	Thing-Nominal 2655 2667	国家一、二类野生保护动物
+R40	Part-Whole Arg1:T269 Arg2:T270	
+T271	Person-Nominal 2669 2670	人
+T272	Thing-Nominal 2674 2678	夹金云海
+T273	Person-Pronoun 2692 2694	我们
+T274	Person-Pronoun 2707 2709	自己
+R18	Part-Whole Arg1:T69 Arg2:T71	
+R19	Part-Whole Arg1:T70 Arg2:T71	

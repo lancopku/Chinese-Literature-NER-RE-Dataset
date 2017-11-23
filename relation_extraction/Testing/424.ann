@@ -1,0 +1,38 @@
+T1	Thing-Nominal 5 8	五猖庙
+T2	Thing-Nominal 12 16	五猖庙会
+T3	Thing-Nominal 23 30	石板道地、戏台
+T4	Location-Nominal 20 22	庙前
+R1	Located Arg1:T3 Arg2:T4	
+T5	Location-Nominal 52 53	乡
+T6	Person-Nominal 55 58	烂柯人
+T7	Person-Name 60 63	刘禹锡
+T8	Person-Name 64 67	白乐天
+T9	Person-Pronoun 71 72	我
+T10	Time-Implicit 70 82	当我离乡数载后重返故地时
+T11	Location-Nominal 73 74	乡
+T12	Thing-Nominal 79 81	故地
+T13	Thing-Nominal 88 90	庙宇
+T14	Thing-Nominal 93 97	旧街老屋
+T15	Thing-Nominal 101 102;103 112	清 澈的运河和座座石桥
+T16	Person-Nominal 125 127	人们
+T17	Thing-Pronoun 128 129	它
+T18	Thing-Pronoun 136 137	它
+*	Coreference T18 T12
+T19	Person-Name 147 150	陈冲范
+T20	Person-Name 152 155	陈冲范
+T21	Time-Explicit 158 163;164 166	1940年 6月
+T22	Person-Nominal 173 183	浙江省书法家协会会员
+T23	Location-Name 170 172	上虞
+T24	Metric 186 190	三十余年
+T25	Thing-Nominal 209 215	历代名家碑帖
+T26	Abstract 259 272	《论临帖的“通”与“变”》
+T27	Abstract 273 279	《书法语言》
+T28	Abstract 280 285;286 296	《师范院校 书法课基本框架构想》
+T29	Abstract 297 305	《书法技法教学》
+T30	Time-Explicit 314 319	2000年
+T31	Organization-Nominal 320 324	师范院校
+T32	Time-Implicit 324 327	退休后
+T33	Location-Name 330 332	杭州
+T34	Person-Nominal 335 345	杭州明圣书画院副院长
+T35	Person-Nominal 347 358	杭州民进书画院高级画师
+T36	Person-Name 230 233	陈冲范

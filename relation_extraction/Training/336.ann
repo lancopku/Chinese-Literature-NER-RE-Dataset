@@ -1,0 +1,587 @@
+T1	Person-Name 0 6	重庆姑娘石会
+T2	Time-Implicit 6 11	初中毕业后
+T3	Location-Name 14 16	沈阳
+T4	Time-Implicit 19 22	6月底
+T5	Person-Pronoun 23 24	她
+*	Coreference T5 T1 T13 T17
+T6	Location-Name 27 32	沈阳房山区
+R1	Part-Whole Arg1:T6 Arg2:T3	
+T7	Organization-Nominal 33 38	一个制衣厂
+T8	Thing-Nominal 42 44	厂房
+R2	Ownership Arg1:T7 Arg2:T8	
+T9	Person-Pronoun 50 51	她
+T10	Location-Nominal 53 55	老家
+T11	Metric 58 60;61 63	一段 时间
+T12	Time-Implicit 65 69	7月5日
+T13	Person-Name 70 72	石会
+T14	Thing-Nominal 76 85	当天的《重庆晚报》
+R3	Use Arg1:T13 Arg2:T14	
+T15	Person-Name 92 100	8岁留守儿童军军
+T16	Person-Nominal 105 109	打工父母
+R4	Family Arg1:T15 Arg2:T16	
+T17	Person-Name 122 125;126 129	动感情 的石会
+T18	Thing-Nominal 133 135	眼泪
+R5	Create Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 136 137	她
+T20	Person-Name 139 142	小军军
+T21	Person-Nominal 147 148	母
+R6	Family Arg1:T20 Arg2:T21	
+T22	Person-Nominal 159 163	打工父母
+T23	Person-Nominal 164 168	留守儿女
+R7	Family Arg1:T22 Arg2:T23	
+T24	Person-Name 180 182	石会
+T25	Person-Nominal 192 196	留守儿童
+T26	Person-Pronoun 190 192	哪个
+T27	Time-Implicit 188 190	现在
+T28	Person-Nominal 199 206	在外打工的父母
+*	Coreference T28 T22 T30
+R8	Family Arg1:T28 Arg2:T25	
+T29	Person-Pronoun 209 211	哪对
+T30	Person-Nominal 211 215	打工夫妻
+T31	Person-Nominal 218 226	家中的“小宝贝”
+*	Coreference T31 T25
+T32	Person-Pronoun 227 228	我
+*	Coreference T32 T24
+T33	Person-Pronoun 234 236	他们
+T34	Person-Nominal 159 168	打工父母和留守儿女
+*	Coreference T33 T34
+T35	Person-Nominal 261 267	石会远房表哥
+T36	Person-Pronoun 268 269	她
+T37	Person-Name 261 263	石会
+*	Coreference T36 T37 T47
+R9	Family Arg1:T35 Arg2:T37	
+T38	Person-Pronoun 275 276	我
+*	Coreference T38 T35 T53
+T39	Person-Nominal 276 280	独生儿子
+R10	Family Arg1:T39 Arg2:T38	
+T40	Time-Implicit 285 287	现在
+T41	Person-Pronoun 287 288	他
+*	Coreference T41 T39 T52 T56 T65
+T42	Person-Pronoun 291 292	我
+T43	Location-Name 300 302	沈阳
+T44	Person-Pronoun 303 305	我们
+R11	Part-Whole Arg1:T42 Arg2:T44	
+T45	Person-Nominal 306 308;309 312	我和 你表嫂
+*	Coreference T44 T45 T54
+T46	Person-Pronoun 317 318	他
+T47	Person-Pronoun 321 322	你
+T48	Person-Pronoun 328 329	他
+T49	Metric 337 342	十多个小时
+T50	Time-Implicit 346 351	第二天上午
+T51	Person-Pronoun 352 353	她
+T52	Person-Nominal 356 361	表哥的儿子
+T53	Person-Nominal 356 358	表哥
+T54	Person-Nominal 364 368	表哥夫妻
+T55	Person-Nominal 373 377	表哥夫妻
+T56	Person-Nominal 379 388	阔别半年之久的儿子
+T57	Time-Implicit 397 403	当天吃午饭时
+T58	Person-Nominal 404 406	表哥
+T59	Person-Name 410 412	石会
+T60	Metric 425 429	300元
+T61	Person-Name 435 437	石会
+T62	Person-Nominal 443 445	表哥
+T63	Person-Pronoun 451 452	她
+T64	Person-Pronoun 461 463	我们
+T65	Person-Nominal 468 470	孩子
+T66	Metric 480 484	300元
+T67	Person-Nominal 487 489	老板
+R12	Social Arg1:T67 Arg2:T64	
+T68	Person-Pronoun 499 500	你
+T69	Time-Implicit 512 516	那天晚上
+T70	Person-Name 517 519	石会
+T71	Person-Nominal 528 530	表哥
+T72	Thing-Nominal 528 537	表哥给的300元钱
+T73	Person-Pronoun 538 539	她
+*	Coreference T73 T70
+T74	Thing-Nominal 542 553	《重庆晚报》的那篇报道
+T75	Person-Pronoun 561 562	她
+T76	Person-Pronoun 567 568	我
+T77	Person-Nominal 570 572;573 575	这些 老乡
+T78	Location-Name 580 582	沈阳
+T79	Thing-Nominal 587 590	劳务费
+T80	Time-Implicit 606 609	第二天
+T81	Person-Name 610 612	石会
+T82	Organization-Nominal 635 640	各航空公司
+T83	Thing-Nominal 642 652	“儿童特快专递”业务
+T84	Thing-Nominal 654 658	这项业务
+*	Coreference T84 T83
+T85	Location-Nominal 660 666;667 671	建有飞机场的 各大城市
+T86	Location-Nominal 676 680	普通城市
+T87	Location-Nominal 683 688	偏僻的县城
+R13	General-Special Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 697 701	这项业务
+T89	Person-Nominal 709 711	老乡
+T90	Person-Nominal 713 715	孩子
+R14	Family Arg1:T89 Arg2:T90	
+T91	Time-Implicit 723 728	第二天晚上
+T92	Person-Name 729 731	石会
+T93	Person-Nominal 733 735	表哥
+T94	Person-Nominal 739 741	表哥
+T95	Person-Pronoun 746 747	她
+*	Coreference T95 T92 T106
+T96	Person-Pronoun 750 752	我们
+T97	Location-Name 752 754	铜梁
+T98	Location-Nominal 756 760	打工大县
+R15	General-Special Arg1:T98 Arg2:T97	
+T99	Metric 761 764;765 768	80多 万人口
+T100	Metric 770 775	10多万人
+T101	Person-Nominal 781 790	在外面打工的的父母
+T102	Person-Nominal 792 794	儿女
+R16	Family Arg1:T101 Arg2:T102	
+T103	Person-Nominal 796 798	儿女
+T104	Person-Nominal 800 802	父母
+*	Coreference T103 T102 T107 T111
+*	Coreference T104 T101 T108 T109 T110 T115 T117
+R17	Family Arg1:T103 Arg2:T104	
+T105	Person-Pronoun 813 814	我
+*	Coreference T105 T94
+T106	Person-Pronoun 816 817	你
+T107	Person-Nominal 818 824	那些留守儿童
+T108	Person-Nominal 826 832	他们的的父母
+T109	Person-Nominal 842 846	打工父母
+T110	Person-Pronoun 848 850	自己
+T111	Person-Nominal 853 855	孩子
+T112	Person-Nominal 861 863	孩子
+T113	Person-Nominal 893 895	老板
+R18	Social Arg1:T113 Arg2:T109	
+T114	Person-Name 905 907	石会
+T115	Person-Nominal 913 917	那些父母
+T116	Person-Nominal 919 921	孩子
+T117	Person-Pronoun 926 928	他们
+T118	Person-Nominal 929 931	孩子
+T119	Person-Name 935 937	石会
+T120	Person-Pronoun 943 944	她
+*	Coreference T120 T119
+T121	Person-Name 974 976	石会
+T122	Person-Nominal 979 981	表哥
+T123	Person-Pronoun 982 983	她
+T124	Person-Nominal 995 997	老乡
+T125	Person-Nominal 999 1001	孩子
+T126	Person-Nominal 1008 1010	客户
+R19	Social Arg1:T126 Arg2:T123	
+R20	Social Arg1:T121 Arg2:T124	
+R21	General-Special Arg1:T115 Arg2:T124	
+T127	Metric 1015 1017	一趟
+T128	Metric 1019 1023	300元
+T129	Person-Pronoun 1024 1025	她
+T130	Location-Name 1031 1034	房山区
+*	Coreference T130 T6
+T131	Person-Nominal 1030 1034;1035 1050	在房山区 附近打工、且有孩子在老家的老乡
+T132	Person-Nominal 1068 1072	这些老乡
+*	Coreference T132 T131 T135
+T133	Person-Nominal 1077 1079	孩子
+R22	Family Arg1:T133 Arg2:T132	
+T134	Location-Name 1080 1082	沈阳
+T135	Person-Nominal 1091 1094	老乡们
+T136	Person-Nominal 1100 1102	孩子
+T137	Person-Name 1096 1098	石会
+T138	Person-Pronoun 1121 1122	她
+*	Coreference T138 T137
+T139	Person-Nominal 1152 1153	人
+T140	Person-Nominal 1168 1170	孩子
+T141	Person-Nominal 1182 1184	孩子
+T142	Person-Pronoun 1178 1179	她
+T143	Person-Pronoun 1172 1173	她
+T144	Person-Pronoun 1200 1202	石会
+T145	Person-Pronoun 1214 1215	她
+T146	Person-Nominal 1230 1235	很熟悉的人
+T147	Person-Nominal 1236 1238	别人
+R23	Social Arg1:T146 Arg2:T147	
+T148	Person-Nominal 1242 1244	孩子
+R24	Family Arg1:T148 Arg2:T147	
+T149	Person-Pronoun 1249 1250	你
+*	Coreference T149 T146
+T150	Person-Nominal 1256 1258	别人
+T151	Person-Nominal 1278 1280	客户
+T152	Metric 1288 1290	两天
+T153	Person-Pronoun 1292 1293	她
+T154	Location-Name 1308 1310	沈阳
+T155	Person-Nominal 1307 1315	在沈阳打工的亲友
+R25	Family Arg1:T155 Arg2:T153	
+T156	Person-Pronoun 1325 1327	自己
+*	Coreference T156 T153
+T157	Person-Pronoun 1333 1335	自己
+T158	Person-Nominal 1336 1341	熟悉的老乡
+R26	Social Arg1:T158 Arg2:T157	
+T159	Person-Name 1352 1354	石会
+T160	Metric 1356 1360	几天时间
+T161	Person-Nominal 1365 1375	一些在沈阳打工的亲友
+R27	Part-Whole Arg1:T155 Arg2:T161	
+T162	Person-Pronoun 1378 1380	他们
+*	Coreference T162 T161
+T163	Person-Pronoun 1388 1389	她
+T164	Person-Pronoun 1392 1394	自己
+T165	Time-Implicit 1400 1403	7月底
+T166	Metric 1408 1409;1410 1413	半 个多月
+T167	Person-Name 1415 1417	石会
+T168	Time-Implicit 1428 1430	那天
+T169	Time-Implicit 1405 1409;1410 1414	忙碌了半 个多月后
+*	Coreference T169 T168
+T170	Person-Pronoun 1431 1432	她
+T171	Location-Name 1433 1435	沈阳
+T172	Organization-Nominal 1435 1440	一家服装厂
+T173	Person-Nominal 1442 1446	几个老乡
+T174	Person-Name 1450 1458	一个叫廖峰的老乡
+R28	Part-Whole Arg1:T174 Arg2:T173	
+T175	Person-Pronoun 1459 1460	她
+R29	Social Arg1:T174 Arg2:T175	
+R30	Social Arg1:T173 Arg2:T175	
+T176	Organization-Nominal 1463 1468	一家服装厂
+T177	Metric 1471 1473	两年
+T178	Person-Nominal 1473 1475	同事
+T179	Person-Name 1477 1479	石会
+T180	Person-Name 1485 1487	廖峰
+*	Coreference T180 T174
+T181	Person-Pronoun 1490 1491	她
+T182	Person-Nominal 1492 1497	自己的儿子
+R31	Family Arg1:T182 Arg2:T180	
+T183	Person-Name 1505 1507	廖峰
+T184	Location-Name 1499 1501	沈阳
+T185	Person-Name 1512 1514	石会
+T186	Time-Implicit 1514 1518	当天晚上
+T187	Thing-Nominal 1522 1528	回老家的火车
+R32	Use Arg1:T185 Arg2:T187	
+T188	Time-Implicit 1529 1531;1532 1535	第二 天上午
+T189	Location-Nominal 1539 1551	位于铜梁县福果镇的廖峰家
+T190	Person-Pronoun 1552 1553	她
+T191	Person-Nominal 1555 1559	廖峰父母
+R33	Family Arg1:T191 Arg2:T180	
+T192	Person-Name 1562 1564	廖峰
+T193	Thing-Nominal 1572 1574	手机
+R34	Use Arg1:T190 Arg2:T193	
+T194	Person-Name 1577 1579	廖峰
+T195	Thing-Nominal 1577 1582	廖峰的电话
+R35	Ownership Arg1:T194 Arg2:T195	
+T196	Person-Name 1584 1586	廖峰
+T197	Person-Nominal 1589 1591	老人
+*	Coreference T197 T191
+T198	Person-Pronoun 1597 1598	她
+T199	Person-Nominal 1603 1608	廖峰的父母
+T200	Person-Pronoun 1617 1618	她
+T201	Time-Implicit 1620 1623	第三天
+T202	Person-Name 1624 1626	廖峰
+T203	Person-Nominal 1628 1635	自己9岁的儿子
+*	Coreference T203 T182
+T204	Person-Name 1643 1645	石会
+T205	Metric 1645 1649	300元
+T206	Person-Name 1662 1664	石会
+T207	Person-Nominal 1682 1690	在沈阳打工的舅舅
+R36	Family Arg1:T207 Arg2:T206	
+T208	Person-Name 1692 1694	石会
+T209	Person-Pronoun 1700 1701	她
+T210	Person-Pronoun 1703 1705	自己
+*	Coreference T210 T207
+T211	Person-Nominal 1703 1712	自己的一个本村乡亲
+R37	Social Arg1:T211 Arg2:T207	
+T212	Person-Nominal 1713 1716	其女儿
+R38	Family Arg1:T212 Arg2:T211	
+T213	Location-Name 1719 1721	沈阳
+T214	Metric 1734 1740	短短的十多天
+T215	Person-Name 1742 1744	石会
+T216	Person-Nominal 1746 1748	老乡
+T217	Person-Nominal 1750 1754	6个孩子
+R39	Family Arg1:T217 Arg2:T216	
+T218	Time-Implicit 1760 1763	8月底
+T219	Person-Pronoun 1764 1765	她
+T220	Person-Nominal 1767 1771	这些孩子
+*	Coreference T220 T217
+T221	Location-Nominal 1775 1777	老家
+T222	Time-Implicit 1784 1787	这个月
+T223	Person-Pronoun 1788 1789	她
+T224	Time-Implicit 1800 1804	她打工时
+T225	Person-Name 1816 1818	石会
+T226	Person-Nominal 1823 1831	在老家读书的孩子
+T227	Time-Implicit 1836 1839	9月份
+T228	Person-Pronoun 1843 1844	她
+T229	Time-Implicit 1856 1861	国庆黄金周
+T230	Person-Pronoun 1862 1863	她
+T231	Time-Implicit 1872 1879	10月底的一天
+T232	Person-Nominal 1880 1891	一个在房山区打工的老乡
+T233	Person-Pronoun 1893 1894	她
+R40	Social Arg1:T232 Arg2:T233	
+T234	Person-Nominal 1901 1904	我儿子
+R41	Family Arg1:T234 Arg2:T232	
+T235	Person-Pronoun 1901 1902	我
+*	Coreference T235 T232 T253 T261
+T236	Metric 1909 1912	5周岁
+T237	Person-Pronoun 1914 1915	我
+T238	Person-Nominal 1916 1918	妻子
+T239	Person-Nominal 1914 1918	我和妻子
+T240	Person-Pronoun 1920 1921	他
+R42	Family Arg1:T240 Arg2:T239	
+*	Coreference T240 T234
+T241	Person-Pronoun 1928 1929	你
+T242	Person-Pronoun 1934 1936	我们
+*	Coreference T242 T239
+T243	Person-Pronoun 1937 1938	他
+T244	Person-Nominal 1944 1947	我儿子
+T245	Person-Pronoun 1952 1953	你
+T246	Person-Pronoun 1964 1965	我
+T247	Person-Pronoun 1896 1897	她
+*	Coreference T245 T247
+T248	Person-Pronoun 1969 1970	你
+T249	Person-Name 1974 1976	石会
+T250	Person-Nominal 1982 1986	学龄儿童
+R43	General-Special Arg1:T250 Arg2:T244	
+T251	Person-Pronoun 1998 1999	她
+T252	Person-Pronoun 2008 2009	她
+T253	Person-Nominal 2020 2024	这个老乡
+T254	Person-Nominal 2020 2027	这个老乡的儿子
+*	Coreference T254 T244 T259
+T255	Thing-Nominal 2033 2035	火车
+T256	Thing-Nominal 2040 2042	车厢
+R44	Part-Whole Arg1:T256 Arg2:T255	
+T257	Person-Name 2048 2050	石会
+T258	Person-Pronoun 2065 2066	她
+T259	Person-Nominal 2072 2076	这小家伙
+T260	Location-Name 2082 2085	房山区
+T261	Person-Nominal 2099 2103	那个老乡
+T262	Person-Pronoun 2116 2117	她
+T263	Thing-Nominal 2131 2138	一顿丰盛的饭菜
+T264	Person-Pronoun 2140 2141	她
+T265	Person-Nominal 2148 2153	学龄前儿童
+*	Coreference T265 T250
+T266	Person-Name 2159 2161	石会
+T267	Person-Nominal 2178 2183	学龄前儿童
+T268	Person-Pronoun 2188 2189	她
+T269	Metric 2207 2211	500元
+T270	Metric 2222 2226	800元
+T271	Person-Nominal 2233 2235	孩子
+T272	Person-Name 2241 2243	石会
+T273	Time-Implicit 2265 2267	一天
+T274	Person-Name 2268 2270	石会
+T275	Person-Name 2272 2281	一个叫李忠民的老乡
+T276	Person-Nominal 2282 2284	孩子
+R45	Family Arg1:T276 Arg2:T275	
+T277	Person-Nominal 2290 2296	李忠民的父母
+R46	Family Arg1:T277 Arg2:T275	
+T278	Person-Nominal 2309 2311	孙子
+*	Coreference T278 T276
+R47	Family Arg1:T278 Arg2:T277	
+T279	Person-Name 2313 2315	石会
+T280	Person-Name 2318 2321	李忠民
+*	Coreference T280 T275 T284
+T281	Person-Nominal 2322 2324	父母
+*	Coreference T281 T277 T282 T283
+R48	Family Arg1:T281 Arg2:T280	
+T282	Person-Nominal 2334 2336	老人
+T283	Person-Pronoun 2341 2342	我
+*	Coreference T279 T285
+T285	Person-Nominal 2362 2366	一个外人
+T284	Person-Pronoun 2348 2349	你
+T286	Person-Nominal 2375 2379	你们夫妻
+T287	Person-Pronoun 2387 2388	我
+T288	Person-Nominal 2392 2394	亲戚
+R49	Social Arg1:T288 Arg2:T287	
+T289	Person-Nominal 2395 2397	孩子
+T290	Person-Name 2413 2415	石会
+T291	Person-Nominal 2422 2424	别人
+T292	Person-Pronoun 2429 2430	她
+T293	Person-Name 2445 2447	石会
+T294	Person-Nominal 2453 2463	一个不满5岁的小女孩
+T295	Location-Nominal 2464 2466	老家
+T296	Location-Name 2467 2469	沈阳
+T297	Time-Implicit 2452 2470	带一个不满5岁的小女孩从老家来沈阳时
+T298	Person-Nominal 2473 2475	别人
+T299	Person-Nominal 2479 2482	人贩子
+T300	Time-Implicit 2483 2489	那天上火车后
+T301	Person-Nominal 2490 2494	小女孩儿
+*	Coreference T301 T294
+T302	Person-Nominal 2506 2508	乘警
+T303	Person-Nominal 2521 2525	小女孩儿
+T304	Person-Pronoun 2526 2527	谁
+T305	Person-Nominal 2531 2533	乘警
+T306	Person-Name 2535 2537	石会
+T307	Person-Nominal 2539 2546	小女孩儿的家人
+R50	Family Arg1:T307 Arg2:T303	
+T308	Person-Nominal 2551 2555	小女孩儿
+T309	Person-Name 2559 2561	石会
+T310	Person-Nominal 2563 2567	小女孩儿
+T311	Person-Pronoun 2571 2572	我
+*	Coreference T311 T310
+T312	Person-Nominal 2575 2579	这个阿姨
+*	Coreference T312 T309 T313
+T313	Person-Pronoun 2587 2588	她
+T314	Person-Nominal 2591 2595	爷爷奶奶
+T315	Person-Pronoun 2589 2590	我
+R51	Family Arg1:T314 Arg2:T311	
+T316	Person-Name 2605 2607	石会
+T317	Person-Nominal 2612 2614	乘警
+T318	Person-Pronoun 2618 2619	她
+T319	Person-Nominal 2620 2622;2623 2629	拐卖 儿童的人贩子
+R52	General-Special Arg1:T299 Arg2:T319	
+T320	Person-Nominal 2630 2635	周围的乘客
+T321	Person-Pronoun 2645 2646	她
+T322	Person-Name 2652 2654	石会
+T323	Person-Nominal 2655 2659	小女孩儿
+T324	Thing-Nominal 2660 2662	餐车
+T325	Thing-Nominal 2668 2670	车厢
+T326	Person-Nominal 2668 2677	车厢里看热闹的乘客
+T327	Person-Name 2685 2687	石会
+T328	Location-Name 2697 2699	广州
+T329	Person-Nominal 2701 2703	乘警
+T330	Person-Pronoun 2707 2708	好
+*	Coreference T330 T327
+T331	Location-Nominal 2711 2717	火车站派出的
+T332	Person-Nominal 2720 2726	这个小女孩儿
+*	Coreference T332 T323
+T333	Person-Nominal 2720 2729	这个小女孩儿的父亲
+R53	Family Arg1:T333 Arg2:T332	
+T334	Thing-Nominal 2731 2744;2745 2747	户口本、独生子女证等相关的 证明
+R54	Ownership Arg1:T333 Arg2:T334	
+T335	Location-Nominal 2748 2751	派出所
+*	Coreference T331 T335
+T336	Person-Name 2752 2754	石会
+T337	Time-Implicit 2775 2777	此后
+T338	Person-Name 2778 2780	石会
+T339	Person-Nominal 2783 2791	那些懵懂的小孩儿
+R55	General-Special Arg1:T339 Arg2:T333	
+T340	Person-Nominal 2796 2799	委托人
+T341	Thing-Nominal 2801 2804	委托书
+R56	Create Arg1:T340 Arg2:T341	
+T342	Person-Pronoun 2807 2809	他们
+*	Coreference T340 T342
+T343	Person-Nominal 2811 2813	孩子
+R57	Family Arg1:T343 Arg2:T342	
+T344	Thing-Nominal 2814 2818	一些资料
+T345	Thing-Nominal 2820 2827;2828 2833	出生证明、户口 的复印件等
+*	Coreference T345 T344
+T346	Person-Nominal 2860 2861	孩
+T347	Thing-Nominal 2879 2888;2889 2900	一些玩具以及治疗晕 车、感冒和腹泻的常用药
+T348	Person-Nominal 2909 2911	孩子
+T349	Person-Nominal 2925 2931	那些打工夫妻
+T350	Person-Nominal 2932 2934	儿女
+R58	Family Arg1:T350 Arg2:T349	
+T351	Person-Name 2942 2944	石会
+T352	Person-Pronoun 2956 2958	自己
+T353	Person-Nominal 2972 2974	孩子
+T354	Person-Name 2987 2989	石会
+T355	Person-Nominal 2999 3002	委托人
+R59	Social Arg1:T355 Arg2:T354	
+T356	Person-Pronoun 3012 3013	她
+T357	Person-Pronoun 3019 3021	自己
+*	Coreference T357 T356 T352 T351
+T358	Person-Pronoun 3035 3037	自己
+T359	Thing-Nominal 3035 3041	自己的身份证
+R60	Ownership Arg1:T358 Arg2:T359	
+T360	Person-Nominal 3046 3049	委托人
+T361	Person-Nominal 3052 3054	委托
+T362	Person-Pronoun 3063 3064	她
+T363	Person-Name 3076 3078	石会
+T364	Time-Implicit 3099 3106	第二年下半年时
+T365	Person-Name 3107 3108	她
+T366	Person-Nominal 3116 3121	四五个孩子
+T367	Metric 3130 3135	3000元
+T368	Person-Name 3147 3149	石会
+T369	Person-Pronoun 3157 3159	自己
+T370	Person-Pronoun 3166 3167	她
+T371	Person-Nominal 3184 3191	两个以上的孩子
+T372	Person-Pronoun 3197 3198	她
+T373	Person-Pronoun 3212 3213	她
+T374	Person-Nominal 3217 3222	多个委托人
+T375	Location-Name 3227 3229	沈阳
+T376	Person-Nominal 3230 3232	孩子
+T377	Location-Nominal 3237 3241	老家那边
+T378	Person-Nominal 3243 3248	另外的孩子
+T379	Location-Name 3249 3251	广州
+T380	Person-Nominal 3274 3277	委托人
+T381	Person-Name 3294 3295	她
+T382	Person-Nominal 3289 3293	一个孩子
+T383	Person-Nominal 3305 3312	这个孩子的家长
+R61	Family Arg1:T383 Arg2:T382	
+T384	Person-Pronoun 3316 3317	她
+T385	Person-Nominal 3331 3335	多个家长
+T386	Location-Name 3342 3344	沈阳
+T387	Location-Name 3345 3347	铜梁
+T388	Metric 3354 3359	500多元
+T389	Person-Nominal 3362 3371	收入不高的打工家庭
+T390	Time-Implicit 3394 3396	暑假
+T391	Person-Name 3397 3399	石会
+T392	Person-Pronoun 3408 3409	她
+T393	Person-Nominal 3414 3421	两个以上的孩子
+T394	Location-Name 3422 3423	京
+T395	Time-Implicit 3426 3430	8月下旬
+T396	Person-Pronoun 3431 3432	她
+T397	Person-Nominal 3436 3443	三五成群的孩子
+T398	Location-Name 3444 3446	铜梁
+T399	Person-Pronoun 3453 3454	她
+T400	Person-Nominal 3459 3464	14个孩子
+T401	Location-Nominal 3465 3467	老家
+T402	Time-Implicit 3468 3472	这个暑假
+T403	Person-Pronoun 3473 3474	她
+T404	Metric 3476 3480	2万多元
+T405	Person-Name 3484 3486	石会
+T406	Location-Name 3500 3502	铜梁
+T407	Location-Name 3503 3505	沈阳
+T408	Person-Nominal 3500 3511	铜梁到沈阳打工的老乡们
+T409	Person-Nominal 3512 3514	儿女
+R62	Family Arg1:T409 Arg2:T408	
+R63	General-Special Arg1:T408 Arg2:T349	
+T410	Person-Nominal 3519 3523	有的老乡
+R64	General-Special Arg1:T408 Arg2:T410	
+T411	Person-Name 3530 3532	石会
+T412	Person-Nominal 3534 3539	自己的孩子
+R65	Family Arg1:T410 Arg2:T412	
+T413	Person-Pronoun 3546 3547	她
+T414	Person-Nominal 3562 3569	经济困难的老乡
+T415	Person-Name 3571 3573	石会
+T416	Person-Pronoun 3577 3579	他们
+T417	Person-Nominal 3588 3592	一个老乡
+T418	Person-Pronoun 3586 3587	她
+T419	Person-Nominal 3594 3596	孩子
+T420	Person-Nominal 3598 3603;3604 3609	一个30多 岁的女老乡
+T421	Person-Pronoun 3615 3616	她
+T422	Person-Nominal 3624 3629	这个女老乡
+T423	Person-Nominal 3630 3634	单亲母亲
+R66	General-Special Arg1:T423 Arg2:T422	
+T424	Person-Pronoun 3635 3636	她
+T425	Person-Nominal 3637 3639	孩子
+R67	Family Arg1:T425 Arg2:T424	
+T426	Location-Nominal 3641 3643	娘家
+T427	Location-Name 3646 3648	沈阳
+T428	Metric 3655 3659	八九百元
+T429	Person-Pronoun 3665 3666	她
+T430	Person-Nominal 3671 3673	别人
+T431	Person-Name 3676 3678	石会
+T432	Person-Nominal 3679 3684	自己的孩子
+*	Coreference T432 T425 T436
+T433	Location-Name 3685 3687	沈阳
+T434	Person-Pronoun 3702 3703	她
+T435	Person-Name 3708 3710	石会
+T436	Person-Nominal 3718 3722	她的孩子
+T437	Person-Pronoun 3737 3738	她
+*	Coreference T437 T429 T422 T420 T424
+T438	Person-Name 3750 3752	石会
+T439	Person-Name 3773 3775	石会
+T440	Time-Implicit 3791 3793	一天
+T441	Person-Nominal 3794 3809	一个在沈阳某公司上班的白领老乡
+T442	Person-Name 3811 3813	石会
+T443	Person-Pronoun 3819 3820	我
+T444	Person-Nominal 3822 3824	父母
+*	Coreference T443 T441
+T445	Person-Pronoun 3815 3816	她
+*	Coreference T445 T442 T451
+R68	Family Arg1:T444 Arg2:T443	
+T446	Location-Name 3827 3829	沈阳
+T447	Person-Nominal 3854 3857	我父母
+*	Coreference T447 T444 T452
+T448	Metric 3858 3862	70多岁
+T449	Person-Pronoun 3883 3884	我
+T450	Abstract 3877 3880	普通话
+T451	Person-Pronoun 3887 3888	你
+T452	Person-Nominal 3890 3894	我的双亲
+T453	Person-Name 3902 3904	石会
+T454	Person-Nominal 3915 3916	人
+T455	Person-Nominal 3918 3920	父母
+*	Coreference T455 T454
+T456	Person-Name 3925 3927	石会
+T457	Metric 3939 3942	一万元
+T458	Time-Implicit 3946 3948	暑假
+T459	Person-Pronoun 3951 3952	她
+T460	Person-Pronoun 3959 3960	她
+T461	Person-Nominal 3962 3970	老家没啥事的表弟
+R69	Family Arg1:T461 Arg2:T460	
+T462	Organization-Nominal 3980 3982;3983 3986	专门 的公司
+T463	Person-Pronoun 3988 3990	自己
+T464	Location-Nominal 3995 3999	其他城市
+*	Coreference T463 T460

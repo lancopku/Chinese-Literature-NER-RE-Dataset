@@ -1,0 +1,176 @@
+T1	Location-Pronoun 13 15	那里
+T2	Thing-Nominal 20 21	水
+T3	Thing-Nominal 16 17	水
+T4	Time-Implicit 36 43	1300多年前
+T5	Time-Explicit 44 46	唐代
+T6	Person-Nominal 46 50	诗人李白
+T7	Location-Name 53 56	新安江
+T8	Person-Nominal 111 113	诗人
+*	Coreference T8 T6
+T9	Thing-Name 118 121	新安江
+T10	Person-Nominal 129 131	诗人
+T11	Location-Nominal 146 148	帝城
+T12	Location-Name 158 161	新安江
+T13	Location-Name 181 184	新安江
+T14	Thing-Nominal 201 202	水
+T15	Thing-Nominal 233 237	新安江水
+T16	Thing-Name 272 275	新安江
+T17	Thing-Nominal 287 289	大江
+*	Coreference T16 T17
+T18	Thing-Name 304 307	新安江
+T19	Location-Name 314 316	徽州
+T20	Location-Name 318 320	浙江
+T21	Thing-Pronoun 330 331	它
+*	Coreference T21 T18 T23 T30 T31
+T22	Location-Name 333 337	徽州南端
+T23	Thing-Name 340 344	钱江水系
+T24	Thing-Name 348 352	黄山山脉
+T25	Thing-Name 353 357	长江水系
+T26	Thing-Name 364 368	天目山脉
+T27	Location-Name 369 370	浙
+T28	Location-Name 371 372	皖
+T29	Metric 377 382	159公里
+T30	Thing-Nominal 386 390	山水画廊
+T31	Thing-Nominal 391 395	黄金水道
+T32	Person-Name 397 404	清朝文人黄仲则
+T33	Location-Name 408 410	徽州
+T34	Thing-Nominal 463 465	大坝
+T35	Thing-Nominal 468 470	江水
+T36	Thing-Name 501 504	新安江
+T37	Location-Name 547 550	建德市
+T38	Thing-Name 553 556	新安江
+T39	Person-Nominal 558 561	主人翁
+T40	Person-Nominal 566 568	人们
+T41	Thing-Nominal 587 588	水
+T42	Location-Nominal 600 602	江面
+T43	Thing-Nominal 606 610	翡翠玉带
+T44	Location-Nominal 611 613	江面
+T45	Location-Nominal 616 618	江岸
+T46	Location-Nominal 621 623	江湾
+T47	Location-Nominal 628 630	村落
+T48	Location-Nominal 626 628	两岸
+R1	Part-Whole Arg1:T47 Arg2:T48	
+T49	Thing-Nominal 644 646	草木
+T50	Person-Pronoun 686 687	你
+T51	Thing-Nominal 725 727	清山
+T52	Location-Nominal 728 730	水里
+R2	Located Arg1:T51 Arg2:T52	
+T53	Time-Implicit 740 742	夏日
+T54	Thing-Name 743 746	新安江
+T55	Metric 765 774	12――17摄氏度
+T56	Thing-Nominal 784 789	新安江流水
+T57	Location-Nominal 795 797	河谷
+T58	Location-Name 827 830	新安江
+T59	Time-Implicit 845 847	夏日
+T60	Location-Pronoun 851 853	那里
+*	Coreference T60 T58
+T61	Person-Nominal 856 858	游客
+T62	Time-Implicit 876 878	夏日
+T63	Person-Nominal 902 909	新安江两岸人民
+T64	Person-Nominal 948 952	两岸人民
+T65	Location-Nominal 958 960	原野
+T66	Person-Pronoun 991 993	我们
+T67	Thing-Nominal 996 998	游艇
+R3	Use Arg1:T66 Arg2:T67	
+T68	Location-Nominal 1003 1006	江面上
+R4	Located Arg1:T67 Arg2:T68	
+T69	Location-Nominal 1026 1028	岸边
+T70	Thing-Nominal 1029 1031	小草
+R5	Located Arg1:T70 Arg2:T69	
+T71	Thing-Nominal 1040 1042	野花
+T72	Time-Implicit 1044 1046	夏日
+T73	Location-Nominal 1070 1072	江中
+T74	Thing-Nominal 1073 1075	游鱼
+T75	Thing-Nominal 1076 1078	绿苔
+T76	Thing-Nominal 1078 1080	小草
+R6	Located Arg1:T74 Arg2:T73	
+R7	Located Arg1:T75 Arg2:T73	
+R8	Located Arg1:T76 Arg2:T73	
+T77	Thing-Nominal 1087 1089	翠鸟
+T78	Location-Nominal 1091 1093	水面
+T79	Thing-Nominal 1117 1119	白墙
+T80	Thing-Nominal 1120 1122	青瓦
+T81	Thing-Nominal 1123 1126	马头墙
+T82	Location-Nominal 1127 1129	村落
+R9	Located Arg1:T81 Arg2:T82	
+R10	Located Arg1:T80 Arg2:T82	
+R11	Located Arg1:T79 Arg2:T82	
+T83	Location-Nominal 1132 1134	门前
+T84	Thing-Name 1135 1136	江
+R12	Near Arg1:T84 Arg2:T83	
+T85	Location-Nominal 1137 1139	屋后
+T86	Thing-Nominal 1140 1141	山
+R13	Near Arg1:T86 Arg2:T85	
+T87	Location-Nominal 1144 1145	田
+T88	Thing-Nominal 1146 1147	瓜
+T89	Thing-Nominal 1148 1149	豆
+R14	Located Arg1:T89 Arg2:T87	
+R15	Located Arg1:T88 Arg2:T87	
+T90	Thing-Nominal 1152 1153	树
+R16	Located Arg1:T90 Arg2:T87	
+T91	Thing-Nominal 1156 1157	花
+R17	Part-Whole Arg1:T91 Arg2:T90	
+T92	Person-Nominal 1166 1168	神仙
+T93	Location-Nominal 1174 1177	桃花源
+T94	Thing-Nominal 1198 1200	大地
+T95	Thing-Nominal 1204 1206	江水
+T96	Person-Nominal 1210 1212	游客
+T97	Thing-Name 1237 1240	新安江
+T98	Thing-Pronoun 1246 1247	你
+T99	Thing-Nominal 1241 1242	水
+R18	Part-Whole Arg1:T99 Arg2:T97	
+*	Coreference T98 T99
+T100	Thing-Pronoun 1261 1262	你
+T101	Person-Nominal 1270 1272	游客
+T102	Person-Nominal 1273 1275	有人
+*	Coreference T102 T101
+T103	Location-Pronoun 1307 1309	那里
+T104	Person-Nominal 1318 1321	年轻人
+T105	Person-Pronoun 1322 1324	他们
+*	Coreference T105 T104
+T106	Thing-Nominal 1326 1329	安全帽
+T107	Thing-Nominal 1333 1336	救身衣
+T108	Thing-Nominal 1343 1345	皮艇
+T109	Thing-Nominal 1354 1356	溪水
+T110	Location-Nominal 1374 1377	河道里
+T111	Thing-Nominal 1378 1381	大石头
+R19	Located Arg1:T111 Arg2:T110	
+T112	Person-Nominal 1435 1438	年轻人
+T113	Location-Nominal 1443 1447	水上乐园
+T114	Location-Pronoun 1463 1465	这里
+T115	Person-Nominal 1473 1476	年轻人
+T116	Person-Pronoun 1480 1482	我们
+T117	Person-Nominal 1482 1485	老年人
+*	Coreference T116 T117
+T118	Person-Pronoun 1518 1519	我
+T119	Person-Name 1537 1544	唐朝诗人刘禹锡
+T120	Location-Name 1586 1589	新安江
+T121	Time-Explicit 1600 1602	中午
+T122	Person-Pronoun 1602 1604	我们
+T123	Location-Nominal 1607 1611	水上餐厅
+T124	Person-Nominal 1614 1616	游客
+T125	Thing-Nominal 1624 1627	胖头鱼
+T126	Thing-Nominal 1639 1640	菜
+*	Coreference T125 T126
+T127	Thing-Nominal 1641 1643	鱼头
+R20	Part-Whole Arg1:T127 Arg2:T125	
+T128	Thing-Nominal 1665 1667	红枣
+T129	Thing-Nominal 1668 1670	枸杞
+T130	Person-Nominal 1696 1699	服务员
+T131	Thing-Nominal 1722 1723	筷
+T132	Thing-Nominal 1729 1731	鱼头
+T133	Thing-Nominal 1746 1749	辣子鸡
+T134	Person-Nominal 1771 1773	村民
+T135	Thing-Nominal 1775 1776	菜
+T136	Thing-Nominal 1777 1778	瓜
+T137	Thing-Nominal 1780 1781	鸡
+T138	Thing-Nominal 1782 1783	鱼
+T139	Person-Pronoun 1807 1809	我们
+T140	Location-Name 1810 1813	新安江
+T141	Thing-Nominal 1816 1819	农家菜
+T142	Thing-Nominal 1822 1825	有机茶
+T143	Person-Pronoun 1874 1876	我们
+T144	Location-Nominal 1879 1883	这座城市
+*	Coreference T144 T140
+T145	Person-Nominal 1894 1898	建德人民
+T146	Location-Name 1906 1909	新安江

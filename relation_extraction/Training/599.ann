@@ -1,0 +1,299 @@
+T1	Location-Nominal 0 2	废墟
+T2	Location-Pronoun 14 15	它
+*	Coreference T2 T1
+T3	Thing-Nominal 27 29	辞典
+T4	Location-Pronoun 35 37	废墟
+T5	Location-Nominal 38 40	城市
+T6	Location-Nominal 41 43	村庄
+T7	Person-Pronoun 59 60	我
+T8	Location-Nominal 129 131	废墟
+T9	Person-Pronoun 159 160	我
+T10	Location-Nominal 174 176	皇陵
+T11	Location-Pronoun 183 185	废墟
+R1	General-Special Arg1:T10 Arg2:T11	
+T12	Location-Nominal 195 197	坟茔
+R2	General-Special Arg1:T10 Arg2:T12	
+T13	Location-Pronoun 198 199	它
+*	Coreference T13 T10
+T14	Time-Implicit 217 221	封建社会
+T15	Person-Nominal 222 224	皇帝
+T16	Location-Nominal 246 248	皇陵
+T17	Thing-Nominal 257 258	笔
+T18	Thing-Nominal 277 279	草木
+T19	Thing-Nominal 283 285	野火
+T20	Location-Nominal 337 339	皇陵
+T21	Person-Pronoun 344 345	我
+T22	Location-Name 351 353	显陵
+T23	Person-Pronoun 357 358	我
+T24	Location-Nominal 362 364	陵墓
+T25	Person-Pronoun 371 372	我
+T26	Location-Name 376 379	十三陵
+T27	Location-Name 382 385	始皇陵
+T28	Location-Name 401 403	显陵
+R3	General-Special Arg1:T22 Arg2:T24	
+R4	General-Special Arg1:T26 Arg2:T24	
+R5	General-Special Arg1:T27 Arg2:T24	
+R6	General-Special Arg1:T22 Arg2:T20	
+T29	Person-Pronoun 405 406	我
+T30	Organization-Nominal 409 412	旅行团
+T31	Thing-Nominal 416 418	皇陵
+T32	Person-Pronoun 421 422	你
+T33	Location-Nominal 471 473	皇陵
+T34	Person-Pronoun 481 482	我
+T35	Time-Explicit 495 497	明朝
+T36	Location-Nominal 503 505	皇陵
+T37	Time-Explicit 510 512	明朝
+T38	Metric 514 517	三百年
+T39	Metric 524 528	276年
+T40	Thing-Nominal 535 537	皇陵
+T41	Person-Pronoun 546 547	你
+T42	Thing-Name 562 564	显陵
+T43	Thing-Nominal 565 573	第12个明皇陵墓
+*	Coreference T42 T43 T49
+T44	Time-Explicit 576 605	16世纪中叶1519-1566(明正德十四年至嘉靖四十五年
+T45	Metric 609 612	46年
+T47	Person-Name 615 621	嘉靖皇帝朱厚
+T46	Person-Name 615 629	嘉靖皇帝朱厚的父亲恭睿献皇帝
+R7	Family Arg1:T46 Arg2:T47	
+T48	Person-Name 631 638	母亲章圣皇太后
+R8	Family Arg1:T47 Arg2:T48	
+R9	Family Arg1:T46 Arg2:T48	
+T49	Thing-Nominal 639 642	合葬墓
+T50	Time-Explicit 651 662	1538年(嘉靖十七年
+T51	Person-Name 664 674	朱厚的生母章圣皇太后
+T52	Person-Name 678 680	朱厚
+R10	Family Arg1:T52 Arg2:T51	
+T53	Location-Name 683 690	北京昌平天寿山
+T54	Location-Name 692 700	长陵西南的大峪山
+T55	Thing-Name 712 714	显陵
+T56	Location-Name 715 717	钟祥
+T57	Location-Name 720 722	北京
+T58	Thing-Nominal 728 730	新陵
+T59	Person-Nominal 749 751	皇帝
+T60	Person-Name 752 754	朱厚
+R11	General-Special Arg1:T60 Arg2:T59	
+T61	Time-Explicit 770 780	1524年(嘉靖三年
+T62	Thing-Name 784 786	显陵
+T63	Location-Name 788 791	天寿山
+R12	Located Arg1:T62 Arg2:T63	
+T64	Person-Nominal 800 802	朝臣
+T65	Person-Name 803 808	章圣皇太后
+R13	Social Arg1:T60 Arg2:T64	
+T66	Person-Name 834 836	朱厚
+T67	Thing-Nominal 841 845	母后棺椁
+T68	Location-Name 849 851	显陵
+R14	Located Arg1:T67 Arg2:T68	
+T69	Organization-Name 855 857	礼部
+T70	Thing-Name 737 739	梓宫
+T71	Location-Name 862 864	显陵
+T72	Person-Nominal 865 867	昔者
+T73	Person-Pronoun 883 884	朕
+*	Coreference T73 T66
+T74	Person-Nominal 891 895	左右大臣
+R15	Social Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 897 899	山川
+T76	Thing-Name 907 909	玄宫
+T77	Person-Nominal 912 914	皇考
+T78	Person-Nominal 914 916	皇妣
+T79	Person-Nominal 860 862	皇考
+T80	Person-Nominal 927 930	督工们
+T81	Person-Name 932 934	朱厚
+T82	Thing-Name 945 947	玄宫
+T83	Thing-Name 955 957	瑶台
+T84	Thing-Nominal 959 965	高大砖石平台
+*	Coreference T83 T84
+T85	Location-Nominal 967 971	新旧宝城
+T86	Time-Explicit 979 980;981 982	明 代
+T87	Thing-Nominal 982 984	帝陵
+T88	Thing-Nominal 997 998	陵
+T89	Thing-Nominal 999 1000	冢
+R16	Located Arg1:T89 Arg2:T88	
+T90	Thing-Nominal 1007 1011	帝王陵墓
+T91	Time-Explicit 1017 1020	46年
+T92	Thing-Nominal 1042 1044	山水
+T93	Location-Nominal 1058 1060	废墟
+T94	Thing-Nominal 1062 1064	陵墓
+T95	Person-Pronoun 1087 1088	我
+T96	Thing-Nominal 1105 1107	黑瓦
+T97	Thing-Nominal 1108 1111	黄琉璃
+T98	Thing-Nominal 1112 1116	琉璃琼花
+T99	Thing-Nominal 1117 1120	双龙壁
+T100	Thing-Nominal 1121 1124	九曲河
+T101	Thing-Nominal 1125 1129	龙形神道
+T102	Thing-Nominal 1130 1134	汉白玉碑
+T103	Thing-Nominal 1135 1139	祭祀碑亭
+T104	Person-Pronoun 1154 1155	我
+T105	Thing-Name 1179 1182	明显陵
+T106	Thing-Nominal 1191 1192	鸟
+T107	Thing-Nominal 1196 1198	树木
+T108	Thing-Name 1204 1207	明显陵
+T109	Thing-Name 1208 1211	清东陵
+T110	Thing-Name 1212 1215	清西陵
+T111	Thing-Name 1218 1224;1225 1227	三大明清皇家 陵寝
+R17	Part-Whole Arg1:T110 Arg2:T111	
+R18	Part-Whole Arg1:T109 Arg2:T111	
+R19	Part-Whole Arg1:T108 Arg2:T111	
+T112	Thing-Pronoun 1228 1229	它
+*	Coreference T112 T108
+T113	Thing-Pronoun 1241 1242	它
+T114	Abstract 1267 1271	皇陵文化
+T115	Organization-Nominal 1297 1305	中国历代封建王朝
+T116	Thing-Nominal 1339 1340	丝
+T117	Thing-Nominal 1341 1342	缕
+T118	Person-Nominal 1355 1357	鬼神
+T119	Abstract 1364 1368	皇陵文化
+T120	Time-Implicit 1373 1381	中国历代封建社会
+T121	Thing-Nominal 1451 1453	皇陵
+T122	Thing-Name 1475 1477	显陵
+R20	General-Special Arg1:T122 Arg2:T121	
+T123	Abstract 1485 1489	风水理论
+T124	Organization-Name 1480 1482	中国
+T125	Location-Nominal 1491 1493	陵区
+T126	Thing-Nominal 1496 1498	山川
+T127	Thing-Nominal 1498 1500	水系
+R21	Near Arg1:T126 Arg2:T125	
+R22	Near Arg1:T127 Arg2:T125	
+T128	Thing-Nominal 1514 1515	陵
+T129	Thing-Nominal 1517 1519	山水
+T130	Abstract 1526 1530	负阴抱阳
+T131	Abstract 1533 1537	背山面水
+T132	Thing-Nominal 1534 1535	山
+T133	Thing-Nominal 1536 1537	水
+T134	Thing-Name 1543 1548	松林山左峰
+T135	Location-Name 1552 1554	玄宫
+T136	Location-Nominal 1555 1566	皇帝棺椁停放的地下宫殿
+*	Coreference T135 T136
+T137	Thing-Nominal 1568 1570	祖山
+*	Coreference T134 T137
+T138	Location-Nominal 1578 1580	陵区
+T139	Thing-Nominal 1585 1587	砂山
+T140	Thing-Nominal 1572 1576	左右山脉
+R23	Near Arg1:T140 Arg2:T138	
+*	Coreference T140 T139
+T141	Location-Name 1591 1594	天子岗
+T142	Thing-Nominal 1596 1598	陵寝
+T143	Location-Nominal 1599 1601	案山
+*	Coreference T141 T143
+T144	Person-Pronoun 1619 1620	我
+T145	Thing-Name 1621 1623	显陵
+T146	Location-Name 1638 1641	双柱门
+T147	Location-Name 1642 1645	外罗城
+T148	Thing-Nominal 1646 1649	内罗城
+T149	Location-Name 1650 1653	紫禁城
+T150	Location-Name 1654 1657	新红门
+T151	Location-Name 1658 1661	正红门
+T152	Location-Name 1662 1666	石像生群
+T153	Location-Name 1667 1670	龙风门
+T154	Location-Name 1671 1674	九曲河
+T155	Location-Name 1675 1679	琉璃照壁
+T156	Location-Name 1680 1684	两座宝城
+T157	Location-Name 1685 1687	瑶台
+T158	Location-Name 1688 1692	琉璃影壁
+T159	Person-Pronoun 1699 1700	我
+T160	Location-Name 1718 1721	棂星门
+T162	Thing-Nominal 1729 1731	狮子
+T163	Thing-Nominal 1732 1734	獬豸
+T164	Thing-Nominal 1735 1737	骆驼
+T165	Thing-Nominal 1738 1740	卧象
+T166	Thing-Nominal 1741 1743	麒麟
+T167	Thing-Nominal 1744 1746	立马
+T168	Thing-Nominal 1747 1749	卧马
+T169	Thing-Nominal 1750 1752	石兽
+T161	Thing-Nominal 1722 1724	神道
+R24	Near Arg1:T161 Arg2:T160	
+R25	Located Arg1:T169 Arg2:T161	
+R26	General-Special Arg1:T168 Arg2:T169	
+R27	General-Special Arg1:T167 Arg2:T169	
+R28	General-Special Arg1:T166 Arg2:T169	
+R29	General-Special Arg1:T165 Arg2:T169	
+R30	General-Special Arg1:T164 Arg2:T169	
+R31	General-Special Arg1:T163 Arg2:T169	
+R32	General-Special Arg1:T162 Arg2:T169	
+T170	Thing-Nominal 1757 1759	文臣
+T171	Thing-Nominal 1760 1762	武将
+T172	Thing-Nominal 1770 1773	汉白玉
+T173	Location-Nominal 1803 1805	皇陵
+T174	Location-Nominal 1807 1809	废墟
+R33	General-Special Arg1:T173 Arg2:T174	
+T175	Location-Name 1820 1822	显陵
+T176	Location-Name 1827 1829	钟祥
+T177	Organization-Nominal 1833 1840	歌词创作培训班
+T178	Person-Nominal 1851 1854	词作者
+T179	Person-Name 1854 1856	王健
+*	Coreference T179 T178 T180 T181
+T180	Person-Pronoun 1859 1860	她
+T181	Person-Nominal 1861 1869	培训班的授课老师
+T182	Organization-Nominal 1870 1873	培训班
+*	Coreference T182 T177
+T183	Thing-Name 1885 1887	显陵
+T184	Person-Name 1891 1895	王健老师
+T185	Location-Nominal 1896 1898	课堂
+T186	Person-Nominal 1911 1913	学员
+T187	Thing-Name 1916 1918	显陵
+T188	Person-Pronoun 1927 1928	我
+T189	Person-Pronoun 1933 1934	我
+*	Coreference T188 T186
+T190	Thing-Name 1942 1944	显陵
+T191	Person-Pronoun 1957 1958	我
+T192	Location-Nominal 1983 1985	废墟
+T193	Location-Name 1991 1993	显陵
+T194	Person-Pronoun 1997 1998	我
+T195	Thing-Nominal 2002 2003	卷
+T196	Location-Nominal 2012 2014	废墟
+T197	Location-Nominal 2024 2026	废墟
+T198	Person-Pronoun 2037 2038	我
+T199	Thing-Nominal 2041 2042	路
+T200	Person-Pronoun 2051 2052	我
+T201	Thing-Nominal 2055 2056	草
+T202	Thing-Nominal 2058 2059	风
+T203	Thing-Nominal 2060 2061	雨
+T204	Thing-Nominal 2081 2082	桃
+T205	Thing-Nominal 2083 2084	柳
+T206	Thing-Nominal 2086 2087	路
+T207	Thing-Nominal 2090 2091	草
+R34	Located Arg1:T199 Arg2:T197	
+R35	Located Arg1:T201 Arg2:T197	
+T208	Location-Nominal 2111 2113	废墟
+T209	Thing-Nominal 2125 2127	残砖
+R36	Located Arg1:T209 Arg2:T208	
+T210	Thing-Nominal 2154 2156	秋雨
+T211	Location-Nominal 2159 2161	废墟
+T212	Person-Nominal 2161 2163	后人
+T213	Thing-Nominal 2173 2174	砖
+T214	Thing-Nominal 2177 2178	瓦
+T215	Person-Pronoun 2190 2191	我
+T216	Person-Pronoun 2193 2194	你
+T217	Person-Pronoun 2196 2197	我
+T218	Location-Name 2215 2217	显陵
+T219	Time-Implicit 2218 2223	一个多月前
+T220	Person-Pronoun 2224 2225	我
+T221	Person-Pronoun 2245 2246	你
+T222	Thing-Nominal 2252 2254	瓦砾
+T223	Thing-Nominal 2255 2257	草书
+T224	Location-Nominal 2281 2283	废墟
+T225	Thing-Nominal 2291 2293	根须
+T226	Thing-Nominal 2315 2317	土壤
+T227	Person-Pronoun 2318 2319	你
+T228	Person-Nominal 2320 2322	自己
+*	Coreference T227 T228
+T229	Location-Nominal 2347 2349	废墟
+T230	Location-Nominal 2376 2378	废墟
+T231	Person-Pronoun 2393 2394	我
+T232	Person-Nominal 2398 2401	游历者
+*	Coreference T231 T232
+T233	Person-Nominal 2413 2415	人们
+T234	Location-Nominal 2416 2418	废墟
+T235	Location-Nominal 2448 2450	废墟
+T236	Location-Nominal 2453 2455	学校
+T237	Location-Nominal 2458 2460	教堂
+T238	Person-Nominal 2466 2468	后人
+R37	General-Special Arg1:T236 Arg2:T235	
+R38	General-Special Arg1:T237 Arg2:T235	
+T239	Person-Pronoun 2474 2476	我们
+T240	Person-Pronoun 2480 2482	我们
+T241	Location-Nominal 2490 2492	废墟
+T242	Location-Nominal 2503 2505	皇陵
+T243	Location-Nominal 2509 2511	废墟
+R39	General-Special Arg1:T242 Arg2:T243	
+T244	Location-Nominal 2525 2527	废墟
+T245	Person-Pronoun 2536 2538	我们

@@ -1,0 +1,264 @@
+T1	Person-Pronoun 0 1	我
+T2	Metric 3 6	二十岁
+T3	Organization-Name 9 14	中国共产党
+T4	Person-Pronoun 29 30	我
+T5	Person-Nominal 34 38	无神论者
+R1	General-Special Arg1:T5 Arg2:T4	
+T6	Time-Implicit 39 43	几十年来
+T7	Metric 39 42	几十年
+T8	Person-Nominal 45 47	父母
+R2	Family Arg1:T8 Arg2:T4	
+T9	Person-Nominal 52 56	坊间百姓
+R3	Social Arg1:T9 Arg2:T4	
+T10	Person-Nominal 64 65	人
+T11	Person-Nominal 68 69	天
+T12	Person-Pronoun 81 82	你
+T13	Person-Nominal 92 95	天老爷
+*	Coreference T13 T11 T164
+T14	Person-Nominal 85 86	神
+T15	Person-Nominal 88 89	鬼
+T16	Metric 104 107	多少年
+T17	Metric 111 114	多少年
+T18	Person-Nominal 115 116	天
+T19	Person-Pronoun 117 118	谁
+T20	Person-Nominal 119 120	天
+T21	Location-Pronoun 122 124	哪里
+T22	Time-Implicit 130 132	近来
+T23	Person-Nominal 134 143	新任的党中央总书记
+T24	Person-Nominal 158 159	天
+T25	Location-Pronoun 160 162	哪里
+T26	Person-Nominal 163 164	天
+T27	Person-Pronoun 165 166	谁
+T28	Thing-Nominal 200 202	天地
+T29	Thing-Nominal 206 208	良心
+T30	Thing-Nominal 209 210	天
+T31	Thing-Nominal 214 216	良心
+T32	Thing-Nominal 217 219	良心
+T33	Person-Nominal 239 242	每个人
+T34	Person-Nominal 243 244	人
+T35	Thing-Nominal 252 258	道德的这片天
+T36	Person-Nominal 277 279	人们
+T37	Thing-Nominal 189 191	道德
+T38	Thing-Nominal 221 223	良知
+T39	Thing-Nominal 226 230	道德水准
+T40	Thing-Nominal 233 238	做人的底线
+T41	Thing-Nominal 261 263	道德
+T42	Thing-Nominal 264 266	道德
+T43	Thing-Nominal 294 296	道德
+T44	Thing-Nominal 277 293	人们共同生活及其行为的准则与规范
+*	Coreference T44 T42
+T45	Abstract 269 275	社会意识形态
+T46	Abstract 301 308;309 311	社会的正面价值 取向
+T47	Thing-Nominal 314 324	一个个感动人心的故事
+T48	Abstract 338 344	社会的正能量
+T49	Thing-Nominal 345 347	道德
+T50	Thing-Nominal 347 350	两只眼
+T51	Person-Pronoun 352 353	你
+R4	Part-Whole Arg1:T50 Arg2:T49	
+T52	Thing-Nominal 377 381	道德之天
+*	Coreference T52 T35 T41
+T53	Person-Nominal 382 383	人
+T54	Thing-Nominal 392 394	事物
+T55	Person-Pronoun 400 401	你
+T56	Thing-Nominal 406 408	道德
+T57	Person-Pronoun 424 425	你
+T58	Thing-Nominal 427 429	道德
+T59	Thing-Nominal 450 452	法律
+T60	Organization-Nominal 455 456	国
+T61	Thing-Nominal 457 459	国法
+R5	Create Arg1:T60 Arg2:T61	
+T62	Organization-Nominal 460 461	家
+T63	Thing-Nominal 462 464	家规
+R6	Create Arg1:T62 Arg2:T63	
+T64	Organization-Nominal 467 469	国家
+T65	Organization-Nominal 472 474	家庭
+T66	Organization-Nominal 477 479	团体
+T67	Metric 465 467	一个
+T68	Metric 470 472	一个
+T69	Metric 475 477	一个
+T70	Organization-Pronoun 482 484	自己
+T71	Thing-Nominal 485 489	行为准则
+T72	Thing-Nominal 491 493	规矩
+T73	Thing-Nominal 495 497	方圆
+T74	Thing-Nominal 533 535	法律
+T75	Thing-Nominal 536 538	法律
+T76	Thing-Nominal 540 542	天平
+T77	Thing-Nominal 549 551	法律
+T78	Thing-Nominal 558 560	法律
+T79	Organization-Nominal 573 577	人类社会
+T80	Person-Nominal 573 575	人类
+T81	Person-Nominal 584 590	一个人一群人
+T82	Person-Nominal 608 612	国家首领
+T83	Person-Nominal 615 619	平头百姓
+T84	Thing-Nominal 624 625	法
+*	Coreference T84 T78
+T85	Thing-Nominal 628 630	道德
+T86	Thing-Nominal 635 637	法律
+T87	Thing-Pronoun 651 653	两者
+R7	Part-Whole Arg1:T85 Arg2:T87	
+R8	Part-Whole Arg1:T86 Arg2:T87	
+T88	Person-Nominal 658 661	每个人
+T89	Thing-Nominal 664 668	国家之事
+T90	Thing-Nominal 669 673	群众之事
+T91	Thing-Nominal 677 681	个人之事
+T92	Thing-Nominal 685 686	法
+T93	Thing-Nominal 689 691;692 694	道德 之天
+T94	Thing-Nominal 698 702	法律之天
+T95	Location-Nominal 695 697	头上
+T96	Location-Nominal 703 705	眼前
+R9	Located Arg1:T93 Arg2:T95	
+R10	Located Arg1:T94 Arg2:T96	
+T97	Thing-Nominal 707 708	法
+T98	Thing-Nominal 713 714	天
+T99	Thing-Nominal 728 729	权
+T100	Thing-Nominal 730 731	法
+T101	Thing-Nominal 738 739	权
+T102	Thing-Nominal 755 760	法律的天平
+T103	Person-Pronoun 767 768	你
+T104	Thing-Nominal 770 771	法
+T105	Person-Nominal 777 779	百姓
+T106	Person-Pronoun 782 783	我
+T107	Person-Pronoun 790 791	谁
+T108	Person-Nominal 796 798	百姓
+T109	Person-Nominal 799 801	百姓
+T110	Person-Nominal 804 806	百姓
+T111	Thing-Nominal 809 811	天地
+T112	Person-Nominal 811 813	百姓
+T113	Thing-Nominal 802 803	天
+T114	Time-Implicit 824 826	古今
+T115	Location-Nominal 826 828	中外
+T116	Thing-Nominal 829 831	衣食
+T117	Person-Nominal 831 833	父母
+T118	Person-Nominal 843 845	百姓
+T119	Person-Nominal 846 848	百姓
+T120	Person-Nominal 849 858	赖以生存的衣食父母
+T121	Person-Nominal 864 868	帝王将相
+T122	Person-Nominal 874 878	层层官员
+T123	Thing-Nominal 880 884	历史长河
+T124	Person-Nominal 886 888	主角
+T125	Person-Nominal 892 896	人民群众
+T126	Person-Nominal 898 902	黎民百姓
+*	Coreference T126 T125 T120 T119
+T127	Thing-Nominal 908 910	星辰
+T128	Location-Nominal 903 905	天上
+R11	Located Arg1:T127 Arg2:T128	
+T129	Thing-Nominal 911 916	那颗颗星辰
+*	Coreference T129 T127 T136 T144
+T130	Thing-Nominal 918 923	百姓的眼睛
+T131	Person-Nominal 918 920	百姓
+R12	Ownership Arg1:T131 Arg2:T130	
+T132	Person-Nominal 926 927	人
+T133	Person-Pronoun 932 933	己
+T134	Person-Nominal 947 948	官
+T135	Person-Nominal 949 950	民
+T136	Thing-Nominal 956 957;958 961	天 上星星
+T137	Person-Nominal 971 973	百姓
+T138	Thing-Nominal 974 976	眼睛
+T139	Thing-Nominal 981 983	网络
+T140	Thing-Nominal 997 999	笼子
+T141	Thing-Nominal 1004 1006	法律
+T142	Person-Nominal 1011 1013	百姓
+T143	Person-Nominal 1019 1022	为官者
+T144	Thing-Nominal 1033 1035	星星
+T145	Thing-Nominal 1026 1027	天
+T146	Thing-Nominal 1039 1041	法律
+T147	Person-Nominal 1048 1049	民
+T148	Person-Nominal 1057 1059	人们
+T149	Thing-Nominal 1063 1064	天
+T150	Thing-Nominal 1065 1066	天
+T151	Thing-Nominal 1070 1084	道德之天、法律之天、百姓之天
+T152	Person-Nominal 1122 1123	人
+T153	Thing-Nominal 1126 1127	天
+T154	Person-Nominal 1136 1139	每个人
+T155	Person-Pronoun 1142 1144	自己
+*	Coreference T155 T154
+T156	Person-Nominal 1150 1151	人
+T157	Person-Nominal 1171 1172	人
+T158	Person-Nominal 1176 1177	神
+T159	Person-Nominal 1180 1181	鬼
+T160	Person-Pronoun 1184 1185	你
+*	Coreference T160 T157
+T161	Person-Nominal 1200 1202	别人
+T162	Person-Nominal 1204 1206	亲人
+T163	Person-Nominal 1208 1210	自己
+R13	Family Arg1:T162 Arg2:T163	
+T164	Person-Nominal 1221 1223	老天
+T165	Thing-Nominal 1228 1229	眼
+T166	Person-Nominal 1243 1252	做了不该做的事的人
+T167	Thing-Nominal 1257 1262	应有的报应
+T168	Person-Pronoun 1265 1267	我们
+T169	Thing-Pronoun 1277 1283	生活中的一切
+T170	Time-Implicit 1285 1289	什么时候
+T171	Thing-Pronoun 1301 1303;1304 1306	什么 问题
+T172	Person-Pronoun 1313 1315	自己
+T173	Person-Pronoun 1320 1322	自己
+*	Coreference T172 T168 T173
+T174	Metric 1333 1335	三尺
+T175	Person-Nominal 1336 1338	神明
+T176	Person-Nominal 1339 1341	父母
+T177	Thing-Nominal 1343 1345	身体
+T178	Person-Pronoun 1371 1373	我们
+T179	Person-Nominal 1373 1376	每个人
+T180	Person-Nominal 1378 1380	个人
+T181	Person-Pronoun 1387 1389	我们
+T182	Person-Nominal 1416 1418	父母
+T183	Organization-Nominal 1430 1432	国家
+T184	Person-Pronoun 1443 1445	我们
+T185	Person-Pronoun 1451 1453	自己
+*	Coreference T185 T184
+T186	Person-Pronoun 1490 1492	我们
+T187	Person-Nominal 1492 1495	有些人
+R14	Part-Whole Arg1:T187 Arg2:T186	
+T188	Thing-Nominal 1510 1512	灾祸
+T189	Person-Pronoun 1514 1516	我们
+T190	Person-Pronoun 1516 1518	自己
+T191	Thing-Nominal 1530 1532	肉体
+T192	Thing-Nominal 1535 1537	灵魂
+T193	Person-Pronoun 1549 1551	自己
+T194	Person-Pronoun 1554 1556	我们
+T195	Thing-Pronoun 1558 1561	任何事
+T196	Person-Pronoun 1578 1580	自己
+T197	Person-Pronoun 1582 1584	自己
+T198	Person-Nominal 1585 1586	人
+T199	Thing-Nominal 1588 1590	坏事
+T200	Person-Nominal 1601 1603	大家
+T201	Person-Pronoun 1621 1622	你
+T202	Person-Pronoun 1630 1633	有些人
+T203	Person-Nominal 1656 1657	人
+T204	Person-Pronoun 1665 1666	你
+T205	Thing-Nominal 1665 1670	你做的好事
+R15	Create Arg1:T204 Arg2:T205	
+T206	Person-Pronoun 1682 1683	你
+T207	Person-Nominal 1670 1672	大家
+T208	Person-Pronoun 1687 1688	你
+T209	Person-Pronoun 1692 1693	你
+T210	Thing-Nominal 1704 1709	历史的天平
+T211	Person-Pronoun 1727 1728	谁
+T212	Time-Implicit 1749 1751	今天
+T213	Time-Implicit 1758 1760	明天
+T214	Location-Name 1804 1806	宇宙
+T215	Time-Implicit 1819 1821	今天
+T216	Person-Nominal 1822 1824	别人
+T217	Time-Implicit 1826 1828	明天
+T218	Person-Pronoun 1828 1830	自己
+T219	Time-Explicit 1839 1841	今天
+T220	Person-Nominal 1842 1844	别人
+T221	Time-Implicit 1846 1848	明天
+T222	Person-Pronoun 1848 1850	自己
+T223	Thing-Nominal 1885 1886	瓜
+T224	Thing-Nominal 1887 1888	瓜
+T225	Thing-Nominal 1890 1891	豆
+T226	Thing-Nominal 1892 1893	豆
+T227	Time-Implicit 1894 1896	今天
+T228	Thing-Nominal 1902 1904	种子
+T229	Time-Implicit 1905 1907	明天
+T230	Thing-Nominal 1912 1914	果实
+T231	Thing-Nominal 1922 1924	果实
+T232	Thing-Nominal 1927 1929	种子
+T233	Person-Nominal 1940 1941	人
+T234	Thing-Nominal 1948 1949	天
+T235	Person-Pronoun 1954 1955	你
+*	Coreference T235 T233
+T236	Person-Pronoun 1958 1960	我们
+T237	Person-Nominal 1976 1977	人
+T238	Person-Nominal 1986 1987	民

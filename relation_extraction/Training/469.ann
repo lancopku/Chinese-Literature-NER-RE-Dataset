@@ -1,0 +1,131 @@
+T1	Person-Pronoun 0 1	你
+T2	Thing-Nominal 3 18	连天碧绿、苍苍莽莽的原始大森林
+T3	Person-Pronoun 20 21	你
+T4	Thing-Nominal 23 37	山峰绵延、高耸入云的大兴安岭
+T5	Person-Pronoun 40 41	你
+T6	Location-Name 43 52	内蒙古乌尔旗汉林区
+T7	Thing-Nominal 58 60;61 72	地球 的“冷肺叶”―大兴安岭
+T8	Thing-Nominal 74 88	兴安之旅第一站―乌尔旗汉林区
+T9	Thing-Nominal 90 119	得天独厚、如梦似幻的天然美景和神奇秀幻、绿意盎然的自然风光
+T10	Thing-Nominal 120 124	大兴安岭
+T11	Thing-Pronoun 144 145	她
+*	Coreference T11 T10
+T12	Thing-Nominal 146 151	森林的海洋
+T13	Thing-Nominal 152 157	河流的故乡
+T14	Thing-Nominal 158 163	动物的乐园
+T15	Thing-Nominal 164 170	植物的王国，
+T16	Thing-Nominal 170 175	冰雪的圣地
+T17	Thing-Nominal 176 182	地球的“肺叶
+T18	Thing-Nominal 196 198	山脉
+T19	Thing-Nominal 199 201	河流
+T20	Thing-Nominal 202 204	森林
+T21	Thing-Nominal 205 207	草地
+T22	Thing-Nominal 208 210	冰雪
+T23	Thing-Nominal 283 290	这片神奇的土地
+T24	Thing-Nominal 300 308	一座辽代古城遗址
+T25	Person-Name 318 327	一代天骄”成吉思汗
+T26	Person-Nominal 327 331	五百铁骑
+T27	Location-Pronoun 336 338	这里
+T28	Location-Name 271 275	乌尔旗汉
+*	Coreference T27 T28
+T29	Thing-Nominal 341 343	战马
+T30	Person-Nominal 347 354	鄂伦春森林民族
+T31	Person-Nominal 369 374	沙俄、日伪
+T32	Person-Nominal 383 384	人
+T33	Person-Nominal 395 401	淳朴的林区人
+T34	Person-Nominal 412 413	人
+T35	Thing-Nominal 418 434	地窨子、大火炕、大烟筒、大轱轳车
+T36	Person-Nominal 438 439	人
+T37	Person-Nominal 444 447	林区人
+T38	Time-Implicit 447 449	当年
+T39	Time-Implicit 463 468	那火红年代
+T40	Location-Name 475 481	乌尔旗汉林区
+T41	Thing-Nominal 486 498	异彩纷呈的秀丽的湖光山色
+T42	Thing-Nominal 499 503	奇峰异草
+T43	Thing-Nominal 504 508	人文景观
+T44	Location-Name 526 535;536 539	呼伦贝尔、森林城市 牙克石
+T45	Thing-Nominal 547 552	这片大森林
+T46	Thing-Nominal 561 568	国家级森林公园
+T47	Metric 600 604	40公里
+T48	Location-Name 605 615	西日特其林场10林班
+T49	Location-Name 620 632	兴安落叶松“原始森林景观
+T50	Location-Name 576 582	乌尔旗汉林区
+T51	Organization-Nominal 596 599	林业局
+T52	Location-Pronoun 634 636	这里
+*	Coreference T52 T49
+T53	Thing-Nominal 638 645	大兴安岭的主脊
+T54	Person-Nominal 646 649	当地人
+T55	Person-Nominal 662 666	中外游客
+T56	Time-Implicit 682 684	夏季
+T57	Thing-Nominal 685 689	青山绿水
+T58	Thing-Nominal 692 694	松涛
+T59	Thing-Nominal 751 755	莽莽林海
+T60	Location-Nominal 748 750	枝头
+T61	Thing-Nominal 740 746	银白色的雾凇
+R1	Located Arg1:T61 Arg2:T60	
+T62	Time-Implicit 737 739	冬季
+T63	Thing-Nominal 726 732	墨绿色的松林
+T64	Thing-Nominal 718 725	千姿百态的山花
+T65	Location-Nominal 711 713	遍山
+T66	Thing-Nominal 713 715	野果
+R2	Located Arg1:T66 Arg2:T65	
+T67	Thing-Nominal 698 700	流水
+T68	Thing-Nominal 703 705	山风
+T69	Thing-Nominal 761 764	万顷松
+T70	Thing-Nominal 765 770	桦玉叶琼枝
+T71	Thing-Nominal 782 790	兴安白桦次生林”
+T72	Person-Nominal 796 799	艺术家
+T73	Person-Nominal 803 805	作家
+T74	Location-Pronoun 811 813	这里
+T75	Thing-Nominal 814 817	白桦林
+T76	Thing-Nominal 835 840	“桦木之乡
+T77	Person-Nominal 800 802	诗人
+T78	Thing-Nominal 861 865	世外桃源
+T79	Person-Pronoun 846 847	你
+T80	Thing-Nominal 849 854	这片白桦林
+T81	Person-Pronoun 877 878	你
+T82	Thing-Nominal 936 938	松籽
+T83	Thing-Nominal 924 927	松花粉
+T84	Thing-Nominal 915 917	森林
+T85	Person-Pronoun 887 888	你
+T86	Location-Nominal 893 910	原始林、白桦次生林或落叶松人工林内
+T87	Location-Nominal 945 950	松软的林间
+T88	Location-Nominal 965 971	苍茫的林海中
+T89	Thing-Nominal 976 978	古木
+T90	Thing-Nominal 986 998	笔直参天的落叶松、白桦树
+R3	Located Arg1:T90 Arg2:T88	
+T91	Thing-Nominal 1001 1002;1003 1017	樟 子松、黑桦、杨树、柞树及柳树
+T92	Location-Name 1029 1031	林海
+T93	Thing-Nominal 1035 1052	众多的灌木及各类植被等植物606种
+R4	Located Arg1:T93 Arg2:T92	
+T94	Metric 1048 1052	606种
+T95	Thing-Nominal 1058 1063;1064 1072	兴安红豆、 蓝靛果等野生浆果
+T96	Location-Nominal 1077 1079	林下
+T97	Thing-Nominal 1083 1096	数以千计的野生药材、山野菜
+R5	Located Arg1:T97 Arg2:T96	
+T98	Thing-Nominal 1097 1101	野花野果
+T99	Thing-Nominal 1114 1119;1120 1129	一幅山水相 映、多彩多姿的画卷
+T100	Thing-Nominal 1130 1138	马鹿、猞猁、紫貂
+T101	Location-Nominal 1140 1156	种国家一二级野生保护动物栖息林间
+T102	Time-Implicit 1157 1160	春天，
+T103	Thing-Nominal 1160 1163	杜鹃花
+T104	Thing-Nominal 1165 1170	火红的笑脸
+R6	Part-Whole Arg1:T103 Arg2:T104	
+T105	Thing-Nominal 1183 1185	林涛
+T106	Thing-Nominal 1188 1190	百鸟
+T107	Thing-Nominal 1196 1200	蓝天白云
+T108	Thing-Nominal 1214 1224	一幅斑斓的锦绣缎面;
+T109	Location-Nominal 1284 1286	岛上
+T110	Thing-Nominal 1289 1293	青山绿水
+T111	Location-Nominal 1301 1302;1303 1309	蜿 蜒曲折的河中
+T112	Thing-Nominal 1248 1258	大雁河、库都尔河水面
+T113	Thing-Nominal 1269 1282	大大小小风光迷人的“河心岛
+T114	Thing-Nominal 1316 1331	细鳞鱼、哲罗鱼、老头鱼、船丁鱼
+T115	Thing-Nominal 1337 1341	大小河流
+T116	Metric 1341 1345	50余条
+T117	Thing-Nominal 1346 1353	星罗棋布的湖泊
+T118	Thing-Nominal 1366 1376	兴安里湿地自然保护区
+T119	Person-Nominal 1379 1380	人
+T120	Location-Nominal 1385 1394	别有洞天的水的世界
+T121	Thing-Nominal 1398 1409	形状、大小不一的火山岩
+T122	Thing-Nominal 1412 1423	号称“石海”的特有景观

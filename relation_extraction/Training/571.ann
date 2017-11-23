@@ -1,0 +1,89 @@
+T1	Time-Explicit 0 4	今年七月
+T2	Person-Pronoun 4 5	我
+T3	Location-Name 7 9	西安
+T4	Thing-Name 21 25	西岳华山
+T5	Thing-Name 32 34	五岳
+T6	Thing-Name 37 39	西岳
+T7	Location-Name 47 49	西安
+T8	Person-Nominal 51 53	导游
+T9	Person-Nominal 54 56	旁人
+T10	Person-Pronoun 60 61	我
+R1	Social Arg1:T10 Arg2:T8	
+T11	Thing-Name 80 82	华山
+T12	Location-Name 83 85	西安
+T13	Metric 87 89;90 93	一个 多小时
+T14	Person-Pronoun 103 104	我
+T15	Thing-Nominal 106 110	这座名山
+R2	Near Arg1:T11 Arg2:T12	
+*	Coreference T15 T11
+T16	Location-Name 116 120	西岳麓下
+T17	Location-Nominal 132 139	旅馆的客厅墙上
+T18	Thing-Nominal 144 148	华山地图
+T19	Person-Nominal 156 159	馆主人
+T20	Thing-Nominal 165 166	山
+T21	Time-Implicit 170 172	晚间
+T22	Thing-Nominal 181 183	手套
+T23	Thing-Nominal 184 186	电筒
+T24	Person-Nominal 194 199	下山的游客
+T25	Person-Pronoun 201 203	他们
+*	Coreference T25 T24
+T26	Thing-Name 212 214	华山
+T27	Person-Pronoun 232 233	我
+T28	Person-Nominal 234 236	自己
+*	Coreference T27 T28
+T29	Person-Nominal 242 244	人们
+T30	Time-Implicit 268 272	傍晚时分
+T31	Thing-Nominal 344 346	华岳
+T32	Thing-Nominal 360 362	山峰
+T33	Location-Nominal 371 373	山沟
+T34	Thing-Nominal 379 381	铁链
+T35	Person-Nominal 382 384	游人
+R3	Use Arg1:T35 Arg2:T34	
+T36	Person-Nominal 390 393	当地人
+T37	Thing-Nominal 397 399	手套
+R4	Use Arg1:T35 Arg2:T37	
+T38	Thing-Nominal 416 418	路灯
+T39	Person-Pronoun 438 439	我
+T40	Thing-Nominal 442 444	手电
+R5	Use Arg1:T39 Arg2:T40	
+T41	Person-Nominal 457 459	游客
+T42	Person-Nominal 465 472	餐饮辅食经营者
+T43	Location-Nominal 476 478	路边
+T44	Thing-Nominal 479 481	石屋
+R6	Near Arg1:T44 Arg2:T43	
+T45	Thing-Name 492 494	华山
+T46	Time-Implicit 533 542	夜幕完全笼罩山体时
+T47	Person-Pronoun 543 544	我
+T48	Metric 551 555	七八十度
+T49	Location-Name 556 561	千尺栋区域
+T50	Location-Name 572 575	千尺栋
+T51	Thing-Nominal 576 577;578 579	石 阶
+R7	Located Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 605 607	铁链
+T53	Location-Name 617 620	千尺栋
+T54	Location-Nominal 625 628	小卖部
+R8	Part-Whole Arg1:T54 Arg2:T53	
+T55	Person-Nominal 637 638;639 641	先 行者
+T56	Person-Nominal 646 648	大家
+T57	Person-Nominal 666 669	游历者
+T58	Location-Nominal 678 681	华山麓
+T59	Location-Name 682 686	主峰南峰
+R9	Near Arg1:T58 Arg2:T59	
+T60	Metric 689 692	五小时
+T61	Person-Pronoun 696 698	我们
+T62	Location-Name 703 706	百尺峡
+T63	Location-Name 714 717	苍龙岭
+T64	Person-Nominal 728 730	勇士
+T65	Location-Name 738 741	苍龙岭
+T66	Thing-Nominal 750 752	灯管
+T67	Location-Name 761 764	苍龙岭
+T68	Location-Name 766 768	华山
+T69	Location-Pronoun 776 777	它
+*	Coreference T69 T67
+T70	Location-Nominal 804 808	华阴市区
+T71	Location-Name 828 831	苍龙岭
+T72	Thing-Nominal 832 834	石阶
+R10	Located Arg1:T72 Arg2:T71	
+T73	Location-Nominal 846 848	山崖
+T74	Time-Explicit 861 863	次日
+T75	Person-Pronoun 869 871	我们

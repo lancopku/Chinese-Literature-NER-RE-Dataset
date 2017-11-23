@@ -1,0 +1,477 @@
+T1	Person-Nominal 0 2	外婆
+T2	Thing-Nominal 8 10	两手
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Person-Pronoun 22 23	她
+*	Coreference T3 T1
+T4	Thing-Nominal 24 26	两耳
+T5	Thing-Nominal 27 28	风
+T6	Person-Pronoun 35 36	我
+T7	Person-Nominal 35 38	我外婆
+R2	Family Arg1:T7 Arg2:T6	
+T8	Thing-Nominal 45 47	清江
+T9	Thing-Nominal 48 51	石板溪
+T10	Thing-Nominal 52 54	清江
+T11	Thing-Nominal 62 65	招徕河
+T12	Thing-Nominal 66 69	三背河
+T13	Thing-Nominal 70 73	石板溪
+T14	Location-Name 83 86	珠涡坑
+T15	Thing-Nominal 79 81	长滩
+T16	Thing-Nominal 90 94;95 97	绿茵如镜 的河
+T17	Location-Pronoun 99 101	这里
+T18	Thing-Nominal 104 111	两公里长的险滩
+T19	Metric 104 107	两公里
+T20	Person-Nominal 112 115	放排人
+T21	Location-Pronoun 116 118	这里
+T22	Thing-Nominal 119 122	鬼门关
+T23	Location-Pronoun 124 126	这里
+T24	Thing-Nominal 129 131	江河
+T25	Thing-Nominal 154 155;156 157	清 江
+*	Coreference T17 T14
+T26	Person-Nominal 164 166	外婆
+T27	Thing-Nominal 175 177	清江
+T28	Person-Pronoun 183 184	她
+*	Coreference T28 T26
+T29	Thing-Nominal 193 196	清江滩
+T30	Person-Pronoun 199 200	她
+T31	Person-Pronoun 213 214	我
+T32	Person-Pronoun 219 220	她
+T33	Person-Pronoun 223 224	脸
+T34	Person-Pronoun 228 229	她
+T35	Person-Pronoun 246 247	她
+T36	Person-Nominal 254 256	外婆
+T37	Person-Nominal 257 260	我外公
+R3	Family Arg1:T37 Arg2:T36	
+T38	Person-Pronoun 257 258	我
+T39	Person-Nominal 263 268	十一个儿女
+T40	Person-Nominal 275 280	英雄妈妈”
+T41	Person-Pronoun 281 282	她
+*	Coreference T41 T36
+T42	Person-Nominal 285 289	一个女人
+T43	Person-Pronoun 298 300	他们
+*	Coreference T43 T39
+T44	Person-Nominal 306 308	成人
+T45	Person-Pronoun 312 313	我
+T46	Person-Nominal 315 323	所有的舅舅和姨们
+R4	Family Arg1:T45 Arg2:T46	
+T47	Person-Nominal 334 336	外婆
+T48	Thing-Nominal 334 339	外婆的心脏
+R5	Part-Whole Arg1:T48 Arg2:T47	
+T49	Time-Implicit 342 346	20年前
+T50	Thing-Nominal 348 356	一台东方红拖拉机
+T51	Location-Nominal 360 365	我外婆前面
+R6	Located Arg1:T50 Arg2:T51	
+T52	Person-Nominal 361 363	外婆
+T53	Person-Pronoun 360 361	我
+R7	Family Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 369 374	我外婆的心
+T55	Person-Nominal 369 372	我外婆
+R8	Part-Whole Arg1:T54 Arg2:T55	
+T56	Person-Pronoun 369 370	我
+T57	Location-Nominal 388 390	家里
+T58	Person-Pronoun 411 412	她
+T59	Person-Nominal 415 419	舅舅姨们
+T60	Person-Nominal 430 436	小舅舅小姨们
+T61	Person-Pronoun 440 441	我
+T62	Time-Implicit 443 447	那段时间
+T63	Person-Nominal 453 455	亲人
+T64	Person-Nominal 462 465	我外婆
+T65	Person-Pronoun 462 463	我
+R9	Family Arg1:T64 Arg2:T65	
+T66	Person-Pronoun 471 472	她
+T67	Thing-Nominal 482 484	两耳
+T68	Thing-Nominal 485 486	风
+T69	Thing-Nominal 510 511	手
+T70	Person-Nominal 518 520	外婆
+T71	Person-Pronoun 520 521	我
+T72	Thing-Nominal 525 528	石板街
+T73	Thing-Nominal 532 535	石板街
+T74	Thing-Nominal 539 546	石板溪上的廊桥
+T75	Location-Nominal 539 543	石板溪上
+R10	Located Arg1:T74 Arg2:T75	
+T76	Thing-Nominal 549 551	廊桥
+T77	Person-Pronoun 551 552	我
+T78	Thing-Nominal 557 559	断沟
+T79	Thing-Nominal 560 562	磨坊
+T80	Location-Nominal 563 566	廊桥下
+T81	Thing-Nominal 567 570	大岩屋
+R11	Located Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 571 576	这一串物像
+T83	Person-Pronoun 588 589	我
+T84	Time-Implicit 590 594	丰富童年
+T85	Time-Implicit 601 604	我童年
+T86	Person-Nominal 605 609	小伙伴儿
+T87	Person-Name 609 613	世秀姑娘
+*	Coreference T87 T86
+T88	Person-Pronoun 601 602	我
+R12	Social Arg1:T87 Arg2:T88	
+T89	Person-Nominal 617 620	我母亲
+T90	Person-Nominal 621 626	她的十姊妹
+T91	Person-Pronoun 617 618	我
+R13	Family Arg1:T89 Arg2:T91	
+T92	Person-Pronoun 621 622	她
+T93	Person-Nominal 627 629	外婆
+*	Coreference T92 T89
+T94	Time-Implicit 647 649	白天
+T95	Person-Pronoun 649 650	她
+*	Coreference T95 T93
+T96	Organization-Nominal 652 655	合作社
+T97	Organization-Nominal 659 663	人民公社
+T98	Person-Pronoun 666 667	我
+T99	Time-Implicit 669 674	我小的时候
+T100	Person-Pronoun 669 670	我
+T101	Person-Pronoun 676 677	她
+T102	Person-Pronoun 681 682	我
+T103	Person-Nominal 683 692	一个和我同龄的俊姨
+T104	Person-Pronoun 686 687	我
+T105	Location-Nominal 693 702	一个名叫生气的地方
+T106	Thing-Nominal 703 704	火
+T107	Person-Pronoun 710 711	她
+T108	Thing-Nominal 716 718	干粮
+T109	Thing-Nominal 719 721	水壶
+T110	Person-Pronoun 723 724	我
+T111	Person-Name 725 727	俊姨
+T112	Location-Nominal 730 736;737 738	一个安全的地 方
+T113	Time-Implicit 722 736;737 739	把我和俊姨安顿在一个安全的地 方后
+T114	Person-Nominal 743 754	那些伯伯叔叔、爷爷奶奶
+T115	Thing-Nominal 756 757	脸
+T116	Person-Pronoun 770 771	我
+T117	Time-Implicit 768 770	后来
+T118	Location-Name 781 784	石板溪
+T119	Location-Nominal 784 788	这个地方
+*	Coreference T119 T118
+T120	Person-Nominal 789 793	主打粮田
+T121	Thing-Pronoun 803 804	它
+T122	Thing-Nominal 774 778	生气块地
+T123	Person-Nominal 806 808	人们
+T124	Thing-Nominal 809 811	肚子
+T125	Time-Implicit 814 816	荒年
+T126	Thing-Nominal 821 823	公粮
+T127	Person-Pronoun 824 826	自己
+T128	Thing-Nominal 828 830	粮食
+*	Coreference T121 T122
+T129	Thing-Nominal 839 843	近百亩地
+T130	Metric 840 842	百亩
+T131	Location-Name 848 850	生气
+T132	Thing-Nominal 854 856	一坡
+T133	Thing-Nominal 857 858;859 861	这 生气
+T134	Time-Implicit 864 866	早上
+T135	Thing-Nominal 866 868	大雾
+T136	Thing-Pronoun 879 880	它
+*	Coreference T136 T133
+T137	Time-Implicit 886 889	丰收年
+T138	Person-Pronoun 890 891	它
+T139	Person-Nominal 892 897	石板溪人丰
+T140	Thing-Pronoun 902 903	它
+T141	Thing-Nominal 915 917	颗粒
+T142	Person-Nominal 926 927	人
+T143	Person-Pronoun 936 937	我
+T144	Person-Name 938 940	俊姨
+T145	Person-Nominal 941 943	外婆
+R14	Family Arg1:T145 Arg2:T143	
+T146	Person-Name 947 949	俊姨
+T147	Person-Nominal 951 960	一种叫绞股兰的猪草
+T148	Location-Nominal 963 965	田边
+T149	Thing-Nominal 973 976	一大堆
+T150	Person-Nominal 977 979	外婆
+T151	Person-Name 983 985	俊姨
+T152	Person-Pronoun 986 987	我
+T153	Thing-Name 991 993	俊姨
+T154	Thing-Nominal 995 997	猪草
+R15	Ownership Arg1:T147 Arg2:T148	
+T155	Person-Nominal 1001 1003	外婆
+T156	Person-Pronoun 1005 1007	我们
+T157	Thing-Nominal 1008 1012	麦面煎饼
+T158	Time-Implicit 1013 1015	这天
+T159	Person-Name 1017 1021	世秀姑娘
+T160	Person-Pronoun 1023 1024	她
+*	Coreference T160 T159
+T161	Person-Nominal 1023 1026	她婆婆
+T162	Location-Nominal 1027 1029	地里
+T163	Person-Pronoun 1030 1031	她
+T164	Thing-Nominal 1033 1038	一身花衣裳
+T165	Location-Nominal 1039 1041;1042 1044	花衣 袋里
+T166	Thing-Nominal 1046 1051	几颗水果糖
+R16	Located Arg1:T166 Arg2:T165	
+T167	Person-Name 1052 1056	世秀姑娘
+T168	Person-Pronoun 1061 1062	她
+*	Coreference T168 T167
+T169	Time-Implicit 1062 1064	那天
+T170	Person-Pronoun 1065 1066	我
+T171	Person-Pronoun 1071 1072	我
+T172	Thing-Nominal 1072 1077	一颗水果糖
+T173	Person-Pronoun 1081 1082	我
+T174	Person-Pronoun 1086 1087	她
+T175	Person-Name 1090 1092	俊姨
+T176	Thing-Nominal 1092 1094	糖果
+T177	Person-Pronoun 1097 1098	我
+T178	Person-Name 1100 1102	世秀
+T179	Time-Implicit 1100 1102;1103 1106	世秀 很小时
+T180	Person-Nominal 1108 1111	男孩子
+T181	Time-Implicit 1120 1122	那天
+T182	Person-Pronoun 1122 1123	我
+T183	Thing-Nominal 1125 1127	糖纸
+T184	Person-Name 1136 1138	俊姨
+T185	Thing-Nominal 1140 1142	糖纸
+T186	Location-Nominal 1143 1145	嘴里
+R17	Located Arg1:T185 Arg2:T186	
+T187	Thing-Nominal 1160 1163;1164 1169	田边的 树林和草丛
+T188	Location-Nominal 1160 1162	田边
+R18	Located Arg1:T187 Arg2:T188	
+T189	Thing-Nominal 1171 1173	蜥蜴
+T190	Thing-Nominal 1174 1175	蛇
+T191	Thing-Nominal 1176 1178	毛虫
+T192	Person-Pronoun 1181 1183	我们
+T193	Person-Nominal 1197 1199	外婆
+T194	Person-Pronoun 1205 1206	我
+T195	Time-Implicit 1209 1219	那些朦朦懂懂的岁月里
+T196	Person-Nominal 1222 1224;1225 1226	男女 生
+T197	Person-Pronoun 1231 1232	我
+T198	Person-Name 1239 1243	世秀姑娘
+T199	Location-Nominal 1252 1255	那地方
+T200	Person-Pronoun 1258 1259	我
+T201	Person-Pronoun 1267 1268	我
+T202	Time-Implicit 1268 1270	当时
+T203	Person-Nominal 1326 1328	外婆
+T204	Location-Nominal 1330 1331	家
+T205	Person-Nominal 1334 1337	一家子
+T206	Time-Implicit 1341 1343	那时
+T207	Person-Nominal 1343 1345	外公
+R19	Family Arg1:T207 Arg2:T203	
+T208	Location-Nominal 1346 1351	很远的地方
+T209	Person-Nominal 1352 1354	医生
+T210	Time-Implicit 1355 1358	解放前
+T211	Person-Nominal 1358 1360	外公
+T212	Thing-Nominal 1361 1363	药铺
+T213	Time-Implicit 1364 1367	解放后
+T214	Person-Pronoun 1367 1368	他
+*	Coreference T214 T211
+T215	Thing-Nominal 1369 1371	药铺
+T216	Person-Nominal 1380 1381	人
+T217	Person-Nominal 1383 1385	外公
+T218	Person-Nominal 1386 1388	中医
+T219	Thing-Nominal 1393 1397	草根树皮
+T220	Thing-Nominal 1399 1401	医院
+T221	Person-Nominal 1413 1415	外公
+T222	Person-Nominal 1417 1418	人
+T223	Person-Nominal 1423 1424	人
+T224	Person-Pronoun 1425 1426	他
+*	Coreference T224 T221
+T225	Thing-Nominal 1428 1432	獐麂兔肉
+T226	Person-Nominal 1435 1436;1437 1438	外 公
+T227	Location-Nominal 1441 1442	家
+T228	Thing-Nominal 1444 1448	这些东西
+*	Coreference T228 T225
+T229	Thing-Nominal 1456 1458	粮食
+T230	Time-Implicit 1459 1461	那时
+T231	Thing-Nominal 1461 1463	粮食
+T232	Person-Nominal 1470 1472	三姨
+T233	Person-Nominal 1473 1475	外婆
+T234	Organization-Nominal 1476 1479	生产队
+T235	Person-Nominal 1493 1496	我三姨
+T236	Person-Pronoun 1493 1494	我
+R20	Family Arg1:T235 Arg2:T236	
+T237	Person-Nominal 1498 1505	石板溪的大美人
+T238	Person-Pronoun 1511 1512	她
+*	Coreference T238 T235
+T239	Location-Nominal 1523 1531	一个有粮吃的地方
+T240	Thing-Nominal 1526 1527	粮
+T241	Person-Pronoun 1532 1533	她
+T242	Location-Nominal 1536 1538	娘家
+T243	Person-Nominal 1543 1545	外婆
+T244	Thing-Nominal 1548 1550	粮食
+T245	Location-Nominal 1555 1557	娘家
+T246	Person-Nominal 1557 1558;1559 1563	这 一大家子
+T247	Thing-Nominal 1565 1566	米
+T248	Person-Nominal 1570 1572	外婆
+T249	Time-Implicit 1574 1576	晚上
+T250	Person-Nominal 1582 1583	我
+T251	Thing-Nominal 1589 1591	廊桥
+T252	Thing-Nominal 1594 1597	外婆家
+T253	Location-Name 1598 1602	廊桥西头
+R21	Located Arg1:T252 Arg2:T253	
+T254	Person-Nominal 1594 1596	外婆
+T255	Location-Name 1604 1608	廊桥东头
+T256	Person-Nominal 1609 1611	外婆
+T257	Thing-Nominal 1615 1620	一个小磨坊
+R22	Located Arg1:T257 Arg2:T255	
+T258	Time-Implicit 1622 1627	公私合营后
+T259	Thing-Nominal 1628 1630;1631 1632	水磨 坊
+T260	Thing-Nominal 1640 1642	水磨
+T261	Person-Nominal 1647 1649	外婆
+T262	Time-Implicit 1652 1654	每天
+T263	Person-Pronoun 1654 1655	她
+*	Coreference T263 T261
+T264	Thing-Nominal 1660 1664	断沟的水
+T265	Thing-Nominal 1665 1667	那水
+T266	Thing-Nominal 1674 1678	一根轴承
+T267	Location-Nominal 1679 1682	轴承上
+T268	Thing-Nominal 1683 1685	皮带
+R23	Located Arg1:T268 Arg2:T267	
+T269	Thing-Nominal 1706 1707	米
+T270	Thing-Nominal 1709 1711	面粉
+T271	Thing-Nominal 1713 1715	面条
+T272	Thing-Nominal 1727 1729	粮食
+T273	Location-Pronoun 1730 1732	这里
+T274	Thing-Nominal 1716 1724	石板溪的家家户户
+T275	Location-Name 1716 1719	石板溪
+T276	Person-Nominal 1736 1738	外婆
+T277	Location-Name 1739 1743	这磨坊里
+T278	Person-Pronoun 1744 1745	她
+*	Coreference T278 T276
+T279	Person-Nominal 1749 1752	好多人
+T280	Person-Pronoun 1764 1765	她
+T281	Person-Nominal 1773 1779	好多少男少女
+T282	Thing-Nominal 1784 1787	水磨坊
+T283	Person-Nominal 1794 1796	外婆
+T284	Person-Pronoun 1804 1806	他们
+*	Coreference T284 T281
+T285	Location-Nominal 1818 1821	廊桥下
+T286	Thing-Nominal 1822 1825	大岩屋
+R24	Located Arg1:T286 Arg2:T285	
+T287	Person-Nominal 1826 1828	外婆
+T288	Person-Nominal 1830 1840	好几名不知姓名的女人
+T289	Person-Nominal 1844 1846	外婆
+T290	Person-Nominal 1850 1856	非婚的外乡人
+T291	Person-Nominal 1860 1862	外婆
+T292	Person-Pronoun 1863 1865	她们
+*	Coreference T292 T290
+T293	Person-Pronoun 1870 1872	她们
+T294	Thing-Nominal 1872 1874;1875 1876	红糖 水
+T295	Person-Nominal 1879 1881	外公
+T296	Person-Pronoun 1882 1884	她们
+T297	Thing-Nominal 1885 1886	药
+R25	Family Arg1:T295 Arg2:T291	
+T298	Person-Pronoun 1895 1897	她们
+T299	Person-Nominal 1901 1905	那些娃娃
+T300	Thing-Nominal 1907 1916	一些没儿没女的人户
+T301	Person-Nominal 1919 1922	好多人
+T302	Person-Nominal 1923 1926	我外婆
+T303	Person-Pronoun 1923 1924	我
+T304	Person-Nominal 1927 1931	送子娘娘
+T305	Thing-Nominal 1933 1935;1936 1938	这大 岩屋
+T306	Time-Implicit 1946 1950	一个晚上
+T307	Person-Pronoun 1954 1955	我
+T308	Person-Name 1956 1960	世秀姑娘
+T309	Location-Name 1962 1964	岩屋
+T310	Time-Implicit 1954 1965	我和世秀姑娘躲进岩屋时
+T311	Person-Nominal 1969 1973	一对人儿
+T312	Location-Pronoun 1978 1980	那里
+T313	Person-Pronoun 1984 1986	我们
+T314	Person-Nominal 1998 2001	大人们
+T315	Time-Explicit 2023 2025	正月
+T316	Thing-Nominal 2027 2028	鹰
+T317	Thing-Nominal 2029 2030	鸟
+T318	Location-Nominal 2010 2012	当地
+T319	Thing-Nominal 2035 2036	狗
+T320	Time-Explicit 2031 2033	二月
+T321	Time-Explicit 2039 2041	三月
+T322	Thing-Nominal 2043 2044	蛇
+T323	Time-Explicit 2047 2049	四月
+T324	Thing-Nominal 2045 2046	雾
+T325	Person-Nominal 2051 2052	人
+T326	Person-Pronoun 2056 2057;2058 2059	我 们
+T327	Time-Implicit 2078 2088	第二天见到世秀姑娘时
+T328	Person-Name 2083 2087	世秀姑娘
+T329	Person-Pronoun 2089 2090	她
+T330	Thing-Nominal 2090 2091	脸
+R26	Part-Whole Arg1:T330 Arg2:T329	
+T331	Person-Pronoun 2098 2099	我
+*	Coreference T329 T328
+T332	Person-Pronoun 2101 2102	她
+T333	Time-Implicit 2108 2112	那天晚上
+T334	Person-Pronoun 2121 2122	她
+T335	Person-Pronoun 2128 2129	我
+T336	Time-Implicit 2132 2134	后来
+T337	Time-Explicit 2141 2153	公元1969年的一个夏天
+T338	Thing-Nominal 2154 2157	清江水
+T339	Person-Nominal 2171 2173	外婆
+T340	Thing-Nominal 2171 2177	外婆的水磨坊
+T341	Thing-Nominal 2182 2184	廊桥
+T342	Thing-Nominal 2189 2192;2193 2197	石板溪 边的小街
+T343	Location-Name 2189 2192;2193 2194	石板溪 边
+R27	Located Arg1:T342 Arg2:T343	
+T344	Person-Pronoun 2212 2214	我们
+T345	Person-Nominal 2222 2224	外婆
+T346	Person-Pronoun 2226 2228	我们
+T347	Person-Nominal 2238 2241	舅舅们
+T348	Person-Nominal 2256 2258	大舅
+T349	Person-Nominal 2263 2265	二舅
+T350	Person-Nominal 2268 2270	名医
+T351	Person-Nominal 2271 2277	所有的舅舅姨
+T352	Thing-Nominal 2281 2283	衣食
+T353	Person-Nominal 2291 2293	外婆
+T354	Location-Name 2301 2304	石板溪
+T355	Thing-Nominal 2312 2313	手
+T356	Location-Nominal 2308 2310	路上
+T357	Location-Nominal 2324 2328;2329 2331	昔日的廊 桥边
+T358	Location-Name 2332 2338	水磨坊遗址旁
+T359	Time-Implicit 2343 2346	再之后
+T360	Location-Pronoun 2347 2349	这里
+T361	Thing-Nominal 2352 2355	公路桥
+T362	Thing-Nominal 2356 2359	公路桥
+T363	Thing-Nominal 2365 2367	汽车
+T364	Thing-Nominal 2368 2371	拖拉机
+T365	Thing-Nominal 2372 2378	突突的拖拉机
+T366	Person-Nominal 2384 2387	我外婆
+T367	Person-Pronoun 2384 2385	我
+T368	Thing-Nominal 2391 2397	东方红拖拉机
+T369	Person-Pronoun 2399 2400	你
+T370	Person-Nominal 2401 2404	我外婆
+T371	Person-Pronoun 2401 2402	我
+R28	Family Arg1:T370 Arg2:T371	
+T372	Person-Nominal 2406 2408	外婆
+T373	Time-Implicit 2421 2425	每天清晨
+T374	Location-Nominal 2427 2429	火塘
+T375	Thing-Nominal 2430 2434	一大蓬火
+R29	Located Arg1:T375 Arg2:T374	
+T376	Thing-Nominal 2436 2440	一罐浓茶
+T377	Thing-Nominal 2444 2447	长烟锅
+T378	Thing-Nominal 2449 2452	一袋烟
+T379	Thing-Nominal 2456 2457	茶
+T380	Thing-Nominal 2460 2461	烟
+T381	Person-Pronoun 2462 2463	她
+*	Coreference T381 T372
+T382	Time-Implicit 2463 2465	这时
+T383	Thing-Nominal 2498 2500	慈目
+T384	Thing-Nominal 2500 2502	善眼
+T385	Person-Nominal 2514 2515	人
+T386	Person-Nominal 2517 2519	观音
+T387	Time-Implicit 2523 2526	那一刻
+T388	Time-Implicit 2530 2541	外婆幸福指数最高的时刻
+T389	Person-Nominal 2530 2532	外婆
+T390	Time-Implicit 2542 2545	那一刻
+T391	Person-Pronoun 2548 2549	她
+T392	Thing-Nominal 2553 2554	手
+R30	Part-Whole Arg1:T392 Arg2:T391	
+T393	Person-Nominal 2578 2580	外婆
+T394	Time-Implicit 2580 2582	当年
+T395	Person-Pronoun 2586 2587	我
+T396	Person-Name 2588 2592	世秀姑娘
+T397	Person-Pronoun 2596 2597	我
+T398	Person-Pronoun 2604 2605	我
+T399	Person-Name 2616 2620	世秀姑娘
+T400	Person-Nominal 2632 2634	外婆
+T401	Time-Implicit 2634 2636	现在
+T402	Person-Name 2659 2662	陈哈林
+T403	Person-Nominal 2663 2671	中国作家协会会员
+T404	Person-Nominal 2672 2689	中国文联文艺研修院地县班第一期学员
+T405	Person-Nominal 2690 2700	湖北省第九届文联委员
+T406	Person-Nominal 2701 2709	湖北作家协会会员
+T407	Person-Nominal 2710 2714;2715 2720	中国散文 家协会理事
+T408	Time-Explicit 2721 2726	1989年
+T409	Abstract 2736 2742	《天永师傅》
+T410	Abstract 2745 2749	《山花》
+T411	Abstract 2755 2761	《民族文学》
+T412	Abstract 2761 2767	《散文百家》
+T413	Abstract 2767 2773	《散文选刊》
+T414	Abstract 2773 2775;2776 2778	《芳 草》
+T415	Abstract 2778 2784	《长江文艺》
+T416	Abstract 2784 2790	《山西文学》
+T417	Abstract 2790 2796	《长江丛刊》
+T418	Abstract 2796 2805	《人民日报、大地》
+T419	Abstract 2805 2811	《光明日报》
+T420	Abstract 2811 2816	《文学报》
+T421	Abstract 2816 2822	《新民晚报》
+T422	Abstract 2849 2857	《石板街的记忆》
+T423	Abstract 2857 2862	《汪洋庄》
+T424	Abstract 2862 2869	《冒气的故土》

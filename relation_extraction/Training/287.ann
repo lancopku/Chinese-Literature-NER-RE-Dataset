@@ -1,0 +1,59 @@
+T1	Metric 1 4	四十万
+T2	Thing-Nominal 4 6	欠债
+T3	Thing-Nominal 6 8	白纸
+T4	Thing-Nominal 8 10	黑字
+T5	Thing-Nominal 11 18	抵押的工资存折
+T6	Time-Implicit 23 28	春节前几天
+T7	Organization-Nominal 28 30	单位
+T8	Thing-Nominal 30 34	发年终奖
+T9	Person-Pronoun 36 37	她
+T10	Thing-Nominal 39 42	年终奖
+*	Coreference T10 T8
+T11	Thing-Nominal 46 52	职工工资存折
+T12	Person-Nominal 56 58	领导
+T13	Thing-Nominal 63 65	现金
+T14	Person-Nominal 67 69	领导
+T15	Thing-Nominal 81 83	脑子
+T16	Person-Nominal 88 90	老娘
+T17	Thing-Nominal 90 94	脱裤子了
+T18	Metric 96 98	一片
+T19	Thing-Nominal 98 100	乌云
+T20	Time-Implicit 100 106	马上显露出来
+T21	Metric 107 109	两位
+T22	Person-Nominal 109 112	男领导
+T23	Time-Implicit 112 115	即刻逃
+T24	Person-Pronoun 120 122	我们
+T25	Location-Nominal 122 123	县
+T26	Person-Nominal 125 127	人士
+T27	Time-Implicit 130 134	这十年来
+T28	Time-Implicit 135 142	赌风严重的一年
+T29	Thing-Nominal 143 148	流失的资金
+T30	Location-Nominal 151 152	县
+T31	Thing-Nominal 152 158	地方财政收入
+T32	Time-Explicit 158 168	。2014年5月中旬
+T33	Organization-Nominal 168 170	央视
+T34	Metric 171 173	一条
+T35	Thing-Nominal 173 175	新闻
+T36	Time-Implicit 176 180;181 187	2014 年1至3月份
+T37	Location-Name 187 189	上海
+T38	Thing-Nominal 189 190;191 194	网 络赌博
+T39	Time-Implicit 194 196	已经
+T40	Metric 196 206	多达一千三百多亿港元
+T41	Thing-Nominal 218 221	拦路虎
+T42	Thing-Nominal 223 226	真老虎
+T43	Thing-Nominal 228 231	纸老虎
+T44	Thing-Pronoun 246 247	它
+T45	Thing-Nominal 249 251;252 253	纸老 虎
+*	Coreference T45 T44
+T46	Thing-Nominal 255 259;260 261	地下六合 彩
+T47	Person-Nominal 262 266	卖特码的
+T48	Thing-Nominal 270 272	赌资
+T49	Location-Nominal 275 278	县城中
+T50	Metric 279 282	很多条
+T51	Person-Pronoun 282 283	你
+T52	Thing-Nominal 291 293	赌线
+T53	Metric 294 296	一条
+T54	Metric 301 304	很多个
+T55	Thing-Nominal 304 306	庄家
+T56	Location-Nominal 307 310	往上捋
+T57	Thing-Nominal 316 319	大赌头

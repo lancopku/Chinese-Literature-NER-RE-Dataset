@@ -1,0 +1,131 @@
+T1	Time-Explicit 0 8	20世纪50年代
+T2	Organization-Name 9 14	无锡邮电局
+T3	Time-Explicit 17 19	十年
+T4	Person-Pronoun 20 21	我
+T5	Person-Pronoun 35 36	我
+T6	Time-Explicit 53 58	959年底
+T7	Person-Pronoun 59 60	我
+T8	Organization-Name 70 76	中国邮电工会
+T9	Person-Pronoun 99 100	我
+T10	Person-Pronoun 118 120	他们
+T11	Thing-Nominal 127 128	书
+T12	Person-Nominal 133 138	通联组同志
+T13	Person-Pronoun 155 156	您
+T14	Person-Nominal 162 165	通讯员
+*	Coreference T13 T14
+T15	Person-Pronoun 168 170	我们
+*	Coreference T12 T15
+T16	Person-Nominal 176 182	编辑室的同志
+T17	Person-Pronoun 174 176	我们
+*	Coreference T17 T16
+T18	Person-Pronoun 185 186	你
+T19	Person-Nominal 189 197	你熟悉的两位同志
+T20	Person-Pronoun 189 190	你
+R1	Social Arg1:T20 Arg2:T19	
+T21	Person-Pronoun 203 205	我们
+T22	Person-Pronoun 210 211	您
+T23	Person-Pronoun 215 216	你
+T24	Person-Pronoun 218 219	书
+T25	Organization-Nominal 220 226	全委会宣传部
+T26	Location-Nominal 247 252	咱们编辑室
+T27	Person-Pronoun 259 260	你
+T28	Person-Pronoun 265 266	我
+*	Coreference T28 T27
+T29	Thing-Nominal 274 275	书
+T30	Person-Nominal 303 306	同志们
+T31	Person-Pronoun 310 311	我
+T32	Person-Pronoun 314 315	我
+T33	Person-Pronoun 319 320	我
+T34	Person-Pronoun 330 332	你们
+*	Coreference T34 T30
+T35	Organization-Nominal 341 345	我们企业
+T36	Organization-Nominal 345 347	自己
+*	Coreference T35 T36
+T37	Person-Nominal 352 356	报社同志
+T38	Person-Nominal 358 361	通讯员
+R2	Ownership Arg1:T4 Arg2:T2	
+T39	Organization-Nominal 64 66	邮电
+*	Coreference T39 T2
+T40	Person-Nominal 363 369	自家兄弟姐妹
+T41	Person-Pronoun 370 371	我
+*	Coreference T38 T40 T41
+R3	Social Arg1:T37 Arg2:T38	
+T42	Person-Nominal 375 377	父亲
+T43	Person-Nominal 380 383	亲兄长
+T44	Person-Nominal 386 390	报社同志
+T45	Person-Pronoun 402 403	我
+T46	Person-Nominal 411 414	文化人
+T47	Person-Nominal 424 428	报社同志
+*	Coreference T47 T46 T48
+T48	Person-Pronoun 442 444	他们
+T49	Person-Pronoun 446 447	我
+T50	Organization-Name 449 454	无锡邮电局
+T51	Location-Nominal 457 459	娘家
+T52	Organization-Nominal 461 463	报社
+T53	Location-Nominal 466 470	我的娘家
+*	Coreference T52 T53
+T54	Time-Explicit 473 478	1951年
+T55	Location-Name 478 480	上海
+T56	Person-Pronoun 493 494	我
+T57	Person-Nominal 495 498	通讯员
+*	Coreference T56 T57
+T58	Person-Pronoun 500 501	我
+T59	Person-Pronoun 509 510	你
+*	Coreference T58 T59
+T60	Organization-Nominal 549 551	报社
+T61	Person-Nominal 555 559	全体同志
+R4	Ownership Arg1:T61 Arg2:T60	
+R5	Ownership Arg1:T7 Arg2:T39	
+T62	Organization-Nominal 109 111	报社
+R6	Ownership Arg1:T12 Arg2:T62	
+T63	Organization-Nominal 563 569	党、团、工会
+T64	Person-Pronoun 600 601	我
+T65	Time-Explicit 612 617	1953年
+T66	Organization-Name 617 621	华东邮电
+T67	Person-Nominal 624 628	部分同志
+T68	Location-Name 629 631	北京
+T69	Person-Pronoun 656 657	我
+T70	Organization-Name 661 668	中国邮电工人报
+T71	Person-Nominal 670 672;673 674	通讯 员
+R7	Ownership Arg1:T69 Arg2:T70	
+*	Coreference T69 T71
+T72	Time-Explicit 677 688	1957年反右运动后期
+T73	Organization-Nominal 691 693	报社
+*	Coreference T73 T70
+T74	Person-Pronoun 699 700	我
+T75	Time-Explicit 701 706	1949年
+T76	Person-Nominal 708 711	解放军
+T77	Organization-Name 713 718	无锡邮电局
+T78	Person-Nominal 725 728	话务员
+*	Coreference T74 T78
+T79	Person-Pronoun 733 734	我
+T80	Time-Implicit 743 745	每天
+T81	Thing-Nominal 747 749	话筒
+T82	Organization-Nominal 764 766	国家
+T83	Person-Nominal 781 785	报社同志
+T84	Person-Nominal 788 792	编辑同志
+T85	Person-Pronoun 797 798	你
+T86	Person-Pronoun 805 807	我们
+T87	Person-Pronoun 808 809	你
+*	Coreference T86 T84
+T88	Person-Pronoun 819 820;821 822	我 们
+T89	Person-Pronoun 824 825	你
+T90	Person-Pronoun 868 869	你
+T91	Person-Pronoun 886 887	你
+T92	Person-Pronoun 898 899	你
+*	Coreference T79 T85
+R8	Social Arg1:T79 Arg2:T83	
+R9	Social Arg1:T86 Arg2:T87	
+T93	Time-Implicit 912 914	几年
+T94	Person-Nominal 915 918	通讯员
+T95	Person-Pronoun 922 923	我
+T96	Person-Nominal 924 926	别人
+T97	Person-Nominal 927 929	别人
+T98	Person-Pronoun 941 942	我
+T99	Person-Pronoun 944 945	我
+T100	Person-Pronoun 949 950	我
+T101	Organization-Name 956 961	中国共产党
+T102	Person-Pronoun 964 966	我们
+T103	Organization-Nominal 969 971;972 976	社会 主义祖国
+T104	Person-Nominal 982 989	对社会有益的人
+*	Coreference T100 T104

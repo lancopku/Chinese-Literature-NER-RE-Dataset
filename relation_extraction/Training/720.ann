@@ -1,0 +1,254 @@
+T1	Location-Name 0 3	九寨沟
+T2	Time-Implicit 32 38	很久很久以前
+T3	Person-Name 39 41	达戈
+T4	Person-Name 42 46	沃洛色嫫
+T5	Location-Name 47 49	岷山
+T6	Person-Nominal 50 57	一对热恋的山神
+R1	Part-Whole Arg1:T3 Arg2:T6	
+R2	Part-Whole Arg1:T4 Arg2:T6	
+T7	Person-Name 58 60	达戈
+T8	Metric 69 71	一面
+T9	Thing-Nominal 71 73	宝镜
+T10	Person-Nominal 74 76	姑娘
+*	Coreference T10 T4
+T11	Person-Nominal 81 83	二人
+*	Coreference T11 T6 T21
+T12	Thing-Nominal 84 85	镜
+*	Coreference T12 T9
+T13	Time-Implicit 81 91	二人对镜定情的那一刻
+T14	Person-Name 92 97	魔鬼蛇魔扎
+T15	Person-Name 106 110	沃洛色嫫
+T16	Thing-Nominal 112 114	宝镜
+T17	Location-Nominal 117 119	山谷
+T18	Person-Name 125 133	万山之祖扎依扎嘎
+T19	Person-Nominal 139 141	魔鬼
+*	Coreference T19 T14
+T20	Thing-Nominal 143 146	宝镜岩
+T21	Person-Nominal 149 152	有情人
+T22	Person-Nominal 154 156	眷属
+T23	Location-Nominal 161 163	山下
+T24	Location-Nominal 5 7	海子
+T25	Location-Nominal 172 174	山谷
+T26	Metric 175 179	114块
+T27	Thing-Nominal 179 182;183 184	宝镜碎 片
+T28	Metric 199 203	114个
+T29	Location-Nominal 206 208	海子
+T30	Location-Pronoun 224 225	它
+*	Coreference T30 T29 T37
+T31	Location-Nominal 233 235	大海
+T33	Thing-Nominal 246 250	滔天巨浪
+T32	Thing-Nominal 238 242	浩淼烟波
+T34	Thing-Nominal 258 260	高山
+T35	Thing-Nominal 260 262	湖泊
+T36	Thing-Nominal 273 277	深山池塘
+T37	Location-Pronoun 282 284	它们
+T38	Person-Nominal 293 298	当地的藏胞
+T39	Location-Nominal 305 307	大海
+T40	Person-Pronoun 308 310	他们
+*	Coreference T40 T38 T48 T51
+T41	Thing-Nominal 311 314	每滴水
+T42	Thing-Nominal 317 321	海的儿子
+*	Coreference T42 T41
+T43	Thing-Nominal 324 325	水
+T44	Location-Nominal 323 328	有水的地方
+T45	Location-Nominal 333 335	海子
+*	Coreference T44 T45
+T46	Location-Name 337 340	九寨沟
+T47	Person-Pronoun 342 343	我
+T48	Person-Nominal 348 352	当地藏民
+T49	Thing-Nominal 358 359	水
+T50	Thing-Nominal 360 361	海
+T51	Person-Nominal 357 366	视水如海的山里汉子
+T52	Metric 366 368	个个
+T53	Thing-Nominal 370 371	海
+T54	Thing-Nominal 378 379	海
+T55	Person-Pronoun 391 392	我
+T56	Location-Nominal 407 409	大海
+T57	Location-Nominal 398 400	海子
+T58	Person-Pronoun 424 425	我
+T59	Person-Nominal 428 430	上帝
+T60	Person-Pronoun 434 435	它
+*	Coreference T60 T59
+T61	Thing-Nominal 453 455	海啸
+T62	Location-Nominal 457 459	大海
+T63	Person-Nominal 468 470	神仙
+T64	Location-Nominal 472 476	天下海洋
+T65	Metric 482 484	一朵
+T66	Thing-Nominal 484 486	浪花
+T67	Thing-Pronoun 488 490	它们
+*	Coreference T67 T66
+T68	Thing-Nominal 492 495	茶盘儿
+R3	Located Arg1:T67 Arg2:T68	
+T69	Location-Nominal 499 503	深山老林
+T70	Location-Name 512 515	九寨沟
+T71	Person-Nominal 518 519	人
+T72	Location-Nominal 522 530	袖珍型海洋博物馆
+T73	Person-Pronoun 531 532	我
+T74	Location-Pronoun 533 534	它
+*	Coreference T74 T72 T75
+T75	Location-Name 545 555	海洋标本的精品收藏屋
+T78	Thing-Nominal 593 595	山泉
+T76	Thing-Nominal 587 589	降雨
+T77	Thing-Nominal 590 592	融雪
+T79	Location-Nominal 600 605	九寨沟地区
+T80	Thing-Nominal 605 607	空气
+T81	Thing-Nominal 610 611	雨
+T82	Location-Nominal 618 620	群山
+T83	Thing-Nominal 620 622	白雪
+T84	Thing-Nominal 630 633	地下水
+T85	Thing-Nominal 640 642	泉水
+T86	Person-Nominal 649 652	老天爷
+T87	Location-Nominal 657 662	“海子”们
+*	Coreference T87 T57
+T88	Thing-Nominal 679 680	水
+T89	Location-Nominal 690 697	层层叠叠的台阶
+T90	Location-Nominal 700 707	大大小小的瀑布
+T91	Location-Nominal 710 717	深深浅浅的坑洼
+T92	Metric 720 725	一串接一串
+T93	Thing-Nominal 753 754	水
+T94	Thing-Nominal 756 757	油
+T95	Thing-Nominal 763 767	滔滔山水
+T96	Location-Pronoun 768 770	它们
+T97	Location-Pronoun 732 737	“海子”们
+*	Coreference T97 T96 T99 T100 T105 T106
+T98	Person-Nominal 788 790	游人
+T99	Location-Pronoun 793 795	自己
+T100	Location-Pronoun 805 807	它们
+T101	Person-Nominal 833 835	人们
+T102	Thing-Nominal 839 840	水
+T103	Thing-Nominal 849 851	阳光
+T104	Location-Nominal 863 865	水域
+T105	Location-Pronoun 881 889	九寨沟的“海子”
+T106	Location-Pronoun 895 896	它
+T107	Thing-Nominal 916 920	调色盘儿
+T108	Metric 914 916	一只
+T109	Metric 906 908	一处
+T110	Metric 921 923	一个
+T111	Person-Nominal 923 927	小男孩儿
+T112	Thing-Nominal 945 947	眼睛
+R4	Part-Whole Arg1:T112 Arg2:T111	
+T113	Person-Nominal 948 951	他妈妈
+R5	Family Arg1:T113 Arg2:T111	
+T114	Person-Pronoun 948 949	他
+*	Coreference T114 T111
+T115	Location-Nominal 954 956	山上
+T116	Thing-Nominal 967 970	水龙头
+T117	Person-Nominal 975 980	叔叔阿姨们
+T118	Thing-Nominal 988 990	油漆
+T119	Person-Pronoun 993 994	我
+T120	Thing-Nominal 1038 1040	油漆
+T121	Location-Nominal 1033 1037	“海”底
+T122	Thing-Nominal 1041 1043	涂料
+T123	Person-Nominal 1079 1080	人
+T124	Location-Nominal 1089 1092	九寨沟
+T125	Thing-Nominal 1094 1095	水
+T126	Thing-Nominal 1096 1098	水流
+T127	Thing-Nominal 1109 1111	泥沙
+T128	Thing-Nominal 1112 1116	一般石头
+T129	Thing-Nominal 1119 1127	喀斯特碳酸盐岩石
+T130	Thing-Pronoun 1128 1130	它们
+*	Coreference T130 T129
+T131	Thing-Nominal 1131 1132	风
+T132	Thing-Nominal 1133 1134	水
+T133	Thing-Nominal 1156 1160	钙化物质
+T134	Thing-Nominal 1163 1166	钙化物
+*	Coreference T134 T133
+T135	Location-Nominal 1197 1201	地质公园
+T136	Time-Implicit 1202 1204	同时
+T137	Thing-Nominal 1217 1219	藻类
+T138	Thing-Nominal 1220 1224	草本植物
+T139	Location-Nominal 1236 1244	桃红柳绿的植物园
+T140	Thing-Nominal 1259 1263	千年古木
+T141	Thing-Nominal 1276 1280	枝枝叉叉
+R6	Part-Whole Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 1284 1292	毛茸茸的“触角”
+T143	Thing-Nominal 1309 1313	精美珊瑚
+T144	Location-Nominal 1318 1320	岸边
+T145	Thing-Nominal 1322 1324	植被
+T146	Person-Nominal 1345 1347	春姑
+T147	Metric 1343 1345	一群
+T148	Thing-Nominal 1333 1334	林
+T149	Thing-Nominal 1337 1338	花
+T150	Location-Nominal 1355 1356	水
+T151	Location-Nominal 1387 1392	“海子”们
+T152	Location-Pronoun 1402 1404	它们
+*	Coreference T152 T151 T153
+T153	Location-Name 1422 1426	“色魔”
+T154	Person-Pronoun 1429 1431	我们
+T155	Location-Nominal 1448 1451	五花海
+T156	Location-Pronoun 1465 1466	它
+*	Coreference T156 T155 T157 T158 T160
+T157	Location-Name 1468 1472	天下神池
+T158	Location-Name 1475 1479	浓缩精华
+T159	Location-Nominal 1482 1484	九寨
+*	Coreference T159 T124
+T160	Location-Nominal 1495 1496	湖
+T161	Thing-Nominal 1540 1544	开屏孔雀
+T162	Location-Nominal 1546 1549	卧龙海
+T163	Thing-Nominal 1552 1560	乳白色的钙华长堤
+T164	Metric 1550 1552	一条
+T165	Location-Nominal 1563 1565	湖心
+T166	Thing-Nominal 1568 1570	蛟龙
+T167	Location-Nominal 1573 1575	海底
+T168	Thing-Pronoun 1580 1581	龙
+*	Coreference T168 T166 T171
+T169	Thing-Nominal 1587 1588	风
+T170	Thing-Nominal 1595 1597	微风
+T171	Thing-Nominal 1600 1602	卧龙
+T172	Thing-Nominal 1613 1615	山风
+T173	Thing-Nominal 1630 1632	疾风
+T174	Thing-Nominal 1621 1622	头
+T175	Thing-Nominal 1623 1624	尾
+R7	Part-Whole Arg1:T174 Arg2:T171	
+R8	Part-Whole Arg1:T175 Arg2:T171	
+T176	Location-Nominal 1643 1644	江
+T177	Location-Nominal 1645 1646	海
+T178	Location-Nominal 1648 1650	长海
+T179	Location-Nominal 1651 1654	九寨沟
+T180	Location-Nominal 1651 1665	九寨沟最大最深最高的“海子”
+*	Coreference T180 T178
+T181	Location-Nominal 1438 1440	海子
+R9	Part-Whole Arg1:T155 Arg2:T181	
+R10	Part-Whole Arg1:T162 Arg2:T181	
+R11	Part-Whole Arg1:T178 Arg2:T181	
+T182	Metric 1666 1672	3000多米
+T183	Location-Nominal 1683 1685	银河
+T184	Metric 1688 1692	80多米
+T185	Person-Nominal 1703 1705	龙王
+T186	Thing-Nominal 1711 1713	碧水
+T187	Location-Nominal 1723 1725	雪山
+T188	Person-Nominal 1732 1736	王母娘娘
+T189	Thing-Nominal 1737 1739	绸裙
+T190	Thing-Nominal 1742 1749	环绕九寨的飘带
+T191	Location-Nominal 1753 1759	“Y”形山沟
+T192	Location-Nominal 1769 1772	盆景海
+T193	Location-Nominal 1773 1776	芦苇海
+T194	Location-Nominal 1777 1780	火花海
+T195	Location-Nominal 1781 1784	老虎海
+T196	Location-Nominal 1785 1788	犀牛海
+T197	Location-Nominal 1789 1792	熊猫海
+T198	Location-Nominal 1793 1796	箭竹海
+T199	Location-Nominal 1797 1800	天鹅海
+T200	Location-Pronoun 1826 1828	它们
+T201	Location-Nominal 1801 1808	一大群“海子”
+R12	Part-Whole Arg1:T192 Arg2:T201	
+R13	Part-Whole Arg1:T193 Arg2:T201	
+R14	Part-Whole Arg1:T194 Arg2:T201	
+R15	Part-Whole Arg1:T195 Arg2:T201	
+R16	Part-Whole Arg1:T196 Arg2:T201	
+R17	Part-Whole Arg1:T197 Arg2:T201	
+R18	Part-Whole Arg1:T198 Arg2:T201	
+R19	Part-Whole Arg1:T199 Arg2:T201	
+*	Coreference T201 T181 T200
+T202	Person-Pronoun 1858 1859	我
+T203	Metric 1869 1871	一滴
+T204	Thing-Nominal 1871 1872	水
+T205	Metric 1874 1876	一块
+T206	Thing-Nominal 1876 1877	石
+T207	Metric 1878 1880	一棵
+T208	Thing-Nominal 1880 1881	草
+T209	Thing-Nominal 1896 1897	天
+T210	Thing-Nominal 1898 1899	地
+T211	Person-Nominal 1913 1922	第115处“海子”
+T212	Person-Pronoun 1906 1907	我
+*	Coreference T211 T212

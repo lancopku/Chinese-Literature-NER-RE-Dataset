@@ -1,0 +1,191 @@
+T1	Person-Pronoun 14 15	我
+T2	Person-Pronoun 78 80	我们
+T3	Person-Pronoun 156 158	我们
+T4	Person-Pronoun 204 205	她
+T5	Person-Pronoun 212 213	她
+T6	Person-Pronoun 241 243	我们
+T7	Person-Pronoun 284 285	我
+T8	Person-Pronoun 383 384	我
+T9	Person-Pronoun 418 420	我们
+T10	Person-Pronoun 438 439	她
+T11	Person-Pronoun 500 502	我们
+T12	Person-Nominal 173 175	大家
+T13	Person-Nominal 191 194	小朋友
+T14	Person-Nominal 198 200	大家
+T15	Person-Nominal 235 237	母亲
+T16	Person-Nominal 243 245	姐妹
+T17	Person-Nominal 260 264	小伙伴们
+T18	Person-Nominal 367 371	小伙伴们
+T20	Person-Nominal 420 422	姐妹
+T21	Person-Nominal 433 435	姥姥
+T22	Person-Nominal 517 519	姥姥
+T23	Person-Nominal 537 539	姥爷
+T24	Person-Pronoun 606 608	我们
+T26	Person-Pronoun 720 722	我们
+T27	Person-Nominal 724 726	少女
+T28	Person-Pronoun 757 759	我们
+T29	Person-Pronoun 827 829	我们
+T30	Person-Pronoun 896 898	我们
+T31	Person-Pronoun 918 920	我们
+T32	Thing-Pronoun 1079 1080	它
+T33	Person-Nominal 1082 1084	人们
+T34	Thing-Pronoun 1094 1095	它
+T35	Person-Pronoun 1168 1169	你
+T37	Person-Nominal 1238 1240	母亲
+T38	Person-Nominal 1241 1243	父亲
+T39	Person-Pronoun 1327 1329	我们
+T40	Thing-Nominal 1368 1375	我们的绿色家园
+T41	Thing-Nominal 1 4	小手绢
+T42	Abstract 42 47	《小手绢》
+T43	Thing-Nominal 68 76	这四方方的小手绢
+T44	Person-Nominal 82 89	最贴身的小伙伴
+T45	Time-Implicit 10 12	天天
+T46	Time-Explicit 80 82	儿时
+T47	Time-Implicit 90 93	幼儿时
+T48	Person-Nominal 93 95	大家
+T49	Thing-Nominal 108 118	一块叠成长条状的手绢
+T50	Thing-Nominal 136 138	手绢
+R1	Ownership Arg1:T1 Arg2:T41	
+T51	Thing-Nominal 147 152	《丢手绢》
+T52	Person-Nominal 156 169	我们这
+群扎着羊角辫小女孩
+*	Coreference T52 T3 T139
+T53	Time-Explicit 231 234	过年时
+T54	Thing-Nominal 251 259	一块漂亮的花手绢
+*	Coreference T6 T16
+R2	Ownership Arg1:T16 Arg2:T54	
+T55	Thing-Nominal 276 278	手绢
+T56	Thing-Nominal 295 297	手绢
+R3	Ownership Arg1:T7 Arg2:T56	
+T57	Person-Nominal 307 321	一位身着银白色纱裙的妙龄少女
+T58	Thing-Nominal 336 341	舒放的手臂
+T59	Thing-Nominal 342 349	纤细灵巧的腰身
+T60	Thing-Nominal 323 324	头
+T61	Thing-Nominal 325 326	胸
+T62	Thing-Nominal 330 332	脚尖
+T63	Time-Explicit 401 403	初二
+T64	Time-Explicit 414 417	那一刻
+T65	Thing-Nominal 468 470	手绢
+*	Coreference T21 T10
+*	Coreference T9 T20
+T66	Location-Nominal 444 450	贴身的衣襟里
+R9	Located Arg1:T65 Arg2:T66	
+T67	Thing-Pronoun 476 477	它
+*	Coreference T65 T67
+T68	Thing-Nominal 506 515	一张面值贰
+角的纸
+R10	Family Arg1:T22 Arg2:T23	
+T71	Thing-Nominal 579 589	一只活灵活现的小老鼠
+T72	Thing-Nominal 555 560	一只小老鼠
+R12	Create Arg1:T23 Arg2:T72	
+T69	Thing-Nominal 561 564	两只手
+T70	Person-Pronoun 592 594	我们
+T73	Person-Nominal 594 596	姐妹
+*	Coreference T70 T73
+T74	Person-Nominal 617 619	姥爷
+R13	Family Arg1:T24 Arg2:T74	
+T75	Time-Implicit 629 631	儿时
+T76	Person-Nominal 641 647	爱美的小姑娘
+T77	Thing-Nominal 648 650	手绢
+T78	Thing-Nominal 662 665	花手绢
+T79	Person-Pronoun 653 655	我们
+T80	Thing-Nominal 655 660	时尚的头巾
+T81	Thing-Nominal 746 754	这四方方的小手绢
+T82	Person-Nominal 788 790	大人
+T83	Person-Nominal 792 794	小孩
+T85	Thing-Nominal 831 833	手绢
+T86	Thing-Nominal 857 858	手
+T87	Thing-Nominal 860 861	嘴
+T88	Thing-Nominal 863 865	桌子
+T89	Thing-Nominal 869 870	鞋
+T90	Thing-Nominal 872 874	纸巾
+T91	Thing-Nominal 883 885	手绢
+T92	Thing-Nominal 910 915	一棵棵大树
+T93	Thing-Nominal 925 931	一张张小纸巾
+T94	Thing-Nominal 945 947	森林
+T95	Metric 954 956	1吨
+T96	Metric 961 964	17棵
+T97	Time-Explicit 964 966	十年
+T98	Thing-Nominal 968 971	大树，
+T99	Metric 973 978	440万吨
+T100	Metric 988 994	7400多万
+T101	Time-Implicit 998 1000	如今
+T102	Abstract 1001 1005	“低碳”
+T103	Abstract 1031 1035	绿色环保
+T104	Thing-Nominal 1040 1042	手绢
+T105	Thing-Nominal 1061 1065	小小手绢
+T106	Thing-Name 1085 1087	地球
+T107	Metric 1129 1132	13亿
+T108	Thing-Nominal 1156 1162	大面积的森林
+T109	Thing-Nominal 1164 1166	地球
+T36	Person-Nominal 1176 1183	满头白发的母亲
+T110	Abstract 1190 1193	“低碳
+T111	Thing-Nominal 1227 1229	手绢
+T112	Thing-Nominal 1230 1237	四方方的小手巾
+T113	Person-Nominal 1263 1265	父母
+T114	Thing-Nominal 1308 1311	小方巾
+T115	Thing-Nominal 1335 1337	手绢
+*	Coreference T32 T34
+R14	Family Arg1:T38 Arg2:T37	
+R15	Ownership Arg1:T29 Arg2:T85	
+R16	Ownership Arg1:T28 Arg2:T81	
+T116	Thing-Nominal 808 815	一方小小的手绢
+T84	Time-Implicit 820 826	从什么时候起
+T117	Thing-Nominal 100 101	手
+T118	Thing-Nominal 102 103	手
+T119	Location-Nominal 104 106	胸前
+R17	Located Arg1:T49 Arg2:T119	
+T120	Time-Implicit 119 123	流鼻涕时
+T121	Thing-Nominal 124 125	手
+T122	Location-Nominal 133 135	胸前
+T123	Location-Nominal 191 197	小朋友的后面
+T124	Person-Nominal 247 249	每人
+T125	Thing-Nominal 424 426	眼睛
+T126	Thing-Nominal 484 493	几个面值不大的零票
+T127	Person-Nominal 502 504	每人
+T128	Thing-Nominal 679 681	头发
+T129	Thing-Nominal 686 691	乌黑的头发
+T130	Person-Nominal 693 695	主人
+T131	Thing-Nominal 709 718	一只翩翩飞舞的蝴蝶
+T132	Time-Implicit 736 745	那个物质匮乏的年代
+T133	Time-Implicit 767 774	快乐的童年时光
+T134	Time-Implicit 778 785	懵懂的少年时代
+T135	Thing-Nominal 1315 1317	手绢
+T136	Thing-Nominal 21 23	鼻涕
+T137	Thing-Nominal 25 26	汗
+T138	Person-Nominal 50 59	许多70后、80后
+*	Coreference T2 T138
+R19	Part-Whole Arg1:T117 Arg2:T48	
+R20	Located Arg1:T50 Arg2:T122	
+R21	Family Arg1:T6 Arg2:T15	
+T139	Person-Nominal 166 169	小女孩
+R4	Part-Whole Arg1:T60 Arg2:T57	
+R5	Part-Whole Arg1:T61 Arg2:T57	
+R6	Part-Whole Arg1:T62 Arg2:T57	
+R7	Part-Whole Arg1:T58 Arg2:T57	
+R8	Part-Whole Arg1:T59 Arg2:T57	
+T140	Person-Nominal 360 361	人
+T19	Location-Nominal 404 407	姥姥家
+T141	Person-Nominal 404 406	姥姥
+R18	Part-Whole Arg1:T125 Arg2:T9	
+R22	Family Arg1:T9 Arg2:T141	
+T142	Location-Nominal 482 484	里面
+R23	Located Arg1:T126 Arg2:T142	
+T143	Thing-Nominal 495 496	山
+T144	Thing-Nominal 497 498	水
+T145	Location-Nominal 531 536	贴身衣襟里
+T146	Thing-Nominal 546 548	手绢
+R24	Use Arg1:T23 Arg2:T146	
+R11	Part-Whole Arg1:T69 Arg2:T23	
+T25	Person-Nominal 629 634	儿时的伙伴
+*	Coreference T25 T76
+T147	Thing-Nominal 845 850	一次性纸巾
+T148	Time-Implicit 851 855	吃完饭后
+T149	Thing-Nominal 853 854	饭
+T150	Time-Implicit 875 878	用完后
+T151	Thing-Nominal 954 957	1吨纸
+T152	Thing-Nominal 979 984	生活纸制品
+T153	Person-Nominal 1111 1113	人类
+T154	Person-Nominal 1129 1133	13亿人
+T155	Thing-Nominal 1220 1222	纸巾
+T156	Thing-Nominal 1358 1365	一颗“色绿种子

@@ -1,0 +1,67 @@
+T1	Location-Nominal 46 51	这高台之上
+T2	Metric 84 87	九百年
+T3	Thing-Nominal 117 122	一杯薄薄酒
+T4	Thing-Nominal 148 150	灯笼
+T5	Person-Pronoun 152 153	他
+T6	Thing-Nominal 156 164	脚下的陷阱和藩墙
+T7	Location-Nominal 156 158	脚下
+R1	Located Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 174 180	山一样的身躯
+T9	Thing-Nominal 197 201	一支拙笔
+T10	Person-Pronoun 204 205	他
+T11	Person-Nominal 211 215	中国文人
+T12	Thing-Nominal 108 113	多少个午夜
+T13	Location-Pronoun 62 64	这里
+*	Coreference T13 T1
+T14	Thing-Nominal 234 236	面具
+T15	Thing-Nominal 276 278	皓月
+T16	Thing-Nominal 282 283	头
+T17	Thing-Nominal 288 302	华夏森林般不会弯曲的仕子脊梁
+T18	Location-Nominal 320 328	这神圣的版图之上
+T19	Thing-Nominal 334 337	超然台
+T20	Thing-Pronoun 338 339	你
+*	Coreference T20 T19
+T21	Thing-Nominal 340 345	儒家的香油
+T22	Thing-Nominal 347 349	灯盏
+T23	Thing-Nominal 350 351	身
+T24	Thing-Nominal 352 359	一件道家的衣裳
+T25	Location-Nominal 364 373	东夷文化繁盛的驿站
+T26	Location-Nominal 382 386	莲花座上
+T27	Thing-Nominal 402 405	超然台
+T28	Thing-Pronoun 406 407	你
+*	Coreference T28 T27
+T29	Person-Nominal 408 410	上苍
+T30	Location-Nominal 408 421	上苍绘制的密州这幅山水画中
+T31	Thing-Nominal 422 429	那枚艳丽的图章
+T32	Thing-Pronoun 430 431	你
+T33	Person-Nominal 454 460	帝王家的词圣
+T34	Thing-Nominal 475 480	天下的翅膀
+T35	Thing-Nominal 496 498	横刀
+T36	Location-Nominal 503 505	沙场
+T37	Metric 511 514	五千载
+T38	Metric 519 522	八千里
+T39	Thing-Nominal 522 524	山河
+T40	Person-Nominal 527 531	多少过客
+T41	Thing-Nominal 535 539	几多文章
+T42	Thing-Nominal 540 541	水
+T43	Location-Nominal 546 550	菩提树下
+T44	Thing-Nominal 550 552	经书
+R2	Located Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 577 581	一阕明月
+T46	Thing-Nominal 588 598	这虞舜生地、公冶牌楼
+T47	Thing-Nominal 615 619	文化庙堂
+T48	Location-Nominal 619 624	高高的案头
+T49	Thing-Nominal 631 632;633 634	明 月
+T50	Thing-Nominal 640 645	这名胜古台
+T51	Thing-Nominal 646 650	灵秀密州
+T52	Thing-Nominal 663 664	月
+T53	Thing-Nominal 661 662	台
+T54	Thing-Nominal 671 672	琴
+T55	Time-Explicit 687 694	脂粉裹身的北宋
+T56	Person-Nominal 697 701	栋梁才俊
+T57	Time-Implicit 716 718	甲午
+T58	Time-Implicit 721 723	上元
+T59	Thing-Nominal 725 726	琴
+T60	Location-Name 786 790	超然台上
+T61	Thing-Nominal 791 796	今夜的圆月
+R3	Located Arg1:T61 Arg2:T60	

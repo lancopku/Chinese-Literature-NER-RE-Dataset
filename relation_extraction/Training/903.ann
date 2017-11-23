@@ -1,0 +1,21 @@
+T1	Location-Name 10 15	上虞古县城
+T2	Abstract 28 36	最独特的人文元素
+T3	Location-Name 39 42	老丰惠
+T4	Location-Nominal 58 63	这座
+古城
+T6	Time-Explicit 76 81	唐长庆二年
+T7	Time-Explicit 83 90	公元822年始
+T8	Location-Name 91 93	丰惠
+T9	Location-Name 96 98	上虞
+T10	Location-Nominal 96 101	上虞的县城
+R1	Part-Whole Arg1:T8 Arg2:T9	
+T11	Time-Implicit 102 106	一千多年
+T12	Location-Nominal 110 128	钟灵毓秀，文人荟萃，人
+才辈出的古城
+T13	Person-Nominal 131 135	祖祖辈辈
+T14	Location-Nominal 136 141	这片土地上
+T15	Person-Nominal 135 148	在这片土地上生息繁衍的人们
+T16	Person-Nominal 173 174	人
+T17	Thing-Nominal 58 60;61 63	这座 古城
+T18	Person-Nominal 120 121;122 123	人 才
+T5	Person-Nominal 115 117	文人

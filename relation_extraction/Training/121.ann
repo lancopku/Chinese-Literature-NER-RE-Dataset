@@ -1,0 +1,189 @@
+T1	Thing-Nominal 0 3	仙人桥
+T2	Location-Nominal 4 7	林深处
+T3	Location-Name 13 21	皖东老嘉山林深处
+T4	Thing-Nominal 22 26	那架石桥
+R1	Located Arg1:T4 Arg2:T3	
+T5	Thing-Pronoun 27 28	你
+*	Coreference T5 T4
+T6	Thing-Nominal 39 41	双峰
+T7	Thing-Nominal 44 46	巨石
+T8	Thing-Nominal 49 51	两峰
+T9	Person-Name 78 81	张果老
+T10	Thing-Nominal 82 83	手
+R2	Part-Whole Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 84 85	石
+T12	Thing-Nominal 89 93	一座仙桥
+T13	Thing-Pronoun 111 112	你
+*	Coreference T13 T12
+T14	Location-Nominal 123 126	林深处
+T15	Thing-Nominal 127 129	山风
+T16	Thing-Nominal 131 132	风
+T17	Person-Nominal 147 151	云游僧人
+T18	Person-Nominal 153 155	八仙
+T19	Person-Nominal 159 162	采药人
+T20	Thing-Pronoun 169 170	你
+T21	Thing-Nominal 182 195	皖东老嘉山林深处的那架石桥
+T22	Location-Name 182 190	皖东老嘉山林深处
+R3	Located Arg1:T21 Arg2:T22	
+T23	Person-Nominal 216 217	人
+T24	Person-Nominal 226 227	人
+T25	Person-Nominal 234 235	人
+T26	Thing-Nominal 240 244	深山佳景
+T27	Location-Name 246 250	柴王城里
+T28	Thing-Nominal 250 252	号角
+T29	Thing-Nominal 256 260	一轮明月
+T30	Location-Name 263 268	老嘉山茂林
+T31	Thing-Nominal 269 273	缕缕秋风
+T32	Thing-Nominal 283 284	鸟
+T33	Location-Name 274 278	跃龙湖畔
+T34	Thing-Nominal 285 286	鹭
+T35	Thing-Nominal 290 292	晨雾
+T36	Thing-Nominal 294 298	烂漫山花
+T37	Thing-Nominal 299 301	夕阳
+T38	Thing-Nominal 305 306;307 308	湖 光
+T39	Location-Name 311 315	黄寨草场
+T40	Thing-Nominal 316 318	牧笛
+R4	Located Arg1:T40 Arg2:T39	
+T41	Person-Pronoun 326 327	你
+T42	Thing-Nominal 345 348	月牙湖
+T43	Location-Name 349 352	老嘉山
+T44	Thing-Nominal 353 356	梳妆镜
+R5	Located Arg1:T32 Arg2:T33	
+R6	Located Arg1:T34 Arg2:T33	
+R7	Located Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 357 360	月牙湖
+T46	Thing-Nominal 362 364	镜子
+T47	Location-Name 366 369	老嘉山
+T48	Thing-Nominal 370 373	梳妆镜
+R8	Located Arg1:T48 Arg2:T47	
+T49	Metric 375 379	一千多年
+T50	Person-Nominal 392 394	上苍
+T51	Thing-Nominal 406 408	土风
+T52	Thing-Nominal 400 401	山
+T53	Thing-Nominal 413 416	老嘉山
+T54	Location-Nominal 417 421	皖东深山
+T55	Person-Nominal 422 424	闺秀
+T56	Person-Name 425 431	后周世宗柴荣
+T57	Thing-Pronoun 432 433	她
+T58	Thing-Nominal 435 442	肃穆庄严的戎装
+T59	Metric 448 452	一千多年
+T60	Time-Implicit 453 457	三十年前
+T61	Thing-Nominal 461 463	戎装
+T62	Person-Nominal 467 471	乡村姑娘
+T63	Thing-Nominal 471 476	淡淡的素装
+*	Coreference T57 T53
+T64	Person-Pronoun 478 479	她
+T65	Thing-Nominal 480 482	风儿
+T66	Thing-Nominal 483 485	梳子
+T67	Thing-Nominal 488 491	梳妆镜
+T68	Thing-Nominal 498 502	一头秀发
+T69	Thing-Nominal 511 514	梳妆镜
+T70	Location-Nominal 523 525	脸上
+T71	Thing-Nominal 526 528	雀斑
+R9	Located Arg1:T71 Arg2:T70	
+T72	Location-Nominal 533 535	眼角
+T73	Thing-Nominal 536 538	鱼尾
+R10	Located Arg1:T73 Arg2:T72	
+T74	Thing-Nominal 541 548	清香醉人的山花
+T75	Person-Nominal 544 545	人
+T76	Person-Nominal 559 560	人
+T77	Thing-Nominal 562 565	月牙湖
+T78	Thing-Nominal 567 569	镜子
+T79	Location-Name 571 574	老嘉山
+T80	Thing-Nominal 575 578	梳妆镜
+R11	Located Arg1:T80 Arg2:T79	
+T81	Thing-Pronoun 580 581	它
+*	Coreference T81 T77
+T82	Location-Nominal 583 588	群峰峻岭间
+T83	Thing-Nominal 589 591	群峰
+T84	Thing-Nominal 599 603	长长的子
+T85	Metric 610 613	几十里
+T86	Thing-Nominal 614 618	那群白鹭
+T87	Time-Implicit 626 630	每年春天
+T88	Metric 635 637	千里
+T89	Thing-Nominal 648 650	镜子
+T90	Thing-Nominal 656 661	铁色的长喙
+T91	Thing-Nominal 665 670	青色的长脚
+T92	Thing-Nominal 674 679	雪白的蓑毛
+T93	Thing-Nominal 683 685	白鹭
+T94	Thing-Nominal 701 704	月牙湖
+T95	Thing-Nominal 706 708	镜子
+T96	Location-Name 710 713	老嘉山
+T97	Thing-Nominal 714 717	梳妆镜
+R12	Located Arg1:T97 Arg2:T96	
+T98	Thing-Nominal 719 724	山鹰和麻雀
+T99	Time-Implicit 728 734	清晨或黄昏时
+T100	Thing-Nominal 740 742	羽翼
+R13	Part-Whole Arg1:T98 Arg2:T100	
+T101	Thing-Nominal 753 756	月牙湖
+T102	Thing-Nominal 758 760	镜子
+T103	Location-Name 762 765	老嘉山
+T104	Thing-Nominal 766 769	梳妆镜
+R14	Located Arg1:T104 Arg2:T103	
+T105	Thing-Pronoun 771 772	它
+*	Coreference T105 T101
+T106	Thing-Nominal 778 782	烽火狼烟
+T107	Thing-Nominal 788 792	蓝天白云
+T108	Thing-Pronoun 798 799	它
+T109	Thing-Nominal 807 811	每一滴水
+T110	Person-Nominal 820 822	诗人
+T111	Location-Nominal 824 827	山溪里
+T112	Thing-Nominal 828 829	蛙
+R15	Located Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 842 845	老嘉山
+T114	Thing-Nominal 838 841	六蝶泉
+T115	Thing-Nominal 846 848	眼睛
+T116	Thing-Nominal 849 855	老嘉山的眼睛
+T117	Thing-Nominal 849 852	老嘉山
+T118	Metric 856 859	千万年
+T119	Thing-Pronoun 866 867	它
+*	Coreference T119 T114
+T120	Thing-Nominal 874 876	大山
+T121	Thing-Nominal 880 889	六只五彩斑斓的蝴蝶
+T122	Thing-Nominal 892 896	整条溪流
+T123	Thing-Pronoun 897 898	它
+T124	Thing-Nominal 905 907	大山
+T125	Thing-Nominal 911 913	草木
+T126	Thing-Nominal 922 928	老嘉山的眼睛
+T127	Thing-Nominal 922 925	老嘉山
+T128	Metric 929 932	千万年
+T129	Thing-Pronoun 939 940	它
+T130	Thing-Nominal 943 945	锦旗
+T131	Thing-Nominal 948 950	牛车
+T132	Thing-Nominal 953 955	狼烟
+T133	Thing-Nominal 958 960	铁蹄
+T134	Thing-Nominal 966 973	天空的万千景像
+T135	Thing-Nominal 966 968	天空
+T136	Thing-Nominal 977 979	群山
+T137	Thing-Nominal 987 989	溪流
+T138	Location-Nominal 997 999;1000 1001	山花 间
+T139	Thing-Nominal 1001 1003	蝴蝶
+R16	Located Arg1:T139 Arg2:T138	
+T140	Thing-Pronoun 1012 1013	它
+T141	Thing-Nominal 1013 1018	黑亮的眸子
+T142	Thing-Nominal 1021 1027	老嘉山的眼睛
+T143	Thing-Nominal 1021 1024	老嘉山
+T144	Metric 1028 1031	千万年
+T145	Thing-Nominal 1038 1040	山林
+T146	Thing-Nominal 1063 1065	风雨
+T147	Thing-Nominal 1068 1072	一棵古檀
+T148	Thing-Nominal 1083 1087	一棵大树
+T149	Thing-Nominal 1100 1102	铁镐
+T150	Location-Nominal 1104 1107	石头上
+T151	Thing-Nominal 1108 1110	石头
+T152	Thing-Nominal 1115 1117	吊车
+T153	Thing-Nominal 1120 1125	刺鼻的油烟
+T154	Thing-Nominal 1142 1145	老嘉山
+T155	Thing-Nominal 1146 1155	六只五彩斑谰的蝴蝶
+T156	Thing-Pronoun 1160 1162	它们
+T157	Thing-Nominal 1177 1183	老嘉山的眼睛
+T158	Thing-Nominal 1177 1180	老嘉山
+T159	Metric 1184 1187	千万年
+T160	Thing-Pronoun 1194 1195	它
+*	Coreference T160 T157
+*	Coreference T156 T155
+T161	Thing-Nominal 1207 1213	六蝶凿石疏泉
+T162	Thing-Nominal 1221 1225	六只蝴蝶
+T163	Thing-Nominal 1232 1234	流水
+T164	Thing-Nominal 1245 1251	老嘉山的眼睛
+T165	Thing-Nominal 1245 1248	老嘉山

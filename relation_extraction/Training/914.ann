@@ -1,0 +1,11 @@
+T1	Person-Pronoun 16 17	我
+T2	Organization-Nominal 16 26	我古老而又年轻的祖国
+T3	Organization-Pronoun 28 29	你
+*	Coreference T3 T2
+T4	Organization-Pronoun 34 35	你
+T5	Person-Nominal 47 51	海外游子
+T6	Thing-Nominal 47 54	海外游子的眼睛
+R1	Part-Whole Arg1:T6 Arg2:T5	
+T7	Thing-Nominal 3 5	红梅
+T8	Thing-Nominal 5 6	雪
+T9	Time-Implicit 11 12	春

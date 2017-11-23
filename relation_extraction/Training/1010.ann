@@ -1,0 +1,62 @@
+T1	Person-Pronoun 6 7	他
+T2	Location-Name 8 12	日月潭边
+T5	Thing-Nominal 27 32	四十颗月亮
+T3	Thing-Nominal 18 26	四十颗中秋的月亮
+*	Coreference T3 T5
+T4	Thing-Nominal 38 44	一张无形的网
+T6	Location-Nominal 47 49	故乡
+T7	Person-Nominal 83 87	儿时伙伴
+T8	Person-Nominal 95 99	高堂老母
+T9	Person-Nominal 105 107	母亲
+T10	Person-Nominal 110 111	娘
+*	Coreference T8 T9 T10
+T11	Metric 113 116	四十年
+T12	Thing-Nominal 182 190	四十颗中秋的月亮
+T13	Person-Pronoun 197 198	他
+T14	Location-Nominal 209 211	故乡
+T15	Location-Nominal 216 218	小村
+T16	Location-Nominal 213 215	小村
+T17	Location-Pronoun 224 225	它
+*	Coreference T17 T15
+T18	Thing-Nominal 306 311	电视机荧屏
+T19	Thing-Nominal 250 256	古老的麻石板
+T20	Thing-Nominal 405 410	小村的房子
+T21	Time-Implicit 132 134	儿时
+T22	Person-Nominal 170 172	亲人
+T23	Metric 152 155	四十年
+T24	Metric 166 169	四十年
+T25	Thing-Nominal 417 419	小村
+T26	Thing-Nominal 292 296	三月的风
+T27	Thing-Nominal 284 287	季节风
+T28	Thing-Nominal 270 272	老树
+T29	Person-Nominal 53 55	亲人
+R1	Social Arg1:T1 Arg2:T29	
+T30	Thing-Nominal 63 65	山水
+T31	Thing-Nominal 72 74	土地
+R2	Social Arg1:T1 Arg2:T7	
+R3	Family Arg1:T1 Arg2:T8	
+T32	Time-Implicit 143 145	儿时
+T33	Thing-Nominal 320 325	收录机喇叭
+T34	Location-Nominal 312 314	小村
+T35	Location-Nominal 326 328	小村
+T36	Thing-Nominal 333 336	高跟鞋
+T37	Thing-Nominal 337 339	披肩
+T38	Thing-Nominal 348 351	蝙蝠衫
+T39	Thing-Nominal 352 354	喇叭
+T40	Thing-Nominal 365 368	自来水
+T41	Location-Nominal 371 373	小村
+T42	Thing-Nominal 377 380	篮球场
+T43	Location-Nominal 383 385	小村
+T44	Location-Nominal 394 396	小村
+T45	Location-Nominal 432 434	小村
+T46	Location-Nominal 449 451	小村
+T47	Thing-Nominal 439 441	老屋
+T48	Thing-Nominal 456 458	溪水
+T49	Thing-Nominal 466 468	木犁
+T50	Metric 470 473	几千年
+T51	Metric 482 485	几千年
+T52	Time-Implicit 664 667	有一天
+T53	Person-Nominal 683 685	人们
+T54	Thing-Pronoun 687 688	你
+T55	Thing-Pronoun 499 500	你
+T56	Person-Nominal 463 465	村农

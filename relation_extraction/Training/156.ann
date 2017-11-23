@@ -1,0 +1,194 @@
+T1	Thing-Nominal 0 2	荷塘
+T2	Thing-Nominal 24 26	小荷
+T3	Thing-Nominal 28 31	尖尖角
+T4	Thing-Nominal 38 40	荷花
+T5	Thing-Nominal 50 52	枯荷
+T6	Thing-Nominal 53 54	雨
+T7	Location-Nominal 71 73	湖畔
+T8	Thing-Nominal 75 77	碧水
+T9	Thing-Nominal 82 84	莲蓬
+T10	Person-Nominal 102 109	解甲归田的壮士
+T11	Thing-Nominal 111 113	烽火
+T12	Thing-Nominal 116 118	战马
+T13	Time-Implicit 142 144	此刻
+T14	Thing-Nominal 150 162	炎帝园广场东侧的莲花池畔
+T15	Location-Name 150 157	炎帝园广场东侧
+R1	Located Arg1:T14 Arg2:T15	
+T16	Thing-Nominal 163 165	晨曦
+T17	Thing-Nominal 167 174	鳞次栉比的高楼
+T18	Thing-Nominal 176 181	清冷的光波
+T19	Thing-Nominal 183 188	岸边的竹林
+T20	Location-Nominal 183 185	岸边
+R2	Located Arg1:T19 Arg2:T20	
+T21	Thing-Nominal 189 191	秋风
+T22	Thing-Nominal 198 200	麻雀
+T23	Thing-Nominal 211 216	寂静的夜空
+T24	Thing-Nominal 217 222	眼前的荷塘
+T25	Location-Nominal 217 219	眼前
+R3	Located Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 233 238	妖冶的荷花
+T27	Thing-Nominal 246 253	杯盏大小的莲蓬
+T28	Thing-Nominal 257 259	天空
+T29	Location-Nominal 268 272	荷叶周边
+T30	Thing-Nominal 279 281	叶心
+T31	Thing-Nominal 291 295	池中的水
+T32	Location-Nominal 291 293	池中
+R4	Located Arg1:T31 Arg2:T32	
+T33	Thing-Nominal 305 307	垂柳
+T34	Location-Nominal 303 305	周边
+R5	Located Arg1:T33 Arg2:T34	
+T35	Person-Pronoun 317 318	我
+T36	Location-Nominal 320 322	四周
+T37	Thing-Nominal 327 329	彩蝶
+T38	Thing-Nominal 333 335	荷花
+T39	Person-Nominal 336 340	红男绿女
+T40	Thing-Nominal 344 346	那手
+T41	Thing-Nominal 347 349	相机
+T42	Person-Nominal 360 365	摄影爱好者
+T43	Location-Nominal 369 371	岸边
+T44	Person-Nominal 371 377;378 379	三三两两的游 人
+T45	Person-Pronoun 382 384	我们
+T46	Person-Nominal 384 393	这些步入暮年的老者
+T47	Person-Pronoun 394 395	我
+T48	Time-Implicit 404 406	清秋
+T49	Thing-Nominal 407 409	荷塘
+T50	Person-Pronoun 422 424	我们
+T51	Person-Nominal 424 433	这些喜欢清静的老人
+T52	Location-Pronoun 439 441	这里
+T53	Person-Pronoun 443 445	我们
+T54	Person-Nominal 445 447	全家
+T55	Time-Implicit 455 459	二十年来
+T56	Time-Implicit 460 466	每年从春到夏
+T57	Person-Nominal 470 475	我们三代人
+T58	Person-Pronoun 470 472	我们
+T59	Thing-Pronoun 479 480	它
+T60	Location-Nominal 481 486	每一个角落
+T61	Person-Pronoun 500 501	我
+T62	Location-Pronoun 509 511	这里
+T63	Thing-Nominal 512 518	半月形的池塘
+T64	Thing-Nominal 527 531	八簇莲带
+T65	Time-Implicit 532 536	每年春天
+T66	Thing-Nominal 545 547	荷花
+T67	Person-Pronoun 558 559	我
+T68	Person-Nominal 563 565	孙子
+T69	Thing-Nominal 579 584	那新生莲荷
+T70	Person-Pronoun 589 591	我们
+T71	Time-Implicit 596 600	今年四月
+T72	Thing-Nominal 607 609	新荷
+T73	Person-Name 622 626	老友德祥
+T74	Location-Name 627 629	深圳
+T75	Thing-Nominal 631 640	他的嫩荷、新苞彩照
+T76	Person-Pronoun 631 632	他
+*	Coreference T76 T73
+T77	Thing-Nominal 641 648	一茎半卷的荷叶
+T78	Thing-Nominal 649 657	一枝鸡头似的花苞
+T79	Location-Nominal 659 661	水面
+R6	Located Arg1:T77 Arg2:T79	
+R7	Located Arg1:T78 Arg2:T79	
+T80	Thing-Nominal 664 670	这熟悉的画面
+T81	Person-Pronoun 671 672	我
+T82	Metric 688 691	好几天
+T83	Metric 695 697	两周
+T84	Location-Name 706 712	炎帝园荷塘里
+T85	Person-Pronoun 715 716	我
+T86	Time-Implicit 731 738	荷塘最盛的时期
+T87	Time-Implicit 728 730	夏季
+*	Coreference T86 T87
+T88	Thing-Nominal 739 741	莲叶
+T89	Thing-Nominal 745 747	荷花
+T90	Person-Nominal 751 754	儿孙们
+T91	Time-Implicit 756 760	每个周日
+T92	Location-Pronoun 762 764	这里
+T93	Thing-Nominal 770 775	无数张照片
+T94	Person-Pronoun 790 791	我
+T95	Person-Nominal 792 794	妻子
+R8	Family Arg1:T95 Arg2:T94	
+T96	Person-Nominal 796 800	一个孙儿
+T97	Location-Nominal 804 808	孙儿手中
+T98	Thing-Nominal 811 818	硕大的红色气球
+R9	Located Arg1:T98 Arg2:T97	
+T99	Person-Nominal 804 806	孙儿
+T100	Thing-Nominal 823 827	满池碧荷
+T101	Person-Pronoun 833 834	我
+T102	Person-Nominal 835 837	妻子
+R10	Family Arg1:T102 Arg2:T101	
+T103	Person-Nominal 837 839	两人
+T104	Thing-Nominal 843 849;850 852	碧荷、垂柳、 亭阁
+T105	Person-Nominal 868 870	妻子
+T106	Metric 863 867	五十余岁
+T107	Thing-Nominal 884 889	这一池莲荷
+T108	Person-Pronoun 897 899	我们
+T109	Person-Pronoun 909 910;911 912	我 们
+T110	Person-Pronoun 919 921	我们
+T111	Time-Implicit 936 938	深秋
+T112	Thing-Nominal 939 944	凛冽的秋风
+T113	Person-Nominal 947 949	游人
+T114	Person-Pronoun 953 955	我们
+T115	Person-Nominal 955 959	这些老人
+T116	Location-Pronoun 961 963	这里
+T117	Person-Pronoun 974 976	我们
+T118	Person-Pronoun 983 985	我们
+T119	Thing-Nominal 988 989;990 991	碧 荷
+T120	Thing-Pronoun 993 994	她
+*	Coreference T120 T119
+T121	Thing-Pronoun 1008 1009	它
+T122	Thing-Pronoun 1013 1014	它
+T123	Person-Pronoun 1017 1019	我们
+T124	Thing-Nominal 1041 1043	荷塘
+T125	Person-Pronoun 1038 1039	我
+T126	Person-Nominal 1051 1053	少年
+T127	Person-Nominal 1056 1058	成年
+T128	Person-Nominal 1096 1098	少年
+T129	Person-Nominal 1114 1116	人们
+T130	Person-Pronoun 1124 1125	你
+T131	Thing-Nominal 1126 1132	那满树的柿子
+T132	Thing-Nominal 1137 1142	满树的枣儿
+T133	Time-Implicit 1144 1146	秋天
+T134	Time-Implicit 1134 1136	秋天
+T135	Thing-Nominal 1147 1152	满架的葡萄
+T136	Time-Implicit 1154 1156	秋天
+T137	Thing-Nominal 1157 1160	那莲荷
+T138	Time-Implicit 1165 1168	小时候
+T139	Location-Nominal 1169 1174	故乡荷塘边
+T140	Thing-Nominal 1175 1176	草
+T141	Person-Nominal 1177 1186	一个大我几岁的侄儿
+T142	Person-Pronoun 1180 1181	我
+T143	Thing-Nominal 1188 1192	一茎莲蓬
+T144	Thing-Nominal 1198 1200	莲蓬
+T145	Location-Nominal 1196 1198	水上
+R11	Located Arg1:T144 Arg2:T145	
+T146	Person-Pronoun 1214 1215	他
+*	Coreference T146 T141
+T147	Location-Nominal 1218 1223	清冷的水里
+T148	Thing-Nominal 1226 1227	脚
+T149	Thing-Nominal 1232 1239	一管长长的莲藕
+T150	Metric 1242 1245	六十年
+T151	Time-Implicit 1248 1250	此刻
+T152	Person-Pronoun 1250 1251	我
+T153	Thing-Nominal 1255 1260	残败的莲叶
+T154	Thing-Nominal 1261 1268	耿耿直立的莲蓬
+T155	Location-Nominal 1274 1276	水下
+T156	Thing-Nominal 1276 1284	无数管雪白的莲藕
+R12	Located Arg1:T156 Arg2:T155	
+T157	Thing-Nominal 1290 1295	长长的身子
+T158	Person-Nominal 1299 1301	人们
+T159	Person-Name 1307 1314	晚唐诗人李商隐
+T160	Abstract 1318 1330	《宿骆氏亭寄怀崔雍崔衮》
+T161	Thing-Nominal 1343 1344	霜
+T162	Thing-Nominal 1349 1351	枯荷
+T163	Thing-Nominal 1352 1353	雨
+T164	Thing-Nominal 1356 1359	这枯荷
+T165	Person-Nominal 1374 1376	诗人
+T166	Thing-Pronoun 1377 1378	它
+T167	Thing-Nominal 1379 1381	秋雨
+T168	Thing-Nominal 1405 1407	秋雨
+T169	Thing-Nominal 1408 1410	枯荷
+T170	Person-Pronoun 1420 1422	我们
+T171	Person-Pronoun 1435 1437	我们
+T172	Person-Pronoun 1475 1476	我
+T173	Thing-Nominal 1502 1505	这莲荷
+T174	Thing-Pronoun 1506 1507	她
+*	Coreference T174 T173
+T175	Person-Pronoun 1535 1536	我
+T176	Location-Nominal 1538 1540	塘边
+T177	Thing-Nominal 1544 1546	秋荷

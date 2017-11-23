@@ -1,0 +1,187 @@
+T1	Person-Name 6 9	刘禹锡
+T2	Time-Implicit 13 14	秋
+T3	Person-Pronoun 18 19	我
+T4	Time-Implicit 20 22	秋日
+T5	Time-Implicit 23 25	春朝
+*	Coreference T3 T1
+T6	Time-Implicit 31 34	近几日
+T7	Thing-Nominal 38 40	秋雨
+T8	Location-Nominal 43 45	山城
+T9	Thing-Nominal 46 48	雾霾
+T10	Person-Pronoun 52 53	我
+T11	Time-Implicit 62 64	昨夜
+T12	Thing-Nominal 67 69	秋风
+T13	Location-Nominal 84 86	山城
+T14	Metric 86 88	几天
+T15	Thing-Nominal 89 91	雾霾
+T16	Thing-Nominal 95 97	房门
+T17	Person-Pronoun 110 111	我
+T18	Person-Nominal 113 114	人
+T19	Thing-Nominal 117 119	秋风
+T20	Location-Nominal 131 133	山城
+T21	Location-Nominal 134 136	路上
+R1	Part-Whole Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 142 144	落叶
+R2	Located Arg1:T22 Arg2:T21	
+T23	Location-Nominal 157 159	深山
+T24	Thing-Nominal 160 164	原始森林
+R3	Located Arg1:T24 Arg2:T23	
+T25	Person-Nominal 184 185	人
+T26	Location-Nominal 200 202	路边
+T27	Time-Implicit 202 204	昨日
+T28	Thing-Nominal 208 211	海棠树
+R4	Located Arg1:T28 Arg2:T26	
+T29	Metric 212 214	一夜
+T30	Thing-Nominal 225 227	秋装
+T31	Location-Nominal 228 230	树下
+T32	Thing-Nominal 233 236	月季花
+R5	Located Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 228 229	树
+*	Coreference T33 T28
+T34	Thing-Nominal 244 245	风
+T35	Thing-Nominal 255 257	落叶
+T36	Thing-Pronoun 262 264	它们
+*	Coreference T32 T36
+T37	Thing-Nominal 277 279	蓝天
+T38	Thing-Nominal 280 282	白云
+T39	Thing-Nominal 283 285	黄叶
+T40	Thing-Nominal 286 288	红花
+T41	Thing-Nominal 289 291	高楼
+T42	Thing-Nominal 309 310	风
+T43	Thing-Nominal 323 325	果实
+T44	Thing-Nominal 333 334	画
+T45	Thing-Nominal 344 346	麻雀
+T46	Thing-Nominal 347 349	枝头
+R6	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 364 367	山喜鹊
+T48	Location-Nominal 370 373	人行道
+R7	Located Arg1:T47 Arg2:T48	
+T49	Thing-Nominal 389 390	头
+R8	Part-Whole Arg1:T47 Arg2:T49	
+T50	Thing-Nominal 396 397	朋
+T51	Thing-Nominal 399 400	伴
+T52	Thing-Nominal 408 410	秋风
+T53	Thing-Nominal 425 427	旭日
+T54	Location-Name 437 441	翠屏湖边
+T55	Location-Nominal 442 444	湖边
+*	Coreference T55 T54
+T56	Person-Nominal 448 450	游人
+T57	Time-Implicit 446 448	往日
+T58	Location-Nominal 473 474	岸
+T59	Location-Nominal 482 484	湖畔
+T60	Thing-Nominal 485 487	凉亭
+R9	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 489 491	秋风
+T62	Location-Nominal 492 493	林
+T63	Location-Nominal 497 498	岸
+T64	Thing-Nominal 494 496	水波
+T65	Thing-Nominal 500 502	旭日
+T66	Location-Nominal 514 516	岸堤
+T67	Location-Nominal 519 521	水边
+T68	Thing-Nominal 525 526	水
+T69	Location-Nominal 536 538	水底
+T70	Thing-Nominal 539 541	游鱼
+T71	Thing-Nominal 543 545	小虾
+T72	Thing-Nominal 546 548	水草
+T73	Thing-Nominal 549 551	细沙
+R10	Located Arg1:T70 Arg2:T69	
+R11	Located Arg1:T71 Arg2:T69	
+R12	Located Arg1:T72 Arg2:T69	
+R13	Located Arg1:T73 Arg2:T69	
+T74	Location-Nominal 558 560	远处
+T75	Thing-Nominal 565 567	白鸥
+T76	Location-Nominal 568 573	水天交接处
+R14	Located Arg1:T75 Arg2:T76	
+T77	Person-Pronoun 581 582	我
+T78	Person-Nominal 584 586	古人
+T79	Thing-Nominal 587 588	天
+T80	Thing-Nominal 589 590	鸟
+T81	Time-Implicit 600 602	此时
+T82	Thing-Nominal 603 604	天
+T83	Thing-Nominal 608 609	水
+T84	Thing-Nominal 626 628	白鸥
+T85	Location-Nominal 641 643	堤岸
+T86	Location-Nominal 645 648	背风处
+R15	Part-Whole Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 660 662	阳光
+T88	Location-Nominal 665 666	湖
+T89	Person-Name 710 713	范仲淹
+T90	Location-Nominal 727 729	远处
+T91	Location-Nominal 734 736	水面
+T92	Thing-Nominal 741 743	小船
+R16	Located Arg1:T92 Arg2:T91	
+T93	Thing-Nominal 744 745	船
+*	Coreference T92 T93
+T94	Person-Nominal 747 749	老人
+R17	Ownership Arg1:T94 Arg2:T93	
+T95	Thing-Nominal 752 753	网
+T96	Thing-Nominal 754 755	鱼
+R18	Create Arg1:T94 Arg2:T95	
+T97	Location-Nominal 769 771	湖面
+T98	Person-Nominal 778 780	老人
+T99	Person-Pronoun 782 783	我
+T100	Person-Pronoun 799 800	我
+R19	Social Arg1:T98 Arg2:T99	
+T101	Time-Implicit 813 815	此时
+T102	Time-Implicit 821 823	夏天
+T103	Location-Nominal 824 826	远处
+T104	Thing-Nominal 831 833	荷花
+R20	Located Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 845 846;847 848	荷 花
+T106	Thing-Nominal 856 857	鱼
+T107	Thing-Nominal 857 858	虾
+T108	Person-Nominal 864 866	人们
+T109	Thing-Nominal 875 879	野生鱼虾
+T110	Person-Pronoun 880 881	我
+T111	Location-Nominal 885 886	湖
+T112	Person-Pronoun 893 894	我
+T113	Time-Implicit 902 905	!夏天
+T114	Time-Implicit 906 907;908 909	夏 天
+T115	Time-Implicit 912 914	秋天
+T116	Time-Implicit 915 917	秋天
+T117	Person-Pronoun 921 922	您
+T118	Person-Nominal 922 925	老人家
+*	Coreference T117 T118 T110 T98 T121
+T119	Location-Nominal 925 926	湖
+T120	Thing-Nominal 928 929	舟
+R21	Located Arg1:T120 Arg2:T119	
+T121	Person-Nominal 940 942	老人
+T122	Time-Implicit 964 966	夏天
+T123	Person-Nominal 972 974	游人
+T124	Location-Pronoun 969 971	这里
+T125	Person-Pronoun 976 978	咱们
+T126	Person-Pronoun 992 993	我
+T127	Location-Nominal 995 998	老人家
+T128	Location-Nominal 999 1000	湖
+T129	Location-Nominal 1001 1003	南岸
+R22	Near Arg1:T129 Arg2:T128	
+R23	Part-Whole Arg1:T127 Arg2:T129	
+T130	Location-Nominal 1009 1011	新城
+T131	Location-Nominal 1013 1015	家里
+T132	Thing-Nominal 1018 1019	钱
+T133	Person-Nominal 1020 1022	老人
+T134	Time-Implicit 1022 1024	此时
+T135	Person-Nominal 1043 1045	老人
+T136	Person-Pronoun 1046 1047	我
+T137	Thing-Nominal 1048 1049	船
+T138	Location-Nominal 1050 1051	湖
+T139	Person-Pronoun 1055 1056	我
+T140	Person-Nominal 1064 1066	老人
+T141	Location-Nominal 1068 1069	湖
+T142	Thing-Nominal 1075 1077	莲蓬
+R24	Located Arg1:T142 Arg2:T141	
+T143	Person-Pronoun 1080 1081	我
+T144	Time-Implicit 1085 1087	中午
+T145	Person-Pronoun 1088 1089	我
+T146	Thing-Nominal 1090 1092	手机
+R25	Ownership Arg1:T145 Arg2:T146	
+T147	Person-Nominal 1101 1103	家人
+R26	Family Arg1:T145 Arg2:T147	
+T148	Person-Pronoun 1104 1105	我
+T149	Location-Nominal 1106 1107	家
+T150	Thing-Nominal 1113 1115	阳光
+T151	Person-Pronoun 1117 1118	我
+T152	Location-Nominal 1128 1129	湖
+T153	Person-Nominal 1140 1142	老人
+T154	Person-Pronoun 1147 1148	我
+T155	Location-Nominal 1159 1161	山城

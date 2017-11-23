@@ -1,0 +1,271 @@
+T1	Person-Pronoun 12 13	我
+T2	Person-Pronoun 36 37	我
+T3	Person-Pronoun 47 48	我
+T4	Thing-Nominal 62 64	支票
+T5	Thing-Nominal 72 74	支票
+T6	Person-Pronoun 96 97	我
+T7	Person-Pronoun 130 131	我
+T8	Person-Name 178 180	孔子
+T9	Person-Nominal 186 188	弟子
+R1	Social Arg1:T8 Arg2:T9	
+T10	Time-Implicit 203 207	二十多年
+T11	Person-Nominal 209 218	考上名牌大学的学生
+T12	Person-Nominal 223 225;226 228	其他 学生
+T13	Person-Pronoun 252 253	我
+T14	Person-Nominal 266 268	学生
+R2	Social Arg1:T13 Arg2:T14	
+T15	Person-Nominal 271 273	学生
+T16	Person-Pronoun 294 296	他们
+*	Coreference T16 T15
+T17	Person-Pronoun 315 317	他们
+T18	Person-Pronoun 318 320	我们
+T19	Person-Pronoun 326 327	我
+T20	Person-Pronoun 329 331	他们
+T21	Person-Nominal 346 347;348 350	孩 子们
+T22	Person-Nominal 360 362	自己
+T23	Person-Pronoun 393 395	我们
+T24	Person-Pronoun 417 419	我们
+T25	Person-Nominal 427 429	自己
+*	Coreference T25 T24
+T26	Person-Nominal 435 437	自己
+*	Coreference T21 T20
+T27	Location-Nominal 448 450	官窑
+T28	Thing-Nominal 457 459	陶器
+R3	Located Arg1:T28 Arg2:T27	
+T29	Thing-Nominal 472 474	器皿
+T30	Thing-Nominal 481 483	夜壶
+T31	Person-Nominal 491 493	诗人
+T32	Person-Nominal 498 500	画家
+T33	Person-Nominal 505 508	摄影师
+T34	Thing-Nominal 512 514	照片
+T35	Thing-Nominal 503 504	画
+R4	Create Arg1:T32 Arg2:T35	
+R5	Create Arg1:T33 Arg2:T34	
+T36	Location-Nominal 519 521	橱窗
+R6	Located Arg1:T34 Arg2:T36	
+R7	Located Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 532 534	瓷器
+T38	Location-Nominal 545 552	富贵人家的客厅
+T39	Location-Nominal 554 557	博物馆
+T40	Thing-Pronoun 560 561	它
+T41	Thing-Nominal 568 570	陶器
+T42	Thing-Nominal 571 573	瓷器
+*	Coreference T40 T41 T42
+T43	Person-Nominal 607 609	自己
+T44	Person-Nominal 614 616	自己
+T45	Person-Nominal 700 702	父母
+T46	Person-Nominal 703 705	子女
+R8	Family Arg1:T46 Arg2:T45	
+T47	Person-Nominal 711 713	妻子
+T48	Person-Nominal 715 717	丈夫
+R9	Family Arg1:T47 Arg2:T48	
+T49	Person-Pronoun 721 722	你
+T50	Person-Nominal 725 727	别人
+T51	Person-Nominal 734 736	子女
+T52	Person-Nominal 745 747	爸爸
+T53	Person-Nominal 747 750	妈妈是
+R10	Family Arg1:T51 Arg2:T52	
+R11	Family Arg1:T51 Arg2:T53	
+T54	Person-Pronoun 764 766	我们
+T55	Person-Pronoun 782 784	自己
+T56	Person-Pronoun 799 801	我们
+*	Coreference T55 T56
+T57	Person-Nominal 822 824	自己
+T58	Person-Nominal 832 834	自己
+T59	Person-Pronoun 840 841	我
+T60	Person-Nominal 851 853	自己
+*	Coreference T59 T60
+T61	Time-Explicit 868 876	去年的清明节那天
+T62	Person-Nominal 881 884	老母亲
+T63	Person-Nominal 904 906	自己
+*	Coreference T62 T63
+T64	Person-Nominal 914 916	自己
+T65	Person-Pronoun 929 930	我
+T66	Thing-Nominal 932 934	裤子
+T67	Person-Nominal 955 957	母亲
+R12	Family Arg1:T65 Arg2:T67	
+T68	Person-Pronoun 963 964	她
+*	Coreference T67 T68
+T69	Person-Pronoun 979 980	她
+T70	Person-Nominal 986 989;990 991	一个女 人
+*	Coreference T69 T70
+T71	Person-Pronoun 1004 1008	我们三个
+T72	Thing-Nominal 1020 1022	苜蓿
+T73	Thing-Nominal 1023 1025	南瓜
+T74	Person-Nominal 1027 1032	老生产队长
+T75	Person-Pronoun 1053 1054	她
+R13	Social Arg1:T75 Arg2:T74	
+T76	Person-Pronoun 1063 1064	她
+T77	Person-Nominal 1079 1082	老姊妹
+R14	Family Arg1:T76 Arg2:T77	
+T78	Person-Pronoun 1099 1100	她
+T79	Thing-Nominal 1113 1115	轮椅
+T80	Location-Nominal 1120 1122	土炕
+T81	Person-Pronoun 1123 1124	她
+T82	Person-Pronoun 1145 1146	她
+T83	Person-Pronoun 1154 1155	我
+T84	Person-Pronoun 1169 1170	她
+T85	Thing-Nominal 1177 1179	拐杖
+R15	Use Arg1:T84 Arg2:T85	
+T86	Person-Pronoun 1184 1185	我
+T87	Person-Pronoun 1213 1214	我
+T88	Person-Pronoun 1226 1227	她
+T89	Person-Pronoun 1229 1230	我
+R16	Family Arg1:T88 Arg2:T89	
+T90	Person-Pronoun 1249 1250	我
+T91	Person-Pronoun 1273 1274	她
+T92	Person-Pronoun 1298 1299	她
+T93	Person-Pronoun 1308 1309	我
+T94	Person-Pronoun 1317 1318	她
+T95	Person-Pronoun 1326 1328	我们
+T96	Person-Pronoun 1408 1409	我
+T97	Person-Nominal 1441 1443	孩子
+T98	Person-Pronoun 1447 1448	我
+R17	Family Arg1:T97 Arg2:T98	
+T99	Metric 1449 1451	几万
+T100	Person-Pronoun 1458 1459	我
+T101	Person-Pronoun 1463 1464	她
+T102	Person-Pronoun 1476 1477	她
+T103	Person-Pronoun 1484 1485	她
+T104	Person-Pronoun 1489 1490	她
+T105	Person-Pronoun 1495 1496	她
+T106	Person-Nominal 1502 1504	孩子
+T107	Person-Pronoun 1505 1506	我
+*	Coreference T107 T105
+T108	Person-Pronoun 1512 1513	你
+*	Coreference T106 T108
+T109	Person-Pronoun 1535 1536	我
+T110	Person-Pronoun 1547 1549	你们
+T111	Person-Nominal 1550 1552	你大
+T112	Person-Pronoun 1567 1568	你
+T113	Thing-Nominal 1573 1576	白头发
+T114	Person-Pronoun 1577 1578	你
+T115	Organization-Nominal 1582 1584	学校
+T116	Person-Nominal 1589 1591	娃娃
+T117	Thing-Nominal 1598 1599;1600 1602	摩 托车
+T118	Person-Pronoun 1616 1617	我
+R18	Use Arg1:T114 Arg2:T117	
+T119	Location-Nominal 1553 1555	陇东
+T120	Person-Nominal 1558 1560	父亲
+*	Coreference T111 T120
+T121	Person-Pronoun 1623 1624	我
+T122	Person-Pronoun 1640 1642	我们
+T123	Person-Pronoun 1650 1652	我们
+T124	Person-Nominal 1655 1657	妻子
+T125	Person-Pronoun 1665 1666	她
+*	Coreference T125 T124
+T126	Thing-Nominal 1673 1675	衣服
+T127	Time-Explicit 1681 1683	今年
+T128	Person-Nominal 1683 1685	父亲
+T129	Person-Pronoun 1686 1687	他
+*	Coreference T129 T128 T130
+T130	Person-Pronoun 1693 1694	我
+T131	Person-Pronoun 1734 1735	我
+T132	Person-Nominal 1736 1738	父亲
+T133	Thing-Nominal 1750 1751	刀
+T134	Thing-Nominal 1758 1759	洞
+T135	Thing-Nominal 1767 1769	石头
+T136	Thing-Nominal 1762 1764	胆囊
+R19	Located Arg1:T135 Arg2:T136	
+T137	Thing-Nominal 1713 1715	胆囊
+T138	Time-Explicit 1775 1776;1777 1786	三 月二十日的那个下午
+T139	Person-Nominal 1787 1789	医生
+T140	Person-Pronoun 1790 1791	我
+R20	Social Arg1:T140 Arg2:T139	
+T141	Person-Pronoun 1794 1795	我
+T142	Person-Nominal 1803 1805	自己
+*	Coreference T141 T142
+T143	Person-Nominal 1859 1861	父亲
+T144	Metric 1876 1880	十几公分
+T145	Thing-Nominal 1885 1887	胆囊
+T146	Person-Pronoun 1888 1889	我
+T147	Person-Nominal 1895 1897	儿子
+T148	Person-Pronoun 1890 1891	他
+*	Coreference T146 T147
+R21	Family Arg1:T148 Arg2:T146	
+T149	Person-Pronoun 1899 1900	我
+T150	Person-Nominal 1901 1903	教师
+*	Coreference T149 T150
+T151	Person-Pronoun 1913 1914	我
+T152	Person-Nominal 1915 1917	自己
+*	Coreference T151 T152
+T153	Person-Nominal 1930 1932	学生
+R22	Social Arg1:T151 Arg2:T153	
+T154	Location-Nominal 1973 1975	家里
+T155	Person-Nominal 1977 1982	孩子的老师
+T156	Person-Nominal 1985 1987	孩子
+T157	Thing-Nominal 1997 2000	通知书
+T158	Person-Pronoun 2014 2015	我
+R23	Family Arg1:T158 Arg2:T156	
+R24	Social Arg1:T158 Arg2:T155	
+T159	Person-Nominal 2018 2020	自己
+*	Coreference T158 T159
+T160	Person-Nominal 2070 2072	父亲
+T161	Location-Nominal 2074 2077	手术室
+T162	Time-Explicit 2079 2081;2082 2083	七点 钟
+T163	Person-Pronoun 2086 2087	我
+T164	Location-Nominal 2088 2093	手术室门前
+T165	Thing-Nominal 2097 2098	烟
+T166	Person-Nominal 2114 2116	医生
+T167	Person-Nominal 2117 2119	护士
+T168	Person-Pronoun 2124 2126	我们
+T169	Time-Explicit 2141 2142;2143 2145	九 点钟
+T170	Person-Nominal 2146 2148	父亲
+T171	Thing-Nominal 2153 2155	胃管
+T172	Thing-Nominal 2156 2162	一次性导流管
+T173	Thing-Nominal 2163 2166	导尿管
+T174	Thing-Nominal 2167 2170	氧气瓶
+T175	Thing-Nominal 2181 2184	蜘蛛网
+T176	Person-Pronoun 2189 2190	他
+*	Coreference T176 T170
+T177	Time-Explicit 2199 2203;2204 2205	凌晨两点 钟
+T178	Person-Nominal 2206 2208	父亲
+T179	Person-Pronoun 2213 2214	我
+T180	Person-Nominal 2222 2226	主刀大夫
+T181	Person-Pronoun 2243 2244	你
+*	Coreference T181 T179
+R25	Social Arg1:T179 Arg2:T180	
+T182	Person-Pronoun 2266 2268	我们
+T184	Person-Pronoun 2291 2293	我们
+T185	Person-Pronoun 2310 2312	我们
+T183	Thing-Nominal 2339 2341	胆囊
+T186	Person-Nominal 2349 2351	病人
+T187	Time-Implicit 2351 2358	几年甚至十几年
+T188	Person-Nominal 2365 2367	父亲
+T189	Person-Nominal 2375 2377	母亲
+T190	Person-Pronoun 2380 2381	我
+T191	Time-Explicit 2407 2415	去年的清明节过后
+T192	Person-Pronoun 2416 2417	我
+T193	Person-Name 2426 2428	苏轼
+T194	Person-Pronoun 2468 2469	他
+*	Coreference T194 T193
+T195	Person-Pronoun 2475 2476	我
+T196	Person-Nominal 2491 2493	老人
+T197	Person-Nominal 2496 2498	妻子
+T198	Location-Nominal 2506 2508	书房
+T200	Location-Nominal 2509 2512	墙壁上
+R26	Part-Whole Arg1:T200 Arg2:T198	
+T199	Person-Nominal 2515 2517	孩子
+T201	Thing-Nominal 2525 2527	书柜
+T202	Person-Nominal 2530 2532	孩子
+T203	Person-Nominal 2539 2541	别人
+T204	Thing-Nominal 2552 2554	书画
+R27	Located Arg1:T204 Arg2:T201	
+T205	Thing-Nominal 2533 2537	荣誉证书
+*	Coreference T205 T201
+T206	Person-Pronoun 2560 2561	我
+T207	Location-Nominal 2571 2573	窗外
+T208	Person-Pronoun 2583 2584	我
+T209	Person-Name 2596 2599	毕淑敏
+T210	Person-Pronoun 2600 2601	她
+*	Coreference T209 T210
+T211	Person-Nominal 2622 2624	自己
+T212	Person-Nominal 2634 2636	自己
+T213	Location-Nominal 2659 2661	山顶
+T214	Thing-Nominal 2688 2690	支票
+T215	Person-Nominal 2697 2699	自己
+T216	Thing-Nominal 2708 2710	支票
+T217	Thing-Nominal 2721 2724	菜团子
+T218	Thing-Nominal 2715 2717;2718 2719	黄连 粉
+T219	Person-Pronoun 2790 2792	我们
+T220	Person-Pronoun 2813 2815	我们

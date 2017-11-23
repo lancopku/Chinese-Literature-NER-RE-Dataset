@@ -1,0 +1,134 @@
+T1	Time-Implicit 0 5	夏天暑假里
+T2	Thing-Nominal 6 9	豆荚花
+T3	Thing-Nominal 11 13	昙花
+T4	Thing-Nominal 24 26	豆荚
+T5	Time-Implicit 30 34	每天下午
+T6	Time-Implicit 35 41	太阳快落山时
+T7	Person-Nominal 42 44	母亲
+T8	Thing-Nominal 47 50	筐或篮
+T9	Location-Nominal 51 54	院墙边
+T10	Location-Nominal 59 60;61 64	那 筐或篮
+T11	Thing-Nominal 66 73	大把大把的豆荚
+R1	Located Arg1:T11 Arg2:T10	
+T12	Time-Implicit 77 79	这时
+T13	Thing-Nominal 81 83	院墙
+T14	Person-Pronoun 84 85	谁
+T15	Location-Nominal 86 89	胡同里
+T16	Thing-Nominal 94 97	豆荚秧
+T17	Thing-Nominal 98 102	一捆豆荚
+T18	Person-Pronoun 103 104	他
+*	Coreference T18 T14
+T19	Thing-Nominal 105 107	豆荚
+T20	Person-Nominal 118 120	人家
+T21	Person-Nominal 125 127	母亲
+T22	Person-Nominal 151 153	人家
+T23	Person-Nominal 161 163	人家
+T24	Person-Pronoun 164 166	自己
+T25	Person-Nominal 176 178	母亲
+*	Coreference T24 T21
+T26	Thing-Nominal 191 198	那一墙一墙豆荚
+T27	Location-Nominal 202 209	整个农家小院里
+T28	Thing-Nominal 223 225	豆荚
+T29	Thing-Nominal 239 242	白开水
+T30	Thing-Nominal 266 273	质朴的农家小院
+T31	Thing-Nominal 294 298	农家小院
+T32	Location-Nominal 316 323	一墙墙的豆荚里
+T33	Thing-Nominal 327 331	几棵南瓜
+R2	Located Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 332 342	一个个硕大无比的南瓜
+T35	Location-Nominal 347 355	豆荚秧和南瓜叶里
+R3	Located Arg1:T34 Arg2:T35	
+T36	Location-Nominal 358 361	院墙上
+T37	Thing-Nominal 366 369	大肚子
+T38	Thing-Nominal 374 380	院墙上的石头
+T39	Location-Nominal 374 377	院墙上
+R4	Located Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 399 402	胖娃娃
+T41	Person-Nominal 405 406	人
+T42	Time-Implicit 409 412	采摘时
+T43	Person-Nominal 413 415	母亲
+T44	Thing-Nominal 415 416	手
+R5	Part-Whole Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 427 430	豆荚饭
+T46	Thing-Nominal 431 433	南瓜
+T47	Thing-Nominal 437 442	当晚的佳肴
+T48	Time-Implicit 437 439	当晚
+T49	Person-Nominal 444 445	人
+T50	Location-Nominal 462 470	农家小院的院墙上
+T51	Thing-Nominal 473 475	豆荚
+R6	Located Arg1:T51 Arg2:T50	
+T52	Location-Nominal 476 478	家里
+T53	Location-Nominal 481 491	菜园和山地的地头堰边
+T54	Thing-Nominal 481 483	菜园
+T55	Thing-Nominal 484 486	山地
+R7	Located Arg1:T54 Arg2:T52	
+R8	Located Arg1:T55 Arg2:T52	
+T56	Person-Nominal 494 496	母亲
+T57	Thing-Nominal 497 502	豆荚和南瓜
+R9	Located Arg1:T57 Arg2:T53	
+T58	Time-Implicit 506 509	夏天里
+T59	Thing-Pronoun 510 512	它们
+*	Coreference T59 T57
+T60	Person-Nominal 521 522	人
+T61	Person-Nominal 538 540	母亲
+T62	Location-Nominal 541 547	菜园和山地里
+T63	Thing-Nominal 558 560	豆荚
+T64	Location-Nominal 562 563	家
+T65	Location-Nominal 566 568	地上
+R10	Located Arg1:T63 Arg2:T65	
+T66	Thing-Nominal 571 573	小山
+T67	Person-Nominal 579 580	人
+T68	Thing-Nominal 592 594	小山
+T69	Person-Nominal 599 601	母亲
+T70	Thing-Nominal 603 605	豆荚
+T71	Location-Nominal 610 613	太阳下
+T72	Thing-Nominal 615 622	这些晒干的豆荚
+T73	Time-Implicit 644 647	冬天里
+T74	Time-Implicit 650 654	春节前后
+T75	Person-Nominal 655 657	母亲
+T76	Time-Implicit 658 660	夏天
+T77	Thing-Nominal 660 665	晒干的豆荚
+T78	Location-Nominal 667 669	水里
+R11	Located Arg1:T77 Arg2:T78	
+T79	Thing-Pronoun 674 676	它们
+*	Coreference T79 T77
+T80	Location-Nominal 682 684	秧上
+T81	Time-Implicit 680 688	刚从秧上摘下来时
+T82	Time-Implicit 701 708	那一个个冬天里
+T83	Person-Pronoun 710 712	我们
+T84	Person-Nominal 718 723	偌大一家人
+T85	Person-Nominal 724 726	母亲
+T86	Person-Nominal 733 737	每一个人
+T87	Thing-Nominal 741 743	肚子
+T88	Thing-Nominal 751 753	口齿
+T89	Thing-Nominal 760 766	那个农家小院
+T90	Thing-Nominal 769 772	推土机
+T91	Thing-Nominal 786 793	青一色的水泥灰
+T92	Thing-Nominal 795 802	一丁点的土坷垃
+T93	Person-Nominal 808 810	母亲
+T94	Location-Nominal 811 817;818 820	这样的水泥院 墙里
+T95	Metric 824 826	半年
+T96	Time-Implicit 831 834	前几天
+T97	Thing-Nominal 840 842	豆荚
+T98	Location-Nominal 843 850	水泥墙的缝隙里
+R12	Located Arg1:T97 Arg2:T98	
+T99	Location-Nominal 859 864	满满一面墙
+R13	Located Arg1:T97 Arg2:T99	
+T100	Thing-Nominal 865 869	那些豆荚
+T101	Person-Nominal 873 874	人
+T102	Person-Nominal 879 881	母亲
+T103	Time-Implicit 881 883	当年
+T104	Thing-Nominal 888 894	那满院的豆荚
+T105	Location-Nominal 888 891	那满院
+R14	Located Arg1:T104 Arg2:T105	
+T106	Person-Nominal 900 901	人
+T107	Person-Pronoun 914 915	我
+T108	Location-Nominal 920 922	身后
+T109	Thing-Nominal 923 925	铁门
+R15	Located Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 937 939;940 947	那一 墙的豆荚和豆荚
+T111	Location-Nominal 937 939;940 941	那一 墙
+R16	Located Arg1:T110 Arg2:T111	
+T112	Thing-Nominal 953 956	满院子
+T113	Person-Nominal 957 958	人
+T114	Thing-Nominal 972 974	豆荚

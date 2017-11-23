@@ -1,0 +1,186 @@
+T1	Time-Implicit 0 7	农历十月的秋季
+T2	Thing-Nominal 17 19	秋风
+T3	Thing-Nominal 25 27	草木
+T4	Thing-Nominal 29 30	露
+T5	Thing-Nominal 31 32	霜
+T6	Time-Explicit 34 37	三国时
+T7	Person-Name 37 39	曹丕
+T8	Time-Implicit 48 50	秋天
+T9	Person-Pronoun 55 56	我
+T10	Thing-Nominal 79 81	稻谷
+T11	Thing-Nominal 87 89	大地
+R1	Located Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 90 92	金桂
+T13	Thing-Nominal 93 94	花
+R2	Part-Whole Arg1:T13 Arg2:T12	
+T14	Location-Nominal 111 113	家乡
+T15	Thing-Nominal 116 118	滁菊
+T16	Thing-Nominal 127 129	鼻孔
+T17	Thing-Pronoun 138 139	它
+T18	Person-Nominal 144 146	人们
+T19	Thing-Nominal 153 155	滁菊
+T20	Thing-Pronoun 155 156	它
+*	Coreference T20 T19
+T21	Time-Implicit 162 164	此时
+T22	Person-Pronoun 166 167	我
+T23	Time-Explicit 170 171	唐
+T24	Person-Name 172 174	黄巢
+T25	Thing-Nominal 177 178	菊
+T26	Time-Implicit 182 187	秋来九月八
+T27	Person-Pronoun 188 189	我
+T28	Thing-Nominal 189 190	花
+T29	Thing-Nominal 193 194	花
+T30	Location-Name 202 204	长安
+T31	Location-Nominal 206 207	城
+T32	Thing-Nominal 209 212	黄金甲
+T33	Person-Pronoun 217 218	我
+T34	Thing-Nominal 218 219	花
+T35	Thing-Nominal 222 223	花
+T36	Thing-Nominal 228 230	柳枝
+T37	Thing-Nominal 231 233	秋风
+T38	Thing-Nominal 244 246	柿子
+T39	Thing-Nominal 248 250	枝头
+R3	Located Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 255 257	庄稼
+T41	Location-Nominal 277 279	路边
+T42	Thing-Nominal 284 287	马兰草
+R4	Located Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 292 293	霜
+T44	Thing-Nominal 304 306	露水
+T45	Time-Implicit 308 310	清晨
+T46	Time-Implicit 311 313	傍晚
+T47	Location-Nominal 316 318	田埂
+R5	Located Arg1:T44 Arg2:T47	
+T48	Thing-Nominal 325 327	树稍
+T49	Thing-Nominal 328 330	小草
+R6	Located Arg1:T44 Arg2:T48	
+R7	Located Arg1:T44 Arg2:T49	
+T50	Time-Implicit 331 333	傍晚
+T51	Thing-Nominal 338 340	天空
+T52	Location-Nominal 352 354	远处
+T53	Thing-Nominal 357 359	秋山
+R8	Located Arg1:T53 Arg2:T52	
+T54	Thing-Nominal 374 377	山水画
+T55	Thing-Nominal 381 383	山影
+T56	Thing-Nominal 384 386	房屋
+T57	Thing-Nominal 387 389	树木
+T58	Location-Nominal 378 380	周围
+R9	Located Arg1:T55 Arg2:T58	
+R10	Located Arg1:T56 Arg2:T58	
+R11	Located Arg1:T57 Arg2:T58	
+T59	Person-Pronoun 400 401	你
+T60	Person-Pronoun 407 408	你
+T61	Location-Nominal 410 412	山野
+T62	Person-Pronoun 415 416	你
+T63	Thing-Nominal 425 427	晚霞
+T64	Thing-Name 442 445	琅琊山
+T65	Location-Nominal 461 464	山脚下
+T66	Thing-Nominal 461 462	山
+*	Coreference T66 T64
+T67	Person-Nominal 476 479	农民们
+T68	Time-Implicit 473 476	丰收后
+T69	Thing-Pronoun 496 497	它
+T70	Thing-Nominal 499 501	云层
+T71	Location-Nominal 505 507	树林
+T72	Thing-Nominal 509 511	鸟儿
+T73	Location-Nominal 512 514	空中
+R12	Located Arg1:T72 Arg2:T73	
+T74	Thing-Nominal 519 522	小虫子
+T75	Location-Nominal 523 525	山边
+T76	Location-Nominal 526 529	灌木丛
+R13	Near Arg1:T76 Arg2:T75	
+R14	Located Arg1:T74 Arg2:T76	
+T77	Thing-Nominal 540 542	蝴蝶
+T78	Thing-Nominal 544 546	菊花
+R15	Located Arg1:T77 Arg2:T78	
+T79	Thing-Nominal 547 549	翅膀
+R16	Part-Whole Arg1:T79 Arg2:T77	
+T80	Thing-Nominal 560 564	小动物们
+T81	Person-Pronoun 568 569	我
+T82	Location-Nominal 571 573	山坡
+T83	Thing-Nominal 587 589	楼房
+T84	Thing-Nominal 596 600	水泥马路
+T85	Location-Nominal 607 609	门前
+R17	Located Arg1:T84 Arg2:T85	
+T86	Thing-Nominal 613 615	院落
+T87	Location-Nominal 616 619	屋檐下
+T88	Location-Nominal 620 623	墙头上
+T89	Thing-Nominal 616 618	屋檐
+T90	Thing-Nominal 620 622	墙头
+R18	Part-Whole Arg1:T89 Arg2:T86	
+R19	Part-Whole Arg1:T90 Arg2:T86	
+T91	Thing-Nominal 631 633	辣椒
+T92	Thing-Nominal 642 644	玉米
+R20	Located Arg1:T92 Arg2:T88	
+R21	Located Arg1:T92 Arg2:T87	
+R22	Located Arg1:T91 Arg2:T88	
+R23	Located Arg1:T91 Arg2:T87	
+T93	Location-Nominal 665 668	新农村
+T94	Location-Nominal 670 674	我的家乡
+R24	General-Special Arg1:T93 Arg2:T94	
+T95	Person-Pronoun 670 671	我
+T96	Thing-Nominal 607 608	门
+R25	Part-Whole Arg1:T96 Arg2:T83	
+T97	Time-Implicit 676 681	十月的金秋
+T98	Location-Nominal 694 696	山野
+T99	Thing-Nominal 704 706	水气
+T100	Thing-Nominal 709 711	太阳
+T101	Thing-Nominal 715 717	西山
+R26	Located Arg1:T100 Arg2:T101	
+T102	Thing-Nominal 722 724	廊柱
+T103	Time-Implicit 732 734	此时
+T104	Person-Nominal 735 736;737 738	农 夫
+T105	Location-Nominal 739 740	舍
+T106	Thing-Nominal 740 741	鸟
+T107	Location-Nominal 742 743	林
+R27	Located Arg1:T106 Arg2:T107	
+T108	Person-Pronoun 749 750	我
+T109	Location-Nominal 757 759	京城
+T110	Person-Nominal 760 762	女儿
+R28	Family Arg1:T108 Arg2:T110	
+T111	Location-Nominal 767 768	林
+T112	Time-Explicit 772 774	十月
+T113	Thing-Name 781 783	南湖
+T114	Location-Nominal 787 792	琅琊山脚下
+T115	Thing-Nominal 793 795	明珠
+R29	Located Arg1:T113 Arg2:T114	
+T116	Thing-Nominal 801 802	灯
+T117	Location-Nominal 807 809	湖边
+T118	Thing-Nominal 810 812	宝石
+R30	Located Arg1:T116 Arg2:T117	
+T119	Time-Implicit 816 818	夜晚
+T120	Person-Nominal 820 823	滁城人
+T121	Person-Pronoun 837 838	我
+T122	Time-Explicit 846 847	唐
+T123	Person-Name 848 851	刘禹锡
+T124	Thing-Nominal 856 858	湖光
+T125	Thing-Nominal 858 860	秋月
+T126	Location-Nominal 864 866	潭面
+T127	Thing-Nominal 867 868	风
+T128	Thing-Nominal 868 869	镜
+T129	Location-Name 874 876	洞庭
+T130	Thing-Nominal 876 878	山水
+T131	Thing-Nominal 880 883	白银盘
+T132	Thing-Nominal 885 887	青螺
+R31	Located Arg1:T132 Arg2:T131	
+T133	Location-Name 894 896	南湖
+T134	Thing-Nominal 902 903	天
+T135	Thing-Nominal 904 905	露
+T136	Thing-Nominal 909 911	月牙
+T137	Location-Nominal 912 916	西南天边
+R32	Located Arg1:T136 Arg2:T137	
+T138	Thing-Nominal 925 927	月光
+T139	Thing-Nominal 929 931	大地
+T140	Thing-Nominal 938 940	银河
+T141	Thing-Nominal 941 943	繁星
+R34	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 956 957	风
+T143	Thing-Nominal 958 960	落叶
+T144	Thing-Nominal 968 970	虫儿
+T145	Time-Explicit 978 980	十月
+T146	Thing-Pronoun 984 986	它们
+*	Coreference T146 T144
+T147	Person-Nominal 992 994	世人
+T148	Time-Explicit 999 1001	十月
+T149	Thing-Pronoun 1006 1007	你
+T150	Thing-Pronoun 1024 1025	你

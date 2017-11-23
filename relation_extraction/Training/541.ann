@@ -1,0 +1,331 @@
+T1	Thing-Nominal 1 2	苇
+T2	Location-Nominal 3 4	渠
+T3	Thing-Nominal 9 11	竹篙
+T4	Location-Nominal 25 29	蒲苇深处
+T5	Location-Name 34 37	马踏湖
+T6	Location-Name 77 81	马踏湖区
+T7	Thing-Nominal 64 66	芙蕖
+T8	Thing-Nominal 87 88	苇
+T9	Thing-Nominal 93 95	苇花
+R1	Part-Whole Arg1:T9 Arg2:T8	
+T10	Thing-Nominal 106 108	缨枪
+T11	Time-Implicit 109 114	深秋的一天
+T12	Person-Pronoun 115 116	我
+T13	Thing-Nominal 117 118	车
+T14	Location-Nominal 119 121	老家
+R2	Use Arg1:T12 Arg2:T13	
+T15	Person-Nominal 125 129	父老乡亲
+T16	Thing-Nominal 152 154	芦苇
+T17	Thing-Nominal 155 157	小船
+R3	Located Arg1:T16 Arg2:T17	
+T18	Location-Nominal 158 159	湖
+R4	Located Arg1:T17 Arg2:T18	
+T19	Location-Nominal 165 167	桥孔
+T20	Location-Nominal 170 172	岸边
+T21	Person-Nominal 187 190	湖区人
+T22	Location-Name 220 223	马踏湖
+T23	Location-Name 228 232	芦苇天地
+*	Coreference T22 T23
+T24	Location-Nominal 234 236	河道
+T25	Thing-Nominal 244 246	芦苇
+R5	Located Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 256 260	江南修竹
+T27	Location-Name 271 273	长城
+T28	Thing-Nominal 280 282	小船
+T29	Location-Nominal 291 295	豆棚瓜架
+T30	Thing-Nominal 304 306	野鸭
+T31	Thing-Nominal 307 309	苇雀
+T32	Thing-Nominal 311 312	鸟
+*	Coreference T31 T32 T30
+T33	Thing-Nominal 323 325	苇雀
+T34	Thing-Nominal 329 331	苇杆
+R6	Located Arg1:T33 Arg2:T34	
+T35	Location-Nominal 333 335	小巢
+R7	Located Arg1:T33 Arg2:T35	
+T36	Thing-Nominal 343 345	芦苇
+T37	Thing-Nominal 367 369	芦苇
+T38	Time-Implicit 376 381	古代的时候
+T39	Thing-Nominal 383 385	芦苇
+T43	Thing-Nominal 398 399	荻
+T40	Thing-Nominal 389 394	短小的芦苇
+*	Coreference T40 T43
+T41	Thing-Nominal 401 403;404 409	没有 长穗的芦苇
+T44	Thing-Nominal 424 425	葭
+T42	Thing-Nominal 415 420	初生的芦苇
+*	Coreference T42 T44
+T45	Thing-Nominal 437 439	芦苇
+T46	Thing-Pronoun 450 451	它
+*	Coreference T46 T45
+T47	Metric 472 475	五六米
+T48	Thing-Nominal 487 489	芦苇
+T49	Location-Name 490 493	马踏湖
+R8	Located Arg1:T48 Arg2:T49	
+T50	Location-Nominal 502 504	湖区
+T51	Metric 507 511	两万多亩
+T52	Thing-Nominal 512 514	芦苇
+T53	Time-Implicit 514 516	春天
+T54	Time-Implicit 519 524	立冬节前后
+T55	Thing-Nominal 539 541	庄稼
+T56	Thing-Nominal 557 559	芦苇
+T57	Thing-Nominal 565 566	草
+T58	Person-Nominal 571 574	洼里人
+T59	Thing-Nominal 576 579	薅苇子
+*	Coreference T59 T56
+T60	Person-Nominal 583 585	人们
+T61	Thing-Nominal 586 588	芦苇
+T62	Thing-Nominal 604 606	大苇
+R9	Part-Whole Arg1:T61 Arg2:T62	
+T63	Thing-Nominal 616 618	次苇
+T64	Thing-Nominal 627 629	黄苇
+T65	Thing-Nominal 640 642	草苇
+T66	Thing-Nominal 645 647	芟苇
+R10	Part-Whole Arg1:T61 Arg2:T66	
+R11	Part-Whole Arg1:T65 Arg2:T61	
+R12	Part-Whole Arg1:T64 Arg2:T61	
+R13	Part-Whole Arg1:T63 Arg2:T61	
+T67	Person-Nominal 650 663	祖祖辈辈生活在马踏湖的人们
+T68	Time-Implicit 664 668	立冬前后
+T69	Thing-Nominal 670 672	芦苇
+T70	Thing-Nominal 708 710	芦苇
+T71	Thing-Nominal 728 730	镰刀
+T72	Location-Nominal 720 722	家里
+T73	Thing-Nominal 736 737	船
+T74	Person-Nominal 740 746	在家的女人们
+T75	Time-Implicit 755 762	临近中午的时候
+T76	Thing-Nominal 765 767	芦苇
+T77	Thing-Nominal 768 769	船
+R14	Located Arg1:T76 Arg2:T77	
+T78	Person-Nominal 779 785	割苇子的劳力
+T79	Time-Implicit 785 787	中午
+T80	Location-Nominal 789 790	坡
+T81	Person-Pronoun 805 807	他们
+T82	Thing-Nominal 815 816	鱼
+T83	Thing-Nominal 802 803	鱼
+T84	Time-Implicit 793 798	空闲的时候
+*	Coreference T78 T81
+T85	Person-Nominal 823 824	鱼
+T86	Location-Nominal 833 835	湖区
+T87	Location-Name 836 838	鱼龙
+T88	Location-Name 839 841	华沟
+R15	Part-Whole Arg1:T88 Arg2:T86	
+R16	Part-Whole Arg1:T87 Arg2:T86	
+T89	Time-Implicit 860 863	小时候
+T90	Person-Pronoun 864 865	我
+T91	Thing-Nominal 905 907	牛肉
+T92	Thing-Nominal 919 921	牛肉
+T93	Person-Nominal 926 928	人们
+T94	Thing-Nominal 929 931	芦苇
+T95	Thing-Nominal 934 936	牛皮
+R17	Use Arg1:T93 Arg2:T95	
+T96	Thing-Nominal 938 940	牛皮
+T97	Thing-Nominal 943 944	牛
+R18	Part-Whole Arg1:T96 Arg2:T97	
+T98	Thing-Nominal 949 950	牛
+T99	Thing-Nominal 952 954	牛肉
+R19	Part-Whole Arg1:T99 Arg2:T98	
+T100	Person-Nominal 955 960	湖区的人们
+T101	Thing-Nominal 961 963	苇子
+T102	Thing-Nominal 966 969	牛皮鞋
+T103	Thing-Nominal 973 975	牛皮
+T104	Person-Nominal 978 979;980 982	当 地人
+T105	Thing-Nominal 984 986	腿子
+*	Coreference T105 T102
+T106	Thing-Nominal 991 993	腿子
+T107	Person-Nominal 995 997	人们
+T108	Thing-Nominal 1007 1011	芦苇茬子
+T109	Person-Nominal 1034 1039	湖区的人们
+T110	Thing-Nominal 1049 1051	牛肉
+T111	Person-Nominal 1057 1063	马踏湖的姑娘
+T112	Person-Nominal 1071 1074	小伙子
+T113	Person-Nominal 1087 1089	父亲
+T114	Person-Pronoun 1091 1092	我
+R20	Family Arg1:T114 Arg2:T113	
+T115	Thing-Nominal 1093 1095	芦苇
+T116	Person-Nominal 1098 1101	洼里人
+T117	Thing-Pronoun 1116 1117	它
+*	Coreference T117 T115
+T118	Thing-Nominal 1120 1122	芦苇
+T119	Metric 1134 1136	1角
+T120	Time-Implicit 1140 1146	生产队那会儿
+T121	Person-Nominal 1148 1151	社员们
+T122	Location-Nominal 1154 1156	苇田
+T123	Time-Implicit 1167 1172	八九十年代
+T124	Location-Nominal 1173 1175	苇田
+T125	Location-Nominal 1192 1196	湖区各村
+T126	Location-Nominal 1214 1215	村
+T127	Metric 1219 1221	几亩
+T128	Location-Nominal 1221 1223	苇田
+T129	Metric 1228 1231	几十亩
+T130	Metric 1233 1236	几百亩
+T131	Person-Nominal 1243 1247	父老乡亲
+T132	Thing-Nominal 1251 1252	屋
+T133	Thing-Nominal 1253 1254	墙
+R21	Create Arg1:T131 Arg2:T132	
+R22	Create Arg1:T131 Arg2:T133	
+T134	Metric 1272 1274	几亩
+T135	Location-Nominal 1275 1278	芦苇地
+T136	Person-Pronoun 1279 1281	他们
+*	Coreference T136 T131
+T137	Person-Pronoun 1286 1288	他们
+T138	Person-Nominal 1314 1317	湖区人
+*	Coreference T138 T137
+T139	Thing-Nominal 1318 1320	芦苇
+T140	Person-Nominal 1333 1336	湖区人
+T141	Location-Name 1352 1355	马踏湖
+T142	Thing-Nominal 1356 1358	芦苇
+R23	Located Arg1:T142 Arg2:T141	
+T143	Thing-Nominal 1370 1373	好苇子
+T144	Person-Nominal 1390 1395	湖区的人们
+T145	Location-Nominal 1396 1398	旱田
+T146	Location-Nominal 1399 1401	水田
+T147	Thing-Nominal 1418 1420	苇草
+R24	Use Arg1:T144 Arg2:T147	
+T148	Thing-Nominal 1428 1429	席
+T149	Thing-Nominal 1430 1431	筐
+T150	Thing-Nominal 1432 1433	篮
+T151	Thing-Nominal 1434 1437	炊具、
+T152	Thing-Nominal 1437 1439	鸡笼
+R25	Create Arg1:T144 Arg2:T148	
+R26	Create Arg1:T144 Arg2:T149	
+R27	Create Arg1:T144 Arg2:T150	
+R28	Create Arg1:T144 Arg2:T151	
+R29	Create Arg1:T144 Arg2:T152	
+T153	Person-Nominal 1446 1448	自己
+*	Coreference T144 T153
+T154	Thing-Nominal 1450 1452	苇子
+T155	Person-Nominal 1475 1478	湖区人
+T156	Thing-Nominal 1479 1481	芦苇
+R30	Use Arg1:T155 Arg2:T156	
+T157	Thing-Nominal 1492 1494	宫灯
+T158	Thing-Nominal 1495 1498	四扇屏
+T159	Thing-Nominal 1499 1502	大屏风
+R31	Create Arg1:T155 Arg2:T157	
+R32	Create Arg1:T155 Arg2:T158	
+R33	Create Arg1:T155 Arg2:T159	
+T160	Person-Nominal 1522 1527	国内外客商
+T161	Thing-Nominal 1532 1534	芦苇
+T162	Thing-Nominal 1536 1538	苇箔
+T163	Thing-Nominal 1556 1560	几根竹竿
+T164	Thing-Nominal 1563 1565	苇箔
+T165	Person-Nominal 1573 1578	湖区的人们
+T166	Location-Nominal 1591 1593	国外
+T167	Location-Nominal 1599 1601	国家
+T168	Location-Nominal 1602 1604	地区
+T169	Thing-Nominal 1605 1607	苇箔
+T170	Person-Nominal 1618 1622	大人小孩
+T171	Person-Nominal 1638 1643	湖区的人们
+T172	Thing-Nominal 1647 1649	芦苇
+R34	Use Arg1:T171 Arg2:T172	
+T173	Thing-Nominal 1667 1671	芦苇渔具
+R35	Create Arg1:T171 Arg2:T173	
+T174	Thing-Nominal 1672 1674	鱼箔
+T175	Thing-Nominal 1675 1678	蜜蜂子
+T176	Thing-Nominal 1679 1681	漫篮
+T177	Thing-Nominal 1682 1684	筒子
+T178	Thing-Nominal 1685 1687	大箔
+R36	Part-Whole Arg1:T174 Arg2:T173	
+R37	Part-Whole Arg1:T175 Arg2:T173	
+R38	Part-Whole Arg1:T176 Arg2:T173	
+R39	Part-Whole Arg1:T177 Arg2:T173	
+R40	Part-Whole Arg1:T178 Arg2:T173	
+T179	Thing-Nominal 1691 1693	芦苇
+T180	Thing-Nominal 1703 1705	鱼类
+T181	Thing-Nominal 1722 1724	大鱼
+T182	Location-Nominal 1726 1728	监狱
+R41	Located Arg1:T181 Arg2:T182	
+T183	Thing-Nominal 1732 1734	小鱼
+T184	Location-Nominal 1736 1739	拘留所
+R42	Located Arg1:T183 Arg2:T184	
+T185	Thing-Nominal 1756 1757	蟹
+T186	Location-Nominal 1748 1749	湖
+T187	Location-Nominal 1767 1769	湖区
+T188	Location-Name 1778 1781	鱼龙湾
+T189	Location-Nominal 1784 1804	湖区鱼虾、莲藕、蒲苇、鸭蛋最大的集散码头
+*	Coreference T189 T188
+T190	Thing-Nominal 1786 1788	鱼虾
+T191	Thing-Nominal 1789 1791	莲藕
+T192	Thing-Nominal 1792 1794	蒲苇
+T193	Thing-Nominal 1795 1797	鸭蛋
+R43	Located Arg1:T190 Arg2:T188	
+R44	Located Arg1:T191 Arg2:T188	
+R45	Located Arg1:T192 Arg2:T188	
+R46	Located Arg1:T193 Arg2:T188	
+T194	Thing-Nominal 1816 1819	小船儿
+T195	Location-Name 1826 1833	鱼龙湾大桥码头
+R47	Located Arg1:T194 Arg2:T195	
+T196	Person-Nominal 1836 1838	人们
+T197	Thing-Nominal 1856 1858	鲫鱼
+T198	Thing-Nominal 1859 1861	鲤鱼
+T199	Thing-Nominal 1862 1864	草鱼
+T200	Thing-Nominal 1865 1867	黑鱼
+T201	Thing-Nominal 1868 1870	鲇鱼
+T202	Thing-Nominal 1871 1873	鳝鱼
+T203	Thing-Nominal 1874 1877	小鱼子
+T204	Thing-Nominal 1880 1881;1882 1883	泥 鳅
+T205	Thing-Nominal 1884 1886	螃蟹
+T206	Thing-Nominal 1887 1889	小虾
+T207	Person-Nominal 1905 1910	湖区的人们
+T208	Person-Nominal 1925 1927	人们
+T209	Thing-Nominal 1931 1932	鱼
+T210	Location-Nominal 1934 1938	鱼龙市口
+R48	Located Arg1:T209 Arg2:T210	
+T211	Person-Nominal 1943 1948	湖区的百姓
+T212	Thing-Nominal 1974 1976	芦苇
+T213	Thing-Nominal 1979 1980	纸
+T214	Location-Name 1992 1995	马踏湖
+T215	Thing-Pronoun 2001 2002	它
+*	Coreference T215 T212
+T216	Thing-Nominal 2004 2006	莲藕
+T217	Thing-Nominal 2007 2011	金丝鸭蛋
+T218	Thing-Nominal 2012 2013	蒲
+T219	Thing-Nominal 2014 2015	鱼
+T220	Location-Name 2029 2032	马踏湖
+T221	Location-Name 2035 2039	鲁北平原
+R49	Part-Whole Arg1:T220 Arg2:T221	
+T222	Location-Name 2055 2058	马踏湖
+T223	Thing-Nominal 2062 2064	芦苇
+T224	Location-Name 2069 2072	马踏湖
+T225	Location-Nominal 2075 2083	我省的重点风景区
+T226	Location-Nominal 2084 2089	湿地保护区
+*	Coreference T224 T225 T226
+T227	Location-Name 2092 2095	马踏湖
+T228	Location-Pronoun 2103 2104	她
+T229	Person-Name 2117 2128	原山东省政协主席李子超
+T230	Location-Name 2129 2131	桓台
+T231	Location-Name 2142 2145	马踏湖
+R50	Part-Whole Arg1:T231 Arg2:T230	
+*	Coreference T228 T231
+T232	Location-Name 2252 2255	马踏湖
+T233	Person-Nominal 2271 2273	游客
+T234	Location-Name 2276 2280	马踏湖“
+T235	Time-Implicit 2287 2294	秋冬交接的时节
+T236	Person-Nominal 103 105	民兵
+T237	Metric 686 688	几天
+T238	Organization-Nominal 1019 1022	生产队
+T239	Time-Implicit 1294 1296	每年
+T240	Thing-Nominal 1302 1304	苇子
+T241	Thing-Nominal 1542 1543	房
+R51	Part-Whole Arg1:T162 Arg2:T241	
+T242	Time-Implicit 1578 1580	每年
+T243	Thing-Nominal 1654 1656	渔具
+T244	Thing-Nominal 1839 1840	船
+T245	Thing-Nominal 1842 1843	船
+T246	Location-Name 1962 1965	鱼龙湾
+T247	Location-Name 2153 2156	马踏湖
+T248	Location-Nominal 2162 2166	北国江南
+T249	Thing-Nominal 2166 2168	鱼米
+T250	Thing-Nominal 2170 2172	苇花
+T251	Thing-Nominal 2178 2180	游船
+T252	Thing-Nominal 2183 2184	莲
+T253	Thing-Nominal 2188 2189	荷
+T254	Thing-Nominal 2192 2193	芦
+T255	Person-Nominal 2196 2198	游人
+T256	Thing-Nominal 2194 2195	月
+T257	Thing-Nominal 2204 2206	扁舟
+T258	Person-Nominal 2219 2221	游人
+T259	Thing-Nominal 2227 2228	虾
+T260	Thing-Nominal 2229 2230	鱼
+T262	Thing-Nominal 2241 2242	藕
+T261	Location-Nominal 2239 2241	花下
+R52	Located Arg1:T262 Arg2:T261	
+*	Coreference T247 T248

@@ -1,0 +1,253 @@
+T1	Time-Implicit 3 6	二年多
+T2	Person-Pronoun 10 11	她
+T3	Person-Pronoun 12 13	他
+T4	Person-Nominal 24 28	她的朋友
+T5	Person-Nominal 31 38	她曾经的追求者
+R1	Part-Whole Arg1:T5 Arg2:T4	
+R2	Social Arg1:T4 Arg2:T2	
+T6	Person-Pronoun 42 44	他俩
+T7	Person-Pronoun 49 50	她
+R3	Social Arg1:T2 Arg2:T3	
+T8	Location-Nominal 54 56	他家
+T9	Thing-Nominal 61 63	晚餐
+T10	Thing-Nominal 65 71	她喜欢吃的菜
+T11	Person-Nominal 74 78	单身男子
+T12	Person-Pronoun 79 80	他
+R4	General-Special Arg1:T11 Arg2:T12	
+T13	Person-Pronoun 84 85	他
+T14	Thing-Nominal 93 96	每道菜
+R5	Create Arg1:T13 Arg2:T14	
+T15	Person-Pronoun 98 99	她
+T16	Person-Pronoun 108 109	他
+T17	Person-Pronoun 113 114	她
+T18	Person-Pronoun 115 116	她
+T19	Thing-Nominal 126 133	两高脚杯葡萄酒
+T20	Metric 126 130	两高脚杯
+T21	Person-Pronoun 135 136	她
+T22	Person-Pronoun 143 144	他
+T23	Person-Pronoun 164 165	她
+T24	Person-Pronoun 172 173	他
+T25	Person-Pronoun 186 188	他俩
+T26	Thing-Nominal 190 192	沙发
+R6	Use Arg1:T25 Arg2:T26	
+T27	Thing-Nominal 195 199	各种点心
+R7	Use Arg1:T25 Arg2:T27	
+R8	Use Arg1:T21 Arg2:T19	
+T28	Thing-Nominal 202 207	香甜的饮料
+T29	Person-Nominal 211 213	双方
+*	Coreference T29 T25 T45 T99
+T30	Thing-Nominal 226 229	他的手
+T31	Person-Pronoun 226 227	他
+R9	Part-Whole Arg1:T30 Arg2:T31	
+T32	Thing-Nominal 232 235	她的腿
+T33	Person-Pronoun 232 233	她
+R10	Part-Whole Arg1:T32 Arg2:T33	
+T34	Person-Pronoun 237 238	她
+T35	Thing-Nominal 239 240	手
+R11	Part-Whole Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 243 245;246 247	他的 手
+T37	Person-Pronoun 243 244	他
+R12	Part-Whole Arg1:T36 Arg2:T37	
+T38	Person-Pronoun 249 250	他
+T39	Person-Pronoun 257 260	她的嘴
+T40	Person-Pronoun 257 258	她
+*	Coreference T39 T40
+T41	Person-Pronoun 262 263	她
+T42	Location-Nominal 271 275	客厅四周
+T43	Thing-Nominal 275 292	若明若暗的彩色灯光与优美性感的音乐
+R13	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 299 304	一副催情剂
+T45	Person-Nominal 307 312	对年轻男女
+T46	Thing-Nominal 339 342	他的手
+T47	Thing-Nominal 344 348	她的胸口
+T48	Person-Pronoun 339 340	他
+T49	Person-Pronoun 344 345	她
+R14	Part-Whole Arg1:T46 Arg2:T48	
+R15	Part-Whole Arg1:T47 Arg2:T49	
+T50	Person-Pronoun 352 353	她
+T51	Time-Implicit 338 351	当他的手伸向她的胸口的时候
+T52	Thing-Pronoun 359 360	它
+*	Coreference T52 T46
+T53	Person-Pronoun 364 365	她
+T54	Person-Nominal 366 373	一个传统的女孩
+R16	General-Special Arg1:T54 Arg2:T53	
+T55	Person-Pronoun 374 375	她
+T56	Time-Implicit 384 389	洞房花烛夜
+T57	Person-Pronoun 390 391	她
+T58	Person-Pronoun 398 399	他
+T59	Location-Nominal 400 402	他家
+T60	Thing-Nominal 404 406	晚餐
+T61	Person-Pronoun 414 415	她
+T62	Person-Pronoun 420 421	他
+T63	Person-Pronoun 437 438	他
+T64	Time-Implicit 442 444	此刻
+T65	Person-Pronoun 457 458	她
+T66	Person-Pronoun 460 461	她
+T67	Person-Pronoun 465 466	她
+T68	Person-Pronoun 477 478	我
+T69	Person-Nominal 491 496	追你的女孩
+T70	Person-Pronoun 492 493	你
+*	Coreference T70 T63
+T71	Person-Pronoun 500 501	我
+*	Coreference T68 T66
+T72	Person-Pronoun 509 510	你
+T73	Person-Pronoun 516 517	我
+T74	Person-Pronoun 531 532	你
+*	Coreference T74 T73 T75 T76
+T75	Person-Pronoun 534 535	你
+T76	Person-Pronoun 547 548	你
+T77	Person-Pronoun 549 550	谁
+T78	Person-Pronoun 553 554	你
+T79	Person-Pronoun 558 559	我
+T80	Person-Pronoun 560 561	你
+T81	Person-Pronoun 571 572	他
+T82	Thing-Nominal 576 580	他的文章
+T83	Person-Pronoun 576 577	他
+R17	Create Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 586 597	那些对她发起进攻的书信
+R18	Create Arg1:T81 Arg2:T84	
+T85	Person-Pronoun 597 598	她
+T86	Person-Pronoun 604 605	谁
+T87	Person-Nominal 608 617	那种始乱终弃的男人
+T88	Time-Implicit 625 627	今夜
+T89	Person-Pronoun 634 635	我
+T90	Person-Pronoun 637 638	我
+T91	Person-Nominal 641 644	那种人
+T92	Person-Pronoun 645 646	我
+T93	Person-Pronoun 649 650	你
+T94	Time-Implicit 659 662	这辈子
+T95	Person-Pronoun 687 688	你
+T96	Person-Pronoun 690 691	我
+T97	Person-Pronoun 699 700	你
+T98	Thing-Nominal 703 710	我们结婚的房间
+T99	Person-Pronoun 703 705	我们
+T100	Person-Pronoun 721 722	你
+T101	Person-Pronoun 729 730	她
+T102	Person-Pronoun 731 732	他
+T103	Person-Pronoun 742 743	她
+T104	Thing-Nominal 755 758	他的唇
+T105	Person-Pronoun 755 756	他
+R19	Part-Whole Arg1:T104 Arg2:T105	
+T106	Person-Pronoun 769 770	我
+*	Coreference T106 T101 T111 T108
+T107	Person-Pronoun 772 773	你
+*	Coreference T107 T102 T110
+T108	Person-Pronoun 784 785	你
+*	Coreference T95 T85
+*	Coreference T96 T92 T89 T90 T79 T81
+T109	Person-Nominal 790 792	女士
+R20	General-Special Arg1:T109 Arg2:T101	
+T110	Person-Pronoun 802 803	你
+T111	Person-Pronoun 806 807	我
+T112	Thing-Nominal 813 819	你布置的房间
+T113	Person-Pronoun 821 822	他
+T114	Location-Nominal 834 836	浴室
+T115	Thing-Nominal 838 841	水龙头
+R21	Use Arg1:T113 Arg2:T115	
+T116	Person-Pronoun 844 845	他
+T117	Time-Implicit 857 865	那盼望已久的时刻
+T118	Thing-Nominal 884 887	她的手
+T119	Person-Pronoun 884 885	她
+R22	Part-Whole Arg1:T118 Arg2:T119	
+T120	Person-Pronoun 891 892	他
+T121	Thing-Nominal 917 919	大门
+T122	Person-Pronoun 926 927	他
+T123	Thing-Nominal 933 935	浴巾
+R23	Use Arg1:T122 Arg2:T123	
+T124	Location-Nominal 940 942	屋子
+T125	Person-Pronoun 948 949	她
+T126	Person-Pronoun 953 954	他
+T127	Thing-Nominal 963 965	窗户
+T128	Person-Pronoun 970 971	她
+T129	Person-Pronoun 984 985	他
+T130	Location-Nominal 990 992	房间
+T131	Thing-Nominal 995 997	衣服
+R24	Use Arg1:T129 Arg2:T131	
+T132	Person-Pronoun 1001 1002	她
+T133	Location-Nominal 1008 1010	桌上
+T134	Thing-Nominal 1010 1018	自己未写完的日记
+R25	Create Arg1:T129 Arg2:T134	
+T135	Person-Pronoun 1010 1012	自己
+*	Coreference T135 T129 T137 T139
+T136	Person-Pronoun 1023 1024	她
+T137	Person-Pronoun 1032 1033	我
+T138	Thing-Nominal 1035 1037	晚餐
+T139	Person-Pronoun 1039 1040	我
+T140	Person-Pronoun 1044 1045	她
+T141	Person-Nominal 1052 1057	亲爱的朋友
+R26	Social Arg1:T141 Arg2:T139	
+T142	Person-Pronoun 1058 1059	你
+*	Coreference T142 T141 T145 T148
+T143	Person-Pronoun 1065 1066	我
+T144	Person-Pronoun 1072 1073	她
+T145	Person-Pronoun 1078 1079	你
+T146	Person-Pronoun 1081 1082	我
+T147	Person-Pronoun 1085 1086	她
+T148	Person-Pronoun 1092 1093	你
+T149	Person-Pronoun 1094 1095	她
+T150	Person-Pronoun 1106 1107	她
+T151	Person-Pronoun 1111 1112	我
+T152	Person-Nominal 1115 1121	所有的追求者
+R27	Social Arg1:T152 Arg2:T151	
+T153	Person-Pronoun 1126 1127	她
+T154	Person-Pronoun 1133 1134	我
+T155	Person-Pronoun 1143 1144	你
+T156	Time-Implicit 1146 1150	在学校时
+T157	Person-Nominal 1154 1156	班长
+T158	Person-Nominal 1160 1161	你
+T159	Person-Pronoun 1163 1164	我
+T160	Person-Nominal 1169 1172	副班长
+*	Coreference T159 T160
+*	Coreference T157 T158
+T161	Person-Pronoun 1175 1176	我
+T162	Person-Pronoun 1179 1180	你
+T163	Person-Pronoun 1188 1189	我
+T164	Person-Pronoun 1196 1197	我
+T165	Person-Pronoun 1201 1202	你
+T166	Person-Pronoun 1206 1207	我
+T167	Person-Pronoun 1211 1212	她
+T168	Person-Pronoun 1219 1220	她
+T169	Person-Pronoun 1234 1235	我
+T170	Person-Pronoun 1241 1242	我
+T171	Person-Pronoun 1243 1245	她的
+T172	Person-Nominal 1253 1257	你的好友
+T173	Person-Pronoun 1258 1259	我
+T174	Person-Pronoun 1260 1261	她
+R28	Social Arg1:T172 Arg2:T165	
+T175	Person-Pronoun 1278 1279	她
+T176	Person-Pronoun 1283 1284	你
+T177	Person-Pronoun 1291 1292	她
+T178	Person-Nominal 1295 1302	一个随便的女孩
+T179	Person-Pronoun 1304 1305	我
+T180	Person-Pronoun 1307 1309	自己
+*	Coreference T180 T179
+T181	Person-Pronoun 1319 1320	你
+T182	Person-Nominal 1321 1324;1325 1326	我的朋 友
+T183	Person-Pronoun 1328 1329	我
+T184	Person-Pronoun 1333 1334	你
+T185	Person-Pronoun 1336 1337	我
+T186	Person-Pronoun 1345 1346	我
+T187	Person-Pronoun 1351 1352	你
+T188	Person-Pronoun 1358 1359	她
+T189	Time-Implicit 1360 1362	现在
+T190	Person-Pronoun 1363 1364	我
+T191	Person-Pronoun 1366 1367	你
+T192	Person-Pronoun 1372 1373	我
+T193	Person-Pronoun 1379 1380	她
+T194	Person-Pronoun 1396 1397	他
+T195	Person-Pronoun 1399 1400	她
+T196	Person-Pronoun 1429 1430	他
+T197	Person-Pronoun 1439 1440	他
+T198	Person-Pronoun 1447 1448	她
+T199	Time-Implicit 1440 1442	现在
+T200	Person-Pronoun 1451 1452	他
+T201	Person-Pronoun 1457 1458	她
+T202	Person-Pronoun 1460 1461	他
+T203	Person-Pronoun 1465 1466	她
+T204	Person-Pronoun 1467 1468	他
+T205	Person-Pronoun 1481 1482	他
+T206	Person-Pronoun 1488 1489	他
+T207	Thing-Nominal 1490 1491	手
+R29	Part-Whole Arg1:T207 Arg2:T206	
+T208	Thing-Nominal 1498 1501	他的手
+*	Coreference T208 T207

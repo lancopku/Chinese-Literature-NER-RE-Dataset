@@ -1,0 +1,200 @@
+T1	Person-Pronoun 4 5	我
+T2	Time-Implicit 0 3	退休后
+T3	Person-Nominal 6 8	儿女
+R1	Family Arg1:T3 Arg2:T1	
+T4	Location-Name 11 13	杭州
+T5	Person-Nominal 16 18	亲戚
+T6	Person-Pronoun 19 20	我
+R2	Family Arg1:T5 Arg2:T6	
+T7	Person-Nominal 23 25	同事
+R3	Social Arg1:T7 Arg2:T6	
+T8	Location-Nominal 43 51	被誉为天堂的地方
+*	Coreference T8 T4 T13 T32
+T9	Location-Name 52 58	清澈的西子湖
+T10	Location-Name 59 60;61 68	潮 起潮落的钱塘江
+T11	Person-Nominal 72 78	古今文人墨客
+T12	Person-Nominal 88 94	世界各地人士
+T13	Location-Pronoun 131 133	这里
+T14	Time-Implicit 142 144	夏天
+T15	Location-Name 146 150	西湖白堤
+T16	Thing-Nominal 159 161	碧波
+T17	Time-Implicit 165 167	秋日
+T18	Location-Name 169 173	钱塘江畔
+T19	Thing-Nominal 174 175	潮
+T20	Thing-Nominal 180 182	浪潮
+*	Coreference T20 T19
+T21	Person-Name 212 217	古吴墨浪子
+T22	Location-Name 264 266	上虞
+T23	Location-Nominal 291 293	家乡
+*	Coreference T23 T22
+T24	Location-Name 296 298	西湖
+T25	Thing-Nominal 333 334	月
+T26	Thing-Nominal 339 341	月光
+T27	Person-Name 356 358	苏轼
+T28	Thing-Nominal 371 373	明月
+T29	Metric 368 370	一轮
+T30	Location-Nominal 376 383	家乡的山川屋舍
+T31	Person-Nominal 391 392	人
+T32	Location-Nominal 398 400	杭城
+T33	Location-Nominal 406 413	高楼林立的楼丛
+T34	Location-Nominal 416 418	阳台
+T35	Location-Nominal 419 421	天空
+T36	Thing-Nominal 434 436	月亮
+*	Coreference T25 T28 T36
+T37	Person-Name 448 450	李白
+T38	Person-Name 465 468	顾恺之
+T39	Person-Nominal 497 501	城市儿童
+T40	Person-Nominal 509 511	孙儿
+T41	Person-Pronoun 504 505	我
+R4	Family Arg1:T40 Arg2:T41	
+T42	Location-Nominal 516 520	平湖秋月
+T43	Person-Pronoun 521 523	我们
+R5	Part-Whole Arg1:T40 Arg2:T43	
+R6	Part-Whole Arg1:T41 Arg2:T43	
+T44	Thing-Pronoun 566 567	她
+T45	Thing-Nominal 530 532	月亮
+*	Coreference T44 T45 T49
+T46	Location-Nominal 572 574	城市
+T47	Thing-Nominal 577 579	车辆
+T48	Thing-Nominal 580 581	气
+T49	Thing-Pronoun 589 590	它
+T50	Location-Nominal 593 595	湖山
+T51	Thing-Nominal 600 602	月亮
+T52	Thing-Nominal 638 639	镜
+T53	Time-Implicit 652 655	小时候
+T54	Time-Implicit 656 665	每到晴热久旱的夏天
+T55	Time-Implicit 666 668	傍晚
+T56	Location-Nominal 669 676	我家所在的小弄
+T57	Thing-Nominal 684 686	饭桌
+T58	Thing-Nominal 687 689	竹榻
+T59	Location-Nominal 692 696	自家门前
+T60	Thing-Nominal 699 701	晚饭
+T61	Person-Nominal 702 704	小孩
+T62	Person-Nominal 716 720	邻家大叔
+T63	Location-Nominal 732 737	他家的竹榻
+T64	Person-Pronoun 732 733	他
+*	Coreference T64 T62
+T65	Person-Nominal 745 747	孩童
+T66	Metric 742 745	一大群
+T67	Thing-Nominal 764 766	繁星
+T68	Thing-Nominal 772 774	月亮
+T69	Thing-Nominal 793 795	明月
+*	Coreference T69 T68
+T70	Thing-Nominal 797 802	发光的玉盘
+T71	Person-Nominal 821 823	母亲
+T72	Location-Nominal 826 828	厨房
+T73	Person-Pronoun 831 832	我
+R7	Family Arg1:T73 Arg2:T71	
+T74	Person-Nominal 882 891	我的第一位启蒙老师
+*	Coreference T74 T71
+T75	Person-Nominal 908 910	艄公
+T76	Person-Nominal 914 916	纤夫
+T77	Location-Nominal 924 926	弄里
+T78	Location-Name 930 934	杭甬铁路
+T79	Thing-Nominal 940 942	汽车
+T80	Location-Nominal 946 948	小镇
+T81	Person-Nominal 957 959	人流
+T82	Thing-Nominal 959 961	物流
+T83	Location-Nominal 954 955	镇
+*	Coreference T83 T80
+T84	Location-Nominal 964 966	运河
+T85	Location-Nominal 964 970	运河这条水路
+T86	Thing-Nominal 971 974	小火轮
+T87	Time-Implicit 981 983	当时
+T88	Thing-Pronoun 996 997	它
+*	Coreference T88 T86
+T89	Location-Nominal 1027 1030	河埠头
+T90	Thing-Nominal 1045 1046	波
+T91	Thing-Nominal 1047 1048	浪
+T92	Thing-Nominal 1051 1052	帆
+T93	Thing-Nominal 1050 1059	张帆夜航的大小木船
+T94	Person-Name 1083 1085	赵嘏
+T95	Location-Nominal 1093 1098	月夜的运河
+T96	Time-Implicit 1102 1104	这时
+T97	Person-Pronoun 1105 1106	你
+T98	Thing-Nominal 1109 1110	水
+T99	Thing-Nominal 1110 1111	天
+T100	Person-Pronoun 1126 1127	我
+T101	Location-Nominal 1132 1136;1137 1139	里弄里的 祖屋
+T102	Thing-Nominal 1141 1142	耳
+T103	Thing-Nominal 1144 1146	浪水
+T104	Thing-Nominal 1150 1151	目
+T105	Thing-Nominal 1153 1154	月
+T106	Person-Nominal 1205 1210	家乡的亲友
+T107	Person-Pronoun 1211 1212	我
+T108	Location-Nominal 1217 1219	故地
+T109	Location-Nominal 1191 1193	家乡
+*	Coreference T109 T108
+T110	Time-Implicit 1223 1229	去年中秋前夕
+T111	Person-Name 1230 1237	虞南友人顾大哥
+T112	Person-Pronoun 1238 1239	我
+T113	Location-Nominal 1249 1257	曾经工作过的山村
+T114	Person-Name 1258 1261	顾大哥
+*	Coreference T114 T111 T117 T122
+T115	Location-Nominal 1275 1277	山林
+T116	Time-Explicit 1278 1283	改革开放后
+T117	Person-Pronoun 1284 1285	他
+T118	Location-Nominal 1286 1288	山村
+*	Coreference T118 T113
+T119	Location-Nominal 1297 1300	养鸡场
+T120	Location-Nominal 1303 1309	高山蔬菜基地
+T121	Person-Nominal 1312 1315	全村人
+T122	Person-Nominal 1320 1326;1327 1330	远近闻名的经 营大户
+T123	Person-Nominal 1333 1341	在外打工的青壮年
+T124	Time-Implicit 1357 1361	中秋之夜
+T125	Location-Nominal 1366 1373	自家新造的楼房
+T126	Thing-Nominal 1380 1382	方桌
+T127	Metric 1378 1380	两张
+T128	Person-Nominal 1388 1392	亲朋好友
+T129	Metric 1385 1387	一应
+T130	Person-Nominal 1394 1397	全家人
+T131	Thing-Nominal 1403 1405	月饼
+T132	Thing-Nominal 1409 1411	圆月
+T133	Metric 1407 1409	一轮
+T134	Thing-Nominal 1400 1401	月
+*	Coreference T134 T132
+T135	Location-Nominal 1415 1417	山脊
+T136	Person-Pronoun 1419 1420	我
+T137	Location-Nominal 1423 1425	山乡
+T138	Person-Name 1449 1451	李白
+T139	Thing-Pronoun 1460 1461	她
+T140	Person-Nominal 1439 1440	人
+T141	Thing-Nominal 1441 1443	明月
+*	Coreference T141 T139
+T142	Person-Pronoun 1468 1469	你
+T143	Thing-Nominal 1486 1488	繁星
+T144	Person-Pronoun 1525 1527	我们
+T145	Location-Nominal 1569 1570;1571 1579	从 山岩间涌出的溪流
+T146	Metric 1567 1569	一条
+T147	Thing-Nominal 1581 1583	月光
+T148	Thing-Nominal 1592 1594	明月
+T149	Thing-Nominal 1598 1600	清泉
+T150	Thing-Nominal 1594 1595	松
+T151	Thing-Nominal 1600 1601	石
+T152	Person-Name 1605 1607	王维
+T153	Person-Nominal 1615 1617	诗人
+T154	Person-Nominal 1624 1626	画家
+T155	Person-Nominal 1679 1680	他
+T156	Person-Nominal 1682 1691	那些志同道合的山农
+T157	Person-Nominal 1698 1706	山村永远的守望者
+R8	Part-Whole Arg1:T156 Arg2:T157	
+R9	Part-Whole Arg1:T155 Arg2:T157	
+T158	Person-Name 1647 1650	顾大哥
+*	Coreference T155 T158
+T159	Person-Pronoun 1727 1728	我
+T160	Location-Nominal 1749 1751	家乡
+T161	Person-Nominal 1762 1763	人
+T162	Location-Nominal 1761 1768;1769 1773	令人遐思神往的 精神绿地
+T163	Metric 1759 1761	一方
+T164	Time-Implicit 1774 1778	总有一天
+T165	Person-Pronoun 1779 1780	我
+T166	Person-Nominal 1783 1785	家人
+T167	Person-Nominal 1786 1788	亲友
+T168	Location-Nominal 1790 1797	家乡的山山水水
+T169	Person-Pronoun 1816 1818	他们
+R10	Part-Whole Arg1:T166 Arg2:T169	
+R11	Part-Whole Arg1:T167 Arg2:T169	
+T170	Location-Nominal 1822 1824	故土
+T171	Thing-Nominal 1840 1841	月
+T172	Location-Nominal 1842 1844	故乡
+*	Coreference T172 T170

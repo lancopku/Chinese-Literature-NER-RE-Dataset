@@ -1,0 +1,242 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 3 5	城里
+T3	Person-Pronoun 6 7	我
+T4	Metric 8 10	很多
+T5	Person-Nominal 10 12	亲戚
+T6	Location-Nominal 15 17	乡下
+T7	Metric 20 22	一个
+T8	Location-Name 23 26	安西村
+T9	Time-Implicit 30 32	当年
+T10	Person-Pronoun 32 33	我
+T11	Location-Nominal 35 37	故园
+T12	Location-Nominal 39 41	乡间
+T13	Thing-Nominal 42 43	鸡
+T14	Thing-Nominal 44 45	犬
+T15	Thing-Nominal 47 48	虫
+T16	Thing-Nominal 49 50	蛙
+T17	Person-Pronoun 56 57	我
+T18	Thing-Nominal 58 60	屁股
+T19	Person-Pronoun 63 64	我
+T20	Metric 64 67	深一脚
+T21	Metric 67 70	浅一脚
+T22	Time-Implicit 78 80	一直
+T23	Person-Pronoun 82 83	我
+T24	Location-Nominal 86 88	都市
+T25	Metric 92 95	好多个
+T26	Thing-Pronoun 103 105	它们
+T27	Person-Pronoun 106 107	我
+T28	Location-Nominal 108 109	家
+R1	Part-Whole Arg1:T13 Arg2:T26	
+R2	Part-Whole Arg1:T14 Arg2:T26	
+R3	Part-Whole Arg1:T15 Arg2:T26	
+R4	Part-Whole Arg1:T16 Arg2:T26	
+T29	Time-Implicit 111 115	时值深秋
+T30	Metric 116 118	一行
+T31	Thing-Nominal 118 120	大雁
+T32	Location-Nominal 125 129	椿树头顶
+T33	Metric 135 139	三三两两
+T34	Location-Nominal 141 145	梧桐枝头
+T35	Thing-Nominal 146 148	乌鸦
+T36	Metric 164 167	一下地
+T37	Location-Name 169 171;172 173	安西 村
+T38	Time-Implicit 176 178	黄昏
+T39	Thing-Nominal 185 187	大雁
+T40	Location-Name 190 193	安西村
+T41	Location-Name 194 197	安西村
+T42	Thing-Nominal 198 200	大雁
+T43	Metric 212 214	一群
+T44	Location-Nominal 203 211	下冲塘那片芦苇里
+T45	Thing-Pronoun 215 217	它们
+*	Coreference T45 T42 T48 T49
+T46	Location-Nominal 228 234	房顶上的烟囱
+T47	Person-Nominal 235 238	乡亲们
+T48	Thing-Pronoun 242 244	它们
+T49	Thing-Pronoun 248 250	它们
+T50	Location-Nominal 254 257	村子里
+T51	Location-Nominal 261 267	钻在芦苇荡里
+T52	Thing-Nominal 267 277	叼螺蛳、捉小鱼的鸭子
+T53	Time-Implicit 290 294	刚分娩过
+T54	Time-Implicit 282 289	收割后的庄稼地
+T55	Metric 326 329	一道道
+T56	Metric 361 363	一行
+T57	Thing-Nominal 363 365	大雁
+T58	Metric 375 378	一条条
+T59	Thing-Nominal 388 390	田埂
+T60	Metric 393 396	一田田
+T61	Thing-Nominal 399 401	稻茬
+T62	Thing-Pronoun 405 407	它们
+*	Coreference T62 T57
+T63	Time-Implicit 418 425	隔着经年的时光
+T64	Time-Implicit 426 431	上了年纪的
+T65	Location-Nominal 453 456	冲田里
+T66	Metric 461 464	两臂宽
+T67	Thing-Nominal 465 467	小河
+T68	Location-Nominal 468 470	两岸
+T69	Thing-Nominal 473 475	泥土
+T70	Thing-Nominal 480 485	细弱的河水
+T71	Thing-Nominal 486 491	疯长的水草
+T72	Time-Implicit 512 514	当年
+T73	Metric 526 528	两排
+T74	Time-Implicit 531 536	天刚蒙蒙亮
+T75	Location-Nominal 543 546	钓竿上
+T76	Thing-Nominal 550 552	泥鳅
+T77	Metric 558 559	一
+T78	Location-Nominal 562 564	腿部
+T79	Time-Implicit 564 566	早春
+T80	Location-Nominal 577 583	平坦的河下游
+T81	Person-Nominal 584 586	少年
+T82	Thing-Nominal 588 591	老鳖宕
+T83	Location-Nominal 599 600;601 603	入 口处
+T84	Metric 605 607	一道
+T85	Thing-Nominal 607 609	缺口
+T86	Metric 612 614	一摊
+T87	Thing-Nominal 614 619	滑滑的稀泥
+T88	Time-Implicit 620 622	夜晚
+T89	Metric 623 629	上一两个小时
+T90	Person-Nominal 632 634	少年
+T91	Thing-Nominal 637 639	马灯
+T92	Thing-Nominal 645 646	鳖
+T93	Time-Implicit 652 654	每每
+T94	Time-Implicit 659 661	打小
+T95	Thing-Nominal 665 667	泥鳅
+T96	Thing-Nominal 668 670	老鳖
+T97	Person-Nominal 674 676	少年
+*	Coreference T97 T90 T81 T98 T100
+T98	Person-Nominal 514 516	少年
+T99	Location-Nominal 684 686	乡村
+T100	Person-Nominal 687 689	少年
+T101	Thing-Nominal 697 701	捕鱼捉鳖
+T102	Location-Nominal 703 712	近乎淤塞了的小河里
+T103	Thing-Nominal 713 714	鱼
+T104	Thing-Nominal 714 715	虾
+T105	Thing-Nominal 722 723	鳖
+T106	Location-Nominal 727 729	泥中
+T107	Thing-Nominal 730 731	鳖
+T108	Metric 739 741	几只
+T109	Thing-Nominal 748 749	鳖
+T110	Person-Nominal 750 752	少年
+T111	Location-Nominal 754 756	村西
+T112	Metric 759 761	几户
+T113	Location-Nominal 763 765	门上
+T114	Metric 768 770	一把
+T115	Thing-Nominal 773 775	锈锁
+T116	Thing-Nominal 776 777	锁
+T117	Location-Nominal 788 791	那屋里
+T118	Location-Nominal 792 795	窗台上
+T119	Thing-Nominal 797 799	蜘蛛
+T120	Location-Nominal 800 803	床铺上
+T121	Thing-Nominal 805 807	老鼠
+R5	Located Arg1:T119 Arg2:T118	
+R6	Located Arg1:T121 Arg2:T120	
+T122	Location-Nominal 808 811	灶台上
+T123	Thing-Nominal 813 814;815 816	蚂 蚁
+R7	Located Arg1:T123 Arg2:T122	
+T124	Thing-Nominal 820 822	稻囤
+T125	Thing-Nominal 823 825	老鼠
+T126	Location-Nominal 833 835	门前
+T127	Thing-Nominal 836 838	蒿草
+R8	Located Arg1:T127 Arg2:T126	
+T128	Thing-Nominal 841 843	鼠们
+T129	Location-Nominal 861 864	大门上
+T130	Thing-Nominal 867 869	铁环
+T131	Metric 865 867	那副
+T132	Location-Nominal 874 875;876 880	进 门的通道
+T133	Thing-Nominal 886 888	房子
+T134	Thing-Nominal 898 900	房子
+T135	Time-Implicit 912 915	经年的
+T136	Thing-Nominal 915 918	泥土墙
+T137	Time-Implicit 919 923	逢年过节
+T138	Metric 928 930	一筐
+T139	Thing-Nominal 930 932	白泥
+T140	Metric 934 936	几把
+T141	Location-Nominal 946 948	墙缝
+T142	Metric 954 957	一声声
+T143	Thing-Nominal 943 945	拳头
+T144	Thing-Nominal 966 968	土房
+T145	Time-Implicit 969 972	一天天
+T146	Location-Nominal 978 984	远在千里之外
+T147	Person-Nominal 984 989	打工的主人
+T148	Thing-Pronoun 999 1000	它
+*	Coreference T148 T144
+T149	Metric 1007 1009	几位
+T150	Person-Nominal 1009 1011	老人
+T151	Metric 1012 1014	几位
+T152	Time-Implicit 1014 1016	每天
+T153	Thing-Nominal 1020 1022	拐杖
+T154	Location-Nominal 1023 1026	村子里
+T155	Metric 1032 1034	几圈
+T156	Person-Nominal 1035 1037	老人
+*	Coreference T156 T150 T159
+T157	Time-Implicit 1038 1040	每回
+T158	Location-Nominal 1043 1047	锈锁门前
+T159	Person-Pronoun 1062 1064	他们
+T160	Thing-Nominal 1071 1074	蒿草们
+T161	Thing-Pronoun 1088 1090	它们
+*	Coreference T161 T160
+T162	Thing-Nominal 1100 1102	拐杖
+T163	Thing-Nominal 1106 1108	蒿草
+T164	Metric 1119 1121	几棍
+T165	Time-Implicit 1122 1124	尔后
+T166	Metric 1131 1133	一句
+T167	Thing-Pronoun 1135 1136	你
+*	Coreference T167 T163
+T168	Time-Implicit 1140 1142	冬至
+T169	Location-Nominal 1144 1148	拴在桩头
+T170	Thing-Nominal 1151 1153	老牛
+T171	Thing-Pronoun 1155 1157	自己
+*	Coreference T171 T170
+T172	Thing-Nominal 1166 1172	瘦巴巴的黄狗
+T173	Location-Nominal 1173 1177	灰粪堆边
+R9	Located Arg1:T172 Arg2:T173	
+T174	Thing-Nominal 1199 1202	碎稻草
+T175	Metric 1211 1213	几根
+T176	Thing-Nominal 1213 1215	枯枝
+T177	Location-Nominal 1218 1222	草堆顶上
+R10	Located Arg1:T176 Arg2:T177	
+T178	Thing-Nominal 1226 1228	麻雀
+T179	Location-Nominal 1230 1233	枯枝上
+R11	Located Arg1:T178 Arg2:T179	
+T180	Location-Nominal 1240 1242	天空
+T181	Thing-Nominal 1261 1263	草房
+T182	Thing-Nominal 1266 1269	矮树干
+T183	Thing-Nominal 1272 1279	高过人头的蒿草
+T184	Thing-Nominal 1282 1289	池塘里浑浊的水
+T185	Thing-Nominal 1291 1293	乌鸦
+T186	Thing-Nominal 1298 1299	鸟
+R12	General-Special Arg1:T185 Arg2:T186	
+T187	Person-Nominal 1316 1318	老人
+T188	Thing-Nominal 1320 1322	乌鸦
+T189	Location-Nominal 1323 1329	阎王爷家房顶
+T190	Person-Nominal 1333 1336	阎王爷
+T191	Person-Pronoun 1338 1339	谁
+T192	Person-Nominal 1353 1356	庄里人
+T193	Time-Implicit 1366 1369	数天后
+T194	Location-Nominal 1370 1372	庄里
+T195	Location-Name 1378 1380	阴府
+T196	Metric 1389 1391	一口
+T197	Location-Nominal 1393 1395	村庄
+T198	Person-Nominal 1381 1382	人
+T199	Time-Implicit 1401 1403	整日
+T200	Person-Nominal 1418 1421	年老者
+T201	Location-Name 1430 1433	安西村
+T202	Location-Name 1443 1446	安西村
+T203	Location-Nominal 1446 1448	上空
+T204	Time-Implicit 1457 1460	忽一日
+T205	Location-Name 1466 1469	安西村
+T206	Location-Nominal 1478 1483	远在他乡的
+T207	Person-Nominal 1483 1485	乡亲
+T208	Location-Nominal 1486 1490	四面八方
+T209	Location-Nominal 1504 1507	亡灵前
+T210	Time-Implicit 1513 1515	往日
+T211	Location-Name 1519 1522	安西村
+T212	Time-Implicit 1522 1524	彻夜
+T213	Time-Implicit 1529 1531	打小
+T214	Person-Nominal 1538 1546	年老回归泥土的人
+T215	Time-Implicit 1548 1562	自打外婆被乌鸦的叫声喊走之后
+T216	Person-Nominal 1550 1552	外婆
+T217	Person-Pronoun 1563 1564	我
+T218	Thing-Nominal 1565 1567	乌鸦
+T219	Thing-Nominal 1553 1555	乌鸦
+T220	Metric 1584 1586	半分
+T221	Time-Implicit 1570 1572	一直
+T222	Person-Pronoun 1603 1604	谁

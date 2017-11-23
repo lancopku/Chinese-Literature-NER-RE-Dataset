@@ -1,0 +1,39 @@
+T1	Time-Implicit 0 3	那一年
+T2	Person-Pronoun 4 5	他
+T3	Metric 5 9	三十九岁
+T4	Person-Nominal 11 13	英雄
+T5	Person-Name 30 32	郭老
+T6	Person-Name 45 50	姚雪垠先生
+T8	Person-Pronoun 73 74	我
+T9	Location-Name 86 88	九宫
+T10	Time-Implicit 101 103	当年
+T11	Person-Name 103 105	刘邦
+T12	Person-Pronoun 129 130	他
+*	Coreference T12 T11
+T13	Person-Name 126 146	那个被他彻底推倒了的大明的开国皇帝朱元璋
+T14	Person-Nominal 139 143	开国皇帝
+*	Coreference T13 T14 T15
+T15	Person-Pronoun 158 167	同
+样出身农门的他
+T16	Person-Nominal 173 175	农民
+T17	Time-Implicit 181 183	当年
+T18	Location-Nominal 186 190	中原大地
+T19	Location-Nominal 216 220	黄河长江
+T20	Thing-Nominal 227 231	一只鸟雀
+T21	Thing-Nominal 237 240	一座山
+T22	Person-Pronoun 258 259	我
+T23	Person-Pronoun 263 264	他
+T24	Location-Nominal 263 267	他的墓地
+R1	Ownership Arg1:T23 Arg2:T24	
+T25	Person-Pronoun 271 272	他
+T26	Location-Nominal 271 275	他的墓地
+R2	Ownership Arg1:T25 Arg2:T26	
+T28	Location-Nominal 300 305	黄褐的土下
+T29	Thing-Nominal 311 313	墓碑
+T30	Location-Nominal 308 315	庄严的墓碑后面
+T31	Thing-Nominal 339 342	一只鸟
+T32	Time-Implicit 355 357	未来
+T33	Abstract 32 40	《甲申三百年祭》
+T7	Abstract 50 55	《李自成》
+T34	Organization-Nominal 119 121	大汉
+T35	Person-Pronoun 158 159;160 167	同 样出身农门的他

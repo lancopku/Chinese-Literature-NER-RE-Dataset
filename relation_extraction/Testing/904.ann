@@ -1,0 +1,193 @@
+T1	Location-Name 0 2	丰惠
+T2	Location-Name 8 10	上虞
+T3	Metric 15 17	四十
+T5	Location-Nominal 64 68	老街深处
+T6	Location-Name 71 73	丰惠
+T8	Thing-Nominal 101 107	一坛陈年老酒
+T9	Person-Pronoun 131 132	我
+T10	Thing-Pronoun 148 150	它的
+T11	Thing-Pronoun 158 160	它的
+T12	Thing-Pronoun 165 166	它
+T13	Thing-Nominal 245 249	花草树木
+T14	Person-Nominal 269 271	名人
+T15	Location-Nominal 284 290	陆御史故居地
+T16	Person-Name 297 310	明右副都御史、湖广巡抚车纯
+T17	Person-Pronoun 385 386	我
+T23	Thing-Nominal 557 560	青石板
+T24	Thing-Nominal 588 591	青石板
+T25	Person-Pronoun 622 623	我
+T26	Person-Pronoun 625 627	自己
+T27	Thing-Nominal 2 4	弄堂
+T28	Thing-Nominal 138 145	这些幽长的弄堂
+T29	Thing-Nominal 191 195	这些弄堂
+T30	Thing-Nominal 389 391	弄堂
+T31	Thing-Nominal 405 407	弄堂
+T33	Thing-Name 526 528	弄堂
+T34	Location-Nominal 672 677	宁静的弄堂
+T35	Thing-Nominal 32 35	小弄堂
+T36	Thing-Name 358 373	朱家弄、马家弄、柴家弄、梁家弄
+T37	Thing-Name 324 335	鱼行弄、茶号弄、亨号弄
+T38	Thing-Name 254 265	槐花弄、柿树弄、白果弄
+T39	Thing-Nominal 730 732	弄堂
+T40	Thing-Nominal 737 741	古宅旧屋
+T41	Thing-Nominal 758 760	弄堂
+T42	Location-Nominal 801 808	台阶旁，转角处
+T47	Thing-Nominal 855 861	大夫第的台门
+T48	Person-Pronoun 941 942	你
+T50	Thing-Name 974 987	天井里的几株古银杏和广玉兰
+T51	Thing-Nominal 1006 1010	几丛野草
+T53	Person-Pronoun 1081 1082	你
+T54	Person-Pronoun 1090 1091	我
+T55	Person-Pronoun 1177 1178	我
+T56	Thing-Nominal 1211 1216	如线的弄堂
+T58	Location-Nominal 1252 1265	在这些看似貌不惊人的弄堂里
+T59	Person-Name 1271 1286	东汉“合浦还珠”的清官廉吏孟尝
+T60	Person-Name 1297 1308;1309 1354	党的早期领导人、杰出革 命家王一飞，原全国人大副委员长胡愈之，原全国政协常委、当代“茶圣”吴觉农，著名教育家范寿康
+T61	Thing-Name 1363 1367	丰惠弄堂
+T62	Thing-Nominal 1449 1451	弄堂
+T63	Location-Nominal 1459 1462	弄堂里
+T64	Thing-Nominal 1520 1527	木结构的老房子
+T65	Person-Nominal 1554 1560	看店的老大爷
+T67	Person-Nominal 1594 1599	老县城居民
+T68	Person-Nominal 1612 1619	三三两两的老人
+T69	Location-Nominal 1646 1653	皱纹满布的脸上
+T70	Person-Nominal 1695 1699	老丰惠人
+T71	Person-Nominal 1781 1791	一些小作坊里的手艺人
+T74	Person-Pronoun 1818 1820	他们
+T75	Person-Pronoun 1830 1831	我
+T76	Person-Pronoun 1850 1851	我
+T77	Person-Pronoun 1870 1871	我
+T78	Person-Pronoun 1874 1875	我
+T79	Thing-Nominal 1949 1954	各地的弄堂
+T80	Person-Name 1962 1974	土耳其诗人纳齐姆希克梅特
+T81	Person-Nominal 1997 1999	母亲
+T82	Thing-Nominal 2004 2006	城市
+T83	Person-Nominal 2010 2012	母亲
+T84	Location-Nominal 2086 2090	丰惠老城
+T85	Thing-Nominal 2107 2115	远去的跫音的弄堂
+T86	Location-Name 2157 2161	丰惠弄堂
+T87	Person-Pronoun 2176 2177	我
+T88	Person-Pronoun 2162 2163	你
+T89	Person-Pronoun 2164 2165	我
+T91	Location-Nominal 2215 2224	粉墙
+黛瓦的屋顶上
+T92	Time-Implicit 1947 1949	如今
+R1	Part-Whole Arg1:T1 Arg2:T2	
+*	Coreference T28 T10
+*	Coreference T71 T74
+T93	Time-Explicit 2046 2048	当下
+R5	Located Arg1:T27 Arg2:T1	
+T94	Thing-Nominal 15 18	四十弄
+T4	Thing-Nominal 45 56	一条条古朴的青石板小弄
+T95	Location-Name 42 44	丰惠
+T7	Location-Nominal 174 182	在迷宫似的弄堂里
+T96	Thing-Name 214 216	溪弄
+T97	Thing-Name 225 228	九曲弄
+T98	Thing-Nominal 219 220	溪
+T99	Location-Nominal 269 273	名人故居
+T100	Thing-Name 278 281	陆家弄
+T101	Person-Name 284 287	陆御史
+T102	Thing-Name 291 293;294 295	车都 弄
+T103	Thing-Nominal 297 312	明右副都御史、湖广巡抚车纯旧宅
+T104	Organization-Nominal 315 319	集市店铺
+T105	Organization-Nominal 342 345	大家族
+T106	Location-Name 377 379	江南
+T107	Thing-Nominal 393 395	弄堂
+T108	Location-Nominal 396 399	城镇中
+R2	Located Arg1:T107 Arg2:T108	
+T32	Location-Nominal 418 425	在这样的弄堂里
+T109	Thing-Nominal 429 430	鸡
+T110	Thing-Nominal 431 432	狗
+T111	Thing-Nominal 485 487	弄堂
+T112	Thing-Nominal 488 491	青石板
+R3	Part-Whole Arg1:T112 Arg2:T111	
+T18	Location-Nominal 506 509	土地里
+R4	Located Arg1:T112 Arg2:T18	
+T19	Person-Nominal 553 554	人
+T20	Thing-Nominal 562 564	弄堂
+T21	Thing-Nominal 569 571	弄堂
+T22	Thing-Nominal 577 579	弄堂
+T113	Thing-Nominal 595 597	弄堂
+T114	Location-Nominal 608 621	厚重、光滑、锃亮的青石板上
+T115	Location-Name 656 660	丰惠古城
+T116	Person-Nominal 680 681	人
+T117	Location-Nominal 720 722	古城
+T118	Location-Nominal 730 734	弄堂两边
+R6	Located Arg1:T40 Arg2:T118	
+T119	Location-Nominal 753 761	曲曲折折的弄堂里
+T120	Thing-Nominal 766 768	青瓦
+T121	Thing-Nominal 769 770	帽
+T122	Thing-Nominal 771 773	粉墙
+T123	Thing-Nominal 774 775	衣
+T44	Thing-Nominal 811 815	一株老树
+R7	Located Arg1:T44 Arg2:T42	
+T43	Thing-Nominal 816 820	一片花丛
+R8	Located Arg1:T43 Arg2:T42	
+T45	Thing-Nominal 821 826	一簇美人蕉
+R9	Located Arg1:T45 Arg2:T42	
+T46	Thing-Nominal 827 832	一块小菜园
+T124	Thing-Nominal 833 840	一截不长的石墙
+R10	Located Arg1:T46 Arg2:T42	
+R11	Located Arg1:T124 Arg2:T42	
+T125	Location-Name 855 858	大夫第
+R12	Located Arg1:T47 Arg2:T125	
+T126	Location-Name 862 865	天芝堂
+T127	Thing-Nominal 862 868	天芝堂的匾额
+R13	Located Arg1:T127 Arg2:T126	
+T128	Location-Name 869 872	敕五堂
+T129	Thing-Nominal 869 875	敕五堂的照壁
+R14	Located Arg1:T129 Arg2:T128	
+T49	Thing-Nominal 946 953	一扇漆黑的台门
+T130	Thing-Nominal 963 971;972 973	前后数进的明清建 筑
+T131	Location-Nominal 974 977	天井里
+R15	Located Arg1:T50 Arg2:T131	
+T132	Person-Nominal 995 997	主人
+T133	Location-Nominal 1001 1004	黑瓦上
+R16	Located Arg1:T51 Arg2:T133	
+T134	Time-Implicit 1013 1015	秋天
+T135	Thing-Nominal 1039 1045	霜染的爬山虎
+T136	Location-Nominal 1026 1032;1033 1036	灰暗剥蚀的马 头墙上
+R17	Located Arg1:T135 Arg2:T136	
+T52	Thing-Nominal 1046 1053	那些雕花的门窗
+T137	Thing-Nominal 1057 1059	烟火
+T138	Thing-Nominal 1094 1095	手
+R18	Part-Whole Arg1:T138 Arg2:T54	
+T139	Thing-Nominal 1103 1107	每一扇门
+T140	Location-Nominal 1108 1112	每一格窗
+T141	Thing-Nominal 1108 1118	每一格窗的每一道沟壑
+R19	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 1119 1124	每一条裂纹
+T143	Thing-Nominal 1159 1165	一本线装古书
+T57	Time-Explicit 1271 1273	东汉
+T144	Thing-Nominal 1406 1429	那一扇扇曾经反映着主人身份地位和文化修养的大门
+T145	Time-Explicit 1436 1438	今天
+T146	Time-Explicit 1442 1444	明天
+T147	Thing-Nominal 1465 1472	林林总总的店铺
+R20	Located Arg1:T147 Arg2:T63	
+T148	Thing-Nominal 1494 1505	那些简单甚至简陋的店铺
+T149	Thing-Nominal 1532 1537	不高的柜子
+T150	Thing-Nominal 1543 1548	摆放的商品
+T66	Person-Nominal 1565 1570;1571 1572	帮衬的老大 娘
+T151	Location-Nominal 1621 1624	台门口
+T152	Thing-Nominal 1625 1627	太阳
+T153	Thing-Nominal 1628 1631;1632 1634	身上的 衣着
+T154	Thing-Nominal 1642 1644	阳光
+R21	Located Arg1:T154 Arg2:T69	
+T155	Location-Nominal 1678 1691	弄堂深处一爿不起眼的小酒店
+T156	Location-Nominal 1718 1720	酒店
+T157	Thing-Nominal 1722 1725	两盘菜
+T158	Thing-Nominal 1727 1730	一壶酒
+T72	Thing-Nominal 1798 1803	一件银首饰
+R22	Create Arg1:T71 Arg2:T72	
+T159	Thing-Nominal 1806 1814;1815 1817	一只精巧的“子孙 桶”
+R23	Create Arg1:T71 Arg2:T159	
+T73	Thing-Nominal 2013 2015	城市
+T160	Person-Pronoun 2035 2037	我们
+T161	Person-Nominal 2054 2055	人
+T162	Thing-Nominal 2066 2068	城市
+T163	Thing-Nominal 2073 2077	整个城市
+T164	Person-Pronoun 2091 2093	我们
+T165	Location-Nominal 2117 2121	整座古城
+T166	Thing-Nominal 2196 2211	从弄堂深处袅袅升起的那缕缕炊烟
+T90	Location-Nominal 2197 2201	弄堂深处
+T167	Location-Nominal 2215 2217;2218 2224	粉墙 黛瓦的屋顶上

@@ -1,0 +1,248 @@
+T1	Person-Pronoun 0 1	你
+T2	Person-Pronoun 11 12	我
+T3	Person-Pronoun 24 25	你
+T4	Person-Pronoun 31 32	你
+T5	Thing-Nominal 35 38	一湖水
+T6	Location-Nominal 41 43	天上
+T7	Thing-Nominal 44 45	水
+R1	Located Arg1:T7 Arg2:T6	
+T8	Thing-Nominal 48 50	星斗
+T9	Thing-Nominal 51 53	云彩
+T10	Thing-Nominal 58 60	雾纱
+T11	Person-Pronoun 63 64	谁
+T12	Person-Pronoun 68 69	你
+T13	Thing-Pronoun 74 75	你
+T14	Thing-Nominal 90 92	风雪
+T15	Location-Nominal 105 114	两个国家的交界位置
+T16	Person-Pronoun 120 121	你
+T17	Location-Nominal 130 136	万仞高山之上
+T18	Thing-Nominal 137 139	飞鸟
+T19	Thing-Pronoun 145 146	你
+T20	Thing-Pronoun 150 152	自己
+T21	Location-Nominal 150 154	自己的家
+T22	Location-Nominal 197 201	高山之巅
+T23	Thing-Pronoun 202 203	你
+T24	Location-Nominal 210 212	四周
+T25	Thing-Nominal 214 221	勇士一样的雪峰
+R2	Located Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 227 236	一处安放神明的家园
+T27	Thing-Nominal 241 243	白雪
+T28	Thing-Nominal 245 247	寒风
+T29	Person-Nominal 254 262	那些没有意志的人
+T30	Location-Nominal 285 288	山脚下
+T31	Person-Nominal 290 292	部队
+T32	Thing-Nominal 166 180	这种玉洁冰清和超凡脱俗的外貌
+T33	Thing-Nominal 308 313	那么远的路
+T34	Thing-Nominal 322 324	公路
+T35	Location-Nominal 328 330	山顶
+T36	Thing-Pronoun 332 333	你
+T37	Thing-Nominal 341 342	车
+T38	Thing-Nominal 344 346	玻璃
+T39	Person-Pronoun 373 374	你
+T40	Person-Nominal 375 376	人
+T41	Person-Pronoun 383 384	你
+T42	Thing-Nominal 386 387	天
+T43	Time-Implicit 398 402	千百年来
+T44	Thing-Pronoun 403 404	你
+T45	Person-Nominal 406 411	无数的行者
+T46	Thing-Pronoun 412 413	你
+T47	Person-Pronoun 441 442	你
+T48	Time-Implicit 456 463	走进你的那一刻
+T49	Person-Pronoun 458 459	你
+T50	Thing-Pronoun 464 466	它们
+T51	Thing-Pronoun 467 468	你
+T52	Person-Pronoun 469 470	他
+T53	Thing-Pronoun 480 482	自己
+T54	Thing-Nominal 492 494	天地
+T55	Thing-Nominal 495 497	雪水
+T56	Person-Pronoun 510 511	你
+T57	Location-Nominal 510 514	你的周围
+T58	Thing-Nominal 530 533	一棵树
+T59	Thing-Nominal 537 540	一棵草
+T60	Person-Pronoun 544 545	你
+T61	Location-Pronoun 580 582	这里
+T62	Thing-Nominal 587 595	神圣的山峰与湖水
+T63	Thing-Pronoun 596 597	它
+T64	Thing-Nominal 598 602	树干枝条
+T65	Thing-Nominal 568 570;571 573	那种 岳桦
+*	Coreference T63 T65
+R3	Part-Whole Arg1:T64 Arg2:T63	
+T66	Thing-Nominal 606 608	叶片
+T67	Thing-Nominal 617 625	一束发射状的枝条
+T68	Location-Nominal 626 628	风中
+R4	Located Arg1:T67 Arg2:T68	
+T69	Thing-Nominal 640 644	寒风冰雪
+T70	Person-Pronoun 658 660	自己
+T71	Location-Nominal 671 675	天池周围
+T72	Thing-Nominal 675 681	可以生长的草
+T73	Metric 683 686	千百年
+T74	Location-Nominal 687 692;693 695	火山灰的缝 隙间
+T75	Thing-Nominal 701 705	一阵阵风
+T76	Thing-Nominal 709 717	一把把薄尖的铣刀
+T77	Thing-Nominal 719 720	风
+T78	Thing-Nominal 722 729	每一次经过的风
+T79	Person-Pronoun 764 765	我
+T80	Thing-Nominal 783 784	风
+T81	Thing-Nominal 798 800	岳桦
+T82	Thing-Nominal 801 802	草
+T83	Location-Nominal 810 811;812 818	覆 盖着白雪的山
+T84	Thing-Nominal 814 816	白雪
+R5	Located Arg1:T84 Arg2:T83	
+T85	Thing-Nominal 822 824	石头
+T86	Thing-Nominal 825 828	火山石
+T87	Thing-Nominal 837 840	火山石
+T88	Location-Nominal 847 851	这山头上
+T89	Thing-Nominal 857 859	道路
+T90	Location-Nominal 866 872	这里的山路上
+T91	Location-Pronoun 866 868	这里
+T92	Location-Nominal 852 856	极寒之地
+*	Coreference T91 T92
+T93	Thing-Nominal 876 884	那种顶级的越野车
+T94	Person-Nominal 892 905	那些生长与这片雪国的小伙子
+T95	Thing-Nominal 910 916	这些钢铁机器
+T96	Location-Nominal 919 929	这百转千回的冰雪路上
+T97	Person-Pronoun 937 938	我
+T98	Thing-Nominal 943 946	嗓子眼
+T99	Location-Nominal 947 951	车窗之外
+T100	Thing-Nominal 951 960	一览无余的悬崖峭壁
+R6	Located Arg1:T100 Arg2:T99	
+T101	Person-Nominal 975 978	拜访者
+T102	Thing-Nominal 1020 1022	天池
+T103	Thing-Nominal 1035 1040	多少个拐弯
+T104	Time-Implicit 1041 1050	当悍马车停下的时候
+T105	Thing-Nominal 1043 1045	马车
+T106	Person-Pronoun 1051 1052	我
+T107	Location-Nominal 1059 1061	云端
+T108	Person-Nominal 1067 1068	人
+T109	Location-Nominal 1071 1075	高山之巅
+T110	Thing-Nominal 1076 1083	那些火山的熔岩
+T111	Thing-Nominal 1076 1080	那些火山
+T112	Thing-Nominal 1096 1107	一条条绵延到远处的山脉
+T113	Location-Nominal 1108 1110	近处
+T114	Thing-Nominal 1122 1128	灰白色的林子
+T115	Location-Nominal 1129 1132	最远处
+T116	Location-Nominal 1139 1141	中间
+T117	Thing-Nominal 1144 1151;1152 1153	一些白白的建筑 物
+R7	Located Arg1:T117 Arg2:T116	
+T118	Thing-Nominal 1154 1163	这个山头和这片水池
+T119	Thing-Nominal 1182 1184	台风
+T120	Person-Pronoun 1184 1185	我
+T121	Thing-Nominal 1194 1198	这里的风
+T122	Location-Pronoun 1194 1196	这里
+T123	Location-Nominal 1205 1207	车上
+T124	Thing-Nominal 1210 1217	一扇小小的车门
+T125	Thing-Nominal 1221 1222	风
+T126	Thing-Nominal 1230 1231	风
+T127	Thing-Nominal 1238 1239	门
+T128	Thing-Nominal 1246 1254	一次卷土重来的风
+T129	Location-Nominal 1261 1263	风中
+T130	Thing-Nominal 1266 1268	雪沫
+R8	Located Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 1271 1273	雪花
+T132	Thing-Nominal 1280 1281	脸
+T133	Person-Nominal 1287 1292	这些闯入者
+T134	Location-Pronoun 1296 1298	这里
+T135	Thing-Pronoun 1300 1301	她
+*	Coreference T130 T135
+T136	Thing-Pronoun 1315 1316	她
+T137	Thing-Nominal 1327 1331	任何棉袄
+T138	Location-Pronoun 1332 1334	这里
+T139	Thing-Nominal 1342 1343	风
+T140	Thing-Nominal 1345 1352	一根根尖利的刺
+T141	Thing-Nominal 1355 1359	你的身体
+T142	Person-Pronoun 1355 1356	你
+R9	Part-Whole Arg1:T141 Arg2:T142	
+T143	Location-Nominal 1361 1363;1364 1368	每一 个毛孔中
+T144	Thing-Nominal 1379 1385	你的五腹六脏
+T145	Thing-Pronoun 1379 1380	你
+R10	Part-Whole Arg1:T145 Arg2:T144	
+T146	Person-Pronoun 1396 1397	你
+T147	Location-Nominal 1411 1413	体内
+T148	Location-Nominal 1416 1424	那些峡谷和山峰上
+T149	Person-Pronoun 1426 1427	我
+T150	Thing-Nominal 1429 1430	风
+T151	Thing-Pronoun 1434 1436	它们
+T152	Thing-Nominal 1439 1451	那些在空中和落在地上的雪
+T153	Location-Nominal 1442 1444	空中
+T154	Location-Nominal 1447 1449	地上
+R11	Located Arg1:T152 Arg2:T153	
+R12	Located Arg1:T152 Arg2:T154	
+T155	Thing-Nominal 1453 1454	雾
+T156	Thing-Nominal 1472 1475	那些雪
+T157	Thing-Nominal 1479 1480	风
+T158	Location-Nominal 1484 1485;1486 1487	手 中
+T159	Thing-Nominal 1488 1489	沙
+R13	Located Arg1:T159 Arg2:T158	
+T160	Thing-Nominal 1498 1500	雪沫
+T161	Location-Nominal 1515 1518	山谷左
+T162	Location-Nominal 1522 1525	山谷右
+T163	Location-Nominal 1527 1537	沙画大师手下玻璃板上
+T164	Thing-Nominal 1538 1540	图案
+R14	Located Arg1:T164 Arg2:T163	
+T165	Person-Nominal 1527 1531	沙画大师
+T166	Person-Nominal 1542 1545	很多人
+T167	Thing-Nominal 1592 1594	天池
+T168	Thing-Nominal 1644 1647	一阵风
+T169	Thing-Nominal 1655 1656	风
+T170	Thing-Nominal 1661 1663	山头
+T171	Time-Implicit 1671 1673	此刻
+T172	Thing-Nominal 1680 1682	天池
+T173	Thing-Nominal 1714 1715	风
+T174	Person-Pronoun 1716 1717	你
+T175	Thing-Nominal 1729 1730	风
+T176	Location-Nominal 1726 1728	近处
+R15	Located Arg1:T175 Arg2:T176	
+T177	Thing-Nominal 1735 1737	天池
+T178	Thing-Nominal 1742 1747	无数座山峰
+T179	Thing-Nominal 1750 1757	中间的一块碧玉
+T180	Location-Nominal 1750 1752	中间
+R16	Located Arg1:T179 Arg2:T180	
+T181	Thing-Nominal 1758 1760	水面
+T182	Thing-Nominal 1781 1782	风
+T183	Location-Nominal 1783 1786	镜头里
+T184	Thing-Nominal 1792 1797	自己的身体
+T185	Person-Pronoun 1792 1794	自己
+R17	Part-Whole Arg1:T184 Arg2:T185	
+T186	Thing-Nominal 1812 1814	雪峰
+T187	Location-Name 1816 1820	西藏云南
+T188	Thing-Nominal 1844 1847	火山石
+T189	Thing-Nominal 1866 1872;1873 1880	那种金碧辉煌 金光耀眼的情景
+T190	Thing-Nominal 1883 1890	随风飘舞的雪沫
+T191	Person-Nominal 1891 1892	人
+T192	Thing-Nominal 1896 1898	风沙
+T193	Thing-Nominal 1904 1909	长白山天池
+T194	Thing-Pronoun 1926 1928	自己
+*	Coreference T194 T193
+T195	Person-Nominal 1932 1939	南国的俊男靓女
+T196	Thing-Nominal 1948 1950	风雪
+T197	Thing-Nominal 1976 1977	手
+T198	Location-Name 1994 1997	天池边
+T199	Person-Nominal 2003 2012	一个远道而来的旅人
+T200	Location-Nominal 2032 2034	车上
+T201	Metric 2063 2067	数千公里
+T202	Metric 2071 2075	十来分钟
+T203	Location-Name 2079 2083	天池湖畔
+T204	Thing-Nominal 2084 2086	脚印
+T205	Location-Nominal 2088 2090	风里
+T206	Person-Pronoun 2093 2094	我
+T207	Thing-Nominal 2113 2115	天池
+T208	Location-Pronoun 2122 2123;2124 2125	这 里
+*	Coreference T208 T203
+T209	Person-Nominal 2128 2141	那些随便的人字拖和短裤背心
+T210	Thing-Nominal 2142 2144	天池
+T211	Thing-Nominal 2158 2160	天池
+T212	Thing-Nominal 2165 2167	天池
+T213	Time-Implicit 2194 2198	很久以后
+T214	Person-Pronoun 2199 2200	我
+T215	Person-Pronoun 2203 2205	自己
+*	Coreference T215 T214
+T216	Thing-Nominal 2208 2210	天池
+T217	Thing-Nominal 2215 2217	天池
+T218	Person-Pronoun 2221 2222	我
+T219	Thing-Nominal 2228 2230	天池
+T220	Thing-Nominal 2231 2232	路
+T221	Time-Implicit 2234 2241	离开的那一刻起
+T222	Location-Nominal 275 281	这个地理位置
+T223	Time-Implicit 317 319	今天
+*	Coreference T20 T19
+*	Coreference T53 T50

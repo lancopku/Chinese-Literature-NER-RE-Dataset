@@ -1,0 +1,229 @@
+T1	Time-Implicit 0 2	过去
+T2	Person-Pronoun 3 4	我
+T3	Person-Name 5 7	王铎
+T4	Person-Pronoun 13 14	他
+*	Coreference T4 T3
+T5	Location-Name 18 22	河南孟津
+T6	Location-Name 24 26	孟津
+T7	Person-Pronoun 30 31	我
+T8	Thing-Nominal 36 38	地图
+T9	Location-Name 44 46	洛阳
+T10	Person-Name 55 57	王铎
+T11	Thing-Nominal 55 60;61 63	王铎故居的 路牌
+T12	Location-Nominal 55 59	王铎故居
+T13	Person-Pronoun 73 74	我
+T14	Location-Name 92 94	孟津
+T15	Location-Name 114 116	孟津
+T16	Location-Nominal 117 121	黄河边上
+T17	Location-Name 123 125	洛阳
+T18	Metric 129 134	一个多小时
+T19	Time-Implicit 129 134	一个多小时
+T20	Location-Name 138 140	孟津
+T21	Metric 141 143	一个
+T22	Metric 145 149	四千多年
+T23	Location-Nominal 143 150;151 156	具有四千多年文 明史的县城
+T24	Person-Name 165 167	伏羲
+T25	Abstract 165 169	伏羲画卦
+T26	Abstract 158 162	龙马负图
+T27	Location-Name 189 191	孟津
+T28	Organization-Nominal 197 206	中华文化发源地之一
+R1	Part-Whole Arg1:T27 Arg2:T28	
+T29	Time-Implicit 207 209	西汉
+T30	Person-Nominal 207 211;212 214	西汉大文 学家
+T31	Person-Name 214 216	贾谊
+R2	Part-Whole Arg1:T31 Arg2:T30	
+T32	Person-Nominal 217 223	唐代著名诗人
+T33	Time-Implicit 217 219	唐代
+T34	Person-Name 223 225	王维
+R3	Part-Whole Arg1:T34 Arg2:T32	
+T35	Person-Nominal 228 230	名相
+T36	Person-Name 230 233	狄仁杰
+R4	Part-Whole Arg1:T36 Arg2:T35	
+T37	Person-Nominal 234 238	历史名人
+T38	Location-Name 246 248	孟津
+T39	Location-Name 253 255	孟津
+T40	Person-Name 260 262	王铎
+T41	Time-Implicit 263 265	明清
+T42	Person-Nominal 267 273	著名的书法家
+R5	Part-Whole Arg1:T40 Arg2:T42	
+T43	Location-Nominal 290 294	王铎故居
+T44	Person-Name 290 292	王铎
+T45	Person-Name 326 328	王铎
+T46	Person-Nominal 330 332	皇上
+T47	Person-Nominal 346 348	皇上
+T48	Person-Pronoun 349 350	他
+*	Coreference T48 T45
+T49	Person-Name 358 360	王铎
+T50	Person-Name 390 392	王铎
+T51	Person-Pronoun 410 411	我
+T52	Person-Pronoun 414 415	他
+T53	Thing-Nominal 5 9	王铎作品
+T55	Location-Nominal 43 51	去洛阳的高速路上
+T54	Thing-Nominal 336 344	“天下太平”匾额
+R6	Create Arg1:T45 Arg2:T54	
+T56	Thing-Nominal 358 363	王铎的作品
+R7	Create Arg1:T49 Arg2:T56	
+R8	Create Arg1:T3 Arg2:T53	
+T57	Person-Nominal 394 396	自己
+T58	Thing-Nominal 437 439	山河
+T59	Thing-Nominal 440 441	虎
+T60	Abstract 444 448	王铎书法
+*	Coreference T52 T50
+T61	Person-Name 502 504	王铎
+T62	Person-Pronoun 564 565	他
+*	Coreference T62 T61
+T63	Location-Nominal 580 585	一幅作品中
+T64	Person-Pronoun 602 603	他
+T65	Thing-Nominal 611 613	磐石
+T66	Thing-Nominal 616 618	洪钟
+T67	Abstract 624 631	《听颖师琴歌》
+T68	Person-Name 662 664	王铎
+T69	Person-Pronoun 700 701	他
+T70	Person-Name 705 722	钟繇、王羲之、王献之、颜真卿、米芾
+T71	Person-Pronoun 725 726	其
+*	Coreference T71 T69
+T72	Thing-Nominal 725 727;728 729	其作 品
+T73	Person-Pronoun 744 745	他
+T74	Person-Name 746 749	王献之
+T75	Abstract 749 754	《中秋帖》
+T76	Person-Pronoun 781 782	他
+T77	Person-Nominal 814 815	人
+T78	Person-Pronoun 830 831	他
+T79	Abstract 832 841	我国书法艺术发展史
+T80	Person-Name 871 873	王铎
+T81	Person-Name 879 881	王铎
+T82	Person-Name 902 904	王铎
+T83	Person-Nominal 905 907	古人
+T84	Person-Nominal 913 915	古人
+T85	Person-Pronoun 926 927	他
+*	Coreference T85 T82
+T86	Person-Name 959 961	王铎
+T87	Person-Nominal 965 967	前人
+T88	Person-Name 974 978	“二王”
+T89	Person-Name 984 986	米芾
+T90	Thing-Nominal 1035 1041	美的书法作品
+T91	Person-Name 1042 1044	王铎
+T92	Thing-Nominal 1075 1076	纸
+T93	Thing-Nominal 1084 1086	江涛
+T94	Person-Name 1090 1092	王铎
+T95	Thing-Nominal 1131 1135	西方油画
+T96	Location-Nominal 1131 1133	西方
+R9	Located Arg1:T95 Arg2:T96	
+T97	Thing-Nominal 1154 1157	其作品
+T98	Person-Nominal 1185 1187	人们
+T99	Person-Name 1199 1201	王铎
+T100	Person-Nominal 1204 1207	没有人
+T101	Person-Pronoun 1211 1212	他
+*	Coreference T101 T99
+T102	Person-Name 1232 1234	王铎
+T103	Person-Pronoun 1240 1241	他
+*	Coreference T103 T102
+T104	Person-Pronoun 1261 1262	他
+T105	Person-Pronoun 1286 1287	他
+T106	Thing-Nominal 1292 1293	墨
+T107	Thing-Nominal 1299 1300	水
+T108	Person-Nominal 1301 1307	故居的讲解员
+T109	Location-Nominal 1301 1303	故居
+T110	Person-Name 1310 1312	王铎
+T111	Thing-Nominal 1316 1317	笔
+T112	Thing-Nominal 1320 1321	水
+T113	Thing-Nominal 1318 1319	墨
+T114	Thing-Nominal 1329 1331	作品
+T115	Thing-Nominal 1337 1338	墨
+T116	Thing-Nominal 1409 1415	一幅幅水墨画
+T117	Thing-Nominal 1350 1351	墨
+T118	Thing-Nominal 1160 1165	轻重的墨块
+T119	Thing-Nominal 1361 1362	墨
+T120	Thing-Nominal 1367 1368	墨
+T121	Thing-Nominal 1371 1372	水
+T122	Thing-Nominal 1399 1406	每一幅书法作品
+T123	Location-Nominal 1416 1418	满纸
+T124	Thing-Nominal 1418 1420	云烟
+R10	Located Arg1:T124 Arg2:T123	
+T125	Person-Pronoun 1438 1439	他
+T126	Metric 1444 1447	五百年
+T127	Time-Implicit 1444 1447	五百年
+T128	Person-Name 1457 1459	王铎
+T129	Time-Implicit 1467 1476	早在一千三百多年前
+T130	Person-Name 1477 1480	孙过庭
+T131	Thing-Nominal 1482 1484	书谱
+T132	Person-Nominal 1487 1489	人们
+T133	Thing-Nominal 1502 1507	王铎的作品
+T134	Person-Name 1502 1504	王铎
+R11	Create Arg1:T134 Arg2:T133	
+T135	Person-Pronoun 1530 1531	他
+T136	Time-Explicit 1541 1543	晚明
+T137	Abstract 1557 1578	《赠汤若望诗册》《听颖师琴歌》《七月写怀》
+T138	Person-Nominal 1606 1607	人
+T139	Person-Pronoun 1642 1643	他
+T140	Person-Name 1719 1723	启功先生
+T141	Person-Name 1726 1728	王铎
+T142	Person-Name 1756 1758	王侯
+T143	Thing-Nominal 1762 1763	鼎
+T144	Metric 1764 1767	五百年
+T145	Person-Name 1773 1778	林散之先生
+T146	Person-Pronoun 1781 1782	他
+*	Coreference T146 T141
+T147	Person-Name 1793 1795	王铎
+T148	Person-Pronoun 1811 1812	他
+*	Coreference T148 T147
+T149	Time-Implicit 1821 1825	王铎幼时
+T150	Person-Name 1821 1823	王铎
+T151	Thing-Nominal 1838 1839	粥
+T152	Metric 1835 1837	一日
+T153	Person-Nominal 1847 1848	官
+T154	Person-Pronoun 1857 1858	他
+*	Coreference T154 T150
+T155	Abstract 1859 1867	《赠汤若望诗册》
+T156	Person-Nominal 1874 1877	二稚子
+R12	Family Arg1:T156 Arg2:T154	
+T157	Metric 1909 1911	五斗
+T158	Thing-Nominal 1911 1912	栗
+T159	Thing-Nominal 1914 1915	墨
+T160	Person-Pronoun 1927 1928	他
+T161	Thing-Nominal 1902 1903	书
+T162	Thing-Nominal 1939 1941	书画
+T163	Person-Name 1946 1948	王铎
+T165	Time-Explicit 1958 1961	明亡后
+T164	Organization-Name 1964 1966	清廷
+T166	Person-Nominal 1967 1968	官
+R13	Ownership Arg1:T166 Arg2:T164	
+T167	Person-Nominal 1976 1980	明代遗民
+T168	Person-Pronoun 1983 1984	他
+*	Coreference T168 T163
+T169	Person-Nominal 1985 1990	被鄙夷的臣
+T170	Person-Pronoun 1994 1995	他
+T171	Time-Explicit 2004 2008	顺治九年
+T172	Location-Nominal 2010 2012	故里
+T173	Metric 2015 2019	六十一岁
+T174	Person-Name 2021 2025	星云大师
+T175	Person-Pronoun 2031 2032	我
+*	Coreference T175 T174
+T176	Person-Pronoun 2039 2040	我
+T177	Person-Nominal 2042 2043	人
+T178	Person-Pronoun 2046 2047	我
+T179	Person-Pronoun 2053 2054	我
+T180	Person-Pronoun 2060 2061	我
+T181	Person-Pronoun 2078 2080	你们
+T182	Person-Pronoun 2083 2084	我
+T183	Person-Nominal 2094 2096	大师
+T184	Person-Pronoun 2102 2103	他
+*	Coreference T184 T183
+T185	Person-Name 2108 2110	王铎
+T186	Person-Pronoun 2113 2114	他
+*	Coreference T186 T185
+T187	Thing-Nominal 2130 2134	每幅作品
+T188	Person-Pronoun 2150 2151	他
+T189	Person-Pronoun 2159 2161	我们
+T190	Thing-Nominal 2162 2169	王铎的书法作品
+T191	Person-Name 2162 2164	王铎
+R14	Create Arg1:T191 Arg2:T190	
+T192	Person-Pronoun 2173 2174	他
+T193	Person-Nominal 2188 2191	艺术家
+T194	Thing-Nominal 2199 2202	其作品
+T195	Person-Name 2241 2243	王铎
+T196	Thing-Nominal 2253 2260	一颗璀璨的星星
+T197	Location-Nominal 2246 2253	书法艺术天空中
+R15	Located Arg1:T196 Arg2:T197	
+T198	Person-Pronoun 2261 2262	他
+*	Coreference T198 T195

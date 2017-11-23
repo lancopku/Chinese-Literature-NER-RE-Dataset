@@ -1,0 +1,283 @@
+T1	Thing-Nominal 5 7	大地
+T2	Thing-Nominal 0 2	天光
+T3	Person-Nominal 13 15	母亲
+T4	Person-Nominal 23 25	父亲
+T5	Thing-Nominal 28 34	土墙瓦屋烛光
+T6	Thing-Nominal 37 40	这烛亮
+T7	Thing-Nominal 48 61	几处低矮土墙屋和几座木板屋
+T8	Thing-Nominal 67 73;74 75	丝丝缕缕的亮 光
+T9	Location-Nominal 77 89	木格花窗和枞木板门的缝隙
+T10	Person-Nominal 98 99	娃
+T11	Thing-Nominal 100 101	崽
+T12	Thing-Nominal 108 109	柴
+T13	Thing-Nominal 112 114	猪草
+T14	Thing-Nominal 103 104	石
+T15	Location-Nominal 116 119	牛圈里
+T16	Thing-Nominal 119 121	水牛
+R1	Located Arg1:T16 Arg2:T15	
+T17	Location-Nominal 126 129	猪圈里
+T18	Thing-Nominal 129 130	猪
+R2	Located Arg1:T18 Arg2:T17	
+T19	Location-Nominal 136 139	羊棚里
+T20	Thing-Nominal 139 140	羊
+R3	Located Arg1:T20 Arg2:T19	
+T21	Location-Nominal 145 148	鸡窝里
+T22	Thing-Nominal 148 150	鸡群
+R4	Located Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 154 155	翅
+T24	Thing-Nominal 164 165	狗
+T25	Location-Nominal 159 162	院坝边
+R5	Located Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 170 177	丝丝缕缕的亮光
+T27	Thing-Nominal 180 182	山村
+T28	Person-Nominal 189 191	母亲
+T29	Thing-Nominal 200 204	一根火柴
+T30	Thing-Nominal 214 218	一枝枞烛
+T31	Location-Nominal 219 222	山村里
+T32	Person-Nominal 223 225	活人
+T33	Person-Nominal 233 234	人
+T34	Thing-Nominal 237 238	灯
+T35	Thing-Nominal 239 241	那灯
+T36	Thing-Nominal 243 246	长明灯
+T37	Thing-Nominal 247 249;250 256	豆油 、菜油、麻油
+T38	Thing-Nominal 258 262	一根棉线
+T39	Thing-Nominal 263 268	一满碟亮油
+T40	Thing-Nominal 269 273	一豆光亮
+T41	Thing-Nominal 276 278	碟碗
+T42	Thing-Nominal 283 285	木凳
+T43	Person-Nominal 290 292	逝者
+T44	Thing-Nominal 293 295	棺木
+T45	Thing-Nominal 297 304	一朵熠熠的火苗
+T46	Person-Pronoun 330 331	我
+T47	Time-Implicit 331 336	懵懂的童年
+T48	Person-Pronoun 348 349	我
+T49	Location-Name 355 359	乌江腹地
+T50	Thing-Nominal 360 369	海拔八百米的山坳地
+R6	Located Arg1:T50 Arg2:T49	
+T51	Metric 362 365	八百米
+T52	Person-Pronoun 370 372	我们
+T53	Thing-Nominal 373 376	马尾松
+T54	Thing-Nominal 377 379	枞树
+T55	Thing-Nominal 388 391	圣诞树
+T56	Thing-Nominal 392 394	枞树
+T57	Thing-Nominal 396 401	是一种冷杉
+T58	Thing-Nominal 402 407	这里的枞树
+T59	Location-Pronoun 402 404	这里
+R7	Located Arg1:T58 Arg2:T59	
+T60	Thing-Nominal 408 415	赤龙鳞似的树皮
+T61	Location-Nominal 419 431	边坡地或瘦山冷脊的石旮旯
+T62	Location-Nominal 453 456	枞林里
+T63	Thing-Nominal 458 461	枞树油
+T64	Thing-Nominal 467 469	枞蛋
+T65	Thing-Nominal 471 473	枞毛
+T66	Thing-Nominal 475 476;477 478	枞 枝
+T67	Thing-Nominal 480 482	枞料
+T68	Person-Pronoun 486 488	我们
+T69	Thing-Nominal 489 491	枞树
+T70	Thing-Nominal 499 501	枞亮
+T71	Thing-Nominal 463 465	枞亮
+T72	Thing-Nominal 503 513	树龄十年以上的岭上枞
+T73	Thing-Nominal 516 518	驼背
+T74	Thing-Nominal 518 520	曲腰
+T75	Thing-Nominal 522 524	木材
+T76	Thing-Nominal 525 527	枞树
+T77	Thing-Nominal 528 536	这些不成材的枞树
+T78	Thing-Nominal 540 544	边角木料
+T79	Thing-Nominal 548 556	煮饭煮猪食的柴火
+T80	Thing-Nominal 559 566	壮硕直挺的枞树
+T81	Thing-Nominal 567 569	枞亮
+T82	Thing-Nominal 574 576	油质
+T83	Thing-Nominal 570 572	材质
+T84	Thing-Nominal 577 580	这棵树
+T85	Thing-Nominal 586 588	枞树
+T86	Thing-Nominal 603 605	利刃
+T87	Thing-Nominal 607 615	褐红色鳞状的表皮
+T88	Thing-Nominal 625 627	树脂
+T89	Thing-Nominal 628 630	树皮
+T90	Time-Implicit 651 655	三五年后
+T91	Thing-Nominal 656 663	刮皮的半面树身
+T92	Thing-Nominal 666 671	干硬的肉红
+T93	Thing-Nominal 674 680	泪珠似的松脂
+T94	Thing-Nominal 682 687	这一段树身
+T95	Thing-Nominal 688 693	枞亮的枞柴
+T96	Thing-Nominal 694 696	枞亮
+T97	Thing-Nominal 697 704	富含松脂的枞柴
+T98	Thing-Nominal 705 709	鲜亮肉红
+T99	Thing-Nominal 711 712	火
+T100	Thing-Nominal 715 721	没干透的枞亮
+T101	Thing-Nominal 734 736	枞烛
+T102	Thing-Nominal 738 748	十年以上树龄的树根部
+T103	Thing-Nominal 755 765	一两个拇指宽的斜刀口
+T104	Metric 750 753	一两尺
+T105	Thing-Nominal 766 768	树脂
+T106	Location-Nominal 769 772	刀口里
+R8	Located Arg1:T105 Arg2:T106	
+T107	Thing-Nominal 784 789	下边的竹槽
+T108	Thing-Nominal 792 793;794 795	树 脂
+T109	Metric 806 809	半个月
+T110	Thing-Nominal 812 817	竹槽的枞油
+T111	Location-Nominal 812 814	竹槽
+R9	Located Arg1:T110 Arg2:T111	
+T112	Location-Nominal 784 786	下边
+R10	Located Arg1:T107 Arg2:T112	
+T113	Thing-Nominal 821 830	二十年以上的老枞树
+T114	Location-Nominal 831 833	根部
+T115	Thing-Nominal 836 845	一些乳黄色的树脂球
+R11	Located Arg1:T115 Arg2:T114	
+T116	Thing-Nominal 867 869	枞烛
+T117	Thing-Nominal 870 874	最佳原料
+T118	Thing-Nominal 876 878	枞烛
+T119	Thing-Nominal 907 915;916 917	一枝晶亮耐燃的枞 烛
+T120	Thing-Nominal 938 940	喜烛
+T121	Person-Nominal 941 944	村里人
+T122	Thing-Nominal 963 964	烛
+T123	Thing-Nominal 966 968	枞亮
+T124	Thing-Nominal 969 971	枞烛
+T125	Location-Nominal 977 979	城里
+T126	Thing-Nominal 983 993	布料针头线脑糖果窖酒
+T127	Location-Nominal 995 999	村里人家
+T128	Thing-Nominal 1000 1005	一升包谷籽
+T129	Thing-Nominal 1006 1011	一小捆枞烛
+T130	Time-Implicit 1019 1026	我读小学的时候
+T131	Person-Pronoun 1019 1020	我
+T132	Person-Nominal 1027 1029	母亲
+T133	Person-Nominal 1033 1035	父亲
+T134	Thing-Nominal 1039 1042	煤油灯
+T135	Person-Pronoun 1043 1044	我
+T136	Thing-Nominal 1047 1050	煤油灯
+T137	Thing-Nominal 1052 1054	油灯
+T138	Person-Pronoun 1067 1068	我
+T139	Thing-Nominal 1071 1073	枞亮
+T140	Thing-Nominal 1074 1076	枞烛
+T141	Time-Implicit 1071 1079	枞亮和枞烛燃烧时
+T142	Thing-Nominal 1081 1090	清香和亮汪汪的火苗
+T143	Thing-Nominal 1095 1098	煤油灯
+T144	Location-Nominal 1111 1113	村里
+T145	Thing-Nominal 1113 1117	大片枞林
+R12	Located Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1139 1140;1141 1149	枞 油和刮枞亮的老树
+T147	Thing-Nominal 1155 1158	煤油灯
+T148	Thing-Nominal 1161 1171	夜夜吐香的枞亮和枞烛
+T149	Person-Nominal 1179 1181	外公
+T150	Location-Name 1174 1178	大梁子山
+T151	Thing-Nominal 1172 1173	家
+R13	Located Arg1:T151 Arg2:T150	
+T152	Thing-Nominal 1183 1187	一捆枞亮
+T153	Person-Pronoun 1182 1183	我
+R14	Family Arg1:T153 Arg2:T149	
+T154	Person-Pronoun 1188 1189	我
+T155	Thing-Nominal 1194 1201;1202 1206	闪闪的亮光和袅 袅的枞香
+T156	Person-Nominal 1208 1209	人
+T157	Person-Pronoun 1212 1213	我
+T158	Thing-Nominal 1214 1216	枞亮
+T159	Person-Nominal 1222 1224	母亲
+T160	Person-Nominal 1237 1239	母亲
+T161	Person-Pronoun 1240 1241	我
+T162	Person-Nominal 1250 1252	母亲
+T163	Thing-Nominal 1273 1275	枞树
+T164	Person-Nominal 1278 1280	大娘
+T165	Person-Nominal 1284 1286	母亲
+T166	Thing-Nominal 1289 1293	一枝枞亮
+T167	Thing-Nominal 1296 1300	她们的家
+T168	Person-Pronoun 1296 1298	她们
+T169	Person-Nominal 1304 1306	大娘
+T170	Person-Nominal 1309 1311	母亲
+T171	Person-Nominal 1314 1316	客人
+T172	Person-Pronoun 1335 1336	我
+T173	Thing-Nominal 1338 1340	眼睛
+R15	Part-Whole Arg1:T173 Arg2:T172	
+T174	Person-Nominal 1352 1354	母亲
+T175	Person-Pronoun 1360 1361	我
+T176	Person-Nominal 1363 1365	母亲
+T177	Person-Nominal 1393 1395	母亲
+T178	Thing-Nominal 1410 1413	葵花篙
+T179	Thing-Nominal 1414 1417	黄篾篙
+T180	Thing-Nominal 1418 1420;1421 1422	柏皮 篙
+T181	Thing-Nominal 1424 1428	这些亮篙
+T182	Person-Nominal 1429 1431	母亲
+T183	Thing-Nominal 1441 1447	马灯和手电筒
+T184	Person-Nominal 1448 1450	母亲
+T185	Thing-Nominal 1452 1458	马灯和手电筒
+T186	Person-Nominal 1467 1468	人
+T187	Thing-Nominal 1469 1470	门
+T188	Person-Nominal 1473 1475	母亲
+T189	Person-Pronoun 1476 1477	我
+R16	Family Arg1:T189 Arg2:T188	
+T190	Person-Nominal 1488 1489	人
+T191	Thing-Nominal 1491 1496	燃烧的亮篙
+T192	Person-Nominal 1502 1504	母亲
+T193	Location-Nominal 1504 1506	脸上
+T194	Thing-Nominal 1508 1515	一朵盛开的葵花
+T195	Person-Nominal 1525 1526	人
+T196	Thing-Nominal 1528 1534	马灯或手电筒
+T197	Thing-Nominal 1535 1541	马灯或手电筒
+T198	Person-Nominal 1551 1553	母亲
+T199	Person-Nominal 1566 1568	母亲
+T200	Person-Nominal 1575 1576	人
+T201	Person-Nominal 1582 1584	父亲
+T202	Person-Nominal 1602 1603;1604 1605	母 亲
+T203	Time-Implicit 1614 1621	我上初中的时候
+T204	Person-Pronoun 1614 1615	我
+T205	Location-Nominal 1622 1624	村里
+T206	Location-Nominal 1625 1627	山溪
+T207	Thing-Nominal 1629 1632	水电站
+R17	Located Arg1:T207 Arg2:T206	
+T208	Thing-Nominal 1639 1641	电灯
+T209	Person-Nominal 1645 1647	母亲
+T210	Person-Pronoun 1659 1660	我
+T211	Thing-Nominal 1679 1680	灯
+T212	Thing-Nominal 1676 1677	灯
+T213	Person-Nominal 1681 1683	母亲
+T214	Person-Pronoun 1690 1691	我
+T215	Thing-Nominal 1696 1697	灯
+T216	Person-Nominal 1712 1714	母亲
+T217	Person-Pronoun 1717 1718	她
+*	Coreference T217 T216
+T218	Thing-Nominal 1720 1721	灯
+T219	Thing-Nominal 1730 1731	灯
+T220	Person-Pronoun 1765 1766	我
+T221	Person-Nominal 1777 1779	母亲
+T222	Person-Nominal 1787 1792	一位哲学家
+T223	Person-Pronoun 1794 1795	我
+T224	Person-Nominal 1800 1802	母亲
+T225	Person-Pronoun 1805 1806	我
+R18	Family Arg1:T225 Arg2:T224	
+T226	Location-Nominal 1809 1811	满街
+T227	Thing-Nominal 1811 1813	霓虹
+T228	Person-Nominal 1817 1819	孩子
+T229	Person-Pronoun 1816 1817	她
+T230	Person-Nominal 1828 1832	这么多人
+T231	Person-Nominal 1839 1841	母亲
+T232	Metric 1850 1853	两三天
+T233	Person-Pronoun 1857 1858	她
+*	Coreference T233 T231
+T234	Thing-Nominal 1860 1862	城市
+T235	Person-Pronoun 1864 1865	她
+T236	Location-Nominal 1869 1871	城里
+T237	Person-Nominal 1874 1877	一个人
+T238	Person-Pronoun 1873 1874	她
+T239	Person-Pronoun 1878 1879	她
+T240	Thing-Nominal 1882 1884	村子
+T241	Thing-Nominal 1885 1887	村子
+T242	Person-Nominal 1894 1897	一个人
+T243	Person-Pronoun 1893 1894	她
+T244	Person-Nominal 1903 1907	我的母亲
+T245	Person-Pronoun 1903 1904	我
+R19	Family Arg1:T244 Arg2:T245	
+T246	Thing-Nominal 1913 1915	小山
+T247	Thing-Nominal 1920 1943	星星点点的亮光，枞亮、枞烛、亮篙、马灯、手电筒
+T248	Person-Nominal 1950 1953	我母亲
+T249	Person-Pronoun 1950 1951	我
+R20	Family Arg1:T248 Arg2:T249	
+T250	Person-Pronoun 1981 1982	我
+T251	Thing-Nominal 1988 1991	小山村
+T252	Person-Nominal 1992 1994	母亲
+T253	Person-Nominal 2030 2036	一只小鸡小狗
+T254	Location-Nominal 2044 2049	土墙的暗角
+T255	Thing-Nominal 2055 2063	冬天里缺吃的老鼠
+T256	Thing-Nominal 2050 2054	一些粮食
+T257	Person-Pronoun 2075 2076	她
+T258	Thing-Nominal 2014 2021	绿意盎然的枞林
+T259	Person-Nominal 2092 2094	母亲
+T260	Metric 2103 2106	十八年
+T261	Person-Pronoun 2119 2120	我

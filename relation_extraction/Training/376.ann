@@ -1,0 +1,235 @@
+T1	Location-Nominal 1 8	我的“书房”里
+T2	Person-Pronoun 1 2	我
+T3	Thing-Nominal 10 19	一张不同寻常的书桌
+R1	Located Arg1:T3 Arg2:T1	
+T4	Person-Pronoun 24 25	我
+T5	Thing-Nominal 24 30	我的“书房”
+R2	Ownership Arg1:T4 Arg2:T5	
+T6	Thing-Nominal 34 36	书房
+T7	Thing-Pronoun 39 40	它
+*	Coreference T7 T5 T129
+T8	Thing-Nominal 40 42	四壁
+R3	Part-Whole Arg1:T8 Arg2:T7	
+T9	Thing-Nominal 46 47	墙
+T10	Thing-Nominal 42 43	墙
+T11	Thing-Nominal 49 56	层层叠叠的书柜
+T12	Location-Nominal 60 63	房中间
+R4	Part-Whole Arg1:T12 Arg2:T1	
+T13	Thing-Nominal 67 72	一张单人床
+R5	Located Arg1:T13 Arg2:T12	
+T14	Location-Nominal 73 75	房中
+*	Coreference T14 T1 T25
+T15	Thing-Nominal 76 77	床
+*	Coreference T15 T13 T20
+T16	Thing-Nominal 80 81;82 83	卧 室
+T17	Person-Pronoun 85 86	我
+T18	Person-Nominal 87 89	老伴
+R6	Family Arg1:T18 Arg2:T17	
+T19	Thing-Nominal 85 92	我和老伴的卧室
+R7	General-Special Arg1:T16 Arg2:T19	
+T20	Thing-Nominal 96 99	这张床
+T21	Person-Pronoun 101 102	我
+T22	Thing-Nominal 112 113	床
+T23	Thing-Pronoun 117 118	它
+T24	Thing-Nominal 119 121	卧室
+T25	Location-Nominal 123 135	这既简陋又毫无特色的房间
+T26	Thing-Nominal 139 142;143 145	房中的 书桌
+R8	Located Arg1:T26 Arg2:T25	
+*	Coreference T26 T3 T27 T28
+T27	Thing-Pronoun 164 165	它
+T28	Thing-Pronoun 169 170	它
+T29	Person-Nominal 174 179	“暴发户”
+T30	Person-Nominal 184 187	暴发户
+T31	Thing-Pronoun 182 183	它
+T32	Time-Implicit 191 195	几十年来
+T33	Metric 191 194	几十年
+T34	Location-Nominal 195 197	我家
+T35	Thing-Nominal 202 213	供我读书写字的专用案桌
+T36	Person-Pronoun 215 216	我
+T37	Person-Nominal 218 221	文化人
+T38	Thing-Nominal 222 223	腹
+R9	Part-Whole Arg1:T38 Arg2:T36	
+T39	Thing-Nominal 229 231	墨水
+T40	Person-Pronoun 232 233	我
+T41	Person-Nominal 235 241;242 253	千千万万中的 一个略为识字的平头百姓
+R10	General-Special Arg1:T41 Arg2:T40	
+T42	Time-Implicit 260 262	每天
+T43	Location-Nominal 268 276	上班、下班的路上
+T44	Thing-Nominal 281 282	案
+T45	Person-Pronoun 290 291	我
+T46	Person-Nominal 294 299	“小说迷”
+R11	General-Special Arg1:T46 Arg2:T45	
+T47	Time-Implicit 301 304	那年头
+T48	Person-Pronoun 305 306	我
+T49	Thing-Nominal 307 309	小说
+T50	Thing-Nominal 311 312	书
+T51	Person-Pronoun 321 322	你
+T52	Person-Pronoun 323 324	我
+T53	Organization-Nominal 339 342	图书馆
+T54	Thing-Nominal 346 348	小说
+T55	Thing-Nominal 354 358	专用案桌
+T56	Location-Nominal 359 361	兜里
+T57	Thing-Nominal 363 366	本小说
+R12	Located Arg1:T57 Arg2:T56	
+T58	Location-Nominal 376 387	饭桌边、大树下、火炉旁
+T59	Thing-Nominal 376 378	饭桌
+T60	Thing-Nominal 380 382	大树
+T61	Thing-Nominal 384 386	火炉
+T62	Time-Implicit 396 403	近半个世纪以来
+T63	Metric 396 401	近半个世纪
+T64	Location-Nominal 404 407	我家里
+T65	Thing-Nominal 412 422;423 425	专供我写字读书的什么 案桌
+T66	Thing-Nominal 437 441	这张书桌
+T67	Person-Nominal 430 433	暴发户
+T68	Thing-Pronoun 428 429	它
+*	Coreference T65 T35
+T69	Thing-Nominal 454 456	书架
+T70	Thing-Nominal 458 461	装饰柜
+R13	Part-Whole Arg1:T69 Arg2:T66	
+R14	Part-Whole Arg1:T70 Arg2:T66	
+T71	Thing-Nominal 464 467	写字台
+R15	Part-Whole Arg1:T71 Arg2:T66	
+T72	Thing-Nominal 483 486	皮转椅
+T73	Thing-Nominal 492 493	书
+T74	Thing-Nominal 499 504	案头的饰品
+T75	Person-Pronoun 508 509	你
+T76	Thing-Nominal 519 522	大书桌
+*	Coreference T76 T66 T81 T84 T130 T131 T136
+T77	Thing-Nominal 519 525	大书桌的两面
+T78	Location-Nominal 528 529	墙
+R16	Near Arg1:T77 Arg2:T78	
+T79	Thing-Nominal 530 534	桌面右边
+R17	Part-Whole Arg1:T77 Arg2:T76	
+R18	Part-Whole Arg1:T79 Arg2:T77	
+T80	Thing-Nominal 538 548;549 557	一排直立于书桌上的三 层书架和装饰小格
+R19	Located Arg1:T80 Arg2:T79	
+T81	Thing-Nominal 558 560	书桌
+T82	Location-Nominal 579 582	书架上
+T83	Thing-Nominal 585 597	我最喜爱的古典与现代新书
+R20	Located Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 602 611	这张突如其来的书桌
+T85	Person-Nominal 612 615	暴发户
+T86	Person-Pronoun 622 623	它
+R21	Create Arg1:T86 Arg2:T84	
+T87	Time-Implicit 631 643	我那胜似夕阳红的黄昏岁月
+T88	Time-Implicit 645 651	七十二岁那年
+T89	Location-Nominal 652 656	我的老家
+T90	Thing-Nominal 659 666	重建古城的呼声
+T91	Person-Pronoun 670 671	我
+T92	Time-Implicit 677 679	儿时
+T93	Location-Nominal 692 696	庵坛寺观
+T94	Location-Name 699 704	恢弘的孔庙
+T95	Location-Nominal 706 714	伟岸壮观的古城墙
+T96	Location-Nominal 715 721	环城的水波涛
+T97	Thing-Nominal 724 732	电视屏幕上的映像
+T98	Person-Pronoun 748 750	自己
+*	Coreference T98 T91
+T99	Person-Nominal 753 760	白发苍苍的老人
+R22	General-Special Arg1:T99 Arg2:T91	
+T100	Person-Pronoun 775 776	我
+T101	Location-Nominal 783 787	这个人世
+T102	Time-Implicit 789 791	儿时
+T103	Thing-Nominal 788 798	我儿时目睹的那些景物
+T104	Person-Nominal 801 806;807 809	我们这一辈 老人
+T105	Person-Pronoun 801 803	我们
+T106	Thing-Nominal 830 835	儿时的古城
+T107	Time-Implicit 830 832	儿时
+T108	Person-Pronoun 851 852	我
+T109	Thing-Nominal 855 860	一块硬纸板
+R23	Use Arg1:T108 Arg2:T109	
+T110	Thing-Nominal 862 864	膝头
+R24	Part-Whole Arg1:T110 Arg2:T108	
+T111	Person-Pronoun 873 875	自己
+T112	Thing-Nominal 890 896	写出来的东西
+R25	Create Arg1:T108 Arg2:T112	
+T113	Thing-Name 944 950	《散文百家》
+T114	Thing-Nominal 956 975	一则“散文创作辅导中心”招收学员的公告
+R26	Located Arg1:T114 Arg2:T113	
+T115	Person-Pronoun 979 980	我
+T116	Person-Pronoun 991 992	我
+T117	Metric 1023 1030	七十四岁的高龄
+T118	Organization-Name 1033 1037	“中心”
+T119	Organization-Nominal 958 968	“散文创作辅导中心”
+*	Coreference T118 T119
+T120	Person-Name 1042 1051;1052 1053	常建华老师、苗莉老 师
+T121	Thing-Nominal 1056 1058	散文
+T122	Person-Nominal 1060 1063	儿女们
+T123	Person-Nominal 1065 1067	老爸
+*	Coreference T123 T116
+R27	Family Arg1:T122 Arg2:T123	
+R28	Family Arg1:T122 Arg2:T18	
+T124	Thing-Nominal 1075 1078	膝头上
+T125	Thing-Nominal 1079 1081	文章
+R29	Create Arg1:T123 Arg2:T125	
+T126	Thing-Nominal 1093 1094	钱
+T127	Thing-Nominal 1096 1097	钱
+T128	Person-Pronoun 1110 1111	我
+T129	Thing-Nominal 1115 1120;1121 1128	构不成书房 的专用“书房”
+T130	Thing-Nominal 1133 1145	专供我写字读书的专用书桌
+T131	Thing-Nominal 1151 1153	书桌
+R30	Ownership Arg1:T123 Arg2:T130	
+T132	Person-Pronoun 1161 1162	我
+T133	Person-Nominal 1179 1186	八十的耄耋老人
+T134	Person-Pronoun 1176 1177	我
+R31	General-Special Arg1:T133 Arg2:T134	
+T135	Person-Nominal 1206 1208	儿女
+*	Coreference T135 T122
+T136	Thing-Nominal 1207 1208;1209 1215	女 孝敬我的书桌
+T137	Person-Nominal 1218 1228	《散文百家》文学老师
+R32	Social Arg1:T137 Arg2:T134	
+R33	Social Arg1:T120 Arg2:T116	
+T138	Thing-Nominal 1245 1247	文章
+T139	Thing-Nominal 1251 1255	夕阳黄昏
+T140	Time-Implicit 1257 1260	几年来
+T141	Thing-Nominal 1269 1271	文章
+T142	Person-Pronoun 1277 1278	我
+T143	Person-Pronoun 1286 1287	我
+T144	Person-Pronoun 1292 1293	我
+T145	Person-Nominal 1301 1305	文学老师
+*	Coreference T145 T137 T179
+T146	Thing-Nominal 1316 1317;1318 1325	散 文“古城系列”
+T147	Thing-Nominal 1326 1330	其中几篇
+R34	Part-Whole Arg1:T147 Arg2:T146	
+T148	Organization-Nominal 1334 1339	老家的省报
+T149	Organization-Nominal 1341 1349	“散文百家”杂志
+T150	Person-Nominal 1363 1368	老家父母官
+T151	Person-Name 1375 1378;1379 1396	老家的 父母官(茶陵县人民政府副县长刘铖)
+*	Coreference T150 T151 T156
+T152	Person-Pronoun 1400 1401	我
+R35	Social Arg1:T151 Arg2:T152	
+T153	Person-Pronoun 1407 1409	我们
+T154	Person-Pronoun 1417 1418	您
+*	Coreference T154 T152
+T156	Person-Pronoun 1432 1433	我
+T157	Thing-Nominal 1442 1446	您的文章
+T158	Person-Pronoun 1455 1456	你
+T155	Thing-Nominal 1417 1430	您寄来的关于茶陵古城的文章
+R36	Create Arg1:T154 Arg2:T155	
+*	Coreference T157 T155
+T159	Person-Pronoun 1448 1450	我们
+T160	Person-Pronoun 1460 1462	我们
+T161	Location-Name 1465 1469	茶陵古城
+T162	Person-Pronoun 1482 1483	我
+T163	Organization-Nominal 1485 1491	县委、县政府
+T164	Abstract 1494 1500;1501 1506	旅游产业规模 化发展战略
+T165	Abstract 1511 1530	‘一山、一水、一州一城一府’的核心景区
+T166	Location-Nominal 1533 1535	古城
+T167	Location-Name 1542 1548	茶陵南宋古城
+*	Coreference T167 T166 T161
+T168	Person-Pronoun 1559 1560	我
+T169	Thing-Nominal 1593 1601	儿女孝敬我的书桌
+T170	Person-Pronoun 1603 1604	我
+T171	Person-Pronoun 1613 1614	我
+T172	Person-Pronoun 1623 1624	我
+T173	Person-Pronoun 1627 1628	我
+T174	Thing-Name 1639 1649	一本拟名《谢幕》的书
+R37	Create Arg1:T173 Arg2:T174	
+T175	Person-Nominal 1666 1670	我的亲人
+R38	Family Arg1:T175 Arg2:T172	
+T176	Location-Nominal 1672 1679	哺育了我的乡土
+T177	Time-Implicit 1681 1689	终将要走完的人生
+T178	Person-Nominal 1696 1700	我的亲人
+T179	Person-Nominal 1701 1705	我的老师
+T180	Location-Nominal 1706 1710	我的故土
+*	Coreference T180 T176
+T181	Person-Nominal 1712 1722	所有认识和不认识的人

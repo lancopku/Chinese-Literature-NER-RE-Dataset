@@ -1,0 +1,148 @@
+T1	Person-Pronoun 0 1	我
+T2	Time-Implicit 1 7	今年七月十日
+T3	Person-Nominal 10 15	堂侄子阿五
+T4	Time-Implicit 17 23	今年七月十日
+T5	Person-Nominal 28 32	我们两人
+T6	Metric 46 50	三十五年
+T7	Time-Implicit 73 79	退休的第五天
+T8	Thing-Nominal 83 86	大暴雨
+T9	Person-Pronoun 94 95	我
+T10	Location-Nominal 98 100	马路
+T11	Person-Pronoun 160 161	我
+T12	Person-Nominal 163 177	一位年纪约四十岁略高瘦的医生
+T13	Location-Nominal 180 183	放射科
+T14	Location-Nominal 131 133;134 137	县属 大医院
+T15	Person-Pronoun 263 264	我
+T16	Location-Nominal 266 271	住院部三楼
+T17	Person-Nominal 272 276	骨科医生
+T18	Person-Nominal 279 300	在放射科看见的穿裤子一只裤脚卷一圈的那一位
+T19	Person-Nominal 301 306	骨科A医生
+T20	Person-Pronoun 311 312	我
+T21	Person-Pronoun 330 331	我
+T22	Person-Nominal 356 361	骨科A医生
+T23	Person-Pronoun 370 371	我
+T24	Person-Pronoun 388 389	我
+T25	Person-Pronoun 391 392	他
+T26	Person-Pronoun 403 404	我
+T27	Time-Implicit 407 413	读小学三年级
+T28	Time-Explicit 423 431	1957年的深秋
+T29	Location-Nominal 432 437	我们小学校
+T30	Person-Nominal 458 467	一位推销膏药的先生
+T31	Person-Nominal 475 477	自己
+T32	Thing-Nominal 469 474	一把钝菜刀
+T33	Thing-Nominal 489 491	膏药
+T35	Person-Nominal 702 706	老侦察兵
+T34	Person-Nominal 680 692	我们小学校的一位体育老师
+T36	Person-Pronoun 707 708	他
+T37	Person-Nominal 722 725;726 728	卖膏药 先生
+T38	Thing-Nominal 730 735	一把钝菜刀
+T39	Person-Nominal 736 738	自己
+T40	Person-Pronoun 745 746	他
+T41	Person-Pronoun 755 756	我
+T42	Person-Pronoun 631 634	我自己
+T43	Person-Pronoun 656 657	我
+T44	Time-Implicit 661 664;665 667	读小学 时候
+T45	Person-Nominal 520 529	几个年纪较大的同学
+T46	Person-Nominal 578 583	骨科A医生
+T47	Person-Pronoun 1457 1458	我
+T48	Person-Pronoun 1473 1474	我
+T49	Person-Pronoun 1504 1505	你
+T50	Person-Name 1501 1503	阿五
+*	Coreference T49 T50
+T51	Person-Nominal 1532 1534	阿叔
+T52	Person-Pronoun 1538 1539	我
+T53	Person-Name 1322 1324	阿五
+T54	Person-Nominal 1325 1328	我堂哥
+T55	Person-Name 1332 1334	阿五
+T56	Location-Nominal 1341 1344	我住处
+T57	Person-Name 1345 1347	阿五
+T58	Person-Nominal 1354 1356	我爸
+T59	Person-Nominal 1358 1360	阿叔
+T60	Metric 1362 1366	8元2角
+T61	Thing-Nominal 1370 1373	结账单
+T62	Person-Name 1102 1104	阿五
+T63	Person-Pronoun 1290 1291	我
+T64	Person-Pronoun 1297 1299	自己
+T65	Person-Nominal 1111 1118	两位副主任医师
+T66	Person-Pronoun 1134 1135	我
+T67	Person-Nominal 1151 1154;1155 1158	来查房 的护士
+T68	Person-Pronoun 1161 1162	我
+T69	Person-Nominal 1168 1170	护士
+T70	Person-Nominal 1171 1177	我的主管医师
+T71	Person-Pronoun 1194 1195	他
+*	Coreference T71 T70
+T72	Person-Pronoun 1202 1203	我
+T73	Person-Pronoun 1212 1213	我
+T74	Person-Nominal 1435 1437	我爸
+T75	Person-Nominal 1393 1397	二位病人
+T76	Person-Nominal 1544 1548	指导老师
+R1	Family Arg1:T3 Arg2:T1	
+R2	Part-Whole Arg1:T1 Arg2:T5	
+R3	Near Arg1:T10 Arg2:T14	
+T77	Location-Nominal 148 152	门诊外科
+R4	Part-Whole Arg1:T77 Arg2:T14	
+T78	Thing-Nominal 155 157	照片
+T79	Thing-Nominal 194 199	陈旧白大衣
+T80	Thing-Nominal 203 208	老式旧球鞋
+T81	Thing-Nominal 221 225	两只裤脚
+T82	Person-Nominal 234 242	放射科的两位医生
+T83	Person-Pronoun 245 246	他
+*	Coreference T83 T12 T84
+T84	Person-Pronoun 249 250	他
+*	Coreference T17 T18
+R5	Social Arg1:T15 Arg2:T17	
+T85	Thing-Nominal 376 378	手臂
+R6	Part-Whole Arg1:T85 Arg2:T23	
+T86	Thing-Nominal 394 401	得意变大的脸庞
+R7	Part-Whole Arg1:T86 Arg2:T25	
+T87	Thing-Nominal 437 447	面向大街马路的篮球场
+T88	Thing-Nominal 759 764	你这把菜刀
+T89	Thing-Nominal 636 640	右胳肢窝
+R8	Part-Whole Arg1:T89 Arg2:T42	
+T90	Person-Pronoun 590 591	我
+T91	Location-Nominal 593 595	病床
+T92	Person-Pronoun 602 603	我
+T93	Thing-Nominal 604 606	右肩
+T94	Person-Pronoun 766 767	我
+T95	Person-Pronoun 770 771	我
+T96	Thing-Nominal 776 778	肚皮
+T97	Person-Pronoun 785 786	你
+T98	Person-Nominal 793 800	这位卖膏药先生
+*	Coreference T98 T37
+T99	Person-Name 836 841	堂侄子阿五
+T100	Person-Pronoun 820 821	我
+T101	Person-Name 845 847	阿五
+T102	Location-Nominal 848 855	北方某个大城市
+T103	Time-Implicit 865 871	今天下午六时
+T104	Thing-Nominal 616 620	我的右掌
+T105	Organization-Nominal 1509 1511	医院
+T106	Person-Nominal 1413 1421	你的那位主管医师
+T107	Metric 1408 1412	二十元钱
+T108	Person-Pronoun 1573 1574	我
+T109	Person-Pronoun 1575 1576	你
+T110	Person-Nominal 1549 1555	贫困山区群众
+T111	Person-Pronoun 1584 1585	我
+T112	Time-Implicit 1591 1594	这两天
+T113	Person-Pronoun 1595 1596	我
+T114	Person-Pronoun 1607 1609	自己
+T115	Time-Implicit 1615 1619	过了几天
+T116	Person-Pronoun 1620 1621	我
+T117	Person-Nominal 1624 1633	那位退休副主任医师
+T118	Person-Pronoun 1644 1645	他
+*	Coreference T118 T117
+T119	Person-Pronoun 1518 1519	你
+T120	Person-Nominal 1684 1688	我的同学
+T121	Person-Pronoun 1657 1663	我的高中同学
+T122	Person-Pronoun 1712 1713	我
+T123	Person-Nominal 1439 1441	大家
+R9	Family Arg1:T57 Arg2:T58	
+R10	Family Arg1:T63 Arg2:T54	
+T124	Person-Nominal 1026 1039	一位当外科主任的副主任医师
+T125	Person-Pronoun 1046 1047	他
+T126	Person-Pronoun 1051 1052	我
+T127	Person-Nominal 1059 1063	高中同学
+T128	Person-Pronoun 1082 1083	你
+T129	Person-Pronoun 1084 1085	我
+T130	Person-Pronoun 1086 1087	他
+T131	Person-Pronoun 1088 1089	我
+T132	Time-Implicit 861 864	刚毕业

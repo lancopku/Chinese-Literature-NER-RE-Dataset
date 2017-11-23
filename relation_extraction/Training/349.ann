@@ -1,0 +1,40 @@
+T1	Person-Nominal 0 2	朋友
+T2	Person-Nominal 3 6	圆屋酒
+T3	Person-Nominal 9 11	宾客
+R1	Social Arg1:T3 Arg2:T1	
+T4	Metric 18 22	两层四套
+T5	Metric 23 28	六百多平方
+T6	Location-Nominal 45 50	门前地坪里
+T7	Thing-Nominal 53 58	客人的车骑
+R2	Located Arg1:T7 Arg2:T6	
+T8	Location-Nominal 59 64	自家禾田边
+T9	Thing-Nominal 67 72	蜿蜒的矮山
+R3	Located Arg1:T9 Arg2:T8	
+T10	Location-Nominal 73 78	屋后山岭上
+T11	Thing-Nominal 82 87	绿色的希望
+R4	Located Arg1:T11 Arg2:T10	
+T12	Time-Implicit 89 91	清晨
+T13	Person-Pronoun 93 94	我
+T14	Location-Nominal 96 103	长满杂草的小径
+T15	Location-Nominal 105 106	山
+T16	Time-Implicit 108 112	后生时代
+T17	Person-Pronoun 113 114	我
+T18	Location-Pronoun 138 139	此
+*	Coreference T18 T14
+T19	Location-Nominal 145 146	岭
+T20	Person-Nominal 148 152	岭上人家
+T21	Person-Nominal 161 168	岭上的婆婆叔伯
+*	Coreference T21 T20
+T22	Thing-Nominal 176 177	鞭
+T23	Thing-Nominal 178 179	炮
+T24	Thing-Nominal 180 182	酽茶
+T25	Thing-Nominal 182 184	美食
+T26	Person-Nominal 187 189	来客
+*	Coreference T26 T17
+T27	Metric 192 195	四十年
+T28	Location-Nominal 205 210	这脚下的路
+T29	Thing-Nominal 222 227	路边的草木
+R5	Near Arg1:T29 Arg2:T28	
+T30	Person-Pronoun 240 241	你
+T31	Person-Pronoun 248 249	我
+T32	Thing-Nominal 273 274	鼓

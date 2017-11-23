@@ -1,0 +1,268 @@
+T1	Time-Explicit 0 10	在旅游之风盛行的当下
+T2	Person-Nominal 11 13	儿子
+T3	Person-Pronoun 14 15	我
+R1	Family Arg1:T3 Arg2:T2	
+T4	Person-Pronoun 22 23	我
+T5	Location-Nominal 32 54	山水风光、古建筑、海滩、湿地、动物园、水族馆
+T6	Person-Pronoun 56 57	我
+T7	Location-Nominal 97 99	家里
+T8	Time-Implicit 104 108	事隔不久
+T9	Person-Pronoun 109 110	他
+*	Coreference T9 T2
+T10	Person-Pronoun 112 113	我
+T11	Person-Pronoun 120 121	我
+T12	Location-Name 129 134	西藏、新疆
+T13	Person-Pronoun 135 136	他
+T14	Abstract 147 151	高原反应
+T15	Location-Pronoun 142 146	这些地方
+*	Coreference T15 T12
+T16	Person-Nominal 152 158	上了年纪的人
+T17	Person-Pronoun 169 170	他
+T18	Time-Implicit 163 169	停
+了一会儿
+T19	Location-Nominal 174 177	新大陆
+T20	Person-Pronoun 184 185	你
+T21	Location-Name 191 196	辽宁佟二堡
+T22	Location-Name 198 203	海宁皮革城
+T23	Person-Pronoun 211 212	我
+T24	Location-Nominal 223 225;226 228	北国 风光
+T25	Location-Pronoun 242 245	这地方
+*	Coreference T25 T24
+T26	Person-Pronoun 248 249	他
+T27	Location-Name 254 257	佟二堡
+T28	Location-Name 259 261	沈阳
+R2	Near Arg1:T27 Arg2:T28	
+T29	Location-Name 265 269	沈阳市区
+T30	Metric 269 273	60里路
+T31	Thing-Nominal 274 276	汽车
+T32	Metric 277 282	一个多小时
+T33	Time-Implicit 277 282	一个多小时
+T34	Person-Pronoun 289 290	他
+T35	Person-Pronoun 293 294	他
+T36	Location-Name 298 300	沈阳
+T37	Organization-Nominal 301 303	讲座
+T38	Person-Pronoun 305 306	我
+T39	Person-Nominal 307 309	他妈
+T40	Person-Pronoun 307 308	他
+R3	Family Arg1:T39 Arg2:T40	
+T41	Person-Pronoun 316 318	我们
+T42	Location-Nominal 320 325	沈阳风景区
+T43	Organization-Nominal 313 315	讲座
+T44	Location-Name 331 334	佟二堡
+T45	Location-Name 340 342	大连
+T46	Person-Pronoun 346 347	他
+T47	Person-Pronoun 353 354	我
+T48	Person-Pronoun 355 356	他
+T49	Person-Pronoun 360 361	我
+T50	Organization-Nominal 379 383	工作单位
+T51	Metric 384 387	两三天
+T52	Person-Pronoun 417 419	我们
+T53	Organization-Nominal 432 435	旅游团
+T54	Organization-Nominal 452 455	旅游团
+T55	Person-Pronoun 491 493	我们
+T56	Thing-Nominal 545 546	饭
+T57	Thing-Nominal 548 549	饭
+T58	Thing-Nominal 552 554	面条
+T59	Thing-Nominal 556 558	面条
+T60	Thing-Nominal 561 566	“自助餐”
+T61	Thing-Nominal 568 571	自助餐
+T62	Person-Pronoun 572 573	我
+T63	Thing-Nominal 580 582	食物
+T64	Thing-Nominal 589 593	辛辣食品
+T65	Thing-Nominal 625 627	食品
+T66	Person-Nominal 635 637	别人
+T67	Person-Pronoun 641 642	我
+T68	Person-Pronoun 687 688	我
+T69	Person-Nominal 696 698	儿子
+T70	Person-Pronoun 699 700	我
+T71	Person-Pronoun 705 706	我
+T72	Person-Pronoun 711 712	他
+T73	Thing-Nominal 718 721	大米饭
+T74	Thing-Nominal 723 724	菜
+T75	Person-Nominal 743 747	炉台师傅
+T76	Thing-Nominal 750 758	辛辣的东西和香精
+T77	Thing-Nominal 759 761	早餐
+T78	Person-Pronoun 762 764	我们
+T79	Person-Pronoun 777 778	我
+T80	Location-Nominal 781 782;783 788	“ 自助餐”馆
+T81	Thing-Nominal 789 806	白米粥、黑米粥、小米粥、牛奶、豆浆
+T84	Thing-Nominal 817 824	各式糕饼和水果
+T85	Person-Nominal 831 834	你自己
+T86	Person-Pronoun 837 838	我
+T87	Metric 842 847	一
+只碟子
+T89	Organization-Nominal 850 853	中药铺
+T90	Thing-Nominal 854 856	中药
+T91	Thing-Nominal 860 866	最爱吃的食品
+T92	Thing-Nominal 867 869	钳子
+T93	Location-Nominal 871 874	碟子内
+R4	Use Arg1:T86 Arg2:T92	
+T94	Location-Nominal 878 881	座位上
+T95	Location-Nominal 907 910	风景区
+T96	Person-Pronoun 916 918	我们
+T97	Location-Name 919 925	杭州萧山机场
+T98	Thing-Nominal 926 930	民航班机
+T99	Location-Name 932 936	沈阳机场
+T100	Metric 937 942	两个半小时
+T101	Time-Implicit 937 942	两个半小时
+T102	Metric 948 952	800元
+T103	Thing-Nominal 955 959	“高铁”
+T104	Person-Pronoun 963 965	我们
+T105	Location-Nominal 968 975	较为高档的旅馆
+T106	Thing-Nominal 980 984	出租汽车
+T107	Person-Nominal 985 987	向导
+T108	Person-Nominal 988 991	司机员
+T109	Person-Nominal 992 995	当地人
+T110	Person-Pronoun 997 999	我们
+T111	Location-Nominal 999 1005	要去玩的景点
+T112	Person-Pronoun 1012 1014	我们
+T113	Person-Pronoun 1018 1019	他
+*	Coreference T113 T108
+T114	Person-Pronoun 1023 1025	我们
+T115	Person-Nominal 1030 1032	儿子
+T116	Thing-Nominal 1033 1037	数码相机
+T117	Person-Pronoun 1039 1040	我
+T118	Thing-Nominal 1041 1045	“傻瓜”
+T119	Person-Nominal 1046 1048	老伴
+T120	Thing-Nominal 1046 1055	老伴的微型平板电脑
+R7	Part-Whole Arg1:T120 Arg2:T119	
+T121	Metric 1077 1079	三人
+T122	Location-Name 1107 1109	辽宁
+T123	Thing-Nominal 1133 1139	“东北大米”
+T124	Location-Nominal 1128 1143	优质可口的“东北大米”产地之一
+*	Coreference T124 T122
+T125	Location-Nominal 1145 1149	名胜古迹
+T126	Location-Name 1153 1161	满目青葱的棋盘山
+T127	Location-Name 1162 1167;1168 1172	金碧辉煌的 沈阳故宫
+T128	Location-Name 1173 1189	催人泪下的“九・一八”历史博物馆
+T129	Location-Name 1190 1198	喇叭状的旅顺军港
+T130	Location-Name 1200 1210	富有神秘色彩的葫芦岛
+T132	Person-Name 1225 1228;1229 1230	努尔哈 赤
+T133	Person-Name 1231 1234	皇太极
+T134	Time-Implicit 1234 1236	当年
+T135	Thing-Nominal 1237 1241	两轮木车
+T137	Organization-Name 1255 1260	日本侵略军
+T138	Location-Name 1273 1276	旅顺口
+T139	Organization-Name 1285 1289	中国人民
+T140	Person-Nominal 1304 1306	人们
+T141	Person-Nominal 1344 1346	人们
+T142	Person-Pronoun 1358 1359	我
+T143	Organization-Nominal 1367 1369	祖国
+T144	Organization-Pronoun 1371 1372	你
+*	Coreference T144 T143
+T145	Location-Nominal 1391 1395	大好河山
+T146	Organization-Nominal 1383 1388	坚强的军队
+T147	Time-Explicit 1404 1406	如今
+T148	Location-Name 1407 1411	故都沈阳
+T149	Time-Explicit 1412 1414	如今
+T150	Location-Name 1415 1421	海滨城市大连
+T151	Person-Pronoun 1454 1456	我们
+T152	Location-Name 1462 1476	世界第一大广场的星海港湾广场
+T153	Thing-Nominal 1482 1487	远处的青山
+T154	Location-Nominal 1488 1490	近处
+T155	Location-Nominal 1482 1484	远处
+R8	Located Arg1:T153 Arg2:T155	
+T156	Thing-Nominal 1490 1496	绿油油的草坪
+R9	Located Arg1:T156 Arg2:T154	
+T157	Thing-Nominal 1497 1504	高空的蓝天白云
+T158	Location-Nominal 1497 1499	高空
+R10	Located Arg1:T157 Arg2:T158	
+T159	Thing-Nominal 1505 1515	一幢幢拔地而起的大厦
+T164	Location-Nominal 1548 1552	绳子末端
+T168	Location-Nominal 1571 1579	草坪中间的小道上
+T169	Person-Pronoun 1596 1597	我
+T170	Person-Pronoun 1599 1600	你
+T171	Person-Pronoun 1602 1603	我
+T172	Person-Nominal 1608 1611	老大爷
+*	Coreference T170 T172 T173
+T173	Person-Pronoun 1626 1627	他
+T174	Location-Nominal 1629 1631	他家
+T175	Location-Nominal 1634 1638	广场附近
+R14	Near Arg1:T174 Arg2:T175	
+T176	Thing-Nominal 1645 1646	雨
+T177	Time-Implicit 1647 1651	每天上午
+T178	Person-Nominal 1653 1656	小孙女
+T179	Person-Pronoun 1670 1671	他
+T180	Time-Implicit 1670 1673	他晚年
+T181	Location-Name 1681 1686	海洋水族馆
+T182	Location-Name 1687 1692	海军兵器馆
+T183	Location-Name 1693 1695	大连
+T184	Thing-Nominal 1693 1702	大连的特色旅游产品
+T185	Location-Nominal 1703 1705;1706 1712	五彩 缤纷的水族馆
+T186	Location-Name 1715 1720	渤海湾水域
+T187	Thing-Nominal 1733 1752	兵舰、潜艇、直升飞机、高射炮、鱼雷快艇
+T188	Thing-Nominal 1755 1757	兵器
+T189	Organization-Nominal 1760 1762	我国
+T190	Person-Nominal 1774 1776	观者
+T191	Location-Name 1790 1792	大连
+T192	Location-Nominal 1792 1798	这个海滨城市
+*	Coreference T191 T192
+T193	Location-Name 1807 1810	佟二堡
+T194	Location-Name 1818 1826	佟二堡海宁皮革城
+T195	Location-Name 1827 1830	佟二堡
+*	Coreference T195 T200
+T198	Time-Implicit 1848 1851	4年前
+T199	Location-Name 1851 1858	海宁中国皮革城
+T200	Location-Pronoun 1859 1861	这里
+T201	Location-Pronoun 1873 1878	这个小集镇
+T202	Person-Nominal 1892 1897	我们海宁人
+T203	Location-Name 1903 1911	佟二堡海宁皮革城
+T204	Person-Pronoun 1916 1917	我
+T205	Person-Pronoun 1919 1920	你
+T206	Location-Pronoun 1921 1922	它
+*	Coreference T206 T203
+T207	Location-Name 1923 1927;1928 1931	海宁中国 皮革城
+T208	Location-Pronoun 1935 1936	它
+T209	Location-Name 1951 1958	海宁中国皮革城
+T210	Location-Name 1970 1977	海宁中国皮革城
+T211	Location-Name 1990 1992	海宁
+T212	Thing-Nominal 2000 2005	广袤的平原
+T213	Thing-Nominal 2006 2009	大马路
+T214	Location-Name 2011 2013	吉林
+T215	Location-Name 2014 2017	哈尔滨
+T216	Location-Name 2019 2023	中俄边境
+T217	Person-Nominal 2024 2027	东北人
+T218	Thing-Nominal 2032 2034	皮衣
+T219	Thing-Nominal 2035 2039	貂皮大衣
+T220	Location-Name 2048 2049;2050 2061	高 高耸立的皮革城商务酒店
+T221	Location-Nominal 2063 2067	市场西侧
+R15	Near Arg1:T220 Arg2:T221	
+T222	Location-Nominal 2080 2084	都市宾馆
+T223	Location-Pronoun 2090 2092	当地
+T224	Person-Pronoun 2099 2101	我们
+T225	Person-Pronoun 2123 2125	我们
+T226	Time-Implicit 2131 2135	一天一晚
+T227	Metric 2150 2152	一周
+T228	Time-Implicit 2150 2152	一周
+T229	Person-Pronoun 2156 2157	我
+T230	Person-Nominal 2158 2160	老伴
+T231	Person-Nominal 2172 2174	儿子
+T232	Person-Pronoun 2179 2180	他
+*	Coreference T232 T231
+T233	Person-Pronoun 2183 2185	我们
+T234	Thing-Nominal 2186 2188	门票
+T235	Person-Nominal 2190 2194	“导游”
+T236	Person-Pronoun 2199 2201	我们
+T237	Person-Pronoun 2206 2207	我
+T238	Person-Pronoun 2214 2215	他
+T239	Thing-Nominal 629 634	浓重的香料
+T82	Thing-Nominal 809 814	十多种小菜
+T83	Thing-Nominal 842 843;844 846	一 只碟
+R16	Located Arg1:T91 Arg2:T93	
+T88	Person-Nominal 1077 1079	三人
+R5	Part-Whole Arg1:T118 Arg2:T117	
+T131	Person-Nominal 1219 1224	如织的游人
+T136	Time-Implicit 1245 1252	大清皇朝三百年
+T160	Person-Nominal 1531 1541	一位衣冠楚楚的老大爷
+T161	Thing-Nominal 1543 1547	一条绳子
+T162	Thing-Nominal 1541 1542	手
+R6	Part-Whole Arg1:T162 Arg2:T160	
+R11	Use Arg1:T160 Arg2:T161	
+T163	Thing-Nominal 1554 1565	一只小孙女坐着的小轮椅
+T165	Person-Nominal 1556 1559	小孙女
+R12	Family Arg1:T165 Arg2:T160	
+R13	Located Arg1:T163 Arg2:T164	
+R17	Located Arg1:T163 Arg2:T168	
+R18	Part-Whole Arg1:T187 Arg2:T188	
+T166	Location-Nominal 1833 1845	一个貌不惊人的乡村小集镇
+T167	Location-Nominal 2115 2120	下一个景区

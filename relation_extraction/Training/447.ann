@@ -1,0 +1,55 @@
+T1	Time-Implicit 8 11	每天中
+T2	Time-Implicit 23 26	冬日里
+T3	Person-Nominal 40 41	人
+T4	Thing-Nominal 44 51	一场厚厚的大雪
+T5	Time-Implicit 63 68	今天的下午
+T6	Thing-Nominal 78 79	书
+T7	Thing-Nominal 82 84	太阳
+T8	Person-Nominal 90 92	同事
+T9	Person-Pronoun 117 118	我
+T10	Thing-Nominal 134 135	风
+T11	Person-Pronoun 140 142	我们
+T12	Location-Name 145 147	华山
+T13	Thing-Nominal 161 163	键盘
+T14	Thing-Nominal 170 177	平实唯美的文字
+T15	Person-Pronoun 179 181	我们
+T16	Thing-Nominal 233 235	电脑
+T17	Person-Name 242 245	姚贝娜
+T18	Person-Pronoun 252 253	我
+T19	Person-Pronoun 267 268	我
+T20	Person-Pronoun 277 278	我
+T21	Person-Name 288 290	贝娜
+T22	Person-Pronoun 291 292	我
+T23	Abstract 299 303	《甄传》
+T24	Thing-Nominal 341 348	清雅脱俗的歌词
+T25	Thing-Nominal 333 340	悠长深远的曲调
+T26	Person-Pronoun 364 365	我
+T27	Thing-Nominal 401 407	一缕青丝细雨
+T28	Person-Nominal 416 419	多少人
+T29	Person-Pronoun 435 436	你
+T30	Person-Pronoun 474 476	自己
+T31	Person-Pronoun 480 481	我
+T32	Person-Pronoun 516 518	我们
+T33	Person-Pronoun 532 533	她
+T34	Person-Pronoun 542 543	我
+T35	Person-Pronoun 570 571	我
+T36	Person-Pronoun 590 591	我
+T37	Thing-Nominal 593 595	电脑
+T38	Thing-Nominal 608 610	江山
+T39	Thing-Pronoun 670 671	它
+T40	Thing-Nominal 705 706	云
+T41	Thing-Nominal 697 698	花
+T42	Thing-Pronoun 717 718	她
+T43	Person-Pronoun 755 756	她
+T44	Thing-Nominal 778 783	天空的尽头
+T45	Person-Pronoun 814 816	我们
+T46	Person-Nominal 824 827	每个人
+T47	Thing-Nominal 772 776	整个天空
+*	Coreference T42 T40
+T48	Thing-Pronoun 724 725	她
+R1	Social Arg1:T9 Arg2:T8	
+T49	Time-Implicit 198 205	这短短的一下午
+T50	Person-Pronoun 207 208	我
+T51	Thing-Nominal 216 218	懒腰
+R2	Part-Whole Arg1:T51 Arg2:T50	
+*	Coreference T33 T22

@@ -1,0 +1,222 @@
+T1	Person-Pronoun 26 28	自己
+T2	Thing-Nominal 38 40	门槛
+T3	Person-Nominal 48 52	业务骨干
+*	Coreference T1 T3 T4
+T4	Person-Nominal 55 57	主任
+T5	Location-Nominal 63 65	家里
+T6	Person-Nominal 66 68	孩子
+T7	Person-Nominal 71 77	一名高中学生
+*	Coreference T7 T6
+T8	Person-Nominal 87 89	自己
+R1	Family Arg1:T8 Arg2:T6	
+T9	Thing-Nominal 96 98	肚腩
+T10	Thing-Nominal 103 105	头发
+T11	Person-Nominal 120 121;122 123	自 己
+T12	Person-Nominal 136 138	自己
+T13	Person-Nominal 146 154	二十多岁的小伙子
+*	Coreference T12 T13
+T14	Person-Nominal 176 178	自己
+T15	Person-Nominal 179 181	自己
+T16	Person-Nominal 185 190	一名中年人
+*	Coreference T15 T16
+T17	Person-Nominal 193 195	人们
+T18	Person-Pronoun 243 244	我
+T19	Person-Nominal 286 288	自己
+*	Coreference T19 T18
+T20	Person-Nominal 316 318	自己
+T21	Person-Pronoun 404 406	我们
+T22	Person-Nominal 412 414	过客
+*	Coreference T21 T22
+T23	Person-Pronoun 451 453	我们
+T24	Person-Nominal 473 475	自己
+T25	Person-Nominal 481 489	到过泰山极顶的人
+T26	Location-Name 501 504	探海石
+T27	Person-Nominal 506 509	科学家
+T28	Location-Pronoun 518 519	她
+T29	Person-Nominal 542 558	一批又一批不同身份、不同心情的人
+T30	Person-Pronoun 562 564	我们
+T31	Person-Name 599 602	李叔同
+T32	Person-Nominal 619 621	自己
+T33	Person-Nominal 653 655	自己
+T34	Person-Nominal 687 689	自己
+T35	Person-Nominal 714 716	自己
+T36	Person-Pronoun 729 730	我
+T37	Person-Nominal 735 737	自己
+*	Coreference T36 T37
+T38	Person-Pronoun 765 766	我
+T39	Person-Pronoun 782 783	我
+T40	Person-Nominal 811 813	自己
+T41	Time-Implicit 818 822	近十多年
+T42	Person-Pronoun 823 824	我
+T43	Person-Nominal 846 849	笔杆子
+*	Coreference T42 T43
+T44	Thing-Nominal 851 853	公文
+T45	Organization-Nominal 854 856	机关
+T46	Organization-Nominal 868 870	单位
+T47	Organization-Nominal 840 842	单位
+R2	Ownership Arg1:T42 Arg2:T47	
+T48	Time-Explicit 910 913	18年
+T49	Organization-Nominal 917 921	区教育局
+T50	Organization-Nominal 924 930	区政府研究室
+T51	Organization-Nominal 936 939;940 941	市财政 局
+T52	Person-Pronoun 961 962	我
+T53	Person-Pronoun 915 916	我
+R3	Ownership Arg1:T53 Arg2:T49	
+R4	Ownership Arg1:T53 Arg2:T50	
+R5	Ownership Arg1:T53 Arg2:T51	
+T54	Person-Pronoun 971 972	我
+T55	Person-Nominal 976 978	自己
+T56	Organization-Nominal 992 996	财政部门
+T57	Person-Nominal 1011 1015	财政干部
+R6	Ownership Arg1:T57 Arg2:T56	
+T58	Person-Nominal 1027 1029	自己
+T59	Person-Nominal 1034 1036	大家
+R7	Social Arg1:T59 Arg2:T58	
+T60	Person-Nominal 1042 1044	有人
+T61	Person-Pronoun 1046 1048	我们
+T62	Thing-Nominal 1052 1054	文件
+T63	Person-Pronoun 1062 1063	我
+T64	Person-Nominal 1082 1084	有人
+T65	Person-Pronoun 1101 1102	我
+T66	Person-Nominal 1135 1137	自己
+T67	Thing-Nominal 1146 1148	电脑
+T68	Thing-Nominal 1139 1141	钉子
+T69	Person-Nominal 1159 1161	自己
+T70	Person-Nominal 1167 1169	别人
+T71	Person-Nominal 1174 1176	自己
+T72	Person-Nominal 1185 1187	别人
+T73	Person-Nominal 1236 1240	识字的人
+T74	Person-Nominal 1245 1247	别人
+T75	Person-Nominal 1286 1288	自己
+T76	Thing-Nominal 1322 1323	饭
+T77	Organization-Nominal 1391 1393	省里
+T78	Person-Nominal 1405 1407	领导
+T79	Person-Nominal 1408 1411	同志们
+T80	Thing-Nominal 1421 1426	国家级报刊
+T81	Person-Nominal 1444 1447	中年人
+T82	Person-Nominal 1456 1458	有人
+T83	Thing-Nominal 1460 1461	酒
+T84	Person-Nominal 1464 1466	有人
+T85	Thing-Nominal 1468 1469	鱼
+T86	Thing-Nominal 1470 1471	棋
+T87	Person-Nominal 1472 1474	有人
+T88	Thing-Nominal 1476 1477	花
+T89	Thing-Nominal 1478 1479	画
+*	Coreference T82 T81 T84 T87 T90 T92
+T90	Person-Pronoun 1491 1492	我
+T91	Thing-Nominal 1497 1498	酒
+T92	Person-Nominal 1502 1506	写材料人
+T93	Thing-Nominal 1510 1511	烟
+T94	Thing-Nominal 1524 1525	书
+T95	Person-Pronoun 1532 1533	我
+T96	Thing-Nominal 1539 1541	书籍
+T97	Person-Pronoun 1545 1546	我
+T98	Person-Nominal 1549 1551	伴侣
+T99	Thing-Nominal 1569 1577	一本自己喜欢的书
+T100	Person-Pronoun 1619 1620	我
+T101	Thing-Nominal 1631 1633	书本
+T102	Thing-Nominal 1642 1644	书报
+T103	Organization-Nominal 1645 1647	单位
+T104	Thing-Nominal 1650 1654	业务报刊
+T105	Person-Pronoun 1681 1682	我
+T107	Time-Implicit 1686 1688	每周
+T108	Location-Nominal 1691 1694	图书馆
+T109	Location-Nominal 1695 1697	书店
+T110	Thing-Nominal 1705 1713	一本本精美的图书
+T111	Person-Nominal 1731 1733	自己
+T112	Thing-Nominal 1736 1738	书籍
+T113	Person-Nominal 1766 1768	自己
+T114	Person-Pronoun 1783 1784	我
+*	Coreference T114 T113
+T115	Person-Pronoun 1797 1798	我
+T116	Person-Nominal 1809 1811	自己
+T117	Person-Nominal 1817 1819	自己
+T118	Person-Nominal 1824 1826	自己
+T119	Person-Nominal 1843 1848	自己的孩子
+R8	Family Arg1:T115 Arg2:T119	
+T120	Thing-Nominal 1865 1866	人
+T121	Person-Nominal 1870 1872	自己
+T122	Person-Nominal 1880 1882	老人
+T123	Person-Nominal 1886 1891	自己的父母
+T124	Person-Nominal 1892 1894	岳父
+T125	Person-Nominal 1895 1897	岳母
+*	Coreference T123 T122 T125 T124
+R9	Family Arg1:T121 Arg2:T123	
+R10	Family Arg1:T121 Arg2:T124	
+R11	Family Arg1:T121 Arg2:T125	
+T126	Person-Pronoun 1903 1905	我们
+T127	Person-Nominal 1913 1915	老人
+T128	Person-Nominal 1927 1929	老人
+T129	Person-Nominal 1938 1940	老人
+T130	Person-Nominal 1955 1957	老人
+T131	Person-Nominal 1981 1984	一家人
+T132	Thing-Nominal 1993 1995	大树
+T133	Person-Nominal 1996 1998	父母
+T134	Thing-Nominal 2004 2006	树干
+T135	Thing-Nominal 2007 2009	树根
+T136	Person-Pronoun 2010 2012	我们
+T137	Person-Nominal 2022 2024	老人
+T138	Person-Pronoun 2028 2030	我们
+T139	Person-Nominal 2050 2052	老人
+T140	Person-Pronoun 2062 2064	我们
+T141	Thing-Nominal 2065 2067	血液
+T142	Thing-Nominal 2072 2074	身体
+R12	Located Arg1:T141 Arg2:T142	
+T143	Person-Nominal 2084 2086	孩子
+T144	Person-Nominal 2091 2093	孩子
+T145	Person-Pronoun 2096 2098	我们
+T146	Thing-Nominal 2105 2107	树干
+T147	Person-Pronoun 2109 2111	他们
+*	Coreference T143 T147
+T148	Person-Pronoun 2113 2115	我们
+R13	Family Arg1:T147 Arg2:T148	
+T149	Person-Pronoun 2124 2126	我们
+T150	Person-Nominal 2165 2168	老人们
+T151	Person-Pronoun 2180 2182	我们
+T152	Person-Pronoun 2188 2190	我们
+T153	Person-Pronoun 2193 2195	我们
+T154	Person-Nominal 2203 2205	老人
+T155	Location-Nominal 2206 2208	天堂
+T156	Person-Pronoun 2210 2212	我们
+R14	Family Arg1:T156 Arg2:T154	
+T157	Person-Nominal 2335 2337	少年
+T158	Person-Nominal 2404 2406	自己
+T159	Person-Nominal 2415 2417	自己
+T160	Organization-Nominal 42 44	单位
+R15	Ownership Arg1:T1 Arg2:T160	
+*	Coreference T65 T66
+R16	Social Arg1:T69 Arg2:T70	
+R17	Social Arg1:T71 Arg2:T72	
+R18	Located Arg1:T110 Arg2:T109	
+R19	Located Arg1:T110 Arg2:T108	
+*	Coreference T112 T110
+T106	Person-Nominal 2380 2382	自己
+T161	Thing-Nominal 3 5	天地
+T162	Thing-Nominal 9 11	白驹
+T163	Thing-Nominal 248 249	眼
+T164	Time-Implicit 282 285	有一天
+T165	Person-Nominal 374 376	今人
+T166	Time-Implicit 378 380	古时
+T167	Thing-Nominal 380 381	月
+T168	Time-Implicit 382 383	今
+T169	Thing-Nominal 383 384	月
+T170	Person-Nominal 387 389	古人
+T171	Thing-Nominal 400 402	长河
+T172	Thing-Nominal 433 434	水
+*	Coreference T23 T24
+T173	Time-Explicit 512 517	26亿多年
+*	Coreference T28 T26
+T174	Time-Implicit 573 575	百年
+T175	Time-Implicit 723 728	夜深人静时
+T176	Person-Nominal 801 803	大家
+*	Coreference T40 T39
+T177	Time-Implicit 933 935	目前
+T178	Thing-Nominal 985 987	铅字
+T179	Time-Implicit 1131 1135	上班时间
+T180	Person-Nominal 1207 1209	仁者
+T181	Person-Nominal 1212 1214	智者
+T182	Thing-Nominal 2339 2340	花
+T183	Thing-Nominal 2348 2349	花
+T184	Thing-Nominal 2350 2351	枝
+R20	Located Arg1:T183 Arg2:T184	
+T185	Time-Implicit 2396 2398	今天

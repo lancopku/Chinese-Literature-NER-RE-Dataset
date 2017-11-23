@@ -1,0 +1,223 @@
+T1	Thing-Nominal 0 3	一座山
+T2	Metric 0 2	一座
+T3	Person-Pronoun 4 5	我
+T4	Location-Nominal 18 20	家乡
+T5	Location-Name 21 24	大尖山
+T6	Location-Pronoun 32 33	它
+*	Coreference T6 T5 T20
+T7	Thing-Nominal 38 40	泥巴
+T8	Organization-Nominal 52 54	村校
+T9	Metric 59 64	三十个年头
+T10	Person-Pronoun 65 66	我
+T11	Thing-Nominal 72 73	山
+T12	Person-Nominal 81 83	记者
+T13	Person-Nominal 86 88	干部
+T14	Location-Pronoun 94 95	它
+T15	Location-Pronoun 103 104	它
+T16	Person-Pronoun 108 109	我
+T17	Location-Pronoun 111 112	它
+T18	Metric 113 116	几十年
+T19	Person-Pronoun 119 120	我
+T20	Location-Nominal 128 131	这座山
+R1	General-Special Arg1:T12 Arg2:T16	
+R2	General-Special Arg1:T13 Arg2:T16	
+T21	Location-Name 133 136	大尖山
+T22	Person-Pronoun 137 138	我
+T23	Thing-Nominal 143 145	草莓
+T24	Thing-Nominal 147 149	野果
+T25	Thing-Nominal 151 153	野菜
+T26	Location-Nominal 154 157	山坡上
+R3	Located Arg1:T23 Arg2:T26	
+R4	Located Arg1:T25 Arg2:T26	
+R5	Located Arg1:T24 Arg2:T26	
+T27	Thing-Nominal 165 167	羊儿
+T28	Location-Nominal 169 171	山顶
+T29	Location-Nominal 173 176	沟壑里
+T30	Thing-Nominal 179 186	清粼粼的山泉水
+R6	Located Arg1:T30 Arg2:T29	
+T31	Location-Nominal 188 191	树林间
+T32	Thing-Nominal 195 199	声声鸟语
+T33	Location-Nominal 201 204	小路旁
+T34	Thing-Nominal 207 212	烂漫的山花
+R7	Located Arg1:T34 Arg2:T33	
+T35	Person-Nominal 215 217	朋友
+R8	Social Arg1:T35 Arg2:T19	
+T36	Person-Nominal 220 222	游人
+T37	Thing-Nominal 233 248	大山之外辽远的天空、连绵的群山
+T38	Location-Nominal 233 237	大山之外
+R9	Located Arg1:T37 Arg2:T38	
+T39	Person-Pronoun 250 251	我
+T40	Person-Pronoun 253 254	你
+T41	Thing-Nominal 261 278	沟壑、泉水、飞鸟、树木、花草、烟云
+T42	Thing-Nominal 315 316	山
+T43	Thing-Nominal 321 322	山
+T44	Thing-Nominal 324 325	山
+T45	Time-Implicit 325 329	春夏秋冬
+T46	Thing-Nominal 334 338	春天的山
+R10	General-Special Arg1:T43 Arg2:T46	
+T47	Thing-Nominal 339 341	小草
+R11	Located Arg1:T47 Arg2:T46	
+T48	Thing-Nominal 350 357	星星点点的小花
+R12	Located Arg1:T48 Arg2:T46	
+T49	Thing-Nominal 369 372;373 374	夏天的 山
+R13	General-Special Arg1:T43 Arg2:T49	
+T50	Thing-Nominal 375 377	树木
+R14	Located Arg1:T50 Arg2:T49	
+T51	Thing-Nominal 383 390	飘飘渺渺的山岚
+T52	Thing-Nominal 397 401	秋天的山
+R15	General-Special Arg1:T44 Arg2:T52	
+T53	Thing-Nominal 407 414	斑斓多彩的画卷
+T54	Thing-Nominal 416 420	冬天的山
+R16	General-Special Arg1:T44 Arg2:T54	
+T55	Thing-Nominal 421 425	皑皑白雪
+T56	Thing-Nominal 426 433	冰肌玉洁的身姿
+T57	Thing-Nominal 438 439	山
+T58	Person-Nominal 445 446	人
+T59	Person-Pronoun 478 479	我
+T60	Person-Name 487 489	庄子
+T61	Thing-Nominal 494 496	天地
+T62	Person-Pronoun 498 499	我
+T63	Thing-Nominal 503 505	万物
+T64	Person-Pronoun 506 507	我
+T65	Time-Implicit 515 517	儿时
+T66	Thing-Nominal 523 525	羊儿
+T67	Person-Pronoun 532 533	我
+T68	Person-Nominal 534 537	伙伴们
+R17	Social Arg1:T68 Arg2:T67	
+T69	Location-Nominal 539 546	软绵绵的草地山
+T70	Thing-Nominal 549 558	天空飘来荡去的云朵
+T71	Thing-Nominal 549 551	天空
+R18	Located Arg1:T70 Arg2:T71	
+T72	Thing-Nominal 564 568	那一朵云
+T73	Metric 565 567	一朵
+T74	Thing-Nominal 569 571	狮子
+T75	Thing-Nominal 574 576	老虎
+T76	Thing-Nominal 578 580	奔马
+T77	Thing-Nominal 582 584	鬣狗
+T78	Location-Nominal 602 605	草地上
+T79	Location-Nominal 618 621	草地上
+T80	Thing-Nominal 626 628	天空
+T81	Thing-Nominal 629 630	云
+T82	Thing-Nominal 642 643	风
+T83	Thing-Nominal 664 665	云
+T84	Thing-Nominal 678 679	云
+T85	Thing-Nominal 687 688	云
+T86	Person-Nominal 711 713	文人
+T87	Thing-Nominal 713 719;720 721	钦羡吟咏的对 象
+R19	General-Special Arg1:T87 Arg2:T85	
+T88	Person-Name 722 725	陶渊明
+T89	Thing-Name 726 732	《归去来兮》
+R20	Create Arg1:T88 Arg2:T89	
+T90	Thing-Nominal 734 735	云
+T91	Thing-Nominal 741 742	鸟
+T92	Thing-Nominal 748 749	云
+T93	Person-Nominal 773 775	诗人
+T94	Person-Nominal 782 784	我辈
+T95	Thing-Nominal 789 791	云朵
+T96	Person-Nominal 798 802	凡俗之人
+T97	Location-Nominal 806 808	尘世
+T98	Person-Nominal 810 812	诗人
+T99	Person-Name 832 835	陶渊明
+T100	Time-Implicit 836 838	黄昏
+T101	Thing-Nominal 844 846	寒风
+T102	Thing-Nominal 844 850	寒风中的秋菊
+T103	Thing-Nominal 851 857	冰雪中的青松
+T104	Thing-Nominal 851 853	冰雪
+T105	Thing-Nominal 858 864	天空中的孤云
+T106	Thing-Nominal 858 860	天空
+R21	Located Arg1:T102 Arg2:T101	
+R22	Located Arg1:T103 Arg2:T104	
+R23	Located Arg1:T105 Arg2:T106	
+T107	Person-Name 889 892	苏东坡
+T108	Thing-Name 894 902	《行香子・述怀》
+R24	Create Arg1:T107 Arg2:T108	
+T109	Person-Pronoun 906 907	他
+*	Coreference T109 T107
+T110	Person-Nominal 920 922	闲人
+T111	Thing-Nominal 924 927	一张琴
+T112	Thing-Nominal 928 931	一壶酒
+T113	Thing-Nominal 932 935	一溪云
+T114	Person-Name 941 944	陶渊明
+T115	Person-Name 945 948	苏东坡
+T116	Thing-Nominal 941 952	陶渊明、苏东坡这些诗文
+T117	Person-Pronoun 957 958	我
+T118	Time-Implicit 959 966	闲暇无聊的时候
+T119	Thing-Nominal 975 977	天空
+T120	Thing-Nominal 981 988	奥妙无穷的天书
+T121	Thing-Nominal 991 993	云朵
+T122	Thing-Nominal 999 1003	悠悠白云
+T123	Person-Pronoun 1065 1066	我
+T124	Person-Name 1065 1072	我的学兄宗先生
+R25	Social Arg1:T123 Arg2:T124	
+T125	Person-Nominal 1079 1080	人
+T126	Person-Name 1084 1091	好听雨南窗主人
+*	Coreference T126 T124 T127
+T127	Person-Pronoun 1107 1108	他
+T128	Thing-Nominal 1095 1104	《听雨南窗》诗词集
+T129	Thing-Nominal 1107 1111	他的作品
+R26	Create Arg1:T127 Arg2:T129	
+R27	Part-Whole Arg1:T128 Arg2:T129	
+T130	Thing-Nominal 1115 1122	写雨的那些篇章
+R28	Part-Whole Arg1:T130 Arg2:T129	
+T131	Person-Pronoun 1126 1127	我
+T132	Thing-Nominal 1131 1138	写雨的那些句子
+R29	Part-Whole Arg1:T132 Arg2:T130	
+T133	Person-Pronoun 1142 1143	我
+T134	Person-Name 1144 1150	无锡人顾宪成
+T135	Thing-Nominal 1155 1162	风声雨声读书声
+T136	Thing-Nominal 1168 1175	家事国事天下事
+T137	Thing-Nominal 1192 1196	风声雨声
+T138	Person-Name 1202 1205	顾宪成
+*	Coreference T138 T134
+T139	Person-Name 1227 1234	如听雨南窗主人
+T140	Location-Nominal 1245 1247	家乡
+T141	Thing-Nominal 1258 1259	雨
+T142	Person-Nominal 1264 1271	祖祖辈辈庄稼人
+T143	Location-Nominal 1281 1292	我们那个靠天吃饭的山村
+T144	Person-Pronoun 1281 1283	我们
+*	Coreference T143 T140
+T145	Thing-Nominal 1297 1299	春雨
+T146	Thing-Nominal 1301 1302	油
+T147	Thing-Nominal 1303 1310	一年四季的雨水
+T148	Time-Implicit 1303 1307	一年四季
+T149	Thing-Nominal 1316 1317;1318 1322	冬 雪、春雨
+T150	Thing-Nominal 1334 1339	夏雨、秋雨
+T151	Thing-Nominal 1342 1346	五谷杂粮
+T152	Thing-Nominal 1350 1352	雨水
+T153	Thing-Nominal 1359 1361	庄稼
+T154	Thing-Nominal 1364 1370	山坡上的野草
+T155	Thing-Nominal 1375 1377	雨水
+T156	Person-Nominal 1380 1382	上苍
+T157	Person-Nominal 1384 1385	人
+T158	Thing-Nominal 1388 1390	庄稼
+T159	Thing-Nominal 1386 1393	养育庄稼的奶汁
+T160	Thing-Nominal 1394 1399	土地的血脉
+*	Coreference T159 T155 T160
+T161	Thing-Nominal 1401 1403	空气
+T162	Thing-Nominal 1409 1410	风
+T163	Thing-Nominal 1411 1412	风
+T164	Thing-Nominal 1418 1423	天空的云雨
+T165	Person-Nominal 1424 1427	庄稼人
+*	Coreference T165 T142
+T166	Thing-Nominal 1433 1435	土地
+T167	Person-Pronoun 1445 1446	我
+T168	Person-Nominal 1447 1452	农民的子弟
+R30	General-Special Arg1:T168 Arg2:T167	
+T169	Person-Nominal 1459 1461;1462 1463	庄稼 人
+T170	Thing-Nominal 1472 1476	风声雨声
+T171	Thing-Nominal 1483 1487	窗外风声
+T172	Thing-Nominal 1491 1492	风
+T173	Thing-Nominal 1493 1494	雨
+T174	Thing-Nominal 1498 1499	风
+T175	Thing-Nominal 1500 1501	雨
+T176	Thing-Nominal 1504 1508	疾风暴雨
+T177	Thing-Nominal 1510 1514	清风细雨
+T178	Thing-Nominal 1517 1518	诗
+T179	Person-Pronoun 1533 1534	我
+T180	Thing-Name 1535 1546	《一个雨夜的思想片段》
+R31	Create Arg1:T179 Arg2:T180	
+T181	Time-Implicit 1554 1556	雨夜
+T182	Thing-Nominal 1557 1559	市声
+T183	Thing-Nominal 1570 1572	香烟
+T184	Thing-Nominal 1580 1582	隧道
+T185	Thing-Nominal 1586 1588	麦田

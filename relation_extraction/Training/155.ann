@@ -1,0 +1,318 @@
+T1	Time-Explicit 0 5	11月8日
+T2	Person-Pronoun 6 7	我
+T3	Thing-Nominal 11 23	淄川东南部的太河镇涌泉村
+T4	Location-Name 11 16	淄川东南部
+R1	Located Arg1:T3 Arg2:T4	
+T5	Location-Pronoun 24 26	这里
+*	Coreference T5 T4
+T6	Thing-Nominal 27 35	绵亘千年的齐长城
+R2	Located Arg1:T6 Arg2:T4	
+T7	Thing-Nominal 38 55	电视连续剧《马向阳下乡记》的拍摄地
+T8	Abstract 43 51	《马向阳下乡记》
+T9	Location-Nominal 56 60;61 63	山乡的坡 野上
+T10	Thing-Nominal 63 74	最多也最高大醒目的树木
+T11	Thing-Nominal 75 78	柿子树
+R3	Located Arg1:T11 Arg2:T9	
+T12	Time-Implicit 84 86	初冬
+T13	Location-Nominal 89 91	满树
+T14	Thing-Nominal 93 98	红红的柿子
+R4	Located Arg1:T14 Arg2:T13	
+T15	Thing-Nominal 104 108	万家灯火
+T16	Person-Nominal 110 111	人
+T17	Thing-Nominal 116 118	树叶
+T18	Person-Pronoun 125 126	我
+T19	Time-Implicit 130 134	数十年来
+T20	Person-Pronoun 137 138	我
+T21	Thing-Nominal 141 150	那满目飘飞的柿子叶
+T22	Person-Name 152 155	宋祖英
+T23	Abstract 162 167	《小背篓》
+T24	Thing-Nominal 170 173	小背篓
+T25	Person-Nominal 180 182	妈妈
+T26	Person-Pronoun 183 184	我
+R5	Family Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 187 190	吊脚楼
+T28	Person-Pronoun 194 195	我
+T29	Location-Nominal 200 202	山区
+T30	Location-Nominal 203 208	高堰悬崖上
+T31	Thing-Nominal 209 212;213 214	茅檐草 舍
+R6	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 216 219	吊脚楼
+T33	Person-Pronoun 223 225	我们
+T34	Location-Pronoun 225 227	这里
+T35	Thing-Nominal 230 232	背篓
+T36	Person-Nominal 233 235	孩子
+T37	Person-Pronoun 242 243	我
+T38	Thing-Nominal 250 254	妈妈的背
+T39	Person-Nominal 250 252	妈妈
+R7	Part-Whole Arg1:T38 Arg2:T39	
+T40	Location-Nominal 262 265	背篓里
+T41	Metric 271 273	多年
+T42	Thing-Nominal 277 279	脚丫
+T43	Location-Nominal 287 290	背篓里
+T44	Person-Pronoun 297 299	自己
+T45	Thing-Nominal 301 303	背篓
+T46	Time-Implicit 297 306	自己背起背篓走之后
+T47	Person-Pronoun 310 312	我们
+T48	Location-Pronoun 312 314	这里
+T49	Thing-Nominal 315 318	那篓子
+T50	Thing-Nominal 320 322	背篓
+T51	Thing-Nominal 325 327	花篓
+T52	Thing-Pronoun 330 331	它
+*	Coreference T52 T51
+T53	Thing-Pronoun 347 348	它
+T54	Thing-Nominal 350 365	柔韧匀称并有深红颜色的野生枝条
+T55	Thing-Nominal 368 372	细密花纹
+T56	Thing-Nominal 373 377	菱形花格
+T57	Person-Pronoun 400 401	我
+T58	Time-Explicit 404 411	1960年代初
+T59	Time-Implicit 423 428	特殊的年代
+T60	Location-Name 414 416	中国
+T61	Person-Nominal 429 430	人
+T62	Thing-Nominal 446 448	肚子
+T63	Person-Nominal 454 457	现在人
+T64	Person-Nominal 465 467	孩子
+T65	Person-Pronoun 468 469	我
+T66	Person-Nominal 469 471	母亲
+T67	Thing-Nominal 472 473	磨
+T68	Person-Pronoun 476 477	我
+T69	Location-Nominal 479 484	一个花篓里
+T70	Thing-Nominal 488 491	细绳子
+T71	Thing-Nominal 493 498	一只老母鸡
+T72	Person-Pronoun 499 500	我
+T73	Thing-Nominal 504 508	一盆煎饼
+T74	Thing-Nominal 511 517	老母鸡的羽毛
+T75	Thing-Nominal 511 514	老母鸡
+R8	Part-Whole Arg1:T74 Arg2:T75	
+T76	Thing-Nominal 548 551	老母鸡
+T77	Thing-Nominal 556 557	蛋
+T78	Thing-Nominal 564 568	漂亮翎毛
+T79	Person-Pronoun 572 573	我
+T80	Thing-Nominal 577 579	花篓
+T81	Location-Nominal 580 582	坡里
+T82	Thing-Nominal 584 587	柿子叶
+T83	Person-Nominal 595 598	我母亲
+T84	Person-Pronoun 595 596	我
+R9	Family Arg1:T84 Arg2:T83	
+T85	Person-Pronoun 599 600	我
+T86	Person-Pronoun 616 617	我
+T87	Thing-Nominal 624 626	花篓
+T88	Time-Implicit 629 632	成年后
+T89	Person-Pronoun 633 634	我
+T90	Time-Implicit 661 663	那时
+T91	Person-Nominal 664 666	爷爷
+T92	Person-Pronoun 672 673	我
+R10	Family Arg1:T92 Arg2:T91	
+T93	Location-Nominal 675 679	小花篓上
+T94	Thing-Nominal 684 691	不粗不细的麻绳
+R11	Located Arg1:T94 Arg2:T93	
+T95	Location-Nominal 697 701	我的肩上
+T96	Person-Pronoun 697 698	我
+T97	Thing-Nominal 703 704;705 708	我 后脑勺
+T98	Person-Pronoun 703 704	我
+R12	Part-Whole Arg1:T97 Arg2:T98	
+T99	Thing-Nominal 719 722	柿子叶
+T100	Thing-Nominal 727 729	羊肉
+T101	Time-Implicit 724 726	年下
+T102	Thing-Nominal 732 733	山
+T103	Thing-Nominal 734 735	山
+T104	Thing-Nominal 736 737	水
+T105	Thing-Nominal 738 739	水
+T106	Person-Pronoun 740 742	我们
+T107	Location-Pronoun 742 744	那里
+T108	Thing-Nominal 745 746	水
+T109	Time-Implicit 747 752	天旱的时候
+T110	Person-Nominal 753 754	人
+T111	Location-Nominal 760 762	井底
+T112	Thing-Nominal 764 765	水
+T113	Thing-Nominal 766 767	山
+T114	Metric 774 776	六年
+T115	Person-Nominal 779 780	人
+T116	Person-Nominal 782 785	我姥姥
+T117	Person-Pronoun 782 783	我
+R13	Family Arg1:T116 Arg2:T117	
+T118	Time-Implicit 787 789	那时
+T119	Person-Pronoun 796 797	我
+T120	Person-Nominal 800 802	姥姥
+T121	Person-Nominal 809 810	人
+T122	Person-Nominal 816 817	人
+T123	Thing-Nominal 818 820	山羊
+T124	Thing-Nominal 822 823	山
+T125	Thing-Nominal 824 825	羊
+T126	Thing-Nominal 827 828	山
+T127	Person-Nominal 830 831	人
+T128	Person-Nominal 833 834	人
+T129	Thing-Nominal 838 839	山
+T130	Thing-Nominal 848 849	羊
+T131	Location-Nominal 842 846	家家户户
+T132	Time-Implicit 854 858	日日月月
+T133	Thing-Nominal 860 861	羊
+T134	Thing-Nominal 863 864	羊
+T135	Thing-Nominal 874 875	粪
+T136	Thing-Nominal 880 881	粪
+T137	Thing-Nominal 886 887	地
+T138	Thing-Nominal 889 890	粪
+T139	Thing-Nominal 900 901	钱
+T140	Thing-Nominal 877 878	钱
+T141	Thing-Nominal 902 904	那羊
+T142	Thing-Nominal 911 913	羊绒
+T143	Thing-Nominal 917 919	羊毛
+T144	Thing-Nominal 922 924	羊皮
+T145	Thing-Nominal 927 929	羊肉
+T146	Thing-Nominal 932 934	羊骨
+T147	Thing-Nominal 941 946	几块大骨头
+T148	Thing-Nominal 959 961	锤子
+T149	Thing-Nominal 964 967	粗麻线
+T150	Thing-Nominal 972 974	羊毛
+T151	Thing-Nominal 976 978	绳子
+T152	Thing-Pronoun 982 983	它
+*	Coreference T152 T148
+T153	Time-Implicit 989 991	年底
+T154	Person-Nominal 992 994	人们
+T155	Thing-Nominal 1002 1004	羊肉
+T156	Thing-Nominal 1012 1013	羊
+T157	Thing-Nominal 1022 1026	三家五家
+T158	Location-Nominal 1037 1039	谁家
+T159	Person-Pronoun 1037 1038	谁
+T160	Thing-Nominal 1039 1043	一只肥羊
+T161	Person-Pronoun 1051 1052	我
+T162	Thing-Nominal 1054 1056	花篓
+T163	Thing-Nominal 1059 1061	筢子
+T164	Location-Nominal 1062 1064	坡里
+T165	Thing-Nominal 1066 1069	柿子叶
+R14	Located Arg1:T165 Arg2:T164	
+T166	Thing-Nominal 1070 1072	天空
+T167	Thing-Nominal 1080 1087	一缕半缕的白云
+T168	Location-Nominal 1091 1096	蓝布大褂上
+T169	Thing-Nominal 1097 1104	一截半截的线头
+T170	Thing-Nominal 1105 1110	成群的乌鸦
+T171	Thing-Nominal 1112 1115	这棵树
+T172	Thing-Nominal 1117 1120	那棵树
+T173	Thing-Nominal 1129 1135	树上的剩柿子
+T174	Location-Nominal 1129 1131	树上
+R15	Located Arg1:T173 Arg2:T174	
+T175	Thing-Nominal 1136 1138	西风
+T176	Thing-Nominal 1144 1148	我的头发
+T177	Person-Pronoun 1144 1145	我
+R16	Part-Whole Arg1:T176 Arg2:T177	
+T178	Person-Pronoun 1149 1150	我
+T179	Thing-Nominal 1151 1157	空着的一只手
+R17	Part-Whole Arg1:T179 Arg2:T178	
+T180	Thing-Nominal 1161 1163	树叶
+T181	Thing-Nominal 1179 1182	柿子叶
+T182	Thing-Nominal 1195 1198	柿子叶
+T183	Thing-Nominal 1199 1202	柿子叶
+T184	Location-Nominal 1204 1206	地上
+R18	Located Arg1:T183 Arg2:T184	
+T185	Location-Nominal 1223 1231	远处的沟渠石缝里
+T186	Person-Pronoun 1232 1233	我
+T187	Thing-Nominal 1241 1243	大堆
+T188	Thing-Nominal 1250 1252	小堆
+T189	Location-Nominal 1264 1267	花篓里
+T190	Location-Nominal 1271 1276	那沟渠石缝
+T191	Location-Nominal 1283 1286	花篓里
+T192	Thing-Nominal 1301 1303	肚子
+T193	Location-Nominal 1307 1317	高起的石头或者堰头上
+T194	Thing-Nominal 1324 1326	肩头
+T195	Location-Nominal 1331 1333	地上
+T196	Thing-Nominal 1334 1336	筢子
+R19	Located Arg1:T196 Arg2:T195	
+T197	Location-Nominal 1337 1338	家
+T198	Thing-Nominal 1344 1346	口哨
+T199	Thing-Nominal 1349 1350	鸟
+T200	Thing-Nominal 1357 1360	一团火
+T201	Thing-Nominal 1363 1366	一头汗
+T202	Time-Implicit 1379 1381	年下
+T203	Thing-Nominal 1385 1387	羊肉
+T204	Thing-Nominal 1389 1391	这羊
+T205	Person-Pronoun 1392 1393	我
+T206	Thing-Nominal 1397 1399	羊肉
+T207	Person-Pronoun 1409 1410	我
+T208	Thing-Nominal 1414 1416	羊肉
+T209	Thing-Nominal 1422 1427	任何涮羊肉
+T210	Thing-Nominal 1430 1438	大块大块的炖全羊
+T211	Time-Implicit 1446 1448	小时
+T212	Thing-Nominal 1448 1454	培养的蛋白酶
+T213	Time-Implicit 1455 1457	那时
+T214	Person-Nominal 1468 1470	父亲
+T215	Thing-Nominal 1474 1476	羊肉
+T216	Location-Nominal 1478 1479	家
+T217	Person-Nominal 1480 1482	奶奶
+T218	Thing-Nominal 1486 1488	大料
+T219	Thing-Nominal 1491 1494	火炉子
+T220	Location-Nominal 1496 1499	炕沿前
+R20	Located Arg1:T219 Arg2:T220	
+T221	Person-Pronoun 1500 1501	我
+T222	Location-Nominal 1503 1505	炕上
+T223	Thing-Nominal 1507 1508	肉
+T224	Thing-Nominal 1525 1530	自己的舌头
+T225	Person-Pronoun 1525 1527	自己
+R21	Part-Whole Arg1:T224 Arg2:T225	
+T226	Thing-Nominal 1533 1535	羊肉
+T227	Thing-Nominal 1551 1552	锅
+T228	Person-Nominal 1554 1556	父亲
+T229	Thing-Nominal 1557 1559	筷子
+T230	Person-Nominal 1567 1569	爷爷
+T231	Thing-Nominal 1570 1572	酒肴
+T232	Person-Nominal 1573 1575	爷爷
+T233	Person-Pronoun 1590 1591	我
+T234	Person-Nominal 1592 1596	弟弟妹妹
+R22	Family Arg1:T234 Arg2:T233	
+R23	Family Arg1:T233 Arg2:T232	
+R24	Use Arg1:T228 Arg2:T229	
+T235	Person-Nominal 1600 1602	一人
+T236	Person-Pronoun 1606 1608	我们
+T237	Person-Nominal 1610 1612	父亲
+T238	Thing-Nominal 1615 1619	半截肠子
+T239	Person-Nominal 1621 1623	奶奶
+T240	Person-Nominal 1624 1626	母亲
+T241	Person-Nominal 1635 1637	母亲
+T242	Thing-Nominal 1641 1648	几个大白菜叶子
+T243	Location-Nominal 1653 1655	锅里
+R25	Located Arg1:T242 Arg2:T243	
+T244	Thing-Nominal 1657 1659	肉汤
+T245	Thing-Nominal 1662 1666	这顿晚饭
+T246	Thing-Nominal 1684 1687	柿子叶
+T247	Location-Nominal 1689 1690	家
+T248	Location-Nominal 1692 1694	地上
+R26	Located Arg1:T246 Arg2:T248	
+T249	Location-Nominal 1701 1708	屋头的小棚子里
+T250	Thing-Nominal 1709 1713	这间棚子
+T251	Metric 1716 1719	两三米
+T252	Metric 1720 1722	一米
+T253	Person-Pronoun 1738 1739	我
+T254	Thing-Nominal 1740 1743	柿子叶
+T255	Thing-Nominal 1761 1766	黑黑的树枝
+T256	Thing-Pronoun 1771 1772	它
+*	Coreference T256 T250
+T257	Location-Nominal 1784 1786	里边
+T258	Thing-Nominal 1789 1792	黄鼠狼
+T259	Person-Nominal 1792 1796	老邻舍家
+T260	Person-Nominal 1797 1799	奶奶
+T261	Thing-Nominal 1800 1805	煮好的羊肉
+T262	Location-Nominal 1808 1812	粮食瓮里
+R27	Located Arg1:T261 Arg2:T262	
+T263	Thing-Nominal 1814 1816	篦子
+T264	Thing-Nominal 1821 1822	菜
+T265	Person-Nominal 1823 1824	客
+T266	Thing-Nominal 1830 1831	肉
+T267	Thing-Nominal 1840 1847	任何道业的老鼠
+T268	Thing-Nominal 1855 1856	肉
+T269	Thing-Nominal 1862 1865	那锅汤
+T270	Time-Implicit 1875 1878	年底下
+T271	Location-Nominal 1881 1884	肉汤上
+T272	Thing-Nominal 1886 1895	一层薄薄硬硬的白油
+R28	Located Arg1:T272 Arg2:T271	
+T273	Person-Pronoun 1896 1897	我
+T274	Location-Nominal 1904 1906	嘴里
+T275	Thing-Nominal 1923 1926	热煎饼
+T276	Thing-Nominal 1930 1932	红糖
+T277	Metric 1934 1936	十倍
+T278	Person-Nominal 1937 1939	母亲
+T279	Thing-Nominal 1943 1945	羊油
+T280	Time-Implicit 1952 1954	明年
+T281	Person-Pronoun 1955 1956	你
+T282	Person-Nominal 1956 1958	爷爷
+R29	Family Arg1:T282 Arg2:T281	
+T283	Thing-Nominal 1960 1963	大花篓
+T284	Thing-Nominal 1967 1970	柿子叶
+T285	Thing-Nominal 1971 1972	羊

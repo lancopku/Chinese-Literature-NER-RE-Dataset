@@ -1,0 +1,335 @@
+T1	Person-Nominal 18 21	回族人
+T2	Person-Nominal 44 48	土尔扈特
+T3	Person-Nominal 49 55	和硕特蒙古人
+T4	Thing-Nominal 94 95	塔
+T5	Time-Implicit 104 107	几十年
+T6	Person-Name 132 135	洪永祥
+T7	Person-Nominal 143 148	史志工作者
+T8	Person-Nominal 149 156	土生土长的作家
+*	Coreference T6 T7 T8 T9 T11
+T9	Person-Pronoun 157 158	他
+T10	Time-Implicit 158 161	几十年
+T11	Person-Nominal 183 189;190 197	县里史志和文 联的切实顾问者
+T12	Person-Pronoun 198 199	他
+T13	Location-Name 202 215	焉耆县一个村子叫“八棵树”
+T14	Thing-Nominal 224 226	榆树
+T15	Thing-Nominal 256 257	龙
+T16	Person-Name 268 271	洪永祥
+T17	Person-Pronoun 284 285	他
+*	Coreference T16 T17
+T18	Time-Implicit 308 310	夏日
+T19	Person-Pronoun 312 313	我
+T20	Thing-Nominal 317 319	拐杖
+T21	Person-Name 320 323	洪永祥
+T22	Location-Name 325 329	八棵树村
+T23	Thing-Nominal 340 342	古榆
+T24	Person-Nominal 353 356	本地人
+T25	Person-Nominal 361 364	外地人
+T26	Person-Pronoun 370 371	我
+T27	Person-Name 382 385	洪永祥
+T28	Thing-Nominal 394 396	古榆
+T29	Person-Nominal 405 407	母亲
+T30	Person-Name 412 427	远在伊犁任报社总编的父亲马俊德
+R1	Family Arg1:T30 Arg2:T29	
+T31	Person-Pronoun 432 433	他
+R2	Family Arg1:T30 Arg2:T31	
+R3	Family Arg1:T31 Arg2:T29	
+T32	Person-Name 438 444	外祖父洪长福
+R4	Family Arg1:T31 Arg2:T32	
+T33	Location-Nominal 463 465	麦场
+T34	Location-Nominal 468 474	麦场旁的家舍
+R5	Near Arg1:T34 Arg2:T33	
+T35	Person-Nominal 480 483	外祖父
+T36	Person-Pronoun 487 488	他
+R6	Family Arg1:T36 Arg2:T35	
+T37	Location-Name 489 491	焉耆
+T38	Person-Nominal 493 498	和静的朋友
+R7	Social Arg1:T35 Arg2:T38	
+T39	Person-Pronoun 499 500	他
+T40	Location-Name 504 506	和静
+T41	Person-Pronoun 540 541	他
+T42	Location-Name 549 551	和静
+T43	Person-Pronoun 555 556	他
+T44	Person-Pronoun 565 566	他
+T45	Location-Name 576 578	和静
+T46	Person-Name 579 582	洪长福
+T47	Person-Name 585 590	蒙古人达瓦
+T48	Thing-Nominal 596 599	红柳枝
+T49	Thing-Nominal 601 606	蒙古包架子
+T50	Person-Name 617 620	洪长福
+T51	Person-Nominal 625 628	蒙族人
+T52	Person-Nominal 629 632	维族人
+T53	Person-Pronoun 634 635	他
+T54	Person-Nominal 637 640	洪爷爷
+T55	Person-Name 646 649	洪永祥
+T56	Person-Nominal 653 656	爷爷”
+*	Coreference T53 T54 T50
+T57	Time-Explicit 662 666	六岁那年
+T58	Person-Name 667 670	洪永祥
+T59	Person-Nominal 671 673	爷爷
+R8	Family Arg1:T56 Arg2:T55	
+T60	Location-Nominal 674 677	达瓦家
+T61	Person-Nominal 680 686	一位年轻女子
+T62	Location-Nominal 688 693	蒙古包门外
+T63	Person-Nominal 698 700	爷爷
+T64	Person-Pronoun 704 705	她
+*	Coreference T64 T61
+T65	Person-Nominal 709 711	爷爷
+T66	Person-Pronoun 713 714	他
+T67	Person-Nominal 715 718	蒙古人
+T68	Location-Name 719 722	红苗子
+T69	Person-Nominal 743 745	女儿
+T70	Person-Nominal 802 804	爷爷
+T71	Person-Nominal 813 818	蒙古族朋友
+R9	Social Arg1:T70 Arg2:T71	
+T72	Person-Name 826 838	在巴仑台黄庙干杂活的巴生
+R10	Part-Whole Arg1:T72 Arg2:T71	
+R11	Social Arg1:T72 Arg2:T70	
+T73	Time-Explicit 839 845	洪永祥七岁时
+T74	Person-Nominal 846 848	爷爷
+T75	Person-Pronoun 849 850	他
+T76	Thing-Nominal 851 852	驴
+R12	Use Arg1:T74 Arg2:T76	
+T77	Location-Name 853 855	黄庙
+T78	Person-Nominal 861 862;863 864	喇 嘛
+T79	Person-Pronoun 880 881	他
+T80	Thing-Nominal 883 889	红绳儿护身符
+T81	Time-Explicit 890 892	那晚
+T82	Person-Pronoun 893 894	他
+T83	Person-Nominal 895 897	爷爷
+T84	Location-Nominal 900 903	巴生家
+T85	Thing-Nominal 904 907	蒙古包
+R13	Located Arg1:T85 Arg2:T84	
+T86	Thing-Nominal 908 910	卡盆
+T87	Thing-Nominal 914 916	羊肉
+T88	Thing-Nominal 917 920	皮袋子
+T89	Thing-Nominal 922 923;924 925	奶 酒
+R14	Located Arg1:T87 Arg2:T86	
+R15	Located Arg1:T89 Arg2:T88	
+T90	Person-Nominal 926 928	爷爷
+T91	Person-Name 929 931	巴生
+T92	Person-Name 942 944	巴生
+T94	Person-Nominal 954 956	爷爷
+T95	Thing-Nominal 960 962	奶酒
+T96	Person-Nominal 963 965	爷爷
+T97	Person-Nominal 968 971	蒙古人
+T93	Person-Nominal 948 950	回人
+T98	Person-Name 975 977	巴生
+T99	Thing-Nominal 981 983	奶酒
+T100	Person-Nominal 985 987	俩人
+T101	Person-Name 995 997	巴生
+T102	Person-Nominal 998 1000	爷爷
+T103	Person-Name 1001 1005	洪木沙子
+T104	Person-Nominal 1010 1013	洪兄弟
+*	Coreference T102 T103 T104
+T105	Person-Nominal 1015 1017	爷爷
+T106	Person-Name 1019 1021	巴生
+T107	Person-Name 1022 1027	巴生木沙子
+*	Coreference T106 T107
+T108	Person-Nominal 1034 1036	俩人
+T109	Person-Nominal 1055 1057	爷爷
+T110	Person-Name 1061 1063	巴生
+T111	Person-Nominal 1064 1066	老婆
+R16	Family Arg1:T111 Arg2:T110	
+T112	Person-Pronoun 1068 1069	他
+*	Coreference T112 T109
+T113	Person-Name 1072 1074	巴生
+T114	Person-Nominal 1077 1079	爷爷
+T115	Person-Pronoun 1081 1082	他
+*	Coreference T115 T113
+T116	Person-Name 1094 1097	洪永祥
+T117	Time-Implicit 1112 1118	第二天临别时
+T118	Person-Name 1119 1121	巴生
+T119	Person-Nominal 1122 1124	爷爷
+T121	Person-Name 1148 1151	洪永祥
+T122	Thing-Nominal 1155 1157	秀登
+T123	Thing-Nominal 1162 1165	小毡子
+*	Coreference T122 T123
+T124	Thing-Nominal 1135 1145	参了榆树皮渣子的烟末
+T120	Thing-Nominal 1128 1130	纳斯
+*	Coreference T120 T124
+T125	Person-Nominal 1168 1170	爷爷
+T126	Person-Name 1174 1179	木沙子巴生
+T127	Person-Pronoun 1180 1181	你
+*	Coreference T126 T127
+T128	Thing-Nominal 1182 1187	蒙古包架子
+T129	Person-Pronoun 1191 1192	我
+T130	Person-Pronoun 1193 1194	你
+*	Coreference T129 T125
+T131	Time-Implicit 1201 1204	麦收后
+T132	Thing-Nominal 1209 1211	架子
+T133	Location-Nominal 1214 1217	巴生家
+T134	Location-Name 1220 1223	巴仑台
+T135	Person-Name 1226 1229	洪永祥
+T136	Person-Nominal 1230 1232	爷爷
+T137	Person-Pronoun 1233 1234	你
+*	Coreference T137 T136
+T138	Person-Nominal 1235 1239	巴生爷爷
+T139	Person-Nominal 1248 1250	爷爷
+T140	Person-Pronoun 1252 1253	我
+*	Coreference T140 T139
+T141	Person-Nominal 1254 1257	蒙古人
+T142	Person-Name 1287 1289	巴生
+T143	Person-Nominal 1300 1303	大圣人
+T144	Person-Nominal 1295 1297	回回
+T145	Thing-Nominal 1315 1317	大鱼
+T146	Person-Nominal 1319 1321	老婆
+R17	Family Arg1:T146 Arg2:T144	
+T147	Person-Pronoun 1324 1325	他
+T148	Location-Nominal 1326 1328	河边
+*	Coreference T147 T144
+T149	Person-Nominal 1343 1345	女人
+T150	Person-Nominal 1347 1351	一个男人
+T151	Person-Pronoun 1359 1360	他
+T152	Person-Pronoun 1374 1375	他
+T153	Thing-Nominal 1379 1381	水桶
+T154	Thing-Nominal 1376 1378	衣服
+T155	Location-Nominal 1384 1386	河边
+T156	Person-Nominal 1393 1395	男人
+T157	Person-Pronoun 1402 1403	他
+T158	Location-Nominal 1406 1409	清真寺
+T159	Person-Nominal 1410 1412	真主
+T160	Person-Nominal 1424 1427	大圣人
+T161	Person-Name 1429 1431	巴生
+T162	Person-Name 1450 1453	洪永祥
+T163	Person-Pronoun 1484 1485	他
+T164	Person-Pronoun 1494 1495	我
+*	Coreference T164 T163 T162
+T165	Person-Pronoun 1516 1517	他
+T166	Person-Pronoun 1526 1527	我
+T167	Person-Pronoun 1536 1537	他
+T168	Person-Pronoun 1547 1548	他
+T169	Person-Nominal 1550 1553	外祖父
+T170	Person-Nominal 1565 1568	外祖父
+T171	Person-Pronoun 1569 1570	他
+T172	Person-Nominal 1580 1583	外祖父
+T173	Person-Pronoun 1589 1590	他
+T174	Person-Nominal 1592 1595	外祖父
+T175	Time-Explicit 1672 1674	三年
+T176	Organization-Nominal 1688 1690	学校
+T177	Organization-Nominal 1712 1714	学校
+T178	Person-Nominal 1732 1734	劳模
+T179	Person-Nominal 1735 1739	汉语老师
+T180	Person-Nominal 1740 1742	学生
+R18	Social Arg1:T179 Arg2:T180	
+T181	Person-Name 1863 1866	洪永祥
+T182	Location-Name 1875 1877	和静
+T183	Person-Nominal 1878 1889	会双语，甚至会三语的人
+T184	Person-Name 1895 1898	洪永祥
+T185	Person-Pronoun 1906 1907	他
+T186	Time-Explicit 1933 1934;1935 1938	十 四岁时
+T187	Person-Pronoun 1938 1939	他
+T188	Person-Nominal 1941 1953	和他同龄的一个蒙古族伙伴
+T189	Location-Nominal 1955 1958	县政府
+T190	Person-Pronoun 1965 1966	他
+T191	Person-Nominal 1973 1978	蒙古族伙伴
+T192	Person-Pronoun 1980 1981	他
+T193	Organization-Nominal 1983 1986	组织部
+T194	Organization-Nominal 1988 1991	组织部
+T195	Person-Pronoun 1998 1999	他
+T196	Person-Pronoun 2001 2002	他
+T197	Person-Nominal 2003 2008	县委通讯员
+*	Coreference T196 T197
+T198	Person-Pronoun 2009 2010	他
+T199	Person-Nominal 2034 2038	县委干部
+T200	Person-Nominal 2040 2044	这个娃娃
+*	Coreference T200 T198
+T201	Person-Pronoun 2050 2051	他
+T202	Location-Nominal 2063 2066	广播站
+T203	Person-Nominal 2074 2079	土尔扈特人
+T204	Person-Pronoun 2086 2087	他
+T205	Person-Pronoun 2093 2094	他
+T206	Person-Nominal 2097 2102	宣传部干事
+*	Coreference T205 T206
+T207	Person-Nominal 2124 2128	尔扈特人
+T208	Person-Nominal 2137 2140	蒙古人
+T209	Person-Pronoun 2168 2169	他
+T210	Person-Pronoun 2180 2181	他
+T211	Person-Nominal 2191 2193	爷爷
+T212	Person-Nominal 2227 2232	土尔扈特人
+T213	Person-Pronoun 2240 2241	他
+T214	Person-Nominal 2257 2259	同仁
+R19	Social Arg1:T213 Arg2:T214	
+T215	Person-Nominal 2304 2316	和静文史成果的重要贡献者
+T216	Person-Name 2323 2326	洪永祥
+*	Coreference T216 T215
+T217	Time-Explicit 2342 2348	和静王府时代
+T218	Person-Nominal 2434 2439	熟识他的人
+T219	Person-Pronoun 2442 2443	他
+T220	Person-Nominal 2444 2447	洪爷”
+T221	Person-Nominal 2449 2453	洪老爷子
+*	Coreference T219 T220 T221 T222
+T222	Person-Nominal 2474 2479	史志编撰者
+T223	Time-Implicit 2482 2483;2484 2486	几 十年
+T224	Person-Pronoun 2527 2528	他
+T225	Thing-Nominal 2535 2537	卡车
+R20	Use Arg1:T224 Arg2:T225	
+T226	Location-Name 2539 2550	天山深处的克尔古提河谷
+T227	Person-Nominal 2552 2556	突厥石人
+T228	Metric 2585 2588	三公分
+T229	Person-Pronoun 2590 2591	他
+T230	Person-Nominal 2592 2603	不该属于残疾人的残疾者
+*	Coreference T229 T230
+T231	Person-Pronoun 2619 2620	他
+T232	Person-Pronoun 2697 2698	他
+T233	Person-Pronoun 2729 2730	他
+T234	Person-Pronoun 2748 2749	他
+T235	Person-Name 2779 2782	洪永祥
+T236	Person-Pronoun 2788 2789	他
+*	Coreference T236 T235
+T237	Person-Nominal 2803 2807	和静文友
+T238	Organization-Name 2814 2819	和静文学社
+T239	Organization-Name 2823 2827	和静文联
+T240	Person-Nominal 2835 2839	本土作家
+T241	Person-Nominal 2840 2842	诗人
+T242	Person-Nominal 2846 2848	他们
+R21	Part-Whole Arg1:T240 Arg2:T242	
+R22	Part-Whole Arg1:T241 Arg2:T242	
+T243	Person-Name 2873 2876	洪永祥
+T244	Person-Nominal 2885 2888;2889 2892	文学社 的社长
+*	Coreference T243 T244
+T245	Organization-Nominal 2885 2888	文学社
+R23	Ownership Arg1:T243 Arg2:T245	
+T246	Person-Nominal 2897 2905	县文联常务副主席
+T247	Person-Pronoun 2906 2907	他
+*	Coreference T247 T246 T248
+T248	Person-Nominal 2908 2918	和静文学活动的领军者
+T249	Person-Name 2919 2922	洪永祥
+T250	Location-Name 2975 2979	和静大地
+T251	Person-Pronoun 2980 2981	他
+T252	Person-Pronoun 2987 2988	他
+T253	Location-Name 2999 3001	和静
+T254	Location-Nominal 3001 3005	山水草原
+T255	Person-Name 3013 3016	洪永祥
+T256	Thing-Nominal 3019 3020	笔
+T257	Person-Pronoun 3062 3063	他
+T258	Person-Pronoun 3101 3102	我
+T259	Location-Name 3104 3115	和静县的克尔古提乡河谷
+T260	Thing-Nominal 3127 3129	石头
+T261	Person-Name 3132 3135	洪永祥
+T262	Person-Name 3141 3144	洪永祥
+T263	Location-Name 3146 3153	巴音布鲁克草原
+T264	Location-Nominal 3155 3158;3159 3165	河谷林 间的蒙古包前
+R24	Use Arg1:T255 Arg2:T256	
+T265	Person-Nominal 3168 3173	土尔扈特人
+T266	Person-Pronoun 3180 3181	他
+T267	Thing-Nominal 3183 3185	木杖
+R25	Use Arg1:T266 Arg2:T267	
+T268	Location-Name 3199 3204	巴音布鲁克
+T269	Location-Name 3209 3214	八棵树村子
+T270	Person-Pronoun 3218 3219	我
+T271	Thing-Nominal 3233 3235	古榆
+T272	Thing-Nominal 3236 3238	古榆
+R26	Located Arg1:T271 Arg2:T269	
+T273	Thing-Nominal 3252 3254	枝叶
+R27	Part-Whole Arg1:T273 Arg2:T272	
+T274	Thing-Nominal 3264 3266	古榆
+T275	Thing-Nominal 3270 3272	古榆
+T276	Person-Pronoun 3272 3273	我
+T277	Thing-Nominal 3294 3295	树
+T278	Thing-Nominal 3301 3302	根
+T279	Thing-Nominal 3303 3305	土地
+R28	Located Arg1:T278 Arg2:T279	
+R29	Part-Whole Arg1:T278 Arg2:T277	
+R30	Part-Whole Arg1:T275 Arg2:T277	
+T280	Person-Nominal 71 73	后裔

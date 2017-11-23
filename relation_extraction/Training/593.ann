@@ -1,0 +1,399 @@
+T1	Location-Name 4 11	西双版纳葫芦岛
+T2	Location-Nominal 13 18	热带植物园
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 26 28	植物
+T4	Location-Pronoun 34 35	它
+*	Coreference T4 T2
+T5	Location-Name 40 45	版纳雨林谷
+T6	Location-Nominal 52 56	热带雨林
+T7	Time-Implicit 64 67	近几年
+T8	Thing-Nominal 71 72	车
+T9	Thing-Name 73 81	景洪――勐仑公路
+T10	Location-Name 86 88	勐仑
+T11	Metric 90 93	5公里
+T12	Location-Nominal 94 96	路边
+R2	Near Arg1:T12 Arg2:T10	
+T13	Location-Nominal 103 105	公园
+T14	Location-Nominal 105 108	大门上
+R3	Part-Whole Arg1:T14 Arg2:T13	
+T15	Location-Name 118 120;121 124	版纳 雨林谷
+T16	Thing-Nominal 112 114	大字
+R4	Located Arg1:T16 Arg2:T14	
+T17	Time-Explicit 174 184	2003年3月的一天
+T18	Person-Pronoun 185 186	我
+T19	Location-Nominal 199 203	这座公园
+T20	Person-Pronoun 223 224	我
+T21	Location-Nominal 249 253	这座园林
+*	Coreference T21 T19 T15 T22 T24 T25
+T22	Location-Name 260 265	版纳雨林谷
+T23	Metric 275 278	6公里
+T24	Location-Nominal 280 284	沟谷雨林
+T25	Location-Pronoun 285 286	它
+T26	Thing-Nominal 295 298	南哈河
+R5	Located Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 305 311	热带雨林植被
+R6	Near Arg1:T27 Arg2:T25	
+T28	Location-Name 317 320;321 334	西双版 纳国家级自然保护区勐仑片区
+R7	Part-Whole Arg1:T25 Arg2:T28	
+T29	Location-Name 345 351	葫芦岛植物园
+T30	Location-Name 352 361	野象谷热带雨林景区
+T31	Location-Nominal 362 368	原始森林公园
+T32	Location-Name 369 372	傣族园
+T33	Location-Nominal 373 375	景区
+R8	General-Special Arg1:T32 Arg2:T33	
+R9	General-Special Arg1:T31 Arg2:T33	
+R10	General-Special Arg1:T30 Arg2:T33	
+R11	General-Special Arg1:T29 Arg2:T33	
+T34	Location-Pronoun 378 379	它
+*	Coreference T34 T33
+T35	Person-Pronoun 416 417	我
+T36	Location-Name 428 433	版纳雨林谷
+T37	Location-Name 444 448	苏州园林
+T38	Location-Name 454 458	苏州园林
+T39	Person-Nominal 460 464	能功巧匠
+T40	Location-Name 469 474	版纳雨林谷
+T41	Person-Pronoun 486 487	我
+T42	Location-Nominal 491 498	这座“苏州园林
+*	Coreference T42 T40
+T43	Person-Nominal 509 511	游客
+T44	Location-Nominal 518 522	茂林树间
+T45	Location-Name 524 528	树冠走廊
+R12	Part-Whole Arg1:T44 Arg2:T45	
+T46	Person-Pronoun 531 532	我
+T47	Location-Pronoun 533 534	它
+*	Coreference T47 T45
+T48	Location-Nominal 536 540	热带雨林
+T49	Location-Pronoun 552 553	它
+T50	Location-Nominal 578 582	热带雨林
+T51	Location-Nominal 583 587	弹丸之地
+T52	Thing-Nominal 618 622	雨林景观
+T53	Location-Nominal 623 624	园
+T54	Person-Pronoun 628 629	我
+T55	Location-Nominal 636 638	林间
+T56	Thing-Nominal 639 641	溪流
+R13	Located Arg1:T56 Arg2:T55	
+T57	Location-Nominal 656 660	热带雨林
+T58	Location-Nominal 677 679	城市
+T59	Location-Nominal 691 693	公园
+T60	Location-Nominal 703 705	国度
+T61	Person-Pronoun 711 712	我
+T62	Location-Nominal 715 717	城市
+T63	Location-Nominal 718 720	公园
+T64	Location-Nominal 721 723	国度
+T65	Person-Pronoun 736 737	我
+T66	Person-Pronoun 745 747	我们
+T67	Location-Nominal 748 749;750 753	热 带雨林
+T68	Person-Pronoun 776 777	我
+T69	Thing-Nominal 782 785	望天树
+T70	Thing-Nominal 786 790	千果榄仁
+T71	Thing-Nominal 791 793	高榕
+T72	Thing-Nominal 794 797	四薮木
+T73	Thing-Nominal 798 801	箭毒木
+T74	Thing-Nominal 802 807	高大的树木
+R14	General-Special Arg1:T73 Arg2:T74	
+R15	General-Special Arg1:T72 Arg2:T74	
+R16	General-Special Arg1:T71 Arg2:T74	
+R17	General-Special Arg1:T70 Arg2:T74	
+R18	General-Special Arg1:T69 Arg2:T74	
+T75	Thing-Nominal 810 813	灯台树
+T76	Thing-Nominal 814 819	苍白称钩风
+T77	Thing-Nominal 820 825	多花白头树
+T78	Thing-Nominal 826 829	重阳木
+T79	Thing-Nominal 830 831	树
+R19	General-Special Arg1:T78 Arg2:T79	
+R20	General-Special Arg1:T77 Arg2:T79	
+R21	General-Special Arg1:T76 Arg2:T79	
+R22	General-Special Arg1:T75 Arg2:T79	
+T80	Location-Nominal 846 848	城市
+T81	Thing-Nominal 855 859	高楼群落
+R23	Located Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 865 870	琴叶风吹楠
+T83	Thing-Nominal 871 874	青果榕
+T84	Thing-Nominal 875 878	木奶果
+T85	Thing-Nominal 879 882	树火麻
+T86	Thing-Nominal 883 885	火烧
+T87	Thing-Nominal 887 892	勐仑翘子树
+T88	Thing-Nominal 893 895	树种
+R24	General-Special Arg1:T87 Arg2:T88	
+R25	General-Special Arg1:T86 Arg2:T88	
+R26	General-Special Arg1:T85 Arg2:T88	
+R27	General-Special Arg1:T84 Arg2:T88	
+R28	General-Special Arg1:T83 Arg2:T88	
+R29	General-Special Arg1:T82 Arg2:T88	
+T89	Location-Nominal 900 906	城市街道两旁
+T90	Thing-Nominal 920 925	老字号商店
+R30	Located Arg1:T90 Arg2:T89	
+T91	Location-Nominal 929 931	地面
+T92	Thing-Nominal 932 935	三叉蕨
+T93	Thing-Nominal 936 939	跳舞草
+T94	Thing-Nominal 940 943	山乌龟
+T95	Thing-Nominal 944 947	绿珊瑚
+T96	Thing-Nominal 948 951	文殊兰
+R31	Located Arg1:T92 Arg2:T91	
+R32	Located Arg1:T93 Arg2:T91	
+R33	Located Arg1:T94 Arg2:T91	
+R34	Located Arg1:T95 Arg2:T91	
+R35	Located Arg1:T96 Arg2:T91	
+T97	Location-Nominal 956 958	城市
+T98	Thing-Nominal 962 964	街道
+R36	Located Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 982 986	毛枕果榕
+T100	Thing-Nominal 988 992	白称钩风
+T101	Thing-Nominal 993 998	多花白头树
+T102	Thing-Nominal 1004 1008	古藤攀榕
+R37	Part-Whole Arg1:T101 Arg2:T102	
+R38	Part-Whole Arg1:T100 Arg2:T102	
+R39	Part-Whole Arg1:T99 Arg2:T102	
+T103	Metric 1010 1013	31米
+T104	Thing-Nominal 1026 1028	三树
+R40	Part-Whole Arg1:T99 Arg2:T104	
+R41	Part-Whole Arg1:T100 Arg2:T104	
+R42	Part-Whole Arg1:T101 Arg2:T104	
+T105	Organization-Name 1034 1036	中国
+T106	Thing-Nominal 1034 1045	中国目前已知的最大植株
+*	Coreference T102 T106 T108
+T107	Location-Nominal 1050 1053	“城市
+T108	Thing-Nominal 1059 1061	城雕
+T109	Person-Pronoun 1065 1066	我
+T110	Location-Nominal 1073 1075	城市
+T111	Person-Pronoun 1080 1081	我
+T112	Thing-Nominal 1086 1089	风倒树
+T113	Location-Nominal 1100 1102	城市
+T114	Thing-Nominal 1103 1106	“街道
+R43	Located Arg1:T114 Arg2:T113	
+T115	Thing-Nominal 1111 1114	高架桥
+R44	Located Arg1:T115 Arg2:T113	
+T116	Thing-Nominal 1117 1118	桥
+*	Coreference T116 T115
+T117	Thing-Nominal 1129 1130	车
+T118	Thing-Nominal 1131 1132	马
+T119	Location-Nominal 1135 1137	森林
+T120	Person-Pronoun 1140 1141	我
+T121	Location-Nominal 1146 1148	城市
+T122	Location-Nominal 1150 1154	“博物馆
+T123	Thing-Nominal 1161 1164	桫椤树
+T124	Thing-Nominal 1164 1166	青枝
+R45	Part-Whole Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 1169 1171	绿叶
+R46	Part-Whole Arg1:T125 Arg2:T123	
+T126	Thing-Pronoun 1174 1175	它
+T127	Person-Pronoun 1176 1177	我
+T128	Thing-Nominal 1179 1181	自己
+T129	Time-Explicit 1182 1186;1187 1192	第三世纪 侏罗纪时代
+T130	Thing-Nominal 1192 1194	恐龙
+T131	Location-Name 1202 1206	西双版纳
+T132	Time-Explicit 1212 1216	第四世纪
+T133	Thing-Nominal 1216 1218	冰川
+T134	Location-Nominal 1238 1242	热带雨林
+T135	Thing-Nominal 1253 1261	恐龙时代的活化石
+T136	Thing-Nominal 1264 1268	遗孑植物
+*	Coreference T135 T136 T126 T123 T128
+T137	Location-Nominal 1275 1277	城市
+T138	Location-Nominal 1280 1282	公园
+R47	Part-Whole Arg1:T138 Arg2:T137	
+T139	Person-Pronoun 1285 1286	我
+T140	Thing-Nominal 1290 1292	阳木
+T141	Thing-Nominal 1296 1300	空中花园
+R48	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 1318 1320	兰花
+R49	Located Arg1:T142 Arg2:T141	
+T143	Thing-Nominal 1336 1341	琴叶风吹楠
+T144	Person-Pronoun 1350 1351	我
+T145	Thing-Pronoun 1358 1359	它
+*	Coreference T145 T143 T146
+T146	Thing-Nominal 1362 1365	争光树
+T147	Person-Pronoun 1370 1371	我
+T148	Time-Explicit 1379 1384	1969年
+T149	Organization-Name 1385 1387	中国
+T150	Organization-Name 1388 1391	前苏联
+T151	Location-Name 1394 1397	珍宝岛
+T152	Time-Implicit 1399 1403	时值寒冬
+T154	Thing-Nominal 1413 1416	机动车
+T155	Organization-Pronoun 1424 1426	我军
+T156	Thing-Nominal 1427 1430	机动车
+T153	Organization-Nominal 1408 1410	苏军
+T157	Thing-Nominal 1410 1412	坦克
+R50	Ownership Arg1:T153 Arg2:T157	
+R51	Ownership Arg1:T153 Arg2:T154	
+R52	Ownership Arg1:T155 Arg2:T156	
+T158	Organization-Pronoun 1446 1448	我军
+T159	Organization-Nominal 1450 1452	苏军
+T160	Thing-Nominal 1454 1456	坦克
+T161	Location-Nominal 1459 1461	阵地
+T162	Organization-Nominal 1468 1470	苏军
+T163	Thing-Nominal 1473 1476	润滑油
+T164	Thing-Nominal 1432 1435	润滑油
+R53	Located Arg1:T164 Arg2:T156	
+T165	Abstract 1479 1485	十四碳脂肪酸
+T166	Organization-Pronoun 1493 1495	我国
+T167	Thing-Nominal 1516 1518	植物
+T168	Person-Nominal 1524 1526	专家
+T169	Thing-Nominal 1534 1539	琴叶风吹楠
+R54	General-Special Arg1:T169 Arg2:T167	
+T170	Thing-Nominal 1540 1544	植物种子
+T171	Abstract 1546 1552	十四碳脂肪酸
+T172	Location-Nominal 1571 1579	西双版纳热带雨林
+T173	Thing-Pronoun 1583 1587	这种植物
+T174	Thing-Pronoun 1561 1565	这种植物
+*	Coreference T169 T174
+R55	Located Arg1:T173 Arg2:T172	
+T175	Abstract 1593 1599	十四碳脂肪酸
+T176	Location-Nominal 1611 1613	城市
+T177	Person-Pronoun 1618 1619	我
+T178	Location-Pronoun 1622 1623	它
+*	Coreference T178 T176
+T179	Thing-Nominal 1624 1626	鲜花
+T180	Location-Nominal 1630 1634	街心花园
+R56	Part-Whole Arg1:T180 Arg2:T178	
+T181	Thing-Nominal 1642 1650	植物王国的舞蹈家
+T182	Thing-Nominal 1653 1656	跳舞草
+*	Coreference T182 T181 T183 T184
+T183	Thing-Pronoun 1660 1661	它
+T184	Thing-Nominal 1667 1668;1669 1671	风 流草
+T185	Thing-Pronoun 1676 1677	它
+T186	Thing-Nominal 1698 1700	草径
+T187	Thing-Nominal 1706 1708	叶子
+R57	Located Arg1:T187 Arg2:T186	
+T188	Thing-Nominal 1725 1726	它
+T189	Thing-Nominal 1729 1731	绿绸
+T190	Thing-Nominal 1709 1710	绸
+T191	Thing-Nominal 1733 1735	山风
+T192	Thing-Nominal 1740 1743	手风琴
+T193	Thing-Nominal 1749 1751	山溪
+T194	Thing-Nominal 1754 1757	小提琴
+T195	Thing-Nominal 1766 1767	鸟
+T196	Thing-Pronoun 1782 1783	它
+T197	Abstract 1794 1797	华尔兹
+T198	Abstract 1799 1801	探戈
+T199	Abstract 1802 1804	伦巴
+T200	Abstract 1807 1810	迪斯科
+T201	Person-Nominal 1811 1813	有人
+T202	Abstract 1815 1818	孔雀舞
+T203	Thing-Nominal 1824 1826	孔雀
+T204	Location-Nominal 1824 1829	孔雀的故乡
+T205	Location-Pronoun 1821 1823	这里
+*	Coreference T205 T204
+T206	Person-Pronoun 1831 1832	你
+T207	Thing-Pronoun 1833 1834	它
+T208	Location-Nominal 1849 1853	这片热土
+T209	Person-Pronoun 1861 1862	我
+T210	Thing-Pronoun 1881 1882	它
+T211	Thing-Pronoun 1885 1886	它
+T212	Time-Implicit 1899 1904	夕阳西下时
+T213	Thing-Pronoun 1905 1906	它
+T214	Person-Pronoun 1923 1924	我
+T215	Time-Implicit 1927 1929	明天
+T216	Thing-Pronoun 1930 1931	它
+T217	Location-Name 1943 1947	西双版纳
+T218	Person-Pronoun 1952 1953	我
+T219	Thing-Nominal 1959 1961	鸟儿
+T220	Location-Nominal 1963 1965	城市
+T221	Thing-Pronoun 1974 1976	它们
+*	Coreference T221 T219 T223
+T222	Location-Nominal 1979 1982	“城市
+T223	Thing-Pronoun 1988 1991	上班族
+T224	Person-Pronoun 1993 1994	你
+T225	Thing-Nominal 1999 2002	啄木鸟
+T226	Location-Nominal 2004 2010	森林虫害医院
+T227	Person-Nominal 2014 2017	行医者
+R58	Part-Whole Arg1:T225 Arg2:T227	
+T228	Thing-Nominal 2021 2024	画眉鸟
+T229	Thing-Nominal 2031 2036	森林歌唱家
+*	Coreference T228 T229
+T230	Thing-Nominal 2045 2048	亚洲象
+T231	Thing-Pronoun 2060 2062	它们
+*	Coreference T231 T230
+T232	Location-Nominal 2092 2094	城市
+T233	Person-Pronoun 2100 2101	我
+T234	Location-Nominal 2105 2110	森林“城市
+T235	Thing-Nominal 2129 2130	树
+T236	Thing-Nominal 2136 2139	玉兰花
+R59	Located Arg1:T236 Arg2:T235	
+T237	Person-Pronoun 2155 2156	我
+T238	Location-Nominal 2163 2165	雨林
+T239	Thing-Nominal 2179 2182	玉兰花
+T240	Person-Pronoun 2183 2184	我
+T241	Location-Nominal 2192 2194	森林
+T242	Location-Nominal 2197 2199	森林
+T243	Person-Nominal 2200 2202	人们
+T244	Person-Pronoun 2209 2210	我
+T245	Location-Nominal 2214 2218	热带雨林
+T246	Thing-Pronoun 2222 2223	它
+T247	Person-Pronoun 2238 2239	我
+T248	Location-Name 2248 2260	西双版纳国家级自然保护区
+T249	Location-Name 2276 2281	版纳雨林谷
+R60	Part-Whole Arg1:T249 Arg2:T248	
+T250	Location-Nominal 2285 2294	一级珍稀植物景观区
+R61	General-Special Arg1:T249 Arg2:T250	
+T251	Location-Nominal 2304 2308	这片雨林
+*	Coreference T249 T251
+T252	Location-Name 2316 2325	西双版纳风景名胜区
+T253	Location-Name 2332 2339	版纳雨林谷景区
+R62	Part-Whole Arg1:T253 Arg2:T252	
+T254	Location-Nominal 2344 2348	一级景区
+R63	General-Special Arg1:T253 Arg2:T254	
+T255	Location-Nominal 2359 2363	这个景区
+*	Coreference T254 T255
+T256	Time-Implicit 2370 2372	如今
+T257	Location-Name 2373 2378	版纳雨林谷
+T258	Location-Nominal 2380 2386	热带雨林景区
+R64	General-Special Arg1:T257 Arg2:T258	
+T259	Location-Nominal 2396 2401	AA级景区
+R65	General-Special Arg1:T258 Arg2:T259	
+T260	Person-Pronoun 2402 2403	我
+T261	Location-Pronoun 2405 2406	它
+*	Coreference T261 T259
+T262	Location-Nominal 2412 2424	AAA级、AAAA级景区
+T263	Person-Pronoun 2452 2453	我
+T264	Location-Nominal 2470 2474	这个景区
+T265	Time-Implicit 2487 2490	三四年
+T266	Location-Name 2493 2498	版纳雨林谷
+T267	Location-Nominal 2505 2509	热带雨林
+T268	Person-Nominal 2516 2518	游客
+T269	Person-Name 2519 2529	景区法人代表许斌先生
+T270	Person-Nominal 2563 2568	私营企业家
+R66	General-Special Arg1:T269 Arg2:T270	
+T271	Person-Pronoun 2576 2577	他
+*	Coreference T271 T269
+T272	Location-Nominal 2579 2588	西双版纳的热带雨林
+T273	Person-Pronoun 2600 2602	我们
+T274	Location-Nominal 2607 2611	这个景区
+T275	Location-Nominal 2630 2632	景区
+T276	Person-Pronoun 2649 2650	我
+T277	Person-Nominal 2660 2662	游客
+T278	Person-Pronoun 2664 2666	我们
+T279	Location-Nominal 2674 2676	景区
+T280	Person-Name 2699 2703	许斌先生
+T281	Thing-Nominal 2707 2709	森林
+T282	Thing-Nominal 2713 2715	森林
+T283	Thing-Name 2733 2737	二氧化碳
+T284	Thing-Nominal 2739 2741	森林
+T285	Thing-Nominal 2775 2777	森林
+T286	Person-Name 2794 2797	许先生
+*	Coreference T286 T280 T287
+T287	Person-Pronoun 2798 2799	你
+T288	Person-Pronoun 2812 2813	我
+T289	Person-Name 2816 2819	许先生
+R67	Social Arg1:T288 Arg2:T289	
+T290	Person-Name 2833 2836	许先生
+T291	Person-Pronoun 2839 2841	我们
+T292	Abstract 2842 2849	日环境容量指标
+T293	Metric 2855 2858	20米
+T294	Abstract 2861 2865	日周转率
+T295	Abstract 2872 2876	环境容量
+T296	Abstract 2886 2891	年环境容量
+T297	Person-Name 2908 2912	许斌先生
+T298	Person-Pronoun 2916 2917	我
+T299	Person-Pronoun 2923 2924	我
+T300	Location-Nominal 2925 2929	林中溪边
+T301	Thing-Nominal 2934 2937	玉兰花
+R68	Located Arg1:T301 Arg2:T300	
+T302	Person-Pronoun 2949 2950	我
+T303	Person-Name 2952 2954	许斌
+T304	Person-Nominal 2958 2960	商人
+T305	Person-Nominal 2970 2972	儒商
+R69	General-Special Arg1:T305 Arg2:T304	
+R70	General-Special Arg1:T303 Arg2:T305	
+T306	Person-Pronoun 2976 2977	我
+T307	Person-Pronoun 2980 2981	他
+*	Coreference T307 T303

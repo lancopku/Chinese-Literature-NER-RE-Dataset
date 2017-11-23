@@ -1,0 +1,225 @@
+T1	Time-Implicit 0 4	小的时候
+T2	Location-Nominal 4 5	家
+T3	Thing-Nominal 9 11	草房
+T4	Thing-Nominal 12 17	三间大草房
+T5	Location-Nominal 19 22	村子里
+R1	Located Arg1:T4 Arg2:T5	
+T6	Time-Implicit 24 26	当时
+*	Coreference T6 T1
+T7	Thing-Nominal 30 32	瓦房
+T8	Thing-Nominal 33 35	平房
+R2	Located Arg1:T7 Arg2:T5	
+R3	Located Arg1:T8 Arg2:T5	
+T9	Thing-Nominal 45 48	这草房
+T10	Thing-Nominal 58 60	墙面
+R4	Part-Whole Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 77 78	墙
+*	Coreference T11 T10
+T12	Thing-Nominal 85 87	沟壑
+R5	Located Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 92 93	雨
+T14	Thing-Nominal 94 95	风
+T15	Thing-Nominal 101 106	两扇大窗子
+T16	Thing-Nominal 112 113	墙
+R6	Located Arg1:T15 Arg2:T16	
+T17	Person-Nominal 121 122	爹
+T18	Person-Nominal 123 131	一个沉默寡言的人
+R7	General-Special Arg1:T17 Arg2:T18	
+T19	Person-Nominal 134 135	爹
+T20	Location-Nominal 136 138	外面
+T21	Thing-Nominal 147 148	床
+T22	Location-Nominal 168 170	门槛
+T23	Location-Nominal 168 172	门槛边上
+T24	Thing-Nominal 174 176	闷烟
+T25	Time-Implicit 178 180	那时
+T26	Thing-Nominal 181 182	烟
+T27	Thing-Name 183 185	顺和
+T28	Thing-Name 186 189	白河桥
+R8	General-Special Arg1:T28 Arg2:T26	
+R9	General-Special Arg1:T27 Arg2:T26	
+T29	Person-Nominal 190 193	农村人
+T30	Metric 202 204	八毛
+T31	Person-Nominal 209 210	爹
+T32	Thing-Nominal 230 231	烟
+T33	Thing-Nominal 233 234	烟
+T34	Person-Pronoun 246 247	我
+T35	Person-Nominal 248 249	爹
+R10	Family Arg1:T34 Arg2:T35	
+T36	Person-Nominal 260 262	两人
+T37	Person-Nominal 280 281	爹
+T38	Person-Pronoun 284 285	我
+T39	Person-Pronoun 309 310	我
+T40	Person-Nominal 312 313	爹
+T41	Person-Pronoun 318 319	我
+T42	Person-Nominal 334 335	爹
+T43	Person-Nominal 345 346	爹
+T44	Person-Nominal 363 364	妈
+T45	Person-Pronoun 371 372	我
+T46	Person-Nominal 374 375	爹
+T47	Thing-Nominal 376 377	饭
+R11	Family Arg1:T46 Arg2:T44	
+R12	Family Arg1:T45 Arg2:T44	
+R13	Family Arg1:T45 Arg2:T46	
+T48	Person-Pronoun 378 379	我
+T49	Location-Nominal 382 387	爹的窗子外
+T50	Thing-Nominal 390 392	窗子
+T51	Thing-Nominal 397 398	饭
+T52	Person-Nominal 400 401	爹
+T53	Person-Nominal 403 404	爹
+T54	Location-Nominal 405 407	里屋
+T55	Thing-Nominal 425 427	窗子
+T56	Metric 429 432	一米二
+T57	Thing-Nominal 446 448	窗扇
+R14	Part-Whole Arg1:T57 Arg2:T55	
+T58	Person-Nominal 452 453	妈
+T59	Thing-Nominal 455 457	窗子
+T60	Thing-Nominal 462 464	胶纸
+R15	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 469 471	树枝
+T62	Thing-Nominal 475 477	小洞
+R16	Use Arg1:T58 Arg2:T60	
+R17	Use Arg1:T58 Arg2:T61	
+R18	Located Arg1:T62 Arg2:T60	
+T63	Thing-Nominal 495 497	老鼠
+T64	Thing-Nominal 498 500	蝙蝠
+T65	Location-Nominal 508 510	屋里
+T66	Thing-Nominal 511 513	窗子
+T67	Time-Implicit 511 518	窗子在刚做好时
+T68	Thing-Nominal 523 524	漆
+R19	Located Arg1:T68 Arg2:T66	
+T69	Thing-Nominal 536 538	红漆
+*	Coreference T68 T69
+T70	Thing-Nominal 570 573	窗子上
+T71	Thing-Nominal 577 580	蜘蛛网
+R20	Located Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 587 589	虫子
+R21	Located Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 595 597	窗扇
+T74	Thing-Nominal 605 606;607 608	粉 末
+R22	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 611 613	虫蛀
+T76	Thing-Nominal 621 623	粉末
+T77	Thing-Nominal 626 628	窗子
+T78	Thing-Nominal 630 633	洋槐树
+T79	Metric 646 649	几十年
+T80	Person-Nominal 656 657	爹
+T81	Person-Nominal 660 662	木匠
+R23	General-Special Arg1:T80 Arg2:T81	
+T82	Thing-Nominal 664 666	窗子
+T83	Person-Nominal 668 669	爹
+R24	Create Arg1:T83 Arg2:T82	
+T84	Person-Pronoun 675 676	我
+T85	Person-Nominal 677 678	爹
+T86	Thing-Nominal 681 683	窗子
+T87	Person-Nominal 689 690	爹
+T88	Thing-Nominal 703 705	窗子
+T89	Thing-Nominal 713 716	洋槐树
+R25	Use Arg1:T87 Arg2:T89	
+R26	Create Arg1:T87 Arg2:T88	
+T90	Time-Implicit 723 727	从那一刻
+T91	Person-Pronoun 728 729	我
+T92	Person-Nominal 734 735	爹
+T93	Person-Pronoun 737 738	我
+T94	Thing-Nominal 746 749	这窗子
+T95	Person-Pronoun 757 758	我
+T96	Time-Implicit 755 757	当时
+T97	Person-Nominal 759 760	爹
+T98	Thing-Nominal 774 777	洋槐树
+T99	Location-Nominal 781 783	近处
+T100	Person-Nominal 790 791	爹
+T101	Thing-Nominal 797 798	树
+R27	Located Arg1:T101 Arg2:T99	
+T102	Thing-Nominal 824 826	窗扇
+T103	Person-Nominal 835 836	爹
+T104	Thing-Nominal 842 844	沥青
+T105	Thing-Nominal 849 851	青灰
+R28	Located Arg1:T105 Arg2:T102	
+R29	Located Arg1:T104 Arg2:T102	
+R30	Use Arg1:T103 Arg2:T105	
+R31	Use Arg1:T103 Arg2:T104	
+T106	Person-Pronoun 884 885	我
+T107	Person-Nominal 886 887	爹
+T108	Person-Pronoun 896 897	我
+T109	Person-Nominal 899 900	爹
+T110	Person-Pronoun 909 910	他
+*	Coreference T110 T109
+T111	Person-Nominal 913 915	喜爱
+T112	Person-Pronoun 925 927	我们
+T113	Person-Pronoun 935 936	我
+T114	Person-Nominal 942 943	爹
+T115	Person-Pronoun 945 946	我
+T116	Person-Nominal 951 952	爹
+T117	Time-Implicit 961 963	后来
+T118	Location-Nominal 963 965	家里
+T119	Thing-Nominal 967 969	平房
+T120	Thing-Nominal 972 974	窗子
+T121	Person-Nominal 981 982	爹
+T122	Thing-Pronoun 983 984	它
+T123	Location-Nominal 986 990	楼梯道里
+R32	Located Arg1:T122 Arg2:T123	
+T124	Thing-Nominal 995 998	老物件
+R33	General-Special Arg1:T122 Arg2:T124	
+T125	Time-Implicit 1004 1006	后来
+T126	Person-Pronoun 1006 1007	我
+T127	Location-Nominal 1013 1015	外面
+T128	Person-Nominal 1019 1020	爹
+T129	Thing-Nominal 1030 1032	电话
+T130	Person-Pronoun 1034 1035	我
+T131	Time-Implicit 1027 1033	每次通电话时
+T132	Person-Nominal 1056 1057	爹
+T133	Person-Nominal 1060 1061	爹
+T134	Person-Nominal 1076 1077	爹
+T135	Thing-Nominal 1078 1080	电话
+R34	Use Arg1:T130 Arg2:T129	
+R35	Use Arg1:T134 Arg2:T135	
+T136	Time-Implicit 1093 1098	挂了电话后
+T137	Person-Nominal 1099 1100	爹
+T138	Person-Nominal 1120 1122	自己
+T139	Person-Nominal 1130 1131	爹
+T140	Person-Pronoun 1134 1135	我
+T141	Person-Pronoun 1138 1139	我
+*	Coreference T140 T138
+T142	Thing-Nominal 1142 1143	窗
+T143	Thing-Nominal 1146 1151	那扇旧木窗
+T144	Thing-Nominal 1152 1153	虫
+T145	Person-Nominal 1161 1162	妈
+T146	Thing-Pronoun 1163 1164	它
+*	Coreference T146 T143
+T147	Location-Nominal 1167 1170	灶火里
+R36	Located Arg1:T146 Arg2:T147	
+T148	Thing-Nominal 1171 1172;1173 1175	那 扇窗
+T149	Person-Pronoun 1183 1184	我
+T150	Person-Pronoun 1191 1192	我
+T151	Person-Pronoun 1193 1194	我
+T152	Thing-Nominal 1199 1202	那扇窗
+T153	Person-Pronoun 1206 1207	我
+T154	Thing-Nominal 1213 1216	一扇窗
+T155	Thing-Nominal 1224 1226	阳光
+T156	Person-Nominal 1229 1230	爹
+T157	Time-Implicit 1236 1238	去年
+T158	Person-Nominal 1246 1247	爹
+T159	Person-Nominal 1250 1251	爹
+T160	Person-Nominal 1248 1249	妈
+R37	Family Arg1:T160 Arg2:T159	
+T161	Person-Pronoun 1258 1259	我
+T162	Thing-Nominal 1261 1263	窗子
+T163	Person-Pronoun 1271 1272	他
+*	Coreference T163 T159
+T164	Person-Pronoun 1275 1276	我
+T165	Thing-Nominal 1282 1284	眼眶
+R38	Part-Whole Arg1:T165 Arg2:T164	
+T166	Person-Nominal 1293 1294	爹
+T167	Location-Nominal 1297 1298	家
+T168	Person-Pronoun 1302 1304	我们
+T169	Time-Implicit 1302 1307	我们长大后
+T170	Person-Pronoun 1311 1312	他
+*	Coreference T170 T166 T172
+T171	Location-Nominal 1313 1315	外地
+T172	Person-Pronoun 1321 1322	他
+T173	Person-Nominal 1340 1341	爹
+T174	Person-Pronoun 1344 1345	我
+T175	Person-Nominal 1350 1351	爹
+R39	Family Arg1:T174 Arg2:T175	
+R40	Family Arg1:T168 Arg2:T166	
+T176	Time-Implicit 1325 1327	现在
+R41	Family Arg1:T161 Arg2:T158	

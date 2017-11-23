@@ -1,0 +1,180 @@
+T1	Person-Nominal 5 14	一个远道而来的朋友
+T2	Person-Pronoun 55 56	我
+T4	Location-Nominal 41 44	晚霞湖
+T5	Location-Nominal 68 71	晚霞湖
+T6	Location-Nominal 72 75	环湖路
+T7	Thing-Nominal 76 79	格桑花
+T8	Location-Nominal 82 85	晚霞湖
+T9	Thing-Nominal 88 100	东、南、西三面起伏的丘陵
+T11	Location-Nominal 110 114	黄土高原
+T12	Location-Nominal 130 132	水坝
+T13	Thing-Nominal 158 160	水鸟
+T14	Location-Nominal 170 173	晚霞湖
+T16	Location-Nominal 234 236	水坝
+T17	Location-Nominal 251 255	环湖公路
+T18	Location-Nominal 313 317	青藏高原
+T19	Thing-Nominal 320 323	格桑花
+T20	Location-Nominal 325 327	园林
+T21	Time-Implicit 329 335	深秋的季节里
+T22	Thing-Nominal 341 348	尚未休息的蜜蜂
+T23	Location-Nominal 365 368	晚霞湖
+T24	Time-Explicit 393 399	人民公社时期
+T25	Location-Nominal 410 413	晚家峡
+T26	Thing-Nominal 416 419	发电站
+T27	Location-Nominal 420 423	晚霞湖
+T28	Time-Implicit 438 441	近年来
+T29	Location-Nominal 441 444	西和县
+T30	Location-Nominal 466 471	晚家峡水库
+T31	Location-Nominal 474 477	晚霞湖
+T32	Person-Nominal 487 490	开发者
+T33	Location-Nominal 496 499	晚霞湖
+T34	Location-Nominal 507 511	青藏高原
+T35	Thing-Nominal 516 519	格桑花
+T36	Thing-Pronoun 527 528	其
+T37	Person-Nominal 534 536	游客
+T38	Thing-Nominal 539 542	格桑花
+T39	Person-Nominal 564 566	少妇
+T40	Thing-Nominal 567 569	寒鸭
+T41	Person-Nominal 734 738	几位少妇
+T42	Person-Pronoun 758 760	她们
+*	Coreference T42 T41
+T43	Thing-Nominal 766 782	一群准备飞往南方而在此歇息的寒鸭
+T44	Time-Implicit 856 858	下午
+T45	Person-Nominal 864 873	湖区管理部门的同志
+T46	Person-Pronoun 874 876	我们
+T47	Organization-Nominal 880 883	农家乐
+T48	Person-Nominal 886 890	远方客人
+*	Coreference T46 T48 T49 T51 T52
+T49	Person-Pronoun 902 904	我们
+T50	Person-Nominal 922 929	管理部门的同志
+*	Coreference T45 T50
+T51	Person-Pronoun 931 933	我们
+T52	Person-Pronoun 958 960	我们
+T53	Organization-Nominal 968 971;972 975	这里的 农家乐
+T54	Organization-Nominal 941 944	农家乐
+T55	Thing-Nominal 986 988	院落
+T56	Thing-Nominal 991 1000	一架架金黄色的玉米
+T57	Thing-Nominal 1008 1010	屋檐
+T58	Thing-Nominal 1013 1021	一窜窜红色的辣椒
+T59	Thing-Nominal 1035 1037	树叶
+T60	Thing-Nominal 1030 1032	果园
+T61	Thing-Nominal 1043 1045	果子
+T62	Person-Nominal 1053 1055	游客
+T63	Organization-Nominal 1076 1079	农家乐
+T64	Person-Pronoun 1108 1110	我们
+T65	Person-Nominal 1118 1125	一位儿时的同学
+T66	Person-Nominal 1126 1133	多年不见老同学
+*	Coreference T65 T66 T68 T70 T71 T92 T72 T73 T76 T77 T78 T79 T82 T83 T85 T87
+R1	Social Arg1:T64 Arg2:T65	
+T67	Person-Pronoun 1140 1142	我们
+T68	Person-Pronoun 1143 1144	他
+*	Coreference T67 T64 T69
+T69	Person-Pronoun 1152 1154	我们
+T70	Person-Nominal 1158 1161	老同学
+T71	Person-Nominal 1164 1168;1169 1171	我的这位 同学
+T72	Person-Nominal 1233 1236	老同学
+T73	Person-Nominal 1294 1297	老同学
+T74	Person-Pronoun 1246 1248	我们
+T75	Person-Nominal 1307 1309	大家
+T76	Person-Nominal 1353 1355	自己
+T77	Person-Nominal 1360 1362	自己
+T78	Person-Nominal 1368 1370	自己
+T79	Person-Nominal 1376 1378	自己
+T80	Person-Nominal 1381 1388	远道而来的朋友
+T81	Person-Pronoun 1422 1424	我们
+T82	Person-Nominal 1429 1432	老同学
+T83	Person-Pronoun 1436 1437	他
+T84	Person-Nominal 1523 1529	省农办的朋友
+T85	Person-Nominal 1539 1544	我的老同学
+T86	Person-Pronoun 1546 1547	他
+T88	Person-Pronoun 1589 1591	他们
+T89	Person-Nominal 1637 1639	文友
+T90	Location-Nominal 1640 1643	晚霞湖
+*	Coreference T36 T35
+T91	Location-Nominal 819 822	晚霞湖
+T92	Person-Pronoun 1211 1212	他
+T93	Person-Nominal 1314 1318	所有的人
+*	Coreference T75 T93
+T87	Person-Nominal 1547 1560	要寻找的帮扶目标和研究对象
+T94	Time-Explicit 1182 1188	改革开放初期
+T95	Location-Nominal 1211 1213	他家
+T96	Thing-Nominal 1251 1256	新煮的洋芋
+T97	Thing-Nominal 1257 1264	刚出锅的清炖鸡
+T98	Thing-Nominal 1265 1269	凉拌苦菜
+T99	Thing-Nominal 1270 1273	芨芨菜
+T100	Thing-Nominal 1274 1278	当地野菜
+T101	Thing-Nominal 1279 1281	蜂蜜
+T102	Thing-Nominal 1282 1284	核桃
+T103	Thing-Nominal 1301 1305	酸菜荞面
+T104	Thing-Nominal 1329 1333	一顿饭菜
+T105	Thing-Nominal 1346 1351	洋芋和野菜
+T106	Thing-Nominal 1358 1359	鸡
+T107	Thing-Nominal 1365 1367	核桃
+T108	Thing-Nominal 1373 1375	蜂蜜
+T109	Thing-Nominal 1390 1393	农家饭
+T110	Thing-Nominal 1399 1404	原生态产品
+T111	Time-Implicit 1433 1436	近年来
+T112	Thing-Nominal 1475 1480	蔬菜和水果
+T113	Thing-Nominal 1469 1471	核桃
+T114	Thing-Nominal 1446 1449	鸡和猪
+T115	Metric 1485 1489	10万元
+T116	Metric 1500 1504	20万元
+T117	Metric 1517 1521	50万元
+T3	Location-Nominal 21 23	家乡
+T118	Location-Name 24 27	晚霞湖
+R3	Part-Whole Arg1:T118 Arg2:T3	
+R2	Social Arg1:T2 Arg2:T1	
+R4	Near Arg1:T9 Arg2:T8	
+R5	Located Arg1:T9 Arg2:T11	
+T119	Person-Pronoun 672 673	我
+T120	Organization-Nominal 207 214	社会主义新农村
+T121	Organization-Nominal 1663 1665	家乐
+T122	Organization-Nominal 1683 1685	国家
+T123	Location-Nominal 1723 1725	湖面
+T124	Location-Nominal 276 278	湖水
+T125	Location-Nominal 279 281	公路
+T126	Location-Nominal 292 296	环形园林
+T127	Location-Nominal 297 299	园林
+R7	Near Arg1:T124 Arg2:T125	
+R8	Located Arg1:T26 Arg2:T25	
+R9	Social Arg1:T45 Arg2:T46	
+T128	Person-Pronoun 1730 1732	我们
+T129	Location-Name 1734 1737	晚霞梁
+T130	Thing-Nominal 124 125	湖
+T131	Thing-Nominal 128 129	海
+T10	Thing-Nominal 155 157	游舟
+T132	Location-Nominal 150 152	湖面
+R10	Located Arg1:T10 Arg2:T132	
+T15	Organization-Name 192 194	谢庄
+T133	Organization-Name 195 197	青沟
+T134	Organization-Name 198 200	姬尧
+T135	Organization-Name 201 203	阳坡
+T136	Organization-Name 204 206	麻庄
+R6	Part-Whole Arg1:T136 Arg2:T120	
+R11	Part-Whole Arg1:T135 Arg2:T120	
+R12	Part-Whole Arg1:T134 Arg2:T120	
+R13	Part-Whole Arg1:T133 Arg2:T120	
+R14	Part-Whole Arg1:T15 Arg2:T120	
+*	Coreference T17 T125
+*	Coreference T127 T126
+R15	Located Arg1:T19 Arg2:T20	
+T137	Location-Name 403 405	西和
+T138	Location-Nominal 390 391	湖
+*	Coreference T27 T138
+*	Coreference T137 T29 T139
+T139	Location-Nominal 451 453	当地
+T140	Location-Name 521 525	晚霞湖畔
+R16	Located Arg1:T35 Arg2:T140	
+T141	Location-Name 1741 1744	晚霞湖
+T142	Time-Implicit 1745 1747	秋天
+T143	Thing-Nominal 1751 1754	格桑花
+T144	Thing-Nominal 1755 1757	果园
+T145	Thing-Nominal 1758 1761	农家乐
+T146	Location-Name 1778 1783	青家沟山坳
+T147	Person-Nominal 1785 1789	几户人家
+T148	Location-Name 1812 1818	美丽的晚霞湖
+T149	Person-Pronoun 1819 1821	我们
+*	Coreference T86 T84
+R17	Part-Whole Arg1:T86 Arg2:T88	
+T150	Organization-Nominal 1591 1594	省农办
+R18	Part-Whole Arg1:T123 Arg2:T141	

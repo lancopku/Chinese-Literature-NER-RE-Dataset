@@ -1,0 +1,142 @@
+T1	Location-Name 0 5	徐霞客故居
+T2	Location-Name 6 15	江苏省江阴市之马镇
+T3	Person-Name 0 3	徐霞客
+T4	Location-Name 19 21	江阴
+T5	Location-Name 24 26	无锡
+T6	Time-Explicit 37 47	2013年5月7日晨
+T7	Location-Name 50 52	上海
+T8	Location-Nominal 61 63	故里
+*	Coreference T8 T1 T21
+T9	Time-Implicit 65 67	午时
+T10	Location-Nominal 71 72	湖
+T11	Location-Nominal 69 70	门
+T12	Thing-Nominal 73 74	竹
+T13	Thing-Nominal 74 75	树
+T14	Thing-Nominal 78 80	蓼花
+T15	Location-Name 98 103	徐霞客碑廊
+T16	Location-Nominal 105 108	擘嵌壁
+T17	Person-Name 111 115	庚辰沈鹏
+T18	Thing-Nominal 117 119	碑记
+T19	Organization-Nominal 122 127	江阴市政府
+T20	Time-Explicit 132 137	2001年
+T21	Location-Name 141 145	徐氏故园
+T22	Location-Name 148 151	仰圣园
+T23	Person-Nominal 153 160	国内之书界名流
+T24	Person-Name 178 180	启功
+T25	Person-Name 181 182;183 185	刘 秉森
+T26	Person-Name 186 190	欧阳中石
+T27	Person-Nominal 191 193	时贤
+T28	Location-Nominal 194 196	碑廊
+T29	Location-Nominal 197 198	水
+T30	Location-Nominal 201 203	碑居
+T31	Thing-Nominal 210 212	碑刻
+T32	Thing-Nominal 224 226	木框
+T33	Person-Name 241 243;244 245	聂成 文
+T34	Person-Name 253 256	徐霞客
+T35	Time-Explicit 266 274	崇祯十年七月五日
+T36	Person-Name 275 277	霞客
+*	Coreference T36 T34
+T37	Location-Name 278 282	广西融县
+T38	Location-Name 283 286	融水县
+*	Coreference T38 T37
+T39	Thing-Nominal 294 296	韩碑
+T40	Person-Name 298 304	北宋名臣韩琦
+T41	Thing-Nominal 308 315	《画鹘行》诗碑
+*	Coreference T41 T39
+T42	Person-Nominal 318 323	韩氏后代官
+T43	Person-Name 345 347	韩琦
+T44	Location-Nominal 396 397	洞
+T45	Person-Nominal 428 429	人
+T46	Person-Name 411 414	成文氏
+T47	Person-Name 479 483	成文先生
+T48	Location-Nominal 494 498	廊之转角
+T49	Location-Nominal 500 503	景行厅
+T50	Thing-Nominal 517 519	黄匾
+T51	Person-Name 523 529	欧阳中石先生
+T52	Thing-Nominal 523 531	欧阳中石先生书额
+T53	Thing-Nominal 519 521	金字
+T54	Location-Nominal 534 538	碑廊之末
+T55	Location-Name 543 546	晴山堂
+T56	Location-Nominal 553 555	广场
+T57	Thing-Nominal 572 573	鸟
+T58	Thing-Nominal 561 563	清流
+T59	Thing-Nominal 579 585	徐霞客之立像
+T60	Thing-Nominal 591 593	青襟
+T61	Person-Nominal 604 619	“目空万卷，肆志玄览”之伟丈夫
+T62	Person-Name 579 582	徐霞客
+*	Coreference T62 T61
+T63	Time-Explicit 630 636	明末泰昌之际
+T64	Location-Nominal 642 644	院内
+T65	Person-Name 648 650	霞客
+T66	Person-Nominal 652 653	母
+R1	Family Arg1:T66 Arg2:T65	
+T67	Person-Pronoun 651 652	其
+*	Coreference T67 T65
+T68	Person-Nominal 666 668	友人
+T69	Person-Name 663 665	霞客
+R2	Social Arg1:T68 Arg2:T69	
+T70	Location-Nominal 686 687	堂
+T71	Time-Explicit 688 690	明末
+T72	Thing-Nominal 698 702	明代石刻
+T73	Time-Explicit 714 715;716 724	上 世纪七、八十年代
+T74	Location-Nominal 731 733	堂庑
+T75	Location-Nominal 728 730	院落
+T76	Thing-Nominal 739 741	红枫
+T77	Thing-Nominal 750 756	晴山堂之匾额
+T78	Person-Name 757 759	朱穆
+T79	Thing-Nominal 765 772	陈徐母教子塑像
+T80	Person-Nominal 773 776;777 778	垂髫之 童
+T81	Thing-Nominal 779 780	膝
+T82	Person-Nominal 792 793	父
+T83	Person-Nominal 801 802	母
+T84	Thing-Nominal 917 921	琪花瑶草
+T85	Thing-Nominal 951 953	旧物
+T86	Thing-Nominal 940 942	石刻
+T87	Location-Nominal 970 980	全国重点文物保护单位
+T88	Thing-Nominal 982 987	晴山堂碑刻
+T89	Person-Nominal 994 996	先贤
+T90	Person-Name 997 1004	徐氏远祖及父祖
+T91	Person-Nominal 1010 1012	时贤
+T92	Person-Nominal 1013 1014	母
+T93	Person-Nominal 1020 1022	时贤
+T94	Person-Name 1024 1026	霞客
+T95	Person-Nominal 1031 1033	作者
+T96	Person-Nominal 1035 1042;1043 1044	明一代之文章巨 擘
+T97	Person-Nominal 1045 1049	翰苑名流
+T98	Time-Explicit 1051 1053	明初
+T99	Person-Name 1054 1056	高启
+T100	Person-Name 1057 1059	宋濂
+T101	Time-Explicit 1060 1062	明中
+T102	Person-Name 1063 1066	李东阳
+T103	Person-Name 1067 1070	文征明
+T104	Person-Name 1075 1078	董其昌
+T105	Person-Name 1079 1082	黄道周
+T106	Person-Name 1083 1086	陈继儒
+T107	Person-Name 1087 1090	李流芳
+T108	Person-Nominal 1091 1093	名家
+T109	Location-Nominal 1115 1117	东壁
+T110	Time-Explicit 1137 1148	明武宗正德四年1509
+T111	Person-Name 1150 1152	文氏
+T112	Person-Nominal 1180 1182	论者
+T113	Person-Pronoun 1184 1185	其
+*	Coreference T113 T111
+T114	Person-Nominal 1200 1204	宗将众体
+T115	Person-Name 1210 1213	文征明
+T116	Person-Name 1222 1225;1226 1232	霞客之 五世祖徐一庵
+T117	Person-Nominal 1210 1221	文征明之所赞内翰徐公者
+T118	Person-Nominal 1275 1277	名家
+T119	Person-Name 1309 1311	徐氏
+T120	Person-Nominal 1317 1319	国人
+T121	Location-Nominal 1326 1330	霞客之墓
+T122	Thing-Nominal 1331 1333	墓碑
+T123	Person-Name 1335 1342	明高士霞客徐公
+T124	Thing-Nominal 1352 1354	花草
+T125	Thing-Nominal 1359 1360	鸟
+T126	Time-Implicit 1381 1383	午间
+T127	Thing-Nominal 1384 1386	糇粮
+T128	Thing-Nominal 1388 1389	水
+T129	Person-Nominal 1402 1403	人
+T130	Thing-Nominal 1426 1427	猿
+T131	Thing-Nominal 1428 1429	蛇
+T132	Person-Nominal 1452 1454	奇人
+T133	Person-Nominal 1468 1469;1470 1471	古 人

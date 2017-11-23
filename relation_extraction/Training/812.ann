@@ -1,0 +1,97 @@
+T1	Thing-Nominal 0 1	河
+T2	Thing-Nominal 1 2	海
+T3	Thing-Nominal 5 6	日
+T4	Thing-Nominal 6 7	月
+T5	Metric 24 26	千年
+T6	Thing-Nominal 35 37	天地
+T7	Thing-Nominal 42 43	毫
+T8	Thing-Nominal 44 45	墨
+T9	Time-Implicit 94 96	上古
+T10	Person-Name 97 103	黄帝史官仓颉
+T11	Thing-Nominal 106 108	双瞳
+T12	Thing-Nominal 108 110	四目
+R1	Part-Whole Arg1:T11 Arg2:T10	
+R2	Part-Whole Arg1:T12 Arg2:T10	
+T13	Thing-Nominal 112 114	奎星
+T14	Thing-Nominal 117 118	鸟
+T15	Thing-Nominal 118 119	兽
+T16	Thing-Nominal 140 141	天
+T17	Thing-Nominal 142 144	粟雨
+T18	Person-Nominal 154 158	天地圣人
+R3	General-Special Arg1:T10 Arg2:T18	
+T19	Thing-Nominal 172 174	甲骨
+T20	Thing-Nominal 178 180	钟鼎
+T21	Thing-Nominal 184 186	石鼓
+T22	Thing-Nominal 190 192	简牍
+T23	Thing-Nominal 196 198	碑碣
+T24	Thing-Name 246 248	长江
+T25	Metric 248 250	万里
+T26	Thing-Name 258 260	泰山
+T27	Thing-Nominal 271 273	高台
+T28	Thing-Nominal 275 277	玉杯
+T29	Person-Nominal 282 284	书圣
+T30	Person-Nominal 287 291	远古先贤
+T31	Thing-Nominal 304 306	枯笔
+T32	Thing-Nominal 318 320	群鹅
+T33	Thing-Nominal 323 325	兰亭
+T34	Thing-Nominal 326 327	纸
+T35	Thing-Nominal 328 330	云烟
+T36	Thing-Nominal 338 342	公孙之剑
+T37	Thing-Nominal 344 346	水墨
+T38	Location-Name 349 351	长安
+T39	Person-Nominal 363 365	壮士
+T40	Person-Nominal 370 372	圣贤
+T41	Thing-Nominal 378 380	白云
+T42	Thing-Nominal 385 387	野马
+T43	Thing-Nominal 403 404	风
+T44	Thing-Nominal 405 406	雨
+T45	Thing-Nominal 407 409	平湖
+T46	Thing-Nominal 409 411	落叶
+R4	Located Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 427 429	细流
+T48	Thing-Nominal 437 439	流水
+T49	Thing-Nominal 441 443	坚石
+T50	Thing-Nominal 461 464	柔劲者
+T51	Thing-Nominal 465 466	石
+T52	Thing-Nominal 469 470	木
+T53	Thing-Nominal 529 531	潜龙
+T54	Thing-Nominal 521 523	亢龙
+T55	Thing-Nominal 564 566	瑰宝
+T56	Thing-Nominal 570 572	明珠
+T57	Thing-Nominal 591 592	画
+T58	Thing-Nominal 624 625	箭
+T59	Thing-Nominal 626 627	林
+T60	Thing-Nominal 631 632	马
+T61	Location-Nominal 633 634	川
+T62	Thing-Nominal 640 642	瀑布
+T63	Thing-Nominal 647 649	朝露
+T64	Thing-Nominal 657 659	流星
+T65	Thing-Nominal 674 676	渔火
+T66	Thing-Nominal 682 684	家燕
+T67	Thing-Nominal 692 694	青衣
+T68	Thing-Nominal 695 696	袖
+T69	Thing-Nominal 699 701	苍松
+T70	Thing-Nominal 702 703	山
+T71	Thing-Nominal 709 711	栈道
+T72	Thing-Nominal 716 718	险峰
+T73	Thing-Nominal 734 736	桃符
+T74	Time-Implicit 731 733	元日
+T75	Location-Nominal 737 739	庙堂
+T76	Thing-Nominal 740 742	牌匾
+T77	Person-Nominal 743 745	才子
+T78	Thing-Nominal 746 748	墨稿
+T79	Person-Nominal 749 751	文人
+T80	Thing-Nominal 752 754	扇面
+T81	Person-Nominal 757 759	孩童
+T82	Person-Nominal 769 771	青年
+T83	Person-Nominal 781 782;783 784	老 者
+T84	Thing-Nominal 789 791	灵丹
+T85	Person-Nominal 826 828	智者
+T86	Person-Nominal 831 833	仁者
+T87	Person-Nominal 854 856	今人
+T88	Thing-Nominal 870 871	书
+T89	Person-Nominal 877 879	少年
+T90	Person-Nominal 884 886	少年
+R5	Located Arg1:T76 Arg2:T75	
+R6	Ownership Arg1:T77 Arg2:T78	
+R7	Ownership Arg1:T79 Arg2:T80	

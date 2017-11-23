@@ -1,0 +1,292 @@
+T1	Person-Nominal 0 2	母亲
+T2	Thing-Nominal 3 10	一只守巢的母鸟
+T3	Thing-Pronoun 11 12	她
+*	Coreference T3 T2
+T4	Thing-Nominal 13 15	鸟儿
+T5	Thing-Nominal 27 28	巢
+T6	Thing-Nominal 31 34	她的心
+R1	Part-Whole Arg1:T6 Arg2:T3	
+T7	Person-Nominal 47 50	小孩子
+T8	Person-Name 56 62	我们的张奶奶
+T9	Person-Pronoun 56 58	我们
+R2	Social Arg1:T8 Arg2:T9	
+T10	Metric 77 80	一个月
+T11	Person-Name 81 84	张奶奶
+*	Coreference T11 T8 T15 T16
+T12	Time-Implicit 95 97	今天
+T13	Time-Implicit 98 102	腊月初二
+*	Coreference T13 T12
+T14	Metric 109 112	28天
+T15	Person-Pronoun 114 115	她
+T16	Person-Pronoun 120 121	我
+T17	Person-Name 121 126	大儿子大毛
+R3	Family Arg1:T16 Arg2:T17	
+T18	Time-Implicit 126 131	腊月二十八
+T19	Person-Name 136 140	老二二毛
+R4	Family Arg1:T19 Arg2:T16	
+R5	Family Arg1:T19 Arg2:T17	
+T20	Time-Implicit 145 148	二十六
+T21	Person-Name 156 158	大毛
+*	Coreference T21 T17
+T22	Metric 161 163	两天
+T23	Person-Nominal 169 172	儿媳妇
+R6	Family Arg1:T23 Arg2:T16	
+T24	Person-Nominal 181 185	孙子孙女
+R7	Family Arg1:T24 Arg2:T23	
+R8	Family Arg1:T24 Arg2:T16	
+T25	Person-Name 186 189	张奶奶
+T26	Time-Implicit 196 198	腊月
+T27	Time-Implicit 201 203	初十
+T28	Person-Nominal 209 214	儿子、孙子
+T29	Person-Name 204 207	张奶奶
+R9	General-Special Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 209 222	儿子、孙子要盖的棉被、毛毯
+R10	Use Arg1:T28 Arg2:T30	
+T31	Person-Name 246 249	张奶奶
+T32	Time-Implicit 249 251	今年
+T33	Metric 251 254	70岁
+T34	Person-Nominal 255 257	丈夫
+R11	Family Arg1:T34 Arg2:T31	
+T35	Person-Pronoun 262 263	她
+*	Coreference T35 T31 T43
+T36	Person-Nominal 268 272	两个儿子
+R12	Family Arg1:T36 Arg2:T31	
+R13	Part-Whole Arg1:T17 Arg2:T36	
+R14	Part-Whole Arg1:T19 Arg2:T36	
+R15	Family Arg1:T36 Arg2:T34	
+T37	Person-Pronoun 283 285	他们
+*	Coreference T37 T36
+T38	Thing-Nominal 286 287	书
+R16	Use Arg1:T37 Arg2:T38	
+T39	Person-Nominal 290 294	两个儿子
+T40	Time-Implicit 288 290	现在
+T41	Person-Nominal 303 306;307 309	自己的 子女
+R17	Family Arg1:T41 Arg2:T39	
+T42	Person-Name 310 312	大毛
+T43	Person-Nominal 322 324	母亲
+T44	Location-Nominal 325 327	省城
+T45	Location-Nominal 313 315	省城
+T46	Person-Name 332 335	张奶奶
+T47	Thing-Nominal 339 345	碉堡式的楼房
+T48	Time-Implicit 350 353	出门时
+T49	Thing-Nominal 353 355	鞋子
+T50	Person-Nominal 365 367	媳妇
+T51	Person-Pronoun 386 387	她
+*	Coreference T51 T50 T138
+T52	Thing-Nominal 388 392	剩饭剩菜
+T53	Thing-Nominal 401 407	过了夜的饭菜
+T54	Person-Name 421 424	张奶奶
+T55	Thing-Nominal 431 437	过了夜的饭菜
+T56	Thing-Nominal 443 445	冰箱
+T57	Thing-Nominal 446 448	饭菜
+R18	General-Special Arg1:T57 Arg2:T55	
+T58	Time-Implicit 449 452	第二天
+T59	Person-Pronoun 459 461	我们
+T60	Location-Nominal 462 464	乡下
+T61	Time-Implicit 459 467	我们在乡下的时候
+T62	Thing-Nominal 470 472	冰箱
+T63	Thing-Nominal 473 478	吃剩的饭菜
+T64	Thing-Nominal 482 484	下餐
+T65	Person-Pronoun 494 495	我
+T66	Person-Nominal 504 508	两个孩子
+*	Coreference T66 T39
+T67	Thing-Nominal 519 523	一粒粮食
+T68	Thing-Nominal 523 526	一滴汗
+T69	Person-Name 527 530	张奶奶
+T70	Metric 519 521	一粒
+T71	Thing-Nominal 532 534	粮食
+T72	Person-Name 540 543	张奶奶
+T73	Person-Pronoun 547 548	她
+T74	Location-Nominal 549 550;551 552	家 里
+T75	Person-Nominal 552 555	一个人
+T76	Person-Name 560 562	老二
+*	Coreference T76 T19
+T77	Person-Pronoun 573 574	她
+T78	Person-Name 580 583	张奶奶
+T79	Person-Pronoun 588 589	她
+T80	Location-Nominal 590 592	乡下
+T81	Thing-Nominal 592 594	空气
+T82	Thing-Nominal 596 598	蔬菜
+T83	Person-Pronoun 601 603	自己
+*	Coreference T83 T79 T78
+T84	Thing-Nominal 609 610	钱
+T85	Time-Implicit 612 614	农闲
+T86	Person-Nominal 623 626	老年人
+R19	Social Arg1:T86 Arg2:T79	
+T87	Person-Name 638 641	张奶奶
+T88	Person-Nominal 641 644	一个人
+T89	Location-Nominal 645 647	乡下
+T90	Person-Name 676 679	张奶奶
+T91	Person-Nominal 683 687	两个儿子
+T92	Person-Nominal 693 706	这两个可爱又调皮的孙子孙女
+R20	Family Arg1:T92 Arg2:T91	
+R21	Family Arg1:T91 Arg2:T90	
+R22	Family Arg1:T90 Arg2:T92	
+T93	Person-Pronoun 709 711	他们
+*	Coreference T93 T91 T182
+T94	Time-Implicit 722 724	每年
+T95	Time-Implicit 737 742	腊月二十六
+T96	Thing-Nominal 743 744	鸡
+T97	Person-Name 752 755	张奶奶
+T98	Person-Pronoun 760 761	她
+T99	Thing-Nominal 758 759	床
+T100	Thing-Nominal 763 765	被子
+R23	Use Arg1:T98 Arg2:T100	
+T101	Thing-Nominal 774 776	炭火
+T102	Person-Name 784 787	张奶奶
+T103	Time-Implicit 792 794	这时
+T104	Thing-Nominal 802 806	一阵冷风
+T105	Person-Name 809 812	张奶奶
+T106	Thing-Nominal 822 824	棉衣
+T107	Person-Pronoun 818 819	她
+R24	Use Arg1:T107 Arg2:T106	
+T108	Location-Nominal 828 830	村头
+T109	Time-Implicit 833 838	上午10点
+T110	Person-Nominal 844 855	儿子、儿媳、孙子三个人
+R25	Family Arg1:T110 Arg2:T107	
+T111	Person-Name 856 858;859 860	张奶 奶
+T112	Thing-Nominal 863 865	眼泪
+R26	Create Arg1:T111 Arg2:T112	
+T113	Person-Pronoun 871 872	她
+T114	Person-Nominal 875 877	孙子
+R27	Part-Whole Arg1:T114 Arg2:T110	
+T115	Metric 883 885	半天
+T116	Person-Nominal 887 889	儿媳
+T117	Location-Nominal 896 898	家里
+T118	Person-Nominal 919 923	孙子他们
+T119	Thing-Nominal 914 916	鸡蛋
+T120	Person-Name 907 910	张奶奶
+T121	Location-Nominal 904 906	家里
+T122	Person-Nominal 929 936	儿子、儿媳他们
+*	Coreference T122 T110
+T123	Person-Name 940 943	张奶奶
+T124	Thing-Nominal 948 954	80多个鸡蛋
+T125	Person-Pronoun 955 956	她
+R28	Ownership Arg1:T123 Arg2:T124	
+T126	Person-Pronoun 968 969	她
+T127	Person-Nominal 974 980	孙子、孙女们
+T128	Person-Nominal 985 987	孙子
+T129	Thing-Nominal 988 991	荷包蛋
+R29	Use Arg1:T128 Arg2:T129	
+R30	Part-Whole Arg1:T128 Arg2:T127	
+T130	Person-Name 996 999	张奶奶
+T131	Thing-Nominal 1007 1012	脸上的皱纹
+R31	Part-Whole Arg1:T131 Arg2:T130	
+T132	Thing-Nominal 1016 1019	一朵花
+T133	Time-Implicit 1021 1026	腊月二十八
+T134	Person-Name 1027 1029	大毛
+T135	Person-Nominal 1036 1039	全家人
+T136	Time-Implicit 1044 1050	年三十这一天
+R33	Part-Whole Arg1:T130 Arg2:T135	
+R32	Part-Whole Arg1:T91 Arg2:T135	
+R34	Part-Whole Arg1:T127 Arg2:T135	
+T137	Person-Name 1051 1054	张奶奶
+T138	Person-Nominal 847 849	儿媳
+R35	Part-Whole Arg1:T138 Arg2:T135	
+T139	Thing-Nominal 1061 1062	鸡
+T140	Thing-Nominal 1063 1065	蒸鱼
+T141	Thing-Nominal 1068 1070	饺子
+T142	Person-Pronoun 1079 1080	她
+T143	Metric 1101 1104	10岁
+T144	Person-Nominal 1094 1095	人
+T145	Time-Implicit 1123 1127	正月初六
+T146	Person-Nominal 1129 1133	两个儿子
+T147	Thing-Nominal 1140 1141	鸡
+T148	Person-Name 1145 1148	张奶奶
+T149	Thing-Nominal 1151 1152	床
+T150	Person-Pronoun 1153 1154	她
+T151	Person-Nominal 1157 1159	儿子
+T152	Time-Implicit 1171 1174	起来时
+T153	Thing-Nominal 1175 1179	两只眼睛
+R36	Part-Whole Arg1:T153 Arg2:T150	
+T154	Thing-Nominal 1182 1184	血丝
+R37	Located Arg1:T154 Arg2:T153	
+T155	Thing-Nominal 1185 1186	头
+T156	Person-Pronoun 1192 1193	她
+T157	Thing-Nominal 1197 1202	20个鸡蛋
+T158	Metric 1197 1200	20个
+T159	Person-Nominal 1205 1210	孙子、孙女
+T160	Person-Pronoun 1214 1215	她
+T161	Thing-Nominal 1218 1220	炭火
+T162	Person-Nominal 1224 1227;1228 1230	儿子、 儿媳
+T163	Person-Pronoun 1235 1236	她
+T164	Location-Nominal 1240 1242	厨房
+T165	Person-Nominal 1246 1251	儿子、儿媳
+T166	Thing-Nominal 1246 1254	儿子、儿媳的早餐
+R38	Create Arg1:T163 Arg2:T166	
+T167	Thing-Nominal 1258 1260	早饭
+T168	Person-Nominal 1261 1267	孙子、孙女们
+*	Coreference T168 T159 T169 T188 T200
+T169	Person-Pronoun 1272 1274	他们
+T170	Thing-Nominal 1276 1281	早上的班车
+R39	Use Arg1:T169 Arg2:T170	
+T171	Location-Nominal 1282 1284	门外
+T172	Thing-Nominal 1285 1287	北风
+R40	Near Arg1:T172 Arg2:T171	
+T173	Thing-Nominal 1301 1303	刀子
+T174	Thing-Nominal 1306 1310	人们的脸
+T175	Person-Nominal 1306 1308	人们
+R41	Part-Whole Arg1:T174 Arg2:T175	
+T176	Thing-Nominal 1319 1324	一道道口子
+T177	Thing-Nominal 1327 1328	血
+T178	Location-Nominal 1330 1332	路上
+T179	Person-Nominal 1335 1339	一个行人
+T180	Thing-Nominal 1340 1342	鸟儿
+T181	Location-Nominal 1345 1347	巢里
+R42	Located Arg1:T180 Arg2:T181	
+T182	Person-Nominal 1355 1357	儿子
+T183	Person-Nominal 1358 1360	母亲
+T184	Person-Name 1365 1368	张奶奶
+T185	Person-Pronoun 1373 1374	她
+T186	Person-Nominal 1379 1381	孙子
+T187	Person-Nominal 1386 1388	孙女
+T188	Person-Pronoun 1398 1400	他们
+R43	Part-Whole Arg1:T187 Arg2:T168	
+R44	Part-Whole Arg1:T186 Arg2:T168	
+T189	Location-Nominal 1410 1414	十字路口
+T190	Thing-Nominal 1415 1417	班车
+T191	Person-Name 1420 1423	张奶奶
+T192	Person-Pronoun 1433 1434	她
+T193	Thing-Nominal 1423 1425	眼泪
+R45	Create Arg1:T191 Arg2:T193	
+T194	Person-Pronoun 1503 1504	她
+T195	Time-Implicit 1512 1515	这一年
+T196	Person-Pronoun 1524 1525	她
+T197	Person-Nominal 1529 1531	儿子
+T198	Person-Pronoun 1534 1536	他们
+*	Coreference T198 T197
+T199	Thing-Nominal 1546 1548	汽车
+T200	Person-Nominal 1552 1559	车上的孙子孙女
+T201	Person-Name 1561 1564	张奶奶
+T202	Person-Name 1578 1581	张奶奶
+T203	Thing-Nominal 1587 1589	眼中
+T204	Thing-Nominal 1592 1599	几滴浑浊的泪水
+R46	Located Arg1:T204 Arg2:T203	
+T205	Thing-Nominal 1601 1603	汽车
+T206	Location-Nominal 1609 1611	路上
+R47	Use Arg1:T198 Arg2:T199	
+R48	Use Arg1:T200 Arg2:T199	
+T207	Person-Nominal 1613 1618	早起的人群
+T208	Person-Name 1619 1622	张奶奶
+T209	Location-Nominal 1626 1628	原地
+T210	Thing-Nominal 1631 1633	汽车
+T211	Thing-Nominal 1631 1638	汽车扬起的灰尘
+T212	Location-Nominal 1646 1651	远方的天空
+T213	Location-Nominal 1662 1665	边地里
+T214	Thing-Nominal 1660 1661;1662 1669	路 边地里的包心菜
+R49	Located Arg1:T214 Arg2:T213	
+T215	Thing-Nominal 1683 1687	严冬风霜
+T216	Time-Implicit 1683 1685	严冬
+T217	Thing-Nominal 1694 1698	一只孤雁
+T218	Metric 1694 1696	一只
+T219	Thing-Pronoun 1715 1716	它
+T220	Thing-Nominal 1725 1730	自己的伴侣
+*	Coreference T219 T217
+T221	Thing-Nominal 1737 1742	自己的子女
+T222	Person-Name 1745 1748	张奶奶
+T223	Time-Implicit 1757 1759	今天
+T224	Time-Implicit 1760 1764	正月初六
+*	Coreference T224 T223
+T225	Metric 1770 1774	354天
+T226	Thing-Nominal 1752 1754	指头
+R50	Part-Whole Arg1:T226 Arg2:T222	

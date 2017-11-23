@@ -1,0 +1,170 @@
+T1	Time-Implicit 0 2	冬日
+T2	Thing-Nominal 44 46	绿叶
+T3	Thing-Nominal 49 51	香樟
+T4	Thing-Nominal 40 42	冬青
+T5	Time-Implicit 6 18	冰冻寒冷、雪花纷飞的日子
+T6	Thing-Nominal 61 63	灌木
+T7	Location-Nominal 70 74	道路旁边
+R1	Located Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 81 83	树叶
+T9	Location-Nominal 86 88	枝头
+R2	Located Arg1:T8 Arg2:T9	
+T10	Thing-Nominal 91 102	桃树、梨树、葡萄等果树
+T11	Person-Nominal 108 110	农人
+T12	Thing-Nominal 111 112	肥
+T13	Thing-Nominal 117 121;122 127	一些大棚 里的葡萄树
+T14	Thing-Nominal 146 151	河边的杨柳
+T15	Location-Nominal 146 148	河边
+R3	Located Arg1:T14 Arg2:T15	
+T16	Thing-Nominal 160 164	些许嫩芽
+T17	Thing-Pronoun 167 168	它
+*	Coreference T17 T14
+T18	Thing-Nominal 183 189	冬日里的春景
+T19	Location-Name 194 196	绿羊
+T20	Person-Pronoun 196 197	我
+T21	Location-Name 210 212	绿羊
+T22	Person-Pronoun 231 232	我
+T23	Thing-Pronoun 237 238	它
+T24	Person-Pronoun 240 241	我
+T25	Location-Nominal 243 245	门口
+T26	Person-Pronoun 247 248	我
+T27	Thing-Pronoun 258 259	它
+T28	Thing-Nominal 260 262	门庭
+T29	Thing-Nominal 266 273	以前的那个门庭
+T30	Person-Pronoun 276 277	我
+T31	Person-Pronoun 283 284	我
+T32	Thing-Pronoun 296 297	它
+T33	Person-Pronoun 300 301	我
+T34	Thing-Pronoun 321 322	它
+T35	Organization-Name 323 329	羊尖绿羊公司
+T36	Thing-Nominal 333 335	门庭
+T37	Location-Name 361 363	绿羊
+T38	Thing-Nominal 364 366	温泉
+T39	Person-Pronoun 372 374	我们
+T40	Person-Pronoun 367 368	我
+T41	Thing-Nominal 384 386	河流
+T42	Thing-Nominal 388 390	平地
+T43	Thing-Nominal 392 394	山川
+T44	Thing-Nominal 396 398	溪水
+T45	Thing-Nominal 406 408	温泉
+T46	Location-Name 411 415	香格里拉
+T47	Person-Nominal 417 418	人
+T48	Location-Pronoun 422 424	那里
+T49	Thing-Nominal 425 427	温泉
+R4	Located Arg1:T49 Arg2:T48	
+*	Coreference T48 T46
+T50	Location-Pronoun 430 432	那里
+T51	Thing-Nominal 433 440	连绵起伏的群山
+R5	Located Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 444 453	无法预料的温泉资源
+T53	Thing-Nominal 458 462	地下暗河
+T54	Location-Nominal 466 468	国外
+T55	Thing-Nominal 470 472	冰岛
+T56	Thing-Pronoun 473 475	它们
+T57	Thing-Nominal 476 477;478 481	热 地温泉
+T58	Thing-Nominal 488 492	冰天雪地
+T59	Thing-Nominal 510 514	鬼斧神工
+T60	Person-Pronoun 520 522	我们
+T61	Thing-Nominal 522 526	平原地带
+T62	Thing-Nominal 527 529	温泉
+T63	Person-Pronoun 535 536	我
+T64	Location-Name 547 549	绿羊
+T65	Thing-Nominal 551 553	温泉
+T66	Person-Nominal 554 555	人
+T67	Thing-Nominal 570 572	温泉
+T68	Time-Explicit 586 590	恐龙时代
+T69	Person-Nominal 592 596	我们后人
+T70	Person-Pronoun 592 594	我们
+T71	Thing-Pronoun 598 599	它
+*	Coreference T71 T67
+T72	Metric 606 611	600多米
+T73	Location-Pronoun 622 624	这里
+T74	Thing-Nominal 625 627	温泉
+R6	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 628 636	全封闭的溶洞温泉
+T76	Thing-Nominal 638 643	小鱼池温泉
+T77	Thing-Nominal 644 651	死海漂浮池温泉
+T78	Thing-Nominal 654 665	精油池温泉和硫磺池温泉
+T79	Person-Nominal 673 674	人
+T80	Person-Nominal 690 692	人们
+T81	Location-Name 693 695	绿羊
+T82	Location-Name 708 710	绿羊
+T83	Person-Pronoun 719 721	我们
+T84	Thing-Nominal 724 726	温泉
+T85	Location-Name 742 746	羊尖绿羊
+T86	Time-Implicit 754 756	今年
+T87	Thing-Nominal 760 761	羊
+T88	Thing-Nominal 771 772	羊
+T89	Thing-Nominal 777 778	羊
+T90	Thing-Nominal 820 821	羊
+T91	Thing-Nominal 849 853	羊肠小道
+T92	Thing-Nominal 857 858	羊
+T93	Thing-Nominal 866 867	我
+T94	Thing-Nominal 870 871	画
+T95	Thing-Nominal 874 876	毛笔
+T96	Thing-Nominal 878 880	羊毫
+T97	Thing-Pronoun 881 882	它
+*	Coreference T97 T95
+T98	Thing-Nominal 891 892	水
+T99	Thing-Nominal 899 901;902 903	笔肚 子
+T100	Thing-Nominal 905 906	水
+T101	Location-Nominal 910 913	笔尖上
+T102	Thing-Nominal 943 944	画
+T103	Person-Pronoun 952 954	我们
+T104	Person-Nominal 957 959	祖先
+T105	Person-Nominal 982 985	荡口人
+T106	Person-Nominal 986 989	羊尖人
+T107	Thing-Nominal 1016 1017	羊
+T108	Person-Nominal 1033 1036	羊尖人
+T109	Organization-Nominal 1052 1054	公司
+T110	Person-Pronoun 1071 1073	我们
+T111	Person-Nominal 1079 1083	绿羊的人
+T112	Person-Nominal 1121 1122	人
+T113	Person-Name 1132 1141	绿羊的领头羊钱锡宝
+T114	Person-Nominal 1142 1152	一位大学毕业的高材生
+T115	Person-Pronoun 1153 1154	他
+*	Coreference T115 T113
+T116	Time-Implicit 1169 1172	两年前
+T117	Organization-Nominal 1175 1179	绿羊公司
+T118	Person-Pronoun 1186 1187	他
+T119	Person-Nominal 1189 1211	一个有胆有识的、敢闯敢干的、顺应时代潮流的人
+T120	Person-Pronoun 1212 1213	他
+T121	Person-Pronoun 1228 1230	自己
+T122	Person-Nominal 1255 1257	人们
+T123	Thing-Nominal 1294 1296	绿羊
+T124	Person-Nominal 1310 1312	专家
+T125	Thing-Nominal 1340 1346	300多亩地
+T126	Metric 1340 1345	300多亩
+T127	Thing-Pronoun 1365 1366	它
+T128	Thing-Nominal 1367 1371	绿羊温泉
+T129	Thing-Nominal 1382 1415;1416 1437	梦想艺术、密室逃脱、3D影视、森林简屋、度假竹屋、汗蒸桑拿、登高望 远、军事体验、武术培训、国际象棋、欢乐庄园
+T130	Thing-Nominal 1449 1457	100多亩无花果
+T131	Person-Pronoun 1459 1460	我
+T132	Thing-Nominal 1466 1471	这样的摊子
+T133	Person-Pronoun 1504 1505	我
+T134	Person-Nominal 1513 1516	企业家
+T135	Person-Pronoun 1527 1528	我
+T136	Person-Pronoun 1576 1578	我们
+T137	Person-Nominal 1583 1587	这样的人
+T138	Person-Pronoun 1596 1597	我
+T139	Location-Name 1630 1632	绿羊
+T140	Thing-Nominal 1633 1635	温泉
+T141	Thing-Nominal 1637 1639	美景
+T142	Location-Name 1645 1647	绿羊
+T143	Person-Pronoun 1649 1650	您
+T144	Person-Nominal 1651 1655	您的家人
+T145	Person-Pronoun 1651 1652	您
+T146	Person-Pronoun 1680 1681	我
+T147	Thing-Pronoun 1690 1691	你
+T148	Thing-Nominal 1693 1695	绿羊
+*	Coreference T148 T147
+T149	Person-Nominal 1610 1613	企业家
+T150	Person-Name 1602 1604	钱总
+T151	Person-Nominal 1544 1549	好多企业家
+T152	Thing-Nominal 1550 1555	他们的企业
+T153	Person-Pronoun 1550 1552	他们
+R7	Ownership Arg1:T153 Arg2:T152	
+T154	Location-Nominal 1318 1322	各个区域
+*	Coreference T127 T123
+T155	Thing-Nominal 1472 1476;1477 1479	一个民营 企业
+*	Coreference T153 T151

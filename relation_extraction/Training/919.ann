@@ -1,0 +1,160 @@
+T1	Location-Name 2 5	新安江
+T2	Time-Implicit 31 35	今年初夏
+T3	Person-Pronoun 37 38	我
+T4	Location-Name 42 45	新安江
+T5	Location-Nominal 45 58	这个空气中弥漫着清新的小城
+T6	Location-Name 65 69	新安江畔
+T7	Location-Name 119 122	新安江
+T8	Location-Name 125 133	安徽省休宁县境内
+T9	Location-Name 136 138	率水
+*	Coreference T9 T7
+T10	Location-Name 142 146	歙县浦口
+T11	Location-Name 148 151	新安江
+T12	Location-Name 153 159	浙江省淳安县
+T13	Location-Name 161 164	建德市
+T14	Location-Name 170 172	桐庐
+T15	Location-Name 173 176	富阳市
+T16	Location-Name 181 184	富春江
+T17	Location-Name 191 197	萧山区闻家堰
+T18	Location-Name 200 208	闻名遐迩的钱塘江
+T19	Location-Name 213 215	建德
+T20	Thing-Nominal 220 226	新安江水电站
+T22	Abstract 260 264	湖泊效应
+T23	Thing-Nominal 245 246	山
+T24	Thing-Nominal 251 252	水
+T25	Location-Name 272 274	建德
+T26	Location-Nominal 276 296	这座表面上看透着几分慵懒和安逸的江南城市
+T27	Abstract 308 310	史料
+T28	Location-Name 313 315	建德
+T29	Time-Explicit 316 327	公元225年的三国时期
+T31	Metric 336 341	1800年
+T32	Time-Explicit 330 332	至今
+T33	Location-Name 345 348	建德县
+T34	Person-Name 351 354	建德侯
+T35	Location-Name 411 413	建德
+T36	Location-Name 444 447	新安江
+T37	Location-Nominal 473 475	江南
+T38	Thing-Nominal 476 477	水
+T39	Person-Pronoun 480 481	我
+T40	Location-Name 482 485	新安江
+T41	Location-Nominal 497 499	江南
+T42	Abstract 515 519	唐诗宋词
+T43	Location-Name 527 530	新安江
+T44	Location-Name 550 553	古徽州
+T45	Location-Name 563 566	新安江
+T46	Thing-Nominal 563 569	新安江的山水
+R1	Located Arg1:T46 Arg2:T45	
+T48	Thing-Nominal 577 579	崖壁
+T49	Thing-Nominal 623 635	一幅浸染了诗意的水墨丹青
+T51	Thing-Nominal 699 701	琼浆
+T52	Thing-Nominal 702 704	玉脂
+T53	Thing-Nominal 708 710	肌肤
+T54	Thing-Nominal 718 720	口舌
+T55	Person-Pronoun 755 756	你
+T56	Thing-Nominal 762 763	水
+T57	Thing-Nominal 771 773	江水
+T58	Person-Pronoun 783 784	你
+T59	Person-Nominal 792 794	作家
+T60	Time-Implicit 834 838	古往今来
+T61	Person-Nominal 844 848	文人墨客
+T62	Location-Name 858 861	新安江
+T63	Person-Name 869 872	谢灵运
+T64	Person-Name 875 877	陆游
+T65	Person-Name 880 883	孟浩然
+T66	Thing-Nominal 891 901	一篇篇脍炙人口的华章
+T67	Location-Name 903 906	新安江
+T68	Thing-Nominal 903 911	新安江不息的江水
+T69	Time-Implicit 923 925	当年
+T70	Person-Name 925 927	李白
+T71	Location-Name 929 932	新安江
+T72	Person-Nominal 1007 1009	诗仙
+T75	Thing-Nominal 1045 1046	水
+T76	Location-Name 1047 1050	新安江
+T77	Thing-Nominal 1056 1057	雾
+T78	Location-Pronoun 1059 1060	它
+*	Coreference T78 T76
+T79	Location-Name 1065 1068	新安江
+T80	Location-Name 1078 1081	新安江
+T81	Thing-Nominal 1078 1082	新安江雾
+R3	Located Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 1086 1087	雾
+T83	Thing-Nominal 1091 1092	雾
+T84	Person-Nominal 1099 1102;1103 1104	文人雅 士
+T85	Location-Name 1116 1119	新安江
+T86	Thing-Nominal 1116 1121	新安江的雾
+T87	Thing-Name 1123 1125	丝雾
+T88	Thing-Name 1129 1139	常见的笨重的“团雾”
+T89	Time-Implicit 1140 1142	清晨
+T90	Location-Name 1140 1147	清晨的白沙桥头
+T91	Thing-Nominal 1150 1151	雾
+T95	Person-Nominal 1178 1186	婀娜多姿的白沙女
+T96	Thing-Pronoun 1187 1188	她
+T97	Person-Nominal 1197 1198	人
+T98	Person-Pronoun 1225 1226	你
+T99	Location-Nominal 1238 1240	江南
+T100	Person-Nominal 1235 1242	柔美的江南女子
+T101	Location-Nominal 1255 1257	江面
+T103	Thing-Nominal 1261 1265	一层轻雾
+R4	Located Arg1:T103 Arg2:T101	
+T104	Thing-Nominal 1270 1272	轻纱
+T105	Thing-Nominal 1311 1313	蓬莱
+T106	Thing-Nominal 1315 1317	琼阁
+T107	Thing-Nominal 1347 1348	风
+T108	Thing-Nominal 1351 1353	雾气
+T109	Thing-Nominal 1376 1377	水
+T110	Thing-Nominal 1381 1382	雾
+T111	Thing-Nominal 1318 1319	风
+T112	Thing-Nominal 1273 1275	雾气
+T113	Thing-Nominal 1322 1324	雾气
+T114	Thing-Nominal 1412 1414	太阳
+T116	Location-Nominal 1417 1420	云雾里
+T115	Person-Pronoun 1456 1457	我
+T117	Location-Name 1470 1472	建德
+T118	Person-Nominal 1482 1483	人
+T119	Location-Nominal 1487 1491	一个故乡
+T121	Location-Name 1493 1495	中国
+T122	Person-Nominal 1493 1496	中国人
+T123	Location-Name 1558 1561	新安江
+T124	Person-Pronoun 1565 1567	我们
+T125	Person-Pronoun 1588 1589	我
+T126	Location-Name 1595 1598	新安江
+T127	Person-Pronoun 1668 1669	我
+T128	Person-Pronoun 1676 1677	我
+T129	Person-Nominal 1709 1711	自己
+T131	Thing-Nominal 1520 1522	芳草
+T132	Thing-Nominal 1525 1527	泊舟
+T133	Thing-Nominal 1515 1517	远山
+T134	Thing-Nominal 1535 1539	小巷人家
+T135	Thing-Nominal 1307 1308	雾
+T136	Thing-Nominal 1341 1343	浪涛
+T137	Abstract 357 362;363 370	《三国志・ 吴书・孙韶传》
+T138	Location-Name 965 968	新安江
+T139	Location-Nominal 93 97	琼瑶仙境
+T21	Thing-Name 235 240;241 244	一碧万顷的 千岛湖
+T140	Metric 237 239	万顷
+T30	Thing-Nominal 601 605	连绵山峦
+T47	Location-Nominal 636 639	浅滩处
+T50	Thing-Nominal 639 641	水草
+R2	Located Arg1:T50 Arg2:T47	
+T141	Thing-Nominal 644 646	游鱼
+R5	Located Arg1:T141 Arg2:T47	
+T142	Thing-Nominal 649 651	江风
+T143	Person-Nominal 676 677	人
+T144	Location-Name 683 686	新安江
+T145	Thing-Nominal 683 688	新安江的水
+R6	Located Arg1:T145 Arg2:T144	
+R7	Located Arg1:T68 Arg2:T67	
+T73	Thing-Nominal 1025 1033;1034 1040	一帧让世人心荡神 驰的山水画卷
+T74	Thing-Nominal 1065 1072	新安江风景长卷
+T92	Thing-Nominal 1157 1163;1164 1175	那尊一袭白裙 随风舒展姿容婉顺的塑像
+T93	Thing-Nominal 1284 1285;1286 1287	帷 幔
+T94	Thing-Nominal 1333 1335	絮团
+T102	Thing-Nominal 1364 1366	细纱
+T146	Time-Implicit 1409 1411	少顷
+T147	Abstract 1403 1407	海市蜃楼
+R8	Located Arg1:T114 Arg2:T116	
+T148	Thing-Nominal 1426 1427	云
+T149	Thing-Nominal 1428 1429	雾
+T150	Thing-Nominal 1439 1441	峰峦
+T120	Thing-Nominal 1540 1542	杨柳
+T151	Thing-Nominal 1605 1612	一口清新的空气

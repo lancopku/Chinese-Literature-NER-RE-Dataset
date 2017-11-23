@@ -1,0 +1,225 @@
+T1	Thing-Nominal 12 14	书籍
+T2	Thing-Nominal 27 30	小册子
+T3	Thing-Name 31 41	上海吴泾化工厂的诞生
+*	Coreference T3 T2 T6 T8 T9
+T4	Thing-Nominal 49 51	书柜
+T5	Time-Implicit 51 56	近半个世纪
+T6	Thing-Nominal 57 59	小书
+R1	Located Arg1:T6 Arg2:T4	
+T7	Person-Pronoun 61 62	我
+T8	Thing-Pronoun 68 69	它
+T9	Thing-Nominal 92 94	该书
+T10	Time-Explicit 95 100	1965年
+T11	Organization-Name 101 108	上海人民出版社
+T12	Organization-Name 123 130	上海吴泾化工厂
+T13	Location-Name 136 138	上海
+T14	Organization-Nominal 171 174	出版社
+*	Coreference T14 T11
+T15	Organization-Nominal 175 176	厂
+*	Coreference T15 T12
+T16	Person-Nominal 180 185	两位副厂长
+T17	Person-Nominal 188 192	党办主任
+T18	Person-Pronoun 193 194	我
+T19	Thing-Nominal 195 196	笔
+R2	Use Arg1:T18 Arg2:T19	
+R3	Use Arg1:T17 Arg2:T19	
+R4	Ownership Arg1:T16 Arg2:T15	
+R5	Ownership Arg1:T17 Arg2:T15	
+T20	Person-Pronoun 200 201	我
+T21	Thing-Nominal 221 224	这本书
+T22	Time-Implicit 240 242	当年
+T23	Location-Name 242 244	上海
+T24	Location-Nominal 246 248	国内
+T25	Person-Nominal 248 252	工人阶级
+T26	Person-Nominal 253 257	科技人员
+T27	Organization-Nominal 264 266	工厂
+T28	Person-Pronoun 302 303	我
+T29	Time-Explicit 313 322	20世纪50年代末
+T30	Location-Nominal 323 325	国外
+T31	Location-Nominal 328 330	国内
+T32	Thing-Nominal 358 360	乌云
+T33	Organization-Nominal 375 377	国家
+T34	Location-Name 389 391	上海
+T35	Organization-Nominal 398 403	大型氮肥厂
+T36	Thing-Nominal 405 407	氮肥
+T37	Person-Nominal 413 415	人民
+T38	Person-Pronoun 420 421	我
+T39	Location-Nominal 423 425	校门
+T40	Organization-Nominal 442 445	氮肥厂
+T41	Thing-Nominal 452 454	氮肥
+T42	Thing-Nominal 469 472	化合物
+T43	Thing-Nominal 476 478	谷物
+T44	Thing-Nominal 483 486	蛋白质
+T45	Metric 512 514	1斤
+T46	Metric 518 521	10斤
+T47	Thing-Nominal 521 522	粮
+T48	Time-Implicit 547 553	改革开放以前
+T49	Organization-Nominal 565 568	氮肥厂
+T50	Metric 595 601	1000多度
+T51	Thing-Nominal 602 605	沸腾炉
+T52	Metric 608 613	零下几十度
+T53	Thing-Nominal 614 617	冰冻机
+T54	Thing-Nominal 630 634	高压设备
+T55	Thing-Nominal 635 637	管道
+T56	Thing-Nominal 643 645	设备
+R6	Ownership Arg1:T49 Arg2:T51	
+R7	Ownership Arg1:T49 Arg2:T53	
+R8	Ownership Arg1:T49 Arg2:T54	
+R9	Ownership Arg1:T49 Arg2:T55	
+T57	Thing-Nominal 660 664	金属材料
+T58	Thing-Nominal 668 672	心脏设备
+T59	Thing-Nominal 672 675	合成塔
+*	Coreference T59 T58
+T60	Metric 687 693	摄氏500度
+T61	Organization-Nominal 705 707	工厂
+T62	Thing-Nominal 718 720	铁塔
+T63	Thing-Nominal 723 725	管道
+T64	Thing-Nominal 726 727	网
+R10	Ownership Arg1:T61 Arg2:T62	
+R11	Ownership Arg1:T61 Arg2:T63	
+T65	Organization-Nominal 737 740	钢铁厂
+T66	Organization-Name 750 752	中国
+T67	Thing-Nominal 756 760	高压设备
+T68	Organization-Nominal 763 766	氮肥厂
+T69	Metric 771 774	10年
+T70	Metric 775 778	20年
+T71	Organization-Pronoun 779 781	他们
+T72	Organization-Name 787 789	中国
+T73	Organization-Name 801 803	吴泾
+T74	Location-Name 807 816	上海市南郊浦江西岸
+T75	Location-Nominal 820 822	小镇
+R12	Part-Whole Arg1:T75 Arg2:T74	
+T76	Location-Nominal 828 830	江滩
+R13	Near Arg1:T76 Arg2:T75	
+T77	Organization-Name 835 837	中国
+T78	Organization-Pronoun 840 842	自己
+*	Coreference T77 T78
+T79	Organization-Nominal 846 849	氮肥厂
+T80	Organization-Name 851 858	上海吴泾化工厂
+*	Coreference T79 T80
+T81	Person-Nominal 876 879	吴泾人
+T82	Organization-Nominal 881 882	党
+T83	Thing-Nominal 901 903	河水
+T84	Thing-Nominal 905 907	工棚
+T85	Person-Nominal 918 922;923 925	上海工人 阶级
+T86	Thing-Nominal 938 942	高压设备
+R14	Create Arg1:T85 Arg2:T86	
+T87	Person-Nominal 990 992	有人
+T88	Person-Pronoun 1002 1004	我们
+T89	Thing-Nominal 1005 1007	双手
+R15	Part-Whole Arg1:T89 Arg2:T88	
+T90	Organization-Name 1023 1025	吴泾
+T91	Thing-Nominal 1033 1034	锣
+T92	Thing-Nominal 1034 1035	鼓
+T93	Person-Nominal 1038 1042	上海工人
+T94	Person-Nominal 1045 1049	国内工人
+T95	Person-Pronoun 1050 1052	他们
+T96	Thing-Nominal 1063 1065	红绸
+T97	Thing-Nominal 1068 1070	彩旗
+T98	Person-Nominal 1073 1075	新娘
+T99	Location-Name 1081 1090	黄浦江畔的无名小镇
+*	Coreference T93 T95 T94
+T100	Time-Explicit 1093 1100	1962年冬天
+T101	Organization-Name 1101 1108	上海吴泾化工厂
+T102	Thing-Nominal 1131 1132	雨
+T103	Location-Nominal 1136 1140	神州大地
+T104	Person-Nominal 1163 1168	看笑话的人
+T105	Person-Nominal 1173 1176	中国人
+T106	Person-Nominal 1176 1178	自己
+*	Coreference T105 T106
+T107	Organization-Nominal 1180 1185	大型氮肥厂
+T108	Organization-Nominal 1197 1199	工厂
+*	Coreference T108 T107
+T109	Organization-Pronoun 1206 1208	我国
+T110	Organization-Name 1173 1175	中国
+*	Coreference T109 T110
+T111	Location-Nominal 1219 1221	仪器
+T112	Thing-Nominal 1221 1223	仪表
+T113	Organization-Pronoun 1261 1263	我国
+T114	Organization-Nominal 1271 1275;1276 1277	大型氮肥 厂
+T115	Organization-Pronoun 1283 1285	我国
+T116	Time-Implicit 1310 1312	当年
+T117	Thing-Nominal 1317 1320	小册子
+T118	Metric 1339 1341	几尺
+T119	Person-Pronoun 1346 1347	我
+T120	Thing-Pronoun 1349 1350	它
+*	Coreference T120 T117
+T121	Person-Nominal 1353 1359	中国工人阶级
+T122	Person-Nominal 1372 1380	各行各业科技人员
+T123	Person-Nominal 1417 1421	中国人民
+T124	Thing-Nominal 1448 1451	小册子
+T125	Person-Pronoun 1457 1458	我
+T126	Location-Nominal 1465 1467	沧海
+T127	Thing-Nominal 1468 1469	粟
+R16	Located Arg1:T127 Arg2:T126	
+T128	Time-Implicit 1479 1481	今日
+T129	Time-Explicit 1486 1490	半个世纪
+T130	Time-Implicit 1524 1526	当年
+T131	Person-Name 1526 1528	朱德
+T132	Person-Name 1529 1532	邓小平
+T133	Person-Name 1533 1536	董必武
+T134	Person-Nominal 1537 1542	国家领导人
+R17	General-Special Arg1:T133 Arg2:T134	
+R18	General-Special Arg1:T132 Arg2:T134	
+R19	General-Special Arg1:T131 Arg2:T134	
+T135	Organization-Nominal 1544 1545	厂
+T136	Person-Nominal 1554 1557	吴泾人
+T137	Person-Nominal 1560 1568	近百个国家的外宾
+T138	Organization-Nominal 1569 1570	厂
+T139	Person-Nominal 1576 1579	中国人
+T140	Organization-Name 1598 1605	上海吴泾化工厂
+*	Coreference T138 T140
+T141	Time-Implicit 1612 1614	当年
+T142	Organization-Pronoun 1614 1616	我国
+T143	Time-Implicit 1630 1632	不久
+T144	Organization-Pronoun 1633 1635	我国
+T145	Time-Explicit 1636 1641	1964年
+T146	Thing-Nominal 1647 1650	原子弹
+T147	Time-Explicit 1651 1656	1966年
+T148	Thing-Nominal 1656 1658	氢弹
+T149	Time-Explicit 1663 1668	1970年
+T150	Thing-Nominal 1668 1672	人造卫星
+R20	Create Arg1:T144 Arg2:T148	
+R21	Create Arg1:T144 Arg2:T146	
+R22	Create Arg1:T144 Arg2:T150	
+T151	Organization-Nominal 1680 1681	党
+T152	Time-Explicit 1708 1714	改革开放以后
+T153	Organization-Pronoun 1731 1733	我国
+T154	Person-Pronoun 1740 1742	我们
+T155	Time-Explicit 1763 1765	今天
+T156	Thing-Nominal 1766 1770	载人航天
+T157	Thing-Nominal 1771 1775	探月工程
+T158	Thing-Nominal 1776 1781	超级计算机
+T159	Thing-Nominal 1782 1784	航母
+T160	Person-Nominal 1797 1801	中国人民
+T161	Organization-Nominal 1814 1815	党
+R23	Create Arg1:T160 Arg2:T159	
+R24	Create Arg1:T160 Arg2:T157	
+R25	Create Arg1:T160 Arg2:T156	
+R26	Create Arg1:T160 Arg2:T158	
+T162	Person-Pronoun 1837 1838	我
+T163	Thing-Nominal 1840 1841	书
+T164	Thing-Nominal 1843 1845	灰尘
+R27	Located Arg1:T163 Arg2:T164	
+T165	Thing-Nominal 1853 1855	书柜
+R28	Located Arg1:T163 Arg2:T165	
+T166	Person-Pronoun 1863 1864	我
+T167	Organization-Name 1867 1872	中国共产党
+T168	Organization-Nominal 1883 1884	党
+*	Coreference T168 T167
+T169	Time-Implicit 1885 1893	社会主义初级阶段
+T170	Person-Nominal 1905 1911	全国各族人民
+T171	Organization-Pronoun 1950 1952	我国
+T172	Organization-Nominal 1965 1974	社会主义现代化国家
+*	Coreference T171 T172
+T173	Person-Pronoun 1987 1989	我们
+T174	Person-Pronoun 2009 2010	我
+T175	Thing-Nominal 2016 2018	土地
+T176	Person-Nominal 2023 2026	吴泾人
+T177	Person-Pronoun 2027 2029	他们
+*	Coreference T177 T176
+T178	Organization-Name 2052 2055	“吴泾
+T179	Organization-Name 2061 2063	吴泾
+T180	Organization-Nominal 2091 2093	国家
+T181	Time-Implicit 2102 2104	近年
+T182	Time-Implicit 2136 2139	新时期

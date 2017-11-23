@@ -1,0 +1,241 @@
+T1	Time-Explicit 1 5	2008
+T2	Location-Name 5 7	北京
+T3	Organization-Name 35 39	中华民族
+T4	Organization-Pronoun 52 56	我们民族
+*	Coreference T3 T4 T6
+T5	Organization-Name 67 69	中国
+T6	Organization-Pronoun 88 92	我们民族
+T7	Person-Nominal 118 122	世界人民
+T8	Thing-Nominal 155 158	大脚印
+T9	Organization-Name 159 163	中华民族
+T10	Person-Nominal 164 167	先民们
+T11	Person-Pronoun 169 171	你们
+*	Coreference T11 T10
+T12	Thing-Nominal 174 176	火药
+R1	Create Arg1:T11 Arg2:T12	
+T13	Thing-Nominal 180 182	人类
+T14	Person-Pronoun 186 188	你们
+T15	Time-Explicit 193 195	今天
+T16	Person-Nominal 195 200	你们的子孙
+T17	Thing-Nominal 202 204	焰火
+T18	Metric 231 233	百年
+T19	Thing-Nominal 236 238	烟云
+T20	Person-Nominal 239 243	奥运巨人
+T21	Thing-Nominal 244 246	脚印
+T22	Location-Name 250 252	北京
+T23	Location-Nominal 267 269	鸟巢
+T24	Person-Pronoun 272 274	我们
+*	Coreference T24 T16
+R2	Part-Whole Arg1:T12 Arg2:T14	
+T25	Thing-Nominal 275 277	脚步
+T26	Thing-Pronoun 285 286	它
+*	Coreference T26 T25
+T27	Person-Pronoun 297 298	你
+T28	Thing-Nominal 304 308	奥运五环
+T29	Location-Nominal 316 318	地上
+R3	Located Arg1:T28 Arg2:T29	
+T30	Person-Pronoun 323 325	我们
+T31	Thing-Nominal 326 327	心
+R4	Part-Whole Arg1:T31 Arg2:T30	
+T32	Person-Nominal 333 336	中华儿
+T33	Metric 338 340	百年
+T34	Metric 343 345	百年
+T35	Time-Explicit 353 355	今天
+T36	Person-Nominal 364 368	奥运巨人
+T37	Thing-Nominal 369 371	脚印
+T38	Location-Name 377 379	北京
+T39	Location-Nominal 379 381	夜空
+R5	Located Arg1:T37 Arg2:T39	
+T40	Thing-Pronoun 382 383	它
+*	Coreference T40 T37 T41
+T41	Thing-Pronoun 407 408	它
+T42	Person-Nominal 415 417	人们
+T43	Person-Nominal 433 435	勇士
+T44	Thing-Nominal 451 452	方
+T45	Thing-Nominal 455 456	银
+T46	Person-Nominal 468 472	中华健儿
+T47	Thing-Nominal 489 490	缶
+R6	Use Arg1:T46 Arg2:T47	
+T48	Person-Nominal 491 492	宾
+T49	Person-Nominal 466 467	客
+*	Coreference T48 T49 T51
+T50	Thing-Nominal 424 425	缶
+T51	Person-Nominal 426 427	宾
+T52	Thing-Nominal 501 502	缶
+T53	Thing-Nominal 506 508	春雷
+T54	Thing-Nominal 512 513	鼓
+T55	Person-Nominal 522 523	朋
+T56	Location-Nominal 524 526	远方
+T57	Location-Nominal 536 538	夜空
+T58	Person-Pronoun 540 542	我们
+T59	Person-Nominal 545 547	先贤
+T60	Person-Pronoun 548 549	我
+T61	Person-Nominal 550 552	嘉宾
+R7	Social Arg1:T60 Arg2:T61	
+T62	Thing-Nominal 555 556	瑟
+T63	Thing-Nominal 557 558	笙
+R8	Use Arg1:T61 Arg2:T63	
+R9	Use Arg1:T60 Arg2:T62	
+T64	Thing-Nominal 564 566	礼花
+T65	Location-Nominal 571 573	夜空
+T66	Location-Name 584 586	北京
+T67	Location-Pronoun 587 588	它
+*	Coreference T67 T66
+R10	Social Arg1:T46 Arg2:T48	
+T68	Location-Nominal 601 604	五大洲
+T69	Person-Nominal 605 609	奥运健儿
+T70	Person-Nominal 612 614	宾朋
+T71	Organization-Nominal 619 621	祖国
+T72	Thing-Nominal 623 625	红衣
+T73	Person-Nominal 625 628	小女孩
+R11	Ownership Arg1:T73 Arg2:T72	
+T74	Organization-Nominal 632 634	祖国
+T75	Thing-Nominal 636 638	红衣
+T76	Person-Nominal 638 641	小女孩
+R12	Ownership Arg1:T76 Arg2:T75	
+T77	Person-Pronoun 642 643	你
+*	Coreference T76 T77
+T78	Person-Nominal 656 657	人
+T79	Person-Nominal 668 671	亿万人
+T80	Person-Nominal 678 682	祖国人民
+T81	Person-Pronoun 692 694	我们
+T82	Time-Implicit 699 703	此时此刻
+T83	Person-Nominal 711 712	人
+T84	Person-Nominal 714 715	人
+T85	Thing-Nominal 715 717	热泪
+T86	Person-Nominal 726 730	炎黄子孙
+*	Coreference T81 T86 T80
+T87	Metric 731 733	百年
+T88	Time-Explicit 736 738	今天
+T89	Thing-Nominal 742 746	五星红旗
+T90	Thing-Nominal 747 751	五环旗帜
+T91	Location-Name 757 759	北京
+T92	Location-Nominal 757 761	北京上空
+R13	Located Arg1:T90 Arg2:T92	
+R14	Located Arg1:T89 Arg2:T92	
+T93	Location-Name 767 771	鸟巢上空
+R15	Located Arg1:T90 Arg2:T93	
+R16	Located Arg1:T89 Arg2:T93	
+T94	Location-Nominal 767 769	鸟巢
+R17	Part-Whole Arg1:T93 Arg2:T91	
+T95	Thing-Nominal 782 784	高山
+T96	Thing-Nominal 787 789	平原
+T97	Thing-Name 795 797	黄河
+T98	Thing-Name 798 800	长江
+T99	Thing-Nominal 806 808	土地
+T100	Person-Pronoun 810 812	我们
+T101	Location-Nominal 815 817	家乡
+R18	Located Arg1:T98 Arg2:T101	
+R19	Located Arg1:T97 Arg2:T101	
+R20	Located Arg1:T96 Arg2:T101	
+R21	Located Arg1:T95 Arg2:T101	
+R22	Located Arg1:T99 Arg2:T101	
+T102	Person-Nominal 825 830	华夏儿女们
+T103	Time-Implicit 835 839	此时此刻
+T104	Organization-Nominal 842 844	祖国
+T105	Person-Nominal 845 850	红衣小女孩
+T106	Person-Pronoun 854 855	她
+*	Coreference T106 T105 T108
+T107	Person-Nominal 860 861	人
+T108	Person-Pronoun 872 873	她
+T109	Thing-Nominal 879 881	春花
+T110	Organization-Nominal 887 891	兄弟民族
+T111	Person-Nominal 892 896	小伙伴们
+R23	Social Arg1:T108 Arg2:T111	
+T112	Person-Pronoun 898 899	你
+T113	Person-Pronoun 901 903	他们
+*	Coreference T113 T111
+T114	Thing-Nominal 910 914	五星红旗
+T115	Person-Pronoun 916 918	我们
+T116	Organization-Nominal 923 925	祖国
+T117	Time-Implicit 926 928	明天
+T118	Organization-Nominal 929 931	祖国
+T119	Time-Implicit 932 934	未来
+T120	Thing-Nominal 939 941	春光
+T121	Thing-Nominal 952 954	黑衣
+T122	Person-Nominal 960 962	精灵
+R24	Ownership Arg1:T122 Arg2:T121	
+T123	Thing-Nominal 965 967	黑衣
+T124	Person-Nominal 973 975	精灵
+R25	Ownership Arg1:T124 Arg2:T123	
+T125	Location-Nominal 984 988	华夏大地
+T126	Person-Nominal 1018 1019	人
+T127	Person-Nominal 1045 1047	精灵
+T128	Thing-Nominal 1052 1054	大笔
+T129	Person-Nominal 1056 1058	文人
+T130	Thing-Nominal 1084 1085	线
+T131	Location-Nominal 1095 1099	神州大地
+*	Coreference T125 T131
+T132	Thing-Nominal 1101 1102	山
+T133	Thing-Nominal 1103 1104	河
+R26	Located Arg1:T132 Arg2:T131	
+R27	Located Arg1:T133 Arg2:T131	
+T134	Thing-Nominal 1118 1120	山水
+T135	Thing-Nominal 1124 1126	线条
+T136	Person-Nominal 1134 1135	人
+T137	Person-Nominal 1139 1140	人
+T138	Person-Nominal 1146 1150	炎黄子孙
+T139	Thing-Nominal 1152 1153	山
+T140	Thing-Nominal 1153 1154	河
+T141	Organization-Name 1160 1162	中华
+T142	Thing-Nominal 1164 1165	河
+T143	Thing-Nominal 1165 1166	山
+T144	Thing-Nominal 1207 1209	汉字
+T145	Thing-Name 1215 1217	钟鼎
+T146	Thing-Name 1218 1220	隶书
+T147	Thing-Name 1221 1223	楷书
+R28	General-Special Arg1:T145 Arg2:T144	
+R29	General-Special Arg1:T146 Arg2:T144	
+R30	General-Special Arg1:T147 Arg2:T144	
+T148	Organization-Nominal 1227 1231	我们民族
+T149	Organization-Nominal 1241 1243;1244 1248	我们 古老民族
+T150	Metric 1255 1258	千百年
+T151	Person-Nominal 1276 1280	我们祖先
+T152	Person-Nominal 1322 1324	人民
+T153	Person-Pronoun 1340 1341	我
+T154	Person-Pronoun 1342 1343	你
+T155	Thing-Nominal 1344 1345	心
+T156	Thing-Nominal 1346 1347	心
+R31	Part-Whole Arg1:T155 Arg2:T153	
+R32	Part-Whole Arg1:T156 Arg2:T154	
+R33	Social Arg1:T153 Arg2:T154	
+T157	Location-Name 1350 1353	地球村
+T158	Metric 1358 1360	千里
+T159	Location-Name 1365 1367	北京
+T160	Person-Nominal 1371 1373	朋友
+T161	Person-Pronoun 1376 1377	你
+*	Coreference T161 T160
+T162	Thing-Nominal 1378 1379	手
+R34	Part-Whole Arg1:T162 Arg2:T161	
+T163	Organization-Name 1385 1389	中华民族
+*	Coreference T148 T163
+T164	Person-Name 1417 1419	刘欢
+T165	Person-Name 1420 1426	莎拉。布莱曼
+R35	Social Arg1:T164 Arg2:T165	
+T166	Location-Nominal 1443 1446	五大洲
+T167	Person-Nominal 1447 1449	民众
+T168	Person-Nominal 1450 1456	地球村居民们
+T169	Person-Pronoun 1468 1470	他们
+*	Coreference T167 T168 T169
+T170	Thing-Nominal 1471 1472	心
+R36	Part-Whole Arg1:T170 Arg2:T169	
+T171	Person-Name 1514 1516	刘欢
+T172	Organization-Name 1520 1523	中华族
+T173	Person-Nominal 1532 1536	月光女神
+T174	Person-Name 1536 1537;1538 1543	莎 拉。布莱曼
+*	Coreference T173 T174
+T175	Location-Nominal 1554 1556	天外
+T176	Location-Name 1565 1567	地球
+T177	Person-Nominal 1574 1580	地球村村民们
+T178	Person-Nominal 1683 1684	人
+T179	Person-Pronoun 1703 1704	你
+T180	Location-Nominal 1709 1712	五大洲
+T181	Person-Nominal 1721 1723	儿童
+T182	Person-Pronoun 1727 1729	他们
+*	Coreference T182 T181
+T183	Person-Pronoun 1735 1737	他们
+T184	Thing-Nominal 1729 1731	眼睛
+R37	Part-Whole Arg1:T184 Arg2:T182	
+T185	Person-Pronoun 1742 1744	他们
+T186	Thing-Nominal 1745 1747	笑脸
+R38	Part-Whole Arg1:T186 Arg2:T185	

@@ -1,0 +1,63 @@
+T1	Location-Nominal 8 10	天空
+T2	Thing-Nominal 19 21	乌云
+T3	Metric 17 19	片片
+T4	Person-Nominal 30 31	人
+T5	Thing-Nominal 39 40	风
+T6	Thing-Nominal 52 54	纸币
+T7	Person-Nominal 62 67	迷途的孩子
+T8	Person-Pronoun 95 96	你
+T9	Thing-Nominal 108 109	眼
+T10	Thing-Nominal 116 118	躯体
+T11	Person-Pronoun 114 115	你
+R1	Part-Whole Arg1:T10 Arg2:T11	
+T12	Person-Nominal 126 128	别人
+T13	Thing-Nominal 135 136	风
+T14	Thing-Nominal 143 144	雨
+T15	Person-Pronoun 151 152	你
+T16	Thing-Nominal 161 165	木头匣子
+T17	Person-Pronoun 174 175	你
+T18	Thing-Nominal 193 194	土
+T19	Location-Nominal 206 208	地下
+T20	Location-Nominal 213 217	一个地方
+T21	Location-Pronoun 218 222	那个地方
+*	Coreference T21 T20
+T22	Location-Nominal 225 227	天堂
+T23	Location-Nominal 230 232	地狱
+T24	Person-Pronoun 234 235	我
+T25	Person-Pronoun 238 239	你
+T26	Person-Nominal 261 262	人
+T27	Thing-Nominal 267 268	风
+T28	Person-Pronoun 273 275	我们
+T29	Thing-Nominal 275 276	脸
+R2	Part-Whole Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 278 280	泪痕
+R3	Located Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 281 282	心
+R4	Part-Whole Arg1:T31 Arg2:T28	
+T32	Person-Pronoun 291 292	你
+T33	Person-Pronoun 297 299	我们
+T34	Thing-Nominal 301 302	车
+T35	Location-Nominal 308 309	路
+T36	Thing-Nominal 311 317	绿茵茵的麦苗
+T37	Person-Pronoun 326 327	我
+T38	Person-Pronoun 332 333	你
+T39	Location-Nominal 336 338	居所
+T40	Location-Pronoun 339 346	那块突出的地方
+*	Coreference T40 T39
+T41	Location-Nominal 374 379	四周的麦地
+T42	Person-Pronoun 371 372	我
+T43	Location-Nominal 385 390	绿色的地毯
+T44	Person-Nominal 411 412	人
+T45	Metric 408 411	多少个
+T46	Location-Pronoun 413 416	这条路
+*	Coreference T35 T46
+T47	Thing-Nominal 421 423	泪水
+T48	Person-Pronoun 426 428	她们
+T49	Location-Nominal 401 403	地方
+T50	Thing-Nominal 456 458	尘土
+T51	Person-Pronoun 459 461	我们
+T52	Person-Nominal 473 475	过客
+T53	Metric 468 470	一个
+T54	Thing-Nominal 484 486	尘埃
+T55	Person-Nominal 546 547	人
+T56	Person-Pronoun 562 564	我们

@@ -1,0 +1,466 @@
+T1	Thing-Nominal 6 8	门缝
+T2	Thing-Nominal 20 23	土坯墙
+T3	Thing-Nominal 36 38	墙壁
+T4	Person-Pronoun 40 41	她
+T5	Person-Pronoun 45 46	她
+T6	Person-Pronoun 68 69	她
+T7	Thing-Nominal 87 91	她的耳朵
+T8	Location-Nominal 97 99	炕头
+T9	Person-Pronoun 114 115	她
+T10	Person-Pronoun 116 118	他们
+T11	Person-Pronoun 142 143	她
+T12	Person-Pronoun 155 157	他们
+T13	Thing-Nominal 184 187	老年斑
+T14	Thing-Nominal 210 214	一缕白发
+T15	Person-Pronoun 247 249	他们
+T16	Time-Explicit 255 257	四天
+*	Coreference T3 T2
+T17	Time-Explicit 71 74	四天半
+T18	Person-Pronoun 133 134	她
+T19	Person-Pronoun 160 161	她
+T20	Thing-Nominal 222 224	白发
+T21	Location-Nominal 227 231	鬓角两侧
+R1	Located Arg1:T20 Arg2:T21	
+T22	Person-Pronoun 234 235	她
+T23	Person-Pronoun 259 260	她
+T24	Thing-Nominal 271 273	土墙
+T25	Person-Pronoun 276 278	他们
+T26	Person-Pronoun 280 281	她
+T27	Person-Pronoun 294 296	他们
+T28	Time-Implicit 300 303	十多年
+T29	Person-Pronoun 306 307	她
+T30	Thing-Nominal 323 324	牛
+T31	Location-Nominal 327 328	屋
+T32	Person-Pronoun 329 330	她
+R2	Located Arg1:T30 Arg2:T31	
+T33	Thing-Nominal 337 339	土墙
+T34	Thing-Nominal 343 344	牛
+T35	Thing-Nominal 345 346	草
+T36	Thing-Nominal 348 349	牛
+T37	Thing-Pronoun 351 352	她
+*	Coreference T37 T36
+T38	Thing-Nominal 375 376	牛
+T39	Person-Pronoun 380 381	她
+T40	Location-Nominal 404 406	房子
+T42	Person-Pronoun 410 411	她
+T43	Person-Pronoun 387 388	牛
+T41	Thing-Nominal 397 408	头最后离开这栋房子的牛
+R3	Part-Whole Arg1:T41 Arg2:T43	
+T44	Time-Implicit 422 426	二十年前
+T45	Location-Nominal 432 434	新居
+T46	Person-Pronoun 438 439	她
+T47	Person-Nominal 446 449	儿孙们
+R4	Family Arg1:T46 Arg2:T47	
+T48	Person-Pronoun 457 458	她
+T49	Location-Nominal 466 468	舞台
+T50	Location-Nominal 490 492	堂屋
+R5	Part-Whole Arg1:T50 Arg2:T45	
+T51	Person-Nominal 504 507	掌权者
+T52	Location-Nominal 512 514	厨房
+T53	Person-Nominal 527 530	老太太
+R6	Part-Whole Arg1:T52 Arg2:T45	
+T54	Location-Nominal 533 537	东西厢房
+R7	Part-Whole Arg1:T54 Arg2:T45	
+T55	Person-Nominal 539 542	孙子们
+T56	Person-Pronoun 549 550	她
+T57	Location-Nominal 554 556	牛房
+R8	Part-Whole Arg1:T57 Arg2:T45	
+T58	Metric 562 567	十二平方米
+T59	Location-Nominal 568 570	偏房
+*	Coreference T57 T59
+T60	Thing-Nominal 572 573	牛
+T61	Person-Pronoun 577 578	她
+T62	Thing-Nominal 582 583	牛
+T63	Location-Nominal 589 591	土炕
+R9	Part-Whole Arg1:T63 Arg2:T59	
+T64	Time-Implicit 593 599	最初的七八年
+T65	Person-Pronoun 601 602	她
+T66	Thing-Nominal 613 614	牛
+T67	Thing-Nominal 618 619	牛
+T68	Thing-Nominal 643 645	尾巴
+R10	Part-Whole Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 646 648	蚊子
+T70	Person-Pronoun 659 660	她
+T71	Person-Pronoun 671 672	她
+T72	Thing-Nominal 678 679	牛
+T73	Person-Pronoun 685 686	她
+T74	Thing-Nominal 702 703	牛
+T75	Thing-Nominal 706 707	草
+T76	Thing-Nominal 727 728	鸡
+T77	Person-Pronoun 732 733	她
+T78	Thing-Nominal 735 736	牛
+T79	Location-Nominal 750 752	牛房
+T80	Thing-Nominal 754 755	牛
+R11	Located Arg1:T80 Arg2:T79	
+R12	Located Arg1:T60 Arg2:T57	
+T81	Person-Nominal 761 766	牛房的主人
+T82	Person-Nominal 773 775	人们
+T83	Person-Pronoun 778 779	她
+T84	Person-Nominal 782 786	将走的人
+*	Coreference T83 T84
+T85	Person-Pronoun 788 789	她
+T86	Person-Nominal 789 791	自己
+*	Coreference T85 T86
+T87	Location-Nominal 811 813	牛房
+T88	Thing-Nominal 822 823	牛
+T89	Person-Pronoun 826 827	她
+T90	Location-Nominal 831 833	牛房
+T91	Person-Pronoun 842 843	她
+T92	Person-Nominal 844 847	大女儿
+R13	Family Arg1:T92 Arg2:T91	
+T93	Person-Pronoun 857 858	她
+T94	Person-Nominal 859 863	两个女婿
+R14	Family Arg1:T94 Arg2:T93	
+T95	Person-Nominal 870 872	人们
+T96	Person-Pronoun 873 874	她
+T97	Thing-Nominal 885 886	牛
+T98	Person-Pronoun 890 891	她
+T99	Person-Pronoun 897 898	她
+T100	Person-Nominal 900 902	改儿
+*	Coreference T100 T92
+T101	Person-Pronoun 910 911	她
+T102	Person-Pronoun 913 914	她
+T103	Thing-Nominal 916 917	她
+R15	Part-Whole Arg1:T103 Arg2:T100	
+T104	Person-Pronoun 919 920	她
+T105	Person-Pronoun 921 922	她
+T106	Person-Nominal 929 933	刚娃他爸
+T107	Person-Pronoun 938 939	他
+T108	Person-Pronoun 946 947	她
+T109	Location-Nominal 951 953	土炕
+T110	Person-Pronoun 957 958	他
+T111	Person-Pronoun 960 961	他
+*	Coreference T106 T110
+T112	Person-Pronoun 973 974	她
+T113	Person-Pronoun 977 978	她
+T114	Thing-Nominal 979 980	牛
+T115	Person-Pronoun 981 983	他们
+T116	Thing-Nominal 993 994	牛
+T117	Person-Pronoun 1001 1002	她
+T118	Person-Nominal 1003 1005	儿孙
+R16	Family Arg1:T118 Arg2:T117	
+T119	Person-Pronoun 1013 1015	他们
+*	Coreference T119 T118
+T120	Person-Pronoun 1022 1023	她
+T121	Person-Pronoun 1029 1030	她
+T122	Person-Pronoun 1033 1034	她
+T123	Person-Nominal 1035 1038	小孙子
+R17	Family Arg1:T123 Arg2:T122	
+T124	Person-Pronoun 1043 1044	她
+T125	Person-Nominal 1045 1046;1047 1049	小 外孙
+R18	Family Arg1:T125 Arg2:T124	
+T126	Person-Pronoun 1057 1058	她
+T127	Person-Pronoun 1073 1074	她
+T128	Person-Nominal 1111 1113	人们
+T129	Person-Pronoun 1117 1118	她
+T130	Person-Pronoun 1120 1122	他们
+*	Coreference T130 T128
+T131	Person-Pronoun 1134 1135	她
+T132	Location-Nominal 1137 1139	牛房
+T133	Person-Pronoun 1145 1146	她
+T134	Person-Pronoun 1149 1151	他们
+T135	Person-Pronoun 1155 1156	她
+T136	Location-Nominal 1158 1159;1160 1161	牛 房
+T137	Thing-Nominal 1172 1175	新家具
+T138	Thing-Nominal 1177 1178	牛
+T139	Thing-Nominal 1186 1189	旧板凳
+T140	Location-Nominal 1191 1193	炕头
+R19	Located Arg1:T139 Arg2:T140	
+T141	Person-Nominal 1198 1200	死鬼
+R20	Create Arg1:T141 Arg2:T139	
+T142	Thing-Nominal 1210 1213	楸木面
+R21	Part-Whole Arg1:T142 Arg2:T139	
+T143	Time-Implicit 1236 1239	睡觉前
+T144	Person-Pronoun 1240 1241	她
+T145	Person-Nominal 1243 1245	自己
+*	Coreference T144 T145
+T146	Thing-Nominal 1246 1249	小布鞋
+R22	Located Arg1:T146 Arg2:T139	
+T147	Thing-Nominal 1270 1271	牛
+T148	Person-Pronoun 1286 1287	她
+T149	Time-Explicit 1298 1301	三岁起
+T150	Person-Nominal 1303 1305	母亲
+T151	Thing-Nominal 1313 1315	鞋子
+R23	Family Arg1:T148 Arg2:T150	
+T152	Person-Nominal 1350 1352	儿女
+T153	Person-Pronoun 1361 1362	她
+T154	Time-Implicit 1362 1366	六十多年
+T155	Thing-Nominal 1370 1371	牛
+T156	Person-Pronoun 1391 1392	她
+T157	Person-Pronoun 1394 1395	她
+T158	Person-Pronoun 1407 1408	她
+T159	Time-Implicit 1404 1406	白天
+T160	Thing-Nominal 1422 1424	豆子
+T161	Thing-Nominal 1426 1428	柴火
+T162	Thing-Nominal 1430 1432	长面
+T163	Person-Pronoun 1434 1435	她
+T164	Person-Nominal 1440 1447	六十岁的老儿子
+R24	Family Arg1:T163 Arg2:T164	
+T165	Person-Nominal 1469 1472	孙子们
+T166	Location-Nominal 1474 1476	城里
+T167	Person-Nominal 1479 1481	儿媳
+T168	Person-Pronoun 1490 1491	她
+R25	Family Arg1:T168 Arg2:T167	
+T169	Person-Nominal 1494 1496	儿子
+T170	Person-Nominal 1499 1501	儿子
+T171	Thing-Nominal 1502 1503	牛
+T172	Person-Pronoun 1510 1511	她
+T173	Person-Nominal 1512 1514	自己
+*	Coreference T172 T173
+T174	Person-Pronoun 1520 1521	她
+T175	Person-Nominal 1522 1525	老儿子
+T176	Person-Pronoun 1529 1530	她
+T177	Person-Nominal 1537 1539	儿子
+T178	Thing-Nominal 1545 1546	牛
+T179	Location-Nominal 1554 1558	她的脚下
+R26	Located Arg1:T178 Arg2:T179	
+T180	Thing-Nominal 1568 1569	她
+T181	Thing-Nominal 1573 1574	墙
+T182	Thing-Nominal 1577 1578	牛
+T183	Person-Pronoun 1585 1586	她
+T184	Thing-Nominal 1590 1591	牛
+T185	Thing-Nominal 1597 1598	牛
+T186	Thing-Nominal 1604 1605	牛
+T187	Person-Pronoun 1621 1622	她
+T188	Person-Pronoun 1645 1646	她
+T189	Thing-Nominal 1642 1643	牛
+T190	Thing-Nominal 1662 1663	牛
+T191	Thing-Nominal 1672 1673	牛
+T192	Thing-Nominal 1684 1685	牛
+T193	Thing-Nominal 1707 1708	牛
+T194	Person-Pronoun 1711 1712	她
+T195	Person-Nominal 1718 1720	死鬼
+R27	Family Arg1:T194 Arg2:T195	
+T196	Person-Nominal 1726 1727;1728 1729	儿 女
+T197	Person-Nominal 1734 1736	孙子
+T198	Person-Nominal 1741 1744	曾孙子
+R28	Family Arg1:T194 Arg2:T196	
+T199	Thing-Nominal 1748 1750	小树
+T200	Person-Pronoun 1751 1752	她
+T201	Person-Pronoun 1759 1760	她
+T202	Thing-Nominal 1763 1764	树
+R29	Family Arg1:T200 Arg2:T198	
+R30	Family Arg1:T200 Arg2:T197	
+T203	Person-Nominal 1766 1768	死鬼
+T204	Person-Pronoun 1774 1775	她
+T205	Person-Nominal 1791 1793	死鬼
+T206	Thing-Nominal 1800 1801	牛
+T207	Person-Pronoun 1805 1806	她
+T208	Person-Nominal 1809 1811	死鬼
+T209	Thing-Nominal 1820 1821	牛
+T210	Person-Nominal 1824 1826	死鬼
+T211	Thing-Nominal 1830 1831	牛
+T212	Person-Pronoun 1832 1833	她
+T213	Person-Pronoun 1844 1845	她
+T214	Person-Pronoun 1853 1854	她
+T215	Person-Pronoun 1857 1858	她
+T216	Thing-Nominal 1861 1862	牛
+T217	Person-Pronoun 1865 1866	她
+T218	Thing-Nominal 1880 1881	牛
+T219	Person-Pronoun 1884 1886	他们
+T220	Thing-Nominal 1889 1892	拖拉机
+T221	Thing-Nominal 1893 1896	收割机
+T222	Location-Nominal 1901 1903	路面
+R31	Located Arg1:T221 Arg2:T222	
+R32	Located Arg1:T220 Arg2:T222	
+T223	Thing-Nominal 1904 1905	牛
+T224	Thing-Nominal 1913 1914	牛
+T225	Person-Pronoun 1917 1918	她
+R33	Family Arg1:T207 Arg2:T208	
+R34	Use Arg1:T213 Arg2:T211	
+T226	Location-Nominal 1927 1929	牛房
+T227	Thing-Nominal 1931 1932	牛
+R35	Located Arg1:T227 Arg2:T226	
+T228	Person-Nominal 1944 1946	儿孙
+T229	Thing-Nominal 1952 1955	旧家具
+R36	Located Arg1:T229 Arg2:T226	
+T230	Thing-Nominal 1961 1962	牛
+T231	Thing-Nominal 1974 1977	旧沙发
+T232	Thing-Nominal 1985 1988	旧柜子
+T233	Thing-Nominal 1989 1992	旧衣服
+T234	Thing-Nominal 1993 1996	旧盆子
+T235	Thing-Nominal 1997 1998;1999 2000	旧 碗
+T236	Person-Pronoun 2004 2005	她
+T237	Person-Pronoun 2017 2018	她
+T238	Thing-Nominal 2022 2025	旧家具
+T239	Location-Nominal 2028 2030	牛房
+R39	Located Arg1:T232 Arg2:T239	
+R40	Located Arg1:T233 Arg2:T239	
+R41	Located Arg1:T231 Arg2:T239	
+R42	Located Arg1:T234 Arg2:T239	
+R43	Located Arg1:T235 Arg2:T239	
+T240	Person-Nominal 2034 2036	女儿
+T241	Person-Nominal 2037 2039	孙子
+T242	Person-Pronoun 2043 2044	她
+R44	Family Arg1:T242 Arg2:T241	
+R45	Family Arg1:T242 Arg2:T240	
+T243	Thing-Nominal 2047 2049	新衣
+T244	Thing-Nominal 2050 2052	糕点
+T245	Person-Pronoun 2057 2058	她
+T246	Thing-Nominal 2066 2069	旧家具
+T247	Thing-Nominal 2080 2083	旧盆子
+T248	Thing-Nominal 2083 2085	旧碗
+T249	Thing-Nominal 2090 2092	旧衣
+T250	Person-Pronoun 2097 2098	她
+T251	Thing-Nominal 2101 2103	旧物
+*	Coreference T249 T251 T247 T248
+*	Coreference T231 T238 T232
+T252	Location-Nominal 2108 2112	她的脚下
+R37	Located Arg1:T251 Arg2:T252	
+T253	Person-Nominal 2128 2131	老儿子
+T254	Person-Pronoun 2165 2166	她
+T255	Person-Nominal 2169 2171	儿子
+R38	Family Arg1:T255 Arg2:T254	
+T256	Person-Nominal 2175 2177	儿子
+T257	Thing-Nominal 2189 2191	旧物
+T258	Person-Pronoun 2196 2197	她
+R46	Use Arg1:T258 Arg2:T257	
+T259	Person-Pronoun 2203 2204	她
+T260	Metric 2209 2212	九十度
+T261	Time-Explicit 2215 2219	最近三年
+T262	Person-Pronoun 2225 2226	她
+T263	Thing-Nominal 2230 2232	白杨
+T264	Thing-Nominal 2241 2243	柳枝
+T265	Person-Pronoun 2248 2249	她
+T266	Person-Pronoun 2259 2260	她
+T267	Person-Pronoun 2267 2268	她
+T268	Location-Nominal 2276 2278	娘家
+T269	Person-Pronoun 2282 2283	她
+T270	Person-Nominal 2290 2292	父母
+R47	Family Arg1:T269 Arg2:T270	
+T271	Thing-Nominal 2307 2308	马
+T272	Thing-Nominal 2295 2299	两箱嫁妆
+R48	Use Arg1:T269 Arg2:T271	
+T273	Location-Nominal 2317 2321	她的娘家
+T274	Person-Pronoun 2335 2336	她
+T275	Person-Nominal 2342 2344	母亲
+*	Coreference T274 T275
+T276	Time-Explicit 2347 2353	坐月子第三天
+T277	Person-Pronoun 2353 2354	她
+T278	Location-Nominal 2358 2359	炕
+T279	Thing-Nominal 2360 2361	磨
+R49	Use Arg1:T277 Arg2:T279	
+T280	Thing-Nominal 2363 2364	猪
+T281	Person-Pronoun 2365 2366	她
+T282	Person-Nominal 2376 2379	地主婆
+T283	Person-Pronoun 2382 2383	她
+*	Coreference T283 T282
+T284	Location-Nominal 2396 2398	地里
+T285	Thing-Nominal 2402 2403	犁
+T286	Person-Pronoun 2404 2405	她
+R50	Create Arg1:T286 Arg2:T285	
+T287	Person-Nominal 2413 2415	死鬼
+T288	Person-Pronoun 2422 2423	她
+T289	Person-Pronoun 2432 2433	她
+T290	Person-Nominal 2440 2442	儿子
+T291	Person-Pronoun 2448 2449	她
+T292	Person-Pronoun 2452 2453	他
+*	Coreference T292 T290
+T293	Time-Explicit 2461 2464	三年前
+T294	Person-Pronoun 2470 2471	她
+T295	Person-Pronoun 2484 2485	她
+T296	Person-Nominal 2518 2520	儿孙
+T297	Person-Pronoun 2524 2525	她
+T298	Person-Nominal 2530 2532	儿孙
+T299	Person-Pronoun 2533 2534	她
+T300	Person-Nominal 2540 2544	两个儿媳
+T301	Person-Nominal 2549 2551	儿子
+T302	Time-Implicit 2573 2578	分家的时候
+T303	Person-Pronoun 2579 2580	她
+T304	Location-Nominal 2584 2588	大儿子家
+T305	Person-Pronoun 2591 2592	她
+T306	Person-Nominal 2600 2603	大儿子
+T307	Person-Nominal 2606 2609	大儿子
+T308	Person-Nominal 2611 2617	六十多岁的人
+*	Coreference T307 T308
+T309	Person-Nominal 2637 2644	自己生病的女人
+T310	Person-Pronoun 2646 2647	他
+R51	Family Arg1:T310 Arg2:T309	
+T311	Person-Pronoun 2657 2658	她
+T312	Person-Pronoun 2661 2662	他
+T313	Person-Pronoun 2669 2670	她
+T314	Person-Pronoun 2677 2678	她
+T315	Person-Nominal 2688 2690;2691 2692	阎王 爷
+T316	Person-Pronoun 2695 2696	我
+T317	Person-Nominal 2700 2702	死鬼
+T318	Person-Pronoun 2705 2706	我
+T319	Person-Nominal 2709 2712	她儿子
+*	Coreference T314 T316
+T320	Person-Nominal 2733 2735	死神
+T321	Person-Pronoun 2740 2742	他们
+T322	Person-Pronoun 2749 2750	她
+T323	Person-Nominal 2751 2753	死神
+T324	Time-Explicit 2766 2769	四天后
+T325	Person-Pronoun 2779 2780	她
+T326	Person-Nominal 2787 2790	儿孙们
+T327	Person-Pronoun 2805 2806	她
+T328	Location-Nominal 2819 2821	牛房
+T329	Person-Nominal 2830 2834	拥堵的人
+T330	Person-Pronoun 2857 2858	她
+T331	Person-Nominal 2873 2875	人们
+T332	Location-Nominal 2879 2883	她的房间
+*	Coreference T328 T332
+T333	Thing-Nominal 2886 2888	火炉
+T334	Thing-Nominal 2889 2892	旧家具
+T335	Time-Explicit 2904 2907	二十年
+T336	Person-Pronoun 2909 2910	她
+T337	Location-Nominal 2918 2920	房子
+T338	Thing-Nominal 2923 2925	房子
+T339	Person-Nominal 2935 2937	儿子
+T340	Person-Nominal 2937 2939	儿媳
+T341	Thing-Nominal 2950 2951	牛
+T342	Person-Pronoun 2955 2956	她
+T343	Thing-Nominal 2957 2958	牛
+T344	Thing-Nominal 2965 2966	牛
+T345	Thing-Nominal 2972 2974	火炉
+R52	Located Arg1:T345 Arg2:T337	
+T346	Person-Pronoun 2984 2985	她
+T347	Person-Pronoun 2995 2997	他们
+T348	Thing-Nominal 3000 3002	糕点
+T349	Person-Pronoun 3003 3004	她
+T350	Thing-Nominal 3017 3018	她
+T351	Thing-Nominal 3039 3040	牛
+T352	Location-Nominal 3043 3045	牛房
+T353	Person-Pronoun 3053 3054	她
+T354	Person-Pronoun 3056 3058	他们
+T355	Time-Implicit 3063 3068	他们小时候
+T356	Person-Pronoun 3073 3074	她
+T357	Person-Pronoun 3075 3077	他们
+T358	Thing-Nominal 3079 3082	小棉袄
+R53	Create Arg1:T356 Arg2:T358	
+T359	Person-Pronoun 3097 3098	她
+T360	Person-Pronoun 3121 3123	他们
+T361	Person-Nominal 3132 3139	四十二岁的孙子
+T362	Person-Nominal 3141 3147	十六岁的曾孙
+T363	Person-Pronoun 3148 3149	她
+T364	Time-Implicit 3159 3162	几十年
+T365	Person-Pronoun 3164 3166	他们
+T366	Person-Pronoun 3187 3188	她
+T367	Person-Pronoun 3194 3196	他们
+T368	Person-Nominal 3211 3214;3215 3218	九十岁 的老人
+*	Coreference T368 T366
+T369	Person-Pronoun 3229 3230	她
+T370	Person-Pronoun 3244 3245	她
+T371	Person-Nominal 3246 3248	女儿
+T372	Person-Pronoun 3249 3250	她
+T373	Thing-Nominal 3257 3260	油菜子
+T374	Thing-Nominal 3261 3262	花
+R54	Part-Whole Arg1:T374 Arg2:T373	
+T375	Person-Pronoun 3266 3267	她
+T376	Location-Nominal 3269 3271	门外
+T377	Person-Nominal 3274 3277	老儿子
+T378	Thing-Nominal 3278 3280	柴火
+T379	Person-Nominal 3281 3286	他的老儿子
+R55	Family Arg1:T370 Arg2:T371	
+R56	Family Arg1:T377 Arg2:T375	
+T380	Time-Implicit 0 2	冬日
+T381	Thing-Nominal 42 43	脸
+R57	Part-Whole Arg1:T381 Arg2:T4	
+T382	Thing-Nominal 51 53	眼睛
+R58	Part-Whole Arg1:T382 Arg2:T5	
+T383	Thing-Nominal 75 77	眼睛
+T384	Time-Implicit 123 125	冬天
+T385	Thing-Nominal 628 630	草料
+T386	Thing-Nominal 632 633	牛
+T387	Time-Implicit 691 694	半夜里
+T388	Time-Implicit 713 716	后半夜

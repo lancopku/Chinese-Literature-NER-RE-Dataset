@@ -1,0 +1,310 @@
+T1	Location-Nominal 0 3	这世间
+T2	Thing-Nominal 0 6	这世间的事情
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 19 29	头上扬花式的漫天飞舞
+T4	Person-Pronoun 38 39	你
+T6	Location-Nominal 51 55	你的头上
+T7	Thing-Nominal 51 54	你的头
+R2	Part-Whole Arg1:T7 Arg2:T4	
+T8	Person-Pronoun 57 58	你
+T9	Thing-Nominal 63 67	哪一朵花
+T10	Location-Nominal 69 72	你脚边
+T5	Thing-Nominal 45 49	哪一朵花
+R3	Located Arg1:T5 Arg2:T6	
+R4	Located Arg1:T9 Arg2:T10	
+T11	Person-Pronoun 74 76	你踩
+T12	Person-Name 79 81	叶莲
+T13	Thing-Nominal 82 85	一本书
+R5	Use Arg1:T12 Arg2:T13	
+T14	Thing-Nominal 98 101	一朵花
+T15	Metric 46 48	一朵
+T16	Metric 64 66	一朵
+T17	Metric 82 84	一本
+T18	Metric 98 100	一朵
+T19	Location-Nominal 103 107	自己头上
+T20	Thing-Pronoun 109 110	她
+R6	Part-Whole Arg1:T20 Arg2:T12	
+T21	Thing-Nominal 129 133	这些好事
+T22	Organization-Nominal 140 144	老年大学
+T23	Person-Pronoun 154 155	谁
+T24	Thing-Nominal 170 173	野百合
+T25	Time-Implicit 175 177	春天
+T26	Thing-Nominal 166 168	歌词
+T27	Time-Implicit 180 185	叶莲小时候
+T28	Person-Name 180 182	叶莲
+T29	Person-Nominal 186 188	父亲
+R7	Family Arg1:T29 Arg2:T28	
+T30	Organization-Nominal 186 190	父亲单位
+T31	Person-Name 191 194	李阿姨
+T32	Location-Nominal 197 198	家
+T33	Person-Name 199 202	李阿姨
+T34	Person-Nominal 203 207	劳动模范
+R8	General-Special Arg1:T34 Arg2:T33	
+T35	Person-Pronoun 208 209	她
+*	Coreference T35 T33
+T36	Person-Nominal 211 213	父亲
+T37	Person-Nominal 221 224	大人们
+T38	Person-Name 229 231	叶莲
+T39	Person-Name 232 235	李阿姨
+T40	Person-Pronoun 248 249	她
+*	Coreference T40 T38
+T41	Time-Implicit 245 247	那年
+T42	Metric 250 252	十岁
+T43	Organization-Nominal 254 256	学校
+T44	Person-Name 274 276	叶莲
+T45	Person-Name 279 282	李阿姨
+T46	Metric 292 295	98分
+T47	Thing-Nominal 286 290	这篇作文
+R9	Create Arg1:T44 Arg2:T47	
+T48	Person-Nominal 298 300	老师
+R10	Social Arg1:T48 Arg2:T44	
+T49	Location-Nominal 305 308	课堂上
+T50	Thing-Nominal 302 304	范文
+R11	General-Special Arg1:T50 Arg2:T47	
+T51	Person-Name 315 317	叶莲
+T52	Time-Implicit 324 326	那时
+T53	Person-Name 327 329	叶莲
+T54	Person-Pronoun 331 332	我
+*	Coreference T54 T53
+T55	Person-Nominal 337 339	作家
+T56	Person-Name 341 343	叶莲
+T57	Person-Pronoun 361 362	她
+*	Coreference T57 T56
+T58	Person-Name 398 400	叶莲
+T59	Person-Pronoun 404 406	自己
+T60	Person-Pronoun 410 412	自己
+*	Coreference T59 T58
+T61	Person-Pronoun 418 420	叶莲
+T62	Person-Pronoun 422 423	她
+T63	Person-Nominal 424 426	丈夫
+R12	Family Arg1:T63 Arg2:T61	
+T64	Person-Nominal 439 440	人
+T65	Person-Nominal 446 448	丈夫
+T66	Person-Name 450 452	叶莲
+T67	Thing-Nominal 459 460	莲
+T68	Thing-Nominal 463 465	污泥
+T69	Person-Name 485 487	叶莲
+T70	Person-Pronoun 493 495	这人
+*	Coreference T70 T65 T72 T74 T75
+T71	Person-Nominal 506 508	知音
+R13	General-Special Arg1:T71 Arg2:T70	
+T72	Person-Pronoun 513 515	对方
+T73	Person-Nominal 516 522	70岁的老娘
+T74	Person-Pronoun 531 532	他
+T75	Person-Nominal 550 557	这个懂她的男人
+T76	Time-Implicit 559 561	婚后
+T77	Person-Pronoun 570 572	自己
+T78	Person-Nominal 583 585	婆婆
+R14	Family Arg1:T78 Arg2:T75	
+R15	Family Arg1:T78 Arg2:T69	
+T79	Person-Pronoun 592 594	他们
+T80	Person-Nominal 422 426	她和丈夫
+*	Coreference T79 T80
+T81	Person-Nominal 596 598	女儿
+R16	Family Arg1:T81 Arg2:T79	
+R17	Family Arg1:T81 Arg2:T78	
+T82	Person-Name 599 601	叶莲
+T83	Person-Nominal 602 606	单位领导
+R18	Social Arg1:T83 Arg2:T82	
+T84	Person-Nominal 609 613	部门经理
+R19	General-Special Arg1:T84 Arg2:T82	
+T85	Person-Name 631 633	叶莲
+T86	Person-Nominal 645 648	老阿姨
+T87	Person-Nominal 650 652	女儿
+R20	Social Arg1:T85 Arg2:T86	
+T88	Person-Pronoun 653 655	自己
+T89	Time-Implicit 665 667	每天
+T90	Time-Implicit 688 690	这时
+T91	Location-Nominal 692 694	娘家
+T92	Person-Nominal 700 705	叶莲的母亲
+T93	Person-Name 700 702	叶莲
+R21	Family Arg1:T92 Arg2:T93	
+T94	Location-Nominal 709 711	娘家
+T95	Person-Name 716 718	叶莲
+T96	Person-Name 721 723	叶莲
+T97	Person-Nominal 731 733	父亲
+R22	Family Arg1:T97 Arg2:T96	
+R23	Family Arg1:T97 Arg2:T92	
+T98	Person-Nominal 735 737	老伴
+T99	Person-Nominal 738 743	新来的继母
+*	Coreference T99 T98 T112 T121
+R24	Family Arg1:T99 Arg2:T97	
+T100	Person-Nominal 744 749	叶莲的弟弟
+R25	Family Arg1:T100 Arg2:T96	
+R26	Family Arg1:T100 Arg2:T97	
+R27	Family Arg1:T100 Arg2:T92	
+R28	Family Arg1:T99 Arg2:T100	
+R29	Family Arg1:T99 Arg2:T96	
+T101	Organization-Nominal 757 760;761 762	叶莲单 位
+T102	Person-Name 764 766	叶莲
+T103	Person-Nominal 776 781	继母的儿子
+T104	Person-Nominal 782 787	叶莲的弟弟
+R30	Family Arg1:T103 Arg2:T99	
+R31	Social Arg1:T103 Arg2:T104	
+T105	Location-Nominal 791 793	医院
+T106	Person-Name 794 796	叶莲
+T107	Thing-Nominal 803 805	稀泥
+T108	Person-Pronoun 807 808	她
+T109	Person-Nominal 813 815	弟弟
+*	Coreference T109 T104
+T110	Person-Nominal 831 833	父母
+T111	Thing-Nominal 834 836	房门
+R32	Family Arg1:T110 Arg2:T106	
+T112	Person-Nominal 845 847	继母
+T113	Person-Pronoun 838 840	他们
+*	Coreference T113 T110
+T114	Person-Name 865 867	叶莲
+T115	Person-Pronoun 872 873	她
+T116	Person-Pronoun 877 879	自己
+*	Coreference T116 T115 T114
+T117	Person-Nominal 893 895	继母
+T118	Person-Pronoun 901 902	她
+T119	Person-Pronoun 906 908	他们
+T120	Person-Pronoun 909 910	我
+*	Coreference T120 T118
+T121	Person-Pronoun 916 917	你
+T122	Location-Nominal 929 931	家里
+T123	Person-Pronoun 949 950	我
+T124	Person-Pronoun 954 956	你们
+*	Coreference T124 T119
+T125	Time-Implicit 976 982	以后的多少年
+T126	Person-Name 994 996	叶莲
+T127	Time-Implicit 1017 1019	那时
+T128	Person-Name 1020 1022	叶莲
+T129	Person-Nominal 1056 1059	全家人
+R33	Family Arg1:T129 Arg2:T126	
+T130	Thing-Nominal 1066 1069	笔记本
+T131	Person-Pronoun 1075 1076	她
+R34	Use Arg1:T131 Arg2:T130	
+T132	Thing-Nominal 1092 1093	笔
+T133	Thing-Nominal 1095 1097	刀枪
+R35	Use Arg1:T131 Arg2:T132	
+T134	Person-Pronoun 1099 1100	她
+T135	Thing-Nominal 1106 1107	笔
+T136	Person-Nominal 1115 1117	作家
+T137	Time-Implicit 1127 1131	这些年来
+T138	Thing-Nominal 1132 1135	笔记本
+T139	Person-Pronoun 1137 1138	她
+R36	Use Arg1:T139 Arg2:T138	
+T140	Thing-Nominal 1137 1144	她最贴心的朋友
+*	Coreference T140 T138
+T141	Thing-Nominal 1145 1147	扉页
+R37	Part-Whole Arg1:T141 Arg2:T138	
+T142	Person-Name 1149 1151	叶莲
+T143	Thing-Nominal 1159 1160	莲
+T144	Time-Implicit 1179 1182	结婚时
+T145	Person-Nominal 1182 1184	丈夫
+R38	Family Arg1:T145 Arg2:T142	
+T146	Thing-Nominal 1186 1187;1188 1190	笔 记本
+T147	Person-Name 1199 1201	叶莲
+T148	Thing-Nominal 1149 1157	叶莲一直记着的话
+R39	Located Arg1:T148 Arg2:T141	
+T149	Thing-Pronoun 1177 1178	这
+*	Coreference T149 T148 T150 T163
+T150	Thing-Nominal 1195 1198	这句话
+T151	Person-Nominal 1204 1206	丈夫
+T152	Person-Pronoun 1207 1209	自己
+*	Coreference T152 T147
+T153	Person-Nominal 1213 1218	家里每个人
+R40	Family Arg1:T153 Arg2:T147	
+T154	Person-Pronoun 1219 1221	自己
+T155	Time-Implicit 1225 1230	每天下班后
+T156	Person-Nominal 1232 1234	婆婆
+T157	Person-Nominal 1240 1242	女儿
+R41	Family Arg1:T156 Arg2:T147	
+R42	Family Arg1:T156 Arg2:T151	
+R43	Family Arg1:T157 Arg2:T151	
+R44	Family Arg1:T157 Arg2:T147	
+T158	Person-Nominal 1249 1259	笨拙地做着家务的丈夫
+*	Coreference T158 T151
+T159	Organization-Nominal 1279 1282	这个家
+T160	Person-Pronoun 1295 1296	她
+T161	Person-Nominal 1297 1299	丈夫
+T162	Person-Name 1302 1305	周敦颐
+T163	Thing-Nominal 1306 1309;1310 1311	这句名 句
+R45	Create Arg1:T162 Arg2:T163	
+T164	Person-Name 1314 1317	叶莲的
+T165	Thing-Nominal 1324 1325	莲
+T166	Thing-Nominal 1351 1352	笔
+T167	Thing-Nominal 1360 1363	笔记本
+T168	Person-Pronoun 1364 1365	她
+T169	Thing-Nominal 1367 1370;1371 1373	出征的 鸟儿
+T170	Thing-Nominal 1378 1380	羽毛
+R46	Part-Whole Arg1:T170 Arg2:T169	
+T171	Person-Name 1394 1396	叶莲
+T172	Person-Pronoun 1400 1401	她
+T173	Location-Nominal 1403 1407	老年大学
+T174	Abstract 1412 1416	汶川地震
+T175	Person-Name 1420 1422	叶莲
+T176	Thing-Nominal 1424 1431	散文《堰塞湖》
+R47	Create Arg1:T175 Arg2:T176	
+T177	Person-Nominal 1433 1435	老师
+R48	Social Arg1:T177 Arg2:T175	
+T178	Organization-Nominal 1444 1449;1450 1453	《并州老龄 》杂志
+T179	Person-Pronoun 1471 1472	她
+T180	Person-Name 1478 1480	叶莲
+T181	Person-Pronoun 1492 1494	自己
+T182	Thing-Nominal 1497 1502	写作的素材
+R49	Use Arg1:T181 Arg2:T182	
+T183	Person-Name 1505 1507	叶莲
+T184	Time-Implicit 1518 1521	一年后
+T185	Person-Name 1522 1524	叶莲
+T186	Person-Nominal 1522 1530	叶莲结识的老年人
+R50	Social Arg1:T185 Arg2:T186	
+T187	Person-Pronoun 1533 1535	他们
+T188	Person-Nominal 1545 1548	每个人
+R51	Part-Whole Arg1:T187 Arg2:T188	
+T189	Time-Implicit 1553 1555	儿时
+T190	Person-Name 1558 1561	李阿姨
+T191	Person-Name 1568 1570	叶莲
+T192	Person-Name 1581 1582	她
+T193	Thing-Nominal 1588 1598	很多老年人励志的文章
+T194	Thing-Nominal 1583 1584	笔
+R52	Use Arg1:T192 Arg2:T194	
+R53	Create Arg1:T192 Arg2:T193	
+T195	Thing-Nominal 1600 1620	《霜叶红于二月花》、《且向花间留晚照》等
+R54	Part-Whole Arg1:T195 Arg2:T193	
+T196	Person-Nominal 1623 1626	老年人
+T197	Thing-Nominal 1634 1639;1640 1690	《传承剪纸 艺术，剪出瑰丽人生》、《贾承平老师的“拳与人”》、《托起明天太阳的老班长》、《古稀老人青春秀》等文章
+R55	Part-Whole Arg1:T197 Arg2:T193	
+T198	Person-Nominal 1691 1700;1701 1706	这些活跃在老年教育 事业的人物
+T199	Person-Name 1714 1716	叶莲
+T200	Person-Nominal 1714 1722	叶莲文中的主人公
+T201	Person-Pronoun 1725 1726	她
+T202	Person-Name 1736 1738	叶莲
+T203	Thing-Nominal 1729 1733	创作素材
+T204	Person-Pronoun 1744 1745	她
+T205	Person-Pronoun 1754 1755	她
+T206	Person-Pronoun 1779 1780	她
+T207	Person-Nominal 1783 1786	老年人
+T208	Person-Pronoun 1817 1819	他们
+T209	Person-Nominal 1824 1828	更多的人
+T210	Person-Name 1829 1831	叶莲
+T211	Person-Nominal 1845 1848	追梦人
+T212	Person-Pronoun 1838 1840	自己
+*	Coreference T212 T210
+R56	General-Special Arg1:T211 Arg2:T212	
+T213	Metric 1843 1845	一个
+T214	Person-Pronoun 1860 1861	她
+T215	Person-Pronoun 1867 1869	自己
+T216	Time-Implicit 1878 1880	如今
+T217	Person-Name 1881 1883	叶莲
+T218	Person-Nominal 1886 1895	一家老年杂志的编辑
+R57	General-Special Arg1:T218 Arg2:T217	
+T219	Organization-Name 1900 1905	老作家协会
+T220	Person-Pronoun 1906 1907	她
+T221	Thing-Nominal 1910 1916	一个大的平台
+T222	Time-Implicit 1917 1920	这时候
+T223	Person-Name 1921 1923	叶莲
+T224	Person-Pronoun 1944 1945	谁
+T225	Person-Pronoun 1961 1962	你
+T226	Person-Pronoun 1967 1968	你
+T227	Location-Nominal 1982 1988	那梦想的地方
+T228	Thing-Nominal 1995 1999;2000 2001	最美的花 朵
+R58	Located Arg1:T228 Arg2:T227	
+T229	Thing-Nominal 2004 2011	属于你自己的花
+T230	Thing-Pronoun 2002 2003	那
+*	Coreference T230 T228
+T231	Thing-Nominal 2013 2020	一朵纯洁的莲花
+R59	General-Special Arg1:T229 Arg2:T231	
+T232	Metric 2013 2015	一朵

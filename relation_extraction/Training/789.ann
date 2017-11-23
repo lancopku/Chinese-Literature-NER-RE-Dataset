@@ -1,0 +1,108 @@
+T1	Location-Name 0 2	威宁
+T2	Person-Pronoun 3 4	我
+T3	Location-Nominal 9 11	乐土
+*	Coreference T3 T1
+T4	Organization-Nominal 16 18	国家
+T5	Time-Implicit 42 44	清晨
+T6	Thing-Nominal 44 51	东方的一轮红日
+T7	Person-Pronoun 71 82	身处基层平凡岗位上的我
+*	Coreference T7 T2 T11
+T8	Location-Name 84 86	威宁
+T9	Location-Name 141 144	西梁山
+T10	Location-Nominal 141 147	西梁山的山顶
+T11	Person-Pronoun 149 150	我
+T12	Location-Nominal 164 166	大山
+T13	Location-Nominal 184 191	泥泞颠簸的路基
+T14	Location-Nominal 195 206	贫穷落后茅屋欲坠的故园
+T15	Location-Nominal 199 201	茅屋
+T16	Location-Nominal 210 221	赤地千里吃糖咽菜的土地
+T17	Thing-Nominal 215 218	糖咽菜
+T18	Location-Pronoun 226 227	你
+*	Coreference T18 T16 T14 T13 T12 T9 T19 T20
+T19	Location-Nominal 229 240	百折不挠自强不息的热土
+T20	Location-Nominal 248 258	春风浩荡与时共进航母
+T21	Time-Implicit 241 243	如今
+T22	Time-Implicit 181 183	曾经
+T23	Location-Nominal 262 264	乡村
+T24	Person-Pronoun 275 276	你
+T25	Thing-Nominal 282 284	绿树
+T26	Location-Nominal 289 296	错落有致的农舍
+T27	Location-Nominal 301 303	草场
+T28	Thing-Nominal 304 306	牧草
+T29	Thing-Nominal 310 314	白色羊群
+T30	Person-Nominal 319 320;321 322	画 家
+T31	Person-Nominal 334 336	牧民
+T32	Thing-Nominal 336 337	脸
+R1	Part-Whole Arg1:T32 Arg2:T31	
+T33	Time-Implicit 375 379	曾几何时
+T34	Thing-Nominal 380 382	微风
+T35	Thing-Nominal 386 390	我的长发
+T36	Thing-Nominal 395 396	耳
+T37	Thing-Nominal 409 413	白色垃圾
+T38	Thing-Nominal 414 418	黄色尘埃
+T39	Thing-Nominal 419 423	泥色矮屋
+T40	Thing-Nominal 424 428	坑洼道路
+T41	Person-Pronoun 435 436	我
+T42	Organization-Nominal 439 440	党
+T43	Organization-Nominal 441 443	政府
+T44	Location-Name 452 454	威宁
+T45	Thing-Nominal 521 525	我的耳朵
+T46	Person-Pronoun 527 529	我们
+T47	Organization-Pronoun 563 564	她
+T48	Organization-Nominal 552 556	党和政府
+*	Coreference T48 T47
+T49	Person-Nominal 569 570;571 578	在 边远山区的孩子
+T50	Person-Pronoun 585 587	我们
+T51	Thing-Nominal 611 616	炙热的太阳
+T52	Person-Nominal 618 623	建筑工人们
+T53	Thing-Nominal 624 625	脸
+R2	Part-Whole Arg1:T53 Arg2:T52	
+T54	Thing-Nominal 627 629	汗水
+T55	Person-Pronoun 632 634	他们
+*	Coreference T55 T52
+T56	Thing-Nominal 635 637	衣襟
+R3	Part-Whole Arg1:T56 Arg2:T55	
+T57	Location-Nominal 644 649	黔西北民居
+T58	Metric 641 644	一栋栋
+T59	Location-Nominal 657 666	丰富多彩的娱乐场所
+T60	Metric 654 657	一个个
+T61	Location-Nominal 674 678	老人公寓
+T62	Metric 671 674	一幢幢
+T63	Thing-Nominal 681 688	皱纹沟壑的笑脸
+T64	Location-Nominal 692 696	乡村学校
+T65	Metric 689 692	一所所
+T66	Location-Nominal 705 708	水泥路
+T67	Metric 702 705	一条条
+T68	Location-Nominal 710 713	家门口
+T69	Thing-Nominal 717 724	绿荫荫的风景树
+T70	Metric 714 717	一棵棵
+T71	Person-Nominal 724 726	新手
+T72	Location-Nominal 732 734	乡村
+T73	Person-Nominal 746 748	人们
+T74	Location-Nominal 756 758	新屋
+T75	Person-Nominal 760 762	农人
+T76	Location-Nominal 765 766	屋
+T77	Person-Nominal 767 770	大人们
+T78	Person-Nominal 789 792	孩子们
+T79	Location-Nominal 807 813	宽敞的游乐场
+T80	Thing-Nominal 815 819	健身器材
+T81	Person-Nominal 837 842	可爱的孩童
+T82	Metric 834 837	一个个
+T83	Location-Nominal 852 857	附近的学校
+T84	Person-Nominal 864 867	孩子们
+T85	Location-Nominal 881 885	老人公寓
+T86	Person-Nominal 915 917	爷爷
+T87	Person-Nominal 919 921	奶奶
+T88	Location-Nominal 930 936	油亮的乡村路
+T89	Location-Nominal 956 958	白房
+T90	Location-Nominal 963 965	家园
+T91	Person-Nominal 995 997	农人
+T92	Organization-Nominal 1027 1034	我们伟大的祖国
+T93	Location-Nominal 1051 1056	贫困的威宁
+T94	Time-Implicit 1047 1049	曾经
+T95	Metric 1049 1051	一个
+T96	Location-Nominal 1063 1068	落后的地区
+*	Coreference T96 T93
+T97	Person-Nominal 1082 1083	人
+T98	Person-Pronoun 1101 1103	我们
+T99	Location-Name 1125 1127	威宁

@@ -1,0 +1,204 @@
+T1	Thing-Nominal 0 1	月
+T2	Thing-Nominal 2 3	星
+T3	Thing-Nominal 5 7	夜风
+T4	Thing-Nominal 10 17	流光溢彩的霓虹
+T5	Thing-Nominal 18 20	树影
+T6	Person-Nominal 22 24	游人
+T7	Location-Nominal 37 49	月湖公园麻石地设或草坪上
+R1	Located Arg1:T4 Arg2:T7	
+T8	Thing-Nominal 22 27	游人的影子
+R2	Located Arg1:T8 Arg2:T7	
+T9	Location-Nominal 53 58	一株桂树下
+T10	Thing-Nominal 66 76	一张极为简约的小茶几
+R3	Located Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 77 85	两把简约的小躺椅
+R4	Located Arg1:T11 Arg2:T9	
+T12	Person-Pronoun 87 88	我
+T13	Person-Nominal 89 91	伊人
+T14	Location-Nominal 103 106	桂树下
+T15	Thing-Nominal 124 128	两杯绿茶
+T16	Thing-Nominal 167 172	近处的霓虹
+T17	Person-Pronoun 182 183	我
+T18	Thing-Nominal 187 190	小茶桌
+T19	Person-Nominal 193 195	伊人
+T20	Person-Nominal 196 198	伊人
+T21	Thing-Nominal 204 211	夜色朦胧的湖面
+T22	Thing-Nominal 216 219	那杯茶
+T23	Location-Nominal 214 216	手里
+R5	Located Arg1:T22 Arg2:T23	
+T24	Person-Pronoun 229 230	我
+T25	Person-Nominal 233 235	伊人
+T26	Person-Nominal 258 259	人
+T27	Thing-Nominal 289 291	小船
+T28	Person-Nominal 292 294	情侣
+T29	Thing-Nominal 311 313	鸳鸯
+T30	Location-Nominal 295 297	近处
+R6	Located Arg1:T29 Arg2:T30	
+T31	Person-Pronoun 315 316	我
+T32	Person-Pronoun 318 320	自己
+*	Coreference T32 T31
+T33	Person-Nominal 370 373	玉观音
+T34	Location-Nominal 367 370	侧对面
+T35	Location-Nominal 376 378	脸上
+T36	Thing-Nominal 383 388	深邃的月湖
+T37	Person-Pronoun 413 414	我
+T38	Thing-Nominal 415 422	扑朔迷离的霓虹
+T39	Thing-Pronoun 423 424	你
+*	Coreference T39 T38
+T40	Person-Pronoun 428 429	我
+T41	Thing-Nominal 437 439	霓虹
+T42	Thing-Nominal 445 447	眼睛
+T43	Person-Pronoun 451 452	我
+T44	Thing-Nominal 459 461	霓虹
+T45	Thing-Pronoun 470 471	你
+T46	Person-Nominal 485 488	一个人
+T47	Person-Pronoun 496 497	你
+T48	Person-Nominal 503 506	一个人
+T49	Person-Pronoun 517 518	你
+T50	Person-Pronoun 543 544	你
+T51	Thing-Nominal 555 562	那个熟悉的头像
+T52	Person-Nominal 588 591	那个人
+T53	Thing-Nominal 594 595;596 599	二 人世界
+T54	Person-Pronoun 621 622	我
+T55	Thing-Nominal 623 628	满天的星星
+T56	Person-Pronoun 633 634	我
+T57	Thing-Pronoun 629 630	你
+*	Coreference T57 T55
+T58	Location-Nominal 649 656	满天的繁星后面
+T59	Thing-Nominal 657 664	深不可测的太空
+R7	Located Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 665 667	太空
+T61	Thing-Nominal 699 701	眼睛
+T62	Thing-Nominal 692 694	星星
+T63	Person-Nominal 703 704	人
+T64	Location-Nominal 706 712	浩瀚的星海中
+T65	Thing-Nominal 717 719	翅膀
+T66	Thing-Nominal 722 724	脑子
+T67	Person-Name 747 750	马克思
+T68	Person-Name 751 753	燕妮
+T69	Person-Name 754 757	孙中山
+T70	Person-Name 758 761	宋庆龄
+T71	Person-Name 762 765	杨振宁
+T72	Person-Name 766 768	翁帆
+T73	Person-Name 769 776	江府小吏焦仲卿
+T74	Person-Name 777 780	刘兰芝
+T75	Person-Name 781 782;783 785	梁 山伯
+T76	Person-Name 786 789	祝英台
+T77	Person-Name 790 793	柳梦梅
+T78	Person-Name 794 797	杜丽娘
+T79	Person-Name 800 803	周有光
+T80	Person-Name 804 807	张永和
+T81	Person-Name 808 810	巴金
+T82	Person-Name 811 813	肖珊
+T83	Person-Nominal 915 919	饮食男女
+T84	Person-Nominal 991 994	三个人
+T85	Person-Pronoun 1003 1004	我
+T86	Person-Nominal 1035 1037	诸君
+T87	Person-Nominal 1046 1047	人
+T88	Person-Nominal 1052 1054	仁者
+T89	Person-Nominal 1056 1058	智者
+T90	Thing-Nominal 1009 1016	一道美妙的风景
+T91	Time-Explicit 1065 1071	1843年秋
+T92	Person-Name 1072 1083	法国文学家路易・维亚多
+T93	Person-Name 1084 1089	妻子波丽娜
+R8	Family Arg1:T93 Arg2:T92	
+T94	Location-Name 1098 1101	莫斯科
+T95	Person-Name 1105 1115	俄国大文学家屠格涅夫
+T96	Person-Name 1120 1124	屠格涅夫
+T97	Person-Name 1126 1129	波丽娜
+T98	Person-Name 1140 1143	波丽娜
+T99	Location-Name 1147 1149	俄国
+T100	Person-Name 1150 1154	屠格涅夫
+T101	Thing-Nominal 1159 1161	茶饭
+T102	Person-Nominal 1173 1183	内务府办公厅十等文官
+T103	Person-Name 1191 1194	波丽娜
+T104	Location-Name 1198 1200	俄国
+T105	Location-Name 1205 1223	巴黎东南的库尔塔弗内尔的维亚多庄园里
+T106	Person-Nominal 1223 1225	两人
+T107	Person-Pronoun 1281 1282	她
+T108	Person-Name 1255 1258	波丽娜
+T109	Time-Implicit 1271 1273	天天
+T110	Metric 1268 1270	三秋
+*	Coreference T107 T108
+T111	Location-Name 1230 1236	库尔塔弗内尔
+T112	Person-Name 1240 1244	屠格涅夫
+T113	Person-Pronoun 1288 1289	他
+*	Coreference T113 T112
+T114	Thing-Nominal 1294 1298	几封长信
+T115	Person-Pronoun 1309 1310	他
+T116	Thing-Nominal 1318 1328	一部部动人心弦的小说
+T117	Person-Name 1333 1337	屠格涅夫
+T118	Person-Name 1347 1350	波丽娜
+T119	Person-Pronoun 1352 1353	他
+*	Coreference T119 T117
+T120	Person-Nominal 1358 1366	第一读者和评论者
+T121	Person-Pronoun 1367 1369	他们
+T122	Thing-Nominal 1371 1375	两只鸟儿
+T123	Location-Nominal 1404 1409	各自的家里
+T124	Location-Nominal 1463 1471	波丽娜家的别墅处
+T125	Thing-Nominal 1463 1467	波丽娜家
+T126	Person-Name 1442 1446	屠格涅夫
+T127	Person-Nominal 1448 1450	家人
+T128	Location-Name 1456 1458	巴登
+T129	Location-Name 1436 1441	德国的巴登
+T130	Thing-Nominal 1429 1434	波丽娜全家
+R9	Located Arg1:T130 Arg2:T129	
+T131	Time-Explicit 1423 1428	1864年
+T132	Metric 1419 1422	二十年
+T133	Thing-Nominal 1474 1478	一处宅子
+R10	Located Arg1:T133 Arg2:T124	
+T134	Time-Explicit 1479 1486	普法战争结束后
+T135	Thing-Nominal 1487 1492	波丽娜一家
+T136	Location-Name 1495 1497	巴黎
+T137	Person-Name 1498 1502	屠格涅夫
+T138	Person-Name 1505 1508	波丽娜
+T139	Location-Name 1514 1521	小镇布日瓦尔合
+T140	Thing-Nominal 1523 1529	一幢乡村别墅
+R11	Located Arg1:T140 Arg2:T139	
+T141	Time-Explicit 1533 1538	1883年
+T142	Person-Name 1539 1543	屠格涅夫
+T143	Location-Nominal 1545 1553	别墅里的一张床上
+T144	Person-Nominal 1555 1556	人
+T145	Person-Pronoun 1561 1562	他
+*	Coreference T145 T142
+T146	Person-Name 1563 1566	波丽娜
+T147	Metric 1566 1569	四十年
+T148	Person-Nominal 1607 1609	女人
+T149	Person-Nominal 1595 1597	丈夫
+T150	Person-Nominal 1576 1586	一个名震寰宇的文学家
+T151	Thing-Nominal 1665 1667	秋风
+T152	Thing-Nominal 1670 1672	霜雪
+T153	Thing-Nominal 1652 1657	四十个春雨
+T154	Person-Nominal 1743 1746	“智者
+T155	Person-Name 1769 1772	金岳霖
+T156	Person-Name 1773 1776	梁思成
+T157	Person-Name 1777 1780	林徽因
+T158	Person-Nominal 1781 1783	三人
+T159	Location-Nominal 1794 1799	月湖的周边
+T160	Thing-Nominal 1799 1801	高楼
+R12	Located Arg1:T160 Arg2:T159	
+T161	Person-Pronoun 1814 1815	我
+T162	Location-Nominal 1844 1850	小茶几另一端
+T163	Person-Pronoun 1880 1881	我
+T164	Thing-Nominal 1887 1892	激荡的心石
+T165	Location-Nominal 1894 1899	平静的秋池
+R13	Located Arg1:T164 Arg2:T165	
+T166	Person-Pronoun 1900 1901	我
+T167	Person-Nominal 1904 1906	伊人
+T168	Person-Pronoun 1927 1928	我
+T169	Person-Nominal 1946 1948	二人
+T170	Location-Nominal 1994 1999	岳麓红枫下
+T171	Thing-Nominal 1978 1982	洋湖湿地
+T172	Thing-Nominal 1970 1974	橘子洲头
+T173	Person-Name 1962 1964	杜甫
+T174	Thing-Nominal 2052 2054	四目
+T175	Thing-Nominal 2097 2099	天堂
+T176	Person-Nominal 2214 2216	伊人
+T177	Location-Nominal 2282 2286	月湖周边
+T178	Thing-Nominal 2286 2289	车与人
+R14	Located Arg1:T178 Arg2:T177	
+T179	Thing-Nominal 2308 2310	鹦鹉
+T180	Person-Pronoun 2307 2308	我
+T181	Person-Nominal 2345 2347	伊人
+T182	Metric 2354 2356	两次
+T183	Location-Nominal 2404 2406	月湖

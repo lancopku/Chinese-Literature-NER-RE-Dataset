@@ -1,0 +1,47 @@
+T1	Location-Nominal 2 7	许多好地方
+T2	Location-Name 18 20	峨眉
+T3	Thing-Nominal 10 15	无数好风光
+R1	Located Arg1:T3 Arg2:T1	
+T4	Location-Name 21 23	华山
+T5	Location-Name 26 30	三峡长江
+T6	Location-Name 33 37	云南昆明
+T7	Location-Name 40 44	版纳西双
+T8	Location-Name 47 51	塞外长城
+T9	Location-Name 54 59	天安门广场
+T10	Location-Name 62 69	铜梁南城桂花园
+T11	Person-Pronoun 70 71	我
+T12	Location-Nominal 89 101	一个值得常去游玩的好地方
+R2	General-Special Arg1:T12 Arg2:T10	
+T13	Location-Name 105 108	桂花园
+*	Coreference T13 T10
+T14	Location-Name 105 111	桂花园观景场
+R3	Part-Whole Arg1:T14 Arg2:T13	
+T15	Thing-Name 112 120	汉白玉雕塑花仙子
+R4	Located Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 121 123	双手
+R5	Part-Whole Arg1:T16 Arg2:T15	
+T17	Thing-Nominal 125 127	桂花
+R6	Located Arg1:T17 Arg2:T16	
+T18	Location-Name 132 134	人间
+T19	Thing-Nominal 136 137	花
+T20	Location-Name 149 152	巴岳山
+T21	Location-Name 153 156	玄天湖
+T22	Location-Name 157 160	黄角门
+T23	Location-Name 168 171	计都寺
+T24	Location-Name 172 175	六赢山
+T25	Location-Nominal 176 179	古战场
+T26	Location-Nominal 182 185	汽车站
+T27	Location-Name 186 189	铁佛寺
+T28	Location-Name 197 201	巴川铜梁
+T29	Location-Name 192 196	龙都闹市
+T30	Person-Nominal 212 214	游客
+R7	Near Arg1:T20 Arg2:T14	
+R8	Near Arg1:T21 Arg2:T14	
+R9	Near Arg1:T22 Arg2:T14	
+R10	Near Arg1:T23 Arg2:T14	
+R11	Near Arg1:T24 Arg2:T14	
+R12	Near Arg1:T25 Arg2:T14	
+R13	Near Arg1:T26 Arg2:T14	
+R14	Near Arg1:T27 Arg2:T14	
+R15	Near Arg1:T29 Arg2:T14	
+R16	Near Arg1:T28 Arg2:T14	

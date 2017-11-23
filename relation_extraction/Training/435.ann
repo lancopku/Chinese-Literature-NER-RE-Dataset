@@ -1,0 +1,331 @@
+T1	Thing-Nominal 5 10	奔驰的列车
+T2	Location-Nominal 16 23	东北这片旷野里
+T3	Location-Nominal 24 27	车厢内
+T4	Thing-Nominal 27 29	灯光
+T5	Person-Nominal 40 45	疲倦的旅客
+T6	Location-Nominal 80 83	车窗外
+T7	Thing-Nominal 87 91	几缕灯火
+T8	Location-Nominal 99 102	夜色里
+T9	Person-Pronoun 107 108	我
+T10	Person-Nominal 108 115	这个孤独的旅人
+T11	Location-Nominal 115 117	脸上
+T12	Thing-Nominal 142 144	火车
+T13	Thing-Nominal 151 153	列车
+T14	Location-Nominal 155 162	一片灯火通明中
+R1	Located Arg1:T13 Arg2:T14	
+T15	Location-Nominal 163 166	站台上
+T16	Thing-Nominal 166 174	三个大字“德惠站
+R2	Located Arg1:T16 Arg2:T15	
+R3	Located Arg1:T7 Arg2:T8	
+R4	Located Arg1:T4 Arg2:T3	
+R5	Located Arg1:T1 Arg2:T2	
+T17	Location-Pronoun 183 185	这里
+T18	Person-Pronoun 187 188	我
+T19	Location-Nominal 195 197	故乡
+T20	Person-Nominal 200 214	一个个匆匆背起行囊下车的旅客
+T21	Person-Pronoun 218 220	他们
+*	Coreference T21 T20
+T22	Location-Nominal 225 238	那个依然亮着灯盏的温暖的家
+T23	Person-Pronoun 241 242	我
+T24	Person-Pronoun 250 251	我
+T25	Location-Nominal 257 259	那方
+T26	Thing-Nominal 264 268	这片土地
+T27	Thing-Nominal 303 304;305 306	老 宅
+T28	Location-Nominal 308 312	父母坟头
+T29	Thing-Nominal 312 317	荒芜的杂草
+R6	Located Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 320 322	汽笛
+T31	Thing-Nominal 325 327	火车
+T32	Person-Pronoun 334 335	我
+T33	Location-Nominal 350 353	车厢内
+T34	Person-Pronoun 362 363	我
+T35	Location-Nominal 381 384	角落里
+T36	Thing-Nominal 385 386	手
+T37	Thing-Nominal 393 399	手机里的照片
+T38	Location-Nominal 393 396	手机里
+R7	Located Arg1:T37 Arg2:T38	
+T39	Location-Nominal 422 424	故乡
+T40	Person-Pronoun 415 417	自己
+T41	Thing-Nominal 426 428	老家
+T42	Thing-Nominal 428 431	蛤蟆湾
+T43	Thing-Nominal 432 433	山
+T44	Thing-Nominal 434 435	水
+T45	Thing-Nominal 446 459	北大荒的“棒打狍子瓢舀鱼”
+T46	Thing-Nominal 464 468	富庶之地
+T47	Thing-Nominal 469 473	鱼米之乡
+T48	Thing-Nominal 474 478	一湾江水
+T49	Thing-Nominal 482 483	村
+T50	Thing-Nominal 489 494	悠悠的江水
+T51	Time-Implicit 494 498	千百年来
+T52	Location-Pronoun 501 503	这里
+T53	Location-Pronoun 512 514	这里
+T54	Person-Pronoun 518 519	我
+T55	Time-Implicit 530 533	小时候
+T56	Location-Nominal 539 541	江边
+T57	Thing-Nominal 543 544	日
+T58	Thing-Nominal 545 546	日
+T59	Time-Implicit 549 551	清晨
+T60	Location-Nominal 551 554	小村里
+T61	Time-Implicit 556 566	有了鸡鸣犬吠的喧嚣时
+T62	Person-Pronoun 567 568	我
+T63	Person-Nominal 576 578	父亲
+T64	Location-Nominal 581 584	院子里
+T65	Thing-Nominal 585 586	牛
+R8	Located Arg1:T65 Arg2:T64	
+T66	Location-Nominal 593 595	江畔
+T67	Person-Nominal 596 598	父亲
+T68	Thing-Nominal 606 607	牛
+T69	Person-Pronoun 609 610	我
+T70	Location-Nominal 624 627	冷凉中
+T71	Thing-Nominal 619 621	江风
+T72	Location-Nominal 613 618	早晨的江畔
+T73	Location-Nominal 632 635	空气里
+T74	Thing-Nominal 639 644	江水的鱼腥
+T75	Thing-Nominal 647 649	青草
+T76	Thing-Nominal 654 660	草甸子里的草
+T77	Location-Nominal 654 658	草甸子里
+R9	Located Arg1:T76 Arg2:T77	
+T78	Thing-Nominal 666 668	牛们
+T79	Thing-Nominal 673 674	花
+T80	Thing-Nominal 675 676	草
+T81	Location-Nominal 685 687	远方
+T82	Person-Pronoun 691 692	我
+T83	Location-Nominal 697 704	江边的老榆树下
+T84	Location-Nominal 710 712	远方
+T85	Thing-Nominal 714 716	水天
+T86	Location-Nominal 725 728	烟雾里
+T87	Time-Implicit 729 731	那时
+T88	Person-Pronoun 732 733	我
+T89	Location-Nominal 736 740	水的尽头
+T90	Thing-Nominal 736 737	水
+T91	Location-Nominal 752 756	小人书里
+T92	Thing-Nominal 756 761	画的那座桥
+R10	Located Arg1:T92 Arg2:T91	
+T93	Thing-Nominal 777 780	蛤蟆湾
+T94	Person-Pronoun 782 783	我
+T95	Person-Nominal 784 787	伙伴们
+T96	Thing-Nominal 788 790	乐园
+T97	Thing-Nominal 795 796	鱼
+T98	Thing-Nominal 798 800	蛤蛎
+T99	Thing-Nominal 802 804	野菜
+T100	Thing-Nominal 806 808	桑葚
+T101	Person-Nominal 814 819	家里的大人
+T102	Thing-Nominal 829 831;832 836	自行 车的辐条
+T103	Location-Nominal 839 842	砖头上
+T104	Thing-Nominal 862 871	一支尖尖的蛤蟆钎子
+T105	Thing-Pronoun 879 880	它
+T106	Location-Nominal 885 888	竹竿上
+*	Coreference T104 T105
+R11	Located Arg1:T104 Arg2:T106	
+T107	Person-Nominal 897 902	三五个伙伴
+T108	Thing-Nominal 912 917	手里的工具
+T109	Location-Nominal 912 914	手里
+R12	Located Arg1:T108 Arg2:T109	
+T110	Location-Nominal 925 929	沟渠草甸
+T111	Thing-Nominal 931 933	蛤蟆
+T112	Location-Nominal 933 936	好地方
+*	Coreference T112 T110
+T113	Person-Pronoun 937 942	赤脚的我们
+T114	Thing-Nominal 956 957	蛙
+T115	Thing-Nominal 970 972	钎子
+T116	Location-Nominal 979 982	草丛里
+T117	Thing-Nominal 983 985	蛤蟆
+R13	Located Arg1:T117 Arg2:T116	
+T118	Thing-Nominal 996 998	钎子
+T119	Location-Pronoun 1003 1005	那里
+T120	Thing-Nominal 1008 1013	我们的猎物
+T121	Person-Pronoun 1008 1010	我们
+T122	Person-Nominal 1028 1038	一位战场上得胜的将军
+T123	Location-Nominal 1058 1060	水里
+T124	Person-Nominal 1062 1063	人
+T125	Thing-Nominal 1071 1073	蛤蟆
+T126	Location-Nominal 1080 1082	脸上
+T127	Location-Nominal 1083 1086	衣襟上
+T128	Thing-Nominal 1090 1094	一身泥水
+R14	Located Arg1:T128 Arg2:T126	
+R15	Located Arg1:T128 Arg2:T127	
+T129	Person-Nominal 1104 1106	小丑
+T130	Person-Pronoun 1121 1123	我们
+T131	Location-Nominal 1129 1132	网兜里
+T132	Person-Nominal 1138 1141	伙伴们
+T133	Thing-Nominal 1141 1146	胜利的果实
+R16	Located Arg1:T133 Arg2:T131	
+T134	Location-Nominal 1148 1156	高岗处的林间隙地
+T135	Person-Nominal 1158 1161	孩子们
+T136	Thing-Nominal 1171 1172	坑
+T137	Thing-Nominal 1173 1174	灶
+T138	Thing-Nominal 1180 1181	柴
+T139	Location-Pronoun 1182 1184	这里
+T140	Person-Nominal 1197 1200	孩子们
+T141	Location-Nominal 1209 1212	树洞里
+T142	Thing-Nominal 1214 1218	火种、盐
+R17	Located Arg1:T142 Arg2:T141	
+T143	Thing-Nominal 1219 1224	盛水的水具
+T144	Thing-Nominal 1230 1234	几捆枯枝
+T145	Location-Nominal 1225 1228	不远处
+R18	Located Arg1:T144 Arg2:T145	
+T146	Location-Nominal 1237 1242	不大的坑上
+T147	Location-Nominal 1235 1237	地上
+T148	Thing-Nominal 1244 1247	几块砖
+R19	Located Arg1:T148 Arg2:T146	
+T149	Location-Nominal 1248 1250	砖上
+T150	Thing-Nominal 1252 1259	两片完整的瓦片
+R20	Located Arg1:T150 Arg2:T149	
+T151	Location-Nominal 1260 1262	灶下
+T152	Thing-Nominal 1266 1269;1270 1276	几根没 有燃尽的木棍
+R21	Located Arg1:T152 Arg2:T151	
+T153	Person-Nominal 1277 1280	伙伴们
+T154	Thing-Nominal 1288 1289	水
+T155	Thing-Nominal 1291 1292	水
+T156	Thing-Nominal 1294 1295	皮
+T157	Thing-Nominal 1297 1298	皮
+T158	Thing-Nominal 1300 1301	火
+T159	Thing-Nominal 1303 1304	火
+T160	Thing-Nominal 1326 1330;1331 1332	袅袅的青 烟
+T161	Location-Nominal 1320 1322	林间
+R22	Located Arg1:T160 Arg2:T161	
+T162	Thing-Nominal 1339 1342	蛤蟆腿
+T163	Thing-Nominal 1345 1349	少许的盐
+T164	Thing-Nominal 1351 1356	青玉米叶子
+T165	Location-Nominal 1362 1365	瓦片上
+R23	Located Arg1:T162 Arg2:T165	
+T166	Location-Nominal 1370 1372	边上
+T167	Person-Pronoun 1374 1376	我们
+T168	Thing-Nominal 1380 1381	柴
+T169	Thing-Nominal 1403 1407	野鸭子蛋
+T170	Person-Pronoun 1418 1419	我
+T171	Location-Nominal 1423 1425	江边
+T172	Location-Nominal 1427 1429	谁家
+T173	Thing-Nominal 1437 1439	大鱼
+T174	Thing-Nominal 1430 1431	网
+T175	Thing-Pronoun 1441 1442	它
+*	Coreference T175 T174
+T176	Person-Pronoun 1458 1459	我
+T177	Thing-Nominal 1463 1465	苞米
+T178	Person-Nominal 1472 1473	人
+T179	Person-Nominal 1485 1488	伙伴们
+T180	Time-Implicit 1488 1490	此时
+T181	Thing-Nominal 1504 1510	灶上的蛤蟆腿
+T182	Location-Nominal 1504 1506	灶上
+R24	Located Arg1:T181 Arg2:T182	
+T183	Person-Nominal 1528 1531	孩子们
+T184	Thing-Nominal 1548 1553	上面的灰尘
+T185	Location-Nominal 1548 1550	上面
+R25	Located Arg1:T184 Arg2:T185	
+T186	Thing-Nominal 1556 1563	残存的玉米叶子
+T187	Location-Nominal 1570 1572	嘴里
+R26	Located Arg1:T186 Arg2:T187	
+T188	Location-Pronoun 1604 1606	这里
+T189	Person-Pronoun 1608 1610	自己
+T190	Person-Nominal 1622 1624	父亲
+T191	Thing-Nominal 1627 1631	这里的山
+T192	Thing-Nominal 1632 1636	这里的水
+T193	Thing-Nominal 1648 1652	一只小船
+T194	Location-Nominal 1653 1661	柳条通子里的水巷
+R27	Located Arg1:T193 Arg2:T194	
+T195	Person-Nominal 1668 1677	一位满头白发的老人
+T196	Thing-Nominal 1683 1685	双桨
+T197	Thing-Nominal 1686 1688	船头
+T198	Location-Nominal 1693 1695	江面
+T199	Thing-Nominal 1699 1709	无数小小的细碎的浪花
+T200	Person-Pronoun 1723 1724	它
+R28	Create Arg1:T200 Arg2:T199	
+T201	Thing-Nominal 1727 1732	一只野鸭子
+T202	Location-Nominal 1737 1740	水面上
+T203	Location-Nominal 1744 1746	身后
+T204	Thing-Pronoun 1742 1743	它
+T205	Thing-Nominal 1748 1753	一道道波纹
+T206	Thing-Nominal 1767 1769	夕阳
+T207	Thing-Pronoun 1773 1774	它
+T208	Location-Nominal 1784 1787	江面上
+T209	Location-Nominal 1790 1793	江面上
+T210	Thing-Nominal 1797 1804	细碎的金色粼光
+R29	Located Arg1:T210 Arg2:T209	
+T211	Thing-Nominal 1805 1809	几只燕子
+T212	Location-Pronoun 1815 1817	这里
+T213	Thing-Nominal 1824 1826	蜻蜓
+T214	Location-Nominal 1832 1835	水面上
+T215	Thing-Nominal 1837 1844	一圈金色的鳞波
+R30	Located Arg1:T215 Arg2:T214	
+T216	Thing-Nominal 1845 1848	这圆圈
+T217	Location-Nominal 1874 1880	苍茫的江面上
+T218	Thing-Nominal 1888 1890	燕子
+T219	Thing-Nominal 1896 1901	自己的影子
+T220	Thing-Pronoun 1896 1898	自己
+*	Coreference T220 T218
+T221	Location-Nominal 1904 1911	这幅山水画卷中
+T222	Thing-Nominal 1914 1918	江南水乡
+T223	Thing-Nominal 1922 1926	小船流水
+T224	Thing-Nominal 1927 1929	夕阳
+T225	Thing-Nominal 1932 1934	燕子
+T226	Thing-Nominal 1937 1942;1943 1946	不远处的堆 烟杨柳
+T227	Thing-Nominal 1977 1984	这般美丽的图画
+T228	Thing-Nominal 1997 1998	船
+T229	Person-Nominal 2004 2007	老父亲
+T230	Thing-Nominal 2009 2010	船
+T231	Person-Nominal 2021 2024	老父亲
+T232	Thing-Nominal 2029 2030	头
+T233	Location-Nominal 2031 2037	满脸的皱纹里
+T234	Location-Nominal 2047 2050	目光里
+T235	Thing-Nominal 2057 2061	一船独驾
+T236	Thing-Nominal 2062 2064	波光
+T237	Thing-Nominal 2067 2069	夕阳
+T238	Person-Pronoun 2076 2077	他
+*	Coreference T238 T231
+T239	Location-Nominal 2079 2086	这苍茫的云水间
+T240	Thing-Nominal 2089 2091	小船
+T241	Thing-Pronoun 2101 2102	它
+T242	Person-Pronoun 2124 2125	我
+T243	Thing-Nominal 2143 2147	几滴泪痕
+T244	Location-Nominal 2140 2142	脸上
+R31	Located Arg1:T243 Arg2:T244	
+T245	Person-Nominal 2148 2150	父亲
+T246	Metric 2154 2156	四年
+T247	Location-Nominal 2162 2165	天堂里
+T248	Thing-Nominal 2169 2172	蛤蟆湾
+T249	Thing-Nominal 2175 2182	一弯清澈的江水
+T250	Person-Pronoun 2198 2199	你
+T251	Thing-Nominal 2201 2204	你的船
+T252	Person-Pronoun 2201 2202	你
+T253	Person-Pronoun 2213 2214	我
+T254	Person-Pronoun 2227 2228	你
+T255	Thing-Nominal 2240 2243	你的手
+T256	Person-Pronoun 2240 2241	你
+T257	Person-Pronoun 2248 2249	你
+T258	Location-Nominal 2284 2288	阳间路上
+T259	Person-Nominal 2295 2297	父亲
+T260	Person-Nominal 2303 2305	父亲
+T261	Person-Nominal 2323 2326	老人家
+T262	Person-Nominal 2334 2337	一个人
+T263	Location-Nominal 2339 2344	父亲的坟头
+T264	Person-Nominal 2339 2341	父亲
+T265	Thing-Nominal 2347 2350;2351 2352	几杯冷 酒
+T266	Thing-Nominal 2355 2359	一把香烛
+T267	Thing-Nominal 2362 2366	一堆纸钱
+T268	Thing-Nominal 2370 2373	纸灰飞
+T269	Thing-Nominal 2374 2377	白蝴蝶
+T270	Thing-Nominal 2382 2385	红杜鹃
+T271	Thing-Nominal 2378 2380	泪血
+T272	Thing-Nominal 2406 2411	父亲的坟头
+T273	Person-Nominal 2406 2408	父亲
+T274	Thing-Nominal 2414 2420	两行思念的泪
+T275	Thing-Nominal 2425 2427	车轮
+T276	Thing-Nominal 2430 2432	列车
+T277	Person-Nominal 2434 2439	我这个游子
+T278	Person-Pronoun 2463 2464	我
+T279	Thing-Nominal 2468 2472	那片故土
+T280	Person-Pronoun 2477 2478	我
+T281	Thing-Nominal 2505 2515	那熟悉的故乡的山和水
+T282	Thing-Nominal 2519 2524	熟悉的老宅
+T283	Thing-Nominal 2552 2556	一把泥土
+T284	Thing-Nominal 2557 2561	一棵老树
+T285	Thing-Nominal 2562 2566	一块砖瓦
+T286	Thing-Pronoun 2588 2589	她
+T287	Thing-Pronoun 2600 2601	它
+T288	Location-Nominal 2486 2488	夜里
+T289	Location-Nominal 2549 2551	故里
+R32	Located Arg1:T283 Arg2:T289	
+R33	Located Arg1:T284 Arg2:T289	
+R34	Located Arg1:T285 Arg2:T289	
+T290	Thing-Nominal 2612 2614	蜀笺
+T291	Metric 2616 2618	三千

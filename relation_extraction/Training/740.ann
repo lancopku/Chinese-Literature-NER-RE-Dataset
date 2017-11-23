@@ -1,0 +1,116 @@
+T2	Thing-Nominal 10 12	江水
+T1	Thing-Nominal 6 7	火
+T3	Time-Implicit 16 20	阳春三月
+T4	Thing-Nominal 21 22	风
+T5	Thing-Nominal 23 24	日
+T6	Location-Nominal 37 42	张家港码头
+T7	Person-Pronoun 26 28	我们
+T8	Thing-Nominal 43 60;61 67	一艘艘挂着不同旗帜来自不同国家和地 区的巨大货轮
+T9	Metric 43 46	一艘艘
+T10	Thing-Nominal 50 52	旗帜
+T11	Location-Nominal 56 58	国家
+T12	Location-Nominal 59 60;61 62	地 区
+T13	Thing-Nominal 74 76	朝阳
+T14	Thing-Nominal 85 92	滚滚东去的江涛
+T15	Thing-Nominal 99 114	匍匐在江边的一条磷光闪烁的巨龙
+*	Coreference T15 T8
+T16	Thing-Nominal 112 114	巨龙
+T17	Metric 105 107	一条
+T18	Location-Nominal 116 118	码头
+T19	Thing-Nominal 124 126	吊杆
+T20	Thing-Nominal 127 129	吊塔
+T21	Metric 131 134	一根根
+T22	Thing-Nominal 134 137	擎天柱
+T23	Location-Nominal 139 141	蓝天
+T24	Location-Nominal 147 149	长山
+T25	Location-Nominal 150 152	巫山
+T26	Location-Nominal 153 155	香山
+T27	Location-Nominal 167 169	江南
+T28	Location-Nominal 170 172	长江
+T29	Location-Nominal 175 176;177 185	三 道巨大的天然翠屏
+R1	Part-Whole Arg1:T24 Arg2:T29	
+R2	Part-Whole Arg1:T25 Arg2:T29	
+R3	Part-Whole Arg1:T26 Arg2:T29	
+T30	Location-Nominal 189 192	双山岛
+T31	Location-Nominal 217 221	山上寺庙
+T32	Thing-Nominal 222 224	晨钟
+T33	Location-Nominal 238 240	码头
+T34	Thing-Nominal 249 251	吊塔
+T35	Thing-Nominal 252 254	吊杆
+T36	Thing-Nominal 258 260	铁臂
+T37	Location-Nominal 262 264	船舱
+T38	Thing-Nominal 269 272	集装箱
+T39	Thing-Nominal 275 277	货物
+T40	Metric 266 269	一箱箱
+T41	Thing-Nominal 292 294	棉纱
+T42	Thing-Nominal 295 297	粮油
+T43	Thing-Nominal 299 303	轻工产品
+T44	Location-Nominal 308 310	船舱
+T45	Thing-Nominal 332 334	车轮
+T46	Thing-Nominal 339 341	车辆
+T47	Thing-Nominal 346 348	车龙
+T48	Person-Pronoun 383 384	我
+T49	Thing-Nominal 405 408	小客轮
+T50	Thing-Nominal 415 417	芦苇
+T51	Location-Nominal 426 430	江滩古渡
+T52	Person-Name 433 436	陆局长
+T53	Person-Pronoun 443 445	我们
+T54	Location-Nominal 448 450	港区
+T55	Location-Nominal 451 455	办公大楼
+T56	Thing-Nominal 458 459	茶
+T57	Person-Nominal 461 466	港区老领导
+T58	Location-Nominal 477 479	苏州
+T59	Location-Nominal 480 481;482 483	无 锡
+T60	Location-Nominal 484 486	常州
+T61	Location-Nominal 487 495	苏南经济发达城市
+T62	Location-Nominal 498 507	长三角经济发达地区
+T63	Location-Nominal 508 519	长江黄金水道的要冲之地
+*	Coreference T63 T62 T68
+R4	Part-Whole Arg1:T58 Arg2:T61	
+R5	Part-Whole Arg1:T59 Arg2:T61	
+R6	Part-Whole Arg1:T60 Arg2:T61	
+T64	Location-Nominal 537 539	江港
+T65	Organization-Nominal 548 553	张家港政府
+T66	Time-Explicit 608 616	1968年11月
+T67	Person-Nominal 622 628	上海港的领导
+T68	Location-Nominal 636 640	风水宝地
+T69	Location-Nominal 643 645	上海
+T70	Location-Nominal 646 649	分流港
+T71	Location-Nominal 650 653	战备港
+T72	Location-Nominal 657 664	福姜沙水道南岸
+*	Coreference T70 T72 T71
+T73	Location-Nominal 666 673	张家港上游河口
+T74	Location-Nominal 675 680	张家港口岸
+T75	Person-Nominal 707 708	人
+T76	Location-Nominal 712 714	江堤
+T77	Location-Nominal 702 707	近百里江滩
+T78	Thing-Nominal 715 716	车
+T79	Location-Nominal 720 725	江滩芦苇荡
+T80	Thing-Nominal 728 729	刀
+T81	Location-Nominal 732 733	江
+T82	Metric 734 737	一艘艘
+T83	Thing-Nominal 737 744	穿梭的挖泥机船
+T84	Metric 749 752	一只只
+T85	Thing-Nominal 754 756	坌斗
+T86	Location-Nominal 757 759	江底
+T87	Metric 761 764	一斗斗
+T88	Thing-Nominal 764 766	淤泥
+T89	Metric 769 772	一只只
+T90	Thing-Nominal 772 776	水泥农船
+T91	Thing-Nominal 779 781	长龙
+T92	Thing-Nominal 783 786;787 788	运泥船 队
+T93	Thing-Nominal 789 791	拖轮
+T94	Location-Nominal 794 796	江面
+T95	Thing-Nominal 799 801	船只
+T96	Person-Nominal 810 811	人
+T97	Person-Nominal 815 816	人
+T98	Person-Nominal 820 821	人
+T99	Person-Nominal 830 839	勤劳淳朴的张家港人
+T100	Person-Pronoun 840 842	他们
+*	Coreference T100 T99
+T101	Thing-Nominal 851 853	双手
+R7	Part-Whole Arg1:T101 Arg2:T100	
+T102	Location-Nominal 854 863	长江南岸的黄金水道
+T103	Location-Nominal 876 886	一座现代化的江港口岸
+T104	Metric 876 878	一座
+T105	Location-Nominal 898 904	世界对外口岸

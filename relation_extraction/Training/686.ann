@@ -1,0 +1,288 @@
+T1	Person-Pronoun 0 1	我
+T2	Time-Implicit 2 6	少儿时期
+T3	Thing-Nominal 10 11	诗
+T4	Thing-Nominal 28 30	诗篇
+R1	Create Arg1:T1 Arg2:T4	
+T5	Time-Implicit 31 34	退休后
+T6	Thing-Nominal 58 59	诗
+T7	Thing-Nominal 63 67	汪洋大海
+T8	Time-Implicit 70 74	今日闲暇
+T9	Metric 79 82	几十年
+T10	Thing-Nominal 77 96	尘封几十年诗作(刊登在报刊的剪贴样本)
+R2	Ownership Arg1:T1 Arg2:T10	
+T11	Abstract 101 110	党的十一届三中全会
+T12	Thing-Nominal 101 115	党的十一届三中全会以来的诗篇
+T13	Location-Name 129 130;131 135	太 行山老区
+T14	Abstract 135 139	改革开放
+T15	Time-Implicit 135 141	改革开放以来
+T16	Time-Explicit 148 149	今
+T17	Time-Explicit 151 161	邓小平诞辰110周年
+*	Coreference T17 T16 T223
+T18	Person-Nominal 185 187	读者
+T19	Metric 182 184	几首
+T20	Person-Nominal 191 199	土改翻身后的农民
+T21	Abstract 201 204	互助组
+T22	Abstract 205 208	合作化
+T23	Abstract 210 213	公社化
+T24	Thing-Nominal 228 230	工分
+T25	Thing-Nominal 231 233	命根
+T26	Person-Nominal 239 241	人们
+T27	Time-Explicit 248 251;252 256	197 9年春天
+T28	Thing-Nominal 257 292	一份由县人民政府制发、由乡政府和村委会与我家签订的《土地承包经营证书》
+T29	Organization-Nominal 260 265	县人民政府
+T30	Organization-Nominal 269 272	乡政府
+T31	Organization-Nominal 273 276	村委会
+T32	Organization-Nominal 277 279	我家
+T33	Organization-Nominal 294 297	我们家
+*	Coreference T33 T32
+T34	Person-Pronoun 298 299	我
+T35	Person-Nominal 300 302	妻子
+R3	Family Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 304 312;313 323	山坡、平川共计5 .6亩土地的承包合同
+*	Coreference T36 T28
+T37	Thing-Nominal 304 312;313 318	山坡、平川共计5 .6亩土地
+T38	Metric 334 337	30年
+T39	Person-Pronoun 343 345	俺们
+T40	Person-Nominal 298 302	我和妻子
+*	Coreference T39 T40 T52
+T41	Thing-Nominal 350 351	花
+T42	Person-Pronoun 352 353	我
+T43	Thing-Nominal 355 361	科技种田书刊
+R4	Use Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 368 373;374 379	玉米杂交中 单2号种子
+R5	Use Arg1:T42 Arg2:T44	
+T45	Location-Nominal 384 386	地里
+R6	Located Arg1:T44 Arg2:T45	
+T46	Thing-Nominal 396 400	玉米苗儿
+R7	Located Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 413 415	底肥
+T48	Thing-Nominal 417 418	肥
+R8	General-Special Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 426 430	玉米苗秧
+*	Coreference T49 T46
+T50	Thing-Nominal 447 450	每棵秧
+R9	General-Special Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 453 459	俩三个大玉茭
+R10	Located Arg1:T51 Arg2:T50	
+T52	Person-Pronoun 460 462	我们
+T53	Person-Nominal 469 474	围观乡亲们
+R11	Social Arg1:T53 Arg2:T52	
+T54	Person-Pronoun 476 478	我们
+T55	Thing-Nominal 478 482	大堆玉米
+R12	Ownership Arg1:T54 Arg2:T55	
+T56	Location-Nominal 484 485	家
+T57	Thing-Nominal 487 488	山
+T58	Thing-Nominal 499 505	玉米二三百斤
+T59	Metric 513 517	七八百斤
+T60	Metric 520 523	上千斤
+T61	Metric 501 505	二三百斤
+T62	Time-Implicit 541 546	第二年开春
+T63	Location-Nominal 528 529	村
+T64	Location-Nominal 551 553	全村
+T65	Time-Implicit 562 564	秋来
+T66	Organization-Nominal 565 569	家家户户
+T67	Thing-Nominal 569 571	玉米
+T68	Person-Pronoun 575 576	我
+T69	Person-Nominal 583 585	农民
+R13	General-Special Arg1:T69 Arg2:T68	
+R14	General-Special Arg1:T69 Arg2:T53	
+R15	General-Special Arg1:T69 Arg2:T52	
+T70	Person-Pronoun 603 604	我
+T71	Thing-Nominal 609 612	诗两首
+R16	Create Arg1:T70 Arg2:T71	
+T72	Time-Explicit 614 617;618 625	198 1年7月25日
+T73	Organization-Nominal 625 631	《保定日报》
+T74	Thing-Name 635 642	《责任田里》(
+T75	Metric 647 651	三三俩俩
+T76	Metric 653 657	俩俩仨仨
+T77	Person-Nominal 684 686	农民
+T78	Location-Nominal 691 693	田洼
+T79	Person-Nominal 698 700	农民
+T80	Thing-Nominal 698 703	农民的心血
+T81	Thing-Nominal 707 708	苗
+T82	Person-Pronoun 711 713	他们
+*	Coreference T82 T79
+T83	Thing-Nominal 718 720	庄稼
+T84	Location-Nominal 732 734	田间
+T85	Thing-Name 738 742	《赶锄》
+T86	Thing-Nominal 744 745	腰
+T87	Thing-Nominal 746 747	背
+T88	Thing-Nominal 748 750	黄牛
+T89	Metric 752 756	三三俩俩
+T90	Thing-Nominal 758 759	头
+T91	Thing-Nominal 761 763	禾苗
+T92	Thing-Nominal 765 767	肩膀
+T93	Thing-Nominal 770 772	汗水
+T94	Thing-Nominal 774 776	锄把
+T95	Thing-Nominal 774 775	锄
+R17	Part-Whole Arg1:T94 Arg2:T95	
+T96	Abstract 797 801	三中全会
+T97	Thing-Nominal 806 807	锦
+T98	Thing-Nominal 809 810	花
+R18	Located Arg1:T98 Arg2:T97	
+T99	Abstract 817 822	农田责任制
+T100	Person-Nominal 825 827	人们
+T101	Person-Nominal 828 830	八仙
+T102	Thing-Nominal 831 832	海
+T103	Thing-Nominal 838 840	玉米
+T104	Metric 843 847	二三百斤
+T105	Metric 850 854	七八百斤
+T106	Metric 855 858	上千斤
+T107	Person-Nominal 859 861	人们
+T108	Thing-Nominal 861 863	餐桌
+R19	Ownership Arg1:T107 Arg2:T108	
+R20	Use Arg1:T107 Arg2:T108	
+T109	Thing-Nominal 866 871	大米、白面
+R21	Located Arg1:T109 Arg2:T108	
+R22	Use Arg1:T107 Arg2:T109	
+T110	Thing-Nominal 876 881	玉米、谷子
+R23	Use Arg1:T107 Arg2:T110	
+T111	Person-Nominal 898 905	心情舒畅的农民
+R24	General-Special Arg1:T79 Arg2:T111	
+T112	Time-Implicit 912 914	当时
+T113	Person-Pronoun 915 916	我
+T114	Thing-Nominal 922 924	诗歌
+T115	Person-Nominal 928 930	农民
+T116	Person-Pronoun 931 934	我自己
+*	Coreference T116 T113
+T117	Thing-Name 942 951	《幸福苗苗挺起身》
+R25	Create Arg1:T113 Arg2:T117	
+R26	Create Arg1:T113 Arg2:T85	
+R27	Create Arg1:T68 Arg2:T74	
+T118	Person-Nominal 957 958	人
+T120	Thing-Nominal 975 977	春雨
+T121	Thing-Nominal 973 974	风
+T122	Thing-Nominal 979 983	幸福苗苗
+T119	Abstract 970 973	十二大
+T123	Thing-Nominal 961 965	致富种子
+T124	Location-Nominal 988 992	农家小院
+T125	Location-Nominal 997 999	祖国
+T126	Abstract 1008 1012	改革开发
+T127	Location-Name 1018 1025	太行深山老峪村
+T128	Thing-Nominal 1033 1038	荒山和果园
+T129	Person-Pronoun 1058 1059	我
+T130	Time-Explicit 1060 1066;1067 1071	1984年1 0月6日
+T131	Organization-Name 1071 1077	《保定日报》
+T132	Thing-Name 1079 1085	诗作《山牧》
+R28	Create Arg1:T129 Arg2:T132	
+T133	Thing-Nominal 1086 1094	一顶顶三角形帐篷
+T134	Thing-Nominal 1099 1104	雪白的奇葩
+T135	Location-Nominal 1109 1116	五颜六色的山梁
+R29	Located Arg1:T134 Arg2:T135	
+T136	Person-Nominal 1118 1123	养畜专业户
+T137	Location-Nominal 1125 1127	花里
+T138	Thing-Nominal 1128 1129	家
+R30	Located Arg1:T138 Arg2:T137	
+T139	Thing-Nominal 1133 1135	牧笛
+T140	Thing-Nominal 1137 1142	过路的白云
+T141	Location-Nominal 1144 1148	片片绿坡
+T142	Thing-Nominal 1151 1156	翠宝样年华
+R31	Located Arg1:T142 Arg2:T141	
+T143	Thing-Nominal 1161 1168	滚瓜流油的羊群
+T144	Thing-Nominal 1162 1163	瓜
+T145	Thing-Nominal 1164 1165	油
+T146	Thing-Nominal 1173 1180	膘肥体壮的骡子
+T147	Thing-Nominal 1173 1174	膘
+T148	Thing-Nominal 1175 1176	体
+R32	Part-Whole Arg1:T148 Arg2:T146	
+R33	Part-Whole Arg1:T147 Arg2:T146	
+T149	Thing-Nominal 1183 1184	衣
+T150	Thing-Nominal 1185 1186	食
+T151	Person-Nominal 1188 1196	勤劳朴实的山里人
+T152	Person-Pronoun 1198 1200	自己
+*	Coreference T152 T151
+T153	Thing-Nominal 1198 1206	自己的劳动和汗水
+R34	Create Arg1:T151 Arg2:T153	
+T154	Abstract 1208 1212	改革开放
+T155	Thing-Nominal 1217 1219	腰包
+R35	Ownership Arg1:T151 Arg2:T155	
+T156	Thing-Nominal 1240 1242	电影
+T157	Thing-Nominal 1252 1266	一台台洗衣机、电视剧、电冰箱
+T158	Location-Nominal 1268 1274	山娃们的家门
+T159	Person-Nominal 1268 1271	山娃们
+T160	Time-Explicit 1278 1288	1985年3月18日
+T161	Organization-Name 1288 1296	《河北小孩周报》
+T162	Person-Pronoun 1299 1300	我
+T163	Person-Nominal 1302 1303;1304 1305	山 娃
+T164	Thing-Nominal 1309 1311	蟋蟀
+T165	Thing-Nominal 1311 1313	蟋蟀
+T166	Thing-Pronoun 1315 1316	你
+*	Coreference T166 T165
+T167	Location-Nominal 1329 1331	我家
+T168	Thing-Nominal 1333 1336	洗衣机
+R36	Located Arg1:T168 Arg2:T167	
+T169	Thing-Nominal 1338 1340	电钮
+R37	Part-Whole Arg1:T169 Arg2:T168	
+T170	Thing-Nominal 1343 1345	脏衣
+T171	Time-Explicit 1347 1352	1987年
+T172	Location-Name 1353 1357	太行山区
+T173	Abstract 1357 1361	改革开放
+T174	Location-Nominal 1367 1370	城乡涌
+T175	Person-Nominal 1371 1386	一大批林、果、种植、养殖专业户
+T176	Person-Nominal 1399 1402	万元户
+T177	Person-Nominal 1403 1405	人们
+T178	Location-Nominal 1390 1394	村村庄庄
+R38	Part-Whole Arg1:T178 Arg2:T172	
+T179	Thing-Nominal 1405 1407	衣兜
+R39	Create Arg1:T177 Arg2:T179	
+T180	Time-Explicit 1416 1423	那年10月8日
+T181	Organization-Nominal 1423 1428	《保定日报
+T182	Thing-Name 1432 1438	《山村新韵》
+T183	Location-Nominal 1446 1448	山顶
+T184	Thing-Nominal 1457 1462	全村的院落
+T185	Thing-Nominal 1464 1472	鳞次栉比的石头院
+*	Coreference T185 T184
+T186	Location-Nominal 1487 1489	东台
+T187	Thing-Nominal 1491 1494	电子琴
+T188	Person-Nominal 1501 1505	山里娃们
+T189	Location-Nominal 1510 1512	山岗
+T190	Thing-Nominal 1514 1518	琅琅笑语
+R40	Located Arg1:T190 Arg2:T189	
+T191	Person-Nominal 1522 1525	科技户
+T192	Location-Name 1531 1533	南塄
+T193	Thing-Nominal 1535 1539	康乐棋局
+T194	Person-Nominal 1546 1552	大娘二婶婆婆
+T195	Location-Name 1554 1556	北峨
+R41	Located Arg1:T193 Arg2:T192	
+T196	Thing-Nominal 1571 1576	幸福牌摩托
+T197	Location-Name 1581 1587	太行深山老峪
+T198	Person-Nominal 1608 1611	山汉们
+T199	Thing-Nominal 1621 1623	余款
+R42	Ownership Arg1:T198 Arg2:T199	
+T200	Organization-Nominal 1627 1629	银行
+T201	Time-Explicit 1632 1638;1639 1642	1988年5 月5日
+T202	Person-Pronoun 1643 1644	我
+T203	Organization-Name 1645 1651	《保定日报》
+T204	Thing-Name 1654 1663	《写在储蓄所窗口》
+T205	Thing-Nominal 1666 1667	柴
+T206	Thing-Nominal 1670 1671	碳
+T207	Thing-Nominal 1675 1677	枣棍
+T208	Person-Nominal 1679 1680	饭
+T209	Thing-Nominal 1697 1698	钱
+T210	Time-Implicit 1702 1709	大批大斗那些年
+T211	Thing-Nominal 1725 1726	钱
+T212	Thing-Nominal 1729 1732	一个钢
+T213	Thing-Nominal 1737 1739	春风
+T214	Thing-Nominal 1742 1743	花
+T215	Person-Nominal 1750 1753	俺老汉
+T216	Thing-Nominal 1746 1748	果园
+T217	Thing-Nominal 1755 1760	一沓沓票子
+T218	Thing-Nominal 1765 1770	储蓄所柜台
+T219	Location-Nominal 1765 1768	储蓄所
+R43	Located Arg1:T218 Arg2:T219	
+T220	Thing-Nominal 1775 1777	春潮
+T221	Metric 1787 1790	35年
+T222	Person-Name 1793 1798	邓小平同志
+T223	Time-Explicit 1793 1805	邓小平同志诞辰110周年
+T224	Thing-Nominal 1818 1829	报刊已发过的几十首短诗
+T225	Person-Nominal 1837 1840	引路人
+T226	Person-Name 1845 1848	邓小平
+*	Coreference T226 T225 T222
+T227	Person-Nominal 1857 1859	古人
+T228	Person-Pronoun 1865 1867	我们
+T229	Person-Pronoun 1900 1902	我们
+T230	Thing-Nominal 1916 1920	夕阳余辉
+T231	Thing-Nominal 1924 1925	歌
+T232	Abstract 1943 1946	中国梦
+T233	Thing-Nominal 1946 1948	答卷
+T234	Person-Name 151 154	邓小平

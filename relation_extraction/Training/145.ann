@@ -1,0 +1,256 @@
+T1	Thing-Nominal 0 3	金竹寨
+T2	Thing-Nominal 4 12	勐腊的一个小村寨
+T3	Location-Name 4 6	勐腊
+R1	Located Arg1:T2 Arg2:T3	
+T4	Location-Name 15 24	西双版纳金三角腹地
+R2	Located Arg1:T2 Arg2:T4	
+T5	Thing-Nominal 26 29	一座山
+T6	Location-Name 31 35	老挝芒新
+T7	Location-Name 41 43	边疆
+T8	Location-Nominal 46 48	异国
+T9	Person-Pronoun 61 62	我
+T10	Person-Name 63 65	大李
+T11	Person-Name 69 75	州文协徐先生
+T12	Person-Pronoun 76 78	我们
+T13	Location-Name 81 84	金竹寨
+T14	Location-Nominal 93 97	云顶山尖
+T15	Thing-Nominal 97 102	飘渺的雾岚
+R3	Located Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 105 109	几缕金光
+T17	Person-Nominal 113 118	我们的同志
+T18	Person-Pronoun 113 115	我们
+T19	Person-Pronoun 121 122	我
+T20	Person-Name 123 125	大李
+T21	Person-Pronoun 134 136	我们
+T22	Location-Name 138 141	金竹寨
+T23	Person-Nominal 143 146;147 150	一户特 殊人家
+T24	Time-Implicit 153 157	阳春三月
+T25	Thing-Nominal 157 159	群山
+T26	Thing-Nominal 162 164	山花
+T27	Person-Pronoun 170 172	我们
+T28	Thing-Nominal 176 177	山
+T29	Thing-Nominal 178 179	水
+T30	Location-Nominal 184 188	桃源仙境
+T31	Person-Pronoun 189 191	我们
+T32	Metric 194 197	大半天
+T33	Time-Implicit 198 200	这时
+T34	Location-Nominal 201 203	林中
+T35	Thing-Nominal 206 207;208 211	浓 重雾瘴
+R4	Located Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 215 220	昏暗的古堡
+T37	Thing-Nominal 224 225	鸟
+T38	Thing-Nominal 230 231	鸟
+T39	Thing-Nominal 233 237	参天大树
+T40	Thing-Nominal 238 246	密密匝匝的灌木丛
+T41	Thing-Nominal 249 251	天空
+T42	Location-Nominal 252 254	林中
+T43	Person-Nominal 258 259	人
+T44	Person-Pronoun 270 272	我们
+T45	Thing-Nominal 276 280	原始森林
+T46	Location-Nominal 281 283	四周
+T47	Thing-Nominal 295 297	筒箫
+T48	Person-Nominal 299 301	两人
+T49	Thing-Nominal 303 305	饥肠
+T50	Thing-Nominal 308 309	口
+T51	Thing-Nominal 317 319	树隙
+T52	Thing-Nominal 319 325	漏下来的阳光
+T53	Location-Nominal 328 329;330 337	山 沟的岩石缝隙中
+T54	Thing-Nominal 339 343	一股清泉
+R5	Located Arg1:T54 Arg2:T53	
+T55	Location-Nominal 359 362	山沟里
+T56	Thing-Nominal 365 369	一个水潭
+R6	Located Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 373 376	!溪水
+T58	Person-Pronoun 379 381	我们
+T59	Thing-Nominal 396 398	陡坡
+T60	Location-Nominal 401 404	深沟边
+T61	Location-Nominal 407 410	水潭边
+T62	Thing-Nominal 411 414	大青石
+R7	Located Arg1:T62 Arg2:T61	
+T63	Location-Nominal 418 420	潭里
+T64	Thing-Nominal 421 422	水
+R8	Located Arg1:T64 Arg2:T63	
+T65	Person-Name 431 433	大李
+T66	Thing-Nominal 435 439	一片芭蕉
+T67	Thing-Nominal 443 444	水
+T68	Person-Pronoun 456 457	我
+T69	Thing-Nominal 462 463	水
+T70	Location-Nominal 468 470	远处
+T71	Thing-Nominal 472 474	筒箫
+T72	Location-Nominal 481 493	一棵苍天大樟树的枝叶丛中
+T73	Thing-Nominal 489 491	枝叶
+T74	Thing-Nominal 481 488	一棵苍天大樟树
+R9	Part-Whole Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 504 506	这水
+T76	Person-Pronoun 514 515	我
+T77	Thing-Nominal 516 517	头
+R10	Part-Whole Arg1:T77 Arg2:T76	
+T78	Location-Nominal 520 524	树冠缝隙
+T79	Thing-Nominal 527 531	一束阳光
+T80	Location-Nominal 535 541	高高的树杈上
+T81	Person-Nominal 543 549	一位傣族姑娘
+T82	Thing-Nominal 550 555	明亮的眼睛
+R11	Part-Whole Arg1:T82 Arg2:T81	
+T83	Person-Pronoun 566 567	她
+*	Coreference T83 T81
+T84	Location-Nominal 595 600	绿草山坡上
+T85	Location-Nominal 602 627	巨大的榕树和由它们垂下的气根自然编织成的绿色舞台上
+T86	Thing-Nominal 602 607	巨大的榕树
+T87	Thing-Nominal 609 616	它们垂下的气根
+T88	Thing-Pronoun 609 611	它们
+*	Coreference T88 T86
+T89	Person-Nominal 629 635;636 643	一个吹着筒箫 伴舞的傣族青年
+T90	Thing-Nominal 633 635	筒箫
+T91	Thing-Nominal 651 653	晚霞
+T92	Person-Nominal 650 662	像晚霞一样美丽的傣族姑娘
+T93	Person-Pronoun 664 665	她
+*	Coreference T93 T92
+T94	Thing-Nominal 667 673	一曲版纳情歌
+T95	Thing-Nominal 676 678	春风
+T96	Thing-Nominal 679 680	柳
+T97	Thing-Nominal 684 691	温柔甜美的涟漪
+T98	Person-Nominal 693 696;697 699	全场的 观众
+T99	Person-Pronoun 715 716	我
+T100	Person-Pronoun 741 742	你
+T101	Thing-Nominal 724 726	这水
+T102	Thing-Nominal 744 747	芭蕉叶
+T103	Thing-Nominal 749 750	水
+T104	Location-Nominal 751 754	光亮处
+T105	Thing-Nominal 763 769	这么多山蚂蝗
+T106	Person-Name 772 774	大李
+T107	Thing-Nominal 779 794	一条条扭动着身体，浮游的山蚂蝗
+T108	Location-Nominal 776 778	水中
+R12	Located Arg1:T107 Arg2:T108	
+T109	Person-Pronoun 802 803	他
+*	Coreference T109 T106
+T110	Thing-Nominal 805 807	眉头
+R13	Part-Whole Arg1:T110 Arg2:T109	
+T111	Thing-Nominal 810 812	肚皮
+R14	Part-Whole Arg1:T111 Arg2:T109	
+T112	Person-Nominal 820 825	一个大男人
+T113	Person-Pronoun 834 835	我
+T114	Person-Pronoun 839 840	他
+T115	Person-Nominal 843 845	姑娘
+T116	Thing-Nominal 845 850	轻盈的脚步
+T117	Location-Nominal 853 855	面前
+T118	Person-Pronoun 865 867	我们
+T119	Person-Nominal 867 870	山里人
+T120	Thing-Nominal 878 882	一些蜂蜜
+T121	Person-Pronoun 892 893	她
+*	Coreference T121 T115
+T122	Thing-Nominal 899 903	一个竹筒
+T123	Location-Nominal 894 897	背篓里
+T124	Thing-Nominal 904 909	一只搪瓷杯
+R15	Located Arg1:T122 Arg2:T123	
+R16	Located Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 912 918	半搪瓷缸蜂蜜
+T126	Person-Name 919 921	大李
+T127	Person-Name 929 931	大李
+T128	Thing-Nominal 931 933	肚子
+R17	Part-Whole Arg1:T128 Arg2:T127	
+T129	Person-Nominal 937 939	姑娘
+T130	Person-Nominal 946 949;950 951	山寨里 人
+T131	Thing-Nominal 953 956	山蚂蝗
+T132	Thing-Nominal 958 962	原始森林
+T133	Thing-Nominal 964 967	山蚂蝗
+T134	Location-Nominal 978 980	肉里
+T135	Thing-Nominal 985 991	烟锅里的烟油
+T136	Location-Nominal 985 988	烟锅里
+R18	Located Arg1:T135 Arg2:T136	
+T137	Thing-Pronoun 995 996	它
+*	Coreference T137 T133
+T138	Metric 1013 1017	一个时辰
+T139	Thing-Nominal 1021 1023	胃壁
+T140	Thing-Nominal 1025 1027	蜂窝
+T141	Thing-Nominal 1033 1037	原始森林
+T142	Thing-Pronoun 1042 1043	它
+T143	Person-Nominal 1046 1048	姑娘
+T144	Person-Pronoun 1049 1051	我俩
+T145	Person-Pronoun 1062 1064	你们
+T146	Location-Name 1066 1069	金竹寨
+T147	Person-Name 1072 1077	文协徐老师
+T148	Person-Pronoun 1078 1079	我
+T149	Person-Pronoun 1081 1083	你们
+T150	Person-Pronoun 1090 1091	你
+T151	Person-Name 1093 1097	艾丽姑娘
+T152	Person-Nominal 1100 1102	姑娘
+T153	Location-Nominal 1111 1117	妩媚的脸颊上
+T154	Person-Pronoun 1132 1134	我们
+T155	Thing-Nominal 1141 1145	一座山岭
+T156	Location-Nominal 1146 1148	前面
+T157	Thing-Nominal 1150 1153	金竹寨
+R19	Located Arg1:T157 Arg2:T156	
+T158	Thing-Nominal 1159 1160;1161 1168	一 片云海似的翠竹
+T159	Location-Nominal 1169 1177	山峦重叠的山坡上
+T160	Thing-Nominal 1183 1185	竹楼
+T161	Location-Nominal 1178 1181	山坳里
+R20	Located Arg1:T160 Arg2:T161	
+T162	Thing-Nominal 1186 1192	艾丽姑娘的家
+T163	Person-Nominal 1186 1190	艾丽姑娘
+T164	Location-Nominal 1194 1200	山顶的最高处
+R21	Located Arg1:T162 Arg2:T164	
+T165	Person-Pronoun 1211 1213	我们
+T166	Thing-Nominal 1215 1221;1222 1224	“之”字形的 山路
+T167	Metric 1235 1239	半个小时
+T168	Thing-Nominal 1242 1259	一幢四面是油粽和椰林围着的傣家竹楼
+T169	Thing-Nominal 1260 1266	艾丽姑娘的家
+T170	Person-Name 1260 1264	艾丽姑娘
+T171	Location-Name 1271 1273	中国
+T172	Location-Name 1274 1276	老挝
+T173	Thing-Nominal 1294 1300	三不管的地段
+T174	Person-Nominal 1301 1318	一些走私、贩毒、马帮和土匪、偷猎者
+T175	Person-Nominal 1321 1327	在逃的杀人犯
+T176	Location-Nominal 1337 1340	这一带
+T177	Location-Nominal 1276 1282	两国界碑线上
+*	Coreference T176 T177 T178
+T178	Location-Pronoun 1341 1343	这里
+T179	Person-Pronoun 1350 1352	他们
+T180	Thing-Nominal 1355 1358	白刀子
+T181	Thing-Nominal 1359 1362	红刀子
+T182	Person-Nominal 1365 1366	人
+T183	Person-Nominal 1372 1374	寨民
+T184	Person-Nominal 1394 1396	边民
+T185	Location-Nominal 1403 1406;1407 1408	高山地 区
+T186	Thing-Nominal 1408 1410	土地
+T187	Thing-Nominal 1416 1418	玉米
+T188	Thing-Nominal 1419 1421	荞麦
+T189	Thing-Nominal 1435 1437	野果
+T190	Thing-Nominal 1422 1424	地瓜
+T191	Thing-Nominal 1432 1434	野菜
+T192	Thing-Nominal 1450 1451	盐
+T193	Person-Nominal 1452 1454	灾民
+T194	Location-Nominal 1455 1457	屋梁
+T195	Thing-Nominal 1459 1467	一个拳头大的盐袋
+T196	Time-Implicit 1469 1472	吃饭时
+T197	Person-Nominal 1486 1488	每人
+T198	Thing-Nominal 1491 1493	舌头
+R22	Use Arg1:T197 Arg2:T198	
+T199	Thing-Nominal 1496 1498	盐袋
+T200	Person-Nominal 1474 1477	当家的
+T201	Thing-Nominal 1481 1482	盐
+T202	Location-Nominal 1499 1505	人口少的人家
+T203	Location-Nominal 1512 1515	火塘边
+T204	Thing-Nominal 1516 1521	一只盐砖碗
+R23	Located Arg1:T204 Arg2:T203	
+T205	Location-Nominal 1522 1524	里面
+T206	Thing-Nominal 1526 1528;1529 1532	一小 块盐砖
+R24	Located Arg1:T206 Arg2:T205	
+T207	Location-Nominal 1533 1538	另一只碗里
+T208	Thing-Nominal 1540 1543	红辣椒
+R25	Located Arg1:T208 Arg2:T207	
+T209	Time-Implicit 1544 1546	那时
+T210	Thing-Nominal 1546 1547	盐
+T211	Thing-Nominal 1548 1550	金子
+T212	Time-Implicit 1555 1559	满清以前
+T213	Person-Nominal 1560 1562	官府
+T214	Person-Nominal 1563 1567	边疆百姓
+T215	Thing-Nominal 1570 1571	盐
+T216	Thing-Nominal 1585 1586	盐
+T217	Time-Explicit 1594 1598	民国时期
+T218	Person-Nominal 1599 1601	军阀
+T219	Person-Nominal 1602 1604	官府
+T220	Person-Nominal 1605 1607	奸商
+T221	Thing-Nominal 1612 1613	盐
+T222	Thing-Nominal 1616 1617	金
+T223	Location-Name 1624 1626	边疆
+T224	Person-Nominal 1638 1640	人民

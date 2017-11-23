@@ -1,0 +1,99 @@
+T1	Thing-Nominal 0 4	天河之水
+T2	Thing-Nominal 8 10	银汉
+T3	Location-Name 16 18	天河
+T4	Location-Name 22 26	秦岭南麈
+T5	Metric 29 34	一百多公里
+T6	Location-Name 37 39	汉江
+T7	Thing-Nominal 40 42	天河
+T8	Thing-Nominal 43 51	一条丰富多彩的河
+T9	Thing-Nominal 52 57	秦岭的雪水
+T10	Location-Name 52 54	秦岭
+R1	Located Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 58 60	乳汁
+T12	Thing-Nominal 62 64	精髓
+T13	Location-Nominal 66 73	那优美的河谷中
+T14	Thing-Pronoun 77 78	她
+*	Coreference T14 T7
+T15	Person-Nominal 80 82	牛郎
+T16	Person-Nominal 82 84	织女
+T17	Location-Name 91 94	天河口
+T18	Location-Nominal 96 98	人间
+T19	Location-Name 101 107	汉江的绿波中
+T20	Thing-Nominal 110 112	天汉
+T21	Thing-Nominal 115 117	银汉
+T22	Thing-Nominal 127 129	天河
+T23	Thing-Nominal 130 138	一条淌金流银的河
+T24	Location-Nominal 139 141	两岸
+T25	Thing-Nominal 141 143	山川
+R2	Located Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 146 148	牛羊
+T27	Location-Nominal 148 150	满坡
+R3	Located Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 161 168	那绿油油的河水
+T29	Person-Nominal 171 173	小舟
+T30	Person-Nominal 174 176	渔翁
+T31	Thing-Nominal 178 180	渔网
+T32	Person-Nominal 181 183	樵夫
+T33	Thing-Nominal 183 185	山歌
+T34	Person-Nominal 190 192	姐儿
+T35	Thing-Nominal 198 200	清水
+T36	Thing-Nominal 202 205	牡丹花
+T37	Thing-Nominal 206 208	鱼儿
+T38	Thing-Nominal 210 213	金翅撒
+T39	Person-Nominal 214 216	和尚
+T40	Thing-Nominal 219 220	头
+R4	Part-Whole Arg1:T40 Arg2:T39	
+T41	Person-Pronoun 224 225	我
+T42	Location-Nominal 229 230	家
+T43	Thing-Nominal 233 235	天河
+T44	Thing-Nominal 236 241	一条母亲河
+T45	Thing-Pronoun 243 244	她
+*	Coreference T45 T43
+T46	Thing-Nominal 244 250	那饱满的乳汁
+T47	Location-Nominal 254 256	两岸
+T48	Thing-Nominal 256 261	丰硕的农庄
+R5	Located Arg1:T48 Arg2:T47	
+T49	Person-Nominal 262 269	勤劳勇敢的儿女
+T50	Thing-Nominal 271 275	天河的水
+T51	Location-Name 271 273	天河
+R6	Located Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 286 288	鱼儿
+T53	Thing-Nominal 284 285	底
+T54	Thing-Nominal 279 280	骨
+T55	Person-Nominal 296 298	农夫
+T56	Person-Nominal 291 293	姑娘
+T57	Thing-Nominal 294 295	衣
+T58	Thing-Nominal 299 300	足
+T59	Location-Nominal 315 317	涧底
+T60	Thing-Nominal 318 320	栈道
+T61	Thing-Nominal 321 322	云
+T62	Location-Name 323 327	白石崖旁
+T63	Thing-Nominal 328 330	猱猿
+R7	Located Arg1:T63 Arg2:T62	
+T64	Thing-Nominal 332 334	清风
+T65	Thing-Nominal 339 343	一河清水
+T66	Person-Nominal 364 371	中国作家代表团
+T67	Time-Implicit 364 375	中国作家代表团观赏之后
+T68	Thing-Nominal 380 382	好山
+T69	Thing-Nominal 382 384	好水
+T70	Location-Nominal 386 387	家
+T71	Thing-Nominal 388 390	好山
+T72	Thing-Nominal 390 392	好水
+T73	Location-Nominal 394 396	我家
+T74	Person-Pronoun 394 395	我
+T75	Person-Nominal 403 408	浪漫的诗人
+T76	Thing-Nominal 410 414	山水画廊
+T77	Thing-Nominal 417 419	天涯
+T78	Person-Nominal 420 425	激情的骚客
+T79	Thing-Nominal 448 450	爱河
+T80	Thing-Nominal 459 461	天河
+T81	Thing-Nominal 462 468	一条多情的河
+T82	Thing-Pronoun 469 470	她
+*	Coreference T82 T80
+T83	Person-Nominal 471 478	一个多情的仙女
+T84	Location-Name 479 481	银汉
+T85	Thing-Nominal 489 494	多情的种子
+T86	Location-Name 496 498	郧西
+T87	Location-Name 499 501	天河
+T88	Location-Nominal 501 508	这个古老的地方
+R8	Near Arg1:T3 Arg2:T4	

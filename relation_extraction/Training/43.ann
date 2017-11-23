@@ -1,0 +1,176 @@
+T1	Thing-Nominal 0 2	梅花
+T2	Thing-Nominal 5 10	花中“清客
+T3	Thing-Nominal 15 18	松、竹
+T4	Thing-Name 22 26	岁寒三友
+T5	Person-Nominal 30 34	文人墨客
+T6	Thing-Nominal 39 49	大自然千姿百态的花卉
+T7	Thing-Nominal 56 58	梅花
+R1	General-Special Arg1:T6 Arg2:T7	
+T8	Person-Name 51 54	毛泽东
+T9	Person-Pronoun 59 60	他
+*	Coreference T9 T8
+T10	Thing-Nominal 64 79	地毯、笔筒、茶杯、烟灰缸、饭碗
+R2	Use Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 85 94	花枝摇曳的梅花图案
+T12	Thing-Nominal 95 107	上海宋庆龄故居的梅花地毯
+T13	Location-Nominal 95 102	上海宋庆龄故居
+T14	Person-Name 97 100	宋庆龄
+T15	Person-Name 109 112	毛泽东
+T16	Thing-Nominal 115 119	这种梅花
+T17	Person-Nominal 126 130	一代伟人
+T18	Thing-Nominal 142 147	梅花与白雪
+T19	Person-Nominal 156 158	人们
+T20	Thing-Nominal 160 162	梅花
+T21	Thing-Nominal 169 171	白雪
+T22	Person-Name 172 175	毛泽东
+T23	Thing-Nominal 176 178	梅花
+T24	Thing-Nominal 181 183	白雪
+T25	Person-Pronoun 184 185	他
+*	Coreference T25 T22
+T26	Abstract 188 195	《沁园春・雪》
+T27	Time-Explicit 197 202	1936年
+T28	Person-Nominal 203 205	红军
+T29	Location-Name 206 208	黄河
+T30	Time-Implicit 215 217	当时
+T31	Thing-Nominal 218 220	大雪
+T32	Person-Name 223 226	毛泽东
+T33	Location-Name 227 231	黄河岸边
+T34	Thing-Nominal 236 244	中华民族的母亲河
+T35	Person-Pronoun 245 246	他
+*	Coreference T35 T32
+T36	Person-Nominal 249 256	英勇的红军战士
+T37	Thing-Nominal 280 296	这首气势磅礴、激情澎湃的千古绝唱
+T38	Time-Explicit 297 303	重庆谈判期间
+T39	Person-Name 305 310	柳亚子先生
+T40	Person-Name 313 316	毛泽东
+T41	Thing-Nominal 317 320	这首词
+T42	Person-Pronoun 323 324	他
+*	Coreference T42 T39
+T43	Person-Name 326 329	柳亚子
+T44	Thing-Nominal 355 356	云
+T45	Person-Nominal 368 372	千古词人
+T46	Abstract 384 385;386 390	《 新民报》
+T47	Abstract 390 395	《大公报》
+T48	Thing-Nominal 412 413	梅
+T49	Person-Name 417 420	毛泽东
+T50	Time-Explicit 430 432	宋初
+T51	Person-Name 432 434	林逋
+T52	Location-Name 436 438	西湖
+T53	Thing-Nominal 446 447	梅
+T54	Thing-Nominal 448 449	鹤
+T55	Person-Nominal 452 453	人
+T56	Thing-Name 455 459	梅妻鹤子
+T57	Person-Pronoun 468 469	他
+*	Coreference T57 T51
+T58	Abstract 488 494	《山园小梅》
+T59	Person-Nominal 518 519	人
+T60	Abstract 523 528;529 534	《毛泽东手 书古诗选》
+T61	Abstract 546 556	《博览群书的毛泽东》
+T62	Time-Explicit 561 573	1961年11月6日上午
+T63	Person-Name 574 577	毛泽东
+T64	Thing-Nominal 483 484	梅
+T65	Metric 578 584	三个小时之内
+T66	Person-Nominal 589 591	秘书
+T67	Person-Name 591 594	田家英
+T68	Thing-Nominal 595 596	信
+T69	Person-Pronoun 598 599	他
+*	Coreference T69 T67
+T70	Time-Explicit 610 614	上午6时
+T71	Person-Name 619 624	田家英同志
+T72	Person-Name 627 631	宋人林逋
+T73	Person-Pronoun 640 641	我
+T74	Time-Implicit 647 651	本日下午
+T75	Person-Name 659 662	田家英
+T76	Person-Name 667 669	林逋
+T77	Person-Pronoun 675 676	他
+T78	Person-Name 677 680	毛泽东
+T79	Time-Implicit 690 695	上午8时半
+T80	Person-Pronoun 696 697	他
+T81	Person-Name 703 708	田家英同志
+*	Coreference T77 T63
+*	Coreference T80 T78
+T82	Thing-Nominal 710 716	一首七言律诗
+T83	Thing-Nominal 724 725	雪
+T84	Location-Nominal 726 727;728 729	山 中
+T85	Person-Nominal 737 739	美人
+T86	Location-Nominal 733 737	月明林下
+T87	Thing-Nominal 744 745	梅
+T88	Person-Pronoun 755 756	我
+T89	Time-Implicit 759 763	今日下午
+T90	Person-Nominal 771 773	何人
+T91	Person-Name 782 784	林逋
+T92	Person-Pronoun 795 796	你
+T93	Person-Name 807 810	毛泽东
+T94	Time-Implicit 818 823	半个小时后
+T95	Thing-Nominal 829 830	信
+T96	Person-Name 832 836	家英同志
+T97	Person-Name 844 849	清人高士奇
+T98	Thing-Nominal 863 865	瑶台
+T99	Person-Pronoun 866 867	谁
+T100	Thing-Nominal 858 860	琼楼
+T101	Location-Nominal 874 878	雪里山中
+T102	Person-Nominal 878 880	高士
+T103	Location-Nominal 882 886	月明林下
+T104	Person-Nominal 886 888	美人
+T105	Person-Name 901 907	文史馆老先生
+T106	Person-Name 913 916	田家英
+T107	Abstract 928 932	《梅花》
+T108	Person-Name 924 928	明代记启
+T109	Thing-Nominal 947 949	瑶台
+T110	Person-Pronoun 950 951	谁
+T111	Location-Name 952 954	江南
+T112	Location-Nominal 958 962	雪满山中
+T113	Person-Nominal 962 964	高士
+T114	Location-Nominal 966 970	月明林下
+T115	Person-Nominal 970 971;972 973	美 人
+T116	Thing-Nominal 979 982	萧萧竹
+T117	Thing-Nominal 999 1001	东风
+T118	Time-Implicit 1015 1017	这天
+T119	Person-Name 1018 1021	毛泽东
+T120	Thing-Nominal 1028 1030	草书
+T121	Person-Name 1040 1043	“高启
+T122	Person-Name 1045 1047	季迪
+T123	Person-Nominal 1048 1056	明朝最伟大的诗人
+T124	Person-Nominal 1059 1063	古代文人
+T125	Thing-Nominal 1064 1065	梅
+T126	Abstract 1082 1090	《卜算子・咏梅》
+T127	Person-Name 1079 1081	陆游
+T128	Thing-Nominal 1095 1097	梅花
+T129	Person-Name 1126 1129	毛泽东
+T130	Person-Name 1136 1139	毛泽东
+T131	Thing-Nominal 1142 1144	梅花
+T132	Person-Nominal 1164 1166	人类
+T133	Thing-Nominal 1182 1184	梅花
+T134	Person-Name 1189 1192	毛泽东
+T135	Person-Name 1193 1195	陆游
+T136	Abstract 1195 1203	《卜算子・咏梅》
+T137	Thing-Nominal 1218 1233	一首格调高昂、独有豪情的咏梅诗
+T138	Thing-Nominal 1235 1237	风雨
+T139	Thing-Nominal 1242 1244	飞雪
+T140	Thing-Nominal 1250 1255	悬崖百丈冰
+T141	Thing-Nominal 1258 1260	花枝
+T142	Time-Implicit 1276 1281	山花烂漫时
+T143	Thing-Pronoun 1282 1283	她
+*	Coreference T143 T141
+T144	Location-Nominal 1284 1286	丛中
+R3	Located Arg1:T141 Arg2:T144	
+T145	Time-Explicit 1295 1302;1303 1304	1961年12 月
+T146	Time-Explicit 1319 1327	1963年12月
+T147	Organization-Name 1312 1319	人民文学出版社
+T148	Abstract 1330 1337	《毛主席诗词》
+T149	Person-Name 1339 1342	毛泽东
+T150	Person-Name 1359 1361	洪皓
+T151	Abstract 1362 1367	《江梅引》
+T152	Abstract 1371 1376	《梅花引》
+T153	Person-Name 1368 1370	蒋捷
+T154	Person-Nominal 1389 1390	人
+T155	Person-Pronoun 1392 1393	我
+T156	Thing-Nominal 1400 1402	梅花
+T157	Person-Pronoun 1404 1405	我
+T158	Person-Name 1418 1421	毛泽东
+T159	Person-Name 1437 1440	毛泽东
+T160	Time-Implicit 1429 1431	这时
+T161	Person-Nominal 1448 1449	人
+T162	Abstract 1452 1458	《文心雕龙》
+T163	Thing-Nominal 1503 1505	梅花
+T164	Person-Name 1522 1525	毛泽东

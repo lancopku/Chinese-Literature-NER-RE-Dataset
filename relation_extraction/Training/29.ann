@@ -1,0 +1,274 @@
+T1	Thing-Nominal 0 2	荷花
+T2	Thing-Nominal 10 11	湖
+T3	Thing-Nominal 11 12	山
+T4	Person-Nominal 14 15	人
+T5	Thing-Nominal 19 21	荷花
+T6	Thing-Nominal 19 24	荷花的倩影
+R1	Part-Whole Arg1:T6 Arg2:T5	
+*	Coreference T6 T1
+T7	Person-Nominal 27 31	诗人李白
+T8	Person-Name 29 31	李白
+T9	Thing-Nominal 32 34	生花
+T10	Thing-Nominal 34 36	妙笔
+T11	Time-Implicit 24 25	曾
+T12	Thing-Nominal 48 50	碧荷
+T13	Thing-Nominal 51 53	幽泉
+T14	Thing-Nominal 54 59	朝日艳且鲜
+T15	Thing-Nominal 60 62	秋花
+T16	Thing-Nominal 62 65	冒绿水
+T17	Thing-Nominal 62 65	冒绿水
+T18	Time-Implicit 60 61	秋
+T19	Thing-Nominal 66 68	密叶
+T20	Thing-Nominal 68 71	罗青烟
+T21	Time-Implicit 73 75	南宋
+T22	Person-Nominal 75 77	诗人
+T23	Person-Name 77 79;80 81	杨万 里
+*	Coreference T23 T22 T33
+*	Coreference T8 T7
+T24	Person-Nominal 82 84	奸相
+T25	Person-Nominal 84 86	韩胄
+*	Coreference T25 T24
+T26	Time-Implicit 86 89	当国时
+T27	Time-Explicit 90 95	家居十五年
+T28	Thing-Nominal 96 101	寄兴于山水
+T29	Thing-Nominal 102 106	犹爱荷花
+T30	Thing-Nominal 108 112	接天莲叶
+T31	Metric 112 115	无穷碧
+T32	Thing-Nominal 116 120	映日荷花
+T33	Person-Pronoun 127 128	他
+T34	Time-Implicit 131 133	传世
+T35	Thing-Nominal 136 138	荷花
+T36	Thing-Nominal 139 140;141 142	湖 光
+T37	Location-Nominal 147 149	名城
+T38	Time-Implicit 156 158	清人
+T39	Person-Name 158 161	刘凤诰
+T40	Person-Nominal 157 158	人
+*	Coreference T39 T40
+T41	Metric 163 165	四面
+T42	Thing-Nominal 165 167	荷花
+T43	Metric 167 169	三面
+T44	Thing-Nominal 169 171	柳,
+T45	Metric 171 173	一城
+T46	Thing-Nominal 173 175	山色
+T47	Metric 175 177	半城
+T48	Thing-Nominal 177 178	湖
+T49	Location-Nominal 179 187	描画济南城的全貌
+T50	Metric 191 194	两句诗
+T51	Time-Implicit 188 190	至今
+T52	Location-Nominal 197 200	大明湖
+T53	Time-Implicit 195 196	仍
+T54	Metric 202 204	一副
+T55	Thing-Nominal 204 211	使人玩味的楹联
+T56	Thing-Nominal 213 215	荷花
+*	Coreference T56 T35 T29 T12 T5
+T57	Thing-Nominal 223 225	荷香
+T58	Person-Nominal 227 229	诗人
+T59	Person-Nominal 217 219	诗人
+T60	Time-Explicit 234 236	北宋
+T61	Person-Nominal 236 239	文学家
+T62	Person-Name 239 241	曾巩
+*	Coreference T62 T61
+T63	Time-Implicit 244 245	晚
+T64	Thing-Nominal 246 249	风月好
+T65	Thing-Nominal 250 252	紫荷
+T66	Location-Nominal 250 254	紫荷香里
+T67	Thing-Nominal 254 257	听泉声
+T68	Thing-Nominal 261 263	荷香
+T69	Thing-Nominal 265 267	泉声
+T70	Person-Nominal 272 273;274 275	元 人
+T71	Time-Explicit 272 273	元
+T72	Person-Name 275 277	于石
+*	Coreference T72 T70
+T73	Thing-Nominal 278 284	娉婷十里荷花
+T74	Metric 280 282	十里
+T75	Location-Nominal 290 292	花上
+T76	Thing-Nominal 292 293	露
+R2	Located Arg1:T76 Arg2:T75	
+T77	Person-Name 295 298	尹适高
+T78	Metric 305 307	四面
+T79	Thing-Nominal 303 305	虚堂
+T80	Thing-Nominal 307 310	枕湖光
+T81	Thing-Nominal 315 318	万斛香
+T82	Person-Nominal 320 322	明人
+T83	Time-Explicit 320 321	明
+T84	Person-Name 322 324	莫在
+*	Coreference T84 T82
+T85	Thing-Nominal 325 329	绿水芙蕖
+T86	Time-Implicit 338 340	五月
+T87	Thing-Nominal 350 357	风递荷香情不断
+T88	Person-Name 359 361	王瀛
+T89	Thing-Nominal 362 364	荷香
+T90	Person-Nominal 375 379	凌波仙子
+T91	Thing-Nominal 381 383	锦裳
+T92	Thing-Nominal 391 393	荷花
+T93	Time-Explicit 410 411	宋
+T94	Time-Explicit 412 413	齐
+T95	Time-Explicit 414 415	梁
+T96	Metric 415 417	三朝
+T97	Location-Nominal 418 420	江淹
+T98	Location-Nominal 422 426	莲花一池
+T99	Thing-Nominal 441 443	荷花
+T100	Thing-Nominal 446 448	瑞草
+T101	Thing-Nominal 456 458	荷花
+T102	Thing-Nominal 459 460	蓬
+T103	Thing-Nominal 461 462	藕
+R3	Part-Whole Arg1:T102 Arg2:T101	
+R4	Part-Whole Arg1:T103 Arg2:T101	
+T104	Thing-Nominal 465 466	药
+T105	Time-Explicit 467 471	明末清初
+T106	Person-Nominal 472 475	文学家
+T107	Person-Name 475 477	李渔
+*	Coreference T107 T106
+T108	Thing-Nominal 486 488	荷花
+T109	Thing-Nominal 501 503	百花
+T110	Thing-Nominal 490 492	五谷
+T111	Thing-Nominal 513 515	荷花
+T112	Thing-Nominal 516 517	蓬
+T113	Thing-Nominal 518 519	藕
+R5	Part-Whole Arg1:T112 Arg2:T111	
+R6	Part-Whole Arg1:T113 Arg2:T111	
+T114	Thing-Nominal 526 528	赏荷
+T115	Thing-Nominal 533 535	采莲
+T116	Location-Nominal 545 547	江南
+T117	Thing-Nominal 548 550	采莲
+T118	Thing-Nominal 551 553	莲叶
+T119	Person-Pronoun 561 563	我们
+T120	Person-Nominal 566 570	劳动人民
+T121	Thing-Nominal 571 573	荷花
+T122	Time-Explicit 577 578	唐
+T123	Person-Nominal 578 580	诗人
+T124	Person-Name 580 583	王昌龄
+*	Coreference T124 T123
+T125	Thing-Nominal 591 593	荷叶
+T126	Metric 603 605	两边
+T127	Metric 595 597	一色
+T128	Thing-Nominal 599 601	芙蓉
+T129	Location-Nominal 609 611	池中
+T130	Person-Pronoun 626 628	我们
+T131	Metric 631 633	一幅
+T132	Time-Implicit 633 634;635 636	古 代
+T133	Person-Nominal 636 639	农家女
+T134	Thing-Nominal 640 643	采莲图
+T135	Time-Implicit 644 646	过去
+T136	Person-Pronoun 647 649	我们
+T137	Person-Nominal 650 654	北大荒人
+T138	Thing-Nominal 659 661	荷花
+T139	Thing-Nominal 666 667	藕
+T140	Time-Implicit 670 673	前几年
+T141	Location-Nominal 674 676	南方
+T142	Thing-Nominal 679 681	鲜藕
+T143	Person-Nominal 686 689	许多人
+T144	Metric 686 688	许多
+T145	Time-Implicit 696 699	近几年
+T146	Person-Pronoun 700 702	我们
+T147	Thing-Nominal 703 705	鲜藕
+T148	Location-Nominal 709 711	南方
+T149	Person-Nominal 711 713	藕农
+T150	Thing-Nominal 715 717	荷花
+T151	Person-Pronoun 721 723	他们
+T152	Location-Nominal 724 726	莲池
+T153	Metric 728 730	几亩
+T154	Metric 733 736	上百亩
+T155	Location-Nominal 726 728	少者
+R7	Part-Whole Arg1:T155 Arg2:T152	
+T156	Location-Nominal 731 733	多者
+R8	Part-Whole Arg1:T156 Arg2:T152	
+T157	Thing-Nominal 738 740	荷花
+T158	Time-Implicit 740 745	开放的季节
+T159	Thing-Nominal 748 752	莲叶接天
+T160	Thing-Nominal 753 756;757 758	翠红荡 水
+T161	Time-Implicit 761 764	采莲时
+T162	Person-Nominal 765 768	全家人
+T163	Person-Nominal 771 774	全村人
+T164	Thing-Nominal 775 776	舟
+T165	Location-Nominal 776 778	荷塘
+T166	Person-Nominal 782 784	画家
+T167	Metric 798 800	一番
+T168	Thing-Nominal 800 807	景致的采莲长卷
+T169	Thing-Nominal 810 812	爱莲
+T170	Thing-Nominal 813 815	咏莲
+T171	Metric 816 820	两者兼之
+T172	Time-Explicit 821 823	宋朝
+T173	Person-Name 823 826	周敦颐
+T174	Person-Pronoun 831 832	他
+*	Coreference T174 T173 T184 T194 T197
+T175	Time-Implicit 832 836	四十五岁
+T176	Time-Implicit 836 841	卜居庐山时
+T177	Location-Nominal 838 840	庐山
+T178	Location-Nominal 845 849	莲花峰下
+T179	Thing-Nominal 850 854	茂盛莲花
+T180	Location-Nominal 855 858	水溪畔
+T181	Thing-Nominal 858 862	修筑居室
+T182	Thing-Name 866 870	濂溪书堂
+*	Coreference T182 T181 T183
+T183	Thing-Name 876 880	爱莲书堂
+T184	Person-Pronoun 882 883	他
+T185	Metric 884 891	一百一十九个字
+T186	Metric 900 905	四十一个字
+T187	Thing-Nominal 922 923	莲
+T188	Thing-Nominal 934 941	莲出淤泥而不染
+T189	Thing-Nominal 936 938	淤泥
+T190	Thing-Nominal 943 945	清涟
+T191	Location-Nominal 949 951	中通
+T192	Location-Nominal 951 953	外直
+T193	Location-Nominal 935 938	出淤泥
+T194	Person-Pronoun 980 981	他
+T195	Thing-Nominal 982 984	荷花
+T196	Person-Nominal 1003 1010	其前其后的诗人
+T197	Person-Pronoun 1013 1014	他
+T198	Thing-Nominal 1028 1030	荷花
+T199	Person-Nominal 1035 1037	诗人
+T200	Person-Name 1037 1039	屈原
+*	Coreference T200 T199
+T201	Thing-Nominal 1047 1049	荷花
+T202	Thing-Nominal 1054 1061	制芰荷以为衣兮
+T203	Thing-Nominal 1063 1065	芙蓉
+T204	Thing-Nominal 1067 1068	裳
+T205	Thing-Nominal 1059 1060	衣
+T206	Person-Nominal 1085 1088	诗人们
+T207	Thing-Nominal 1091 1093	荷花
+T208	Time-Explicit 1110 1112	唐朝
+T209	Person-Nominal 1112 1114	诗人
+T210	Person-Name 1115 1118	卢照邻
+*	Coreference T210 T209
+T211	Location-Nominal 1128 1131	绕曲岸
+T212	Location-Nominal 1134 1137	覆华池
+T213	Time-Implicit 1140 1143	秋风早
+T214	Thing-Nominal 1141 1142	风
+T215	Person-Nominal 1146 1147	君
+T216	Person-Nominal 1159 1161	人才
+T217	Thing-Nominal 1166 1168	荷花
+T218	Thing-Name 1180 1184	花中君子
+*	Coreference T218 T217
+T219	Person-Nominal 1177 1178	人
+T220	Person-Pronoun 1193 1194	我
+T221	Thing-Nominal 1198 1200	荷花
+T222	Metric 1202 1204	一次
+T223	Time-Implicit 1204 1211	七月的虎林之行
+T224	Person-Pronoun 1213 1214	我
+*	Coreference T224 T220 T230 T238
+T225	Location-Nominal 1215 1220	祖国的北方
+T226	Location-Nominal 1221 1226;1227 1229	乌苏里江的 支流
+*	Coreference T226 T225 T227
+T227	Location-Nominal 1230 1235	荷花泡”畔
+T228	Thing-Nominal 1238 1242	连天的水
+T229	Thing-Nominal 1243 1248	连天的荷花
+T230	Person-Pronoun 1250 1251	我
+T231	Time-Implicit 1261 1271	冰封雪飘长达五个多月
+T232	Time-Implicit 1272 1274	冬季
+T233	Metric 1278 1284	三四十摄氏度
+T234	Metric 1267 1269	五个
+T235	Time-Implicit 1275 1287;1288 1289	在零下三四十摄氏度的日子 里
+T236	Thing-Nominal 1290 1292	荷花
+T237	Location-Nominal 1290 1294	荷花的根
+T238	Person-Pronoun 1312 1313	我
+T239	Location-Nominal 1317 1319	北国
+T240	Thing-Nominal 1319 1321	荷花
+T241	Thing-Nominal 1325 1326	根
+T242	Location-Nominal 1329 1331	南国
+T243	Thing-Nominal 1331 1333	荷花
+T244	Thing-Nominal 1334 1336	烈日
+T245	Thing-Nominal 1337 1340	藕不腐
+T246	Thing-Nominal 1345 1348	出淤泥
+T247	Location-Nominal 1355 1357	中通
+T248	Location-Nominal 1357 1359	外直

@@ -1,0 +1,192 @@
+T1	Time-Implicit 2 5	好多年
+T2	Person-Pronoun 7 9	我们
+T3	Location-Nominal 13 22	单身宿舍的筒子楼里
+T4	Person-Nominal 25 27	女儿
+T5	Organization-Nominal 29 31	中学
+T6	Location-Nominal 34 42	带厨房的宿舍楼里
+T8	Location-Nominal 44 51	一套底楼的住房
+T9	Location-Nominal 52 58	这栋楼房后面
+T11	Person-Nominal 85 86	人
+T12	Time-Implicit 96 98	后来
+T13	Person-Nominal 99 101	大家
+T14	Thing-Nominal 108 110	泥土
+T15	Thing-Nominal 114 119	屋后的陷坑
+T16	Time-Implicit 120 121;122 123	那 时
+T17	Thing-Nominal 147 154	稀稀落落的杂草
+T18	Location-Nominal 155 158	泥地上
+R2	Located Arg1:T17 Arg2:T18	
+T19	Time-Explicit 164 166	一天
+T20	Person-Nominal 167 170	我先生
+T21	Location-Nominal 171 178	下班回家的路上
+T22	Location-Nominal 180 182	地上
+T24	Thing-Nominal 184 193	一段小小的玫瑰花枝
+R3	Located Arg1:T24 Arg2:T22	
+T25	Time-Explicit 204 209	那天晚饭后
+T26	Person-Pronoun 210 212	我们
+T27	Thing-Nominal 223 224;225 235	屋 后正对窗户地方的泥地
+T28	Thing-Nominal 254 268	这支柔弱的、有几片绿叶的小枝
+T29	Location-Nominal 270 272	坑里
+R4	Located Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 277 278	水
+T31	Thing-Nominal 292 293	水
+T32	Thing-Pronoun 294 295	它
+*	Coreference T32 T28
+T33	Time-Implicit 311 313	夏天
+T34	Location-Name 315 317	重庆
+T35	Thing-Nominal 317 323	火辣辣的太阳
+T36	Thing-Pronoun 326 327	它
+T37	Time-Explicit 332 335	第二年
+T38	Thing-Nominal 337 338	花
+T39	Thing-Nominal 340 342	绿叶
+T40	Thing-Nominal 344 346;347 351	粉红 色的花朵
+T41	Person-Nominal 374 378	我们全家
+T42	Thing-Nominal 387 388	它
+T43	Time-Implicit 390 392	春天
+T44	Thing-Nominal 393 396	一次花
+T46	Time-Implicit 398 402	花谢之后
+T47	Thing-Nominal 403 407;408 409	茂盛的绿 叶
+T48	Location-Nominal 412 414	屋后
+R5	Located Arg1:T47 Arg2:T48	
+T49	Person-Pronoun 419 421	我们
+T50	Time-Implicit 428 430	每天
+T51	Thing-Nominal 439 440	它
+T52	Location-Nominal 461 464	它面前
+T53	Thing-Nominal 470 472	玫瑰
+T54	Person-Pronoun 477 478	我
+T55	Thing-Pronoun 484 485	它
+T56	Person-Pronoun 490 491	我
+T57	Thing-Pronoun 493 494	我
+*	Coreference T57 T55
+T58	Time-Implicit 504 506	那时
+T59	Time-Explicit 507 509	白天
+T60	Time-Explicit 512 514	晚上
+T61	Thing-Pronoun 532 533	它
+T62	Thing-Pronoun 539 540	它
+T63	Thing-Pronoun 545 546	它
+T64	Person-Pronoun 551 553	我们
+T65	Person-Pronoun 563 564;565 566	我 们
+T66	Time-Implicit 577 583	每年春天来临
+T67	Thing-Nominal 584 590	满枝头的花儿
+T68	Location-Nominal 593 597	我们屋后
+R6	Located Arg1:T67 Arg2:T68	
+T69	Thing-Nominal 608 613	我的玫瑰花
+T70	Thing-Nominal 637 639	玫瑰
+T71	Person-Pronoun 652 653	我
+T72	Person-Pronoun 695 696	我
+T73	Thing-Pronoun 715 716	它
+T74	Person-Nominal 720 722	女儿
+T75	Organization-Nominal 723 725	大学
+T76	Time-Explicit 720 727	女儿考大学那年
+T77	Thing-Nominal 728 730	玫瑰
+T78	Person-Pronoun 735 737	我们
+T79	Thing-Pronoun 741 742	它
+*	Coreference T79 T77
+T80	Thing-Pronoun 751 752	它
+T81	Time-Implicit 746 749	花开时
+T82	Time-Implicit 756 759	花谢后
+T83	Thing-Pronoun 761 762	它
+T84	Thing-Pronoun 771 772	它
+T85	Time-Explicit 784 791	七月高考的时候
+T86	Person-Pronoun 792 793	我
+T87	Metric 802 804	三朵
+T88	Thing-Nominal 802 806	三朵花苞
+T89	Thing-Nominal 797 799	玫瑰
+R7	Part-Whole Arg1:T88 Arg2:T89	
+T90	Time-Explicit 812 814	今年
+T91	Thing-Nominal 814 816	玫瑰
+T92	Thing-Pronoun 831 832	它
+T93	Person-Pronoun 835 837	我们
+*	Coreference T92 T91
+T94	Organization-Nominal 843 845	高考
+T95	Time-Explicit 840 841;842 843	那 时
+T96	Person-Nominal 852 854	全家
+T97	Thing-Nominal 860 862	玫瑰
+T98	Person-Pronoun 868 870	我们
+T99	Thing-Nominal 876 877	花
+T100	Thing-Nominal 892 894	花苞
+T101	Thing-Nominal 899 901	花瓣
+T102	Thing-Nominal 933 935	花瓣
+T103	Time-Implicit 955 960	一天晚饭时
+T104	Person-Nominal 960 962	有人
+T105	Person-Nominal 977 984	我们全家每个人
+T106	Location-Nominal 963 965	外面
+T107	Location-Nominal 995 997	后门
+T108	Thing-Nominal 998 999	花
+R8	Located Arg1:T108 Arg2:T107	
+T109	Thing-Nominal 1002 1004	玫瑰
+T110	Time-Explicit 1004 1006	中午
+T111	Person-Pronoun 1029 1031	我们
+T112	Person-Pronoun 1036 1037	我
+T113	Person-Nominal 1041 1043	女儿
+T114	Person-Pronoun 1048 1049	我
+T115	Thing-Nominal 1060 1062	玫瑰
+T116	Thing-Pronoun 1066 1067	你
+*	Coreference T116 T115
+T117	Thing-Nominal 1069 1071	玫瑰
+T118	Thing-Pronoun 1072 1073	你
+T119	Person-Pronoun 1081 1083	我们
+T120	Time-Implicit 1091 1094	这年后
+T121	Thing-Nominal 1095 1097	玫瑰
+T122	Time-Implicit 1113 1117	两年过去
+T123	Person-Nominal 1118 1120	妈妈
+T124	Person-Pronoun 1122 1124	我们
+R9	Family Arg1:T124 Arg2:T123	
+R10	Family Arg1:T113 Arg2:T112	
+T125	Time-Explicit 1135 1137	那年
+T126	Thing-Nominal 1135 1140	那年的玫瑰
+T127	Thing-Pronoun 1145 1146	它
+*	Coreference T127 T126
+T128	Thing-Nominal 1155 1158	它的叶
+T129	Thing-Pronoun 1155 1156	它
+R11	Part-Whole Arg1:T128 Arg2:T129	
+T130	Person-Pronoun 1169 1171	我们
+T131	Person-Nominal 1174 1176	妈妈
+T132	Time-Implicit 1171 1173	每天
+T133	Time-Implicit 1183 1185	每天
+T134	Thing-Nominal 1194 1196	玫瑰
+T135	Thing-Nominal 1207 1209	玫瑰
+T136	Thing-Nominal 1218 1220	玫瑰
+T137	Person-Nominal 1225 1227	妈妈
+T138	Time-Implicit 1234 1236	后来
+T139	Person-Pronoun 1237 1239	我们
+T140	Person-Nominal 1240 1242	妈妈
+T141	Location-Name 1244 1246	成都
+T142	Person-Nominal 1252 1254	妈妈
+T143	Person-Pronoun 1258 1260	我们
+T144	Location-Name 1264 1266	成都
+T145	Person-Pronoun 1268 1269	我
+T146	Thing-Nominal 1280 1282	玫瑰
+T147	Thing-Nominal 1285 1287	玫瑰
+T148	Thing-Pronoun 1292 1293	它
+*	Coreference T148 T147
+T149	Person-Pronoun 1296 1298	我们
+T150	Time-Implicit 1301 1304	这些年
+T151	Thing-Nominal 1305 1307	玫瑰
+T152	Time-Implicit 1309 1310	春
+T153	Location-Nominal 1311 1313	屋后
+R12	Located Arg1:T151 Arg2:T153	
+T154	Time-Explicit 1322 1324	现在
+T155	Time-Implicit 1326 1327	冬
+T156	Thing-Nominal 1351 1353	玫瑰
+T157	Person-Pronoun 1359 1360	我
+T158	Time-Explicit 1386 1388	现在
+T159	Location-Name 1390 1393	墨尔本
+T160	Person-Pronoun 1422 1423	我
+T161	Location-Nominal 1424 1426	后院
+T162	Thing-Nominal 1430 1432	玫瑰
+R13	Located Arg1:T162 Arg2:T161	
+T163	Thing-Pronoun 1439 1441	它们
+*	Coreference T163 T162
+T164	Thing-Nominal 1450 1452	玫瑰
+T7	Thing-Nominal 59 60;61 70	一 片凹下去的三合土地
+R1	Located Arg1:T7 Arg2:T9	
+T10	Location-Nominal 114 116	屋后
+R14	Located Arg1:T15 Arg2:T10	
+T165	Thing-Nominal 140 144	那片薄土
+T23	Location-Nominal 202 203	家
+T166	Location-Nominal 223 224;225 232	屋 后正对窗户地方
+R15	Located Arg1:T27 Arg2:T166	
+T167	Thing-Nominal 303 307	房子阴影
+T45	Thing-Nominal 398 399	花
+T168	Thing-Nominal 481 483	细枝
+T169	Thing-Nominal 1328 1330	枝叶

@@ -1,0 +1,687 @@
+T1	Person-Name 2 4	鲁光
+T2	Person-Nominal 6 9	大记者
+T3	Person-Nominal 10 13	大作家
+T4	Person-Nominal 16 19	大画家
+T5	Person-Name 25 28	吴汉能
+T6	Abstract 30 39	《鲁光的“红烛”》
+T7	Organization-Name 41 47	《金华日报》
+T8	Time-Explicit 47 57	2001年1月12日
+T9	Organization-Name 57 60;61 64	《文化 专刊》
+T10	Person-Name 71 73	鲁光
+T13	Person-Pronoun 97 98	我
+T14	Person-Nominal 106 108	画家
+T15	Person-Name 108 110	鲁光
+T16	Person-Pronoun 114 115	我
+T17	Person-Nominal 117 121;122 124	我的邻居 好友
+T18	Person-Nominal 125 129	资深画家
+T19	Person-Name 117 132	我的邻居
+好友、资深画家朱介堂
+T20	Location-Nominal 129 133	朱介堂家
+T21	Person-Name 135 137	鲁光
+T23	Abstract 140 144	《红烛》
+T24	Location-Nominal 146 150	玻璃框中
+T25	Location-Nominal 152 155	墙壁上
+T26	Person-Pronoun 156 157	我
+T28	Person-Name 179 182	朱介堂
+T29	Person-Pronoun 185 186	你
+T30	Person-Pronoun 191 192	他
+*	Coreference T30 T21
+T31	Person-Name 201 203	鲁光
+T32	Person-Pronoun 204 205	我
+*	Coreference T32 T28
+*	Coreference T29 T26
+T33	Person-Pronoun 209 210	你
+T34	Person-Pronoun 214 215	我
+T35	Person-Pronoun 223 224	我
+T36	Organization-Name 228 234	黄宾虹艺术馆
+T37	Person-Nominal 228 239	黄宾虹艺术馆常务副馆长
+T38	Person-Name 228 241	黄宾虹艺术馆常务副馆长晋庚
+T39	Person-Pronoun 249 250	我
+T41	Person-Nominal 253 257	鲁光先生
+T42	Person-Pronoun 258 259	他
+T43	Person-Pronoun 260 261	你
+T44	Person-Pronoun 267 268	我
+T45	Location-Name 274 280	黄宾虹艺术馆
+T46	Person-Name 282 284	鲁光
+T47	Location-Name 291 296	国际大酒店
+T48	Person-Name 299 301	鲁光
+T49	Location-Name 301 304	新加坡
+T50	Person-Name 314 318	鲁光先生
+T40	Time-Explicit 320 330	2001年5月23日
+T51	Time-Explicit 331 335	这天上午
+T52	Person-Pronoun 335 336	我
+T53	Location-Name 340 346	黄宾虹艺术馆
+T54	Person-Name 348 351	葛凤兰
+T55	Person-Name 352 354	晋庚
+T56	Person-Nominal 355 383	一位穿着朴素、肌肤丰润、满脸
+红光、微笑可掬的大块头男人
+T57	Person-Name 392 394	晋庚
+T58	Person-Nominal 399 406	这位大块头男人
+T59	Person-Name 409 413	鲁光先生
+T60	Person-Name 414 416	晋庚
+T61	Person-Name 418 422	鲁光先生
+T62	Time-Explicit 422 426	今天上午
+T63	Person-Pronoun 432 434	你们
+T64	Person-Pronoun 445 446	我
+T65	Person-Name 447 449	鲁光
+T66	Location-Nominal 451 456	鲁光的住室
+T67	Person-Pronoun 457 458	我
+T68	Person-Pronoun 467 468	你
+*	Coreference T68 T65
+T69	Time-Explicit 469 471	今天
+T70	Person-Pronoun 471 472	我
+T71	Person-Pronoun 474 475	你
+T72	Person-Name 478 481	朱介堂
+T73	Person-Name 485 486	朱
+T74	Person-Nominal 487 491;492 493	我的好朋 友
+T75	Person-Pronoun 496 497	我
+T76	Person-Name 498 500	鲁光
+T77	Person-Name 507 509	鲁光
+T78	Metric 519 523	10多岁
+T79	Location-Nominal 525 527	故乡
+T80	Location-Name 527 531	永康山村
+*	Coreference T80 T79
+T81	Location-Name 534 536	上海
+T82	Location-Name 537 539	北京
+T83	Time-Implicit 541 544	几十年
+T84	Metric 547 550	几十个
+T85	Location-Nominal 550 552	国家
+T86	Metric 553 556	60岁
+T87	Time-Implicit 553 557	60岁后
+T88	Location-Nominal 560 564	这个山村
+T89	Time-Explicit 565 567	现在
+T90	Location-Name 568 574	永康方岩山下
+T92	Location-Name 582 588	“鲁光艺苑”
+T93	Location-Name 592 598	“五峰山居”
+T94	Metric 609 612	10片
+T95	Location-Nominal 612 615	毛竹上
+T96	Thing-Nominal 612 614	毛竹
+T97	Person-Name 630 632	鲁光
+T98	Location-Nominal 633 639	永康山村热土
+T99	Thing-Nominal 650 663	故乡山山水水、一草一木一石
+T100	Location-Nominal 650 652	故乡
+R1	Located Arg1:T99 Arg2:T100	
+T101	Person-Name 673 675	鲁光
+T102	Person-Pronoun 691 692	他
+*	Coreference T102 T101
+T103	Location-Nominal 695 697	故乡
+T104	Time-Implicit 699 703	后半生中
+T105	Person-Pronoun 794 795	我
+T106	Person-Name 796 798	鲁光
+T107	Person-Pronoun 799 800	你
+*	Coreference T107 T106
+T109	Person-Nominal 806 809	大记者
+T110	Person-Nominal 810 813	大作家
+T111	Person-Nominal 816 819	大画家
+T112	Person-Name 822 824	鲁光
+T114	Person-Pronoun 828 829	我
+T115	Organization-Name 829 836	华东师大中文系
+T113	Time-Implicit 826 839	早年我华东师大中文系毕业后
+T116	Metric 849 852	40年
+T117	Time-Implicit 848 852	近40年
+T118	Organization-Nominal 856 860	中国女排
+T119	Abstract 867 873	《中国姑娘》
+T120	Abstract 874 881	《中国男子汉》
+T121	Person-Name 882 884	鲁光
+T122	Person-Pronoun 888 889	我
+*	Coreference T122 T121
+T123	Abstract 896 902	《半路出家》
+T124	Time-Explicit 905 912	2001年4月
+T125	Organization-Name 913 915;916 921	湖北 美术出版社
+T126	Person-Name 924 926	鲁光
+T127	Time-Explicit 928 934	2001年秋
+T128	Person-Nominal 937 939	笔者
+T131	Person-Nominal 944 948	两个画家
+T132	Person-Pronoun 953 954	我
+T133	Time-Explicit 960 969	上个世纪七十年代末
+T134	Person-Name 970 973	李苦禅
+T135	Person-Pronoun 974 975	我
+T136	Person-Pronoun 984 985	我
+T137	Person-Pronoun 988 989	你
+T139	Person-Nominal 1008 1010	文人
+T138	Person-Nominal 1016 1018	老师
+T140	Person-Name 1019 1022	崔子范
+T141	Person-Nominal 1024 1030	齐白石的学生
+T142	Person-Name 1024 1027	齐白石
+T143	Person-Name 1031 1034	李苦禅
+T144	Person-Nominal 1036 1037;1038 1043	齐 白石的学生
+T145	Person-Name 1036 1037;1038 1040	齐 白石
+*	Coreference T143 T144
+*	Coreference T140 T141
+T146	Person-Name 1044 1047	崔子范
+T147	Time-Implicit 1047 1052	2008年
+T148	Metric 1053 1056	93岁
+T149	Person-Pronoun 1068 1069	我
+T150	Person-Pronoun 1073 1074	我
+T151	Person-Pronoun 1075 1076	他
+*	Coreference T151 T146
+T152	Person-Pronoun 1079 1080	他
+T153	Person-Pronoun 1077 1078	我
+T154	Abstract 1083 1087	崔子范传
+T155	Person-Pronoun 1092 1093	我
+T156	Person-Pronoun 1096 1097	他
+T157	Person-Pronoun 1102 1103	我
+T158	Metric 1105 1109	三十二位
+T159	Person-Nominal 1109 1111	画家
+T160	Person-Pronoun 1112 1113	我
+T161	Person-Nominal 1114 1115	师
+T162	Person-Nominal 1116 1117	师
+T163	Person-Nominal 1119 1120	友
+T164	Person-Nominal 1121 1122	师
+T165	Person-Nominal 1127 1128	师
+T166	Time-Implicit 1131 1136	1996年
+T167	Person-Name 1136 1138	鲁光
+T168	Location-Name 1139 1147	北京中国画研究院
+T169	Organization-Nominal 1148 1152	个人画展
+T170	Person-Name 1153 1156	华君武
+T171	Metric 1157 1162	300多位
+T172	Person-Nominal 1162 1164	名家
+T174	Person-Nominal 1169 1174	一位名画家
+T175	Person-Name 1189 1191	鲁光
+T176	Person-Pronoun 1195 1196	你
+T177	Organization-Nominal 1197 1199	画展
+T178	Time-Implicit 1212 1214	今天
+T179	Thing-Nominal 1216 1219	你的画
+T180	Person-Pronoun 1216 1217	你
+T181	Person-Pronoun 1224 1225	我
+T182	Person-Nominal 1229 1231	老夫
+T183	Time-Explicit 1237 1242	1997年
+T184	Person-Nominal 1242 1246	香港特首
+T185	Person-Name 1242 1249	香港特首董建华
+T186	Location-Name 1242 1244	香港
+T187	Location-Name 1253 1255	香港
+T188	Organization-Name 1255 1260	《文汇报》
+T189	Person-Name 1264 1266	鲁光
+T190	Person-Nominal 1273 1274	人
+T191	Person-Name 1275 1277	鲁光
+T192	Person-Name 1281 1283	鲁光
+T194	Thing-Nominal 1285 1288	一只牛
+T195	Person-Pronoun 1302 1303	他
+*	Coreference T195 T185
+T196	Person-Name 1304 1306	鲁光
+T197	Time-Explicit 1307 1315	1996年10月
+T198	Organization-Nominal 1319 1321	画展
+T199	Location-Name 1323 1325	美国
+T200	Organization-Nominal 1323 1332	美国摩托罗拉一公司
+T201	Metric 1334 1337	15幅
+T202	Thing-Nominal 1337 1338	画
+T203	Metric 1346 1351	2―3万元
+T204	Person-Pronoun 1353 1354	他
+*	Coreference T204 T196
+T205	Thing-Nominal 1366 1370	一本挂历
+T207	Person-Pronoun 1372 1373	我
+T208	Person-Name 1374 1376	鲁光
+T209	Thing-Nominal 1376 1379	你的画
+T210	Person-Pronoun 1385 1386	你
+*	Coreference T210 T208
+T211	Person-Name 1395 1397	鲁光
+T212	Person-Pronoun 1403 1404	我
+T213	Person-Name 1489 1491	鲁光
+T214	Person-Nominal 1496 1499	金华人
+T215	Thing-Nominal 1501 1505	我的牛画
+T216	Thing-Nominal 1508 1509	牛
+T217	Location-Name 1496 1498	金华
+T218	Person-Name 1522 1526	鲁光先生
+T219	Time-Explicit 1528 1538	2001年5月25日
+T220	Person-Pronoun 1539 1540	我
+T221	Person-Name 1542 1546	鲁光先生
+T222	Person-Name 1547 1550	董建华
+T223	Person-Name 1557 1559	鲁光
+T224	Person-Name 1562 1565	董建华
+T225	Person-Pronoun 1566 1567	我
+T226	Person-Nominal 1574 1576	朋友
+T227	Thing-Nominal 1569 1571	牛画
+T228	Thing-Nominal 1551 1553	牛画
+T229	Person-Pronoun 1579 1580	我
+T230	Person-Name 1585 1588	董建华
+T231	Thing-Nominal 1590 1592	牛画
+T232	Location-Name 1594 1599	北京钓鱼台
+T233	Person-Nominal 1607 1609	朋友
+T234	Person-Name 1611 1614	董建华
+T235	Person-Name 1616 1619	董建华
+T236	Thing-Nominal 1621 1623	牛画
+T237	Person-Nominal 1624 1626	有人
+T238	Person-Pronoun 1631 1632	他
+*	Coreference T238 T235
+T239	Person-Pronoun 1643 1644	我
+T240	Person-Name 1646 1648	鲁光
+T241	Person-Pronoun 1648 1649	你
+*	Coreference T241 T240
+T242	Thing-Nominal 1650 1651	牛
+T243	Person-Name 1658 1660	鲁光
+T244	Time-Implicit 1662 1666	八十年代
+T245	Thing-Nominal 1671 1673	屁股
+T246	Thing-Nominal 1669 1670	牛
+R2	Part-Whole Arg1:T245 Arg2:T246	
+T247	Thing-Nominal 1680 1683	猪屁股
+T248	Thing-Nominal 1694 1699;1700 1702	生活中的牛 屁股
+T249	Thing-Nominal 1709 1712	牛屁股
+T250	Thing-Nominal 1720 1723	牛屁股
+T251	Person-Nominal 1729 1731	牧童
+T252	Person-Name 1740 1742	鲁光
+T253	Person-Nominal 1733 1739	这个拍照的人
+*	Coreference T252 T253 T254
+T254	Person-Pronoun 1746 1747	他
+T255	Thing-Nominal 1748 1749	牛
+T256	Thing-Nominal 1755 1758	牛屁股
+T257	Person-Name 1759 1760;1761 1762	鲁 光
+T258	Thing-Nominal 1764 1767	牛屁股
+T259	Time-Implicit 1769 1771	两年
+T260	Metric 1769 1771	两年
+T261	Person-Name 1776 1778	鲁光
+T262	Thing-Nominal 1790 1791	牛
+T263	Abstract 1807 1814	《鲁光画牛集》
+T264	Location-Name 1819 1825	黄宾虹艺术馆
+T265	Location-Nominal 1825 1831	鲁光的住室内
+T266	Person-Name 1825 1827	鲁光
+T268	Abstract 1835 1840	《牧牛图》
+T269	Location-Nominal 1841 1844	画面上
+T270	Metric 1847 1849	三头
+T271	Thing-Nominal 1849 1853	南方水牛
+T273	Person-Nominal 1854 1858	一个牧童
+T275	Thing-Nominal 1860 1866	一头牛的牛绳
+T276	Thing-Nominal 1860 1863	一头牛
+T277	Metric 1867 1869	三头
+T278	Thing-Nominal 1867 1870	三头牛
+T279	Location-Nominal 1871 1873	野外
+T280	Thing-Nominal 1877 1878	革
+T281	Person-Name 1880 1882	鲁光
+R3	Located Arg1:T278 Arg2:T279	
+T282	Person-Pronoun 1891 1892	我
+T283	Person-Pronoun 1893 1894	我
+T284	Thing-Nominal 1902 1903	牛
+T285	Person-Pronoun 1904 1905	吾
+T286	Person-Nominal 1905 1906	友
+T287	Thing-Nominal 1907 1908	牛
+T288	Person-Pronoun 1909 1910	吾
+T289	Person-Nominal 1910 1911	师
+T290	Thing-Nominal 1913 1914	草
+T292	Person-Pronoun 1937 1938	吾
+T293	Thing-Nominal 1942 1943	牛
+T294	Thing-Nominal 1944 1945	牛
+T295	Person-Name 1952 1954	鲁光
+T296	Metric 1960 1962	一个
+T297	Person-Nominal 1962 1963	人
+T298	Thing-Nominal 1971 1972	牛
+T299	Metric 1976 1978	一个
+T300	Person-Name 1999 2000;2001 2002	鲁 光
+T301	Abstract 2002 2009	《我们都像牛》
+T302	Organization-Name 2010 2015	《语文报》
+T303	Time-Explicit 2015 2026	1983年5月16日)
+T305	Person-Nominal 2027 2030	一个人
+T306	Person-Pronoun 2032 2033	你
+T308	Person-Nominal 2070 2072	人们
+T309	Person-Name 2085 2087	鲁光
+T310	Abstract 2087 2093	《五峰斋记》
+T311	Organization-Name 2094 2100	《光明日报》
+T312	Time-Explicit 2100 2110	1987年6月20日
+T313	Person-Nominal 2111 2113	画家
+T314	Thing-Nominal 2116 2117	牛
+T315	Person-Nominal 2124 2126	人们
+T316	Person-Name 2131 2133	鲁迅
+T317	Thing-Nominal 2135 2136	牛
+T318	Thing-Nominal 2139 2140	草
+T319	Thing-Nominal 2145 2146	奶
+T320	Person-Pronoun 2147 2148	我
+T321	Person-Name 2149 2151	鲁光
+T322	Location-Nominal 2152 2155	牛画上
+T323	Person-Nominal 2162 2164	自己
+T324	Person-Pronoun 2173 2174	你
+T325	Person-Name 2175 2177	鲁光
+T326	Abstract 2181 2183;2184 2188	《中 国姑娘》
+T327	Abstract 2189 2196	《中国男子汉》
+T328	Metric 2197 2199	两部
+T329	Abstract 2205 2212	中国优秀文学奖
+T330	Location-Name 2215 2217	日本
+T331	Abstract 2221 2226	《大写意》
+T332	Abstract 2227 2233	《鲁光画集》
+T333	Abstract 2234 2241	《鲁光画牛集》
+T334	Abstract 2242 2244;2245 2249	《写 画人生》
+T335	Abstract 2250 2256	《半路出家》
+T336	Abstract 2257 2264	《鲁光新作集》
+T337	Metric 2265 2269	20多部
+T338	Thing-Nominal 2275 2276	牛
+T339	Person-Name 2290 2292	鲁光
+T340	Person-Pronoun 2302 2303	他
+T341	Abstract 2304 2310	《写画人生》
+T342	Abstract 2311 2317	《半路出家》
+T343	Abstract 2318 2325	《鲁光新作集》
+T344	Person-Pronoun 2333 2334	我
+T345	Person-Nominal 2351 2354	大记者
+T346	Person-Nominal 2355 2358	大作家
+T347	Person-Nominal 2359 2362	大画家
+T348	Organization-Name 2369 2371	中国
+T349	Person-Nominal 2379 2383	难得人才
+T350	Person-Name 2384 2386	鲁光
+T351	Thing-Nominal 2468 2469	牛
+T352	Person-Nominal 2471 2472	师
+T353	Person-Nominal 2485 2487	人民
+T354	Location-Nominal 2432 2434	国内
+T355	Location-Nominal 2434 2436	国外
+T356	Person-Nominal 2500 2502	朋友
+T357	Time-Implicit 2509 2519	2002年12月一天
+T358	Person-Nominal 2519 2523	资深画家
+T359	Person-Name 2523 2526	朱介堂
+*	Coreference T359 T358
+T360	Person-Pronoun 2528 2529	我
+T361	Person-Name 2530 2532	鲁光
+T362	Location-Name 2534 2537	新加坡
+T363	Organization-Nominal 2539 2540	展
+T364	Organization-Nominal 2543 2545	画展
+T365	Person-Pronoun 2557 2558	我
+T366	Person-Name 2559 2562	朱介堂
+T368	Abstract 2568 2569;2570 2576	《 鲁光新作集》
+T369	Person-Name 2582 2583	朱
+*	Coreference T369 T366
+T371	Location-Name 2592 2595	新加坡
+T370	Person-Name 2610 2612	鲁光
+T372	Abstract 2614 2618	《金鱼》
+T373	Metric 2624 2627	三二条
+T374	Person-Nominal 2645 2646	人
+T375	Person-Nominal 2650 2651	人
+T376	Person-Nominal 2680 2681	人
+T377	Person-Nominal 2691 2692	人
+T378	Abstract 2705 2710	《牧归图》
+T380	Thing-Nominal 2715 2725	三头雄姿勃勃的水
+牛
+T381	Metric 2729 2731	一只
+T382	Thing-Nominal 2729 2737	一只是可爱的小牛
+T383	Metric 2738 2740	一个
+T384	Person-Nominal 2738 2745	一个牧童小姑娘
+T385	Thing-Nominal 2747 2753	丰收的小篮子
+T386	Thing-Nominal 2761 2762	牛
+T387	Person-Nominal 2798 2802	著名画家
+T388	Person-Name 2800 2802	画家
+T389	Metric 2817 2819	五个
+T390	Person-Pronoun 2822 2823	我
+T391	Metric 2839 2843	三十三幅
+T392	Person-Pronoun 2844 2845	我
+T393	Person-Name 2855 2857	鲁光
+T394	Person-Name 2865 2867	鲁光
+T395	Person-Name 2885 2887	鲁光
+T396	Person-Name 2899 2901	范曾
+T397	Person-Name 2903 2905	鲁光
+T398	Abstract 2908 2915	《题鲁光新作》
+T399	Person-Name 2918 2920	范曾
+T400	Person-Name 2921 2923	鲁光
+T401	Person-Name 2968 2970	鲁光
+T402	Person-Pronoun 3008 3009	我
+T403	Abstract 3015 3022	《鲁光新作集》
+T404	Person-Name 3029 3031	范曾
+T405	Person-Name 3039 3041	范曾
+T406	Person-Name 3042 3044	鲁光
+T407	Person-Pronoun 3060 3061	我
+T408	Time-Implicit 3061 3066	2001年
+T409	Person-Name 3071 3073	鲁光
+T410	Person-Name 3075 3077	鲁光
+T411	Thing-Nominal 3078 3081	自己画
+T412	Person-Pronoun 3092 3093	我
+T413	Person-Pronoun 3175 3176	我
+T414	Person-Pronoun 3190 3191	我
+T415	Abstract 3196 3203	《鲁光新作集》
+T416	Person-Name 3232 3234	鲁光
+T417	Abstract 3263 3270	《鲁光新作集》
+T418	Metric 3272 3274	五幅
+T419	Thing-Nominal 3263 3276	《鲁光新作集》中的五幅牛画
+T420	Thing-Nominal 3278 3282	每幅牛画
+T421	Time-Explicit 3317 3319	唐代
+T422	Time-Explicit 3324 3326	唐代
+T423	Person-Nominal 3326 3328	画家
+T424	Abstract 3330 3336	《五牛图卷》
+T425	Person-Name 3324 3330	唐代画家韩的
+T426	Person-Nominal 3356 3357	人
+T427	Abstract 3387 3391	《私语》
+T428	Person-Name 3518 3520	鲁光
+T429	Location-Name 3522 3524	金华
+T430	Location-Name 3527 3532	国际大酒店
+T431	Person-Pronoun 3535 3536	我
+T432	Time-Implicit 3537 3549	2002年12月25日晚
+T433	Person-Name 3555 3559	鲁光先生
+T434	Person-Pronoun 3566 3567	我
+T435	Person-Name 3568 3570	鲁光
+T436	Person-Pronoun 3575 3576	你
+*	Coreference T436 T435
+T437	Person-Name 3593 3595	鲁光
+T438	Time-Explicit 3597 3602	2002年
+T439	Person-Pronoun 3604 3605	我
+T440	Metric 3602 3604	一年
+T441	Metric 3607 3609	三个
+T442	Organization-Nominal 3607 3611	三个画展
+T443	Time-Explicit 3612 3614	8月
+T444	Person-Pronoun 3614 3615	我
+T445	Metric 3618 3620	6幅
+T446	Thing-Nominal 3616 3618	新作
+T447	Location-Name 3621 3625	日本富山
+T448	Organization-Name 3627 3637	《现代中国水墨画展》
+T449	Time-Implicit 3641 3644	17天
+T450	Person-Nominal 3649 3651	观众
+T451	Metric 3652 3656	460人
+T452	Time-Implicit 3657 3661	最后一天
+T453	Metric 3663 3669	1000多人
+T454	Location-Name 3670 3672	目本
+T455	Person-Nominal 3670 3678	目本的皇子、皇妃
+T457	Location-Name 3684 3693	日本现代水墨美术馆
+T456	Person-Nominal 3684 3695	日本现代水墨美术馆馆长
+T458	Person-Name 3684 3700	日本现代水墨美术馆馆长加藤先
+生
+T459	Person-Pronoun 3702 3703	我
+T460	Person-Pronoun 3718 3719	你
+T461	Metric 3721 3725	六十多岁
+*	Coreference T439 T437
+T462	Person-Pronoun 3727 3728	你
+T463	Thing-Nominal 3727 3730	你的画
+T464	Person-Nominal 3735 3740	日本评论家
+T465	Location-Name 3735 3737	日本
+T466	Thing-Nominal 3743 3746	你的画
+T467	Person-Pronoun 3743 3744	你
+T468	Person-Pronoun 3754 3755	你
+T469	Person-Nominal 3765 3767	观众
+T470	Person-Nominal 3779 3783	日本观众
+T471	Location-Name 3779 3781	日本
+T472	Thing-Nominal 3784 3787	中国画
+T473	Person-Pronoun 3805 3806	我
+T474	Time-Implicit 3813 3815	9月
+T475	Location-Name 3816 3820;3821 3826	北京荣宝 斋精品画廊
+T476	Person-Pronoun 3829 3830	我
+T477	Thing-Nominal 3829 3833	我的新作
+T478	Metric 3833 3836	50幅
+T479	Person-Nominal 3837 3842	中外艺术家
+T480	Person-Nominal 3843 3845	观众
+T481	Person-Nominal 3850 3855	首都艺术家
+T482	Location-Nominal 3850 3852	首都
+T483	Location-Nominal 3837 3839	中外
+T484	Person-Pronoun 3858 3859	我
+T485	Thing-Nominal 3858 3862	我的画作
+T486	Person-Pronoun 3902 3903	我
+T487	Time-Implicit 3912 3915	11月
+T488	Thing-Nominal 3917 3919	新作
+T489	Metric 3919 3922	30幅
+T490	Location-Name 3923 3926	新加坡
+T491	Person-Nominal 3936 3938	知音
+T492	Person-Pronoun 3948 3949	我
+T493	Person-Name 3950 3954	鲁光先生
+T494	Person-Pronoun 3955 3956	你
+*	Coreference T494 T493
+T495	Location-Name 3957 3960	新加坡
+T496	Organization-Nominal 3962 3964	画展
+T497	Person-Name 3976 3978	鲁光
+T498	Person-Nominal 3984 3992	中国驻新加坡大使
+T499	Person-Name 3992 3995	张九恒
+*	Coreference T499 T498
+T500	Person-Nominal 3996 4000	文化参赞
+T501	Person-Name 4000 4004	邵一博士
+*	Coreference T501 T500
+T502	Person-Pronoun 4011 4013	他们
+T503	Organization-Nominal 4015 4019	画展酒会
+T504	Person-Name 4023 4027	邵一博士
+T505	Person-Nominal 4032 4034	来宾
+T506	Person-Pronoun 4037 4038	我
+T507	Person-Pronoun 4042 4043	我
+*	Coreference T507 T504
+T508	Person-Name 4045 4050	刘勃舒院长
+T509	Person-Name 4054 4056	鲁光
+T510	Thing-Nominal 4082 4085	他的画
+T511	Person-Pronoun 4082 4083	他
+T512	Person-Name 4095 4100	张九恒大使
+T513	Thing-Nominal 4101 4105	我的牛画
+T514	Person-Pronoun 4101 4102	我
+T515	Time-Implicit 4110 4112	次日
+T516	Person-Pronoun 4112 4113	他
+*	Coreference T516 T512
+T517	Person-Pronoun 4114 4115	我
+T518	Location-Nominal 4122 4125	大使馆
+T519	Thing-Nominal 4128 4130;4131 4136	陈列 的名家字画
+R4	Located Arg1:T519 Arg2:T518	
+T520	Person-Pronoun 4140 4141	我
+T521	Person-Pronoun 4144 4145	我
+T522	Metric 4147 4149	一幅
+T523	Metric 4149 4151	六尺
+T524	Abstract 4152 4157	《师牛图》
+T525	Organization-Nominal 4159 4161	使馆
+T526	Person-Nominal 4166 4168	大使
+T527	Person-Nominal 4173 4179	新加坡的同行
+T528	Location-Name 4173 4176	新加坡
+T529	Person-Nominal 4180 4184	收藏家们
+T530	Person-Pronoun 4186 4187	我
+T531	Thing-Nominal 4207 4212	我的新作集
+T532	Person-Pronoun 4207 4208	我
+T533	Person-Pronoun 4213 4214	我
+T534	Location-Nominal 4220 4224	画展会上
+T535	Person-Pronoun 4230 4231	我
+T536	Person-Nominal 4228 4237	钟情我的艺术朋友们
+T537	Person-Pronoun 4238 4239	我
+T538	Person-Nominal 4256 4259	艺术家
+T539	Metric 4254 4256	一个
+T540	Person-Nominal 4267 4271	艺术知音
+T541	Person-Nominal 4272 4274	知音
+T542	Person-Pronoun 4281 4283	他们
+*	Coreference T542 T541
+T543	Location-Nominal 4285 4290	灯火阑珊处
+T544	Person-Nominal 4292 4294	大家
+T545	Person-Name 4307 4311	鲁光先生
+T546	Person-Pronoun 4312 4313	你
+*	Coreference T546 T545
+T547	Person-Pronoun 4323 4324	你
+T548	Person-Name 4332 4334	鲁光
+T549	Person-Nominal 4354 4356	知音
+T550	Person-Pronoun 4359 4360	我
+T551	Person-Pronoun 4374 4375	我
+T552	Time-Implicit 4386 4387	我
+T553	Thing-Nominal 4369 4372	几幅画
+T554	Metric 4369 4371	几幅
+T555	Thing-Nominal 4374 4385	我的墨底为主的创新之作
+*	Coreference T555 T553
+T556	Metric 4387 4389	一年
+T557	Metric 4391 4393	三个
+T558	Organization-Nominal 4393 4395	画展
+T559	Location-Name 4411 4413	北京
+T560	Location-Name 4414 4416	日本
+T561	Location-Name 4417 4420	新加坡
+T562	Person-Pronoun 4447 4448	我
+T563	Person-Pronoun 4463 4464	我
+T564	Person-Name 4465 4469	鲁光先生
+T565	Person-Pronoun 4470 4471	你
+T566	Time-Implicit 4472 4474	当前
+T567	Time-Implicit 4482 4484	今后
+T568	Person-Name 4493 4497	鲁光先生
+T569	Person-Pronoun 4505 4506	我
+*	Coreference T569 T568
+T570	Metric 4508 4510	三次
+T571	Organization-Nominal 4510 4512	画展
+T572	Person-Nominal 4555 4561	真正的艺术家
+T573	Person-Nominal 4595 4598	艺术家
+T574	Person-Pronoun 4621 4622	我
+T575	Person-Nominal 4629 4632	收藏家
+T576	Person-Nominal 4642 4645	艺术家
+T577	Person-Nominal 4658 4660	自己
+T578	Person-Nominal 4681 4683	老师
+T579	Person-Nominal 4688 4690	自己
+T580	Time-Implicit 4693 4695	今后
+T581	Person-Pronoun 4695 4696	我
+T582	Person-Nominal 4699 4701	吾师
+T583	Person-Name 4701 4704	崔子范
+*	Coreference T583 T582
+T584	Person-Pronoun 4705 4706	我
+T585	Person-Name 4761 4763	鲁光
+T586	Organization-Name 4766 4771	国务院政府
+T587	Person-Nominal 4776 4778	专家
+T588	Person-Nominal 4779 4788	中国美术家协会会员
+T589	Organization-Name 4779 4786	中国美术家协会
+T590	Person-Nominal 4789 4802	中国作家协会全国委员会委员
+T591	Organization-Name 4789 4800	中国作家协会全国委员会
+T592	Person-Nominal 4803 4813	黄宾虹艺术馆首席顾问
+T593	Organization-Name 4803 4809	黄宾虹艺术馆
+T594	Person-Nominal 4814 4817;4818 4827	中国体 育美术促进会副会长
+T595	Organization-Name 4814 4817;4818 4824	中国体 育美术促进会
+T596	Person-Nominal 4828 4840	中国市长书画艺术中心主任
+T597	Organization-Name 4828 4838	中国市长书画艺术中心
+T598	Person-Nominal 4841 4853	香港亚洲美术家协会副主席
+T599	Organization-Name 4841 4850	香港亚洲美术家协会
+T600	Person-Nominal 4854 4866	苏州大学艺术学院兼职教授
+T601	Organization-Name 4854 4862	苏州大学艺术学院
+T602	Person-Nominal 4867 4875	全国体育美展评委
+T603	Organization-Name 4867 4873	全国体育美展
+T604	Person-Nominal 4879 4891	中国体育报社社长兼总编辑
+T605	Organization-Name 4879 4885	中国体育报社
+T606	Person-Nominal 4892 4901	人民体育出版社社长
+T607	Organization-Name 4892 4899	人民体育出版社
+T608	Person-Nominal 4902 4912	中国武术家协会副主席
+T609	Organization-Name 4902 4909	中国武术家协会
+T610	Person-Pronoun 4914 4915	我
+T611	Person-Name 4920 4922	鲁光
+T612	Person-Name 4933 4935	鲁光
+T613	Person-Name 4964 4968	鲁光先生
+T614	Person-Nominal 5016 5018	人们
+T615	Person-Nominal 5041 5045	华夏子孙
+T616	Organization-Nominal 5033 5035	祖国
+T617	Organization-Name 5056 5063	我们伟大的中国
+R5	Part-Whole Arg1:T1 Arg2:T2	
+R6	Part-Whole Arg1:T1 Arg2:T4	
+R7	Part-Whole Arg1:T1 Arg2:T2	
+T11	Person-Nominal 77 92	一家名为“大家艺苑”的艺术总监
+T12	Thing-Nominal 165 178	一幅催人振奋的现代上乘佳作
+T22	Person-Pronoun 117 118	我
+T27	Person-Name 117 121;122 132	我的邻居 好友、资深画家朱介堂
+R8	Part-Whole Arg1:T27 Arg2:T18	
+T618	Thing-Nominal 577 601	一个冠名为“鲁光艺苑”而自称为“五峰山居”的建筑
+R9	Part-Whole Arg1:T106 Arg2:T109	
+R10	Part-Whole Arg1:T106 Arg2:T110	
+R11	Part-Whole Arg1:T107 Arg2:T111	
+T91	Thing-Nominal 957 958	画
+T108	Thing-Nominal 1001 1004	文人画
+R12	Create Arg1:T139 Arg2:T108	
+R13	Part-Whole Arg1:T140 Arg2:T138	
+R14	Create Arg1:T180 Arg2:T179	
+*	Coreference T182 T181
+T129	Thing-Nominal 1266 1271	牛画集挂历
+R15	Create Arg1:T189 Arg2:T129	
+T130	Thing-Nominal 1278 1280	牛画
+T173	Thing-Nominal 1449 1450	画
+R16	Located Arg1:T271 Arg2:T269	
+T193	Thing-Nominal 2265 2271	20多部作品
+T206	Person-Nominal 2423 2424	人
+T267	Thing-Nominal 2505 2507	高峰
+T272	Thing-Nominal 2624 2633	三二条清游的金鱼图
+T274	Thing-Nominal 2636 2638	群鱼
+T291	Location-Nominal 2559 2565	朱介堂案头上
+T304	Thing-Nominal 2585 2589	这本画册
+T307	Thing-Nominal 2602 2606	这本画册
+T367	Thing-Nominal 2665 2671	朱红色的鱼冠
+T619	Location-Nominal 2711 2714	画面上
+R17	Located Arg1:T380 Arg2:T619	
+T379	Thing-Nominal 2715 2723;2724 2725	三头雄姿勃勃的水 牛
+R18	Located Arg1:T379 Arg2:T619	
+T620	Location-Nominal 2791 2797	画册的扉页上
+R19	Part-Whole Arg1:T387 Arg2:T388	
+T621	Person-Name 2833 2835	鲁光
+T622	Thing-Nominal 2833 2839	鲁光的新作选
+T623	Thing-Nominal 3392 3400	这幅两鸡对话的画
+T624	Thing-Nominal 3307 3308	牛
+T625	Location-Name 3560 3563	新加坡
+T626	Time-Implicit 3647 3649	每天
+*	Coreference T460 T459
+T627	Person-Nominal 4999 5001	人类
+T628	Thing-Nominal 4973 4975	晚霞
+T629	Location-Nominal 4977 4978	天
+R20	Located Arg1:T628 Arg2:T629	
+T630	Time-Implicit 4980 4984	新世纪里

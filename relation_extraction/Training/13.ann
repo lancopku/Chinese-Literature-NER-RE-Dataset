@@ -1,0 +1,110 @@
+T1	Abstract 0 6	《人民教育》
+T2	Person-Name 19 24	张克中老师
+T3	Abstract 25 31	《汉字忧思》
+T4	Thing-Nominal 87 89	电脑
+T5	Person-Nominal 113 115	作者
+T6	Thing-Nominal 147 149	电脑
+T7	Thing-Nominal 155 157	电脑
+T8	Thing-Nominal 162 165	原子弹
+T9	Thing-Pronoun 175 176	它
+*	Coreference T9 T7
+T10	Person-Nominal 193 195	教师
+T11	Person-Nominal 200 202	学生
+T12	Thing-Nominal 220 222	电脑
+T13	Person-Nominal 267 269	作者
+T14	Person-Name 271 276	学者付振国
+T15	Person-Nominal 320 323	大学者
+T16	Person-Nominal 335 337	作者
+T17	Thing-Nominal 343 354	世界上最古老的3种文字
+T18	Thing-Nominal 291 293	汉语
+T19	Thing-Nominal 306 307;308 309	英 语
+T20	Person-Nominal 247 249	少年
+T21	Thing-Nominal 385 393	古代中国的甲骨文
+T22	Thing-Nominal 396 398	汉字
+T23	Thing-Nominal 47 52	汉字和汉语
+T24	Thing-Nominal 55 57	英语
+T25	Person-Nominal 436 437	人
+T26	Person-Nominal 444 446	作者
+T27	Metric 457 462	5000年
+T28	Thing-Nominal 463 465	汉字
+T29	Thing-Nominal 471 473	英语
+T30	Thing-Nominal 484 486	电脑
+T31	Thing-Nominal 487 493	第一颗原子弹
+T32	Thing-Nominal 494 496	英语
+T33	Thing-Nominal 497 500;501 504	第二颗 原子弹
+T34	Person-Nominal 516 528	世界人口五分之一的中国人
+T35	Location-Nominal 530 532	手中
+T36	Thing-Nominal 535 544	5000年的“武器
+T37	Metric 535 540	5000年
+R1	Located Arg1:T36 Arg2:T35	
+T38	Thing-Nominal 547 553	这两颗原子弹
+T39	Thing-Nominal 554 566	美国当年投的那两颗原子弹
+T40	Time-Implicit 556 558	当年
+T41	Thing-Pronoun 573 574	它
+*	Coreference T41 T38
+T42	Thing-Nominal 578 580	汉字
+T43	Thing-Nominal 589 591	母语
+T44	Person-Pronoun 598 600	我们
+T45	Metric 603 607;608 609	5000 年
+T46	Thing-Nominal 623 625	汉字
+T47	Thing-Nominal 634 639	回家的道路
+T48	Location-Nominal 635 636	家
+T49	Thing-Nominal 645 647	英语
+T50	Thing-Nominal 647 652	这颗原子弹
+T51	Time-Implicit 676 680	有唐以来
+T52	Thing-Nominal 689 694	汉语言文字
+T53	Thing-Nominal 681 688	外来文化和文字
+T54	Thing-Nominal 708 713	汉语方框字
+T55	Time-Explicit 714 716	宋朝
+T56	Thing-Nominal 729 731	电脑
+T57	Thing-Nominal 745 750	汉语方框字
+T58	Person-Nominal 751 756	近代殖民者
+T59	Location-Name 757 759	中国
+T60	Thing-Nominal 771 773	英语
+T61	Thing-Nominal 783 785;786 789	汉语 言文字
+T62	Thing-Nominal 797 800	方框字
+T63	Thing-Pronoun 813 815	它们
+T64	Thing-Nominal 838 846	当今的汉语言文字
+T65	Time-Implicit 838 840	当今
+T66	Person-Nominal 864 866	作者
+T67	Thing-Nominal 882 884	汉字
+T68	Thing-Nominal 884 893	这个“基本元素符号
+T69	Person-Nominal 908 910	作者
+T70	Person-Name 917 920	付振国
+T71	Thing-Nominal 921 923	汉语
+T72	Thing-Nominal 928 930	母语
+T73	Thing-Nominal 949 951	母语
+T74	Person-Pronoun 956 957	我
+T75	Thing-Nominal 959 961	母语
+T76	Thing-Nominal 964 968;969 971	基本元素 符号
+T77	Thing-Nominal 973 975	文字
+*	Coreference T77 T76
+T78	Person-Nominal 986 988	作者
+T79	Thing-Nominal 989 994	汉语方框字
+T80	Person-Pronoun 1004 1005	他
+*	Coreference T80 T78
+T81	Thing-Nominal 1010 1012	汉语
+T82	Thing-Nominal 1031 1033	文字
+T83	Person-Nominal 1041 1042	人
+T84	Person-Nominal 1046 1048	作者
+T85	Thing-Nominal 1050 1059	母语的基本元素符号
+T86	Person-Name 1083 1086	哥伦布
+T87	Thing-Nominal 1089 1090;1091 1093	新 大陆
+T88	Thing-Nominal 1129 1131	汉语
+T89	Thing-Nominal 1139 1141	电脑
+T90	Thing-Nominal 1152 1154	汉语
+T91	Thing-Nominal 1156 1158	英文
+T92	Thing-Nominal 1172 1174	英文
+T93	Thing-Nominal 1175 1177	汉语
+T94	Person-Nominal 1195 1201	近代某些学者
+T95	Thing-Nominal 1202 1207	汉语言文字
+T96	Person-Pronoun 1226 1228	他们
+*	Coreference T96 T94
+T97	Thing-Nominal 1233 1235	英语
+T98	Thing-Nominal 1237 1239	汉语
+T99	Abstract 1248 1252	《忧思》
+T100	Thing-Nominal 1266 1271	汉语言文字
+T101	Person-Nominal 1287 1291	大学者们
+T102	Person-Nominal 1302 1316	每一个使用汉语言文字的老百姓
+T103	Thing-Nominal 1307 1312	汉语言文字
+R2	Use Arg1:T102 Arg2:T103	

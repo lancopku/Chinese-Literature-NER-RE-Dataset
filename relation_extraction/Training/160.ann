@@ -1,0 +1,98 @@
+T1	Time-Implicit 3 7	黎明时分
+T2	Thing-Nominal 11 12	风
+T3	Thing-Nominal 16 21	窗外的树叶
+T4	Location-Nominal 16 18	窗外
+R1	Located Arg1:T3 Arg2:T4	
+T5	Person-Pronoun 26 27	我
+T6	Thing-Nominal 32 44	这些春天刚刚长出来的新叶
+T7	Person-Pronoun 52 53	我
+T8	Thing-Nominal 56 57	窗
+T9	Thing-Nominal 59 60	风
+T10	Thing-Nominal 67 68	风
+T11	Location-Nominal 69 71	窗口
+T12	Thing-Nominal 85 89	我的头发
+T13	Person-Pronoun 85 86	我
+T14	Location-Nominal 99 101	鼻中
+T15	Location-Nominal 105 107	房间
+T16	Time-Implicit 110 113	风起时
+T17	Thing-Nominal 110 111	风
+T18	Person-Pronoun 141 142	我
+T19	Location-Nominal 150 152	远方
+T20	Location-Nominal 172 174	远方
+T21	Location-Nominal 175 181	远方的天空下
+T22	Thing-Nominal 182 192	一个半山坡上的小村庄
+R2	Located Arg1:T22 Arg2:T21	
+T23	Thing-Pronoun 193 194	她
+*	Coreference T23 T22
+T24	Thing-Nominal 196 198	大山
+T25	Thing-Nominal 202 204	大山
+T26	Thing-Nominal 206 208	河水
+T27	Thing-Nominal 212 214	新叶
+T28	Thing-Nominal 218 219	风
+T29	Thing-Nominal 234 235	风
+T30	Location-Pronoun 238 240	那里
+T31	Thing-Nominal 245 255	一条开满映山红的山路
+T32	Person-Nominal 262 264	孩子
+T33	Thing-Nominal 274 275;276 280	鲜 嫩的花瓣
+T34	Location-Nominal 282 284	口中
+R3	Located Arg1:T33 Arg2:T34	
+T35	Person-Pronoun 295 296	我
+T36	Thing-Nominal 299 301	故乡
+T37	Time-Implicit 311 314	那些年
+T38	Thing-Nominal 323 329	地里的油菜花
+T39	Location-Nominal 323 325	地里
+R4	Located Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 334 340	夜晚的煤油灯
+T41	Thing-Nominal 345 347	墙壁
+T42	Thing-Nominal 353 355	膝盖
+T43	Thing-Nominal 356 358	书包
+T44	Time-Implicit 364 370	天不亮的时候
+T45	Person-Nominal 372 374	母亲
+T46	Thing-Nominal 384 386	盒饭
+T47	Thing-Nominal 446 456	那片开满映山红的山坡
+T48	Person-Pronoun 388 390	我们
+T49	Thing-Nominal 392 394	家门
+T50	Location-Nominal 396 399	五里外
+T51	Thing-Nominal 400 402	学校
+R5	Located Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 407 408	路
+T53	Thing-Nominal 413 414	风
+T54	Person-Pronoun 417 418	她
+*	Coreference T54 T45
+T55	Person-Pronoun 422 424	我们
+R6	Family Arg1:T48 Arg2:T45	
+T56	Person-Pronoun 429 431	我们
+T57	Location-Nominal 459 466	我们的藏身之处
+T58	Person-Pronoun 459 461	我们
+T59	Person-Nominal 467 475	整个村庄的小伙伴
+T60	Person-Pronoun 480 482	我们
+T61	Location-Nominal 483 485	路上
+T62	Thing-Nominal 487 493;494 496	刚刚长成的茅 草梗
+T63	Thing-Nominal 513 517	整个身子
+T64	Thing-Nominal 519 521	青草
+T65	Thing-Nominal 526 531	那时的故乡
+T66	Time-Implicit 526 528	那时
+T67	Person-Nominal 552 555	大人们
+T68	Person-Pronoun 560 562	我们
+T69	Person-Pronoun 563 565	我们
+T70	Person-Pronoun 571 573	他们
+T71	Person-Pronoun 574 576	他们
+T72	Thing-Nominal 577 578	山
+T73	Thing-Nominal 579 580	柴
+T74	Person-Pronoun 581 583	我们
+T75	Thing-Nominal 584 585	山
+T76	Thing-Nominal 587 588	花
+*	Coreference T71 T67
+T77	Person-Pronoun 589 591	他们
+T78	Thing-Nominal 592 593	河
+T79	Thing-Nominal 594 595	鱼
+T80	Person-Pronoun 596 598	我们
+T81	Thing-Nominal 599 600	水
+T82	Thing-Nominal 601 602	虾
+T83	Person-Pronoun 603 605	他们
+T84	Thing-Nominal 608 609	牛
+T85	Person-Pronoun 610 612	我们
+T86	Thing-Nominal 613 614	树
+T87	Thing-Nominal 615 616	沙
+T88	Thing-Nominal 625 627	细雨
+T89	Thing-Nominal 632 634	夜风

@@ -1,0 +1,53 @@
+T1	Person-Nominal 7 11	青年恋人
+T2	Person-Nominal 15 19	中年夫妻
+T3	Person-Nominal 23 27	老年伴侣
+T4	Person-Nominal 51 53	男人
+T5	Person-Nominal 54 56	女人
+T6	Person-Nominal 101 103	古人
+T7	Thing-Nominal 106 108	梧桐
+T8	Thing-Nominal 110 112	细雨
+T9	Thing-Nominal 120 122	芭蕉
+T10	Thing-Nominal 123 124	雨
+T11	Thing-Nominal 152 155	梧桐花
+T12	Thing-Nominal 159 161	糖块
+T13	Thing-Nominal 164 167	芭蕉叶
+T14	Thing-Nominal 171 173	雨水
+T15	Thing-Nominal 177 179	梧桐
+T16	Thing-Nominal 180 182	芭蕉
+T17	Thing-Nominal 189 191	糖水
+T18	Person-Nominal 239 245	多少痴情儿女
+T19	Location-Nominal 249 255	那段爱的路上
+T20	Thing-Nominal 283 285	昙花
+T21	Thing-Nominal 348 352;353 356	一杯甘醇 的红酒
+T22	Person-Nominal 358 359	人
+T23	Thing-Nominal 366 368	春花
+T24	Thing-Nominal 381 383	夏荷
+T25	Thing-Nominal 396 398	秋菊
+T26	Thing-Nominal 411 413	冬梅
+T27	Thing-Nominal 462 464	梧桐
+T28	Thing-Nominal 472 474	芭蕉
+T29	Thing-Nominal 485 494	一幅意味深长的画面
+T30	Thing-Nominal 587 589	海风
+T31	Thing-Nominal 592 594	海燕
+T32	Location-Nominal 598 601	大海上
+T33	Location-Nominal 608 611	浪花里
+T34	Thing-Nominal 616 618	柳絮
+T35	Thing-Nominal 623 626	湖心桥
+T36	Thing-Nominal 629 632	水中鱼
+T37	Thing-Nominal 635 638	湖边月
+T38	Location-Nominal 650 652	月下
+T39	Thing-Nominal 657 660	龙胆花
+T40	Location-Nominal 642 644	风里
+T41	Thing-Nominal 675 678	马头琴
+T42	Thing-Nominal 681 684	浓绿草
+T43	Location-Nominal 688 693	空旷的原野
+T44	Thing-Nominal 700 704	每株青草
+T45	Thing-Nominal 749 752	风暴雨
+T46	Location-Nominal 758 760	手里
+T47	Thing-Nominal 739 741	阳光
+T48	Location-Nominal 498 502	人间天上
+R1	Located Arg1:T44 Arg2:T43	
+T49	Location-Nominal 635 637	湖边
+R2	Located Arg1:T37 Arg2:T49	
+T50	Location-Nominal 629 631	水中
+R3	Located Arg1:T36 Arg2:T50	

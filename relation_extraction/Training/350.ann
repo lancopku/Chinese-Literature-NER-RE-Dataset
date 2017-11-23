@@ -1,0 +1,173 @@
+T1	Location-Nominal 6 8	前方
+T2	Thing-Nominal 9 11	响动
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 28 32	一群闲鸟
+T4	Metric 28 30	一群
+T5	Person-Pronoun 39 40	我
+T6	Location-Nominal 47 54	山林的更高深处
+T7	Location-Nominal 40 42	眼前
+T8	Person-Pronoun 56 57	我
+T9	Thing-Nominal 56 60	我的脚步
+R2	Ownership Arg1:T8 Arg2:T9	
+T10	Thing-Nominal 64 69	路边的鸟群
+T11	Location-Nominal 64 66	路边
+R3	Located Arg1:T10 Arg2:T11	
+T12	Thing-Pronoun 73 75	它们
+*	Coreference T12 T10
+T13	Thing-Pronoun 79 81	它们
+T14	Person-Pronoun 93 94	我
+T15	Thing-Nominal 98 102	恶兽虫蛇
+T16	Person-Pronoun 103 104	我
+T17	Thing-Nominal 103 106	我的心
+R4	Part-Whole Arg1:T17 Arg2:T16	
+T18	Person-Pronoun 150 151	您
+T19	Person-Nominal 153 155	老人
+*	Coreference T19 T18 T16
+T20	Person-Nominal 159 162	一后生
+T21	Location-Nominal 163 168	左侧的山亘
+T22	Person-Pronoun 171 172	我
+T23	Person-Pronoun 176 177	我
+T24	Person-Pronoun 186 187	我
+T25	Person-Pronoun 196 197	我
+T26	Person-Pronoun 202 203	他
+*	Coreference T26 T20
+T27	Person-Pronoun 231 233	我们
+R5	Part-Whole Arg1:T26 Arg2:T27	
+R6	Part-Whole Arg1:T25 Arg2:T27	
+T28	Person-Pronoun 241 242	他
+T29	Person-Nominal 244 248	我一房侄
+R7	General-Special Arg1:T29 Arg2:T28	
+T30	Location-Nominal 251 253	岭上
+T31	Time-Implicit 254 256	如今
+T32	Time-Implicit 260 262	今天
+T33	Location-Nominal 263 264	岭
+T34	Location-Nominal 267 270	老屋场
+T35	Thing-Nominal 272 274	园子
+R8	Located Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 280 282	砍刀
+T37	Thing-Nominal 283 285	手锯
+R9	Ownership Arg1:T28 Arg2:T37	
+R10	Ownership Arg1:T28 Arg2:T36	
+T38	Person-Pronoun 286 288	我们
+T39	Person-Nominal 299 304	久违的朋友
+T40	Person-Pronoun 309 310	他
+T41	Person-Pronoun 311 312	我
+T42	Location-Nominal 322 327	右边山坳里
+T43	Thing-Nominal 330 334	几块菜土
+R11	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 335 337;338 341	大蒜 、香葱
+T45	Thing-Nominal 348 355	小石块的包心白
+T46	Thing-Pronoun 375 376	其
+*	Coreference T46 T45
+T47	Location-Nominal 385 390	上方山坡上
+T48	Thing-Nominal 394 396	梓树
+R12	Located Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 416 418	风沙
+T50	Thing-Nominal 422 424	阳光
+T51	Thing-Nominal 426 429	梓树林
+R13	Part-Whole Arg1:T48 Arg2:T51	
+T52	Location-Nominal 426 432	梓树林的左侧
+T53	Thing-Nominal 434 447	一处比较背风而且平缓的山坡
+R14	Located Arg1:T53 Arg2:T52	
+T54	Person-Nominal 448 450	后生
+*	Coreference T54 T40 T107 T112
+T55	Thing-Pronoun 452 453	这
+T56	Location-Nominal 454 459	他家老屋场
+T57	Person-Pronoun 460 461	我
+T58	Location-Nominal 464 467	他的家
+*	Coreference T56 T34 T58 T72 T85 T96
+T59	Person-Pronoun 468 469	我
+T60	Time-Implicit 488 490	过去
+T61	Location-Nominal 492 494	岭上
+T62	Thing-Nominal 495 499	几处屋场
+R15	Located Arg1:T62 Arg2:T61	
+T63	Organization-Nominal 502 506	几个家庭
+T64	Person-Nominal 507 512	老少数十口
+T65	Thing-Nominal 517 518	货
+T66	Thing-Nominal 520 521	书
+T67	Thing-Nominal 525 526	粪
+T68	Time-Implicit 531 533	每天
+T69	Time-Implicit 562 566	开放改革
+T70	Person-Nominal 580 582	里人
+T71	Person-Nominal 583 586	城里人
+*	Coreference T71 T70
+T72	Location-Nominal 587 589	他家
+T73	Thing-Nominal 587 593	他家的泥房子
+R16	Located Arg1:T73 Arg2:T72	
+T74	Thing-Nominal 602 604	落叶
+T75	Thing-Nominal 610 614	有机肥料
+R17	General-Special Arg1:T75 Arg2:T73	
+T76	Location-Nominal 618 622	这块土地
+R18	Located Arg1:T73 Arg2:T76	
+T77	Thing-Nominal 640 644	毛绒地毯
+T78	Location-Nominal 645 649	南面一隅
+T79	Thing-Nominal 651 657	几块旧墙基石
+R19	Located Arg1:T79 Arg2:T78	
+T80	Metric 651 653	几块
+T81	Location-Nominal 665 669	草木丛里
+T82	Thing-Nominal 673 679	一截泥墙残迹
+T83	Metric 673 675	一截
+T84	Time-Implicit 694 696	眼下
+T85	Location-Nominal 697 703	废弃的老屋场
+T86	Thing-Nominal 704 709	茂盛的竹木
+R20	Near Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 714 716	林园
+T88	Thing-Nominal 721 737	楠竹、水杉、松树、油茶及其它杂树
+R21	Near Arg1:T88 Arg2:T85	
+R22	Part-Whole Arg1:T88 Arg2:T86	
+T89	Location-Nominal 757 759	央区
+R23	Part-Whole Arg1:T89 Arg2:T85	
+T90	Location-Nominal 763 767	中间一块
+T91	Thing-Nominal 769 777	杂草与落叶的家园
+T92	Thing-Pronoun 778 780	它们
+T93	Thing-Nominal 769 774	杂草与落叶
+*	Coreference T92 T93
+T94	Thing-Nominal 796 801	周围的林木
+*	Coreference T88 T94
+T95	Thing-Nominal 812 819	大地母亲的披风
+T96	Location-Pronoun 802 804	这里
+T97	Time-Implicit 821 823	冬日
+T98	Location-Nominal 821 823;824 827	冬日 的寒山
+T99	Location-Nominal 836 840	正中位置
+T100	Thing-Nominal 842 846	一株梓树
+R24	Located Arg1:T100 Arg2:T99	
+T101	Person-Nominal 850 852	谁人
+T102	Thing-Nominal 859 861	山风
+T103	Thing-Nominal 863 865	种子
+T104	Thing-Nominal 878 881	梓树林
+T105	Thing-Pronoun 883 887	任何一株
+R25	Part-Whole Arg1:T105 Arg2:T104	
+T106	Thing-Pronoun 899 900	它
+T107	Person-Nominal 905 908	后生子
+T108	Time-Implicit 913 924	并无冰雪压顶的去年冬天
+T109	Time-Implicit 935 937	如今
+T110	Thing-Nominal 943 948	幽雅的林园
+T111	Location-Nominal 940 941	地
+T112	Person-Nominal 955 957;958 959	这后 生
+T113	Thing-Nominal 969 973	这一败笔
+R26	Part-Whole Arg1:T113 Arg2:T106	
+*	Coreference T106 T100 T113
+T114	Thing-Nominal 975 982	四面合围的枝桠
+T115	Location-Nominal 992 997	老屋场右侧
+T117	Thing-Nominal 1007 1011	林中的路
+T116	Location-Nominal 1004 1006	山林
+R27	Located Arg1:T117 Arg2:T116	
+T118	Time-Implicit 1017 1021	年轻时候
+T119	Person-Pronoun 1022 1024	我们
+T120	Thing-Nominal 1036 1040	山头村舍
+T121	Thing-Nominal 1046 1051;1052 1071	灰蒙蒙的天 穹，光秃秃的山坡，泛着白光的“大寨田”
+T122	Person-Nominal 1072 1079	战天斗地的人们
+T123	Person-Nominal 1088 1093	一些小青年
+T124	Person-Pronoun 1099 1101	他们
+*	Coreference T124 T123
+T125	Location-Nominal 1103 1105	山村
+T126	Location-Nominal 1108 1110	世界
+T127	Time-Implicit 1132 1134	如今
+T128	Thing-Nominal 1159 1162	这林子
+R28	Located Arg1:T128 Arg2:T116	
+T129	Thing-Nominal 1181 1183	迷宫
+T130	Person-Pronoun 1248 1249	我
+T131	Thing-Nominal 1282 1284	闲鸟
+T132	Thing-Nominal 1287 1289	娇木
+T133	Person-Nominal 1292 1293	人
+T134	Thing-Nominal 1297 1299	林园

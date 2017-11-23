@@ -1,0 +1,154 @@
+T1	Person-Nominal 0 2	老婆
+T2	Person-Nominal 3 5	老妈
+T3	Person-Nominal 15 17	老婆
+T4	Person-Nominal 17 19	老妈
+T5	Person-Nominal 24 26	老妈
+T6	Person-Nominal 26 28	老婆
+T7	Person-Nominal 33 35	老婆
+T8	Person-Nominal 39 41	老妈
+T9	Person-Pronoun 55 56	我
+T10	Person-Nominal 55 59	我一老友
+R1	Social Arg1:T10 Arg2:T9	
+T11	Person-Pronoun 68 69	我
+T12	Person-Nominal 75 78	我老友
+*	Coreference T12 T11 T16 T35 T59
+R2	Family Arg1:T1 Arg2:T2	
+T13	Location-Nominal 10 12	水里
+T14	Person-Nominal 91 96	老友的生母
+T15	Person-Nominal 97 101	他的前妻
+T16	Person-Pronoun 97 98	他
+T17	Person-Pronoun 107 109	她们
+T18	Person-Nominal 91 101	老友的生母与他的前妻
+*	Coreference T17 T18
+T19	Person-Pronoun 114 115	他
+T20	Person-Pronoun 121 122	他
+T21	Person-Nominal 125 129	他的生母
+T22	Person-Nominal 142 144	你妻
+*	Coreference T22 T15
+T23	Person-Pronoun 142 143	你
+*	Coreference T23 T19
+T24	Person-Pronoun 158 159	我
+T25	Person-Nominal 183 185	你妈
+*	Coreference T25 T21 T24
+T26	Person-Nominal 187 191	他的前妻
+T27	Person-Pronoun 203 204	我
+T28	Person-Pronoun 223 224	你
+T29	Person-Pronoun 241 242	他
+T31	Person-Nominal 252 256	他的生母
+T30	Person-Nominal 269 273	他的前妻
+T32	Person-Pronoun 285 286	他
+T33	Location-Nominal 292 302	直径仅一万米的小县城
+T34	Metric 295 298	一万米
+T35	Person-Nominal 304 309	我这个老友
+T36	Person-Nominal 309 314	现在的妻子
+R5	Family Arg1:T36 Arg2:T35	
+R6	Family Arg1:T15 Arg2:T14	
+T37	Person-Nominal 324 328	她的生父
+T38	Person-Nominal 329 333	她的前夫
+R7	Family Arg1:T38 Arg2:T37	
+T40	Person-Nominal 324 333	她的生父与她的前夫
+R8	Family Arg1:T40 Arg2:T36	
+R3	Family Arg1:T18 Arg2:T12	
+T41	Person-Pronoun 339 341	他们
+*	Coreference T41 T40
+T42	Person-Pronoun 346 347	她
+*	Coreference T42 T36
+T39	Person-Pronoun 353 354	她
+T43	Person-Nominal 357 361	她的生父
+T44	Person-Nominal 374 376	你夫
+T45	Person-Pronoun 374 375	你
+*	Coreference T45 T39
+T46	Person-Pronoun 390 391	我
+*	Coreference T46 T43
+T47	Person-Nominal 417 419	你爹
+T48	Person-Nominal 421 425	她的前夫
+T49	Person-Pronoun 436 437	我
+*	Coreference T49 T48
+*	Coreference T27 T26
+T50	Person-Pronoun 456 457	你
+T51	Person-Pronoun 474 475	她
+T52	Person-Nominal 487 490	的生父
+T53	Person-Nominal 502 506	她的前夫
+T54	Person-Pronoun 517 518	她
+T55	Location-Nominal 525 535	直径仅一万米的小县城
+T56	Metric 528 531	一万米
+T57	Metric 540 543	不很久
+T58	Person-Pronoun 544 545	她
+T59	Person-Nominal 548 552	我的老友
+T60	Person-Pronoun 554 555	她
+T61	Person-Nominal 557 561	我的老友
+T62	Person-Pronoun 566 567	你
+*	Coreference T62 T61
+T63	Person-Pronoun 570 571	我
+*	Coreference T63 T60
+T64	Person-Nominal 579 583	我的老友
+T65	Person-Pronoun 585 586	她
+T66	Person-Nominal 596 597;598 601	我 的老友
+T67	Person-Pronoun 606 607	你
+*	Coreference T67 T65
+T68	Person-Pronoun 611 612	我
+*	Coreference T68 T66
+T69	Person-Pronoun 619 620	你
+T70	Person-Pronoun 624 625	我
+T71	Person-Nominal 626 629	你生父
+*	Coreference T71 T52 T95
+T72	Person-Pronoun 634 635	你
+T73	Person-Pronoun 644 645	你
+T74	Person-Pronoun 646 647	谁
+T75	Person-Pronoun 649 650	她
+T76	Person-Pronoun 657 658	你
+T77	Person-Nominal 671 675	我的老友
+T78	Person-Pronoun 687 688	她
+T79	Person-Pronoun 695 696	你
+T80	Person-Pronoun 701 702	我
+*	Coreference T79 T77
+*	Coreference T80 T78 T92 T94
+T81	Person-Nominal 703 706	你生母
+*	Coreference T81 T31 T90
+T82	Person-Pronoun 711 712	你
+T83	Person-Pronoun 722 723	你
+T84	Person-Pronoun 724 725	谁
+T85	Person-Pronoun 729 730	你
+T86	Person-Pronoun 736 737	你
+T87	Person-Pronoun 751 752	我
+T88	Person-Nominal 755 759	我的老友
+*	Coreference T87 T88
+T89	Person-Pronoun 765 766	我
+T90	Person-Nominal 771 774	我母亲
+T91	Person-Pronoun 776 777	他
+*	Coreference T91 T89 T93
+T92	Person-Nominal 777 782	现在的妻子
+T93	Person-Nominal 786 789	我老友
+T94	Person-Pronoun 797 798	我
+T95	Person-Nominal 803 806	我父亲
+T96	Person-Nominal 815 819	我的老友
+T97	Person-Pronoun 823 824	你
+*	Coreference T97 T96
+T98	Person-Pronoun 830 831	她
+T99	Person-Nominal 844 848	我的老友
+T100	Person-Pronoun 862 863	她
+T101	Person-Pronoun 867 869	他们
+R4	Part-Whole Arg1:T100 Arg2:T101	
+R9	Part-Whole Arg1:T99 Arg2:T101	
+T102	Location-Nominal 884 894	直径仅一万米的小县城
+T103	Metric 887 890	一万米
+T104	Person-Nominal 912 915	生父母
+T105	Person-Nominal 915 917	子女
+R10	Family Arg1:T104 Arg2:T105	
+T106	Person-Nominal 928 931	当事者
+T107	Person-Nominal 967 969	夫妻
+T108	Person-Nominal 1019 1021	妻子
+T109	Person-Nominal 1023 1025	丈夫
+T110	Person-Nominal 1033 1037	他的生母
+R11	Family Arg1:T109 Arg2:T110	
+R12	Family Arg1:T109 Arg2:T108	
+T111	Person-Nominal 1040 1042	丈夫
+T112	Person-Nominal 1044 1046	妻子
+T113	Person-Pronoun 1048 1050	自己
+*	Coreference T113 T111
+T114	Person-Pronoun 1027 1029	自己
+*	Coreference T114 T108
+T115	Person-Nominal 1054 1058	她的生父
+R13	Family Arg1:T115 Arg2:T112	
+R14	Family Arg1:T115 Arg2:T111	
+T116	Person-Nominal 1077 1078;1079 1081	生 还者

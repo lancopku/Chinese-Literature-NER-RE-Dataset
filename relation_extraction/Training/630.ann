@@ -1,0 +1,259 @@
+T1	Location-Nominal 0 4	诗画江南
+T2	Location-Name 21 24	千佛山
+T3	Location-Name 27 30	飞石岭
+*	Coreference T2 T3
+T4	Time-Implicit 73 76	数日前
+T5	Person-Nominal 81 92	来自上海还有本地的作家
+T6	Person-Nominal 94 98	三十余人
+T7	Location-Name 103 106	千佛山
+T8	Person-Nominal 118 120	佛祖
+T9	Location-Name 124 129	千佛山景区
+T10	Location-Name 131 137	遂昌县石练镇
+R1	Part-Whole Arg1:T9 Arg2:T10	
+T11	Location-Name 140 144	遂昌县城
+T12	Metric 145 149	三十公里
+T13	Location-Name 153 156	南尖岩
+T14	Location-Name 157 160	神龙谷
+T15	Location-Nominal 166 170	独山古寨
+T16	Thing-Name 171 174	汤沐园
+R2	Near Arg1:T13 Arg2:T9	
+R3	Near Arg1:T14 Arg2:T9	
+R4	Near Arg1:T15 Arg2:T9	
+R5	Near Arg1:T16 Arg2:T9	
+T17	Thing-Nominal 177 179	该山
+T18	Thing-Nominal 179 181	万木
+R6	Located Arg1:T18 Arg2:T17	
+T19	Person-Nominal 203 206	千尊佛
+T20	Thing-Name 216 221	“千佛山”
+T21	Thing-Nominal 225 239	一个奇雄无比，巨石相叠的山门
+T22	Location-Nominal 250 258	优雅的千佛山酒店
+T23	Thing-Nominal 259 261	酒店
+T24	Location-Name 264 269	千佛山景区
+R7	Located Arg1:T23 Arg2:T24	
+T25	Location-Nominal 281 283	门口
+T26	Thing-Nominal 281 283;284 294	门口 上方外墙上的仿铜浮雕
+T27	Person-Name 307 310	汤显祖
+T28	Abstract 310 317	“玉茗堂四梦”
+T29	Location-Nominal 324 331	大堂正厅的右边
+T30	Thing-Nominal 335 344;345 346	一位活龙活现的弥勒 佛
+T31	Location-Nominal 359 365	墙面的正上方
+T32	Thing-Nominal 367 376	一幅清晰巨大的照片
+R8	Located Arg1:T32 Arg2:T31	
+R9	Located Arg1:T30 Arg2:T29	
+T33	Person-Name 378 386	国家副主席习近平
+T34	Location-Nominal 388 390	景区
+T35	Person-Name 395 399	习副主席
+T36	Location-Name 401 403	遂昌
+T37	Location-Name 406 414	风景如画的千佛山
+T38	Thing-Nominal 420 427	景区的神奇景观
+T39	Location-Name 458 460	浙江
+T40	Person-Nominal 470 472	导游
+T41	Time-Explicit 477 481	下午三点
+T42	Person-Nominal 482 488	我们三十余人
+T43	Thing-Nominal 506 511	绵绵的雨丝
+T44	Thing-Nominal 512 517	微凉的山风
+T45	Thing-Nominal 523 529;530 531	淡淡的香火气 息
+T46	Person-Pronoun 532 533	我
+T47	Person-Nominal 535 537	佛祖
+T48	Person-Pronoun 543 545	我们
+T49	Person-Pronoun 557 559	我们
+T50	Thing-Nominal 564 569	千佛山佛门
+T51	Thing-Nominal 573 576	迎客瀑
+T52	Thing-Nominal 577 583	雨中的迎客瀑
+T53	Person-Pronoun 606 608	我们
+T54	Thing-Nominal 621 623	银瀑
+T55	Thing-Nominal 630 634	一头石象
+T56	Thing-Nominal 635 637	象鼻
+R10	Part-Whole Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 648 652	一座石狮
+T58	Thing-Nominal 671 674	一山泉
+T59	Thing-Name 677 679	慧泉
+*	Coreference T59 T58
+T60	Person-Nominal 690 692	导游
+T61	Person-Pronoun 713 714	你
+T62	Thing-Nominal 721 722	山
+T63	Thing-Nominal 725 726	水
+T64	Thing-Nominal 723 724	眉
+T65	Thing-Nominal 728 729	眼
+T66	Thing-Nominal 730 732	山水
+T67	Thing-Nominal 739 741	山门
+T68	Thing-Nominal 742 749	清香的泥土气息
+T69	Thing-Nominal 764 773	一座古朴典雅的廊桥
+T70	Thing-Nominal 780 782	镜湖
+T71	Thing-Nominal 791 795	一个凉亭
+T72	Thing-Nominal 785 787	廊桥
+T73	Thing-Nominal 799 804	“怡心亭”
+*	Coreference T73 T71
+T74	Thing-Nominal 806 810	廊桥碧水
+T75	Thing-Nominal 820 822	镜湖
+T76	Thing-Nominal 828 830	水面
+T77	Thing-Nominal 833 837	水中的鱼
+R11	Located Arg1:T77 Arg2:T75	
+T78	Person-Pronoun 839 840	你
+T79	Thing-Nominal 849 853	几粒鱼食
+T80	Thing-Pronoun 854 856	它们
+*	Coreference T80 T77
+T81	Person-Pronoun 885 886	你
+T82	Person-Nominal 889 890	人
+T83	Thing-Nominal 890 891	鱼
+T84	Person-Nominal 901 902	人
+T85	Thing-Nominal 911 913	禅鱼
+T86	Thing-Nominal 944 947	有一条
+R12	Part-Whole Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 960 966	龟龄的老寿星
+*	Coreference T87 T86
+T88	Person-Pronoun 986 987	你
+T89	Thing-Nominal 1008 1015	延绵不断的群山
+T90	Location-Name 1035 1038	卧螭岛
+T91	Location-Name 1039 1042	千佛山
+T92	Person-Name 1051 1056	龙的儿子螭
+T93	Person-Nominal 1072 1074	百姓
+T94	Location-Nominal 1091 1096	古炭窑遗址
+T95	Thing-Nominal 1102 1116	一段称之为“岩壁节理”的石壁
+R13	Located Arg1:T95 Arg2:T94	
+T96	Location-Name 1144 1147	红石滩
+T97	Thing-Nominal 1148 1150	溪石
+T98	Thing-Nominal 1158 1162	两边山峰
+T99	Thing-Nominal 1182 1183	山
+T100	Thing-Nominal 1297 1301	三个亭子
+T101	Location-Nominal 1293 1295	景区
+R14	Located Arg1:T100 Arg2:T101	
+T102	Thing-Nominal 1305 1308	怡心亭
+R15	Part-Whole Arg1:T102 Arg2:T100	
+T103	Thing-Nominal 1312 1315	醉心亭
+R16	Part-Whole Arg1:T103 Arg2:T100	
+T104	Thing-Nominal 1319 1322	悟心亭
+R17	Part-Whole Arg1:T104 Arg2:T100	
+T105	Person-Pronoun 1348 1349	你
+T106	Location-Nominal 1352 1353;1354 1359	千 佛山的仙境
+T107	Person-Nominal 1374 1375	人
+T108	Thing-Nominal 1398 1401	大肚皮
+T109	Thing-Nominal 1403 1412	悟心亭中的一幅禅联
+T110	Person-Pronoun 1415 1416	我
+T111	Person-Nominal 1423 1424	佛
+T112	Person-Nominal 1427 1429	众生
+T113	Person-Nominal 1466 1467	人
+T114	Thing-Nominal 1468 1469	物
+T115	Thing-Nominal 1491 1500	一座有惊无险的吊桥
+T116	Location-Nominal 1504 1510	流湍急的峡谷
+R18	Located Arg1:T115 Arg2:T116	
+T117	Thing-Nominal 1524 1525	桥
+*	Coreference T117 T115
+T118	Thing-Nominal 1532 1535	白龙潭
+T119	Location-Name 1536 1541	千佛山景区
+T120	Thing-Nominal 1550 1551	泉
+T121	Thing-Nominal 1546 1549	山之涧
+*	Coreference T121 T120
+T122	Thing-Nominal 1552 1555	山之根
+T123	Thing-Nominal 1558 1561	山之崖
+T124	Thing-Nominal 1562 1563	瀑
+T125	Thing-Nominal 1556 1557	潭
+*	Coreference T122 T125
+*	Coreference T123 T124
+T126	Thing-Nominal 1564 1566	瀑布
+T127	Thing-Nominal 1578 1580	瀑布
+T128	Thing-Nominal 1602 1612	景区中最深的一个小潭
+T129	Thing-Nominal 1640 1645	“白龙潭”
+*	Coreference T129 T128
+T130	Thing-Nominal 1630 1632	白龙
+T131	Thing-Nominal 1616 1619	五层楼
+T132	Thing-Nominal 1481 1483	青纱
+T133	Thing-Nominal 1650 1652	万马
+T134	Thing-Nominal 1648 1653;1654 1658	犹如万马奔 腾的瀑布
+T135	Person-Pronoun 1659 1660	我
+T136	Thing-Nominal 1691 1693	瀑布
+T137	Location-Name 1705 1708	观音指
+T138	Thing-Nominal 1709 1711	岩壁
+T139	Thing-Nominal 1712 1718	一凹进的地方
+T140	Thing-Nominal 1720 1727	一个清晰地指印
+T141	Person-Nominal 1732 1736	观音菩萨
+T142	Location-Name 1739 1742	千佛山
+T143	Thing-Nominal 1748 1749;1750 1756	清 澈无尘的溪水
+T144	Thing-Nominal 1764 1765	水
+T145	Person-Nominal 1771 1774	猪八戒
+T146	Thing-Nominal 1787 1791	一只苍蝇
+T147	Thing-Nominal 1794 1796	岩壁
+R19	Located Arg1:T146 Arg2:T147	
+R20	Social Arg1:T141 Arg2:T145	
+T148	Person-Nominal 1804 1806	观音
+T149	Thing-Nominal 1818 1819	手
+T150	Thing-Nominal 1822 1824	苍蝇
+R21	Part-Whole Arg1:T149 Arg2:T148	
+T151	Person-Nominal 1825 1827	八戒
+T152	Thing-Nominal 1839 1842	大脚印
+T153	Person-Nominal 1846 1848	八戒
+T154	Person-Nominal 1858 1859	佛
+T155	Person-Pronoun 1863 1865	我们
+T156	Person-Pronoun 1930 1931	你
+T157	Thing-Nominal 1934 1939	未来寺山门
+T158	Person-Nominal 2730 2734	芸芸众生
+T159	Time-Explicit 2490 2499	元月十八日那天早上
+T160	Person-Nominal 2515 2517	司仪
+T161	Person-Nominal 2526 2530	护法弟子
+T162	Person-Nominal 2531 2534	大法师
+T163	Thing-Nominal 2538 2541	黄龙伞
+R22	Use Arg1:T161 Arg2:T163	
+T164	Thing-Nominal 2550 2553	这场雨
+T165	Thing-Nominal 2556 2558	法雨
+T166	Thing-Nominal 2575 2577	大雨
+T167	Thing-Nominal 2580 2582	乌云
+T168	Thing-Nominal 2585 2587	阳光
+T169	Location-Name 2590 2593	延恩殿
+T170	Person-Nominal 2596 2599	弥勒佛
+T172	Person-Pronoun 2645 2647	我们
+T173	Person-Nominal 2654 2656	大伙
+T174	Location-Name 2664 2667	延恩寺
+T175	Person-Nominal 2675 2676	佛
+T177	Person-Pronoun 2687 2689	我们
+T171	Thing-Nominal 2610 2614	弥勒大佛
+T178	Thing-Nominal 2707 2709	大佛
+T176	Thing-Nominal 2678 2682	弥勒大佛
+*	Coreference T178 T176
+R23	Located Arg1:T176 Arg2:T174	
+T179	Location-Nominal 2106 2110	弥勒大道
+T180	Thing-Nominal 2111 2119	古色古香的得福楼
+T181	Person-Pronoun 2121 2122	你
+T182	Person-Nominal 2126 2138	一位到过千佛山多次的文友
+T183	Abstract 2141 2146	“得福楼”
+T184	Person-Nominal 2152 2153	佛
+T185	Person-Nominal 2161 2164;2165 2171	来到千 佛山的有缘人
+T187	Person-Pronoun 2191 2193	我们
+T186	Location-Nominal 2182 2189	清新淡雅的福楼
+T188	Location-Name 2217 2220	千佛山
+T189	Thing-Nominal 2243 2245	溪水
+T190	Thing-Nominal 2246 2247	玉
+T191	Thing-Nominal 2248 2250	松柏
+T192	Thing-Nominal 2251 2252	画
+T193	Person-Pronoun 2253 2254	你
+T194	Thing-Nominal 2302 2308	天然弥勒大佛
+T195	Person-Pronoun 2294 2296	我们
+T196	Metric 2311 2314	三百米
+T197	Thing-Nominal 2316 2324	目前世界第一大佛
+*	Coreference T197 T194
+T198	Thing-Nominal 2325 2326	山
+T199	Thing-Nominal 2327 2330	一尊佛
+T200	Thing-Nominal 2331 2332	佛
+T201	Thing-Nominal 2333 2336	一座山
+T202	Thing-Nominal 2337 2341	整座佛山
+T203	Thing-Nominal 2341 2343	怪石
+T204	Thing-Nominal 2352 2354	雾气
+T205	Thing-Nominal 2414 2420	天然弥勒大佛
+T206	Thing-Nominal 2426 2429	延安殿
+T207	Person-Nominal 2455 2460	“如来佛祖
+T208	Person-Nominal 2462 2464	迦叶
+T209	Person-Nominal 2465 2467	阿难
+T210	Thing-Nominal 2473 2475	佛像
+T211	Person-Nominal 2462 2469;2470 2472	迦叶、阿难”二 弟子
+T212	Thing-Nominal 1978 1980	山门
+T213	Thing-Nominal 1990 1995	十八位罗汉
+T214	Location-Nominal 1981 1986	右边的树林
+R24	Located Arg1:T213 Arg2:T214	
+T215	Thing-Nominal 2008 2009	书
+T216	Thing-Nominal 2014 2015	臂
+T217	Location-Nominal 2036 2039	罗汉堂
+T218	Thing-Nominal 2041 2054	一棵珍贵的国家一级保护植物
+T219	Thing-Nominal 2056 2061	南方红豆杉
+*	Coreference T219 T218
+T220	Thing-Nominal 2074 2079	南方红豆杉
+T221	Location-Name 2094 2097	千佛山
+T222	Person-Nominal 1954 1955	佛

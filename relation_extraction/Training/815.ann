@@ -1,0 +1,257 @@
+T1	Organization-Name 9 16	中华人民共和国
+T2	Location-Name 19 24	亚洲的东方
+R1	Part-Whole Arg1:T1 Arg2:T2	
+T3	Organization-Nominal 36 38	国家
+*	Coreference T3 T1
+T4	Person-Nominal 41 45	9亿农民
+T5	Person-Pronoun 46 48	他们
+*	Coreference T5 T4
+T6	Location-Nominal 51 53	高山
+T7	Thing-Nominal 53 55	大川
+T8	Location-Nominal 56 60	宽广平原
+T9	Location-Nominal 63 67	丘陵地带
+T10	Thing-Nominal 84 86	梯田
+T11	Location-Name 91 95	江西婺源
+T12	Location-Name 91 98	江西婺源的田园
+T13	Metric 113 115	千米
+T14	Location-Nominal 116 119	高山上
+T15	Thing-Nominal 120 121;122 123	梯 田
+R2	Located Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 124 125	练
+T17	Thing-Nominal 126 127	带
+T18	Location-Nominal 138 141	梯田下
+T19	Thing-Nominal 142 145	山窝里
+R3	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 151 152	墙
+T21	Thing-Nominal 153 154	瓦
+R4	Located Arg1:T20 Arg2:T19	
+R5	Located Arg1:T21 Arg2:T19	
+T22	Thing-Nominal 160 162	梯田
+T23	Location-Name 177 182;183 189	云南元阳县 的哀牢山南部
+T24	Thing-Nominal 192 194	梯田
+T25	Person-Nominal 195 198	哈尼人
+R6	Create Arg1:T25 Arg2:T24	
+R7	Located Arg1:T24 Arg2:T23	
+T26	Location-Name 206 208	无阳
+T27	Location-Name 209 211	绿春
+T28	Location-Name 212 214	金平
+T29	Location-Name 218 223	元阳县境内
+T30	Metric 225 229	17万亩
+T31	Thing-Nominal 230 234	野木棉花
+T32	Thing-Nominal 235 238	野桃花
+T33	Location-Nominal 239 240	山
+T34	Location-Nominal 241 242	野
+R8	Located Arg1:T31 Arg2:T33	
+R9	Located Arg1:T31 Arg2:T34	
+R10	Located Arg1:T32 Arg2:T33	
+R11	Located Arg1:T32 Arg2:T34	
+T35	Thing-Nominal 255 262	贵州省加榜梯田
+T36	Time-Implicit 267 269	清晨
+T37	Thing-Nominal 269 271	梯田
+*	Coreference T37 T35
+T38	Thing-Nominal 274 276	云雾
+T39	Thing-Nominal 281 283	薄纱
+R12	Located Arg1:T24 Arg2:T26	
+R13	Located Arg1:T24 Arg2:T27	
+R14	Located Arg1:T24 Arg2:T28	
+R15	Located Arg1:T31 Arg2:T24	
+R16	Located Arg1:T32 Arg2:T24	
+T40	Person-Nominal 322 324	美人
+T41	Thing-Nominal 332 333	目
+T42	Thing-Nominal 335 336	口
+T43	Thing-Nominal 338 340	喉读
+T44	Thing-Nominal 341 342	手
+T45	Thing-Nominal 366 367	心
+T46	Person-Name 399 402	毛泽东
+T47	Person-Name 403 406	周恩来
+T48	Person-Name 407 410	胡锦涛
+T49	Person-Name 411 414	温家宝
+T50	Person-Name 415 416;417 419	习 近平
+T51	Person-Name 420 423	李克强
+T52	Person-Nominal 445 447	美男
+T53	Person-Nominal 448 450	美女
+T54	Person-Pronoun 466 468	他们
+*	Coreference T54 T53 T52
+T55	Person-Pronoun 490 492	习李
+T56	Person-Name 508 511	习近平
+T57	Person-Name 512 515	李克强
+R17	Part-Whole Arg1:T55 Arg2:T56	
+R18	Part-Whole Arg1:T57 Arg2:T55	
+T58	Thing-Nominal 524 526	老虎
+T59	Thing-Nominal 527 529	苍蝇
+T60	Person-Pronoun 533 535	习李
+T61	Time-Explicit 554 562	十年改革粗放时期
+T62	Person-Nominal 568 570	美男
+T63	Person-Nominal 571 573	美女
+T64	Person-Nominal 574 578	千万富翁
+T65	Person-Nominal 579 583	亿万富翁
+T66	Person-Nominal 585 591	中国的暴发户
+T67	Person-Pronoun 592 594	他们
+*	Coreference T62 T67 T63 T64 T65
+T68	Time-Explicit 596 599;600 605	十年改 革粗放时代
+T69	Organization-Nominal 631 633	银行
+T70	Thing-Nominal 687 689	白猫
+T71	Thing-Nominal 690 692	黑猫
+T72	Person-Nominal 734 738	千万富翁
+T73	Person-Nominal 739 743	亿万富翁
+T74	Person-Pronoun 744 746	他们
+*	Coreference T73 T74 T72
+T75	Person-Nominal 750 755	“劳动英雄
+T76	Person-Nominal 757 761	劳动模范
+T77	Thing-Nominal 765 767	花环
+T78	Person-Pronoun 774 776	他们
+T79	Person-Pronoun 789 791	他们
+T80	Person-Nominal 804 806	富豪
+T81	Person-Nominal 811 813	人们
+T82	Thing-Nominal 815 816	喉
+T83	Thing-Nominal 784 785	手
+T84	Thing-Nominal 768 769	目
+T85	Person-Nominal 824 826	富豪
+*	Coreference T79 T80
+T86	Person-Pronoun 832 833	我
+R19	Social Arg1:T81 Arg2:T85	
+T87	Person-Pronoun 834 836	他们
+T88	Thing-Nominal 839 840	心
+R20	Social Arg1:T86 Arg2:T87	
+T89	Person-Pronoun 852 853	我
+T90	Person-Nominal 857 859	农民
+T91	Location-Nominal 872 874	村庄
+T92	Thing-Nominal 879 881	山川
+T93	Thing-Nominal 889 893	奇花异草
+T94	Location-Nominal 894 895	山
+T95	Location-Nominal 896 897	野
+R21	Located Arg1:T93 Arg2:T94	
+R22	Located Arg1:T93 Arg2:T95	
+T96	Thing-Nominal 898 900	苍松
+T97	Thing-Nominal 900 902	翠柏
+T98	Thing-Nominal 902 904	竹木
+T99	Thing-Nominal 908 911	杜鹃花
+T100	Location-Nominal 912 913	山
+T101	Location-Nominal 914 915	野
+R23	Located Arg1:T99 Arg2:T100	
+R24	Located Arg1:T99 Arg2:T101	
+T102	Location-Nominal 916 919	万花丛
+T103	Thing-Nominal 921 923	蜜蜂
+R25	Located Arg1:T103 Arg2:T102	
+T104	Thing-Nominal 926 928	蝴蝶
+R26	Located Arg1:T104 Arg2:T102	
+T105	Thing-Nominal 929 930	翅
+R27	Part-Whole Arg1:T105 Arg2:T104	
+T106	Time-Implicit 935 939	童年时代
+T107	Person-Pronoun 940 941	我
+T108	Person-Nominal 942 944	祖母
+R28	Family Arg1:T107 Arg2:T108	
+T109	Person-Pronoun 947 948	我
+T110	Thing-Nominal 953 955	月亮
+T111	Thing-Nominal 958 960	隔墙
+T112	Person-Nominal 963 965	爹爹
+T113	Person-Nominal 968 969	娘
+T114	Person-Nominal 972 974	亲娘
+T115	Person-Nominal 980 982	义娘
+T116	Thing-Nominal 984 985	肠
+T117	Person-Nominal 986 988	义娘
+T118	Thing-Nominal 989 990	肉
+T119	Person-Nominal 994 996	亲娘
+T120	Thing-Nominal 997 998	肉
+T121	Thing-Nominal 999 1001	木梳
+T122	Person-Nominal 1005 1007	祖母
+T123	Person-Pronoun 1010 1011	我
+T124	Person-Name 1017 1020	梁山伯
+T125	Person-Name 1021 1024	祝英台
+T126	Person-Name 1025 1026;1027 1028	许 仙
+T127	Person-Name 1029 1031	白蛇
+T128	Person-Name 1032 1035	孟姜女
+T129	Person-Name 1036 1039	万喜良
+R29	Family Arg1:T128 Arg2:T129	
+T130	Person-Nominal 1041 1045	王母娘娘
+T131	Person-Pronoun 1046 1048	他们
+T132	Person-Nominal 1055 1057	夫妻
+*	Coreference T131 T129 T128 T127 T126 T124 T125
+T133	Person-Nominal 1065 1067	长辈
+T134	Person-Nominal 1078 1080	祖母
+T135	Person-Nominal 1081 1083	妈妈
+T136	Person-Nominal 1084 1086	爸爸
+R30	Family Arg1:T134 Arg2:T135	
+R31	Family Arg1:T134 Arg2:T136	
+R32	Family Arg1:T135 Arg2:T136	
+R33	General-Special Arg1:T133 Arg2:T134	
+R34	General-Special Arg1:T133 Arg2:T135	
+R35	General-Special Arg1:T133 Arg2:T136	
+T137	Thing-Nominal 1097 1098	棉
+T138	Person-Nominal 1099 1103	村庄儿女
+T139	Person-Nominal 1107 1109	童孙
+T140	Thing-Nominal 1117 1118	树
+T141	Location-Nominal 1121 1122	田
+T142	Location-Nominal 1132 1133	村
+T143	Thing-Nominal 1138 1139	烟
+T144	Thing-Nominal 1140 1141	狗
+T145	Location-Nominal 1143 1144	巷
+R36	Located Arg1:T144 Arg2:T145	
+T146	Thing-Nominal 1146 1147	鸡
+T147	Thing-Nominal 1149 1151	杉树
+T148	Location-Nominal 1166 1168	特区
+T149	Thing-Nominal 1174 1176	电视
+T150	Location-Nominal 1185 1187	家乡
+T151	Thing-Nominal 1188 1190	梯田
+T152	Person-Nominal 1193 1197	劳动农民
+T153	Location-Nominal 1202 1205	空心村
+T154	Person-Nominal 1213 1216	青壮年
+T155	Person-Nominal 1228 1230	自己
+*	Coreference T154 T155
+T156	Location-Nominal 1234 1236	乡村
+T157	Location-Nominal 1246 1248	城镇
+T158	Metric 1257 1260	五千年
+T159	Thing-Nominal 1266 1270	农村梯田
+T160	Location-Nominal 1210 1211	村
+T161	Organization-Pronoun 1255 1257	我国
+T162	Location-Nominal 1274 1276	城市
+T163	Location-Nominal 1282 1284	城市
+T164	Location-Nominal 1301 1303	西方
+T165	Organization-Name 1307 1309	英国
+T166	Thing-Nominal 1312 1313	羊
+T167	Person-Nominal 1327 1329	农民
+T168	Thing-Nominal 1333 1335	皮鞭
+T169	Location-Nominal 1341 1343	城市
+T170	Person-Nominal 1344 1346	工人
+T171	Location-Nominal 1367 1369	西方
+T172	Thing-Nominal 1381 1387	我们东方梯田
+T173	Location-Nominal 1395 1400	亚细亚乡村
+T174	Metric 1421 1424	五千年
+T175	Organization-Name 1427 1429	中国
+T176	Time-Implicit 1429 1431	过去
+T177	Location-Name 1462 1466	乡土中国
+T178	Location-Name 1467 1471	乡土中国
+T179	Location-Nominal 1483 1484	城
+T180	Location-Nominal 1485 1486	村
+R37	Part-Whole Arg1:T180 Arg2:T179	
+T181	Person-Pronoun 1492 1494	我们
+T182	Location-Nominal 1535 1537	乡村
+T183	Person-Nominal 1543 1551	中国图书馆的作者
+T184	Person-Nominal 1565 1571	古代中国作者
+T185	Person-Nominal 1574 1575;1576 1584	神 州梯田美“杰作家
+T186	Person-Nominal 1585 1587	作者
+R38	General-Special Arg1:T186 Arg2:T184	
+R39	General-Special Arg1:T185 Arg2:T184	
+T187	Location-Nominal 1595 1597	乡村
+T188	Person-Nominal 1598 1603	今日的作者
+T189	Time-Implicit 1598 1600	今日
+T190	Time-Implicit 1565 1567	古代
+T191	Organization-Name 1543 1548	中国图书馆
+R40	Ownership Arg1:T183 Arg2:T191	
+T192	Location-Nominal 1617 1619	乡村
+T193	Person-Name 1623 1626	毛主席
+T194	Person-Name 1627 1630	周总理
+T195	Person-Nominal 1646 1648	农民
+T196	Thing-Nominal 1669 1672	大锅饭
+T197	Person-Name 1677 1680	毛主席
+T198	Person-Name 1709 1713	鲁迅先生
+T199	Location-Nominal 1731 1733	地上
+T200	Thing-Nominal 1736 1737	路
+R41	Located Arg1:T200 Arg2:T199	
+T201	Person-Nominal 1738 1741	走的人
+T202	Thing-Nominal 1748 1749	路
+T203	Thing-Nominal 1752 1756	神州梯田
+T204	Person-Nominal 1775 1779	劳动人民
+T205	Organization-Name 1847 1851	中华民族
+T206	Person-Pronoun 1864 1865	我
+T207	Thing-Nominal 1852 1855	脊梁骨

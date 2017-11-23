@@ -1,0 +1,512 @@
+T1	Thing-Nominal 0 4	我的家园
+T2	Location-Name 5 17	长江三峡南岸、武陵山腹地
+T3	Person-Pronoun 0 1	我
+R1	Located Arg1:T1 Arg2:T2	
+R2	Ownership Arg1:T3 Arg2:T1	
+T4	Thing-Nominal 19 31	一个被山水勾勒出网状图案
+T5	Thing-Nominal 33 35	花草
+T6	Thing-Nominal 38 42	水墨画幅
+T7	Thing-Nominal 43 47	美丽地方
+T8	Person-Nominal 52 54	人人
+T9	Location-Nominal 63 67	人间天堂
+T10	Thing-Pronoun 68 69	她
+T11	Thing-Pronoun 84 85	她
+T12	Thing-Nominal 85 89	西部凉城
+T13	Thing-Pronoun 93 94	她
+T14	Thing-Nominal 94 98	武陵明珠
+T15	Thing-Pronoun 103 104	她
+T16	Thing-Nominal 104 113	鄂西林海、天然氧吧
+T17	Person-Nominal 116 117	人
+T18	Thing-Pronoun 118 119	她
+T19	Person-Nominal 120 121	人
+T20	Thing-Nominal 125 129	富硒姑娘
+*	Coreference T10 T1
+T21	Location-Nominal 132 137	我的家园里
+T22	Person-Pronoun 132 133	我
+T23	Thing-Nominal 138 147	无数绵延逶迤的大山
+R3	Located Arg1:T23 Arg2:T21	
+T24	Thing-Pronoun 151 152	她
+T25	Thing-Nominal 152 166	遮风挡雨、平安哺育的天然屏障
+T26	Thing-Pronoun 173 174	她
+T27	Thing-Nominal 174 182	宽大而秀美的骨架
+T28	Thing-Nominal 184 186	家园
+T29	Thing-Nominal 205 207	家园
+T30	Thing-Nominal 225 227	家园
+T31	Thing-Nominal 227 234	这颗璀璨的明珠
+T32	Location-Name 235 245	武陵山区、在中华大地
+R4	Located Arg1:T30 Arg2:T32	
+T33	Thing-Nominal 255 258	七耀山
+T34	Location-Nominal 261 266	家园的西边
+R5	Located Arg1:T33 Arg2:T34	
+T35	Person-Nominal 270 279	一位柔美的土家女子
+T36	Thing-Nominal 290 292	长江
+T37	Thing-Nominal 306 308	长江
+T38	Thing-Nominal 319 326	峻拔险危的三峡
+T39	Thing-Nominal 327 335	袖珍哀怨的白帝城
+T40	Thing-Nominal 338 342	万里长江
+T41	Thing-Nominal 365 368	七曜山
+T42	Person-Nominal 371 376;377 381	一名温婉如 花的少妇
+T43	Thing-Pronoun 405 406	他
+*	Coreference T43 T40
+T44	Thing-Nominal 418 422	千里江陵
+T45	Metric 418 420	千里
+T46	Location-Nominal 425 428	;两岸
+T47	Thing-Nominal 434 436	轻舟
+T48	Thing-Nominal 439 442	万重山
+T49	Person-Pronoun 453 454	他
+T50	Thing-Nominal 455 459	山桃红花
+T51	Thing-Nominal 463 467	蜀江春水
+T52	Thing-Nominal 471 472	花
+T53	Thing-Nominal 478 479	水
+T54	Person-Nominal 492 498;499 500	痴情的土家女 子
+T55	Person-Pronoun 502 503	你
+*	Coreference T55 T54
+T56	Thing-Nominal 514 518	几捆青柴
+T57	Thing-Nominal 519 523	铜壶热酒
+T58	Thing-Nominal 527 531	油煎豆腐
+T59	Thing-Nominal 532 534	青苔
+T60	Thing-Nominal 537 539	长江
+T61	Thing-Pronoun 542 543	你
+*	Coreference T61 T60
+T62	Thing-Nominal 552 554	大山
+T63	Thing-Nominal 562 564	大海
+T64	Thing-Nominal 567 573	环球的太平洋
+T65	Location-Nominal 583 588	家园的北边
+T66	Thing-Nominal 589 593	寒池大山
+R6	Located Arg1:T66 Arg2:T65	
+T67	Thing-Nominal 602 604	冰雪
+T68	Thing-Nominal 607 609	溪水
+T69	Metric 619 624	2041米
+T70	Thing-Nominal 626 628	家园
+T71	Thing-Nominal 630 632	月亮
+T72	Person-Nominal 646 649	七仙女
+T73	Location-Nominal 650 657	天上的广寒宫下
+T74	Person-Name 660 662	董永
+T75	Thing-Nominal 667 674	高高的寒池山峰
+T76	Thing-Nominal 678 680	三峡
+T77	Thing-Nominal 682 684	长江
+T78	Thing-Nominal 692 696	茅草棚子
+T79	Location-Nominal 701 704;705 706	寒池雪 原
+T80	Thing-Nominal 708 710	冰柱
+T81	Thing-Nominal 713 715	寒星
+T82	Person-Pronoun 721 722	你
+T83	Person-Name 729 731	吴刚
+T84	Thing-Nominal 733 736	桂花酒
+T85	Person-Name 739 741	嫦娥
+T86	Thing-Nominal 742 744	广袖
+T87	Time-Implicit 752 762	细雨、浓雾裹拥的时节
+T88	Person-Pronoun 763 764	你
+T89	Thing-Nominal 772 774	明月
+T90	Thing-Nominal 779 780	酒
+T91	Thing-Nominal 781 783	青天
+T92	Location-Nominal 786 788	天上
+T93	Thing-Nominal 788 790	宫阙
+R7	Located Arg1:T93 Arg2:T92	
+T94	Person-Pronoun 803 804	你
+T95	Thing-Nominal 808 810	白雪
+T96	Thing-Nominal 813 815	大地
+T97	Thing-Nominal 823 826	滑雪板
+T98	Person-Nominal 834 838	天兵天将
+T99	Person-Nominal 840 841	妖
+T100	Person-Nominal 842 843	魔
+T101	Thing-Nominal 847 849	狗橇
+T102	Person-Nominal 864 868	那个姐儿
+T103	Thing-Nominal 869 871	衣服
+T104	Thing-Nominal 898 899	衣
+T105	Person-Pronoun 960 961	你
+T106	Person-Nominal 963 972	一个赤条条的无私人
+T107	Person-Nominal 973 983	一个无欲无念的高洁人
+T108	Location-Nominal 1008 1013	家园的东边
+T109	Thing-Nominal 1016 1018	黄鹤
+T110	Thing-Nominal 1025 1027	猿猱
+T111	Thing-Nominal 1034 1037	石板岭
+R8	Located Arg1:T111 Arg2:T108	
+T112	Thing-Nominal 1038 1042	一道卡门
+T113	Location-Nominal 1045 1054	云岭之间、荆棘之中
+R9	Located Arg1:T112 Arg2:T113	
+T114	Thing-Nominal 1057 1061	一把铜锁
+T115	Location-Nominal 1073 1075	隘口
+T116	Time-Explicit 1076 1082	抗日战争时期
+T117	Person-Nominal 1083 1087	日本鬼子
+T118	Location-Name 1089 1091	宜昌
+T119	Thing-Nominal 1099 1102	野山关
+T120	Thing-Nominal 1121 1124	石板岭
+T121	Person-Nominal 1145 1149	刘邓大军
+T122	Time-Explicit 1133 1139	解放战争时期
+T123	Metric 1142 1144	千里
+T124	Location-Nominal 1158 1163	车坝溪沟里
+T125	Organization-Nominal 1167 1170	小分队
+T126	Thing-Nominal 1172 1174	林木
+T127	Location-Nominal 1177 1181	卡门后面
+T128	Thing-Nominal 1197 1199	铜关
+T129	Thing-Nominal 1200 1206	清初的白莲教
+T130	Thing-Nominal 1211 1214	石板岭
+T131	Metric 1220 1224	几百公里
+T132	Thing-Nominal 1225 1229	长江三峡
+T133	Thing-Nominal 1231 1235	我的家园
+T134	Location-Nominal 1238 1240	县城
+T135	Person-Nominal 1248 1250	官僚
+T136	Thing-Nominal 1257 1260	石板岭
+T137	Location-Nominal 1267 1272	家园的南边
+T138	Thing-Nominal 1288 1291	星斗山
+R10	Located Arg1:T138 Arg2:T137	
+T139	Metric 1296 1301	1751米
+T140	Location-Name 1304 1315	利川、恩施、咸丰三县市
+T141	Thing-Nominal 1316 1323	无数清澈的溪水
+T142	Location-Nominal 1324 1326	山麓
+T143	Thing-Nominal 1332 1342	一绺绺薄如羽扇的水雾
+T144	Thing-Nominal 1343 1345	峡谷
+T145	Thing-Nominal 1358 1363	维管束植物
+T146	Metric 1363 1368	1019种
+T147	Thing-Nominal 1371 1377	古老珍稀植物
+T148	Metric 1377 1381	40余种
+T149	Thing-Nominal 1396 1398	珙桐
+T150	Thing-Nominal 1402 1406	硕大花朵
+T151	Thing-Nominal 1408 1413	洁白的鸽子
+T152	Thing-Nominal 1431 1435	青山绿水
+T153	Person-Nominal 1446 1449	故乡人
+T154	Thing-Nominal 1451 1453	珙桐
+T155	Thing-Nominal 1455 1458	鸽子树
+T156	Thing-Nominal 1468 1474	我美丽的家园
+T157	Person-Pronoun 1468 1469	我
+T158	Location-Nominal 1478 1480	四周
+T159	Thing-Nominal 1481 1487	高大的山脉墙
+R11	Located Arg1:T159 Arg2:T158	
+T160	Thing-Nominal 1491 1505	一个坚固而且封闭式的巨型铜盆
+T161	Metric 1512 1517	1070米
+T162	Thing-Nominal 1506 1508	盆底
+T163	Thing-Nominal 1518 1520	寒流
+T164	Thing-Nominal 1524 1526	热浪
+T165	Thing-Nominal 1564 1571	千座小巧的山包
+T166	Person-Nominal 1572 1579	朴实的百万子民
+T167	Location-Nominal 1580 1583	巨盆里
+T168	Thing-Nominal 1584 1589	千座小山包
+R12	Located Arg1:T168 Arg2:T167	
+T169	Thing-Nominal 1594 1599	煮熟的汤圆
+T170	Thing-Nominal 1616 1618	馒头
+T171	Location-Nominal 1621 1623	锅底
+R13	Located Arg1:T170 Arg2:T171	
+T172	Thing-Nominal 1632 1637	少女的丰乳
+T173	Person-Nominal 1652 1654	孕妇
+T174	Person-Name 1674 1676	罗汉
+T175	Thing-Nominal 1690 1695	咆哮的雄狮
+T176	Thing-Nominal 1713 1715	骏马
+T177	Thing-Nominal 1717 1718	蹄
+T178	Thing-Nominal 1730 1735	爬行的乌龟
+T179	Thing-Nominal 1736 1741	哞叫的犀牛
+T180	Thing-Nominal 1742 1747	寻草的白兔
+T181	Thing-Nominal 1748 1753	刺天的宝剑
+T182	Person-Nominal 1754 1759	揽月的童子
+T183	Person-Nominal 1760 1765	拾柴的老翁
+T184	Thing-Nominal 1767 1772;1773 1774	家园的小山 包
+T185	Person-Nominal 1803 1804	人
+T186	Location-Nominal 1820 1825	我的家园里
+T187	Thing-Nominal 1826 1836	一条条潺潺流淌的江河
+R14	Located Arg1:T187 Arg2:T186	
+T188	Person-Pronoun 1820 1821	我
+T189	Person-Nominal 1838 1841	土家人
+T190	Thing-Nominal 1849 1851	血脉
+T191	Thing-Nominal 1856 1858	江河
+T192	Thing-Nominal 1863 1865	家园
+T193	Thing-Nominal 1886 1888	血脉
+T194	Person-Nominal 1892 1894	先祖
+T195	Thing-Nominal 1897 1914	清江、郁江、唐崖河、磨刀溪、梅子水
+T196	Thing-Nominal 1918 1920	家园
+T197	Person-Nominal 1930 1935	百万故乡人
+T198	Thing-Nominal 1936 1939	母亲河
+T199	Person-Nominal 1942 1945	故乡人
+T200	Time-Explicit 1958 1962	远古时期
+T201	Person-Nominal 1963 1965	先祖
+T202	Thing-Nominal 1969 1976	透明的清澈之江
+T203	Person-Name 1965 1967	廪君
+T204	Thing-Nominal 1979 1981	土船
+T205	Person-Name 1998 2001;2002 2003	先祖廪 君
+T206	Person-Nominal 2015 2016	人
+T207	Person-Nominal 2017 2021	盐阳女神
+T208	Person-Pronoun 2022 2023	他
+*	Coreference T208 T205
+T209	Thing-Nominal 2023 2028	硕长的身躯
+T210	Thing-Nominal 2029 2034	刚毅的脸庞
+T211	Thing-Nominal 2035 2037	肌肉
+T212	Thing-Nominal 2040 2042	双臂
+T213	Person-Nominal 2046 2055	娇美欲滴的盐阳女神
+T214	Person-Nominal 2071 2075	盐阳女神
+T215	Person-Nominal 2077 2079	先祖
+T216	Thing-Nominal 2080 2084	梭草衣衫
+T217	Location-Name 2102 2106	盐阳部落
+T218	Location-Nominal 2109 2112	部落里
+T219	Person-Nominal 2112 2117	所有的女人
+T220	Person-Name 2125 2131	我的廪君先祖
+T221	Thing-Nominal 2147 2149	家园
+T222	Person-Pronoun 2152 2154	自己
+T223	Person-Nominal 2158 2162	盐阳女神
+T224	Thing-Nominal 2166 2171	薄薄的云衫
+T225	Thing-Nominal 2175 2182	一只巨大的飞虫
+T226	Person-Nominal 2185 2190	所有的姐妹
+T227	Thing-Nominal 2194 2196	太阳
+T228	Metric 2196 2199	十余日
+T229	Thing-Nominal 2205 2207	五指
+T230	Thing-Nominal 2210 2212	土船
+T231	Location-Nominal 2217 2220	清江里
+T232	Person-Name 2235 2239	先祖廪君
+T233	Person-Nominal 2253 2257	盐阳女神
+T234	Thing-Nominal 2266 2270	山河土地
+T235	Thing-Nominal 2259 2261	太阳
+T236	Person-Pronoun 2274 2275	他
+T237	Thing-Nominal 2275 2277	土船
+T238	Thing-Nominal 2280 2284	清江航道
+T239	Person-Pronoun 2286 2287	我
+T240	Person-Name 2293 2297	廪君先祖
+T241	Person-Pronoun 2299 2300	您
+*	Coreference T241 T240
+T242	Person-Nominal 2333 2337	您的子民
+T243	Person-Pronoun 2333 2334	您
+T244	Location-Nominal 2341 2347	开拓的疆域上
+T245	Person-Pronoun 2338 2339	您
+T246	Person-Pronoun 2349 2350	您
+T247	Thing-Nominal 2350 2352	土船
+T248	Location-Nominal 2355 2358	水域上
+R15	Located Arg1:T247 Arg2:T248	
+T249	Location-Nominal 2360 2367;2368 2369	家园的五大水系 上
+T250	Thing-Nominal 2373 2381	十数座水力发电站
+R16	Located Arg1:T250 Arg2:T249	
+T251	Metric 2386 2390	3亿千瓦
+T252	Thing-Nominal 2402 2407	荒凉的土地
+T253	Thing-Nominal 2410 2421	富丽的城市和艳丽的村庄
+T254	Thing-Nominal 2425 2428;2429 2445	一条国 道五条省道两条高速公路和两条铁路
+T255	Thing-Nominal 2447 2449	家园
+T256	Location-Nominal 2450 2452	山外
+T257	Thing-Nominal 2456 2458	家园
+T258	Thing-Nominal 2459 2461	祖国
+T259	Thing-Nominal 2465 2467	家园
+T260	Location-Nominal 2475 2480	我的家园里
+T261	Thing-Nominal 2481 2491	一处处茂盛的花草树木
+R17	Located Arg1:T261 Arg2:T260	
+T262	Person-Nominal 2493 2497	土家姑娘
+T263	Thing-Nominal 2502 2506	西南卡普
+T264	Person-Nominal 2508 2512	土家姑娘
+T265	Thing-Nominal 2540 2542	森林
+T266	Thing-Nominal 2543 2545	地球
+T267	Thing-Nominal 2557 2559	花草
+T268	Person-Pronoun 2570 2571	她
+*	Coreference T268 T264
+T269	Thing-Nominal 2583 2585	家园
+T270	Thing-Nominal 2602 2606	我的家园
+T271	Thing-Nominal 2611 2619	最美丽的家园之一
+T272	Location-Nominal 2608 2611	世界上
+T273	Person-Name 2620 2624	先祖廪君
+T274	Thing-Nominal 2627 2631	这片土地
+T275	Metric 2637 2640	30度
+T276	Metric 2648 2652	109度
+T277	Person-Nominal 2661 2663	人类
+T278	Thing-Nominal 2664 2667	动植物
+T279	Thing-Nominal 2670 2674	佛光宝地
+T280	Thing-Nominal 2677 2682	这样的地带
+T281	Thing-Nominal 2683 2685	土地
+T282	Thing-Nominal 2693 2695	雨水
+T283	Thing-Nominal 2708 2710	森林
+T284	Thing-Nominal 2703 2705	物种
+T285	Thing-Nominal 2726 2744	珙桐、水杉、秃杉、黄杉等国家珍稀树种
+T286	Thing-Nominal 2747 2775	黄连、天麻、头顶一颗珠、七叶一枝花、江边一碗水等珍贵药物
+T287	Thing-Nominal 2780 2799	野猪、野羊、野牛、麂子、豹子等陆地动物
+T288	Thing-Nominal 2802 2821	锦鸡、野鸡、崖鹰、乌鸦、麻雀等天上飞禽
+T289	Thing-Nominal 2825 2839;2840 2851	茶叶、烤烟、山药、坝漆、桐油 、莼菜等独特的经济作物
+T290	Thing-Nominal 2854 2877	洋芋、包谷、大米、小麦、黄豆等丰富的粮食作物;
+T291	Thing-Nominal 2880 2900;2901 2904	煤炭、卤水、硫磺、铁矿、硒矿、天然气等地 下物产
+T292	Thing-Nominal 2907 2931	黄角丁、巴崖鱼、鲢子鱼、黄鳝鱼、虾子鱼等水中珍奇
+T293	Person-Pronoun 2943 2945	我们
+T294	Person-Nominal 2951 2955	武陵人民
+T295	Location-Pronoun 2972 2974	这里
+T296	Thing-Nominal 2980 2992	“天下第一杉”的谋道水杉
+T297	Thing-Pronoun 2993 2994	她
+*	Coreference T297 T296
+T298	Thing-Nominal 2995 3002	植物界的活化石
+T299	Time-Implicit 3010 3017	6000万年前
+T300	Time-Explicit 3018 3022;3023 3025	第四纪冰 川中
+T301	Person-Nominal 3040 3042	人们
+T302	Time-Explicit 3051 3056	1941年
+T303	Organization-Name 3056 3062	民国中央大学
+T304	Person-Name 3062 3066	教授于铎
+T305	Location-Name 3068 3073	利川谋道镇
+T306	Thing-Nominal 3078 3081	这棵树
+T307	Metric 3082 3083;3084 3087	5 00年
+T308	Metric 3090 3093	35米
+T309	Metric 3096 3100	676米
+T310	Thing-Nominal 3094 3096	树冠
+T311	Thing-Nominal 3088 3089	树
+T312	Thing-Nominal 3101 3104	水杉王
+T313	Thing-Nominal 3120 3123	我家园
+T314	Person-Name 3129 3134	周恩来总理
+T315	Person-Nominal 3135 3141	水山王的后代
+T316	Person-Name 3143 3144;3145 3149	金 日成将军
+T317	Person-Name 3150 3155	邓小平同志
+T318	Person-Nominal 3156 3162	水山王的子孙
+T319	Thing-Nominal 3165 3174	尼泊尔的皇家植物园
+T320	Location-Name 3165 3168	尼泊尔
+R18	Located Arg1:T319 Arg2:T320	
+T321	Person-Name 3175 3180	尼克松总统
+T322	Person-Pronoun 3181 3183	自己
+*	Coreference T322 T321
+T323	Thing-Nominal 3184 3186	游艇
+T324	Location-Nominal 3198 3203	我的家园里
+T325	Thing-Nominal 3204 3211	别致幽深的洞穴
+R19	Located Arg1:T325 Arg2:T324	
+T326	Thing-Pronoun 3213 3214	她
+T327	Thing-Nominal 3224 3230	我美丽的家园
+T328	Person-Pronoun 3224 3225	我
+T329	Thing-Nominal 3233 3238	喀斯特地形
+T330	Thing-Nominal 3249 3251	溶洞
+T331	Thing-Nominal 3266 3268	洞穴
+T332	Location-Nominal 3275 3277	山里
+T333	Thing-Nominal 3279 3281	洞子
+R20	Located Arg1:T333 Arg2:T332	
+T334	Location-Nominal 3284 3286	平地
+T335	Thing-Nominal 3288 3290	天坑
+R21	Located Arg1:T335 Arg2:T334	
+T336	Thing-Nominal 3295 3297	漏斗
+T337	Location-Nominal 3299 3304	我的家园里
+T338	Thing-Nominal 3309 3310	山
+T339	Thing-Nominal 3312 3313	洞
+T340	Thing-Nominal 3315 3316	地
+T341	Thing-Nominal 3319 3320	坑
+T342	Thing-Nominal 3322 3323	涧
+T343	Thing-Nominal 3325 3328	大峡谷
+T344	Person-Nominal 3329 3333	地球学家
+T345	Thing-Nominal 3335 3337	洞穴
+T346	Thing-Nominal 3338 3340	地球
+T347	Thing-Nominal 3343 3345	鼻眼
+T348	Thing-Nominal 3352 3356	黄金通道
+T349	Thing-Nominal 3361 3363	洞穴
+T350	Thing-Nominal 3371 3373	家园
+T351	Person-Nominal 3380 3382	人类
+T352	Thing-Nominal 3392 3394	天坑
+T353	Location-Nominal 3388 3391	家园里
+R22	Located Arg1:T352 Arg2:T353	
+T354	Person-Nominal 3415 3423	土家温柔的小女子
+T355	Person-Nominal 3451 3452	人
+T356	Thing-Nominal 3457 3459	洪水
+T357	Thing-Nominal 3468 3475	天然的排泄通道
+T358	Thing-Nominal 3463 3465	天坑
+T359	Thing-Nominal 3478 3487	穿越时空的生命通道
+T360	Thing-Nominal 3491 3497	家园里的树木
+T361	Location-Nominal 3491 3494	家园里
+R23	Located Arg1:T360 Arg2:T361	
+T362	Thing-Nominal 3537 3539	峡谷
+T363	Location-Nominal 3534 3537	家园里
+R24	Located Arg1:T362 Arg2:T363	
+T364	Thing-Nominal 3544 3559	龙桥峡、观彩峡、毛滩峡、塘口峡
+T365	Thing-Nominal 3524 3526	家园
+T366	Location-Nominal 3513 3516	家园里
+T367	Thing-Nominal 3506 3508	花朵
+T368	Location-Nominal 3503 3506	家园里
+R25	Located Arg1:T367 Arg2:T368	
+T369	Person-Nominal 3613 3616	土家人
+T370	Person-Nominal 3621 3623	先祖
+T371	Thing-Nominal 3606 3608	家园
+T372	Thing-Nominal 3568 3570	瀑布
+T373	Thing-Nominal 3573 3575	竹木
+T374	Thing-Nominal 3578 3580	花草
+T375	Thing-Nominal 3583 3585	猴鸟
+T376	Location-Nominal 3591 3594	家园里
+T377	Thing-Nominal 3600 3602	山洞
+T378	Thing-Pronoun 3604 3605	她
+*	Coreference T378 T377
+R26	Located Arg1:T377 Arg2:T376	
+T379	Location-Nominal 3676 3681	漆黑的洞里
+T380	Person-Nominal 3671 3675	他的子孙
+T381	Thing-Nominal 3666 3669	吊脚楼
+T382	Person-Pronoun 3626 3628	我们
+T383	Person-Name 3632 3634	廪君
+T384	Thing-Nominal 3636 3638	土船
+T385	Thing-Nominal 3643 3645	家园
+T386	Thing-Nominal 3654 3658	天然山洞
+T387	Person-Pronoun 3671 3672	他
+*	Coreference T387 T383
+T388	Location-Nominal 3685 3692	阳光弥漫的洞外
+T389	Location-Nominal 3694 3701	阴暗潮湿的地上
+T390	Location-Nominal 3704 3711	花木掩映的空中
+T391	Location-Nominal 3730 3735	我的家园里
+T392	Thing-Nominal 3737 3745	亚洲第一的腾龙洞
+R27	Located Arg1:T392 Arg2:T391	
+T393	Thing-Nominal 3747 3755	流水潺潺的水帘洞
+R28	Located Arg1:T393 Arg2:T391	
+T394	Thing-Nominal 3756 3764	多彩多姿的朝阳洞
+T395	Thing-Nominal 3765 3773	钟乳悬挂的玉龙洞
+T396	Thing-Nominal 3776 3785	数不胜数的无名山洞
+T397	Thing-Pronoun 3790 3792	它们
+*	Coreference T397 T396
+T398	Person-Nominal 3794 3798	土家先民
+T399	Thing-Nominal 3798 3806;3807 3810	不朽的老屋和旖旎 的洞房
+T400	Location-Nominal 3811 3815	家园附近
+T401	Thing-Nominal 3816 3852	长江大三峡、恩施大峡谷、奉节天坑地缝、云阳第一缸、黔江小南海、大庸张家界
+R29	Located Arg1:T401 Arg2:T400	
+T402	Thing-Nominal 3857 3860	腾龙洞
+T403	Location-Nominal 3853 3856	家园里
+R30	Located Arg1:T402 Arg2:T403	
+T404	Location-Name 3864 3867	武陵山
+T405	Thing-Nominal 3869 3877	最瑰丽的自然奇观
+T406	Thing-Nominal 3879 3890	世界上最美丽的天然画幅
+T407	Thing-Nominal 3891 3894	腾龙洞
+T408	Time-Implicit 3898 3908	猛烈运动中清江改道后
+T409	Thing-Nominal 3911 3917	一个水啄旱洞
+T410	Location-Nominal 3918 3920	洞内
+T411	Metric 3922 3926	125米
+T412	Metric 3930 3934	174米
+T413	Metric 3941 3945	52千米
+T414	Location-Nominal 3958 3960	洞中
+T415	Thing-Nominal 3962 3963	洞
+R31	Located Arg1:T415 Arg2:T414	
+T416	Location-Nominal 3964 3966	洞中
+T417	Thing-Nominal 3968 3969	山
+R32	Located Arg1:T417 Arg2:T416	
+T418	Location-Nominal 3970 3972	山中
+T419	Thing-Nominal 3974 3975	洞
+R33	Located Arg1:T419 Arg2:T418	
+T420	Thing-Nominal 3991 4007	最完美的洞穴博物馆和天然的防空洞
+T421	Time-Implicit 4008 4012	抗战时期
+T422	Thing-Nominal 4018 4021	腾龙洞
+T423	Location-Name 4013 4017	武陵腹地
+R34	Located Arg1:T422 Arg2:T423	
+T424	Thing-Nominal 4030 4037	兵工厂建设基地
+T425	Person-Nominal 4040 4044	日本鬼子
+T426	Location-Name 4045 4049	宜昌石牌
+T427	Thing-Nominal 4082 4088	腾龙洞兵工厂
+T428	Thing-Nominal 4103 4106	腾龙洞
+T429	Thing-Pronoun 4109 4111	自己
+*	Coreference T429 T428
+T430	Person-Nominal 4129 4137	山河破碎的子民们
+T431	Thing-Nominal 4140 4152	最坚固、最安全的避难绿营
+T432	Thing-Nominal 4154 4159	美丽的家园
+T433	Thing-Nominal 4185 4193	大水井古建筑群落
+T434	Thing-Nominal 4195 4201	土家木质建筑
+T435	Thing-Nominal 4210 4213	鱼木寨
+T436	Thing-Nominal 4220 4226	土家石雕建筑
+T437	Thing-Nominal 4235 4240	三元大教堂
+T438	Person-Name 4344 4351	苗家姑娘宋祖英
+T439	Location-Name 4354 4358	武陵山区
+T440	Location-Nominal 4362 4367	遥远的京城
+T441	Location-Name 4371 4383	大洋彼岸维也纳的金色大厅
+T442	Thing-Nominal 4399 4404	土家的山水
+T443	Abstract 4412 4417	《龙船调》
+T444	Thing-Nominal 4418 4423	翠绿的竹叶
+T445	Location-Nominal 4427 4438	青山绿水之间的小木船上
+T446	Person-Nominal 4440 4444	土家姑娘
+T447	Location-Nominal 4444 4452	鲜嫩皮薄的嘴唇上
+T448	Person-Nominal 4456 4460	土家姑娘
+T449	Abstract 4463 4468	《龙船调》
+T450	Person-Nominal 4477 4478	人
+T451	Person-Nominal 4511 4513	妹娃
+T452	Thing-Nominal 4532 4534	阳雀
+T453	Thing-Nominal 4555 4559	我的家园
+T454	Time-Implicit 4298 4303	土家劳动时
+T455	Person-Pronoun 4566 4567	我
+T456	Thing-Nominal 4573 4577	我的家园
+T457	Person-Pronoun 4573 4574	我
+T458	Person-Name 4584 4586	雷雨
+T459	Person-Name 4589 4592	雷耀常
+T460	Person-Nominal 4599 4606	湖北省利川市人
+T461	Abstract 4643 4644;4645 4650	《 今生有约》
+T462	Abstract 4654 4658	《乡长》
+T463	Abstract 4661 4667	《雷氏家源》
+T464	Abstract 4672 4676	《天眼》
+T465	Abstract 4677 4684	《我想有个家》

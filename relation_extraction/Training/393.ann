@@ -1,0 +1,160 @@
+T1	Time-Implicit 0 3	退休了
+T2	Time-Implicit 38 42	学生时代
+T3	Person-Nominal 102 103	儿
+T4	Person-Nominal 104 105	女
+T5	Time-Implicit 110 112	童年
+T6	Time-Implicit 140 142	晚年
+T7	Time-Explicit 149 156	1998年9月
+T8	Person-Pronoun 156 157	我
+T9	Person-Pronoun 171 172	我
+T10	Location-Nominal 174 176	家门
+T11	Location-Name 184 191	宁波老老年大学
+T12	Person-Pronoun 217 218	我
+T13	Time-Implicit 225 228	每学期
+T14	Person-Pronoun 236 237	我
+T15	Person-Nominal 248 252	英语老师
+R1	Social Arg1:T15 Arg2:T14	
+T16	Person-Pronoun 259 260	我
+T17	Thing-Name 262 264	英语
+T18	Thing-Name 273 277	国际音标
+T19	Thing-Nominal 283 290	英汉、汉英辞典
+T20	Thing-Nominal 292 294	新词
+T21	Thing-Nominal 303 311	几句日常生活用语
+T22	Person-Nominal 314 322	居住同小区的老外
+R2	Social Arg1:T22 Arg2:T16	
+T23	Thing-Nominal 325 328	礼貌语
+R3	General-Special Arg1:T21 Arg2:T23	
+T24	Location-Name 334 336	港奥
+T25	Location-Nominal 342 346	侯机厅上
+T26	Thing-Nominal 346 353	某些英语指示牌
+R4	Located Arg1:T26 Arg2:T25	
+T27	Time-Implicit 360 365	英语结业后
+T28	Person-Pronoun 366 367	我
+T29	Thing-Nominal 370 372	电脑
+T30	Person-Nominal 374 376	老师
+R5	Social Arg1:T30 Arg2:T28	
+T31	Person-Pronoun 385 386	我
+T32	Thing-Nominal 398 400	文件
+T33	Thing-Nominal 403 408	E一mai
+T34	Thing-Nominal 412 414	附件
+T35	Thing-Nominal 415 417	qq
+R6	Use Arg1:T31 Arg2:T33	
+T36	Thing-Nominal 427 428	门
+T37	Time-Implicit 426 431	出门旅游前
+T38	Thing-Nominal 448 453	音频、视频
+T39	Person-Nominal 459 464	电脑班学员
+T40	Person-Nominal 474 476	兄妹
+T41	Thing-Nominal 477 481;482 483	神奇的电 脑
+T42	Thing-Nominal 485 492	知识海洋的源泉
+T43	Thing-Nominal 503 505	网络
+T44	Person-Pronoun 506 507	我
+T45	Thing-Nominal 526 528	电脑
+T46	Time-Implicit 524 526	如今
+T47	Thing-Nominal 530 542;543 551	我通信、理财、编辑、打字 、打印的有力助手
+*	Coreference T45 T47
+T48	Person-Nominal 566 570	时尚老人
+R7	Use Arg1:T44 Arg2:T45	
+R8	General-Special Arg1:T48 Arg2:T44	
+T49	Metric 573 575	两年
+T50	Organization-Nominal 576 581	文学写作班
+T51	Organization-Nominal 459 462	电脑班
+T52	Person-Name 588 596	见多识广的董老师
+R9	Social Arg1:T52 Arg2:T44	
+T53	Person-Nominal 604 606	同学
+R10	Social Arg1:T53 Arg2:T44	
+R11	Social Arg1:T39 Arg2:T31	
+T54	Person-Pronoun 613 614	我
+T55	Time-Implicit 631 632;633 634	平 时
+T56	Time-Implicit 647 650	每学期
+T57	Thing-Nominal 650 654	二篇作品
+R12	Create Arg1:T54 Arg2:T57	
+T58	Time-Implicit 667 669	以前
+T59	Person-Pronoun 669 670	我
+T60	Person-Pronoun 688 689	我
+T61	Thing-Nominal 690 693;694 698	豆腐干 似的文章
+R13	Create Arg1:T60 Arg2:T61	
+T62	Time-Explicit 839 846	2012年6月
+T63	Person-Pronoun 846 847	我
+T64	Organization-Name 850 857	宁波市作家协会
+T65	Person-Nominal 860 865	市作协一员
+R14	General-Special Arg1:T65 Arg2:T63	
+T66	Person-Pronoun 879 881	自己
+*	Coreference T66 T63 T91
+T67	Thing-Nominal 918 924	看不完的书报
+T68	Thing-Nominal 928 934	学不完的知识
+T69	Time-Implicit 935 937	每天
+T70	Time-Implicit 950 952	晚年
+T71	Metric 962 964	两年
+T72	Location-Name 968 970	三亚
+T73	Thing-Nominal 968 975	三亚的沙滩阳光
+T74	Location-Name 978 986	百里画廊――漓江
+T75	Location-Name 989 996	厦门的金厦海峡
+T76	Location-Name 999 1008	云南的“玉龙雪山”
+T77	Person-Nominal 1012 1019	东巴谷少数民族
+T78	Thing-Nominal 1027 1033	苏州木渎文化
+T79	Location-Name 1038 1041	雁荡山
+T80	Thing-Nominal 1038 1051	雁荡山一景多变的奇峰怪石;
+R15	Located Arg1:T80 Arg2:T79	
+R16	Located Arg1:T73 Arg2:T72	
+T81	Location-Name 1056 1062	宁波舟山大桥
+T82	Location-Name 1069 1071;1072 1073	天目 山
+T83	Thing-Name 1076 1081	“大树王”
+R17	Located Arg1:T83 Arg2:T82	
+T84	Location-Name 1082 1091	海南的“天涯海角”
+R18	Part-Whole Arg1:T84 Arg2:T72	
+T85	Location-Name 1102 1106	宁波奉化
+T86	Thing-Nominal 1106 1111	千丈岩瀑布
+R19	Located Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 1106 1114	千丈岩瀑布的水珠
+R20	Located Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 1117 1121	流泉幽竹
+T89	Thing-Nominal 1128 1132	青山绿水
+T90	Thing-Nominal 1138 1144	祖国名景古迹
+T91	Person-Pronoun 1146 1148	自己
+T92	Thing-Nominal 1156 1158	相机
+R21	Use Arg1:T91 Arg2:T92	
+T93	Thing-Name 1150 1153	大自然
+T94	Thing-Nominal 1162 1170	天然、人工的美景
+T95	Thing-Nominal 1176 1178	电脑
+T96	Thing-Nominal 1181 1183	附件
+T97	Person-Nominal 1185 1189	亲朋好友
+R22	Social Arg1:T97 Arg2:T91	
+T98	Time-Implicit 1206 1208	晚年
+T99	Person-Nominal 1218 1219	孙
+T100	Person-Nominal 1223 1229	六岁的小孙女
+T101	Time-Implicit 1220 1222	傍晚
+R23	Family Arg1:T100 Arg2:T91	
+T102	Location-Nominal 1231 1234	幼儿园
+T103	Person-Nominal 1241 1243	奶奶
+T104	Person-Nominal 1245 1246	我
+*	Coreference T103 T104
+T105	Person-Nominal 1253 1255	奶奶
+T106	Thing-Nominal 1273 1275	沙发
+T107	Thing-Nominal 1282 1286	我的脖子
+R24	Part-Whole Arg1:T107 Arg2:T104	
+T108	Location-Nominal 1292 1295	幼儿园
+T109	Time-Implicit 1318 1320	晚年
+T110	Time-Implicit 1326 1328	晚年
+T111	Location-Nominal 1337 1340	信箱中
+T112	Thing-Nominal 1342 1347	早报和晚报
+R25	Located Arg1:T112 Arg2:T111	
+T113	Person-Pronoun 1348 1349	我
+T114	Thing-Nominal 1351 1355	客厅沙发
+T115	Thing-Nominal 1358 1361	窗玻璃
+T116	Thing-Nominal 1362 1371	一杯绿茶，一份报纸
+T117	Metric 1362 1364	一杯
+T118	Metric 1367 1369	一份
+R26	Use Arg1:T113 Arg2:T116	
+T119	Person-Pronoun 1397 1398	我
+T120	Thing-Nominal 1411 1413	夕阳
+T121	Thing-Nominal 1421 1423	夕阳
+T122	Thing-Nominal 1424 1428	晚开的花
+T123	Thing-Nominal 1429 1431	夕阳
+T124	Thing-Nominal 1432 1435	陈年的
+T125	Thing-Nominal 1443 1445	夕阳
+T126	Thing-Nominal 1446 1450	陈年的酒
+T127	Thing-Nominal 1461 1463	夕阳
+T128	Thing-Nominal 1464 1468	晚开的花
+T129	Thing-Nominal 1484 1486	老年
+T130	Thing-Nominal 1489 1496	一抹绚丽的夕阳
+*	Coreference T130 T127

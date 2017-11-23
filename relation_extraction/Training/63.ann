@@ -1,0 +1,203 @@
+T1	Person-Name 0 7	古代诗人刘禹锡
+T2	Abstract 8 13	《陋室铭》
+T3	Thing-Nominal 19 20	山
+T4	Person-Nominal 25 26	仙
+T5	Thing-Nominal 29 30	水
+T6	Thing-Nominal 35 36	龙
+T7	Location-Nominal 41 45	中国绸都
+T8	Location-Nominal 46 52	历史文化名城
+T9	Location-Nominal 53 60;61 62	中国优秀旅游城 市
+T10	Location-Nominal 63 69	国家森林公园
+T11	Location-Nominal 70 76	国家4A景区
+T12	Location-Nominal 76 82	南充市凌云山
+T13	Location-Name 76 79	南充市
+T14	Location-Nominal 91 95	天然氧吧
+T15	Location-Nominal 96 100	休闲胜地
+T16	Thing-Nominal 114 121;122 129	鬼斧神工、自然 天成的独特地貌
+*	Coreference T7 T13 T8 T9 T10
+T17	Thing-Nominal 131 134	凌云山
+T18	Thing-Nominal 135 137	白山
+T19	Thing-Nominal 138 140	图山
+T20	Metric 140 148	200多平方公里
+T21	Thing-Nominal 140 151	200多平方公里的群峰
+T22	Location-Nominal 192 196	世外桃园
+T23	Person-Pronoun 197 198	我
+T24	Location-Nominal 208 211	凌云山
+T25	Thing-Nominal 214 216	巨龙
+T26	Thing-Nominal 223 235	天然太极图与四相五行图案
+T27	Location-Nominal 237 239	景区
+T28	Location-Nominal 257 260	三清宫
+T29	Thing-Nominal 260 265	黄色玻璃瓦
+T30	Thing-Nominal 266 270	飞檐斗拱
+T31	Thing-Nominal 271 280	碉龙画栋的庙殿神龛
+T32	Thing-Nominal 286 294	白山佛教菩萨群像
+T33	Thing-Nominal 295 301	摩岩观音群窟
+T34	Metric 302 304;305 306	99 米
+T35	Thing-Nominal 302 304;305 312	99 米高的岩摩大佛
+T36	Metric 313 317	两公里长
+T37	Thing-Nominal 313 321	两公里长的大卧佛
+T38	Thing-Nominal 322 328	儒家寺庙建筑
+T39	Person-Nominal 348 350	人们
+T40	Location-Nominal 356 360	林阴小道
+T41	Thing-Nominal 369 373	奇峰异石
+T42	Thing-Nominal 380 382	轻风
+T43	Person-Nominal 391 393	人们
+T45	Location-Nominal 436 445	风光旖旎的旅游胜地
+T46	Person-Pronoun 465 467	我们
+T47	Person-Nominal 1852 1855	游客们
+T48	Abstract 1823 1828;1829 1834	电影故事片 《凌云山》
+T49	Person-Name 1835 1841	歌唱家刘媛媛
+T50	Location-Name 1843 1846	凌云山
+T51	Location-Name 1857 1860	凌云山
+T52	Location-Nominal 1861 1866	休闲好去处
+*	Coreference T52 T51
+T53	Location-Nominal 1412 1425	历史悠久、风光秀丽的凌云山
+T54	Person-Name 1446 1448	黄帝
+T55	Person-Name 1450 1452	白龙
+T56	Location-Name 1453 1456	凌云山
+T57	Person-Nominal 1459 1462;1463 1468	玄天上 帝真武祖师
+T58	Location-Nominal 1473 1476	玄天观
+T59	Person-Nominal 1477 1481	太上老君
+T60	Thing-Nominal 1488 1490	仙丹
+T61	Thing-Nominal 1483 1486	三清宫
+T62	Person-Name 1491 1498	八仙之一吕洞宾
+T63	Person-Name 1506 1509	张三丰
+T64	Location-Name 1524 1527	凌云山
+T65	Thing-Nominal 1535 1538	七星桥
+T66	Thing-Nominal 1539 1542	慈航殿
+T67	Thing-Nominal 1543 1546	神仙洞
+T68	Thing-Nominal 1547 1550	老君洞
+T69	Thing-Nominal 1551 1554	圣灯寺
+T70	Thing-Nominal 1555 1558	观音桥
+T71	Thing-Nominal 1559 1562	舍山崖
+T72	Thing-Nominal 1563 1566	汉崖墓
+T73	Thing-Nominal 1567 1570	凌云湖
+T74	Thing-Nominal 1573 1576	凌云湖
+T75	Thing-Nominal 1579 1584;1585 1588	观音菩萨净 瓶之水
+T76	Thing-Nominal 1592 1594	湖泊
+T77	Location-Nominal 1607 1610	凌云湖
+T78	Thing-Nominal 1613 1615	栈道
+T79	Thing-Nominal 1616 1618	曲桥
+T80	Thing-Nominal 1619 1622	拉拉船
+T81	Time-Implicit 1623 1627	近几年来
+T82	Location-Name 1628 1631	南充市
+T83	Location-Name 1632 1635	高坪区
+T84	Location-Nominal 1668 1670	景区
+T85	Thing-Nominal 1677 1684	凌云山山门牌坊
+T86	Location-Nominal 1698 1700	景区
+T87	Thing-Nominal 1700 1702	绿树
+T88	Thing-Nominal 1705 1706;1707 1708	百 花
+T89	Thing-Nominal 1714 1718	楼台亭阁
+T90	Thing-Nominal 1719 1723	休闲广场
+T91	Thing-Nominal 1724 1728	古刹寺院
+T92	Thing-Nominal 1737 1741	新增石刻
+T93	Thing-Nominal 1742 1744	石牌
+T94	Thing-Nominal 1745 1747	石林
+T95	Thing-Nominal 1748 1753	艺术书法墙
+T96	Person-Nominal 1815 1817	游客
+T97	Thing-Nominal 1095 1099	精湛雕塑
+T98	Person-Pronoun 1105 1107	我们
+T99	Location-Name 1108 1110	白山
+T100	Location-Name 1111 1114	凌云山
+T101	Thing-Nominal 1123 1133	滴水岩、马岩山石窟群
+T102	Thing-Nominal 1137 1144	造型各异的石刻
+T103	Thing-Nominal 1145 1155;1156 1163	神形兼备、栩栩如生的 观音菩萨和罗汉
+T104	Thing-Nominal 1167 1169	丛林
+T105	Thing-Nominal 1170 1172	白云
+T106	Thing-Nominal 1176 1183	马岩山石刻窟群
+T107	Thing-Nominal 1185 1192	72米长的卧佛
+R1	Part-Whole Arg1:T107 Arg2:T106	
+T108	Metric 1185 1189	72米长
+T109	Thing-Nominal 1194 1201	99米高大石佛
+T110	Metric 1194 1198	99米高
+T111	Thing-Nominal 1204 1210	世界佛像之最
+*	Coreference T111 T109
+T112	Thing-Nominal 1213 1216;1217 1223	造型不 同的送子观音
+T113	Thing-Nominal 1224 1228	滴水观音
+T114	Metric 1235 1239	6至8米
+T115	Thing-Nominal 1265 1269	十八罗汉
+T116	Person-Nominal 1290 1295	能工巧匠们
+T117	Person-Pronoun 1364 1366	我们
+T118	Thing-Nominal 1369 1371	佛光
+T119	Thing-Nominal 1372 1374	圣灯
+T120	Thing-Nominal 1375 1377	云海
+T121	Thing-Nominal 1378 1380	瑞象
+T122	Location-Name 762 765	凌云山
+T123	Abstract 776 783	“四相、五行”
+T124	Thing-Nominal 788 795	凌云山的三清宫
+T125	Thing-Nominal 802 812;813 817	白山的佛教寺庙与各种 天然睡佛
+T126	Thing-Nominal 818 825	石刻观音、罗汉
+T127	Thing-Nominal 831 836	图山的寺庙
+T128	Person-Nominal 865 869	真武祖师
+T129	Location-Name 897 900	凌云山
+T130	Abstract 911 917	道家五行学说
+T131	Abstract 903 910	易经卦象的四相
+T132	Thing-Nominal 923 932	两尊自然天成的睡佛
+T133	Thing-Nominal 947 951	白山睡佛
+T134	Metric 953 956	两公里
+T135	Thing-Nominal 957 962	马岩山睡佛
+T136	Metric 964 969	1.5公里
+T137	Person-Pronoun 970 972	我们
+T138	Thing-Nominal 986 993	马岩山石窟群雕
+T139	Person-Name 997 1001	释迦牟尼
+T140	Person-Name 1007 1011	达摩祖师
+T141	Person-Name 1002 1006	西方三圣
+T142	Person-Pronoun 1025 1027	我们
+T143	Thing-Nominal 1035 1038	嘉陵江
+T144	Location-Name 1029 1032	凌云山
+T145	Thing-Nominal 1041 1043	江水
+T146	Thing-Nominal 1046 1048	白云
+T147	Thing-Nominal 1062 1064	山峦
+T148	Thing-Nominal 1067 1069	林海
+T149	Location-Nominal 1077 1081	人间仙境
+T150	Person-Nominal 1083 1084	人
+T44	Location-Name 432 435	凌云山
+*	Coreference T45 T44
+T151	Thing-Nominal 469 471	山门
+T152	Thing-Nominal 494 498	原始森林
+T153	Thing-Nominal 504 506	山峦
+T154	Thing-Nominal 509 513	奇峰异石
+T155	Thing-Nominal 514 516	云雾
+T156	Thing-Nominal 545 547	青龙
+T157	Thing-Nominal 549 551	白虎
+T158	Thing-Nominal 553 555	朱雀
+T159	Thing-Nominal 557 559	玄武
+T161	Thing-Nominal 578 582	悬岩峭壁
+T162	Thing-Nominal 585 589	一条巨龙
+T163	Thing-Nominal 599 603	险峰异石
+T164	Thing-Nominal 606 610	大小群龙
+T160	Thing-Nominal 570 573	青龙山
+T165	Thing-Nominal 611 614	白虎山
+T166	Thing-Nominal 627 631	深山丛林
+T167	Thing-Nominal 621 625	一支灵虎
+T168	Thing-Nominal 641 644	朱雀山
+T169	Thing-Nominal 646 648	大鹏
+T170	Thing-Nominal 662 665	玄武山
+T171	Thing-Nominal 668 670	龟背
+T172	Thing-Nominal 673 675	主峰
+T173	Thing-Nominal 678 681	灵龟山
+T174	Thing-Nominal 686 692	一只大型乌龟
+T175	Thing-Nominal 693 699	龟头龟脚龟尾
+T176	Thing-Nominal 704 706	四山
+T177	Thing-Nominal 716 719	凌云山
+R2	Located Arg1:T6 Arg2:T5	
+*	Coreference T14 T12 T15
+R3	Located Arg1:T29 Arg2:T28	
+R4	Located Arg1:T31 Arg2:T28	
+R5	Located Arg1:T30 Arg2:T28	
+R6	Located Arg1:T32 Arg2:T28	
+R7	Located Arg1:T33 Arg2:T28	
+R8	Located Arg1:T35 Arg2:T28	
+R9	Located Arg1:T37 Arg2:T28	
+R10	Located Arg1:T151 Arg2:T44	
+R11	Part-Whole Arg1:T163 Arg2:T160	
+*	Coreference T173 T170
+R12	Part-Whole Arg1:T177 Arg2:T176	
+R13	Located Arg1:T124 Arg2:T122	
+R14	Located Arg1:T102 Arg2:T101	
+R15	Located Arg1:T103 Arg2:T104	
+R16	Part-Whole Arg1:T83 Arg2:T82	
+R17	Located Arg1:T85 Arg2:T84	
+R18	Located Arg1:T89 Arg2:T86	
+R19	Located Arg1:T90 Arg2:T86	
+R20	Located Arg1:T91 Arg2:T86	

@@ -1,0 +1,226 @@
+T1	Location-Nominal 10 13	城市里
+T2	Thing-Nominal 17 21	车水马龙
+T3	Person-Pronoun 27 28	我
+T4	Person-Pronoun 33 35	自己
+T5	Location-Name 37 51	云南高原大山深处的彝家山寨里
+T6	Person-Nominal 54 55	人
+T7	Person-Pronoun 63 65	自己
+T8	Location-Nominal 68 72	这座市里
+T9	Person-Nominal 72 81	一个匆匆而过的客人
+T10	Person-Pronoun 86 87	我
+T11	Location-Nominal 87 89	身上
+T12	Thing-Nominal 92 96	彝族服饰
+T13	Thing-Nominal 97 101	西装革履
+R1	Located Arg1:T13 Arg2:T11	
+T14	Person-Pronoun 108 109	我
+T15	Location-Nominal 109 112	嘴巴里
+T16	Thing-Nominal 137 146	原汁原味的彝家美食
+T17	Person-Pronoun 149 150	我
+T18	Location-Nominal 154 157	都市里
+T19	Thing-Nominal 157 171	被过量的调味品浸泡的美食佳肴
+R2	Located Arg1:T19 Arg2:T18	
+T20	Person-Nominal 115 116	人
+T21	Thing-Nominal 117 121	彝族酒歌
+T22	Thing-Nominal 123 129	现代流行歌曲
+T23	Location-Name 183 190	故乡彝家山寨里
+T24	Time-Implicit 196 219	当我跟着时代的步伐，享受着都市里衣食住行的时候
+T25	Person-Pronoun 197 198	我
+T26	Location-Nominal 209 212	都市里
+T27	Person-Pronoun 245 246	我
+T28	Location-Name 264 270	故乡古彝寨里
+T29	Metric 275 279	30多年
+T30	Metric 285 290	30多年里
+T31	Person-Pronoun 290 291	我
+T32	Person-Nominal 295 307	连汉话都表达不清楚的彝人
+T33	Person-Nominal 311 329	一个能用现代汉语写文学作品的彝族作家
+T34	Person-Pronoun 336 337	我
+T35	Location-Nominal 336 342	我所生活地方
+T36	Person-Nominal 346 351	一个小名人
+*	Coreference T36 T34
+T37	Time-Implicit 352 354	每天
+T38	Location-Nominal 367 372	都市环境里
+T39	Person-Pronoun 373 374	我
+T40	Person-Pronoun 381 383	自己
+T41	Thing-Nominal 384 386	笔锋
+T42	Location-Nominal 388 390	都市
+T43	Location-Nominal 408 410	都市
+T44	Person-Pronoun 420 422	自己
+R3	General-Special Arg1:T33 Arg2:T31	
+T45	Person-Pronoun 425 427	自己
+T46	Person-Pronoun 435 437	自己
+T47	Person-Pronoun 442 444	自己
+T48	Person-Pronoun 452 454	自己
+T49	Person-Nominal 462 464	彝人
+T50	Time-Implicit 475 476;477 484	那 样的写作日子里
+T51	Person-Pronoun 485 486	我
+T52	Person-Pronoun 492 494	自己
+T53	Location-Name 495 499	故乡彝寨
+T54	Thing-Nominal 509 511	服饰
+T55	Thing-Nominal 512 514	歌曲
+T56	Person-Nominal 522 526	故乡彝人
+T57	Person-Pronoun 540 541	我
+T58	Person-Pronoun 551 553	自己
+T59	Thing-Nominal 554 555	笔
+R4	Ownership Arg1:T58 Arg2:T59	
+*	Coreference T58 T57
+T60	Thing-Nominal 570 579	都市生活群里的故事
+T61	Thing-Nominal 582 590	一篇篇文学作品中
+T62	Person-Nominal 599 603	故乡彝人
+T63	Person-Pronoun 649 650	我
+T64	Person-Name 655 669	中国作家协会书记处书记白庚胜
+T65	Person-Name 670 675;676 694	中国少数民 族作家学会常务副会长土家族女作家叶梅
+T66	Person-Name 697 718	《民族文学》杂志社主编石一宁、副主编赵晏彪
+T67	Person-Pronoun 722 724	他们
+T68	Person-Pronoun 727 729	自己
+T69	Location-Nominal 730 732	故乡
+T70	Location-Name 733 735	北京
+T71	Person-Pronoun 740 742	他们
+T72	Location-Nominal 754 758	自己故乡
+T73	Person-Pronoun 754 756	自己
+T74	Person-Pronoun 764 766	他们
+T75	Person-Nominal 767 775	一个少数民族作家
+T76	Location-Nominal 779 784	自己的故乡
+T77	Person-Pronoun 779 781	自己
+T78	Location-Nominal 787 791	自己故乡
+T79	Person-Pronoun 787 789	自己
+T80	Thing-Nominal 795 797;798 800	文学 作品
+T81	Thing-Nominal 811 815	文学作品
+T82	Thing-Nominal 817 823	真正的好作品
+T83	Time-Implicit 824 826	那时
+T84	Person-Pronoun 826 827	我
+T85	Person-Pronoun 855 857	自己
+T86	Thing-Nominal 859 863	文学作品
+R5	Create Arg1:T85 Arg2:T86	
+T87	Location-Nominal 868 876	自己民族的土壤里
+T88	Person-Pronoun 868 870	自己
+T89	Thing-Nominal 877 884	自己的文学作品
+T90	Person-Pronoun 877 879	自己
+R6	Create Arg1:T90 Arg2:T89	
+T91	Person-Pronoun 888 890	自己
+T92	Thing-Nominal 898 905	自己的文学作品
+T93	Person-Pronoun 898 900	自己
+R7	Create Arg1:T93 Arg2:T92	
+T94	Person-Nominal 912 919;920 928	中国作协领导和 名作家、名编辑们
+T95	Person-Pronoun 939 940	我
+T96	Person-Pronoun 943 944	我
+T97	Person-Pronoun 945 946	我
+T98	Person-Pronoun 951 953	自己
+T99	Person-Pronoun 969 971	自己
+T100	Thing-Nominal 972 973	笔
+R8	Ownership Arg1:T99 Arg2:T100	
+T101	Location-Nominal 978 980;981 989	故乡 彝山的那片土壤里
+T102	Thing-Nominal 992 1002	一些接地气的优秀作品
+T103	Thing-Nominal 1016 1017	头
+T104	Person-Pronoun 1020 1022	自己
+T105	Location-Name 1024 1028	故乡彝寨
+T106	Metric 1028 1032	30多年
+T107	Person-Nominal 1048 1052	故乡彝人
+T108	Person-Nominal 1079 1082	小人物
+T109	Person-Nominal 1087 1105	中国作家协会领导人和名作家、名编辑们
+T110	Person-Pronoun 1110 1111	我
+T111	Thing-Nominal 1125 1129	自己的笔
+T112	Person-Pronoun 1125 1127	自己
+R9	Ownership Arg1:T112 Arg2:T111	
+T113	Person-Nominal 1147 1153	一些故乡彝人
+T114	Thing-Nominal 1162 1166	自己的笔
+T115	Person-Pronoun 1162 1164	自己
+R10	Ownership Arg1:T115 Arg2:T114	
+T116	Location-Nominal 1171 1178	故乡那片土壤里
+T117	Person-Nominal 1181 1187	故乡彝家人们
+T118	Person-Pronoun 1187 1196	自强不息的乡土作品
+T119	Person-Nominal 1200 1206	故乡彝家人们
+T120	Location-Name 1216 1220	故乡彝寨
+T121	Thing-Nominal 1221 1244	那人、那房、那山、那水、那树、那石、那牛、那狗
+R11	Located Arg1:T121 Arg2:T120	
+T122	Person-Pronoun 1261 1262	我
+T123	Thing-Nominal 1266 1267	花
+T124	Person-Pronoun 1268 1269	我
+T125	Person-Nominal 1271 1273;1274 1286	彝族 的一个地地道道的乡土作家
+R12	General-Special Arg1:T125 Arg2:T124	
+T126	Location-Name 1288 1294	故乡彝家山寨
+T127	Person-Nominal 1315 1321	一部故乡彝人
+T128	Thing-Pronoun 1325 1326	它
+T129	Person-Nominal 1329 1334;1335 1337	故乡彝人祖 先们
+T130	Thing-Pronoun 1341 1342	它
+T131	Person-Nominal 1345 1352	故乡彝人子孙们
+T132	Thing-Nominal 1358 1381	那人、那房、那山、那水、那树、那石、那牛、那狗
+T133	Thing-Nominal 1385 1392	自己的文学作品
+T134	Person-Pronoun 1385 1387	自己
+R13	Create Arg1:T134 Arg2:T133	
+T135	Person-Pronoun 1426 1427	我
+T136	Thing-Nominal 1430 1439	永远不会枯竭的源泉
+T137	Thing-Nominal 1442 1456;1457 1461	这些看似平平淡淡而普普通通的 文学作品
+T138	Person-Nominal 1467 1473	故乡彝家人们
+T139	Person-Nominal 1482 1488	故乡彝家人们
+T140	Person-Pronoun 1498 1500	自己
+T141	Person-Pronoun 1497 1498	我
+T142	Person-Pronoun 1511 1513	自己
+T143	Person-Pronoun 1510 1511	我
+T144	Location-Name 1520 1526	故乡彝家山寨
+T145	Location-Name 1555 1559	故乡彝家
+T146	Location-Name 1567 1571	故乡彝家
+T147	Person-Nominal 1576 1577;1578 1580	老 人们
+T148	Person-Pronoun 1589 1591	他们
+*	Coreference T148 T147
+T149	Person-Nominal 1594 1598	故乡彝人
+T150	Person-Pronoun 1604 1606	他们
+T151	Person-Nominal 1609 1613	故乡彝人
+T152	Person-Pronoun 1619 1621	他们
+T153	Person-Nominal 1639 1645	那些年轻人们
+T154	Location-Nominal 1650 1652	大山
+T155	Location-Nominal 1655 1658	都市里
+T156	Person-Pronoun 1669 1671	他们
+*	Coreference T156 T153 T157
+T157	Person-Pronoun 1678 1680	自己
+T158	Person-Pronoun 1686 1688	他们
+T159	Person-Pronoun 1695 1697	自己
+T160	Person-Pronoun 1704 1706	他们
+T161	Person-Pronoun 1713 1715	自己
+T162	Location-Name 1722 1726	故乡彝山
+T163	Person-Pronoun 1744 1746	他们
+T164	Person-Nominal 1759 1760;1761 1764	故 乡彝人
+T165	Time-Implicit 1770 1772	那时
+T166	Person-Nominal 1772 1776	故乡彝人
+T167	Person-Nominal 1786 1790	故乡彝人
+T168	Thing-Nominal 1790 1800	一壶醇正芳香的小锅酒
+T169	Person-Nominal 1811 1812	人
+T170	Person-Nominal 1829 1833	故乡彝人
+T171	Person-Nominal 1837 1841	故乡彝人
+T172	Person-Nominal 1844 1845	女
+T173	Location-Nominal 1847 1854	都市宾馆酒店里
+T174	Person-Pronoun 1886 1888	他们
+T175	Person-Nominal 1888 1891	这代人
+*	Coreference T175 T174
+T176	Person-Nominal 1913 1917	故乡彝人
+T177	Person-Nominal 1930 1936	一个彝族作家
+T178	Person-Pronoun 1937 1938	我
+R14	General-Special Arg1:T177 Arg2:T178	
+T179	Location-Nominal 1949 1952	都市里
+T180	Person-Pronoun 1961 1962	我
+T181	Person-Pronoun 1968 1970	自己
+T182	Location-Name 1970 1971;1972 1975	故 乡彝寨
+T183	Thing-Nominal 2045 2051	自己手中的笔
+T184	Person-Pronoun 2045 2047	自己
+T185	Location-Nominal 2047 2049	手中
+R15	Located Arg1:T183 Arg2:T185	
+T186	Person-Nominal 2054 2058	故乡彝人
+T187	Location-Name 2065 2069	故乡彝山
+T188	Thing-Nominal 2086 2091	自己的作品
+T189	Person-Pronoun 2086 2088	自己
+R16	Create Arg1:T189 Arg2:T188	
+T190	Location-Name 2105 2109	故乡彝寨
+T191	Person-Nominal 2122 2128	故乡彝家人们
+T192	Location-Name 2143 2147	故乡彝寨
+T193	Person-Nominal 1987 1991	故乡彝人
+T194	Person-Pronoun 1998 1999	我
+T195	Person-Pronoun 2001 2003	自己
+*	Coreference T195 T194
+T196	Location-Name 2006 2010	故乡彝寨
+T197	Person-Pronoun 2011 2012	我
+T198	Thing-Nominal 2014 2018	自己的笔
+T199	Person-Pronoun 2014 2016	自己
+R17	Ownership Arg1:T199 Arg2:T198	
+T200	Location-Name 2022 2026	故乡彝山
+T201	Thing-Nominal 2027 2031	山山水水
+R18	Located Arg1:T201 Arg2:T200	
+T202	Person-Pronoun 2038 2039	我

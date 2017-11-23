@@ -1,0 +1,208 @@
+T1	Person-Pronoun 0 1	我
+T2	Person-Nominal 12 18	十多岁的少年
+T3	Time-Explicit 10 12	现在
+T4	Thing-Nominal 25 28	小轿车
+T5	Person-Pronoun 30 31	我
+T6	Person-Nominal 44 46	小鬼
+T7	Location-Nominal 50 53	自己家
+T8	Thing-Nominal 59 60;61 62	轿 车
+T9	Person-Nominal 50 52	自己
+*	Coreference T6 T9 T2 T10
+T10	Person-Pronoun 64 66	他们
+T11	Person-Nominal 68 70	亲戚
+T12	Person-Nominal 71 73	朋友
+T13	Person-Nominal 74 76	熟人
+R1	Family Arg1:T10 Arg2:T11	
+R2	Social Arg1:T10 Arg2:T12	
+R3	Social Arg1:T10 Arg2:T13	
+T14	Person-Nominal 78 80	有人
+T15	Thing-Nominal 82 84	轿车
+R4	Ownership Arg1:T14 Arg2:T15	
+T16	Person-Pronoun 85 87	他们
+T17	Thing-Nominal 95 97	轿车
+T18	Time-Implicit 104 108	少年时代
+T19	Person-Pronoun 109 110	我
+T20	Time-Implicit 115 119	读中学后
+T21	Thing-Nominal 131 134	小轿车
+T22	Time-Explicit 139 152	1962年秋天的一个星期日
+T23	Organization-Name 155 159	平江一中
+T24	Person-Pronoun 162 163	我
+T25	Person-Nominal 164 168	一个同学
+T26	Thing-Name 169 172	三阳街
+T27	Thing-Name 173 175	浮桥
+T28	Location-Nominal 176 177	城
+R5	Social Arg1:T24 Arg2:T25	
+T29	Location-Nominal 181 183	东街
+T30	Time-Implicit 191 193	当时
+T31	Person-Nominal 212 215	偶干娘
+T32	Location-Nominal 212 218	偶干娘”门前
+T33	Time-Implicit 223 225	那时
+T34	Person-Nominal 231 233	人们
+T35	Thing-Nominal 236 239	乌龟壳
+T36	Thing-Nominal 241 246	黑色小轿车
+R6	Located Arg1:T36 Arg2:T32	
+*	Coreference T35 T36
+T37	Person-Pronoun 247 249	我们
+T38	Person-Nominal 258 265	平江籍的老首长
+T39	Location-Name 271 275	我们平江
+T40	Person-Nominal 280 287	将军级的老首长
+T41	Person-Nominal 292 295	老首长
+T42	Thing-Nominal 307 310	小轿车
+T43	Thing-Nominal 312 315	小轿车
+T44	Person-Nominal 321 323	大人
+T45	Thing-Nominal 335 338	小轿车
+T46	Person-Pronoun 343 344	我
+T47	Thing-Nominal 346 348	耳朵
+R7	Part-Whole Arg1:T47 Arg2:T46	
+T48	Person-Pronoun 355 357	他们
+*	Coreference T48 T44
+T49	Person-Nominal 366 372	我县的老革命
+T50	Time-Implicit 373 375	当时
+T51	Person-Name 375 379;380 391	湖南省军 区的副司令员吴自立将军
+T52	Organization-Name 375 379;380 381	湖南省军 区
+R8	Ownership Arg1:T51 Arg2:T52	
+T53	Person-Nominal 399 402	偶干娘
+T54	Person-Name 406 409	吴司令
+R9	Social Arg1:T53 Arg2:T54	
+T55	Person-Name 412 415	吴司令
+T56	Person-Pronoun 416 417	她
+*	Coreference T56 T53
+T57	Location-Name 426 428	平江
+T58	Person-Pronoun 433 434	她
+T59	Time-Implicit 436 438	那时
+T60	Person-Pronoun 443 444	我
+T61	Thing-Nominal 465 468	乌龟壳
+T62	Thing-Nominal 483 485	车子
+*	Coreference T62 T61
+T63	Person-Pronoun 490 491	我
+T64	Thing-Nominal 500 501	手
+R10	Part-Whole Arg1:T64 Arg2:T63	
+T65	Person-Name 512 515	吴司令
+T66	Person-Nominal 516 519	偶干娘
+T67	Person-Nominal 516 522	偶干娘的屋里
+T68	Person-Pronoun 526 527	我
+T69	Person-Name 544 547	吴司令
+T70	Person-Pronoun 549 550	我
+R11	Social Arg1:T70 Arg2:T69	
+T71	Person-Pronoun 553 554	他
+T72	Thing-Nominal 554 555	手
+R12	Part-Whole Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 561 564	自由棍
+R13	Located Arg1:T73 Arg2:T72	
+R14	Ownership Arg1:T71 Arg2:T73	
+T74	Person-Name 571 574	吴司令
+T75	Person-Pronoun 577 578	我
+T76	Person-Nominal 587 589	小鬼
+*	Coreference T76 T75 T79
+T77	Person-Pronoun 594 595	我
+*	Coreference T74 T77 T82
+T78	Thing-Nominal 598 600	老虎
+T79	Person-Pronoun 601 602	你
+T80	Thing-Nominal 605 607	车子
+T81	Thing-Nominal 611 613	车子
+T82	Person-Pronoun 632 633	他
+T83	Thing-Nominal 639 640	手
+T84	Person-Pronoun 642 643	我
+T85	Person-Nominal 648 650	小鬼
+T86	Person-Pronoun 651 652	你
+*	Coreference T86 T85 T84 T87
+T87	Person-Pronoun 659 660	我
+T88	Person-Pronoun 671 672	我
+T89	Person-Name 673 676	吴模定
+*	Coreference T88 T89
+T90	Person-Name 678 679;680 682	吴 司令
+T91	Person-Pronoun 695 697	我们
+T92	Person-Pronoun 707 708	他
+T93	Person-Pronoun 711 712	我
+*	Coreference T92 T90
+T94	Thing-Nominal 713 715	胳膊
+R15	Part-Whole Arg1:T94 Arg2:T93	
+T95	Person-Pronoun 718 719	你
+*	Coreference T93 T95 T97 T98
+T96	Thing-Nominal 731 733	车子
+T97	Person-Pronoun 736 737	你
+T98	Person-Pronoun 747 748	我
+T99	Person-Pronoun 757 758	他
+T100	Person-Pronoun 764 765	我
+T101	Person-Pronoun 768 769	你
+*	Coreference T101 T100 T106 T109
+T102	Thing-Nominal 772 774	车子
+T103	Person-Pronoun 776 777	我
+T104	Time-Implicit 777 780	这会儿
+T105	Organization-Nominal 782 785	县委会
+T106	Person-Pronoun 786 787	你
+T107	Person-Pronoun 789 790	我
+*	Coreference T103 T99 T107
+T108	Location-Nominal 794 797	十字街
+T109	Person-Pronoun 810 811	我
+T110	Person-Pronoun 831 832	我
+T111	Person-Name 840 843	吴司令
+T112	Thing-Nominal 845 846	车
+T113	Thing-Nominal 849 852	乌龟壳
+*	Coreference T113 T112
+T114	Thing-Nominal 855 857	喇叭
+R16	Part-Whole Arg1:T114 Arg2:T113	
+T115	Location-Nominal 862 865	十字街
+T116	Thing-Nominal 860 861	烟
+T117	Thing-Nominal 875 878	乌龟壳
+T118	Person-Pronoun 897 898	我
+T119	Time-Implicit 904 908	从那时起
+T120	Person-Pronoun 909 910	我
+T121	Time-Implicit 917 919	当时
+T122	Person-Pronoun 933 934	我
+T123	Thing-Nominal 938 942	“乌龟壳
+T124	Person-Pronoun 946 947	我
+T125	Thing-Nominal 953 956	乌龟壳
+T126	Metric 968 972	四十几年
+T127	Time-Implicit 976 978	如今
+T128	Person-Pronoun 979 980	我
+T129	Thing-Nominal 988 991	乌龟壳
+T130	Person-Nominal 995 997	自己
+*	Coreference T128 T130
+T131	Thing-Nominal 1003 1007	我的轿车
+R17	Ownership Arg1:T130 Arg2:T131	
+T132	Thing-Nominal 1016 1018	宝马
+T133	Thing-Nominal 1026 1027	我
+T134	Time-Implicit 1034 1036	当年
+T135	Person-Name 1036 1039	吴司令
+T136	Thing-Nominal 1045 1048	乌龟壳
+T137	Time-Implicit 1057 1059	现在
+T138	Person-Pronoun 1060 1061	我
+T139	Person-Nominal 1067 1071	我的亲戚
+T140	Person-Nominal 1072 1074	朋友
+T141	Person-Nominal 1075 1077	同事
+T142	Person-Nominal 1078 1080	同学
+R18	Family Arg1:T138 Arg2:T139	
+R19	Social Arg1:T138 Arg2:T140	
+R20	Social Arg1:T138 Arg2:T141	
+R21	Social Arg1:T138 Arg2:T142	
+T143	Thing-Nominal 1086 1089	小轿车
+R22	Ownership Arg1:T142 Arg2:T143	
+R23	Ownership Arg1:T141 Arg2:T143	
+R24	Ownership Arg1:T140 Arg2:T143	
+R25	Ownership Arg1:T139 Arg2:T143	
+T144	Location-Nominal 1090 1092	老家
+T145	Person-Nominal 1099 1103	农民兄弟
+T146	Thing-Nominal 1109 1112	小轿车
+R26	Ownership Arg1:T145 Arg2:T146	
+T147	Time-Implicit 1123 1125	如今
+T148	Location-Nominal 1130 1132	路上
+T149	Location-Nominal 1136 1139	庭院里
+T150	Thing-Nominal 1152 1155	小轿车
+R27	Located Arg1:T150 Arg2:T149	
+R28	Located Arg1:T150 Arg2:T148	
+T151	Person-Pronoun 1167 1168	我
+T152	Person-Name 1171 1174	刘禹锡
+T153	Location-Name 1175 1178	乌衣巷
+T154	Time-Implicit 1185 1188	“旧时
+T155	Thing-Nominal 1192 1193	燕
+T156	Location-Nominal 1198 1201	百姓家
+T157	Time-Implicit 1203 1205	现在
+T158	Person-Pronoun 1205 1207	我们
+T159	Time-Implicit 1215 1217	昔日
+T160	Person-Nominal 1217 1219	首长
+T161	Thing-Nominal 1219 1222	专用车
+R29	Ownership Arg1:T160 Arg2:T161	
+T162	Location-Nominal 1227 1230	百姓家
+R30	Located Arg1:T161 Arg2:T162	
+R31	Located Arg1:T155 Arg2:T156	

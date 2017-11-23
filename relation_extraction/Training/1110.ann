@@ -1,0 +1,186 @@
+T1	Thing-Nominal 8 13	北京大白菜
+T2	Location-Name 8 10	北京
+R1	Located Arg1:T1 Arg2:T2	
+T3	Time-Explicit 15 24	1978到1989
+T4	Person-Pronoun 25 26	我
+T5	Location-Name 27 29	北京
+T6	Metric 31 34	十一年
+T7	Time-Implicit 35 37	那时
+*	Coreference T7 T3
+T8	Thing-Nominal 40 42	书本
+T9	Location-Name 49 51	北京
+T10	Metric 57 61	十一年中
+T11	Location-Name 62 64	北京
+T12	Thing-Nominal 100 104	我的感官
+T13	Person-Pronoun 100 101	我
+R2	Part-Whole Arg1:T12 Arg2:T13	
+T14	Person-Pronoun 107 108	我
+T15	Thing-Nominal 115 118	大白菜
+T16	Location-Name 120 122	北京
+T17	Time-Implicit 122 127	暮秋至仲春
+T18	Thing-Nominal 128 135	一道长长风景线
+T19	Person-Pronoun 138 139	我
+T20	Thing-Nominal 158 163	一道常青菜
+T21	Thing-Nominal 164 167	熬白菜
+*	Coreference T21 T20 T24
+T22	Location-Name 153 157	北大食堂
+R3	Located Arg1:T21 Arg2:T22	
+T23	Time-Implicit 150 152	当时
+T24	Thing-Nominal 168 171	那道菜
+T25	Thing-Nominal 191 193	浊酒
+T26	Time-Implicit 202 205	念书时
+T27	Location-Nominal 206 209	学生楼
+T28	Person-Pronoun 213 215	自己
+T29	Thing-Nominal 216 217	饭
+T30	Location-Nominal 224 228	街角屋后
+T31	Thing-Nominal 231 234	大白菜
+R4	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 242 245	大白菜
+T33	Thing-Nominal 247 250	大白菜
+T34	Time-Implicit 259 263	工作以后
+T35	Location-Nominal 266 270	职工宿舍
+T36	Location-Nominal 276 283	宿舍楼的楼道里
+T37	Thing-Nominal 287 290	大白菜
+R5	Located Arg1:T37 Arg2:T36	
+T38	Location-Nominal 276 279	宿舍楼
+T39	Location-Name 291 293	北京
+T40	Thing-Nominal 301 305	其他菜种
+T41	Time-Implicit 296 299	冬季里
+T42	Person-Nominal 306 308	居民
+T43	Thing-Nominal 312 315	大白菜
+T44	Thing-Nominal 320 323	大白菜
+T45	Thing-Pronoun 337 338	它
+T46	Time-Implicit 345 347	冬季
+T47	Thing-Nominal 350 355	大白菜自身
+T48	Thing-Nominal 355 357	菜叶
+R6	Part-Whole Arg1:T48 Arg2:T47	
+T49	Location-Nominal 373 375	室外
+T50	Thing-Nominal 381 393	麻布一类的抗霜防干保护层
+T51	Thing-Nominal 381 383	麻布
+T52	Thing-Nominal 395 398	大白菜
+T53	Time-Implicit 399 404	漫长的冬季
+T54	Thing-Nominal 412 418	最外层的几片
+T55	Thing-Nominal 419 424	整棵大白菜
+T56	Thing-Nominal 431 440	稍微沾点霜寒的白菜
+T57	Person-Pronoun 455 456	我
+T58	Thing-Nominal 459 462	大白菜
+T59	Thing-Nominal 463 464	书
+T60	Thing-Nominal 466 473	颜色越深的蔬菜
+T61	Thing-Nominal 479 482	大白菜
+T62	Thing-Nominal 484 486	蔬菜
+R7	General-Special Arg1:T62 Arg2:T61	
+T63	Thing-Nominal 494 497	大白菜
+T64	Thing-Nominal 499 501	水分
+T65	Thing-Nominal 507 512;513 514	维他命矿物 质
+T66	Time-Implicit 517 519	后来
+T67	Person-Pronoun 519 520	我
+T68	Person-Pronoun 523 525	自己
+*	Coreference T68 T67
+T69	Thing-Nominal 526 529	大白菜
+T70	Thing-Nominal 539 542	大白菜
+T71	Thing-Name 544 548	菜中之王
+*	Coreference T71 T70
+T72	Person-Name 558 562	白石老人
+T73	Person-Name 567 572	齐白石老人
+T74	Thing-Nominal 574 577;578 581	许多大 白菜图
+T75	Thing-Nominal 582 599	那些充满生活情趣和平民风韵的白菜图
+T76	Person-Nominal 591 593	平民
+T77	Person-Nominal 610 612	画家
+T78	Abstract 616 622	《白菜双椒》
+T79	Thing-Nominal 627 629	牡丹
+T80	Thing-Nominal 630 634	花中之王
+T81	Thing-Nominal 635 637	荔枝
+T82	Thing-Nominal 639 643	百果之先
+T83	Thing-Nominal 647 649	白菜
+T84	Thing-Nominal 650 653	蔬之王
+T85	Thing-Nominal 662 665	大白菜
+T86	Thing-Nominal 674 677	大白菜
+T87	Thing-Nominal 678 687	丰富的维他命和纤维
+T88	Thing-Nominal 689 692	白萝卜
+T89	Thing-Pronoun 695 696	它
+*	Coreference T89 T86
+T90	Thing-Nominal 700 707	大量的土地养分
+T91	Thing-Nominal 708 709	菜
+T92	Thing-Nominal 722 724	胃肠
+T93	Thing-Nominal 725 727	人体
+T94	Time-Implicit 730 732	当年
+T95	Thing-Nominal 732 735	大白菜
+T96	Person-Nominal 738 741	北京人
+T97	Metric 741 746	大半年以上
+T98	Thing-Nominal 747 749	蔬菜
+R8	General-Special Arg1:T95 Arg2:T98	
+T99	Person-Nominal 756 759	北京人
+T100	Thing-Nominal 773 776	大白菜
+T101	Thing-Nominal 778 784	北京的命根菜
+*	Coreference T101 T100
+T102	Location-Name 777 780	大北京
+T103	Thing-Nominal 790 793	大白菜
+T104	Thing-Nominal 795 806	最容易、最方便烹饪的菜
+R9	General-Special Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 807 810	大白菜
+T106	Thing-Pronoun 819 820	它
+*	Coreference T106 T105
+T107	Thing-Nominal 821 822	菜
+T108	Thing-Nominal 823 824	汤
+T109	Thing-Nominal 826 827	包
+T110	Thing-Nominal 828 829	饺
+T111	Thing-Pronoun 843 844	它
+T112	Thing-Nominal 848 850;851 861	许多 肉类、豆类及蛋类食品
+T113	Time-Implicit 871 873	那时
+T114	Location-Nominal 875 878	老乡家
+T115	Thing-Nominal 882 884	伙食
+T116	Time-Implicit 889 891	当年
+T117	Location-Nominal 891 894	老乡家
+T118	Thing-Nominal 895 901	白菜猪肉水饺
+R10	Located Arg1:T118 Arg2:T117	
+T119	Time-Implicit 918 920	当时
+T120	Thing-Nominal 922 925	大白菜
+T121	Location-Name 927 929	北京
+T122	Person-Nominal 940 946	政府高级官员
+T123	Thing-Nominal 950 953	大白菜
+T124	Abstract 959 965	《人民日报》
+T125	Thing-Nominal 969 972	大白菜
+T126	Thing-Nominal 979 982	大白菜
+T127	Time-Implicit 984 986	当年
+T128	Thing-Nominal 986 993	北京人的看家菜
+T129	Person-Nominal 986 989	北京人
+T130	Thing-Nominal 994 997	定心菜
+T131	Location-Nominal 998 1000	家中
+T132	Thing-Nominal 1001 1003	白菜
+R11	Located Arg1:T132 Arg2:T131	
+T133	Metric 1013 1016	十一年
+T134	Location-Name 1012 1013	京
+T135	Person-Pronoun 1017 1018	我
+T136	Thing-Nominal 1026 1029	大白菜
+T137	Person-Pronoun 1030 1031	我
+T138	Person-Pronoun 1033 1034	我
+T139	Thing-Nominal 1035 1038	大白菜
+T140	Thing-Nominal 1047 1057	齐白石老人的大白菜图
+T141	Person-Name 1047 1052	齐白石老人
+R12	Create Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 1058 1061	大白菜
+T143	Thing-Pronoun 1078 1079	它
+*	Coreference T143 T142
+T144	Person-Nominal 1084 1085	人
+T145	Person-Nominal 1095 1102	无数的普通人们
+T146	Thing-Pronoun 1105 1106	它
+T147	Time-Implicit 1120 1122	现在
+T148	Location-Nominal 1123 1131	北京人的菜篮子里
+T149	Person-Nominal 1123 1126	北京人
+T150	Time-Implicit 1133 1135	四季
+T151	Location-Nominal 1146 1148	海外
+T152	Person-Pronoun 1149 1150	我
+T153	Location-Nominal 1151 1156	家中冰箱里
+T154	Thing-Nominal 1160 1164	各种食品
+R13	Located Arg1:T154 Arg2:T153	
+T155	Time-Implicit 1168 1172	每个星期
+T156	Location-Nominal 1173 1178	我的冰箱里
+T157	Thing-Nominal 1182 1187	一棵大白菜
+R14	Located Arg1:T157 Arg2:T156	
+T158	Person-Pronoun 1173 1174	我
+T159	Thing-Nominal 1198 1199	菜
+T160	Location-Nominal 1203 1205	冰箱
+T161	Thing-Nominal 1211 1214	大白菜
+R15	Located Arg1:T161 Arg2:T160	
+T162	Person-Pronoun 1215 1216	我
+R16	Create Arg1:T73 Arg2:T74	

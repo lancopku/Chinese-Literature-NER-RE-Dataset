@@ -1,0 +1,369 @@
+T1	Person-Nominal 9 14	著名歌唱家
+T2	Person-Name 14 17	宋祖英
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Abstract 20 30	《长大后我就成了你》
+T4	Time-Implicit 0 2	近日
+T5	Time-Implicit 39 41	今年
+T6	Abstract 41 44	教师节
+T8	Person-Nominal 57 60;61 69	一名从 教近四十年的自己
+T9	Metric 63 66	四十年
+T10	Time-Implicit 63 66	四十年
+T11	Person-Nominal 80 85	自己的老师
+T12	Person-Nominal 80 82	自己
+T13	Person-Nominal 98 99	人
+T14	Organization-Nominal 131 133	高中
+T15	Person-Pronoun 136 138	我们
+T16	Person-Pronoun 184 185	我
+T17	Organization-Name 186 194	浙江临海大田中学
+T18	Person-Nominal 203 205	学生
+T19	Organization-Name 186 203	浙江临海大田中学七四届高二(2)班
+R2	Ownership Arg1:T18 Arg2:T19	
+T20	Time-Implicit 206 211	十八岁那年
+T22	Time-Implicit 230 233	一年半
+T27	Organization-Nominal 242 245	高
+中
+T28	Time-Implicit 255 259	一个学期
+T29	Time-Implicit 261 263	那时
+T30	Organization-Nominal 263 265	大学
+T21	Time-Implicit 237 239	春季
+T23	Location-Nominal 290 291	乡
+T24	Person-Pronoun 306 308	我们
+T25	Time-Explicit 330 336	高中毕业至今
+T26	Metric 338 341	四十年
+T31	Time-Implicit 338 341	四十年
+T32	Person-Nominal 364 365;366 374	风 华正茂的少男少女
+T33	Time-Explicit 375 377	如今
+T34	Time-Implicit 407 411	高中期间
+T35	Time-Explicit 413 426	“文革”十年浩劫时期的后期
+*	Coreference T35 T34
+T36	Time-Implicit 427 431	高中时期
+T37	Location-Nominal 445 447	学校
+T38	Location-Nominal 452 457	校园的西边
+T39	Thing-Name 458 461	下高山
+R3	Located Arg1:T39 Arg2:T38	
+T40	Location-Nominal 467 469	山上
+T41	Thing-Nominal 469 471	青松
+R4	Located Arg1:T41 Arg2:T40	
+T42	Location-Nominal 474 476	山下
+T43	Thing-Nominal 476 478	翠竹
+R5	Located Arg1:T43 Arg2:T42	
+T44	Location-Nominal 489 491	北面
+T45	Location-Nominal 492 494	东面
+T46	Thing-Nominal 497 501	一条小溪
+R6	Located Arg1:T46 Arg2:T45	
+R7	Located Arg1:T46 Arg2:T44	
+T47	Thing-Nominal 502 504	溪水
+R8	Located Arg1:T47 Arg2:T46	
+T48	Location-Nominal 519 527;528 532	东面、北面及南面 校门口外
+T49	Thing-Nominal 552 557	新翻的泥土
+T50	Location-Nominal 549 552	田野中
+R9	Located Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 561 576	红花草花、油菜花、小麦花、稻花
+T52	Thing-Nominal 578 583	山上的松花
+T53	Location-Nominal 578 580	山上
+R10	Located Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 584 588	各种野花
+R11	Located Arg1:T54 Arg2:T53	
+T55	Time-Implicit 593 595	春夏
+T56	Thing-Nominal 600 601	蛙
+T57	Thing-Nominal 607 609	溪水
+T58	Thing-Nominal 612 614	布谷
+T59	Thing-Nominal 617 619	鸣蝉
+T60	Time-Implicit 622 624	秋冬
+T61	Thing-Nominal 626 628	松涛
+T62	Time-Implicit 631 632	春
+T63	Thing-Nominal 633 635	鱼翔
+T64	Time-Implicit 638 640	夏夜
+T65	Thing-Nominal 641 643	流萤
+T66	Time-Implicit 646 647	秋
+T67	Thing-Nominal 648 649;650 651	层 林
+T68	Time-Implicit 654 655	冬
+T69	Thing-Nominal 656 657	雪
+T70	Time-Implicit 659 661	初夏
+T71	Thing-Nominal 662 664	麦浪
+T72	Time-Implicit 667 669	夏秋
+T73	Thing-Nominal 672 674	稻菽
+T74	Location-Nominal 680 683	校园中
+T75	Thing-Nominal 688 689	日
+T76	Thing-Nominal 690 691	日
+T77	Thing-Nominal 693 694	云
+T78	Thing-Nominal 695 696	云
+T79	Location-Nominal 698 705	两座教学楼前面
+T80	Thing-Nominal 706 708	跑道
+R12	Located Arg1:T80 Arg2:T79	
+T81	Location-Nominal 709 710;711 718	东 边教学楼的后面
+T82	Thing-Nominal 719 721	操场
+R13	Located Arg1:T82 Arg2:T81	
+T85	Location-Nominal 738 742	劳动基地
+T86	Location-Nominal 745 747	菜园
+T87	Location-Nominal 750 752	果园
+T88	Location-Nominal 722 736	西边教学楼的后面与大礼堂之间
+R14	Part-Whole Arg1:T86 Arg2:T85	
+R15	Part-Whole Arg1:T87 Arg2:T85	
+T83	Time-Implicit 755 757	春天
+T84	Location-Nominal 758 761	果园里
+T89	Time-Explicit 778 780	梨花
+T90	Thing-Nominal 784 789	成群的蜜蜂
+T91	Location-Nominal 790 793	花丛中
+R16	Located Arg1:T90 Arg2:T91	
+T92	Time-Implicit 810 812	秋天
+T93	Thing-Nominal 813 814	梨
+T94	Location-Nominal 815 817	枝头
+R17	Located Arg1:T93 Arg2:T94	
+T95	Time-Implicit 827 829	那时
+T96	Organization-Nominal 830 833	语文课
+T97	Location-Nominal 859 861	农村
+T98	Location-Nominal 881 883	县里
+T99	Location-Name 899 907	东鲁公社达竹大队
+T100	Location-Name 910 913	东塍镇
+T101	Time-Implicit 879 881	当时
+T102	Thing-Nominal 917 922	很多的山路
+T103	Person-Nominal 925 929	大队干部
+T104	Person-Name 951 956	金光荣老师
+T105	Person-Pronoun 959 961	我们
+T106	Person-Pronoun 965 966	他
+*	Coreference T106 T104
+T107	Person-Pronoun 975 977	我们
+T108	Person-Nominal 979 984	书法爱好者
+R18	Part-Whole Arg1:T107 Arg2:T108	
+T109	Abstract 994 998	《英语》
+T110	Location-Name 1002 1007	阿尔巴尼亚
+T111	Organization-Nominal 1008 1009;1010 1015	欧 洲社会主义
+T112	Person-Pronoun 1026 1028	我们
+T113	Person-Name 1032 1037	陈月桂老师
+T114	Organization-Name 1041 1045	台州中学
+T115	Person-Name 1052 1057	林帮正老师
+T116	Organization-Nominal 1061 1068	市教育局教研室
+T117	Person-Name 1076 1081	叶淑芬老师
+T118	Person-Name 1092 1097	胡淑贞老师
+T119	Person-Pronoun 1098 1100	她们
+T120	Person-Nominal 1117 1120	同学们
+T121	Person-Name 1133 1138	胡淑贞老师
+T122	Person-Pronoun 1139 1141	我们
+T123	Person-Pronoun 1150 1151	她
+*	Coreference T123 T121
+T124	Thing-Nominal 1139 1147	我们的讲义、试卷
+T125	Person-Pronoun 1155 1157	我们
+T126	Abstract 1158 1166	《高中毕业证书》
+T127	Person-Pronoun 1168 1169	她
+T128	Person-Pronoun 1173 1174	她
+T129	Thing-Nominal 1185 1187	字帖
+T130	Time-Explicit 1205 1207	至今
+T131	Person-Name 1218 1221	胡老师
+T132	Time-Explicit 1238 1240	至今
+T133	Person-Nominal 1241 1244	班主任
+T134	Person-Name 1244 1249	叶再标老师
+*	Coreference T134 T133
+T135	Person-Pronoun 1262 1264	我们
+T136	Metric 1264 1267	十几岁
+T137	Person-Nominal 1269 1278	一个责任心极强的人
+T138	Time-Implicit 1280 1282	那时
+T139	Organization-Nominal 1282 1288	校园文化活动
+T140	Time-Implicit 1293 1296	高二时
+T141	Person-Nominal 1297 1299	本人
+T143	Organization-Name 1319 1330	校“国庆特刊”征文比赛
+T144	Person-Nominal 1331 1333	本人
+T145	Metric 1339 1340;1341 1346	5 00字左右
+T146	Abstract 1350 1355	《国旗颂》
+T147	Location-Nominal 1360 1365	学校黑板报
+T148	Time-Explicit 1384 1386	至今
+T149	Person-Nominal 1393 1395	本人
+T150	Time-Implicit 1395 1399	四十年来
+T151	Time-Implicit 1425 1427	那时
+T152	Time-Implicit 1466 1468	当时
+T153	Person-Nominal 1468 1471	老百姓
+T154	Person-Pronoun 1479 1481	我们
+T155	Location-Nominal 1486 1490	饭盒上面
+T156	Thing-Nominal 1492 1500	一层厚厚的蕃莳干
+R19	Located Arg1:T156 Arg2:T155	
+T157	Location-Nominal 1502 1505	粮管所
+T158	Thing-Nominal 1507 1510	贮备粮
+T159	Time-Implicit 1520 1526	每星期前三日
+T160	Thing-Nominal 1528 1530	菜蔬
+T161	Thing-Nominal 1534 1551	咸菜、带鱼干、豆腐乳、菜干、咸青豆
+R20	Part-Whole Arg1:T161 Arg2:T160	
+T162	Time-Implicit 1554 1557	后三日
+T163	Location-Nominal 1559 1564	学校食堂里
+T164	Metric 1566 1569	两分钱
+T165	Thing-Nominal 1569 1574	一份的青菜
+R21	Located Arg1:T165 Arg2:T163	
+T166	Time-Implicit 1576 1578	当时
+T167	Metric 1612 1615	一角钱
+T168	Thing-Nominal 1611 1618	卖一角钱的肉片
+T169	Time-Implicit 1619 1623	念高中时
+T170	Person-Pronoun 1624 1625	我
+T171	Thing-Nominal 1630 1647	一件黑色的土布(家织的棉布)中山装
+T172	Organization-Nominal 1652 1656	一个班里
+T173	Person-Nominal 1659 1664	一两位同学
+T174	Thing-Name 1667 1671	的确良裤
+T175	Thing-Name 1672 1678	卡机布尼龙袜
+T176	Person-Nominal 1697 1701	全校同学
+T177	Thing-Nominal 1707 1709;1710 1713	一辆 自行车
+T178	Location-Nominal 1714 1719	学校的东边
+T179	Location-Nominal 1720 1722	街区
+R22	Near Arg1:T179 Arg2:T178	
+T180	Metric 1729 1732	一里地
+T181	Location-Nominal 1737 1741	一片田野
+T182	Thing-Nominal 1744 1754	一条泥泞不堪的机耕路
+T183	Location-Name 1758 1766	下高殿生产资料站
+T184	Time-Implicit 1767 1770;1771 1776	冬天的 早晨漱洗时
+T185	Thing-Nominal 1783 1791	一大勺温的洗脸水
+T186	Time-Implicit 1804 1816	一九七三年清明节后的一天
+T187	Time-Implicit 1817 1821	早上六时
+T188	Person-Pronoun 1821 1824	，我们
+T189	Organization-Nominal 1824 1833	高一与高二两个年级
+T190	Person-Nominal 1824 1846	高一与高二两个年级的400多名学生与带队老师
+T191	Metric 1834 1839	400多名
+R23	Ownership Arg1:T190 Arg2:T189	
+T192	Thing-Nominal 1851 1853	背包
+T193	Location-Name 1854 1856	海门
+T194	Location-Name 1862 1868	台州市椒江区
+T195	Location-Name 1905 1909	涌泉中学
+T196	Location-Name 1914 1920	涌泉中学食堂
+T197	Thing-Nominal 1923 1928	自带的干粮
+T198	Time-Implicit 1938 1944	下午五时左右
+T199	Location-Name 1946 1948	前所
+T200	Location-Name 1952 1954	海门
+T201	Thing-Nominal 1949 1951	渡船
+T202	Location-Name 1965 1967	海门
+T203	Time-Explicit 1978 1980	当晚
+T204	Person-Nominal 1981 1983;1984 1985	我们 班
+T205	Location-Name 1990 1996	海门人民小学
+R24	Ownership Arg1:T204 Arg2:T205	
+T206	Thing-Nominal 2006 2008	饭甑
+T207	Thing-Nominal 2016 2017	饭
+T208	Location-Nominal 2020 2028	教室楼上的地板上
+T209	Person-Pronoun 2050 2052	我们
+T210	Time-Implicit 2057 2060	晚饭后
+T211	Location-Nominal 2062 2065	脚板上
+T212	Thing-Nominal 2068 2072	一些碘酒
+R25	Located Arg1:T212 Arg2:T211	
+T213	Metric 2076 2078	一天
+T214	Person-Pronoun 2079 2081	我们
+T215	Time-Implicit 2083 2087	那天晚上
+T216	Time-Implicit 2092 2096	次日上午
+T217	Person-Pronoun 2102 2104	我们
+T218	Location-Name 2108 2119	解放一江山岛烈士纪念馆
+T219	Location-Name 2122 2126	烈士陵园
+T220	Person-Nominal 2150 2162	解放一江山岛战役的亲历者
+T221	Abstract 2150 2158	解放一江山岛战役
+T222	Thing-Nominal 2177 2180	烈士墓
+T223	Time-Implicit 2181 2183	下午
+T224	Organization-Name 2186 2199	国有大型企业――海门化肥厂
+T225	Location-Pronoun 2201 2203	那里
+T226	Metric 2205 2209	两个晚上
+T227	Time-Implicit 2210 2215	第三天上午
+T228	Person-Pronoun 2216 2218	我们
+T229	Thing-Nominal 2219 2220	船
+T230	Location-Nominal 2222 2224	学校
+T231	Time-Explicit 2226 2236	一九七四年清明节以后
+T232	Organization-Nominal 2237 2240	我们班
+T233	Organization-Nominal 2242 2244	学校
+T235	Time-Implicit 2275 2284	整整一个星期的时间
+T234	Location-Name 2246 2255	塘里公社磨地头大队
+T236	Location-Name 2285 2286;2287 2289	磨 地头
+T237	Person-Nominal 2319 2323	我们男生
+T238	Location-Nominal 2325 2332	大队小学的楼上
+R26	Ownership Arg1:T237 Arg2:T238	
+T239	Time-Implicit 2336 2338	早晚
+T240	Location-Nominal 2339 2341	山沟
+T241	Thing-Nominal 2351 2353	山蟹
+R27	Located Arg1:T241 Arg2:T240	
+T242	Location-Pronoun 2355 2357	那里
+*	Coreference T242 T236
+T243	Thing-Nominal 2361 2368	特批的咸肉煮笋
+T244	Thing-Nominal 2372 2374	猪肉
+T245	Person-Pronoun 2388 2390	我们
+T246	Location-Name 2392 2403	麻地头大队龙潭头寺门前
+T247	Person-Pronoun 2429 2431	我们
+T248	Person-Nominal 2439 2441	大家
+T249	Organization-Nominal 2450 2452	学校
+T250	Person-Pronoun 2455 2457	我们
+T251	Thing-Nominal 2459 2461	牛粪
+T252	Thing-Nominal 2462 2464	蘑菇
+R28	Ownership Arg1:T250 Arg2:T249	
+T253	Person-Pronoun 2465 2467	我们
+T254	Thing-Nominal 2470 2473	鹅卵石
+T255	Location-Name 2477 2481	梅岙水库
+T256	Location-Name 2487 2490	下高山
+T257	Thing-Nominal 2492 2494	石头
+T258	Thing-Nominal 2495 2497	围墙
+R29	Part-Whole Arg1:T257 Arg2:T258	
+T259	Person-Pronoun 2499 2501	我们
+T260	Location-Name 2504 2509	大田机械厂
+T261	Location-Name 2510 2519	“快乐”牌电饭煲厂
+T262	Metric 2529 2533	一个星期
+T263	Time-Implicit 2529 2533	一个星期
+T264	Person-Nominal 2534 2536	本人
+T265	Organization-Nominal 2540 2544	翻砂车间
+T266	Time-Implicit 2547 2549	两年
+T267	Person-Nominal 2561 2563	大家
+T268	Person-Nominal 2580 2582	同学
+T269	Person-Nominal 2594 2598	兄弟姊妹
+T270	Time-Implicit 2601 2604	四十年
+T271	Person-Pronoun 2610 2612	我们
+T272	Time-Explicit 2615 2625	1974年7月12日
+T273	Time-Explicit 2626 2634	在毕业的当天下午
+T274	Person-Pronoun 2635 2637	我们
+T275	Location-Nominal 2640 2650	东塍十几位同学的家中
+T276	Metric 2642 2645	十几位
+T277	Person-Nominal 2645 2647	同学
+T278	Person-Name 2652 2657	周才宗同学
+T279	Location-Nominal 2652 2659	周才宗同学家里
+T280	Metric 2661 2665	两个晚上
+T281	Time-Explicit 2666 2668	至今
+T282	Time-Implicit 2683 2685	那时
+T283	Person-Nominal 2698 2703	班级的同学
+T284	Person-Nominal 2746 2751	有准备的人
+T285	Time-Implicit 2753 2758	1977年
+T286	Abstract 2760 2766	全国高考制度
+T287	Person-Nominal 2768 2775	全班57名同学
+T288	Metric 2770 2773	57名
+T289	Person-Nominal 2780 2785	十几位同学
+T290	Metric 2780 2783	十几位
+T291	Organization-Nominal 2788 2791	大中专
+T292	Person-Nominal 2811 2815	我的同桌
+T293	Person-Nominal 2816 2823	班级团支部书记
+T294	Person-Name 2823 2828	杨建民同学
+*	Coreference T294 T293 T292 T295
+T295	Person-Nominal 2833 2841	第三军医大学教授
+T296	Organization-Name 2833 2839	第三军医大学
+R30	Ownership Arg1:T295 Arg2:T296	
+T297	Person-Nominal 2842 2849	文职正师级干部
+T298	Person-Name 2852 2857	朱卫群夫妇
+T299	Metric 2859 2861	五位
+T300	Person-Nominal 2859 2863	五位同学
+T301	Person-Nominal 2867 2873	中学高级教师
+T303	Abstract 2889 2893	《校志》
+T302	Organization-Name 2875 2886	大田中学为校庆70周年
+T304	Person-Nominal 2895 2897	本人
+T305	Person-Pronoun 2911 2913	我们
+T306	Organization-Name 2913 2919	塘里公社中学
+T307	Organization-Name 2922 2926	大洋中学
+T308	Metric 2933 2935	五名
+T309	Person-Nominal 2933 2938	五名初中生
+T310	Time-Implicit 2940 2942	后来
+T311	Person-Nominal 2946 2950	三名同学
+T312	Metric 2946 2948	三名
+T313	Person-Nominal 2954 2960	中学高级教师
+T314	Organization-Name 2964 2968	塘里中学
+T315	Person-Nominal 2982 2987	教育工作者
+T316	Metric 2991 2994	25名
+T317	Person-Nominal 2994 2999	中小学教师
+T318	Metric 3001 3005	10几名
+T319	Person-Nominal 3005 3007	同学
+T320	Person-Pronoun 3035 3037	我们
+T321	Person-Nominal 3046 3050	母校老师
+T322	Organization-Nominal 3056 3058	母校
+T323	Time-Implicit 3067 3071	70多年
+T324	Metric 3067 3071	70多年
+T325	Organization-Nominal 3085 3087	母校
+T326	Person-Pronoun 3089 3091	我们
+T327	Organization-Pronoun 3100 3101	你
+*	Coreference T327 T325
+T328	Organization-Pronoun 3105 3106	你
+T329	Organization-Nominal 3114 3119	我们的母校
+T330	Organization-Nominal 3123 3132	浙江省一级重点中学
+T7	Abstract 45 54	国家第30个教师节
+T331	Time-Implicit 246 248	秋季
+T332	Abstract 413 417	“文革”

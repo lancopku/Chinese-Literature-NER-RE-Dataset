@@ -1,0 +1,233 @@
+T1	Time-Explicit 1 7	中国近代史上
+T2	Person-Nominal 12 17	外来侵略者
+T3	Location-Nominal 18 20	沿海
+T4	Thing-Nominal 21 26	不少小村子
+R1	Located Arg1:T4 Arg2:T3	
+T5	Thing-Nominal 31 41	珠海淇澳岛上的淇澳村
+T6	Location-Nominal 31 37	珠海淇澳岛上
+R2	Located Arg1:T5 Arg2:T6	
+T7	Thing-Nominal 44 56	这样一个颇富盛名的小渔村
+T8	Time-Explicit 63 67	满清王朝
+T9	Time-Implicit 68 70	那时
+T10	Person-Nominal 71 75	帝国列强
+T11	Thing-Nominal 78 85	多少不平等条约
+T12	Thing-Nominal 88 89	地
+T13	Thing-Nominal 95 103	这个小小的淇澳村
+T14	Person-Nominal 105 112	老牌英美侵略者
+T15	Location-Nominal 113 116	珠江口
+T16	Person-Nominal 122 124	敌人
+T17	Metric 126 129	三千两
+T18	Time-Explicit 131 136	中国近代史
+T19	Person-Nominal 143 149	有眼光的先辈
+T20	Thing-Nominal 151 154	这笔钱
+T21	Location-Nominal 155 157	岛上
+T22	Thing-Nominal 161 164	天后庙
+R3	Located Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 167 173	白花花的石板
+T24	Thing-Nominal 175 180	一条环形路
+T25	Location-Nominal 184 187	大地上
+T26	Thing-Nominal 187 194	永恒的“路碑”
+R4	Located Arg1:T26 Arg2:T25	
+T27	Person-Pronoun 196 197	我
+T28	Time-Implicit 196 203	我于南国采风时
+T29	Location-Name 207 222	民国第一任总理唐绍仪家乡鸡山村
+T30	Person-Name 214 217	唐绍仪
+T31	Location-Nominal 217 219	家乡
+T32	Metric 224 227	一年多
+T33	Location-Name 228 230	鸡山
+T34	Location-Name 231 233	淇澳
+R5	Near Arg1:T34 Arg2:T33	
+T35	Thing-Nominal 241 242	船
+T36	Thing-Nominal 238 240	前脚
+T37	Thing-Nominal 243 245	后脚
+T38	Person-Pronoun 248 249	我
+T39	Location-Name 253 256;257 258	白石街 上
+T40	Thing-Nominal 261 268	清爽的百年路面
+T41	Person-Pronoun 271 272	我
+T42	Time-Implicit 287 289	一天
+T43	Person-Pronoun 290 291	我
+T44	Location-Nominal 291 297	眼前的路面上
+T45	Thing-Nominal 302 310	一块异样的白石板
+R6	Located Arg1:T45 Arg2:T44	
+T46	Thing-Nominal 321 324	其顶端
+T47	Thing-Nominal 334 341	密密麻麻的洋文
+T48	Location-Nominal 330 332	通体
+R7	Located Arg1:T47 Arg2:T48	
+T49	Person-Pronoun 344 345	我
+T50	Thing-Nominal 353 360	四位阿拉伯数字
+T51	Location-Nominal 349 352	最下端
+R8	Located Arg1:T50 Arg2:T51	
+T52	Person-Pronoun 388 389	我
+T53	Thing-Nominal 398 403	这四个数字
+T54	Time-Explicit 414 419	1836年
+T55	Time-Explicit 422 428	清道光十六年
+T56	Time-Explicit 432 441	此年农历七月二日晨
+T57	Location-Nominal 442 444	漫天
+T58	Thing-Nominal 444 446	阴云
+R9	Located Arg1:T58 Arg2:T57	
+T59	Organization-Name 449 455	英国联邦公司
+T60	Organization-Name 456 463	美国波士顿公司
+T61	Person-Nominal 464 466	船队
+T62	Metric 468 472	十五六艘
+T63	Location-Name 481 484	淇澳岛
+T64	Person-Pronoun 485 487	他们
+*	Coreference T64 T61
+T65	Location-Nominal 489 490;491 492	手 中
+T66	Thing-Nominal 493 497	先进武器
+R10	Located Arg1:T66 Arg2:T65	
+T67	Location-Nominal 509 511	海上
+T68	Thing-Nominal 516 519	淇澳岛
+R11	Located Arg1:T68 Arg2:T67	
+T69	Person-Pronoun 522 524	他们
+T70	Location-Name 525 529	中国内地
+T71	Thing-Nominal 534 536	鸦片
+T72	Location-Nominal 537 539	基地
+T73	Thing-Nominal 541 547	当时的淇澳岛
+T74	Time-Implicit 541 543	当时
+T75	Person-Nominal 550 554	三千村民
+T76	Person-Pronoun 555 557	他们
+*	Coreference T76 T75
+T77	Person-Nominal 561 565	这邦强盗
+T78	Location-Name 575 578	抢牛巷
+T79	Person-Nominal 583 586	英国人
+T80	Time-Implicit 586 588	那时
+T81	Thing-Nominal 589 590	牛
+T82	Person-Name 598 601;602 607	绅士钟 光祥、蔡义
+T83	Person-Nominal 614 616	村民
+T84	Metric 630 635	150多年
+T85	Time-Implicit 628 637	过了150多年之后
+T86	Person-Name 638 646	淇澳村委会姚主任
+T87	Person-Pronoun 647 648	我
+T88	Time-Implicit 638 651	淇澳村委会姚主任领我参观时
+T89	Metric 658 662	20多米
+T90	Thing-Nominal 665 667	炮台
+T91	Thing-Nominal 672 676	方形炮眼
+T92	Thing-Nominal 689 691	火苗
+T93	Person-Pronoun 692 693	我
+T94	Person-Nominal 697 700	淇澳人
+T95	Person-Nominal 702 708	英、美侵略者
+T96	Person-Nominal 715 723;724 726	16岁以上男性青 壮年
+T97	Thing-Nominal 727 729	飞箭
+T98	Location-Name 733 739	村北天后庙前
+T99	Location-Nominal 753 756	炮台上
+T100	Thing-Nominal 745 752	铸铁大炮和铜炮
+R12	Located Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 764 767	淇澳岛
+T102	Person-Nominal 774 776	人们
+T103	Time-Implicit 771 773	今天
+T104	Thing-Nominal 787 796	森林般的黄皮肤手臂
+T105	Person-Nominal 806 810	天后娘娘
+T106	Thing-Nominal 811 813	目光
+T107	Location-Nominal 818 820	身后
+T108	Thing-Nominal 821 826	金星门海峡
+R13	Located Arg1:T108 Arg2:T107	
+T109	Location-Nominal 803 805	面前
+T110	Location-Nominal 833 838	这生死场上
+T111	Abstract 848 854	《唐家村史》
+T112	Location-Name 858 861	淇澳湾
+T113	Location-Name 862 865	唐家湾
+T114	Location-Name 867 871	中山横门
+T115	Location-Name 872 882	内伶仃岛辽阔的海面上
+T116	Thing-Nominal 885 894	四五百艘英舰、船只
+T117	Person-Nominal 895 905	数千名鸦片贩子与士兵
+T118	Thing-Nominal 916 921	中国的大门
+T119	Person-Nominal 949 951	老人
+T120	Person-Pronoun 952 953	我
+T121	Person-Nominal 955 958	英国人
+T122	Time-Implicit 958 960	那时
+T123	Person-Nominal 960 964	所垂涎者
+T124	Thing-Nominal 965 967;968 969	淇澳 岛
+T125	Thing-Nominal 973 976	香港岛
+T126	Thing-Nominal 977 980	淇澳岛
+T127	Thing-Nominal 981 992	珠江入海口的第一道大门
+T128	Thing-Nominal 997 1002	第一道大门
+T129	Thing-Nominal 1004 1006	珠江
+T130	Person-Pronoun 1017 1019	他们
+*	Coreference T130 T121
+T131	Thing-Nominal 1031 1033	火炮
+T132	Person-Pronoun 1040 1042	他们
+T133	Location-Name 1048 1053	金星门海峡
+T134	Thing-Nominal 1056 1057	浪
+T135	Metric 1058 1060	千尺
+T136	Thing-Nominal 1061 1063	烟火
+T137	Metric 1063 1065	万丈
+T138	Thing-Nominal 1083 1086	暴风雨
+T139	Thing-Nominal 1091 1093	肉体
+T140	Person-Nominal 1112 1116	英国水兵
+T141	Thing-Nominal 1119 1120	弹
+T142	Thing-Nominal 1121 1122	水
+T143	Person-Nominal 1125 1128	淇澳人
+T144	Person-Name 1144 1147;1148 1160	美国波 斯顿轮船局威廉、柯尔船长
+T145	Thing-Nominal 1165 1171	罪恶的指挥旗
+T146	Location-Nominal 1174 1176	海中
+R14	Located Arg1:T145 Arg2:T146	
+T147	Person-Nominal 1177 1181	英美舰队
+T148	Time-Implicit 1192 1196	中午时分
+T149	Thing-Nominal 1197 1199	大海
+T150	Thing-Nominal 1202 1204	敌舰
+T151	Person-Nominal 1213 1216	侵略者
+T152	Thing-Nominal 1220 1222	白旗
+T153	Time-Implicit 1226 1228	战后
+T154	Person-Name 1229 1232	钟光祥
+T155	Person-Nominal 1241 1249	以英为首的战败方
+T156	Thing-Nominal 1250 1253	淇澳村
+T157	Thing-Nominal 1254 1256	白银
+T158	Metric 1256 1259	三千两
+T159	Person-Nominal 1272 1275	淇澳人
+T160	Thing-Nominal 1276 1278	赔款
+T161	Location-Nominal 1279 1281	村里
+T162	Thing-Nominal 1283 1286	白石路
+T163	Thing-Nominal 1288 1294	遗留下的炮台
+T164	Thing-Nominal 1297 1316	珠海今日教育子孙后代的爱国主义教育基地
+T165	Person-Nominal 1303 1307	子孙后代
+T166	Location-Name 1317 1320	天后庙
+T167	Person-Pronoun 1327 1328	我
+T168	Location-Pronoun 1328 1331	在那里
+*	Coreference T168 T166
+T169	Thing-Nominal 1336 1340	素食午餐
+T170	Person-Nominal 1342 1348	淇澳人的祖宗
+T171	Person-Nominal 1342 1345	淇澳人
+T172	Person-Nominal 1350 1352	后辈
+T173	Person-Pronoun 1360 1362	他们
+*	Coreference T173 T170
+T174	Location-Name 1364 1368	英美两国
+T175	Person-Nominal 1370 1376	战场上的将士
+T176	Thing-Nominal 1379 1385	岛上的青社角
+T177	Location-Nominal 1379 1381	岛上
+R15	Located Arg1:T176 Arg2:T177	
+T178	Person-Nominal 1389 1394	他们的亲人
+T179	Person-Pronoun 1389 1391	他们
+*	Coreference T179 T175
+T180	Thing-Nominal 1397 1398	墓
+T181	Time-Explicit 1406 1419	1850年和1853年9月
+T182	Person-Nominal 1420 1422	英人
+T183	Person-Nominal 1427 1430	阵亡者
+T184	Thing-Nominal 1432 1435	两块碑
+T185	Metric 1439 1444	150年来
+T186	Location-Nominal 1445 1447	岛上
+T187	Person-Pronoun 1452 1453	谁
+T188	Thing-Nominal 1457 1461	那两块碑
+T189	Person-Pronoun 1469 1470	我
+T190	Thing-Nominal 1476 1481	这块白石碑
+T191	Person-Nominal 1492 1496	识英文者
+T192	Location-Nominal 1499 1501	碑上
+T193	Person-Nominal 1507 1513	一份阵亡名单
+R16	Ownership Arg1:T193 Arg2:T192	
+T194	Person-Nominal 1515 1518	首位者
+T195	Person-Name 1523 1524;1525 1547	美 国波斯顿船局前任局长、波斯顿号船长威廉・柯尔
+T196	Person-Nominal 1550 1553	阵亡者
+T197	Location-Nominal 1565 1569	这块碑上
+T198	Time-Explicit 1600 1605	1836年
+T199	Person-Pronoun 1615 1617	他们
+T200	Time-Implicit 1628 1637	1853年9月以后
+T201	Person-Pronoun 1644 1646	他们
+T202	Person-Nominal 1663 1667	英美之人
+T203	Location-Nominal 1668 1670	岛上
+T204	Person-Pronoun 1676 1677	我
+T205	Person-Name 1680 1683	姚主任
+R17	Social Arg1:T205 Arg2:T204	
+T206	Location-Name 1688 1692	白石路上
+T207	Thing-Nominal 1694 1698	这块墓碑
+R18	Located Arg1:T207 Arg2:T206	
+T208	Person-Pronoun 1706 1708	我们
+T209	Person-Pronoun 1728 1730	他们

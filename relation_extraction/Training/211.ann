@@ -1,0 +1,16 @@
+T1	Metric 5 7	五十
+T2	Metric 10 12	几十
+T3	Time-Implicit 10 13	几十年
+T4	Location-Name 22 25	十字街
+T5	Metric 39 41	一幅
+T6	Time-Implicit 44 48	夜色朦胧
+T7	Location-Nominal 49 52	老街上
+T8	Location-Name 63 66	十字街
+T9	Location-Nominal 67 70	西北角
+T10	Metric 73 75	一盏
+T11	Thing-Nominal 75 77	油灯
+T12	Thing-Nominal 85 87	火苗
+T13	Thing-Nominal 89 91	夜风
+T14	Thing-Pronoun 98 99	它
+*	Coreference T12 T14
+T15	Thing-Nominal 118 120	星星

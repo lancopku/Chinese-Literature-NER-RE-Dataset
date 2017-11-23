@@ -1,0 +1,142 @@
+T1	Person-Pronoun 24 26	我们
+T2	Thing-Nominal 56 58	米饭
+T3	Thing-Nominal 62 63	鱼
+T4	Location-Nominal 105 107	超市
+T5	Location-Nominal 108 112	农贸市场
+T6	Person-Nominal 129 131	妈妈
+T7	Person-Pronoun 134 136	我们
+R1	Family Arg1:T7 Arg2:T6	
+T8	Thing-Nominal 138 140	鸡蛋
+T9	Person-Nominal 144 146	爸妈
+T10	Person-Pronoun 152 154	我们
+T11	Person-Nominal 154 157	姐弟妹
+*	Coreference T10 T11
+T12	Time-Implicit 160 164	每个周末
+T13	Location-Nominal 165 168	父母家
+T14	Person-Pronoun 208 210	我们
+T15	Location-Nominal 225 227	厨房
+T16	Person-Nominal 254 256	大家
+*	Coreference T14 T16
+T17	Person-Nominal 271 273	爸妈
+T18	Time-Implicit 276 278	几天
+T19	Person-Nominal 291 293	妈妈
+T20	Thing-Nominal 298 299	鸡
+T21	Person-Pronoun 300 302	我们
+T22	Person-Nominal 314 316	妈妈
+T23	Person-Nominal 326 328	爸爸
+R2	Family Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 341 343	鸡笼
+T25	Thing-Nominal 348 350	竹槽
+T26	Thing-Nominal 353 355	铁条
+T27	Thing-Nominal 360 363	塑料罐
+T28	Thing-Nominal 364 365	水
+R3	Located Arg1:T27 Arg2:T28	
+R4	Located Arg1:T25 Arg2:T24	
+R5	Located Arg1:T26 Arg2:T24	
+R6	Located Arg1:T27 Arg2:T24	
+T29	Thing-Nominal 367 369	鸟笼
+T30	Person-Nominal 373 375	妹妹
+T31	Person-Nominal 379 381	爸妈
+T32	Thing-Nominal 383 386	宠物鸡
+R7	Family Arg1:T30 Arg2:T31	
+T33	Thing-Nominal 391 393	,鸡
+T34	Thing-Nominal 395 396	笼
+R8	Located Arg1:T33 Arg2:T34	
+T35	Time-Implicit 410 414	十来八天
+T36	Person-Nominal 414 416	,妈
+T37	Thing-Nominal 423 424	鸡
+T38	Thing-Nominal 435 436	笼
+T39	Person-Nominal 451 452	妈
+T40	Thing-Nominal 453 454	鸡
+T41	Location-Nominal 477 479	乡村
+T42	Thing-Nominal 480 481	鸡
+T43	Time-Implicit 497 499	每天
+T44	Thing-Nominal 505 507	鸡粪
+T45	Person-Nominal 509 510;511 512	妈 妈
+T46	Person-Nominal 520 522	妈妈
+T47	Thing-Nominal 531 534	小母鸡
+T48	Thing-Nominal 536 537	蛋
+T49	Time-Implicit 543 546	,每天
+T50	Thing-Nominal 550 552	鸡蛋
+T51	Thing-Nominal 555 557	鸡蛋
+T52	Thing-Nominal 565 568	鸽子蛋
+T53	Thing-Nominal 575 577	蛋白
+R9	Part-Whole Arg1:T53 Arg2:T51	
+T54	Thing-Nominal 583 585	蛋黄
+R10	Part-Whole Arg1:T54 Arg2:T51	
+T55	Person-Pronoun 604 606	我们
+T56	Person-Nominal 611 613	小孩
+R11	Family Arg1:T55 Arg2:T56	
+T57	Person-Pronoun 633 635	他们
+*	Coreference T57 T56
+T58	Person-Pronoun 678 680	他们
+T59	Person-Pronoun 711 713	他们
+T60	Person-Nominal 733 735	小孩
+T61	Person-Nominal 739 741	妈妈
+T62	Thing-Nominal 742 743	鸡
+T63	Thing-Nominal 752 754	鸡蛋
+T64	Person-Nominal 758 760	妈妈
+T65	Time-Implicit 760 762	每天
+T66	Thing-Nominal 764 765	鸡
+T67	Thing-Nominal 775 777	青菜
+T68	Thing-Nominal 778 780	稻谷
+T69	Thing-Nominal 781 783	谷糠
+T70	Thing-Nominal 790 793	牡蛎壳
+T71	Location-Nominal 797 799	海边
+T72	Thing-Nominal 801 803	沙子
+T73	Thing-Nominal 804 805	鸡
+T74	Thing-Nominal 806 808	沙坑
+T75	Thing-Nominal 809 812	小母鸡
+T76	Thing-Nominal 819 820	蛋
+T77	Time-Implicit 821 825	一个多月
+R12	Family Arg1:T60 Arg2:T61	
+R13	Located Arg1:T72 Arg2:T71	
+T78	Person-Pronoun 830 832	我们
+T79	Person-Nominal 843 845	妈妈
+T80	Thing-Nominal 850 852	鸡蛋
+T81	Person-Nominal 859 861	妈妈
+T82	Time-Implicit 874 877	小时候
+T83	Person-Pronoun 878 880	我们
+T84	Person-Pronoun 896 897	我
+T85	Thing-Nominal 898 900	鸡蛋
+T86	Person-Pronoun 905 906	我
+T87	Location-Nominal 909 911	娘家
+T88	Time-Implicit 912 916	半个月后
+T89	Person-Nominal 926 928	爸妈
+T90	Person-Nominal 934 936	妈妈
+T91	Thing-Nominal 938 940	地板
+T92	Thing-Nominal 943 946	储藏柜
+R14	Located Arg1:T92 Arg2:T91	
+T93	Person-Pronoun 956 957	她
+*	Coreference T93 T90
+T94	Person-Pronoun 961 962	她
+T95	Thing-Nominal 977 979	簸箕
+T96	Location-Nominal 981 985	柜子底下
+R15	Located Arg1:T95 Arg2:T96	
+T97	Thing-Nominal 986 988	鸡蛋
+R16	Located Arg1:T97 Arg2:T95	
+T98	Person-Pronoun 993 994	我
+T99	Person-Nominal 1006 1008	妈妈
+T100	Thing-Nominal 1013 1015	冰箱
+T101	Person-Pronoun 1021 1022	你
+T102	Person-Pronoun 1035 1036	我
+T103	Person-Pronoun 1037 1038	你
+T104	Person-Pronoun 1045 1046	我
+*	Coreference T99 T102 T106
+*	Coreference T104 T101
+T105	Person-Pronoun 1045 1046	我
+T106	Person-Pronoun 1047 1048	她
+T107	Person-Nominal 1054 1056	爸爸
+T108	Person-Pronoun 1061 1062	她
+T109	Person-Pronoun 1067 1069	我们
+T110	Location-Nominal 1086 1088	市场
+T111	Thing-Nominal 1090 1092	鸡蛋
+T112	Person-Nominal 1098 1100	小孩
+T113	Person-Nominal 1117 1119	大人
+T114	Person-Nominal 1131 1133	孩子
+T115	Person-Pronoun 1146 1148	我们
+T116	Person-Nominal 1154 1156	父母
+T117	Person-Pronoun 1162 1164	我们
+T118	Person-Nominal 1173 1175	大人
+R17	Family Arg1:T117 Arg2:T116	
+R18	Family Arg1:T113 Arg2:T114	

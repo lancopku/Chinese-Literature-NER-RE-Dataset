@@ -1,0 +1,256 @@
+T1	Location-Nominal 2 4	军校
+T2	Thing-Nominal 46 48	夕阳
+T3	Thing-Nominal 49 51	黄昏
+T4	Thing-Nominal 87 92	历史的琴弦
+T5	Location-Name 94 99	，“黄埔”
+T6	Organization-Nominal 107 111	一个民族
+T7	Person-Nominal 136 139	一个人
+T8	Organization-Nominal 144 148	一个国家
+T9	Organization-Nominal 152 156	一所学校
+T10	Person-Nominal 160 163	许多人
+T11	Person-Name 167 170	孙中山
+T12	Location-Pronoun 178 180	这里
+*	Coreference T12 T5
+T13	Thing-Name 185 188	中山舰
+T14	Person-Nominal 233 237	一个伟人
+T15	Thing-Nominal 240 249	一所“陆军军官学校
+R1	Create Arg1:T14 Arg2:T15	
+T17	Thing-Nominal 278 288	世界“四大军校”之一
+T16	Thing-Nominal 251 255	这所学校
+R2	Part-Whole Arg1:T16 Arg2:T17	
+T18	Location-Name 307 311	黄埔军校
+T19	Location-Pronoun 381 382	它
+*	Coreference T19 T18
+T20	Time-Implicit 385 394	国共第一次合作时期
+T21	Location-Pronoun 419 420	它
+T22	Person-Nominal 422 428	中国热血青年
+T23	Person-Nominal 436 439	多少人
+T24	Location-Name 448 451	长洲岛
+T25	Location-Name 459 461	黄埔
+T26	Location-Name 397 399	黄埔
+T27	Thing-Nominal 462 466	一所军校
+T28	Thing-Nominal 473 475	军校
+R3	Located Arg1:T27 Arg2:T25	
+T29	Location-Pronoun 498 500	这里
+T30	Person-Nominal 504 519	赫赫有名的影响中国革命的大人物
+T31	Person-Nominal 520 527	威震天下的战将
+T32	Person-Pronoun 528 530	他们
+T33	Person-Nominal 533 535	日寇
+T34	Location-Nominal 553 567	两党培养军事和政治英才的摇篮
+T35	Location-Name 570 574	渔珠码头
+T36	Thing-Nominal 575 576	船
+T37	Location-Name 578 581	长洲岛
+T38	Thing-Nominal 584 591	几条弯曲的小巷
+T39	Location-Nominal 595 599	绿阴之中
+T40	Thing-Nominal 592 604	掩映在绿阴之中的黄埔军校
+R4	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 611 619	历尽沧桑后的军校
+T42	Person-Pronoun 627 628	我
+T44	Person-Pronoun 648 649	我
+T45	Time-Implicit 640 643	90年
+T43	Metric 640 643	90年
+T46	Location-Nominal 650 652	军校
+T47	Location-Nominal 669 678	改变人生旅途的驿站
+T48	Location-Nominal 700 702	军校
+T49	Location-Nominal 745 750	军校的正门
+T50	Person-Name 752 759	国民党元老谭元
+T51	Thing-Nominal 752 772	国民党元老谭元手书的“陆军军官学校”木匾
+R5	Located Arg1:T51 Arg2:T49	
+T52	Location-Nominal 773 776	门楼上
+T53	Location-Nominal 792 795	牌匾前
+T54	Person-Nominal 801 802	人
+T55	Person-Nominal 820 822	将领
+T56	Organization-Nominal 826 832	陆军军官学校
+T57	Person-Nominal 875 877	后人
+T58	Thing-Nominal 916 918	此门
+T59	Person-Nominal 924 927;928 930	真正男 子汉
+T60	Location-Nominal 920 927;928 933	一个造就真正男 子汉的摇篮
+T61	Person-Nominal 935 942	名震中外的将帅
+T62	Person-Nominal 945 953	献身革命的指挥员
+T63	Person-Nominal 956 959	男子汉
+T64	Person-Name 955 968	有男子汉般意志的奇女赵一曼
+T65	Location-Nominal 969 973	校门两侧
+T66	Thing-Nominal 973 988;989 992	“革命尚未成功，同志仍须努力” 的对联
+R6	Located Arg1:T66 Arg2:T65	
+T67	Person-Name 995 1000	孙中山先生
+T68	Location-Nominal 1017 1022	今天的军校
+T69	Time-Explicit 1017 1019	今天
+T70	Person-Nominal 1027 1029	自己
+T71	Location-Pronoun 1043 1044	它
+*	Coreference T71 T68
+T72	Location-Nominal 1081 1083	大门
+T73	Thing-Nominal 1089 1098	一片盈盈碧波的珠江
+R7	Near Arg1:T73 Arg2:T72	
+T74	Location-Nominal 1099 1104	江边的码头
+T75	Location-Nominal 1105 1117	学校与外界往来的唯一入口
+*	Coreference T75 T74
+T76	Time-Implicit 1118 1120	当年
+T77	Person-Name 1121 1126	孙中山先生
+T78	Person-Name 1127 1132	夫人宋庆龄
+R8	Family Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 1134 1136	舰艇
+T80	Location-Nominal 1137 1138;1139 1142	这 个码头
+T81	Location-Nominal 1144 1146	军校
+T82	Organization-Nominal 1149 1151	军校
+T83	Person-Nominal 1210 1212	人们
+T84	Person-Pronoun 1218 1219	他
+*	Coreference T84 T77
+T85	Location-Nominal 1259 1264	军校陈列馆
+T86	Thing-Nominal 1267 1278	泛黄的图片、文字、文物
+R9	Located Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 1282 1284	军校
+T88	Person-Nominal 1291 1302	当年风华正茂的黄埔军人
+T89	Person-Nominal 1325 1327	后人
+T90	Person-Nominal 1340 1347	共和国的创始人
+T91	Person-Name 1361 1366	首任总理曾
+T92	Organization-Nominal 1369 1371	军校
+T93	Person-Nominal 1377 1379;1380 1383	第一 任校长
+T94	Person-Nominal 1399 1403	“校长”
+T95	Person-Nominal 1475 1479	杰出人物
+T96	Location-Nominal 1497 1499	二门
+T97	Location-Nominal 1501 1504	校本部
+T98	Person-Name 1507 1512	孙中山先生
+T99	Location-Pronoun 1515 1516	此
+*	Coreference T99 T97
+T100	Time-Implicit 1505 1507	当年
+T101	Time-Explicit 1519 1521	如今
+T102	Person-Nominal 1541 1543	伟人
+T103	Location-Name 1553 1555;1556 1563	长洲 岛上的一方热土
+T104	Location-Nominal 1566 1571	二门的后面
+T105	Thing-Nominal 1572 1583	一座岭南风格的祠堂建筑
+R10	Located Arg1:T105 Arg2:T104	
+T106	Location-Nominal 1584 1586	楼上
+T107	Person-Name 1588 1595	蒋介石、周恩来
+T108	Thing-Nominal 1588 1599	蒋介石、周恩来的办公室
+R11	Located Arg1:T108 Arg2:T106	
+T109	Location-Nominal 1600 1604	走廊外沿
+T110	Thing-Nominal 1606 1615	作为小憩的坐凳栏杆
+R12	Located Arg1:T110 Arg2:T109	
+T111	Person-Pronoun 1616 1617	我
+T112	Location-Pronoun 1620 1622	这里
+T113	Person-Nominal 1630 1632	先人
+T114	Location-Pronoun 1639 1640	他
+T115	Person-Pronoun 1641 1642	我
+T116	Location-Name 1652 1655	走马楼
+T117	Thing-Nominal 1656 1660	蓝天浮云
+T118	Location-Nominal 1672 1674	脚下
+T119	Organization-Nominal 1693 1695	军校
+T120	Thing-Nominal 1711 1713	金属
+T121	Thing-Nominal 1727 1737	远处奔流不息的珠江水
+T122	Location-Name 1738 1744	繁忙的黄埔港
+T123	Location-Nominal 1765 1768	操场上
+T124	Person-Nominal 1781 1784	学生们
+T125	Time-Implicit 1826 1828	当年
+T126	Person-Nominal 1826 1837	当年那支训练有素的军队
+T127	Location-Nominal 1839 1842	整个岛
+T128	Person-Nominal 1855 1857	学生
+T129	Person-Pronoun 1874 1876	她们
+*	Coreference T129 T128
+T130	Person-Nominal 1902 1904	英才
+T131	Location-Nominal 1906 1909	陈列馆
+T132	Thing-Nominal 1906 1914	陈列馆的每件摆件
+R13	Located Arg1:T132 Arg2:T131	
+T133	Person-Nominal 1928 1932	一个名人
+T134	Location-Nominal 1936 1938	墙上
+T135	Thing-Nominal 1940 1944	每件东西
+R14	Located Arg1:T135 Arg2:T134	
+T136	Person-Nominal 2040 2042	人们
+T137	Thing-Nominal 2068 2075	孙中山先生塑像
+T138	Person-Name 2068 2073	孙中山先生
+T139	Time-Implicit 2083 2087	90年前
+T140	Person-Name 2088 2093	孙中山先生
+T141	Person-Nominal 2094 2098	军校师生
+T142	Metric 2103 2108	一个多小时
+T143	Time-Implicit 2103 2108	一个多小时
+T144	Person-Nominal 2112 2120;2121 2129	一个有着很高品行 修养和睿智的伟人
+T145	Person-Nominal 2131 2139	一个真实坦荡的人
+T146	Person-Pronoun 2147 2148	他
+*	Coreference T146 T140
+T147	Thing-Nominal 2153 2155	微风
+T148	Person-Nominal 2201 2203	英才
+T149	Person-Nominal 2217 2220	有的人
+T150	Person-Pronoun 2223 2224	他
+T151	Location-Name 2230 2234	黄埔军校
+T152	Person-Nominal 2244 2251	两党的著名人士
+T153	Organization-Nominal 2254 2256	军校
+T154	Person-Name 2264 2290;2291 2294	孙中山、蒋介石、汪精卫、何应钦、周恩来、叶剑英、陈赓 、林彪
+T155	Thing-Nominal 2303 2307	黄埔军校
+T156	Person-Nominal 2328 2338	这些曾经的黄埔军校人
+T157	Thing-Nominal 2343 2351	黄埔土壤中的幼苗
+T158	Location-Nominal 2343 2348	黄埔土壤中
+R15	Located Arg1:T157 Arg2:T158	
+T159	Time-Implicit 2372 2384	从1924年到1930年
+T160	Thing-Nominal 2385 2389	黄埔军校
+T161	Location-Name 2390 2392	长洲
+T162	Metric 2395 2397	6期
+T163	Time-Implicit 2398 2403	1930年
+T164	Thing-Nominal 2403 2405	军校
+T165	Location-Name 2407 2409	南京
+T166	Location-Name 2415 2417	成都
+T167	Time-Implicit 2419 2424	1949年
+T168	Person-Nominal 2427 2429	学生
+T169	Metric 2429 2432	23期
+T170	Person-Nominal 2433 2436	毕业生
+T171	Metric 2436 2440	3万余人
+T172	Person-Nominal 2444 2451	国共两党的精英
+T173	Person-Nominal 2457 2469	叱咤风云的军事和政治巨子
+T174	Thing-Nominal 2473 2482	一所功勋卓著的军校
+T175	Person-Nominal 2499 2508	一批功勋显著的军人
+T176	Person-Pronoun 2524 2526	他们
+T177	Thing-Nominal 2558 2560	江水
+T178	Thing-Nominal 2558 2566	江水拍击出的浪花
+T179	Thing-Nominal 2567 2569	军校
+T180	Thing-Nominal 2542 2544	军校
+T181	Time-Explicit 2605 2607	今天
+T182	Person-Pronoun 2605 2610	今天的我们
+T183	Metric 2642 2647	800多名
+T184	Person-Nominal 2642 2649	800多名学生
+T185	Time-Implicit 2649 2651	3天
+T186	Metric 2649 2651	3天
+T187	Person-Nominal 2652 2653	敌
+T188	Metric 2654 2657	4千多
+T189	Abstract 2678 2684	“棉湖”战役
+T190	Metric 2686 2692	3000兵力
+T191	Person-Nominal 2694 2696	敌军
+T192	Metric 2696 2698	2万
+T193	Abstract 2701 2705	北伐战争
+T194	Person-Nominal 2708 2712	精兵强将
+T195	Person-Nominal 2715 2717	敌军
+T196	Metric 2717 2720	10万
+T197	Abstract 2721 2725	抗日战争
+T198	Organization-Nominal 2746 2753	一所奇特的学校
+T199	Location-Nominal 2779 2784	这所学校里
+T200	Thing-Nominal 2791 2793	军校
+T201	Location-Nominal 2819 2823	人们面前
+T202	Thing-Nominal 2813 2815	画卷
+T203	Location-Name 2824 2828	黄埔军校
+T204	Person-Name 2831 2834	孙中山
+T205	Location-Name 2849 2854	军校俱乐部
+T206	Location-Pronoun 2867 2868	它
+*	Coreference T206 T205
+T207	Thing-Nominal 2871 2873	军校
+T208	Location-Pronoun 2896 2898	这里
+T209	Person-Nominal 2903 2907	军校师生
+T210	Time-Explicit 2982 2984	如今
+T211	Thing-Nominal 2985 2990	滔滔珠江水
+T212	Location-Name 2995 3003	内在厚重的长洲岛
+T213	Thing-Nominal 3004 3008	黄埔军校
+T214	Person-Nominal 3025 3027	游人
+T215	Thing-Nominal 3028 3030	江水
+T216	Person-Nominal 3070 3074	子孙后代
+T217	Location-Nominal 3078 3080	江边
+T218	Thing-Nominal 3108 3110	江水
+T219	Location-Nominal 3126 3135	一座辛亥革命博物馆
+T220	Person-Pronoun 3137 3138	我
+T221	Location-Nominal 3157 3161	海峡两岸
+T223	Location-Nominal 3167 3176	黄埔军校这块基石上
+T222	Thing-Nominal 3179 3191	一块象征着祖国统一的巨碑
+R16	Located Arg1:T222 Arg2:T223	
+T224	Thing-Nominal 3198 3205	一片赤红的落叶
+T225	Location-Nominal 3207 3209	江中
+R17	Located Arg1:T224 Arg2:T225	
+T226	Person-Nominal 3210 3217	海峡两岸的人民
+T227	Location-Nominal 3210 3214	海峡两岸
+T228	Abstract 167 177	孙中山领导的护法斗争
+T229	Thing-Nominal 634 639	透骨的凉气
+R18	Create Arg1:T50 Arg2:T51	

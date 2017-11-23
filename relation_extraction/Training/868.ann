@@ -1,0 +1,89 @@
+T1	Thing-Nominal 12 13	屏
+T2	Thing-Nominal 14 15	画
+T3	Time-Implicit 17 19	春天
+T4	Time-Implicit 42 44	夏天
+T5	Thing-Nominal 53 55	烈日
+T6	Time-Implicit 69 71	冬天
+T7	Thing-Nominal 72 74	国画
+T8	Thing-Nominal 74 76	山水
+T9	Thing-Nominal 78 79	冰
+T10	Thing-Nominal 80 81	雪
+T11	Person-Nominal 91 93	少女
+T12	Person-Pronoun 102 103	我
+T13	Time-Implicit 106 108	秋天
+T14	Thing-Nominal 115 117	油画
+T15	Person-Nominal 125 127	老妪
+T16	Thing-Nominal 153 155	天空
+T17	Thing-Nominal 161 163	巨手
+T18	Thing-Nominal 175 177	宝石
+T19	Person-Nominal 188 190	人们
+T20	Thing-Nominal 229 230	雁
+T21	Thing-Nominal 269 271	山峦
+T22	Thing-Nominal 299 300	花
+T23	Thing-Pronoun 303 304	她
+T24	Thing-Nominal 313 314	金
+*	Coreference T23 T21
+T25	Thing-Nominal 318 322	校园小径
+T26	Thing-Nominal 323 325	河湖
+T27	Thing-Nominal 327 328	水
+R1	Located Arg1:T27 Arg2:T26	
+T28	Person-Nominal 336 339	龙王爷
+T29	Thing-Nominal 355 358	鱼儿们
+T30	Thing-Pronoun 363 365	它们
+*	Coreference T30 T29
+T31	Thing-Nominal 381 383	秋风
+T32	Location-Nominal 389 391	草坪
+T33	Thing-Nominal 392 394	小草
+R2	Located Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 402 403	衣
+T35	Thing-Nominal 414 416	新装
+T36	Thing-Nominal 418 419	风
+T37	Thing-Nominal 424 426	花卉
+T38	Thing-Nominal 427 430	虫儿们
+T39	Location-Nominal 435 437;438 439	天空 中
+T40	Thing-Nominal 439 442	鸟儿们
+R3	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 448 450	树木
+T42	Thing-Nominal 472 474	叶子
+R4	Part-Whole Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 493 494	枝
+R5	Part-Whole Arg1:T43 Arg2:T41	
+R6	Located Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 515 517	叶子
+T45	Person-Nominal 553 554	人
+T46	Thing-Nominal 562 563	玉
+T47	Thing-Nominal 571 573	秋风
+T48	Person-Nominal 574 576	人们
+T49	Thing-Nominal 607 609	大地
+T50	Time-Implicit 594 596	夏天
+T51	Location-Nominal 611 613	田野
+T52	Thing-Nominal 615 617	禾穗
+R7	Located Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 634 636	苹果
+T54	Thing-Nominal 637 639	柑橘
+T55	Person-Nominal 655 660	农民伯伯们
+T56	Metric 669 671	一年
+T57	Thing-Nominal 720 722	朝露
+T58	Thing-Nominal 723 725	彩霞
+T59	Person-Nominal 728 730	名人
+T60	Thing-Nominal 733 734	画
+R8	Create Arg1:T59 Arg2:T60	
+T61	Time-Implicit 746 748	秋天
+T62	Thing-Nominal 757 759	巧手
+T63	Time-Implicit 780 781	秋
+T64	Person-Nominal 793 795	舞者
+T65	Person-Pronoun 826 827	我
+T66	Person-Pronoun 854 855	我
+T67	Time-Implicit 857 859	秋天
+T68	Person-Nominal 864 866	自己
+*	Coreference T66 T68
+T69	Location-Nominal 869 871	校园
+T70	Thing-Nominal 872 873	笔
+T71	Thing-Nominal 874 875	犁
+T72	Thing-Nominal 877 878	纸
+T73	Thing-Nominal 879 880	田
+T74	Time-Implicit 886 888	来日
+T75	Thing-Nominal 895 897	良种
+T76	Thing-Nominal 903 905	硕果
+T77	Person-Pronoun 907 908	我
+T78	Time-Implicit 918 921	那一天

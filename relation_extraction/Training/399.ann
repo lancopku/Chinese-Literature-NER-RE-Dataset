@@ -1,0 +1,198 @@
+T1	Time-Implicit 0 5	皖南的初夏
+T2	Time-Implicit 8 18	满山盛开映山红的季节
+*	Coreference T2 T1
+T3	Thing-Nominal 12 15	映山红
+T4	Person-Nominal 19 23	我们一行
+T5	Location-Name 26 40	泾县云岭新四军军部旧址展览馆
+T6	Time-Implicit 46 48	当年
+T7	Person-Nominal 49 58	九千余名新四军将士
+T8	Metric 49 53	九千余名
+T9	Location-Pronoun 61 63	这里
+*	Coreference T9 T5
+T10	Person-Nominal 67 69	民族
+T11	Thing-Nominal 76 81	雄壮的军歌
+T12	Location-Nominal 89 93	抗日前线
+T13	Person-Nominal 104 106;107 112	遵命 北上的将士
+*	Coreference T13 T7 T23
+T14	Person-Nominal 116 131	预先埋伏的八万国民党顽固派军队
+T15	Person-Nominal 136 140	少数将士
+R1	Part-Whole Arg1:T15 Arg2:T13	
+T16	Person-Nominal 148 152	其余大部
+R2	Part-Whole Arg1:T16 Arg2:T13	
+T17	Location-Nominal 159 164	皖南的土地
+T18	Thing-Nominal 168 176	新四军将士的热血
+R3	Located Arg1:T18 Arg2:T17	
+T19	Location-Name 0 2	皖南
+T20	Location-Name 159 161	皖南
+T21	Metric 183 187	七十多年
+T22	Person-Nominal 191 203	沐浴着和平年代阳光的人们
+T23	Person-Nominal 207 225	当年那些穿着灰布军装，浴血奋战的将士
+T24	Location-Name 229 242	罗里村新四军军部大礼堂旧址
+T25	Person-Pronoun 244 246	我们
+*	Coreference T25 T4
+T26	Thing-Nominal 248 251	石条凳
+R4	Use Arg1:T25 Arg2:T26	
+T27	Person-Nominal 253 257	当地老乡
+R5	Social Arg1:T25 Arg2:T27	
+T28	Person-Nominal 262 264	老乡
+*	Coreference T27 T28 T32
+T29	Thing-Nominal 266 268	白发
+R6	Part-Whole Arg1:T29 Arg2:T28	
+T30	Person-Pronoun 285 287	我们
+T31	Time-Implicit 289 291	当年
+T32	Person-Pronoun 292 293	他
+T33	Person-Nominal 295 299	一名孩子
+R7	General-Special Arg1:T33 Arg2:T32	
+T34	Person-Pronoun 300 301	他
+T35	Location-Nominal 307 314	罗里村家家户户
+T36	Person-Nominal 317 322	新四军部队
+T37	Location-Nominal 323 326	他们家
+T38	Person-Nominal 329 337	七、八名年青战士
+T39	Person-Name 338 348	叶挺军长、项英副军长
+T40	Location-Nominal 351 353	他家
+*	Coreference T40 T37
+T41	Person-Nominal 356 361	家父和战士
+T42	Person-Nominal 356 358	家父
+R8	Family Arg1:T42 Arg2:T32	
+T43	Organization-Name 363 366	新四军
+T44	Person-Nominal 369 371	好人
+T45	Organization-Nominal 373 377	仁义之师
+R9	General-Special Arg1:T45 Arg2:T43	
+T46	Person-Nominal 383 387	皖南乡亲
+T47	Person-Pronoun 390 392	他们
+*	Coreference T47 T44
+T48	Time-Implicit 396 399	这些年
+T49	Person-Nominal 400 407	村里不少青年人
+T50	Organization-Nominal 411 413	部队
+T51	Person-Pronoun 422 424	我们
+T52	Person-Nominal 426 428	老乡
+T53	Person-Pronoun 441 443	我们
+T54	Location-Nominal 447 451	革命老区
+T55	Organization-Nominal 454 455	家
+T56	Organization-Nominal 456 457	国
+T57	Person-Pronoun 458 460	我们
+T58	Person-Pronoun 463 464	谁
+T59	Person-Nominal 467 469	老乡
+T60	Time-Implicit 477 480	前些年
+T61	Person-Nominal 481 484	大孙子
+R10	Family Arg1:T61 Arg2:T59	
+T62	Location-Name 485 489	广东深圳
+T63	Person-Pronoun 492 493	我
+*	Coreference T63 T59
+T64	Person-Pronoun 494 495	他
+*	Coreference T64 T61
+T65	Time-Implicit 498 500	秋末
+T66	Organization-Name 511 517	海军东海舰队
+T67	Location-Name 522 524	大连
+T68	Organization-Nominal 528 530	军校
+T69	Metric 526 528	三年
+T70	Time-Implicit 531 532;533 534	如 今
+T71	Person-Nominal 539 541	干部
+R11	General-Special Arg1:T71 Arg2:T64	
+T72	Person-Pronoun 544 546	我们
+T73	Person-Nominal 548 554	新四军的后人
+R12	General-Special Arg1:T73 Arg2:T72	
+T74	Person-Nominal 561 563	老乡
+T75	Time-Implicit 569 576	那最艰苦的岁月
+T76	Person-Nominal 578 582	皖南乡亲
+T77	Person-Nominal 596 601	新四军将士
+T78	Location-Name 603 613	新四军军械修理所旧址
+T79	Person-Nominal 615 618;619 628	另一位 常年上山砍柴的老乡
+T80	Person-Pronoun 631 633	我们
+T81	Time-Implicit 635 637	那时
+T82	Person-Nominal 638 643	新四军部队
+T83	Thing-Nominal 643 647	作战物资
+T84	Person-Nominal 650 659	当地的爱国开明绅士
+T85	Thing-Nominal 666 667	钱
+T86	Thing-Nominal 668 669	物
+T87	Person-Nominal 670 679;680 681	一无所有的贫穷乡亲 们
+T88	Person-Nominal 688 691	战士们
+T89	Thing-Nominal 697 702	简易军工厂
+T90	Thing-Nominal 706 712	许多被服弹药
+R13	Create Arg1:T87 Arg2:T89	
+R14	Create Arg1:T87 Arg2:T90	
+R15	Create Arg1:T88 Arg2:T89	
+R16	Create Arg1:T88 Arg2:T90	
+T91	Location-Nominal 719 723	抗日前线
+T92	Person-Nominal 729 736	九十多岁的老人
+T93	Time-Implicit 737 739	至今
+T94	Abstract 745 749	皖南事变
+T95	Organization-Nominal 754 759	国民党军队
+T96	Person-Nominal 765 776	新四军失散人员和伤病员
+T97	Organization-Nominal 783 789	这支抗日武装
+T98	Organization-Name 765 768	新四军
+*	Coreference T98 T97
+T99	Person-Nominal 792 796	皖南乡亲
+T100	Organization-Name 803 805;806 811	共产 党和新四军
+T101	Person-Nominal 834 841	新四军残剩人员
+T102	Person-Nominal 846 854	新四军家属和遗孤
+T103	Time-Implicit 872 876	许多年后
+T104	Thing-Nominal 877 904	一部反映新四军部队突围战斗的八集电视连续剧《皖南风云》
+T105	Location-Nominal 910 914	拍摄场地
+T106	Location-Nominal 916 926	九华山前的一条山沟里
+R17	Part-Whole Arg1:T105 Arg2:T106	
+T107	Person-Nominal 927 932;933 945	一队衣衫破 碎、伤痕累累的新四军战士
+T108	Organization-Nominal 950 955	国民党军队
+T109	Organization-Nominal 962 964	日军
+T110	Person-Nominal 970 974	抗日将士
+T111	Thing-Nominal 989 991	硝烟
+T112	Person-Nominal 995 1000	围观的老乡
+T113	Person-Nominal 1004 1009	剧组的演员
+T114	Person-Nominal 1013 1016	摄像师
+T115	Person-Nominal 1035 1037	导演
+R18	Social Arg1:T115 Arg2:T114	
+R19	Social Arg1:T114 Arg2:T113	
+T116	Time-Implicit 1047 1050	那些天
+T117	Location-Name 1052 1054	皖南
+T118	Person-Pronoun 1055 1057	我们
+T119	Time-Implicit 1077 1081	战争年代
+T120	Person-Nominal 1082 1086	皖南乡亲
+T121	Organization-Name 1088 1091	共产党
+T122	Organization-Name 1100 1103	新四军
+T123	Person-Nominal 1118 1124	我们每一个人
+T124	Time-Implicit 1128 1137	没有硝烟的和平年代
+T125	Person-Nominal 1138 1142	皖南乡亲
+T126	Person-Nominal 1144 1152	自已最优秀的子弟
+R20	Family Arg1:T126 Arg2:T125	
+T127	Person-Nominal 1154 1156	部队
+T128	Person-Nominal 1160 1165	新四军将士
+T129	Organization-Nominal 1178 1180	军队
+T130	Person-Nominal 1184 1186	人民
+T131	Time-Implicit 1190 1194	战争年代
+T132	Time-Implicit 1198 1201	和平年
+T133	Person-Nominal 1208 1212	人民群众
+T134	Person-Pronoun 1219 1221	我们
+T135	Thing-Nominal 1235 1237	小道
+T136	Location-Nominal 1240 1244	云岭主峰
+T137	Thing-Nominal 1245 1247	斜阳
+T138	Location-Nominal 1249 1253	四周山头
+T139	Thing-Nominal 1253 1257	一片灿烂
+R21	Located Arg1:T139 Arg2:T138	
+T140	Location-Nominal 1258 1274	这延绵几十里的千山万壑，悬崖峭壁
+T141	Location-Nominal 1277 1291	当年新四军将士抛洒热血的战场
+*	Coreference T141 T140
+T142	Person-Nominal 1279 1284	新四军将士
+T143	Time-Implicit 1292 1293;1294 1295	如 今
+T144	Location-Pronoun 1296 1298	这里
+T145	Thing-Nominal 1304 1320	一丛丛、一簇簇、滴翠烂熳的映山红
+R22	Located Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1321 1322	那
+*	Coreference T146 T145 T152 T154
+T147	Thing-Nominal 1356 1360	经典老歌
+T148	Person-Nominal 1383 1385	志士
+T149	Thing-Nominal 1366 1371	五月的鲜花
+T150	Location-Nominal 1375 1377	原野
+R23	Located Arg1:T149 Arg2:T150	
+T151	Person-Pronoun 1390 1391	我
+T152	Thing-Nominal 1393 1404	眼前火一样织烈的映山红
+T153	Person-Nominal 1408 1415;1416 1419	新四军将士和皖 南乡亲
+T154	Thing-Nominal 1408 1415;1416 1432	新四军将士和皖 南乡亲用生命和鲜血浇灌的战地鲜花
+T155	Location-Name 1435 1437	皖南
+T156	Person-Pronoun 1438 1440	我们
+T157	Location-Pronoun 1447 1449	那里
+*	Coreference T157 T155
+T158	Thing-Nominal 1450 1464	一片我们父辈抛洒热血的红土地
+R24	Located Arg1:T158 Arg2:T157	
+T159	Person-Nominal 1469 1481	一群我们淳朴可爱的好乡亲
+T160	Thing-Nominal 1487 1495;1496 1501	一到夏季就满山怒 放的映山红
+R25	Located Arg1:T160 Arg2:T157	

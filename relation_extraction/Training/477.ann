@@ -1,0 +1,219 @@
+T1	Location-Name 2 24	黑龙江省兰西县康荣乡三姓屯202国道东南方向
+T2	Thing-Nominal 29 36	很有名的东沟子
+R1	Located Arg1:T2 Arg2:T1	
+T3	Location-Pronoun 37 39	那里
+*	Coreference T3 T1
+T4	Thing-Nominal 44 47	几只狼
+T5	Person-Nominal 68 73	当地的农民
+T6	Thing-Nominal 93 96	东沟子
+T7	Time-Explicit 88 92	解放初期
+T8	Location-Name 110 113	东沟子
+T9	Person-Nominal 115 116	人
+T10	Location-Pronoun 117 119	这里
+*	Coreference T10 T8
+T11	Person-Nominal 131 133	处女
+T12	Thing-Nominal 138 144	东西两面地势
+T13	Thing-Nominal 152 162	十来里地的狭长簸箕湖
+T14	Time-Explicit 163 167	民国前后
+T15	Person-Nominal 170 177	几个柳子的胡子
+T16	Location-Pronoun 178 180	那里
+T17	Thing-Nominal 197 199	湖水
+T18	Thing-Nominal 205 209;210 220	好大一片 一人多高茂盛的柳条通
+T19	Person-Nominal 221 226	胆大的男人
+T20	Location-Pronoun 247 250	那里面
+T21	Thing-Nominal 254 268	野兔、狐狸、野猪、獾子、狍子
+R2	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 271 279	野鸡、野鸭、鹌鹑
+T23	Person-Nominal 282 284	人们
+T24	Person-Nominal 296 297	人
+T25	Thing-Nominal 302 303	狼
+T26	Thing-Nominal 304 307;308 310	尖尖的 耳朵
+T27	Thing-Nominal 313 316	长尾巴
+T28	Location-Nominal 317 319	身上
+T29	Thing-Pronoun 333 334	他
+*	Coreference T29 T25
+T30	Location-Nominal 337 340	草木中
+T31	Metric 348 351	五六只
+T32	Location-Nominal 358 360	屯里
+T33	Thing-Nominal 362 366	老天爷”
+R3	Located Arg1:T33 Arg2:T32	
+T34	Location-Nominal 367 368;369 371	东 沟里
+T35	Thing-Nominal 372 373	狼
+R4	Located Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 379 380	枪
+T37	Thing-Nominal 396 401	这片北大荒
+T38	Location-Nominal 409 411	周围
+T39	Thing-Nominal 411 416	一个个屯子
+R5	Located Arg1:T39 Arg2:T38	
+T40	Person-Nominal 420 421	人
+T41	Thing-Nominal 485 488	东沟子
+T42	Time-Explicit 476 484	上世纪60年代末
+T43	Thing-Nominal 467 471	飞禽野兽
+T44	Location-Pronoun 464 466	那里
+T45	Location-Nominal 455 459	大柳条通
+T46	Person-Nominal 444 448	一些人员
+T47	Thing-Nominal 430 431	狼
+*	Coreference T44 T45
+T48	Thing-Nominal 498 500	野兽
+T49	Thing-Nominal 509 512	几只狼
+T50	Person-Nominal 519 522	村里人
+T51	Location-Nominal 517 519	附近
+T52	Person-Nominal 525 528	几个人
+T53	Thing-Nominal 531 533	眼睛
+T54	Thing-Nominal 539 540	狼
+T55	Person-Nominal 546 547	人
+T56	Thing-Nominal 548 549	狼
+T57	Person-Nominal 614 615	人
+T58	Thing-Nominal 615 617	眼睛
+T59	Location-Name 557 560	三姓屯
+T60	Person-Nominal 562 563	人
+T61	Thing-Nominal 567 570	东沟子
+T62	Thing-Nominal 581 589	很深很神奇的狼窝
+T63	Thing-Nominal 590 592	荒草
+T64	Thing-Nominal 595 601	，一进柳条通
+R6	Part-Whole Arg1:T58 Arg2:T57	
+T65	Location-Nominal 623 629	柳条通的各处
+T66	Location-Nominal 634 638	荒草里面
+T67	Person-Nominal 646 648	老人
+T68	Person-Nominal 654 658	一个女人
+T69	Location-Nominal 659 661	家里
+T70	Location-Name 663 666	前塘窑
+T71	Thing-Nominal 669 671	公路
+T72	Thing-Nominal 674 677	两只狼
+T73	Location-Nominal 681 692	前塘窑大上坡的道路中间
+T74	Location-Nominal 704 707	后塘窑
+T75	Location-Nominal 709 712	大崴子
+T76	Location-Nominal 727 730	娘家里
+T77	Thing-Nominal 715 719	好远的路
+T78	Thing-Nominal 787 788	腿
+T79	Person-Nominal 773 776	大家伙
+T80	Thing-Nominal 769 770	狼
+T81	Person-Pronoun 763 764	谁
+T82	Person-Pronoun 751 753	他们
+T83	Location-Nominal 755 757	地里
+T84	Thing-Nominal 759 760	菜
+T85	Location-Nominal 732 734	村里
+T86	Person-Nominal 734 739	一帮小孩子
+T87	Location-Nominal 740 746	公路东大鼓包
+T88	Thing-Nominal 747 748	菜
+*	Coreference T82 T86
+T89	Thing-Nominal 794 795	菜
+T90	Location-Nominal 805 809	家院子里
+T91	Person-Nominal 810 813	孩子们
+T92	Location-Nominal 815 818	墙头上
+T93	Person-Nominal 838 845	大一点的伙伴们
+T94	Thing-Nominal 847 850	那只狼
+T95	Location-Nominal 854 860	挖菜的上岗上
+R7	Located Arg1:T94 Arg2:T95	
+T96	Person-Nominal 862 865	孩子们
+T97	Person-Nominal 874 878	村里老人
+T98	Person-Nominal 890 891	人
+T99	Thing-Nominal 880 881	狼
+T100	Person-Nominal 898 899	人
+T101	Thing-Nominal 952 955	东沟子
+T102	Thing-Nominal 947 951	两趟树带
+T103	Location-Pronoun 938 940	那里
+T104	Thing-Nominal 941 943	屯子
+T105	Location-Name 921 924	三姓屯
+T106	Location-Name 925 929	邵家窝棚
+T107	Location-Nominal 932 937	西南三节地
+*	Coreference T103 T107
+T108	Location-Name 906 913	东沟子的西南面
+T109	Thing-Nominal 915 919	邵家窝棚
+R8	Located Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 970 976	一大片坟营地
+T111	Person-Nominal 984 985	人
+T112	Person-Nominal 997 998	人
+T113	Thing-Nominal 1002 1007	东沟子的狼
+T114	Person-Nominal 1018 1019	人
+T115	Thing-Nominal 1020 1024	这三节地
+T116	Person-Nominal 1079 1081	单人
+T117	Person-Pronoun 1083 1084	谁
+T118	Thing-Nominal 1064 1067	三节地
+T119	Person-Nominal 1072 1075	三个人
+T120	Person-Nominal 1050 1054	过往的人
+T121	Person-Nominal 1042 1043	人
+T122	Location-Nominal 1033 1036	地头上
+T123	Thing-Nominal 1030 1031	狼
+R9	Located Arg1:T123 Arg2:T122	
+T124	Time-Implicit 1090 1097	一年初春的傍晚
+T125	Person-Nominal 1099 1100	人
+T126	Location-Name 1101 1105	邵家窝棚
+T127	Thing-Nominal 1113 1114	狼
+T128	Thing-Pronoun 1120 1121	它
+*	Coreference T128 T127
+T129	Location-Nominal 1122 1125	树带里
+T130	Thing-Nominal 1135 1139	一座坟墓
+T131	Person-Nominal 1142 1143	人
+T132	Thing-Pronoun 1148 1149	它
+T133	Location-Nominal 1165 1168	屯子里
+T134	Person-Nominal 1172 1179	胆大过人的老汉
+T135	Location-Name 1181 1184	东沟子
+T136	Thing-Nominal 1187 1192	一只大灰狼
+T137	Person-Pronoun 1197 1198	他
+*	Coreference T137 T134
+T138	Location-Nominal 1200 1204	柳条通里
+T139	Thing-Nominal 1205 1207	条子
+T140	Thing-Nominal 1214 1215	狼
+T141	Location-Nominal 1218 1221	他身后
+R10	Located Arg1:T140 Arg2:T141	
+T142	Person-Pronoun 1218 1219	他
+T143	Person-Nominal 1224 1227	一般人
+T144	Thing-Nominal 1251 1252	狼
+T145	Person-Pronoun 1260 1261	他
+T146	Person-Pronoun 1339 1340	他
+T147	Person-Pronoun 1309 1310	他
+T148	Thing-Nominal 1298 1299	狼
+T149	Thing-Nominal 1284 1286	镰刀
+T150	Person-Pronoun 1375 1376	他
+T151	Thing-Nominal 1373 1374	狼
+T152	Thing-Nominal 1361 1362	狼
+T153	Thing-Nominal 1349 1354	手中的武器
+T154	Location-Nominal 1349 1351	手中
+R11	Located Arg1:T153 Arg2:T154	
+T155	Thing-Nominal 1394 1399	这东沟子狼
+T156	Thing-Nominal 1406 1411	上山的牲畜
+T157	Thing-Nominal 1412 1415	羊和猪
+T158	Thing-Nominal 1431 1435	饥饿的狼
+T159	Location-Nominal 1441 1443	猪圈
+T160	Thing-Nominal 1449 1452	猪崽子
+T161	Person-Nominal 1461 1463	大家
+T162	Location-Nominal 1464 1468	猪圈墙上
+T163	Thing-Nominal 1477 1479	那狼
+T164	Thing-Nominal 1483 1485	野狼
+T165	Person-Nominal 1499 1503	大人孩子
+T166	Location-Nominal 1510 1514	生产队里
+T167	Person-Nominal 1516 1526	一个体质健壮的小伙子
+T168	Thing-Nominal 1528 1529	狼
+T169	Thing-Nominal 1549 1551	这狼
+T170	Location-Name 1554 1557	东沟子
+T171	Thing-Nominal 1568 1572	一处狼窝
+T172	Thing-Nominal 1573 1575	这狼
+T173	Location-Nominal 1579 1587	一个荒坡的坟墓里
+T174	Location-Nominal 1588 1590	里面
+T175	Thing-Nominal 1592 1595	狼崽子
+R12	Located Arg1:T175 Arg2:T174	
+T176	Person-Pronoun 1598 1600	，他
+*	Coreference T176 T167
+T177	Thing-Nominal 1606 1612	这个可恶狼窝
+T178	Person-Pronoun 1616 1617	他
+T179	Thing-Nominal 1620 1626	一个柳灌斗子
+T180	Thing-Nominal 1627 1629	两手
+R13	Part-Whole Arg1:T180 Arg2:T178	
+T181	Thing-Nominal 1617 1618	头
+R14	Part-Whole Arg1:T181 Arg2:T178	
+T182	Thing-Nominal 1631 1635	棉手焖子
+T183	Thing-Nominal 1648 1655	一窝六只狼崽子
+T184	Thing-Nominal 1661 1666	公狼和母狼
+T185	Person-Pronoun 1677 1678	他
+T186	Thing-Nominal 1683 1689	这几只狼崽子
+T187	Location-Nominal 1691 1692	家
+T188	Thing-Nominal 1695 1698;1699 1700	公狼母 狼
+T189	Thing-Nominal 1705 1706	门
+T190	Location-Nominal 1709 1712	屯子里
+T191	Person-Pronoun 1721 1722	他
+T192	Thing-Nominal 1724 1728	这狼崽子
+T193	Thing-Nominal 1733 1735	猎枪
+T194	Thing-Nominal 1736 1739	两条狼
+T195	Person-Nominal 1758 1759;1760 1761	人 类
+T196	Thing-Nominal 1774 1777	几只狼

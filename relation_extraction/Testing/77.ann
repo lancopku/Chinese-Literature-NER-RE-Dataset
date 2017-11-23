@@ -1,0 +1,204 @@
+T1	Location-Nominal 1 5	我的庭院
+T2	Thing-Nominal 10 12	花木
+T3	Thing-Nominal 14 16	香樟
+T4	Thing-Nominal 17 19	杨梅
+T5	Thing-Nominal 20 22	枇杷
+T6	Thing-Nominal 23 25	玫瑰
+T7	Thing-Nominal 26 28	红梅
+T8	Person-Pronoun 31 32	我
+T9	Thing-Nominal 33 35	红枫
+T10	Thing-Pronoun 44 45	它
+*	Coreference T10 T9
+T11	Person-Pronoun 52 53	我
+T12	Person-Nominal 61 64	我儿子
+R1	Family Arg1:T12 Arg2:T11	
+T13	Time-Implicit 61 72	我儿子还在读初三的时候
+T14	Person-Nominal 73 75	朋友
+R2	Social Arg1:T14 Arg2:T11	
+T15	Thing-Nominal 79 83	红枫盆景
+T16	Metric 77 79	一盆
+T17	Thing-Pronoun 84 85	它
+*	Coreference T17 T15
+T18	Thing-Nominal 84 88	它的底盘
+T19	Thing-Nominal 91 97	很精制的陶器
+T20	Metric 89 91	一个
+*	Coreference T19 T18
+T21	Thing-Nominal 111 113	铁饼
+T22	Metric 109 111	一只
+T23	Metric 135 137	一张
+T24	Thing-Nominal 137 142	不大的荷叶
+T25	Metric 172 174	一枝
+T26	Thing-Nominal 174 179	盛开的梅花
+T27	Person-Pronoun 200 202	我们
+T28	Thing-Nominal 208 213	盆中的红枫
+T29	Thing-Pronoun 214 215	它
+*	Coreference T29 T28
+T30	Thing-Nominal 220 222	枝干
+R3	Part-Whole Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 227 229	叶子
+R4	Part-Whole Arg1:T31 Arg2:T29	
+T32	Thing-Nominal 230 232	竹叶
+T33	Thing-Nominal 246 247	风
+T34	Time-Implicit 259 261	每天
+T35	Person-Pronoun 263 265	我们
+T36	Time-Implicit 285 291	春暖花开时节
+T37	Person-Pronoun 292 293	它
+T38	Thing-Nominal 297 302	新鲜的红叶
+R5	Part-Whole Arg1:T38 Arg2:T37	
+R6	Create Arg1:T37 Arg2:T29	
+T39	Thing-Nominal 312 315	红叶竹
+T40	Metric 310 312	一棵
+T41	Person-Pronoun 335 336	我
+T42	Person-Nominal 337 339	儿子
+*	Coreference T42 T12
+T43	Time-Implicit 357 364	每年在中秋以后
+T44	Thing-Nominal 369 371	叶瓣
+T45	Time-Implicit 376 381	半个月一过
+T46	Thing-Nominal 385 387	叶芽
+T47	Metric 382 385	一片片
+T48	Thing-Nominal 390 392	枝条
+T49	Thing-Nominal 399 400	苞
+T50	Thing-Nominal 423 428	鲜嫩的新叶
+T51	Person-Nominal 434 436	路人
+T52	Thing-Nominal 470 472	红枫
+T53	Thing-Nominal 475 480	火焰的新叶
+T54	Thing-Nominal 487 489	绿树
+T55	Thing-Nominal 525 527	红梅
+T56	Thing-Pronoun 529 530	它
+*	Coreference T56 T52 T57 T58
+T57	Thing-Pronoun 586 587	它
+T58	Thing-Name 592 596	无名英雄
+T59	Metric 590 592	一个
+T60	Person-Nominal 598 600	人们
+T61	Thing-Nominal 608 610	红梅
+T62	Thing-Nominal 610 611	花
+R7	Part-Whole Arg1:T62 Arg2:T61	
+T63	Thing-Nominal 615 617	红梅
+T64	Thing-Nominal 618 619	雪
+T65	Thing-Nominal 628 630	红枫
+T66	Thing-Nominal 668 672	红枫盆景
+T67	Time-Implicit 677 683	夏天高温时节
+T68	Person-Nominal 684 686	儿子
+T69	Thing-Pronoun 698 699	它
+T70	Thing-Nominal 700 702	焦叶
+T71	Thing-Nominal 703 705	卷叶
+T72	Thing-Nominal 710 711	水
+T73	Thing-Nominal 723 724;725 728	有 机化肥
+T74	Metric 721 723	几颗
+T75	Time-Implicit 729 735	冬天严寒时节
+T76	Thing-Pronoun 738 739	它
+*	Coreference T76 T66 T69 T83
+T77	Thing-Nominal 742 743	叶
+R8	Part-Whole Arg1:T77 Arg2:T76	
+T78	Location-Nominal 748 751	地下室
+T79	Thing-Nominal 753 756	塑料纸
+T80	Thing-Nominal 767 768	水
+T81	Thing-Nominal 769 770	肥
+T82	Person-Nominal 779 780	人
+T83	Thing-Pronoun 783 784	它
+T84	Thing-Nominal 802 804	枝头
+T85	Thing-Nominal 807 809	枝干
+T86	Person-Nominal 836 838	儿子
+T87	Organization-Nominal 841 848	北方某重点大学
+T88	Person-Nominal 850 851	儿
+T89	Person-Nominal 854 855	母
+T90	Person-Nominal 865 867	父母
+R9	Family Arg1:T90 Arg2:T88	
+T91	Person-Nominal 879 881	儿子
+T92	Time-Implicit 917 920	父亲节
+T93	Time-Implicit 921 924	母亲节
+T94	Person-Pronoun 932 934	我们
+T95	Person-Pronoun 950 951	我
+T96	Person-Nominal 964 966	儿子
+T97	Person-Pronoun 970 971	我
+T98	Time-Implicit 971 975	生日前夕
+T99	Thing-Nominal 979 987	《幸福鸡汤》的书
+T100	Metric 978 979	本
+T101	Thing-Nominal 988 990	扉页
+T102	Person-Pronoun 1004 1005	我
+T103	Person-Nominal 1023 1025	儿子
+T104	Person-Pronoun 1030 1031	我
+T105	Person-Pronoun 1034 1036	自己
+*	Coreference T105 T104
+T106	Thing-Nominal 1046 1051	盆中的红枫
+T107	Person-Pronoun 1052 1053	我
+T108	Thing-Nominal 1056 1058	红枫
+T109	Location-Nominal 1061 1070	庭院里最中间的位置
+T110	Person-Pronoun 1078 1079	我
+T111	Thing-Nominal 1085 1086	水
+T112	Thing-Nominal 1087 1088	肥
+T113	Thing-Nominal 1093 1094	风
+T114	Thing-Nominal 1094 1095	霜
+T115	Thing-Nominal 1095 1096	雪
+T116	Thing-Nominal 1096 1097	雨
+T117	Thing-Nominal 1102 1104	骄阳
+T118	Thing-Pronoun 1115 1116	它
+T119	Thing-Nominal 1140 1141	叶
+T120	Thing-Nominal 1146 1147	树
+T121	Thing-Nominal 1155 1165	融进片片思念的小红伞
+*	Coreference T121 T106 T126 T128 T129 T130 T136 T139 T148
+T122	Metric 1153 1155	一把
+T123	Person-Nominal 1172 1173	人
+T124	Thing-Nominal 1167 1168	风
+T125	Person-Pronoun 1181 1182	我
+T126	Thing-Pronoun 1192 1193	它
+T127	Thing-Nominal 1213 1217	它的枝干
+R10	Part-Whole Arg1:T127 Arg2:T126	
+T128	Thing-Nominal 1284 1291	我庭院中的红枫
+T129	Thing-Nominal 1295 1307	我庭院中与大地接壤的红枫
+T130	Thing-Nominal 1311 1325	我庭院中与天地融为一体的红枫
+T131	Person-Pronoun 1335 1336	我
+T132	Person-Nominal 1337 1339	儿子
+T133	Thing-Nominal 1342 1346	红枫叶瓣
+T134	Metric 1346 1350	一片一片
+T135	Person-Nominal 1354 1356	儿子
+T136	Thing-Pronoun 1363 1364	它
+T137	Person-Pronoun 1377 1378	我
+T138	Thing-Nominal 1390 1391	盆
+T139	Thing-Pronoun 1401 1402	它
+T140	Thing-Nominal 1403 1404	根
+R11	Part-Whole Arg1:T140 Arg2:T139	
+T141	Location-Nominal 1412 1414	屋里
+T142	Thing-Nominal 1415 1417	阳光
+T143	Location-Nominal 1423 1424	园
+T144	Thing-Nominal 1439 1444	足够的水份
+T145	Thing-Nominal 1445 1447	土壤
+T146	Thing-Nominal 1448 1450	养分
+T147	Thing-Nominal 1455 1457	花木
+T148	Thing-Pronoun 1460 1461	它
+T149	Thing-Nominal 1463 1465	阳光
+T150	Person-Nominal 1480 1482	儿子
+T151	Person-Pronoun 1487 1488	我
+T152	Person-Nominal 1495 1498	青少年
+T153	Person-Nominal 1508 1510	成年
+T154	Person-Pronoun 1554 1556	我们
+T155	Location-Name 1575 1577	北京
+T156	Location-Name 1561 1563	杭州
+T157	Organization-Nominal 1561 1571	杭州等附近省会的大学
+T158	Person-Pronoun 1587 1588	我
+T159	Person-Pronoun 1610 1611	我
+T160	Person-Nominal 1649 1652	你爷爷
+R12	Family Arg1:T160 Arg2:T158	
+T161	Person-Pronoun 1649 1650	你
+*	Coreference T161 T150
+T162	Thing-Nominal 1688 1689	车
+T163	Person-Nominal 1691 1693	新手
+T164	Person-Nominal 1754 1756	儿子
+T165	Person-Pronoun 1774 1775	我
+T166	Person-Pronoun 1812 1813	我
+T167	Person-Pronoun 1814 1815	你
+*	Coreference T167 T164 T168
+T168	Person-Nominal 1857 1859	儿子
+T169	Thing-Nominal 1861 1862	头
+R13	Part-Whole Arg1:T169 Arg2:T168	
+T170	Person-Pronoun 1868 1869	我
+T171	Thing-Nominal 1882 1890	我家庭院中的红枫
+T172	Thing-Nominal 1894 1896	新叶
+R14	Part-Whole Arg1:T172 Arg2:T171	
+T173	Thing-Nominal 1905 1907	烈火
+T174	Thing-Nominal 1909 1911	红花
+T175	Thing-Nominal 1913 1915	朝霞
+T176	Thing-Pronoun 1948 1949	它
+*	Coreference T176 T171
+T177	Location-Nominal 1985 1987	庭园
+T178	Location-Nominal 1990 1992	小区

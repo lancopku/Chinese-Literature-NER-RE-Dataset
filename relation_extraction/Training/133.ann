@@ -1,0 +1,273 @@
+T1	Time-Implicit 0 5	天命年过后
+T2	Location-Nominal 7 9	老家
+T3	Thing-Nominal 22 29	坛装的窖藏陈酿
+T4	Time-Implicit 20 22	早年
+T5	Thing-Nominal 34 36	护泥
+T6	Thing-Nominal 45 47	封盖
+T7	Thing-Nominal 40 42	油纸
+T8	Thing-Nominal 94 96	枝叶
+T9	Thing-Nominal 97 98	根
+T10	Thing-Nominal 104 113	这个并不显眼的村庄
+T11	Location-Nominal 114 120	燕南齐北之间
+R1	Located Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 121 123	平原
+T13	Thing-Nominal 125 127	牛车
+T14	Thing-Nominal 129 134	沧州铁狮子
+T15	Metric 138 142	两个时辰
+T16	Location-Nominal 143 145	村东
+T17	Thing-Nominal 147 149	石龟
+R2	Located Arg1:T17 Arg2:T16	
+T18	Location-Nominal 150 152	龟背
+T19	Thing-Nominal 153 155	一碑
+R3	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 158 162	东大寺碑
+T21	Location-Pronoun 167 169	这里
+T22	Location-Name 172 175	张官店
+*	Coreference T22 T21
+T23	Person-Name 190 192	张官
+T24	Thing-Nominal 190 195	张官开的店
+T25	Location-Nominal 213 215	村里
+T26	Location-Nominal 227 238	村的“围子”外(村边)
+T27	Thing-Nominal 239 243	一处院落
+R4	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 244 248	北房四间
+T29	Thing-Nominal 249 253	东西厢房
+T30	Thing-Nominal 256 261	队里的仓库
+T31	Time-Explicit 262 265	土改时
+T32	Person-Pronoun 268 270	我们
+T33	Location-Nominal 271 272	家
+T34	Thing-Nominal 273 275	大门
+T35	Thing-Nominal 276 278	铁皮
+T36	Thing-Nominal 284 286	钉子
+T37	Location-Nominal 290 292	院北
+T38	Thing-Nominal 293 297	一片枣树
+R5	Located Arg1:T38 Arg2:T37	
+T39	Thing-Nominal 298 300	老树
+T40	Thing-Nominal 300 301	冠
+T41	Location-Nominal 308 310	林间
+T42	Thing-Nominal 311 312	井
+R6	Located Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 313 314	水
+T44	Time-Implicit 323 326	酷暑时
+T45	Thing-Nominal 328 330	麻绳
+T46	Thing-Nominal 332 334	瓦罐
+T47	Person-Nominal 358 359	人
+T48	Location-Nominal 362 364	院西
+T49	Thing-Nominal 365 366	路
+R7	Located Arg1:T49 Arg2:T48	
+T50	Time-Explicit 373 375	元末
+T51	Thing-Nominal 375 377	蝗蛾
+T52	Person-Name 380 383	明朱棣
+T53	Location-Nominal 393 395	中原
+T54	Time-Explicit 401 404	清初间
+T55	Person-Name 407 409;410 416	霸州 名门的廷柱公
+T56	Person-Nominal 429 431	千众
+T57	Person-Name 437 441	弘一法师
+T58	Person-Nominal 464 470;471 474	每个开门立户 的先人
+T59	Person-Nominal 478 479	佛
+T60	Person-Nominal 482 484	子孙
+T61	Thing-Nominal 495 497	祖坟
+T62	Thing-Nominal 517 524	十口之家的小院
+T63	Person-Nominal 550 551	男
+T64	Person-Nominal 552 553	女
+T65	Person-Nominal 555 557	儿孙
+T66	Location-Nominal 561 563	院里
+T67	Location-Nominal 563 567	水缸旁的
+T68	Thing-Nominal 567 570	合欢树
+R8	Located Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 571 573	绒花
+T70	Thing-Nominal 576 577;578 581	一 树锦绣
+T71	Person-Nominal 589 591	爷爷
+T72	Thing-Nominal 603 605	豆腐
+T73	Thing-Nominal 610 616	果子(油条)
+T74	Location-Nominal 617 619	村里
+T75	Person-Pronoun 624 625	我
+T76	Person-Nominal 626 630	长子长孙
+R9	Family Arg1:T75 Arg2:T71	
+T77	Time-Implicit 636 638;639 640	逢年 节
+T78	Thing-Nominal 641 644	跟屁虫
+T79	Person-Nominal 647 649	爷爷
+T80	Person-Nominal 665 667	爷爷
+T81	Metric 677 682	一两个时辰
+T82	Location-Nominal 686 688	满头
+T83	Thing-Nominal 688 690	汗水
+R10	Located Arg1:T83 Arg2:T82	
+T84	Location-Nominal 691 693	脸上
+T85	Person-Pronoun 705 706	我
+T86	Location-Nominal 708 709	家
+T87	Location-Nominal 711 716	裤袄衣袋里
+T88	Thing-Nominal 716 721	花生、瓜子
+R11	Located Arg1:T88 Arg2:T87	
+T89	Thing-Nominal 728 730	家门
+T90	Person-Pronoun 737 738	我
+T91	Person-Nominal 735 736	娘
+T92	Person-Nominal 746 749	弟妹们
+T93	Person-Pronoun 774 776	他们
+*	Coreference T93 T92
+T94	Location-Nominal 782 784	村里
+T95	Thing-Nominal 785 787	学堂
+R12	Located Arg1:T95 Arg2:T94	
+T96	Metric 790 793	几十里
+T97	Location-Nominal 803 812	一处大地主的官房里
+T98	Thing-Nominal 814 823	走廊、明柱和石狮子
+R13	Located Arg1:T98 Arg2:T97	
+T99	Time-Implicit 832 834	那时
+T100	Person-Pronoun 870 871	我
+T101	Location-Nominal 892 894	家里
+T102	Person-Nominal 901 903	大舅
+T103	Location-Nominal 905 907	市里
+T104	Thing-Nominal 908 912	一所学校
+R14	Located Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 913 914	书
+T106	Person-Nominal 929 930	人
+T107	Time-Implicit 937 941	每到集日
+T108	Organization-Nominal 946 948	公社
+T109	Thing-Nominal 951 957	纸糊的高帽子
+T110	Location-Nominal 966 969	我家里
+T111	Person-Pronoun 966 967	我
+T112	Location-Nominal 977 978	家
+T113	Person-Nominal 983 985	大舅
+T114	Location-Nominal 992 995	被摞上
+T115	Person-Nominal 998 1002	我们姐弟
+T116	Person-Pronoun 998 1000	我们
+T117	Location-Nominal 1018 1021	学校里
+T118	Thing-Nominal 1029 1030	门
+T119	Thing-Nominal 1038 1039	门
+T120	Thing-Nominal 1044 1045	门
+T121	Person-Nominal 1051 1054	下等人
+T122	Person-Pronoun 1059 1060	他
+T123	Person-Nominal 1062 1066	历史教授
+*	Coreference T122 T113
+T124	Person-Pronoun 1068 1070	我们
+T125	Person-Pronoun 1092 1094	我们
+T126	Thing-Nominal 1083 1084	口
+T127	Thing-Nominal 1078 1079	眉
+R15	Part-Whole Arg1:T127 Arg2:T122	
+R16	Part-Whole Arg1:T126 Arg2:T122	
+T128	Time-Implicit 1103 1110	那个特殊年代里
+T129	Person-Nominal 1145 1146	人
+T130	Thing-Nominal 1153 1159	一条乡间小路
+T131	Location-Nominal 1179 1181	家门
+T132	Metric 1184 1187	十五里
+T133	Time-Implicit 1202 1204	每周
+T134	Time-Implicit 1209 1211	那年
+T135	Person-Pronoun 1212 1213	我
+T136	Metric 1214 1217	十四岁
+T137	Person-Nominal 1223 1231	望、峰、苍三族兄
+T138	Person-Nominal 1246 1249	三兄弟
+T139	Person-Pronoun 1255 1256	我
+T140	Metric 1256 1259	七八里
+T141	Metric 1273 1274;1275 1277	两 年间
+T142	Person-Nominal 1299 1300	娘
+T143	Thing-Nominal 1309 1310	门
+T144	Time-Explicit 1311 1316	周日上学时
+T145	Person-Pronoun 1317 1318	她
+*	Coreference T145 T142
+T146	Thing-Nominal 1324 1331	一锅玉米面饼子
+T147	Thing-Nominal 1334 1335;1336 1337	布 袋
+T148	Thing-Nominal 1338 1343	这“口粮”
+T149	Person-Nominal 1345 1346	娘
+T150	Thing-Nominal 1350 1352	咸菜
+T151	Thing-Nominal 1357 1358	条
+T152	Person-Nominal 1361 1362	娘
+T153	Thing-Nominal 1372 1375	罐头瓶
+T154	Thing-Nominal 1379 1382	一根绳
+T155	Person-Nominal 1385 1386	娘
+T156	Thing-Nominal 1390 1391	门
+T157	Time-Explicit 1404 1408	周六上午
+T158	Person-Nominal 1421 1425	小伙伴们
+T159	Location-Nominal 1431 1433	家里
+T160	Person-Nominal 1436 1437	娘
+T161	Person-Pronoun 1438 1439	我
+T162	Thing-Nominal 1446 1447	门
+T163	Person-Nominal 1474 1475	娘
+T164	Person-Nominal 1480 1481	儿
+R17	Family Arg1:T164 Arg2:T163	
+T165	Thing-Nominal 1486 1488	双手
+R18	Part-Whole Arg1:T165 Arg2:T163	
+T166	Thing-Nominal 1491 1497	红扑扑的脸颊
+T167	Time-Implicit 1522 1530	十年前的那个雪天
+T168	Person-Pronoun 1536 1537	我
+T169	Person-Nominal 1540 1549	只剩下半口气的老娘
+R19	Family Arg1:T169 Arg2:T168	
+T170	Location-Nominal 1550 1551	家
+T171	Person-Pronoun 1552 1553	她
+T172	Person-Pronoun 1600 1601	她
+T173	Location-Nominal 1602 1606	我的怀里
+T174	Person-Pronoun 1602 1603	我
+T175	Person-Nominal 1608 1609	爹
+T176	Person-Nominal 1610 1616	我们姐弟四人
+T177	Person-Pronoun 1610 1612	我们
+T178	Thing-Nominal 1622 1624	眼睛
+T179	Location-Nominal 1625 1628	雪地上
+T180	Thing-Nominal 1629 1631	车辙
+R20	Located Arg1:T180 Arg2:T179	
+T181	Person-Nominal 1632 1635	乡亲们
+T182	Thing-Nominal 1638 1640	脚印
+T183	Person-Nominal 1645 1651	一位善良母亲
+T184	Person-Nominal 1655 1656	娘
+T185	Person-Nominal 1676 1677	人
+T186	Location-Nominal 1687 1692	出发的地方
+T187	Thing-Nominal 1694 1695	鸟
+T188	Thing-Nominal 1696 1697	巢
+T189	Thing-Nominal 1698 1699	鸡
+T190	Thing-Nominal 1700 1701	窝
+T191	Thing-Nominal 1702 1703	虎
+T192	Thing-Nominal 1704 1705	林
+T193	Time-Explicit 1726 1731	乙未年初一
+T194	Person-Nominal 1734 1736	家人
+T195	Location-Nominal 1737 1738	乡
+T196	Person-Name 1741 1745	孙子宸儿
+T197	Thing-Nominal 1751 1756	老家的房子
+T198	Location-Nominal 1751 1753	老家
+R21	Located Arg1:T197 Arg2:T198	
+T199	Person-Nominal 1762 1766	同族长辈
+T200	Location-Nominal 1773 1776	老宅前
+T201	Thing-Nominal 1777 1783	院外的枣树林
+T202	Location-Nominal 1777 1779	院外
+R22	Located Arg1:T201 Arg2:T202	
+T203	Thing-Nominal 1796 1798	老宅
+T204	Thing-Nominal 1799 1800	门
+T205	Thing-Nominal 1804 1809	上面的黑漆
+T206	Location-Nominal 1804 1806	上面
+R23	Located Arg1:T205 Arg2:T206	
+T207	Location-Nominal 1832 1836	院墙头上
+T208	Thing-Nominal 1837 1842	丝瓜的藤叶
+R24	Located Arg1:T208 Arg2:T207	
+T209	Location-Nominal 1847 1849	房檐
+T210	Thing-Nominal 1850 1852	苇挡
+R25	Located Arg1:T210 Arg2:T209	
+T211	Thing-Nominal 1858 1866	砖包皮的板打土墙
+T212	Thing-Nominal 1871 1873	门窗
+T213	Location-Nominal 1885 1887	老家
+T214	Person-Name 1894 1896	宸儿
+T215	Person-Pronoun 1901 1902	我
+T216	Person-Nominal 1906 1913	同来的邻家二哥
+T217	Person-Pronoun 1918 1919	我
+T218	Location-Nominal 1920 1922	村里
+T219	Person-Nominal 1938 1941	年轻人
+T220	Thing-Nominal 1944 1952	外面的新房和楼房
+T221	Location-Nominal 1944 1946	外面
+R26	Located Arg1:T220 Arg2:T221	
+R27	Social Arg1:T216 Arg2:T217	
+T222	Person-Pronoun 1958 1959	我
+T223	Person-Name 1968 1971	张春景
+T224	Time-Explicit 1972 1977	六十年代初
+T225	Location-Name 1979 1985	河北省南皮县
+T226	Person-Name 1988 2001	雪莹、南冰、燕南散人、未了
+T227	Abstract 2005 2009	《长城》
+T228	Abstract 2010 2015	《鸭绿江》
+T229	Abstract 2016 2021	《文学报》
+T230	Time-Explicit 2093 2098	2005年
+T231	Abstract 2113 2119	《热土之魂》
+T232	Time-Explicit 2120 2125	2010年
+T233	Abstract 2138 2145	《远行的目光》
+T234	Thing-Nominal 2147 2149	该书
+T235	Abstract 2166 2170	《雨中》
+T236	Abstract 2173 2178	《文学报》
+T237	Abstract 2200 2206;2207 2213	《给大娃起个 鲜亮的名字》
+T238	Person-Nominal 2243 2252	中国收藏家协会会员
+T239	Person-Nominal 2234 2242	中国散文学会会员
+T240	Person-Nominal 2253 2263	中国作协河北分会会员
+T241	Person-Nominal 2264 2267;2268 2274	沧州市 作家协会理事
+T242	Person-Nominal 2275 2286	沧州市散文学会常务理事

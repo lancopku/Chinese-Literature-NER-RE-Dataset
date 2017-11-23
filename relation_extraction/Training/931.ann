@@ -1,0 +1,175 @@
+T1	Location-Nominal 4 11	高大的石牌楼前
+T2	Person-Pronoun 12 13	我
+T3	Location-Name 21 24	杏花村
+T4	Location-Name 29 31	江南
+T5	Thing-Nominal 43 45	阳光
+T6	Location-Nominal 47 59	桃花和杏花竞相开放的枝头
+R1	Located Arg1:T5 Arg2:T6	
+T7	Thing-Nominal 85 87	日月
+T8	Person-Pronoun 96 97	我
+T9	Person-Name 102 106	牧之先生
+T10	Time-Explicit 107 116	1169年前的今天
+T11	Thing-Nominal 119 123	光黄古道
+T12	Location-Nominal 130 138	棱角分明的脸庞上
+T13	Location-Nominal 146 150;151 155	飘飘舞动 的长袍里
+T14	Thing-Nominal 157 161	一路风尘
+R2	Located Arg1:T14 Arg2:T13	
+T15	Thing-Nominal 164 171	弱不禁风的马儿
+T16	Location-Nominal 176 180	他的身后
+R3	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 181 189	古道、西风、瘦马
+T18	Person-Nominal 197 199	诗人
+T19	Location-Nominal 206 212	岐亭古镇旁边
+T20	Thing-Nominal 213 214	人
+T21	Thing-Nominal 215 216	马
+T22	Location-Name 218 222	杏花村道
+T23	Thing-Nominal 225 227	牌楼
+T24	Location-Name 245 250	繁华的京城
+T25	Location-Name 251 259	还有些蛮荒的黄州
+T26	Person-Nominal 260 262	刺史
+T27	Person-Name 265 266;267 268	牧 之
+T28	Thing-Nominal 276 280	青石牌楼
+T29	Thing-Nominal 296 301	黑色的苔藓
+*	Coreference T29 T28
+T30	Thing-Nominal 316 320	一条小径
+T31	Person-Name 339 341	牧之
+T32	Thing-Nominal 341 346	颀长的身躯
+R4	Part-Whole Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 348 350	牌楼
+T34	Thing-Nominal 361 363	牛铃
+T35	Location-Nominal 398 400	村里
+T36	Person-Nominal 401 403	美人
+T37	Metric 379 381	三里
+T38	Organization-Name 381 384	桃花店
+T39	Metric 385 387	五里
+T40	Location-Name 387 390	杏花村
+T41	Location-Nominal 391 393	店里
+T42	Thing-Nominal 394 396	美酒
+R5	Located Arg1:T42 Arg2:T41	
+T43	Person-Name 426 428	牧之
+T44	Thing-Nominal 444 445	酒
+T45	Thing-Nominal 454 456	牛铃
+T46	Person-Nominal 464 473	横坐在牛背上的牧童
+T47	Location-Nominal 467 470	牛背上
+T48	Person-Nominal 483 495	这个仙风道骨一般的陌生人
+T49	Location-Nominal 480 482	面前
+T50	Person-Name 497 499	牧之
+T51	Person-Nominal 505 507	仙童
+T52	Location-Nominal 513 515	酒家
+T53	Person-Nominal 518 520	牧童
+T54	Location-Name 526 529	杏花村
+T55	Location-Name 600 602	麻城
+T56	Location-Name 610 615	杏花村馆酒
+T57	Thing-Nominal 631 633	杨柳
+T58	Person-Nominal 645 646	人
+T59	Thing-Nominal 649 650	草
+T60	Person-Name 657 664	宋代词人谢无逸
+T61	Person-Pronoun 672 673	我
+T62	Person-Nominal 676 678	词人
+T63	Location-Name 676 684	词人笔下的杏花村
+T64	Person-Pronoun 695 696	你
+T65	Person-Name 744 746	崔颢
+T66	Person-Nominal 754 755	人
+T67	Location-Name 788 791	杏花村
+T68	Location-Name 804 810	湿漉漉的江南
+T69	Location-Pronoun 816 817	她
+*	Coreference T69 T67
+T70	Location-Pronoun 824 825	她
+T71	Thing-Nominal 839 842	一把土
+T72	Location-Nominal 861 864	空气中
+T73	Person-Name 874 876	杜牧
+T74	Thing-Nominal 879 880	酒
+T75	Abstract 883 884;885 888	《 清明》
+T76	Location-Name 890 893	杏花村
+T77	Thing-Nominal 894 896	天地
+T78	Person-Name 899 901	东坡
+T79	Person-Nominal 903 905	故友
+T80	Abstract 908 912	《岐亭》
+T81	Person-Nominal 914 916	挚友
+T82	Person-Name 923 925	陈季
+T83	Person-Name 933 935	东坡
+T84	Abstract 938 944	“河东狮吼”
+T85	Person-Name 951 954	于成龙
+T86	Person-Name 975 978	乾隆帝
+T87	Location-Name 980 982	江南
+T88	Location-Name 985 987	杏花
+T89	Abstract 992 998	“杏花古刹”
+T90	Person-Name 999 1002	甘望鲁
+T91	Person-Pronoun 1050 1051	你
+T92	Person-Pronoun 1067 1068	你
+T93	Location-Name 1079 1082	杏花村
+T94	Person-Nominal 1103 1116	我们这些嗅觉灵敏的所谓文人
+T95	Location-Nominal 1122 1124	身边
+T96	Thing-Nominal 1126 1136	这么一处“世外桃源”
+R6	Located Arg1:T96 Arg2:T95	
+T97	Person-Nominal 1140 1149	守着金饭碗的当地人
+T98	Location-Pronoun 1152 1153	她
+*	Coreference T98 T93
+T99	Person-Nominal 1159 1160	人
+T100	Thing-Nominal 1163 1164	草
+T101	Person-Name 1172 1179	个叫李开寿的人
+T102	Location-Name 1181 1183	麻城
+T103	Location-Name 1192 1195	杏花村
+T104	Person-Pronoun 1202 1203	他
+*	Coreference T104 T101
+T105	Person-Pronoun 1211 1212	他
+T106	Location-Name 1220 1223	杏花村
+T107	Person-Name 1227 1230;1231 1235	宋代词 人谢无逸
+T108	Location-Nominal 1187 1190	县志上
+T109	Thing-Nominal 1253 1260	水泥铺就的道路
+T110	Thing-Nominal 1253 1255	水泥
+T111	Person-Pronoun 1270 1271	你
+T112	Thing-Nominal 1279 1287	鹅卵石镶嵌的小道
+T113	Thing-Nominal 1279 1282	鹅卵石
+T114	Person-Nominal 1298 1300	游人
+T115	Location-Name 1308 1311	杏花村
+T116	Person-Nominal 1319 1324	众多的名人
+T117	Location-Pronoun 1337 1338	她
+*	Coreference T117 T115
+T118	Location-Nominal 1364 1366	山中
+T119	Thing-Nominal 1367 1368	水
+R7	Located Arg1:T119 Arg2:T118	
+T120	Location-Nominal 1370 1372	水中
+T121	Thing-Nominal 1373 1374	山
+R8	Located Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 1375 1376	山
+T123	Thing-Nominal 1379 1381	丘陵
+T124	Thing-Nominal 1384 1385	水
+T125	Location-Nominal 1424 1429	路旁、坡地
+T126	Thing-Nominal 1433 1434	花
+R9	Located Arg1:T126 Arg2:T125	
+T127	Thing-Nominal 1438 1445	那一陇陇的菜花
+T128	Thing-Nominal 1458 1464	那一树树杏花
+T129	Thing-Nominal 1477 1479	桃花
+T130	Person-Nominal 1508 1510	游人
+T131	Person-Name 1514 1528	当代著名作家、诗人熊召政先生
+T132	Location-Name 1532 1535	杏花村
+T133	Time-Implicit 1536 1543	庚寅年清明时节
+T134	Person-Nominal 1544 1546	先生
+T135	Location-Name 1548 1551	杏花村
+T136	Person-Pronoun 1568 1569	我
+*	Coreference T136 T134
+T137	Location-Pronoun 1571 1572	此
+*	Coreference T137 T132
+T138	Thing-Nominal 1581 1582	酒
+T139	Person-Nominal 1598 1600	游人
+T140	Location-Name 1603 1606	杏花村
+T141	Person-Nominal 1645 1656	稍有历史和自然知识的人
+T142	Person-Name 1660 1662	杜牧
+T143	Location-Name 1660 1668	杜牧笔下的杏花村
+T144	Location-Name 1670 1672	麻城
+T145	Location-Name 1705 1708	古岐亭
+T146	Person-Pronoun 1709 1710	你
+T147	Location-Name 1714 1716	岐亭
+T148	Location-Name 1723 1726	杏花村
+T149	Location-Name 1732 1735	杏花村
+T150	Location-Name 1744 1747	杏花村
+T151	Location-Name 1751 1754	古岐亭
+T152	Time-Implicit 29 34	江南的清明
+T153	Thing-Nominal 47 49	桃花
+T154	Thing-Nominal 50 52	杏花
+R10	Located Arg1:T154 Arg2:T6	
+R11	Located Arg1:T153 Arg2:T6	
+R12	Located Arg1:T20 Arg2:T19	
+R13	Located Arg1:T21 Arg2:T19	
+T155	Thing-Nominal 328 330	雨雾

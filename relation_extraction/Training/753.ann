@@ -1,0 +1,227 @@
+T1	Person-Nominal 0 2	爷爷
+T2	Thing-Nominal 9 10	墙
+T3	Person-Pronoun 26 27	我
+T4	Thing-Nominal 28 29	眼
+R1	Part-Whole Arg1:T4 Arg2:T3	
+T5	Time-Explicit 37 52	1973年正月初7日的黎明时分
+T6	Thing-Nominal 58 63	淡淡的雪花
+T7	Person-Nominal 64 66	爷爷
+T8	Person-Name 87 89	绍俭
+*	Coreference T8 T7 T9 T16 T18
+T9	Person-Pronoun 90 91	他
+T10	Time-Implicit 93 96	几岁时
+T11	Person-Nominal 96 99	他爷爷
+R2	Family Arg1:T11 Arg2:T9	
+T12	Person-Nominal 100 102	先生
+R3	Social Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 184 189	程亮的眼睛
+T14	Metric 182 184	一双
+T15	Thing-Nominal 232 234	宣纸
+T16	Person-Pronoun 238 239	他
+T17	Location-Nominal 239 253	每晨起床第一眼就能看到的墙上
+R4	Located Arg1:T15 Arg2:T17	
+T18	Person-Pronoun 274 275	他
+T19	Person-Nominal 280 282	爷爷
+T20	Person-Nominal 284 289	淳朴的农民
+*	Coreference T20 T19 T22
+T21	Location-Nominal 297 299	土地
+T22	Person-Pronoun 300 301	他
+T23	Location-Nominal 319 327	属于他的那块土地
+T24	Location-Nominal 355 362	地头上的树荫下
+T25	Thing-Nominal 364 365	烟
+T26	Thing-Nominal 373 382	满地里绿油油的庄稼
+T27	Time-Implicit 399 401	那时
+T28	Person-Nominal 402 404	农民
+T29	Thing-Nominal 417 419	肚子
+T30	Person-Nominal 428 431	下一代
+T31	Person-Nominal 435 437	爷爷
+T32	Person-Pronoun 439 440	我
+T33	Person-Pronoun 442 443	他
+*	Coreference T33 T31
+T34	Organization-Nominal 473 475	中学
+T35	Time-Implicit 471 476	我上中学后
+T36	Time-Implicit 450 455	从我上学起
+T37	Time-Implicit 483 495	我上小学三年级时一天中午
+T38	Thing-Nominal 503 505	书包
+T39	Metric 508 510	一块
+T40	Thing-Nominal 510 512	饼子
+T41	Person-Nominal 522 524	爷爷
+T42	Person-Pronoun 527 528	我
+T43	Person-Nominal 530 531	娃
+*	Coreference T43 T42
+T44	Person-Pronoun 536 537	我
+T45	Thing-Nominal 544 545	头
+R5	Part-Whole Arg1:T45 Arg2:T43	
+T46	Person-Pronoun 556 557	我
+T47	Person-Nominal 559 561	爷爷
+T48	Person-Pronoun 562 563	他
+*	Coreference T48 T47 T58 T60
+T49	Thing-Nominal 569 571	上唇
+R6	Part-Whole Arg1:T49 Arg2:T47	
+T50	Thing-Nominal 575 582	鬃刷似的短胡须
+R7	Located Arg1:T50 Arg2:T49	
+T51	Metric 573 575	一条
+T52	Thing-Nominal 583 585	下巴
+R8	Part-Whole Arg1:T52 Arg2:T47	
+T53	Metric 586 588	一撮
+T54	Thing-Nominal 588 597	两三寸长的花白胡子
+R9	Located Arg1:T54 Arg2:T52	
+T55	Metric 598 600	一双
+T56	Thing-Nominal 600 603;604 609	炯炯有 神的圆眼睛
+T57	Thing-Nominal 613 621	布满皱纹铜色的脸
+R10	Located Arg1:T56 Arg2:T57	
+R11	Part-Whole Arg1:T57 Arg2:T47	
+T58	Person-Pronoun 639 640	他
+T59	Person-Nominal 661 662	人
+T60	Person-Nominal 655 664;665 669	生性耿直，待人宽厚 实在的人
+T61	Time-Implicit 670 672	有时
+T62	Person-Pronoun 673 674	我
+T63	Person-Nominal 680 681	人
+T64	Thing-Nominal 698 704	那双圆圆的眼
+*	Coreference T64 T56
+T65	Thing-Nominal 705 707	胡子
+*	Coreference T65 T54
+T66	Person-Pronoun 713 714	我
+T67	Thing-Nominal 726 728	眼角
+T68	Person-Pronoun 723 724	我
+T69	Person-Nominal 751 753	爷爷
+T70	Person-Nominal 800 803	北京姑
+R12	Family Arg1:T70 Arg2:T69	
+T71	Thing-Nominal 794 796	信皮
+T72	Thing-Nominal 813 815	信纸
+T73	Person-Nominal 819 823	父母大人
+T74	Person-Nominal 844 846	奶奶
+T75	Thing-Nominal 857 859	补药
+T76	Metric 856 857	种
+T77	Person-Nominal 896 898	爷爷
+T78	Thing-Nominal 900 904	我的肩膀
+T79	Thing-Nominal 921 923	药材
+T80	Person-Pronoun 956 957	我
+T81	Thing-Nominal 947 949	蛋糕
+T82	Thing-Nominal 949 951	饼干
+T83	Person-Pronoun 981 982	你
+T84	Person-Nominal 1005 1007	爷爷
+*	Coreference T84 T83 T86
+T85	Person-Nominal 991 995	小兔崽子
+*	Coreference T85 T80 T87
+T86	Person-Pronoun 996 997	我
+T87	Person-Pronoun 1000 1001	你
+T88	Thing-Nominal 1008 1009	手
+R13	Part-Whole Arg1:T88 Arg2:T84	
+T89	Thing-Nominal 1011 1014	我屁股
+R14	Part-Whole Arg1:T89 Arg2:T86	
+T90	Person-Nominal 1055 1057	你姑
+T91	Thing-Nominal 1058 1060	回信
+T92	Time-Implicit 1068 1073	往常的时候
+T93	Thing-Nominal 1079 1080	信
+T94	Person-Nominal 1082 1087	邻近老先生
+T95	Person-Pronoun 1089 1090	他
+T96	Person-Pronoun 1074 1076	爷爷
+*	Coreference T95 T96 T97
+T97	Person-Pronoun 1096 1097	他
+T98	Person-Pronoun 1115 1116	我
+T99	Person-Nominal 1138 1142	小伙伴们
+R15	Social Arg1:T99 Arg2:T98	
+T100	Thing-Nominal 1151 1153	两手
+T101	Person-Pronoun 1150 1151	我
+R16	Part-Whole Arg1:T100 Arg2:T101	
+T102	Thing-Nominal 1155 1157	头皮
+R17	Part-Whole Arg1:T102 Arg2:T101	
+T103	Time-Implicit 1164 1166	晚上
+T104	Thing-Nominal 1169 1171	东西
+T105	Thing-Nominal 1197 1198	嘴
+T106	Person-Nominal 1195 1197	爷爷
+R18	Part-Whole Arg1:T105 Arg2:T106	
+T107	Person-Nominal 1218 1220	爷爷
+T108	Person-Pronoun 1222 1224	自己
+*	Coreference T108 T107 T117 T123
+T109	Time-Implicit 1239 1245	你们这个年代
+T110	Thing-Nominal 1249 1251	肚子
+T111	Organization-Nominal 1279 1280	党
+T112	Organization-Nominal 1281 1283	国家
+T113	Person-Name 1288 1295	毛主席他老人家
+T114	Organization-Nominal 1304 1306	学校
+T115	Person-Nominal 1314 1317	孩子们
+T116	Metric 1310 1313	一群群
+T117	Person-Pronoun 1329 1330	他
+T118	Thing-Nominal 1334 1335	手
+R19	Part-Whole Arg1:T118 Arg2:T117	
+T119	Person-Pronoun 1341 1343	你们
+*	Coreference T119 T115
+T120	Thing-Nominal 1362 1364	蜜罐
+T121	Person-Pronoun 1372 1373	我
+T122	Person-Pronoun 1381 1382	我
+T123	Person-Pronoun 1424 1425	他
+T124	Thing-Nominal 1444 1446	毛笔
+T125	Thing-Nominal 1453 1455	毛笔
+T126	Thing-Nominal 1456 1457	墨
+T127	Person-Pronoun 1460 1461	我
+T128	Person-Pronoun 1470 1471	你
+*	Coreference T128 T127
+T129	Person-Nominal 1477 1479	爷爷
+T130	Thing-Nominal 1482 1483	脸
+R20	Part-Whole Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 1489 1490	兜
+T132	Thing-Nominal 1495 1496	钱
+T133	Metric 1493 1495	一元
+T134	Thing-Nominal 1510 1513	软和纸
+T135	Location-Nominal 1518 1521	咱这里
+T136	Thing-Nominal 1523 1526	那种纸
+*	Coreference T136 T134
+T137	Person-Pronoun 1538 1539	你
+T138	Person-Pronoun 1528 1529	我
+*	Coreference T137 T138
+T139	Person-Pronoun 1542 1543	他
+T140	Thing-Nominal 1548 1550	窗户
+T141	Thing-Nominal 1551 1554	毛透纸
+T142	Person-Nominal 1569 1571	爷爷
+T143	Time-Implicit 1581 1585	每天晚上
+T144	Metric 1577 1580	十多天
+T145	Person-Pronoun 1592 1593	你
+T146	Person-Pronoun 1594 1595	他
+T147	Time-Implicit 1636 1638	一天
+T148	Person-Nominal 1639 1641	爷爷
+T149	Metric 1647 1649	一张
+T150	Thing-Nominal 1649 1652	旧报纸
+T151	Metric 1654 1656	一本
+T152	Thing-Nominal 1656 1662	泛着黄的旧书
+T153	Time-Implicit 1664 1666	傍晚
+T154	Person-Pronoun 1667 1668	他
+*	Coreference T154 T148
+T155	Thing-Nominal 1669 1672	煤油灯
+T156	Person-Pronoun 1680 1681	我
+T157	Person-Pronoun 1687 1688	你
+*	Coreference T157 T156
+T158	Thing-Nominal 1689 1692	这本书
+*	Coreference T158 T152
+T159	Thing-Nominal 1698 1701	咱墙上
+T160	Person-Pronoun 1708 1709	我
+T161	Person-Name 1720 1723	颜真卿
+T162	Thing-Nominal 1720 1726	颜真卿的字帖
+T163	Person-Pronoun 1730 1731	我
+T164	Person-Nominal 1750 1752	爷爷
+T165	Thing-Nominal 1783 1785	四旧
+T166	Time-Implicit 1788 1792	那个年代
+T167	Person-Nominal 1795 1796	人
+T168	Person-Pronoun 1805 1806	我
+T169	Person-Nominal 1810 1812	爷爷
+T170	Person-Pronoun 1814 1815	你
+*	Coreference T170 T169
+T171	Person-Pronoun 1826 1828	爷爷
+T172	Person-Pronoun 1844 1845	我
+T173	Thing-Nominal 1847 1851	那本字贴
+*	Coreference T173 T162 T176
+T174	Organization-Nominal 1866 1868	中学
+T175	Person-Pronoun 1871 1872	我
+T176	Thing-Nominal 1878 1880	名帖
+T177	Person-Nominal 1884 1886	老师
+T178	Thing-Nominal 1888 1891	黑板报
+T179	Location-Nominal 1924 1926	学校
+T180	Time-Implicit 1930 1934	课余时间
+T181	Person-Nominal 1969 1971	子孙
+T182	Person-Nominal 1976 1978	爷爷
+T183	Person-Nominal 1992 1995	老祖宗
+T184	Person-Nominal 2006 2008	先祖
+T185	Thing-Nominal 2020 2026	长江黄河的水
+T186	Time-Implicit 2039 2043	最后时刻
+T187	Thing-Nominal 2045 2049	墙上那字

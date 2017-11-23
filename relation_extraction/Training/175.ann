@@ -1,0 +1,289 @@
+T1	Thing-Nominal 7 9	宝儿
+T2	Thing-Nominal 17 20	一种菜
+T3	Person-Pronoun 20 21	我
+T4	Person-Pronoun 29 30	我
+T5	Thing-Nominal 31 33	餐馆
+T6	Person-Pronoun 37 38	我
+T7	Thing-Pronoun 40 41	它
+*	Coreference T7 T2
+T8	Time-Implicit 45 53	喝酒喝高了的时候
+T9	Thing-Nominal 56 58	醋炒
+T10	Person-Pronoun 69 70	我
+T11	Thing-Nominal 72 73	菜
+T12	Person-Nominal 74 78	卖菜的人
+T13	Thing-Nominal 75 76	菜
+T14	Person-Pronoun 81 82	我
+T15	Thing-Pronoun 86 87	它
+T16	Thing-Nominal 92 95	这种菜
+T17	Person-Pronoun 89 91	自己
+T18	Person-Pronoun 88 89	我
+T19	Thing-Nominal 110 111	汤
+T20	Thing-Nominal 105 106	馅
+T21	Person-Pronoun 133 134	我
+T22	Person-Nominal 135 138	朋友们
+T23	Thing-Nominal 144 147	这种菜
+T24	Thing-Nominal 157 160	绿豆芽
+T25	Location-Name 162 164	东北
+T26	Location-Nominal 164 168	这个地方
+T27	Time-Implicit 174 179	过去的年月
+T28	Thing-Nominal 182 186	塑料大棚
+T29	Thing-Nominal 188 190	蔬菜
+T30	Location-Nominal 195 197	外面
+T31	Thing-Nominal 197 199	白雪
+R1	Located Arg1:T31 Arg2:T30	
+T32	Location-Nominal 207 215	家家户户的饭桌上
+T33	Thing-Nominal 232 237	土豆、白菜
+T34	Thing-Nominal 238 240	萝卜
+T35	Thing-Nominal 249 251	胃口
+T36	Thing-Nominal 255 258	绿豆芽
+T37	Thing-Nominal 261 264	绿豆芽
+T38	Thing-Nominal 267 272	各式各样菜
+T39	Thing-Nominal 279 284	多数的人家
+T40	Thing-Nominal 286 288	豆芽
+T41	Thing-Nominal 289 291	土豆
+T42	Thing-Nominal 293 300	豆芽炒芥菜疙瘩
+T43	Person-Nominal 323 326	老人们
+T44	Thing-Nominal 330 333	牙床子
+T45	Thing-Nominal 335 338	小水泡
+T46	Thing-Nominal 340 343	几顿豆
+T47	Thing-Nominal 355 358	绿豆芽
+T48	Thing-Nominal 393 395	血脂
+T49	Thing-Nominal 398 400	血管
+T50	Thing-Nominal 401 404	绿豆芽
+T51	Thing-Nominal 427 430	牙床子
+T52	Thing-Nominal 431 434	小水泡
+T53	Location-Nominal 445 448	豆芽里
+T54	Thing-Nominal 448 454	大量的维生素
+R2	Located Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 481 484	绿豆芽
+T56	Thing-Nominal 486 489	绿豆芽
+T57	Thing-Nominal 498 502	一个泥盆
+T58	Thing-Nominal 505 512	一些饱满的绿豆
+T59	Location-Nominal 514 516	盆中
+R3	Located Arg1:T58 Arg2:T59	
+T60	Thing-Nominal 531 534	臭豆子
+T61	Thing-Nominal 536 538	冷水
+T62	Thing-Nominal 545 546	水
+T63	Thing-Nominal 550 552	清水
+T64	Thing-Nominal 553 554	水
+T65	Thing-Nominal 556 558	绿豆
+T66	Location-Nominal 567 573	热乎的炕头上
+R4	Located Arg1:T65 Arg2:T66	
+T67	Time-Implicit 574 577	第二天
+T68	Thing-Nominal 578 584	被泡过的绿豆
+T69	Thing-Nominal 591 600	一个个怀孕的小胖子
+T70	Thing-Nominal 602 604	清水
+T71	Thing-Nominal 609 613	一块湿布
+T72	Location-Nominal 615 620	绿豆的上面
+T73	Location-Nominal 627 631	热炕头上
+T74	Time-Implicit 635 637	每天
+T75	Thing-Nominal 642 643	水
+T76	Thing-Nominal 658 663	小胖子孕妇
+T77	Thing-Nominal 668 670	绿豆
+T78	Thing-Nominal 674 679	绿色的肚皮
+T79	Thing-Nominal 683 687;688 689	白嫩的小 芽
+T80	Thing-Nominal 691 698	一条小小的尾巴
+T81	Thing-Nominal 703 706	小尾巴
+T82	Thing-Nominal 710 712	豆瓣
+T83	Thing-Nominal 717 726	一个张开嘴的小动物
+T84	Thing-Nominal 751 753	清水
+T85	Thing-Nominal 757 759	油污
+T86	Thing-Nominal 775 777	豆芽
+T87	Metric 772 774	两天
+T88	Time-Implicit 787 791	那个时候
+T89	Thing-Nominal 792 794	豆芽
+T90	Thing-Nominal 805 808	催长剂
+T91	Thing-Nominal 812 814	化肥
+T92	Person-Pronoun 837 838	我
+T93	Thing-Nominal 840 843	绿豆芽
+T94	Person-Pronoun 848 849	我
+T95	Time-Implicit 869 875	上中学的时候
+T96	Location-Nominal 876 878	学校
+T97	Location-Nominal 879 881	我家
+T98	Person-Pronoun 879 880	我
+T99	Metric 881 885	20里路
+T100	Person-Nominal 888 890	母亲
+R5	Family Arg1:T100 Arg2:T98	
+T101	Person-Nominal 901 906	五条光棍儿
+T102	Person-Nominal 896 900	老少三辈
+T103	Time-Implicit 916 918	每天
+T104	Thing-Nominal 923 930	杂交高粱面干饼
+T105	Location-Nominal 931 933	里边
+T106	Thing-Nominal 934 936	大酱
+R6	Located Arg1:T106 Arg2:T105	
+T107	Thing-Nominal 939 942	几段葱
+T108	Thing-Nominal 953 956;957 958	杂交高 粱
+T109	Thing-Nominal 959 961	鞣酸
+T110	Person-Pronoun 976 977	我
+T111	Person-Nominal 992 994	同学
+T112	Person-Pronoun 998 999	我
+R7	Social Arg1:T112 Arg2:T111	
+T113	Time-Implicit 1012 1014	当时
+T114	Person-Pronoun 1014 1015	我
+T115	Person-Pronoun 1030 1031	你
+T116	Person-Nominal 1054 1056	老师
+T117	Person-Pronoun 1057 1058	我
+T118	Person-Pronoun 1065 1066	我
+T119	Person-Nominal 1068 1070	老师
+T120	Thing-Nominal 1074 1078;1079 1080	高粱面干 饼
+T121	Person-Nominal 1085 1087	老师
+T122	Person-Pronoun 1089 1090	我
+T123	Thing-Nominal 1095 1097	蔬菜
+T124	Thing-Nominal 1100 1101	水
+T125	Thing-Nominal 1109 1110	水
+T126	Person-Pronoun 1110 1111	我
+T127	Thing-Nominal 1117 1119	蔬菜
+T128	Person-Pronoun 1122 1123	我
+T129	Location-Nominal 1125 1127	家里
+T130	Thing-Nominal 1132 1139;1140 1142	土豆、萝卜、大 白菜
+T131	Thing-Nominal 1143 1150	夏天晒的干豆角
+T132	Thing-Nominal 1151 1155	干东瓜条
+T133	Thing-Nominal 1156 1159	茄子干
+T134	Person-Pronoun 1169 1170	你
+T135	Person-Pronoun 1171 1172	我
+T136	Person-Nominal 1177 1179	老师
+T137	Person-Nominal 1196 1201	班主任老师
+T138	Person-Pronoun 1202 1203	我
+T139	Thing-Nominal 1209 1214	一个小布包
+T140	Person-Pronoun 1208 1209	我
+T141	Person-Nominal 1215 1217	老师
+T142	Person-Pronoun 1219 1220	我
+T143	Thing-Nominal 1225 1227	绿豆
+T144	Thing-Nominal 1233 1235	豆芽
+T145	Person-Pronoun 1242 1243	我
+T146	Person-Nominal 1245 1247	老师
+T147	Person-Pronoun 1249 1250	我
+T148	Time-Implicit 1255 1257	当时
+T149	Person-Pronoun 1257 1258	我
+T150	Thing-Nominal 1264 1266	眼泪
+T151	Person-Pronoun 1268 1269	我
+T152	Person-Nominal 1272 1277	故去的妈妈
+T153	Thing-Nominal 1278 1285	那袋绿豆生豆芽
+T154	Location-Nominal 1286 1288	我家
+T155	Person-Pronoun 1286 1287	我
+T156	Metric 1290 1293	好多天
+T157	Time-Implicit 1294 1298	那个年代
+T158	Person-Nominal 1299 1301	老师
+T159	Person-Nominal 1303 1305	学生
+R8	Social Arg1:T159 Arg2:T158	
+T160	Thing-Nominal 1313 1318	稀少的绿豆
+T161	Time-Implicit 1342 1352	第二天中午吃饭的时候
+T162	Person-Pronoun 1353 1354	我
+T163	Thing-Nominal 1356 1360	我的饭盒
+T164	Person-Pronoun 1356 1357	我
+R9	Ownership Arg1:T164 Arg2:T163	
+T165	Thing-Nominal 1364 1368	我的饭盒
+T166	Person-Pronoun 1364 1365	我
+R10	Ownership Arg1:T166 Arg2:T165	
+T167	Thing-Nominal 1370 1380	高粱面干饼大酱卷大葱
+T168	Thing-Nominal 1383 1390	白面饼卷绿豆芽
+T169	Person-Pronoun 1392 1393	我
+T170	Thing-Nominal 1397 1402	自己的眼睛
+R11	Part-Whole Arg1:T170 Arg2:T169	
+T171	Person-Pronoun 1403 1404	我
+T172	Person-Pronoun 1415 1416	我
+T173	Person-Nominal 1420 1421	人
+T174	Person-Pronoun 1429 1430	我
+T175	Person-Nominal 1431 1433	老师
+T176	Thing-Nominal 1437 1439	蔬菜
+T177	Person-Nominal 1444 1448	别的同学
+T178	Person-Pronoun 1453 1454	我
+T179	Thing-Nominal 1456 1457	脸
+R12	Part-Whole Arg1:T179 Arg2:T178	
+T180	Thing-Nominal 1463 1465	白面
+T181	Thing-Nominal 1466 1468	大米
+T182	Thing-Nominal 1469 1471	细粮
+T183	Person-Nominal 1472 1481	富裕家庭的几个同学
+T184	Thing-Nominal 1482 1484	饭盒
+R13	Ownership Arg1:T183 Arg2:T184	
+T185	Person-Pronoun 1488 1489	我
+T186	Person-Nominal 1492 1508	我们班美丽漂亮、学习又好的“班花
+T187	Person-Pronoun 1492 1494	我们
+T188	Person-Nominal 1510 1512;1513 1519	我们 班的学习委员
+T189	Person-Pronoun 1510 1512	我们
+T190	Location-Nominal 1521 1524	桌格里
+T191	Location-Nominal 1539 1541	嘴里
+T192	Time-Implicit 1543 1547	放的时候
+T193	Thing-Nominal 1549 1553	另一只手
+T194	Person-Pronoun 1557 1558	她
+*	Coreference T194 T188
+T195	Time-Implicit 1557 1563	她咀嚼的时候
+T196	Person-Pronoun 1563 1564	我
+T197	Thing-Nominal 1567 1573;1574 1576	我的红高粱面 干饼
+T198	Person-Pronoun 1567 1568	我
+R14	Ownership Arg1:T198 Arg2:T197	
+T199	Person-Pronoun 1577 1578	我
+T200	Time-Implicit 1580 1584	这个时候
+T201	Time-Implicit 1591 1595	那个年代
+T202	Person-Nominal 1595 1599	男女同学
+T203	Person-Pronoun 1608 1609	我
+T204	Person-Nominal 1610 1614	学习委员
+T205	Thing-Nominal 1615 1623	卷绿豆芽的白面饼
+T206	Person-Pronoun 1625 1626	我
+T207	Person-Nominal 1626 1630	这个班长
+T208	Thing-Nominal 1631 1634;1635 1640	高粱面 干饼卷大葱
+T209	Person-Nominal 1658 1660	同学
+T210	Person-Pronoun 1670 1671	我
+T211	Thing-Nominal 1673 1674	腰
+R15	Part-Whole Arg1:T211 Arg2:T210	
+T212	Thing-Nominal 1677 1678	头
+R16	Part-Whole Arg1:T212 Arg2:T210	
+T213	Time-Implicit 1679 1687	一场风卷残云过后
+T214	Thing-Nominal 1688 1694	饭盒里的美食
+T215	Location-Nominal 1688 1691	饭盒里
+R17	Located Arg1:T214 Arg2:T215	
+T216	Person-Pronoun 1696 1697	我
+T217	Time-Implicit 1706 1709	那时代
+T218	Person-Nominal 1710 1711	人
+T219	Person-Nominal 1730 1732	人家
+T220	Time-Implicit 1767 1771	那个年月
+T221	Person-Nominal 1772 1775	青年人
+T222	Person-Pronoun 1780 1781	谁
+T223	Person-Nominal 1793 1801	情窦初开的中学生
+T224	Person-Pronoun 1803 1804	她
+T225	Person-Pronoun 1805 1806	我
+T226	Thing-Nominal 1810 1813	两张饼
+T227	Person-Nominal 1821 1823	同学
+T228	Person-Pronoun 1826 1827	我
+T229	Person-Pronoun 1855 1856	她
+T230	Person-Pronoun 1853 1854	我
+T231	Time-Implicit 1869 1873	毕业以后
+T232	Person-Pronoun 1886 1887	我
+T233	Thing-Nominal 1895 1902	那份绿豆芽卷饼
+T234	Time-Implicit 1903 1910	每每吃绿豆芽时
+T235	Person-Pronoun 1920 1921	她
+T236	Time-Implicit 1922 1930	上大学有工作以后
+T237	Person-Pronoun 1942 1943	她
+T238	Person-Nominal 1945 1947	老师
+T239	Person-Pronoun 1954 1956	，我
+T240	Person-Pronoun 1964 1965	她
+T241	Person-Pronoun 1974 1976	我们
+T242	Thing-Nominal 1985 1989	鸡鱼肉蛋
+T243	Thing-Nominal 2006 2010	各种蔬菜
+T244	Thing-Nominal 2030 2031;2032 2034	绿 豆芽
+T245	Person-Pronoun 2054 2055	我
+T246	Metric 2105 2107	多年
+T247	Person-Nominal 2114 2117	朋友们
+T248	Person-Pronoun 2121 2123	我们
+T249	Person-Nominal 2149 2151	后人
+T250	Person-Pronoun 2153 2155	他们
+*	Coreference T250 T249
+T251	Thing-Nominal 2163 2166	一盘菜
+T252	Person-Pronoun 2207 2208	我
+T253	Thing-Nominal 2210 2214	生豆芽儿
+T254	Person-Name 2216 2219	史庆有
+T255	Person-Name 2223 2227	无风无浪
+T256	Person-Nominal 2228 2242	辽宁省阜新蒙古族自治县公务员
+T257	Person-Nominal 2243 2252	辽宁省作家协会会员
+T258	Person-Nominal 2253 2258	高级畜牧师
+T259	Person-Nominal 2259 2274	蒙古贞文学奖及阜新文学奖获得者
+T260	Person-Name 2276 2279	史庆有
+T261	Location-Nominal 2282 2284	农村
+T262	Location-Nominal 2296 2298	农村
+T263	Thing-Nominal 2300 2312	农村的山山水水、一草一木
+T264	Location-Nominal 2300 2302	农村
+R18	Located Arg1:T263 Arg2:T264	
+T265	Metric 2326 2328	多年
+T266	Thing-Nominal 2356 2361	数百篇作品
+T267	Abstract 2377 2381	《心语》
+T268	Abstract 2381 2385	《心曲》

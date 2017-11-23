@@ -1,0 +1,68 @@
+T1	Thing-Nominal 0 1	山
+T2	Person-Nominal 2 3	人
+T3	Person-Nominal 5 6	人
+T4	Person-Nominal 7 8	山
+T5	Person-Nominal 10 19	一座并不起眼的高山
+T6	Person-Nominal 22 26	一个英雄
+T7	Person-Pronoun 50 52	我们
+T8	Time-Implicit 60 70	这是一个五月的艳阳天
+T9	Thing-Nominal 97 99	火焰
+T10	Thing-Nominal 93 106	一簇簇如火焰一般灼人的花朵
+T11	Location-Nominal 109 113	这座山中
+T12	Thing-Nominal 109 120	这座山中特有的高山杜鹃
+T13	Time-Implicit 124 126	五月
+T14	Location-Nominal 130 134	山中杜鹃
+T15	Thing-Nominal 132 134	杜鹃
+R1	Located Arg1:T15 Arg2:T14	
+T16	Location-Nominal 122 124	人间
+T17	Thing-Nominal 143 153	一丛丛、一簇簇的花儿
+T18	Thing-Nominal 156 157	树
+T19	Thing-Nominal 159 163	半片叶子
+T20	Thing-Nominal 164 169	所有的枝头
+T21	Thing-Nominal 174 185	鲜艳的烈火一般
+的花朵
+R2	Located Arg1:T20 Arg2:T21	
+T22	Person-Nominal 187 188	人
+T23	Thing-Nominal 196 201	血染的花朵
+T24	Time-Implicit 205 217	三百六十九年前的那个五月
+T25	Thing-Nominal 218 220	杜鹃
+T26	Time-Implicit 226 231	那一个五月
+T27	Thing-Nominal 236 238	淫雨
+T28	Person-Pronoun 241 242	他
+T30	Person-Nominal 244 249	随从十八骑
+T31	Thing-Nominal 252 257	纷飞的细雨
+T32	Thing-Nominal 260 266	满地的
+泥泞
+T33	Location-Name 269 272	九宫山
+T34	Thing-Nominal 274 276	山路
+T35	Thing-Nominal 283 284	马
+T36	Thing-Nominal 289 296	路上的行行青苔
+T37	Thing-Nominal 297 298	马
+T38	Location-Nominal 306 309	当地的
+T39	Person-Nominal 306 313	当地的民勇乡丁
+T40	Person-Nominal 329 331	盗贼
+T41	Person-Nominal 339 352	身处大山腹地耳目闭塞的山民
+T42	Person-Nominal 355 357	英雄
+T43	Person-Nominal 358 360	盗贼
+T44	Person-Nominal 371 378	蜂拥而至的山民
+T45	Person-Pronoun 380 381	他
+T47	Person-Nominal 382 389	他的十
+八骑团
+T48	Thing-Nominal 393 404	锄头、铁锨、柴刀、棍棒
+T49	Thing-Nominal 414 416	农具
+R4	Part-Whole Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 425 427	武器
+*	Coreference T50 T48
+T51	Location-Nominal 435 437	沙场
+T52	Person-Nominal 440 442	英豪
+T53	Person-Pronoun 448 449	他
+T54	Thing-Nominal 458 460	锄头
+T55	Time-Explicit 464 469	那一天以后
+T56	Thing-Nominal 470 472	杜鹃
+T57	Thing-Nominal 474 475	血
+R5	Located Arg1:T12 Arg2:T11	
+T58	Thing-Nominal 177 179	烈火
+R3	Social Arg1:T30 Arg2:T28	
+T29	Location-Nominal 289 291	路上
+R6	Located Arg1:T36 Arg2:T29	
+T59	Location-Nominal 341 345	大山腹地

@@ -1,0 +1,195 @@
+T1	Location-Name 0 5	美丽的三亚
+T2	Thing-Nominal 6 11	浪漫的天涯
+T3	Location-Pronoun 12 14	这里
+*	Coreference T3 T1
+T4	Thing-Nominal 15 20	海鸟栖息地
+T5	Thing-Nominal 21 26	成群的海鸟
+T6	Thing-Nominal 39 41	闪电
+T7	Thing-Nominal 50 52	浪尖
+T8	Location-Nominal 59 60;61 62	云 端
+T9	Location-Pronoun 63 65	这里
+T10	Thing-Nominal 65 70	洁白的细沙
+T11	Thing-Nominal 74 76	海水
+T12	Thing-Nominal 77 82	明媚的阳光
+T13	Thing-Nominal 83 88	雪白的浪花
+T14	Person-Pronoun 96 97	你
+T15	Thing-Nominal 101 103	大海
+T16	Location-Pronoun 109 111	这里
+T17	Thing-Nominal 118 120	山水
+T18	Thing-Nominal 124 126	青山
+T19	Thing-Nominal 131 133	椰树
+T20	Location-Pronoun 138 140	这里
+T21	Thing-Nominal 143 146	天然氧
+T22	Thing-Nominal 158 160	水岸
+T23	Location-Nominal 155 157	到处
+T24	Location-Pronoun 165 167	这里
+T25	Person-Nominal 169 170	人
+T26	Person-Nominal 176 177	人
+T27	Person-Nominal 230 235	旅游的人儿
+T28	Location-Pronoun 228 230	这里
+T29	Thing-Nominal 219 221	阳光
+T30	Thing-Nominal 212 214	阳光
+T31	Location-Pronoun 197 199	这里
+T32	Person-Nominal 267 268	人
+T33	Person-Nominal 258 264	三亚的小姑娘
+T34	Person-Nominal 275 276	人
+T35	Thing-Nominal 276 278	阳光
+T36	Thing-Nominal 283 284	水
+T37	Thing-Nominal 293 295	月光
+T38	Thing-Nominal 299 302	，月光
+T39	Thing-Nominal 355 357	花海
+T40	Location-Nominal 359 361	海角
+T41	Thing-Nominal 347 351	半城山水
+T42	Thing-Nominal 351 354	半城花
+T43	Thing-Nominal 339 343	一片花海
+T44	Person-Pronoun 334 335	你
+T45	Location-Name 326 328	三亚
+T46	Time-Implicit 315 319	一年四季
+T47	Thing-Nominal 319 320	花
+T48	Location-Pronoun 308 310	这里
+T49	Thing-Nominal 310 312	鲜花
+T50	Thing-Nominal 414 415	花
+T51	Person-Nominal 416 417	人
+T52	Person-Nominal 420 421	人
+T53	Thing-Nominal 422 424	花枝
+T54	Location-Nominal 410 413	花海中
+T55	Person-Nominal 408 409	人
+T56	Location-Name 404 407	三亚城
+T57	Thing-Nominal 397 399	天涯
+T58	Thing-Nominal 391 396	微红的太阳
+T59	Thing-Nominal 370 374	一路花海
+T60	Thing-Nominal 374 377	一路歌
+T61	Thing-Nominal 450 452	阳光
+T62	Location-Name 465 467	三亚
+T63	Person-Pronoun 472 474	自己
+T64	Person-Nominal 475 477	爱人
+T65	Person-Pronoun 539 541	我们
+T66	Person-Nominal 531 532	人
+T67	Location-Name 528 530	三亚
+T68	Location-Name 501 503	三亚
+T69	Location-Name 498 500	三亚
+T70	Location-Name 492 494	三亚
+T71	Thing-Name 486 488	三亚
+T72	Thing-Nominal 551 553	椰林
+T73	Thing-Nominal 554 556	沙滩
+T74	Thing-Nominal 557 559	海浪
+T75	Person-Nominal 564 565	人
+T76	Location-Name 566 568	三亚
+T77	Thing-Nominal 613 615	夕阳
+T78	Thing-Nominal 609 612	椰子树
+T79	Thing-Nominal 594 596	海水
+T80	Thing-Nominal 586 590	整个海面
+T81	Location-Name 577 580	三亚湾
+T82	Thing-Nominal 572 574	夕阳
+T83	Thing-Nominal 672 676	你的脸庞
+T84	Person-Pronoun 672 673	你
+R1	Part-Whole Arg1:T83 Arg2:T84	
+T85	Thing-Nominal 667 669	海风
+T86	Thing-Nominal 657 659	夕阳
+T87	Person-Pronoun 645 646	你
+T88	Location-Nominal 649 654	滨海大道上
+T89	Time-Implicit 634 636	白天
+T90	Thing-Nominal 738 740	贝壳
+T91	Location-Nominal 731 734	沙滩上
+T92	Person-Nominal 714 716	大人
+T93	Person-Nominal 717 724	光着屁股的孩子
+T94	Location-Nominal 725 727	水中
+T95	Thing-Nominal 708 710	潮水
+T96	Time-Implicit 753 755	白天
+T97	Thing-Nominal 844 850	茂密的红树林
+T98	Location-Nominal 825 828	河两岸
+T99	Thing-Nominal 832 839	水榭和花草树木
+R2	Located Arg1:T99 Arg2:T98	
+T100	Location-Nominal 770 772	脸上
+T101	Person-Pronoun 797 799	我们
+T102	Location-Pronoun 807 809	这里
+T103	Location-Nominal 909 916	岸边的红树林上
+T104	Thing-Nominal 899 904	银色的白鹭
+R3	Located Arg1:T104 Arg2:T103	
+T105	Person-Nominal 888 895	一群赤脚的巨人
+T106	Thing-Nominal 873 878	伞状形的根
+T107	Thing-Nominal 858 867	一道绿色的天然屏障
+T108	Location-Nominal 870 872	岸边
+R4	Located Arg1:T107 Arg2:T108	
+T109	Location-Nominal 967 976	三亚河两岸的街道上
+T110	Thing-Nominal 962 966	各种车辆
+R5	Located Arg1:T110 Arg2:T109	
+T111	Location-Nominal 952 957	新风大桥上
+T112	Location-Nominal 937 947	三亚河的沙洲和草地上
+T113	Location-Nominal 923 932	三亚河的蓝天白云下
+R6	Located Arg1:T104 Arg2:T113	
+R7	Located Arg1:T104 Arg2:T112	
+R8	Located Arg1:T104 Arg2:T111	
+T114	Location-Name 987 992	三亚河中央
+T115	Thing-Nominal 993 998	那座步行桥
+R9	Located Arg1:T115 Arg2:T114	
+T116	Thing-Nominal 1000 1004	一条巨龙
+T117	Person-Nominal 1019 1021	人们
+T118	Location-Nominal 1017 1019	桥上
+T119	Thing-Nominal 1033 1040	闻名遐迩的鹿山
+T120	Person-Nominal 1096 1101;1102 1105	那位含着羞 的仙姑
+T121	Thing-Nominal 1043 1045	阳光
+T122	Location-Nominal 1057 1061	公园中央
+T123	Thing-Nominal 1062 1069	那尊鹿回头塑像
+R10	Located Arg1:T123 Arg2:T122	
+T124	Person-Nominal 1077 1090	那位古老神话传说的黎族青年
+T125	Location-Name 1159 1161	三亚
+T126	Thing-Nominal 1141 1152	一面明亮的镜子和梳妆台
+T127	Location-Name 1115 1118	三亚河
+T128	Thing-Nominal 1119 1125	上游的临春河
+T129	Location-Nominal 1119 1121	上游
+R11	Located Arg1:T128 Arg2:T129	
+T130	Person-Nominal 1192 1196	妙龄少女
+T131	Thing-Nominal 1197 1198	手
+R12	Part-Whole Arg1:T131 Arg2:T130	
+T132	Location-Pronoun 1205 1207	这里
+T133	Thing-Nominal 1207 1209	白云
+T134	Thing-Nominal 1217 1219	海水
+T135	Person-Nominal 1224 1225	人
+T136	Location-Nominal 1227 1234	亚龙湾的躺椅上
+T137	Thing-Nominal 1176 1177	风
+T138	Thing-Nominal 1237 1242	湛蓝的大海
+T139	Thing-Nominal 1243 1248	蔚蓝的天空
+T140	Thing-Nominal 1251 1253	海风
+T141	Thing-Nominal 1258 1264	凉甜的椰子汁
+T142	Person-Nominal 1266 1267	人
+T143	Location-Name 1278 1281	亚龙湾
+T144	Thing-Nominal 1283 1285	游艇
+T145	Location-Pronoun 1353 1355	这里
+T146	Thing-Nominal 1407 1409	大海
+T147	Person-Pronoun 1344 1346	自己
+T148	Thing-Nominal 1393 1395	大海
+T149	Thing-Nominal 1385 1387	天空
+T150	Thing-Nominal 1368 1370	水波
+T151	Person-Nominal 1505 1509	世界小姐
+T152	Person-Nominal 1485 1491	中国顶级模特
+T153	Location-Pronoun 1482 1484	这里
+T154	Location-Name 1471 1473	三亚
+T155	Location-Name 1479 1481	三亚
+T156	Location-Name 1459 1461	三亚
+T157	Location-Name 1465 1467	三亚
+T158	Location-Name 1521 1523	中国
+T159	Location-Pronoun 1543 1545	这里
+T160	Thing-Nominal 1546 1553	真正的人间天堂
+T161	Location-Pronoun 1556 1558	这里
+T162	Person-Pronoun 1559 1560	你
+T163	Location-Pronoun 1571 1573	这里
+T164	Person-Pronoun 1574 1575	你
+T165	Thing-Nominal 1601 1603	三亚
+T166	Thing-Pronoun 1620 1621	她
+*	Coreference T166 T165
+T167	Thing-Nominal 1633 1635	三亚
+T168	Thing-Nominal 1635 1647	这颗闪耀在南国天涯的明珠
+T169	Location-Name 1661 1663	三亚
+T170	Person-Pronoun 1664 1665	我
+T171	Thing-Nominal 1683 1688	人间的天堂
+T172	Person-Nominal 1693 1694	人
+T173	Person-Pronoun 1701 1703	我们
+T174	Person-Nominal 1718 1719	人
+T175	Location-Nominal 1536 1542	最神圣的地方
+*	Coreference T159 T175
+T176	Person-Pronoun 1440 1441	你
+T177	Person-Pronoun 1423 1425	自己
+T178	Location-Pronoun 1437 1439	这里
+T179	Thing-Nominal 1134 1140	这两条姐妹河
+R13	Family Arg1:T64 Arg2:T63	

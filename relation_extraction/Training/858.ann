@@ -1,0 +1,570 @@
+T1	Time-Implicit 0 2	秋日
+T2	Location-Name 3 5	湘江
+T3	Location-Name 3 9	湘江橘子洲头
+R1	Part-Whole Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 10 12	金橘
+T5	Thing-Nominal 13 14	枝
+R2	Located Arg1:T4 Arg2:T5	
+T6	Thing-Nominal 16 17	林
+T7	Thing-Nominal 20 22	丹桂
+T8	Person-Name 26 29	毛泽东
+T9	Time-Explicit 26 39	毛泽东诞辰一百二十周年之际
+T10	Person-Nominal 43 47	一代伟人
+*	Coreference T8 T10
+T11	Time-Implicit 57 59	秋日
+T12	Thing-Nominal 59 60;61 62	暖 阳
+T13	Location-Name 80 86	湘江橘子洲头
+T14	Location-Name 87 90	橘子洲
+T15	Person-Name 91 94	毛泽东
+T16	Time-Implicit 94 98	青年时期
+T17	Person-Nominal 100 102	朋友
+T18	Person-Nominal 102 104	同学
+T19	Thing-Nominal 109 110	书
+T20	Location-Nominal 106 113	游玩读书的地方
+*	Coreference T14 T20 T23
+R3	Social Arg1:T15 Arg2:T17	
+R4	Social Arg1:T15 Arg2:T18	
+T21	Person-Pronoun 114 115	他
+*	Coreference T21 T15
+T22	Time-Implicit 115 117	曾经
+T23	Location-Pronoun 118 120	这里
+T24	Abstract 130 136	沁园春.长沙
+T25	Thing-Nominal 139 141	秋水
+T26	Thing-Nominal 144 146	秋江
+T27	Thing-Nominal 147 148	波
+T28	Thing-Name 152 154	湘江
+T29	Time-Implicit 162 165	秋日里
+T30	Thing-Nominal 176 178	翡翠
+T31	Thing-Nominal 184 186	水晶
+T32	Location-Name 188 191	橘子洲
+T33	Location-Nominal 194 197	岳麓山
+T34	Location-Name 200 203	长沙城
+T35	Thing-Nominal 207 208	水
+R5	Near Arg1:T35 Arg2:T32	
+R6	Near Arg1:T34 Arg2:T32	
+R7	Near Arg1:T32 Arg2:T33	
+T36	Thing-Nominal 217 219	巨轮
+T37	Location-Nominal 222 224	江心
+R8	Located Arg1:T36 Arg2:T37	
+T38	Location-Name 230 233	橘子洲
+T39	Time-Implicit 244 246	春季
+T40	Thing-Nominal 252 254	江鸥
+T41	Thing-Nominal 257 259	嫩柳
+T42	Thing-Nominal 263 264	风
+T43	Time-Implicit 267 269	夏季
+T44	Thing-Nominal 269 271	林木
+T45	Thing-Nominal 274 276	百花
+T46	Time-Implicit 283 286	;秋季
+T47	Thing-Nominal 286 287	柚
+T48	Thing-Nominal 288 289	橘
+T49	Thing-Nominal 291 293	金桂
+T50	Time-Implicit 296 298	冬季
+T51	Thing-Nominal 298 299	雪
+T52	Thing-Nominal 300 301	松
+T53	Thing-Nominal 301 302	竹
+R9	Located Arg1:T51 Arg2:T52	
+R10	Located Arg1:T51 Arg2:T53	
+T54	Thing-Nominal 306 307	冰
+T55	Thing-Nominal 308 309;310 311	江 风
+T56	Thing-Nominal 312 313	雪
+T57	Thing-Nominal 314 315	银
+T58	Thing-Nominal 316 317	玉
+T59	Thing-Nominal 342 343	橙
+T60	Thing-Nominal 344 345	橘
+T61	Time-Implicit 355 357	如今
+T62	Location-Name 358 361	橘子洲
+T63	Location-Nominal 371 372	园
+T64	Location-Nominal 376 379	橘子林
+R11	Part-Whole Arg1:T64 Arg2:T63	
+T65	Metric 386 390	两、三米
+T66	Thing-Nominal 392 395	橘子树
+R12	Located Arg1:T66 Arg2:T64	
+T67	Time-Implicit 396 402	每当秋收季节
+T68	Thing-Nominal 404 405	果
+R13	Part-Whole Arg1:T68 Arg2:T66	
+R14	Located Arg1:T66 Arg2:T63	
+R15	Located Arg1:T40 Arg2:T38	
+R16	Located Arg1:T41 Arg2:T38	
+R17	Located Arg1:T44 Arg2:T38	
+R18	Located Arg1:T45 Arg2:T38	
+R19	Located Arg1:T47 Arg2:T38	
+R20	Located Arg1:T48 Arg2:T38	
+R21	Located Arg1:T49 Arg2:T38	
+R22	Located Arg1:T52 Arg2:T38	
+R23	Located Arg1:T53 Arg2:T38	
+T69	Location-Nominal 420 422	橘林
+T70	Person-Name 426 429	毛泽东
+T71	Thing-Nominal 423 425	雕塑
+R24	Located Arg1:T71 Arg2:T69	
+T72	Person-Name 430 433	蔡和森
+T73	Person-Name 434 437	向警予
+T74	Thing-Nominal 440 442	铜像
+R25	General-Special Arg1:T74 Arg2:T71	
+R26	Social Arg1:T70 Arg2:T72	
+R27	Social Arg1:T70 Arg2:T73	
+R28	Social Arg1:T72 Arg2:T73	
+T75	Location-Nominal 445 446	林
+*	Coreference T75 T69
+T76	Thing-Nominal 456 458	江风
+T77	Thing-Nominal 459 461	树梢
+T78	Location-Name 468 471	岳麓山
+T79	Location-Name 474 476	湘江
+T80	Thing-Nominal 492 494	图画
+T81	Thing-Nominal 505 507	画卷
+T82	Location-Nominal 512 514	橘林
+T83	Thing-Nominal 518 520	楠竹
+T84	Thing-Nominal 524 526	林木
+T85	Location-Pronoun 542 544	这里
+T86	Person-Pronoun 545 546	我
+T87	Time-Implicit 552 556	青年时期
+T88	Person-Name 557 560	毛泽东
+T89	Location-Name 562 566	橘子洲头
+*	Coreference T85 T89 T93
+R29	Located Arg1:T83 Arg2:T89	
+R30	Part-Whole Arg1:T82 Arg2:T89	
+R31	Located Arg1:T84 Arg2:T89	
+T90	Abstract 576 582	沁园春・长沙
+T91	Person-Pronoun 586 587	他
+*	Coreference T88 T91
+T92	Person-Nominal 595 596	民
+T93	Location-Nominal 603 604	洲
+T94	Location-Nominal 610 612	名城
+T95	Location-Name 616 619	橘子洲
+T96	Location-Nominal 626 632	“天下第一洲
+*	Coreference T94 T95 T96
+T97	Location-Name 637 641	橘子洲头
+T98	Organization-Name 667 670	新中国
+T99	Person-Name 678 681	毛泽东
+T100	Person-Pronoun 683 684	我
+T101	Location-Name 686 690	橘子洲头
+T102	Thing-Nominal 702 703	山
+T103	Location-Nominal 696 698	远处
+T104	Location-Nominal 704 706	近处
+T105	Thing-Nominal 710 711	树
+R32	Located Arg1:T105 Arg2:T104	
+R33	Located Arg1:T102 Arg2:T103	
+T106	Thing-Nominal 718 720	彩笔
+T107	Thing-Nominal 737 739	春花
+T108	Thing-Nominal 746 748	彩霞
+T109	Person-Name 751 754	毛泽东
+T110	Person-Pronoun 766 767	我
+T111	Thing-Nominal 782 783	人
+T112	Thing-Nominal 791 792	人
+T113	Person-Pronoun 812 813	我
+T114	Person-Name 816 820	唐末李殉
+T115	Thing-Nominal 825 827	荻花
+T116	Location-Name 829 831	潇湘
+T117	Location-Name 834 836	橘洲
+T118	Thing-Nominal 839 841	屏画
+T119	Thing-Nominal 843 844	烟
+T120	Thing-Nominal 846 848	明月
+T121	Thing-Nominal 850 852	小艇
+T122	Thing-Nominal 857 858	水
+T123	Location-Nominal 859 860	乡
+T124	Thing-Nominal 861 862	篷
+T125	Location-Nominal 863 864	舍
+T126	Thing-Nominal 865 867	鱼羹
+T127	Thing-Nominal 867 869	稻饭
+T128	Thing-Nominal 872 873	酒
+T129	Thing-Nominal 874 875	杯
+R34	Located Arg1:T128 Arg2:T129	
+T130	Thing-Nominal 876 877	书
+T131	Thing-Nominal 878 879	架
+R35	Located Arg1:T130 Arg2:T131	
+T132	Time-Implicit 895 898	千年前
+T133	Location-Name 899 902	橘子洲
+T134	Time-Implicit 906 910	千百年来
+T135	Thing-Nominal 913 914	星
+T136	Location-Name 916 919	橘子洲
+T137	Person-Name 928 931	毛泽东
+T138	Location-Name 934 937	橘子洲
+T139	Thing-Nominal 931 932	笔
+R36	Use Arg1:T137 Arg2:T139	
+T140	Time-Implicit 937 940	近百年
+T141	Time-Implicit 944 946	如今
+T142	Location-Name 946 949	橘子洲
+T143	Thing-Nominal 952 953	水
+R37	Near Arg1:T143 Arg2:T142	
+T144	Location-Nominal 959 963	江河之中
+T145	Thing-Nominal 964 966	巨舰
+R38	Located Arg1:T145 Arg2:T144	
+T146	Time-Implicit 967 969	今日
+T147	Location-Name 970 973	橘子洲
+T148	Location-Name 974 978	橘洲公园
+T149	Location-Nominal 979 983	天然泳场
+R39	Part-Whole Arg1:T148 Arg2:T147	
+R40	Part-Whole Arg1:T149 Arg2:T147	
+T150	Location-Name 984 988	橘洲公园
+T151	Location-Nominal 991 993	洲头
+R41	Part-Whole Arg1:T150 Arg2:T151	
+*	Coreference T151 T147
+T152	Location-Nominal 994 996	泳场
+*	Coreference T152 T149
+T153	Location-Nominal 999 1003	洲之中部
+R42	Part-Whole Arg1:T152 Arg2:T153	
+T154	Location-Name 1004 1008	橘洲公园
+T155	Thing-Nominal 1009 1010	亭
+T156	Thing-Nominal 1010 1011	台
+T157	Thing-Nominal 1011 1012	碑
+T158	Thing-Nominal 1012 1013	廊
+T159	Location-Nominal 1014 1016	园林
+R43	Part-Whole Arg1:T159 Arg2:T154	
+R44	Located Arg1:T155 Arg2:T154	
+R45	Located Arg1:T158 Arg2:T154	
+R46	Located Arg1:T157 Arg2:T154	
+R47	Located Arg1:T156 Arg2:T154	
+T160	Location-Nominal 1019 1022	园门口
+T161	Location-Nominal 1019 1020	园
+*	Coreference T154 T161
+T162	Thing-Nominal 1026 1028	花卉
+T163	Thing-Nominal 1032 1034	橘林
+R48	Located Arg1:T162 Arg2:T160	
+R49	Located Arg1:T163 Arg2:T160	
+T164	Location-Nominal 1035 1037	洲中
+T165	Thing-Nominal 1039 1043	巨大石头
+R50	Located Arg1:T165 Arg2:T164	
+T166	Person-Name 1048 1049;1050 1052	毛 泽东
+T167	Thing-Nominal 1055 1061	沁园春.长沙
+R51	Located Arg1:T165 Arg2:T167	
+T168	Thing-Nominal 1063 1065	石碑
+T169	Location-Name 1070 1073	橘颂亭
+R52	Near Arg1:T168 Arg2:T169	
+T170	Location-Nominal 1075 1076	亭
+T171	Location-Name 1078 1081	橘子洲
+T172	Location-Pronoun 1086 1087	此
+*	Coreference T170 T169 T172
+T173	Location-Name 1100 1104	橘子洲头
+T174	Thing-Nominal 1107 1108	山
+T175	Thing-Name 1111 1113	湘江
+T176	Thing-Nominal 1116 1118	百舸
+T177	Thing-Nominal 1121 1122	鹰
+T178	Thing-Nominal 1126 1127	鱼
+T179	Location-Name 1134 1138	橘子洲头
+T180	Time-Implicit 1144 1153	那个血雨腥风的年代
+T181	Person-Name 1155 1158	毛泽东
+T182	Person-Nominal 1164 1168	有为青年
+R53	General-Special Arg1:T181 Arg2:T182	
+T183	Person-Pronoun 1186 1188	他们
+*	Coreference T183 T182
+T184	Organization-Nominal 1206 1208	国家
+T185	Person-Nominal 1223 1228	反动统治者
+T186	Location-Nominal 1230 1232	粪土
+T187	Time-Implicit 1233 1237	从那时起
+T188	Location-Name 1237 1239	湘江
+T189	Location-Name 1243 1246	橘子洲
+R54	Part-Whole Arg1:T189 Arg2:T188	
+T190	Person-Nominal 1252 1257	青年毛泽东
+T191	Person-Pronoun 1265 1266	他
+*	Coreference T191 T190
+T192	Thing-Nominal 1276 1278	地标
+T193	Location-Name 1280 1283	橘子洲
+T194	Person-Name 1284 1287	毛泽东
+T195	Time-Implicit 1287 1291	青年时代
+T196	Location-Nominal 1284 1297	毛泽东青年时代最喜欢的地方
+*	Coreference T193 T196
+T197	Time-Implicit 1318 1320	今日
+T198	Location-Name 1320 1323	橘子洲
+T199	Person-Nominal 1327 1329	伟人
+R55	General-Special Arg1:T194 Arg2:T199	
+T200	Thing-Nominal 1325 1332	一座伟人的雕塑
+R56	Located Arg1:T200 Arg2:T198	
+T201	Thing-Nominal 1333 1334	地
+T202	Location-Name 1338 1341	橘子洲
+T203	Thing-Nominal 1343 1350	这座毛泽东塑像
+R57	Located Arg1:T203 Arg2:T202	
+*	Coreference T200 T203
+T204	Thing-Nominal 1364 1366	长发
+T205	Thing-Nominal 1370 1372	脸庞
+T206	Thing-Nominal 1358 1360	五官
+T207	Thing-Nominal 1394 1396	鼻梁
+T208	Thing-Nominal 1404 1406	唇廓
+T209	Thing-Nominal 1413 1415	额头
+R58	Part-Whole Arg1:T209 Arg2:T203	
+R59	Part-Whole Arg1:T208 Arg2:T203	
+R60	Part-Whole Arg1:T207 Arg2:T203	
+T210	Thing-Nominal 1376 1378	眉头
+R61	Part-Whole Arg1:T210 Arg2:T203	
+R62	Part-Whole Arg1:T205 Arg2:T203	
+R63	Part-Whole Arg1:T204 Arg2:T203	
+R64	Part-Whole Arg1:T206 Arg2:T203	
+T211	Person-Nominal 1424 1426	人们
+T212	Person-Name 1433 1438	青年毛泽东
+T213	Location-Name 1452 1456	橘子洲头
+T214	Thing-Nominal 1457 1464	这尊毛泽东雕像
+R65	Located Arg1:T214 Arg2:T213	
+T215	Location-Nominal 1466 1470	全国各地
+T216	Thing-Nominal 1471 1479	毛泽东雕像、塑像
+R66	General-Special Arg1:T214 Arg2:T216	
+T217	Thing-Nominal 1490 1492	雕像
+*	Coreference T217 T214
+T218	Person-Name 1493 1501	青年时期的毛泽东
+T219	Location-Name 1526 1529	橘子洲
+T220	Person-Name 1543 1546	毛泽东
+T221	Time-Implicit 1546 1548	当年
+T222	Thing-Nominal 1565 1567	雕像
+T223	Person-Nominal 1563 1569	看到雕像的人
+T224	Person-Name 1581 1584	毛泽东
+T225	Abstract 1589 1595	沁园春・长沙
+T226	Time-Implicit 1600 1602	寒秋
+T227	Location-Name 1603 1605	湘江
+T228	Location-Name 1608 1612	橘子洲头
+T229	Thing-Nominal 1621 1623	大地
+T230	Thing-Nominal 1631 1636	毛泽东雕像
+T231	Person-Name 1639 1644	青年毛泽东
+T232	Location-Name 1654 1657	橘子洲
+T233	Thing-Nominal 1668 1674	毛泽东的雕像
+T234	Person-Name 1668 1671	毛泽东
+T235	Person-Pronoun 1676 1677	我
+T236	Thing-Nominal 1682 1689	青年毛泽东雕像
+T237	Location-Name 1708 1712	橘子洲头
+T238	Thing-Nominal 1728 1735	青年毛泽东雕塑
+T239	Time-Explicit 1736 1741	1925年
+T240	Time-Implicit 1741 1745	青年时期
+*	Coreference T239 T240 T242
+T241	Person-Name 1746 1749	毛泽东
+T242	Time-Implicit 1759 1761	当年
+T243	Person-Name 1765 1768	毛泽东
+T244	Time-Explicit 1784 1789	1925年
+T245	Organization-Name 1791 1796	中国共产党
+T246	Location-Name 1830 1832	五卅
+T247	Location-Nominal 1836 1838	省港
+T248	Time-Implicit 1872 1876	那一时期
+T249	Organization-Name 1925 1929	中华民族
+T250	Person-Nominal 1990 1992	人们
+T251	Time-Implicit 2000 2002	这时
+T252	Person-Name 2003 2006	毛泽东
+T253	Location-Name 2008 2011	橘子洲
+T254	Location-Name 2014 2016	湘江
+T255	Time-Implicit 2029 2031	当时
+T256	Abstract 2051 2054	沁园春
+T257	Person-Name 2064 2067	毛泽东
+T258	Time-Implicit 2069 2072	新时代
+T259	Thing-Nominal 2078 2079	风
+T260	Thing-Nominal 2080 2081	浪
+T261	Thing-Nominal 2083 2084	帆
+T262	Thing-Nominal 2107 2109	大地
+T263	Time-Implicit 2120 2122	当年
+T264	Person-Name 2123 2126	毛泽东
+T265	Location-Name 2128 2132	橘子洲头
+T266	Thing-Nominal 2134 2136	苍天
+T267	Person-Nominal 2139 2141	同学
+T268	Person-Nominal 2141 2143	少年
+T269	Person-Nominal 2149 2151	书生
+T270	Person-Name 2160 2163	毛泽东
+T271	Time-Implicit 2170 2174	上个世纪
+T272	Person-Nominal 2176 2179	青年人
+R67	General-Special Arg1:T268 Arg2:T272	
+R68	General-Special Arg1:T267 Arg2:T272	
+T273	Person-Name 2186 2191	青年毛泽东
+R69	General-Special Arg1:T273 Arg2:T272	
+T274	Organization-Name 2192 2196	湖南一师
+T275	Metric 2198 2200	5年
+T276	Time-Implicit 2201 2203	当时
+T277	Person-Name 2204 2207	毛泽东
+T278	Person-Nominal 2213 2214	民
+T279	Organization-Nominal 2211 2212	国
+T280	Person-Nominal 2220 2222	同学
+R70	Social Arg1:T277 Arg2:T280	
+T281	Location-Name 2224 2226	湘江
+T282	Location-Name 2228 2232	橘子洲头
+T283	Location-Name 2242 2246	橘子洲头
+T284	Organization-Name 2259 2262	新中国
+T285	Time-Implicit 2263 2265	后来
+T286	Person-Name 2266 2269	毛泽东
+T287	Person-Nominal 2280 2284	一代伟人
+T288	Person-Name 2284 2287	毛泽东
+R71	General-Special Arg1:T288 Arg2:T287	
+T289	Time-Implicit 2287 2289	当年
+T290	Location-Name 2291 2295	橘子洲头
+T291	Person-Nominal 2301 2302;2303 2304	后 人
+T292	Person-Name 2320 2323	毛泽东
+T293	Thing-Nominal 2320 2330	毛泽东青年时期的雕塑
+T294	Metric 2334 2337	32米
+T295	Metric 2339 2342	83米
+T296	Metric 2344 2347	41米
+T297	Metric 2350 2357	3500平方米
+T298	Location-Name 2367 2371	福建龙岩
+T299	Thing-Nominal 2375 2378	永定红
+T300	Thing-Nominal 2379 2380;2381 2383	花 岗岩
+R72	General-Special Arg1:T299 Arg2:T300	
+R73	Located Arg1:T299 Arg2:T298	
+T301	Thing-Nominal 2384 2392	这种灰红色的岩石
+*	Coreference T301 T299
+T302	Thing-Nominal 2348 2350	基座
+R74	Part-Whole Arg1:T299 Arg2:T302	
+T303	Person-Nominal 2433 2435	人们
+T304	Thing-Nominal 2447 2450	永定红
+T305	Thing-Nominal 2452 2460	一种红灰色的石头
+R75	General-Special Arg1:T304 Arg2:T305	
+T306	Thing-Nominal 2462 2464	阳光
+T307	Thing-Nominal 2472 2473	雨
+T308	Organization-Nominal 2486 2489	共和国
+T309	Thing-Nominal 2494 2496	国旗
+T310	Person-Nominal 2503 2505	国人
+T311	Thing-Nominal 2520 2521	人
+T312	Thing-Nominal 2537 2541	‘永定红
+T313	Thing-Nominal 2544 2548	“永定红
+T314	Thing-Nominal 2560 2562	雕像
+T315	Time-Implicit 2587 2589	现代
+T316	Thing-Nominal 2600 2601	壳
+T317	Location-Nominal 2606 2608	里面
+T318	Location-Nominal 2610 2613	纪念馆
+T319	Thing-Nominal 2616 2620	历史文物
+T320	Thing-Nominal 2622 2626	图片资料
+R76	Located Arg1:T319 Arg2:T318	
+R77	Located Arg1:T320 Arg2:T318	
+T321	Time-Implicit 2629 2631	当年
+T322	Location-Name 2632 2634	长沙
+T323	Organization-Nominal 2637 2638	国
+T324	Person-Nominal 2639 2640	民
+T325	Person-Nominal 2643 2647	仁人志士
+T326	Person-Name 2657 2660	毛泽东
+R78	General-Special Arg1:T326 Arg2:T325	
+T327	Thing-Nominal 2657 2662	毛泽东雕像
+T328	Person-Pronoun 2666 2667	我
+T329	Person-Name 2675 2678	毛泽东
+T330	Time-Implicit 2678 2682	青年时期
+T331	Person-Pronoun 2687 2688	我
+T332	Location-Name 2690 2694	橘子洲头
+T333	Person-Pronoun 2695 2696	我
+T334	Organization-Nominal 2706 2707	国
+T335	Person-Nominal 2708 2709	民
+T336	Thing-Pronoun 2740 2742	我们
+T337	Person-Name 2743 2746	毛泽东
+T338	Time-Explicit 2772 2777	1925年
+T339	Person-Name 2777 2780	毛泽东
+T340	Location-Name 2781 2783	广州
+T341	Person-Nominal 2785 2787	农民
+T342	Time-Implicit 2793 2796	那时期
+*	Coreference T342 T338
+T343	Person-Name 2797 2800	毛泽东
+T344	Thing-Nominal 2805 2808	中分头
+R79	Part-Whole Arg1:T344 Arg2:T343	
+T345	Person-Pronoun 2819 2820	他
+*	Coreference T343 T345
+T346	Person-Name 2838 2841	毛泽东
+T347	Thing-Nominal 2854 2856	雕像
+T348	Time-Implicit 2860 2862	青年
+T349	Time-Implicit 2863 2867	中年时期
+T350	Person-Name 2868 2871	毛泽东
+T351	Thing-Nominal 2883 2885	长发
+T352	Person-Name 2888 2893	青年毛泽东
+R80	Part-Whole Arg1:T351 Arg2:T352	
+T353	Person-Name 2900 2905	青年毛泽东
+T354	Person-Nominal 2931 2933	同学
+T355	Person-Nominal 2933 2935	少年
+T356	Person-Nominal 2972 2974	诗人
+T357	Person-Name 2978 2981	毛泽东
+R81	General-Special Arg1:T357 Arg2:T356	
+T358	Person-Nominal 2983 2985	人们
+T359	Person-Nominal 2991 2993	诗人
+T360	Person-Nominal 2995 2998	革命者
+T361	Person-Nominal 2999 3002	革命者
+T362	Person-Nominal 3004 3006	诗人
+R82	General-Special Arg1:T357 Arg2:T360	
+T363	Person-Nominal 2990 2998	“诗人中的革命者
+T364	Person-Nominal 2999 3006	革命者中的诗人
+*	Coreference T357 T363 T364
+T365	Location-Nominal 3017 3019	沙洲
+T366	Thing-Nominal 3025 3027	山峦
+T367	Thing-Nominal 3031 3036	毛泽东雕像
+R83	Located Arg1:T367 Arg2:T365	
+T368	Thing-Nominal 3044 3046	造像
+T369	Person-Name 3066 3069	毛泽东
+T370	Person-Nominal 3076 3078	伟人
+R84	General-Special Arg1:T369 Arg2:T370	
+T371	Organization-Name 3109 3111	中国
+T372	Thing-Nominal 3118 3124	具象人物雕像
+T373	Thing-Nominal 3128 3130	胸像
+*	Coreference T372 T373 T368 T367
+T374	Thing-Nominal 3136 3138	头部
+R85	Part-Whole Arg1:T374 Arg2:T373	
+T375	Location-Name 3150 3154	橘子洲头
+T376	Person-Name 3157 3160	毛泽东
+T377	Person-Name 3163 3168	青年毛泽东
+T378	Thing-Nominal 3176 3178	雕塑
+T379	Thing-Nominal 3184 3187	摩崖石
+T380	Abstract 3189 3193;3194 3196	沁园春・ 长沙
+T381	Thing-Nominal 3204 3206	雕塑
+T382	Thing-Nominal 3212 3214	雕像
+T383	Thing-Nominal 3215 3217	基座
+R86	Part-Whole Arg1:T383 Arg2:T382	
+R87	Part-Whole Arg1:T302 Arg2:T293	
+T384	Person-Name 3220 3223	毛泽东
+T385	Thing-Nominal 3220 3226	毛泽东的肩膀
+T386	Person-Nominal 3231 3233	巨人
+R88	General-Special Arg1:T384 Arg2:T386	
+T387	Thing-Nominal 3250 3252	肩膀
+T388	Thing-Nominal 3234 3236	肩膀
+*	Coreference T385 T383
+T389	Thing-Nominal 3269 3271	山体
+*	Coreference T387 T389
+T390	Metric 3258 3266	3500多平方米
+T391	Person-Name 3276 3279	毛泽东
+T392	Location-Nominal 3287 3291	山体里面
+T393	Person-Name 3295 3298	毛泽东
+T394	Location-Name 3299 3302	橘子洲
+T395	Location-Nominal 3307 3310	陈列室
+*	Coreference T395 T392
+T396	Person-Nominal 3326 3328	后人
+T397	Person-Nominal 3330 3334	一代伟人
+R89	General-Special Arg1:T393 Arg2:T397	
+T398	Thing-Nominal 3339 3344	毛泽东塑像
+T399	Time-Implicit 3384 3386	上午
+T400	Thing-Nominal 3386 3388	太阳
+T401	Location-Nominal 3389 3391	东边
+R90	Located Arg1:T400 Arg2:T401	
+T402	Time-Implicit 3395 3397	下午
+T403	Thing-Nominal 3397 3399	太阳
+T404	Location-Nominal 3401 3403	西边
+R91	Located Arg1:T403 Arg2:T404	
+T405	Person-Name 3417 3420	毛泽东
+T406	Location-Nominal 3428 3430	东方
+T407	Location-Nominal 3431 3433	南方
+T408	Location-Nominal 3435 3441	革命的策源地
+*	Coreference T407 T408
+T409	Location-Name 3445 3447	湘江
+T410	Thing-Nominal 3450 3451	风
+T411	Location-Nominal 3452 3454	北面
+T412	Thing-Nominal 3457 3459	头发
+T413	Location-Nominal 3469 3471	北方
+T414	Time-Implicit 3473 3475	十月
+T415	Thing-Nominal 3478 3479	风
+T416	Thing-Name 3489 3492	岳麓山
+T417	Thing-Nominal 3516 3517	山
+T418	Thing-Nominal 3524 3525	林
+T419	Location-Nominal 3532 3534	西面
+T420	Thing-Nominal 3536 3538	雕塑
+T421	Person-Name 3548 3551	毛泽东
+T422	Time-Implicit 3559 3561	今日
+T423	Location-Name 3561 3564	橘子洲
+T424	Location-Pronoun 3566 3567	你
+*	Coreference T423 T424 T430
+T425	Person-Name 3572 3575	毛泽东
+T426	Thing-Nominal 3579 3580	山
+T427	Thing-Nominal 3584 3585	林
+T428	Thing-Nominal 3597 3598	江
+T429	Thing-Nominal 3601 3603	百舸
+T430	Location-Pronoun 3631 3632	你
+T431	Thing-Nominal 3650 3651	水
+T432	Person-Name 3653 3656	毛泽东
+T433	Location-Name 3657 3660	橘子洲
+T434	Person-Nominal 3677 3680	革命者
+T435	Person-Nominal 3695 3697	世人
+R92	General-Special Arg1:T432 Arg2:T434	
+T436	Time-Implicit 3708 3710	今天
+T437	Person-Pronoun 3712 3713	我
+T438	Location-Name 3715 3719	橘子洲头
+T439	Person-Pronoun 3735 3736	我
+T440	Thing-Nominal 3751 3753	队伍
+T441	Location-Name 3759 3762	井冈山
+T442	Location-Name 3778 3780	遵义
+T443	Location-Name 3778 3782	遵义城头
+T444	Thing-Nominal 3782 3784	红旗
+R93	Located Arg1:T444 Arg2:T443	
+T445	Thing-Nominal 3792 3796	延安宝塔
+T446	Person-Pronoun 3804 3805	我
+T447	Organization-Nominal 3809 3812	共主国
+T448	Thing-Nominal 3813 3815	旗帜
+T449	Person-Pronoun 3816 3817	我
+T450	Location-Name 3792 3794	延安

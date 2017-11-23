@@ -1,0 +1,266 @@
+T1	Person-Nominal 0 2	将军
+T2	Person-Nominal 6 8	将军
+T3	Location-Nominal 19 20	岛
+T4	Time-Implicit 18 21	离岛前
+T5	Person-Pronoun 22 23	他
+*	Coreference T5 T2
+T6	Location-Name 26 31	鹰嘴山哨所
+T7	Metric 37 41	300米
+T8	Thing-Name 42 45	鹰嘴山
+T9	Location-Nominal 55 57	海面
+T10	Location-Nominal 63 65	哨所
+*	Coreference T10 T6 T14
+T11	Location-Nominal 77 79	碉堡
+R1	Part-Whole Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 69 70	海
+R2	Near Arg1:T12 Arg2:T11	
+T13	Location-Nominal 91 93	海面
+T14	Location-Nominal 97 102	军事观察点
+T15	Location-Nominal 104 106	山上
+T16	Thing-Nominal 113 114	路
+R3	Located Arg1:T16 Arg2:T15	
+T17	Thing-Nominal 126 130	羊肠小道
+*	Coreference T17 T16
+R4	Located Arg1:T17 Arg2:T15	
+T18	Person-Nominal 131 133	将军
+T19	Thing-Nominal 138 140	眼睛
+R5	Part-Whole Arg1:T19 Arg2:T18	
+T20	Location-Nominal 160 162	碉堡
+T21	Thing-Nominal 169 174	高倍望远镜
+R6	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 178 180	枪支
+R7	Located Arg1:T22 Arg2:T20	
+T23	Thing-Nominal 192 199	老旧台式电风扇
+T24	Thing-Nominal 203 205	木椅
+R8	Located Arg1:T23 Arg2:T24	
+R9	Located Arg1:T23 Arg2:T20	
+R10	Located Arg1:T24 Arg2:T20	
+T25	Person-Nominal 208 210	将军
+T26	Person-Pronoun 215 216	他
+*	Coreference T25 T26
+T27	Thing-Nominal 224 227	电风扇
+*	Coreference T27 T23
+T28	Thing-Nominal 232 234	双手
+R11	Part-Whole Arg1:T28 Arg2:T25	
+T29	Thing-Nominal 240 242	网罩
+R12	Part-Whole Arg1:T29 Arg2:T27	
+T30	Thing-Nominal 250 252	泪水
+T31	Thing-Nominal 257 259	珍珠
+T32	Person-Nominal 269 272	好妹子
+T33	Person-Pronoun 273 274	我
+T34	Person-Pronoun 278 279	你
+*	Coreference T32 T34
+T35	Person-Nominal 284 286	将军
+*	Coreference T33 T35
+T36	Time-Explicit 292 296	30年前
+T37	Location-Nominal 300 303	观察哨
+T38	Person-Nominal 307 311	一名班长
+T39	Person-Nominal 312 316	两名战士
+R13	Social Arg1:T38 Arg2:T39	
+R14	Ownership Arg1:T38 Arg2:T37	
+R15	Ownership Arg1:T39 Arg2:T37	
+T40	Person-Nominal 317 319	班长
+T41	Location-Nominal 320 322	军区
+T42	Person-Nominal 327 331	军技骨干
+R16	General-Special Arg1:T40 Arg2:T42	
+T43	Location-Nominal 335 337	山下
+T44	Location-Nominal 337 340	小渔村
+R17	Part-Whole Arg1:T44 Arg2:T43	
+T45	Organization-Nominal 341 345	女民兵班
+T46	Person-Pronoun 348 349	他
+*	Coreference T46 T40 T47
+T47	Person-Nominal 350 352	教头
+T48	Person-Nominal 358 360	上级
+T49	Location-Nominal 374 376	哨所
+T50	Person-Nominal 377 379	战土
+T51	Thing-Nominal 380 382	木板
+T52	Thing-Nominal 384 386	钉子
+R18	Located Arg1:T52 Arg2:T51	
+R19	Ownership Arg1:T50 Arg2:T49	
+*	Coreference T37 T49
+T53	Location-Nominal 396 398	碉堡
+T54	Time-Implicit 403 405	盛夏
+T55	Thing-Nominal 406 408	太阳
+T56	Thing-Nominal 408 410	火球
+T57	Location-Nominal 416 418	碉堡
+T58	Location-Nominal 419 421	里面
+T59	Time-Implicit 427 429	当时
+T60	Organization-Nominal 434 436	部队
+T61	Person-Nominal 439 442	女民兵
+T62	Person-Name 448 451	萧怡思
+T63	Person-Nominal 452 456	漂亮姑娘
+R20	General-Special Arg1:T62 Arg2:T63	
+R21	General-Special Arg1:T62 Arg2:T61	
+T64	Person-Nominal 459 462	战士们
+R22	Social Arg1:T62 Arg2:T64	
+T65	Thing-Nominal 465 466	汗
+T66	Thing-Nominal 472 474	嘴唇
+T67	Thing-Nominal 477 479	小疱
+R23	Located Arg1:T67 Arg2:T66	
+T68	Thing-Nominal 480 481	手
+T69	Thing-Nominal 482 483	脸
+T70	Thing-Nominal 489 491	虫子
+T71	Thing-Nominal 495 496	疖
+R24	Located Arg1:T71 Arg2:T69	
+R25	Located Arg1:T71 Arg2:T68	
+R26	Part-Whole Arg1:T66 Arg2:T64	
+R27	Part-Whole Arg1:T68 Arg2:T64	
+R28	Part-Whole Arg1:T69 Arg2:T64	
+T72	Person-Pronoun 497 498	她
+*	Coreference T72 T62
+T73	Location-Nominal 513 518	外面战壕里
+T74	Thing-Nominal 530 532	大雨
+T75	Location-Nominal 534 535	山
+T76	Time-Implicit 540 544	这天上午
+T77	Thing-Nominal 545 547	太阳
+T78	Person-Nominal 560 562	班长
+T79	Location-Nominal 564 567	山坡上
+T80	Thing-Nominal 575 577	箱子
+T81	Person-Nominal 578 580	女人
+R29	Ownership Arg1:T81 Arg2:T80	
+T82	Location-Name 581 583	哨所
+T83	Person-Pronoun 587 588	她
+*	Coreference T83 T81 T84 T86 T93
+T84	Person-Pronoun 594 595	我
+T85	Thing-Nominal 598 601	慰问品
+R30	Ownership Arg1:T84 Arg2:T85	
+T86	Person-Name 614 617	萧怡思
+T87	Thing-Nominal 622 623	额
+R31	Part-Whole Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 625 626	汗
+R32	Located Arg1:T88 Arg2:T87	
+T89	Person-Nominal 633 635	班长
+T90	Thing-Nominal 638 641	后脑勺
+R33	Part-Whole Arg1:T90 Arg2:T89	
+T91	Time-Implicit 646 648	今天
+T92	Time-Explicit 649 654	“八一”节
+*	Coreference T91 T92
+T93	Person-Pronoun 659 660	你
+T94	Thing-Nominal 673 675	箱子
+T95	Thing-Nominal 684 691	佛顶山牌电风扇
+R34	Located Arg1:T95 Arg2:T94	
+T96	Person-Nominal 692 695	战士们
+R35	Social Arg1:T89 Arg2:T96	
+T97	Thing-Nominal 701 704	慰问品
+*	Coreference T97 T95
+T98	Person-Nominal 706 709	战士们
+T99	Person-Name 714 717	萧怡思
+R36	Social Arg1:T98 Arg2:T99	
+R37	Social Arg1:T89 Arg2:T93	
+T100	Person-Pronoun 724 725	她
+*	Coreference T99 T100 T103 T106
+T101	Thing-Nominal 735 738	电风扇
+T102	Location-Nominal 739 741	村里
+T103	Person-Pronoun 752 753	我
+T104	Thing-Nominal 760 761	车
+T105	Thing-Nominal 763 764	路
+T106	Person-Nominal 766 769	运输工
+T107	Person-Name 786 789	萧怡思
+T108	Person-Nominal 791 793	班长
+T109	Person-Name 806 809	萧怡思
+T110	Abstract 813 816	小白杨
+T111	Location-Nominal 821 823	哨所
+T112	Person-Nominal 825 827	班长
+T113	Location-Nominal 832 836	碉堡顶上
+T114	Person-Nominal 849 851	班长
+T115	Location-Nominal 855 859	山峰陡坡
+T116	Thing-Nominal 860 862	石头
+R38	Located Arg1:T116 Arg2:T115	
+T117	Thing-Nominal 871 874	泥石流
+T118	Person-Pronoun 877 878	他
+*	Coreference T118 T114
+T119	Location-Nominal 894 896	山下
+T120	Thing-Nominal 918 921	大石头
+T121	Person-Name 926 927;928 930	萧 怡思
+T122	Person-Pronoun 933 934	她
+*	Coreference T122 T121
+T123	Thing-Nominal 935 937	蝴蝶
+T124	Location-Nominal 949 951	悬崖
+T125	Person-Nominal 954 956	班长
+T126	Person-Name 963 966	萧怡思
+T127	Thing-Nominal 966 968	头部
+R39	Part-Whole Arg1:T127 Arg2:T126	
+T128	Thing-Nominal 972 974	岩石
+T129	Thing-Nominal 979 981	鲜血
+R40	Located Arg1:T129 Arg2:T127	
+T130	Thing-Nominal 987 989	玖瑰
+T131	Person-Nominal 990 992	班长
+T132	Person-Nominal 995 998	亲妹妹
+T133	Person-Pronoun 1005 1006	她
+*	Coreference T126 T133 T134
+T134	Person-Nominal 1018 1020	同志
+T135	Person-Nominal 1023 1025	同志
+T136	Person-Pronoun 1040 1041	她
+T137	Time-Implicit 1032 1034	良久
+T138	Thing-Nominal 1046 1048	眼睛
+R41	Part-Whole Arg1:T138 Arg2:T136	
+T139	Person-Pronoun 1069 1070	我
+T140	Person-Pronoun 1071 1073	你们
+*	Coreference T139 T136
+T141	Person-Nominal 1075 1082	解――放――军
+*	Coreference T140 T141
+T142	Thing-Nominal 1094 1096	眼睛
+R42	Part-Whole Arg1:T142 Arg2:T139	
+T143	Location-Nominal 1103 1105	小岛
+T144	Thing-Nominal 1112 1115	电风扇
+T145	Person-Name 1116 1119	萧怡思
+T146	Person-Nominal 1119 1121	自己
+*	Coreference T145 T146 T149 T150
+T147	Person-Nominal 1129 1133	哨所战士
+T148	Location-Nominal 1138 1140	碉堡
+T149	Person-Pronoun 1155 1156	她
+T150	Person-Nominal 1164 1166	自己
+T151	Thing-Nominal 1172 1173	钱
+R43	Ownership Arg1:T150 Arg2:T151	
+T152	Metric 1177 1181	108元
+T153	Time-Implicit 1188 1190	当时
+T154	Thing-Nominal 1200 1203	电风扇
+T155	Organization-Nominal 1205 1207	部队
+T156	Location-Nominal 1215 1217	村里
+T157	Person-Nominal 1226 1232	萧怡思的父母
+T158	Person-Nominal 1245 1247	女儿
+T159	Person-Name 1226 1229	萧怡思
+R44	Family Arg1:T159 Arg2:T157	
+*	Coreference T159 T158
+T160	Person-Nominal 1252 1254	班长
+R45	Social Arg1:T160 Arg2:T157	
+T161	Thing-Nominal 1258 1260	风扇
+T162	Person-Pronoun 1262 1264	他俩
+*	Coreference T162 T157 T164
+T163	Thing-Nominal 1265 1266	泪
+T164	Person-Pronoun 1273 1274	俺
+T165	Person-Nominal 1274 1276	女儿
+T166	Thing-Pronoun 1289 1290	它
+*	Coreference T161 T166
+T167	Location-Nominal 1295 1297	海疆
+T168	Location-Nominal 1142 1144	海疆
+T169	Thing-Nominal 1311 1314	电风扇
+T170	Location-Nominal 1318 1322	观察哨所
+R46	Located Arg1:T169 Arg2:T170	
+T171	Person-Nominal 1329 1333	这位班长
+T172	Time-Implicit 1326 1328	昔日
+T173	Time-Implicit 1335 1337	今日
+T174	Person-Nominal 1338 1340	将军
+*	Coreference T171 T174
+T175	Person-Nominal 1344 1346	首长
+T176	Person-Nominal 1350 1352	班长
+T177	Location-Nominal 1358 1361	观察哨
+T178	Person-Nominal 1367 1369	将军
+*	Coreference T175 T178
+T179	Thing-Nominal 1379 1380	笔
+R47	Use Arg1:T178 Arg2:T179	
+T180	Thing-Nominal 1381 1382	云
+T181	Thing-Nominal 1382 1383	雾
+T182	Location-Nominal 1383 1385	山头
+T183	Thing-Nominal 1385 1387	海鸟
+T184	Thing-Nominal 1393 1395	风扇
+T185	Thing-Nominal 1401 1402	风
+T186	Thing-Nominal 1403 1404	泪
+T187	Location-Nominal 1410 1412	长城
+T188	Location-Nominal 1415 1416	岛
+T189	Person-Nominal 1418 1420	将军
+T190	Person-Pronoun 1427 1428	他
+*	Coreference T190 T189
+T191	Time-Implicit 1428 1431	离休前
+T192	Thing-Nominal 1439 1442	电风扇
+T193	Organization-Name 1444 1451	中国海防博物馆

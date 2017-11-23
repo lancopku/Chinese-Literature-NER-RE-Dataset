@@ -1,0 +1,255 @@
+T1	Time-Explicit 0 4	10月份
+T2	Organization-Name 5 10	长航老干处
+T3	Person-Pronoun 12 14	我们
+T4	Location-Name 15 18	严西湖
+T5	Thing-Nominal 34 36	惠风
+T6	Thing-Nominal 47 52	扰人的太阳
+T7	Thing-Nominal 24 25	云
+T8	Person-Nominal 53 55	大家
+T9	Person-Nominal 58 60;61 62	老天 爷
+T10	Thing-Nominal 87 90	严西湖
+T11	Location-Nominal 92 100	武汉市洪山区城郊
+R1	Located Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 103 106	白玉山
+T13	Location-Nominal 108 113	东湖风景区
+T14	Thing-Nominal 118 120	湖面
+T15	Thing-Nominal 128 130	水体
+T16	Thing-Nominal 1917 1921	锦莲粉荷
+T17	Thing-Nominal 1922 1924	晨露
+T18	Thing-Nominal 1929 1931	彩蝶
+T19	Thing-Nominal 1925 1926	蛙
+T20	Thing-Nominal 1927 1928	蝉
+T21	Thing-Nominal 1934 1938	千朵金桂
+T22	Thing-Nominal 1942 1946	万点红橘
+T23	Thing-Nominal 1947 1949	获芦
+T24	Thing-Nominal 1951 1953	鸥绕
+T25	Thing-Nominal 1955 1956	鱼
+T26	Thing-Nominal 1964 1966	碧湖
+T27	Thing-Nominal 1968 1970	鸡犬
+T28	Thing-Nominal 1970 1972	茅屋
+T29	Thing-Nominal 1833 1836	严西湖
+T30	Thing-Nominal 1837 1839	东湖
+T31	Thing-Nominal 1840 1842	七湖
+R2	Part-Whole Arg1:T29 Arg2:T31	
+R3	Part-Whole Arg1:T30 Arg2:T31	
+T32	Thing-Nominal 1843 1845	长江
+T33	Thing-Nominal 1851 1853	几湖
+T34	Person-Name 1858 1861	朱德逸
+T35	Thing-Nominal 1863 1865	巨笔
+R4	Use Arg1:T34 Arg2:T35	
+T36	Thing-Nominal 1867 1869	东湖
+T37	Thing-Nominal 1871 1873	西湖
+T38	Thing-Nominal 1879 1882	严西湖
+T39	Abstract 1896 1902	《赞严西湖》
+T40	Thing-Nominal 1738 1747	碧波浩茫的万顷东湖
+T41	Thing-Nominal 1753 1755	浪花
+T42	Thing-Nominal 1758 1759	鹰
+T43	Thing-Nominal 1763 1764	鱼
+T44	Thing-Nominal 1780 1782	清风
+T45	Thing-Nominal 1785 1787	画舫
+T46	Thing-Nominal 1788 1790	鸳鸯
+T47	Person-Nominal 1793 1795	男女
+T48	Thing-Nominal 1799 1802	珞珈山
+T49	Thing-Nominal 1812 1824	一幅绘声绘色的山水彩墨画
+T50	Person-Pronoun 1616 1617	我
+T51	Thing-Nominal 1621 1627	严西湖的小舟
+T52	Thing-Nominal 1634 1636	蓝天
+T53	Thing-Nominal 1637 1638	风
+T54	Thing-Nominal 1639 1640	云
+T55	Thing-Nominal 1644 1646	碧水
+T56	Thing-Nominal 1649 1651	波涛
+T57	Thing-Nominal 1647 1648	帆
+T58	Thing-Nominal 1652 1654	湖水
+T59	Thing-Nominal 1660 1662	小舟
+T60	Thing-Nominal 1689 1699	淡淡云雾萦绕的白玉山
+T61	Thing-Nominal 1705 1707	繁花
+T62	Thing-Nominal 1710 1712	垂柳
+T63	Thing-Nominal 1715 1716	鹃
+T64	Thing-Nominal 1717 1718	松
+T65	Thing-Nominal 1720 1721	莺
+T66	Thing-Nominal 1722 1723	蝶
+T67	Thing-Nominal 1553 1556	一层搂
+T68	Person-Nominal 1566 1567	谁
+T69	Person-Name 1573 1575	老杨
+T70	Person-Pronoun 1576 1577	你
+*	Coreference T70 T69
+T71	Person-Pronoun 1596 1597	我
+T72	Person-Pronoun 1422 1423	我
+T73	Person-Pronoun 1017 1019	我们
+T74	Person-Nominal 1021 1026	划舟老伯伯
+R5	Social Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 1029 1031	火车
+T76	Location-Name 1032 1034	上海
+T77	Location-Name 1037 1039	无锡
+T78	Location-Name 1037 1042	无锡鼋头渚
+T79	Location-Name 1045 1048	鼋头渚
+T80	Location-Name 1049 1051	太湖
+R6	Near Arg1:T79 Arg2:T80	
+T81	Thing-Nominal 1055 1057	鼋头
+T82	Thing-Nominal 1060 1064	一块巨石
+T83	Person-Name 1079 1082	秦敦世
+T84	Person-Name 1097 1101	清末唐驼
+T85	Thing-Nominal 1104 1107	鼋头渚
+T86	Thing-Nominal 1108 1117	突出湖面的一些岩石
+*	Coreference T86 T85
+T87	Thing-Nominal 1128 1130	荷池
+T88	Thing-Nominal 1126 1128	回廊
+T89	Thing-Nominal 1131 1135	丛林花圃
+T90	Thing-Nominal 1136 1138;1139 1141	亭榭 楼馆
+T91	Thing-Nominal 1144 1148	竹林梅园
+T93	Thing-Nominal 1156 1160	一个园林
+T92	Thing-Nominal 1151 1154	鼋头渚
+T94	Thing-Nominal 1163 1167	一般园林
+T95	Thing-Nominal 1176 1183	浩如烟海的太湖
+T96	Thing-Pronoun 1184 1185	它
+T97	Thing-Nominal 1191 1193	湖波
+T98	Thing-Nominal 1202 1204	飞鸟
+T99	Thing-Nominal 1207 1209	白帆
+T100	Person-Pronoun 1222 1223	我
+T101	Person-Nominal 1224 1226	老伴
+R7	Family Arg1:T100 Arg2:T101	
+T102	Thing-Nominal 1232 1234	湖水
+T103	Thing-Nominal 1237 1249	幽雅寂静的沿湖岸边的石头
+T104	Thing-Nominal 1279 1281	三山
+T105	Thing-Nominal 1284 1286	翡翠
+T106	Thing-Nominal 1287 1289	玉盘
+T107	Thing-Nominal 1292 1294	马山
+T108	Thing-Nominal 1297 1299	骏马
+T109	Thing-Nominal 1307 1309	云霞
+T110	Thing-Nominal 1311 1312	山
+T111	Thing-Nominal 1317 1319	碧湖
+T112	Thing-Nominal 1321 1322	镜
+T113	Thing-Nominal 1324 1326	雄鹰
+T114	Person-Name 1349 1351	苏轼
+T115	Thing-Nominal 1353 1354	笔
+T116	Person-Name 1358 1360	范蠡
+T117	Person-Name 1366 1368	西施
+T118	Thing-Nominal 1377 1379	太湖
+T119	Thing-Nominal 1382 1392	一幅淡淡的彩墨山水画
+T120	Person-Nominal 1393 1395	老伴
+T121	Person-Pronoun 1416 1417	我
+T122	Person-Pronoun 1425 1426	她
+R8	Family Arg1:T72 Arg2:T122	
+T123	Person-Name 1440 1443	郭沫若
+T124	Thing-Nominal 1445 1448	鼋头渚
+T125	Thing-Nominal 1455 1457	鼋头
+T126	Thing-Nominal 1458 1460	龟丘
+T127	Thing-Nominal 1467 1469	黛浪
+T128	Thing-Nominal 1476 1479	范蠡祠
+T129	Thing-Nominal 1498 1500	归舟
+T130	Person-Nominal 1506 1508	我俩
+T131	Location-Name 1515 1519	天倪阁”
+T132	Thing-Nominal 1522 1525	万方搂
+T133	Thing-Nominal 1538 1540	太湖
+T134	Person-Nominal 884 889	划船老伯伯
+T135	Person-Nominal 908 910	老翁
+T136	Person-Nominal 924 928	一对新人
+T137	Location-Name 929 931	西湖
+T138	Thing-Nominal 947 957	飞溅着湖水摇罢的小舟
+T139	Person-Nominal 959 962	老伯伯
+T140	Thing-Nominal 965 967	酒杯
+T141	Person-Nominal 976 978	大家
+T142	Thing-Nominal 982 1003	“水光潋滟晴方好，山色空蒙雨亦奇”的西子湖
+R9	Use Arg1:T139 Arg2:T140	
+T143	Thing-Nominal 824 828	万株桃花
+T144	Thing-Nominal 829 831	柳梢
+T145	Thing-Nominal 816 818	重山
+T146	Thing-Nominal 820 822	碧水
+T147	Thing-Nominal 846 848	断桥
+T148	Time-Explicit 549 553	50年前
+T149	Person-Pronoun 544 545	我
+T150	Person-Nominal 558 560	老伴
+T151	Thing-Nominal 562 566	杭州西湖
+T152	Thing-Nominal 574 578	一艘小舟
+T153	Person-Nominal 583 593	一位60多岁的老伯伯
+T154	Thing-Nominal 596 603;604 605	，初春的杭州西 湖
+T155	Thing-Nominal 608 611	严西湖
+T156	Thing-Nominal 621 622	桃
+T157	Thing-Nominal 619 620	柳
+T158	Thing-Nominal 625 627	湖面
+T159	Thing-Nominal 627 629	蓝天
+T160	Thing-Nominal 639 641	蓝湖
+T161	Thing-Nominal 642 643	天
+T162	Location-Name 654 656	苏堤
+T163	Thing-Nominal 659 663	水榭楼台
+T164	Thing-Nominal 665 669	宝塔石窟
+T165	Thing-Nominal 670 674	花坞假山
+T167	Location-Nominal 680 682	花港
+T168	Thing-Nominal 683 684	鱼
+T169	Thing-Name 685 689	平湖秋月
+T170	Thing-Name 690 694	雷峰夕照
+T171	Thing-Name 695 699	断桥残雪
+T172	Thing-Nominal 719 721	重山
+T173	Location-Nominal 724 725;726 727	名 城
+T174	Thing-Nominal 730 732	桃花
+T175	Thing-Nominal 735 737	白鹤
+T176	Person-Nominal 750 752	老伴
+T177	Person-Pronoun 752 753	她
+T178	Person-Pronoun 777 778	我
+T179	Person-Pronoun 785 786	我
+T180	Person-Nominal 794 796	老伴
+T181	Person-Pronoun 803 804	我
+T182	Abstract 808 813	《游西湖》
+*	Coreference T176 T177
+R10	Family Arg1:T176 Arg2:T178	
+T183	Person-Nominal 176 177	谁
+T184	Location-Name 183 186	橘子洲
+T185	Thing-Name 201 203	湘江
+T186	Location-Name 206 209	橘子洲
+T187	Location-Name 215 222	严西湖的橘子洲
+T188	Thing-Nominal 223 232	红彤彤的一片柑橘林
+R11	Located Arg1:T188 Arg2:T187	
+T189	Person-Pronoun 252 254	我们
+T190	Thing-Nominal 260 262	柑橘
+T191	Person-Nominal 264 270	先光顾的游客
+T192	Thing-Nominal 279 281	橘林
+T193	Thing-Nominal 284 295	采摘一个半红不熟的柑橘
+T194	Thing-Nominal 301 307	黄橙橙的果肉
+R12	Part-Whole Arg1:T194 Arg2:T193	
+T195	Thing-Nominal 326 328	柑橘
+T196	Thing-Nominal 329 335	我国原生植物
+R13	General-Special Arg1:T196 Arg2:T195	
+T197	Thing-Nominal 349 351	柑橘
+T198	Thing-Nominal 353 357	维生素c
+T199	Thing-Nominal 358 359	钙
+T200	Thing-Nominal 360 363	纤维素
+T201	Thing-Nominal 366 369	葡萄糖
+T202	Thing-Nominal 370 373	柠檬酸
+T203	Thing-Nominal 374 378	胡萝卜素
+T204	Thing-Nominal 379 383	抗坏血酸
+T205	Thing-Nominal 390 392	柑橘
+T206	Person-Nominal 423 426	老年人
+T207	Person-Pronoun 443 445	我们
+T208	Thing-Nominal 447 451	一段堤岸
+T209	Thing-Nominal 457 461	一艘小舟
+T210	Time-Implicit 464 467;468 471	上午十 点多锺
+T211	Thing-Nominal 474 477	柑橘林
+T212	Thing-Nominal 479 481	湖面
+T213	Thing-Nominal 482 484	蓝天
+T214	Thing-Nominal 498 499	竹
+T215	Thing-Nominal 500 501	枫
+T216	Time-Explicit 509 513	五+年前
+T217	Location-Name 513 515	杭州
+T218	Thing-Nominal 519 521	扁舟
+T219	Location-Name 521 523	西湖
+T220	Thing-Nominal 530 532	红日
+T221	Thing-Nominal 538 540	喜鹊
+R14	Ownership Arg1:T3 Arg2:T2	
+*	Coreference T8 T3
+R15	Near Arg1:T12 Arg2:T13	
+R16	Part-Whole Arg1:T15 Arg2:T10	
+T222	Thing-Nominal 138 140	获芦
+T223	Thing-Nominal 154 156	农舍
+T224	Thing-Nominal 149 151	堤柳
+R17	Social Arg1:T191 Arg2:T189	
+R18	Part-Whole Arg1:T198 Arg2:T197	
+R19	Family Arg1:T150 Arg2:T149	
+R20	Social Arg1:T153 Arg2:T149	
+R21	Social Arg1:T153 Arg2:T150	
+T225	Thing-Nominal 644 645	帆
+T226	Thing-Nominal 646 647	鸥
+T166	Thing-Name 675 679	三潭印月
+T227	Person-Nominal 877 879	兰闺
+*	Coreference T135 T134
+*	Coreference T93 T92
+R22	Family Arg1:T117 Arg2:T116	

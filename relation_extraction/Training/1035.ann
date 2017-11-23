@@ -1,0 +1,190 @@
+T1	Person-Nominal 0 2	友人
+T2	Thing-Nominal 6 7	狗
+T3	Thing-Nominal 11 13	黑狗
+T4	Thing-Nominal 19 33	一条体形瘦小的黑毛“四眼”狗
+T5	Thing-Nominal 41 42	狗
+T6	Person-Pronoun 36 37	我
+T7	Location-Nominal 61 64	友人家
+T8	Thing-Nominal 71 75	友人的狗
+T9	Person-Pronoun 75 76	我
+T10	Person-Pronoun 88 90	别人
+T11	Person-Pronoun 108 109	我
+T12	Location-Nominal 146 149	朋友家
+T13	Thing-Nominal 175 180	朋友家的狗
+T14	Person-Nominal 190 191	人
+T16	Person-Nominal 210 211	人
+T17	Location-Nominal 269 272	走廊上
+T18	Person-Nominal 304 306	行人
+T19	Thing-Nominal 285 286	人
+T20	Thing-Nominal 216 219	耳朵，
+T21	Thing-Pronoun 238 239	它
+T22	Thing-Nominal 343 345	大门
+*	Coreference T2 T3 T4
+T23	Thing-Nominal 44 46	畜类
+R1	Part-Whole Arg1:T5 Arg2:T23	
+T24	Location-Nominal 166 169	朋友家
+T25	Person-Nominal 163 165	有人
+T26	Thing-Nominal 221 223	狗头
+T27	Thing-Pronoun 350 351	它
+T28	Thing-Nominal 355 357	大门
+T29	Thing-Nominal 360 365	紧闭的大门
+T30	Thing-Nominal 378 380	走廊
+T31	Thing-Nominal 395 397	狗头
+T32	Thing-Nominal 399 401	栏杆
+T33	Person-Nominal 414 416	来人
+T34	Location-Nominal 420 423	朋友家
+T35	Person-Nominal 424 425	人
+T36	Thing-Pronoun 429 430	它
+T37	Person-Nominal 440 442	主人
+T38	Thing-Pronoun 445 446	它
+T39	Thing-Pronoun 448 449	它
+T40	Person-Nominal 454 456	客人
+T41	Person-Nominal 464 466	客人
+T42	Thing-Pronoun 471 472	它
+T43	Location-Nominal 482 487	屋外的走廊
+T44	Person-Nominal 494 496	客人
+T45	Thing-Pronoun 501 502	它
+T46	Person-Nominal 509 510	人
+T47	Location-Nominal 513 516	大门口
+T48	Thing-Pronoun 517 518	它
+T49	Person-Nominal 533 535	主人
+T50	Person-Nominal 537 538	客
+T51	Thing-Nominal 540 542	大门
+T52	Person-Pronoun 545 546	你
+T53	Thing-Nominal 561 563	恶狗
+T54	Location-Nominal 566 568	大门
+T55	Thing-Nominal 572 577	无情的大门
+T56	Thing-Pronoun 594 596	这狗
+R2	Social Arg1:T6 Arg2:T1	
+R3	Ownership Arg1:T1 Arg2:T2	
+T57	Thing-Nominal 88 93	别人的东西
+T58	Metric 306 313	一二十米远近时
+T15	Thing-Pronoun 196 198	那狗
+R4	Part-Whole Arg1:T20 Arg2:T15	
+R5	Part-Whole Arg1:T26 Arg2:T15	
+R6	Part-Whole Arg1:T8 Arg2:T57	
+T59	Person-Pronoun 151 152	我
+*	Coreference T15 T13 T21 T62
+T60	Location-Nominal 265 267	二楼
+R7	Part-Whole Arg1:T17 Arg2:T60	
+T61	Person-Nominal 242 243	人
+T62	Thing-Pronoun 290 291	它
+T63	Location-Nominal 328 330	家里
+*	Coreference T28 T29
+T64	Person-Nominal 586 588	来人
+T65	Thing-Nominal 599 601	脑袋
+T66	Location-Nominal 602 606	大门底下
+T67	Thing-Nominal 609 611	前脚
+T68	Thing-Nominal 613 615	大门
+T69	Thing-Pronoun 626 627	它
+T70	Location-Nominal 637 639	走廊
+T71	Thing-Pronoun 656 657	它
+T72	Thing-Pronoun 719 720	它
+T73	Person-Pronoun 746 747	我
+T74	Thing-Nominal 755 758	这条狗
+T75	Time-Implicit 775 778	三年来
+T76	Person-Pronoun 787 788;789 790	我 们
+T77	Thing-Pronoun 796 797	其
+T78	Thing-Nominal 814 816	栏杆
+T79	Time-Implicit 841 845	一天上午
+T80	Person-Nominal 856 859	女主人
+T81	Location-Nominal 860 863	大门口
+T82	Location-Nominal 871 875	大门内外
+T83	Thing-Nominal 891 893	门槛
+T84	Thing-Nominal 898 900	大便
+T85	Person-Nominal 902 905	女主人
+T86	Person-Pronoun 931 932	我
+T87	Thing-Nominal 984 988	那条死狗
+T88	Person-Nominal 990 993	女主人
+T89	Person-Nominal 996 1001	那些外省人
+T90	Person-Nominal 1019 1023;1024 1029	几个做生 意的外省人
+T91	Person-Nominal 1035 1037	邻居
+T92	Person-Nominal 1051 1057	那几个外省人
+T93	Time-Implicit 1070 1072	夜里
+T94	Thing-Nominal 1073 1075	大便
+T95	Person-Nominal 1153 1156	朋友家
+T96	Thing-Nominal 1164 1165	狗
+T97	Thing-Nominal 1172 1175	那条狗
+T98	Thing-Nominal 1246 1248	猪肉
+T99	Metric 1236 1240	三四个月
+T100	Metric 1285 1287	三岁
+T101	Person-Nominal 1281 1283	女儿
+T102	Time-Explicit 1291 1293	小狗
+T103	Time-Implicit 1294 1298	一天晚上
+T104	Person-Pronoun 1299 1300	我
+T105	Person-Pronoun 1302 1303	她
+T106	Person-Nominal 1305 1307	朋友
+T107	Thing-Nominal 1313 1319	那条讨厌的狗
+T108	Person-Nominal 1327 1329	女儿
+T109	Thing-Nominal 1332 1336	那条黑狗
+T110	Thing-Pronoun 1344 1345	它
+T111	Person-Pronoun 1222 1223	我
+T112	Person-Nominal 1212 1214	别人
+T113	Thing-Nominal 1201 1204	有些狗
+T114	Person-Nominal 1107 1109	友人
+T115	Person-Pronoun 1091 1093	他们
+T116	Thing-Nominal 1226 1230	一条小狗
+T117	Person-Pronoun 1349 1350	我
+T118	Thing-Nominal 1352 1355	那条狗
+T119	Thing-Pronoun 1362 1363	它
+T120	Person-Pronoun 1364 1365	你
+T121	Thing-Nominal 1375 1378	那黑狗
+T122	Thing-Nominal 1387 1389	狗嘴
+T123	Thing-Nominal 1392 1394	尖牙
+T124	Person-Nominal 1408 1410	女儿
+T125	Person-Nominal 1415 1417	朋友
+T126	Thing-Pronoun 1423 1424	它
+T127	Person-Pronoun 1528 1529	你
+T128	Thing-Pronoun 1530 1531	它
+T129	Person-Pronoun 1547 1548	我
+R8	Social Arg1:T49 Arg2:T50	
+R9	Part-Whole Arg1:T65 Arg2:T56	
+R10	Part-Whole Arg1:T67 Arg2:T56	
+T130	Metric 702 705	三四遍
+T131	Person-Nominal 131 133	友人
+R11	Social Arg1:T11 Arg2:T131	
+*	Coreference T56 T69 T53 T48
+T132	Thing-Pronoun 1245 1246	它
+T133	Thing-Nominal 1432 1434	死狗
+T134	Thing-Nominal 1344 1348	它的尾巴
+R12	Part-Whole Arg1:T134 Arg2:T110	
+T135	Thing-Pronoun 1255 1256	它
+T136	Thing-Nominal 1253 1255	狗肉
+T137	Person-Pronoun 1447 1448	我
+T138	Person-Nominal 1458 1460	女儿
+T139	Person-Pronoun 1481 1482	她
+T140	Person-Pronoun 1483 1484	我
+T141	Person-Pronoun 1485 1487	女儿
+T142	Person-Pronoun 1494 1495	她
+T143	Person-Pronoun 1508 1509	她
+T144	Person-Pronoun 1518 1519	她
+T145	Person-Pronoun 1551 1552	你
+T146	Thing-Pronoun 1557 1560	这条狗
+T147	Person-Pronoun 1571 1572	我
+T148	Time-Implicit 1572 1575	小时候
+T149	Thing-Nominal 1579 1580	狗
+*	Coreference T142 T141 T139
+T150	Thing-Nominal 1605 1610	朋友家的狗
+T151	Person-Pronoun 1613 1614	我
+T152	Thing-Nominal 1620 1621	狗
+T153	Thing-Pronoun 1555 1556	它
+*	Coreference T146 T153 T133 T126 T121 T119 T118 T110 T109 T107 T116 T132 T135 T128
+R13	Ownership Arg1:T80 Arg2:T74	
+T154	Location-Nominal 1094 1097	窗口外
+T155	Location-Nominal 1099 1101	马路
+T156	Location-Nominal 1102 1106	那段马路
+T157	Metric 1113 1118	二十米远近
+T158	Thing-Nominal 1119 1124	朋友家的狗
+T159	Thing-Nominal 1126 1131	那塑料袋子
+R14	Social Arg1:T86 Arg2:T85	
+T160	Thing-Nominal 835 839	烂脸狗”
+*	Coreference T87 T160 T77 T71 T72 T74
+T161	Thing-Nominal 908 910	锄头
+T162	Thing-Nominal 911 913	扫帚
+R15	Use Arg1:T85 Arg2:T161	
+R16	Use Arg1:T85 Arg2:T162	
+*	Coreference T89 T90 T92 T115
+*	Coreference T96 T97 T158
+T163	Location-Nominal 1471 1474	柜子上
+T164	Thing-Nominal 1478 1480	橘子
+R17	Located Arg1:T164 Arg2:T163	

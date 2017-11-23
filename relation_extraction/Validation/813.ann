@@ -1,0 +1,199 @@
+T1	Thing-Nominal 2 4	蜂蛹
+T2	Thing-Pronoun 13 14	它
+*	Coreference T2 T1 T4
+T3	Person-Nominal 29 32	酒友们
+T4	Thing-Nominal 35 37	佳肴
+T5	Person-Nominal 40 48	好“那一口”的人
+T6	Thing-Nominal 53 55	蜂蛹
+T7	Organization-Nominal 66 68	小队
+T8	Thing-Nominal 70 72	野蜂
+T9	Thing-Nominal 75 77	杂草
+T10	Location-Nominal 78 82	灌木丛边
+T11	Thing-Nominal 83 84	蜂
+*	Coreference T11 T8
+R1	Located Arg1:T8 Arg2:T9	
+R2	Located Arg1:T8 Arg2:T10	
+T12	Time-Implicit 86 88	今天
+T13	Thing-Nominal 96 97	蜂
+T14	Time-Explicit 104 111	八九点钟的时候
+T15	Person-Pronoun 112 113	我
+T16	Time-Implicit 114 118	前些日子
+T17	Person-Nominal 121 123	同事
+R3	Social Arg1:T15 Arg2:T17	
+T18	Thing-Nominal 126 127	蜂
+T19	Thing-Nominal 132 133	车
+R4	Use Arg1:T15 Arg2:T19	
+T20	Location-Name 135 138	龙场乡
+T21	Location-Nominal 135 142	龙场乡的最高峰
+T22	Location-Name 144 147	佛堂坡
+*	Coreference T22 T21
+T23	Location-Nominal 144 151	佛堂坡的山脚下
+T24	Location-Pronoun 152 154	那儿
+*	Coreference T24 T23
+T25	Location-Nominal 160 162	平地
+R5	Part-Whole Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 166 168	诱饵
+T27	Thing-Nominal 171 173	野蜂
+T28	Thing-Nominal 181 183	野花
+T29	Thing-Nominal 187 189	秋阳
+T30	Thing-Nominal 215 218	钻裤蜂
+T31	Thing-Nominal 221 223	青蜂
+T32	Location-Nominal 225 227	花间
+R6	Located Arg1:T31 Arg2:T32	
+R7	Located Arg1:T30 Arg2:T32	
+T33	Person-Pronoun 235 237	我们
+T34	Person-Nominal 246 249	老师傅
+T35	Location-Nominal 250 252	草地
+T36	Thing-Nominal 255 257	竹竿
+R8	Located Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 258 260	竹竿
+T38	Thing-Nominal 268 270	蟾蜍
+T39	Thing-Nominal 266 267	皮
+R9	Part-Whole Arg1:T39 Arg2:T38	
+R10	Located Arg1:T38 Arg2:T37	
+T40	Location-Nominal 273 275	地上
+T41	Thing-Nominal 278 281	成年蜂
+T42	Person-Nominal 286 290	其他的人
+T43	Thing-Nominal 299 301	野蜂
+T44	Time-Implicit 308 312	不一会儿
+T45	Thing-Nominal 318 320	野蜂
+T46	Thing-Nominal 329 331	诱饵
+T47	Thing-Nominal 333 336	蟾蜍肉
+*	Coreference T46 T47
+T48	Thing-Nominal 340 342	野蜂
+T49	Thing-Nominal 346 348	诱饵
+T50	Time-Implicit 352 355	一会儿
+T51	Thing-Nominal 360 362	野蜂
+T52	Person-Nominal 368 371	老师傅
+T53	Time-Explicit 371 373	这时
+T54	Thing-Nominal 380 386	苎麻皮的纤维
+T55	Thing-Nominal 390 392	活套
+R11	Part-Whole Arg1:T54 Arg2:T55	
+T56	Thing-Nominal 400 402	野蜂
+T57	Thing-Nominal 403 405	蜂腰
+R12	Part-Whole Arg1:T57 Arg2:T56	
+T58	Time-Explicit 407 409	这时
+T59	Thing-Nominal 410 412	野蜂
+T60	Thing-Nominal 440 442	蜂腰
+T61	Thing-Nominal 446 448	套子
+T62	Thing-Nominal 449 453	纤维末端
+T63	Thing-Nominal 458 462	白色纸巾
+R13	Located Arg1:T63 Arg2:T62	
+R14	Part-Whole Arg1:T62 Arg2:T61	
+T64	Person-Nominal 464 467	老师傅
+T65	Thing-Nominal 477 479	野蜂
+T66	Person-Nominal 483 485;486 490	负责 观察的人
+T67	Thing-Nominal 498 500	纸巾
+R15	Use Arg1:T64 Arg2:T63	
+R16	Use Arg1:T64 Arg2:T61	
+R17	Use Arg1:T52 Arg2:T55	
+T68	Thing-Nominal 511 513	野蜂
+T69	Thing-Nominal 534 537	小灌木
+R18	Located Arg1:T68 Arg2:T69	
+T70	Location-Nominal 544 547	灌木间
+R19	Located Arg1:T68 Arg2:T70	
+T71	Person-Pronoun 557 559	我们
+T72	Time-Explicit 563 565	这时
+T73	Thing-Nominal 571 573	野蜂
+T74	Thing-Pronoun 577 578	它
+*	Coreference T74 T73 T75
+T75	Thing-Nominal 582 584	自己
+T76	Thing-Nominal 593 597	小油茶树
+R20	Located Arg1:T75 Arg2:T76	
+T77	Thing-Nominal 604 605	肉
+T78	Thing-Nominal 612 617	白色的纸巾
+T79	Thing-Pronoun 625 626	它
+T80	Thing-Pronoun 631 632	它
+T81	Thing-Nominal 636 637	肉
+T82	Thing-Nominal 642 644	蜂巢
+R21	Located Arg1:T80 Arg2:T82	
+T83	Thing-Nominal 647 648	蜂
+T84	Thing-Nominal 649 650	蜂
+T85	Metric 652 656	几个小时
+T86	Person-Pronoun 661 663	我们
+T87	Thing-Nominal 669 671	野蜂
+T88	Thing-Nominal 669 674	野蜂的老巢
+R22	Located Arg1:T87 Arg2:T88	
+T89	Thing-Nominal 678 680	野蜂
+T90	Person-Nominal 682 685	钓蜂人
+T91	Time-Implicit 699 701	早上
+T92	Thing-Nominal 706 707	酒
+T93	Person-Pronoun 714 715	我
+T94	Person-Nominal 737 740	同事们
+R23	Social Arg1:T93 Arg2:T94	
+T95	Person-Pronoun 745 746	我
+T96	Thing-Nominal 757 759	双眼
+R24	Part-Whole Arg1:T96 Arg2:T95	
+T97	Thing-Nominal 773 775	野蜂
+T98	Thing-Nominal 785 787	蜂巢
+R25	Located Arg1:T97 Arg2:T98	
+T99	Person-Nominal 797 800	同事们
+T100	Person-Pronoun 801 802	我
+R26	Social Arg1:T100 Arg2:T99	
+T101	Time-Implicit 809 811	晚秋
+T102	Thing-Nominal 812 814	暖阳
+T103	Thing-Nominal 836 838	草地
+T104	Thing-Nominal 842 844	秋风
+T105	Person-Pronoun 847 848	我
+T106	Thing-Nominal 868 869;870 871	鞭 炮
+T107	Thing-Nominal 871 873	锣鼓
+T108	Location-Nominal 875 877	山下
+T109	Location-Nominal 878 881	寨子里
+R27	Near Arg1:T109 Arg2:T108	
+T110	Person-Nominal 887 890	女人们
+T111	Person-Pronoun 894 895	我
+T112	Person-Nominal 900 904	一位老人
+T113	Person-Nominal 908 912	这位老人
+*	Coreference T113 T112 T115 T116
+T114	Person-Pronoun 912 913	我
+T115	Person-Pronoun 916 917	他
+R28	Social Arg1:T114 Arg2:T113	
+T116	Person-Nominal 923 926	喜乐神
+T117	Time-Implicit 928 930;931 932	前几 天
+T118	Person-Nominal 934 938	几位老人
+R29	Social Arg1:T115 Arg2:T118	
+T119	Time-Explicit 942 944	今天
+T120	Person-Pronoun 950 951	我
+T121	Thing-Nominal 954 957	野蜂们
+T122	Thing-Nominal 965 967	野蜂
+T123	Location-Nominal 978 981	花丛中
+R30	Located Arg1:T122 Arg2:T123	
+T124	Location-Nominal 985 988	天地间
+R31	Located Arg1:T122 Arg2:T124	
+T125	Thing-Nominal 999 1000	云
+T126	Thing-Nominal 1000 1002	野鹤
+T127	Person-Nominal 1011 1016	我的同事们
+T128	Thing-Pronoun 1019 1021	它们
+T129	Thing-Nominal 1022 1024	老巢
+*	Coreference T122 T128
+T130	Person-Name 1059 1061	老米
+T131	Location-Nominal 1062 1065	半山腰
+T132	Person-Name 1068 1070	老向
+T133	Thing-Nominal 1073 1075	工具
+T134	Person-Nominal 1079 1082	同事们
+T135	Location-Nominal 1096 1099	半山腰
+T136	Time-Implicit 1100 1106	一袋烟的功夫
+T137	Thing-Nominal 1102 1103	烟
+T138	Person-Nominal 1107 1108;1109 1111	同 事们
+T139	Thing-Nominal 1124 1127	战利品
+T140	Person-Pronoun 1128 1130	他们
+*	Coreference T138 T140
+R32	Use Arg1:T132 Arg2:T133	
+T141	Time-Explicit 1144 1151	下午五点钟左右
+T142	Thing-Nominal 1158 1161	钻裤蜂
+T143	Person-Pronoun 1164 1166	他们
+T144	Thing-Nominal 1175 1177	佳肴
+T145	Thing-Nominal 1179 1181	餐桌
+R33	Located Arg1:T144 Arg2:T145	
+T146	Time-Explicit 1185 1190	晚上八点钟
+T147	Thing-Nominal 1195 1196	桌
+T148	Thing-Nominal 1197 1200	下酒菜
+R34	Located Arg1:T148 Arg2:T147	
+T149	Person-Pronoun 1208 1209	我
+T150	Person-Nominal 1218 1225	一位年重的同事
+T151	Time-Explicit 1230 1232	今天
+T152	Person-Pronoun 1233 1235	我们
+T153	Thing-Nominal 1238 1241	两巢蜂
+T154	Thing-Nominal 1244 1246	野蜂
+T155	Metric 1248 1251	一整天
+T156	Thing-Nominal 128 130	工具

@@ -1,0 +1,195 @@
+T1	Person-Nominal 7 8	人
+T2	Thing-Nominal 0 2	呼唤
+T3	Thing-Nominal 4 6	召唤
+T4	Thing-Nominal 17 19	呼唤
+T5	Thing-Nominal 30 32	呼唤
+R1	Create Arg1:T1 Arg2:T5	
+T6	Thing-Nominal 43 45	呼唤
+T7	Thing-Nominal 38 45	各种各样的呼唤
+T8	Thing-Nominal 47 51	这些呼唤
+*	Coreference T8 T7
+T9	Person-Nominal 53 54	人
+T10	Person-Nominal 64 65	人
+T11	Thing-Nominal 68 70	呼唤
+T12	Thing-Nominal 74 76	呼唤
+T13	Thing-Nominal 78 80	生命
+T14	Person-Nominal 85 86	人
+T15	Thing-Nominal 94 96	呼唤
+T16	Thing-Pronoun 96 98	有的
+T17	Thing-Nominal 103 105	有的
+R2	General-Special Arg1:T15 Arg2:T16	
+R3	General-Special Arg1:T15 Arg2:T17	
+T18	Person-Nominal 123 125	人类
+T19	Person-Nominal 144 146	人们
+T20	Thing-Nominal 171 179	友谊和团结的呼唤
+T21	Thing-Pronoun 168 169	这
+*	Coreference T21 T20 T22
+T22	Thing-Nominal 181 186	友情的呼唤
+T23	Person-Nominal 188 190	人们
+T24	Thing-Nominal 212 214	呼唤
+*	Coreference T3 T2
+T25	Organization-Nominal 224 226	社会
+T26	Person-Pronoun 230 232	我们
+T27	Person-Pronoun 252 254	我们
+*	Coreference T26 T19
+T28	Person-Nominal 265 269	老弱病残
+T29	Person-Nominal 270 272	盲人
+T30	Thing-Nominal 280 282	招呼
+T31	Person-Pronoun 289 290	他
+T32	Person-Nominal 299 300	人
+T33	Person-Nominal 265 272	老弱病残或盲人
+*	Coreference T31 T33
+T34	Thing-Nominal 306 315	友情和谐团结的呼唤
+T35	Person-Pronoun 320 322	我们
+T36	Person-Nominal 324 330	无赖流氓强盗
+T37	Person-Nominal 333 335	妇女
+T38	Person-Pronoun 354 355	你
+T39	Person-Pronoun 357 358	你
+T40	Person-Nominal 360 362	弱者
+T41	Person-Pronoun 363 364	你
+T42	Thing-Nominal 391 393	呼唤
+T43	Person-Pronoun 407 408	你
+T44	Thing-Nominal 415 417	呼唤
+T45	Thing-Nominal 419 426	定心丸、兴奋剂
+T46	Person-Nominal 428 432	被调戏者
+T47	Person-Nominal 433 437	被施暴者
+T48	Person-Nominal 438 442	被抢截者
+*	Coreference T46 T37
+T49	Thing-Nominal 452 455	这呼唤
+T50	Thing-Nominal 457 459	惊雷
+T51	Person-Nominal 462 465	犯罪者
+*	Coreference T51 T36 T52
+T52	Person-Pronoun 470 471	他
+T53	Person-Pronoun 475 476	他
+T54	Thing-Nominal 481 484	这呼唤
+T55	Thing-Nominal 485 499	舍身救人的冲锋号、进军的战鼓
+T56	Person-Pronoun 501 502	你
+T57	Person-Pronoun 511 512	你
+T58	Location-Nominal 513 516	马路上
+T59	Person-Nominal 521 536	被逃逸车辆肇事危在旦夕的伤害者
+T60	Thing-Nominal 522 526	逃逸车辆
+T61	Thing-Nominal 537 544	丞救生命的呼唤
+T62	Person-Pronoun 550 551	你
+T63	Person-Pronoun 552 553	你
+T64	Person-Nominal 564 566	伤者
+T65	Person-Pronoun 576 577	你
+T66	Thing-Nominal 588 590	生命
+T67	Thing-Nominal 595 605	对危在旦夕生命的呼唤
+T68	Person-Pronoun 606 607	你
+T69	Person-Pronoun 615 616	你
+T70	Thing-Nominal 616 625	对伤残者的生命呼唤
+*	Coreference T70 T67
+T71	Person-Nominal 617 620	伤残者
+*	Coreference T71 T59
+T72	Person-Nominal 632 633	人
+T73	Person-Nominal 639 641	病人
+T74	Organization-Nominal 644 646	医院
+T75	Thing-Nominal 657 662	生命的呼唤
+T76	Person-Nominal 670 673	植物人
+T77	Person-Nominal 683 685	生命
+T78	Person-Pronoun 687 688	她
+*	Coreference T78 T76
+T79	Thing-Pronoun 693 694	这
+T80	Thing-Nominal 696 703;704 724	对生命的寄托， 对生命的挽救，对生命的呼唤，对亲情的呼唤
+*	Coreference T79 T80
+T81	Person-Nominal 733 735	病人
+T82	Thing-Nominal 727 729	奇迹
+T83	Thing-Nominal 740 742	电视
+T84	Person-Nominal 744 752	危难家庭重难病号
+T85	Person-Nominal 758 760	人们
+T86	Person-Nominal 782 788	很多的好心人
+T87	Time-Implicit 758 764;765 781	人们看到危难 重病号危在旦夕因无钱抢救又无援时
+T88	Thing-Nominal 794 795	囊
+T89	Person-Nominal 797 801	重危病号
+T90	Thing-Nominal 804 807	这电视
+T91	Thing-Nominal 809 813	公益呼唤
+T92	Thing-Pronoun 814 815	他
+*	Coreference T92 T91
+T93	Person-Nominal 817 822	善良的人们
+T94	Thing-Nominal 832 846	对生命的丞救，是对生命的呼唤
+T95	Thing-Nominal 827 831	这种行动
+*	Coreference T95 T94
+T96	Organization-Nominal 848 850	社会
+T97	Thing-Nominal 852 859	多彩繁纷的世界
+T98	Person-Nominal 860 861	人
+T99	Organization-Nominal 862 864	社会
+T100	Person-Pronoun 875 876	你
+T101	Organization-Nominal 885 887	社会
+T102	Organization-Nominal 893 895	社会
+T103	Thing-Nominal 893 898	社会的呼唤
+T104	Thing-Nominal 904 908;909 910	生活的呼 唤
+T105	Person-Nominal 911 912	人
+T106	Location-Nominal 913 915	世上
+T107	Location-Nominal 923 925	天上
+T108	Thing-Nominal 928 930	馅饼
+T109	Thing-Nominal 940 947	衣食住行的物品
+T110	Person-Pronoun 956 957	你
+T111	Organization-Nominal 961 963	社会
+T112	Thing-Nominal 972 977	无数的工作
+T113	Person-Pronoun 981 983	我们
+T114	Organization-Nominal 988 990	社会
+T115	Organization-Nominal 994 999	社会的呼唤
+T116	Person-Nominal 1000 1002	学生
+T117	Thing-Nominal 1006 1019	人生成长及社会的需要和呼唤
+T118	Thing-Nominal 1035 1042	国防建设的需要
+T119	Thing-Nominal 1044 1049	祖国的呼唤
+T120	Person-Pronoun 1055 1056	你
+T121	Thing-Nominal 1058 1066	祖国的号召和呼唤
+T122	Location-Nominal 1068 1074	最艰苦的地方
+T123	Location-Nominal 1077 1080	戈壁滩
+T124	Organization-Nominal 1083 1085	兵团
+T125	Organization-Nominal 1088 1091;1092 1093	贫困山 区
+T126	Location-Nominal 1096 1104	祖国最需要的地方
+T127	Person-Pronoun 1108 1109	你
+T128	Person-Nominal 1110 1117	祖国妈妈的儿女
+T129	Person-Nominal 1126 1128	妈妈
+T130	Person-Nominal 1110 1114	祖国妈妈
+*	Coreference T130 T129
+T131	Organization-Nominal 1132 1133	党
+T132	Time-Explicit 1140 1143	98年
+T133	Person-Nominal 1149 1152;1153 1157	国家主 席和总理
+T134	Person-Nominal 1165 1171	解放军指战员
+T135	Person-Nominal 1176 1180	公安干警
+T136	Person-Nominal 1184 1188	全国民兵
+T137	Thing-Nominal 1195 1203	祖国和人民的呼唤
+T138	Organization-Nominal 1204 1205	党
+T139	Person-Nominal 1206 1208	民族
+T140	Person-Nominal 1212 1213;1214 1215	全 国
+T141	Thing-Nominal 1230 1232	洪水
+T142	Thing-Nominal 1146 1148	大水
+*	Coreference T142 T141
+T143	Time-Explicit 1233 1238	2008年
+T144	Thing-Name 1238 1244	四川汶川地震
+T145	Thing-Nominal 1247 1256	一场浩劫，灭顶之灾
+R4	General-Special Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1261 1266	无声的命令
+T147	Thing-Nominal 1269 1274	强大的呼唤
+T148	Person-Nominal 1276 1283	国家主席和总理
+T149	Location-Nominal 1290 1292	震区
+T150	Time-Implicit 1284 1288	第一时间
+T151	Person-Nominal 1300 1304	全国人民
+T152	Organization-Name 1316 1319	党中央
+T153	Person-Nominal 1325 1329	全国人民
+T154	Location-Nominal 1337 1339	灾区
+T155	Location-Name 1347 1349	汶川
+T156	Person-Nominal 1361 1363	人们
+T157	Thing-Nominal 1384 1390	社会主义大夏
+T158	Thing-Nominal 1391 1392	砖
+T159	Thing-Nominal 1393 1394	瓦
+T160	Location-Nominal 1396 1401	我们的国家
+T161	Person-Nominal 1411 1414	每个人
+T162	Location-Nominal 1420 1421;1422 1423	祖 国
+*	Coreference T162 T160
+T163	Thing-Nominal 1426 1437	祖国的需要，祖国的呼唤
+T164	Thing-Pronoun 1424 1425	这
+*	Coreference T164 T163
+T165	Person-Pronoun 1439 1441	我们
+T166	Thing-Nominal 1447 1455	祖国的呼唤的声音
+T167	Thing-Nominal 1459 1464	美丽的火花
+T168	Person-Nominal 1467 1468	人
+T169	Person-Nominal 1479 1481	别人
+T170	Person-Nominal 1487 1492	我们每个人
+*	Coreference T170 T161
+T171	Thing-Nominal 1497 1503	正能量的呼唤
+T172	Thing-Nominal 1510 1516	正能量的呼唤
+T173	Person-Nominal 1519 1525	时代的激进者

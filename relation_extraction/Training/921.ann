@@ -1,0 +1,147 @@
+T1	Abstract 0 3	兵马俑
+T2	Person-Pronoun 15 16	我
+T3	Location-Name 33 40	世界第八大奇迹
+T4	Location-Name 29 47	被誉为“世界第八大奇迹”的俑坑展厅前
+T5	Location-Name 69 72	大西北
+T6	Location-Name 96 98	泾河
+T7	Location-Nominal 96 100	泾河两岸
+T8	Location-Name 103 106	渭水河
+T9	Person-Pronoun 123 124	我
+T10	Thing-Nominal 126 133	遮天蔽日的旌旗
+T11	Person-Pronoun 134 135	我
+T12	Thing-Nominal 139 141	铠甲
+T13	Thing-Nominal 137 150	身穿铠甲手握长剑的士兵方阵
+T14	Thing-Nominal 152 157	咆哮的潮水
+T15	Time-Implicit 170 172	当年
+T16	Person-Name 173 176	秦始皇
+T17	Organization-Name 250 251	秦
+T18	Organization-Nominal 242 244	六国
+T19	Time-Implicit 255 257	华夏
+T20	Organization-Nominal 255 262	华夏第一个帝国
+T21	Abstract 291 314	“书同文”、“度同制”、“车同轨”、“行同伦”
+T22	Organization-Name 318 322	大秦帝国
+T23	Person-Nominal 347 349	自己
+T24	Person-Nominal 354 356	三皇
+T25	Person-Nominal 359 361	五帝
+T26	Organization-Nominal 398 400	皇朝
+T27	Person-Name 418 431	被神话的光环笼罩着的始皇帝
+T28	Organization-Nominal 523 525	帝国
+T29	Person-Name 549 552	始皇帝
+T30	Person-Nominal 579 581	伟人
+T31	Person-Pronoun 589 590	他
+T32	Time-Implicit 608 610	三月
+T33	Thing-Nominal 608 615	三月不灭的大火
+T35	Thing-Nominal 616 623	一片烧焦的黄土
+T36	Thing-Nominal 626 631	厚厚的封土
+T37	Organization-Nominal 634 636	帝国
+T38	Thing-Nominal 660 662	史书
+T39	Time-Implicit 681 688	1974年春天
+T40	Location-Name 698 700	骊山
+T42	Person-Nominal 702 706	几个农民
+T43	Location-Name 707 713	西杨村西崖畔
+T44	Location-Nominal 719 722	空地上
+T45	Thing-Nominal 726 734	一个施工的定位圈
+R1	Located Arg1:T45 Arg2:T44	
+T48	Time-Implicit 737 741	两千余年
+T49	Thing-Nominal 760 762	洞口
+T50	Thing-Nominal 768 770	洞口
+T52	Person-Pronoun 790 792	我们
+T53	Location-Nominal 803 807	黄土地下
+T54	Abstract 847 850	兵马俑
+T55	Time-Implicit 851 855	中国古代
+T56	Time-Implicit 874 878	两千多年
+T57	Abstract 879 884	中国美术史
+T58	Person-Pronoun 914 916	我们
+T59	Abstract 931 934	兵马俑
+T60	Person-Nominal 938 940	武士
+T61	Person-Nominal 943 945	将军
+T62	Person-Nominal 949 952	弓箭手
+T63	Person-Nominal 955 957	骑兵
+T64	Person-Pronoun 987 989	他们
+T65	Thing-Nominal 987 992	他们的眼睛
+R2	Part-Whole Arg1:T65 Arg2:T64	
+T66	Thing-Nominal 1002 1009	健壮高大的身躯
+T67	Thing-Nominal 1010 1017	饱满光洁的额头
+T68	Thing-Nominal 1018 1025	棱角厚实的双唇
+T69	Location-Nominal 1036 1039	战袍上
+T70	Location-Nominal 1047 1050	腰束上
+T71	Thing-Nominal 1047 1056	腰束上的每一个佩饰
+R3	Located Arg1:T71 Arg2:T70	
+T72	Location-Nominal 1057 1060	眉宇间
+T73	Person-Pronoun 1090 1092	他们
+T74	Person-Pronoun 1122 1124	他们
+T75	Person-Pronoun 1142 1144	他们
+T76	Time-Implicit 1145 1148	秦王朝
+T77	Person-Name 1158 1161	始皇帝
+T78	Abstract 1179 1181	史册
+T79	Person-Pronoun 1194 1196	他们
+T80	Person-Nominal 1201 1204	陶土人
+T81	Person-Nominal 1219 1221	战士
+T82	Person-Pronoun 1225 1227	他们
+T84	Abstract 1251 1259	举世无双的兵马俑
+T85	Person-Pronoun 1260 1261	我
+T86	Location-Name 1266 1268	中国
+T87	Abstract 1301 1304	兵马俑
+T88	Person-Pronoun 1308 1309	我
+T89	Person-Nominal 1317 1320	制作者
+T90	Person-Pronoun 1327 1329	他们
+T91	Person-Nominal 1335 1337	世人
+T92	Person-Pronoun 1342 1344	他们
+T93	Person-Nominal 1358 1359	人
+T94	Person-Pronoun 1361 1363	他们
+T95	Person-Pronoun 1372 1373	我
+T96	Person-Nominal 1378 1381	制作者
+T97	Abstract 1397 1400	兵马俑
+T98	Abstract 1402 1406	华夏文明
+T99	Organization-Nominal 1413 1417	中华民族
+T100	Person-Pronoun 1423 1425	我们
+T101	Time-Implicit 1427 1431;1432 1433	两千年之 后
+T103	Person-Nominal 1452 1459	摩肩接踵的游客
+T104	Thing-Nominal 1460 1462	秦俑
+T105	Person-Pronoun 1467 1469	我们
+T106	Thing-Pronoun 1475 1477	它们
+*	Coreference T105 T103
+T107	Person-Pronoun 1489 1491	我们
+T108	Thing-Pronoun 1494 1496	它们
+T109	Thing-Pronoun 1499 1501	它们
+T110	Person-Pronoun 1505 1507	我们
+T111	Person-Pronoun 1508 1509	我
+T112	Abstract 1511 1512;1513 1515	兵 马俑
+T113	Abstract 1538 1541	兵马俑
+T114	Person-Nominal 1551 1553	世人
+T115	Person-Pronoun 1553 1555	我们
+T116	Abstract 1560 1573;1574 1575	军事力量、经济实力和科技水 平
+T117	Person-Nominal 1577 1579	世人
+T118	Location-Name 1582 1584	中国
+T119	Time-Implicit 1584 1589	两千多年前
+T120	Thing-Nominal 1596 1599	兵马俑
+T121	Thing-Pronoun 1608 1610	他们
+*	Coreference T121 T120
+T122	Organization-Nominal 1650 1652	军队
+T123	Organization-Pronoun 1657 1659	他们
+*	Coreference T123 T122
+T124	Organization-Nominal 1657 1662	他们的国家
+T125	Person-Pronoun 1675 1676	我
+T126	Thing-Nominal 1697 1707	一座用血肉铸成的堡垒
+T128	Thing-Pronoun 1708 1710	他们
+T129	Thing-Nominal 1708 1712	他们的脸
+R4	Part-Whole Arg1:T129 Arg2:T128	
+T130	Organization-Nominal 1679 1691	这个有千余士卒组成的方阵
+T131	Thing-Pronoun 1726 1728	他们
+T132	Organization-Name 1758 1762	中华民族
+T133	Abstract 1796 1799	兵马俑
+T134	Person-Pronoun 1805 1807	我们
+T135	Person-Pronoun 1819 1821	我们
+T136	Location-Nominal 103 107	渭水河边
+T137	Location-Nominal 110 114	黄土高岭
+T138	Location-Nominal 117 121	大漠荒原
+T139	Person-Nominal 266 272	这位千古一帝
+T34	Location-Nominal 698 702	骊山脚下
+R5	Create Arg1:T42 Arg2:T45	
+T41	Thing-Nominal 1036 1045	战袍上的每一条褶皱
+R6	Located Arg1:T41 Arg2:T69	
+T46	Location-Nominal 1225 1229	他们身上
+T47	Thing-Nominal 1225 1229;1230 1233	他们身上 的尘土
+R7	Located Arg1:T47 Arg2:T46	
+T51	Person-Nominal 1423 1431;1432 1437	我们这些两千年之 后的后来者
+T83	Time-Implicit 1553 1559	我们那个时代

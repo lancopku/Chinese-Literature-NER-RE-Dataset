@@ -1,0 +1,228 @@
+T1	Person-Nominal 0 2	大哥
+T2	Person-Nominal 6 8	日寇
+T3	Location-Name 16 18	苏州
+T6	Location-Name 34 38	七里山塘
+T7	Location-Nominal 52 59	民俗风情旅游区
+T8	Person-Pronoun 82 83	我
+T9	Location-Name 82 95	我祖上传下的“坤记草药行”
+T10	Time-Explicit 98 102	日伪时期
+T11	Person-Pronoun 108 109	我
+T12	Location-Name 116 121	坤记草药行
+T13	Location-Name 135 139	太湖渔村
+T14	Thing-Nominal 140 149	历年收购的库存药材
+T15	Metric 168 170	七十
+T16	Person-Nominal 166 174	年近七十的老祖父
+T17	Location-Nominal 189 192	店堂里
+T18	Time-Implicit 196 199	这时候
+T19	Person-Pronoun 200 201	我
+T20	Person-Nominal 200 204	我的大哥
+R2	Family Arg1:T20 Arg2:T19	
+T21	Person-Nominal 212 214	自己
+*	Coreference T21 T20
+T22	Organization-Name 215 220	【崇本堂】
+T23	Person-Nominal 236 239	老祖父
+T24	Person-Pronoun 242 243	他
+T25	Location-Name 246 250	太湖渔村
+T26	Thing-Nominal 251 253	药材
+R3	Located Arg1:T26 Arg2:T25	
+T27	Person-Nominal 260 262	大哥
+T28	Person-Name 264 273	董振华(又名董伟)
+*	Coreference T28 T27
+T29	Metric 276 279	27岁
+T30	Person-Pronoun 299 300	他
+T31	Location-Nominal 312 315	铁路上
+T32	Person-Nominal 316 320	火车司机
+T33	Person-Nominal 322 325	铲煤工
+R4	Social Arg1:T33 Arg2:T32	
+T34	Person-Pronoun 326 327	他
+T35	Person-Nominal 328 331	老祖父
+T36	Person-Nominal 328 338	老祖父最宠爱的大孙子
+*	Coreference T36 T34
+T37	Person-Nominal 351 354	老祖父
+T38	Time-Implicit 377 379	那天
+T39	Person-Nominal 380 381;382 384	老 祖父
+T40	Person-Nominal 388 390	大哥
+T41	Person-Nominal 391 395	几名伙计
+T42	Metric 391 393	几名
+R5	Family Arg1:T40 Arg2:T39	
+T44	Person-Pronoun 448 450	他们
+T45	Person-Pronoun 458 460	他们
+T46	Person-Nominal 472 475	老祖父
+T47	Person-Nominal 491 498	大哥他们一行人
+T49	Location-Name 500 503	渡僧桥
+T50	Person-Nominal 504 507	老祖父
+T51	Location-Nominal 525 528	店铺里
+T52	Person-Pronoun 545 546	我
+T55	Thing-Nominal 578 587	一只半旧的打簧怀表
+T56	Person-Nominal 594 596	大哥
+T57	Person-Nominal 599 602	老祖父
+T58	Person-Name 608 610	振华
+T59	Time-Implicit 629 632	天亮前
+T61	Person-Pronoun 669 673	大哥他们
+T62	Person-Nominal 681 683	大哥
+T63	Person-Pronoun 697 699	我们
+T64	Person-Nominal 735 738	老祖父
+T65	Person-Name 764 766	振华
+T66	Thing-Nominal 771 775	打簧怀表
+T67	Person-Nominal 780 782	大哥
+T68	Person-Nominal 785 787	母亲
+R6	Family Arg1:T68 Arg2:T67	
+T69	Person-Nominal 791 793	大家
+T70	Time-Implicit 788 790	当时
+T71	Thing-Nominal 841 845	几条船只
+T73	Person-Pronoun 846 847	我
+T74	Person-Nominal 846 849	我大哥
+T75	Metric 852 854	两艘
+T76	Thing-Nominal 846 858	我大哥押送的两艘农家渔船
+T77	Thing-Nominal 862 864	草药
+R7	Located Arg1:T77 Arg2:T76	
+T78	Location-Nominal 870 874	小河汊里
+T79	Location-Nominal 876 878	太湖
+T80	Location-Nominal 807 809	太湖
+T81	Location-Nominal 891 903	一个芦苇森森狭窄的野荡口
+T82	Metric 906 908	两艘
+T83	Thing-Nominal 906 918	两艘突然冒出的日军小炮艇
+T84	Thing-Nominal 937 943	雪亮的探照灯
+T85	Thing-Nominal 944 947	手电筒
+T86	Location-Nominal 969 972	船上的
+T87	Person-Nominal 969 974	船上的伙计
+T88	Person-Nominal 969 977	船上的伙计和船工
+T89	Person-Nominal 1022 1024	鬼子
+T90	Metric 1026 1028	几条
+T91	Thing-Nominal 1026 1030	几条军犬
+T92	Person-Pronoun 1037 1038	我
+T93	Person-Nominal 1037 1040	我大哥
+T94	Person-Nominal 1045 1047	大哥
+T95	Thing-Nominal 1066 1081	这船上装载的极为普通的中草药材
+T96	Location-Nominal 1067 1069	船上
+T97	Location-Nominal 1048 1051	铁路上
+R8	Located Arg1:T95 Arg2:T96	
+T98	Person-Pronoun 1097 1099	他们
+T99	Person-Nominal 1106 1110	日本鬼子
+T100	Thing-Nominal 1115 1117	草药
+T101	Person-Pronoun 1145 1147	他们
+T102	Metric 1160 1162	两船
+T103	Location-Name 1173 1175	太湖
+T104	Thing-Nominal 1182 1184	军火
+T105	Thing-Nominal 1185 1189	金银财宝
+T106	Thing-Nominal 1192 1193	烟
+T107	Thing-Nominal 1160 1170	两船不值钱的乱柴烂草
+T108	Person-Nominal 1196 1200	日本鬼子
+T109	Person-Pronoun 1209 1210	我
+T110	Person-Nominal 1209 1212	我大哥
+T111	Metric 1213 1215	几条
+T112	Thing-Nominal 1213 1220	几条高大的军犬
+T113	Person-Nominal 1232 1234	士兵
+T114	Thing-Nominal 1239 1241	刺刀
+T115	Thing-Nominal 1235 1237	步枪
+R9	Located Arg1:T114 Arg2:T115	
+T116	Location-Nominal 1243 1247	草药堆里
+T117	Thing-Nominal 1263 1268	成捆的药材
+T118	Person-Nominal 1275 1277	大哥
+T119	Location-Name 1271 1274	太湖里
+T120	Thing-Nominal 1283 1288	发怒的狮子
+T121	Person-Pronoun 1297 1299	他们
+T122	Person-Pronoun 1300 1301	他
+T123	Person-Nominal 1302 1305	司炉工
+T124	Person-Pronoun 1326 1328	他们
+T125	Person-Nominal 1335 1343	一名瘦小的鬼子兵
+T126	Person-Nominal 1355 1364	一名彪悍的鬼子头目
+T127	Thing-Nominal 1387 1392	雪亮的军刀
+T128	Person-Nominal 1395 1398	武士道
+T129	Person-Pronoun 1416 1417	我
+T130	Person-Nominal 1416 1419	我大哥
+T131	Person-Nominal 1427 1429	大哥
+T132	Person-Nominal 1466 1468	大哥
+T133	Person-Nominal 1477 1479	鬼子
+T134	Location-Nominal 1503 1505	船舱
+T135	Thing-Nominal 1507 1509	桐油
+R10	Located Arg1:T135 Arg2:T134	
+T136	Thing-Nominal 1515 1520	所有的货物
+T137	Person-Nominal 1523 1529	逃回来的伙计
+T138	Person-Nominal 1531 1534	大少爷
+T139	Person-Nominal 1545 1549	日本鬼子
+T140	Location-Nominal 1551 1553	炮楼
+T143	Person-Nominal 1566 1571	他们几个人
+T144	Location-Nominal 1573 1576	芦荡里
+T145	Thing-Nominal 1578 1581	探照灯
+T146	Location-Nominal 1604 1606	荡里
+T147	Location-Name 1617 1619	太湖
+T148	Person-Nominal 1617 1622	太湖当地人
+T149	Person-Nominal 1629 1630	人
+T150	Location-Name 1640 1642	太湖
+T151	Time-Implicit 1650 1653	几天后
+T152	Person-Pronoun 1654 1655	我
+T153	Person-Nominal 1654 1657	我母亲
+T154	Person-Nominal 1659 1662	新嫂嫂
+R11	Family Arg1:T154 Arg2:T153	
+T155	Location-Name 1663 1665	太湖
+T156	Person-Nominal 1668 1670	大哥
+T157	Location-Nominal 1689 1696	抬去的空棺材里
+T158	Thing-Nominal 1700 1707	几块烧焦的船板
+R12	Located Arg1:T158 Arg2:T157	
+T160	Person-Nominal 1721 1723	母亲
+T161	Person-Nominal 1724 1726	道士
+T162	Thing-Nominal 1735 1738	招魂符
+T163	Person-Nominal 1739 1741	大哥
+T164	Thing-Nominal 1739 1751	大哥平时穿戴的衣帽、鞋子
+T165	Thing-Nominal 1754 1764	那银光闪闪的打簧怀表
+T166	Location-Nominal 1775 1778	棺材里
+R14	Located Arg1:T165 Arg2:T166	
+R15	Located Arg1:T164 Arg2:T166	
+T167	Thing-Nominal 1779 1783	打簧怀表
+T168	Person-Pronoun 1797 1798	我
+T169	Person-Nominal 1801 1803	大哥
+T170	Person-Pronoun 1819 1820	我
+T171	Person-Pronoun 1825 1826	我
+T172	Person-Name 1825 1833	我亲爱的振华大哥
+T174	Person-Nominal 1852 1854	大哥
+T175	Person-Nominal 1855 1857	大哥
+T176	Person-Pronoun 1858 1859	我
+T177	Person-Pronoun 1865 1866	你
+*	Coreference T177 T175
+T178	Person-Pronoun 1838 1839	他
+T179	Time-Explicit 1814 1818	直至今日
+T4	Location-Nominal 22 30	虎丘山下的山塘街
+T5	Location-Nominal 164 165	城
+T180	Person-Nominal 405 407	大家
+T181	Thing-Nominal 411 412	菜
+T182	Thing-Nominal 417 418	饭
+T43	Thing-Nominal 427 430	一袋烟
+T183	Location-Nominal 452 455	店门口
+T184	Location-Nominal 470 471	楼
+T48	Person-Nominal 545 546;547 549	我 大哥
+T53	Location-Nominal 545 546;547 552	我 大哥肩头上
+T185	Thing-Nominal 556 562	苍老发抖的手
+T186	Location-Nominal 564 572	贴心丝棉小夹袄里
+T54	Location-Nominal 594 598	大哥手里
+R1	Part-Whole Arg1:T55 Arg2:T56	
+T187	Thing-Nominal 650 652	老泪
+T188	Thing-Nominal 665 666	头
+T60	Thing-Nominal 678 679	手
+T189	Thing-Nominal 702 704	眼圈
+T190	Thing-Nominal 711 713	泪光
+R16	Part-Whole Arg1:T189 Arg2:T190	
+T191	Location-Nominal 741 744	桥墩上
+T192	Thing-Nominal 749 754	混浊的河水
+T193	Thing-Nominal 745 747	两眼
+R17	Part-Whole Arg1:T193 Arg2:T64	
+T194	Metric 810 815	三万六千顷
+T195	Thing-Nominal 810 817	三万六千顷水域
+T72	Thing-Nominal 949 951	眼睛
+T196	Thing-Nominal 988 993	强烈的灯光
+T197	Location-Nominal 1016 1018	荡里
+T198	Location-Nominal 1031 1032	船
+T199	Person-Nominal 1128 1131	船上人
+R18	Located Arg1:T117 Arg2:T119	
+T200	Location-Nominal 1346 1348	湖荡
+T201	Location-Nominal 1373 1374	船
+T202	Location-Nominal 1383 1385	腰间
+T203	Thing-Nominal 1441 1449	一道道猩红的血柱
+T204	Thing-Nominal 1453 1458	桅杆、船篷
+T141	Thing-Nominal 1632 1637	沉重的石块
+T142	Thing-Nominal 1668 1673	大哥的尸体
+T159	Thing-Nominal 1708 1710;1711 1720	一大 蓬什么中草药的枯藤
+R13	Located Arg1:T159 Arg2:T157	
+R19	Part-Whole Arg1:T164 Arg2:T163	
+R20	Part-Whole Arg1:T165 Arg2:T163	
+*	Coreference T178 T172

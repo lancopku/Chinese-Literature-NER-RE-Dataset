@@ -1,0 +1,347 @@
+T1	Thing-Nominal 0 9	一场纷纷扬扬的大雪
+T2	Person-Nominal 11 13	众人
+T3	Location-Name 25 29	湖北襄阳
+T4	Person-Nominal 44 46	人们
+T5	Location-Nominal 73 78	城市中心圈
+T6	Time-Explicit 79 81	每年
+T7	Location-Nominal 82 85	家门口
+T8	Person-Pronoun 86 87	我
+T9	Thing-Nominal 95 128;129 133	夫人城、临汉门、米公祠、仲宣楼、护城河、习家池、黄家湾和古隆中等一 带的雪景
+T10	Person-Pronoun 145 146	我
+T11	Thing-Nominal 147 156	这些近在咫尺的景点
+T12	Person-Pronoun 174 175	我
+T13	Thing-Nominal 179 180	雪
+T14	Thing-Nominal 181 182	景
+T15	Thing-Nominal 192 198	市郊的卧龙镇
+T16	Location-Nominal 192 194	市郊
+R1	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 201 204	这个镇
+T18	Thing-Name 208 211	泥嘴镇
+T19	Thing-Nominal 217 220	这个镇
+T20	Thing-Nominal 225 232	一个偏远的农村
+T21	Thing-Nominal 236 248	一栋栋拔地而起的高楼大厦
+T22	Thing-Nominal 258 263	众多的厂矿
+T23	Thing-Nominal 266 268	污水
+T24	Thing-Nominal 275 282	纵横交错的马路
+T25	Location-Pronoun 291 293	这里
+T26	Location-Nominal 294 296	市区
+T27	Metric 297 301	23公里
+T28	Thing-Nominal 313 315	农村
+T29	Person-Nominal 334 338	过多的人
+T30	Time-Explicit 353 359	2015年初
+T31	Thing-Nominal 360 361	雪
+T32	Location-Nominal 359 367	踏雪观光的好去处
+T33	Thing-Nominal 369 371	雪花
+T34	Time-Implicit 369 377	雪花飘落的第二天
+T35	Person-Pronoun 378 379	我
+T36	Thing-Nominal 381 383	相机
+T37	Thing-Nominal 384 386	雨伞
+T38	Thing-Nominal 389 392	大巴车
+T39	Thing-Nominal 393 396	檀溪路
+T40	Location-Name 401 423	襄阳国际商都、万山、襄阳职业技术学院、卧龙镇
+T41	Thing-Nominal 427 429;430 433	30 3省道
+T42	Thing-Nominal 438 445	漫天飞舞的雪花
+T43	Location-Nominal 436 438	窗外
+R2	Located Arg1:T42 Arg2:T43	
+T44	Location-Nominal 451 453	树上
+T45	Location-Nominal 454 457	山顶上
+T46	Location-Nominal 461 473	希望的田野和零散的村庄里
+T47	Thing-Nominal 474 480	这一朵朵雪花
+R3	Located Arg1:T47 Arg2:T46	
+T48	Thing-Nominal 486 490;491 492	冬日的天 空
+T49	Person-Nominal 494 501	浪漫诗人及作家
+T50	Thing-Nominal 501 508	最好的创作礼物
+T51	Location-Nominal 516 520	片片农田
+T52	Thing-Nominal 521 523	雪花
+R4	Located Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 534 539	绿色的麦苗
+T54	Location-Nominal 542 547	雪与土之间
+R5	Located Arg1:T53 Arg2:T54	
+T55	Thing-Nominal 562 569	如雪原般的田野
+T56	Location-Nominal 560 562	窗外
+R6	Located Arg1:T55 Arg2:T56	
+T57	Person-Pronoun 570 571	我
+T58	Thing-Nominal 579 581	雪花
+T59	Thing-Nominal 583 585	车身
+T60	Location-Name 612 624	卧龙镇九天玄女风景区牌坊
+T61	Thing-Nominal 625 626	车
+T62	Time-Implicit 612 627	卧龙镇九天玄女风景区牌坊下车后
+T63	Person-Pronoun 628 629	我
+T64	Thing-Nominal 631 636	厚厚的瑞雪
+T65	Thing-Nominal 639 643	皑皑雪路
+T66	Location-Name 650 656	玄女广场周围
+T67	Thing-Nominal 656 661	冬雪的风光
+R7	Located Arg1:T67 Arg2:T66	
+T68	Thing-Nominal 662 671	一望无边的玄女广场
+T69	Thing-Nominal 674 676	大雪
+T70	Thing-Nominal 686 701	一款白白的、厚厚的全棉羽绒被芯
+T71	Location-Nominal 709 715	广场的正中央
+R8	Located Arg1:T70 Arg2:T71	
+T72	Thing-Nominal 716 728	一栋栋拔地而起的养生公馆
+T73	Location-Name 733 739	玄女广场一侧
+R9	Located Arg1:T72 Arg2:T73	
+T74	Thing-Nominal 741 743	冬雪
+T75	Thing-Nominal 760 769	清澈如镜的玄女湖水
+T76	Thing-Nominal 771 775	朵朵雪花
+T77	Person-Pronoun 785 786	我
+T78	Thing-Nominal 788 791	环形路
+T79	Thing-Nominal 857 859	雪花
+T80	Person-Pronoun 860 861	我
+T81	Location-Nominal 862 864	雪中
+T82	Location-Nominal 881 883	脚下
+T83	Thing-Nominal 893 895	雪野
+T84	Thing-Nominal 899 905	那溅起的音符
+T85	Thing-Nominal 927 932	沉睡的大地
+T86	Thing-Nominal 943 948	这一条雪路
+T87	Thing-Nominal 1013 1019	荷叶上的露珠
+T88	Location-Nominal 1013 1016	荷叶上
+R10	Located Arg1:T87 Arg2:T88	
+T89	Location-Nominal 1023 1025	水里
+T90	Thing-Nominal 1040 1042	飘雪
+T91	Thing-Nominal 1043 1049	这白色的精灵
+*	Coreference T91 T90
+T92	Person-Pronoun 1067 1068	你
+T93	Person-Pronoun 1077 1078	我
+T94	Location-Name 1148 1151	九天宫
+T95	Thing-Nominal 1154 1159	这里的积雪
+R11	Located Arg1:T95 Arg2:T94	
+T96	Location-Pronoun 1154 1156	这里
+*	Coreference T96 T94
+T97	Metric 1161 1165	30厘米
+T98	Thing-Nominal 1167 1168	山
+T99	Thing-Nominal 1170 1172	双手
+T100	Thing-Nominal 1174 1176	树条
+T101	Person-Pronoun 1192 1193	我
+T102	Location-Nominal 1197 1201	玄女山顶
+T103	Location-Nominal 1203 1205;1206 1207	山顶 上
+T104	Thing-Nominal 1211 1220	九天玄女景区的全景
+T105	Thing-Nominal 1221 1225	皑皑大雪
+T106	Thing-Nominal 1226 1231	这一全景图
+T107	Person-Pronoun 1240 1241	我
+T108	Location-Nominal 1244 1252	如诗如画的雪景中
+T109	Thing-Nominal 1257 1265	古色古香的九天宫
+T110	Thing-Nominal 1269 1276	一层厚厚的银装
+T111	Location-Nominal 1282 1285	宫檐上
+T112	Thing-Nominal 1296 1307	尖尖的，透亮透亮的冰挂
+R12	Located Arg1:T112 Arg2:T111	
+T113	Time-Implicit 1314 1317	孩提时
+T114	Person-Pronoun 1309 1310	我
+T115	Location-Nominal 1319 1321	老家
+T116	Location-Nominal 1323 1327;1328 1331	灰色布瓦 屋檐上
+T117	Time-Implicit 1335 1337	那时
+*	Coreference T117 T113
+T118	Person-Pronoun 1337 1338	我
+T119	Person-Nominal 1339 1343	小伙伴们
+R13	Social Arg1:T119 Arg2:T118	
+T120	Thing-Nominal 1345 1352	一根长长的竹竿
+T121	Thing-Nominal 1353 1355	冰挂
+T122	Location-Nominal 1361 1363	嘴里
+T123	Thing-Nominal 1378 1380	雪糕
+T124	Time-Implicit 1384 1388;1389 1391	每场大雪 过后
+T125	Person-Pronoun 1392 1394	我们
+T126	Person-Nominal 1394 1400	一大群小伙伴
+T127	Location-Nominal 1402 1413	大路上、校园里、田野上
+T128	Thing-Nominal 1415 1417	车轮
+T129	Thing-Nominal 1421 1423	雪球
+T130	Thing-Nominal 1425 1427	雪人
+T131	Thing-Nominal 1434 1442	一棵棵树上的雪花
+T132	Location-Nominal 1437 1439	树上
+R14	Located Arg1:T131 Arg2:T132	
+T133	Thing-Nominal 1450 1457	一簇簇的大花坛
+T134	Location-Nominal 1445 1447	到处
+R15	Located Arg1:T133 Arg2:T134	
+T135	Location-Nominal 1474 1476	空中
+T136	Thing-Nominal 1471 1473	雪花
+R16	Located Arg1:T136 Arg2:T135	
+T137	Thing-Nominal 1483 1485	柳絮
+T138	Person-Nominal 1490 1492	天女
+T139	Thing-Nominal 1495 1499	山上的雪
+T140	Location-Nominal 1495 1497	山上
+R17	Located Arg1:T139 Arg2:T140	
+T141	Thing-Nominal 1514 1524	一个个坑坑洼洼的足印
+T142	Location-Nominal 1528 1531	山脚下
+T143	Thing-Nominal 1533 1536	苗圃园
+R18	Located Arg1:T143 Arg2:T142	
+T144	Thing-Nominal 1537 1539	雪花
+T145	Location-Pronoun 1540 1542	这里
+T146	Thing-Nominal 1545 1549	一片雪地
+T147	Thing-Nominal 1550 1557	裸露的绿色树苗
+T148	Thing-Nominal 1563 1564	枝
+T149	Thing-Nominal 1565 1566	叶
+T150	Thing-Nominal 1594 1606	一些被冬雪包围的小小树苗
+T151	Location-Nominal 1614 1617	雪地中
+R19	Located Arg1:T150 Arg2:T151	
+T152	Thing-Nominal 1621 1623	瑞雪
+T153	Thing-Nominal 1636 1652	一棵棵带着红色熟果的“四季红”，
+T154	Thing-Nominal 1655 1657	雪帽
+T155	Thing-Nominal 1660 1665	红晕的笑脸
+T156	Location-Nominal 1677 1683	一排排大棚里
+T157	Thing-Nominal 1684 1690	各种奇花异草
+R20	Located Arg1:T157 Arg2:T156	
+T158	Location-Nominal 1696 1698	外面
+T159	Location-Nominal 1706 1709	温室里
+T160	Thing-Nominal 1716 1718	笑脸
+T161	Thing-Nominal 1725 1734	这场恰到好处的冬雪
+T162	Thing-Nominal 1738 1740	大地
+T163	Thing-Nominal 1767 1774	无孔不入的害虫
+T164	Thing-Nominal 1775 1777	冬雪
+T165	Thing-Nominal 1786 1790	一场冬雪
+T166	Thing-Nominal 1797 1802	洁白的锦袍
+T167	Thing-Nominal 1804 1807	苗圃园
+T168	Thing-Nominal 1810 1819	冰清玉洁的美丽景色
+T169	Time-Implicit 1821 1824	下山后
+T170	Thing-Nominal 1826 1829	苗圃园
+T171	Thing-Nominal 1831 1836	303省道
+T172	Thing-Nominal 1839 1847	正在开发的水果园
+T173	Location-Nominal 1864 1866	周围
+T174	Thing-Nominal 1866 1870	零散山村
+R21	Located Arg1:T174 Arg2:T173	
+T175	Thing-Nominal 1876 1880	洁白雪花
+T176	Thing-Nominal 1894 1896	雪花
+T177	Location-Nominal 1899 1902	水塘里
+R22	Located Arg1:T176 Arg2:T177	
+T178	Thing-Nominal 1904 1906	水面
+T179	Thing-Nominal 1907 1909	水草
+T180	Thing-Nominal 1912 1920	环环相扣的“雪莲
+T181	Thing-Nominal 1922 1930	奇形怪状的“冰山
+T182	Thing-Nominal 1932 1941	如豆腐块状的“冰块
+T183	Thing-Nominal 1944 1946	雪花
+T184	Location-Nominal 1949 1955	广袤的田野里
+R23	Located Arg1:T183 Arg2:T184	
+T185	Thing-Nominal 1957 1962	田间、地头
+T186	Thing-Nominal 1965 1970	雪白的地毯
+T187	Location-Pronoun 1974 1976	这里
+T188	Thing-Nominal 1977 1978	雪
+T189	Location-Pronoun 1983 1985	这里
+T190	Thing-Nominal 1993 2000	与众不同的雪景
+T191	Person-Nominal 2002 2003;2004 2005	人 们
+T192	Thing-Nominal 2008 2019	一个玉树琼枝的人间仙境
+T193	Location-Nominal 2022 2029	水果园一水塘处
+T194	Thing-Nominal 2032 2040	一群快乐的小鸟，
+R24	Located Arg1:T194 Arg2:T193	
+T195	Location-Nominal 2043 2046	水塘边
+T196	Location-Nominal 2052 2055	树枝上
+T197	Location-Nominal 2061 2063	空中
+T198	Location-Nominal 2069 2071	雪中
+T199	Thing-Nominal 2079 2081;2082 2090	20 15年第一次冬雪
+T200	Thing-Nominal 2094 2098	此场冬雪
+T201	Person-Pronoun 2100 2101	我
+T202	Thing-Nominal 2106 2111	今日的农村
+T203	Thing-Nominal 2112 2114	雪景
+T204	Thing-Nominal 2121 2122	水
+T205	Thing-Nominal 2118 2119	山
+T206	Thing-Nominal 2127 2128	鸟
+T207	Thing-Nominal 2130 2131	树
+T208	Thing-Nominal 2133 2135	村庄
+T209	Thing-Nominal 2136 2138	冬雪
+T210	Location-Pronoun 2139 2141	这里
+T211	Thing-Nominal 2156 2160	一场冬雪
+T212	Location-Nominal 2164 2169	这里天空中
+T213	Thing-Nominal 2174 2176	空气
+T214	Person-Nominal 2188 2190	人们
+T215	Thing-Nominal 2201 2203;2204 2206	一场 冬雪
+T216	Person-Pronoun 2208 2209	我
+T217	Thing-Nominal 2235 2237	冬雪
+T218	Person-Pronoun 2243 2244	我
+T219	Thing-Nominal 2246 2252	我的五脏六腑
+T220	Person-Pronoun 2246 2247	我
+R25	Part-Whole Arg1:T219 Arg2:T220	
+T221	Thing-Nominal 2254 2256	冰雪
+T222	Person-Pronoun 2259 2260	我
+T223	Thing-Nominal 2271 2275	我的血液
+T224	Person-Pronoun 2271 2272	我
+T225	Thing-Nominal 2284 2288	我的肝胆
+T226	Person-Pronoun 2284 2285	我
+R26	Part-Whole Arg1:T223 Arg2:T224	
+R27	Part-Whole Arg1:T225 Arg2:T226	
+T227	Thing-Nominal 2308 2309	雪
+T228	Thing-Nominal 2314 2319	空中的雪花
+T229	Location-Nominal 2314 2316	空中
+R28	Located Arg1:T228 Arg2:T229	
+T230	Thing-Nominal 2323 2328	伞上的雪花
+T231	Location-Nominal 2323 2325	伞上
+R29	Located Arg1:T230 Arg2:T231	
+T232	Thing-Nominal 2339 2341	相机
+T233	Person-Pronoun 2342 2343	我
+T234	Thing-Nominal 2344 2350	一块红色手帕
+T235	Thing-Pronoun 2351 2352	它
+*	Coreference T235 T232
+T236	Location-Nominal 2357 2359	外面
+T237	Thing-Nominal 2361 2367	一个大塑料袋
+T238	Time-Implicit 2378 2382	下午5点
+T239	Thing-Nominal 2385 2386	雪
+T240	Person-Pronoun 2396 2397	我
+T241	Thing-Nominal 2398 2406	这美丽的田园风光
+T242	Person-Pronoun 2423 2424	我
+T243	Thing-Pronoun 2428 2429	它
+*	Coreference T243 T241
+T244	Thing-Nominal 2460 2468	一幅幅优美的图画
+T245	Person-Pronoun 2471 2472	我
+T246	Thing-Nominal 2474 2478	一条雪路
+T247	Time-Implicit 2478 2485	返回公路乘车时
+T248	Thing-Nominal 2498 2500	冬雪
+T249	Thing-Nominal 2505 2513	九天玄女景区全景
+T250	Thing-Nominal 2514 2516	瑞雪
+T251	Thing-Pronoun 2519 2520	它
+T252	Person-Nominal 2526 2527	人
+T253	Person-Nominal 2535 2544	楚楚动人的白雪公主
+T254	Person-Nominal 2547 2562	明目皓齿，舞袂着玉袖的九天玄女
+T255	Person-Name 2590 2593	熊军武
+T256	Person-Name 2608 2611	襄江石
+T257	Person-Name 2604 2607	楚中雄
+T258	Person-Nominal 2614 2650;2651 2660	中国报业协会集报分会、中国散文家协会、湖北省作家协会、襄阳市作家协会、襄 阳市摄影家协会会员
+T259	Abstract 2678 2684	《人民日报》
+T260	Abstract 2684 2690	《光明日报》
+T261	Abstract 2690 2696	《经济日报》
+T262	Abstract 2696 2703	《中国青年报》
+T263	Abstract 2703 2708	《健康报》
+T264	Abstract 2708 2715	《中国化工报》
+T265	Abstract 2715 2722;2723 2725	《中国安全生产 报》
+T266	Abstract 2725 2732	《中国商检报》
+T267	Abstract 2732 2739	《中国旅游报》
+T268	Abstract 2739 2748	《中国新闻出版报》
+T269	Abstract 2748 2755	《中国贸易报》
+T270	Abstract 2755 2761	《法制日报》
+T271	Abstract 2761 2768	《中国质量报》
+T272	Abstract 2768 2774	《解放军报》
+T273	Abstract 2774 2780	《长江日报》
+T274	Abstract 2780 2783;2784 2787	《湖北 日报》
+T275	Abstract 2849 2855	《南京日报》
+T276	Abstract 2859 2865	《南方日报》
+T277	Abstract 2865 2871	《河南日报》
+T278	Abstract 2787 2794	《楚天都市报》
+T279	Abstract 2794 2800	《楚天快报》
+T280	Abstract 2800 2806	《楚天金报》
+T281	Abstract 2806 2812	《武汉晚报》
+T282	Abstract 2812 2818	《襄阳日报》
+T283	Abstract 2818 2824	《襄阳晚报》
+T284	Abstract 2824 2830	《襄阳周刊》
+T285	Abstract 2830 2836	《黄冈日报》
+T286	Abstract 2836 2842	《鄂东晚报》
+T287	Abstract 2842 2844;2845 2849	《黄 冈周刊》
+T288	Abstract 2878 2884	《东莞日报》
+T289	Abstract 2855 2859	《周末》
+T290	Abstract 2890 2896	《广州日报》
+T291	Abstract 2884 2890	《广西日报》
+T292	Abstract 2896 2902	《北京日报》
+T293	Abstract 2902 2905;2906 2910	《黑龙 江日报》
+T294	Abstract 2910 2916	《河北日报》
+T295	Abstract 2916 2922	《四川日报》
+T296	Abstract 2922 2928	《天津日报》
+T297	Abstract 2928 2934	《湖南日报》
+T298	Abstract 2934 2940	《云南日报》
+T299	Abstract 2940 2946	《中国故事》
+T300	Abstract 2871 2878	《深圳特区报》
+T301	Abstract 2952 2958	《今古传奇》
+T302	Abstract 2946 2952	《特别文摘》
+T303	Abstract 2958 2964	《安徽文学》
+T304	Abstract 2964 2966;2967 2969	《可 乐》
+T305	Abstract 2969 2973	《幸福》
+T306	Abstract 2973 2979	《湖北人口》
+T307	Abstract 2979 2985	《党员生活》
+T308	Abstract 2985 2992	《健康与生活》
+T309	Abstract 2992 2998	《百姓生活》
+T310	Abstract 2999 3004	《家家乐》
+T311	Thing-Nominal 3005 3012	300多种报刊
+T312	Thing-Nominal 3013 3020	多篇(幅)作品
+R30	Located Arg1:T9 Arg2:T7	

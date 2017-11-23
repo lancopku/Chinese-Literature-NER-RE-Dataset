@@ -1,0 +1,97 @@
+T1	Thing-Nominal 0 2	春风
+T2	Location-Nominal 11 13	大地
+T3	Thing-Nominal 26 28	草儿
+T4	Thing-Nominal 30 32	身躯
+*	Coreference T4 T3
+T5	Thing-Nominal 33 35	花儿
+T6	Thing-Nominal 36 37	蜂
+T7	Thing-Nominal 38 39	蝶
+T8	Thing-Nominal 40 48	冬眠中苏醒的蚂蚁
+T9	Person-Nominal 74 75	人
+T10	Person-Pronoun 81 82	我
+T11	Person-Pronoun 121 122	我
+T12	Thing-Nominal 127 128	树
+T13	Thing-Nominal 135 138	香樟树
+R1	General-Special Arg1:T12 Arg2:T13	
+T14	Metric 125 127	一棵
+T15	Metric 133 135	一棵
+T16	Thing-Nominal 139 152	扎根在老家村口的那棵香樟树
+*	Coreference T16 T13
+T17	Location-Nominal 142 146	老家村口
+T18	Location-Nominal 154 157	我老家
+T19	Location-Name 160 166	黄坛镇张家山
+*	Coreference T18 T19 T22 T24
+T20	Location-Nominal 169 171	山顶
+R2	Part-Whole Arg1:T20 Arg2:T19	
+T21	Location-Nominal 173 175	大山
+T22	Location-Pronoun 178 179	它
+T23	Person-Nominal 180 185	质朴的人们
+T24	Location-Pronoun 188 189	它
+T25	Thing-Nominal 190 196	村口的香樟树
+T26	Location-Nominal 215 219	盘山公路
+T27	Person-Pronoun 225 226	我
+T28	Location-Nominal 233 234	山
+T29	Location-Nominal 235 244	蜿蜒曲折地羊肠小道
+T30	Location-Nominal 246 248	山顶
+T31	Person-Nominal 252 254	先辈
+T32	Location-Nominal 251 261	由先辈铺设出来的山路
+T33	Thing-Nominal 265 267	青松
+T34	Thing-Nominal 267 269	绿竹
+T35	Thing-Nominal 272 274	山泉
+T36	Thing-Nominal 290 295	湿滑的石板
+T37	Thing-Nominal 298 299	水
+T38	Location-Nominal 315 324	第二个休憩的小房子
+T39	Metric 332 334	一棵
+T40	Thing-Nominal 334 342	充满张力的香樟树
+T41	Thing-Nominal 345 351	圆圆的大脑袋
+R3	Part-Whole Arg1:T41 Arg2:T40	
+T42	Person-Nominal 353 358	远方的客人
+T43	Thing-Nominal 361 366	长长的手臂
+R4	Part-Whole Arg1:T43 Arg2:T40	
+T44	Person-Pronoun 370 371	我
+T45	Location-Nominal 385 387	山顶
+T46	Thing-Nominal 388 391	香樟树
+T47	Person-Pronoun 403 404	我
+T48	Person-Pronoun 422 423	我
+T49	Thing-Pronoun 431 432	她
+*	Coreference T49 T46 T51 T52 T82
+T50	Thing-Nominal 433 434;435 436	身 体
+R5	Part-Whole Arg1:T50 Arg2:T49	
+T51	Thing-Pronoun 442 443	她
+T52	Thing-Pronoun 448 449	她
+T53	Person-Pronoun 452 453	我
+T54	Thing-Nominal 477 479	手臂
+T55	Person-Nominal 498 500	妈妈
+T56	Metric 496 498	一位
+T57	Person-Pronoun 512 514	自己
+*	Coreference T57 T55
+T58	Person-Nominal 512 517	自己的孩子
+R6	Family Arg1:T58 Arg2:T55	
+T59	Thing-Nominal 525 526	雪
+T60	Thing-Nominal 539 541	阳光
+T61	Time-Implicit 558 562	一年四季
+T62	Time-Implicit 531 533	春天
+T63	Person-Nominal 566 571	来往的人们
+T64	Thing-Nominal 581 583	阴风
+T65	Thing-Nominal 586 590	她的头发
+T66	Thing-Nominal 591 593	雨水
+T68	Thing-Pronoun 611 613	自己
+T67	Thing-Pronoun 614 615	她
+T69	Person-Nominal 623 628	劳作的人们
+T70	Person-Nominal 629 634	贪玩的孩子
+T71	Thing-Pronoun 641 642	她
+T72	Person-Nominal 644 649	善良的妈妈
+T73	Person-Nominal 654 661	无理取闹地孩子
+T74	Person-Pronoun 667 669	他们
+*	Coreference T74 T73
+T75	Thing-Nominal 674 680	我们的守护神
+T76	Person-Pronoun 674 676	我们
+T77	Thing-Pronoun 670 671	她
+T78	Person-Pronoun 684 686	我们
+T79	Thing-Pronoun 691 692	她
+T80	Person-Nominal 704 707	孩子们
+T81	Person-Nominal 734 739	远方的游子
+T82	Thing-Nominal 755 761	这么一位妈妈
+T83	Location-Nominal 764 769	村子的村口
+T84	Person-Pronoun 772 774	你们
+*	Coreference T84 T81

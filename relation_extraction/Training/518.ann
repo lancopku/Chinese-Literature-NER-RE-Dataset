@@ -1,0 +1,209 @@
+T1	Time-Implicit 5 9	早春二月
+T2	Person-Pronoun 10 11	来
+T3	Location-Nominal 12 16	水果之乡
+T4	Location-Name 19 22	赤水镇
+*	Coreference T4 T3 T120
+T5	Location-Name 38 41	赤水河
+T6	Location-Nominal 42 43	镇
+R1	Part-Whole Arg1:T5 Arg2:T6	
+T7	Location-Nominal 46 48	公路
+T8	Location-Name 49 54	赤水河大桥
+T9	Location-Nominal 72 74	梯田
+T10	Location-Nominal 75 77	坡地
+T11	Thing-Nominal 84 86	桃树
+T12	Thing-Nominal 87 89	李树
+T13	Thing-Nominal 90 92	油菜
+T14	Thing-Nominal 98 100	果树
+T15	Thing-Nominal 101 103	油菜
+T16	Thing-Nominal 113 114	花
+T17	Person-Nominal 125 127	游客
+R2	Part-Whole Arg1:T11 Arg2:T14	
+R3	Part-Whole Arg1:T12 Arg2:T14	
+T18	Location-Name 131 133	赤水
+T19	Location-Nominal 146 149	山梁上
+T20	Person-Pronoun 167 169	我们
+T21	Thing-Nominal 172 174	李花
+T22	Thing-Nominal 181 183	桃花
+T23	Thing-Nominal 190 191;192 193	菜 花
+T24	Thing-Nominal 203 205	麦苗
+T25	Thing-Nominal 234 237	花儿们
+T26	Thing-Pronoun 259 261	它们
+*	Coreference T26 T25
+T27	Location-Nominal 290 293	田埂上
+T28	Thing-Nominal 306 308	花瓣
+T29	Thing-Nominal 309 311	枝头
+T30	Thing-Nominal 343 345	画卷
+T31	Thing-Nominal 360 361	花
+T32	Location-Nominal 368 371	北门上
+T33	Thing-Nominal 372 373	桃
+R4	Located Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 394 396	花朵
+T35	Location-Nominal 548 550;551 552	桃林 里
+T36	Thing-Nominal 552 554	桃枝
+R5	Located Arg1:T36 Arg2:T35	
+T37	Location-Nominal 581 584	桃花林
+T38	Thing-Nominal 590 592	桃树
+T39	Thing-Nominal 648 649	花
+T40	Person-Nominal 666 668	游人
+T41	Thing-Nominal 691 693	桃花
+T42	Person-Pronoun 694 695	我
+T43	Person-Name 697 703	唐朝诗人吴融
+T44	Thing-Nominal 704 706	桃花
+T45	Thing-Nominal 749 751	桃花
+T46	Time-Implicit 756 758	春天
+T47	Thing-Nominal 762 764	自己
+T48	Person-Nominal 768 770	人们
+T49	Location-Nominal 775 779	桃花林里
+T50	Person-Pronoun 779 780	我
+T51	Thing-Nominal 787 789	桃花
+T52	Location-Name 813 816	双山村
+T53	Thing-Nominal 817 819	李花
+R6	Located Arg1:T53 Arg2:T52	
+T54	Thing-Nominal 840 842	李树
+T55	Person-Pronoun 859 860	我
+T56	Location-Name 868 870	双山
+T57	Location-Nominal 880 888	山上山下山前塘后
+T58	Thing-Nominal 896 899	李子树
+T59	Thing-Nominal 904 906	李树
+T60	Thing-Nominal 914 916	李花
+T61	Thing-Nominal 932 934	枝条
+R7	Part-Whole Arg1:T60 Arg2:T59	
+T62	Person-Name 977 979	韩愈
+T63	Thing-Nominal 1004 1006	李花
+T64	Thing-Nominal 1013 1018	双山的李花
+T65	Metric 1041 1043	几里
+T66	Location-Name 1046 1050	双山山顶
+T67	Location-Nominal 1051 1053	山顶
+T68	Thing-Nominal 1057 1059	李树
+T69	Thing-Nominal 1084 1086	花瓣
+T70	Thing-Nominal 1097 1099	蜜蜂
+T71	Thing-Nominal 1121 1123	李花
+T72	Thing-Nominal 1150 1152	李花
+T73	Thing-Nominal 1153 1155	桃花
+T74	Thing-Nominal 1156 1159	油菜花
+T75	Thing-Nominal 1164 1166	绿树
+T76	Thing-Nominal 1166 1168	鲜花
+T77	Location-Nominal 1171 1175	农家院落
+T78	Person-Pronoun 1193 1194	我
+T79	Thing-Nominal 1207 1209	相机
+T81	Location-Name 1249 1253	雪山关下
+T82	Thing-Nominal 1254 1257	油菜花
+T83	Thing-Pronoun 1262 1263	它
+*	Coreference T83 T82
+T84	Thing-Pronoun 1273 1274	它
+T85	Person-Nominal 1296 1298	人们
+T86	Person-Nominal 1306 1308	人们
+T87	Location-Nominal 1315 1318	梯田上
+T88	Thing-Nominal 1322 1324	菜花
+T89	Thing-Nominal 1349 1351	翡翠
+T90	Thing-Nominal 1361 1364	金镶玉
+T91	Thing-Nominal 1369 1370;1371 1372	棋 盘
+T92	Location-Nominal 1376 1381	菜花田埂上
+T93	Thing-Nominal 1382 1384	菜花
+T94	Thing-Nominal 1419 1422	油菜花
+T95	Person-Pronoun 1462 1463	你
+T96	Thing-Nominal 1454 1457	油菜花
+T97	Person-Pronoun 1469 1470	你
+T98	Person-Pronoun 1476 1477	你
+T99	Thing-Nominal 1481 1484	菜花上
+T100	Thing-Nominal 1484 1485	蜂
+T101	Thing-Nominal 1486 1487	蝶
+T102	Person-Nominal 1494 1498	赏花的人
+T103	Person-Nominal 1507 1509	靓男
+T104	Person-Nominal 1509 1511	美女
+T105	Person-Nominal 1542 1545	孩子们
+T106	Person-Pronoun 1559 1560	我
+T107	Location-Name 1598 1601	赤水河
+T108	Person-Nominal 1631 1633	自己
+T109	Thing-Nominal 1657 1659	高楼
+T110	Thing-Nominal 1662 1664	霓虹
+T111	Location-Name 1674 1677	赤水河
+T112	Person-Pronoun 1670 1671	我
+T113	Thing-Nominal 1700 1702	菜花
+T114	Thing-Nominal 1706 1708	桃花
+T115	Thing-Nominal 1712 1714	李花
+T116	Person-Pronoun 1722 1724	我们
+T117	Thing-Nominal 1733 1735	图画
+T118	Location-Nominal 1546 1549	花丛中
+T119	Location-Nominal 1512 1515	花丛中
+R8	Located Arg1:T113 Arg2:T111	
+R9	Located Arg1:T114 Arg2:T111	
+R10	Located Arg1:T115 Arg2:T111	
+T120	Location-Pronoun 23 25	这里
+T121	Thing-Nominal 26 27	山
+T122	Thing-Nominal 30 32	山峦
+T123	Thing-Nominal 63 64	山
+T124	Thing-Nominal 65 66	岭
+T125	Thing-Nominal 104 105	山
+T126	Thing-Nominal 115 117	海洋
+T127	Thing-Nominal 134 136	花海
+T128	Thing-Nominal 162 164	花海
+R11	Located Arg1:T21 Arg2:T128	
+R12	Located Arg1:T22 Arg2:T128	
+R13	Located Arg1:T23 Arg2:T128	
+T129	Thing-Nominal 282 284	春雨
+R14	Located Arg1:T28 Arg2:T29	
+T130	Thing-Nominal 362 364	海洋
+T131	Thing-Nominal 398 400	枝头
+R15	Located Arg1:T34 Arg2:T131	
+T132	Thing-Nominal 409 411	繁花
+T133	Thing-Nominal 417 419	云霞
+T134	Thing-Nominal 449 450	苞
+T135	Thing-Nominal 482 483	桃
+T136	Thing-Nominal 501 503	桃花
+T137	Thing-Nominal 530 531	水
+T138	Thing-Nominal 533 534	山
+T139	Thing-Nominal 536 537	花
+T140	Thing-Nominal 545 547	图画
+T141	Person-Nominal 564 566	天仙
+T142	Location-Nominal 596 598	树下
+T143	Person-Name 607 609	唐寅
+T144	Thing-Nominal 610 611;612 613	桃 花
+T145	Thing-Nominal 621 622	花
+*	Coreference T145 T144
+T146	Thing-Nominal 625 626	酒
+T147	Thing-Nominal 629 630	花
+T148	Thing-Nominal 645 646	花
+T149	Thing-Nominal 711 712	树
+T150	Thing-Nominal 719 720	枝
+R16	Part-Whole Arg1:T150 Arg2:T149	
+T151	Time-Explicit 730 732	千年
+*	Coreference T45 T47
+T152	Thing-Nominal 796 798	沃土
+T153	Person-Pronoun 800 801	我
+T154	Time-Implicit 806 808	春天
+T155	Thing-Nominal 864 865	花
+*	Coreference T155 T53
+T156	Location-Pronoun 871 873	这里
+*	Coreference T156 T56
+T157	Thing-Nominal 875 879	花的海洋
+R17	Located Arg1:T157 Arg2:T156	
+R18	Located Arg1:T60 Arg2:T61	
+R19	Part-Whole Arg1:T61 Arg2:T59	
+T158	Thing-Nominal 965 966	树
+*	Coreference T59 T158
+T159	Thing-Nominal 986 987	雪
+T160	Thing-Nominal 994 995	花
+T161	Thing-Nominal 1030 1031	花
+*	Coreference T161 T64
+T162	Thing-Nominal 1062 1063	雪
+T163	Thing-Nominal 1064 1065	花
+T164	Thing-Nominal 1076 1077	花
+T165	Thing-Nominal 1104 1106	花海
+T166	Thing-Nominal 1094 1096	花蕊
+R20	Located Arg1:T70 Arg2:T166	
+R21	Part-Whole Arg1:T69 Arg2:T164	
+R22	Part-Whole Arg1:T166 Arg2:T164	
+T167	Thing-Nominal 1129 1130	花
+T168	Thing-Nominal 1133 1134	雪
+T169	Thing-Nominal 1180 1182	绿树
+T170	Location-Nominal 1182 1184	村边
+R23	Located Arg1:T169 Arg2:T170	
+T171	Thing-Nominal 1186 1188	青山
+R24	Use Arg1:T78 Arg2:T79	
+T80	Thing-Nominal 1237 1239;1240 1242	李花 仙子
+T172	Thing-Nominal 1266 1268	百花
+T173	Thing-Nominal 1439 1440	酒
+T174	Thing-Nominal 1710 1711	雪
+T175	Thing-Nominal 1704 1705	脂
+T176	Thing-Nominal 1690 1692	花海

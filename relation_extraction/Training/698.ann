@@ -1,0 +1,149 @@
+T1	Thing-Nominal 0 2	淡月
+T2	Thing-Nominal 6 8	明星
+T3	Location-Nominal 15 18	遥遥天
+R1	Located Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 20 28	“水晶白”的月光
+T5	Location-Nominal 30 32	天空
+R2	Located Arg1:T4 Arg2:T5	
+R3	Located Arg1:T1 Arg2:T5	
+T6	Location-Nominal 37 41	整个天地
+T7	Thing-Nominal 45 56	一层淡淡的“白玉”晶纱
+R4	Located Arg1:T7 Arg2:T6	
+*	Coreference T7 T4 T8 T12
+T8	Thing-Nominal 57 60;61 64	“昆山 夜光”
+T9	Location-Nominal 66 75	“蓝海银波”的大海
+T10	Thing-Nominal 67 71	蓝海银波
+R5	Located Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 87 91	一道海风
+R6	Located Arg1:T11 Arg2:T9	
+T12	Thing-Nominal 99 103	银色月光
+T13	Thing-Nominal 96 106	倒映着银色月光的海面
+R7	Located Arg1:T12 Arg2:T9	
+R8	Located Arg1:T11 Arg2:T13	
+T14	Thing-Nominal 115 119	一股雾气
+R9	Located Arg1:T14 Arg2:T13	
+T15	Location-Nominal 130 132	海上
+*	Coreference T15 T9
+T16	Thing-Pronoun 139 141	什么
+T17	Location-Nominal 148 151	天空上
+*	Coreference T5 T17
+T18	Thing-Nominal 152 154	乌云
+R10	Located Arg1:T18 Arg2:T17	
+T19	Metric 157 159	一朵
+T20	Metric 161 163	一朵
+T21	Metric 164 166	一片
+T22	Metric 168 170	一片
+T23	Thing-Nominal 180 181	天
+T24	Thing-Name 182 183	月
+T25	Thing-Nominal 148 150	天空
+*	Coreference T23 T25 T29 T71
+R11	General-Special Arg1:T1 Arg2:T24	
+T26	Thing-Nominal 190 192	青龙
+T27	Location-Nominal 193 195	墨池
+R12	Located Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 187 199	犹如“青龙卧墨池”的闪电
+T29	Thing-Nominal 200 208;209 210	“冠世墨玉”的天 幕
+R13	Located Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 216 218	惊雷
+R14	Located Arg1:T30 Arg2:T29	
+T31	Location-Nominal 231 235	九天山河
+T32	Thing-Nominal 236 242	黄豆大的雨粒
+T33	Thing-Nominal 236 238	黄豆
+T34	Thing-Nominal 249 253	整个海面
+T35	Location-Name 256 258	黄河
+T36	Metric 265 268	三千里
+*	Coreference T34 T13 T40 T48
+T37	Thing-Nominal 270 272	雨幕
+T38	Thing-Nominal 278 280	边际
+T39	Thing-Nominal 284 286	尽头
+R15	Part-Whole Arg1:T38 Arg2:T37	
+R16	Part-Whole Arg1:T39 Arg2:T37	
+T40	Thing-Nominal 292 297	平静的海面
+T41	Thing-Nominal 300 302	海龙
+T42	Thing-Nominal 313 315	海水
+R17	Located Arg1:T42 Arg2:T40	
+T43	Thing-Nominal 324 331	扑面而来的海风
+T44	Thing-Nominal 334 338	滔天巨浪
+T45	Thing-Nominal 343 344	海
+T46	Thing-Nominal 344 345	天
+T47	Thing-Nominal 351 357	冰冷的大浪“
+T48	Thing-Nominal 363 365	海面
+*	Coreference T47 T44
+T49	Location-Nominal 384 389	这一方海域
+T50	Thing-Pronoun 391 393	一切
+T51	Thing-Pronoun 396 398	一切
+T52	Thing-Pronoun 401 403	一切
+T53	Thing-Nominal 404 406	夜风
+T54	Thing-Nominal 412 414	海水
+T55	Thing-Nominal 416 425	“菱花湛露”的光芒
+R18	Located Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 417 419	菱花
+T57	Thing-Nominal 430 432	惊涛
+T58	Location-Nominal 433 434	岸
+T59	Thing-Nominal 435 437	浪声
+T60	Location-Nominal 441 443	海上
+T61	Person-Nominal 449 451	淑女
+T62	Thing-Nominal 448 455	“淑女妆”的脸
+T63	Thing-Nominal 441 446	海上的天气
+R19	Located Arg1:T63 Arg2:T60	
+T64	Thing-Nominal 465 469	惊涛骇浪
+T65	Thing-Nominal 470 474	狂风骤雨
+T66	Time-Implicit 460 463	上一刻
+T67	Time-Implicit 475 478	下一刻
+T68	Thing-Nominal 482 483	风
+T69	Thing-Nominal 484 485	浪
+T70	Thing-Nominal 487 489	波澜
+T71	Thing-Nominal 493 498	深黑的天幕
+T72	Thing-Nominal 502 505	蓝宝石
+T73	Thing-Nominal 510 512	天空
+R20	Located Arg1:T29 Arg2:T25	
+T74	Thing-Nominal 516 518	淡月
+T75	Thing-Nominal 530 532	娇颜
+R21	Part-Whole Arg1:T75 Arg2:T74	
+T76	Thing-Nominal 521 524	云中鹤
+T77	Thing-Nominal 534 536	鹤羽
+T78	Thing-Nominal 533 541	“鹤羽白”的月辉
+T79	Thing-Nominal 548 550	玉玺
+T80	Thing-Name 551 552	月
+T81	Thing-Nominal 547 553;554 557	“玉玺映月” 的海面
+T82	Thing-Nominal 560 571	一抹“银鳞碧珠”的流光
+T83	Location-Nominal 547 553;554 558	“玉玺映月” 的海面上
+R22	Located Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 563 567	银鳞碧珠
+T85	Thing-Nominal 585 587	朝阳
+T86	Thing-Nominal 597 602	黎明的曙光
+T87	Location-Nominal 603 605	天边
+R23	Located Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 613 615	金丹
+T89	Thing-Nominal 611 612	火
+T90	Thing-Nominal 622 624	霓虹
+T91	Thing-Nominal 621 630	“霓虹焕彩”的云霞
+T92	Thing-Nominal 647 649	红霞
+T93	Thing-Nominal 650 651	日
+T94	Thing-Nominal 654 659	绚烂的金光
+T95	Thing-Nominal 662 666	整个海面
+R24	Located Arg1:T94 Arg2:T95	
+T96	Thing-Nominal 668 670	金玉
+T97	Thing-Nominal 677 678	金
+T98	Metric 673 675	一片
+T99	Thing-Nominal 682 684	海风
+T100	Location-Nominal 690 694	整个天地
+T101	Time-Implicit 698 699	春
+T102	Thing-Nominal 704 705	雨
+T103	Thing-Nominal 704 708	雨后风光
+T104	Time-Implicit 711 713	昨日
+T105	Location-Nominal 723 725	枝头
+T106	Location-Nominal 727 729	角落
+T107	Location-Nominal 737 742;743 746	这本就恣意 的世界
+T108	Thing-Nominal 758 763	淡淡的香味
+T109	Thing-Nominal 765 767	南风
+T110	Location-Nominal 774 779	不远的路边
+T111	Thing-Nominal 797 800	迎春花
+T112	Thing-Nominal 786 792	几许“姚黄”
+T113	Thing-Nominal 795 803	属于迎春花的色彩
+T114	Thing-Pronoun 793 794	那
+*	Coreference T114 T112 T113
+T115	Thing-Nominal 714 722	那淡淡的“豆绿”
+R25	Located Arg1:T115 Arg2:T105	
+R26	Located Arg1:T115 Arg2:T106	
+T116	Time-Implicit 814 816	春天

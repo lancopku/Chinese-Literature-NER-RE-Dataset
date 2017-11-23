@@ -1,0 +1,196 @@
+T1	Person-Nominal 0 4	一个朋友
+T2	Person-Nominal 7 10	女博士
+T3	Time-Implicit 11 14	相亲时
+T4	Person-Pronoun 22 23	她
+*	Coreference T4 T2
+T5	Person-Nominal 25 27	男方
+T6	Thing-Nominal 41 43	宇宙
+T7	Person-Nominal 54 56	男人
+T8	Person-Nominal 66 68	大家
+T9	Person-Nominal 70 72	仁者
+T10	Person-Pronoun 78 79	我
+T11	Thing-Nominal 143 145	宇宙
+T12	Thing-Nominal 178 180	宇宙
+T13	Thing-Nominal 190 192	宇宙
+T14	Thing-Nominal 181 183	沧海
+T15	Thing-Nominal 184 185	粟
+R1	Located Arg1:T15 Arg2:T14	
+T16	Location-Nominal 242 246	乾坤大地
+T17	Person-Nominal 261 263	女人
+T18	Thing-Nominal 264 266	大地
+T19	Thing-Nominal 278 279	牛
+T20	Thing-Nominal 251 252	马
+T21	Thing-Nominal 257 258	牛
+T22	Person-Nominal 306 308	男人
+T23	Thing-Nominal 309 310	马
+T24	Location-Nominal 321 322	家
+T25	Person-Nominal 338 340	女人
+T26	Person-Pronoun 344 345	我
+T27	Thing-Name 349 351	周易
+T28	Thing-Name 372 374	周易
+T29	Thing-Nominal 393 395	天书
+T30	Thing-Nominal 401 402;403 408	阴 阳鱼八卦图
+T31	Thing-Name 412 414	周易
+T32	Thing-Nominal 422 424	面纱
+T33	Person-Nominal 430 439	想研究读懂周易的人
+T34	Thing-Name 435 437	周易
+T35	Thing-Name 447 449	周易
+T36	Abstract 482 484	爻辞
+T37	Abstract 485 487	卦宫
+T38	Abstract 488 490	干支
+T39	Abstract 491 493	六神
+T40	Person-Pronoun 501 502	你
+T41	Thing-Pronoun 507 508	它
+*	Coreference T29 T28
+*	Coreference T41 T34 T44 T51
+T42	Person-Nominal 523 524;525 526	人 们
+T43	Time-Implicit 536 538	千年
+T44	Thing-Nominal 552 554	自己
+T45	Person-Name 565 567	伏羲
+T46	Person-Name 568 571	周文王
+T47	Person-Name 572 574	孔子
+T48	Person-Nominal 575 577	圣人
+R2	General-Special Arg1:T47 Arg2:T48	
+R3	General-Special Arg1:T46 Arg2:T48	
+R4	General-Special Arg1:T45 Arg2:T48	
+T49	Person-Nominal 588 592	将相能臣
+T50	Location-Nominal 592 594	案头
+T51	Thing-Nominal 594 598	必备之书
+R5	Located Arg1:T51 Arg2:T50	
+T52	Thing-Pronoun 599 600	它
+T53	Person-Nominal 610 612	后人
+T54	Person-Pronoun 618 620	我们
+T55	Person-Nominal 620 623	后学者
+*	Coreference T54 T55
+T56	Person-Pronoun 638 639	你
+T57	Person-Nominal 724 726	学者
+T58	Thing-Pronoun 737 738	它
+T59	Thing-Pronoun 784 785	它
+T60	Person-Nominal 809 811	大家
+T61	Person-Nominal 841 849	热爱古老文化的人
+T62	Thing-Name 851 853	周易
+T63	Thing-Pronoun 857 858	它
+*	Coreference T63 T62
+T64	Person-Nominal 907 912	易学研究者
+T65	Person-Pronoun 920 922	我们
+T66	Thing-Nominal 949 950	鞭
+T67	Thing-Name 978 980	周易
+T68	Time-Implicit 992 994	古代
+T69	Thing-Name 995 997	周易
+T70	Person-Nominal 998 1001	老百姓
+T71	Time-Implicit 1026 1032	两军作战之前
+T72	Person-Nominal 1036 1038	军师
+T73	Thing-Nominal 1044 1046	龟壳
+T74	Thing-Nominal 1047 1049	蓍草
+R6	Use Arg1:T72 Arg2:T73	
+R7	Use Arg1:T72 Arg2:T74	
+T75	Time-Implicit 1058 1062	作战当天
+T76	Thing-Name 1149 1151	周易
+T77	Person-Nominal 1218 1220	人们
+T78	Abstract 1246 1248	六爻
+T79	Abstract 1249 1253	紫微斗数
+T80	Abstract 1254 1258	奇门遁甲
+T81	Abstract 1259 1263	四柱八字
+T82	Abstract 1264 1268	梅花易数
+T83	Abstract 1269 1272	风水学
+T84	Time-Explicit 1279 1281	明清
+T85	Time-Explicit 1283 1285	民国
+T86	Location-Nominal 1294 1298	街头巷道
+T87	Person-Nominal 1300 1304	江湖术士
+T88	Person-Nominal 1321 1325	民间高人
+T89	Person-Nominal 1326 1330	大师大家
+T90	Time-Explicit 1370 1376	百年后的今天
+T91	Thing-Name 1377 1379	周易
+T92	Thing-Pronoun 1393 1394	它
+*	Coreference T92 T91
+T93	Person-Pronoun 1399 1401	我们
+T94	Person-Nominal 1403 1406	传承者
+*	Coreference T93 T94
+T95	Thing-Name 1430 1432	周易
+T96	Person-Pronoun 1432 1433	你
+T97	Person-Nominal 1439 1441	古人
+T98	Organization-Nominal 1449 1453	西方国家
+T99	Organization-Name 1437 1439	中国
+T100	Thing-Name 1454 1456	易经
+*	Coreference T100 T95
+T101	Location-Nominal 1476 1478	西方
+T102	Thing-Nominal 1551 1554	计算机
+T103	Person-Nominal 1562 1564	先祖
+T104	Person-Pronoun 1570 1571	你
+T105	Thing-Name 1582 1584	周易
+T106	Person-Name 1588 1591	毛泽东
+T107	Person-Name 1593 1596	毛润之
+*	Coreference T107 T106
+T108	Thing-Name 1602 1604	说卦
+T109	Thing-Nominal 1608 1609	雨
+T110	Person-Name 1620 1627	蒋委员长蒋介石
+T111	Person-Name 1627 1630	蒋中正
+*	Coreference T111 T110
+T112	Thing-Name 1647 1648	石
+T113	Organization-Name 1661 1665	清华大学
+T114	Organization-Name 1666 1670	东北大学
+T115	Thing-Name 1691 1693	周易
+T116	Person-Nominal 1698 1702	帝王将相
+T117	Location-Nominal 1702 1706	皇宫庭院
+T118	Thing-Nominal 1708 1709	山
+T119	Thing-Nominal 1710 1711	水
+T120	Abstract 1711 1715	风水理论
+T121	Thing-Nominal 1731 1732;1733 1738	中 国大型建筑
+T122	Person-Pronoun 1738 1739	我
+T123	Abstract 1744 1750	风水化解之说
+T124	Thing-Name 1756 1758	周易
+T125	Person-Nominal 1769 1772	老百姓
+T126	Person-Nominal 1779 1781	大家
+*	Coreference T126 T125
+T127	Thing-Name 1793 1795	周易
+T128	Thing-Nominal 1816 1818	铜钱
+T129	Thing-Nominal 1835 1837	天地
+T130	Person-Pronoun 1879 1880	你
+T131	Abstract 1881 1883	磁场
+T132	Person-Pronoun 1937 1938	我
+T133	Thing-Nominal 1966 1968	罗盘
+T134	Person-Pronoun 1969 1970	你
+T135	Thing-Nominal 1986 1988	棋子
+T136	Person-Pronoun 1996 1997	你
+R8	Located Arg1:T135 Arg2:T133	
+T137	Thing-Nominal 2004 2006	罗盘
+T138	Person-Nominal 2018 2021	有的人
+T139	Thing-Nominal 2034 2036	棋子
+T140	Person-Pronoun 2073 2074	你
+T141	Time-Implicit 2070 2073	有一天
+T142	Thing-Nominal 2079 2081	罗盘
+T143	Thing-Nominal 2089 2091	旗子
+R9	Located Arg1:T143 Arg2:T142	
+T144	Person-Pronoun 2102 2103	我
+T145	Person-Nominal 2117 2122	我们老百姓
+T146	Person-Pronoun 2129 2131	我们
+*	Coreference T146 T145
+T147	Person-Pronoun 2156 2158	我们
+T148	Organization-Name 2136 2138	佛家
+T149	Organization-Name 2153 2154	道
+T150	Thing-Name 2170 2172	周易
+T151	Organization-Name 2180 2181	道
+T152	Thing-Pronoun 2186 2187	它
+*	Coreference T152 T150
+T153	Person-Pronoun 2207 2209	我们
+T154	Thing-Name 2230 2232	周易
+T155	Abstract 2234 2236	爻辞
+T156	Person-Pronoun 2239 2241	我们
+T157	Thing-Nominal 2257 2259	双眼
+R10	Part-Whole Arg1:T157 Arg2:T156	
+T158	Thing-Name 2300 2302	周易
+T159	Person-Nominal 2307 2309	自己
+T160	Thing-Name 2340 2342	周易
+T161	Abstract 2342 2344	八卦
+T162	Abstract 2347 2351	六十四卦
+T163	Person-Pronoun 2368 2369	你
+T164	Thing-Name 2373 2375	周易
+T165	Thing-Name 2384 2386	周易
+T166	Person-Nominal 2417 2419	古人
+T167	Location-Nominal 2425 2427	天庭
+T168	Location-Nominal 2429 2431	月宫
+T169	Person-Nominal 2431 2433	嫦娥
+T170	Person-Nominal 2472 2474	人们
+T171	Person-Pronoun 2537 2538	你
+T172	Person-Pronoun 2545 2546	你
+T173	Person-Pronoun 2558 2559	你

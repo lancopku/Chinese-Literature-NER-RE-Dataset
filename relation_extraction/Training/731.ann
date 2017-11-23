@@ -1,0 +1,76 @@
+T1	Time-Explicit 0 9	2014年3月1日
+T2	Time-Explicit 10 19	一个举国哀悼的日子
+T3	Time-Explicit 20 29	一个令人愤概的日子
+T4	Location-Nominal 31 33	昆明
+T5	Person-Nominal 34 39	无辜的人们
+T6	Person-Nominal 41 43	歹徒
+T7	Person-Nominal 51 53	父母
+T8	Person-Nominal 56 58	孩子
+R1	Family Arg1:T8 Arg2:T7	
+T9	Person-Nominal 59 60;61 68	刚 刚上大学的青年
+T10	Person-Nominal 73 75	同学
+T11	Person-Nominal 76 78	亲人
+T12	Metric 79 82	一个个
+T13	Person-Nominal 82 87	鲜活的生命
+T14	Person-Pronoun 93 95	我们
+T15	Person-Pronoun 108 110	我们
+T16	Time-Explicit 112 115	这一天
+T17	Time-Explicit 116 120	3月1日
+*	Coreference T17 T16 T2 T1 T3 T66
+T18	Location-Nominal 121 123	春城
+*	Coreference T18 T4
+T19	Person-Pronoun 128 130	我们
+T20	Time-Implicit 142 146	这个时候
+T21	Person-Pronoun 147 148	我
+T22	Location-Nominal 149 151	窗外
+T23	Thing-Nominal 158 160	春雨
+T24	Person-Pronoun 166 167	我
+T25	Thing-Nominal 168 174	春天的一滴雨
+T26	Thing-Nominal 179 181	春风
+T27	Person-Nominal 186 188	人们
+T28	Thing-Nominal 240 242	雨滴
+T29	Thing-Nominal 173 174	雨
+T30	Metric 171 173	一滴
+T31	Metric 237 240	千万滴
+T32	Person-Nominal 265 267	人们
+T33	Person-Pronoun 274 276	我们
+T34	Thing-Nominal 284 285	花
+T35	Thing-Nominal 286 287	锦
+T36	Person-Pronoun 290 292	我们
+T37	Person-Nominal 306 308	孩子
+T38	Thing-Nominal 309 311	笑脸
+R2	Part-Whole Arg1:T38 Arg2:T37	
+T39	Metric 333 335	一把
+T40	Thing-Nominal 335 340	肥沃的泥土
+T41	Person-Nominal 346 348	人们
+T42	Metric 354 356	一粒
+T43	Thing-Nominal 356 358	种子
+T44	Thing-Pronoun 366 367	它
+*	Coreference T44 T43
+T45	Thing-Nominal 373 376	橄榄枝
+T46	Person-Nominal 379 383	残暴的人
+T47	Thing-Nominal 388 390	屠刀
+T48	Thing-Nominal 385 386	手
+R3	Part-Whole Arg1:T48 Arg2:T46	
+R4	Located Arg1:T47 Arg2:T48	
+T49	Person-Nominal 393 395	人们
+T50	Thing-Nominal 395 396	眼
+R5	Part-Whole Arg1:T50 Arg2:T49	
+T51	Thing-Nominal 402 403	天
+T52	Thing-Nominal 406 407	地
+T53	Person-Pronoun 410 412	我们
+T54	Person-Nominal 423 427	中华儿女
+T55	Location-Nominal 416 421	同一片蓝天
+T56	Person-Pronoun 432 434	我们
+T57	Person-Nominal 446 449	亲人们
+T58	Person-Nominal 457 459	亲人
+T59	Person-Nominal 485 487	人们
+T60	Thing-Nominal 491 493	江河
+T61	Thing-Nominal 495 497	海洋
+T62	Person-Nominal 521 523	人们
+T63	Person-Pronoun 517 518	我
+T64	Thing-Nominal 523 524	眼
+R6	Part-Whole Arg1:T64 Arg2:T62	
+T65	Thing-Nominal 530 531	泪
+R7	Located Arg1:T65 Arg2:T64	
+T66	Time-Explicit 536 539	这一天

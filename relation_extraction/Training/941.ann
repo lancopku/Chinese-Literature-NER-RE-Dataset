@@ -1,0 +1,127 @@
+T1	Organization-Name 0 9	第三十届伦敦奥运会
+T2	Person-Nominal 14 16	人们
+T3	Person-Pronoun 29 30	我
+T4	Time-Explicit 36 45	八月十四日清晨四时
+T5	Thing-Nominal 46 48	手机
+T6	Person-Nominal 68 71	播音员
+T7	Organization-Name 117 121	北京奥运
+T8	Time-Explicit 143 145	至今
+T9	Organization-Name 155 157	中国
+T10	Location-Name 178 180	鸟巢
+T11	Location-Name 186 190	伦敦碗中
+T12	Person-Pronoun 201 202	我
+T13	Metric 203 206	九万名
+T14	Person-Nominal 206 210	现场观众
+T15	Location-Name 213 215	伦敦
+T16	Location-Nominal 220 228	那巨大的舞台中心
+T17	Location-Name 229 231	伦敦
+T18	Thing-Name 241 243	塔桥
+T19	Thing-Name 246 251	圣保罗教堂
+T20	Thing-Name 252 255	大本钟
+T21	Thing-Name 256 259	伦敦眼
+T22	Thing-Nominal 272 277	银色的外衣
+T23	Thing-Nominal 261 270	一个个地标性的建筑
+R1	Located Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 284 286	报纸
+T25	Location-Nominal 284 293	报纸拼接成的地面上
+R2	Located Arg1:T23 Arg2:T25	
+T26	Abstract 301 306;307 309	《读懂这一 切》
+T27	Metric 321 324	十六天
+T28	Time-Implicit 321 324	十六天
+T29	Thing-Nominal 351 357	这只欢乐的碗
+T30	Organization-Nominal 360 365	各个代表团
+T31	Metric 366 367;368 370	上 万名
+T32	Person-Nominal 366 367;368 373	上 万名运动员
+T33	Person-Nominal 374 377	获奖者
+T34	Location-Name 384 386	伦敦
+T35	Location-Nominal 387 394	三届奥运承办地
+*	Coreference T35 T34
+T36	Person-Pronoun 428 429	我
+T37	Location-Name 441 443	伦敦
+T38	Person-Nominal 459 461	世人
+T39	Person-Pronoun 500 502	我们
+T40	Person-Nominal 512 514	大家
+T41	Location-Nominal 548 550	天堂
+T42	Location-Nominal 524 528	这个世界
+T43	Person-Nominal 561 563	自己
+T44	Person-Pronoun 577 578	你
+T45	Person-Pronoun 601 603	我们
+T46	Person-Nominal 611 616	奖牌获得者
+T47	Location-Nominal 617 618	胸
+T48	Thing-Nominal 619 621	奖牌
+R3	Located Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 659 661	汗水
+T50	Thing-Nominal 664 666	泪水
+T51	Thing-Nominal 667 669	泪水
+T52	Person-Pronoun 692 694	我们
+T53	Person-Pronoun 703 704	我
+T54	Person-Nominal 728 730	妻子
+R4	Family Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 732 734	被子
+T56	Thing-Nominal 739 742	电风扇
+T57	Time-Implicit 755 757	这时
+T58	Location-Nominal 760 763	地板上
+T59	Person-Nominal 760 763;764 767	地板上 的儿子
+R5	Family Arg1:T54 Arg2:T59	
+T60	Thing-Nominal 770 774	惺忪的眼
+R6	Part-Whole Arg1:T60 Arg2:T59	
+T61	Person-Pronoun 803 804	我
+T62	Person-Nominal 811 813	儿子
+T63	Person-Pronoun 838 840	他们
+T64	Person-Nominal 894 895	人
+T65	Person-Pronoun 910 911	他
+T66	Time-Implicit 913 918	二十多分钟
+T67	Person-Pronoun 945 946;947 948	他 们
+T68	Person-Nominal 951 954	伦敦人
+T69	Person-Nominal 987 990	孩子们
+T70	Person-Pronoun 1013 1015	他们
+T71	Organization-Nominal 1040 1042	学校
+T72	Person-Nominal 1043 1045	老师
+T73	Person-Pronoun 1063 1064	我
+T74	Person-Nominal 1069 1071	古人
+T75	Organization-Nominal 1102 1107	伦敦的奥运
+T76	Location-Name 1102 1104	伦敦
+R7	Ownership Arg1:T75 Arg2:T76	
+T77	Person-Pronoun 1126 1127	我
+T78	Location-Nominal 1132 1134	学校
+T79	Organization-Nominal 1137 1143	一个伦敦奥运
+T80	Person-Nominal 1144 1147	老师们
+T81	Location-Nominal 1150 1158	创造快乐的课堂上
+T82	Person-Nominal 1168 1170	学生
+T83	Person-Pronoun 1257 1259	我们
+T84	Thing-Nominal 1269 1274	绚丽的火花
+T85	Person-Nominal 1277 1279	万人
+T86	Person-Name 1288 1293	“披头士”
+T87	Person-Name 1294 1300	“皇后乐队”
+T88	Person-Nominal 1306 1311	“辣妹”们
+T89	Person-Nominal 1316 1319	运动员
+T90	Location-Nominal 1323 1325	舞台
+T91	Thing-Nominal 1327 1331	奥运会旗
+T92	Location-Name 1347 1349	伦敦
+T93	Location-Name 1352 1354	巴西
+T94	Location-Name 1355 1357	里约
+T95	Time-Implicit 1357 1360	八分钟
+T96	Metric 1357 1360	八分钟
+T97	Organization-Nominal 1365 1367	奥运
+T98	Person-Nominal 1371 1374	一代人
+T99	Thing-Nominal 1375 1381	铜花瓣主火炬
+T100	Location-Nominal 1387 1389	碗内
+T101	Organization-Nominal 1424 1426	奥运
+T102	Organization-Nominal 1432 1441	一届非常精彩的奥运
+T103	Organization-Nominal 1444 1453	一届非议很多的奥运
+T104	Organization-Nominal 1454 1457	开幕式
+T105	Organization-Nominal 1458 1474	一部讲述英伦三岛历史文化的舞台剧
+T106	Organization-Nominal 1478 1481	闭幕式
+T107	Organization-Nominal 1483 1484;1485 1494	一 个万众狂欢的演唱会
+T108	Location-Nominal 1504 1508	传奇城市
+T109	Person-Pronoun 1561 1563	我们
+T110	Person-Nominal 1610 1612	自己
+T111	Organization-Nominal 1649 1652	闭幕式
+T112	Thing-Nominal 1659 1661	窗帘
+T113	Thing-Nominal 1662 1664	太阳
+T114	Location-Nominal 1666 1668	床边
+R8	Located Arg1:T113 Arg2:T114	
+T115	Thing-Nominal 1678 1681	伦敦碗
+T116	Thing-Nominal 1685 1690	上空的烟花
+T117	Location-Nominal 1685 1687	上空
+R9	Located Arg1:T116 Arg2:T117	

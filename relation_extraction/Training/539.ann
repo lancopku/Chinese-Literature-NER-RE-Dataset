@@ -1,0 +1,161 @@
+T1	Person-Pronoun 21 22	我
+T2	Metric 117 120	八百里
+T3	Location-Name 120 122	秦川
+T4	Location-Name 125 131	雄关临潼骊山
+T5	Location-Name 136 145	秦始皇兵马俑博物馆
+T6	Person-Nominal 155 159	中外游客
+T7	Location-Name 175 187	兵马俑一号坑大厅前的高台
+T8	Person-Pronoun 255 257	我们
+T9	Time-Explicit 294 300	春秋战国时期
+T10	Person-Pronoun 319 320	你
+T11	Person-Nominal 326 331	打头的将军
+T12	Person-Name 336 339	秦始皇
+T13	Person-Name 349 355	王翦王大将军
+T14	Location-Name 359 361	秦国
+T15	Person-Name 361 370	著名将领蒙恬蒙将军
+T16	Person-Pronoun 372 374	他们
+T17	Thing-Nominal 384 386	曷冠
+T18	Thing-Nominal 389 390	铠
+T19	Thing-Nominal 394 396	宝剑
+T20	Person-Pronoun 402 404	他们
+T21	Person-Nominal 434 436	大将
+T22	Person-Nominal 446 450	著名将领
+T23	Person-Nominal 459 462	武士们
+T24	Thing-Nominal 472 474	战袍
+T25	Thing-Nominal 477 479	铠甲
+T26	Thing-Nominal 482 484	战靴
+T27	Person-Pronoun 512 514	他们
+T28	Person-Pronoun 525 527	我们
+T29	Person-Pronoun 538 540	他们
+T30	Person-Nominal 558 560	骑兵
+T31	Thing-Nominal 561 563	战车
+T32	Person-Pronoun 569 571	他们
+*	Coreference T32 T30
+T33	Thing-Nominal 578 580	短甲
+T34	Thing-Nominal 584 587	紧口裤
+T35	Thing-Nominal 591 593	长靴
+T36	Thing-Nominal 597 599	缰绳
+T37	Thing-Nominal 603 605	弓箭
+R1	Use Arg1:T32 Arg2:T36	
+R2	Use Arg1:T32 Arg2:T37	
+T38	Time-Implicit 621 625	此时此刻
+T39	Person-Pronoun 626 627	我
+T40	Person-Nominal 628 634	我身边的游客
+T41	Person-Nominal 647 649	元首
+T42	Person-Nominal 650 652	将帅
+T43	Person-Pronoun 654 656	他们
+T44	Person-Pronoun 666 668	我们
+T45	Location-Nominal 674 678	一号俑坑
+T46	Person-Nominal 711 721	数千名手执兵器的武士
+T47	Thing-Nominal 728 730	战马
+T48	Thing-Nominal 761 762	甲
+T49	Thing-Nominal 763 764	锐
+T50	Person-Nominal 765 767	武士
+R3	Use Arg1:T50 Arg2:T49	
+R4	Use Arg1:T50 Arg2:T48	
+T51	Person-Pronoun 786 788	他们
+T52	Person-Nominal 812 815	御手俑
+T53	Thing-Nominal 810 811	车
+R5	Use Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 824 826	髻绳
+R6	Use Arg1:T52 Arg2:T54	
+T55	Person-Nominal 841 844	骑士俑
+T56	Thing-Nominal 848 849	马
+T57	Thing-Nominal 853 854	弓
+R7	Use Arg1:T55 Arg2:T56	
+R8	Use Arg1:T55 Arg2:T57	
+T58	Person-Nominal 883 885	陶马
+T59	Thing-Nominal 913 915	有的
+T60	Thing-Nominal 922 924	战袍
+T61	Thing-Nominal 927 929	短靴
+T62	Thing-Nominal 932 934	弓弩
+T63	Person-Nominal 942 944	锐士
+T64	Thing-Nominal 945 947	有的
+T65	Thing-Nominal 954 956	铠甲
+T66	Thing-Nominal 959 961	弓弩
+T67	Thing-Nominal 964 966	铜镞
+T68	Person-Nominal 975 978	弓箭手
+T69	Thing-Nominal 1737 1741	秦兵马俑
+T70	Person-Nominal 1743 1746	中国人
+T71	Metric 1761 1764	八百里
+T72	Location-Name 1764 1766	秦川
+T73	Time-Implicit 1776 1779	十三朝
+T74	Location-Name 1784 1788	古都西安
+T75	Person-Pronoun 1790 1792	我们
+T76	Person-Pronoun 1833 1834	我
+T77	Time-Implicit 1830 1832	此时
+T78	Person-Nominal 1865 1871	炎黄子孙后代
+*	Coreference T76 T78 T79
+T79	Person-Nominal 1880 1882	自己
+T80	Location-Name 1903 1908	八百里秦川
+T81	Time-Implicit 1923 1926	五千年
+T82	Location-Name 1575 1581	秦始皇兵马俑
+T83	Organization-Nominal 1583 1597	当今世界最大的地下军事博物馆
+*	Coreference T82 T83
+T84	Time-Explicit 1615 1620	1978年
+T85	Person-Name 1621 1629	法国前总理希拉克
+T86	Location-Name 1679 1681	中国
+T87	Time-Explicit 1683 1688	1987年
+T88	Location-Name 1689 1693	秦始皇陵
+T89	Location-Name 1694 1696;1697 1699	兵马 俑坑
+T90	Organization-Name 1700 1708	联合国教科文组织
+T91	Thing-Nominal 979 981	有的
+T92	Thing-Nominal 987 988	袍
+T93	Thing-Nominal 989 990	甲
+T94	Thing-Nominal 993 997	方口浅履
+T95	Thing-Nominal 1000 1002	长铍
+T96	Person-Nominal 1010 1012	甲士
+T97	Thing-Nominal 1017 1019	胡服
+T98	Thing-Nominal 1022 1024	铠甲
+T99	Thing-Nominal 1027 1029	软帽
+T100	Thing-Nominal 1036 1038	骑士
+T101	Thing-Nominal 1042 1044	长冠
+T102	Thing-Nominal 1053 1054	髻
+T103	Person-Nominal 1060 1062	御手
+T104	Thing-Nominal 1066 1068	长冠
+T105	Thing-Nominal 1070 1072	战袍
+T106	Thing-Nominal 1074 1076	长甲
+T107	Thing-Nominal 1079 1081	无钩
+T108	Person-Nominal 1082 1087	下级指挥官
+R9	Use Arg1:T108 Arg2:T107	
+R10	Use Arg1:T103 Arg2:T102	
+T109	Thing-Nominal 1092 1093	冠
+T110	Thing-Nominal 1096 1100	彩色鳞甲
+T111	Thing-Nominal 1104 1105	剑
+T112	Person-Nominal 1111 1113	将军
+R11	Use Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 1121 1124	兵马俑
+T114	Person-Nominal 1128 1130	武士
+T115	Person-Nominal 1133 1135	将军
+T116	Person-Nominal 1137 1140	弓箭手
+T117	Person-Nominal 1143 1145	骑兵
+T118	Location-Name 1156 1158	秦国
+T119	Thing-Nominal 1179 1181	陶马
+T120	Thing-Pronoun 1197 1199	他们
+T121	Person-Pronoun 1201 1202	你
+T122	Thing-Pronoun 1241 1243	他们
+T123	Person-Pronoun 1244 1245	你
+T124	Thing-Pronoun 1255 1257	他们
+T125	Thing-Pronoun 1260 1262	他们
+T126	Person-Pronoun 1263 1264	你
+T127	Thing-Pronoun 1292 1294	他们
+T128	Thing-Pronoun 1300 1302	他们
+T129	Thing-Pronoun 1310 1312	他们
+T130	Person-Pronoun 1319 1320	你
+T131	Thing-Pronoun 1323 1325	他们
+T132	Location-Nominal 1356 1358	俑坑
+T133	Thing-Nominal 1362 1364	秦俑
+T134	Time-Implicit 1383 1386	五千年
+T135	Thing-Nominal 1413 1416	兵马俑
+T136	Person-Pronoun 1437 1438	我
+T137	Person-Nominal 1444 1448	咱陕西人
+T138	Thing-Nominal 1486 1492	秦始皇兵马俑
+T139	Thing-Pronoun 1511 1512	它
+*	Coreference T139 T138
+T140	Thing-Nominal 1540 1542	战车
+*	Coreference T122 T113
+T141	Thing-Nominal 285 286	剑
+T142	Thing-Nominal 290 291	马
+T143	Thing-Nominal 221 223	战鼓
+T144	Thing-Nominal 216 218	战马
+T145	Organization-Nominal 695 698	指挥部

@@ -1,0 +1,386 @@
+T1	Thing-Nominal 0 2	渔舟
+T2	Location-Nominal 3 5	绿岛
+T3	Location-Nominal 6 8	沙滩
+T4	Thing-Nominal 9 11	海浪
+T5	Location-Nominal 18 20	浙江
+T6	Location-Nominal 18 24	浙江舟山群岛
+T7	Location-Nominal 25 28	岱山岛
+T8	Location-Pronoun 33 35	这里
+*	Coreference T8 T7
+T9	Location-Nominal 36 39	海涂中
+T10	Location-Nominal 40 43	海滩上
+T11	Thing-Nominal 44 46	螃蟹
+T12	Thing-Nominal 52 54	沙蟹
+R1	General-Special Arg1:T11 Arg2:T12	
+T13	Thing-Nominal 55 58	光溜蟹
+R2	General-Special Arg1:T11 Arg2:T13	
+T14	Thing-Nominal 59 60;61 63	拜 元蟹
+R3	General-Special Arg1:T11 Arg2:T14	
+T15	Thing-Nominal 64 67	花蛤蟹
+R4	General-Special Arg1:T11 Arg2:T15	
+T16	Thing-Nominal 79 81	太阳
+T17	Location-Nominal 84 86	地面
+T18	Thing-Pronoun 89 92	这些蟹
+*	Coreference T18 T11 T22
+T19	Location-Nominal 105 107	泥洞
+T20	Thing-Nominal 120 121;122 123	太 阳
+T21	Thing-Nominal 137 139	蟹嘴
+R5	Part-Whole Arg1:T21 Arg2:T18	
+T22	Thing-Pronoun 151 153	它们
+T23	Location-Nominal 189 191	洞口
+T24	Location-Nominal 170 172	泥洞
+R6	Near Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 194 195	风
+T26	Thing-Nominal 196 197	草
+T27	Location-Nominal 204 206	洞内
+R7	Part-Whole Arg1:T27 Arg2:T24	
+T28	Location-Nominal 208 210	海滩
+T29	Thing-Nominal 211 212	蟹
+T30	Person-Pronoun 249 250	我
+T31	Time-Implicit 253 255	儿时
+T32	Person-Nominal 258 260	学徒
+*	Coreference T32 T30
+T33	Location-Nominal 267 272	岱山岛南峰
+T34	Person-Name 273 275	老林
+T35	Person-Nominal 276 283	海岛捉螃蟹高手
+*	Coreference T35 T34 T36
+T36	Person-Nominal 287 289	蟹王
+T37	Time-Implicit 300 302	儿时
+T38	Person-Nominal 303 305	父亲
+T39	Person-Pronoun 307 308	我
+T40	Thing-Nominal 312 313	饭
+T41	Time-Implicit 308 310	日后
+T42	Person-Nominal 332 333	师
+T43	Person-Nominal 327 329	蟹王
+*	Coreference T42 T43
+T44	Person-Name 337 339	老林
+T45	Person-Nominal 340 342	父亲
+R8	Social Arg1:T45 Arg2:T44	
+T46	Person-Nominal 343 346	老朋友
+T47	Person-Pronoun 352 353	我
+T48	Metric 356 358	一双
+T49	Thing-Nominal 358 365	露趾的旧塑料鞋
+T50	Person-Nominal 367 369	父亲
+T51	Location-Nominal 371 373	堂屋
+T52	Metric 375 377	一幅
+T53	Thing-Nominal 384 386	标语
+T54	Person-Nominal 398 405	坐姿端正的师傅
+T55	Person-Name 407 409	老林
+*	Coreference T55 T54
+T56	Person-Name 414 416	老林
+T57	Person-Pronoun 418 419	我
+T58	Person-Nominal 427 429	父亲
+T59	Person-Pronoun 453 454	我
+T60	Person-Nominal 464 466	父亲
+T61	Thing-Nominal 468 478	写满沧桑的胡子拉碴脸
+R9	Part-Whole Arg1:T61 Arg2:T60	
+T62	Person-Nominal 484 486	父亲
+T63	Time-Implicit 510 512	那时
+T64	Thing-Nominal 523 524	粮
+T65	Person-Name 529 531	老林
+T66	Person-Pronoun 537 538	我
+T67	Person-Nominal 562 563	人
+T68	Person-Pronoun 568 569	我
+T69	Time-Implicit 602 605	头一天
+T70	Person-Pronoun 605 606	我
+T71	Thing-Nominal 615 616	笔
+T72	Thing-Nominal 617 619	本子
+T73	Thing-Nominal 631 632	蟹
+T74	Person-Name 648 650	老林
+T75	Thing-Nominal 658 660	铁锹
+T76	Thing-Nominal 663 666	小木桶
+T77	Metric 656 658	一把
+T78	Metric 661 663	一只
+T79	Location-Nominal 673 675	海滩
+T80	Thing-Nominal 680 683	海滩蟹
+T81	Thing-Nominal 676 677	蟹
+R10	General-Special Arg1:T81 Arg2:T80	
+T82	Metric 688 690	一碗
+T83	Location-Nominal 710 712	蟹洞
+T84	Person-Pronoun 717 718	我
+T85	Thing-Nominal 722 724	衣袖
+T86	Thing-Nominal 726 728	手脚
+R11	Part-Whole Arg1:T85 Arg2:T84	
+R12	Part-Whole Arg1:T86 Arg2:T84	
+T87	Location-Nominal 729 730	洞
+*	Coreference T87 T83
+T88	Thing-Nominal 739 741	沙泥
+T89	Thing-Nominal 768 771	推土机
+T90	Metric 787 789	三只
+T91	Thing-Nominal 792 793	汗
+T92	Person-Pronoun 761 762	我
+R13	Part-Whole Arg1:T91 Arg2:T92	
+T93	Time-Implicit 802 804	响午
+T94	Person-Name 805 807	老林
+T95	Person-Pronoun 812 813	我
+T96	Person-Pronoun 817 818	他
+*	Coreference T96 T94
+T97	Location-Nominal 835 837	海滩
+T98	Location-Nominal 839 841	蟹洞
+T99	Thing-Nominal 846 848	双手
+T100	Thing-Nominal 867 869	沙子
+T101	Location-Nominal 877 879	蟹洞
+T102	Thing-Nominal 905 908	干沙子
+*	Coreference T102 T100 T105
+T103	Thing-Nominal 914 918	潮湿泥沙
+T104	Person-Pronoun 926 927	你
+T105	Thing-Nominal 931 933	干沙
+T106	Location-Nominal 935 937	洞底
+T107	Thing-Nominal 939 947	惊惶失措的小家伙
+T108	Thing-Nominal 758 759	蟹
+*	Coreference T107 T108
+T109	Person-Name 963 965	老林
+T110	Time-Implicit 977 979	翌日
+T111	Thing-Nominal 983 984	蟹
+T112	Thing-Nominal 998 1002	捕蟹笼子
+T113	Location-Nominal 1003 1005	笼内
+T114	Thing-Nominal 1007 1009	死鱼
+T115	Thing-Nominal 1010 1012	烂虾
+T116	Thing-Nominal 1019 1021	潮水
+T117	Person-Pronoun 1026 1027	你
+T118	Thing-Nominal 1031 1033	蟹笼
+*	Coreference T118 T112 T121
+T119	Thing-Nominal 1036 1038	螃蟹
+*	Coreference T119 T111
+T120	Thing-Nominal 1038 1049	活动频繁的海岸边的海水
+T121	Thing-Nominal 1054 1055	笼
+T122	Time-Implicit 1070 1073	第三日
+T123	Thing-Nominal 1074 1075	雨
+T124	Thing-Nominal 1085 1087	大雨
+T125	Thing-Nominal 1099 1101	五指
+T126	Thing-Nominal 1096 1097	手
+R14	Part-Whole Arg1:T125 Arg2:T126	
+T128	Person-Pronoun 1149 1150	你
+T129	Thing-Nominal 1155 1158	手电筒
+T127	Thing-Nominal 1106 1110	集束灯光
+T130	Thing-Nominal 1161 1165	集束灯光
+T131	Thing-Nominal 1176 1177	蟹
+T132	Thing-Pronoun 1180 1182	瞎子
+*	Coreference T132 T131 T133
+T133	Thing-Pronoun 1189 1191	自己
+T134	Location-Nominal 1198 1200	洞穴
+T135	Time-Implicit 1206 1209	第四日
+T136	Thing-Nominal 1215 1223	又大又肥的黄蛤蟹
+T137	Thing-Nominal 1226 1228	青蟹
+T138	Time-Implicit 1229 1231	白天
+T139	Location-Nominal 1239 1241	泥洞
+T140	Time-Implicit 1246 1250	夜深人静
+T141	Thing-Nominal 1259 1260	食
+T142	Location-Nominal 1261 1263	沙滩
+T143	Location-Nominal 1264 1266	泥地
+T144	Thing-Pronoun 1272 1273	它
+*	Coreference T144 T136
+T145	Thing-Nominal 1281 1285	它的足迹
+T146	Location-Nominal 1292 1296	它的洞穴
+T147	Thing-Nominal 1301 1303	稻草
+T148	Thing-Nominal 1304 1307	塑料布
+T149	Thing-Nominal 1308 1310	泥土
+T150	Location-Nominal 1315 1317	蟹洞
+T151	Thing-Nominal 1315 1322	蟹洞的几个出口
+T152	Time-Implicit 1331 1333	翌晨
+T153	Person-Pronoun 1335 1336	你
+T154	Location-Nominal 1344 1346	现场
+T155	Thing-Nominal 1353 1355	草泥
+T156	Location-Nominal 1361 1363	洞口
+T157	Metric 1365 1367	一只
+T158	Thing-Nominal 1367 1378	被闷得不死不活的大螃蟹
+T159	Person-Nominal 1383 1384	人
+T160	Person-Pronoun 1348 1350	自己
+*	Coreference T160 T153
+T161	Location-Nominal 1351 1352	洞
+T162	Time-Implicit 1389 1392	第五日
+T163	Thing-Nominal 1396 1397	蟹
+T164	Location-Nominal 1401 1403	海涂
+T165	Thing-Nominal 1404 1409	雄性光溜蟹
+T166	Thing-Name 1413 1417	蟹是钳大
+*	Coreference T166 T165 T167
+T167	Thing-Pronoun 1419 1420	它
+T168	Thing-Nominal 1429 1433	红色大螯
+T169	Thing-Nominal 1424 1426	身子
+R15	Part-Whole Arg1:T169 Arg2:T167	
+T170	Metric 1428 1429	只
+T171	Metric 1457 1459	一条
+T172	Thing-Nominal 1448 1449	目
+T173	Thing-Nominal 1459 1468	长约10米的细绳子
+T174	Thing-Nominal 1470 1472	绳头
+T175	Thing-Nominal 1476 1478	环扣
+T176	Metric 1474 1476	一个
+T177	Location-Nominal 1485 1488	蟹洞口
+R16	Located Arg1:T165 Arg2:T164	
+T178	Location-Nominal 1515 1517	蟹洞
+T179	Person-Pronoun 1519 1520	您
+T180	Thing-Nominal 1520 1521	手
+R17	Part-Whole Arg1:T180 Arg2:T179	
+T181	Thing-Nominal 1527 1529	绳子
+T182	Metric 1523 1527	10余条
+T183	Thing-Nominal 1538 1549	在第一条绳子环扣处的蟹
+T184	Thing-Nominal 1542 1544	绳子
+T185	Location-Nominal 1542 1547	绳子环扣处
+T186	Thing-Nominal 1548 1549	蟹
+R18	Located Arg1:T186 Arg2:T185	
+T187	Location-Nominal 1556 1558	洞口
+T188	Person-Pronoun 1563 1564	你
+T189	Thing-Nominal 1569 1571	双眼
+T190	Thing-Nominal 1573 1574	蟹
+T191	Thing-Nominal 1585 1587	绳尾
+T192	Thing-Nominal 1604 1605	蟹
+T193	Thing-Nominal 1608 1610	环扣
+T194	Time-Implicit 1618 1620	这时
+T195	Person-Pronoun 1621 1622	你
+T196	Thing-Nominal 1630 1631	手
+T197	Thing-Nominal 1633 1634	眼
+T198	Thing-Nominal 1651 1653	绳子
+T199	Location-Nominal 1655 1657	它处
+T200	Time-Implicit 1641 1646	一次完成后
+T201	Thing-Nominal 1686 1687	蟹
+T202	Time-Implicit 1695 1698	第六日
+T203	Thing-Nominal 1702 1703	蟹
+T204	Thing-Nominal 1704 1706	螃蟹
+T205	Location-Nominal 1704 1713	螃蟹生存的地方环境
+T206	Thing-Nominal 1717 1718	蟹
+T207	Thing-Nominal 1740 1742	竹竿
+T208	Thing-Nominal 1745 1747	木棒
+T209	Metric 1738 1740	一根
+T210	Thing-Nominal 1752 1754	竿子
+T211	Thing-Nominal 1761 1762	线
+T212	Metric 1759 1761	一条
+T213	Thing-Nominal 1763 1764	线
+T214	Location-Nominal 1763 1767	线另一头
+T215	Thing-Nominal 1770 1773	菜籽油
+T216	Thing-Nominal 1776 1780	棉花小球
+T217	Thing-Nominal 1769 1780	用菜籽油浸过的棉花小球
+T218	Thing-Nominal 1782 1785	饵头儿
+*	Coreference T218 T217
+T219	Location-Nominal 1789 1795	岸边泥滩草丛
+T220	Thing-Nominal 1797 1798	线
+T221	Thing-Nominal 1807 1809	钓竿
+T222	Location-Nominal 1815 1816;1817 1820	岸 边杂草
+T223	Thing-Nominal 1818 1820	杂草
+T224	Thing-Nominal 1822 1828	敏捷的拜元蟹
+T225	Thing-Nominal 1842 1843	线
+T226	Metric 1840 1842	一条
+T227	Thing-Nominal 1851 1859	似干非干的臭小鱼
+T228	Thing-Nominal 1860 1862	饵头
+*	Coreference T228 T227
+T229	Thing-Nominal 1864 1866	饵头
+T230	Thing-Nominal 1864 1869	饵头这段线
+T231	Thing-Nominal 1871 1876	海边的潮水
+T232	Thing-Nominal 1879 1883	另一头线
+T233	Thing-Nominal 1887 1893	小竹(木)棒
+T234	Metric 1885 1887	一根
+T235	Location-Nominal 1899 1905	无水的沙滩地
+T236	Thing-Nominal 1912 1914	小棒
+T237	Thing-Nominal 1924 1925	蟹
+T238	Thing-Nominal 1931 1932	线
+T239	Metric 1936 1938	一只
+T240	Thing-Nominal 1939 1942	竹篮子
+T241	Thing-Nominal 1943 1944	蟹
+T242	Person-Pronoun 1947 1948	你
+T243	Thing-Nominal 1949 1955	嘴馋的花蛤蟹
+T244	Thing-Nominal 1955 1957	双鳌
+R19	Part-Whole Arg1:T244 Arg2:T243	
+T245	Thing-Nominal 1962 1965	臭鱼饵
+T246	Thing-Nominal 1978 1980	钓线
+T247	Time-Implicit 1991 1994	第七日
+T248	Thing-Nominal 1999 2000	蟹
+T249	Thing-Nominal 2006 2008	沙蟹
+T250	Thing-Nominal 2011 2013	沙蟹
+T251	Thing-Nominal 2014 2017	光溜蟹
+T252	Location-Nominal 2011 2023	沙蟹和光溜蟹成群出没区域
+T253	Metric 2025 2027	一顶
+T254	Thing-Nominal 2027 2036	网眼子大于蟹的渔网
+T255	Thing-Nominal 2032 2033	蟹
+T256	Thing-Nominal 2034 2036	渔网
+T257	Location-Nominal 2044 2046	泥地
+R20	Located Arg1:T254 Arg2:T257	
+T258	Metric 2050 2051;2052 2053	一 条
+T259	Thing-Nominal 2053 2061	长约30米的绳子
+T260	Thing-Nominal 2073 2076	牵网绳
+T261	Person-Pronoun 2083 2084	您
+T262	Thing-Nominal 2088 2089	网
+*	Coreference T262 T260
+T263	Location-Nominal 2091 2101	30米外的牵绳另一端
+T264	Thing-Nominal 2106 2107	兔
+T265	Thing-Nominal 2104 2105	株
+T266	Thing-Nominal 2120 2122	群蟹
+T267	Location-Nominal 2127 2129	洞口
+T268	Person-Pronoun 2132 2133	您
+T269	Thing-Nominal 2142 2144	牵绳
+T270	Thing-Nominal 2154 2156	全身
+T271	Thing-Nominal 2161 2163	渔网
+T272	Location-Nominal 2172 2173;2174 2175	原 地
+T273	Thing-Nominal 2176 2177	蟹
+T274	Thing-Nominal 2187 2188	网
+T275	Time-Implicit 2201 2203	这时
+T276	Person-Pronoun 2204 2205	您
+T277	Location-Nominal 2219 2221	网边
+T278	Thing-Nominal 2219 2220	网
+T279	Thing-Nominal 2225 2233	正在乱跑逃窜的蟹
+T280	Thing-Nominal 2240 2244	网中的蟹
+T281	Thing-Nominal 2247 2248	网
+T282	Metric 2255 2258	三四斤
+T283	Metric 2264 2267	十多斤
+T284	Time-Implicit 2278 2281	第八日
+T285	Thing-Nominal 2286 2287	蟹
+T286	Thing-Nominal 2289 2295	不少种类的蟹
+T287	Thing-Pronoun 2297 2299	自己
+*	Coreference T287 T286
+T288	Location-Nominal 2299 2304	藏身的洞穴
+R21	Located Arg1:T286 Arg2:T288	
+T289	Thing-Nominal 2306 2308	沙蟹
+T290	Location-Nominal 2306 2312	沙蟹的“家”
+T291	Location-Nominal 2320 2326	软绵绵的泥涂
+*	Coreference T291 T290
+T292	Person-Pronoun 2330 2331	您
+T293	Location-Nominal 2333 2335	蟹洞
+T294	Thing-Nominal 2340 2347	挽起袖子的臂手
+T295	Thing-Nominal 2342 2344	袖子
+T296	Location-Nominal 2350 2351	洞
+T297	Thing-Nominal 2352 2353	蟹
+T298	Thing-Nominal 2354 2363	躲在泥洞底下的沙蟹
+T299	Location-Nominal 2356 2358	泥洞
+T300	Thing-Nominal 2361 2363	沙蟹
+T301	Thing-Nominal 2371 2372	手
+T302	Thing-Nominal 2381 2383	海水
+T303	Thing-Nominal 2384 2386	烂泥
+T304	Location-Nominal 2389 2390	洞
+T305	Thing-Nominal 2380 2396	在海水和烂泥中没钻洞的“流浪蟹”
+T306	Thing-Pronoun 2405 2406	其
+*	Coreference T306 T305
+T307	Person-Name 2415 2417	老林
+T308	Thing-Nominal 2421 2422	蟹
+T309	Thing-Nominal 2424 2425	蟹
+T310	Thing-Nominal 2427 2428	蟹
+T311	Thing-Nominal 2430 2431	蟹
+T312	Thing-Nominal 2436 2437	马
+T313	Thing-Nominal 2438 2439	鞭
+T314	Person-Pronoun 2443 2444	我
+T315	Thing-Nominal 2444 2445	腰
+T316	Thing-Nominal 2446 2447	背
+T317	Person-Name 2459 2461	老林
+T318	Thing-Nominal 2465 2466	蟹
+T319	Person-Pronoun 2475 2476	我
+T320	Thing-Nominal 2488 2489	钱
+T321	Person-Pronoun 2496 2497	我
+T322	Person-Nominal 2509 2513	捉蟹师傅
+T323	Person-Name 2515 2517	老林
+*	Coreference T323 T322
+T324	Person-Nominal 2522 2524	父亲
+T325	Person-Pronoun 2528 2529	我
+R22	Family Arg1:T325 Arg2:T324	
+T326	Person-Name 2531 2533	老林
+T327	Person-Pronoun 2538 2539	咱
+R23	Part-Whole Arg1:T324 Arg2:T327	
+R24	Part-Whole Arg1:T325 Arg2:T327	
+T328	Thing-Nominal 2541 2542	钱
+T329	Metric 2539 2541	一分
+T330	Person-Pronoun 2552 2553	你
+*	Coreference T330 T325 T331
+T331	Person-Pronoun 2561 2562	我
+T332	Time-Implicit 2587 2591	打那以后
+T333	Person-Pronoun 2592 2593	我
+T334	Location-Nominal 2603 2605	泥涂
+T335	Location-Nominal 2606 2608	海滩
+T336	Location-Nominal 2600 2608	温润的泥涂、海滩
+T337	Thing-Nominal 2617 2619	螃蟹
+T338	Location-Nominal 2624 2626	北疆

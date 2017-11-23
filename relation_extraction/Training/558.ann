@@ -1,0 +1,440 @@
+T1	Time-Implicit 2 5	三伏天
+T2	Person-Nominal 6 8	父亲
+T3	Person-Pronoun 11 12	他
+*	Coreference T3 T2
+T4	Person-Nominal 11 16	他的朋友们
+R1	Social Arg1:T2 Arg2:T4	
+T5	Person-Pronoun 25 26	我
+T6	Time-Implicit 26 31	九岁的时候
+T7	Time-Implicit 34 38	吃晚饭时
+T8	Person-Nominal 39 41	父亲
+R2	Family Arg1:T5 Arg2:T8	
+T9	Person-Pronoun 46 47	我
+T10	Time-Explicit 50 52	今天
+T11	Person-Pronoun 52 53	我
+T12	Person-Pronoun 54 55	你
+*	Coreference T11 T8
+*	Coreference T12 T9
+T13	Person-Pronoun 62 63	我
+T14	Person-Nominal 74 77	男孩子
+T15	Time-Implicit 90 93	晚饭后
+T16	Person-Nominal 94 96	父亲
+T17	Thing-Nominal 98 100	铁桶
+T18	Thing-Nominal 101 103	鱼叉
+T19	Thing-Nominal 104 107	手电筒
+T20	Thing-Nominal 110 113	自行车
+T21	Person-Pronoun 115 116	我
+T22	Location-Nominal 117 120	西海滩
+R3	Use Arg1:T16 Arg2:T17	
+R4	Use Arg1:T16 Arg2:T18	
+R5	Use Arg1:T16 Arg2:T19	
+R6	Use Arg1:T16 Arg2:T20	
+T23	Person-Nominal 127 129	行人
+T24	Thing-Nominal 131 134	自行车
+T25	Person-Pronoun 144 146	我们
+T26	Location-Name 151 153	麦岛
+T27	Location-Nominal 156 158	海滩
+R7	Part-Whole Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 166 169	萤火虫
+T29	Location-Nominal 170 172	海滩
+R8	Near Arg1:T28 Arg2:T29	
+T30	Person-Nominal 193 195	父亲
+T31	Person-Pronoun 197 198	我
+T32	Person-Pronoun 202 204	我们
+T33	Person-Nominal 208 211	赶海人
+T34	Location-Nominal 223 225	海滩
+T35	Thing-Nominal 275 277	提灯
+T36	Thing-Nominal 278 281	手电筒
+T37	Thing-Nominal 285 288	旧轮胎
+T38	Thing-Nominal 299 302	手电筒
+T39	Thing-Pronoun 307 308	它
+*	Coreference T39 T38
+T40	Thing-Nominal 334 335	鱼
+T41	Thing-Nominal 336 338	蟹子
+T42	Thing-Nominal 350 352	提灯
+T43	Person-Nominal 370 372	父亲
+T44	Person-Nominal 373 378	他的朋友们
+R9	Social Arg1:T43 Arg2:T44	
+T45	Location-Nominal 387 389	海滩
+T46	Thing-Nominal 390 393	自行车
+R10	Located Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 399 401	鞋子
+T48	Person-Pronoun 417 418	我
+T49	Thing-Nominal 420 423	手电筒
+R11	Use Arg1:T48 Arg2:T49	
+T50	Location-Nominal 429 430;431 432	海 滩
+T51	Thing-Nominal 435 437	蟹子
+R12	Located Arg1:T51 Arg2:T50	
+T52	Thing-Name 439 442	赤夹红
+T53	Thing-Name 458 461	牛屎拍
+T54	Thing-Name 488 491	石楞子
+T55	Thing-Nominal 496 498	宝石
+T56	Thing-Nominal 500 502	蟹夹
+R13	Part-Whole Arg1:T56 Arg2:T54	
+T57	Thing-Nominal 448 450	大夹
+R14	Part-Whole Arg1:T57 Arg2:T52	
+T58	Thing-Nominal 468 471	灰色盖
+R15	Part-Whole Arg1:T58 Arg2:T53	
+T59	Thing-Name 510 513	沙沟溜
+T60	Thing-Nominal 531 533	蟹子
+T61	Location-Nominal 568 570	海滩
+T62	Thing-Nominal 572 574	蟹子
+T63	Location-Nominal 590 592	蟹窝
+T64	Thing-Nominal 603 605	蟹子
+R16	Located Arg1:T64 Arg2:T63	
+T65	Location-Nominal 614 616	蟹窝
+T66	Thing-Nominal 624 626	蟹窝
+T67	Location-Nominal 635 637	泥塔
+T68	Thing-Nominal 641 643	燕子
+T69	Location-Nominal 645 647	泥窝
+T70	Thing-Nominal 650 651	塔
+T71	Person-Nominal 661 664	建造者
+T72	Location-Nominal 671 674	小泥塔
+T73	Thing-Nominal 680 682	蟹子
+T74	Thing-Nominal 693 695	蟹窝
+T75	Person-Pronoun 702 703	我
+T76	Thing-Nominal 717 719	蟹子
+T77	Person-Pronoun 741 742	我
+T78	Location-Nominal 752 754	滩泥
+T79	Person-Nominal 765 767	父亲
+T80	Person-Pronoun 772 773	我
+R17	Family Arg1:T80 Arg2:T79	
+T81	Thing-Nominal 777 780	手电筒
+R18	Use Arg1:T79 Arg2:T81	
+T82	Person-Pronoun 784 785	我
+T83	Thing-Nominal 803 806	泥猴子
+T84	Person-Nominal 808 810	父亲
+T85	Thing-Nominal 812 815	手电筒
+T86	Thing-Nominal 817 819	滩泥
+R19	Located Arg1:T85 Arg2:T86	
+T87	Thing-Nominal 797 800	稀滩泥
+T88	Thing-Nominal 824 827	手电筒
+T89	Thing-Nominal 844 846	滩泥
+T90	Thing-Nominal 849 852	手电筒
+T91	Location-Nominal 863 865	海滩
+T92	Person-Nominal 874 876	父亲
+T93	Thing-Nominal 886 888	滩泥
+T94	Person-Pronoun 891 892	我
+T95	Person-Pronoun 896 897	我
+T96	Person-Nominal 900 902	父亲
+T97	Thing-Nominal 908 911	手电筒
+R20	Use Arg1:T95 Arg2:T97	
+T98	Person-Pronoun 915 916	我
+T99	Location-Nominal 920 921	滩
+*	Coreference T99 T91
+T100	Thing-Nominal 925 926	鞋
+T101	Thing-Nominal 932 934	滩泥
+T102	Thing-Nominal 937 938	鞋
+T103	Thing-Nominal 939 941	蟹子
+T104	Time-Implicit 941 943	晚上
+T105	Time-Implicit 948 950	白天
+T106	Thing-Nominal 978 980	自己
+*	Coreference T106 T103
+T107	Location-Nominal 981 982	窝
+R21	Located Arg1:T106 Arg2:T107	
+T108	Thing-Nominal 993 995	蟹子
+T109	Location-Nominal 998 999	窝
+T110	Time-Implicit 1002 1004	白天
+T111	Thing-Pronoun 1004 1006	它们
+*	Coreference T111 T108
+T112	Thing-Nominal 1018 1020	蟹子
+T113	Person-Nominal 1066 1068	父亲
+T114	Thing-Nominal 1072 1074	铁桶
+T115	Thing-Nominal 1077 1079	蟹子
+R22	Located Arg1:T114 Arg2:T115	
+R23	Use Arg1:T113 Arg2:T114	
+T116	Thing-Nominal 1080 1083	蟹子们
+T117	Thing-Nominal 1084 1086	铁桶
+R24	Located Arg1:T116 Arg2:T117	
+T118	Thing-Nominal 1118 1120	铁桶
+T119	Time-Implicit 1123 1128	一个多小时
+T120	Person-Nominal 1129 1131	父亲
+T121	Thing-Nominal 1137 1139	蟹子
+T122	Thing-Nominal 1145 1147	口袋
+T123	Person-Nominal 1148 1150	父亲
+T124	Thing-Nominal 1151 1153	口袋
+R25	Located Arg1:T121 Arg2:T122	
+R26	Use Arg1:T123 Arg2:T124	
+T125	Thing-Nominal 1157 1159	滩泥
+T126	Thing-Nominal 1161 1163	口袋
+R27	Located Arg1:T125 Arg2:T126	
+T127	Location-Nominal 1167 1169	海滩
+R28	Located Arg1:T126 Arg2:T127	
+R29	Use Arg1:T123 Arg2:T125	
+T128	Person-Pronoun 1171 1172	我
+T129	Person-Nominal 1177 1179	父亲
+T130	Person-Nominal 1180 1182	父亲
+T131	Person-Pronoun 1194 1196	我们
+T132	Thing-Nominal 1197 1198	鱼
+T133	Person-Nominal 1206 1208	父亲
+T134	Person-Pronoun 1210 1211	我
+T135	Location-Nominal 1212 1214	海边
+T136	Thing-Nominal 1216 1217	鱼
+T137	Time-Implicit 1223 1228	涨潮的时候
+T138	Person-Nominal 1229 1231	父亲
+T139	Thing-Nominal 1235 1236	鱼
+T140	Thing-Nominal 1251 1252	鱼
+T141	Location-Nominal 1259 1261	潮头
+T142	Location-Nominal 1241 1243	潮头
+T143	Person-Pronoun 1268 1270	我们
+T144	Thing-Nominal 1271 1272	鱼
+T145	Location-Nominal 1285 1287	潮头
+T146	Thing-Nominal 1288 1289	鱼
+R30	Located Arg1:T146 Arg2:T145	
+T147	Thing-Nominal 1314 1318	潮头之食
+T148	Person-Pronoun 1342 1344	我们
+T149	Thing-Nominal 1345 1346	鱼
+T150	Location-Nominal 1349 1351	泥滩
+T151	Thing-Nominal 1363 1365	滩泥
+R31	Located Arg1:T151 Arg2:T150	
+T152	Thing-Nominal 1377 1380	手电筒
+T153	Thing-Nominal 1391 1392	鱼
+T154	Location-Nominal 1388 1390	潮头
+T155	Location-Nominal 1401 1403	沙滩
+T156	Thing-Nominal 1408 1410	海砂
+T157	Location-Nominal 1419 1421	海岸
+T158	Location-Nominal 1422 1424	海边
+T159	Location-Nominal 1434 1436	沙滩
+R32	Near Arg1:T159 Arg2:T158	
+T160	Location-Pronoun 1437 1439	这里
+*	Coreference T160 T159
+T161	Thing-Nominal 1445 1446	鱼
+T162	Thing-Nominal 1453 1454	鱼
+T163	Thing-Nominal 1488 1490	海沙
+T164	Person-Pronoun 1492 1493	我
+T165	Location-Nominal 1496 1497	海
+T166	Thing-Nominal 1499 1502	手电筒
+T167	Metric 1512 1514	一尺
+T168	Thing-Nominal 1516 1518	梭鱼
+R33	Located Arg1:T168 Arg2:T165	
+T169	Thing-Pronoun 1521 1522	它
+*	Coreference T169 T168
+T170	Thing-Nominal 1538 1540	鱼鳞
+R34	Part-Whole Arg1:T170 Arg2:T169	
+T171	Person-Pronoun 1550 1551	我
+T172	Thing-Pronoun 1558 1559	它
+T173	Location-Nominal 1574 1576	深海
+T174	Person-Nominal 1587 1589	父亲
+T175	Thing-Nominal 1592 1593	鱼
+T176	Thing-Pronoun 1613 1614	它
+*	Coreference T176 T175
+T177	Person-Pronoun 1628 1630	父亲
+T178	Thing-Nominal 1631 1633	鱼叉
+R35	Use Arg1:T177 Arg2:T178	
+T179	Thing-Nominal 1639 1642	手电筒
+T180	Thing-Nominal 1649 1651	花鱼
+T181	Thing-Pronoun 1652 1653	它
+*	Coreference T180 T181
+T182	Thing-Nominal 1671 1672	鱼
+T183	Location-Nominal 1680 1684	鱼的头部
+T184	Thing-Nominal 1701 1703	鱼叉
+T185	Thing-Nominal 1709 1710	鱼
+T186	Location-Nominal 1715 1716	水
+T187	Thing-Nominal 1723 1724	叉
+T188	Thing-Nominal 1725 1726	鱼
+T189	Location-Nominal 1730 1732	水里
+R36	Located Arg1:T188 Arg2:T189	
+*	Coreference T187 T184
+T190	Person-Nominal 1742 1744	父亲
+T191	Thing-Nominal 1746 1748	鱼叉
+T192	Thing-Nominal 1750 1751	鱼
+R37	Located Arg1:T192 Arg2:T191	
+T193	Person-Pronoun 1754 1755	我
+T194	Thing-Nominal 1756 1757	鱼
+T195	Thing-Nominal 1765 1766	鱼
+T196	Person-Nominal 1773 1775	父亲
+T197	Person-Pronoun 1783 1784	他
+*	Coreference T197 T196 T200
+T198	Location-Nominal 1789 1793	海边渔村
+T199	Person-Nominal 1812 1814	儿子
+T200	Person-Pronoun 1816 1817	他
+T201	Person-Pronoun 1828 1829	他
+T202	Person-Pronoun 1865 1866	我
+*	Coreference T202 T199
+T203	Person-Nominal 1869 1871	父亲
+T204	Thing-Nominal 1880 1882	大鱼
+T205	Location-Nominal 1885 1887	水面
+T206	Thing-Nominal 1888 1889	鱼
+T207	Location-Nominal 1890 1892	叉头
+R38	Located Arg1:T206 Arg2:T207	
+T208	Person-Nominal 1927 1930	吃鱼者
+T209	Person-Nominal 1947 1953	赶过夜海的人
+T210	Thing-Nominal 1955 1956	鱼
+T211	Thing-Nominal 1963 1964	鱼
+T212	Person-Nominal 1969 1971	父亲
+T213	Person-Pronoun 1972 1973	我
+T214	Thing-Nominal 1975 1978	手电筒
+T215	Person-Pronoun 1988 1989	他
+*	Coreference T215 T212
+T216	Location-Nominal 1993 1995	潮头
+T217	Thing-Nominal 1996 1997	鱼
+T218	Location-Nominal 2001 2003	潮头
+T219	Thing-Nominal 2015 2016	鱼
+T220	Thing-Nominal 2025 2026	鱼
+T221	Thing-Nominal 2030 2031	鱼
+T222	Person-Pronoun 2053 2054	你
+T223	Location-Nominal 2062 2064	深海
+T224	Person-Nominal 2084 2086	父亲
+T225	Thing-Nominal 2090 2091	鱼
+T226	Thing-Nominal 2092 2094	网兜
+R39	Located Arg1:T225 Arg2:T226	
+R40	Use Arg1:T224 Arg2:T226	
+T227	Thing-Nominal 2097 2099	鱼叉
+T228	Location-Nominal 2101 2103	海里
+R41	Located Arg1:T227 Arg2:T228	
+T229	Thing-Nominal 2115 2117	梭鱼
+T230	Thing-Nominal 2125 2127	鱼叉
+T231	Thing-Nominal 2136 2138	鱼叉
+T232	Thing-Pronoun 2142 2144	它们
+*	Coreference T229 T232
+T233	Thing-Nominal 2149 2151	尾巴
+T234	Thing-Pronoun 2170 2172	它们
+T235	Thing-Nominal 2155 2156	头
+R42	Part-Whole Arg1:T235 Arg2:T234	
+R43	Part-Whole Arg1:T233 Arg2:T234	
+T236	Thing-Nominal 2176 2179	鱼叉，
+T237	Thing-Nominal 2183 2185	鱼叉
+T238	Person-Pronoun 2192 2193	我
+T239	Thing-Pronoun 2195 2197	它们
+T240	Thing-Nominal 2215 2218	手电筒
+T241	Thing-Nominal 2229 2232	两条鱼
+T242	Thing-Nominal 2234 2237	手电筒
+T243	Thing-Nominal 2243 2245	鱼叉
+T244	Thing-Pronoun 2253 2255	它们
+*	Coreference T244 T241
+T245	Person-Nominal 2268 2270	父亲
+T246	Thing-Pronoun 2276 2278	它们
+T247	Thing-Pronoun 2287 2289	它们
+T248	Thing-Pronoun 2291 2293	它们
+T249	Person-Nominal 2303 2305	父亲
+T250	Person-Pronoun 2327 2329	我们
+T251	Location-Nominal 2341 2343	海边
+T252	Thing-Nominal 2351 2354	北斗星
+T253	Time-Implicit 2379 2381	夜间
+T254	Location-Nominal 2385 2387	海滩
+T255	Thing-Nominal 2414 2416	蟹子
+R44	Located Arg1:T255 Arg2:T254	
+T256	Location-Nominal 2420 2421	滩
+T257	Location-Nominal 2422 2423	家
+T258	Person-Nominal 2435 2438	有的人
+T259	Location-Nominal 2445 2447	海滩
+T260	Time-Implicit 2451 2455	一个晚上
+T261	Location-Nominal 2461 2463	海滩
+T262	Person-Pronoun 2475 2476	他
+*	Coreference T262 T258
+T263	Location-Nominal 2498 2499	家
+T264	Person-Name 2501 2509	石业队队长杨元朗
+T265	Time-Implicit 2510 2512	夜间
+T266	Time-Implicit 2517 2519	白昼
+T267	Person-Nominal 2533 2535	大伙
+T268	Person-Pronoun 2538 2539	他
+*	Coreference T268 T264
+T269	Person-Pronoun 2546 2548	我们
+T270	Thing-Nominal 2556 2557	鱼
+T271	Thing-Nominal 2561 2563	网兜
+T272	Thing-Nominal 2564 2565	鱼
+T273	Thing-Nominal 2566 2568	网兜
+R45	Located Arg1:T272 Arg2:T273	
+T274	Thing-Nominal 2572 2574	网兜
+T275	Person-Pronoun 2579 2580	我
+T276	Person-Nominal 2584 2586	父亲
+T277	Person-Nominal 2588 2590	父亲
+T278	Person-Pronoun 2596 2597	你
+*	Coreference T278 T275
+T279	Person-Pronoun 2602 2603	我
+*	Coreference T279 T277
+T280	Person-Pronoun 2617 2619	我们
+T281	Time-Implicit 2619 2623	今天晚上
+T282	Metric 2627 2631	八九十里
+T283	Person-Pronoun 2639 2640	我
+T284	Thing-Nominal 2646 2647	蟹
+T285	Thing-Nominal 2649 2650	鱼
+T286	Thing-Nominal 2679 2682	铅坨子
+T287	Person-Nominal 2700 2702	父亲
+T288	Person-Pronoun 2712 2713	他
+*	Coreference T288 T287
+T289	Thing-Nominal 2726 2727	我
+T290	Thing-Nominal 2730 2733	手电筒
+T291	Person-Pronoun 2739 2740	我
+T292	Person-Nominal 2750 2752	父亲
+T293	Person-Nominal 2755 2757	父亲
+T294	Person-Pronoun 2759 2760	我
+T295	Location-Nominal 2771 2773	海滩
+T296	Thing-Nominal 2785 2787	蟹子
+T297	Thing-Nominal 2788 2790	口袋
+R46	Located Arg1:T296 Arg2:T297	
+T298	Person-Pronoun 2793 2794	我
+T299	Person-Nominal 2803 2805	父亲
+T300	Person-Nominal 2811 2813	父亲
+T301	Thing-Nominal 2824 2826	口袋
+T302	Thing-Nominal 2837 2839	网兜
+T303	Thing-Nominal 2821 2823	蟹子
+T304	Thing-Nominal 2835 2836	鱼
+R47	Located Arg1:T304 Arg2:T302	
+R48	Located Arg1:T303 Arg2:T301	
+T305	Person-Pronoun 2850 2851	我
+T306	Person-Pronoun 2853 2854	他
+*	Coreference T306 T300
+T307	Person-Pronoun 2856 2857	我
+T308	Person-Pronoun 2864 2865	我
+T309	Person-Pronoun 2869 2870	我
+T310	Person-Nominal 2876 2878	父亲
+T311	Person-Pronoun 2879 2880	他
+T312	Thing-Nominal 2890 2893	自行车
+T313	Person-Pronoun 2898 2900	我们
+T314	Thing-Nominal 2905 2908	自行车
+T315	Person-Nominal 2911 2921	和我们一起赶夜海的人
+R49	Social Arg1:T313 Arg2:T315	
+T316	Person-Pronoun 2928 2930	他们
+*	Coreference T316 T315 T322
+T317	Person-Pronoun 2931 2933	我们
+T318	Person-Name 2944 2946	老烈
+T319	Time-Explicit 2947 2951	今天晚上
+T320	Person-Name 2959 2961	老烈
+T321	Person-Name 2964 2966	老烈
+T322	Person-Pronoun 2967 2969	我们
+T323	Person-Nominal 2974 2977	我父亲
+T324	Person-Name 2978 2981	于洪烈
+*	Coreference T323 T324 T321 T326
+T325	Person-Nominal 2982 2984	大伙
+T326	Person-Pronoun 2989 2990	他
+T327	Person-Name 2991 2993	老烈
+T328	Person-Nominal 2995 3006	一个用轮胎条照蟹子的人
+T329	Thing-Nominal 2998 3001	轮胎条
+R50	Use Arg1:T328 Arg2:T329	
+T330	Thing-Nominal 3027 3030	自行车
+T331	Thing-Nominal 3033 3035	蟹子
+T332	Thing-Nominal 3036 3038	口袋
+T333	Thing-Nominal 3050 3052	蟹子
+T334	Thing-Nominal 3049 3050	碗
+R51	Located Arg1:T333 Arg2:T334	
+T335	Person-Nominal 3053 3055	父亲
+T336	Thing-Nominal 3057 3059	口袋
+T337	Person-Pronoun 3063 3064	他
+*	Coreference T337 T328
+T338	Person-Pronoun 3069 3070	他
+T339	Thing-Nominal 3066 3068	蟹子
+T340	Person-Nominal 3088 3090	父亲
+T341	Person-Nominal 3097 3100	家里人
+T342	Person-Pronoun 3104 3105	你
+T343	Person-Nominal 3114 3116	那人
+T344	Thing-Nominal 3108 3110	蟹子
+*	Coreference T342 T343
+R52	Family Arg1:T341 Arg2:T342	
+R53	Social Arg1:T335 Arg2:T338	
+T345	Person-Nominal 3135 3137	大家
+T346	Thing-Nominal 3153 3156	自行车
+R54	Use Arg1:T345 Arg2:T346	
+T347	Thing-Nominal 3161 3163	蟹子
+T348	Thing-Nominal 3165 3166	鱼
+T349	Person-Nominal 3170 3173	有的人
+T350	Location-Nominal 3180 3182	海滩
+T351	Person-Pronoun 3189 3190	我
+T352	Person-Nominal 3191 3193	父亲
+T353	Time-Explicit 3194 3199	“明天晚上
+T354	Person-Pronoun 3199 3201	我们
+T355	Person-Pronoun 3208 3209	你
+T356	Person-Pronoun 3214 3216	我们
+T357	Person-Nominal 3220 3222	父亲
+T358	Person-Nominal 3227 3229	大家
+*	Coreference T355 T351

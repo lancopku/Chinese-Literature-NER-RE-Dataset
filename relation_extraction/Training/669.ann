@@ -1,0 +1,371 @@
+T1	Thing-Nominal 0 3	自行车
+T2	Thing-Nominal 5 15	脚踏车、自由车、单车
+*	Coreference T2 T1
+T3	Thing-Nominal 17 34	人类发明的最成功的一种人力机械之一
+R1	General-Special Arg1:T3 Arg2:T1	
+T4	Thing-Nominal 35 43	《清朝野史大观》
+T5	Person-Name 47 50	黄履庄
+T6	Thing-Nominal 52 58	双轮小车一辆
+T7	Metric 56 58	一辆
+T8	Metric 61 64	三尺余
+T9	Person-Nominal 67 69	一人
+T10	Time-Implicit 79 81	行时
+T11	Thing-Nominal 83 84	手
+T12	Thing-Nominal 85 86	轴
+T13	Metric 103 106	八十里
+T14	Person-Pronoun 113 114	他
+*	Coreference T14 T5
+T15	Thing-Nominal 113 120	他制造的自行车
+*	Coreference T15 T6 T20 T19 T18
+R2	Create Arg1:T5 Arg2:T6	
+T16	Thing-Nominal 126 130	一个轮子
+R3	Part-Whole Arg1:T16 Arg2:T15	
+T17	Person-Nominal 131 134	骑车人
+T18	Thing-Nominal 149 160	史料记载的最早的自行车
+T19	Thing-Pronoun 147 148	这
+T20	Thing-Nominal 141 142	车
+T21	Thing-Nominal 136 137	轴
+R4	Part-Whole Arg1:T21 Arg2:T15	
+T22	Person-Name 162 165	黄履庄
+T23	Metric 169 173	100年
+T24	Time-Implicit 162 173	黄履庄以后大约100年
+T26	Thing-Nominal 184 189	木制自行车
+T25	Person-Name 174 181	法国人西夫拉克
+R5	Create Arg1:T25 Arg2:T26	
+T27	Thing-Pronoun 190 191	它
+*	Coreference T27 T26 T33
+T28	Thing-Nominal 202 206	驱动装置
+T29	Thing-Nominal 210 214	转向装置
+T30	Person-Nominal 215 218	骑车人
+T31	Thing-Nominal 219 221	双脚
+R6	Part-Whole Arg1:T31 Arg2:T30	
+T32	Time-Implicit 229 234	改变方向时
+T33	Thing-Nominal 241 243	车子
+T34	Time-Explicit 245 250	1886年
+T35	Person-Name 251 266	英国机械工程师约翰・K・斯塔利
+T36	Abstract 268 275	机械学、运动学
+T37	Thing-Nominal 282 289	新的自行车样式
+R7	Create Arg1:T35 Arg2:T37	
+T38	Thing-Nominal 291 294	自行车
+T39	Thing-Nominal 297 302	前叉和车闸
+R8	Part-Whole Arg1:T39 Arg2:T38	
+T40	Thing-Nominal 303 305;306 307	前后 轮
+R9	Part-Whole Arg1:T40 Arg2:T38	
+T41	Thing-Nominal 321 323	钢管
+T42	Thing-Nominal 326 330	菱形车架
+R10	Part-Whole Arg1:T38 Arg2:T42	
+R11	Use Arg1:T35 Arg2:T41	
+R12	Create Arg1:T35 Arg2:T42	
+T43	Thing-Nominal 337 342	橡胶的车轮
+R13	Part-Whole Arg1:T43 Arg2:T38	
+T44	Person-Name 343 346	斯塔利
+R14	Use Arg1:T44 Arg2:T43	
+*	Coreference T44 T35 T48 T49
+T45	Thing-Nominal 351 354	自行车
+T46	Thing-Nominal 362 366;367 376	许多生产 自行车部件用的机床
+T47	Thing-Nominal 378 381	自行车
+R15	Create Arg1:T44 Arg2:T46	
+T48	Person-Pronoun 402 403	他
+T49	Person-Nominal 409 414	自行车之父
+T50	Person-Nominal 404 406	后人
+T51	Location-Name 417 419	荷兰
+T52	Person-Nominal 419 427	1600多万人口
+T53	Thing-Nominal 428 433	全国自行车
+R16	Located Arg1:T53 Arg2:T51	
+T54	Metric 435 441	1700万辆
+T55	Thing-Nominal 443 454	单人车、双人车、全家车
+R17	General-Special Arg1:T53 Arg2:T55	
+T56	Location-Name 459 461	中国
+T57	Metric 462 465	10倍
+T58	Metric 468 471	20倍
+T59	Metric 472 474	两年
+T60	Person-Nominal 479 483	荷兰女王
+T61	Person-Nominal 489 492	中国人
+T62	Thing-Nominal 485 488	自行车
+R18	Use Arg1:T60 Arg2:T62	
+T63	Thing-Nominal 493 496	自行车
+R19	Use Arg1:T61 Arg2:T63	
+T64	Person-Nominal 500 502	洋人
+T65	Location-Nominal 503 505	租界
+T66	Thing-Nominal 507 510	自行车
+R20	Use Arg1:T64 Arg2:T66	
+T67	Thing-Nominal 519 522	自行车
+T68	Person-Nominal 524 526	国人
+*	Coreference T68 T61
+T69	Thing-Nominal 527 530	自行车
+R21	Use Arg1:T68 Arg2:T69	
+T70	Person-Nominal 536 538;539 546	中国 骑自行车第一人
+T71	Person-Name 547 558	天津海关高级雇员丁伯鲸
+T72	Location-Name 536 538	中国
+T73	Thing-Nominal 540 543	自行车
+T74	Location-Name 547 549	天津
+T75	Organization-Name 547 551	天津海关
+T76	Person-Nominal 547 555	天津海关高级雇员
+R22	General-Special Arg1:T76 Arg2:T71	
+*	Coreference T70 T71
+T77	Time-Explicit 562 567	1900年
+T78	Thing-Nominal 569 574	一辆自行车
+R23	Ownership Arg1:T71 Arg2:T78	
+T79	Thing-Nominal 580 582	轿子
+T80	Time-Implicit 583 585	每天
+T81	Thing-Nominal 586 589	自行车
+T82	Thing-Nominal 593 596	自行车
+T83	Person-Nominal 606 608	前人
+T84	Thing-Nominal 613 615	曲径
+T85	Thing-Nominal 617 618	路
+T86	Thing-Nominal 621 623	轮铁
+T87	Thing-Nominal 625 627	帽影
+T88	Location-Name 631 633	中华
+*	Coreference T88 T72
+T89	Thing-Nominal 641 644	自由车
+T90	Thing-Nominal 674 677	自行车
+T91	Thing-Nominal 646 647	臀
+T92	Thing-Nominal 650 651	目
+T93	Time-Explicit 679 686	上世纪三十年代
+T94	Person-Pronoun 687 688	我
+T95	Location-Name 689 693	佑东小学
+T96	Time-Implicit 687 699	我在佑东小学读书放学回时
+T97	Person-Nominal 702 705	一男士
+T98	Thing-Nominal 705 707	双手
+R24	Part-Whole Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 708 709	腰
+R25	Part-Whole Arg1:T99 Arg2:T97	
+T100	Thing-Nominal 710 712	两脚
+R26	Part-Whole Arg1:T100 Arg2:T97	
+T101	Thing-Nominal 713 714	车
+*	Coreference T101 T90
+R27	Use Arg1:T97 Arg2:T101	
+T102	Person-Pronoun 728 729	我
+T103	Time-Implicit 729 733	什么时候
+T104	Thing-Nominal 736 739	自行车
+T105	Time-Implicit 741 743	当时
+T106	Organization-Nominal 745 750	三庄百十户
+T107	Organization-Nominal 753 761	马港河西汪姓一家
+T108	Thing-Nominal 762 767	一辆自行车
+R28	Ownership Arg1:T107 Arg2:T108	
+T109	Thing-Nominal 768 771	自行车
+T110	Time-Implicit 773 776	解放后
+T111	Person-Pronoun 786 787	我
+T112	Time-Implicit 788 793	1964年
+T113	Location-Name 793 797	大丰草庙
+T114	Location-Nominal 807 809	棉区
+T115	Location-Pronoun 804 806	那里
+T116	Person-Nominal 810 812	人民
+T117	Thing-Nominal 814 817	自行车
+T118	Person-Pronoun 820 821	我
+T119	Thing-Nominal 822 826	一首歪诗
+R29	Create Arg1:T118 Arg2:T119	
+T120	Thing-Nominal 828 831	自行车
+T121	Thing-Nominal 836 838	闪光
+T122	Thing-Nominal 839 840	电
+T123	Thing-Nominal 842 843	风
+T124	Organization-Nominal 844 845	队
+T125	Organization-Nominal 848 850	家家
+T126	Person-Pronoun 852 854	谁人
+T127	Thing-Nominal 861 864	自行车
+T128	Person-Pronoun 867 869	人家
+T129	Person-Pronoun 873 875	自己
+T130	Thing-Nominal 880 882	公车
+T131	Thing-Nominal 885 888	人家车
+T132	Person-Pronoun 893 895	自己
+T133	Thing-Nominal 896 897	车
+T134	Thing-Nominal 900 901	车
+T135	Thing-Nominal 914 916	轮船
+T136	Location-Name 924 926	合德
+T137	Location-Name 931 933	盐城
+T138	Thing-Nominal 927 930	自行车
+T139	Time-Implicit 934 936	当晚
+T140	Thing-Nominal 936 937	腰
+T141	Thing-Nominal 938 939	背
+T142	Time-Implicit 953 956	返回时
+T143	Thing-Nominal 965 967	轮船
+T144	Person-Nominal 971 973	人们
+T145	Thing-Nominal 977 978	氧
+T146	Thing-Nominal 983 984	氧
+T147	Thing-Nominal 989 992	自行车
+T148	Abstract 993 997	有氧运动
+T149	Time-Implicit 998 1001	离休后
+T150	Person-Pronoun 1001 1002	我
+T151	Thing-Nominal 1004 1010	一辆旧自行车
+R30	Ownership Arg1:T150 Arg2:T151	
+T152	Metric 1022 1025	30年
+T153	Metric 1026 1029	30年
+T154	Person-Pronoun 1030 1031	我
+R31	Part-Whole Arg1:T141 Arg2:T150	
+R32	Part-Whole Arg1:T140 Arg2:T150	
+T155	Thing-Nominal 1033 1036	自行车
+T156	Thing-Nominal 1044 1046	脚底
+T157	Thing-Nominal 1047 1049	穴位
+R33	Part-Whole Arg1:T157 Arg2:T156	
+T158	Thing-Nominal 1051 1052	车
+T159	Thing-Nominal 1066 1070	腰部肌肉
+T160	Thing-Nominal 1073 1075	肌肉
+R34	General-Special Arg1:T160 Arg2:T159	
+T161	Thing-Nominal 1087 1089	心肺
+T162	Thing-Nominal 1092 1096	生命之泵
+*	Coreference T162 T161
+T163	Thing-Nominal 1104 1108	大腿骨骼
+T164	Thing-Nominal 1119 1121	血液
+T165	Thing-Nominal 1128 1131	心血管
+T166	Abstract 1136 1140	帕金森病
+T167	Abstract 1155 1159	老年痴呆
+T168	Person-Nominal 1176 1177	人
+T169	Thing-Nominal 1189 1192	自行车
+T170	Person-Pronoun 1198 1199	我
+T171	Metric 1203 1206	30年
+T172	Time-Implicit 1207 1213	在60多岁时
+T173	Metric 1208 1212	60多岁
+T174	Person-Pronoun 1214 1215	我
+T175	Time-Implicit 1215 1217	早上
+T176	Location-Name 1218 1220	响水
+T177	Location-Name 1222 1224	合德
+T178	Person-Nominal 1227 1233	招待所服务员
+T179	Person-Pronoun 1234 1235	我
+T180	Person-Pronoun 1238 1239	她
+*	Coreference T180 T178
+T181	Person-Pronoun 1247 1248	我
+T182	Thing-Nominal 1248 1253	一碗杂汇菜
+T183	Metric 1248 1250	一碗
+T184	Time-Implicit 1261 1278	前年一个云淡风轻、丽日高悬的日子里
+T185	Person-Pronoun 1279 1280	我
+T186	Thing-Nominal 1281 1282	车
+R35	Use Arg1:T185 Arg2:T186	
+T187	Location-Nominal 1283 1285	运河
+T188	Time-Implicit 1286 1293	途中正在高兴时
+T189	Person-Nominal 1301 1302	人
+T190	Person-Pronoun 1308 1309	我
+T191	Person-Nominal 1330 1336	穿花衣的女士
+T192	Location-Nominal 1337 1340	我后边
+T193	Person-Pronoun 1348 1349	我
+T194	Person-Nominal 1350 1355	堂堂男子汉
+R36	General-Special Arg1:T194 Arg2:T193	
+T195	Person-Nominal 1359 1361	女士
+R37	General-Special Arg1:T195 Arg2:T191	
+T196	Person-Pronoun 1367 1368;1369 1370	自 己
+*	Coreference T196 T190
+T197	Person-Nominal 1380 1382	女士
+T198	Person-Pronoun 1385 1386	她
+*	Coreference T197 T191 T198 T199
+T199	Person-Nominal 1391 1394	这女士
+T200	Location-Nominal 1399 1402	我前面
+T201	Person-Nominal 1409 1411	女士
+T202	Person-Pronoun 1418 1419	她
+T203	Location-Name 1433 1439	响水双园大桥
+T204	Location-Nominal 1440 1441	桥
+*	Coreference T204 T203
+T205	Location-Nominal 1458 1460	顶部
+R38	Part-Whole Arg1:T205 Arg2:T203	
+T206	Person-Pronoun 1414 1415	我
+T207	Thing-Nominal 1463 1464	腿
+R39	Part-Whole Arg1:T207 Arg2:T206	
+T208	Person-Pronoun 1482 1483	我
+T209	Location-Nominal 1485 1487	顶部
+T210	Thing-Nominal 1498 1501	自行车
+T211	Metric 1501 1504	30年
+T212	Thing-Nominal 1523 1524	车
+T213	Thing-Nominal 1526 1528	手套
+T214	Location-Nominal 1529 1535	八大家东桥头
+T215	Thing-Nominal 1535 1539	两自行车
+T216	Thing-Nominal 1544 1547	右手臂
+R40	Part-Whole Arg1:T216 Arg2:T208	
+T217	Location-Nominal 1556 1559	小巷头
+T218	Thing-Nominal 1560 1563	电瓶车
+T219	Thing-Nominal 1565 1567	前轮
+T220	Thing-Nominal 1571 1576	5元人民币
+T221	Person-Nominal 1579 1581	师傅
+T222	Person-Nominal 1584 1586	别人
+T223	Thing-Nominal 1588 1590	8元
+T224	Thing-Nominal 1601 1605	两只狼狗
+T225	Location-Nominal 1597 1600	大街心
+R41	Located Arg1:T224 Arg2:T225	
+T226	Metric 1601 1603	两只
+T227	Person-Pronoun 1609 1610	我
+T228	Thing-Nominal 1610 1612	人车
+T229	Location-Nominal 1618 1620	旁边
+T230	Person-Nominal 1621 1622	人
+T231	Person-Nominal 1627 1630	这老头
+*	Coreference T231 T227 T234
+T232	Person-Nominal 1638 1639	人
+T233	Thing-Nominal 1645 1647	晦气
+T234	Person-Pronoun 1652 1654	自己
+T235	Thing-Nominal 1659 1661	尘埃
+T236	Time-Implicit 1665 1671	大约十多年前
+T237	Location-Name 1672 1673;1674 1679	小 尖唐豫河桥
+T238	Time-Implicit 1671 1673;1674 1682	在小 尖唐豫河桥下坡时
+T239	Person-Nominal 1685 1687	无人
+T240	Person-Nominal 1690 1691	人
+T241	Thing-Nominal 1699 1701	龙头
+T242	Thing-Nominal 1706 1707	树
+T243	Thing-Nominal 1708 1710	腰部
+R42	Part-Whole Arg1:T243 Arg2:T234	
+T244	Location-Name 1721 1723	合德
+T245	Thing-Nominal 1725 1727	膏药
+R43	Use Arg1:T234 Arg2:T245	
+T246	Location-Nominal 1729 1731	患处
+R44	Located Arg1:T245 Arg2:T246	
+T247	Thing-Nominal 1736 1737	药
+R45	Use Arg1:T234 Arg2:T247	
+T248	Location-Nominal 1748 1750	下坡
+T249	Metric 1756 1759	30年
+T250	Person-Pronoun 1761 1762	我
+T251	Person-Pronoun 1765 1766	我
+T252	Thing-Nominal 1767 1768	车
+T253	Person-Pronoun 1768 1769	我
+T254	Person-Pronoun 1772 1773	我
+T255	Thing-Nominal 1774 1775	车
+T256	Person-Pronoun 1779 1780	我
+T257	Thing-Nominal 1781 1782	车
+T258	Person-Pronoun 1775 1776	我
+T259	Person-Pronoun 1786 1787	我
+T260	Thing-Nominal 1788 1789	车
+T261	Person-Nominal 1800 1803	好心人
+T262	Time-Implicit 1810 1814	什么时候
+T263	Thing-Nominal 1818 1819	车
+T264	Person-Nominal 1827 1828	人
+T265	Person-Pronoun 1830 1831	你
+T266	Thing-Nominal 1835 1838	小汽车
+T267	Thing-Nominal 1840 1843	电瓶车
+T268	Thing-Nominal 1845 1848	自行车
+T269	Person-Pronoun 1855 1856	我
+T270	Thing-Nominal 1867 1869	麻油
+T271	Thing-Nominal 1870 1872	咸菜
+T272	Person-Nominal 1873 1875	各人
+T273	Person-Name 1880 1884	唐朝韩愈
+T274	Person-Nominal 1887 1890	自知者
+T275	Person-Pronoun 1915 1916	我
+T276	Thing-Nominal 1957 1959	冻梨
+T277	Person-Nominal 1960 1963	同辈人
+T278	Person-Pronoun 1972 1974	自己
+T279	Person-Nominal 1978 1980	家人
+T280	Organization-Nominal 1984 1986	公家
+T281	Location-Nominal 2003 2005	我国
+T282	Location-Nominal 2006 2011	自行车王国
+T283	Metric 2014 2017	三亿辆
+*	Coreference T282 T281
+T284	Thing-Nominal 2023 2026	一辆车
+T285	Person-Nominal 2020 2023	每四人
+R46	Ownership Arg1:T285 Arg2:T284	
+T286	Person-Pronoun 2027 2028	我
+T287	Thing-Nominal 2030 2035	两辆自行车
+R47	Create Arg1:T286 Arg2:T287	
+T288	Thing-Nominal 2036 2040	一辆二六
+R48	Part-Whole Arg1:T288 Arg2:T287	
+T289	Thing-Nominal 2044 2048	一辆二八
+R49	Part-Whole Arg1:T289 Arg2:T287	
+T290	Time-Implicit 2068 2072	春夏秋冬
+T291	Thing-Nominal 2076 2080	新鲜空气
+T292	Thing-Nominal 2068 2074	春夏秋冬风景
+R50	Use Arg1:T286 Arg2:T292	
+R51	Use Arg1:T286 Arg2:T291	
+T293	Thing-Nominal 2082 2086	悦耳鸟语
+T294	Person-Nominal 2088 2092	农民兄弟
+T295	Thing-Nominal 2098 2100	汽车
+T296	Person-Pronoun 2108 2109	我
+T297	Person-Nominal 2115 2118	穷小子
+R52	General-Special Arg1:T297 Arg2:T296	
+T298	Organization-Nominal 2119 2122	旧社会
+T299	Organization-Name 2140 2142	中共
+T300	Organization-Name 2148 2150	中共
+T301	Organization-Name 2158 2161	共产党
+T302	Person-Pronoun 2154 2155	我
+*	Coreference T301 T300

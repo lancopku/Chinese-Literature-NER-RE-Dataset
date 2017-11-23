@@ -1,0 +1,184 @@
+T1	Time-Implicit 0 2	曾经
+T2	Location-Nominal 36 38	南方
+T3	Location-Nominal 39 41	北方
+T4	Thing-Nominal 46 48	白云
+T5	Thing-Nominal 52 54	小麦
+T6	Thing-Nominal 55 57	玉米
+R1	Located Arg1:T4 Arg2:T3	
+R2	Located Arg1:T5 Arg2:T3	
+R3	Located Arg1:T6 Arg2:T3	
+T7	Location-Nominal 71 73	北方
+T8	Location-Name 74 76	罗山
+R4	Located Arg1:T8 Arg2:T7	
+T9	Thing-Nominal 94 96	群山
+T10	Thing-Nominal 98 99	屏
+T11	Person-Pronoun 101 102	我
+T12	Location-Name 118 120	罗山
+T13	Time-Explicit 122 126	六亿年前
+T14	Location-Name 146 149	招远城
+T15	Location-Name 156 158	罗山
+T16	Person-Pronoun 202 203	我
+T17	Location-Name 209 211	罗山
+T18	Location-Nominal 213 221	我们所居住的城市
+R5	Near Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 237 238	我
+T20	Metric 241 244	数亿年
+T21	Location-Name 246 248	罗山
+T22	Thing-Nominal 252 254	大书
+T23	Thing-Name 255 258	半仙洞
+T24	Thing-Name 259 262	玫瑰山
+T25	Thing-Name 263 266	秋千柱
+T26	Thing-Name 267 270	莲花盆
+T27	Thing-Name 271 274	青龙峰
+T28	Thing-Name 275 278	白龙峰
+T29	Thing-Name 279 282	千年龟
+T30	Thing-Name 283 286	藏金洞
+T31	Thing-Nominal 287 290	大瀑布
+T32	Metric 305 306;307 309	几 十里
+T33	Location-Nominal 311 315	原始森林
+R6	Located Arg1:T31 Arg2:T21	
+R7	Located Arg1:T30 Arg2:T21	
+R8	Located Arg1:T29 Arg2:T21	
+R9	Located Arg1:T27 Arg2:T21	
+R10	Located Arg1:T26 Arg2:T21	
+R11	Located Arg1:T25 Arg2:T21	
+R12	Located Arg1:T24 Arg2:T21	
+R13	Located Arg1:T23 Arg2:T21	
+R14	Located Arg1:T28 Arg2:T21	
+T34	Person-Pronoun 316 317	我
+T35	Location-Name 325 328	地球上
+T36	Thing-Nominal 332 334	动物
+T37	Thing-Nominal 334 336	恐龙
+T38	Thing-Nominal 337 339	剑龙
+T39	Thing-Nominal 340 343	古骆驼
+T40	Thing-Nominal 344 347	始祖象
+T41	Thing-Nominal 348 350	古猿
+T42	Thing-Nominal 351 354	古玳瑁
+T43	Thing-Nominal 355 358	史前马
+R15	General-Special Arg1:T37 Arg2:T36	
+R16	General-Special Arg1:T38 Arg2:T36	
+R17	General-Special Arg1:T39 Arg2:T36	
+R18	General-Special Arg1:T40 Arg2:T36	
+R19	General-Special Arg1:T41 Arg2:T36	
+R20	General-Special Arg1:T42 Arg2:T36	
+R21	General-Special Arg1:T43 Arg2:T36	
+T44	Person-Nominal 371 373	如来
+T45	Person-Nominal 374 378	玉皇大帝
+T46	Person-Nominal 379 383	王母娘娘
+T47	Person-Nominal 384 388	观音菩萨
+T48	Person-Pronoun 393 394	我
+T49	Person-Pronoun 399 400	我
+T50	Thing-Nominal 405 407	石片
+T51	Thing-Nominal 411 417	地球早期生物
+T52	Thing-Nominal 417 420	三叶虫
+*	Coreference T52 T51
+T53	Location-Name 427 429	罗山
+T54	Location-Pronoun 430 431	你
+*	Coreference T54 T53
+T55	Person-Pronoun 436 437	我
+T56	Location-Name 444 450	罗山森林公园
+T57	Person-Pronoun 452 453	我
+T58	Time-Implicit 467 469	昨天
+T59	Thing-Nominal 479 481	画儿
+T60	Person-Pronoun 490 491	我
+T61	Thing-Name 497 500	莲花盆
+T62	Thing-Nominal 514 516	楼房
+T63	Thing-Nominal 521 523	巨石
+T64	Thing-Nominal 528 530	花瓣
+T65	Thing-Nominal 544 546	莲花
+R22	Part-Whole Arg1:T64 Arg2:T61	
+T66	Person-Pronoun 552 553	我
+T67	Thing-Nominal 559 564	观音的坐骑
+*	Coreference T61 T67
+T68	Location-Nominal 570 572	盆顶
+T69	Location-Nominal 575 577	盆底
+T70	Person-Nominal 580 582	女性
+T71	Thing-Nominal 588 589	腿
+T72	Thing-Nominal 590 591	臀
+R23	Part-Whole Arg1:T71 Arg2:T70	
+R24	Part-Whole Arg1:T72 Arg2:T70	
+T73	Thing-Nominal 592 594	压痕
+R25	Located Arg1:T73 Arg2:T69	
+T74	Person-Pronoun 596 597	人
+T75	Location-Nominal 602 604	盆中
+T76	Thing-Nominal 606 608	清水
+R26	Located Arg1:T76 Arg2:T75	
+T77	Location-Nominal 609 611	水中
+T78	Thing-Nominal 616 618	小鱼
+R27	Located Arg1:T78 Arg2:T77	
+T79	Location-Name 633 637	玫瑰山经
+T80	Thing-Nominal 641 643	玫瑰
+R28	Located Arg1:T80 Arg2:T79	
+T81	Person-Pronoun 646 647	我
+T82	Time-Implicit 654 658	亿万年前
+T83	Location-Pronoun 659 661	这儿
+*	Coreference T83 T79 T87
+T84	Thing-Nominal 668 669	山
+T85	Thing-Nominal 670 671	海
+T86	Thing-Nominal 682 684	红花
+*	Coreference T80 T86
+T87	Location-Nominal 680 681	山
+T88	Person-Pronoun 699 700	我
+T89	Location-Name 719 723	班仙古刹
+T90	Thing-Nominal 726 728	古木
+R29	Located Arg1:T90 Arg2:T89	
+T91	Thing-Nominal 731 733	怪石
+R30	Located Arg1:T91 Arg2:T89	
+T92	Time-Implicit 742 744	当年
+T93	Person-Nominal 744 748	那位大师
+T94	Location-Name 755 757	石门
+T95	Person-Nominal 758 760	有人
+T96	Thing-Nominal 767 768	书
+T97	Thing-Name 772 777	日觉观传奇
+*	Coreference T96 T97
+T98	Location-Name 783 785	古刹
+*	Coreference T98 T89
+T99	Location-Name 797 799	罗山
+T100	Thing-Nominal 803 806	大瀑布
+R31	Located Arg1:T100 Arg2:T99	
+T101	Location-Nominal 809 811	悬崖
+T102	Thing-Nominal 813 815	银河
+R32	Located Arg1:T100 Arg2:T101	
+T103	Thing-Nominal 819 820	珠
+T104	Thing-Nominal 821 822	玉
+T105	Thing-Nominal 830 834	七色彩虹
+T106	Location-Nominal 842 844	悬崖
+T107	Thing-Nominal 852 854	泉水
+R33	Near Arg1:T107 Arg2:T106	
+T108	Location-Nominal 855 857	岸边
+T109	Thing-Nominal 862 864	岩石
+R34	Located Arg1:T109 Arg2:T108	
+T110	Person-Pronoun 865 866	我
+T111	Person-Nominal 868 871	一丛人
+T113	Thing-Nominal 902 904	裙裾
+T112	Person-Nominal 893 895	道人
+T114	Thing-Nominal 895 897	上衣
+R35	Ownership Arg1:T112 Arg2:T114	
+T115	Thing-Nominal 912 913	石
+T116	Person-Pronoun 915 916	我
+T117	Thing-Nominal 946 948	夕阳
+T118	Location-Name 954 956	罗山
+T119	Thing-Nominal 965 967	袈裟
+T120	Thing-Nominal 971 975	黑色大蛇
+T121	Person-Pronoun 976 977	我
+T122	Location-Nominal 980 982	草丛
+R36	Located Arg1:T120 Arg2:T122	
+T123	Thing-Nominal 986 987	嘴
+R37	Part-Whole Arg1:T120 Arg2:T123	
+T124	Thing-Nominal 998 1000	野兔
+R38	Located Arg1:T124 Arg2:T123	
+T125	Person-Pronoun 1001 1002	我
+T126	Thing-Nominal 1008 1010	冷汗
+T127	Location-Nominal 1014 1017	森林里
+T128	Thing-Nominal 1018 1020	野狼
+T129	Thing-Nominal 1022 1024	狐狸
+R39	Located Arg1:T129 Arg2:T127	
+R40	Located Arg1:T128 Arg2:T127	
+T130	Thing-Nominal 1029 1030	天
+T131	Thing-Nominal 1038 1039	云
+T132	Location-Nominal 1046 1048	山野
+T133	Person-Pronoun 1054 1056	你们
+T134	Location-Name 1080 1082	罗山
+T135	Location-Name 1088 1090	罗山
+T136	Location-Name 1105 1107	罗山
+T137	Location-Name 1108 1110	罗山

@@ -1,0 +1,99 @@
+T1	Time-Implicit 0 4	三月伊始
+T2	Location-Name 5 7	阜阳
+T3	Time-Implicit 21 23	春天
+T4	Person-Pronoun 25 26	我
+T5	Time-Implicit 33 35	清晨
+T6	Thing-Nominal 38 40	窗帘
+T7	Thing-Nominal 61 63	小鸟
+T8	Thing-Nominal 84 86	小草
+T9	Thing-Nominal 95 97	柳枝
+T10	Thing-Nominal 100 102	春风
+T11	Thing-Nominal 107 109	嫩芽
+R1	Part-Whole Arg1:T11 Arg2:T9	
+T12	Thing-Nominal 116 118	花儿
+T13	Location-Nominal 127 129	路边
+T14	Thing-Nominal 130 132	梧桐
+R2	Located Arg1:T14 Arg2:T13	
+T15	Thing-Nominal 151 153	河流
+T16	Thing-Nominal 157 159	土地
+T17	Person-Nominal 177 180	大姑娘
+T18	Person-Nominal 181 182	她
+*	Coreference T18 T17
+T19	Thing-Nominal 189 191	长裙
+R3	Ownership Arg1:T18 Arg2:T19	
+T20	Thing-Nominal 202 204	裙摆
+T21	Thing-Nominal 207 209	大地
+T22	Thing-Nominal 213 215	花儿
+T23	Thing-Nominal 219 221	鸟儿
+T24	Person-Nominal 225 227	诗人
+T25	Person-Pronoun 228 229	她
+T26	Location-Nominal 248 250	郊外
+T27	Person-Pronoun 263 264	我
+T28	Thing-Nominal 268 269	麦
+T29	Person-Pronoun 272 273	我
+T30	Location-Nominal 288 290	地里
+T31	Thing-Nominal 291 293	麦子
+R4	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 310 312	绿水
+T33	Thing-Pronoun 320 322	自己
+*	Coreference T33 T31
+T34	Location-Nominal 349 351	地里
+T35	Thing-Nominal 352 355	油菜花
+T36	Thing-Nominal 370 372	花海
+T37	Thing-Nominal 380 382	春风
+T38	Location-Nominal 397 399	路边
+T39	Thing-Nominal 400 402	桃树
+R5	Located Arg1:T39 Arg2:T38	
+T40	Thing-Nominal 406 409	花骨朵
+R6	Part-Whole Arg1:T40 Arg2:T39	
+T41	Thing-Pronoun 421 423	她们
+*	Coreference T41 T40
+T42	Person-Nominal 449 451	新娘
+T43	Thing-Nominal 453 455	婚纱
+T44	Person-Pronoun 470 471	我
+T45	Thing-Nominal 474 476	桃花
+T46	Thing-Nominal 482 483	山
+T47	Thing-Nominal 489 490	水
+T48	Thing-Nominal 495 497	鸟儿
+T49	Location-Nominal 474 481	桃花盛开的地方
+R7	Located Arg1:T46 Arg2:T49	
+R8	Located Arg1:T47 Arg2:T49	
+R9	Located Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 501 503	翅膀
+R10	Part-Whole Arg1:T50 Arg2:T48	
+T51	Thing-Nominal 504 506	花儿
+R11	Located Arg1:T51 Arg2:T49	
+T52	Thing-Nominal 513 514	花
+T53	Thing-Nominal 511 512	风
+T54	Thing-Nominal 515 516	柳
+T55	Person-Pronoun 542 543	我
+T56	Person-Nominal 586 588	有人
+T57	Person-Pronoun 612 613	我
+T58	Thing-Nominal 624 626	绿叶
+T59	Thing-Nominal 627 629	红花
+T60	Thing-Nominal 636 637	花
+T61	Thing-Nominal 644 646	绿叶
+T62	Location-Nominal 665 668	田野里
+T63	Person-Pronoun 679 680	你
+T64	Person-Pronoun 693 695	我们
+T65	Person-Pronoun 706 708	我们
+T66	Person-Pronoun 726 728	我们
+T67	Person-Pronoun 755 756	你
+T68	Person-Pronoun 760 761	你
+T69	Person-Pronoun 765 766	你
+T70	Person-Pronoun 781 782	你
+T71	Person-Pronoun 793 794	你
+T72	Person-Pronoun 812 813	你
+T73	Thing-Nominal 837 839	寒风
+T74	Thing-Nominal 847 849	和风
+T75	Thing-Nominal 852 853	冰
+T76	Thing-Nominal 854 855	玉
+T77	Thing-Nominal 857 859	雪花
+T78	Thing-Nominal 867 869	细雨
+T79	Location-Nominal 877 879	荒野
+T80	Location-Nominal 888 890	绿野
+T81	Thing-Nominal 896 898	号角
+T82	Person-Pronoun 917 918	你
+T83	Person-Pronoun 949 950	你
+T84	Person-Pronoun 954 955	你
+T85	Person-Pronoun 959 960	你

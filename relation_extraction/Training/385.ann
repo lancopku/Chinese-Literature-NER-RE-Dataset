@@ -1,0 +1,221 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 0 13	我从小到现在最爱唱的两首歌
+T3	Thing-Nominal 15 38	《没有共产党就没有新中国》、《唱支山歌给党听》
+*	Coreference T2 T3 T4
+T4	Thing-Nominal 39 43	这两首歌
+T5	Person-Pronoun 47 48	我
+T6	Person-Pronoun 55 56	我
+T7	Organization-Name 57 60;61 63	中国共 产党
+T8	Person-Pronoun 76 77	我
+T9	Time-Implicit 98 106	1937年8月底
+T10	Location-Name 111 116	苏北泗阳县
+T11	Person-Pronoun 107 108	我
+T12	Person-Nominal 119 123	日本鬼子
+T13	Location-Name 127 129	南京
+T14	Time-Implicit 117 119	那时
+*	Coreference T14 T9
+T15	Organization-Nominal 132 134	我家
+T16	Thing-Nominal 136 146	崔家庄院的两间小平房
+R1	Use Arg1:T15 Arg2:T16	
+T17	Location-Nominal 148 150	大院
+T18	Location-Nominal 132 147	我家租住崔家庄院的两间小平房里
+*	Coreference T17 T18
+T19	Person-Nominal 153 156	日本兵
+R2	General-Special Arg1:T12 Arg2:T19	
+T20	Person-Nominal 159 161	母亲
+T21	Person-Pronoun 163 170	刚生下五天的我
+R3	Family Arg1:T20 Arg2:T11	
+*	Coreference T21 T11
+T22	Location-Nominal 173 178	南庄的库房
+T23	Location-Pronoun 182 184	那里
+*	Coreference T23 T22
+T24	Thing-Nominal 193 198	一张老羊皮
+T25	Thing-Nominal 199 203	一堆干草
+T26	Metric 193 195	一张
+T27	Metric 199 201	一堆
+T28	Person-Nominal 204 208	我们娘俩
+T29	Thing-Nominal 204 211	我们娘俩的被褥
+R4	Part-Whole Arg1:T21 Arg2:T28	
+R5	Part-Whole Arg1:T20 Arg2:T28	
+T30	Person-Nominal 212 214	母亲
+T31	Person-Pronoun 215 216	我
+T32	Thing-Nominal 226 230	手或羊皮
+R6	Use Arg1:T30 Arg2:T32	
+T33	Thing-Nominal 232 235	我的嘴
+R7	Part-Whole Arg1:T33 Arg2:T31	
+T34	Thing-Nominal 236 247	一碗糠糊糊，一个菜窝窝
+T35	Thing-Nominal 250 257	我们娘俩的美餐
+*	Coreference T34 T35
+T36	Thing-Nominal 193 203	一张老羊皮，一堆干草
+*	Coreference T36 T29
+T37	Metric 236 238	一碗
+T38	Metric 242 244	一个
+T39	Time-Implicit 259 264	我四岁那年
+T40	Person-Pronoun 284 285	我
+T41	Person-Nominal 290 292	母亲
+T42	Thing-Nominal 293 299	正下蛋的母亲
+T43	Thing-Nominal 301 305	两付汤药
+T44	Person-Pronoun 306 307	我
+R8	Use Arg1:T44 Arg2:T43	
+T45	Time-Implicit 310 316	该上学的时候
+T46	Person-Nominal 317 319	父母
+R9	Family Arg1:T46 Arg2:T44	
+T47	Person-Pronoun 322 323	我
+T48	Thing-Nominal 329 333	家里口粮
+T49	Metric 335 337	二斗
+T50	Organization-Nominal 342 345	二姨家
+T51	Person-Pronoun 349 350	我
+T52	Location-Nominal 355 359	学校大门
+T53	Time-Implicit 360 363	上学时
+T54	Thing-Nominal 368 369	鱼
+T55	Metric 365 367	三天
+T56	Metric 371 373	两天
+T57	Thing-Nominal 374 375	网
+T58	Time-Implicit 379 383	每天下午
+T59	Thing-Nominal 388 389	柴
+T60	Thing-Nominal 391 393	野菜
+T61	Time-Implicit 396 401	我十岁那年
+T62	Location-Nominal 401 403	家里
+T63	Thing-Nominal 407 408	锅
+T64	Person-Nominal 410 417	最疼爱我的母亲
+*	Coreference T64 T41
+T65	Person-Pronoun 418 419	我
+T66	Time-Implicit 423 425	天天
+T67	Thing-Nominal 421 422	饭
+R10	Use Arg1:T65 Arg2:T67	
+T68	Location-Name 426 429	洪泽湖
+T69	Location-Nominal 426 430	洪泽湖底
+R11	Part-Whole Arg1:T69 Arg2:T68	
+T70	Thing-Nominal 432 438	莲藕、摘凌角
+R12	Located Arg1:T70 Arg2:T69	
+T71	Thing-Nominal 451 452	水
+T72	Time-Explicit 469 479	1948年12月5日
+T73	Thing-Nominal 456 458	雄鸡
+T74	Organization-Name 485 488	解放军
+T75	Thing-Nominal 490 494	大皮帽子
+R13	Use Arg1:T74 Arg2:T75	
+T76	Person-Nominal 502 512	大娘、小兄弟、小妹妹
+T77	Person-Nominal 514 516	母亲
+T78	Organization-Name 530 533	解放军
+T79	Location-Nominal 534 540	我们的大院里
+T80	Person-Nominal 541 547	我和小伙伴们
+T81	Thing-Nominal 554 556	花生
+T82	Thing-Nominal 557 560	干粮袋
+T83	Person-Pronoun 561 562	我
+T84	Thing-Nominal 568 577;578 586	《没有共产党，就没 有新中国》这首歌
+T85	Organization-Name 588 591	共产党
+*	Coreference T85 T7 T95
+T86	Person-Pronoun 594 596	我们
+T87	Time-Explicit 600 607	1949年正月
+T88	Person-Nominal 608 610	老师
+T89	Person-Pronoun 614 616	我们
+T90	Thing-Nominal 627 630	助学金
+T91	Time-Implicit 631 635	每天中午
+T92	Location-Nominal 636 638	学校
+T93	Thing-Nominal 641 648	小米饭和窝窝头
+T94	Person-Pronoun 650 651	我
+T95	Organization-Nominal 652 653	党
+T96	Thing-Nominal 654 656	阳光
+T97	Time-Explicit 665 672	1949年6月
+T98	Location-Nominal 673 676	学校里
+*	Coreference T98 T92
+T99	Thing-Nominal 682 685	红领巾
+R14	Use Arg1:T94 Arg2:T99	
+T100	Organization-Name 692 697	共青团组织
+T101	Organization-Nominal 703 707	师范学校
+T102	Metric 686 689	15岁
+T103	Organization-Nominal 710 711	党
+T104	Person-Pronoun 716 717	我
+T105	Thing-Nominal 732 746	《没有共产党，就没有新中国》
+*	Coreference T105 T84
+T106	Organization-Name 749 752	共产党
+T107	Person-Nominal 756 760	中国人民
+T108	Time-Explicit 771 778	1955年6月
+T109	Organization-Name 784 789	人民解放军
+*	Coreference T109 T78
+T110	Person-Pronoun 778 779	我
+T111	Time-Implicit 791 797	参军的第一天
+T112	Person-Pronoun 798 799	我
+T113	Organization-Nominal 819 820	党
+T114	Person-Pronoun 831 832	我
+T115	Person-Nominal 874 881	一专多能的能手
+T116	Person-Nominal 885 889	教练组长
+R15	General-Special Arg1:T115 Arg2:T114	
+*	Coreference T116 T114
+T117	Organization-Nominal 901 902	党
+T118	Person-Pronoun 908 909	我
+T119	Person-Pronoun 912 913	我
+T120	Person-Pronoun 915 916	我
+T121	Person-Nominal 917 923	一个普通士兵
+R16	General-Special Arg1:T121 Arg2:T120	
+T122	Person-Pronoun 927 928	我
+T123	Location-Nominal 929 931	军校
+T124	Metric 933 935	四年
+T125	Metric 936 938	四年
+T126	Person-Nominal 945 949	侦察班长
+T127	Person-Nominal 954 958	中尉连长
+T128	Person-Nominal 960 965	教导队队长
+R17	General-Special Arg1:T126 Arg2:T122	
+R18	General-Special Arg1:T127 Arg2:T122	
+R19	General-Special Arg1:T128 Arg2:T122	
+T129	Person-Nominal 973 979	优秀共产党员
+R20	General-Special Arg1:T129 Arg2:T120	
+T130	Time-Explicit 981 988	1960年3月
+T131	Person-Pronoun 989 990	我
+T132	Location-Name 991 995	南京军区
+T133	Location-Nominal 1000 1006	新疆石油战线
+T134	Person-Nominal 1009 1016	一名教育工作者
+R21	General-Special Arg1:T134 Arg2:T131	
+T135	Location-Name 1020 1033	石油局教育处乌市明园办公室
+T136	Person-Pronoun 1052 1053	我
+T137	Organization-Nominal 1057 1058	党
+T138	Person-Nominal 1059 1061	人民
+T139	Thing-Nominal 1092 1102;1103 1115	论文，调查报告，改革 方案，讲座广播稿件百多篇
+R22	Create Arg1:T136 Arg2:T139	
+T140	Metric 1112 1116	百多篇;
+T141	Thing-Nominal 1147 1151	稿百余篇
+R23	Create Arg1:T136 Arg2:T141	
+T142	Time-Explicit 1165 1173	1992年10月
+T143	Location-Name 1175 1182	北京人民大会堂
+T144	Person-Nominal 1220 1224;1225 1243	工中、教 师中、群众中的好党员、好干部、好老师
+T145	Time-Implicit 1246 1250	几十年来
+T146	Metric 1246 1249	几十年
+T147	Thing-Nominal 1253 1274	各类稿件1000多篇(首)，约600多万字
+R24	Create Arg1:T136 Arg2:T147	
+T148	Thing-Nominal 1283 1285;1286 1304	金牌 奖16枚，银牌奖20枚，铜牌奖30枚
+T149	Time-Implicit 1325 1328	退休后
+T150	Organization-Nominal 1331 1335	各类报刊
+T151	Thing-Nominal 1337 1353	文章150多篇，诗词1000余首
+R25	Create Arg1:T136 Arg2:T151	
+T152	Time-Explicit 1374 1377	92年
+T153	Time-Implicit 1386 1388	每年
+T154	Person-Nominal 1392 1406	先进工作者和老有年为的带头人
+R26	General-Special Arg1:T154 Arg2:T131	
+T155	Time-Implicit 1408 1418	党的十八届三中全会后
+T156	Person-Pronoun 1419 1420	我
+T157	Person-Name 1423 1426	习主席
+T158	Person-Pronoun 1432 1434	自己
+*	Coreference T158 T156
+T159	Metric 1436 1440	七十多岁
+T160	Person-Nominal 1443 1458	社会主义现代化建设队伍中的一员
+R27	General-Special Arg1:T160 Arg2:T156	
+T161	Organization-Nominal 1460 1461	党
+T162	Organization-Nominal 1463 1468;1469 1470	社会主义祖 国
+T163	Person-Pronoun 1485 1487	自己
+T164	Person-Pronoun 1490 1492	自己
+T165	Person-Pronoun 1495 1497	自己
+T166	Person-Pronoun 1499 1501	自己
+T167	Organization-Name 1505 1508	党中央
+T168	Thing-Nominal 1521 1524	老黄牛
+T169	Person-Nominal 1534 1536	党员
+T170	Abstract 1542 1546	三个代表
+T171	Thing-Nominal 1580 1583	一分光
+T172	Thing-Nominal 1575 1578	一分热
+T173	Abstract 1557 1561	小康社会
+T174	Abstract 1565 1573	社会主义精神文明
+T175	Person-Pronoun 1587 1588	我
+T176	Organization-Nominal 1596 1597	党
+T177	Person-Pronoun 1601 1602	我
+T178	Person-Pronoun 1607 1608	我
+T179	Person-Nominal 1616 1620	子孙万代
+T180	Thing-Nominal 1610 1614	这两首歌

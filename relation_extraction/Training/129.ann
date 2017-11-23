@@ -1,0 +1,337 @@
+T1	Thing-Nominal 3 5	葫芦
+T2	Thing-Nominal 8 9	花
+T3	Person-Nominal 11 13	母亲
+T4	Location-Nominal 14 17	门口两
+T5	Thing-Nominal 20 23	葫芦籽
+R1	Located Arg1:T5 Arg2:T4	
+T6	Time-Implicit 11 27	母亲在门口两侧种下葫芦籽的那一天
+T7	Thing-Nominal 35 37	葫芦
+T8	Thing-Nominal 41 42	芽
+T9	Thing-Nominal 45 46	花
+T10	Thing-Nominal 48 53	暖暖的阳光
+T11	Thing-Nominal 57 59	葫芦
+T12	Thing-Nominal 67 71	每一阵风
+T13	Thing-Nominal 79 81	葫芦
+T14	Thing-Nominal 84 86	芽头
+R2	Part-Whole Arg1:T14 Arg2:T13	
+T15	Thing-Pronoun 88 89	它
+*	Coreference T15 T13
+T16	Thing-Nominal 95 102	细细碎碎的叶子
+R3	Part-Whole Arg1:T16 Arg2:T13	
+T17	Person-Nominal 104 106	父亲
+T18	Location-Nominal 107 114	屋后的杨树园里
+T19	Thing-Nominal 116 123	几棵枯死的杨树
+R4	Located Arg1:T19 Arg2:T18	
+T20	Location-Nominal 125 127	门口
+T21	Thing-Nominal 131 132	架
+T22	Thing-Nominal 134 135	绳
+T23	Thing-Nominal 136 142	一张粗糙的网
+T24	Thing-Nominal 152 155	葫芦苗
+T25	Thing-Pronoun 169 171	它们
+*	Coreference T25 T24
+T26	Thing-Nominal 177 185	一个个纤细的手指
+R5	Part-Whole Arg1:T26 Arg2:T24	
+T27	Thing-Nominal 191 193	木桩
+T28	Thing-Nominal 202 204	植物
+T29	Thing-Nominal 205 206	脚
+T30	Person-Nominal 208 211	所有人
+T31	Person-Pronoun 224 225	我
+T32	Person-Nominal 230 232	母亲
+T33	Thing-Nominal 235 237	葫芦
+T34	Time-Implicit 230 241	母亲每每给葫芦浇过水后
+T35	Thing-Nominal 242 244	葫芦
+T36	Thing-Nominal 249 251	身子
+R6	Part-Whole Arg1:T35 Arg2:T36	
+T37	Thing-Pronoun 266 267	它
+*	Coreference T37 T35
+T38	Thing-Nominal 277 278	头
+T39	Thing-Pronoun 281 283	它们
+T40	Location-Nominal 285 287	高处
+T41	Thing-Nominal 298 300	葫芦
+T42	Thing-Nominal 310 312	木桩
+T43	Thing-Nominal 313 317	它们的路
+T44	Thing-Pronoun 313 315	它们
+*	Coreference T44 T41 T45
+T45	Thing-Pronoun 320 322	它们
+T46	Thing-Nominal 326 327	路
+T47	Thing-Pronoun 332 334	它们
+T48	Thing-Nominal 341 343	风雨
+T49	Person-Nominal 349 351	母亲
+T50	Thing-Nominal 353 355	绳子
+R7	Use Arg1:T49 Arg2:T50	
+T51	Thing-Pronoun 359 361	它们
+T52	Location-Nominal 364 367	树桩上
+R8	Located Arg1:T51 Arg2:T52	
+T53	Thing-Pronoun 370 372	它们
+T54	Location-Nominal 392 399	高高的棚架上面
+T55	Thing-Nominal 401 409	每一棵攀爬的葫芦
+T56	Thing-Pronoun 416 418	它们
+*	Coreference T56 T55
+T57	Location-Nominal 422 424	棚顶
+T58	Time-Implicit 416 432	它们最终爬到棚顶交会在一起的时候
+T59	Thing-Pronoun 445 446	你
+T60	Thing-Pronoun 448 449	我
+T61	Thing-Pronoun 450 451	我
+T62	Thing-Pronoun 453 454	你
+T63	Thing-Nominal 455 460	团团的叶子
+T64	Time-Implicit 485 489	这个时候
+T65	Thing-Nominal 490 497	一朵朵雪白的花
+T66	Location-Nominal 502 506	叶子下面
+R9	Located Arg1:T65 Arg2:T66	
+T67	Thing-Nominal 502 504	叶子
+T68	Thing-Nominal 527 529	蜜蜂
+T69	Location-Nominal 532 537	很远的地方
+T70	Thing-Nominal 540 542	葫芦
+T71	Thing-Nominal 543 544	花
+T72	Person-Nominal 547 549	母亲
+T73	Location-Nominal 551 553	门口
+T74	Thing-Nominal 555 556	头
+R10	Part-Whole Arg1:T74 Arg2:T72	
+T75	Thing-Nominal 558 565	一朵朵绽开的花
+T76	Location-Nominal 566 568	脸上
+T77	Thing-Nominal 566 567	脸
+R11	Part-Whole Arg1:T77 Arg2:T72	
+T78	Thing-Nominal 575 578	葫芦花
+T79	Thing-Nominal 580 585	母亲的眼睛
+T80	Person-Nominal 580 582	母亲
+R12	Part-Whole Arg1:T79 Arg2:T80	
+T81	Person-Pronoun 594 595	她
+*	Coreference T81 T80
+T82	Person-Nominal 605 607	母亲
+T83	Thing-Nominal 612 613	花
+T84	Thing-Nominal 615 616	果
+T85	Person-Pronoun 617 618	她
+*	Coreference T85 T82
+T86	Metric 628 631	两三天
+T87	Metric 636 639	四五天
+T88	Thing-Nominal 640 649	一个个小小的葫芦果
+T89	Location-Nominal 651 654	网眼里
+R13	Located Arg1:T88 Arg2:T89	
+T90	Thing-Pronoun 659 661	它们
+*	Coreference T90 T88
+T91	Location-Nominal 667 671	肚脐眼上
+T92	Thing-Nominal 676 681	枯去的花朵
+R14	Located Arg1:T92 Arg2:T91	
+T93	Location-Nominal 683 688;689 693	密密匝匝的 叶子之下
+T94	Thing-Nominal 695 707	一颗颗刚刚跳上天空的星星
+T95	Thing-Nominal 709 714	通风的葫芦
+T96	Person-Nominal 718 721	乡亲们
+T97	Location-Nominal 729 736	每家每户的门前
+T98	Thing-Nominal 739 741	棚架
+R15	Located Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 744 758	葫芦、南瓜、丝瓜、梅豆、佛手
+T100	Location-Nominal 760 762	棚架
+T101	Location-Nominal 765 767	屋顶
+R16	Located Arg1:T99 Arg2:T100	
+R17	Located Arg1:T99 Arg2:T101	
+T102	Location-Nominal 771 773	树梢
+R18	Located Arg1:T99 Arg2:T102	
+T103	Location-Nominal 776 781	高高的天空
+R19	Located Arg1:T99 Arg2:T103	
+T104	Location-Nominal 782 787	棚架的旁边
+T105	Thing-Nominal 792 807	一些美人蕉、凤仙花、月季、菊花
+R20	Located Arg1:T105 Arg2:T104	
+T106	Thing-Nominal 808 816	红红黄黄的几朵花
+T107	Thing-Nominal 818 820	院子
+T108	Person-Nominal 835 837	母亲
+T109	Time-Implicit 837 839	天天
+T110	Thing-Nominal 842 844	葫芦
+T111	Thing-Nominal 845 846	水
+T112	Person-Pronoun 847 848	她
+*	Coreference T112 T108
+T113	Person-Nominal 853 858	哺乳的女人
+T114	Thing-Nominal 866 867	水
+T115	Thing-Nominal 869 877	一个个小小的葫芦
+T116	Thing-Nominal 879 883	丰富乳汁
+T117	Thing-Nominal 909 914	点点的花纹
+T118	Person-Pronoun 920 921	谁
+T119	Thing-Nominal 927 936	一个个漂亮的青花瓷
+T120	Time-Implicit 938 942	每天清晨
+T121	Person-Nominal 943 945	母亲
+T122	Location-Nominal 950 954	棚架下面
+T123	Thing-Nominal 960 964	这个葫芦
+T124	Thing-Nominal 967 971	那个葫芦
+T125	Person-Nominal 975 980	一个鉴赏家
+T126	Thing-Nominal 994 995	皮
+T127	Thing-Nominal 999 1003	细细的丝
+T128	Thing-Nominal 1006 1008	大蒜
+T129	Thing-Nominal 1009 1011	小葱
+T130	Thing-Nominal 1012 1014	辣椒
+T131	Thing-Nominal 1017 1020	一盘菜
+T132	Thing-Nominal 1021 1027	白白的葫芦丝
+T133	Thing-Nominal 1028 1033	红红的辣椒
+T134	Thing-Nominal 1034 1039	青青的小葱
+T135	Thing-Nominal 1052 1053	菜
+T136	Thing-Nominal 1056 1059;1060 1063	一盘盛 开的花
+T137	Person-Nominal 1067 1069	母亲
+T138	Thing-Nominal 1071 1074	葫芦菜
+T139	Person-Pronoun 1091 1093	我们
+T140	Person-Nominal 1099 1101	母亲
+T141	Location-Nominal 1101 1103	手中
+T142	Thing-Nominal 1106 1107	花
+T143	Location-Nominal 1109 1112	棚架上
+T144	Thing-Nominal 1116 1118	葫芦
+R21	Located Arg1:T144 Arg2:T143	
+T145	Person-Nominal 1123 1125	母亲
+T146	Thing-Pronoun 1140 1142	它们
+T147	Person-Nominal 1146 1148	母亲
+T148	Person-Nominal 1154 1158	左邻右舍
+T149	Location-Nominal 1160 1162	乡村
+T150	Location-Nominal 1175 1179	黑土地上
+T151	Thing-Nominal 1184 1186	东西
+R22	Located Arg1:T151 Arg2:T150	
+T152	Thing-Pronoun 1189 1190	它
+*	Coreference T152 T151
+T153	Person-Nominal 1201 1203	村民
+T154	Thing-Nominal 1216 1222	天上的雨和风
+T155	Location-Nominal 1216 1218	天上
+R23	Located Arg1:T154 Arg2:T155	
+T156	Person-Nominal 1238 1245	家家户户种的菜
+T157	Thing-Nominal 1260 1265	剩下的葫芦
+T158	Person-Nominal 1272 1274	母亲
+T159	Person-Pronoun 1281 1282	她
+*	Coreference T159 T158
+T160	Thing-Nominal 1283 1285	葫芦
+T161	Location-Nominal 1294 1298	棚架下面
+T162	Thing-Pronoun 1306 1308	它们
+*	Coreference T162 T160
+T163	Thing-Nominal 1310 1311	皮
+T164	Thing-Nominal 1313 1319	一个个青花瓷
+T165	Thing-Nominal 1321 1326	光洁的美玉
+T166	Person-Pronoun 1330 1331	她
+T167	Thing-Nominal 1332 1339	一个小小的铁圈
+T168	Location-Nominal 1341 1345	筷子上面
+R24	Located Arg1:T167 Arg2:T168	
+T169	Thing-Nominal 1347 1354	这种简易的工具
+R25	Use Arg1:T166 Arg2:T169	
+T170	Thing-Nominal 1356 1359;1360 1362	葫芦的 顶端
+T171	Thing-Nominal 1386 1393	一条长长的玉绳
+T172	Person-Nominal 1394 1396	母亲
+T173	Location-Nominal 1394 1399	母亲的手中
+R26	Located Arg1:T171 Arg2:T173	
+T174	Person-Nominal 1405 1407	母亲
+T175	Thing-Nominal 1408 1411	葫芦条
+T176	Location-Nominal 1417 1422	屋檐的下面
+R27	Located Arg1:T175 Arg2:T176	
+T177	Person-Nominal 1425 1427	母亲
+T178	Thing-Pronoun 1432 1433	它
+T179	Thing-Nominal 1435 1436	肉
+T180	Time-Implicit 1429 1431	冬天
+T181	Thing-Nominal 1439 1440	肉
+*	Coreference T178 T175
+T182	Person-Pronoun 1444 1445	我
+T183	Person-Nominal 1447 1449	母亲
+T184	Thing-Nominal 1451 1454	葫芦条
+T185	Thing-Nominal 1458 1459	肉
+T186	Person-Pronoun 1486 1487	我
+T187	Thing-Nominal 1490 1496	眼前的葫芦条
+T188	Location-Nominal 1502 1505	屋檐下
+R28	Located Arg1:T187 Arg2:T188	
+T189	Person-Nominal 1507 1511	展翅的鸟
+T190	Person-Nominal 1513 1518	飞动的蝴蝶
+T191	Person-Nominal 1520 1525	镂空的花朵
+T192	Location-Nominal 1533 1536	院子里
+T193	Time-Implicit 1528 1532	深秋季节
+T194	Thing-Nominal 1544 1546	葫芦
+T195	Thing-Nominal 1560 1561	花
+T196	Thing-Nominal 1562 1563	果
+T197	Thing-Nominal 1566 1568	严霜
+T198	Thing-Pronoun 1570 1572	它们
+T199	Thing-Pronoun 1578 1580	它们
+T200	Thing-Nominal 1599 1601	阳光
+T201	Location-Nominal 1608 1610	院子
+T202	Location-Nominal 1613 1620	干枯的藤叶之间
+T203	Thing-Nominal 1621 1633	那些未来得及摘下来的葫芦
+T204	Thing-Nominal 1637 1639	秋风
+T205	Person-Nominal 1654 1657	乡亲们
+T206	Thing-Nominal 1659 1661	土地
+T207	Time-Implicit 1654 1664	乡亲们形容土地薄产时
+T208	Thing-Nominal 1670 1672	葫芦
+T209	Thing-Nominal 1677 1682	老去的葫芦
+T210	Person-Pronoun 1685 1687	他们
+T211	Thing-Nominal 1691 1692	瓢
+T212	Thing-Nominal 1673 1675	俩瓢
+*	Coreference T210 T205
+T213	Thing-Nominal 1695 1697	水缸
+T214	Thing-Nominal 1700 1702	面缸
+T215	Thing-Nominal 1705 1707	粮仓
+T216	Person-Nominal 1710 1713	乡亲们
+T217	Thing-Nominal 1716 1723	生活的重要工具
+T218	Person-Nominal 1725 1727	母亲
+T219	Thing-Nominal 1730 1735	老去的葫芦
+T220	Thing-Nominal 1738 1739	瓢
+T221	Thing-Nominal 1741 1745	家里的瓢
+T222	Location-Nominal 1741 1743	家里
+R29	Located Arg1:T221 Arg2:T222	
+T223	Person-Nominal 1755 1757	母亲
+T224	Thing-Nominal 1759 1764	葫芦的顶端
+T225	Thing-Nominal 1759 1761	葫芦
+T226	Thing-Nominal 1768 1770	竹签
+T227	Thing-Nominal 1772 1778	里面的瓤和籽
+T228	Location-Nominal 1772 1774	里面
+R30	Located Arg1:T227 Arg2:T228	
+R31	Use Arg1:T223 Arg2:T226	
+T229	Thing-Nominal 1787 1794	一个个大头娃娃
+T230	Person-Pronoun 1795 1796	我
+T231	Person-Nominal 1799 1801	母亲
+T232	Thing-Nominal 1810 1814	那些娃娃
+T233	Person-Nominal 1815 1817	母亲
+T234	Location-Nominal 1818 1820	手中
+R32	Located Arg1:T232 Arg2:T234	
+T235	Thing-Pronoun 1827 1829	他们
+T236	Thing-Nominal 1831 1832	头
+T237	Thing-Nominal 1834 1836	肚兜
+*	Coreference T235 T232
+T238	Person-Pronoun 1856 1857	她
+T239	Thing-Nominal 1858 1860	桐油
+R33	Use Arg1:T238 Arg2:T239	
+T240	Location-Nominal 1864 1868	葫芦外表
+T241	Location-Nominal 1875 1878	窗台上
+*	Coreference T238 T233
+T242	Person-Nominal 1881 1883	母亲
+T243	Thing-Pronoun 1886 1887	它
+T244	Thing-Nominal 1889 1891	种子
+T245	Thing-Nominal 1894 1895	虫
+T246	Location-Nominal 1904 1913	家里粮仓的屋梁下面
+T247	Metric 1901 1903	不久
+T248	Thing-Nominal 1918 1927	一个一个漂亮的葫芦
+R34	Located Arg1:T248 Arg2:T246	
+T249	Location-Nominal 1928 1936	沉甸甸的葫芦里面
+T250	Thing-Nominal 1949 1953	大头娃娃
+T251	Thing-Pronoun 1953 1954	你
+T252	Thing-Pronoun 1956 1957	我
+T253	Thing-Pronoun 1958 1959	我
+T254	Thing-Pronoun 1962 1963	你
+T255	Location-Nominal 1971 1973	粮仓
+T256	Thing-Nominal 1991 1993	葫芦
+T257	Thing-Nominal 1996 1997	花
+T258	Person-Nominal 1999 2001	母亲
+T259	Location-Nominal 2003 2005	门口
+T260	Thing-Nominal 2008 2015	冬日暖暖的太阳
+T261	Thing-Nominal 2027 2032	每一个葫芦
+T262	Thing-Nominal 2036 2037	花
+T263	Person-Nominal 2038 2044	说着话的母亲
+T264	Person-Pronoun 2047 2048	她
+T265	Thing-Nominal 2052 2054	眼睛
+R35	Part-Whole Arg1:T265 Arg2:T264	
+*	Coreference T264 T263
+T266	Person-Nominal 2066 2068	作者
+T267	Person-Name 2071 2074	赵大磊
+T268	Person-Nominal 2075 2082	河南省西平县人
+T269	Person-Nominal 2083 2089	中学高级教师
+T270	Person-Nominal 2090 2099	河南省作家协会会员
+T271	Person-Nominal 2100 2110	西平县作家协会副主席
+T272	Person-Nominal 2111 2119	西平高中语文教师
+T273	Abstract 2123 2126;2127 2128	《奔流 》
+T274	Abstract 2128 2134	《贵州文学》
+T275	Abstract 2134 2140	《散文选刊》
+T276	Abstract 2140 2147	《中国散文家》
+T277	Abstract 2147 2153	《华夏散文》
+T278	Abstract 2153 2159	《华东诗刊》
+T279	Abstract 2159 2164	《天之中》
+T280	Abstract 2164 2170	《庄周文艺》
+T281	Abstract 2170 2176	《东营文艺》
+T282	Abstract 2176 2180	《长鸣》
+T283	Abstract 2198 2206	《中国散文选粹》
+T284	Abstract 2212 2220	《一个人的月亮》
+T285	Abstract 2220 2228	《像树一样活着》

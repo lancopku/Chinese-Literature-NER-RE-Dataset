@@ -1,0 +1,139 @@
+T1	Thing-Nominal 13 19	发现美的眼睛
+T2	Thing-Nominal 28 34	校园内这棵树
+T3	Location-Nominal 28 31	校园内
+R1	Located Arg1:T2 Arg2:T3	
+T4	Thing-Pronoun 38 39	它
+*	Coreference T4 T2
+T5	Thing-Nominal 40 42	香樟
+T6	Time-Implicit 49 58	去年中考前后的一天
+T7	Person-Pronoun 59 60	我
+T8	Location-Nominal 72 74	窗外
+T9	Location-Nominal 78 82	香樟树梢
+T10	Thing-Nominal 86 93	乳白色的茉莉花
+R2	Located Arg1:T10 Arg2:T9	
+T11	Person-Pronoun 98 99	我
+T12	Time-Implicit 109 113	过了几天
+T13	Thing-Nominal 114 117	那白花
+T14	Thing-Nominal 130 136	新生的叶芽儿
+T15	Person-Pronoun 143 144	我
+T16	Thing-Nominal 148 154	落叶树的叶子
+T17	Thing-Nominal 148 151	落叶树
+R3	Part-Whole Arg1:T16 Arg2:T17	
+T18	Time-Implicit 155 157	春天
+T19	Time-Implicit 163 165	秋天
+T20	Thing-Nominal 171 173	香樟
+T21	Thing-Nominal 174 177	常青树
+R4	Part-Whole Arg1:T20 Arg2:T21	
+T22	Thing-Nominal 179 185	所有的阔叶树
+T23	Thing-Nominal 188 192	粗壮的杆
+T24	Location-Nominal 194 196	地上
+R5	Located Arg1:T23 Arg2:T24	
+R6	Part-Whole Arg1:T23 Arg2:T20	
+T25	Thing-Nominal 204 206	手臂
+T26	Thing-Nominal 209 211	枝丫
+R7	Part-Whole Arg1:T26 Arg2:T20	
+T27	Thing-Nominal 212 217	满身的叶子
+R8	Part-Whole Arg1:T27 Arg2:T20	
+T28	Thing-Nominal 242 248	嫩绿的叶芽儿
+T29	Thing-Nominal 250 252	花儿
+T30	Location-Nominal 256 258	枝头
+R9	Located Arg1:T28 Arg2:T30	
+T31	Person-Pronoun 264 265	我
+T32	Thing-Nominal 273 275	太阳
+T33	Thing-Nominal 276 280	一个染缸
+T34	Thing-Nominal 282 288	嫩绿的叶芽儿
+T35	Thing-Nominal 299 301	太阳
+T36	Thing-Nominal 303 307	一个火炉
+T37	Thing-Nominal 309 311	叶子
+T38	Thing-Nominal 321 326	夜露的淬火
+T39	Thing-Pronoun 329 330	它
+*	Coreference T39 T37
+T40	Thing-Nominal 347 353	那苍绿的叶子
+T41	Thing-Nominal 357 361	狂风暴雨
+T42	Location-Nominal 370 372	枝头
+R10	Located Arg1:T40 Arg2:T42	
+T43	Thing-Nominal 374 383	一面面胜利的小旗子
+T44	Time-Implicit 386 390	立秋以后
+T45	Thing-Nominal 395 399	一批新叶
+T46	Thing-Nominal 408 416	星星点点的野菊花
+T47	Thing-Nominal 440 442	秋风
+T48	Thing-Nominal 448 450	新叶
+T49	Thing-Nominal 455 457	严霜
+T50	Time-Implicit 469 471	此时
+T51	Thing-Nominal 472 482	层层叠叠的老中青叶子
+T52	Thing-Nominal 484 491	全副武装的战士
+T53	Location-Nominal 500 502	枝头
+R11	Located Arg1:T51 Arg2:T53	
+T54	Thing-Nominal 508 519	一些焦红、枯黄的垂老者
+T55	Time-Implicit 526 528	秋后
+T56	Thing-Nominal 526 533	秋后出生的新叶
+T57	Thing-Pronoun 536 537	她
+*	Coreference T57 T56
+T58	Thing-Nominal 552 554	军装
+T59	Location-Nominal 557 561	前沿阵地
+T60	Thing-Nominal 564 569	冬天的刀剑
+T61	Time-Implicit 564 566	冬天
+T62	Thing-Nominal 580 582	寒风
+T63	Thing-Pronoun 584 585	她
+T64	Thing-Nominal 596 598	严霜
+T65	Thing-Pronoun 600 601	她
+T66	Time-Implicit 610 615	大雪纷飞时
+T67	Thing-Nominal 620 628	她的祖辈、父辈们
+T68	Location-Nominal 633 638	空中大舞台
+T69	Thing-Nominal 641 646	绿色的手掌
+T70	Thing-Nominal 650 655	一树树梨花
+T71	Thing-Nominal 668 670	军装
+T72	Person-Nominal 671 673	英雄
+T73	Location-Nominal 677 679	枝头
+T74	Time-Implicit 688 690	春天
+T75	Time-Implicit 685 687	冬天
+T76	Thing-Nominal 693 696	迷彩服
+T77	Thing-Nominal 693 699	迷彩服般的叶
+T78	Location-Nominal 693 702	迷彩服般的叶子中心
+T79	Thing-Nominal 705 708	栀子花
+T80	Thing-Nominal 709 714	尖尖的花蕾
+R12	Located Arg1:T80 Arg2:T78	
+T81	Thing-Nominal 718 721	栀子花
+T82	Time-Implicit 745 747	春天
+T83	Thing-Nominal 751 754	栀子花
+T84	Thing-Nominal 751 758	栀子花般的新叶
+T85	Location-Nominal 768 770	枝头
+R13	Located Arg1:T84 Arg2:T85	
+T86	Thing-Nominal 774 777	迷彩服
+T87	Thing-Nominal 774 781	迷彩服般的叶子
+T88	Thing-Nominal 800 802	樱花
+T89	Thing-Nominal 823 825	红梅
+T90	Location-Nominal 830 832	丛中
+R14	Located Arg1:T89 Arg2:T90	
+T91	Thing-Nominal 855 860	孟春的香樟
+T92	Thing-Nominal 897 903	最后一批红叶
+T93	Location-Nominal 905 907	枝头
+T94	Thing-Nominal 908 910	香樟
+T95	Thing-Nominal 931 933	春风
+T96	Thing-Nominal 940 945	婴儿的小手
+T97	Thing-Nominal 949 951	春雨
+T98	Thing-Nominal 958 963	蝴蝶的翅膀
+T99	Person-Nominal 940 942	婴儿
+R15	Part-Whole Arg1:T96 Arg2:T99	
+T100	Thing-Nominal 958 960	蝴蝶
+R16	Part-Whole Arg1:T98 Arg2:T100	
+T101	Time-Implicit 968 970	清晨
+T102	Thing-Nominal 971 974	小鸟们
+T103	Location-Nominal 977 979	树上
+R17	Located Arg1:T102 Arg2:T103	
+T104	Person-Nominal 984 986	老师
+T105	Person-Nominal 987 990	同学们
+T106	Person-Pronoun 998 999	我
+T107	Person-Pronoun 1005 1006	我
+T108	Thing-Nominal 1008 1010	窗户
+T109	Thing-Nominal 1024 1028;1029 1030	清新的空 气
+T110	Thing-Nominal 1033 1035	和风
+T111	Location-Nominal 1039 1041	帘内
+T112	Person-Pronoun 1047 1049	我们
+T113	Location-Nominal 1051 1053	窗下
+T114	Time-Implicit 1064 1066	晚春
+T115	Thing-Nominal 1064 1069	晚春的香樟
+T116	Thing-Nominal 1082 1089	一道绿色的天幕
+T117	Person-Pronoun 1093 1095	我们
+T118	Location-Nominal 1111 1115	我们面前
+T119	Person-Pronoun 1125 1126	我

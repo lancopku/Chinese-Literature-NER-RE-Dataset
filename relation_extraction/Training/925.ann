@@ -1,0 +1,103 @@
+T1	Thing-Nominal 0 2	落日
+T3	Thing-Nominal 6 10	一片树叶
+T4	Time-Implicit 14 16	秋天
+T5	Location-Nominal 21 28	四合院的屋檐下
+T6	Thing-Nominal 21 35	四合院的屋檐下正待收仓的玉米
+T8	Thing-Nominal 51 52	风
+T9	Location-Nominal 67 72	微寒的村庄
+T10	Thing-Nominal 74 78	一些人影
+T11	Thing-Nominal 82 87	外面的钥匙
+T12	Location-Nominal 82 85	外面的
+T13	Thing-Nominal 91 93	家门
+T14	Thing-Nominal 90 95	了家门的锁
+T15	Thing-Nominal 96 98	蚂蚁
+T18	Thing-Nominal 134 138	阁房的窗
+T19	Thing-Nominal 134 136	阁房
+R1	Part-Whole Arg1:T18 Arg2:T19	
+T20	Thing-Nominal 139 141	夕阳
+T21	Person-Nominal 148 150	母亲
+T23	Thing-Nominal 153 157	一身尘土
+T24	Location-Nominal 160 165	静静的家门
+T25	Thing-Nominal 166 168	炊烟
+T26	Location-Nominal 174 175	家
+T28	Thing-Nominal 181 185	一把柴火
+T29	Location-Nominal 190 192	异地
+T30	Person-Pronoun 190 194	异地的我
+T31	Location-Nominal 199 203	家的方向
+T32	Time-Implicit 222 229	太阳下山的时分
+T33	Person-Pronoun 230 231	我
+T34	Thing-Nominal 237 239	夕阳
+T37	Thing-Nominal 262 267	那一枚落日
+T38	Person-Pronoun 275 276	我
+T39	Thing-Nominal 275 279	我的泪水
+T40	Location-Nominal 290 293	阳山下
+T42	Thing-Nominal 317 324	一片伤秋的落叶
+T43	Location-Nominal 340 342	前方
+T44	Location-Nominal 337 338	家
+T45	Location-Nominal 345 351	一亩三分地里
+T46	Thing-Nominal 357 364	还未长胖的月亮
+T47	Thing-Nominal 371 373	温棚
+T48	Thing-Nominal 375 377	小草
+T50	Thing-Nominal 402 403	心
+T51	Thing-Nominal 424 425	花
+T52	Thing-Nominal 426 427	花
+T53	Thing-Nominal 443 444	牙
+T55	Thing-Nominal 449 453	一把钢刀
+T57	Thing-Nominal 469 472	一杯茶
+T58	Thing-Nominal 502 503	刀
+T59	Thing-Nominal 504 505	马
+T60	Thing-Nominal 525 526	茶
+T62	Thing-Nominal 535 536	鸟
+T64	Thing-Nominal 567 569	怪石
+T65	Person-Pronoun 574 575	你
+T67	Location-Nominal 588 591	面具下
+T68	Location-Nominal 602 604	闹市
+T70	Thing-Nominal 608 612	一枚铜钱
+T71	Metric 629 633	半斤八两
+T74	Thing-Nominal 694 702	那新春发芽的幼苗
+T75	Time-Implicit 695 697	新春
+T76	Time-Implicit 704 707	寒冬里
+T77	Thing-Nominal 707 712	枯竭的甘泉
+T78	Person-Pronoun 715 717	自己
+T79	Thing-Pronoun 718 720	那些
+T80	Thing-Nominal 732 734	眼睛
+T81	Time-Implicit 761 763	今天
+T82	Time-Implicit 780 783	春雨后
+T83	Thing-Nominal 780 782	春雨
+T84	Location-Nominal 785 787	河床
+T85	Thing-Nominal 785 790	河床的溪水
+R2	Located Arg1:T85 Arg2:T84	
+T86	Thing-Nominal 802 803	鸟
+T87	Location-Nominal 799 806	放飞幼鸟的天空
+T88	Person-Nominal 827 829	父亲
+T89	Location-Nominal 833 835	屋檐
+T90	Location-Nominal 845 850	去岁的柳梢
+T91	Time-Explicit 861 863	如今
+T92	Location-Nominal 880 882	村口
+T93	Location-Nominal 884 886	小院
+T94	Location-Nominal 887 894	在我离家的路口
+T95	Thing-Nominal 896 900	闲置的犁
+T96	Thing-Nominal 905 911	擦拭锈迹的手
+T97	Location-Nominal 913 919	在斑驳的墙上
+T99	Person-Pronoun 936 937	我
+T100	Time-Explicit 954 956	今日
+T101	Time-Implicit 973 975	明天
+R3	Located Arg1:T11 Arg2:T12	
+R4	Located Arg1:T6 Arg2:T5	
+R5	Located Arg1:T46 Arg2:T45	
+R6	Located Arg1:T47 Arg2:T45	
+T2	Thing-Nominal 106 109	一条路
+T7	Thing-Nominal 124 128	一抹阴影
+R7	Part-Whole Arg1:T39 Arg2:T38	
+T16	Metric 345 349	一亩三分
+T17	Thing-Nominal 533 534	山
+T22	Thing-Nominal 562 564	飞流
+T27	Thing-Nominal 588 597	面具下方奇丑的嘴脸
+R8	Located Arg1:T27 Arg2:T67	
+T35	Thing-Nominal 769 771	青苗
+R9	Located Arg1:T86 Arg2:T87	
+T36	Time-Implicit 816 819	端午节
+T41	Thing-Nominal 816 825	端午节借砍下的柳条
+T49	Thing-Nominal 863 865	杨柳
+T54	Person-Pronoun 888 889	我
+R10	Located Arg1:T95 Arg2:T97	

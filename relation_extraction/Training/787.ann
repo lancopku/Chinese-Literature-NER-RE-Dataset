@@ -1,0 +1,58 @@
+T1	Location-Nominal 3 5	江南
+T2	Thing-Nominal 9 11	落花
+T3	Person-Nominal 15 16	君
+T4	Time-Implicit 18 19	晨
+T5	Thing-Nominal 21 22	卷
+T6	Person-Name 37 40	杜少陵
+T7	Time-Implicit 96 98	当年
+T8	Person-Name 99 102	李龟年
+T9	Location-Nominal 103 106	岐王宅
+T10	Location-Nominal 107 110	崔九堂
+T11	Time-Explicit 115 119	安史之乱
+T12	Person-Nominal 137 143	两位才卓高人
+R1	Part-Whole Arg1:T6 Arg2:T12	
+R2	Part-Whole Arg1:T8 Arg2:T12	
+T13	Metric 137 139	两位
+T14	Location-Name 127 129	江南
+T15	Person-Nominal 160 162	知音
+T16	Person-Name 166 168	孙洙
+T17	Person-Pronoun 208 209	我
+T18	Person-Name 221 223	杜甫
+T19	Person-Name 228 230	少陵
+*	Coreference T19 T18
+T20	Person-Nominal 280 282	君子
+T21	Location-Nominal 304 306	他乡
+T22	Person-Nominal 322 325	古文人
+T23	Person-Nominal 337 339	今人
+T24	Person-Nominal 444 446	朋友
+T25	Person-Name 477 479	苏轼
+T26	Person-Name 482 485	参廖师
+T27	Thing-Nominal 486 487	船
+T28	Person-Nominal 493 495	诸君
+T29	Thing-Nominal 497 499	羽衣
+T30	Location-Nominal 503 505	黄楼
+T31	Person-Name 526 528	苏公
+*	Coreference T31 T25 T38
+T32	Person-Nominal 538 539	人
+T33	Person-Nominal 546 553	旷达不羁的挚友
+T34	Metric 544 546	一帮
+T35	Person-Nominal 560 562	诸友
+*	Coreference T35 T33
+T36	Location-Nominal 564 569	高高的黄楼
+*	Coreference T30 T36
+T37	Person-Name 582 585	李太白
+T38	Person-Name 601 603	东坡
+T39	Person-Name 607 609	曩游
+T40	Thing-Nominal 616 618	轻舟
+T41	Thing-Nominal 619 620	水
+T42	Thing-Nominal 627 628	桨
+T43	Thing-Nominal 634 635	笛
+T44	Location-Nominal 637 639	山谷
+T45	Thing-Nominal 640 642	明月
+T46	Person-Nominal 658 659;660 661	知 己
+T47	Thing-Nominal 686 688	落花
+T48	Location-Name 675 677	江南
+T49	Time-Implicit 693 695	当年
+T50	Person-Nominal 695 702	落花相逢的才子
+T51	Person-Nominal 705 711	古诗中的主角
+T52	Person-Name 745 748	李龟年

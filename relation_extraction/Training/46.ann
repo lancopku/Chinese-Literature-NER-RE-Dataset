@@ -1,0 +1,74 @@
+T1	Thing-Nominal 0 2	三亚
+T2	Thing-Pronoun 3 4	你
+*	Coreference T2 T1
+T3	Thing-Nominal 5 12	一颗璀璨的明珠
+T4	Location-Nominal 16 23	南国天涯的额头
+T5	Location-Pronoun 24 26	这里
+*	Coreference T5 T4
+T6	Thing-Nominal 32 35	天然氧
+T7	Location-Pronoun 41 43	这里
+T8	Time-Implicit 55 59	一年四季
+T9	Thing-Nominal 61 63	风景
+T10	Thing-Nominal 64 65	画
+T11	Thing-Nominal 67 71	这里的天
+T12	Location-Pronoun 67 69	这里
+R1	Located Arg1:T11 Arg2:T12	
+T13	Thing-Nominal 81 83	三亚
+T14	Thing-Nominal 84 89	梦中的三亚
+T15	Person-Pronoun 92 93	你
+T16	Thing-Nominal 99 101	三亚
+T17	Thing-Nominal 102 118	中国最南端的热带国际滨海旅游城市
+*	Coreference T17 T16 T18
+T18	Thing-Nominal 122 128	东方夏威夷”
+T19	Person-Pronoun 132 133	它
+R2	Create Arg1:T19 Arg2:T16	
+T20	Thing-Nominal 139 141;142 154	山” 、“海”、“河”、“城”
+T21	Thing-Nominal 163 164	山
+T22	Thing-Nominal 166 168	南山
+T23	Thing-Nominal 170 171	海
+T24	Thing-Nominal 173 175	南海
+T25	Thing-Nominal 177 178	河
+T26	Thing-Nominal 180 183	三亚河
+T27	Thing-Nominal 185 186	城
+T28	Thing-Nominal 188 191	三亚城
+T29	Thing-Nominal 215 216	海
+T30	Thing-Nominal 270 272	三亚
+T31	Thing-Nominal 213 215	三亚
+T32	Thing-Nominal 220 227	世界的海景风光
+T33	Thing-Pronoun 239 240	它
+*	Coreference T33 T31
+T34	Thing-Pronoun 244 245	它
+T35	Thing-Pronoun 249 250	它
+T36	Thing-Pronoun 254 255	它
+T37	Person-Nominal 265 269	中外游客
+T38	Thing-Nominal 275 281	一座魅力之城
+T39	Person-Nominal 287 297	亲爱的先生们!女士们
+T40	Person-Nominal 297 301	!朋友们
+T41	Thing-Nominal 320 322	蓝天
+T42	Thing-Nominal 323 324;325 326	三 亚
+T43	Thing-Nominal 330 332	蓝天
+T44	Thing-Nominal 333 335	碧海
+T45	Thing-Nominal 336 338	海天
+T46	Thing-Nominal 343 349	一片蔚蓝的水
+T47	Person-Pronoun 359 360	你
+T48	Location-Pronoun 361 363	这里
+T49	Thing-Nominal 370 371	玉
+T50	Thing-Nominal 368 369	沙
+T51	Thing-Nominal 373 375	椰风
+T52	Thing-Nominal 375 376	海
+T53	Person-Nominal 379 380	人
+T54	Person-Nominal 389 395	四面八方的游
+T55	Location-Pronoun 399 401	这里
+T56	Thing-Nominal 409 412	天然氧
+T57	Thing-Nominal 413 415	海水
+T58	Time-Implicit 434 439	阳光灿烂时
+T59	Thing-Nominal 440 444	整个海面
+T60	Thing-Nominal 445 446;447 456	一 幅巨大的深蓝色的绸
+T61	Thing-Nominal 462 464	阳光
+T62	Thing-Nominal 465 467	海水
+T63	Thing-Pronoun 478 479	她
+T64	Thing-Pronoun 489 490	她
+T65	Thing-Pronoun 500 501	她
+T66	Person-Nominal 502 503	人
+T67	Thing-Nominal 434 436	阳光
+*	Coreference T63 T62

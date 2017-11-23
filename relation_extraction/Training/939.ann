@@ -1,0 +1,245 @@
+T1	Person-Name 0 10	开漳始祖――陈太祖母
+T2	Location-Nominal 13 28	东海与南海交汇处的漳州金色海滩
+T3	Thing-Nominal 31 35	蓝色海浪
+T4	Person-Pronoun 41 42	我
+T5	Time-Implicit 55 62	1300多年前
+T6	Person-Name 81 84	唐仪凤
+T7	Time-Implicit 84 96	二年(公元677年)四月
+T8	Organization-Nominal 97 101	一支军队
+T9	Location-Nominal 107 109	中原
+T10	Location-Nominal 111 113	闽南
+T11	Location-Nominal 119 122	九龙山
+T12	Person-Name 114 130	救援被围困九龙山的陈政和唐军将士
+T13	Person-Name 136 143	年轻将军陈元光
+T14	Person-Name 148 159	年逾花甲的陈太祖母魏氏
+T15	Person-Name 160 167	这位“魏妈祖”
+T16	Person-Nominal 168 177	唐代名相魏征的小妹
+T17	Person-Name 172 174	魏征
+T18	Time-Implicit 168 170	唐代
+*	Coreference T16 T15 T20
+R1	Family Arg1:T15 Arg2:T17	
+T19	Person-Name 193 198	陈克耕将军
+T20	Person-Pronoun 206 207	她
+T21	Person-Name 208 217	杨家将佘太君杨令婆
+T22	Metric 219 222	三百年
+T23	Thing-Nominal 224 225	盔
+T24	Thing-Nominal 226 227	甲
+T25	Thing-Nominal 229 230	马
+T26	Thing-Nominal 231 232	剑
+T27	Person-Name 234 245	陈政、陈元光父子三代人
+T28	Person-Name 249 253;254 256	汉人土豪 陈谦
+T29	Abstract 259 265	“蛮獠啸乱”
+T30	Person-Name 289 292	武则天
+T31	Location-Name 302 304	漳州
+T32	Location-Nominal 295 300	泉、潮之间
+T33	Person-Name 305 310	“魏妈祖”
+T34	Person-Name 312 319	首任刺史陈元光
+T35	Location-Name 321 323	海疆
+T36	Person-Nominal 326 328	畲民
+T37	Location-Name 351 353	闽南
+T38	Person-Name 375 380	“魏妈祖”
+T39	Person-Nominal 382 384	孙儿
+R2	Family Arg1:T39 Arg2:T38	
+T40	Location-Nominal 385 388	马背上
+T41	Metric 391 396	30个春秋
+T42	Location-Name 404 413	东南海疆的云霄竹塔
+T43	Thing-Nominal 414 418	伟岸墓碑
+T44	Location-Nominal 420 422	大海
+T45	Person-Name 445 451	颍川侯陈元光
+T46	Abstract 456 466	《太母魏氏半径题石》
+T47	Abstract 508 513	《全唐诗》
+T48	Person-Nominal 516 520	漳州人民
+T49	Person-Name 540 550	开漳始祖陈太祖母魏氏
+T50	Thing-Nominal 552 553	马
+T51	Thing-Nominal 554 555	剑
+T52	Location-Name 559 561	闽南
+T53	Person-Nominal 561 568	一代代巾帼英雄
+T54	Person-Name 570 578	鉴湖女侠――秋瑾
+T55	Location-Name 580 584	云霄县城
+T56	Time-Implicit 586 592	漳江畔的清晨
+T57	Location-Name 586 589	漳江畔
+T58	Person-Nominal 605 607	人们
+T59	Location-Name 609 619	享堂村“紫阳书院”里
+T60	Person-Nominal 624 626	婴儿
+T61	Thing-Nominal 642 646	秋风秋雨
+T62	Person-Nominal 649 653	云霄人民
+T63	Time-Explicit 661 672	1879年10月11日
+T64	Person-Name 673 679	鉴湖女侠秋瑾
+T65	Person-Name 693 696;697 705	云霄抚 民厅同知的秋嘉禾
+T66	Person-Nominal 708 710	孙女
+*	Coreference T66 T64
+R3	Family Arg1:T65 Arg2:T66	
+T67	Person-Name 712 718	紫阳先生朱熹
+T68	Person-Nominal 721 723	孙女
+T69	Thing-Nominal 724 725	凤
+T70	Person-Name 738 740	秋瑾
+T71	Person-Pronoun 741 742	你
+*	Coreference T71 T70
+T72	Person-Nominal 746 748	父母
+R4	Family Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 750 752	马车
+T74	Location-Name 761 769	福建、湖南、安徽
+T75	Location-Name 774 781	祖籍地浙江绍兴
+T76	Person-Pronoun 795 796	你
+T77	Thing-Nominal 810 812	鲜血
+T78	Person-Nominal 814 816	民众
+T79	Person-Pronoun 817 818	你
+T80	Location-Name 819 821	上海
+T81	Abstract 824 830	《中国女报》
+T82	Person-Nominal 837 839	妇女
+T83	Person-Pronoun 849 850	你
+T84	Location-Nominal 854 860	自己的出生地
+T85	Time-Implicit 861 865	每年春节
+T86	Thing-Nominal 868 878	第二故乡漳州的水仙花
+T87	Location-Name 868 874	第二故乡漳州
+R5	Located Arg1:T86 Arg2:T87	
+T88	Person-Pronoun 882 883	你
+T89	Location-Nominal 891 894	马背上
+T90	Person-Pronoun 960 961	你
+T91	Thing-Nominal 962 964	男装
+T92	Metric 969 972	15岁
+T93	Thing-Nominal 974 975	马
+T94	Thing-Nominal 976 977	剑
+T95	Person-Name 980 987	花木兰、秦良玉
+T96	Person-Pronoun 990 991	你
+T97	Location-Name 993 995	日本
+T98	Person-Name 998 1001	孙中山
+T99	Organization-Name 1004 1007	同盟会
+T100	Person-Nominal 1010 1014;1015 1016	浙江主盟 人
+T101	Person-Pronoun 1017 1018	你
+T102	Organization-Nominal 1020 1022	会党
+T103	Location-Name 1026 1031	浙江、安徽
+T104	Thing-Nominal 1042 1046	秋风秋雨
+T105	Organization-Nominal 1052 1058	腐朽的清政府
+T106	Person-Pronoun 1059 1060	你
+T107	Person-Name 1070 1075	孙中山先生
+T108	Person-Pronoun 1077 1078	你
+T109	Location-Name 1110 1112	漳州
+T110	Organization-Name 1114 1121	海峡两岸花博会
+T111	Person-Nominal 1122 1124	人们
+T112	Location-Nominal 1125 1133	曙光初照的花海里
+T113	Person-Nominal 1138 1149	一位穿着曳地长裙的少妇
+T114	Thing-Nominal 1144 1146	长裙
+R6	Part-Whole Arg1:T114 Arg2:T113	
+T115	Location-Nominal 1151 1159	芬芳扑鼻的百花中
+T116	Thing-Nominal 1160 1161	剑
+T117	Person-Name 1169 1171	秋瑾
+*	Coreference T113 T117 T118
+T118	Person-Pronoun 1175 1176	你
+T119	Time-Implicit 1191 1196	一百多年来
+T120	Person-Name 1197 1201	秋瑾女侠
+T121	Location-Name 1208 1211	漳江畔
+T122	Location-Name 1217 1221	漳州平原
+T123	Person-Pronoun 1222 1223	你
+T124	Person-Name 1243 1252	抗日女英雄――李林
+T125	Location-Nominal 1228 1232	我们周围
+T126	Person-Nominal 1235 1237	人们
+T127	Person-Nominal 1253 1257	华侨学生
+T128	Location-Nominal 1258 1260	国外
+T129	Person-Nominal 1263 1265	父母
+T130	Person-Pronoun 1275 1276	你
+R7	Ownership Arg1:T127 Arg2:T128	
+T131	Abstract 1283 1292	“花木兰替父从军”
+T132	Person-Pronoun 1298 1299	你
+T133	Person-Nominal 1301 1308	婷婷玉立的少女
+T134	Time-Implicit 1297 1309	当你还是婷婷玉立的少女时
+T135	Location-Nominal 1317 1324	日思夜想的祖国
+T136	Organization-Name 1328 1342	爱国侨领陈嘉庚创办的集美中学
+T137	Person-Name 1332 1335	陈嘉庚
+T138	Abstract 1343 1350	“九一八”事变
+T139	Time-Implicit 1343 1351	“九一八”事变后
+T140	Person-Pronoun 1352 1353	你
+T141	Location-Nominal 1355 1357	街头
+T142	Organization-Name 1369 1375	抗日救国运动
+T143	Person-Pronoun 1376 1377	你
+T144	Person-Nominal 1378 1380	自己
+T145	Person-Nominal 1410 1412	老师
+T146	Person-Pronoun 1414 1415	你
+T147	Metric 1415 1418;1419 1420	105 分
+T148	Person-Pronoun 1446 1447	你
+T149	Thing-Nominal 1449 1451	旗袍
+T150	Thing-Nominal 1454 1456	军装
+R8	Part-Whole Arg1:T150 Arg2:T148	
+T151	Person-Nominal 1471 1479	年轻的女共产党员
+T152	Location-Name 1481 1483	大同
+T153	Person-Pronoun 1488 1489	你
+T154	Abstract 1492 1500	《义勇军进行曲》
+T155	Organization-Name 1504 1515	雁北抗日游击队第八支队
+T156	Location-Nominal 1517 1521	敌人后方
+T157	Organization-Name 1524 1529	抗日根据地
+T158	Organization-Nominal 1530 1532	队伍
+T159	Person-Pronoun 1536 1537	你
+T160	Person-Nominal 1539 1548;1549 1555	八路军雁北第六支队 骑兵营教导员
+T161	Person-Pronoun 1556 1557	你
+T162	Metric 1559 1563	2.7米
+T163	Thing-Name 1559 1574	2.7米高的蒙古烈马“菊花青”
+T164	Person-Nominal 1582 1584	骑兵
+T165	Person-Nominal 1592 1594	日寇
+T166	Person-Nominal 1599 1601	日军
+T167	Metric 1602 1606	五千大洋
+T168	Thing-Nominal 1608 1609;1610 1613	你 的头颅
+T169	Person-Pronoun 1608 1609	你
+R9	Part-Whole Arg1:T168 Arg2:T169	
+T170	Person-Pronoun 1615 1616	你
+T171	Person-Nominal 1626 1628	日寇
+T172	Person-Nominal 1637 1641	日本鬼子
+T173	Person-Name 1646 1657	八路军120师师长贺龙
+T174	Person-Pronoun 1659 1660	你
+T175	Person-Nominal 1662 1668	我们的女英雄
+T176	Person-Nominal 1669 1670;1671 1672	鬼 子
+T177	Person-Pronoun 1674 1675	你
+T178	Time-Implicit 1698 1705	1940年1月
+T179	Person-Pronoun 1706 1707	你
+T180	Person-Nominal 1714 1722	晋绥边区秘书主任
+T181	Person-Nominal 1723 1732	晋西北行政公署委员
+*	Coreference T180 T179 T181
+T182	Time-Implicit 1733 1735	4月
+T183	Person-Nominal 1736 1738	日寇
+T184	Location-Name 1749 1758	边区特委、专署机关
+T185	Person-Nominal 1762 1764	领导
+T186	Person-Nominal 1765 1767	群众
+T187	Person-Pronoun 1772 1773	你
+T189	Thing-Nominal 1790 1792	大刀
+T190	Location-Nominal 1793 1797	鬼子头上
+T191	Person-Nominal 1800 1802	日寇
+T192	Person-Pronoun 1807 1809	你们
+T193	Organization-Name 1822 1825	骑兵营
+T188	Organization-Name 1775 1778	骑兵营
+T194	Person-Nominal 1828 1832	许多同志
+R10	Ownership Arg1:T194 Arg2:T193	
+T195	Person-Pronoun 1833 1834	你
+T196	Person-Pronoun 1844 1845	你
+T197	Location-Nominal 1841 1843	马下
+T198	Person-Nominal 1851 1855	6名敌人
+T199	Metric 1851 1853	6名
+T200	Thing-Nominal 1861 1865	一颗子弹
+T201	Person-Nominal 1867 1869	自己
+R11	Use Arg1:T196 Arg2:T200	
+T202	Person-Pronoun 1895 1896	你
+T203	Metric 1906 1909	24岁
+T204	Time-Implicit 1915 1921	新中国成立后
+T205	Person-Name 1922 1927	周恩来总理
+T206	Organization-Name 1932 1936	雁北地委
+T207	Person-Name 1943 1945	李林
+T208	Time-Implicit 1958 1974	在那纪念抗战胜利60周年的日子里
+T209	Person-Pronoun 1975 1977	我们
+T210	Person-Pronoun 1982 1983	你
+T211	Thing-Name 1985 1993	高大的“菊花青”
+T212	Location-Nominal 1999 2001	故乡
+T213	Person-Pronoun 2004 2005	你
+T214	Location-Nominal 2011 2013	母校
+T215	Person-Pronoun 2014 2015	你
+T216	Location-Name 2022 2027	集美校园里
+*	Coreference T216 T214
+R12	Ownership Arg1:T215 Arg2:T216	
+T217	Person-Nominal 2031 2035	母校师生
+T218	Person-Nominal 2041 2044	故乡人
+T219	Abstract 2049 2055	《侨女英魂》
+T220	Person-Pronoun 2058 2059	你
+T221	Person-Nominal 2065 2069;2070 2073	一位华侨 小姑娘
+T222	Person-Pronoun 2083 2084	她
+*	Coreference T222 T221
+T223	Person-Name 2088 2092	李林姐姐
+T224	Thing-Nominal 2094 2096	飞马
+T225	Location-Name 2099 2101	东海
+T226	Location-Name 2102 2104	南海

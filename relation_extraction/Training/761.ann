@@ -1,0 +1,211 @@
+T1	Time-Implicit 0 4	马年春节
+T2	Person-Nominal 5 8	孩子们
+T3	Location-Nominal 15 17	家乡
+T4	Person-Nominal 18 21	一家人
+T5	Person-Nominal 42 43	人
+T6	Time-Implicit 46 48	今天
+T7	Person-Nominal 57 58	人
+T8	Person-Nominal 64 67	孩子们
+T9	Time-Implicit 64 70	孩子们小时候
+T10	Person-Nominal 91 94	一家人
+T11	Time-Implicit 79 81	今天
+*	Coreference T11 T6
+T12	Time-Implicit 100 112	40年前孩子们还小的时候
+T13	Person-Nominal 104 107	孩子们
+T14	Person-Nominal 116 117	我
+T15	Person-Nominal 118 122	孩子他爸
+R1	Family Arg1:T14 Arg2:T15	
+T16	Person-Nominal 138 140	孩子
+T17	Metric 136 138	四个
+R2	Family Arg1:T16 Arg2:T15	
+R3	Family Arg1:T14 Arg2:T16	
+T18	Person-Pronoun 148 149	我
+*	Coreference T18 T14
+T19	Person-Nominal 150 152	老伴
+*	Coreference T19 T15
+T20	Organization-Nominal 153 159	山里面的学校
+T21	Person-Nominal 162 166	山区农民
+T22	Location-Nominal 162 164	山区
+T23	Person-Pronoun 176 177	我
+T24	Person-Nominal 178 181	孩子们
+T25	Person-Nominal 182 186	我的孩子
+*	Coreference T25 T24
+T26	Person-Nominal 187 193	农民家的孩子
+R4	Family Arg1:T26 Arg2:T21	
+T27	Location-Nominal 196 197	山
+T28	Thing-Nominal 198 199	草
+T29	Thing-Nominal 201 202	药
+T30	Thing-Nominal 204 206	松球
+T31	Person-Nominal 225 228	孩子们
+T32	Thing-Nominal 229 231	身体
+R5	Part-Whole Arg1:T32 Arg2:T31	
+T33	Time-Implicit 260 262	那时
+T34	Thing-Nominal 268 269	羊
+T35	Metric 266 268	一只
+T36	Person-Nominal 270 273	孩子们
+T37	Time-Implicit 273 275	每天
+T38	Thing-Nominal 280 281	羊
+T39	Location-Nominal 283 285	山上
+T40	Person-Pronoun 288 290	自己
+*	Coreference T40 T36 T45 T48
+T41	Thing-Nominal 293 298	长长的鞭子
+T42	Metric 291 293	一只
+T43	Location-Nominal 301 304	半山坡
+T44	Thing-Nominal 306 311	初升的太阳
+T45	Person-Pronoun 314 316	他们
+T46	Thing-Nominal 317 319	蓝天
+T47	Thing-Nominal 319 320;321 322	白 云
+T48	Person-Pronoun 325 327	他们
+T49	Thing-Nominal 333 339	绿油油的小草
+T50	Metric 331 333	一片
+T51	Thing-Nominal 343 348	高耸的山坡
+T52	Thing-Nominal 349 350	羊
+T53	Thing-Nominal 355 356	草
+T54	Person-Nominal 357 360	孩子们
+T55	Location-Nominal 372 374	山谷
+T56	Person-Nominal 416 419	孩子们
+T57	Location-Nominal 423 425	深山
+T58	Thing-Nominal 426 427	药
+T59	Thing-Nominal 429 430	药
+T60	Location-Nominal 435 443	离家十几里的深山
+*	Coreference T60 T57 T69
+T61	Time-Implicit 448 453	夜里12点
+T62	Person-Nominal 462 465	孩子们
+T63	Thing-Nominal 467 468	镢
+T64	Thing-Nominal 470 471;472 473	篓 子
+T65	Thing-Nominal 475 477	干粮
+T66	Person-Nominal 478 482	十几个人
+T67	Time-Implicit 485 488	天亮时
+T68	Thing-Nominal 496 497	药
+T69	Location-Nominal 490 493	目的地
+T70	Time-Implicit 498 500	那时
+T71	Thing-Nominal 505 507	桔梗
+T72	Thing-Nominal 512 513	苗
+T73	Metric 510 512	一棵
+T74	Thing-Nominal 515 517	镢头
+T75	Thing-Nominal 521 523	右手
+T76	Thing-Nominal 525 526	镢
+*	Coreference T76 T74
+T77	Thing-Nominal 527 529	左手
+T78	Thing-Nominal 530 531	药
+T79	Thing-Nominal 536 538	眼睛
+T80	Thing-Nominal 564 569	自带的干粮
+T81	Thing-Nominal 574 575	手
+T82	Thing-Nominal 576 579	山泉水
+T83	Thing-Nominal 581 584	山泉水
+T84	Thing-Nominal 585 588	矿物质
+R6	Part-Whole Arg1:T84 Arg2:T83	
+T85	Person-Nominal 598 601	孩子们
+T86	Thing-Nominal 604 605	手
+T87	Time-Implicit 641 648	下午的4点多钟
+T88	Person-Nominal 657 660	孩子们
+T89	Thing-Nominal 661 662	药
+T90	Thing-Nominal 672 674	篓子
+T91	Thing-Nominal 681 683	包袱
+T92	Thing-Nominal 687 689	镢头
+T93	Person-Nominal 719 722	孩子们
+T94	Location-Nominal 704 705	山
+T95	Person-Pronoun 729 731	他们
+*	Coreference T95 T93
+T96	Thing-Nominal 733 734	药
+T97	Thing-Nominal 749 751	汽车
+T98	Organization-Nominal 759 760;761 767	崂 山顶上的部队
+T99	Thing-Nominal 768 771	解放车
+T100	Thing-Nominal 775 777	物品
+T101	Person-Nominal 782 785	孩子们
+T102	Thing-Nominal 786 787	药
+T103	Location-Nominal 782 790	孩子们采药的地方
+T104	Thing-Nominal 794 795	车
+T105	Person-Pronoun 801 803	他们
+*	Coreference T105 T101
+T106	Thing-Nominal 808 812	大部分人
+T107	Person-Nominal 825 826	人
+T108	Metric 823 825	三个
+T109	Thing-Nominal 833 835	肚子
+T110	Person-Pronoun 851 852	他
+R7	Part-Whole Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 853 854	车
+T112	Thing-Nominal 859 861	他们
+T113	Thing-Nominal 864 865	手
+T114	Person-Nominal 871 873	叔叔
+T115	Person-Pronoun 875 876	他
+T116	Person-Pronoun 878 879	他
+*	Coreference T115 T110 T116
+T117	Thing-Nominal 889 892	解放车
+T118	Thing-Nominal 895 898	孩子们
+T119	Thing-Nominal 904 905	车
+*	Coreference T119 T117
+T120	Thing-Nominal 908 913	开车的战士
+T121	Thing-Nominal 915 918	孩子们
+T122	Person-Pronoun 932 934	他们
+R8	Create Arg1:T122 Arg2:T121	
+T123	Location-Nominal 937 939	山下
+T124	Person-Nominal 945 947	他们
+T125	Person-Pronoun 951 953	自己
+*	Coreference T125 T124 T130
+T126	Person-Nominal 962 967	解放军叔叔
+T127	Person-Nominal 977 979	叔叔
+*	Coreference T127 T126 T128 T131
+T128	Person-Pronoun 986 987	您
+T129	Thing-Nominal 988 989	车
+T130	Person-Pronoun 995 997	他们
+T131	Person-Nominal 1010 1018	开车的解放军战士
+T132	Person-Nominal 1023 1026	孩子们
+T133	Time-Implicit 1026 1029	小时候
+T134	Location-Nominal 1048 1050	山上
+T135	Thing-Nominal 1051 1052	草
+T136	Location-Nominal 1058 1063	陡峭的山崖
+T137	Metric 1056 1058	一个
+T138	Metric 1067 1069	一个
+T139	Thing-Nominal 1069 1071	小洞
+T140	Thing-Nominal 1080 1082	草窝
+T141	Metric 1078 1080	一个
+T142	Thing-Nominal 1097 1100	野鸡蛋
+R9	Located Arg1:T142 Arg2:T140	
+T143	Metric 1094 1097	好几个
+T144	Person-Name 1107 1110	哥伦布
+T145	Location-Nominal 1113 1116	新大陆
+T146	Person-Nominal 1117 1120	孩子们
+T147	Person-Nominal 1127 1128	人
+T148	Person-Nominal 1145 1147	孩子
+T150	Thing-Nominal 1153 1155	野鸡
+T151	Thing-Name 1159 1163	野鸡妈妈
+*	Coreference T151 T150
+T152	Thing-Nominal 1168 1170	孩子
+T149	Thing-Nominal 1153 1158	野鸡的孩子
+*	Coreference T149 T152
+T153	Person-Nominal 1176 1179	孩子们
+T154	Thing-Nominal 1193 1196	野鸡蛋
+T155	Location-Nominal 1199 1201	草窝
+T156	Person-Pronoun 1218 1220	他们
+*	Coreference T156 T153 T160
+T157	Thing-Nominal 1224 1226	老鹰
+T158	Metric 1222 1224	一只
+T159	Thing-Nominal 1273 1275	白毛
+T160	Person-Nominal 1257 1259	大家
+T161	Metric 1271 1273	一堆
+T162	Thing-Nominal 1278 1280	野鸡
+T163	Metric 1276 1278	一只
+T164	Thing-Nominal 1292 1307	只从老鹰嘴里夺下来的“战利品”
+*	Coreference T164 T162 T166
+T165	Thing-Nominal 1310 1313	孩子们
+T166	Thing-Nominal 1313 1320	大快朵颐的美味
+T167	Person-Pronoun 1322 1323	我
+T168	Thing-Nominal 1324 1327	孩子们
+T169	Location-Nominal 1332 1334	山村
+T170	Location-Nominal 1362 1364	大山
+T171	Person-Pronoun 1366 1368	他们
+R10	Create Arg1:T171 Arg2:T168	
+T172	Thing-Nominal 1368 1373	健康的体魄
+R11	Part-Whole Arg1:T172 Arg2:T171	
+T173	Person-Nominal 1420 1425	社会的精英
+T174	Person-Pronoun 1412 1414	他们
+*	Coreference T173 T174 T176
+R12	Create Arg1:T174 Arg2:T168	
+T175	Time-Implicit 1414 1416	现在
+T176	Person-Pronoun 1453 1455	自己
+T177	Thing-Nominal 1463 1465	万物
+T178	Thing-Nominal 1468 1469	草
+T179	Thing-Nominal 1470 1471	莺
+T180	Person-Pronoun 1481 1482	我
+T181	Person-Nominal 1484 1489	山区的人民

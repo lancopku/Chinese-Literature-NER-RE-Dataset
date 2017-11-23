@@ -1,0 +1,125 @@
+T1	Person-Pronoun 0 1	你
+T2	Location-Nominal 3 9	浩瀚的江面上
+T3	Thing-Nominal 9 13	文艺舞台
+R1	Located Arg1:T3 Arg2:T2	
+T4	Location-Name 21 25	桂林阳朔
+T5	Person-Pronoun 40 41	你
+T6	Thing-Nominal 52 60;61 65	好大一个水上演出 的舞台!
+T7	Thing-Pronoun 65 66	这
+T8	Thing-Nominal 69 74	传说的神话
+T9	Thing-Nominal 78 87	无中生有的异想天开
+T10	Person-Pronoun 88 90	我们
+T12	Thing-Nominal 100 108	专场文艺演唱节目
+T11	Time-Implicit 91 97	4月25日晚
+R2	Use Arg1:T10 Arg2:T12	
+T13	Person-Nominal 114 117	演员们
+T14	Location-Name 120 121;122 123	漓 江
+T15	Location-Nominal 120 121;122 126	漓 江水面上
+R3	Part-Whole Arg1:T15 Arg2:T14	
+T16	Location-Name 137 139	桂林
+R4	Part-Whole Arg1:T4 Arg2:T16	
+T17	Person-Nominal 146 148	友人
+T18	Person-Name 152 157	张艺谋导演
+T19	Thing-Nominal 158 169	这个庞大的露天江上一幕
+T20	Person-Pronoun 170 171	我
+T21	Person-Pronoun 172 173	他
+*	Coreference T21 T17
+R5	Social Arg1:T20 Arg2:T21	
+T22	Thing-Nominal 176 178	烟波
+T23	Location-Nominal 174 176	江上
+R6	Located Arg1:T22 Arg2:T23	
+T24	Person-Nominal 189 190	人
+T25	Person-Pronoun 200 201	他
+T26	Person-Nominal 204 206	演员
+T27	Location-Nominal 207 209	船上
+T28	Thing-Nominal 207 208	船
+T29	Person-Pronoun 218 219	我
+T30	Person-Nominal 221 230	《西游记》里老乌龟
+T31	Person-Nominal 232 236	唐僧师徒
+R7	Social Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 251 254;255 256	海上鲸 鱼
+T33	Location-Nominal 257 262	惊涛骇浪中
+R8	Located Arg1:T32 Arg2:T33	
+T34	Thing-Nominal 278 290	“春江水暖鸭先知”的诗句
+T35	Person-Pronoun 322 323	我
+T36	Person-Nominal 325 327	孩童
+T37	Person-Nominal 328 330	老人
+T38	Thing-Nominal 331 333	故事
+T39	Thing-Nominal 346 348	砂锅
+T40	Thing-Nominal 362 364	液体
+T41	Thing-Nominal 365 367	舞台
+T42	Time-Implicit 371 380	那天晚上9点20分
+T43	Person-Pronoun 381 383	我们
+T44	Location-Nominal 398 402	二排中间
+T45	Thing-Nominal 404 406	舞台
+T46	Thing-Nominal 386 391	第二场演出
+T47	Thing-Nominal 299 303	水上演出
+T48	Thing-Nominal 28 39	《印象・刘三姐》的演出
+T49	Thing-Nominal 440 444	银色灯光
+T50	Location-Nominal 445 449	舞台左侧
+R9	Located Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 454 456	音响
+T52	Person-Name 473 476	刘三姐
+T53	Person-Pronoun 469 470	我
+T54	Person-Nominal 497 500	演员们
+T55	Person-Nominal 517 520	演员们
+T56	Person-Nominal 528 532	当地农民
+T57	Person-Nominal 533 537	工作人员
+T58	Person-Nominal 541 543	学生
+T59	Person-Nominal 548 553;554 558	受过专业训 练的人员
+T60	Person-Pronoun 559 561	他们
+*	Coreference T60 T55
+T61	Person-Nominal 569 573	本地居民
+R10	General-Special Arg1:T61 Arg2:T56	
+R11	General-Special Arg1:T61 Arg2:T57	
+R12	General-Special Arg1:T61 Arg2:T58	
+T62	Person-Name 589 592	刘三姐
+T63	Person-Pronoun 598 600	他们
+T64	Thing-Nominal 602 604	灯光
+T65	Thing-Nominal 625 627	音响
+T66	Person-Nominal 633 636	演员们
+T67	Location-Nominal 637 641	四面八方
+T68	Location-Nominal 653 657	舞台前沿
+T69	Person-Nominal 668 670	人员
+T70	Person-Nominal 680 681	人
+T71	Time-Implicit 696 699	一会儿
+T72	Time-Implicit 715 718	一会儿
+T73	Person-Nominal 701 703	仙女
+T74	Person-Nominal 728 730	农民
+T75	Person-Nominal 718 722	三两儿童
+T76	Thing-Nominal 731 732	犁
+T77	Thing-Nominal 733 734	牛
+T78	Thing-Nominal 735 736;737 738	母 牛
+T79	Thing-Nominal 742 747	一头小奶牛
+T80	Metric 742 744	一头
+T81	Location-Nominal 735 736;737 739	母 牛后
+R13	Located Arg1:T79 Arg2:T81	
+T82	Location-Pronoun 753 755	这边
+T83	Person-Name 755 757	嫦娥
+T84	Location-Name 758 760	月宫
+T85	Location-Pronoun 766 768	那边
+T86	Thing-Nominal 768 769	鸡
+T87	Thing-Nominal 770 771	狗
+T88	Person-Nominal 773 775	行人
+T89	Thing-Nominal 779 780	纱
+T90	Thing-Nominal 781 782	衣
+T91	Thing-Nominal 788 790	蟋蟀
+T92	Location-Nominal 803 805	农村
+T93	Time-Implicit 819 826	全场进入尾声时
+T94	Person-Nominal 843 860	一拨又一拨的王村、西山等村庄的农民
+T95	Thing-Nominal 862 864	竹筏
+R14	Use Arg1:T94 Arg2:T95	
+T96	Person-Nominal 866 869	一大汉
+T97	Thing-Nominal 872 874	划手
+R15	Use Arg1:T94 Arg2:T97	
+T98	Location-Nominal 875 877	台前
+T99	Thing-Nominal 878 879	鱼
+T100	Thing-Pronoun 883 884	这
+T101	Person-Nominal 887 892	水乡捕鱼者
+T102	Person-Nominal 894 906	日出而作，日落而息的农民
+T103	Location-Nominal 887 889	水乡
+T104	Person-Pronoun 907 908	我
+T105	Thing-Nominal 914 918	这场演出
+T106	Person-Name 923 926	刘三姐
+T107	Person-Nominal 947 950	参观者
+T108	Person-Pronoun 963 964	你

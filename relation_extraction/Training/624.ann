@@ -1,0 +1,163 @@
+T1	Time-Explicit 0 2	秋天
+T2	Thing-Nominal 24 26	黄叶
+T3	Thing-Nominal 28 30	北雁
+T4	Thing-Nominal 43 44	山
+T5	Thing-Nominal 52 54	霜叶
+T6	Time-Explicit 74 76	秋天
+T7	Person-Nominal 80 85	幽怨的诗人
+T8	Person-Nominal 102 107	豪放的诗人
+T9	Time-Explicit 110 112	秋日
+T10	Person-Name 129 132	刘禹锡
+T11	Person-Pronoun 143 144	我
+T12	Person-Name 155 157	苏轼
+T13	Person-Nominal 211 221	快乐的播种者和劳作者
+T14	Person-Nominal 228 230	诗人
+T15	Thing-Nominal 262 264	果蔬
+T16	Thing-Nominal 257 258	棉
+T17	Thing-Nominal 252 254	五谷
+T18	Person-Nominal 276 279	劳作者
+T19	Person-Pronoun 299 301	他们
+T20	Thing-Nominal 375 376	瓜
+T21	Thing-Nominal 377 378	瓜
+T22	Thing-Nominal 380 381	豆
+T23	Thing-Nominal 382 383	豆
+T24	Person-Pronoun 384 386	我们
+T25	Person-Pronoun 399 401	我们
+T26	Person-Nominal 482 485	劳动者
+T27	Person-Nominal 492 497	不劳而获者
+T28	Person-Nominal 510 513	失败者
+T29	Person-Nominal 527 530	劳作者
+T30	Person-Nominal 548 551	收获者
+T31	Person-Nominal 557 562	不劳而获者
+T32	Person-Nominal 635 638	成功者
+T33	Person-Nominal 646 649	失意者
+T34	Person-Pronoun 654 655	你
+T35	Person-Pronoun 662 663	你
+T36	Person-Pronoun 680 681	你
+T37	Thing-Nominal 705 709	你的汗水
+T38	Thing-Nominal 715 717;718 721	明年 的花朵
+T39	Person-Pronoun 729 730	你
+T40	Person-Pronoun 747 748	你
+T41	Person-Pronoun 766 767	你
+T42	Person-Pronoun 773 774	你
+T43	Person-Pronoun 792 793	你
+T44	Person-Pronoun 850 852	我们
+T45	Person-Pronoun 961 962	我
+T46	Person-Pronoun 960 961	你
+T47	Person-Nominal 998 1000	人人
+T48	Person-Nominal 1042 1045	乐观者
+T49	Person-Nominal 1048 1050;1051 1052	悲观 者
+T50	Person-Nominal 1055 1058	乐观者
+T51	Person-Nominal 1096 1099	悲观者
+T52	Person-Nominal 1136 1139	一个人
+T53	Person-Nominal 1149 1155	白发苍苍老人
+T54	Thing-Nominal 1185 1187	朝露
+T55	Person-Name 1196 1206	明朝的画家、诗人唐寅
+T56	Person-Name 1215 1217	杜甫
+T57	Abstract 1225 1230	《七十词》
+T58	Person-Pronoun 1270 1271	我
+T59	Person-Name 1370 1379	法国思想家帕斯卡尔
+T60	Person-Pronoun 1431 1432	他
+T61	Thing-Nominal 1406 1414	一根能思想的苇草
+T62	Person-Pronoun 1444 1445	他
+T63	Person-Pronoun 1459 1460	他
+T64	Person-Nominal 1462 1463	人
+T65	Person-Pronoun 1469 1470	他
+T66	Thing-Nominal 1468 1475	致他死命的东西
+T67	Person-Pronoun 1483 1484	他
+T68	Person-Pronoun 1497 1498	他
+T69	Person-Pronoun 1509 1510	他
+T70	Person-Pronoun 1521 1523	我们
+T71	Person-Nominal 1561 1563	人人
+T72	Person-Nominal 1620 1623	一个人
+T73	Thing-Nominal 1710 1712	五谷
+T74	Thing-Nominal 1705 1707	果实
+T75	Thing-Nominal 1793 1798	美丽的草原
+T76	Thing-Nominal 1799 1801	河流
+T77	Thing-Nominal 1805 1807	田野
+T78	Thing-Nominal 1808 1810	蓝天
+T79	Thing-Nominal 1811 1813	白云
+T80	Person-Pronoun 1918 1919	你
+T81	Person-Nominal 1963 1969	积极向上的人
+T82	Person-Nominal 2063 2064	人
+T83	Person-Nominal 2101 2102	人
+T84	Person-Nominal 2114 2119	自然的主人
+T85	Person-Nominal 2120 2122	人们
+T86	Thing-Nominal 2147 2149	果实
+T87	Person-Pronoun 2158 2159	我
+T88	Person-Pronoun 2175 2176	我
+T89	Thing-Pronoun 2197 2198	它
+T90	Thing-Nominal 3084 3089	秋天的枯叶
+T91	Person-Name 3101 3103	凯勒
+T92	Person-Name 3097 3100	张海迪
+T93	Thing-Nominal 3136 3141	自己的双手
+T94	Person-Name 3182 3186	巴尔扎克
+T95	Person-Nominal 3175 3180	人生的老师
+T96	Person-Pronoun 3057 3058	你
+T97	Person-Pronoun 2816 2817	她
+T98	Person-Name 2748 2758	美国女学者海伦・凯勒
+T99	Person-Pronoun 2770 2771	她
+*	Coreference T99 T98 T101 T97
+T100	Person-Nominal 2785 2788	普通人
+T101	Person-Nominal 2804 2808;2809 2815	一位著名 的社会活动家
+T102	Person-Nominal 2828 2830	聋子
+T103	Person-Nominal 2840 2842	瞎子
+T104	Person-Nominal 2858 2869;2870 2877	从来没有体会过失去视力 和听力痛苦的人
+T105	Person-Pronoun 2897 2898	她
+T106	Person-Pronoun 2901 2902	她
+T107	Person-Pronoun 2910 2911	她
+T108	Person-Nominal 2929 2930;2931 2934	亲 爱的人
+T109	Person-Pronoun 2936 2938	我们
+T110	Person-Pronoun 2956 2958	我们
+T111	Person-Nominal 2973 2976	年轻人
+T112	Person-Name 2985 2987	柳青
+T113	Person-Nominal 3020 3021	人
+T114	Person-Pronoun 3036 3037	你
+T115	Person-Pronoun 3046 3047	你
+T116	Person-Nominal 3050 3052;3053 3056	年轻 的朋友
+*	Coreference T96 T116
+T117	Thing-Nominal 2279 2281	山川
+T118	Thing-Nominal 2284 2285	草
+T119	Thing-Nominal 2291 2292	木
+T120	Thing-Nominal 2295 2296	叶
+T121	Person-Name 2300 2303	欧阳修
+T122	Abstract 2304 2309	《秋声赋》
+T123	Person-Pronoun 2325 2326	他
+T124	Person-Pronoun 2357 2358	他
+T125	Thing-Nominal 2488 2493	秋日的叶子
+T126	Time-Explicit 2511 2513	早晨
+T127	Thing-Nominal 2514 2515	天
+T128	Thing-Nominal 2521 2525	毛毛细雨
+T129	Thing-Nominal 2526 2530	深秋的天
+T130	Metric 2550 2554	数十分钟
+T131	Thing-Nominal 2556 2558	早饭
+T132	Thing-Nominal 2559 2561	太阳
+T133	Person-Pronoun 2582 2583	我
+T134	Person-Pronoun 2592 2593	你
+T135	Person-Pronoun 2617 2618	我
+T136	Person-Name 2621 2624	张海迪
+T137	Person-Nominal 2625 2631	这位残疾姑娘
+*	Coreference T137 T136 T138
+T138	Person-Pronoun 2650 2651	她
+T139	Person-Pronoun 2660 2661	她
+T140	Person-Pronoun 2677 2678	她
+T141	Person-Pronoun 2683 2684	她
+T142	Person-Pronoun 2696 2697	她
+T143	Thing-Nominal 2708 2710	树叶
+T144	Thing-Nominal 2729 2731	叶子
+R1	Social Arg1:T48 Arg2:T49	
+R2	Social Arg1:T51 Arg2:T50	
+R3	Social Arg1:T56 Arg2:T55	
+*	Coreference T58 T55
+T145	Thing-Nominal 1386 1390	一根苇草
+T146	Person-Nominal 1381 1382	人
+T147	Thing-Nominal 1392 1400;1401 1402	自然界最脆弱的东 西
+T148	Thing-Pronoun 1347 1348	它
+*	Coreference T68 T67 T69
+*	Coreference T84 T83
+*	Coreference T88 T87
+*	Coreference T123 T121 T124
+R4	Social Arg1:T135 Arg2:T136	
+*	Coreference T140 T139 T141
+*	Coreference T107 T105
+R5	Social Arg1:T91 Arg2:T92	

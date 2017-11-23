@@ -1,0 +1,169 @@
+T1	Location-Nominal 0 4	我的故乡
+T2	Location-Name 5 7	江南
+R1	Part-Whole Arg1:T1 Arg2:T2	
+T3	Location-Name 8 10	江南
+T4	Location-Nominal 11 20	一个四季分明的地方
+R2	General-Special Arg1:T4 Arg2:T3	
+T5	Metric 11 13	一个
+T6	Time-Implicit 21 26	过去的冬天
+T7	Thing-Nominal 35 37	百草
+T8	Thing-Nominal 40 42	万木
+T9	Time-Implicit 28 49	一派肃杀萧瑟，百草枯萎，万木凋零的寒冷季节
+*	Coreference T9 T6
+T10	Time-Explicit 53 62	1954年那个冬天
+T11	Person-Pronoun 69 70	我
+T12	Time-Explicit 75 78	这一年
+T13	Time-Explicit 53 58	1954年
+*	Coreference T12 T13
+T14	Person-Nominal 83 85	父母
+R3	Family Arg1:T14 Arg2:T11	
+T15	Thing-Nominal 90 91	船
+R4	Use Arg1:T14 Arg2:T15	
+T16	Person-Nominal 97 99	父亲
+T17	Person-Nominal 100 103	外祖母
+R5	Family Arg1:T17 Arg2:T16	
+R6	Part-Whole Arg1:T16 Arg2:T14	
+R7	Family Arg1:T17 Arg2:T11	
+R8	Family Arg1:T16 Arg2:T11	
+T18	Person-Pronoun 109 111	我们
+R9	Family Arg1:T18 Arg2:T17	
+R10	Family Arg1:T18 Arg2:T16	
+R11	Part-Whole Arg1:T11 Arg2:T18	
+R12	Family Arg1:T18 Arg2:T14	
+T19	Time-Implicit 113 119	这一年的冬天
+*	Coreference T19 T10
+T20	Time-Implicit 127 131	刚刚立冬
+T21	Thing-Nominal 146 149	西北风
+T22	Thing-Nominal 150 152	落叶
+T23	Thing-Nominal 154 156	尘土
+T24	Time-Implicit 163 165	这时
+T25	Thing-Nominal 165 166	风
+T26	Thing-Nominal 176 181	呼啸的吼声
+T27	Thing-Nominal 182 184	大风
+T28	Metric 186 190	一天一夜
+T29	Thing-Nominal 194 201	我家的茅屋草壁
+T30	Thing-Nominal 207 208	天
+T31	Thing-Nominal 226 230	鹅毛大雪
+T32	Location-Nominal 231 233;234 241	树上 ，路上，房子上
+T33	Location-Nominal 248 250	大地
+T34	Location-Nominal 255 257	路上
+T35	Person-Nominal 257 259	行人
+T36	Thing-Nominal 264 266	小鸟
+T37	Thing-Nominal 269 271	麻雀
+T38	Location-Nominal 273 276	屋檐下
+R13	Located Arg1:T37 Arg2:T38	
+T39	Location-Nominal 277 279	树上
+T40	Thing-Nominal 282 284	积雪
+R14	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 277 278	树
+T42	Thing-Nominal 286 288	树枝
+R15	Part-Whole Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 292 293	冰
+R16	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 297 300	冰淇淋
+T45	Thing-Nominal 303 306	珊瑚珠
+T46	Thing-Nominal 307 308	风
+T47	Thing-Nominal 309 311	树枝
+T48	Thing-Nominal 325 326	水
+T49	Thing-Nominal 327 328	冰
+T50	Thing-Nominal 329 335	刚洗过的毛巾
+T51	Location-Nominal 345 347	地上
+T52	Location-Nominal 354 355;356 363	小 河上，藕塘里，
+T53	Location-Name 364 369	偌大的汊湖
+T54	Thing-Nominal 372 378	一层厚厚的冰
+R17	Located Arg1:T54 Arg2:T53	
+R18	Located Arg1:T54 Arg2:T52	
+T55	Thing-Nominal 379 380	鸟
+T56	Thing-Nominal 385 386	鱼
+T57	Thing-Nominal 390 394	水底冰层
+R19	Located Arg1:T56 Arg2:T57	
+T58	Thing-Nominal 395 397	野鸭
+T59	Location-Nominal 398 400	冰上
+R20	Located Arg1:T58 Arg2:T59	
+T60	Thing-Nominal 403 405	大雁
+T61	Thing-Nominal 410 412	鱼儿
+T62	Thing-Nominal 413 414	冰
+T63	Location-Name 426 428	天山
+T64	Thing-Nominal 428 429	鸟
+T65	Thing-Nominal 432 434	万径
+T66	Person-Nominal 434 435	人
+T67	Person-Nominal 444 446	父亲
+T68	Thing-Nominal 444 448	父亲的船
+R21	Ownership Arg1:T67 Arg2:T68	
+T69	Location-Name 455 457	汊湖
+R22	Located Arg1:T68 Arg2:T69	
+T70	Person-Pronoun 460 461	他
+*	Coreference T70 T67
+T71	Person-Nominal 466 472	年迈的外祖母
+T72	Person-Pronoun 473 477	年幼的我
+*	Coreference T71 T17
+*	Coreference T72 T11
+T73	Person-Pronoun 480 481	他
+T74	Thing-Nominal 481 482	脚
+T75	Thing-Nominal 483 485	破布
+R23	Located Arg1:T75 Arg2:T74	
+T76	Thing-Nominal 489 490	风
+T77	Thing-Nominal 491 492	雪
+T78	Person-Pronoun 503 505	我们
+T79	Person-Pronoun 512 513	我
+T80	Time-Implicit 513 516	小时候
+T81	Time-Implicit 517 519	冬天
+T82	Thing-Nominal 528 529	冰
+T83	Thing-Nominal 530 531	雪
+T84	Thing-Nominal 535 539	烂袄破靴
+T85	Person-Pronoun 540 541	我
+R24	Use Arg1:T85 Arg2:T84	
+T86	Thing-Nominal 553 555	风雪
+T87	Thing-Nominal 557 559	凌冰
+T88	Thing-Nominal 566 567	手
+R25	Part-Whole Arg1:T88 Arg2:T85	
+T89	Thing-Nominal 569 577	房檐下长长的凌柱
+T90	Location-Nominal 569 572	房檐下
+R26	Located Arg1:T89 Arg2:T90	
+T91	Thing-Nominal 583 585	冰棍
+T92	Location-Nominal 580 582	口中
+T93	Location-Nominal 586 589	稻场上
+T94	Location-Nominal 590 593	屋门口
+T95	Person-Pronoun 594 596	我们
+T96	Thing-Nominal 599 601	雪人
+R27	Create Arg1:T95 Arg2:T96	
+T97	Thing-Nominal 602 609	孙悟空，猪八戒
+R28	General-Special Arg1:T96 Arg2:T97	
+T98	Location-Nominal 619 622	小河上
+T99	Location-Nominal 623 626	荷塘里
+T100	Person-Pronoun 626 628	我们
+T101	Thing-Nominal 632 633	冰
+T102	Thing-Nominal 639 641	大汗
+T103	Thing-Nominal 638 639	头
+T104	Thing-Nominal 642 643	脸
+T105	Thing-Nominal 644 646	热汗
+R29	Located Arg1:T105 Arg2:T104	
+R30	Located Arg1:T103 Arg2:T102	
+T106	Thing-Nominal 652 655	一把雪
+T107	Location-Nominal 657 659	嘴里
+R31	Located Arg1:T106 Arg2:T107	
+T108	Time-Implicit 669 672	有一天
+T109	Person-Pronoun 672 673	我
+T110	Thing-Nominal 687 688	冰
+T111	Person-Pronoun 699 700	我
+T112	Person-Pronoun 721 722	我
+T113	Time-Implicit 726 729	去冬天
+T114	Person-Nominal 740 741	人
+T115	Time-Implicit 752 757	那寒冷的冬
+T116	Thing-Nominal 758 764	美丽的冰和雪
+T117	Time-Implicit 766 768	如今
+T118	Time-Implicit 768 772	江南的冬
+T119	Time-Implicit 788 790	立冬
+T120	Time-Implicit 797 799	冬天
+T121	Time-Implicit 807 811	三月阳春
+T122	Location-Nominal 817 819	全球
+T123	Thing-Nominal 824 826;827 828	病虫 害
+T124	Thing-Nominal 831 835	自然灾害
+T125	Person-Nominal 840 842	人类
+T126	Person-Nominal 850 852	人们
+T127	Organization-Name 865 869	中国政府
+T128	Abstract 882 885	中国梦
+T129	Person-Pronoun 910 911	我
+T130	Time-Implicit 918 923	寒冷的冬天
+T131	Location-Name 925 927	江南
+T132	Time-Implicit 927 931	春夏秋冬

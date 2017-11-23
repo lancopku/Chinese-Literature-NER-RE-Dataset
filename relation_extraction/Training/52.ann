@@ -1,0 +1,384 @@
+T1	Time-Implicit 0 6	端午节的清晨
+T2	Person-Nominal 7 9	表兄
+T3	Location-Nominal 12 14	乡下
+T4	Location-Name 15 20	城里石码镇
+T5	Person-Pronoun 21 22	我
+R1	Family Arg1:T5 Arg2:T2	
+R2	Near Arg1:T4 Arg2:T3	
+T6	Person-Pronoun 28 29	我
+T7	Person-Pronoun 34 35	他
+T8	Thing-Nominal 36 40	电动舢舨
+R3	Use Arg1:T7 Arg2:T8	
+T9	Thing-Nominal 41 43	舢舨
+T10	Location-Name 47 51	九龙江面
+T11	Thing-Nominal 59 60;61 62	孔 雀
+T12	Thing-Nominal 70 72	舢舨
+T13	Location-Name 74 77	浒茂洲
+T14	Location-Name 78 81	角美镇
+T15	Location-Nominal 84 86	江面
+T16	Location-Name 104 108	港叉河口
+T17	Thing-Nominal 109 111	彩旗
+T18	Thing-Nominal 118 121	赛龙船
+R4	Located Arg1:T17 Arg2:T16	
+R5	Located Arg1:T18 Arg2:T16	
+T19	Person-Nominal 125 127	表兄
+T20	Person-Pronoun 129 130	我
+R6	Family Arg1:T19 Arg2:T20	
+T21	Time-Implicit 134 139	端午节期间
+T22	Location-Name 140 143	九龙江
+T23	Location-Nominal 144 146	北溪
+T24	Location-Nominal 147 149	西溪
+T25	Location-Nominal 150 152	南溪
+R7	Part-Whole Arg1:T23 Arg2:T22	
+R8	Part-Whole Arg1:T24 Arg2:T22	
+R9	Part-Whole Arg1:T25 Arg2:T22	
+R10	Near Arg1:T23 Arg2:T24	
+R11	Near Arg1:T24 Arg2:T25	
+R12	Near Arg1:T23 Arg2:T25	
+T26	Person-Pronoun 163 164	他
+*	Coreference T26 T19
+T27	Location-Name 171 176	九龙江南岸
+T28	Thing-Nominal 183 185	青山
+T29	Time-Explicit 195 197	宋代
+T30	Person-Name 197 199	朱熹
+T31	Person-Nominal 200 204	漳州知府
+*	Coreference T30 T31 T33 T35 T37
+T32	Time-Implicit 206 213	那一年的端午节
+T33	Person-Pronoun 214 215	他
+T34	Person-Nominal 216 217	百
+T35	Person-Nominal 229 231	自己
+T36	Location-Nominal 234 236	城门
+T37	Person-Name 243 245	朱熹
+T38	Person-Nominal 253 255	百姓
+T39	Thing-Nominal 256 259	旧木桥
+T40	Person-Nominal 285 287	人们
+T41	Thing-Nominal 290 291	桥
+T42	Person-Nominal 294 296	百姓
+*	Coreference T40 T42
+T43	Location-Nominal 311 313	两岸
+T44	Person-Nominal 315 317	百姓
+T46	Thing-Nominal 341 343	龙舟
+T47	Location-Nominal 344 346	桥下
+R13	Located Arg1:T46 Arg2:T47	
+T45	Location-Name 326 329	九龙江
+T48	Thing-Nominal 330 332	木桥
+T49	Thing-Nominal 355 357	木桥
+T50	Person-Name 363 366	!朱熹
+T51	Person-Nominal 373 374;375 376	公 差
+T52	Person-Nominal 281 283	公差
+R14	Social Arg1:T50 Arg2:T51	
+T53	Person-Name 382 387	朱知府大人
+T54	Time-Implicit 387 389	今天
+T55	Location-Name 391 394	白云岩
+T56	Person-Nominal 400 402	百姓
+T57	Person-Name 405 408	朱文公
+T58	Person-Pronoun 419 420	他
+*	Coreference T58 T57
+T59	Location-Nominal 437 441	白云岩下
+T60	Person-Nominal 444 446	公差
+T61	Location-Nominal 465 467	山下
+T62	Thing-Nominal 454 455	砖
+T63	Thing-Nominal 456 457	瓦
+T64	Thing-Nominal 468 470	砖瓦
+T65	Location-Nominal 475 477	山顶
+T66	Person-Name 480 483	朱知府
+T67	Thing-Nominal 484 485	轿
+R15	Use Arg1:T66 Arg2:T67	
+R16	Located Arg1:T64 Arg2:T65	
+T68	Person-Nominal 489 491	人们
+T69	Person-Name 497 500	朱大人
+T70	Person-Name 509 511	朱熹
+*	Coreference T70 T69
+T71	Location-Nominal 516 518	山下
+T72	Thing-Nominal 519 521	砖瓦
+T73	Location-Nominal 526 528	山顶
+T74	Person-Name 548 551	朱知府
+T75	Person-Pronoun 558 559	他
+T76	Thing-Name 560 565	漳州旧木桥
+T77	Person-Nominal 571 573	大家
+T78	Location-Name 574 577	白云岩
+T79	Thing-Nominal 604 606	砖瓦
+T80	Location-Nominal 616 618	山顶
+T81	Location-Name 623 627	白云书院
+T82	Organization-Name 631 634	漳州府
+T83	Location-Name 656 659	漳州城
+T84	Thing-Nominal 664 666	旧桥
+T85	Time-Explicit 681 683	宋代
+T86	Location-Nominal 683 685	闽南
+*	Coreference T75 T74
+R17	Part-Whole Arg1:T81 Arg2:T80	
+T87	Thing-Nominal 696 700	电动舢舨
+T88	Location-Name 703 706	玉江桥
+T89	Thing-Nominal 713 715	龙舟
+T90	Location-Name 722 736	九龙江下游一条宽阔的港叉道里
+T91	Person-Nominal 737 739	表兄
+T92	Location-Name 765 768	流传村
+T93	Location-Name 771 774	埔尾社
+T94	Time-Implicit 769 771	昨天
+T95	Time-Implicit 762 764	前天
+R18	Near Arg1:T92 Arg2:T93	
+T96	Time-Implicit 775 777	今天
+T97	Location-Name 779 783	石美埭头
+R19	Near Arg1:T97 Arg2:T93	
+R20	Near Arg1:T97 Arg2:T92	
+T98	Person-Nominal 784 786	大家
+T99	Thing-Nominal 787 789	龙船
+R21	Use Arg1:T98 Arg2:T99	
+T100	Thing-Nominal 800 802	舢舨
+T101	Location-Nominal 806 810	他家门口
+T102	Person-Nominal 813 815	舅母
+T103	Location-Name 816 818	临江
+T104	Location-Nominal 819 822	厨房里
+T105	Thing-Nominal 824 826	舢舨
+T106	Thing-Nominal 843 845	粽子
+T107	Thing-Nominal 853 855	蜂蜜
+T108	Thing-Nominal 868 870	肉粽
+T109	Thing-Nominal 871 873	豆粽
+T110	Thing-Nominal 875 877	碱粽
+R22	Part-Whole Arg1:T108 Arg2:T106	
+R23	Part-Whole Arg1:T109 Arg2:T106	
+R24	Part-Whole Arg1:T110 Arg2:T106	
+T111	Person-Pronoun 888 889	我
+R25	Family Arg1:T102 Arg2:T111	
+T112	Thing-Nominal 898 901	碱粽，
+T113	Location-Nominal 913 916	门框上
+T114	Thing-Nominal 919 922	石菖蒲
+T115	Thing-Nominal 923 925	艾草
+T116	Location-Nominal 928 930	闽南
+T117	Time-Implicit 939 941	儿时
+T118	Person-Nominal 941 943	外婆
+R26	Family Arg1:T111 Arg2:T118	
+T119	Time-Explicit 949 953	唐朝末年
+T120	Location-Name 961 963	浙江
+T121	Location-Name 965 967	闽南
+R27	Near Arg1:T120 Arg2:T121	
+T122	Person-Nominal 984 986	官军
+T123	Person-Name 954 956	黄巢
+T124	Person-Name 990 992	黄巢
+T125	Person-Name 993 995	黄巢
+T126	Person-Nominal 1006 1009	老百姓
+T127	Thing-Nominal 1001 1002	刀
+R28	Use Arg1:T124 Arg2:T127	
+T128	Location-Nominal 1012 1014	山里
+T129	Person-Nominal 1020 1022	百姓
+T130	Person-Name 1029 1031	黄巢
+T131	Person-Nominal 1034 1036	道人
+*	Coreference T130 T131 T132
+T132	Person-Pronoun 1040 1041	他
+T133	Location-Nominal 1049 1052	山涧旁
+T134	Person-Nominal 1066 1069	闽南人
+T135	Person-Nominal 1078 1080	人们
+T136	Person-Pronoun 1088 1089	他
+T137	Person-Name 1094 1096	黄巢
+*	Coreference T136 T137
+T138	Thing-Nominal 1102 1104	卤面
+T139	Location-Nominal 1119 1122	涧水旁
+T140	Thing-Nominal 1124 1126	艾叶
+T141	Thing-Nominal 1127 1130	石菖蒲
+R29	Located Arg1:T140 Arg2:T139	
+R30	Located Arg1:T141 Arg2:T139	
+T142	Thing-Nominal 1140 1142	菖蒲
+T143	Thing-Nominal 1146 1148	艾叶
+T144	Person-Nominal 1153 1155	百姓
+T145	Thing-Nominal 1159 1162	石菖蒲
+T146	Thing-Nominal 1163 1165	艾叶
+T147	Location-Nominal 1170 1173	大门上
+R31	Located Arg1:T146 Arg2:T147	
+R32	Located Arg1:T145 Arg2:T147	
+T148	Person-Nominal 1132 1134	大家
+*	Coreference T144 T148
+T149	Thing-Nominal 1179 1181	卤面
+T150	Time-Implicit 1192 1196	过了一天
+T151	Time-Explicit 1200 1204	五月初五
+T152	Person-Nominal 1205 1207	大家
+T153	Thing-Nominal 1210 1212	粽子
+T154	Thing-Nominal 1214 1216	龙舟
+T155	Person-Nominal 1231 1233	外婆
+T156	Person-Pronoun 1240 1241	我
+R33	Family Arg1:T156 Arg2:T155	
+T157	Thing-Nominal 1255 1258	五色丝
+T158	Person-Pronoun 1259 1260	我
+T159	Time-Implicit 1265 1268	长大后
+T160	Person-Name 1271 1276	闻一多先生
+T161	Location-Nominal 1302 1304	我国
+T162	Thing-Nominal 1314 1315	龙
+T163	Person-Pronoun 1317 1319	我们
+T164	Time-Implicit 1327 1332	两千多年前
+T165	Location-Name 1336 1338	闽粤
+T166	Thing-Nominal 1376 1378	竹筒
+T167	Thing-Nominal 1382 1384	树叶
+T168	Person-Nominal 1400 1406	闽南的古越人
+T169	Person-Nominal 1415 1417	自己
+*	Coreference T169 T168
+T170	Person-Nominal 1421 1423	外婆
+T171	Person-Pronoun 1424 1425	我
+R34	Family Arg1:T170 Arg2:T171	
+T172	Time-Implicit 1449 1451	古时
+T173	Thing-Nominal 1455 1456	龙
+T174	Location-Nominal 1461 1463	河里
+T175	Location-Name 1467 1470	九龙江
+T176	Location-Name 1476 1478	龙溪
+*	Coreference T176 T175
+T177	Person-Nominal 1480 1483	闽南人
+T178	Time-Explicit 1485 1491	农历五月初五
+T179	Thing-Nominal 1501 1504	独木舟
+R35	Use Arg1:T177 Arg2:T179	
+T180	Location-Nominal 1506 1508	江中
+T181	Thing-Nominal 1510 1512	九龙
+T182	Person-Nominal 1519 1523	河南百姓
+T183	Time-Explicit 1524 1526	唐朝
+T184	Person-Name 1527 1533;1534 1536	开漳圣王”陈 元光
+T185	Location-Name 1539 1541	闽南
+T186	Location-Name 1543 1545	中原
+R36	Near Arg1:T186 Arg2:T185	
+T187	Location-Name 1553 1557	九龙江畔
+T188	Person-Name 1571 1577	爱国诗人屈原
+T189	Person-Nominal 1582 1584	舅母
+T190	Location-Nominal 1585 1588	厨房里
+T191	Thing-Nominal 1601 1603	卤面
+T192	Thing-Nominal 1604 1607	油面条
+T193	Thing-Nominal 1610 1612	猪肉
+T194	Thing-Nominal 1613 1615	虾米
+T195	Thing-Nominal 1616 1618	蛋花
+T196	Thing-Nominal 1619 1621	香菇
+T197	Person-Name 1628 1630	黄巢
+T198	Person-Nominal 1634 1637	闽南人
+T199	Thing-Nominal 1655 1657	卤面
+T200	Thing-Nominal 1659 1661	面条
+T201	Person-Pronoun 1682 1683	我
+T202	Location-Nominal 1689 1691	村头
+T203	Person-Nominal 1701 1703	舅妈
+R37	Family Arg1:T201 Arg2:T203	
+T204	Thing-Nominal 1713 1715	龙船
+T205	Time-Implicit 1721 1724	小时候
+T206	Person-Pronoun 1725 1726	我
+T207	Person-Nominal 1735 1737	大人
+T208	Person-Nominal 1739 1740	神
+T209	Thing-Nominal 1744 1746	龙舟
+T210	Location-Nominal 1747 1750	长屋里
+T211	Person-Nominal 1754 1758	为首的人
+T212	Location-Nominal 1759 1763	龙船头顶
+T213	Thing-Nominal 1787 1789	龙船
+T214	Person-Nominal 1792 1794	大家
+T215	Thing-Nominal 1796 1798	龙舟
+R38	Create Arg1:T214 Arg2:T215	
+T216	Location-Nominal 1806 1808	江畔
+T217	Person-Nominal 1812 1814	乡亲
+T218	Thing-Nominal 1827 1829	龙舟
+T219	Metric 1831 1834	四五丈
+T220	Location-Nominal 1842 1844	船头
+T221	Thing-Nominal 1846 1848	龙头
+T222	Location-Nominal 1879 1882	表兄家
+T223	Location-Nominal 1885 1887	阳台
+T224	Location-Nominal 1891 1893	看台
+*	Coreference T223 T224
+R39	Part-Whole Arg1:T222 Arg2:T223	
+T225	Location-Nominal 1905 1909	石拱桥畔
+T226	Location-Nominal 1910 1913	榕树下
+T227	Thing-Nominal 1918 1921	旅游车
+T228	Thing-Nominal 1922 1927	私家小轿车
+T229	Person-Nominal 1930 1932	华侨
+T230	Person-Nominal 1933 1938	港澳台同胞
+T231	Thing-Nominal 1946 1948	龙舟
+T232	Location-Nominal 1951 1956	两岸竹丛中
+T233	Person-Nominal 1966 1968	观众
+T234	Location-Nominal 1969 1975	沿江的屋脊上
+T235	Person-Nominal 1979 1981	小孩
+T236	Person-Nominal 1982 1987	一些小伙子
+T237	Location-Nominal 1992 1994	河面
+T238	Thing-Nominal 1995 1997	榕树
+T240	Thing-Nominal 2003 2005	树枝
+R40	Part-Whole Arg1:T240 Arg2:T238	
+R41	Located Arg1:T238 Arg2:T237	
+T239	Thing-Nominal 2038 2040	龙舟
+T241	Location-Nominal 2042 2044	水面
+T242	Thing-Nominal 2052 2054	彩旗
+T243	Thing-Nominal 2065 2067	木桨
+T244	Time-Explicit 2088 2090	唐代
+T245	Person-Name 2090 2093	张建封
+T246	Location-Nominal 2162 2166	小河两岸
+T247	Location-Nominal 2174 2176	岸畔
+T248	Thing-Nominal 2186 2189	雨伞花
+T249	Thing-Nominal 2199 2201	雨伞
+T250	Person-Nominal 2203 2205	大人
+T251	Person-Nominal 2207 2209	小孩
+R42	Family Arg1:T251 Arg2:T250	
+T252	Person-Nominal 2210 2212	媳妇
+T253	Person-Nominal 2214 2216	婆婆
+R43	Family Arg1:T252 Arg2:T253	
+T254	Person-Pronoun 2217 2219	他们
+T255	Thing-Nominal 2223 2225	龙舟
+T256	Location-Nominal 2237 2239	堤岸
+T257	Person-Nominal 2251 2253	人们
+*	Coreference T254 T257
+T258	Thing-Nominal 2282 2285	小渡船
+T259	Location-Nominal 2299 2301	岸畔
+R44	Located Arg1:T258 Arg2:T259	
+T260	Person-Nominal 2307 2309	观众
+T261	Location-Name 2322 2325	石美村
+T262	Person-Pronoun 2336 2338	他们
+T263	Person-Nominal 2327 2331	业余歌仔
+*	Coreference T262 T263
+T264	Location-Nominal 2349 2351	船上
+T265	Thing-Nominal 2446 2448	龙舟
+T266	Person-Nominal 2510 2519	几位身材苗条的姑娘
+T267	Location-Nominal 2520 2522	岸畔
+T268	Person-Name 2626 2629	“水仙
+T269	Location-Nominal 2636 2638	阳台
+T270	Person-Nominal 2641 2644	位姑娘
+T271	Person-Nominal 2657 2660	小伙子
+T272	Thing-Nominal 2661 2663	龙舟
+*	Coreference T270 T268
+T273	Person-Nominal 2672 2674	少女
+T274	Thing-Nominal 2684 2686	粽子
+T275	Person-Nominal 2705 2707	死鬼
+*	Coreference T275 T271
+T276	Person-Nominal 2720 2722	姑娘
+T277	Person-Pronoun 2726 2727	她
+*	Coreference T277 T276 T279
+T278	Person-Nominal 2730 2732	姐妹
+T279	Person-Pronoun 2689 2690	她
+T280	Location-Name 2754 2757	九龙江
+T281	Person-Nominal 2759 2763	闽南人民
+T282	Person-Nominal 2773 2775	大家
+*	Coreference T282 T281
+T283	Person-Nominal 595 599	乡亲父老
+T284	Person-Nominal 643 645	众人
+T285	Location-Nominal 1387 1389	水中
+T286	Person-Nominal 1393 1396	图腾神
+T287	Time-Explicit 1358 1360	端午
+T288	Thing-Nominal 1372 1374	食物
+R45	Located Arg1:T288 Arg2:T166	
+R46	Located Arg1:T288 Arg2:T167	
+R47	Located Arg1:T288 Arg2:T285	
+T289	Thing-Nominal 1348 1350	龙子
+T290	Person-Nominal 2409 2413	男女老少
+T291	Thing-Nominal 2363 2365	龙舟
+T292	Time-Implicit 2368 2370	五月
+T293	Thing-Nominal 2376 2378	青龙
+T294	Thing-Nominal 2378 2380	红龙
+T295	Location-Nominal 2382 2384	大江
+T296	Thing-Nominal 2385 2387	船头
+T297	Thing-Nominal 2388 2389	鼓
+T298	Thing-Nominal 2390 2392	旗幡
+R48	Located Arg1:T297 Arg2:T296	
+R49	Located Arg1:T298 Arg2:T296	
+T299	Thing-Nominal 2393 2395	船尾
+T300	Time-Implicit 2401 2403	五月
+T301	Location-Nominal 2414 2416	两岸
+T302	Thing-Nominal 2430 2432	龙船
+T303	Thing-Nominal 2428 2429	粽
+T304	Thing-Nominal 2455 2456	锣
+T305	Thing-Nominal 2457 2458	鼓
+T306	Thing-Nominal 2459 2461	令旗
+T307	Thing-Nominal 2482 2483	桨
+T308	Person-Pronoun 2484 2485	你
+T309	Person-Pronoun 2487 2488	赶
+T310	Thing-Nominal 2528 2530	船头
+T311	Thing-Nominal 2531 2532	鼓
+T312	Thing-Nominal 2532 2533	旗
+T313	Thing-Nominal 2536 2538	船尾
+T314	Person-Nominal 2541 2543	郎君
+T315	Person-Nominal 2544 2545	妹
+T316	Thing-Nominal 2585 2587	龙舟
+T317	Thing-Nominal 2765 2767	稻花

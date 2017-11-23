@@ -1,0 +1,37 @@
+T1	Time-Implicit 0 5	夏天的早晨
+T2	Thing-Nominal 6 8	天空
+T3	Thing-Nominal 11 13	大地
+T4	Thing-Nominal 18 20	空气
+T5	Time-Implicit 29 31	仲夏
+T6	Time-Implicit 34 46	一个多雨而时冷时热的暑月
+T7	Time-Implicit 49 54	多少个时日
+T8	Time-Implicit 63 67	仲夏之晨
+T9	Abstract 72 75	端午节
+T10	Person-Pronoun 76 77	我
+T11	Person-Nominal 78 80	家人
+*	Coreference T11 T10
+T12	Person-Nominal 82 85	晚辈们
+T13	Thing-Nominal 91 93	粽子
+T14	Thing-Nominal 94 97	咸鸭蛋
+T15	Person-Pronoun 121 123	我们
+T16	Thing-Nominal 125 127	铁道
+T17	Thing-Nominal 127 131	地下涵洞
+T18	Location-Nominal 134 144	东岳山脚下的斜坡草坪
+T19	Thing-Name 134 137	东岳山
+T20	Thing-Nominal 146 148	旭日
+T21	Thing-Nominal 151 156	和谐的阳光
+T22	Thing-Nominal 159 172	雨后初醒、充满生机的绿草地
+T23	Thing-Nominal 174 176	露珠
+T24	Thing-Nominal 201 203	蓝天
+T25	Thing-Nominal 207 211	朵朵白云
+R1	Located Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 214 218	土埂小径
+T27	Location-Nominal 222 224	高地
+T28	Thing-Nominal 233 235	高楼
+T29	Thing-Nominal 240 242	微风
+T30	Thing-Nominal 246 250	淡淡粽叶
+T31	Thing-Nominal 251 253	粽子
+T32	Person-Nominal 258 261	小孙女
+T33	Thing-Nominal 277 278	马
+T34	Thing-Nominal 282 283	羊
+T35	Location-Nominal 300 303;304 310	夏天早 晨的东岳山坡

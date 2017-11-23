@@ -1,0 +1,163 @@
+T1	Person-Pronoun 0 6	年过花甲的我
+T3	Metric 45 49	半个世纪
+T2	Thing-Nominal 10 13	五谷树
+T4	Time-Implicit 51 54	小时候
+T5	Person-Pronoun 55 56	我
+*	Coreference T5 T1
+T6	Person-Nominal 60 63	乡亲们
+T7	Thing-Nominal 65 73	屋后祖传的五谷树
+T8	Location-Nominal 65 67	屋后
+R1	Located Arg1:T7 Arg2:T8	
+T9	Time-Implicit 78 80	此时
+T10	Person-Pronoun 81 82	我
+T11	Thing-Nominal 83 86	小口袋
+R2	Ownership Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 90 96	五谷树的果实
+R3	Part-Whole Arg1:T12 Arg2:T7	
+T13	Thing-Nominal 109 113	五谷树果
+*	Coreference T13 T12 T17
+T14	Time-Implicit 0 31;32 50;51 97;98 105	年过花甲的我，正做着五谷树的梦，梦的内函丰富又多彩,耐人寻味。 梦的成长、成熟过程，已跨越半个世纪。 小时候，我经常盼望乡亲们来看屋后祖传的五谷树，因为只有此时，我的小口袋才会装满五谷树的果实。 背上书包的日子
+T15	Person-Pronoun 106 107	我
+R4	Social Arg1:T6 Arg2:T5	
+T16	Person-Nominal 115 120	身边的同学
+R5	Social Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 121 130	形似鱼虾的五谷树果
+T18	Person-Nominal 130 133	同学们
+*	Coreference T18 T16
+T19	Time-Implicit 139 147	离家驻校读书期间
+T20	Time-Implicit 149 152	星期六
+T21	Location-Nominal 155 156	家
+T22	Metric 160 165	六天的时间
+T23	Location-Nominal 175 176	家
+T24	Thing-Nominal 184 190	心爱的五谷树
+*	Coreference T24 T7
+T25	Time-Implicit 192 203	文革开始前的一个星期六
+T26	Abstract 192 194	文革
+T27	Thing-Nominal 210 213	五谷树
+T28	Thing-Nominal 210 216	五谷树根断面
+R6	Part-Whole Arg1:T28 Arg2:T27	
+T29	Thing-Nominal 222 226	树干树果
+R7	Part-Whole Arg1:T29 Arg2:T27	
+T30	Person-Pronoun 231 232	我
+T31	Person-Nominal 234 239	身边的弟弟
+R8	Family Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 240 241	树
+*	Coreference T32 T27
+T33	Location-Pronoun 242 244	哪里
+T34	Person-Nominal 247 249	弟弟
+T35	Person-Pronoun 254 255	我
+T36	Thing-Nominal 257 258	树
+T37	Person-Nominal 259 261	母亲
+*	Coreference T34 T31
+R9	Family Arg1:T35 Arg2:T37	
+R10	Family Arg1:T37 Arg2:T34	
+T38	Person-Pronoun 271 272	我
+T39	Person-Nominal 275 277	母亲
+T40	Thing-Nominal 287 293	心爱的五谷树
+T41	Time-Implicit 294 299	后来的日子
+T42	Person-Pronoun 300 301	我
+T43	Person-Nominal 308 310	母亲
+T44	Thing-Nominal 326 329	五谷树
+T45	Person-Pronoun 324 325	我
+T46	Person-Nominal 331 333	母亲
+T47	Thing-Nominal 335 338	五谷树
+T48	Person-Nominal 339 341	母亲
+T49	Person-Pronoun 347 348	我
+T50	Thing-Nominal 354 357	五谷树
+T51	Person-Pronoun 359 361	我们
+T52	Person-Nominal 363 365	母亲
+T53	Thing-Nominal 379 382	五谷树
+T54	Person-Nominal 388 391	老人家
+*	Coreference T54 T52
+T55	Person-Pronoun 398 399	我
+T56	Thing-Nominal 401 404	五谷树
+T57	Time-Implicit 411 424	走上工作岗位的二十几个春秋
+T58	Person-Pronoun 431 432	我
+T59	Thing-Nominal 436 439	五谷树
+T60	Thing-Nominal 442 445	五谷树
+T61	Thing-Nominal 458 461	五谷树
+T62	Person-Pronoun 454 455	我
+T63	Person-Nominal 450 453	有心人
+T64	Person-Pronoun 467 468	我
+T65	Time-Implicit 462 466	从那以后
+T66	Thing-Nominal 473 476	五谷树
+T67	Thing-Nominal 477 483	一批批五谷树
+T68	Thing-Nominal 488 493	五谷树盆景
+R11	Create Arg1:T64 Arg2:T68	
+T69	Thing-Nominal 502 505	五谷树
+T70	Thing-Nominal 515 518	五谷树
+T71	Person-Pronoun 526 527	我
+T72	Person-Pronoun 539 540	我
+T73	Thing-Nominal 528 531	五谷树
+T74	Thing-Nominal 542 545	五谷树
+T75	Location-Name 547 551	盐阜大地
+T76	Person-Nominal 557 563	五谷树爱好者
+T77	Thing-Nominal 564 565	树
+*	Coreference T77 T74
+T78	Time-Implicit 566 578	明年植树节前的星期六上午
+T79	Person-Pronoun 579 580	我
+T80	Person-Nominal 583 588	一位老领导
+R12	Social Arg1:T80 Arg2:T79	
+T81	Location-Name 589 591	盐城
+T82	Thing-Nominal 597 599;600 602	五谷 树苗
+T83	Person-Pronoun 604 605	我
+R13	General-Special Arg1:T82 Arg2:T74	
+T84	Thing-Nominal 607 610	五谷树
+T85	Location-Name 612 620	南京重建的报恩寺
+T86	Location-Name 612 614	南京
+T87	Person-Name 622 624	郑和
+T88	Thing-Nominal 630 633	五谷树
+T89	Location-Name 635 638	报恩寺
+*	Coreference T89 T85
+T90	Person-Nominal 644 648	更多的人
+T91	Thing-Nominal 653 655	神树
+R14	General-Special Arg1:T91 Arg2:T88	
+T92	Thing-Nominal 655 660	神奇的果实
+R15	Part-Whole Arg1:T92 Arg2:T88	
+T93	Person-Pronoun 662 663	我
+T94	Person-Nominal 666 681	名符其实的五谷树非遗文化传承人
+T95	Location-Name 684 687	龙女庙
+T96	Location-Name 690 696	五谷树文化馆
+T97	Person-Nominal 698 702	更多的人
+T98	Person-Pronoun 714 715	我
+T99	Thing-Nominal 719 722;723 729	谷树文 化故事的剧本
+R16	Create Arg1:T98 Arg2:T99	
+T100	Person-Pronoun 732 733	我
+T101	Thing-Nominal 736 739	五谷树
+T102	Abstract 742 746	朝阳产业
+T103	Thing-Nominal 748 750	资料
+T104	Thing-Nominal 753 758	五谷树嫩叶
+R17	Part-Whole Arg1:T104 Arg2:T101	
+T105	Thing-Nominal 760 761	茶
+T106	Thing-Nominal 762 763	根
+R18	Part-Whole Arg1:T106 Arg2:T101	
+T107	Physical 765 767	脚气
+T108	Thing-Nominal 768 769	花
+R19	Part-Whole Arg1:T108 Arg2:T101	
+T109	Thing-Nominal 779 784	茎皮、果穗
+R20	Part-Whole Arg1:T109 Arg2:T101	
+T110	Thing-Nominal 802 805	五谷树
+T111	Physical 788 792;793 794	疗跌打损 伤
+T112	Physical 795 801	风湿性关节炎
+T113	Person-Pronoun 822 823	我
+T114	Organization-Nominal 826 832	权威科研部门
+T115	Thing-Nominal 834 837	五谷树
+T116	Thing-Nominal 858 866	浑身是宝的五谷树
+*	Coreference T116 T110
+T117	Person-Pronoun 874 875	我
+T118	Person-Nominal 887 889	知音
+T119	Person-Pronoun 894 896	我们
+R21	Social Arg1:T118 Arg2:T117	
+R22	Part-Whole Arg1:T118 Arg2:T119	
+R23	Part-Whole Arg1:T117 Arg2:T119	
+T120	Thing-Nominal 912 915	五谷树
+T121	Person-Name 916 918	郑和
+T122	Location-Name 919 921	西洋
+T123	Thing-Nominal 924 930	境外稀有树种
+R24	General-Special Arg1:T123 Arg2:T120	
+T124	Thing-Nominal 931 935	五谷树果
+R25	Located Arg1:T124 Arg2:T120	
+T125	Thing-Nominal 936 948	稻、麦、玉米、黄豆、高粱
+T126	Thing-Nominal 951 954	五谷树
+T127	Thing-Nominal 955 959	五谷树果
+T128	Location-Name 625 627	西洋

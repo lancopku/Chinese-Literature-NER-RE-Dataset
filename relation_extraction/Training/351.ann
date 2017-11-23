@@ -1,0 +1,230 @@
+T1	Time-Implicit 0 3	倏忽间
+T2	Person-Pronoun 4 5	我
+T3	Time-Implicit 28 30	童年
+T4	Person-Nominal 37 46	那天真无邪的小伙伴
+T5	Thing-Nominal 47 58	玩也玩不厌的“土玩具”
+R1	Social Arg1:T4 Arg2:T2	
+T6	Thing-Nominal 59 60;61 69	玩 也玩不完的小游戏
+T7	Thing-Nominal 17 21	许多往事
+T8	Thing-Nominal 28 32	童年往事
+T9	Metric 71 78	一幕幕，一件件
+T10	Time-Implicit 96 98	童年
+T11	Time-Implicit 112 115	那时候
+T12	Person-Nominal 115 117	人们
+T13	Location-Nominal 121 123	农村
+T14	Thing-Nominal 126 130	小孩玩具
+T15	Person-Nominal 138 140	儿童
+T16	Person-Pronoun 146 148	我们
+R2	General-Special Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 150 153	破瓦片
+T18	Thing-Nominal 167 172	公鸡的尾巴
+T19	Thing-Nominal 174 178	几根尾羽
+R3	Part-Whole Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 180 182	铜线
+T21	Thing-Nominal 192 195	篦麻籽
+R4	Use Arg1:T16 Arg2:T21	
+R5	Use Arg1:T16 Arg2:T17	
+R6	Use Arg1:T16 Arg2:T19	
+T22	Thing-Nominal 202 209	几分钱或一毛钱
+T23	Thing-Nominal 210 215	几个玻璃球
+R7	Use Arg1:T16 Arg2:T22	
+R8	Ownership Arg1:T16 Arg2:T23	
+T24	Thing-Nominal 228 235	破木桶上的铁箍
+T25	Abstract 162 164	抓子
+T27	Abstract 236 239	推铁环
+T28	Person-Pronoun 246 248	我们
+T29	Thing-Nominal 251 256	有杈的树枝
+T31	Thing-Nominal 263 267	木头疙瘩
+T32	Thing-Nominal 270 272	陀螺
+R9	Use Arg1:T28 Arg2:T29	
+R10	Use Arg1:T28 Arg2:T31	
+R11	Create Arg1:T28 Arg2:T32	
+T33	Thing-Nominal 276 278;279 282	瓦片 或棍子
+R12	Use Arg1:T28 Arg2:T33	
+T26	Thing-Nominal 286 290	一个图形
+T30	Metric 286 288	一个
+R13	Create Arg1:T28 Arg2:T26	
+T34	Person-Pronoun 301 303	自己
+*	Coreference T34 T28 T40 T42 T44
+T35	Location-Nominal 283 285	地上
+R14	Located Arg1:T26 Arg2:T35	
+T36	Person-Nominal 327 333	“小皇帝”们
+T37	Time-Implicit 325 327	现在
+T38	Thing-Nominal 333 339;340 357	五彩斑斓，光 怪陆离，高科技含量的现代“洋玩具”
+R15	Ownership Arg1:T36 Arg2:T38	
+T39	Thing-Nominal 372 379	这些“土玩意”
+*	Coreference T39 T5
+T40	Person-Nominal 382 386	小朋友们
+T41	Time-Implicit 404 406	同时
+T42	Person-Nominal 411 413	大家
+T43	Time-Implicit 432 434	夜晚
+T44	Person-Nominal 436 439	孩子们
+T45	Thing-Name 445 447	月亮
+T46	Time-Implicit 443 450	没有月亮的晚上
+T47	Location-Nominal 463 465	区域
+T48	Thing-Nominal 468 470	规则
+T49	Person-Nominal 471 473	一人
+T50	Person-Pronoun 476 478	其余
+R16	Social Arg1:T50 Arg2:T49	
+T51	Person-Nominal 481 484	当班的
+*	Coreference T51 T49 T56
+T52	Person-Pronoun 487 488	谁
+T53	Person-Pronoun 491 492	谁
+R17	Part-Whole Arg1:T52 Arg2:T50	
+T54	Person-Pronoun 538 540	有的
+T55	Location-Nominal 542 545	阴暗处
+T56	Person-Nominal 554 557	值班的
+T57	Person-Pronoun 574 576	有的
+T58	Person-Pronoun 598 599	我
+*	Coreference T58 T57
+T59	Person-Nominal 586 589	值班的
+T60	Location-Pronoun 600 602	这儿
+T61	Location-Nominal 613 614;615 621	预 先看好的地方
+T62	Time-Implicit 622 628	有月光的晚上
+T63	Location-Nominal 630 634	空旷场地
+T64	Time-Implicit 659 661	每晚
+T65	Person-Nominal 663 666	十几人
+T66	Person-Nominal 669 672	几十人
+T67	Organization-Nominal 677 688	现代都市的一个大型小区
+T68	Person-Nominal 677 691	现代都市的一个大型小区的孩子
+T69	Person-Nominal 695 697	男女
+T70	Location-Nominal 706 713	故乡的村子东边
+T71	Thing-Nominal 714 724	一个“大坑”(池塘)
+R18	Located Arg1:T71 Arg2:T70	
+T72	Location-Nominal 726 738	村子的北头直到村子的南头
+R19	Located Arg1:T71 Arg2:T72	
+T73	Metric 740 744	好几百米
+T74	Metric 748 751	几十米
+T75	Metric 754 758	两百多米
+T76	Time-Implicit 759 761	长年
+T77	Thing-Nominal 762 763	水
+T78	Time-Implicit 764 765	冬
+T79	Time-Implicit 767 768	夏
+T80	Location-Nominal 787 789	村子
+T81	Location-Nominal 706 711	故乡的村子
+*	Coreference T80 T81
+T82	Thing-Nominal 798 801	这大坑
+*	Coreference T82 T71
+T83	Thing-Nominal 802 808	孩子们的乐园
+T84	Person-Nominal 809 811	我家
+T85	Location-Nominal 813 815	岸上
+T86	Location-Nominal 826 828	坑里
+T87	Thing-Nominal 835 839	一个瓦片
+T88	Metric 835 837	一个
+T89	Location-Nominal 842 844	水面
+T90	Person-Pronoun 849 850	谁
+T91	Time-Implicit 863 870	冬季冰封的日子
+T92	Time-Implicit 863 865	冬季
+T93	Location-Nominal 885 888	冰面上
+T94	Thing-Nominal 892 897	坑边的冰层
+T95	Thing-Nominal 900 903	一块冰
+T96	Thing-Nominal 905 907	冰面
+R20	Part-Whole Arg1:T96 Arg2:T94	
+R21	Part-Whole Arg1:T95 Arg2:T94	
+T97	Thing-Nominal 908 911	那冰块
+*	Coreference T97 T95
+T98	Thing-Nominal 913 915	冰面
+T99	Time-Implicit 908 919;920 921	那冰块在与冰面接触的瞬 间
+T100	Location-Nominal 926 928	远方
+T101	Time-Implicit 929 931	同时
+T102	Thing-Nominal 935 942	一种动听的声音
+T103	Thing-Nominal 945 947	小手
+T104	Thing-Nominal 950 953	胡萝卜
+T105	Time-Implicit 960 966	最快活的时候
+T106	Time-Implicit 967 969	夏季
+*	Coreference T105 T106
+T107	Thing-Nominal 976 977	水
+T108	Location-Nominal 985 988	坑岔里
+T109	Person-Nominal 991 994	大孩子
+T110	Location-Nominal 995 998	深水里
+T111	Person-Nominal 1005 1008	大孩子
+T112	Location-Nominal 1013 1016	坑岔里
+R22	Near Arg1:T108 Arg2:T110	
+T113	Location-Nominal 1027 1029	水里
+T114	Thing-Nominal 1024 1025	头
+T115	Location-Nominal 1042 1045	水面上
+T116	Thing-Nominal 1051 1052	头
+T117	Location-Nominal 1055 1057	水里
+T118	Thing-Nominal 1068 1069	头
+T119	Location-Nominal 1071 1073	水里
+T120	Location-Nominal 1085 1091	坑岔的深水区
+R23	Part-Whole Arg1:T120 Arg2:T112	
+T121	Thing-Nominal 1101 1102;1103 1106	初 生之犊
+T122	Thing-Nominal 1108 1109	虎
+T123	Location-Nominal 1150 1153	深水区
+*	Coreference T123 T110
+T124	Time-Implicit 1166 1170	盛夏季节
+T125	Thing-Nominal 1175 1176	雨
+T126	Metric 1180 1184	几个小时
+T127	Thing-Nominal 1185 1187	皮肤
+T128	Thing-Nominal 1198 1200	阳光
+T129	Person-Pronoun 1201 1203	我们
+T130	Thing-Nominal 1209 1212	头、脸
+R24	Part-Whole Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 1206 1208	塘泥
+R25	Use Arg1:T129 Arg2:T131	
+T132	Thing-Nominal 1218 1222	两只眼睛
+R26	Part-Whole Arg1:T132 Arg2:T129	
+T133	Person-Nominal 1234 1236	超人
+T134	Person-Nominal 1253 1256	大人们
+T135	Location-Nominal 1270 1271	岸
+T136	Thing-Nominal 1280 1282	瓦片
+T137	Thing-Nominal 1283 1285	眉头
+R27	Part-Whole Arg1:T137 Arg2:T129	
+T138	Person-Nominal 1298 1300	大人
+*	Coreference T138 T134
+T139	Thing-Nominal 1307 1311	一把锅灰
+T140	Thing-Nominal 1319 1321	铁锅
+T141	Time-Implicit 1312 1314	当时
+T142	Location-Nominal 1314 1316	农村
+T143	Thing-Nominal 1324 1326	燃料
+T144	Thing-Nominal 1327 1332	草和庄稼杆
+R28	General-Special Arg1:T143 Arg2:T144	
+T145	Location-Nominal 1337 1340	伤口处
+T146	Thing-Nominal 1341 1342	血
+T147	Thing-Nominal 1349 1351	锅灰
+T148	Location-Nominal 1354 1356	肉里
+R29	Located Arg1:T147 Arg2:T148	
+T149	Thing-Nominal 1358 1362	条黑道子
+T150	Time-Implicit 1387 1391	孩童时代
+T151	Time-Implicit 1401 1403	那时
+T152	Thing-Nominal 1409 1411	电视
+T153	Thing-Nominal 1412 1415	游戏机
+T154	Location-Nominal 1424 1426	歌厅
+T155	Location-Nominal 1428 1430	影院
+T156	Location-Nominal 1431 1433	农村
+T157	Thing-Nominal 1434 1435	电
+T158	Time-Implicit 1443 1447	隆冬季节
+T159	Location-Nominal 1448 1450	室外
+T160	Location-Nominal 1460 1463	被窝里
+T161	Location-Nominal 1465 1467	我家
+T162	Metric 1469 1472	一百米
+T163	Person-Nominal 1473 1477	一户人家
+T164	Time-Implicit 1478 1483	每到冬闲时
+T165	Person-Nominal 1485 1488	一些人
+T166	Person-Nominal 1531 1533	大人
+T167	Person-Nominal 1535 1538	小朋友
+T168	Metric 1542 1546	十个八个
+T169	Person-Nominal 1547 1557	其中一个叫舅爷的长辈
+T170	Time-Implicit 1586 1588	这时
+T171	Person-Nominal 1589 1595	我们这些孩子
+T172	Person-Pronoun 1604 1606	我们
+*	Coreference T172 T171
+T173	Metric 1617 1619	一段
+T174	Metric 1600 1602	一段
+T175	Person-Pronoun 1630 1632	我们
+T176	Thing-Nominal 1636 1641	电视连续剧
+T177	Time-Implicit 1644 1648	天天晚上
+T178	Location-Nominal 1722 1728	幼小的心灵上
+T179	Thing-Nominal 1740 1741;1742 1745	鬼 怪故事
+T180	Thing-Nominal 1687 1689	故事
+R30	General-Special Arg1:T180 Arg2:T179	
+T181	Location-Nominal 1756 1767	常常回家那一段不远的路
+T182	Time-Implicit 1774 1776	晚上
+T183	Thing-Nominal 1782 1783	床
+T184	Metric 1788 1791	一会儿
+T185	Time-Implicit 1800 1802;1803 1805	再醒 来时
+T186	Location-Nominal 1806 1808	床上
+T187	Thing-Nominal 1810 1813	一大片
+R31	Located Arg1:T187 Arg2:T186	
+T188	Time-Implicit 1834 1836	童年

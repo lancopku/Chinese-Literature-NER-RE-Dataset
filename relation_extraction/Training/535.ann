@@ -1,0 +1,117 @@
+T1	Location-Name 31 33	眉山
+T2	Location-Name 47 51	孙氏书楼
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Time-Explicit 52 54	唐代
+T4	Location-Name 54 56	眉山
+T5	Location-Nominal 57 60;61 68	全国最 大的个人图书馆
+R2	Part-Whole Arg1:T5 Arg2:T4	
+T6	Location-Name 74 78	孙氏书楼
+*	Coreference T2 T5
+T7	Time-Implicit 80 85	300多年
+T8	Person-Name 86 89	唐僖宗
+T9	Person-Name 102 106	丹棱杨素
+T10	Location-Name 108 111	大雅堂
+T11	Location-Nominal 137 143	雕版印刷中心
+T12	Time-Explicit 147 149	宋代
+T13	Location-Nominal 151 157	三大印刷中心
+T14	Location-Name 158 160	杭州
+T15	Location-Name 161 163	建阳
+T16	Location-Name 164 167	眉州”
+T17	Location-Name 171 173	眉山
+R3	Part-Whole Arg1:T17 Arg2:T13	
+R4	Part-Whole Arg1:T15 Arg2:T13	
+R5	Part-Whole Arg1:T14 Arg2:T13	
+T18	Person-Nominal 179 182	眉山人
+T19	Person-Nominal 221 224	出名人
+T20	Person-Nominal 236 241	重量级名人
+T21	Person-Nominal 256 258	名人
+T22	Person-Name 266 268	彭祖
+T23	Person-Name 269 271	张昭
+T24	Person-Name 272 274	张纲
+T25	Person-Name 275 277	张翼
+T26	Person-Nominal 278 282	忠臣良将
+*	Coreference T22 T26 T23 T24 T25
+T27	Person-Name 283 285	李密
+T28	Person-Nominal 291 295	三苏父子
+T29	Person-Nominal 295 298	大文豪
+*	Coreference T28 T29
+T30	Person-Nominal 299 304	唐宋八大家
+T31	Person-Name 311 314	苏东坡
+T32	Person-Nominal 315 321	千古第一文人
+*	Coreference T31 T32 T33 T34
+T33	Person-Nominal 327 330	多面手
+T34	Person-Nominal 331 336	复合性人才
+T35	Organization-Name 337 345	联合国科技文组织
+T36	Time-Explicit 346 351	2000年
+T37	Person-Nominal 353 362	两千年杰出人才代表
+T38	Location-Name 364 366	中国
+T39	Person-Name 371 373	孔子
+T40	Person-Name 374 377	苏东坡
+T41	Person-Name 378 382	孙中山。
+T42	Location-Name 382 384	法国
+T43	Time-Explicit 390 395	2000年
+T44	Person-Nominal 397 408	一千年来12位英雄人物
+T45	Location-Name 409 411	中国
+T46	Person-Name 417 420	苏东坡
+*	Coreference T46 T44
+*	Coreference T39 T37 T40 T41
+T47	Location-Name 450 454	四川巴蜀
+T48	Location-Name 460 462	眉山
+T49	Location-Nominal 477 481	东坡老家
+T50	Person-Nominal 485 490	眉山的人民
+T51	Time-Explicit 505 507	汉代
+T52	Person-Nominal 508 510	三班
+T53	Person-Name 513 515	班彪
+T54	Person-Name 516 518	班固
+T55	Person-Name 518 521	、班昭
+*	Coreference T53 T52 T54 T55
+T56	Person-Nominal 524 526	三曹
+T57	Time-Explicit 529 535	东汉末至三国
+T58	Person-Name 536 538	曹操
+T59	Person-Name 539 541	曹丕
+T60	Person-Name 542 543;544 545	曹 植
+*	Coreference T58 T56 T59 T60
+T61	Person-Nominal 553 555	三苏
+T62	Person-Name 569 572	苏东坡
+T63	Person-Nominal 593 595	人民
+T64	Location-Name 605 607	中国
+T65	Person-Pronoun 615 616	他
+*	Coreference T65 T62
+T66	Person-Name 620 629	刘小川这位眉山作家
+T67	Person-Name 662 665;666 667	东坡先 生
+T68	Person-Nominal 673 675	人们
+T69	Person-Name 683 686	苏东坡
+T70	Person-Name 702 705	林语堂
+T71	Time-Explicit 719 723	三苏时代
+T72	Person-Nominal 725 730	李焘七叔侄
+T73	Person-Name 745 752	虞允文这位名相
+T74	Person-Name 753 756	毛泽东
+T75	Person-Nominal 758 763	“千古一人
+*	Coreference T73 T75
+T76	Time-Explicit 767 769	清代
+T77	Person-Nominal 769 776;777 779	文学家彭端淑三 兄弟
+T78	Person-Name 782 785	彭端淑
+*	Coreference T78 T77
+T79	Person-Name 804 812	洪雅柳江的曾璧光
+T80	Person-Nominal 815 817	帝师
+*	Coreference T79 T80
+T82	Person-Name 828 831	冯建吴
+T83	Person-Name 832 837;838 840	地质学家黄 汉清
+T85	Person-Name 848 851	夏光普
+T84	Person-Name 844 847	彭迪先
+T86	Person-Nominal 841 844	教育家
+*	Coreference T84 T86
+T81	Person-Name 825 827	石鲁
+T87	Person-Nominal 821 825	著名画家
+*	Coreference T81 T87 T82
+T88	Person-Nominal 855 859	眉山人民
+T89	Person-Name 868 870	克非
+T90	Person-Name 871 873	周纲
+T91	Person-Name 874 876	徐康
+T92	Person-Name 877 880	刘小川
+T93	Person-Nominal 883 885	作家
+*	Coreference T89 T93 T90 T91 T92
+T94	Person-Nominal 888 892	眉山人民
+T95	Location-Name 904 906	眉山
+T96	Location-Name 916 918	眉山
+T97	Location-Name 924 926	眉山

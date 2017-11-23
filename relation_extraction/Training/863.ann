@@ -1,0 +1,220 @@
+T1	Location-Nominal 4 6	家乡
+T2	Thing-Nominal 7 9	石磨
+T3	Organization-Nominal 11 12	家
+R1	Ownership Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 17 18	磨
+*	Coreference T2 T4
+T5	Person-Pronoun 59 60	我
+T6	Time-Implicit 69 72	小时候
+T7	Person-Nominal 73 75	人们
+T8	Thing-Nominal 76 78	主食
+T9	Thing-Nominal 80 82	煎饼
+R2	General-Special Arg1:T9 Arg2:T8	
+T10	Location-Nominal 83 85	家里
+T11	Time-Implicit 93 97	三天两头
+T12	Thing-Nominal 99 101	煎饼
+T13	Person-Pronoun 104 106	我们
+T14	Thing-Nominal 110 111	磨
+T15	Time-Implicit 112 114	白天
+T16	Person-Nominal 115 117	父母
+T17	Location-Nominal 118 120	地里
+T18	Thing-Nominal 125 126	磨
+T19	Time-Implicit 130 132	晚上
+T20	Time-Implicit 141 143	一天
+T21	Person-Nominal 144 146	母亲
+T22	Thing-Nominal 150 152	晚饭
+T23	Thing-Nominal 157 159	石磨
+T24	Thing-Nominal 168 170	粮食
+T25	Person-Pronoun 175 176	我
+T26	Person-Nominal 177 179	弟弟
+R3	Family Arg1:T25 Arg2:T26	
+R4	Family Arg1:T21 Arg2:T25	
+R5	Family Arg1:T26 Arg2:T21	
+T27	Thing-Nominal 180 181	磨
+T28	Thing-Nominal 184 185	磨
+T29	Thing-Nominal 202 203	脚
+T30	Thing-Nominal 204 205	腿
+T31	Thing-Nominal 227 228	井
+T32	Location-Nominal 230 232	天上
+T33	Thing-Nominal 233 235	星星
+R6	Located Arg1:T33 Arg2:T32	
+T34	Person-Nominal 248 251	姐弟俩
+T35	Person-Pronoun 254 256	我们
+*	Coreference T35 T34
+T36	Thing-Nominal 258 260	石磨
+R7	Use Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 270 271	路
+T38	Thing-Nominal 277 278	磨
+T39	Time-Implicit 292 294	有时
+T40	Person-Nominal 303 304;305 306	弟 弟
+T41	Thing-Nominal 324 325	盆
+T42	Person-Pronoun 326 327	我
+*	Coreference T42 T40
+T43	Person-Pronoun 332 334	!我
+T44	Person-Pronoun 339 340	我
+T45	Person-Pronoun 342 343	他
+*	Coreference T43 T45
+T46	Thing-Nominal 350 351	脚
+T47	Thing-Nominal 352 353	心
+R8	Part-Whole Arg1:T46 Arg2:T45	
+R9	Part-Whole Arg1:T47 Arg2:T45	
+T48	Person-Pronoun 358 359	我
+T49	Thing-Nominal 361 363	双脚
+T50	Thing-Nominal 366 367	腿
+R10	Part-Whole Arg1:T49 Arg2:T48	
+R11	Part-Whole Arg1:T50 Arg2:T48	
+T51	Thing-Nominal 377 379	磨棍
+T52	Person-Pronoun 383 384	我
+T53	Person-Nominal 385 387	姐姐
+*	Coreference T52 T53
+R12	Use Arg1:T52 Arg2:T51	
+T54	Time-Implicit 394 398	每到这时
+T55	Thing-Nominal 401 402	书
+T56	Person-Nominal 403 405	母亲
+T57	Location-Nominal 407 409	灶屋
+T58	Thing-Nominal 418 422	煎饼鏊子
+R13	Located Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 432 434	煎饼
+R14	Create Arg1:T56 Arg2:T59	
+R15	Located Arg1:T59 Arg2:T58	
+T60	Person-Pronoun 443 445	我们
+T61	Person-Pronoun 451 452	我
+T62	Person-Nominal 453 454;455 456	弟 弟
+T63	Thing-Nominal 457 459	耳朵
+R16	Part-Whole Arg1:T63 Arg2:T62	
+R17	Part-Whole Arg1:T63 Arg2:T61	
+T64	Thing-Nominal 482 483	云
+T65	Person-Nominal 486 488	母亲
+T66	Person-Pronoun 494 496	我们
+T67	Thing-Nominal 501 503	磨棍
+T68	Thing-Nominal 513 514	盆
+T69	Thing-Nominal 514 515;516 519	煎 饼糊糊
+T70	Time-Implicit 524 526	现在
+T71	Person-Nominal 531 533	母亲
+T72	Time-Implicit 533 535	那时
+T73	Location-Nominal 548 550	民间
+T74	Person-Pronoun 556 557	我
+T75	Person-Pronoun 579 580	我
+T76	Person-Pronoun 588 589	我
+T77	Time-Implicit 586 588	至今
+T78	Thing-Nominal 598 599	磨
+T79	Person-Nominal 610 613	姐弟俩
+T80	Thing-Nominal 621 622	人
+T81	Thing-Nominal 624 625	磨
+T82	Person-Nominal 627 629	母亲
+T83	Person-Pronoun 660 662	我们
+*	Coreference T83 T79
+T84	Metric 673 675	几天
+T85	Thing-Nominal 677 678	磨
+T86	Thing-Nominal 694 696	石磨
+T87	Thing-Nominal 700 702	磨盘
+T88	Thing-Nominal 703 705	磨轮
+T89	Location-Nominal 700 706	磨盘与磨轮间
+T90	Thing-Nominal 707 709	沟槽
+R18	Located Arg1:T90 Arg2:T89	
+R19	Part-Whole Arg1:T87 Arg2:T86	
+R20	Part-Whole Arg1:T88 Arg2:T86	
+T91	Thing-Nominal 718 720	粮食
+T92	Thing-Nominal 730 732	石磨
+R21	Located Arg1:T91 Arg2:T92	
+T93	Time-Implicit 727 729	这时
+T94	Thing-Nominal 745 746	磨
+T95	Thing-Nominal 749 751	磨脐
+R22	Part-Whole Arg1:T95 Arg2:T94	
+T96	Thing-Nominal 753 754;755 757	硬 枣木
+T97	Thing-Nominal 759 761	铁环
+R23	Located Arg1:T97 Arg2:T96	
+T98	Thing-Nominal 764 766	磨栓
+R24	Part-Whole Arg1:T98 Arg2:T94	
+T99	Location-Nominal 774 778	石磨中心
+T100	Thing-Nominal 779 781	铁环
+R25	Located Arg1:T100 Arg2:T99	
+R26	Located Arg1:T98 Arg2:T100	
+T101	Thing-Nominal 787 789	磨脐
+T102	Thing-Nominal 790 792	磨栓
+T103	Thing-Nominal 811 813	磨脐
+T104	Thing-Nominal 828 831	新磨脐
+T105	Thing-Nominal 832 834	枣木
+T106	Thing-Nominal 835 837	砂轮
+T107	Thing-Nominal 846 849	菜籽油
+R27	Located Arg1:T106 Arg2:T107	
+T108	Thing-Nominal 873 874	磨
+T109	Thing-Nominal 876 877	磨
+T110	Person-Pronoun 883 885	我们
+T111	Time-Implicit 891 893	一天
+T112	Location-Nominal 894 896	街上
+T113	Thing-Nominal 901 902	磨
+T114	Thing-Nominal 905 906	磨
+T115	Person-Nominal 919 921	母亲
+T116	Person-Nominal 924 928	打磨师傅
+R28	Social Arg1:T115 Arg2:T116	
+T117	Person-Nominal 929 932;933 941	一位五 十多岁的山里大伯
+*	Coreference T116 T117 T118
+T118	Person-Pronoun 952 953	他
+T119	Thing-Nominal 954 956	錾子
+R29	Use Arg1:T118 Arg2:T119	
+T120	Thing-Nominal 961 963	石沟
+T121	Thing-Nominal 966 968	剁子
+R30	Use Arg1:T118 Arg2:T121	
+T122	Thing-Nominal 973 975	石齿
+T123	Time-Implicit 997 999	这时
+T124	Person-Pronoun 1005 1006	我
+T125	Person-Nominal 1007 1009	弟弟
+R31	Family Arg1:T124 Arg2:T125	
+T126	Person-Nominal 1013 1017	打磨师傅
+R32	Social Arg1:T125 Arg2:T126	
+R33	Social Arg1:T124 Arg2:T126	
+T127	Person-Nominal 1026 1029	老人家
+*	Coreference T127 T126
+T128	Person-Nominal 1035 1038	小孩子
+R34	General-Special Arg1:T125 Arg2:T128	
+*	Coreference T124 T128
+T129	Thing-Nominal 1045 1047	石磨
+T130	Thing-Nominal 1050 1053	小沙粒
+T131	Thing-Nominal 1055 1057	眼睛
+R35	Part-Whole Arg1:T131 Arg2:T128	
+T132	Person-Nominal 1060 1063	姐弟俩
+R36	General-Special Arg1:T132 Arg2:T128	
+T133	Thing-Nominal 1079 1080	磨
+T134	Person-Pronoun 1082 1084	我们
+*	Coreference T134 T132
+T135	Location-Nominal 1096 1097	家
+T136	Location-Name 1098 1101	石家庄
+R37	Part-Whole Arg1:T135 Arg2:T136	
+T137	Location-Nominal 1106 1107	乡
+T138	Thing-Nominal 1111 1113	五谷
+T139	Thing-Nominal 1117 1118;1119 1120	面 汤
+T140	Thing-Nominal 1124 1126	石磨
+T141	Time-Implicit 1132 1134	至今
+T142	Person-Pronoun 1140 1142	我们
+T143	Location-Nominal 1143 1146	院子里
+T144	Person-Nominal 1154 1156	母亲
+R38	Family Arg1:T142 Arg2:T144	
+T145	Person-Nominal 1180 1182	师傅
+T146	Person-Nominal 1186 1190	打磨师傅
+*	Coreference T145 T146
+T147	Thing-Nominal 1194 1196	工具
+R39	Use Arg1:T146 Arg2:T147	
+T148	Person-Pronoun 1204 1206	我们
+T149	Location-Nominal 1223 1225	家乡
+T150	Person-Nominal 1225 1227	人民
+T151	Thing-Nominal 1243 1245	石磨
+T152	Location-Nominal 1254 1258	墙角旮旯
+R40	Located Arg1:T151 Arg2:T152	
+T153	Thing-Nominal 1262 1265	煎饼机
+T154	Metric 1265 1267	一天
+T155	Metric 1271 1273	千斤
+T156	Thing-Nominal 1275 1277	煎饼
+R41	Located Arg1:T153 Arg2:T156	
+T157	Person-Nominal 1282 1284	母亲
+T158	Thing-Nominal 1286 1288	煎饼
+T159	Time-Implicit 1298 1300	以前
+T160	Thing-Nominal 1301 1304	老石磨
+T161	Thing-Nominal 1308 1310	煎饼
+R42	Located Arg1:T161 Arg2:T160	
+T162	Thing-Nominal 1317 1318	磨
+T163	Person-Pronoun 1324 1325	我
+T164	Person-Nominal 1326 1328	弟弟
+T165	Thing-Pronoun 1340 1341	它
+*	Coreference T162 T165
+T166	Person-Pronoun 1354 1356	我们

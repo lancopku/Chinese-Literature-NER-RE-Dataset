@@ -1,0 +1,76 @@
+T1	Abstract 0 3	人类史
+T2	Abstract 13 15	文化
+T3	Abstract 7 9	文化
+T4	Abstract 18 22	经济基础
+T5	Person-Nominal 26 32	过去的文化人
+T6	Person-Nominal 35 37	富人
+T7	Thing-Nominal 35 40	富人这张皮
+T8	Person-Name 42 45	马克思
+T9	Person-Nominal 49 51	穷人
+T10	Abstract 57 60	公有制
+T11	Person-Nominal 65 67	人类
+T12	Time-Implicit 75 77	今天
+T13	Abstract 83 86	公有制
+T14	Person-Name 93 97	小平同志
+T15	Abstract 127 134	资本和市场经济
+T16	Person-Nominal 157 159	人们
+T17	Location-Name 163 167	神州大地
+T18	Thing-Nominal 172 176	雨后春笋
+T19	Person-Name 183 187	小平同志
+T20	Person-Nominal 192 196	一部分人
+T21	Person-Nominal 213 216	执政者
+T22	Person-Nominal 222 228	先富起来的人
+*	Coreference T22 T20
+T23	Organization-Name 232 237	中国共产党
+T24	Location-Name 238 240	中国
+T25	Metric 242 246	60多年
+*	Coreference T24 T17
+T26	Person-Nominal 249 264	富起来的一代和正在富起来的一代
+T27	Organization-Nominal 280 282	社会
+T28	Thing-Pronoun 283 284	它
+T29	Thing-Nominal 290 292	朱门
+T30	Thing-Nominal 293 295	酒肉
+T31	Thing-Nominal 293 296	酒肉臭
+T32	Person-Nominal 299 303	冻死骨”
+T33	Person-Nominal 317 322	我们的前辈
+T34	Person-Pronoun 317 319	我们
+T35	Person-Pronoun 362 364	我们
+T36	Thing-Pronoun 375 376	它
+T37	Organization-Name 401 404	新中国
+T38	Person-Name 407 413	胡锦涛总书记
+T39	Organization-Nominal 406 419	以胡锦涛总书记为首的党中央
+T40	Thing-Nominal 431 453	“以人为本，科学发展观和建立和谐社会”的理念
+T41	Thing-Pronoun 454 455	它
+*	Coreference T41 T40
+T42	Person-Name 474 478	小平同志
+T43	Person-Nominal 479 485	中国知识分子
+T44	Person-Nominal 488 492	工人阶级
+R1	General-Special Arg1:T44 Arg2:T43	
+T45	Person-Nominal 496 505	中国的优秀知识分子
+R2	General-Special Arg1:T43 Arg2:T45	
+T46	Person-Nominal 518 522	知识分子
+*	Coreference T46 T43
+T47	Abstract 532 534;535 538	科学 发展观
+T48	Person-Nominal 549 564	世界上其他国家和地区的知识分子
+T49	Person-Nominal 578 594	世界五百强的老总、华尔街的大亨们
+T50	Person-Nominal 598 603	脑力劳动者
+T51	Person-Nominal 607 611	工人阶级
+T52	Person-Pronoun 623 625	他们
+*	Coreference T52 T49
+T53	Person-Nominal 628 636	发展中的领军人物
+T54	Organization-Nominal 639 641	中央
+*	Coreference T54 T39
+T55	Thing-Nominal 654 656	干戈
+T56	Thing-Nominal 657 659	玉帛
+T57	Abstract 696 699;700 705	中国特 色社会主义
+T58	Thing-Nominal 715 717	轮子
+T59	Metric 713 715	两个
+T60	Time-Implicit 733 735	今日
+T61	Location-Name 736 738	中国
+T62	Person-Nominal 751 754	先贤们
+T63	Person-Nominal 795 804	8000万共产党员
+T64	Organization-Nominal 850 855	多元化社会
+T65	Organization-Pronoun 865 866	它
+*	Coreference T65 T64
+T66	Abstract 868 873	核心价值观
+T67	Abstract 881 882;883 887	核 心价值观

@@ -1,0 +1,32 @@
+T1	Location-Name 5 11	鄂尔多斯高原
+T2	Location-Nominal 5 12	鄂尔多斯高原下
+T3	Thing-Nominal 14 17	地下河
+R1	Located Arg1:T3 Arg2:T2	
+T4	Time-Implicit 21 25	一个深夜
+T5	Location-Nominal 37 39	地下
+T6	Thing-Nominal 44 46	清水
+R2	Located Arg1:T6 Arg2:T5	
+T7	Thing-Nominal 50 55	景区一条河
+*	Coreference T7 T3
+T8	Thing-Name 59 61	自然
+T9	Thing-Pronoun 64 65	它
+T10	Thing-Pronoun 68 69	它
+T11	Thing-Pronoun 74 75	它
+T12	Thing-Pronoun 78 79	它
+*	Coreference T9 T8 T14 T16
+T13	Thing-Nominal 89 91	祸端
+T14	Thing-Name 103 106	自然界
+T15	Location-Name 121 124	恩和贝
+T16	Thing-Name 133 136	大自然
+T17	Thing-Nominal 139 143	瞪眼明沙
+T18	Location-Name 150 153	恩和贝
+T19	Thing-Nominal 159 160;161 163	地 下河
+T20	Thing-Nominal 170 173	地面河
+T21	Thing-Nominal 177 189	晶莹剔透、滚滚流淌的河水
+R3	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 194 196	快艇
+T23	Thing-Nominal 214 218	沙海河流
+T24	Thing-Nominal 242 249	两岸的奇特景观
+T25	Thing-Nominal 268 270	小舟
+T26	Thing-Nominal 278 285	蜿蜒曲折的沙丘
+T27	Location-Nominal 291 295	沙漠腹地

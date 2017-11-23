@@ -1,0 +1,146 @@
+T1	Time-Implicit 10 13	转眼间
+T2	Person-Pronoun 14 16	我们
+T3	Location-Nominal 18 20	母校
+T4	Time-Implicit 22 25	十五年
+T5	Time-Implicit 27 29	当初
+T6	Location-Nominal 40 46	海南师范学院
+*	Coreference T6 T16 T39 T42 T62 T86
+T8	Person-Nominal 137 139	亲人
+T9	Person-Pronoun 158 159	我
+T10	Person-Pronoun 160 162	你们
+T11	Time-Implicit 214 217	大一时
+T12	Person-Pronoun 221 223	我们
+T13	Person-Nominal 237 242	人民子弟兵
+T14	Time-Implicit 266 269	大三时
+T15	Person-Pronoun 273 274;275 276	我 们
+T16	Location-Nominal 328 330	海师
+T7	Person-Pronoun 337 339	我们
+T17	Person-Pronoun 384 386	我们
+T18	Person-Pronoun 391 393	自己
+*	Coreference T17 T18 T19 T20
+T19	Person-Pronoun 407 409	自己
+T20	Person-Pronoun 417 422	崭新的自己
+T21	Person-Pronoun 487 489	我们
+T22	Person-Pronoun 540 542	我们
+T23	Person-Nominal 610 624	赋予我们莫大力量的亲人与朋友
+T24	Person-Nominal 593 600	倾注满爱的师长
+T25	Person-Pronoun 637 639	我们
+T26	Person-Pronoun 659 661	我们
+T27	Person-Pronoun 696 698	自我
+*	Coreference T26 T27 T28
+T28	Person-Nominal 705 707	我们
+T29	Person-Pronoun 741 743	我们
+T30	Person-Pronoun 811 813	我们
+T31	Person-Pronoun 823 825	我们
+T32	Person-Pronoun 833 835	我们
+T33	Organization-Pronoun 839 840	它
+T34	Organization-Nominal 829 831	大学
+*	Coreference T34 T33
+T35	Person-Pronoun 849 851	我们
+T36	Person-Pronoun 916 918	我们
+T37	Person-Pronoun 936 938	我们
+T38	Person-Pronoun 1008 1010	我们
+T39	Location-Nominal 1011 1015	海南师院
+T40	Metric 1015 1017	三年
+T41	Thing-Pronoun 1029 1031	我们
+T42	Location-Nominal 1041 1043	海师
+T43	Location-Nominal 1054 1059	海师图书馆
+R1	Part-Whole Arg1:T43 Arg2:T42	
+T44	Person-Nominal 1078 1083	文气的男生
+T45	Person-Nominal 1084 1089	漂亮的女生
+T46	Thing-Nominal 1091 1098;1099 1103	一堆堆散发着墨 香的书籍
+T47	Location-Pronoun 1105 1107	那里
+*	Coreference T47 T43 T49
+T48	Person-Nominal 1108 1113	王子和公主
+T49	Location-Pronoun 1136 1138	那里
+T50	Time-Implicit 1151 1153	今天
+T51	Person-Pronoun 1154 1156	我们
+T52	Person-Pronoun 1165 1167	我们
+T53	Person-Pronoun 1189 1190	我
+T54	Thing-Nominal 1196 1197	书
+T55	Time-Implicit 1219 1223	大学三年
+T56	Person-Pronoun 1224 1225	我
+T57	Time-Implicit 1239 1241	大三
+T58	Person-Pronoun 1251 1252	我
+T59	Person-Pronoun 1296 1298	自己
+T60	Time-Implicit 1294 1296	那时
+*	Coreference T60 T57
+T61	Person-Pronoun 1342 1343	我
+T62	Location-Nominal 1354 1356	学校
+T63	Person-Pronoun 1375 1376	我
+T64	Time-Implicit 1384 1388	大二那年
+T65	Person-Pronoun 1390 1391	我
+T66	Thing-Nominal 1401 1406	国家级报刊
+T67	Thing-Nominal 1395 1400	一两块豆腐
+T68	Thing-Nominal 1414 1415	我
+T69	Time-Implicit 1424 1428	临近毕业
+T70	Thing-Pronoun 1431 1432	我
+T71	Thing-Nominal 1432 1439	在报纸上的作品
+*	Coreference T71 T67
+T72	Person-Nominal 1446 1449;1450 1453	众多的 求职者
+T73	Person-Pronoun 1458 1459	我
+T74	Time-Implicit 1470 1474	毕业之后
+T75	Person-Pronoun 1475 1476	我
+T76	Location-Nominal 1477 1483	任何一个地方
+T77	Time-Implicit 1489 1494	我读书期间
+T78	Person-Nominal 1494 1500	与我同校的人
+T79	Person-Pronoun 1504 1505	我
+T80	Person-Pronoun 1508 1509	我
+R2	Social Arg1:T78 Arg2:T75	
+R3	Social Arg1:T78 Arg2:T79	
+T81	Person-Pronoun 1512 1519	数学系96级的
+*	Coreference T81 T80 T84
+T82	Time-Implicit 1524 1527	毕业时
+T83	Person-Nominal 1527 1531	一位女生
+T84	Person-Pronoun 1532 1533	我
+T85	Person-Pronoun 1534 1535	我
+T86	Location-Nominal 1537 1539	学校
+T87	Location-Nominal 1543 1545	学校
+T88	Person-Pronoun 1553 1554	我
+T89	Person-Nominal 1540 1542	名人
+T90	Location-Nominal 1564 1566	学校
+T91	Person-Nominal 1567 1570	很多人
+T92	Person-Pronoun 1575 1577	我们
+T93	Location-Nominal 1582 1584	宿舍
+T94	Location-Name 1588 1595	96幢平06房
+T95	Person-Pronoun 1598 1602	我们自己
+*	Coreference T92 T95
+T96	Person-Nominal 1606 1608	舍友
+T97	Person-Nominal 1610 1615	自己的家人
+T98	Person-Pronoun 1619 1621	我们
+T99	Person-Pronoun 1629 1631	我们
+R4	Social Arg1:T95 Arg2:T96	
+R5	Family Arg1:T95 Arg2:T97	
+T100	Person-Pronoun 1639 1641	我们
+T101	Person-Pronoun 1653 1655	我们
+T102	Person-Pronoun 1661 1663	我们
+T103	Location-Nominal 1668 1672	那个宿舍
+T104	Location-Nominal 1676 1680	这个城市
+T105	Person-Pronoun 1685 1687	我们
+T106	Person-Pronoun 1693 1695	我们
+T107	Location-Pronoun 1690 1692	那里
+*	Coreference T107 T103 T93 T94 T108 T111
+T108	Location-Pronoun 1702 1703	它
+T109	Person-Pronoun 1704 1706	我们
+T110	Time-Implicit 1709 1714	下雨的时候
+T111	Location-Pronoun 1715 1716	它
+T112	Person-Pronoun 1718 1720	我们
+T113	Person-Pronoun 1741 1743	我们
+T114	Person-Pronoun 1775 1777	我们
+T115	Metric 1863 1870	一天十几个小时
+T116	Time-Implicit 1880 1882	明天
+T117	Time-Implicit 1846 1856	在社会上混的那段日子
+T118	Time-Implicit 1897 1899	周末
+T119	Person-Nominal 1919 1932	那些和自己曾经在一起的同学
+T120	Location-Name 1937 1941	海南师院
+T121	Location-Nominal 2032 2034	城郊
+T122	Thing-Nominal 2036 2043	一间廉价的房子
+R6	Located Arg1:T122 Arg2:T121	
+T123	Person-Pronoun 2056 2058	自己
+T124	Person-Pronoun 2071 2073	自己
+T125	Person-Nominal 1982 1985	正常人
+T126	Person-Pronoun 2127 2129	自己
+T127	Person-Nominal 2134 2142;2143 2145	一个地地道道的小 市民
+*	Coreference T126 T127
+T128	Time-Implicit 2167 2170	年少时
+T129	Person-Pronoun 2182 2184	自己

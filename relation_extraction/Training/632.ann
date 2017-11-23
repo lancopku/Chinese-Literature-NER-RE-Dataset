@@ -1,0 +1,213 @@
+T1	Person-Pronoun 22 23	我
+T2	Thing-Name 38 41	准提楼
+T3	Thing-Pronoun 44 45	它
+*	Coreference T3 T2
+T4	Organization-Name 64 65	党
+T5	Thing-Name 76 79	准提楼
+T6	Thing-Pronoun 101 102	它
+*	Coreference T6 T5
+T7	Person-Name 105 120	老一辈无产阶级革命家刘少奇同志
+T8	Thing-Name 136 139	准提楼
+T9	Thing-Nominal 142 156	一个饱经战乱，历尽沧桑的古楼
+*	Coreference T9 T8 T10
+T10	Thing-Nominal 159 184	一个经历过革命风雨洗礼，为中国革命作出过贡献的名楼
+T11	Thing-Name 186 189	准提楼
+T12	Location-Nominal 191 200	历史名城汝南的南关
+R1	Located Arg1:T11 Arg2:T12	
+T13	Location-Nominal 202 207	小南海院内
+R2	Located Arg1:T11 Arg2:T13	
+T14	Location-Nominal 228 236	碧波荡漾的小南海
+T15	Metric 245 246;247 248	百 米
+T16	Thing-Name 256 264	闻名遐迩的准提楼
+T17	Thing-Name 272 275	准提楼
+T18	Thing-Pronoun 288 289	它
+*	Coreference T18 T17
+T19	Metric 293 296	4米高
+T20	Thing-Nominal 297 302	开阔的台基
+R3	Located Arg1:T18 Arg2:T20	
+T21	Thing-Name 312 314	南海
+T22	Abstract 317 320	地方志
+T23	Thing-Name 335 338	准提楼
+T24	Thing-Name 341 349	久负盛名的观音阁
+T25	Time-Implicit 350 353	数百年
+T26	Thing-Name 355 358	观音阁
+T27	Metric 365 368	几百里
+T28	Person-Nominal 363 376	方圆几百里、甚至海外的香客
+T29	Person-Nominal 402 412	大慈大悲的观世音菩萨
+T30	Person-Nominal 416 418	百姓
+T31	Location-Nominal 427 430	观音阁
+T32	Time-Explicit 432 434	明朝
+T33	Time-Explicit 442 447	清顺治年间
+T34	Location-Nominal 468 473	观音阁废墟
+T35	Location-Nominal 479 482	准提楼
+R4	Near Arg1:T35 Arg2:T34	
+T36	Person-Pronoun 484 485	我
+T37	Location-Nominal 492 494	平台
+T38	Thing-Name 501 504	准提楼
+T39	Thing-Nominal 509 511	红墙
+T40	Thing-Nominal 511 513	碧瓦
+T41	Thing-Nominal 514 518	飞檐斗拱
+T42	Thing-Nominal 519 521	殿脊
+T43	Thing-Nominal 525 527	宝瓶
+T44	Location-Nominal 519 523	殿脊正中
+R5	Located Arg1:T43 Arg2:T44	
+T45	Thing-Nominal 534 536	大吻
+T46	Thing-Nominal 538 540	阳光
+T47	Thing-Pronoun 544 545	它
+*	Coreference T47 T43
+T48	Location-Nominal 562 567	高高的平台
+T49	Thing-Nominal 573 577	南海风物
+T50	Person-Pronoun 583 584	我
+T51	Thing-Nominal 598 613	一级级苔藓浸碧、青草摇曳的石阶
+T52	Abstract 617 621	抗日战争
+T53	Person-Name 634 638	少奇同志
+T54	Time-Implicit 660 664	抗战初期
+T55	Person-Name 665 669	少奇同志
+T56	Organization-Name 671 674	党中央
+T57	Person-Name 680 683	胡服来
+*	Coreference T57 T55
+T58	Location-Name 684 688	确山竹沟
+T59	Person-Pronoun 692 693	他
+T60	Organization-Name 700 703	中原局
+T61	Location-Name 706 708	竹沟
+T62	Person-Nominal 725 739	党、政、军干部和专业技术人才
+T63	Organization-Name 741 742	党
+T64	Location-Nominal 743 745	华中
+T65	Abstract 752 756	抗日战争
+T66	Time-Implicit 776 781;782 784	于国共合作 初期
+T67	Organization-Nominal 785 792	国民党反动派却
+T68	Person-Nominal 810 816	竹沟的新四军
+T69	Person-Name 817 821	少奇同志
+T70	Organization-Name 825 828	党中央
+T71	Person-Nominal 846 850	党政干部
+T72	Person-Nominal 851 855	部队主力
+T73	Organization-Nominal 863 872	新的抗日民主根据地
+T74	Time-Explicit 874 884	1939年10月9日
+T75	Person-Name 885 889	少奇同志
+T76	Organization-Name 905 913	新四军江北指挥部
+T77	Location-Name 917 919	竹沟
+T78	Person-Nominal 923 929	两个班的战士
+T79	Person-Pronoun 936 937	们
+T80	Location-Name 946 948	汝南
+T81	Time-Explicit 954 958	当天晚上
+T82	Person-Nominal 959 967	少奇同志与战士们
+T83	Location-Nominal 971 978	小南海的准提楼
+*	Coreference T79 T82
+T84	Organization-Nominal 984 995	驻守在汝南的国民党部队
+T85	Location-Name 998 1001	小南海
+T86	Organization-Nominal 1003 1010	新四军小股部队
+T87	Person-Nominal 1015 1021	一个营的兵力
+T88	Location-Name 1028 1031	小南海
+T90	Organization-Nominal 1074 1077	日友军
+*	Coreference T90 T84 T91 T89
+T91	Organization-Pronoun 1086 1088	他们
+T92	Organization-Nominal 1098 1100	我军
+T89	Organization-Pronoun 1036 1038	他们
+T93	Person-Nominal 1108 1111	战士们
+T94	Person-Name 1139 1143	少奇同志
+T95	Person-Name 1180 1184	少奇同志
+T96	Person-Pronoun 1192 1193	他
+*	Coreference T96 T95 T100
+T97	Person-Pronoun 1206 1208	他们
+T98	Person-Pronoun 1218 1220	我们
+T99	Abstract 1246 1259	党的统一战线和国共合作政策
+T100	Person-Pronoun 1261 1262	他
+T101	Person-Nominal 1263 1268	国民党官兵
+T102	Person-Nominal 1288 1294;1295 1298	附近闻讯赶来 的百姓
+T103	Organization-Name 1299 1304	国民党军队
+R6	Ownership Arg1:T101 Arg2:T103	
+T104	Person-Nominal 1318 1323	国民党官兵
+T105	Organization-Name 2455 2456	党
+T106	Person-Pronoun 2461 2462	我
+T107	Location-Nominal 2475 2481	高高的准提楼
+T108	Location-Nominal 2486 2492	美丽的小南海
+T109	Location-Nominal 2504 2508	神州大地
+T110	Organization-Name 2290 2291	党
+T111	Time-Implicit 2287 2289	今天
+T112	Person-Name 2320 2325	胡锦涛同志
+T113	Physical 2326 2333	党的十七大报告
+T114	Person-Nominal 2343 2347	全党同志
+T115	Organization-Name 2353 2354	党
+T116	Organization-Name 2364 2365	党
+T117	Organization-Name 2374 2377	党中央
+T118	Organization-Name 2406 2407	党
+T119	Thing-Name 2439 2442	准提楼
+T120	Location-Nominal 2208 2216	波光潋滟的小南海
+T121	Thing-Nominal 2220 2224	一只画舫
+R7	Located Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 2241 2246	灿烂的阳光
+T123	Thing-Nominal 2248 2249	箭
+T124	Thing-Nominal 2261 2266	一条雪浪花
+T125	Person-Pronoun 2267 2268	我
+T126	Thing-Nominal 2276 2278	浪花
+T127	Organization-Name 2018 2019	党
+T128	Person-Nominal 2033 2037	全体党员
+T129	Organization-Name 2038 2039	党
+T130	Organization-Name 2050 2051	党
+T131	Person-Name 2064 2068	少奇同志
+T133	Person-Nominal 2085 2091	党的领袖之一
+*	Coreference T133 T131 T132 T135 T136
+T132	Person-Pronoun 2092 2093	他
+T134	Abstract 2102 2106	党的路线
+T135	Person-Nominal 2108 2127	是这个路线的始终如一、不折不扣的践行者
+T136	Person-Pronoun 2128 2129	他
+T137	Organization-Name 2147 2150	党中央
+T138	Person-Nominal 2163 2179	无数象少奇同志一样的党的忠诚战士
+T139	Organization-Name 2180 2181	党
+T140	Organization-Name 2136 2137	党
+T141	Person-Nominal 1882 1885	救世主
+T142	Person-Nominal 1889 1893	神仙皇帝
+T143	Time-Explicit 1894 1898	90年前
+T144	Thing-Nominal 1899 1907	嘉兴南湖上的红船
+T145	Location-Nominal 1899 1903	嘉兴南湖
+T146	Person-Nominal 1916 1918	人民
+T147	Thing-Pronoun 1933 1934	它
+*	Coreference T147 T144
+T148	Time-Explicit 1981 1991	一个半甲子的峥嵘岁月
+T149	Person-Pronoun 1790 1791	我
+T150	Thing-Nominal 1795 1808	小南海里一只刚刚离岸的画舫
+T151	Thing-Pronoun 1813 1814	它
+*	Coreference T151 T150
+T152	Person-Pronoun 1835 1836	我
+T153	Thing-Pronoun 1842 1843	它
+T155	Thing-Nominal 1861 1873	千里之外的嘉兴南湖的红船
+T154	Time-Explicit 1851 1854	90年
+T156	Location-Nominal 1679 1687	昏暗沉寂的准提楼
+T157	Location-Nominal 1698 1702	豫南大地
+T158	Thing-Nominal 1728 1730	林木
+T159	Thing-Nominal 1733 1735	绿荫
+T160	Thing-Nominal 1743 1745	百花
+T162	Thing-Nominal 1753 1755	碧莲
+T163	Thing-Nominal 1759 1761	红荷
+T161	Location-Nominal 1748 1751	小南海
+R8	Located Arg1:T162 Arg2:T161	
+R9	Located Arg1:T163 Arg2:T161	
+T164	Thing-Nominal 1769 1771	锦鳞
+T165	Thing-Nominal 1782 1783	画
+T166	Person-Pronoun 1489 1490	我
+T167	Thing-Nominal 1494 1520	这座曾为少奇同志遮风避雨、陪伴他度过漫漫长夜的准提楼
+T168	Person-Name 1498 1502	少奇同志
+T169	Person-Pronoun 1509 1510	他
+T170	Person-Name 1546 1549;1550 1551	少奇同 志
+T171	Thing-Nominal 1558 1564	空旷简陋的楼
+*	Coreference T171 T167
+T172	Person-Nominal 1570 1578	参于护送的老战士
+T173	Person-Name 1593 1597	少奇同志
+T174	Person-Pronoun 1604 1605	他
+*	Coreference T174 T173
+T175	Person-Nominal 1625 1628	战士们
+T176	Person-Pronoun 1634 1635	我
+T177	Person-Name 1649 1653	少奇同志
+T178	Person-Pronoun 1661 1662	他
+T179	Thing-Nominal 1662 1664	浓眉
+R10	Part-Whole Arg1:T179 Arg2:T178	
+R11	Social Arg1:T175 Arg2:T177	
+*	Coreference T178 T177
+T180	Person-Nominal 1389 1391	强敌
+T181	Person-Name 1392 1396	少奇同志
+T182	Person-Nominal 1417 1419	战士
+T183	Person-Nominal 1420 1422	群众
+T184	Person-Pronoun 1436 1437	他
+*	Coreference T184 T181
+T185	Abstract 1446 1447;1448 1453	党 的统一战线
+T186	Abstract 1454 1460	国共合作政策

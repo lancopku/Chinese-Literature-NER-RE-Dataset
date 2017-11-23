@@ -1,0 +1,116 @@
+T1	Location-Name 0 4	阜阳市区
+T2	Thing-Nominal 8 10	天桥
+T3	Location-Nominal 0 11	阜阳市区国贸旁的天桥上
+R1	Located Arg1:T2 Arg2:T1	
+T4	Location-Nominal 4 6	国贸
+R2	Near Arg1:T2 Arg2:T4	
+R3	Part-Whole Arg1:T4 Arg2:T1	
+T5	Person-Nominal 25 27	乞丐
+T6	Person-Nominal 14 17	讨饭的
+*	Coreference T6 T5
+T7	Time-Implicit 29 31	昨日
+T8	Thing-Nominal 33 35	天桥
+T9	Person-Nominal 40 52	几位衣衫褴褛满头垢面的人
+T10	Thing-Nominal 42 44	衣衫
+R4	Ownership Arg1:T9 Arg2:T10	
+T11	Location-Nominal 57 60	桥口处
+T12	Thing-Nominal 66 68	牌子
+T13	Person-Nominal 73 75	父母
+T14	Person-Nominal 79 80	儿
+T15	Person-Nominal 81 82	女
+T16	Person-Nominal 87 89	大家
+R5	Family Arg1:T9 Arg2:T13	
+T17	Time-Implicit 97 99	每天
+T18	Location-Nominal 100 106	这个繁华地带
+T19	Person-Nominal 106 110	行乞的人
+T20	Person-Nominal 113 116	阜阳人
+T21	Time-Implicit 145 152	一个炎热的下午
+T22	Person-Pronoun 153 154	我
+T23	Location-Nominal 156 158	路边
+T24	Thing-Nominal 162 164	汗珠
+T25	Person-Nominal 172 174	乞丐
+T26	Person-Pronoun 178 179	他
+*	Coreference T26 T25
+T27	Location-Nominal 185 187	报摊
+T28	Thing-Nominal 190 192	日报
+R6	Located Arg1:T28 Arg2:T27	
+T29	Person-Pronoun 193 194	我
+T30	Metric 198 200	一元
+T31	Thing-Nominal 198 202	一元钞票
+T32	Person-Nominal 206 208	店主
+R7	Ownership Arg1:T32 Arg2:T27	
+T33	Time-Implicit 211 213	这时
+T34	Thing-Nominal 220 221	风
+T35	Person-Nominal 222 224	店主
+T36	Thing-Nominal 225 226	手
+R8	Part-Whole Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 236 242	一张一元钞票
+T38	Metric 238 240	一元
+T39	Person-Nominal 247 249	我俩
+T40	Thing-Nominal 255 257	眼睛
+T41	Thing-Nominal 265 266;267 268	钞 票
+T42	Location-Nominal 271 273	地上
+R9	Located Arg1:T41 Arg2:T42	
+T43	Thing-Nominal 276 277	风
+T44	Location-Nominal 282 284	街角
+T45	Person-Nominal 284 286	乞丐
+T46	Thing-Nominal 297 298	风
+T47	Thing-Nominal 303 307	那张钞票
+*	Coreference T37 T47 T55 T59 T63
+T48	Person-Nominal 316 318	乞丐
+T49	Location-Nominal 316 321	乞丐的膝前
+R10	Located Arg1:T47 Arg2:T49	
+T50	Time-Implicit 322 324	此刻
+T51	Person-Nominal 325 327	店主
+T52	Person-Pronoun 354 355	我
+T53	Person-Nominal 377 379	乞丐
+T54	Person-Nominal 386 388	乞丐
+T55	Thing-Nominal 394 396	钞票
+T56	Person-Pronoun 407 409	我们
+*	Coreference T39 T56
+T57	Person-Pronoun 410 411	他
+*	Coreference T57 T54
+T58	Thing-Nominal 421 422	手
+R11	Part-Whole Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 424 428	那张钞票
+T60	Person-Pronoun 431 432	我
+T61	Person-Nominal 434 436	店主
+T62	Person-Pronoun 446 447	我
+T63	Thing-Nominal 451 453	票子
+T64	Person-Nominal 456 458	乞丐
+T65	Person-Pronoun 461 462	他
+T66	Thing-Nominal 463 464	手
+R12	Part-Whole Arg1:T66 Arg2:T65	
+R13	Located Arg1:T63 Arg2:T66	
+T67	Person-Pronoun 479 480	我
+R14	Social Arg1:T22 Arg2:T25	
+R15	Social Arg1:T29 Arg2:T32	
+R16	Social Arg1:T51 Arg2:T53	
+T68	Person-Pronoun 488 489	我
+T69	Person-Pronoun 512 513	我
+T70	Person-Nominal 527 528	神
+T71	Person-Pronoun 533 534	他
+T72	Person-Nominal 572 574	店主
+T73	Person-Pronoun 580 581	我
+T74	Thing-Nominal 582 584	口袋
+R17	Ownership Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 589 593	一元钞票
+R18	Located Arg1:T75 Arg2:T74	
+T76	Person-Nominal 596 598	店主
+T77	Person-Pronoun 600 601	他
+T78	Person-Nominal 603 605	好人
+*	Coreference T77 T78 T65 T64 T71
+T79	Person-Nominal 607 609	店主
+T80	Person-Pronoun 624 625	你
+T81	Person-Nominal 628 630	好人
+*	Coreference T80 T81 T82
+T82	Person-Pronoun 632 633	我
+T83	Thing-Nominal 640 642	微风
+T84	Thing-Nominal 646 647	我
+T85	Person-Nominal 652 654	乞丐
+T86	Metric 678 680	毫厘
+T87	Metric 683 685	千里
+T88	Person-Pronoun 695 697	我们
+T89	Person-Nominal 741 743	自己
+*	Coreference T88 T89
+T90	Location-Nominal 758 761	死胡同

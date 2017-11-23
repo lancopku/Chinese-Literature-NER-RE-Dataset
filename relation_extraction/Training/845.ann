@@ -1,0 +1,93 @@
+T1	Metric 4 6	几年
+T2	Person-Nominal 0 11	一位搞了几年篆刻的朋友
+T3	Person-Pronoun 19 20	我
+R1	Social Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 29 31	汉印
+T5	Person-Pronoun 37 38	我
+T6	Thing-Nominal 39 44	明清流派印
+T7	Thing-Nominal 56 58	汉印
+T8	Person-Nominal 76 80	这位朋友
+T9	Person-Pronoun 87 88	他
+*	Coreference T9 T8 T5 T2
+T10	Person-Pronoun 97 98	我
+T11	Thing-Nominal 105 107	汉印
+T12	Person-Nominal 120 126	成名的篆刻家
+T13	Thing-Nominal 145 147	汉印
+T14	Thing-Nominal 148 150	汉隶
+T15	Thing-Nominal 151 154	汉金文
+T16	Person-Nominal 195 197	汉人
+T17	Person-Nominal 260 263	观看者
+T18	Person-Nominal 288 291	艺术家
+T19	Person-Name 319 322	米元章
+T20	Thing-Name 324 328	海岳名言
+T21	Person-Name 403 406	孙过庭
+T22	Thing-Name 408 410	书谱
+T23	Person-Nominal 432 435	质直者
+T24	Person-Nominal 441 443	刚者
+T25	Person-Nominal 458 461	脱易者
+T26	Person-Nominal 466 469	温柔者
+T27	Person-Nominal 474 477	躁勇者
+T28	Person-Nominal 482 485	狐疑者
+T29	Person-Nominal 490 493	迟重者
+T30	Person-Nominal 498 501	轻琐者
+T31	Person-Nominal 503 505	俗吏
+T32	Person-Nominal 544 546	前人
+T33	Person-Nominal 635 637	名家
+T34	Location-Nominal 677 679	悬崖
+T35	Thing-Nominal 680 681	马
+T36	Person-Nominal 683 685	世人
+T37	Location-Nominal 688 690	悬崖
+T38	Thing-Nominal 700 701	马
+T39	Person-Name 705 707	金农
+T40	Person-Name 711 714	陈巨来
+T41	Thing-Nominal 715 719	圆朱文印
+T42	Person-Nominal 729 732	工匠者
+T43	Person-Name 734 736	倪瓒
+T44	Location-Nominal 769 771	悬崖
+T45	Person-Name 750 752	髡残
+T46	Person-Name 745 747	龚贤
+T47	Person-Pronoun 803 805	自我
+T48	Person-Pronoun 808 810	自我
+T49	Thing-Nominal 819 820	画
+T50	Thing-Nominal 822 823	书
+T51	Person-Name 861 863	朱子
+T52	Person-Name 897 899	子路
+T53	Person-Name 902 904	子贡
+T54	Person-Name 907 909	冉有
+T55	Person-Name 922 924	孔子
+T56	Person-Name 929 931	子路
+T57	Person-Name 933 935	孔子
+R2	Social Arg1:T55 Arg2:T52	
+R3	Social Arg1:T53 Arg2:T55	
+R4	Social Arg1:T54 Arg2:T55	
+T58	Person-Nominal 990 993	艺术家
+T59	Person-Pronoun 1004 1006	自我
+T60	Person-Pronoun 1013 1015	自我
+T61	Person-Nominal 1018 1020	别人
+T62	Person-Nominal 1024 1026	别人
+T63	Thing-Nominal 1027 1029	鼻孔
+R5	Part-Whole Arg1:T63 Arg2:T62	
+T64	Person-Pronoun 1059 1061	自我
+T65	Person-Name 1067 1070	柏拉图
+T66	Thing-Nominal 1127 1129	本根
+T67	Thing-Nominal 1133 1135	枝叶
+T68	Location-Nominal 1184 1185	堂
+T69	Location-Nominal 1186 1187	室
+T70	Thing-Nominal 1212 1214	螺旋
+T71	Person-Name 1245 1248	袁中郎
+T72	Thing-Nominal 1250 1254	随园诗话
+R6	Create Arg1:T71 Arg2:T72	
+T73	Person-Nominal 1298 1301	大贵人
+T74	Thing-Nominal 1308 1309	发
+T75	Thing-Nominal 1310 1311	簪
+T76	Person-Nominal 1314 1318	名士风流
+T77	Person-Nominal 1320 1322	少年
+T78	Time-Implicit 1338 1340	今天
+T79	Person-Pronoun 1341 1343	我们
+T80	Person-Nominal 1362 1366	艺术家们
+T81	Person-Nominal 1389 1393	前代大师
+T82	Person-Nominal 1406 1408	今人
+T83	Thing-Nominal 1421 1422	画
+T84	Thing-Nominal 1425 1426	书
+R7	Create Arg1:T21 Arg2:T22	
+R8	Create Arg1:T19 Arg2:T20	

@@ -1,0 +1,48 @@
+T1	Person-Pronoun 0 1	他
+T2	Time-Implicit 1 4	一辈子
+T3	Thing-Nominal 9 12	这座山
+T4	Thing-Nominal 17 19	鸟儿
+T5	Time-Implicit 19 22	一辈子
+T6	Thing-Nominal 26 29	这座山
+T7	Time-Explicit 31 33	至今
+T8	Person-Nominal 35 38	许多人
+T9	Person-Pronoun 42 48	骁勇善谋的他
+T10	Thing-Nominal 54 57	这座山
+T11	Time-Implicit 62 64	当年
+T12	Location-Name 65 68	商雒山
+T13	Location-Name 81 84	鱼腹山
+T14	Person-Pronoun 111 112	他
+T15	Location-Name 120 124	北京城内
+T17	Person-Name 129 133	崇祯皇帝
+T18	Thing-Nominal 126 139	尚留有崇祯皇帝体温的龙椅上
+T19	Metric 141 144	42天
+T20	Person-Name 126 149	尚留有崇祯皇帝体温的龙椅上端坐42天的大顺皇帝
+T21	Person-Name 151 165	“
+冲天一怒为红颜”的吴三桂
+T22	Location-Nominal 166 168	关外
+T23	Person-Nominal 166 175	关外那些虎狼般铁骑
+T24	Location-Name 181 183	北京
+T25	Location-Name 184 186	西安
+T26	Location-Name 188 190	西安
+T27	Location-Name 191 193	襄阳
+T28	Location-Name 203 208	武昌、九江
+T29	Location-Name 211 213;214 217	大冶 、蒲圻
+T30	Location-Name 223 225	通山
+T31	Location-Name 234 239	九宫山北麓
+T32	Location-Nominal 242 244	山北
+T33	Location-Nominal 245 247	山南
+T34	Thing-Nominal 251 254	一重山
+T35	Thing-Nominal 265 268	这座山
+T36	Location-Name 270 271	鄂
+T37	Location-Name 272 273	赣
+T38	Location-Name 275 276	湘
+T39	Person-Pronoun 281 282	他
+T40	Metric 283 286	几十万
+T41	Person-Nominal 281 288	他的几十万大军
+R1	Social Arg1:T41 Arg2:T39	
+T43	Location-Name 315 317	九宫
+T44	Person-Nominal 308 312	一代枭雄
+T16	Person-Name 151 152;153 165	“ 冲天一怒为红颜”的吴三桂
+T45	Location-Pronoun 277 279	那里
+*	Coreference T45 T38
+T42	Organization-Nominal 281 288	他的几十万大军

@@ -1,0 +1,118 @@
+T1	Thing-Nominal 6 8	电脑
+T2	Time-Implicit 10 13	高中时
+T3	Time-Implicit 14 16	那时
+*	Coreference T3 T2
+T4	Time-Implicit 18 20	每周
+T5	Location-Nominal 21 23	机房
+T6	Thing-Pronoun 31 32	其
+*	Coreference T6 T1
+T7	Time-Implicit 37 39	平时
+T8	Thing-Nominal 42 44	电脑
+T9	Thing-Nominal 51 52	机
+*	Coreference T8 T9
+T10	Time-Implicit 55 57	那时
+T11	Thing-Nominal 58 60	电脑
+T12	Thing-Nominal 79 82	显示器
+T13	Thing-Nominal 83 85	机箱
+R1	Part-Whole Arg1:T13 Arg2:T11	
+R2	Part-Whole Arg1:T12 Arg2:T11	
+T14	Time-Implicit 100 102	那时
+T15	Thing-Nominal 103 105	电脑
+T16	Location-Nominal 113 116	电脑房
+T17	Location-Nominal 117 122	防静电地板
+T18	Thing-Nominal 129 131	绒布
+T19	Person-Nominal 135 137	专人
+T20	Thing-Nominal 147 149	鞋套
+T21	Thing-Nominal 151 153	尘土
+R3	Located Arg1:T15 Arg2:T16	
+R4	Part-Whole Arg1:T17 Arg2:T16	
+R5	Located Arg1:T18 Arg2:T15	
+T22	Location-Nominal 158 160;161 162	电脑 房
+T23	Person-Nominal 171 173	信徒
+T24	Location-Nominal 175 177	教堂
+T25	Thing-Nominal 187 188	机
+T26	Thing-Nominal 202 204	电脑
+*	Coreference T25 T26
+T27	Time-Implicit 211 213	而今
+T28	Thing-Nominal 214 216	电脑
+T29	Time-Implicit 220 221;222 223	旧 时
+T30	Thing-Nominal 227 228	燕
+T31	Location-Nominal 231 236	寻常百姓家
+T32	Location-Nominal 225 226	堂
+T33	Person-Nominal 242 244	众人
+T34	Thing-Pronoun 245 246	其
+*	Coreference T34 T28 T35
+T35	Thing-Pronoun 267 268	它
+T36	Thing-Nominal 272 274	有的
+R6	General-Special Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 284 286	有的
+R7	General-Special Arg1:T37 Arg2:T35	
+T38	Thing-Nominal 286 288	机箱
+T39	Thing-Nominal 288 289	锈
+R8	Located Arg1:T39 Arg2:T38	
+R9	Part-Whole Arg1:T38 Arg2:T37	
+T40	Thing-Nominal 332 334	键盘
+T41	Thing-Nominal 336 338	鼠标
+R10	Part-Whole Arg1:T40 Arg2:T35	
+R11	Part-Whole Arg1:T41 Arg2:T35	
+T42	Thing-Nominal 348 350	硬件
+T43	Thing-Nominal 362 364	电脑
+R12	Part-Whole Arg1:T42 Arg2:T43	
+R13	General-Special Arg1:T40 Arg2:T42	
+R14	General-Special Arg1:T41 Arg2:T42	
+T44	Physical 380 382	奔腾
+T45	Physical 384 386	奔2
+T46	Physical 387 389	奔3
+T47	Time-Implicit 391 393	现在
+T48	Physical 394 398	酷睿2代
+T49	Thing-Nominal 424 428	平板电脑
+T50	Thing-Pronoun 429 430	其
+*	Coreference T49 T50
+T51	Person-Nominal 438 440	人们
+T52	Thing-Nominal 452 455	显示器
+T53	Thing-Nominal 483 485	硬盘
+T54	Thing-Nominal 486 488	电脑
+T55	Thing-Nominal 489 491	软盘
+R15	Part-Whole Arg1:T53 Arg2:T54	
+R16	Part-Whole Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 495 497	软盘
+T57	Metric 498 503	5.25寸
+T58	Metric 504 509	512KB
+T59	Metric 510 514	2.5寸
+T60	Metric 515 521	1.44MB
+T61	Thing-Nominal 522 524	硬盘
+T62	Physical 527 529	昆腾
+T63	Metric 529 530;531 533	1 GB
+T64	Physical 534 536	迈拓
+T65	Physical 537 539	希捷
+T66	Metric 540 543	1TB
+T67	Physical 544 546	昆腾
+T68	Physical 547 549	迈拓
+T69	Physical 550 555	IBM斯人
+T70	Person-Pronoun 570 572	我们
+T71	Time-Implicit 576 578	当时
+T72	Thing-Nominal 578 580	电脑
+T73	Thing-Nominal 592 595	兼容机
+T74	Metric 600 604	1至两万
+T75	Time-Implicit 609 611	而今
+T76	Time-Implicit 654 656	现在
+T77	Abstract 670 680	Windows3.2
+T78	Abstract 681 686;687 691	Windo ws95
+T79	Abstract 692 701	WindowsME
+T80	Abstract 702 711	WindowsXP
+T81	Time-Implicit 713 715	今天
+T82	Abstract 720 728	Windows7
+T83	Abstract 734 742	Windows8
+T84	Thing-Nominal 751 755	应用软件
+T85	Abstract 761 764	WPS
+T86	Person-Name 765 767	江民
+T87	Abstract 768 773	KV300
+T88	Abstract 774 778	王码五笔
+T89	Thing-Nominal 783 787	国产软件
+T90	Time-Implicit 792 794	如今
+T91	Time-Explicit 795 799	网络时代
+*	Coreference T90 T91
+T92	Person-Nominal 822 827	经历过的人
+T93	Person-Pronoun 841 842	你
+T94	Organization-Name 731 733	微软
+T95	Abstract 626 630	操作系统

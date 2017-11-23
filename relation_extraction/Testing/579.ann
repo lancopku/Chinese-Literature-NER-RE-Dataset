@@ -1,0 +1,168 @@
+T1	Person-Nominal 15 17	行人
+T2	Thing-Nominal 1 2	水
+T3	Thing-Nominal 7 8	山
+T4	Thing-Nominal 28 29	湖
+T6	Thing-Pronoun 38 39	她
+T5	Location-Nominal 32 34	城市
+R1	Located Arg1:T4 Arg2:T5	
+*	Coreference T6 T4
+T7	Location-Nominal 50 52	城市
+T8	Person-Nominal 66 68	人民
+T9	Thing-Pronoun 69 70	她
+T10	Location-Nominal 80 82	城市
+T11	Person-Nominal 91 94	现代人
+T12	Thing-Pronoun 100 101	她
+T13	Time-Implicit 104 107	千百年
+T14	Time-Implicit 125 127	三月
+T15	Location-Name 129 132	长荡湖
+T16	Time-Implicit 142 144	四月
+T17	Thing-Nominal 148 150	柳树
+T18	Location-Nominal 164 166	岸边
+T19	Thing-Nominal 167 168	草
+T20	Thing-Nominal 172 173	草
+T21	Thing-Nominal 174 175	水
+T22	Thing-Nominal 186 187	水
+T23	Thing-Nominal 191 192	草
+T24	Location-Nominal 199 201	岸边
+T25	Location-Nominal 205 207	水里
+T26	Location-Nominal 213 215	水面
+T27	Thing-Nominal 228 230	黄花
+T28	Location-Nominal 233 235	湖边
+*	Coreference T28 T15
+T29	Location-Nominal 242 244	岸边
+T30	Thing-Nominal 245 246	船
+R2	Located Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 249 251	锚地
+R3	Located Arg1:T30 Arg2:T31	
+T32	Location-Nominal 260 263	苇蒲丛
+T33	Thing-Nominal 266 268	水禽
+R4	Located Arg1:T33 Arg2:T32	
+T34	Location-Nominal 289 291	苇丛
+T35	Person-Nominal 299 302	垂钓者
+T36	Thing-Nominal 306 307;308 309	阳 伞
+T37	Thing-Nominal 312 314	马扎
+T38	Person-Nominal 322 324	有的
+T39	Thing-Nominal 329 330	杆
+T40	Thing-Nominal 331 332	线
+*	Coreference T38 T35
+R5	Use Arg1:T35 Arg2:T36	
+R6	Use Arg1:T35 Arg2:T37	
+T41	Thing-Nominal 340 342	苇叶
+T42	Thing-Nominal 342 344	蒲草
+T43	Thing-Nominal 363 365	苇叶
+T44	Thing-Nominal 417 419	苇子
+T45	Thing-Nominal 419 421	蒲草
+T46	Location-Nominal 421 423	湖边
+R7	Located Arg1:T44 Arg2:T46	
+*	Coreference T44 T45
+T47	Thing-Nominal 433 435	湖水
+T48	Thing-Nominal 445 447	草边
+T49	Location-Nominal 483 485	湖边
+T50	Location-Name 486 489	长荡湖
+*	Coreference T50 T49 T52
+T51	Thing-Nominal 492 494	镜子
+T52	Location-Nominal 513 516;517 518	江南小 城
+T53	Location-Nominal 519 520	湖
+T54	Thing-Nominal 537 539	湖水
+T55	Thing-Nominal 546 548	湖水
+T57	Thing-Nominal 581 582	船
+T56	Location-Nominal 594 596	湖面
+T58	Thing-Nominal 612 613	车
+T59	Location-Nominal 614 618	长荡湖边
+R8	Located Arg1:T58 Arg2:T59	
+T60	Person-Nominal 622 624	大家
+T61	Thing-Nominal 634 635	船
+T62	Location-Nominal 636 640	湖边人家
+T63	Thing-Nominal 643 645	艘船
+T64	Location-Nominal 652 654	饭店
+T65	Thing-Nominal 659 661	竹篙
+T66	Location-Nominal 667 669	水中
+R9	Located Arg1:T65 Arg2:T66	
+T67	Thing-Nominal 676 678	大网
+T68	Location-Nominal 694 695	湖
+T69	Person-Nominal 710 712	游客
+T70	Thing-Nominal 716 720	渔家蟹舫
+T71	Person-Nominal 721 723	舫主
+T72	Person-Pronoun 728 730	我们
+R10	Social Arg1:T71 Arg2:T72	
+T73	Location-Nominal 731 732	湖
+T74	Location-Nominal 740 741	湖
+T75	Person-Pronoun 753 754;755 756	我 们
+T76	Thing-Nominal 764 767	大闸蟹
+T78	Thing-Nominal 783 785	黄雀
+T79	Thing-Nominal 786 788	青鱼
+T80	Thing-Nominal 789 792	白壳虾
+T81	Thing-Nominal 796 801	清蒸大闸蟹
+T82	Thing-Nominal 805 807	鱼虾
+T77	Thing-Nominal 774 780	长荡湖“三鲜
+R11	Part-Whole Arg1:T78 Arg2:T77	
+R12	Part-Whole Arg1:T79 Arg2:T77	
+R13	Part-Whole Arg1:T80 Arg2:T77	
+T83	Thing-Nominal 820 822	鱼肉
+T84	Thing-Nominal 833 834	虾
+T85	Thing-Nominal 843 845	快艇
+T86	Location-Nominal 851 853	湖面
+R14	Located Arg1:T85 Arg2:T86	
+T87	Thing-Nominal 879 881	快艇
+T88	Location-Nominal 885 887	湖面
+T89	Thing-Nominal 900 901;902 903	芦 苇
+T90	Person-Nominal 925 927	宾客
+T91	Time-Implicit 928 932	傍晚时分
+T92	Location-Nominal 951 953	湖面
+T93	Thing-Nominal 982 984	鱼鳞
+T94	Thing-Nominal 987 989	水鸟
+T95	Thing-Nominal 990 992	湖面
+T96	Thing-Nominal 1027 1029	明月
+T97	Person-Nominal 1064 1066	孩子
+T98	Location-Nominal 1084 1086	湖面
+T99	Location-Nominal 1100 1102	湖面
+T100	Person-Nominal 1117 1119	渔民
+T101	Location-Nominal 1134 1136	江南
+T102	Thing-Name 1147 1150	长荡湖
+T103	Thing-Pronoun 1155 1156	她
+*	Coreference T103 T102 T107
+T104	Person-Nominal 1161 1167	树下闲坐的人
+T105	Person-Nominal 1168 1174	湖中游玩的人
+T106	Person-Nominal 1179 1184	向往它的人
+T107	Thing-Pronoun 1181 1182	它
+T108	Thing-Name 1185 1188	长荡湖
+T109	Location-Name 1253 1257	长荡湖畔
+T110	Person-Nominal 1235 1247	手拉着手在阳光下爱着的人
+T111	Person-Pronoun 1258 1260	他们
+*	Coreference T110 T111
+T112	Location-Nominal 1266 1268	堤上
+T113	Person-Pronoun 1271 1273	他们
+T114	Thing-Nominal 1279 1281	树叶
+T115	Time-Implicit 1287 1289	清晨
+T116	Time-Implicit 1290 1292	傍晚
+T117	Person-Pronoun 1334 1335	我
+T118	Location-Name 1341 1344	长荡湖
+T119	Person-Pronoun 1352 1353	我
+T120	Location-Nominal 1359 1360	湖
+*	Coreference T120 T118
+T121	Thing-Nominal 1375 1376	湖
+T122	Thing-Nominal 1368 1369	湖
+T123	Thing-Nominal 1382 1383	湖
+T124	Thing-Nominal 1389 1390	湖
+T125	Person-Pronoun 1401 1402	你
+T126	Time-Implicit 1402 1405	春天里
+T127	Time-Implicit 1414 1417	夏天里
+T128	Thing-Nominal 1417 1419	杨柳
+T129	Location-Nominal 1421 1423	水面
+T130	Time-Implicit 1424 1427	秋天里
+T131	Location-Nominal 1427 1429	岸边
+T132	Thing-Nominal 1435 1437	黄叶
+R15	Located Arg1:T132 Arg2:T131	
+T133	Time-Implicit 1438 1441	冬天里
+T134	Thing-Nominal 1447 1449	枝杆
+T135	Thing-Nominal 1454 1455	湖
+T136	Person-Pronoun 1470 1471	我
+T137	Thing-Nominal 1468 1469	湖
+T138	Person-Pronoun 1545 1546	你
+T139	Person-Pronoun 1560 1561	你
+T140	Thing-Name 1569 1572	长荡湖
+T141	Person-Pronoun 1581 1582	你
+T142	Person-Pronoun 1598 1599	你
+T143	Person-Nominal 1610 1613	旁观者
+T144	Person-Nominal 1601 1604;1605 1607	风景里 的人
+*	Coreference T142 T144 T143

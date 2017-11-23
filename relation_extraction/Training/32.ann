@@ -1,0 +1,45 @@
+T1	Location-Nominal 0 4	我的家园
+T2	Person-Pronoun 0 1	我
+T3	Location-Name 5 11	长江三峡南岸
+R1	Part-Whole Arg1:T1 Arg2:T3	
+T4	Location-Name 12 17	武陵山腹地
+T5	Thing-Nominal 19 31	一个被山水勾勒出网状图案
+T6	Location-Nominal 32 47	被花草妆扮成水墨画幅的美丽地方
+T7	Location-Nominal 50 60;61 67	一个人人向往、个个流 连的人间天堂
+*	Coreference T6 T1 T7 T12
+T8	Thing-Nominal 33 35	花草
+T9	Thing-Nominal 38 42	水墨画幅
+T10	Thing-Nominal 22 24	山水
+T11	Thing-Nominal 27 31	网状图案
+T12	Location-Pronoun 68 69	她
+T13	Location-Pronoun 84 85	她
+T14	Location-Name 85 89	西部凉城
+*	Coreference T14 T13
+T15	Location-Pronoun 93 94	她
+T16	Location-Name 94 98	武陵明珠
+*	Coreference T16 T15
+T17	Location-Pronoun 103 104	她
+T18	Location-Name 104 108	鄂西林海
+T19	Location-Name 109 113	天然氧吧
+T20	Location-Pronoun 118 119	她
+T21	Location-Name 120 121;122 129	人 迷情的富硒姑娘
+*	Coreference T19 T17 T18
+*	Coreference T21 T20
+T22	Location-Nominal 132 136	我的家园
+T23	Thing-Nominal 137 146	无数绵延逶迤的大山
+T24	Location-Pronoun 150 151	她
+R2	Located Arg1:T23 Arg2:T22	
+T25	Thing-Nominal 151 165	遮风挡雨、平安哺育的天然屏障
+*	Coreference T25 T23 T26
+T26	Thing-Nominal 172 181	她宽大而秀美的骨架
+T27	Location-Nominal 183 185	家园
+*	Coreference T27 T22
+T28	Location-Nominal 204 206	家园
+T29	Location-Nominal 224 226	家园
+T30	Location-Nominal 226 233	这颗璀璨的明珠
+*	Coreference T30 T29
+T31	Location-Name 234 238	武陵山区
+R3	Part-Whole Arg1:T29 Arg2:T31	
+T32	Location-Name 240 244	中华大地
+R4	Part-Whole Arg1:T31 Arg2:T32	
+R5	Part-Whole Arg1:T29 Arg2:T32	

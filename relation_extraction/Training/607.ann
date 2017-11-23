@@ -1,0 +1,493 @@
+T1	Thing-Nominal 0 4	北方的海
+T2	Thing-Nominal 13 17	北方的海
+T3	Person-Pronoun 20 21	我
+T4	Thing-Nominal 32 38	很远的北方海
+T5	Location-Nominal 23 28	很远的北方
+R1	Located Arg1:T4 Arg2:T5	
+T6	Location-Nominal 6 11	很远的北方
+T7	Thing-Nominal 40 44	北方的海
+T8	Thing-Nominal 46 50	蓝色的海
+T9	Thing-Nominal 53 57	寒性的海
+T10	Location-Nominal 61 66	北方的海边
+T11	Thing-Nominal 71 72	海
+T12	Thing-Nominal 76 77	海
+T13	Location-Nominal 81 83	海滩
+T14	Person-Pronoun 67 68	我
+T15	Thing-Nominal 91 97	海水的雪浪花
+T16	Thing-Nominal 102 107	枚枚鹅卵石
+T17	Person-Pronoun 109 110	我
+T18	Location-Name 121 125	曲阜孔府
+T19	Location-Name 113 117	泉城济南
+T20	Location-Name 128 130	泰山
+T21	Location-Name 144 146	青岛
+T22	Location-Name 135 139	山东半岛
+T23	Location-Nominal 135 146	山东半岛的海滨城市青岛
+T24	Time-Implicit 151 160	北方的五月初春季节
+T25	Thing-Nominal 162 168	五月的苹果树
+T26	Thing-Nominal 178 184	五月的槐树林
+T27	Thing-Nominal 188 193	银色的花串
+R2	Located Arg1:T27 Arg2:T26	
+T28	Location-Nominal 194 201	五月的北方大地
+T29	Person-Pronoun 217 218	我
+T30	Location-Name 223 225	青岛
+T31	Person-Pronoun 228 229	我
+T32	Thing-Nominal 234 238	北方的海
+T33	Location-Name 242 244	青岛
+T34	Person-Pronoun 250 251	我
+T35	Location-Name 258 260	青岛
+T36	Location-Name 265 267	青岛
+T37	Thing-Nominal 260 264	青青的雨
+T38	Thing-Nominal 267 273	青青的槐树林
+T39	Location-Name 274 276	青岛
+T40	Thing-Nominal 276 277;278 281	轻 轻的风
+T41	Location-Name 282 284	青岛
+T42	Thing-Nominal 284 290	清清的蓝海浪
+T43	Location-Name 295 297	青岛
+T44	Person-Pronoun 298 299	我
+T45	Location-Name 301 305	上海黄浦
+T46	Thing-Nominal 307 309	海轮
+T47	Location-Name 317 319	青岛
+T48	Thing-Nominal 323 326	高速路
+T49	Thing-Nominal 330 335	旅行大巴车
+T50	Location-Nominal 339 343	青岛市区
+T51	Thing-Nominal 346 349	大巴车
+T52	Location-Nominal 351 353	大海
+T53	Location-Name 365 369	胶东半岛
+T54	Thing-Nominal 363 374;375 379	横亘胶东半岛海面的跨海 长桥大桥
+T55	Location-Name 382 384	黄岛
+T56	Location-Name 385 387	青岛
+T57	Thing-Nominal 388 394	跨海长桥大桥
+T58	Thing-Nominal 380 394	这座黄岛连青岛的跨海长桥大桥
+T59	Metric 397 401	41公里
+T60	Thing-Nominal 402 404	车子
+T61	Metric 409 413	半个小时
+T62	Thing-Nominal 417 431	目前世界上最长最大的跨海大桥
+*	Coreference T62 T58
+T63	Person-Nominal 433 435	导游
+T64	Thing-Nominal 438 442	大桥桥墩
+T65	Metric 449 453	80余米
+T66	Thing-Nominal 458 461	人民币
+T67	Thing-Nominal 497 504	宏伟的海上工程
+R3	Use Arg1:T44 Arg2:T46	
+T68	Thing-Nominal 507 510	大巴车
+T69	Thing-Nominal 513 517	跨海大桥
+T70	Person-Nominal 519 521	人们
+T71	Person-Nominal 529 531	有的
+T72	Person-Nominal 538 540	有的
+T73	Person-Nominal 547 549	有的
+T74	Thing-Nominal 534 537	照相机
+T75	Thing-Nominal 543 546	录相机
+T76	Person-Pronoun 602 603	我
+T77	Thing-Nominal 605 607	车窗
+T78	Thing-Nominal 613 614	海
+T79	Thing-Nominal 620 621	海
+T80	Thing-Nominal 616 617	海
+T81	Thing-Nominal 629 631	大海
+T82	Thing-Nominal 635 639	金色阳光
+T83	Thing-Nominal 640 644	粼粼波光
+T84	Thing-Nominal 651 655	海上的船
+T85	Person-Nominal 657 659	渔人
+T86	Thing-Nominal 665 667	大海
+T87	Thing-Nominal 673 676	北方海
+T88	Thing-Nominal 684 686	大海
+T89	Person-Nominal 697 701	古今之人
+T90	Person-Nominal 735 746	那些历史上的伟人和名人
+T91	Person-Pronoun 747 749	他们
+*	Coreference T91 T90
+T92	Person-Name 780 782	曹操
+T93	Abstract 790 795	《观沧海》
+T94	Thing-Nominal 811 813	碣石
+T95	Thing-Nominal 816 818	沧海
+T96	Thing-Nominal 824 826	山岛
+T97	Thing-Nominal 829 831	树木
+T98	Thing-Nominal 834 836	百草
+T99	Thing-Nominal 839 841	秋风
+T100	Thing-Nominal 844 846	洪波
+T101	Thing-Nominal 849 851	日月
+T102	Thing-Nominal 860 862	星汉
+T103	Person-Name 876 879	毛泽东
+T104	Location-Nominal 888 892	北方海边
+T105	Person-Pronoun 893 894	他
+T106	Abstract 899 908	《浪淘沙・北戴河》
+T107	Thing-Nominal 912 914	大海
+T108	Person-Pronoun 915 916	他
+T109	Thing-Nominal 923 925	大雨
+T110	Thing-Nominal 929 931	白浪
+T111	Location-Name 934 937	秦皇岛
+T112	Thing-Nominal 938 941	打鱼船
+T113	Thing-Nominal 944 946	汪洋
+T114	Person-Name 961 963	魏武
+T115	Thing-Nominal 968 970	碣石
+T116	Thing-Nominal 976 978	秋风
+T117	Thing-Nominal 999 1002	新大海
+T118	Person-Name 1003 1005	杨朔
+T119	Thing-Nominal 1013 1018	“雪浪花”
+T120	Thing-Nominal 1019 1030	朴实、纯洁而平凡的大海
+T121	Person-Name 1031 1034	刘白羽
+T122	Thing-Nominal 1043 1055	海上日出的壮丽景像的大海
+T123	Person-Name 1058 1061	刘再复
+T124	Thing-Nominal 1068 1077	永远翻涌不息的沧海
+T125	Thing-Nominal 1078 1080	大海
+T126	Thing-Nominal 1085 1087	大海
+T127	Person-Nominal 1098 1099	人
+T128	Location-Name 1175 1177	青岛
+T129	Location-Name 1181 1183	威海
+T130	Person-Pronoun 1184 1185	我
+T131	Thing-Nominal 1188 1192	旅行海轮
+T132	Person-Pronoun 1205 1207	我们
+T133	Location-Nominal 1210 1212	船仓
+T134	Location-Nominal 1216 1218	船楼
+T135	Location-Nominal 1223 1225	甲板
+T136	Thing-Nominal 1229 1236	猎猎吹拂的海风
+T137	Thing-Nominal 1239 1246	茫茫浩淼的大海
+T138	Thing-Nominal 1249 1258	涌涌而来的海波海浪
+T139	Thing-Nominal 1281 1287	远处的大轮船
+T140	Thing-Nominal 1290 1292	巨鲸
+T141	Person-Pronoun 1295 1297	我们
+T142	Thing-Nominal 1300 1304	旅行游轮
+T143	Thing-Nominal 1307 1315	游翔在大海的巨鱼
+T144	Thing-Nominal 1319 1323	小型快艇
+T145	Thing-Nominal 1328 1337	穿行在海面上的飞鱼
+T146	Thing-Nominal 1340 1341	轮
+T147	Thing-Nominal 1343 1344	船
+T148	Thing-Nominal 1346 1347	艇
+T149	Thing-Pronoun 1348 1350	它们
+T150	Thing-Nominal 1355 1373	一道道、一条条和一堆堆的银色海波海浪
+T151	Thing-Nominal 1376 1380	玉带银练
+T152	Thing-Nominal 1383 1387	雪团雪堆
+T153	Thing-Nominal 1391 1395	涌银叠玉
+T154	Thing-Nominal 1398 1400	船只
+T155	Thing-Nominal 1407 1409	海浪
+T156	Thing-Nominal 1413 1415	海浪
+T157	Thing-Nominal 1419 1421	海浪
+T158	Person-Pronoun 1429 1430	我
+T159	Thing-Nominal 1429 1437	我眼内的海景画面
+T160	Thing-Nominal 1440 1442	大海
+T161	Person-Nominal 1456 1457	人
+T162	Thing-Nominal 1470 1472	大海
+T163	Thing-Pronoun 1474 1475	它
+T164	Person-Pronoun 1480 1481	我
+T165	Location-Name 3989 3991	乌镇
+T166	Location-Nominal 3993 3998	江南的名镇
+R4	General-Special Arg1:T166 Arg2:T165	
+T167	Thing-Nominal 4000 4004	乌镇小巷
+T168	Thing-Nominal 4006 4016	江南古版线装书的分册
+T169	Location-Nominal 4018 4020	乌镇
+T170	Person-Name 4021 4023	茅盾
+T171	Location-Name 4024 4026	乌镇
+T172	Location-Name 4027 4029	乌镇
+T173	Person-Name 4030 4038	现代文学大家茅盾
+T174	Thing-Nominal 1493 1495	大海
+T175	Thing-Nominal 1505 1509;1510 1515	海腾浪颠 的飘摇海轮
+T176	Thing-Nominal 1526 1533	风狂浪涌的大海
+T177	Person-Pronoun 1572 1574	我们
+T178	Location-Name 1601 1603	青岛
+T179	Location-Name 1604 1606	威海
+T180	Person-Pronoun 1615 1616	我
+T181	Location-Name 1618 1621	小青岛
+T182	Location-Nominal 1622 1626	栈桥码头
+T183	Location-Name 1637 1640	小青岛
+T184	Location-Name 1642 1644	琴岛
+T185	Location-Name 1645 1647	琴岛
+T186	Location-Name 1649 1651	青岛
+T187	Location-Name 1652 1655	小青岛
+T188	Location-Name 1664 1666	青岛
+T189	Location-Name 1672 1675	小青岛
+T190	Location-Name 1680 1683	小青岛
+*	Coreference T183 T184
+T191	Thing-Nominal 1691 1700	导航海轮海船的灯塔
+T192	Thing-Nominal 1704 1708	这座灯塔
+T193	Location-Nominal 1713 1717	小岛山顶
+T194	Thing-Nominal 1719 1721;1722 1724	导航 灯塔
+T195	Thing-Nominal 1744 1754	行驶在胶东海湾的船只
+T196	Location-Name 1747 1751	胶东海湾
+T197	Person-Pronoun 1755 1757	我们
+T198	Location-Nominal 1759 1765	威海的刘公岛
+T199	Location-Name 1762 1765	刘公岛
+T200	Location-Name 1759 1761	威海
+T201	Thing-Nominal 1770 1780	那座古人御敌的望海楼
+T202	Person-Nominal 1772 1774	古人
+T203	Time-Explicit 1785 1787	清代
+T204	Location-Nominal 1785 1798	清代北洋水师衙门公署所在地
+T205	Organization-Name 1787 1795	北洋水师衙门公署
+T206	Abstract 1802 1808	中日甲午海战
+T207	Location-Nominal 1802 1811	中日甲午海战纪念馆
+T208	Person-Nominal 1816 1817	人
+T209	Location-Name 1860 1863	成山头
+T210	Location-Nominal 1864 1869	苍南岛景区
+T211	Thing-Nominal 1871 1874	东天门
+T212	Location-Name 1879 1882	成山头
+T213	Location-Nominal 1879 1885	成山头的海岸
+T214	Thing-Nominal 1889 1894	挺立的礁峰
+T215	Thing-Nominal 1895 1897	礁峰
+T216	Thing-Nominal 1912 1914	礁峰
+T217	Thing-Nominal 1906 1909	三个字
+T218	Abstract 1901 1906	“好运角”
+T219	Time-Explicit 1916 1919	东天门
+T220	Time-Implicit 1922 1926	每天清晨
+T221	Thing-Nominal 1935 1940	第一缕朝霞
+T222	Person-Name 1977 1980	秦始皇
+T223	Thing-Nominal 1986 1987	海
+T224	Person-Name 1992 1995	秦始皇
+T225	Thing-Nominal 1995 1999	祭海雕像
+T226	Time-Implicit 2000 2002	尔后
+T227	Person-Nominal 2008 2014	历朝历代君王
+T228	Location-Nominal 2014 2020	祭拜海神之地
+T229	Thing-Nominal 2021 2026	苍南岛雕塑
+T230	Thing-Nominal 2027 2034	巨大的玛祖神像
+T231	Thing-Nominal 2035 2042	海边的爱字石碑
+R5	Located Arg1:T230 Arg2:T229	
+R6	Located Arg1:T231 Arg2:T229	
+T232	Location-Nominal 1808 1811	纪念馆
+T233	Thing-Nominal 2057 2059	大海
+T234	Thing-Nominal 2062 2064	大海
+T235	Location-Nominal 2090 2095	北方的海边
+T236	Person-Pronoun 2106 2107	我
+T237	Location-Nominal 2108 2114	故乡的小河边
+T238	Thing-Nominal 2117 2119	卵石
+T239	Location-Nominal 2122 2126	嘉陵江畔
+T240	Location-Nominal 2128 2132	中坝沙洲
+T241	Thing-Nominal 2136 2139	嘉陵石
+T242	Location-Nominal 2142 2144	海边
+T243	Location-Nominal 2152 2157	北方的海边
+T244	Location-Nominal 2175 2184	威海的纹石宝滩海滩
+T245	Location-Name 2175 2177	威海
+T246	Location-Nominal 2186 2192	一片银色沙滩
+T247	Thing-Nominal 2194 2199	白白的海沙
+T248	Metric 2205 2206;2207 2210	四 五百米
+T249	Metric 2213 2217	五六十米
+T250	Location-Nominal 2211 2220	宽有五六十米的海滩
+T251	Location-Nominal 2225 2232	静静的海湾地带
+T252	Thing-Nominal 2233 2235	海水
+*	Coreference T246 T244
+T253	Time-Implicit 2240 2246	时值下午时分
+T254	Thing-Nominal 2247 2250	太阳光
+T255	Location-Nominal 2253 2255	海面
+T256	Person-Pronoun 2257 2259	我们
+T257	Thing-Nominal 2261 2263	双足
+R7	Part-Whole Arg1:T257 Arg2:T256	
+T258	Thing-Nominal 2268 2273	软软的白沙
+T259	Location-Nominal 2277 2290	轻轻卷起一浪一浪的润湿沙岸
+T260	Thing-Nominal 2301 2307	彩色的小卵石
+T261	Thing-Nominal 2309 2310	手
+T262	Thing-Nominal 2321 2327	白花花的浪花
+T263	Thing-Nominal 2337 2342	细细的浪花
+T264	Person-Nominal 2345 2346	人
+T265	Thing-Nominal 2347 2349	两足
+R8	Part-Whole Arg1:T265 Arg2:T264	
+T266	Person-Pronoun 2354 2356	我们
+T267	Thing-Nominal 2359 2362	雪浪花
+T268	Thing-Nominal 2374 2389	一小袋斑斓夺目的纹石宝滩的卵石
+T269	Person-Pronoun 2391 2392	我
+T270	Thing-Nominal 2400 2402	卵石
+T271	Thing-Nominal 2411 2413	海滩
+T272	Location-Nominal 2382 2386	纹石宝滩
+T273	Location-Nominal 2443 2450	北方海的棒捶岛
+T274	Location-Name 2447 2450	棒捶岛
+T275	Location-Name 2452 2456	辽东半岛
+T276	Location-Name 2456 2458	大连
+T277	Location-Nominal 2461 2467	海滨生态公园
+T278	Location-Nominal 2452 2467	辽东半岛大连市郊的海滨生态公园
+T279	Thing-Nominal 2473 2474	树
+T280	Thing-Nominal 2475 2476	草
+T281	Thing-Nominal 2471 2472	山
+T282	Thing-Nominal 2481 2482	天
+T283	Thing-Nominal 2483 2484	海
+T284	Thing-Nominal 2489 2491	空气
+T285	Location-Name 2501 2503;2504 2505	棒捶 岛
+T286	Thing-Nominal 2513 2515	大海
+T287	Thing-Nominal 2520 2527	似捶头状的礁石
+R9	Part-Whole Arg1:T276 Arg2:T275	
+T288	Thing-Nominal 2531 2542	一长溜横亘若棒的礁石群
+T289	Thing-Nominal 2555 2562	一个巨大的棒捶
+T290	Thing-Nominal 2583 2585	卵石
+T291	Thing-Nominal 2587 2589	海沙
+T292	Location-Nominal 2583 2592	卵石多于海沙的海滩
+T293	Thing-Nominal 2600 2602	卵石
+T294	Thing-Nominal 2606 2611	众多的卵石
+T295	Location-Nominal 2666 2670	乌镇小巷
+T296	Location-Nominal 2674 2679	乌镇的小巷
+T297	Thing-Nominal 2687 2689	丁香
+T298	Person-Nominal 2691 2696	愁怨的姑娘
+T299	Location-Nominal 2709 2714	乌镇的小巷
+T300	Thing-Nominal 2727 2731;2732 2734	一场江南 烟雨
+T301	Thing-Nominal 2737 2743	小巷的青石板
+R10	Located Arg1:T301 Arg2:T299	
+T302	Thing-Nominal 2747 2751	乌镇的巷
+T303	Thing-Nominal 2760 2763	青石板
+T304	Thing-Nominal 2767 2772	坚硬的石条
+T305	Thing-Nominal 2782 2787	绿茵的苔藓
+T306	Thing-Nominal 2790 2797	一茎两茎的小草
+T307	Location-Nominal 2811 2816	小巷的石隙
+T308	Thing-Nominal 2828 2832	乌镇的房
+T309	Thing-Nominal 2841 2847	老旧的木板房
+*	Coreference T309 T308
+T310	Thing-Nominal 2848 2850	门楣
+R11	Part-Whole Arg1:T310 Arg2:T309	
+T311	Thing-Nominal 2854 2856	房柱
+R12	Part-Whole Arg1:T311 Arg2:T309	
+T312	Thing-Nominal 2862 2866	个个院子
+T313	Thing-Nominal 2867 2871	间间房屋
+T314	Thing-Nominal 2884 2888;2889 2890	本色的门 板
+T315	Thing-Nominal 2893 2898	着漆的花窗
+T316	Thing-Nominal 2901 2905	雕梁画柱
+T317	Thing-Nominal 2907 2911	乌镇的瓦
+T318	Thing-Nominal 2918 2920	小巷
+T319	Thing-Nominal 2921 2928	长长的拉锁链条
+T320	Thing-Nominal 2932 2939	壁立的小木楼房
+T321	Thing-Nominal 2940 2947	楼房顶上的屋瓦
+T322	Thing-Nominal 2969 2974	长卧的蜈蚣
+T323	Thing-Nominal 2975 2977	瓦沟
+T324	Thing-Nominal 2978 2985	条条过水的涧槽
+T325	Thing-Nominal 2986 2988	青瓦
+T326	Thing-Nominal 2991 2993	鱼鳞
+T327	Thing-Nominal 2997 3006	小巷西侧的木楼屋顶
+T328	Location-Nominal 3010 3014	乌镇小巷
+T329	Person-Nominal 3019 3025	一个江南女子
+T330	Person-Name 3030 3033	戴望舒
+T331	Abstract 3033 3037	《雨巷》
+T332	Person-Nominal 3041 3045	江南女子
+T333	Thing-Nominal 3052 3055	油纸伞
+T334	Location-Nominal 3067 3068;3069 3073	寂 寥的雨巷
+T335	Person-Pronoun 3074 3075	我
+R13	Use Arg1:T332 Arg2:T333	
+*	Coreference T332 T329
+T336	Thing-Nominal 3081 3083	丁香
+T337	Person-Nominal 3085 3092	结着愁怨的姑娘
+T338	Person-Pronoun 3097 3098	我
+T339	Location-Nominal 3124 3126	小巷
+T340	Location-Name 3132 3134	乌镇
+T341	Thing-Nominal 3139 3141	阳光
+T342	Thing-Nominal 3159 3166	现在的乌镇小巷
+T343	Person-Nominal 3179 3184	旅游的人群
+T344	Location-Nominal 3185 3187	小巷
+T345	Thing-Nominal 3196 3201	乌镇的小巷
+T346	Person-Name 3206 3209	戴望舒
+T347	Abstract 3214 3218	《雨巷》
+T348	Time-Explicit 3223 3225	烟雨
+T349	Thing-Nominal 3266 3269	油纸伞
+T350	Thing-Nominal 3269 3271	丁香
+T351	Person-Nominal 3273 3277	江南姑娘
+T352	Location-Nominal 3292 3297	乌镇的小巷
+T353	Thing-Nominal 3299 3304	自己的双脚
+T354	Person-Nominal 3310 3314	雨巷诗人
+T355	Location-Nominal 3321 3323	小巷
+T356	Thing-Nominal 3324 3329	印下的足痕
+T357	Location-Nominal 3340 3344	乌镇小巷
+T358	Thing-Nominal 3358 3359	楼
+T359	Thing-Nominal 3361 3362	院
+T360	Thing-Nominal 3366 3377	仅容两三人并肩排行的巷
+T362	Thing-Nominal 3392 3399	一院套一院的院
+T363	Thing-Nominal 3402 3404	小巷
+T364	Thing-Nominal 3410 3412	小院
+T365	Thing-Nominal 3420 3424	小巷木楼
+T366	Thing-Nominal 3427 3431	小巷院落
+T367	Thing-Nominal 3434 3438	江南民居
+T368	Thing-Nominal 3441 3450	古朴典雅的家具摆设
+T369	Thing-Nominal 3454 3462	楼院里的藤蔓花草
+T370	Location-Nominal 3533 3538	小巷的楼院
+T371	Thing-Nominal 3542 3547	一个个天井
+T372	Thing-Nominal 3550 3555	一间间屋厅
+T373	Location-Nominal 3562 3567	时光的隧道
+T374	Thing-Nominal 3498 3500	小巷
+T375	Person-Pronoun 3568 3569	我
+T376	Location-Nominal 3572 3577	百床博物馆
+T377	Thing-Nominal 3584 3588	名贵树木
+T378	Thing-Nominal 3583 3592;3593 3594	用名贵树木所做的木 床
+T379	Thing-Nominal 3597 3609	精雕细刻的各式各样的木床
+T380	Person-Nominal 3631 3633	床主
+T381	Person-Nominal 3649 3653;3654 3657	制作木床 的工匠
+T382	Thing-Nominal 3651 3653	木床
+T383	Thing-Nominal 3670 3677	古老的木床藏品
+T384	Person-Nominal 3688 3689	人
+T385	Location-Nominal 3700 3702	楼院
+T386	Location-Name 3704 3706	乌镇
+T387	Location-Nominal 3704 3715	乌镇当地的一家印染作坊
+T388	Thing-Nominal 3716 3721	入院内的门
+T389	Location-Nominal 3726 3728	楼院
+T390	Thing-Nominal 3733 3740	很大很大的院坝
+T391	Thing-Nominal 3743 3755;3756 3757	经过印染的青黑色的匹匹布 幅
+T392	Thing-Nominal 3768 3775	横空而排的竹竿
+R14	Located Arg1:T391 Arg2:T392	
+T393	Thing-Nominal 3777 3779	微风
+T394	Thing-Nominal 3782 3784	布匹
+T395	Thing-Nominal 3789 3793	拂条柳枝
+T396	Person-Nominal 3800 3801	人
+T397	Person-Nominal 3810 3811	人
+T398	Abstract 3817 3821	唐诗宋词
+T399	Person-Nominal 3825 3828	浣纱女
+T400	Location-Nominal 3831 3835	印染作坊
+T401	Thing-Nominal 3837 3846	印染的拴花布匹之类
+T402	Person-Nominal 3852 3856	浣纱女们
+T403	Person-Nominal 3874 3876	古人
+T404	Person-Nominal 3893 3895	今人
+T405	Person-Nominal 3929 3931	宋人
+T406	Person-Name 3931 3933	蒋捷
+T407	Thing-Nominal 3952 3954	樱桃
+T408	Thing-Nominal 3957 3959	芭蕉
+T409	Location-Name 3961 3963	江南
+T410	Person-Nominal 3966 3969	浣纱女
+T411	Location-Nominal 4043 4047	乌镇镇头
+T412	Thing-Nominal 4062 4065	老戏台
+T413	Abstract 4058 4061	桐乡戏
+T414	Abstract 4051 4056	本土地方戏
+T415	Thing-Nominal 4067 4070	老戏台
+T416	Location-Nominal 4082 4086	乌镇小巷
+T417	Location-Nominal 4094 4098	茅盾故居
+T418	Person-Name 4094 4096	茅盾
+T419	Person-Nominal 4101 4103;4104 4108	中国 小说大师
+T420	Thing-Nominal 4108 4113	故居的匾额
+*	Coreference T418 T419
+T421	Person-Nominal 4115 4120	国家领导人
+T422	Person-Name 4120 4122	陈云
+*	Coreference T422 T421
+T423	Person-Pronoun 4130 4131	我
+T424	Thing-Nominal 4134 4136	故居
+T425	Person-Name 4189 4191	茅盾
+T426	Person-Pronoun 4174 4175	我
+T427	Thing-Nominal 4155 4162	茅盾的半身塑像
+T428	Person-Name 4155 4157	茅盾
+T429	Thing-Nominal 4144 4151	故居的正门门厅
+T430	Person-Pronoun 4199 4200	我
+T431	Person-Name 4221 4223	茅盾
+T432	Thing-Nominal 4229 4231	厨房
+T433	Thing-Nominal 4232 4235	后花园
+T434	Person-Name 4253 4255	茅盾
+T435	Thing-Nominal 4251 4264;4265 4269	关于茅盾生平和创作成就介绍 的展览馆
+R15	Located Arg1:T435 Arg2:T417	
+T436	Person-Nominal 4287 4291	文学巨匠
+*	Coreference T436 T428
+T437	Location-Name 4300 4302	乌镇
+T438	Location-Nominal 4305 4309	乌镇小巷
+T439	Thing-Nominal 4319 4322	油纸伞
+T440	Thing-Nominal 4323 4325	丁香
+T441	Person-Nominal 4327 4331	江南女子
+T442	Location-Nominal 4335 4342	窄窄长长的小巷
+T443	Thing-Nominal 4347 4352	小巷青石板
+T444	Thing-Nominal 4355 4357	足印
+R16	Located Arg1:T444 Arg2:T443	
+T445	Thing-Nominal 4361 4366	古旧的楼院
+R17	Located Arg1:T1 Arg2:T6	
+R18	Located Arg1:T16 Arg2:T13	
+R19	Part-Whole Arg1:T27 Arg2:T26	
+R20	Located Arg1:T68 Arg2:T69	
+R21	Part-Whole Arg1:T71 Arg2:T70	
+R22	Part-Whole Arg1:T72 Arg2:T70	
+R23	Part-Whole Arg1:T73 Arg2:T70	
+R24	Located Arg1:T84 Arg2:T81	
+R25	Part-Whole Arg1:T92 Arg2:T90	
+R26	Part-Whole Arg1:T103 Arg2:T90	
+*	Coreference T105 T103
+R27	Part-Whole Arg1:T118 Arg2:T90	
+R28	Part-Whole Arg1:T121 Arg2:T90	
+R29	Part-Whole Arg1:T148 Arg2:T149	
+R30	Part-Whole Arg1:T147 Arg2:T149	
+R31	Part-Whole Arg1:T146 Arg2:T149	
+R32	Located Arg1:T192 Arg2:T193	
+T446	Time-Implicit 1684 1688	百多年前
+R33	Located Arg1:T191 Arg2:T190	
+R34	Located Arg1:T201 Arg2:T198	
+R35	Located Arg1:T211 Arg2:T210	
+R36	Located Arg1:T214 Arg2:T213	
+R37	Located Arg1:T217 Arg2:T215	
+T361	Thing-Nominal 3380 3387	是一楼一底的楼

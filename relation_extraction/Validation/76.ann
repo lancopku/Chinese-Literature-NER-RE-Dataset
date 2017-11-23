@@ -1,0 +1,276 @@
+T1	Thing-Nominal 2 3	桃
+T2	Thing-Nominal 4 5	柳
+T3	Time-Implicit 2 9	桃红柳绿的春天
+T4	Location-Nominal 10 12	校园
+T5	Thing-Nominal 18 20	燕子
+T6	Thing-Nominal 26 28	家燕
+T7	Thing-Nominal 33 40	又尖又长的翅膀
+R1	Part-Whole Arg1:T6 Arg2:T7	
+T8	Metric 31 33	一对
+T9	Thing-Nominal 41 43	尾巴
+R2	Part-Whole Arg1:T9 Arg2:T6	
+T10	Thing-Nominal 46 48	剪刀
+T11	Metric 44 46	一把
+*	Coreference T10 T9
+T12	Metric 51 53	一件
+T13	Thing-Nominal 49 50	身
+R3	Part-Whole Arg1:T13 Arg2:T6	
+T14	Thing-Nominal 53 59	蓝黑色的外衣
+T15	Thing-Nominal 61 62	额
+T16	Thing-Nominal 63 65	喉部
+R4	Part-Whole Arg1:T15 Arg2:T6	
+R5	Part-Whole Arg1:T16 Arg2:T6	
+T17	Thing-Nominal 71 73	下体
+R6	Part-Whole Arg1:T17 Arg2:T6	
+T18	Location-Nominal 77 82	校园的上空
+T19	Location-Nominal 93 98	池塘的水面
+T20	Location-Nominal 103 107	楼的顶端
+T21	Thing-Nominal 117 119	昆虫
+T22	Metric 124 128	三三五五
+T23	Thing-Nominal 131 133	电线
+T24	Time-Implicit 87 89	时而
+T25	Person-Nominal 148 150	人们
+T26	Location-Nominal 151 153	地面
+T27	Person-Nominal 164 165	人
+T28	Thing-Nominal 168 170	家燕
+R7	General-Special Arg1:T5 Arg2:T6	
+T29	Person-Nominal 194 195	人
+T30	Person-Nominal 207 209	人们
+T31	Thing-Nominal 200 202	家燕
+T32	Thing-Nominal 224 225	鸟
+R8	General-Special Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 231 236	高大的槐树
+T34	Thing-Nominal 238 240	喜鹊
+R9	General-Special Arg1:T32 Arg2:T34	
+T35	Thing-Nominal 242 244	鸟巢
+T36	Thing-Pronoun 250 252	她们
+*	Coreference T36 T34 T37 T38
+T37	Thing-Pronoun 257 258	你
+T38	Thing-Pronoun 260 261	我
+T39	Location-Nominal 255 256	巢
+T40	Thing-Nominal 288 295	粗壮的泡桐树枝
+T41	Thing-Nominal 299 303	美丽花衣
+T42	Thing-Nominal 306 308	凤冠
+T43	Thing-Nominal 304 305	头
+T44	Thing-Nominal 309 312	戴胜鸟
+R10	Part-Whole Arg1:T43 Arg2:T44	
+R11	General-Special Arg1:T32 Arg2:T44	
+T45	Location-Nominal 318 320	枝头
+T46	Thing-Nominal 336 339	钻天杨
+T47	Thing-Nominal 336 342	钻天杨的树杆
+T48	Thing-Nominal 344 347	啄木鸟
+R12	General-Special Arg1:T32 Arg2:T48	
+T49	Thing-Nominal 358 359	咀
+R13	Part-Whole Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 360 362	树杆
+*	Coreference T50 T47
+T51	Thing-Nominal 369 371	老树
+*	Coreference T51 T46
+T52	Thing-Nominal 378 381;382 385	不知名 的小鸟
+T53	Location-Nominal 387 390	灌木丛
+T54	Time-Implicit 406 408	早晨
+T55	Thing-Nominal 409 411	它们
+*	Coreference T52 T55
+T56	Location-Nominal 439 442;443 444	鸟的世 界
+T57	Location-Nominal 433 437	整个校园
+*	Coreference T57 T56
+T58	Time-Implicit 430 433	一时间
+T59	Person-Nominal 472 473	人
+T60	Thing-Nominal 481 484	小燕子
+T61	Thing-Nominal 485 487	花衣
+T62	Time-Implicit 488 492	年年春天
+T63	Person-Pronoun 496 497	我
+T64	Thing-Nominal 498 500	燕子
+T65	Location-Pronoun 493 495	这里
+T66	Time-Implicit 576 580	这些年来
+T67	Person-Nominal 591 593	人类
+T68	Person-Nominal 607 609	人们
+T69	Person-Nominal 617 619	人类
+T70	Location-Nominal 633 635	校园
+T71	Person-Pronoun 661 662	你
+T72	Location-Nominal 664 666	校园
+T73	Location-Nominal 673 675	草坪
+T74	Location-Nominal 676 678	花坛
+T75	Location-Nominal 679 683	灌木丛林
+T76	Thing-Nominal 684 685	树
+T77	Thing-Nominal 686 687	林
+T78	Thing-Nominal 687 688	草
+T79	Location-Nominal 693 697;698 699	裸露的地 面
+T80	Time-Implicit 691 693	过去
+T81	Thing-Nominal 703 707	大的树木
+T82	Thing-Nominal 708 710	杨柳
+T83	Thing-Nominal 711 713	槐榆
+T84	Thing-Nominal 714 716	松柏
+T85	Thing-Nominal 717 719	合欢
+T86	Thing-Nominal 720 722	香椿
+R14	General-Special Arg1:T81 Arg2:T82	
+R15	General-Special Arg1:T81 Arg2:T83	
+R16	General-Special Arg1:T81 Arg2:T84	
+R17	General-Special Arg1:T81 Arg2:T85	
+R18	General-Special Arg1:T81 Arg2:T86	
+T87	Thing-Nominal 727 729	丁香
+T88	Thing-Nominal 730 732	木槿
+T89	Thing-Nominal 734 737	小檗木
+T90	Thing-Nominal 738 740	冬青
+T91	Location-Nominal 746 749	学生楼
+T92	Location-Nominal 750 755	家属宿舍楼
+T93	Location-Nominal 764 771	造型别致的花坛
+T94	Thing-Nominal 775 777	牡丹
+T95	Thing-Nominal 778 780	月季
+T96	Thing-Nominal 781 783	丁香
+T97	Thing-Nominal 784 786	连翘
+T98	Thing-Nominal 787 789	花卉
+R19	General-Special Arg1:T98 Arg2:T94	
+R20	General-Special Arg1:T98 Arg2:T95	
+R21	General-Special Arg1:T98 Arg2:T96	
+R22	General-Special Arg1:T98 Arg2:T97	
+R23	Located Arg1:T94 Arg2:T93	
+R24	Located Arg1:T95 Arg2:T93	
+R25	Located Arg1:T96 Arg2:T93	
+R26	Located Arg1:T97 Arg2:T93	
+T99	Location-Nominal 792 794	校园
+T100	Location-Nominal 797 798	屋
+T101	Location-Nominal 799 800	树
+T102	Person-Nominal 802 803	人
+T103	Location-Nominal 804 806	花丛
+T104	Thing-Nominal 807 808	花
+T105	Thing-Nominal 812 814	绿树
+T106	Time-Implicit 817 819	夏天
+T107	Person-Pronoun 823 824	你
+T108	Location-Nominal 825 828	大街上
+T109	Location-Nominal 830 832	校园
+T110	Thing-Nominal 841 843	空气
+T111	Location-Nominal 862 869	城市里的大花园
+*	Coreference T111 T109
+T112	Metric 860 862	一片
+T113	Time-Implicit 878 880	去年
+T114	Location-Nominal 883 893	横跨校园东西的二里河
+T115	Location-Nominal 903 914	省城南部的一条退水河流
+*	Coreference T115 T114 T125 T126 T137
+T116	Metric 908 910	一条
+T117	Location-Nominal 903 907	省城南部
+T118	Location-Nominal 880 882	学校
+T119	Location-Nominal 885 887	校园
+*	Coreference T119 T118
+T120	Time-Implicit 915 917	夏季
+T121	Thing-Nominal 917 919	山洪
+T122	Location-Nominal 923 925	东山
+T123	Thing-Nominal 922 930	从东山流经的洪水
+T124	Location-Name 934 939	西边的汾河
+T125	Location-Nominal 953 956	这条河
+T126	Location-Nominal 962 965	干河道
+T127	Thing-Nominal 966 970	两岸杂草
+R27	Near Arg1:T127 Arg2:T126	
+T128	Person-Nominal 973 974	人
+T129	Location-Nominal 985 987	河渠
+T130	Thing-Nominal 988 990	清水
+T131	Thing-Nominal 998 1000	杨柳
+T132	Thing-Nominal 1001 1003	桃李
+T133	Person-Nominal 1011 1012	人
+T134	Thing-Nominal 1015 1017	石椅
+T135	Thing-Nominal 1018 1020	石桌
+T136	Location-Nominal 1022 1027	小河的旁边
+T137	Location-Nominal 1022 1024	小河
+T138	Location-Nominal 1033 1038	人造的湖泊
+T139	Metric 1031 1033	一处
+T140	Location-Nominal 1039 1040	湖
+*	Coreference T140 T138 T149
+T141	Thing-Nominal 1044 1046	荷花
+R28	Located Arg1:T141 Arg2:T140	
+T142	Time-Implicit 1049 1051	夏日
+T143	Location-Nominal 1051 1053;1054 1056	小河 两岸
+T144	Location-Nominal 966 968	两岸
+*	Coreference T144 T143
+T145	Thing-Nominal 1056 1058	杨柳
+T146	Thing-Nominal 1063 1065	荷叶
+T147	Thing-Nominal 1069 1070	蜓
+R29	Part-Whole Arg1:T146 Arg2:T141	
+T148	Person-Nominal 1085 1086	人
+T149	Location-Nominal 1080 1096	校内最吸引人休息的“独一处”地方
+T150	Location-Nominal 1100 1102	校园
+T151	Time-Implicit 1098 1100	现在
+T152	Thing-Nominal 1122 1123	草
+T153	Thing-Nominal 1125 1126	花
+T154	Thing-Nominal 1128 1129	土
+T155	Thing-Nominal 1131 1132	枝
+T156	Person-Nominal 1150 1152	人们
+T157	Person-Nominal 1170 1172	教师
+T158	Person-Nominal 1174 1176	学生
+T159	Person-Nominal 1177 1179	家属
+T160	Person-Nominal 1181 1183	职工
+T161	Location-Nominal 1186 1188	草坪
+T162	Thing-Nominal 1190 1191	枝
+T163	Thing-Nominal 1192 1193	花
+T164	Thing-Nominal 1208 1210	鸟类
+T165	Thing-Nominal 1217 1219	自己
+*	Coreference T165 T164
+T166	Location-Nominal 1220 1226	栖息的好地方
+*	Coreference T166 T150 T167 T168
+T167	Location-Nominal 1227 1233	这块“绿岛”
+T168	Location-Nominal 1236 1243	鸟类生存的天堂
+T169	Location-Nominal 1249 1250	家
+T170	Thing-Nominal 1251 1254	梧桐树
+T171	Thing-Nominal 1257 1259	凤凰
+T172	Person-Pronoun 1262 1263	我
+T173	Time-Implicit 1275 1277	儿时
+T174	Location-Nominal 1280 1282	农村
+T175	Time-Implicit 1283 1290	每当春天到来时
+T176	Thing-Nominal 1295 1297	家燕
+T177	Location-Nominal 1299 1302	自己家
+T178	Thing-Nominal 1307 1309	屋檐
+T179	Thing-Nominal 1311 1313	房梁
+T180	Thing-Nominal 1317 1320	小木板
+T181	Metric 1315 1317	一块
+T182	Thing-Nominal 1322 1325	小燕子
+T183	Thing-Nominal 1326 1327	巢
+T184	Metric 1340 1343	一窝窝
+T185	Thing-Nominal 1344 1346	燕子
+T186	Thing-Pronoun 1347 1349	它们
+*	Coreference T186 T185
+T187	Thing-Nominal 1350 1357	村外河里的泥草
+T188	Location-Nominal 1350 1354	村外河里
+T189	Thing-Nominal 1360 1361	泥
+T190	Thing-Nominal 1363 1364	草
+T191	Metric 1358 1360	一把
+T192	Metric 1361 1363	一根
+T193	Thing-Nominal 1373 1378	精致的燕窝
+T194	Thing-Nominal 1380 1385	泥筑的小碗
+*	Coreference T194 T193 T202
+T195	Thing-Nominal 1392 1393	儿
+T196	Thing-Nominal 1394 1395	女
+T197	Thing-Nominal 1389 1390	巢
+T198	Thing-Nominal 1399 1402	小燕子
+T199	Person-Nominal 1425 1427	人们
+T200	Person-Pronoun 1433 1435	自己
+*	Coreference T200 T199 T204
+T201	Location-Nominal 1433 1439	自己家屋檐下
+T202	Thing-Nominal 1440 1441	巢
+T203	Thing-Nominal 1442 1443	子
+*	Coreference T203 T195
+T204	Person-Nominal 1458 1460	人家
+T205	Thing-Name 1480 1483	吉祥鸟
+*	Coreference T205 T198 T209
+T206	Thing-Nominal 1507 1509	燕剪
+T207	Thing-Nominal 1509 1511	春风
+T208	Thing-Nominal 1514 1516	柳丝
+T209	Thing-Nominal 1528 1529	燕
+T210	Thing-Nominal 1554 1555	梅
+T211	Thing-Nominal 1560 1561	燕
+T212	Thing-Nominal 1561 1562	翅
+R30	Part-Whole Arg1:T212 Arg2:T211	
+T213	Thing-Nominal 1573 1575	荷花
+T214	Thing-Nominal 1576 1578	海棠
+T215	Thing-Nominal 1580 1582	燕子
+T216	Person-Nominal 1620 1622	人们
+T217	Person-Pronoun 1631 1633	自己
+*	Coreference T217 T216
+T218	Location-Nominal 1633 1635	家里
+T219	Thing-Nominal 1639 1640;1641 1643	梧 桐树
+T220	Thing-Nominal 1654 1656	燕子
+T221	Thing-Nominal 1665 1668	小燕子
+*	Coreference T221 T220
+T222	Thing-Nominal 1675 1676	鸟
+T223	Thing-Nominal 1677 1678	花
+T224	Person-Nominal 1685 1687	人们
+T225	Person-Nominal 1708 1710	人们
+T226	Thing-Nominal 1704 1707	小燕子

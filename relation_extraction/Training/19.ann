@@ -1,0 +1,216 @@
+T1	Time-Implicit 2 4	清明
+T2	Thing-Nominal 6 7	雨
+T3	Time-Implicit 8 10	这天
+*	Coreference T3 T1
+T4	Thing-Nominal 11 12	雨
+T5	Location-Nominal 17 24	一片浅蓝的天空
+T6	Thing-Nominal 26 34	好些淡墨色的云片
+R1	Located Arg1:T6 Arg2:T5	
+T7	Thing-Nominal 57 59	早饭
+T8	Person-Pronoun 61 62	我
+T9	Person-Nominal 64 66	妻子
+R2	Family Arg1:T9 Arg2:T8	
+T10	Thing-Nominal 69 71	客车
+T11	Location-Name 73 77	跃龙乡下
+T12	Thing-Nominal 79 80	墓
+T13	Time-Implicit 81 85	40年前
+T14	Person-Pronoun 86 87	我
+T15	Person-Nominal 88 92	几个妹妹
+R3	Family Arg1:T15 Arg2:T14	
+T16	Organization-Name 96 104	跃龙公社跃龙大队
+T17	Organization-Name 104 109	新屋生产队
+T18	Person-Pronoun 114 116	我们
+T19	Location-Name 118 121	老屋湾
+T20	Location-Nominal 126 130	罗学名家
+T21	Person-Pronoun 131 132	他
+T22	Person-Nominal 131 134	他父亲
+R4	Family Arg1:T22 Arg2:T21	
+T23	Person-Name 126 129	罗学名
+*	Coreference T21 T23
+T24	Time-Implicit 134 137	前两年
+T25	Person-Nominal 140 143	他母亲
+T26	Person-Pronoun 140 141	他
+R5	Family Arg1:T25 Arg2:T26	
+T27	Time-Implicit 145 147	去年
+T28	Person-Nominal 150 154	两位老人
+T29	Person-Pronoun 157 159	我们
+T30	Person-Pronoun 164 166	我们
+T31	Thing-Nominal 169 170	墓
+T32	Person-Pronoun 174 176	我们
+T33	Person-Nominal 177 181	两位老人
+T34	Location-Name 190 192	跃龙
+T35	Thing-Nominal 194 195	车
+T36	Person-Pronoun 196 198	我们
+T37	Thing-Nominal 202 206	香烛钱纸
+T38	Location-Name 207 210	老屋湾
+T39	Location-Name 215 218	老屋湾
+T40	Thing-Nominal 227 234	一片陈旧的老屋
+T41	Thing-Nominal 242 248	一栋泥墙土屋
+T42	Location-Nominal 250 252	眼前
+T43	Thing-Nominal 258 267	一幢幢水泥钢筋楼房
+R6	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 273 278	铝合金门窗
+T45	Thing-Nominal 283 285	瓷砖
+T46	Location-Nominal 279 281	墙上
+R7	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 287 292	城里的别墅
+T48	Location-Nominal 287 289	城里
+R8	Located Arg1:T47 Arg2:T48	
+T49	Location-Nominal 299 303	屋前屋后
+T50	Thing-Nominal 303 305	绿树
+R9	Located Arg1:T50 Arg2:T49	
+T51	Location-Nominal 323 325	城里
+T52	Thing-Nominal 333 341	平坦宽敞的水泥路
+T53	Location-Nominal 344 348	各个屋场
+T54	Person-Pronoun 349 350	我
+T55	Time-Implicit 354 356	当年
+T56	Person-Pronoun 356 358	我们
+T57	Location-Pronoun 359 361	这里
+*	Coreference T57 T53
+T58	Person-Pronoun 369 371	我们
+T59	Person-Nominal 374 381	“黑七类”子女
+T60	Person-Nominal 382 386	好些社员
+T61	Person-Pronoun 390 392	我们
+T62	Location-Nominal 395 399	栖身之所
+T63	Time-Implicit 404 406	当时
+T64	Person-Nominal 407 413	罗学名的父亲
+T65	Person-Name 407 410	罗学名
+R10	Family Arg1:T64 Arg2:T65	
+T66	Person-Pronoun 416 417	他
+*	Coreference T66 T65
+T67	Thing-Nominal 419 423	一些土砖
+T68	Location-Nominal 427 432	自家屋右侧
+T69	Thing-Nominal 437 441	一间茅舍
+R11	Located Arg1:T69 Arg2:T68	
+T70	Thing-Nominal 443 444	门
+T71	Thing-Nominal 445 446	窗
+T72	Metric 448 450	7步
+T73	Metric 457 459	两米
+T74	Person-Nominal 461 465	我们夫妻
+T75	Person-Pronoun 461 463	我们
+T76	Person-Pronoun 470 471	我
+T77	Location-Nominal 474 483	一间小小的栖身之地
+T78	Person-Nominal 484 486	老人
+T79	Thing-Nominal 490 492	屋场
+T80	Person-Nominal 499 505	罗起兴的社员
+T81	Person-Name 499 502	罗起兴
+T82	Person-Pronoun 506 508	他们
+T83	Person-Nominal 509 513	本家兄弟
+T84	Person-Pronoun 514 515	他
+T85	Person-Name 517 520	罗起兴
+T86	Person-Pronoun 527 528	我
+T87	Thing-Nominal 522 525	一间房
+T88	Person-Nominal 528 533	3个小妹妹
+T89	Thing-Nominal 548 554;555 557	这水泥铺就的 村巷
+T90	Thing-Nominal 560 566	这一幢幢新楼
+T91	Thing-Nominal 578 580	乡村
+T92	Person-Nominal 613 616	村里人
+T93	Person-Pronoun 618 620	我们
+T94	Location-Nominal 632 635	他们家
+T95	Person-Pronoun 632 634	他们
+*	Coreference T95 T92
+T96	Person-Pronoun 643 645	我们
+T97	Location-Nominal 648 655	一个叫细毛的家
+T98	Person-Name 651 653	细毛
+T99	Person-Name 659 661	细毛
+T100	Time-Implicit 656 658	当年
+T101	Person-Nominal 665 672	20多岁的后生
+T102	Person-Nominal 679 686	60好几的老人
+T103	Location-Nominal 688 690	他家
+T104	Person-Pronoun 688 689	他
+*	Coreference T104 T99
+T105	Thing-Nominal 692 699	一幢宽敞的楼房
+T106	Location-Nominal 700 702	宅前
+T107	Thing-Nominal 703 708	一个水泥坪
+R12	Located Arg1:T107 Arg2:T106	
+T108	Location-Nominal 709 712	坪院里
+T109	Thing-Nominal 714 719	一部大卡车
+R13	Located Arg1:T109 Arg2:T108	
+T110	Person-Pronoun 720 721	他
+T111	Thing-Nominal 722 723	车
+T112	Person-Nominal 724 727	他儿子
+T113	Person-Pronoun 724 725	他
+T114	Thing-Nominal 735 737	楼房
+T115	Thing-Nominal 738 740	车子
+T116	Thing-Nominal 746 748	乡村
+T117	Location-Nominal 755 757	厅屋
+T118	Thing-Nominal 759 772	一间收拾得素净、清雅的客厅
+R14	Located Arg1:T118 Arg2:T117	
+T119	Person-Nominal 781 784	房主人
+T120	Person-Nominal 790 793	细毛嫂
+T121	Location-Nominal 802 804	脸上
+T122	Person-Pronoun 821 822	我
+T123	Person-Pronoun 825 827	你们
+T124	Person-Name 851 853	细毛
+T125	Thing-Nominal 861 862	田
+T126	Thing-Nominal 878 879	田
+T127	Organization-Nominal 884 886	政府
+T128	Location-Nominal 904 906	村里
+T129	Thing-Nominal 910 912	新屋
+T130	Person-Pronoun 916 917	我
+T131	Thing-Nominal 919 922	一口茶
+T132	Person-Pronoun 931 932	他
+T133	Thing-Nominal 938 939	房
+T134	Organization-Nominal 944 946	政府
+T135	Metric 948 950	2万
+T136	Metric 951 953	4万
+T137	Metric 954 956	6万
+T138	Person-Nominal 973 976	细毛嫂
+T139	Person-Nominal 981 989	上了60岁的老人
+T140	Time-Implicit 989 994	前两年每月
+T141	Thing-Nominal 999 1006	60元的养老费
+T142	Time-Implicit 1007 1009	去年
+T143	Time-Implicit 1013 1015	今年
+T144	Metric 1016 1020	100元
+T145	Location-Nominal 1022 1024;1025 1026	农村 里
+T146	Thing-Nominal 1027 1028	饭
+T147	Thing-Nominal 1029 1030	菜
+T148	Thing-Nominal 1034 1035	钱
+T149	Thing-Nominal 1038 1042	这零花钱
+T150	Person-Nominal 1043 1045	老人
+T151	Person-Pronoun 1054 1055	她
+*	Coreference T151 T138
+T152	Person-Nominal 1059 1061	大家
+T153	Thing-Nominal 1079 1081	午饭
+T154	Person-Name 1105 1108	罗学名
+T155	Person-Pronoun 1110 1112	我们
+T156	Location-Nominal 1115 1117	山上
+T157	Thing-Nominal 1123 1125	墓地
+T158	Person-Pronoun 1126 1128	我们
+T159	Thing-Nominal 1130 1132	香烛
+T160	Thing-Nominal 1135 1137	钱纸
+T161	Person-Nominal 1140 1144	两位老人
+T162	Person-Pronoun 1147 1148	我
+T163	Person-Nominal 1154 1156	伯伯
+T164	Person-Nominal 1157 1159	伯娘
+T165	Person-Pronoun 1160 1162	我们
+T166	Person-Pronoun 1163 1164	您
+T167	Person-Pronoun 1167 1168	我
+T168	Person-Pronoun 1171 1172	您
+T169	Person-Nominal 1224 1226	大家
+T170	Location-Name 1236 1238	中国
+T171	Location-Name 1248 1250	中国
+T172	Thing-Nominal 1253 1255	农村
+T173	Person-Nominal 1259 1261	伯伯
+T174	Person-Nominal 1262 1264	伯娘
+T175	Person-Pronoun 1265 1266	您
+T176	Person-Pronoun 1271 1272	我
+T177	Person-Pronoun 1274 1275	您
+T178	Thing-Nominal 1287 1288	山
+T179	Person-Pronoun 1299 1300	我
+T180	Thing-Nominal 1308 1313	清新的小路
+T181	Location-Nominal 1306 1308	乡村
+T182	Thing-Nominal 1318 1322	乡村泥土
+T183	Person-Pronoun 1326 1327	我
+T184	Thing-Nominal 1330 1334	来时的路
+T185	Thing-Nominal 1338 1345;1346 1347	那一行寻梦的脚 印
+T186	Person-Pronoun 1356 1358	我们
+T187	Person-Pronoun 1375 1377	我们
+T188	Person-Pronoun 1390 1391	我
+T189	Thing-Nominal 1417 1423	更美丽的风景
+R15	Family Arg1:T164 Arg2:T163	
+R16	Located Arg1:T180 Arg2:T181	
+T190	Person-Pronoun 1083 1085	我们
+T191	Time-Implicit 1088 1091	吃饭前
+T192	Thing-Nominal 1093 1094	山
+T193	Thing-Nominal 1096 1097	墓

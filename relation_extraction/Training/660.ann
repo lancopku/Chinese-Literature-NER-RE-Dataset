@@ -1,0 +1,288 @@
+T1	Thing-Nominal 6 15	一条曲曲伸伸的蚯蚓
+T2	Metric 6 8	一条
+T3	Person-Pronoun 22 23	我
+T4	Person-Pronoun 29 30	我
+T5	Thing-Nominal 36 44	“贫油”“洋油”
+T6	Thing-Nominal 45 47	铅弹
+T7	Person-Pronoun 50 51	我
+T8	Person-Nominal 59 61	辈们
+T9	Thing-Nominal 62 67	刚毅的乡音
+R1	Use Arg1:T8 Arg2:T9	
+T10	Person-Nominal 79 85	当年创业者们
+T11	Metric 90 93	二十年
+T12	Location-Nominal 100 103	大油田
+T13	Person-Pronoun 121 123	他们
+*	Coreference T13 T10
+T14	Thing-Nominal 131 136	醇香的美酒
+T15	Location-Nominal 139 141	人间
+T16	Thing-Nominal 141 146	鲜丽的春晖
+R2	Located Arg1:T16 Arg2:T15	
+T17	Person-Pronoun 147 149	他们
+T18	Thing-Nominal 150 154	一腔热血
+T19	Location-Nominal 163 165	油海
+T20	Thing-Nominal 171 173	朝阳
+T21	Organization-Name 176 179	共和国
+T22	Thing-Nominal 176 179;180 183	共和国 的丰碑
+T23	Time-Implicit 184 196	那段读也读不腻的激情岁月
+T24	Person-Pronoun 201 202	我
+T25	Person-Pronoun 222 223	我
+T26	Person-Nominal 225 232	光荣的石化工人
+R3	General-Special Arg1:T26 Arg2:T25	
+T27	Time-Implicit 239 247	20世纪80年代
+T28	Location-Nominal 249 253	淄水之滨
+T29	Location-Name 255 258	大虎山
+T30	Location-Nominal 261 270	盛产神话的古齐宝地
+T31	Person-Pronoun 272 273	我
+T32	Thing-Nominal 275 280	银色的工装
+R4	Use Arg1:T31 Arg2:T32	
+T33	Location-Nominal 284 292	银色的乙烯装置区
+T35	Person-Nominal 300 303	烯烃人
+T34	Thing-Nominal 293 297;298 299	高耸的银 塔
+T36	Thing-Nominal 303 308	挺拔的脊梁
+R5	Ownership Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 309 315	巍巍的裂解炉
+T38	Person-Nominal 318 321	烯烃人
+T39	Thing-Nominal 327 335	一条条伸展的管道
+T40	Location-Name 337 339	塞北
+T41	Location-Name 342 344	江南
+T42	Location-Name 347 353	五大洲四大洋
+T43	Metric 327 330	一条条
+T44	Thing-Nominal 368 371	新篇章
+T45	Person-Pronoun 372 373	我
+T46	Person-Nominal 390 392	师傅
+R6	Social Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 393 394	炉
+T48	Thing-Nominal 395 396	罐
+T49	Thing-Nominal 397 399	螺丝
+T50	Location-Nominal 409 413	大海深处
+T51	Thing-Name 429 431	地壳
+T52	Person-Nominal 449 452	烯烃人
+T53	Thing-Nominal 459 461	春风
+T54	Thing-Nominal 447 448	花
+T55	Time-Explicit 498 503	1984年
+T56	Metric 507 513	30万吨/年
+T57	Time-Explicit 516 521	1995年
+T58	Metric 525 531	33万吨/年
+T59	Time-Explicit 534 539	1998年
+T60	Metric 544 550	45万吨/年
+T61	Time-Explicit 553 558	2004年
+T62	Metric 563 569	72万吨/年
+T63	Thing-Nominal 513 515	工烯
+T64	Thing-Nominal 531 533	工烯
+T65	Thing-Nominal 550 552	工烯
+T66	Thing-Nominal 569 571	工烯
+T67	Thing-Nominal 581 589	工烯1277万吨
+T68	Metric 583 589	1277万吨
+T69	Organization-Nominal 591 595	集团公司
+T70	Location-Nominal 596 598	地方
+T71	Location-Nominal 610 613	生活区
+T72	Location-Nominal 610 616	生活区所在地
+T73	Location-Name 616 618	辛店
+*	Coreference T72 T73
+T74	Location-Nominal 622 629	瑟瑟缩缩的小镇
+R7	General-Special Arg1:T74 Arg2:T73	
+T75	Location-Nominal 637 647	相当规模的现代化城市
+R8	General-Special Arg1:T75 Arg2:T73	
+T76	Location-Name 659 662	淄博市
+T77	Location-Nominal 648 651	临淄区
+R9	Part-Whole Arg1:T77 Arg2:T76	
+T78	Location-Name 665 668	大虎山
+T79	Organization-Nominal 673 676	烯烃厂
+T80	Thing-Nominal 673 682	烯烃厂的每一座装置
+R10	Ownership Arg1:T79 Arg2:T80	
+T81	Person-Nominal 686 691	国家领导人
+T82	Thing-Nominal 696 699	淄河水
+T83	Location-Name 696 698	淄河
+R11	Located Arg1:T82 Arg2:T83	
+T84	Organization-Nominal 704 707	烯烃厂
+T85	Organization-Pronoun 720 722	这里
+*	Coreference T85 T84
+T86	Person-Nominal 725 729	全国劳模
+T87	Person-Name 729 732	刘进森
+T88	Person-Name 733 735	韩峰
+R12	General-Special Arg1:T86 Arg2:T87	
+R13	General-Special Arg1:T86 Arg2:T88	
+T89	Person-Nominal 736 749	全国“五一”劳动奖章获得者
+T90	Person-Name 749 752	马家胜
+R14	General-Special Arg1:T89 Arg2:T90	
+T91	Person-Nominal 753 755;756 761	全国 先进女职工
+T92	Person-Name 761 764	余梅英
+R15	General-Special Arg1:T91 Arg2:T92	
+T93	Thing-Nominal 766 770	天上的星
+T94	Location-Nominal 766 768	天上
+R16	Located Arg1:T93 Arg2:T94	
+T95	Organization-Name 771 775	齐鲁石化
+T96	Thing-Nominal 771 777	齐鲁石化的星
+R17	Ownership Arg1:T95 Arg2:T96	
+T97	Thing-Nominal 780 785	耀眼的光芒
+T98	Organization-Name 792 795	中石化
+T99	Abstract 805 809	改革开放
+T100	Person-Nominal 823 829	一批批石化人
+T101	Location-Nominal 831 833	戈壁
+T102	Location-Nominal 839 841	滩涂
+T103	Thing-Nominal 838 839	鹿
+T104	Thing-Nominal 842 844	油龙
+T105	Thing-Nominal 847 849	气虎
+T106	Thing-Nominal 850 852	管道
+T107	Thing-Nominal 855 859	特色大旗
+T108	Location-Nominal 868 870	国门
+T109	Location-Name 873 878	亚非拉美欧
+T110	Person-Nominal 881 884	外国人
+T111	Organization-Nominal 881 891	外国人的石化炼油企业
+T112	Time-Implicit 900 902	去年
+T113	Organization-Name 904 907	福布斯
+T114	Organization-Nominal 910 918	世界500强企业
+T115	Organization-Name 920 923	中石化
+T116	Time-Implicit 929 933	近三年来
+T117	Person-Pronoun 934 936	我们
+T118	Organization-Name 936 942	齐鲁石化公司
+*	Coreference T118 T95
+T119	Person-Name 944 950	总经理李安喜
+T120	Person-Nominal 965 969	干部职工
+T121	Metric 979 982	30年
+T122	Metric 989 992	30年
+T123	Metric 998 1001	30年
+T124	Organization-Name 1010 1014	中国石化
+R18	Ownership Arg1:T124 Arg2:T118	
+T125	Organization-Name 1022 1025	共和国
+T126	Thing-Nominal 1017 1019	大旗
+T127	Person-Pronoun 1074 1076	我们
+T128	Person-Nominal 1077 1083	光荣的石化人
+*	Coreference T128 T127
+T129	Thing-Nominal 1085 1094	千座不夜城的长明灯
+T130	Thing-Nominal 1096 1103;1104 1106	万家奔小康的风 火轮
+T131	Person-Pronoun 1107 1109	我们
+T132	Thing-Name 1111 1112	月
+T133	Thing-Nominal 1113 1114	星
+T134	Thing-Nominal 1129 1131	高铁
+T135	Thing-Nominal 1131 1133	航母
+T136	Location-Name 1137 1145	和谐美丽的大中国
+T137	Time-Implicit 1151 1153	现在
+T138	Person-Pronoun 1154 1155	我
+T139	Person-Pronoun 1184 1185	我
+T140	Time-Implicit 1196 1201	轮回的季节
+T141	Person-Pronoun 1203 1204	我
+T142	Person-Pronoun 1210 1211	我
+T143	Thing-Nominal 1216 1223	无边无际的油浪
+T144	Thing-Nominal 1225 1227	油香
+R19	Located Arg1:T143 Arg2:T144	
+T145	Thing-Nominal 1233 1243	美妙悦耳的装置轰鸣声
+T146	Location-Nominal 1246 1248	耳际
+R20	Located Arg1:T145 Arg2:T146	
+T147	Thing-Nominal 1251 1258	油城的万家灯火
+T148	Location-Nominal 1251 1253	油城
+R21	Located Arg1:T147 Arg2:T148	
+T149	Thing-Nominal 1260 1264	我的双眸
+T150	Person-Pronoun 1260 1261	我
+T151	Person-Pronoun 1265 1266	我
+T152	Thing-Nominal 1273 1280	久埋地下的原油
+T153	Person-Pronoun 1284 1285	我
+T154	Thing-Name 1293 1295	地壳
+T155	Thing-Nominal 1293 1302	地壳向上奔突的油气
+T156	Person-Pronoun 1303 1304	我
+T157	Location-Nominal 1307 1315	阳光灿烂的石化城
+T158	Person-Pronoun 1319 1320	你
+T159	Location-Nominal 1324 1331	人来车往的路口
+T160	Person-Pronoun 1334 1335	我
+T161	Thing-Nominal 1337 1339	小旗
+R22	Use Arg1:T160 Arg2:T161	
+T162	Thing-Nominal 1343 1345	车辆
+T163	Person-Nominal 1346 1350	过往行人
+T164	Location-Name 1354 1360	在厂史纪念馆
+T165	Organization-Nominal 1366 1376	世界一流能源化工公司
+T166	Person-Pronoun 1383 1384	我
+T167	Location-Nominal 1395 1400	幼儿园门口
+T168	Thing-Nominal 1402 1404	雏鹰
+T169	Thing-Nominal 1410 1412	老骥
+T170	Person-Pronoun 1418 1419	我
+T171	Person-Nominal 1421 1424	孩子们
+T172	Thing-Nominal 1434 1439	防狼的篱笆
+T173	Person-Pronoun 1442 1443	我
+T174	Thing-Nominal 1447 1455;1456 1461	几十年经验打造的 “望远镜”
+T175	Metric 1447 1450	几十年
+T176	Organization-Name 1464 1467	中石化
+T177	Thing-Nominal 1469 1471	航母
+T178	Thing-Nominal 1496 1498	老牛
+T179	Person-Pronoun 1504 1505	我
+T180	Thing-Nominal 1537 1540	四本书
+R23	Create Arg1:T179 Arg2:T180	
+T181	Thing-Nominal 1544 1547	金钥匙
+T182	Thing-Nominal 1551 1555	几千册书
+T183	Metric 1551 1554	几千册
+T184	Person-Nominal 1559 1575	青年员工、在校大学生和身旁的同志
+T185	Thing-Nominal 1579 1588	数十万字的新闻通讯
+R24	Create Arg1:T179 Arg2:T185	
+T186	Person-Nominal 1590 1593	青少年
+T187	Person-Nominal 1596 1600	优秀员工
+T188	Person-Nominal 1603 1607	新老职工
+T189	Person-Nominal 1611 1615	俊杰人才
+T190	Person-Nominal 1621 1638	“石化老年”“退管中心”优秀通讯员
+T191	Organization-Name 1651 1665	《中国石化报》《齐鲁石化报》
+T192	Organization-Nominal 1674 1679	公司电视台
+T193	Person-Pronoun 1695 1696	我
+T194	Person-Nominal 1699 1709	外来检修队伍的安检员
+T195	Time-Implicit 1733 1735	同时
+T196	Person-Pronoun 1736 1737	我
+T197	Person-Nominal 1744 1747	好家长
+T198	Person-Nominal 1756 1758	子女
+R25	Family Arg1:T198 Arg2:T196	
+T199	Person-Pronoun 1764 1766	他们
+*	Coreference T199 T198
+T200	Person-Pronoun 1779 1781	自己
+T201	Person-Pronoun 1791 1792;1793 1794	自 己
+T202	Organization-Nominal 1801 1803	企业
+T203	Organization-Name 1805 1807	石化
+*	Coreference T203 T124
+T204	Organization-Name 1809 1811	石化
+T205	Organization-Nominal 1815 1817	企业
+T206	Organization-Nominal 1821 1823	国家
+T207	Person-Pronoun 1826 1827	我
+T208	Person-Nominal 1828 1853;1854 1862	公司退管中心的“五老骨干”“老年党校宣讲员”“老年 大学学员会”成员
+R26	General-Special Arg1:T208 Arg2:T207	
+T209	Location-Name 1863 1865	汶川
+T210	Person-Pronoun 1872 1877	70岁的我
+*	Coreference T210 T207
+T211	Location-Nominal 1883 1885	街头
+T212	Time-Implicit 1898 1913	建设和谐文明社区举办广场演出时
+T213	Person-Pronoun 1915 1916	我
+T214	Organization-Nominal 1929 1933	太极拳站
+T215	Organization-Nominal 1934 1938	文学笔会
+T216	Person-Pronoun 1939 1940	我
+T217	Person-Pronoun 1942 1943	我
+T218	Thing-Nominal 1942 1946	我的身体
+R27	Ownership Arg1:T217 Arg2:T218	
+T219	Person-Pronoun 1947 1948	我
+T220	Person-Pronoun 1953 1954	我
+T221	Person-Nominal 1966 1968	大家
+T222	Person-Pronoun 1970 1971	我
+T223	Person-Nominal 1972 1975;1976 1987	“优秀 党员”“优秀退休干部”
+R28	General-Special Arg1:T223 Arg2:T222	
+T224	Person-Pronoun 1989 1990	我
+T225	Person-Pronoun 1994 1995	我
+T226	Person-Pronoun 2018 2019	我
+T227	Thing-Nominal 2031 2033	风雨
+T228	Person-Pronoun 2038 2039	我
+T229	Person-Nominal 2049 2065	全国劳模、党的好干部、十八大代表
+T230	Person-Name 2065 2071	李安喜总经理
+R29	General-Special Arg1:T229 Arg2:T230	
+T231	Person-Pronoun 2074 2075	我
+T232	Thing-Nominal 2087 2091	一座灯塔
+T233	Metric 2087 2089	一座
+T234	Thing-Nominal 2100 2116	漂泊的心、摇动的桨橹、寻觅的帆樯
+T235	Thing-Nominal 2119 2128	鱼肚白的港湾和黎明
+T236	Person-Pronoun 2129 2130	他
+T237	Organization-Name 2144 2148	齐鲁石化
+T238	Person-Pronoun 2152 2154	我们
+T239	Thing-Nominal 2182 2183	路
+T240	Thing-Nominal 2187 2188	石
+T241	Thing-Nominal 2193 2194	骨
+T242	Thing-Nominal 2195 2196	梯
+T243	Organization-Nominal 2199 2209	世界一流化工能源企业
+T244	Person-Nominal 2210 2215	全体石化人
+T245	Person-Nominal 2221 2223	青年
+T246	Person-Nominal 2229 2231	老岁
+T247	Thing-Nominal 2233 2235	老骥
+T248	Person-Pronoun 2237 2238	我
+T249	Organization-Nominal 2243 2247	石化大军
+T250	Location-Name 2253 2255	华夏
+T251	Person-Nominal 2262 2264	铁人

@@ -1,0 +1,148 @@
+T1	Location-Name 0 2	漓江
+T2	Location-Name 5 11	桂林市阳朔县
+T3	Location-Nominal 15 21	中国锦绣河山
+T4	Time-Implicit 41 44	千百年
+T5	Location-Pronoun 45 46	它
+*	Coreference T5 T1
+T6	Person-Nominal 53 57	文人墨客
+T7	Location-Name 97 99	阳朔
+T8	Location-Name 117 122	美丽的漓江
+T10	Thing-Nominal 123 129	一条青绸绿带
+T11	Metric 133 135	万千
+T12	Thing-Nominal 133 137	万千峰峦
+T13	Location-Nominal 135 139	峰峦之间
+T14	Thing-Nominal 140 142	奇峰
+T15	Thing-Nominal 145 147	碧水
+T16	Thing-Nominal 150 152	青峰
+T17	Location-Name 164 166	漓江
+T18	Thing-Nominal 169 171	游船
+T19	Time-Explicit 172 176	上午九点
+T20	Location-Name 177 189	桂林市大圩镇的磨盘山码头
+T21	Thing-Nominal 192 194	游船
+T22	Metric 200 202	二层
+T23	Location-Nominal 203 205	船舱
+T24	Person-Nominal 206 207	人
+T25	Location-Nominal 208 210	上面
+T26	Location-Nominal 211 218	船甲板观光平台
+T27	Time-Implicit 219 222	开船后
+T28	Location-Nominal 224 226	船上
+T29	Thing-Nominal 227 231	高音喇叭
+T30	Thing-Nominal 239 243	游览船只
+T31	Thing-Nominal 250 252	游船
+T32	Person-Nominal 258 259	人
+T33	Location-Nominal 270 273	船舷边
+T34	Thing-Nominal 276 278	江水
+T35	Thing-Nominal 288 293	江底的水草
+T36	Location-Nominal 288 290	江底
+R1	Located Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 294 296	江水
+T39	Thing-Nominal 303 310	一块无瑕的碧玉
+T40	Metric 315 319	1.5米
+T41	Person-Nominal 323 324	人
+T42	Location-Nominal 346 348	对面
+T43	Thing-Nominal 351 361	零星的载有马达的竹筏
+T44	Thing-Nominal 373 375	竹筏
+T45	Location-Name 376 378	漓江
+T46	Thing-Nominal 386 394	一帧帧秀丽的山水
+T47	Thing-Nominal 402 404	游船
+T48	Location-Nominal 410 412	两岸
+T49	Thing-Nominal 416 421	喀斯特山峰
+R2	Located Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 423 428	清澈的江水
+T51	Person-Nominal 435 437	人们
+T52	Location-Name 460 463	九寨沟
+T53	Thing-Nominal 464 465	水
+T54	Thing-Nominal 468 470	青山
+T55	Location-Name 471 473	黄山
+R3	Located Arg1:T53 Arg2:T52	
+T56	Thing-Nominal 474 475	山
+R4	Located Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 477 479	清水
+T58	Location-Name 485 487	漓江
+T59	Thing-Nominal 485 491	漓江之山之水
+R5	Located Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 493 494	船
+T61	Person-Nominal 504 507	播音员
+T62	Person-Nominal 510 512	大家
+T63	Thing-Nominal 515 516	船
+T64	Location-Nominal 521 524	风景区
+R6	Located Arg1:T63 Arg2:T64	
+T65	Person-Nominal 525 527	大家
+T66	Location-Nominal 530 532	甲板
+T67	Time-Implicit 536 538	霎时
+T68	Thing-Nominal 538 539	船
+T69	Person-Nominal 551 553;554 555	游客 们
+T70	Person-Pronoun 567 569	我们
+T71	Location-Nominal 576 578	甲板
+T72	Location-Nominal 589 596	沿途经过的山峰
+T73	Location-Name 597 614;615 651	钓鱼台、九牛三洲、青蛙过江、望夫石 、冠岩幽府、半边渡、绣山、仙人推磨、鸡啄米、水帘洞、童子拜观音、浪石奇观
+R7	Part-Whole Arg1:T73 Arg2:T72	
+T74	Location-Name 653 658	浪石奇观处
+T75	Metric 662 665	20元
+T76	Thing-Nominal 659 667	人民币20元纸币
+T77	Location-Nominal 667 670	背面的
+T78	Location-Name 670 672	漓江
+T79	Thing-Nominal 685 687	纸币
+T80	Location-Nominal 696 699	纸币上
+T81	Time-Explicit 1248 1255	下午两点三十分
+T82	Thing-Nominal 1256 1258	游船
+T83	Metric 1261 1265	80公里
+T84	Location-Name 1266 1268	漓江
+T85	Location-Name 1278 1282	阳朔县城
+T86	Metric 1282 1285	2公里
+T87	Location-Name 1277 1292	距阳朔县城2公里处的龙头山码头
+T88	Thing-Nominal 1303 1308	高耸的山峰
+T89	Location-Nominal 1313 1317	蓝天之中
+R8	Located Arg1:T88 Arg2:T89	
+T90	Location-Name 1325 1327	漓江
+T91	Person-Pronoun 1339 1340	我
+T92	Location-Nominal 739 741	江畔
+T93	Location-Name 739 746	江畔的九马画山
+T94	Location-Name 747 750	大石山
+T95	Metric 776 778	九匹
+T96	Thing-Nominal 776 780	九匹骏马
+T97	Thing-Nominal 786 787	船
+T98	Person-Nominal 791 793	游人
+T99	Thing-Nominal 813 815	马匹
+T100	Person-Pronoun 817 818	我
+T101	Metric 826 828	九匹
+T102	Thing-Nominal 828 829	马
+T103	Location-Nominal 848 852	漓江两岸
+T104	Thing-Nominal 852 854	山峦
+R9	Located Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 863 867	清清江水
+T106	Thing-Nominal 874 875	船
+T107	Location-Nominal 886 888	船头
+T108	Thing-Nominal 907 908;909 910	山 峰
+T109	Thing-Nominal 923 925	江水
+T110	Metric 944 948	几十公里
+T111	Location-Nominal 944 952	几十公里的江面上
+T113	Thing-Nominal 955 967	一座铁桥、木桥、混凝土桥
+T114	Thing-Nominal 976 978	山峰
+T115	Time-Explicit 1001 1009	中午十一点半多钟
+T116	Person-Pronoun 1010 1011	我
+T117	Location-Nominal 1014 1016	船顶
+T118	Thing-Nominal 1037 1039	游船
+T119	Person-Nominal 1058 1060;1061 1066	高音 喇叭播音员
+T121	Location-Nominal 1096 1100	漓江两岸
+T122	Location-Name 1096 1098	漓江
+T123	Location-Name 848 850	漓江
+T124	Time-Explicit 1105 1109	十二点半
+T125	Location-Nominal 1110 1112	船上
+T126	Thing-Nominal 1115 1117	午饭
+T127	Thing-Nominal 1133 1135	游船
+T128	Location-Name 1144 1170	黄布倒影、手套山、兴坪佳景、美女峰、骆驼过江、螺丝山
+T129	Location-Nominal 1186 1188	船头
+T130	Location-Nominal 1205 1207	船后
+T131	Thing-Nominal 1215 1217	村庄
+T132	Thing-Nominal 1218 1220	渔船
+T133	Thing-Nominal 15 26	中国锦绣河山的一颗明珠
+T134	Thing-Nominal 29 40	一幅气势磅礴的美丽画卷
+T9	Location-Name 713 735	苹果贡仙、鸡笼山、八仙过江、山峰临近九马画山
+T38	Location-Nominal 788 790	壁画
+T112	Location-Nominal 1046 1051	每个风景点
+T120	Location-Nominal 1080 1082	船艏
+T135	Location-Nominal 1083 1085	船艉
+T136	Thing-Nominal 1174 1176	太阳
+T137	Thing-Nominal 1223 1227	青山绿水
+T138	Person-Nominal 1319 1320	人

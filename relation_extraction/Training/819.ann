@@ -1,0 +1,34 @@
+T1	Person-Nominal 0 2	有人
+T2	Thing-Nominal 3 5	银辉
+T3	Person-Nominal 16 18	有人
+T4	Thing-Nominal 19 20	霜
+T5	Location-Nominal 29 31	故乡
+T6	Person-Nominal 32 34	有人
+T7	Person-Nominal 48 50	有人
+T8	Thing-Nominal 55 56	烟
+T9	Person-Pronoun 67 68	我
+T10	Location-Nominal 70 72	阳台
+T11	Location-Nominal 76 78	小城
+T12	Location-Nominal 89 91	深巷
+T13	Thing-Nominal 95 96	狗
+R1	Located Arg1:T13 Arg2:T12	
+T14	Person-Nominal 100 102	主人
+R2	Ownership Arg1:T14 Arg2:T13	
+T15	Location-Nominal 108 110	街道
+T16	Thing-Nominal 126 127	门
+T17	Thing-Nominal 129 130	门
+T18	Thing-Nominal 134 135	酒
+T19	Person-Nominal 135 137	朋友
+T20	Person-Nominal 154 156	男人
+T21	Person-Nominal 159 161	女人
+T22	Thing-Nominal 193 195	沙漏
+T23	Person-Pronoun 206 207;208 209	我 们
+T24	Person-Pronoun 226 227	我
+T25	Thing-Nominal 261 263	图画
+T26	Thing-Nominal 255 256	风
+T27	Thing-Nominal 269 270	墙
+T28	Thing-Nominal 282 284	闹钟
+R3	Ownership Arg1:T24 Arg2:T28	
+T29	Thing-Nominal 289 291	路灯
+T30	Thing-Nominal 330 331	烟
+T31	Time-Implicit 337 339	明天

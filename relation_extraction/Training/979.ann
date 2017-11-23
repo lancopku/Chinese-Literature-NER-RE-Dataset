@@ -1,0 +1,116 @@
+T1	Location-Nominal 0 2	家乡
+T2	Time-Implicit 0 6	家乡的四五月
+T3	Thing-Nominal 9 12	丁香花
+T4	Time-Implicit 9 17	丁香花盛开的季节
+T5	Time-Implicit 18 24	每当这个季节
+T6	Person-Pronoun 25 26	我
+T7	Location-Nominal 33 35	家乡
+T8	Thing-Nominal 37 43	盛开的丁香花
+R1	Located Arg1:T8 Arg2:T7	
+T9	Thing-Nominal 48 51	丁香花
+T10	Location-Nominal 52 60;61 63	我家前面那个山坡 地上
+R2	Located Arg1:T9 Arg2:T10	
+T11	Location-Nominal 72 74	南坡
+T12	Location-Nominal 79 81	北坡
+T13	Person-Nominal 86 90	村里的人
+T14	Time-Implicit 107 109	当年
+T15	Thing-Nominal 109 112	丁香树
+T16	Time-Implicit 109 119	丁香树还是种子的时候
+T17	Thing-Nominal 114 116	种子
+T18	Location-Nominal 129 132	鸟嘴里
+T19	Thing-Nominal 141 143	大风
+T20	Thing-Pronoun 166 167	它
+*	Coreference T20 T17
+T21	Location-Nominal 174 176	南坡
+T22	Thing-Nominal 177 179	太阳
+T23	Thing-Nominal 181 182;183 184	太 阳
+T24	Thing-Pronoun 186 188	它们
+T25	Person-Nominal 195 197	有人
+T26	Person-Pronoun 199 200	我
+T27	Location-Name 213 215	赤道
+T28	Person-Nominal 211 217	挨近赤道的人
+T29	Person-Pronoun 228 229	我
+T30	Person-Pronoun 241 242	我
+T31	Location-Nominal 256 259	山坡地
+T32	Thing-Nominal 271 275	丁香树林
+T33	Thing-Nominal 283 285;286 290	丁香 树的枝叶
+T34	Thing-Nominal 283 285;286 287	丁香 树
+R3	Part-Whole Arg1:T33 Arg2:T34	
+T35	Location-Nominal 296 299	山坡地
+T36	Thing-Nominal 308 311	丁香花
+T37	Person-Pronoun 312 313	我
+T38	Person-Pronoun 327 328	你
+T39	Thing-Nominal 331 337	小小的丁香花
+T40	Thing-Nominal 360 362	皮钉
+T41	Thing-Pronoun 379 381	它们
+T42	Location-Nominal 390 398	翠绿欲滴的枝叶中
+*	Coreference T41 T39
+R4	Located Arg1:T41 Arg2:T42	
+T43	Location-Nominal 404 407	大海里
+T44	Thing-Nominal 404 407;408 413	大海里 涌起的浪花
+T45	Thing-Nominal 416 425	挂满枝头的绒绒白雪
+T46	Thing-Nominal 431 436	天边的彩霞
+T47	Thing-Nominal 439 449	憩于枝头的千万只彩蝶
+T48	Location-Nominal 441 443	枝头
+T49	Metric 444 447	千万只
+R5	Located Arg1:T47 Arg2:T48	
+T50	Location-Nominal 418 420	枝头
+R6	Located Arg1:T45 Arg2:T50	
+T51	Location-Nominal 431 433	天边
+T52	Person-Pronoun 466 467	你
+T53	Thing-Nominal 477 480	丁香花
+T54	Location-Nominal 481 484	空气中
+T55	Thing-Nominal 490 491	它
+T56	Person-Pronoun 508 509	你
+T57	Person-Pronoun 513 514	你
+T58	Person-Pronoun 527 528	你
+T59	Thing-Nominal 536 541	清凉的泉水
+T60	Person-Pronoun 551 552	你
+T61	Thing-Nominal 564 566	美酒
+T62	Person-Pronoun 569 570	你
+T63	Person-Pronoun 577 578	你
+T64	Person-Pronoun 582 583	你
+T65	Person-Pronoun 588 589	你
+T66	Person-Nominal 596 597	人
+T67	Thing-Nominal 599 602	玫瑰花
+T68	Thing-Nominal 610 613	牡丹花
+T69	Person-Pronoun 621 622	我
+T70	Thing-Nominal 624 627	丁香花
+T71	Thing-Nominal 631 634	玫瑰花
+T72	Thing-Nominal 639 642	牡丹花
+T73	Thing-Pronoun 646 647	它
+*	Coreference T73 T70
+T74	Person-Pronoun 650 651	你
+T75	Thing-Pronoun 660 661	它
+T76	Thing-Pronoun 673 674	它
+T77	Thing-Nominal 695 698	丁香花
+T78	Person-Nominal 705 711	历代文人墨客
+T79	Thing-Nominal 712 715	丁香花
+T80	Thing-Nominal 754 757	丁香花
+T81	Thing-Nominal 762 765	丁香花
+T82	Thing-Pronoun 772 773	它
+*	Coreference T82 T81
+T83	Person-Nominal 790 792	小人
+T84	Person-Pronoun 814 815	我
+T85	Thing-Nominal 816 819	丁香花
+T86	Time-Implicit 843 847	有天傍晚
+T87	Person-Pronoun 848 849	我
+T88	Metric 850 852	几个
+T89	Person-Nominal 852 854	朋友
+T90	Thing-Nominal 860 863	丁香花
+T91	Person-Pronoun 866 867	我
+T92	Person-Pronoun 868 870	他们
+*	Coreference T92 T89
+T93	Location-Nominal 905 908	人堆里
+T94	Person-Nominal 925 926	人
+T95	Person-Nominal 929 930	人
+T96	Person-Pronoun 974 975	我
+T97	Person-Pronoun 976 978	他们
+T98	Thing-Nominal 987 989	月亮
+T99	Person-Pronoun 994 995	我
+T100	Location-Nominal 1000 1004	丁香树旁
+T101	Thing-Nominal 1005 1008	丁香花
+R7	Located Arg1:T101 Arg2:T100	
+T102	Person-Pronoun 1011 1012	我
+T103	Thing-Nominal 1014 1017	丁香花
+T104	Person-Nominal 1023 1034;1035 1045	普普通通、淡泊名利、默 默无闻、努力做事的人

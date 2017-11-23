@@ -1,0 +1,173 @@
+T1	Person-Nominal 0 2	人人
+T2	Person-Pronoun 4 6	自己
+*	Coreference T2 T1 T4 T5
+T3	Person-Pronoun 10 12	有的
+R1	Part-Whole Arg1:T3 Arg2:T1	
+T4	Person-Pronoun 17 19	有的
+T5	Person-Pronoun 24 26	有的
+T6	Person-Nominal 14 16	医生
+T7	Person-Nominal 21 23	将军
+T8	Person-Nominal 28 31	科学家
+T9	Person-Pronoun 35 36	我
+R2	Part-Whole Arg1:T9 Arg2:T1	
+T10	Person-Pronoun 48 49	我
+T11	Person-Nominal 58 69	那些有困难需要帮助的人
+T12	Person-Pronoun 71 72	我
+T13	Person-Nominal 75 82	农村长大的孩子
+R3	General-Special Arg1:T13 Arg2:T12	
+T14	Time-Implicit 83 86	小时候
+T15	Time-Implicit 91 98	一个冬日的下午
+T16	Location-Nominal 99 101	外面
+T17	Person-Nominal 105 107	别人
+T18	Thing-Nominal 103 104	雨
+T19	Thing-Nominal 109 111	雨靴
+T20	Thing-Nominal 112 114	胶鞋
+R4	Use Arg1:T17 Arg2:T19	
+R5	Use Arg1:T17 Arg2:T20	
+T21	Person-Pronoun 119 120	我
+T22	Thing-Nominal 124 131;132 137	外面罩着一个塑 料布的草鞋
+R6	Use Arg1:T21 Arg2:T22	
+R7	Ownership Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 144 151	泥泞的乡间小路
+T24	Thing-Nominal 156 158	草鞋
+*	Coreference T24 T22
+T25	Thing-Nominal 160 163	塑料布
+R8	Located Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 173 175	雨水
+T27	Thing-Nominal 179 182	草鞋底
+R9	Part-Whole Arg1:T27 Arg2:T24	
+T28	Thing-Nominal 185 187	袜子
+R10	Located Arg1:T28 Arg2:T24	
+T29	Person-Pronoun 188 189	我
+T30	Metric 196 199	一下午
+T31	Time-Implicit 200 202	晚上
+T32	Person-Nominal 206 208	妈妈
+R11	Family Arg1:T32 Arg2:T29	
+T33	Person-Pronoun 210 211	我
+T34	Thing-Nominal 211 218	冻得通红的小脚
+R12	Part-Whole Arg1:T34 Arg2:T33	
+T35	Person-Pronoun 224 225	我
+T36	Person-Nominal 230 232	妈妈
+T37	Thing-Nominal 238 240	我脚
+*	Coreference T37 T34
+T38	Person-Pronoun 250 251	我
+T39	Thing-Nominal 258 262	一双雨靴
+T40	Person-Pronoun 270 271	我
+T41	Person-Nominal 272 277	邻镇的小姑
+R13	Family Arg1:T41 Arg2:T40	
+T42	Location-Nominal 272 278	邻镇的小姑家
+R14	Family Arg1:T41 Arg2:T36	
+T43	Thing-Name 294 296	太阳
+T44	Person-Pronoun 297 298	我
+T45	Location-Nominal 300 302	路上
+T46	Time-Implicit 307 309	这时
+T47	Location-Nominal 310 314	路边小屋
+T48	Person-Nominal 318 325	一个好心的大叔
+T49	Metric 258 260	一双
+T50	Metric 318 320	一个
+T51	Person-Pronoun 327 328	他
+*	Coreference T51 T48 T58
+T52	Person-Pronoun 330 331	我
+T53	Location-Nominal 333 335	家里
+R15	Ownership Arg1:T51 Arg2:T53	
+T54	Person-Nominal 339 346	一个滚热的山芋
+T55	Metric 339 341	一个
+T56	Location-Nominal 350 352	我家
+T57	Location-Pronoun 353 355	哪里
+T58	Person-Nominal 359 361	大叔
+T59	Person-Nominal 362 364	大婶
+R16	Family Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 370 375	一盏小马灯
+T61	Metric 370 372	一盏
+T62	Person-Pronoun 379 380	我
+T63	Person-Nominal 383 385	父母
+R17	Family Arg1:T63 Arg2:T62	
+R18	Part-Whole Arg1:T32 Arg2:T63	
+T64	Person-Pronoun 399 400	我
+T65	Time-Implicit 420 424	自此之后
+T66	Time-Implicit 427 432	我上学途中
+T67	Person-Nominal 434 438	农民伯伯
+R19	Social Arg1:T67 Arg2:T64	
+R20	Social Arg1:T48 Arg2:T44	
+T68	Location-Nominal 444 450	学校门前桥上
+T69	Location-Nominal 455 457	桥坡
+R21	Part-Whole Arg1:T69 Arg2:T68	
+T70	Person-Pronoun 461 462	我
+T71	Location-Nominal 474 476	家里
+T72	Person-Nominal 477 482	要饭的乞丐
+T73	Person-Pronoun 483 484	我
+T74	Person-Pronoun 493 494	他
+*	Coreference T74 T72
+T75	Thing-Nominal 490 492	米儿
+T76	Organization-Nominal 496 498	学校
+T77	Organization-Name 503 510	县蔡官乡文化站
+T78	Person-Pronoun 501 502	我
+T79	Person-Pronoun 517 518	我
+T80	Person-Pronoun 521 522	我
+T81	Person-Pronoun 553 554	我
+T82	Time-Implicit 553 563	我后来从商的十八年间
+T83	Person-Pronoun 571 572	我
+T84	Person-Pronoun 580 581	我
+T85	Metric 585 590	近二十万元
+T86	Person-Nominal 592 596	孤寡老人
+T87	Person-Nominal 599 603	失学儿童
+T88	Person-Nominal 610 617	贫困、弱势人群
+T89	Person-Nominal 621 623	他人
+R22	General-Special Arg1:T89 Arg2:T86	
+R23	General-Special Arg1:T89 Arg2:T87	
+R24	General-Special Arg1:T89 Arg2:T88	
+T90	Person-Pronoun 629 630	我
+T91	Person-Pronoun 637 638	我
+T92	Person-Nominal 642 648	一些弱势群体
+T93	Person-Pronoun 661 662	我
+T94	Person-Nominal 668 671	一个人
+T95	Person-Pronoun 684 685	我
+T96	Person-Pronoun 688 689	我
+T97	Location-Name 690 693	华港镇
+T98	Person-Nominal 695 701	工商联副主席
+T99	Person-Nominal 702 711	姜堰市私营协会理事
+T100	Person-Nominal 723 730	有爱心的工商户
+T101	Person-Nominal 743 747	更多的人
+T102	Time-Implicit 748 752	于此同时
+T103	Person-Pronoun 753 755	我们
+R25	Part-Whole Arg1:T100 Arg2:T103	
+R26	Part-Whole Arg1:T95 Arg2:T103	
+T104	Abstract 767 780	爱心联盟&quot;QQ群
+T105	Person-Nominal 788 799	更多志同道合的爱心朋友
+T106	Person-Nominal 804 818	我们这个做好人、行好事的团队
+T107	Time-Implicit 836 839	前几天
+T108	Person-Pronoun 839 841	我们
+R27	Social Arg1:T96 Arg2:T100	
+T109	Time-Implicit 852 858	今年暑假期间
+T110	Location-Name 861 862;863 867	四 川德格县
+T111	Person-Nominal 874 878	贫困学生
+T112	Location-Pronoun 870 872	那里
+*	Coreference T112 T110
+T113	Physical 821 835	策划、组织了多起大型爱心活动
+T114	Physical 895 916	爱西部贫困儿童、助学圆梦&quot;的活动
+T115	Person-Pronoun 918 919	我
+T116	Person-Nominal 929 937	那些需要帮助的人
+T117	Person-Nominal 945 950	广大消费者
+T118	Person-Pronoun 951 953	他们
+*	Coreference T118 T117
+T119	Thing-Nominal 959 962	我超市
+R28	Ownership Arg1:T115 Arg2:T119	
+T120	Person-Pronoun 963 965	他们
+T121	Thing-Nominal 968 971	我超市
+T122	Person-Pronoun 986 987	我
+T123	Thing-Nominal 1011 1023	一个不起眼的小百货批发部
+T124	Thing-Nominal 1027 1038	一个四层大楼的综合超市
+T125	Thing-Nominal 1042 1047	四个连锁店
+R29	Ownership Arg1:T115 Arg2:T123	
+R30	Ownership Arg1:T115 Arg2:T124	
+R31	Ownership Arg1:T115 Arg2:T125	
+T126	Person-Pronoun 1067 1068	我
+T127	Time-Implicit 1078 1080	同时
+T128	Location-Nominal 1099 1101	世界
+T129	Person-Nominal 1130 1133	每个人
+T130	Person-Pronoun 1154 1156	我们
+T131	Organization-Nominal 1166 1168	国家
+T132	Person-Nominal 1185 1187	人群
+T133	Location-Nominal 1178 1184	被忽略的角落
+T134	Person-Pronoun 1206 1208	我们
+T135	Person-Pronoun 1222 1223	我

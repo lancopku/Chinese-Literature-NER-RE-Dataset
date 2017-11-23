@@ -1,0 +1,136 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 2 4	故乡
+T3	Location-Name 5 7	宁都
+*	Coreference T3 T2
+T4	Person-Pronoun 8 9	我
+T5	Location-Name 12 14	宁都
+T6	Location-Name 17 19	宁都
+T7	Time-Implicit 21 24	小时候
+T8	Location-Name 36 38	广州
+T9	Location-Name 46 48	厦门
+T10	Location-Nominal 49 51	岛屿
+T11	Location-Nominal 51 53	名胜
+T12	Location-Nominal 31 33	地方
+T13	Location-Name 56 58	大连
+T14	Location-Name 69 71	宁都
+T15	Thing-Nominal 90 92	霓虹
+T16	Person-Pronoun 146 148	自己
+*	Coreference T16 T4
+T17	Location-Pronoun 150 154	那些地方
+*	Coreference T8 T17 T12 T9 T13 T14
+T18	Location-Name 158 160	宁都
+T19	Location-Nominal 165 167	故乡
+T20	Time-Implicit 184 186	如今
+T21	Person-Pronoun 192 194	自己
+T22	Person-Pronoun 202 203	我
+*	Coreference T22 T21
+T23	Location-Name 211 213	宁都
+T24	Person-Nominal 218 219	人
+T25	Person-Pronoun 235 236	我
+T26	Location-Nominal 237 239	家乡
+T27	Metric 247 249	一抹
+T28	Thing-Nominal 249 251	夕阳
+T29	Time-Implicit 259 264	高三的时候
+T30	Time-Implicit 271 275	每个礼拜
+T31	Time-Implicit 278 284	星期天的下午
+T32	Time-Implicit 295 299	这个时候
+*	Coreference T32 T31
+T33	Time-Implicit 333 337	傍晚时分
+T34	Thing-Nominal 338 343	温和的光线
+T35	Thing-Nominal 345 350	偌大的窗子
+T36	Location-Nominal 358 360	房间
+T37	Thing-Nominal 300 302	作业
+T38	Location-Nominal 368 370	天边
+T39	Thing-Nominal 371 373	晚霞
+T40	Thing-Nominal 376 378	群山
+T41	Thing-Nominal 380 381	眼
+T42	Thing-Nominal 388 389	床
+T43	Person-Pronoun 418 420	自己
+T44	Organization-Nominal 425 427	大学
+T45	Thing-Nominal 445 447	夕阳
+T46	Person-Nominal 459 461	至亲
+R1	Family Arg1:T46 Arg2:T43	
+T47	Location-Nominal 470 472	故乡
+T48	Organization-Nominal 487 489	大学
+T49	Person-Nominal 492 493	人
+T50	Thing-Nominal 498 499	书
+T51	Thing-Nominal 502 504	东西
+T52	Location-Nominal 525 528	好地方
+T53	Person-Nominal 531 533	父母
+T54	Thing-Nominal 540 542	夕阳
+T55	Person-Pronoun 546 547	我
+T56	Location-Nominal 552 554	故乡
+T57	Thing-Nominal 547 548	心
+R2	Part-Whole Arg1:T57 Arg2:T55	
+T58	Thing-Nominal 565 566	山
+T59	Thing-Nominal 566 567	水
+T60	Thing-Nominal 574 576	烙印
+T61	Person-Pronoun 580 581	我
+T62	Time-Implicit 587 589	日间
+T63	Person-Nominal 590 592	同学
+R3	Social Arg1:T63 Arg2:T61	
+T64	Location-Name 603 604;605 606	宁 都
+T65	Location-Nominal 620 622	故乡
+T66	Location-Name 630 632	梅江
+T67	Location-Nominal 627 632	东隅的梅江
+T68	Location-Nominal 633 638	西边的群山
+T69	Location-Nominal 640 646	城南的水口塔
+T70	Location-Nominal 647 653	北边的翠微峰
+T71	Location-Name 643 646	水口塔
+T72	Location-Name 650 653	翠微峰
+T73	Location-Name 656 659	永宁寺
+T74	Thing-Nominal 660 661	烛
+T75	Location-Name 662 665	海莲寺
+T76	Thing-Nominal 667 668	钟
+T77	Location-Nominal 672 676	大街小巷
+T78	Thing-Nominal 678 680	小吃
+T79	Thing-Nominal 680 682	路灯
+T80	Person-Pronoun 687 688	我
+T81	Time-Implicit 701 703	春天
+T82	Person-Nominal 719 721	归者
+T83	Time-Implicit 716 718	假日
+T84	Location-Nominal 724 726	故乡
+T85	Person-Nominal 732 734	亲人
+T86	Time-Implicit 747 748	日
+T87	Time-Implicit 755 756	夜
+T88	Location-Nominal 760 762	家乡
+T89	Thing-Nominal 782 784	山水
+T90	Location-Nominal 796 797	乡
+T91	Person-Nominal 801 803	室友
+T92	Person-Pronoun 811 812	你
+*	Coreference T92 T80 T95
+R4	Social Arg1:T91 Arg2:T80	
+T93	Location-Name 826 828	宁都
+T94	Person-Pronoun 843 845	我们
+*	Coreference T94 T91
+T95	Person-Pronoun 847 848	你
+T96	Metric 855 857	四年
+T97	Organization-Nominal 866 868	学校
+T98	Person-Nominal 873 875	朋友
+T99	Location-Nominal 886 887	省
+T100	Location-Nominal 909 910	乡
+T101	Location-Nominal 949 951	故乡
+T102	Person-Pronoun 955 956	我
+T103	Thing-Nominal 962 964	行囊
+T104	Person-Nominal 966 968	众人
+T105	Location-Nominal 994 998	这片热土
+*	Coreference T105 T101 T88 T93
+T106	Location-Nominal 934 935	乡
+T107	Location-Nominal 936 937	国
+T108	Person-Pronoun 1007 1008	我
+T109	Thing-Nominal 1010 1011	风
+T110	Location-Nominal 1002 1003	乡
+T111	Person-Pronoun 1034 1035	你
+T112	Person-Pronoun 1038 1039	我
+T113	Location-Nominal 1040 1041	乡
+T114	Thing-Nominal 1061 1063	山水
+T115	Location-Nominal 1075 1076	乡
+T116	Person-Pronoun 1106 1107	我
+T117	Location-Name 1127 1129	宁都
+T118	Thing-Nominal 1130 1131	日
+T119	Thing-Nominal 1131 1132	月
+T120	Thing-Nominal 1138 1140	山水
+T121	Metric 1136 1138	一方
+T122	Location-Pronoun 1146 1147	它
+T123	Location-Pronoun 1151 1152	它
+*	Coreference T122 T117 T123

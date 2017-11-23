@@ -1,0 +1,371 @@
+T1	Thing-Nominal 0 1	馕
+T2	Thing-Nominal 8 14	中原一般面饼
+T3	Location-Nominal 8 10	中原
+T4	Thing-Nominal 24 29	芝麻、糖瓜
+T5	Thing-Nominal 37 43	洋葱和孜然末
+T6	Thing-Nominal 46 53	这两样西域调料
+*	Coreference T6 T5
+T7	Thing-Nominal 87 89	新馕
+T8	Thing-Nominal 95 97	陈馕
+T9	Thing-Nominal 111 113	麦子
+T10	Thing-Nominal 132 137	这样的主食
+T11	Location-Nominal 141 144	中西亚
+T12	Person-Nominal 165 168	苏州人
+T13	Thing-Nominal 174 182;183 184	这样“粗糙”的食 品
+T14	Person-Pronoun 187 188	我
+T15	Person-Nominal 196 205	本乡本土的维吾尔人
+T16	Thing-Nominal 206 207	馕
+T17	Thing-Nominal 209 215	一种家常主食
+T18	Person-Nominal 219 227	一个迷恋西部的人
+T19	Thing-Nominal 244 246	美食
+T20	Thing-Pronoun 262 263	它
+T21	Person-Nominal 284 286	平民
+T22	Person-Nominal 290 293	新贵们
+*	Coreference T20 T19
+T23	Person-Pronoun 308 309	我
+T24	Thing-Nominal 311 312	馕
+T25	Person-Nominal 319 324	那些采风者
+T26	Person-Pronoun 332 334	他们
+*	Coreference T26 T25
+T27	Thing-Nominal 339 342	这种饼
+T28	Thing-Nominal 343 348	羸弱的脾胃
+T29	Thing-Pronoun 359 360	它
+*	Coreference T29 T24
+T30	Person-Pronoun 369 370	我
+T31	Person-Nominal 375 379	新疆女人
+T32	Thing-Nominal 380 381	馕
+T33	Person-Pronoun 385 387	她们
+*	Coreference T33 T31
+T34	Location-Nominal 388 391	馕坑上
+T35	Thing-Nominal 396 397	馕
+T36	Thing-Nominal 421 429;430 431	每家每户的专用馕 坑
+T37	Person-Pronoun 432 434	他们
+T38	Thing-Nominal 441 443	馕房
+T39	Person-Pronoun 450 451	我
+T40	Thing-Nominal 457 465	维吾尔乡村的农家
+T41	Thing-Nominal 476 487	那些远离都市的乡间小路
+T42	Location-Nominal 489 490;491 499	绿 荫可人的泥屋一隅
+T43	Person-Pronoun 503 504	你
+T44	Person-Nominal 510 520	一位表情淡漠的闯入者
+T45	Thing-Nominal 520 522	眼睛
+T46	Person-Nominal 527 535	向往西域风情的人
+T47	Person-Nominal 543 545	平民
+T48	Person-Nominal 548 550	过客
+T49	Thing-Nominal 556 565	这块沁透了爱的干粮
+T50	Person-Pronoun 567 568	你
+T51	Person-Nominal 571 576	一个漂泊者
+T52	Location-Nominal 579 586	都市凌晨的街头
+T53	Location-Nominal 588 592	那馕房里
+T54	Thing-Nominal 597 599	灯盏
+T55	Location-Nominal 600 603	馕坑里
+R1	Located Arg1:T54 Arg2:T53	
+T56	Thing-Nominal 603 608	熊熊的火光
+R2	Located Arg1:T56 Arg2:T55	
+T57	Person-Nominal 609 614	那位打馕人
+T58	Location-Nominal 614 617	火钩上
+T60	Person-Pronoun 633 634	你
+T59	Thing-Nominal 622 627;628 630	香气扑鼻的 热馕
+R3	Located Arg1:T59 Arg2:T58	
+T61	Thing-Nominal 646 651	温暖的居室
+T62	Person-Nominal 652 657	团聚的家人
+T63	Thing-Nominal 658 663	可口的饭食
+T64	Person-Nominal 672 674	游子
+T65	Location-Nominal 686 687	家
+T66	Person-Pronoun 692 693	你
+T67	Time-Implicit 693 695	那时
+T68	Thing-Nominal 697 698	家
+T69	Thing-Nominal 704 705	馕
+T70	Thing-Nominal 706 708	馕房
+T71	Person-Pronoun 721 722	我
+T72	Thing-Nominal 723 725	家园
+T73	Location-Nominal 741 743	异乡
+T74	Person-Nominal 750 757	那个默默垂泪者
+T75	Person-Pronoun 759 760	我
+*	Coreference T75 T74
+T76	Thing-Nominal 764 767	一包馕
+T77	Person-Pronoun 768 769	我
+T78	Thing-Nominal 781 787	一种家常面食
+T79	Thing-Nominal 775 778	乌玛什
+T80	Thing-Pronoun 790 791	它
+*	Coreference T80 T79 T90
+T81	Thing-Nominal 796 801	中原的面糊
+T82	Thing-Nominal 802 808	广东的花色粥
+T83	Thing-Nominal 809 814	徐州的辣汤
+T84	Thing-Nominal 815 822	宴席上的甜羹。
+T85	Location-Nominal 815 818	宴席上
+R4	Located Arg1:T84 Arg2:T85	
+T86	Location-Name 809 811	徐州
+T87	Location-Name 802 804	广东
+T88	Location-Nominal 796 798	中原
+T89	Person-Nominal 828 834	锦衣玉食的人
+T90	Thing-Pronoun 841 842	它
+T91	Thing-Nominal 845 847	粗粮
+T92	Thing-Nominal 848 849;850 852	苞 谷面
+T93	Thing-Nominal 855 858	玉米粉
+T94	Thing-Nominal 861 864	老玉米
+T95	Thing-Nominal 865 868	肯德基
+T96	Person-Pronoun 875 876	我
+T97	Thing-Nominal 882 886	西域美食
+T98	Thing-Nominal 892 895	玉米粉
+T99	Thing-Nominal 914 915	粥
+T100	Thing-Nominal 903 907	各种食物
+T101	Thing-Nominal 922 926	不同辅料
+T102	Thing-Pronoun 928 929	它
+*	Coreference T102 T98
+T103	Thing-Nominal 934 937	乌玛什
+T104	Thing-Nominal 942 944	蔓箐
+T105	Thing-Nominal 948 952;953 955	一种玉米 糊糊
+T106	Thing-Pronoun 956 957	它
+*	Coreference T106 T103
+T107	Location-Nominal 958 961	宴会上
+T108	Thing-Nominal 962 964	水果
+T109	Thing-Nominal 967 971	玉米甜羹
+T110	Thing-Nominal 973 977	这种原料
+T111	Person-Nominal 983 985	贵族
+T112	Person-Nominal 988 990	平民
+T113	Thing-Nominal 991 997	两个极致品种
+T114	Thing-Pronoun 1008 1009	它
+T115	Thing-Nominal 1019 1021	田园
+T116	Thing-Nominal 1011 1013	都市
+T117	Thing-Nominal 1025 1027	蔓箐
+T118	Thing-Nominal 1029 1034	甘蓝科蔬菜
+R5	General-Special Arg1:T118 Arg2:T117	
+T119	Person-Name 1039 1041	张骞
+T120	Location-Nominal 1042 1044	中亚
+T121	Person-Nominal 1049 1051	农民
+T122	Location-Nominal 1052 1056	墙角地边
+T123	Thing-Nominal 1060 1064	一把菜籽
+R6	Located Arg1:T123 Arg2:T122	
+T124	Time-Implicit 1065 1067	秋后
+T125	Location-Nominal 1070 1073	地窖里
+T126	Metric 1077 1079	一年
+T127	Thing-Nominal 1080 1082	大者
+T128	Thing-Nominal 1084 1085;1086 1087	汤 碗
+T129	Thing-Nominal 1092 1095	指甲盖
+T130	Thing-Nominal 1103 1105	手脚
+T131	Person-Nominal 1108 1110	主妇
+T132	Thing-Pronoun 1121 1122	它
+T133	Thing-Nominal 1136 1139	乌玛什
+T134	Thing-Nominal 1151 1154	哈密瓜
+T135	Thing-Pronoun 1157 1158	它
+T136	Location-Nominal 1161 1168	阴湿多水的南方
+T137	Location-Nominal 1172 1177	干旱的西北
+T138	Thing-Pronoun 1180 1181	它
+T139	Location-Name 1198 1200	新疆
+T140	Person-Nominal 1203 1205	小孩
+T141	Location-Nominal 1211 1213	内地
+T142	Thing-Nominal 1226 1228	蔓箐
+T143	Location-Nominal 1229 1233	西北各省
+T144	Thing-Nominal 1237 1239	咸菜
+T145	Location-Name 1242 1244	新疆
+T146	Thing-Nominal 1249 1251	鲜果
+T147	Thing-Nominal 1253 1256	乌玛什
+T148	Thing-Pronoun 1257 1258	它
+*	Coreference T148 T142
+T149	Thing-Nominal 1265 1269	任何菜蔬
+T150	Thing-Nominal 1279 1281	萝卜
+T151	Thing-Pronoun 1286 1287	它
+T152	Thing-Nominal 1296 1299	玉米糊
+T153	Person-Pronoun 1307 1308	我
+T154	Thing-Nominal 1313 1315	蔓箐
+T155	Thing-Pronoun 1317 1318	它
+*	Coreference T155 T154
+T156	Person-Pronoun 1331 1332	我
+T157	Thing-Pronoun 1339 1340	它
+T158	Location-Nominal 1353 1355	嘴里
+T159	Thing-Pronoun 1359 1360	它
+T160	Location-Nominal 1371 1373	窗外
+T161	Thing-Nominal 1373 1375	风雪
+R7	Located Arg1:T161 Arg2:T160	
+T162	Location-Nominal 1378 1381	泥屋里
+T163	Thing-Nominal 1381 1383	热气
+R8	Located Arg1:T163 Arg2:T162	
+T164	Location-Nominal 1386 1389	壁炉中
+T165	Thing-Nominal 1389 1392	红柳火
+R9	Located Arg1:T165 Arg2:T164	
+T166	Thing-Nominal 1398 1408	一碗粘稠喷香的乌玛什
+T167	Thing-Nominal 1433 1438	所有的美食
+T168	Thing-Nominal 1448 1451	乌玛什
+T169	Thing-Nominal 1462 1464	小火
+T170	Thing-Nominal 1478 1482	现代美食
+T171	Person-Pronoun 1509 1510	你
+T172	Thing-Nominal 1513 1519	最好的乌玛什
+T173	Thing-Nominal 1526 1530	一点点盐
+T174	Thing-Nominal 1535 1541	其它任何辅料
+T175	Thing-Nominal 1545 1549	各种油脂
+T176	Person-Pronoun 1558 1559	你
+T177	Thing-Nominal 1576 1583	那玉米粉的粘稠
+T178	Thing-Nominal 1584 1589	蔓箐的面甜
+T179	Thing-Nominal 1619 1627	那些甜羹和花色粥
+T180	Thing-Nominal 1635 1638	大半斤
+T181	Location-Name 1641 1643	新疆
+T182	Thing-Nominal 1647 1653	平民化的饭食
+T183	Person-Pronoun 1656 1657	我
+T184	Thing-Pronoun 1663 1664	它
+*	Coreference T184 T180
+T185	Person-Nominal 1667 1670	美食家
+T186	Thing-Pronoun 1673 1674	它
+T187	Location-Name 1680 1682	新疆
+T188	Person-Nominal 1686 1687	人
+T189	Person-Pronoun 1690 1691	他
+*	Coreference T189 T188
+T190	Thing-Pronoun 1704 1705	它
+T191	Thing-Pronoun 1717 1718	它
+T192	Thing-Nominal 1725 1729	一种面条
+T193	Thing-Nominal 1733 1736	大半斤
+T194	Time-Explicit 1740 1747	上世纪60年代
+T195	Thing-Pronoun 1749 1750	它
+T196	Thing-Nominal 1753 1757	半斤粮票
+T197	Thing-Nominal 1762 1764	粮票
+T198	Person-Nominal 1766 1769	年轻人
+T199	Thing-Pronoun 1785 1786	它
+T200	Person-Nominal 1798 1801	那边人
+T201	Thing-Nominal 1803 1805	汤面
+T202	Thing-Nominal 1810 1818	一点羊肉末和香菜
+T203	Person-Nominal 1829 1832	内地人
+T204	Thing-Nominal 1836 1841	排骨、熏鱼
+T205	Thing-Nominal 1855 1862	清汤寡水的光面
+T206	Thing-Nominal 1869 1872	阳春面
+T207	Person-Nominal 1875 1876	人
+T208	Thing-Nominal 1893 1896	大半斤
+T209	Thing-Nominal 1897 1901	很多配菜
+T210	Thing-Nominal 1973 1977	一切菜蔬
+T211	Thing-Nominal 1981 1983	羊肉
+T212	Thing-Nominal 1988 2000	色彩绚丽、滋味杂陈的美食
+T213	Thing-Nominal 2010 2019	洋葱、土豆和胡萝卜
+T214	Thing-Nominal 2023 2026	三大件
+*	Coreference T214 T213
+T215	Thing-Nominal 2032 2034	胡食
+T216	Location-Pronoun 2040 2042	那里
+T217	Thing-Nominal 2046 2050	新鲜蔬菜
+T218	Time-Implicit 2063 2066	夏秋时
+T219	Thing-Nominal 2072 2076	新鲜菜蔬
+T220	Thing-Nominal 2081 2095	豆角，黄瓜，青椒茄子，西红柿
+T221	Thing-Nominal 2111 2115	一盘面点
+T222	Person-Nominal 2135 2136	人
+T223	Person-Nominal 2142 2143	人
+T224	Person-Nominal 2169 2183	川、甘、陕、晋四地大西部移民
+T225	Thing-Nominal 2193 2194	面
+T226	Thing-Nominal 2195 2196	醋
+T227	Thing-Nominal 2199 2201	粮食
+T228	Thing-Nominal 2205 2207	城乡
+T229	Person-Nominal 2221 2222	客
+T230	Person-Pronoun 2232 2233	我
+T231	Person-Nominal 2237 2246	一位质朴热忱的主人
+T232	Person-Pronoun 2262 2263	你
+T233	Thing-Nominal 2265 2270	这样的美餐
+T234	Thing-Nominal 2275 2277	蔬菜
+T235	Thing-Nominal 2290 2292	羊肉
+T236	Thing-Pronoun 2295 2296	它
+T237	Person-Nominal 2305 2308	女主人
+T238	Person-Nominal 2311 2312	客
+T239	Person-Pronoun 2375 2376	你
+T240	Thing-Nominal 2350 2365	一大盘馨香酸辣肥美滋补的大半斤
+T241	Thing-Pronoun 2346 2347	它
+T242	Location-Nominal 2334 2339	鸡毛小店里
+T243	Location-Name 2320 2322	新疆
+T244	Person-Name 2385 2392	香港女作家三毛
+T245	Thing-Pronoun 2397 2398	它
+*	Coreference T245 T240
+T246	Person-Pronoun 2412 2413	你
+T247	Thing-Nominal 2415 2426	这道可口而又简陋的饭食
+T248	Person-Nominal 2428 2431	当地人
+T249	Person-Pronoun 2440 2441	你
+T250	Thing-Pronoun 2455 2456	它
+T251	Person-Nominal 2480 2481	人
+T252	Person-Nominal 2490 2494	这里的人
+T253	Thing-Nominal 2504 2508	各色菜品
+T254	Person-Nominal 2514 2516	主人
+T255	Person-Pronoun 2520 2521	他
+*	Coreference T255 T254
+T256	Person-Nominal 2522 2524	来客
+T257	Person-Nominal 2532 2536	附近邻居
+T258	Location-Pronoun 2536 2538	那里
+T259	Thing-Nominal 2544 2548	几样杂菜
+T260	Person-Pronoun 2559 2560	他
+T261	Location-Nominal 2561 2564	邻居处
+T262	Thing-Nominal 2568 2572	几种调料
+T263	Person-Pronoun 2573 2574	谁
+T264	Person-Nominal 2578 2580	来客
+T265	Location-Nominal 2588 2590	四乡
+T266	Thing-Pronoun 2601 2602	它
+T267	Person-Nominal 2618 2619	人
+T268	Thing-Nominal 2621 2633	西部城镇人声鼎沸的饮食街
+T269	Thing-Nominal 2634 2639	节日的乡村
+T270	Thing-Nominal 2640 2645	丰盛的餐桌
+T271	Person-Nominal 2646 2654	肥硕开朗的女主人
+T272	Person-Nominal 2681 2682	人
+T273	Person-Nominal 2666 2669	我个人
+T274	Person-Pronoun 2666 2667	我
+T275	Thing-Pronoun 2689 2690	它
+T276	Thing-Nominal 2702 2711	许多极富营养的材料
+T277	Thing-Nominal 2712 2716;2717 2729	羊肉、洋 葱、胡萝卜、葡萄干、冰糖
+T278	Person-Pronoun 2735 2736	你
+T279	Person-Pronoun 2774 2775	你
+T280	Person-Nominal 2783 2788	你周围的人
+T281	Metric 2741 2743	三年
+T282	Location-Nominal 2818 2823	你的血液中
+T283	Location-Nominal 2827 2832	你的毛孔里
+T284	Thing-Nominal 2842 2848	一阵怪异的风
+T285	Person-Nominal 2850 2854	身边的人
+T286	Person-Pronoun 2862 2863	你
+T287	Person-Pronoun 2880 2881	你
+T288	Person-Pronoun 2895 2896	你
+T289	Thing-Nominal 2897 2902	各种洗涤剂
+T290	Thing-Nominal 2906 2908	皮肉
+T291	Person-Pronoun 2953 2954	你
+T292	Person-Pronoun 2965 2966	你
+T293	Thing-Nominal 2981 2985	一种饭食
+T294	Thing-Nominal 3002 3004	抓饭
+T295	Thing-Nominal 2749 2750	腰
+T296	Person-Nominal 3013 3016	南方人
+T297	Person-Pronoun 2978 2980	自己
+T298	Location-Name 3018 3020	新疆
+T299	Thing-Pronoun 3025 3026	它
+T300	Thing-Pronoun 3040 3041	它
+T301	Person-Nominal 3049 3055	足不出户的人
+T302	Thing-Nominal 3067 3069	抓饭
+T303	Thing-Pronoun 3098 3100	他们
+T304	Location-Name 3102 3115	欧亚大陆桥的大都会乌鲁木齐
+T305	Thing-Nominal 3118 3124	一道风味小吃
+T306	Thing-Nominal 3128 3134;3135 3137	五星级酒店的 菜单
+T307	Person-Pronoun 3141 3142	你
+T308	Location-Nominal 3143 3150	那豪华的前厅里
+T309	Person-Pronoun 3163 3164	我
+T310	Thing-Nominal 3189 3194	那小家小口
+T311	Thing-Nominal 3246 3251	百号人饭食
+T312	Thing-Nominal 3252 3255	大铁锅
+T313	Thing-Nominal 3263 3272	西域的“穷乡僻壤”
+T314	Location-Nominal 3323 3332	那片穆斯林的乡土上
+T315	Thing-Nominal 3339 3341	大锅
+T316	Person-Nominal 3412 3419	这位憨厚的农民
+T317	Time-Implicit 3409 3411	这时
+T318	Thing-Nominal 3358 3360	经文
+T319	Thing-Nominal 3346 3349	红柳柴
+T320	Thing-Nominal 3352 3354	小山
+T321	Thing-Nominal 3364 3366	肥羊
+T322	Thing-Nominal 3374 3379	胡萝卜洋葱
+T323	Person-Nominal 3385 3389	掌锅师傅
+T324	Person-Nominal 3429 3432	牧羊人
+T325	Person-Nominal 3422 3425	买买提
+T326	Person-Nominal 3435 3443	生产队的水利委员
+T327	Person-Nominal 3447 3454	统帅三军的将领
+T328	Person-Nominal 3463 3469;3470 3471	呼叫奔跑的小 孩
+T329	Person-Nominal 3472 3477	忙碌的女人
+T330	Person-Nominal 3478 3495	满脸矜持却不忘随时瞟一眼锅灶的老人
+T331	Person-Nominal 3498 3506	当家主事的男人们
+T332	Person-Pronoun 3528 3530	他们
+*	Coreference T332 T331
+T333	Thing-Nominal 3551 3555	一盘抓饭
+T334	Person-Nominal 3560 3563	坏男人
+T337	Thing-Nominal 3617 3620	热瓦普
+T338	Thing-Nominal 3624 3626	手鼓
+T339	Person-Nominal 3628 3629	人
+T340	Person-Pronoun 3653 3654	你
+T341	Thing-Nominal 3640 3643	一点酒
+T342	Thing-Nominal 3587 3589	油泡
+T343	Thing-Nominal 3578 3580	抓饭
+T344	Location-Nominal 3595 3598	饭桌上
+T335	Thing-Nominal 3601 3616	饭盆，馕，干鲜果品，糖块和浓茶
+R10	Located Arg1:T335 Arg2:T344	
+T336	Thing-Nominal 3630 3632	热血

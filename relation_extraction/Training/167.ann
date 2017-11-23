@@ -1,0 +1,119 @@
+T1	Thing-Nominal 7 11	几只蜻蜓
+T2	Location-Nominal 3 6	车窗外
+R1	Located Arg1:T1 Arg2:T2	
+T3	Person-Pronoun 14 15	我
+T4	Person-Pronoun 21 22	我
+T5	Thing-Nominal 30 35	那座小村庄
+T6	Time-Implicit 23 25	童年
+T7	Time-Implicit 37 39	那时
+T8	Location-Nominal 40 43	村子里
+T9	Person-Nominal 44 46	人们
+T10	Thing-Nominal 49 51	蜻蜓
+T11	Person-Nominal 59 61	奶奶
+T12	Thing-Nominal 65 67	蜻蜓
+T13	Location-Nominal 68 70	满天
+T14	Thing-Nominal 71 72	雨
+T15	Location-Nominal 74 76	跟前
+T16	Person-Pronoun 79 80	我
+T17	Thing-Nominal 85 86	雨
+T18	Person-Pronoun 92 93	我
+T19	Thing-Nominal 98 100	蜻蜓
+T20	Thing-Nominal 110 114	蜻蜓翅膀
+T21	Thing-Nominal 110 112	蜻蜓
+T22	Location-Nominal 115 118	我耳边
+T23	Thing-Nominal 130 132	糖蘸
+T24	Time-Implicit 143 145	那时
+T25	Location-Nominal 146 154	村东头的大湾里，
+T26	Thing-Nominal 154 156	绿水
+R2	Located Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 159 161	青丝
+T28	Thing-Nominal 164 166	蒲草
+T29	Location-Pronoun 171 173	这里
+T30	Thing-Nominal 183 187	几只蜻蜓
+T31	Thing-Pronoun 189 190	它
+*	Coreference T31 T30
+T32	Thing-Nominal 190 196	天蓝色的肚囊
+T33	Location-Nominal 200 201;202 204	荷 蕊旁
+T34	Thing-Nominal 206 208	微风
+T35	Thing-Nominal 232 241	一种棕色尾巴的蜻蜓
+T36	Thing-Pronoun 242 244	它们
+*	Coreference T36 T35
+T37	Thing-Nominal 247 249	尾巴
+R3	Part-Whole Arg1:T37 Arg2:T35	
+T38	Thing-Nominal 251 256	同伴的颈部
+T39	Thing-Nominal 259 262;263 264	连体飞 机
+T40	Thing-Nominal 276 278	草根
+T41	Thing-Pronoun 279 281	它们
+T42	Thing-Nominal 306 308	乡村
+T43	Thing-Nominal 303 305	蜻蜓
+T44	Thing-Nominal 310 318	一幅迷人的乡景图
+T45	Person-Nominal 313 314	人
+T46	Thing-Pronoun 319 320	它
+T47	Person-Nominal 322 324	孩童
+T48	Person-Nominal 327 329	少年
+T49	Person-Pronoun 331 332	我
+T50	Thing-Nominal 337 339	村庄
+T51	Thing-Nominal 341 346	蜻蜓的翅膀
+T52	Thing-Nominal 341 343	蜻蜓
+R4	Part-Whole Arg1:T52 Arg2:T51	
+T53	Person-Nominal 374 375	人
+T54	Thing-Nominal 380 385	蜻蜓的翅翼
+T55	Thing-Nominal 380 382	蜻蜓
+R5	Part-Whole Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 391 393	阳光
+T57	Thing-Nominal 396 398	薄纱
+T58	Thing-Nominal 401 403	脑袋
+T59	Thing-Nominal 408 413	凝固的水滴
+T60	Thing-Nominal 420 428	一些米粒状的黑点
+T61	Person-Nominal 428 431	，人们
+T62	Thing-Pronoun 442 443	它
+T63	Thing-Nominal 452 454	蜻蜓
+T64	Time-Implicit 455 461	飞翔和降落时
+T65	Person-Pronoun 486 487	我
+T66	Thing-Nominal 490 499	一种颜色鲜红的蜻蜓
+T67	Thing-Nominal 504 508	一团火苗
+T68	Thing-Nominal 513 518	流动的血液
+T69	Thing-Pronoun 519 521	它们
+*	Coreference T69 T66
+T70	Location-Nominal 524 527	草丛中
+T71	Location-Nominal 531 534	鲜花里
+T72	Location-Nominal 541 543	人前
+T73	Location-Nominal 547 550	深巷中
+T74	Person-Nominal 554 560	儿时的小伙伴
+T75	Thing-Nominal 563 565	扫帚
+T76	Thing-Pronoun 567 569	它们
+T77	Person-Pronoun 571 572	我
+T78	Location-Nominal 577 580	胡同口
+T79	Thing-Nominal 585 587	蜻蜓
+T80	Thing-Pronoun 593 595	它们
+*	Coreference T80 T79
+T81	Person-Nominal 597 605	一个个美丽的舞者
+T82	Thing-Nominal 607 613	那完美的形体
+T83	Thing-Nominal 615 620	轻盈的舞步
+T84	Thing-Nominal 623 631	一圈圈美丽的弧线
+T85	Location-Nominal 633 636	云朵下
+T86	Location-Nominal 638 641	阳光里
+T87	Thing-Pronoun 650 652	它们
+T88	Thing-Pronoun 656 658	它们
+T89	Thing-Nominal 660 662	蜜蜂
+T90	Thing-Nominal 668 669	蝉
+T91	Thing-Pronoun 674 675;676 677	它 们
+T92	Person-Nominal 691 693	人们
+T93	Person-Nominal 700 702	人们
+T94	Time-Implicit 711 715	那年秋天
+T95	Thing-Nominal 716 718	晚霞
+T96	Location-Nominal 718 720	满天
+T97	Location-Nominal 721 724	田园间
+T98	Person-Pronoun 747 748	我
+T99	Thing-Nominal 755 760	空中的云彩
+T100	Location-Nominal 755 757	空中
+R6	Located Arg1:T99 Arg2:T100	
+T101	Location-Nominal 764 767	头顶上
+T102	Thing-Nominal 771 775	一群蜻蜓
+R7	Located Arg1:T102 Arg2:T101	
+T103	Person-Pronoun 776 777	我
+T104	Thing-Nominal 778 779	头
+T105	Thing-Nominal 785 791	那轻盈的身影
+T106	Thing-Pronoun 792 794	它们
+T107	Person-Pronoun 809 810	我
+T108	Thing-Pronoun 816 818	它们

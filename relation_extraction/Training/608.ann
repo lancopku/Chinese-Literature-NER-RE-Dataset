@@ -1,0 +1,213 @@
+T1	Location-Name 0 3	鼓浪屿
+T2	Location-Nominal 4 12	我心仪已久的地方
+T3	Person-Pronoun 4 5	我
+T4	Location-Pronoun 18 19	它
+T5	Location-Pronoun 34 35	它
+T6	Thing-Nominal 36 45	千姿百态的华美建筑
+T7	Location-Pronoun 51 52	它
+*	Coreference T4 T1 T5 T7
+T8	Location-Pronoun 67 68	它
+T9	Location-Nominal 69 73	音乐之岛
+T10	Location-Nominal 75 79	钢琴之岛
+T11	Person-Pronoun 93 94	我
+T12	Person-Pronoun 102 103	我
+T13	Person-Nominal 105 111	五音不全的人
+T14	Person-Pronoun 123 124	我
+T15	Person-Pronoun 131 132	我
+T16	Location-Name 133 135;136 137	鼓浪 屿
+T17	Location-Name 185 188	鼓浪屿
+T18	Location-Name 206 209	鼓浪屿
+T19	Time-Explicit 225 229	19世纪
+T20	Location-Nominal 233 240	贫病羸弱的中国
+T21	Thing-Nominal 242 246	一块鱼肉
+T22	Person-Nominal 249 255	帝国主义列强
+T23	Thing-Nominal 257 263	血淋淋的砧板
+T24	Person-Nominal 272 274	列强
+T25	Thing-Nominal 274 276	铁蹄
+T26	Thing-Nominal 272 276	列强铁蹄
+T27	Person-Pronoun 281 283	他们
+T28	Person-Nominal 281 289	他们的文化侵略者
+T29	Person-Nominal 293 296	传教士
+T30	Person-Pronoun 301 303	他们
+*	Coreference T30 T29
+T31	Location-Name 308 310	中国
+T32	Person-Nominal 320 322	洋人
+T33	Location-Name 324 327	鼓浪屿
+T34	Location-Nominal 356 363	这个美丽的小岛
+*	Coreference T34 T33
+T35	Location-Name 380 383	鼓浪屿
+T36	Thing-Pronoun 396 397	它
+T37	Location-Name 401 404	鼓浪屿
+T38	Location-Name 418 421	鼓浪屿
+T39	Location-Name 443 446	鼓浪屿
+T40	Person-Pronoun 475 476	我
+T41	Thing-Nominal 485 490	迤逦的海岸
+T42	Thing-Nominal 493 498	叠翠的山峦
+T43	Thing-Nominal 502 507	跌宕的峰岩
+T44	Thing-Nominal 536 543	姹紫嫣红的花簇
+T45	Thing-Nominal 546 553	青翠欲滴的树丛
+T46	Thing-Nominal 556 561;562 564	依依低垂的 藤萝
+T47	Thing-Nominal 567 579	千姿百态、标新立异的别墅
+T48	Thing-Nominal 620 622	海浪
+T49	Person-Nominal 652 659	每一个倾听的人
+T50	Person-Pronoun 664 665	你
+T51	Thing-Nominal 666 676	一颗原本躁动不安的心
+R1	Part-Whole Arg1:T51 Arg2:T50	
+T52	Person-Pronoun 701 702	你
+T53	Location-Name 718 721	鼓浪屿
+T54	Location-Nominal 721 726	精巧的街道
+T55	Location-Nominal 727 732	清悠的小巷
+T56	Thing-Nominal 734 745	一块块铺路的石板或方砖
+T57	Thing-Nominal 763 771	钢琴上美丽的琴键
+T58	Thing-Nominal 763 765	钢琴
+T59	Thing-Nominal 766 771	美丽的琴键
+R2	Located Arg1:T59 Arg2:T58	
+T60	Person-Pronoun 774 775	你
+T61	Thing-Pronoun 812 813	它
+T62	Person-Pronoun 819 820	你
+T63	Person-Pronoun 845 846	你
+T64	Thing-Nominal 854 858	它的琴弦
+T65	Thing-Pronoun 864 865	它
+T66	Person-Pronoun 893 894	你
+T67	Location-Nominal 902 908	这美丽的小岛
+T68	Person-Pronoun 911 912	你
+T69	Location-Nominal 916 918	庭院
+T70	Person-Nominal 931 938	一位著名音乐家
+T71	Thing-Nominal 931 941	一位著名音乐家的府第
+T72	Person-Nominal 956 960;961 966	闻名中外 的音乐大家
+T73	Person-Name 967 970	周淑安
+T74	Person-Name 971 974	林俊卿
+T75	Person-Name 975 978	殷成宗
+T76	Person-Name 979 982	陈佐煌
+T77	Person-Name 983 986	许斐平
+T78	Person-Name 987 990	许斐星
+T79	Person-Name 991 994	李嘉璐
+T80	Person-Pronoun 996 998	他们
+T81	Thing-Nominal 999 1007	一颗颗璀灿的明星
+T82	Thing-Nominal 1009 1016	美丽岛屿的星空
+T83	Location-Name 1030 1033	鼓浪屿
+T84	Thing-Nominal 1035 1037	钢琴
+T85	Time-Explicit 1059 1064	2002年
+T86	Location-Name 1065 1068	鼓浪屿
+T87	Organization-Name 1070 1077	中国音乐家协会
+T88	Physical 1080 1082;1083 1087	“音 乐之岛”
+T90	Location-Name 1099 1102	鼓浪屿
+T89	Person-Pronoun 1094 1096	我们
+T91	Location-Nominal 1107 1110	音乐厅
+T92	Thing-Nominal 1124 1129	精美的建筑
+T93	Thing-Nominal 1134 1138	茂林修竹
+T94	Thing-Nominal 1139 1142	鲜花丛
+T95	Person-Nominal 1162 1165	音乐家
+T96	Person-Nominal 1166 1169	歌唱家
+T97	Person-Nominal 1170 1173	指挥家
+T99	Location-Name 1213 1216	鼓浪屿
+T100	Location-Nominal 1226 1241	风光如画的菽庄花园的“听涛轩”
+T101	Location-Nominal 1226 1235	风光如画的菽庄花园
+T102	Time-Explicit 1243 1250	2000年1月
+T103	Thing-Pronoun 1242 1243	它
+T104	Metric 1255 1261	450平方米
+T105	Location-Name 1271 1273	中国
+T106	Thing-Nominal 1273 1286	唯一、世界一流的钢琴博物馆
+T107	Location-Nominal 1289 1292	博物馆
+T108	Person-Nominal 1309 1316	澳大利亚籍华人
+T109	Person-Name 1316 1319	胡友义
+T110	Thing-Nominal 1340 1344	钢琴珍品
+T111	Time-Implicit 1349 1356	19世纪上半叶
+T112	Location-Name 1358 1360	美国
+T113	Thing-Nominal 1361 1369	“士坦威”牌钢琴
+T114	Location-Name 1370 1373	奥地利
+T115	Thing-Nominal 1373 1382	“博森多福”牌钢琴
+T116	Location-Name 1384 1386	德国
+T117	Thing-Nominal 1396 1400	皇家钢琴
+T118	Thing-Nominal 1402 1411	稀世名贵的镏金钢琴
+T119	Thing-Nominal 1413 1422	世界最早的四角钢琴
+T120	Thing-Nominal 1423 1432	最早最大的立式钢琴
+T121	Time-Implicit 1437 1442	一百多年前
+T122	Thing-Nominal 1443 1451	脚踏自动演奏钢琴
+T123	Thing-Nominal 1453 1461	八个脚踏的古钢琴
+T124	Thing-Nominal 1466 1471	钢琴博物馆
+T125	Thing-Nominal 1474 1476	钢琴
+T126	Thing-Pronoun 1482 1484	它们
+*	Coreference T126 T125
+T127	Location-Name 1488 1491	意大利
+T128	Location-Name 1492 1494	英国
+T129	Location-Name 1495 1497	法国
+T130	Location-Name 1498 1500	德国
+T131	Location-Name 1501 1503	美国
+T132	Location-Name 1504 1507	奥地利
+T133	Location-Name 1508 1512	澳大利亚
+T134	Location-Nominal 1530 1536	钢琴的主产国
+T135	Thing-Nominal 1530 1532	钢琴
+T136	Abstract 1542 1549	第二次世界大战
+T137	Thing-Nominal 1556 1561	留存的钢琴
+T138	Person-Name 1566 1569	胡友义
+T139	Thing-Nominal 1572 1573;1574 1578	收 藏的钢琴
+T140	Thing-Nominal 1583 1587	稀世珍品
+T141	Thing-Nominal 1600 1618	古色古香、精美典雅、造型各异的古钢琴
+T142	Person-Nominal 1627 1629	人们
+T143	Person-Name 1642 1645	胡友义
+T144	Person-Nominal 1652 1653	人
+T145	Person-Pronoun 1658 1659	他
+*	Coreference T145 T143 T149
+T146	Time-Explicit 1659 1664	1936年
+T147	Location-Name 1667 1670	鼓浪屿
+T148	Location-Name 1682 1686	澳大利亚
+T149	Person-Pronoun 1701 1702	他
+T150	Location-Name 1719 1722	鼓浪屿
+T151	Person-Pronoun 1724 1725	我
+T152	Person-Pronoun 1732 1733	我
+T153	Thing-Nominal 1733 1740	毕生收藏的钢琴
+T154	Person-Pronoun 1748 1749	我
+T155	Thing-Nominal 1752 1758	最珍贵的东西
+T156	Location-Nominal 1725 1730	永远的故乡
+*	Coreference T156 T150
+*	Coreference T155 T153
+*	Coreference T109 T108
+T157	Location-Name 1765 1768	鼓浪屿
+T158	Location-Nominal 1770 1775	钢琴博物馆
+T159	Location-Nominal 1783 1793	世界最大的风琴博物馆
+T160	Time-Explicit 1794 1804	2005年1月28日
+T161	Location-Nominal 1805 1813	鼓浪屿风琴博物馆
+T162	Person-Nominal 1816 1818	世人
+T163	Thing-Nominal 1839 1853	风琴博物馆的第一台大型管风琴
+T164	Thing-Name 1853 1859	“诺蔓比尔”
+*	Coreference T164 T163
+T165	Person-Nominal 1869 1871	市民
+T166	Person-Nominal 1872 1874	游客
+T167	Person-Nominal 1877 1884	150多名市民
+T168	Thing-Nominal 1891 1896	百年古风琴
+T169	Person-Nominal 1905 1918	来自澳大利亚的管风琴演奏家
+T170	Person-Nominal 1919 1923	鹭岛市民
+R3	Social Arg1:T170 Arg2:T169	
+T171	Person-Pronoun 1948 1950	我们
+T172	Person-Nominal 1952 1959	来自北国的游客
+T173	Person-Nominal 1960 1967	音乐之乡的人们
+T174	Location-Name 1976 1984	音符跳荡的鼓浪屿
+T175	Person-Nominal 1985 1987	人们
+T176	Person-Pronoun 2027 2028	我
+T177	Thing-Nominal 2036 2038	双臂
+R4	Part-Whole Arg1:T177 Arg2:T176	
+T178	Person-Pronoun 2073 2074	我
+T179	Person-Nominal 2076 2078	自己
+*	Coreference T179 T178
+T180	Time-Implicit 2101 2105	30多年
+T181	Abstract 2105 2114	波澜壮阔的改革开放
+T182	Person-Nominal 2134 2141	13亿中国人民
+T183	Person-Nominal 2143 2147	国家领导
+T184	Person-Nominal 2149 2153	庶民百姓
+T185	Person-Nominal 2154 2156;2157 2158	每个 人
+R5	Social Arg1:T172 Arg2:T173	
+T98	Thing-Nominal 1208 1221	闻名遐迩的鼓浪屿钢琴博物馆
+R6	Located Arg1:T98 Arg2:T100	
+*	Coreference T103 T98 T106
+R7	Part-Whole Arg1:T113 Arg2:T110	
+R8	Part-Whole Arg1:T115 Arg2:T110	
+R9	Part-Whole Arg1:T117 Arg2:T110	
+R10	Part-Whole Arg1:T118 Arg2:T110	
+R11	Part-Whole Arg1:T119 Arg2:T110	
+R12	Part-Whole Arg1:T120 Arg2:T110	
+R13	Near Arg1:T159 Arg2:T158	
+R14	Social Arg1:T165 Arg2:T166	
+R15	General-Special Arg1:T72 Arg2:T73	
+R16	General-Special Arg1:T72 Arg2:T74	
+*	Coreference T80 T72

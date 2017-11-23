@@ -1,0 +1,142 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 12 13	画
+T3	Thing-Nominal 15 17	山水
+T4	Person-Pronoun 21 22	我
+T5	Person-Pronoun 37 38	我
+T6	Thing-Nominal 41 43	火车
+T7	Location-Nominal 47 49	城市
+T8	Location-Nominal 52 54	城市
+T9	Location-Nominal 56 57	岸
+T10	Location-Nominal 59 60	岸
+T11	Thing-Nominal 62 64	花朵
+R1	Located Arg1:T11 Arg2:T9	
+R2	Located Arg1:T11 Arg2:T10	
+T12	Person-Pronoun 70 71	我
+T13	Thing-Pronoun 75 77	它们
+*	Coreference T13 T11
+T14	Person-Nominal 87 89	过客
+*	Coreference T12 T14
+T15	Person-Pronoun 94 95	我
+T16	Person-Nominal 143 145	游人
+T17	Person-Pronoun 171 172	我
+T18	Thing-Nominal 175 176	水
+T19	Person-Pronoun 190 191	我
+T20	Location-Nominal 196 198	遗迹
+T21	Location-Pronoun 201 202	它
+*	Coreference T21 T20
+T22	Thing-Nominal 209 211	手指
+T23	Person-Pronoun 215 216	我
+T24	Person-Pronoun 232 233	我
+T26	Person-Nominal 268 270	隐士
+T27	Location-Pronoun 271 273	这里
+T28	Person-Nominal 276 278	骚客
+T29	Location-Pronoun 279 280	此
+T25	Thing-Nominal 251 253	山水
+T30	Person-Pronoun 294 295	你
+T31	Person-Pronoun 297 298	我
+T32	Person-Pronoun 299 300	我
+T33	Person-Pronoun 302 303	你
+T34	Location-Nominal 309 311	荒野
+T35	Thing-Nominal 328 329	水
+T36	Thing-Nominal 336 337	我
+T37	Thing-Nominal 342 343	我
+T38	Person-Pronoun 383 384	我
+T39	Thing-Nominal 396 397	桃
+T40	Person-Pronoun 404 405	我
+T41	Location-Nominal 413 415	山村
+T42	Person-Pronoun 428 429	我
+T43	Person-Nominal 429 431	自己
+*	Coreference T42 T43
+T44	Person-Pronoun 448 449	我
+T45	Location-Nominal 479 481	山谷
+T46	Person-Pronoun 485 486	我
+T47	Location-Pronoun 490 491	它
+*	Coreference T47 T45
+T48	Person-Pronoun 504 505	我
+T49	Thing-Nominal 514 515	山
+T50	Location-Nominal 516 518	山间
+T51	Thing-Nominal 522 523;524 525	溪 流
+R3	Located Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 536 538	藤蔓
+R4	Located Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 547 549	鲫鱼
+T54	Thing-Nominal 551 552	花
+T55	Thing-Nominal 558 560	野花
+T56	Thing-Nominal 568 570	主干
+T57	Thing-Nominal 574 575	茎
+T58	Thing-Nominal 583 584;585 586	花 朵
+R5	Part-Whole Arg1:T57 Arg2:T58	
+R6	Part-Whole Arg1:T56 Arg2:T58	
+T59	Thing-Nominal 591 593	青藤
+T60	Thing-Nominal 594 596	泥巴
+R7	Located Arg1:T59 Arg2:T60	
+T61	Location-Nominal 602 605	灌木丛
+T62	Thing-Nominal 607 609	蔷薇
+R8	Located Arg1:T62 Arg2:T61	
+T63	Person-Pronoun 610 611	我
+T64	Thing-Nominal 628 630	蝴蝶
+T65	Thing-Nominal 633 636	花儿们
+T66	Thing-Pronoun 637 639	它们
+*	Coreference T66 T65
+T67	Thing-Nominal 643 644	刺
+R9	Part-Whole Arg1:T67 Arg2:T65	
+T68	Thing-Nominal 647 651	我的小腿
+T69	Person-Pronoun 647 648	我
+R10	Part-Whole Arg1:T68 Arg2:T69	
+T70	Thing-Nominal 664 665	血
+R11	Part-Whole Arg1:T70 Arg2:T69	
+T71	Thing-Nominal 666 668	藤蔓
+T72	Person-Pronoun 681 682	我
+T73	Thing-Nominal 687 688	山
+T74	Thing-Nominal 689 690	水
+T75	Thing-Nominal 691 692	花
+T76	Thing-Nominal 693 694	刺
+R12	Part-Whole Arg1:T76 Arg2:T75	
+T77	Thing-Nominal 704 708	丛林动物
+T78	Thing-Nominal 713 715	道路
+T79	Person-Pronoun 716 717	我
+T80	Thing-Nominal 721 722	山
+T81	Person-Pronoun 727 728	我
+T82	Location-Nominal 733 735	山下
+T83	Thing-Nominal 748 750	湖水
+T84	Location-Pronoun 756 758	那里
+T85	Thing-Nominal 763 765	眼泪
+T86	Person-Pronoun 772 773	我
+T87	Thing-Pronoun 781 782	它
+*	Coreference T87 T83
+T88	Person-Name 786 788	陶潜
+T89	Thing-Nominal 790 791	菊
+T90	Thing-Nominal 792 793	篱
+R13	Located Arg1:T89 Arg2:T90	
+T91	Thing-Nominal 798 800	南山
+T92	Thing-Nominal 804 806	菊花
+T93	Thing-Nominal 821 823	南山
+T94	Person-Pronoun 877 878	我
+T95	Thing-Nominal 891 892	山
+T96	Thing-Nominal 894 895	水
+T97	Thing-Nominal 897 899	大地
+T98	Thing-Pronoun 917 918	它
+T99	Thing-Nominal 922 923;924 925	沧 海
+T100	Thing-Nominal 926 927	粟
+R14	Located Arg1:T100 Arg2:T99	
+T101	Thing-Pronoun 938 939	它
+T102	Thing-Pronoun 1004 1005	它
+T103	Thing-Nominal 1025 1028	弥勒佛
+T104	Thing-Nominal 1035 1036	花
+T105	Person-Pronoun 1052 1053	我
+T106	Thing-Pronoun 1054 1055	它
+T107	Thing-Pronoun 1077 1078	它
+T108	Person-Pronoun 1093 1094	我
+T109	Thing-Pronoun 1104 1105	它
+T110	Person-Nominal 1108 1111	武陵人
+T111	Location-Name 1115 1118	桃花源
+T112	Thing-Nominal 1124 1125	云
+T113	Person-Name 1139 1141	刘郎
+T114	Thing-Nominal 1150 1152	桃花
+T115	Thing-Nominal 1155 1157	春风
+T116	Thing-Pronoun 1159 1160	它
+T117	Thing-Pronoun 1168 1169	它
+T118	Thing-Nominal 1198 1200	山川
+T119	Thing-Nominal 1200 1202	草木
+T120	Person-Nominal 1219 1221	自己
+T121	Time-Implicit 1190 1192	那日

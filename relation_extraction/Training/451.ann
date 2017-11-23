@@ -1,0 +1,524 @@
+T1	Person-Pronoun 3 4	我
+T2	Location-Name 10 13	军马埸
+T3	Location-Nominal 4 9	出生的地方
+T4	Location-Name 15 22	总后勤部在东北
+T5	Thing-Nominal 23 30	一个准军事基地
+R1	Located Arg1:T5 Arg2:T4	
+T6	Organization-Nominal 34 36	部队
+T7	Thing-Nominal 37 43	军马和骡子,
+T8	Time-Implicit 44 49	我们记事时
+T9	Person-Pronoun 44 46	我们
+T10	Time-Implicit 50 52	每年
+T11	Location-Name 53 55	朝鲜
+T12	Thing-Nominal 56 58	骡子
+T13	Person-Nominal 62 64	军工
+T14	Thing-Nominal 78 80	你家
+T15	Thing-Nominal 88 90	照片
+T16	Location-Name 85 87	朝鲜
+T17	Person-Pronoun 100 101	你
+T18	Person-Pronoun 110 111	你
+T19	Location-Name 112 114	朝鲜
+T20	Thing-Nominal 115 117	骡子
+T21	Time-Explicit 128 137	1979年中越战争
+T22	Location-Name 139 141	云南
+T23	Thing-Nominal 145 149	一批骡子
+T24	Location-Name 151 154	军马埸
+T25	Time-Implicit 162 171	童年记忆的每个时期
+T26	Person-Pronoun 161 162	我
+T27	Person-Nominal 174 179	两个小伙伴
+T28	Person-Pronoun 188 189	我
+T29	Person-Nominal 193 201	任何某一个小伙伴
+T30	Person-Nominal 207 210	三个人
+T31	Person-Nominal 216 218	孩子
+T32	Location-Nominal 214 216	我家
+T33	Person-Nominal 220 223	一个姐
+T34	Person-Nominal 223 226	三个妹
+T35	Time-Implicit 227 230	上学前
+T36	Time-Implicit 235 237	天天
+T37	Person-Nominal 239 241	姐姐
+T38	Person-Nominal 247 262	一群后来都成为我同学的丫头片子
+T39	Person-Pronoun 263 265	她们
+*	Coreference T39 T38
+T40	Person-Nominal 280 283	男孩子
+T41	Person-Nominal 311 313	姐姐
+T42	Person-Nominal 315 317	妹妹
+R2	Family Arg1:T42 Arg2:T41	
+T43	Location-Nominal 318 320	屋里
+T44	Person-Pronoun 322 323	我
+T45	Location-Nominal 324 326	外面
+T46	Thing-Nominal 331 333	粮本
+T47	Person-Pronoun 344 345	我
+T48	Person-Nominal 351 353	姐姐
+T49	Person-Nominal 355 357	爸爸
+R3	Family Arg1:T49 Arg2:T48	
+T50	Person-Pronoun 362 363	我
+T51	Person-Nominal 368 376	我的两个童年好友
+T52	Person-Nominal 377 379	他俩
+*	Coreference T52 T51
+T53	Person-Nominal 380 387	我最早的好朋友
+T54	Person-Name 391 393	郝彪
+T55	Person-Name 397 400	张玉兵
+T56	Person-Pronoun 403 404	我
+T57	Metric 405 407	一岁
+T58	Person-Pronoun 408 409	我
+T59	Person-Nominal 413 415	姐姐
+T60	Metric 417 419	一年
+T61	Metric 419 421	七岁
+T62	Person-Name 439 441	郝彪
+T63	Person-Nominal 442 445	蒙古人
+T64	Thing-Nominal 455 457	衣服
+T65	Thing-Nominal 450 451	脸
+R4	Part-Whole Arg1:T65 Arg2:T62	
+T66	Thing-Nominal 464 466	他家
+T67	Person-Pronoun 464 465	他
+*	Coreference T67 T62
+T68	Thing-Nominal 469 472	别人家
+T69	Thing-Nominal 484 487;488 489	排骨、 肉
+T70	Thing-Nominal 493 496	别人家
+T71	Person-Nominal 502 504	他妈
+T72	Person-Pronoun 502 503	他
+T73	Person-Nominal 509 511	一人
+T74	Thing-Nominal 511 515	一根排骨
+T75	Person-Nominal 516 518	一人
+T76	Thing-Nominal 518 521	一块肉
+T77	Person-Nominal 524 526	他爸
+T78	Person-Pronoun 524 525	他
+T79	Thing-Nominal 526 529	一碗酒
+T80	Person-Name 533 536	张玉兵
+T81	Person-Nominal 533 538	张玉兵他爸
+T82	Person-Pronoun 536 537	他
+*	Coreference T82 T80
+T83	Person-Nominal 540 543	小官僚
+T84	Person-Nominal 554 558	一小白脸
+T85	Person-Pronoun 559 560	我
+T86	Person-Nominal 561 567	南方人的后代
+T87	Person-Nominal 561 564	南方人
+T88	Thing-Nominal 573 577	张玉兵家
+T89	Location-Nominal 579 584	埸部最南头
+R5	Located Arg1:T88 Arg2:T89	
+T90	Person-Name 573 576	张玉兵
+T91	Thing-Nominal 585 587	房子
+T92	Person-Pronoun 594 596	我们
+T93	Location-Nominal 596 603	主要的活动基地
+T94	Person-Pronoun 604 605	我
+T95	Thing-Nominal 612 614	糕点
+T96	Location-Pronoun 617 619	这儿
+T97	Person-Pronoun 626 628	自己
+*	Coreference T96 T93
+T98	Time-Implicit 639 641	那时
+T99	Person-Pronoun 648 649	我
+T100	Person-Name 656 659	张玉兵
+T101	Person-Nominal 661 663	爷爷
+R6	Family Arg1:T101 Arg2:T100	
+T102	Person-Pronoun 664 666	自己
+*	Coreference T102 T101
+T103	Location-Nominal 667 669	东屋
+T104	Location-Nominal 671 674	房梁上
+T105	Thing-Nominal 675 678	一小筐
+R7	Located Arg1:T105 Arg2:T104	
+T106	Person-Pronoun 682 683	我
+T107	Person-Name 689 691	郝彪
+T108	Person-Nominal 693 700	成吉思汗的后裔
+T109	Person-Name 693 697	成吉思汗
+T110	Thing-Nominal 705 706	弓
+T111	Thing-Nominal 707 709	大雕
+T112	Thing-Nominal 716 718	豺狼
+T113	Thing-Nominal 728 730	夕阳
+T114	Person-Pronoun 737 738	他
+*	Coreference T114 T107
+T115	Person-Name 743 746	张玉兵
+T116	Person-Nominal 747 749	他爷
+T117	Person-Pronoun 747 748	他
+*	Coreference T117 T115
+T118	Person-Nominal 751 757	隔壁老火太太
+T119	Location-Nominal 766 768	东屋
+T120	Location-Nominal 770 773	凳子上
+T121	Thing-Nominal 774 776	小筐
+T122	Location-Nominal 781 783	里面
+T123	Thing-Nominal 785 792	传说中的长白糕
+R8	Located Arg1:T123 Arg2:T122	
+T124	Person-Nominal 799 800	人
+T125	Time-Implicit 802 804	那时
+T126	Person-Nominal 817 821	我们三人
+T127	Person-Pronoun 817 819	我们
+T128	Time-Implicit 847 849	那时
+T129	Person-Pronoun 870 872	自己
+T130	Thing-Nominal 880 883	长白糕
+T131	Thing-Nominal 889 893	张玉兵家
+T132	Location-Nominal 889 895	张玉兵家南面
+T133	Thing-Nominal 896 901	一个大水坑
+R9	Located Arg1:T133 Arg2:T132	
+T134	Time-Implicit 903 905	当年
+T135	Time-Implicit 905 908	建埸时
+T136	Thing-Nominal 909 910	土
+T137	Time-Implicit 919 921	夏天
+T138	Location-Pronoun 922 924	这里
+*	Coreference T138 T132
+T139	Thing-Nominal 927 933	男孩子的天堂
+T140	Person-Nominal 927 930	男孩子
+T141	Thing-Nominal 938 940	夹子
+T142	Thing-Nominal 941 942	雀
+T143	Time-Implicit 962 965	礼拜天
+T144	Thing-Nominal 972 974	地方
+T145	Thing-Nominal 944 946	地盘
+T146	Thing-Nominal 977 979	夹子
+T147	Thing-Nominal 989 991	夹子
+T148	Person-Nominal 993 994	人
+T149	Thing-Nominal 995 996	雀
+T150	Thing-Nominal 1000 1004	张玉兵家
+T151	Person-Nominal 1011 1014	他爷爷
+T152	Person-Pronoun 1011 1012	他
+T153	Person-Name 1000 1003	张玉兵
+*	Coreference T152 T153
+T154	Time-Implicit 1018 1023	每个礼拜六
+T155	Person-Pronoun 1024 1025	我
+T156	Person-Name 1026 1028	郝彪
+T157	Location-Nominal 1030 1032	他家
+T158	Person-Pronoun 1030 1031	他
+T159	Person-Nominal 1039 1042	他爷爷
+T160	Person-Pronoun 1039 1040	他
+T161	Person-Pronoun 1044 1046	我们
+T162	Time-Implicit 1050 1054	每个礼拜
+T163	Person-Pronoun 1055 1057	我们
+T164	Thing-Nominal 1061 1063	夹子
+T165	Thing-Nominal 1064 1066	战果
+T166	Time-Implicit 1071 1074	高峰时
+T167	Metric 1077 1082	100多盘
+T168	Thing-Nominal 1075 1077	夹子
+T169	Time-Implicit 1083 1086	最多时
+T170	Thing-Nominal 1090 1096	200多个雀
+T171	Metric 1090 1095	200多个
+T172	Time-Implicit 1087 1089	一天
+T173	Person-Nominal 1098 1103	张玉兵他妈
+T174	Person-Name 1098 1101	张玉兵
+T175	Person-Pronoun 1101 1102	他
+*	Coreference T175 T174
+T176	Thing-Nominal 1104 1108	雀胸脯肉
+T177	Person-Pronoun 1109 1111	我们
+T178	Thing-Nominal 1112 1114	饺子
+T179	Time-Implicit 1115 1117	那时
+T180	Person-Nominal 1117 1120	我妈妈
+T181	Person-Pronoun 1117 1118	我
+R10	Family Arg1:T180 Arg2:T181	
+T182	Person-Pronoun 1124 1125	我
+T183	Thing-Nominal 1126 1127	雀
+T184	Person-Pronoun 1128 1129	我
+T185	Thing-Nominal 1130 1131	雀
+T186	Location-Nominal 1135 1136	家
+T187	Person-Nominal 1142 1145	我妈妈
+T188	Person-Pronoun 1142 1143	我
+T189	Person-Pronoun 1148 1149	我
+T190	Person-Nominal 1160 1164	我们三人
+T191	Person-Nominal 1178 1183	我家小兔子
+T192	Location-Nominal 1178 1180	我家
+T193	Location-Nominal 1188 1191	郝彪家
+T194	Thing-Nominal 1191 1193	小猪
+R11	Located Arg1:T194 Arg2:T193	
+R12	Ownership Arg1:T191 Arg2:T192	
+T195	Thing-Nominal 1204 1208	各家的炕
+T196	Thing-Nominal 1234 1237	耗子药
+T197	Time-Implicit 1240 1244	二年级时
+T198	Time-Implicit 1247 1251	一天下午
+T199	Person-Nominal 1254 1259	三个火枪手
+T200	Location-Nominal 1268 1276	张玉兵他妈的单位
+T201	Person-Nominal 1268 1273	张玉兵他妈
+T202	Location-Name 1278 1280;1281 1284	埸部 卫生所
+T203	Person-Nominal 1286 1288	他妈
+T204	Person-Pronoun 1286 1287	他
+T205	Person-Pronoun 1271 1272	他
+T206	Person-Name 1268 1271	张玉兵
+*	Coreference T205 T206
+T207	Thing-Nominal 1289 1293	几个小瓶
+T208	Thing-Nominal 1297 1301	各种彩纸
+T209	Person-Nominal 1302 1305	女同学
+T210	Person-Nominal 1315 1320	张玉兵他妈
+T211	Location-Nominal 1329 1334	一个木槽里
+T212	Location-Nominal 1326 1328	走廊
+T213	Thing-Nominal 1335 1340	很多葵花子
+R13	Located Arg1:T213 Arg2:T211	
+T214	Person-Pronoun 1342 1344	我们
+T215	Thing-Nominal 1345 1347	毛嗑
+T216	Person-Nominal 1355 1356	人
+T217	Location-Nominal 1352 1354	四处
+*	Coreference T215 T213
+T218	Person-Pronoun 1357 1359	我们
+T219	Person-Nominal 1367 1369	一人
+T220	Person-Nominal 1377 1383	好孩子坏孩子
+T221	Location-Nominal 1398 1400	我家
+T222	Thing-Nominal 1406 1407	雷
+T223	Person-Nominal 1411 1416	郝彪他爸爸
+T224	Person-Nominal 1417 1420	我爷爷
+T225	Person-Name 1411 1413	郝彪
+T226	Person-Pronoun 1413 1414	他
+*	Coreference T226 T225
+T227	Person-Pronoun 1417 1418	我
+R14	Family Arg1:T224 Arg2:T227	
+T228	Person-Pronoun 1423 1424	我
+T229	Person-Nominal 1425 1427	爷爷
+T230	Location-Nominal 1428 1430	里屋
+T231	Person-Nominal 1432 1434	大爷
+T232	Person-Nominal 1435 1438	胖小子
+T233	Thing-Nominal 1439 1442	耗子药
+T234	Person-Nominal 1444 1446	爷爷
+T235	Thing-Nominal 1458 1460	老鼠
+T236	Person-Nominal 1461 1463	爷爷
+T237	Thing-Nominal 1478 1480	毛嗑
+T238	Thing-Nominal 1482 1485	耗子药
+T239	Time-Implicit 1488 1490	那时
+T240	Thing-Nominal 1503 1506	药耗子
+T241	Person-Nominal 1508 1512	我们三个
+T242	Person-Pronoun 1508 1510	我们
+T243	Person-Pronoun 1522 1523	我
+T244	Time-Implicit 1523 1524;1525 1527	小 时侯
+T245	Thing-Nominal 1528 1530	瓜子
+T246	Thing-Nominal 1531 1532	手
+T247	Thing-Nominal 1533 1534	皮
+T248	Person-Nominal 1544 1548	那两家伙
+T249	Location-Nominal 1558 1561	卫生所
+T250	Time-Implicit 1567 1573	小学三年级时
+T251	Person-Nominal 1574 1578	这两小子
+T252	Person-Name 1583 1585	郝彪
+T253	Person-Nominal 1586 1588	他爸
+T254	Person-Pronoun 1586 1587	他
+*	Coreference T254 T252
+T255	Location-Name 1598 1600	内蒙
+T256	Person-Nominal 1602 1607	张玉兵他爸
+T257	Person-Name 1602 1605	张玉兵
+T258	Location-Name 1609 1613	南军马埸
+T259	Time-Implicit 1617 1621	四年级时
+T260	Person-Pronoun 1622 1623	我
+T261	Organization-Nominal 1624 1630	我们子弟学校
+T262	Person-Nominal 1630 1640	唯一能收到信的小学生
+*	Coreference T262 T260
+T263	Person-Pronoun 1645 1646	我
+T264	Time-Implicit 1658 1660	童年
+T265	Person-Nominal 1669 1672	女同学
+T266	Person-Name 1673 1675	民子
+T267	Person-Name 1676 1678	小兰
+T268	Person-Pronoun 1679 1681	我们
+T269	Organization-Nominal 1683 1688	学校宣传队
+T270	Location-Nominal 1691 1699	七十年代的校园里
+T271	Person-Nominal 1705 1706	人
+T272	Time-Implicit 1711 1713	当时
+T273	Person-Nominal 1723 1725	父母
+T274	Person-Nominal 1731 1736	学校的学生
+T275	Person-Nominal 1743 1751	场部机关干部子女
+T276	Person-Pronoun 1754 1756	我们
+T277	Person-Pronoun 1757 1759	他们
+*	Coreference T277 T275 T280
+T278	Person-Pronoun 1763 1765	我们
+T279	Person-Nominal 1770 1774	农工子弟
+T280	Person-Pronoun 1777 1779	他们
+T281	Person-Pronoun 1780 1782	我们
+T282	Person-Nominal 1786 1789	班干部
+T283	Thing-Nominal 1793 1795	砖房
+T284	Thing-Nominal 1797 1799	土房
+T285	Thing-Nominal 1782 1784	土房
+T286	Person-Nominal 1803 1807	劳动委员
+T287	Person-Nominal 1808 1812	体育委员
+T288	Person-Pronoun 1817 1818	我
+T289	Person-Name 1819 1821	小兰
+T290	Thing-Nominal 1821 1823	土房
+T291	Organization-Nominal 1826 1829	宣传队
+T292	Thing-Nominal 1833 1835	砖房
+T293	Person-Nominal 1840 1841	人
+T294	Person-Name 1843 1845	民子
+T295	Person-Nominal 1849 1852	狐狸精
+T296	Person-Pronoun 1856 1857	她
+*	Coreference T296 T294
+T297	Thing-Nominal 1859 1861	砖房
+T298	Thing-Nominal 1856 1858	她家
+T299	Thing-Nominal 1862 1865	她奶家
+T300	Thing-Nominal 1866 1868	土房
+T301	Person-Pronoun 1869 1870	她
+T302	Thing-Nominal 1877 1881	砖房土房
+T303	Person-Nominal 1887 1888	人
+T304	Location-Nominal 1871 1873	全校
+T305	Person-Pronoun 1889 1890	她
+T306	Person-Nominal 1892 1897	全班的同学
+T307	Person-Pronoun 1910 1911	她
+T308	Person-Pronoun 1912 1914	我们
+T309	Person-Pronoun 1926 1927	她
+T310	Person-Nominal 1933 1937	这些同学
+T311	Person-Pronoun 1939 1940	她
+T312	Person-Nominal 1945 1947	同学
+T313	Thing-Nominal 1942 1944	砖房
+T314	Location-Nominal 1948 1951	她奶家
+T315	Person-Nominal 1957 1959	她爸
+T316	Thing-Nominal 1962 1965	老母狗
+T317	Thing-Nominal 1966 1971	它的崽子们
+T318	Person-Nominal 1974 1979	土房的同学
+T319	Location-Nominal 1981 1983	她家
+T320	Thing-Nominal 1987 1989	糖纸
+T321	Person-Pronoun 1984 1985	她
+T322	Person-Nominal 1990 1993	他爸爸
+T323	Location-Nominal 1994 1996	城里
+T324	Person-Pronoun 1990 1991	他
+R15	Family Arg1:T322 Arg2:T324	
+T325	Thing-Nominal 2000 2002	冰糖
+T326	Person-Nominal 2004 2010	淘气的男同学
+T327	Person-Pronoun 2010 2011	她
+T328	Thing-Nominal 2022 2029	五颜六色的弹子
+T329	Person-Pronoun 2017 2018	她
+T330	Person-Pronoun 2031 2033	他们
+*	Coreference T330 T326
+T331	Person-Nominal 2034 2037	她老叔
+T332	Person-Pronoun 2034 2035	她
+T333	Location-Nominal 2038 2043	城里玻璃厂
+T334	Thing-Nominal 2046 2051	小兰的嗓子
+T335	Person-Name 2046 2048	小兰
+R16	Part-Whole Arg1:T334 Arg2:T335	
+T336	Person-Pronoun 2063 2064	她
+*	Coreference T336 T335
+T337	Organization-Nominal 2065 2070	学校宣传队
+T338	Person-Nominal 2071 2073;2074 2075	她姐 姐
+T339	Person-Pronoun 2071 2072	她
+R17	Family Arg1:T338 Arg2:T339	
+T340	Person-Nominal 2079 2082	她姐姐
+T341	Organization-Nominal 2083 2087	埸宣传队
+T342	Person-Pronoun 2079 2080	她
+R18	Family Arg1:T340 Arg2:T342	
+T343	Person-Pronoun 2089 2090	她
+T344	Person-Pronoun 2091 2092	我
+T345	Person-Name 2095 2097	民子
+T346	Person-Pronoun 2098 2100	我俩
+T347	Person-Pronoun 2103 2104	我
+T348	Time-Implicit 2105 2108	小学时
+T349	Person-Pronoun 2118 2120	她俩
+T350	Person-Name 2123 2125	小兰
+T351	Person-Pronoun 2129 2130	我
+T352	Person-Pronoun 2133 2134	我
+T353	Person-Nominal 2155 2157	老师
+T354	Person-Name 2166 2168	民子
+T355	Location-Nominal 2170 2172	后桌
+T356	Person-Pronoun 2173 2174	我
+T357	Thing-Nominal 2180 2182	脑瓜
+T358	Thing-Nominal 2185 2187	头发
+T359	Location-Nominal 2192 2195	后背上
+T360	Thing-Nominal 2198 2200	纸条
+T361	Thing-Nominal 2203 2206	小动物
+T362	Person-Nominal 2220 2222	我妈
+T363	Person-Pronoun 2223 2224	我
+R19	Family Arg1:T363 Arg2:T362	
+T364	Thing-Nominal 2227 2230	白衣服
+T365	Thing-Nominal 2233 2236	钢笔水
+T366	Person-Nominal 2237 2241	我们三个
+T367	Thing-Nominal 2246 2248	作业
+T368	Thing-Nominal 2266 2270	我的作业
+T369	Person-Pronoun 2266 2267	我
+T370	Person-Nominal 2282 2284	妈妈
+T371	Person-Nominal 2286 2288	姐姐
+T372	Person-Pronoun 2289 2290	我
+T373	Person-Nominal 2298 2301	我爷爷
+T374	Person-Pronoun 2298 2299	我
+T375	Person-Nominal 2302 2307	前清的秀才
+R20	Family Arg1:T373 Arg2:T374	
+T376	Thing-Nominal 2312 2314	字体
+T377	Person-Nominal 2321 2324	老爷子
+T378	Person-Nominal 2326 2329	班主任
+T379	Person-Pronoun 2335 2336	我
+T380	Person-Nominal 2340 2342	女性
+T381	Person-Nominal 2352 2356	我们三人
+T382	Time-Implicit 2361 2363	那天
+T383	Person-Name 2366 2368	民子
+T384	Person-Pronoun 2370 2371	我
+T385	Thing-Nominal 2374 2378;2379 2382	一个绿豆 半弹子
+T386	Person-Pronoun 2383 2384	我
+T387	Person-Name 2394 2396	民子
+T388	Person-Nominal 2400 2402	老师
+T389	Thing-Nominal 2404 2410	好几个粉笔头
+T390	Person-Name 2416 2418	小兰
+T391	Person-Pronoun 2420 2421	我
+T392	Person-Pronoun 2427 2428	她
+*	Coreference T392 T390
+T393	Person-Nominal 2429 2434	这个小妖精
+T394	Person-Nominal 2435 2438	我妈妈
+T395	Person-Pronoun 2435 2436	我
+T396	Person-Pronoun 2440 2441	她
+T397	Thing-Nominal 2447 2449	铅笔
+T398	Location-Nominal 2451 2454	我脸上
+T399	Person-Pronoun 2451 2452	我
+T400	Thing-Nominal 2464 2465	血
+T401	Thing-Nominal 2466 2470	这个黑点
+T402	Location-Nominal 2474 2476	脸上
+R21	Located Arg1:T401 Arg2:T402	
+T403	Person-Nominal 2477 2479	我妈
+T404	Person-Nominal 2482 2486	小兰她妈
+T405	Person-Name 2482 2484	小兰
+T406	Person-Pronoun 2484 2485	她
+*	Coreference T406 T405
+T407	Person-Pronoun 2491 2492	我
+T408	Person-Nominal 2498 2500	媳妇
+T409	Person-Name 2505 2507	小兰
+T410	Person-Nominal 2514 2519	这两个魔女
+T411	Person-Pronoun 2510 2511	我
+T412	Person-Nominal 2538 2540	美女
+T413	Person-Nominal 2553 2555	女人
+T414	Person-Pronoun 2560 2561	她
+T415	Person-Pronoun 2569 2570	我
+T416	Person-Pronoun 2574 2575	她
+T417	Person-Pronoun 2585 2586	我
+T418	Person-Pronoun 2589 2590	我
+T419	Person-Pronoun 2599 2601	她俩
+T420	Person-Pronoun 2604 2605	我
+T421	Time-Implicit 2613 2617	四年级时
+T422	Organization-Nominal 2618 2622;2623 2624	总后歌舞 团
+T423	Abstract 2635 2642	《红色娘子军》
+T424	Person-Pronoun 2644 2646	我们
+T425	Time-Implicit 2657 2659	一天
+T426	Person-Nominal 2662 2666	我们三个
+T427	Person-Name 2672 2674	民子
+T428	Person-Name 2675 2677	小兰
+T429	Person-Name 2680 2683	吴清华
+T430	Person-Nominal 2686 2687	人
+T431	Person-Name 2690 2692	小庞
+T432	Person-Pronoun 2693 2694	我
+T433	Person-Nominal 2700 2702	她俩
+T434	Person-Nominal 2702 2704	一人
+T435	Person-Name 2707 2710	吴清华
+T436	Person-Pronoun 2711 2712	我
+T437	Person-Name 2716 2719	洪常青
+T438	Person-Pronoun 2735 2736	我
+T439	Person-Name 2747 2749	常青
+T440	Person-Name 2757 2762	两个洪常青
+T441	Person-Pronoun 2766 2767	我
+T442	Person-Name 2769 2774	路过的小胖
+T443	Location-Nominal 2775 2776	家
+T444	Thing-Nominal 2778 2781	柴禾绳
+T445	Person-Name 2782 2787	狗腿子老三
+T446	Person-Pronoun 2788 2789	我
+T447	Person-Name 2790 2793	南霸天
+T448	Person-Name 2795 2797	小兰
+T449	Person-Name 2798 2800	民子
+T450	Location-Nominal 2802 2805;2806 2808	电线杆 子上
+T451	Location-Nominal 2809 2811	脚下
+T452	Thing-Nominal 2812 2816	几块砖头
+R22	Located Arg1:T452 Arg2:T451	
+T453	Location-Nominal 2818 2821	草垛上
+T454	Thing-Nominal 2822 2826	几把羊草
+T455	Person-Nominal 2827 2829	她俩
+R23	Located Arg1:T454 Arg2:T453	
+T456	Person-Nominal 2844 2846	坏蛋
+T457	Person-Nominal 2855 2857	她俩
+T458	Person-Name 2867 2869	小胖
+T459	Person-Pronoun 2874 2875	我
+T460	Person-Pronoun 2880 2881	我
+T461	Person-Nominal 2896 2899	我妈妈
+T462	Person-Pronoun 2896 2897	我
+R24	Family Arg1:T461 Arg2:T462	
+T463	Person-Nominal 2901 2903	她俩
+T464	Person-Nominal 2903 2905	一人
+T465	Thing-Nominal 2905 2908	一双鞋
+T466	Thing-Nominal 2909 2913	一条裤子
+T467	Person-Pronoun 2919 2920	我
+T468	Time-Implicit 2921 2925	多年以后
+T469	Person-Pronoun 2925 2926	我
+T470	Person-Nominal 2928 2930	妈妈
+T471	Person-Pronoun 2934 2935	我
+R25	Family Arg1:T471 Arg2:T470	
+T472	Person-Nominal 2957 2960	男子汉
+T473	Person-Pronoun 2967 2968	你
+T474	Person-Pronoun 2946 2947	你
+T475	Person-Nominal 2936 2938	妈妈
+T476	Person-Pronoun 2939 2940	我
+R26	Family Arg1:T476 Arg2:T475	

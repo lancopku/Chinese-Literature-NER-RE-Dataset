@@ -1,0 +1,215 @@
+T1	Person-Nominal 3 7	中华民族
+T2	Thing-Nominal 20 22	事业
+T3	Person-Nominal 25 33	一代又一代中国人
+T4	Thing-Nominal 43 44	国
+T5	Thing-Nominal 48 49	邦
+T6	Abstract 55 59	复兴之路
+T7	Abstract 3 11	中华民族伟大复兴
+T8	Person-Nominal 65 69	中华民族
+T9	Time-Implicit 76 80	百余年来
+T10	Metric 76 79	百余年
+T11	Abstract 96 104	中华民族伟大复兴
+T12	Person-Nominal 81 87	无数仁人志士
+T13	Metric 81 83	无数
+T14	Metric 110 112	多少
+T15	Metric 129 131	多少
+T16	Organization-Name 156 161	中国共产党
+T17	Person-Nominal 165 169	中国人民
+T18	Abstract 172 179	新民主主义革命
+T19	Abstract 181 186	会主义革命
+*	Coreference T17 T3 T1 T35
+T20	Abstract 193 197;198 204	中国特色 社会主义道路
+T21	Thing-Nominal 213 215	国家
+T22	Person-Nominal 216 218	民族
+T23	Organization-Name 225 227	中国
+T24	Thing-Nominal 234 238	体育事业
+T25	Time-Explicit 240 245	1984年
+T26	Organization-Name 245 251	洛杉矶奥运会
+T27	Thing-Nominal 253 255	金牌
+T28	Time-Explicit 263 268	2008年
+T29	Organization-Name 268 273	北京奥运会
+T30	Metric 274 277	52块
+T31	Thing-Nominal 277 279	金牌
+T32	Organization-Name 284 285;286 287	美 国
+T33	Organization-Name 293 295	中国
+T34	Thing-Nominal 299 303	奥运金牌
+*	Coreference T34 T31
+T35	Person-Nominal 311 314	中国人
+T36	Metric 316 320	30余年
+T37	Organization-Name 344 346	中国
+T38	Thing-Nominal 353 359	航空航天事业
+T39	Thing-Name 361 373	第一颗人造卫星“东方红”
+T40	Thing-Name 374 384	北斗导航卫星定位系统
+T41	Location-Name 386 388	亚太
+T42	Location-Nominal 396 398	全球
+T43	Thing-Name 400 404	“神五”
+T44	Thing-Name 400 404;405 435	“神五” 、“神六”、“神七”、“神八”、“神九”“神十”载人航天飞船
+T45	Thing-Name 436 460	“嫦娥1号”、“嫦娥2号”、“嫦娥3号”探月卫星
+T46	Thing-Nominal 429 435	载人航天飞船
+T47	Thing-Nominal 456 460	探月卫星
+R1	General-Special Arg1:T46 Arg2:T44	
+R2	General-Special Arg1:T47 Arg2:T45	
+T48	Thing-Nominal 376 384	导航卫星定位系统
+R3	General-Special Arg1:T48 Arg2:T40	
+T49	Thing-Nominal 364 368	人造卫星
+R4	General-Special Arg1:T49 Arg2:T39	
+T50	Thing-Name 467 471	“神八”
+T51	Thing-Name 472 476	“神九”
+T52	Thing-Name 477 481	“神十”
+T54	Thing-Name 484 490	“天宫一号”
+R5	General-Special Arg1:T46 Arg2:T52	
+R6	General-Special Arg1:T46 Arg2:T51	
+R7	General-Special Arg1:T46 Arg2:T50	
+R8	General-Special Arg1:T47 Arg2:T54	
+T53	Location-Nominal 497 499	我国
+*	Coreference T53 T37
+T55	Abstract 511 522	无人和载人空间对接技术
+T56	Abstract 525 526;527 531	月 球软着陆
+T57	Person-Nominal 535 538	中国人
+T58	Person-Name 558 561	钱学森
+T59	Physical 563 567	两弹一星
+T60	Person-Nominal 562 573	“两弹一星”功勋科学家
+*	Coreference T60 T58 T61 T62 T63 T67
+T61	Person-Nominal 574 580	“航天之父”
+T62	Person-Nominal 582 586	导弹之王
+T63	Person-Pronoun 589 590	他
+T64	Organization-Name 591 593	美国
+T65	Metric 597 601	5年之久
+T66	Organization-Nominal 625 627	祖国
+T67	Person-Nominal 630 644	我国航天事业的奠基人、第一人
+T68	Time-Implicit 645 647	当年
+T69	Person-Nominal 649 659	一位美国海军高级将领
+T70	Metric 649 651	一位
+T71	Person-Name 669 672	钱学森
+T72	Person-Nominal 687 693	5个师的兵力
+T73	Person-Pronoun 694 695	我
+*	Coreference T73 T69
+T74	Person-Pronoun 708 709	他
+*	Coreference T74 T71
+T75	Person-Name 714 716	罗阳
+T76	Person-Nominal 717 734	中航沈飞工业有限公司董事长、总经理
+*	Coreference T76 T75
+T77	Organization-Name 717 727	中航沈飞工业有限公司
+T78	Metric 735 738	30年
+T79	Physical 751 760	“歼―15”舰载机
+T80	Physical 757 760	舰载机
+T81	Abstract 761 770	中国的航空航天事业
+T82	Organization-Name 782 784	中国
+T83	Abstract 791 795	军事领域
+T84	Abstract 797 801	八年抗战
+T85	Organization-Name 811 814	新中国
+*	Coreference T85 T82
+T86	Person-Name 818 823	毛泽东主席
+T87	Abstract 830 834	抗美援朝
+T88	Time-Explicit 837 842	1951年
+T89	Time-Explicit 844 849	1953年
+T90	Organization-Name 851 864	以美国为首的16国联合国军
+T91	Organization-Name 873 877	八国联军
+T92	Organization-Name 865 867	中国
+T93	Organization-Name 887 890	新中国
+T94	Metric 893 897	60余年
+T95	Time-Implicit 902 903;904 907	建 国初期
+T96	Thing-Nominal 908 917	“万国牌”武器装备
+T97	Thing-Name 918 936	第三代战斗机“歼十”、“歼--11”
+T98	Thing-Nominal 918 924	第三代战斗机
+R9	General-Special Arg1:T98 Arg2:T97	
+T99	Thing-Name 945 964	第四代隐形战斗机“歼20”、“歼31”
+T100	Thing-Nominal 945 953	第四代隐形战斗机
+R10	General-Special Arg1:T100 Arg2:T99	
+T101	Thing-Name 970 984	我国第一艘航空母舰“辽宁舰”
+T102	Thing-Nominal 975 979	航空母舰
+R11	General-Special Arg1:T102 Arg2:T101	
+T103	Thing-Name 989 998	“歼―15”舰载机
+T104	Thing-Nominal 995 998	舰载机
+R12	General-Special Arg1:T104 Arg2:T103	
+T105	Person-Pronoun 1007 1009	我们
+*	Coreference T105 T57 T119 T121 T176 T177
+T106	Thing-Name 1023 1025;1026 1040	第一 款国产大型运输机“运-20”
+T107	Thing-Nominal 1029 1034	大型运输机
+R13	General-Special Arg1:T106 Arg2:T107	
+T108	Organization-Name 1055 1062	中国人民解放军
+T109	Physical 1076 1083	东海防空识别区
+T110	Organization-Name 1089 1094	国家安全局
+T111	Organization-Name 1108 1110	美国
+T112	Abstract 1111 1114	核讹诈
+T113	Thing-Nominal 1120 1123	核武器
+T114	Thing-Nominal 1124 1130	新一代核潜艇
+T115	Abstract 1133 1136	核垄断
+T116	Organization-Nominal 1138 1140	我国
+T117	Abstract 1141 1145	军事战略
+T118	Organization-Nominal 1164 1166	我国
+T119	Person-Pronoun 1196 1197	你
+T120	Organization-Nominal 1198 1200	国家
+T121	Person-Nominal 1201 1203	人民
+T122	Location-Name 1214 1228	南联盟、伊拉克、利比亚等国家
+T123	Organization-Name 1239 1241	中国
+T124	Time-Explicit 1254 1262	改革开放30年来
+T125	Metric 1271 1275	9.9%
+T126	Abstract 1276 1282	人民生活水平
+T127	Abstract 1295 1299;1300 1302	国民生产 总值
+T128	Location-Name 1309 1311	日本
+T129	Location-Name 1239 1241	中国
+R14	Near Arg1:T129 Arg2:T128	
+T130	Organization-Nominal 1314 1322	世界第二大经济体
+*	Coreference T130 T123
+T131	Organization-Name 1324 1326	中国
+T132	Thing-Nominal 1333 1337	高速公路
+T133	Thing-Nominal 1338 1342	高速铁路
+T134	Time-Explicit 1346 1351	1987年
+T135	Thing-Name 1351 1365	第一条高速公路―沈大高速公路
+T136	Time-Explicit 1369 1375	2013年底
+T137	Thing-Nominal 1375 1379	高速公路
+T138	Metric 1387 1392	10万公里
+T139	Organization-Nominal 1394 1398	世界第二
+*	Coreference T139 T131
+T140	Thing-Name 1400 1418	世界海拔最高、建设难度最大的青藏铁路
+T141	Thing-Name 1419 1430	京(北京)广(州)高铁
+T142	Thing-Name 1431 1441	郑(州)西(安)高铁
+T143	Thing-Name 1442 1445;1446 1447	京沪高 铁
+T144	Thing-Name 1448 1458	武(汉)宜(昌)高铁
+T145	Location-Name 1421 1423	北京
+T146	Location-Name 1424 1427	广(州
+T147	Location-Name 1431 1435	郑(州)
+T148	Location-Name 1448 1452	武(汉)
+T149	Location-Name 1452 1455	宜(昌
+T150	Organization-Nominal 1460 1462	我国
+T151	Thing-Name 1464 1490	世界上第一条高寒条件下的―哈(哈尔滨)大(大连)高铁
+T152	Location-Name 1479 1482	哈尔滨
+T153	Location-Name 1485 1487	大连
+T154	Organization-Nominal 1491 1493	我国
+T155	Organization-Name 1526 1528	中国
+T156	Time-Explicit 1539 1544	1971年
+T157	Organization-Name 1544 1553	第26届联合国大会
+T158	Organization-Name 1571 1578	五个常任理事国
+T159	Time-Explicit 1610 1615	1997年
+T160	Location-Name 1615 1617	香港
+T161	Location-Name 1526 1528	中国
+R15	Part-Whole Arg1:T160 Arg2:T161	
+T162	Location-Name 1625 1627	澳门
+T163	Time-Explicit 1620 1625	1999年
+R16	Near Arg1:T162 Arg2:T160	
+R17	Part-Whole Arg1:T162 Arg2:T161	
+T164	Time-Explicit 1630 1635	2001年
+T165	Organization-Name 1637 1641	世贸组织
+T166	Time-Explicit 1642 1647	2008年
+T167	Organization-Name 1650 1655	北京奥运会
+T168	Time-Explicit 1656 1661	2010年
+T169	Organization-Name 1663 1668	上海世博会
+T170	Time-Explicit 1669 1674	2012年
+T171	Location-Name 1674 1677	钓鱼岛
+T172	Time-Explicit 1683 1688	2013年
+T173	Physical 1690 1697	东海防空识别区
+T174	Organization-Name 1698 1700	中国
+T175	Time-Implicit 1722 1726	建国初期
+T176	Person-Nominal 1745 1749	全国人民
+T177	Person-Nominal 1785 1789	中国人民
+T178	Organization-Name 1801 1803	中国
+T179	Abstract 1810 1814	军事领域
+T180	Abstract 1818 1822	科技领域
+T181	Abstract 1826 1830	文化领域
+T182	Abstract 1834 1838	医学领域
+T183	Abstract 1842 1847	工农业领域
+T184	Abstract 1872 1875	正能量
+T185	Organization-Name 1890 1892	中国
+T186	Organization-Name 1907 1909	中国
+T187	Abstract 1914 1917;1918 1926	中华民 族的伟大复兴梦想

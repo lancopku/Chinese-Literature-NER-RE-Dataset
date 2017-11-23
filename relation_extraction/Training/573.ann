@@ -1,0 +1,150 @@
+T1	Location-Nominal 16 17	村
+T2	Location-Nominal 21 24	古戏台
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Person-Nominal 52 56	戏剧人物
+T4	Location-Nominal 70 73	小戏台
+T5	Person-Nominal 81 86	戏台下的人
+T6	Time-Explicit 100 104	农耕时代
+T7	Location-Nominal 133 135	乡村
+T8	Location-Nominal 149 150	台
+T9	Location-Nominal 154 156	乡村
+T10	Metric 170 173	十多里
+T11	Location-Nominal 184 187	戏台上
+T12	Thing-Nominal 191 193	汽灯
+R2	Located Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 204 206	锣鼓
+T14	Location-Nominal 233 235	戏台
+T15	Person-Nominal 242 246	男男女女
+T16	Location-Nominal 274 278	我的家乡
+T17	Person-Nominal 301 303	小生
+T18	Person-Nominal 304 306	小旦
+T19	Person-Nominal 307 309	小丑
+T20	Person-Nominal 310 314	舞台人物
+*	Coreference T19 T20 T18 T17
+T21	Thing-Nominal 330 332	锣鼓
+T22	Thing-Nominal 335 336	琴
+T23	Thing-Nominal 337 339	草帽
+T24	Thing-Nominal 339 341	摺扇
+T25	Thing-Nominal 342 344	短裙
+T26	Person-Nominal 346 349	艺人们
+T27	Location-Nominal 363 364	村
+T28	Location-Nominal 365 366	寨
+T29	Location-Nominal 370 374	乡土民间
+T30	Location-Pronoun 387 389	那里
+T31	Person-Nominal 437 439	女人
+T32	Thing-Nominal 447 449	房门
+T33	Person-Nominal 451 453	男人
+T34	Thing-Nominal 462 464	扁担
+T35	Time-Explicit 470 473	民国时
+T36	Person-Nominal 496 498	人们
+T37	Location-Nominal 517 519	乡间
+T38	Person-Nominal 528 530	人们
+T39	Location-Pronoun 525 527	那里
+*	Coreference T39 T37
+T40	Person-Nominal 536 538	艺人
+T41	Person-Nominal 540 543	本地人
+*	Coreference T40 T41
+T42	Person-Nominal 546 556	有才华的乡间知识分子
+T43	Thing-Nominal 571 573	锣鼓
+T44	Person-Nominal 604 607	乡下人
+T45	Person-Nominal 646 648	自己
+T46	Person-Nominal 681 683	寿星
+T47	Person-Nominal 689 691	大家
+T48	Person-Nominal 703 706	艺人们
+T49	Time-Implicit 722 725	有一年
+T50	Location-Name 726 728	水西
+T51	Location-Name 734 736	水东
+T52	Location-Nominal 737 739	塔檐
+R3	Part-Whole Arg1:T52 Arg2:T51	
+T53	Person-Nominal 753 757	戏班的人
+T54	Time-Explicit 766 768	当晚
+T55	Location-Nominal 769 772	戏场里
+T56	Person-Nominal 776 780	男女老少
+T57	Person-Nominal 798 800	大家
+*	Coreference T57 T56
+T58	Location-Nominal 813 815	台上
+T59	Person-Nominal 820 822	小丑
+T60	Person-Nominal 844 847	高个儿
+*	Coreference T60 T59 T61
+T61	Person-Nominal 858 861	矮个儿
+T62	Location-Name 850 855	水东塔檐下
+T63	Person-Nominal 874 877	高个儿
+T64	Time-Implicit 881 883	早上
+T65	Thing-Nominal 884 886	芋头
+T66	Person-Nominal 889 891	矮个
+T67	Time-Implicit 894 896	晚上
+T68	Thing-Nominal 897 899	北瓜
+T69	Person-Nominal 902 904	两人
+T70	Thing-Nominal 919 920	油
+T71	Thing-Nominal 921 922	盐
+T72	Person-Nominal 937 941	台下的人
+T73	Location-Nominal 950 952	村里
+T74	Person-Nominal 962 967	几个年轻人
+T75	Thing-Nominal 986 988	锣鼓
+T76	Thing-Nominal 992 994	大幕
+T77	Person-Nominal 1007 1009	大家
+T78	Person-Nominal 1044 1046	明星
+T79	Person-Nominal 1069 1071	观众
+*	Coreference T79 T77
+T80	Person-Nominal 1079 1081	名角
+*	Coreference T78 T80
+T81	Person-Nominal 1084 1086	演员
+T82	Person-Nominal 1104 1106	观众
+T83	Person-Nominal 1107 1109	演员
+T84	Person-Nominal 1120 1122	小旦
+T85	Person-Nominal 1123 1125	小生
+*	Coreference T84 T83 T85
+T86	Person-Nominal 1187 1189	小旦
+T87	Person-Nominal 1251 1254	名角儿
+*	Coreference T86 T87 T88
+T88	Person-Pronoun 1297 1299	她们
+T89	Location-Nominal 1346 1348	舞台
+T90	Person-Nominal 1359 1363	戏班艺人
+T91	Person-Nominal 1374 1375;1376 1381	出 了名的角儿
+T92	Person-Nominal 1388 1394	有钱有势的人
+T93	Person-Nominal 1423 1427	有的女子
+T94	Person-Nominal 1447 1450	薄情郎
+T95	Location-Nominal 1476 1479	我们村
+T96	Person-Nominal 1488 1490	小生
+T97	Person-Nominal 1493 1497;1498 1504	一个有钱 东家的少奶奶
+T98	Person-Nominal 1508 1511	那女人
+*	Coreference T98 T97 T102
+T99	Person-Pronoun 1518 1519	他
+*	Coreference T99 T96
+T100	Thing-Nominal 1526 1527	柴
+T101	Thing-Nominal 1528 1529	米
+T102	Person-Nominal 1544 1547	少奶奶
+T103	Person-Nominal 1560 1562	小生
+T104	Time-Explicit 1598 1607	二十世纪五十年代初
+T105	Location-Nominal 1608 1610	乡间
+T106	Person-Nominal 1612 1614	农民
+T107	Person-Nominal 1626 1627;1628 1636	地 委宣传部的副部长
+T108	Organization-Nominal 1626 1627;1628 1632	地 委宣传部
+R4	Ownership Arg1:T107 Arg2:T108	
+T109	Location-Nominal 1637 1641	我们那里
+T110	Person-Nominal 1664 1666	精英
+T111	Organization-Nominal 1674 1680	地区采茶剧团
+T112	Person-Nominal 1681 1684	泥腿子
+T113	Person-Nominal 1691 1695	专业演员
+T114	Person-Nominal 1697 1700	乡下人
+T115	Person-Nominal 1707 1711	文艺家们
+T116	Time-Explicit 1772 1778	“文革”时期
+T117	Organization-Nominal 1824 1829	文艺宣传队
+T118	Thing-Nominal 1845 1846	锣
+T119	Thing-Nominal 1847 1848	鼓
+T120	Location-Nominal 1866 1868	戏台
+T121	Thing-Nominal 1887 1889	电视
+T122	Location-Nominal 1908 1910	乡村
+T123	Location-Nominal 1911 1913	戏台
+R5	Part-Whole Arg1:T123 Arg2:T122	
+T124	Thing-Nominal 1919 1921	电视
+T125	Person-Pronoun 1958 1960	我们
+T126	Location-Nominal 1973 1975	乡村
+T127	Location-Nominal 1976 1978	戏台
+R6	Part-Whole Arg1:T127 Arg2:T126	
+T128	Location-Pronoun 1981 1982	它
+*	Coreference T128 T127
+T129	Thing-Nominal 2015 2017	电视
+T130	Location-Nominal 2054 2056	乡村
+T131	Location-Nominal 2057 2059	戏台
+R7	Part-Whole Arg1:T131 Arg2:T130	

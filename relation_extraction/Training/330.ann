@@ -1,0 +1,68 @@
+T1	Location-Nominal 2 7	喧嚣的世界
+T2	Person-Nominal 8 13	繁杂的人流
+T3	Person-Nominal 19 27	年近古稀的老同学
+T4	Person-Nominal 33 41	青丝变白的老太婆
+T5	Person-Nominal 42 50	皱面谢项的老朋友
+R1	Social Arg1:T4 Arg2:T5	
+R2	Part-Whole Arg1:T4 Arg2:T3	
+*	Coreference T5 T3 T14
+T6	Location-Nominal 53 55	松荫
+T7	Location-Nominal 58 60	溪涧
+T8	Location-Nominal 63 65	山庄
+T9	Location-Nominal 67 69	湖畔
+T10	Location-Nominal 70 72	春郊
+T11	Thing-Nominal 75 77	夏松
+T12	Thing-Nominal 85 87	溪水
+T13	Time-Implicit 90 92	年年
+T14	Person-Pronoun 101 103	我们
+T15	Thing-Nominal 110 119	山珍海味、佳肴美酒
+T16	Thing-Nominal 120 124	几壶茶水
+T17	Metric 120 122	几壶
+T18	Thing-Nominal 129 131	香茶
+T19	Thing-Nominal 137 139	清泉
+R3	Use Arg1:T14 Arg2:T16	
+R4	Use Arg1:T14 Arg2:T18	
+T20	Thing-Nominal 215 226	一坛贮存了数十年的美酒
+T21	Metric 220 223	数十年
+T22	Thing-Nominal 169 176	沙哑变调的歌喉
+T23	Thing-Nominal 177 196	当年令人脸红的傻事、昔日令人尴尬的绰号
+T24	Time-Implicit 177 179	当年
+T25	Thing-Nominal 203 205	甘榄
+T26	Person-Nominal 265 267	老年
+T27	Metric 272 275	五千年
+T28	Thing-Nominal 305 307	伤疤
+T29	Thing-Name 325 327	朝阳
+T30	Thing-Name 329 331	北斗
+T31	Person-Nominal 364 366	能人
+T32	Thing-Nominal 359 363	琴棋书画
+T33	Person-Nominal 372 373;374 375	高 手
+T34	Thing-Nominal 386 387	茧
+T35	Thing-Nominal 383 384	心
+R5	Located Arg1:T34 Arg2:T35	
+T36	Person-Nominal 393 395	老年
+T37	Thing-Nominal 399 401	官爵
+T38	Thing-Nominal 407 411	职称衔头
+T39	Person-Nominal 414 416	孩童
+T40	Thing-Nominal 432 436	一条板凳
+T41	Metric 432 434	一条
+T42	Thing-Nominal 440 444	一张石台
+T43	Metric 440 442	一张
+T44	Person-Name 447 453	老张阿王细李
+T45	Person-Nominal 479 482	好朋友
+T46	Location-Pronoun 484 486	这里
+T47	Person-Nominal 492 493	人
+T48	Thing-Nominal 499 502	孔方兄
+T49	Thing-Nominal 507 510	印把子
+T50	Location-Pronoun 515 516	这
+*	Coreference T50 T46
+T51	Location-Nominal 519 521	净土
+T52	Location-Nominal 524 526	乐境
+T53	Metric 517 519	一片
+T54	Metric 522 524	一种
+T55	Person-Pronoun 545 547	我们
+T56	Person-Nominal 557 562	每一位朋友
+T57	Person-Nominal 567 569	同学
+T58	Organization-Name 581 584	奥运会
+T59	Person-Pronoun 585 587	我们
+T60	Person-Nominal 603 605	大家
+*	Coreference T59 T60

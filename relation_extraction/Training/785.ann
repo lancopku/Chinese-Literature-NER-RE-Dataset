@@ -1,0 +1,153 @@
+T1	Time-Explicit 0 10	1994年8月18日
+T2	Person-Nominal 12 14	儿子
+T3	Time-Implicit 12 21	儿子满月后的第五天
+*	Coreference T3 T1 T8 T18 T86 T122
+T4	Person-Pronoun 22 23	我
+T5	Person-Nominal 24 26	岳母
+T6	Location-Nominal 28 30	老家
+T7	Location-Name 39 41	成都
+T8	Time-Implicit 44 46	那时
+T9	Location-Name 47 49	涪陵
+T10	Location-Name 50 52	重庆
+T11	Location-Nominal 53 56	高速路
+T12	Thing-Nominal 68 70	快艇
+T13	Person-Pronoun 72 73	我
+T14	Thing-Nominal 82 86	长途客车
+T15	Location-Name 87 89	重庆
+T16	Thing-Nominal 93 95	火车
+T17	Location-Name 96 98	成都
+T18	Time-Implicit 100 105	上午10点
+T19	Person-Pronoun 106 107	我
+T20	Location-Name 111 113	重庆
+T21	Location-Name 115 117	成都
+T22	Thing-Nominal 118 120	列车
+T23	Thing-Nominal 127 132	当时的火车
+*	Coreference T23 T22
+T24	Person-Nominal 136 137	人
+T25	Location-Nominal 141 143	车厢
+T26	Location-Nominal 145 147	过道
+T27	Person-Nominal 154 155	人
+T28	Location-Nominal 158 160	厕所
+T29	Thing-Nominal 174 176	列车
+T30	Person-Pronoun 183 184	我
+T31	Thing-Nominal 203 209	巴掌大的桌子
+T32	Metric 201 203	一个
+T33	Location-Nominal 198 199	窗
+T34	Person-Pronoun 216 217	我
+T35	Location-Nominal 284 286	邻座
+T36	Person-Nominal 289 295	瘦弱的小伙子
+T37	Metric 287 289	一个
+T38	Person-Nominal 299 302	邻水人
+T39	Person-Pronoun 303 304	他
+T40	Person-Pronoun 309 310	我
+T41	Thing-Nominal 311 313	衣袖
+T42	Person-Nominal 319 322	许多人
+T43	Person-Nominal 327 334	头有刀疤的小偷
+T44	Thing-Nominal 327 328	头
+R1	Part-Whole Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 329 331	刀疤
+R2	Located Arg1:T45 Arg2:T44	
+T46	Person-Pronoun 335 336	我
+T47	Thing-Nominal 336 340	衬衣口袋
+T48	Person-Pronoun 362 363	他
+T49	Thing-Nominal 375 376	嘴
+R3	Part-Whole Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 383 390	明晃晃的水果刀
+T51	Metric 381 383	一把
+T52	Thing-Nominal 392 396	刀疤腰间
+T53	Person-Pronoun 406 407	我
+T54	Thing-Nominal 414 418	衬衣口袋
+T55	Thing-Nominal 423 425	车票
+T56	Metric 421 423	一张
+T57	Time-Implicit 436 440	午饭时间
+T58	Thing-Nominal 446 457	瘦得像干柴棍棍的列车员
+T59	Metric 444 446	一个
+T60	Thing-Nominal 465 471	长条形的餐车
+T61	Metric 463 465	一辆
+T62	Location-Nominal 473 480	拥挤不堪的巷道
+T63	Thing-Nominal 503 508	四川回锅肉
+T64	Thing-Nominal 509 514	重庆酸菜鱼
+T65	Person-Nominal 522 526	周围的人
+T66	Person-Pronoun 535 536	我
+T67	Thing-Nominal 537 538	手
+T68	Thing-Nominal 540 542	下巴
+R4	Part-Whole Arg1:T68 Arg2:T66	
+R5	Part-Whole Arg1:T67 Arg2:T66	
+T69	Location-Nominal 548 549	窗
+T70	Thing-Nominal 558 561	酸菜鱼
+T71	Person-Nominal 565 567	帅哥
+T72	Person-Pronoun 569 570	我
+T73	Thing-Nominal 573 576	回锅肉
+T74	Metric 571 573	一份
+T75	Person-Nominal 578 581	乘客们
+T76	Metric 581 584	一个个
+T77	Thing-Nominal 588 593	细长的脖子
+R6	Part-Whole Arg1:T77 Arg2:T75	
+T79	Thing-Nominal 602 603	手
+T78	Thing-Nominal 605 607	钞票
+R7	Located Arg1:T78 Arg2:T79	
+R8	Part-Whole Arg1:T79 Arg2:T75	
+T80	Person-Nominal 609 615	身旁的小老乡
+T81	Person-Pronoun 620 621	他
+T82	Thing-Nominal 625 628	回锅肉
+T83	Metric 623 625	一份
+*	Coreference T81 T80 T36 T38 T39 T48 T85 T129
+T84	Person-Pronoun 631 632	我
+T85	Person-Pronoun 638 639	他
+T86	Time-Implicit 639 641	当天
+T87	Person-Pronoun 654 655	我
+T88	Person-Pronoun 669 671	自己
+*	Coreference T88 T87 T91 T102 T103 T110 T112 T118 T120
+T89	Thing-Nominal 672 674	口袋
+T90	Person-Nominal 676 678	小偷
+*	Coreference T90 T43
+T91	Person-Nominal 684 691	饥肠辘辘的自己
+T92	Person-Pronoun 707 708	我
+T93	Person-Nominal 758 760	人群
+T94	Person-Nominal 764 790	身材高挑、披着秀发、自称在成都卷烟厂后勤部工作的大姐
+T95	Metric 762 764	一位
+T96	Thing-Nominal 771 773	秀发
+T97	Organization-Nominal 777 785	成都卷烟厂后勤部
+T98	Thing-Nominal 797 799	大冰
+T99	Metric 795 797	一袋
+T100	Thing-Nominal 802 808	拳头大的地瓜
+T101	Metric 800 802	四个
+T102	Person-Pronoun 810 811	我
+T103	Person-Nominal 819 822	小兄弟
+T104	Person-Nominal 823 824	人
+T105	Thing-Nominal 825 826	铁
+T106	Thing-Nominal 827 828	饭
+T107	Thing-Nominal 829 830	钢
+T108	Thing-Nominal 833 838	这几个地瓜
+T109	Person-Pronoun 843 844	我
+*	Coreference T109 T94 T111 T113 T126
+T110	Person-Pronoun 851 852	你
+T111	Person-Pronoun 874 875	你
+T112	Person-Pronoun 881 882	我
+T113	Person-Pronoun 884 885	她
+T114	Thing-Nominal 888 890	地瓜
+T115	Thing-Nominal 891 893	大冰
+T116	Thing-Nominal 885 886	手
+R9	Part-Whole Arg1:T116 Arg2:T113	
+R10	Located Arg1:T114 Arg2:T116	
+R11	Located Arg1:T115 Arg2:T116	
+T117	Thing-Nominal 902 909	几滴滚烫的泪水
+T118	Person-Nominal 925 928	小兄弟
+T119	Person-Nominal 961 962	人
+T120	Person-Pronoun 978 979	我
+T121	Thing-Nominal 986 988	地瓜
+T122	Time-Implicit 999 1006	下午五点三十分
+T123	Thing-Nominal 1007 1009	火车
+T124	Location-Name 1013 1019	成都火车北站
+T125	Thing-Nominal 1022 1023	车
+*	Coreference T125 T123
+T126	Person-Nominal 1029 1033	那位大姐
+T127	Person-Pronoun 1025 1026	我
+T128	Person-Pronoun 1045 1046	我
+*	Coreference T128 T127 T132
+T129	Person-Nominal 1050 1056	邻座的小老乡
+T130	Thing-Nominal 1067 1070	公交车
+T131	Thing-Nominal 1100 1106	那四个小地瓜
+T132	Person-Pronoun 1108 1109	我
+T133	Thing-Pronoun 1112 1114	它们
+*	Coreference T133 T131 T108 T100

@@ -1,0 +1,257 @@
+T1	Location-Name 1 3	洛阳
+T2	Thing-Nominal 4 6	牡丹
+T3	Location-Name 10 14	王城公园
+T4	Thing-Nominal 17 19	槐花
+R1	Located Arg1:T2 Arg2:T1	
+R2	Located Arg1:T4 Arg2:T3	
+T5	Thing-Nominal 61 75	那一缕若有若无的甜丝丝的香气
+T6	Person-Pronoun 76 77	我
+T7	Thing-Nominal 92 94	香气
+T8	Thing-Nominal 105 107	槐花
+T9	Thing-Nominal 107 114	洁白如玉的身影
+T10	Thing-Nominal 130 134	丝丝泪光
+T11	Location-Nominal 125 127	眼里
+R3	Located Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 165 174	一根根儿纤巧的手指
+T13	Thing-Nominal 180 182	琴弦
+T14	Thing-Nominal 190 192	槐花
+T15	Time-Implicit 203 206	童年时
+T16	Location-Nominal 207 211	老家后院
+T17	Thing-Nominal 213 218	宽阔的河沟
+R4	Located Arg1:T17 Arg2:T16	
+T18	Location-Nominal 219 222	沟两岸
+T19	Thing-Nominal 223 225	槐树
+R5	Located Arg1:T19 Arg2:T18	
+T20	Time-Implicit 228 232	初春时分
+T21	Person-Pronoun 233 234	我
+T22	Location-Nominal 239 242	槐树下
+T23	Person-Nominal 244 248	那些乡人
+T24	Thing-Nominal 251 257	新长出的嫩叶
+T25	Thing-Nominal 258 260	牛羊
+T26	Person-Pronoun 261 262	我
+T27	Thing-Nominal 265 266	树
+T28	Thing-Nominal 268 270	叶子
+T29	Thing-Nominal 276 282	蒸蒸菜的槐花
+T30	Time-Implicit 283 287	每当那时
+T31	Person-Nominal 288 290	乡人
+T32	Person-Pronoun 293 294	我
+T33	Person-Nominal 296 302	好小气的丫头
+T34	Person-Pronoun 304 305	我
+T35	Thing-Nominal 312 313	嘴
+T36	Thing-Nominal 318 320	新叶
+T37	Thing-Nominal 334 336	我家
+T38	Thing-Nominal 338 339	树
+T39	Person-Nominal 348 350	乡人
+T40	Person-Pronoun 360 361	我
+T41	Person-Nominal 363 372	打了胜仗的黄毛丫头
+*	Coreference T41 T40
+T42	Person-Nominal 378 381	有心人
+T43	Time-Implicit 382 385	四月初
+T44	Location-Nominal 385 388	槐树上
+T45	Thing-Nominal 390 392	花蕾
+R6	Located Arg1:T45 Arg2:T44	
+T46	Thing-Nominal 393 395	花蕾
+T47	Thing-Nominal 403 407	串串翡翠
+T48	Thing-Nominal 417 419	花蕾
+T49	Thing-Nominal 436 441	雪白的花朵
+T50	Thing-Nominal 443 446	一棵树
+T51	Thing-Nominal 448 453	上千串花朵
+T52	Thing-Nominal 460 462	绿叶
+T53	Thing-Nominal 478 480	槐花
+T54	Thing-Nominal 496 503	一层莹然的白雪
+T55	Location-Nominal 489 493	整个河坡
+R7	Located Arg1:T54 Arg2:T55	
+T56	Thing-Nominal 518 522	整个村子
+T57	Thing-Nominal 534 537;538 541	别人家 的槐花
+T58	Thing-Nominal 552 554	槐花
+T59	Person-Nominal 564 567	伙伴们
+T60	Location-Nominal 562 564	村里
+T61	Thing-Nominal 581 583	槐花
+T62	Thing-Nominal 595 597	槐花
+T63	Thing-Nominal 608 610	槐花
+T64	Thing-Nominal 659 666	那一串串小白花
+T65	Thing-Nominal 667 672	女孩的耳坠
+T66	Thing-Nominal 651 653	树杈
+T67	Thing-Nominal 638 641	根根刺
+T68	Thing-Nominal 643 648	成串的槐花
+T69	Person-Pronoun 621 622	我
+T70	Thing-Nominal 627 628	脚
+T71	Thing-Nominal 634 635	树
+T72	Thing-Pronoun 694 696	她们
+*	Coreference T72 T64
+T73	Thing-Nominal 697 705	一只只雪白的蝴蝶
+T74	Thing-Nominal 708 712	两片翅翼
+T75	Thing-Nominal 716 720	两片花瓣
+T76	Person-Nominal 723 728	娇羞的女孩
+T77	Thing-Nominal 729 734	槐花的花蕊
+T78	Location-Nominal 745 748	鼻子下
+T79	Thing-Nominal 759 761	全身
+T80	Thing-Nominal 729 731	槐花
+T81	Thing-Nominal 782 784	花瓣
+T82	Thing-Pronoun 789 790	她
+T83	Thing-Nominal 805 810	一根“梗儿
+T84	Thing-Nominal 817 819	花蕊
+T85	Thing-Nominal 844 845	树
+T86	Thing-Nominal 858 860	叶子
+T87	Thing-Nominal 853 855	槐树
+T88	Location-Nominal 867 872	湛蓝天空中
+T89	Thing-Nominal 872 877	游走的白云
+R8	Located Arg1:T89 Arg2:T88	
+T90	Location-Nominal 878 881	白云下
+T91	Thing-Nominal 884 891	朵朵洁白的花穗
+R9	Located Arg1:T91 Arg2:T90	
+T92	Thing-Nominal 893 895	白云
+T93	Thing-Nominal 906 919	那一串串，一朵朵洁白的槐花
+T94	Thing-Nominal 921 925	串串珍珠
+T95	Location-Nominal 927 929	枝头
+R10	Located Arg1:T93 Arg2:T95	
+T96	Thing-Nominal 930 932	银花
+T97	Thing-Nominal 937 944	随风起舞的风铃
+T98	Thing-Nominal 938 939	风
+T99	Person-Pronoun 945 946	我
+T100	Location-Nominal 947 949	树下
+T101	Thing-Nominal 955 956	绿
+T102	Thing-Nominal 957 958;959 960	白 花
+T103	Location-Nominal 962 965	我头顶
+T104	Thing-Nominal 970 975	阳光的碎金
+T105	Location-Nominal 977 982	枝叶稀疏间
+R11	Located Arg1:T104 Arg2:T105	
+T106	Person-Nominal 993 994	人
+T107	Thing-Nominal 995 997	槐花
+T108	Location-Nominal 1007 1010	空气中
+T109	Thing-Nominal 1028 1030	槐花
+T110	Thing-Nominal 1040 1042	左手
+T111	Thing-Nominal 1043 1046	一枝条
+T112	Person-Pronoun 1038 1040	自己
+T113	Thing-Nominal 1047 1049	右手
+T114	Thing-Nominal 1053 1055	槐花
+T115	Location-Nominal 1056 1059	花梗上
+R12	Located Arg1:T114 Arg2:T115	
+T116	Location-Nominal 1070 1077	自己贪婪的嘴里
+T117	Person-Pronoun 1070 1072	自己
+T118	Thing-Nominal 1102 1104	槐花
+T119	Location-Nominal 1120 1122	家家
+T120	Thing-Nominal 1124 1129	一根长竹竿
+R13	Located Arg1:T120 Arg2:T119	
+T121	Thing-Nominal 1134 1136	镰刀
+T122	Thing-Nominal 1137 1139	槐花
+T123	Thing-Nominal 1142 1145	长竹竿
+T124	Person-Nominal 1148 1150	人们
+T125	Thing-Nominal 1150 1157	折断槐枝的工具
+T126	Person-Nominal 1158 1160;1161 1162	伙伴 们
+T127	Person-Nominal 1164 1165	人
+T128	Location-Nominal 1172 1174	肩头
+T129	Location-Nominal 1178 1180	身后
+T130	Person-Nominal 1188 1194	“采花”小盗
+T131	Person-Nominal 1197 1199	大家
+T132	Thing-Nominal 1206 1211	自家的树上
+T133	Thing-Nominal 1226 1231	更好的槐花
+T134	Thing-Nominal 1237 1243	别人家的槐树
+T135	Thing-Nominal 1237 1240	别人家
+T136	Person-Nominal 1259 1261	主人
+T137	Thing-Nominal 1286 1288	竿子
+T138	Thing-Nominal 1292 1294	鞋子
+T139	Thing-Nominal 1313 1315	槐花
+T140	Person-Nominal 1326 1328	村童
+T141	Thing-Nominal 1378 1386	那些半开不开的花
+T142	Person-Nominal 1367 1370	伙伴们
+T143	Thing-Nominal 1359 1361	槐花
+T144	Thing-Nominal 1341 1343	槐花
+T145	Metric 1354 1357	半个月
+T146	Person-Nominal 1411 1413	大家
+T147	Thing-Nominal 1429 1431	槐花
+T148	Time-Implicit 1427 1434	明年槐花再开时
+T149	Person-Nominal 1435 1438	大伙儿
+T150	Person-Nominal 1494 1499	儿时伙伴们
+T151	Thing-Nominal 1445 1450	最盛的槐花
+T152	Thing-Nominal 1453 1460	自己贪婪的嘴巴
+T153	Thing-Nominal 1506 1511	老家的槐树
+T154	Thing-Nominal 1506 1508	老家
+T155	Thing-Nominal 1462 1464	槐花
+T156	Person-Nominal 1489 1491	大人
+T157	Thing-Nominal 1572 1577	房梁和檩木
+T158	Thing-Nominal 1578 1580	木质
+T159	Thing-Nominal 1545 1547	槐树
+T160	Thing-Nominal 1534 1536	杨树
+T161	Thing-Nominal 1526 1528	白杨
+T162	Thing-Nominal 1599 1601	槐花
+T163	Location-Nominal 1619 1625	记忆的相框里
+T164	Thing-Nominal 1610 1615	一张老照片
+T165	Location-Nominal 1666 1668	树下
+T166	Thing-Nominal 1684 1686	槐花
+T167	Person-Pronoun 1658 1659	我
+T168	Thing-Nominal 1662 1664	河道
+T169	Thing-Nominal 1648 1650	槐花
+T170	Location-Nominal 1634 1641	这洛城的公园里
+T171	Thing-Nominal 1692 1694	花瓣
+T172	Thing-Nominal 1702 1707	纤细的花蕊
+T173	Location-Nominal 1710 1714	花瓣之间
+R14	Located Arg1:T172 Arg2:T173	
+T174	Thing-Nominal 1717 1722	鹅黄的花粉
+T175	Person-Nominal 1743 1744	人
+T176	Thing-Nominal 1790 1797	千万朵这样的花
+T177	Location-Nominal 1787 1789	四周
+R15	Located Arg1:T176 Arg2:T177	
+T178	Person-Nominal 1779 1780	人
+T179	Thing-Nominal 1767 1773	一幕幕蝶恋花
+T180	Location-Nominal 1757 1759	树下
+T181	Thing-Nominal 1759 1760	蜂
+T182	Thing-Nominal 1761 1762	蝶
+T183	Thing-Nominal 1890 1892	泥土
+T184	Thing-Pronoun 1847 1849	它们
+T185	Person-Pronoun 1820 1821	我
+*	Coreference T184 T176
+T186	Location-Nominal 1920 1925	我的窗纱上
+T187	Person-Pronoun 1920 1921	我
+T188	Thing-Nominal 1906 1908	香风
+T189	Thing-Nominal 1959 1961	槐花
+T190	Person-Name 1977 1981	诸葛玉儿
+T191	Location-Nominal 1929 1931	书上
+T192	Location-Nominal 1935 1938	案几上
+T193	Location-Nominal 1941 1946	我的头发上
+T194	Location-Nominal 1947 1950	衣裳上
+T195	Person-Name 1984 1987	朱玫梅
+T196	Person-Nominal 1993 1997	中共党员
+T197	Location-Name 2007 2013	河南省南阳市
+T198	Person-Nominal 2021 2025	高级教师
+T199	Person-Nominal 2026 2039	南阳市骨干教师、学科带头人
+T200	Person-Nominal 2045 2055	优秀班主任，优秀教师
+T201	Metric 2063 2066	10岁
+T202	Abstract 2073 2078;2079 2086	《青蛙是怎 样捕捉害虫的》
+T203	Abstract 2150 2171	《茅台》文学杂志上；《春雪》《成长的岁月》
+T204	Abstract 2090 2098	《作文指导报上》
+T205	Abstract 2125 2131	《心湖涟漪》
+T206	Abstract 2131 2137	《峡口揽胜》
+T207	Abstract 2137 2139;2140 2144	《爱 情驿站》
+T208	Abstract 2171 2175	《浅秋》
+T209	Abstract 2175 2179	《思绪》
+T210	Abstract 2185 2191	《遵义文艺》
+T211	Abstract 2197 2200;2201 2207	《浪漫 诗意荆紫关》
+T212	Abstract 2208 2212	《柳笛》
+T213	Abstract 2213 2217	《艳子》
+T214	Abstract 2223 2229	《菁菁校园》
+T215	Abstract 2344 2358	《魂牵梦萦的古镇――黄龙溪》
+T216	Abstract 2359 2372	《再听古筝曲――梅花三弄》
+T217	Abstract 2373 2380	《亲亲白河水》
+T218	Abstract 2381 2383;2384 2391	《八 月桂花香满窗》
+T219	Abstract 2392 2401	《斜风细雨不思归》
+T220	Abstract 2402 2407	《樱花雨》
+T221	Abstract 2408 2417	《爱的属性是忧郁》
+T222	Abstract 2418 2426	《爱的罗曼蒂克》
+T223	Abstract 2427 2435	《我看文学市场》
+T224	Abstract 2442 2444;2445 2448	《月 光曲》
+T225	Abstract 2449 2455	《幽林小径》
+T226	Abstract 2456 2468	《秋日的私语（外三章）》
+T227	Abstract 2469 2476	《铜质的脊梁》
+T228	Abstract 2477 2481	《秋日》
+T229	Abstract 2482 2487	《茅台酒》
+T230	Abstract 2494 2501	《观洛阳牡丹》
+T231	Abstract 2502 2505;2506 2509	《南阳 道中》
+T232	Abstract 2510 2519	《呼伦贝尔大草原》
+T233	Location-Nominal 2553 2555	人间
+T234	Person-Nominal 2571 2572	人
+T235	Thing-Nominal 2595 2598	独木桥
+T236	Person-Nominal 2613 2614	人
+T237	Thing-Nominal 2621 2624	独木桥
+T238	Person-Pronoun 2632 2633	我
+T239	Location-Nominal 2636 2640	桥的那头

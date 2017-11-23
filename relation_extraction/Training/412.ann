@@ -1,0 +1,153 @@
+T1	Person-Name 2 5	李清照
+T2	Time-Implicit 7 13	上初中的时候
+T3	Time-Implicit 14 16	那天
+T4	Person-Nominal 26 28	同学
+T5	Thing-Nominal 30 34	一本宋词
+T6	Person-Nominal 41 43	小妞
+T7	Thing-Nominal 61 65	一滩鸥鹭
+T8	Person-Nominal 96 98	作者
+T9	Person-Nominal 100 108	天真活泼的小女生
+T10	Location-Name 114 122	济南到趵突泉公园
+T11	Thing-Nominal 128 134	李清照纪念馆
+R1	Located Arg1:T11 Arg2:T10	
+T12	Person-Nominal 140 142	小妞
+T13	Person-Nominal 143 146	济南人
+T14	Person-Nominal 147 150	她老公
+T15	Person-Pronoun 147 148	她
+*	Coreference T15 T12
+T16	Person-Pronoun 152 153	我
+T17	Location-Name 154 158	老家掖县
+T18	Person-Nominal 160 163	父母官
+T19	Person-Nominal 169 170;171 172	老 乡
+T20	Person-Nominal 173 175	老乡
+T21	Person-Nominal 176 178	老乡
+T22	Thing-Nominal 179 181	两眼
+T23	Thing-Nominal 181 182	泪
+T24	Person-Name 201 204	李清照
+T25	Time-Implicit 211 224	大学学习古代汉语文学的时候
+T26	Person-Pronoun 227 228	她
+*	Coreference T26 T24
+T27	Thing-Nominal 228 233	那么多作品
+T28	Person-Nominal 237 243	这个才女老乡
+T29	Person-Pronoun 253 254	她
+T30	Person-Pronoun 254 256	自己
+R2	Create Arg1:T26 Arg2:T27	
+T31	Thing-Nominal 282 288	李清照的作品
+T32	Person-Name 282 285	李清照
+T33	Person-Nominal 365 367	后人
+T34	Thing-Nominal 361 363	江山
+T35	Person-Nominal 373 375	愁人
+T36	Metric 375 377	千里
+T37	Time-Implicit 400 402;403 405	这个 时候
+T38	Person-Name 410 414	李后主“
+T39	Person-Nominal 415 416	君
+T40	Thing-Nominal 424 428	一江春水
+T41	Person-Nominal 441 443	词人
+T42	Person-Name 454 457	李清照
+T43	Person-Nominal 521 522	人
+T44	Person-Name 524 527	李清照
+T45	Person-Nominal 542 544	少年
+T46	Person-Name 558 561	李清照
+T47	Thing-Nominal 564 572	名门望族官宦人家
+T48	Thing-Nominal 577 579	泉水
+T49	Thing-Nominal 593 595	古筝
+T50	Thing-Nominal 588 590	唐诗
+T51	Thing-Nominal 583 585	音乐
+T52	Thing-Nominal 607 611	爱的阳光
+T53	Location-Nominal 618 621	蜜罐里
+T54	Thing-Nominal 621 624	麦芽糖
+R3	Located Arg1:T54 Arg2:T53	
+T55	Time-Implicit 625 628	十八岁
+T56	Thing-Nominal 630 635	幸福的云梯
+T57	Thing-Nominal 637 639	爱河
+T58	Person-Pronoun 642 643	她
+*	Coreference T58 T46
+T59	Person-Nominal 656 659	好丈夫
+T60	Person-Nominal 663 666	如意郎
+T61	Person-Name 668 671	赵明诚
+T62	Person-Nominal 680 683	夫妻俩
+T63	Thing-Nominal 689 690	琴
+T64	Thing-Nominal 695 697	金石
+T65	Thing-Nominal 708 717	大明湖里的痴情鸳鸯
+T66	Location-Name 708 712	大明湖里
+R4	Located Arg1:T65 Arg2:T66	
+T67	Metric 719 721	几年
+T68	Person-Name 721 724	赵明诚
+T69	Location-Nominal 725 727	外地
+T70	Person-Name 730 733	李清照
+T71	Person-Nominal 734 735	夫
+T72	Location-Nominal 739 741	家里
+T73	Thing-Nominal 751 752	花
+T74	Thing-Nominal 755 756	水
+T75	Thing-Nominal 780 782	眉头
+T76	Thing-Nominal 785 787	心头
+T77	Thing-Nominal 792 794	秋千
+T78	Thing-Nominal 799 802	纤纤手
+T79	Thing-Nominal 803 804	露
+T80	Thing-Nominal 805 806	花
+T81	Thing-Nominal 810 812	轻衣
+T82	Thing-Nominal 808 810	薄汗
+T83	Thing-Nominal 822 823	帘
+T84	Thing-Nominal 825 827	西风
+T85	Person-Nominal 828 829	人
+T86	Thing-Nominal 830 832	黄花
+T87	Thing-Pronoun 909 911	它们
+T88	Location-Pronoun 907 909	这里
+T89	Person-Nominal 935 937	上帝
+T90	Person-Pronoun 949 951	他们
+T91	Thing-Nominal 954 958	幸福的窗
+T92	Thing-Nominal 962 966	苦难的门
+T93	Time-Explicit 968 977	一一二七年靖康之变
+T94	Thing-Nominal 981 983	北宋
+T95	Thing-Nominal 986 988	山河
+T96	Person-Name 1002 1005	李清照
+T97	Location-Name 1009 1011	山东
+T98	Person-Nominal 1014 1016	丈夫
+T99	Time-Implicit 1051 1054	两年后
+T100	Person-Name 1054 1059	丈夫赵明诚
+T101	Person-Pronoun 1065 1066	她
+*	Coreference T101 T96
+T102	Thing-Nominal 1073 1077	一叶孤舟
+T103	Location-Name 1084 1086	洪州
+T104	Thing-Nominal 1087 1089;1090 1101	两万 件藏书和两千件金石拓片
+T105	Person-Nominal 1102 1104	金兵
+T106	Thing-Nominal 1118 1124	五大箱子文物
+T107	Person-Nominal 1129 1131	强盗
+T108	Thing-Nominal 1132 1133	墙
+T109	Person-Pronoun 1137 1138	她
+T110	Location-Nominal 1141 1143	胸口
+T111	Thing-Nominal 1139 1140	血
+T112	Thing-Nominal 1147 1150;1151 1153	一把匕 首;
+T113	Time-Implicit 1153 1157	丈夫死后
+T114	Person-Name 1157 1160	李清照
+T115	Person-Nominal 1153 1155	丈夫
+R5	Family Arg1:T114 Arg2:T115	
+T116	Person-Nominal 1172 1181	一个人面兽心的骗子
+T117	Person-Name 1212 1215	李清照
+T118	Time-Implicit 1253 1262	一个阴霾凄冷的夜晚
+T119	Person-Pronoun 1263 1264	她
+T120	Thing-Nominal 1276 1280	漓漓细雨
+T121	Thing-Nominal 1272 1274	窗栏
+T122	Thing-Nominal 1283 1285	梧桐
+T123	Thing-Nominal 1287 1289	孤雁
+T124	Thing-Nominal 1292 1294	落红
+T125	Location-Nominal 1294 1296	满地
+R6	Located Arg1:T124 Arg2:T125	
+T126	Thing-Nominal 1303 1305	火山
+T127	Abstract 1322 1327	《声声慢》
+T128	Thing-Nominal 1372 1378	三杯两盏淡酒
+T129	Thing-Nominal 1385 1386	风
+T130	Thing-Nominal 1388 1389	雁
+T131	Thing-Nominal 1405 1409	满地黄花
+T132	Person-Pronoun 1419 1420	谁
+T133	Thing-Nominal 1425 1427	窗儿
+T134	Thing-Nominal 1435 1437	梧桐
+T135	Thing-Nominal 1439 1441	细雨
+T136	Time-Implicit 1443 1445	黄昏
+T137	Person-Nominal 1468 1470	词人
+T138	Person-Pronoun 1516 1517	她
+T139	Person-Pronoun 1526 1527	她
+T140	Person-Pronoun 1541 1542	她
+T141	Person-Nominal 1553 1554	人
+T142	Person-Pronoun 1562 1563	她
+T143	Location-Nominal 1567 1574	中国文学的高地

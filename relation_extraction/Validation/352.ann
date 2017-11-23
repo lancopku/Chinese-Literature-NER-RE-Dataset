@@ -1,0 +1,168 @@
+T1	Person-Nominal 0 2	我家
+T2	Location-Nominal 4 20	美丽的宿豫新城一个令人向往的小区
+T3	Location-Name 7 11	宿豫新城
+T4	Location-Name 23 27	五台山路
+T5	Location-Nominal 21 22	北
+T6	Location-Name 30 34	水润天成
+T7	Location-Name 37 41	洪泽湖路
+T8	Location-Nominal 35 36	南
+T9	Location-Nominal 42 44	东西
+T10	Metric 45 49	30多里
+T11	Thing-Nominal 50 55	双向四车道
+T12	Location-Nominal 56 58	两面
+T13	Thing-Nominal 61 68	8米宽的人行道
+R1	Located Arg1:T13 Arg2:T12	
+T14	Location-Name 69 75	东倚金莎大厦
+T15	Location-Name 76 84	23层中医院大楼
+T16	Location-Name 87 92	京杭大运河
+T17	Location-Nominal 85 86	西
+T18	Location-Name 100 104	项王故里
+T19	Location-Pronoun 105 107	这里
+*	Coreference T19 T18
+T20	Person-Name 108 113	楚霸王项羽
+T21	Thing-Nominal 108 120	楚霸王项羽亲手栽下的槐树
+R2	Located Arg1:T21 Arg2:T19	
+T22	Metric 124 128	两千多年
+T23	Time-Implicit 133 135	至今
+T24	Location-Nominal 143 145	大地
+T25	Person-Nominal 148 155	千千万万的游客
+T26	Location-Pronoun 156 158	这里
+T27	Location-Nominal 161 166	我们的小区
+*	Coreference T27 T2
+T28	Location-Nominal 168 170	运河
+*	Coreference T28 T16 T29
+T29	Location-Nominal 178 181	大运河
+T30	Location-Name 193 199	市府东路大桥
+T31	Location-Pronoun 244 245	这
+T32	Location-Name 251 255	豫景山庄
+T33	Person-Pronoun 247 248	我
+*	Coreference T31 T32
+T34	Person-Pronoun 256 257	我
+T35	Location-Name 270 274	宿豫新城
+T36	Person-Pronoun 284 285	我
+T37	Person-Pronoun 296 297	我
+T38	Location-Name 309 313	宿豫新城
+T39	Location-Name 318 323	卧龙湾别墅
+T40	Location-Name 327 331	锦绣江南
+R3	Part-Whole Arg1:T39 Arg2:T38	
+R4	Part-Whole Arg1:T40 Arg2:T38	
+T41	Location-Name 333 339	金牌住区中通
+T42	Location-Name 340 344	名仕嘉园
+T43	Location-Name 350 354	文昌花园
+T44	Thing-Nominal 361 367	栋栋住宅楼房
+T45	Person-Nominal 377 379	人们
+T46	Location-Name 385 389	金沙大厦
+T47	Location-Name 390 397	金三角财富广场
+T48	Thing-Nominal 398 400	高楼
+T49	Location-Name 403 417;418 419	财富广场A座、B座、C座、D 座
+T50	Thing-Pronoun 424 426	有的
+R5	Part-Whole Arg1:T50 Arg2:T48	
+T51	Thing-Nominal 438 446	这里的25栋楼群
+T52	Location-Pronoun 438 440	这里
+T53	Location-Nominal 385 397	金沙大厦和金三角财富广场
+*	Coreference T52 T53
+R6	Located Arg1:T51 Arg2:T52	
+T54	Metric 453 456	26层
+T55	Thing-Pronoun 459 460	它
+*	Coreference T55 T51
+T56	Location-Name 499 502	千鸟园
+T57	Location-Name 503 508	运河风光带
+T58	Location-Name 509 517	二号桥东的农艺园
+T59	Time-Implicit 530 536	春、夏、秋季
+T60	Thing-Nominal 537 539	鲜花
+T61	Thing-Nominal 542 544	草坪
+T62	Person-Nominal 552 553	人
+T63	Location-Nominal 554 555	地
+T64	Person-Nominal 559 560	人
+T65	Location-Nominal 565 570	园(带)内
+T66	Thing-Nominal 570 572	空气
+R7	Located Arg1:T66 Arg2:T65	
+T67	Time-Implicit 575 579	一年四季
+T68	Thing-Nominal 604 607	大自然
+T69	Person-Nominal 616 618	居民
+T70	Location-Name 637 642	苏果平价店
+T71	Location-Name 643 650	西湖东路商业街
+T72	Location-Name 651 654	商贸城
+T73	Thing-Nominal 655 657	商品
+T74	Location-Nominal 663 672	市民购物中心集聚地
+*	Coreference T74 T72
+T75	Person-Nominal 663 665	市民
+T76	Person-Nominal 678 679	人
+T77	Thing-Nominal 679 680	车
+T78	Location-Name 697 701	江山大道
+T79	Person-Pronoun 723 724	我
+T80	Thing-Nominal 726 731	电动三轮车
+R8	Use Arg1:T79 Arg2:T80	
+T81	Location-Name 737 742	红星美凯龙
+T82	Location-Name 743 746	尚阳城
+T83	Location-Name 747 754	华东农业大市场
+T84	Location-Name 780 783;784 789	第七代 红星美凯龙
+T85	Location-Name 791 793	宿豫
+T86	Location-Name 794 799	农业大市场
+*	Coreference T86 T83
+T87	Thing-Nominal 800 808	省市重点建设项目
+T88	Thing-Nominal 794 799	农业大市场
+R9	General-Special Arg1:T87 Arg2:T88	
+T89	Location-Name 809 812	尚阳城
+T90	Metric 814 819	50万平米
+T91	Thing-Nominal 814 827	50万平米超大中央湖景公园
+R10	Located Arg1:T91 Arg2:T89	
+T92	Metric 828 831	4公里
+T93	Thing-Nominal 828 835	4公里环湖栈道
+R11	Located Arg1:T93 Arg2:T89	
+T94	Thing-Nominal 836 843	天然的运动长廊
+R12	General-Special Arg1:T93 Arg2:T94	
+T95	Thing-Nominal 845 853	3重立体景观园林
+R13	Located Arg1:T95 Arg2:T89	
+T96	Person-Nominal 855 860	老人和孩子
+T97	Thing-Nominal 855 867	老人和孩子颐养天伦的乐园
+R14	Use Arg1:T96 Arg2:T97	
+T98	Thing-Pronoun 868 870	它们
+T99	Location-Nominal 877 879	我市
+*	Coreference T101 T102
+T100	Thing-Pronoun 888 890	它们
+T101	Location-Name 903 908	美丽的宿豫
+T102	Location-Pronoun 909 911	这里
+T103	Location-Name 924 933	京杭大运河的中运河
+T104	Location-Name 936 942	宿新高速公路
+T105	Location-Name 945 948	六塘河
+T106	Location-Name 956 960	牡丹江河
+T107	Location-Nominal 922 923	西
+T108	Location-Nominal 934 935	东
+T109	Location-Nominal 943 944	北
+T110	Location-Nominal 949 951	东郊
+T111	Thing-Nominal 961 963	三河
+T112	Thing-Nominal 967 969	公路
+T113	Thing-Nominal 972 974	绿树
+T114	Thing-Nominal 970 971	网
+T115	Thing-Nominal 975 976	荫
+T116	Location-Nominal 983 997	特色鲜明的宜商之区、宜居之地
+R15	General-Special Arg1:T116 Arg2:T102	
+T117	Metric 999 1001	十年
+T118	Time-Implicit 1007 1009	现今
+T119	Location-Nominal 1001 1003	河东
+T120	Location-Nominal 1004 1006	河西
+T122	Metric 1016 1018	十年
+T123	Time-Implicit 1026 1029	十年前
+T124	Location-Pronoun 1030 1032	这里
+T121	Location-Nominal 1010 1012	河东
+*	Coreference T124 T121
+T125	Thing-Nominal 1037 1041	沟沟塘塘
+R16	Located Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 1042 1044	茅草
+R17	Located Arg1:T126 Arg2:T124	
+T127	Time-Implicit 1049 1051	如今
+T128	Time-Implicit 1064 1066	现在
+T129	Location-Name 1067 1070	宿豫区
+T130	Location-Nominal 1098 1102	宿豫新城
+R18	Part-Whole Arg1:T3 Arg2:T85	
+T131	Organization-Nominal 1122 1128	区委、区政府
+T132	Person-Nominal 1136 1146	六十八万宿豫英雄儿女
+T133	Location-Name 1152 1156	宿豫新城
+R19	Part-Whole Arg1:T129 Arg2:T130	
+T134	Organization-Nominal 1184 1189	区委区政府
+*	Coreference T134 T131
+T135	Location-Name 1299 1302	宿迁市
+R20	Part-Whole Arg1:T129 Arg2:T135	
+T136	Abstract 1252 1264	中华民族伟大复兴的中国梦
+*	Coreference T135 T99

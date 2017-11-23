@@ -1,0 +1,175 @@
+T1	Time-Implicit 0 5	夜阑人静时
+T2	Person-Name 8 11	苏东坡
+T3	Thing-Nominal 8 14	苏东坡的诗词
+R1	Create Arg1:T2 Arg2:T3	
+T4	Person-Nominal 16 17	人
+T5	Person-Name 31 34	苏东坡
+T6	Person-Nominal 35 42	一个真正的文人
+R2	General-Special Arg1:T6 Arg2:T5	
+T7	Person-Pronoun 43 44	他
+*	Coreference T7 T5 T10
+T8	Person-Nominal 45 47	文人
+R3	General-Special Arg1:T8 Arg2:T7	
+T9	Location-Nominal 55 66	一个属于自己的精神家园
+T10	Person-Pronoun 59 61	自己
+T11	Person-Pronoun 67 68	他
+T12	Person-Pronoun 74 75	他
+T13	Person-Pronoun 82 83	他
+T14	Person-Pronoun 88 89	他
+T15	Person-Name 117 125	东晋大诗人陶渊明
+T16	Person-Name 133 136	苏东坡
+T17	Person-Name 147 150	苏东坡
+T18	Person-Nominal 158 159;160 166	北 宋的文坛奇才
+R4	General-Special Arg1:T18 Arg2:T17	
+T19	Person-Pronoun 167 168	他
+T20	Person-Pronoun 176 177	他
+T21	Person-Pronoun 183 185	自己
+T22	Person-Nominal 203 207	一个文人
+R5	General-Special Arg1:T22 Arg2:T17	
+T23	Person-Pronoun 208 209	他
+T24	Thing-Nominal 231 233	尘滓
+T25	Person-Pronoun 236 237	他
+T26	Thing-Nominal 269 273	他的诗文
+T27	Person-Pronoun 269 270	他
+R6	Create Arg1:T27 Arg2:T26	
+T28	Person-Nominal 306 308	文人
+T29	Person-Pronoun 318 320	自己
+*	Coreference T29 T28
+T30	Person-Nominal 314 316	别人
+T31	Person-Nominal 324 326	别人
+T32	Person-Nominal 331 335	清客小人
+T33	Person-Nominal 352 359	一个真正的文人
+T34	Person-Pronoun 369 370	他
+*	Coreference T33 T34 T35
+T35	Person-Pronoun 372 373	其
+T36	Location-Nominal 386 388	监牢
+T37	Location-Nominal 377 379	朝堂
+T38	Person-Pronoun 401 404	苏东坡
+T39	Thing-Nominal 405 411	他不朽的诗文
+*	Coreference T39 T26
+T40	Person-Pronoun 405 406	他
+T41	Person-Nominal 418 422	清客小人
+T42	Thing-Nominal 437 439	尘埃
+T43	Person-Pronoun 445 446	他
+T44	Person-Pronoun 451 452	他
+T45	Person-Pronoun 466 467	他
+T46	Person-Nominal 475 479	一个文人
+T47	Person-Pronoun 491 493	自己
+T48	Person-Pronoun 514 515	他
+T49	Person-Pronoun 529 530	他
+T50	Person-Nominal 548 555	嚣张的清客小人
+*	Coreference T50 T41 T54 T56
+T51	Person-Pronoun 556 557	他
+T52	Person-Name 566 569	苏东坡
+T53	Person-Pronoun 574 575	他
+T54	Person-Nominal 578 587	这些自诩为饱学之人
+T55	Person-Pronoun 591 592	他
+T56	Person-Pronoun 595 597	他们
+T57	Person-Pronoun 602 603	他
+T58	Person-Nominal 616 620	一个文人
+T59	Person-Pronoun 626 627	他
+T60	Person-Nominal 630 637	一个真实的自己
+T61	Person-Pronoun 639 640	我
+T62	Person-Pronoun 644 645	我
+T63	Person-Nominal 691 699	时代的真正的文人
+T64	Time-Implicit 708 711;712 717	他所处 的具体时代
+T65	Person-Nominal 718 722	文化小人
+T66	Person-Pronoun 724 725	他
+*	Coreference T66 T63
+T67	Person-Pronoun 733 734	他
+T68	Person-Pronoun 737 738	他
+T69	Person-Pronoun 741 742	他
+T70	Person-Pronoun 754 755	他
+T71	Person-Nominal 758 765	一个真正的文人
+T72	Thing-Nominal 769 770	头
+R7	Part-Whole Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 773 775	皓月
+T74	Thing-Name 779 780	月
+*	Coreference T74 T73 T84
+T75	Thing-Nominal 784 785	酒
+T76	Person-Pronoun 803 804	他
+T77	Person-Pronoun 807 809	自己
+*	Coreference T77 T76
+T78	Thing-Nominal 788 789	酒
+T79	Thing-Nominal 790 791	愁
+T80	Person-Pronoun 815 816	他
+T81	Person-Nominal 828 829	人
+T82	Thing-Nominal 836 837	月
+T83	Person-Nominal 851 852	人
+T84	Thing-Name 858 860	婵娟
+T85	Person-Pronoun 864 865	他
+T86	Person-Name 882 885	苏东坡
+*	Coreference T85 T86
+T87	Thing-Nominal 889 891	缺月
+T88	Thing-Nominal 892 894	疏桐
+T89	Person-Nominal 904 906	幽人
+T90	Thing-Nominal 896 897	漏
+T91	Person-Nominal 898 899	人
+T92	Person-Pronoun 902 903	谁
+T93	Thing-Nominal 912 914	孤鸿
+T94	Thing-Nominal 920 921	头
+T95	Person-Nominal 925 926	人
+T96	Thing-Nominal 930 932	寒枝
+T97	Thing-Nominal 938 940	沙洲
+T98	Person-Nominal 943 945	文人
+T99	Person-Nominal 953 955	文人
+T100	Person-Pronoun 966 967	他
+T101	Thing-Nominal 978 980	山川
+T102	Location-Nominal 999 1003	高天之外
+T103	Time-Implicit 1004 1006	春秋
+T104	Person-Pronoun 1007 1008	他
+T105	Person-Nominal 1011 1016;1017 1019	一个真正的 文人
+R8	General-Special Arg1:T105 Arg2:T104	
+T106	Person-Pronoun 1021 1023	自己
+T107	Thing-Name 1030 1032	自然
+T108	Person-Nominal 1034 1035	人
+T109	Person-Pronoun 1047 1048	他
+T110	Thing-Nominal 1052 1056	优美的诗
+R9	Create Arg1:T109 Arg2:T110	
+T111	Person-Pronoun 1060 1061	他
+T112	Location-Name 1071 1073	黄州
+T113	Location-Nominal 1074 1080	这个荒芜之地
+*	Coreference T113 T112
+T114	Person-Pronoun 1082 1083	他
+T115	Location-Name 1092 1094	黄州
+T116	Person-Nominal 1097 1103	一代文学大师
+*	Coreference T116 T114 T118
+T117	Location-Name 1104 1106	黄州
+T118	Person-Nominal 1108 1110	大师
+T119	Person-Nominal 1125 1127	大师
+T120	Person-Nominal 1142 1146	一个文人
+T121	Thing-Nominal 1150 1152	低谷
+T122	Person-Pronoun 1158 1160	自己
+*	Coreference T122 T120
+T123	Thing-Nominal 1168 1170	大江
+T124	Thing-Nominal 1172 1173	浪
+T125	Person-Nominal 1187 1193	最公正的法官
+T126	Thing-Nominal 1194 1196	大浪
+T127	Thing-Nominal 1197 1198	沙
+T128	Person-Nominal 1202 1209	一代大师的英名
+T129	Person-Nominal 1210 1217	当年的文化小人
+T130	Time-Implicit 1210 1212	当年
+*	Coreference T129 T65
+T131	Thing-Nominal 1222 1226	滔滔江水
+T132	Person-Name 1234 1237	苏东坡
+T133	Thing-Nominal 1241 1243	长江
+T134	Thing-Nominal 1264 1266	江月
+T135	Time-Implicit 1234 1271	苏东坡面对滚滚长江东逝水，慨叹“早生华发，人生如梦，一樽还酹江月。”的时候
+T136	Person-Pronoun 1272 1273	他
+T137	Thing-Nominal 1278 1287	一篇篇呕心旷世之作
+R10	Create Arg1:T136 Arg2:T137	
+T138	Person-Pronoun 1292 1293	他
+T139	Person-Name 1300 1303	高尔基
+T140	Organization-Nominal 1314 1316	大学
+T141	Person-Nominal 1318 1327	一个伟大的文学大师
+T142	Person-Pronoun 1365 1366	他
+*	Coreference T141 T142 T144 T143
+T143	Person-Nominal 1369 1376	一个真正的自己
+T144	Person-Nominal 1392 1396	一个文人
+T145	Person-Pronoun 1420 1421	他
+T146	Person-Nominal 1453 1460	一个真正的文人
+T147	Person-Pronoun 1469 1471	我们
+T148	Location-Nominal 1481 1486	茫茫尘世间
+T149	Person-Nominal 1487 1492	与其同归者
+T150	Person-Nominal 1497 1499	文人
+T151	Person-Pronoun 1518 1520	自己

@@ -1,0 +1,180 @@
+T1	Person-Pronoun 10 11	我
+T2	Person-Nominal 14 16	女儿
+R1	Family Arg1:T2 Arg2:T1	
+T3	Location-Name 19 22	茶园镇
+T4	Location-Name 19 28	茶园镇往北的味菇坊
+R2	Near Arg1:T4 Arg2:T3	
+T5	Person-Nominal 32 34	妻子
+T6	Person-Nominal 35 37	女儿
+T7	Person-Pronoun 29 30	我
+R3	Family Arg1:T5 Arg2:T7	
+R4	Family Arg1:T6 Arg2:T5	
+T8	Location-Nominal 32 42	妻子和女儿工作的地方
+*	Coreference T8 T4
+T9	Location-Nominal 71 73	山水
+T10	Thing-Nominal 154 156	云彩
+T11	Thing-Nominal 159 161	太阳
+T12	Thing-Nominal 165 167	蓝天
+T13	Person-Pronoun 168 169	我
+T14	Person-Pronoun 177 178	我
+T15	Thing-Nominal 180 183	中巴车
+T16	Location-Nominal 184 186	野地
+T17	Thing-Nominal 187 192	飞翔的鸟儿
+T18	Thing-Pronoun 193 195	它们
+*	Coreference T18 T17
+T19	Location-Nominal 207 211;212 213	明净的湖 边
+T20	Thing-Pronoun 218 220	它们
+T21	Person-Nominal 222 227	俗气的人们
+T22	Person-Pronoun 233 234	我
+T23	Person-Nominal 239 241	爸妈
+T24	Person-Nominal 247 249	儿女
+T25	Person-Pronoun 259 261	自己
+T26	Person-Pronoun 266 267	你
+T27	Person-Nominal 270 272	鸟儿
+T28	Person-Nominal 274 281	自私自利的我们
+T29	Person-Pronoun 295 297	它们
+*	Coreference T29 T27
+T30	Person-Nominal 321 323	人们
+T31	Thing-Pronoun 336 337	它
+R5	Part-Whole Arg1:T31 Arg2:T27	
+T32	Person-Nominal 339 341	人们
+T33	Person-Pronoun 360 361	你
+T34	Thing-Nominal 388 389	瓜
+T35	Thing-Nominal 390 391	蒂
+T36	Person-Nominal 414 419	爱你的家人
+T37	Person-Pronoun 415 416	你
+T38	Person-Pronoun 489 490	你
+T39	Location-Nominal 504 508	岳麓书院
+T40	Location-Nominal 521 525	千年学府
+*	Coreference T40 T39
+T41	Thing-Nominal 551 554	中巴车
+T42	Thing-Nominal 557 559	小桥
+T43	Thing-Nominal 559 561	流水
+T44	Thing-Nominal 566 571	两层新洋房
+T45	Location-Name 572 575	茶园镇
+T46	Person-Nominal 583 585	女儿
+T47	Thing-Nominal 622 624	山雀
+T48	Location-Nominal 638 643	碧绿的小溪
+T49	Metric 636 638	一条
+T50	Location-Nominal 629 635	车道宽的路边
+T51	Metric 627 629	一个
+T52	Person-Name 650 652	嫦娥
+T53	Thing-Nominal 652 654;655 660	手舞 足蹈的裙带
+T54	Thing-Nominal 664 666	黄牛
+T55	Thing-Nominal 667 669	黑牛
+T56	Location-Nominal 670 673	田梗上
+T57	Thing-Nominal 674 675	草
+T58	Thing-Nominal 677 679	眼角
+T59	Person-Pronoun 682 683	我
+R6	Part-Whole Arg1:T55 Arg2:T58	
+R7	Part-Whole Arg1:T58 Arg2:T54	
+T60	Person-Nominal 684 686	女儿
+T61	Thing-Pronoun 721 723	我们
+*	Coreference T61 T55 T54
+T62	Location-Pronoun 745 747	这儿
+*	Coreference T62 T45 T63 T66
+T63	Location-Nominal 748 752	湘乡地界
+T64	Thing-Nominal 766 768	楠竹
+T65	Thing-Nominal 769 771	蘑菇
+T66	Location-Nominal 766 774	楠竹和蘑菇的故乡
+T67	Location-Nominal 780 782	公路
+T68	Person-Nominal 783 785	山民
+T69	Thing-Nominal 787 789	山货
+T70	Thing-Nominal 790 792	楠竹
+T71	Person-Nominal 798 804	村长模样的人
+T72	Metric 796 798	一个
+T73	Person-Pronoun 806 807	我
+T74	Person-Nominal 813 818	山里的村民
+T75	Person-Nominal 843 845	村长
+*	Coreference T75 T71
+T76	Person-Pronoun 848 849	我
+T77	Thing-Nominal 882 884	庄稼
+T78	Thing-Nominal 894 895	酒
+T79	Thing-Nominal 888 889	牌
+T80	Thing-Nominal 989 991	植物
+T81	Thing-Nominal 994 996	鲜花
+T82	Thing-Nominal 1002 1009	神奇艳美的蝴蝶
+T83	Person-Pronoun 1010 1011	我
+T84	Time-Implicit 1013 1016	早些年
+T85	Location-Name 1017 1019	龙山
+T86	Location-Name 1020 1022	永顺
+T87	Location-Name 1023 1025	保靖
+T88	Location-Name 1026 1028	古丈
+T89	Person-Nominal 1029 1033	土家族人
+T90	Location-Nominal 1029 1038	土家族人聚居的地方
+R8	General-Special Arg1:T90 Arg2:T85	
+R9	General-Special Arg1:T90 Arg2:T86	
+R10	General-Special Arg1:T90 Arg2:T87	
+R11	General-Special Arg1:T90 Arg2:T88	
+T91	Thing-Nominal 1044 1046	露水
+T92	Thing-Nominal 1051 1052	铁
+T93	Location-Nominal 1054 1055	田
+T94	Location-Nominal 1048 1049	山
+T95	Thing-Nominal 1057 1058	种
+T96	Thing-Nominal 1063 1065	粑粑
+T97	Person-Nominal 1067 1069	新娘
+T98	Person-Nominal 1075 1079	那儿的人
+T99	Person-Nominal 1093 1098	眼前的村民
+*	Coreference T99 T74
+T100	Location-Nominal 1117 1119	屋场
+T101	Thing-Nominal 1121 1122	狗
+T102	Person-Nominal 1125 1128	小两口
+T103	Time-Implicit 1147 1149	如今
+T104	Thing-Nominal 1191 1193	桃树
+T105	Thing-Nominal 1194 1196	梨树
+T106	Location-Nominal 1206 1211	远处的水塘
+T107	Thing-Nominal 1218 1221	大白鹅
+T108	Thing-Nominal 1222 1224	红掌
+T109	Thing-Nominal 1226 1228	清波
+R12	Part-Whole Arg1:T108 Arg2:T107	
+T110	Metric 1216 1218	一只
+T111	Thing-Nominal 1231 1233	鸭子
+T112	Metric 1229 1231	几只
+T113	Location-Nominal 1239 1241	茶园
+T114	Location-Name 1250 1257	山坡上的味菇坊
+T115	Location-Nominal 1258 1260	厂房
+T116	Location-Nominal 1265 1268	宿舍区
+T117	Location-Nominal 1273 1276	大门口
+T118	Person-Nominal 1277 1281	中年保安
+T119	Thing-Nominal 1283 1285	椅子
+T120	Location-Name 1302 1305	味菇坊
+*	Coreference T120 T114 T121
+T121	Location-Nominal 1306 1323	经验非常丰富的多种蘑菇加工生产基地
+T122	Person-Nominal 1324 1329	厂里的工人
+R13	Ownership Arg1:T122 Arg2:T120	
+T123	Person-Nominal 1344 1348	男女老少
+T124	Location-Name 1349 1352	味菇坊
+T125	Location-Name 1360 1362	浙江
+T126	Location-Nominal 1357 1359	分厂
+R14	Near Arg1:T126 Arg2:T125	
+T127	Metric 1355 1357	一个
+T128	Location-Name 1365 1368	味菇坊
+T129	Person-Nominal 1369 1372	工人们
+T130	Thing-Nominal 1389 1391	蘑菇
+T131	Location-Nominal 1393 1397	中南五省
+T132	Location-Nominal 1403 1405	全国
+T133	Location-Nominal 1411 1413	茶园
+T134	Location-Nominal 1423 1434	我妻子和女儿工作的地方
+T135	Location-Name 1419 1422	味菇坊
+*	Coreference T134 T135
+T136	Person-Pronoun 1441 1442	我
+T137	Person-Nominal 1451 1453	女儿
+T138	Thing-Nominal 1460 1462	脸庞
+R15	Part-Whole Arg1:T138 Arg2:T137	
+T139	Person-Nominal 1463 1467	中年保安
+*	Coreference T139 T118
+T140	Location-Nominal 1480 1482	大门
+T141	Thing-Nominal 1491 1493	野狗
+T142	Metric 1489 1491	几只
+T143	Person-Pronoun 1487 1488	我
+T144	Person-Name 1496 1502	五保户喻大爷
+T145	Thing-Nominal 1503 1506	小三轮
+T146	Person-Pronoun 1507 1508	我
+T147	Location-Name 1556 1563	乡毛田乡泉新村
+T148	Thing-Nominal 1564 1567	三轮车
+T149	Thing-Nominal 1572 1574	山雀
+T150	Person-Pronoun 1576 1577	我
+T151	Location-Nominal 1586 1588	茶园
+T152	Person-Pronoun 1596 1597	你
+T153	Location-Nominal 1610 1614	华夏大地
+T154	Thing-Nominal 1618 1620	候鸟

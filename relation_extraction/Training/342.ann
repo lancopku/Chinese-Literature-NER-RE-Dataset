@@ -1,0 +1,241 @@
+T1	Thing-Nominal 24 27	这些词
+T2	Person-Nominal 30 33	手艺人
+T3	Person-Nominal 49 50	人
+T4	Person-Pronoun 52 53	你
+T5	Thing-Nominal 56 60	一技之长
+R1	Ownership Arg1:T4 Arg2:T5	
+T6	Person-Pronoun 62 63	我
+T7	Person-Pronoun 71 72	他
+*	Coreference T6 T4
+*	Coreference T7 T3
+T8	Person-Pronoun 73 74	我
+T9	Thing-Nominal 77 79	梨筐
+T10	Person-Nominal 84 85	人
+T11	Person-Nominal 93 97	县级干部
+R2	General-Special Arg1:T11 Arg2:T6	
+T12	Thing-Nominal 102 104	梨筐
+T13	Metric 91 93	一个
+T14	Person-Pronoun 114 115	我
+T15	Time-Implicit 122 126	五十年前
+T16	Person-Pronoun 140 141	我
+T17	Time-Implicit 154 162	上世纪六十年代初
+T18	Time-Explicit 165 171	三年困难时期
+T19	Location-Name 172 175	迁西县
+T20	Location-Nominal 179 185	有名的贫困县
+R3	General-Special Arg1:T20 Arg2:T19	
+T21	Location-Nominal 187 191	我的家乡
+T22	Location-Name 193 197	凿子岭村
+*	Coreference T21 T22
+R4	Part-Whole Arg1:T22 Arg2:T19	
+T23	Person-Nominal 217 218	人
+T24	Thing-Nominal 226 229	茅草房
+T25	Thing-Nominal 230 232	白薯
+T26	Thing-Nominal 233 235	细粮
+T27	Thing-Nominal 236 239	鸡屁股
+T28	Organization-Nominal 240 242	银行
+T29	Time-Explicit 252 254	电影
+T30	Person-Pronoun 258 259	我
+T31	Location-Nominal 259 261	眼前
+T32	Time-Explicit 269 274	一九六二年
+T33	Person-Pronoun 276 277	我
+T34	Person-Pronoun 286 291	十四岁的我
+*	Coreference T34 T33
+T35	Metric 286 289	十四岁
+T36	Person-Nominal 313 317	我的父母
+T37	Person-Nominal 319 325	我们八个孩子
+R5	Family Arg1:T37 Arg2:T36	
+T38	Person-Pronoun 313 314	我
+R6	Family Arg1:T38 Arg2:T36	
+R7	Part-Whole Arg1:T38 Arg2:T37	
+T39	Person-Nominal 326 334	我上面的四个姐姐
+R8	Part-Whole Arg1:T39 Arg2:T37	
+T40	Person-Nominal 340 344	三个哥哥
+R9	Part-Whole Arg1:T40 Arg2:T37	
+R10	Family Arg1:T40 Arg2:T39	
+T41	Person-Nominal 350 352	父亲
+R11	Part-Whole Arg1:T41 Arg2:T36	
+T42	Person-Nominal 357 359	母亲
+R12	Part-Whole Arg1:T42 Arg2:T36	
+R13	Family Arg1:T42 Arg2:T41	
+T43	Person-Nominal 360 364	小脚女人
+R14	General-Special Arg1:T43 Arg2:T42	
+T44	Metric 354 356	七旬
+T45	Person-Pronoun 383 384	我
+T46	Person-Nominal 399 404	穷人的孩子
+R15	General-Special Arg1:T46 Arg2:T45	
+T47	Person-Pronoun 409 410	我
+T48	Person-Nominal 414 420	成熟的小大人
+R16	General-Special Arg1:T48 Arg2:T47	
+T49	Person-Pronoun 439 440	我
+T50	Time-Implicit 440 442	每天
+T51	Time-Implicit 447 450	天不亮
+T52	Location-Nominal 452 454	山上
+T53	Thing-Nominal 455 456	柴
+R17	Located Arg1:T53 Arg2:T52	
+T54	Time-Implicit 457 458;459 460	白 天
+T55	Organization-Nominal 463 466	生产队
+T56	Metric 472 475	五分儿
+T57	Metric 469 471	一天
+T58	Thing-Nominal 499 504	五、六毛钱
+T59	Thing-Nominal 505 509	一年所得
+T60	Thing-Nominal 512 515	口粮钱
+T61	Person-Pronoun 518 519	我
+T62	Person-Pronoun 547 548	我
+T63	Person-Nominal 548 549	人
+*	Coreference T63 T62
+T64	Thing-Nominal 550 551	力
+R18	Ownership Arg1:T62 Arg2:T64	
+T65	Person-Pronoun 585 586	我
+T66	Person-Nominal 597 599	二哥
+T67	Person-Pronoun 603 604	他
+*	Coreference T67 T66
+T68	Organization-Nominal 605 608	供销社
+T69	Thing-Nominal 609 611	梨筐
+T70	Thing-Nominal 612 615	手工费
+T71	Thing-Nominal 619 624	三毛五分钱
+T72	Metric 625 627	一天
+T73	Metric 628 631	七八个
+T74	Thing-Nominal 634 638	两块多钱
+T75	Metric 634 637	两块多
+T76	Metric 619 623	三毛五分
+T77	Metric 499 503	五、六毛
+T78	Metric 478 480	十分
+T79	Person-Pronoun 639 640	我
+R19	Family Arg1:T66 Arg2:T65	
+T80	Person-Nominal 600 602	编匠
+R20	General-Special Arg1:T80 Arg2:T66	
+T81	Person-Pronoun 644 645	他
+T82	Thing-Nominal 656 657;658 659	梨 筐
+T83	Person-Nominal 682 685	有的人
+T84	Metric 687 690	好几年
+T85	Thing-Nominal 697 702	标准的梨筐
+R21	General-Special Arg1:T82 Arg2:T85	
+T86	Metric 695 697	一个
+T87	Metric 714 716	一个
+T88	Thing-Nominal 716 718;719 721	标准 梨筐
+T89	Abstract 728 730	高度
+T90	Metric 730 734	六十公分
+T91	Abstract 735 737	口径
+T92	Metric 737 741	五十公分
+T93	Abstract 742 746	筐底直径
+T94	Metric 746 750	三十公分
+T95	Thing-Nominal 751 757	编出来的梨筐
+T96	Metric 758 760	八个
+T97	Metric 760 762	一摞
+T98	Metric 773 776	一点儿
+T99	Organization-Nominal 797 800	供销社
+T100	Thing-Nominal 800 803	荆条钱
+T101	Person-Pronoun 844 845	我
+T102	Thing-Nominal 852 857	必要的工具
+T104	Metric 858 860	一个
+T105	Metric 864 866	一个
+T106	Metric 871 873	一把
+T107	Metric 877 879	一个
+T108	Thing-Nominal 880 884	狍子犄角
+T109	Metric 890 892	一根
+T110	Metric 892 895	三尺长
+T103	Thing-Nominal 858 901;902 908	一个小马扎、一个小坐垫儿、一把小镰刀、一个用狍子犄角做成的锥子、一根三尺长的细绳子，一 双胶皮掌子鞋
+*	Coreference T103 T102
+T111	Metric 900 901;902 903	一 双
+T112	Thing-Nominal 910 912	用料
+T113	Thing-Nominal 913 928	从山上割下的粗细长短不一的荆条
+*	Coreference T113 T112 T116
+T114	Location-Nominal 934 937	河水里
+T115	Metric 938 943	一个月左右
+T116	Thing-Nominal 944 946	条子
+T117	Person-Pronoun 970 971	我
+T118	Thing-Nominal 975 982	一些简单的物件
+T119	Thing-Nominal 984 1002	笼子、浅子、柴禾篓子、粪筐、粪箕子等
+*	Coreference T119 T118 T120
+T120	Thing-Nominal 1005 1009	这些东西
+T121	Person-Nominal 1019 1021	自家
+T122	Thing-Nominal 1039 1040	钱
+T123	Organization-Nominal 1043 1046	供销社
+T124	Person-Nominal 1060 1063	乡亲们
+R22	Social Arg1:T124 Arg2:T117	
+T125	Thing-Nominal 1071 1073	梨筐
+T126	Person-Nominal 1078 1080	二哥
+T127	Person-Pronoun 1074 1075	我
+R23	Family Arg1:T126 Arg2:T127	
+T128	Metric 1153 1156	几个月
+T129	Thing-Nominal 1169 1171	荆条
+T130	Thing-Nominal 1177 1182	标准的梨筐
+R24	Create Arg1:T127 Arg2:T130	
+T131	Time-Implicit 1185 1187;1188 1189	第一 天
+T132	Person-Nominal 1190 1192	二哥
+T133	Organization-Nominal 1193 1196	供销社
+T134	Thing-Nominal 1197 1199	梨筐
+T135	Metric 1205 1207	五个
+T136	Metric 1210 1217	一块七毛五分钱
+T137	Person-Pronoun 1220 1221	我
+T138	Person-Pronoun 1231 1232	我
+T139	Metric 1238 1242	一天时间
+T140	Time-Implicit 1262 1266	几个月后
+T141	Metric 1268 1270	一天
+T142	Metric 1271 1273	五个
+T143	Metric 1278 1288	六个、七个、甚至八个
+T144	Metric 1291 1297	不到一年时间
+T145	Person-Pronoun 1301 1302	我
+T146	Person-Nominal 1327 1334	其他几位老师傅
+R25	Social Arg1:T146 Arg2:T145	
+T147	Thing-Nominal 1340 1342	荆条
+T148	Thing-Nominal 1346 1357	粗的、细的、长的、短的
+R26	General-Special Arg1:T147 Arg2:T148	
+T149	Person-Pronoun 1359 1360	我
+T150	Location-Nominal 1360 1362	手里
+T151	Metric 1384 1389	四十五分钟
+T152	Thing-Nominal 1390 1394	一个梨筐
+T153	Metric 1397 1401	十五分钟
+T154	Thing-Nominal 1402 1407	一个筐盖儿
+T155	Person-Nominal 1410 1415	我们五个人
+T156	Person-Nominal 1448 1454	一旁观看的人
+T157	Location-Nominal 1503 1510	我们那十里八村
+T158	Organization-Nominal 1516 1519	供销社
+T159	Person-Nominal 1511 1525	能有资格在供销社混这碗饭吃的
+T160	Person-Nominal 1530 1535	我们五个人
+*	Coreference T159 T160
+T161	Person-Pronoun 1538 1539	我
+T162	Person-Nominal 1540 1547	年龄最小的一个
+*	Coreference T162 T161
+R27	Part-Whole Arg1:T162 Arg2:T160	
+T163	Person-Pronoun 1554 1555	我
+T164	Person-Pronoun 1571 1572	我
+T165	Person-Nominal 1598 1606	我那爱喝酒的老爸
+*	Coreference T165 T41 T167 T168
+T166	Thing-Nominal 1612 1619	二两白薯干儿酒
+R28	Use Arg1:T165 Arg2:T166	
+T167	Person-Nominal 1625 1627	父亲
+T168	Person-Pronoun 1636 1637	他
+T169	Person-Pronoun 1645 1646	我
+T170	Person-Nominal 1648 1657	一个能挣钱的老儿子
+*	Coreference T170 T169
+T171	Person-Pronoun 1659 1660	他
+T172	Time-Explicit 1673 1676	六九年
+T173	Time-Implicit 1673 1682	六九年供销社招工时
+T174	Time-Explicit 1684 1686	那年
+*	Coreference T174 T172
+T175	Person-Pronoun 1686 1687	我
+T176	Metric 1688 1692	二十一岁
+T177	Person-Nominal 1693 1699	供销社的领导
+T178	Person-Pronoun 1700 1701	我
+T179	Person-Pronoun 1723 1724	我
+T180	Person-Nominal 1730 1734	大队干部
+T181	Person-Pronoun 1737 1738	我
+T182	Person-Nominal 1745 1752	一名供销社职工
+R29	General-Special Arg1:T182 Arg2:T181	
+T183	Person-Nominal 1757 1759	会计
+R30	General-Special Arg1:T183 Arg2:T181	
+T184	Person-Pronoun 1769 1770	我
+T185	Time-Implicit 1778 1784	改革开放以后
+T186	Thing-Nominal 1798 1803	安梨和苹果
+T187	Thing-Nominal 1809 1813	专用纸箱
+T188	Thing-Nominal 1815 1817	梨筐
+T189	Person-Pronoun 1849 1850	我
+T190	Location-Nominal 1866 1868	我国
+T191	Location-Nominal 1905 1909	我们中国
+*	Coreference T191 T190
+T192	Location-Nominal 1912 1916	西方国家
+T193	Abstract 1947 1950	十八大
+T194	Person-Pronoun 1966 1967	我
+T195	Person-Name 1979 1982	习主席
+T196	Abstract 1985 1988	中国梦

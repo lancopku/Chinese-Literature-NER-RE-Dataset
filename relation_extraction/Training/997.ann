@@ -1,0 +1,340 @@
+T1	Organization-Nominal 2 6	各级政府
+T2	Location-Name 10 13	澧水河
+T3	Location-Name 27 32	新安漫水桥
+T4	Person-Pronoun 40 41	我
+T5	Location-Pronoun 47 48	它
+T6	Location-Pronoun 65 66	它
+T9	Person-Nominal 77 86	我们洞子坪的儿女们
+T10	Thing-Nominal 92 97	四周的水绳
+T11	Time-Explicit 107 112	1935年
+T12	Thing-Nominal 113 127	一场亘古未有的长驱直扫的恶水
+T8	Location-Name 79 82	洞子坪
+T14	Location-Pronoun 128 134	洞子坪土地上
+T15	Thing-Nominal 128 142	洞子坪土地上
+的所有地面建筑
+T16	Thing-Nominal 144 146	平地
+T17	Thing-Nominal 149 151	坑凹
+T18	Metric 155 159	176个
+T20	Location-Name 171 174	洞子坪
+T21	Thing-Nominal 194 197	水路钱
+T22	Thing-Nominal 200 202	洪水
+T23	Thing-Nominal 211 212	桥
+T24	Person-Nominal 216 218	农民
+T25	Time-Implicit 223 225	常年
+T26	Person-Nominal 228 230	自己
+T27	Thing-Nominal 231 237	农副土特产品
+R1	Ownership Arg1:T26 Arg2:T27	
+*	Coreference T24 T26
+T28	Thing-Nominal 238 240	物资
+T29	Thing-Nominal 254 256	物资
+T30	Thing-Nominal 245 253	生产、生活、文化
+T32	Thing-Nominal 270 272	货物
+T33	Person-Nominal 275 277	男女
+T34	Location-Name 363 367	新安大桥
+T35	Organization-Name 375 378	共产党
+T36	Time-Implicit 292 294	一年
+T37	Metric 294 298	百千万斤
+T38	Thing-Nominal 299 301	重担
+T39	Thing-Nominal 305 307	小船
+T40	Location-Nominal 342 345	河两岸
+T41	Person-Nominal 345 347	人民
+T42	Person-Nominal 389 391	人民
+T44	Location-Name 417 428	新安镇南大门澧水河滩上
+T45	Location-Name 433 450	上坪，下坪，良冯，樟木，南闸，北郊
+T46	Person-Nominal 453 456	儿女们
+T47	Time-Implicit 457 461	几千年来
+T48	Person-Nominal 457 465	几千年来的先人们
+T49	Organization-Nominal 472 474	政府
+T50	Person-Nominal 475 477	人民
+T51	Person-Nominal 479 481	人民
+T53	Organization-Name 485 488	共产党
+T56	Person-Nominal 503 506	祖辈们
+T57	Location-Name 515 522	新安镇简支板桥
+T58	Location-Name 525 531	新安漫水大桥
+*	Coreference T58 T57
+T59	Person-Pronoun 532 534	我们
+T60	Thing-Nominal 545 547	大桥
+T61	Thing-Nominal 563 564	桥
+T62	Metric 565 569	340米
+T63	Metric 572 576	7、3米
+T64	Metric 578 584	45、18米
+T65	Metric 585 588	13孔
+T66	Metric 591 594	13米
+T67	Metric 597 604	15――80吨
+T69	Metric 608 616	1017900元
+T70	Person-Nominal 617 620	儿女们
+T71	Thing-Nominal 629 630	钱
+T72	Thing-Nominal 550 552	磐石
+T73	Time-Implicit 632 635	当时的
+T74	Person-Nominal 639 642	儿女们
+T75	Metric 651 655	两百多万
+T76	Time-Explicit 656 662	1986年底
+T77	Thing-Nominal 667 668	桥
+T79	Thing-Nominal 679 680	桥
+T80	Person-Nominal 681 682	人
+T81	Thing-Nominal 688 690	手足
+T83	Thing-Nominal 691 692	桥
+T84	Location-Nominal 693 695	当地
+T85	Abstract 710 714	人类文化
+T89	Time-Implicit 2067 2070	几千年
+T90	Thing-Nominal 2067 2082	几千年的风雪、溺水、依星、伴月
+T91	Location-Nominal 2055 2057	两岸
+T92	Person-Nominal 2055 2060	两岸的儿女
+T93	Thing-Nominal 2035 2037	夕阳
+T94	Person-Pronoun 2039 2040	我
+T95	Thing-Nominal 2045 2050	澄莹的月光
+T96	Time-Explicit 2013 2017	半个时辰
+T97	Thing-Name 2019 2022	乃旮呀
+T98	Person-Pronoun 2027 2028	我
+T99	Person-Nominal 1991 1994	船老板
+T100	Location-Nominal 1963 1966	水中的
+T102	Person-Pronoun 1946 1947	我
+T103	Location-Nominal 1948 1950	桥下
+T104	Person-Pronoun 1936 1937	你
+T105	Person-Nominal 1906 1908	人们
+T106	Location-Nominal 1906 1911	人们头顶上
+T107	Thing-Nominal 1895 1902	活蹦乱跳的水鸟
+T108	Person-Nominal 1885 1887	故人
+T110	Thing-Nominal 1875 1877	花朵
+T111	Person-Pronoun 1859 1860	我
+T112	Person-Pronoun 1861 1862	你
+T114	Location-Name 1862 1867	这座漫水桥
+T115	Person-Pronoun 1846 1847	你
+T116	Thing-Nominal 1846 1850	你的乳汁
+T117	Location-Nominal 1838 1840	大地
+T118	Person-Pronoun 1814 1815	你
+T119	Thing-Nominal 1818 1820	苍龙
+T120	Location-Nominal 1818 1824	苍龙的脊背上
+T121	Location-Name 1825 1828	漫水桥
+T122	Thing-Nominal 1799 1803	一道道梁
+T123	Person-Pronoun 1808 1809	你
+T124	Time-Explicit 1785 1787	而今
+T125	Thing-Pronoun 1788 1789	你
+T126	Thing-Pronoun 1762 1763	你
+T127	Thing-Nominal 1762 1766	你的恶浪
+T128	Thing-Nominal 1771 1772	沙
+T129	Person-Pronoun 1739 1740	我
+T130	Thing-Pronoun 1743 1744	你
+T131	Thing-Pronoun 1747 1748	你
+T132	Thing-Nominal 1747 1751	你的乳汁
+T134	Person-Nominal 1719 1722	儿女们
+T136	Time-Explicit 1664 1670	1300多年
+T137	Thing-Pronoun 1672 1673	它
+T138	Person-Pronoun 1693 1694	我
+T139	Person-Nominal 1695 1700	您的儿女们
+T140	Thing-Pronoun 1706 1707	您
+T141	Thing-Pronoun 1712 1713	您
+T142	Person-Nominal 1715 1717	故人
+T143	Person-Nominal 720 722	人民
+T144	Person-Nominal 730 732	人类
+T146	Person-Pronoun 1620 1622	我们
+T147	Thing-Pronoun 1615 1616	你
+T145	Thing-Pronoun 1626 1627	你
+T148	Thing-Pronoun 1609 1610	你
+T149	Thing-Pronoun 1600 1601	你
+T150	Thing-Nominal 1597 1598	桥
+T151	Abstract 1578 1581	软效率
+T152	Thing-Nominal 718 719	桥
+R3	Part-Whole Arg1:T81 Arg2:T80	
+T154	Thing-Nominal 732 734	汗水
+T155	Thing-Nominal 735 737	果实
+T156	Thing-Nominal 738 739	桥
+T157	Thing-Nominal 742 744	江河
+T158	Thing-Nominal 745 747	工具
+T159	Thing-Nominal 757 758	桥
+T160	Time-Implicit 761 763	当代
+T161	Person-Nominal 765 767	子孙
+T162	Thing-Pronoun 772 773	它
+*	Coreference T162 T156
+T163	Metric 805 807	一个
+T164	Person-Nominal 810 812	军官
+T165	Person-Pronoun 819 820	他
+T166	Organization-Nominal 821 823	部队
+T167	Time-Implicit 824 826	八年
+T168	Location-Nominal 835 837	家乡
+T169	Person-Nominal 838 842	部队首长
+T170	Person-Pronoun 844 845	他
+T171	Time-Implicit 847 849	一天
+T172	Person-Nominal 852 854	父母
+T173	Person-Pronoun 855 856	他
+T174	Location-Nominal 862 863	家
+T175	Person-Pronoun 866 867	他
+T176	Location-Name 869 872	新安镇
+T177	Time-Implicit 876 879	下半夜
+T178	Person-Pronoun 880 881	他
+T180	Person-Nominal 892 894	房主
+T181	Person-Pronoun 896 897	他
+T182	Location-Name 898 900	新安
+T183	Person-Pronoun 906 907	您
+T184	Person-Pronoun 913 914	他
+T185	Location-Name 918 920	洞坪
+T186	Person-Pronoun 921 922	您
+T187	Location-Nominal 925 926	家
+T188	Thing-Nominal 933 935	旅馆
+T189	Person-Pronoun 936 937	他
+T190	Time-Implicit 939 942	这时候
+T191	Person-Pronoun 948 949	我
+T192	Person-Nominal 960 962	店主
+T193	Thing-Nominal 965 966	桥
+T194	Thing-Nominal 970 971	船
+T195	Person-Pronoun 974 975	他
+T196	Thing-Nominal 984 985	桥
+T197	Person-Pronoun 988 989	他
+T198	Location-Name 1001 1004	漫水桥
+T199	Person-Nominal 1005 1007	店住
+T200	Person-Pronoun 1011 1012	你
+T201	Thing-Nominal 1012 1015	住宿费
+T202	Person-Pronoun 1020 1021	他
+T203	Person-Pronoun 1031 1032	你
+T204	Person-Pronoun 1034 1035	我
+T205	Person-Pronoun 1045 1046	他
+T206	Location-Nominal 1047 1048	家
+T207	Time-Implicit 1046 1049	到家后
+T208	Person-Nominal 1058 1060	父母
+T210	Location-Nominal 1077 1078	桥
+T211	Thing-Nominal 1068 1073	一把手电筒
+T212	Thing-Nominal 1081 1086	明亮手电光
+T213	Person-Pronoun 1091 1092	他
+T214	Location-Name 1096 1099	漫水桥
+T215	Person-Pronoun 1110 1111	我
+T216	Person-Pronoun 1112 1113	他
+T217	Person-Pronoun 1114 1115	你
+T218	Thing-Nominal 1120 1121	桥
+T219	Thing-Nominal 1126 1127	桥
+T220	Person-Pronoun 1135 1136	他
+T221	Time-Implicit 1137 1140	八年前
+T222	Location-Nominal 1142 1143	家
+T223	Person-Pronoun 1140 1141	我
+T224	Time-Implicit 1145 1148	半夜里
+T225	Location-Nominal 1150 1152	河边
+T226	Person-Pronoun 1153 1154	我
+T227	Thing-Nominal 1161 1162	船
+T228	Person-Pronoun 1169 1170	我
+T229	Location-Nominal 1176 1184	小镇里所有的旅馆
+T231	Person-Nominal 1185 1188	店主们
+T232	Person-Pronoun 1190 1191	我
+T233	Person-Pronoun 1205 1206	我
+T234	Location-Nominal 1208 1215;1216 1217	河边吊脚楼马桶 下
+T236	Thing-Nominal 1235 1236	桥
+T238	Metric 1249 1252	82岁
+T239	Person-Name 1249 1256	82岁的杨大伯
+T240	Metric 1258 1260	一亩
+T241	Thing-Nominal 1258 1264	一亩地的大蒜
+T242	Thing-Nominal 1265 1267	蒜儿
+*	Coreference T242 T241
+T243	Location-Name 1272 1274	长沙
+T244	Thing-Nominal 1272 1278	长沙的大货车
+T245	Person-Pronoun 1280 1281	他
+T246	Location-Nominal 1280 1284	他家门口
+T247	Person-Nominal 1287 1289	车主
+T248	Person-Pronoun 1293 1294	他
+T249	Person-Nominal 1296 1298	老板
+T250	Person-Pronoun 1300 1301	您
+T251	Thing-Nominal 1302 1303	钱
+T252	Person-Pronoun 1308 1309	他
+T253	Person-Pronoun 1316 1317	您
+*	Coreference T253 T247
+T254	Person-Pronoun 1318 1319	我
+T255	Person-Nominal 1319 1321	老板
+T256	Person-Pronoun 1322 1323	我
+T257	Person-Nominal 1325 1327	老板
+T258	Person-Pronoun 1333 1334	我
+T259	Person-Name 1335 1339	地主老财
+T260	Time-Implicit 1341 1343	多年
+T261	Location-Name 1346 1349	新安河
+T262	Thing-Nominal 1351 1352	船
+T263	Person-Pronoun 1353 1354	他
+*	Coreference T263 T259
+T264	Time-Explicit 1357 1360	解放后
+T265	Location-Name 1362 1365	澧水河
+T266	Thing-Nominal 1366 1367	桥
+T267	Person-Pronoun 1368 1369	我
+T268	Thing-Nominal 1372 1373	船
+T269	Thing-Nominal 1374 1378	萝卜大蒜
+T270	Location-Nominal 1381 1383	镇里
+T271	Person-Pronoun 1393 1394	我
+T272	Person-Nominal 1401 1404	老板们
+T273	Person-Pronoun 1405 1406	我
+T274	Thing-Nominal 1405 1407	我的
+T278	Thing-Nominal 1413 1419	一担菜一碗面
+T279	Time-Implicit 1421 1423	现在
+T281	Person-Pronoun 1428 1429	我
+T282	Person-Nominal 1433 1435	老板
+*	Coreference T282 T281
+T283	Thing-Nominal 1437 1438	桥
+T285	Person-Pronoun 1446 1447	我
+T289	Location-Pronoun 1451 1452	这
+T290	Location-Name 1424 1427	漫水桥
+*	Coreference T289 T290
+T280	Person-Pronoun 1475 1476	我
+T291	Metric 1482 1484	几年
+T292	Thing-Nominal 1487 1488	桥
+T293	Person-Nominal 1494 1496	英雄
+T294	Location-Name 1506 1509	漫水桥
+T295	Location-Pronoun 1513 1514	它
+*	Coreference T295 T294
+T296	Location-Nominal 1515 1517	两岸
+T299	Metric 1551 1555	几百万元
+T302	Thing-Nominal 176 177	钱
+T303	Location-Nominal 180 182	坪门
+R7	Part-Whole Arg1:T28 Arg2:T27	
+T304	Person-Nominal 243 245	人们
+R8	Part-Whole Arg1:T29 Arg2:T30	
+T305	Thing-Nominal 321 322	船
+T306	Thing-Nominal 318 320	风雪
+T307	Time-Implicit 371 374	新社会
+T153	Abstract 715 717	传媒
+R11	Part-Whole Arg1:T154 Arg2:T144	
+*	Coreference T155 T152
+T308	Thing-Nominal 738 739	桥
+*	Coreference T158 T308
+*	Coreference T165 T164
+R4	Family Arg1:T172 Arg2:T170	
+T179	Location-Name 883 887	新安旅馆
+*	Coreference T183 T181
+*	Coreference T203 T199
+R5	Family Arg1:T208 Arg2:T205	
+T309	Location-Nominal 2029 2030	家
+T310	Person-Nominal 2008 2009	人
+T311	Person-Nominal 1918 1924	四方来的伙伴
+*	Coreference T5 T3
+T19	Person-Nominal 168 169	女
+T31	Thing-Nominal 263 268	磨茧的双肩
+T301	Person-Nominal 278 280	人人
+T43	Time-Explicit 400 416	改革开放的1985年12月25日
+T68	Person-Pronoun 1008 1009	他
+*	Coreference T200 T68
+T78	Metric 669 671	一个
+T82	Thing-Nominal 1238 1246	方便舒心的暖人桥
+*	Coreference T245 T239
+*	Coreference T149 T150
+T237	Location-Nominal 1686 1690	苍龙背上
+*	Coreference T137 T313
+T313	Thing-Pronoun 1695 1696	您
+T133	Thing-Nominal 1727 1737	这条古老、作吵的河流
+T109	Location-Nominal 1890 1893	碧波上
+T86	Thing-Nominal 2132 2136	这座新桥
+T87	Location-Nominal 1446 1450	我家门口
+T113	Person-Nominal 1454 1458	我们百姓
+T284	Thing-Nominal 1454 1462	我们百姓的翻身桥
+T286	Person-Nominal 1515 1519	两岸人民
+T135	Thing-Name 1654 1657;1658 1663	鬼斧神 工的赵州桥
+T287	Time-Implicit 1664 1671	1300多年了
+T288	Location-Nominal 1706 1711	您的龙脊上
+*	Coreference T130 T133
+R15	Part-Whole Arg1:T132 Arg2:T131	
+T297	Person-Nominal 1754 1757	代代人
+R12	Part-Whole Arg1:T127 Arg2:T126	
+T52	Organization-Nominal 479 484	人民的政府
+T54	Person-Nominal 497 501	我们人民
+T7	Location-Nominal 92 94	四周
+R6	Located Arg1:T10 Arg2:T7	
+R10	Located Arg1:T15 Arg2:T14	
+R14	Part-Whole Arg1:T116 Arg2:T115	
+T13	Person-Nominal 1684 1685	人
+*	Coreference T249 T248
+R13	Located Arg1:T244 Arg2:T246	
+R16	Create Arg1:T239 Arg2:T241	
+T55	Thing-Nominal 1218 1220	蚊虫
+T88	Thing-Nominal 993 995	行李
+T101	Metric 977 979	三尺

@@ -1,0 +1,219 @@
+T1	Time-Implicit 0 4	金秋时节
+T2	Time-Explicit 5 7	清早
+T3	Location-Nominal 5 10	清早的峰前
+T4	Location-Nominal 11 13	大地
+T5	Location-Nominal 29 38	笔直的村主干道两侧
+T6	Thing-Name 39 47	婀娜摇曳的三角梅
+R1	Located Arg1:T6 Arg2:T5	
+T7	Person-Nominal 53 58	盛装的少女
+T8	Person-Nominal 61 70	这群突然造访的人们
+T9	Thing-Nominal 73 76	一阵风
+T10	Time-Implicit 71 78	偶尔一阵风过后
+T11	Thing-Nominal 80 82	飞花
+T12	Location-Nominal 91 93	一地
+T13	Location-Nominal 97 100	田野里
+T14	Thing-Nominal 101 103	庄稼
+R2	Located Arg1:T14 Arg2:T13	
+T15	Time-Implicit 112 113	秋
+T16	Location-Nominal 118 120	田野
+T17	Thing-Nominal 130 133	新楼房
+R3	Located Arg1:T17 Arg2:T16	
+T18	Thing-Nominal 134 136	丽日
+T19	Thing-Nominal 139 140	墙
+T20	Thing-Nominal 141 142	瓦
+T21	Location-Nominal 157 160	护村河
+T22	Location-Nominal 171 174	水中的
+T23	Thing-Nominal 174 176	鱼儿
+R4	Located Arg1:T23 Arg2:T22	
+T24	Location-Pronoun 184 186	这里
+T25	Thing-Nominal 190 194	自然风景
+T26	Location-Nominal 196 199	大都市
+T27	Thing-Nominal 216 218	炊烟
+T28	Thing-Nominal 230 232	灯光
+T29	Thing-Nominal 207 209	晨光
+T30	Location-Nominal 207 210	晨光里
+R5	Located Arg1:T27 Arg2:T30	
+T31	Location-Nominal 230 233	灯光下
+T32	Thing-Nominal 234 236	如菊
+R6	Located Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 246 248	海堤
+T34	Location-Nominal 265 268	小渔村
+T35	Time-Explicit 269 271	昨日
+T36	Time-Implicit 272 274	未来
+T37	Thing-Nominal 276 278	海风
+T38	Thing-Nominal 281 283	浪涛
+T39	Thing-Nominal 293 295	号角
+T40	Location-Name 298 301	湄洲湾
+T41	Thing-Nominal 304 306	碧波
+R7	Located Arg1:T41 Arg2:T40	
+T42	Location-Name 312 314	峰前
+T43	Person-Nominal 314 315	人
+T44	Thing-Nominal 338 340	燃料
+T45	Thing-Nominal 334 336	汗水
+T46	Time-Implicit 343 346	昔日的
+T47	Location-Name 346 350	滨海渔村
+T48	Organization-Name 358 363	市级文明村
+T49	Organization-Name 366 374	市先进基层党组织
+*	Coreference T49 T47 T48
+T50	Person-Nominal 389 391	美女
+T51	Person-Nominal 391 393	村长
+T52	Location-Nominal 414 416	乡村
+T53	Person-Pronoun 422 423	她
+*	Coreference T53 T51
+T54	Thing-Nominal 440 443	水泥路
+T55	Location-Nominal 440 444	水泥路上
+T56	Person-Pronoun 449 450	我
+T57	Thing-Nominal 452 453	画
+T58	Thing-Nominal 457 458	画
+T59	Person-Pronoun 460 461	我
+T60	Thing-Nominal 461 462	眼
+T61	Location-Nominal 461 463	眼前
+T62	Thing-Nominal 467 468	天
+T63	Thing-Nominal 473 474	天
+T64	Thing-Nominal 475 477	月亮
+T65	Thing-Nominal 481 483	月亮
+T66	Thing-Nominal 486 487	地
+T67	Time-Explicit 491 494	昨日的
+T68	Thing-Nominal 494 495	地
+T69	Thing-Nominal 496 497	海
+T70	Thing-Nominal 503 504	海
+T71	Thing-Nominal 510 512	白驹
+T72	Metric 527 530	十三个
+T73	Time-Implicit 530 534	春华秋实
+T74	Location-Nominal 535 537	海港
+T75	Location-Nominal 554 556	新城
+T76	Location-Name 564 566	海西
+T77	Thing-Nominal 572 574	明珠
+T78	Location-Name 575 577	峰前
+T79	Location-Name 591 593	热土
+T80	Location-Nominal 598 600	角落
+R8	Part-Whole Arg1:T80 Arg2:T79	
+T81	Location-Nominal 615 622	青山间、巷陌里
+T82	Thing-Nominal 625 627	青苔
+T83	Thing-Nominal 630 632	古井
+R9	Located Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 638 640	石旗
+R10	Located Arg1:T83 Arg2:T81	
+R11	Located Arg1:T84 Arg2:T81	
+T85	Metric 645 648	一个个
+T86	Organization-Name 655 663	区级文物保护单位
+T87	Location-Name 665 668	白石宫
+T88	Person-Nominal 671 672	人
+T89	Time-Implicit 677 682	千百年时空
+T90	Abstract 683 685	文化
+T91	Location-Name 689 694	割山南洋街
+T92	Location-Name 695 700	土坑古民居
+T93	Location-Name 701 705	前黄土楼
+T94	Location-Name 706 708	樟脚
+T95	Thing-Nominal 708 711	油菜花
+T96	Location-Name 712 715	金钟潭
+T97	Person-Nominal 721 723	世人
+T98	Time-Implicit 743 745	时代
+T99	Abstract 747 750	中国梦
+T100	Location-Nominal 779 781	家乡
+T101	Person-Nominal 782 785	决策者
+T102	Term 789 792	37万
+T103	Location-Name 792 794	海港
+T104	Person-Nominal 794 795;796 797	儿 女
+T105	Thing-Nominal 836 838	蝶儿
+T106	Thing-Nominal 841 843	翼翅
+R12	Part-Whole Arg1:T106 Arg2:T105	
+T107	Thing-Nominal 848 850	秋叶
+T108	Location-Nominal 863 867	天地之间
+T109	Thing-Nominal 883 885	风雨
+R13	Located Arg1:T107 Arg2:T105	
+T110	Time-Explicit 892 894	那天
+T111	Person-Pronoun 896 897	你
+T112	Thing-Nominal 902 905	玫瑰花
+T113	Person-Pronoun 907 908	我
+T114	Person-Pronoun 912 913	我
+T115	Time-Implicit 915 916	春
+T116	Person-Pronoun 922 923	你
+T117	Person-Pronoun 931 933	我们
+T118	Person-Nominal 927 929	上苍
+T119	Thing-Nominal 938 940	流星
+T120	Location-Nominal 942 944	天际
+T121	Person-Pronoun 953 954	我
+T122	Time-Implicit 962 963	春
+T123	Time-Implicit 964 965	秋
+T124	Thing-Nominal 969 971	冬雪
+T125	Person-Pronoun 973 974	我
+T126	Person-Pronoun 980 981	我
+T127	Person-Nominal 1002 1004	自己
+T128	Person-Pronoun 1011 1012	你
+T129	Person-Pronoun 1028 1029	你
+T130	Person-Pronoun 1031 1032	你
+T131	Thing-Nominal 1033 1035	风筝
+T132	Person-Pronoun 1050 1051	我
+T133	Location-Nominal 1050 1053	我手心
+T134	Thing-Nominal 1064 1066	阳光
+T135	Thing-Nominal 1068 1070	阳光
+T136	Time-Implicit 1067 1073	有阳光的日子
+T137	Time-Implicit 1075 1082	万紫千红的春天
+T138	Thing-Nominal 1086 1088	蝶儿
+T139	Person-Pronoun 1093 1094	你
+T141	Thing-Nominal 1099 1105	这骄傲的蝶儿
+T142	Location-Nominal 1112 1114	半空
+T143	Thing-Pronoun 1121 1122	她
+*	Coreference T143 T141
+T144	Person-Pronoun 1134 1135	你
+T145	Location-Nominal 1130 1132	下面
+T146	Person-Pronoun 1143 1144	你
+T147	Person-Pronoun 1152 1153	你
+T148	Person-Nominal 1155 1157	自己
+T149	Person-Pronoun 1167 1169	我们
+T150	Location-Nominal 1167 1171	我们的家
+T151	Person-Pronoun 1172 1174	我们
+T153	Person-Pronoun 1187 1188	我
+T154	Time-Explicit 1199 1201	黄昏
+T155	Thing-Nominal 1203 1205	朝霞
+T156	Person-Pronoun 1214 1215	你
+T157	Person-Pronoun 1217 1218	你
+T158	Person-Pronoun 1222 1223	你
+T159	Person-Pronoun 1228 1229	你
+T160	Thing-Nominal 1228 1234	你宽宽的手掌
+R15	Part-Whole Arg1:T160 Arg2:T159	
+T161	Person-Nominal 1302 1303	人
+T162	Person-Nominal 1307 1308	人
+T163	Location-Nominal 1313 1316	人世间
+T164	Thing-Nominal 1327 1332	一场星星雨
+T165	Thing-Nominal 1338 1341	肥皂泡
+T166	Person-Pronoun 1345 1346	我
+T167	Physical 1346 1347	诗
+T169	Person-Pronoun 1352 1353	你
+T170	Person-Pronoun 1368 1369	我
+T171	Person-Pronoun 1378 1379	我
+T172	Time-Implicit 1382 1387	乍现的阳春
+T173	Person-Nominal 1423 1424	人
+T174	Time-Implicit 1431 1433	何时
+T175	Thing-Nominal 1434 1440	手中的玫瑰花
+T176	Location-Nominal 1434 1436	手中
+R16	Located Arg1:T175 Arg2:T176	
+T177	Thing-Nominal 1449 1453	一方土壤
+T178	Time-Explicit 1456 1458	昨日
+T179	Person-Pronoun 1468 1469	你
+T180	Person-Pronoun 1471 1472	你
+T181	Location-Nominal 1473 1482	一个无人触及的角落
+T182	Thing-Nominal 1488 1489	镜
+T183	Person-Pronoun 1501 1502	你
+T184	Thing-Nominal 1522 1528	那只灵盈蝶儿
+T186	Person-Pronoun 1532 1533	你
+T187	Location-Nominal 1532 1536	你的窗棂
+T188	Person-Pronoun 1537 1538	你
+T189	Person-Pronoun 1549 1550	你
+T190	Thing-Nominal 1553 1559	那新鲜的脸庞
+T191	Person-Pronoun 1563 1564	我
+T192	Time-Implicit 1583 1585	余秋
+T193	Thing-Nominal 1602 1604	冷风
+T194	Thing-Nominal 1608 1610	双臂
+T195	Person-Nominal 1615 1617	自己
+T196	Location-Nominal 1618 1620	眼前
+T197	Thing-Nominal 1618 1622	眼前枝叶
+T198	Thing-Nominal 1625 1626	蝶
+T199	Location-Nominal 1628 1633	幽幽深谷中
+R18	Located Arg1:T11 Arg2:T12	
+R19	Located Arg1:T197 Arg2:T196	
+R17	Part-Whole Arg1:T194 Arg2:T195	
+R20	Located Arg1:T184 Arg2:T187	
+T140	Thing-Nominal 1044 1048	线的一端
+R14	Located Arg1:T140 Arg2:T133	

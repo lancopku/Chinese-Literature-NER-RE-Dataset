@@ -1,0 +1,151 @@
+T1	Abstract 2 10	《现代汉语词典》
+T2	Person-Nominal 14 16	英雄
+T3	Person-Pronoun 34 36	自己
+T4	Person-Nominal 38 40	人民
+T5	Person-Nominal 49 50	人
+T6	Person-Nominal 53 54	人
+T7	Person-Name 67 70	邱少云
+T8	Person-Name 71 74	黄继光
+T9	Person-Nominal 75 79	英雄人物
+T10	Person-Pronoun 89 90	我
+T11	Location-Nominal 82 84	眼前
+T12	Person-Nominal 92 94	英雄
+T13	Person-Pronoun 102 104	她们
+T14	Person-Nominal 106 115	三位普通的饭店女工
+*	Coreference T14 T13 T16
+T15	Person-Pronoun 119 120	我
+T16	Person-Pronoun 124 126	她们
+T17	Person-Pronoun 139 141	她们
+T18	Person-Pronoun 150 151	我
+T19	Person-Pronoun 156 158	她们
+T20	Person-Pronoun 168 170	她们
+T21	Person-Nominal 171 174	我父母
+T22	Person-Pronoun 171 172	我
+R1	Family Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 180 182	饭店
+T24	Metric 185 187	几年
+T25	Person-Nominal 194 197	老板娘
+T26	Person-Nominal 203 207	普通员工
+T27	Thing-Nominal 210 212	菜式
+T28	Location-Pronoun 208 210	那里
+R2	Located Arg1:T27 Arg2:T28	
+T29	Location-Nominal 233 236	饭店里
+T30	Thing-Nominal 237 240	几道菜
+R3	Located Arg1:T30 Arg2:T29	
+T31	Person-Pronoun 242 243	我
+T32	Person-Nominal 243 250	年近八旬的老爸
+T33	Person-Nominal 256 258	老妈
+R4	Family Arg1:T32 Arg2:T31	
+R5	Family Arg1:T33 Arg2:T31	
+T34	Thing-Nominal 262 265	那饭店
+T35	Metric 271 275	三几分钟
+T36	Time-Implicit 280 284	这些年来
+T37	Person-Nominal 287 291	亲朋戚友
+T38	Person-Nominal 294 295	客
+T39	Person-Nominal 296 298	父母
+T40	Person-Pronoun 307 308	我
+T41	Person-Pronoun 309 311	她们
+T42	Person-Pronoun 334 336	她们
+T43	Thing-Nominal 342 347	那里的饭市
+T44	Location-Pronoun 342 344	那里
+T45	Time-Implicit 350 352	每天
+T46	Person-Nominal 353 355	顾客
+T47	Thing-Nominal 358 363	饭店的厨房
+T48	Thing-Nominal 358 360	饭店
+T49	Location-Nominal 364 366	楼下
+R6	Located Arg1:T47 Arg2:T49	
+T50	Thing-Nominal 369 373	地下大厅
+T51	Location-Nominal 369 371	地下
+R7	Located Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 374 384	二、三楼的十几间包房
+T53	Person-Pronoun 385 387	她们
+T54	Location-Nominal 396 400	楼上楼下
+T55	Time-Implicit 401 403	每天
+T56	Thing-Nominal 411 412	水
+T57	Thing-Nominal 409 410	茶
+T58	Thing-Nominal 416 417	菜
+T59	Thing-Nominal 414 415	饭
+T60	Person-Pronoun 425 427	她们
+T61	Person-Nominal 433 435	顾客
+T62	Person-Pronoun 442 443	我
+T63	Person-Pronoun 455 457	她们
+T64	Time-Implicit 459 466	那天下午2点多
+T65	Person-Nominal 467 480	三个喝高了的二十多岁的凶徒
+T66	Location-Nominal 481 484	饭店里
+T67	Thing-Nominal 490 492	饭店
+T68	Metric 492 494	几米
+T69	Location-Nominal 496 504	公共汽车候车站里
+T70	Person-Nominal 511 519;520 531	一个正在那候车的 农村模样的瘦小中年男人
+T71	Person-Nominal 539 550	那个突遭辱骂的中年男人
+T72	Location-Pronoun 563 565	那里
+T73	Person-Nominal 571 575	三个凶徒
+T74	Person-Nominal 591 596	那中年男人
+T75	Person-Nominal 610 617	可怜的中年男人
+T76	Person-Nominal 618 622	三个凶徒
+T77	Location-Nominal 632 635	满大街
+T78	Person-Pronoun 638 639	他
+*	Coreference T78 T75
+T79	Person-Nominal 642 644	凶徒
+T80	Person-Nominal 663 667	三个凶徒
+T81	Time-Implicit 663 670	三个凶徒骂人时
+T82	Person-Nominal 671 678	三个机警的女人
+T83	Person-Nominal 701 703	凶徒
+T84	Person-Nominal 704 705	人
+T85	Person-Pronoun 707 709	她们
+*	Coreference T85 T82
+T86	Person-Nominal 718 719	人
+T87	Person-Nominal 732 736	三个凶徒
+T88	Person-Nominal 751 755	两个结伴
+T89	Location-Nominal 768 772	饭店门口
+T90	Thing-Nominal 774 777	摩托车
+T91	Person-Nominal 784 798	那个被打得伤痕累累的中年男人
+T92	Person-Nominal 814 818	三个女人
+T93	Person-Nominal 829 834	那两个凶徒
+T94	Person-Pronoun 838 840	他们
+*	Coreference T94 T93
+T95	Time-Implicit 845 852	准备等警察来时
+T96	Person-Pronoun 854 856	他们
+T97	Person-Nominal 863 869	那个中年男人
+T98	Person-Pronoun 871 872	他
+T99	Person-Nominal 873 875	警察
+T100	Person-Nominal 881 886	那个老板娘
+T101	Thing-Nominal 902 904;905 913	那个 凶徒的摩托车后座
+T102	Person-Nominal 918 920	凶徒
+T103	Person-Nominal 926 927	人
+T104	Person-Nominal 939 941	凶徒
+T105	Person-Nominal 948 951	老板娘
+T106	Thing-Nominal 955 957	油门
+T107	Person-Pronoun 964 965	我
+T108	Person-Nominal 968 971	老板娘
+T109	Thing-Nominal 972 975	摩托车
+T110	Person-Pronoun 987 988	她
+*	Coreference T110 T108
+T111	Thing-Nominal 998 1003	他的车牌号
+T112	Person-Pronoun 998 999	他
+*	Coreference T112 T104
+T113	Person-Nominal 1005 1008	老板娘
+T114	Thing-Nominal 1015 1021	凶徒的车牌号
+T115	Person-Nominal 1015 1017	凶徒
+T116	Thing-Nominal 1032 1037	摩托车后座
+T117	Time-Implicit 1046 1048	这时
+T118	Thing-Nominal 1049 1054	110警车
+T119	Person-Nominal 1059 1061	英雄
+T120	Person-Nominal 1069 1071	英雄
+T121	Person-Nominal 1081 1083	英雄
+T122	Person-Pronoun 1103 1104	我
+T123	Person-Pronoun 1105 1107	她们
+T124	Person-Nominal 1113 1117	身边的人
+T125	Person-Nominal 1122 1124	大家
+*	Coreference T125 T124
+T126	Person-Pronoun 1131 1132	我
+T127	Person-Pronoun 1138 1140	她们
+T128	Thing-Nominal 1143 1147	那个饭店
+T129	Person-Pronoun 1158 1160	她们
+T130	Person-Pronoun 1163 1164	我
+T131	Person-Pronoun 1167 1169	她们
+T132	Person-Pronoun 1172 1173	我
+T133	Person-Pronoun 1182 1183	我
+T134	Person-Nominal 1188 1193	纤纤弱女子
+T135	Person-Pronoun 1202 1204	她们
+T136	Person-Pronoun 1227 1229	她们
+T137	Time-Implicit 1225 1227	当时

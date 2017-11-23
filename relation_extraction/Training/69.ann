@@ -1,0 +1,59 @@
+T1	Location-Nominal 5 30	好一个环境优美，依山傍水，倚城近郊，令人陶醉的农乡
+T2	Thing-Nominal 31 36	平坦坦坝子
+T3	Thing-Nominal 37 42	峦赳赳山岗
+T4	Thing-Nominal 43 49	宽坦黑油公路
+T5	Thing-Nominal 50 56	壮观亭阁楼房
+T6	Thing-Nominal 57 60;61 64	一幢幢 农家乐
+T7	Thing-Nominal 65 71	一堵堵文化墙
+T8	Thing-Nominal 72 78	潺潺流水小溪
+T9	Thing-Nominal 78 85	，粼粼波光荷塘
+T10	Thing-Nominal 86 93	蓊郁成林月桂树
+T11	Thing-Nominal 94 101	整齐排列紫薇香
+T12	Thing-Nominal 102 106	白玉雕塑
+T13	Person-Nominal 107 111	桂花仙女
+T14	Thing-Nominal 117 121	文化长廊
+T15	Thing-Nominal 128 133	长短对联;
+T16	Thing-Nominal 148 150	桂花
+T17	Thing-Nominal 151 152	酒
+T18	Thing-Nominal 134 135	诗
+T19	Thing-Nominal 136 137	画
+T20	Thing-Nominal 158 160	茶饭
+T21	Thing-Nominal 160 162	菜汤
+T22	Person-Nominal 168 172	青年小伙
+T23	Person-Nominal 178 182	农村姑娘
+T24	Location-Pronoun 186 188	这里
+T25	Time-Implicit 201 203	月月
+T26	Time-Implicit 195 197	天天
+T27	Location-Pronoun 213 215	这里
+T28	Person-Nominal 216 218	游人
+T31	Thing-Nominal 221 225	花树海洋
+T29	Location-Nominal 226 234	休闲养生最佳场所
+T32	Location-Nominal 235 243	愉快垂钓河东鱼庄
+T33	Person-Nominal 244 246;247 249	八方 来客
+T34	Location-Nominal 244 246;247 254	八方 来客之食宿驿站
+T30	Location-Nominal 216 220	游人乐园
+*	Coreference T30 T27 T29 T35 T36
+R1	Ownership Arg1:T33 Arg2:T27	
+T35	Location-Nominal 255 264	健体实习之理想课堂
+T36	Location-Nominal 265 274	文雅清静之世外桂苑
+T37	Thing-Nominal 275 284	花团锦簇之田园景像
+R2	Located Arg1:T37 Arg2:T27	
+R3	Located Arg1:T31 Arg2:T27	
+T38	Location-Pronoun 285 287	这里
+T39	Person-Nominal 288 293	工农商学兵
+T40	Abstract 294 299	农林牧副渔
+T41	Thing-Nominal 300 304	朵朵金花
+T42	Location-Name 311 316	南城桂花园
+*	Coreference T38 T42
+T43	Organization-Nominal 325 327	农家
+T44	Thing-Nominal 335 338	桂花香
+T45	Thing-Nominal 339 359	金桂、银桂、丹桂、金沙桂、金球桂、四季桂
+T46	Person-Nominal 373 375	朋友
+T47	Thing-Nominal 378 381	桂花酒
+T48	Thing-Nominal 384 387	桂花香
+T49	Thing-Nominal 390 393	桂花诗
+T50	Thing-Nominal 396 399	桂花妆
+T51	Thing-Nominal 402 406	桂花精品
+T52	Thing-Nominal 409 413	桂花辞章
+T53	Person-Name 415 417	刘伶
+T54	Person-Name 422 424	太白

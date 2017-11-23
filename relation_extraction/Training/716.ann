@@ -1,0 +1,166 @@
+T1	Person-Nominal 0 2	父亲
+T2	Thing-Nominal 3 5	扁担
+T3	Thing-Nominal 12 16	劳动工具
+T4	Metric 10 12	一种
+R1	General-Special Arg1:T3 Arg2:T2	
+T5	Person-Nominal 27 29	父亲
+T6	Thing-Nominal 23 41	一部记载父亲别样风采和高尚人生的史书
+*	Coreference T6 T2 T7 T14 T16 T19 T25 T27 T37 T41 T42
+T7	Thing-Pronoun 51 57	这部“史书”
+T8	Person-Nominal 68 70	父亲
+T9	Person-Nominal 104 106	人们
+T10	Person-Nominal 113 114	人
+T11	Time-Implicit 120 123	十年前
+T12	Person-Nominal 124 126	父亲
+T13	Person-Pronoun 132 133	我
+R2	Family Arg1:T12 Arg2:T13	
+T14	Thing-Nominal 138 146	这部“扁担史书”
+T15	Person-Pronoun 183 184	我
+T16	Thing-Pronoun 192 195	这部书
+T17	Person-Nominal 199 201	父亲
+T18	Person-Pronoun 215 218	他自己
+*	Coreference T18 T17
+T19	Thing-Nominal 242 247	父亲的扁担
+T20	Thing-Nominal 259 261	槐木
+T21	Metric 271 273	两米
+T22	Metric 276 278	三指
+T23	Person-Nominal 296 298	父亲
+T24	Person-Nominal 242 244	父亲
+T25	Thing-Nominal 296 298;299 303	父亲 这根扁担
+T26	Time-Explicit 314 320	解放战争时期
+T27	Thing-Nominal 321 325	这根扁担
+T28	Person-Nominal 329 331	父亲
+T29	Thing-Nominal 332 334	肩膀
+R3	Part-Whole Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 337 341	军用物资
+T31	Person-Nominal 344 348	解放大军
+T32	Location-Nominal 350 352	沂蒙
+T33	Location-Nominal 354 356	淮海
+T34	Location-Nominal 358 360	长江
+T35	Person-Nominal 370 372	奶奶
+T36	Person-Nominal 374 376	父亲
+R4	Family Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 389 391	扁担
+T38	Metric 395 397	一朵
+T39	Thing-Nominal 397 400	大红花
+T40	Person-Nominal 411 413	父亲
+T41	Thing-Nominal 416 418	扁担
+T42	Thing-Nominal 420 422	珍宝
+T43	Person-Nominal 424 426	父亲
+T44	Thing-Nominal 430 434	这根扁担
+T45	Person-Name 443 445	关羽
+T46	Thing-Nominal 456 459	赤兔马
+T47	Person-Nominal 461 463	父亲
+T48	Person-Nominal 477 480	湿抹布
+T49	Location-Nominal 497 500	工具屋
+T50	Person-Nominal 502 504	父亲
+T51	Thing-Nominal 511 513	扁担
+*	Coreference T51 T44 T54 T55
+T52	Time-Implicit 542 558	从支前归来到成立人民公社这段时间
+T53	Person-Nominal 559 561	父亲
+T54	Thing-Nominal 564 566	扁担
+T55	Thing-Pronoun 598 599	它
+T56	Time-Implicit 606 612	整个那些年里
+T57	Person-Pronoun 623 624	我
+T58	Person-Pronoun 643 644	我
+T59	Person-Nominal 651 653	父亲
+T60	Thing-Nominal 654 658	那根扁担
+T61	Time-Explicit 667 674	一九五六年夏天
+T62	Person-Pronoun 678 679	我
+T63	Person-Nominal 686 688	父亲
+T64	Thing-Nominal 702 705	大山羊
+T65	Thing-Nominal 714 716	扁担
+T66	Thing-Nominal 691 692	牙
+R5	Part-Whole Arg1:T66 Arg2:T63	
+T67	Person-Pronoun 721 722	我
+T68	Metric 728 730	一层
+T69	Thing-Nominal 730 732	小磨
+T70	Metric 735 737	六座
+T71	Location-Nominal 737 738	岭
+T72	Metric 741 743	五条
+T73	Location-Nominal 743 744	河
+T74	Metric 747 751	三十多里
+T75	Person-Nominal 754 756	大夫
+T76	Person-Pronoun 757 758	我
+T77	Thing-Nominal 764 765	药
+T78	Thing-Nominal 770 772	扁担
+T79	Person-Pronoun 773 774	我
+T80	Time-Implicit 780 782	当时
+T81	Time-Implicit 785 788	三伏天
+*	Coreference T81 T80
+T82	Person-Nominal 793 795	父亲
+T83	Thing-Nominal 797 799	膀子
+R6	Part-Whole Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 812 813	脸
+T85	Thing-Nominal 815 816	身
+R7	Part-Whole Arg1:T84 Arg2:T82	
+R8	Part-Whole Arg1:T85 Arg2:T82	
+T86	Thing-Nominal 818 819	汗
+R9	Part-Whole Arg1:T86 Arg2:T82	
+T87	Person-Pronoun 826 827	我
+T88	Person-Pronoun 832 834	自己
+*	Coreference T88 T87
+T89	Person-Nominal 836 838	父亲
+T90	Person-Nominal 845 847	父亲
+T91	Person-Pronoun 854 855	我
+T92	Thing-Nominal 861 862	泪
+R10	Part-Whole Arg1:T92 Arg2:T91	
+T93	Thing-Nominal 852 853	汗
+R11	Part-Whole Arg1:T93 Arg2:T90	
+T94	Person-Nominal 876 878	父亲
+T95	Thing-Nominal 883 885	扁担
+T96	Time-Implicit 892 894	夏收
+T97	Location-Nominal 899 904	生产队场里
+T98	Thing-Nominal 905 908	麦个子
+T99	Time-Implicit 909 911	秋后
+T100	Location-Nominal 913 915	野外
+T101	Location-Nominal 916 918	庄里
+T102	Thing-Nominal 919 922	棉花柴
+T103	Thing-Nominal 938 942	这根扁担
+T104	Thing-Nominal 943 945	东西
+T105	Person-Nominal 946 948	父亲
+T106	Person-Nominal 956 958	别人
+T107	Metric 961 965	百拉十斤
+T108	Person-Nominal 967 969	父亲
+T109	Time-Implicit 979 982	有一次
+T110	Thing-Nominal 986 988	棉柴
+T111	Location-Nominal 993 994	村
+T112	Thing-Nominal 995 997	扁担
+T113	Person-Nominal 1005 1007	父亲
+T114	Person-Nominal 1020 1022	队长
+T115	Person-Nominal 1023 1025	会记
+T116	Thing-Nominal 1028 1033	这些棉花柴
+*	Coreference T116 T110
+T117	Thing-Nominal 1040 1041	镑
+T118	Metric 1046 1050	226斤
+T119	Person-Nominal 1054 1055	人
+T120	Thing-Nominal 1063 1064	嘴
+R12	Part-Whole Arg1:T120 Arg2:T119	
+T121	Thing-Nominal 1066 1068	扁担
+T122	Person-Nominal 1073 1075	大侠
+*	Coreference T122 T113
+T123	Person-Nominal 1081 1083	父亲
+T124	Thing-Nominal 1088 1092	这根扁担
+*	Coreference T124 T121 T132 T143
+T125	Person-Nominal 1101 1103	木匠
+T126	Time-Implicit 1123 1125	一天
+T127	Person-Pronoun 1126 1128	我们
+T128	Location-Nominal 1132 1135	亲戚家
+T129	Location-Nominal 1139 1141	东邻
+T130	Thing-Nominal 1142 1143	火
+T131	Location-Nominal 1147 1150	工具房
+T132	Thing-Nominal 1151 1156	父亲的扁担
+T133	Person-Nominal 1166 1168	父亲
+T134	Thing-Nominal 1175 1176	饭
+T135	Time-Implicit 1178 1182	一年以后
+T136	Person-Nominal 1187 1189	父亲
+T137	Person-Nominal 1194 1196	母亲
+R13	Family Arg1:T137 Arg2:T136	
+T138	Person-Pronoun 1199 1201	我们
+T139	Person-Pronoun 1204 1206	你们
+*	Coreference T139 T138 T140
+T140	Person-Pronoun 1210 1211	您
+T141	Person-Nominal 1211 1213	大大
+*	Coreference T141 T136 T142
+T142	Person-Pronoun 1215 1216	他
+T143	Thing-Nominal 1216 1220	那根扁担

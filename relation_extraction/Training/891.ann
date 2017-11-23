@@ -1,0 +1,213 @@
+T1	Person-Nominal 2 4	母亲
+T2	Person-Pronoun 10 12	我们
+R1	Family Arg1:T2 Arg2:T1	
+T3	Organization-Nominal 20 21	家
+T4	Metric 23 25	几亩
+T5	Location-Nominal 25 27	果园
+R2	Ownership Arg1:T3 Arg2:T5	
+T6	Time-Implicit 35 37	暑假
+T7	Thing-Nominal 45 46	草
+T8	Thing-Nominal 47 49	豆苗
+T9	Thing-Nominal 59 60;61 62	杂 草
+T10	Person-Nominal 63 64	妻
+T11	Person-Pronoun 65 66	我
+T12	Thing-Nominal 70 71	草
+T13	Person-Pronoun 78 79	我
+R3	Family Arg1:T10 Arg2:T11	
+R4	Located Arg1:T12 Arg2:T5	
+T14	Time-Implicit 91 94	第二天
+T15	Person-Pronoun 94 96	我们
+T16	Thing-Nominal 99 101	镰刀
+T17	Location-Nominal 102 104	果园
+T18	Thing-Nominal 104 106	除草
+R5	Located Arg1:T18 Arg2:T17	
+R6	Ownership Arg1:T15 Arg2:T16	
+T19	Person-Pronoun 107 108	我
+T20	Time-Implicit 110 113	第一天
+T21	Location-Nominal 115 119	果园周边
+T22	Thing-Nominal 120 122	杂草
+R7	Located Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 128 131	果树上
+T24	Location-Nominal 115 117	果园
+R8	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 132 135	牵牛花
+T26	Thing-Nominal 137 139	藤蔓
+T27	Thing-Nominal 140 142	杂草
+R9	General-Special Arg1:T27 Arg2:T26	
+R10	General-Special Arg1:T26 Arg2:T25	
+R11	Located Arg1:T27 Arg2:T23	
+T28	Thing-Nominal 147 149	果树
+T29	Time-Implicit 161 163	去年
+T30	Thing-Nominal 167 169	杂草
+T31	Thing-Nominal 171 173	果树
+T32	Metric 177 179	两尺
+T33	Time-Implicit 183 185	今年
+T34	Person-Pronoun 185 186	我
+T35	Thing-Pronoun 193 195	它们
+*	Coreference T35 T31
+T36	Location-Nominal 223 225	草丛
+T37	Thing-Nominal 239 242	追随者
+T38	Thing-Nominal 244 246	蚊虫
+*	Coreference T37 T38 T44
+T39	Person-Pronoun 249 250	我
+T40	Person-Pronoun 257 258	我
+T41	Thing-Nominal 260 263	长裤子
+T42	Thing-Nominal 263 266	长上衣
+R12	Ownership Arg1:T40 Arg2:T41	
+R13	Ownership Arg1:T40 Arg2:T42	
+T43	Metric 269 271	一亩
+T44	Thing-Pronoun 280 282	它们
+T45	Thing-Nominal 290 293	癞蛤蟆
+T46	Person-Nominal 297 298	妻
+T47	Person-Pronoun 299 300	我
+T48	Thing-Nominal 303 308	一瓶花露水
+R14	Ownership Arg1:T46 Arg2:T48	
+T49	Thing-Nominal 312 314	脸上
+T50	Thing-Nominal 315 316	身
+R15	Part-Whole Arg1:T50 Arg2:T47	
+R16	Part-Whole Arg1:T49 Arg2:T47	
+T51	Thing-Nominal 332 334	蚊虫
+T52	Person-Nominal 352 353	妻
+T53	Person-Pronoun 364 365	她
+*	Coreference T52 T53
+T54	Location-Nominal 366 367	家
+T55	Thing-Nominal 384 385	草
+T56	Person-Pronoun 391 392	我
+R17	Part-Whole Arg1:T30 Arg2:T36	
+T57	Location-Nominal 395 397	草丛
+T58	Thing-Nominal 401 403	野果
+R18	Located Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 406 408	野果
+T60	Location-Nominal 412 414	商店
+T61	Metric 417 420	十几元
+T62	Metric 420 422	一斤
+T63	Thing-Nominal 424 425	草
+R19	Located Arg1:T63 Arg2:T57	
+T64	Time-Implicit 431 433	秋后
+T65	Thing-Nominal 443 446	南瓜秧
+R20	Located Arg1:T65 Arg2:T57	
+T66	Thing-Nominal 458 460	南瓜
+R21	Located Arg1:T66 Arg2:T57	
+R22	Located Arg1:T66 Arg2:T65	
+T67	Location-Nominal 484 485	村
+T68	Location-Nominal 488 490	果园
+T69	Person-Pronoun 492 493	我
+T70	Thing-Nominal 497 499	桃树
+R23	Located Arg1:T70 Arg2:T68	
+T71	Thing-Nominal 501 503	桃子
+R24	Located Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 511 512;513 514	枝 头
+R25	Part-Whole Arg1:T72 Arg2:T70	
+R26	Located Arg1:T71 Arg2:T72	
+T73	Metric 520 523	几十斤
+T74	Time-Implicit 527 530	第一天
+T75	Time-Implicit 538 541	第二天
+T76	Location-Nominal 546 548	果园
+T77	Thing-Nominal 553 556	除草剂
+T78	Thing-Nominal 558 560	杂草
+T79	Thing-Nominal 564 565	草
+T80	Thing-Nominal 566 567	根
+R27	Part-Whole Arg1:T80 Arg2:T79	
+T81	Person-Pronoun 576 577	我
+T82	Thing-Nominal 582 584	雨衣
+T83	Thing-Nominal 585 587	雨裤
+R28	Ownership Arg1:T81 Arg2:T82	
+R29	Ownership Arg1:T81 Arg2:T83	
+T84	Metric 590 593	几十斤
+T85	Thing-Nominal 595 597	药桶
+R30	Ownership Arg1:T81 Arg2:T85	
+T86	Time-Implicit 602 605	开始时
+T87	Person-Pronoun 606 607	我
+T88	Time-Implicit 610 613	第一天
+T89	Thing-Nominal 619 621	蚊虫
+T90	Thing-Nominal 626 628	雨衣
+T91	Thing-Nominal 628 630	雨裤
+T92	Thing-Nominal 645 647	蚊虫
+T93	Thing-Nominal 648 650	药液
+T95	Thing-Nominal 662 664	凉风
+T96	Time-Implicit 671 673	此时
+T97	Person-Pronoun 674 675	我
+T98	Thing-Nominal 676 678	汗腺
+R31	Part-Whole Arg1:T98 Arg2:T97	
+T94	Person-Pronoun 654 655	我
+T99	Thing-Nominal 656 658	身体
+R32	Part-Whole Arg1:T99 Arg2:T94	
+T100	Thing-Nominal 685 687	汗液
+T101	Thing-Nominal 688 690	雨衣
+T102	Thing-Nominal 690 692	雨裤
+R33	Located Arg1:T100 Arg2:T101	
+R34	Located Arg1:T100 Arg2:T102	
+T103	Thing-Nominal 700 704	两桶药液
+T104	Location-Nominal 709 710	家
+T105	Person-Nominal 715 716	妻
+T106	Person-Pronoun 717 718	我
+T107	Thing-Nominal 724 726	雨衣
+T108	Person-Pronoun 735 736	我
+T109	Person-Pronoun 738 739	你
+T110	Thing-Nominal 740 741	汗
+*	Coreference T109 T106 T112
+*	Coreference T105 T108
+T111	Thing-Nominal 746 747	手
+R35	Part-Whole Arg1:T111 Arg2:T109	
+T112	Person-Pronoun 753 754	我
+T113	Thing-Nominal 779 781;782 784	三桶 药液
+T114	Person-Pronoun 785 786	我
+T115	Time-Implicit 794 796	今天
+T116	Thing-Nominal 804 805	汗
+T117	Person-Nominal 815 816	妻
+T118	Person-Pronoun 818 819	我
+T119	Thing-Nominal 820 822	药桶
+R36	Located Arg1:T93 Arg2:T85	
+T120	Person-Pronoun 825 826	我
+T121	Time-Implicit 834 836	中午
+T122	Thing-Nominal 849 851	果树
+T123	Thing-Nominal 852 854	树荫
+T124	Person-Pronoun 870 871	我
+T125	Thing-Nominal 871 872	汗
+T126	Thing-Nominal 878 880	药液
+T127	Person-Pronoun 883 884	我
+T128	Location-Nominal 899 903;904 905	一块小地 边
+T129	Person-Pronoun 911 912	我
+T130	Location-Nominal 922 924	家里
+T131	Person-Nominal 925 926	妻
+T132	Person-Pronoun 927 928	我
+T133	Thing-Nominal 931 933	药桶
+T134	Thing-Nominal 936 938	雨衣
+T135	Thing-Nominal 938 940	雨裤
+T136	Location-Nominal 943 945	屋中
+T137	Thing-Nominal 946 948	电扇
+R37	Located Arg1:T137 Arg2:T136	
+T138	Time-Implicit 949 952	休息时
+T139	Person-Pronoun 953 954	我
+T140	Thing-Nominal 966 968	雨衣
+T141	Thing-Nominal 968 970	雨裤
+T142	Person-Pronoun 972 973	我
+T143	Thing-Nominal 974 976	汗水
+T144	Time-Implicit 980 982	现在
+T145	Person-Pronoun 985 986	你
+T146	Thing-Nominal 990 992	汗水
+T147	Thing-Nominal 996 998	皮肤
+R38	Located Arg1:T146 Arg2:T147	
+T148	Thing-Nominal 1016 1018	皮肤
+T149	Time-Implicit 1045 1047	这时
+T150	Person-Pronoun 1048 1049	我
+T151	Person-Nominal 1052 1054	自己
+*	Coreference T150 T151
+T152	Person-Nominal 1058 1060	诗人
+T153	Thing-Nominal 1082 1086;1087 1089	藿香正气 胶囊
+T154	Time-Implicit 1109 1111	晚上
+T155	Thing-Nominal 1117 1119	汗水
+T156	Thing-Nominal 1124 1125	灯
+T157	Time-Implicit 1131 1133	今天
+T158	Thing-Nominal 1153 1155	杂草
+T159	Location-Nominal 1183 1185	果园
+T160	Thing-Nominal 1187 1189	杂草
+R39	Located Arg1:T160 Arg2:T159	
+T161	Person-Nominal 1201 1202	人
+T162	Thing-Nominal 1205 1207	杂草
+T163	Time-Implicit 1234 1236	有时
+T164	Person-Nominal 1240 1242	自己
+T165	Time-Implicit 1253 1255	今天
+T166	Person-Pronoun 1256 1257	我
+T167	Person-Pronoun 1260 1261	我
+*	Coreference T164 T166

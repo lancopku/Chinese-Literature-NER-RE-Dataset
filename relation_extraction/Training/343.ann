@@ -1,0 +1,316 @@
+T1	Person-Pronoun 0 1	谁
+T2	Person-Pronoun 3 4	他
+T3	Location-Nominal 5 9	车祸现场
+T4	Person-Nominal 9 15	，围观的群众
+T5	Person-Nominal 24 28	一位大爷
+T6	Person-Nominal 30 43	一个已无生命体征的中年男子
+T7	Person-Pronoun 55 56	你
+*	Coreference T7 T6 T14 T19
+R1	Social Arg1:T6 Arg2:T5	
+T8	Thing-Nominal 68 73	三万元白条
+T9	Person-Pronoun 61 62	你
+T10	Person-Nominal 83 85	大爷
+*	Coreference T10 T5
+T11	Person-Nominal 89 94	一位大嫂，
+T12	Thing-Nominal 96 104	一把鼻涕一把眼泪
+T13	Person-Pronoun 111 112	我
+*	Coreference T13 T11
+T14	Person-Pronoun 119 120	你
+T15	Person-Pronoun 130 131	我
+T16	Person-Nominal 123 129	二万多烟酒钱
+R2	Social Arg1:T11 Arg2:T6	
+T17	Person-Nominal 140 146	一位年轻孕妇
+T18	Person-Nominal 165 166	孩
+T19	Person-Pronoun 173 174	你
+T20	Person-Nominal 178 181	你老婆
+R3	Family Arg1:T20 Arg2:T19	
+T21	Person-Pronoun 176 177	我
+*	Coreference T21 T17
+R4	Social Arg1:T21 Arg2:T19	
+T22	Person-Pronoun 186 187	我
+T23	Person-Nominal 202 207	围观的人群
+T24	Person-Pronoun 232 233	他
+T25	Person-Pronoun 236 237	谁
+T26	Person-Name 244 246	小明
+T27	Thing-Nominal 255 259	一只小狗
+T28	Location-Nominal 251 253	路上
+R5	Located Arg1:T27 Arg2:T28	
+T29	Location-Nominal 249 250	家
+T30	Person-Pronoun 267 268	他
+T31	Metric 24 26	一位
+T32	Metric 30 32	一个
+T33	Metric 68 71	三万元
+T34	Metric 89 91	一位
+T35	Metric 96 98	一把
+T36	Metric 100 102	一把
+T37	Metric 123 126	二万多
+T38	Metric 140 142	一位
+*	Coreference T30 T26
+T39	Thing-Pronoun 278 279	它
+*	Coreference T39 T27 T41 T43 T71
+T40	Thing-Pronoun 286 287	它
+T41	Thing-Nominal 288 291	那小狗
+T42	Person-Name 297 299	小明
+T43	Thing-Pronoun 302 304	自已
+T44	Person-Pronoun 310 311	他
+T45	Person-Nominal 302 304;305 308	自已 的主人
+T46	Person-Name 321 323	小明
+T47	Time-Implicit 334 336	这时
+T48	Person-Nominal 340 349	一位骑自行车的阿姨
+T49	Metric 340 342	一位
+T50	Thing-Nominal 343 346	自行车
+R6	Use Arg1:T48 Arg2:T50	
+T51	Person-Nominal 350 353	那阿姨
+*	Coreference T51 T48 T52 T53 T60 T73 T76
+T52	Person-Pronoun 366 367	她
+T53	Person-Pronoun 370 372	自已
+T54	Person-Nominal 377 379	小孩
+*	Coreference T54 T46
+T55	Person-Name 383 385	小明
+T56	Location-Nominal 387 389	地上
+T57	Person-Nominal 394 398	附近的人
+T58	Person-Nominal 400 406	过路好奇的人
+T59	Person-Nominal 428 429	人
+T60	Person-Nominal 435 439	骑车阿姨
+T61	Person-Name 444 446	小明
+T62	Person-Nominal 447 451	围观的人
+R7	Part-Whole Arg1:T57 Arg2:T62	
+R8	Part-Whole Arg1:T58 Arg2:T62	
+T63	Person-Pronoun 463 464	她
+T64	Location-Nominal 455 457	现场
+T65	Metric 468 472	不一会儿
+T66	Person-Nominal 473 479	一位中年男子
+T67	Person-Nominal 480 484	围观的人
+T68	Person-Name 494 496	小明
+T69	Person-Nominal 499 500	爸
+*	Coreference T66 T69 T74 T75
+T70	Person-Name 507 509	小明
+T71	Thing-Nominal 521 524	小狗狗
+T72	Thing-Nominal 526 529	小狗狗
+T73	Person-Nominal 536 541	那骑车阿姨
+T74	Person-Nominal 545 548	那汉子
+T75	Person-Nominal 550 555	孩子的父亲
+T76	Person-Pronoun 567 568	我
+T77	Person-Nominal 571 575	你的孩子
+*	Coreference T77 T70
+T78	Person-Pronoun 578 579	我
+T79	Location-Nominal 585 587	医院
+T80	Person-Nominal 589 592	我婆婆
+R9	Family Arg1:T80 Arg2:T78	
+T81	Person-Nominal 600 605	孩子的父亲
+T82	Person-Pronoun 607 608	她
+T83	Person-Nominal 686 690	小明父亲
+*	Coreference T83 T81 T91
+T84	Thing-Nominal 692 696	一块手帕
+T85	Metric 692 694	一块
+T86	Person-Nominal 701 703	儿子
+T87	Person-Name 615 617	小明
+T88	Person-Pronoun 621 622	你
+*	Coreference T88 T87
+T89	Location-Nominal 632 633	家
+T90	Metric 642 644	一会
+T91	Person-Pronoun 645 646	他
+T92	Person-Name 651 653	小明
+T93	Person-Name 659 661	小明
+*	Coreference T86 T93
+T94	Thing-Nominal 674 676	眼泪
+T95	Thing-Nominal 707 709	眼泪
+T96	Person-Name 721 723	小明
+T97	Metric 715 717	几步
+T98	Metric 729 731	几步
+T99	Person-Nominal 735 737	儿子
+T100	Person-Nominal 741 746	那骑车阿姨
+T101	Person-Nominal 752 755	我儿子
+*	Coreference T101 T99
+T102	Person-Pronoun 756 757	你
+*	Coreference T102 T100
+T103	Person-Pronoun 774 775	你
+T104	Person-Nominal 781 785	骑车阿姨
+T105	Time-Implicit 802 804	这时
+T106	Thing-Nominal 805 809	一辆警车
+T107	Metric 805 807	一辆
+T108	Person-Nominal 813 815	警员
+T109	Person-Nominal 833 835	人们
+T110	Organization-Nominal 867 872	我们的社会
+T111	Thing-Nominal 883 885	马路
+T112	Person-Pronoun 886 887	我
+T113	Location-Nominal 888 892	老年大学
+T114	Thing-Nominal 898 901	公交车
+T115	Location-Nominal 906 912	一个十字路口
+T116	Metric 906 908	一个
+T117	Thing-Nominal 913 918	路上的车子
+T118	Location-Nominal 933 935	路口
+*	Coreference T118 T115
+T119	Location-Nominal 937 939	红灯
+T120	Person-Pronoun 940 941	我
+T121	Person-Nominal 945 946;947 957	一 大群准备过马路的行人
+T122	Metric 945 946;947 949	一 大群
+T123	Person-Pronoun 959 960	我
+T124	Person-Nominal 964 970	一位年轻姑娘
+T125	Metric 964 966	一位
+T126	Person-Pronoun 971 972	我
+T127	Person-Pronoun 975 976	她
+*	Coreference T127 T124 T128 T129 T145
+T128	Person-Nominal 982 984	姑娘
+T129	Person-Pronoun 985 986	你
+T130	Person-Pronoun 988 989	我
+T131	Person-Pronoun 995 996	我
+T132	Person-Pronoun 997 998	她
+T133	Thing-Nominal 1011 1013	车子
+T134	Person-Pronoun 1019 1020	我
+T135	Person-Nominal 1025 1027	姑娘
+T136	Person-Pronoun 1042 1043	您
+T137	Person-Pronoun 1044 1045	我
+*	Coreference T136 T131
+*	Coreference T137 T135
+T138	Person-Pronoun 1052 1054	我们
+T139	Location-Nominal 1059 1063	斑马线旁
+T140	Thing-Nominal 1067 1073	对面的显示屏
+T141	Location-Nominal 1067 1069	对面
+R10	Located Arg1:T140 Arg2:T141	
+T142	Thing-Nominal 1074 1080	那红色的数字
+T143	Thing-Nominal 1105 1107	绿灯
+T144	Person-Pronoun 1111 1112	我
+T145	Person-Nominal 1118 1123	身旁的姑娘
+T146	Metric 1129 1133	二十多岁
+T147	Thing-Nominal 1136 1141	两支羊角辩
+R11	Part-Whole Arg1:T147 Arg2:T145	
+T148	Person-Nominal 1153 1155	学生
+T149	Person-Pronoun 1156 1157	我
+T150	Person-Pronoun 1164 1165	她
+T151	Thing-Nominal 1167 1173	一只粉嫩的手
+R12	Part-Whole Arg1:T151 Arg2:T145	
+T152	Thing-Nominal 1176 1180	我的胳膊
+R13	Part-Whole Arg1:T152 Arg2:T149	
+T153	Person-Nominal 1182 1185	老伯伯
+*	Coreference T153 T149
+T154	Person-Pronoun 1192 1193	我
+T155	Thing-Nominal 1200 1202	绿灯
+T156	Person-Nominal 1207 1209	行人
+T157	Location-Nominal 1214 1217	斑马线
+T158	Person-Nominal 1218 1220	姑娘
+T159	Thing-Nominal 1230 1234;1235 1236	左右的车 辆
+R14	Near Arg1:T159 Arg2:T157	
+T160	Location-Nominal 1243 1245	对面
+T161	Person-Nominal 1251 1258	我们这一老一少
+T162	Metric 1264 1267	十几米
+T163	Thing-Nominal 1263 1271	这十几米宽的马路
+T164	Thing-Nominal 1274 1280	对面的人行道
+R15	Located Arg1:T164 Arg2:T160	
+T165	Person-Pronoun 1282 1283	我
+T166	Person-Nominal 1292 1294	姑娘
+T167	Location-Nominal 1295 1297	前面
+T168	Location-Nominal 1299 1303	公交车站
+T169	Person-Pronoun 1307 1308	你
+T170	Person-Nominal 1312 1314	姑娘
+T171	Person-Pronoun 1317 1318	她
+*	Coreference T171 T170 T175
+T172	Person-Pronoun 1320 1321	我
+T173	Thing-Nominal 1317 1326	她搀着我的那支胳膊
+R16	Part-Whole Arg1:T173 Arg2:T170	
+T174	Person-Nominal 1332 1335	老伯伯
+T175	Person-Pronoun 1340 1341	我
+*	Coreference T174 T172 T176 T177 T179
+T176	Person-Pronoun 1350 1351	我
+T177	Person-Pronoun 1357 1358	我
+T178	Person-Nominal 1363 1365	姑娘
+T179	Person-Pronoun 1372 1373	您
+T180	Person-Pronoun 1374 1375	我
+*	Coreference T180 T178
+T181	Person-Pronoun 1407 1408	我
+T182	Organization-Nominal 1418 1420	社会
+T183	Thing-Nominal 1435 1439	一辆轿车
+T184	Metric 1435 1437	一辆
+T185	Thing-Nominal 1450 1453	反光镜
+R17	Part-Whole Arg1:T185 Arg2:T183	
+T186	Person-Nominal 1458 1461	一个人
+T187	Person-Nominal 1465 1468	驾车人
+R18	Use Arg1:T187 Arg2:T183	
+T188	Person-Nominal 1476 1487	一位戴着墨镜的时髦姑娘
+*	Coreference T187 T188 T189 T201 T202 T203 T206 T210
+T189	Person-Pronoun 1488 1489	她
+T190	Thing-Nominal 1493 1494	臂
+R19	Part-Whole Arg1:T190 Arg2:T189	
+T191	Thing-Nominal 1496 1497	腿
+R20	Part-Whole Arg1:T191 Arg2:T189	
+T192	Thing-Nominal 1499 1501	轿车
+*	Coreference T192 T183 T222
+T193	Person-Nominal 1512 1518	被她碰倒的人
+T194	Thing-Nominal 1504 1506	墨镜
+R21	Use Arg1:T189 Arg2:T194	
+T195	Person-Nominal 1525 1534	一位五十多岁的男子
+T196	Metric 1527 1531	五十多岁
+T197	Time-Implicit 1535 1537	这时
+T198	Person-Nominal 1540 1544	几个行人
+T199	Metric 1540 1542	几个
+T200	Person-Nominal 1545 1549	其中一个
+R22	Part-Whole Arg1:T200 Arg2:T198	
+T201	Person-Nominal 1552 1557	那驾车女郎
+T202	Person-Pronoun 1568 1569	她
+T203	Person-Pronoun 1573 1574	你
+T204	Person-Nominal 1575 1576	人
+T205	Person-Pronoun 1585 1586	他
+T206	Person-Nominal 1597 1599	女郎
+T207	Location-Nominal 1612 1614	现场
+T208	Person-Nominal 1620 1625	被碰倒男子
+T209	Thing-Nominal 1644 1647	赔偿费
+T210	Person-Pronoun 1654 1655	我
+T211	Person-Pronoun 1661 1662	我
+T212	Person-Nominal 1663 1671	有身份有教养的人
+R23	General-Special Arg1:T212 Arg2:T211	
+T213	Person-Pronoun 1675 1676	你
+T214	Time-Implicit 1682 1684	这时
+T215	Person-Nominal 1685 1690	围观的行人
+T216	Person-Nominal 1697 1701	一位路人
+T217	Person-Nominal 1725 1727	女郎
+T218	Thing-Nominal 1729 1731	眼睛
+R24	Part-Whole Arg1:T218 Arg2:T217	
+T219	Person-Pronoun 1740 1741	我
+T220	Person-Pronoun 1742 1743	他
+T221	Person-Pronoun 1750 1751	我
+T222	Thing-Nominal 1751 1752	车
+R25	Use Arg1:T221 Arg2:T222	
+T223	Person-Pronoun 1761 1762	他
+T224	Person-Pronoun 1758 1759	谁
+T225	Person-Pronoun 1770 1771	我
+T226	Person-Nominal 1778 1781	碰瓷的
+T227	Person-Nominal 1786 1791	围上来的人
+T228	Person-Nominal 1797 1802	跌倒的男子
+T229	Thing-Nominal 1807 1809	衣服
+T230	Thing-Nominal 1807 1813	衣服上的灰尘
+R26	Located Arg1:T230 Arg2:T229	
+R27	Use Arg1:T228 Arg2:T229	
+T231	Person-Nominal 1818 1820	女郎
+T232	Person-Nominal 1823 1825	姑娘
+*	Coreference T232 T231 T234
+T233	Person-Pronoun 1826 1827	我
+*	Coreference T233 T228 T193 T186 T195 T204 T205 T208 T213
+T234	Person-Pronoun 1830 1831	你
+T235	Person-Pronoun 1842 1843	你
+T236	Thing-Nominal 1846 1847	车
+T237	Person-Nominal 1852 1854	女郎
+T238	Person-Pronoun 1864 1865	他
+T239	Person-Nominal 1877 1882	跌倒的男子
+T240	Person-Nominal 1888 1890	姑娘
+T241	Person-Pronoun 1891 1892	你
+T242	Person-Pronoun 1894 1895	我
+T243	Person-Pronoun 1897 1898	我
+T244	Person-Nominal 1900 1903	碰瓷人
+T245	Person-Pronoun 1904 1905	你
+T246	Thing-Nominal 1905 1906	车
+T247	Person-Pronoun 1913 1914	我
+*	Coreference T247 T239 T242 T255
+*	Coreference T241 T240
+T248	Thing-Nominal 1921 1922	车
+T249	Person-Pronoun 1926 1927	你
+T250	Person-Nominal 1930 1936;1937 1939	有身份有教养 的人
+R28	General-Special Arg1:T250 Arg2:T249	
+T251	Person-Pronoun 1940 1941	我
+T252	Person-Pronoun 1946 1947	你
+T253	Person-Nominal 1951 1953	女郎
+T254	Thing-Nominal 1953 1958	白嫩的脸庞
+R29	Part-Whole Arg1:T254 Arg2:T253	
+T255	Person-Nominal 1974 1976	老伯
+T256	Person-Pronoun 1977 1978	我
+*	Coreference T256 T253 T257
+T257	Person-Pronoun 1984 1986	自己

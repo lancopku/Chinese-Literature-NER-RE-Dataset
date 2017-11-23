@@ -1,0 +1,232 @@
+T1	Thing-Nominal 2 4	大海
+T2	Person-Nominal 5 6	人
+T3	Thing-Nominal 7 13	蓝湛湛的大海
+T4	Thing-Nominal 26 41	一片令人痴迷令人流连忘返的大海
+T5	Location-Nominal 44 46	沙滩
+T6	Person-Pronoun 48 49	我
+T7	Thing-Nominal 63 65	大海
+T8	Thing-Nominal 78 80	大海
+T9	Thing-Pronoun 85 86	它
+*	Coreference T9 T8
+T10	Thing-Pronoun 92 93	它
+T11	Thing-Pronoun 98 99	它
+T12	Thing-Pronoun 104 105	它
+T13	Person-Nominal 87 109	每一个投入它怀抱、探索它神秘、挖掘它宝藏的人
+T14	Person-Pronoun 135 136	你
+T15	Person-Nominal 140 148	欢呼着上岸的人们
+T16	Person-Pronoun 149 151	他们
+T17	Person-Pronoun 193 195	他们
+T18	Thing-Nominal 201 208	波澜壮阔的大海
+T19	Person-Pronoun 209 211	他们
+T20	Thing-Nominal 213 225	天海一线那若隐若现的小船
+T21	Thing-Nominal 238 240	大海
+T22	Thing-Nominal 246 248	大海
+T23	Person-Nominal 249 259	翻波逐浪而凯旋的人们
+T24	Thing-Nominal 260 262	大海
+T25	Thing-Nominal 268 270	大海
+T26	Person-Nominal 271 283	翻船呛水而飘爬回来的人们
+T27	Thing-Nominal 286 288	大海
+T28	Person-Pronoun 295 296	你
+T29	Person-Nominal 300 307	爬着上岸的人们
+T30	Person-Pronoun 308 310	他们
+T31	Thing-Nominal 311 315	苍白的脸
+R1	Part-Whole Arg1:T31 Arg2:T30	
+T32	Person-Pronoun 348 350	他们
+T33	Person-Pronoun 363 365	他们
+T34	Person-Pronoun 401 403	他们
+T35	Thing-Nominal 411 413	大海
+T36	Person-Pronoun 414 416	他们
+T37	Thing-Nominal 418 420	大海
+T38	Thing-Nominal 446 448	沙岸
+T39	Thing-Pronoun 452 453	它
+T40	Person-Pronoun 471 472	你
+T41	Person-Nominal 476 483	赶海弄潮的人们
+T42	Person-Pronoun 484 486	他们
+T43	Person-Pronoun 494 496	他们
+T44	Thing-Nominal 499 500	头
+R2	Part-Whole Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 507 509	大海
+T46	Thing-Nominal 516 521	翻腾的浪谷
+T47	Person-Nominal 528 531;532 537	刚刚爬 上岸的人们
+T48	Person-Pronoun 538 540	他们
+*	Coreference T48 T47
+*	Coreference T42 T41
+*	Coreference T34 T36
+*	Coreference T30 T29 T32
+T49	Thing-Nominal 572 577	神秘的大海
+T50	Person-Nominal 583 586	弄潮儿
+T51	Thing-Nominal 601 606	神秘的大海
+T52	Person-Nominal 610 626	原本不了解大海甚至畏惧大海的人们
+T53	Thing-Pronoun 638 639	它
+*	Coreference T53 T51
+T54	Thing-Nominal 657 659	大海
+T55	Thing-Nominal 660 665	一所大学校
+T56	Person-Nominal 668 677	从大海里归来的人们
+T57	Person-Pronoun 678 680	他们
+*	Coreference T57 T56
+T58	Person-Pronoun 692 694	他们
+T59	Person-Pronoun 750 751	你
+T60	Person-Nominal 754 763	下海弄潮归来的人们
+T61	Person-Pronoun 764 766	他们
+*	Coreference T61 T60
+T62	Person-Pronoun 776 778	他们
+T63	Person-Pronoun 789 791	他们
+T64	Person-Nominal 792 806	一条条赢得来输得起的英雄好汉
+T65	Thing-Nominal 810 812	沙滩
+T66	Person-Nominal 813 814	人
+T67	Thing-Nominal 815 821	金灿灿的沙滩
+T68	Location-Nominal 834 838	这片海域
+T69	Thing-Nominal 842 852	名不见经传的古老海岸
+T70	Thing-Nominal 865 870	整条海岸线
+T71	Person-Pronoun 882 883	你
+T72	Thing-Nominal 887 892;893 901	一款款五彩 缤纷的帐篷与泳装
+T73	Person-Pronoun 902 903	你
+T74	Location-Nominal 924 931	日夜喧嚷的沙滩
+T75	Thing-Nominal 946 963	那块默默地伫立了千百年的“望夫石”
+T76	Person-Nominal 980 984;985 988	各种身份 的人们
+T77	Thing-Nominal 990 992	大海
+T78	Thing-Nominal 1011 1016	“望夫石”
+T79	Person-Pronoun 1047 1048	谁
+T80	Thing-Nominal 1053 1057	这片沙滩
+T81	Person-Nominal 1070 1085	从四面八方汇集到这片沙滩的人们
+T82	Person-Pronoun 1086 1088	他们
+*	Coreference T82 T81
+T83	Person-Pronoun 1106 1108	他们
+T84	Location-Nominal 1129 1133	这片沙滩
+T85	Person-Pronoun 1134 1136	他们
+T86	Person-Pronoun 1174 1176	他们
+T87	Location-Nominal 1205 1209	这片沙滩
+T88	Person-Pronoun 1211 1213	他们
+T89	Person-Pronoun 1231 1233	他们
+T90	Thing-Nominal 1237 1239	大海
+T91	Person-Pronoun 1268 1270	他们
+T92	Thing-Nominal 1273 1275	沙滩
+T93	Person-Pronoun 1292 1294	他们
+T94	Thing-Nominal 1306 1308	沙滩
+T95	Person-Pronoun 1314 1316	他们
+T96	Thing-Nominal 1317 1319	沙滩
+T97	Thing-Nominal 1320 1322	大海
+T98	Person-Nominal 1353 1356	很多人
+T99	Time-Implicit 1361 1363;1364 1365	几十 年
+T100	Person-Nominal 1393 1397	更多的人
+T101	Thing-Nominal 1406 1413	这片绵绒的沙滩
+T102	Person-Pronoun 1414 1416	他们
+T103	Thing-Nominal 1418 1422	这片沙滩
+T104	Person-Pronoun 1433 1435	他们
+T105	Thing-Nominal 1437 1441	这片沙滩
+T106	Person-Nominal 1459 1462	很多人
+T107	Thing-Nominal 1490 1495	深深的海洋
+T108	Thing-Nominal 1500 1511	一片让人喜让人忧的沙滩
+T109	Thing-Nominal 1514 1531	一片让人成功也眷恋失败也眷恋的沙滩
+T110	Person-Pronoun 1533 1535	我们
+T111	Thing-Nominal 1547 1551	这片沙滩
+T112	Thing-Nominal 1564 1568	这片沙滩
+T113	Person-Pronoun 1569 1571	我们
+T114	Thing-Nominal 1581 1585	这片沙滩
+T115	Thing-Nominal 1602 1606	这片沙滩
+T116	Person-Pronoun 1617 1619	我们
+T117	Thing-Nominal 1629 1632	这沙滩
+T118	Thing-Nominal 1625 1626	海
+T119	Person-Pronoun 1633 1635	我们
+T120	Thing-Nominal 1641 1644	这沙滩
+T121	Person-Nominal 1647 1653	沙滩上的人们
+T122	Person-Nominal 1657 1661	下海的人
+T123	Thing-Nominal 1674 1676	沙滩
+T124	Person-Nominal 1674 1677;1678 1680	沙滩上 的人
+T125	Person-Pronoun 2613 2615	我们
+T126	Thing-Nominal 2620 2622	大海
+T127	Person-Pronoun 2634 2636	我们
+T128	Person-Nominal 2639 2648	敢于闹海弄潮的人们
+T129	Person-Pronoun 2551 2553	我们
+T130	Thing-Nominal 2557 2559	沙滩
+T131	Thing-Nominal 2563 2565	大海
+T132	Person-Pronoun 2577 2579	我们
+T133	Thing-Nominal 2584 2588	这片沙滩
+T134	Person-Nominal 2582 2598	痴迷这片沙滩、坚守这片沙滩的人们
+T135	Thing-Nominal 2517 2525	荒漠上的飞沙走石
+T136	Thing-Nominal 2502 2504	大海
+T137	Thing-Nominal 2533 2545	一片荒无人烟的涌动的沙漠
+T138	Thing-Nominal 2526 2528	大海
+T139	Person-Nominal 2403 2410	下海弄潮的人们
+T140	Thing-Nominal 2411 2413	大海
+T141	Person-Nominal 2437 2443	沙滩上的人们
+T142	Thing-Nominal 2444 2446	沙滩
+T143	Thing-Nominal 2451 2453;2454 2460	一片 荒芜一片草滩
+T144	Thing-Nominal 2462 2472	大海的涛声大海的浪花
+T145	Thing-Nominal 2473 2475	大海
+T146	Thing-Nominal 2271 2273	大海
+T147	Thing-Nominal 2291 2292	海
+T148	Person-Nominal 2297 2304	下海弄潮的人们
+T149	Person-Nominal 2314 2320	沙滩上的人们
+T150	Thing-Nominal 2327 2329	沙滩
+T151	Person-Nominal 2335 2341	沙滩上的人们
+T152	Person-Nominal 2351 2358	下海弄潮的人们
+T153	Thing-Nominal 2365 2370	大海和沙滩
+T154	Person-Nominal 2371 2377	一对孪生兄弟
+T155	Thing-Nominal 2378 2380	大海
+T156	Thing-Nominal 2384 2386	沙滩
+T157	Person-Nominal 2068 2073	沙滩上的人
+T158	Thing-Nominal 2076 2078	大海
+T159	Thing-Pronoun 2082 2083	它
+T160	Thing-Pronoun 2095 2096	它
+T161	Thing-Nominal 2113 2115	大海
+T162	Person-Pronoun 2132 2134	我们
+T163	Location-Nominal 2138 2140	海岸
+T164	Thing-Pronoun 2149 2150	它
+T165	Thing-Pronoun 2153 2154	它
+T166	Person-Pronoun 2155 2157	我们
+T167	Thing-Nominal 2173 2175	大海
+T168	Person-Nominal 2225 2234	在大海怀抱中的人们
+T169	Person-Nominal 1736 1738;1739 1742	沙滩 上的人
+T170	Thing-Nominal 1750 1760	这片静寞而纯洁的沙岸
+T171	Person-Pronoun 1761 1763	他们
+T172	Person-Pronoun 1783 1785	他们
+T173	Thing-Nominal 1796 1798	大海
+T174	Person-Pronoun 1806 1808	他们
+T175	Person-Nominal 1821 1828	爬上岸的弄潮儿
+T176	Person-Pronoun 1829 1831	他们
+T177	Thing-Nominal 1859 1861	大海
+T178	Thing-Nominal 1862 1864	沙滩
+T179	Person-Nominal 1867 1875	投入大海怀抱的人
+T180	Thing-Nominal 1879 1881	大海
+T181	Person-Nominal 1878 1888	爱大海爱得最深沉的人
+T182	Person-Nominal 1891 1897	坚守沙滩的人
+T183	Person-Nominal 1900 1912	最了解沙滩最痴迷沙滩的人
+T184	Person-Nominal 1917 1923	沙滩上的人们
+T185	Person-Pronoun 1913 1914	你
+T186	Person-Pronoun 1924 1925;1926 1927	他 们
+T187	Thing-Nominal 1930 1932	大海
+T188	Thing-Nominal 1937 1939	大海
+T189	Person-Pronoun 1949 1951	他们
+T190	Thing-Nominal 1954 1956	大海
+T191	Thing-Nominal 1962 1964	大海
+T192	Person-Pronoun 1975 1976	你
+T193	Person-Nominal 1979 1984	下海的人们
+T194	Person-Pronoun 1985 1986;1987 1988	他 们
+T195	Thing-Nominal 1997 1999	大海
+T196	Thing-Nominal 1991 1993	大海
+T197	Person-Pronoun 2001 2003	他们
+T198	Thing-Nominal 2008 2010	沙滩
+T199	Thing-Nominal 2016 2018	沙滩
+T200	Thing-Nominal 2024 2026	沙滩
+T201	Person-Pronoun 2033 2035	他们
+T202	Thing-Nominal 2030 2032	沙滩
+T203	Thing-Nominal 2046 2047;2048 2049	沙 滩
+T204	Person-Pronoun 2050 2052	他们
+*	Coreference T16 T15 T17 T19
+R3	Located Arg1:T75 Arg2:T74	
+*	Coreference T86 T85
+*	Coreference T89 T88 T91
+*	Coreference T102 T100
+*	Coreference T109 T108
+*	Coreference T119 T116
+*	Coreference T171 T169 T172
+R4	Social Arg1:T149 Arg2:T148	
+R5	Social Arg1:T134 Arg2:T132	
+R6	Social Arg1:T128 Arg2:T127	
+*	Coreference T164 T161 T165
+*	Coreference T159 T158
+*	Coreference T201 T193 T197
+*	Coreference T189 T186 T184
+R7	Social Arg1:T152 Arg2:T151	
+*	Coreference T166 T162

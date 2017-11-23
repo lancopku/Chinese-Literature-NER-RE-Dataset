@@ -1,0 +1,183 @@
+T1	Time-Explicit 0 9	二0一三年十月一日
+T2	Location-Name 11 13	九龙
+T3	Location-Name 15 20	北京西客站
+T4	Thing-Name 10 30	从九龙开往北京西客站的7181次特快列车
+T6	Thing-Nominal 32 36	第九车厢
+R2	Part-Whole Arg1:T6 Arg2:T4	
+T7	Person-Nominal 41 51	一位英俊的年轻小伙子
+T8	Person-Name 54 60;61 65	圳一家公司的 胡副经理
+*	Coreference T8 T7 T9 T22 T25
+T9	Person-Nominal 66 70	这位小伙
+T10	Thing-Nominal 72 74	身体
+R3	Ownership Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 81 83	毛毯
+R4	Use Arg1:T9 Arg2:T11	
+T12	Thing-Nominal 87 91	两位座位
+T13	Thing-Name 97 104	7181次列车
+*	Coreference T13 T4 T75
+T14	Location-Name 105 108	聊城站
+T15	Person-Name 114 121;122 125	一位年逾七旬的 张老汉
+T16	Person-Nominal 128 130	女儿
+R5	Family Arg1:T16 Arg2:T15	
+T17	Location-Nominal 128 134	女儿工作地-
+T18	Location-Name 137 139	北京
+*	Coreference T18 T17
+T19	Person-Pronoun 142 143	他
+*	Coreference T19 T15 T23
+T21	Thing-Nominal 148 152	第九车厢
+T22	Person-Name 164 169	这位胡经理
+T23	Person-Name 171 174	张老汉
+T24	Person-Name 177 180	张老汉
+T25	Person-Name 183 186	胡经理
+T26	Person-Nominal 192 196	这位小伙
+T27	Time-Implicit 204 206	此时
+T28	Person-Nominal 209 218	一位对号入座的小伙
+T29	Person-Name 221 224	胡经理
+T30	Thing-Nominal 230 234	餐厅车厢
+R7	Part-Whole Arg1:T30 Arg2:T13	
+T31	Person-Name 238 241	胡经理
+T32	Person-Name 245 258	一位身怀五个月身孕的高女士
+T33	Person-Pronoun 259 260	她
+*	Coreference T33 T32 T36
+T34	Person-Name 269 272	张老汉
+T35	Person-Name 275 278	张老汉
+T36	Person-Name 296 298;299 300	高女 士
+T37	Metric 310 314	几个小时
+T38	Person-Name 319 322	张老汉
+T39	Time-Implicit 327 329	这时
+T40	Person-Name 330 333	尚女士
+T41	Person-Name 340 343	高女士
+T42	Thing-Nominal 346 351	自己的座位
+T43	Person-Pronoun 346 348	自己
+*	Coreference T43 T41
+R8	Ownership Arg1:T43 Arg2:T42	
+T44	Person-Name 353 356	高女士
+T45	Time-Implicit 362 364	此时
+T46	Person-Name 365 368	张老汉
+T47	Person-Name 369 371	高女
+T48	Person-Name 373 376	尚女士
+T49	Thing-Nominal 376 378	六目
+T50	Person-Name 388 391	胡经理
+T51	Person-Pronoun 400 401	他
+*	Coreference T51 T50
+T52	Thing-Nominal 420 424	第九车厢
+T53	Person-Name 427 439	一位身着红色旗袍的赖小姐
+T54	Person-Nominal 440 442	此人
+*	Coreference T54 T53 T66
+T55	Time-Implicit 442 446	青春时候
+T56	Thing-Nominal 447 448;449 451	黄 卷发
+R9	Part-Whole Arg1:T56 Arg2:T53	
+T57	Thing-Nominal 452 454	二目
+R10	Part-Whole Arg1:T57 Arg2:T53	
+T58	Thing-Nominal 459 463	一对耳环
+R11	Ownership Arg1:T53 Arg2:T58	
+T59	Location-Nominal 468 473	左右中指上
+T60	Thing-Nominal 473 475	钻戒
+R12	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 468 472	左右中指
+R13	Part-Whole Arg1:T61 Arg2:T53	
+T62	Thing-Nominal 480 482	苹果
+T63	Thing-Nominal 480 486	苹果似的脸蛋
+R14	Part-Whole Arg1:T63 Arg2:T53	
+T64	Thing-Nominal 494 498	两个酒窝
+R15	Located Arg1:T64 Arg2:T63	
+T65	Person-Name 499 502	胡经理
+T66	Person-Name 503 508	这位赖小姐
+T67	Person-Name 515 518	赖小姐
+T68	Thing-Nominal 520 523	8排座
+T20	Thing-Nominal 148 155	第九车厢8排座
+R6	Part-Whole Arg1:T20 Arg2:T21	
+*	Coreference T68 T20
+T5	Thing-Nominal 32 39	第九车厢8排座
+R1	Part-Whole Arg1:T5 Arg2:T6	
+T69	Location-Nominal 520 525	8排座右侧
+T70	Person-Name 530 533	胡经理
+T71	Person-Nominal 539 541	小姐
+*	Coreference T71 T67
+T72	Person-Name 545 547	赖小
+T73	Person-Name 557 560	胡经理
+T74	Thing-Nominal 557 565	胡经理铺垫的毛毯
+T75	Thing-Nominal 568 570	列车
+T76	Person-Nominal 574 581	前后旁边的旅客
+T77	Person-Nominal 587 588	人
+T78	Thing-Nominal 599 601	座位
+T79	Person-Name 611 614	赖小姐
+T80	Person-Name 616 625	走道上站着的尚女士
+*	Coreference T80 T48
+T81	Person-Nominal 636 640	那位小伙
+*	Coreference T81 T73
+T82	Thing-Nominal 657 659	挎包
+R16	Ownership Arg1:T79 Arg2:T82	
+T83	Thing-Nominal 662 666	个人印章
+R17	Ownership Arg1:T79 Arg2:T83	
+T84	Thing-Nominal 668 673	毛毯的两角
+T85	Thing-Nominal 668 670	毛毯
+R18	Part-Whole Arg1:T84 Arg2:T85	
+T86	Thing-Nominal 683 690	7181次列车
+T87	Location-Name 692 696	北京西站
+T88	Person-Name 697 700	赖小姐
+T89	Thing-Nominal 703 705	毛毯
+T90	Thing-Nominal 710 712	毛毯
+T91	Person-Name 717 720	胡经理
+T92	Person-Name 723 726	赖小姐
+T93	Person-Pronoun 729 731	自己
+*	Coreference T93 T91
+T94	Person-Name 736 739	赖小姐
+T95	Location-Nominal 744 746	站口
+R19	Part-Whole Arg1:T95 Arg2:T87	
+T96	Person-Nominal 747 749	旅客
+T97	Person-Name 754 757	胡经理
+T98	Person-Name 757 760	赖小姐
+T99	Time-Implicit 765 767	此时
+T100	Person-Name 768 771	胡经理
+T101	Thing-Nominal 781 783	毛毯
+T102	Person-Nominal 785 787	小姐
+T103	Person-Pronoun 791 792	我
+T104	Thing-Nominal 798 802	我的毛毯
+T105	Person-Pronoun 798 799	我
+*	Coreference T103 T100 T106 T108 T109 T110
+T106	Person-Pronoun 807 808	你
+T107	Thing-Nominal 811 815	我的毛毯
+R20	Ownership Arg1:T105 Arg2:T104	
+T108	Person-Pronoun 811 812	我
+R21	Ownership Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 816 817	你
+T110	Person-Pronoun 820 821	你
+T111	Thing-Nominal 834 838	我的毛毯
+T112	Person-Pronoun 834 835	我
+R22	Ownership Arg1:T112 Arg2:T111	
+*	Coreference T112 T98 T105 T102
+T113	Thing-Nominal 843 848	其中两个角
+R23	Part-Whole Arg1:T113 Arg2:T111	
+T114	Person-Pronoun 850 851	我
+T115	Thing-Nominal 850 854	我的印章
+R24	Ownership Arg1:T114 Arg2:T115	
+T116	Person-Name 858 861	胡经理
+T117	Person-Nominal 886 889	两个人
+T118	Person-Nominal 895 899	值班民警
+T119	Person-Nominal 904 906	二人
+*	Coreference T119 T117
+T120	Location-Nominal 907 910	值班室
+T121	Time-Implicit 912 914	这时
+T122	Person-Name 914 917	尚女士
+T123	Person-Nominal 918 922	这位民警
+*	Coreference T123 T118 T127
+T124	Person-Name 931 934	胡经理
+T125	Person-Name 935 938	赖小姐
+T126	Location-Nominal 940 943	值班室
+T127	Person-Nominal 944 948	民警同志
+T128	Person-Name 962 965	赖小姐
+T129	Person-Name 969 972	胡经理
+T130	Person-Name 985 988	胡经理
+T131	Thing-Nominal 985 991	胡经理的毛毯
+R25	Ownership Arg1:T130 Arg2:T131	
+T132	Thing-Nominal 992 993	物
+*	Coreference T132 T131
+T133	Person-Nominal 994 996	其主
+*	Coreference T133 T130
+T134	Thing-Nominal 1001 1006	毛毯的两角
+R26	Part-Whole Arg1:T134 Arg2:T131	
+T135	Person-Name 1009 1012	胡经理
+T136	Thing-Nominal 1018 1023	永恒的烙印
+T137	Location-Nominal 1009 1015	胡经理心灵上
+R27	Located Arg1:T136 Arg2:T137	

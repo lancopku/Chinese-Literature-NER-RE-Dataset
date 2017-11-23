@@ -1,0 +1,748 @@
+T1	Time-Implicit 0 7	春暖花开的时候
+T2	Thing-Nominal 10 17	软绵绵的绿草地
+T3	Location-Nominal 10 18	软绵绵的绿草地上
+T4	Thing-Nominal 19 21	骄阳
+T5	Thing-Nominal 2 3	花
+T6	Time-Implicit 0 1	春
+T7	Time-Implicit 19 26	骄阳似火的时候
+T8	Thing-Nominal 29 35	绿荫荫的柳树
+T9	Location-Nominal 29 36	绿荫荫的柳树下
+T10	Thing-Nominal 37 39	瓜果
+T11	Thing-Nominal 47 49	硕果
+T12	Thing-Nominal 55 57	白雪
+T13	Thing-Nominal 66 72	热乎乎的小屋
+T14	Time-Implicit 55 60;61 63	白雪皑皑的 时候
+T15	Location-Nominal 66 73	热乎乎的小屋里
+T16	Thing-Nominal 76 79	一本书
+T17	Metric 76 78	一本
+T18	Metric 97 100	上万本
+T19	Time-Explicit 97 101	上万本书
+T20	Time-Implicit 103 105	古代
+T21	Time-Implicit 106 108	当代
+T22	Thing-Nominal 109 121;122 124	现代的文学名著和各类百科 全书
+T23	Thing-Nominal 126 132	传统的纸质书
+T24	Thing-Nominal 134 144	现代数字技术的电子书
+T25	Location-Nominal 149 152	图书馆
+T26	Thing-Nominal 153 154	书
+R1	General-Special Arg1:T26 Arg2:T24	
+R2	General-Special Arg1:T26 Arg2:T23	
+T27	Thing-Nominal 159 160	书
+T28	Person-Nominal 156 158	朋友
+T29	Location-Nominal 162 164	书店
+T30	Thing-Nominal 166 167	书
+R3	Located Arg1:T26 Arg2:T25	
+R4	Located Arg1:T30 Arg2:T29	
+R5	Ownership Arg1:T28 Arg2:T27	
+T31	Thing-Nominal 169 170	书
+T32	Thing-Nominal 173 175	电脑
+T33	Thing-Nominal 175 177	手机
+T34	Thing-Nominal 179 182	电子书
+T35	Thing-Nominal 197 201	喜欢的书
+T36	Time-Implicit 212 214	以前
+T37	Person-Pronoun 214 215	我
+T38	Thing-Nominal 218 220	麻将
+T39	Person-Nominal 225 227	朋友
+T40	Thing-Nominal 230 232	麻将
+T41	Metric 240 244	两天两夜
+R6	Social Arg1:T37 Arg2:T39	
+T42	Time-Implicit 250 258	单身无牵挂的时候
+T43	Thing-Nominal 270 272	麻将
+T44	Person-Nominal 285 288	女朋友
+T45	Person-Nominal 289 292	女朋友
+R7	Social Arg1:T44 Arg2:T37	
+T46	Person-Nominal 299 301	两人
+T47	Thing-Nominal 304 306	麻将
+R8	Use Arg1:T46 Arg2:T47	
+T48	Time-Implicit 314 318	结婚以后
+T49	Person-Nominal 319 321	两人
+T50	Person-Nominal 328 330	妻子
+*	Coreference T50 T44
+R9	Family Arg1:T50 Arg2:T37	
+T51	Thing-Nominal 332 333;334 336	大 肚子
+R10	Part-Whole Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 340 342	麻将
+R11	Use Arg1:T50 Arg2:T52	
+T53	Thing-Nominal 344 347	麻将桌
+T54	Location-Nominal 351 353	医院
+T55	Person-Nominal 356 367	一位白白胖胖可爱的小子
+T56	Person-Nominal 370 372	孩子
+*	Coreference T56 T55 T86
+T57	Person-Nominal 374 376	两人
+T58	Person-Nominal 379 381	孩子
+R12	Part-Whole Arg1:T37 Arg2:T49	
+R13	Part-Whole Arg1:T50 Arg2:T49	
+T59	Person-Pronoun 377 378	谁
+T60	Person-Pronoun 382 383	谁
+T61	Thing-Nominal 384 386	麻将
+T62	Person-Nominal 390 392	妻子
+T63	Person-Nominal 395 397	孩子
+T64	Thing-Nominal 401 403	麻将
+R14	Family Arg1:T56 Arg2:T57	
+R15	Family Arg1:T56 Arg2:T62	
+T65	Person-Pronoun 411 412	我
+R16	Family Arg1:T56 Arg2:T65	
+T66	Thing-Nominal 407 409	麻将
+T67	Thing-Nominal 423 424	麻
+T68	Thing-Nominal 428 430	麻将
+T69	Thing-Nominal 437 449	一支冒着缕缕青雾似的香烟
+T70	Location-Nominal 433 435	嘴里
+R17	Located Arg1:T69 Arg2:T70	
+T71	Thing-Nominal 450 452	手指
+T72	Thing-Nominal 433 434	嘴
+R18	Part-Whole Arg1:T72 Arg2:T65	
+R19	Part-Whole Arg1:T71 Arg2:T65	
+T73	Thing-Nominal 464 466	麻将
+R20	Use Arg1:T65 Arg2:T73	
+T74	Thing-Nominal 471 473	麻将
+T75	Thing-Nominal 490 492	麻将
+T76	Thing-Nominal 480 488	“哗啦，哗啦”声
+T77	Thing-Nominal 494 499	长长的城墙
+T78	Thing-Nominal 501 502	牌
+T79	Thing-Nominal 504 505	牌
+T80	Person-Nominal 506 509	麻友们
+R21	Social Arg1:T80 Arg2:T65	
+T81	Time-Implicit 528 530	此时
+T82	Thing-Nominal 551 553	麻将
+T83	Time-Implicit 558 560	晚上
+T84	Time-Implicit 565 567	白天
+T85	Thing-Nominal 599 601	麻将
+T86	Person-Nominal 619 621	儿子
+T87	Person-Nominal 623 625	妻子
+T88	Person-Nominal 635 637	妻子
+T89	Person-Nominal 641 643	儿子
+T90	Location-Nominal 645 647	娘家
+T91	Person-Pronoun 650 651	我
+T92	Person-Nominal 657 661	公司经理
+R22	Social Arg1:T92 Arg2:T91	
+T93	Person-Nominal 687 689	经理
+*	Coreference T93 T92
+T94	Location-Nominal 703 705	娘家
+T95	Person-Nominal 706 708	妻子
+T96	Person-Nominal 709 711	儿子
+T97	Person-Nominal 712 714	妻子
+T98	Person-Pronoun 716 717	我
+T99	Thing-Nominal 725 727	麻将
+T100	Person-Pronoun 731 732	我
+T101	Person-Pronoun 736 737	我
+T102	Thing-Nominal 744 747	保证书
+R23	Create Arg1:T101 Arg2:T102	
+T103	Thing-Nominal 750 754	手指头印
+R25	Located Arg1:T103 Arg2:T102	
+R24	Create Arg1:T101 Arg2:T103	
+T104	Person-Nominal 755 757	妻子
+T105	Person-Pronoun 759 760	我
+T106	Person-Nominal 768 770	儿子
+T107	Person-Pronoun 771 772	我
+T108	Location-Nominal 776 777	家
+T109	Thing-Nominal 791 793	麻将
+T110	Person-Nominal 799 801	别人
+T111	Thing-Nominal 802 804	麻将
+T112	Thing-Nominal 807 809	麻将
+T113	Thing-Nominal 830 832	麻将
+T114	Time-Implicit 867 875	一次正玩的高兴时
+T115	Person-Nominal 877 879	妻子
+T116	Person-Nominal 884 885	人
+T117	Thing-Nominal 885 886	赃
+T118	Person-Nominal 889 891	妻子
+T119	Thing-Nominal 893 896	保证书
+T120	Thing-Nominal 899 900;901 904	白 纸黑字
+T121	Thing-Nominal 905 910	手指头红印
+R26	Part-Whole Arg1:T120 Arg2:T119	
+R27	Located Arg1:T121 Arg2:T119	
+T122	Time-Implicit 926 928	每天
+T123	Time-Implicit 937 939	晚上
+T124	Person-Nominal 942 944	妻子
+T125	Thing-Nominal 945 948	脚牙子
+R28	Part-Whole Arg1:T125 Arg2:T124	
+T126	Person-Pronoun 933 934	我
+T127	Time-Implicit 951 953	每月
+T128	Thing-Nominal 951 956	每月的工资
+T129	Person-Nominal 960 961;962 963	妻 子
+T130	Person-Nominal 966 968	妻子
+T131	Thing-Nominal 985 987	麻将
+T132	Thing-Nominal 999 1001	麻将
+T133	Person-Nominal 1011 1013	麻将
+T134	Person-Pronoun 1021 1023	自己
+*	Coreference T134 T126
+T135	Thing-Nominal 1026 1027	钱
+T136	Thing-Nominal 1030 1031	钱
+T137	Thing-Nominal 1070 1072	麻将
+T138	Person-Nominal 1089 1091	孩子
+T139	Thing-Nominal 1104 1106	电视
+T140	Thing-Nominal 1110 1118	卿卿我我的爱情片
+T141	Thing-Nominal 1121 1129	你杀我抢的枪战片
+T142	Person-Nominal 1135 1137	朋友
+T143	Thing-Nominal 1153 1154	肝
+T144	Thing-Nominal 1156 1157	胃
+T145	Thing-Nominal 1148 1149	酒
+T146	Time-Implicit 1158 1162	那天晚上
+T147	Person-Nominal 1163 1165	孩子
+T148	Location-Nominal 1166 1168	学校
+T149	Person-Nominal 1174 1176	妻子
+T150	Person-Nominal 1181 1183	两人
+T151	Thing-Nominal 1183 1185	大眼
+T152	Thing-Nominal 1186 1188	小眼
+T153	Person-Nominal 1209 1211	妻子
+T154	Thing-Nominal 1211 1213	柳眉
+T155	Thing-Nominal 1217 1220	大眼睛
+R29	Part-Whole Arg1:T154 Arg2:T153	
+R30	Part-Whole Arg1:T155 Arg2:T153	
+T156	Thing-Nominal 1227 1230	兰花指
+R31	Part-Whole Arg1:T156 Arg2:T153	
+T157	Location-Nominal 1231 1233	门口
+T158	Person-Pronoun 1243 1244	我
+T159	Person-Pronoun 1256 1257	你
+*	Coreference T158 T153
+T160	Person-Pronoun 1259 1260	你
+T161	Person-Pronoun 1305 1306	我
+*	Coreference T160 T161
+T162	Thing-Nominal 1268 1270	麻将
+T163	Time-Implicit 1274 1276	今天
+T164	Time-Implicit 1280 1282	明天
+T165	Thing-Nominal 1286 1291	书柜里的书
+T166	Location-Nominal 1286 1289	书柜里
+R32	Located Arg1:T165 Arg2:T166	
+T167	Person-Name 1317 1324	甘肃作家王家达
+T168	Thing-Nominal 1314 1334;1335 1351	一本由甘肃作家王家达著，获得茅盾文学奖， 甘肃人民出版社出版的《敦煌之恋》
+R33	Create Arg1:T167 Arg2:T168	
+T169	Thing-Nominal 1379 1385	《敦煌之恋》
+*	Coreference T169 T168
+T170	Person-Nominal 1386 1388	世人
+T171	Location-Name 1391 1393	敦煌
+T172	Thing-Name 1394 1395;1396 1400	敦 煌莫高窟
+R34	Located Arg1:T172 Arg2:T171	
+T173	Location-Name 1404 1412	敦煌鸣沙山月牙泉
+T174	Time-Implicit 1445 1447	深夜
+T175	Thing-Nominal 1449 1450	书
+T176	Thing-Nominal 1457 1463	《敦煌之恋》
+T177	Person-Pronoun 1470 1471	我
+T178	Time-Implicit 1481 1484	小时候
+T179	Location-Nominal 1489 1497	离敦煌不远的地方
+T180	Location-Nominal 1498 1501	这地方
+T181	Location-Name 1511 1516	柳园火车站
+T182	Location-Nominal 1517 1523	不大的火车站
+*	Coreference T182 T181 T183 T180 T179 T205
+T183	Location-Nominal 1503 1509	小小的火车站
+T184	Thing-Nominal 1527 1529	火车
+T185	Time-Implicit 1524 1526	每天
+T186	Person-Nominal 1533 1541;1542 1571	成百上千的黄头发 ，蓝眼睛，高鼻梁，白皮肤，还有全身都黑的象焦炭一样的外国人
+T187	Person-Nominal 1573 1592	美国人，英国人，俄国人，日本人，非洲人
+T188	Person-Pronoun 1594 1596	他们
+*	Coreference T188 T186
+T189	Person-Pronoun 1606 1607	我
+T190	Thing-Nominal 1620 1622	汽车
+T191	Thing-Nominal 1616 1618	火车
+T192	Time-Implicit 1623 1625	那时
+T193	Thing-Nominal 1626 1628	汽车
+T194	Time-Implicit 1630 1632	有时
+T195	Thing-Nominal 1632 1634	汽车
+T196	Location-Nominal 1640 1642	街上
+T197	Thing-Nominal 1652 1655	葡萄干
+T198	Thing-Nominal 1656 1658	瓜子
+T199	Thing-Nominal 1652 1663	葡萄干，瓜子等特色食品
+T200	Person-Nominal 1666 1672	大胆的本地人
+T201	Person-Pronoun 1679 1681	他们
+T202	Person-Pronoun 1685 1687	他们
+T203	Location-Name 1700 1702	敦煌
+T204	Location-Name 1703 1705	敦煌
+T205	Location-Pronoun 1707 1709	这里
+T206	Location-Name 1717 1719	敦煌
+T207	Location-Name 1710 1712	敦煌
+T208	Location-Name 1722 1724	敦煌
+T209	Person-Nominal 1720 1726	去过敦煌的人
+T210	Person-Pronoun 1732 1733	我
+T211	Time-Implicit 1738 1740	每天
+T212	Person-Nominal 1741 1748	这么多的外国人
+T213	Location-Nominal 1753 1759	那么远的地方
+T214	Location-Name 1770 1772	敦煌
+T215	Location-Name 1773 1775	敦煌
+T216	Person-Pronoun 1784 1786	他们
+T217	Person-Pronoun 1791 1792	我
+T218	Person-Nominal 1793 1801	身边的叔叔，阿姨
+R35	Social Arg1:T217 Arg2:T218	
+T219	Person-Pronoun 1802 1804	他们
+*	Coreference T219 T218
+T220	Person-Nominal 1820 1825	去过敦煌的
+T221	Person-Pronoun 1826 1828	他们
+*	Coreference T221 T220
+T222	Location-Nominal 1835 1845	大商场，大夜市等地方
+T223	Location-Pronoun 1848 1850	那里
+*	Coreference T223 T222
+T224	Thing-Nominal 1848 1853	那里的商品
+R36	Located Arg1:T224 Arg2:T223	
+T225	Location-Name 1879 1881	敦煌
+T226	Person-Pronoun 1882 1883	我
+T227	Thing-Nominal 1892 1899	一层神秘的面纱
+T228	Person-Pronoun 1900 1901	我
+T229	Location-Name 1909 1911	敦煌
+T230	Location-Pronoun 1913 1914	你
+T231	Person-Nominal 1925 1926	人
+T232	Person-Nominal 1928 1934	到敦煌去的人
+T233	Person-Nominal 1937 1939;1940 1942	达官 贵人
+T234	Person-Nominal 1943 1949	穷困潦倒的人
+T235	Location-Pronoun 1954 1955	你
+T236	Location-Pronoun 1957 1958	你
+*	Coreference T235 T229 T230
+T237	Person-Pronoun 1963 1964	我
+T238	Location-Name 1968 1970	敦煌
+T239	Thing-Nominal 1968 1981	敦煌方面的资料，图片，音乐
+T240	Thing-Nominal 1983 2010	报纸，杂志等有关敦煌的诗歌，小说，散文，游记，新闻报道
+T241	Thing-Nominal 2045 2073	敦煌方面的书，光盘，歌曲磁带，参观门票，雕塑刺绣，工艺品
+T242	Person-Pronoun 2096 2097	我
+T243	Location-Nominal 2099 2101	县城
+T244	Location-Nominal 2099 2104	县城电影院
+T245	Thing-Nominal 2118 2122	十多里路
+T246	Thing-Nominal 2106 2112	《敦煌》电影
+T247	Metric 2118 2121	十多里
+T248	Location-Nominal 2131 2134	电影院
+*	Coreference T248 T244
+T249	Thing-Nominal 2140 2142	电影
+T250	Person-Nominal 2145 2152	电影院管理人员
+T251	Time-Implicit 2145 2155	电影院管理人员清场时
+T252	Person-Pronoun 2159 2160	我
+T253	Person-Pronoun 2162 2163	我
+T254	Person-Pronoun 2168 2169	我
+T255	Thing-Nominal 2173 2217;2218 2272	《海市蜃楼》，《新龙门客栈》，《封神榜》，《沙洲王子》，《九色鹿》，《丝路明珠》，《月牙 泉的传说》，《莫高窟的风情》《丝路花雨》，《大梦敦煌》，《大敦煌》，《敦煌神女》等体现敦煌风土人情的电影戏曲
+T256	Thing-Nominal 2274 2278;2279 2309	歌曲《月 牙泉》，《大敦煌》，《敦煌》，《美丽的敦煌》，《人类的敦煌》
+T257	Thing-Nominal 2313 2315	歌碟
+T258	Person-Pronoun 2318 2319	我
+T259	Time-Implicit 2329 2332	第九天
+T260	Thing-Nominal 2335 2337	歌碟
+T261	Location-Nominal 2322 2325	音像店
+T262	Location-Nominal 2340 2341	家
+T263	Person-Nominal 2362 2364	别人
+T264	Person-Pronoun 2349 2350	我
+T265	Location-Name 2366 2368	敦煌
+T266	Person-Nominal 2378 2379	人
+T267	Location-Name 2381 2383	敦煌
+T268	Person-Pronoun 2393 2395	人家
+T269	Person-Pronoun 2399 2400;2401 2402	他 们
+*	Coreference T269 T268
+T270	Location-Name 2403 2405	敦煌
+T271	Person-Pronoun 2418 2419	我
+T272	Thing-Nominal 2423 2431	有关敦煌方面的书
+T273	Thing-Nominal 2436 2437	饭
+T274	Thing-Nominal 2439 2441	肚子
+R37	Part-Whole Arg1:T274 Arg2:T271	
+T275	Thing-Nominal 2446 2447	钱
+R38	Ownership Arg1:T271 Arg2:T275	
+R39	Use Arg1:T271 Arg2:T273	
+R40	Use Arg1:T271 Arg2:T272	
+R41	Social Arg1:T264 Arg2:T263	
+R42	Ownership Arg1:T258 Arg2:T260	
+T276	Person-Pronoun 2453 2454	我
+T277	Thing-Nominal 2458 2478;2479 2539;2540 2556	《百年敦煌》，《美丽敦煌》，《啊，敦煌》 ，《圣地敦煌》，《敦煌的故事》，《敦煌》，《祁连下》，《面壁敦煌》，《敦煌壁画故事》，《一个韩国人的敦煌梦》，《追索敦煌 文物的老人》，《敦煌文化》等书籍
+R43	Ownership Arg1:T276 Arg2:T277	
+T278	Thing-Nominal 2557 2560	每一本
+R44	Part-Whole Arg1:T278 Arg2:T277	
+T279	Person-Pronoun 2569 2570	我
+T280	Location-Name 2573 2575	敦煌
+T281	Person-Nominal 2578 2580	父母
+R45	Family Arg1:T281 Arg2:T279	
+T282	Thing-Nominal 2578 2588	父母给的几分几角零钱
+R46	Ownership Arg1:T279 Arg2:T282	
+T283	Thing-Nominal 2593 2597	敦煌资料
+T284	Thing-Nominal 2602 2606	多余的钱
+T285	Location-Name 2608 2610	敦煌
+T286	Location-Nominal 2613 2622	我家里的单间小屋里
+T287	Thing-Nominal 2623 2624	墙
+R47	Located Arg1:T287 Arg2:T286	
+T288	Thing-Nominal 2628 2640	飞天，莫高窟，月牙泉图片
+R48	Located Arg1:T288 Arg2:T287	
+T289	Thing-Nominal 2641 2654	飞天，舞技，菩萨和佛的剪纸
+R49	Located Arg1:T289 Arg2:T287	
+T290	Thing-Nominal 2655 2662	敦煌字画，壁毯
+R50	Located Arg1:T290 Arg2:T287	
+T291	Location-Nominal 2663 2665	桌上
+T292	Thing-Nominal 2667 2673;2674 2682	反弹琵琶，飞 天塑像，刺绣骆驼
+R51	Located Arg1:T292 Arg2:T291	
+T293	Thing-Nominal 2683 2687	放的歌曲
+T294	Thing-Nominal 2688 2692	敦煌乐曲
+*	Coreference T294 T293
+T295	Thing-Nominal 2693 2696	看的书
+T296	Thing-Nominal 2697 2701	敦煌书籍
+*	Coreference T296 T295
+T297	Thing-Nominal 2703 2707	床上铺的
+T298	Thing-Nominal 2708 2716	飞天图形蜡染床单
+*	Coreference T298 T297
+T299	Location-Nominal 2717 2719	屋里
+T300	Thing-Nominal 2722 2729	敦煌方面的东西
+R52	Located Arg1:T300 Arg2:T299	
+R53	General-Special Arg1:T300 Arg2:T298	
+R54	General-Special Arg1:T300 Arg2:T296	
+R55	General-Special Arg1:T300 Arg2:T294	
+R56	General-Special Arg1:T300 Arg2:T292	
+R57	General-Special Arg1:T300 Arg2:T290	
+R58	General-Special Arg1:T300 Arg2:T289	
+R59	General-Special Arg1:T300 Arg2:T288	
+T301	Location-Nominal 2732 2734;2735 2738	我的 小屋里
+*	Coreference T301 T286
+T302	Location-Name 2743 2745	敦煌
+T303	Location-Name 2748 2750	敦煌
+T304	Person-Nominal 2760 2767	没去过敦煌的人
+T305	Location-Nominal 2752 2757	我的小屋里
+T306	Thing-Nominal 2769 2773	我的小屋
+T307	Thing-Nominal 2613 2621	我家里的单间小屋
+*	Coreference T306 T307
+T308	Location-Name 2781 2783	敦煌
+T309	Location-Name 2790 2792	敦煌
+T310	Location-Pronoun 2796 2798	这里
+*	Coreference T310 T305
+T311	Thing-Nominal 2802 2813	一所民间敦煌艺术收藏馆
+T312	Metric 2802 2804	一所
+T313	Person-Pronoun 2816 2817	我
+T314	Thing-Nominal 2821 2828	敦煌莫高窟壁画
+T316	Thing-Nominal 2838 2845	鲜艳色彩的衣裙
+T315	Person-Nominal 2821 2836	敦煌莫高窟壁画上的飞天，舞伎们
+R60	Use Arg1:T315 Arg2:T316	
+T317	Thing-Nominal 2846 2855	随风舞动长长的飘带
+R61	Part-Whole Arg1:T317 Arg2:T316	
+T318	Thing-Nominal 2858 2865	美妙的敦煌鼓乐
+T319	Thing-Nominal 2873 2875	琵琶
+R62	Use Arg1:T315 Arg2:T319	
+T320	Person-Pronoun 2881 2882	我
+T321	Person-Pronoun 2883 2885	她们
+*	Coreference T321 T315
+T322	Person-Nominal 2898 2901	飞天们
+T323	Time-Implicit 2911 2913	夜晚
+T324	Person-Pronoun 2914 2915	我
+T325	Thing-Nominal 2917 2922	浩瀚的天空
+T326	Location-Name 2930 2932	敦煌
+T327	Location-Name 2941 2943	敦煌
+T328	Thing-Nominal 2946 2950	沧海桑田
+T329	Person-Pronoun 2951 2952	我
+T330	Location-Nominal 2959 2963	敦煌上空
+T331	Person-Pronoun 2964 2965	我
+T332	Time-Implicit 2974 2978	上古时期
+T333	Person-Name 2979 2980	舜
+T334	Location-Name 2982 2984	敦煌
+T335	Person-Name 2985 2986	舜
+T336	Person-Nominal 2989 3000	居住在那里三苗人的头领
+T337	Person-Nominal 3003 3010	三苗人的新头领
+*	Coreference T335 T337
+T338	Location-Pronoun 2992 2994	那里
+*	Coreference T338 T334
+T339	Person-Nominal 3013 3015	男人
+T340	Thing-Nominal 3016 3018	陶土
+T341	Thing-Nominal 3019 3021	陶器
+R63	Use Arg1:T339 Arg2:T340	
+R64	Create Arg1:T339 Arg2:T341	
+T342	Person-Nominal 3022 3024	女人
+T343	Thing-Nominal 3025 3027	陶器
+R65	Use Arg1:T342 Arg2:T343	
+T344	Person-Nominal 3003 3006	三苗人
+R66	Part-Whole Arg1:T339 Arg2:T344	
+T345	Person-Nominal 3022 3024	女人
+R67	Part-Whole Arg1:T345 Arg2:T344	
+T346	Thing-Nominal 3031 3032	水
+T347	Thing-Nominal 3035 3037	陶器
+T348	Thing-Nominal 3038 3039	饭
+R68	Create Arg1:T342 Arg2:T348	
+T349	Person-Name 3040 3041	舜
+T350	Person-Nominal 3043 3046	三苗人
+T351	Thing-Nominal 3048 3056	石斧，石枪，石刀
+R69	Use Arg1:T350 Arg2:T351	
+T352	Organization-Nominal 3059 3063	羌人部落
+T353	Organization-Nominal 3067 3071	羌人部落
+T354	Person-Nominal 3072 3074	羌人
+R70	Ownership Arg1:T354 Arg2:T353	
+T355	Person-Nominal 3076 3082	三苗人的奴隶
+R71	Social Arg1:T355 Arg2:T350	
+*	Coreference T354 T355
+T356	Person-Nominal 3083 3086	三苗人
+T357	Thing-Nominal 3088 3090	火堆
+T358	Person-Pronoun 3100 3101	我
+T359	Location-Nominal 3103 3108	夜晚的空中
+T360	Thing-Nominal 3112 3119	羌人幽怨的笛声
+R72	Located Arg1:T360 Arg2:T359	
+T361	Location-Nominal 3120 3122	远处
+T362	Person-Nominal 3122 3125	乌孙人
+T363	Thing-Nominal 3134 3136	牧鞭
+R73	Use Arg1:T362 Arg2:T363	
+T364	Thing-Nominal 3137 3145	一群群白色的羊儿
+R74	Ownership Arg1:T362 Arg2:T364	
+T365	Location-Nominal 3146 3154;3155 3160	一望无边的，绿油 油的草场上
+R75	Located Arg1:T364 Arg2:T365	
+T366	Thing-Nominal 3165 3166	草
+T367	Person-Nominal 3167 3170	月氏人
+T368	Thing-Nominal 3172 3177	明亮的弯刀
+R76	Use Arg1:T367 Arg2:T368	
+T369	Thing-Nominal 3178 3183	明亮的弯刀
+T370	Person-Nominal 3193 3196	月氏人
+T371	Organization-Nominal 3200 3204	乌孙部落
+T372	Person-Nominal 3220 3223	月氏人
+T373	Person-Nominal 3232 3235	月氏人
+T374	Location-Nominal 3226 3231	肥袄的牧场
+T375	Thing-Nominal 3237 3239	弯刀
+T376	Person-Nominal 3241 3244	匈奴人
+R77	Ownership Arg1:T362 Arg2:T371	
+T377	Person-Nominal 3250 3253	月氏人
+T378	Person-Name 3257 3260	汉武帝
+T379	Thing-Nominal 3241 3247	匈奴人的铁骑
+T380	Person-Name 3264 3266	李广
+T381	Person-Nominal 3273 3276	匈奴人
+T382	Thing-Nominal 3273 3276;3277 3282	匈奴人 铁骑的盔甲
+R78	Ownership Arg1:T381 Arg2:T382	
+R79	Use Arg1:T381 Arg2:T382	
+T383	Person-Nominal 3283 3287	北魏骑兵
+T384	Organization-Nominal 3291 3295	盛世唐朝
+T385	Person-Name 3296 3298	敦煌
+T386	Location-Nominal 3300 3303	古战场
+T387	Thing-Nominal 3309 3311	号角
+T388	Thing-Nominal 3318 3320	丝绸
+T389	Person-Nominal 3324 3326	商旅
+T390	Organization-Nominal 3330 3332	吐蕃
+T391	Location-Nominal 3335 3337	丝路
+T392	Location-Name 3345 3347	敦煌
+T393	Location-Name 3353 3355	敦煌
+T394	Location-Name 3359 3361	敦煌
+T395	Person-Nominal 3363 3365	人民
+T396	Location-Name 3377 3379	敦煌
+T397	Person-Pronoun 3380 3381	我
+T398	Location-Name 3386 3388	敦煌
+T399	Person-Pronoun 3390 3391	我
+T400	Person-Pronoun 3396 3397	你
+T401	Person-Pronoun 3401 3402	你
+T402	Location-Name 3414 3416	敦煌
+T403	Person-Pronoun 3420 3421	我
+T404	Location-Name 3427 3429	敦煌
+T405	Person-Pronoun 3438 3439	我
+T406	Time-Implicit 3444 3451	初二暑假的一天
+T407	Person-Nominal 3452 3454	爸妈
+T408	Person-Pronoun 3456 3457	我
+T409	Person-Nominal 3458 3460	哥哥
+R80	Family Arg1:T408 Arg2:T409	
+R81	Family Arg1:T407 Arg2:T408	
+R82	Family Arg1:T407 Arg2:T409	
+T410	Person-Nominal 3461 3464	全家人
+T411	Location-Name 3472 3474	敦煌
+T412	Thing-Nominal 3478 3495	色彩鲜艳，魅力无边的敦煌莫高窟壁画
+T413	Location-Name 3500 3504;3505 3509	敦煌鸣沙 山月牙泉
+T414	Location-Name 3516 3518	敦煌
+T415	Thing-Nominal 3534 3536	胸膛
+R83	Part-Whole Arg1:T415 Arg2:T408	
+T416	Thing-Nominal 3546 3551	厚厚的云雾
+T417	Thing-Pronoun 3556 3557	啥
+T418	Thing-Nominal 3597 3601	整个身子
+R84	Part-Whole Arg1:T418 Arg2:T408	
+T419	Time-Implicit 3618 3621	长大后
+T420	Location-Name 3666 3668	敦煌
+T421	Location-Name 3671 3673	敦煌
+T422	Location-Name 3674 3676	敦煌
+T423	Person-Nominal 3677 3684	一位妖娆的美女
+T424	Thing-Nominal 3694 3706	妩媚的黑眼睛，薄薄的红唇
+R85	Part-Whole Arg1:T424 Arg2:T423	
+T425	Location-Nominal 3713 3715	远方
+T426	Person-Pronoun 3720 3721	我
+T427	Person-Pronoun 3729 3730	我
+T428	Person-Pronoun 3749 3750	我
+*	Coreference T427 T423 T428
+T429	Person-Pronoun 3734 3735	你
+*	Coreference T429 T426
+T430	Person-Pronoun 3763 3764	我
+T431	Location-Name 3768 3770	敦煌
+T432	Time-Implicit 3821 3823	现在
+T433	Location-Name 3843 3845	敦煌
+T434	Person-Name 3869 3874	画家张大千
+T435	Location-Name 3887 3889	敦煌
+T436	Location-Name 3901 3906	敦煌莫高窟
+T437	Metric 3926 3928	三年
+T438	Thing-Nominal 3929 3934	临摹的壁画
+R86	Create Arg1:T434 Arg2:T438	
+T439	Location-Nominal 3941 3942;3943 3944	全 国
+T440	Location-Name 3945 3947	敦煌
+T441	Person-Name 3945 3954	敦煌的保护神常书鸿
+T442	Person-Name 3975 3985	敦煌学的开拓者段文杰
+T443	Location-Name 3986 3988	敦煌
+T444	Location-Name 4000 4002	敦煌
+T445	Thing-Nominal 4010 4014	敦煌壁画
+T446	Metric 4016 4019	几十年
+T447	Thing-Nominal 4016 4021	几十年积蓄
+T448	Person-Nominal 4006 4027	为了复原敦煌壁画花光几十年积蓄的西安女画家
+R87	Ownership Arg1:T448 Arg2:T447	
+R88	Use Arg1:T448 Arg2:T447	
+T449	Person-Name 4028 4034	甘肃作家许维
+T450	Thing-Nominal 4041 4062	被世人称赞，著名的流动的敦煌壁画的历史小说
+R89	Create Arg1:T449 Arg2:T450	
+T451	Person-Nominal 4063 4064;4065 4078	一 辈子醉心敦煌艺术的日本学者
+T452	Person-Nominal 4079 4092	十年一梦研究敦煌学的韩国人
+T453	Person-Nominal 4093 4115	痴迷敦煌文化而来敦煌做生意开咖啡厅的英国姑娘
+T454	Location-Name 4069 4071	敦煌
+T455	Location-Name 4085 4087	敦煌
+T456	Location-Name 4095 4097	敦煌
+T457	Location-Name 4101 4103	敦煌
+T458	Person-Nominal 4074 4078	日本学者
+R90	General-Special Arg1:T458 Arg2:T451	
+T459	Person-Nominal 4089 4092	韩国人
+R91	General-Special Arg1:T459 Arg2:T452	
+T460	Person-Nominal 4111 4115	英国姑娘
+R92	General-Special Arg1:T460 Arg2:T453	
+T461	Person-Nominal 4028 4032	甘肃作家
+R93	General-Special Arg1:T461 Arg2:T449	
+T462	Person-Nominal 4022 4027	西安女画家
+R94	General-Special Arg1:T462 Arg2:T448	
+T463	Person-Name 4119 4127	敦煌的女儿樊锦诗
+T464	Location-Name 4136 4138	敦煌
+T465	Location-Name 4143 4145	敦煌
+T466	Location-Name 4149 4151	敦煌
+T467	Location-Name 4156 4158	敦煌
+T468	Location-Name 4168 4170	敦煌
+T469	Location-Name 4174 4176	敦煌
+T470	Location-Name 4180 4182	敦煌
+T471	Thing-Nominal 4191 4193	火山
+T472	Thing-Nominal 4191 4201	火山下聚集沸腾的岩浆
+R95	Located Arg1:T472 Arg2:T471	
+T473	Time-Implicit 4209 4213	回来以后
+T474	Thing-Nominal 4232 4233	笔
+T475	Location-Name 4234 4236	敦煌
+T476	Thing-Nominal 4239 4243	很多文章
+R96	Use Arg1:T430 Arg2:T474	
+R97	Create Arg1:T430 Arg2:T476	
+T477	Organization-Name 4254 4260	《酒泉日报》
+T478	Thing-Nominal 4264 4275	《古代敦煌人生活探秘》
+R98	Part-Whole Arg1:T478 Arg2:T476	
+T479	Thing-Nominal 4288 4296	大量阅读文学名著
+T480	Thing-Nominal 4298 4348;4349 4409;4410 4448	《水浒传》，《西游记》，《红楼梦》，《三国演义》，《封神演义》《杨家将》，《岳飞传》，《三十六计》， 《聊斋志异》，《诗经》，《鲁迅全集》，《矛盾全集》，《朱自清散文集》，《老舍全集》，《飘》，《钢铁是怎样练成的》，《汤姆 索尼历险记》，《堂吉诃德》,《汤姆叔叔的小屋》，《格林童话》，《白雪公主》等
+R99	General-Special Arg1:T479 Arg2:T480	
+R100	Use Arg1:T430 Arg2:T479	
+T481	Thing-Nominal 4452 4457	没读过的书
+T482	Thing-Nominal 4458 4470;4471 4531;4532 4592;4593 4600	金庸的武侠小说《射雕英雄 传》，《天伦八部》，《鹿鼎记》，《倚天屠龙记》，《笑傲江湖》，《雪山飞狐》等，古龙的武侠小说《流星蝴蝶剑》，《三少爷的剑 》，《楚留香传奇》等，琼瑶著《白狐》，《在水一方》等，三毛著《哭泣的骆驼》等，少儿读物《冒险小虎队》，美国斯坦著《鸡皮疙 瘩系列丛书》等
+T483	Thing-Nominal 4601 4605	百科全书
+R101	General-Special Arg1:T481 Arg2:T482	
+T484	Thing-Nominal 4606 4653;4654 4714;4715 4775;4776 4821	生活，自然，科学百科全书，当代文学名著，王安忆著《伤痕》，《小鲍庄》等，阿城著的《棋王》，《孩 子王》等，莫言著《红高粱》等，王蒙著《蝴蝶》，《组织部新来的青年人》，《青春万岁》等，古华著的《爬满青藤的木屋》，《芙蓉 镇》等，高晓声著《李顺大造屋》，《陈奂生上城》等，郭敬明著《幻城》，《梦里花落知多少》等，韩寒著《零下一度》，《毒》等， 冯俐著《北京夏天》等，饶雪漫著《左耳》，《沙漏》，《离歌》等，余秋雨的散文集《文化苦旅》等
+R102	General-Special Arg1:T483 Arg2:T484	
+R103	Use Arg1:T430 Arg2:T481	
+R104	Use Arg1:T430 Arg2:T483	
+T485	Thing-Nominal 4826 4830	大量书籍
+R105	Use Arg1:T430 Arg2:T485	
+T487	Person-Pronoun 5054 5055	我
+T486	Thing-Nominal 4867 4889	有地方传奇特色的《丁香花之歌》和《瓜州仙子》
+T488	Organization-Name 4890 4896	《阳关》杂志
+T489	Thing-Nominal 4901 4907	《瓜州仙子》
+T490	Thing-Nominal 4911 4924	《瓜州民间故事精品集》一书
+R106	Create Arg1:T487 Arg2:T486	
+R107	Create Arg1:T487 Arg2:T489	
+T491	Thing-Nominal 4928 4939	《风啊，风啊，大大刮》
+T492	Organization-Name 4940 4946	《北方作家》
+T493	Organization-Name 4951 4957	《小说选刊》
+T494	Thing-Nominal 4959 4965	优秀短篇小说
+R108	General-Special Arg1:T494 Arg2:T491	
+R109	Create Arg1:T487 Arg2:T491	
+T495	Thing-Nominal 4968 4975	《悠悠榆钱情》
+T496	Organization-Name 4976 4984	《西凉文学》杂志
+T497	Thing-Nominal 4987 4988;4989 4996	《 美丽的白莲花》
+T498	Organization-Name 4997 5003	《酒泉日报》
+T499	Thing-Nominal 5006 5033	美女系列小说《美女媳妇》，《美女桃花》和《美女招牌》等
+T500	Organization-Name 5034 5049;5050 5051	《北方作家》，《草圣故里》等杂 志
+R110	Create Arg1:T487 Arg2:T499	
+R111	Create Arg1:T487 Arg2:T497	
+R112	Create Arg1:T487 Arg2:T495	
+T501	Thing-Nominal 5054 5079	我创作的具有敦煌特色的18万字长篇小说《梦幻敦煌》
+R113	Create Arg1:T487 Arg2:T501	
+T502	Organization-Name 5080 5085	起点中文网
+T503	Time-Explicit 5103 5110	2007年7月
+T504	Person-Pronoun 5111 5112	我
+T505	Organization-Name 5113 5118	酒泉市文联
+T506	Person-Nominal 5121 5125	作协会员
+R114	General-Special Arg1:T506 Arg2:T504	
+T507	Time-Explicit 5126 5133	2009年8月
+T508	Person-Nominal 5145 5149	作协代表
+R115	General-Special Arg1:T508 Arg2:T504	
+T509	Time-Explicit 5150 5157	2012年3月
+T510	Location-Name 5160 5162	玉门
+T511	Location-Name 5135 5138	瓜州县
+T512	Person-Nominal 5162 5166	高级作家
+T513	Organization-Name 5160 5169	玉门高级作家研讨班
+T514	Person-Nominal 5176 5182	许多文学朋友
+R116	Social Arg1:T504 Arg2:T514	
+T515	Thing-Nominal 5217 5224	越来越多的文章
+T516	Location-Nominal 5225 5230	报刊杂志上
+R117	Located Arg1:T515 Arg2:T516	
+T517	Metric 5237 5241	30多篇
+T518	Thing-Nominal 5243 5247	获奖文章
+T519	Time-Explicit 5259 5266	2011年7月
+T520	Organization-Name 5267 5273	中国散文学会
+T521	Thing-Nominal 5294 5307	作品《改变我爱好的一本书》
+R118	Create Arg1:T504 Arg2:T518	
+R119	Create Arg1:T504 Arg2:T521	
+T522	Time-Explicit 5313 5323	2011年11月9日
+T523	Organization-Name 5324 5328	甘肃文联
+T524	Organization-Name 5329 5338	甘肃九粮液有限公司
+T525	Thing-Nominal 5356 5362	作品《九缘》
+R120	Create Arg1:T504 Arg2:T525	
+T526	Time-Explicit 5368 5375	2012年8月
+T527	Organization-Name 5376 5382	中国散文学会
+T528	Thing-Nominal 5398 5406	作品《凉州妹子》
+R121	Create Arg1:T504 Arg2:T528	
+T529	Time-Explicit 5412 5415;5416 5424	201 2年12月20日
+T530	Location-Name 5425 5428	瓜州县
+T531	Organization-Name 5425 5430	瓜州县文联
+T532	Thing-Nominal 5445 5456	作品《大风起兮风车舞》
+T533	Time-Explicit 5462 5469	2013年8月
+T534	Organization-Name 5470 5476;5477 5483	华夏博学国际 文化交流中心
+T535	Thing-Nominal 5503 5521	作品《追寻那漂浮在星空里的文学梦想》
+T536	Person-Pronoun 5545 5546	我
+R122	Create Arg1:T536 Arg2:T532	
+R123	Create Arg1:T536 Arg2:T535	
+T537	Person-Nominal 5528 5537;5538 5541	戚朋友同事邻居等周 围的人
+R124	Social Arg1:T537 Arg2:T536	
+T538	Thing-Nominal 5554 5557	大拇指
+T539	Person-Nominal 5566 5568	妻子
+T540	Person-Pronoun 5569 5570	我
+T541	Person-Nominal 5577 5579	儿子
+T542	Person-Nominal 5582 5589	我这样的好爸爸
+*	Coreference T542 T540
+T543	Time-Implicit 5595 5597	以前
+T544	Person-Nominal 5598 5607	一起玩麻将的麻友们
+R125	Social Arg1:T544 Arg2:T540	
+T545	Thing-Nominal 5612 5614	麻将
+T546	Thing-Nominal 5615 5616	钱
+T547	Thing-Nominal 5619 5621	小钱
+T548	Person-Nominal 5608 5610	有的
+R126	Part-Whole Arg1:T548 Arg2:T544	
+T549	Thing-Nominal 5624 5626	麻将
+T550	Thing-Nominal 5628 5639	一毛两毛或一块钱两块钱
+T551	Thing-Nominal 5694 5705	十元钱五十钱甚至百元钱
+T552	Thing-Nominal 5709 5716;5717 5722	百元钱千元钱甚 至上万元钱
+T553	Thing-Nominal 5736 5739	输的钱
+T554	Thing-Nominal 5758 5763	手头上的钱
+T555	Person-Nominal 5768 5772	亲朋好友
+R127	Social Arg1:T555 Arg2:T548	
+T556	Person-Nominal 5783 5784	人
+T557	Thing-Nominal 5793 5796	高利贷
+T558	Person-Nominal 5813 5817	讨债的人
+R128	Social Arg1:T558 Arg2:T548	
+T559	Thing-Nominal 5827 5829	麻将
+T560	Organization-Nominal 5831 5833	家庭
+T561	Person-Nominal 5836 5837	妻
+T562	Person-Nominal 5839 5840	子
+T563	Person-Nominal 5824 5826	有的
+R129	Part-Whole Arg1:T563 Arg2:T544	
+T564	Person-Nominal 5844 5848	孤家寡人
+R130	General-Special Arg1:T564 Arg2:T563	
+T565	Person-Nominal 5849 5851	有的
+R131	Part-Whole Arg1:T565 Arg2:T544	
+T566	Thing-Nominal 5854 5856	麻将
+T567	Person-Nominal 5866 5868	罪犯
+T568	Location-Nominal 5872 5874	牢房
+T569	Time-Implicit 5882 5884	现在
+T570	Person-Pronoun 5885 5886	我
+R132	General-Special Arg1:T567 Arg2:T565	
+T571	Thing-Nominal 5904 5906	文章
+T572	Location-Name 5911 5913	敦煌
+T573	Location-Name 5907 5909	敦煌
+T574	Person-Pronoun 5917 5918	我
+T575	Metric 5918 5921	一辈子
+T576	Thing-Nominal 5951 5953	麻将
+T577	Thing-Nominal 5982 5984	麻将
+T578	Thing-Nominal 6036 6049	埋藏在肥沃土地下的一颗种子
+T579	Location-Nominal 6039 6044	肥沃土地下
+R133	Located Arg1:T578 Arg2:T579	
+T580	Time-Implicit 6052 6054	春天
+T581	Thing-Nominal 6059 6060	土
+T582	Location-Nominal 6064 6066	大地
+T583	Thing-Nominal 6072 6077	飘溢的书香
+T584	Thing-Nominal 6078 6083	美丽的文字
+T585	Thing-Nominal 6089 6094	温馨的环境
+R134	Located Arg1:T583 Arg2:T585	
+R135	Located Arg1:T584 Arg2:T585	

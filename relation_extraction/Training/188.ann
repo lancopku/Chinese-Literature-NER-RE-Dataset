@@ -1,0 +1,401 @@
+T1	Thing-Nominal 17 21	青山绿水
+T2	Thing-Nominal 29 31	红菇
+T3	Thing-Nominal 32 33	伞
+T4	Person-Nominal 34 36	新娘
+T5	Thing-Nominal 52 57	弯弯凤尾竹
+T6	Thing-Nominal 61 65	六万大山
+T7	Person-Pronoun 71 72	我
+T8	Thing-Nominal 85 93	如诗如画的红椎林
+T9	Location-Name 81 85	蕉乡浦北
+R1	Located Arg1:T8 Arg2:T9	
+T10	Thing-Nominal 95 98	红椎林
+T11	Thing-Nominal 99 108	南方名贵的天然林种
+T12	Thing-Nominal 109 112	红椎林
+T13	Thing-Nominal 125 126	山
+T14	Thing-Nominal 135 136	鸟
+T15	Thing-Nominal 137 138	花
+T16	Thing-Nominal 140 142	层林
+T17	Location-Nominal 145 154	肥沃的红椎林荫底下
+T18	Thing-Nominal 156 164	那红彤彤的野蘑菇
+R2	Located Arg1:T18 Arg2:T17	
+T19	Person-Nominal 166 177	十八芳华多美丽的红姑娘
+T20	Thing-Nominal 181 186	美妙的山歌
+T21	Thing-Nominal 190 199	岭南绿野特别的山珍
+T22	Person-Nominal 203 205	妇女
+T23	Thing-Nominal 205 207	良药
+T24	Thing-Nominal 217 220	红椎林
+T25	Person-Nominal 250 251	人
+T26	Thing-Nominal 244 245	蝉
+T27	Thing-Nominal 246 247	菇
+T28	Thing-Nominal 259 263	绿树婆娑
+T29	Thing-Nominal 268 276	五皇劲瀑怪石嶙峋
+T30	Thing-Nominal 286 290	蕉乡烟雨
+T31	Thing-Nominal 299 303	马江天月
+T32	Thing-Nominal 312 315;316 321	合浦海 上丝绸之路
+T33	Thing-Nominal 359 363	文昌金塔
+T34	Thing-Nominal 341 345	六新水松
+T35	Thing-Nominal 367 369	风铃
+T36	Thing-Nominal 363 365	金光
+T37	Thing-Nominal 325 332	泉水沙煲古渡头
+T38	Thing-Nominal 377 381	越州古城
+T39	Location-Name 382 384	广州
+T40	Thing-Nominal 399 409	那进洞天司赞第进士府
+T41	Person-Name 409 412	蔡挺锴
+T42	Thing-Nominal 414 416	烽烟
+T43	Thing-Nominal 425 433	六蓬洞古人类遗址
+T44	Thing-Nominal 434 437;438 439	青龙梦 月
+T45	Thing-Nominal 444 448	六万葵峰
+T46	Thing-Nominal 449 453	飞瀑流泉
+T47	Thing-Nominal 466 468	五峰
+T48	Thing-Nominal 471 473	麒麟
+T49	Thing-Nominal 480 483	武利江
+T50	Thing-Nominal 488 490	荔龙
+T51	Thing-Nominal 497 498;499 502	镬 耳古楼
+T52	Thing-Nominal 511 513	天湖
+T53	Thing-Nominal 513 515	烟波
+T54	Thing-Nominal 522 525	五仙湖
+T55	Thing-Nominal 525 527	薄雾
+T56	Thing-Nominal 527 529	烟雨
+T57	Thing-Nominal 534 543	公猪脊红椎森林公园
+T58	Organization-Name 543 551	静聆小江地方部队
+T59	Organization-Name 552 556	南下大军
+T60	Thing-Nominal 566 569	红椎林
+T61	Thing-Nominal 594 603	春夏秋冬的七色彩笔
+T62	Person-Pronoun 604 605	我
+T63	Thing-Nominal 606 609	红椎林
+T64	Thing-Nominal 628 632	湖光山色
+T65	Thing-Nominal 636 639	红椎林
+T66	Thing-Pronoun 664 665	您
+T67	Thing-Nominal 668 672	千山万水
+T68	Thing-Nominal 673 678	美丽婚纱;
+T69	Thing-Pronoun 678 679	您
+T70	Thing-Pronoun 693 694	您
+T71	Thing-Nominal 700 703	九寨沟
+T72	Thing-Pronoun 709 710	您
+*	Coreference T66 T65
+T73	Thing-Nominal 711 715	风雨雷电
+T74	Thing-Pronoun 721 722	您
+T75	Location-Name 723 725	中国
+T76	Thing-Nominal 733 736	红椎林
+T77	Thing-Pronoun 743 744	您
+T78	Location-Nominal 745 749	北部湾畔
+T79	Thing-Nominal 750 754	绿色心肺
+R3	Located Arg1:T79 Arg2:T78	
+T80	Thing-Nominal 755 762	观光旅游金三角
+T81	Thing-Pronoun 763 764	您
+T82	Thing-Nominal 765 768	五皇山
+T83	Thing-Nominal 791 799	绿油油的红椎嫩叶
+T84	Thing-Nominal 809 816	湿漉漉的红椎林
+T85	Thing-Nominal 821 823	泥土
+T86	Location-Name 835 840	，红椎林里
+T87	Thing-Nominal 840 842	鹧鸪
+R4	Located Arg1:T87 Arg2:T86	
+T88	Location-Nominal 854 856	岭南
+T89	Thing-Nominal 875 879	那红椎林
+T90	Person-Nominal 879 886	天然绿色大美人
+T91	Location-Nominal 888 898	郁郁葱葱的蜿蜒逶迤处
+R5	Located Arg1:T89 Arg2:T91	
+T92	Time-Implicit 901 915	迷朦红椎林淅淅沥沥的梅雨季节
+T93	Thing-Nominal 903 906	红椎林
+T94	Location-Name 916 929	那清明四月雨纷纷的红椎林里
+T95	Thing-Nominal 934 936	纸钱
+T96	Thing-Nominal 939 949	凄清惆怅的光秃秃坟头
+T97	Thing-Nominal 956 960	青山绿水
+R6	Located Arg1:T97 Arg2:T94	
+T98	Thing-Nominal 969 970	鸟
+T99	Location-Nominal 971 972	林
+R7	Located Arg1:T98 Arg2:T99	
+T100	Thing-Nominal 980 983	郁金香
+T101	Thing-Nominal 987 994	的茫茫椎林绿海
+T102	Thing-Nominal 998 1001	红椎林
+T103	Person-Nominal 1019 1023	窈窕淑女
+T104	Thing-Nominal 1032 1038	那曼妙的舞步
+T105	Person-Nominal 1040 1041	人
+T106	Thing-Nominal 1069 1071	斑鸠
+T107	Thing-Nominal 1071 1074	画眉鸟
+T108	Thing-Nominal 1078 1087	寂静清幽的山间密林
+T109	Location-Nominal 1089 1093	红椎林里
+T110	Thing-Nominal 1094 1098	雨后斜阳
+T111	Thing-Nominal 1110 1117;1118 1119	那和煦温和的阳 光
+T112	Thing-Nominal 1120 1129	淅淅沥沥的阵云细雨
+T113	Thing-Nominal 1131 1140	立体彩色画的红椎林
+T114	Thing-Nominal 1148 1153	那飞瀑清泉
+T115	Location-Nominal 1171 1178;1179 1181	那墨绿的红椎林 山间
+T116	Thing-Nominal 1182 1200	那天生丽质难自弃的美丽红椎木细美金纹
+T117	Person-Nominal 1206 1210	黄花闺女
+T118	Thing-Nominal 1218 1222	蓝天白云
+T119	Thing-Nominal 1217 1226	把蓝天白云的红椎林
+T120	Thing-Nominal 1292 1294	金钱
+T121	Person-Pronoun 1302 1303	你
+T122	Person-Pronoun 1305 1306	我
+T123	Thing-Nominal 1313 1317	蓝天白云
+T124	Thing-Nominal 1320 1324	青山绿水
+T125	Thing-Nominal 1333 1338	蕉乡红椎林
+T126	Location-Name 1345 1352	红椎林仙鹤家乡
+T127	Thing-Nominal 1361 1372	那万亩连片的绿色红椎林
+T128	Thing-Nominal 1382 1390	梦里的烟雨红椎林
+T129	Thing-Nominal 1402 1405	珍珠月
+T130	Thing-Nominal 1406 1407	弓
+T131	Thing-Nominal 1408 1414	美妙的红椎林
+T132	Person-Nominal 1428 1429	人
+T133	Thing-Nominal 1440 1444	六万葵峰
+T134	Thing-Nominal 1444 1451	万丈深渊的白龙
+T135	Location-Name 1457 1461	红椎林里
+T136	Thing-Nominal 1472 1476	浦北八景
+T137	Location-Name 1486 1490	红椎林里
+T138	Thing-Nominal 1506 1509	红椎林
+T139	Thing-Nominal 1519 1525	大自然红椎林
+T140	Person-Pronoun 1532 1533	我
+T141	Abstract 1541 1547	《荷塘月色》
+T142	Person-Name 1538 1541	朱自清
+T143	Thing-Nominal 1555 1559	五岳三山
+T144	Thing-Nominal 1568 1574	长城长江黄河
+T145	Thing-Nominal 1600 1612	古今中外经典影视戏曲音乐
+T146	Thing-Nominal 1585 1589	四大名著
+R8	Located Arg1:T110 Arg2:T109	
+T147	Person-Name 1619 1620;1621 1623	陈 景润
+T148	Abstract 1652 1658	《再别康桥》
+T149	Abstract 1667 1672	《兰亭序》
+T150	Abstract 1692 1698	《平湖秋月》
+T151	Abstract 1712 1719	《蓝色多瑙河》
+T152	Location-Name 1744 1746	台湾
+T153	Thing-Nominal 1747 1751	山外青山
+T154	Location-Nominal 1747 1749	山外
+R9	Located Arg1:T153 Arg2:T154	
+T155	Location-Nominal 1751 1753	楼外
+T156	Thing-Nominal 1753 1754	楼
+R10	Located Arg1:T156 Arg2:T155	
+T157	Location-Name 1758 1762	红椎林下
+T158	Location-Nominal 1776 1780	绿树云间
+T159	Thing-Nominal 1781 1783	春鸟
+R11	Located Arg1:T159 Arg2:T158	
+T160	Thing-Nominal 1762 1767	清凌凌溪水
+R12	Located Arg1:T160 Arg2:T157	
+T161	Time-Implicit 1795 1800	下梅雨时节
+T162	Time-Implicit 1788 1791	三四月
+T163	Thing-Nominal 1792 1795	红椎林
+T164	Thing-Nominal 1801 1803	烟雨
+T165	Thing-Nominal 1806 1808	雾色
+T166	Thing-Nominal 1815 1823	黄橙橙的红椎林花
+T167	Location-Nominal 1811 1815	漫山遍野
+R13	Located Arg1:T166 Arg2:T167	
+T168	Thing-Nominal 1827 1829	梅蕊
+T169	Thing-Nominal 1841 1843	桃梨
+T170	Thing-Nominal 1852 1856	荔枝龙眼
+T171	Thing-Nominal 1856 1858	黄花
+T172	Thing-Nominal 1868 1871	木棉花
+T173	Thing-Nominal 1877 1882	绿油油秧苗
+T174	Thing-Nominal 1883 1884	风
+T175	Thing-Nominal 1893 1896	红椎林
+T176	Location-Name 1907 1909;1910 1912	红椎 林里
+T177	Person-Nominal 1912 1916	采菇姑娘
+T178	Location-Name 1923 1935	五六月花红的蕉乡红椎林里
+T179	Thing-Nominal 1936 1938	鹧鸪
+R14	Located Arg1:T179 Arg2:T178	
+T180	Location-Name 1944 1950	雨后红椎林里
+T181	Thing-Nominal 1952 1959	数不尽的红椎菌
+T182	Thing-Nominal 1961 1970	唱不完的红椎林山歌
+T183	Person-Nominal 1972 1980	甜蜜蜜的采菇姑娘
+T184	Thing-Nominal 1988 1992	荷花仙子
+T185	Thing-Nominal 2028 2036	大自然绿色红椎林
+T186	Thing-Nominal 2047 2050	红椎林
+T187	Location-Name 2057 2069	天生丽质难自弃的红椎林里
+T188	Thing-Nominal 2070 2075	舞蹈活化石
+R15	Located Arg1:T188 Arg2:T187	
+T189	Thing-Nominal 2085 2088	红椎林
+T190	Location-Name 2105 2109	红椎林里
+T191	Person-Name 2113 2115	李铃
+T192	Thing-Nominal 2128 2132	毛毛细雨
+T193	Location-Nominal 2142 2144	人间
+T194	Thing-Nominal 2154 2157	红椎林
+T195	Thing-Nominal 2149 2151	雨露
+T196	Thing-Nominal 2151 2153	阳光
+T197	Location-Nominal 2168 2172	红椎林里
+T198	Location-Name 2194 2202	红椎林的绿色深处
+T199	Location-Name 2203 2206;2207 2210	红椎林 枝干下
+T200	Thing-Nominal 2210 2215	斑驳的青苔
+R16	Located Arg1:T200 Arg2:T199	
+T201	Location-Name 2228 2230	蕉乡
+T202	Location-Name 2235 2239	红椎林下
+T203	Thing-Nominal 2239 2246	火红的荔枝果园
+R17	Located Arg1:T203 Arg2:T202	
+T204	Location-Nominal 2248 2252	漫山遍野
+T205	Person-Nominal 2260 2266	一骑红尘妃子
+T206	Location-Name 2268 2272	红椎林里
+T207	Location-Name 2274 2280	红椎林山村里
+T208	Thing-Nominal 2289 2292	红椎菌
+T209	Thing-Nominal 2297 2300	荔枝果
+T210	Thing-Nominal 2309 2313	人间仙景
+T211	Person-Nominal 2323 2326	岭南人
+T212	Thing-Nominal 2335 2336	蝉
+T213	Time-Explicit 2333 2335	六月
+T214	Time-Implicit 2338 2342	荔枝季节
+T215	Location-Name 2346 2350	红椎林下
+T216	Thing-Nominal 2351 2356;2357 2359	幸福小康红 灯笼
+T217	Thing-Nominal 2366 2377	密匝匝、绿油油的红椎林
+T218	Thing-Nominal 2385 2401	那外刚内柔、冰清玉洁的红椎林果实
+T219	Thing-Nominal 2404 2411	那香喷喷八宝粥
+T220	Thing-Nominal 2419 2427	天然绿色环保食材
+T221	Location-Name 2413 2415	中国
+T222	Thing-Nominal 2429 2432	红椎林
+T223	Thing-Nominal 2439 2442	红椎林
+T224	Thing-Nominal 2443 2454	绝色貌美年轻的荷花仙子
+T225	Thing-Nominal 2504 2507	红椎林
+T226	Thing-Nominal 2517 2520	红椎林
+T227	Location-Name 2532 2539	古老的红椎林里
+T228	Thing-Nominal 2543 2551	亚洲剑齿象大熊猫
+T229	Thing-Nominal 2555 2564	古洞里的石玉铲心针
+T230	Thing-Nominal 2569 2574	羊角纽铜钟
+T231	Person-Nominal 2578 2584	浣纱的绿珠女
+T232	Person-Name 2588 2596	青牛城越王陈伯绍
+T233	Thing-Nominal 2600 2605	十六古书院
+T234	Thing-Nominal 2613 2616	红椎林
+T235	Thing-Nominal 2625 2635	无法复制代替的红椎林
+T236	Person-Nominal 2639 2640	人
+T237	Location-Nominal 2659 2663	六万山下
+T238	Person-Nominal 2679 2683	世界冠军
+T239	Person-Nominal 2684 2688	高考状元
+T240	Thing-Nominal 2697 2698	山
+T241	Thing-Nominal 2699 2700	水
+T242	Person-Nominal 2702 2703	人
+T243	Thing-Nominal 2715 2719	广厦红楼
+T244	Person-Name 2724 2726	杜甫
+T245	Metric 2726 2728	千年
+T246	Thing-Nominal 2743 2749	蕉乡的红椎林
+T247	Location-Name 2743 2745	蕉乡
+R18	Located Arg1:T246 Arg2:T247	
+T248	Thing-Nominal 2752 2756	千山万水
+T249	Thing-Nominal 2757 2759	红椎
+T250	Person-Pronoun 2762 2763	我
+T251	Thing-Nominal 2766 2774	自由想像的金翅膀
+T252	Thing-Nominal 2777 2779	红菌
+T253	Thing-Nominal 2782 2786	青山绿水
+T254	Thing-Nominal 2787 2789	椎林
+T256	Location-Nominal 2804 2811	神仙向往的地方
+T257	Thing-Nominal 2797 2801	世外桃源
+T255	Thing-Nominal 2792 2796	人间仙景
+T258	Thing-Nominal 2856 2861	蕉乡红椎林
+T259	Location-Name 2856 2858	蕉乡
+R19	Located Arg1:T258 Arg2:T259	
+T260	Thing-Nominal 2865 2874	高雅殿堂的诗书画阵
+T261	Person-Nominal 2883 2888	红椎林美女
+T262	Thing-Nominal 2883 2886	红椎林
+T263	Thing-Nominal 2889 2895	一把红菌花伞
+T264	Thing-Nominal 2905 2909	青山绿水
+T265	Thing-Nominal 2918 2922	广厦红楼
+T266	Thing-Nominal 2954 2958	越州古城
+T267	Thing-Nominal 2960 2968	辉煌省城文化星灯
+T268	Thing-Nominal 2971 2974	马江河
+T269	Thing-Nominal 2984 2993	熊熊燃烧的六万圣火
+T270	Thing-Nominal 2994 3000	蕉乡的红椎林
+T271	Location-Name 2994 2996	蕉乡
+R20	Located Arg1:T270 Arg2:T271	
+T272	Thing-Nominal 3010 3016	秀美的红椎林
+T273	Location-Name 3024 3028	红椎林里
+T274	Location-Name 3041 3048	;红椎林绿海里
+T275	Person-Name 3049 3056	黄花闺女赛雅格
+T276	Thing-Nominal 3083 3088	蕉乡红椎林
+T277	Thing-Nominal 3098 3106	绿满心间的红椎林
+T278	Thing-Nominal 3112 3116	千凤万龙
+T279	Location-Name 3117 3123	红椎林绿海里
+T280	Thing-Nominal 3128 3134	蕉乡的红椎林
+T281	Location-Name 3128 3130	蕉乡
+R21	Located Arg1:T280 Arg2:T281	
+T282	Person-Nominal 3150 3151	人
+T283	Thing-Nominal 3165 3173	松竹梅般的红椎林
+T284	Thing-Nominal 3222 3227	世间的污浊
+T285	Person-Nominal 3259 3268	红林绿海的千秋万代
+T286	Thing-Nominal 3259 3263	红林绿海
+T287	Thing-Nominal 3295 3299	世界绿林
+T288	Location-Nominal 3303 3307	地球村里
+T289	Thing-Nominal 3320 3323	红椎林
+T290	Person-Name 3337 3340	韦志远
+T291	Person-Name 3345 3348	韦志远
+T292	Time-Explicit 3351 3356	1963年
+T293	Person-Nominal 3358 3367	广西浦北县乐民镇人
+T294	Person-Nominal 3370 3378	浦北县文联副主席
+T295	Person-Nominal 3379 3392	钦州市书法家协会荣誉副主席
+T296	Person-Nominal 3393 3402	钦州市文联三届委员
+T297	Person-Nominal 3403 3405;3406 3412	市书 法家协会理事
+T298	Person-Nominal 3413 3421	市文联文艺创作员
+T299	Person-Nominal 3422 3432	市文艺志愿者协会理事
+T300	Person-Nominal 3432 3445	;浦北县文艺志愿者协会主席
+T301	Person-Nominal 3446 3461	世界华人书画艺术家联合会副会长
+T302	Person-Nominal 3462 3466;3467 3489	中国社会 科学院毛泽东诗词研究会、中国大众文学学会会员
+T303	Person-Nominal 3490 3511	北京大学华夏神韵书画艺术研究中心高级研究员
+T304	Person-Nominal 3512 3527	香港世界华人文学艺术研究会会员
+T305	Person-Nominal 3529 3544	中国楹联学会对联文化研究院会员
+T306	Person-Nominal 3545 3571	北京中联科教育研究中心、广西钦州市诗词书法家协会会员
+T307	Person-Nominal 3572 3588;3589 3590	北京中国科协《发现》杂志社副理事 长
+T308	Abstract 3591 3595	《蕉香》
+T309	Abstract 3597 3602	《五皇山》
+T310	Person-Nominal 3591 3606	《蕉香》报、《五皇山》执行主编
+T311	Person-Nominal 3607 3616	浦北县书协名誉会长
+T312	Person-Nominal 3617 3626	国家一级书法艺术家
+T313	Person-Pronoun 3633 3634	他
+*	Coreference T313 T291
+T314	Abstract 3642 3649;3650 3652	《中国专家大辞 典》
+T315	Abstract 3653 3665	《世界突出贡献专家名典》
+T316	Abstract 3666 3674	《中华诗词年鉴》
+T317	Abstract 3675 3683	《中国书法年鉴》
+T318	Abstract 3684 3691	《中国作家网》
+T319	Abstract 3692 3701	《中国影视剧本网》
+T320	Metric 3702 3707	600多种
+T321	Metric 3721 3726	200多万
+T322	Metric 3740 3747	16500多首
+T323	Metric 3753 3757	600万
+T324	Person-Pronoun 3759 3760	他
+T325	Abstract 3763 3771;3772 3781	《文学艺术是第一 生产力中的生产力》
+T326	Abstract 3782 3794	《试论世界的和平与发展》
+T327	Abstract 3795 3818	《建好文艺馆是充分发挥县级文联职能作用的关键》
+T328	Abstract 3819 3832;3833 3849	《银勾铁划灵霄殿，瘦骨梅枝 老辣功――浅论丁艺书法艺术特点》
+T329	Abstract 3850 3867	《现代文化下中国书法的危机及对策》
+T330	Abstract 3868 3889	《试论毛泽东的诗词书法与他的政治艺术人生》
+T331	Abstract 3890 3893;3894 3896	《论文 化》
+T332	Abstract 3924 3933	《蕉乡浦北舞诗龙》
+T333	Abstract 3934 3939	《冯敏昌》
+T334	Abstract 3940 3945	《古安潮》
+T335	Abstract 3946 3950	《除夕》
+T336	Abstract 3951 3954;3955 3958	《五皇 卧虎》
+T337	Abstract 3959 3965	《虎年大吉》
+T338	Abstract 3966 3971	《越州王》
+T339	Abstract 3972 3977	《红姑娘》
+T340	Abstract 3978 3984	《退伍之后》
+T341	Abstract 3985 3991	《屏梦书香》
+T342	Abstract 3992 3998	《青龙梦月》
+T343	Abstract 3999 4003	《心梦》
+T344	Abstract 4004 4010	《凤池夙梦》
+T345	Abstract 4011 4015;4016 4018	《心锁深 闺》
+T346	Abstract 4019 4025	《生老病死》
+T347	Abstract 4026 4035	《乡村清洁你我他》
+T348	Abstract 4036 4042	《塔炼金心》
+T349	Abstract 4043 4049	《赴汤蹈火》
+T350	Abstract 4050 4055	《陶金梦》
+T351	Abstract 4056 4062	《百岁姻缘》
+T352	Metric 4063 4066	20部
+T353	Abstract 4078 4083	《红姑娘》
+T354	Abstract 4084 4089	《冯敏昌》
+T355	Abstract 4123 4127	《心梦》
+T356	Abstract 4147 4153	《五皇卧虎》
+T357	Abstract 4154 4163	《蕉乡浦北五诗龙》
+T358	Abstract 4164 4173	《中国报告文学网》
+T359	Abstract 4178 4183	《红姑娘》
+T360	Abstract 4184 4191	《世界文艺网》
+T361	Abstract 4209 4216	《中国作家网》
+T362	Abstract 4217 4224	《中国剧本网》
+T363	Abstract 4225 4234	《中国国际剧本网》
+T364	Abstract 4280 4289	《三娘湾畔耀明珠》
+T365	Abstract 4290 4299	《大海无情人有情》
+T366	Abstract 4300 4309	《重文兴学得诗钟》
+T367	Abstract 4247 4253	《浦北今朝》
+T368	Abstract 4254 4259;4260 4264	《金晖红盾 耀中华》
+T369	Abstract 4314 4320;4321 4323	《华夏散文经 典》
+T370	Organization-Name 4345 4350	湖南省文联
+T371	Organization-Name 4351 4356	长沙市文联
+T372	Organization-Name 4357 4362	山东省文联
+T373	Person-Nominal 4395 4406	全国农村科普先进工作者
+T374	Person-Nominal 4407 4420	全国百佳优秀新闻文化工作者
+T375	Person-Nominal 4421 4436	诗学博士、钦州市优秀文艺创作员
+T376	Person-Nominal 4437 4442;4443 4450	钦州市首届 德艺双馨文艺家
+T377	Metric 4451 4455	50多种
+T378	Person-Name 3270 3273	范仲淹

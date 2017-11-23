@@ -1,0 +1,171 @@
+T1	Organization-Nominal 1 5	老年大学
+T2	Organization-Nominal 1 8	老年大学文学班
+T3	Person-Pronoun 9 10	我
+T4	Organization-Nominal 13 15	空军
+T5	Person-Name 13 27	空军的一位师职退休干部张韵萍
+T6	Person-Pronoun 28 30	我们
+R1	Part-Whole Arg1:T3 Arg2:T6	
+R2	Part-Whole Arg1:T5 Arg2:T6	
+T7	Person-Nominal 32 35	好同学
+T8	Person-Nominal 36 39	好朋友
+T9	Person-Pronoun 40 41	她
+*	Coreference T9 T5 T14 T16 T13 T21 T22
+T10	Time-Implicit 41 46	1943年
+T11	Metric 16 18	一位
+T12	Metric 50 52	一个
+T13	Person-Nominal 52 58	很了不起的兵
+T14	Person-Name 109 111	张姐
+T15	Person-Nominal 112 113	兵
+T16	Person-Pronoun 117 118	她
+T17	Thing-Nominal 123 125	巾帼
+T18	Person-Nominal 145 147	常人
+T19	Thing-Nominal 150 152	汗水
+T20	Thing-Nominal 153 155	泪水
+R3	Part-Whole Arg1:T19 Arg2:T16	
+R4	Part-Whole Arg1:T20 Arg2:T16	
+T21	Person-Pronoun 62 63	她
+T22	Person-Pronoun 130 131	她
+T23	Person-Name 157 160	花木兰
+T24	Person-Nominal 67 69	女兵
+T25	Person-Nominal 184 185	人
+T26	Person-Nominal 200 201	人
+T27	Person-Pronoun 165 166	我
+T28	Thing-Nominal 241 243	牙关
+T29	Person-Pronoun 268 269	她
+T30	Organization-Nominal 270 271	军
+T31	Person-Nominal 289 291	护士
+T32	Person-Nominal 292 297	医务处主任
+T33	Time-Explicit 316 320	60年代
+T34	Person-Pronoun 322 323	她
+*	Coreference T31 T29 T32 T34 T35
+T35	Person-Nominal 324 328	医院标兵
+T36	Person-Nominal 345 347	病人
+T37	Person-Nominal 355 357	病人
+T38	Location-Nominal 360 362	病区
+T39	Person-Nominal 370 372	亲人
+T40	Person-Pronoun 368 369	她
+*	Coreference T39 T40
+R5	Social Arg1:T40 Arg2:T37	
+T41	Person-Nominal 375 380	班上的战友
+T42	Organization-Nominal 389 391	部队
+T43	Thing-Pronoun 397 399	她们
+T44	Organization-Nominal 397 404	她们组织宣传队
+T45	Person-Nominal 422 424	官兵
+T46	Time-Explicit 460 468	1968年10月
+T47	Person-Nominal 468 471	她儿子
+T48	Organization-Nominal 478 483	部队学习班
+T49	Person-Pronoun 484 485	她
+T50	Person-Nominal 487 494	三个多月的儿子
+R6	Family Arg1:T50 Arg2:T49	
+*	Coreference T50 T47 T58 T52
+T51	Person-Nominal 500 502	母亲
+T52	Person-Nominal 511 516;517 518	襁褓中的婴 儿
+T53	Time-Implicit 525 532	天寒地冻的时候
+T54	Thing-Nominal 549 553	甘甜乳汁
+T55	Thing-Nominal 496 497	奶
+T56	Person-Pronoun 556 557	她
+T57	Person-Nominal 558 560	军人
+T58	Person-Nominal 570 576	三个月的婴儿
+T59	Person-Nominal 579 581	保姆
+T60	Time-Implicit 584 593	她女儿五个月的时候
+T61	Person-Nominal 584 587	她女儿
+T62	Person-Pronoun 600 601	她
+T63	Person-Nominal 603 605	孩子
+*	Coreference T63 T61
+T64	Person-Nominal 609 613	一般孩子
+T65	Person-Nominal 624 630	她的一双儿女
+R7	Part-Whole Arg1:T47 Arg2:T65	
+R8	Part-Whole Arg1:T61 Arg2:T65	
+T66	Person-Pronoun 645 646	她
+T67	Person-Nominal 647 649	军人
+T68	Organization-Nominal 668 670	小家
+T69	Organization-Nominal 674 679	部队大家庭
+T70	Person-Name 695 697	张姐
+T71	Person-Nominal 708 710	她父
+R9	Family Arg1:T71 Arg2:T70	
+T72	Time-Implicit 708 716	她父年老生病期间
+T73	Person-Nominal 728 730	父亲
+T74	Person-Nominal 735 738	小女儿
+T75	Person-Nominal 748 751	老人家
+*	Coreference T75 T73
+T76	Person-Pronoun 755 756	她
+T77	Location-Nominal 766 769	石家庄
+T78	Organization-Nominal 770 775	当兵的部队
+T79	Person-Pronoun 783 784	她
+T80	Person-Nominal 792 794	女儿
+*	Coreference T80 T79 T57 T56 T51 T49 T66 T70 T74 T76
+T81	Thing-Nominal 810 813	军功章
+T82	Thing-Nominal 815 817	泪水
+T83	Thing-Nominal 819 821	汗水
+T84	Person-Nominal 823 826	我丈夫
+T85	Person-Nominal 828 836	已退休的师职干部
+*	Coreference T85 T84 T88 T92
+T86	Time-Explicit 838 842	80年代
+T87	Person-Nominal 842 844	父母
+T88	Person-Pronoun 848 849	他
+R10	Family Arg1:T88 Arg2:T87	
+T89	Person-Nominal 854 857	他家人
+*	Coreference T89 T87
+T90	Location-Nominal 870 874	我们老家
+T91	Location-Name 875 877	江苏
+T92	Person-Pronoun 878 879	他
+T93	Location-Name 880 883	石家庄
+*	Coreference T91 T90
+T94	Person-Nominal 885 886	兵
+T95	Person-Name 888 890	张姐
+T96	Person-Pronoun 892 893	我
+T97	Person-Nominal 897 902	咱当兵的人
+R11	General-Special Arg1:T97 Arg2:T95	
+T98	Organization-Nominal 909 910	党
+T99	Organization-Nominal 923 924	国
+T100	Person-Nominal 932 934	个人
+T101	Time-Implicit 938 941	30岁
+T102	Person-Nominal 942 945	护士长
+T103	Time-Implicit 946 949	31岁
+T104	Person-Nominal 951 956	护理部主任
+T105	Person-Pronoun 957 958	她
+T106	Person-Nominal 963 964	人
+T107	Metric 961 963	一个
+T108	Thing-Nominal 979 981	金子
+T109	Person-Pronoun 1003 1004	她
+T110	Thing-Nominal 1008 1009	身
+R12	Part-Whole Arg1:T110 Arg2:T109	
+T111	Person-Nominal 1027 1029	女兵
+T112	Metric 1025 1027	一个
+T113	Person-Name 1030 1033	花木兰
+T114	Person-Pronoun 1040 1041	她
+T115	Person-Nominal 1042 1047	最美的女兵
+*	Coreference T115 T114 T109 T95 T102 T104 T105 T118 T117 T119 T120
+T116	Organization-Name 1057 1059;1060 1065	空军 467医院
+T117	Person-Pronoun 1066 1067	她
+T118	Person-Pronoun 1048 1049	她
+T119	Person-Pronoun 1078 1079	她
+T120	Person-Pronoun 1094 1095	她
+T121	Time-Implicit 1134 1138	生病期间
+T122	Time-Implicit 1121 1124	星期天
+T123	Time-Implicit 1144 1146	白天
+T124	Thing-Nominal 1153 1156	军功章
+T125	Organization-Nominal 1166 1173	老年大学文学班
+T126	Person-Name 1174 1176	张姐
+T127	Person-Pronoun 1177 1178	她
+T128	Person-Nominal 1179 1181	军人
+*	Coreference T128 T126
+T129	Person-Pronoun 1186 1188	我们
+T130	Person-Pronoun 1195 1196	她
+T131	Person-Nominal 1221 1223	大家
+T132	Thing-Nominal 1255 1258	自行车
+T133	Location-Nominal 1259 1261	我家
+T134	Person-Pronoun 1263 1264	我
+T135	Thing-Nominal 1265 1267	电脑
+T136	Person-Pronoun 1271 1272	我
+T137	Thing-Nominal 1275 1276	泪
+T138	Person-Pronoun 1278 1280	我们
+T139	Person-Nominal 1319 1325	古稀的女同志
+*	Coreference T139 T130 T142 T143 T144 T145 T146
+T140	Person-Nominal 1348 1350	别人
+T141	Person-Nominal 1340 1341	雷
+T142	Person-Nominal 1353 1355	自己
+T143	Person-Nominal 1375 1385	部队里走出来的好干部
+T144	Person-Name 1396 1398	张姐
+T145	Person-Pronoun 1400 1401	您
+T146	Person-Nominal 1406 1408;1409 1410	好女 人

@@ -1,0 +1,159 @@
+T1	Metric 32 35	十多年
+T2	Location-Nominal 8 15	一家工厂的楼下
+T3	Organization-Nominal 10 12	工厂
+T4	Person-Nominal 16 18	家属
+T7	Location-Nominal 37 39	店铺
+T8	Location-Nominal 40 42	居家
+T9	Metric 49 52	两公里
+T10	Location-Nominal 61 69	公园的这边与那边
+T11	Person-Pronoun 73 74	我
+T12	Location-Nominal 82 84	公园
+T13	Location-Nominal 101 103	公园
+T14	Time-Implicit 114 123	每天清晨或夕阳落下
+T15	Location-Nominal 125 128	公园里
+T16	Person-Nominal 124 130	来公园里的人
+T17	Time-Implicit 136 138	这时
+T19	Location-Nominal 161 164	公园里
+T22	Thing-Nominal 180 187	公园的一处小河
+T23	Location-Nominal 180 182	公园
+R1	Located Arg1:T22 Arg2:T23	
+T24	Person-Pronoun 191 192	我
+T25	Person-Pronoun 197 199	他们
+T26	Organization-Nominal 220 225	转圈的队伍
+T27	Location-Pronoun 219 220	这
+T28	Time-Implicit 235 237	当初
+T31	Metric 247 249	几百
+T33	Metric 251 253	几千
+T35	Person-Pronoun 257 262	她(他)们
+T36	Person-Pronoun 276 281	她(他)们
+T37	Location-Nominal 297 302	小河的一周
+T38	Time-Implicit 316 319	有一天
+T39	Person-Pronoun 320 321	我
+T40	Person-Nominal 324 328	转圈的人
+T41	Thing-Nominal 331 333	小河
+T42	Person-Pronoun 342 343	我
+T43	Metric 343 348	一个多钟头
+T44	Time-Implicit 343 351	一个多钟头的时辰
+T45	Person-Pronoun 355 356	我
+T46	Time-Implicit 361 363	这时
+T47	Person-Pronoun 364 365	我
+T48	Person-Pronoun 372 374	他们
+T49	Location-Nominal 381 383	河边
+T50	Thing-Nominal 398 403	河边的空气
+T51	Location-Nominal 398 400	河边
+R2	Located Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 421 427	公园内的音响
+T53	Location-Nominal 421 424	公园内
+R3	Located Arg1:T52 Arg2:T53	
+T57	Metric 444 445	几
+T58	Metric 447 449	几十
+T59	Metric 452 454	几百
+T60	Person-Pronoun 458 463	她(他)们
+T61	Person-Pronoun 493 498	她(他)们
+T62	Thing-Nominal 500 504	各色衣服
+T63	Thing-Nominal 508 510	双手
+T64	Thing-Nominal 514 516	腰肢
+R4	Part-Whole Arg1:T63 Arg2:T61	
+R5	Part-Whole Arg1:T62 Arg2:T61	
+R6	Part-Whole Arg1:T64 Arg2:T61	
+T65	Person-Pronoun 530 535	她(他)们
+T66	Person-Nominal 537 538	男
+T67	Person-Nominal 539 540	女
+T68	Person-Nominal 542 544	老年
+T69	Person-Nominal 546 548	中年
+T70	Person-Nominal 551 554	年轻人
+R7	Part-Whole Arg1:T66 Arg2:T65	
+R8	Part-Whole Arg1:T67 Arg2:T65	
+R9	Part-Whole Arg1:T68 Arg2:T65	
+R10	Part-Whole Arg1:T69 Arg2:T65	
+R11	Part-Whole Arg1:T70 Arg2:T65	
+T71	Person-Pronoun 555 560	她(他)们
+T72	Person-Pronoun 606 611	她(他)们
+T73	Person-Pronoun 638 639	我
+T74	Location-Nominal 649 652	公园里
+T75	Person-Pronoun 656 657	我
+T76	Person-Pronoun 658 663	她(他)们
+T77	Person-Pronoun 678 683	她(他)们
+T78	Person-Pronoun 701 702	我
+T79	Location-Nominal 714 717	草坪中
+T80	Metric 720 722	一群
+T82	Person-Pronoun 726 728	他们
+T83	Thing-Nominal 739 746	形态各异的空竹
+R12	Use Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 747 752	抖起的空竹
+T85	Thing-Nominal 763 765	空竹
+T86	Location-Nominal 766 770	他们手里
+R13	Located Arg1:T85 Arg2:T86	
+T87	Location-Nominal 782 786	他们手里
+T88	Location-Nominal 800 813	在一片显得有些静谧的树荫下
+T89	Thing-Nominal 819 821	白衫
+T91	Person-Pronoun 834 836	他们
+T92	Thing-Nominal 940 947	各式各样的风筝
+T93	Location-Nominal 931 934	天空中
+R15	Located Arg1:T92 Arg2:T93	
+T94	Thing-Pronoun 948 950	它们
+*	Coreference T94 T92
+T95	Location-Nominal 964 966	蓝天
+T96	Thing-Nominal 969 971	白云
+T97	Time-Implicit 982 988	大约在十年前
+T98	Person-Pronoun 999 1000	我
+T99	Location-Nominal 1006 1008	店前
+T101	Location-Nominal 1096 1100	哪位领导
+T103	Location-Nominal 1009 1013	马路对面
+T104	Person-Pronoun 1064 1065	我
+T105	Thing-Nominal 1074 1082	厂矿、村舍、农田
+T100	Thing-Nominal 1038 1042;1043 1047	厂矿、村 舍、农田
+R16	Located Arg1:T100 Arg2:T103	
+T102	Time-Implicit 1113 1117	几年光景
+T106	Location-Pronoun 1118 1120	这里
+T107	Location-Nominal 1140 1142	城市
+T108	Person-Nominal 1154 1156	人们
+T109	Location-Nominal 1185 1191	体育休闲公园
+T110	Metric 1174 1176	一座
+T111	Location-Nominal 1195 1198	公园内
+T113	Thing-Nominal 1209 1214	室外运动场
+T114	Thing-Nominal 1215 1219	五彩长廊
+T115	Thing-Nominal 1203 1206	体育馆
+R17	Located Arg1:T115 Arg2:T111	
+R18	Located Arg1:T113 Arg2:T111	
+R19	Located Arg1:T114 Arg2:T111	
+T112	Thing-Nominal 1220 1224	水上舞台
+R20	Located Arg1:T112 Arg2:T111	
+T116	Location-Nominal 1228 1231	公园内
+T117	Thing-Nominal 1247 1259	草坪、花卉、几十种的树木
+R21	Located Arg1:T117 Arg2:T116	
+T118	Metric 1253 1256	几十种
+T119	Person-Pronoun 1264 1265	我
+T120	Location-Nominal 1270 1274	这座公园
+T121	Time-Explicit 1282 1284	今天
+T122	Time-Implicit 1292 1304	早在十多年前抑或几十年前
+T123	Person-Nominal 1321 1323	人们
+T124	Location-Nominal 1339 1342	公园里
+T125	Person-Pronoun 1351 1352	我
+T126	Time-Explicit 1392 1394	今天
+T127	Location-Nominal 1394 1397	公园里
+T128	Location-Nominal 2 6	城市一隅
+T5	Organization-Nominal 20 24	一爿小店
+T6	Time-Implicit 32 35	十多年
+T18	Thing-Nominal 136 141	这时的公园
+T129	Thing-Nominal 148 149	鸟
+T20	Person-Nominal 173 178	少数几个人
+*	Coreference T25 T20
+T21	Person-Nominal 238 241	几个人
+T29	Person-Nominal 247 250	几百人
+T30	Person-Nominal 251 254	几千人
+T32	Metric 238 240	几个
+T34	Thing-Nominal 359 360	汗
+R22	Part-Whole Arg1:T34 Arg2:T45	
+T56	Person-Nominal 452 455	几百人
+T55	Person-Nominal 447 450	几十人
+T54	Person-Nominal 444 446	几人
+T81	Person-Nominal 720 725	一群老年人
+*	Coreference T82 T81
+T130	Thing-Nominal 775 780	一个个精灵
+T131	Person-Nominal 814 817;818 824	一些身 着白衫的老者
+*	Coreference T91 T131
+T90	Thing-Nominal 839 840	眼
+R14	Part-Whole Arg1:T90 Arg2:T91	
+T132	Location-Nominal 928 930	蓝天
+T133	Person-Nominal 1378 1385;1386 1388	有美好的心情的 人们

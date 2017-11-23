@@ -1,0 +1,475 @@
+T1	Person-Nominal 0 1	我
+T2	Location-Name 6 8	合肥
+T3	Time-Explicit 10 17	2006年秋季
+T4	Person-Nominal 19 21	儿子
+R1	Family Arg1:T4 Arg2:T1	
+T5	Organization-Nominal 22 28	合肥工业大学
+T6	Location-Nominal 35 38	新校区
+*	Coreference T6 T5
+T7	Location-Nominal 43 51	高大林立的教学楼
+T8	Location-Nominal 52 55	实验室
+T9	Location-Nominal 56 59	体育馆
+T10	Location-Nominal 63 68	美丽的湖泊
+T11	Location-Nominal 71 76	清亮的湖面
+T12	Metric 81 84	一只只
+T13	Thing-Nominal 84 89	白色的鹭鸶
+T14	Location-Nominal 90 97	汉白玉石的弓桥
+T15	Thing-Nominal 99 101	湖水
+T16	Location-Nominal 114 115	桥
+*	Coreference T16 T14
+T17	Location-Nominal 124 131	苍翠茂盛的竹林
+T18	Location-Nominal 132 134	竹林
+*	Coreference T18 T17
+T19	Metric 138 140	一条
+T20	Location-Nominal 140 150	弯弯曲曲的鹅卵石甬路
+T21	Location-Nominal 151 153	甬路
+*	Coreference T21 T20
+T22	Location-Nominal 156 164	高雅壮丽的图书馆
+T23	Location-Nominal 165 166	馆
+*	Coreference T23 T22
+T24	Location-Nominal 172 178	绿茸茸的草地
+T25	Metric 169 172	一大片
+T26	Location-Nominal 179 181	草地
+*	Coreference T26 T24
+T27	Thing-Nominal 185 191	茁壮的重阳树
+T28	Thing-Nominal 192 193	树
+*	Coreference T28 T27
+T29	Location-Nominal 192 194	树旁
+T30	Thing-Nominal 197 204	硕大的白帆模型
+T31	Thing-Nominal 205 207	模型
+*	Coreference T31 T30
+T32	Thing-Nominal 213 215	坐椅
+T33	Metric 211 213	排排
+T34	Person-Nominal 217 222	莘莘学子们
+T35	Location-Nominal 250 252	城市
+T36	Location-Nominal 237 239	南方
+T37	Location-Nominal 240 242	北方
+T38	Time-Implicit 262 268	事隔七年之后
+T39	Person-Nominal 269 271	儿子
+T40	Location-Name 278 280	合肥
+T41	Person-Pronoun 283 284	我
+T42	Person-Pronoun 285 286	他
+*	Coreference T42 T39
+T43	Time-Implicit 294 298	腊月十九
+T44	Thing-Nominal 301 303	高铁
+T45	Time-Implicit 324 326	次日
+T46	Location-Name 333 336	合肥市
+*	Coreference T46 T40
+T47	Thing-Nominal 341 344	自行车
+T48	Thing-Nominal 346 350	快速公交
+T49	Thing-Nominal 383 386	立交桥
+T50	Location-Nominal 395 404	城市中心的十字路口
+T51	Location-Nominal 407 418	东西南北四条宽宽的马路
+T52	Thing-Nominal 421 422	桥
+*	Coreference T52 T49
+T53	Location-Nominal 421 423	桥下
+T54	Location-Nominal 424 426	桥上
+T55	Thing-Nominal 430 433	桥底座
+T56	Person-Nominal 437 439	行人
+T57	Thing-Nominal 441 443	台阶
+T58	Thing-Nominal 444 446	滚梯
+T59	Location-Nominal 458 460	马路
+T60	Location-Nominal 485 487	高楼
+T61	Thing-Nominal 500 502	华灯
+T62	Thing-Nominal 505 508	霓红灯
+T63	Thing-Nominal 534 535	星
+T64	Thing-Nominal 536 537	雨
+T65	Thing-Nominal 538 540	宝马
+T66	Thing-Nominal 540 542	雕车
+T67	Location-Nominal 544 545	路
+T68	Thing-Nominal 546 548	凤箫
+T69	Thing-Nominal 551 553	玉壶
+T70	Thing-Nominal 558 559	鱼
+T71	Thing-Nominal 559 560	龙
+T72	Thing-Nominal 526 527	花
+T73	Thing-Nominal 528 529	树
+T74	Location-Nominal 566 568	马路
+T75	Metric 574 576	每条
+T76	Location-Nominal 586 595	鳞次栉比的高楼大厦
+R2	Near Arg1:T76 Arg2:T74	
+T77	Location-Nominal 604 606	都市
+T78	Location-Nominal 629 634;635 639	宽宽的快速 公交路线
+T79	Metric 627 629	一条
+T80	Thing-Nominal 642 645	公交车
+T81	Thing-Nominal 667 670	私家车
+T82	Location-Nominal 678 680	城市
+T83	Location-Nominal 691 695;696 701	宽阔的单 向机动车路
+T84	Thing-Nominal 697 700	机动车
+T85	Location-Nominal 706 717	铺有马赛克方砖的人行路
+T86	Thing-Nominal 708 713	马赛克方砖
+T87	Location-Nominal 718 720	路边
+T88	Location-Nominal 718 719	路
+*	Coreference T88 T83
+T89	Thing-Nominal 722 728	矮棵的龟背竹
+T90	Thing-Nominal 729 734	高棵的塔松
+T91	Person-Pronoun 741 742	我
+T92	Location-Nominal 745 753	浓绿蓊郁的人行路
+T93	Thing-Nominal 766 773	长尾巴的花喜鹊
+T94	Location-Nominal 775 777	枝头
+T95	Location-Nominal 791 796	宽阔的马路
+T96	Thing-Nominal 800 801	水
+T97	Thing-Nominal 818 819	物
+T98	Thing-Nominal 819 821	餐饮
+T99	Location-Name 836 841	滨湖世纪城
+T100	Location-Nominal 846 850	大型超市
+T101	Metric 844 846	三座
+T102	Location-Nominal 853 856	立交桥
+T103	Location-Name 866 870	居然之家
+T104	Location-Nominal 862 864	超市
+T105	Thing-Nominal 873 875	家具
+T106	Thing-Nominal 875 879	厨具用品
+T107	Thing-Nominal 893 895	汽车
+T108	Thing-Nominal 896 898	家电
+T109	Thing-Nominal 898 900	服装
+T110	Thing-Nominal 900 902	副食
+T111	Location-Pronoun 917 919	它们
+T112	Location-Nominal 881 886	另两座超市
+*	Coreference T112 T111 T103 T104
+T113	Location-Nominal 925 927	店铺
+T114	Location-Nominal 940 942	二楼
+T115	Person-Pronoun 945 946	我
+T116	Location-Nominal 950 952	迷宫
+T117	Thing-Nominal 981 983	大衣
+T118	Metric 979 981	一件
+T119	Location-Nominal 1002 1004	进口
+T120	Location-Nominal 1027 1029	商场
+T121	Person-Pronoun 1049 1051	他们
+T122	Location-Nominal 1060 1063	大超市
+T123	Person-Pronoun 1076 1077	我
+T124	Location-Name 1079 1081	北京
+T125	Person-Pronoun 1082 1084	表妹
+T126	Person-Pronoun 1085 1086	我
+T127	Person-Nominal 1090 1093	日本人
+T128	Metric 1088 1090	一个
+T129	Location-Nominal 1095 1099	西单商场
+T130	Location-Nominal 1114 1120	百大购物中心
+T131	Person-Pronoun 1132 1133	我
+T132	Location-Nominal 1138 1139;1140 1145	超 大型的商场
+*	Coreference T130 T132
+T133	Thing-Nominal 1147 1155	居家过日子的物品
+T134	Person-Nominal 1168 1170	顾客
+T135	Location-Nominal 1183 1188	快节奏都市
+T136	Location-Nominal 1192 1194	超市
+T137	Location-Nominal 1218 1220	六楼
+T138	Metric 1228 1230	一家
+T139	Location-Name 1230 1240	浙江人开的“外婆家”
+T140	Person-Nominal 1230 1233	浙江人
+T141	Time-Implicit 1248 1250	中午
+T142	Person-Nominal 1256 1262	买单吃饭的人
+T143	Person-Pronoun 1263 1264	他
+T144	Thing-Nominal 1267 1271;1272 1273	外婆红烧 肉
+T145	Person-Pronoun 1274 1275	我
+T146	Thing-Nominal 1280 1287	精细的青花瓷碗
+T147	Thing-Nominal 1291 1299	鲜艳的方块红烧肉
+T148	Thing-Nominal 1304 1309	鲜嫩的鱼段
+T149	Thing-Nominal 1310 1311	肉
+*	Coreference T149 T148
+T150	Thing-Nominal 1314 1319	青青的竹笋
+T151	Location-Nominal 1343 1345	餐厅
+*	Coreference T151 T139 T159
+T152	Thing-Nominal 1366 1377	浅绿色碎格子的布艺沙发
+T153	Person-Nominal 1379 1380	人
+T154	Thing-Nominal 1384 1386	衣帽
+T155	Thing-Nominal 1388 1391	小方桌
+T156	Person-Nominal 1394 1395	人
+T157	Thing-Nominal 1398 1403	柔合的吊灯
+T158	Person-Nominal 1426 1434	来这吃饭的男顾客
+T159	Location-Pronoun 1427 1428	这
+T160	Location-Nominal 1449 1453	北方餐厅
+T161	Thing-Nominal 1463 1464	酒
+T162	Person-Pronoun 1478 1479	我
+T163	Thing-Nominal 1480 1482	餐桌
+T164	Person-Nominal 1497 1500	南方人
+T165	Person-Nominal 1505 1508	北方人
+T166	Organization-Nominal 1518 1520	高校
+T167	Location-Nominal 1521 1526	合肥市中心
+T168	Organization-Nominal 1531 1533	大学
+T169	Location-Name 1535 1541	合工大老校区
+T170	Location-Pronoun 1544 1545	它
+*	Coreference T170 T169
+T171	Location-Nominal 1548 1550	马路
+T172	Location-Nominal 1551 1554	立交桥
+T173	Person-Nominal 1590 1592	儿子
+T174	Person-Pronoun 1593 1594	我
+T175	Location-Nominal 1596 1598	校园
+T176	Thing-Nominal 1612 1629	需二人合抱才能搂过来的粗壮的椰子树
+T177	Metric 1610 1612	一排
+T178	Thing-Nominal 1630 1635	宽阔的叶子
+T179	Location-Nominal 1647 1651	林荫大道
+T180	Location-Nominal 1661 1664	教学楼
+T181	Location-Nominal 1671 1683	水榭、常春滕缠绕着的长廊
+T182	Thing-Nominal 1671 1673	水榭
+T183	Thing-Nominal 1674 1677	常春滕
+T184	Location-Nominal 1652 1653	路
+*	Coreference T184 T179
+T185	Location-Nominal 1684 1685	廊
+*	Coreference T185 T181
+T186	Thing-Nominal 1689 1692	宣传栏
+T187	Thing-Nominal 1693 1694	栏
+*	Coreference T187 T186
+T188	Person-Nominal 1698 1701	教授们
+T189	Thing-Nominal 1698 1703;1704 1705	教授们的照 片
+T190	Person-Nominal 1712 1714	儿子
+T191	Person-Pronoun 1715 1716	我
+T192	Person-Pronoun 1719 1720	他
+*	Coreference T192 T190
+T193	Location-Nominal 1723 1726	实验室
+T194	Location-Nominal 1728 1734	高大的教学楼
+T195	Person-Pronoun 1739 1740	我
+T196	Person-Nominal 1743 1745	母子
+T197	Metric 1741 1743	一对
+T198	Person-Nominal 1755 1762	四、五岁的儿子
+T199	Person-Nominal 1766 1768	妈妈
+T200	Person-Nominal 1780 1785	年轻的妈妈
+*	Coreference T200 T199
+T201	Thing-Nominal 1786 1787	手
+R3	Part-Whole Arg1:T201 Arg2:T200	
+T202	Thing-Nominal 1789 1791	牌子
+T203	Thing-Nominal 1815 1817	房子
+T204	Location-Nominal 1820 1829	我们家现在住的高楼
+T205	Location-Nominal 1830 1833;1834 1842	马路上 供人行走的立交桥
+T206	Location-Nominal 1843 1850	正在修建的地铁
+T207	Person-Nominal 1853 1857	工程师们
+T208	Person-Nominal 1866 1868	妈妈
+T209	Person-Pronoun 1872 1873	我
+*	Coreference T209 T198 T213 T215
+T210	Location-Nominal 1885 1891	好高好高的楼
+T211	Metric 1883 1885	一座
+T212	Person-Nominal 1893 1894;1895 1896	妈 妈
+T213	Person-Nominal 1905 1908	好孩子
+T214	Person-Nominal 1912 1913	妈
+*	Coreference T214 T208
+T215	Person-Pronoun 1925 1926	你
+T216	Person-Pronoun 1954 1955	我
+T217	Person-Nominal 1967 1970	小男孩
+T218	Person-Nominal 1977 1980	我儿子
+T219	Person-Nominal 1983 1985	男孩
+*	Coreference T219 T217 T221
+T220	Thing-Nominal 1985 1991	胖嘟嘟的小手
+R4	Part-Whole Arg1:T220 Arg2:T219	
+T221	Person-Pronoun 1997 1998	你
+T222	Person-Pronoun 2001 2002	我
+*	Coreference T222 T218
+T223	Person-Pronoun 2020 2021	我
+T224	Person-Name 2028 2030	孟母
+T225	Person-Nominal 2037 2039	儿子
+T226	Person-Nominal 2054 2060	我们的母亲们
+T227	Location-Nominal 2071 2076	我们的城市
+T228	Person-Nominal 2084 2086	孩子
+T229	Location-Nominal 2088 2092	大学校园
+T230	Location-Nominal 2119 2125	庄严的教学楼
+T231	Thing-Nominal 2169 2170	芽
+T232	Thing-Nominal 2172 2173	根
+T233	Thing-Nominal 2175 2176	花
+T234	Thing-Nominal 2178 2179	果
+T235	Location-Nominal 2185 2190	合肥的高校
+T236	Location-Name 2185 2187	合肥
+T237	Location-Pronoun 2192 2193	它
+*	Coreference T237 T235
+T238	Location-Nominal 2196 2200	城市中心
+T239	Location-Nominal 2202 2204	高校
+T240	Person-Nominal 2239 2241	家长
+T241	Person-Nominal 2243 2246	孩子们
+T242	Location-Nominal 2275 2280	合肥市公园
+T243	Location-Name 2286 2291	包孝肃公祠
+T244	Person-Name 2298 2300	包拯
+T245	Person-Nominal 2302 2304	大家
+T246	Person-Name 2311 2314	包青天
+*	Coreference T246 T244 T247 T264
+T247	Person-Pronoun 2316 2317	他
+T248	Person-Nominal 2318 2319	人
+T249	Person-Name 2349 2355	李姓富翁之女
+T250	Thing-Nominal 2356 2357	琴
+T251	Thing-Nominal 2357 2358	棋
+T252	Thing-Nominal 2358 2359	书
+T253	Thing-Nominal 2359 2360	画
+T254	Person-Name 2372 2376	秀才张生
+T255	Person-Name 2377 2379	李翁
+T256	Person-Name 2349 2353	李姓富翁
+*	Coreference T256 T255
+T257	Person-Name 2382 2384	李女
+*	Coreference T257 T249 T260
+T258	Person-Name 2386 2388	张生
+*	Coreference T258 T254
+T259	Person-Nominal 2395 2396	人
+T260	Person-Pronoun 2404 2405	我
+T261	Thing-Nominal 2424 2425	灯
+T262	Location-Nominal 2426 2427	阁
+T263	Thing-Nominal 2429 2430	书
+T264	Person-Name 2489 2491	包公
+T265	Location-Nominal 2526 2530	李女房中
+T266	Thing-Nominal 2544 2546	月光
+T267	Thing-Nominal 2547 2548	水
+T268	Thing-Nominal 2549 2552	梧桐树
+T269	Thing-Nominal 2558 2560	椅子
+T270	Metric 2556 2558	一把
+T271	Person-Nominal 2578 2581	随从们
+T272	Time-Implicit 2588 2590	次日
+T273	Person-Name 2592 2594	张生
+T274	Person-Pronoun 2598 2599	他
+*	Coreference T274 T273
+T275	Person-Nominal 2602 2604	别人
+T276	Person-Name 2617 2621	同窗梅二
+R5	Social Arg1:T276 Arg2:T273	
+T277	Person-Name 2630 2632	梅二
+*	Coreference T277 T276
+T278	Location-Nominal 2633 2634	堂
+T279	Thing-Nominal 2734 2735	椅
+T280	Person-Name 2750 2752	李女
+T281	Person-Pronoun 2764 2765	她
+*	Coreference T281 T280
+T282	Time-Implicit 2766 2769	第二天
+T283	Location-Name 2791 2794	合肥市
+T284	Location-Name 2800 2811	前清大臣“李鸿章故居”
+T285	Person-Name 2805 2808	李鸿章
+T286	Location-Nominal 2812 2814	故居
+*	Coreference T286 T284 T287
+T287	Location-Nominal 2815 2822	四合院式的房屋
+T288	Location-Nominal 2832 2836	二层小楼
+T289	Thing-Nominal 2843 2848	李鸿章墨宝
+T290	Person-Pronoun 2868 2869	我
+T291	Person-Name 2871 2874	梁启超
+T292	Person-Pronoun 2889 2890	吾
+*	Coreference T292 T291
+T293	Person-Pronoun 2924 2925	我
+T294	Location-Nominal 2931 2933	展厅
+T295	Person-Name 2938 2943	作家张爱玲
+T296	Person-Name 2949 2952	张爱玲
+*	Coreference T296 T295 T297
+T297	Person-Nominal 2953 2961	李鸿章的重外孙女
+T298	Location-Name 2969 2971	合肥
+T299	Location-Nominal 2973 2980	人杰地灵的城市
+*	Coreference T299 T298
+T300	Metric 2972 2973	个
+T301	Person-Nominal 2982 2988	历史上的名人
+T302	Person-Nominal 2990 2995	现代的名人
+T303	Person-Name 3003 3006	杨振宁
+T304	Person-Nominal 3011 3018	90多岁的老人
+*	Coreference T304 T303 T305 T306
+T305	Person-Nominal 3021 3030	物理诺贝尔奖获得者
+T306	Person-Nominal 3031 3039	美籍华人合肥市人
+T307	Person-Name 3041 3044	王小谟
+T308	Person-Nominal 3045 3052	中国预警机之父
+*	Coreference T308 T307 T311
+T309	Thing-Nominal 3056 3060	飞机雷达
+T310	Organization-Nominal 3061 3063	美国
+T311	Person-Pronoun 3072 3073	他
+T312	Organization-Nominal 3076 3082	合肥某电科所
+T313	Person-Name 3086 3095	前任国家总理吴邦国
+T314	Person-Name 3096 3105	现任国家总理李克强
+T315	Person-Nominal 3107 3111	合肥市人
+R6	Part-Whole Arg1:T314 Arg2:T315	
+R7	Part-Whole Arg1:T313 Arg2:T315	
+T316	Person-Nominal 3114 3118	合肥市民
+T317	Person-Nominal 3122 3124	伟人
+T318	Person-Pronoun 3163 3164	我
+T319	Location-Name 3166 3170	滨湖书店
+T320	Location-Nominal 3173 3175	书店
+*	Coreference T320 T319 T322
+T321	Person-Pronoun 3177 3178	我
+T322	Location-Nominal 3176 3186	给我印象最深刻的地方
+T323	Location-Name 3192 3197	王府井书店
+T324	Thing-Nominal 3279 3281	架子
+T325	Thing-Nominal 3279 3284	架子上的书
+T326	Person-Nominal 3314 3316	学生
+T327	Thing-Nominal 3318 3319	书
+T328	Location-Nominal 3324 3331	文学名著的角落
+T329	Person-Nominal 3337 3345	十三、四岁的少年
+T330	Metric 3335 3337	一个
+T331	Location-Nominal 3364 3370	另一个角落里
+T332	Person-Nominal 3372 3379	年纪相仿的女孩
+T333	Person-Name 3381 3383;3384 3385	余秋 雨
+T334	Person-Nominal 3395 3402	三十多岁的父亲
+T335	Metric 3393 3395	一位
+T336	Person-Nominal 3405 3407	女儿
+R8	Family Arg1:T336 Arg2:T334	
+T337	Person-Nominal 3424 3426	少年
+T338	Person-Nominal 3430 3433	服务员
+T339	Metric 3422 3424	一位
+T340	Person-Pronoun 3440 3441	我
+T341	Person-Nominal 3446 3451	年轻的母亲
+T342	Person-Nominal 3452 3459	六、七岁的儿子
+R9	Family Arg1:T342 Arg2:T341	
+T343	Thing-Nominal 3463 3468	学习类的书
+T344	Metric 3461 3463	一摞
+T345	Person-Nominal 3478 3480	儿子
+*	Coreference T345 T342 T346 T349
+T346	Person-Pronoun 3483 3484	你
+T347	Person-Name 3496 3499	颜真卿
+T348	Thing-Nominal 3496 3502	颜真卿的字帖
+T349	Person-Nominal 3511 3517	抱着书的儿子
+T350	Location-Nominal 3528 3530	当地
+T351	Person-Pronoun 3530 3531	我
+T352	Location-Nominal 3535 3537	书店
+T353	Thing-Nominal 3538 3540	书架
+T354	Person-Pronoun 3550 3551	我
+T355	Person-Nominal 3556 3557	人
+T356	Person-Name 3567 3570	余秋雨
+T357	Person-Pronoun 3578 3579	我
+T358	Location-Nominal 3604 3606	书店
+T359	Person-Nominal 3595 3597	名人
+T360	Organization-Nominal 3597 3599	名校
+T361	Person-Nominal 3612 3614	家长
+T362	Person-Nominal 3619 3621	孩子
+T363	Person-Nominal 3664 3671	六、七岁的娃娃
+T364	Location-Nominal 3678 3684	某菜市场大厅
+T365	Person-Pronoun 3688 3689	我
+T366	Person-Nominal 3693 3702	这般年纪相仿的母子
+T367	Person-Nominal 3712 3714	母亲
+T368	Person-Nominal 3718 3721	小男孩
+T369	Thing-Nominal 3723 3724	笔
+T370	Thing-Nominal 3727 3728	腕
+T371	Thing-Nominal 3730 3731	纸
+T372	Person-Pronoun 3739 3740	我
+T373	Thing-Nominal 3742 3749	安徽的文房四宝
+T374	Thing-Nominal 3769 3770	笔
+T375	Location-Name 3771 3773	泾县
+T376	Thing-Nominal 3771 3778	泾县出产的宣笔
+*	Coreference T376 T374
+T377	Location-Name 3782 3784	北京
+T378	Location-Name 3782 3788	北京的荣宝斋
+T379	Location-Name 3789 3791	上海
+T380	Location-Name 3789 3795	上海的朵云轩
+T381	Location-Nominal 3798 3806	全国二十多个省市
+T382	Location-Name 3814 3816	日本
+T383	Location-Name 3816 3819	东南亚
+T384	Thing-Nominal 3823 3824	墨
+T385	Thing-Nominal 3825 3827	徽墨
+*	Coreference T385 T384
+T386	Thing-Nominal 3832 3833	石
+T387	Thing-Nominal 3837 3838	漆
+T388	Person-Name 3852 3858	南唐后主李煜
+T389	Thing-Nominal 3865 3866	纸
+T390	Thing-Nominal 3867 3874	安徽泾县的宣纸
+T391	Time-Implicit 3876 3880	十八世纪
+T392	Location-Nominal 3890 3894	欧美各国
+T393	Person-Nominal 3896 3897	人
+T394	Thing-Nominal 3903 3908	安徽的歙砚
+T395	Thing-Nominal 3910 3914	四大名砚
+T396	Person-Nominal 3926 3931	安徽的祖先
+T397	Thing-Nominal 3935 3939	笔墨纸砚
+T398	Person-Nominal 3945 3949	小娃娃们
+T399	Person-Nominal 4031 4035	伟大人物
+T400	Thing-Nominal 4050 4057	合肥市的红绿灯
+T401	Person-Pronoun 4059 4060	我
+T402	Thing-Nominal 4062 4065	小牌子
+T403	Location-Nominal 4095 4103	马路两侧的人行路
+T404	Thing-Nominal 4110 4113	宣传栏
+T405	Location-Nominal 4132 4136	公交车站
+T406	Location-Nominal 4142 4144	祖国
+T407	Person-Nominal 4147 4149	父母
+T408	Person-Nominal 4154 4157	中国人
+T409	Location-Nominal 4166 4168	医院
+T410	Person-Pronoun 4187 4188	你
+T411	Location-Nominal 4217 4220	小学校
+T412	Person-Pronoun 4285 4286	我
+T413	Person-Nominal 4290 4294	中华民族
+T414	Person-Pronoun 4314 4315	你
+T415	Person-Pronoun 4315 4316	我
+T416	Person-Pronoun 4321 4323	我们
+T417	Location-Nominal 4333 4335	城市
+T418	Person-Pronoun 4365 4366	我
+T419	Location-Name 4368 4370	合肥
+T420	Location-Name 4402 4407	美丽的合肥
+*	Coreference T420 T419 T421
+T421	Location-Pronoun 4410 4411	你

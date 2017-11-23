@@ -1,0 +1,152 @@
+T1	Person-Nominal 2 4	母亲
+T2	Person-Pronoun 7 8	我
+R1	Family Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 20 21	笔
+T4	Person-Pronoun 42 43	我
+T5	Thing-Nominal 58 59	字
+T6	Thing-Pronoun 68 69	它
+*	Coreference T6 T5
+T7	Person-Pronoun 125 126	你
+T8	Person-Pronoun 129 130	我
+T9	Location-Nominal 132 135	大城市
+T10	Location-Nominal 159 161	家乡
+T11	Person-Nominal 165 167	母亲
+T12	Thing-Nominal 170 176	那双粗糙的手
+R2	Part-Whole Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 225 231	一双粗糙的手
+*	Coreference T13 T12
+T14	Person-Nominal 272 280	曾自以为是的小子
+T15	Person-Pronoun 257 258	我
+*	Coreference T14 T15
+T16	Time-Implicit 296 298	此时
+T17	Person-Nominal 308 310	母亲
+T18	Person-Pronoun 311 312	我
+T19	Thing-Nominal 313 316	小玩偶
+T20	Thing-Nominal 325 326	牙
+R3	Part-Whole Arg1:T20 Arg2:T18	
+T21	Person-Nominal 331 334	教育家
+T22	Person-Pronoun 337 338	她
+*	Coreference T22 T17
+T23	Thing-Nominal 339 344	粗糙的双手
+R4	Part-Whole Arg1:T23 Arg2:T22	
+T24	Person-Nominal 366 368	别人
+T25	Thing-Nominal 377 400	那个给予我希望和温暖并时刻回响着浓浓乡音的玩偶
+*	Coreference T25 T19
+T26	Thing-Nominal 411 415	妈妈的手
+*	Coreference T26 T23
+T27	Thing-Nominal 416 420	妈妈的心
+T28	Location-Nominal 445 447	村子
+T29	Person-Nominal 448 450	乡亲
+T30	Person-Nominal 456 458	妈妈
+T31	Person-Pronoun 433 434	我
+R5	Family Arg1:T30 Arg2:T31	
+T32	Person-Pronoun 467 468	她
+*	Coreference T32 T30 T33 T34
+T33	Person-Nominal 499 502	我妈妈
+T34	Person-Pronoun 516 517	她
+T35	Thing-Nominal 538 542	母亲的手
+R6	Part-Whole Arg1:T35 Arg2:T33	
+T36	Time-Implicit 564 567	小时候
+T37	Thing-Nominal 574 578	她的中指
+R7	Part-Whole Arg1:T37 Arg2:T35	
+T38	Time-Implicit 579 581	那时
+*	Coreference T38 T36 T40
+T39	Thing-Nominal 581 584	妈的手
+*	Coreference T39 T35
+T40	Time-Implicit 609 611	当时
+T41	Person-Pronoun 629 630	你
+T42	Person-Nominal 635 637	妈妈
+T43	Person-Nominal 626 628	母亲
+*	Coreference T42 T43
+R8	Part-Whole Arg1:T41 Arg2:T43	
+T44	Person-Nominal 653 655	妈妈
+T45	Person-Pronoun 655 656	我
+T46	Person-Pronoun 657 658	你
+*	Coreference T46 T44
+T47	Thing-Nominal 673 680	去县城学校的车
+T48	Location-Nominal 674 678	县城学校
+T49	Person-Pronoun 670 671	我
+T50	Person-Nominal 665 667	妈妈
+T51	Person-Pronoun 688 689	你
+*	Coreference T51 T49
+T52	Organization-Nominal 691 693	大学
+T53	Person-Nominal 697 699	妈妈
+T54	Person-Nominal 707 715	处于叛逆期的孩子
+T55	Person-Pronoun 729 731	自己
+*	Coreference T54 T55
+T56	Person-Pronoun 750 751	她
+*	Coreference T56 T53 T57
+T57	Person-Pronoun 753 754	您
+T58	Person-Pronoun 762 763	我
+T59	Organization-Nominal 768 773	理想的大学
+T60	Person-Nominal 774 775	妈
+T61	Thing-Nominal 796 800	母亲的手
+T62	Thing-Nominal 805 807	电话
+T63	Person-Pronoun 824 825	她
+T64	Person-Nominal 818 820	母亲
+*	Coreference T63 T64
+T65	Thing-Nominal 821 822	手
+R9	Part-Whole Arg1:T65 Arg2:T64	
+T66	Person-Nominal 840 842	孩子
+*	Coreference T66 T58 T67 T68
+T67	Person-Pronoun 843 844	你
+T68	Person-Pronoun 850 852	自己
+T69	Person-Nominal 856 857	妈
+T70	Person-Pronoun 861 862	我
+T71	Person-Pronoun 866 867	你
+T72	Person-Nominal 864 865	妈
+*	Coreference T71 T72
+T73	Thing-Nominal 871 873	身体
+R10	Part-Whole Arg1:T73 Arg2:T72	
+T74	Person-Nominal 885 887	母亲
+T75	Person-Nominal 908 910	妈妈
+T76	Thing-Nominal 910 915	羸弱的身体
+R11	Part-Whole Arg1:T76 Arg2:T75	
+T77	Person-Pronoun 930 931	我
+T78	Person-Pronoun 934 936	自己
+*	Coreference T78 T77
+T79	Person-Nominal 946 948	媳妇
+T80	Person-Nominal 949 950	妈
+T81	Person-Nominal 953 955	孙子
+T82	Person-Pronoun 959 960	我
+T83	Person-Nominal 963 964	妈
+T84	Person-Nominal 970 972	儿子
+*	Coreference T84 T82
+R12	Family Arg1:T84 Arg2:T83	
+T85	Person-Pronoun 990 991	你
+T86	Location-Nominal 998 1000	大海
+T87	Thing-Nominal 1068 1070	嘴唇
+T88	Person-Pronoun 1063 1064	她
+R13	Part-Whole Arg1:T87 Arg2:T88	
+T89	Person-Pronoun 1072 1073	我
+T90	Person-Nominal 1083 1085	妈妈
+T91	Person-Pronoun 1086 1087	你
+*	Coreference T91 T89
+T92	Person-Nominal 1104 1105	母
+T93	Person-Nominal 1105 1106	子
+T94	Thing-Nominal 1106 1108	双手
+T95	Person-Nominal 1125 1127	母亲
+T96	Person-Nominal 1133 1135	母亲
+T97	Person-Nominal 1171 1173	母亲
+T98	Person-Nominal 1175 1177	孩子
+T99	Person-Nominal 1189 1190	人
+T100	Person-Nominal 1198 1200	别人
+T101	Person-Nominal 1209 1211	母亲
+T102	Person-Nominal 1232 1234	母亲
+T103	Person-Nominal 1285 1287	父母
+T104	Person-Pronoun 1129 1130	我
+T105	Person-Nominal 1148 1149	人
+T106	Person-Pronoun 1196 1197	他
+T107	Thing-Nominal 1206 1208	翅膀
+T108	Thing-Nominal 1218 1219	手
+T109	Person-Pronoun 1214 1215	她
+*	Coreference T109 T101
+R14	Part-Whole Arg1:T108 Arg2:T109	
+T110	Person-Pronoun 1223 1224	我
+T111	Person-Pronoun 1275 1276	你
+*	Coreference T111 T102
+T112	Thing-Nominal 1277 1279	眼泪
+R15	Part-Whole Arg1:T112 Arg2:T111	
+T113	Person-Pronoun 1296 1298	他们
+*	Coreference T113 T103
+T114	Person-Pronoun 1308 1309	你

@@ -1,0 +1,265 @@
+T1	Thing-Nominal 7 9	石头
+T2	Time-Implicit 23 25	儿时
+T3	Thing-Nominal 45 47	石头
+T4	Thing-Nominal 50 52	石头
+T5	Person-Nominal 69 71	人们
+T6	Person-Nominal 78 80	人们
+T7	Thing-Nominal 85 87	石头
+T8	Location-Nominal 102 105	博物馆
+R1	Located Arg1:T7 Arg2:T8	
+T9	Location-Name 129 145	国家AAAAA级风景区重庆黑山谷
+T10	Location-Name 146 150	龙鳞石海
+R2	Part-Whole Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 151 153	石头
+R3	Located Arg1:T11 Arg2:T10	
+T12	Person-Nominal 157 159	人们
+T13	Thing-Nominal 186 188	石头
+T14	Location-Name 195 201	龙鳞石海景区
+T15	Location-Nominal 229 231	景区
+*	Coreference T15 T14
+T16	Thing-Nominal 237 239	石头
+T17	Location-Name 276 280	化石长廊
+T18	Location-Name 293 297	水上石林
+T19	Location-Name 311 315	芦花碧湖
+T20	Location-Name 328 332	情侣恋石
+T21	Thing-Nominal 362 364	莲花
+T22	Location-Name 380 384	香炉仙山
+T23	Location-Nominal 389 391	石海
+T24	Location-Name 396 401	“千塔峰林
+T25	Location-Name 414 418	逍遥石扇
+T26	Location-Name 432 436	一线飞天
+T27	Thing-Nominal 462 464	石头
+T28	Location-Name 468 472	龙鳞石海
+T29	Thing-Nominal 473 475	石头
+R4	Located Arg1:T29 Arg2:T28	
+T30	Location-Nominal 483 485	景区
+*	Coreference T30 T28 T34
+T31	Thing-Pronoun 494 496	它们
+*	Coreference T31 T29
+T32	Thing-Nominal 502 504	它们
+T33	Thing-Nominal 533 535	石头
+T34	Location-Pronoun 530 532	这里
+T35	Thing-Pronoun 542 543	它
+*	Coreference T35 T33
+T36	Location-Nominal 551 553	地球
+T37	Thing-Nominal 580 582	石头
+T38	Person-Nominal 592 595	见证人
+T39	Person-Nominal 596 599	构建者
+T40	Thing-Pronoun 600 601	它
+T41	Person-Nominal 612 614	自己
+T42	Thing-Nominal 626 628	石头
+T43	Thing-Nominal 631 633	岩石
+T44	Location-Nominal 652 656	石头森林
+T45	Person-Pronoun 657 659	我们
+T46	Location-Nominal 664 666	景区
+T47	Thing-Nominal 673 677	奇峰异石
+T48	Person-Pronoun 683 684	它
+R5	Create Arg1:T48 Arg2:T47	
+T49	Location-Name 727 731	龙鳞石海
+T50	Thing-Nominal 755 757	石头
+T51	Thing-Nominal 708 709	山
+T52	Thing-Nominal 713 715	石头
+T53	Thing-Nominal 718 720	石头
+T54	Thing-Nominal 724 725	山
+T55	Thing-Nominal 767 768	山
+T56	Thing-Nominal 770 771	峰
+R6	Located Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 772 773	峰
+T58	Thing-Nominal 775 776	山
+R7	Located Arg1:T57 Arg2:T58	
+T59	Thing-Nominal 777 779	山峰
+T60	Thing-Nominal 782 783	石
+T61	Thing-Nominal 784 785	石
+R8	Located Arg1:T60 Arg2:T61	
+T62	Location-Nominal 786 787	林
+T63	Location-Nominal 788 789	林
+R9	Near Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 790 791	石
+T65	Location-Nominal 793 794	林
+T66	Location-Nominal 795 796	林
+T67	Thing-Nominal 798 799	石
+R10	Located Arg1:T67 Arg2:T66	
+T68	Thing-Pronoun 841 843	他们
+T69	Location-Nominal 886 888	石林
+T70	Time-Implicit 914 918	五亿年前
+T71	Location-Name 919 923	龙鳞石海
+T72	Location-Nominal 930 932	大海
+T73	Thing-Nominal 938 940	化石
+T74	Location-Nominal 957 963	古生物博物馆
+T75	Location-Nominal 945 946;947 949	古 海洋
+T76	Location-Nominal 970 973	乱石丛
+T77	Thing-Pronoun 994 996	它们
+T78	Thing-Nominal 991 993	化石
+*	Coreference T77 T78
+T79	Thing-Nominal 997 999	珍珠
+T80	Location-Name 1014 1018	香炉山下
+T81	Location-Name 1020 1024	化石长廊
+R11	Near Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 1035 1037	化石
+T83	Thing-Nominal 1038 1039	鱼
+T84	Thing-Nominal 1041 1042	虾
+T85	Thing-Nominal 1044 1045	蟹
+T86	Thing-Nominal 1047 1049	昆虫
+T87	Thing-Pronoun 1114 1116	它们
+*	Coreference T87 T82
+T88	Thing-Nominal 1142 1144	化石
+T89	Location-Name 1161 1165	龙鳞石海
+T90	Thing-Nominal 1177 1179	化石
+R12	Located Arg1:T90 Arg2:T89	
+T91	Location-Name 1181 1183	中国
+T92	Location-Nominal 1195 1197	石头
+T93	Thing-Nominal 1214 1216	石头
+T94	Location-Name 1225 1229	龙鳞石海
+T95	Location-Nominal 1233 1236	香炉山
+R13	Part-Whole Arg1:T95 Arg2:T94	
+T96	Location-Name 1238 1240	庐山
+T97	Location-Nominal 1241 1244	香炉山
+R14	Part-Whole Arg1:T97 Arg2:T96	
+T98	Thing-Nominal 1264 1266	石头
+R15	Located Arg1:T98 Arg2:T95	
+T99	Location-Nominal 1308 1310	峰顶
+T100	Location-Name 1365 1368	香炉山
+T101	Location-Name 1314 1316;1317 1319	万马 奔腾
+T102	Location-Name 1320 1322	石扇
+T103	Location-Name 1323 1325	石鼓
+T104	Location-Name 1326 1329	苗人阵
+T105	Thing-Name 1354 1356	石扇
+T106	Thing-Nominal 1383 1385	芭蕉
+T107	Thing-Pronoun 1395 1396	它
+*	Coreference T107 T105
+T108	Metric 1430 1434	两百多吨
+T109	Metric 1439 1441	六米
+T110	Metric 1447 1449	七米
+T111	Thing-Nominal 1450 1452	石头
+T112	Metric 1460 1462	一米
+T113	Thing-Nominal 1463 1465	石柱
+R16	Located Arg1:T111 Arg2:T113	
+T114	Person-Pronoun 1469 1470	你
+T115	Time-Implicit 1475 1478	亿万年
+T116	Thing-Pronoun 1479 1480	它
+T117	Thing-Nominal 1494 1496	石头
+T118	Thing-Pronoun 1503 1504	它
+*	Coreference T117 T118
+T119	Thing-Name 1507 1511	“情侣石
+T120	Thing-Nominal 1520 1522	石头
+*	Coreference T119 T120
+T121	Person-Nominal 1527 1528	恋
+T122	Person-Pronoun 1575 1576	我
+T123	Thing-Nominal 1605 1607	石头
+T124	Thing-Name 1623 1626	情侣石
+T125	Person-Pronoun 1628 1629	我
+T126	Person-Nominal 1635 1637	情侣
+T127	Thing-Pronoun 1649 1651	它们
+*	Coreference T127 T124 T131
+T128	Person-Pronoun 1662 1663	我
+T129	Location-Pronoun 1667 1669	这里
+T130	Thing-Nominal 1672 1674	石像
+T131	Thing-Pronoun 1677 1679	他们
+T132	Location-Pronoun 1688 1690	这里
+T133	Thing-Nominal 1749 1751	石头
+T134	Thing-Pronoun 1762 1763	它
+*	Coreference T133 T134
+T135	Thing-Pronoun 1771 1772	它
+T136	Thing-Nominal 1775 1777	青山
+T137	Thing-Pronoun 1780 1781	它
+T138	Thing-Pronoun 1789 1790	它
+T139	Thing-Nominal 1784 1785	鸟
+T140	Thing-Nominal 1786 1787	花
+T141	Location-Name 1798 1800	石鼓
+T142	Location-Name 1805 1807	石扇
+T143	Thing-Nominal 1841 1843	巨石
+T144	Time-Implicit 1873 1876	几亿年
+T145	Location-Name 1882 1885	意大利
+T146	Thing-Nominal 1886 1890	比萨斜塔
+R17	Located Arg1:T146 Arg2:T145	
+T147	Location-Name 1926 1928	四川
+T148	Person-Name 1930 1933	曾国藩
+T149	Location-Name 1947 1951	龙鳞石海
+T150	Time-Implicit 1981 1984;1985 1986	不到半 年
+T151	Person-Nominal 2007 2012	太平军首领
+T152	Person-Nominal 2014 2016	军士
+T153	Thing-Nominal 2017 2018	石
+T154	Thing-Nominal 2023 2026	水牛皮
+T155	Thing-Nominal 2028 2030	鼓面
+T156	Thing-Nominal 2019 2020	鼓
+R18	Part-Whole Arg1:T155 Arg2:T156	
+T157	Thing-Nominal 2035 2036	鼓
+T158	Location-Name 2107 2111	龙鳞石海
+T159	Person-Nominal 2123 2125	人们
+T160	Thing-Nominal 2135 2137	石头
+T161	Thing-Nominal 2146 2148	石头
+T162	Thing-Nominal 2160 2162	石头
+T163	Thing-Pronoun 2178 2180	它们
+*	Coreference T163 T162
+T164	Thing-Nominal 2200 2201	石
+T165	Thing-Pronoun 2209 2210	它
+*	Coreference T165 T164
+T166	Thing-Pronoun 2229 2230	它
+T167	Thing-Nominal 2243 2245	火山
+T168	Person-Pronoun 2248 2250	我们
+T169	Location-Name 2255 2259	万马奔腾
+T170	Location-Name 2268 2272	莲花争妍
+T171	Location-Name 2281 2285	水上石林
+T172	Location-Name 2295 2300	千塔峰林”
+T173	Location-Name 2314 2317	一线飞
+T174	Location-Nominal 2323 2324	峡
+T175	Metric 2325 2328	三百米
+T176	Metric 2330 2333	八十米
+T177	Metric 2335 2339	一至两米
+T178	Location-Nominal 2348 2350	石林
+T179	Location-Nominal 2386 2388	峡谷
+T180	Location-Nominal 2406 2407;2408 2409	峡 谷
+T181	Metric 2417 2420	九十度
+T182	Location-Nominal 2424 2425	峡
+T183	Location-Name 2436 2440	龙鳞石海
+T184	Thing-Nominal 2441 2443	石头
+R19	Located Arg1:T184 Arg2:T183	
+T185	Location-Name 2463 2467	龙鳞石海
+T186	Thing-Nominal 2475 2478	石动物
+T187	Location-Pronoun 2486 2488	这里
+*	Coreference T187 T185
+T188	Thing-Nominal 2492 2494	石头
+T189	Thing-Nominal 2497 2498	龙
+T190	Thing-Nominal 2500 2501	龟
+T191	Thing-Nominal 2503 2504	牛
+T192	Thing-Nominal 2506 2507	马
+T193	Thing-Nominal 2509 2510	鸟
+T194	Thing-Nominal 2512 2513	凤
+T195	Thing-Nominal 2519 2523	飞禽走兽
+T196	Location-Nominal 2567 2569	林间
+T197	Location-Nominal 2559 2561	深海
+T198	Location-Name 2587 2591	龙鳞石海
+T199	Person-Pronoun 2592 2593	你
+T200	Person-Pronoun 2614 2615	你
+T201	Location-Name 2625 2629	龙鳞石海
+T202	Thing-Nominal 2632 2634	石头
+R20	Located Arg1:T202 Arg2:T201	
+T203	Thing-Nominal 2652 2654	石头
+T204	Thing-Pronoun 2665 2666	它
+T205	Thing-Nominal 2667 2669	石头
+*	Coreference T204 T205
+T206	Thing-Pronoun 2675 2676	它
+T207	Thing-Nominal 2677 2679	石头
+*	Coreference T206 T207
+T208	Thing-Pronoun 2693 2694	它
+T209	Thing-Nominal 2696 2698	石头
+*	Coreference T208 T209
+T210	Time-Explicit 2699 2701	明朝
+T211	Person-Name 2701 2705	诗人于谦
+T212	Person-Nominal 2750 2752	作者
+*	Coreference T212 T211
+T213	Thing-Nominal 2753 2755	石灰
+T214	Thing-Nominal 2765 2767	石头
+T215	Thing-Nominal 2774 2776	石灰
+T216	Thing-Nominal 2788 2789	花
+T217	Thing-Nominal 2801 2803	石头
+T218	Location-Name 2824 2828	龙鳞石海
+T219	Thing-Nominal 2829 2831	石头
+R21	Located Arg1:T219 Arg2:T218	
+T220	Location-Pronoun 2832 2833	此
+*	Coreference T220 T218
+T221	Time-Implicit 2836 2839	几亿年
+T222	Person-Nominal 2844 2846	人们
+T223	Person-Nominal 2860 2862	人们
+T224	Thing-Pronoun 2878 2880	它们
+T225	Person-Pronoun 2892 2894	我们

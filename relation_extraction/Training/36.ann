@@ -1,0 +1,113 @@
+T1	Location-Nominal 0 2	雨中
+T2	Location-Nominal 5 7	海边
+T3	Thing-Nominal 10 12	大海
+T4	Thing-Nominal 16 23	墨绿墨绿的海水
+R1	Located Arg1:T4 Arg2:T3	
+T5	Location-Nominal 26 28	天边
+T6	Thing-Nominal 32 39	墨黑墨黑的云彩
+R2	Located Arg1:T6 Arg2:T5	
+T7	Thing-Nominal 40 42	海水
+T8	Thing-Nominal 47 49	云彩
+*	Coreference T7 T4
+*	Coreference T8 T6
+T9	Thing-Nominal 64 66	大海
+T10	Thing-Nominal 76 78	大海
+T11	Thing-Nominal 79 81	天空
+T12	Location-Nominal 76 86	大海和天空相接的地方
+T13	Person-Nominal 110 112	人们
+T14	Thing-Nominal 116 118	大海
+T15	Thing-Nominal 122 124	云彩
+T16	Thing-Nominal 128 130	云彩
+T17	Thing-Nominal 133 135	大海
+T18	Thing-Nominal 139 144	眼前的大海
+R3	Part-Whole Arg1:T18 Arg2:T14	
+T19	Thing-Nominal 157 162	墨绿的海浪
+R4	Part-Whole Arg1:T19 Arg2:T18	
+T20	Location-Nominal 164 166	岸边
+R5	Located Arg1:T19 Arg2:T20	
+T21	Thing-Nominal 178 186	一朵朵白色的浪花
+R6	Part-Whole Arg1:T21 Arg2:T19	
+T22	Thing-Nominal 203 209	陆地上的花朵
+T23	Thing-Nominal 214 216	天空
+T24	Thing-Nominal 242 246	白色浪花
+*	Coreference T24 T21
+T25	Thing-Nominal 262 264	雨天
+T26	Thing-Nominal 265 270	海浪和云浪
+T27	Thing-Nominal 284 290	天空上的云浪
+T28	Location-Nominal 321 322;323 326	海 平面上
+T29	Thing-Nominal 327 329	海浪
+R7	Located Arg1:T29 Arg2:T28	
+T30	Person-Pronoun 355 357	自己
+T31	Metric 329 331	一排
+T32	Metric 333 335	一排
+T33	Thing-Nominal 364 369	雨天的海燕
+T34	Thing-Nominal 393 394	雨
+T35	Thing-Nominal 397 398	浪
+T36	Thing-Pronoun 401 403	它们
+*	Coreference T36 T33 T43
+T37	Thing-Nominal 407 409	头颅
+R8	Part-Whole Arg1:T37 Arg2:T33	
+T38	Thing-Nominal 412 414	翅膀
+R9	Part-Whole Arg1:T38 Arg2:T33	
+T39	Thing-Pronoun 428 430	它们
+T40	Thing-Nominal 435 437	海浪
+T41	Thing-Nominal 446 448	云浪
+T42	Thing-Nominal 466 468	战机
+T43	Thing-Pronoun 483 485	他们
+T44	Thing-Nominal 497 500	雷阵雨
+T45	Thing-Nominal 501 503	大海
+T46	Thing-Nominal 510 514	一道闪电
+T47	Metric 510 512	一道
+T48	Thing-Nominal 515 522	昏天黑地的海面
+T49	Thing-Nominal 525 530	霎时的光亮
+R10	Located Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 531 533	浪花
+T51	Thing-Nominal 544 551	五颜六色的花朵
+T52	Location-Nominal 552 553;554 556	天 空上
+T53	Thing-Nominal 557 559	闪电
+T54	Thing-Nominal 561 568	一条金色的巨龙
+T55	Thing-Nominal 570 572	黑云
+T56	Thing-Nominal 577 579	天空
+T57	Thing-Nominal 583 587	一道壮观
+T58	Metric 561 563	一条
+T59	Metric 583 585	一道
+T60	Thing-Nominal 588 590	云浪
+T61	Thing-Nominal 591 593	闪电
+T62	Person-Nominal 601 605	时尚女孩
+T63	Thing-Nominal 605 613	衣服上的金色亮片
+T64	Thing-Nominal 605 607	衣服
+R11	Part-Whole Arg1:T63 Arg2:T64	
+R12	Ownership Arg1:T62 Arg2:T64	
+T65	Time-Implicit 622 626	闪电过后
+T66	Thing-Nominal 622 624	闪电
+T67	Thing-Nominal 627 628	雷
+T68	Thing-Nominal 637 642	巨大的雷声
+T69	Thing-Nominal 647 649	海浪
+T70	Thing-Nominal 652 654	浪花
+T71	Location-Nominal 677 682	港城的码头
+T72	Location-Nominal 677 679	港城
+R13	Part-Whole Arg1:T71 Arg2:T72	
+T73	Location-Nominal 693 699	不远处的码头
+T74	Location-Nominal 689 691	岸边
+*	Coreference T73 T71
+T75	Thing-Nominal 704 710	串珠似的雨滴
+T76	Location-Nominal 702 704	眼前
+T77	Location-Nominal 711 713	天上
+T78	Thing-Nominal 720 724	道道雨帘
+R14	Near Arg1:T75 Arg2:T76	
+T79	Thing-Nominal 727 734	天上下来的瀑布
+T80	Thing-Nominal 738 740	雨帘
+*	Coreference T80 T78
+T81	Thing-Nominal 743 748	蒙蒙的雨雾
+T82	Thing-Nominal 749 751	雨雾
+*	Coreference T82 T81
+T83	Thing-Nominal 755 761	塔吊、输送机
+T84	Location-Nominal 764 767	码头上
+R15	Located Arg1:T83 Arg2:T84	
+T85	Thing-Nominal 768 775	星星点点的轮船
+T86	Location-Nominal 778 784	宽阔的海面上
+R16	Located Arg1:T85 Arg2:T86	
+T87	Thing-Nominal 787 789	雨雾
+T88	Thing-Nominal 804 811	美丽的海市蜃楼
+T89	Thing-Nominal 813 817	港城的海
+T90	Thing-Nominal 821 825	雨中的海

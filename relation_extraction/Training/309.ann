@@ -1,0 +1,315 @@
+T1	Person-Name 4 8	小平同志
+T2	Person-Pronoun 9 10	您
+*	Coreference T2 T1 T9 T14 T59 T60
+T3	Location-Nominal 17 19	祖国
+T4	Location-Name 26 28	广安
+T5	Location-Nominal 44 46	城乡
+T6	Person-Nominal 50 52	人民
+T7	Person-Pronoun 62 64	我们
+T8	Person-Pronoun 68 69	您
+T9	Person-Name 76 85	当代伟人邓小平同志
+T10	Location-Name 88 91	广安市
+T11	Person-Pronoun 92 93	您
+T12	Person-Nominal 96 99	广安人
+T13	Person-Nominal 105 108	广安人
+T14	Person-Nominal 123 127	家乡伟人
+T15	Organization-Name 143 148	中国共产党
+T16	Location-Name 155 159	广安大地
+*	Coreference T16 T10 T4
+T17	Location-Name 178 181	广安市
+T18	Person-Pronoun 185 186	我
+T19	Organization-Nominal 187 197	广安市人大相关专委会
+T20	Person-Nominal 197 203	一位负责同志
+T21	Metric 210 214	96米宽
+T22	Location-Name 215 219	思源大道
+T23	Person-Pronoun 227 228	我
+T24	Location-Name 231 235	思源大道
+T25	Person-Nominal 240 243	广安人
+T26	Thing-Nominal 246 248	笑脸
+T27	Location-Name 249 253	思源大道
+T28	Thing-Nominal 261 263	彩灯
+T29	Thing-Nominal 264 266	红灯
+T30	Thing-Nominal 269 272	满天星
+T31	Thing-Nominal 284 286	火树
+T32	Thing-Nominal 286 288	银花
+T33	Thing-Nominal 288 291	不夜天
+T34	Person-Nominal 300 309	陪同我的广安的同志
+*	Coreference T34 T20 T65
+T35	Location-Nominal 315 319	这座城市
+T36	Location-Name 187 190	广安市
+*	Coreference T35 T36
+T37	Organization-Name 327 330	国务院
+T38	Time-Explicit 333 338	1993年
+T39	Location-Name 341 345	广安地区
+T40	Time-Explicit 346 351	1998年
+T41	Location-Name 355 358	广安市
+T42	Metric 359 364	十多年功夫
+T43	Metric 365 367	一座
+T44	Person-Nominal 368 375	有关领导和专家
+T45	Location-Nominal 378 387	中国靓丽的中等城市
+*	Coreference T45 T41 T47 T64
+T46	Person-Pronoun 397 398	我
+T47	Location-Nominal 411 417	广安这座城市
+T48	Location-Nominal 418 421	新城区
+T49	Location-Name 436 438	渠江
+T50	Location-Name 439 442	西溪河
+T51	Thing-Nominal 442 444	水景
+T52	Thing-Nominal 449 451	绿树
+T53	Location-Nominal 445 449	大街小巷
+R1	Located Arg1:T52 Arg2:T53	
+T54	Physical 458 462	花园城市
+T55	Location-Name 470 474	思源大道
+T56	Person-Pronoun 487 488	我
+T57	Location-Nominal 502 506	这条大道
+*	Coreference T57 T55
+T58	Location-Name 510 514	思源广场
+R2	Near Arg1:T58 Arg2:T57	
+T59	Person-Nominal 522 529	我们家乡的伟人
+T60	Person-Name 549 552	邓小平
+T61	Person-Pronoun 556 558	我们
+T62	Location-Name 559 561	广安
+T63	Organization-Name 572 577	中国共产党
+T64	Location-Name 586 590	我们广安
+T65	Person-Nominal 603 608	广安的同志
+T66	Person-Nominal 591 596	全中国人民
+T67	Person-Pronoun 621 623	我们
+T68	Location-Nominal 627 634	思源大道的东头
+R3	Part-Whole Arg1:T68 Arg2:T55	
+T69	Metric 644 648	120亩
+T70	Location-Name 649 662	硕大、宽阔、雄壮的思源广场
+*	Coreference T70 T58
+T71	Person-Pronoun 665 667	我们
+R4	Part-Whole Arg1:T65 Arg2:T67	
+T72	Person-Name 741 745	小平同志
+T73	Physical 745 749	南巡讲话
+T74	Person-Name 712 714	小平
+*	Coreference T74 T72
+T75	Thing-Nominal 697 702	一个大台阶
+T76	Thing-Nominal 703 705	台阶
+T77	Thing-Nominal 706 710	青铜浮雕
+R5	Located Arg1:T77 Arg2:T76	
+*	Coreference T76 T75 T79
+R6	Part-Whole Arg1:T65 Arg2:T66	
+T78	Person-Nominal 586 590	我们广安
+R7	Part-Whole Arg1:T78 Arg2:T66	
+T79	Thing-Nominal 732 735	大台阶
+T80	Metric 697 699	一个
+T81	Person-Pronoun 753 755	我们
+T82	Thing-Nominal 757 761	青铜浮雕
+T83	Location-Nominal 767 771	小平故里
+*	Coreference T83 T62
+T84	Thing-Nominal 774 778	水幕电影
+T85	Location-Name 785 789	思源广场
+T86	Thing-Nominal 795 798	乐曲声
+T87	Thing-Nominal 800 804	音乐喷泉
+T88	Thing-Nominal 804 809	银亮的水柱
+R8	Part-Whole Arg1:T88 Arg2:T87	
+T89	Thing-Nominal 815 816	灯
+R9	Part-Whole Arg1:T89 Arg2:T87	
+T90	Organization-Name 832 835	共产党
+*	Coreference T90 T63
+T91	Person-Pronoun 846 848	我们
+T92	Thing-Nominal 851 855	广场台阶
+R10	Part-Whole Arg1:T79 Arg2:T92	
+T93	Location-Nominal 851 859	广场台阶的最高处
+R11	Part-Whole Arg1:T93 Arg2:T85	
+T94	Thing-Nominal 869 876	四个金灿灿大字
+T95	Metric 879 883	四十二吨
+T96	Thing-Nominal 884 885;886 888	青 铜宝
+T97	Thing-Nominal 903 907	四个大字
+*	Coreference T97 T94 T98
+T98	Thing-Nominal 864 868	实事求是
+T99	Thing-Nominal 898 902	实事求是
+T100	Person-Nominal 908 917	陪同我的广安的同志
+T101	Person-Nominal 923 929	广安的老同志
+T102	Thing-Nominal 933 935	宝鼎
+T103	Thing-Nominal 894 896	宝鼎
+*	Coreference T103 T96
+T104	Abstract 942 946	中国革命
+T105	Abstract 955 963	广安的历史的教训
+T106	Person-Name 976 980	小平同志
+T107	Person-Pronoun 985 986	他
+*	Coreference T107 T106
+T108	Abstract 992 993	社
+T109	Abstract 996 997	资
+T110	Metric 1008 1013	十年二十年
+T111	Person-Pronoun 1029 1030	他
+T112	Person-Pronoun 1059 1060	你
+T114	Person-Nominal 1098 1111	一位离退休干部模样的老同志
+T113	Location-Nominal 1093 1097	宝鼎旁边
+T115	Metric 1098 1100	一位
+T116	Person-Nominal 1124 1129	这位老同志
+*	Coreference T116 T114
+T117	Person-Pronoun 1134 1136	我们
+T118	Location-Nominal 1143 1146	宝鼎旁
+R12	Near Arg1:T118 Arg2:T113	
+T119	Location-Name 1149 1153	思源大道
+T120	Thing-Nominal 1162 1164	天河
+T121	Location-Nominal 1170 1178	这欢歌笑语的广场
+*	Coreference T121 T85
+T122	Person-Nominal 1183 1199	沉浸在浓浓的幸福氛围中的广安群众
+T123	Person-Pronoun 1200 1201	我
+T124	Person-Name 1206 1208	小平
+T125	Person-Nominal 1211 1215	全党全民
+T126	Location-Name 1228 1232	中国大地
+T127	Time-Implicit 1241 1250	翌日上午8：30时
+T128	Person-Pronoun 1251 1252	我
+T129	Location-Name 1257 1261	小平故居
+T130	Location-Nominal 1256 1264	去小平故居的大道
+T131	Location-Name 1195 1197	广安
+R13	Part-Whole Arg1:T129 Arg2:T131	
+T132	Time-Explicit 1266 1276	1904年8月22日
+T133	Person-Name 1277 1280	邓小平
+*	Coreference T133 T124
+T134	Location-Name 1283 1292	广安县协兴镇牌坊村
+T135	Location-Name 1283 1297	广安县协兴镇牌坊村邓家老院子
+T136	Location-Name 1298 1301	牌坊村
+*	Coreference T136 T134
+T137	Time-Implicit 1303 1306	清朝时
+T138	Thing-Nominal 1309 1315	一座德政牌坊
+R14	Located Arg1:T138 Arg2:T136	
+T139	Location-Name 1325 1326;1327 1328	协 兴
+T140	Location-Name 1286 1289	协兴镇
+*	Coreference T139 T140
+T141	Thing-Nominal 1331 1333	公路
+T142	Thing-Nominal 1338 1345	一座巍峨的牌坊
+T143	Metric 1309 1311	一座
+T144	Metric 1338 1340	一座
+T145	Thing-Nominal 1346 1348	牌坊
+*	Coreference T145 T142
+T146	Person-Nominal 1352 1356	广安农民
+T147	Person-Nominal 1359 1363	中国农民
+R15	Part-Whole Arg1:T146 Arg2:T147	
+T148	Person-Name 1391 1394	毛泽东
+T149	Person-Name 1399 1402	邓小平
+T150	Metric 1408 1413	大半个世纪
+T151	Location-Name 1416 1421	邓小平旧居
+*	Coreference T151 T129 T152 T158
+T152	Location-Nominal 1423 1435	一座翠绿掩映的农家三合院
+T153	Metric 1423 1425	一座
+T154	Location-Nominal 1436 1438	堂屋
+T155	Person-Name 1442 1446	小平同志
+T156	Abstract 1447 1451	中国革命
+*	Coreference T155 T149
+T157	Time-Implicit 1452 1458	不同历史暑期
+T158	Location-Nominal 1462 1465;1466 1467	整个旧 居
+T159	Location-Nominal 1471 1475	川东农村
+T160	Person-Name 1496 1500	小平同志
+T161	Thing-Nominal 1496 1505	小平同志用过的家具
+T162	Metric 1507 1509	两件
+T164	Thing-Nominal 1513 1523	可以拆成两半的大圆桌
+R16	Part-Whole Arg1:T164 Arg2:T161	
+T165	Time-Explicit 1525 1527	文革
+T166	Person-Name 1546 1551	少年邓小平
+*	Coreference T166 T160
+T167	Thing-Nominal 1553 1556;1557 1558	这张圆 桌
+*	Coreference T167 T164
+T168	Metric 1572 1574	一张
+T163	Metric 1510 1512	一件
+T169	Thing-Nominal 1572 1583	一张笨重的清代雕花木床
+R17	Part-Whole Arg1:T169 Arg2:T161	
+T170	Time-Explicit 1584 1594	1904年8月22日
+T171	Person-Name 1595 1599	小平同志
+T172	Thing-Nominal 1603 1607	这张木床
+*	Coreference T172 T169
+T173	Metric 1610 1613	十来间
+T174	Thing-Nominal 1610 1615	十来间房屋
+T175	Metric 1622 1625	半小时
+T176	Person-Pronoun 1634 1635	我
+T177	Person-Nominal 1636 1648	陪同我们参观的广安的同志
+R18	Social Arg1:T177 Arg2:T176	
+*	Coreference T177 T100 T179
+R19	Social Arg1:T20 Arg2:T18	
+T178	Location-Name 1650 1654	小平故居
+T179	Person-Nominal 1669 1674	广安的同志
+T180	Person-Pronoun 1678 1680	他们
+R20	Part-Whole Arg1:T179 Arg2:T180	
+T181	Person-Nominal 1692 1693;1694 1700	参 观的不少名人
+T182	Thing-Nominal 1725 1739	故居外的丰饶原野和温暖的炊烟
+T183	Person-Nominal 1744 1748	亿万农民
+T184	Thing-Nominal 1744 1754;1755 1761	亿万农民越温饱奔小康 的自信的笑容
+T185	Thing-Nominal 1766 1781	中国大地二十多年改革的宏伟画卷
+T186	Location-Name 1766 1770	中国大地
+T187	Metric 1770 1774	二十多年
+T188	Location-Nominal 1784 1789	故居陈列室
+T189	Location-Name 1816 1821	邓小平故居
+T190	Person-Pronoun 1839 1840	我
+T191	Location-Name 1856 1862	邓小平纪念馆
+T192	Person-Name 1870 1877	四川作家马识途
+T193	Person-Pronoun 1864 1865	我
+T194	Person-Name 1878 1889	广安的“联坛怪杰”刘利
+T195	Location-Name 1897 1902	邓小平故居
+T196	Person-Nominal 1906 1908	老乡
+T197	Person-Name 1910 1913	邓小平
+R21	Social Arg1:T196 Arg2:T197	
+R22	Part-Whole Arg1:T192 Arg2:T196	
+R23	Part-Whole Arg1:T194 Arg2:T196	
+T198	Thing-Nominal 1925 1929	精彩对联
+R24	Located Arg1:T198 Arg2:T191	
+T199	Person-Name 1930 1933	马识途
+*	Coreference T199 T192
+T200	Thing-Nominal 1930 1936	马识途的对联
+R25	Part-Whole Arg1:T200 Arg2:T198	
+T201	Thing-Nominal 1943 1945	大厦
+T202	Location-Nominal 1949 1951	此处
+*	Coreference T202 T189
+T203	Person-Nominal 1954 1956	人杰
+*	Coreference T203 T197
+T204	Organization-Nominal 1964 1965	邦
+T205	Organization-Nominal 1966 1967	国
+T206	Person-Nominal 1968 1970	万民
+T207	Thing-Nominal 1992 1993	水
+T208	Thing-Nominal 1994 1995	山
+T209	Person-Nominal 1997 1998	工
+T210	Person-Nominal 1999 2000	农
+T211	Metric 2001 2003	千载
+T212	Location-Name 2006 2008	广安
+T213	Person-Name 2027 2030	邓小平
+T214	Person-Nominal 2045 2047	百姓
+T215	Person-Name 2048 2050	小平
+T216	Thing-Nominal 2062 2069	刘利创作的长联
+R26	Part-Whole Arg1:T216 Arg2:T198	
+T217	Person-Name 2062 2064	刘利
+*	Coreference T217 T194
+T218	Metric 2072 2076	500字
+T219	Thing-Pronoun 2084 2085	它
+*	Coreference T219 T216 T230
+T220	Metric 2086 2088	四块
+T221	Thing-Nominal 2088 2093	云南红松木
+T222	Thing-Pronoun 2115 2116	它
+T223	Person-Nominal 2117 2120	广安人
+T224	Person-Nominal 2124 2127	广安人
+T225	Person-Nominal 2130 2133	广安人
+T226	Person-Nominal 2136 2139	广安人
+T227	Person-Nominal 2149 2155	广安父老乡亲
+*	Coreference T227 T226 T237
+T228	Person-Name 2156 2159	邓小平
+T229	Person-Name 2174 2176	刘利
+T230	Thing-Nominal 2174 2214	刘利创作的这副早在1988年3月就荣获“全国老同志言志征联大赛第一名”殊誉的长联
+T231	Time-Explicit 2183 2190	1988年3月
+T232	Person-Name 2220 2223	邓小平
+T233	Thing-Nominal 2235 2237	上联
+T234	Thing-Nominal 2254 2256	下联
+T235	Thing-Nominal 2297 2300	上下联
+R27	Part-Whole Arg1:T233 Arg2:T235	
+R28	Part-Whole Arg1:T234 Arg2:T235	
+T236	Person-Name 2310 2312	小平
+T237	Person-Nominal 2325 2329	广安人民
+T238	Person-Name 2330 2334	小平同志
+T239	Organization-Name 2363 2368	中国共产党
+T240	Metric 2383 2387	500字
+T241	Location-Name 2415 2419	小平故居
+T242	Thing-Nominal 2419 2429	这一短一长的两副对联
+*	Coreference T242 T198
+T243	Person-Pronoun 2430 2431	我
+T244	Person-Nominal 2436 2449	四川一位普通的“老乡诗人”
+T245	Location-Name 2452 2457	邓小平故居
+T246	Person-Pronoun 2478 2479	您
+*	Coreference T246 T238 T236
+T247	Person-Pronoun 2486 2488	我们
+T248	Person-Pronoun 2494 2496	我们
+T249	Person-Pronoun 2532 2533	您
+T250	Person-Nominal 2533 2540	一个世纪的伟人
+*	Coreference T250 T249
+T251	Metric 2533 2535	一个
+T252	Person-Pronoun 2564 2565	我

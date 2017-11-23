@@ -1,0 +1,124 @@
+T1	Location-Name 4 11	bratan湖
+T2	Location-Name 12 18	巴利神仙岛上
+T3	Thing-Name 12 26	巴利神仙岛上的bratan湖
+T4	Thing-Pronoun 41 42	她
+*	Coreference T4 T3
+T5	Metric 88 90	万千
+T6	Person-Nominal 88 92	万千游客
+T7	Metric 95 97	万里
+T8	Location-Nominal 118 120	小径
+T9	Thing-Name 148 155	bratan湖
+T10	Person-Nominal 156 161	娇柔的艳妇
+T11	Location-Nominal 193 195	群山
+T12	Thing-Nominal 201 203	芦苇
+T13	Location-Nominal 205 207	湖边
+T14	Thing-Nominal 217 225	丛丛不知名的小花
+T15	Thing-Nominal 246 251	。几朵云雾
+T16	Location-Nominal 255 257	湖面
+R3	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 288 292	一叶扁舟
+T18	Location-Pronoun 296 297	她
+T19	Location-Pronoun 305 306	她
+T20	Location-Pronoun 313 314	她
+T22	Location-Nominal 321 328	赤道线上的岛国
+T23	Thing-Nominal 373 375	游艇
+T24	Location-Nominal 391 399	那一片堪蓝的湖面
+R4	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 404 406	青山
+T26	Thing-Nominal 465 467	青山
+T27	Location-Pronoun 494 495	她
+T28	Person-Nominal 517 518	人
+T29	Time-Implicit 546 548	中午
+T30	Thing-Nominal 562 569	粼粼波光的湖水
+T31	Thing-Nominal 571 580	一面闪着金光的镜子
+T33	Thing-Nominal 581 585	几只水鸟
+T34	Thing-Nominal 601 603	游艇
+T35	Location-Nominal 614 616	湖面
+T36	Thing-Nominal 622 624	湖水
+T37	Location-Nominal 636 638	高空
+T38	Thing-Name 721 727	RATAN湖
+T39	Thing-Nominal 738 742	一轮弯月
+T40	Thing-Nominal 748 750	明月
+T41	Location-Nominal 753 756	湖泊边
+T42	Thing-Nominal 782 788	那娇羞的月儿
+T43	Location-Nominal 791 794	云雾里
+R5	Located Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 802 804	繁星
+T45	Thing-Nominal 809 811	湖水
+T46	Thing-Name 837 844	BRATAN湖
+T47	Thing-Pronoun 849 850	她
+T48	Thing-Pronoun 854 855	她
+T49	Person-Pronoun 858 859	我
+T50	Person-Pronoun 863 865	我们
+T51	Location-Nominal 886 889	神仙岛
+T52	Person-Pronoun 945 946	我
+T53	Thing-Nominal 949 953	一颗种子
+T54	Person-Pronoun 980 981	我
+T55	Thing-Nominal 983 988	朝露的甘醇
+T56	Thing-Nominal 1006 1013	那颗珍贵的种子
+T57	Thing-Pronoun 1025 1026	她
+*	Coreference T57 T56
+T58	Thing-Pronoun 1043 1044	她
+T59	Time-Implicit 1074 1076	春天
+T60	Time-Implicit 1096 1098	春天
+T61	Thing-Pronoun 1099 1100	她
+T62	Location-Nominal 1113 1117	蓝天底下
+T63	Abstract 1121 1124	散文诗
+T64	Abstract 1157 1160	散文诗
+T65	Abstract 1161 1165	世华文学
+T66	Thing-Nominal 1188 1190	路灯
+T67	Location-Nominal 1198 1207	在夜神吞噬的道路边
+T68	Thing-Pronoun 1253 1254	它
+T69	Thing-Pronoun 1264 1265	它
+T70	Thing-Nominal 1268 1270	星星
+T71	Person-Nominal 1282 1284	人们
+T72	Person-Nominal 1313 1315	婴儿
+T73	Thing-Nominal 1340 1342	路灯
+T74	Person-Nominal 1345 1347	人们
+T75	Thing-Pronoun 1348 1349	它
+*	Coreference T75 T73
+T76	Thing-Pronoun 1358 1359	它
+T77	Thing-Pronoun 1374 1375	它
+T78	Thing-Pronoun 1395 1396	它
+T79	Thing-Pronoun 1401 1402	它
+T80	Location-Nominal 1410 1412	街边
+R7	Located Arg1:T79 Arg2:T80	
+T81	Thing-Pronoun 1414 1415	它
+T82	Thing-Pronoun 1432 1433	它
+T83	Thing-Nominal 1450 1452	路灯
+T84	Thing-Nominal 1455 1462	牵引光明的桥梁
+R1	Located Arg1:T3 Arg2:T2	
+T85	Location-Nominal 28 30	天上
+T86	Location-Nominal 32 34	人间
+T87	Thing-Nominal 165 169	惺忪睡眼
+R8	Part-Whole Arg1:T87 Arg2:T10	
+T88	Thing-Nominal 205 211	湖边一任绿草
+R2	Located Arg1:T88 Arg2:T13	
+T89	Person-Nominal 259 260	人
+T90	Thing-Nominal 262 266	氤氲雾气
+T21	Thing-Nominal 377 379	凉风
+T91	Thing-Nominal 383 385	雾气
+T92	Thing-Nominal 416 417	水
+T93	Thing-Nominal 418 419	山
+T94	Thing-Nominal 420 421	山
+T95	Thing-Nominal 422 423	水
+T96	Thing-Nominal 424 425	云
+T97	Thing-Nominal 429 430	山
+T98	Thing-Nominal 546 551	中午的阳光
+T99	Thing-Nominal 552 557	朦胧的云雾
+T100	Thing-Nominal 587 592	抒情的翅膀
+R9	Part-Whole Arg1:T100 Arg2:T33	
+T32	Thing-Nominal 601 606;607 609	游艇排开的 浪花
+T101	Thing-Nominal 695 699	高山云雾
+T102	Thing-Nominal 705 712	黄昏淡薄的夕阳
+T103	Time-Implicit 720 729	BRATAN湖的夜
+T104	Abstract 768 777	《月亮代表我的心》
+T105	Thing-Nominal 991 993	阳光
+T106	Thing-Nominal 999 1001	土地
+T107	Thing-Nominal 1103 1112	一片诗韵欢畅的蓝天
+T108	Abstract 1141 1147	世界华文文学
+T109	Thing-Nominal 1193 1195	夕阳
+R6	Located Arg1:T66 Arg2:T67	
+T110	Thing-Nominal 1230 1234	黎明曙光
+*	Coreference T68 T66
+T111	Location-Nominal 1358 1361	它身旁

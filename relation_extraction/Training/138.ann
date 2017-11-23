@@ -1,0 +1,47 @@
+T1	Thing-Nominal 0 3	鹳雀楼
+T2	Location-Nominal 10 12	远方
+T3	Time-Explicit 20 24	大唐盛世
+T4	Thing-Nominal 27 31	五代烽火
+T5	Thing-Nominal 34 41	两宋的金风细雨
+T6	Time-Explicit 34 36	两宋
+T7	Thing-Nominal 44 51	元初的滚滚狼烟
+T8	Time-Explicit 44 46	元初
+T9	Thing-Nominal 60 69	这座身世沧桑的高楼
+T10	Thing-Nominal 84 88	战火烽烟
+T11	Person-Nominal 98 100	人们
+T12	Location-Nominal 110 115	蔚蓝的天空
+T13	Thing-Nominal 116 121	飞鸟的翅羽
+T14	Thing-Nominal 116 118	飞鸟
+R1	Part-Whole Arg1:T13 Arg2:T14	
+R2	Located Arg1:T14 Arg2:T12	
+T15	Location-Nominal 132 139	重檐翘角的楼下
+T16	Thing-Nominal 146 153	这座北周的戍楼
+T17	Person-Nominal 157 159	今人
+T18	Thing-Nominal 168 169	楼
+T19	Person-Nominal 183 184	人
+T20	Thing-Nominal 190 195	绚丽的花朵
+T21	Thing-Nominal 209 211	青山
+T22	Thing-Nominal 214 216	黄河
+T23	Thing-Nominal 219 226	郁郁苍苍的原野
+T24	Location-Name 244 248	鹳雀楼上
+T25	Thing-Nominal 249 254	诗人的铜像
+R3	Located Arg1:T25 Arg2:T24	
+T26	Person-Nominal 249 251	诗人
+T27	Thing-Nominal 265 271	他手中的诗稿
+T28	Location-Nominal 265 268	他手中
+R4	Located Arg1:T27 Arg2:T28	
+T29	Person-Pronoun 265 266	他
+*	Coreference T29 T26
+T30	Person-Pronoun 291 292	他
+T31	Thing-Nominal 312 313	山
+T32	Thing-Nominal 315 317	黄河
+T33	Metric 323 325	千里
+T34	Thing-Nominal 329 332	一层楼
+T35	Person-Nominal 334 336	作者
+T36	Person-Name 337 340	谢旭国
+T37	Person-Nominal 341 348	山西省作协会员
+T38	Person-Nominal 349 356	永济作协副主席
+T39	Abstract 358 364	《人民日报》
+T40	Abstract 364 370	《散文选刊》
+T41	Abstract 370 376	《山西日报》
+T42	Metric 401 404	百余篇

@@ -1,0 +1,160 @@
+T1	Person-Nominal 0 2	老庄
+T2	Person-Name 12 19	拜把子兄弟老盛
+T3	Person-Pronoun 31 34	他们俩
+R1	Part-Whole Arg1:T2 Arg2:T3	
+R2	Part-Whole Arg1:T1 Arg2:T3	
+T4	Thing-Nominal 36 38	膀子
+T5	Thing-Nominal 44 48	青岛啤酒
+T6	Metric 42 44	一瓶
+T7	Location-Nominal 51 60;61 63	古城西郊新落成的彩 虹桥
+T8	Person-Name 73 75	老盛
+*	Coreference T8 T2
+T9	Person-Name 82 84	老庄
+*	Coreference T9 T1
+T10	Person-Nominal 136 137	人
+T11	Location-Nominal 144 146	这桥
+*	Coreference T11 T7
+T12	Person-Pronoun 183 184	我
+T13	Person-Name 151 153	老盛
+T14	Person-Name 160 162	老庄
+*	Coreference T12 T13
+T15	Person-Nominal 200 207	抑郁症患者男人
+T16	Metric 198 200	一个
+T17	Time-Implicit 191 194	几天后
+T18	Thing-Nominal 210 216	彩虹桥的栏杆
+T19	Thing-Nominal 220 229	脚底滚滚滔滔的河水
+R3	Located Arg1:T18 Arg2:T7	
+T20	Thing-Nominal 230 232	孤狼
+T21	Person-Nominal 257 261	这个男人
+*	Coreference T21 T15
+T22	Person-Name 269 271	老庄
+T23	Person-Pronoun 279 281	自己
+T24	Person-Pronoun 295 296	他
+T25	Time-Implicit 303 305	那天
+T26	Time-Implicit 105 107	当时
+*	Coreference T26 T25
+T27	Location-Nominal 364 366	河面
+T28	Person-Nominal 376 385	有生命有精神的肉体
+T29	Metric 374 376	一个
+T30	Person-Nominal 404 405	人
+T31	Person-Nominal 433 434;435 436	对 方
+T32	Person-Name 298 300	老盛
+*	Coreference T31 T32 T33 T34 T36 T39 T105
+T33	Person-Name 445 447	老盛
+T34	Person-Pronoun 469 470	他
+T35	Thing-Nominal 472 476	高音喇叭
+T36	Person-Pronoun 486 488	自己
+T37	Person-Name 489 495;496 499	小城名人摄影 家老庄
+T38	Person-Name 525 534	“抑郁症患者”老庄
+*	Coreference T38 T37 T23 T22 T24
+T39	Person-Pronoun 562 563	他
+T40	Person-Nominal 594 597	老朋友
+T41	Person-Name 589 591	老庄
+T42	Person-Nominal 597 600	老同事
+T43	Person-Nominal 600 603	老邻居
+R4	Social Arg1:T40 Arg2:T41	
+R5	Social Arg1:T42 Arg2:T41	
+R6	Social Arg1:T43 Arg2:T41	
+T44	Person-Pronoun 627 628	你
+T45	Person-Pronoun 652 653	他
+*	Coreference T45 T41
+T46	Person-Name 679 685	老庄女友小茹
+T47	Thing-Nominal 686 688	耳朵
+R7	Part-Whole Arg1:T47 Arg2:T46	
+T48	Person-Pronoun 704 706	他们
+R8	Part-Whole Arg1:T46 Arg2:T48	
+R9	Part-Whole Arg1:T45 Arg2:T48	
+T49	Location-Nominal 704 707;708 714	他们多 次幽会的地方
+T50	Location-Nominal 699 702	彩虹桥
+*	Coreference T50 T49
+T51	Person-Nominal 715 718	两个人
+*	Coreference T51 T48
+T52	Person-Name 723 725	老庄
+T53	Person-Pronoun 730 732	自己
+*	Coreference T53 T52 T56 T61 T63 T64
+T54	Thing-Nominal 764 768;769 773	肌肉群凸 隆的双臂
+T55	Thing-Nominal 778 783	小茹的瘦肩
+R10	Part-Whole Arg1:T55 Arg2:T46	
+R11	Part-Whole Arg1:T54 Arg2:T52	
+T56	Person-Pronoun 790 791	我
+T57	Person-Name 796 798	小茹
+*	Coreference T57 T46 T62
+T58	Thing-Nominal 800 802	脑袋
+R12	Part-Whole Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 804 808	受惊的小
+T60	Thing-Nominal 810 815	长长眼睫毛
+R13	Part-Whole Arg1:T60 Arg2:T57	
+T61	Person-Name 819 821	庄哥
+T62	Person-Pronoun 822 823	我
+T63	Person-Pronoun 827 828	你
+T64	Person-Pronoun 835 836	你
+T65	Person-Name 841 843	老庄
+T66	Person-Nominal 849 854	抑郁症患者
+T67	Person-Nominal 866 873	判除重刑的囚犯
+T68	Metric 864 866	一个
+T69	Person-Nominal 904 909	拜把子兄弟
+T70	Person-Nominal 913 917	红颜知己
+T71	Thing-Nominal 937 941	千钧磐石
+T72	Person-Name 942 944	老庄
+T73	Person-Pronoun 965 967	自己
+*	Coreference T73 T72 T80 T81 T83 T89
+T74	Location-Nominal 969 973	玉秀小区
+T75	Location-Nominal 1003 1005	小区
+*	Coreference T75 T74
+T76	Person-Nominal 1009 1017	那帮多年的老邻居
+R14	Social Arg1:T76 Arg2:T72	
+T77	Thing-Nominal 1019 1021	扑克
+T78	Thing-Nominal 1023 1025	象棋
+T79	Organization-Nominal 1028 1030	单位
+T80	Person-Nominal 1060 1064	庄摄影家
+T81	Person-Pronoun 1080 1081	他
+T82	Person-Name 1082 1086	棋友老陕
+R15	Social Arg1:T82 Arg2:T80	
+T83	Person-Pronoun 1095 1096	他
+T84	Person-Pronoun 1097 1099	他俩
+R16	Part-Whole Arg1:T82 Arg2:T84	
+R17	Part-Whole Arg1:T80 Arg2:T84	
+T85	Location-Nominal 1111 1113	房子
+T86	Location-Nominal 1119 1129	单身宿舍改造的筒子楼
+T87	Location-Nominal 1135 1137	楼道
+T88	Thing-Nominal 1152 1153	菜
+T89	Person-Pronoun 1164 1165	他
+T90	Thing-Nominal 1166 1168	炉子
+T91	Thing-Nominal 1171 1172	饭
+T92	Thing-Nominal 1177 1178	羊
+T93	Metric 1175 1177	一个
+T94	Metric 1181 1183	一群
+T95	Person-Nominal 1197 1199	老婆
+R18	Family Arg1:T95 Arg2:T89	
+T96	Person-Nominal 1252 1258	老邻居老伙计
+*	Coreference T82 T96 T97 T101
+T97	Person-Name 1236 1238	老陕
+T98	Thing-Nominal 1276 1279	大猩猩
+T99	Person-Name 1284 1286	老庄
+T100	Person-Pronoun 1287 1288	你
+*	Coreference T100 T99
+T101	Person-Pronoun 1289 1290	我
+T102	Thing-Nominal 1309 1311	钉子
+T103	Person-Pronoun 1324 1325	我
+T104	Person-Name 1299 1301	老庄
+*	Coreference T103 T104
+T105	Person-Name 1347 1354	拜把子兄弟老盛
+T106	Time-Implicit 1360 1365	又一个夏日
+T107	Location-Nominal 1374 1385	造型如两道巨大彩虹的桥
+T108	Thing-Nominal 1387 1389	夕阳
+T109	Time-Implicit 1391 1393	今天
+T110	Person-Name 1395 1397	老庄
+T111	Thing-Nominal 1419 1423	满头乌丝
+T112	Thing-Nominal 1425 1429	一首白发
+T113	Person-Name 1431 1434	伍子胥
+T114	Person-Pronoun 1440 1441	他
+*	Coreference T114 T110 T117 T121
+T115	Thing-Nominal 1471 1473	啤酒
+T116	Metric 1469 1471	一箱
+T117	Person-Pronoun 1474 1475	他
+T118	Person-Nominal 1504 1506	哥们
+T119	Person-Name 1457 1464	拜把子兄弟老盛
+*	Coreference T119 T118 T120
+T120	Person-Pronoun 1509 1510	你
+T121	Person-Pronoun 1515 1516	我
+T122	Thing-Nominal 1519 1520	酒

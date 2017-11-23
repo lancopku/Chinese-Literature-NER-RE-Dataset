@@ -1,0 +1,267 @@
+T1	Time-Explicit 0 5	今年春节后
+T2	Organization-Name 6 11	中央电视台
+T3	Person-Pronoun 41 42	我
+T4	Person-Nominal 53 55	人们
+T5	Metric 96 98	一寸
+T6	Metric 100 102	一寸
+T7	Thing-Nominal 102 103	金
+T8	Thing-Nominal 105 106	金
+T9	Person-Name 115 117	鲁迅
+T10	Thing-Nominal 124 126	海绵
+T11	Thing-Nominal 128 129	水
+R1	Located Arg1:T11 Arg2:T10	
+T12	Person-Nominal 178 179	人
+T13	Person-Nominal 190 191	人
+T14	Person-Pronoun 204 205	我
+T15	Time-Implicit 206 210	学生时代
+T16	Time-Explicit 212 220	十年“文革”时期
+*	Coreference T15 T16 T20
+T17	Organization-Nominal 223 225	大学
+T18	Thing-Nominal 232 233	门
+T19	Thing-Nominal 266 268	帽子
+T20	Time-Implicit 269 271	那时
+T21	Thing-Pronoun 277 278	它
+T22	Time-Explicit 284 291	1970年冬天
+T23	Person-Pronoun 292 293	我
+T24	Organization-Nominal 296 297	伍
+T25	Organization-Nominal 299 314	原国防科委“两弹一星”实验基地
+T26	Location-Nominal 315 320	核试验场区
+*	Coreference T25 T26
+T27	Location-Nominal 327 331	大漠戈壁
+R2	Part-Whole Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 335 336	雨
+T29	Thing-Nominal 336 337	雪
+T30	Organization-Nominal 343 344;345 346	部 队
+T31	Time-Explicit 346 354	每年4至10月底
+T32	Time-Implicit 363 365	晚上
+T33	Metric 367 370	五六度
+T34	Time-Implicit 371 375	白天中午
+T35	Metric 379 383	四五十度
+T36	Thing-Nominal 389 392	沙尘暴
+T37	Thing-Nominal 393 395	尘土
+T38	Thing-Nominal 398 399	沙
+T39	Thing-Nominal 400 401	石
+T40	Thing-Nominal 407 408	路
+T41	Person-Nominal 414 415	人
+T42	Organization-Nominal 416 418	部队
+T43	Thing-Nominal 419 421	帐篷
+R3	Use Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 437 440	军大衣
+T45	Time-Implicit 441 443	白天
+T46	Time-Implicit 450 452	那时
+T47	Organization-Nominal 452 454	国家
+T48	Thing-Nominal 458 460	机械
+T49	Thing-Nominal 467 469	大锤
+T50	Thing-Nominal 470 472	钢钎
+T51	Thing-Nominal 473 475	铁锹
+T52	Thing-Nominal 476 477	土
+T53	Thing-Nominal 481 482	石
+T54	Person-Nominal 500 503	战士们
+T55	Person-Nominal 505 507	自己
+*	Coreference T54 T55 T56 T57
+T56	Person-Pronoun 518 520	他们
+T57	Person-Nominal 533 534	兵
+T58	Time-Implicit 535 537	每天
+T59	Person-Nominal 552 555	指导员
+T60	Time-Implicit 550 552	当时
+T61	Person-Nominal 561 564	战士们
+T62	Thing-Nominal 566 569	小老虎
+R4	Social Arg1:T59 Arg2:T61	
+R5	Use Arg1:T54 Arg2:T49	
+R6	Use Arg1:T54 Arg2:T50	
+R7	Use Arg1:T54 Arg2:T51	
+T63	Person-Pronoun 586 587	我
+T64	Metric 589 592	两三年
+T65	Person-Nominal 601 603	马列
+T66	Abstract 605 610	共产党宣言
+T67	Abstract 612 617	国家与革命
+T68	Abstract 619 623	反杜林论
+T69	Abstract 625 631	哥达纲领批判
+T70	Abstract 633 635;636 641	政治 经济学批判
+T71	Abstract 650 654	马克思传
+T72	Abstract 659 672	辩证唯物主义和历史唯物主义
+T73	Person-Name 650 653	马克思
+T74	Thing-Nominal 688 690	笔记
+T75	Time-Implicit 691 693	那时
+T76	Organization-Nominal 694 696	部队
+T77	Thing-Nominal 708 713	小型发电机
+R8	Use Arg1:T76 Arg2:T77	
+T78	Time-Implicit 716 719	晚九点
+T79	Thing-Nominal 727 729	帐篷
+T80	Thing-Nominal 733 735	烟火
+T81	Thing-Nominal 740 742	油灯
+T82	Thing-Nominal 742 744	蜡烛
+T83	Person-Pronoun 750 751	我
+T84	Time-Implicit 751 753	那时
+T85	Thing-Nominal 756 757;758 759	笔 记
+R9	Create Arg1:T83 Arg2:T85	
+T86	Thing-Nominal 763 765	月光
+T87	Thing-Nominal 769 772	手电筒
+R10	Use Arg1:T83 Arg2:T87	
+T88	Time-Implicit 776 778	当时
+T89	Person-Nominal 779 781	有人
+T90	Person-Pronoun 782 783	我
+R11	Social Arg1:T89 Arg2:T90	
+T91	Person-Pronoun 792 793	你
+*	Coreference T91 T90
+T92	Thing-Nominal 797 798	书
+T93	Time-Implicit 805 807	当时
+T94	Organization-Nominal 822 824	部队
+T95	Metric 837 840	一个月
+T96	Time-Implicit 855 857	天天
+T97	Thing-Nominal 859 861	报纸
+T98	Time-Implicit 862 867	十天半月前
+T99	Time-Implicit 869 871	天天
+T100	Thing-Nominal 885 889	一封家信
+T101	Thing-Nominal 891 892	信
+*	Coreference T101 T100
+T102	Metric 896 899	一个月
+T103	Person-Nominal 901 902	兵
+T104	Metric 903 905	整年
+T105	Person-Nominal 910 916	农牧民老百姓
+T106	Location-Nominal 922 926	试验场区
+T107	Person-Pronoun 938 940	我们
+T108	Person-Nominal 948 951	年轻人
+*	Coreference T107 T108 T103
+T109	Time-Implicit 957 959	天天
+T110	Person-Name 965 968	马克思
+T111	Person-Name 968 970	列宁
+T112	Person-Pronoun 990 992	我们
+T113	Person-Pronoun 1006 1008	我们
+T114	Time-Implicit 1025 1027	现在
+R12	Use Arg1:T91 Arg2:T92	
+T115	Time-Explicit 1041 1048	1977年3月
+T116	Person-Pronoun 1048 1049	我
+T117	Organization-Nominal 1050 1051	伍
+T118	Location-Nominal 1052 1053	乡
+T119	Time-Explicit 1056 1061	文革”期间
+T120	Organization-Nominal 1061 1063	大学
+T121	Person-Nominal 1067 1070	文化人
+T122	Person-Pronoun 1076 1077	我
+T123	Time-Implicit 1077 1079	那时
+*	Coreference T123 T119
+T124	Person-Nominal 1080 1085	高中毕业生
+*	Coreference T122 T124 T125 T128
+T125	Person-Nominal 1088 1092	退伍军人
+T126	Time-Explicit 1093 1098	1971年
+T127	Organization-Nominal 1099 1100	党
+T128	Person-Nominal 1102 1104	党员
+R13	Ownership Arg1:T128 Arg2:T127	
+T129	Organization-Nominal 1118 1124	公社政府机关
+T130	Person-Nominal 1129 1138	经营管理会计辅导员
+T131	Person-Pronoun 1141 1142	我
+*	Coreference T131 T130
+R14	Ownership Arg1:T130 Arg2:T129	
+T132	Time-Implicit 1142 1145	退伍后
+T133	Time-Implicit 1158 1160	那时
+T134	Organization-Nominal 1160 1162;1163 1166	农村 生产队
+T135	Person-Pronoun 1181 1182	我
+T136	Time-Implicit 1188 1195	工作的第一年秋
+T137	Organization-Nominal 1197 1199	公社
+T138	Organization-Nominal 1202 1204	大队
+R15	Part-Whole Arg1:T138 Arg2:T137	
+T139	Person-Nominal 1209 1215	新上任会计员
+R16	Ownership Arg1:T139 Arg2:T137	
+T140	Person-Pronoun 1222 1223	我
+T141	Person-Nominal 1243 1248	老会计员们
+T142	Person-Nominal 1256 1258	学生
+R17	Social Arg1:T140 Arg2:T141	
+T143	Time-Implicit 1261 1265	上课时间
+T144	Person-Nominal 1266 1268	先生
+R18	Social Arg1:T139 Arg2:T140	
+*	Coreference T140 T142 T144
+T145	Person-Nominal 1279 1282	会计员
+T146	Person-Nominal 1288 1291	会计员
+T147	Time-Explicit 1303 1308	1978年
+T148	Person-Pronoun 1316 1317	我
+T149	Person-Nominal 1325 1334	经营管理会计辅导员
+T150	Organization-Nominal 1339 1345	县广播电视局
+R19	Ownership Arg1:T148 Arg2:T150	
+T151	Person-Nominal 1348 1359	一名广播电视技术工作者
+*	Coreference T148 T151
+R20	Ownership Arg1:T151 Arg2:T150	
+T152	Person-Pronoun 1366 1367	我
+T153	Metric 1367 1370	35年
+T154	Organization-Name 1379 1381	中国
+T155	Time-Explicit 1432 1437	1978年
+T156	Person-Pronoun 1437 1438	我
+T157	Organization-Nominal 1440 1446	县广播电视局
+T158	Time-Implicit 1437 1439;1440 1447	我到 县广播电视局时
+T159	Thing-Nominal 1451 1453	铁丝
+T160	Thing-Nominal 1458 1461	小喇叭
+T161	Thing-Nominal 1482 1486	黑白电视
+T162	Thing-Nominal 1489 1493	彩色电视
+T163	Thing-Nominal 1494 1498	卫星电视
+T164	Thing-Nominal 1499 1500;1501 1504	光 缆电视
+T165	Time-Explicit 1505 1510	九十年代末
+T166	Thing-Nominal 1513 1517	数字电视
+T167	Time-Implicit 1518 1520	现在
+T168	Thing-Nominal 1524 1528	高清电视
+T169	Person-Pronoun 1529 1530	我
+T170	Person-Nominal 1532 1543	一名广播电视技术工作者
+*	Coreference T169 T170
+T171	Time-Implicit 1586 1588	天天
+T172	Thing-Nominal 1596 1600	数字电视
+T173	Person-Pronoun 1607 1608	我
+T174	Time-Explicit 1628 1636	从1994年开始
+T175	Person-Pronoun 1637 1638	我
+T176	Organization-Nominal 1653 1655	大学
+T177	Person-Nominal 1661 1663	自己
+*	Coreference T175 T177
+T178	Person-Nominal 1680 1682	盲人
+T179	Thing-Nominal 1683 1684	路
+T180	Thing-Nominal 1693 1695	蚂蚁
+T181	Thing-Nominal 1696 1698	骨头
+T182	Time-Explicit 1711 1713;1714 1716	99 6年
+T183	Person-Pronoun 1716 1717	我
+T184	Organization-Nominal 1725 1727	大学
+T185	Organization-Nominal 1746 1748	大学
+T186	Person-Pronoun 1751 1752	我
+T187	Thing-Nominal 1760 1763	毕业证
+T188	Thing-Nominal 1773 1774;1775 1777	毕 业证
+R21	Ownership Arg1:T186 Arg2:T187	
+T189	Person-Pronoun 1781 1782	我
+T190	Metric 1782 1784	几年
+T191	Person-Pronoun 1795 1796	我
+T192	Time-Explicit 1805 1816	1998年至2000年
+T193	Metric 1818 1820	三年
+T194	Person-Pronoun 1821 1822	我
+T195	Organization-Nominal 1836 1842	省广播电视厅
+T196	Person-Nominal 1851 1855	技术能手
+T197	Person-Pronoun 1857 1858	我
+*	Coreference T197 T196
+T198	Person-Pronoun 1875 1876	我
+T199	Time-Implicit 1880 1884	四十几年
+T200	Time-Implicit 1884 1886	至今
+T201	Person-Pronoun 1898 1899	我
+T202	Time-Implicit 1915 1919	近几年来
+T203	Thing-Nominal 1997 1999	报刊
+T204	Location-Nominal 2049 2051	故乡
+T205	Thing-Nominal 2053 2054	河
+R22	Located Arg1:T205 Arg2:T204	
+T206	Thing-Name 2071 2080	当代中国律诗大辞典
+T207	Location-Nominal 2014 2018	大漠戈壁
+T208	Thing-Nominal 2018 2021	四月花
+R23	Located Arg1:T208 Arg2:T207	
+T209	Abstract 2038 2044	中国散文大系
+T210	Organization-Name 2097 2099	中华
+T211	Person-Nominal 2102 2112	诗文书画家先进工作者
+*	Coreference T201 T211 T212 T214 T216 T218 T219
+T212	Person-Nominal 2114 2116;2117 2125	华语 文学艺术百杰作家
+T213	Time-Explicit 2135 2139	2010
+T214	Person-Nominal 2134 2149	.2010全国文艺创作年度人物
+T215	Time-Explicit 2151 2153	当代
+T216	Person-Nominal 2151 2161	当代中国作家著作大师
+T217	Organization-Name 2153 2155	中国
+T218	Person-Pronoun 2166 2168	本人
+T219	Person-Pronoun 2236 2237	我
+T220	Person-Pronoun 2245 2246	我
+T221	Person-Pronoun 2253 2254	我
+T222	Organization-Nominal 2255 2257	祖国
+T223	Organization-Nominal 2260 2262	祖国
+T224	Person-Pronoun 2273 2274	我
+T225	Thing-Name 2172 2177;2178 2181	中国散文家 大辞典
+T226	Thing-Name 2184 2193	中国时代文艺家名典
+T227	Thing-Name 2196 2206	当代中国文艺家大辞典
+T228	Thing-Name 2208 2219	中国诗文书画家人物大典
+T229	Thing-Name 2221 2227	中国作家全集

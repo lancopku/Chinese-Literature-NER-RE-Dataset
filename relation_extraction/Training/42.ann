@@ -1,0 +1,321 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 5 10	天堂的花朵
+T3	Thing-Nominal 3 4	雪
+*	Coreference T2 T3
+T4	Thing-Nominal 11 13	花溪
+T5	Location-Nominal 16 22	最清丽的地方
+T6	Thing-Nominal 14 16	人间
+T7	Thing-Nominal 26 28	花朵
+T8	Time-Implicit 29 36	花溪绽放的时候
+T9	Thing-Nominal 49 53	任何花朵
+T10	Thing-Nominal 59 61	花溪
+T11	Thing-Nominal 65 66	雪
+T12	Thing-Nominal 77 78	花
+T13	Thing-Nominal 79 80	花
+T14	Thing-Nominal 82 84	花溪
+T15	Location-Nominal 91 94	天地间
+T16	Person-Nominal 98 101	一万人
+T17	Thing-Nominal 104 105	花
+T18	Person-Nominal 106 109	一个人
+T19	Thing-Nominal 110 111	雪
+T20	Person-Pronoun 121 122	我
+T21	Person-Nominal 124 127	一个人
+T22	Location-Nominal 129 133	花溪水岸
+T23	Person-Nominal 139 142	一个人
+T24	Person-Nominal 146 147	人
+T25	Thing-Nominal 150 152	水岸
+T26	Thing-Nominal 154 155	水
+T27	Thing-Nominal 160 161	水
+T28	Location-Nominal 166 168	水上
+T29	Thing-Nominal 177 179	浮萍
+R1	Located Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 180 184	花溪的鸟
+T31	Location-Name 180 182	花溪
+R2	Located Arg1:T30 Arg2:T31	
+T32	Thing-Pronoun 191 193	它们
+*	Coreference T32 T30
+T33	Location-Nominal 198 206;207 210	沿岸的林中与青山 绿水间
+T34	Thing-Pronoun 211 213	它们
+T35	Person-Nominal 217 219	诗人
+T36	Thing-Nominal 220 222	文字
+R3	Create Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 230 231	鸟
+T38	Thing-Nominal 240 241	石
+T39	Thing-Nominal 242 243	水
+T40	Location-Name 248 250	花溪
+T41	Location-Nominal 251 264	各种花朵暗自争奇斗艳的地方
+T42	Person-Nominal 267 273	真正写诗的人
+T43	Thing-Nominal 277 279	诗歌
+T44	Person-Pronoun 279 281	自己
+T45	Person-Nominal 290 292	读者
+T46	Thing-Nominal 295 299	一方水土
+T47	Person-Nominal 300 303	一方人
+T48	Thing-Nominal 304 308	花溪的水
+T49	Location-Name 304 306	花溪
+R4	Located Arg1:T48 Arg2:T49	
+T50	Person-Pronoun 310 311	我
+T51	Thing-Nominal 313 315	静水
+T52	Person-Nominal 321 325	再多的人
+T53	Thing-Nominal 327 331	自己的诗
+T54	Person-Pronoun 327 329	自己
+T55	Thing-Nominal 339 341	花朵
+T56	Person-Nominal 348 350	他人
+T57	Person-Nominal 362 365	一种人
+T58	Thing-Nominal 372 373	手
+T59	Person-Nominal 376 379	中学生
+*	Coreference T44 T42
+*	Coreference T54 T52
+R5	Create Arg1:T54 Arg2:T53	
+T60	Person-Nominal 383 385	老师
+T61	Thing-Nominal 414 416	文字
+T62	Person-Nominal 409 413	这样的人
+R6	Create Arg1:T62 Arg2:T61	
+T63	Person-Pronoun 422 423	我
+T64	Thing-Nominal 424 430	一个人的文字
+T65	Person-Nominal 424 427	一个人
+T66	Person-Nominal 434 435	人
+T67	Person-Pronoun 439 441	自己
+T68	Person-Nominal 442 443	人
+T69	Person-Pronoun 449 451	自己
+T70	Thing-Nominal 454 456	文字
+*	Coreference T69 T68
+T71	Location-Nominal 460 462	溪边
+T72	Thing-Nominal 463 464	雪
+R7	Located Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 472 483	零零碎碎的几片雪的瓣儿
+T74	Thing-Nominal 486 488	梅花
+T75	Person-Pronoun 489 490	我
+T76	Thing-Nominal 509 515	淡淡的胭脂雪
+T77	Thing-Nominal 518 519;520 521	梅 花
+T78	Person-Nominal 526 529	林妹妹
+T79	Person-Nominal 533 535	林妹
+T80	Time-Implicit 537 542	进大观园时
+T81	Person-Pronoun 547 548	你
+T82	Person-Nominal 553 556	一个人
+T83	Person-Nominal 560 563	这个人
+T84	Thing-Nominal 567 570	一味药
+T85	Person-Pronoun 572 573	你
+T86	Thing-Nominal 576 577	药
+T87	Person-Pronoun 581 582	你
+T88	Person-Nominal 584 587	一个人
+T89	Thing-Nominal 593 595	梅花
+T90	Thing-Nominal 597 598	雪
+T91	Thing-Nominal 602 604	梅骨
+T92	Person-Nominal 609 611	朋友
+T93	Person-Pronoun 616 617	我
+R8	Social Arg1:T93 Arg2:T92	
+T94	Person-Pronoun 618 619	他
+T95	Person-Pronoun 620 621	我
+*	Coreference T94 T92
+T96	Abstract 627 636	《贵州新文学大系》
+T97	Person-Pronoun 637 638	我
+T98	Person-Pronoun 640 641	他
+T99	Thing-Nominal 643 645	手机
+T100	Thing-Nominal 650 654	我的手机
+T101	Person-Pronoun 650 651	我
+R9	Ownership Arg1:T101 Arg2:T100	
+T102	Person-Nominal 662 663	人
+T103	Thing-Nominal 665 668;669 670	我的散 文
+T104	Person-Pronoun 665 666	我
+R10	Ownership Arg1:T104 Arg2:T103	
+T105	Organization-Name 674 679	华夏出版社
+T106	Person-Pronoun 693 694	我
+T107	Person-Pronoun 702 703	我
+T108	Person-Pronoun 708 709	我
+T109	Person-Nominal 740 744	贵州诗人
+T110	Person-Pronoun 751 752	我
+T111	Person-Nominal 760 764	世界诗人
+T112	Thing-Nominal 774 776	雪花
+T113	Location-Nominal 778 782	眼睫毛上
+R11	Located Arg1:T112 Arg2:T113	
+T114	Thing-Nominal 783 784	雪
+T115	Thing-Nominal 794 796	花朵
+T116	Thing-Nominal 797 799	雪花
+T117	Person-Nominal 801 802	人
+T118	Thing-Nominal 804 806	梨花
+T119	Thing-Nominal 807 808	雪
+T120	Person-Pronoun 809 810	我
+T121	Thing-Nominal 815 820	梨花的花瓣
+T122	Thing-Nominal 815 817	梨花
+R12	Part-Whole Arg1:T122 Arg2:T121	
+T123	Thing-Nominal 836 838	梨花
+T124	Thing-Nominal 839 841	桃花
+T125	Time-Implicit 844 847	飘落后
+T126	Thing-Nominal 851 853	花瓣
+T127	Location-Nominal 855 857	水上
+R13	Located Arg1:T126 Arg2:T127	
+T128	Location-Nominal 860 862	地上
+R14	Located Arg1:T126 Arg2:T128	
+T129	Thing-Nominal 864 866	雪花
+T130	Location-Nominal 871 873	水上
+T131	Thing-Nominal 876 881	雪花的残片
+R15	Located Arg1:T131 Arg2:T130	
+T132	Person-Pronoun 887 888	我
+T133	Thing-Nominal 892 899	纤尘不染的天堂
+T134	Thing-Nominal 902 909	这样洁净的花朵
+T135	Location-Nominal 911 916	浑浊的人间
+T136	Thing-Nominal 925 927	梅花
+T137	Thing-Nominal 934 936	梅花
+T138	Person-Nominal 939 941	别人
+T139	Person-Pronoun 945 946	我
+T140	Thing-Nominal 947 949	梅花
+T141	Thing-Nominal 953 954	雪
+T142	Time-Implicit 960 962	此时
+T143	Thing-Nominal 963 967	几片雪花
+T144	Person-Pronoun 969 970	我
+T145	Time-Implicit 972 974	前年
+T146	Location-Nominal 977 981	北国雪乡
+T147	Person-Pronoun 982 983	我
+T148	Location-Nominal 987 989	雪乡
+T149	Thing-Nominal 990 991	梅
+T150	Location-Nominal 992 1000	厚厚的白雪世界里
+T151	Person-Nominal 1001 1010	一个身着红装的女子
+T152	Person-Pronoun 1014 1015	她
+T153	Person-Pronoun 1011 1012	我
+T154	Person-Nominal 1020 1022	他人
+*	Coreference T152 T151
+T155	Person-Pronoun 1024 1025	我
+T156	Thing-Nominal 1026 1030	她的红装
+T157	Person-Pronoun 1026 1027	她
+R16	Ownership Arg1:T157 Arg2:T156	
+T158	Person-Pronoun 1038 1039	她
+T159	Person-Pronoun 1042 1043	我
+T160	Abstract 1055 1064	《瘦梅听雪着装时》
+T161	Person-Pronoun 1069 1070	我
+T162	Time-Implicit 1070 1073	早些年
+T163	Person-Pronoun 1093 1094	她
+T164	Person-Nominal 1105 1106	人
+T165	Person-Pronoun 1109 1110	我
+T166	Location-Nominal 1111 1113	他乡
+T167	Person-Nominal 1114 1116	故知
+T168	Person-Pronoun 1119 1120	我
+T169	Person-Pronoun 1124 1125	她
+T170	Person-Nominal 1136 1140	写诗的人
+T171	Person-Nominal 1142 1146	读诗的人
+T172	Person-Nominal 1155 1159	一位女子
+T173	Person-Pronoun 1160 1161	我
+T174	Person-Pronoun 1174 1175	我
+T175	Person-Pronoun 1181 1182	她
+T176	Person-Pronoun 1194 1195	她
+T177	Thing-Nominal 1203 1204	雪
+T178	Person-Nominal 1208 1209	人
+T179	Time-Implicit 1212 1215	多年前
+T180	Person-Pronoun 1217 1219	自己
+T181	Person-Nominal 1226 1227	人
+T182	Person-Pronoun 1230 1231	我
+T183	Location-Nominal 1232 1234	溪边
+T184	Thing-Nominal 1237 1242	自己的影子
+T185	Location-Nominal 1244 1246	水中
+R17	Located Arg1:T184 Arg2:T185	
+T186	Person-Pronoun 1237 1239	自己
+T187	Thing-Nominal 1250 1255	水中的影子
+T188	Location-Nominal 1250 1252	水中
+R18	Located Arg1:T187 Arg2:T188	
+T189	Thing-Nominal 1256 1257	风
+T190	Person-Pronoun 1265 1266	我
+T191	Thing-Nominal 1267 1272	此时的影子
+T192	Time-Implicit 1267 1269	此时
+T193	Thing-Nominal 1274 1279	彼时的影子
+T194	Thing-Nominal 1280 1285	彼时的影子
+T195	Thing-Nominal 1287 1292	另一个影子
+T196	Thing-Nominal 1305 1307	人影
+T197	Person-Pronoun 1338 1339	我
+T198	Thing-Nominal 1341 1345	一个背影
+T199	Thing-Nominal 1346 1350	一袭青衣
+T200	Time-Explicit 1351 1353	唐朝
+T201	Time-Explicit 1356 1358	宋朝
+T202	Thing-Nominal 1365 1369	一条故道
+T203	Location-Nominal 1371 1374	大观园
+T204	Location-Nominal 1375 1377	手里
+T205	Thing-Nominal 1380 1383	一壶酒
+R19	Located Arg1:T205 Arg2:T204	
+T206	Person-Name 1385 1387	宝玉
+T207	Thing-Nominal 1391 1393	酒壶
+T208	Thing-Nominal 1394 1395;1396 1398	大 观园
+T209	Person-Nominal 1398 1402	那么多人
+T210	Person-Pronoun 1403 1404	他
+T211	Thing-Nominal 1407 1408	酒
+T212	Thing-Nominal 1409 1415	一个女子的家
+T213	Location-Nominal 1417 1423	花溪平桥水岸
+R20	Located Arg1:T212 Arg2:T213	
+T214	Person-Nominal 1409 1413	一个女子
+T215	Person-Nominal 1424 1426	祖辈
+T216	Thing-Nominal 1426 1431	留下的老屋
+T217	Person-Nominal 1432 1434	祖辈
+T218	Thing-Nominal 1437 1439	水车
+T219	Location-Nominal 1443 1446	书屋里
+T220	Person-Pronoun 1442 1443	她
+T221	Person-Pronoun 1449 1450	我
+T222	Location-Nominal 1453 1456	书案上
+T223	Thing-Nominal 1458 1462	一碟梅香
+T224	Location-Nominal 1463 1465	窗外
+T225	Thing-Nominal 1466 1467	雪
+T226	Location-Nominal 1468 1470	纸上
+T227	Person-Pronoun 1473 1474	我
+T228	Thing-Nominal 1485 1487	梅花
+T229	Thing-Nominal 1493 1496	一壶酒
+T230	Person-Nominal 1498 1502	一个女子
+T231	Thing-Nominal 1535 1537	白狐
+T232	Person-Nominal 1543 1546	许多人
+T233	Person-Pronoun 1549 1551	我们
+T234	Person-Nominal 1559 1563	她的先生
+T235	Person-Pronoun 1559 1560	她
+*	Coreference T235 T230
+T236	Person-Pronoun 1572 1574	我们
+T237	Person-Nominal 1590 1591	人
+T238	Thing-Nominal 1593 1594	楼
+T239	Person-Nominal 1598 1601	我的人
+T240	Person-Pronoun 1598 1599	我
+T241	Person-Pronoun 1603 1604	我
+T242	Person-Nominal 1606 1607	人
+T243	Person-Nominal 1616 1619	一个人
+T244	Thing-Nominal 1633 1639	过眼云烟的花
+T245	Thing-Nominal 1640 1641	花
+T246	Thing-Nominal 1652 1654	雪花
+T247	Person-Pronoun 1670 1671	我
+T248	Person-Pronoun 1669 1670	你
+T249	Person-Nominal 1674 1676	演员
+T250	Thing-Nominal 1706 1708	月光
+T251	Location-Nominal 1711 1713	杯底
+T252	Thing-Nominal 1723 1725	晓风
+T253	Thing-Nominal 1725 1727	残月
+T254	Person-Pronoun 1736 1738	我们
+T255	Location-Nominal 1741 1743	桥边
+T256	Person-Pronoun 1753 1754	她
+T257	Person-Pronoun 1756 1757	她
+T258	Thing-Nominal 1759 1760	雪
+T259	Thing-Nominal 1763 1766	一朵梅
+T260	Person-Nominal 1768 1769	人
+T261	Person-Pronoun 1778 1779	我
+T262	Abstract 1784 1793	《瘦梅听雪着装时》
+T263	Person-Pronoun 1801 1802	我
+T264	Person-Nominal 1806 1809	赏梅人
+T265	Thing-Nominal 1819 1820	雪
+T266	Thing-Nominal 1825 1827	山水
+T267	Person-Nominal 1830 1832	他人
+T268	Person-Pronoun 1837 1838	我
+T269	Location-Name 1841 1843	花溪
+T270	Person-Pronoun 1846 1847	你
+T271	Thing-Nominal 1855 1856	山
+T272	Thing-Nominal 1857 1858	山
+T273	Thing-Nominal 1860 1861	水
+T274	Thing-Nominal 1862 1863	水
+T275	Person-Pronoun 1866 1867	你
+T276	Person-Pronoun 1873 1874	我
+T277	Thing-Nominal 1876 1878	山水
+T278	Metric 1882 1885	一百年
+T279	Person-Pronoun 1881 1882	你
+T280	Time-Explicit 1888 1892	一百年后
+T281	Location-Name 1893 1895	花溪
+T282	Person-Pronoun 1899 1900	我
+T283	Person-Pronoun 1906 1907	我
+T284	Person-Pronoun 1909 1911	自己
+T285	Thing-Nominal 1920 1921	雪
+T286	Time-Implicit 1930 1935	北国的雪天
+T287	Thing-Nominal 1939 1943	这个雪天
+T288	Person-Pronoun 1951 1952	我
+T289	Thing-Nominal 1953 1956	几片雪
+T290	Location-Nominal 1959 1962	溪水中
+R21	Located Arg1:T289 Arg2:T290	
+T291	Thing-Nominal 1963 1969	养雪的花溪水
+T292	Person-Pronoun 1975 1976	我

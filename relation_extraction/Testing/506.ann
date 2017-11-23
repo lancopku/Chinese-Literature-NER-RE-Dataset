@@ -1,0 +1,225 @@
+T1	Person-Pronoun 1 2	我
+T2	Time-Implicit 40 45	几十个年头
+T3	Person-Nominal 75 77	小偷
+T4	Time-Implicit 112 115	小时候
+T5	Person-Pronoun 118 119	我
+T6	Time-Implicit 221 226	很小的时候
+T7	Person-Nominal 227 232	我们一家人
+T8	Thing-Nominal 234 244	一个外婆给的一栋平房
+T9	Person-Nominal 250 252	母亲
+T10	Person-Nominal 253 255	父亲
+R1	Family Arg1:T10 Arg2:T9	
+T11	Person-Nominal 261 263	外婆
+R2	Family Arg1:T11 Arg2:T7	
+T12	Location-Nominal 282 287	小小的房子
+T13	Time-Implicit 296 300	那个时候
+*	Coreference T13 T6
+T14	Person-Nominal 301 303	母亲
+T15	Thing-Nominal 308 312	一张藤椅
+T16	Person-Pronoun 315 316	我
+T17	Thing-Nominal 317 319	天台
+T18	Person-Pronoun 326 327	我
+T20	Thing-Nominal 350 352	藤椅
+T21	Time-Implicit 355 357	明天
+T22	Person-Nominal 372 374	母亲
+T23	Thing-Nominal 377 387	一把黄色木柄的水果刀
+T24	Thing-Nominal 392 401	一个红中带黄的苹果
+T25	Person-Pronoun 417 418	我
+T26	Person-Pronoun 424 425	我
+T27	Person-Nominal 436 438	母亲
+T28	Thing-Nominal 455 457	长亭
+T29	Location-Nominal 459 462	古道边
+T30	Thing-Nominal 463 465	芳草
+T31	Thing-Nominal 467 468	天
+T32	Time-Implicit 470 472	儿时
+T34	Thing-Nominal 506 509	铁栅栏
+T35	Location-Nominal 510 513	邻居家
+T36	Thing-Nominal 515 519	磨豆浆机
+T37	Thing-Nominal 536 539	自行车
+T38	Time-Implicit 541 548	每个周六的早上
+T39	Person-Nominal 549 551	母亲
+T40	Thing-Nominal 565 567	稀饭
+T41	Thing-Nominal 571 578	厨房的红木柜子
+T42	Thing-Nominal 588 590	肉松
+T43	Thing-Nominal 597 599	瓶盖
+T44	Thing-Nominal 613 615	肉松
+T45	Thing-Nominal 617 619	稀饭
+T46	Person-Pronoun 641 642	我
+T47	Thing-Nominal 645 646	碗
+T48	Thing-Nominal 667 669	书包
+T49	Person-Nominal 673 675	母亲
+T50	Person-Pronoun 682 683	我
+T51	Thing-Nominal 687 689	饭粒
+T52	Person-Pronoun 696 697	我
+T53	Location-Nominal 698 700	门口
+T54	Person-Nominal 705 707	父亲
+T55	Person-Nominal 710 712	父亲
+T56	Thing-Nominal 717 720	电子琴
+T57	Thing-Nominal 722 723;724 729	自 行车的横杠
+T58	Person-Pronoun 732 733	我
+T59	Thing-Nominal 736 738	后座
+T60	Time-Implicit 744 748	那个时候
+T61	Person-Pronoun 748 749	我
+T62	Person-Nominal 755 762	戴着眼镜的父亲
+T63	Person-Nominal 780 782	老师
+T64	Thing-Nominal 803 806	肉松渣
+T65	Time-Implicit 827 829	童年
+T66	Thing-Nominal 857 859	胶卷
+T67	Person-Nominal 903 905	父亲
+T68	Person-Nominal 906 909	公务员
+*	Coreference T67 T68
+T69	Thing-Nominal 913 915	房子
+T70	Location-Nominal 917 919	外城
+T71	Location-Nominal 922 930	市中心的政府宿舍
+T72	Person-Pronoun 936 937	我
+T73	Person-Pronoun 949 950	我
+T74	Location-Nominal 958 960	城市
+T75	Person-Pronoun 962 963	我
+T76	Time-Explicit 975 983	打分配好房子以后
+T77	Person-Nominal 984 986	父亲
+T78	Location-Nominal 990 992	新家
+T79	Location-Nominal 993 995	旧家
+R3	Near Arg1:T79 Arg2:T78	
+T80	Thing-Nominal 1011 1017	一块木头样板
+T81	Location-Nominal 1019 1026	新家的水泥地面
+T82	Person-Nominal 1038 1040	母亲
+T83	Person-Nominal 1050 1055	两三个木工
+T84	Location-Nominal 1059 1062	屋子里
+T85	Time-Implicit 1067 1071	几十天后
+T86	Thing-Nominal 1072 1074	家具
+T87	Thing-Nominal 1077 1080	电视机
+T88	Thing-Nominal 1081 1083	冰箱
+T89	Thing-Nominal 1084 1086	空调
+T90	Person-Nominal 1095 1096;1097 1098	母 亲
+T91	Person-Pronoun 1100 1101	我
+R7	Family Arg1:T90 Arg2:T91	
+T92	Location-Nominal 1109 1111	客厅
+T93	Person-Pronoun 1115 1116	我
+T94	Person-Nominal 1137 1143	城市里的孩子
+T95	Person-Pronoun 1146 1147	我
+T96	Time-Implicit 1161 1167	每天早饭过后
+T97	Organization-Nominal 1171 1173	学校
+T99	Thing-Nominal 1191 1193	狗儿
+T100	Person-Nominal 1195 1198	小混混
+T101	Person-Pronoun 1199 1200	我
+T102	Person-Pronoun 1216 1222	那个时候的我
+T103	Location-Nominal 1227 1234	市中心的马路上
+T104	Person-Nominal 1238 1240	流氓
+T105	Person-Nominal 1241 1243	地痞
+T106	Person-Pronoun 1260 1261	我
+T107	Organization-Nominal 1262 1264	小学
+T108	Organization-Nominal 1267 1269	初中
+T109	Organization-Nominal 1272 1274	初中
+T110	Organization-Nominal 1277 1279	高中
+T111	Person-Pronoun 1297 1298	我
+T112	Time-Implicit 1303 1305	现在
+T113	Time-Implicit 1311 1314	那几年
+T114	Organization-Name 1319 1321	中国
+T119	Time-Implicit 1403 1407	这几年里
+T120	Location-Nominal 1417 1419	城市
+T121	Person-Pronoun 1428 1429	我
+T122	Time-Explicit 1449 1458	高三那年的春节前夕
+T123	Person-Nominal 1459 1461	母亲
+T124	Location-Nominal 1468 1469	家
+T125	Thing-Nominal 1471 1472	包
+T126	Thing-Nominal 1475 1487	几张百货公司的特价优惠卷
+T127	Person-Pronoun 1488 1489	我
+T128	Person-Pronoun 1497 1498	我
+T129	Time-Explicit 1503 1505	明天
+T130	Person-Pronoun 1506 1507	你
+T131	Thing-Nominal 1510 1513	新衣服
+*	Coreference T130 T128
+T132	Person-Pronoun 1521 1522	我
+T133	Time-Implicit 1516 1520	那个时候
+T134	Location-Nominal 1526 1528	商场
+T135	Person-Nominal 1543 1545	母亲
+T136	Metric 1560 1562	一分
+T137	Metric 1564 1566	一分
+T138	Person-Nominal 1574 1576	母亲
+T139	Person-Pronoun 1587 1588	我
+T140	Person-Nominal 1599 1601	母亲
+T141	Time-Implicit 1614 1616	晚上
+T142	Person-Nominal 1630 1632	母亲
+T143	Person-Pronoun 1643 1644	我
+T144	Location-Nominal 1647 1651	百货商场
+T145	Location-Nominal 1727 1729;1730 1731	柜台 前
+T146	Person-Pronoun 1746 1747	我
+T147	Location-Nominal 1754 1763	这个节日前夕的城市
+T148	Person-Pronoun 1764 1765	我
+T149	Person-Nominal 1785 1787	人们
+T150	Person-Nominal 1815 1817	母亲
+T151	Person-Pronoun 1835 1836	我
+T152	Thing-Nominal 1853 1855	商品
+T153	Person-Nominal 1858 1860	母亲
+T155	Person-Nominal 1898 1902	亲戚朋友
+T156	Location-Nominal 1918 1922	电视机旁
+T157	Person-Nominal 1924 1930	火车站票贩子
+T158	Thing-Nominal 1941 1943	瓜子
+T159	Organization-Nominal 1953 1955	公司
+T160	Thing-Nominal 1956 1958	股票
+T161	Thing-Name 1978 1980	春节
+T162	Person-Pronoun 1989 1990	我
+T163	Person-Nominal 1991 1993	朋友
+R8	Social Arg1:T163 Arg2:T162	
+T164	Person-Nominal 1995 2007	小时候的那家糖果厂的厂长
+T165	Person-Nominal 2008 2010	警察
+T166	Person-Nominal 2046 2051	我们一家子
+T167	Thing-Nominal 2081 2083	房间
+T168	Thing-Nominal 2087 2089	空调
+T169	Location-Nominal 2115 2117	窗外
+T170	Thing-Nominal 2135 2137	藤椅
+T171	Thing-Nominal 2153 2155	长亭
+T172	Location-Nominal 2157 2160	古道边
+T173	Thing-Nominal 2161 2163	芳草
+T174	Thing-Nominal 2165 2166	天
+R9	Use Arg1:T22 Arg2:T23	
+R10	Located Arg1:T15 Arg2:T17	
+T19	Thing-Nominal 497 499	野草
+T33	Location-Nominal 493 495	院子
+R11	Located Arg1:T19 Arg2:T33	
+R12	Located Arg1:T36 Arg2:T35	
+T175	Person-Nominal 522 524	父亲
+T176	Person-Pronoun 529 530	我
+R13	Family Arg1:T175 Arg2:T176	
+R14	Use Arg1:T175 Arg2:T37	
+R15	Located Arg1:T30 Arg2:T29	
+R16	Located Arg1:T30 Arg2:T28	
+R17	Family Arg1:T49 Arg2:T50	
+R18	Family Arg1:T52 Arg2:T54	
+R19	Located Arg1:T56 Arg2:T57	
+*	Coreference T86 T87 T89 T88
+R4	Located Arg1:T86 Arg2:T92	
+T98	Location-Nominal 1171 1180	学校和家里的马路上
+T117	Location-Nominal 1363 1365	家里
+T177	Thing-Nominal 1367 1369	电脑
+R5	Located Arg1:T177 Arg2:T117	
+T118	Location-Nominal 1383 1385	家里
+T178	Thing-Nominal 1386 1388	家具
+R6	Located Arg1:T178 Arg2:T118	
+T115	Thing-Nominal 1335 1337	电器
+T179	Location-Nominal 1331 1333	商店
+R20	Located Arg1:T115 Arg2:T179	
+T116	Location-Nominal 1349 1351	马路
+T180	Thing-Nominal 1353 1355	车牌
+R21	Located Arg1:T180 Arg2:T116	
+R22	Use Arg1:T123 Arg2:T125	
+R23	Located Arg1:T126 Arg2:T125	
+R24	Family Arg1:T132 Arg2:T135	
+R25	Family Arg1:T139 Arg2:T138	
+R26	Family Arg1:T143 Arg2:T142	
+T181	Thing-Nominal 1645 1646	车
+R27	Use Arg1:T143 Arg2:T181	
+R28	Family Arg1:T151 Arg2:T150	
+T182	Thing-Nominal 1869 1870	车
+R29	Located Arg1:T173 Arg2:T172	
+*	Coreference T173 T171
+T154	Location-Nominal 2138 2140	天台
+R30	Located Arg1:T170 Arg2:T154	
+R31	Located Arg1:T168 Arg2:T167	
+R32	Social Arg1:T165 Arg2:T164	
+T183	Thing-Nominal 50 52	流水
+T184	Thing-Nominal 59 60;61 62	指 尖
+T185	Time-Implicit 139 141	深夜
+T186	Thing-Nominal 187 189	泪水
+T187	Thing-Nominal 207 209	潮水
+T188	Time-Explicit 1883 1885	春节

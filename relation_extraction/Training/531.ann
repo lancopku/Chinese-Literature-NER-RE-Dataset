@@ -1,0 +1,321 @@
+T1	Person-Pronoun 7 9	我们
+T2	Location-Nominal 18 20	老屋
+T3	Thing-Nominal 69 71	贝壳
+T4	Person-Name 73 76	龚心源
+T5	Person-Name 77 80	马大衡
+T6	Person-Pronoun 81 82	我
+T7	Person-Nominal 82 87	小学的同学
+*	Coreference T5 T7 T4
+T8	Person-Pronoun 88 90	我们
+T9	Time-Explicit 97 99	6年
+T10	Time-Implicit 103 106	那时候
+T11	Organization-Nominal 107 109	学校
+T12	Time-Implicit 123 125	下午
+T13	Person-Pronoun 129 132	我们仨
+T14	Location-Nominal 138 150	朱状元巷25号龚心源的家
+T15	Location-Nominal 165 167	他家
+*	Coreference T15 T14 T16
+T16	Location-Nominal 177 179	老宅
+T17	Location-Nominal 191 193	庭院
+T18	Thing-Nominal 201 202	树
+T19	Thing-Nominal 207 209	花草
+R1	Located Arg1:T18 Arg2:T17	
+R2	Located Arg1:T19 Arg2:T17	
+R3	Part-Whole Arg1:T17 Arg2:T16	
+T20	Thing-Nominal 212 214	家具
+T21	Location-Nominal 227 229	他家
+T22	Thing-Nominal 234 235	床
+R4	Located Arg1:T22 Arg2:T21	
+R5	Located Arg1:T20 Arg2:T21	
+R6	Part-Whole Arg1:T22 Arg2:T20	
+T23	Thing-Nominal 236 238	床框
+R7	Part-Whole Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 251 253	椅子
+T25	Person-Name 257 260	马大衡
+R8	Part-Whole Arg1:T24 Arg2:T20	
+R9	Social Arg1:T4 Arg2:T6	
+R10	Social Arg1:T5 Arg2:T6	
+T26	Person-Name 267 272	龚的父母亲
+T27	Person-Nominal 278 282	兄弟姐妹
+T28	Person-Name 284 285;286 288	龚 心源
+T29	Person-Nominal 291 294	他母亲
+R11	Family Arg1:T28 Arg2:T29	
+R12	Family Arg1:T27 Arg2:T28	
+T30	Time-Explicit 308 313	小学四年级
+T31	Organization-Nominal 318 320	学校
+T32	Person-Pronoun 325 326	他
+T33	Thing-Nominal 342 344	外衣
+T34	Person-Name 355 358	周扒皮
+T35	Person-Name 361 364	黄世仁
+T36	Person-Name 373 376	龚心源
+T37	Person-Nominal 380 382	坏蛋
+*	Coreference T36 T37 T43
+T38	Thing-Nominal 386 388	快板
+R13	Use Arg1:T36 Arg2:T38	
+T39	Person-Name 410 413	马三立
+T40	Thing-Nominal 418 422	长袍马褂
+T41	Thing-Nominal 425 427	折扇
+R14	Use Arg1:T36 Arg2:T41	
+R15	Use Arg1:T36 Arg2:T40	
+T42	Person-Pronoun 434 436	我们
+T43	Person-Pronoun 438 439	他
+T44	Person-Pronoun 443 444	他
+T45	Person-Pronoun 469 470	他
+T46	Person-Pronoun 479 480	他
+T47	Thing-Nominal 488 489	画
+T48	Person-Pronoun 486 487	他
+T49	Person-Nominal 492 494;495 497	美术 老师
+R16	Create Arg1:T48 Arg2:T47	
+T50	Person-Pronoun 501 502	他
+T51	Thing-Nominal 503 505	毛笔
+R17	Use Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 509 511	玻璃
+T53	Thing-Nominal 516 517	画
+R18	Located Arg1:T53 Arg2:T52	
+T54	Thing-Nominal 520 523	幻灯片
+T55	Person-Pronoun 524 526	我们
+T56	Location-Nominal 527 529	他家
+T57	Thing-Nominal 531 534	手电筒
+R19	Use Arg1:T55 Arg2:T57	
+T58	Thing-Nominal 536 538	玻璃
+T59	Thing-Nominal 541 542	画
+T60	Location-Nominal 548 549	墙
+R20	Located Arg1:T59 Arg2:T60	
+T61	Person-Pronoun 563 564	我
+T62	Person-Pronoun 565 567	他俩
+T63	Location-Name 568 575	莫小沿街的马路
+T64	Thing-Nominal 582 584	黑板
+T65	Location-Nominal 588 589	墙
+R21	Located Arg1:T64 Arg2:T65	
+R22	Located Arg1:T64 Arg2:T63	
+T66	Organization-Nominal 600 602	学校
+T67	Location-Nominal 605 607	窗口
+T68	Organization-Nominal 610 612	学校
+R23	Part-Whole Arg1:T67 Arg2:T66	
+T69	Person-Pronoun 617 619	我们
+T70	Thing-Nominal 624 626	长桌
+T71	Person-Pronoun 628 629	他
+T72	Thing-Nominal 630 632	黑板
+T73	Person-Pronoun 641 642	我
+T74	Person-Pronoun 644 645	他
+T75	Person-Nominal 669 671	行人
+T76	Person-Pronoun 676 678	我们
+T77	Location-Nominal 680 684	马大衡家
+T78	Location-Nominal 687 689	他家
+*	Coreference T78 T77
+T79	Location-Name 692 696	朱状元巷
+T80	Location-Nominal 699 703	龚心源家
+R24	Near Arg1:T77 Arg2:T80	
+T81	Location-Nominal 712 714	他家
+T82	Location-Nominal 716 719	大院落
+*	Coreference T81 T82
+T83	Location-Nominal 728 732	马大衡家
+T84	Person-Pronoun 746 747	他
+T85	Person-Pronoun 758 759	我
+T86	Person-Name 760 763	龚心源
+T87	Time-Implicit 793 794;795 798	几 十年后
+T88	Person-Pronoun 801 802	他
+T89	Person-Pronoun 816 818	我们
+T90	Location-Nominal 819 821	他家
+T91	Thing-Nominal 826 828	象棋
+R25	Use Arg1:T89 Arg2:T91	
+T92	Person-Pronoun 833 834	他
+T93	Person-Name 680 683	马大衡
+*	Coreference T84 T93
+T94	Organization-Name 838 840	莫小
+T95	Person-Pronoun 841 845	我们三人
+T96	Person-Name 853 856	龚心源
+T97	Person-Nominal 857 860	大队长
+*	Coreference T96 T97
+T98	Person-Pronoun 861 862	我
+T99	Person-Nominal 863 866	中队长
+*	Coreference T98 T99
+T100	Person-Name 867 870	马大衡
+T101	Person-Nominal 872 879	普通的少先队员
+*	Coreference T100 T101 T102
+T102	Person-Pronoun 894 895	他
+T103	Person-Name 918 921	龚心源
+T104	Organization-Nominal 922 927	市第一中学
+R26	Ownership Arg1:T103 Arg2:T104	
+T105	Person-Name 928 931	马大衡
+T106	Organization-Nominal 932 937	市第四中学
+R27	Ownership Arg1:T105 Arg2:T106	
+T107	Person-Pronoun 938 939	我
+T108	Location-Nominal 941 946	市第五中学
+R28	Ownership Arg1:T107 Arg2:T108	
+T109	Time-Explicit 948 951	一年后
+T110	Person-Nominal 952 956	我的父亲
+T111	Person-Pronoun 959 960	我
+R29	Family Arg1:T110 Arg2:T111	
+T112	Organization-Nominal 964 966	工厂
+R30	Ownership Arg1:T111 Arg2:T112	
+T113	Person-Pronoun 967 969	他俩
+T114	Organization-Nominal 978 983	市第一中学
+R31	Ownership Arg1:T113 Arg2:T114	
+T115	Time-Explicit 987 992	高三的时候
+T116	Person-Name 993 996	龚心源
+T117	Person-Nominal 998 1003	校团委书记
+*	Coreference T116 T117
+T118	Person-Name 1004 1007	马大衡
+T119	Person-Pronoun 1010 1011	他
+*	Coreference T119 T118
+T120	Person-Name 1031 1034	毛主席
+T121	Location-Nominal 1035 1040	天安门城楼
+T122	Person-Nominal 1053 1058	红卫兵小将
+T123	Location-Nominal 1063 1065	农村
+T124	Person-Nominal 1072 1076	贫下中农
+T125	Person-Name 1102 1105	马大衡
+T126	Location-Nominal 1106 1110	苏北农村
+R32	Ownership Arg1:T125 Arg2:T126	
+T127	Person-Name 1115 1118	龚心源
+T128	Person-Nominal 1133 1135	校长
+T129	Person-Nominal 1151 1153	校长
+T130	Organization-Nominal 1156 1162	三结合”班子
+R33	Ownership Arg1:T129 Arg2:T130	
+T131	Person-Name 1168 1171	龚心源
+T132	Organization-Nominal 1175 1177	部队
+T133	Person-Nominal 1178 1179	兵
+*	Coreference T131 T133
+R34	Ownership Arg1:T131 Arg2:T132	
+T134	Time-Explicit 1182 1187	1995年
+T135	Person-Pronoun 1198 1199	我
+T136	Person-Name 1200 1203	马大衡
+T137	Location-Nominal 1204 1210	证券交易大厅
+T138	Person-Pronoun 1214 1215	他
+*	Coreference T138 T136
+T139	Time-Explicit 1215 1220	1978年
+T140	Location-Nominal 1225 1226	城
+T141	Organization-Nominal 1230 1236	金陵汽运公司
+R35	Ownership Arg1:T138 Arg2:T141	
+T142	Person-Pronoun 1249 1250	我
+T143	Person-Pronoun 1260 1261	他
+T144	Person-Nominal 1262 1265	驾驶员
+*	Coreference T143 T144
+T145	Person-Pronoun 1276 1277	他
+T146	Person-Pronoun 1282 1283	我
+T147	Person-Pronoun 1286 1287	他
+T148	Organization-Nominal 1291 1293	中学
+T149	Person-Nominal 1294 1296	教师
+T150	Person-Pronoun 1298 1299	我
+T151	Person-Pronoun 1301 1302	你
+T152	Person-Nominal 1309 1311	教师
+T153	Person-Pronoun 1314 1315	他
+T154	Person-Pronoun 1318 1319	我
+T155	Time-Implicit 1324 1326	几年
+T156	Organization-Nominal 1331 1333	公社
+T157	Organization-Nominal 1335 1337	中学
+T158	Person-Nominal 1338 1342	语文老师
+T159	Location-Nominal 1320 1322	农村
+*	Coreference T154 T158
+R36	Ownership Arg1:T154 Arg2:T157	
+R37	Part-Whole Arg1:T157 Arg2:T156	
+T160	Person-Pronoun 1346 1347	我
+T161	Person-Nominal 1350 1352	妻子
+R38	Family Arg1:T160 Arg2:T161	
+T162	Person-Nominal 1355 1359	中学教师
+*	Coreference T161 T162
+T163	Person-Nominal 1360 1362	儿子
+R39	Family Arg1:T163 Arg2:T160	
+T164	Person-Pronoun 1401 1402	他
+T165	Person-Pronoun 1417 1418	他
+T166	Person-Pronoun 1430 1431	他
+T167	Person-Pronoun 1433 1434	我
+T168	Person-Name 1434 1437	龚心源
+R40	Social Arg1:T166 Arg2:T167	
+R41	Social Arg1:T167 Arg2:T168	
+R42	Social Arg1:T166 Arg2:T168	
+T169	Person-Name 1444 1445	龚
+T170	Organization-Nominal 1446 1448	部队
+R43	Ownership Arg1:T169 Arg2:T170	
+T171	Time-Explicit 1448 1451	一年后
+T172	Organization-Nominal 1474 1480	大学后勤部门
+R44	Ownership Arg1:T169 Arg2:T172	
+T173	Person-Pronoun 1489 1490	他
+*	Coreference T173 T169
+T174	Person-Nominal 1498 1500	女儿
+R45	Family Arg1:T174 Arg2:T173	
+T175	Person-Pronoun 1507 1508	他
+T176	Person-Nominal 1527 1529	人才
+*	Coreference T175 T176
+T177	Person-Name 1541 1544	马大衡
+T178	Person-Pronoun 1549 1552	我们仨
+T179	Location-Nominal 1573 1575	饭店
+T180	Location-Nominal 1580 1582	茶社
+T181	Location-Nominal 1587 1588	家
+T182	Person-Pronoun 1593 1595	我们
+T183	Person-Nominal 1646 1651	我们这代人
+T184	Time-Explicit 1666 1669	10年
+T185	Person-Name 1702 1705	龚心源
+T186	Person-Nominal 1715 1718	校领导
+T187	Organization-Nominal 1724 1729	电化教学馆
+R46	Ownership Arg1:T185 Arg2:T187	
+R47	Social Arg1:T185 Arg2:T186	
+T188	Person-Nominal 1749 1752	副教授
+*	Coreference T185 T188
+T189	Organization-Name 1759 1762;1763 1766	学校的 高知楼
+T190	Person-Nominal 1767 1769	女儿
+T191	Location-Name 1771 1772	美
+T192	Person-Nominal 1782 1785	父女俩
+T193	Person-Nominal 1804 1806	女儿
+T194	Location-Name 1816 1817	美
+T195	Thing-Nominal 1820 1823	生活照
+R48	Ownership Arg1:T193 Arg2:T195	
+T196	Person-Name 1834 1837	马大衡
+T197	Metric 1854 1856	5万
+T198	Time-Explicit 1867 1869	前年
+T199	Person-Nominal 1870 1872	儿子
+T200	Location-Nominal 1876 1879	商品房
+R49	Ownership Arg1:T196 Arg2:T200	
+T201	Person-Nominal 1882 1884	儿子
+T202	Time-Implicit 1888 1893	大学毕业后
+T203	Location-Name 1896 1900	澳大利亚
+T204	Person-Nominal 1911 1914	老俩口
+T205	Person-Name 1928 1931	马大衡
+T206	Location-Nominal 1935 1942	证券公司大户室
+T207	Person-Nominal 1949 1951	儿子
+T208	Location-Nominal 1957 1959	屋子
+R50	Ownership Arg1:T205 Arg2:T206	
+T209	Thing-Nominal 1966 1968	电脑
+T210	Person-Pronoun 1987 1988	他
+T211	Person-Pronoun 1990 1991	我
+T212	Person-Name 1992 1995	龚心源
+T213	Person-Pronoun 2017 2019	我们
+T214	Person-Name 2041 2044	马大衡
+T215	Person-Pronoun 2045 2047	我们
+T216	Person-Pronoun 2056 2058	我们
+*	Coreference T214 T210
+T217	Time-Implicit 2063 2067	今年深秋
+T218	Person-Name 2068 2071	龚心源
+T219	Thing-Nominal 2072 2074	手机
+T220	Person-Pronoun 2075 2077	我们
+R51	Use Arg1:T218 Arg2:T219	
+T221	Time-Implicit 2079 2081	中午
+T222	Location-Name 2082 2090	王府大街的安乐园
+T223	Time-Implicit 2094 2096	饭后
+T224	Location-Nominal 2101 2103	老宅
+T225	Time-Implicit 2105 2107	那天
+T226	Location-Name 2109 2112	安乐园
+T227	Person-Pronoun 2115 2117	我们
+T228	Location-Name 2119 2123	朱状元巷
+T229	Location-Nominal 2124 2128	马大衡家
+R52	Part-Whole Arg1:T229 Arg2:T228	
+T230	Location-Nominal 2148 2150	巷子
+T231	Location-Nominal 2160 2164	龚心源家
+T232	Location-Nominal 2184 2186	过道
+T233	Thing-Nominal 2200 2202	窗棂
+T234	Person-Nominal 2206 2210	有的人家
+T235	Location-Nominal 2212 2214	老屋
+R53	Ownership Arg1:T234 Arg2:T235	
+T236	Location-Nominal 2230 2232	院子
+T237	Thing-Nominal 2235 2236	树
+R54	Located Arg1:T237 Arg2:T236	
+T238	Location-Nominal 2240 2242	院子
+T239	Location-Nominal 2249 2251	平房
+T240	Person-Nominal 2253 2257	一户人家
+R55	Ownership Arg1:T240 Arg2:T239	
+T241	Person-Nominal 2178 2183	五六户人家
+T242	Person-Pronoun 2266 2268	我们
+T243	Location-Nominal 2277 2279	老屋
+T244	Thing-Nominal 2328 2330	贝壳
+T245	Person-Nominal 2336 2342	我们这一代人
+R56	Part-Whole Arg1:T231 Arg2:T228	

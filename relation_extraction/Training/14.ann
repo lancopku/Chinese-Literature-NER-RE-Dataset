@@ -1,0 +1,52 @@
+T1	Person-Name 2 19	英国著名历史学家赫伯特・乔・威尔斯
+T2	Person-Nominal 21 24	青少年
+T3	Abstract 26 32	《世界简史》
+T4	Thing-Nominal 38 47	许多耐人寻味的史例
+T5	Person-Nominal 41 42	人
+T6	Person-Pronoun 73 75	他们
+T7	Time-Implicit 73 80	他们被征服以后
+T8	Person-Nominal 49 60;61 71	不少说拉丁语，说阿拉伯 语，说日耳曼语的民族
+*	Coreference T6 T8
+T9	Thing-Nominal 103 110	这一唯一的武器
+T10	Thing-Nominal 152 156	语言文字
+T11	Metric 127 132	5000年
+T12	Time-Implicit 159 164	300年后
+T13	Thing-Nominal 165 167	洋文
+T14	Person-Nominal 176 178	痴人
+T15	Location-Name 195 197	中国
+T16	Thing-Nominal 319 329	一个民族的文字和文化
+T17	Thing-Nominal 205 219	马克思主义与语言学问题的论著
+T18	Thing-Nominal 353 366	作为交际工具的文字符号本身
+T19	Thing-Nominal 389 397	古埃及的象形文字
+T20	Thing-Nominal 398 407	苏美尔人的楔形文字
+T21	Thing-Pronoun 415 416	它
+T22	Thing-Nominal 389 407	古埃及的象形文字和苏美尔人的楔形文字
+*	Coreference T21 T22
+T23	Person-Pronoun 429 431	他们
+T24	Thing-Nominal 443 448	汉语言文字
+T25	Metric 452 457	5000年
+T26	Thing-Pronoun 478 481	她本身
+*	Coreference T26 T24
+T27	Thing-Pronoun 490 491	她
+T28	Thing-Nominal 517 519	电脑
+T29	Thing-Nominal 526 528	汉字
+T30	Thing-Nominal 546 550	拼音文字
+T31	Person-Nominal 577 579	人们
+T32	Thing-Nominal 592 594	电脑
+T33	Thing-Nominal 626 634	古老的汉语言文字
+T34	Thing-Nominal 641 646	汉语方框字
+T35	Thing-Nominal 660 662	电脑
+T36	Thing-Nominal 666 668	汉字
+T37	Thing-Nominal 691 696	汉语言文字
+T38	Person-Nominal 699 711	众多硬、软笔现代书法大家
+T39	Person-Nominal 712 716	人民群众
+T40	Person-Pronoun 752 754	我们
+T41	Person-Nominal 773 774	人
+T42	Person-Nominal 780 782	作者
+T43	Person-Pronoun 845 847	自己
+T44	Person-Nominal 899 901	作者
+T45	Thing-Nominal 902 904	汉字
+T46	Thing-Nominal 907 909	英语
+T47	Thing-Nominal 911 913	汉语
+T48	Thing-Nominal 731 733	汉字
+T49	Thing-Nominal 570 572	汉语

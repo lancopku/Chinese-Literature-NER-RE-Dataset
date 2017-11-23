@@ -1,0 +1,358 @@
+T1	Location-Name 1 3	西藏
+T2	Person-Pronoun 6 7	我
+T3	Thing-Nominal 11 15	那里的水
+T4	Location-Pronoun 11 13	那里
+R1	Located Arg1:T3 Arg2:T4	
+*	Coreference T4 T1
+T5	Person-Pronoun 18 19	你
+T6	Thing-Nominal 24 29	西藏的大地
+T7	Location-Name 24 26	西藏
+R2	Located Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 37 53	这方号称“世界第三极”的近天高原
+T9	Thing-Nominal 63 64	水
+T10	Person-Nominal 71 72	人
+T11	Thing-Nominal 77 78	水
+T12	Thing-Nominal 84 95	世界海拔最高的雪域高原
+T13	Thing-Nominal 98 99	水
+T14	Person-Pronoun 100 101	你
+T15	Thing-Nominal 109 117	珠穆朗玛峰的冰川
+T16	Location-Name 109 114	珠穆朗玛峰
+R3	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 118 126	雅鲁藏布江的湍流
+T18	Location-Name 118 123	雅鲁藏布江
+R4	Located Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 127 136	充满神奇传说的圣湖
+T20	Thing-Nominal 141 145	江河湖泉
+T21	Location-Nominal 146 151	西藏原野上
+T22	Thing-Nominal 158 162	冰川雪峰
+T23	Thing-Nominal 166 171	宝贵水资源
+T24	Person-Pronoun 180 181	你
+T25	Location-Name 185 187	西藏
+T26	Location-Nominal 189 200	全国湖泊最多的省区之一
+T27	Thing-Nominal 218 222	冰湖盐湖
+T28	Location-Nominal 233 242	名副其实的千湖省区
+T29	Person-Nominal 250 251	人
+T30	Location-Name 273 275	西藏
+T31	Time-Implicit 275 283	一个星期的日子里
+T32	Location-Nominal 287 297	那广袤而高远的大地上
+T33	Thing-Nominal 298 302	西藏之水
+T34	Location-Name 298 300	西藏
+R5	Located Arg1:T33 Arg2:T34	
+T35	Person-Pronoun 304 305	我
+T36	Thing-Nominal 311 325;326 327	那皑皑雪峰、滔滔江流和蓝蓝错 水
+T37	Location-Name 328 336	那青藏铁路路基旁
+T38	Thing-Nominal 337 341	大片湿地
+R6	Located Arg1:T38 Arg2:T37	
+T39	Thing-Nominal 342 352	那羊八井的沸泉与热池
+T40	Thing-Nominal 353 365	那拉萨市区连续二夜的中雨
+T41	Location-Name 343 346	羊八井
+R7	Located Arg1:T39 Arg2:T41	
+T42	Time-Implicit 368 385	敬畏这块“世界屋脊”的神秘和高深时
+T43	Time-Implicit 405 409	那天早晨
+T44	Location-Name 411 423	拉萨市郊的堆龙德庆县境内
+T45	Thing-Nominal 425 430	我们的大巴
+T46	Person-Pronoun 425 427	我们
+R8	Ownership Arg1:T46 Arg2:T45	
+T47	Location-Nominal 436 438	路边
+T48	Thing-Nominal 440 448	十几座俏丽的雪峰
+R9	Located Arg1:T48 Arg2:T47	
+T49	Time-Implicit 436 453	路边连绵十几座俏丽的雪峰映进眼帘时
+T50	Location-Name 454 456	西藏
+T51	Person-Nominal 457 459	导游
+T52	Thing-Nominal 471 475	这条线路
+T53	Person-Pronoun 475 476	我
+T54	Metric 478 482	这么多年
+T55	Thing-Nominal 489 494	这样的雪景
+T56	Time-Explicit 499 503	八月下旬
+T57	Person-Pronoun 504 506	我们
+T58	Thing-Nominal 508 510	短袖
+T59	Location-Nominal 512 514	路边
+T60	Thing-Nominal 516 525	如此灿亮的座座银峰
+R10	Located Arg1:T60 Arg2:T59	
+T61	Person-Nominal 542 546	藏族司机
+T62	Time-Implicit 555 557	昨晚
+T63	Thing-Nominal 560 564	不小的雪
+T64	Location-Nominal 567 569	山上
+T65	Thing-Nominal 570 572	积雪
+R11	Located Arg1:T65 Arg2:T64	
+T66	Time-Implicit 565 567	清晨
+T67	Person-Pronoun 591 592	谁
+T68	Location-Nominal 600 603	车厢里
+T69	Location-Name 617 621	西藏大地
+T70	Time-Implicit 625 630	火热的夏季
+T71	Thing-Nominal 633 635	雪峰
+T72	Location-Nominal 643 649	进藏的火车上
+T73	Location-Nominal 667 670	公路上
+T74	Location-Name 651 663	曲水、贡嘎、尼木、仁布县
+T75	Location-Nominal 673 674;675 679	遥 远的天边
+T76	Thing-Nominal 682 684	雪峰
+R12	Located Arg1:T76 Arg2:T75	
+T77	Thing-Nominal 695 699	一抹祥云
+T78	Location-Nominal 690 692	天际
+R13	Located Arg1:T77 Arg2:T78	
+T79	Location-Nominal 706 709	蓝天下
+T80	Thing-Nominal 710 714	一条银线
+R14	Located Arg1:T80 Arg2:T79	
+T81	Location-Nominal 730 733	山尖处
+T82	Thing-Nominal 734 735;736 739	残 小白块
+R15	Located Arg1:T82 Arg2:T81	
+T83	Location-Nominal 742 744	山头
+T84	Thing-Nominal 744 758	一片灰褐色中筛子状的星点白雪
+R16	Located Arg1:T84 Arg2:T83	
+T85	Location-Nominal 763 765	山麓
+T86	Location-Nominal 766 768	山顶
+T87	Thing-Nominal 774 786	十几座拥峙一起的雪峰近景
+T88	Thing-Nominal 774 779	十几座拥峙
+T89	Person-Pronoun 798 800	我们
+T90	Location-Nominal 813 824	当雄县境内的一段公路上
+T91	Location-Name 813 818	当雄县境内
+T92	Thing-Nominal 832 839	念青唐古拉山脉
+T93	Metric 841 846	7162米
+T94	Thing-Nominal 847 849	主峰
+R17	Part-Whole Arg1:T94 Arg2:T92	
+T95	Thing-Nominal 860 865	念青唐古拉
+T96	Metric 883 885	千里
+T97	Thing-Nominal 879 893	东西绵延千里的念青唐古拉山脉
+T98	Thing-Nominal 895 900	雅鲁藏布江
+T99	Thing-Nominal 901 903	怒江
+T100	Location-Nominal 912 917	峭拔的峰顶
+T101	Thing-Nominal 920 924	冰川积雪
+R18	Located Arg1:T101 Arg2:T100	
+T102	Person-Nominal 929 933;934 939	一尊永披 银铠的山神
+T103	Person-Nominal 946 948	人民
+T104	Location-Name 944 946	西藏
+T105	Thing-Nominal 952 954	神山
+T106	Person-Nominal 958 959	人
+T107	Person-Pronoun 962 964	我们
+T108	Thing-Nominal 967 968	车
+T109	Thing-Nominal 969 970	手
+T110	Thing-Nominal 971 973	相机
+R19	Ownership Arg1:T107 Arg2:T110	
+T111	Location-Nominal 978 984	路边靠山一侧
+T112	Thing-Nominal 984 990	那松软的草地
+R20	Located Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 992 994;995 1001	那灿 亮浩白的主峰
+T114	Thing-Nominal 1004 1009	透蓝的远天
+T115	Thing-Nominal 1010 1015	飘绕的祥云
+T116	Thing-Nominal 1016 1018	雪峰
+T117	Thing-Nominal 1020 1022	野花
+T118	Thing-Nominal 1026 1031	深绿色草原
+T119	Thing-Nominal 1035 1039	雪域高原
+T120	Thing-Nominal 1049 1056	西藏林立的雪峰
+T121	Location-Name 1049 1051	西藏
+R21	Located Arg1:T120 Arg2:T121	
+T122	Thing-Nominal 1059 1064	奔突的百川
+T123	Location-Name 1071 1077	拉萨去日喀则
+T124	Thing-Nominal 1085 1089	一段公路
+T125	Thing-Nominal 1094 1099	雅鲁藏布江
+T126	Thing-Nominal 1110 1112	远山
+T127	Thing-Nominal 1117 1119	晴空
+T128	Thing-Nominal 1126 1128	绿草
+T129	Location-Nominal 1124 1126	近坡
+R22	Located Arg1:T128 Arg2:T129	
+T130	Location-Nominal 1132 1134	江滩
+T131	Thing-Nominal 1134 1136	卵石
+R23	Located Arg1:T131 Arg2:T130	
+T132	Thing-Nominal 1139 1141	两峰
+T133	Location-Nominal 1145 1150	江面狭窄处
+T134	Thing-Nominal 1151 1158	浑黄的滔滔湍流
+R24	Located Arg1:T134 Arg2:T133	
+T135	Thing-Nominal 1166 1170	高原骏马
+T136	Location-Nominal 1166 1168	高原
+R25	Located Arg1:T135 Arg2:T136	
+T137	Thing-Nominal 1216 1218	江面
+T138	Thing-Nominal 1223 1225	江水
+T139	Thing-Nominal 1235 1237	江面
+T140	Thing-Nominal 1240 1244	蓝天白云
+T141	Location-Nominal 1245 1247	两岸
+T142	Thing-Nominal 1250 1252;1253 1255	绿树 丛草
+R26	Located Arg1:T142 Arg2:T141	
+T143	Thing-Nominal 1259 1264	展翅的鹰鹫
+T144	Thing-Nominal 1260 1261	翅
+R27	Part-Whole Arg1:T144 Arg2:T143	
+T145	Person-Nominal 1282 1283	人
+T146	Thing-Nominal 1292 1300	米拉雪山的拉萨河
+T147	Location-Name 1292 1296	米拉雪山
+R28	Located Arg1:T146 Arg2:T147	
+T148	Location-Name 1309 1313	拉萨南郊
+T149	Thing-Nominal 1316 1321	雅鲁藏布江
+T150	Thing-Nominal 1323 1324	车
+T151	Location-Nominal 1325 1330	河边公路上
+T152	Thing-Nominal 1335 1337	车窗
+T153	Location-Name 1341 1347	美丽的拉萨河
+T154	Thing-Nominal 1353 1355	流水
+T155	Thing-Nominal 1379 1386	稍突微凸的浪尖
+T156	Thing-Nominal 1390 1392	鱼鳞
+T157	Thing-Nominal 1398 1403	宽阔的河段
+T158	Thing-Nominal 1404 1409	缓淌的河面
+T159	Thing-Nominal 1410 1411;1412 1418	开 阔的沼泽沙滩
+T160	Location-Nominal 1433 1436	湿地上
+T161	Thing-Nominal 1436 1438	青草
+R29	Located Arg1:T161 Arg2:T160	
+T162	Location-Nominal 1441 1444	沙滩上
+T163	Thing-Nominal 1444 1446	卵石
+R30	Located Arg1:T163 Arg2:T162	
+T164	Location-Nominal 1449 1452	河岸上
+T165	Thing-Nominal 1457 1464	公主柳、藏杨树
+R31	Located Arg1:T165 Arg2:T164	
+T166	Location-Nominal 1468 1471	河对面
+T167	Location-Nominal 1473 1479	瓦蓝的穹庐下
+T168	Thing-Nominal 1481 1487	灰褐色的山体
+R32	Located Arg1:T168 Arg2:T167	
+T169	Thing-Nominal 1488 1496	黄马、黑牛与白羊
+T170	Thing-Nominal 1510 1514	高原河谷
+T171	Location-Name 1521 1524	纳木错
+T172	Thing-Nominal 1529 1533	一段公路
+T173	Thing-Nominal 1534 1537	楚布河
+T174	Person-Pronoun 1542 1544	我们
+T175	Thing-Nominal 1550 1551	车
+T176	Thing-Nominal 1547 1549	大巴
+T177	Person-Pronoun 1557 1558	我
+T178	Thing-Nominal 1561 1565	楚布河水
+T179	Location-Nominal 1569 1572	车身下
+R33	Located Arg1:T178 Arg2:T179	
+T180	Thing-Nominal 1575 1578;1579 1587	那奔流 而去的楚布河水面
+T181	Thing-Nominal 1589 1591	路基
+T182	Metric 1598 1600	半米
+T183	Metric 1613 1619	二、三十公分
+T184	Thing-Nominal 1620 1622	河水
+T185	Thing-Nominal 1624 1626	路基
+T186	Thing-Nominal 1629 1631	湖浪
+T187	Thing-Nominal 1632 1634	塘堤
+T188	Person-Pronoun 1647 1649	我们
+T189	Thing-Nominal 1658 1665	辽阔的西藏大地
+T190	Location-Name 1677 1684	昌都和阿里地区
+T191	Location-Nominal 1669 1674	藏北、山南
+T192	Thing-Nominal 1689 1694	众多的湖泊
+R34	Located Arg1:T192 Arg2:T191	
+R35	Located Arg1:T192 Arg2:T190	
+T193	Thing-Nominal 1710 1718	茫茫高原上的牛羊
+T194	Location-Nominal 1710 1715	茫茫高原上
+R36	Located Arg1:T193 Arg2:T194	
+T195	Thing-Nominal 1721 1729	浩浩长空中的繁星
+T196	Location-Nominal 1721 1726	浩浩长空中
+R37	Located Arg1:T195 Arg2:T196	
+T197	Thing-Nominal 1731 1739	巍巍群峰间的碧玉
+T198	Location-Nominal 1731 1736	巍巍群峰间
+R38	Located Arg1:T197 Arg2:T198	
+T199	Thing-Nominal 1741 1751	“世界第三极”的宝镜
+T200	Person-Pronoun 1753 1755	我们
+T201	Location-Name 1759 1775	西藏三大圣明中的纳木错和羊卓雍错
+T202	Thing-Nominal 1777 1782	另一个圣湖
+T203	Person-Name 1783 1787	唐僧玄奘
+T204	Location-Name 1790 1800	西天瑶池”的玛旁雍错
+T205	Thing-Nominal 1816 1819	纳木错
+T206	Thing-Nominal 1825 1827	天湖
+T207	Metric 1832 1836	70公里
+T208	Metric 1841 1845	30公里
+T209	Location-Name 1847 1849	西藏
+T210	Thing-Nominal 1849 1854	最大的湖泊
+R39	Located Arg1:T210 Arg2:T209	
+T211	Person-Pronoun 1857 1858	我
+T212	Thing-Nominal 1862 1865	青海湖
+T213	Thing-Nominal 1866 1872	第二大咸水湖
+*	Coreference T213 T205
+T214	Thing-Nominal 1874 1876	大巴
+T215	Metric 1881 1886	5190米
+T216	Location-Nominal 1887 1892	根拉根山口
+T217	Time-Implicit 1896 1902	近半个小时后
+T218	Metric 1906 1914	194多平方公里
+T219	Location-Name 1915 1918	纳木错
+T220	Location-Nominal 1929 1936	清波浩渺的湖边
+T221	Thing-Nominal 1937 1942	湛蓝的湖水
+R40	Located Arg1:T221 Arg2:T220	
+T222	Location-Nominal 1949 1951	湖底
+T223	Thing-Nominal 1951 1953	卵石
+R41	Located Arg1:T223 Arg2:T222	
+T224	Thing-Nominal 1960 1967	凉爽的阵阵湖风
+T225	Thing-Nominal 1972 1976	整个湖面
+T226	Location-Nominal 1969 1971	眼前
+R42	Located Arg1:T225 Arg2:T226	
+T227	Thing-Nominal 1976 1978	波光
+T228	Thing-Nominal 1990 2001	一匹抖动着的巨幅蓝绸缎
+T229	Thing-Nominal 2005 2007	圣湖
+T230	Thing-Nominal 2007 2020	千千万万个闪动着的明亮眼波
+T231	Person-Nominal 2025 2033	每一位走近的来者
+T232	Thing-Nominal 2037 2039	高天
+T233	Thing-Nominal 2040 2042	湖水
+T234	Location-Nominal 2045 2047	中间
+T235	Thing-Nominal 2055 2066	另一种颜色的白云与雪峰
+R43	Located Arg1:T235 Arg2:T234	
+T236	Thing-Nominal 2067 2069	天地
+T237	Thing-Nominal 2077 2088	如此壮阔而又瑰奇的场景
+T238	Location-Nominal 2112 2114	湖畔
+T239	Thing-Nominal 2114 2128	一块块刻有佛像和经文的玛尼石
+R44	Located Arg1:T239 Arg2:T238	
+T240	Thing-Nominal 2129 2146	一条条迎风飘舞的蓝白红黄绿五色经幡
+T241	Person-Nominal 2149 2150	人
+T242	Thing-Nominal 2175 2194	被藏族民歌颂唱为“人间仙境”的羊卓雍错
+T243	Location-Name 2197 2203	浪卡子县境内
+R45	Located Arg1:T242 Arg2:T243	
+T244	Thing-Nominal 2229 2231	碧玉
+T245	Person-Pronoun 2234 2235;2236 2237	我 们
+T246	Thing-Nominal 2240 2250	喜马拉雅群山间的大巴
+T247	Location-Name 2240 2247	喜马拉雅群山间
+R46	Located Arg1:T246 Arg2:T247	
+T248	Metric 2255 2260	5030米
+T249	Location-Nominal 2261 2266	甘巴拉山口
+T250	Location-Nominal 2270 2279	经幡旗猎猎的山崖边
+T251	Thing-Nominal 2282 2286	羊卓雍错
+T252	Time-Implicit 2280 2287	俯瞰羊卓雍错时
+T253	Location-Nominal 2304 2310	飘逸的白云下
+T254	Thing-Nominal 2311 2316	蓝色的湖面
+R47	Located Arg1:T254 Arg2:T253	
+T255	Thing-Nominal 2324 2339	一块镶嵌在雪峰绿坡间的硕大翡翠
+T256	Location-Nominal 2329 2334	雪峰绿坡间
+R48	Located Arg1:T255 Arg2:T256	
+T257	Thing-Nominal 2341 2343	湖水
+T258	Person-Pronoun 2373 2375	我们
+T259	Person-Nominal 2396 2398	大家
+T260	Location-Nominal 2412 2419	甘巴拉山口一侧
+T261	Location-Nominal 2419 2430	海拔五千米左右的山坡上
+T262	Metric 2421 2424	五千米
+T263	Thing-Nominal 2432 2439	几只黑色的牦牛
+R49	Located Arg1:T263 Arg2:T261	
+T264	Thing-Nominal 2442 2447	深绿的牧羊
+T265	Location-Nominal 2449 2455	坡下公路路肩
+T266	Thing-Nominal 2456 2460	排水沟内
+T267	Thing-Nominal 2463 2469	一滩滩的浅水
+*	Coreference T267 T266
+T268	Thing-Nominal 2484 2489	飘落的夏雪
+T269	Time-Implicit 2476 2484	刚刚溶化的不久前
+T270	Metric 2491 2494	五千米
+T271	Location-Nominal 2496 2499	公路边
+T272	Thing-Nominal 2502 2511	如此湿漉漉的排水沟
+R50	Located Arg1:T272 Arg2:T271	
+T273	Person-Nominal 2522 2523	人
+T274	Thing-Nominal 2559 2565	丰富的水资源
+T275	Location-Name 2557 2559	西藏
+R51	Located Arg1:T274 Arg2:T275	
+T276	Location-Name 2586 2592	希马拉雅山脉
+T277	Thing-Nominal 2592 2600	蔚为壮观的冰川群
+R52	Located Arg1:T277 Arg2:T276	
+T278	Thing-Nominal 2607 2614	连绵起伏的雪峰
+T279	Location-Name 2602 2607	冈底斯山脉
+R53	Located Arg1:T278 Arg2:T279	
+T280	Thing-Nominal 2615 2617;2618 2629	那难 以计数的冰湖雪川冰塔林
+T281	Thing-Nominal 2630 2636	那怒江的浪涛
+T282	Location-Name 2631 2633	怒江
+T283	Thing-Nominal 2637 2644	那雅砻江的清流
+T284	Location-Name 2638 2641	雅砻江
+T285	Thing-Nominal 2645 2657	那狮泉河、孔雀河和象泉河
+T286	Location-Nominal 2658 2664	那几十个湖泊
+T287	Location-Name 2667 2676	西藏第二大湖色林错
+R54	Near Arg1:T286 Arg2:T287	
+T288	Thing-Nominal 2677 2678;2679 2693	那 世界国界湖中海拔最高的班公错
+T289	Thing-Nominal 2694 2705	那森林环抱中的错高错;
+T290	Thing-Nominal 2704 2722	;那美丽传说中是神女热泪的羊八井沸泉
+T291	Thing-Nominal 2723 2734	那美玉、谷露和通麦湿泉
+T292	Thing-Nominal 2735 2739;2740 2746	那古堆和 突多水热区…
+T293	Thing-Nominal 2748 2752	西藏之水
+T294	Location-Name 2748 2750	西藏
+R55	Located Arg1:T293 Arg2:T294	
+T295	Thing-Nominal 2765 2768	西藏水
+T296	Location-Name 2765 2767	西藏
+T297	Location-Nominal 2695 2700	森林环抱中
+R56	Located Arg1:T289 Arg2:T297	
+T298	Thing-Nominal 2679 2684	世界国界湖
+R57	General-Special Arg1:T298 Arg2:T288	

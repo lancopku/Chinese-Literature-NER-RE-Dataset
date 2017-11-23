@@ -1,0 +1,153 @@
+T1	Time-Implicit 0 3	几年前
+T2	Person-Pronoun 4 5	我
+T3	Location-Nominal 12 15	杂志社
+T4	Metric 10 12	一家
+T5	Thing-Nominal 8 9	稿
+T6	Person-Pronoun 16 17	我
+T7	Thing-Nominal 21 27	厚厚的大信封
+T8	Metric 19 21	一个
+T9	Person-Pronoun 28 29	我
+T10	Thing-Nominal 40 47	杂志社印的贺卡
+T11	Metric 37 40	一大沓
+T12	Metric 53 55	一张
+T13	Thing-Nominal 55 60;61 63	文字简短的 便笺
+T14	Time-Implicit 68 70	元旦
+T15	Person-Pronoun 75 76	您
+*	Coreference T15 T2
+T16	Thing-Nominal 84 86	贺卡
+T17	Person-Nominal 91 93	朋友
+T18	Person-Pronoun 98 99	我
+T19	Thing-Nominal 121 122	信
+T20	Thing-Nominal 130 132	贺卡
+T21	Person-Pronoun 142 143	咱
+T22	Person-Pronoun 151 152	我
+T23	Thing-Nominal 183 185	报刊
+T24	Metric 181 183	一堆
+T25	Thing-Nominal 174 175	箱
+T26	Thing-Nominal 176 177	柜
+T27	Person-Nominal 202 209	报刊的编辑朋友
+T28	Person-Pronoun 243 244	咱
+*	Coreference T21 T22 T28
+T29	Person-Nominal 254 256	老师
+T30	Person-Nominal 257 259	朋友
+T31	Person-Nominal 260 262	同学
+T32	Person-Nominal 296 300	该给的人
+T33	Person-Pronoun 300 301	我
+T34	Person-Pronoun 347 348	俺
+*	Coreference T34 T33
+T35	Person-Nominal 348 357	每天早出晚归的老娘
+R1	Family Arg1:T35 Arg2:T34	
+T36	Person-Nominal 371 375	她老人家
+*	Coreference T36 T35
+T37	Person-Nominal 383 384	爹
+T38	Person-Nominal 384 385	娘
+T39	Person-Pronoun 391 392	我
+T40	Organization-Nominal 394 396	大学
+T41	Person-Pronoun 400 401	我
+T42	Person-Pronoun 404 406	他们
+T43	Person-Nominal 383 385	爹娘
+*	Coreference T42 T43 T47
+T44	Thing-Nominal 410 411	信
+T45	Metric 408 410	一封
+T46	Thing-Nominal 418 420	贺卡
+T47	Person-Pronoun 434 436	他们
+T48	Person-Nominal 446 448	子女
+R2	Family Arg1:T48 Arg2:T47	
+T49	Person-Pronoun 472 473	我
+T50	Time-Implicit 465 471	一晃数年过去
+T51	Time-Implicit 486 488	那天
+T52	Person-Nominal 491 493	父母
+T53	Person-Nominal 494 496	母亲
+T54	Metric 497 499	一本
+T55	Thing-Nominal 499 505	破了皮的旧书
+T56	Metric 508 510	一张
+T57	Thing-Nominal 510 513	存款单
+T58	Person-Pronoun 515 516	我
+T59	Person-Pronoun 517 518	她
+*	Coreference T59 T53 T60 T61
+T60	Person-Pronoun 529 530	她
+T61	Person-Pronoun 555 556	您
+T62	Person-Pronoun 549 550	我
+T63	Thing-Nominal 558 561	小金库
+T64	Person-Nominal 564 565	爸
+T65	Person-Pronoun 570 571	他
+*	Coreference T65 T64 T66
+T66	Person-Nominal 583 585	你爸
+T67	Person-Nominal 593 596	你孩子
+R3	Family Arg1:T67 Arg2:T62	
+T68	Person-Pronoun 607 609	他们
+*	Coreference T68 T67
+T69	Person-Nominal 627 629	父母
+T70	Person-Nominal 642 645	俩儿子
+R4	Family Arg1:T70 Arg2:T69	
+T71	Person-Nominal 656 660	我和弟弟
+*	Coreference T71 T70
+T72	Person-Nominal 665 667	他们
+T73	Person-Nominal 693 695	父亲
+T74	Thing-Nominal 698 699	背
+R5	Part-Whole Arg1:T74 Arg2:T73	
+T75	Organization-Nominal 702 708	村里的建筑队
+T76	Thing-Nominal 712 713	水
+T77	Thing-Nominal 715 716	泥
+T78	Person-Nominal 719 722	泥瓦匠
+*	Coreference T78 T73
+T79	Metric 710 712	一身
+T80	Metric 713 715	一身
+T81	Person-Pronoun 724 725	我
+T82	Thing-Nominal 729 735	母亲那本旧书
+*	Coreference T82 T55 T91 T98
+T83	Thing-Nominal 741 748	发了黄的硬卡片
+T84	Metric 739 741	一张
+T85	Person-Pronoun 751 752	我
+T86	Thing-Nominal 755 756	腰
+T87	Person-Nominal 759 761	母亲
+T88	Thing-Nominal 768 769	腰
+T89	Thing-Nominal 761 762	眼
+T90	Thing-Nominal 763 764	手
+R6	Part-Whole Arg1:T89 Arg2:T87	
+R7	Part-Whole Arg1:T90 Arg2:T87	
+R8	Part-Whole Arg1:T88 Arg2:T87	
+R9	Part-Whole Arg1:T86 Arg2:T85	
+T91	Thing-Nominal 780 784	那本破书
+T92	Person-Pronoun 787 788	我
+T93	Thing-Nominal 794 796	宝贝
+T94	Location-Nominal 802 810	专门放存折的地方
+T95	Person-Nominal 812 814	母亲
+T96	Person-Pronoun 823 824	我
+T97	Person-Pronoun 835 836	她
+*	Coreference T97 T95 T110
+T98	Thing-Nominal 844 845;846 849	那 本旧书
+T99	Person-Pronoun 851 852	我
+T100	Thing-Nominal 852 853	手
+R10	Part-Whole Arg1:T100 Arg2:T99	
+T101	Person-Pronoun 856 857	我
+T102	Thing-Nominal 863 867	那张贺卡
+T103	Thing-Nominal 868 889	那张五年前我实在找不到人送而送给母亲的贺卡
+*	Coreference T103 T102 T113 T117 T118 T125
+T104	Person-Nominal 884 886	母亲
+T105	Time-Implicit 870 873	五年前
+T106	Person-Pronoun 873 874	我
+T107	Person-Nominal 879 880	人
+T109	Person-Pronoun 894 895	我
+T110	Person-Pronoun 908 909	您
+T111	Person-Pronoun 910 911	我
+*	Coreference T111 T109
+T112	Person-Pronoun 918 919	我
+T113	Thing-Nominal 925 930	小小的贺卡
+T114	Person-Pronoun 933 934	我
+T108	Person-Pronoun 969 970	我
+T115	Person-Nominal 988 990	儿子
+T116	Person-Pronoun 991 992	我
+T117	Thing-Nominal 981 1005	50年来第一次儿子给我的最真(珍)贵的里(礼)物
+T118	Thing-Nominal 969 981	我收到的第一张河(贺)卡
+T119	Person-Pronoun 1007 1008	我
+T120	Thing-Nominal 1030 1032	眼泪
+T121	Thing-Nominal 1039 1041	脸颊
+T122	Person-Nominal 1045 1047	母亲
+T123	Person-Nominal 1054 1056	儿子
+R11	Part-Whole Arg1:T121 Arg2:T119	
+R12	Located Arg1:T120 Arg2:T121	
+T124	Person-Nominal 1075 1077	母亲
+T125	Thing-Nominal 1088 1097	原本无处打发的贺卡
+T126	Metric 1086 1088	一张
+T127	Person-Pronoun 1100 1101	她

@@ -1,0 +1,17 @@
+T1	Thing-Nominal 3 10	一千年前的黄河
+T2	Time-Implicit 3 7	一千年前
+T3	Location-Nominal 15 21	如今的河道上
+T4	Person-Nominal 28 29	人
+T5	Location-Name 61 65	蒲津渡口
+T6	Thing-Nominal 71 75	开元铁牛
+T7	Thing-Nominal 111 113	铁牛
+T8	Person-Pronoun 121 123	我们
+T9	Metric 128 130	十年
+T10	Metric 131 133	百年
+T11	Metric 134 136	千年
+T12	Person-Pronoun 170 172	我们
+T13	Time-Implicit 170 175	我们相见后
+T14	Person-Pronoun 222 223	我
+T15	Location-Nominal 226 231	河水的东岸
+T16	Thing-Nominal 226 228	河水
+T17	Person-Pronoun 237 238	你

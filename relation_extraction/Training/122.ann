@@ -1,0 +1,310 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 3 5	山上
+T3	Thing-Nominal 6 7	树
+R1	Located Arg1:T3 Arg2:T2	
+T4	Person-Nominal 13 15	老人
+T5	Person-Pronoun 18 19	我
+T6	Thing-Pronoun 21 23	它们
+*	Coreference T6 T3
+T7	Person-Nominal 25 27	老人
+T8	Location-Nominal 31 33	脚下
+T9	Thing-Nominal 33 35	山土
+R2	Located Arg1:T9 Arg2:T8	
+T10	Location-Nominal 48 50	山头
+T11	Time-Implicit 52 56	多少年后
+T12	Person-Pronoun 57 58	我
+T13	Thing-Nominal 59 61	镜头
+T14	Thing-Nominal 74 75	树
+T15	Person-Nominal 76 78	老人
+T16	Location-Nominal 71 73	满山
+T17	Person-Pronoun 79 80	我
+T18	Location-Nominal 88 94	城市的某一角
+T19	Location-Nominal 96 98	远方
+T20	Location-Nominal 99 101	心头
+T21	Thing-Nominal 111 112;113 116	名 山胜水
+T22	Thing-Nominal 119 121	城池
+T23	Thing-Nominal 125 129	一座山头
+T24	Person-Nominal 138 140	老人
+T25	Person-Pronoun 145 147	我们
+T26	Person-Pronoun 149 151	他们
+T27	Thing-Nominal 156 157	饭
+T28	Location-Nominal 160 162	桌上
+T29	Thing-Nominal 164 170	一个辣椒炒肉
+T30	Person-Pronoun 172 173;174 175	他 们
+T31	Thing-Nominal 175 179	腾出的床
+T32	Thing-Nominal 182 184	被子
+T33	Time-Implicit 184 187	洗刷后
+T34	Person-Nominal 193 195	老人
+T35	Person-Pronoun 197 199	我们
+T36	Person-Pronoun 201 202	他
+*	Coreference T36 T34
+T37	Thing-Nominal 203 205	山头
+R3	Ownership Arg1:T34 Arg2:T37	
+T38	Location-Nominal 208 211	山坡上
+T39	Thing-Nominal 214 216	药材
+R4	Located Arg1:T39 Arg2:T38	
+T40	Person-Nominal 218 220	顽童
+T41	Person-Pronoun 224 226	我们
+T42	Thing-Nominal 228 234;235 236	一眼小小的瀑 布
+T43	Thing-Nominal 238 239	山
+T44	Thing-Nominal 243 244	山
+T45	Person-Nominal 246 247	人
+T46	Person-Pronoun 277 278	我
+T47	Location-Nominal 286 288	膝盖
+T48	Thing-Nominal 291 294	笔记本
+R5	Located Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 299 300	山
+T50	Person-Pronoun 303 304	您
+T51	Person-Pronoun 306 308	我们
+T52	Person-Pronoun 312 313	他
+T53	Person-Pronoun 325 326	他
+T54	Location-Nominal 326 328	脸上
+T55	Thing-Nominal 328 333	每一条皱纹
+R6	Located Arg1:T55 Arg2:T54	
+T56	Person-Pronoun 338 339	他
+T57	Thing-Nominal 339 341	两眼
+R7	Part-Whole Arg1:T57 Arg2:T56	
+T58	Person-Pronoun 356 357	他
+T59	Person-Pronoun 358 359	我
+T60	Person-Nominal 361 371	另一个山乡荷锄的祖父
+T61	Person-Pronoun 372 373	我
+T62	Thing-Nominal 374 377	笔记本
+T63	Location-Nominal 379 385	远远的小木桌
+R8	Located Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 387 389	坐凳
+T65	Person-Pronoun 395 397	自己
+T66	Person-Pronoun 406 407	我
+T67	Location-Nominal 412 414	山头
+T68	Thing-Nominal 428 430	山风
+T69	Thing-Nominal 436 438	衣袂
+T70	Person-Nominal 439 441	亲人
+T71	Time-Implicit 436 444	衣袂与亲人聚集时
+T72	Person-Nominal 448 453	老人的祖父
+T73	Person-Nominal 448 450	老人
+R9	Family Arg1:T72 Arg2:T73	
+T74	Location-Nominal 454 456	山头
+T75	Person-Nominal 456 461	第一位山民
+T76	Thing-Nominal 473 475	树根
+T77	Thing-Nominal 475 477	野果
+T78	Person-Nominal 479 481	妻儿
+R10	Family Arg1:T78 Arg2:T72	
+T79	Person-Nominal 486 490	他的父亲
+T80	Person-Pronoun 486 487	他
+R11	Family Arg1:T79 Arg2:T80	
+T81	Person-Nominal 493 495	山人
+*	Coreference T80 T73
+T82	Thing-Nominal 497 498	山
+T83	Thing-Nominal 499 500	薯
+T84	Thing-Nominal 506 508	野果
+T85	Person-Pronoun 513 514	他
+T86	Location-Nominal 515 517	山头
+T87	Thing-Nominal 523 524	树
+R12	Located Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 536 538	大山
+T89	Person-Nominal 543 545	老人
+T90	Thing-Nominal 545 547	双手
+R13	Part-Whole Arg1:T90 Arg2:T89	
+T91	Person-Pronoun 552 553	我
+T92	Thing-Nominal 554 555	手
+R14	Part-Whole Arg1:T92 Arg2:T91	
+T93	Thing-Nominal 571 573	身骨
+T94	Person-Pronoun 597 598	我
+T95	Person-Nominal 600 602	老人
+T96	Person-Pronoun 605 606	他
+T97	Thing-Nominal 607 608	手
+R15	Part-Whole Arg1:T97 Arg2:T96	
+T98	Person-Pronoun 610 611	我
+T99	Thing-Nominal 615 619	山梁沟壑
+T100	Location-Nominal 627 631	老人手心
+T101	Person-Nominal 627 629	老人
+T102	Thing-Nominal 632 636	每根手指
+T103	Thing-Nominal 637 642	龟裂的手背
+T104	Person-Pronoun 656 657	我
+R16	Part-Whole Arg1:T102 Arg2:T101	
+R17	Part-Whole Arg1:T103 Arg2:T101	
+T105	Time-Implicit 705 709	几天以后
+T106	Person-Pronoun 710 711	我
+T107	Thing-Nominal 716 718	书房
+T108	Person-Pronoun 713 715	自己
+R18	Ownership Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 722 723	我
+T110	Thing-Nominal 725 727	稿纸
+T111	Location-Nominal 723 725	面前
+R19	Located Arg1:T110 Arg2:T111	
+T112	Thing-Nominal 739 741	山树
+T113	Thing-Nominal 748 750	满纸
+T114	Thing-Nominal 758 760	笔尖
+T115	Person-Pronoun 763 764	我
+T116	Person-Pronoun 803 804	我
+T117	Location-Nominal 804 811	心野耸立的山头
+T118	Person-Nominal 821 825	香男美女
+T119	Thing-Nominal 825 826	灯
+T120	Thing-Nominal 827 828	酒
+T121	Person-Nominal 831 836	城市寄居者
+T122	Person-Pronoun 842 844	我们
+T123	Person-Pronoun 846 847	她
+T124	Location-Nominal 848 849	家
+T125	Thing-Nominal 854 856	门户
+T126	Thing-Nominal 860 862	房子
+T127	Location-Nominal 869 873	酒店宾馆
+T128	Thing-Nominal 874 879	豪奢的大厅
+R20	Located Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 880 881	腰
+T130	Thing-Nominal 888 889	头
+T131	Location-Nominal 899 901	她家
+T132	Person-Pronoun 899 900	她
+T133	Thing-Nominal 920 923	她的家
+T134	Person-Pronoun 920 921	她
+R21	Ownership Arg1:T134 Arg2:T133	
+T135	Person-Nominal 925 927	上帝
+T136	Person-Pronoun 936 938	我们
+T137	Person-Pronoun 956 957	我
+T138	Thing-Pronoun 974 975	它
+T139	Thing-Nominal 983 988	长长的小巷
+T140	Thing-Nominal 1005 1008	旧街房
+T141	Person-Pronoun 1009 1010	她
+T142	Location-Nominal 1011 1013	脸上
+T143	Person-Pronoun 1021 1022	我
+T144	Person-Pronoun 1025 1026	她
+T145	Person-Pronoun 1029 1031	我们
+T146	Person-Pronoun 1041 1042	她
+T147	Person-Nominal 1043 1045	男人
+T148	Location-Nominal 1055 1056;1057 1060	小 条凳上
+T149	Person-Pronoun 1065 1066	我
+T150	Person-Pronoun 1076 1077	他
+*	Coreference T150 T147
+T151	Person-Pronoun 1090 1091	他
+T152	Person-Nominal 1101 1104	小女儿
+R22	Family Arg1:T151 Arg2:T152	
+T153	Person-Nominal 1116 1117;1118 1119	父 亲
+T154	Person-Nominal 1140 1147	几乎所有的孩子
+T155	Person-Nominal 1149 1152	小皇帝
+T156	Person-Nominal 1153 1155	女孩
+T157	Thing-Nominal 1160 1164	一根冰棍
+T158	Person-Pronoun 1176 1177	她
+T159	Person-Nominal 1179 1181	爸妈
+T160	Thing-Nominal 1184 1187	一斤猪
+T161	Location-Nominal 1189 1190	家
+T162	Thing-Nominal 1198 1201	奢侈品
+T163	Person-Pronoun 1202 1203	她
+T164	Thing-Nominal 1209 1210	书
+T165	Person-Nominal 1218 1220	学生
+T166	Thing-Nominal 1233 1238	微弱的翅膀
+T167	Person-Pronoun 1251 1253	自己
+T168	Thing-Nominal 1255 1257	天平
+T169	Thing-Nominal 1258 1260	衡器
+T170	Person-Pronoun 1277 1278	我
+T171	Person-Nominal 1283 1285	男人
+T172	Person-Nominal 1294 1298	电费水费
+T173	Time-Implicit 1300 1306	作义务电工时
+T174	Person-Pronoun 1312 1314	我们
+T175	Thing-Nominal 1320 1323	人民币
+T176	Person-Nominal 1329 1334	面前的女人
+T177	Person-Nominal 1344 1346	街邻
+T178	Person-Nominal 1348 1350	病者
+T179	Person-Nominal 1355 1357	孩子
+T180	Person-Nominal 1368 1371	孩子们
+T181	Person-Pronoun 1384 1385	我
+T182	Person-Nominal 1398 1402	一家三口
+T183	Thing-Nominal 1404 1411	四条完整的手臂
+T184	Person-Nominal 1412 1416	男人女人
+T185	Thing-Nominal 1419 1421	左臂
+T186	Thing-Nominal 1424 1426	右臂
+T187	Person-Pronoun 1434 1436	他们
+*	Coreference T187 T182
+T188	Person-Nominal 1441 1443	孩子
+T189	Thing-Nominal 1445 1447	两臂
+R23	Part-Whole Arg1:T189 Arg2:T188	
+T190	Thing-Nominal 1452 1454	肉体
+T191	Person-Nominal 1464 1466	女人
+T192	Thing-Nominal 1466 1473	原来工作的工厂
+T193	Time-Implicit 1473 1475	每月
+T194	Metric 1478 1481	二百元
+T195	Person-Nominal 1482 1484	男人
+T196	Thing-Nominal 1489 1492	退休金
+T197	Person-Pronoun 1493 1495	他们
+T198	Thing-Nominal 1500 1502	房子
+T199	Thing-Nominal 1503 1504;1505 1517	一 个风雨飘摇的极旧的木架房
+T200	Thing-Nominal 1518 1520	山墙
+T201	Person-Pronoun 1527 1529	我们
+T202	Person-Pronoun 1530 1532	他们
+T203	Person-Nominal 1543 1545	夫妻
+T204	Person-Nominal 1546 1548	孩子
+T205	Thing-Nominal 1560 1562	厨房
+T206	Thing-Nominal 1564 1565;1566 1567	浴 室
+T207	Location-Nominal 1568 1570	家中
+T208	Thing-Nominal 1571 1574	豪华品
+T209	Thing-Nominal 1575 1585	一台小小的黑白电视机
+T210	Person-Nominal 1587 1589	女人
+T211	Person-Nominal 1590 1592	姐姐
+R24	Family Arg1:T211 Arg2:T210	
+T212	Thing-Nominal 1595 1602	一台旧的洗衣机
+R25	Located Arg1:T209 Arg2:T207	
+R26	Located Arg1:T212 Arg2:T207	
+T213	Location-Nominal 1606 1608	地下
+T214	Person-Pronoun 1617 1618	我
+T215	Thing-Nominal 1621 1622	头
+R27	Part-Whole Arg1:T215 Arg2:T214	
+T216	Person-Pronoun 1624 1626	我们
+T217	Location-Nominal 1627 1629	头顶
+T218	Thing-Nominal 1642 1644	眼睛
+T219	Person-Pronoun 1654 1656	他们
+T220	Person-Pronoun 1661 1662	我
+T221	Thing-Nominal 1663 1670	成分含糊的泪水
+T222	Person-Pronoun 1678 1680	他们
+T223	Person-Pronoun 1683 1684	我
+T224	Person-Nominal 1696 1698	孩子
+T225	Person-Pronoun 1706 1708	我们
+T226	Person-Nominal 1730 1734	另一些人
+T227	Thing-Nominal 1792 1796	上岸的路
+T228	Person-Nominal 1798 1803	另一部分人
+T229	Person-Nominal 1847 1849	夫妻
+T230	Person-Nominal 1854 1863	陪同来的街道女主任
+T231	Person-Pronoun 1864 1865	我
+T232	Person-Pronoun 1884 1885	我
+T233	Person-Pronoun 1913 1914	我
+T234	Person-Pronoun 1929 1930	我
+T235	Person-Pronoun 1931 1933	自己
+T236	Location-Nominal 1934 1936	书房
+T237	Thing-Nominal 1937 1940	笔记本
+*	Coreference T235 T234
+T238	Person-Nominal 1943 1947	我的女儿
+T239	Person-Pronoun 1943 1944	我
+R28	Family Arg1:T238 Arg2:T239	
+T240	Location-Nominal 1956 1958	床头
+T241	Person-Nominal 1960 1964	她的母亲
+T242	Person-Pronoun 1960 1961	她
+R29	Family Arg1:T241 Arg2:T242	
+T243	Thing-Nominal 1969 1971	衣裳
+T244	Person-Pronoun 1973 1974	我
+T245	Person-Pronoun 1991 1992	我
+T246	Thing-Nominal 1998 2000	夜空
+T247	Location-Nominal 1995 1997	窗外
+R30	Located Arg1:T246 Arg2:T247	
+T248	Thing-Nominal 2001 2003	眼泪
+T249	Person-Pronoun 2009 2010	我
+T250	Thing-Nominal 2013 2019	完全麻木的脸
+T251	Thing-Nominal 2035 2046	一叠叠墨香浓郁的旧稿，
+T252	Person-Nominal 2051 2055	山头老人
+T253	Person-Nominal 2056 2060	独臂夫妇
+T254	Location-Nominal 2067 2069	远山
+T255	Person-Nominal 2074 2076	老人
+T256	Location-Nominal 2078 2080	山头
+T257	Person-Nominal 2082 2085	后祖父
+T258	Person-Pronoun 2088 2089	我
+T259	Time-Implicit 2093 2097	另一时刻
+T260	Thing-Nominal 2098 2104	极旧的木架房
+T261	Person-Pronoun 2108 2109	我
+T262	Person-Pronoun 2126 2127	我
+T263	Thing-Nominal 2138 2141	一杯酒
+T264	Location-Nominal 2143 2145	山头
+T265	Person-Nominal 2148 2150	夫妇
+T266	Person-Pronoun 2163 2164	我
+T267	Person-Nominal 2167 2170	主人公
+T268	Person-Nominal 2176 2179	老百姓
+T269	Location-Nominal 2183 2185	眼里
+T270	Thing-Nominal 2189 2194	混浊的水液
+R31	Located Arg1:T270 Arg2:T269	
+T271	Person-Pronoun 2196 2197	人
+T272	Thing-Nominal 2208 2211	一杯酒
+T273	Person-Pronoun 2215 2216	我

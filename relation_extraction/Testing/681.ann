@@ -1,0 +1,202 @@
+T1	Location-Name 0 2	中华
+T2	Person-Nominal 7 9	人口
+T3	Metric 19 23	46亿岁
+T4	Thing-Name 24 26	地球
+T5	Location-Name 28 30	中华
+T6	Location-Nominal 34 42	四大文明古国之一
+R1	General-Special Arg1:T6 Arg2:T5	
+T7	Location-Nominal 31 33	世界
+T8	Location-Name 43 45	中华
+T9	Location-Name 48 52	黄河流域
+T10	Location-Name 48 50	黄河
+T11	Location-Nominal 55 59	世界各地
+R2	Part-Whole Arg1:T11 Arg2:T7	
+T12	Thing-Nominal 61 70	丝绸、陶器、针灸等
+T13	Person-Nominal 71 73	人类
+R3	Near Arg1:T9 Arg2:T10	
+T14	Thing-Nominal 87 89	黄水
+R4	Located Arg1:T14 Arg2:T10	
+T15	Metric 91 97	5464千米
+T16	Location-Nominal 99 107	中国人民的母亲河
+T17	Location-Name 148 150	黄河
+R5	General-Special Arg1:T16 Arg2:T17	
+T18	Location-Nominal 108 111	入海口
+R6	Part-Whole Arg1:T18 Arg2:T17	
+T19	Metric 112 117	1500米
+T20	Metric 120 123	50米
+T21	Metric 126 130	2.6米
+T22	Metric 133 141	1.2~1.6米
+T23	Thing-Nominal 151 152	桥
+T24	Location-Name 161 163	黄河
+T25	Metric 168 177	79.5万平方公里
+T26	Thing-Nominal 178 180	河床
+R7	Located Arg1:T26 Arg2:T17	
+T27	Thing-Nominal 182 184	地面
+T28	Person-Nominal 185 187	人们
+T29	Location-Name 190 193	地上河
+T30	Location-Name 195 197	悬河
+T31	Time-Explicit 198 200	宋朝
+T32	Location-Name 203 205	黄河
+*	Coreference T32 T30 T29
+T33	Time-Implicit 206 208	现代
+T34	Location-Name 215 217	黄河
+T35	Thing-Nominal 224 230	“龙”字图腾
+T36	Location-Name 232 234	黄河
+T37	Thing-Nominal 257 258	山
+T38	Thing-Nominal 259 260	峡
+T39	Thing-Nominal 261 263	天地
+T40	Thing-Nominal 245 247	沙腾
+T41	Location-Nominal 211 213	天空
+T42	Thing-Nominal 267 268	雾
+T43	Location-Nominal 270 272	苍穹
+*	Coreference T43 T41
+T44	Location-Name 275 277	中国
+*	Coreference T44 T8
+T45	Abstract 275 278	中国梦
+T46	Location-Nominal 289 292	母亲河
+T47	Location-Name 297 300	地上河
+*	Coreference T46 T34 T58
+T48	Thing-Nominal 323 325	良田
+T49	Location-Nominal 326 331	美丽的家园
+T50	Metric 334 337	百万年
+T51	Thing-Nominal 333 346	经百万年堆积起来的高原泥沙
+T52	Location-Nominal 342 344	高原
+T53	Metric 349 358	180米~200米
+T54	Location-Name 360 364	黄土高原
+T55	Thing-Nominal 375 377	泥沙
+T56	Thing-Nominal 370 371	风
+T57	Thing-Nominal 372 373	雨
+T58	Location-Nominal 380 381	河
+T59	Thing-Nominal 388 390	泥沙
+T60	Location-Name 395 397	悬河
+T61	Person-Nominal 415 419	华夏子孙
+T62	Location-Nominal 420 423	母亲河
+T63	Location-Name 432 434	黄河
+T64	Location-Name 434 436	长江
+T65	Location-Name 437 439	中国
+T66	Location-Nominal 437 445	中国最宝贵的河道
+R8	General-Special Arg1:T66 Arg2:T64	
+R9	General-Special Arg1:T66 Arg2:T63	
+T67	Location-Name 446 448	长江
+T68	Location-Nominal 450 460	中国内河航运的大动脉
+*	Coreference T68 T67
+T69	Location-Name 461 463	长江
+T70	Metric 464 470	6300千米
+T71	Location-Nominal 471 475	水系河道
+R10	Part-Whole Arg1:T71 Arg2:T67	
+T72	Metric 475 482	5.73余万米
+T73	Thing-Nominal 484 492	可观的三峡平湖等
+T74	Thing-Nominal 496 500	万吨巨轮
+T75	Metric 496 498	万吨
+T76	Thing-Nominal 503 505	电视
+T77	Location-Nominal 508 516	许多没到过的地方
+T78	Location-Name 523 532	喜马拉雅山脉的珠峰
+T79	Metric 535 544	8844.43千米
+T80	Person-Nominal 545 554	多少国家的爬山高手
+T81	Location-Name 557 559	珠峰
+*	Coreference T81 T78
+T82	Person-Nominal 561 562;563 567	有 名的健儿
+R11	General-Special Arg1:T82 Arg2:T80	
+T83	Time-Explicit 569 576	公元前333年
+T84	Location-Name 581 583	长城
+T85	Person-Pronoun 584 585	你
+T86	Location-Pronoun 587 588	她
+T87	Time-Implicit 594 596	当时
+T88	Location-Name 596 598	赵国
+T89	Thing-Nominal 606 608	长城
+T90	Location-Name 614 619	齐、魏、燕
+T91	Thing-Nominal 625 627	长城
+T92	Location-Name 633 634	秦
+T93	Thing-Nominal 640 642	长城
+*	Coreference T86 T84
+T94	Location-Pronoun 643 644	他
+*	Coreference T94 T92
+T95	Location-Nominal 650 652	六国
+R12	Part-Whole Arg1:T88 Arg2:T95	
+R13	Part-Whole Arg1:T90 Arg2:T95	
+T96	Organization-Name 653 655	秦朝
+T97	Person-Nominal 662 663	人
+T98	Location-Name 666 667	燕
+T99	Person-Name 668 670	荆轲
+T100	Person-Nominal 672 674	秦王
+T101	Person-Nominal 678 680	大家
+T102	Person-Nominal 694 696	壮士
+*	Coreference T102 T99
+T103	Location-Name 703 705	长城
+T104	Location-Name 715 717	长城
+T105	Location-Name 729 732	明长城
+R14	Part-Whole Arg1:T105 Arg2:T104	
+T106	Metric 734 742	8851.8千米
+T107	Location-Name 743 745	长城
+T108	Metric 748 751;752 759	211 96.18千米
+T109	Person-Nominal 761 766	我们中国人
+T110	Person-Nominal 769 773	中华儿女
+T111	Person-Nominal 774 778	华夏儿女
+T112	Person-Nominal 779 783	龙的传人
+*	Coreference T112 T111 T110 T109 T114 T131
+T113	Thing-Nominal 784 790	许多文学作品
+T114	Person-Nominal 792 796	炎黄子孙
+T115	Person-Name 802 804	黄帝
+T116	Person-Name 805 807	炎帝
+T117	Person-Name 808 810	蚩尤
+T118	Organization-Nominal 802 815	黄帝、炎帝、蚩尤三个大部落
+T119	Person-Name 816 818	蚩尤
+T120	Person-Name 831 833	炎帝
+T121	Person-Name 834 836	炎帝
+T122	Person-Name 837 839	黄帝
+T123	Person-Name 844 846	蚩尤
+T124	Person-Name 847 849	炎帝
+T125	Person-Name 851 853	黄帝
+T126	Person-Name 856 858	黄帝
+T127	Person-Name 862 864	炎帝
+T128	Person-Name 867 869	黄帝
+T129	Person-Pronoun 870 872	他们
+T130	Person-Nominal 878 882;883 884	强大的民 族
+T131	Person-Nominal 889 893	中华传人
+T132	Person-Nominal 897 901	炎黄子孙
+T133	Person-Name 905 907	黄帝
+T134	Person-Pronoun 907 908	他
+*	Coreference T134 T133 T144
+T135	Person-Nominal 914 919	河南新郑人
+R15	General-Special Arg1:T135 Arg2:T133	
+T136	Location-Name 922 924	中国
+T137	Person-Pronoun 925 926	他
+T138	Thing-Nominal 927 931	百谷草木
+T139	Thing-Nominal 941 943	文字
+T140	Thing-Nominal 946 948	衣冠
+T141	Thing-Nominal 951 953	舟船
+T142	Thing-Nominal 956 959	指南车
+T143	Person-Nominal 975 982	中华文明的先祖
+R16	General-Special Arg1:T143 Arg2:T133	
+T144	Person-Nominal 983 995	中华民族的共主，五帝之首
+T145	Person-Name 997 999	黄帝
+T146	Person-Nominal 1000 1008	中国人类人文始祖
+*	Coreference T146 T145
+T147	Person-Pronoun 1009 1010	他
+T148	Person-Name 1011 1013	岐伯
+T149	Person-Nominal 1014 1020	甘肃庆城县人
+R17	General-Special Arg1:T149 Arg2:T148	
+T150	Location-Name 1014 1019	甘肃庆城县
+T151	Person-Name 1033 1035	黄帝
+T152	Person-Nominal 1038 1040	民族
+T153	Person-Name 1042 1044	岐伯
+R18	Social Arg1:T153 Arg2:T151	
+T154	Person-Nominal 1045 1047	老师
+R19	General-Special Arg1:T154 Arg2:T153	
+T155	Thing-Name 1059 1063	黄帝内经
+T156	Person-Name 1065 1067	岐伯
+T157	Thing-Nominal 1065 1072	岐伯最早的文献
+*	Coreference T157 T155
+R20	Create Arg1:T156 Arg2:T157	
+T158	Thing-Name 1074 1078	黄帝内经
+T159	Thing-Nominal 1080 1089	科学史重大成就之一
+R21	General-Special Arg1:T159 Arg2:T158	
+T160	Thing-Nominal 1111 1115	黄帝内经
+T161	Location-Name 1120 1122	中国
+T162	Location-Name 1141 1143	中华
+T163	Metric 1143 1147	两千多年
+T164	Person-Nominal 1154 1158	中华民族
+T165	Person-Name 1174 1176	黄帝
+T166	Metric 1200 1203	98岁
+T167	Time-Explicit 1180 1188	公元前2697年
+T168	Time-Explicit 1189 1197	公元前2599年

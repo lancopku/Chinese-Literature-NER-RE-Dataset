@@ -1,0 +1,291 @@
+T1	Thing-Nominal 0 2	宏村
+T2	Person-Nominal 4 13	粉墙黛瓦的徽派民居
+T3	Thing-Nominal 14 21	明净如镜的碧水
+T4	Thing-Nominal 24 29	一幅风景画
+T5	Person-Nominal 33 35	人们
+T6	Thing-Nominal 39 46	中国画里的乡村
+*	Coreference T6 T1
+T7	Location-Nominal 51 54	村西口
+T8	Thing-Nominal 55 58	宏际桥
+R1	Located Arg1:T8 Arg2:T7	
+T9	Location-Nominal 63 65	景区
+T10	Location-Nominal 66 68	村头
+T11	Thing-Nominal 69 78	两株500年的古树
+R2	Located Arg1:T11 Arg2:T10	
+T12	Metric 71 75	500年
+T13	Thing-Nominal 84 85	树
+T14	Metric 88 91	20米
+T15	Thing-Nominal 93 97	村子正街
+T16	Thing-Nominal 103 108	一溜青石板
+T17	Location-Nominal 110 112	两边
+T18	Person-Nominal 114 119	徽派古民居
+T19	Thing-Nominal 120 122	高墙
+T20	Thing-Nominal 122 124	透窗
+T21	Thing-Nominal 125 129	砖雕门楼
+T22	Thing-Nominal 135 138	马头墙
+T23	Thing-Nominal 132 134	蓝天
+T24	Person-Nominal 149 150	人
+T25	Thing-Nominal 159 167	数百年前的古村落
+T26	Time-Explicit 159 163	数百年前
+T27	Thing-Nominal 180 185	宏村的民宅
+T28	Location-Name 180 182	宏村
+R3	Located Arg1:T27 Arg2:T28	
+T29	Thing-Nominal 188 191	两层楼
+T30	Location-Nominal 192 196	家家户户
+T31	Thing-Nominal 199 203	砖雕门楼
+R4	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 204 206	门楼
+T33	Thing-Nominal 220 224	青瓦盖顶
+T34	Location-Nominal 225 227	楼角
+T35	Thing-Nominal 227 231	鳌鱼摆尾
+R5	Located Arg1:T35 Arg2:T34	
+T36	Person-Nominal 234 236	后人
+T37	Thing-Nominal 253 257	砖雕额枋
+T38	Location-Nominal 250 252	下部
+T39	Person-Nominal 258 260	人物
+T40	Thing-Nominal 261 263	官服
+T41	Thing-Nominal 266 268	动物
+T42	Thing-Nominal 269 273	花鹿大马
+T43	Person-Nominal 292 295	徽州人
+T44	Thing-Nominal 297 299	门楼
+T45	Thing-Nominal 311 315	千金门楼
+T46	Thing-Nominal 315 318	四两屋
+T47	Location-Nominal 326 329	地方上
+T48	Thing-Nominal 330 332	门楼
+T49	Metric 342 347	100多米
+T50	Location-Nominal 348 350	眼前
+T51	Thing-Nominal 352 356	一方池塘
+R6	Located Arg1:T51 Arg2:T50	
+T52	Location-Name 359 361	宏村
+T53	Thing-Nominal 376 380	一弯新月
+T54	Person-Nominal 383 385	游人
+T55	Thing-Nominal 387 392	“半个月亮
+T56	Time-Implicit 399 401	当年
+T57	Thing-Nominal 402 404	月沼
+T58	Time-Implicit 401 405	挖月沼时
+T59	Person-Nominal 406 409	许多人
+T60	Person-Nominal 417 424	76世祖妻重娘
+T61	Thing-Nominal 435 436	花
+T62	Thing-Nominal 441 442	月
+T63	Thing-Nominal 447 449	新月
+T64	Thing-Nominal 459 461	月沼
+T65	Person-Nominal 483 487	徽派民居
+T66	Thing-Nominal 488 491	白粉墙
+T67	Thing-Nominal 492 495	青泥瓦
+T68	Thing-Nominal 501 504	高门楼
+T69	Thing-Nominal 505 508	马头墙
+T70	Thing-Nominal 514 519;520 524	这些独具特 色的建筑
+T71	Location-Nominal 529 536	明镜般的池水中
+T72	Location-Nominal 539 541	门前
+T73	Thing-Nominal 544 550	一串串红灯笼
+R7	Located Arg1:T73 Arg2:T72	
+T74	Location-Nominal 551 553	墙上
+T75	Thing-Nominal 556 560	农家火腿
+R8	Located Arg1:T75 Arg2:T74	
+T76	Location-Nominal 561 563	池畔
+T77	Person-Nominal 563 575	晒太阳的老人和嬉戏的孩童
+T78	Location-Nominal 576 580;581 582	岸上和水 里
+T79	Thing-Nominal 585 599	一幅和谐、精致的徽派农家乐图
+T80	Person-Nominal 601 605	导游姑娘
+T81	Person-Pronoun 607 609	我们
+T82	Thing-Nominal 610 612	宏村
+T83	Time-Explicit 615 635	南宋绍兴年间(公元1131～1162年)
+T84	Metric 639 643	900年
+T85	Thing-Nominal 653 661;662 666	400多幢明清所 建的民宅
+T86	Thing-Nominal 648 650	全村
+T87	Thing-Nominal 669 681	祠堂、书院、牌坊等古建筑
+T88	Thing-Nominal 682 686	这些建筑
+T89	Time-Explicit 698 709	2000年11月30日
+T90	Thing-Nominal 710 712	宏村
+T91	Organization-Name 713 721	联合国教科文组织
+T92	Time-Explicit 734 741	2011年5月
+T93	Thing-Nominal 747 754	国家级5A景区
+T94	Thing-Nominal 725 733	世界文化遗产名录
+T95	Person-Pronoun 759 761	我们
+T96	Thing-Nominal 764 779	敬修堂、承志堂、桃花居和敬德堂
+T97	Thing-Nominal 781 784	敬修堂
+T98	Thing-Nominal 785 794	宏村典型的清代民居
+T99	Location-Name 798 804	月沼北侧西首
+R9	Located Arg1:T97 Arg2:T99	
+T100	Time-Explicit 808 814	清代道光年间
+T101	Metric 819 823	180年
+T102	Thing-Nominal 828 831	承志堂
+T103	Location-Name 833 840	宏村上水圳中段
+R10	Located Arg1:T102 Arg2:T103	
+T104	Time-Explicit 843 856	清末咸丰五年(1855年)
+T105	Thing-Nominal 858 867	大盐商汪定贵的住宅
+T106	Person-Name 858 864	大盐商汪定贵
+R11	Ownership Arg1:T106 Arg2:T105	
+T107	Thing-Pronoun 868 869	它
+*	Coreference T107 T102
+T108	Thing-Nominal 872 878	最大的建筑群
+T109	Location-Nominal 870 872	村中
+R12	Located Arg1:T108 Arg2:T109	
+T110	Metric 883 888;889 892	3000余 平方米
+T111	Location-Nominal 893 895	内部
+T112	Thing-Nominal 896 902	房屋60馀间
+R13	Located Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 906 910	九个天井
+T114	Thing-Nominal 915 919	整栋建筑
+T115	Thing-Nominal 923 932	，砖、石、木雕装饰
+T116	Location-Nominal 937 943	木柱和额枋间
+T117	Thing-Nominal 992 995	桃园居
+T118	Time-Explicit 997 1009	清咸丰十年(1860年)
+T119	Thing-Nominal 1010 1014	门楼砖雕
+T120	Thing-Nominal 1015 1019	室内木雕
+T121	Thing-Nominal 1025 1028	敬德堂
+T122	Thing-Nominal 1028 1032	整幢建筑
+T123	Thing-Nominal 1037 1039	屋柱
+T124	Thing-Nominal 1044 1046	宏村
+T125	Time-Explicit 1046 1050	明末清初
+T126	Thing-Nominal 1050 1052	民居
+T127	Thing-Pronoun 1057 1058	它
+*	Coreference T127 T121
+T128	Location-Name 1060 1071	宏村牛肠水圳下游转弯处
+R14	Located Arg1:T121 Arg2:T128	
+T129	Time-Explicit 1074 1085;1086 1088	清初顺治年间(1646 年)
+T130	Thing-Nominal 1089 1091	厅堂
+T131	Location-Nominal 1096 1099	前后厅
+T132	Thing-Nominal 1101 1103	天井
+R15	Located Arg1:T132 Arg2:T131	
+T133	Location-Nominal 1110 1112	两侧
+T134	Thing-Nominal 1113 1115	厢房
+R16	Located Arg1:T134 Arg2:T133	
+T135	Location-Nominal 1116 1118	南侧
+T136	Thing-Nominal 1119 1121	前院
+R17	Located Arg1:T136 Arg2:T135	
+T137	Location-Nominal 1122 1124	北侧
+T138	Thing-Nominal 1125 1127	厨房
+R18	Located Arg1:T138 Arg2:T137	
+T139	Location-Nominal 1128 1130	东侧
+T140	Thing-Nominal 1132 1141	一座小偏厅和大花园
+R19	Located Arg1:T140 Arg2:T139	
+T141	Thing-Nominal 1143 1149	宏村古民居群
+T142	Thing-Nominal 1150 1159	徽派建筑的典型代表
+*	Coreference T142 T141
+T143	Person-Nominal 1162 1164	人们
+T144	Person-Pronoun 1197 1198	你
+T145	Location-Name 1200 1202	宏村
+T146	Thing-Nominal 1211 1220	这么一道古建筑奇观
+T147	Thing-Nominal 1221 1234	一幅工笔勾勒的民俗风情画卷
+T148	Location-Nominal 1204 1206	眼前
+R20	Located Arg1:T147 Arg2:T148	
+T149	Location-Nominal 1239 1241	村里
+T150	Thing-Nominal 1242 1249	一卷民俗风情画
+T151	Thing-Nominal 1252 1256	宏村南湖
+T152	Thing-Nominal 1258 1265	一幅自然风光图
+T153	Thing-Nominal 1267 1271	宏村南湖
+T154	Location-Nominal 1273 1276	村南侧
+R21	Located Arg1:T153 Arg2:T154	
+T155	Location-Nominal 1278 1280	外围
+T156	Thing-Nominal 1281 1289	绕村而过的西溪河
+R22	Located Arg1:T156 Arg2:T155	
+T157	Thing-Nominal 1290 1292	南湖
+T158	Thing-Nominal 1294 1298	杭州西湖
+T159	Thing-Nominal 1307 1311	整个湖面
+T160	Location-Nominal 1318 1320	南岸
+T161	Thing-Nominal 1325 1327;1328 1330	两层 湖堤
+T162	Metric 1335 1337	4米
+T163	Thing-Nominal 1340 1342	古树
+T164	Location-Nominal 1338 1340	岸上
+R23	Located Arg1:T163 Arg2:T164	
+T165	Thing-Nominal 1345 1347	垂柳
+T166	Thing-Nominal 1350 1354	一条长堤
+T167	Location-Nominal 1360 1362	湖心
+R24	Located Arg1:T166 Arg2:T167	
+T168	Thing-Nominal 1363 1368	一座石拱桥
+T169	Thing-Nominal 1370 1372	鹊桥
+T170	Location-Nominal 1380 1384	长堤之上
+R25	Located Arg1:T168 Arg2:T170	
+T171	Location-Nominal 1385 1387	北岸
+T172	Thing-Nominal 1389 1402	南湖书院、游客中心等建筑群
+R26	Located Arg1:T172 Arg2:T171	
+T173	Thing-Nominal 1407 1409	湖面
+T174	Thing-Nominal 1419 1421	远峰
+T175	Thing-Nominal 1421 1423	近宅
+T176	Location-Nominal 1426 1428	湖中
+R27	Located Arg1:T175 Arg2:T176	
+R28	Located Arg1:T174 Arg2:T176	
+T177	Thing-Nominal 1414 1416	水天
+T178	Thing-Nominal 1430 1432	南湖
+T179	Thing-Nominal 1441 1443	风光
+T180	Person-Nominal 1446 1448	清人
+T181	Thing-Nominal 1464 1466	春光
+T182	Thing-Nominal 1469 1471	桃李
+T183	Thing-Nominal 1481 1483	镜面
+T184	Thing-Nominal 1491 1493	荷塘
+T185	Thing-Nominal 1496 1498	湖面
+T186	Thing-Nominal 1503 1505	秋风
+T187	Thing-Nominal 1513 1515	冬雪
+T188	Thing-Nominal 1508 1510	水光
+T189	Thing-Nominal 1516 1517	湖
+T190	Thing-Nominal 1533 1534	月
+T191	Thing-Nominal 1535 1536	风
+T192	Person-Nominal 1540 1541	君
+T193	Location-Nominal 1542 1544	湖畔
+T194	Thing-Nominal 1554 1556	月光
+T195	Location-Nominal 1558 1564	北岸马头墙上
+R29	Located Arg1:T194 Arg2:T195	
+T196	Location-Nominal 1567 1571	青瓦棚顶
+T197	Thing-Nominal 1586 1588	湖面
+T198	Thing-Nominal 1593 1597	一层轻纱
+T199	Location-Nominal 1598 1600	岸边
+T200	Thing-Nominal 1601 1603	倒影
+R30	Located Arg1:T200 Arg2:T199	
+T201	Thing-Nominal 1608 1612;1613 1614	水底的月 亮
+T202	Location-Nominal 1608 1610	水底
+R31	Located Arg1:T201 Arg2:T202	
+T203	Thing-Nominal 1626 1628	月亮
+T204	Thing-Nominal 1640 1642	风浪
+T205	Thing-Nominal 1644 1646	楼台
+T206	Thing-Nominal 1646 1648	灯火
+T207	Thing-Nominal 1661 1663	湖景
+T208	Time-Implicit 1667 1673	风和日丽之时
+T209	Thing-Nominal 1674 1676	湖面
+T210	Thing-Nominal 1678 1680	鸭群
+T211	Thing-Nominal 1681 1682	水
+T212	Thing-Nominal 1682 1684	波光
+T213	Thing-Nominal 1689 1690	风
+T214	Thing-Nominal 1691 1692	浪
+T215	Thing-Nominal 1700 1702	树荫
+T216	Thing-Nominal 1702 1703	水
+T217	Thing-Nominal 1705 1707	日光
+T218	Thing-Nominal 1715 1717;1718 1720	湖光 山色
+T219	Person-Nominal 1744 1746	游人
+T220	Location-Nominal 1747 1750	画桥上
+T221	Person-Nominal 1755 1758	恋人们
+T222	Location-Nominal 1759 1762	柳荫下
+T223	Thing-Nominal 1769 1778;1779 1782	青山绿水蓝天白云粉 墙黛瓦
+T224	Thing-Nominal 1788 1798	浓墨重彩渲染的水彩画
+T225	Time-Implicit 1805 1812	烟雨迷蒙的日子
+T226	Thing-Nominal 1823 1825	细雨
+T227	Thing-Nominal 1826 1828	春泥
+T228	Thing-Nominal 1833 1835	小鸟
+T229	Thing-Nominal 1837 1839	杨柳
+T230	Thing-Nominal 1841 1842	桃
+T231	Location-Nominal 1849 1852	画桥西
+T232	Thing-Nominal 1856 1861;1862 1867	一幅淡墨轻 写的水墨画
+T233	Thing-Nominal 1875 1877	宏村
+T234	Location-Name 1879 1883	黄山南麓
+R32	Located Arg1:T233 Arg2:T234	
+T235	Thing-Nominal 1889 1891	水气
+T236	Thing-Nominal 1894 1898	山间湖面
+T237	Thing-Nominal 1906 1910	轻云薄雾
+T238	Thing-Nominal 1916 1920	宏村南湖
+T239	Time-Explicit 1935 1942	清嘉庆甲戊年秋
+T240	Person-Name 1943 1952	浙江钱塘名士吴锡麟
+T241	Time-Implicit 1952 1956	游南湖后
+T242	Thing-Nominal 1963 1967	宏村南湖
+T243	Thing-Nominal 1973 1977	浙江西湖
+T244	Thing-Nominal 1981 1983	南湖
+T245	Location-Nominal 1986 1990	黄山脚下
+T246	Thing-Nominal 1990 1993	小西湖
+R33	Located Arg1:T246 Arg2:T245	
+T247	Person-Name 1998 2001	苏东坡
+T248	Thing-Nominal 2004 2006	西湖
+T249	Thing-Nominal 2016 2018	山色
+T250	Thing-Nominal 2020 2021	雨
+T251	Thing-Nominal 2026 2028	西湖
+T252	Person-Nominal 2029 2031	西子
+T253	Thing-Nominal 2045 2049	宏村南湖
+T254	Thing-Nominal 2032 2034	淡妆

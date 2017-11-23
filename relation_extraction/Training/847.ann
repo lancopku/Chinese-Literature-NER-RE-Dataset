@@ -1,0 +1,381 @@
+T1	Person-Nominal 0 3	有些人
+T2	Person-Nominal 21 23	贪官
+T3	Person-Nominal 37 40	当官的
+T4	Person-Nominal 47 49	自己
+*	Coreference T4 T1 T5 T7 T8 T10
+T5	Person-Pronoun 51 53	他们
+T6	Person-Nominal 60 62	法官
+R1	Social Arg1:T5 Arg2:T6	
+T7	Person-Nominal 79 81	自己
+T8	Person-Pronoun 102 103	我
+T9	Thing-Nominal 104 105	枪
+R2	Use Arg1:T8 Arg2:T9	
+T10	Person-Pronoun 118 119	他
+T11	Location-Nominal 118 120	他家
+T12	Thing-Nominal 122 124	面团
+R3	Located Arg1:T12 Arg2:T11	
+T13	Person-Nominal 146 148	大家
+T14	Thing-Nominal 159 161	大门
+T15	Organization-Nominal 165 167	国家
+T16	Time-Implicit 179 182	旧社会
+T17	Organization-Nominal 183 186	看守所
+T18	Time-Implicit 201 203	现在
+T19	Location-Nominal 215 216	街
+T20	Location-Nominal 217 218	巷
+T21	Thing-Nominal 228 229	耳
+T22	Time-Implicit 230 233	平日里
+T23	Thing-Nominal 234 235	酒
+T24	Person-Pronoun 252 253	你
+T25	Location-Nominal 254 257	西北角
+T26	Person-Pronoun 258 260	我们
+T27	Location-Nominal 258 261	我们县
+T28	Organization-Nominal 263 266	看守所
+R4	Part-Whole Arg1:T28 Arg2:T27	
+T29	Location-Nominal 267 273	城区的西北角
+R5	Part-Whole Arg1:T28 Arg2:T29	
+T30	Metric 276 278	两天
+T31	Person-Pronoun 278 279	你
+*	Coreference T24 T31
+T32	Location-Pronoun 286 288	那儿
+*	Coreference T32 T28
+T33	Person-Nominal 305 307	狱霸
+T34	Person-Nominal 319 321	老大
+T35	Person-Nominal 336 338	有的
+T36	Person-Nominal 340 344	里面的人
+T37	Person-Pronoun 348 350	他们
+*	Coreference T36 T37
+T38	Person-Nominal 359 362	强奸犯
+T39	Person-Nominal 363 366	贪污犯
+T40	Thing-Nominal 372 373	皮
+T41	Thing-Nominal 373 374	肉
+T42	Person-Nominal 399 401	贪官
+R6	Social Arg1:T37 Arg2:T42	
+T43	Location-Nominal 405 406	街
+T44	Thing-Nominal 406 408	老鼠
+R7	Located Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 410 411	枝
+T46	Thing-Nominal 409 410	金
+T47	Thing-Nominal 411 412	玉
+T48	Thing-Nominal 412 413	叶
+T49	Organization-Nominal 432 436	检察机关
+T50	Location-Nominal 467 469	地狱
+T51	Location-Nominal 466 473	这地狱般的境地
+T52	Person-Pronoun 475 477	他们
+T53	Location-Pronoun 482 484	这里
+*	Coreference T53 T51
+T54	Person-Nominal 530 533	干警们
+T55	Time-Implicit 540 542	今天
+T56	Person-Pronoun 552 553	我
+T57	Organization-Nominal 566 569	看守所
+T58	Time-Implicit 570 572	日日
+T59	Thing-Nominal 572 573	花
+T60	Thing-Nominal 574 575	酒
+T61	Time-Implicit 577 579	夜夜
+T62	Thing-Nominal 580 581	袖
+T63	Person-Nominal 584 588	想去的人
+T64	Organization-Nominal 612 615	看守所
+T65	Location-Nominal 621 623	河边
+T66	Organization-Nominal 627 629	纪委
+T67	Organization-Nominal 659 662	看守所
+T68	Thing-Nominal 673 676	预防针
+T69	Person-Nominal 678 682	纪委领导
+R8	Ownership Arg1:T69 Arg2:T66	
+T70	Thing-Nominal 756 758	中轿
+T71	Location-Nominal 760 766	看守所的院子
+R9	Located Arg1:T70 Arg2:T71	
+T72	Time-Explicit 774 779	上午10点
+T73	Person-Nominal 783 785	来人
+T74	Person-Nominal 786 789	一把手
+T75	Thing-Nominal 797 798	盐
+R10	General-Special Arg1:T74 Arg2:T73	
+T76	Person-Nominal 804 807	这些人
+T77	Person-Nominal 796 802	吃盐不管酸的
+R11	General-Special Arg1:T77 Arg2:T73	
+R12	Social Arg1:T74 Arg2:T77	
+*	Coreference T77 T76
+T78	Location-Pronoun 808 809	此
+T79	Person-Pronoun 830 831	你
+T80	Location-Nominal 870 872	院落
+T81	Thing-Nominal 876 878	楼房
+R13	Located Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 882 884	鲜花
+R14	Located Arg1:T82 Arg2:T80	
+T83	Thing-Nominal 888 890	草地
+R15	Located Arg1:T83 Arg2:T80	
+T84	Person-Nominal 919 922	武警战
+T85	Thing-Nominal 962 964	铁门
+T86	Person-Nominal 987 990	参观者
+T87	Thing-Nominal 996 998	手机
+T88	Thing-Nominal 999 1001	相机
+T89	Location-Nominal 1008 1010	外面
+R16	Ownership Arg1:T86 Arg2:T87	
+R17	Ownership Arg1:T86 Arg2:T88	
+T90	Location-Nominal 1014 1016	里面
+T91	Person-Pronoun 1024 1025	你
+T92	Location-Pronoun 1031 1033	里面
+T93	Person-Pronoun 1037 1038	你
+T94	Thing-Nominal 1051 1053	门锁
+T95	Thing-Nominal 1054 1056	铁门
+R18	Located Arg1:T94 Arg2:T95	
+T96	Thing-Nominal 1077 1078	锁
+T97	Thing-Nominal 1080 1085	指纹识别锁
+*	Coreference T97 T96 T94
+T98	Person-Nominal 1091 1095	管教人员
+T99	Thing-Nominal 1096 1098	指纹
+R19	Part-Whole Arg1:T99 Arg2:T98	
+T100	Person-Nominal 1099 1101	人员
+T101	Thing-Nominal 1107 1109	铁门
+T102	Person-Nominal 1115 1117	所长
+T103	Thing-Nominal 1121 1125	第一道们
+T104	Person-Pronoun 1129 1130	你
+T105	Thing-Nominal 1143 1147	第二道门
+T106	Location-Nominal 1149 1155	第二道门里面
+T107	Person-Nominal 1159 1161	嫌犯
+T108	Location-Nominal 1157 1164	关押嫌犯的地方
+*	Coreference T108 T106
+T109	Location-Nominal 1166 1170	世外桃源
+T110	Thing-Nominal 1179 1182	中轴线
+T111	Location-Nominal 1187 1189	长廊
+T112	Thing-Nominal 1194 1198	几排监房
+R20	Near Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 1200 1202	监房
+T114	Thing-Nominal 1205 1207	院墙
+T115	Thing-Nominal 1210 1212	院墙
+T116	Thing-Nominal 1215 1218	铁丝网
+T117	Location-Nominal 1219 1221	望哨
+R21	Located Arg1:T116 Arg2:T115	
+T118	Location-Nominal 1222 1225	望哨上
+T119	Thing-Nominal 1227 1228	枪
+T120	Thing-Nominal 1229 1230	弹
+T121	Person-Nominal 1231 1233	战士
+R22	Ownership Arg1:T121 Arg2:T120	
+R23	Ownership Arg1:T121 Arg2:T119	
+R24	Located Arg1:T120 Arg2:T119	
+T122	Thing-Nominal 1254 1255	翅
+T123	Person-Pronoun 1258 1259	我
+T124	Location-Pronoun 1267 1269	这里
+T125	Location-Nominal 1283 1286	过道外
+T126	Location-Nominal 1287 1290	空闲地
+R25	Part-Whole Arg1:T125 Arg2:T126	
+T127	Thing-Nominal 1300 1302	花生
+T128	Thing-Nominal 1303 1305	蔬菜
+R26	Located Arg1:T127 Arg2:T126	
+R27	Located Arg1:T128 Arg2:T126	
+T129	Person-Nominal 1312 1315	疑犯们
+T130	Person-Nominal 1327 1330	干警们
+T131	Person-Nominal 1332 1334	嫌犯
+R28	Social Arg1:T130 Arg2:T131	
+T132	Time-Implicit 1341 1346	提审的时间
+T133	Thing-Nominal 1407 1409	服装
+T134	Person-Nominal 1419 1421	干警
+T135	Person-Nominal 1422 1424	熟人
+R29	Social Arg1:T134 Arg2:T135	
+T136	Person-Pronoun 1427 1429	他们
+*	Coreference T136 T131
+T137	Thing-Nominal 1430 1432	双手
+T138	Thing-Nominal 1433 1434	头
+T139	Thing-Nominal 1435 1436	脸
+R30	Part-Whole Arg1:T139 Arg2:T136	
+R31	Part-Whole Arg1:T138 Arg2:T136	
+R32	Part-Whole Arg1:T137 Arg2:T136	
+T140	Location-Nominal 1437 1439	地面
+T141	Person-Nominal 1447 1448;1449 1451	重 刑犯
+R33	General-Special Arg1:T141 Arg2:T136	
+T142	Thing-Nominal 1456 1458	手铐
+T143	Thing-Nominal 1458 1460	脚镣
+R34	Ownership Arg1:T141 Arg2:T142	
+R35	Ownership Arg1:T141 Arg2:T143	
+T144	Location-Nominal 1466 1468	房间
+T145	Metric 1476 1480	30平米
+T146	Location-Nominal 1494 1496	里面
+*	Coreference T146 T144
+T147	Location-Nominal 1498 1500	男监
+R36	General-Special Arg1:T147 Arg2:T146	
+T148	Person-Nominal 1503 1505	众人
+T149	Location-Nominal 1515 1517	铺沿
+T150	Thing-Nominal 1519 1520	面
+T151	Thing-Nominal 1521 1523	白墙
+T152	Thing-Nominal 1534 1535	壁
+T153	Person-Nominal 1547 1549	嫌犯
+T154	Thing-Nominal 1559 1562	香烟盒
+T155	Thing-Nominal 1563 1565	锡纸
+R37	Part-Whole Arg1:T155 Arg2:T154	
+T156	Person-Nominal 1568 1571	女嫌犯
+R38	General-Special Arg1:T156 Arg2:T136	
+T157	Person-Pronoun 1572 1574	她们
+*	Coreference T157 T156
+T158	Thing-Nominal 1580 1582	纸张
+*	Coreference T155 T158
+T159	Thing-Nominal 1583 1585	纸张
+T160	Person-Pronoun 1596 1598	她们
+T161	Thing-Nominal 1599 1600	脸
+R39	Part-Whole Arg1:T161 Arg2:T160	
+T162	Person-Nominal 1601 1603	有人
+T163	Person-Nominal 1606 1608	所长
+R40	Social Arg1:T162 Arg2:T163	
+R41	Social Arg1:T160 Arg2:T163	
+T164	Person-Pronoun 1609 1611	她们
+T165	Person-Pronoun 1618 1619	我
+R42	Social Arg1:T165 Arg2:T163	
+R43	Social Arg1:T165 Arg2:T162	
+T166	Person-Nominal 1629 1631	所长
+T167	Location-Pronoun 1669 1671	这里
+T168	Person-Nominal 1679 1681	人们
+T169	Location-Nominal 1682 1684	窗外
+T170	Person-Pronoun 1689 1691	他们
+T171	Organization-Nominal 1712 1714	政府
+T172	Person-Pronoun 1715 1716	我
+T173	Location-Nominal 1718 1720	厕所
+T174	Organization-Nominal 1725 1727	政府
+T175	Person-Pronoun 1728 1729	我
+T176	Person-Nominal 1738 1740	有人
+T177	Thing-Nominal 1744 1745	手
+T178	Thing-Nominal 1746 1747	足
+R44	Part-Whole Arg1:T178 Arg2:T176	
+R45	Part-Whole Arg1:T177 Arg2:T176	
+T179	Person-Nominal 1750 1754	一般社员
+T180	Time-Implicit 1762 1764	天天
+T181	Person-Nominal 1775 1778	官员们
+T182	Person-Nominal 1800 1802	囚徒
+R46	General-Special Arg1:T181 Arg2:T182	
+*	Coreference T172 T181 T175
+T183	Location-Nominal 1807 1811	监控室内
+T184	Person-Nominal 1812 1814	嫌犯
+T185	Person-Nominal 1834 1836	干警
+T186	Person-Nominal 1846 1849	贪官们
+T187	Location-Pronoun 1853 1856	这地方
+T188	Thing-Nominal 1862 1863	毛
+T189	Thing-Nominal 1864 1865	鸡
+T190	Thing-Nominal 1865 1866	鸭
+R47	Part-Whole Arg1:T188 Arg2:T189	
+R48	Part-Whole Arg1:T188 Arg2:T190	
+T191	Location-Nominal 1874 1876	桌面
+R50	Located Arg1:T189 Arg2:T191	
+R49	Located Arg1:T190 Arg2:T191	
+T192	Person-Pronoun 1901 1903	他们
+T193	Time-Implicit 1903 1906	平日里
+T194	Person-Nominal 1913 1914	民
+T195	Person-Nominal 1919 1921	他人
+T196	Person-Nominal 1942 1944	别人
+T197	Person-Nominal 1947 1949	自己
+*	Coreference T192 T197
+*	Coreference T195 T196
+R51	Social Arg1:T192 Arg2:T195	
+R52	General-Special Arg1:T186 Arg2:T184	
+R53	Social Arg1:T184 Arg2:T185	
+T198	Time-Explicit 2023 2028	11:30
+T199	Time-Implicit 2029 2034	开饭的时间
+*	Coreference T198 T199
+T200	Organization-Nominal 2044 2047	看守所
+T201	Thing-Nominal 2063 2065	馒头
+T202	Thing-Nominal 2068 2070	开水
+T203	Thing-Nominal 2067 2068	碗
+R54	Located Arg1:T203 Arg2:T202	
+T204	Thing-Nominal 2075 2077	咸菜
+T205	Time-Implicit 2078 2080	中午
+T206	Thing-Nominal 2082 2084	馒头
+T207	Thing-Nominal 2085 2086	碗
+T208	Thing-Nominal 2086 2087	菜
+*	Coreference T208 T207
+T209	Thing-Nominal 2059 2061	早餐
+T210	Thing-Nominal 2088 2090	晚餐
+T211	Thing-Nominal 2091 2093	早餐
+T212	Thing-Nominal 2103 2105	馒头
+T213	Person-Nominal 2106 2108	有人
+T214	Person-Nominal 2141 2143	老大
+T215	Person-Nominal 2160 2163	管理员
+T216	Thing-Nominal 2166 2169	一碗菜
+T217	Thing-Nominal 2171 2175	两个馒头
+T218	Person-Nominal 2183 2185	自己
+T219	Location-Nominal 2183 2188	自己的床前
+T220	Thing-Nominal 2192 2193	窗
+T221	Thing-Nominal 2197 2198	菜
+T222	Person-Pronoun 2210 2211	我
+T223	Location-Nominal 2217 2219	自家
+T224	Thing-Nominal 2220 2222	油水
+T225	Time-Implicit 2224 2228	眨眼之间
+T226	Thing-Nominal 2235 2236	杯
+T227	Thing-Nominal 2237 2238	盏
+T228	Thing-Nominal 2252 2253	花
+T229	Thing-Nominal 2266 2267	饭
+T230	Thing-Nominal 2265 2266	箪
+R55	Located Arg1:T229 Arg2:T230	
+T231	Thing-Nominal 2269 2270	瓢
+T232	Thing-Nominal 2273 2275	陋巷
+T233	Person-Nominal 2318 2322	一些官员
+T234	Location-Pronoun 2323 2325	这里
+T235	Location-Pronoun 2346 2348	这里
+T236	Location-Nominal 2351 2357	养生的好地方
+*	Coreference T235 T236
+T237	Time-Implicit 2370 2372	现在
+T238	Person-Nominal 2382 2383	民
+T239	Organization-Nominal 2386 2389	拘留所
+T240	Person-Nominal 2390 2392	疑犯
+*	Coreference T240 T218 T244
+R56	Ownership Arg1:T215 Arg2:T239	
+T241	Person-Nominal 2407 2413	“平头”群众
+T242	Person-Nominal 2420 2421;2422 2425	高 级干部
+T243	Location-Pronoun 2426 2428	这里
+*	Coreference T243 T239
+T244	Person-Pronoun 2430 2432	他们
+T245	Metric 2436 2438	十天
+T246	Metric 2439 2441	半月
+T247	Person-Pronoun 2443 2444	我
+T248	Person-Pronoun 2446 2447	我
+T249	Person-Nominal 2478 2479	民
+T250	Location-Nominal 2491 2495	多媒体室
+R57	Part-Whole Arg1:T250 Arg2:T243	
+T251	Abstract 2498 2503	反腐警示片
+T252	Person-Nominal 2505 2507	男的
+T253	Person-Nominal 2508 2510	女的
+T254	Person-Nominal 2511 2513	老的
+T255	Person-Nominal 2514 2516	少的
+T256	Person-Nominal 2517 2521	职务高的
+T257	Person-Nominal 2522 2526	职务低的
+T258	Person-Nominal 2529 2534	强势部门的
+T259	Person-Nominal 2540 2545	清水衙门的
+T260	Organization-Nominal 2529 2533	强势部门
+T261	Organization-Nominal 2540 2544	清水衙门
+T262	Person-Nominal 2551 2553	罪犯
+R58	General-Special Arg1:T259 Arg2:T262	
+R59	General-Special Arg1:T258 Arg2:T262	
+R60	General-Special Arg1:T257 Arg2:T262	
+R61	General-Special Arg1:T256 Arg2:T262	
+R62	General-Special Arg1:T255 Arg2:T262	
+R63	General-Special Arg1:T254 Arg2:T262	
+R64	General-Special Arg1:T253 Arg2:T262	
+R65	General-Special Arg1:T252 Arg2:T262	
+T263	Person-Nominal 2569 2572	一个人
+T264	Location-Nominal 2574 2576	台上
+T265	Location-Nominal 2587 2589	监狱
+T266	Person-Nominal 2597 2600	一个人
+T267	Thing-Nominal 2601 2603	正装
+R66	Ownership Arg1:T266 Arg2:T267	
+T268	Thing-Nominal 2616 2618	囚服
+R67	Ownership Arg1:T266 Arg2:T268	
+T269	Thing-Nominal 2654 2655	胸
+T270	Thing-Nominal 2656 2657	足
+T271	Time-Implicit 2660 2662	当初
+T272	Thing-Nominal 2687 2689	云烟
+T273	Thing-Nominal 2716 2717	灯
+T274	Thing-Nominal 2708 2710	大厦
+T275	Thing-Nominal 2744 2746	铁窗
+T276	Person-Nominal 2818 2820	贪官
+T277	Thing-Nominal 2841 2842	足
+T278	Thing-Nominal 2843 2844	马
+T279	Person-Nominal 2849 2851	有人
+T280	Metric 2881 2883	百米
+T281	Person-Nominal 2896 2898	有人
+T282	Person-Pronoun 2965 2966	你
+T283	Organization-Nominal 2975 2978	看守所
+T284	Person-Nominal 3025 3027	自己
+T285	Thing-Nominal 3018 3021	方向盘
+T286	Thing-Nominal 3027 3028	手
+R68	Part-Whole Arg1:T286 Arg2:T284	
+R69	Part-Whole Arg1:T285 Arg2:T286	
+T287	Thing-Nominal 3031 3032	瓜
+T288	Thing-Nominal 3033 3034	瓜
+T289	Thing-Nominal 3036 3037	豆
+T290	Thing-Nominal 3038 3039	豆
+T291	Thing-Nominal 3045 3047	沃土
+T292	Organization-Nominal 3094 3097	看守所

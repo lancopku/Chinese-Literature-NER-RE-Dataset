@@ -1,0 +1,256 @@
+T1	Time-Explicit 3 16	农历二零一四年的腊月二十三
+T2	Location-Nominal 22 24	厨房
+T3	Thing-Nominal 29 33	天然气灶
+T4	Thing-Nominal 34 38	抽油烟机
+T5	Thing-Nominal 39 42	热水器
+T6	Thing-Nominal 43 45	冰箱
+T7	Thing-Nominal 46 49	微波炉
+T8	Person-Nominal 52 59	灶王爷、灶王婆
+T9	Person-Nominal 64 69	二位老人家
+T10	Metric 83 86	二十年
+T11	Location-Nominal 90 92	农村
+T12	Location-Nominal 93 105	那个土土的小小的四合院里
+T13	Person-Nominal 111 117	二位神爷神婆
+T14	Thing-Nominal 118 120	农家
+T15	Location-Nominal 126 128	农村
+T16	Person-Pronoun 133 134	你
+T17	Location-Nominal 135 136	城
+*	Coreference T9 T8
+T18	Time-Implicit 144 147	小时候
+T19	Location-Name 148 152	宝鸡农村
+T20	Thing-Nominal 162 163	灶
+T21	Thing-Nominal 190 193	农家院
+T22	Thing-Nominal 201 203	神位
+T23	Person-Nominal 207 210	土地爷
+T24	Person-Nominal 211 214	天王爷
+T25	Person-Nominal 215 218	井王爷
+T26	Person-Nominal 220 223	灶王爷
+T27	Person-Nominal 224 227	财神爷
+T28	Person-Nominal 228 231	仓神爷
+T29	Person-Nominal 232 234	门神
+T30	Person-Nominal 235 237	醋神
+T31	Thing-Nominal 241 243	院门
+T32	Person-Nominal 249 252	土地神
+T33	Thing-Nominal 256 264	一个照壁式的建筑
+T34	Location-Nominal 265 267	中间
+T35	Thing-Nominal 269 271	神龛
+R1	Located Arg1:T35 Arg2:T34	
+T36	Location-Nominal 272 274	龛里
+T37	Thing-Nominal 276 280;281 284	土地神的 木版画
+R2	Located Arg1:T37 Arg2:T36	
+T38	Person-Nominal 285 288	家乡人
+T39	Person-Nominal 291 294	土地爷
+T40	Thing-Nominal 296 299	这个龛
+T41	Thing-Nominal 300 305	土地爷堂堂
+T42	Location-Nominal 306 308	龛上
+T43	Thing-Nominal 310 312	对联
+R3	Located Arg1:T43 Arg2:T42	
+T44	Person-Nominal 313 316	土地爷
+T45	Thing-Nominal 319 321	对联
+T46	Person-Nominal 326 329	一老仙
+T47	Location-Nominal 338 340	土中
+T48	Thing-Nominal 342 344	白玉
+R4	Located Arg1:T48 Arg2:T47	
+T49	Location-Nominal 345 347	地内
+T50	Thing-Nominal 348 350	黄金
+R5	Located Arg1:T50 Arg2:T49	
+T51	Thing-Nominal 354 359	土地爷堂堂
+T52	Thing-Nominal 361 363	院子
+T53	Location-Nominal 365 367	院子
+T54	Location-Nominal 371 375	正面墙上
+T55	Thing-Nominal 377 379	一龛
+R6	Located Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 381 385	天爷堂堂
+*	Coreference T56 T55
+T57	Thing-Nominal 387 389	对联
+T58	Thing-Nominal 407 414	井王爷的神龛联
+T59	Thing-Nominal 429 435	灶王爷的神龛
+T60	Person-Nominal 429 432	灶王爷
+T61	Location-Nominal 440 446	灶的正墙当间
+T62	Thing-Nominal 451 453	香炉
+T63	Thing-Nominal 454 456	板板
+R7	Located Arg1:T63 Arg2:T61	
+T64	Location-Nominal 457 460	板板上
+T65	Thing-Nominal 464 476	木制的很精致的贴灶君的龛
+R8	Located Arg1:T65 Arg2:T64	
+T66	Thing-Nominal 477 479	神联
+T67	Person-Nominal 494 497	财神爷
+T68	Person-Nominal 502 505	财源主
+T69	Location-Nominal 500 502	天上
+T70	Location-Nominal 506 508	人间
+T71	Person-Nominal 508 511	福禄神
+T72	Person-Nominal 513 516	仓神爷
+T73	Thing-Nominal 519 521	米面
+T74	Thing-Nominal 522 523	山
+T75	Thing-Nominal 526 528	油盐
+T76	Thing-Nominal 529 530	海
+T77	Thing-Nominal 535 537	牲畜
+T78	Person-Nominal 542 545	马王爷
+T79	Thing-Nominal 548 549	牛
+T80	Thing-Nominal 550 553	南山虎
+T81	Thing-Nominal 554 555	马
+T82	Thing-Nominal 556 560	北海龙”
+T83	Thing-Nominal 564 566	土地
+T84	Person-Nominal 567 569	灶神
+T85	Person-Nominal 575 580	其余的神爷
+T86	Thing-Nominal 584 585	龛
+T87	Thing-Nominal 589 594	神像、神联
+T88	Thing-Nominal 619 620	灶
+T89	Location-Name 622 626	宝鸡地区
+T90	Person-Nominal 632 633	女
+T91	Person-Nominal 637 638	男
+T92	Thing-Nominal 640 641	月
+T93	Thing-Nominal 635 636	灶
+T94	Thing-Nominal 627 628	灶
+T95	Person-Nominal 648 649	男
+T96	Person-Nominal 653 654	女
+T97	Thing-Nominal 651 652	灶
+T98	Person-Nominal 656 657	祖
+T99	Thing-Nominal 661 663	我家
+T100	Time-Implicit 663 665	每年
+T101	Time-Implicit 666 669	祭灶日
+T102	Person-Nominal 672 674	母亲
+T103	Person-Nominal 678 680	姐姐
+T104	Person-Pronoun 661 662	我
+R9	Family Arg1:T102 Arg2:T104	
+R10	Family Arg1:T103 Arg2:T104	
+T105	Thing-Nominal 694 700	十二个灶干粮
+T106	Person-Nominal 702 707	灶爷、灶婆
+T107	Location-Name 708 710	天宫
+T108	Location-Nominal 713 715	路上
+T109	Thing-Nominal 717 719	材料
+T110	Time-Implicit 720 723	磨面时
+T111	Thing-Nominal 728 733	小麦精白粉
+T112	Thing-Nominal 737 757	十二个直径约五市寸，厚度不足一寸的圆干粮
+T113	Time-Implicit 759 761	闰月
+T114	Time-Implicit 769 773	祭灶那天
+T115	Thing-Nominal 776 778	早饭
+T116	Person-Nominal 779 781	母亲
+T117	Time-Implicit 787 792	;中午饭后
+T118	Thing-Nominal 797 801	发好的面
+T119	Thing-Nominal 802 803	面
+T120	Time-Implicit 823 825	这时
+T121	Person-Nominal 826 828	姐姐
+T122	Thing-Nominal 831 833	灶火
+T123	Thing-Nominal 834 836	风箱
+T124	Person-Nominal 843 845	母亲
+T125	Location-Nominal 848 851	锅台边
+T126	Thing-Nominal 852 853	手
+R11	Part-Whole Arg1:T126 Arg2:T124	
+T127	Person-Nominal 865 867	姐姐
+T128	Time-Implicit 873 877	两小时后
+T129	Thing-Nominal 878 892	一锅黄亮、厚实、硬梆的灶干粮
+T130	Person-Nominal 903 906	全家人
+T131	Person-Nominal 909 912	男人们
+T132	Location-Nominal 915 917	房子
+T133	Person-Nominal 921 924	妇女们
+T134	Time-Implicit 924 927	祭灶后
+T135	Thing-Nominal 931 939	一年一回的灶干粮
+T136	Time-Implicit 940 942	这时
+T137	Location-Nominal 943 950	我们家的灶房里
+T138	Person-Nominal 952 957	母亲和姐姐
+T139	Person-Pronoun 958 959	我
+R12	Family Arg1:T139 Arg2:T138	
+T140	Location-Nominal 964 968	厨房门口
+T141	Person-Nominal 972 974	母亲
+T142	Thing-Nominal 976 978	蜡烛
+T143	Person-Nominal 984 986	姐姐
+T144	Location-Nominal 988 994	灶前的草墩上
+T145	Thing-Nominal 997 1001	几张烧表
+T146	Time-Implicit 1002 1005	磕头后
+T147	Thing-Nominal 1005 1007	两手
+T148	Person-Nominal 1016 1025	高高在上的灶爷灶婆
+T149	Person-Pronoun 1026 1027	您
+*	Coreference T149 T148
+T150	Thing-Nominal 1032 1036	我们一家
+T151	Person-Pronoun 1032 1034	我们
+T152	Person-Nominal 1041 1044	善良人
+T153	Person-Pronoun 1061 1062	您
+T154	Thing-Nominal 1064 1068	这些干粮
+T155	Location-Name 1069 1071	天宫
+T156	Person-Pronoun 1075 1077	我们
+T157	Person-Nominal 1082 1086	天地神灵
+T158	Person-Nominal 1088 1093	我们全家人
+T159	Time-Implicit 1099 1101;1102 1104	大年 初一
+T160	Thing-Nominal 1104 1105	鸡
+T161	Thing-Nominal 1108 1112	我们全家
+T162	Person-Pronoun 1129 1130	您
+T163	Time-Implicit 1133 1135	明年
+T164	Person-Pronoun 1135 1137	我们
+T165	Person-Pronoun 1145 1146	您
+T166	Person-Nominal 1161 1162;1163 1167	妈 妈和姐姐
+T167	Thing-Nominal 1170 1178	贴了一年的灶神像
+T168	Person-Nominal 1197 1208	土地爷、天王爷、井王爷
+T169	Thing-Nominal 1211 1216	神像、神联
+T170	Location-Nominal 1218 1220	灶台
+T171	Location-Nominal 1227 1235	每个灶干粮的中心
+T172	Location-Nominal 1243 1245	火中
+T173	Thing-Nominal 1253 1255	黄表
+T174	Thing-Nominal 1270 1274	灶爷板板
+T175	Time-Implicit 1277 1279	明日
+T176	Person-Nominal 1279 1284	庙里的和尚
+T177	Location-Nominal 1279 1281	庙里
+T178	Thing-Nominal 1286 1287	锣
+T179	Person-Nominal 1297 1300	全家人
+T180	Thing-Nominal 1308 1316	一年一次的灶干粮
+T181	Person-Nominal 1322 1324	孩子
+T182	Person-Pronoun 1326 1327	我
+T183	Person-Nominal 1332 1337	母亲和姐姐
+T184	Thing-Nominal 1340 1343	跟屁虫
+T185	Time-Implicit 1356 1358	这时
+T186	Thing-Nominal 1368 1371	灶干粮
+R13	Family Arg1:T182 Arg2:T183	
+T187	Thing-Nominal 1372 1380	天下最美味的食物
+T188	Person-Pronoun 1381 1382	我
+*	Coreference T187 T186
+T189	Person-Nominal 1385 1392	天下最幸福的人
+T190	Person-Pronoun 1397 1398	我
+T191	Person-Nominal 1408 1410	母亲
+R14	Family Arg1:T191 Arg2:T190	
+T192	Person-Nominal 1411 1414	灶王爷
+T193	Person-Nominal 1424 1427	灶王爷
+T194	Person-Pronoun 1441 1442	我
+T195	Thing-Nominal 1451 1454	灶干粮
+T196	Thing-Nominal 1455 1457	麦面
+T197	Location-Nominal 1463 1465	里面
+T198	Thing-Nominal 1469 1471	糠菜
+R15	Located Arg1:T198 Arg2:T197	
+T199	Person-Pronoun 1472 1473	您
+*	Coreference T199 T193
+T200	Person-Pronoun 1479 1480	我
+T201	Person-Pronoun 1487 1488	您
+T202	Person-Nominal 1493 1498	我们家娃娃
+T203	Thing-Nominal 1501 1503	肚子
+T204	Person-Nominal 1508 1510	母亲
+R16	Part-Whole Arg1:T203 Arg2:T202	
+T205	Location-Nominal 1518 1522	母亲身旁
+T206	Person-Nominal 1523 1525	姐姐
+R17	Family Arg1:T206 Arg2:T204	
+T207	Person-Pronoun 1529 1530	我
+T208	Location-Nominal 1531 1535	厨房门外
+T209	Thing-Nominal 1552 1558	那年的灶干粮
+T210	Person-Pronoun 1559 1560	我
+T212	Person-Nominal 1589 1595	灶王爷灶王婆
+T213	Location-Nominal 1595 1597	嘴里
+T214	Location-Name 1605 1607	天宫
+T215	Location-Name 1612 1614	宝鸡
+T211	Location-Name 1575 1577	宝鸡
+T216	Person-Nominal 1625 1628	宝鸡人
+T217	Thing-Nominal 1630 1633	灶干粮
+T218	Person-Nominal 1647 1654	在家种地的弟弟
+T219	Person-Pronoun 1657 1658	他
+*	Coreference T219 T218
+T220	Thing-Nominal 1660 1663	灶干粮
+T221	Thing-Nominal 1669 1675	家里的灶干粮
+T222	Location-Nominal 1669 1671	家里
+R18	Located Arg1:T221 Arg2:T222	
+T223	Person-Pronoun 1680 1681	我
+T224	Person-Nominal 1702 1705	我媳妇
+T225	Person-Pronoun 1702 1703	我
+T226	Thing-Nominal 1711 1714	灶干粮
+T227	Location-Name 1718 1720	宝鸡
+T228	Thing-Nominal 1721 1724	灶干粮
+T229	Thing-Nominal 1735 1738	灶干粮
+T230	Person-Nominal 1731 1733	母亲
+R19	Family Arg1:T224 Arg2:T225	
+*	Coreference T16 T13

@@ -1,0 +1,186 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 6 9	假槟榔
+T3	Thing-Nominal 11 12	树
+R1	General-Special Arg1:T2 Arg2:T3	
+T4	Location-Name 16 18	桂林
+R2	Located Arg1:T2 Arg2:T4	
+T5	Thing-Nominal 29 32	椰子树
+T6	Thing-Nominal 38 41	椰子树
+T7	Location-Name 44 46	海南
+R3	Located Arg1:T6 Arg2:T7	
+T8	Location-Name 57 59	桂林
+T9	Thing-Nominal 67 68	树
+*	Coreference T9 T2
+T10	Thing-Nominal 70 72	标牌
+R4	Located Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 80 83	假槟榔
+T12	Thing-Nominal 92 94	槟榔
+T13	Thing-Nominal 102 105	假槟榔
+T14	Thing-Nominal 117 119	棕榈
+T15	Thing-Nominal 132 135	假槟榔
+T16	Thing-Nominal 154 157	假槟榔
+T17	Thing-Nominal 162 164	名树
+T18	Thing-Pronoun 169 170	它
+*	Coreference T18 T16
+T19	Thing-Nominal 185 187	树叶
+T20	Thing-Nominal 188 190	树干
+T21	Thing-Nominal 199 203	梯形环纹
+R5	Located Arg1:T21 Arg2:T20	
+R6	Part-Whole Arg1:T19 Arg2:T18	
+R7	Part-Whole Arg1:T20 Arg2:T18	
+T22	Person-Pronoun 217 218	我
+T23	Thing-Pronoun 221 222	它
+T24	Location-Nominal 230 236	南方很多城市
+T25	Thing-Nominal 246 249	假槟榔
+T26	Location-Nominal 257 259	公园
+T27	Location-Nominal 260 262	街道
+R8	Located Arg1:T25 Arg2:T26	
+R9	Located Arg1:T25 Arg2:T27	
+T28	Thing-Nominal 283 286	假槟榔
+T29	Thing-Nominal 293 294	树
+R10	General-Special Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 296 299	假槟榔
+T31	Thing-Nominal 301 307	亚历山大椰子
+*	Coreference T30 T31
+T32	Location-Name 311 315	澳大利亚
+T33	Organization-Pronoun 317 319	我国
+T34	Metric 323 327	一百多年
+T36	Thing-Nominal 336 339	槟榔树
+T37	Person-Nominal 346 348	人们
+T38	Thing-Pronoun 349 350	它
+T39	Thing-Nominal 351 354	假槟榔
+*	Coreference T38 T39 T40
+T40	Thing-Pronoun 332 333	其
+T35	Thing-Nominal 357 359	棕榈
+T41	Thing-Nominal 361 363	植物
+T42	Person-Nominal 367 369	有人
+T43	Thing-Nominal 370 373	假槟榔
+T44	Thing-Nominal 374 377	皇后葵
+R11	General-Special Arg1:T43 Arg2:T35	
+R12	General-Special Arg1:T44 Arg2:T35	
+T45	Thing-Nominal 382 386	棕榈之王
+R13	General-Special Arg1:T44 Arg2:T45	
+R14	General-Special Arg1:T43 Arg2:T45	
+T46	Thing-Nominal 387 394	热带棕榈科植物
+T47	Thing-Nominal 406 409	假槟榔
+T48	Thing-Nominal 412 414	王者
+R15	General-Special Arg1:T47 Arg2:T48	
+R16	General-Special Arg1:T47 Arg2:T46	
+T49	Thing-Pronoun 418 419	其
+*	Coreference T49 T47
+T50	Thing-Nominal 430 431	叶
+T51	Thing-Nominal 435 438	假槟榔
+R17	Part-Whole Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 443 448	棕榈科植物
+T53	Thing-Nominal 464 465	羽
+T54	Person-Name 473 477	铁扇公主
+T55	Thing-Nominal 479 482	芭蕉扇
+R18	Ownership Arg1:T54 Arg2:T55	
+T56	Thing-Nominal 494 497	观叶树
+R19	General-Special Arg1:T51 Arg2:T56	
+T57	Thing-Nominal 500 503	假槟榔
+T58	Thing-Nominal 504 505	叶
+R20	Part-Whole Arg1:T58 Arg2:T57	
+T59	Metric 507 511	2~3米
+T60	Thing-Nominal 514 516	小叶
+T61	Metric 523 530	30~40厘米
+T62	Thing-Nominal 540 544	芭蕉”叶
+T63	Location-Nominal 552 556	树干顶部
+R21	Located Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 567 569	绿伞
+T65	Thing-Nominal 563 564	天
+T66	Thing-Nominal 565 566	地
+T67	Thing-Nominal 571 575	假槟榔树
+T68	Thing-Nominal 582 584	树干
+R22	Part-Whole Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 593 594	枝
+T70	Thing-Nominal 595 596	节
+T71	Thing-Nominal 616 619	水泥柱
+T72	Thing-Nominal 626 628	大树
+*	Coreference T72 T67
+T73	Thing-Nominal 644 648	假槟榔树
+T74	Metric 653 659	25~30米
+T75	Thing-Nominal 663 665	树干
+R23	Part-Whole Arg1:T75 Arg2:T73	
+T76	Thing-Nominal 670 674	梯形环纹
+R24	Located Arg1:T75 Arg2:T76	
+T77	Thing-Nominal 695 698	假槟榔
+T78	Location-Nominal 728 730	北方
+T79	Thing-Nominal 731 733	雪松
+T80	Location-Nominal 734 736	中原
+T81	Thing-Nominal 737 740	白杨树
+R25	Located Arg1:T81 Arg2:T80	
+R26	Located Arg1:T79 Arg2:T78	
+T82	Thing-Pronoun 741 743	它们
+R27	Part-Whole Arg1:T79 Arg2:T82	
+R28	Part-Whole Arg1:T81 Arg2:T82	
+T83	Person-Nominal 778 781	当地人
+T84	Thing-Nominal 795 800	棕榈科植物
+T85	Location-Nominal 801 809	我国南方广大地区
+R29	Located Arg1:T84 Arg2:T85	
+T86	Thing-Nominal 818 836	热带沿海城市最美观、最耀眼的绿化植物
+R30	General-Special Arg1:T84 Arg2:T86	
+T87	Location-Nominal 818 824	热带沿海城市
+T88	Thing-Nominal 838 841	棕榈树
+T89	Thing-Nominal 842 846	大王椰子
+T90	Thing-Nominal 847 851	酒瓶椰子
+T91	Thing-Nominal 852 854	蒲葵
+T92	Thing-Nominal 856 859	散尾葵
+T93	Thing-Nominal 869 874	棕榈科植物
+R31	General-Special Arg1:T88 Arg2:T93	
+R32	General-Special Arg1:T89 Arg2:T93	
+R33	General-Special Arg1:T90 Arg2:T93	
+R34	General-Special Arg1:T91 Arg2:T93	
+R35	General-Special Arg1:T92 Arg2:T93	
+T94	Organization-Pronoun 866 868	我国
+T95	Thing-Nominal 900 903	棕榈叶
+T96	Location-Nominal 906 908	南方
+T97	Location-Nominal 911 916;917 918	沿海各大城 市
+T98	Location-Nominal 919 921	街道
+T99	Location-Nominal 922 924	公园
+R36	Part-Whole Arg1:T98 Arg2:T97	
+R37	Part-Whole Arg1:T99 Arg2:T98	
+T100	Thing-Nominal 937 940	假槟榔
+R38	General-Special Arg1:T100 Arg2:T93	
+T101	Person-Pronoun 956 957	我
+T102	Thing-Nominal 963 966	椰子树
+T103	Thing-Nominal 970 972	电视
+T104	Thing-Nominal 973 977	网络图片
+T105	Thing-Nominal 992 995	椰子树
+T106	Thing-Nominal 1011 1013	树干
+R39	Part-Whole Arg1:T106 Arg2:T105	
+T107	Thing-Nominal 1031 1034	假槟榔
+T108	Person-Pronoun 1038 1039	我
+T109	Thing-Nominal 1047 1053	热带棕榈之王
+T110	Thing-Nominal 1054 1057	椰子树
+*	Coreference T110 T109
+T111	Thing-Nominal 1060 1063	假槟榔
+T112	Person-Nominal 1073 1075	人们
+T113	Thing-Nominal 1081 1082	树
+T114	Person-Nominal 1088 1090	人们
+T115	Thing-Pronoun 1093 1094	它
+T116	Thing-Nominal 1120 1125	北方的雪松
+T117	Thing-Nominal 1126 1132	中原的白杨树
+*	Coreference T115 T113
+T118	Thing-Pronoun 1144 1146	它们
+R40	Part-Whole Arg1:T116 Arg2:T118	
+R41	Part-Whole Arg1:T117 Arg2:T118	
+T119	Thing-Nominal 1183 1186	假槟榔
+T120	Thing-Nominal 1188 1189	树
+R42	General-Special Arg1:T119 Arg2:T120	
+T121	Person-Pronoun 1215 1216	我
+T122	Person-Pronoun 1220 1221	你
+T123	Thing-Pronoun 1228 1230	它们
+T124	Person-Pronoun 1235 1236	你
+T125	Thing-Pronoun 1241 1242	它
+T126	Thing-Pronoun 1255 1256	它
+T127	Person-Pronoun 1268 1269	你
+T128	Thing-Nominal 1278 1280	雪松
+T129	Thing-Nominal 1281 1283	白杨
+T130	Person-Pronoun 1292 1293	你
+T131	Thing-Nominal 1308 1312	高贵树种
+T132	Thing-Pronoun 1313 1315	它们
+*	Coreference T132 T131 T123 T119 T125 T126
+T133	Location-Nominal 1318 1331	我国华南沿海地区辽阔的土地
+R43	Located Arg1:T132 Arg2:T133	
+T134	Location-Nominal 1337 1339	沿海

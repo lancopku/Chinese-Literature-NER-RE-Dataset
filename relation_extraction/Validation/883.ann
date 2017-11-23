@@ -1,0 +1,532 @@
+T1	Thing-Nominal 0 1	树
+T2	Location-Pronoun 5 7	那里
+T3	Thing-Nominal 10 11	树
+R1	Located Arg1:T1 Arg2:T2	
+T4	Thing-Nominal 17 19	木头
+T5	Metric 22 24	一寸
+T6	Thing-Nominal 27 28	树
+T7	Thing-Nominal 31 33	树木
+T8	Metric 38 40	一寸
+T9	Thing-Nominal 55 56	风
+T10	Thing-Nominal 57 58	雨
+T11	Thing-Nominal 87 88	树
+T12	Person-Nominal 94 97	一个人
+T13	Organization-Nominal 111 113	政府
+T14	Metric 137 139	十年
+T15	Thing-Nominal 140 141	树
+T16	Metric 142 144	百年
+T17	Person-Nominal 145 146	人
+T18	Person-Nominal 149 150	人
+T19	Thing-Nominal 152 153	树
+T20	Organization-Nominal 160 164	一个家庭
+T21	Time-Implicit 170 172	今年
+T22	Location-Nominal 173 175	房前
+T23	Location-Nominal 175 177	屋后
+T24	Thing-Nominal 179 180	树
+R2	Located Arg1:T24 Arg2:T22	
+R3	Located Arg1:T24 Arg2:T23	
+T25	Time-Implicit 181 184	十年后
+T26	Thing-Nominal 187 189	房子
+R4	Part-Whole Arg1:T24 Arg2:T26	
+T27	Person-Nominal 192 194	儿子
+T28	Person-Nominal 195 197	媳妇
+R5	Family Arg1:T27 Arg2:T28	
+T29	Thing-Nominal 213 214	树
+T30	Person-Nominal 221 224	当政者
+T31	Person-Nominal 226 228	民众
+T32	Time-Implicit 249 251	如今
+T33	Person-Pronoun 251 253	我们
+T34	Metric 260 263	数千年
+T35	Thing-Nominal 290 291	树
+T36	Thing-Nominal 294 295	树
+T37	Person-Pronoun 303 304	我
+T38	Thing-Nominal 328 329	树
+T39	Thing-Nominal 332 333	树
+T40	Person-Nominal 334 336	山神
+T41	Person-Nominal 336 338	水神
+T42	Thing-Pronoun 360 361	它
+*	Coreference T38 T42
+T43	Person-Nominal 356 358	人类
+T44	Person-Nominal 374 376	人类
+T45	Thing-Nominal 377 379	动物
+T46	Thing-Nominal 380 382	植物
+T47	Time-Implicit 388 392	目前为止
+T48	Thing-Nominal 401 403	古树
+T49	Person-Nominal 407 408	人
+T50	Thing-Nominal 409 411	动物
+T51	Thing-Nominal 412 414	人类
+T52	Thing-Nominal 415 417	动物
+T53	Thing-Nominal 473 474	树
+T54	Metric 479 482	数千年
+T55	Metric 485 487	万年
+T56	Location-Name 495 506	新疆塔克拉玛干沙漠边缘
+T57	Thing-Nominal 512 514	胡杨
+R6	Located Arg1:T57 Arg2:T56	
+R7	General-Special Arg1:T57 Arg2:T53	
+T58	Thing-Pronoun 519 521	它们
+*	Coreference T57 T58
+T59	Metric 523 526	三千年
+T60	Metric 532 535	三千年
+T61	Metric 540 543	三千年
+T62	Thing-Nominal 546 548	胡杨
+T63	Thing-Pronoun 629 630	它
+*	Coreference T63 T62
+T64	Person-Pronoun 566 568	我们
+T65	Person-Pronoun 580 581	我
+T66	Thing-Nominal 611 612	树
+T67	Thing-Nominal 632 634	人类
+T68	Time-Implicit 647 649	当今
+T69	Person-Nominal 655 657	人们
+T70	Person-Nominal 663 665	人类
+T71	Person-Nominal 671 673	家伙
+*	Coreference T70 T71
+T72	Person-Nominal 674 678	人的祖先
+T73	Time-Implicit 680 684	干万年前
+T74	Thing-Nominal 689 693	大树老人
+T75	Thing-Pronoun 694 696	它们
+T76	Thing-Nominal 701 703	果子
+R8	Part-Whole Arg1:T76 Arg2:T74	
+T77	Time-Implicit 707 709	今日
+T78	Person-Pronoun 710 712	我们
+T79	Thing-Pronoun 717 718	它
+T80	Thing-Nominal 718 721	老人家
+*	Coreference T79 T80 T75 T74
+T81	Person-Pronoun 726 728	我们
+T82	Thing-Nominal 746 748	果实
+T83	Person-Pronoun 753 755	我们
+T84	Person-Nominal 774 777	某些人
+T85	Thing-Nominal 793 794	树
+T86	Thing-Nominal 801 804	树老人
+T87	Time-Implicit 806 808	整天
+T88	Person-Pronoun 815 817	我们
+T89	Thing-Pronoun 819 821	它们
+T90	Thing-Pronoun 831 832	它
+T91	Thing-Nominal 833 836	子孙们
+R9	Part-Whole Arg1:T91 Arg2:T90	
+*	Coreference T91 T82
+T92	Thing-Pronoun 843 844	它
+*	Coreference T92 T90 T89 T86
+T93	Time-Implicit 856 858	至今
+T94	Metric 865 868	一万年
+T95	Time-Explicit 872 877	原始共产末
+T96	Time-Implicit 892 894	今天
+T97	Time-Explicit 895 901	社会主义时期
+*	Coreference T96 T97
+T98	Person-Nominal 906 908	人类
+T99	Person-Nominal 568 570	人类
+*	Coreference T64 T99
+T100	Person-Nominal 340 342	人类
+T101	Time-Explicit 926 927	夏
+T102	Time-Explicit 927 928	商
+T103	Time-Explicit 928 929	周
+T104	Time-Explicit 929 930	秦
+T105	Time-Explicit 930 931	汉
+T106	Time-Explicit 931 932	唐
+T107	Time-Explicit 935 936	宋
+T108	Time-Explicit 936 937	元
+T109	Time-Explicit 937 938	明
+T110	Time-Explicit 938 939	清
+T111	Time-Implicit 941 943	现代
+T112	Person-Pronoun 944 946	我们
+T113	Person-Nominal 969 971	人类
+T114	Person-Pronoun 990 992	我们
+T115	Metric 994 997	一万年
+T116	Person-Nominal 1021 1022	人
+T117	Thing-Nominal 1031 1032;1033 1035	树 老人
+T118	Location-Pronoun 1043 1045	那里
+R10	Located Arg1:T117 Arg2:T118	
+T119	Person-Pronoun 1048 1050	我们
+T120	Person-Nominal 1057 1059	傻瓜
+T121	Metric 1073 1076	一万年
+T122	Person-Nominal 1080 1082	人类
+T123	Time-Implicit 1105 1107	如今
+T124	Thing-Nominal 1125 1129	树老人们
+T125	Person-Pronoun 1132 1133	我
+T126	Person-Pronoun 1145 1147	我们
+T127	Time-Implicit 1148 1150	目前
+T128	Thing-Nominal 1196 1198	老树
+*	Coreference T128 T124
+T129	Thing-Nominal 1206 1207	树
+T130	Thing-Nominal 1208 1209	水
+T131	Thing-Nominal 1202 1203	树
+T132	Thing-Nominal 1204 1205	水
+T133	Thing-Pronoun 1212 1214	它们
+*	Coreference T133 T129
+T134	Thing-Nominal 1233 1234	水
+T135	Thing-Nominal 1237 1238	树
+T136	Thing-Nominal 1239 1240	树
+T137	Thing-Nominal 1249 1250	水
+T138	Location-Name 1264 1266	非洲
+T139	Location-Nominal 1270 1276	草原沙漠边缘
+R11	Part-Whole Arg1:T139 Arg2:T138	
+T140	Metric 1282 1287	100多米
+T141	Thing-Nominal 1288 1292	泼巴布树
+R12	Located Arg1:T141 Arg2:T139	
+R13	General-Special Arg1:T141 Arg2:T136	
+T142	Thing-Pronoun 1293 1295	它们
+*	Coreference T142 T141 T146 T151
+T143	Thing-Nominal 1301 1302	针
+T144	Location-Nominal 1305 1307	草原
+T145	Thing-Nominal 1307 1309	荒漠
+T146	Thing-Pronoun 1318 1320	它们
+T147	Thing-Nominal 1323 1325	根系
+R14	Part-Whole Arg1:T147 Arg2:T146	
+T148	Thing-Nominal 1335 1339	毛细根须
+T149	Location-Nominal 1345 1347	大地
+T150	Metric 1347 1350	数百米
+R15	Part-Whole Arg1:T148 Arg2:T147	
+R16	Located Arg1:T148 Arg2:T149	
+T151	Thing-Nominal 1355 1357	自己
+T152	Thing-Nominal 1367 1369	土地
+T153	Thing-Nominal 1369 1371	沙尘
+T154	Thing-Nominal 1376 1378	沙暴
+T155	Thing-Nominal 1378 1380	狂风
+T156	Location-Nominal 1383 1385	地表
+T157	Thing-Nominal 1387 1388	树
+T158	Thing-Nominal 1390 1392	大地
+T159	Thing-Nominal 1402 1404	毛草
+T160	Thing-Nominal 1404 1407	庄稼们
+T161	Thing-Nominal 1417 1419	大树
+T162	Thing-Nominal 1429 1431	树冠
+T163	Thing-Nominal 1442 1444	树冠
+R17	Part-Whole Arg1:T162 Arg2:T161	
+T164	Metric 1449 1454	10立方米
+T165	Thing-Pronoun 1456 1457	它
+*	Coreference T165 T161 T168
+T166	Location-Nominal 1463 1465	地下
+T167	Metric 1475 1478	10吨
+T168	Thing-Pronoun 1487 1488	它
+T169	Location-Nominal 1499 1501	地表
+T170	Location-Nominal 1502 1504	地下
+T171	Thing-Nominal 1514 1515	树
+T172	Thing-Nominal 1525 1526	树
+T173	Thing-Pronoun 1541 1542	它
+*	Coreference T173 T172
+T174	Thing-Nominal 1553 1555	蓝天
+T175	Thing-Nominal 1561 1563	动物
+T176	Thing-Nominal 1563 1565	昆虫
+T177	Thing-Nominal 1565 1567	生物
+R18	General-Special Arg1:T176 Arg2:T177	
+R19	General-Special Arg1:T175 Arg2:T177	
+T178	Thing-Nominal 1582 1585	有生菌
+T179	Person-Nominal 1588 1590	人类
+T180	Thing-Nominal 1590 1592	动物
+R20	General-Special Arg1:T176 Arg2:T175	
+T181	Thing-Nominal 1604 1605	窝
+T182	Thing-Nominal 1607 1608	树
+T183	Thing-Nominal 1609 1611	动物
+T184	Thing-Nominal 1617 1618	树
+T185	Thing-Nominal 1619 1621	动物
+T186	Thing-Nominal 1633 1634	树
+T187	Thing-Nominal 1636 1638	动物
+T188	Thing-Nominal 1642 1644	恐龙
+R21	General-Special Arg1:T188 Arg2:T187	
+T189	Time-Implicit 1642 1650	恐龙最发达的时代
+T190	Thing-Name 1652 1654	地球
+T191	Thing-Nominal 1654 1656	树木
+R22	Located Arg1:T191 Arg2:T190	
+T192	Time-Implicit 1652 1662	地球树木最葱郁的时代
+*	Coreference T189 T192
+T193	Thing-Nominal 1667 1669	恐龙
+T194	Thing-Pronoun 1683 1685	它们
+*	Coreference T194 T193
+T195	Thing-Nominal 1688 1690	树木
+T196	Thing-Nominal 1693 1695	草皮
+T197	Location-Name 1703 1705	地球
+T198	Thing-Nominal 1713 1714	沙
+T199	Thing-Nominal 1715 1716	石
+T200	Thing-Nominal 1720 1722	恐龙
+T201	Person-Nominal 1724 1726	自己
+R23	Part-Whole Arg1:T200 Arg2:T201	
+T202	Thing-Nominal 1730 1731	树
+T203	Location-Nominal 1734 1736	森林
+R24	Located Arg1:T202 Arg2:T203	
+T204	Person-Nominal 1738 1745	缺乏想象力的人
+T205	Thing-Pronoun 1748 1749	它
+*	Coreference T205 T202 T206
+T206	Thing-Nominal 1760 1762	木桩
+T207	Thing-Nominal 1770 1772	林子
+T208	Thing-Nominal 1786 1788	树木
+T209	Thing-Nominal 1820 1822	禽兽
+T210	Thing-Nominal 1825 1827	大树
+T211	Location-Nominal 1828 1833	栖息逃难地
+T212	Person-Nominal 1835 1838	科学家
+T213	Thing-Nominal 1850 1852	禽兽
+T214	Location-Nominal 1858 1860	树丛
+R25	Located Arg1:T213 Arg2:T214	
+T215	Time-Implicit 1806 1808	远古
+T216	Time-Implicit 1808 1810	至今
+T217	Person-Nominal 1802 1804	神灵
+*	Coreference T211 T214
+T218	Thing-Nominal 1863 1865	昆虫
+T219	Thing-Nominal 1865 1867	鸟儿
+T220	Thing-Nominal 1873 1876	树叶汁
+T221	Thing-Pronoun 1883 1885	它们
+*	Coreference T219 T221 T218
+T222	Thing-Nominal 1893 1895	树叶
+T223	Thing-Nominal 1895 1897	树干
+T224	Thing-Nominal 1902 1906	高级动物
+T225	Person-Nominal 1906 1910;1911 1912	人类的祖 先
+T226	Thing-Nominal 1918 1920	大树
+R26	Part-Whole Arg1:T222 Arg2:T226	
+R27	Part-Whole Arg1:T223 Arg2:T226	
+T227	Thing-Nominal 1924 1926	树叶
+T228	Thing-Nominal 1929 1930	树
+T229	Thing-Pronoun 1937 1938	它
+*	Coreference T229 T228
+T230	Thing-Nominal 1898 1900	温床
+T231	Thing-Nominal 1962 1963	巢
+T232	Thing-Nominal 1969 1970	卵
+R28	Located Arg1:T231 Arg2:T232	
+R29	Located Arg1:T231 Arg2:T229	
+T233	Thing-Nominal 1975 1977	大树
+T234	Thing-Nominal 1979 1981	鸟蛋
+R30	Located Arg1:T234 Arg2:T233	
+T235	Thing-Nominal 1996 1997	树
+T236	Thing-Nominal 1999 2001	动物
+T237	Location-Nominal 2005 2008	生存地
+T238	Location-Nominal 2008 2011	用武地
+*	Coreference T237 T238 T239
+T239	Location-Nominal 2013 2017	精神乐园
+T240	Thing-Nominal 2026 2029	非洲豹
+T241	Thing-Nominal 2033 2036	兽中王
+T242	Thing-Nominal 2036 2038	老虎
+T243	Thing-Nominal 2039 2041	狮子
+R31	General-Special Arg1:T242 Arg2:T241	
+R32	General-Special Arg1:T243 Arg2:T241	
+T244	Thing-Pronoun 2043 2044	它
+*	Coreference T241 T244
+T245	Thing-Nominal 2057 2059	大树
+T246	Thing-Nominal 2067 2068	猫
+T247	Thing-Nominal 2072 2074	家犬
+T248	Thing-Nominal 2082 2083	树
+R33	Located Arg1:T246 Arg2:T248	
+R34	Located Arg1:T244 Arg2:T245	
+T249	Thing-Nominal 2088 2089	树
+T250	Thing-Nominal 2090 2091	火
+T251	Thing-Nominal 2103 2105	树木
+T252	Thing-Nominal 2107 2108	火
+T253	Thing-Nominal 2110 2111	火
+T254	Thing-Nominal 2113 2114	树
+T255	Person-Nominal 2136 2138	人类
+T256	Thing-Nominal 2138 2141	动植物
+T257	Time-Implicit 2158 2160	远古
+T258	Location-Nominal 2161 2165	原始森林
+T259	Location-Nominal 2166 2168	上空
+T260	Thing-Nominal 2171 2173	乌云
+R35	Located Arg1:T260 Arg2:T259	
+T261	Thing-Nominal 2176 2178	大地
+T262	Thing-Nominal 2181 2183	甘露
+T263	Thing-Nominal 2190 2191	雷
+T264	Thing-Nominal 2199 2200	树
+T265	Location-Nominal 2227 2229	森林
+T266	Thing-Nominal 2259 2260	火
+T267	Thing-Nominal 2275 2277	动物
+T268	Thing-Nominal 2282 2284	大火
+T269	Location-Nominal 2290 2292	树林
+T270	Thing-Nominal 2302 2304	黑骨
+T271	Thing-Nominal 2309 2311	烟岚
+T272	Thing-Nominal 2321 2322	火
+T273	Person-Pronoun 2354 2356	我们
+T274	Person-Nominal 2356 2358	人类
+*	Coreference T273 T274
+T275	Time-Implicit 2373 2375	周日
+T276	Location-Nominal 2376 2378	闹市
+T277	Person-Pronoun 2381 2382	我
+T278	Thing-Nominal 2383 2384	车
+T279	Location-Nominal 2385 2387	本市
+R36	Ownership Arg1:T277 Arg2:T278	
+T280	Location-Nominal 2390 2392	水库
+T281	Location-Nominal 2392 2394	后山
+T282	Time-Implicit 2397 2399	午后
+T283	Thing-Nominal 2399 2401	斜阳
+T284	Location-Nominal 2405 2407	山坡
+*	Coreference T279 T276
+R37	Part-Whole Arg1:T280 Arg2:T279	
+T285	Location-Nominal 2411 2413	林子
+R38	Part-Whole Arg1:T285 Arg2:T284	
+T286	Person-Pronoun 2417 2418	我
+T287	Location-Name 2428 2432	秦岭南坡
+T288	Location-Nominal 2438 2442	水库水面
+R39	Part-Whole Arg1:T280 Arg2:T281	
+T289	Location-Nominal 2443 2445	水面
+T290	Thing-Nominal 2454 2456	小舟
+R40	Located Arg1:T290 Arg2:T289	
+T291	Thing-Nominal 2460 2462	白木
+T292	Thing-Nominal 2517 2519	孤舟
+*	Coreference T292 T290
+T293	Thing-Nominal 2530 2532	缆绳
+T294	Person-Nominal 2556 2558	人类
+T295	Person-Nominal 2567 2569	神灵
+T296	Thing-Nominal 2585 2587	桩木
+T297	Person-Pronoun 2592 2594	我们
+T298	Thing-Nominal 2597 2599	航船
+T299	Person-Nominal 2609 2611	人类
+T300	Person-Nominal 2623 2626	位老者
+T301	Location-Nominal 2630 2632	林间
+T302	Person-Pronoun 2635 2636	我
+T303	Person-Pronoun 2642 2643	我
+T304	Person-Pronoun 2650 2651	他
+*	Coreference T304 T300
+R41	Social Arg1:T302 Arg2:T300	
+T305	Person-Pronoun 2658 2659	我
+T306	Person-Pronoun 2664 2665	他
+T307	Thing-Nominal 2668 2672	朽木拐杖
+R42	Ownership Arg1:T306 Arg2:T307	
+T308	Person-Pronoun 2674 2675	他
+T309	Person-Pronoun 2687 2688	他
+T310	Person-Nominal 2690 2698	腿脚并不灵便之人
+*	Coreference T309 T310
+T311	Person-Pronoun 2699 2701	我们
+T312	Person-Pronoun 2712 2713	他
+T313	Person-Pronoun 2724 2725	他
+T314	Person-Pronoun 2738 2739	我
+T315	Thing-Nominal 2747 2748	舟
+T316	Thing-Nominal 2774 2777	皂角树
+T317	Person-Pronoun 2784 2785	他
+T318	Person-Pronoun 2804 2805	我
+T319	Person-Pronoun 2815 2816	我
+T320	Person-Pronoun 2818 2819	他
+T321	Person-Pronoun 2837 2838	我
+T322	Person-Nominal 2838 2840	自己
+*	Coreference T321 T322
+T323	Person-Pronoun 2843 2844	他
+T324	Person-Pronoun 2855 2856	我
+T325	Person-Pronoun 2859 2860	他
+T326	Person-Nominal 2865 2869	西张村人
+*	Coreference T325 T326
+T327	Location-Name 2865 2868	西张村
+T328	Person-Nominal 2871 2873	祖宗
+T329	Location-Nominal 2874 2877	河东岸
+T330	Location-Name 2878 2881	张嘴村
+R43	Part-Whole Arg1:T330 Arg2:T329	
+T331	Person-Pronoun 2882 2883	他
+T332	Location-Name 2884 2885;2886 2888	张 嘴村
+T333	Location-Name 2892 2896	西南铁路
+T334	Location-Name 2900 2904	渭南南站
+T335	Location-Nominal 2908 2909	站
+*	Coreference T335 T334
+R44	Part-Whole Arg1:T334 Arg2:T333	
+T336	Thing-Nominal 2913 2917	古皂角树
+T337	Thing-Nominal 2923 2926	皂角树
+T338	Location-Nominal 2927 2931	西北方位
+T339	Metric 2931 2934	八九丈
+T340	Location-Nominal 2931 2935	八九丈处
+T341	Thing-Nominal 2951 2953	古槐
+R45	Located Arg1:T341 Arg2:T340	
+T342	Person-Pronoun 2956 2957	我
+T343	Person-Pronoun 2971 2972	他
+T344	Person-Pronoun 2977 2978	他
+T345	Person-Pronoun 2982 2983	我
+T346	Person-Pronoun 2993 2994	他
+T347	Thing-Nominal 2989 2990	座
+T348	Person-Pronoun 2997 2998	他
+T349	Location-Nominal 3003 3005	山里
+T350	Location-Nominal 3005 3007	水边
+T351	Person-Nominal 3008 3010	主人
+*	Coreference T348 T351
+T352	Time-Implicit 3013 3016;3017 3019	半个小 时后
+T353	Person-Pronoun 3020 3021	我
+T354	Location-Nominal 3022 3026	水库东岸
+T355	Person-Nominal 3026 3028	村嫂
+R46	Social Arg1:T355 Arg2:T353	
+T356	Thing-Nominal 3038 3042	古皂角树
+T357	Thing-Nominal 3049 3051	树枝
+R47	Part-Whole Arg1:T357 Arg2:T356	
+T358	Location-Nominal 3055 3057	西南
+T359	Thing-Nominal 3070 3072	大地
+T360	Thing-Nominal 3084 3086	树身
+R48	Part-Whole Arg1:T360 Arg2:T356	
+T361	Metric 3092 3096	1.5米
+T362	Thing-Nominal 3102 3103	地
+T363	Person-Nominal 3122 3124	壮汉
+T364	Time-Implicit 3139 3141	当年
+T365	Thing-Nominal 3141 3143	树冠
+T366	Metric 3147 3150	30米
+T367	Thing-Nominal 3151 3155	皂角树神
+R49	Part-Whole Arg1:T356 Arg2:T365	
+T368	Thing-Nominal 3161 3163	蓝天
+T369	Metric 3167 3173	700多平米
+T370	Thing-Nominal 3173 3175	树荫
+T371	Person-Pronoun 3184 3185	我
+T372	Time-Implicit 3185 3187	去年
+T373	Location-Name 3189 3194	台湾阿里山
+T374	Time-Implicit 3198 3199;3200 3201	当 年
+T375	Organization-Name 3201 3203	日本
+T376	Location-Nominal 3205 3207	宝岛
+T377	Location-Name 3189 3191	台湾
+R50	Part-Whole Arg1:T373 Arg2:T377	
+*	Coreference T377 T376
+T378	Thing-Nominal 3217 3219	桧树
+R51	Located Arg1:T378 Arg2:T376	
+T379	Metric 3226 3230	1.5米
+T380	Person-Nominal 3247 3249	导游
+T381	Time-Explicit 3251 3253	宋朝
+T382	Thing-Nominal 3254 3256	古树
+*	Coreference T378 T382
+T383	Location-Nominal 3259 3260;3261 3262	北 方
+T384	Thing-Nominal 3270 3274	古皂角树
+T385	Person-Pronoun 3276 3277	我
+T386	Thing-Nominal 3290 3294	皂角古树
+T387	Time-Implicit 3307 3310	前几年
+T388	Time-Implicit 3310 3314	修铁路时
+T389	Thing-Nominal 3311 3313	铁路
+T390	Thing-Nominal 3316 3319	树腋窝
+T391	Thing-Nominal 3326 3328	山蜂
+R52	Located Arg1:T391 Arg2:T390	
+T392	Location-Nominal 3332 3334	工地
+T393	Person-Nominal 3340 3342	民工
+T394	Location-Name 3337 3339	四川
+R53	Ownership Arg1:T393 Arg2:T394	
+T395	Person-Nominal 3346 3347;3348 3349	川 民
+T396	Person-Nominal 3349 3351	莽夫
+*	Coreference T395 T396
+T397	Thing-Nominal 3354 3355	火
+T398	Thing-Nominal 3356 3357	蜂
+T399	Thing-Nominal 3361 3362	蜂
+T400	Thing-Nominal 3363 3365	树身
+T401	Thing-Nominal 3377 3379	树冠
+T402	Thing-Nominal 3385 3387	树干
+T403	Person-Pronoun 3395 3396	您
+T404	Thing-Nominal 3403 3405	神树
+*	Coreference T404 T386
+T405	Person-Nominal 3400 3408	站在此神树下的人
+T406	Location-Nominal 3426 3430	西北方位
+T407	Thing-Nominal 3439 3441	古槐
+R54	Located Arg1:T407 Arg2:T406	
+T408	Time-Explicit 3446 3452	分产到户年代
+T409	Person-Nominal 3454 3457	村民们
+T410	Thing-Nominal 3465 3467	朽木
+T411	Thing-Nominal 3468 3469;3470 3471	柴 火
+T412	Thing-Nominal 3472 3473	饭
+T413	Time-Implicit 3480 3482	那时
+*	Coreference T413 T408
+T414	Thing-Nominal 3482 3484	古树
+T415	Time-Implicit 3494 3496	不久
+T416	Location-Nominal 3496 3497	村
+T417	Person-Nominal 3506 3510	男女老少
+T418	Person-Pronoun 3512 3513	我
+T419	Location-Nominal 3527 3530	河东岸
+T420	Person-Pronoun 3534 3535	我
+T421	Thing-Nominal 3537 3539	树身
+T422	Thing-Nominal 3549 3551	树肉
+R55	Located Arg1:T422 Arg2:T421	
+T423	Location-Name 3557 3562	台湾阿里山
+T424	Thing-Nominal 3564 3566	桧树
+T425	Location-Nominal 3582 3584	宝岛
+T426	Location-Name 3584 3586	台湾
+*	Coreference T425 T426
+T427	Person-Nominal 3588 3592	日伪倭寇
+T428	Time-Implicit 3600 3602	今天
+T429	Person-Pronoun 3602 3604	我们
+T430	Person-Pronoun 3636 3637	我
+T431	Thing-Nominal 3638 3639	树
+T432	Person-Pronoun 3640 3641	我
+T433	Thing-Nominal 3643 3645	古树
+T434	Person-Pronoun 3646 3647	我
+T435	Thing-Nominal 3648 3649	水
+T436	Person-Pronoun 3658 3659	我
+T437	Thing-Nominal 3660 3661	火
+T438	Thing-Nominal 3664 3665	火
+T439	Person-Nominal 3671 3673	人类
+T440	Thing-Nominal 3677 3678	火

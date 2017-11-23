@@ -1,0 +1,143 @@
+T1	Thing-Nominal 5 7	葡萄
+T2	Person-Pronoun 18 19	我
+T3	Location-Nominal 28 31	葡萄园
+T4	Person-Nominal 26 39	那个葡萄园里摘采葡萄的女人
+T5	Thing-Nominal 34 36	葡萄
+T6	Person-Nominal 40 50	那个年轻且勤奋的女人
+*	Coreference T6 T4 T7
+T7	Person-Pronoun 51 52	她
+T8	Thing-Nominal 64 66	珍珠
+T9	Thing-Nominal 68 71	葡萄果
+T10	Person-Pronoun 79 80	她
+T11	Thing-Nominal 94 98	包装盒子
+R1	Located Arg1:T9 Arg2:T11	
+T12	Person-Pronoun 100 101	她
+T13	Person-Pronoun 131 132	她
+T14	Person-Pronoun 145 146	她
+T15	Person-Nominal 148 157	生活境遇不佳的女子
+*	Coreference T14 T15
+T16	Person-Nominal 160 162	丈夫
+R2	Family Arg1:T14 Arg2:T16	
+T17	Person-Nominal 171 177	另外一个女人
+R3	Social Arg1:T16 Arg2:T17	
+T18	Location-Name 178 180	广东
+T19	Person-Nominal 183 185	丈夫
+T20	Person-Pronoun 187 188	她
+R4	Family Arg1:T19 Arg2:T20	
+T21	Person-Pronoun 190 191	她
+T22	Person-Nominal 192 198	五岁的小女孩
+R5	Family Arg1:T21 Arg2:T22	
+T23	Person-Pronoun 203 204	她
+T24	Person-Pronoun 206 207	她
+T25	Location-Nominal 210 214	葡萄园子
+T26	Time-Explicit 221 223	三年
+T27	Time-Implicit 225 227	每天
+T28	Metric 227 230	60元
+T29	Person-Pronoun 233 234	她
+T30	Person-Nominal 235 237	孩子
+R6	Family Arg1:T29 Arg2:T30	
+*	Coreference T30 T22
+T31	Person-Nominal 252 254	孩子
+T32	Organization-Nominal 255 258	幼儿园
+T33	Person-Pronoun 261 262	她
+T34	Person-Nominal 262 264	自己
+*	Coreference T33 T34
+T35	Person-Nominal 270 272	孩子
+T36	Person-Pronoun 275 276	她
+T37	Person-Nominal 287 290	小女孩
+*	Coreference T37 T35
+T38	Person-Pronoun 304 305	我
+T39	Person-Pronoun 307 308	她
+T41	Location-Nominal 331 334	葡萄园
+T42	Thing-Nominal 338 342	巨峰葡萄
+T43	Time-Explicit 352 356	二十八年
+T44	Thing-Nominal 360 363	葡萄树
+T45	Person-Pronoun 365 366	她
+T46	Thing-Nominal 372 374	葡萄
+T47	Thing-Nominal 381 383	树藤
+*	Coreference T46 T47
+T48	Thing-Nominal 387 388;389 390	果 实
+T40	Person-Pronoun 396 397	她
+T49	Time-Implicit 403 405	午后
+T50	Location-Nominal 406 408	果园
+*	Coreference T50 T41
+R7	Located Arg1:T42 Arg2:T41	
+T51	Time-Implicit 415 417	这时
+T52	Person-Pronoun 418 419	我
+T53	Person-Pronoun 421 422	她
+T54	Location-Nominal 424 429	葡萄园中央
+T55	Thing-Nominal 437 439	葡萄
+T56	Person-Pronoun 478 479	她
+T57	Person-Pronoun 480 481	她
+T58	Person-Nominal 485 488	小女孩
+R8	Family Arg1:T57 Arg2:T58	
+T59	Location-Nominal 498 500	工地
+T60	Location-Nominal 502 505	葡萄园
+T61	Metric 516 519	80元
+T62	Person-Pronoun 522 523	她
+T63	Metric 530 533	20元
+T64	Person-Nominal 527 529	别人
+R9	Social Arg1:T62 Arg2:T64	
+T65	Person-Pronoun 535 536	她
+T66	Person-Pronoun 551 552	我
+T67	Person-Name 555 561	法国画家米勒
+T68	Location-Nominal 571 573	麦田
+T69	Person-Nominal 575 578	拾穗者
+T70	Person-Name 579 586	年轻的寡妇路得
+T71	Person-Nominal 589 595	一个悲情女子
+*	Coreference T70 T71
+T72	Person-Pronoun 596 597	我
+T73	Person-Nominal 602 604	画家
+T74	Location-Nominal 620 623	葡萄园
+T75	Person-Nominal 627 631	弱美女子
+T76	Thing-Nominal 633 635	葡萄
+T77	Thing-Nominal 668 669	草
+T78	Thing-Nominal 670 671	树
+T79	Location-Nominal 672 674	田园
+T80	Location-Nominal 706 708	田野
+T81	Person-Pronoun 720 721	我
+T82	Location-Nominal 722 725	果园里
+T83	Person-Pronoun 728 729	她
+T84	Person-Pronoun 730 731	她
+T85	Person-Pronoun 741 742	她
+T86	Person-Pronoun 748 749	她
+T87	Thing-Nominal 759 761	汗巾
+R10	Use Arg1:T86 Arg2:T87	
+T88	Person-Pronoun 773 774	我
+T89	Thing-Nominal 777 779	葡萄
+T90	Location-Nominal 791 794	葡萄园
+T91	Person-Nominal 814 816	果农
+T92	Person-Pronoun 827 828	我
+T93	Person-Nominal 914 916	自己
+T94	Person-Nominal 951 961	个摘采葡萄的年轻女人
+T95	Person-Pronoun 967 968	我
+T96	Person-Pronoun 974 975	她
+*	Coreference T96 T94
+T97	Person-Pronoun 976 977	她
+T98	Metric 982 985	60元
+T99	Person-Nominal 1002 1006	一位女人
+*	Coreference T97 T99
+T100	Person-Nominal 1007 1008;1009 1012	她 的男人
+T101	Person-Pronoun 1016 1017	她
+R11	Family Arg1:T101 Arg2:T100	
+T102	Person-Pronoun 1062 1064	!我
+T103	Person-Nominal 1068 1069;1070 1078	那 个摘采葡萄的女人
+T104	Person-Nominal 1082 1084	丈夫
+T105	Person-Pronoun 1085 1086	她
+*	Coreference T105 T103
+T106	Person-Pronoun 1103 1104	我
+T107	Thing-Nominal 1112 1114	麦穗
+T108	Person-Nominal 1121 1123	穷人
+T109	Person-Pronoun 1125 1126	我
+T110	Person-Nominal 1128 1130;1131 1135	摘葡 萄的女人
+T111	Person-Pronoun 1140 1141	她
+*	Coreference T111 T110
+T112	Person-Nominal 1145 1149	葡萄果子
+T113	Person-Pronoun 1180 1181	我
+T114	Person-Nominal 1224 1226	富人
+T115	Person-Nominal 1229 1231	穷人
+T116	Person-Nominal 1232 1234	穷人
+T117	Person-Nominal 1237 1239	富人
+T118	Person-Nominal 1298 1300	穷人
+T119	Person-Nominal 1301 1303	富人
+R12	Social Arg1:T4 Arg2:T2	

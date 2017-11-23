@@ -1,0 +1,191 @@
+T1	Location-Name 30 41	岷江、大渡河船工号子中
+T2	Location-Nominal 42 44	江上
+T3	Thing-Nominal 44 54	一艘艘白帆高挂的木船
+R1	Located Arg1:T3 Arg2:T2	
+T4	Person-Nominal 66 70	众多纤夫
+T5	Location-Nominal 71 78	河滩荒草乱石间
+T6	Thing-Nominal 88 89	纤
+T7	Thing-Nominal 78 79	脚
+T8	Thing-Nominal 81 82	手
+T9	Thing-Nominal 95 99	几只鱼舟
+T10	Location-Nominal 104 106	江面
+R2	Located Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 112 115	鱼老鸹
+T12	Location-Nominal 109 111	船头
+R3	Located Arg1:T11 Arg2:T12	
+T13	Thing-Nominal 119 121	翅膀
+T14	Location-Nominal 125 127	水中
+R4	Located Arg1:T11 Arg2:T14	
+T15	Thing-Nominal 129 133	条条肥鱼
+T16	Thing-Nominal 134 139	摆动的银鳞
+T17	Location-Nominal 150 153	江岸边
+T18	Thing-Nominal 164 168	高大城墙
+R5	Located Arg1:T18 Arg2:T17	
+T19	Thing-Pronoun 174 175	它
+*	Coreference T19 T18
+T20	Thing-Nominal 183 187	宽阔胸膛
+T21	Thing-Nominal 195 197	江流
+T22	Thing-Nominal 205 210;211 214	巍峨城楼的 城门洞
+T23	Thing-Nominal 217 221	石砌台阶
+T24	Location-Nominal 231 238	一片繁忙的码头
+T25	Location-Pronoun 240 242	那里
+*	Coreference T25 T24
+T26	Person-Nominal 243 250	洗衣淘米的妇女
+T27	Person-Nominal 252 259	停船泊岸的船工
+T28	Person-Nominal 260 267	背货上下的苦力
+T29	Location-Nominal 273 279	不远的浅水边
+T30	Person-Nominal 280 283	顽童们
+T31	Thing-Nominal 298 311	一幅江城常见的世俗风情画卷
+T32	Thing-Nominal 289 290	水
+T33	Time-Implicit 313 315	儿时
+T34	Metric 344 348	半个世纪
+T35	Location-Name 356 371	乐山古城的岷江、青衣江、大渡河
+T36	Thing-Nominal 371 373;374 377	这三 条江流
+T37	Thing-Nominal 386 393	川腔川调的号子
+T38	Thing-Nominal 400 406	那飘动的白帆
+T39	Thing-Nominal 407 412	飞翔的江鸥
+T40	Thing-Nominal 418 425	清波浩荡的江水
+T41	Person-Pronoun 445 446	我
+T42	Thing-Nominal 448 450	岷江
+T43	Thing-Nominal 454 457	青衣江
+T44	Thing-Nominal 461 464	大渡河
+T45	Thing-Nominal 482 484	江流
+T46	Person-Nominal 514 516	人类
+T47	Thing-Nominal 524 529	自食的恶果
+T48	Thing-Nominal 531 536	古嘉州水道
+T49	Thing-Nominal 540 542	西川
+T50	Thing-Nominal 543 545	中原
+T51	Person-Nominal 553 555	商贾
+T52	Thing-Nominal 558 560	帆樯
+T53	Thing-Nominal 577 581	万斛之舟
+T54	Thing-Nominal 569 573	蜀麻吴盐
+T55	Person-Nominal 586 590	唐代诗人
+T56	Person-Name 590 591;592 593	杜 甫
+T57	Time-Implicit 603 605	当年
+T58	Thing-Nominal 605 611	这条黄金水道
+T59	Thing-Pronoun 617 618	它
+*	Coreference T59 T58
+T60	Thing-Nominal 628 630	风帆
+T61	Thing-Nominal 639 641	航船
+T62	Person-Nominal 646 652	不少文人雅士
+T63	Person-Pronoun 662 664	他们
+*	Coreference T63 T62
+T64	Location-Nominal 670 674	沿江两岸
+T65	Person-Nominal 695 696	人
+T66	Metric 703 707	四十余里
+T67	Location-Nominal 711 715	岷江高岸
+T68	Thing-Nominal 716 720	清溪古驿
+R6	Located Arg1:T68 Arg2:T67	
+T69	Person-Nominal 737 743	两位伟大诗人
+T70	Location-Name 723 725	中国
+T71	Person-Name 752 756	诗圣杜甫
+T72	Location-Nominal 760 761;762 763	东 吴
+T73	Thing-Nominal 763 766	万里船
+T74	Thing-Nominal 777 778	舟
+T75	Thing-Nominal 792 797	这江村水驿
+T76	Person-Nominal 806 808	友朋
+T77	Person-Nominal 811 812	人
+T78	Location-Nominal 873 875	船头
+T79	Thing-Nominal 866 868	衣袖
+T80	Person-Name 862 866	诗仙李白
+T81	Location-Name 843 845	岷江
+T82	Thing-Nominal 833 835	小船
+T83	Thing-Nominal 879 888	清光如水的峨眉山月
+T84	Thing-Nominal 895 899	峨眉山月
+T85	Thing-Nominal 907 909	江水
+T86	Person-Nominal 952 953	客
+T87	Location-Name 954 956	江南
+T88	Person-Name 957 959	苏轼
+T89	Person-Nominal 1001 1003	高官
+T90	Thing-Nominal 1058 1062	嘉山嘉水
+T91	Person-Name 1055 1057	苏轼
+T92	Person-Nominal 1028 1031	地方官
+T93	Location-Name 1024 1026	嘉州
+T94	Person-Nominal 1009 1011	名流
+T95	Thing-Nominal 1083 1094	这轮清光朗照的峨眉山月
+T96	Person-Nominal 1099 1100	人
+T97	Thing-Nominal 1112 1115	小三峡
+T98	Location-Nominal 1120 1125	荔枝湾江畔
+T99	Thing-Nominal 1125 1142	那绿叶纷披、红果满枝的“孤舟荔枝图
+R7	Located Arg1:T99 Arg2:T98	
+T100	Person-Name 1149 1152	陆放翁
+T101	Thing-Nominal 1170 1172	风雨
+T102	Location-Name 1172 1174	嘉州
+T103	Person-Name 1182 1185	苏东坡
+T104	Thing-Nominal 1212 1215	龙泓口
+T105	Thing-Pronoun 1250 1251	它
+T106	Person-Nominal 1231 1232	人
+T107	Location-Name 1219 1221	嘉州
+T108	Time-Explicit 1278 1280	唐代
+T109	Time-Implicit 1271 1277	一千二百年前
+T110	Person-Name 1280 1284	海通和尚
+T111	Person-Nominal 1302 1303	人
+T112	Person-Name 1312 1316	弥勒大佛
+T113	Person-Nominal 1338 1342	巍巍大佛
+T114	Thing-Nominal 1358 1363	这三江之滨
+T115	Person-Nominal 1371 1375	乐山人民
+T116	Person-Name 1425 1428	隋文帝
+T117	Person-Nominal 1417 1419	隋军
+T118	Location-Nominal 1407 1409	江中
+T119	Person-Name 1386 1389	隋文帝
+T120	Time-Explicit 1379 1385	隋朝开皇八年
+T121	Location-Pronoun 1446 1448	这里
+T122	Thing-Nominal 1451 1454	九龙滩
+T123	Thing-Nominal 1449 1450	水
+T124	Thing-Nominal 1457 1460	九龙山
+T125	Thing-Nominal 1455 1456	山
+T126	Thing-Nominal 1463 1466	九龙巷
+T127	Thing-Nominal 1461 1462	街
+T128	Person-Nominal 1469 1478	一位斩蛟除害的勇士
+T129	Person-Pronoun 1481 1482	他
+*	Coreference T129 T128
+T130	Person-Name 1484 1487	隋炀帝
+T131	Person-Nominal 1489 1493	嘉州太守
+T132	Person-Name 1494 1496	赵昱
+T133	Person-Name 1501 1504	柳宗元
+T134	Time-Explicit 1499 1501	唐代
+T135	Abstract 1505 1510	《龙城录》
+T136	Location-Nominal 1515 1517	江中
+T137	Thing-Nominal 1518 1520	老蛟
+R8	Located Arg1:T137 Arg2:T136	
+T138	Thing-Nominal 1527 1529	舟船
+T139	Person-Name 1530 1532	赵昱
+T140	Person-Nominal 1541 1545	甲士千人
+T141	Person-Nominal 1546 1550	上万民众
+T142	Location-Nominal 1551 1555	江边夹岸
+T143	Thing-Nominal 1561 1563	老蛟
+T144	Person-Name 1567 1569	赵昱
+T145	Thing-Nominal 1571 1572	刀
+T146	Location-Nominal 1574 1576	水中
+T147	Thing-Nominal 1578 1580	老蛟
+T148	Thing-Nominal 1603 1607	嘉州山水
+T149	Person-Nominal 1617 1619	英雄
+T150	Thing-Nominal 1657 1661	岷江航道
+T151	Thing-Nominal 1680 1684;1685 1688	岸边三龟 九顶城
+T152	Thing-Nominal 1711 1715	三江之水
+T153	Thing-Nominal 1707 1710	乐山城
+T154	Location-Name 1739 1741	长江
+T155	Person-Nominal 1750 1752	逝者
+T156	Thing-Nominal 1756 1763	滚滚东去的江水
+T157	Person-Nominal 1786 1790	风流人物
+T158	Time-Explicit 1799 1804	二十一世纪
+T159	Thing-Nominal 1820 1824	三江之水
+T160	Thing-Nominal 1842 1846	名山胜水
+T161	Location-Name 1874 1876	乐山
+T162	Thing-Nominal 1878 1884	四川文化强市
+T163	Thing-Nominal 1893 1897	三江航道
+T164	Thing-Nominal 1901 1905	三江景观
+T165	Location-Nominal 1916 1920	我们面前
+T166	Thing-Pronoun 1921 1922	它
+T167	Location-Name 1953 1956	成都市
+T168	Location-Name 1957 1958;1959 1961	乐 山市
+T169	Location-Name 1974 1976	岷江
+T170	Location-Name 1992 1995	乐山港
+T171	Time-Implicit 2042 2044	常年
+T172	Location-Name 2045 2050	上海、重庆
+T173	Thing-Nominal 2071 2075	长江航道
+T174	Metric 2057 2060	三千吨
+T175	Thing-Nominal 2111 2116	(乐山)港
+T176	Thing-Nominal 2139 2141;2142 2143	大通 道
+T177	Metric 2081 2088	一百六十二公里
+T178	Thing-Nominal 2024 2030	新建的乐山港

@@ -1,0 +1,125 @@
+T1	Time-Implicit 2 9	40年代的中期
+T2	Person-Pronoun 10 11	我
+T3	Time-Implicit 13 19	上小学的时候
+T4	Abstract 23 29	《枫桥夜泊》
+T5	Metric 33 36	几十年
+T6	Person-Pronoun 38 39	我
+T7	Thing-Nominal 58 60;61 69	这个 闻名中外的寒山寺
+T8	Person-Pronoun 86 87	我
+T9	Time-Implicit 97 101	少年时期
+T10	Time-Implicit 106 114	今年国庆节的前夕
+T11	Person-Pronoun 120 121	我
+T12	Location-Name 122 125	寒山寺
+T13	Thing-Nominal 139 142	寒山寺
+T14	Thing-Nominal 155 158	寒山寺
+T15	Thing-Nominal 158 166	那悠扬动听的钟声
+T16	Time-Implicit 171 180	九月二十五号的上午
+T17	Person-Pronoun 181 183	我们
+T18	Time-Implicit 184 188	前两天内
+T19	Thing-Nominal 190 204	南京的中山陵、总统府、夫子庙
+T20	Location-Name 190 192	南京
+R1	Located Arg1:T19 Arg2:T20	
+T21	Thing-Nominal 205 214	无锡的三国影视城，
+T22	Location-Name 205 207	无锡
+R2	Located Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 216 220	防古战船
+T24	Location-Name 222 224	太湖
+T25	Thing-Nominal 228 229;230 234	紫 砂陶艺馆
+T26	Thing-Nominal 238 240	专车
+T27	Thing-Nominal 243 249	苏州的寒山寺
+T28	Location-Name 243 245	苏州
+R3	Located Arg1:T27 Arg2:T28	
+T29	Time-Implicit 251 253	那天
+T30	Person-Pronoun 263 265	我们
+T31	Person-Nominal 266 270	导游小姐
+T32	Thing-Nominal 260 261	日
+T33	Thing-Nominal 258 259	风
+T34	Location-Nominal 280 292	寒山寺前的大运河的枫桥上
+T35	Thing-Nominal 285 288	大运河
+T36	Location-Name 280 284	寒山寺前
+R4	Located Arg1:T35 Arg2:T36	
+T37	Location-Name 301 305	寒山寺前
+T38	Person-Pronoun 313 314	我
+T39	Thing-Nominal 327 331	一个景点
+T40	Person-Pronoun 333 334	我
+T41	Thing-Nominal 335 340	一本离休证
+R5	Ownership Arg1:T40 Arg2:T41	
+T42	Thing-Nominal 347 349	门票
+T43	Location-Name 354 358	寒山寺院
+T44	Thing-Nominal 364 372;373 378	寺院的黄墙绿树和 美丽的风景
+T45	Time-Implicit 379 381	当时
+T46	Person-Nominal 393 395	游人
+T47	Metric 389 391	六天
+T48	Person-Pronoun 402 403	我
+T49	Person-Nominal 407 424	男的女的，老的少的，东北的、西南的
+T50	Person-Nominal 430 433;434 448	日本、 韩国及蓝眼睛黄头发的俄罗斯人
+T51	Person-Nominal 466 470	导游小姐
+T52	Thing-Nominal 473 476	寒山寺
+T53	Time-Explicit 479 485	梁代天监年间
+T54	Thing-Name 489 494	妙利名誉院
+T55	Metric 498 502	两千余年
+T56	Time-Explicit 503 508	唐贞观年间
+T57	Person-Nominal 509 512	寒山子
+T58	Time-Implicit 514 517	居住时
+T59	Thing-Name 521 524	寒山寺
+T60	Time-Explicit 532 534	清代
+T61	Thing-Nominal 526 531	现在的建筑
+T62	Time-Implicit 537 540	解放后
+T63	Metric 544 546	两次
+T64	Time-Implicit 547 549	当年
+T65	Person-Name 549 551	张继
+T66	Location-Nominal 553 555	此处
+T67	Time-Implicit 549 556	张继途径此处时
+T68	Abstract 570 576	《枫桥夜泊》
+T69	Location-Pronoun 598 600	这里
+T70	Thing-Nominal 619 626	寺院后边的钟楼
+T71	Location-Nominal 619 623	寺院后边
+R6	Located Arg1:T70 Arg2:T71	
+T72	Thing-Nominal 628 635	该寺的主要景点
+*	Coreference T72 T70
+T73	Time-Implicit 636 641	我们登楼时
+T74	Person-Pronoun 636 638	我们
+T75	Location-Nominal 642 644	眼前
+T76	Thing-Nominal 647 665	一副“钟声明慧眼、月色照祥心”的对联
+R7	Located Arg1:T76 Arg2:T75	
+T77	Thing-Nominal 667 670	寒山寺
+T78	Thing-Nominal 673 679;680 681	一层佛祥的光 环
+T79	Location-Nominal 682 686	楼的中间
+T80	Thing-Nominal 688 692	一口大钟
+R8	Located Arg1:T80 Arg2:T79	
+T81	Person-Nominal 694 697	不少人
+T82	Thing-Nominal 698 699	钱
+T83	Thing-Nominal 701 704	撞钟票
+T84	Thing-Nominal 708 710	木棒
+T85	Thing-Nominal 711 712	钟
+R9	Use Arg1:T81 Arg2:T84	
+T86	Thing-Nominal 715 717	大钟
+T87	Person-Nominal 749 753	每个游人
+T88	Time-Implicit 772 774	当年
+T89	Thing-Nominal 779 781	古钟
+T90	Time-Explicit 786 789	明朝时
+T91	Location-Name 802 804	日本
+T92	Thing-Nominal 806 811	现在的大钟
+T93	Time-Explicit 813 815	清代
+T94	Location-Nominal 819 823	钟楼下边
+T95	Thing-Nominal 827 836	一通七尺多高的石碑
+R10	Located Arg1:T95 Arg2:T94	
+T96	Person-Name 837 839	张继
+T97	Abstract 853 859	《枫桥夜泊》
+T98	Thing-Nominal 865 869	这通石碑
+T99	Person-Nominal 884 886	游人
+T100	Location-Nominal 888 890	碑前
+T101	Location-Nominal 894 899	石碑不远处
+T102	Thing-Nominal 902 912	一块五尺多高的听钟石
+T103	Person-Pronoun 913 914	我
+T104	Person-Nominal 915 917	老伴
+R11	Family Arg1:T104 Arg2:T103	
+T105	Location-Nominal 921 928	诗碑和听钟石旁
+T106	Person-Pronoun 934 935	我
+T107	Person-Nominal 935 940;941 945	这个发白齿 落的老翁
+T108	Location-Name 950 953	寒山寺
+T109	Metric 947 949	十年
+T110	Time-Implicit 962 966	金秋时节
+T111	Location-Name 971 975	寒山寺前
+T112	Person-Nominal 980 982	少年
+T113	Person-Name 993 996	毛泽东

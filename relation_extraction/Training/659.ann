@@ -1,0 +1,30 @@
+T1	Person-Pronoun 12 13	我
+T2	Person-Pronoun 19 20	你
+T3	Thing-Nominal 29 30	手
+R1	Social Arg1:T2 Arg2:T1	
+T4	Thing-Name 47 49	自然
+T5	Time-Implicit 45 47	朝暮
+T6	Time-Implicit 59 60;61 67	一 个夏日的午后
+T7	Thing-Nominal 73 80	落花纷飞的长椅
+R2	Use Arg1:T1 Arg2:T7	
+T8	Time-Implicit 115 117	秋天
+T9	Time-Implicit 124 125	春
+T10	Time-Implicit 134 135	夏
+T11	Thing-Nominal 136 138	骄阳
+T12	Time-Implicit 144 145	冬
+T13	Thing-Pronoun 151 152	它
+T14	Thing-Nominal 176 181	无边的黄沙
+T15	Thing-Pronoun 192 193	它
+*	Coreference T15 T14
+T16	Thing-Nominal 206 208	红尘
+T17	Thing-Nominal 229 235	不语的天和地
+T18	Thing-Nominal 236 242	沉默的月与风
+T19	Thing-Nominal 244 248	一帆一桨
+T20	Thing-Nominal 250 252	渔舟
+T21	Time-Implicit 250 255	渔舟的夜间
+T22	Person-Pronoun 286 287	我
+T23	Time-Implicit 301 306	宁静的日子
+T24	Thing-Nominal 325 327	阳光
+T25	Thing-Nominal 331 333	云霞
+T26	Thing-Nominal 337 339	星光
+T27	Thing-Nominal 343 345	羞月

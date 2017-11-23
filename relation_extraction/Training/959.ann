@@ -1,0 +1,320 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 7 8	鸡
+T3	Thing-Nominal 12 13	鱼
+T4	Thing-Nominal 24 32	青蛙、鸽子、兔子
+T5	Time-Implicit 38 43	儿童的时候
+T6	Location-Nominal 73 75	老家
+T7	Location-Nominal 76 80	偏僻农村
+T8	Time-Implicit 81 85	小的时候
+T11	Thing-Nominal 104 107	小动物
+T12	Thing-Nominal 115 121;122 123	蛇、刺猬、老 鼠
+R1	Part-Whole Arg1:T12 Arg2:T11	
+T13	Person-Pronoun 137 139	我们
+T14	Thing-Pronoun 144 145	它
+*	Coreference T14 T12
+T15	Person-Pronoun 153 154	我
+T16	Thing-Nominal 164 166	蛤蟆
+T17	Location-Nominal 174 177	我老家
+T18	Thing-Nominal 182 184	青蛙
+T19	Thing-Nominal 186 188	蛤蟆
+*	Coreference T19 T18
+T20	Thing-Nominal 190 194	老家的水
+T21	Location-Nominal 190 192	老家
+R2	Located Arg1:T20 Arg2:T21	
+T22	Location-Nominal 198 201	村东边
+T23	Metric 209 211	两条
+T24	Thing-Nominal 211 226	南北走向、常年基本不断水的大河
+R3	Located Arg1:T24 Arg2:T22	
+T25	Location-Nominal 227 229	村南
+T26	Thing-Nominal 230 243	东西方向、流入大河的小河沟
+R4	Located Arg1:T26 Arg2:T25	
+T27	Location-Nominal 244 246	村北
+T28	Thing-Nominal 248 250;251 263	大河 的支流、向西延伸的小河沟
+R5	Located Arg1:T28 Arg2:T27	
+T29	Location-Nominal 264 269	小河沟南边
+T30	Thing-Nominal 273 275	村子
+T31	Person-Nominal 276 279	全村人
+T32	Thing-Nominal 276 285	全村人吃水的蓄水池
+T33	Thing-Nominal 287 289	水库
+*	Coreference T33 T32
+R6	Located Arg1:T33 Arg2:T29	
+T34	Person-Nominal 290 293	老人们
+T35	Location-Nominal 295 299	水库底下
+T36	Thing-Nominal 300 302	泉眼
+R7	Located Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 325 326	天
+T38	Thing-Nominal 331 332	水
+T39	Thing-Nominal 337 339	生物
+T40	Thing-Nominal 342 344	蛤蟆
+T41	Time-Implicit 349 351	夏天
+T42	Location-Nominal 355 357	沟里
+T43	Location-Nominal 358 360	渠里
+T44	Location-Nominal 363 365	河里
+T45	Location-Nominal 366 369	水库里
+T46	Thing-Nominal 371 372	水
+T47	Thing-Nominal 377 379	蛤蟆
+T48	Thing-Nominal 386 388	蛤蟆
+T49	Time-Implicit 398 400	夜晚
+T50	Thing-Nominal 401 403	蛤蟆
+T51	Person-Nominal 431 433	人们
+T52	Thing-Nominal 451 453	蛤蟆
+T53	Location-Nominal 462 467	贫瘠农村里
+T54	Thing-Nominal 475 477	蛤蟆
+T55	Person-Nominal 478 483	人类的朋友
+T56	Person-Nominal 484 486	人们
+T57	Person-Nominal 478 480	人类
+T58	Thing-Pronoun 490 491	它
+*	Coreference T58 T54
+T59	Person-Nominal 495 500	我们小孩子
+T60	Person-Nominal 506 509	村里人
+T61	Thing-Pronoun 513 514	它
+T62	Person-Nominal 516 519	小孩子
+T63	Thing-Nominal 520 522	蛤蟆
+T64	Person-Nominal 525 527	大人
+T65	Thing-Nominal 528 530	蛤蟆
+T66	Thing-Nominal 533 535	蛤蟆
+T67	Thing-Nominal 538 540	穿子
+T68	Thing-Nominal 541 543	蛤蟆
+T69	Thing-Nominal 549 551	穿子
+T71	Metric 555 557	一尺
+T73	Thing-Nominal 568 570	锤子
+T74	Thing-Nominal 579 581	锥子
+T75	Thing-Nominal 593 596	细麻绳
+T76	Thing-Nominal 603 606	长竹竿
+T77	Thing-Nominal 607 611	细木杆子
+T78	Location-Nominal 603 612	长竹竿或细木杆子上
+T79	Thing-Nominal 616 618	穿子
+T80	Person-Nominal 619 626	我们村的小孩子
+T81	Location-Nominal 619 622	我们村
+T82	Metric 632 634	九岁
+T83	Person-Pronoun 637 638	我
+T84	Metric 640 642	九岁
+T85	Time-Implicit 646 650	上学之前
+T86	Person-Pronoun 651 652	我
+T87	Person-Nominal 660 662	伙伴
+T88	Thing-Nominal 668 670	小虫
+T89	Thing-Nominal 671 673	麻雀
+*	Coreference T89 T88
+T90	Thing-Nominal 678 680	长虫
+T91	Thing-Nominal 681 682	蛇
+*	Coreference T91 T90
+T92	Thing-Nominal 687 689	老鼠
+T93	Thing-Nominal 695 697	蛤蟆
+T94	Person-Pronoun 704 705	我
+T95	Thing-Nominal 708 710	蛤蟆
+T96	Time-Implicit 714 716	夏天
+T97	Thing-Nominal 719 720	羊
+T98	Thing-Nominal 723 724	草
+T99	Person-Pronoun 727 728	我
+T100	Person-Nominal 730 733	小伙伴
+T101	Thing-Nominal 743 745	穿子
+T102	Location-Nominal 748 750	水库
+T103	Location-Nominal 752 754	河里
+T104	Thing-Nominal 760 762	蛤蟆
+T105	Person-Nominal 766 769	自个儿
+T106	Time-Implicit 763 764;765 766	有 时
+T107	Thing-Nominal 771 773	蛤蟆
+T108	Time-Implicit 773 775	白天
+T109	Location-Nominal 777 786	岸边湿土上、草丛中
+R8	Located Arg1:T107 Arg2:T109	
+T110	Location-Nominal 793 795	水上
+R9	Located Arg1:T107 Arg2:T110	
+T111	Thing-Nominal 803 805	蛤蟆
+T112	Thing-Pronoun 814 815	它
+*	Coreference T112 T111
+T113	Thing-Nominal 817 819	穿子
+T114	Thing-Pronoun 820 821	它
+T115	Metric 823 825	几尺
+T116	Thing-Nominal 834 836	蛤蟆
+T117	Thing-Nominal 846 851	锐利的锥子
+T118	Time-Implicit 856 858	这时
+T119	Thing-Nominal 860 865	穿住的蛤蟆
+T120	Thing-Pronoun 874 875	它
+T121	Person-Nominal 887 890	小孩子
+T122	Thing-Nominal 899 901	蛤蟆
+T123	Thing-Pronoun 915 916	它
+*	Coreference T123 T122
+T124	Thing-Nominal 915 919	它的后腿
+R10	Part-Whole Arg1:T124 Arg2:T123	
+T125	Location-Nominal 924 932	随身携带的家什里
+R11	Located Arg1:T124 Arg2:T125	
+T126	Thing-Nominal 941 943	蛤蟆
+T127	Location-Nominal 948 950	地上
+T128	Location-Nominal 953 955	水里
+T131	Thing-Nominal 982 984	利器
+T132	Thing-Pronoun 1004 1005	它
+T133	Time-Explicit 1029 1031	今天
+T134	Time-Implicit 1042 1044	当时
+T135	Person-Pronoun 1045 1046	我
+T136	Person-Nominal 1047 1051	小伙伴们
+T137	Metric 1078 1080	九岁
+T138	Time-Implicit 1078 1087	九岁那年夏季的一天
+T139	Person-Pronoun 1088 1089	我
+T142	Metric 1097 1100	十一岁
+T144	Person-Nominal 1104 1107	小伙伴
+T145	Location-Nominal 1108 1111	水库边
+T146	Thing-Nominal 1112 1114	蛤蟆
+T147	Person-Pronoun 1115 1116	我
+T148	Thing-Nominal 1120 1122	穿子
+T151	Location-Nominal 1139 1141	水里
+T152	Person-Pronoun 1142 1143	我
+T153	Person-Pronoun 1170 1171	我
+T154	Thing-Nominal 1182 1183	水
+T155	Thing-Nominal 1184 1186	穿子
+T156	Thing-Nominal 1190 1192	蛤蟆
+T157	Location-Nominal 1197 1199;1200 1201	水面 上
+R12	Located Arg1:T155 Arg2:T157	
+T158	Time-Implicit 1202 1204	这时
+T160	Person-Nominal 1206 1209	小伙伴
+T161	Location-Nominal 1212 1214	水中
+T162	Person-Pronoun 1217 1218	我
+T163	Person-Nominal 1232 1240	那个十一岁的伙伴
+T164	Metric 1234 1237	十一岁
+T165	Person-Pronoun 1248 1249	他
+*	Coreference T165 T163
+T166	Thing-Nominal 1248 1256	他手里更长的杆子
+T167	Location-Nominal 1248 1251	他手里
+R13	Located Arg1:T166 Arg2:T167	
+T168	Person-Pronoun 1258 1259	我
+T169	Person-Pronoun 1261 1262	我
+T170	Person-Nominal 1269 1271	他们
+T171	Thing-Nominal 1275 1277	杆子
+T172	Person-Pronoun 1289 1290	我
+T173	Thing-Nominal 1301 1302	水
+T174	Person-Nominal 1309 1312	伙伴们
+T175	Person-Pronoun 1332 1333	我
+T176	Person-Pronoun 1346 1347	我
+T177	Person-Nominal 1350 1351	娘
+R14	Family Arg1:T176 Arg2:T177	
+T178	Thing-Nominal 1359 1360	羊
+T179	Thing-Nominal 1362 1363	草
+T180	Thing-Nominal 1365 1367	蛤蟆
+T181	Person-Nominal 1367 1368	娘
+T182	Person-Pronoun 1372 1373	我
+T183	Person-Nominal 1374 1375	爹
+T184	Person-Nominal 1376 1380	大队干部
+R15	Family Arg1:T183 Arg2:T182	
+T185	Person-Pronoun 1390 1391	我
+T187	Person-Nominal 0 1449	我这人很胆小，鸡不敢杀，鱼也不忍心下刀，更不愿吃青蛙、鸽子、兔子一类的野味。儿童的时候，可不是这样子，那时心特别毒，手特
+别狠，好像天不怕地不怕。老家是偏僻农村，小的时候没有什么玩头，我们小孩子就编造一些作践小动物的游戏自乐，什么蛇、刺猬、老
+鼠等等东西，只要“犯”在手里，我们都想法弄死它，从不心慈手软。我更喜欢玩弄小生灵，穿蛤蟆就是一个例证。
+我老家那块儿，把青蛙叫做蛤蟆。
+老家的水比较多：村东边有一窄一宽紧挨的两条南北走向、常年基本不断水的大河，村南有东西方向、流入大河的小河沟，村北也有大河
+的支流、向西延伸的小河沟，小河沟南边就是紧靠村子、全村人吃水的蓄水池――水库。老人们说，水库底下有泉眼，所以，里面一年到
+头总是水满满的。
+那时候的天是湛蓝的，水是清澈的，生物很多，蛤蟆更多。一到夏天，别管是沟里、渠里，还是河里、水库里，有水的地方就有蛤蟆。此
+起彼伏，蛤蟆的叫声连成片，尤其是夜晚。蛤蟆无私的、欢快的歌唱，犹如美妙的小夜曲，铿锵有力的节奏，伴人们进入梦乡，无比惬意
+。毫不夸张地说，蛤蟆悦耳的鸣叫，是那时贫瘠农村里的一道亮丽风景。蛤蟆是人类的朋友，人们应该爱护它，可包括我们小孩子在内的
+不少村里人反而残害它――小孩子穿蛤蟆，有的大人逮蛤蟆。
+穿蛤蟆就是用穿子把蛤蟆穿住。什么叫穿子呢?一根一尺左右的硬梆铁丝，一头用锤子砸磨出锋利的尖，像锥子似的，一头弯成个钩，用
+细麻绳拴结实，固定在长竹竿或细木杆子上。这就是穿子。我们村的小孩子上学晚，都在九岁以后。我就是九岁上的学。上学之前，我很
+贪玩，与几个伙伴一起，不是摸小虫(麻雀)，就是抓长虫(蛇)，不是挖老鼠窟窿，就是穿蛤蟆，成天疯玩。
+我最热穿蛤蟆了。每到夏天，放完羊或割完草回来，我就与小伙伴一起，三天两日地扛起穿子，不是水库就是河里，到处忙着穿蛤蟆;有
+时自个儿去。蛤蟆白天好在岸边湿土上、草丛中蹲着，也喜欢在水上漂浮。看见这样的蛤蟆，悄悄地靠近，对准它，待穿子离它约摸几尺
+远时，猛一使劲，蛤蟆在劫难逃，十之八九被锐利的锥子穿过身体。这时，将穿住的蛤蟆取下来，双手用力拧它血淋淋的身体。别看都是
+小孩子，就是有邪劲，拧得蛤蟆凄厉地哀叫，都不在乎，直到把它的后腿拧下来放在随身携带的家什里，把没有了下半身的蛤蟆随手扔到
+地上或抛到水里，任其在抽搐、挣扎中悲惨地死去。活蹦乱跳的一只蛤蟆，被利器穿身就够残忍了，再被生生地拧掉半截身子，它是什么
+滋味?受得什么罪?那种血腥、残忍的场面，今天说来真是惨不忍睹，可在当时，我与小伙伴们没有丁点儿怯意，没有丝毫怜悯，有的只
+是满足和自豪!
+九岁那年夏季的一天，我与一个同岁、两个十一岁，共四个小伙伴在水库边穿蛤蟆。我只顾挺着穿子追一只绿花大蛤蟆，一不小心，滑到
+水里。我本能地向上面靠，谁知坡陡，不光没靠了边，反而向里滑去。我边挣扎边咋呼，呛了几口水，穿子也好似被蛤蟆夺走，漂在水面
+上。这时三个小伙伴才看见水中挣扎的我，齐声呼喊。“快抓住!”其中那个十一岁的伙伴一边喊着，一边把他手里更长的杆子伸给我。
+我双手紧紧抓住，他们三人抓紧杆子的另一头，费了好大劲才将我拉了上来。虽然呛了几口水，总算万幸，被伙伴们及时救上岸，不然，
+滑到里面，不会凫水的我必定得淹死!
+这回的惊险事我没敢给娘说。只要不耽误放羊、割草，穿蛤蟆娘一般不管我。爹是大队干部，成天忙工作，更不问我具体做什么。穿的蛤
+蟆的后腿我都是放在锅底下烧着吃。娘见了这种事，还是要说话的：蛤蟆也是个生灵子，可不能这样害它!那
+T188	Person-Pronoun 1405 1406	我
+T189	Thing-Nominal 1399 1400;1401 1405	蛤 蟆的后腿
+T186	Location-Nominal 1410 1413	锅底下
+T190	Person-Nominal 1417 1418	娘
+T191	Thing-Nominal 1431 1433	蛤蟆
+T192	Thing-Pronoun 1446 1447	它
+*	Coreference T192 T191
+T193	Time-Implicit 1448 1451	那时候
+T194	Person-Nominal 1452 1453	娘
+T195	Thing-Nominal 1459 1461	蛤蟆
+T196	Thing-Nominal 1463 1465	庄稼
+T197	Thing-Nominal 1473 1475	蛤蟆
+T198	Person-Nominal 1484 1486	老师
+T199	Thing-Nominal 1494 1496	蛤蟆
+T200	Thing-Nominal 1497 1499	益虫
+R16	Part-Whole Arg1:T199 Arg2:T200	
+T201	Thing-Nominal 1504 1505	它
+*	Coreference T201 T199
+T202	Person-Pronoun 1506 1507	我
+T203	Person-Nominal 1508 1510	老师
+T204	Person-Nominal 1514 1515	娘
+T205	Person-Nominal 1517 1518	娘
+T206	Person-Pronoun 1525 1526	我
+T207	Thing-Nominal 1527 1529	蛤蟆
+T208	Person-Pronoun 1534 1535	我
+T209	Thing-Nominal 1537 1539	蛤蟆
+T210	Thing-Nominal 1541 1543	虫子
+T211	Time-Implicit 1544 1546	晚间
+T212	Person-Nominal 1554 1556	老师
+T213	Thing-Pronoun 1563 1564	它
+*	Coreference T213 T209
+T214	Thing-Pronoun 1566 1567	它
+T215	Thing-Pronoun 1575 1576	它
+T216	Thing-Pronoun 1576 1577	它
+T217	Person-Pronoun 1580 1581	你
+T218	Person-Pronoun 1582 1583	我
+T219	Person-Nominal 1588 1589	娘
+T220	Person-Nominal 1605 1608	小伙伴
+T221	Time-Implicit 1612 1619	一个星期天下午
+T222	Person-Pronoun 1620 1621	我
+T223	Thing-Nominal 1622 1623	草
+T224	Thing-Nominal 1628 1630	穿子
+T225	Person-Nominal 1634 1637	小伙伴
+T226	Location-Nominal 1639 1645	村南小河沟里
+T227	Thing-Nominal 1646 1648	蛤蟆
+T228	Person-Nominal 1649 1650	娘
+T229	Person-Pronoun 1655 1656	我
+T230	Time-Implicit 1659 1661;1662 1664	那天 晚上
+T231	Person-Pronoun 1664 1665	我
+T234	Location-Nominal 1686 1688	岸上
+T235	Location-Nominal 1689 1691	水里
+T236	Thing-Nominal 1706 1708	蛤蟆
+R17	Located Arg1:T236 Arg2:T234	
+R18	Located Arg1:T236 Arg2:T235	
+T237	Person-Pronoun 1709 1710	我
+T238	Thing-Nominal 1712 1714	穿子
+T239	Person-Pronoun 1728 1729	我
+T240	Thing-Nominal 1737 1739	穿子
+T241	Thing-Nominal 1744 1746	蛤蟆
+T242	Person-Pronoun 1757 1758	我
+T243	Thing-Nominal 1759 1761	狮子
+T244	Thing-Nominal 1774 1776	头发
+T245	Person-Pronoun 1777 1778	我
+T246	Location-Nominal 1780 1782	水里
+T247	Thing-Nominal 1809 1812	我眼睛
+T248	Person-Pronoun 1809 1810	我
+R19	Part-Whole Arg1:T247 Arg2:T248	
+T249	Person-Nominal 1815 1817	自己
+T250	Person-Pronoun 1823 1824	我
+T251	Person-Nominal 1830 1831	娘
+T252	Person-Pronoun 1835 1836	我
+T253	Thing-Nominal 1851 1853	蛤蟆
+T254	Person-Pronoun 1858 1859	我
+T255	Person-Nominal 1877 1880	小伙伴
+T256	Person-Pronoun 1885 1887	我们
+T257	Person-Nominal 1890 1894	红领巾”
+T258	Person-Nominal 1913 1916	大人们
+T259	Thing-Nominal 1917 1919	蛤蟆
+T260	Thing-Nominal 1931 1933	白纸
+T262	Person-Nominal 1961 1964	执笔人
+T263	Person-Nominal 1965 1968	描绘者
+T264	Metric 1969 1971	几岁
+T265	Person-Nominal 1972 1975	小孩子
+T266	Thing-Nominal 1977 1979	白纸
+T267	Metric 1979 1981	一张
+T268	Person-Nominal 2007 2009	父母
+T269	Person-Nominal 2011 2013	大人
+T9	Person-Nominal 92 97	我们小孩子
+T10	Thing-Nominal 315 316	水
+T70	Thing-Nominal 553 564	一根一尺左右的硬梆铁丝
+T72	Thing-Nominal 971 980	活蹦乱跳的一只蛤蟆
+T129	Thing-Nominal 1123 1130	一只绿花大蛤蟆
+T130	Location-Nominal 1677 1685	一个陌生的池塘边
+T140	Person-Nominal 1898 1905;1906 1908	一些不上学的小 伙伴
+T141	Metric 1929 1931	一张

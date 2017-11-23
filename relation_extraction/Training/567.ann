@@ -1,0 +1,324 @@
+T1	Person-Name 2 4	东坡
+T2	Person-Pronoun 5 6	我
+T3	Location-Nominal 8 10	故乡
+T4	Location-Name 10 20	万里长江第一县南溪县
+*	Coreference T3 T4
+T5	Time-Implicit 20 26	读高中的时候
+T6	Person-Pronoun 99 100	我
+T7	Person-Nominal 102 106	青年学子
+*	Coreference T6 T7
+T8	Person-Name 127 129	苏轼
+T9	Person-Nominal 131 137	我们四川老乡
+*	Coreference T8 T9
+T10	Person-Pronoun 138 139	他
+T11	Location-Nominal 143 146	我家乡
+T12	Metric 147 153	100多公里
+T13	Location-Name 158 162	四川眉山
+T14	Person-Pronoun 163 164	他
+T15	Location-Nominal 168 169	京
+R1	Near Arg1:T11 Arg2:T13	
+T16	Location-Name 173 175	岷江
+T17	Location-Name 180 182	宜宾
+T18	Location-Name 191 193	宜宾
+T19	Person-Pronoun 227 228	我
+T20	Person-Pronoun 229 230	他
+T21	Person-Nominal 249 253	古代文人
+T22	Person-Nominal 262 266	艺术家们
+T23	Person-Pronoun 267 268	我
+T24	Time-Explicit 273 275	今天
+T25	Person-Pronoun 275 276	我
+T26	Person-Name 290 294	东坡先生
+*	Coreference T22 T21
+T27	Person-Pronoun 306 307	他
+T28	Person-Pronoun 313 314	他
+*	Coreference T27 T26
+T29	Person-Name 323 324	东
+T30	Person-Pronoun 344 345	他
+T31	Person-Nominal 346 349	政治家
+T32	Person-Nominal 350 353	思想家
+T33	Person-Nominal 354 357	散文家
+T34	Person-Nominal 358 361	美学家
+T35	Person-Nominal 362 365	教育家
+T36	Person-Nominal 365 369	、哲学家
+T37	Person-Nominal 369 372	、画家
+T38	Person-Nominal 373 376	书法家
+T39	Person-Nominal 377 382	水利工程师
+T40	Person-Nominal 383 388	园林设计师
+T41	Person-Nominal 389 392	美食家
+T42	Person-Nominal 393 395	诗人
+T43	Person-Nominal 396 397;398 399	词 人
+T44	Person-Nominal 400 402	官员
+T45	Person-Nominal 403 408	医学研究者
+T46	Person-Nominal 409 414	瑜伽修练者
+T47	Person-Nominal 415 418	佛教徒
+T48	Person-Nominal 419 424	数学研究者
+T49	Person-Nominal 428 432	有的学者
+T50	Person-Name 435 438	苏东坡
+T51	Person-Nominal 439 444	官场失败者
+*	Coreference T50 T51
+*	Coreference T30 T31 T32 T33 T34 T35 T36 T37 T38 T39 T40 T41 T42 T43 T44 T45 T47 T48
+T52	Person-Pronoun 447 448	我
+T53	Person-Nominal 454 456	别人
+T54	Person-Name 464 467	苏东坡
+T55	Person-Nominal 476 478	皇帝
+T56	Person-Nominal 481 483	红人
+T57	Location-Name 487 490	海南岛
+T58	Person-Pronoun 492 493	他
+*	Coreference T58 T54 T56
+T59	Person-Pronoun 498 499	他
+T60	Person-Pronoun 513 514	他
+T61	Person-Name 539 541	东坡
+T62	Person-Pronoun 561 562	他
+T63	Person-Pronoun 576 577	他
+T64	Organization-Nominal 579 581	朝庭
+T65	Person-Pronoun 588 589	他
+T66	Person-Pronoun 599 600	他
+T67	Thing-Nominal 593 595	奏折
+T68	Person-Name 603 606	王安石
+T69	Person-Name 619 622	司马光
+T70	Organization-Nominal 649 651	新党
+T71	Organization-Nominal 654 656	旧党
+T72	Person-Pronoun 661 662	他
+T73	Person-Pronoun 676 677	他
+T74	Person-Nominal 679 684	百姓的朋友
+T75	Person-Nominal 685 688	代言人
+*	Coreference T73 T74 T75 T76
+T76	Person-Nominal 690 692	自己
+T77	Person-Pronoun 715 716	他
+T78	Person-Nominal 737 739	宰相
+T79	Person-Pronoun 742 743	他
+T80	Person-Nominal 746 750	中书舍人
+T81	Person-Nominal 751 754	翰林学
+T82	Person-Nominal 756 760	二品大员
+*	Coreference T79 T80
+T83	Location-Nominal 766 768	中国
+T84	Time-Implicit 768 770	古代
+T85	Person-Nominal 779 781	宰相
+T86	Person-Nominal 811 815	艺术大师
+T87	Person-Pronoun 818 819	他
+T88	Person-Pronoun 822 823	他
+T89	Person-Nominal 856 858	进士
+T90	Person-Pronoun 859 860	他
+*	Coreference T90 T89
+T91	Person-Name 867 874	文坛泰斗欧阳修
+T92	Person-Name 877 878;879 881	欧 阳修
+T93	Person-Nominal 882 885	天下人
+T94	Time-Implicit 889 894	几十年之后
+T95	Person-Name 900 903	欧阳修
+T96	Person-Name 908 910	苏轼
+R2	Social Arg1:T96 Arg2:T95	
+T97	Person-Name 912 914	苏轼
+T98	Person-Pronoun 935 936	他
+T99	Person-Nominal 946 950	地方长官
+*	Coreference T98 T99
+T100	Location-Name 953 955	杭州
+T101	Location-Name 956 958	徐州
+T102	Location-Name 959 961	常州
+T103	Location-Name 962 964	登州
+T104	Location-Name 965 967	密州
+T105	Location-Name 968 970	扬州
+T106	Location-Name 971 973	湖州
+T107	Location-Name 974 976	颖州
+T108	Person-Nominal 977 979	太守
+T109	Person-Nominal 980 982	知府
+T110	Person-Pronoun 983 984	他
+*	Coreference T110 T109 T108
+T111	Location-Name 988 990	西湖
+T112	Location-Name 993 995	苏堤
+T113	Person-Nominal 998 1000	百姓
+R3	Social Arg1:T110 Arg2:T113	
+T114	Person-Pronoun 1002 1003	他
+T115	Location-Name 1024 1026	西湖
+T116	Person-Pronoun 1064 1065	我
+T117	Person-Name 1068 1070	东坡
+T118	Person-Nominal 1082 1084	皇帝
+T119	Person-Nominal 1102 1104	耕者
+T120	Person-Nominal 1104 1106	马夫
+T121	Person-Nominal 1118 1120	天才
+*	Coreference T117 T121
+T122	Person-Pronoun 1150 1151	他
+T123	Person-Nominal 1171 1175	大书法家
+T124	Person-Pronoun 1193 1194	他
+T125	Person-Nominal 1196 1199	思想家
+T126	Person-Nominal 1200 1203	哲学家
+*	Coreference T124 T125 T126
+T127	Person-Pronoun 1206 1207	我
+T128	Person-Pronoun 1215 1216	他
+T129	Thing-Nominal 1288 1290	飞鸿
+T130	Person-Name 1364 1366	东坡
+T131	Person-Pronoun 1375 1376	他
+*	Coreference T131 T130
+T132	Location-Name 1418 1420	黄州
+T133	Person-Nominal 1421 1425	团练副使
+T134	Person-Nominal 1431 1437	武装部副部长
+T135	Person-Pronoun 1468 1469	他
+T136	Location-Nominal 1471 1473	东山
+*	Coreference T135 T133
+T137	Person-Nominal 1480 1482	农夫
+T138	Person-Name 1490 1492	东坡
+T139	Person-Pronoun 1513 1514	他
+T140	Person-Nominal 1516 1519	当地人
+T141	Person-Pronoun 1527 1528	他
+T142	Person-Pronoun 1569 1570	他
+T143	Thing-Nominal 1523 1526	猪肥肉
+T144	Person-Pronoun 1589 1590	他
+T145	Person-Nominal 1597 1599	妻子
+T146	Person-Nominal 1602 1605	他表妹
+T147	Person-Name 1605 1607	王弗
+R4	Family Arg1:T144 Arg2:T145	
+*	Coreference T146 T147 T145
+T148	Person-Nominal 1709 1711	妻子
+T149	Time-Explicit 1716 1718	十年
+T150	Person-Name 1721 1724	苏东坡
+T151	Person-Nominal 1731 1733	妻子
+T152	Time-Explicit 1740 1742	十年
+T153	Person-Name 1744 1746	东坡
+T154	Person-Nominal 1768 1769;1770 1771	妻 子
+T155	Person-Nominal 1776 1778	诗人
+*	Coreference T153 T155
+T156	Person-Nominal 1798 1800	妻子
+T157	Person-Nominal 1803 1805	诗人
+T158	Person-Nominal 1810 1812	诗人
+T159	Person-Nominal 1814 1816	妻子
+T160	Person-Pronoun 1817 1818	她
+*	Coreference T160 T159
+T161	Location-Nominal 1824 1826	窗前
+T162	Person-Name 1894 1896	东坡
+T163	Person-Nominal 1902 1904	皇后
+T164	Person-Pronoun 1906 1907	他
+T165	Person-Pronoun 1917 1918	他
+*	Coreference T164 T162
+T166	Person-Pronoun 1921 1922	他
+T167	Person-Nominal 1944 1946	女人
+T168	Person-Pronoun 1967 1969	她们
+T169	Person-Nominal 1970 1972	女性
+*	Coreference T168 T169
+T170	Person-Nominal 1999 2001	皇后
+T171	Person-Name 2016 2019	苏东坡
+T172	Person-Pronoun 2021 2023	她们
+T173	Person-Pronoun 2031 2032	他
+T174	Person-Pronoun 2062 2063	他
+T175	Person-Nominal 2075 2077	小人
+T176	Person-Nominal 2078 2081	野心家
+T177	Person-Pronoun 2086 2087	他
+T178	Person-Pronoun 2091 2092	他
+T179	Location-Name 2132 2135	海南岛
+T180	Person-Pronoun 2136 2137	他
+T181	Person-Pronoun 2143 2144	我
+T182	Person-Pronoun 2148 2149	他
+T183	Person-Nominal 2150 2154	四川老乡
+T184	Person-Name 2162 2173	改革开放总设计师邓小平
+T185	Person-Pronoun 2174 2175	他
+*	Coreference T183 T184
+T186	Person-Name 2183 2185	东坡
+T187	Person-Pronoun 2207 2208	他
+T188	Person-Nominal 2209 2211	政敌
+R5	Social Arg1:T187 Arg2:T188	
+T189	Person-Nominal 2212 2215	小人们
+R6	Social Arg1:T187 Arg2:T189	
+T190	Person-Pronoun 2230 2231	他
+T191	Person-Name 2259 2261	东坡
+T192	Person-Pronoun 2312 2313	他
+T193	Person-Pronoun 2318 2319	他
+T194	Person-Nominal 2334 2340	中国优秀文人
+*	Coreference T193 T194
+T195	Person-Name 2362 2366	鲁迅先生
+T196	Person-Nominal 2407 2410	中国人
+T197	Person-Pronoun 2416 2417	他
+T198	Person-Pronoun 2418 2419	他
+T199	Person-Pronoun 2519 2520	他
+T200	Person-Pronoun 2541 2542	他
+T201	Organization-Nominal 2562 2564	朝庭
+T202	Organization-Name 2581 2583	北宋
+T203	Person-Name 2584 2586	东坡
+T204	Time-Implicit 2590 2594	二十多年
+T205	Organization-Name 2596 2597	金
+T206	Person-Pronoun 2601 2602	他
+T207	Person-Pronoun 2608 2609	我
+*	Coreference T207 T206
+T208	Person-Pronoun 2628 2629	他
+T209	Person-Name 2634 2636	章淳
+R7	Social Arg1:T208 Arg2:T209	
+T210	Person-Pronoun 2639 2640	他
+T211	Person-Name 2648 2650	章淳
+T212	Person-Name 2662 2664	东坡
+T213	Person-Nominal 2670 2673	老朋友
+*	Coreference T213 T211
+T214	Person-Name 2682 2684	东坡
+T215	Person-Pronoun 2695 2696	我
+T216	Person-Name 2718 2720	东坡
+T217	Location-Name 2722 2726	湖北黄州
+T218	Location-Name 2727 2731	广东惠州
+T219	Location-Name 2732 2735	海南岛
+T221	Person-Name 2757 2759	东坡
+T222	Person-Nominal 2771 2776	内地的朋友
+T220	Person-Nominal 2741 2743	官员
+R8	Social Arg1:T220 Arg2:T221	
+R9	Social Arg1:T222 Arg2:T221	
+T223	Person-Nominal 2780 2782	高僧
+T224	Metric 2786 2788	千里
+T225	Location-Name 2793 2797	琼州海峡
+T226	Person-Name 2804 2806	东坡
+T227	Person-Name 2819 2821	东坡
+T228	Person-Name 2832 2834	东坡
+T229	Thing-Nominal 2830 2831	酒
+T230	Person-Pronoun 2839 2840	他
+T231	Person-Nominal 2840 2842	自己
+*	Coreference T230 T231
+T232	Thing-Nominal 2846 2847	酒
+R10	Create Arg1:T230 Arg2:T232	
+T233	Person-Name 2852 2854	东坡
+T234	Person-Name 2861 2863	东坡
+T235	Person-Nominal 2869 2872	身边人
+T236	Person-Pronoun 2875 2877	你们
+*	Coreference T235 T236
+T237	Person-Pronoun 2879 2880	我
+*	Coreference T234 T237
+T238	Person-Nominal 2891 2893	大人
+T239	Person-Name 2913 2915	东坡
+*	Coreference T238 T239
+T240	Person-Name 2923 2925	东坡
+T241	Person-Nominal 2923 2930	东坡的红颜知己
+T242	Person-Name 2943 2947	朝云姑娘
+*	Coreference T241 T242
+R11	Social Arg1:T240 Arg2:T241	
+T243	Person-Name 2955 2956	你
+T244	Person-Name 2966 2968	东坡
+*	Coreference T244 T243
+T245	Person-Name 2992 2994	东坡
+T246	Person-Name 2997 2999	东坡
+T247	Person-Pronoun 3004 3005	他
+T248	Person-Pronoun 3059 3060	他
+T249	Person-Pronoun 3076 3077	他
+T250	Person-Pronoun 3144 3146	我们
+T251	Person-Pronoun 3148 3149	我
+T252	Person-Name 3251 3254	东坡先
+T253	Person-Nominal 3264 3266	自己
+*	Coreference T252 T253
+T254	Person-Nominal 3268 3270	小人
+R12	Social Arg1:T253 Arg2:T254	
+T255	Location-Nominal 3307 3309	山头
+T256	Person-Name 3325 3327	东坡
+T257	Person-Nominal 3365 3366;3367 3368	文 人
+T258	Person-Name 3368 3370	东坡
+*	Coreference T258 T257
+T259	Person-Pronoun 3392 3394	我们
+T260	Person-Nominal 3398 3400	自己
+T261	Person-Nominal 3415 3417	朋友
+R13	Social Arg1:T260 Arg2:T261	
+T262	Person-Name 3436 3438	东坡
+T263	Location-Name 3480 3486	宜宾长江岸边
+T264	Person-Pronoun 3487 3488	我
+T265	Person-Nominal 3495 3499	青年才俊
+T266	Person-Name 3499 3501	苏轼
+*	Coreference T265 T266 T268
+T267	Thing-Nominal 3505 3506	舟
+R14	Use Arg1:T266 Arg2:T267	
+T268	Person-Pronoun 3513 3514	他
+T269	Person-Pronoun 3522 3523	我
+T270	Person-Pronoun 3525 3526	他
+T271	Person-Pronoun 3567 3568	我
+T272	Person-Nominal 3573 3577	华夏儿女
+T273	Person-Pronoun 3603 3604	我
+T274	Person-Pronoun 3610 3611	他
+T275	Person-Pronoun 3622 3623	我

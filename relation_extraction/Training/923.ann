@@ -1,0 +1,106 @@
+T1	Time-Implicit 0 8	从2011年开始
+T2	Time-Implicit 9 14	5月19日
+T3	Location-Name 16 18	中国
+T4	Location-Name 41 43	中国
+T6	Time-Explicit 65 69	60年代
+T7	Location-Nominal 65 72	60年代的中国
+T8	Time-Implicit 84 86	古代
+T9	Person-Nominal 84 88	古代先贤
+T10	Person-Pronoun 92 94	我们
+T11	Person-Nominal 125 128	现代人
+T12	Time-Explicit 136 138	如今
+T13	Location-Nominal 139 142	地球上
+T14	Location-Nominal 145 151	热门的旅游点
+T15	Person-Nominal 156 159	中国人
+T16	Person-Name 186 188	于丹
+T17	Thing-Nominal 238 240	翅膀
+T18	Person-Name 260 261	她
+*	Coreference T18 T16
+T19	Person-Pronoun 271 272	我
+T20	Location-Name 273 275	庐山
+T21	Time-Implicit 279 282	11月
+T22	Time-Explicit 290 294	下午4点
+T23	Location-Nominal 300 302	到处
+T25	Thing-Nominal 304 311	一片浓浓的暮霭
+R1	Located Arg1:T25 Arg2:T23	
+T27	Person-Pronoun 409 410	我
+T28	Time-Implicit 415 417	深秋
+T29	Thing-Nominal 420 427	那么蓬勃的阳光
+T30	Time-Explicit 429 433	那个时刻
+T31	Person-Pronoun 434 435	我
+T32	Thing-Nominal 451 453	阳光
+T33	Thing-Pronoun 463 464	它
+*	Coreference T33 T32
+T34	Person-Nominal 471 472	人
+T35	Person-Pronoun 480 481	你
+T36	Person-Pronoun 484 485	你
+T37	Thing-Nominal 490 492	阳光
+T38	Thing-Nominal 495 497	阳光
+T39	Person-Pronoun 507 508	你
+T40	Thing-Nominal 507 511	你的云雾
+T41	Person-Nominal 524 525	人
+T42	Thing-Nominal 530 532	云雾
+T43	Person-Pronoun 548 549	她
+T44	Person-Pronoun 554 555	我
+T45	Time-Explicit 558 563	1992年
+T46	Person-Pronoun 564 565	我
+T47	Time-Implicit 578 586	1991年的夏天
+T48	Time-Implicit 589 594	黑色的八月
+T49	Location-Name 596 598	北京
+T51	Person-Nominal 596 604	北京的一个小伙子
+T53	Person-Pronoun 610 611	他
+T54	Location-Name 633 635	京城
+T55	Person-Pronoun 639 640	他
+T56	Thing-Nominal 646 647	海
+T57	Time-Implicit 648 655	在告别人世之前
+T58	Person-Pronoun 656 657	他
+T59	Person-Nominal 665 667	自己
+T60	Thing-Nominal 679 681	大海
+T61	Person-Pronoun 685 686	他
+T62	Location-Nominal 690 692	家里
+T63	Thing-Nominal 690 694	家里的钱
+R2	Located Arg1:T63 Arg2:T62	
+T64	Location-Nominal 698 699;700 703	天 涯海角
+T65	Person-Pronoun 706 707	他
+T66	Person-Pronoun 720 721	他
+T67	Person-Pronoun 724 725	他
+T68	Person-Nominal 724 727	他父母
+R3	Family Arg1:T67 Arg2:T68	
+T69	Location-Nominal 747 749	家中
+T70	Person-Pronoun 751 752	我
+T71	Location-Name 753 760	海南岛XX旅馆
+T72	Thing-Nominal 763 764	钱
+T73	Person-Pronoun 768 770	他们
+T74	Person-Nominal 768 772	他们父子
+T75	Location-Name 773 776	海南岛
+T76	Person-Nominal 779 781	父亲
+T77	Person-Pronoun 782 783	他
+T78	Person-Nominal 798 801	小伙子
+T79	Location-Name 805 808	海南岛
+T80	Thing-Nominal 815 817	大海
+T81	Person-Pronoun 830 831	他
+T82	Person-Pronoun 838 839	他
+T83	Person-Pronoun 871 872	他
+T84	Person-Pronoun 878 879	他
+T5	Abstract 198 212	《读书和行走是我的两个翅膀》
+T24	Location-Name 321 323	庐山
+T85	Person-Pronoun 328 329	我
+T86	Location-Name 331 334	锦绣谷
+T87	Time-Implicit 340 343	5点半
+T88	Person-Pronoun 364 365	你
+T89	Thing-Nominal 371 377	满眼的阳光中
+T26	Time-Explicit 378 381;382 388	接近夕 阳的那个时分
+T90	Location-Nominal 465 470	很高的地方
+R4	Located Arg1:T33 Arg2:T90	
+*	Coreference T53 T51
+T50	Thing-Nominal 912 919	波澜壮阔的大海
+T52	Time-Explicit 959 961	如今
+T91	Person-Nominal 962 965	小伙子
+T92	Person-Pronoun 977 978	他
+T93	Thing-Nominal 995 997	阳光
+T94	Person-Pronoun 1055 1056	你
+T95	Person-Pronoun 1066 1067	你
+T96	Person-Pronoun 1099 1100	你
+T97	Person-Nominal 1198 1200	自己
+T98	Person-Nominal 1381 1383	大家
+T99	Thing-Nominal 1385 1396	两个多姿多彩的美丽翅膀

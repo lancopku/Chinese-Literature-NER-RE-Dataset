@@ -1,0 +1,353 @@
+T1	Thing-Nominal 7 11	金银铜铁
+T2	Location-Name 23 25	无锡
+T3	Location-Name 28 34	江苏省无锡市
+T4	Location-Nominal 38 42	我的故乡
+*	Coreference T4 T3
+T5	Person-Pronoun 38 39	我
+T6	Location-Name 49 51	无锡
+T7	Time-Implicit 63 65	那年
+T8	Organization-Name 66 71	鲁迅文学院
+T9	Person-Nominal 76 78	同窗
+T10	Person-Pronoun 85 86	我
+T11	Person-Nominal 88 93	你们无锡人
+T12	Person-Pronoun 117 119	你们
+T13	Location-Name 125 127	无锡
+T14	Thing-Nominal 133 138	自己的城市
+T15	Person-Pronoun 133 135	自己
+*	Coreference T15 T11
+T16	Person-Pronoun 88 90	你们
+T17	Person-Pronoun 143 144	我
+T18	Person-Pronoun 146 147	他
+*	Coreference T18 T9
+T19	Person-Nominal 158 161	无锡人
+T20	Person-Pronoun 179 180	我
+T21	Location-Name 186 188	无锡
+T22	Location-Name 201 203	无锡
+T23	Location-Name 218 220	无锡
+T24	Location-Name 246 248	无锡
+T25	Location-Name 259 261	无锡
+T26	Thing-Nominal 267 275	一座名曰锡山的山
+R1	Located Arg1:T26 Arg2:T25	
+T27	Time-Explicit 301 303	唐代
+T28	Person-Name 303 307	茶神陆羽
+T29	Person-Pronoun 308 309	他
+*	Coreference T29 T28
+T30	Abstract 311 317	《惠山寺记》
+T31	Location-Name 326 329	山东峰
+T32	Thing-Nominal 339 341	锡山
+T33	Thing-Nominal 333 337	惠山东峰
+T34	Thing-Nominal 349 351	铅锡
+T35	Location-Name 360 363	无锡县
+T36	Person-Nominal 371 373	樵客
+T37	Location-Nominal 374 376	山下
+T38	Person-Nominal 383 385	锡兵
+T39	Location-Name 390 392	无锡
+T40	Time-Explicit 414 421	光武至孝顺之世
+T41	Person-Name 426 428	顺帝
+T42	Location-Name 430 433	无锡县
+T43	Person-Name 443 451	明代小说家冯梦龙
+T44	Time-Explicit 443 445	明代
+T45	Abstract 453 460	《东周列国志》
+T46	Person-Name 469 472	秦始皇
+T47	Person-Name 473 477	大将王翦
+T48	Person-Nominal 479 481	大军
+T49	Location-Name 483 485	楚国
+T50	Location-Name 487 489	无锡
+T51	Person-Nominal 490 492	士兵
+T52	Location-Name 493 501	惠山东山(即锡山
+T53	Location-Nominal 503 505	脚下
+T54	Thing-Nominal 506 507	锅
+T55	Thing-Nominal 513 517	一块石碑
+T56	Location-Nominal 518 520	碑上
+T57	Person-Nominal 542 545	当地人
+T58	Person-Name 547 550	周平王
+T59	Location-Pronoun 551 553	这里
+*	Coreference T59 T52
+T60	Thing-Nominal 555 557	铅锡
+T61	Metric 561 563;564 566	40 0年
+T62	Person-Name 571 573	王翦
+T63	Thing-Nominal 576 578	此碑
+T64	Location-Pronoun 594 596	这里
+T65	Location-Name 599 601	无锡
+T66	Thing-Nominal 606 610	这个地方
+T67	Location-Name 615 617	无锡
+T68	Person-Nominal 649 651	锡兵
+T69	Person-Nominal 672 675	碑铭者
+T70	Person-Nominal 677 679	樵夫
+T71	Person-Nominal 681 683	士兵
+T72	Thing-Nominal 691 693	无锡
+T73	Thing-Pronoun 694 695	她
+*	Coreference T73 T72
+T74	Thing-Nominal 699 700	锡
+T75	Thing-Nominal 712 725	一座魅力独具的历史文化名城
+T76	Thing-Nominal 728 739	一座经济发达的工商名城
+T77	Thing-Pronoun 740 741	它
+T78	Thing-Nominal 742 751;752 753	中国民族工商业的滥 觞
+T79	Thing-Nominal 754 764	当代乡镇工业的发祥地
+T80	Time-Explicit 754 756	当代
+T81	Time-Explicit 774 779	十九世纪末
+T82	Location-Name 780 782	无锡
+T83	Time-Explicit 794 799	1920年
+T84	Location-Name 800 802	无锡
+T85	Person-Nominal 814 818	从业工人
+T86	Location-Name 830 832	无锡
+T87	Thing-Nominal 834 839	“小上海”
+T88	Location-Pronoun 843 845	这里
+*	Coreference T88 T86
+T89	Person-Nominal 850 866	荣、唐、薛、周、杨等民族工业巨子
+T90	Person-Nominal 870 873;874 875	荣氏家 族
+T91	Thing-Nominal 879 889	中国民族资本家的首户
+T92	Time-Explicit 891 902	改革开放以后的九十年代
+T93	Location-Name 903 906	无锡县
+T94	Thing-Nominal 922 929	“华夏第一县”
+T95	Location-Name 937 939	无锡
+T96	Person-Nominal 982 983	人
+T97	Location-Name 975 977	无锡
+T98	Location-Name 987 989	无锡
+T99	Person-Nominal 1000 1001	人
+T100	Time-Implicit 1021 1026	三千多年来
+T101	Location-Nominal 1028 1035;1036 1039	这块肥沃富饶的 土地上
+T102	Person-Nominal 1043 1070	无数的思想家、教育家、科学家、文学家、艺术家、书画家。
+T103	Person-Nominal 1075 1082	无锡的文化名家
+T104	Person-Nominal 1083 1087	才俊贤士
+T105	Person-Nominal 1090 1091	人
+T106	Location-Name 1075 1077	无锡
+T107	Thing-Nominal 1094 1096	星辰
+T108	Person-Name 1110 1115	画圣顾恺之
+T109	Person-Name 1116 1129	南宋中兴四大诗人之一的尤袤
+T110	Person-Name 1130 1144	中国古代十大画家的元朝倪云林
+T111	Person-Name 1149 1157;1158 1164	国古代十大画家之 一的明朝王绂
+T112	Person-Name 1165 1173	东林党领袖顾宪成
+T113	Person-Name 1174 1177	高攀龙
+T114	Person-Name 1178 1186	中国游圣徐霞客、
+T115	Person-Name 1186 1195	近代科学家先驱徐寿
+T116	Person-Name 1196 1199	华蘅芳
+T117	Person-Name 1200 1210	清代著名外交家薛福成
+T118	Person-Name 1211 1218;1219 1228	著名民族工商业 家荣德生及子荣毅仁
+T119	Person-Name 1229 1235	国学大师钱穆
+T120	Person-Name 1236 1246	二胡学派奠基人刘天华
+T121	Person-Name 1247 1259	民间音乐家华彦钧(阿炳)
+T122	Person-Name 1260 1269	一代艺术大师徐悲鸿
+T123	Person-Name 1270 1277	当代书法家沈鹏
+T124	Person-Name 1278 1279;1280 1286	文 化大师钱钟书
+T125	Person-Name 1287 1298	经济学家孙冶方、薛暮桥
+T126	Person-Name 1299 1305	教育家蒋南翔
+T127	Person-Name 1306 1311	音乐家王莘
+T128	Person-Name 1312 1319	“当代毕”王选
+T129	Person-Nominal 1336 1340	领军人物
+T130	Person-Nominal 1341 1344	佼佼者
+T131	Person-Nominal 1346 1347	人
+T132	Location-Nominal 1351 1357	中国的大学中
+T133	Person-Nominal 1360 1368	400多位无锡人
+T134	Person-Nominal 1371 1373	校长
+T135	Person-Nominal 1381 1386	;两院院士
+T136	Person-Nominal 1394 1401	每100万人才
+T137	Location-Name 1408 1410	无锡
+T138	Person-Nominal 1411 1414	6万人
+T139	Person-Nominal 1421 1423	人才
+T140	Location-Name 1419 1421	无锡
+T141	Thing-Nominal 1430 1436	这些国之瑰宝
+T142	Person-Pronoun 1463 1465	我们
+T143	Thing-Nominal 1468 1475	宝贵的历史遗产
+T144	Location-Name 1477 1479	无锡
+T145	Person-Name 1494 1501	吴文化始祖泰伯
+T146	Person-Name 1514 1516	泰伯
+T147	Person-Nominal 1524 1525	人
+T148	Abstract 1541 1545	《史记》
+T149	Person-Nominal 1547 1552	太史公将“
+T150	Person-Name 1562 1565	吴泰伯
+T151	Person-Name 1579 1581	泰伯
+T152	Person-Nominal 1582 1591	周太王古公父的长子
+*	Coreference T152 T151
+T153	Person-Nominal 1595 1597	父亲
+T154	Person-Name 1602 1607	小儿子季历
+T155	Person-Name 1614 1618	大弟仲雍
+T156	Thing-Nominal 1620 1621	药
+T157	Person-Nominal 1622 1624	父亲
+R2	Family Arg1:T151 Arg2:T155	
+R3	Family Arg1:T151 Arg2:T153	
+T158	Location-Name 1628 1640	南奔荆蛮(即今无锡地区)
+T159	Location-Name 1643 1645	梅里
+T160	Person-Nominal 1646 1650	兄弟二人
+T161	Person-Nominal 1652 1657	地土著群众
+T162	Location-Nominal 1676 1680	中原地区
+T163	Person-Nominal 1705 1709	当地土著
+T164	Person-Nominal 1734 1736	大家
+T165	Thing-Nominal 1750 1753	千余家
+T166	Person-Name 1755 1757	泰伯
+T167	Person-Nominal 1761 1763	首领
+T168	Person-Name 1765 1767	泰伯
+T169	Location-Nominal 1768 1770	吴地
+T170	Person-Nominal 1785 1787	民众
+T171	Location-Nominal 1795 1797	江南
+T172	Thing-Nominal 1800 1813	我国最早、最长的人工大运河
+T173	Metric 1816 1820	78公里
+T174	Location-Name 1826 1829	伯渎河
+T175	Person-Pronoun 1831 1832	他
+*	Coreference T175 T168
+T176	Person-Nominal 1835 1839	当地民众
+T177	Thing-Nominal 1841 1845	家禽牲畜
+T178	Location-Name 1849 1853	无锡梅村
+T179	Thing-Nominal 1857 1866	“鸭城”、“麋城”
+T180	Location-Name 1870 1872	梅里
+T181	Metric 1878 1880	数年
+T182	Person-Nominal 1883 1885	民人
+T183	Person-Nominal 1891 1893	古公
+T184	Person-Name 1898 1906	泰伯、仲雍兄弟俩
+T185	Person-Name 1912 1914	泰伯
+T186	Person-Nominal 1917 1919	父王
+R4	Family Arg1:T186 Arg2:T185	
+T187	Person-Name 1925 1929	其弟季历
+T188	Location-Nominal 1933 1935	江南
+T189	Person-Name 1936 1938	泰伯
+T190	Person-Name 1945 1949	其弟仲雍
+T191	Time-Explicit 1954 1958	春秋末期
+T192	Person-Nominal 1972 1976	父子兄弟
+T193	Person-Name 1987 1989	孔子
+T194	Person-Name 1993 1995	泰伯
+T195	Person-Name 2001 2003	泰伯
+T196	Person-Nominal 2017 2018	民
+T197	Person-Nominal 2027 2029	后世
+T198	Person-Name 2030 2032	泰伯
+T199	Person-Name 2034 2037	三让王
+T200	Person-Name 2046 2050	其弟季历
+T201	Person-Name 2057 2059	其侄
+T202	Person-Name 2075 2079	三弟仲雍
+T203	Person-Name 2080 2082	泰伯
+T204	Location-Name 2105 2107	无锡
+T205	Person-Nominal 2149 2150	人
+T206	Person-Name 2142 2144	泰伯
+T207	Person-Pronoun 2153 2155	他们
+T208	Time-Implicit 2157 2159	古代
+T209	Location-Name 2167 2169	岐山
+T210	Location-Name 2170 2172	梅里
+T211	Metric 2175 2178	几千里
+T212	Thing-Nominal 2185 2187	大河
+T213	Thing-Nominal 2183 2185	高山
+T214	Person-Name 2207 2209	泰伯
+T215	Person-Name 2215 2217	仲雍
+T216	Location-Name 2225 2232	陕西、山西一带
+T217	Person-Name 2238 2240	泰伯
+T218	Location-Name 2245 2247	梅里
+T219	Person-Name 2319 2321	泰伯
+T220	Person-Pronoun 2309 2311	我们
+T221	Person-Pronoun 2269 2271	自己
+T222	Location-Name 2325 2327	岐山
+T223	Person-Nominal 2327 2331	自己部族
+T224	Thing-Pronoun 2338 2339	它
+T225	Person-Name 2354 2356	泰伯
+T226	Location-Name 2362 2364	梅里
+T227	Location-Name 2369 2371	吴国
+T228	Person-Name 2384 2385;2386 2388	周 武王
+T229	Person-Nominal 2390 2395	泰伯的侄孙
+*	Coreference T229 T228
+T230	Person-Name 2399 2401	泰伯
+R5	Family Arg1:T230 Arg2:T228	
+T231	Person-Nominal 2405 2409	他的后裔
+T232	Person-Pronoun 2405 2406	他
+*	Coreference T232 T230
+T233	Person-Name 2409 2411	周章
+T234	Person-Nominal 2414 2416	吴君
+T235	Person-Nominal 2418 2423	周章的儿子
+R6	Family Arg1:T235 Arg2:T233	
+T236	Person-Name 2418 2420	周章
+T237	Location-Name 2439 2441	梅里
+T238	Location-Name 2444 2446;2447 2454	安阳 山(今称阳山)
+T239	Person-Name 2455 2458	周武王
+T240	Location-Nominal 2469 2473	几千里外
+T241	Location-Name 2477 2484	陕西、山西一带
+T242	Person-Name 2490 2492	泰伯
+T243	Location-Name 2496 2498	梅里
+T244	Thing-Nominal 2499 2501	吴墟
+T245	Person-Name 2510 2513	司马迁
+T246	Person-Nominal 2521 2524	太史公
+T247	Person-Pronoun 2543 2544	他
+T248	Person-Nominal 2545 2546	人
+*	Coreference T247 T246
+T249	Abstract 2554 2558	《史记》
+T250	Thing-Nominal 2589 2597	这些年大量的考古
+T251	Time-Explicit 2604 2608	石器时代
+T252	Person-Nominal 2611 2614	亚洲人
+T253	Location-Name 2616 2618	美洲
+T254	Location-Name 2626 2628	岐山
+T255	Location-Name 2630 2632	梅里
+T256	Time-Implicit 2642 2646	近些年来
+T257	Thing-Nominal 2647 2649	我国
+T258	Time-Explicit 2666 2671	2008年
+T259	Thing-Nominal 2671 2677	全国十大考古
+T260	Thing-Nominal 2681 2689	无锡阖闾大城遗址
+T261	Time-Explicit 2699 2702;2703 2710	201 0年5月18日
+T262	Thing-Nominal 2711 2720	无锡阖闾城遗址博物
+T263	Location-Name 2730 2732	梅里
+T264	Thing-Nominal 2733 2738	泰伯城原址
+R7	Located Arg1:T264 Arg2:T263	
+T265	Thing-Nominal 2758 2763	大小阖闾城
+T266	Person-Nominal 2770 2772	世人
+T267	Location-Name 2782 2786	无锡梅里
+T268	Thing-Nominal 2787 2791	泰伯都城
+T269	Location-Name 2795 2799	无锡西陲
+T270	Thing-Nominal 2803 2807	阖闾王城
+R8	Located Arg1:T270 Arg2:T269	
+R9	Located Arg1:T268 Arg2:T267	
+T271	Thing-Nominal 2808 2814	吴文化的源头
+T272	Location-Name 2815 2817	无锡
+T273	Time-Explicit 2827 2833	农历正月初九
+T274	Person-Name 2834 2836	泰伯
+T275	Person-Pronoun 2842 2843	他
+*	Coreference T275 T274
+T276	Location-Name 2854 2856	江南
+T277	Time-Implicit 2862 2866	每逢这天
+T278	Person-Nominal 2867 2876	四乡八镇的男女老少
+T279	Location-Nominal 2880 2883	泰伯庙
+T280	Thing-Nominal 2886 2887	香
+T281	Person-Nominal 2890 2894	让王爷”
+T282	Time-Implicit 2895 2899	千百年来
+T283	Location-Name 2904 2906	江南
+T284	Person-Name 2923 2925	泰伯
+T285	Metric 2927 2930	95岁
+T286	Time-Implicit 2937 2943	农历三月初三
+T287	Time-Implicit 2947 2953	每年到这一天
+T288	Thing-Nominal 2954 2958	家家户户
+T289	Thing-Nominal 2962 2964	酒肴
+T290	Location-Nominal 2965 2969	泰伯墓地
+T291	Time-Implicit 2976 2980	十多年来
+T292	Location-Name 2981 2984	无锡市
+T293	Person-Name 2988 2990	泰伯
+T294	Person-Nominal 3021 3028	海内外吴氏宗亲
+T295	Person-Name 3033 3042	国民党前主席吴伯雄
+T296	Time-Explicit 3045 3055	2006年4月10日
+T297	Person-Name 3060 3062	泰伯
+T298	Thing-Nominal 3070 3073	泰伯墓
+T299	Time-Explicit 3074 3081	今年4月10日
+T300	Thing-Nominal 3085 3087	匾额
+T301	Time-Explicit 3102 3107	2011年
+T302	Time-Implicit 3107 3117	无锡吴文化节开幕前夕
+*	Coreference T302 T301
+T303	Person-Pronoun 3118 3119	我
+T304	Person-Nominal 3120 3122	文友
+R10	Social Arg1:T304 Arg2:T303	
+T305	Thing-Nominal 3126 3129	泰伯墓
+T306	Person-Nominal 3144 3147	一行人
+T307	Location-Nominal 3150 3155	吴文化广场
+T308	Thing-Nominal 3158 3161;3162 3168	一尊崭 新的泰伯铜像
+T309	Location-Nominal 3171 3173	中央
+R11	Located Arg1:T308 Arg2:T309	
+T310	Metric 3178 3181	三吨半
+T311	Person-Nominal 3183 3190	三位本土雕塑家
+T312	Location-Nominal 3207 3213	铜像下方不远
+T313	Thing-Nominal 3215 3222;3223 3225	祭祀乐舞的演出 舞台
+R12	Located Arg1:T313 Arg2:T312	
+T314	Location-Nominal 3226 3228	台上
+T315	Person-Nominal 3228 3235	1500名演员
+T316	Person-Pronoun 3251 3252	我
+T317	Person-Pronoun 3281 3282	我
+T318	Location-Nominal 3284 3288	泰伯墓前
+T319	Thing-Nominal 3303 3310	朴素无华的坟茔
+T320	Person-Pronoun 3323 3324	我
+T321	Person-Name 3343 3345	泰伯
+T322	Thing-Nominal 3369 3373	王冠龙袍
+T323	Location-Nominal 3381 3383	耳畔
+T324	Person-Pronoun 3406 3407	我
+T325	Location-Nominal 3436 3441	这块土地上
+T326	Person-Nominal 3448 3455	一个泰伯故里人
+T327	Person-Name 3450 3452	泰伯

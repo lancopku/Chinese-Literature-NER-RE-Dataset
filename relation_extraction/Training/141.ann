@@ -1,0 +1,168 @@
+T1	Abstract 2 7	《兰铃花》
+T2	Person-Pronoun 8 9	我
+T3	Location-Nominal 10 12	指间
+T4	Location-Nominal 17 20	房间里
+T5	Thing-Nominal 23 28	动听的乐曲
+T6	Thing-Nominal 31 33	啼鸟
+T7	Person-Pronoun 41 42	我
+T8	Person-Pronoun 43 45	自己
+T9	Thing-Nominal 75 77	钢琴
+T10	Time-Implicit 70 74	孩提时代
+T11	Location-Nominal 103 105	家里
+T12	Thing-Nominal 105 119	那架漆黑发亮的“车尔尼”钢琴
+R1	Located Arg1:T12 Arg2:T11	
+T13	Time-Implicit 120 125	结婚几年后
+T14	Person-Pronoun 142 143	我
+T15	Person-Nominal 144 146	丈夫
+T16	Person-Pronoun 157 158	我
+T17	Thing-Nominal 164 166	钢琴
+T18	Time-Implicit 173 177	孩提时代
+T19	Time-Implicit 184 186	儿时
+T20	Person-Nominal 187 189	父母
+T21	Location-Nominal 192 197	遥远的边疆
+T22	Person-Pronoun 198 199	我
+T23	Location-Nominal 203 209	上海的外婆家
+T24	Location-Name 203 205	上海
+T25	Thing-Nominal 219 224	一个闹市区
+T26	Location-Name 214 218	南京路上
+R2	Located Arg1:T25 Arg2:T26	
+T27	Person-Nominal 210 212	外婆
+T28	Location-Pronoun 225 227	那里
+T29	Person-Nominal 227 229	名人
+T30	Time-Implicit 238 240	每天
+T31	Thing-Nominal 241 244;245 250	那老式 的洋房窗户
+T32	Thing-Nominal 257 264	浓密的梧桐树叶
+T33	Location-Nominal 268 271	空气中
+T34	Location-Nominal 273 279	洋房的邻居家
+T35	Person-Nominal 284 290	主人家的孩子
+T36	Person-Pronoun 300 301	我
+T37	Thing-Nominal 302 304	钢琴
+T38	Person-Nominal 315 321	邻居家的孩子
+T39	Location-Nominal 315 318	邻居家
+T40	Thing-Nominal 324 325	琴
+T41	Abstract 338 344	《生日之歌》
+T42	Person-Pronoun 345 346	我
+T43	Person-Pronoun 363 364	我
+T44	Time-Implicit 375 377	那时
+T45	Person-Pronoun 377 378	我
+T46	Thing-Nominal 389 391	钢琴
+T47	Person-Nominal 395 397	父母
+T48	Location-Nominal 399 401	边疆
+T49	Person-Nominal 404 405	人
+T50	Person-Pronoun 406 407	我
+T51	Thing-Nominal 408 411	少年宫
+T52	Location-Nominal 415 418	邻居家
+T53	Thing-Nominal 422 424	钢琴
+T54	Person-Pronoun 444 445	我
+T55	Time-Implicit 445 449	童年时代
+T56	Time-Implicit 460 462	以后
+T57	Location-Nominal 472 477	旧式洋房中
+T58	Person-Nominal 478 480	人家
+T59	Location-Nominal 494 498	他们的家
+T60	Person-Pronoun 494 496	他们
+R3	Ownership Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 499 501	钢琴
+T62	Person-Nominal 509 510	人
+T63	Thing-Nominal 506 508	琴谱
+T64	Thing-Nominal 516 518	碎片
+T65	Person-Nominal 519 520;521 526	邻 家的男主人
+T66	Location-Nominal 519 520;521 522	邻 家
+T67	Person-Nominal 531 533	孩子
+T68	Location-Nominal 543 549	外婆的院子里
+T69	Person-Nominal 543 545	外婆
+T70	Person-Pronoun 579 580	我
+T71	Person-Nominal 582 584	父母
+T72	Location-Nominal 587 589	边疆
+T73	Thing-Nominal 589 593	自己的家
+R4	Located Arg1:T73 Arg2:T72	
+T74	Person-Pronoun 589 591	自己
+T75	Person-Pronoun 595 596	我
+T76	Person-Pronoun 609 610	我
+T77	Thing-Nominal 611 613	钢琴
+T78	Person-Pronoun 633 634	我
+T79	Person-Nominal 634 651	一个充满灵性而又富有乐感的漂亮女儿
+T80	Thing-Nominal 652 657	黑黑的眸子
+T81	Thing-Nominal 658 663	天上的星星
+T82	Location-Nominal 658 660	天上
+R5	Located Arg1:T81 Arg2:T82	
+T83	Thing-Nominal 670 675	美妙的音乐
+T84	Thing-Nominal 688 693	家里的钢琴
+T85	Location-Nominal 688 690	家里
+R6	Located Arg1:T84 Arg2:T85	
+T86	Person-Nominal 705 707	女儿
+T87	Time-Implicit 707 711	从5岁起
+T88	Thing-Nominal 728 729	琴
+T89	Person-Nominal 731 733	老师
+T90	Person-Nominal 734 748	一位多才多艺和蔼可亲的女教师
+T91	Person-Pronoun 758 759	我
+T92	Person-Nominal 774 776	女儿
+T93	Thing-Nominal 777 778	琴
+T94	Person-Pronoun 781 782	我
+T95	Time-Implicit 792 796	每个周末
+T96	Person-Pronoun 797 798	我
+T97	Thing-Nominal 801 806	女儿的小手
+T98	Person-Nominal 801 803	女儿
+R7	Part-Whole Arg1:T97 Arg2:T98	
+T99	Thing-Nominal 810 813	公共车
+T100	Thing-Nominal 815 817	城市
+T101	Person-Nominal 829 830	师
+T102	Thing-Nominal 833 835	风雨
+T103	Person-Nominal 839 840	人
+T104	Person-Pronoun 849 850	谁
+T105	Person-Pronoun 868 869	我
+T106	Person-Nominal 873 875	女儿
+T107	Person-Nominal 878 881	钢琴家
+T108	Person-Pronoun 888 889	她
+T109	Thing-Nominal 890 892	钢琴
+T110	Thing-Nominal 892 895	这碗饭
+T111	Person-Pronoun 900 901	我
+T112	Person-Pronoun 904 906	自己
+T113	Person-Nominal 920 922	女儿
+T114	Person-Nominal 934 936	女儿
+T115	Abstract 939 946	《献给爱丽丝》
+T116	Abstract 946 953	《童年的回忆》
+T117	Abstract 953 961	《土耳其进行曲》
+T118	Abstract 961 968	《少女的祈祷》
+T119	Person-Pronoun 975 977	我们
+T120	Person-Pronoun 1032 1033	我
+T121	Person-Pronoun 1045 1046	我
+T122	Person-Pronoun 1051 1052	我
+T123	Person-Nominal 1062 1066	音乐女神
+T124	Person-Pronoun 1071 1072	我
+T125	Thing-Nominal 1073 1074	手
+R8	Part-Whole Arg1:T125 Arg2:T123	
+T126	Person-Pronoun 1076 1077	我
+T127	Thing-Nominal 1081 1082	琴
+T128	Thing-Nominal 1145 1150	美妙的音乐
+T129	Person-Pronoun 1153 1157	愚钝的我
+T130	Person-Pronoun 1171 1172	我
+T131	Thing-Nominal 1180 1183	五线谱
+T132	Time-Implicit 1196 1201	每天晚饭后
+T133	Person-Nominal 1211 1213	神仙
+T134	Time-Implicit 1218 1224	心情欠佳之时
+T135	Thing-Nominal 1256 1265	一段柔情浪漫的曲子
+T136	Person-Pronoun 1307 1308	我
+T137	Abstract 1367 1374	《献给爱丽丝》
+T138	Person-Name 1361 1363;1364 1366	;贝 多芬
+T139	Person-Nominal 1396 1405	一位容貌俏丽的少女
+T140	Location-Nominal 1407 1410	钢琴旁
+T141	Abstract 1418 1422	《夜曲》
+T142	Abstract 1469 1476	《童年的回忆》
+T143	Abstract 1481 1485;1486 1488	《牧童短 笛》
+T144	Person-Name 1413 1415	肖邦
+T145	Person-Name 1461 1468	塞纳维里与陶桑
+T146	Person-Name 1477 1480	贺绿汀
+T147	Person-Nominal 1510 1521	慈祥的外婆、姨夫、姨妈
+T148	Person-Pronoun 1523 1524	我
+T149	Person-Pronoun 1564 1565	我
+T150	Person-Pronoun 1578 1579	我
+T151	Time-Implicit 1596 1598	今天
+T152	Person-Pronoun 1602 1603	我
+T153	Person-Pronoun 1612 1613	我
+T154	Person-Pronoun 1619 1620	我
+T155	Person-Pronoun 1635 1636	我
+*	Coreference T28 T26
+T156	Person-Name 1332 1336	门德尔松
+T157	Abstract 1337 1342	《春之歌》
+R9	Located Arg1:T32 Arg2:T33	
+*	Coreference T60 T58

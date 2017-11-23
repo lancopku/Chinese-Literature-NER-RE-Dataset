@@ -1,0 +1,258 @@
+T1	Location-Name 0 3	黄家洼
+T2	Person-Pronoun 4 5	我
+T3	Location-Nominal 6 8	家乡
+T4	Metric 20 22	一片
+T5	Thing-Pronoun 18 20	那是
+T6	Location-Nominal 26 28	湿地
+T7	Metric 29 31	一条
+T8	Location-Nominal 31 38	结结实实的小路
+T9	Location-Pronoun 39 40	它
+*	Coreference T9 T8
+T10	Location-Nominal 41 43	果林
+R1	Near Arg1:T10 Arg2:T9	
+T11	Location-Nominal 46 50	咫尺之间
+T12	Location-Nominal 61 63	一边
+T13	Thing-Nominal 63 67	林木葱茏
+T14	Thing-Nominal 68 70	蜂舞
+T15	Thing-Nominal 70 72	蝶喧
+T16	Location-Nominal 73 78;79 81	果香在密林 深处
+T17	Time-Implicit 89 94	夕阳西下时
+T18	Location-Nominal 96 98	林间
+T19	Thing-Nominal 98 105	升起袅袅的炊烟
+R2	Located Arg1:T19 Arg2:T18	
+T20	Person-Nominal 108 110	农人
+T21	Time-Implicit 116 121	不知不觉间
+T22	Person-Nominal 127 131	看林老人
+T23	Metric 133 135	一只
+T24	Thing-Nominal 135 138	大黄狗
+T25	Location-Nominal 144 150	林外的草地上
+T26	Thing-Nominal 162 167	淡淡的烟霞
+T27	Thing-Nominal 169 171	昆虫
+T28	Metric 176 180	几分惆怅
+T29	Location-Nominal 182 194	另一边是无边无际的芦苇荡
+T30	Thing-Nominal 195 202	青翠欲滴的芦苇
+R3	Located Arg1:T30 Arg2:T29	
+T31	Metric 208 210	一处
+T32	Metric 206 208	任何
+T33	Location-Nominal 237 241	整个水面
+T34	Metric 243 246	所有的
+T35	Thing-Nominal 246 248	植物
+T36	Thing-Pronoun 252 253	它
+*	Coreference T36 T30 T38
+T37	Location-Nominal 254 256	脚下
+T38	Thing-Pronoun 257 258	它
+T39	Thing-Nominal 265 267	鱼类
+T40	Thing-Nominal 268 270	水鸟
+T41	Thing-Pronoun 277 279	这片
+T42	Thing-Nominal 279 282	芦苇荡
+*	Coreference T41 T42
+T43	Thing-Nominal 295 298	砖瓦厂
+T44	Thing-Nominal 301 306	大部分泥土
+T45	Location-Nominal 307 310	从地下
+T46	Metric 312 314	股股
+T47	Thing-Nominal 314 316	清泉
+T48	Time-Implicit 317 319	三年
+T49	Thing-Nominal 327 332	狂降的暴雨
+T50	Location-Pronoun 333 335	这里
+T51	Metric 338 342	一片汪洋
+T52	Thing-Nominal 343 348	芦苇的根茎
+T53	Location-Nominal 348 355	在地下蔓延开来
+T54	Location-Nominal 368 372	跃出水面
+T55	Time-Implicit 379 383	曾几何时
+T56	Thing-Pronoun 384 386	这片
+T57	Thing-Nominal 386 389	芦苇荡
+*	Coreference T56 T57
+T58	Person-Pronoun 392 393	我
+T59	Person-Nominal 393 395	父亲
+R4	Family Arg1:T58 Arg2:T59	
+T60	Person-Nominal 398 401	我父亲
+T61	Person-Nominal 406 417	沉默寡言，埋头肯干的人
+*	Coreference T61 T60 T63 T64
+T62	Person-Nominal 418 421	村支书
+T63	Person-Nominal 423 426	我父亲
+T64	Person-Pronoun 428 429	他
+T65	Location-Pronoun 431 433	这片
+T66	Location-Nominal 433 436	芦苇荡
+*	Coreference T65 T66 T79
+T67	Time-Implicit 440 448	三年不收任何费用
+T68	Time-Implicit 449 451	以后
+T69	Person-Nominal 452 454	村里
+T70	Metric 454 458	五五分成
+T71	Time-Implicit 471 473	当时
+T72	Person-Nominal 473 476	我祖母
+T73	Person-Pronoun 479 480	我
+T74	Person-Nominal 481 483	弟弟
+R5	Family Arg1:T73 Arg2:T74	
+R6	Family Arg1:T73 Arg2:T72	
+T75	Person-Nominal 490 492	父亲
+R7	Family Arg1:T75 Arg2:T74	
+T76	Person-Nominal 500 502	父亲
+T77	Person-Nominal 502 504	母亲
+R8	Family Arg1:T77 Arg2:T76	
+*	Coreference T76 T75
+T78	Time-Implicit 504 506	每天
+T79	Location-Pronoun 511 513	那里
+T80	Thing-Nominal 516 519;520 523	刚长出 的芦苇
+T81	Person-Nominal 525 527	别人
+T82	Location-Nominal 533 539	突起的高地上
+T83	Metric 543 545	一片
+T84	Thing-Nominal 545 547	良田
+T85	Metric 551 553	一些
+T86	Thing-Nominal 553 558	时令的庄稼
+T87	Location-Nominal 562 564	土里
+T88	Thing-Nominal 565 566	食
+T89	Person-Nominal 568 570	农民
+T90	Time-Implicit 577 580;581 591	那个任 何条件都不发达的年代
+T91	Person-Nominal 592 594	父亲
+T92	Person-Nominal 615 618	我们家
+T93	Metric 621 623	一份
+T94	Metric 635 638	每一个
+T95	Person-Nominal 638 639	人
+T96	Person-Pronoun 644 645	他
+T97	Person-Pronoun 654 655	我
+T98	Time-Implicit 655 657	有时
+T99	Person-Nominal 661 663	母亲
+T100	Person-Nominal 665 667	父亲
+T101	Location-Nominal 670 673	芦苇荡
+T102	Person-Pronoun 674 675	我
+T103	Location-Nominal 676 679	芦苇荡
+T104	Person-Pronoun 681 682	我
+*	Coreference T104 T102 T97 T105
+T105	Person-Pronoun 688 689	我
+T106	Location-Nominal 692 696	芦苇下面
+T107	Thing-Nominal 696 702	毛茸茸的蒲棒
+T108	Thing-Nominal 703 708	紫色的根茎
+T109	Person-Nominal 709 710	人
+T110	Metric 711 714	无限的
+T111	Person-Pronoun 720 721	我
+T112	Person-Nominal 724 726	别人
+T113	Location-Nominal 749 753	芦苇丛中
+T114	Metric 755 757	一堆
+T115	Thing-Nominal 757 759	鸟蛋
+T116	Time-Implicit 769 775;776 779	物质极度匮乏 的年代
+T117	Thing-Pronoun 780 782	它们
+*	Coreference T117 T115
+T118	Person-Pronoun 786 787	我
+T119	Person-Nominal 797 799	父亲
+T120	Person-Nominal 800 804	看林老人
+T121	Location-Nominal 806 809	林荫下
+T122	Thing-Nominal 815 816	烟
+T123	Metric 818 820	一些
+T124	Person-Pronoun 820 821	我
+T125	Person-Pronoun 828 829	我
+T126	Metric 830 832	一个
+T127	Location-Nominal 845 848	芦苇丛
+T128	Time-Implicit 840 842	一头
+T129	Location-Nominal 850 852	水里
+T130	Thing-Nominal 855 860	湿湿的腥气
+T131	Thing-Nominal 862 864	芦苇
+T132	Person-Pronoun 878 879	我
+T133	Thing-Nominal 879 884	敏感的神经
+T134	Person-Pronoun 885 886	我
+*	Coreference T134 T132 T125 T124 T137 T139 T141
+T135	Metric 891 894	每一个
+T136	Location-Nominal 894 896	地方
+T137	Person-Pronoun 898 899	我
+T138	Time-Implicit 912 915	那一次
+T139	Person-Pronoun 915 916	我
+T140	Time-Implicit 922 929	不到半天功夫，
+T141	Person-Pronoun 929 930	我
+T142	Metric 934 937	十多只
+T143	Thing-Nominal 937 939	鸟蛋
+T144	Person-Pronoun 944 945	我
+T145	Location-Nominal 959 967	我的鼻翼悠悠回旋
+T146	Person-Pronoun 970 971	我
+T147	Time-Implicit 972 979	准备撤退的时候
+T148	Location-Nominal 980 984	从不远处
+T149	Person-Pronoun 990 991	我
+T150	Location-Nominal 1005 1008	村子里
+T151	Person-Nominal 1008 1019	外号叫做“大脑袋”的人
+T152	Thing-Nominal 1022 1024	芦苇
+T153	Time-Implicit 1019 1021	正在
+T154	Person-Pronoun 1025 1026	他
+T155	Time-Implicit 1037 1039	经常
+T156	Person-Pronoun 1041 1043	我们
+T157	Person-Nominal 1043 1048	嘲弄的对象
+*	Coreference T157 T154 T151 T174 T175 T178 T184 T185 T186 T188 T195
+T158	Person-Pronoun 1049 1050	我
+T159	Metric 1055 1057	一个
+T160	Time-Implicit 1060 1068	当时自以为很聪明
+T161	Person-Nominal 1072 1074	父亲
+T162	Person-Pronoun 1080 1081	我
+T163	Thing-Nominal 1088 1090	芦苇
+T164	Person-Pronoun 1095 1096	他
+T165	Thing-Nominal 1097 1098	筐
+T166	Time-Implicit 1101 1103	然后
+T167	Person-Pronoun 1115 1116	我
+T168	Person-Nominal 1119 1121	父亲
+T169	Time-Implicit 1124 1131	接下来的几天里
+T170	Thing-Nominal 1132 1135	芦苇荡
+T171	Location-Nominal 1143 1151	能被人涉足的地方
+T172	Person-Pronoun 1157 1158	我
+T173	Person-Pronoun 1161 1164	自己的
+T174	Person-Nominal 1173 1180	那个丑陋的家伙
+T175	Person-Pronoun 1194 1195	他
+T176	Time-Implicit 1201 1208	在苍茫的夜色中
+T177	Thing-Nominal 1212 1214	镰刀
+T178	Person-Pronoun 1218 1219	他
+T179	Person-Nominal 1220 1223	我们家
+T180	Thing-Nominal 1227 1229	芦苇
+T181	Time-Implicit 1236 1238	后来
+T182	Person-Nominal 1239 1241	父亲
+T183	Person-Nominal 1244 1246	父亲
+T184	Person-Pronoun 1248 1251	那个人
+T185	Person-Pronoun 1262 1263	他
+T186	Person-Pronoun 1269 1270	他
+T187	Person-Nominal 1264 1266	兄嫂
+T188	Person-Pronoun 1271 1272	他
+T189	Metric 1273 1275	一点
+T190	Thing-Nominal 1275 1277	芦苇
+T191	Metric 1281 1283	一口
+T192	Thing-Nominal 1283 1284	饭
+T193	Person-Pronoun 1286 1287	我
+T194	Metric 1289 1293	很多次了
+T195	Person-Pronoun 1300 1301	他
+T196	Person-Pronoun 1302 1303	我
+T197	Time-Implicit 1306 1310	良久不语
+T198	Person-Nominal 1312 1314	父亲
+T199	Person-Pronoun 1315 1316	他
+T200	Thing-Pronoun 1322 1324	这种
+T201	Thing-Nominal 1324 1326	行为
+*	Coreference T201 T200
+T202	Person-Nominal 1327 1333	天性善良的他
+*	Coreference T202 T199 T198 T203 T205
+T203	Person-Pronoun 1335 1336	他
+T204	Person-Pronoun 1347 1349	别人
+T205	Person-Pronoun 1350 1351	他
+T206	Time-Implicit 1356 1367	在我的少年时光结束之后
+T207	Person-Pronoun 1368 1369	我
+T208	Thing-Nominal 1372 1375	芦苇荡
+T209	Time-Implicit 1376 1381	不知不觉中
+T210	Person-Pronoun 1391 1392	我
+T211	Time-Implicit 1392 1395	从青年
+T212	Time-Implicit 1395 1399	带入中年
+T213	Person-Nominal 1400 1402	父亲
+T214	Person-Nominal 1406 1408	祖母
+T215	Time-Implicit 1409 1412	那一瞬
+R9	Family Arg1:T214 Arg2:T213	
+R10	Family Arg1:T213 Arg2:T210	
+*	Coreference T210 T207 T216
+T216	Person-Pronoun 1357 1358	我
+T217	Time-Implicit 1414 1416	渐渐
+T218	Thing-Nominal 1422 1425	芦苇荡
+T219	Metric 1425 1429	几易其主
+T220	Person-Nominal 1431 1433	父亲
+T221	Location-Nominal 1435 1441	金色的阳光里
+T222	Thing-Nominal 1443 1445	芦苇
+T223	Thing-Nominal 1452 1455	，芦苇
+*	Coreference T223 T222
+T224	Metric 1465 1468	一个个
+T225	Person-Nominal 1468 1473	隐逸的歌者
+T226	Person-Pronoun 1491 1492	他
+*	Coreference T226 T220 T229 T230 T232
+T227	Thing-Nominal 1503 1507	白露为霜
+T228	Time-Implicit 1498 1502	蒹葭苍苍
+T229	Person-Pronoun 1532 1533	他
+T230	Person-Nominal 1538 1540	父亲
+T231	Thing-Nominal 1545 1547	芦苇
+T232	Person-Nominal 1550 1552	自己

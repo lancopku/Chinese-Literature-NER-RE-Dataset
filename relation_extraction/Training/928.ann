@@ -1,0 +1,41 @@
+T1	Location-Name 2 5	曾家山
+T2	Person-Nominal 9 10	帝
+T3	Person-Name 12 15	鼎汉王
+T4	Thing-Nominal 26 30	白羊栈道
+T5	Thing-Nominal 40 44	松涛林海
+T6	Time-Explicit 49 51	而今
+T7	Location-Name 56 58	川陕
+T8	Location-Nominal 67 69	西部
+T9	Thing-Nominal 89 93	生态蔬菜
+T12	Thing-Nominal 155 158;159 160	细雨皓 雪
+T13	Thing-Nominal 161 165	脆瓜金菇
+T14	Person-Name 242 244	屈子
+T15	Abstract 245 249	《招魂》
+T16	Thing-Nominal 311 315	番茄青椒
+T17	Person-Nominal 323 325	英雄
+T18	Person-Nominal 329 331	美人
+T20	Person-Nominal 395 399	古今食客
+T21	Thing-Nominal 412 418	中国最佳蔬菜
+T22	Person-Name 426 430	鲁迅先生
+T23	Thing-Nominal 440 445	曾家山蔬菜
+T24	Location-Name 440 443	曾家山
+R1	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 502 507	曾家山蔬菜
+T26	Location-Name 502 505	曾家山
+R2	Located Arg1:T25 Arg2:T26	
+T10	Location-Nominal 87 89	高山
+T11	Thing-Nominal 143 147	土豆萝卜
+T27	Thing-Nominal 148 152	甘蓝莴笋
+T28	Thing-Nominal 166 170	香韭玉菠
+T29	Thing-Nominal 174 175	雾
+T30	Thing-Nominal 176 177	霜
+T19	Thing-Nominal 335 339	酸菜豆腐
+T31	Thing-Nominal 340 345	酸菜贵妃鸡
+T32	Thing-Nominal 346 351	酸菜面鱼子
+T33	Time-Implicit 395 397	古今
+T34	Location-Name 412 414	中国
+T35	Thing-Nominal 452 453	根
+T36	Thing-Nominal 454 455	叶
+T37	Thing-Nominal 472 473	花
+T38	Thing-Nominal 476 477	雾
+T39	Thing-Nominal 478 479	云

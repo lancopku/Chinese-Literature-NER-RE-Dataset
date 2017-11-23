@@ -1,0 +1,202 @@
+T1	Location-Nominal 1 3	槐林
+T2	Time-Implicit 3 5	五月
+T3	Thing-Nominal 6 8	琼花
+R1	Located Arg1:T3 Arg2:T1	
+T4	Location-Nominal 19 21	家乡
+T5	Time-Implicit 22 24	五月
+T6	Thing-Nominal 27 29	槐花
+T7	Location-Nominal 37 39	村子
+T8	Thing-Nominal 43 45	槐花
+T9	Time-Explicit 51 54	五月初
+T10	Thing-Nominal 58 60	槐花
+T11	Person-Nominal 66 71	我们六兄妹
+T12	Location-Nominal 75 77	故里
+*	Coreference T12 T4
+T13	Thing-Nominal 79 80	车
+T14	Person-Pronoun 84 86	我们
+*	Coreference T14 T11
+T15	Location-Nominal 90 92	老屋
+T16	Location-Nominal 93 95	老屋
+T17	Location-Nominal 111 114	老屋前
+T18	Thing-Nominal 121 124	古槐树
+R2	Located Arg1:T18 Arg2:T17	
+T19	Thing-Nominal 125 127	枝头
+R3	Part-Whole Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 129 130	风
+T21	Person-Nominal 145 147	游子
+T22	Thing-Nominal 151 154	古槐树
+T23	Thing-Nominal 160 162	槐花
+T24	Thing-Nominal 164 166	枝头
+R4	Part-Whole Arg1:T24 Arg2:T22	
+R5	Part-Whole Arg1:T23 Arg2:T22	
+R6	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 195 198	;槐花
+T26	Thing-Nominal 200 202	槐花
+T27	Thing-Nominal 204 206	花朵
+*	Coreference T27 T26 T30
+T28	Person-Pronoun 236 237	我
+T29	Thing-Nominal 239 241	槐树
+T30	Thing-Nominal 250 253	槐树花
+T31	Thing-Nominal 263 266	老槐树
+*	Coreference T18 T31
+T32	Person-Pronoun 271 272	我
+T33	Time-Implicit 279 286	童年的艰难岁月
+T34	Person-Pronoun 278 279	我
+T35	Metric 297 299	多年
+T36	Person-Nominal 300 302	慈母
+T37	Time-Implicit 307 312	五十多年前
+T38	Person-Pronoun 315 317	我们
+T39	Thing-Nominal 331 332	泪
+T40	Time-Explicit 342 355	上个世六十年代初的大灾年头
+T41	Thing-Nominal 359 360	衣
+T42	Thing-Nominal 361 362	食
+T43	Person-Nominal 363 365	乡亲
+T44	Time-Explicit 367 372	四、五月份
+T45	Thing-Nominal 385 387	野菜
+T46	Thing-Nominal 388 390	草根
+T47	Thing-Nominal 391 393	树皮
+T48	Thing-Nominal 394 397	观音土
+T49	Time-Implicit 431 434	大荒年
+T50	Thing-Nominal 440 442	粮食
+T51	Thing-Nominal 446 447	盎
+T52	Thing-Nominal 450 451	米
+T53	Person-Pronoun 454 455	我
+R7	Family Arg1:T36 Arg2:T38	
+T54	Person-Nominal 458 460	母亲
+R8	Family Arg1:T53 Arg2:T54	
+T55	Person-Nominal 463 466	全家人
+T56	Thing-Nominal 478 481	槐树花
+T57	Thing-Nominal 483 485	开水
+T58	Thing-Nominal 494 495	盐
+T59	Thing-Nominal 498 501	玉米面
+T60	Thing-Nominal 502 506	山芋干面
+T61	Thing-Nominal 515 516	锅
+T62	Person-Nominal 523 527	我们兄妹
+T63	Thing-Nominal 530 532	食粮
+T64	Thing-Nominal 533 536	槐树花
+T65	Time-Implicit 541 543	荒年
+T66	Thing-Nominal 560 563	槐树花
+T67	Time-Implicit 564 568	饥荒年月
+T68	Person-Nominal 570 574	我们兄妹
+T69	Thing-Pronoun 578 579	她
+*	Coreference T69 T66
+T70	Person-Pronoun 599 601	我们
+T71	Person-Nominal 603 605	母亲
+R9	Family Arg1:T70 Arg2:T71	
+T72	Person-Name 611 613	大顺
+T73	Thing-Nominal 616 619	槐树花
+T74	Time-Implicit 621 623	那年
+T75	Time-Implicit 624 630	五月一天傍晚
+T76	Person-Nominal 631 634	有个人
+T77	Location-Nominal 635 637	我家
+T78	Thing-Nominal 637 639	院墙
+R10	Located Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 641 644	老槐树
+T80	Thing-Nominal 646 649	槐树花
+R11	Part-Whole Arg1:T80 Arg2:T79	
+T81	Person-Nominal 652 655	我妹妹
+T82	Thing-Nominal 656 658	猪草
+T83	Thing-Nominal 662 663	树
+*	Coreference T83 T79
+T84	Thing-Nominal 664 666	有人
+T85	Thing-Nominal 671 674	槐树花
+T86	Person-Pronoun 682 683	她
+T87	Person-Nominal 690 693	树上人
+*	Coreference T87 T76
+T88	Thing-Nominal 704 705	树
+T89	Thing-Nominal 717 720	布口袋
+R12	Ownership Arg1:T87 Arg2:T89	
+T90	Thing-Nominal 721 724	槐树花
+R13	Located Arg1:T90 Arg2:T89	
+T91	Person-Nominal 730 732	妹妹
+T92	Person-Nominal 739 741	母亲
+T93	Location-Nominal 743 745	屋里
+T94	Person-Nominal 750 752	妹妹
+T95	Person-Pronoun 755 756	你
+T96	Person-Nominal 764 767	大顺子
+T97	Person-Nominal 773 775	妹妹
+T98	Person-Nominal 777 778	妈
+*	Coreference T92 T98 T99
+T99	Person-Pronoun 779 780	你
+T100	Person-Name 785 788	大顺子
+R14	Family Arg1:T97 Arg2:T98	
+T101	Person-Nominal 790 792	母亲
+T102	Person-Pronoun 794 795	她
+*	Coreference T102 T97 T94 T95
+T103	Thing-Nominal 797 800	老槐树
+T104	Time-Implicit 806 808	这时
+T105	Person-Name 809 812	大顺子
+T106	Person-Nominal 814 816	母亲
+R15	Social Arg1:T105 Arg2:T106	
+R16	Social Arg1:T91 Arg2:T87	
+T107	Person-Nominal 825 827	母亲
+T108	Person-Nominal 831 834	二姑奶
+*	Coreference T107 T108
+T109	Location-Nominal 839 841	家里
+T110	Thing-Nominal 846 847	锅
+R17	Located Arg1:T110 Arg2:T109	
+T111	Person-Pronoun 849 850	我
+T112	Person-Pronoun 854 857	槐树花
+*	Coreference T111 T105
+T113	Person-Nominal 860 862	母亲
+T114	Person-Name 877 879	大顺
+T115	Person-Nominal 884 886	母亲
+T116	Person-Name 889 891	顺子
+*	Coreference T116 T114 T117
+T117	Person-Pronoun 892 893	你
+T118	Location-Nominal 901 903	后屋
+T119	Time-Implicit 906 908	一会
+T120	Person-Nominal 909 911	母亲
+T121	Thing-Nominal 916 919	玉米面
+T122	Person-Name 920 922	大顺
+T123	Person-Pronoun 924 925	你
+*	Coreference T123 T122
+T124	Thing-Nominal 929 931	棒面
+T125	Thing-Nominal 932 934	槐花
+T126	Metric 939 941	两天
+T127	Person-Name 951 953	大顺
+T128	Person-Nominal 961 963	妹妹
+T129	Location-Nominal 964 966	屋里
+T130	Person-Nominal 967 969	母亲
+T131	Person-Name 975 977	大顺
+T132	Thing-Nominal 979 982	槐树花
+T133	Person-Nominal 983 985	母亲
+T134	Person-Pronoun 993 994	她
+*	Coreference T134 T133
+T135	Location-Nominal 999 1001	田里
+T136	Thing-Nominal 1004 1006	野菜
+R18	Located Arg1:T136 Arg2:T135	
+T137	Location-Nominal 1011 1013	他家
+T138	Thing-Nominal 1018 1021	槐树花
+T139	Location-Nominal 1025 1027	他家
+T140	Thing-Nominal 1037 1040	槐树花
+T141	Thing-Nominal 1011 1012	他
+R19	Create Arg1:T131 Arg2:T141	
+T142	Thing-Nominal 1057 1060	老槐树
+T143	Time-Implicit 1062 1064	今天
+T144	Person-Nominal 1068 1070	有人
+T145	Thing-Pronoun 1072 1073	你
+*	Coreference T145 T142 T148
+T146	Thing-Nominal 1078 1080	花蕊
+R20	Part-Whole Arg1:T146 Arg2:T142	
+T147	Person-Pronoun 1086 1088	我们
+T148	Thing-Pronoun 1093 1094	你
+T149	Thing-Pronoun 1096 1097	你
+T150	Time-Implicit 1098 1102	大灾之年
+T151	Person-Pronoun 1104 1106	我们
+T152	Thing-Nominal 1110 1113	你的花
+T153	Thing-Nominal 1117 1118	花
+T154	Thing-Nominal 1135 1136	花
+T155	Person-Pronoun 1138 1140	我们
+T156	Person-Nominal 1144 1146	母亲
+T157	Thing-Nominal 1153 1155	槐花
+*	Coreference T157 T154
+T158	Person-Pronoun 1164 1166	我们
+T159	Location-Nominal 1178 1180	老屋
+T160	Thing-Nominal 1183 1186	古槐树
+R21	Located Arg1:T160 Arg2:T159	
+T161	Location-Pronoun 1192 1194	那里
+*	Coreference T161 T159
+T162	Person-Pronoun 1198 1199	我
+T163	Thing-Pronoun 1208 1209	她
+*	Coreference T163 T160

@@ -1,0 +1,107 @@
+T1	Person-Nominal 0 2	父母
+T2	Thing-Nominal 4 6	高山
+T3	Person-Pronoun 8 9	我
+T4	Person-Nominal 15 17	父母
+T5	Thing-Nominal 20 22	大海
+T6	Person-Nominal 31 33	父母
+R1	Family Arg1:T3 Arg2:T1	
+T7	Person-Pronoun 37 38	我
+T8	Person-Nominal 59 63	我的父母
+T9	Person-Nominal 64 71	地地道道的农民
+R2	Part-Whole Arg1:T8 Arg2:T9	
+T10	Thing-Nominal 101 104	黄泥土
+T11	Location-Nominal 111 116	他们的脸上
+T12	Thing-Nominal 120 125	密密的皱纹
+R3	Located Arg1:T12 Arg2:T11	
+T13	Person-Pronoun 133 134	我
+T14	Person-Pronoun 143 144	我
+T15	Person-Nominal 150 152	父母
+T16	Person-Pronoun 161 163	他们
+*	Coreference T16 T15
+T17	Person-Pronoun 180 182	他们
+T18	Person-Pronoun 194 196	他们
+T19	Person-Pronoun 203 204	我
+T20	Person-Pronoun 214 215	你
+*	Coreference T20 T19
+T21	Person-Pronoun 221 223	我们
+*	Coreference T21 T18
+T22	Person-Nominal 231 233	父母
+T23	Thing-Nominal 240 242	庄稼
+T24	Thing-Nominal 253 255	田地
+T25	Person-Pronoun 259 261	他们
+*	Coreference T25 T22
+T26	Person-Pronoun 270 271	我
+T27	Person-Nominal 309 311	父母
+T28	Location-Nominal 317 319	家里
+T29	Thing-Nominal 320 327	一钵酸菜豆米汤
+T30	Person-Pronoun 333 335	他们
+T31	Person-Pronoun 342 343	我
+T32	Person-Pronoun 348 349	我
+T33	Person-Pronoun 351 353	他们
+T34	Person-Pronoun 366 367	我
+T35	Time-Implicit 373 378	第二天一早
+T36	Person-Pronoun 379 380	我
+T37	Person-Nominal 384 386	父母
+T38	Person-Pronoun 388 389	我
+T39	Person-Pronoun 394 395	我
+T40	Thing-Nominal 400 408	腊肉、香肠、大米
+T41	Person-Pronoun 409 410	我
+T42	Thing-Nominal 433 438	父母的双鬓
+T43	Person-Nominal 433 435	父母
+R4	Part-Whole Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 443 444	背
+R5	Part-Whole Arg1:T44 Arg2:T43	
+T45	Person-Pronoun 460 461	我
+T46	Person-Nominal 469 471	父母
+T47	Person-Pronoun 496 497	我
+T48	Person-Nominal 517 519	母亲
+T49	Person-Pronoun 521 522	她
+*	Coreference T49 T48
+T50	Location-Nominal 533 535;536 537	县医 院
+T51	Thing-Nominal 538 539	车
+T52	Person-Pronoun 549 550	我
+T53	Person-Nominal 560 562	母亲
+T54	Person-Pronoun 569 570	我
+T55	Person-Nominal 580 582	母亲
+T56	Person-Pronoun 590 591	我
+T57	Location-Nominal 594 597	县城里
+T58	Person-Pronoun 609 610	我
+T59	Person-Nominal 613 615	母亲
+T60	Person-Pronoun 625 626	我
+T61	Person-Nominal 641 643	母亲
+T62	Person-Nominal 647 649	母亲
+T63	Person-Pronoun 657 658	我
+*	Coreference T63 T62
+T64	Person-Pronoun 666 667	你
+*	Coreference T64 T60
+T65	Person-Pronoun 674 675	你
+T66	Person-Pronoun 677 678	我
+T67	Person-Nominal 690 692	母亲
+T68	Location-Nominal 698 700	县城
+T69	Location-Nominal 701 703	老家
+T70	Location-Nominal 704 706	县城
+T71	Metric 708 711;712 713	50公 里
+T72	Person-Pronoun 720 721	她
+*	Coreference T72 T67
+T73	Person-Pronoun 728 729	我
+T74	Person-Nominal 732 734	母亲
+T75	Person-Pronoun 745 746	我
+T76	Thing-Nominal 745 749	我的眼泪
+R6	Part-Whole Arg1:T76 Arg2:T75	
+T77	Person-Pronoun 760 761	我
+T78	Person-Nominal 763 765	父母
+T79	Person-Pronoun 772 774	他们
+T80	Person-Pronoun 779 780	我
+T81	Person-Pronoun 811 812	我
+T82	Person-Nominal 815 817	父母
+T83	Person-Nominal 825 827	父母
+T84	Person-Pronoun 840 841	我
+T85	Thing-Nominal 822 824	礼物
+T86	Person-Pronoun 842 844	他们
+*	Coreference T86 T83
+T87	Person-Pronoun 866 867	我
+T88	Person-Pronoun 873 875	他们
+T89	Person-Nominal 890 892	父母
+T90	Thing-Nominal 895 900	隐形的长线
+T91	Person-Pronoun 911 912	我
+T92	Thing-Nominal 50 51	刀

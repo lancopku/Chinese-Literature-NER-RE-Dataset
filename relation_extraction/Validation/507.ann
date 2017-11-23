@@ -1,0 +1,125 @@
+T1	Thing-Nominal 3 4	雨
+T2	Thing-Nominal 5 6	雨
+T3	Thing-Nominal 10 11	水
+T4	Thing-Nominal 26 27	水
+T5	Thing-Name 28 30	春雨
+T6	Thing-Name 33 35	夏雨
+T7	Thing-Name 38 40	秋雨
+T8	Thing-Name 43 45	冬雨
+T9	Thing-Name 49 51	春雨
+T10	Person-Nominal 75 77	少妇
+T11	Person-Pronoun 79 80	她
+*	Coreference T11 T10
+T12	Thing-Nominal 86 88	乳汁
+T13	Thing-Nominal 97 99	根茎
+T14	Thing-Nominal 108 109;110 111	小 草
+T15	Location-Nominal 115 117	田野
+R1	Located Arg1:T14 Arg2:T15	
+T16	Thing-Nominal 140 142	露珠
+T17	Thing-Nominal 166 168	大地
+T18	Thing-Name 169 170;171 172	春 雨
+T19	Thing-Name 178 180	春雨
+T20	Thing-Nominal 183 185	大地
+T21	Thing-Nominal 186 188	大地
+T22	Thing-Name 194 196	春雨
+T23	Location-Nominal 202 204	乡村
+T24	Thing-Nominal 217 219	乡村
+T25	Thing-Nominal 232 233	蛙
+T26	Thing-Nominal 235 237	雨水
+T27	Thing-Nominal 249 251	小河
+T28	Thing-Nominal 252 254	河水
+T29	Thing-Nominal 257 262	乡村的泥土
+T30	Location-Nominal 269 272	田垅间
+T31	Thing-Nominal 277 279	春雨
+T32	Location-Nominal 280 282	乡村
+T33	Thing-Name 291 293	春雨
+T34	Thing-Name 317 319	春雨
+T35	Location-Nominal 353 355	乡村
+T36	Thing-Name 390 392	春雨
+T37	Thing-Name 408 410	夏雨
+T38	Thing-Name 413 415	夏雨
+T39	Time-Implicit 416 418	夏天
+T40	Thing-Nominal 419 421	精灵
+*	Coreference T38 T40
+T41	Person-Nominal 424 426	女神
+T42	Thing-Nominal 434 436	幕帘
+T43	Thing-Nominal 439 441	高山
+T44	Thing-Nominal 442 444	盆地
+T45	Thing-Nominal 445 447	沟渠
+T46	Thing-Nominal 448 450	河滩
+T47	Thing-Nominal 456 458	陡坡
+T48	Thing-Nominal 462 464	草场
+T49	Thing-Nominal 476 478	小草
+T50	Thing-Nominal 478 480	大树
+T51	Thing-Name 486 488	夏雨
+T52	Location-Nominal 489 492	深山里
+T53	Location-Nominal 496 499	江河里
+T54	Location-Nominal 503 506	岛屿上
+T55	Location-Nominal 510 513	原野里
+T56	Location-Nominal 517 520	海洋里
+T57	Thing-Name 569 571	夏雨
+T58	Thing-Nominal 591 593	彩虹
+T59	Thing-Nominal 600 601	花
+T60	Thing-Nominal 613 615	绿叶
+T61	Thing-Name 628 630	夏雨
+T62	Thing-Nominal 638 640	大地
+T63	Thing-Nominal 652 654	夏雨
+T64	Thing-Nominal 659 661	大江
+T65	Thing-Nominal 670 672	大河
+T66	Thing-Name 681 683	夏雨
+T67	Thing-Name 716 718	夏雨
+T68	Time-Implicit 722 724	秋天
+T69	Thing-Name 729 731	夏雨
+T70	Person-Nominal 762 764	人们
+T71	Thing-Name 771 773	秋雨
+T72	Thing-Name 776 778	秋雨
+T73	Thing-Name 793 795	春雨
+T74	Thing-Name 801 803	夏雨
+T75	Thing-Name 809 811	冬雨
+T76	Thing-Name 817 819	秋雨
+T77	Person-Nominal 845 847	少年
+T78	Person-Nominal 857 859	青年
+T79	Thing-Name 868 870	秋雨
+T80	Thing-Name 873 875	秋山
+T81	Thing-Nominal 881 882	桐
+T82	Thing-Nominal 882 883	枫
+T83	Thing-Nominal 886 887	橙
+T84	Thing-Nominal 888 889	橘
+T85	Thing-Name 922 924	秋雨
+T86	Thing-Name 926 928	秋蛙
+T87	Thing-Name 932 934	秋虫
+T89	Thing-Name 952 954	秋雨
+T90	Thing-Name 958 960	秋雨
+T91	Thing-Pronoun 965 966	它
+T92	Thing-Name 1044 1046	冬雨
+T93	Thing-Name 1049 1051	冬雨
+T94	Thing-Nominal 1053 1055	北风
+T95	Thing-Pronoun 1063 1064	它
+T96	Location-Nominal 1067 1070	屋檐上
+T97	Location-Nominal 1081 1084	冰河上
+T98	Thing-Name 1107 1109	冬雨
+T99	Thing-Name 1150 1152	冬雨
+*	Coreference T2 T3
+*	Coreference T95 T93
+T100	Thing-Nominal 1071 1073	冰棱
+T101	Thing-Nominal 1074 1076	积雪
+T102	Thing-Nominal 1085 1087	珍珠
+R2	Located Arg1:T102 Arg2:T97	
+R3	Located Arg1:T100 Arg2:T96	
+*	Coreference T91 T90
+R4	Located Arg1:T80 Arg2:T81	
+R5	Located Arg1:T82 Arg2:T80	
+R6	Located Arg1:T83 Arg2:T80	
+R7	Located Arg1:T84 Arg2:T80	
+T103	Thing-Nominal 910 911	鱼
+T88	Thing-Nominal 767 769	道路
+T104	Thing-Nominal 741 743	烂泥
+T105	Thing-Nominal 891 892	山
+T106	Thing-Nominal 897 899	秋水
+T107	Thing-Nominal 915 916	水
+T108	Time-Implicit 946 948	秋天
+T109	Time-Implicit 989 990	冬
+T110	Time-Implicit 991 992	春
+T111	Time-Implicit 994 995	夏
+T112	Time-Implicit 996 997	秋
+T113	Time-Implicit 1101 1102	冬

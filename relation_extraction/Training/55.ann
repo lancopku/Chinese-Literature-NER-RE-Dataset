@@ -1,0 +1,208 @@
+T1	Time-Implicit 0 2	儿时
+T2	Person-Pronoun 3 4	我
+T3	Location-Nominal 15 18	母亲河
+T4	Location-Pronoun 20 21	她
+*	Coreference T4 T3 T6
+T5	Location-Name 22 23	沪
+T6	Location-Nominal 28 31	黑水河
+R1	Part-Whole Arg1:T6 Arg2:T5	
+T7	Location-Nominal 35 38	母亲河
+T8	Person-Pronoun 46 47	我
+T9	Time-Implicit 47 51	孩提时代
+T10	Location-Nominal 56 59	十八湾
+T11	Location-Nominal 82 85	母亲河
+T12	Time-Explicit 93 103	二十世纪七十年代初期
+T13	Person-Pronoun 104 105	我
+T14	Organization-Nominal 108 110	中学
+T15	Person-Nominal 120 122	同学
+T16	Location-Name 126 130	大自鸣钟
+T17	Location-Name 132 135	长寿路
+T18	Location-Name 136 139	西康路
+T19	Thing-Nominal 148 150	渡船
+T20	Location-Nominal 162 174	造币厂桥(江宁路桥)北段
+T21	Person-Nominal 177 186	骑黄鱼车载货的叔叔
+T22	Person-Nominal 187 189	阿姨
+T23	Thing-Nominal 190 191	车
+T24	Thing-Nominal 178 181	黄鱼车
+R2	Use Arg1:T21 Arg2:T24	
+R3	Use Arg1:T22 Arg2:T24	
+T25	Location-Nominal 193 197	桥的中央
+R4	Located Arg1:T23 Arg2:T25	
+T26	Location-Name 206 212	苏州河的南岸
+T27	Location-Name 225 228	苏州河
+T28	Location-Name 232 239	中山北路光新路
+T29	Thing-Nominal 243 245	黑水
+T30	Time-Implicit 249 251	当年
+T31	Location-Nominal 251 253	我家
+T32	Location-Name 259 264	泉路童家桥
+R5	Part-Whole Arg1:T31 Arg2:T32	
+T33	Location-Nominal 269 271	小河
+R6	Near Arg1:T33 Arg2:T31	
+T34	Location-Name 274 275;276 278	苏 州河
+T35	Person-Pronoun 312 313	我
+T36	Location-Nominal 320 322	桥头
+T37	Person-Nominal 323 325	他人
+T38	Location-Nominal 335 336;337 338	桥 头
+T39	Location-Name 349 354	苏州河河面
+T40	Thing-Nominal 356 359	舢板船
+T41	Thing-Nominal 360 363	乌篷船
+T42	Thing-Nominal 364 367	小汽艇
+T43	Thing-Nominal 368 371	机帆船
+R7	Located Arg1:T40 Arg2:T39	
+R8	Located Arg1:T41 Arg2:T39	
+R9	Located Arg1:T42 Arg2:T39	
+R10	Located Arg1:T43 Arg2:T39	
+T44	Location-Nominal 379 382	弯道口
+T45	Location-Name 407 410	吴淞口
+T46	Location-Name 420 423	苏州河
+T47	Time-Implicit 430 437	我读小学的时候
+T48	Person-Nominal 441 443	父母
+T49	Person-Pronoun 430 431	我
+R11	Family Arg1:T49 Arg2:T48	
+T50	Location-Name 446 452	九间头摆渡口
+T51	Location-Name 453 457	光复西路
+R12	Part-Whole Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 463 464	米
+T53	Thing-Nominal 470 474	粮食仓库
+T54	Person-Nominal 477 490;491 497	浜北、浜南(苏州河南北两岸 )的住家居民
+T55	Location-Pronoun 506 508	这里
+T56	Location-Name 477 479	浜北
+T57	Location-Name 480 482	浜南
+T58	Location-Name 483 490	苏州河南北两岸
+R13	Part-Whole Arg1:T57 Arg2:T58	
+R14	Part-Whole Arg1:T56 Arg2:T58	
+*	Coreference T55 T58
+T59	Time-Explicit 514 520	计划经济时代
+T60	Person-Pronoun 529 530	我
+T61	Location-Name 533 537	崇明农场
+T62	Location-Name 550 551;552 555	苏 州河畔
+T64	Thing-Nominal 561 564	人民币
+T65	Person-Pronoun 565 567	他们
+T66	Thing-Nominal 569 571	粮票
+T67	Thing-Nominal 572 574	油票
+T68	Thing-Nominal 577 579	昆山
+T69	Thing-Nominal 580 584	常熟籼米
+T70	Person-Nominal 593 595	男孩
+T71	Person-Nominal 556 558	农民
+*	Coreference T65 T71
+T63	Thing-Nominal 558 559	船
+R15	Located Arg1:T63 Arg2:T62	
+R16	Use Arg1:T60 Arg2:T64	
+T72	Person-Pronoun 604 605	我
+T73	Location-Name 609 612;613 615	苏州河 北边
+T74	Location-Nominal 618 623	老式棚户区
+T75	Thing-Nominal 624 627	茅草房
+T76	Thing-Nominal 627 629	危房
+*	Coreference T74 T73
+R17	Located Arg1:T75 Arg2:T74	
+R18	Located Arg1:T76 Arg2:T74	
+T77	Person-Nominal 632 634	居民
+T78	Location-Name 636 638	苏北
+T79	Location-Name 639 641	安徽
+T80	Location-Name 645 647	上海
+T81	Person-Nominal 651 655	外来游民
+*	Coreference T81 T77
+T82	Person-Nominal 657 662	上海本地人
+T83	Location-Name 665 667	浜北
+T84	Location-Name 671 673;674 675	苏北 帮
+*	Coreference T83 T84
+T85	Location-Name 682 684	浜北
+T86	Location-Nominal 686 688	三湾
+R19	Part-Whole Arg1:T85 Arg2:T86	
+T87	Location-Name 690 693	潘家湾
+T88	Location-Name 694 697	潭子湾
+T89	Location-Name 698 701	朱家湾
+R20	Part-Whole Arg1:T87 Arg2:T86	
+R21	Part-Whole Arg1:T88 Arg2:T86	
+R22	Part-Whole Arg1:T89 Arg2:T86	
+T90	Person-Nominal 703 705	人们
+T91	Location-Name 718 723	苏州河两岸
+T92	Thing-Nominal 743 745	大堤
+T93	Thing-Nominal 753 755	烟囱
+T94	Location-Nominal 761 765	装卸码头
+T95	Thing-Nominal 766 768	仓库
+T96	Location-Nominal 772 774	工厂
+T97	Thing-Nominal 783 786	巡逻艇
+T98	Thing-Nominal 787 790	机帆船
+T99	Metric 813 817	两公里外
+T100	Person-Nominal 824 826	百姓
+T101	Location-Name 832 835	苏州河
+T102	Location-Nominal 844 847	母亲河
+*	Coreference T101 T102
+R23	Located Arg1:T93 Arg2:T91	
+R24	Part-Whole Arg1:T94 Arg2:T91	
+R25	Located Arg1:T95 Arg2:T91	
+R26	Located Arg1:T97 Arg2:T91	
+R27	Located Arg1:T98 Arg2:T91	
+T103	Location-Nominal 862 873	黑水河”环保污染重灾区
+T104	Location-Name 881 884	苏州河
+T105	Thing-Nominal 908 910	鱼儿
+R28	Located Arg1:T105 Arg2:T104	
+T106	Location-Nominal 923 926	十八湾
+T107	Thing-Nominal 937 939	春笋
+T108	Location-Nominal 931 934	城楼盘
+T109	Location-Name 949 955	苏州河的两岸
+T110	Location-Name 956 960	亲水平台
+T111	Person-Nominal 971 973	居民
+T112	Location-Name 980 982	上海
+T113	Location-Name 986 989	苏州河
+T114	Thing-Nominal 989 991	游艇
+R29	Located Arg1:T114 Arg2:T113	
+T115	Person-Nominal 995 998	旅游者
+T116	Thing-Nominal 999 1001	游艇
+R30	Use Arg1:T115 Arg2:T116	
+T117	Location-Nominal 1012 1014	北岸
+T118	Location-Nominal 1020 1022	城市
+T119	Location-Name 1050 1056	梅川路休闲街
+T120	Location-Name 1057 1060	长寿路
+T121	Location-Name 1061 1067	曹家渡一条街
+T122	Location-Nominal 1072 1074	天堂
+*	Coreference T121 T122 T120 T119
+T123	Location-Name 1043 1044	沪
+R31	Part-Whole Arg1:T118 Arg2:T123	
+T124	Location-Nominal 1076 1078	北岸
+T125	Organization-Name 1080 1085	海印钞公司
+T126	Organization-Name 1086 1092	上海造币公司
+R32	Part-Whole Arg1:T125 Arg2:T124	
+R33	Part-Whole Arg1:T126 Arg2:T124	
+T127	Location-Name 1100 1102	申城
+T128	Location-Nominal 1108 1115	金融行业”园区
+*	Coreference T125 T128 T126
+T129	Time-Explicit 1116 1121	2001年
+T130	Location-Name 1121 1123	上海
+T131	Location-Name 1126 1129	苏州河
+T132	Thing-Nominal 1132 1134	龙舟
+T133	Location-Name 1148 1150	上海
+T134	Person-Pronoun 1178 1179	我
+T135	Time-Implicit 1184 1188	幼年时期
+T136	Person-Nominal 1192 1195	长辈们
+T137	Location-Name 1198 1203	苏州河北岸
+T138	Location-Name 1204 1206	上海
+T139	Location-Name 1208 1216	西伯利亚”下只角
+*	Coreference T137 T139
+T140	Location-Name 1217 1220	苏州河
+T141	Location-Nominal 1221 1224	臭水河
+*	Coreference T140 T141
+T142	Time-Implicit 1262 1264	而今
+T143	Location-Name 1269 1273	苏州河边
+T144	Location-Nominal 1282 1285	十八湾
+T145	Location-Nominal 1295 1297	港湾
+T146	Location-Name 1305 1309	亲水平台
+T147	Person-Nominal 1311 1313	恋人
+T148	Location-Nominal 1314 1318	水上花园
+*	Coreference T146 T148
+T149	Thing-Nominal 1323 1325	高楼
+T150	Location-Name 1333 1335	申城
+T151	Location-Nominal 1343 1350	长三角周边城市
+T152	Location-Nominal 1337 1341	黄金水道
+T153	Person-Pronoun 1356 1357	我
+T154	Person-Pronoun 1372 1373	我
+T155	Location-Pronoun 1376 1377	您
+T156	Time-Implicit 1377 1382	半个多世纪
+T157	Location-Nominal 1388 1391	母亲河
+T158	Person-Pronoun 1398 1399	我
+T159	Location-Nominal 1426 1429	母亲河
+*	Coreference T155 T157
+R34	Part-Whole Arg1:T152 Arg2:T150	
+R35	Near Arg1:T151 Arg2:T150	
+*	Coreference T144 T145

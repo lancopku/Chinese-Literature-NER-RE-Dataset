@@ -1,0 +1,264 @@
+T1	Time-Explicit 0 7	上世纪八十年代
+T2	Person-Pronoun 8 9	我
+T3	Location-Name 10 13	蚂蚁岛
+T4	Time-Implicit 17 20	那时候
+*	Coreference T4 T1
+T5	Person-Pronoun 20 21	我
+T6	Organization-Nominal 24 29	广播电视台
+T7	Person-Nominal 30 32	记者
+*	Coreference T5 T7
+R1	Ownership Arg1:T5 Arg2:T6	
+T8	Location-Nominal 34 36	岛上
+*	Coreference T8 T3
+T9	Thing-Nominal 48 51	小航船
+T10	Person-Pronoun 52 54	我们
+T11	Location-Nominal 55 56	岛
+R2	Use Arg1:T10 Arg2:T9	
+T12	Location-Nominal 66 68	船舱
+T13	Thing-Nominal 75 77	柴油
+T14	Thing-Nominal 80 82	轮机
+T15	Thing-Nominal 84 87	柴油机
+R3	Located Arg1:T15 Arg2:T14	
+R4	Located Arg1:T14 Arg2:T12	
+T16	Location-Nominal 90 93	后舱间
+T17	Thing-Nominal 101 103	烟囱
+T18	Person-Pronoun 132 134	我们
+T19	Location-Nominal 147 149	船舱
+T20	Thing-Nominal 154 156	航船
+T21	Thing-Nominal 157 160	前甲板
+R5	Part-Whole Arg1:T21 Arg2:T20	
+T22	Metric 169 173	三十公分
+T23	Thing-Nominal 179 182	木凳子
+R6	Located Arg1:T23 Arg2:T21	
+T24	Person-Nominal 188 192	男女老少
+T25	Location-Pronoun 200 202	那里
+T26	Time-Implicit 211 214	那时候
+T27	Person-Pronoun 221 222	我
+T28	Location-Name 223 225	海岛
+T29	Person-Nominal 236 238	亲戚
+R7	Family Arg1:T27 Arg2:T29	
+T30	Person-Nominal 242 243;244 245	领 导
+T31	Thing-Nominal 259 261	航船
+T32	Location-Nominal 284 285	岸
+T33	Person-Nominal 290 292	神仙
+T34	Location-Nominal 302 304	码头
+T35	Person-Pronoun 318 320	我们
+T36	Thing-Nominal 330 332	跳板
+T37	Thing-Nominal 326 329	横木条
+R8	Part-Whole Arg1:T37 Arg2:T36	
+T38	Location-Nominal 336 338	码头
+T39	Thing-Nominal 341 343	跳板
+T40	Location-Nominal 361 363	码头
+T41	Person-Nominal 367 371	航船老大
+T42	Location-Name 385 388	蚂蚁岛
+T43	Person-Pronoun 390 392	我们
+T44	Thing-Nominal 397 399	裙子
+T45	Time-Explicit 403 407	八十年代
+T46	Location-Name 408 411	蚂蚁岛
+T47	Location-Nominal 414 416	宾馆
+T48	Person-Pronoun 418 420	我们
+T49	Location-Nominal 434 440	乡政府招待所
+T50	Location-Nominal 444 447	招待所
+T51	Location-Nominal 453 456	招待所
+T53	Location-Nominal 461 463;464 467	供销 社楼上
+T52	Organization-Nominal 461 463;464 465	供销 社
+T54	Location-Nominal 468 471	几间房
+R9	Part-Whole Arg1:T54 Arg2:T53	
+T55	Location-Nominal 475 477	房间
+T56	Thing-Nominal 482 484	床铺
+R10	Located Arg1:T56 Arg2:T55	
+T57	Thing-Nominal 500 502	木头
+T58	Thing-Nominal 504 505	门
+T59	Thing-Nominal 506 507	窗
+T60	Person-Pronoun 526 528	我们
+T61	Thing-Nominal 530 532	木棍
+T62	Thing-Nominal 534 536	门框
+T63	Thing-Nominal 541 543	窗门
+T64	Thing-Nominal 544 546	插梢
+R11	Located Arg1:T63 Arg2:T64	
+T65	Location-Nominal 569 571	隔壁
+T66	Person-Nominal 574 577	男同胞
+T67	Person-Pronoun 607 609	我们
+T68	Time-Implicit 632 637	第二天一早
+T69	Thing-Nominal 661 663	毛巾
+T70	Thing-Nominal 663 665	牙刷
+T71	Thing-Nominal 665 667	牙膏
+T72	Location-Nominal 671 675	自己家里
+T73	Person-Pronoun 671 673	自己
+T74	Person-Pronoun 687 688	我
+R12	Use Arg1:T74 Arg2:T71	
+R13	Use Arg1:T74 Arg2:T70	
+R14	Use Arg1:T74 Arg2:T69	
+T75	Person-Nominal 698 700	自己
+*	Coreference T74 T75
+T76	Thing-Nominal 706 707	床
+R15	Use Arg1:T74 Arg2:T76	
+T77	Time-Implicit 716 721	第二天一早
+T78	Time-Implicit 729 732	那几年
+T79	Person-Pronoun 732 733	我
+T80	Time-Implicit 748 752	后来几年
+T81	Location-Nominal 753 759	乡政府招待所
+T82	Organization-Nominal 767 768;769 771	信 用社
+T83	Location-Nominal 767 768;769 773	信 用社楼上
+T84	Location-Nominal 774 777	房间内
+T85	Location-Nominal 780 783	卫生间
+R16	Part-Whole Arg1:T85 Arg2:T84	
+R17	Part-Whole Arg1:T84 Arg2:T83	
+T86	Location-Nominal 784 786	渔家
+T87	Location-Nominal 787 791	个体宾馆
+T88	Time-Implicit 801 804	新世纪
+T89	Person-Pronoun 805 807	我们
+T90	Location-Name 808 811	蚂蚁岛
+T91	Location-Nominal 821 829	宾馆式的渔家客栈
+T92	Thing-Nominal 835 837	床单
+T93	Thing-Nominal 838 840	空调
+T94	Thing-Nominal 841 842	电
+T95	Thing-Nominal 844 847	热水器
+R18	Located Arg1:T95 Arg2:T91	
+R19	Located Arg1:T93 Arg2:T91	
+R20	Located Arg1:T94 Arg2:T91	
+R21	Located Arg1:T92 Arg2:T91	
+T96	Person-Nominal 855 858	蚂蚁人
+T97	Person-Pronoun 862 863	我
+R22	Social Arg1:T97 Arg2:T96	
+R23	Part-Whole Arg1:T91 Arg2:T90	
+T98	Person-Pronoun 882 883	我
+T99	Location-Nominal 884 887	他们家
+T100	Person-Pronoun 884 886	他们
+*	Coreference T96 T100
+T101	Person-Pronoun 898 899	我
+T102	Location-Name 907 909	蚂蚁
+T103	Organization-Name 910 912	苏联
+T104	Location-Name 916 919	蚂蚁岛
+T105	Organization-Nominal 922 924	我国
+T106	Thing-Nominal 931 933	旗帜
+T107	Time-Explicit 934 941	1958年9月
+T108	Location-Name 942 945	蚂蚁岛
+T109	Organization-Nominal 948 957	全国第一个人民公社
+T110	Organization-Name 960 967	蚂蚁岛人民公社
+*	Coreference T110 T109
+T111	Location-Name 969 977	蚂蚁岛创业纪念室
+T112	Person-Pronoun 979 980	你
+T113	Person-Nominal 984 987	蚂蚁人
+T114	Location-Name 1003 1006	蚂蚁岛
+T115	Location-Nominal 1010 1016	浙江沿海渔区
+T116	Thing-Nominal 1038 1047	蚂蚁岛人民公社红旗
+T117	Location-Nominal 1049 1053	全国渔区
+T118	Location-Name 1059 1064	小小蚂蚁岛
+T119	Time-Explicit 1065 1073	上世纪五六十年代
+T120	Person-Name 1078 1080;1081 1082	刘少 奇
+T121	Person-Name 1083 1086	李维汉
+T122	Person-Name 1087 1090	许世友
+T123	Person-Nominal 1093 1098	中央领导人
+*	Coreference T122 T123 T121 T120
+T124	Person-Name 1129 1136	军旅作家马金星
+T125	Location-Name 1137 1140	蚂蚁岛
+T126	Location-Name 1152 1155	蚂蚁岛
+T127	Person-Pronoun 1156 1157	我
+T128	Location-Nominal 1180 1183	生态岛
+*	Coreference T126 T128 T130
+T129	Time-Explicit 1185 1192	上世纪八十年代
+T130	Location-Pronoun 1206 1208	这里
+T131	Person-Pronoun 1225 1226	我
+T132	Person-Name 1236 1247	全国绿化劳动模范盛再棠
+T133	Person-Pronoun 1248 1249	他
+*	Coreference T132 T133
+T134	Thing-Nominal 1251 1252	树
+T135	Person-Pronoun 1259 1260	他
+T136	Person-Nominal 1271 1273;1274 1275	村里 人
+T137	Person-Name 1278 1284	盛再棠老伯伯
+R24	Social Arg1:T137 Arg2:T136	
+T138	Thing-Nominal 1285 1287	树木
+T139	Time-Implicit 1293 1297	50多年
+T140	Person-Pronoun 1299 1300	他
+*	Coreference T140 T137 T141
+T141	Person-Nominal 1303 1305	自己
+T142	Thing-Nominal 1311 1312	树
+T143	Person-Nominal 1321 1324	他的孩
+T144	Thing-Nominal 1318 1319	树
+T145	Person-Pronoun 1331 1332	他
+T146	Person-Name 1342 1343	我
+T147	Location-Name 1346 1349	蚂蚁岛
+T148	Location-Nominal 1356 1359	生态岛
+*	Coreference T147 T148
+T149	Person-Name 1362 1367	盛再棠同志
+T150	Person-Nominal 1373 1378	蚂蚁岛群众
+T151	Person-Pronoun 1387 1388	我
+T152	Location-Name 1392 1395	蚂蚁岛
+T153	Metric 1401 1408	2.6平方公里
+T154	Person-Nominal 1412 1416	岛上百姓
+T155	Location-Nominal 1425 1427	海岛
+T156	Time-Explicit 1430 1437	上世纪五十年代
+T157	Person-Nominal 1438 1441	岛上群
+T158	Organization-Nominal 1443 1445	夜校
+T159	Person-Nominal 1454 1456;1457 1464	五、 六十岁的老妈妈
+T160	Time-Implicit 1466 1469	晚饭后
+T161	Location-Name 1487 1490	蚂蚁岛
+T162	Organization-Nominal 1518 1522	群众夜校
+T163	Location-Name 1541 1545	小小蚂蚁
+T164	Organization-Name 1546 1548	苏联
+T165	Location-Pronoun 1552 1553	它
+*	Coreference T165 T163
+T166	Person-Nominal 1554 1558	全国人民
+T167	Time-Explicit 1565 1569	九十年代
+T168	Location-Name 1570 1573	蚂蚁岛
+T169	Person-Nominal 1576 1579	好书记
+T170	Person-Name 1580 1583	林平达
+*	Coreference T169 T170 T171 T172 T173
+R25	Ownership Arg1:T169 Arg2:T168	
+T171	Person-Pronoun 1584 1585	他
+T172	Person-Nominal 1586 1598	蚂蚁岛乡后岙村党支部书记
+T173	Person-Pronoun 1599 1600	他
+T174	Location-Nominal 1606 1607	岛
+T175	Person-Nominal 1611 1613	群众
+T176	Person-Pronoun 1616 1617	他
+R26	Social Arg1:T175 Arg2:T176	
+T177	Thing-Nominal 1626 1627	鱼
+T178	Thing-Nominal 1628 1630	渔船
+T179	Location-Nominal 1633 1634	港
+R27	Located Arg1:T178 Arg2:T179	
+T180	Person-Pronoun 1642 1643	我
+T181	Location-Nominal 1644 1645	岛
+*	Coreference T174 T168
+T182	Thing-Nominal 1653 1655	小船
+R28	Use Arg1:T180 Arg2:T182	
+T183	Person-Name 1657 1662	林平达同志
+T184	Person-Nominal 1671 1674	蚂蚁人
+T185	Person-Name 1677 1682	林平达同志
+T186	Location-Name 1690 1694	小蚂蚁岛
+T187	Location-Name 1695 1699	小蚂蚁岛
+T188	Location-Name 1700 1703	蚂蚁岛
+T189	Location-Nominal 1708 1712	无人小岛
+R29	Near Arg1:T187 Arg2:T188	
+*	Coreference T187 T189
+T190	Person-Nominal 1713 1715	死人
+T191	Person-Nominal 1716 1718	活人
+T192	Location-Name 1728 1731	蚂蚁岛
+T193	Time-Explicit 1741 1747;1748 1750	上个世纪60 年代
+T194	Location-Name 1751 1754	蚂蚁岛
+T195	Person-Nominal 1770 1772	死者
+T196	Location-Name 1777 1780	小蚂蚁
+T197	Location-Name 1800 1803	大蚂蚁
+T198	Location-Name 1806 1808;1809 1810	小蚂 蚁
+T199	Location-Name 1811 1816	大小蚂蚁岛
+T200	Location-Nominal 1832 1834	海峡
+T201	Person-Nominal 1850 1852	亲人
+T202	Person-Nominal 1870 1873	蚂蚁人
+T203	Person-Pronoun 1881 1882	我
+T204	Person-Pronoun 1959 1961	我们
+T205	Person-Nominal 1908 1910	逝者
+T206	Person-Nominal 1913 1915	生者
+T207	Person-Pronoun 1920 1921	我
+T208	Person-Pronoun 1977 1978	我
+T209	Location-Name 1991 1994	蚂蚁岛
+T210	Person-Pronoun 2001 2002	我
+T211	Location-Nominal 2018 2020	小岛
+*	Coreference T209 T211 T212
+T212	Location-Nominal 2024 2025	岛
+T213	Thing-Nominal 2042 2043	岛
+T214	Thing-Nominal 2047 2049	小树
+T215	Thing-Nominal 2055 2057	飞鸟
+T216	Thing-Nominal 2051 2053	浪花
+R30	Located Arg1:T213 Arg2:T214	
+R31	Located Arg1:T216 Arg2:T213	
+R32	Located Arg1:T215 Arg2:T213	

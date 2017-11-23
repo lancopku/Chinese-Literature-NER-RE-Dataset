@@ -1,0 +1,208 @@
+T1	Thing-Nominal 16 17	雾
+T2	Thing-Nominal 21 22	雾
+T3	Metric 32 35	十几米
+T4	Location-Name 42 44	庐山
+T5	Thing-Nominal 49 50	云
+T6	Thing-Nominal 50 51	峰
+T7	Thing-Nominal 51 52	林
+T8	Thing-Nominal 52 53	谷
+T9	Location-Nominal 83 85	峰岫
+T10	Location-Nominal 91 93	树林
+T11	Thing-Nominal 99 101	树木
+T12	Thing-Nominal 110 112	松树
+R1	General-Special Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 115 116	松
+T14	Thing-Nominal 122 123	根
+T15	Thing-Nominal 123 124	干
+R2	Part-Whole Arg1:T14 Arg2:T13	
+R3	Part-Whole Arg1:T15 Arg2:T13	
+T16	Thing-Nominal 127 130	泰山松
+T17	Metric 134 139	几万上千年
+T18	Location-Nominal 147 148	山
+T19	Location-Nominal 151 154	石级路
+T20	Thing-Nominal 160 162	野花
+T21	Thing-Nominal 162 164	野草
+R4	Located Arg1:T20 Arg2:T19	
+R5	Located Arg1:T21 Arg2:T19	
+R6	Near Arg1:T19 Arg2:T18	
+T22	Location-Name 191 193	泰山
+T23	Location-Nominal 207 221	极美的泰山青绿的自然景观幽处
+*	Coreference T23 T19
+T24	Thing-Nominal 234 235	云
+T25	Thing-Nominal 235 236	山
+T26	Thing-Nominal 236 237	雾
+T27	Location-Nominal 240 243;244 245	丛林深 谷
+T28	Thing-Nominal 250 252	小溪
+T29	Thing-Nominal 252 254	山涧
+R7	Located Arg1:T28 Arg2:T27	
+R8	Located Arg1:T29 Arg2:T27	
+T30	Thing-Nominal 259 261	飞瀑
+R9	Located Arg1:T30 Arg2:T27	
+T31	Location-Name 267 269	泰山
+T32	Thing-Nominal 272 276	泰山水流
+R10	Located Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 301 302	雾
+T34	Thing-Nominal 321 322	雾
+T35	Thing-Nominal 327 331	泰山峰峦
+T36	Thing-Nominal 337 341	石山叠层
+R11	Part-Whole Arg1:T36 Arg2:T35	
+T37	Thing-Pronoun 332 334	本体
+*	Coreference T37 T35
+T38	Thing-Nominal 343 346	泰山石
+*	Coreference T38 T36
+T39	Person-Pronoun 352 354	我们
+T40	Location-Nominal 357 359	山路
+T41	Thing-Nominal 374 377	泰山石
+T42	Thing-Nominal 381 384	泰山石
+T43	Thing-Nominal 398 404	泰山摩崖石刻
+*	Coreference T43 T42 T48
+T44	Metric 394 397	千百年
+T45	Metric 413 415	一部
+T46	Metric 415 418	几千年
+T47	Organization-Nominal 410 412	祖国
+T48	Thing-Nominal 424 426	宝藏
+T49	Location-Name 431 433	泰山
+T50	Person-Nominal 445 447	名人
+T51	Thing-Nominal 447 449	墨迹
+T52	Thing-Nominal 454 456	石刻
+T53	Thing-Nominal 456 458	石碑
+T54	Metric 459 465	一千四百多处
+T55	Thing-Nominal 469 470	花
+T56	Thing-Nominal 471 472	草
+T57	Thing-Nominal 475 477	玉石
+T58	Location-Pronoun 485 489	这座名山
+*	Coreference T58 T49
+T59	Person-Nominal 492 494	游人
+T60	Organization-Nominal 498 500	祖国
+T61	Metric 500 502;503 504	几千 年
+T62	Person-Nominal 510 512	人们
+T63	Location-Nominal 522 525	南天门
+T64	Metric 530 534	一华里长
+T65	Location-Name 535 537	天街
+T66	Location-Name 522 525	南天门
+T67	Thing-Nominal 549 550	雾
+T68	Person-Pronoun 552 554	我们
+T69	Person-Name 559 562	郭沫若
+T70	Time-Explicit 572 578	改革开放以前
+T71	Location-Name 579 580;581 582	天 街
+T72	Location-Nominal 587 591	几间小铺
+*	Coreference T72 T71 T76
+T73	Thing-Nominal 597 599	楼阁
+T74	Thing-Nominal 602 604	建筑
+T75	Thing-Nominal 607 609	道路
+T76	Location-Nominal 619 621	闹市
+T77	Thing-Nominal 624 626	店肆
+T78	Person-Nominal 634 636	旅客
+T79	Person-Nominal 636 638	游人
+T80	Person-Nominal 672 676	历代名人
+T81	Location-Nominal 678 681	岩体上
+T82	Thing-Nominal 682 684	镌刻
+R12	Near Arg1:T82 Arg2:T71	
+T83	Person-Nominal 689 690	人
+T84	Thing-Nominal 700 702;703 707	唐代 摩崖石刻
+R13	General-Special Arg1:T84 Arg2:T82	
+T85	Location-Name 711 715	大观峰壁
+T86	Thing-Name 719 727	《纪泰山铭》镌刻
+*	Coreference T86 T84 T87
+T87	Thing-Pronoun 728 730	此碑
+T88	Metric 731 737	13??3米
+T89	Metric 739 743	5?3米
+T90	Time-Explicit 745 751	唐开元十四年
+T91	Time-Explicit 752 758	公元726年
+*	Coreference T91 T90
+T92	Person-Name 759 761	玄宗
+T93	Location-Name 764 766	泰山
+T94	Thing-Nominal 768 769	笔
+T95	Thing-Nominal 775 776	字
+T96	Metric 777 779	六寸
+T97	Thing-Nominal 803 805	碑文
+T98	Person-Nominal 807 809	从臣
+T99	Location-Nominal 821 826	登顶的道路
+T100	Location-Nominal 828 834	几处陡坡险路
+R14	Part-Whole Arg1:T100 Arg2:T99	
+T101	Metric 828 830	几处
+T102	Location-Name 863 865	泰山
+T103	Person-Nominal 876 878	导游
+T104	Time-Implicit 886 891	晴朗的日子
+T105	Location-Name 903 905	泰山
+T106	Thing-Nominal 910 912	雾蔼
+T109	Thing-Nominal 926 928	白云
+T110	Thing-Nominal 928 930	蓝天
+T111	Thing-Nominal 931 933	飞鸟
+T107	Thing-Nominal 921 923	层峦
+T108	Thing-Nominal 923 925	叠峰
+T112	Location-Name 942 944	泰山
+T113	Thing-Pronoun 951 953	这雾
+*	Coreference T113 T106
+T114	Time-Implicit 953 962	自上山以后几个小时
+T115	Location-Name 970 972	泰山
+T116	Person-Pronoun 977 979	我们
+T117	Location-Name 994 997	碧霞寺
+T118	Location-Name 1001 1005	大观雄峰
+T119	Location-Name 1006 1009	唐摩崖
+T120	Location-Nominal 1011 1012	路
+T121	Person-Pronoun 1018 1020	我们
+T122	Location-Name 1025 1028	日观峰
+T123	Location-Name 1032 1034	岱顶
+R15	Part-Whole Arg1:T123 Arg2:T112	
+R16	Near Arg1:T118 Arg2:T117	
+*	Coreference T119 T118
+R17	Near Arg1:T122 Arg2:T118	
+R18	Part-Whole Arg1:T117 Arg2:T112	
+T124	Thing-Nominal 1035 1036	日
+T125	Location-Nominal 1042 1045	峰北侧
+T126	Location-Pronoun 1042 1043	峰
+*	Coreference T126 T122
+T127	Thing-Nominal 1047 1049	巨石
+T128	Metric 1057 1059	二丈
+T129	Thing-Nominal 1063 1066	拱北石
+T130	Thing-Nominal 1071 1074	探海石
+*	Coreference T129 T127 T130
+T131	Location-Pronoun 1078 1079	峰
+*	Coreference T131 T123
+T132	Location-Nominal 1078 1080	峰前
+T133	Thing-Nominal 1095 1097	碑石
+T134	Person-Name 1105 1108	徐志摩
+T135	Thing-Nominal 1144 1146	雾霭
+T136	Thing-Nominal 1156 1161	嶙峋的山峰
+T137	Thing-Nominal 1165 1172	稀疏的一丝浮云
+T138	Thing-Nominal 1173 1174;1175 1181	虚 无缥缈的远山
+T139	Location-Nominal 1186 1188	近岫
+T140	Thing-Nominal 1191 1193	青松
+T141	Thing-Nominal 1193 1195	翠柏
+T142	Thing-Nominal 1196 1198	奇楼
+T143	Thing-Nominal 1198 1200	巧阁
+T144	Location-Name 1215 1217	泰山
+T145	Time-Implicit 1242 1244	翌晨
+T146	Location-Name 1254 1256	泰山
+T147	Thing-Nominal 1256 1257	日
+T148	Person-Pronoun 1271 1273	我们
+T149	Location-Nominal 1290 1294	泰山顶巅
+T150	Location-Name 1298 1302	玉皇顶峰
+T151	Location-Name 1306 1309	天柱峰
+*	Coreference T151 T150 T149
+T152	Location-Name 1290 1292	泰山
+T153	Location-Name 1315 1317	泰山
+T154	Location-Name 1324 1326	泰山
+T155	Person-Name 1331 1333	孔子
+T156	Location-Name 1334 1336	东山
+T157	Location-Nominal 1338 1339	鲁
+T158	Location-Name 1341 1343	泰山
+T159	Person-Name 1349 1351	杜甫
+T160	Thing-Nominal 1362 1363	山
+T161	Person-Nominal 1366 1368	古人
+T162	Location-Name 1370 1372	泰山
+T163	Location-Name 1386 1388	泰山
+T164	Person-Pronoun 1409 1411	我们
+T165	Location-Nominal 1412 1414	小路
+T166	Location-Name 1421 1423	天街
+T167	Metric 1426 1430	九个小时
+T168	Location-Name 1434 1436	泰山
+T169	Location-Name 1442 1445	泰安市
+T170	Thing-Nominal 1449 1451	暴雨
+T171	Person-Pronoun 1454 1455	我
+T172	Thing-Nominal 1461 1463	浓雾
+T173	Location-Name 1467 1469	泰山
+T174	Thing-Pronoun 1474 1476	这雨
+*	Coreference T174 T170
+T175	Thing-Nominal 1487 1488	雨

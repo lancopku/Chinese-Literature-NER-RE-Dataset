@@ -1,0 +1,614 @@
+T1	Person-Nominal 4 6	人类
+T2	Person-Nominal 26 28	人类
+T3	Person-Nominal 37 39	人类
+T4	Person-Nominal 102 104	大众
+T5	Abstract 107 112	《红楼梦》
+T6	Person-Name 115 121;122 123	清代作者曹雪 芹
+T7	Person-Nominal 127 129	举家
+T8	Thing-Nominal 129 132	食粥酒
+T9	Abstract 176 181	《红楼梦》
+T10	Time-Implicit 184 186	古代
+T11	Thing-Nominal 190 194	一座高峰
+T12	Person-Name 198 201	林黛玉
+T13	Person-Name 202 205	贾宝玉
+T14	Person-Name 206 209	薛宝钗
+T15	Person-Nominal 227 228	人
+T16	Person-Name 231 233	黛玉
+T17	Thing-Nominal 234 235	花
+T18	Person-Name 240 242	黛玉
+T19	Thing-Nominal 246 247	花
+T20	Thing-Nominal 248 249	花
+T21	Location-Nominal 251 253	满天
+R1	Located Arg1:T20 Arg2:T21	
+T22	Person-Pronoun 259 260	谁
+T23	Person-Nominal 270 273	葬花人
+T24	Person-Pronoun 282 283	谁
+T25	Person-Nominal 286 289	很多人
+T26	Person-Pronoun 292 293	泪
+T27	Person-Name 295 298	曹雪芹
+T28	Person-Pronoun 323 324	他
+T29	Person-Name 325 328	贾宝玉
+T30	Thing-Nominal 341 343	眼睛
+T31	Thing-Nominal 345 351	那么多泪珠儿
+T32	Thing-Nominal 352 354	泪水
+T33	Time-Implicit 355 357	春天
+T34	Time-Implicit 359 361	夏天
+T35	Time-Implicit 363 365	夏天
+T36	Time-Implicit 368 370	冬天
+T37	Person-Nominal 376 382	怡红院的姐妹
+T38	Person-Pronoun 385 386	我
+T39	Person-Nominal 392 394	各娘
+T40	Thing-Nominal 400 404	一层肚皮
+T41	Person-Name 407 411	宝玉哥哥
+T42	Person-Pronoun 412 413	我
+*	Coreference T38 T18
+T43	Person-Name 425 426;427 429	贾 宝玉
+T44	Person-Name 437 440	林黛玉
+T45	Person-Nominal 433 436	情圣”
+T46	Person-Nominal 444 446	情痴
+T47	Person-Name 448 451	薛宝钗
+T48	Person-Nominal 454 458	“情无情
+T49	Person-Name 460 463	史湘云
+T50	Person-Nominal 467 469	情情
+T51	Person-Name 473 487;488 492	多愁善感、看淡功利、才貌双全 的林黛玉
+T52	Abstract 516 521	《红楼梦》
+T53	Person-Name 541 544	曹雪芹
+T54	Person-Nominal 547 548;549 550	女 子
+T55	Person-Nominal 577 579	世人
+T56	Person-Name 588 591	薛宝钗
+T57	Person-Nominal 593 600	不光彩的第三者
+*	Coreference T57 T56
+T58	Person-Name 603 606	林黛玉
+T59	Person-Name 619 626	汉代的司马相如
+T60	Thing-Nominal 640 642	千金
+T61	Thing-Nominal 644 648	相如赋”
+T62	Person-Nominal 651 654	汉武帝
+T63	Location-Nominal 655 658	朝迁里
+T64	Person-Nominal 660 662	小官
+T65	Person-Name 669 670;671 677	结 发妻子卓文君
+T66	Person-Name 678 681	卓文君
+T67	Abstract 688 693	《白头吟》
+T68	Abstract 695 700	《白头吟》
+T69	Person-Nominal 710 711	人
+T70	Person-Name 715 719	司马相如
+T71	Person-Name 736 739	卓文君
+T72	Person-Name 753 756	白居易
+T73	Abstract 761 766	《长恨歌》
+T74	Person-Nominal 769 771	作者
+*	Coreference T74 T72
+T75	Person-Nominal 772 775	唐明皇
+T76	Person-Name 786 792	唐明皇李隆基
+T77	Person-Name 794 799	妃子杨玉环
+R2	Family Arg1:T76 Arg2:T77	
+T78	Person-Name 816 819	杨玉环
+T79	Person-Nominal 872 874	皇上
+T80	Person-Name 904 907	李隆基
+T81	Person-Name 908 911	杨贵妃
+R3	Family Arg1:T81 Arg2:T80	
+T82	Time-Explicit 925 932	元代的元帝时期
+T83	Person-Name 933 940	京城画家毛延寿
+T84	Person-Nominal 949 961	貌美而高傲、不与世俗的人
+T85	Thing-Nominal 968 970	钱物
+T86	Person-Name 971 974	毛延寿
+T87	Person-Name 992 995	王昭君
+T88	Person-Pronoun 999 1000	他
+*	Coreference T88 T86
+T89	Person-Nominal 1005 1007	元帝
+T90	Person-Nominal 1015 1017	匈奴
+T91	Person-Nominal 1044 1049	无辜的百姓
+T92	Time-Implicit 1052 1057	昭君出塞时
+T93	Person-Name 1052 1054	昭君
+T94	Thing-Nominal 1060 1062	瑟琶
+T95	Thing-Nominal 1065 1067	大雁
+T96	Thing-Nominal 1068 1070	双脚
+R4	Part-Whole Arg1:T95 Arg2:T96	
+T97	Abstract 1092 1097;1098 1099	《昭君出塞 》
+T98	Abstract 1100 1105	《出汉关》
+T99	Person-Nominal 1118 1119	人
+T100	Person-Nominal 1131 1133	女人
+T101	Time-Explicit 1144 1146	明代
+T102	Person-Nominal 1147 1150	平西王
+T103	Person-Name 1151 1156	大将吴三桂
+T104	Person-Nominal 1157 1158;1159 1160	手 下
+T105	Thing-Nominal 1164 1166	财物
+T106	Person-Nominal 1167 1169	父亲
+T107	Person-Name 1171 1174	李闯王
+T108	Person-Name 1178 1181	吴三桂
+T109	Person-Pronoun 1190 1191	我
+*	Coreference T109 T108
+T110	Location-Nominal 1192 1194	京城
+T111	Person-Pronoun 1195 1196	他
+*	Coreference T111 T107
+T112	Person-Pronoun 1200 1201	我
+T113	Person-Nominal 1205 1207	手下
+T114	Person-Name 1210 1219	秦淮八艳之一陈圆圆
+T115	Person-Name 1221 1224	李闯王
+T116	Person-Nominal 1230 1232	手下
+T117	Time-Implicit 1204 1219;1220 1235	当手下报告说秦淮八艳之一陈圆圆 被李闯王（李自成）的手下抢走时
+T118	Person-Name 1236 1239	吴三桂
+T119	Thing-Nominal 1240 1241	脸
+R5	Part-Whole Arg1:T119 Arg2:T118	
+T120	Person-Name 1252 1255	陈圆圆
+T121	Person-Nominal 1256 1269	明朝大将吴三桂的情人、知己
+*	Coreference T121 T120
+T122	Person-Pronoun 1270 1271	他
+T123	Person-Name 1260 1263	吴三桂
+*	Coreference T122 T123
+T124	Person-Nominal 1274 1276	红颜
+T125	Person-Nominal 1283 1285	清兵
+T126	Thing-Nominal 1291 1293	明朝
+T127	Thing-Nominal 1299 1301	丧钟
+T128	Person-Name 1304 1311	清代诗人吴伟业
+T129	Abstract 1311 1316	《圆圆曲》
+T130	Person-Nominal 1326 1328	红颜
+T131	Person-Name 1330 1333	吴三桂
+T132	Thing-Nominal 1335 1337	重金
+T133	Person-Name 1339 1341;1342 1343	吴伟 业
+T134	Person-Name 1360 1365	郭沫若先生
+T135	Abstract 1366 1374	《甲申三百年祭》
+T136	Person-Name 1375 1378	吴三桂
+T137	Person-Name 1379 1382	陈圆圆
+T138	Person-Name 1383 1386	李自成
+T139	Person-Name 1409 1416	文学大师钱钟书
+T140	Abstract 1418 1422	《围城》
+T141	Person-Name 1425 1436	不学无术的主人公方鸿渐
+T142	Thing-Nominal 1447 1451	家庭爱情
+T143	Thing-Nominal 1454 1459	一个“围城
+T144	Location-Nominal 1461 1463	城里
+T145	Person-Nominal 1465 1470	主角男或女
+T146	Location-Nominal 1475 1477	城外
+T147	Person-Nominal 1478 1481	男或女
+T148	Person-Nominal 1489 1491	人类
+T149	Thing-Nominal 1493 1495	两腿
+T150	Thing-Nominal 1496 1497	毛
+T151	Thing-Nominal 1499 1503	高级动物
+T152	Person-Name 1514 1517	钱钟书
+T153	Abstract 1520 1523	《围城
+T154	Organization-Name 1528 1532	清华大学
+T155	Location-Nominal 1543 1545	中外
+T156	Thing-Nominal 1545 1547	文坛
+T157	Time-Explicit 1548 1564	中国二十世纪初叶即1925年左右
+T158	Person-Nominal 1565 1570	现代派诗人
+T159	Person-Name 1571 1576	才子徐志摩
+T160	Person-Name 1579 1585;1586 1592	中国现代才女 之一的林徽因
+T161	Organization-Name 1594 1609	英国康桥大学（现通译剑桥大学）
+T162	Person-Name 1612 1615	徐志摩
+T163	Person-Name 1617 1620	林徽因
+T164	Location-Name 1621 1628	剑桥大学校园里
+T165	Thing-Nominal 1629 1631	康桥
+R6	Located Arg1:T165 Arg2:T164	
+T166	Time-Implicit 1643 1646;1647 1663	当徐志 摩1927年年底再回到剑桥大学时
+T167	Person-Name 1644 1646;1647 1648	徐志 摩
+T168	Organization-Name 1658 1662	剑桥大学
+T169	Person-Name 1664 1667	林徽因
+T170	Person-Nominal 1670 1680	建筑学者梁思成的妻子
+*	Coreference T170 T169
+T171	Person-Name 1670 1677	建筑学者梁思成
+R7	Family Arg1:T171 Arg2:T169	
+T172	Person-Name 1684 1687	徐志摩
+T173	Location-Name 1689 1691	英国
+T174	Location-Name 1692 1694	中国
+T175	Location-Nominal 1695 1697	船上
+T176	Abstract 1702 1707;1708 1709	《再别康桥 》
+T177	Person-Pronoun 1714 1715	我
+T178	Person-Pronoun 1720 1721	我
+T179	Person-Pronoun 1726 1727	我
+T180	Thing-Nominal 1731 1732	手
+R8	Part-Whole Arg1:T180 Arg2:T179	
+T181	Thing-Nominal 1735 1740	西天的云彩
+T182	Location-Nominal 1735 1737	西天
+R9	Located Arg1:T181 Arg2:T182	
+T183	Person-Pronoun 1742 1743	我
+T184	Thing-Nominal 1757 1759	夏虫
+T185	Person-Pronoun 1761 1762	我
+T186	Thing-Nominal 1769 1774	今晚的康桥
+T187	Person-Pronoun 1778 1779	我
+T188	Person-Pronoun 1784 1785	我
+T189	Person-Pronoun 1790 1791	我
+T190	Thing-Nominal 1794 1796	衣袖
+T191	Thing-Nominal 1800 1804	一片云彩
+T192	Thing-Nominal 1810 1812	人口
+T193	Person-Pronoun 1815 1816	他
+*	Coreference T193 T172
+T194	Person-Nominal 1819 1821	情人
+T195	Thing-Nominal 1846 1849	云彩”
+T196	Person-Name 1853 1861	台湾著名作家琼瑶
+T197	Person-Nominal 1876 1878	情人
+T198	Location-Nominal 1878 1880	山坡
+T199	Thing-Nominal 1881 1883	斜阳
+T200	Thing-Nominal 1884 1886	青山
+T201	Thing-Nominal 1893 1895	夕阳
+T202	Person-Name 1898 1900	琼瑶
+T203	Abstract 1904 1908	《窗外》
+T204	Person-Nominal 1914 1916	男女
+T205	Person-Name 1926 1937	明代作家、大才子冯梦龙
+T206	Abstract 1940 1950	《杜十娘怒沉百宝箱》
+T207	Person-Name 1955 1962	富商的后代李甲
+T208	Person-Name 1967 1975	真情投入的杜十娘
+T209	Thing-Nominal 1985 1988	百宝箱
+T210	Location-Nominal 1990 1992	江中
+R10	Located Arg1:T209 Arg2:T210	
+T211	Person-Name 1994 1996	李甲
+T212	Person-Name 2015 2017	李甲
+T213	Person-Nominal 2019 2020	人
+T214	Person-Nominal 2050 2052	人们
+T215	Person-Nominal 2054 2056	男女
+T216	Person-Name 2068 2070	孔子
+T217	Person-Name 2071 2073;2074 2081	第二 十一世孙孔尚任
+R11	Family Arg1:T217 Arg2:T216	
+T218	Time-Explicit 2082 2086	清朝末年
+T219	Abstract 2092 2097	《桃花扇》
+T220	Person-Nominal 2099 2103	乾隆皇帝
+T221	Abstract 2108 2113	《桃花扇》
+T222	Person-Name 2117 2124	秦淮名妓李香君
+T223	Person-Nominal 2128 2132	朝迁重臣
+T224	Person-Pronoun 2141 2142	他
+*	Coreference T224 T223
+T225	Thing-Nominal 2148 2149	血
+T226	Thing-Nominal 2150 2153	桃花扇
+T227	Person-Pronoun 2175 2176	他
+T228	Person-Name 2178 2181	李香君
+T229	Person-Name 2196 2206	日本的文学家村上春树
+T230	Abstract 2210 2217	《挪威的森林》
+T231	Person-Nominal 2239 2241	人类
+T232	Person-Name 2266 2274	美国作家司・汤达
+T233	Abstract 2277 2282	《红与黑》
+T234	Person-Name 2283 2288	主人公科连
+T235	Person-Nominal 2295 2301	贪婪的伪君子
+T236	Person-Pronoun 2303 2304	他
+*	Coreference T236 T234
+T237	Person-Nominal 2305 2309	市长夫人
+T238	Person-Nominal 2316 2317	人
+T239	Person-Nominal 2320 2323	伪君子
+T240	Person-Nominal 2343 2345	男女
+T241	Person-Nominal 2348 2349	男
+T242	Person-Nominal 2350 2351	女
+T243	Person-Nominal 2359 2362	多少人
+T244	Person-Nominal 2383 2386	多少人
+T245	Person-Nominal 2389 2391	君王
+T246	Person-Nominal 2410 2414	多少昏君
+T247	Person-Nominal 2434 2438	多少贞女
+T248	Person-Nominal 2440 2442	烈女
+T249	Thing-Nominal 2452 2455	桃花扇
+T250	Thing-Nominal 2450 2451	血
+T251	Person-Pronoun 2490 2491	谁
+T252	Location-Nominal 2495 2497	楼台
+T253	Location-Nominal 2498 2500	楼台
+T254	Person-Nominal 2530 2534	多少才子
+T255	Person-Nominal 2535 2537	状元
+T256	Person-Nominal 2539 2541	佳人
+T257	Person-Nominal 2551 2557	多少平头百姓
+T258	Person-Pronoun 2603 2604	你
+T259	Person-Pronoun 2608 2609	我
+T260	Person-Pronoun 2610 2611	你
+T261	Person-Pronoun 2616 2617	你
+T262	Person-Nominal 2618 2624	一个怎样的人
+T263	Person-Pronoun 2629 2630	我
+T264	Person-Pronoun 2633 2634	你
+T265	Person-Pronoun 2656 2657	我
+T266	Person-Pronoun 2658 2659	你
+T267	Thing-Nominal 2662 2664	春风
+T268	Thing-Nominal 2669 2671	柳荫
+T269	Thing-Nominal 2665 2666	面
+T270	Thing-Nominal 2679 2681	暖阳
+T271	Person-Pronoun 2682 2683	我
+T272	Person-Pronoun 2684 2685	你
+T273	Person-Pronoun 2720 2722	我们
+T274	Person-Pronoun 2725 2727	我们
+T275	Person-Pronoun 2730 2732	我们
+T276	Person-Pronoun 2735 2737	我们
+T277	Thing-Nominal 2752 2754	琴瑟
+T278	Person-Pronoun 2757 2759	我们
+T279	Thing-Nominal 2760 2761	手
+T280	Location-Nominal 2762 2765	网海里
+T281	Location-Nominal 2768 2771	银屏前
+T282	Location-Nominal 2774 2777	舞池中
+T283	Location-Nominal 2781 2787	青翠的山冈上
+T284	Person-Pronoun 2788 2790	我们
+T285	Thing-Nominal 2796 2802	弯弯的河水边
+T286	Thing-Nominal 2803 2810	我们的美丽倩影
+T287	Person-Pronoun 2803 2805	我们
+R12	Ownership Arg1:T287 Arg2:T286	
+T288	Location-Nominal 2811 2819	炊烟袅袅的村庄里
+T289	Person-Pronoun 2820 2822	我们
+T290	Thing-Nominal 2831 2833	风景
+T291	Thing-Nominal 2837 2839	山水
+T292	Person-Pronoun 2848 2850	我们
+T293	Person-Pronoun 2853 2854	你
+T294	Person-Pronoun 2867 2868	我
+T295	Person-Pronoun 2877 2879	我们
+T296	Person-Pronoun 2882 2883	你
+T297	Person-Pronoun 2896 2897	我
+T298	Person-Pronoun 2908 2909	你
+T299	Person-Pronoun 2913 2914	我
+T300	Person-Pronoun 2935 2936	你
+T301	Person-Pronoun 2940 2941	我
+T302	Person-Pronoun 2963 2964	你
+T303	Person-Pronoun 2968 2969	我
+T304	Person-Pronoun 2987 2988	你
+T305	Person-Pronoun 2992 2993	我
+T306	Thing-Nominal 3016 3017	水
+T307	Person-Pronoun 3030 3031	你
+T308	Person-Pronoun 3051 3052	你
+T309	Person-Pronoun 3070 3071	你
+T310	Person-Pronoun 3078 3079	我
+T311	Thing-Nominal 3100 3108	郁郁葱葱的山楂树
+T312	Person-Pronoun 3130 3131	你
+T313	Person-Pronoun 3132 3133	我
+T314	Person-Pronoun 3137 3138	你
+T315	Person-Pronoun 3139 3140	我
+T316	Person-Pronoun 3144 3145	你
+T317	Person-Pronoun 3146 3147	我
+T318	Person-Pronoun 3153 3154	你
+T319	Person-Pronoun 3155 3156	我
+T320	Person-Pronoun 3162 3163	你
+T321	Person-Pronoun 3164 3165	我
+T322	Thing-Nominal 3168 3177	永远盛开怒放的玫瑰
+T323	Person-Pronoun 3179 3180	我
+T324	Person-Pronoun 3183 3184	你
+T325	Location-Nominal 3184 3186	街头
+T326	Thing-Nominal 3187 3191	车水马龙
+R13	Located Arg1:T326 Arg2:T325	
+T327	Person-Nominal 3197 3198	人
+T328	Person-Pronoun 3207 3208	我
+T329	Location-Nominal 3210 3217	迷茫的十字路口
+T330	Person-Pronoun 3233 3234	你
+T331	Person-Pronoun 3246 3247	你
+T332	Person-Pronoun 3249 3250	我
+T333	Person-Pronoun 3254 3255	你
+T335	Thing-Nominal 3255 3257	步履
+T334	Location-Nominal 3260 3262	满面
+T336	Thing-Nominal 3262 3264	春风
+R14	Located Arg1:T336 Arg2:T334	
+T337	Person-Pronoun 3273 3274	我
+T338	Thing-Nominal 3277 3279	四目
+T339	Person-Pronoun 3285 3286	我
+T340	Thing-Nominal 3291 3299	一轮轮快乐的涟漪
+T341	Location-Nominal 3286 3288	心中
+R15	Located Arg1:T340 Arg2:T341	
+T342	Time-Implicit 3301 3305	数九寒冬
+T343	Thing-Nominal 3308 3312	春日暖阳
+T344	Person-Pronoun 3319 3320	我
+T345	Person-Pronoun 3326 3327	我
+T346	Person-Pronoun 3333 3334	我
+T347	Thing-Nominal 3337 3341	沧海桑田
+T348	Person-Pronoun 3342 3343	我
+T349	Person-Pronoun 3348 3349	你
+T350	Person-Pronoun 3350 3351	我
+T351	Person-Pronoun 3354 3355	我
+T352	Person-Pronoun 3358 3359	你
+T353	Location-Nominal 3361 3363	舞厅
+T354	Thing-Nominal 3369 3371	霓虹
+R16	Located Arg1:T354 Arg2:T353	
+T355	Person-Nominal 3384 3388	俊男靓女
+T356	Thing-Nominal 3394 3396	舞池
+T357	Person-Pronoun 3399 3400	我
+T358	Person-Pronoun 3405 3406	你
+T359	Thing-Nominal 3406 3411	颀长的身影
+R17	Ownership Arg1:T358 Arg2:T359	
+T360	Person-Pronoun 3425 3426	你
+T361	Person-Pronoun 3427 3428	我
+T362	Person-Pronoun 3431 3432	我
+T363	Location-Nominal 3434 3436	天上
+T364	Thing-Nominal 3434 3439	天上的流云
+R18	Located Arg1:T364 Arg2:T363	
+T365	Person-Pronoun 3442 3443	你
+T366	Thing-Nominal 3444 3445	浪
+T367	Thing-Nominal 3449 3450	墨
+T368	Person-Pronoun 3453 3455	我们
+T369	Person-Pronoun 3472 3473	我
+T370	Person-Pronoun 3480 3482	我们
+T371	Location-Nominal 3484 3486	月宫
+T372	Time-Implicit 3515 3517	此时
+T373	Person-Pronoun 3518 3519	我
+T374	Thing-Nominal 3520 3521	眼
+R19	Part-Whole Arg1:T374 Arg2:T373	
+T375	Person-Pronoun 3524 3525	你
+T376	Person-Pronoun 3526 3527	我
+T377	Person-Pronoun 3530 3531	你
+T378	Thing-Nominal 3533 3535	网海
+T379	Person-Nominal 3556 3563	天南地北的网友
+T380	Person-Nominal 3569 3571	男女
+T381	Location-Pronoun 3583 3585	这里
+T382	Time-Implicit 3607 3609	每天
+T383	Person-Pronoun 3609 3610	我
+T384	Thing-Nominal 3612 3614	荧屏
+T385	Person-Pronoun 3619 3620	你
+T386	Thing-Nominal 3624 3627	你头像
+T387	Person-Pronoun 3624 3625	你
+R20	Ownership Arg1:T387 Arg2:T386	
+T388	Time-Implicit 3624 3630	你头像灰暗时
+T389	Person-Pronoun 3631 3632	我
+T390	Thing-Nominal 3639 3641	冰窟
+T391	Person-Pronoun 3644 3645	你
+T392	Person-Pronoun 3649 3650	你
+T393	Time-Implicit 3649 3654;3655 3656	你在线闪亮 时
+T394	Person-Pronoun 3657 3658	我
+T395	Person-Pronoun 3668 3670	我们
+T396	Person-Pronoun 3673 3675	我们
+T397	Person-Pronoun 3678 3680	我们
+T398	Person-Pronoun 3700 3701	你
+T399	Thing-Nominal 3703 3707	汩汩清泉
+T400	Person-Pronoun 3710 3711	我
+T401	Person-Pronoun 3718 3719	你
+T402	Time-Implicit 3721 3723	夏日
+T403	Person-Pronoun 3729 3730	我
+T404	Person-Pronoun 3736 3737	你
+T405	Thing-Nominal 3747 3752	冰冷的键盘
+T406	Thing-Nominal 3764 3766	荧屏
+T407	Person-Pronoun 3768 3769	我
+T408	Person-Pronoun 3778 3780	我们
+T409	Person-Pronoun 3800 3801	你
+T410	Person-Pronoun 3802 3803	我
+T411	Person-Pronoun 3808 3810	我们
+T412	Person-Pronoun 3815 3817	我们
+T413	Person-Pronoun 3822 3823	我
+T414	Person-Pronoun 3826 3827	你
+T415	Thing-Nominal 3829 3831	手机
+T416	Person-Pronoun 3852 3853	我
+T417	Location-Nominal 3855 3857	手中
+R21	Located Arg1:T415 Arg2:T417	
+T418	Location-Nominal 3860 3862	怀里
+T419	Person-Pronoun 3872 3873	你
+T420	Location-Nominal 3865 3867	枕边
+T421	Time-Implicit 3877 3883	每次铃声响起
+T422	Thing-Nominal 3888 3889;3890 3891	耳 膜
+T423	Person-Pronoun 3892 3893	我
+T424	Person-Pronoun 3897 3898	你
+T425	Person-Pronoun 3908 3909	你
+T426	Person-Pronoun 3919 3920	我
+T427	Person-Pronoun 3944 3945	我
+T428	Time-Implicit 3944 3948	我思念时
+T429	Person-Pronoun 3952 3953	我
+T430	Time-Implicit 3952 3956	我浓情时
+T431	Time-Implicit 3959 3963	我困惑时
+T432	Person-Pronoun 3959 3960	我
+T433	Time-Implicit 3966 3970	我孤寂时
+T434	Person-Pronoun 3966 3967	我
+T435	Person-Pronoun 3981 3982	我
+T436	Person-Pronoun 3983 3984	你
+T437	Location-Nominal 3989 3994	耀眼的地方
+T438	Thing-Nominal 3983 3987	你的名字
+R22	Ownership Arg1:T436 Arg2:T438	
+R23	Located Arg1:T438 Arg2:T437	
+T439	Person-Pronoun 4006 4007	我
+T440	Person-Pronoun 4012 4013	你
+T441	Person-Pronoun 4014 4015	我
+T442	Person-Pronoun 4023 4024	我
+T443	Person-Pronoun 4027 4028	你
+T444	Person-Pronoun 4056 4057	你
+T445	Person-Pronoun 4063 4064	我
+T446	Person-Pronoun 4075 4076	你
+T447	Thing-Nominal 4078 4081	我的手
+T448	Person-Pronoun 4078 4079	我
+T449	Thing-Nominal 4082 4083	日
+T450	Thing-Nominal 4084 4085	月
+T451	Thing-Nominal 4088 4090;4091 4093	人间 美景
+T452	Person-Pronoun 4096 4097	你
+T453	Thing-Nominal 4099 4102	我的肩
+T454	Person-Pronoun 4099 4100	我
+R24	Part-Whole Arg1:T453 Arg2:T454	
+T455	Person-Pronoun 4115 4116	我
+T456	Person-Pronoun 4119 4120	你
+T457	Person-Pronoun 4128 4129	你
+T458	Person-Pronoun 4138 4139	你
+T459	Person-Pronoun 4146 4147	你
+T460	Time-Implicit 4152 4156	每个夜晚
+T461	Person-Pronoun 4157 4158	我
+T462	Thing-Nominal 4163 4165	眼睛
+R25	Part-Whole Arg1:T462 Arg2:T461	
+T463	Thing-Nominal 4166 4168	双手
+T464	Person-Pronoun 4187 4188	我
+T465	Person-Pronoun 4193 4194	我
+T466	Person-Pronoun 4197 4198	你
+T467	Person-Nominal 4200 4202	朋友
+T468	Thing-Nominal 4205 4211	烂漫山野之花
+T469	Location-Nominal 4207 4209	山野
+R26	Located Arg1:T468 Arg2:T469	
+T470	Thing-Nominal 4214 4216	满腹
+T471	Thing-Nominal 4255 4257	妙笔
+T472	Person-Pronoun 4274 4275	你
+T473	Person-Pronoun 4276 4277	我
+T474	Person-Pronoun 4286 4288	我们
+T475	Person-Pronoun 4300 4301	你
+T476	Thing-Nominal 4306 4311	岭上的野草
+T477	Location-Nominal 4306 4308	岭上
+R27	Located Arg1:T476 Arg2:T477	
+T478	Location-Nominal 4316 4318	田间
+T479	Thing-Nominal 4318 4321;4322 4324	成熟的 谷穗
+R28	Located Arg1:T479 Arg2:T478	
+T480	Person-Pronoun 4326 4327	我
+T481	Person-Pronoun 4331 4332	你
+T482	Person-Pronoun 4333 4334	你
+T483	Person-Nominal 4335 4339	我的知音
+T484	Person-Pronoun 4335 4336	我
+T485	Person-Pronoun 4341 4342	我
+T486	Person-Pronoun 4346 4347	你
+T487	Person-Pronoun 4348 4349	我
+T488	Person-Pronoun 4356 4357	我
+T489	Person-Pronoun 4365 4366	你
+T490	Person-Pronoun 4367 4368	我
+T491	Person-Pronoun 4378 4379	我
+T492	Person-Pronoun 4383 4384	你
+T493	Person-Pronoun 4390 4391	你
+T494	Thing-Nominal 4397 4403	那场急风暴雨
+T495	Person-Pronoun 4404 4406	我们
+T496	Thing-Nominal 4415 4420	潮湿的衣服
+T497	Thing-Nominal 4411 4414	落汤鸡
+T498	Person-Pronoun 4422 4423	我
+T499	Person-Pronoun 4433 4434	你
+T500	Person-Pronoun 4437 4438	我
+T501	Location-Nominal 4440 4442	怀里
+T502	Location-Nominal 4445 4447	胸前
+T503	Person-Pronoun 4448 4449	我
+T504	Person-Pronoun 4453 4454	你
+T505	Person-Pronoun 4488 4490	我们
+T506	Thing-Nominal 4491 4492	手
+T507	Thing-Nominal 4495 4500	寂静的小路
+T508	Thing-Pronoun 4501 4502	它
+*	Coreference T508 T507
+T509	Thing-Pronoun 4518 4519	它
+T510	Location-Nominal 4529 4531	两边
+T511	Thing-Nominal 4531 4533	高楼
+R29	Located Arg1:T511 Arg2:T510	
+T512	Person-Pronoun 4542 4543;4544 4545	我 们
+T513	Person-Pronoun 4551 4553	我们
+T514	Person-Pronoun 4569 4570	我
+T515	Person-Pronoun 4577 4579	我们
+T516	Person-Pronoun 4591 4592	你
+T517	Person-Pronoun 4593 4594	我
+T518	Thing-Nominal 4596 4598	日记
+T519	Person-Pronoun 4623 4624	我
+T520	Person-Pronoun 4630 4631	我
+T521	Person-Pronoun 4637 4638	我
+T522	Person-Pronoun 4644 4645	我
+T523	Person-Pronoun 4687 4688	我
+T524	Person-Pronoun 4707 4709	我们
+T525	Location-Nominal 4714 4720	那片爱的花圃
+T526	Thing-Nominal 4723 4725	桃花
+T527	Thing-Nominal 4729 4731	荷花
+T528	Thing-Nominal 4735 4737	菊花
+T529	Thing-Nominal 4741 4743	梅花
+T530	Time-Implicit 4745 4749	一年四季
+T531	Location-Nominal 4768 4770	满园
+T532	Thing-Nominal 4771 4772	蝶
+T533	Location-Pronoun 4776 4778	那里
+*	Coreference T533 T531
+T534	Person-Pronoun 4779 4780	我
+T535	Location-Pronoun 4788 4790	那里
+T536	Person-Pronoun 4791 4792	你
+T537	Metric 4816 4818	千里
+T538	Person-Pronoun 4819 4821	我们
+T539	Thing-Nominal 4832 4834	电话
+T540	Person-Pronoun 4835 4837	我们
+T541	Person-Pronoun 4846 4848	我们
+T542	Thing-Nominal 4846 4853	我们的频频鸿雁
+T543	Person-Pronoun 4854 4856	我们
+T544	Thing-Nominal 4877 4879	星星
+T545	Person-Pronoun 4881 4883	我们
+T546	Thing-Nominal 4887 4889	月亮
+T547	Person-Pronoun 4891 4893	我们
+T548	Person-Nominal 4897 4899	老天
+T549	Person-Pronoun 4901 4903	我们
+T550	Person-Pronoun 4911 4913	我们
+T551	Thing-Nominal 4907 4909	夜空
+T552	Person-Pronoun 4932 4933	你
+T553	Person-Pronoun 4948 4949	你
+T554	Person-Pronoun 4965 4966	你
+T555	Person-Pronoun 4983 4984	你
+T556	Person-Pronoun 4991 4992	你
+T557	Person-Pronoun 5000 5001	你
+T558	Person-Pronoun 5002 5003	我
+T559	Person-Pronoun 5009 5010	你
+T560	Person-Pronoun 5011 5012	我
+T561	Person-Pronoun 5018 5019	你
+T562	Person-Pronoun 5020 5021	我
+T563	Person-Pronoun 5027 5028	你
+T564	Person-Pronoun 5029 5030	我
+T565	Person-Pronoun 5036 5037	你
+T566	Person-Pronoun 5038 5039	我
+T567	Person-Pronoun 5051 5052	你
+T568	Person-Pronoun 5057 5058	你
+T569	Person-Pronoun 5059 5060	你
+T570	Person-Pronoun 5063 5064	我
+T571	Location-Nominal 5064 5066	心里

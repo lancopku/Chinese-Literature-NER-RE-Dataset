@@ -1,0 +1,35 @@
+T1	Location-Nominal 96 100	这个世界
+T2	Time-Implicit 101 103	何时
+T3	Location-Nominal 110 114	这个世界
+T4	Thing-Nominal 105 107	面具
+T5	Thing-Nominal 8 12	一汪秋池
+T6	Thing-Nominal 56 60	无垠沙漠
+T7	Metric 8 10	一汪
+T8	Person-Nominal 124 129	芸芸的众生
+T9	Person-Nominal 130 135	形色的人群
+*	Coreference T9 T8
+T10	Thing-Nominal 197 205	天真无邪的笑脸?
+T11	Person-Pronoun 222 224	我们
+T12	Person-Pronoun 226 228	自己
+*	Coreference T12 T11
+T13	Person-Pronoun 234 236	自己
+T14	Person-Pronoun 244 246	自己
+T15	Person-Nominal 257 261	各式人群
+T16	Thing-Nominal 251 266	一层层基于对各式人群的感知的茧
+T17	Metric 251 254	一层层
+T18	Person-Pronoun 285 301	那个光着脚，奔跑在渴望路上的自己
+T19	Person-Pronoun 305 306	谁
+T20	Person-Pronoun 313 314	谁
+T21	Person-Pronoun 321 327	黑白两个自己
+T22	Person-Pronoun 330 332	我们
+T23	Person-Pronoun 343 345	我们
+T24	Thing-Nominal 348 350	物质
+T25	Person-Pronoun 358 360	我们
+T26	Person-Pronoun 370 372	我们
+T27	Thing-Nominal 375 377	金钱
+T28	Person-Pronoun 380 382	我们
+T29	Person-Pronoun 393 395	我们
+T30	Person-Pronoun 467 469	自己
+T31	Person-Pronoun 470 472	自己
+T32	Person-Nominal 475 477	孩子
+T33	Person-Pronoun 464 472	这没有自己的自己

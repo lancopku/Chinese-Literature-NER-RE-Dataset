@@ -1,0 +1,391 @@
+T1	Person-Pronoun 1 2	我
+T2	Thing-Nominal 4 6	身子
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Person-Pronoun 20 21	我
+T4	Person-Pronoun 36 37	我
+T5	Thing-Nominal 41 44	松树皮
+T6	Thing-Nominal 41 43	松树
+R2	Part-Whole Arg1:T5 Arg2:T6	
+T7	Person-Pronoun 59 60	我
+T8	Time-Implicit 73 75	曾经
+T9	Time-Implicit 79 81	至今
+T10	Person-Name 98 101	宋元昊
+T11	Person-Name 113 116	宋元昊
+T12	Time-Implicit 127 131	早春三月
+T13	Time-Implicit 132 134	其时
+T14	Person-Pronoun 135 136	他
+*	Coreference T14 T11
+T15	Person-Pronoun 138 139	他
+T16	Location-Nominal 147 149	文苑
+T17	Thing-Nominal 151 152	案
+T18	Thing-Nominal 153 154	书
+T19	Person-Pronoun 156 157	他
+T20	Thing-Nominal 182 186	三层楼房
+T21	Location-Nominal 192 194	门前
+T22	Location-Nominal 200 201	坪
+R3	Part-Whole Arg1:T22 Arg2:T21	
+T23	Location-Nominal 208 210	菜地
+T24	Location-Nominal 211 213	果园
+T25	Location-Nominal 218 220	菜畦
+R4	Part-Whole Arg1:T25 Arg2:T23	
+T26	Thing-Nominal 225 228	豌豆花
+T27	Thing-Nominal 237 239	丝子
+T28	Thing-Nominal 244 246	触须
+T29	Thing-Nominal 247 248	风
+T30	Thing-Nominal 187 188	窗
+R5	Located Arg1:T30 Arg2:T20	
+R6	Located Arg1:T26 Arg2:T25	
+R7	Located Arg1:T28 Arg2:T27	
+T31	Location-Nominal 262 264	空地
+R8	Near Arg1:T31 Arg2:T25	
+T32	Thing-Nominal 272 275	柚子树
+R9	Located Arg1:T32 Arg2:T31	
+T33	Person-Name 290 293;294 296	作家宋 元昊
+T34	Person-Pronoun 297 298	我
+T35	Person-Pronoun 301 302	他
+R10	Social Arg1:T34 Arg2:T33	
+T36	Person-Name 320 323	宋元昊
+T37	Person-Pronoun 341 342	他
+T38	Thing-Nominal 349 351	眼睛
+R11	Part-Whole Arg1:T38 Arg2:T37	
+*	Coreference T37 T36
+T39	Thing-Nominal 360 362	雾霭
+T40	Thing-Nominal 365 368	红土地
+T41	Person-Pronoun 376 377	他
+T42	Person-Pronoun 388 389	他
+T43	Thing-Nominal 403 405	笔头
+T44	Thing-Nominal 413 415	作品
+R12	Use Arg1:T41 Arg2:T43	
+R13	Create Arg1:T41 Arg2:T44	
+T45	Person-Pronoun 419 420	他
+T46	Thing-Nominal 425 426	笔
+R14	Use Arg1:T45 Arg2:T46	
+T47	Person-Nominal 430 433	晚辈人
+T48	Thing-Nominal 437 439	电脑
+R15	Use Arg1:T47 Arg2:T48	
+R16	Use Arg1:T45 Arg2:T48	
+T49	Thing-Nominal 446 449	烂笔头
+T50	Person-Pronoun 451 452	他
+T51	Person-Name 470 473	宋元昊
+T52	Time-Explicit 481 490	每天凌晨三、四点钟
+T53	Person-Pronoun 491 492	他
+*	Coreference T53 T51
+T54	Thing-Nominal 498 499	床
+T55	Metric 504 508	个把小时
+T56	Thing-Nominal 516 517	壶
+T57	Thing-Nominal 517 519	清茶
+R17	Located Arg1:T57 Arg2:T56	
+T58	Thing-Nominal 523 525	饼干
+T59	Thing-Nominal 531 532	书
+T60	Metric 541 544	几十年
+T61	Metric 545 547	一日
+T62	Person-Pronoun 582 583	他
+T63	Time-Implicit 583 585	至今
+T64	Organization-Nominal 595 597	报刊
+T65	Organization-Nominal 597 599	杂志
+T66	Thing-Nominal 614 618	新闻作品
+T67	Thing-Nominal 601 603	诗文
+R18	Create Arg1:T62 Arg2:T67	
+R19	Create Arg1:T62 Arg2:T66	
+T68	Person-Pronoun 734 735	他
+T69	Person-Pronoun 744 745	他
+T70	Person-Nominal 749 762	全国百佳优秀新闻文化工作者
+*	Coreference T69 T70 T71 T72 T73
+T71	Person-Nominal 765 772	全国当代散文家
+T72	Person-Nominal 776 783	中华知名艺术家
+T73	Person-Nominal 786 791	杰出书法家
+T74	Thing-Nominal 801 803	作品
+R20	Create Arg1:T69 Arg2:T74	
+T75	Person-Name 842 845	宋元昊
+T76	Person-Nominal 847 849	笔者
+R21	Social Arg1:T75 Arg2:T76	
+T77	Person-Pronoun 851 852	他
+*	Coreference T75 T77
+T78	Thing-Nominal 863 865	作品
+T79	Person-Pronoun 872 873	他
+T80	Thing-Nominal 876 879	红土地
+T81	Person-Nominal 880 885	直接受益者
+*	Coreference T79 T81
+T82	Person-Pronoun 886 887	他
+T83	Person-Pronoun 893 894	我
+T84	Person-Nominal 907 914	红色金矿开采工
+T85	Thing-Nominal 909 911	金矿
+T86	Person-Name 923 926	宋元昊
+T87	Person-Pronoun 935 936	他
+*	Coreference T87 T86 T82 T83 T84
+T88	Person-Pronoun 941 942	他
+T89	Person-Pronoun 950 951	他
+T90	Time-Explicit 962 967	1971年
+T91	Time-Implicit 968 970	那时
+*	Coreference T91 T90
+T92	Person-Pronoun 971 972	他
+T93	Thing-Nominal 976 978;979 982	草绿 色军装
+R22	Ownership Arg1:T92 Arg2:T93	
+T94	Thing-Nominal 985 987	谷箩
+T95	Thing-Nominal 993 995	米箩
+T96	Person-Pronoun 998 999	他
+T97	Time-Implicit 1013 1016	站岗时
+T98	Person-Pronoun 1017 1018	他
+T99	Thing-Nominal 1025 1027	画卷
+T100	Location-Name 1037 1039;1040 1042	福州 军区
+T101	Abstract 633 637	中国文艺
+T102	Abstract 640 644	北京文学
+T103	Abstract 647 651	中国工人
+T104	Abstract 654 658	人民日报
+T105	Abstract 659 663	农民日报
+T106	Abstract 664 668	光明日报
+T107	Abstract 669 673	经济日报
+T108	Abstract 681 685	江西日报
+T109	Abstract 686 690	赣南日报
+T110	Abstract 691 695	文化时报
+T111	Abstract 696 700	光华时报
+T112	Abstract 701 705	上海侨报
+T113	Abstract 707 711	党史文汇
+T114	Abstract 715 719	广州文艺
+T115	Abstract 722 727	章回小说》
+T116	Abstract 1043 1046	前线报
+T117	Abstract 1052 1055	前线报
+T118	Person-Pronoun 1069 1070	他
+T119	Time-Explicit 1077 1081	四十年了
+T120	Person-Pronoun 1082 1083	他
+T121	Person-Pronoun 1095 1096	他
+T122	Location-Name 1110 1112	赣江
+T123	Thing-Nominal 1118 1119	云
+T124	Thing-Nominal 1126 1127	画
+T125	Thing-Nominal 1130 1132	画卷
+T126	Person-Name 1140 1143	宋元昊
+T127	Thing-Nominal 1112 1113	水
+T128	Thing-Nominal 1117 1118	天
+R23	Located Arg1:T123 Arg2:T128	
+R24	Located Arg1:T127 Arg2:T122	
+T129	Time-Implicit 1158 1160	当年
+T130	Thing-Nominal 1164 1165	龙
+T131	Thing-Nominal 1166 1167	虎
+T132	Person-Nominal 1174 1179	最可爱的人
+*	Coreference T126 T132
+T133	Person-Nominal 1194 1195	人
+T134	Person-Nominal 1198 1199	人
+T135	Time-Implicit 1201 1205	打那以后
+T136	Person-Name 1206 1209	宋元昊
+T137	Person-Pronoun 1218 1219	他
+*	Coreference T137 T136 T138
+T138	Person-Nominal 1230 1232	自己
+T139	Location-Nominal 1234 1236	家乡
+T140	Location-Nominal 1238 1241	红土地
+*	Coreference T139 T140
+T141	Person-Name 1252 1255	宋元昊
+T142	Time-Explicit 1272 1280	1996年10月
+T143	Organization-Name 1281 1283	中国
+T144	Person-Nominal 1283 1286	残疾人
+T145	Organization-Name 1281 1291	中国残疾人长征义演团
+T146	Location-Name 1293 1295	瑞金
+T147	Location-Name 1299 1301	瑞金
+T148	Person-Name 1310 1313	宋元昊
+T149	Person-Pronoun 1317 1318	他
+T150	Person-Nominal 1321 1329	残疾人表演艺术家
+*	Coreference T149 T148
+R25	Social Arg1:T149 Arg2:T150	
+R26	Ownership Arg1:T150 Arg2:T145	
+T151	Organization-Nominal 1343 1348	长征义演团
+*	Coreference T151 T145
+T152	Person-Nominal 1353 1355	记者
+T153	Person-Nominal 1360 1366	县广播站站长
+T154	Person-Name 1367 1370	宋元昊
+*	Coreference T154 T153 T155 T152
+T155	Person-Pronoun 1390 1391	他
+T156	Organization-Nominal 1394 1397	义演团
+T157	Person-Pronoun 1413 1414	他
+T158	Organization-Name 1426 1434	中央人民广播电台
+T159	Location-Name 1437 1439	湖南
+T160	Thing-Nominal 1444 1446	报纸
+T161	Location-Name 1463 1465	瑞金
+T162	Organization-Nominal 1471 1474	中央台
+*	Coreference T162 T158
+T163	Person-Name 1479 1482	宋元昊
+T164	Metric 1496 1500	几个夜晚
+T165	Person-Pronoun 1501 1502	他
+T166	Person-Name 1510 1513	宋元昊
+T167	Person-Pronoun 1527 1528	他
+T168	Time-Explicit 1533 1538	1999年
+T169	Person-Pronoun 1539 1540	他
+T170	Person-Nominal 1543 1559	香港《大公报》深圳办事处资深记者
+*	Coreference T169 T170
+T171	Location-Name 1543 1545	香港
+T172	Location-Name 1550 1552	深圳
+T173	Organization-Name 1543 1555	香港《大公报》深圳办事处
+R27	Ownership Arg1:T169 Arg2:T173	
+T174	Time-Implicit 1562 1564	每天
+T175	Thing-Nominal 1567 1569	蜜蜂
+T176	Thing-Nominal 1571 1572	花
+T177	Person-Pronoun 1581 1582	他
+T178	Location-Nominal 1586 1587	缝
+T179	Thing-Nominal 1588 1589	针
+R28	Located Arg1:T179 Arg2:T178	
+T180	Person-Nominal 1608 1611	同事们
+R29	Social Arg1:T177 Arg2:T180	
+T181	Person-Pronoun 1623 1624	他
+T182	Thing-Nominal 1638 1639	书
+T183	Person-Nominal 1644 1646	自己
+*	Coreference T181 T183
+T184	Person-Pronoun 1657 1658	他
+T185	Person-Pronoun 1660 1661	他
+T186	Person-Pronoun 1662 1663	他
+T187	Location-Nominal 1666 1669	红土地
+T188	Time-Explicit 1676 1683	2003年初夏
+T189	Person-Pronoun 1684 1685	他
+T190	Person-Nominal 1687 1689	自己
+*	Coreference T189 T190
+T191	Metric 1701 1705	六、七天
+T192	Abstract 1731 1735	中国文艺
+T193	Metric 1749 1752	几十年
+T194	Person-Name 1754 1757	宋元昊
+T195	Thing-Nominal 1765 1767	金矿
+T196	Thing-Nominal 1780 1781	山
+T197	Thing-Nominal 1722 1724	乡土
+T198	Thing-Nominal 1788 1789	山
+T199	Location-Nominal 1794 1797	红土地
+T200	Organization-Name 1819 1830	中华苏维埃临时中央政府
+T201	Time-Explicit 1819 1838	中华苏维埃临时中央政府成立七十周年之际
+T202	Person-Pronoun 1839 1840	他
+T203	Organization-Name 1849 1852	苏维埃
+T204	Person-Nominal 1862 1869	有位部门负责人
+T205	Person-Pronoun 1872 1873	他
+T206	Thing-Nominal 1849 1856	苏维埃迁都前夜
+R30	Create Arg1:T202 Arg2:T206	
+T207	Person-Pronoun 1878 1879	他
+R31	Social Arg1:T204 Arg2:T205	
+T208	Thing-Nominal 1874 1875	书
+R32	Create Arg1:T205 Arg2:T208	
+T209	Thing-Nominal 1888 1890	帽子
+T210	Person-Nominal 1913 1915	笔者
+T211	Person-Name 1921 1924	宋元昊
+R33	Social Arg1:T210 Arg2:T211	
+T212	Person-Pronoun 1929 1930	他
+T213	Person-Nominal 1952 1956	父母双亲
+R34	Social Arg1:T212 Arg2:T213	
+T214	Person-Nominal 1962 1964	长子
+T215	Person-Name 1965 1968	宋元昊
+*	Coreference T215 T214 T205 T202 T207 T211 T212 T216
+T216	Person-Pronoun 1988 1989	他
+T217	Location-Nominal 2010 2013	红土地
+T218	Thing-Nominal 2017 2019	候鸟
+T219	Thing-Nominal 2026 2027	巢
+R35	Located Arg1:T218 Arg2:T219	
+T220	Person-Name 2028 2031	宋元昊
+T221	Location-Nominal 2047 2050	栖息地
+T222	Person-Pronoun 2077 2078	他
+T223	Location-Nominal 2081 2083	大山
+T224	Metric 2084 2086	四年
+T225	Location-Nominal 2088 2090	田园
+T226	Person-Name 2093 2096	宋元昊
+T227	Person-Pronoun 2102 2103	他
+T228	Time-Explicit 2124 2131	2004年春天
+T229	Person-Name 2132 2135	宋元昊
+T230	Location-Name 2149 2159	瑞金市云石山乡沿坝村
+T231	Metric 2161 2163	千亩
+T232	Location-Nominal 2163 2165	山地
+R36	Part-Whole Arg1:T232 Arg2:T230	
+T233	Person-Pronoun 2169 2170	他
+*	Coreference T233 T229
+T234	Organization-Nominal 2171 2172	家
+T235	Location-Nominal 2174 2176	山里
+T236	Thing-Nominal 2178 2179	营
+T237	Thing-Nominal 2180 2181	寨
+T238	Thing-Nominal 2208 2209	菊
+T239	Location-Nominal 2209 2212	东篱下
+R37	Located Arg1:T238 Arg2:T239	
+T240	Person-Name 2214 2217	陶渊明
+T241	Thing-Nominal 2235 2237	青灯
+T242	Person-Pronoun 2262 2263	他
+T243	Person-Nominal 2288 2289	人
+T244	Person-Pronoun 2301 2302	他
+T245	Location-Nominal 2303 2304	山
+T246	Thing-Nominal 2305 2306	树
+R38	Located Arg1:T246 Arg2:T245	
+R39	Ownership Arg1:T244 Arg2:T246	
+T247	Location-Nominal 2309 2310	田
+T248	Thing-Nominal 2311 2312	菜
+R40	Located Arg1:T248 Arg2:T247	
+R41	Ownership Arg1:T244 Arg2:T248	
+T249	Thing-Nominal 2315 2316	鸡
+T250	Thing-Nominal 2316 2317	鸭
+T251	Thing-Nominal 2320 2321	狗
+T252	Thing-Nominal 2321 2322	猫
+R42	Ownership Arg1:T244 Arg2:T252	
+R43	Ownership Arg1:T244 Arg2:T251	
+R44	Ownership Arg1:T244 Arg2:T250	
+R45	Ownership Arg1:T244 Arg2:T249	
+T253	Thing-Nominal 2324 2326	鸟儿
+T254	Thing-Nominal 2327 2328	翅
+R46	Part-Whole Arg1:T253 Arg2:T254	
+T255	Thing-Nominal 2332 2334	蝉儿
+T256	Person-Pronoun 2339 2340	他
+T257	Thing-Nominal 2361 2362	山
+T258	Thing-Nominal 2363 2364	水
+T259	Thing-Nominal 2366 2367	茶
+T260	Thing-Nominal 2367 2368	酒
+T261	Location-Nominal 2359 2361	地头
+T262	Location-Nominal 2371 2372	园
+T263	Metric 2382 2385	四年多
+T264	Person-Pronoun 2387 2388	他
+T265	Thing-Nominal 2400 2402	翅膀
+T266	Location-Nominal 2408 2410	大山
+T267	Person-Pronoun 2433 2434	他
+T268	Thing-Nominal 2450 2454	惊梦红土
+R47	Create Arg1:T267 Arg2:T268	
+T269	Organization-Name 2459 2468	大众文艺出版社出版
+T270	Organization-Name 2470 2473	作家报
+T271	Person-Name 2474 2477;2478 2481	总编辑 张富英
+R48	Ownership Arg1:T271 Arg2:T270	
+R49	Social Arg1:T267 Arg2:T271	
+T272	Abstract 2507 2510	作家报
+T273	Abstract 2513 2517	赣州晚报
+T274	Time-Implicit 2576 2578	最近
+T275	Person-Name 2579 2582	宋元昊
+T276	Organization-Name 2601 2603	中国
+T277	Person-Name 2631 2634	宋元昊
+T278	Thing-Nominal 2637 2639	钢笔
+R50	Ownership Arg1:T277 Arg2:T278	
+T279	Thing-Nominal 2634 2635	手
+R51	Part-Whole Arg1:T279 Arg2:T277	
+R52	Located Arg1:T278 Arg2:T279	
+T280	Person-Pronoun 2641 2642	他
+*	Coreference T280 T277
+T281	Person-Pronoun 2660 2661	他
+T282	Thing-Nominal 2669 2671	大海
+T283	Thing-Nominal 2674 2675	金
+R53	Located Arg1:T283 Arg2:T282	
+T284	Person-Pronoun 2677 2678	我
+*	Coreference T281 T284 T288 T290
+T285	Thing-Nominal 2684 2687	烂笔头
+R54	Ownership Arg1:T284 Arg2:T285	
+T286	Thing-Nominal 2680 2681	手
+R55	Part-Whole Arg1:T286 Arg2:T284	
+R56	Located Arg1:T285 Arg2:T286	
+T287	Thing-Nominal 2711 2714	金元宝
+T288	Person-Pronoun 2717 2718	我
+T289	Time-Implicit 2727 2729	今后
+T290	Person-Pronoun 2733 2734	他
+T291	Person-Pronoun 2735 2736	他
+T292	Location-Nominal 2781 2784	红土地
+T293	Thing-Nominal 2789 2791	夕阳
+T294	Thing-Nominal 2792 2793	金
+T295	Person-Name 2794 2797	宋元昊
+*	Coreference T291 T295 T296
+T296	Person-Nominal 2799 2801	自己
+T297	Time-Implicit 2801 2803	往后
+T298	Location-Name 2815 2821	烂笔头”文苑
+T299	Person-Pronoun 2847 2848	我
+T300	Person-Pronoun 2852 2853	我
+T301	Person-Pronoun 2859 2860	我
+T302	Person-Pronoun 2861 2862	我
+T303	Location-Nominal 2864 2866	南方
+T304	Thing-Nominal 2869 2872	樟树苗
+R57	Located Arg1:T304 Arg2:T303	
+T305	Thing-Nominal 2875 2876	根
+R58	Part-Whole Arg1:T305 Arg2:T304	
+T306	Location-Nominal 2883 2886	红土地
+R59	Located Arg1:T305 Arg2:T306	
+T307	Person-Name 2905 2908	宋元昊
+T308	Thing-Nominal 2915 2917	天路
+T309	Thing-Nominal 2890 2891	路

@@ -1,0 +1,179 @@
+T1	Person-Nominal 182 184	男女
+T2	Person-Nominal 1744 1746	男人
+T3	Person-Nominal 1750 1752	女人
+T4	Person-Nominal 1753 1755	女人
+T5	Person-Nominal 1759 1761	男人
+T6	Person-Nominal 1772 1774	女人
+T7	Person-Nominal 1777 1779	男人
+T8	Thing-Nominal 1775 1776	风
+T9	Thing-Nominal 1780 1781	火
+T10	Thing-Nominal 1788 1789	风
+T11	Thing-Nominal 1790 1791	火
+T12	Thing-Nominal 1782 1783	火
+T13	Thing-Nominal 1784 1785	风
+T14	Person-Pronoun 1385 1386	我
+T15	Person-Nominal 1391 1393	女人
+T16	Person-Nominal 1398 1400	男人
+T17	Thing-Nominal 1407 1415	尚未看完的电视机
+T18	Thing-Nominal 1420 1421	床
+T19	Person-Nominal 132 136	风流人物
+T21	Person-Nominal 77 81	须眉豪杰
+T22	Person-Name 91 95	西汉吕雉
+T23	Person-Name 86 90	战国无盐
+T24	Person-Name 96 99	周唐武
+T25	Person-Nominal 114 118	现代女性
+T26	Thing-Nominal 6 7	猿
+T27	Person-Nominal 5 6	人
+T28	Person-Nominal 15 16	男
+T29	Person-Nominal 17 18	女
+T30	Thing-Nominal 32 34	睡狮
+T31	Person-Nominal 52 57	东方之女性
+T20	Person-Nominal 58 60;61 68	光耀 青史之巾帼英雄
+R1	Part-Whole Arg1:T23 Arg2:T20	
+R2	Part-Whole Arg1:T22 Arg2:T20	
+R3	Part-Whole Arg1:T24 Arg2:T20	
+R4	Part-Whole Arg1:T25 Arg2:T19	
+T32	Person-Name 208 210	木兰
+T33	Person-Nominal 242 244	主者
+T34	Person-Nominal 247 249	从者
+T35	Person-Name 254 259	毕达哥拉斯
+T36	Abstract 254 264	毕达哥拉斯黄金分割率
+T37	Person-Nominal 285 287	女人
+T38	Person-Nominal 289 291	男人
+T39	Person-Nominal 323 325	男人
+T40	Person-Nominal 329 333	舞台老生
+T41	Location-Name 340 342	尧舜
+T42	Person-Nominal 369 371	女人
+T43	Person-Nominal 381 382	男
+T44	Person-Nominal 422 424	夫妻
+T45	Person-Nominal 484 486	男人
+T46	Person-Nominal 490 492	女人
+T47	Person-Nominal 498 500	女人
+T48	Thing-Nominal 484 488	男人之目
+T49	Thing-Nominal 498 502	女人之目
+T50	Thing-Nominal 503 505	妆奁
+T51	Person-Nominal 513 515	男人
+T52	Person-Nominal 532 534	男人
+T53	Person-Nominal 551 553	主人
+T54	Thing-Nominal 558 560	白眼
+T55	Thing-Nominal 570 571	床
+T56	Person-Nominal 605 609	堂堂男子
+T57	Thing-Nominal 673 675	两眼
+T58	Person-Nominal 680 682	男人
+T59	Person-Nominal 697 699	女人
+T60	Person-Nominal 703 705	女人
+T61	Person-Nominal 720 722	男人
+T62	Person-Nominal 729 731	女人
+T63	Person-Nominal 737 739	男人
+T64	Thing-Nominal 729 733	女人之腹
+T65	Person-Nominal 767 769	客人
+T66	Thing-Nominal 787 788	水
+T68	Person-Nominal 798 800	男人
+T69	Person-Nominal 812 814	妻子
+T70	Location-Nominal 831 833	厨房
+T71	Person-Nominal 834 836	女人
+T72	Person-Nominal 842 843	客
+T73	Person-Nominal 846 848	客人
+T74	Person-Nominal 853 855	女人
+T75	Person-Nominal 863 865	男人
+T76	Thing-Nominal 872 874	茶几
+T67	Person-Nominal 790 792	女人
+R5	Social Arg1:T65 Arg2:T67	
+R6	Family Arg1:T67 Arg2:T68	
+R7	Social Arg1:T68 Arg2:T65	
+T77	Person-Pronoun 890 891	您
+T78	Person-Nominal 905 907	客人
+T79	Person-Nominal 950 952	女人
+T80	Person-Nominal 958 960	我公
+T81	Person-Nominal 916 918	男人
+R8	Social Arg1:T78 Arg2:T81	
+T82	Person-Nominal 924 926	女人
+T83	Person-Nominal 937 938;939 940	客 人
+T84	Person-Nominal 966 968	客人
+T85	Person-Pronoun 993 994	我
+T86	Person-Pronoun 997 998	你
+T87	Person-Pronoun 1017 1018	你
+T88	Person-Pronoun 1029 1030	我
+T89	Person-Nominal 1036 1038	男人
+T90	Person-Nominal 1044 1046	女人
+T91	Person-Nominal 1067 1069	女人
+T92	Thing-Nominal 1108 1109	火
+T93	Thing-Nominal 1106 1107	柴
+T94	Thing-Nominal 1099 1101	炉火
+T95	Person-Nominal 1111 1113	男人
+T96	Person-Nominal 1117 1118	侣
+T97	Person-Nominal 1134 1137	前行者
+T98	Person-Nominal 1138 1140	领导
+T99	Person-Nominal 1141 1144	后随者
+T100	Person-Nominal 1145 1147	属下
+T101	Person-Nominal 1153 1155	夫妻
+T103	Person-Nominal 1175 1176;1177 1178	妻 子
+T102	Person-Nominal 1165 1167	男人
+R9	Family Arg1:T103 Arg2:T102	
+T104	Person-Pronoun 1184 1185	你
+T105	Person-Nominal 1463 1465	男人
+T106	Person-Pronoun 1476 1477	你
+T107	Person-Nominal 1220 1222	女人
+T108	Person-Nominal 1319 1321	女人
+T109	Person-Nominal 1322 1324	女人
+T110	Thing-Nominal 1322 1326	女人皮包
+T111	Thing-Nominal 1327 1331	金钱脂膏
+R10	Located Arg1:T111 Arg2:T110	
+T112	Thing-Nominal 1332 1336	男人皮包
+T113	Person-Nominal 1332 1334	男人
+T114	Thing-Nominal 1337 1342	名片剃须刀
+R11	Located Arg1:T114 Arg2:T112	
+T115	Person-Nominal 1353 1355	男人
+T116	Person-Nominal 1361 1363	男人
+T117	Person-Nominal 1376 1378	女人
+T118	Person-Nominal 1196 1198	男人
+T119	Person-Nominal 1205 1207	仆人
+T120	Person-Nominal 1208 1210	妻子
+T121	Thing-Nominal 1208 1212	妻子脚印
+T122	Person-Nominal 1267 1269	女人
+T123	Thing-Nominal 1232 1237;1238 1239	纤细柔嫩之 手
+R12	Part-Whole Arg1:T123 Arg2:T107	
+T124	Person-Nominal 1282 1284	男人
+T125	Person-Nominal 1272 1274	男人
+R13	Family Arg1:T15 Arg2:T16	
+T126	Person-Nominal 1620 1622	女人
+T127	Thing-Nominal 1443 1445	被窝
+T128	Person-Nominal 1489 1491	男人
+T129	Person-Nominal 1504 1506	女人
+T130	Person-Nominal 1518 1520	男人
+T131	Person-Nominal 1539 1540	男
+T132	Person-Nominal 1546 1547	女
+T133	Person-Nominal 1580 1582	男人
+T134	Person-Nominal 1574 1579	播撒快乐者
+*	Coreference T134 T133
+T135	Person-Nominal 1584 1589	享受快乐者
+T136	Person-Nominal 1590 1592	女人
+*	Coreference T136 T135
+T137	Person-Nominal 1593 1595	男人
+T138	Thing-Nominal 1596 1602	女人的手中桨
+T139	Person-Nominal 1603 1605	女人
+T140	Thing-Nominal 1606 1611	男人心中船
+T141	Person-Nominal 1624 1628	帐中帅座
+*	Coreference T141 T126
+T142	Person-Nominal 1636 1638	男人
+T143	Person-Nominal 1645 1647	男人
+T144	Person-Nominal 1652 1654	女人
+T145	Person-Nominal 1663 1665	英雄
+T146	Person-Nominal 1669 1672	贤内助
+*	Coreference T146 T144
+*	Coreference T145 T143
+T147	Person-Nominal 1715 1720	田下出力者
+T148	Person-Name 1711 1713	仓颉
+T149	Person-Nominal 1721 1722	男
+T150	Person-Nominal 1729 1734	田下之力者
+T151	Person-Nominal 1738 1739	男
+T152	Person-Nominal 460 462	女人
+T153	Person-Nominal 472 474	男人
+T154	Thing-Nominal 647 649	舌底
+R14	Part-Whole Arg1:T57 Arg2:T56	
+R15	Family Arg1:T153 Arg2:T152	
+R16	Social Arg1:T72 Arg2:T71	
+R17	Social Arg1:T82 Arg2:T83	
+*	Coreference T80 T81
+*	Coreference T98 T97
+*	Coreference T100 T99

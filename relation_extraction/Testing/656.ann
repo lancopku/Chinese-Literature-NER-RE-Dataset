@@ -1,0 +1,245 @@
+T1	Person-Pronoun 0 1	你
+T2	Person-Nominal 1 3	女神
+T3	Person-Pronoun 7 8	我
+T4	Location-Nominal 7 11	我的世界
+R1	Ownership Arg1:T3 Arg2:T4	
+R2	Social Arg1:T1 Arg2:T3	
+T5	Person-Pronoun 12 18	一向孤单的我
+*	Coreference T5 T3
+T6	Location-Nominal 35 39	一个地方
+T7	Person-Pronoun 45 46	你
+T8	Person-Pronoun 77 78	我
+T9	Person-Pronoun 82 83	我
+T10	Person-Pronoun 120 121	你
+T11	Person-Pronoun 133 134	你
+T12	Person-Nominal 149 151	小孩
+T13	Person-Pronoun 152 154	我们
+T14	Person-Nominal 158 160	小孩
+T15	Thing-Nominal 194 196	落叶
+T16	Thing-Nominal 199 201	枝头
+T17	Thing-Pronoun 212 213	它
+*	Coreference T17 T15
+T18	Metric 213 215	一年
+T19	Thing-Nominal 222 223	风
+T20	Thing-Nominal 224 226	地球
+T21	Thing-Nominal 237 239	城市
+T22	Thing-Nominal 245 249	我的眼睛
+T23	Person-Pronoun 245 246	我
+R3	Part-Whole Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 250 251	山
+T25	Thing-Nominal 256 258	天空
+T26	Thing-Nominal 273 278	人们的眼球
+T27	Person-Nominal 273 275	人们
+R4	Part-Whole Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 279 284	袅袅的炊烟
+T29	Location-Nominal 286 288	家乡
+T30	Thing-Nominal 301 306	蜿蜒的小路
+T31	Location-Nominal 295 297	家乡
+R5	Located Arg1:T30 Arg2:T31	
+T32	Thing-Nominal 309 314	枯黄的野草
+T33	Person-Nominal 326 328	画家
+T34	Thing-Nominal 326 333	画家手中的画笔
+R6	Use Arg1:T33 Arg2:T34	
+T35	Time-Implicit 318 320	秋天
+T36	Person-Pronoun 338 339	我
+T37	Person-Pronoun 343 344	我
+T38	Time-Implicit 338 343	我长大以后
+T39	Location-Nominal 348 350	世界
+T40	Time-Implicit 364 371	加入竞争的时候
+T41	Person-Nominal 408 411	男子汉
+T42	Location-Nominal 420 424	物质世界
+T43	Location-Nominal 425 429	精神世界
+T44	Person-Pronoun 441 442	你
+T45	Person-Pronoun 450 451	我
+T46	Person-Pronoun 461 462	我
+T47	Person-Pronoun 473 474	我
+T48	Person-Nominal 473 480	我生命里的天使
+T49	Person-Pronoun 487 488	你
+*	Coreference T48 T49
+T50	Person-Pronoun 492 493	我
+T51	Person-Pronoun 499 500	你
+T52	Location-Nominal 502 507	这样的世界
+T53	Person-Pronoun 509 510	我
+T54	Person-Pronoun 521 522	你
+T55	Person-Pronoun 525 526	我
+T56	Person-Pronoun 550 551	我
+T57	Person-Pronoun 553 554	你
+T58	Person-Pronoun 574 575	你
+T59	Person-Nominal 583 587	想飞的人
+T60	Person-Pronoun 595 596	她
+*	Coreference T60 T59
+T61	Person-Pronoun 602 606	远方的你
+*	Coreference T61 T58
+T62	Person-Pronoun 611 612	我
+T63	Person-Pronoun 626 627	我
+T64	Person-Pronoun 631 632	我
+T65	Thing-Nominal 634 636	帷幕
+T66	Person-Pronoun 648 649	你
+T67	Person-Pronoun 653 654	我
+T68	Person-Pronoun 658 659	你
+T69	Person-Pronoun 677 678	你
+T70	Person-Pronoun 696 697	你
+T71	Person-Pronoun 700 701	你
+T72	Person-Pronoun 713 714	你
+T73	Person-Pronoun 725 726	你
+T74	Time-Implicit 733 735	来世
+T75	Person-Pronoun 743 744	我
+T76	Person-Pronoun 745 746	你
+T77	Person-Pronoun 753 754	我
+T78	Person-Nominal 773 778	心中的英雄
+T79	Person-Pronoun 779 780	你
+T80	Person-Pronoun 785 786	你
+T81	Person-Pronoun 786 787	我
+T82	Thing-Nominal 788 790	双手
+T83	Person-Pronoun 802 803	你
+T84	Time-Implicit 810 813	每一刻
+T85	Location-Nominal 819 820;821 822	天 堂
+T86	Thing-Nominal 825 830	温柔的双手
+T87	Person-Pronoun 844 845	你
+R7	Part-Whole Arg1:T86 Arg2:T87	
+T88	Location-Nominal 832 834	祖国
+T89	Location-Nominal 832 837	祖国的天空
+T90	Thing-Nominal 851 856	身体和灵魂
+T91	Person-Pronoun 864 865	你
+T92	Person-Pronoun 867 868	我
+R8	Part-Whole Arg1:T90 Arg2:T92	
+T93	Person-Pronoun 873 874	你
+T94	Person-Nominal 896 898	路人
+T95	Person-Pronoun 900 901	我
+T96	Person-Pronoun 904 905	你
+T97	Thing-Nominal 933 938	星辰的光辉
+T98	Thing-Nominal 933 935	星辰
+T99	Thing-Nominal 944 946	浓雾
+T100	Person-Pronoun 963 964	你
+T101	Thing-Nominal 978 988	有爱就能穿越过的阻碍
+T102	Person-Pronoun 989 991	我们
+T103	Person-Pronoun 995 996	你
+T104	Person-Pronoun 1014 1015	我
+T105	Person-Pronoun 1016 1017	你
+T106	Person-Pronoun 1036 1037	我
+T107	Thing-Nominal 1042 1044	月亮
+T108	Thing-Nominal 1045 1048	你的脸
+R9	Part-Whole Arg1:T108 Arg2:T105	
+T109	Location-Nominal 1062 1064	世界
+T110	Person-Nominal 1075 1076	人
+T111	Person-Pronoun 1079 1081	我们
+T112	Person-Pronoun 1088 1089	你
+T113	Person-Pronoun 1090 1091	你
+T114	Person-Pronoun 1093 1094	你
+T115	Person-Pronoun 1095 1096	我
+T116	Person-Pronoun 1103 1104	你
+T117	Person-Pronoun 1122 1123	我
+T118	Thing-Nominal 1127 1129	浪花
+T119	Person-Pronoun 1143 1144	我
+T120	Person-Pronoun 1145 1146	我
+T121	Thing-Nominal 1157 1164	一双有力的双臂
+R10	Part-Whole Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 1177 1182	勤快的双腿
+R11	Part-Whole Arg1:T122 Arg2:T120	
+T123	Thing-Nominal 1187 1191	千山万水
+T124	Thing-Nominal 1192 1197	跳动的脉搏
+R12	Part-Whole Arg1:T124 Arg2:T120	
+T125	Thing-Nominal 1206 1208	胸膛
+R13	Part-Whole Arg1:T125 Arg2:T120	
+T126	Time-Implicit 1215 1220	寒冷的冬天
+T127	Person-Pronoun 1224 1225	你
+T128	Person-Pronoun 1240 1241	你
+T129	Person-Pronoun 1246 1247	你
+T130	Person-Pronoun 1248 1249	我
+T131	Location-Nominal 1274 1279	梦中的彼岸
+T132	Location-Nominal 1287 1293	去不了的地方
+T133	Person-Pronoun 1299 1300	我
+T134	Thing-Nominal 1315 1323	古老的城池和高楼
+T135	Person-Pronoun 1324 1325	我
+T136	Person-Pronoun 1340 1342	我们
+T137	Person-Pronoun 1349 1350	我
+T138	Person-Pronoun 1360 1361	你
+T139	Person-Pronoun 1370 1371	我
+T140	Person-Pronoun 1377 1378	我
+T141	Person-Pronoun 1380 1381	你
+T142	Person-Pronoun 1393 1394	你
+T143	Thing-Nominal 1414 1418	我的身影
+T144	Person-Pronoun 1414 1415	我
+R14	Ownership Arg1:T144 Arg2:T143	
+T145	Person-Pronoun 1419 1420	你
+T146	Person-Nominal 1432 1435	年轻人
+T147	Person-Nominal 1466 1467	人
+T148	Person-Pronoun 1495 1497	自己
+*	Coreference T148 T144
+T149	Person-Nominal 1519 1520	人
+T150	Person-Nominal 1531 1532	人
+T151	Person-Pronoun 1538 1539	我
+T152	Person-Pronoun 1545 1546	你
+T153	Thing-Nominal 1546 1547;1548 1552	仍 炽热的心
+R15	Ownership Arg1:T152 Arg2:T153	
+T154	Person-Pronoun 1553 1554	我
+T155	Person-Pronoun 1560 1561	你
+T156	Person-Nominal 1566 1572	有过经历的人
+T157	Person-Nominal 1581 1582	人
+T158	Person-Pronoun 1595 1597	我们
+T159	Thing-Nominal 1609 1614	宽阔的肩膀
+R16	Use Arg1:T154 Arg2:T159	
+R17	Part-Whole Arg1:T159 Arg2:T154	
+T160	Person-Pronoun 1622 1623	你
+T161	Person-Pronoun 1636 1637	我
+T162	Person-Pronoun 1642 1643	你
+T163	Person-Pronoun 1660 1661	我
+T164	Person-Pronoun 1664 1665	你
+T165	Person-Pronoun 1675 1676	你
+T166	Person-Pronoun 1692 1693	我
+T167	Person-Pronoun 1699 1700	我
+T168	Person-Pronoun 1704 1705	你
+T169	Person-Pronoun 1677 1678	我
+T170	Person-Pronoun 1708 1709	你
+T171	Person-Pronoun 1726 1727	你
+T172	Person-Pronoun 1732 1733	我
+T173	Person-Pronoun 1741 1742	你
+T174	Person-Pronoun 1753 1754	我
+T175	Person-Pronoun 1761 1762	你
+T176	Person-Pronoun 1763 1764	我
+T177	Time-Implicit 1775 1777	春天
+T178	Person-Pronoun 1783 1784	我
+T179	Thing-Nominal 1788 1793	美丽的鲜花
+R18	Use Arg1:T178 Arg2:T179	
+T180	Person-Pronoun 1802 1803	我
+T181	Person-Pronoun 1807 1808	你
+T182	Person-Nominal 1811 1812	人
+T183	Person-Pronoun 1818 1819	你
+T184	Thing-Nominal 1819 1824	温柔的眼睛
+R19	Part-Whole Arg1:T184 Arg2:T183	
+T185	Person-Pronoun 1834 1835	我
+T186	Metric 1836 1841	整夜的时间
+T187	Person-Pronoun 1843 1844	你
+T188	Time-Implicit 1846 1847	夜
+T189	Thing-Nominal 1850 1855	最后一缕光
+T190	Thing-Nominal 1856 1858	灯光
+T191	Location-Nominal 1861 1865	各个角落
+R20	Located Arg1:T190 Arg2:T191	
+T192	Person-Nominal 1866 1869	恋人们
+T193	Location-Nominal 1871 1876	大街和河绊
+T194	Thing-Nominal 1889 1891	光明
+T195	Thing-Nominal 1896 1898	黑暗
+T196	Person-Pronoun 1901 1902	我
+T197	Person-Pronoun 1907 1908	你
+T198	Thing-Nominal 1909 1914	晶莹的双眸
+R21	Part-Whole Arg1:T198 Arg2:T197	
+T199	Person-Pronoun 1917 1918	你
+T200	Person-Pronoun 1919 1920	我
+T201	Person-Pronoun 1926 1927	你
+T202	Person-Pronoun 1938 1939	我
+T203	Person-Nominal 1950 1951	你
+T204	Person-Pronoun 1960 1961	你
+T205	Location-Nominal 1964 1967;1968 1970	世界的 尽头
+T206	Person-Pronoun 1981 1982	我
+T207	Person-Pronoun 1984 1985	你
+T208	Time-Implicit 1992 1997	无数个夜晚
+T209	Person-Pronoun 1997 1998	我
+T210	Thing-Nominal 2001 2005	你的容颜
+T211	Person-Pronoun 2001 2002	你
+R22	Part-Whole Arg1:T210 Arg2:T211	
+T212	Thing-Nominal 2031 2033	舞台
+T213	Thing-Nominal 2038 2040	凤凰
+T214	Thing-Nominal 2041 2043	烈火
+R23	Located Arg1:T213 Arg2:T214	
+T215	Person-Pronoun 2065 2066	你
+T216	Time-Implicit 2067 2071	来生来世

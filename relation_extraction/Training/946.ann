@@ -1,0 +1,191 @@
+T1	Person-Nominal 0 3	一个人
+T2	Person-Pronoun 23 24	他
+T3	Person-Nominal 24 28	所爱的人
+T4	Person-Nominal 29 33	尊敬的人
+T5	Person-Nominal 34 37	有些人
+T6	Person-Nominal 45 47	朋友
+T7	Person-Nominal 48 51	有些人
+T8	Person-Pronoun 69 70	我
+T9	Person-Name 71 74	范小青
+T10	Person-Nominal 74 76	老师
+R1	Part-Whole Arg1:T9 Arg2:T10	
+T11	Time-Explicit 88 99	早在1995年8月3日
+T12	Person-Pronoun 100 101	我
+T14	Abstract 129 148	《珍贵的信与十元钱――怀念秦兆阳老人》
+T13	Organization-Name 102 117	《文学报》第787期文学副刊上
+T15	Person-Pronoun 155 156	我
+T16	Time-Explicit 159 166	同年9月14日
+T17	Organization-Name 166 181	《文学报》第796期文学副刊上
+T18	Person-Name 185 188	范小青
+T19	Person-Nominal 188 190	老师
+R2	Part-Whole Arg1:T18 Arg2:T19	
+T20	Abstract 197 202	《买车票》
+T21	Metric 219 224	2000字
+T22	Person-Nominal 242 243	人
+T23	Location-Nominal 247 260	人声嘈杂，摩肩接踵的火车站
+T24	Person-Name 263 266	范老师
+T25	Thing-Nominal 268 270	车票
+T26	Time-Explicit 309 311	今天
+T27	Person-Pronoun 312 313	我
+T28	Person-Pronoun 320 321	我
+T29	Person-Name 322 325	范小青
+T30	Person-Nominal 325 327	老师
+R3	Part-Whole Arg1:T29 Arg2:T30	
+T31	Organization-Name 337 342	《文学报》
+T32	Person-Pronoun 377 378	我
+T33	Person-Name 379 384	范小青老师
+T34	Time-Implicit 412 414	那时
+T35	Person-Name 421 426	范小青老师
+T36	Person-Pronoun 432 433	她
+*	Coreference T36 T35
+T37	Person-Pronoun 440 441	我
+T38	Person-Pronoun 446 447	她
+T39	Person-Pronoun 451 452	我
+T40	Person-Pronoun 458 459	她
+T41	Location-Nominal 458 466	她的具体通讯地址
+T42	Time-Implicit 481 484	15年
+T43	Person-Pronoun 497 498	我
+T44	Person-Pronoun 509 510	我
+T45	Location-Name 511 522	南京江宁区的一个小镇上
+T46	Time-Implicit 525 529	10余年
+T47	Time-Implicit 533 538	2009年
+T48	Person-Pronoun 538 539	我
+T49	Location-Name 541 543	南京
+T50	Location-Nominal 549 551	家乡
+T51	Organization-Nominal 551 561	文联主办的一本刊物上
+T52	Person-Name 564 569	范小青老师
+T53	Organization-Name 573 580	江苏省作家协会
+T54	Person-Nominal 582 585	副主席
+*	Coreference T54 T52
+T55	Time-Implicit 586 590	年关逼近
+T56	Person-Pronoun 591 592	我
+T57	Organization-Name 593 609	江苏省作家协会第七届会员代表大会
+T58	Time-Implicit 593 613	江苏省作家协会第七届会员代表大会召开前夕
+T59	Person-Name 621 626	范小青老师
+T60	Organization-Nominal 629 630;631 635	省 作家协会
+T61	Person-Pronoun 637 638	她
+*	Coreference T61 T59
+T62	Person-Name 649 654	范小青老师
+T63	Person-Pronoun 658 659	我
+T64	Person-Pronoun 669 670	她
+*	Coreference T64 T62
+T65	Person-Pronoun 682 683	我
+T66	Person-Pronoun 702 703	她
+T67	Person-Pronoun 708 709	我
+T68	Location-Name 710 712	南京
+T69	Person-Pronoun 716 717	我
+T70	Time-Implicit 718 720	5天
+T71	Organization-Name 723 737	省作家协会第七届会员代表大会
+T72	Person-Pronoun 742 743	她
+T73	Location-Nominal 742 746	她办公室
+T74	Thing-Nominal 742 748	她办公室电话
+R4	Located Arg1:T74 Arg2:T73	
+T75	Person-Pronoun 749 750	她
+T76	Person-Pronoun 757 758	我
+T77	Location-Name 764 768	家乡江苏
+T78	Organization-Nominal 783 788	省作家协会
+T79	Person-Name 790 795	范小青老师
+T80	Time-Explicit 804 814	2010年的2月7日
+T81	Person-Pronoun 815 816	我
+T82	Location-Nominal 817 819	省城
+T83	Location-Nominal 823 825	家乡
+T84	Person-Nominal 834 840	一位南京文友
+T85	Location-Name 836 838	南京
+T86	Person-Pronoun 847 848	我
+T87	Person-Name 851 856	范小青老师
+T88	Organization-Name 857 874	江苏省作家协会第七届会员代表大会上
+T89	Person-Nominal 877 883;884 891	新一届的作协 主席兼党组书记
+*	Coreference T89 T87
+T91	Person-Pronoun 892 893	我
+T90	Person-Pronoun 900 901	她
+T92	Person-Pronoun 909 910	她
+T93	Person-Name 926 931	范小青老师
+T94	Thing-Nominal 937 943	一份新年贺卡
+T95	Time-Explicit 945 949	2月8日
+T96	Thing-Nominal 950 956	特快专递邮件
+T97	Location-Nominal 959 962	省作协
+T98	Person-Pronoun 969 970	我
+T99	Person-Pronoun 975 976	她
+*	Coreference T99 T93
+T100	Person-Nominal 978 986	新一届省作协主席
+T101	Organization-Nominal 1002 1005	省作协
+T102	Person-Nominal 1015 1019	一名会员
+T103	Person-Pronoun 1022 1023	我
+T104	Person-Name 1032 1037	范小青老师
+T105	Thing-Nominal 1047 1048	信
+T106	Person-Pronoun 1053 1054	我
+T107	Person-Name 1068 1073	范小青老师
+T108	Time-Explicit 1080 1085	2月21日
+T109	Time-Explicit 1086 1092	大年正月初八
+*	Coreference T109 T108
+T110	Thing-Nominal 1093 1098	温煦的春风
+T111	Person-Pronoun 1114 1115	我
+T112	Person-Pronoun 1155 1156	我
+T113	Person-Pronoun 1177 1178	我
+T114	Person-Name 1182 1187	范小青老师
+T115	Time-Explicit 1188 1207	新年后第一个上班工作日的上午10时左右
+T116	Person-Pronoun 1209 1210	她
+T117	Location-Nominal 1210 1218	省作协主席办公室
+T118	Person-Pronoun 1221 1222	我
+T119	Thing-Nominal 1221 1224	我手机
+R5	Part-Whole Arg1:T119 Arg2:T118	
+T120	Person-Pronoun 1225 1226	我
+T121	Person-Pronoun 1236 1237	她
+T122	Person-Pronoun 1238 1239	我
+T123	Person-Pronoun 1241 1242	她
+T124	Thing-Nominal 1242 1244	去信
+T125	Organization-Nominal 1248 1251	省作协
+T126	Person-Pronoun 1274 1275	她
+T127	Person-Pronoun 1277 1278	我
+T128	Organization-Nominal 1283 1286	省作协
+T129	Organization-Name 1300 1306	省作协联络部
+T130	Person-Pronoun 1308 1309	我
+T131	Person-Pronoun 1311 1312	她
+T132	Person-Nominal 1314 1322	上一届省作协主席
+T133	Person-Name 1322 1327	王臻中先生
+*	Coreference T133 T132
+T134	Time-Implicit 1329 1336	2005年1月
+T135	Person-Pronoun 1338 1339	我
+T136	Person-Pronoun 1343 1344	我
+T137	Organization-Nominal 1352 1355;1356 1358	南通市 作协
+T138	Location-Name 1352 1355	南通市
+T139	Organization-Nominal 1362 1366	南通作协
+T140	Organization-Nominal 1370 1376	省作协联络部
+T141	Person-Name 1377 1382	范小青老师
+T142	Person-Pronoun 1386 1387	我
+T143	Organization-Nominal 1402 1407	我们省作协
+T144	Person-Pronoun 1411 1412	你
+T145	Organization-Nominal 1413 1414	会
+T146	Person-Pronoun 1421 1422	你
+T147	Organization-Nominal 1421 1427	你当地的作协
+T148	Location-Nominal 1422 1424	当地
+T149	Person-Pronoun 1434 1435	你
+T150	Person-Pronoun 1439 1440	我
+T151	Person-Pronoun 1448 1449	她
+T152	Location-Nominal 1455 1457	家乡
+T153	Person-Pronoun 1462 1463	我
+T154	Location-Name 1466 1468	南京
+T155	Organization-Nominal 1471 1474	省作协
+T156	Person-Pronoun 1475 1476	她
+T157	Person-Pronoun 1491 1492	我
+T158	Person-Pronoun 1511 1512	我
+T159	Person-Pronoun 1530 1531	我
+T160	Person-Nominal 1548 1552	文学新人
+T161	Person-Nominal 1558 1564	一个著名作家
+T162	Person-Nominal 1578 1585	一个省作协主席
+T163	Person-Pronoun 1586 1587	她
+*	Coreference T163 T162
+T164	Person-Pronoun 1613 1614	我
+T165	Person-Nominal 1616 1630	一个籍籍无名的最基层业余作者
+T166	Person-Pronoun 1632 1633	我
+T167	Organization-Nominal 1636 1639	省作协
+T168	Person-Nominal 1649 1651	作家
+R6	Part-Whole Arg1:T166 Arg2:T168	
+T169	Person-Pronoun 1672 1673	我
+T170	Person-Pronoun 1688 1689	我
+T171	Organization-Nominal 1698 1701	省作协
+T172	Person-Name 1704 1709	范小青老师
+T173	Person-Pronoun 1711 1712	我
+T174	Person-Pronoun 1722 1723	我
+T175	Person-Pronoun 1747 1748	我
+T176	Person-Pronoun 1759 1760	我

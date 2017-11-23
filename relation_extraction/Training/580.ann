@@ -1,0 +1,321 @@
+T1	Time-Implicit 36 40	十几年前
+T2	Person-Pronoun 41 42	我
+T3	Location-Nominal 47 53	道兴紫覆之地
+T4	Location-Name 56 59	星德山
+T5	Time-Explicit 60 74	清嘉庆九年(公元1804年)
+T6	Person-Name 76 80	人钟合静
+T7	Location-Name 84 87	紫霄宫
+T8	Person-Name 95 102	翰林学士周昌国
+T9	Thing-Nominal 115 117	楹联
+T10	Location-Name 124 128	菖蒲境内
+T11	Thing-Nominal 135 139	湘北名山
+T12	Location-Nominal 141 143	海面
+T13	Metric 143 146	九百米
+T14	Location-Name 148 150	五雷
+T15	Location-Name 252 255	张家界
+T16	Location-Name 259 262	桃花源
+T17	Location-Name 245 248	天子山
+T18	Thing-Nominal 236 238	石门
+T19	Location-Name 230 232	慈利
+T20	Location-Name 224 226	桃源
+T21	Thing-Nominal 201 203	山谷
+T22	Thing-Nominal 214 216	峰岭
+T23	Person-Pronoun 268 269	我
+T24	Location-Name 289 291	常德
+T25	Location-Name 292 295	张家界
+T26	Thing-Nominal 295 299	高速公路
+T27	Location-Name 305 319	湘西七十二寨河第一寨的仙霞关
+T28	Location-Name 323 326	桃花源
+T29	Location-Name 327 328;329 331	武 陵源
+T30	Thing-Nominal 340 342	温泉
+T31	Location-Nominal 347 349	古镇
+T32	Thing-Name 352 358	1806省道
+T33	Location-Name 378 381	星德山
+T34	Time-Implicit 392 394	清晨
+T35	Person-Nominal 395 397	行人
+T36	Location-Name 399 402	菖蒲路
+T37	Location-Pronoun 404 405	此
+*	Coreference T37 T36
+T38	Thing-Nominal 407 409	箫鼓
+T39	Person-Name 413 417	贺龙元帅
+T40	Location-Name 429 433	菖蒲垭口
+T41	Thing-Nominal 442 446	乱石阶梯
+T42	Location-Name 449 452	星德山
+T43	Location-Name 438 441	鹿踏岭
+R1	Located Arg1:T41 Arg2:T43	
+T44	Metric 474 476	五里
+T45	Location-Nominal 480 482	茶垭
+T46	Location-Nominal 490 494	红岩壁顶
+T47	Thing-Nominal 495 497	杂树
+R2	Located Arg1:T47 Arg2:T46	
+T48	Location-Nominal 522 524	坡上
+T49	Thing-Nominal 532 534	杜仲
+R3	Located Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 542 544	青枝
+T51	Thing-Nominal 544 546	绿叶
+R4	Part-Whole Arg1:T50 Arg2:T49	
+R5	Part-Whole Arg1:T51 Arg2:T49	
+T52	Thing-Nominal 558 559	鸟
+T53	Thing-Nominal 579 581	鹧鸪
+T54	Thing-Name 595 598	金龟峰
+T55	Location-Nominal 615 618	山涧里
+T56	Person-Nominal 640 642	老僧
+T57	Person-Pronoun 644 645	我
+T58	Thing-Nominal 661 663	山路
+T59	Thing-Nominal 668 672	石板阶梯
+R6	Located Arg1:T59 Arg2:T58	
+T60	Location-Name 680 683	星德山
+T61	Person-Nominal 687 689	先辈
+T62	Thing-Nominal 704 706	碑碣
+T63	Thing-Nominal 725 727	青山
+T64	Thing-Nominal 732 734	绝壁
+T65	Location-Nominal 742 747	悬崖峭壁上
+T66	Thing-Nominal 755 758	映山红
+R7	Located Arg1:T66 Arg2:T65	
+T67	Thing-Pronoun 759 760	你
+*	Coreference T67 T66
+T68	Location-Name 761 764	星德山
+T69	Person-Nominal 772 774	山民
+T70	Thing-Nominal 809 811	石阶
+T71	Thing-Name 819 822	舍身崖
+T72	Location-Name 814 817	凌空谷
+R8	Located Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 827 829	崖嘴
+R9	Part-Whole Arg1:T73 Arg2:T71	
+T74	Thing-Nominal 829 831	断桥
+T75	Metric 839 841	四米
+T76	Thing-Nominal 863 864	罄
+T77	Thing-Nominal 866 867	泉
+T78	Thing-Nominal 868 869	鼓
+T79	Location-Nominal 873 875	古洞
+T80	Location-Name 910 912	昌德
+T81	Thing-Name 945 948	地仙峰
+T82	Location-Nominal 955 958	绝壁上
+T83	Thing-Nominal 969 971	芝菌
+R10	Located Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 989 991	幕布
+T85	Thing-Nominal 994 996	巨石
+T86	Thing-Nominal 1006 1010	石刻摩崖
+T87	Location-Nominal 1013 1017	雷殿峰顶
+T88	Thing-Nominal 1021 1024	迎客松
+R11	Located Arg1:T88 Arg2:T87	
+T89	Location-Nominal 1025 1028	断崖间
+T90	Thing-Nominal 1031 1033	老松
+R12	Located Arg1:T90 Arg2:T89	
+T91	Thing-Nominal 1055 1057	主干
+R13	Part-Whole Arg1:T91 Arg2:T88	
+T92	Thing-Nominal 1058 1060	折扇
+T93	Thing-Nominal 1063 1065	枝叶
+R14	Located Arg1:T93 Arg2:T91	
+T94	Location-Nominal 1071 1074	岩缝里
+T95	Thing-Pronoun 1096 1097	你
+T96	Location-Name 1104 1107	百子堂
+T97	Location-Name 1117 1120	百子堂
+T98	Location-Name 1163 1164;1165 1167	百 子堂
+T99	Person-Nominal 1168 1171	朝山者
+T100	Person-Nominal 1180 1184	求子之人
+T101	Location-Nominal 1187 1189	黑洞
+T102	Thing-Nominal 1194 1195	鞋
+T103	Person-Nominal 1198 1202	三圣娘娘
+T104	Location-Name 1235 1238	百子堂
+T105	Location-Name 1246 1251	星德山金顶
+T106	Thing-Nominal 1252 1254	天路
+R15	Located Arg1:T106 Arg2:T105	
+T107	Metric 1260 1262	十丈
+T108	Metric 1263 1265	万钧
+T109	Thing-Name 1266 1269	吉人岩
+T110	Location-Nominal 1271 1275	在镇妖台
+R16	Located Arg1:T109 Arg2:T110	
+T111	Location-Name 1301 1304	星德山
+T112	Location-Name 1312 1315	星德山
+T113	Location-Name 1317 1320	星子山
+*	Coreference T112 T113
+T114	Location-Nominal 1323 1326	山顶上
+T115	Thing-Name 1327 1330	星子岩
+R17	Located Arg1:T115 Arg2:T114	
+T116	Person-Name 1331 1334	孙悟空
+T117	Location-Name 1336 1338	天宫
+T118	Location-Name 1341 1343	天庭
+T119	Thing-Nominal 1354 1355;1356 1357	巨 星
+*	Coreference T119 T115
+T120	Location-Nominal 1365 1369	围栏内外
+T121	Thing-Nominal 1372 1374	古松
+R18	Located Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 1375 1376	根
+T123	Thing-Nominal 1379 1380	枝
+R19	Part-Whole Arg1:T123 Arg2:T121	
+R20	Part-Whole Arg1:T122 Arg2:T121	
+T124	Person-Nominal 1409 1411	过客
+T125	Person-Nominal 1415 1416;1417 1418	有 人
+T126	Time-Explicit 1440 1444	明清两代
+T127	Location-Name 1448 1452	沅澧流域
+T128	Location-Name 1463 1465	桃源
+T129	Location-Nominal 1470 1474	知名道观
+T130	Location-Name 1477 1480	桃花源
+T131	Location-Name 1481 1484	桃川宫
+*	Coreference T131 T129 T133
+R21	Part-Whole Arg1:T131 Arg2:T130	
+T132	Location-Name 1487 1490	星德山
+T133	Location-Name 1491 1494	星子宫
+R22	Part-Whole Arg1:T133 Arg2:T132	
+T134	Time-Explicit 1495 1500;1501 1504	每年古历“ 三月三
+T135	Time-Explicit 1507 1512	八月十五”
+T136	Person-Nominal 1527 1529	香客
+T137	Thing-Nominal 1547 1549	青牛
+T138	Thing-Nominal 1551 1553	宝莲
+T139	Thing-Nominal 1560 1562	尖刀
+T140	Thing-Nominal 1564 1566	白羊
+T141	Location-Name 1572 1575	星德山
+T142	Person-Nominal 1579 1581	皇帝
+T143	Time-Explicit 1590 1603	隆三十九年(公元1774年
+T144	Person-Name 1604 1606;1607 1609	弘历 皇帝
+T145	Person-Name 1610 1613	纪晓岚
+R23	Social Arg1:T145 Arg2:T144	
+T146	Location-Pronoun 1620 1622	此山
+*	Coreference T146 T141
+T147	Location-Name 1637 1640	星子山
+T148	Location-Name 1643 1646	星德山
+*	Coreference T147 T148
+T149	Thing-Nominal 1746 1748	楹联
+T150	Metric 1753 1756	三万里
+T151	Time-Explicit 1761 1764	五千年
+T152	Location-Name 1768 1772	灵毓星峰
+T153	Location-Name 1783 1785	雷岳
+T154	Location-Name 1797 1800	星子宫
+T155	Location-Name 1803 1806	百子堂
+T156	Location-Name 1807 1810	望月楼
+T157	Location-Name 1811 1814	观星坛
+T158	Location-Name 1815 1818	玉霄殿
+T159	Location-Name 1819 1822	王爷殿
+T160	Location-Name 1823 1826	问事殿
+T161	Location-Name 1827 1830	求卜殿
+T162	Location-Name 1831 1834	三生殿
+T163	Location-Name 1835 1838	火工殿
+T164	Location-Name 1839 1842	寝宿殿
+R24	Near Arg1:T154 Arg2:T155	
+R25	Near Arg1:T154 Arg2:T156	
+R26	Near Arg1:T154 Arg2:T157	
+R27	Near Arg1:T154 Arg2:T158	
+R28	Near Arg1:T154 Arg2:T159	
+R29	Near Arg1:T154 Arg2:T160	
+R30	Near Arg1:T154 Arg2:T161	
+R31	Near Arg1:T154 Arg2:T163	
+R32	Near Arg1:T154 Arg2:T164	
+R33	Near Arg1:T162 Arg2:T154	
+T165	Thing-Nominal 1846 1848	石阶
+T166	Thing-Nominal 1849 1850;1851 1852	石 墙
+T167	Thing-Nominal 1853 1855	石柱
+T168	Thing-Nominal 1856 1858	石门
+T169	Thing-Nominal 1859 1861	石梁
+T170	Thing-Nominal 1862 1864	石瓦
+T171	Thing-Nominal 1875 1878	红砂岩
+*	Coreference T170 T171 T169 T168 T167 T166
+R34	Located Arg1:T171 Arg2:T155	
+R35	Located Arg1:T171 Arg2:T156	
+R36	Located Arg1:T171 Arg2:T156	
+R37	Located Arg1:T171 Arg2:T157	
+R38	Located Arg1:T171 Arg2:T159	
+R39	Located Arg1:T171 Arg2:T160	
+R40	Located Arg1:T171 Arg2:T161	
+R41	Located Arg1:T171 Arg2:T163	
+R42	Located Arg1:T171 Arg2:T164	
+T172	Thing-Nominal 1885 1887	悬崖
+T173	Location-Nominal 1888 1890	殿阁
+T174	Thing-Nominal 1893 1895	松柏
+T175	Location-Nominal 1896 1898	楼堂
+T176	Location-Name 1904 1906	湘西
+T177	Thing-Nominal 1925 1927	牌楼
+T178	Thing-Nominal 1928 1930	山墙
+T179	Thing-Nominal 1931 1933	重檐
+T180	Time-Explicit 1949 1951	唐代
+T181	Location-Name 1963 1967	长江以南
+T182	Thing-Nominal 1967 1968	岩
+T183	Location-Name 1982 1985	星德山
+T184	Person-Nominal 2012 2014	香客
+T185	Location-Name 2016 2019	雷祖殿
+T186	Location-Name 2022 2025	观音阁
+T187	Location-Name 2028 2031	紫霄宫
+T188	Thing-Nominal 2035 2036	炮
+T189	Person-Nominal 2041 2042;2043 2044	龙 旗
+T190	Person-Nominal 2032 2034	有的
+T191	Person-Nominal 2037 2039	有的
+T192	Person-Nominal 2045 2047	有的
+T193	Person-Nominal 2052 2054	有的
+T194	Metric 2056 2058	百里
+T195	Thing-Nominal 2073 2075	香油
+T196	Location-Nominal 2078 2085	神像前的油灯里
+R43	Located Arg1:T195 Arg2:T196	
+T197	Location-Nominal 2086 2089	庙堂中
+T198	Person-Nominal 2093 2097	求福的人
+T199	Thing-Nominal 2100 2102	蒲团
+T200	Thing-Nominal 2128 2130	菩萨
+T201	Person-Nominal 2139 2141	香客
+T202	Thing-Nominal 2152 2154	香炉
+T203	Location-Nominal 2167 2170	神坛上
+*	Coreference T190 T184 T191 T192 T193
+T204	Thing-Nominal 2177 2179	钟罄
+T205	Location-Name 2189 2191	金顶
+T206	Location-Name 2205 2209	星子宫前
+T207	Location-Name 2212 2217	南天门两侧
+T208	Location-Name 2220 2224	“星德山
+T209	Thing-Nominal 2228 2230	碑石
+R44	Located Arg1:T209 Arg2:T207	
+T210	Location-Nominal 2233 2236	门楣上
+T211	Thing-Nominal 2288 2290	石狮
+T212	Thing-Nominal 2290 2292	石象
+T213	Location-Name 2331 2334	南天门
+T214	Thing-Nominal 2334 2336	牌坊
+R45	Located Arg1:T214 Arg2:T213	
+T215	Thing-Nominal 2367 2369	花草
+T216	Thing-Nominal 2396 2398	青牛
+T217	Thing-Nominal 2404 2406	黄鹤
+T218	Thing-Name 2418 2421	集云崖
+T219	Person-Nominal 2430 2433	雷公神
+T220	Metric 2436 2438	万吨
+T221	Thing-Nominal 2439 2441	巨石
+T222	Thing-Nominal 2457 2459	轻纱
+T223	Thing-Nominal 2463 2467	定山神针
+T224	Location-Name 2473 2477	舍身崖前
+T225	Thing-Nominal 2487 2489	风帆
+T226	Thing-Nominal 2499 2500	鸟
+T227	Thing-Nominal 2501 2502	凤
+T228	Thing-Nominal 2505 2507	白鹤
+T229	Thing-Nominal 2513 2514	龙
+T230	Thing-Nominal 2519 2521	黄鹂
+T231	Person-Name 2530 2543	唐代高僧、堪舆大师司马头陀
+T232	Location-Name 2554 2557	星德山
+T233	Location-Name 2571 2572;2573 2575	五 雷山
+T234	Thing-Nominal 2587 2589	凤凰
+T235	Location-Name 2596 2601	星德山东部
+T236	Location-Name 2602 2605	白鹤山
+R46	Near Arg1:T236 Arg2:T235	
+T237	Location-Name 2608 2612	常德古城
+T238	Location-Name 2614 2617	星德山
+T239	Thing-Nominal 2622 2624	山脉
+T240	Thing-Nominal 2628 2630	蛟龙
+T241	Location-Name 2637 2641	白鹤山前
+T242	Thing-Nominal 2644 2646	黄鹂
+T243	Location-Name 2652 2655	星德山
+T244	Location-Nominal 2690 2692	山上
+T245	Location-Nominal 2692 2694	山下
+T246	Thing-Nominal 2700 2702	龙蛇
+T247	Thing-Nominal 2713 2714	虬
+T248	Thing-Nominal 2731 2732	狮
+T249	Thing-Nominal 2735 2736	虎
+T250	Thing-Nominal 2743 2744	鹤
+T251	Location-Name 2749 2752	星德山
+T252	Location-Name 2795 2798	星德山
+T253	Person-Pronoun 2801 2802	我
+T254	Person-Nominal 2803 2807	我的朋友
+*	Coreference T253 T254
+T255	Location-Name 2810 2814	后山之门
+T256	Time-Explicit 2820 2822	今天
+T257	Location-Name 2825 2828	星德山
+T258	Thing-Nominal 2853 2854	狮
+T259	Location-Name 2855 2857	雷峰
+T260	Thing-Nominal 2858 2859	龙
+T261	Location-Nominal 2860 2862	天洞
+T262	Location-Nominal 2863 2866	小仙山
+T263	Thing-Nominal 2874 2875	鸡
+T264	Location-Nominal 2876 2878	月岛
+T265	Thing-Nominal 2879 2880	鹤

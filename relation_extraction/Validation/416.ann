@@ -1,0 +1,293 @@
+T1	Time-Explicit 14 21	1962年7月
+T2	Person-Pronoun 21 22	我
+T3	Location-Name 31 35	青岛地区
+T4	Thing-Nominal 28 30	军营
+R1	Located Arg1:T4 Arg2:T3	
+T5	Person-Nominal 36 37	兵
+T6	Metric 41 43	三年
+T7	Person-Pronoun 49 50	我
+T8	Time-Implicit 63 69	那火红的年代
+T9	Location-Nominal 70 77	火红的大熔炉里
+T10	Person-Pronoun 81 82	我
+T11	Person-Pronoun 96 97	我
+T12	Thing-Nominal 111 114	灵山岛
+T13	Thing-Nominal 115 122	山东省第二大岛
+*	Coreference T12 T13 T16
+T14	Metric 125 130	四十五公里
+T15	Metric 133 138	500多米
+T16	Thing-Pronoun 139 140	它
+T17	Thing-Nominal 143 153	大海中一颗灿烂的明珠
+T18	Thing-Pronoun 154 155	它
+T19	Thing-Nominal 156 163	重要的战略要地
+T20	Person-Name 164 171;172 177	济南军区司令员 杨得志上将
+T21	Person-Name 178 187	副司令员吴克华中将
+T22	Time-Implicit 189 191	当年
+T23	Person-Name 191 194	毛主席
+T24	Person-Nominal 195 198	警卫员
+T25	Person-Name 199 206	军长李水清少将
+T26	Person-Name 207 214	师长唐万成大校
+T27	Thing-Nominal 219 222	灵山岛
+T28	Location-Nominal 229 231	岛上
+T29	Person-Nominal 234 242	海军航空兵和陆军
+T30	Location-Nominal 243 245	山顶
+T31	Thing-Nominal 246 248	雷达
+R2	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 253 262	茫茫无边的辽阔大海
+T33	Thing-Pronoun 263 264	它
+T34	Thing-Nominal 265 271	一双火眼金睛
+T35	Location-Nominal 273 275	远方
+T36	Thing-Nominal 283 289	祖国的东大门
+T37	Thing-Nominal 291 293;294 299	祖国 的神圣领土
+*	Coreference T33 T27
+T38	Location-Nominal 308 310	岛上
+T39	Time-Implicit 305 307	当时
+T40	Person-Nominal 316 318	官兵
+T41	Person-Nominal 323 325	渔民
+T42	Location-Nominal 321 323	当地
+T43	Thing-Nominal 326 329	茅草房
+T44	Person-Pronoun 330 332	我们
+T45	Person-Nominal 332 337	江南的新兵
+T46	Thing-Nominal 343 345	码头
+T47	Thing-Nominal 347 349	营房
+T48	Time-Implicit 346 356	建营房热火朝天的时候
+T49	Time-Implicit 360 365;366 367	盛夏的七八 月
+T50	Time-Implicit 370 379	冰雪满地的寒冻腊月
+T51	Person-Pronoun 380 382	我们
+T52	Thing-Nominal 385 387	黄沙
+T53	Thing-Nominal 389 391	水泥
+T54	Thing-Nominal 393 395	石头
+T55	Thing-Nominal 396 406	墨绿色、深青色的石头
+T56	Thing-Nominal 408 410	营房
+T57	Thing-Nominal 411 418	最重要建筑材料
+T58	Location-Nominal 419 423	半山腰上
+T59	Person-Nominal 430 433	老石匠
+T60	Thing-Nominal 434 436	铁锤
+T61	Thing-Nominal 437 439	錾子
+T62	Thing-Nominal 440 447	大小不一的石头
+T63	Thing-Nominal 453 468	一块块或正方形，或长方形的石块
+T64	Person-Pronoun 469 471	我们
+T65	Thing-Nominal 476 478	石块
+T66	Location-Nominal 480 487;488 489	山下的营建工地 上
+R3	Located Arg1:T65 Arg2:T66	
+T67	Person-Pronoun 490 492	我们
+T68	Person-Nominal 492 498	这些新兵蛋子
+T69	Person-Nominal 499 501	老兵
+T70	Thing-Nominal 506 514	100多斤的石块
+T71	Metric 506 511	100多斤
+T72	Location-Nominal 516 519	半山腰
+T73	Location-Nominal 521 523	工地
+T74	Time-Implicit 524 526	每天
+T75	Metric 528 532	二十多次
+T76	Thing-Nominal 535 536	汗
+T77	Thing-Nominal 537 538	雨
+T78	Thing-Nominal 542 544	汗水
+T79	Thing-Nominal 546 548	衬衣
+T80	Thing-Nominal 550 555	绿色的衬衣
+T81	Thing-Nominal 556 562	白花花的汗水
+T82	Thing-Nominal 565 567	盐霜
+T83	Thing-Nominal 570 574	巍巍高山
+T84	Thing-Nominal 575 577	军歌
+T85	Person-Nominal 580 583	战士们
+T86	Person-Pronoun 605 606	我
+T87	Thing-Nominal 606 607	肩
+R4	Part-Whole Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 608 609;610 611	石 块
+T89	Thing-Nominal 612 613	山
+T90	Person-Name 627 633	副连长阎成兰
+T91	Thing-Nominal 613 615	脚底
+T92	Thing-Nominal 642 645	我的手
+T93	Person-Pronoun 642 643	我
+R5	Part-Whole Arg1:T92 Arg2:T93	
+T94	Person-Pronoun 657 658	他
+*	Coreference T94 T90
+T95	Person-Pronoun 660 661	我
+T96	Person-Pronoun 676 677	我
+T97	Time-Implicit 685 689	秋末初冬
+T98	Thing-Nominal 690 692	海风
+T99	Thing-Nominal 702 707	朦胧的大海
+T100	Location-Name 708 711	胶南县
+T101	Thing-Nominal 712 713	海
+T102	Thing-Nominal 716 718	海浪
+T103	Thing-Nominal 725 731	千堆白色浪花
+T104	Thing-Nominal 735 743	一片片银色的碎玉
+T105	Time-Implicit 766 768	清晨
+T106	Person-Pronoun 769 771	我们
+T107	Person-Nominal 771 777	炮兵班的战士
+T108	Location-Nominal 779 788	军绿色解放牌卡车上
+T109	Thing-Nominal 792 794	大炮
+R6	Located Arg1:T109 Arg2:T108	
+*	Coreference T107 T106
+T110	Location-Nominal 799 801	海上
+T111	Thing-Nominal 801 803	军舰
+R7	Located Arg1:T111 Arg2:T110	
+T112	Thing-Nominal 805 806;807 808	靶 子
+T113	Location-Nominal 809 811	海上
+T114	Person-Pronoun 818 820	我们
+T115	Thing-Nominal 820 822	耳朵
+T116	Thing-Nominal 824 827	避声机
+R8	Part-Whole Arg1:T115 Arg2:T114	
+T117	Location-Nominal 834 837	大炮旁
+T118	Person-Nominal 840 843	指挥员
+T119	Thing-Nominal 843 844	手
+R9	Part-Whole Arg1:T119 Arg2:T118	
+T120	Thing-Nominal 845 847	红旗
+T121	Location-Nominal 852 858	长长的阵地上
+T122	Thing-Nominal 860 861	炮
+T123	Thing-Nominal 865 867	火光
+T124	Thing-Nominal 876 878	炮弹
+T125	Location-Nominal 882 884	大海
+T126	Location-Nominal 887 889	靶位
+T127	Thing-Nominal 893 895	炮弹
+T128	Location-Nominal 897 899	靶位
+T129	Person-Nominal 900 903	战士们
+T130	Time-Implicit 917 919	平时
+T131	Thing-Nominal 922 924	汗水
+T132	Time-Explicit 935 943	1963年的初冬
+T133	Person-Pronoun 944 945	我
+T134	Location-Name 947 953	心爱的灵山岛
+T135	Time-Implicit 954 956	傍晚
+T136	Person-Name 956 959	连文书
+T137	Person-Pronoun 960 961	我
+T138	Thing-Nominal 962 964	军舰
+T139	Metric 964 968	几个小时
+T140	Location-Name 970 979	美丽的滨海城市青岛
+T141	Organization-Nominal 981 991	师卫生科卫生员集训班
+T142	Person-Nominal 998 1000	军医
+T143	Person-Pronoun 1003 1005	我们
+T144	Person-Pronoun 1008 1010	我们
+T145	Thing-Nominal 1013 1015	笔记
+T146	Time-Implicit 1022 1024	当天
+T147	Person-Nominal 1054 1056;1057 1061	师卫 生科领导
+T148	Person-Pronoun 1062 1064	我们
+T149	Person-Pronoun 1072 1074	我们
+T150	Location-Name 1076 1079	山东省
+T151	Location-Name 1080 1087	墨县师军垦农场
+T152	Time-Implicit 1092 1098	花生丰收时节
+T153	Location-Nominal 1100 1112	一大片披上绿装的花生田里
+T154	Person-Pronoun 1113 1115	我们
+T155	Thing-Nominal 1124 1126	花生
+T156	Thing-Nominal 1129 1131	寒风
+T157	Person-Pronoun 1135 1137	我们
+T158	Thing-Nominal 1142 1144	汗水
+T159	Person-Pronoun 1147 1149	我们
+T160	Thing-Nominal 1149 1154	绿色的军衣
+R10	Ownership Arg1:T159 Arg2:T160	
+T161	Person-Pronoun 1155 1156	我
+T162	Thing-Nominal 1159 1161	脚气
+T163	Thing-Nominal 1164 1165	脚
+T164	Thing-Nominal 1168 1171	橡皮腿
+T165	Organization-Nominal 1179 1183	师卫生科
+T166	Person-Nominal 1184 1187	首长们
+T167	Person-Pronoun 1196 1197	我
+T168	Thing-Nominal 1198 1200	病房
+T169	Thing-Nominal 1201 1202	床
+T170	Time-Implicit 1205 1207	当年
+T171	Person-Name 1210 1215	白求恩大夫
+T172	Person-Nominal 1220 1227	师卫生科副科长
+T173	Thing-Nominal 1230 1236	最好的消炎药
+T174	Thing-Nominal 1242 1244	盐水
+T175	Thing-Nominal 1246 1252	最好的病号饭
+T176	Person-Pronoun 1254 1255	我
+T177	Thing-Nominal 1260 1265	革命大家庭
+T178	Person-Pronoun 1272 1273	我
+T179	Metric 1281 1285	一个星期
+T180	Person-Pronoun 1286 1287	我
+T181	Time-Explicit 1300 1307	一九六四年春天
+T182	Time-Implicit 1308 1314	春暖花开时节
+*	Coreference T182 T181
+T183	Person-Pronoun 1315 1316	我
+T184	Organization-Nominal 1320 1335	师训练队(战争年代称师教导营)
+T185	Person-Nominal 1336 1339	卫生员
+T186	Time-Implicit 1340 1342	当时
+T187	Thing-Nominal 1342 1346	全军上下
+T188	Organization-Nominal 1361 1368	几百人的训练队
+T189	Person-Nominal 1361 1364	几百人
+T190	Person-Pronoun 1370 1371	我
+T191	Person-Nominal 1374 1377	战士们
+T192	Thing-Nominal 1389 1393	冰天雪地
+T193	Thing-Nominal 1397 1398	风
+T194	Thing-Nominal 1399 1400	雨
+T195	Time-Implicit 1402 1407	清晨到傍晚
+T196	Time-Implicit 1410 1412	深夜
+T197	Person-Pronoun 1413 1414	我
+T198	Thing-Nominal 1417 1420	卫生箱
+T199	Thing-Nominal 1424 1428	急救夹板
+T200	Thing-Nominal 1429 1432	急救药
+T201	Person-Nominal 1435 1438	战士们
+T202	Location-Nominal 1439 1443	海滩沙地
+T203	Thing-Nominal 1446 1453	漫长的训练场地
+T204	Location-Nominal 1455 1458	沙地上
+T205	Person-Nominal 1461 1464	战士们
+T206	Thing-Nominal 1464 1465	手
+T207	Thing-Nominal 1467 1468	脚
+R11	Part-Whole Arg1:T206 Arg2:T205	
+R12	Part-Whole Arg1:T207 Arg2:T205	
+T208	Person-Nominal 1483 1486	步兵们
+T209	Thing-Nominal 1473 1474	血
+T210	Location-Nominal 1487 1490	沙地上
+T211	Person-Nominal 1503 1506	炮兵们
+T212	Time-Implicit 1513 1515	晚上
+T213	Thing-Nominal 1515 1519	训练场地
+T214	Thing-Nominal 1524 1527	荧光弹
+T215	Thing-Nominal 1534 1536	靶心
+T216	Person-Nominal 1539 1541	炮兵
+T217	Person-Nominal 1561 1566	一个卫生员
+T218	Person-Pronoun 1560 1561	我
+T219	Person-Nominal 1571 1573	首长
+T220	Person-Pronoun 1574 1576	他们
+*	Coreference T220 T219
+T221	Person-Pronoun 1582 1583	我
+T222	Time-Implicit 1592 1594	晚上
+T223	Location-Nominal 1596 1599	沙滩上
+T224	Person-Pronoun 1600 1602	我们
+T225	Time-Implicit 1603 1604;1605 1608	战 争年代
+T226	Person-Name 1621 1628	新到任的张师长
+T227	Person-Pronoun 1630 1631	我
+T228	Organization-Nominal 1642 1644	部队
+T229	Person-Nominal 1649 1658	一位腿不便的副师长
+T230	Person-Pronoun 1659 1661	我们
+T231	Thing-Nominal 1664 1665;1666 1668	窝 窝头
+T232	Thing-Nominal 1670 1673	小米饭
+T233	Thing-Nominal 1676 1679	旧军装
+T234	Person-Nominal 1680 1682	战士
+T235	Person-Pronoun 1692 1693	我
+T236	Time-Explicit 1705 1710	1964年
+T237	Person-Pronoun 1711 1712	我
+T238	Organization-Nominal 1717 1723	师通讯指挥连
+T239	Person-Nominal 1727 1731	武装行军
+T240	Location-Name 1738 1740	崂山
+T241	Time-Implicit 1743 1745	清晨
+T242	Thing-Nominal 1755 1757	队伍
+T243	Location-Name 1769 1773	巍巍崂山
+T244	Thing-Nominal 1775 1776	头
+T245	Thing-Nominal 1781 1785	青山绿水
+T246	Thing-Nominal 1786 1788	松林
+T247	Person-Pronoun 1793 1795	我们
+T248	Location-Nominal 1796 1799	山脚下
+T249	Location-Nominal 1803 1805	脚下
+T250	Thing-Nominal 1810 1814	乱草乱石
+T251	Thing-Nominal 1821 1825	悬崖绝壁
+T252	Thing-Nominal 1830 1834	万丈深渊
+T253	Person-Pronoun 1839 1841	我们
+T254	Time-Implicit 1851 1853	傍晚
+T255	Location-Name 1855 1858	崂山顶
+T256	Thing-Nominal 1862 1864	寒风
+T257	Thing-Nominal 1867 1869	银装
+T258	Thing-Nominal 1872 1874	冰柱
+T259	Thing-Nominal 1879 1883	茫茫大海
+T260	Thing-Nominal 1884 1886	白浪
+T261	Thing-Nominal 1892 1898	这壮丽的景色
+T262	Person-Nominal 1898 1902	我们行军
+T263	Person-Pronoun 1898 1900	我们
+T264	Location-Nominal 1909 1913	九霄云外
+T265	Metric 1915 1917	三年
+T266	Thing-Nominal 1930 1934	一朵浪花
+T267	Thing-Nominal 1936 1944	这个革命的大学校
+T268	Location-Nominal 1945 1949	大熔炉里
+T269	Person-Pronoun 1949 1950	我
+T270	Metric 1958 1961	五十年
+T271	Person-Pronoun 1968 1969	我
+T272	Person-Nominal 1970 1975;1976 1977	一个普通一 兵
+T273	Person-Nominal 1981 1989	一个共产主义战士
+R13	Located Arg1:T124 Arg2:T125	
+R14	Located Arg1:T124 Arg2:T126	

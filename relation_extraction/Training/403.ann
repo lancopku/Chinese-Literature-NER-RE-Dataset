@@ -1,0 +1,139 @@
+T1	Thing-Nominal 0 3	我老家
+T2	Location-Nominal 4 10	庙岭红莲湖畔
+R1	Located Arg1:T1 Arg2:T2	
+T3	Time-Implicit 11 15	辛卯盛夏
+T4	Person-Nominal 16 18	好友
+T5	Person-Pronoun 21 22	我
+T6	Location-Nominal 23 26	红莲湖
+T7	Person-Pronoun 32 33	我
+T8	Person-Pronoun 34 35	他
+T9	Metric 38 44	宽三米高两米
+T10	Physical 45 50	“荷花图”
+R2	Social Arg1:T8 Arg2:T7	
+R3	Social Arg1:T4 Arg2:T5	
+T11	Location-Nominal 63 71	老家附近湖泊港汊
+T13	Location-Nominal 79 82	红莲湖
+T14	Location-Nominal 83 86	岱海湖
+T15	Location-Nominal 87 90	梧桐湖
+T16	Location-Nominal 91 94	红鞋湖
+R4	Part-Whole Arg1:T13 Arg2:T11	
+R5	Part-Whole Arg1:T14 Arg2:T11	
+R6	Part-Whole Arg1:T16 Arg2:T11	
+R7	Part-Whole Arg1:T15 Arg2:T11	
+T12	Time-Implicit 96 101	三十几年前
+T17	Thing-Nominal 102 107	我们生产队
+T18	Location-Nominal 108 116	三面环水的曹家洲
+T19	Thing-Nominal 118 122	几百亩田
+R8	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 125 128	绞湖草
+T21	Person-Pronoun 131 132	我
+T22	Thing-Nominal 134 138	这些湖里
+R9	Located Arg1:T22 Arg2:T18	
+T23	Location-Nominal 154 157	红莲湖
+T24	Location-Nominal 161 165	湖泊港汊
+T25	Time-Implicit 174 178	每逢夏日
+T26	Location-Nominal 179 183	这些地方
+*	Coreference T26 T24
+T27	Person-Pronoun 198 199	我
+T28	Location-Nominal 205 208	红莲湖
+T29	Location-Nominal 213 216	红莲湖
+T30	Metric 221 223	近年
+T31	Location-Nominal 221 233	近年开发的旅游度假区胜景
+T32	Location-Nominal 257 258	湖
+T33	Person-Pronoun 260 262	我们
+T34	Location-Nominal 272 277	辽阔的湖面
+T35	Thing-Nominal 283 288	远处的云羽
+T36	Thing-Nominal 289 291	水鸥
+R10	Located Arg1:T35 Arg2:T34	
+R11	Located Arg1:T36 Arg2:T34	
+T37	Thing-Nominal 296 301	金色的阳光
+T38	Thing-Nominal 304 310	鱼鳞般的碎浪
+T39	Thing-Nominal 313 315;316 319	湖上 的珍珠
+T40	Thing-Nominal 338 339	船
+T41	Location-Nominal 340 343	荷花丛
+R12	Located Arg1:T40 Arg2:T41	
+T42	Person-Pronoun 361 363	我们
+T43	Thing-Nominal 366 368	红莲
+T44	Thing-Nominal 371 373	湖风
+T45	Person-Nominal 377 378	人
+T46	Thing-Nominal 383 388	如盖的碧荷
+T47	Thing-Nominal 392 394	红莲
+T48	Thing-Nominal 411 416	刚出水嫩莲
+T49	Thing-Nominal 419 421	白裙
+T50	Person-Nominal 433 439	一个个崇拜者
+T51	Thing-Nominal 440 449	那些芳心已动的莲花
+T52	Person-Nominal 456 459	追求者
+T53	Thing-Nominal 467 469	蕊心
+*	Coreference T50 T52
+T54	Thing-Nominal 474 478	金色情丝
+T55	Thing-Nominal 480 485	成熟的莲蓬
+T56	Thing-Nominal 491 493	盛装
+T57	Person-Nominal 498 500	情侣
+T58	Location-Nominal 530 533	红莲湖
+T59	Location-Nominal 552 555	红莲湖
+T60	Location-Nominal 589 595	多情的红莲湖
+T61	Person-Pronoun 599 600	我
+T62	Time-Implicit 607 610	多年前
+T63	Location-Nominal 611 613	庙岭
+T64	Abstract 615 619	民间文学
+T65	Location-Nominal 626 629	红莲湖
+T66	Time-Implicit 635 639	清朝末年
+T67	Person-Nominal 640 649	一支太平天国起义军
+T68	Person-Nominal 650 652	清兵
+R13	Social Arg1:T67 Arg2:T68	
+T69	Metric 654 657	三天后
+T70	Location-Name 665 667;668 669	小李 村
+T71	Person-Nominal 670 673	起义军
+*	Coreference T71 T67
+T72	Person-Nominal 676 679	老百姓
+T73	Location-Nominal 685 687	对岸
+T74	Person-Nominal 689 691	清兵
+T75	Person-Nominal 695 698	起义军
+R14	Social Arg1:T75 Arg2:T74	
+T76	Location-Nominal 703 708	湖汊荷叶底
+T77	Person-Nominal 712 714	坏人
+T78	Person-Pronoun 717 719	清兵
+T79	Thing-Nominal 721 726	木船见荷叶
+R15	Social Arg1:T77 Arg2:T78	
+T80	Metric 730 732	刹时
+T81	Person-Nominal 734 737	起义军
+T82	Location-Nominal 742 746	湖汊水面
+T83	Time-Implicit 751 753	此后
+T84	Thing-Nominal 754 765	满湖长出的荷叶荷花莲蓬
+T85	Person-Nominal 771 773	人们
+T86	Location-Nominal 776 778	湖汊
+T87	Location-Name 781 785	红莲池”
+*	Coreference T87 T86 T89
+T88	Time-Implicit 786 788	后来
+T89	Location-Name 793 796	红莲湖
+T90	Thing-Nominal 832 838	一睹朵朵新荷
+T91	Metric 843 845	偶尔
+T92	Thing-Nominal 847 849	游鱼
+T93	Time-Implicit 857 859	突然
+T94	Person-Nominal 860 862	好友
+T95	Location-Nominal 863 866	荷花丛
+T96	Thing-Nominal 870 875	一株并蒂莲
+R16	Located Arg1:T96 Arg2:T95	
+T97	Person-Pronoun 891 892	我
+T98	Metric 892 894	赶紧
+T99	Thing-Nominal 896 900	相机快门
+T100	Thing-Nominal 905 910	精彩的画面
+T101	Thing-Nominal 914 920	满湖红莲碧荷
+T102	Thing-Nominal 921 926	亭亭的红莲
+T103	Thing-Nominal 927 932	田田的碧荷
+T104	Thing-Nominal 938 940	玉藕
+T105	Thing-Nominal 1007 1011	荷叶莲花
+T106	Thing-Nominal 1042 1047	一片片湖汊
+T107	Location-Nominal 1055 1057	湖岸
+T108	Thing-Nominal 1059 1063	小桥流水
+T109	Thing-Nominal 1064 1065;1066 1069	亭 阁楼台
+R17	Located Arg1:T109 Arg2:T107	
+R18	Located Arg1:T108 Arg2:T107	
+T110	Thing-Nominal 1074 1078	鄂州百湖
+R19	Part-Whole Arg1:T106 Arg2:T110	
+T111	Time-Implicit 1090 1092	此时
+T112	Thing-Nominal 1093 1103	一幅娇艳而不俗的国画
+T113	Abstract 1103 1108	“荷花赋”
+T114	Person-Pronoun 1111 1112	我
+T115	Location-Nominal 1112 1114	脑海
+R20	Located Arg1:T112 Arg2:T115	

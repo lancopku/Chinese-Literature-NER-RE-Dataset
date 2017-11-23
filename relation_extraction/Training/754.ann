@@ -1,0 +1,56 @@
+T1	Person-Name 0 10	我国伟大的学者郭沫若
+T2	Person-Nominal 23 25	天才
+T3	Person-Name 27 32	房士铭师傅
+T4	Organization-Nominal 35 44	克拉玛依区老年大学
+T5	Time-Explicit 44 49	2013年
+T6	Person-Nominal 44 59	2013年计算机创研班优秀学员
+*	Coreference T6 T3 T8
+T7	Thing-Nominal 64 81	第九届“银龄风采”计算机大赛二等奖
+T8	Person-Name 82 85	房师傅
+T9	Thing-Nominal 86 88	电脑
+T10	Person-Name 104 106	郭老
+*	Coreference T10 T1
+T11	Person-Name 119 122	房师傅
+T12	Time-Implicit 122 126	退休以后
+T13	Thing-Nominal 133 135	电脑
+T14	Time-Explicit 139 144	1996年
+T15	Location-Name 145 150	克拉玛依市
+T16	Organization-Nominal 155 159	石油企业
+T17	Location-Nominal 163 170	中亚各国油气田
+T18	Person-Pronoun 173 174	他
+*	Coreference T18 T11 T19
+T19	Person-Nominal 184 188	俄语翻译
+T20	Person-Pronoun 193 194	他
+T21	Thing-Nominal 196 198	钢笔
+T22	Thing-Nominal 200 204	翻译材料
+T23	Organization-Nominal 208 210	企业
+T24	Thing-Nominal 213 215	电脑
+T25	Person-Pronoun 230 231	他
+T26	Thing-Nominal 236 238	电脑
+T27	Thing-Pronoun 261 262	它
+*	Coreference T27 T26
+T28	Person-Name 333 336	房师傅
+T29	Thing-Nominal 352 356	他的电脑
+T30	Person-Pronoun 365 367	自己
+*	Coreference T28 T30 T31
+T31	Person-Pronoun 387 388	他
+T32	Thing-Nominal 392 394	电脑
+*	Coreference T32 T29
+T33	Location-Nominal 396 399	电子城
+T34	Person-Nominal 408 413	电脑工程师
+T35	Thing-Nominal 467 471	电脑硬盘
+T36	Thing-Nominal 707 711	学习笔记
+T37	Metric 704 707	18本
+T38	Thing-Nominal 789 791	稿件
+T39	Person-Nominal 820 822	亲戚
+T40	Person-Nominal 823 825	朋友
+T41	Person-Pronoun 833 834	他
+T42	Person-Nominal 833 834;835 840	他 的外国朋友
+R1	Social Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 852 854	电脑
+T44	Thing-Nominal 857 869	1000多万字的俄语资料
+T45	Person-Nominal 925 929	远方客户
+T46	Person-Pronoun 935 936	他
+T47	Organization-Nominal 940 944	老年大学
+T48	Person-Name 973 976	房师傅
+T49	Thing-Nominal 984 986	电脑

@@ -1,0 +1,280 @@
+T1	Time-Implicit 0 5	前年的暑假
+T2	Person-Pronoun 6 7	我
+T3	Person-Name 8 16	大二的学生周子豪
+R1	Social Arg1:T2 Arg2:T3	
+T4	Location-Name 17 19	新疆
+T5	Person-Name 25 29	八千湘女
+T6	Time-Implicit 21 23	当年
+T7	Person-Pronoun 36 38	她们
+*	Coreference T7 T5
+T8	Person-Pronoun 42 44	她们
+T9	Time-Explicit 50 55	8月12日
+T10	Person-Pronoun 56 58	我们
+T11	Person-Nominal 6 16	我和大二的学生周子豪
+*	Coreference T11 T10
+T12	Location-Name 61 63	伊犁
+R2	Part-Whole Arg1:T12 Arg2:T4	
+T13	Location-Nominal 61 67	伊犁的最西边
+T14	Location-Name 69 75	昭苏的格登山
+R3	Near Arg1:T14 Arg2:T13	
+T15	Time-Implicit 79 83	乾隆时期
+T16	Thing-Name 87 99	平定准噶尔勒铭格登山之碑
+T17	Thing-Nominal 103 116	由乾隆皇帝衔笔亲书的记功碑
+*	Coreference T17 T16
+T18	Person-Name 104 108	乾隆皇帝
+T19	Location-Nominal 120 121;122 123	祖 国
+T20	Person-Pronoun 130 132	我们
+T21	Location-Nominal 142 144	东边
+R5	Part-Whole Arg1:T13 Arg2:T12	
+T22	Location-Nominal 153 155	西边
+T23	Thing-Name 156 169	一条绿色飘带一般的苏木拜河
+R4	Located Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 170 172	小河
+*	Coreference T24 T23
+T25	Person-Pronoun 176 178	我们
+T26	Location-Nominal 176 182;183 184	我们的友好邻 邦
+T27	Location-Name 184 189	哈萨克斯坦
+*	Coreference T27 T26 T40
+T28	Location-Nominal 176 182;183 193	我们的友好邻 邦哈萨克斯坦的小村庄
+T29	Location-Name 195 199	松柏山庄
+*	Coreference T28 T29
+T30	Person-Pronoun 200 202	我们
+T31	Person-Pronoun 207 209	他们
+T32	Person-Nominal 209 214	山庄的居民
+*	Coreference T31 T32
+T33	Person-Name 220 222	子豪
+T34	Person-Pronoun 228 229	我
+T35	Person-Nominal 232 234	爷爷
+*	Coreference T35 T34
+R6	Social Arg1:T33 Arg2:T34	
+T36	Person-Pronoun 238 239	我
+T37	Person-Pronoun 257 258	我
+T38	Person-Pronoun 261 262	我
+T39	Location-Nominal 268 276	祖国最西边的边界
+T40	Location-Nominal 280 287	和睦相处的邻邦
+T41	Location-Nominal 292 294	祖国
+T42	Person-Pronoun 311 312	您
+T43	Metric 306 308	一件
+*	Coreference T42 T37
+T44	Time-Implicit 328 329	天
+T45	Person-Pronoun 330 331	我
+T46	Time-Implicit 331 337	二十岁的生日
+T47	Metric 351 355	二十整岁
+T48	Metric 331 334	二十岁
+T49	Location-Name 356 359	格登山
+T50	Person-Pronoun 375 376	您
+T51	Person-Pronoun 378 379	我
+T52	Person-Pronoun 397 398	我
+T53	Person-Pronoun 417 418	你
+T54	Physical 431 435	文房四宝
+T55	Location-Name 438 440	长沙
+T56	Person-Pronoun 449 450	我
+T58	Thing-Name 486 492	《说文解字》
+T57	Thing-Name 466 471	《勉侄书》
+T59	Location-Nominal 547 549	地方
+T60	Person-Pronoun 553 555	我们
+T61	Person-Pronoun 605 606	他
+T62	Person-Nominal 594 596	人民
+T63	Person-Nominal 600 602	人类
+T64	Organization-Nominal 597 599	社会
+T65	Person-Nominal 585 586	人
+T66	Person-Nominal 618 622	八千湘女
+T67	Person-Pronoun 626 627	我
+*	Coreference T67 T61 T33 T3 T36 T45 T51 T53
+T68	Person-Pronoun 641 643	我们
+T69	Location-Name 644 646	新疆
+T70	Metric 652 655	两个月
+T71	Metric 658 662	万余公里
+T72	Location-Name 665 669	乌鲁木齐
+T73	Location-Name 670 673	石河子
+T74	Location-Name 674 676	伊犁
+T75	Location-Name 677 679	库勒
+T76	Location-Name 680 683	吐鲁蕃
+T77	Metric 684 686	五个
+T78	Metric 689 692	十余个
+T79	Person-Nominal 708 710	湘女
+T80	Person-Nominal 711 719	其亲友100余人
+R7	Social Arg1:T80 Arg2:T79	
+*	Coreference T79 T66
+T81	Metric 721 728	近两个月的时间
+T82	Time-Implicit 749 751	白天
+T83	Time-Implicit 754 756	晚上
+T84	Person-Name 759 760;761 762	子 豪
+T85	Thing-Nominal 766 771	录音与照片
+T86	Thing-Nominal 806 812	下一站的车票
+T87	Time-Explicit 829 836	八月二十四五日
+T88	Organization-Nominal 842 844	学校
+T89	Time-Explicit 846 850	9月1日
+T90	Time-Implicit 855 858	八月底
+T91	Person-Name 859 861	子豪
+T92	Person-Pronoun 873 875	我们
+T93	Time-Explicit 878 882;883 884	8月31 日
+T94	Time-Implicit 889 891	当晚
+T95	Location-Name 896 900	乌鲁木齐
+T96	Location-Nominal 896 905	乌鲁木齐一家小宾馆
+R8	Part-Whole Arg1:T96 Arg2:T95	
+T97	Person-Name 906 908	子豪
+T98	Person-Pronoun 913 914	他
+*	Coreference T98 T97 T99 T100 T103
+T99	Person-Pronoun 917 918	我
+T100	Person-Pronoun 936 937	我
+T101	Person-Pronoun 963 965	她们
+T102	Time-Implicit 972 974	今晚
+T103	Person-Pronoun 974 975	我
+T104	Person-Nominal 986 987	父
+R9	Family Arg1:T104 Arg2:T103	
+T105	Person-Nominal 991 998	学校老师、同学
+R10	Social Arg1:T105 Arg2:T103	
+T106	Person-Pronoun 1006 1007	我
+T107	Person-Name 1008 1010	子豪
+R11	Social Arg1:T106 Arg2:T107	
+T108	Person-Name 1022 1024	子豪
+T109	Person-Pronoun 1025 1026	我
+T110	Person-Pronoun 1036 1037	我
+T111	Person-Pronoun 1042 1043	我
+T112	Time-Implicit 1050 1052	这时
+T113	Time-Implicit 1054 1059	晚上11点
+*	Coreference T112 T113
+T114	Person-Pronoun 1061 1062	我
+T115	Person-Pronoun 1068 1070	自己
+*	Coreference T115 T114 T123 T125
+T116	Thing-Nominal 1068 1073	自己的神经
+R12	Part-Whole Arg1:T116 Arg2:T115	
+T117	Thing-Nominal 1079 1081	眼睛
+R13	Part-Whole Arg1:T117 Arg2:T115	
+T118	Thing-Nominal 1106 1109	摧眠曲
+T119	Time-Implicit 1113 1115	平常
+T120	Person-Pronoun 1137 1139	自己
+T121	Time-Implicit 1143 1150	快到子夜两点时
+T122	Person-Name 1166 1168	子豪
+T123	Person-Nominal 1171 1173	爷爷
+T124	Person-Pronoun 1184 1185	我
+*	Coreference T124 T122
+T125	Person-Pronoun 1193 1194	您
+T126	Person-Pronoun 1200 1201	我
+T127	Person-Name 1225 1227	子豪
+T128	Person-Pronoun 1234 1235	我
+T129	Person-Nominal 1266 1269	年一代
+T130	Organization-Nominal 1270 1272	社会
+T131	Person-Nominal 1274 1276	人民
+T132	Thing-Nominal 1306 1310	这篇小文
+T133	Thing-Nominal 1228 1232	小结文章
+R14	Create Arg1:T127 Arg2:T133	
+*	Coreference T132 T133 T137
+T134	Metric 1311 1317	2700余字
+T135	Thing-Nominal 1323 1327	字里行间
+R15	Part-Whole Arg1:T135 Arg2:T132	
+T136	Person-Nominal 1336 1340	八千湘女
+T137	Thing-Nominal 1352 1354	文章
+T138	Time-Implicit 1356 1358	当年
+T139	Person-Pronoun 1358 1360	她们
+*	Coreference T139 T136 T186 T188
+T140	Location-Nominal 1362 1366;1367 1373	这有开发 的荒滩与沼泽
+T141	Person-Pronoun 1395 1398	有的人
+T142	Person-Pronoun 1411 1413	有的
+R16	Part-Whole Arg1:T142 Arg2:T139	
+R17	Part-Whole Arg1:T141 Arg2:T139	
+T143	Thing-Nominal 1421 1424	坎土曼
+T144	Person-Pronoun 1445 1447	她们
+T145	Person-Pronoun 1458 1460	她们
+T146	Person-Pronoun 1474 1475	我
+T147	Location-Nominal 1491 1497	有生命的地方
+T148	Location-Nominal 1502 1508	有希望的地方
+T149	Thing-Nominal 1513 1519	有梦想的地方
+T150	Person-Nominal 1584 1588	八千湘女
+T151	Person-Nominal 1583 1593	“八千湘女”中不少人
+R18	Part-Whole Arg1:T151 Arg2:T150	
+T152	Location-Name 1597 1599	新疆
+T153	Location-Name 1602 1604	新疆
+T154	Person-Name 1615 1618	戴庆媛
+R19	Part-Whole Arg1:T154 Arg2:T151	
+T155	Person-Nominal 1619 1633	一个普通话都讲不好的长沙妹子
+*	Coreference T155 T154
+T156	Location-Name 1629 1631	长沙
+T157	Thing-Name 1621 1624	普通话
+T158	Thing-Name 1641 1643	维语
+T159	Time-Implicit 1634 1638	两年之便
+T160	Person-Nominal 1646 1652	维翻汉的翻译
+R20	General-Special Arg1:T160 Arg2:T154	
+T161	Person-Name 1667 1671;1672 1681	出生于衡 阳的拖拉机手华淑媛
+T162	Thing-Nominal 1684 1687	拖拉机
+R21	Use Arg1:T161 Arg2:T162	
+T163	Person-Pronoun 1704 1706	我们
+T164	Person-Pronoun 1707 1708	她
+*	Coreference T164 T161 T167
+T165	Person-Pronoun 1714 1715	她
+T166	Location-Name 1723 1725	新疆
+T167	Person-Pronoun 1726 1727	我
+T168	Person-Name 1740 1746	益阳的蔡佩菲
+T169	Location-Name 1761 1765	乌鲁木齐
+T170	Location-Nominal 1768 1777	一个新开垦的处女地
+T171	Organization-Name 1779 1786	原农四师十二团
+*	Coreference T170 T171
+T172	Thing-Name 1790 1793;1794 1802	高产玉 米品种“新源黄”
+T173	Location-Nominal 1805 1810	所在的团场
+R22	Ownership Arg1:T171 Arg2:T173	
+T174	Thing-Nominal 1814 1816	粮食
+T175	Time-Explicit 1820 1826	三年困难时期
+T176	Thing-Nominal 1828 1832	大批粮食
+T177	Location-Nominal 1835 1839	内地灾区
+T178	Person-Nominal 1843 1847	无数生命
+T179	Person-Name 1848 1854;1855 1856	来自湘阴的陶 勇
+T180	Person-Nominal 1877 1880	一干部
+T181	Abstract 1883 1889	断手再植手术
+T182	Abstract 1893 1897	外科手术
+T183	Person-Name 1919 1926	青年学子周子豪
+*	Coreference T183 T127 T184 T187
+T184	Person-Pronoun 1930 1931	他
+T185	Location-Name 1946 1948	新疆
+T186	Person-Nominal 1951 1959	这些历史的当事人
+T187	Person-Pronoun 1960 1961	我
+T188	Person-Nominal 1967 1970	湘女们
+T189	Person-Pronoun 1992 1993	他
+T190	Thing-Name 1994 2001	《向理想致敬》
+R23	Create Arg1:T189 Arg2:T190	
+T191	Person-Pronoun 2033 2034	我
+T192	Location-Name 2036 2038	长沙
+T193	Time-Explicit 2033 2043	我回到长沙两个月以后
+T194	Time-Explicit 2045 2057	2012年的11月17日
+*	Coreference T193 T194
+T195	Location-Name 2057 2063	《湖南日报》
+T196	Thing-Name 2066 2077	周子豪的《向理想致敬》
+*	Coreference T196 T190 T204
+T197	Time-Implicit 2078 2080	当时
+T198	Person-Pronoun 2081 2082	我
+T199	Person-Pronoun 2083 2085	自己
+*	Coreference T199 T198
+T200	Thing-Nominal 2087 2091	一个大奖
+T201	Metric 2087 2089	一个
+T202	Metric 2098 2101	两个月
+T203	Person-Pronoun 2108 2109	我
+T204	Thing-Nominal 2117 2122	子豪的文章
+T205	Person-Nominal 2125 2132	我的学生和朋友
+R24	Social Arg1:T205 Arg2:T203	
+T206	Person-Nominal 2134 2142	好几位学生和朋友
+R25	Part-Whole Arg1:T206 Arg2:T205	
+T207	Person-Pronoun 2145 2146	我
+T208	Thing-Nominal 2148 2152	电子邮件
+T209	Person-Pronoun 2157 2158	我
+T210	Person-Name 2159 2161	子豪
+T211	Person-Nominal 2170 2175	子豪的父母
+R26	Family Arg1:T211 Arg2:T210	
+T212	Person-Nominal 2187 2193	一个独生儿子
+T213	Person-Nominal 2199 2208	一个年近八旬的老翁
+*	Coreference T212 T210 T215
+*	Coreference T213 T209
+T214	Location-Nominal 2211 2215;2216 2219	万里之遥 的西域
+T215	Person-Name 2229 2232	周子豪
+T216	Person-Nominal 2223 2225	有的
+R27	Part-Whole Arg1:T216 Arg2:T206	
+T217	Person-Nominal 2256 2263	不少学生和朋友
+R28	Part-Whole Arg1:T217 Arg2:T205	
+T218	Person-Pronoun 2264 2265	我
+T219	Person-Pronoun 2301 2303	自己
+T220	Person-Pronoun 2306 2308	自己
+*	Coreference T219 T217
+T221	Thing-Nominal 2267 2276	[志存高远]的题字
+T222	Thing-Nominal 2280 2285	这个座右铭
+T223	Thing-Nominal 2286 2291	这个座右铭
+*	Coreference T222 T221
+T224	Time-Explicit 2310 2319	2014。1。12

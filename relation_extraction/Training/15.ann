@@ -1,0 +1,235 @@
+T1	Time-Explicit 0 6	戊寅秋末冬初
+T2	Person-Pronoun 7 8	我
+T3	Location-Name 10 13	海南岛
+T4	Location-Name 17 19	金昌
+T5	Person-Nominal 24 26	父亲
+T6	Time-Explicit 32 37	1984年
+T7	Person-Nominal 38 40	父母
+T8	Location-Name 41 43	金昌
+T9	Metric 45 48	几个月
+T10	Person-Nominal 51 59	很少出远门的老人
+T11	Location-Name 64 68	胶东半岛
+T12	Location-Name 69 73	河西走廊
+T13	Metric 79 84	十万八千里
+T14	Person-Pronoun 88 90	他们
+T15	Person-Pronoun 96 98	他们
+T16	Time-Implicit 96 108	他们“老”(去世)的时候
+T17	Person-Nominal 111 115	兄弟姐妹
+T18	Person-Pronoun 117 118	我
+T19	Person-Nominal 147 149	父母
+T20	Person-Nominal 160 164	我的兄弟
+T21	Person-Pronoun 160 161	我
+R1	Family Arg1:T20 Arg2:T21	
+T22	Person-Nominal 173 175	父亲
+T23	Person-Pronoun 185 186	他
+*	Coreference T23 T22
+T24	Person-Nominal 188 196	一名普通共产党员
+T25	Person-Pronoun 207 208	我
+T26	Person-Nominal 215 217	父母
+T27	Location-Name 218 220	金昌
+T28	Person-Pronoun 230 231	我
+T29	Person-Pronoun 241 242	我
+T30	Person-Pronoun 250 251	我
+T31	Person-Nominal 254 256	科长
+T32	Person-Nominal 257 260	副经理
+T33	Person-Nominal 261 265	总工程师
+T34	Time-Implicit 270 275	下班回家后
+T35	Person-Pronoun 277 278	我
+T36	Person-Pronoun 279 281	自己
+T37	Person-Nominal 290 292	父母
+T38	Person-Nominal 296 298	老人
+T39	Person-Nominal 301 303	儿子
+T40	Person-Nominal 307 308	人
+T41	Person-Nominal 317 319	父母
+T42	Person-Pronoun 322 323	我
+T43	Person-Pronoun 330 331	我
+T44	Person-Nominal 340 342	党员
+T45	Person-Pronoun 354 356	我们
+T46	Location-Nominal 359 361	老家
+T47	Person-Pronoun 366 367	你
+T48	Time-Implicit 374 377	第二天
+T49	Person-Pronoun 377 378	我
+T50	Person-Nominal 381 383	领导
+T51	Person-Nominal 396 398	父亲
+T52	Time-Explicit 399 405	抗日战争时期
+T53	Organization-Name 408 413	中国共产党
+T54	Time-Explicit 415 419	解放前期
+T55	Person-Nominal 420 422	父亲
+T56	Person-Nominal 433 435	父亲
+T57	Person-Pronoun 449 451	自己
+T58	Person-Pronoun 466 467	他
+T59	Person-Nominal 461 463	领导
+T60	Thing-Nominal 489 493	一针一线
+T61	Person-Nominal 505 507	父亲
+T62	Person-Nominal 511 513	父亲
+T63	Person-Nominal 534 535	党
+T64	Time-Implicit 549 551	当时
+T65	Thing-Nominal 553 555	黄河
+T66	Location-Name 551 553	济南
+T67	Time-Explicit 562 570	三年自然灾害期间
+T68	Person-Nominal 571 573	人们
+T69	Thing-Nominal 577 580	柿树叶
+T70	Thing-Nominal 581 584	桃树叶
+T71	Person-Nominal 589 591	哥哥
+T72	Person-Nominal 592 594	姐姐
+T73	Time-Implicit 603 605	当时
+T74	Person-Nominal 605 607	父亲
+T75	Thing-Nominal 636 638	库房
+R2	Family Arg1:T72 Arg2:T71	
+*	Coreference T57 T55 T58
+T76	Person-Nominal 521 523	个人
+T77	Location-Nominal 640 647	自己家的胡同里
+R3	Located Arg1:T75 Arg2:T77	
+T78	Person-Pronoun 640 642	自己
+T79	Person-Nominal 648 650	母亲
+T80	Person-Pronoun 651 652	他
+T81	Thing-Nominal 654 657	花生饼
+T82	Person-Nominal 664 666	两人
+T83	Person-Nominal 672 674	父亲
+T84	Thing-Nominal 679 683;684 685	一两花生 饼
+T85	Location-Nominal 686 687	家
+T86	Time-Explicit 690 694	文革”时
+T87	Person-Nominal 695 697	母亲
+T88	Person-Nominal 707 709	母亲
+T89	Thing-Nominal 716 718	药片
+T90	Person-Nominal 721 723	父亲
+T91	Person-Pronoun 727 728	他
+*	Coreference T91 T90
+T92	Thing-Nominal 745 749;750 753	公费医疗 开的药
+T93	Person-Nominal 754 756	母亲
+T94	Organization-Name 761 769	村里“合作医疗”
+T95	Person-Nominal 772 774	母亲
+T96	Person-Nominal 777 779	弟弟
+T97	Organization-Name 780 788	村里“合作医疗”
+T98	Thing-Nominal 790 791	药
+T99	Time-Explicit 793 803	20世纪70年代初期
+T100	Thing-Nominal 804 806	化肥
+T101	Time-Explicit 813 818	1973年
+T102	Person-Pronoun 818 819	我
+T103	Location-Nominal 823 824	家
+T104	Thing-Nominal 828 831	一场雨
+T105	Person-Nominal 832 835	很多人
+T106	Thing-Nominal 838 840	庄稼
+T107	Person-Pronoun 843 844	我
+T108	Location-Nominal 845 847	东屋
+T109	Thing-Nominal 848 853	小半袋化肥
+R4	Located Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 860 866	自留地的玉米
+T111	Location-Nominal 860 863	自留地
+R5	Located Arg1:T110 Arg2:T111	
+T112	Person-Nominal 868 870	母亲
+T113	Person-Nominal 876 878	父亲
+T114	Metric 888 890	三年
+T115	Thing-Nominal 892 899	那个很穷的村子
+T116	Person-Nominal 906 908	父亲
+T117	Time-Implicit 906 911	父亲调离后
+T118	Location-Nominal 912 914	村里
+T119	Person-Pronoun 918 919	他
+*	Coreference T119 T116
+T120	Person-Nominal 921 922	人
+T121	Location-Nominal 923 925	我家
+T122	Person-Pronoun 923 924	我
+T123	Thing-Nominal 926 930	一袋化肥
+T124	Person-Nominal 934 937	那个人
+T125	Person-Pronoun 937 939	自己
+T126	Location-Nominal 943 945	家中
+T127	Thing-Nominal 946 949	小半袋
+R6	Located Arg1:T127 Arg2:T126	
+T128	Person-Nominal 954 958	第二个人
+T129	Person-Nominal 964 966	人家
+T130	Person-Nominal 973 975	父亲
+T131	Person-Nominal 979 980	人
+T132	Person-Pronoun 986 987	我
+T133	Person-Nominal 998 1000	母亲
+T134	Thing-Nominal 1005 1009	半袋化肥
+T135	Thing-Nominal 1011 1013	玉米
+T136	Time-Implicit 1023 1026	第二天
+T137	Person-Nominal 1026 1028	父亲
+T138	Time-Implicit 1026 1033	父亲下乡回来后
+T139	Person-Pronoun 1035 1036	我
+T140	Person-Pronoun 1049 1050	我
+T141	Person-Nominal 1051 1053	兄妹
+T142	Person-Pronoun 1057 1058	他
+*	Coreference T142 T137
+T143	Person-Name 1059 1063	林克思”
+T144	Person-Name 1065 1068	老马列
+T145	Time-Implicit 1071 1076	父亲离休后
+T146	Person-Nominal 1071 1073	父亲
+T147	Time-Implicit 1079 1081	每月
+T148	Metric 1081 1083	两次
+T149	Organization-Nominal 1084 1087	乡政府
+T150	Person-Nominal 1089 1091	党员
+T151	Thing-Nominal 1095 1097	风雨
+T152	Thing-Nominal 1100 1101	雷
+T153	Person-Name 1109 1112	周总理
+T154	Person-Nominal 1132 1134	父亲
+T155	Person-Nominal 1135 1143	几位离休的老同志
+T156	Organization-Nominal 1144 1147	乡政府
+T157	Time-Implicit 1156 1163	晚上回家吃饭时
+T158	Person-Nominal 1164 1166	母亲
+T159	Person-Pronoun 1167 1168	他
+*	Coreference T159 T154
+T160	Person-Nominal 1178 1180	父亲
+T161	Person-Nominal 1183 1188	他们几个人
+T162	Thing-Nominal 1193 1195	报酬
+T163	Person-Nominal 1203 1205	母亲
+T164	Person-Pronoun 1206 1207	他
+T165	Person-Pronoun 1212 1214	自己
+T166	Time-Implicit 1225 1230	当天的夜里
+T167	Person-Nominal 1231 1233	父亲
+T168	Person-Nominal 1263 1265	父母
+T169	Time-Explicit 1256 1260	癸巳清明
+T170	Location-Nominal 1261 1262	乡
+T171	Thing-Nominal 1266 1267	碑
+T172	Thing-Nominal 1273 1275	遗物
+T173	Person-Nominal 1280 1282	父亲
+T174	Thing-Nominal 1285 1289	6本日记
+T175	Person-Nominal 1294 1296	个人
+T176	Time-Explicit 1305 1309	解放初期
+T177	Time-Implicit 1310 1314	父亲去世
+T178	Metric 1318 1324	40多个春秋
+T179	Person-Nominal 1338 1340	父亲
+T180	Organization-Nominal 1353 1355	县里
+T181	Person-Nominal 1362 1365	老干部
+T182	Person-Pronoun 1379 1380	我
+T183	Person-Nominal 1382 1386;1387 1388	其他老同 志
+T184	Location-Nominal 1392 1394	家乡
+T185	Time-Explicit 1405 1415	1986年4月16日
+T186	Time-Implicit 1419 1423	今天上午
+T187	Person-Pronoun 1424 1425	我
+T188	Abstract 1428 1435	《老干部之家》
+T189	Person-Pronoun 1446 1447	我
+T190	Time-Explicit 1471 1480	1998年9月6日
+T191	Time-Implicit 1483 1487	两个月后
+T192	Person-Nominal 1487 1489	父亲
+T193	Person-Nominal 1508 1510	父亲
+T194	Time-Explicit 1526 1531	1961年
+T195	Organization-Name 1533 1537	龙夼大队
+T196	Thing-Nominal 1538 1542	甜瓜两个
+T197	Time-Explicit 1543 1548	1962年
+T198	Location-Name 1549 1552	黑夼村
+T199	Organization-Nominal 1554 1556	大队
+T200	Thing-Nominal 1558 1562	苹果1斤
+T201	Person-Pronoun 1578 1579	我
+T202	Person-Nominal 1582 1584	父亲
+T203	Person-Nominal 1586 1593	一名老共产党员
+T204	Person-Nominal 1595 1596	党
+T205	Person-Nominal 1601 1603	群众
+T206	Person-Pronoun 1608 1610	自己
+T207	Person-Pronoun 1615 1616	我
+T208	Person-Nominal 1616 1629	这个已有40多年党龄的晚辈
+T209	Metric 1620 1624	40多年
+*	Coreference T14 T7
+R7	General-Special Arg1:T24 Arg2:T23	
+*	Coreference T36 T35
+R8	Family Arg1:T96 Arg2:T95	
+R9	Family Arg1:T90 Arg2:T87	
+R10	Family Arg1:T113 Arg2:T112	
+R11	Social Arg1:T155 Arg2:T154	
+T210	Person-Pronoun 1183 1185	他们
+T211	Thing-Nominal 1326 1328	日记
+T212	Organization-Nominal 1454 1463	一个清明廉政的政党
+R12	General-Special Arg1:T203 Arg2:T202	
+*	Coreference T206 T202
+T214	Thing-Nominal 614 617	花生饼
+T213	Thing-Nominal 618 622;623 627	花生榨油 后的渣饼

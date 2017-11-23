@@ -1,0 +1,215 @@
+T1	Time-Implicit 0 3	晚饭后
+T2	Location-Name 4 8	滨江广场
+T3	Location-Nominal 11 14	树影里
+T4	Person-Nominal 18 20	一人
+T5	Person-Pronoun 22 23	我
+T6	Person-Name 33 36	张老倌
+*	Coreference T6 T4 T8 T27
+R1	Social Arg1:T6 Arg2:T5	
+T7	Person-Name 38 40	老宋
+T8	Person-Pronoun 41 42	我
+T9	Person-Name 50 53	王老倌
+T10	Person-Nominal 50 56	王老倌的老婆
+R2	Family Arg1:T10 Arg2:T9	
+T11	Location-Nominal 50 64	王老倌的老婆读中学的那个学校
+T12	Person-Pronoun 71 72	她
+*	Coreference T12 T10 T21 T25 T50
+T13	Abstract 73 78	校花的称号
+T14	Location-Nominal 83 87	她那学校
+*	Coreference T14 T11
+T15	Person-Nominal 87 91	漂亮女生
+T16	Thing-Nominal 96 98;99 103	牡丹 玫瑰玉兰
+T17	Person-Pronoun 105 106	她
+T18	Thing-Nominal 108 120	旮旯弯里的喇叭花呜哩哇啦
+T19	Person-Nominal 128 130	男生
+T20	Person-Pronoun 131 132	她
+T21	Person-Nominal 146 149	他老婆
+T22	Thing-Nominal 149 151	胸脯
+R3	Part-Whole Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 156 158	飞机
+T24	Thing-Nominal 163 166	烂布巾
+T25	Person-Nominal 173 179	一个老妖精婆
+T26	Person-Pronoun 182 183	我
+T27	Person-Pronoun 184 185	他
+T28	Person-Name 186 189	王老倌
+R4	Social Arg1:T9 Arg2:T8	
+T29	Time-Implicit 193 202	去年子冬天某个上午
+T30	Location-Nominal 203 206	院子里
+T31	Person-Nominal 206 215	几个退了休的老家伙
+T32	Location-Nominal 217 223	坪里的花坛旁
+T33	Person-Name 235 238	张老倌
+T34	Person-Nominal 235 241	张老倌的老婆
+R5	Family Arg1:T34 Arg2:T33	
+T35	Time-Implicit 306 308	之后
+T36	Person-Name 311 314	王老倌
+T37	Thing-Nominal 325 327	脑壳
+R6	Part-Whole Arg1:T37 Arg2:T33	
+T38	Person-Nominal 344 350	张老倌的老婆
+T39	Time-Implicit 361 364	年轻时
+T40	Person-Pronoun 384 385	我
+T41	Person-Name 389 392	张老倌
+T42	Person-Name 393 396	王老倌
+T43	Person-Pronoun 403 404	你
+*	Coreference T43 T41 T38 T54 T64 T65 T67 T77
+T44	Person-Pronoun 408 409	他
+*	Coreference T44 T42
+T45	Location-Nominal 417 421	一个院子
+T46	Person-Nominal 433 444;445 447	一个手掌搭一个指头岁数 的人
+T47	Person-Pronoun 455 457	我们
+R7	General-Special Arg1:T46 Arg2:T42	
+R8	General-Special Arg1:T46 Arg2:T41	
+R9	General-Special Arg1:T46 Arg2:T40	
+T48	Time-Implicit 473 475	早天
+T49	Person-Pronoun 476 477	他
+T50	Person-Pronoun 478 481	他老婆
+R10	Family Arg1:T50 Arg2:T49	
+T51	Person-Pronoun 502 503	我
+T52	Time-Implicit 505 508	去年子
+T53	Person-Pronoun 508 509	他
+T54	Person-Nominal 510 513	我老婆
+R11	Family Arg1:T51 Arg2:T54	
+T55	Thing-Nominal 514 516	腌菜
+T56	Person-Pronoun 521 522	我
+T57	Person-Pronoun 524 525	他
+T58	Person-Pronoun 531 532	我
+T59	Metric 536 539	几十年
+T60	Person-Nominal 542 550	么子形状的老色鬼
+T61	Person-Pronoun 550 551	我
+T62	Person-Nominal 564 565	人
+T63	Person-Pronoun 588 589	我
+T64	Person-Name 594 598	你张老倌
+T65	Person-Pronoun 603 604	你
+T66	Person-Pronoun 607 610	王老倌
+T67	Person-Pronoun 618 619	我
+T68	Person-Nominal 623 627	一个好人
+T69	Person-Nominal 633 637	一个坏人
+T70	Person-Pronoun 639 640	你
+T71	Person-Pronoun 644 645	我
+T72	Person-Nominal 646 650	私家侦探
+T73	Person-Pronoun 652 653	他
+T74	Person-Nominal 654 657	他老婆
+T75	Person-Nominal 669 673	私家侦探
+T76	Person-Name 677 680	王老倌
+*	Coreference T70 T63
+T77	Person-Pronoun 674 675	你
+T78	Location-Name 738 740	河西
+T79	Location-Name 741 743	株洲
+T80	Person-Pronoun 714 715	我
+T81	Person-Pronoun 717 718	他
+T82	Person-Nominal 719 722	他老婆
+R12	Family Arg1:T74 Arg2:T73	
+T83	Person-Pronoun 748 750	他们
+T84	Location-Nominal 730 733	全院子
+T85	Person-Nominal 717 722	他和他老婆
+*	Coreference T83 T85
+T86	Person-Pronoun 757 758	我
+T87	Time-Implicit 763 767	那日下午
+T88	Person-Nominal 768 776	院子里几个老家伙
+T89	Location-Nominal 768 771	院子里
+T90	Location-Name 779 783	滨江广场
+T91	Thing-Nominal 784 788	那圈长椅
+R13	Located Arg1:T91 Arg2:T90	
+T92	Thing-Name 790 792	太阳
+T93	Thing-Name 793 795	太阳
+T94	Person-Nominal 800 802	各人
+T95	Person-Nominal 803 805	各人
+T96	Person-Pronoun 815 817	有人
+T97	Person-Pronoun 826 828	有人
+T98	Person-Nominal 841 844	老年人
+R14	General-Special Arg1:T98 Arg2:T88	
+T99	Person-Pronoun 854 855	我
+T100	Person-Name 856 859	王老倌
+T101	Person-Pronoun 860 861	你
+*	Coreference T101 T100
+T102	Person-Nominal 863 867	那朵校花
+*	Coreference T102 T82 T103 T106 T127
+T103	Person-Pronoun 879 880	她
+T104	Person-Name 886 890	青年满哥
+T105	Person-Name 898 901	王老倌
+T106	Person-Nominal 908 911	我老婆
+T107	Person-Pronoun 913 914	你
+*	Coreference T107 T99
+T108	Location-Nominal 937 939	屋里
+T109	Person-Name 942 945	宋祖英
+T110	Person-Nominal 954 959	几个老家伙
+T111	Time-Implicit 952 954	当时
+*	Coreference T110 T88
+T112	Person-Pronoun 999 1000	我
+T113	Person-Name 1002 1005	王老倌
+T114	Time-Implicit 1014 1016	啥时
+T115	Person-Name 1021 1024	张老倌
+T116	Person-Name 1045 1047	老宋
+*	Coreference T116 T112 T117 T123 T165
+*	Coreference T7 T5
+T117	Person-Pronoun 1048 1049	你
+T118	Person-Pronoun 1050 1051	他
+*	Coreference T118 T113 T124
+T119	Person-Nominal 1060 1063	他老婆
+T120	Person-Nominal 1077 1079	校花
+T121	Person-Nominal 1093 1095	校花
+T122	Person-Pronoun 1096 1097	你
+T123	Person-Pronoun 1103 1104	你
+*	Coreference T122 T115
+T124	Person-Pronoun 1106 1107	他
+T125	Person-Pronoun 1113 1114	我
+T126	Person-Pronoun 1115 1116	你
+T127	Person-Nominal 1118 1122	这朵校花
+T128	Person-Pronoun 1135 1136	我
+T129	Time-Implicit 1138 1140	当年
+T130	Person-Nominal 1142 1148	王老倌俩囗子
+T131	Person-Nominal 1153 1155	司仪
+R15	Social Arg1:T131 Arg2:T130	
+T132	Person-Pronoun 1156 1158	他们
+*	Coreference T132 T130
+T133	Person-Pronoun 1161 1162	谁
+T134	Person-Pronoun 1163 1164	谁
+T135	Person-Name 1165 1168	王老倌
+T136	Person-Pronoun 1180 1181	我
+T137	Person-Pronoun 1189 1190	她
+T138	Person-Pronoun 1191 1192	我
+T139	Person-Name 1193 1195;1196 1197	王老 倌
+T140	Person-Nominal 1193 1195;1196 1200	王老 倌的老婆
+T141	Person-Name 1212 1215	小英莲
+T142	Person-Pronoun 1232 1233	我
+T143	Person-Pronoun 1234 1235	他
+*	Coreference T142 T140 T154
+*	Coreference T143 T139
+T144	Person-Pronoun 1236 1237	我
+T145	Person-Pronoun 1244 1245	他
+T146	Person-Pronoun 1246 1247	我
+T147	Person-Pronoun 1248 1249	我
+T148	Person-Pronoun 1257 1259	他们
+T149	Person-Nominal 1261 1266	农村伢妹子
+T150	Location-Nominal 1270 1275	一个村子里
+T151	Person-Name 1308 1311	王老倌
+T152	Person-Pronoun 1313 1314	我
+*	Coreference T152 T151
+T153	Person-Pronoun 1318 1319	我
+T154	Person-Pronoun 1322 1323	她
+T155	Person-Pronoun 1324 1325	我
+T156	Person-Pronoun 1341 1342	我
+T157	Person-Pronoun 1343 1344	她
+T158	Person-Nominal 1351 1358	，厂里的工友们
+T159	Person-Name 1360 1363	王老倌
+R16	Social Arg1:T158 Arg2:T159	
+T160	Person-Name 1407 1410	张老倌
+T161	Person-Nominal 1417 1420	他老婆
+T162	Person-Pronoun 1428 1429	我
+T163	Person-Name 1434 1437	王老倌
+T164	Person-Nominal 1448 1451	你夫人
+R17	Family Arg1:T162 Arg2:T164	
+T165	Person-Pronoun 1460 1461	我
+T166	Person-Pronoun 1465 1466	他
+*	Coreference T166 T160 T162 T175
+T167	Person-Nominal 1477 1479	观众
+T168	Person-Name 1481 1483	老宋
+T169	Person-Name 1484 1487	王老倌
+T170	Person-Nominal 1484 1490	王老倌的老婆
+T171	Time-Implicit 1490 1492	先前
+T172	Location-Nominal 1493 1495	厂里
+T173	Organization-Name 1496 1501	文艺宣传队
+T174	Person-Name 1527 1528;1529 1531	王 老倌
+T175	Person-Pronoun 1571 1572	你
+T176	Person-Pronoun 1577 1578	我
+*	Coreference T176 T168
+T177	Person-Nominal 1543 1545	校花

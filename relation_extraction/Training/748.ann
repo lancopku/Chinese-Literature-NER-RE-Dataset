@@ -1,0 +1,278 @@
+T1	Location-Name 21 23	幕阜
+T2	Location-Nominal 21 31	幕阜深处的这个古村落
+R1	Near Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 5 7	箫鼓
+T4	Thing-Nominal 8 10	荒烟
+T5	Location-Nominal 33 37	幕阜山脉
+T6	Location-Nominal 39 47	典型的褶皱断块山
+*	Coreference T6 T5
+T7	Location-Name 53 56	天岳山
+T8	Location-Name 58 60	五岳
+T9	Physical 74 76	六岳
+T10	Person-Nominal 90 92	雷神
+T11	Person-Name 98 100	伏羲
+T12	Location-Nominal 81 89	中华龙脉发祥之处
+T13	Location-Nominal 90 93;94 97	雷神居 住之所
+T14	Location-Nominal 98 104	伏羲诞生之地
+T15	Location-Nominal 105 115	中华道家思想发源之宗
+*	Coreference T7 T12 T13 T14 T15 T19 T23 T25
+T16	Person-Name 126 132	道家先师葛洪
+T17	Person-Name 133 138	神仙吕洞宾
+T18	Person-Name 139 142	张果老
+T19	Location-Nominal 143 145	此山
+T20	Person-Nominal 146 147	仙
+T21	Time-Explicit 148 154;155 156	公元前22世 纪
+T22	Person-Name 157 159	舜帝
+T23	Location-Pronoun 160 162	此处
+T24	Person-Nominal 164 166	三苗
+T25	Location-Nominal 174 175	山
+T26	Person-Name 182 183	禹
+T27	Thing-Nominal 191 193	石壁
+T28	Person-Name 199 200	禹
+T29	Location-Name 201 204	幕阜山
+T30	Person-Name 206 208	伏羲
+T31	Location-Name 217 220	缆船坡
+T32	Location-Name 221 224	系舟峰
+T33	Location-Name 228 231	一峰尖
+T34	Person-Name 236 238	禹帝
+*	Coreference T28 T34
+T35	Person-Name 272 276	药王许迈
+T36	Person-Name 278 283	唐代徐安贞
+T37	Person-Name 284 287	刘光谦
+T38	Person-Name 288 291	陈希烈
+T39	Person-Name 292 295	李安甫
+T40	Person-Name 301 306	宋祖朱元璋
+T41	Person-Name 307 313	道教天师许逊
+T42	Person-Name 314 320	狂草书圣张旭
+T43	Time-Explicit 331 334	三国时
+T44	Person-Name 334 337;338 342	东吴名 将太史慈
+T45	Organization-Name 343 347	刘表大军
+T46	Location-Nominal 352 354	山顶
+T47	Location-Nominal 366 372	幕阜山老崖尖
+T48	Location-Nominal 373 382	九宫山南花甲脑盆地
+T49	Location-Name 385 391	江西省宜丰县
+T50	Location-Nominal 397 407	一个貌不惊人的小村庄
+T51	Metric 397 399	一个
+T52	Person-Nominal 402 403	人
+T53	Location-Name 420 422	找桥
+*	Coreference T53 T50 T59
+T54	Person-Nominal 431 433	先民
+T55	Location-Nominal 440 442	大山
+T57	Metric 454 456	一座
+T56	Thing-Nominal 456 458	天桥
+T58	Location-Nominal 475 483	赣湘、赣鄂古驿道
+T59	Location-Nominal 485 486	村
+T60	Location-Nominal 491 492	街
+T61	Person-Nominal 499 508	千年往来于斯的商人
+T62	Thing-Nominal 509 511	马队
+T63	Thing-Nominal 522 525	车辙痕
+T64	Thing-Nominal 526 530	石板路面
+T65	Location-Nominal 536 545;546 552	一座建于乾隆、嘉庆 年间的石拱桥
+T66	Metric 536 538	一座
+T67	Person-Name 540 542	乾隆
+T68	Person-Name 543 545	嘉庆
+T69	Time-Explicit 540 545;546 548	乾隆、嘉庆 年间
+T70	Location-Nominal 549 552	石拱桥
+T71	Thing-Nominal 556 558	山洪
+T72	Location-Nominal 574 583	靠山而建的连体民房
+T73	Location-Nominal 569 573	街道两旁
+T74	Location-Nominal 585 593	傍河而立的吊脚楼
+T75	Metric 599 602	三五幢
+T76	Location-Nominal 602 606	新式楼房
+T77	Thing-Nominal 609 610	鸡
+T78	Thing-Nominal 612 613	鹤
+T79	Location-Nominal 617 628	古风古韵犹存的龙钟民居
+T80	Location-Nominal 632 640	木构盖泥瓦的建筑
+T81	Thing-Nominal 642 651	可卸可装的木板店门
+T82	Location-Nominal 669 671	楼上
+T83	Location-Nominal 674 678	临时库房
+T84	Thing-Nominal 694 696	窑砖
+T85	Location-Nominal 701 704	古民居
+T86	Time-Implicit 718 720	当年
+T87	Thing-Nominal 721 727	柜台货架之物
+T88	Location-Nominal 729 739	村北滨临潦河源的河岸
+T89	Location-Nominal 747 751	码头遗址
+T90	Metric 744 747	一二处
+T91	Location-Pronoun 753 756	此源头
+T92	Location-Nominal 733 736	潦河源
+*	Coreference T92 T91
+T93	Thing-Nominal 774 775	舟
+T94	Time-Implicit 784 788	百年之前
+T95	Location-Nominal 797 799	村头
+T96	Location-Nominal 801 805	四方山头
+T97	Thing-Nominal 806 810	苍虬老树
+T98	Thing-Nominal 832 833	树
+T99	Thing-Nominal 837 838	水
+T100	Thing-Nominal 853 854	物
+T101	Person-Nominal 863 864	子
+T102	Person-Nominal 866 867	人
+T103	Location-Name 891 893	找桥
+T104	Location-Nominal 905 906	山
+T105	Thing-Nominal 908 909	藤
+T106	Thing-Nominal 910 911	树
+T107	Location-Nominal 941 945	村后禁山
+T108	Location-Nominal 964 973	找桥的这座小小森林
+T109	Thing-Nominal 980 982	老茎
+T110	Thing-Nominal 983 985	青藤
+T111	Thing-Nominal 986 988	嫩芽
+T112	Thing-Nominal 989 991	主根
+T113	Thing-Nominal 996 998	古树
+T114	Thing-Nominal 999 1001	新藤
+T115	Location-Nominal 1030 1032	禁山
+*	Coreference T115 T107
+T116	Thing-Nominal 1035 1060	高过20米，直径超过1米，树令已超过百年的大叶青冈
+T117	Metric 1034 1035	颗
+T118	Location-Nominal 1061 1064	东头坎
+T119	Thing-Nominal 1067 1073;1074 1093	腰围超过3米 ，年成好时仍可结出红色果实的南方红豆杉
+T120	Thing-Nominal 1096 1122	相携相依走过千年，有“植物活化石”之称的雌雄寿星银杏
+T121	Metric 1094 1096	两株
+T122	Thing-Nominal 1129 1131	樟树
+T123	Thing-Nominal 1132 1134	槭木
+T124	Thing-Nominal 1136 1138	红枫
+T125	Thing-Nominal 1145 1147	翠竹
+T126	Thing-Nominal 1150 1152	红杉
+T127	Location-Nominal 1127 1128	村
+T128	Location-Nominal 1143 1144	溪
+T129	Thing-Nominal 1157 1159	古树
+T130	Thing-Nominal 1204 1206	植物
+T131	Thing-Nominal 1230 1236	自然历史文物
+T132	Thing-Nominal 1243 1245	古树
+T133	Person-Nominal 1255 1256	民
+T134	Location-Name 1267 1269	找桥
+T135	Person-Nominal 1281 1283	村民
+T136	Location-Nominal 1278 1280	街头
+T137	Location-Nominal 1300 1309	三省通衢的繁华之地
+*	Coreference T137 T134 T138
+T138	Location-Nominal 1310 1318	巡检司的驻扎之地
+T139	Person-Pronoun 1319 1320	他
+*	Coreference T139 T135 T155
+T140	Person-Pronoun 1285 1286	我
+T141	Location-Nominal 1325 1327;1328 1345	海拔 891米的八叠岭大山深处的一个塞口
+T142	Location-Nominal 1351 1377	由块石、城砖修建的高有2到4米、长有30余米的古城墙
+T143	Thing-Nominal 1355 1357	城砖
+T144	Thing-Nominal 1352 1354	块石
+T145	Metric 1349 1351	一处
+T146	Location-Nominal 1378 1380	城墙
+*	Coreference T146 T142
+T147	Location-Nominal 1384 1388;1389 1393	麻条石辅 就的古道
+T148	Metric 1382 1384	一条
+T149	Thing-Nominal 1384 1387	麻条石
+T150	Location-Nominal 1397 1399	大山
+T151	Thing-Nominal 1402 1407	道上的石板
+R2	Located Arg1:T151 Arg2:T147	
+T152	Thing-Nominal 1419 1420	脚
+T153	Thing-Nominal 1430 1432	石板
+T154	Metric 1428 1430	一块
+T155	Person-Pronoun 1445 1446	他
+T156	Location-Nominal 1451 1458	古巡检司的遗址
+T157	Location-Pronoun 1414 1416	这里
+*	Coreference T157 T147 T156
+T158	Organization-Nominal 1486 1489	巡检司
+T159	Location-Nominal 1507 1510;1511 1512	巡检司 城
+T160	Metric 1506 1507	座
+T161	Person-Nominal 1541 1548	德隆望尊之鸿儒
+T162	Metric 1539 1541	一位
+T163	Person-Pronoun 1551 1552	他
+*	Coreference T163 T161
+T164	Person-Pronoun 1570 1571;1572 1573	自 己
+T165	Person-Pronoun 1597 1598	我
+*	Coreference T165 T164
+T166	Organization-Nominal 1619 1624	找桥巡检司
+T167	Location-Nominal 1618 1629	“找桥巡检司”的驻扎地
+T168	Person-Pronoun 1631 1632	我
+T169	Location-Nominal 1683 1685	关口
+T170	Person-Nominal 1688 1690	商户
+T171	Location-Nominal 1712 1714	商铺
+T172	Location-Nominal 1715 1717	餐馆
+T173	Location-Nominal 1718 1720	客栈
+T174	Location-Nominal 1722 1724	药肆
+T175	Location-Nominal 1725 1727	寺庙
+T176	Location-Nominal 1728 1730	戏楼
+T177	Location-Nominal 1755 1760	古街的后街
+T178	Location-Nominal 1765 1772	清代的瓷坊遗址
+T179	Metric 1763 1765	一座
+T180	Location-Nominal 1787 1789	窑头
+T181	Thing-Nominal 1792 1794	瓷砾
+T182	Time-Explicit 1823 1838	民国二十二年(1933)十一月
+T183	Location-Name 1839 1841	江西
+T184	Location-Nominal 1849 1852	特别区
+T185	Metric 1847 1849	8个
+T186	Location-Name 1856 1862	宜丰县潭山镇
+T187	Location-Name 1863 1873	天宝、同安、花桥三乡
+T188	Location-Name 1863 1878	天宝、同安、花桥三乡的部份地区
+T189	Location-Name 1882 1897	修水、铜鼓、奉新三县的部份地区
+T190	Location-Name 1882 1892	修水、铜鼓、奉新三县
+T191	Location-Name 1899 1904	找桥特别区
+T192	Organization-Nominal 1912 1918	特别区政治局
+T193	Time-Explicit 1919 1923	翌年2月
+T194	Location-Name 1926 1931	潭山万寿宫
+T195	Location-Name 1933 1935	找桥
+R3	Near Arg1:T195 Arg2:T194	
+T196	Time-Explicit 1941 1943	5月
+T197	Location-Name 1943 1949	迁汉塘花门楼
+R4	Near Arg1:T197 Arg2:T195	
+T198	Time-Explicit 1958 1965;1966 1971	二十四年(19 35)四月
+T199	Location-Nominal 2031 2033	农村
+T200	Location-Nominal 2041 2043	城镇
+T201	Person-Nominal 2050 2052	子女
+T202	Person-Nominal 2056 2067	追求更大发展空间的农民
+T203	Time-Implicit 2080 2082	白日
+T204	Location-Nominal 2084 2085	村
+T205	Person-Nominal 2086 2087	人
+*	Coreference T204 T195
+T206	Thing-Nominal 2091 2096	外出的摩托
+T207	Person-Nominal 2108 2115	扛锄提篮的村妇
+T208	Thing-Nominal 2109 2110	锄
+T209	Thing-Nominal 2111 2112	篮
+T210	Person-Nominal 2120 2124	倚门老者
+T211	Person-Nominal 2126 2130	闲谈伙伴
+T212	Location-Nominal 2131 2133	小街
+T213	Location-Nominal 2142 2147	村头小电站
+T214	Thing-Nominal 2150 2152	流水
+T215	Thing-Nominal 2159 2160	狗
+T216	Thing-Nominal 2161 2162	鸡
+T217	Location-Nominal 2180 2182	村口
+T218	Thing-Nominal 2183 2185	孤灯
+T219	Location-Nominal 2190 2197	空空荡荡的老街
+T220	Thing-Nominal 2205 2207	朱门
+T221	Thing-Nominal 2210 2212	落叶
+T222	Location-Nominal 2216 2217	园
+T223	Location-Nominal 2243 2245	古楼
+T224	Metric 2240 2243	数十幢
+T225	Location-Nominal 2254 2256	巷陌
+T226	Person-Nominal 2270 2273	主妇们
+T227	Location-Nominal 2275 2277	小镇
+T228	Thing-Nominal 2299 2301	晚餐
+T229	Thing-Nominal 2304 2305	饭
+T230	Thing-Nominal 2307 2308	菜
+T231	Thing-Nominal 2310 2311	烟
+T232	Location-Nominal 2382 2389	蜿蜒过村的小溪
+T233	Metric 2381 2382	条
+T234	Location-Nominal 2352 2354	小村
+T235	Location-Pronoun 2361 2363	自己
+*	Coreference T235 T234 T237 T238
+T236	Thing-Nominal 2397 2403	水面上的浮萍
+T237	Location-Pronoun 2407 2408	它
+T238	Location-Nominal 2413 2414	村
+T239	Thing-Nominal 2416 2419	石拱桥
+T240	Thing-Nominal 2420 2423	石板路
+T241	Thing-Nominal 2424 2427	风火墙
+T242	Thing-Nominal 2428 2431	吊脚楼
+T243	Thing-Pronoun 2432 2434	它们
+R5	Part-Whole Arg1:T240 Arg2:T243	
+R6	Part-Whole Arg1:T239 Arg2:T243	
+R7	Part-Whole Arg1:T241 Arg2:T243	
+R8	Part-Whole Arg1:T242 Arg2:T243	
+T244	Location-Nominal 2467 2469	侯馆
+T245	Thing-Nominal 2469 2470	梅
+T246	Thing-Nominal 2472 2474	溪桥
+T247	Thing-Nominal 2474 2475	柳
+T248	Thing-Nominal 2477 2478	草
+T249	Thing-Nominal 2479 2480	风
+T250	Thing-Nominal 2482 2484	征辔
+T251	Thing-Nominal 2503 2505	柔肠
+T252	Thing-Nominal 2508 2510	粉泪
+T253	Metric 2501 2503	寸寸
+T254	Metric 2506 2508	盈盈
+T255	Location-Nominal 2524 2526	春山
+T256	Person-Nominal 2528 2530	行人

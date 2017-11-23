@@ -1,0 +1,102 @@
+T1	Time-Explicit 0 9	2013年七月一日
+T2	Person-Name 12 22	省著名书画家路遥老师
+T3	Organization-Nominal 22 25	书画院
+R1	Ownership Arg1:T2 Arg2:T3	
+T4	Person-Pronoun 31 32	我
+T5	Metric 38 41	一幅幅
+T6	Thing-Nominal 41 43	画卷
+T7	Metric 48 50	一幅
+T8	Thing-Nominal 50 59	栩栩如生的游鱼画面
+T9	Thing-Nominal 67 72	画卷那鱼儿
+T10	Thing-Nominal 74 75	水
+T11	Thing-Nominal 81 90	成群结队的红色鱼儿
+T12	Thing-Nominal 94 95	头
+T13	Thing-Nominal 96 97	尾
+R2	Part-Whole Arg1:T12 Arg2:T11	
+R3	Part-Whole Arg1:T13 Arg2:T11	
+T14	Person-Pronoun 128 129	我
+T15	Thing-Nominal 139 140	鱼
+T16	Person-Nominal 140 142	人们
+T17	Thing-Nominal 148 149	水
+T18	Thing-Nominal 153 154	水
+T19	Thing-Nominal 159 160	鱼
+T20	Thing-Nominal 161 162	鱼
+T21	Thing-Nominal 163 164	水
+T22	Thing-Nominal 174 176	万物
+T23	Thing-Nominal 182 183	水
+T24	Thing-Nominal 188 189	鱼
+T25	Thing-Nominal 192 193	鱼
+T26	Person-Nominal 197 198	人
+T27	Person-Nominal 205 207	人们
+T28	Thing-Nominal 208 213	无数的鱼儿
+T29	Thing-Nominal 221 222	水
+T30	Person-Nominal 226 228	人们
+T31	Thing-Nominal 226 232	人们的生命源
+*	Coreference T31 T29
+T32	Thing-Nominal 240 242	水源
+T33	Person-Pronoun 253 254	我
+T34	Location-Name 257 260	鸭绿江
+T35	Thing-Nominal 262 267	绿色的江水
+T36	Location-Nominal 270 274	大山村屯
+T37	Location-Nominal 276 278	江水
+T38	Person-Nominal 280 282	人家
+T39	Location-Nominal 287 289	水土
+T40	Person-Nominal 292 293	人
+T41	Location-Nominal 302 303	江
+*	Coreference T41 T34
+T42	Thing-Nominal 307 313;314 317	各种不同的大 鱼小鱼
+T43	Thing-Nominal 320 321	鱼
+T44	Person-Pronoun 336 338	自己
+T45	Person-Nominal 349 352	大人们
+T46	Thing-Nominal 357 361	好大的鱼
+T47	Metric 355 357	一条
+T48	Thing-Nominal 362 364	那鱼
+*	Coreference T48 T46 T61 T68
+T49	Person-Pronoun 369 370	我
+T50	Metric 389 391	四个
+T51	Person-Nominal 391 392	人
+T52	Metric 394 396	一头
+T53	Thing-Nominal 396 399	大年猪
+T54	Metric 403 405	一头
+T55	Thing-Nominal 405 409	大大的鱼
+T56	Location-Nominal 410 417	过岭的石柱江边
+T57	Metric 418 420	一条
+T58	Thing-Nominal 420 422	大鱼
+T59	Person-Nominal 447 448	人
+T60	Person-Nominal 452 456	小孩子们
+T61	Thing-Nominal 461 463	大鱼
+T62	Person-Nominal 469 472	大人们
+T63	Thing-Nominal 484 486	躯体
+R4	Part-Whole Arg1:T63 Arg2:T61	
+T64	Thing-Nominal 492 494	猪肉
+T65	Thing-Nominal 498 500	鱼肉
+T66	Thing-Nominal 507 509	餐桌
+T67	Person-Nominal 512 515	一家人
+T68	Thing-Nominal 519 522	这条鱼
+T69	Thing-Nominal 531 533	身体
+T70	Thing-Nominal 538 540	鱼肉
+T71	Thing-Nominal 541 542	牙
+T72	Thing-Nominal 558 561	这条鱼
+T73	Person-Nominal 562 564	人类
+T74	Person-Pronoun 575 576	我
+T75	Thing-Nominal 592 593	水
+T76	Person-Pronoun 599 600	我
+T77	Thing-Nominal 604 606	餐桌
+T78	Person-Nominal 618 624	当年的小姑娘
+*	Coreference T78 T76 T80
+T79	Thing-Nominal 634 636	鱼肉
+T80	Person-Pronoun 644 645	我
+T81	Thing-Nominal 649 650	鱼
+T82	Person-Pronoun 658 659	我
+T83	Thing-Nominal 661 663	鱼儿
+T84	Thing-Nominal 667 672	家乡的水儿
+T85	Thing-Nominal 673 677	清澈的水
+T86	Thing-Nominal 678 680	鱼儿
+T87	Person-Pronoun 686 687	我
+T88	Thing-Nominal 687 692	童年的小脚
+R5	Part-Whole Arg1:T88 Arg2:T87	
+T89	Thing-Nominal 698 703	我的小手儿
+R6	Part-Whole Arg1:T89 Arg2:T87	
+T90	Thing-Nominal 714 716	鱼儿
+T91	Person-Pronoun 717 718	我
+T92	Time-Implicit 729 733	那个年代

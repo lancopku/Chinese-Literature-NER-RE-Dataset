@@ -1,0 +1,251 @@
+T1	Time-Implicit 0 2	春天
+T2	Person-Name 3 6	花奶奶
+T3	Metric 8 11	十几年
+T4	Thing-Nominal 12 14	小狗
+T5	Thing-Pronoun 27 28	它
+*	Coreference T5 T4 T8 T12 T16
+R1	Ownership Arg1:T2 Arg2:T4	
+T6	Time-Implicit 33 35	昨天
+T7	Person-Name 37 40	花妹妹
+T8	Thing-Nominal 47 49	狗狗
+T9	Time-Implicit 67 69	今天
+T10	Thing-Nominal 73 74	药
+T11	Time-Implicit 104 109	前年的时候
+T12	Thing-Nominal 111 115	那条小狗
+T13	Thing-Nominal 133 135	母狗
+T14	Thing-Nominal 144 145	肉
+T15	Person-Name 149 152	花奶奶
+T16	Thing-Pronoun 153 154	他
+T17	Location-Nominal 155 158	长保家
+T18	Thing-Nominal 165 167	奶壶
+R2	Use Arg1:T15 Arg2:T18	
+T19	Thing-Nominal 174 176	狗狗
+T20	Location-Nominal 190 192	院子
+T21	Location-Nominal 200 202	街上
+T22	Thing-Pronoun 206 207	它
+*	Coreference T22 T19
+T23	Location-Nominal 212 215	下水道
+T24	Location-Nominal 219 221	路上
+T25	Thing-Nominal 222 223	车
+T26	Location-Nominal 236 238	家里
+T27	Location-Nominal 245 246	坑
+T28	Thing-Nominal 252 254	木板
+R3	Located Arg1:T28 Arg2:T27	
+R4	Part-Whole Arg1:T27 Arg2:T26	
+T29	Thing-Nominal 257 259	大门
+R5	Located Arg1:T29 Arg2:T26	
+T30	Thing-Nominal 269 271	狗狗
+T31	Time-Implicit 273 276	一岁时
+T32	Thing-Nominal 277 279	骨头
+R6	Part-Whole Arg1:T32 Arg2:T30	
+T33	Person-Nominal 285 288	老人们
+T34	Thing-Nominal 289 291	猫猫
+T35	Thing-Nominal 291 293	狗狗
+T36	Thing-Nominal 301 302	药
+T37	Thing-Nominal 305 307	蛋清
+T38	Person-Name 322 325	花奶奶
+T39	Thing-Nominal 326 328	狗狗
+T40	Thing-Name 334 337	小小花
+*	Coreference T40 T39
+T41	Person-Nominal 338 341	家里人
+T42	Person-Nominal 342 346	隔壁邻右
+T43	Person-Pronoun 356 357	我
+T44	Person-Pronoun 380 381	我
+T45	Person-Nominal 392 394	自己
+*	Coreference T44 T45
+T46	Person-Nominal 401 405	风霜男人
+R7	General-Special Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 408 410	狗狗
+T48	Thing-Name 423 426	小小花
+T49	Thing-Pronoun 427 428	它
+*	Coreference T49 T48
+T50	Person-Pronoun 442 443	你
+T51	Thing-Nominal 447 449	尾巴
+R8	Part-Whole Arg1:T51 Arg2:T49	
+T52	Thing-Nominal 456 458	狗狗
+T53	Person-Pronoun 461 462	我
+T54	Person-Nominal 463 465	街坊
+R9	Social Arg1:T53 Arg2:T54	
+T55	Thing-Pronoun 469 470	它
+T56	Thing-Nominal 479 481	铃铛
+T57	Thing-Nominal 484 486	院门
+T58	Person-Pronoun 489 490	我
+T59	Person-Pronoun 504 505	我
+T60	Location-Nominal 507 511	花奶奶家
+T61	Person-Nominal 507 511;512 515	花奶奶家 的邻居
+*	Coreference T59 T61
+T62	Person-Pronoun 529 530	我
+R10	Social Arg1:T43 Arg2:T38	
+R11	Family Arg1:T41 Arg2:T43	
+R12	Social Arg1:T42 Arg2:T43	
+T63	Person-Pronoun 537 538	我
+T64	Person-Name 544 547	花奶奶
+T65	Person-Pronoun 549 550	你
+T66	Person-Pronoun 551 552	你
+*	Coreference T65 T63
+T67	Location-Nominal 560 562	家里
+T68	Thing-Nominal 563 565	狗狗
+T69	Person-Pronoun 568 569	你
+T70	Thing-Nominal 574 576	牲畜
+R13	General-Special Arg1:T68 Arg2:T70	
+T71	Person-Nominal 578 583	没仁义的人
+T72	Time-Implicit 588 592	上个星期
+T73	Thing-Nominal 593 594	雪
+T74	Person-Pronoun 605 606	我
+T75	Location-Nominal 608 613	花奶奶屋里
+T76	Thing-Nominal 617 619	锤子
+T77	Thing-Nominal 624 626	狗狗
+T78	Thing-Pronoun 638 639	它
+*	Coreference T78 T77
+T79	Person-Name 660 663	花奶奶
+T80	Person-Pronoun 671 672	我
+T81	Time-Implicit 672 674	昨天
+T82	Thing-Nominal 676 678	狗狗
+T83	Time-Implicit 681 683	今天
+T84	Thing-Nominal 684 685	肉
+T85	Thing-Nominal 686 688	鸡蛋
+T86	Thing-Nominal 696 698	狗狗
+T87	Thing-Nominal 702 703	炮
+T88	Thing-Nominal 707 708	炮
+T89	Location-Nominal 711 713	屋里
+T90	Time-Implicit 715 717	昨天
+T91	Thing-Nominal 719 721	鞭炮
+T92	Thing-Pronoun 724 725	它
+*	Coreference T92 T86
+T93	Location-Nominal 732 734	窝里
+T94	Thing-Nominal 739 741	狗狗
+T95	Thing-Nominal 745 746	血
+R14	Part-Whole Arg1:T95 Arg2:T94	
+T96	Time-Implicit 747 751	昨天夜里
+T97	Location-Nominal 754 756	窝里
+T98	Thing-Nominal 757 759	棉絮
+R15	Located Arg1:T98 Arg2:T97	
+T99	Time-Implicit 764 766	清早
+T100	Thing-Nominal 771 773	狗狗
+T101	Location-Nominal 778 780	墙角
+T102	Thing-Nominal 785 786	血
+T103	Thing-Nominal 788 789	我
+T104	Thing-Nominal 792 794	狗狗
+T105	Location-Nominal 805 806	家
+T106	Thing-Name 810 815	抗菌优研粉
+T107	Thing-Nominal 818 819	水
+T108	Thing-Pronoun 823 824	它
+*	Coreference T108 T104
+T109	Time-Implicit 830 836	春节结束以后
+T110	Thing-Pronoun 844 845	它
+T111	Location-Nominal 851 853	屋里
+T112	Location-Nominal 855 858	院子里
+T113	Thing-Nominal 873 875	前蹄
+R16	Part-Whole Arg1:T113 Arg2:T110	
+T114	Location-Nominal 906 909	向阳处
+T115	Person-Name 915 918	花奶奶
+T116	Location-Nominal 921 924	向阳处
+T117	Metric 949 951;952 953	十分 钟
+T118	Time-Implicit 967 971	吃罢午饭
+T119	Person-Name 972 975	花奶奶
+T120	Thing-Nominal 977 979	狗狗
+T121	Location-Nominal 981 983	狗窝
+T122	Person-Pronoun 1004 1005	我
+T123	Thing-Nominal 1019 1021	狗狗
+T124	Person-Pronoun 1028 1029	我
+T125	Thing-Pronoun 1037 1038	它
+*	Coreference T125 T123
+T126	Person-Name 1053 1056	花奶奶
+T127	Location-Nominal 1061 1063	院子
+T128	Person-Pronoun 1064 1065	我
+T129	Person-Pronoun 1066 1067	我
+T130	Thing-Nominal 1070 1072	狗狗
+T131	Thing-Nominal 1100 1104	泡沫盒子
+T132	Thing-Nominal 1106 1107	盖
+R17	Part-Whole Arg1:T132 Arg2:T131	
+T133	Thing-Nominal 1112 1117	狗狗的尸体
+T134	Thing-Nominal 1125 1126	盖
+T135	Person-Nominal 1127 1129	奶奶
+T136	Thing-Nominal 1131 1133	狗狗
+T137	Thing-Nominal 1134 1136	肚子
+R18	Part-Whole Arg1:T137 Arg2:T136	
+T138	Person-Nominal 1149 1152	老人家
+*	Coreference T138 T135 T126
+T139	Person-Pronoun 1160 1161	我
+T140	Thing-Nominal 1162 1164	狗狗
+T141	Person-Name 1167 1170	花爷爷
+T142	Location-Nominal 1167 1172	花爷爷的坟
+R19	Near Arg1:T140 Arg2:T142	
+T143	Thing-Pronoun 1176 1177	它
+*	Coreference T143 T140
+T144	Person-Name 1181 1184	花爷爷
+T145	Person-Name 1185 1188	花爷爷
+T146	Time-Implicit 1185 1191	花爷爷临终前
+T147	Thing-Nominal 1196 1198	小狗
+T148	Person-Name 1206 1209	花奶奶
+R20	Family Arg1:T148 Arg2:T145	
+T149	Location-Nominal 1251 1252	家
+T150	Person-Name 1253 1256	花奶奶
+T151	Person-Pronoun 1257 1258	我
+T152	Person-Pronoun 1265 1266	我
+T153	Person-Pronoun 1268 1269	她
+*	Coreference T153 T150
+T154	Person-Name 1286 1289	花奶奶
+T155	Person-Pronoun 1292 1293	我
+T156	Person-Pronoun 1312 1313	我
+T157	Thing-Nominal 1321 1322	地
+T158	Thing-Nominal 1327 1328	土
+R21	Located Arg1:T158 Arg2:T157	
+T159	Thing-Nominal 1332 1334	盖子
+T160	Thing-Nominal 1339 1340	砖
+R22	Located Arg1:T160 Arg2:T159	
+T161	Thing-Pronoun 1346 1347	它
+T162	Thing-Nominal 1347 1349	自己
+*	Coreference T161 T162
+T163	Person-Nominal 1358 1362	她老人家
+T164	Person-Pronoun 1383 1384	你
+T165	Thing-Nominal 1386 1387	砖
+T166	Thing-Pronoun 1387 1388	它
+T167	Person-Pronoun 1410 1411	我
+*	Coreference T164 T167
+T168	Person-Nominal 1414 1416	奶奶
+T169	Person-Pronoun 1419 1420	她
+*	Coreference T169 T168
+T170	Thing-Nominal 1427 1428	砖
+T171	Thing-Nominal 1438 1440	盖子
+R23	Located Arg1:T170 Arg2:T171	
+T172	Thing-Nominal 1448 1450	狗狗
+T173	Person-Nominal 1452 1454	奶奶
+T174	Person-Nominal 1452 1456	奶奶的伴
+T175	Person-Nominal 1465 1466;1467 1469	老 人家
+T176	Person-Pronoun 1475 1476	我
+T177	Person-Pronoun 1490 1491	我
+T178	Location-Nominal 1498 1500	大渠
+T179	Person-Pronoun 1503 1504	她
+T180	Person-Pronoun 1507 1508	我
+T181	Person-Pronoun 1518 1519	她
+T182	Time-Implicit 1530 1534	隔一会儿
+T183	Person-Nominal 1537 1541	她老人家
+T184	Thing-Nominal 1557 1559	盒子
+T185	Thing-Nominal 1553 1555	狗狗
+R24	Located Arg1:T185 Arg2:T184	
+T186	Person-Nominal 1601 1604	老小孩
+*	Coreference T183 T186
+T187	Thing-Nominal 1606 1608	狗狗
+T188	Person-Pronoun 1612 1613	我
+T189	Person-Pronoun 1641 1642	我
+T190	Person-Pronoun 1643 1644	我
+T191	Person-Nominal 1647 1649	奶奶
+T192	Person-Name 1661 1664	花奶奶
+*	Coreference T192 T191
+T193	Person-Nominal 1682 1684	人们
+T194	Thing-Nominal 1685 1687	猫猫
+T195	Thing-Nominal 1687 1689	狗狗
+T196	Time-Implicit 1703 1705	昨天
+T197	Thing-Nominal 1709 1711	狗狗
+T198	Thing-Nominal 1713 1714;1715 1716	面 条
+T199	Person-Pronoun 1738 1739	我
+T200	Thing-Pronoun 1750 1751	它
+*	Coreference T200 T197
+T201	Person-Pronoun 1758 1759	我
+T202	Thing-Nominal 1760 1761	门
+T203	Person-Nominal 1762 1766	她老人家
+T204	Thing-Nominal 1772 1773	风
+T205	Thing-Nominal 1777 1779	天空
+T206	Person-Nominal 1794 1796	生者
+R25	Located Arg1:T133 Arg2:T131	

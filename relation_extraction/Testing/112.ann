@@ -1,0 +1,325 @@
+T1	Time-Explicit 0 7	今年正月十六日
+T2	Person-Pronoun 8 9	我
+T3	Location-Name 10 15	市郊城南村
+T4	Person-Nominal 20 22	孙子
+T5	Person-Name 18 20	老曹
+R1	Family Arg1:T4 Arg2:T5	
+T6	Person-Name 27 29	老曹
+T7	Person-Nominal 30 33	我同事
+T8	Person-Pronoun 30 31	我
+T9	Person-Pronoun 35 36	她
+T10	Time-Implicit 42 47	1962年
+T11	Location-Nominal 50 51	家
+T12	Thing-Nominal 52 53	田
+T13	Time-Implicit 54 60	改革开放以来
+R2	Family Arg1:T8 Arg2:T7	
+T14	Person-Pronoun 61 62	她
+*	Coreference T9 T6
+T15	Person-Nominal 63 65	老伴
+T16	Person-Nominal 66 68	儿子
+R3	Family Arg1:T15 Arg2:T14	
+R4	Family Arg1:T16 Arg2:T14	
+T17	Time-Implicit 82 84	现在
+T18	Thing-Nominal 85 88	老曹家
+T19	Person-Name 85 87	老曹
+T20	Location-Nominal 89 100	城南村的农民集中居住片
+R5	Located Arg1:T18 Arg2:T20	
+R6	Ownership Arg1:T19 Arg2:T18	
+T21	Person-Pronoun 101 102	我
+T22	Location-Pronoun 103 105	那儿
+*	Coreference T22 T20 T23
+T23	Location-Pronoun 112 114	这儿
+T24	Thing-Nominal 115 120	几十幢楼房
+T25	Thing-Nominal 123 128	两排小别墅
+T26	Thing-Pronoun 129 131	它们
+*	Coreference T26 T24 T25
+T27	Thing-Nominal 138 140	阳光
+T28	Location-Nominal 153 156	居住片
+T29	Thing-Nominal 158 160	绿树
+T30	Thing-Nominal 162 164	花草
+T31	Thing-Nominal 166 168	小河
+T32	Thing-Nominal 170 172	小桥
+R7	Located Arg1:T30 Arg2:T28	
+R8	Located Arg1:T31 Arg2:T28	
+R9	Located Arg1:T32 Arg2:T28	
+T33	Location-Nominal 173 176	楼房前
+T34	Thing-Nominal 177 180	水泥路
+R10	Located Arg1:T34 Arg2:T33	
+T35	Thing-Nominal 185 188	车行道
+T36	Thing-Nominal 194 201	市里新建的小区
+T37	Person-Name 210 212	老曹
+T38	Thing-Nominal 215 219	四室一厅
+T39	Location-Nominal 226 229	客厅里
+T40	Thing-Nominal 231 240	图像清晰的液晶电视
+R11	Located Arg1:T40 Arg2:T39	
+T41	Location-Nominal 241 244	书房里
+T42	Thing-Nominal 245 247	电脑
+R12	Located Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 249 251	音响
+R13	Located Arg1:T43 Arg2:T41	
+T44	Location-Nominal 252 255	房间里
+T45	Thing-Nominal 257 260	新家具
+R14	Located Arg1:T45 Arg2:T44	
+T46	Location-Nominal 261 263	床上
+T47	Thing-Nominal 268 270;271 273	高档 被毯
+R15	Located Arg1:T47 Arg2:T46	
+T48	Person-Pronoun 274 275	我
+T49	Person-Name 276 278	老曹
+T50	Person-Pronoun 281 282	你
+*	Coreference T50 T49 T56
+T51	Thing-Nominal 281 283	你家
+T52	Thing-Nominal 286 288	草房
+T53	Time-Implicit 289 291	现在
+T54	Thing-Nominal 292 294	鸟枪
+T55	Thing-Nominal 295 297	炮’
+T56	Person-Pronoun 300 301	她
+T57	Person-Pronoun 305 306	我
+T58	Person-Pronoun 308 309	你
+T59	Person-Nominal 310 312	儿子
+R16	Family Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 318 322	三室一厅
+T61	Person-Pronoun 325 326	她
+T62	Person-Nominal 334 337	我孙子
+T63	Person-Pronoun 334 335	我
+R17	Family Arg1:T62 Arg2:T63	
+T64	Location-Name 338 347	南京的工作单位旁边
+T65	Thing-Nominal 350 354	一个中套
+R18	Located Arg1:T65 Arg2:T64	
+T66	Location-Nominal 356 360	我们村里
+T67	Person-Pronoun 356 358	我们
+T68	Thing-Nominal 363 365	花木
+T69	Thing-Nominal 368 373	两三套楼房
+T70	Thing-Nominal 375 378	私家车
+T71	Thing-Nominal 381 385	好几十户
+T72	Thing-Nominal 389 390	钱
+T73	Time-Implicit 386 388	现在
+T74	Person-Pronoun 395 396	你
+T75	Person-Pronoun 396 397	我
+T76	Time-Implicit 395 403	你我结婚的时候啊
+T77	Person-Pronoun 405 406	我
+T78	Thing-Nominal 409 410	头
+R19	Part-Whole Arg1:T78 Arg2:T77	
+T79	Person-Pronoun 415 416	我
+T80	Person-Pronoun 421 422	我
+T81	Time-Explicit 423 428	1953年
+T82	Time-Implicit 432 434	那时
+*	Coreference T82 T81
+T83	Person-Nominal 435 438	老百姓
+T84	Person-Pronoun 442 443	我
+T85	Metric 448 455	120个工资份
+T86	Thing-Nominal 444 447	月工资
+T87	Thing-Nominal 456 461	每个工资份
+T88	Thing-Nominal 463 466	1斤米
+T89	Person-Nominal 469 471	爱人
+T90	Person-Pronoun 468 469	我
+R20	Family Arg1:T89 Arg2:T90	
+T91	Thing-Nominal 472 475	月工资
+T92	Thing-Nominal 476 481;482 484	130个工 资份
+T93	Person-Pronoun 485 486	我
+T94	Person-Nominal 489 493	两个弟弟
+T95	Person-Pronoun 496 497	他
+T96	Person-Nominal 500 502	父母
+T97	Thing-Nominal 503 506	生活费
+T98	Person-Pronoun 507 509	我们
+T99	Thing-Nominal 512 513	钱
+*	Coreference T95 T89
+T100	Thing-Nominal 529 531	瓜子
+T101	Thing-Nominal 532 534	糖果
+T102	Location-Nominal 536 538	单位
+T103	Person-Pronoun 551 553	我们
+T104	Thing-Nominal 558 560	房子
+T105	Thing-Nominal 561 566	单位的宿舍
+T106	Location-Nominal 561 563	单位
+R21	Located Arg1:T105 Arg2:T106	
+T107	Person-Pronoun 570 571	我
+T108	Person-Nominal 572 578	11个女教师
+T109	Thing-Nominal 581 590	3间五架梁的矮平房
+T110	Thing-Nominal 594 601	上下两层的板床
+T111	Person-Nominal 602 603;604 606	我 爱人
+T112	Person-Nominal 607 611	教导主任
+T113	Person-Pronoun 602 603	我
+R22	Family Arg1:T113 Arg2:T111	
+T114	Person-Nominal 613 615	校长
+T115	Thing-Nominal 617 620	一间房
+T116	Time-Implicit 621 623	平时
+T117	Person-Pronoun 624 625	我
+T118	Person-Nominal 626 628	爱人
+T119	Person-Pronoun 628 630	各自
+T120	Location-Nominal 632 638	原来的宿舍里
+T121	Time-Implicit 641 648	星期六和节假日
+T122	Person-Nominal 648 651	老师们
+T123	Location-Nominal 652 653	家
+T124	Person-Pronoun 655 657	我们
+T125	Person-Pronoun 669 670	我
+T126	Person-Name 671 673	老曹
+R23	Social Arg1:T126 Arg2:T125	
+T127	Time-Implicit 676 678	现在
+T128	Thing-Nominal 682 683	钱
+T129	Person-Pronoun 684 685	你
+*	Coreference T129 T126 T132
+T130	Location-Nominal 689 691	家里
+T131	Thing-Nominal 692 694	酒席
+R24	Located Arg1:T131 Arg2:T130	
+T132	Person-Pronoun 696 697	她
+T133	Location-Nominal 701 703	家里
+T134	Person-Nominal 715 721	我们农村人家
+T135	Location-Nominal 728 730	家里
+T136	Person-Nominal 735 739	亲眷朋友
+T137	Person-Nominal 741 743	全家
+T138	Person-Nominal 745 749	老人小孩
+T139	Location-Nominal 754 755	外
+T140	Person-Pronoun 762 764	我们
+T141	Thing-Nominal 770 775	城里的饭店
+T142	Location-Nominal 770 772	城里
+R25	Located Arg1:T141 Arg2:T142	
+T143	Time-Implicit 784 785;786 787	现 在
+T144	Location-Nominal 787 790	市场上
+T145	Thing-Nominal 791 793	东西
+R26	Located Arg1:T145 Arg2:T144	
+T146	Person-Nominal 799 801	自家
+T147	Thing-Nominal 802 803	菜
+T148	Location-Nominal 806 810	我们村里
+T149	Person-Nominal 811 814	帮厨队
+T150	Person-Pronoun 816 818	他们
+*	Coreference T150 T149
+T151	Thing-Nominal 826 828	酒店
+T152	Location-Nominal 830 834	自己家里
+T153	Person-Pronoun 830 832	自己
+T154	Person-Nominal 840 846;847 848	帮厨队的负责 人
+T155	Thing-Nominal 855 856	菜
+T156	Thing-Nominal 858 859	棚
+T157	Thing-Nominal 864 865	菜
+T158	Thing-Nominal 867 868	碗
+T159	Person-Pronoun 872 874	他们
+*	Coreference T159 T154
+T160	Person-Nominal 880 883	家里人
+T161	Thing-Nominal 884 885	手
+T162	Thing-Nominal 886 888	炊具
+T163	Thing-Nominal 889 891	餐具
+T164	Thing-Nominal 892 897	搭棚的材料
+T165	Person-Pronoun 899 901	他们
+T166	Thing-Nominal 903 905	工钱
+T167	Metric 913 917	100元
+T168	Person-Pronoun 919 920	我
+T169	Person-Pronoun 925 926	她
+T170	Person-Pronoun 931 932	你
+T171	Thing-Nominal 933 935	喜棚
+T172	Person-Pronoun 944 945	我
+T173	Person-Nominal 946 948	主人
+T174	Thing-Nominal 950 952	喜棚
+T175	Location-Nominal 955 958	楼房前
+T176	Thing-Nominal 959 961	喜棚
+R27	Located Arg1:T176 Arg2:T175	
+T177	Location-Nominal 962 964	上面
+T178	Thing-Nominal 965 966	顶
+R28	Located Arg1:T178 Arg2:T177	
+T179	Location-Nominal 967 969	四面
+T180	Location-Nominal 975 977	门口
+T181	Thing-Nominal 979 986	彩球和大红灯笼
+R29	Located Arg1:T181 Arg2:T180	
+T182	Location-Nominal 987 989	棚里
+T183	Thing-Nominal 989 991	电灯
+R30	Located Arg1:T183 Arg2:T182	
+T184	Thing-Nominal 996 1000	8张圆桌
+R31	Located Arg1:T184 Arg2:T182	
+T185	Location-Nominal 1001 1004;1005 1006	每张桌 上
+T186	Thing-Nominal 1009 1015	10个冷菜盘
+R32	Located Arg1:T186 Arg2:T185	
+T187	Location-Nominal 1016 1018	盘里
+T188	Thing-Nominal 1023 1027	鸡鸭鱼肉
+R33	Located Arg1:T188 Arg2:T187	
+T189	Person-Pronoun 1028 1029	我
+T190	Person-Name 1039 1041	老曹
+T191	Person-Nominal 1044 1053	我家前一排楼上人家
+T192	Person-Nominal 1054 1056	儿子
+T193	Location-Nominal 1044 1047	我家前
+T194	Person-Pronoun 1044 1045	我
+T195	Thing-Nominal 1062 1064	喜棚
+T196	Person-Nominal 1070 1072	他家
+T197	Person-Pronoun 1070 1071	他
+T198	Thing-Nominal 1077 1080	10桌
+T199	Time-Implicit 1082 1084	这时
+T200	Person-Nominal 1085 1094	帮厨队的婚礼主持人
+T201	Thing-Nominal 1096 1100	无线话筒
+R34	Use Arg1:T200 Arg2:T201	
+T202	Person-Nominal 1105 1109	各位来宾
+T203	Person-Nominal 1110 1112	大家
+T204	Person-Pronoun 1129 1131	我们
+T205	Thing-Nominal 1143 1150	两盏红烛形的灯
+T206	Person-Nominal 1155 1164	高档礼服的新郎新娘
+T207	Person-Nominal 1165 1168	主持人
+T208	Person-Nominal 1183 1185	夫妻
+T209	Time-Implicit 1188 1190	这时
+T210	Location-Nominal 1191 1194	喜棚外
+T211	Thing-Nominal 1195 1197	鞭炮
+R35	Located Arg1:T211 Arg2:T210	
+T212	Person-Nominal 1207 1211	新郎新娘
+T213	Person-Nominal 1212 1214	大家
+T214	Thing-Nominal 1215 1216	酒
+T215	Person-Nominal 1217 1220	客人们
+T216	Thing-Nominal 1224 1226	酒杯
+R36	Use Arg1:T215 Arg2:T216	
+T217	Person-Nominal 1227 1229	新人
+T218	Person-Nominal 1233 1238	他们的父母
+T219	Person-Pronoun 1233 1235	他们
+*	Coreference T219 T217
+R37	Family Arg1:T219 Arg2:T218	
+T220	Thing-Nominal 1252 1253	肉
+T221	Thing-Nominal 1257 1258	酒
+T222	Thing-Nominal 1262 1264	热菜
+T223	Person-Nominal 1266 1278	两个身穿红衣服的帮厨姑娘
+T224	Thing-Nominal 1280 1282	大碗
+R38	Use Arg1:T223 Arg2:T224	
+T225	Thing-Nominal 1286 1288	各桌
+T226	Thing-Nominal 1289 1290	菜
+T227	Person-Pronoun 1291 1293	她们
+*	Coreference T227 T223
+T228	Location-Nominal 1310 1312	桌上
+T229	Thing-Nominal 1315 1321;1322 1338	菜，整鸡、整 鸭、红烧猪蹄、清蒸白鱼，还有老鳖
+R39	Located Arg1:T229 Arg2:T228	
+T230	Location-Nominal 1340 1345	城里酒楼里
+T231	Location-Pronoun 1347 1349	这儿
+T232	Person-Nominal 1368 1369	人
+T233	Thing-Nominal 1372 1373	鱼
+T234	Thing-Nominal 1376 1377	鱼
+T235	Person-Nominal 1381 1386	一个小伙子
+T236	Location-Nominal 1392 1402	放了一条大鱼的长秀盘
+T237	Thing-Nominal 1394 1398	一条大鱼
+R40	Located Arg1:T237 Arg2:T236	
+T238	Location-Nominal 1404 1408	各席桌旁
+T239	Person-Nominal 1411 1413	大家
+T240	Location-Nominal 1449 1451	家乡
+T241	Time-Implicit 1474 1482	第一批喜宴结束时
+T242	Location-Nominal 1483 1486	喜棚外
+T243	Thing-Nominal 1489 1491	烟火
+T244	Person-Nominal 1492 1494	店家
+T245	Thing-Nominal 1502 1504	烟火
+T246	Thing-Nominal 1508 1512	喜庆礼花
+T247	Person-Nominal 1517 1526	两家酒足饭饱的来宾
+T248	Location-Nominal 1529 1532	喜棚外
+T249	Thing-Nominal 1535 1537	烟火
+R41	Located Arg1:T249 Arg2:T248	
+T250	Thing-Nominal 1554 1561	五彩缤纷的礼花
+T251	Person-Nominal 1567 1568	人
+T252	Thing-Nominal 1573 1579	老曹家的烟火
+T253	Location-Nominal 1573 1576	老曹家
+R42	Located Arg1:T252 Arg2:T253	
+T254	Thing-Nominal 1583 1589	邻居家的礼花
+T255	Location-Nominal 1583 1586	邻居家
+T256	Time-Implicit 1669 1676	在这欢腾的时候
+T257	Thing-Nominal 1677 1683	老曹家的音响
+T258	Location-Nominal 1677 1680	老曹家
+R43	Located Arg1:T257 Arg2:T258	
+T259	Time-Implicit 1696 1698	今天
+T260	Time-Implicit 1713 1715	今天
+T261	Time-Implicit 1715 1717	明天
+T262	Person-Nominal 1736 1738	人们
+T263	Thing-Nominal 1746 1747	手
+T264	Person-Pronoun 1769 1770	我
+T265	Person-Nominal 1785 1787	大家
+T266	Person-Pronoun 1794 1795	谁
+T267	Time-Implicit 1798 1800	昔日
+T268	Person-Nominal 1803 1807	家乡父老
+T269	Person-Nominal 1821 1825	农家孩子
+T270	Person-Nominal 1838 1839	党
+T271	Person-Nominal 1858 1863	我们老百姓

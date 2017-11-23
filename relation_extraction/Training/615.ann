@@ -1,0 +1,139 @@
+T1	Thing-Nominal 2 4	舷窗
+T2	Thing-Nominal 8 16	露在云层上的山顶
+T3	Person-Pronoun 17 18	我
+T4	Location-Nominal 20 29	向往已久的九寨天堂
+T5	Thing-Nominal 42 51	难得一见的蓝天白云
+T6	Location-Nominal 54 56	仙境
+T7	Thing-Nominal 59 60;61 64	第 一顿饭
+T8	Location-Nominal 66 74	“川主寺鲶鱼庄”
+T9	Person-Pronoun 87 88	我
+T10	Thing-Nominal 75 77	鲶鱼
+T11	Location-Name 109 112	川主寺
+T12	Location-Nominal 117 118	镇
+T13	Thing-Nominal 169 171	店铺
+T14	Person-Nominal 183 190	一车一车的旅客
+T15	Person-Nominal 199 206	穿着藏袍的妇女
+R1	Social Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 219 225	当地的土特产
+T17	Thing-Nominal 226 230	手工艺品
+T18	Thing-Nominal 234 236	午饭
+T19	Person-Pronoun 237 239	我们
+T20	Location-Name 243 246	九寨沟
+T21	Location-Name 258 261	九寨沟
+T22	Thing-Pronoun 282 283	它
+T23	Thing-Nominal 282 286	它的清溪
+T24	Thing-Nominal 287 289	彩林
+T25	Thing-Nominal 290 293	五花海
+T26	Location-Name 299 302	九寨沟
+T27	Location-Nominal 304 310;311 313	原始而艳丽的 地方
+*	Coreference T27 T26
+T28	Thing-Nominal 388 393	南方的小镇
+T29	Thing-Nominal 399 401	小桥
+T30	Thing-Nominal 402 404	流水
+T31	Thing-Nominal 405 409	青砖黛瓦
+T32	Location-Name 418 421	九寨沟
+T33	Location-Name 1152 1155	九寨沟
+T34	Thing-Nominal 1171 1176	飘荡的经幡
+T35	Thing-Nominal 1177 1183	古老的水磨房
+T36	Thing-Nominal 1184 1189	迟缓的牦牛
+T37	Location-Nominal 1196 1200	绚烂山颠
+T38	Thing-Nominal 1201 1205	灵秀翠水
+T39	Metric 1123 1128	2472米
+T40	Metric 1129 1132	深5米
+T41	Location-Name 1136 1139	九寨沟
+T42	Location-Name 1000 1003	九寨沟
+T43	Location-Name 1015 1018	日则沟
+T44	Location-Nominal 1000 1005	九寨沟三沟
+R2	Part-Whole Arg1:T43 Arg2:T44	
+T45	Location-Name 1026 1029	九寨沟
+T46	Thing-Nominal 1029 1038	最美丽的海子五花海
+R3	Located Arg1:T46 Arg2:T43	
+T47	Thing-Nominal 1039 1050	最宽阔的瀑布诺日郎瀑布
+R4	Located Arg1:T47 Arg2:T43	
+T48	Thing-Nominal 1057 1060;1061 1068	最绚烂 的“陆上海洋”
+R5	Located Arg1:T48 Arg2:T43	
+T49	Location-Nominal 1069 1072	日则沟
+T50	Metric 1074 1077	9千米
+T51	Thing-Nominal 1080 1082	林木
+T52	Thing-Nominal 1085 1087	湖水
+T54	Location-Name 1094 1097	九寨沟
+T55	Abstract 1112 1118	“九寨一绝”
+T56	Location-Pronoun 1119 1120	它
+T53	Location-Name 1090 1093	五花海
+*	Coreference T56 T53
+T57	Person-Pronoun 441 442	我
+T58	Location-Name 448 451	九寨沟
+T59	Thing-Nominal 613 615	雪峰
+T60	Thing-Nominal 603 605	翠海
+T61	Thing-Nominal 606 608	叠瀑
+T62	Thing-Nominal 609 611	彩林
+T63	Thing-Nominal 622 625	大熊猫
+T64	Thing-Nominal 626 629	金丝猴
+T65	Thing-Nominal 630 633	扭角羚
+T66	Thing-Nominal 634 637	梅花鹿
+T67	Thing-Nominal 638 642	珍贵动物
+R6	General-Special Arg1:T67 Arg2:T66	
+R7	General-Special Arg1:T67 Arg2:T65	
+R8	General-Special Arg1:T67 Arg2:T64	
+R9	General-Special Arg1:T67 Arg2:T63	
+T68	Time-Explicit 643 654	1992年12月14日
+T69	Organization-Name 656 663	联合国教科组织
+T70	Organization-Name 656 672	联合国教科组织世界自然遗产委员会
+T71	Location-Name 674 682	美国新墨西哥圣菲
+T72	Location-Name 701 704	九寨沟
+T73	Location-Name 705 707	黄龙
+T74	Abstract 709 719	《世界自然遗产名录》
+T75	Person-Name 722 725	马约尔
+T76	Thing-Nominal 728 730	证书
+T77	Time-Explicit 731 733;734 737	19 97年
+T78	Time-Explicit 751 758	2001年2月
+T79	Time-Explicit 771 780	2007年5月8日
+T80	Location-Name 781 790	阿坝藏族羌族自治州
+T81	Location-Name 790 794;795 798	九寨沟旅 游景区
+T82	Organization-Name 799 804	国家旅游局
+T83	Abstract 809 818	国家5A级旅游景区
+T84	Location-Name 823 826	九寨沟
+T85	Location-Name 827 829	黄龙
+T86	Location-Nominal 832 847	拥有三项桂冠的世界级风景名胜区
+*	Coreference T86 T84 T85
+T87	Person-Nominal 849 866	一位曾游历了世界若干名胜的英国游客
+T88	Location-Name 869 872	九寨沟
+T89	Location-Name 873 877	斯里兰卡
+T90	Thing-Nominal 869 882	九寨沟和斯里兰卡的千尺悬瀑
+T91	Location-Name 883 886	几内亚
+T92	Thing-Nominal 883 891	几内亚的新娘面纱
+T93	Location-Name 892 894	日本
+T94	Thing-Nominal 892 899	日本的日光之泷
+T95	Location-Name 900 902	瑞士
+T96	Thing-Nominal 900 907	瑞士的日内瓦湖
+T97	Person-Name 924 939	”美国跨国公司的总经理林德布雷
+T98	Location-Name 925 927	美国
+T99	Location-Name 942 945	九寨沟
+T100	Location-Nominal 952 954	地球
+T101	Location-Name 956 959	九寨沟
+T102	Person-Pronoun 973 975	我们
+T103	Person-Nominal 975 977	人类
+T104	Location-Name 984 987	九寨沟
+T105	Location-Name 556 559	日则沟
+T106	Location-Name 560 563	树正沟
+T107	Location-Name 564 568	则查洼沟
+T108	Location-Nominal 575 581	“丫”字形沟
+T109	Thing-Nominal 583 585	藏寨
+T110	Thing-Nominal 590 601	三沟九寨一百一十八湾水
+T111	Thing-Pronoun 463 464	她
+T112	Person-Nominal 475 483	阔别多年的心上人
+T113	Location-Name 495 501	九寨沟风景区
+T114	Location-Name 504 521	四川北部阿坝藏族羌族自治州九寨沟县
+T115	Metric 530 537	6000多公顷
+T116	Location-Name 361 364	九寨沟
+T117	Location-Name 325 328	九寨沟
+R10	Located Arg1:T23 Arg2:T21	
+R11	Located Arg1:T24 Arg2:T21	
+R12	Located Arg1:T25 Arg2:T21	
+T118	Time-Explicit 442 445	十年间
+R13	Part-Whole Arg1:T113 Arg2:T114	
+R14	Located Arg1:T109 Arg2:T108	
+R15	Located Arg1:T51 Arg2:T49	
+R16	Located Arg1:T34 Arg2:T33	
+R17	Located Arg1:T36 Arg2:T33	
+R18	Located Arg1:T35 Arg2:T33	

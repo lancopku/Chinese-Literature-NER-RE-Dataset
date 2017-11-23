@@ -1,0 +1,267 @@
+T1	Time-Implicit 0 23	当漫天遍野的坚冰在高纬度海域开始化整为零的时节
+T2	Thing-Nominal 1 8	漫天遍野的坚冰
+T3	Location-Nominal 9 14	高纬度海域
+R1	Located Arg1:T2 Arg2:T3	
+T4	Location-Nominal 31 44	粗壮的锚链和高高的桅杆之上
+T5	Thing-Nominal 31 36	粗壮的锚链
+T6	Thing-Nominal 37 42	高高的桅杆
+T7	Thing-Nominal 47 50	雷达架
+T8	Thing-Nominal 51 53	舱盖
+T9	Thing-Nominal 54 59	吊杆的吊臂
+T10	Thing-Nominal 61 70	水密门边缘的冰溜子
+T11	Location-Nominal 61 66	水密门边缘
+R2	Located Arg1:T10 Arg2:T11	
+T12	Thing-Pronoun 78 80	它们
+*	Coreference T12 T10
+T13	Metric 105 110	一眨眼工夫
+T14	Thing-Nominal 115 121;122 123	晶莹剔透的身 子
+T15	Thing-Nominal 124 130	那宽阔的甲板
+T16	Thing-Nominal 133 144	七零八落的冰凌花儿碎片
+T17	Thing-Nominal 146 148	阳光
+T18	Thing-Nominal 153 166	那些绚烂如万花筒般的冰凌花
+T19	Thing-Nominal 175 182	娇小玲珑的身形
+T20	Thing-Nominal 188 194	细微的冰粒儿
+T21	Thing-Nominal 205 209	数道清泉
+T22	Location-Nominal 211 215	四面八方
+T23	Location-Nominal 218 225	高高的船楼甲板
+T24	Location-Nominal 226 236	锚机底座的格栅板下方
+T25	Location-Nominal 237 243;244 246	主甲板的桅房 门前
+T26	Location-Nominal 247 255	货舱舱口的间隙处
+T27	Thing-Nominal 268 270	油漆
+T28	Location-Nominal 273 278	主甲板边缘
+T29	Location-Pronoun 284 286	那里
+T30	Thing-Nominal 290 298	错落有致的泄水孔
+R3	Located Arg1:T30 Arg2:T29	
+*	Coreference T29 T28
+T31	Thing-Nominal 299 304;305 308	那纷至沓来 的冰泉
+T32	Thing-Nominal 318 322	那泄水孔
+T33	Location-Nominal 325 326	海
+T34	Thing-Nominal 341 345	甲板斜坡
+T35	Location-Nominal 352 356	泄水孔处
+T36	Thing-Nominal 356 364	嘶啦啦作响的旋涡
+T37	Thing-Nominal 376 377	海
+T38	Metric 379 382	三五米
+T39	Location-Nominal 387 392	船壳舷墙处
+T40	Thing-Nominal 395 407	一幅动感十足的水帘瀑布图
+T41	Thing-Nominal 387 389	船壳
+T42	Person-Nominal 415 417	海员
+T43	Time-Implicit 449 452	平日里
+T44	Person-Nominal 452 464	大大咧咧惯了的粗犷海员们
+T45	Thing-Nominal 476 480	扬州琼花
+T46	Location-Name 476 478	扬州
+T47	Thing-Nominal 480 482	昙花
+R4	Located Arg1:T45 Arg2:T46	
+T48	Person-Nominal 499 501	海员
+T49	Thing-Nominal 501 502	眼
+T50	Thing-Nominal 503 504	手
+R5	Ownership Arg1:T48 Arg2:T50	
+R6	Ownership Arg1:T48 Arg2:T49	
+T51	Thing-Nominal 510 514	天下美景
+T52	Person-Pronoun 521 523	他们
+*	Coreference T52 T48
+T53	Person-Nominal 537 539	常人
+T54	Person-Pronoun 551 552;553 554	他 们
+T55	Person-Pronoun 565 567	他们
+T56	Thing-Nominal 571 584	这种原本来自浩浩天宇的冰雪
+T57	Location-Nominal 598 600	大海
+T58	Thing-Nominal 605 613;614 617	那高悬百丈的海上 龙卷风
+T59	Metric 608 610	百丈
+T60	Thing-Nominal 618 627	美轮美奂的海市蜃楼
+T61	Thing-Nominal 630 640	那巨无霸梅尔维尔白鲸
+T62	Thing-Nominal 642 652	海上庞然大物巨齿鲨鱼
+T63	Location-Nominal 642 644	海上
+R7	Located Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 672 674;675 678	这冰 凌花萼
+T65	Location-Nominal 692 694	渠沟
+T66	Location-Nominal 730 734	一个地方
+T67	Thing-Nominal 736 744	这绝美的水帘瀑布
+T68	Location-Nominal 751 755	云端山崖
+T69	Location-Nominal 756 760	岭南塞北
+T70	Location-Nominal 761 765	山野院落
+T71	Thing-Nominal 774 776	麦苗
+T72	Thing-Nominal 777 778	节
+T73	Thing-Nominal 779 781	杨柳
+T74	Thing-Nominal 782 783	枝
+T75	Thing-Nominal 784 788	油菜花儿
+T76	Thing-Nominal 789 790	蕊
+T77	Thing-Nominal 791 793	甘露
+T78	Location-Nominal 800 805	潺潺溪流边
+T79	Thing-Nominal 807 809	袖子
+T80	Thing-Nominal 812 814	裤腿
+T81	Person-Nominal 815 819	浣衣村姑
+T82	Location-Nominal 819 821	脸上
+T83	Thing-Nominal 832 835	春姑娘
+T84	Thing-Nominal 843 845	微风
+T85	Thing-Nominal 848 855	仪表堂堂的海鸥
+T86	Thing-Nominal 862 875	这一群因大海而生的白色精灵
+T87	Thing-Nominal 866 868	大海
+T88	Thing-Nominal 879 885	天使般的羽翼
+T89	Thing-Nominal 891 893	蓝天
+T90	Thing-Nominal 897 899	彩云
+T91	Location-Nominal 906 909	翅膀上
+T92	Thing-Nominal 910 914	空心羽毛
+R8	Located Arg1:T92 Arg2:T91	
+T93	Thing-Pronoun 917 919	它们
+*	Coreference T93 T86 T85
+T94	Thing-Pronoun 928 930	它们
+T95	Thing-Nominal 933 937	红色眼圈
+T96	Thing-Nominal 941 945	清澈眼球
+T97	Thing-Nominal 950 952	海水
+T98	Thing-Nominal 967 969	海面
+T99	Thing-Nominal 957 962	潇洒的身影
+T100	Thing-Nominal 976 978	桅杆
+T101	Thing-Nominal 981 983	瀑布
+T102	Thing-Nominal 986 988	海面
+T103	Thing-Nominal 995 997	脚尖
+T104	Thing-Pronoun 993 995	它们
+T105	Thing-Nominal 1001 1003	飞沫
+T106	Thing-Nominal 1016 1024	这一群报春的使者
+T107	Thing-Nominal 1028 1034	灵敏的红嘴唇
+T108	Thing-Nominal 1037 1039	海水
+T109	Thing-Nominal 1042 1043	盐
+R9	Use Arg1:T106 Arg2:T107	
+T110	Thing-Pronoun 1045 1047	它们
+T111	Thing-Nominal 1077 1084	它们的海员伙伴
+T112	Thing-Pronoun 1077 1079	它们
+T113	Thing-Nominal 1090 1092	大海
+T114	Location-Nominal 1107 1114	波光粼粼的海面
+T115	Thing-Nominal 1118 1120	海鸥
+R10	Located Arg1:T115 Arg2:T114	
+T116	Thing-Nominal 1143 1148	船尾的旗帜
+T117	Location-Nominal 1143 1145	船尾
+R11	Located Arg1:T116 Arg2:T117	
+T118	Thing-Nominal 1155 1162	深水里的螺旋桨
+T119	Location-Nominal 1155 1158	深水里
+R12	Located Arg1:T118 Arg2:T119	
+T120	Thing-Nominal 1170 1178	驾驶台后面的烟囱
+T121	Location-Nominal 1170 1175	驾驶台后面
+R13	Located Arg1:T120 Arg2:T121	
+T122	Thing-Nominal 1181 1185	袅袅青烟
+T123	Person-Nominal 1186 1189	轮机长
+T124	Location-Nominal 1192 1194	机舱
+T125	Person-Nominal 1195 1198	老船长
+T126	Location-Nominal 1201 1203;1204 1205	驾驶 台
+T127	Person-Pronoun 1206 1207	他
+*	Coreference T127 T125
+T128	Thing-Nominal 1209 1212	望远镜
+T129	Location-Nominal 1219 1221	远方
+T130	Thing-Nominal 1222 1224	左手
+T131	Thing-Nominal 1226 1229	对讲机
+T132	Thing-Nominal 1230 1231	口
+R15	Ownership Arg1:T127 Arg2:T131	
+T133	Person-Nominal 1241 1252	一群生龙活虎的年轻水手
+T134	Location-Nominal 1255 1257	甲板
+T135	Person-Pronoun 1261 1263	他们
+*	Coreference T135 T133
+T136	Person-Nominal 1267 1269	船长
+T137	Person-Pronoun 1273 1275	他们
+T138	Thing-Nominal 1278 1283	臃肿的棉袄
+R16	Ownership Arg1:T137 Arg2:T138	
+T139	Thing-Nominal 1284 1286	身子
+R17	Ownership Arg1:T137 Arg2:T139	
+T140	Thing-Nominal 1299 1300	雁
+T141	Thing-Nominal 1303 1304	雁
+T142	Thing-Nominal 1307 1308	雁
+T143	Person-Pronoun 1333 1334	谁
+T144	Thing-Nominal 1337 1344	婉转低回的口哨
+T145	Thing-Nominal 1345 1348	绞缆机
+T146	Thing-Nominal 1357 1363	碗口粗的缆绳
+T147	Location-Nominal 1364 1366	甲板
+R18	Located Arg1:T146 Arg2:T147	
+T148	Person-Name 1372 1376	水手江涛
+T149	Thing-Nominal 1377 1380	缆绳头
+T150	Location-Nominal 1382 1386;1387 1390	那S形缆 绳当间
+R19	Located Arg1:T149 Arg2:T150	
+T151	Thing-Nominal 1391 1392	手
+R20	Ownership Arg1:T148 Arg2:T151	
+T152	Person-Nominal 1398 1401	哥们儿
+T153	Thing-Nominal 1406 1408	二龙
+T154	Thing-Nominal 1409 1410	珠
+T155	Person-Name 1421 1423	江涛
+T156	Person-Nominal 1439 1447;1448 1450	你那个浙江富婆的 女儿
+T157	Person-Nominal 1442 1446	浙江富婆
+T158	Location-Name 1442 1444	浙江
+T159	Person-Nominal 1457 1461	一个龙子
+T160	Person-Nominal 1465 1468	丈母娘
+T161	Person-Pronoun 1472 1473	我
+*	Coreference T161 T155
+T162	Person-Pronoun 1487 1488	你
+R21	Located Arg1:T21 Arg2:T23	
+R22	Located Arg1:T21 Arg2:T24	
+R23	Located Arg1:T21 Arg2:T25	
+R24	Located Arg1:T21 Arg2:T26	
+R25	Located Arg1:T21 Arg2:T28	
+R26	Part-Whole Arg1:T74 Arg2:T73	
+R27	Part-Whole Arg1:T76 Arg2:T75	
+R28	Part-Whole Arg1:T72 Arg2:T71	
+R29	Part-Whole Arg1:T88 Arg2:T85	
+R30	Part-Whole Arg1:T103 Arg2:T104	
+R14	Part-Whole Arg1:T130 Arg2:T127	
+T163	Person-Nominal 1491 1494	她女儿
+T164	Person-Pronoun 1491 1492	她
+*	Coreference T164 T160
+R31	Family Arg1:T164 Arg2:T163	
+T165	Thing-Nominal 1495 1497	堡垒
+T166	Person-Nominal 1501 1504	她女儿
+T167	Person-Pronoun 1501 1502	她
+R32	Family Arg1:T166 Arg2:T167	
+T168	Person-Nominal 1513 1516	丈母娘
+T169	Person-Nominal 1523 1529	我那个丈母娘
+T170	Person-Pronoun 1523 1524	我
+T171	Person-Pronoun 1533 1534	我
+T172	Thing-Nominal 1535 1536	船
+T173	Person-Pronoun 1538 1539	咱
+T174	Person-Pronoun 1546 1547	我
+T175	Location-Nominal 1549 1552	她们家
+T176	Thing-Nominal 1554 1557	拨浪鼓
+T177	Person-Pronoun 1549 1551	她们
+R33	Create Arg1:T177 Arg2:T176	
+T178	Person-Pronoun 1571 1572	你
+T179	Person-Nominal 1578 1582	一个男人
+T180	Person-Pronoun 1591 1592	我
+T181	Location-Nominal 1596 1598	大海
+T182	Person-Nominal 1604 1606	斯人
+T183	Person-Pronoun 1607 1608	我
+T184	Person-Nominal 1610 1612	船长
+T185	Person-Nominal 1617 1621	你女朋友
+T186	Person-Pronoun 1617 1618	你
+R34	Social Arg1:T185 Arg2:T186	
+T187	Person-Pronoun 1627 1628	她
+*	Coreference T187 T185
+T188	Person-Pronoun 1635 1636	我
+T189	Person-Pronoun 1638 1639	你
+T190	Person-Nominal 1641 1643	木匠
+*	Coreference T190 T189
+T191	Person-Pronoun 1644 1645	你
+T192	Metric 1647 1650	七个月
+T193	Person-Pronoun 1661 1662	我
+T194	Person-Nominal 1664 1666	女儿
+R35	Family Arg1:T194 Arg2:T193	
+T195	Person-Nominal 1671 1673	老娘
+T196	Time-Implicit 1673 1675	常年
+T197	Location-Nominal 1676 1677	床
+T198	Person-Pronoun 1678 1679	我
+T199	Person-Nominal 1683 1685	孩子
+T200	Thing-Nominal 1691 1693	船头
+T201	Location-Nominal 1696 1705	通往港区码头的航道
+T202	Location-Nominal 1698 1702	港区码头
+R36	Located Arg1:T200 Arg2:T201	
+T203	Thing-Nominal 1706 1708	鸥鸟
+T204	Location-Nominal 1710 1712	原处
+R37	Located Arg1:T203 Arg2:T204	
+T205	Thing-Nominal 1723 1730	千重万重的浪花
+T206	Person-Nominal 1752 1757	年轻的水手
+T207	Location-Nominal 1762 1765	行囊里
+T208	Person-Nominal 1768 1772	年轻女郎
+T209	Person-Nominal 1774 1776	男友
+R38	Social Arg1:T208 Arg2:T209	
+T210	Location-Nominal 1794 1798	巨轮上下
+T211	Thing-Nominal 1789 1791	阳光
+T212	Location-Nominal 1801 1808	甲板通风筒一隅
+T213	Location-Nominal 1808 1812;1813 1816	最后一撮 冰雪里
+R39	Part-Whole Arg1:T213 Arg2:T212	
+T214	Location-Nominal 1819 1828	猎猎飘扬的红旗一角
+T215	Location-Nominal 1831 1837	习习的软风里
+T216	Location-Nominal 1840 1848	沁人心脾的空气里
+T217	Location-Nominal 1851 1868	老船长那张布满海沟似的皱纹的脸盘上
+T218	Person-Nominal 1851 1854	老船长

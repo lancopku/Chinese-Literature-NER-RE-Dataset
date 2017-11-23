@@ -1,0 +1,382 @@
+T1	Time-Explicit 0 9	2012年4月1日
+T2	Person-Pronoun 10 12	我们
+T3	Person-Nominal 12 17	一行14人
+*	Coreference T3 T2
+T4	Location-Name 19 21	台湾
+T5	Location-Name 22 24	台北
+T6	Metric 29 32	12天
+T7	Location-Nominal 36 40	台湾全境
+T8	Location-Name 51 53	宝岛
+*	Coreference T8 T4
+T9	Person-Pronoun 56 57	我
+T10	Location-Name 62 64	宝岛
+T11	Organization-Nominal 65 83	山，水，森林，城市，乡村，田园，农场
+T12	Location-Name 84 87	阳明山
+T13	Location-Name 88 91	阿里山
+T14	Location-Name 92 94	玉山
+T15	Organization-Name 95 98	太鲁阁
+T16	Organization-Name 99 101	雪霸
+T17	Location-Name 103 106	日月潭
+T18	Location-Nominal 107 109	温泉
+T19	Location-Name 116 118	宝岛
+T20	Location-Name 122 124	宝岛
+T21	Location-Name 128 130	宝岛
+T22	Location-Name 134 136	宝岛
+T23	Abstract 125 127	文化
+T24	Abstract 131 133	风情
+T25	Person-Pronoun 142 143	我
+T26	Thing-Nominal 172 173	笔
+T27	Location-Name 193 200	台北故宫博物院
+T28	Location-Nominal 201 226	这个珍藏了中华文明，历史典故，国宝，人文精神的殿堂
+*	Coreference T28 T27 T51
+T29	Location-Name 230 235	台北阳明山
+T30	Location-Name 230 241	台北阳明山脚下的士林区
+T31	Metric 246 250	16公顷
+T32	Location-Name 257 261;262 265	北京故宫 博物院
+T33	Thing-Nominal 271 278	传统的宫殿建筑
+T34	Thing-Nominal 281 286	米黄色墙壁
+T35	Thing-Nominal 287 293	淡蓝色玻璃瓦
+T36	Thing-Nominal 294 298	白色石栏
+T37	Thing-Nominal 299 302	青色基
+T38	Location-Nominal 318 322	主体建筑
+T40	Location-Nominal 341 344	办公室
+T41	Location-Nominal 345 348	图书馆
+T42	Location-Nominal 349 352	演讲厅
+R1	Part-Whole Arg1:T38 Arg2:T27	
+T39	Location-Nominal 338 340	一层
+R2	Part-Whole Arg1:T40 Arg2:T39	
+R3	Part-Whole Arg1:T41 Arg2:T39	
+R4	Part-Whole Arg1:T42 Arg2:T39	
+T43	Location-Nominal 358 360	二厅
+T44	Location-Nominal 361 375	书画，金石及墓穴出土文物展厅
+*	Coreference T44 T43
+T45	Location-Nominal 376 378	三层
+T46	Location-Nominal 379 383;384 394	玉器，法 器，文献，碑帖陈列室
+*	Coreference T46 T45
+T47	Location-Nominal 395 397	四层
+T48	Location-Nominal 398 406	各种专题文物展厅
+*	Coreference T48 T47
+R5	Part-Whole Arg1:T39 Arg2:T38	
+R6	Part-Whole Arg1:T43 Arg2:T38	
+R7	Part-Whole Arg1:T45 Arg2:T38	
+R8	Part-Whole Arg1:T47 Arg2:T38	
+T49	Person-Nominal 445 450	海内外人士
+T50	Metric 457 462	70多万件
+T51	Organization-Name 408 411	博物院
+T52	Location-Name 417 423	清代北京故宫
+T53	Location-Name 424 428	沈阳故宫
+T54	Location-Name 429 434	原热河行宫
+T55	Thing-Nominal 465 467	瓷器
+T56	Metric 467 468;469 475	2 0000多件
+T57	Thing-Nominal 477 481	原始陶瓷
+T58	Thing-Nominal 482 486	明清瓷器
+T59	Thing-Nominal 494 498	甲骨档案
+T60	Metric 498 505	20000多件
+T61	Thing-Nominal 507 513	世界甲骨收藏
+T62	Thing-Nominal 454 456	藏品
+R9	Ownership Arg1:T51 Arg2:T62	
+R10	Part-Whole Arg1:T55 Arg2:T62	
+R11	Part-Whole Arg1:T57 Arg2:T62	
+R12	Part-Whole Arg1:T59 Arg2:T62	
+R13	Part-Whole Arg1:T59 Arg2:T61	
+T63	Thing-Nominal 533 536	青铜器
+R14	Part-Whole Arg1:T63 Arg2:T62	
+T64	Metric 536 543	10000多件
+T65	Time-Implicit 545 550	夏商周时期
+T66	Metric 553 559	4300多件
+T67	Thing-Nominal 545 551	夏商周时期的
+R15	Part-Whole Arg1:T67 Arg2:T63	
+T68	Thing-Nominal 560 562	玉器
+R16	Part-Whole Arg1:T68 Arg2:T62	
+T69	Metric 562 569	50000多件
+T71	Thing-Name 584 588	避邪雕刻
+R18	Part-Whole Arg1:T71 Arg2:T68	
+T70	Thing-Name 579 583	翠玉白菜
+R17	Part-Whole Arg1:T70 Arg2:T68	
+T72	Thing-Nominal 593 597	书画真迹
+R19	Part-Whole Arg1:T72 Arg2:T62	
+T73	Time-Implicit 605 610	晋唐到清代
+T74	Thing-Nominal 610 614	名家杰作
+T75	Thing-Nominal 621 632	20000余册善本故迹
+T76	Metric 621 628	20000余册
+R20	Part-Whole Arg1:T75 Arg2:T72	
+T77	Thing-Name 639 645	《四库全书》
+T78	Person-Pronoun 665 666	我
+T79	Person-Name 670 673	黄公望
+T80	Thing-Name 674 681	《富春山居图》
+R21	Create Arg1:T79 Arg2:T80	
+T81	Thing-Name 687 694	《富春山居图》
+T82	Person-Name 696 699	温总理
+T83	Location-Nominal 705 707	陆台
+T84	Thing-Nominal 705 712;713 715	陆台合璧后的全 景图
+T85	Location-Name 729 732	博物院
+T86	Time-Implicit 739 741	每天
+T87	Metric 745 751	5000多件
+T88	Thing-Nominal 745 755	5000多件书画文物
+R22	Part-Whole Arg1:T88 Arg2:T72	
+T89	Time-Implicit 757 761	每三个月
+T90	Thing-Nominal 766 770	其它藏品
+R23	Part-Whole Arg1:T90 Arg2:T62	
+T91	Person-Pronoun 779 781	我们
+T92	Thing-Name 785 792	《富春山居图》
+T93	Time-Implicit 793 796	闭馆期
+T94	Location-Name 800 807	台北故宫博物院
+T95	Thing-Nominal 811 813	藏品
+T96	Person-Nominal 841 842	人
+T97	Organization-Name 848 855	当时的国民政府
+T98	Person-Name 856 858	蒋公
+T99	Location-Name 894 901	台北故宫博物院
+T100	Location-Nominal 902 908	宝岛中的宝岛
+*	Coreference T100 T99
+T101	Location-Name 884 886	台湾
+T102	Location-Name 887 892	祖国的宝岛
+*	Coreference T101 T102
+T103	Location-Name 910 912	基隆
+T104	Location-Nominal 913 918	台湾的城市
+T105	Location-Name 913 915	台湾
+R24	Part-Whole Arg1:T104 Arg2:T105	
+T106	Location-Name 925 927	台北
+T107	Location-Name 928 930	高雄
+T108	Location-Name 931 933	基隆
+T109	Location-Name 934 936	台东
+T110	Location-Name 937 939	台中
+T111	Location-Name 940 942	花莲
+T112	Location-Name 943 945	澎湖
+T113	Location-Name 946 948	妈祖
+T114	Location-Name 949 951	淡水
+T115	Location-Name 952 954	金门
+T116	Location-Name 925 954	台北，高雄，基隆，台东，台中，花莲，澎湖，妈祖，淡水，金门
+R25	Part-Whole Arg1:T116 Arg2:T104	
+R26	Part-Whole Arg1:T116 Arg2:T105	
+T117	Person-Pronoun 961 962	我
+T118	Location-Name 968 970	基隆
+T119	Location-Name 972 974	基隆
+T120	Location-Name 976 980	台北地区
+T121	Location-Nominal 982 988	台湾的最北端
+R27	Part-Whole Arg1:T121 Arg2:T120	
+R28	Part-Whole Arg1:T120 Arg2:T105	
+T122	Thing-Nominal 1000 1002	大海
+T123	Thing-Nominal 992 993	山
+R29	Near Arg1:T122 Arg2:T119	
+R30	Near Arg1:T123 Arg2:T119	
+T124	Location-Name 1004 1006	宝岛
+T125	Location-Name 1021 1024	台弯头
+*	Coreference T125 T119
+T126	Thing-Nominal 1013 1015	大海
+T127	Location-Name 1038 1040	基隆
+T128	Person-Nominal 1044 1046	外夷
+T129	Location-Nominal 1049 1051	港口
+T130	Person-Nominal 1052 1057	荷兰殖民者
+R31	General-Special Arg1:T128 Arg2:T130	
+T131	Location-Name 1059 1061	台湾
+T132	Metric 1061 1064	38年
+T133	Time-Explicit 1065 1070	1662年
+T134	Person-Name 1070 1075	明将郑成功
+T135	Person-Nominal 1078 1079	其
+*	Coreference T135 T130 T144
+T136	Organization-Nominal 1076 1077	部
+T137	Person-Nominal 1085 1092	一部分残余势力
+R32	Part-Whole Arg1:T137 Arg2:T130	
+T138	Location-Name 1096 1099	基隆港
+*	Coreference T138 T127 T139
+T139	Location-Nominal 1107 1113	这个深海港口
+T140	Time-Explicit 1116 1121	1668年
+T141	Time-Implicit 1128 1130	至今
+T142	Location-Name 1132 1134	基隆
+T143	Location-Name 1135 1141	平岛的蕃字洞
+T144	Person-Nominal 1144 1147	荷兰人
+T145	Location-Name 1171 1173	基隆
+T146	Abstract 1161 1165	地理位置
+T147	Physical 1166 1168	地形
+T148	Time-Implicit 1181 1183	夏季
+T149	Thing-Nominal 1183 1187	西南季风
+T150	Location-Pronoun 1191 1192	它
+*	Coreference T150 T145
+T151	Thing-Nominal 1192 1197	背后的群山
+R33	Near Arg1:T151 Arg2:T150	
+T152	Time-Implicit 1204 1208	冬春季节
+T153	Thing-Nominal 1208 1212	东北季风
+T154	Location-Name 1213 1216	太平洋
+T155	Thing-Nominal 1220 1225	湿润的空气
+T156	Thing-Nominal 1231 1235	崇山峻岭
+T157	Thing-Nominal 1241 1246	细细的雨丝
+T158	Location-Name 1249 1252	基隆港
+T159	Location-Name 1255 1257	基隆
+T160	Time-Implicit 1258 1260	冬季
+T161	Location-Name 1262 1264	雨港
+*	Coreference T161 T159
+T162	Person-Name 1270 1273	孟庭苇
+T163	Thing-Name 1274 1279;1280 1285	《冬季到台 北来看雨》
+R34	Create Arg1:T162 Arg2:T163	
+T164	Thing-Name 1292 1302	《冬季到基隆来看雨》
+*	Coreference T164 T163
+T165	Location-Name 1304 1306	基隆
+T166	Thing-Nominal 1312 1326	无声无息，轻轻的，绵绵的细雨
+T167	Thing-Nominal 1304 1310	基隆所下的雨
+R35	General-Special Arg1:T166 Arg2:T167	
+T168	Thing-Nominal 1328 1333	潮湿的空气
+T169	Thing-Nominal 1342 1347	浓重的雾气
+T170	Location-Nominal 1351 1354	天地间
+R36	Located Arg1:T169 Arg2:T170	
+T171	Location-Nominal 1356 1364	基隆的城市，港口
+T172	Location-Nominal 1366 1373	基隆的清山绿水
+R37	Part-Whole Arg1:T172 Arg2:T165	
+R38	Part-Whole Arg1:T171 Arg2:T165	
+T173	Location-Name 1383 1385	基隆
+T174	Thing-Nominal 1390 1395	传统水墨画
+T175	Metric 1388 1390	一副
+T176	Person-Pronoun 1405 1407	我们
+T177	Time-Implicit 1405 1413	我们返程的这一天
+T178	Location-Name 1414 1416	基隆
+T179	Thing-Nominal 1418 1425	雾锁雨港的天气
+T180	Person-Pronoun 1426 1427	我
+R39	Part-Whole Arg1:T180 Arg2:T176	
+T181	Thing-Nominal 1429 1431	船头
+T182	Thing-Nominal 1434 1436	相机
+R40	Ownership Arg1:T180 Arg2:T182	
+T183	Thing-Nominal 1438 1444	云雾中的仙境
+T184	Location-Name 1448 1453	祖国的宝岛
+T185	Location-Name 1470 1472	玉山
+T186	Location-Name 1473 1475	台湾
+T187	Thing-Nominal 1476 1477	山
+T188	Location-Name 1484 1488	中央山脉
+T189	Location-Name 1492 1496	玉山山脉
+T190	Location-Name 1497 1502	阿里山山脉
+T191	Location-Name 1506 1510	雪山山脉
+T192	Location-Name 1519 1524	东海岸山脉
+R41	Part-Whole Arg1:T188 Arg2:T186	
+R42	Part-Whole Arg1:T189 Arg2:T186	
+R43	Part-Whole Arg1:T190 Arg2:T186	
+R44	Part-Whole Arg1:T191 Arg2:T186	
+R45	Part-Whole Arg1:T192 Arg2:T186	
+T193	Thing-Nominal 1527 1532	起伏的丘陵
+R46	Located Arg1:T193 Arg2:T186	
+T194	Location-Name 1536 1538	台湾
+T195	Metric 1538 1542	四分之三
+T196	Metric 1550 1555	3000米
+T197	Thing-Nominal 1546 1558	海拔超过3000米的山峰
+R47	Located Arg1:T197 Arg2:T186	
+T198	Metric 1560 1563	62座
+T199	Location-Nominal 1564 1566	山顶
+T200	Thing-Nominal 1571 1573	云雾
+T201	Thing-Nominal 1566 1568	积雪
+R48	Located Arg1:T201 Arg2:T199	
+R49	Located Arg1:T200 Arg2:T199	
+T202	Abstract 1576 1587	一片银装素裹的北国风光
+T203	Thing-Nominal 1588 1590	百岳
+T204	Thing-Nominal 1601 1607	任何一座主峰
+T205	Thing-Nominal 1611 1613	苍天
+T206	Location-Name 1619 1621	玉山
+T207	Location-Name 1623 1628	台湾的屋脊
+*	Coreference T207 T206 T208
+T208	Location-Name 1629 1633	百岳之冠
+T209	Metric 1636 1641	4000米
+T210	Abstract 1634 1636	海拔
+T211	Location-Name 1644 1646	台湾
+T212	Location-Name 1652 1654	宝岛
+T213	Location-Name 1667 1669	玉山
+T214	Abstract 1673 1677	北回归线
+T215	Metric 1677 1679;1680 1683	23 00米
+T216	Time-Implicit 1685 1692	每年6月22日
+T217	Thing-Name 1692 1694	太阳
+T218	Location-Pronoun 1704 1706	这里
+*	Coreference T218 T213
+T219	Metric 1712 1715	四个月
+T220	Thing-Nominal 1716 1718	积雪
+T221	Location-Name 1728 1730	玉山
+T222	Thing-Nominal 1734 1736	积雪
+R50	Located Arg1:T220 Arg2:T218	
+T223	Person-Nominal 1742 1748	古代的原住民
+T224	Time-Implicit 1742 1744	古代
+T225	Location-Nominal 1750 1752	山上
+T226	Thing-Nominal 1755 1757	玉石
+R51	Located Arg1:T226 Arg2:T225	
+T227	Abstract 1762 1764	海拔
+T228	Location-Name 1770 1772	玉山
+T229	Thing-Nominal 1778 1780	植被
+R52	Located Arg1:T229 Arg2:T228	
+T230	Location-Nominal 1792 1794	山上
+T231	Metric 1797 1801	十二个月
+T232	Time-Implicit 1806 1810	三月上旬
+T233	Thing-Nominal 1815 1817	笑花
+T234	Thing-Nominal 1818 1821	杜鹃花
+T235	Thing-Nominal 1833 1837	毛地黄花
+T236	Time-Implicit 1841 1844	五月份
+T237	Thing-Nominal 1845 1849	红毛杜鹃
+T238	Thing-Nominal 1850 1854	玉山杜鹃
+R53	Located Arg1:T233 Arg2:T230	
+R54	Located Arg1:T234 Arg2:T230	
+R55	Located Arg1:T238 Arg2:T230	
+R56	Located Arg1:T237 Arg2:T230	
+R57	Located Arg1:T235 Arg2:T230	
+*	Coreference T230 T228
+T239	Thing-Nominal 1861 1864	法国菊
+R58	Located Arg1:T239 Arg2:T230	
+T240	Time-Implicit 1858 1860	盛夏
+T241	Time-Implicit 1861 1869	法国菊遍开的季节
+*	Coreference T241 T240
+T242	Time-Implicit 1871 1873	花季
+T243	Thing-Nominal 1907 1909	雪花
+T244	Location-Name 1912 1914	玉山
+T245	Location-Name 1919 1921	玉山
+T246	Thing-Nominal 1928 1934	高山白色杜鹃
+T247	Thing-Nominal 1935 1939	蓝色龙胆
+R59	Located Arg1:T246 Arg2:T230	
+R60	Located Arg1:T247 Arg2:T230	
+T248	Location-Name 1942 1944	玉山
+T249	Person-Nominal 1950 1952	游客
+T250	Person-Pronoun 1956 1957	我
+R61	General-Special Arg1:T249 Arg2:T250	
+T251	Person-Pronoun 1969 1970	我
+T252	Person-Nominal 1972 1974	导游
+R62	Social Arg1:T251 Arg2:T252	
+T253	Person-Pronoun 1981 1982	她
+*	Coreference T253 T252
+T254	Location-Name 1999 2001	日本
+T255	Person-Nominal 1999 2004	日本侵略者
+T256	Location-Name 2006 2008	台湾
+T257	Location-Name 2013 2015	玉山
+T258	Person-Pronoun 2016 2018	他们
+*	Coreference T258 T255
+T259	Location-Name 2019 2022	富士山
+T260	Metric 2023 2028	3776米
+T261	Person-Name 2035 2039	明治天皇
+T262	Location-Name 2043 2045	玉山
+T263	Location-Name 2049 2052	新高山
+*	Coreference T263 T262
+T264	Time-Implicit 2032 2034	当时
+T265	Time-Implicit 1999 2010	日本侵略者统治台湾期间
+*	Coreference T264 T265
+T266	Location-Nominal 2059 2062	侵略国
+*	Coreference T266 T254
+T267	Person-Pronoun 2079 2081	他们
+T268	Location-Name 2082 2084	台湾
+T269	Location-Name 2093 2096	新高山
+T270	Location-Name 2118 2119;2120 2121	宝 岛
+T271	Location-Nominal 2122 2129	祖国的神圣领土
+R63	Part-Whole Arg1:T270 Arg2:T271	
+T272	Location-Name 2130 2132	玉山
+T273	Location-Name 2133 2135	玉山
+T274	Location-Name 2146 2148	宝岛
+T275	Thing-Nominal 2136 2145	一石一土，一草一木
+T276	Location-Nominal 2173 2175	故乡
+T277	Person-Pronoun 2177 2178	我
+T278	Location-Nominal 2179 2181	高山
+T279	Location-Name 2187 2189	大陆
+T280	Location-Name 2191 2193	大陆
+T281	Person-Pronoun 2205 2206	我
+T282	Location-Name 2207 2209	高山
+T283	Location-Nominal 2215 2217	故乡
+T284	Person-Pronoun 2214 2215	我
+T285	Location-Nominal 2219 2221	故乡
+T286	Person-Name 2234 2244	国民党元老于右任将军
+T287	Thing-Name 2245 2250	《望大陆》
+R64	Create Arg1:T286 Arg2:T287	
+T288	Time-Explicit 2251 2256	1967年
+T289	Person-Name 2257 2261	右任将军
+*	Coreference T289 T286
+T290	Thing-Nominal 2257 2264	右任将军的塑像
+T291	Thing-Name 2267 2272	《望大陆》
+T292	Location-Name 2277 2279	玉山
+T293	Location-Nominal 2277 2281	玉山之巅
+R65	Located Arg1:T290 Arg2:T293	

@@ -1,0 +1,160 @@
+T1	Person-Nominal 44 46	人们
+T2	Person-Pronoun 47 49	他们
+T3	Person-Pronoun 68 70	他们
+T4	Person-Pronoun 71 73	自己
+*	Coreference T4 T3 T2 T1 T5 T8 T11
+T5	Person-Pronoun 94 96	他们
+T6	Thing-Nominal 119 121	疾风
+T7	Thing-Nominal 122 124	骤雨
+T8	Person-Pronoun 155 157	他们
+T9	Person-Nominal 186 188	平民
+T10	Person-Nominal 198 201	明星们
+T11	Person-Nominal 205 210	平凡的他们
+T12	Person-Nominal 231 234	追梦人
+T13	Person-Name 236 238	姜笑
+*	Coreference T13 T12 T14 T17 T20
+T14	Person-Nominal 241 261	来自北京大兴殡仪馆的会讲相声的殡葬礼仪师
+T15	Location-Name 243 250	北京大兴殡仪馆
+T16	Person-Nominal 256 261	殡葬礼仪师
+T17	Person-Pronoun 262 263	他
+T18	Location-Nominal 268 280	全国有殡仪化妆专业的高校
+T19	Person-Name 293 300	梦想大使周立波
+T20	Person-Pronoun 301 302	他
+T21	Person-Pronoun 320 321	他
+T22	Person-Pronoun 322 324	我们
+T23	Person-Nominal 328 331	老太太
+T24	Person-Nominal 332 335	老先生
+T25	Person-Nominal 340 342;343 344	老太 太
+T26	Person-Nominal 348 351	老先生
+T27	Location-Nominal 352 355	殡仪馆
+T28	Person-Nominal 356 359	老太太
+T29	Thing-Nominal 360 361	头
+T30	Thing-Nominal 363 364	嘴
+R1	Part-Whole Arg1:T30 Arg2:T26	
+R2	Part-Whole Arg1:T29 Arg2:T28	
+T31	Person-Pronoun 369 370	你
+*	Coreference T31 T28 T34
+T32	Person-Pronoun 377 378	我
+*	Coreference T32 T26 T33
+T33	Person-Pronoun 388 389	我
+T34	Person-Pronoun 392 393	你
+T35	Time-Implicit 395 399	一个月后
+T36	Person-Nominal 400 403	老先生
+T37	Location-Nominal 415 418	殡仪馆
+T38	Person-Nominal 420 423	老先生
+T39	Person-Nominal 427 430	老太太
+T40	Thing-Nominal 427 433	老太太的照片
+T41	Person-Pronoun 436 438	他们
+R3	Part-Whole Arg1:T38 Arg2:T41	
+R4	Part-Whole Arg1:T39 Arg2:T41	
+T42	Person-Nominal 455 456	人
+T43	Person-Nominal 466 468	观众
+T44	Person-Pronoun 469 470	我
+T45	Thing-Nominal 473 474	眼
+T46	Thing-Nominal 478 480	泪水
+T47	Person-Nominal 492 493	人
+T48	Person-Name 500 502	姜笑
+T49	Person-Pronoun 512 514	我们
+T50	Person-Nominal 515 517	常人
+T51	Person-Nominal 550 551	人
+T52	Time-Implicit 551 558	从有生命的那天
+T53	Person-Pronoun 582 584	我们
+T54	Person-Nominal 582 587	我们每个人
+T55	Person-Pronoun 592 594	自己
+*	Coreference T55 T54
+T56	Person-Pronoun 607 609	我们
+T57	Person-Pronoun 634 636	自己
+*	Coreference T57 T56
+T58	Person-Nominal 639 641	朋友
+T59	Person-Pronoun 647 649	我们
+T60	Person-Nominal 656 658	父母
+T61	Person-Nominal 661 663	父母
+T62	Person-Pronoun 666 668	我们
+T63	Person-Pronoun 671 673	我们
+T64	Person-Nominal 677 679	母亲
+T65	Person-Nominal 686 688	父母
+T66	Person-Nominal 704 706	父母
+T67	Person-Pronoun 737 738	我
+T68	Person-Pronoun 741 743	他们
+*	Coreference T68 T66 T71
+T69	Person-Nominal 746 748	孩子
+T70	Person-Nominal 751 753	大官
+T71	Person-Nominal 785 791	天下所有父母
+T72	Organization-Nominal 798 800	小学
+T73	Organization-Nominal 801 803	中学
+T74	Person-Nominal 804 806	父亲
+T75	Person-Pronoun 807 808	我
+T76	Person-Nominal 830 832	农民
+T77	Person-Pronoun 833 834	他
+*	Coreference T77 T76 T74 T78
+T78	Person-Pronoun 836 838	自己
+T79	Person-Nominal 841 842;843 844	孩 子
+T80	Person-Pronoun 882 883	我
+T81	Person-Nominal 896 899	父母亲
+T82	Person-Pronoun 908 910	他们
+*	Coreference T82 T81
+T83	Person-Pronoun 916 917	我
+T84	Person-Name 928 931	司马迁
+T85	Person-Nominal 936 937	人
+T86	Location-Name 945 947	泰山
+T87	Thing-Nominal 951 953	鸿毛
+T88	Person-Pronoun 978 980	我们
+T89	Person-Nominal 1014 1015	人
+T90	Location-Nominal 1023 1026	火葬场
+T91	Person-Nominal 1027 1028	人
+T92	Person-Nominal 1054 1055	人
+T93	Thing-Nominal 1116 1118	东西
+T94	Person-Pronoun 1135 1137	我们
+T95	Person-Pronoun 1143 1145	自己
+*	Coreference T95 T94
+T96	Thing-Pronoun 1168 1170	我们
+T97	Person-Nominal 1206 1209	有些人
+T98	Person-Pronoun 1226 1228	自己
+*	Coreference T98 T97
+T99	Person-Nominal 1277 1278	人
+T100	Person-Pronoun 1302 1303	你
+T101	Person-Nominal 1305 1307	别人
+T102	Person-Pronoun 1368 1370	我们
+T103	Person-Name 1388 1402	苏联俄罗斯作家奥斯特洛夫斯基
+T104	Person-Nominal 1422 1423	人
+T105	Person-Pronoun 1443 1444	他
+T106	Person-Nominal 1429 1432	一个人
+*	Coreference T105 T106 T109
+T107	Time-Implicit 1442 1451	当他回忆往事的时候
+T108	Time-Implicit 1476 1482	在临死的时候
+T109	Person-Pronoun 1489 1490	我
+T110	Person-Nominal 1515 1517	人类
+T111	Person-Nominal 1525 1528	每个人
+T112	Person-Nominal 1547 1549	父母
+T113	Person-Nominal 1550 1552	夫妻
+T114	Person-Nominal 1553 1555	儿女
+T115	Person-Nominal 1556 1558	老师
+T116	Person-Nominal 1559 1561	学生
+T117	Person-Nominal 1573 1578	客观的他人
+T118	Person-Pronoun 1592 1594	自己
+T119	Person-Pronoun 1602 1603	你
+T120	Person-Pronoun 1638 1640	自己
+T121	Person-Pronoun 1651 1652	我
+T122	Person-Pronoun 1659 1661	自己
+*	Coreference T120 T121 T122
+T123	Person-Nominal 1678 1680	家人
+R5	Family Arg1:T123 Arg2:T121	
+T124	Person-Pronoun 1697 1698	我
+T125	Person-Pronoun 1703 1705	我们
+T126	Time-Implicit 1755 1758	有一天
+T127	Person-Pronoun 1759 1761	我们
+T128	Person-Nominal 1794 1796	别人
+T129	Person-Pronoun 1813 1815	我们
+T130	Person-Pronoun 1826 1827	我
+T131	Person-Name 1855 1860	诗人臧克家
+T132	Person-Nominal 1865 1868	有的人
+T133	Person-Pronoun 1871 1872	他
+*	Coreference T133 T132
+T134	Person-Nominal 1877 1880	有的人
+T135	Person-Pronoun 1883 1884	他
+*	Coreference T135 T134
+T136	Thing-Nominal 1892 1894	躯体
+T137	Person-Pronoun 1900 1902	我们
+T138	Thing-Nominal 1980 1982	大海
+T139	Thing-Nominal 1991 1992	雁
+T140	Location-Nominal 1989 1991	天边

@@ -1,0 +1,318 @@
+T1	Thing-Nominal 0 6	我家的传家宝
+T2	Thing-Nominal 7 12	一只老坛子
+T3	Thing-Nominal 29 33	粗陶坛子
+*	Coreference T2 T3 T5
+T4	Thing-Nominal 35 37	我家
+T5	Thing-Pronoun 44 45	它
+T6	Person-Pronoun 88 89	我
+T7	Person-Nominal 95 98	我母亲
+T8	Person-Nominal 100 109	精明能干的农村妇女
+R1	Part-Whole Arg1:T7 Arg2:T8	
+R2	Family Arg1:T7 Arg2:T6	
+T9	Person-Nominal 114 125	精打细算持家过日子的人
+R3	Part-Whole Arg1:T7 Arg2:T9	
+T10	Person-Pronoun 126 127	她
+T11	Metric 127 135	人生的大部分时光
+T12	Time-Implicit 137 142	动乱的年代
+T13	Time-Implicit 148 153	艰难的岁月
+T14	Person-Nominal 156 158	母亲
+T15	Thing-Nominal 161 167	家传的老坛子
+T16	Thing-Nominal 169 171	大米
+T17	Person-Pronoun 180 181	她
+T18	Location-Nominal 196 199	老坛子
+T19	Metric 209 212	几个月
+T20	Metric 223 227	50多斤
+T21	Thing-Nominal 220 230	一坛子50多斤的大米
+R4	Located Arg1:T21 Arg2:T18	
+T22	Time-Implicit 231 235	青黄不接
+T23	Person-Nominal 237 239	母亲
+T24	Thing-Nominal 250 252	野菜
+T25	Thing-Nominal 256 259	老坛子
+T26	Thing-Nominal 265 267	我家
+T27	Time-Implicit 283 286	有一年
+T28	Person-Nominal 287 293	邻居大塘婶娘
+T29	Person-Nominal 287 296	邻居大塘婶娘的孩子
+R5	Family Arg1:T29 Arg2:T28	
+T30	Time-Implicit 303 307	青黄不接
+T31	Thing-Nominal 308 311	她家里
+T32	Person-Nominal 342 343;344 345	母 亲
+T33	Person-Pronoun 351 352	她
+*	Coreference T32 T33
+T34	Location-Nominal 358 361	老坛子
+T35	Metric 364 367	十多斤
+T36	Thing-Nominal 364 368	十多斤米
+T37	Person-Pronoun 370 371	她
+*	Coreference T37 T28 T39 T41 T44
+R6	Located Arg1:T36 Arg2:T34	
+T38	Person-Nominal 372 374	母亲
+T39	Person-Pronoun 392 393	她
+R7	Social Arg1:T28 Arg2:T32	
+T40	Person-Nominal 408 410	母亲
+T41	Person-Pronoun 421 422	她
+T42	Person-Nominal 425 430	自己的孩子
+R8	Family Arg1:T41 Arg2:T42	
+T43	Person-Nominal 431 435	她的孩子
+T44	Person-Pronoun 445 446	她
+T45	Person-Nominal 451 452	人
+R9	Social Arg1:T44 Arg2:T45	
+T46	Person-Nominal 456 458	母亲
+R10	Social Arg1:T46 Arg2:T44	
+R11	Social Arg1:T45 Arg2:T46	
+T47	Person-Nominal 460 463	市前嫂
+T48	Person-Nominal 479 481	母亲
+T49	Person-Nominal 497 506	乡里家喻户晓的人物
+T50	Time-Implicit 514 517	解放前
+T51	Person-Nominal 518 520	妇女
+T52	Thing-Nominal 529 534	自己的名字
+R12	Ownership Arg1:T51 Arg2:T52	
+T53	Person-Nominal 538 542	农村妇女
+R13	Part-Whole Arg1:T51 Arg2:T53	
+T54	Person-Nominal 552 556	已婚妇女
+R14	Part-Whole Arg1:T51 Arg2:T54	
+R15	Part-Whole Arg1:T48 Arg2:T49	
+T55	Person-Nominal 571 572	婆
+T56	Person-Nominal 573 574	嫂
+T57	Person-Nominal 580 585	母亲的外家
+T58	Location-Nominal 587 592	翰林市前村
+T59	Person-Nominal 599 602	市前嫂
+*	Coreference T59 T57
+T60	Time-Implicit 603 606	解放后
+T61	Person-Nominal 607 609	男女
+T62	Person-Nominal 613 615	母亲
+T63	Person-Pronoun 643 644	她
+T64	Person-Nominal 643 649	她的两个哥哥
+*	Coreference T63 T62
+R16	Family Arg1:T63 Arg2:T64	
+T65	Person-Name 653 656	周世富
+T66	Person-Name 657 660	周世安
+R17	Part-Whole Arg1:T64 Arg2:T65	
+R18	Part-Whole Arg1:T64 Arg2:T66	
+T67	Person-Nominal 663 665	男人
+T68	Person-Nominal 678 680	男女
+T69	Person-Nominal 694 696	母亲
+T70	Thing-Nominal 697 700	老坛子
+R19	Family Arg1:T65 Arg2:T66	
+T71	Time-Implicit 704 712	上世纪五十年代初
+T72	Organization-Name 713 716	共和国
+T73	Organization-Nominal 737 743	中央人民政府
+T74	Person-Nominal 783 785	母亲
+T75	Organization-Nominal 798 801	乡政府
+R20	Part-Whole Arg1:T75 Arg2:T73	
+T76	Person-Nominal 806 807	人
+T77	Person-Nominal 811 813	母亲
+R21	Social Arg1:T76 Arg2:T77	
+R22	Ownership Arg1:T76 Arg2:T75	
+T78	Person-Nominal 827 829	母亲
+T79	Person-Nominal 854 855	人
+T80	Thing-Nominal 857 863	我家的老坛子
+R23	Social Arg1:T79 Arg2:T78	
+R24	Ownership Arg1:T79 Arg2:T75	
+T81	Person-Nominal 874 876	母亲
+T82	Thing-Nominal 891 894	老坛子
+T83	Person-Nominal 899 901	人人
+T84	Time-Implicit 909 911	当时
+T85	Location-Nominal 912 915	我们村
+T86	Location-Nominal 918 930	母瑞山革命根据地的翰林乡
+R25	Part-Whole Arg1:T85 Arg2:T86	
+T87	Metric 933 940	一百多平方公里
+T88	Person-Nominal 946 948	母亲
+T89	Person-Pronoun 964 965	她
+*	Coreference T89 T88
+T90	Person-Nominal 977 979	母亲
+T91	Person-Pronoun 981 987	聪明伶俐的人
+R26	Part-Whole Arg1:T90 Arg2:T91	
+T92	Person-Pronoun 999 1000	她
+T93	Organization-Nominal 1013 1016	乡政府
+T94	Time-Explicit 1044 1046	今天
+T95	Person-Nominal 1047 1052	上年纪的人
+T96	Person-Nominal 1064 1067	我父亲
+R27	Family Arg1:T96 Arg2:T90	
+T97	Person-Nominal 1069 1076	宽厚朴实的农民
+R28	Part-Whole Arg1:T96 Arg2:T97	
+T98	Person-Pronoun 1077 1078	他
+*	Coreference T96 T98
+T99	Person-Nominal 1081 1083	母亲
+T100	Person-Nominal 1086 1088	母亲
+T101	Thing-Nominal 1091 1092	村
+T102	Person-Nominal 1099 1101	人们
+T103	Person-Name 1104 1107	周世凤
+T105	Person-Nominal 1108 1119	田菊墩村秦日良哥的妻子
+*	Coreference T103 T105
+T104	Person-Nominal 1123 1124;1125 1127	我 父亲
+T106	Time-Implicit 1139 1146	那时刚解放不久
+T107	Person-Nominal 1147 1149	人们
+T108	Person-Nominal 1175 1179	人民群众
+T109	Organization-Nominal 1180 1181	党
+T110	Organization-Nominal 1182 1184	国家
+T111	Organization-Nominal 1190 1192	政府
+T112	Person-Nominal 1208 1210	母亲
+T113	Person-Nominal 1229 1233	许多人家
+R29	Social Arg1:T112 Arg2:T113	
+T114	Person-Nominal 1247 1249	母亲
+T115	Time-Implicit 1255 1257	当时
+T116	Thing-Nominal 1257 1260;1261 1266	县政府 的工作简报
+T117	Person-Nominal 1277 1279	母亲
+T118	Person-Pronoun 1291 1292	她
+*	Coreference T117 T118
+T119	Metric 1293 1297	三十出头
+T120	Person-Nominal 1305 1307	母亲
+T121	Thing-Nominal 1309 1312	老坛子
+T122	Time-Explicit 1317 1325	1958年10月
+T123	Organization-Name 1326 1330	人民公社
+T124	Time-Implicit 1334 1338	一夜之间
+T125	Person-Nominal 1351 1353	人们
+T126	Organization-Name 1362 1366	人民公社
+T127	Organization-Nominal 1428 1429	村
+T128	Organization-Name 1431 1434	生产队
+T129	Organization-Nominal 1435 1436	乡
+T130	Organization-Name 1439 1443	生产大队
+*	Coreference T128 T127
+T131	Organization-Nominal 1444 1445	区
+T132	Organization-Name 1447 1449	公社
+*	Coreference T129 T130
+*	Coreference T131 T132
+R30	Part-Whole Arg1:T127 Arg2:T129	
+R31	Part-Whole Arg1:T129 Arg2:T131	
+R32	Part-Whole Arg1:T132 Arg2:T130	
+R33	Part-Whole Arg1:T130 Arg2:T128	
+R34	Part-Whole Arg1:T132 Arg2:T128	
+R35	Part-Whole Arg1:T127 Arg2:T131	
+T133	Organization-Nominal 1451 1454	生产队
+T134	Thing-Nominal 1457 1460	大食堂
+T135	Thing-Nominal 1496 1498	食堂
+T136	Thing-Nominal 1519 1523	下饭的菜
+T137	Thing-Nominal 1528 1531	菜头脯
+T138	Thing-Nominal 1544 1547	咸鱼仔
+T139	Thing-Nominal 1548 1549	菜
+T140	Thing-Nominal 1570 1572	油水
+T141	Time-Implicit 1573 1575	那时
+T142	Person-Name 1618 1621;1622 1624	彭德怀 元帅
+T143	Person-Nominal 1648 1651	我妹妹
+T144	Person-Nominal 1654 1656	母亲
+R36	Family Arg1:T143 Arg2:T144	
+T145	Person-Nominal 1662 1664	母亲
+T146	Person-Pronoun 1665 1666	她
+*	Coreference T145 T146 T147
+T147	Person-Pronoun 1714 1715	她
+T148	Thing-Nominal 1726 1729	老坛子
+T149	Thing-Nominal 1731 1733	大米
+T150	Location-Nominal 1735 1744	神堂(神龛)的角落
+R37	Located Arg1:T148 Arg2:T150	
+T151	Person-Nominal 1759 1761	母亲
+T152	Metric 1764 1769	不到三个月
+T153	Thing-Nominal 1769 1775	生产队的粮仓
+T154	Thing-Nominal 1780 1787	各生产队的食堂
+T155	Organization-Nominal 1807 1809	公社
+T156	Person-Nominal 1817 1821	各家各户
+T157	Thing-Nominal 1824 1826	粮食
+T158	Organization-Nominal 1828 1831	生产队
+T159	Thing-Nominal 1834 1837	偷藏者
+T160	Time-Implicit 1848 1850	不久
+T161	Organization-Nominal 1850 1854	生产大队
+T162	Person-Nominal 1857 1859	民兵
+T163	Location-Nominal 1860 1864	各家各户
+T164	Thing-Nominal 1867 1869	粮食
+R38	Located Arg1:T164 Arg2:T163	
+T165	Person-Nominal 1870 1872	民兵
+T166	Location-Nominal 1883 1885	我家
+T167	Person-Nominal 1896 1903	襁褓中的小妹妹
+T168	Thing-Nominal 1929 1931	粮食
+T169	Person-Nominal 1932 1936	几个民兵
+T170	Person-Pronoun 1965 1968	这些人
+*	Coreference T170 T169
+T171	Person-Nominal 1991 1994	几个人
+R39	Part-Whole Arg1:T171 Arg2:T170	
+T172	Person-Nominal 1999 2001	母亲
+T173	Thing-Nominal 2003 2006	老坛子
+T174	Person-Nominal 2031 2033	母亲
+T175	Person-Nominal 2044 2046	母亲
+T176	Thing-Nominal 2048 2051	老坛子
+T177	Thing-Nominal 2058 2059;2060 2062	老 坛子
+T178	Metric 2082 2084	很久
+T179	Person-Nominal 2086 2088	母亲
+T180	Location-Nominal 2091 2096	大队办公室
+T181	Location-Nominal 2101 2106	大队办公室
+T182	Person-Nominal 2112 2115	许多人
+T183	Person-Nominal 2121 2123	民兵
+T184	Person-Nominal 2146 2148	母亲
+T185	Person-Pronoun 2150 2151	她
+*	Coreference T185 T184
+T186	Person-Nominal 2193 2195	民兵
+R40	Social Arg1:T186 Arg2:T184	
+T187	Person-Nominal 2201 2203	母亲
+T188	Thing-Nominal 2211 2215	大厚纸牌
+T189	Thing-Nominal 2222 2225	老坛子
+T190	Thing-Nominal 2227 2229	纸牌
+T191	Thing-Nominal 2234 2245	不伦不类怪模怪样的画图
+T192	Person-Nominal 2248 2250	母亲
+T193	Person-Nominal 2259 2261;2262 2268	顽固 分子”在民兵
+T194	Person-Nominal 2280 2283	几个人
+T195	Person-Pronoun 2294 2295	我
+T196	Person-Nominal 2318 2322;2323 2324	许多小孩 子
+T197	Thing-Nominal 2335 2337	天空
+T198	Thing-Nominal 2343 2347	凄风苦雨
+T199	Location-Nominal 2350 2352	大地
+T200	Person-Nominal 2354 2355	人
+T201	Person-Nominal 2368 2370	母亲
+T202	Thing-Nominal 2382 2384	嘴唇
+T203	Person-Nominal 2399 2401	母亲
+T204	Time-Implicit 2464 2468	那个年代
+T205	Person-Pronoun 2472 2473	她
+T206	Time-Implicit 2480 2485	当年12月
+T207	Metric 2492 2495	40岁
+T208	Time-Implicit 2490 2492	时年
+*	Coreference T208 T206
+T209	Person-Nominal 2498 2499	亲
+T210	Person-Nominal 2502 2504	母亲
+T211	Person-Nominal 2525 2531	我们兄妹三人
+R41	Social Arg1:T209 Arg2:T210	
+T212	Time-Explicit 2544 2551	上世纪八十年代
+T213	Abstract 2551 2555	改革开放
+T214	Person-Nominal 2558 2560	人们
+T215	Person-Nominal 2566 2568	父亲
+T216	Thing-Nominal 2570 2573	老坛子
+T217	Person-Nominal 2586 2589	儿孙们
+R42	Family Arg1:T217 Arg2:T215	
+T218	Thing-Nominal 2590 2593	老坛子
+T219	Person-Nominal 2605 2607	母亲
+T220	Metric 2649 2652	99岁
+T221	Time-Explicit 2662 2664	今天
+T222	Person-Nominal 2665 2667	我们
+T223	Person-Nominal 2676 2682	我们的父母亲
+T224	Person-Nominal 2684 2686	母亲
+T225	Person-Nominal 2688 2690	我们
+T226	Time-Implicit 2691 2696	半个多世纪
+T227	Person-Pronoun 2698 2699	她
+T228	Person-Nominal 2706 2708	我们
+T229	Person-Pronoun 2713 2714	她
+T230	Person-Nominal 2722 2723	我
+T231	Time-Implicit 2731 2733	当年
+T232	Person-Nominal 2741 2743	大人
+T233	Metric 2747 2751	一丈三尺
+T234	Person-Nominal 2752 2754	小孩
+T235	Metric 2761 2766	6尺到9尺
+T236	Person-Nominal 2769 2771	母亲
+T237	Person-Nominal 2784 2787	裁缝师
+T238	Person-Pronoun 2796 2797	她
+T239	Metric 2810 2813	一两寸
+T240	Person-Nominal 2819 2821	自己
+T241	Person-Nominal 2829 2831	母亲
+T242	Person-Nominal 2840 2842	我们
+T243	Time-Implicit 2852 2859	上学读书的时候
+T244	Person-Nominal 2851 2852	我
+T245	Person-Nominal 2875 2881	任何一位同学
+T246	Thing-Nominal 2895 2898	老坛子
+T247	Person-Nominal 2906 2908	母亲
+T248	Time-Explicit 2935 2937	今天
+T249	Organization-Nominal 2945 2950	全世界各国
+T250	Time-Explicit 2968 2979	2010年10月26日
+T251	Organization-Name 2979 2984	南国都市报
+T252	Location-Name 2988 2990	重庆
+T253	Abstract 2991 2997	最节约的老人
+T254	Person-Nominal 2999 3001	人们
+T255	Person-Nominal 3005 3007	网友
+T256	Person-Nominal 3012 3014	老人
+R43	Social Arg1:T256 Arg2:T255	
+T257	Location-Name 3021 3024	联合国
+T258	Time-Explicit 3028 3034	10月31日
+T259	Abstract 3036 3043	世界勤俭节约日

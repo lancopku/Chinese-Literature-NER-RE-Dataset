@@ -1,0 +1,205 @@
+T1	Location-Nominal 8 14	村头小路两旁
+T2	Thing-Nominal 15 21	两条潺潺小溪
+T3	Thing-Nominal 1 7	记忆中的村庄
+T4	Person-Pronoun 0 1	我
+R1	Located Arg1:T2 Arg2:T1	
+T5	Location-Nominal 22 26	小溪旁边
+T6	Thing-Nominal 29 31	芦苇
+R2	Located Arg1:T6 Arg2:T5	
+T7	Thing-Nominal 32 33	风
+T8	Thing-Nominal 38 42	青青芦苇
+T9	Thing-Nominal 44 46	波浪
+T10	Thing-Nominal 48 53	少女的秀发
+T11	Person-Nominal 48 50	少女
+R3	Part-Whole Arg1:T10 Arg2:T11	
+T12	Location-Nominal 54 57	春风里
+T13	Time-Implicit 61 64	秋天里
+T14	Thing-Nominal 65 68	芦苇叶
+T15	Thing-Nominal 87 91	蓝天白云
+T16	Thing-Nominal 93 97	潺潺清溪
+T17	Thing-Nominal 99 109	村头寨半腰的小树林儿
+T18	Location-Nominal 99 104	村头寨半腰
+R4	Located Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 112 121;122 124	一幅浓墨淡彩的自然 画面
+T20	Location-Nominal 131 136	村前，村后
+T21	Thing-Nominal 137 139	杨柳
+T22	Location-Nominal 142 145	树荫下
+T23	Thing-Nominal 146 158	一坑又一坑清澈透明的碧水
+R5	Located Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 159 162	杨柳叶
+T25	Location-Nominal 174 177	水面上
+R6	Located Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 178 179	水
+T27	Thing-Nominal 188 190	夕阳
+T28	Location-Nominal 193 196	水面上
+T29	Thing-Nominal 197 199	波光
+T30	Location-Nominal 205 207	空中
+T31	Thing-Nominal 202 204	燕子
+R7	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 219 221	水面
+T33	Location-Nominal 228 230	空中
+T34	Location-Pronoun 236 238	这里
+T35	Thing-Nominal 248 250	羊群
+T36	Location-Nominal 251 252;253 255	坑 坡上
+R8	Located Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 256 257	草
+T38	Thing-Nominal 258 260	影子
+T39	Location-Nominal 263 265	水中
+R9	Located Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 267 269	鱼儿
+T41	Thing-Nominal 286 288	青蛙
+T42	Thing-Nominal 291 293	青蛙
+T43	Location-Nominal 301 303	树上
+T44	Thing-Nominal 303 305	知了
+R10	Located Arg1:T44 Arg2:T43	
+T45	Location-Nominal 321 335	各家各户的门前房后，墙里墙外
+T46	Thing-Nominal 347 353	各种各样的树
+R11	Located Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 356 363	各种各样的花儿
+R12	Located Arg1:T47 Arg2:T45	
+T48	Thing-Nominal 369 374	喜鹊，麻雀
+T49	Location-Nominal 376 378;379 380	花枝 头
+R13	Located Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 389 391	桃花
+T51	Thing-Nominal 398 400	梨花
+T52	Thing-Nominal 407 410	糖梨花
+T53	Thing-Nominal 410 414	白瓣黄蕊
+T54	Location-Nominal 422 424	枝头
+R14	Located Arg1:T52 Arg2:T54	
+T55	Thing-Nominal 425 439;440 441	榆钱，槐花，枣花，春花，莲子 花
+T56	Thing-Pronoun 448 450	她们
+*	Coreference T56 T55
+T57	Person-Pronoun 518 520	他们
+T58	Location-Nominal 516 517	家
+T59	Person-Nominal 510 512	孩子
+T60	Person-Nominal 489 491	人们
+T61	Location-Nominal 492 496	田间地头
+T62	Thing-Nominal 531 533	馍菜
+T63	Location-Nominal 535 536	家
+T64	Location-Nominal 544 548	我家门前
+T65	Person-Nominal 571 573	父母
+T66	Person-Nominal 582 584	夫妇
+T67	Location-Nominal 588 592	我家门前
+T68	Thing-Nominal 593 596	个人场
+T69	Person-Nominal 597 602	半道街的人
+*	Coreference T57 T59
+T70	Thing-Nominal 521 522	手
+T71	Thing-Nominal 524 526	碗筷
+T72	Location-Pronoun 617 619	这里
+T73	Thing-Nominal 629 631	谁家
+T74	Person-Nominal 643 645	大家
+T75	Thing-Nominal 647 649	谁家
+T76	Thing-Nominal 654 656	饭菜
+T77	Person-Nominal 662 663;664 665	大 伙
+T78	Thing-Nominal 681 685	四处寒风
+T79	Person-Nominal 704 713	年轻的男人与女人们
+T80	Location-Nominal 717 725	父母邻街的小屋里
+T81	Person-Nominal 737 738;739 740	大 家
+T82	Person-Nominal 744 746	父亲
+T83	Thing-Nominal 747 753	屋里的小煤火
+T84	Location-Nominal 747 749	屋里
+R15	Located Arg1:T83 Arg2:T84	
+T85	Thing-Nominal 761 766	一大堆木头
+T86	Person-Nominal 773 775	大家
+T87	Thing-Nominal 781 789	一拨又一拨的火苗
+T88	Thing-Nominal 769 771	火候
+T89	Thing-Nominal 816 818	清溪
+T90	Thing-Nominal 821 823	芦苇
+T91	Thing-Nominal 831 833	碧水
+T92	Thing-Nominal 836 838	飞鸟
+T93	Thing-Nominal 841 843	燕子
+T94	Thing-Nominal 846 848	羊群
+T95	Thing-Nominal 851 853	知了
+T96	Thing-Nominal 856 858	青蛙
+T97	Thing-Nominal 861 863	果树
+T98	Thing-Nominal 826 828	绿荫
+T99	Location-Nominal 920 922	家乡
+T100	Thing-Nominal 903 905	行囊
+T101	Person-Nominal 896 901	青年，壮年
+T102	Location-Nominal 945 947	家里
+T103	Person-Nominal 952 963	老人，残疾，孕妇和儿童
+T104	Location-Nominal 971 974	村庄上
+T105	Time-Implicit 966 970	农忙时节
+T106	Location-Nominal 980 982	村头
+T107	Location-Nominal 983 985	村尾
+T108	Person-Nominal 997 1001	一位老人
+T109	Person-Pronoun 1002 1003	你
+T110	Location-Nominal 1006 1014	一张皱巴巴的脸上
+T111	Thing-Nominal 1017 1026	一双模糊塌坑的眼睛
+R16	Located Arg1:T111 Arg2:T110	
+T112	Person-Pronoun 1032 1033	你
+T113	Person-Pronoun 1036 1037	你
+T114	Location-Nominal 1039 1042	外星球
+T115	Thing-Nominal 1047 1048;1049 1050	拐 杖
+T116	Person-Nominal 1067 1069	父母
+T117	Thing-Nominal 1072 1074	房门
+T118	Person-Nominal 1086 1087	人
+T119	Thing-Nominal 1080 1081	锁
+T120	Thing-Nominal 1095 1100	漆高的茅草
+T121	Location-Nominal 1090 1092	门前
+R17	Located Arg1:T120 Arg2:T121	
+T122	Thing-Nominal 1105 1107	茅草
+T123	Location-Nominal 1113 1116	寒风中
+R18	Located Arg1:T122 Arg2:T123	
+T124	Thing-Nominal 1122 1129	有声有色的庄园
+T125	Thing-Nominal 1144 1146	村落
+T126	Person-Nominal 1160 1164	祖祖辈辈
+T127	Location-Pronoun 1167 1169	这里
+T128	Person-Nominal 1170 1172	人们
+T129	Thing-Nominal 1174 1176	汗水
+R19	Use Arg1:T128 Arg2:T129	
+T130	Thing-Nominal 1182 1185	热土地
+T131	Thing-Nominal 1197 1203	低低的破土墙
+T132	Thing-Nominal 1206 1212	高高的红砖墙
+T133	Thing-Nominal 1213 1220	户户人家的房屋
+T134	Thing-Nominal 1230 1234	砖墙大院
+T135	Location-Nominal 1242 1249	家家户户大门上
+T136	Thing-Nominal 1253 1257	一把大锁
+R20	Located Arg1:T136 Arg2:T135	
+T137	Thing-Nominal 1284 1286	村落
+T138	Thing-Nominal 1290 1292	村落
+T139	Person-Pronoun 1293 1294	你
+T140	Person-Pronoun 1303 1304	你
+T141	Person-Pronoun 1309 1310	你
+T142	Person-Nominal 1318 1320	人们
+T143	Location-Pronoun 1366 1368	这里
+T144	Person-Pronoun 1369 1370	你
+T145	Location-Nominal 1383 1389	秃秃的村寨上
+T146	Person-Nominal 1392 1393	人
+T147	Person-Pronoun 1398 1399	你
+T148	Thing-Nominal 1407 1423	那干枯了的又黑又污长满杂草的水坑
+T149	Person-Nominal 1426 1427	人
+T150	Person-Pronoun 1428 1429	你
+T151	Thing-Nominal 1437 1441	碧水清潭
+T152	Thing-Nominal 1446 1448	院落
+T153	Thing-Nominal 1451 1453	街道
+T154	Thing-Nominal 1457 1462	各种花木树
+T155	Person-Nominal 1467 1468	人
+T156	Thing-Nominal 1474 1475	林
+T157	Thing-Nominal 1478 1479	鸟
+T158	Thing-Nominal 1483 1485	湖水
+T159	Thing-Nominal 1488 1490	鱼儿
+T160	Thing-Nominal 1491 1493	粼波
+T161	Person-Pronoun 1501 1502	谁
+T162	Thing-Nominal 1507 1509	百花
+T163	Thing-Nominal 1527 1536	图书馆，娱乐场..
+T164	Person-Nominal 1541 1543	人们
+T165	Location-Nominal 1544 1550	自己的家园里
+T166	Person-Pronoun 1544 1546	自己
+*	Coreference T166 T164
+T167	Location-Nominal 1569 1571	它乡
+T168	Thing-Nominal 1581 1585;1586 1587	自己的家 园
+T169	Thing-Nominal 1590 1595	自己的家乡
+T170	Thing-Nominal 1602 1605	一杯茶
+T171	Thing-Nominal 1611 1615	一篇美文
+T172	Person-Pronoun 1630 1631	你
+T173	Person-Name 1654 1657	刘海玲
+T174	Person-Name 1663 1665	留言
+T175	Person-Nominal 1667 1676	中国散文家协会会员
+T176	Person-Nominal 1677 1688	濮阳市青年作家协会会员
+T177	Person-Nominal 1689 1698	濮阳市作家协会会员
+T178	Person-Nominal 1705 1707;1708 1712	杂志 专栏作家
+T179	Person-Nominal 1731 1738	文学版签约作家
+T180	Person-Nominal 1741 1749	任教兼青年团支书
+T181	Time-Explicit 1776 1783	1985年1月
+T182	Organization-Name 1752 1762	中原油田十矿区油管厂

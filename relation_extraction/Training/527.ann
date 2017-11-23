@@ -1,0 +1,247 @@
+T1	Location-Name 1 3	德国
+T2	Person-Pronoun 8 9	我
+T3	Person-Name 40 43	贝多芬
+T4	Person-Name 44 47	莫扎特
+T5	Person-Name 51 53	康德
+T6	Person-Name 54 58	费尔巴哈
+T7	Person-Name 63 66	黑格尔
+T8	Person-Name 67 69	莱辛
+T9	Person-Name 73 75	歌德
+T10	Person-Name 76 78	席勒
+T11	Location-Nominal 95 97	森林
+T12	Location-Nominal 98 100	田园
+T13	Location-Nominal 101 103	河流
+R1	Part-Whole Arg1:T11 Arg2:T1	
+R2	Part-Whole Arg1:T12 Arg2:T1	
+R3	Part-Whole Arg1:T13 Arg2:T1	
+T14	Person-Pronoun 136 137	我
+T15	Location-Name 139 142	莱茵河
+T16	Location-Name 145 147	德国
+R4	Part-Whole Arg1:T15 Arg2:T16	
+T17	Location-Name 157 160	莱茵河
+T18	Person-Pronoun 161 162	我
+T19	Person-Pronoun 201 202	我
+T20	Location-Name 226 229	莱茵河
+T21	Person-Name 234 241	法国大作家雨果
+T22	Person-Pronoun 244 245	他
+*	Coreference T22 T21
+T23	Location-Name 248 251	莱茵河
+T24	Thing-Pronoun 264 265	它
+T25	Location-Name 266 269	罗纳河
+T26	Location-Name 277 281	卢瓦尔河
+T27	Location-Name 290 293	缪斯河
+T28	Location-Name 301 304	塞纳河
+T29	Location-Name 312 315	台伯河
+T30	Location-Name 323 326	多瑙河
+T33	Location-Name 348 350	亚洲
+T35	Location-Nominal 253 255	河流
+R5	Part-Whole Arg1:T23 Arg2:T35	
+R6	Part-Whole Arg1:T25 Arg2:T35	
+R7	Part-Whole Arg1:T26 Arg2:T35	
+R8	Part-Whole Arg1:T27 Arg2:T35	
+R9	Part-Whole Arg1:T28 Arg2:T35	
+R10	Part-Whole Arg1:T29 Arg2:T35	
+R11	Part-Whole Arg1:T30 Arg2:T35	
+T31	Location-Name 334 336	美洲
+T32	Time-Explicit 393 402	公元二○○九年晚春
+T34	Person-Pronoun 403 404	我
+T36	Location-Name 405 408	莱茵河
+T37	Location-Name 410 413	莱茵河
+T38	Location-Name 415 420	欧罗巴大地
+R12	Part-Whole Arg1:T37 Arg2:T38	
+T39	Time-Implicit 427 431	亿万斯年
+T40	Location-Pronoun 432 433	它
+T41	Person-Pronoun 466 467	我
+T42	Thing-Pronoun 471 472	它
+T43	Location-Nominal 472 474	河床
+T44	Location-Nominal 479 481	河道
+T45	Location-Nominal 486 488	河堤
+T46	Location-Nominal 493 495	河底
+T47	Location-Nominal 502 504	河中
+T48	Thing-Nominal 495 497	卵石
+T49	Thing-Nominal 504 508	水生树木
+R13	Located Arg1:T49 Arg2:T47	
+R14	Located Arg1:T48 Arg2:T46	
+T50	Thing-Nominal 514 516	枝叶
+R15	Part-Whole Arg1:T50 Arg2:T49	
+R16	Part-Whole Arg1:T43 Arg2:T36	
+R17	Part-Whole Arg1:T44 Arg2:T37	
+R18	Part-Whole Arg1:T45 Arg2:T37	
+R19	Part-Whole Arg1:T46 Arg2:T37	
+R20	Part-Whole Arg1:T47 Arg2:T37	
+T51	Location-Nominal 525 527	两岸
+T52	Person-Pronoun 560 561	我
+T53	Person-Pronoun 567 568	我
+T54	Location-Nominal 596 599	莱茵河
+T55	Thing-Pronoun 608 609	它
+T56	Location-Nominal 612 623	瑞士境内的阿尔卑斯山脉
+T57	Location-Name 626 628	瑞士
+T58	Location-Name 629 634	列支敦士登
+T59	Location-Name 635 638	奥地利
+T60	Location-Name 639 641	德国
+T61	Location-Name 642 644	法国
+T62	Location-Name 645 647	荷兰
+T63	Location-Nominal 653 656;657 660	荷兰的 鹿特丹
+T64	Location-Name 664 666	北海
+T65	Metric 669 675	1320公里
+T66	Location-Name 679 681	德国
+T67	Metric 685 691	600多公里
+T68	Person-Nominal 695 698	德国人
+T69	Location-Nominal 701 704	父亲河
+*	Coreference T54 T69
+T70	Location-Name 710 712	德国
+T71	Location-Nominal 715 717	城市
+T72	Location-Nominal 722 724	庄园
+R21	Part-Whole Arg1:T71 Arg2:T70	
+R22	Part-Whole Arg1:T72 Arg2:T70	
+T73	Location-Name 728 730	德国
+T74	Location-Name 747 749	德国
+T75	Person-Nominal 767 772	德国的伟人
+T76	Location-Name 786 789	莱茵河
+T77	Person-Nominal 794 799	日耳曼先民
+T78	Location-Name 823 839	科布伦茨到鲁德斯海姆两座城市之间
+T79	Metric 842 846	60公里
+T80	Location-Name 852 858	中莱茵河河谷
+T81	Organization-Name 861 869	联合国教科文组织
+T82	Location-Nominal 886 888	河谷
+T83	Thing-Name 891 894	莱茵河
+T84	Person-Nominal 926 928	人们
+T85	Location-Name 929 932	莱茵河
+T86	Location-Nominal 934 937	父亲河
+*	Coreference T85 T86
+T87	Person-Pronoun 939 940	我
+T88	Person-Nominal 980 982	女子
+T89	Location-Nominal 1005 1007	河面
+T90	Thing-Nominal 1012 1014	游轮
+T91	Thing-Nominal 1018 1020	帆船
+R23	Located Arg1:T90 Arg2:T89	
+R24	Located Arg1:T91 Arg2:T89	
+T93	Location-Nominal 1044 1046	古堡
+T92	Location-Nominal 1035 1039	沿岸山上
+T94	Location-Nominal 1039 1041	迷宫
+*	Coreference T93 T94
+R25	Part-Whole Arg1:T93 Arg2:T92	
+T95	Location-Nominal 1064 1066	城镇
+T96	Location-Nominal 1079 1082	葡萄园
+T97	Person-Pronoun 1100 1101	我
+T98	Person-Nominal 1107 1111	游览的人
+T99	Location-Name 1135 1138	莱茵河
+T100	Thing-Nominal 1164 1166	野鸭
+T101	Thing-Nominal 1177 1179	树木
+T102	Location-Name 1183 1186	莱茵河
+T103	Location-Name 1210 1214	莱茵河畔
+T104	Person-Pronoun 1215 1216	我
+T105	Person-Pronoun 1222 1223	我
+T106	Location-Name 1224 1226	德国
+T107	Location-Nominal 1235 1239	工业大国
+*	Coreference T106 T107
+T108	Person-Pronoun 1241 1242	我
+T109	Location-Nominal 1256 1259	工业区
+T110	Location-Nominal 1271 1273	草地
+T111	Location-Nominal 1274 1276	森林
+T112	Location-Nominal 1283 1285	小镇
+T113	Location-Nominal 1286 1288	庄园
+T114	Location-Nominal 1294 1296	城堡
+T115	Location-Nominal 1300 1302	教堂
+T116	Person-Pronoun 1321 1322	我
+T117	Person-Pronoun 1309 1310	我
+T118	Person-Nominal 1327 1328;1329 1334	辽 宁籍的导游
+T119	Person-Pronoun 1339 1340	我
+T120	Location-Name 1346 1349	莱茵河
+T121	Time-Explicit 1356 1364	上世纪五十年代初
+T122	Location-Name 1365 1367	德国
+T123	Location-Name 1388 1389;1390 1392	莱 茵河
+T124	Location-Name 1402 1405	莱茵河
+T125	Thing-Nominal 1451 1453	水鸟
+T126	Thing-Nominal 1456 1458	游鱼
+T127	Person-Nominal 1463 1465	人们
+T128	Location-Nominal 1471 1477	欧洲的下水道
+T129	Person-Nominal 1481 1484	日耳曼
+T130	Time-Explicit 1500 1506	七十年代后期
+*	Coreference T124 T128
+T131	Time-Explicit 1517 1521	九十年代
+T132	Thing-Name 1523 1526	莱茵河
+T133	Person-Pronoun 1554 1555	我
+T134	Location-Name 1559 1569	中国的“父亲河”长江
+T135	Location-Name 1578 1582	长江两岸
+T136	Time-Explicit 1628 1643	上世纪八十年代至今的三十年时间
+T137	Location-Name 1645 1647	长江
+T138	Location-Name 1674 1676	长江
+T139	Thing-Nominal 1678 1685	野生中华白鳍豚
+T140	Thing-Nominal 1691 1693	刀鱼
+T141	Thing-Nominal 1698 1700	鲥鱼
+T142	Location-Name 1707 1709	长江
+T143	Person-Nominal 1726 1729	中国人
+T144	Location-Name 1740 1746	莱茵河美茵茨
+T145	Person-Pronoun 1749 1750	我
+T146	Thing-Nominal 1757 1762	罗蕾莱铜像
+T147	Person-Nominal 1770 1777	莱茵河河神女儿
+T148	Person-Nominal 1780 1782	少女
+*	Coreference T147 T148 T149 T195
+T149	Person-Pronoun 1783 1784	她
+T150	Thing-Nominal 1798 1799;1800 1801	巨 石
+T151	Thing-Nominal 1812 1816	金色长发
+T152	Person-Pronoun 1820 1821	她
+T153	Person-Pronoun 1833 1834	她
+T154	Person-Nominal 1861 1863	船夫
+T155	Person-Name 1886 1889	罗蕾莱
+T156	Location-Name 1893 1895	德国
+T157	Person-Name 1900 1906	伟大诗人海涅
+T158	Person-Pronoun 1908 1909	她
+*	Coreference T158 T155
+T159	Person-Pronoun 1943 1944	我
+T160	Location-Name 1947 1949	长江
+T161	Person-Nominal 1954 1958	巫山神女
+T162	Person-Name 1964 1975	一位伟大文学家――宋玉
+T163	Person-Nominal 1976 1978	神女
+T164	Person-Pronoun 2024 2026	他们
+T165	Person-Name 2038 2040	宋玉
+T166	Person-Nominal 2044 2046	神女
+T167	Person-Name 2069 2071	海涅
+T168	Person-Name 2076 2079	罗蕾莱
+T169	Person-Name 2097 2102	女妖罗蕾莱
+T170	Person-Nominal 2108 2111	中国人
+T171	Location-Name 2166 2169	莱茵河
+T172	Location-Name 2184 2186	德国
+T173	Person-Pronoun 2212 2213	我
+T174	Location-Name 2214 2218	莱茵河畔
+T175	Person-Pronoun 2282 2283	我
+T176	Person-Name 2290 2292	雨果
+T177	Person-Pronoun 2304 2305	我
+T178	Location-Name 2308 2311	莱茵河
+*	Coreference T177 T176
+T179	Location-Pronoun 24 26	这里
+*	Coreference T179 T1
+T180	Location-Pronoun 216 217	她
+*	Coreference T180 T17
+T181	Thing-Nominal 370 373	河流，
+T182	Thing-Nominal 337 339	河流
+T183	Thing-Nominal 351 353	河流
+*	Coreference T40 T37
+T184	Thing-Pronoun 900 901	它
+*	Coreference T184 T83 T185
+R26	Located Arg1:T83 Arg2:T82	
+T185	Thing-Nominal 911 915	这条河流
+T186	Location-Pronoun 984 986	这里
+T187	Thing-Name 992 995	莱茵河
+R27	Located Arg1:T187 Arg2:T186	
+T188	Thing-Nominal 1023 1025	青山
+T189	Thing-Nominal 1025 1027	绿水
+T190	Thing-Nominal 1031 1033	河水
+T191	Thing-Nominal 1150 1151;1152 1153	河 水
+T192	Thing-Nominal 1416 1419	污染物
+T193	Location-Nominal 1421 1423	河中
+R28	Located Arg1:T192 Arg2:T193	
+T194	Thing-Nominal 1535 1536	河
+*	Coreference T132 T194
+R29	Located Arg1:T146 Arg2:T144	
+T195	Person-Name 1757 1760	罗蕾莱
+T196	Location-Nominal 1793 1795	河中
+R30	Located Arg1:T150 Arg2:T196	
+T197	Location-Nominal 1867 1869	河中
+T198	Thing-Nominal 1870 1872	旋涡
+T199	Thing-Nominal 1876 1878	暗礁
+R31	Located Arg1:T198 Arg2:T197	
+R32	Located Arg1:T199 Arg2:T197	
+T200	Location-Nominal 1883 1885	河底
+T201	Organization-Nominal 2265 2271	千年文明古国

@@ -1,0 +1,365 @@
+T1	Person-Nominal 2 4	居民
+T2	Thing-Nominal 7 8	山
+T3	Thing-Nominal 12 13	水
+T4	Person-Pronoun 45 46	我
+T5	Location-Nominal 47 49	故乡
+T6	Thing-Nominal 64 66	小路
+T7	Thing-Nominal 70 72	溪水
+T8	Thing-Nominal 76 79	油菜花
+T9	Thing-Nominal 74 75	地
+R1	Located Arg1:T8 Arg2:T9	
+T10	Time-Implicit 80 82	童年
+T11	Person-Nominal 82 84	伙伴
+T12	Thing-Nominal 91 93	炊烟
+T13	Thing-Nominal 98 100	瓦房
+T14	Location-Nominal 103 105	故乡
+T15	Location-Nominal 107 115	县城东郊3公里处
+T16	Location-Name 116 119	船形寨
+*	Coreference T16 T15 T19
+T17	Metric 111 114	3公里
+T18	Time-Explicit 122 126	远古时期
+T19	Location-Pronoun 127 129	这里
+T20	Thing-Nominal 132 134	海洋
+R2	Located Arg1:T20 Arg2:T19	
+T21	Thing-Nominal 142 144	大船
+T22	Location-Pronoun 147 149	这里
+R3	Located Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 157 159	海洋
+T24	Thing-Nominal 161 163	陆地
+T25	Thing-Nominal 174 175	船
+T26	Thing-Nominal 180 183	黄土岗
+T27	Thing-Nominal 185 186	船
+T28	Location-Nominal 196 204	两条小河的交岔处
+T29	Thing-Nominal 198 200	小河
+R4	Located Arg1:T27 Arg2:T28	
+T30	Thing-Nominal 209 211	蓬船
+T31	Thing-Nominal 218 220	寨堡
+T32	Person-Nominal 225 227	人们
+T33	Location-Pronoun 228 229	它
+T34	Location-Name 229 232	船形寨
+*	Coreference T33 T34 T37
+T35	Person-Pronoun 240 241	我
+T36	Person-Nominal 240 244	我的祖辈
+R5	Family Arg1:T35 Arg2:T36	
+T37	Location-Nominal 246 247	寨
+T38	Location-Nominal 254 257	寨子四
+T39	Thing-Nominal 262 264	良田
+R6	Near Arg1:T39 Arg2:T38	
+T40	Metric 266 271	5000余
+T41	Location-Nominal 275 281	竹溪第一平坝
+T42	Location-Name 283 286	三堰坝
+T43	Location-Name 275 277	竹溪
+*	Coreference T41 T42
+T44	Location-Name 294 297	柳州城
+T45	Location-Nominal 302 305	寨西北
+T46	Location-Nominal 305 308	樱桃园
+R7	Part-Whole Arg1:T46 Arg2:T45	
+R8	Part-Whole Arg1:T44 Arg2:T46	
+T47	Person-Nominal 309 313	考古学家
+T48	Location-Name 317 323	“樱桃园遗址
+T49	Time-Explicit 327 329	汉代
+T50	Location-Name 329 334	武陵县县城
+T51	Location-Pronoun 336 337	此
+R9	Part-Whole Arg1:T50 Arg2:T51	
+T52	Time-Explicit 338 343	1958年
+T53	Thing-Nominal 343 345	文物
+T54	Location-Pronoun 348 350	此处
+*	Coreference T54 T51
+T55	Thing-Nominal 352 354	鼎足
+T56	Thing-Nominal 355 359	绳纹陶片
+T57	Thing-Nominal 360 362	标本
+R10	General-Special Arg1:T57 Arg2:T53	
+R11	General-Special Arg1:T56 Arg2:T57	
+R12	General-Special Arg1:T55 Arg2:T57	
+T58	Time-Explicit 370 375	新时期时代
+T59	Time-Explicit 379 381	汉代
+T60	Organization-Nominal 392 400	省文物普查鉴定组
+T61	Location-Pronoun 403 405	此处
+T62	Time-Explicit 408 413	新时期时代
+T63	Location-Name 413 424	仰韶文化和龙山文化遗址
+T64	Person-Name 427 430	杨六郎
+T65	Location-Nominal 432 434	寨上
+T66	Time-Implicit 438 441	小时候
+T67	Person-Nominal 445 449	考古人员
+T68	Location-Nominal 450 453	寨东头
+T69	Thing-Nominal 458 460	标本
+T70	Location-Nominal 461 463	故乡
+T71	Person-Pronoun 464 465	我
+T72	Location-Nominal 480 482	故乡
+T73	Thing-Nominal 484 488	两条小河
+T74	Thing-Name 489 492	竹溪河
+T75	Thing-Name 493 495	洛河
+R13	Part-Whole Arg1:T75 Arg2:T73	
+R14	Part-Whole Arg1:T74 Arg2:T73	
+R15	Located Arg1:T73 Arg2:T72	
+T76	Thing-Nominal 496 500	两条小河
+T77	Location-Nominal 503 506	寨两边
+R16	Located Arg1:T76 Arg2:T77	
+T78	Location-Nominal 511 515	寨后山上
+T79	Thing-Nominal 517 519	土寨
+T80	Thing-Nominal 520 522	土寨
+T81	Location-Nominal 523 528	两条河水中
+R17	Located Arg1:T80 Arg2:T81	
+T82	Thing-Nominal 533 535	巨轮
+T83	Location-Nominal 538 540;541 542	河水 中
+R18	Located Arg1:T82 Arg2:T83	
+T84	Time-Explicit 545 552	上世纪七十年代
+T85	Thing-Nominal 553 554	田
+T86	Thing-Nominal 555 556	地
+T87	Thing-Name 558 560	洛河
+T88	Thing-Nominal 560 562	河道
+T89	Location-Nominal 563 566	寨上游
+T90	Location-Nominal 566 569	小河边
+T91	Thing-Name 570 573	竹溪河
+R19	Part-Whole Arg1:T90 Arg2:T89	
+R20	Located Arg1:T88 Arg2:T90	
+T92	Thing-Nominal 581 585	一条小河
+T93	Thing-Nominal 599 601	小河
+*	Coreference T93 T92
+T94	Thing-Nominal 615 617	鸭们
+T95	Thing-Nominal 617 619	鹅们
+T96	Location-Nominal 620 622	小河
+T97	Thing-Pronoun 625 627	它们
+R21	Part-Whole Arg1:T95 Arg2:T97	
+R22	Part-Whole Arg1:T94 Arg2:T97	
+T98	Location-Nominal 628 630	乐园
+*	Coreference T96 T98
+T99	Person-Nominal 631 634	女人们
+T100	Thing-Nominal 637 639	衣服
+R23	Ownership Arg1:T99 Arg2:T100	
+T101	Location-Nominal 640 642	河边
+T102	Thing-Nominal 656 659	大青石
+T103	Location-Nominal 652 655	浅水里
+R24	Located Arg1:T102 Arg2:T103	
+T104	Thing-Nominal 664 665	花
+T105	Person-Nominal 672 675	女人们
+T106	Thing-Nominal 678 679	衣
+R25	Ownership Arg1:T105 Arg2:T106	
+T107	Time-Implicit 687 689	夏天
+T108	Thing-Nominal 690 692	小河
+T109	Person-Nominal 695 698	孩子们
+T110	Thing-Nominal 702 704	太阳
+T111	Thing-Pronoun 712 713	它
+*	Coreference T111 T110
+T112	Person-Nominal 719 722	孩子们
+T113	Location-Nominal 725 728	小河里
+T114	Location-Nominal 743 745	水里
+*	Coreference T113 T114
+T115	Person-Nominal 762 765	孩子们
+T116	Location-Nominal 780 782	河边
+T117	Location-Nominal 785 787	稻田
+R26	Near Arg1:T117 Arg2:T116	
+T118	Person-Nominal 788 789	人
+T119	Thing-Nominal 792 794	莲藕
+T120	Thing-Nominal 795 797	污泥
+R27	Located Arg1:T119 Arg2:T120	
+T121	Thing-Nominal 808 809	鱼
+T122	Person-Nominal 810 812	人们
+T123	Person-Nominal 815 817	人们
+T124	Time-Implicit 832 834	冬天
+T125	Thing-Nominal 835 837	小河
+T126	Location-Nominal 846 850	寨子后边
+T127	Thing-Nominal 851 855	一口老井
+R28	Located Arg1:T127 Arg2:T126	
+T128	Location-Nominal 857 859	寨子
+T129	Time-Implicit 869 874	每天天不亮
+T130	Person-Nominal 875 878	大人们
+T131	Thing-Nominal 883 885	水井
+*	Coreference T127 T131
+T132	Thing-Nominal 887 888	水
+R29	Located Arg1:T132 Arg2:T131	
+T133	Time-Implicit 891 895	除夕清晨
+T134	Thing-Nominal 896 898	老井
+T135	Location-Nominal 903 905	老家
+T136	Thing-Nominal 912 913	水
+T137	Metric 907 909	三天
+T138	Time-Explicit 919 923	除夕当天
+T139	Organization-Nominal 924 928	家家户户
+T140	Thing-Nominal 931 932	水
+T141	Location-Nominal 934 936	家里
+T142	Thing-Nominal 936 938	水缸
+T143	Thing-Nominal 939 941	盆具
+R30	Located Arg1:T140 Arg2:T142	
+R31	Located Arg1:T140 Arg2:T143	
+R32	Located Arg1:T142 Arg2:T141	
+R33	Located Arg1:T143 Arg2:T141	
+T144	Thing-Nominal 955 957	老井
+T145	Time-Implicit 964 966	后来
+T146	Thing-Nominal 957 958	水
+*	Coreference T146 T144
+T147	Location-Nominal 968 970	村里
+T148	Thing-Nominal 972 975	自来水
+R34	Located Arg1:T148 Arg2:T147	
+T149	Thing-Nominal 976 978	老井
+T150	Person-Nominal 981 983	人们
+T151	Thing-Nominal 991 993	老井
+T152	Person-Nominal 994 997	村里人
+T153	Location-Nominal 1004 1006	家里
+T154	Thing-Nominal 1007 1009	扁担
+R35	Located Arg1:T154 Arg2:T153	
+T155	Location-Nominal 1016 1018	寨上
+T156	Thing-Nominal 1022 1024	果树
+R36	Located Arg1:T156 Arg2:T155	
+T157	Time-Implicit 1025 1027	那时
+T158	Location-Nominal 1027 1029	寨上
+T159	Organization-Nominal 1037 1041	家家户户
+T160	Location-Nominal 1041 1043	屋前
+T161	Location-Nominal 1043 1045	屋后
+T162	Thing-Nominal 1048 1050	杏子
+T163	Thing-Nominal 1051 1053	樱桃
+T164	Thing-Nominal 1054 1056	桃子
+T165	Thing-Nominal 1057 1059	葡萄
+T166	Thing-Nominal 1062 1064	果树
+R37	Located Arg1:T166 Arg2:T161	
+R38	Located Arg1:T166 Arg2:T160	
+R39	Ownership Arg1:T159 Arg2:T166	
+R40	General-Special Arg1:T165 Arg2:T166	
+R41	General-Special Arg1:T164 Arg2:T166	
+R42	General-Special Arg1:T163 Arg2:T166	
+R43	General-Special Arg1:T162 Arg2:T166	
+T167	Thing-Nominal 1065 1067	果子
+T168	Time-Implicit 1065 1071	果子成熟季节
+T169	Thing-Nominal 1073 1074	树
+T170	Thing-Nominal 1078 1080	果实
+*	Coreference T170 T167
+T171	Person-Pronoun 1081 1083	我们
+T172	Person-Nominal 1088 1089	谁
+T173	Person-Nominal 1090 1092	大人
+R44	Family Arg1:T173 Arg2:T172	
+T174	Location-Nominal 1094 1095	家
+T175	Person-Pronoun 1096 1097	我
+T176	Person-Nominal 1098 1102	小伙伴们
+R45	Social Arg1:T175 Arg2:T176	
+T177	Thing-Nominal 1107 1109	果树
+T178	Thing-Nominal 1112 1114	果实
+R46	Part-Whole Arg1:T178 Arg2:T177	
+R47	Part-Whole Arg1:T170 Arg2:T169	
+T179	Thing-Nominal 1117 1119	杏子
+R48	General-Special Arg1:T179 Arg2:T178	
+T180	Time-Implicit 1115 1122	每当杏子成熟后
+T181	Person-Pronoun 1123 1125	我们
+T182	Thing-Nominal 1126 1128	竹竿
+R49	Use Arg1:T181 Arg2:T182	
+T183	Thing-Nominal 1134 1136	石头
+R50	Use Arg1:T181 Arg2:T183	
+T184	Time-Implicit 1141 1143	有时
+T185	Thing-Nominal 1147 1149	石头
+T186	Location-Nominal 1151 1153	房上
+R51	Located Arg1:T185 Arg2:T186	
+T187	Thing-Nominal 1155 1157	泥瓦
+R52	Located Arg1:T187 Arg2:T186	
+T188	Person-Nominal 1162 1164	大人
+T189	Person-Pronoun 1167 1169	我们
+R53	Social Arg1:T189 Arg2:T188	
+T190	Location-Nominal 1182 1184	寨子
+T191	Thing-Nominal 1189 1191	果树
+T192	Person-Nominal 1194 1196	人们
+T193	Location-Nominal 1202 1205	果树地
+R54	Located Arg1:T191 Arg2:T193	
+T194	Thing-Nominal 1210 1212	小楼
+R55	Located Arg1:T194 Arg2:T193	
+T195	Location-Nominal 1214 1216	村里
+T196	Organization-Nominal 1216 1218	小学
+R56	Ownership Arg1:T196 Arg2:T195	
+T197	Location-Nominal 1222 1227	寨子的中央
+R57	Part-Whole Arg1:T196 Arg2:T197	
+T198	Time-Implicit 1230 1234	刚上学时
+T199	Time-Implicit 1240 1242	那时
+*	Coreference T199 T198
+T200	Location-Nominal 1242 1244	家里
+T201	Thing-Nominal 1247 1249	时钟
+T202	Time-Implicit 1250 1252	冬天
+T203	Thing-Nominal 1255 1257	月亮
+T204	Time-Implicit 1261 1263	有时
+T205	Time-Implicit 1263 1265	半夜
+T206	Organization-Nominal 1273 1274;1275 1276	学 校
+T207	Location-Nominal 1303 1304	家
+T208	Thing-Nominal 1306 1307	衣
+T209	Time-Implicit 1313 1315	那时
+T210	Thing-Nominal 1318 1319	书
+T211	Time-Implicit 1322 1324	现在
+T212	Person-Nominal 1324 1326	孩子
+T213	Time-Implicit 1343 1345	夏天
+T214	Thing-Nominal 1354 1357	皂角树
+T215	Thing-Nominal 1356 1358	树干
+R58	Part-Whole Arg1:T215 Arg2:T214	
+T216	Thing-Nominal 1369 1370	蝉
+R59	Located Arg1:T216 Arg2:T215	
+T217	Thing-Nominal 1367 1368	壳
+R60	Part-Whole Arg1:T217 Arg2:T216	
+T218	Time-Implicit 1371 1375	那个时候
+T219	Thing-Nominal 1376 1377	蝉
+T220	Thing-Nominal 1381 1382	壳
+T221	Organization-Nominal 1399 1401	学校
+T222	Thing-Nominal 1414 1416	毽子
+T223	Thing-Nominal 1418 1420	房子
+T224	Thing-Nominal 1422 1424	沙包
+T225	Person-Nominal 1427 1430	男孩子
+T226	Thing-Nominal 1437 1438	鸡
+T227	Thing-Nominal 1442 1443	鸡
+T229	Person-Nominal 1459 1461	两人
+T228	Thing-Nominal 1447 1450	一条腿
+R61	Part-Whole Arg1:T228 Arg2:T225	
+T230	Thing-Nominal 1452 1456	另一条腿
+R62	Part-Whole Arg1:T230 Arg2:T225	
+R63	Located Arg1:T228 Arg2:T230	
+T231	Time-Implicit 1464 1466	有时
+T232	Thing-Nominal 1477 1478	鸡
+T233	Person-Nominal 1490 1492	同伴
+T234	Location-Nominal 1495 1496	地
+T235	Time-Implicit 1497 1499	有时
+T236	Time-Implicit 1506 1508	当时
+T237	Thing-Nominal 1500 1501	头
+T238	Thing-Nominal 1502 1503	血
+T239	Organization-Nominal 1509 1511	学校
+T240	Time-Implicit 1520 1522	现在
+T241	Person-Nominal 1524 1526	大家
+T242	Location-Nominal 1535 1536	地
+T243	Time-Implicit 1544 1546	后来
+T244	Person-Pronoun 1547 1548	我
+T245	Location-Nominal 1550 1552	县里
+T246	Organization-Nominal 1552 1556	重点中学
+R64	Ownership Arg1:T246 Arg2:T245	
+T247	Organization-Nominal 1557 1559	初中
+*	Coreference T246 T247
+T248	Time-Implicit 1561 1563	儿时
+T249	Person-Nominal 1561 1565	儿时伙伴
+R65	Social Arg1:T244 Arg2:T249	
+T250	Time-Implicit 1572 1574	现在
+T251	Person-Pronoun 1574 1576	我们
+T252	Location-Nominal 1606 1608	故乡
+T253	Location-Nominal 1608 1610	良田
+T254	Location-Nominal 1612 1616	工业园区
+R66	Part-Whole Arg1:T253 Arg2:T252	
+*	Coreference T253 T254 T255
+T255	Location-Nominal 1621 1625	东城新区
+T256	Time-Implicit 1626 1628	往日
+T257	Thing-Nominal 1629 1630	地
+T258	Thing-Nominal 1631 1634	油菜花
+R67	Located Arg1:T258 Arg2:T257	
+T259	Thing-Nominal 1638 1640	小麦
+R68	Located Arg1:T259 Arg2:T257	
+T260	Thing-Nominal 1645 1647	稻穗
+R69	Located Arg1:T260 Arg2:T257	
+T261	Location-Nominal 1653 1655	门前
+T262	Thing-Nominal 1656 1658	小河
+R70	Located Arg1:T262 Arg2:T261	
+T263	Thing-Nominal 1678 1680	鱼儿
+T264	Location-Nominal 1683 1685	故乡
+T265	Location-Nominal 1686 1688	土寨
+T266	Thing-Nominal 1692 1695	北环路
+T267	Location-Nominal 1704 1706	故乡
+T268	Location-Nominal 1727 1729	故乡
+T269	Person-Pronoun 1731 1732	我
+T270	Location-Pronoun 1742 1744	这里
+*	Coreference T270 T268
+R71	Part-Whole Arg1:T265 Arg2:T264	
+T271	Person-Pronoun 1745 1746	我
+T272	Person-Pronoun 1749 1750	我
+T273	Location-Pronoun 1754 1756	这里
+T274	Person-Pronoun 1758 1759	我
+T275	Person-Nominal 1760 1761;1762 1765	乡 里乡亲
+R72	Social Arg1:T274 Arg2:T275	
+T276	Person-Pronoun 1767 1768	我
+T277	Organization-Nominal 1779 1780	家
+T278	Organization-Nominal 1780 1781	国

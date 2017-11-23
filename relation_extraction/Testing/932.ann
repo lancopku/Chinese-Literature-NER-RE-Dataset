@@ -1,0 +1,204 @@
+T1	Location-Name 3 10	三门峡黄河丹峡
+T2	Person-Pronoun 16 17	我
+T3	Location-Pronoun 18 19	她
+*	Coreference T3 T1
+T4	Person-Pronoun 32 33	我
+T5	Location-Nominal 35 39	她的怀抱
+T6	Thing-Pronoun 44 45	她
+T7	Location-Name 59 63	黄河丹峡
+T8	Location-Name 65 77	三门峡市渑池县坡头乡境内
+T9	Location-Nominal 80 89	豫晋两省五县交界处
+T10	Location-Name 92 94	黄河
+T11	Location-Name 97 100	黛眉山
+R1	Near Arg1:T7 Arg2:T10	
+R2	Near Arg1:T7 Arg2:T11	
+T12	Thing-Nominal 101 105	青山碧水
+T13	Location-Nominal 114 116	峡谷
+T14	Location-Name 137 141	黄河丹峡
+T15	Time-Implicit 142 147	12亿年前
+T16	Metric 155 158	亿万年
+T17	Location-Nominal 167 172	如今的峡谷
+T18	Location-Nominal 174 178	峡谷两侧
+T19	Thing-Nominal 174 181	峡谷两侧的崖壁
+R3	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 183 189	红色石英砂岩
+T21	Abstract 191 198	典型的丹霞地貌
+T22	Thing-Nominal 201 208	层层叠叠的红岩
+T23	Person-Pronoun 209 211	我们
+T24	Metric 216 220	亿万年间
+T25	Thing-Nominal 230 233;234 235	山间溪 流
+T26	Thing-Nominal 240 257	奇石、深潭、飞瀑、密林、野花、古树
+T27	Location-Nominal 271 277	这美丽的峡谷
+T28	Thing-Nominal 301 306	长长的栈道
+T29	Location-Nominal 309 316	幽静的峡谷之中
+T30	Location-Nominal 334 344	一幅美丽的山水长卷上
+T31	Location-Pronoun 346 348	这里
+*	Coreference T31 T29
+T32	Person-Pronoun 351 352	你
+T33	Thing-Nominal 354 355;356 360	手 中的相机
+T34	Location-Nominal 354 355;356 357	手 中
+R4	Located Arg1:T33 Arg2:T34	
+T35	Thing-Nominal 368 379	一幅绝妙的山水风景图画
+T36	Location-Nominal 382 384	眼前
+T37	Location-Nominal 394 396	峡谷
+T38	Person-Nominal 405 412	同行的两位男士
+T39	Location-Name 424 428	黄河丹霞
+T40	Person-Pronoun 429 430	我
+*	Coreference T40 T38
+T41	Location-Pronoun 431 432	你
+*	Coreference T41 T39
+T42	Location-Nominal 442 447	高山空谷间
+T43	Person-Pronoun 451 453	我们
+T44	Thing-Nominal 455 457	溪流
+T45	Location-Nominal 458 462	峡谷深处
+T46	Thing-Nominal 469 473	一块巨石
+T47	Location-Nominal 475 477	眼前
+R5	Located Arg1:T46 Arg2:T47	
+T48	Thing-Nominal 478 483	清澈的小溪
+T49	Thing-Nominal 485 487	巨石
+T50	Location-Nominal 506 508	两侧
+T51	Thing-Nominal 509 511;512 515	陡峭 的悬崖
+R6	Located Arg1:T51 Arg2:T50	
+T52	Thing-Nominal 516 518	崖壁
+T53	Thing-Nominal 519 526	层层叠叠的红岩
+R7	Part-Whole Arg1:T53 Arg2:T52	
+T54	Person-Nominal 532 541	一位爱好摄影的朋友
+T55	Person-Pronoun 555 559	同行的我
+T56	Abstract 560 566	《黄河晨报》
+T57	Person-Name 560 570	《黄河晨报》的郭编辑
+T58	Location-Nominal 575 578	巨石上
+T59	Person-Pronoun 579 580	他
+*	Coreference T59 T54
+T60	Person-Pronoun 590 592	我俩
+T61	Thing-Nominal 594 601	露出水面的石块
+T62	Thing-Nominal 610 612	溪流
+T63	Thing-Nominal 615 617	巨石
+T64	Person-Nominal 620 622	朋友
+T65	Person-Nominal 636 642	一对临时情侣
+T66	Person-Pronoun 646 647	他
+T67	Thing-Nominal 655 665	我手中的那把红色雨伞
+T68	Location-Nominal 655 658	我手中
+R8	Located Arg1:T67 Arg2:T68	
+T69	Person-Nominal 668 670	两人
+T70	Thing-Nominal 678 684	崖壁上的红岩
+T71	Person-Nominal 695 697	朋友
+T72	Thing-Nominal 698 700	相机
+T73	Location-Nominal 702 706	我们面前
+R9	Located Arg1:T72 Arg2:T73	
+R10	Use Arg1:T71 Arg2:T72	
+T74	Person-Pronoun 714 716	你们
+*	Coreference T74 T69
+T75	Thing-Nominal 726 730	这张照片
+T76	Person-Pronoun 773 774	我
+T77	Location-Nominal 777 783	幽深的峡谷中
+T78	Thing-Nominal 784 788	一块巨石
+T79	Location-Nominal 791 795	空谷之中
+R11	Located Arg1:T78 Arg2:T79	
+T80	Thing-Nominal 796 800	清清溪水
+T81	Location-Nominal 801 805	巨石脚下
+R12	Located Arg1:T80 Arg2:T81	
+T82	Location-Nominal 812 814	两侧
+T83	Thing-Nominal 816 820	石英红岩
+T84	Thing-Nominal 815 826;827 828	由石英红岩构成的陡峭崖 壁
+R13	Located Arg1:T84 Arg2:T82	
+R14	Part-Whole Arg1:T83 Arg2:T84	
+T85	Location-Nominal 829 832	巨石上
+T86	Person-Nominal 833 839	一对“情侣”
+T87	Thing-Nominal 846 850	崖壁红岩
+T88	Thing-Nominal 852 861	那把撑起的红色雨伞
+T89	Person-Pronoun 876 878	我们
+T90	Person-Name 885 887;888 889	郭编 辑
+T91	Person-Pronoun 917 918	他
+T92	Person-Pronoun 923 924	我
+T93	Thing-Nominal 895 899	这张照片
+T94	Person-Name 903 906	仇老师
+*	Coreference T91 T94
+T95	Person-Pronoun 928 930	我们
+T96	Thing-Nominal 942 949	一处碧绿的深潭
+T97	Thing-Pronoun 954 955	它
+*	Coreference T97 T96 T98
+T98	Thing-Pronoun 980 981	这
+T99	Location-Name 983 988;989 990	丹峡的神女 池
+T100	Location-Pronoun 993 995	这里
+*	Coreference T100 T99
+T101	Person-Name 996 1006	玉帝的大女儿红衣仙女
+T102	Person-Name 1015 1019	红衣仙女
+T103	Location-Nominal 1021 1023	池中
+T104	Location-Nominal 1026 1028	山上
+T105	Person-Nominal 1028 1036	一位砍柴的小伙子
+T106	Location-Nominal 1040 1042	峡谷
+T107	Person-Name 1043 1047	红衣仙女
+T108	Person-Nominal 1055 1058	小伙子
+T109	Person-Nominal 1068 1070	两人
+T110	Person-Nominal 1098 1100	玉帝
+T111	Person-Name 1108 1110;1111 1113	红衣 仙女
+T112	Location-Nominal 1117 1119	天宫
+T113	Person-Nominal 1122 1124	仙女
+T114	Location-Nominal 1128 1130	天宫
+T115	Time-Implicit 1122 1133	仙女准备返回天宫的瞬间
+T116	Location-Nominal 1138 1141	秀发间
+T117	Thing-Nominal 1143 1145	玉簪
+T118	Thing-Nominal 1155 1159	一条溪流
+T119	Thing-Nominal 1167 1171;1172 1175	这条美丽 的溪流
+T120	Location-Nominal 1177 1180	峡谷中
+R15	Located Arg1:T119 Arg2:T120	
+T121	Location-Nominal 1192 1194	山间
+T122	Thing-Nominal 1192 1199	山间的花草树木
+R16	Located Arg1:T122 Arg2:T121	
+T123	Location-Name 1223 1228	美丽的丹峡
+T124	Location-Name 1242 1245	神女池
+T125	Thing-Nominal 1268 1272	一条巨龙
+T126	Thing-Nominal 1274 1276	瀑布
+T127	Location-Nominal 1277 1283	高高的悬崖上
+R17	Located Arg1:T126 Arg2:T127	
+T128	Thing-Nominal 1288 1293	湍急的水流
+T129	Thing-Nominal 1296 1300;1301 1302	陡峭的崖 壁
+T130	Location-Name 1315 1318	丹峡中
+T131	Thing-Name 1318 1327	著名的“黄龙瀑布”
+R18	Located Arg1:T131 Arg2:T130	
+T132	Person-Pronoun 1373 1374	我
+T133	Time-Implicit 1376 1378	当年
+T134	Person-Name 1379 1381	李白
+T135	Location-Nominal 1386 1394	如此壮观的瀑布前
+T136	Thing-Nominal 1410 1421	那些人造景观和文物古迹
+T137	Person-Pronoun 1423 1424	我
+T138	Location-Pronoun 1434 1436	这里
+T139	Person-Pronoun 1437 1438	你
+T140	Metric 1462 1466	亿万年间
+T141	Person-Pronoun 1501 1502	我
+T142	Location-Name 1508 1519	距我们运城不远的三门峡
+T143	Location-Name 1509 1513	我们运城
+T144	Location-Nominal 1524 1533	一个如此神奇的峡谷
+T145	Person-Nominal 1543 1545	人类
+T146	Location-Name 1550 1552	丹峡
+T147	Thing-Nominal 1556 1562	通往丹峡的路
+T148	Thing-Nominal 1568 1570	车子
+T149	Location-Nominal 1571 1578	险峻的盘山路上
+R19	Located Arg1:T148 Arg2:T149	
+T150	Metric 1588 1593	近一个小时
+T151	Location-Nominal 1596 1603	风景区的停车场
+T152	Location-Nominal 1606 1609	停车场
+T153	Location-Nominal 1612 1615	风景区
+T154	Metric 1620 1624	七、八里
+T155	Organization-Name 1634 1645	我们运城市文艺家采风团
+T156	Metric 1647 1651	30余人
+T157	Location-Nominal 1653 1655	景区
+T158	Thing-Nominal 1663 1668	康达号游船
+T159	Location-Nominal 1669 1671	湖上
+T160	Location-Nominal 1680 1687	山上的农家饭庄
+T161	Location-Nominal 1694 1696	峡谷
+T162	Thing-Nominal 1704 1706	山路
+T163	Thing-Nominal 1709 1711	坡陡
+T164	Person-Nominal 1720 1722	大家
+T165	Person-Nominal 1740 1744	大多数人
+T166	Location-Nominal 1757 1759	景区
+T167	Location-Nominal 1764 1766	峡谷
+T168	Person-Pronoun 1768 1769	我
+T169	Person-Nominal 1772 1774	自己
+T170	Time-Implicit 1784 1787	午餐后
+T171	Person-Pronoun 1788 1789	我
+T172	Person-Nominal 1790 1793;1794 1800	几位不 愿放弃的朋友
+T173	Person-Name 1801 1806	刘锁爱大姐
+T174	Thing-Nominal 1813 1818	崎岖的山路
+T175	Location-Nominal 1819 1823	峡谷深处
+T176	Location-Name 1906 1910	黄河丹峡

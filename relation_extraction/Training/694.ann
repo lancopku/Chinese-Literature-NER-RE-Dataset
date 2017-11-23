@@ -1,0 +1,236 @@
+T1	Time-Implicit 0 9	上世纪七十年代以前
+T2	Abstract 10 14	计划经济
+T3	Thing-Nominal 16 20	一圈高墙
+T4	Metric 16 18	一圈
+T5	Organization-Nominal 49 52	供销社
+T6	Person-Nominal 57 59	上帝
+T7	Person-Nominal 64 67	老百姓
+T8	Thing-Nominal 64 75	老百姓的生产和生活所需
+T9	Person-Nominal 76 79	社员们
+T10	Thing-Nominal 80 81	饭
+T11	Thing-Nominal 83 84	衣
+T12	Thing-Nominal 87 97	生产资料和家庭日用品
+T13	Thing-Nominal 102 103	油
+T14	Thing-Nominal 104 105	盐
+T15	Thing-Nominal 106 108	蜡烛
+T16	Thing-Nominal 109 111	火柴
+T17	Thing-Nominal 115 116	证
+T18	Thing-Nominal 117 118	票
+T19	Metric 127 129	五天
+T20	Location-Nominal 127 136	五天一赶的那个集日
+T21	Person-Nominal 140 142	人们
+T22	Location-Nominal 144 146	禁区
+T23	Thing-Nominal 153 158	生活必需品
+T24	Location-Nominal 140 163	人们冲出禁区、过把自由买卖生活必需品之瘾的天堂
+*	Coreference T24 T20
+T25	Person-Pronoun 165 166	我
+T26	Person-Nominal 172 174	母亲
+R1	Family Arg1:T25 Arg2:T26	
+T27	Thing-Nominal 191 194	小绵羊
+T28	Person-Nominal 199 201	母亲
+T29	Thing-Nominal 201 202	手
+T30	Person-Nominal 211 213	母亲
+T31	Person-Pronoun 215 216	我
+T32	Location-Pronoun 214 215	哪
+T33	Location-Pronoun 217 218	哪
+T34	Person-Pronoun 234 235	我
+T35	Person-Pronoun 238 240	自己
+*	Coreference T35 T34
+T36	Person-Nominal 252 254	母亲
+T37	Thing-Nominal 259 265	攥我指头的手
+R2	Part-Whole Arg1:T37 Arg2:T36	
+R3	Part-Whole Arg1:T29 Arg2:T28	
+*	Coreference T37 T29
+T38	Thing-Nominal 260 263	我指头
+R4	Part-Whole Arg1:T38 Arg2:T34	
+T39	Person-Pronoun 269 270	我
+T40	Location-Nominal 274 276	集市
+T41	Location-Nominal 274 280	集市北端路口
+R5	Part-Whole Arg1:T41 Arg2:T40	
+T42	Person-Pronoun 281 282	她
+*	Coreference T42 T36
+T43	Location-Nominal 288 289	家
+T44	Person-Pronoun 291 292	我
+T45	Thing-Nominal 293 300	侥幸滑走的泥鳅
+T46	Person-Nominal 318 320	人们
+T47	Location-Nominal 310 314	茫茫人海
+T48	Location-Nominal 318 324	人们的缝隙里
+T49	Thing-Nominal 330 331	鱼
+T50	Thing-Nominal 332 333	水
+T51	Location-Nominal 344 346	集市
+T52	Location-Nominal 347 357	一个物资交流的大舞台
+R6	General-Special Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 361 365	第一主角
+T54	Thing-Nominal 367 374	果蔬和土特产品
+*	Coreference T54 T53
+T55	Location-Nominal 376 382	鲜活的果蔬市
+T56	Thing-Nominal 385 392	一张季节晴雨表
+T57	Time-Implicit 393 395	春天
+T58	Thing-Nominal 396 404	菠菜、韭菜、香椿
+T59	Thing-Nominal 413 436	樱桃、杏李、葱蒜、椒子和黄瓜、梢瓜、甜瓜、面瓜
+T60	Time-Implicit 408 410	夏季
+T61	Thing-Nominal 452 465	石榴、柿子、苹果、葡萄和梨
+T63	Time-Implicit 443 445	秋日
+T64	Thing-Nominal 445 448	压轴戏
+T65	Thing-Nominal 494 495	菜
+T66	Thing-Nominal 496 497	菜
+T67	Thing-Nominal 499 500	菜
+T68	Thing-Nominal 501 502	菜
+T69	Person-Nominal 506 509	老娘们
+R7	General-Special Arg1:T69 Arg2:T36	
+T70	Person-Nominal 514 517	小孩子
+R8	General-Special Arg1:T70 Arg2:T44	
+T71	Thing-Nominal 534 535	钱
+T72	Thing-Nominal 538 540	粮票
+T73	Thing-Nominal 540 542	布票
+R9	General-Special Arg1:T54 Arg2:T58	
+R10	General-Special Arg1:T54 Arg2:T59	
+R11	General-Special Arg1:T54 Arg2:T61	
+T62	Thing-Nominal 468 492	扁豆、茄子、方瓜、萝卜、白菜、芫荽、芋头和生姜等
+R12	General-Special Arg1:T54 Arg2:T62	
+T74	Location-Nominal 549 554	好看的地方
+T75	Time-Implicit 562 564	春节
+T76	Thing-Nominal 568 581	鞭炮、礼花、年画、泥塑玩具
+T77	Thing-Nominal 582 589	可饱眼福的东西
+R13	General-Special Arg1:T77 Arg2:T76	
+T78	Location-Nominal 597 601	鞭炮市场
+T79	Thing-Nominal 612 614	礼花
+T80	Thing-Nominal 617 619	鞭声
+R14	Located Arg1:T79 Arg2:T78	
+R15	Located Arg1:T80 Arg2:T78	
+T81	Person-Nominal 634 636	鬼子
+T82	Thing-Nominal 633 639	打鬼子的电影
+T83	Time-Implicit 644 647	平常日
+T84	Person-Nominal 652 654	孩子
+T85	Thing-Nominal 661 663	活物
+T86	Thing-Nominal 664 666	家禽
+T87	Thing-Nominal 666 668	家兔
+R16	General-Special Arg1:T85 Arg2:T86	
+R17	General-Special Arg1:T85 Arg2:T87	
+T88	Thing-Nominal 676 683	要卖掉的鸡鸭鹅
+R18	General-Special Arg1:T86 Arg2:T88	
+T89	Person-Nominal 686 694	犯了重罪的死刑犯
+T90	Thing-Nominal 695 697	双腿
+R19	Part-Whole Arg1:T90 Arg2:T88	
+T91	Thing-Nominal 699 704;705 706	脚镣般的绳 索
+R20	Located Arg1:T91 Arg2:T90	
+T92	Location-Nominal 715 717	嘴里
+T93	Person-Nominal 733 734	人
+T94	Thing-Nominal 736 738	家兔
+T95	Thing-Nominal 742 745	鸡鹅鸭
+*	Coreference T95 T88
+T96	Thing-Nominal 754 763	一个个牢房般地笼子
+T97	Location-Nominal 754 764	一个个牢房般地笼子里
+R21	Located Arg1:T94 Arg2:T97	
+T98	Person-Nominal 788 790	主人
+T99	Thing-Nominal 793 795	兔儿
+*	Coreference T99 T94
+T100	Thing-Nominal 801 802	鼓
+T101	Person-Nominal 804 806	孩子
+T102	Thing-Nominal 809 813	鸡鸭鹅兔
+T103	Thing-Nominal 815 817	宠物
+T104	Location-Nominal 833 839	远处的牲畜市
+T105	Thing-Nominal 847 862	黑的猪，白的羊，黄的牛，红的马
+T106	Thing-Nominal 865 875	一副多彩的动态立体画
+T107	Location-Nominal 876 878	猪市
+R22	Part-Whole Arg1:T107 Arg2:T104	
+T108	Thing-Nominal 880 893;894 897	十几群肥头大耳、憨态可掬的 猪仔们
+T109	Location-Nominal 898 904	各自的地盘上
+R23	Located Arg1:T108 Arg2:T109	
+T110	Organization-Nominal 911 914	马戏团
+T111	Person-Nominal 927 932	好多小朋友
+R24	General-Special Arg1:T101 Arg2:T111	
+T112	Person-Nominal 935 937	主人
+T113	Person-Nominal 941 946	这些小观众
+*	Coreference T113 T111
+T114	Thing-Nominal 963 965	猪仔
+*	Coreference T114 T108 T116
+T115	Person-Nominal 973 975	顾客
+T116	Thing-Nominal 992 994	小猪
+T117	Thing-Nominal 1011 1015	牛马驴骡
+T118	Location-Nominal 1011 1021	牛马驴骡扎堆的牲口市
+R25	Part-Whole Arg1:T118 Arg2:T104	
+T119	Location-Nominal 1025 1027	猪市
+T120	Location-Nominal 1027 1029	羊市
+R26	Part-Whole Arg1:T120 Arg2:T104	
+T121	Person-Nominal 1033 1035	主人
+T122	Person-Nominal 1038 1043	自己的孩子
+T123	Thing-Nominal 1048 1053	自己的牲口
+R27	Ownership Arg1:T121 Arg2:T123	
+R28	Ownership Arg1:T112 Arg2:T108	
+T124	Thing-Nominal 1072 1073	手
+T125	Thing-Nominal 1074 1075	足
+T126	Thing-Nominal 1088 1099	生性谦逊厚道的黄牛灰驴
+T127	Person-Nominal 1105 1107	主人
+T128	Thing-Pronoun 1109 1111	自己
+*	Coreference T128 T126
+T129	Location-Pronoun 1130 1132	那里
+R29	General-Special Arg1:T123 Arg2:T126	
+T131	Person-Pronoun 1038 1040	自己
+T130	Thing-Nominal 1141 1148	可爱的高马大牛
+T132	Thing-Nominal 1151 1152	猴
+T133	Thing-Nominal 1157 1158	球
+T134	Person-Pronoun 1160 1161	我
+T135	Person-Pronoun 1181 1183	自己
+*	Coreference T135 T134
+T136	Person-Pronoun 1191 1192	我
+T137	Location-Nominal 1197 1200	牲口市
+*	Coreference T137 T118 T166
+T138	Person-Nominal 1197 1206	牲口市上所有的买主
+T139	Thing-Nominal 1229 1231	牲口
+T140	Thing-Nominal 1243 1249	牛马驴的嘴巴
+T141	Thing-Nominal 1243 1246	牛马驴
+R30	Part-Whole Arg1:T140 Arg2:T141	
+T142	Thing-Nominal 1254 1255	牙
+T143	Thing-Nominal 1256 1257	口
+R31	Part-Whole Arg1:T142 Arg2:T140	
+R32	Part-Whole Arg1:T143 Arg2:T140	
+T144	Thing-Nominal 1262 1264	牲口
+T145	Thing-Nominal 1278 1280	牲口
+T146	Person-Pronoun 1289 1290	我
+T147	Person-Pronoun 1297 1299	他们
+*	Coreference T147 T138
+T148	Person-Nominal 1321 1323	两人
+T149	Thing-Nominal 1335 1336	手
+T150	Thing-Nominal 1346 1347;1348 1349	电 影
+T151	Person-Nominal 1350 1352	特务
+T152	Thing-Nominal 1357 1359	暗号
+T153	Time-Implicit 1370 1372	夏天
+T154	Thing-Nominal 1374 1376	衣袖
+T155	Thing-Nominal 1363 1364	手
+T156	Thing-Nominal 1381 1383	斗笠
+T157	Person-Nominal 1402 1404	双方
+T158	Person-Nominal 1412 1425	常在牲口交易中牵线搭桥的人
+T159	Person-Nominal 1433 1435	人们
+T160	Person-Nominal 1436 1439	这种人
+*	Coreference T160 T158 T161
+T161	Person-Nominal 1440 1444	“经纪”
+T162	Person-Nominal 1445 1449	“经纪”
+T163	Person-Nominal 1455 1457	男女
+T164	Person-Nominal 1455 1460;1461 1466	男女婚事里 的“媒婆”
+T165	Thing-Nominal 1469 1479	融两物于一体的粘合剂
+T166	Location-Nominal 1492 1503	原本平凡而普通的牲口市
+T167	Time-Implicit 1521 1523	今天
+T168	Location-Nominal 1524 1528	昔日集市
+T169	Time-Implicit 1568 1572	前些日子
+T170	Time-Implicit 1595 1597	儿时
+T171	Time-Implicit 1627 1633	改革开放以后
+T172	Person-Name 1635 1638	邓小平
+T173	Abstract 1635 1642	邓小平特色理论
+T174	Location-Nominal 1646 1648	集市
+T175	Time-Implicit 1660 1662	现在
+T176	Thing-Nominal 1662 1668	集市上的商品
+R33	Located Arg1:T176 Arg2:T174	
+T177	Thing-Nominal 1675 1700	服装，鞋帽，粮食，棉花，化肥，农药和面食小吃等商品
+T178	Location-Nominal 1713 1715	集市
+T179	Time-Implicit 1701 1707	计划经济年代
+T180	Time-Implicit 1720 1722	现在
+T181	Thing-Nominal 1732 1738	好多时新商品
+R34	General-Special Arg1:T176 Arg2:T177	
+R35	General-Special Arg1:T176 Arg2:T181	
+T182	Thing-Nominal 1740 1763	各类家用电器、生产器械、营业工具和日用小商品等
+R36	General-Special Arg1:T181 Arg2:T182	
+T183	Time-Implicit 1764 1769	几十年以前
+T184	Time-Implicit 1775 1777	今天
+T185	Abstract 1797 1803	一个卫星市场
+T186	Location-Nominal 1820 1826	今天的大集市

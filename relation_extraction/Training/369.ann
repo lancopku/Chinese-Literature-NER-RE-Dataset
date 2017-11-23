@@ -1,0 +1,343 @@
+T1	Time-Explicit 1 10	上个世纪的六十年代
+T2	Thing-Nominal 11 14	电视机
+T3	Organization-Nominal 19 23	百姓家庭
+T4	Person-Nominal 24 26	人们
+T5	Thing-Nominal 39 41	报纸
+T6	Thing-Nominal 45 47	电台
+R1	Use Arg1:T4 Arg2:T5	
+R2	Use Arg1:T4 Arg2:T6	
+T7	Time-Explicit 56 60;61 62	1965 年
+T8	Thing-Name 65 77	第28届世界乒乓球锦标赛
+T9	Location-Name 78 88	南斯拉夫的卢布尔雅那
+R3	Located Arg1:T8 Arg2:T9	
+T10	Thing-Nominal 91 99	广播电台和电视台
+T11	Thing-Nominal 110 115	乒乓球运动
+T12	Person-Nominal 119 121;122 128	小学 乒乓球队队员
+T13	Person-Pronoun 129 130	我
+R4	General-Special Arg1:T12 Arg2:T13	
+T14	Thing-Nominal 132 134	电台
+T15	Thing-Nominal 91 95	广播电台
+*	Coreference T15 T6
+T16	Thing-Nominal 154 172	声情并茂有如身临其境般的电视实况转播
+T17	Person-Nominal 175 179	我的同学
+R5	Social Arg1:T17 Arg2:T13	
+T18	Location-Name 186 197	铁道部宿舍和国务院宿舍
+T19	Time-Implicit 198 203	每天放学后
+T20	Person-Pronoun 203 205	我们
+T21	Location-Nominal 208 212	宿舍大院
+T22	Thing-Nominal 208 219	宿舍大院的水泥乒乓球台
+R6	Located Arg1:T22 Arg2:T21	
+T23	Time-Implicit 223 225	一天
+T24	Location-Name 226 231	铁道部宿舍
+T25	Person-Pronoun 240 241	我
+T26	Person-Name 242 248	小球友赵燕京
+R7	Social Arg1:T26 Arg2:T25	
+T27	Location-Nominal 251 253	他家
+T28	Person-Pronoun 251 252	他
+T29	Location-Nominal 257 260	客厅里
+R8	Part-Whole Arg1:T29 Arg2:T27	
+T30	Location-Nominal 264 266	他家
+T31	Thing-Nominal 268 275	一台黑白电视机
+R9	Located Arg1:T31 Arg2:T30	
+T32	Time-Implicit 287 290	这几天
+T33	Thing-Nominal 290 292	电视
+T34	Thing-Name 296 302	28届世乒赛
+*	Coreference T34 T8
+T35	Time-Implicit 303 305	晚上
+T36	Location-Nominal 307 309	你家
+*	Coreference T36 T30
+T37	Time-Implicit 315 317	那天
+T38	Thing-Nominal 310 312	电视
+T39	Person-Nominal 319 325	赵燕京的妈妈
+R10	Family Arg1:T28 Arg2:T39	
+T40	Person-Pronoun 332 333	我
+T41	Person-Nominal 338 340	燕京
+*	Coreference T40 T41
+T42	Person-Pronoun 350 351	他
+T43	Location-Nominal 421 424	同学家
+T44	Person-Nominal 430 432	人家
+T45	Person-Nominal 442 448	一位本家亲戚
+R11	Social Arg1:T45 Arg2:T40	
+T46	Thing-Nominal 442 456	一位本家亲戚所在的模型木器厂
+T47	Location-Name 458 461	广安门
+T48	Person-Pronoun 464 465	他
+*	Coreference T48 T45
+T49	Location-Nominal 468 470	厂里
+R12	Located Arg1:T46 Arg2:T47	
+T50	Time-Implicit 474 478	那段时间
+T51	Person-Nominal 480 482	二叔
+T52	Thing-Nominal 367 387	第28届世乒赛的团体决赛和部分单项的决赛
+T53	Person-Pronoun 361 362	我
+R13	Part-Whole Arg1:T52 Arg2:T34	
+T54	Time-Implicit 388 390	其间
+T55	Person-Pronoun 393 394	我
+T56	Person-Nominal 393 399	我的两个哥哥
+R14	Family Arg1:T56 Arg2:T55	
+T57	Location-Nominal 401 403	他家
+T58	Thing-Nominal 405 415	《停战以后》等故事片
+T59	Location-Name 484 494	我家附近的铁路疗养院
+T60	Person-Pronoun 484 485	我
+R15	Family Arg1:T60 Arg2:T51	
+T61	Person-Pronoun 499 500	我
+T62	Thing-Nominal 510 517	想看的电视节目
+T63	Location-Nominal 520 525	这两处地点
+T64	Location-Nominal 538 539;540 553	位 于广安门外关厢的粮食基层店
+T65	Thing-Nominal 557 559	电视
+T66	Location-Nominal 565 570	这几家单位
+T67	Thing-Nominal 581 584	电视机
+T68	Time-Implicit 611 613	平时
+T69	Thing-Nominal 616 619	电视机
+T70	Thing-Nominal 621 644	一个约两米高、前面留有两扇对开门的高架电视箱柜
+R16	Located Arg1:T69 Arg2:T70	
+T71	Time-Implicit 646 648	晚上
+T72	Time-Implicit 650 656	电视播放时间
+T73	Person-Nominal 660 661;662 663	专 人
+T74	Thing-Nominal 665 667	钥匙
+R17	Use Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 670 684	摆放在会议室或饭厅里的电视箱
+R18	Use Arg1:T73 Arg2:T75	
+T76	Thing-Nominal 694 697	电视机
+R19	Use Arg1:T73 Arg2:T76	
+T77	Thing-Nominal 704 707	电视箱
+*	Coreference T77 T75
+T78	Person-Nominal 720 722;723 724	收视 者
+T79	Thing-Nominal 743 746	电视机
+T80	Time-Implicit 761 771	1967年的新年前后
+T81	Organization-Name 772 777	北京市政府
+T82	Organization-Nominal 778 785	城区街道居委会
+T83	Thing-Nominal 790 795	黑白电视机
+T84	Thing-Nominal 797 799	电视
+R20	General-Special Arg1:T84 Arg2:T83	
+*	Coreference T79 T84
+T85	Person-Nominal 807 809	百姓
+T86	Time-Implicit 810 813	一时间
+T87	Thing-Nominal 822 824	电视
+T88	Person-Nominal 829 831	居民
+T89	Time-Implicit 842 844	每晚
+T90	Person-Nominal 849 857	胡同里的男女老少
+T91	Location-Nominal 863 866	居委会
+T92	Thing-Name 872 877	北京电视台
+T93	Thing-Nominal 871 878;879 902	“北京电视台” (当年只有一家电视台)的新闻以及戏曲、电影节目
+T94	Location-Nominal 905 911	放电视的屋子
+T95	Person-Nominal 914 925	争相收视的众多“视迷”
+T96	Organization-Nominal 943 946	居委会
+T97	Thing-Nominal 951 956	“电视票”
+R21	Create Arg1:T96 Arg2:T97	
+T98	Thing-Nominal 960 963	预售票
+T99	Thing-Nominal 975 978	电视票
+*	Coreference T99 T97
+T100	Thing-Nominal 986 989	成人票
+R22	General-Special Arg1:T99 Arg2:T100	
+T101	Metric 990 993	5分钱
+T102	Metric 993 995	一张
+T103	Thing-Nominal 1001 1003	生票
+R23	General-Special Arg1:T99 Arg2:T103	
+T104	Metric 1004 1007	二分钱
+T105	Metric 1007 1009	一张
+T106	Location-Nominal 1025 1028	电视室
+*	Coreference T106 T94
+T107	Person-Nominal 1041 1047	未买到票的人
+T108	Location-Nominal 1059 1061;1062 1066	门外 或窗台上
+T109	Person-Nominal 1080 1092	未亲身经历过那段岁月的人
+T110	Time-Explicit 1099 1110	1968年7月1日这天
+T111	Organization-Nominal 1111 1114	居委会
+T112	Time-Explicit 1121 1128	当晚7点30分
+T113	Thing-Nominal 1129 1140	重要文艺演出的实况直播
+T114	Person-Nominal 1143 1145	居民
+T115	Time-Explicit 1150 1152	傍晚
+T116	Person-Nominal 1153 1155	人们
+T117	Thing-Nominal 1161 1163	晚饭
+R24	Use Arg1:T116 Arg2:T117	
+T118	Thing-Nominal 846 848	晚饭
+T119	Location-Nominal 1172 1177	居委会大院
+R25	Ownership Arg1:T111 Arg2:T119	
+R26	Ownership Arg1:T111 Arg2:T106	
+T120	Time-Explicit 1180 1182	这天
+T121	Thing-Nominal 1206 1209	电视机
+T122	Location-Nominal 1215 1217	当院
+T123	Thing-Nominal 1221 1231	这个“重要文艺演出”
+T124	Thing-Name 1236 1257	“洋为中用”并轰动全国的钢琴伴唱《红灯记》
+*	Coreference T123 T124
+T125	Person-Name 1258 1264	浩亮、刘长瑜
+T126	Person-Name 1266 1272	李玉和、铁梅
+T127	Person-Name 1273 1276	殷诚忠
+T128	Thing-Nominal 1277 1279	钢琴
+T129	Time-Explicit 1283 1285	当晚
+T130	Location-Nominal 1286 1291	居委会大院
+T131	Person-Nominal 1291 1296	收看直播的
+T132	Metric 1298 1302	200人
+T133	Organization-Nominal 1306 1309	居委会
+T134	Thing-Nominal 1312 1315	电视机
+T135	Time-Explicit 1331 1340	1975年的国庆节
+T136	Time-Explicit 1341 1344	这一年
+T137	Time-Explicit 1331 1336	1975年
+*	Coreference T136 T137
+T138	Location-Name 1345 1347	北京
+T139	Person-Nominal 1370 1375	普通消费者
+T140	Thing-Nominal 1379 1384	家用电视机
+R27	General-Special Arg1:T84 Arg2:T140	
+T141	Organization-Nominal 1392 1397	寻常百姓家
+T142	Thing-Nominal 1397 1414	传统的三大件：自行车、手表、缝纫机
+T143	Thing-Nominal 1418 1436	现代的三大件：电视机、电冰箱、洗衣机
+T144	Time-Implicit 1440 1447	1976年初春
+T145	Person-Pronoun 1448 1449	我
+T146	Metric 1451 1453	数日
+T147	Location-Name 1470 1475	前门大栅栏
+T148	Location-Name 1475 1481	第一百货商场
+T149	Metric 1482 1486	452元
+T150	Thing-Nominal 1490 1500;1501 1502	上海产凯歌牌黑白电视 机
+T151	Location-Name 1490 1492	上海
+T152	Metric 1488 1490	一台
+T153	Metric 1508 1510	9寸
+T154	Time-Implicit 1512 1514	当时
+T155	Thing-Pronoun 1514 1515	这
+*	Coreference T155 T150
+T156	Thing-Nominal 1517 1520	稀罕物
+R28	General-Special Arg1:T156 Arg2:T155	
+T157	Location-Nominal 1523 1525	家里
+T158	Thing-Nominal 1532 1539	电影和戏曲节目
+T159	Person-Nominal 1540 1543	全家人
+T160	Thing-Nominal 1564 1567	电视机
+T161	Time-Implicit 1560 1561;1562 1570	从 有了电视机那天起
+T162	Person-Nominal 1571 1576	好客的妈妈
+R29	Family Arg1:T162 Arg2:T145	
+T163	Person-Nominal 1580 1593	同院的邻居和胡同里的老街坊
+R30	Social Arg1:T163 Arg2:T162	
+T164	Person-Nominal 1601 1603	人们
+T165	Time-Implicit 1611 1616	以后高峰时
+T166	Location-Nominal 1617 1619	我家
+*	Coreference T166 T157
+T167	Metric 1619 1622;1623 1624	24平 米
+T168	Location-Nominal 1619 1622;1623 1628	24平 米的外间屋
+R31	Part-Whole Arg1:T168 Arg2:T166	
+T169	Time-Implicit 1646 1654	粉碎“四人帮”后
+T170	Organization-Nominal 1655 1658	电视台
+T171	Thing-Nominal 1668 1685	中国评剧院演出的经典剧目《祥林嫂》
+T172	Person-Nominal 1690 1695	更多的街坊
+T173	Thing-Nominal 1698 1700	电视
+T174	Person-Nominal 1701 1703	妈妈
+T175	Thing-Nominal 1707 1710	电视机
+T176	Location-Nominal 1712 1715	屋门口
+R32	Located Arg1:T175 Arg2:T176	
+T177	Location-Nominal 1719 1722	院子里
+T178	Thing-Nominal 1724 1734	几排板凳、椅子和条凳
+R33	Located Arg1:T178 Arg2:T177	
+T179	Time-Implicit 1737 1741	那天晚上
+T180	Person-Nominal 1753 1757	三四十人
+T181	Thing-Nominal 1760 1763	电视机
+T182	Person-Nominal 1787 1790	戏迷们
+T183	Time-Explicit 1801 1811	1976年7月28日
+T184	Location-Name 1819 1821	北京
+T185	Thing-Name 1812 1817	唐山大地震
+T186	Location-Nominal 1822 1824	我家
+T187	Person-Nominal 1826 1830	街坊四邻
+T188	Location-Name 1839 1843	宣武公园
+R34	Near Arg1:T188 Arg2:T186	
+T189	Thing-Nominal 1846 1851	“地震棚”
+R35	Located Arg1:T189 Arg2:T188	
+T190	Metric 1855 1861	较长一段时日
+T191	Time-Implicit 1863 1865	当时
+T192	Person-Pronoun 1866 1874	已经参加工作的我
+T193	Person-Nominal 1882 1893	女朋友(现在的老伴儿)
+R36	Social Arg1:T193 Arg2:T192	
+T194	Person-Nominal 1935 1938	女朋友
+*	Coreference T194 T193 T199 T202 T219
+T195	Thing-Nominal 1899 1902	地震棚
+*	Coreference T195 T189
+T196	Thing-Nominal 1908 1914	家里的稀罕物
+T197	Thing-Nominal 1916 1919	电视机
+*	Coreference T196 T197
+T198	Person-Pronoun 1920 1921	我
+T199	Person-Pronoun 1926 1927	她
+T200	Thing-Nominal 1942 1944	电视
+T201	Time-Implicit 1950 1953	下班后
+T202	Person-Pronoun 1955 1957	自己
+T203	Person-Nominal 1955 1962	自己的弟弟妹妹
+R37	Family Arg1:T203 Arg2:T202	
+T204	Person-Nominal 1972 1974	领导
+R38	Social Arg1:T204 Arg2:T202	
+T205	Location-Nominal 1984 1986	我家
+T206	Thing-Nominal 1988 1991	电视机
+R39	Located Arg1:T206 Arg2:T205	
+T207	Person-Pronoun 1996 1997	我
+T208	Location-Nominal 2002 2003	家
+*	Coreference T208 T205
+T209	Thing-Nominal 2013 2016	电视机
+T210	Person-Pronoun 2010 2012	我们
+T211	Thing-Nominal 2018 2021	八仙桌
+T212	Location-Nominal 2018 2022	八仙桌下
+R40	Located Arg1:T209 Arg2:T212	
+T213	Person-Pronoun 2023 2025	我俩
+*	Coreference T213 T210 T226
+T214	Thing-Nominal 2028 2040	用四根钢管支起来的双人床
+T215	Thing-Nominal 2048 2050	余震
+T216	Thing-Nominal 2060 2062	电视
+T217	Time-Implicit 2063 2067	时至今日
+T218	Person-Pronoun 2069 2070	我
+T219	Person-Nominal 2072 2075	老伴儿
+T220	Time-Implicit 2080 2085	三十七年前
+T221	Time-Implicit 2086 2091	大地震时期
+T222	Person-Pronoun 2091 2093	我们
+T223	Location-Nominal 2096 2098	床下
+T224	Thing-Nominal 2099 2101	电视
+T225	Person-Pronoun 2107 2108	她
+T226	Person-Pronoun 2125 2127	咱们
+T227	Thing-Nominal 2130 2139	电影故事片《红雨》
+T228	Person-Pronoun 2147 2148	我
+T229	Person-Nominal 2151 2154	老伴儿
+T230	Location-Nominal 2173 2175	我家
+T231	Thing-Nominal 2176 2180	9寸电视
+T232	Metric 2182 2186	不到两年
+T233	Location-Nominal 2187 2190	市场上
+T234	Thing-Nominal 2194 2213	一种带放大效果，并嵌入色彩的电视放大镜
+T235	Thing-Nominal 2215 2216	其
+*	Coreference T235 T234 T238
+T236	Thing-Nominal 2218 2222	电视屏幕
+R41	Part-Whole Arg1:T236 Arg2:T216	
+R42	General-Special Arg1:T216 Arg2:T231	
+T237	Thing-Nominal 2228 2233;2234 2235	12寸电视 机
+R43	General-Special Arg1:T216 Arg2:T237	
+T238	Thing-Nominal 2245 2252	这种电视放大镜
+T239	Person-Nominal 2261 2263	人们
+T240	Time-Implicit 2269 2271	此后
+T241	Time-Explicit 2296 2301	1979年
+T242	Location-Nominal 2302 2304	我家
+T243	Thing-Nominal 2305 2309	9寸电视
+T244	Thing-Nominal 2315 2329;2330 2338	北京东风电视机厂生产的昆仑牌 12寸黑白电视机
+R44	General-Special Arg1:T237 Arg2:T244	
+T245	Organization-Nominal 2339 2342	电视台
+T246	Time-Implicit 2365 2367	这时
+T247	Thing-Nominal 2374 2379	美好的春天
+T248	Abstract 2367 2371	改革开放
+T249	Organization-Nominal 2382 2384	我国
+T250	Thing-Nominal 2398 2402	进口商品
+T251	Time-Explicit 2408 2413	1981年
+T252	Thing-Nominal 2417 2422	彩色电视机
+T253	Location-Nominal 2424 2425;2426 2429	首 都市场
+R45	General-Special Arg1:T216 Arg2:T252	
+T254	Location-Nominal 2431 2433	我家
+T255	Thing-Nominal 2438 2443	20寸彩电
+R46	General-Special Arg1:T252 Arg2:T255	
+T256	Time-Explicit 2444 2449	1994年
+T257	Metric 2456 2459	25寸
+T258	Time-Explicit 2460 2465	2006年
+T259	Thing-Nominal 2468 2475	37寸液晶屏幕
+R47	General-Special Arg1:T252 Arg2:T259	
+T260	Time-Explicit 2476 2481	2011年
+T261	Thing-Nominal 2482 2486	液晶彩电
+R48	General-Special Arg1:T252 Arg2:T261	
+T262	Metric 2492 2495	42寸
+T263	Thing-Nominal 2499 2501	鸟枪
+T264	Thing-Nominal 2502 2503	炮
+T265	Time-Implicit 2511 2514	现如今
+T266	Thing-Nominal 2515 2519	电视节目
+T267	Thing-Nominal 2520 2526	有线卫视频道
+T268	Metric 2528 2531	百余套
+T269	Thing-Nominal 2534 2539	璀璨的群星
+T270	Person-Nominal 2543 2545	人们
+T271	Person-Nominal 2556 2557	人
+T272	Location-Nominal 2558 2560	屋中
+T273	Location-Nominal 2564 2567	五大洲
+T274	Location-Nominal 2576 2578	全球
+T275	Organization-Nominal 2618 2620	社会
+T276	Time-Implicit 2626 2630	整个时代

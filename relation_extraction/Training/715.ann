@@ -1,0 +1,162 @@
+T1	Location-Nominal 3 7	九省通衢
+T2	Location-Name 8 10	湖北
+T3	Location-Name 11 13	武昌
+T4	Location-Name 14 16	汉口
+T5	Location-Name 17 19	汉阳
+R1	Part-Whole Arg1:T3 Arg2:T2	
+R2	Part-Whole Arg1:T4 Arg2:T2	
+R3	Part-Whole Arg1:T5 Arg2:T2	
+T6	Location-Nominal 31 37	南国江城武汉
+T7	Location-Name 35 37	武汉
+T8	Location-Name 40 42	长江
+T9	Location-Name 45 47	汉水
+T10	Location-Nominal 50 52	群山
+T11	Thing-Nominal 55 56	龟
+T12	Thing-Nominal 56 57	蛇
+T13	Thing-Nominal 66 67	车
+T14	Thing-Nominal 68 69	马
+T15	Thing-Nominal 62 63	虹
+T16	Person-Nominal 84 85	人
+T17	Location-Nominal 93 97	吉林东南
+T18	Location-Name 93 95	吉林
+T19	Location-Name 100 103	松花江
+T20	Location-Name 104 107	吉林市
+R4	Part-Whole Arg1:T19 Arg2:T20	
+T21	Location-Pronoun 126 127	它
+*	Coreference T21 T19
+T22	Thing-Nominal 139 141	土地
+T23	Location-Nominal 155 159	丰腴之地
+T24	Location-Nominal 161 168	北国江城吉林市
+*	Coreference T24 T20 T23 T25
+T25	Location-Nominal 169 171	江城
+T26	Location-Nominal 169 173	江城四周
+T27	Thing-Nominal 175 177	山峦
+T28	Thing-Nominal 183 184	峰
+T29	Thing-Nominal 186 188	江水
+T30	Thing-Nominal 198 200	彩虹
+T31	Location-Nominal 208 212;213 214	南国的江 城
+*	Coreference T31 T34
+T33	Location-Nominal 228 232	北国江城
+T34	Location-Pronoun 215 226	一位身高体壮伟岸的帅哥
+T32	Location-Pronoun 235 248	一个纤秀靓丽妩媚多姿的美女
+*	Coreference T32 T33
+T35	Person-Nominal 252 253	人
+T36	Location-Nominal 263 267	北国江城
+T37	Time-Implicit 268 269	冬
+T38	Thing-Nominal 279 281	白雪
+T39	Thing-Pronoun 283 293	漫天飘飘洒洒的小天使
+*	Coreference T39 T38
+T40	Location-Nominal 296 298	塞北
+T41	Location-Nominal 299 303	山山岭岭
+T42	Location-Nominal 306 310;311 316	松江南北 的江城大地
+T43	Thing-Nominal 317 319	江水
+T44	Person-Pronoun 334 335	你
+T45	Time-Implicit 341 343	冬天
+T46	Person-Nominal 345 348	真勇士
+T47	Location-Nominal 351 353	疆场
+T48	Person-Nominal 355 356	人
+T49	Location-Nominal 360 362	北极
+T50	Location-Nominal 366 370	雪域高原
+T51	Person-Nominal 372 376	科考人员
+T52	Thing-Nominal 380 381	雪
+T53	Location-Nominal 383 387	险关隘口
+T54	Location-Nominal 399 403	北国江城
+T55	Location-Nominal 414 416	高山
+T56	Thing-Nominal 417 418	雪
+T57	Location-Nominal 419 421	大江
+T58	Thing-Nominal 425 426	风
+T59	Thing-Nominal 426 427	雪
+T60	Location-Nominal 435 437	江畔
+T61	Person-Nominal 440 444	运动健儿
+T62	Thing-Nominal 446 448	冰雪
+T63	Location-Name 461 467	北大壶滑雪场
+T64	Thing-Nominal 469 470	针
+T65	Thing-Nominal 471 472	刀
+T66	Location-Nominal 479 481	高台
+T67	Person-Nominal 486 488	健儿
+R5	Part-Whole Arg1:T61 Arg2:T67	
+T68	Thing-Nominal 493 495	山鹰
+T69	Location-Nominal 496 498	丛山
+T70	Location-Nominal 498 500	密林
+R6	Part-Whole Arg1:T68 Arg2:T67	
+T71	Location-Nominal 517 519	江水
+T72	Thing-Nominal 523 525	风浪
+T73	Person-Nominal 526 530	冬泳健儿
+R7	Part-Whole Arg1:T73 Arg2:T61	
+T75	Thing-Nominal 534 535	海
+T74	Location-Nominal 539 541	大江
+T76	Thing-Nominal 565 567	江水
+T77	Person-Nominal 577 579	世人
+T78	Location-Nominal 582 585	松花江
+T79	Thing-Nominal 585 587	龙舟
+T80	Person-Nominal 590 593	江城人
+T81	Location-Nominal 616 620	北国江城
+T82	Thing-Nominal 626 628	雾凇
+T83	Thing-Pronoun 629 630	它
+*	Coreference T83 T82
+T84	Location-Nominal 631 633	江城
+*	Coreference T84 T81
+T85	Organization-Nominal 642 644	我国
+T86	Location-Name 652 654	云南
+T87	Thing-Nominal 654 656	石林
+T88	Location-Name 657 659	桂林
+T89	Thing-Nominal 659 661	山水
+T90	Location-Name 662 664	长江
+T91	Thing-Nominal 664 666	三峡
+T93	Person-Nominal 671 674;675 678	江泽民 总书记
+T92	Thing-Nominal 685 687	寒江
+T94	Thing-Nominal 687 689	雪柳
+T95	Thing-Nominal 690 692	玉树
+T96	Thing-Nominal 692 694	琼花
+T97	Location-Name 695 697	吉林
+T98	Thing-Nominal 697 699	树挂
+T99	Person-Pronoun 707 708	你
+T100	Location-Nominal 711 714	长堤上
+T101	Thing-Nominal 721 723	垂柳
+T102	Thing-Pronoun 725 727	它们
+*	Coreference T102 T101
+T103	Thing-Nominal 727 728	干
+T104	Thing-Nominal 729 730	枝
+R8	Part-Whole Arg1:T103 Arg2:T101	
+R9	Part-Whole Arg1:T104 Arg2:T101	
+T105	Thing-Nominal 732 733	叶
+T106	Thing-Nominal 734 735	根
+R10	Part-Whole Arg1:T105 Arg2:T101	
+R11	Part-Whole Arg1:T106 Arg2:T101	
+T107	Time-Implicit 738 741	盛夏时
+T108	Thing-Nominal 741 743	冠盖
+R12	Part-Whole Arg1:T108 Arg2:T101	
+T109	Thing-Nominal 744 745	云
+T110	Time-Implicit 753 755	隆冬
+T111	Thing-Nominal 762 769	低垂的万千枝条
+R13	Part-Whole Arg1:T111 Arg2:T101	
+T112	Metric 777 780	一束束
+T113	Thing-Nominal 780 782	琼花
+T114	Thing-Nominal 782 784	玉叶
+T115	Person-Pronoun 800 801	你
+T116	Thing-Nominal 802 803	足
+R14	Part-Whole Arg1:T116 Arg2:T115	
+T117	Thing-Nominal 807 809	雾凇
+T118	Metric 811 814	一只只
+T119	Thing-Nominal 814 818	玉色蝴蝶
+*	Coreference T119 T117 T122
+T120	Thing-Nominal 820 822	霞光
+T121	Metric 830 833	一丛丛
+T122	Thing-Nominal 833 837	海底珊瑚
+T123	Thing-Nominal 844 847	白松鼠
+T124	Thing-Nominal 849 856	蓬松松的长尾巴
+R15	Part-Whole Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 858 860	枝头
+T126	Thing-Nominal 866 867;868 869	江 溽
+T127	Thing-Nominal 875 877	雪柳
+T128	Person-Nominal 880 881	客
+T129	Location-Nominal 887 891	北国江城
+T130	Person-Nominal 901 906	海内外游客
+T131	Person-Nominal 907 911	港澳同胞
+T132	Thing-Nominal 919 920	指
+R16	Part-Whole Arg1:T132 Arg2:T131	
+R17	Part-Whole Arg1:T132 Arg2:T130	
+T133	Location-Nominal 923 925	江城
+*	Coreference T133 T129
+T134	Location-Nominal 969 973	北国江城
+T135	Person-Nominal 981 982	人

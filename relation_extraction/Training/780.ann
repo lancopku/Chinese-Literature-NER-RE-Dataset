@@ -1,0 +1,106 @@
+T1	Location-Name 2 4	无锡
+T2	Time-Explicit 12 14	明朝
+T3	Location-Nominal 41 45	锡惠公园
+T4	Person-Nominal 47 49	酒仙
+T5	Person-Nominal 49 51	诗才
+T6	Thing-Nominal 52 53	酒
+T7	Time-Implicit 56 61	昔日鼎盛期
+T8	Person-Nominal 61 62;63 70	诸 派风云豪放泰斗
+T9	Time-Implicit 85 87	中秋
+T10	Person-Name 96 100	酒厂丁总
+T11	Thing-Nominal 102 105	惠泉酒
+T12	Person-Nominal 107 111	诗协好友
+T13	Location-Nominal 111 113	公园
+T14	Thing-Nominal 114 115	酒
+T15	Thing-Nominal 116 117	月
+T16	Thing-Nominal 118 120	亮月
+T17	Thing-Nominal 123 127	皎洁圆月
+T18	Thing-Nominal 149 150	酒
+T19	Thing-Nominal 156 157	肉
+T20	Thing-Nominal 158 159	骨
+T21	Thing-Nominal 161 163	血脉
+T22	Thing-Nominal 168 170	和风
+T23	Thing-Nominal 171 172	腹
+T24	Thing-Nominal 184 185	胸
+T25	Thing-Nominal 191 193	万物
+T26	Person-Pronoun 194 195	我
+T27	Person-Name 205 210	诗怪钱老邪
+T28	Thing-Nominal 234 235	蛇
+T29	Thing-Nominal 236 238	灵珠
+T30	Thing-Nominal 247 248	马
+T31	Thing-Nominal 249 251	飞燕
+T32	Thing-Nominal 299 300	雪
+T33	Thing-Nominal 270 271	蛇
+T34	Thing-Nominal 281 282	马
+T35	Thing-Nominal 291 292	梅
+T36	Person-Name 346 351	学长苏智叟
+T37	Location-Nominal 358 361	秀太湖
+T38	Thing-Nominal 356 358	春风
+T39	Location-Nominal 390 392	锡山
+T40	Location-Nominal 393 396	龙光塔
+T41	Thing-Nominal 407 409	圆月
+T42	Person-Nominal 484 485	人
+T43	Thing-Nominal 470 471	杯
+T44	Thing-Nominal 497 498	菊
+T45	Thing-Nominal 517 519	秋风
+T46	Thing-Nominal 520 521	面
+T47	Thing-Nominal 521 522	桨
+T48	Thing-Nominal 523 524	灯
+T49	Person-Name 571 573	阿炳
+T50	Location-Nominal 642 644	池泉
+T51	Thing-Nominal 649 651	圆月
+T52	Person-Name 615 617	丁总
+T53	Person-Pronoun 652 653	他
+*	Coreference T53 T52
+T54	Person-Nominal 663 668	素长袍舞者
+T55	Thing-Nominal 669 670	月
+T56	Person-Name 680 684	嫦娥美女
+T57	Location-Nominal 703 705	月宫
+T58	Thing-Nominal 720 727	人间美酒惠泉酒
+T59	Person-Name 739 743	瞎子阿炳
+*	Coreference T49 T59
+T60	Person-Nominal 756 759	月公公
+T61	Thing-Nominal 774 777	惠泉酒
+*	Coreference T61 T58 T64 T73
+T62	Person-Nominal 780 782	配角
+T63	Location-Nominal 788 790	江南
+T64	Thing-Nominal 813 815	此酒
+T65	Thing-Nominal 848 850	月桂
+T66	Thing-Nominal 866 872	月宫桂花仙酒
+*	Coreference T66 T65
+T67	Person-Name 881 883	嫦娥
+*	Coreference T67 T56
+T68	Thing-Nominal 931 933	彩云
+T69	Thing-Nominal 972 980	出类拔萃品牌黄酒
+T70	Thing-Nominal 987 991	惠山春泉
+T71	Thing-Nominal 1107 1108	马
+T72	Thing-Nominal 1097 1098	鹏
+T73	Thing-Nominal 1122 1126	惠泉黄酒
+R1	General-Special Arg1:T69 Arg2:T73	
+T74	Thing-Nominal 1146 1148	黄酒
+T75	Person-Name 1212 1216	吴刚长辈
+T76	Person-Name 1247 1249	吴刚
+*	Coreference T76 T75 T90
+T77	Person-Pronoun 1257 1258	你
+T78	Person-Nominal 1304 1307	地球人
+T79	Person-Name 1316 1327;1328 1330	上世纪地球宇航员阿姆斯 特朗
+T80	Thing-Nominal 1332 1337	阿波罗飞船
+T81	Location-Nominal 1339 1341	月球
+T82	Location-Nominal 1353 1361	文明高度发展地球
+T83	Person-Nominal 1372 1374	凡人
+T84	Thing-Nominal 1383 1385	旭日
+T85	Thing-Nominal 1392 1394	春风
+T86	Location-Nominal 1544 1546	灵山
+T87	Location-Nominal 1548 1550	太湖
+T88	Person-Nominal 1560 1562	老人
+T89	Person-Nominal 1619 1620	人
+T90	Person-Name 1676 1681	太太祖吴刚
+T91	Location-Nominal 1699 1703	苏杭天堂
+T92	Thing-Nominal 1841 1843	天马
+T93	Person-Pronoun 1833 1834	我
+T94	Person-Name 1813 1815	嫦娥
+*	Coreference T94 T93
+T95	Person-Name 1855 1857	丁总
+T96	Person-Nominal 1865 1867	诗友
+T97	Person-Nominal 1877 1879	仙女
+T98	Location-Nominal 1888 1890	月宫

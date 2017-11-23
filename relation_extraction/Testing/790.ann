@@ -1,0 +1,193 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 0 4	我的故乡
+T3	Location-Nominal 5 14	西北一隅的一个乡村
+*	Coreference T3 T2 T17
+T4	Location-Nominal 18 25	八百里秦川腹地
+R1	Near Arg1:T3 Arg2:T4	
+T5	Location-Nominal 28 40	起伏和缓、延绵不绝的丘陵
+R2	Near Arg1:T5 Arg2:T4	
+T6	Location-Pronoun 49 50	它
+T7	Location-Nominal 53 56	大盆地
+*	Coreference T6 T5 T7 T8
+T8	Location-Nominal 57 59	盆地
+T9	Location-Name 65 74	名唤“漆水”的小河
+T10	Metric 63 65	一条
+T11	Thing-Nominal 79 81	河水
+T12	Person-Nominal 92 96	这条河流
+R3	Ownership Arg1:T12 Arg2:T9	
+T13	Location-Nominal 92 99	这条河流的两岸
+T14	Location-Nominal 110 112	村庄
+T15	Location-Nominal 122 129	平坦肥沃的土地
+T16	Location-Nominal 113 118	村庄的周围
+T17	Location-Nominal 131 133	故乡
+T18	Person-Nominal 141 142	人
+T19	Location-Nominal 184 190	蔚蓝色的天空
+T20	Thing-Nominal 193 201	洁白如雪的云朵儿
+T21	Location-Nominal 212 213;214 215	田 野
+T22	Location-Nominal 219 221	庭院
+T23	Thing-Nominal 225 229	我的双眼
+T24	Thing-Nominal 239 246	黄灿灿的油菜花
+T25	Thing-Nominal 247 253	那些油菜花儿
+*	Coreference T25 T24
+T26	Location-Nominal 254 259	故乡的塬坡
+T27	Thing-Nominal 280 282	百花
+T28	Time-Implicit 284 286	此时
+T29	Location-Nominal 294 301	清澈见底的小河
+T30	Location-Nominal 304 311	汩汩作响的小溪
+T31	Thing-Nominal 313 316	鸟儿们
+T32	Location-Nominal 317 318	林
+T33	Thing-Nominal 320 322	树枝
+T34	Location-Nominal 333 335;336 341	鳞次 栉比的村舍
+T35	Person-Nominal 344 345	人
+T36	Location-Nominal 363 365	故乡
+T37	Time-Implicit 363 368	故乡的夏日
+T38	Location-Nominal 369 376	家家户户的房子
+T39	Thing-Nominal 415 416	麦
+T40	Person-Nominal 432 439	头戴草帽的农夫
+T41	Thing-Nominal 434 436	草帽
+T42	Thing-Nominal 442 444	脸颊
+R4	Part-Whole Arg1:T42 Arg2:T40	
+T43	Person-Nominal 451 452	人
+T44	Thing-Nominal 461 466	新鲜的瓜果
+T45	Thing-Nominal 468 470	夕阳
+T46	Time-Implicit 468 480	夕阳西下，暑热尚存的黄昏
+T47	Thing-Nominal 482 484;485 489	浓荫 匝地的树
+T48	Person-Nominal 491 498	汗流浃背的我们
+T49	Thing-Nominal 500 504	小瓣西瓜
+T50	Thing-Nominal 513 517	滂沱大雨
+T51	Metric 511 513	一场
+T52	Person-Nominal 530 532	好友
+T53	Time-Implicit 525 528	这时候
+T54	Location-Nominal 535 536	河
+T55	Thing-Nominal 553 558	习习的凉风
+T56	Person-Nominal 559 560	人
+T57	Time-Implicit 590 597	秋风送爽的日子
+T58	Location-Nominal 600 602	果园
+T59	Thing-Nominal 605 611	血红色的大枣
+T60	Thing-Nominal 612 618	绯红色的苹果
+T61	Thing-Nominal 619 624	黄白色的梨
+T62	Thing-Nominal 625 632	红通通的柿子们
+T63	Thing-Nominal 639 641	枝头
+T64	Thing-Nominal 643 652	黄绿色的梧桐树叶子
+T65	Thing-Nominal 661 662	云
+T66	Thing-Nominal 667 668	目
+T67	Thing-Nominal 673 681	新播种的小麦苗们
+T68	Location-Nominal 693 695	田地
+T69	Metric 685 688	一道道
+T70	Thing-Nominal 688 690	绿烟
+T71	Thing-Nominal 702 704	酸枣
+T72	Location-Nominal 705 707	土崖
+T73	Thing-Nominal 709 711	秋风
+T74	Thing-Nominal 739 741	林木
+T75	Thing-Nominal 746 755	家家门口的玉米秸秆
+T76	Time-Implicit 759 763	傍晚时分
+T77	Thing-Nominal 764 766	街灯
+T78	Thing-Nominal 769 774	凛冽的寒风
+T79	Thing-Nominal 779 787	点炕后的袅袅炊烟
+T80	Location-Nominal 794 795	街
+T81	Person-Nominal 797 799	行人
+T82	Thing-Nominal 812 813	羊
+T83	Thing-Nominal 822 823	犬
+T84	Location-Nominal 826 832	寒冬时的故乡
+T85	Person-Nominal 834 835	人
+T86	Thing-Nominal 842 843	雪
+T87	Thing-Nominal 848 852	纷纷飞雪
+*	Coreference T87 T86
+T88	Person-Name 864 867	王小波
+T89	Person-Nominal 882 891	每一个热爱生活的人
+T90	Person-Pronoun 923 924;925 926	我 们
+T91	Person-Pronoun 930 932	自己
+*	Coreference T91 T90
+T92	Person-Pronoun 963 964	我
+T93	Time-Implicit 963 968	我19岁时
+T94	Location-Nominal 970 972	故土
+T95	Location-Nominal 974 976	他乡
+T96	Person-Pronoun 985 987	自己
+*	Coreference T96 T92
+T97	Location-Nominal 1002 1004	城市
+T98	Location-Nominal 995 997	乡村
+T99	Location-Nominal 1010 1017	我们所处的城市
+*	Coreference T99 T97
+T100	Thing-Nominal 1018 1020	砖块
+T101	Thing-Nominal 1021 1024	混凝土
+T102	Thing-Nominal 1025 1027	钢铁
+T103	Thing-Nominal 1028 1030	柏油
+T104	Thing-Nominal 1031 1033	塑料
+T105	Thing-Nominal 1035 1043	各种新型建筑材料
+T106	Person-Pronoun 1044 1046	我们
+T107	Location-Nominal 1056 1060	高楼大厦
+T108	Location-Nominal 1074 1079	整齐的草坪
+T109	Location-Nominal 1080 1085	蓊郁的树木
+T110	Thing-Nominal 1103 1105	喷泉
+T111	Thing-Nominal 1105 1107	假山
+T112	Location-Nominal 1141 1143	城市
+T113	Time-Implicit 1152 1154	白天
+T114	Person-Nominal 1156 1157	人
+T115	Thing-Nominal 1161 1162	车
+T116	Time-Implicit 1166 1168	晚上
+T117	Person-Name 1174 1179	刘心武先生
+T118	Thing-Nominal 1203 1209	炫目的霓虹灯
+T119	Thing-Nominal 1210 1216	瀑布似的街灯
+T120	Thing-Nominal 1217 1222	流动的车辆
+T121	Location-Nominal 1232 1236	卡拉OK
+T122	Location-Nominal 1237 1240	快餐厅
+T123	Location-Nominal 1241 1244	立交桥
+T124	Person-Nominal 1255 1262;1263 1264	幽灵般飘忽的人 流
+T125	Location-Nominal 1198 1200	城市
+T126	Person-Nominal 1282 1289	我们这些年轻人
+T127	Thing-Nominal 1300 1301	马
+T128	Thing-Nominal 1303 1304	蹄
+R5	Part-Whole Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 1337 1341	我们的耳
+R6	Part-Whole Arg1:T129 Arg2:T126	
+T130	Person-Nominal 1350 1351	人
+T131	Thing-Nominal 1356 1357	车
+T132	Thing-Nominal 1363 1365	机器
+T133	Person-Pronoun 1372 1374	自己
+*	Coreference T133 T126
+T134	Thing-Nominal 1383 1388	我们的肉体
+R7	Part-Whole Arg1:T134 Arg2:T126	
+T135	Thing-Nominal 1451 1453	晚霞
+T136	Location-Nominal 1455 1459	农家小院
+T137	Thing-Nominal 1463 1469	醉人的水彩画
+T138	Metric 1461 1463	一幅
+T139	Thing-Nominal 1472 1477	归巢的鸟儿
+T140	Location-Nominal 1478 1480	空中
+T141	Thing-Nominal 1490 1492	炊烟
+T142	Metric 1487 1490	一缕缕
+T143	Person-Pronoun 1501 1504;1505 1510	远离喧 嚣都市的我
+T144	Thing-Nominal 1512 1519	深深庭院的凳子
+T145	Thing-Nominal 1526 1528	清茶
+T146	Metric 1524 1526	一杯
+T147	Person-Pronoun 1531 1532	我
+T148	Person-Pronoun 1568 1569	我
+T149	Person-Nominal 1586 1587	民
+T150	Person-Nominal 1608 1613	四邻街坊们
+T151	Location-Nominal 1630 1636	雨霁后的故乡
+T152	Thing-Nominal 1649 1651	青山
+T153	Thing-Nominal 1663 1664	虫
+T154	Location-Nominal 1713 1720	辽阔无边的大地
+T155	Thing-Nominal 1725 1727	碧草
+T156	Thing-Nominal 1727 1729	幽花
+T157	Thing-Nominal 1721 1724	我的床
+T158	Thing-Nominal 1730 1732	床铺
+T159	Thing-Nominal 1733 1737	浩瀚天空
+T160	Thing-Nominal 1738 1740	屋顶
+T161	Thing-Nominal 1741 1743	云彩
+T162	Thing-Nominal 1744 1749	我盖的被子
+T163	Thing-Nominal 1750 1754	缕缕清风
+T164	Thing-Nominal 1755 1756;1757 1760	天 然空调
+T165	Thing-Nominal 1763 1765	皎月
+T166	Thing-Nominal 1766 1768	电灯
+T167	Metric 1761 1763	一轮
+T168	Time-Implicit 1769 1771	清晨
+T169	Person-Pronoun 1773 1774	我
+T170	Thing-Nominal 1778 1780	手机
+T171	Thing-Nominal 1785 1789	枝头小鸟
+T172	Person-Pronoun 1793 1794	我
+T173	Location-Nominal 1828 1830	故乡
+T174	Person-Nominal 1831 1834	每个人
+T175	Person-Pronoun 1869 1871	我们
+T176	Thing-Nominal 1961 1965	美味鸡汤
+T177	Thing-Nominal 1968 1973	这本散文书
+T178	Person-Pronoun 1975 1977	我们

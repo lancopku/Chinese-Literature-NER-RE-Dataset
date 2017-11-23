@@ -1,0 +1,107 @@
+T1	Person-Name 0 7	我的父亲刘耀华
+T2	Person-Pronoun 0 1	我
+R1	Family Arg1:T1 Arg2:T2	
+T3	Time-Explicit 9 22	1912年古历10月10日
+T4	Time-Explicit 26 38	1983年古历2月28日
+T5	Metric 41 44	71岁
+T6	Metric 51 55	101岁
+T7	Person-Pronoun 50 51	他
+*	Coreference T7 T1 T8
+T8	Person-Nominal 58 60	父亲
+T9	Location-Nominal 81 85	我们老家
+T10	Person-Pronoun 91 92	他
+T11	Person-Nominal 96 99	现代人
+T12	Person-Nominal 118 120	父亲
+T13	Person-Nominal 120 124	兄弟五人
+T14	Person-Pronoun 125 126	他
+*	Coreference T14 T12
+T15	Person-Pronoun 131 132	他
+T16	Person-Nominal 144 147	我爷爷
+T17	Person-Nominal 135 139	我的奶奶
+R3	Family Arg1:T16 Arg2:T17	
+R4	Family Arg1:T17 Arg2:T12	
+R5	Family Arg1:T16 Arg2:T12	
+R6	Family Arg1:T16 Arg2:T13	
+R7	Family Arg1:T17 Arg2:T13	
+T18	Person-Nominal 152 157	五个男孩儿
+*	Coreference T18 T13 T28 T33
+R2	Part-Whole Arg1:T12 Arg2:T13	
+T19	Person-Nominal 158 161	最大的
+R8	Part-Whole Arg1:T19 Arg2:T18	
+T20	Metric 163 166	10岁
+T21	Person-Nominal 167 172	最小的五叔
+R9	Part-Whole Arg1:T21 Arg2:T18	
+T22	Person-Pronoun 189 190	我
+R10	Family Arg1:T17 Arg2:T22	
+R11	Family Arg1:T16 Arg2:T22	
+T23	Person-Nominal 195 197	爷爷
+R12	Family Arg1:T23 Arg2:T22	
+*	Coreference T23 T16
+T24	Person-Nominal 199 202	老中医
+R13	General-Special Arg1:T24 Arg2:T23	
+T25	Person-Pronoun 203 204	他
+T26	Location-Nominal 206 212	一个小中药铺
+T27	Metric 206 208	一个
+T28	Person-Nominal 222 226	兄弟五人
+T29	Person-Nominal 228 231	我父亲
+R14	Part-Whole Arg1:T29 Arg2:T28	
+T30	Metric 233 235	四年
+T31	Organization-Nominal 235 237	私塾
+T32	Person-Nominal 238 239;240 242	其 他人
+R15	Part-Whole Arg1:T32 Arg2:T28	
+T33	Person-Nominal 248 251	五兄弟
+T34	Person-Nominal 252 255	我父亲
+T35	Person-Nominal 256 263	唯一有文化的人
+*	Coreference T34 T35
+T36	Time-Implicit 266 269	长大后
+T37	Person-Nominal 271 274	我爷爷
+R16	Family Arg1:T34 Arg2:T37	
+T38	Location-Nominal 275 277	药铺
+*	Coreference T38 T26
+T39	Person-Nominal 291 295	其他兄弟
+*	Coreference T39 T32
+R17	Family Arg1:T32 Arg2:T29	
+R18	Family Arg1:T39 Arg2:T37	
+R19	Part-Whole Arg1:T39 Arg2:T33	
+T40	Person-Nominal 310 313	我父亲
+T41	Metric 313 316	28岁
+T42	Person-Nominal 321 324	我母亲
+R20	Family Arg1:T42 Arg2:T40	
+T43	Person-Nominal 333 339	我们兄妹六人
+R21	Family Arg1:T42 Arg2:T43	
+R22	Family Arg1:T40 Arg2:T43	
+T44	Person-Nominal 340 343	我大哥
+T45	Person-Nominal 344 348	一个弟弟
+T46	Person-Pronoun 357 358	我
+R23	Part-Whole Arg1:T46 Arg2:T43	
+T47	Person-Nominal 359 361;362 364	三个 弟弟
+R24	Part-Whole Arg1:T47 Arg2:T43	
+R25	Part-Whole Arg1:T44 Arg2:T43	
+R26	Part-Whole Arg1:T45 Arg2:T43	
+T48	Time-Implicit 366 370	解放初期
+T49	Person-Nominal 373 378	有文化的人
+T50	Person-Nominal 380 383	我父亲
+R27	General-Special Arg1:T49 Arg2:T50	
+T51	Person-Nominal 386 388	地主
+T52	Person-Nominal 389 391	恶霸
+T53	Person-Nominal 406 410	记账先生
+R28	General-Special Arg1:T53 Arg2:T50	
+T54	Person-Nominal 413 415	父亲
+*	Coreference T54 T50 T55
+T55	Person-Pronoun 422 423	他
+T56	Time-Implicit 424 426	当时
+T57	Thing-Nominal 429 431	台子
+T58	Person-Nominal 435 437	人们
+T59	Person-Nominal 447 451	地主恶霸
+R29	Social Arg1:T59 Arg2:T58	
+T60	Person-Pronoun 461 462	他
+T61	Person-Pronoun 481 482	他
+T62	Person-Pronoun 505 506	他
+T63	Person-Nominal 503 504	人
+T64	Person-Pronoun 510 511	他
+T65	Person-Pronoun 524 525	他
+T66	Time-Implicit 535 537	那时
+T67	Metric 541 543	三年
+T68	Person-Nominal 543 547	民校教员
+T69	Person-Pronoun 537 538	他
+R30	General-Special Arg1:T68 Arg2:T69	

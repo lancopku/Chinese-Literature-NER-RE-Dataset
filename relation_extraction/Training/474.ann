@@ -1,0 +1,55 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 12 14	原路
+T3	Thing-Nominal 5 7	原路
+T4	Thing-Nominal 20 29	一棵生长又倒下的树
+T5	Person-Pronoun 35 36	我
+T6	Person-Pronoun 49 50	我
+T7	Thing-Nominal 51 53	影子
+T8	Person-Nominal 70 73	所有人
+T9	Person-Pronoun 80 81	我
+T10	Thing-Nominal 83 90	一滴雨水或露珠
+T11	Thing-Pronoun 95 96	它
+T12	Thing-Pronoun 99 100	它
+*	Coreference T11 T10
+T13	Thing-Nominal 114 115	光
+T14	Thing-Pronoun 119 120	它
+T15	Location-Nominal 181 186	一面镜子里
+T16	Person-Pronoun 186 187	我
+T17	Person-Pronoun 193 194	我
+T18	Person-Pronoun 195 197	自己
+T19	Thing-Pronoun 166 168	自己
+T20	Thing-Nominal 174 176	工具
+T21	Thing-Pronoun 150 152	它们
+T22	Thing-Nominal 138 144	一块生硬的砖
+T23	Thing-Nominal 145 149	一只石子
+*	Coreference T18 T17
+T24	Person-Pronoun 202 204	自己
+T25	Location-Nominal 213 215	室内
+T26	Person-Pronoun 274 275	我
+T27	Person-Pronoun 259 260	我
+T28	Thing-Nominal 254 256	脚印
+T29	Person-Pronoun 239 240	我
+T30	Location-Nominal 304 311	锈迹斑斑的路面
+T31	Person-Pronoun 318 319	我
+T32	Thing-Nominal 322 323	风
+T33	Thing-Nominal 323 328	滑溜溜的手
+R1	Part-Whole Arg1:T33 Arg2:T31	
+T34	Thing-Nominal 341 343	双足
+R2	Part-Whole Arg1:T34 Arg2:T31	
+T35	Thing-Nominal 384 386	皮壳
+T36	Person-Pronoun 370 371	我
+T37	Location-Nominal 406 411	一座旧城里
+T38	Thing-Nominal 425 432	一条孤独的小道
+T39	Person-Nominal 458 460	人们
+T40	Thing-Nominal 482 486	那些小草
+T41	Thing-Nominal 492 493	风
+T42	Thing-Nominal 504 513	那些污迹斑斑的河流
+T43	Person-Nominal 529 535	那些经堂偶像
+T44	Person-Nominal 538 542;543 545	多少善男 信女
+T45	Thing-Nominal 546 555	那半山的袅袅的香烟
+T46	Person-Nominal 615 616	人
+T47	Person-Nominal 617 618	人
+T48	Thing-Nominal 619 628	语录、警句、广告牌
+T49	Person-Pronoun 605 606	谁
+T50	Person-Pronoun 607 608	谁
+T51	Thing-Pronoun 127 128	它

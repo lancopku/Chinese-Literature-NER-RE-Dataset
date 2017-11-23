@@ -1,0 +1,221 @@
+T1	Person-Pronoun 9 10	我
+T2	Person-Pronoun 19 20	我
+T3	Thing-Nominal 41 43	篮球
+T4	Thing-Nominal 44 46	排球
+T5	Thing-Nominal 47 50	乒乓球
+T6	Person-Pronoun 61 62	我
+T7	Thing-Nominal 63 65	书法
+T8	Time-Implicit 72 75	小时候
+T9	Organization-Nominal 80 82	学校
+T10	Person-Pronoun 85 87	我们
+R1	Part-Whole Arg1:T6 Arg2:T10	
+T11	Thing-Nominal 88 93	国文、算术
+T12	Thing-Nominal 99 107	学写毛笔字的课程
+T13	Person-Nominal 108 110	学生
+*	Coreference T13 T10
+T14	Thing-Nominal 113 124	一篇蝇头小楷，一张大字
+R2	Create Arg1:T13 Arg2:T14	
+T15	Thing-Nominal 125 127	大字
+T16	Metric 113 115	一篇
+T17	Metric 120 122	一张
+T18	Thing-Nominal 137 139	范字
+T19	Thing-Nominal 142 144	白纸
+T20	Location-Nominal 142 146	白纸底下
+R3	Located Arg1:T18 Arg2:T20	
+T21	Thing-Nominal 148 150	范字
+T22	Thing-Nominal 148 155	范字笔画的影子
+T23	Thing-Nominal 162 164	书法
+T24	Person-Nominal 170 172	老师
+T25	Person-Pronoun 183 184	我
+T26	Time-Implicit 184 186	每天
+T27	Thing-Nominal 188 190	红圈
+T28	Person-Pronoun 195 197	我们
+T29	Organization-Nominal 195 199	我们班级
+T30	Person-Nominal 204 206	老师
+T31	Thing-Nominal 210 214	山羊胡须
+R4	Ownership Arg1:T30 Arg2:T31	
+T32	Person-Nominal 216 218	学生
+T33	Thing-Nominal 219 220	字
+T34	Person-Nominal 221 222	人
+T35	Time-Implicit 225 227	日后
+T36	Person-Nominal 241 245	哪个学生
+T37	Thing-Nominal 268 270	竹板
+T38	Time-Implicit 271 273	旧时
+T39	Thing-Nominal 277 278	墨
+T40	Time-Implicit 279 281	有时
+T41	Location-Nominal 281 283	手上
+T42	Thing-Nominal 285 287	墨渍
+R5	Located Arg1:T42 Arg2:T41	
+T43	Thing-Nominal 289 290	手
+T44	Thing-Nominal 293 295	眼睛
+T45	Thing-Nominal 299 302	黑圈圈
+T46	Person-Nominal 303 307	远路学生
+R6	General-Special Arg1:T13 Arg2:T46	
+T47	Thing-Nominal 311 313	干粮
+T48	Time-Implicit 307 309	中午
+T49	Thing-Nominal 322 324	桌凳
+R7	Ownership Arg1:T46 Arg2:T47	
+R8	Use Arg1:T46 Arg2:T47	
+T50	Person-Nominal 326 330	我的弟弟
+R9	Family Arg1:T50 Arg2:T25	
+T51	Person-Nominal 335 339	一个同学
+R10	Social Arg1:T51 Arg2:T50	
+R11	Social Arg1:T51 Arg2:T25	
+T52	Person-Nominal 351 355	这个同学
+*	Coreference T52 T51
+T53	Thing-Nominal 343 350	一个“墨眼镜”
+R12	Create Arg1:T50 Arg2:T53	
+T54	Metric 343 345	一个
+T55	Person-Pronoun 360 361	他
+*	Coreference T55 T50
+T56	Person-Nominal 368 371	同学们
+T57	Metric 363 365	一个
+T58	Location-Nominal 380 382	高小
+T59	Thing-Nominal 389 393	“颜柳”
+T60	Thing-Nominal 395 406	“汉隶”、“北魏”名帖
+T61	Time-Implicit 407 411	上初中时
+T62	Thing-Nominal 413 415	毛笔
+T63	Thing-Nominal 417 421	钢笔写字
+T64	Person-Pronoun 423 424	我
+T65	Thing-Nominal 426 429	毛笔字
+T66	Thing-Nominal 433 436	钢笔字
+T67	Person-Nominal 447 450	同学们
+R13	Social Arg1:T67 Arg2:T64	
+T68	Thing-Nominal 452 458	课本、作业本
+T69	Person-Pronoun 463 464	我
+T70	Thing-Nominal 465 467	书法
+T71	Location-Nominal 474 478	上学路上
+T72	Thing-Nominal 481 488	街上商店的招牌
+R14	Located Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 491 495	哪家招牌
+R15	Part-Whole Arg1:T73 Arg2:T72	
+T74	Thing-Pronoun 501 503	哪家
+R16	Part-Whole Arg1:T74 Arg2:T72	
+T75	Person-Pronoun 510 511	我
+T76	Time-Implicit 512 515	青年时
+T77	Thing-Nominal 518 520	行书
+T78	Organization-Nominal 548 550	单位
+T79	Thing-Nominal 551 560;561 569	标语、大会横幅和工 作制度等应酬之作
+T80	Time-Explicit 571 574	95年
+T81	Time-Implicit 0 60;61 69;70 130;131 191;192 252;253 313;314 374;375 377;378 438;439 499;500 560;561 570;571 577	光阴流逝，不知不觉我已步入耄耋之年。在我一生当中爱好很多：诸如读书，写作，烹饪，打篮球、排球、乒乓球等，但最值得追忆的是 我与书法的情缘。 记得小时候上三年级，学校除了让我们学国文、算术外，还增添了学写毛笔字的课程。学生天要写一篇蝇头小楷，一张大字。大字写“影 格”，即将“范字”压在白纸底下，看范字笔画的影子描写。当时不知书法为何物，只知老师批阅画的红圈越多越好。我每天得的红圈最 多，在我们班级写得最好。老师经常捋着山羊胡须告诫学生：字乃人之表，日后求职有一手好字是十分重要的。哪个学生若坐不端正，笔 顺、间架结构不对或涂改，则要挨竹板。旧时写字先磨墨，有时手上涂上墨渍，用手擦汗，眼睛就会染成黑圈圈。远路学生中午自带干粮 不回家，午休睡在桌凳上。我的弟弟很调皮，给一个同学脸上画了一个“墨眼镜”，这个同学睡醒后也给他画了一个，惹得同学们哄堂大 笑。 到了高小开始临帖。先临“颜柳”后临“汉隶”、“北魏”名帖。上初中时不用毛笔改用钢笔写字了，我因有毛笔字的基础，钢笔字仍然 写得很好，常常给同学们代写课本、作业本上的名字。我对书法兴趣越来越浓，上学路上经常看街上商店的招牌，品评哪家招牌字写得好 ，哪家写得不好。后来我到青年时，犹喜行书之流畅多变，气脉贯通。因忙于公务，临帖时断时续，大多是给单位写标语、大会横幅和工 作制度等应酬之作。 95年退休后
+T82	Person-Pronoun 578 579	我
+T83	Person-Nominal 581 585	白发之人
+R17	General-Special Arg1:T83 Arg2:T82	
+T84	Person-Pronoun 595 596	我
+T85	Person-Pronoun 604 605	我
+T86	Time-Implicit 613 616	年轻时
+T87	Thing-Nominal 664 668	一首打油
+R18	Create Arg1:T85 Arg2:T87	
+T88	Thing-Nominal 672 674	宣纸
+T89	Thing-Nominal 675 677	丹青
+T90	Thing-Nominal 679 680	墨
+T91	Thing-Nominal 681 682	图
+T92	Time-Implicit 710 715	每天晨练后
+T93	Thing-Nominal 725 732	废报纸、毛边纸
+R19	Use Arg1:T85 Arg2:T93	
+T94	Thing-Name 733 753;754 790	王羲之的《兰亭序》、赵孟的《洛神赋》、柳 公权的《玄秘塔》;阅读茹桂的《书法十讲》、任平、翼之的《行书教程》等著作
+T95	Thing-Nominal 807 811	中国书法
+T96	Thing-Nominal 812 819	汉字的书写艺术
+*	Coreference T95 T96
+T97	Person-Pronoun 843 845	自己
+*	Coreference T97 T85
+T98	Thing-Nominal 856 858	书法
+T99	Person-Pronoun 882 884	自己
+T100	Person-Pronoun 894 896	自己
+T101	Thing-Nominal 910 912	书法
+T102	Person-Pronoun 917 919	自己
+T103	Thing-Nominal 917 925	自己最喜欢的字帖
+R20	Use Arg1:T102 Arg2:T103	
+T104	Thing-Nominal 935 936	帖
+T105	Thing-Nominal 954 957	每个字
+T106	Thing-Nominal 978 980	整篇
+T107	Thing-Nominal 1003 1004	字
+T108	Person-Nominal 1069 1070	师
+T109	Person-Nominal 1071 1072	友
+T110	Person-Nominal 1074 1076	能者
+T111	Time-Explicit 1115 1120	2001年
+T112	Person-Nominal 1122 1129	几个书法爱好者
+T113	Person-Pronoun 1120 1121	我
+R21	Social Arg1:T113 Arg2:T112	
+T114	Organization-Name 1134 1143	铜川神州书画研究会
+T115	Person-Pronoun 1144 1145	我
+T116	Person-Nominal 1146 1148	理事
+R22	General-Special Arg1:T116 Arg2:T115	
+T117	Time-Implicit 1149 1156	这以后的十几年
+T118	Person-Pronoun 1157 1158	我
+T119	Time-Implicit 1164 1166	每日
+T120	Thing-Nominal 1171 1173	展览
+T121	Person-Nominal 1176 1180	协会书友
+R23	Social Arg1:T113 Arg2:T121	
+T122	Time-Explicit 1188 1193	2003年
+T123	Organization-Name 1195 1205	陕西省神州书画研究会
+T124	Person-Pronoun 1193 1194	我
+T125	Person-Nominal 1207 1210	研究员
+R24	General-Special Arg1:T125 Arg2:T124	
+T126	Organization-Nominal 1215 1220	省市书画展
+T127	Time-Implicit 1221 1223	之后
+T128	Person-Pronoun 1223 1224	我
+T129	Thing-Name 1229 1236;1237 1269	《铜川书画》、 《中国职工书法绘画摄影作品精选》、《夕阳红・中国老年书法精品选》
+T130	Organization-Name 1275 1281	铜川神州书协
+T131	Time-Explicit 1288 1291	06年
+T133	Thing-Nominal 1308 1310	银奖
+T134	Thing-Nominal 1271 1273	金奖
+T132	Time-Explicit 1311 1314	07年
+T135	Thing-Nominal 1329 1331	金奖
+T136	Time-Explicit 1332 1335	08年
+T137	Thing-Nominal 1352 1354	金奖
+T138	Location-Name 1355 1357	汶川
+T139	Location-Name 1359 1361	玉树
+T140	Person-Pronoun 1364 1366	我们
+T141	Thing-Nominal 1373 1375	字画
+T142	Time-Explicit 1376 1379	09年
+T143	Organization-Name 1380 1385	铜川民政局
+T144	Thing-Nominal 1380 1387	铜川民政局碑林
+R25	Ownership Arg1:T143 Arg2:T144	
+T145	Thing-Nominal 1389 1391	碑文
+R26	Located Arg1:T145 Arg2:T144	
+T146	Time-Explicit 1392 1395	10年
+T147	Thing-Name 1401 1419	《陕西省煤炭职工书法绘画摄影诗文集》
+T148	Time-Explicit 1422 1424	2年
+T149	Thing-Name 1426 1439	《铜川神州书画书法作品选》
+T150	Location-Nominal 1443 1445	省市
+T151	Time-Implicit 1448 1452	每逢过年
+T152	Organization-Nominal 1457 1461	书协组织
+T153	Person-Pronoun 1493 1494	我
+T154	Time-Implicit 1498 1500	幼时
+T155	Person-Nominal 1500 1502	老师
+R27	Social Arg1:T155 Arg2:T153	
+T156	Time-Implicit 1506 1508	以后
+T157	Person-Nominal 1511 1512	师
+T158	Person-Pronoun 1556 1558	自己
+*	Coreference T158 T153
+T159	Thing-Nominal 1572 1576	一幅好字
+T160	Location-Nominal 1584 1586	客厅
+R28	Located Arg1:T159 Arg2:T160	
+R29	Create Arg1:T158 Arg2:T159	
+T161	Person-Nominal 1590 1591	朋
+T162	Person-Nominal 1592 1593	友
+T163	Time-Implicit 1604 1607	前几年
+T164	Person-Pronoun 1608 1609	我
+T165	Thing-Nominal 1608 1614	我的一幅行书
+R30	Create Arg1:T164 Arg2:T165	
+T166	Person-Nominal 1626 1630	一位律师
+T167	Person-Pronoun 1635 1636	我
+T168	Person-Nominal 1651 1653	对方
+*	Coreference T168 T166
+T169	Person-Nominal 1647 1650	卖字的
+T170	Person-Pronoun 1658 1659	我
+T171	Person-Nominal 1663 1665	对方
+T172	Person-Nominal 1674 1675;1676 1679	裱 店经理
+T173	Thing-Nominal 1683 1687	一刀宣纸
+T174	Person-Pronoun 1680 1681	我
+T175	Person-Nominal 1691 1696	我的儿女们
+R31	Family Arg1:T175 Arg2:T174	
+T176	Person-Nominal 1697 1699	亲友
+R32	Social Arg1:T176 Arg2:T174	
+T177	Person-Pronoun 1710 1711	我
+T178	Thing-Nominal 1713 1714	字
+T179	Thing-Nominal 1724 1725	字
+T180	Thing-Nominal 1727 1729	钱物
+T181	Person-Pronoun 1740 1741	我
+T182	Time-Implicit 1747 1749	每日

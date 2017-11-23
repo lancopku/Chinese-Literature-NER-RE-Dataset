@@ -1,0 +1,4 @@
+T1	Person-Nominal 1 3	父亲
+T2	Time-Implicit 0 10	在父亲仙逝十周年之际
+T3	Person-Pronoun 24 26	我们
+R1	Family Arg1:T3 Arg2:T1	

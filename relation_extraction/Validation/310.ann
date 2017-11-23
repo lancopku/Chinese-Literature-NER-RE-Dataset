@@ -1,0 +1,409 @@
+T1	Time-Implicit 0 11	考上高中那年暑假的一天
+T2	Person-Nominal 12 14	爸爸
+T3	Person-Pronoun 16 17	我
+R1	Family Arg1:T2 Arg2:T3	
+T4	Person-Name 19 21	娟子
+*	Coreference T4 T3 T8
+T5	Person-Nominal 22 28	咱家祖祖辈辈
+R2	Part-Whole Arg1:T4 Arg2:T5	
+R3	Part-Whole Arg1:T2 Arg2:T5	
+T6	Organization-Nominal 34 36	大学
+T7	Organization-Nominal 37 39	咱家
+T8	Person-Pronoun 42 43	你
+T9	Person-Pronoun 52 53	你
+T10	Person-Pronoun 57 59	我们
+R4	Part-Whole Arg1:T2 Arg2:T10	
+T11	Person-Pronoun 71 72	你
+T12	Person-Nominal 79 81	爸爸
+T13	Person-Pronoun 88 89	我
+T14	Person-Pronoun 93 94	我
+T15	Organization-Nominal 109 111	大学
+T16	Person-Pronoun 113 114	我
+T17	Person-Nominal 119 121	父母
+*	Coreference T17 T10
+T18	Organization-Nominal 127 129	高中
+T19	Person-Pronoun 149 150	我
+T20	Person-Nominal 152 154	父母
+T21	Person-Pronoun 162 163	我
+T22	Person-Pronoun 171 172	我
+T23	Person-Nominal 181 183	父母
+R5	Family Arg1:T17 Arg2:T16	
+T24	Person-Nominal 188 190	爸爸
+T25	Person-Name 197 199	娟子
+T26	Person-Pronoun 202 204	我们
+T27	Person-Pronoun 230 231	他
+*	Coreference T27 T24
+T28	Person-Pronoun 235 236	我
+T29	Person-Nominal 248 252	爸爸妈妈
+*	Coreference T29 T23 T30
+T30	Person-Pronoun 263 265	他们
+T31	Person-Pronoun 269 270	我
+R6	Family Arg1:T30 Arg2:T31	
+T32	Organization-Nominal 273 275	家里
+T33	Thing-Nominal 279 280	钱
+T34	Person-Pronoun 292 294	他们
+T35	Thing-Nominal 330 334	水稻把子
+T36	Person-Nominal 338 340	父母
+T37	Person-Pronoun 348 349	我
+T38	Organization-Nominal 353 357	农业大学
+T39	Person-Nominal 365 367	父母
+T40	Person-Nominal 364 374	像父母一样的劳动人民
+R7	General-Special Arg1:T39 Arg2:T40	
+T41	Person-Pronoun 389 390	我
+T42	Time-Implicit 397 400	寒暑假
+T43	Time-Explicit 407 412	1990年
+T44	Person-Pronoun 413 414	我
+T45	Organization-Name 420 426	中国农业大学
+T46	Person-Pronoun 433 435	父亲
+T47	Time-Explicit 429 432	这一年
+*	Coreference T47 T43
+T48	Person-Nominal 447 449	妈妈
+T49	Person-Pronoun 445 446	我
+R8	Family Arg1:T48 Arg2:T49	
+R9	Part-Whole Arg1:T48 Arg2:T39	
+T50	Person-Nominal 451 453	爸爸
+*	Coreference T50 T46
+R10	Part-Whole Arg1:T46 Arg2:T39	
+T51	Location-Nominal 455 457	医院
+T52	Person-Nominal 461 463	爸爸
+T53	Person-Pronoun 474 475	我
+*	Coreference T53 T52 T56 T57
+T54	Person-Nominal 494 496	爸爸
+T55	Person-Pronoun 504 505	我
+T56	Person-Nominal 511 512	爸
+T57	Person-Nominal 524 528	你老人家
+T58	Person-Nominal 531 533	爸爸
+T59	Person-Pronoun 545 546	我
+T60	Person-Pronoun 548 549	他
+*	Coreference T60 T58 T67 T68 T80
+T61	Person-Pronoun 560 561	我
+T62	Time-Implicit 569 572	几天后
+T63	Person-Nominal 573 575	妈妈
+T64	Person-Pronoun 580 581	你
+T65	Person-Pronoun 577 578	我
+*	Coreference T64 T65
+T66	Person-Pronoun 582 583	你
+T67	Person-Nominal 589 592	你爸爸
+T68	Person-Pronoun 596 597	他
+T69	Person-Pronoun 603 604	你
+T70	Person-Nominal 610 612	妈妈
+T71	Person-Pronoun 619 620	我
+T72	Person-Nominal 623 625	父母
+T73	Person-Pronoun 635 636	我
+T74	Location-Nominal 631 633	大学
+T75	Person-Pronoun 665 666	我
+T76	Person-Nominal 671 673	父母
+R11	Family Arg1:T76 Arg2:T75	
+T77	Person-Pronoun 692 693	我
+T78	Thing-Nominal 695 699	毕业证书
+R12	Ownership Arg1:T77 Arg2:T78	
+T79	Time-Implicit 692 702	我领到毕业证书的时候
+T80	Person-Nominal 703 708	生病的爸爸
+T81	Person-Nominal 711 713	妈妈
+R13	Family Arg1:T81 Arg2:T80	
+T82	Person-Nominal 717 719	爸爸
+T83	Thing-Nominal 725 732	烫金的毕业证书
+*	Coreference T83 T78
+T84	Time-Implicit 739 742	毕业后
+T85	Location-Pronoun 745 747	哪里
+T86	Person-Pronoun 752 753	我
+T87	Person-Nominal 756 757	爸
+*	Coreference T87 T82
+T88	Person-Pronoun 758 759	我
+T89	Location-Pronoun 759 761	哪里
+T91	Thing-Nominal 771 772	猪
+T92	Thing-Nominal 774 775	鸡
+T90	Location-Nominal 767 769	家里
+R14	Located Arg1:T91 Arg2:T90	
+R15	Located Arg1:T92 Arg2:T90	
+T93	Abstract 777 781	立体农业
+T94	Person-Nominal 790 795	爸爸和妈妈
+*	Coreference T94 T76 T100 T113 T117
+T95	Metric 806 808	良久
+T96	Person-Nominal 809 811	爸爸
+T97	Thing-Nominal 814 817	一口气
+R16	Create Arg1:T96 Arg2:T97	
+T98	Metric 814 816	一口
+T99	Person-Pronoun 822 823	你
+*	Coreference T99 T88
+T100	Person-Pronoun 825 827	我们
+T101	Time-Implicit 827 830	这些年
+T102	Person-Pronoun 832 833	你
+T103	Thing-Nominal 834 835	书
+T104	Person-Pronoun 849 850	你
+T105	Time-Implicit 851 853	今后
+T106	Thing-Nominal 862 864	农皮
+T107	Person-Nominal 867 870	都市人
+T108	Person-Nominal 875 877	爸爸
+T109	Thing-Nominal 883 885	泪水
+R17	Create Arg1:T108 Arg2:T109	
+T110	Thing-Nominal 877 878	话
+R18	Create Arg1:T108 Arg2:T110	
+T111	Person-Pronoun 893 894	我
+T112	Thing-Nominal 896 900	我的选择
+R19	Create Arg1:T111 Arg2:T112	
+T113	Person-Nominal 901 908	望女成凤的父母
+T114	Person-Pronoun 914 915	我
+T115	Person-Pronoun 930 931	我
+T116	Time-Implicit 933 937	这个时候
+T117	Person-Pronoun 938 940	他们
+T118	Person-Pronoun 948 949	我
+T119	Time-Implicit 957 959	现在
+T120	Thing-Nominal 962 964	消息
+T121	Thing-Nominal 968 970	这事
+T122	Person-Pronoun 971 972	我
+T123	Person-Nominal 973 975	父母
+T124	Person-Pronoun 981 982	我
+T125	Person-Pronoun 987 988	我
+T126	Person-Pronoun 990 991	我
+T127	Person-Pronoun 996 997	我
+T128	Person-Nominal 1001 1003	乡长
+R20	Social Arg1:T127 Arg2:T128	
+R21	Social Arg1:T128 Arg2:T123	
+T129	Person-Nominal 1004 1006	乡长
+T130	Person-Nominal 1008 1013	有远见的人
+R22	General-Special Arg1:T130 Arg2:T129	
+T131	Person-Pronoun 1014 1015	他
+*	Coreference T131 T129
+T132	Person-Pronoun 1018 1019	我
+T133	Person-Pronoun 1032 1033	我
+T134	Thing-Nominal 1037 1038	款
+R23	Ownership Arg1:T133 Arg2:T134	
+T135	Thing-Nominal 1043 1045	土地
+T136	Person-Pronoun 1046 1047	我
+T137	Abstract 1048 1056;1057 1060	立体生态农业研究 和实验
+T138	Metric 1069 1073	几年时间
+T139	Person-Pronoun 1076 1077	我
+T140	Location-Nominal 1078 1080	农村
+T141	Abstract 1081 1087	规模种养殖业
+T142	Location-Nominal 1094 1101	现代化的牲畜场
+T143	Location-Nominal 1102 1104	上面
+R24	Part-Whole Arg1:T143 Arg2:T142	
+T144	Location-Nominal 1114 1116	下面
+R25	Part-Whole Arg1:T144 Arg2:T142	
+T145	Thing-Nominal 1110 1113	鸡鸭鹅
+R26	Located Arg1:T145 Arg2:T143	
+T146	Thing-Nominal 1117 1118	猪
+R27	Located Arg1:T146 Arg2:T144	
+T147	Person-Pronoun 1119 1121	自己
+*	Coreference T147 T139
+T148	Thing-Nominal 1123 1125	饲料
+T149	Thing-Nominal 1142 1144	荒山
+T150	Thing-Nominal 1146 1150	花草树木
+R28	Located Arg1:T150 Arg2:T149	
+T151	Thing-Nominal 1154 1156	土地
+T152	Thing-Nominal 1158 1160	粮食
+R29	Located Arg1:T152 Arg2:T151	
+T153	Location-Nominal 1162 1165	稻田里
+T154	Thing-Nominal 1166 1168	虫子
+R30	Located Arg1:T154 Arg2:T153	
+T155	Thing-Nominal 1172 1174	鸭子
+T156	Thing-Nominal 1177 1178	虫
+*	Coreference T156 T154
+T157	Location-Nominal 1179 1186	草地里、树林里
+T158	Thing-Nominal 1188 1190	虫子
+R31	Located Arg1:T158 Arg2:T157	
+T159	Thing-Nominal 1193 1203	我的“飞鸡”“天鹅”
+T160	Person-Pronoun 1193 1194	我
+R32	Ownership Arg1:T160 Arg2:T159	
+T161	Thing-Nominal 1206 1207	虫
+*	Coreference T161 T158
+T162	Thing-Nominal 1208 1211	鸡鸭鹅
+T163	Thing-Nominal 1212 1214	青草
+T164	Thing-Nominal 1216 1218	粮食
+T165	Thing-Nominal 1220 1222	虫子
+T166	Person-Nominal 1236 1237	人
+T167	Time-Implicit 1241 1243	晚上
+T168	Person-Pronoun 1244 1245	我
+T169	Thing-Nominal 1246 1249	鸡鸭鹅
+R33	Ownership Arg1:T168 Arg2:T169	
+T170	Thing-Nominal 1251 1257	猪场上面的圈
+*	Coreference T169 T170 T171 T174
+T171	Thing-Pronoun 1260 1262	它们
+T172	Thing-Nominal 1260 1265	它们的粪便
+T173	Location-Nominal 1273 1276	猪圈里
+R34	Located Arg1:T172 Arg2:T173	
+T174	Thing-Nominal 1277 1281	这些家禽
+T175	Thing-Nominal 1277 1284	这些家禽的粪便
+*	Coreference T175 T172
+T176	Thing-Nominal 1287 1294	家畜的良好食物
+R35	General-Special Arg1:T176 Arg2:T175	
+T177	Thing-Nominal 1298 1301;1302 1304	青草和 粮食
+T178	Thing-Nominal 1307 1308	猪
+T179	Thing-Nominal 1305 1306	猪
+T180	Person-Pronoun 1327 1328	我
+T181	Thing-Nominal 1327 1336	我喂养的绿色生态猪
+*	Coreference T181 T178
+T182	Thing-Nominal 1343 1344	栏
+T183	Organization-Nominal 1346 1352	绿色食品公司
+T184	Metric 1355 1359	三四个月
+T185	Thing-Nominal 1361 1362;1363 1367	一 批鸡鸭鹅
+T186	Metric 1361 1362;1363 1364	一 批
+T187	Organization-Nominal 1371 1378	上级食品加工厂
+T188	Person-Pronoun 1381 1382	我
+T189	Person-Nominal 1386 1391	当地的名人
+R36	General-Special Arg1:T189 Arg2:T188	
+T190	Organization-Nominal 1392 1394	媒体
+T191	Organization-Nominal 1398 1406	我的生态种养殖场
+T192	Person-Pronoun 1398 1399	我
+R37	Ownership Arg1:T192 Arg2:T191	
+T193	Person-Nominal 1407 1411	上级领导
+T194	Person-Pronoun 1415 1416	我
+R38	Social Arg1:T193 Arg2:T194	
+T195	Thing-Nominal 1419 1423	表彰大会
+T196	Time-Implicit 1433 1435	如今
+T197	Person-Pronoun 1436 1437	我
+T198	Thing-Nominal 1438 1439	钱
+T199	Location-Nominal 1442 1445	农村里
+T200	Thing-Nominal 1447 1449	别墅
+R39	Located Arg1:T200 Arg2:T199	
+T201	Thing-Nominal 1453 1457	几辆汽车
+T202	Metric 1453 1455	几辆
+T203	Thing-Nominal 1462 1472	一批大型农用设备设施
+T204	Metric 1462 1464	一批
+R40	Ownership Arg1:T197 Arg2:T200	
+R41	Ownership Arg1:T197 Arg2:T201	
+R42	Ownership Arg1:T197 Arg2:T203	
+T205	Person-Pronoun 1473 1475	他们
+T206	Thing-Nominal 1476 1478	电脑
+R43	Use Arg1:T205 Arg2:T206	
+T207	Location-Nominal 1479 1483	工作室里
+T208	Thing-Nominal 1491 1493;1494 1497	鸡鸭 鹅和猪
+T209	Thing-Nominal 1500 1504	山林草地
+T210	Thing-Nominal 1508 1512	田园庄稼
+T211	Person-Pronoun 1514 1515	我
+T212	Thing-Nominal 1519 1525	我承包的荒山
+T213	Thing-Nominal 1527 1531	农家乐园
+T214	Abstract 1540 1551	餐饮、休闲娱乐和旅游业
+T215	Time-Implicit 1552 1555	到时候
+T216	Person-Nominal 1561 1563	人才
+T217	Organization-Nominal 1564 1568	我的公司
+R44	Ownership Arg1:T211 Arg2:T217	
+T218	Time-Implicit 1575 1577	现在
+T219	Person-Nominal 1578 1582	爸爸妈妈
+*	Coreference T219 T123 T221 T228 T231
+T220	Thing-Nominal 1588 1595	一些花白的头发
+R45	Part-Whole Arg1:T220 Arg2:T219	
+T221	Person-Pronoun 1596 1598	他们
+T222	Person-Pronoun 1599 1600	我
+T223	Location-Nominal 1603 1605	城里
+T224	Thing-Nominal 1608 1618	我为他们购买的商品房
+R46	Ownership Arg1:T219 Arg2:T224	
+T225	Time-Implicit 1621 1623	晚年
+T226	Person-Nominal 1624 1627	城里人
+T227	Thing-Nominal 1630 1633	家具家
+R47	Use Arg1:T226 Arg2:T227	
+T228	Person-Nominal 1636 1640	我的父母
+T229	Person-Nominal 1646 1648	爸爸
+T230	Thing-Nominal 1653 1655	电脑
+T231	Person-Pronoun 1610 1612	他们
+T232	Person-Pronoun 1656 1657	他
+*	Coreference T232 T229
+R48	Use Arg1:T229 Arg2:T230	
+T233	Thing-Nominal 1665 1667	电脑
+T234	Person-Nominal 1673 1678	远方的网友
+R49	Social Arg1:T234 Arg2:T232	
+T235	Thing-Nominal 1682 1684	电脑
+T236	Thing-Nominal 1686 1688	文章
+R50	Create Arg1:T232 Arg2:T236	
+T237	Person-Nominal 1697 1699	爸爸
+T238	Person-Nominal 1701 1712	从来不会写文章的大老粗
+R51	General-Special Arg1:T238 Arg2:T237	
+T239	Thing-Nominal 1714 1724	他的文章《我的女儿》
+R52	Create Arg1:T237 Arg2:T239	
+T240	Thing-Nominal 1729 1733	电子邮件
+T241	Organization-Nominal 1735 1739	一家报纸
+T242	Time-Implicit 1746 1748	如今
+T243	Person-Nominal 1748 1750	父母
+T244	Organization-Nominal 1752 1756	老年大学
+T245	Person-Nominal 1769 1774	老年大学生
+R53	General-Special Arg1:T245 Arg2:T243	
+T246	Person-Nominal 1779 1784	爸爸和妈妈
+T247	Thing-Nominal 1787 1789	电脑
+R54	Use Arg1:T246 Arg2:T247	
+T248	Person-Nominal 1803 1804	人
+T249	Person-Nominal 1811 1815	爸爸妈妈
+T250	Thing-Nominal 1816 1818	电脑
+T251	Thing-Nominal 1821 1823	外语
+T252	Time-Implicit 1825 1827	今天
+T253	Person-Nominal 1828 1839	心里乐开了花的爸爸妈妈
+*	Coreference T253 T246 T256
+T254	Person-Pronoun 1841 1842	我
+T255	Person-Nominal 1856 1858	女儿
+*	Coreference T255 T254 T267 T268
+T256	Person-Pronoun 1862 1864	我们
+R55	Family Arg1:T254 Arg2:T253	
+T257	Time-Implicit 1878 1880	如今
+T258	Thing-Nominal 1881 1886	爸爸的身体
+T259	Person-Nominal 1881 1883	爸爸
+R56	Ownership Arg1:T259 Arg2:T258	
+T260	Person-Pronoun 1891 1892	他
+T261	Person-Nominal 1893 1895	妈妈
+*	Coreference T260 T259
+T262	Time-Implicit 1895 1902	每天早上和晚上
+T263	Location-Nominal 1905 1912	广场或者体育场
+T264	Person-Nominal 1928 1930	父母
+T265	Person-Nominal 1941 1943	爸爸
+T266	Person-Nominal 1944 1945	人
+T267	Person-Name 1949 1955	我们女儿娟子
+T268	Person-Nominal 1964 1966	女儿
+T269	Person-Name 1972 1975	邓小平
+T270	Abstract 1975 1979	改革开放
+T271	Person-Nominal 1985 1987	女儿
+T272	Person-Nominal 1993 1995	父母
+T273	Person-Pronoun 2000 2001	我
+T274	Person-Pronoun 1996 1997	我
+T275	Person-Pronoun 2010 2011	我
+T276	Organization-Nominal 2005 2006	党
+T277	Person-Pronoun 2014 2015	我
+T278	Person-Nominal 2020 2022	父母
+T279	Organization-Nominal 2031 2035	党和国家
+T280	Person-Pronoun 2038 2039	我
+T281	Time-Implicit 2045 2051	一天后的晚上
+T282	Person-Pronoun 2052 2053	我
+T283	Thing-Nominal 2056 2059	电视节
+R57	Use Arg1:T282 Arg2:T283	
+T284	Person-Nominal 2067 2075	云南贫困山村孩子
+T285	Person-Pronoun 2085 2087	爸爸
+T286	Person-Pronoun 2093 2094	我
+T287	Person-Name 2097 2099	娟子
+*	Coreference T287 T286 T290 T293
+T288	Person-Pronoun 2100 2101	我
+T289	Location-Nominal 2067 2073	云南贫困山村
+*	Coreference T288 T285 T299
+T290	Person-Pronoun 2110 2111	你
+T291	Organization-Nominal 2117 2119	小学
+T292	Organization-Nominal 2120 2122	中学
+T293	Person-Nominal 2122 2125	乡村娃
+T294	Thing-Nominal 2126 2127	书
+T295	Person-Nominal 2137 2141	子孙后代
+T296	Organization-Nominal 2142 2144	大学
+T297	Person-Pronoun 2147 2148	我
+T298	Person-Nominal 2155 2156	母
+T299	Person-Nominal 2158 2159	父
+T300	Person-Nominal 2160 2163	贫困女
+*	Coreference T300 T297
+*	Coreference T298 T261
+T301	Organization-Nominal 2180 2181	党
+T302	Person-Nominal 2193 2195	爸爸
+T303	Person-Nominal 2198 2199	我
+T304	Person-Nominal 2203 2206	全家人
+T305	Person-Nominal 2216 2218	爸爸
+T306	Person-Name 2230 2232	娟子
+T307	Person-Nominal 2245 2247	爸爸
+T308	Thing-Nominal 2300 2304	电视画面
+T309	Thing-Nominal 2296 2299	电视机
+T310	Organization-Nominal 2274 2278	党和国家
+T311	Person-Pronoun 2283 2284	我
+T312	Person-Nominal 2287 2289	爸爸
+R58	Part-Whole Arg1:T308 Arg2:T309	
+T313	Person-Nominal 2305 2312	衣衫褴褛的孩子
+*	Coreference T313 T284
+T314	Location-Nominal 2322 2324	学校
+T315	Person-Pronoun 2335 2336	我
+T316	Person-Pronoun 2340 2341	我
+T317	Time-Implicit 2348 2351	第二天
+T318	Person-Pronoun 2352 2353	我
+T319	Thing-Nominal 2355 2361	自己的人民币
+R59	Ownership Arg1:T318 Arg2:T319	
+T320	Location-Nominal 2362 2364	邮局

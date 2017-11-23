@@ -1,0 +1,71 @@
+T1	Thing-Nominal 0 1	日
+T2	Thing-Nominal 2 3	日
+T3	Thing-Nominal 10 11	花
+T4	Thing-Nominal 12 13	花
+T5	Metric 14 16	年年
+T6	Thing-Nominal 41 42	船
+T7	Location-Nominal 43 45	码头
+T8	Thing-Nominal 45 46	车
+T9	Location-Nominal 47 48	站
+R1	Located Arg1:T6 Arg2:T7	
+R2	Located Arg1:T8 Arg2:T9	
+T10	Location-Nominal 67 71	老年大学
+T11	Metric 88 91	一幕幕
+T12	Person-Pronoun 92 94	我们
+T13	Person-Pronoun 104 106	我们
+T14	Person-Pronoun 117 118	你
+T15	Person-Nominal 132 135	学员们
+T16	Thing-Nominal 136 139	百灵鸟
+T17	Person-Nominal 159 160	人
+T18	Person-Pronoun 171 172	你
+T19	Person-Nominal 199 200	人
+T20	Thing-Nominal 160 162	春风
+T21	Metric 196 198	丝丝
+T22	Person-Nominal 214 215	人
+T23	Person-Pronoun 226 227	你
+T24	Organization-Nominal 231 234	舞蹈队
+T26	Organization-Nominal 235 238	模特队
+T27	Organization-Nominal 239 246	太极拳和瑜珈班
+T28	Person-Nominal 247 250	学员们
+R4	Ownership Arg1:T28 Arg2:T24	
+R5	Ownership Arg1:T28 Arg2:T26	
+R6	Ownership Arg1:T28 Arg2:T27	
+T30	Person-Nominal 274 275	人
+T29	Person-Pronoun 286 287	你
+T31	Organization-Nominal 291 300	书画、摄影、剪纸班
+T32	Person-Nominal 301 304	学员们
+R7	Ownership Arg1:T32 Arg2:T31	
+T25	Organization-Nominal 122 131	声乐、粤剧、合唱团
+R3	Ownership Arg1:T15 Arg2:T25	
+T33	Organization-Nominal 178 181	器乐班
+T34	Organization-Nominal 182 185	管弦队
+T35	Person-Nominal 264 265	人
+T36	Thing-Nominal 263 267	娇人身段
+R8	Part-Whole Arg1:T36 Arg2:T28	
+T37	Metric 313 316	一幅幅
+T38	Organization-Nominal 343 355	电脑、英语、保健、古文班
+T39	Person-Nominal 356 359	学员们
+R9	Ownership Arg1:T39 Arg2:T38	
+T40	Person-Pronoun 361 363	他们
+*	Coreference T40 T39
+T41	Thing-Nominal 381 382	日
+T42	Thing-Nominal 383 384	月
+T43	Thing-Nominal 395 397	夕阳
+T44	Thing-Nominal 399 401	晚霞
+T45	Person-Pronoun 405 407	我们
+T46	Person-Nominal 437 439	朋友
+T47	Thing-Nominal 444 445	船
+T48	Location-Nominal 446 448	码头
+T49	Thing-Nominal 448 449	车
+T50	Location-Nominal 450 451	站
+R10	Located Arg1:T47 Arg2:T48	
+R11	Located Arg1:T49 Arg2:T50	
+T51	Person-Pronoun 455 457	我们
+T52	Person-Nominal 472 474	朋友
+T53	Thing-Nominal 479 481	夕阳
+T54	Thing-Nominal 492 497	五彩的晚霞
+T55	Person-Pronoun 530 532	我们
+T56	Person-Pronoun 542 544	我们
+T57	Thing-Nominal 553 555	夕阳
+T58	Person-Pronoun 557 559	我们
+T59	Person-Pronoun 569 571	我们

@@ -1,0 +1,239 @@
+T1	Thing-Name 2 4	冬雨
+T2	Thing-Nominal 7 8	雪
+T3	Thing-Name 9 11	冬雨
+T4	Thing-Nominal 16 17	雪
+T5	Thing-Nominal 23 25	金鳞
+T6	Location-Nominal 27 28	池
+R1	Located Arg1:T5 Arg2:T6	
+T7	Thing-Nominal 37 38	龙
+T8	Thing-Nominal 42 44	蝴蝶
+T9	Thing-Nominal 52 54	毛虫
+*	Coreference T8 T9
+T10	Thing-Name 77 79	冬雨
+T11	Thing-Nominal 85 87	大雪
+T12	Thing-Name 101 103	冬雨
+T13	Thing-Name 106 108	冬雨
+T14	Thing-Nominal 141 143	冬麦
+T15	Thing-Nominal 146 148	害虫
+T16	Thing-Nominal 150 152	泥土
+T17	Thing-Name 155 157	冬雨
+T18	Thing-Name 182 184	冬雨
+T19	Thing-Name 187 189	冬雨
+T20	Thing-Nominal 206 207	泉
+T21	Thing-Nominal 211 212	水
+*	Coreference T20 T21
+T22	Location-Nominal 208 210	地下
+R2	Located Arg1:T21 Arg2:T22	
+T23	Location-Nominal 239 241	地下
+T24	Thing-Nominal 281 284	水滴们
+T25	Thing-Nominal 295 297	树根
+T26	Thing-Nominal 300 302	腐泥
+T27	Thing-Nominal 305 307	岩缝
+T28	Thing-Pronoun 321 322	它
+*	Coreference T28 T24
+T29	Location-Nominal 325 327	溶沟
+T30	Location-Nominal 328 330	溶孔
+T31	Location-Nominal 331 333	溶洞
+T32	Location-Nominal 341 345	地下暗河
+T33	Thing-Pronoun 353 354	它
+T34	Thing-Pronoun 358 359	它
+T35	Thing-Pronoun 361 362	它
+T36	Location-Nominal 393 395	地面
+T37	Thing-Nominal 397 398	泉
+T38	Thing-Nominal 412 414	雨水
+T39	Thing-Nominal 419 421	泉水
+T40	Time-Implicit 122 123	冬
+T41	Thing-Nominal 125 126	雪
+T42	Thing-Nominal 93 94	雪
+T43	Time-Implicit 192 194	春天
+T44	Thing-Nominal 214 215	泉
+T45	Thing-Nominal 216 217	雨
+T46	Location-Nominal 223 225	地面
+T47	Thing-Nominal 226 228	雨滴
+R3	Located Arg1:T47 Arg2:T46	
+T48	Thing-Nominal 244 246	水滴
+T49	Organization-Nominal 316 320	水滴大军
+T50	Location-Nominal 381 385	岩溶裂隙
+R4	Located Arg1:T35 Arg2:T50	
+R5	Located Arg1:T35 Arg2:T36	
+*	Coreference T37 T35
+T51	Thing-Nominal 423 424	泉
+T52	Thing-Nominal 432 434	明珠
+T53	Thing-Nominal 456 458	秋雨
+T54	Thing-Nominal 468 470	银花
+T55	Thing-Nominal 475 476	虎
+T56	Thing-Nominal 477 478	狮
+T57	Thing-Nominal 505 506	湍
+T58	Thing-Nominal 508 509	瀑
+T59	Thing-Nominal 511 512	池
+T60	Thing-Nominal 514 515	潭
+T61	Thing-Pronoun 516 517	它
+T62	Location-Nominal 527 529	泉口
+T63	Location-Nominal 537 539	泉口
+R6	Located Arg1:T61 Arg2:T62	
+T64	Person-Nominal 550 553	精英们
+T65	Thing-Pronoun 554 555	它
+T66	Thing-Nominal 558 561	上升泉
+T67	Thing-Nominal 564 567	下降泉
+T68	Thing-Nominal 576 577	泉
+T69	Thing-Pronoun 580 582	它们
+*	Coreference T69 T68
+T70	Thing-Nominal 589 592	上升泉
+T71	Thing-Nominal 595 598	下降泉
+R7	Part-Whole Arg1:T51 Arg2:T57	
+R8	Part-Whole Arg1:T51 Arg2:T58	
+R9	Part-Whole Arg1:T51 Arg2:T59	
+R10	Part-Whole Arg1:T51 Arg2:T61	
+*	Coreference T51 T61
+T72	Thing-Nominal 602 605	下降泉
+T73	Location-Nominal 618 620	山崖
+T74	Location-Nominal 625 629	山区冲沟
+T75	Location-Nominal 630 634	山前河道
+R11	Located Arg1:T72 Arg2:T73	
+R12	Located Arg1:T72 Arg2:T74	
+R13	Located Arg1:T72 Arg2:T75	
+T76	Time-Implicit 637 639	旱季
+T77	Thing-Nominal 650 653	上升泉
+T78	Thing-Nominal 640 642	有的
+*	Coreference T78 T72
+T79	Thing-Nominal 702 703	泉
+T80	Thing-Nominal 728 729	溪
+T81	Thing-Nominal 730 731	泉
+T82	Thing-Nominal 736 737	泉
+T83	Person-Name 757 762	医圣李时珍
+T84	Person-Nominal 757 759	医圣
+*	Coreference T83 T84
+T85	Thing-Nominal 763 764	泉
+T86	Thing-Nominal 769 771	热泉
+T87	Thing-Nominal 772 774	冷泉
+T88	Thing-Nominal 775 777	甘泉
+T89	Thing-Nominal 778 780	酸泉
+T90	Thing-Nominal 781 783	苦泉
+R14	Part-Whole Arg1:T90 Arg2:T85	
+R15	Part-Whole Arg1:T89 Arg2:T85	
+R16	Part-Whole Arg1:T88 Arg2:T85	
+R17	Part-Whole Arg1:T87 Arg2:T85	
+R18	Part-Whole Arg1:T86 Arg2:T85	
+T91	Abstract 788 792	本草纲目
+T92	Thing-Nominal 794 795	泉
+T93	Thing-Nominal 811 812	泉
+T94	Thing-Nominal 825 826	泉
+T95	Thing-Nominal 834 835	泉
+T96	Thing-Nominal 838 840	矿物
+R19	Located Arg1:T95 Arg2:T96	
+T97	Person-Nominal 842 844	后人
+T98	Thing-Nominal 845 846	它
+*	Coreference T98 T95 T99
+T99	Thing-Nominal 847 849	矿泉
+T100	Thing-Nominal 851 853	矿泉
+T101	Person-Nominal 865 867	世人
+T102	Person-Name 872 875	唐明皇
+T103	Person-Name 876 879	杨贵妃
+T104	Location-Name 879 882	华清池
+T105	Location-Name 896 899	华清池
+T106	Thing-Nominal 900 902	温泉
+T107	Time-Implicit 914 917	千百年
+T108	Thing-Nominal 935 937	矿泉
+T109	Thing-Nominal 960 961	泉
+T110	Person-Nominal 963 965	世人
+T111	Person-Nominal 970 974	文人墨客
+T112	Person-Nominal 975 979	风流雅士
+T113	Thing-Nominal 983 984	泉
+T114	Person-Nominal 986 988	世人
+T115	Person-Name 999 1003	清张善恒
+T116	Location-Name 1005 1008	满井泉
+T117	Person-Nominal 1036 1038	世人
+T118	Person-Nominal 1055 1057	人们
+*	Coreference T118 T117
+T119	Location-Name 1081 1084	无忧泉
+T120	Thing-Nominal 1106 1109	无忧水
+R20	Located Arg1:T120 Arg2:T119	
+T121	Person-Nominal 1113 1115	世人
+T122	Thing-Nominal 1158 1159	泉
+T123	Thing-Nominal 1172 1174	须眉
+T124	Person-Nominal 1184 1187	濯缨人
+T125	Person-Nominal 1191 1193	孺子
+T126	Thing-Nominal 1196 1197	泉
+T127	Thing-Nominal 1206 1207	水
+T128	Thing-Nominal 1211 1212	泉
+T129	Person-Nominal 1217 1219	世人
+T130	Thing-Nominal 1223 1224	泉
+T131	Thing-Nominal 1238 1239	水
+T132	Location-Nominal 1243 1245	地上
+T133	Thing-Nominal 1246 1248	河水
+R21	Located Arg1:T133 Arg2:T132	
+T134	Thing-Nominal 1249 1251	河水
+T135	Thing-Pronoun 1256 1257	它
+*	Coreference T135 T134
+T136	Thing-Nominal 1297 1299	河水
+T137	Thing-Pronoun 1304 1305	它
+*	Coreference T137 T136
+T138	Location-Nominal 1326 1328	山谷
+T139	Location-Nominal 1332 1334	平原
+T140	Location-Nominal 1336 1339	高原，
+T141	Location-Nominal 1342 1344	洼地
+R22	Located Arg1:T136 Arg2:T138	
+R23	Located Arg1:T136 Arg2:T139	
+R24	Located Arg1:T136 Arg2:T140	
+R25	Located Arg1:T136 Arg2:T141	
+T142	Thing-Nominal 1346 1348	河水
+T143	Metric 1395 1397	千里
+T144	Thing-Nominal 1425 1427	河水
+T145	Thing-Pronoun 1431 1432	它
+*	Coreference T145 T144
+T146	Thing-Pronoun 1444 1445	它
+T147	Thing-Pronoun 1452 1453	它
+T148	Thing-Nominal 1478 1480	河水
+T149	Location-Nominal 1487 1489	冰川
+T150	Location-Nominal 1490 1492	雪上
+T151	Location-Nominal 1493 1495	崇山
+T152	Location-Nominal 1496 1498	峻岭
+T153	Location-Nominal 1499 1501	森林
+T154	Location-Nominal 1502 1504	草原
+T155	Location-Nominal 1505 1507	高原
+T156	Location-Nominal 1508 1510	洼地
+R26	Located Arg1:T148 Arg2:T149	
+R27	Located Arg1:T148 Arg2:T150	
+R28	Located Arg1:T148 Arg2:T151	
+R29	Located Arg1:T148 Arg2:T152	
+R30	Located Arg1:T148 Arg2:T153	
+R31	Located Arg1:T148 Arg2:T154	
+R32	Located Arg1:T148 Arg2:T155	
+R33	Located Arg1:T148 Arg2:T156	
+T157	Thing-Pronoun 1519 1520	它
+T158	Thing-Pronoun 1532 1533	它
+T159	Thing-Pronoun 1539 1540	它
+T160	Location-Nominal 1554 1556	河床
+T161	Thing-Nominal 1558 1560	河水
+T162	Thing-Pronoun 1569 1570	它
+*	Coreference T162 T161
+T163	Thing-Nominal 1590 1592	河水
+T164	Thing-Pronoun 1597 1598	它
+*	Coreference T163 T164
+T165	Thing-Nominal 1611 1613	流水
+T166	Thing-Nominal 1617 1619	河水
+T167	Thing-Nominal 1635 1637	冰川
+T168	Thing-Pronoun 1641 1642	它
+T169	Thing-Pronoun 1647 1648	它
+T170	Person-Nominal 1653 1655	自己
+R34	Part-Whole Arg1:T169 Arg2:T170	
+*	Coreference T169 T166
+T171	Thing-Pronoun 1665 1666	它
+T172	Thing-Nominal 1667 1668	山
+T173	Thing-Nominal 1669 1670	岭
+T174	Person-Nominal 1698 1700	自己
+T175	Thing-Nominal 1708 1709	湖
+T176	Thing-Nominal 1725 1727	海水
+T177	Thing-Nominal 1736 1738	河水
+T178	Thing-Nominal 1741 1742	湖
+T179	Thing-Pronoun 1753 1754	它
+*	Coreference T179 T177
+T180	Thing-Nominal 1766 1768	河水
+T181	Thing-Nominal 1770 1772	大海
+T182	Thing-Nominal 1773 1775	河水
+T183	Thing-Nominal 1778 1780	海水
+*	Coreference T182 T183 T184
+T184	Thing-Pronoun 1783 1784	它
+T185	Thing-Nominal 1799 1801	河水
+T186	Person-Nominal 1857 1859	自己
+R35	Part-Whole Arg1:T185 Arg2:T186	

@@ -1,0 +1,295 @@
+T1	Location-Name 0 6	江南水乡童镇
+T2	Thing-Nominal 7 17	四通八达似蛛网的河流
+R1	Near Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 21 28	古朴素雅的村舍
+T4	Thing-Nominal 34 41	这些清澈的河水
+*	Coreference T4 T2
+T5	Location-Nominal 34 42	这些清澈的河水畔
+R2	Located Arg1:T3 Arg2:T5	
+T6	Thing-Nominal 43 51	其中较大的一条河
+R3	Part-Whole Arg1:T6 Arg2:T4	
+T7	Location-Nominal 56 58	小镇
+*	Coreference T7 T1
+T8	Location-Nominal 66 71	北侧沿河边
+T9	Thing-Nominal 72 80	镇上最热闹的市街
+R4	Located Arg1:T9 Arg2:T8	
+T10	Thing-Nominal 83 85	市街
+*	Coreference T10 T9
+T11	Thing-Nominal 86 89	半边街
+R5	General-Special Arg1:T11 Arg2:T10	
+T12	Location-Nominal 90 94	朝南一面
+T13	Location-Nominal 61 65	南北两半
+R6	Part-Whole Arg1:T8 Arg2:T13	
+R7	Part-Whole Arg1:T12 Arg2:T13	
+T14	Thing-Nominal 95 102	鳞次栉比的商店
+R8	Located Arg1:T14 Arg2:T12	
+T15	Location-Nominal 103 105	店前
+T16	Thing-Nominal 107 109	廊檐
+R9	Located Arg1:T16 Arg2:T15	
+T17	Location-Nominal 111 116	另一边沿河
+T18	Thing-Nominal 119 121;122 129	木栅 栏和几把长木椅
+R10	Located Arg1:T18 Arg2:T17	
+T19	Thing-Nominal 130 132	市街
+T21	Person-Nominal 147 150	乡民们
+T20	Thing-Nominal 133 141	小镇最热闹的中心
+T22	Thing-Nominal 154 156	小河
+T23	Thing-Nominal 157 158	水
+T24	Time-Explicit 164 172	上个世纪五十年代
+T25	Time-Implicit 164 177	上个世纪五十年代的一天清晨
+T26	Thing-Nominal 178 188	弥漫在小镇上空的炊烟
+T27	Location-Nominal 181 185	小镇上空
+R11	Located Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 194 202	此去彼伏的鸡犬声
+T29	Thing-Nominal 207 214	一阵爆竹鞭炮声
+T30	Metric 207 209	一阵
+T31	Location-Nominal 215 219	市街始端
+T32	Thing-Nominal 215 224;225 229	市街始端那家最大的 百杂商店
+T33	Location-Nominal 215 224;225 231	市街始端那家最大的 百杂商店门外
+T34	Thing-Nominal 233 247	一块“童镇供销合作社”的招牌
+R12	Located Arg1:T34 Arg2:T33	
+T35	Person-Name 255 275	一直以穿乡走村挑担叫卖为生的老货郎春盈伯
+T36	Location-Nominal 284 285;286 287	柜 内
+T37	Person-Nominal 290 293	营业员
+*	Coreference T37 T35 T38 T40 T57
+T38	Person-Name 295 298	春盈伯
+T39	Person-Nominal 301 307	镇上大多数人
+T40	Person-Pronoun 313 314	他
+T41	Time-Implicit 314 317	年轻时
+T42	Person-Pronoun 329 330	他
+T43	Metric 332 334	十里
+T44	Location-Name 332 339	十里洋场大上海
+T45	Person-Nominal 359 361	老婆
+T46	Person-Nominal 363 365	独子
+T47	Person-Pronoun 366 367	他
+R13	Family Arg1:T46 Arg2:T38	
+R14	Family Arg1:T45 Arg2:T38	
+R15	Family Arg1:T45 Arg2:T46	
+T48	Person-Pronoun 370 371	他
+T49	Location-Name 379 381	童镇
+T50	Person-Nominal 384 386	堂弟
+T51	Person-Nominal 387 389	堂弟
+T52	Location-Name 391 393	上海
+R16	Family Arg1:T50 Arg2:T48	
+T53	Person-Nominal 397 398	妻
+T54	Person-Nominal 400 404	一双儿女
+R17	Family Arg1:T53 Arg2:T51	
+R18	Family Arg1:T54 Arg2:T51	
+R19	Family Arg1:T54 Arg2:T53	
+T55	Location-Name 406 408	童镇
+T56	Thing-Nominal 406 410	童镇祖屋
+R20	Use Arg1:T53 Arg2:T56	
+T57	Person-Name 415 416;417 419	春 盈伯
+T58	Thing-Nominal 423 428	堂弟家偏屋
+R21	Use Arg1:T57 Arg2:T58	
+T59	Person-Name 430 433	春盈伯
+T60	Thing-Nominal 436 438	田地
+T61	Thing-Nominal 450 455	一付货郎担
+R22	Use Arg1:T59 Arg2:T61	
+T62	Thing-Nominal 465 467	货担
+*	Coreference T62 T61
+T63	Location-Nominal 465 468	货担里
+T64	Thing-Nominal 471 487	糖、饼等吃食和针头线脑之类日用品
+R23	Located Arg1:T64 Arg2:T63	
+T65	Thing-Nominal 488 490;491 493	这些 东西
+*	Coreference T65 T64
+T66	Person-Nominal 495 509	那些住在偏僻村落里的女人小孩
+T67	Person-Pronoun 515 516	他
+T68	Person-Nominal 523 525	乡亲
+R24	Social Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 530 534	什么东西
+T70	Person-Pronoun 535 536	他
+T71	Person-Name 552 555	春盈伯
+T72	Location-Nominal 572 576	繁华世界
+*	Coreference T72 T44
+T73	Location-Name 597 599	童镇
+T74	Person-Nominal 600 609	附近四乡八村的乡民
+T75	Person-Pronoun 613 614	他
+T76	Person-Nominal 624 627	老货郎
+*	Coreference T76 T71 T93
+T77	Time-Implicit 627 629	夏日
+T78	Thing-Nominal 629 633	一顶草帽
+R25	Use Arg1:T76 Arg2:T78	
+T79	Time-Implicit 634 636	冬日
+T80	Thing-Nominal 636 644	一顶灰褐色绒布帽
+R26	Use Arg1:T76 Arg2:T80	
+T81	Thing-Nominal 644 647	这帽子
+*	Coreference T81 T80
+T82	Time-Implicit 652 657	寒风凛冽时
+T83	Thing-Nominal 659 661	帽边
+R27	Part-Whole Arg1:T83 Arg2:T81	
+T84	Thing-Nominal 666 668	面孔
+T85	Person-Pronoun 670 671	他
+T86	Thing-Nominal 670 673;674 686	他那只 剩一圈稀疏灰白头发的脑袋
+R28	Part-Whole Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 690 693	货郎担
+T88	Metric 700 703	几十年
+T89	Person-Pronoun 704 705	他
+T90	Thing-Nominal 704 708	他的脚印
+R29	Create Arg1:T89 Arg2:T90	
+T92	Location-Nominal 731 733	城里
+T91	Location-Nominal 713 727	一遍遍印在周围村镇和城乡之间
+R30	Located Arg1:T90 Arg2:T91	
+T93	Person-Nominal 762 764	老人
+T94	Person-Name 767 770	春盈伯
+T95	Person-Nominal 783 785	老人
+T96	Metric 794 796	一天
+T97	Time-Implicit 797 799	晚上
+T98	Location-Nominal 801 802	家
+T99	Metric 803 804	两
+T100	Thing-Nominal 808 810	牙齿
+T101	Metric 814 816	两颗
+T102	Thing-Nominal 817 819	小菜
+T103	Thing-Nominal 822 831	很简单的豆腐和蔬菜
+T104	Thing-Nominal 837 838	鱼
+R31	General-Special Arg1:T102 Arg2:T103	
+R32	General-Special Arg1:T102 Arg2:T104	
+T105	Thing-Nominal 842 844	旱烟
+T106	Thing-Nominal 845 847	烟斗
+T107	Person-Pronoun 839 840	他
+R33	Use Arg1:T107 Arg2:T105	
+R34	Use Arg1:T107 Arg2:T106	
+R35	Located Arg1:T105 Arg2:T106	
+T108	Thing-Nominal 852 854	竹根
+T109	Thing-Nominal 857 859	烟管
+R36	Part-Whole Arg1:T109 Arg2:T106	
+T110	Thing-Nominal 861 868	原本相连的竹杆
+R37	General-Special Arg1:T110 Arg2:T109	
+T111	Person-Pronoun 872 873	他
+T112	Thing-Nominal 877 882	一小撮烟丝
+T113	Thing-Nominal 884 890	竹根上的小孔
+R38	Part-Whole Arg1:T113 Arg2:T109	
+R39	Located Arg1:T112 Arg2:T113	
+R40	Use Arg1:T111 Arg2:T112	
+T114	Thing-Nominal 901 904	煤头纸
+T115	Thing-Nominal 905 907	烟丝
+T116	Thing-Nominal 915 917	烟灰
+T117	Location-Nominal 918 922	椅子脚上
+T118	Time-Implicit 934 936	那时
+T119	Person-Nominal 936 940	乡下人家
+T120	Thing-Nominal 943 947	兑火柴钱
+T121	Location-Nominal 950 955	家家灶头上
+T122	Thing-Nominal 956 965	搓好的一根根煤头纸
+R41	Located Arg1:T122 Arg2:T121	
+T123	Time-Implicit 966 969	用火时
+T124	Thing-Nominal 972 981	长年留有火种的灰缸
+T125	Thing-Nominal 991 993;994 996	这根 烟管
+*	Coreference T125 T109
+T126	Person-Name 996 999	春盈伯
+R42	Ownership Arg1:T126 Arg2:T125	
+R43	Use Arg1:T126 Arg2:T125	
+T127	Location-Nominal 1010 1014	哪村哪家
+T128	Thing-Nominal 1020 1021	火
+T129	Thing-Nominal 1022 1023	烟
+T130	Thing-Nominal 1027 1028	酒
+T131	Thing-Nominal 1029 1030	烟
+T132	Person-Pronoun 1031 1032	他
+T133	Thing-Nominal 1034 1038	一把二胡
+T134	Metric 1034 1036	一把
+R44	Ownership Arg1:T132 Arg2:T133	
+T135	Thing-Nominal 1048 1050	京戏
+T136	Thing-Nominal 1056 1058	牙齿
+T137	Time-Implicit 1075 1080	夏日的夜晚
+T138	Location-Nominal 1083 1089	墙门外晒场上
+T139	Metric 1094 1097	一会儿
+T140	Person-Nominal 1100 1104	四邻八舍
+T141	Person-Nominal 1106 1109	乡邻们
+T142	Person-Pronoun 1112 1113	他
+T143	Person-Name 1122 1125	春盈伯
+T144	Thing-Nominal 1122 1128	春盈伯的脑袋
+R45	Part-Whole Arg1:T144 Arg2:T143	
+T145	Thing-Nominal 1132 1138	一本万宝全书
+T146	Metric 1132 1134	一本
+T147	Person-Nominal 1146 1148	老人
+T148	Thing-Nominal 1150 1159	秘密珍藏的一件宝贝
+T149	Thing-Nominal 1160 1167	一张泛黄的照片
+T150	Thing-Nominal 1168 1170	照片
+*	Coreference T150 T149 T148 T157
+R46	Ownership Arg1:T147 Arg2:T148	
+T151	Person-Nominal 1172 1178	一对年轻夫妇
+T152	Person-Nominal 1179 1181	女的
+R47	Part-Whole Arg1:T152 Arg2:T151	
+T153	Person-Nominal 1183 1188	一个小男孩
+T154	Person-Nominal 1190 1195	照片中男子
+R48	Part-Whole Arg1:T154 Arg2:T151	
+R49	Family Arg1:T154 Arg2:T153	
+R50	Family Arg1:T152 Arg2:T153	
+R51	Family Arg1:T154 Arg2:T152	
+T155	Person-Name 1199 1206	年轻时的春盈伯
+*	Coreference T154 T155 T147
+*	Coreference T152 T45
+*	Coreference T153 T46
+T156	Person-Nominal 1209 1211	老人
+T157	Thing-Nominal 1213 1217	这张照片
+T158	Time-Implicit 1212 1218	看这张照片时
+T159	Time-Implicit 1240 1241	冬
+T160	Time-Implicit 1242 1243	春
+T161	Person-Name 1252 1255	春盈伯
+T162	Time-Implicit 1252 1276	春盈伯渐感力不从心，偶遇天气不好，只能待在家里时
+T163	Location-Nominal 1277 1279	镇上
+T164	Organization-Nominal 1282 1287	供销合作社
+T165	Person-Pronoun 1288 1289	他
+T166	Person-Nominal 1292 1298	供销社营业员
+R52	General-Special Arg1:T166 Arg2:T165	
+T167	Person-Name 1303 1306	春盈伯
+T168	Thing-Nominal 1309 1318	相伴数十年的货郎担
+R53	Ownership Arg1:T167 Arg2:T168	
+*	Coreference T168 T87 T169
+T169	Thing-Nominal 1343 1344	担
+T170	Thing-Nominal 1335 1336	风
+T171	Thing-Nominal 1338 1339	雨
+T172	Person-Name 1354 1358	镇长阿奎
+T173	Person-Name 1363 1366	春盈伯
+T174	Person-Nominal 1362 1372	像春盈伯这样孤寡老人
+T175	Location-Pronoun 1380 1381	谁
+T176	Person-Name 1388 1391	春盈伯
+T177	Person-Nominal 1401 1403	老人
+R54	Social Arg1:T172 Arg2:T173	
+T178	Location-Nominal 1410 1412	市街
+T179	Person-Pronoun 1414 1415	他
+T180	Person-Nominal 1451 1453	老人
+*	Coreference T180 T176
+T181	Time-Implicit 1433 1437	数十年来
+T182	Metric 1433 1436	数十年
+T183	Metric 1449 1451	几年
+T184	Person-Nominal 1458 1468	镇卫生院医生和乡亲们
+R55	Social Arg1:T184 Arg2:T180	
+T185	Person-Nominal 1473 1475	老人
+T186	Person-Nominal 1485 1494	一向开朗乐观的老人
+*	Coreference T186 T185 T189
+T187	Thing-Nominal 1515 1519	那张照片
+T188	Person-Nominal 1528 1530	人们
+T189	Person-Pronoun 1532 1533	他
+T190	Person-Nominal 1536 1538	亲人
+R56	Family Arg1:T190 Arg2:T189	
+T191	Person-Nominal 1540 1543	好心人
+T192	Person-Nominal 1549 1555	他在沪的堂弟
+R57	Family Arg1:T192 Arg2:T189	
+T193	Person-Pronoun 1557 1558	他
+*	Coreference T193 T192 T196
+T194	Person-Nominal 1562 1567	老人的儿子
+R58	Part-Whole Arg1:T194 Arg2:T190	
+T195	Time-Implicit 1568 1570	其时
+T196	Person-Nominal 1571 1573	堂弟
+T197	Person-Nominal 1571 1576	堂弟的妻儿
+R59	Family Arg1:T197 Arg2:T196	
+T198	Location-Name 1582 1584	上海
+T199	Time-Implicit 1591 1594	有一天
+T200	Person-Nominal 1599 1608	上海口音的中年男子
+T201	Person-Name 1611 1614	春盈伯
+T202	Person-Nominal 1619 1621	人们
+T203	Person-Nominal 1623 1634	春盈伯离散数十年的儿子
+*	Coreference T200 T203 T194 T208
+T204	Person-Nominal 1638 1640	父亲
+T205	Person-Name 1623 1626	春盈伯
+*	Coreference T204 T205
+T206	Person-Nominal 1642 1644	老人
+T207	Thing-Nominal 1650 1657	油将燃尽的油灯
+T208	Person-Nominal 1664 1666	儿子
+T209	Person-Nominal 1672 1674	老人
+T210	Thing-Nominal 1676 1681	一支强心针
+T211	Metric 1676 1678	一支
+T212	Thing-Nominal 1682 1684	油灯
+T213	Metric 1688 1690	两天
+T214	Person-Name 1695 1698	春盈伯
+T215	Time-Implicit 1706 1713	生命的最后时刻
+T216	Thing-Nominal 1717 1722	圆满的句号

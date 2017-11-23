@@ -1,0 +1,121 @@
+T1	Person-Pronoun 58 59	我
+T2	Location-Name 62 68	云南瑞丽坝子
+T3	Location-Pronoun 73 74	斯
+*	Coreference T3 T2 T4
+T4	Location-Name 77 79	瑞丽
+T5	Person-Pronoun 110 111	我
+T6	Time-Implicit 134 138	初中时候
+T7	Person-Name 140 143	席慕蓉
+T8	Time-Implicit 158 164	有月亮的夜晚
+T9	Time-Implicit 172 174	夜晚
+T10	Thing-Nominal 179 181	月儿
+T11	Time-Implicit 270 272	后来
+T12	Person-Name 274 277	余光中
+T13	Time-Implicit 281 284	小时候
+T14	Thing-Nominal 293 295	邮票
+T15	Person-Pronoun 296 297	你
+T16	Person-Pronoun 301 302	我
+*	Coreference T16 T12 T18
+T17	Person-Pronoun 322 323	你
+T18	Person-Pronoun 327 328	我
+T19	Person-Pronoun 339 340	我
+*	Coreference T19 T5 T20
+T20	Person-Pronoun 371 372	我
+T21	Person-Pronoun 380 381	我
+T22	Time-Implicit 370 379	在我不懂乡愁的时候
+T23	Location-Nominal 383 387	我的家乡
+T24	Person-Pronoun 408 409	我
+T25	Person-Pronoun 395 396	我
+T26	Location-Nominal 397 398	斯
+T27	Location-Nominal 388 401	这个生我于斯养我于斯的土地
+*	Coreference T26 T27 T23 T29 T30
+T28	Person-Nominal 420 422	自己
+*	Coreference T28 T24
+T29	Location-Name 467 469	瑞丽
+T30	Location-Nominal 542 551	一个边疆地区的城市
+T31	Location-Nominal 570 572	坝子
+T32	Location-Nominal 573 575	山野
+T33	Time-Implicit 588 591	小时候
+T34	Location-Name 595 597	瑞丽
+T35	Location-Nominal 607 608	家
+T36	Location-Nominal 609 611	学校
+T37	Thing-Nominal 657 661	泰国物品
+T38	Person-Nominal 667 669	父亲
+T39	Person-Pronoun 686 687	我
+R1	Family Arg1:T39 Arg2:T38	
+T40	Thing-Nominal 700 706	一款泰国短裙
+T41	Thing-Nominal 707 713	绿色的百褶裙
+*	Coreference T40 T41 T55
+T42	Thing-Nominal 726 733	一条细细的链子
+R2	Part-Whole Arg1:T42 Arg2:T41	
+T43	Metric 754 756	五块
+T44	Person-Pronoun 764 765	我
+T45	Person-Pronoun 766 768	同学
+T46	Person-Nominal 796 798	父亲
+*	Coreference T46 T38
+T47	Person-Pronoun 808 809	我
+T48	Organization-Nominal 816 818	医院
+T49	Organization-Nominal 822 824	医院
+T50	Person-Nominal 825 827	医生
+R3	Ownership Arg1:T50 Arg2:T49	
+T51	Person-Pronoun 834 835	我
+T52	Person-Nominal 843 844;845 846	爸 爸
+T53	Person-Pronoun 853 854	我
+T54	Thing-Nominal 862 864	裙子
+T55	Thing-Nominal 850 852	裙子
+T56	Location-Nominal 888 890	学校
+T57	Location-Nominal 915 925	穿过城中心的那条街道
+T58	Organization-Nominal 945 947	学校
+T59	Person-Pronoun 984 985	我
+T60	Person-Nominal 997 999	父亲
+T61	Person-Nominal 1003 1005	母亲
+T62	Location-Name 1023 1025	瑞丽
+T63	Person-Pronoun 1027 1028	我
+T64	Person-Pronoun 1038 1039	我
+T65	Location-Name 1054 1056	瑞丽
+T66	Person-Nominal 1059 1061	父亲
+T67	Location-Name 1064 1068	浙江绍兴
+T68	Metric 1075 1078	18岁
+T69	Location-Name 1081 1083	云南
+T70	Location-Name 1090 1092	贵州
+T71	Location-Nominal 1098 1100	家乡
+R4	Part-Whole Arg1:T65 Arg2:T69	
+*	Coreference T65 T71 T93
+T72	Location-Name 1108 1110	云南
+T73	Location-Name 1133 1135	贵州
+T74	Location-Name 1184 1186	贵州
+T75	Location-Name 1191 1193	江西
+T76	Location-Name 1194 1196	湖南
+T77	Person-Nominal 1207 1209	匪徒
+T78	Location-Name 1214 1216	中国
+T79	Location-Pronoun 1241 1242	它
+T80	Location-Nominal 1200 1204	这些省份
+T81	Location-Nominal 1214 1222	中国的红色根据地
+*	Coreference T80 T81 T79
+T84	Person-Pronoun 1265 1266	我
+T85	Location-Pronoun 1289 1291	她们
+T82	Location-Name 1259 1264	绍兴和瑞丽
+*	Coreference T82 T85 T83
+T83	Location-Nominal 1299 1303	两个城市
+T86	Location-Name 1342 1344	瑞丽
+T87	Location-Name 1379 1383	瑞丽坝子
+T88	Location-Name 1384 1386	姐告
+T89	Location-Nominal 1387 1391	傣族旧城
+*	Coreference T89 T88
+T90	Location-Nominal 1450 1454	南方城市
+T91	Location-Nominal 1472 1476	北方地区
+T92	Location-Name 1501 1503	云南
+T93	Location-Nominal 1570 1572	家乡
+T94	Location-Name 1575 1577	三峡
+T95	Location-Nominal 1578 1582	长江两岸
+T96	Person-Nominal 1593 1599	无数中外游客
+T97	Person-Pronoun 1603 1604	我
+T98	Location-Name 1611 1613	长江
+T99	Location-Name 1618 1622	瑞丽江边
+T100	Location-Name 1649 1653	长江之畔
+T101	Location-Name 1658 1662	瑞丽江边
+T102	Thing-Nominal 1662 1671	莽莽苍苍的原始森林
+T103	Person-Nominal 1682 1685	瑞丽人
+*	Coreference T101 T99
+*	Coreference T97 T103
+R5	Near Arg1:T98 Arg2:T100	

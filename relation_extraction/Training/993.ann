@@ -1,0 +1,353 @@
+T2	Thing-Nominal 7 8	水
+T3	Location-Name 3 5	涪江
+T1	Thing-Name 0 6	浪漫的涪江水
+T4	Thing-Nominal 12 13	水
+T5	Thing-Nominal 17 18	水
+T6	Thing-Nominal 24 25	水
+T7	Thing-Name 34 37	涪江水
+T8	Location-Nominal 42 45	两岸的
+T9	Thing-Nominal 48 63	茂密的森林，肥沃的田园、
+土地
+T10	Thing-Nominal 54 63	肥沃的田园、
+土地
+R1	Located Arg1:T9 Arg2:T8	
+R2	Located Arg1:T10 Arg2:T8	
+T12	Thing-Pronoun 64 65	这
+T13	Thing-Pronoun 67 68	你
+T14	Location-Name 75 77	涪江
+T15	Location-Pronoun 78 79	你
+*	Coreference T15 T14
+T16	Location-Pronoun 87 88	你
+T18	Thing-Nominal 95 97	鱼儿
+T19	Location-Nominal 97 99	水中
+T20	Thing-Nominal 106 120	鲤鱼、鲫鱼、乌鱼、乌龟、鲢鱼
+T22	Thing-Nominal 195 197	水鸟
+T23	Thing-Nominal 122 128	最活跃的鱼儿
+T24	Thing-Nominal 130 132	白条
+T25	Thing-Pronoun 133 134	它
+*	Coreference T25 T24
+T26	Thing-Nominal 148 156	匆匆流过的涪江水
+T27	Location-Nominal 164 167	两岸的
+T28	Thing-Nominal 180 182;183 192	河鸥 、野鸭、白鹭、鸳鸯
+T21	Person-Nominal 205 207	人们
+T30	Thing-Nominal 218 222	绵阳的山
+T31	Thing-Nominal 223 227	绵阳的水
+T32	Thing-Nominal 228 233	绵阳的山河
+T33	Location-Name 237 240	白云洞
+T34	Location-Name 246 250	桃花岛上
+T35	Thing-Name 254 258	南塔群楼
+T36	Thing-Name 262 266	气象大厦
+T37	Location-Name 267 269	涪城
+T38	Location-Nominal 246 253	桃花岛上会客厅
+T39	Location-Nominal 259 261	江岸
+T40	Location-Nominal 242 243;244 245	高 处
+T41	Location-Name 270 274	文化公园
+T42	Person-Name 274 277	邓稼先
+T43	Location-Name 294 298	一号桥上
+T44	Location-Name 286 290	蜀道高速
+T45	Location-Name 278 282	子云风光
+T46	Location-Nominal 302 304;305 307	情学 书屋
+T47	Location-Name 311 313	三江
+T48	Location-Name 315 318	科学城
+T49	Location-Name 319 326	滨河铁牛四王庙
+T50	Thing-Nominal 327 331	镇水铁牛
+T51	Thing-Nominal 332 334	皇楼
+T52	Location-Name 343 346	越王楼
+T53	Location-Name 349 351	涪城
+T54	Location-Name 352 354	涪江
+T55	Person-Nominal 357 359	人们
+T56	Thing-Nominal 364 372	银
+丝飘浮的烟雨
+T57	Thing-Nominal 378 381	水墨画
+T58	Location-Nominal 384 391	柳丝摇曳的江岸
+T59	Location-Pronoun 397 398	它
+*	Coreference T59 T54
+T60	Person-Nominal 409 411	爸爸
+T61	Person-Pronoun 399 400	我
+R8	Family Arg1:T60 Arg2:T61	
+T62	Person-Pronoun 412 413	我
+T63	Thing-Nominal 415 416	担
+R9	Use Arg1:T62 Arg2:T63	
+T65	Thing-Nominal 419 423	一座座山
+T66	Metric 425 426;427 429	一 道道
+T67	Thing-Nominal 429 430	岭
+T68	Location-Nominal 435 442	依山傍水的田园
+T69	Time-Implicit 431 433	立刻
+T70	Thing-Nominal 446 447	坡
+T71	Thing-Nominal 449 450	坎
+T72	Location-Name 462 464	涪江
+T75	Thing-Nominal 462 474	涪江岸边的一座县城的大街
+T77	Location-Nominal 462 466	涪江岸边
+T79	Location-Nominal 482 490	一道又一道
+小巷
+T80	Location-Name 496 499	涪江边
+T81	Location-Name 500 505	大鱼渡渡口
+R12	Near Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 509 511	曙光
+T83	Person-Nominal 513 515	爸爸
+T84	Person-Pronoun 516 517	我
+T85	Location-Nominal 513 520	爸爸和我的脸上
+T86	Time-Implicit 521 523	那时
+T87	Person-Pronoun 524 525	我
+T89	Metric 532 534	九岁
+T90	Person-Nominal 528 537	一个不到九岁的孩童
+T91	Time-Implicit 538 540	当时
+T92	Person-Pronoun 541 542	我
+T93	Thing-Nominal 550 552	木船
+T94	Location-Nominal 550 553	木船上
+T95	Thing-Nominal 558 559	担
+T96	Location-Nominal 563 565	船舱
+T97	Thing-Nominal 567 569	公粮
+T98	Thing-Nominal 581 582	汗
+T99	Thing-Nominal 583 584	雨
+T100	Person-Nominal 587 589	爸爸
+T102	Thing-Nominal 596 597	气
+T103	Time-Implicit 598 600	如今
+T104	Person-Nominal 603 605	人父
+T105	Person-Pronoun 606 607	我
+T106	Person-Nominal 612 614	母亲
+T107	Person-Pronoun 616 617	我
+R15	Family Arg1:T107 Arg2:T106	
+T108	Person-Nominal 620 622	父亲
+T109	Person-Pronoun 624 625	我
+T110	Thing-Nominal 625 627	骨骼
+T111	Thing-Nominal 617 619	血肉
+R16	Part-Whole Arg1:T111 Arg2:T107	
+R17	Family Arg1:T109 Arg2:T108	
+R18	Part-Whole Arg1:T110 Arg2:T109	
+T112	Person-Pronoun 629 630	我
+T113	Time-Implicit 637 639	这时
+T114	Person-Pronoun 640 641	我
+T115	Time-Implicit 648 652	下船之后
+T116	Person-Nominal 653 655	爸爸
+T117	Person-Pronoun 656 657	我
+T118	Thing-Nominal 659 660	担
+T119	Person-Pronoun 668 669	我
+T120	Person-Nominal 673 675	娃儿
+*	Coreference T120 T119
+T121	Person-Pronoun 686 687	你
+T122	Time-Implicit 705 708	这一夜
+T123	Person-Nominal 708 710	爸爸
+T124	Person-Pronoun 711 712	我
+T125	Metric 716 720	60余里
+T126	Thing-Nominal 713 714	汗
+R20	Family Arg1:T124 Arg2:T123	
+T127	Person-Pronoun 723 724	我
+T128	Time-Implicit 748 750	如今
+T129	Thing-Pronoun 762 763	它
+T130	Thing-Nominal 788 790	江水
+T131	Thing-Nominal 797 799	波涛
+T134	Person-Pronoun 810 811	你
+T135	Time-Explicit 814 818	70多年
+T136	Location-Name 819 821	涪江
+T137	Person-Pronoun 831 832	我
+T138	Thing-Nominal 841 842	风
+T139	Thing-Nominal 845 846	浪
+T140	Person-Pronoun 849 850	你
+T141	Location-Name 873 875	涪江
+T142	Location-Pronoun 879 880	你
+T143	Thing-Nominal 881 885	一河苦水
+T145	Location-Pronoun 886 887	你
+T146	Location-Nominal 888 896	埋葬穷苦人的坟场
+T147	Location-Pronoun 901 902	你
+T148	Location-Pronoun 908 909	你
+T149	Time-Implicit 920 927	60多年过去了
+T150	Location-Name 928 930	涪江
+T151	Time-Implicit 932 934	如今
+T152	Location-Pronoun 934 935	你
+*	Coreference T152 T150
+T153	Location-Pronoun 945 946	你
+T154	Location-Pronoun 955 956	你
+T155	Thing-Nominal 965 967	眼泪
+T156	Time-Explicit 971 973	今天
+T157	Location-Name 974 975;976 977	涪 江
+T158	Thing-Nominal 978 980	河鸥
+T159	Thing-Nominal 983 985	翅膀
+T160	Thing-Nominal 988 990	霞光
+R22	Part-Whole Arg1:T159 Arg2:T158	
+T161	Location-Pronoun 992 993	你
+T162	Thing-Nominal 998 1000	风帆
+T163	Person-Nominal 1001 1003	人们
+T164	Location-Pronoun 1006 1007	你
+T165	Thing-Nominal 1007 1009	江水
+T166	Location-Pronoun 1022 1023	你
+T167	Thing-Name 1030 1033	涪江水
+T168	Time-Implicit 1038 1041	几十年
+T169	Location-Name 1047 1050	涪江河
+T170	Location-Pronoun 1053 1054	你
+T171	Time-Implicit 1051 1053	如今
+*	Coreference T170 T169
+T172	Person-Nominal 1055 1059	涪江儿女
+T173	Location-Pronoun 1063 1064	你
+T174	Time-Explicit 1073 1077	30多年
+T175	Abstract 1078 1082	改革开放
+T176	Organization-Nominal 1083 1084	家
+T177	Organization-Nominal 1087 1088	国
+T178	Location-Name 1096 1097;1098 1099	涪 江
+T179	Location-Pronoun 1101 1102	你
+T180	Person-Nominal 1102 1110	一代又一代的儿女
+T181	Location-Pronoun 1113 1114	你
+T182	Person-Nominal 1132 1133	人
+T183	Location-Pronoun 1127 1128	你
+T184	Location-Pronoun 1135 1136	你
+T185	Location-Name 1140 1142	涪江
+T186	Location-Pronoun 1143 1145	!你
+T187	Location-Nominal 1146 1158;1159 1163	园林景观，绿景，楼景，江 景，桥景
+T188	Location-Nominal 1166 1173	都市的古典美景
+T189	Location-Pronoun 1175 1177	这里
+T190	Person-Nominal 1228 1235	少年宫的小朋友
+T191	Location-Nominal 1228 1231	少年宫
+T192	Location-Nominal 1243 1247	文化广场
+T193	Thing-Nominal 1243 1250	文化广场的喷泉
+R27	Located Arg1:T193 Arg2:T192	
+T194	Person-Nominal 1259 1261	女生
+T195	Location-Name 1274 1276	绵阳
+T196	Person-Nominal 1274 1278	绵阳人民
+T197	Thing-Nominal 1286 1288	流水
+T198	Thing-Name 1289 1292	涪江水
+T199	Time-Explicit 1302 1308	21世纪初叶
+T200	Location-Name 1309 1317	涪江岸边的绵阳城
+T201	Person-Pronoun 1331 1332	你
+T202	Person-Nominal 1333 1335	家人
+T203	Location-Name 1342 1356	涪
+江岸边的滨河长廊的大道上
+T205	Location-Nominal 1342 1356	涪
+江岸边的滨河长廊的大道上
+T207	Location-Nominal 1359 1363	古铜马旁
+T208	Thing-Nominal 1359 1366	古铜马旁的喷泉
+R30	Located Arg1:T208 Arg2:T207	
+T209	Location-Name 1377 1380	泗王庙
+T210	Location-Nominal 1377 1383	泗王庙前广场
+T211	Person-Nominal 1392 1394	市民
+T212	Location-Pronoun 1402 1404	这儿
+*	Coreference T212 T210
+T213	Person-Nominal 1405 1407	人们
+T214	Time-Explicit 1419 1422	一瞬间
+T215	Person-Nominal 1423 1425	歌手
+T216	Person-Nominal 1431 1433	人们
+T217	Person-Pronoun 1446 1447	你
+T218	Metric 1454 1456	百年
+T219	Thing-Nominal 1453 1459	那百年古榕树
+T220	Thing-Nominal 1467 1469	叶片
+T221	Thing-Nominal 1471 1477	那束束的阳光
+T222	Person-Pronoun 1480 1481	你
+T223	Person-Nominal 1487 1489	人父
+T224	Person-Nominal 1492 1494	人母
+T225	Person-Pronoun 1510 1511	你
+T226	Location-Name 1518 1521	步行街
+T227	Person-Pronoun 1534 1535	你
+T228	Thing-Nominal 1548 1550	椅子
+T229	Location-Nominal 1542 1551	整洁、干净的椅子上
+T230	Physical 1599 1607	医疗保险养老保险
+T231	Person-Name 1661 1664	胡锦涛
+T232	Organization-Name 1660 1670	以胡锦涛为首的党中央
+T233	Person-Nominal 1672 1674	人民
+T234	Person-Nominal 1689 1691	公民
+T235	Location-Name 1701 1703	绵阳
+T236	Person-Nominal 1701 1705	绵阳人民
+T237	Thing-Nominal 1726 1732	美好柔美月光
+T238	Location-Name 1737 1739	涪江
+T239	Thing-Nominal 1742 1750	无数条艳丽的光带
+T240	Person-Nominal 1771 1773	人们
+T241	Person-Nominal 1800 1802	自己
+T242	Thing-Nominal 1821 1828	一幅美丽的画卷
+T243	Organization-Name 1830 1831;1832 1836	中 国共产党
+T244	Time-Implicit 1838 1842	90华旦
+T245	Time-Explicit 1843 1851	建军84周年之际
+T247	Organization-Nominal 1853 1854	国
+T248	Time-Implicit 1854 1858	60多年
+T249	Organization-Nominal 1869 1871	祖国
+T250	Location-Nominal 1869 1876	祖国的神州大地
+T251	Physical 1877 1879	革命
+T252	Person-Nominal 1894 1896	自己
+T253	Person-Nominal 1916 1918	自己
+T254	Person-Name 1936 1939	胡锦涛
+T255	Location-Nominal 1935 1945	以胡锦涛为首的党中央
+T256	Organization-Nominal 1946 1949	企业军
+T258	Person-Nominal 1963 1965	自己
+T260	Thing-Nominal 1983 1992	生活之中的一场风雨
+T261	Thing-Nominal 1998 2000	曙光
+T262	Person-Nominal 2002 2004	自己
+T263	Location-Name 2005 2007	涪江
+T264	Thing-Nominal 2005 2009	涪江的水
+R6	Located Arg1:T264 Arg2:T263	
+T265	Time-Explicit 2016 2018	昨天
+T266	Time-Explicit 2022 2024	今天
+T267	Time-Explicit 2027 2029	昨天
+T268	Organization-Nominal 2032 2034	国家
+T269	Time-Implicit 2035 2039	几十年前
+T270	Organization-Nominal 2040 2042	祖国
+T271	Person-Nominal 2048 2050	国人
+T272	Person-Nominal 2052 2054	国人
+T274	Location-Name 2062 2064	南京
+T275	Location-Name 2068 2073	香港、澳门
+T276	Physical 2076 2079	殖民地
+T277	Location-Name 2082 2087	香港、澳门
+T278	Organization-Name 2090 2092	中国
+T279	Person-Nominal 2090 2094	中国人民
+T281	Organization-Name 2102 2104	中国
+T283	Location-Nominal 2111 2113	世界
+T284	Person-Nominal 2111 2115	世界人们
+T285	Thing-Name 2120 2122	天路
+T286	Location-Name 2124 2126	拉萨
+T287	Location-Name 2127 2131	三峡大坝
+T288	Location-Nominal 2133 2135	世界
+T291	Thing-Name 2141 2154	我国的大型护卫舰、航空母舰
+T292	Location-Name 2158 2162	南海邻国
+T293	Location-Nominal 2165 2167	海域
+T294	Location-Name 2168 2170	美国
+T295	Person-Name 2174 2180	世界国际警察
+T296	Location-Nominal 2182 2186	我国领海
+T298	Person-Nominal 2196 2197;2198 2200	老 祖宗
+T299	Location-Name 2203 2205	南海
+T302	Person-Pronoun 2212 2213	我
+T303	Time-Implicit 2212 2218	我国盛世之秋
+T304	Thing-Name 2220 2223	涪江水
+T305	Location-Name 2229 2231	渝川
+T306	Location-Name 2232 2234	嘉陵
+T307	Location-Name 2235 2237	长江
+T308	Location-Name 2238 2240	长江
+T309	Thing-Nominal 2241 2242	浪
+T310	Thing-Nominal 2244 2245	浪
+T311	Thing-Nominal 2247 2248	浪
+T312	Thing-Nominal 2251 2252	浪
+T314	Location-Name 2254 2261	涪江之岸的绵阳
+T316	Location-Nominal 2262 2272	一块宝地、圣地、福地
+T317	Person-Name 2273 2280;2281 2286	大禹、李白、陆 游、邓稼先
+T318	Person-Nominal 2287 2301	一代又一代名垂青史的伟人巨匠
+T319	Person-Nominal 2302 2308	大智慧的精英
+T320	Person-Nominal 2309 2313	热血男儿
+T321	Thing-Name 2314 2317	涪江水
+T322	Person-Nominal 2317 2325	匆匆而过的先辈们
+T323	Time-Explicit 2326 2328	如今
+T324	Person-Nominal 2328 2330	后人
+R5	Located Arg1:T18 Arg2:T19	
+T132	Person-Nominal 804 808	我的老爸
+*	Coreference T134 T132
+*	Coreference T179 T178
+T133	Location-Nominal 1211 1214	川西北
+T206	Organization-Nominal 1522 1524	商店
+T325	Metric 1988 1990	一场
+*	Coreference T12 T9 T11
+T11	Thing-Nominal 48 60;61 63	茂密的森林，肥沃的田园、 土地
+R3	Located Arg1:T11 Arg2:T8	
+T17	Location-Nominal 137 139	浅滩
+T29	Location-Name 218 220	绵阳
+T326	Location-Name 223 225	绵阳
+T327	Location-Nominal 228 230	绵阳
+R7	Located Arg1:T30 Arg2:T29	
+R21	Located Arg1:T31 Arg2:T326	
+R23	Located Arg1:T32 Arg2:T327	
+R32	Located Arg1:T35 Arg2:T39	
+R33	Part-Whole Arg1:T317 Arg2:T318	
+T273	Time-Explicit 2080 2082	如今
+R13	Located Arg1:T82 Arg2:T85	
+R31	Located Arg1:T97 Arg2:T96	
+R10	Located Arg1:T75 Arg2:T77	
+T73	Thing-Nominal 482 487;488 490	一道又一道 小巷
+T64	Time-Implicit 751 753	童年
+T74	Person-Nominal 890 893	穷苦人
+T76	Location-Name 897 899	涪江
+*	Coreference T147 T76
+T78	Thing-Nominal 1055 1062	涪江儿女的圣水
+T88	Location-Nominal 1342 1343;1344 1356	涪 江岸边的滨河长廊的大道上

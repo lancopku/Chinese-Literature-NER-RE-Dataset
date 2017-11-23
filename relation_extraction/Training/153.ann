@@ -1,0 +1,162 @@
+T1	Time-Implicit 0 2	清明
+T2	Location-Nominal 5 7	窗外
+T3	Thing-Nominal 28 30	蚕豆
+T4	Time-Implicit 32 37	年前的腊月
+T5	Time-Implicit 51 53	冬日
+T6	Person-Nominal 68 76	严寒下抗争的人们
+T7	Thing-Nominal 85 90	眼下的光景
+T8	Thing-Nominal 97 99	茎秆
+T9	Thing-Nominal 102 104	叶色
+T10	Location-Nominal 107 116	密层层的油厚的叶隙
+T11	Thing-Nominal 123 128	淡蓝的花儿
+R1	Located Arg1:T11 Arg2:T10	
+T12	Thing-Pronoun 130 132	它们
+T13	Thing-Nominal 143 144	蜂
+T14	Thing-Nominal 145 146	蝶
+T15	Person-Nominal 159 161	路人
+T16	Thing-Nominal 162 163	眼
+R2	Part-Whole Arg1:T16 Arg2:T15	
+*	Coreference T12 T11
+T17	Thing-Nominal 168 170	蚕豆
+T18	Person-Pronoun 175 176	你
+T19	Thing-Pronoun 178 179	它
+*	Coreference T19 T17
+T20	Person-Nominal 191 194	庄稼人
+T21	Thing-Nominal 197 198	脚
+R3	Part-Whole Arg1:T21 Arg2:T20	
+T22	Person-Nominal 199 201	母亲
+T23	Thing-Nominal 202 203	手
+T24	Thing-Nominal 204 207	蚕豆叶
+R4	Part-Whole Arg1:T23 Arg2:T22	
+T25	Location-Nominal 213 215	脸上
+T26	Thing-Nominal 223 225	蚕豆
+T27	Person-Pronoun 234 235	我
+T28	Thing-Nominal 240 241	手
+T29	Thing-Nominal 243 246	蚕豆叶
+T30	Thing-Nominal 253 258	淡蓝的花儿
+T31	Thing-Nominal 272 274	蜜蜂
+T32	Location-Nominal 275 278	豆叶间
+T33	Location-Nominal 279 282	花朵上
+T34	Thing-Pronoun 287 289	它们
+*	Coreference T34 T31
+T35	Thing-Pronoun 301 303	它们
+T36	Location-Nominal 322 324	地里
+T37	Person-Pronoun 325 326	我
+T38	Person-Nominal 333 335	祖母
+T39	Person-Pronoun 339 340	她
+*	Coreference T39 T38
+T40	Location-Nominal 343 345	地里
+T41	Thing-Nominal 352 354	柴灰
+T42	Location-Nominal 356 358	土窝
+R5	Located Arg1:T41 Arg2:T42	
+T43	Thing-Nominal 360 362	豆种
+T44	Location-Nominal 365 370	温暖的窝里
+R6	Located Arg1:T43 Arg2:T44	
+T45	Thing-Nominal 374 379	嫩绿的豆芽
+T46	Thing-Nominal 382 384	寒风
+T47	Thing-Pronoun 390 391	它
+*	Coreference T47 T45
+T48	Thing-Nominal 398 400	朔风
+T49	Person-Nominal 442 444	祖母
+T50	Person-Nominal 453 455	母亲
+T51	Thing-Nominal 458 460	田野
+T52	Person-Nominal 463 468	劳作的母亲
+T53	Person-Nominal 470 472	祖母
+T54	Person-Pronoun 478 480	她们
+T55	Person-Pronoun 487 488	我
+T56	Person-Pronoun 500 501	我
+T57	Time-Implicit 506 508	后来
+T58	Person-Pronoun 508 509	我
+T59	Person-Pronoun 514 516	她们
+T60	Person-Pronoun 517 518	我
+T61	Person-Pronoun 541 542	我
+T62	Person-Pronoun 554 555	我
+T63	Thing-Nominal 570 572	蚕豆
+T64	Time-Implicit 579 581	清明
+T65	Person-Pronoun 582 583	我
+T66	Thing-Nominal 587 592	故园的蚕豆
+T67	Location-Nominal 587 589	故园
+R7	Located Arg1:T66 Arg2:T67	
+T68	Thing-Nominal 594 596	蚕豆
+T69	Time-Implicit 594 600	蚕豆成熟时节
+T70	Person-Nominal 601 603	祖母
+T71	Thing-Nominal 606 608	面条
+T72	Thing-Nominal 611 613	青豆
+T73	Location-Nominal 614 620	青花的海碗里
+T74	Thing-Nominal 624 625;626 627	面 条
+T75	Thing-Nominal 631 633	豆子
+T76	Location-Nominal 637 639	碗底
+T77	Thing-Nominal 642 647	金黄的鸡蛋
+R8	Located Arg1:T77 Arg2:T76	
+T78	Person-Nominal 658 660	祖母
+T79	Thing-Nominal 662 664	海碗
+T80	Thing-Nominal 674 675	碗
+T81	Person-Nominal 678 680	母亲
+T82	Person-Nominal 681 683	母亲
+T83	Thing-Nominal 688 691	这碗面
+T84	Thing-Nominal 692 694	北鲲
+T85	Thing-Nominal 707 709	蚕豆
+T86	Time-Implicit 712 716	许多年前
+T87	Location-Name 718 720	深圳
+T88	Person-Pronoun 721 722	我
+T89	Organization-Nominal 723 725	报社
+T90	Organization-Nominal 726 729	杂志社
+T91	Thing-Nominal 739 741	病腿
+T92	Location-Nominal 757 759	街头
+T93	Person-Pronoun 760 761	我
+T94	Time-Implicit 772 775	这时候
+T95	Thing-Nominal 779 783	蚕豆面条
+T96	Person-Pronoun 776 777	我
+T97	Person-Pronoun 791 792	我
+T98	Thing-Nominal 794 795	泪
+T99	Person-Pronoun 809 810	我
+T100	Thing-Nominal 811 815	蚕豆面条
+T101	Location-Nominal 816 821	遥远的异乡
+T102	Person-Pronoun 832 833	我
+T103	Person-Pronoun 844 845	我
+T104	Person-Nominal 850 853	很多人
+T105	Person-Pronoun 854 855	我
+T106	Person-Nominal 860 862	母亲
+T107	Time-Implicit 867 869	清明
+T108	Thing-Nominal 872 874	蚕豆
+T109	Thing-Nominal 876 878	豆荚
+T110	Time-Implicit 888 893	今年的立夏
+T111	Person-Nominal 898 900	游子
+T112	Person-Nominal 905 907	母亲
+T113	Thing-Nominal 913 918	思念的泪水
+T114	Person-Name 921 924	周火雄
+T115	Person-Nominal 925 930	自由撰稿人
+T116	Time-Explicit 932 937	1990年
+T117	Metric 951 954	数百篇
+T118	Metric 956 962	200余万字
+T119	Thing-Nominal 965 970	国内外报刊
+T120	Abstract 990 996	《青年文学》
+T121	Abstract 996 1000	《散文》
+T122	Abstract 1000 1006	《散文百家》
+T123	Abstract 1006 1012	《散文世界》
+T124	Abstract 1012 1018	《散文天地》
+T125	Abstract 1018 1022	《莽原》
+T126	Abstract 1022 1028	《长江文艺》
+T127	Abstract 1028 1035	《大时代文学》
+T128	Abstract 1035 1042;1043 1044	《长江文学丛刊 》
+T129	Abstract 1044 1048	《雨花》
+T130	Abstract 1048 1054	《湖南文学》
+T131	Abstract 1054 1058	《草原》
+T132	Abstract 1058 1062	《飞天》
+T133	Abstract 1062 1068	《人民日报》
+T134	Abstract 1068 1074	《大江文艺》
+T135	Thing-Nominal 1075 1081	50余种报刊
+T136	Organization-Name 1084 1091	中国文联出版社
+T137	Abstract 1093 1102	《皂荚青，皂荚黄》
+T138	Abstract 1104 1113	《外婆家的桥头湾》
+T139	Abstract 1115 1135	《徜徉在故乡山水间――周火雄散文自选集》
+T140	Abstract 1141 1150	《皂荚青，皂荚黄》
+T141	Abstract 1151 1159	《又见长江雪落》
+T142	Abstract 1160 1164;1165 1166	《祖母祭 》
+T143	Abstract 1168 1181	《中学生魅力阅读。高中卷》
+T144	Abstract 1182 1191	《语文教学与研究》
+T145	Abstract 1192 1207	《2009年全国精短美文精选》
+T146	Abstract 1207 1217	《散文百家十年精选》
+T147	Abstract 1224 1225;1226 1231	《 散文选刊》
+T148	Metric 1239 1243	20余次
+T149	Person-Nominal 1253 1261	中国作家协会会员

@@ -1,0 +1,187 @@
+T1	Person-Pronoun 1 2	我
+T2	Thing-Nominal 3 5	衣柜
+T3	Location-Nominal 1 6	我的衣柜里
+T4	Thing-Nominal 13 21	一条陈旧的马褡子
+R1	Located Arg1:T4 Arg2:T3	
+T5	Person-Nominal 24 31	戎马一生的父亲
+R2	Family Arg1:T5 Arg2:T1	
+T6	Thing-Nominal 24 37	戎马一生的父亲临终前的馈赠
+T7	Thing-Nominal 38 41	马褡子
+T8	Metric 43 46	1米5
+T9	Metric 49 53	60公分
+T10	Thing-Nominal 55 60	土黄色帆布
+T11	Thing-Nominal 66 68	边条
+*	Coreference T6 T4 T7 T30 T31 T38
+R3	Part-Whole Arg1:T11 Arg2:T7	
+T12	Person-Nominal 81 84	邮递员
+T13	Thing-Nominal 70 75	2个大袋子
+R4	Located Arg1:T13 Arg2:T11	
+T14	Thing-Nominal 87 90	电动车
+T15	Thing-Nominal 87 92	电动车座架
+R5	Part-Whole Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 94 98	邮政信包
+R6	Located Arg1:T16 Arg2:T15	
+T17	Person-Nominal 100 102	父亲
+*	Coreference T17 T5
+T18	Thing-Nominal 110 111	床
+T19	Time-Implicit 112 115	病重时
+T20	Person-Pronoun 116 117	我
+T21	Location-Nominal 119 126	千里之外的军营
+T22	Person-Nominal 134 136	父亲
+T23	Location-Nominal 136 139	床榻前
+T24	Person-Nominal 142 144	父亲
+T25	Person-Pronoun 159 160	我
+T26	Person-Nominal 188 190	父亲
+T27	Person-Pronoun 192 196	我们兄妹
+R7	Family Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 198 225	晶亮的功勋荣誉章、斜背式牛皮公文包、大红烫金学习笔记本
+T29	Person-Pronoun 230 231	我
+R8	Family Arg1:T27 Arg2:T29	
+T30	Thing-Nominal 235 240	这条马褡子
+T31	Thing-Nominal 242 245	马褡子
+T32	Person-Nominal 246 248	父亲
+T33	Time-Implicit 248 253	战争年代的
+T34	Time-Implicit 261 263	如今
+T35	Thing-Nominal 264 269	战争的硝烟
+T36	Person-Nominal 274 276	父亲
+T37	Person-Pronoun 278 279	您
+*	Coreference T37 T36
+T38	Thing-Nominal 280 287	这陈旧的马褡子
+T39	Person-Pronoun 289 290	我
+T40	Person-Pronoun 295 296	我
+T41	Person-Nominal 301 303	母亲
+T42	Person-Pronoun 305 306	我
+T43	Person-Nominal 307 314	出身贫苦的父亲
+*	Coreference T43 T32 T51
+T44	Organization-Nominal 321 325	革命队伍
+T45	Organization-Name 327 330	新四军
+T46	Location-Name 332 334	苏北
+T47	Location-Name 337 339	黄桥
+T48	Thing-Nominal 348 350	左膀
+R9	Part-Whole Arg1:T48 Arg2:T43	
+T49	Thing-Nominal 351 354	马褡子
+T50	Person-Nominal 355 357	首长
+R10	Social Arg1:T50 Arg2:T43	
+T51	Person-Nominal 359 361;362 365	残疾 的父亲
+T52	Thing-Nominal 373 382	棉被衣物、文件资料
+T53	Time-Implicit 383 388	行军出发时
+T54	Thing-Nominal 395 397	马背
+T55	Person-Nominal 402 404	父亲
+T56	Thing-Nominal 402 410	父亲的这条马褡子
+*	Coreference T56 T49 T59 T78 T112 T81 T134 T155
+T57	Thing-Nominal 413 416	战利品
+R11	General-Special Arg1:T57 Arg2:T56	
+T58	Person-Nominal 418 421	战士们
+T59	Thing-Nominal 435 448	日军驮运枪炮弹药的马背褡子
+T60	Organization-Nominal 435 437	日军
+T61	Thing-Nominal 456 458	布料
+T62	Time-Implicit 471 473	现在
+T63	Time-Implicit 477 480	宿营时
+T64	Thing-Nominal 484 485	床
+T65	Location-Nominal 484 486	床上
+T66	Thing-Nominal 489 491	垫被
+R12	Located Arg1:T66 Arg2:T65	
+T67	Location-Nominal 494 496	身上
+T68	Thing-Nominal 500 503	小被子
+R13	Located Arg1:T68 Arg2:T67	
+T69	Time-Implicit 505 509	建国初期
+T70	Person-Nominal 510 512	父亲
+T71	Organization-Name 513 520	上海基建工程兵
+T72	Person-Nominal 523 525	首长
+T73	Thing-Nominal 533 535	假臂
+T74	Person-Nominal 546 548	父亲
+T75	Thing-Nominal 566 568	左臂
+T76	Person-Nominal 582 591	过惯了苦日子的父亲
+*	Coreference T76 T55
+T77	Organization-Nominal 595 597	公家
+T78	Thing-Nominal 609 619	见证艰苦生活的马褡子
+T79	Time-Implicit 620 625	上海的冬夜
+T80	Person-Nominal 633 635	父亲
+T81	Thing-Pronoun 638 639	它
+T82	Person-Nominal 645 647	父亲
+T83	Person-Nominal 649 655	我们兄妹5个
+T84	Thing-Nominal 665 671	父亲的旧军衣
+T85	Person-Nominal 665 667	父亲
+R14	Ownership Arg1:T85 Arg2:T84	
+T86	Person-Nominal 677 679	大哥
+T87	Person-Nominal 685 687	二哥
+T88	Person-Nominal 691 695	大哥二哥
+R15	Family Arg1:T86 Arg2:T85	
+R16	Family Arg1:T83 Arg2:T82	
+R17	Family Arg1:T87 Arg2:T86	
+R18	Family Arg1:T88 Arg2:T85	
+T89	Person-Nominal 700 702	父亲
+T90	Thing-Nominal 709 711	衣服
+T91	Person-Nominal 719 722	男孩子
+R19	General-Special Arg1:T91 Arg2:T88	
+T92	Thing-Nominal 730 731	书
+T93	Person-Nominal 732 733	人
+T94	Person-Nominal 748 750	大哥
+T95	Organization-Name 752 757	南昌铁路局
+T96	Thing-Nominal 758 760	二哥
+T97	Organization-Name 762 766;767 768	北京新华 社
+T98	Person-Pronoun 771 773	自己
+*	Coreference T98 T88
+T99	Person-Pronoun 786 787	我
+T100	Time-Implicit 787 789	小时
+T101	Person-Nominal 803 805	父亲
+T102	Person-Pronoun 812 813	我
+T103	Organization-Nominal 818 820	部队
+T104	Location-Nominal 822 826	东北边陲
+T105	Thing-Nominal 834 836	粗粮
+T106	Person-Pronoun 837 838	我
+T107	Person-Nominal 837 843	我这个南方兵
+T108	Person-Nominal 858 860	母亲
+T109	Thing-Nominal 864 869	香肠和罐头
+T110	Person-Nominal 870 872	父亲
+T111	Person-Pronoun 880 881	你
+*	Coreference T111 T106
+T112	Thing-Nominal 904 909	父亲的遗物
+T113	Person-Nominal 912 914	父亲
+R20	Ownership Arg1:T113 Arg2:T112	
+T114	Person-Pronoun 918 919	我
+T115	Person-Nominal 935 937	父亲
+T116	Person-Nominal 947 954	重病在身的父亲
+*	Coreference T116 T115
+T117	Person-Pronoun 964 965	我
+T118	Person-Nominal 966 968	父亲
+T119	Thing-Nominal 971 974	马褡子
+T120	Person-Pronoun 979 980	我
+T121	Person-Nominal 1000 1005	生活的强者
+T122	Person-Nominal 1007 1009	父亲
+T123	Person-Pronoun 1010 1011	我
+T124	Person-Nominal 1019 1021	父亲
+T125	Person-Pronoun 1023 1024	我
+T126	Thing-Nominal 1027 1032	手中的银子
+T127	Thing-Nominal 1035 1040	心中的金子
+T128	Location-Nominal 1043 1045	世界
+T129	Person-Nominal 1051 1053	适者
+T130	Person-Nominal 1056 1058	弱者
+T131	Thing-Nominal 1064 1065	舟
+T132	Thing-Nominal 1062 1063	水
+T133	Person-Nominal 1072 1073	人
+T134	Thing-Nominal 1087 1093	父亲的马褡子
+T135	Person-Pronoun 1096 1097	我
+T136	Metric 1109 1124	二十个春花秋月、七千个日日夜夜
+T137	Location-Nominal 1127 1129	军营
+T138	Location-Nominal 1136 1140	东北边陲
+T139	Location-Nominal 1141 1143;1144 1146	东南 沿海
+T140	Location-Nominal 1148 1152	水乡泽国
+T141	Location-Nominal 1153 1157	深山老林
+T142	Metric 1168 1171	2个月
+T143	Metric 1176 1180	50公斤
+T144	Person-Pronoun 1185 1186	我
+T145	Abstract 1196 1203	中越边境反击战
+T146	Thing-Nominal 1207 1211	作战物资
+T147	Metric 1216 1218	半月
+T148	Thing-Nominal 1220 1225	2件作训服
+T149	Metric 1220 1222	2件
+T150	Metric 1236 1240	3天2夜
+T151	Location-Nominal 1249 1252	老鹰谷
+T152	Person-Nominal 1262 1263	人
+T153	Metric 1273 1276	几十年
+T154	Person-Nominal 1284 1286	父亲
+T155	Thing-Nominal 1297 1302	父亲马褡子
+T156	Person-Nominal 1309 1310	我
+T157	Person-Nominal 1328 1330	父亲
+T158	Person-Pronoun 1331 1332	我

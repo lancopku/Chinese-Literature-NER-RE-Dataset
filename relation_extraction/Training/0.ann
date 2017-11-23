@@ -1,0 +1,189 @@
+T1	Person-Name 20 26	宋代诗人高翥
+T2	Person-Pronoun 108 109	我
+T4	Time-Implicit 0 2	清明
+T6	Person-Nominal 7 9	先人
+T7	Time-Implicit 64 68	清明之时
+T8	Time-Implicit 3 17	人们祭扫先人，怀念追思的日子
+T9	Time-Explicit 20 22	宋代
+T11	Person-Name 113 115	陈毅
+T12	Person-Nominal 144 146	母亲
+T13	Person-Nominal 173 175	母亲
+T15	Person-Nominal 197 199	奶奶
+T16	Person-Nominal 210 212	母亲
+T3	Person-Nominal 96 98	母亲
+T5	Person-Nominal 81 83	母亲
+T10	Person-Nominal 233 235	母亲
+T14	Person-Nominal 236 238	老人
+T17	Person-Nominal 243 245	晚辈
+T18	Person-Pronoun 262 263	我
+T19	Person-Nominal 276 278	母亲
+T20	Person-Nominal 303 305	母亲
+T21	Person-Pronoun 297 298	我
+T22	Person-Nominal 316 318	母亲
+T23	Person-Pronoun 340 341	我
+T24	Person-Nominal 347 349	母亲
+T25	Person-Pronoun 363 365	我们
+T26	Person-Nominal 395 399	我家兄妹
+T27	Person-Nominal 438 440	母亲
+T28	Person-Nominal 441 442	人
+T30	Person-Nominal 490 492	母亲
+T31	Person-Nominal 513 523	老共产党员的大队干部
+T32	Person-Nominal 524 530	我唯一的叔叔
+T33	Person-Nominal 547 549	母亲
+T34	Person-Pronoun 558 559	她
+T35	Person-Nominal 564 566	叔叔
+T36	Person-Pronoun 571 573	我们
+T37	Person-Nominal 576 578	叔叔
+T38	Person-Nominal 610 612	母亲
+T39	Person-Nominal 632 636	我家邻居
+T42	Person-Pronoun 708 709	我
+T43	Person-Nominal 715 717	父亲
+T44	Person-Nominal 723 725	母亲
+T45	Person-Pronoun 746 747	我
+T48	Person-Nominal 776 778	父亲
+T49	Person-Pronoun 794 795	他
+T50	Person-Pronoun 798 799	我
+T51	Person-Nominal 815 817	母亲
+T52	Person-Pronoun 843 844	我
+T53	Person-Nominal 847 849	母亲
+T54	Person-Pronoun 875 876	我
+T55	Person-Nominal 883 885	母亲
+T56	Person-Nominal 891 894	子女们
+T57	Person-Nominal 896 898	自己
+T59	Person-Nominal 916 919	子女们
+T60	Person-Pronoun 922 923	我
+T61	Person-Nominal 925 927	母亲
+T62	Person-Nominal 949 953	五虎两凤
+T63	Person-Nominal 954 963	我兄弟5人姐妹2人
+T64	Person-Nominal 986 988	母亲
+T65	Person-Pronoun 1003 1004;1005 1006	我 们
+T66	Person-Nominal 1007 1009	母亲
+T67	Person-Nominal 1013 1015	三弟
+T68	Person-Pronoun 1017 1018	我
+T69	Person-Pronoun 1018 1019	他
+T70	Person-Nominal 1022 1024	母亲
+T71	Person-Pronoun 1032 1033	我
+T72	Person-Nominal 1035 1037	母亲
+T73	Person-Pronoun 1047 1048	我
+T74	Person-Nominal 1096 1097	母
+T75	Person-Nominal 1120 1122	母亲
+R1	Coreference Arg1:T5 Arg2:T3	
+R2	Coreference Arg1:T3 Arg2:T12	
+T76	Time-Implicit 425 428	有一年
+T78	Person-Nominal 164 169	穷人的孩子
+*	Coreference T12 T78 T13
+T77	Person-Nominal 179 181	姥姥
+T79	Thing-Nominal 116 118	幽兰
+T80	Location-Nominal 119 121	山谷
+R3	Located Arg1:T79 Arg2:T80	
+T81	Person-Nominal 3 5	人们
+T29	Person-Nominal 455 457	父亲
+T82	Person-Nominal 598 600	我家
+T83	Person-Nominal 615 617	别人
+T84	Person-Nominal 628 631	有钱的
+T87	Person-Nominal 689 691	我家
+T88	Person-Nominal 697 701	地富家庭
+T89	Person-Pronoun 731 733	他们
+T46	Person-Nominal 768 770	父母
+R4	Family Arg1:T13 Arg2:T77	
+T47	Time-Implicit 185 188	16岁
+T90	Time-Implicit 192 196	没有几年
+R5	Family Arg1:T13 Arg2:T15	
+R6	Family Arg1:T10 Arg2:T14	
+R7	Family Arg1:T10 Arg2:T17	
+T91	Person-Nominal 225 227	邻里
+R8	Social Arg1:T16 Arg2:T91	
+T92	Organization-Nominal 253 254	村
+T93	Time-Implicit 37 39	清明
+T94	Thing-Nominal 49 52	白蝴蝶
+T95	Thing-Nominal 57 60	红杜鹃
+T96	Time-Implicit 263 267	小的时候
+T97	Time-Implicit 272 276	每天晚上
+T98	Thing-Nominal 293 296	破衣服
+R9	Family Arg1:T2 Arg2:T3	
+R10	Family Arg1:T18 Arg2:T19	
+R11	Family Arg1:T21 Arg2:T20	
+T99	Time-Implicit 340 346	我醒来的时候
+T100	Location-Nominal 352 354	山里
+T101	Thing-Nominal 355 356	草
+R12	Family Arg1:T23 Arg2:T24	
+T102	Thing-Nominal 370 372	早饭
+T103	Time-Explicit 375 381	人民公社时期
+T104	Organization-Nominal 382 384	农村
+*	Coreference T25 T26
+R13	Family Arg1:T25 Arg2:T24	
+T105	Thing-Nominal 413 415	口粮
+T106	Organization-Nominal 429 432	生产队
+R14	Family Arg1:T27 Arg2:T29	
+T107	Thing-Nominal 463 465	小麦
+T108	Time-Implicit 472 474	晚上
+R15	Family Arg1:T27 Arg2:T26	
+T109	Time-Implicit 498 500	明天
+T110	Thing-Nominal 503 504	钱
+*	Coreference T31 T32
+R16	Family Arg1:T31 Arg2:T30	
+R17	Family Arg1:T30 Arg2:T29	
+T111	Thing-Nominal 536 538	小麦
+T112	Organization-Nominal 541 544	生产队
+R18	Family Arg1:T32 Arg2:T33	
+*	Coreference T34 T33
+R19	Family Arg1:T35 Arg2:T34	
+R20	Family Arg1:T36 Arg2:T35	
+R21	Family Arg1:T37 Arg2:T36	
+T113	Time-Implicit 585 587	年终
+T114	Organization-Nominal 588 591	生产队
+R22	Family Arg1:T38 Arg2:T83	
+*	Coreference T39 T83 T84
+T40	Person-Nominal 645 651	我父亲和叔叔
+T41	Person-Nominal 659 667	老党员和基层干部
+*	Coreference T40 T41
+T85	Time-Explicit 669 688	“以阶级斗争为纲”和“唯成分论”的年代
+R23	Family Arg1:T42 Arg2:T43	
+R24	Family Arg1:T44 Arg2:T43	
+*	Coreference T89 T88
+R25	Social Arg1:T89 Arg2:T44	
+T86	Location-Name 756 760	西北金昌
+R26	Family Arg1:T45 Arg2:T46	
+*	Coreference T48 T49
+R27	Family Arg1:T50 Arg2:T49	
+T115	Thing-Nominal 45 47	纸灰
+T116	Thing-Nominal 53 55	泪血
+T117	Thing-Nominal 34 36	墓田
+T118	Location-Nominal 29 33	南北山头
+T119	Time-Implicit 173 179	母亲11岁时
+R28	Located Arg1:T117 Arg2:T118	
+*	Coreference T4 T8 T7
+T120	Time-Implicit 1129 1131	两年
+T121	Person-Nominal 1134 1136	父亲
+T122	Person-Nominal 1138 1140	母亲
+T123	Person-Pronoun 1146 1148	我们
+R29	Family Arg1:T121 Arg2:T122	
+R30	Family Arg1:T122 Arg2:T123	
+T124	Person-Nominal 1151 1153	父亲
+T125	Time-Implicit 1156 1160	次年清明
+T126	Person-Pronoun 1161 1162	我
+T127	Person-Nominal 1165 1167	父母
+T128	Location-Name 1172 1174	金昌
+T129	Location-Name 1180 1182	兰州
+R31	Family Arg1:T56 Arg2:T55	
+*	Coreference T57 T55 T58 T61
+T58	Person-Nominal 905 912	古稀之年的母亲
+T130	Person-Pronoun 1220 1221	我
+T131	Person-Nominal 1246 1248	双亲
+T132	Person-Nominal 1295 1297	爹娘
+T133	Person-Nominal 1303 1305	孩崽
+T134	Person-Nominal 1307 1309;1310 1312	兄弟 姐妹
+T135	Person-Nominal 1316 1318	父母
+T136	Time-Explicit 1334 1338	癸巳清明
+T137	Person-Pronoun 1339 1340	我
+T138	Person-Nominal 1344 1346	父母
+T139	Person-Pronoun 1351 1352	我
+T140	Person-Nominal 1354 1356	父母
+T141	Person-Nominal 1369 1371	儿女
+R32	Family Arg1:T140 Arg2:T141	
+R33	Family Arg1:T137 Arg2:T138	
+R34	Family Arg1:T132 Arg2:T133	
+R35	Family Arg1:T133 Arg2:T134	
+R36	Family Arg1:T134 Arg2:T135	
+T142	Location-Nominal 1183 1185	车上
+T143	Time-Explicit 995 1000	1996年

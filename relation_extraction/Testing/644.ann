@@ -1,0 +1,490 @@
+T1	Time-Implicit 1 13	一个莺飞草长的春天的上午
+T2	Person-Name 14 18	侄儿印刚
+T3	Person-Pronoun 19 20	我
+T4	Person-Pronoun 21 22	他
+*	Coreference T4 T2
+R1	Family Arg1:T3 Arg2:T2	
+T5	Location-Name 25 27	淮河
+T6	Thing-Nominal 30 31	蚬
+T7	Time-Implicit 32 34	这天
+*	Coreference T7 T1 T25
+T8	Thing-Nominal 34 36	天气
+T9	Thing-Nominal 40 42	晴空
+T10	Metric 42 44	万里
+T11	Thing-Nominal 45 47	艳阳
+T12	Thing-Nominal 50 55	和煦的春风
+T13	Thing-Nominal 57 59	淮柳
+T14	Person-Pronoun 63 65	我们
+T15	Thing-Nominal 67 72	一条小木船
+T16	Metric 67 69	一条
+T17	Thing-Nominal 76 77	蚬
+T18	Thing-Nominal 75 82	钩蚬的铁制蚬钩
+R2	Use Arg1:T14 Arg2:T18	
+T19	Person-Pronoun 83 84	他
+T20	Thing-Nominal 85 88	小木船
+R3	Use Arg1:T19 Arg2:T20	
+R4	Use Arg1:T14 Arg2:T15	
+T21	Location-Nominal 90 103	淮河里的一个转弯处的河中间
+T22	Person-Nominal 109 111	二叔
+T23	Person-Pronoun 105 106	我
+*	Coreference T22 T23
+T24	Person-Pronoun 112 114	我们
+T25	Time-Implicit 114 118	今天上午
+T26	Location-Pronoun 120 121;122 123	这 里
+*	Coreference T26 T21
+T27	Thing-Nominal 124 125	蚬
+T28	Person-Pronoun 128 129	我
+T29	Location-Nominal 131 139	这段河底下泥土里
+T30	Thing-Nominal 144 148	许多蚬子
+R5	Located Arg1:T30 Arg2:T29	
+T31	Person-Pronoun 150 151	他
+T32	Thing-Nominal 153 156	小木船
+R6	Use Arg1:T31 Arg2:T32	
+T33	Location-Nominal 157 160	河中心
+T34	Thing-Nominal 164 174	一把十多公斤重的铁锚
+T35	Metric 164 166	一把
+T36	Metric 166 170	十多公斤
+*	Coreference T20 T15
+T37	Thing-Nominal 181 182;183 184	小 船
+*	Coreference T37 T32
+T38	Location-Nominal 176 178	河底
+R7	Located Arg1:T34 Arg2:T38	
+T39	Location-Nominal 189 192	河水中
+R8	Located Arg1:T37 Arg2:T39	
+T40	Person-Pronoun 195 197	我们
+T41	Thing-Nominal 200 202	小船
+T42	Thing-Nominal 205 210	自制的蚬钩
+*	Coreference T42 T18
+T43	Location-Nominal 211 214	河水里
+T44	Thing-Nominal 215 217	蚬子
+T45	Thing-Nominal 219 222	淮河蚬
+T46	Location-Nominal 226 233	淮河水底泥土里
+R9	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 236 242	贝类软体动物
+R10	General-Special Arg1:T47 Arg2:T45	
+T48	Metric 244 249	二十多公分
+T49	Metric 251 255	二三公分
+T50	Time-Implicit 259 261	平时
+T51	Thing-Pronoun 262 263	它
+T52	Location-Nominal 270 278	水底泥土的小洞中
+R11	Located Arg1:T51 Arg2:T52	
+T53	Thing-Nominal 280 284	两片贝壳
+T54	Metric 280 282	两片
+R12	Part-Whole Arg1:T53 Arg2:T51	
+T55	Thing-Nominal 292 294	食物
+T56	Thing-Nominal 297 299	营养
+T57	Thing-Nominal 302 304	蚬子
+T58	Person-Pronoun 310 312	我们
+T59	Thing-Nominal 313 321	一尺的钩条或钢筋
+R13	Use Arg1:T58 Arg2:T59	
+T60	Thing-Pronoun 323 324	它
+T61	Thing-Nominal 329 333	一个小钩
+T62	Thing-Nominal 323 327	它的下端
+*	Coreference T60 T59
+R14	Create Arg1:T58 Arg2:T61	
+T63	Thing-Nominal 336 338	小钩
+*	Coreference T63 T61
+T64	Metric 329 331	一个
+T65	Thing-Nominal 348 350	上端
+R15	Part-Whole Arg1:T62 Arg2:T60	
+R16	Part-Whole Arg1:T65 Arg2:T60	
+T66	Thing-Nominal 352 359	一根长长的竹杆
+T67	Metric 352 354	一根
+T68	Thing-Nominal 361 363	河水
+T69	Thing-Nominal 365 369	用的竹杆
+R17	General-Special Arg1:T69 Arg2:T66	
+T70	Time-Implicit 374 377	钩蚬时
+T71	Thing-Nominal 375 376	蚬
+T72	Thing-Nominal 381 386	带钩的竹杆
+*	Coreference T72 T66
+T73	Location-Nominal 388 393	河水的底层
+T74	Thing-Nominal 398 400	铁钩
+T75	Thing-Nominal 405 410	张开的蚬壳
+T76	Location-Nominal 405 411	张开的蚬壳里
+T77	Thing-Nominal 412 414	贝壳
+T78	Thing-Nominal 419 421	铁钩
+T79	Time-Implicit 424 426	这时
+T80	Person-Nominal 426 429	钩蚬人
+T81	Thing-Nominal 434 439	手中的铁钩
+*	Coreference T81 T74
+T82	Time-Implicit 447 449	这时
+T83	Thing-Nominal 449 451	铁钩
+T84	Thing-Nominal 455 457	蚬壳
+T85	Thing-Nominal 467 469	蚬钩
+*	Coreference T85 T83
+T86	Location-Nominal 470 473	河水中
+T87	Location-Nominal 475 477	水面
+T88	Thing-Nominal 479 481	铁钩
+T89	Thing-Nominal 484 486	蚬子
+T90	Thing-Nominal 493 495	蚬钩
+T91	Location-Nominal 497 500	河水中
+T92	Thing-Nominal 509 511	蚬子
+T93	Person-Name 513 517	侄儿印刚
+T94	Person-Nominal 519 522	淮河通
+R18	General-Special Arg1:T94 Arg2:T93	
+T95	Person-Pronoun 523 524	他
+T96	Time-Implicit 526 530	一年四季
+T97	Location-Name 534 536	淮河
+T98	Location-Name 539 541	淮河
+T99	Thing-Nominal 543 544	鱼
+T100	Thing-Nominal 546 547	虾
+T101	Thing-Nominal 549 551	黄沙
+T102	Thing-Nominal 553 555	蚬子
+T103	Person-Nominal 556 559	乡亲们
+T104	Person-Pronoun 561 562	他
+T105	Person-Nominal 563 572	捕鱼捉虾钩蚬的能手
+R19	General-Special Arg1:T105 Arg2:T104	
+T106	Time-Implicit 574 577	这几年
+T107	Person-Pronoun 578 579	他
+T108	Thing-Nominal 582 583	鱼
+T109	Thing-Nominal 585 587	蚬子
+T110	Person-Nominal 592 600	两个上大学的儿子
+R20	Family Arg1:T110 Arg2:T107	
+T111	Thing-Nominal 602 608	春天的淮河水
+T112	Time-Implicit 602 604	春天
+T113	Time-Implicit 609 611	夏天
+T114	Thing-Nominal 616 621	两岸的柳树
+T115	Location-Nominal 616 618	两岸
+R21	Located Arg1:T114 Arg2:T115	
+T116	Thing-Nominal 636 645	几艘满载货物的航船
+T117	Metric 636 638	几艘
+T118	Thing-Nominal 648 654	隆隆的马达声
+T119	Location-Nominal 655 658	河水中
+R22	Located Arg1:T118 Arg2:T119	
+T120	Thing-Nominal 659 660	风
+T121	Thing-Nominal 661 662	浪
+T122	Thing-Pronoun 672 673	这
+T123	Person-Pronoun 677 679	我们
+T124	Thing-Nominal 680 681	蚬
+T125	Thing-Nominal 682 684	河蚬
+T126	Thing-Nominal 686 688	洞穴
+T127	Location-Nominal 686 689	洞穴里
+R23	Located Arg1:T125 Arg2:T127	
+T128	Thing-Nominal 693 698	行走的航船
+T129	Thing-Pronoun 702 704	它们
+*	Coreference T129 T125 T124 T130
+T130	Thing-Nominal 706 709	淮河蚬
+T131	Location-Name 710 712	淮河
+T132	Thing-Nominal 710 718	淮河里的独特产物
+R24	General-Special Arg1:T132 Arg2:T130	
+T133	Thing-Nominal 719 721	蚬肉
+R25	Part-Whole Arg1:T133 Arg2:T130	
+T134	Thing-Pronoun 732 733	它
+*	Coreference T134 T133 T140 T142
+T135	Thing-Nominal 744 755	丰富蛋白质和各种维生素
+R26	Located Arg1:T135 Arg2:T134	
+T136	Location-Name 760 762	淮河
+T137	Time-Implicit 768 770	春天
+T138	Thing-Nominal 768 775	春天的淮河蚬肉
+R27	General-Special Arg1:T133 Arg2:T138	
+T139	Person-Nominal 783 784;785 788	当 地厨师
+T140	Thing-Nominal 790 794	淮河蚬肉
+T141	Thing-Nominal 820 822	蚬汤
+T142	Thing-Nominal 836 839	这蚬肉
+T143	Thing-Nominal 842 845;846 851	嫩可口 的美味佳淆
+R28	General-Special Arg1:T143 Arg2:T142	
+T144	Person-Nominal 852 859	淮河两岸的人们
+T145	Thing-Nominal 862 866	淮河蚬肉
+T146	Thing-Nominal 867 868	菜
+R29	General-Special Arg1:T144 Arg2:T139	
+R30	Use Arg1:T144 Arg2:T145	
+R31	Create Arg1:T144 Arg2:T146	
+T147	Person-Nominal 870 872	客人
+R32	Social Arg1:T147 Arg2:T144	
+T148	Person-Name 875 879	侄儿印刚
+T149	Person-Nominal 881 886	钩蚬的能手
+R33	General-Special Arg1:T149 Arg2:T148	
+T150	Person-Pronoun 889 890	他
+*	Coreference T150 T148
+T151	Thing-Nominal 891 896	长长的竹杆
+R34	Use Arg1:T150 Arg2:T151	
+T152	Location-Nominal 899 901	河底
+T153	Thing-Nominal 909 913	一只蚬子
+T154	Metric 909 911	一只
+T155	Metric 918 921	两三丈
+T156	Thing-Nominal 918 925	两三丈深的河水
+T157	Thing-Nominal 929 931	蚬子
+T158	Metric 934 940	大约两个小时
+T159	Person-Pronoun 941 942	他
+T160	Metric 949 953	五百多只
+T161	Location-Nominal 944 946	河底
+T162	Thing-Nominal 949 957	五百多只淮河蚬子
+T163	Person-Pronoun 959 960	他
+T164	Thing-Nominal 959 965	他钩上的蚬子
+T165	Location-Nominal 970 972	集市
+R35	General-Special Arg1:T164 Arg2:T162	
+T166	Thing-Nominal 976 981	一公斤蚬肉
+T167	Thing-Nominal 983 987	五六元钱
+T168	Metric 983 986	五六元
+T169	Metric 976 979	一公斤
+T170	Thing-Nominal 974 975	钱
+T171	Time-Implicit 989 991	春天
+T172	Person-Pronoun 992 993	他
+T173	Thing-Nominal 999 1004	两大筐蚬子
+T174	Time-Implicit 993 995	每天
+T175	Metric 999 1002	两大筐
+T176	Time-Implicit 1005 1008	第二天
+T177	Location-Nominal 1010 1012	集市
+T178	Thing-Nominal 1018 1019;1020 1023	六 十元钱
+T179	Metric 1017 1019;1020 1022	五六 十元
+T180	Thing-Nominal 1035 1039	一方水土
+T181	Person-Nominal 1040 1042	一方
+T182	Person-Nominal 1047 1051	两个儿子
+T183	Person-Pronoun 1045 1046	他
+R36	Family Arg1:T182 Arg2:T183	
+*	Coreference T182 T110 T188
+T184	Organization-Nominal 1054 1056	大学
+T185	Person-Pronoun 1057 1058	他
+T186	Thing-Nominal 1062 1063	蚬
+T187	Thing-Nominal 1064 1065	鱼
+T188	Person-Nominal 1066 1069	两儿子
+T189	Location-Name 1074 1076	淮河
+T190	Thing-Nominal 1078 1079	蚬
+T191	Thing-Nominal 1086 1091	和煦的阳光
+T192	Location-Nominal 1093 1096	河水里
+T193	Thing-Nominal 1098 1107	一层层银白色的光亮
+R37	Located Arg1:T193 Arg2:T192	
+T194	Person-Pronoun 1108 1110	我们
+T195	Thing-Nominal 1112 1114	小船
+T196	Thing-Nominal 1116 1118	小船
+T197	Thing-Nominal 1120 1125	微微的春风
+T198	Location-Nominal 1126 1129	河水中
+T199	Thing-Nominal 1093 1095	河水
+T200	Thing-Nominal 1126 1128	河水
+T201	Location-Nominal 1151 1153	仙境
+T202	Thing-Nominal 1157 1159	木船
+T203	Location-Nominal 1157 1160	木船上
+T204	Location-Nominal 1112 1115	小船上
+T205	Thing-Nominal 1163 1164	蚬
+T206	Thing-Nominal 1176 1183	美丽的淮河风光
+T207	Thing-Nominal 1186 1188	淮水
+T208	Time-Implicit 1192 1194	同时
+T209	Location-Name 1198 1200	淮河
+T210	Location-Nominal 1198 1201	淮河里
+T211	Thing-Nominal 1203 1207	一只蚬子
+T212	Metric 1203 1205	一只
+T213	Time-Implicit 1224 1226	同时
+T214	Time-Implicit 1228 1231	钩蚬时
+T215	Thing-Nominal 1244 1248	淮河流水
+*	Coreference T215 T207 T221
+T216	Location-Name 1256 1258	淮河
+T217	Thing-Nominal 1259 1268	一条轻柔碧绿的玉带
+T218	Metric 1259 1261	一条
+T219	Location-Nominal 1272 1281	豫南大地的山城水乡
+T220	Location-Name 1272 1276	豫南大地
+T221	Thing-Nominal 1288 1291	淮河水
+T222	Person-Nominal 1294 1316;1317 1320	万万千千身强力壮、智慧聪颖勤劳勇敢的豫南男女 的乡民
+T223	Time-Implicit 1322 1325	半晌午
+T224	Thing-Nominal 1329 1336	一条钩蚬的小船
+T225	Metric 1329 1331	一条
+T226	Thing-Nominal 1337 1338	船
+T227	Location-Nominal 1337 1339	船上
+T228	Person-Nominal 1341 1350	两位手拿蚬钩的老者
+T229	Metric 1341 1343	两位
+T230	Thing-Nominal 1345 1347	蚬钩
+T231	Person-Pronoun 1351 1353	他们
+*	Coreference T231 T228 T238
+T232	Thing-Nominal 1354 1356	小船
+*	Coreference T232 T226 T224
+T233	Thing-Nominal 1358 1363	我们的小船
+T234	Person-Pronoun 1358 1360	我们
+T235	Thing-Nominal 1367 1369	小船
+T236	Location-Name 1379 1381	淮河
+T237	Thing-Nominal 1385 1386	蚬
+T238	Person-Pronoun 1396 1398	自己
+T239	Time-Implicit 1405 1407	这时
+T240	Person-Nominal 1408 1415	一位姓沈的老者
+T241	Location-Nominal 1416 1418	河底
+T242	Thing-Nominal 1420 1424	一只蚬子
+T243	Person-Pronoun 1425 1426	他
+*	Coreference T243 T240 T258 T369
+T244	Thing-Nominal 1427 1429	铁钩
+R38	Use Arg1:T243 Arg2:T244	
+R39	Use Arg1:T228 Arg2:T230	
+T245	Time-Implicit 1425 1435	他从铁钩上取下蚬子时
+T246	Person-Pronoun 1436 1438	我们
+T247	Thing-Nominal 1432 1434	蚬子
+T248	Person-Pronoun 1441 1443	你们
+*	Coreference T248 T246
+T249	Time-Implicit 1444 1446	平时
+T250	Thing-Nominal 1450 1452	蚬子
+T251	Thing-Nominal 1454 1456	蚬肉
+T252	Thing-Nominal 1458 1460	蚬汤
+T253	Thing-Nominal 1462 1464	蚬子
+R40	Use Arg1:T248 Arg2:T251	
+R41	Use Arg1:T248 Arg2:T252	
+T254	Thing-Nominal 1465 1466	钱
+R42	Use Arg1:T248 Arg2:T254	
+T255	Thing-Nominal 1471 1475	这淮河蚬
+T256	Thing-Nominal 1477 1484	一个美丽的传说
+T257	Thing-Nominal 1396 1404	自己的故事或见闻
+T258	Person-Pronoun 1489 1490	他
+T259	Thing-Nominal 1493 1494	蚬
+T260	Person-Pronoun 1497 1499	我们
+T261	Thing-Nominal 1502 1504	淮蚬
+*	Coreference T261 T250 T44 T27 T45 T51
+T262	Thing-Nominal 1502 1504;1505 1508	淮蚬 的传说
+T263	Time-Implicit 1509 1511	从前
+T264	Person-Name 1513 1520	一户姓苟的船民
+T265	Location-Name 1523 1525	淮河
+T266	Thing-Nominal 1526 1527	船
+T267	Person-Nominal 1534 1536	妻子
+T268	Person-Nominal 1537 1543	一个呆傻的儿
+T269	Location-Nominal 1531 1533	家里
+R43	Family Arg1:T267 Arg2:T264	
+R44	Family Arg1:T268 Arg2:T267	
+R45	Family Arg1:T268 Arg2:T264	
+T270	Person-Name 1545 1549	妻子王氏
+*	Coreference T270 T267 T286 T300
+T271	Person-Nominal 1561 1564	傻儿子
+*	Coreference T271 T268
+T272	Metric 1564 1565;1566 1570	二 十五六岁
+T273	Person-Nominal 1575 1577	老婆
+T274	Thing-Nominal 1581 1582	钱
+T275	Person-Nominal 1584 1597	一个十四岁姓蔡的穷人的女孩
+T276	Metric 1584 1586	一个
+T277	Metric 1586 1589	十四岁
+T278	Person-Nominal 1598 1601	童养媳
+T279	Person-Nominal 1603 1608	苟家童养媳
+*	Coreference T279 T275 T281 T282
+T280	Person-Nominal 1611 1613	人们
+T281	Person-Pronoun 1615 1616	她
+T282	Person-Name 1616 1618	蔡妮
+T283	Person-Pronoun 1619 1620	她
+T284	Thing-Nominal 1622 1627	苟家的大船
+T285	Location-Nominal 1622 1628	苟家的大船上
+T286	Person-Name 1630 1634	婆婆王氏
+T287	Person-Pronoun 1636 1637	她
+T288	Person-Nominal 1638 1640	丫鬟
+T289	Time-Implicit 1643 1645	每天
+T290	Person-Pronoun 1646 1647	她
+T291	Thing-Nominal 1648 1649	火
+T292	Thing-Nominal 1650 1651	饭
+T293	Thing-Nominal 1653 1654	衣
+T294	Thing-Nominal 1656 1657	船
+T295	Thing-Nominal 1659 1660	纤
+T296	Person-Name 1667 1669	蔡妮
+T297	Person-Nominal 1671 1678	勤劳善良的女孩
+R46	General-Special Arg1:T297 Arg2:T296	
+T298	Person-Pronoun 1679 1680	她
+T299	Time-Implicit 1693 1695	平时
+T300	Person-Nominal 1703 1710	心狠手辣的婆婆
+T301	Person-Name 1719 1721	蔡妮
+T302	Time-Implicit 1737 1741	一天傍晚
+T303	Person-Name 1742 1744	蔡妮
+T304	Thing-Nominal 1746 1748	面条
+T305	Thing-Nominal 1751 1753	食盐
+R47	Create Arg1:T303 Arg2:T304	
+T306	Person-Pronoun 1760 1761	她
+T307	Thing-Nominal 1763 1766	临帮船
+T308	Thing-Nominal 1769 1771	食盐
+T309	Thing-Nominal 1772 1773	锅
+T310	Person-Pronoun 1774 1775	他
+*	Coreference T310 T306
+T311	Thing-Nominal 1777 1780	临帮船
+T312	Location-Nominal 1763 1768	临帮船上去
+T313	Location-Nominal 1777 1781	临帮船上
+T314	Person-Name 1785 1789	婆婆王氏
+T315	Person-Nominal 1792 1800	临船上的一位男子
+R48	Social Arg1:T315 Arg2:T314	
+T316	Metric 1796 1798	一位
+T317	Person-Name 1803 1805	蔡妮
+T318	Person-Name 1818 1822	婆婆王氏
+T319	Person-Name 1826 1828	蔡妮
+T320	Person-Name 1831 1833	王氏
+*	Coreference T320 T318 T326 T328
+T321	Thing-Nominal 1835 1838	临家船
+T322	Location-Nominal 1835 1839	临家船里
+T323	Person-Nominal 1842 1844	丈夫
+*	Coreference T323 T264
+T324	Person-Nominal 1850 1852	丈夫
+T325	Person-Name 1853 1855	王氏
+T326	Person-Nominal 1863 1865	婆婆
+T327	Person-Name 1876 1878	蔡妮
+T328	Person-Pronoun 1880 1882	自己
+T329	Person-Pronoun 1887 1889	自己
+T330	Person-Nominal 1895 1897	公公
+*	Coreference T330 T324
+T331	Time-Implicit 1903 1908	第二天上午
+R49	Family Arg1:T327 Arg2:T325	
+R50	Family Arg1:T327 Arg2:T324	
+R51	Family Arg1:T327 Arg2:T271	
+T332	Person-Name 1908 1910	蔡妮
+T333	Person-Nominal 1915 1917	婆婆
+T334	Person-Pronoun 1919 1920	她
+T335	Location-Nominal 1938 1940	河里
+T336	Thing-Nominal 1940 1945	这么多的水
+R52	Located Arg1:T336 Arg2:T335	
+T337	Thing-Nominal 1945 1946	船
+T338	Location-Nominal 1966 1968	船里
+T339	Thing-Nominal 1966 1967	船
+T340	Thing-Nominal 1970 1977	一把锋利的菜刀
+T341	Metric 1970 1972	一把
+R53	Use Arg1:T333 Arg2:T340	
+T342	Person-Name 1979 1981	蔡妮
+T343	Thing-Nominal 1984 1985	船
+T344	Location-Nominal 1984 1986	船上
+T345	Person-Name 1992 1994	蔡妮
+T346	Person-Pronoun 1996 1997	她
+T347	Thing-Nominal 1996 2000	她的舌头
+R54	Part-Whole Arg1:T347 Arg2:T346	
+*	Coreference T346 T345 T352 T354
+T348	Person-Pronoun 2026 2027	我
+T349	Location-Name 2006 2008	淮河
+T350	Location-Nominal 2006 2008	淮河
+*	Coreference T348 T333
+T351	Thing-Nominal 2029 2033	你的舌头
+T352	Person-Pronoun 2034 2035	你
+T353	Person-Nominal 1932 1937	没用的东西
+*	Coreference T353 T334
+T354	Person-Nominal 2018 2025	多嘴多舌的东西
+T355	Person-Name 2049 2051	王氏
+T356	Time-Implicit 2049 2066	王氏割下蔡妮的舌头扔到淮河里的时候
+T357	Thing-Nominal 2053 2058	蔡妮的舌头
+*	Coreference T357 T351 T347
+T358	Person-Name 2053 2055	蔡妮
+T359	Location-Name 2060 2062	淮河
+T360	Location-Nominal 2069 2072	河底下
+T361	Thing-Nominal 2073 2077	一只河蚬
+R55	Located Arg1:T361 Arg2:T360	
+T362	Thing-Nominal 2081 2085	两个贝壳
+R56	Part-Whole Arg1:T362 Arg2:T361	
+T363	Thing-Nominal 2086 2091	蔡妮的舌头
+T364	Person-Name 2086 2088	蔡妮
+T365	Thing-Nominal 2098 2100	贝壳
+T366	Location-Nominal 2098 2101	贝壳中
+*	Coreference T365 T362
+T367	Thing-Nominal 2107 2112	蔡妮的舌头
+T368	Thing-Nominal 2116 2121	淮蚬的肉体
+T369	Person-Name 2122 2124	沈老
+T370	Thing-Nominal 2127 2129	故事
+T371	Thing-Nominal 2131 2135	一只淮蚬
+T372	Metric 2131 2133	一只
+T373	Thing-Nominal 2140 2142	贝壳
+T374	Thing-Nominal 2143 2147	那块蚬肉
+T375	Location-Nominal 2140 2143	贝壳里
+R57	Located Arg1:T374 Arg2:T375	
+T376	Person-Pronoun 2150 2152	你们
+T377	Thing-Nominal 2154 2158	这块蚬肉
+*	Coreference T377 T374
+T378	Thing-Nominal 2161 2165	人的舌头
+T379	Person-Pronoun 2168 2169	我
+T380	Thing-Nominal 2173 2174	蚬
+T381	Thing-Nominal 2182 2184	蚬肉
+T382	Thing-Nominal 2193 2197	人的舌头
+T383	Thing-Nominal 2201 2205	这个故事
+T384	Time-Implicit 2210 2212	中午
+T385	Person-Name 2213 2217	侄儿印刚
+T386	Thing-Nominal 2220 2229	满满一大篮子淮河蚬
+T387	Metric 2222 2226	一大篮子
+T388	Person-Pronoun 2230 2231	他
+T389	Person-Pronoun 2237 2238	我
+T390	Thing-Nominal 2240 2244	这筐河蚬
+*	Coreference T390 T386
+T391	Time-Implicit 2244 2246	明天
+T392	Location-Nominal 2248 2250	集上
+T393	Thing-Nominal 2256 2259;2260 2262	五六十 元钱
+T394	Metric 2256 2259;2260 2261	五六十 元
+T395	Location-Nominal 1010 1013	集市上
+T396	Location-Nominal 970 973	集市上
+*	Coreference T395 T392

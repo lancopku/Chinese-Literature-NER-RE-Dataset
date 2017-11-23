@@ -1,0 +1,156 @@
+T1	Person-Pronoun 0 1	你
+T2	Person-Pronoun 2 3	我
+T3	Person-Nominal 2 6	我的情人
+*	Coreference T1 T3
+T4	Person-Pronoun 8 9	你
+T5	Person-Nominal 15 19	我的妻子
+R1	Family Arg1:T2 Arg2:T5	
+T6	Time-Implicit 21 23	那时
+T7	Person-Pronoun 24 25	我
+T8	Person-Nominal 29 33	懵懂少年
+*	Coreference T7 T8
+T9	Location-Nominal 42 46	师范校园
+T10	Location-Nominal 78 80	江山
+T11	Person-Nominal 104 106	叔叔
+T12	Person-Pronoun 107 108	你
+T13	Person-Pronoun 111 112	我
+R2	Family Arg1:T13 Arg2:T11	
+R3	Social Arg1:T2 Arg2:T1	
+T14	Thing-Nominal 132 133	马
+T15	Thing-Nominal 138 140	峡谷
+T16	Thing-Nominal 141 142;143 144	山 洪
+T17	Thing-Nominal 146 148	江河
+T18	Location-Nominal 149 152	泄洪区
+T19	Time-Implicit 166 168	那时
+T20	Person-Nominal 169 171	叔叔
+T21	Location-Nominal 175 179	偏僻乡镇
+T22	Organization-Nominal 184 187	文化局
+T23	Person-Pronoun 190 191	你
+R4	Social Arg1:T23 Arg2:T20	
+R5	Social Arg1:T11 Arg2:T12	
+T24	Person-Pronoun 206 207	他
+*	Coreference T24 T20
+T25	Person-Pronoun 208 209	你
+T26	Thing-Nominal 208 212	你的玉照
+R6	Ownership Arg1:T25 Arg2:T26	
+T27	Person-Pronoun 238 239	我
+T28	Person-Name 249 252	贾宝玉
+T29	Person-Name 256 259	林妹妹
+R7	Family Arg1:T28 Arg2:T29	
+T30	Location-Nominal 295 297	教室
+T31	Location-Nominal 310 312	校园
+T32	Thing-Nominal 319 321	小鸟
+T33	Person-Pronoun 332 333	你
+T34	Time-Explicit 342 346	师范三年
+T35	Location-Nominal 355 357	邮局
+T36	Thing-Nominal 368 370	信筒
+R8	Located Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 395 396	信
+T38	Thing-Nominal 399 400	石
+T39	Thing-Nominal 401 403	大海
+T40	Person-Pronoun 408 409	你
+T41	Person-Nominal 421 423	同学
+T42	Person-Pronoun 424 425	我
+T43	Person-Pronoun 427 428	我
+R9	Social Arg1:T41 Arg2:T42	
+T44	Person-Pronoun 430 431	我
+T45	Person-Pronoun 441 442	我
+T46	Person-Pronoun 447 448	我
+T47	Person-Pronoun 451 452	你
+T48	Time-Implicit 456 457;458 460	有 一天
+T49	Location-Nominal 461 463	家乡
+T50	Person-Pronoun 470 471	我
+T51	Thing-Pronoun 482 483	她
+T52	Person-Pronoun 486 487	我
+T53	Thing-Nominal 488 490	热泪
+T54	Person-Pronoun 502 503	你
+T55	Person-Pronoun 504 505	我
+T56	Organization-Nominal 522 526	边远小学
+T57	Person-Pronoun 551 552	你
+T58	Person-Pronoun 581 582	你
+T59	Thing-Nominal 602 605	天鹅肉
+T60	Thing-Nominal 609 610	刀
+T61	Person-Nominal 625 627	姑娘
+T62	Person-Pronoun 629 630	我
+T63	Person-Pronoun 631 632	你
+T64	Thing-Nominal 633 634	藕
+T65	Thing-Nominal 639 640	袖
+T66	Person-Nominal 648 652	大龄青年
+*	Coreference T62 T66
+T67	Person-Nominal 653 655	母亲
+R10	Family Arg1:T66 Arg2:T67	
+T68	Person-Nominal 668 670	妻子
+R11	Family Arg1:T68 Arg2:T66	
+T69	Person-Pronoun 671 672	她
+*	Coreference T69 T68
+T70	Person-Pronoun 681 682	我
+R12	Family Arg1:T69 Arg2:T70	
+T71	Person-Pronoun 687 688	我
+T72	Person-Pronoun 692 693	你
+T73	Thing-Nominal 706 707	衣
+T74	Thing-Nominal 708 709	饭
+T75	Person-Pronoun 715 716	我
+T76	Person-Pronoun 728 729	你
+T77	Person-Pronoun 733 734	你
+T78	Person-Nominal 737 739	我俩
+T79	Person-Nominal 749 751	我妻
+T80	Person-Pronoun 760 761	你
+T81	Person-Pronoun 761 762	我
+T82	Metric 770 773	二十年
+T83	Person-Pronoun 779 780	我
+T84	Person-Pronoun 781 782	你
+T85	Person-Pronoun 805 807	我们
+T86	Person-Pronoun 814 816	他们
+T87	Person-Pronoun 836 837	你
+T88	Person-Pronoun 844 845	我
+T89	Person-Pronoun 873 875	他们
+T90	Thing-Nominal 797 801	爱情结晶
+R13	Create Arg1:T86 Arg2:T90	
+T91	Thing-Nominal 882 884	长城
+T92	Person-Nominal 890 891;892 893	人 民
+T93	Thing-Nominal 905 907	泥牛
+T94	Thing-Nominal 908 909	海
+T95	Person-Pronoun 914 915	我
+T96	Person-Pronoun 918 919	我
+T97	Person-Pronoun 928 929	你
+T98	Person-Pronoun 943 944	我
+T99	Person-Pronoun 950 951	我
+T100	Person-Pronoun 959 960	我
+T101	Thing-Nominal 980 981	信
+T102	Organization-Nominal 996 997	家
+T103	Thing-Nominal 1014 1016	照片
+T104	Time-Implicit 1068 1070	如今
+T105	Person-Pronoun 1071 1072	我
+T106	Thing-Nominal 1079 1082	公交车
+T107	Person-Nominal 1085 1087	有人
+T108	Thing-Nominal 1088 1089	座
+R14	Social Arg1:T105 Arg2:T107	
+T109	Person-Pronoun 1090 1091	你
+T110	Thing-Nominal 1097 1099	衣带
+T111	Person-Pronoun 1117 1118	你
+T112	Person-Nominal 1119 1121	织女
+T113	Person-Pronoun 1170 1171	你
+T114	Location-Nominal 1208 1210	闹市
+T115	Time-Implicit 1239 1245	夜深人静之时
+T116	Person-Pronoun 1260 1261	你
+T117	Person-Pronoun 1276 1277	你
+T118	Person-Nominal 1278 1282	我的情人
+*	Coreference T117 T118
+T119	Thing-Nominal 1284 1287	百合花
+T120	Person-Pronoun 1294 1295	你
+T121	Person-Pronoun 1304 1305	我
+T122	Person-Name 1320 1322	刀郎
+T123	Person-Pronoun 1336 1337	我
+T124	Thing-Nominal 1338 1340	眼睛
+R15	Part-Whole Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 1344 1346	喉咙
+R16	Part-Whole Arg1:T125 Arg2:T123	
+T126	Person-Pronoun 1364 1365	你
+T127	Person-Nominal 1366 1370	我的情人
+*	Coreference T126 T127
+T128	Thing-Nominal 1382 1384	楼群
+T129	Thing-Nominal 1385 1386	鼓
+T130	Person-Pronoun 1409 1410	你
+T131	Person-Pronoun 1415 1416	我
+T132	Person-Nominal 1415 1419	我的情人
+*	Coreference T130 T132

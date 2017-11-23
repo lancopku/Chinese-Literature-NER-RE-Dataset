@@ -1,0 +1,140 @@
+T1	Person-Pronoun 2 3	谁
+T2	Thing-Nominal 4 13	一张老三届的毕业照
+T3	Thing-Nominal 17 23	难得的收藏品
+T4	Time-Implicit 25 27	当时
+T5	Person-Pronoun 53 54	谁
+T6	Organization-Nominal 72 76	我们学校
+T7	Person-Pronoun 72 74	我们
+R1	Ownership Arg1:T7 Arg2:T6	
+T8	Person-Nominal 95 97	各人
+T9	Thing-Nominal 103 106	毕业卡
+T10	Thing-Nominal 111 113	尾巴
+T11	Person-Pronoun 113 115	各自
+T12	Location-Nominal 117 118	山
+T13	Location-Nominal 119 120	乡
+T14	Thing-Nominal 123 125	鸟兽
+T15	Time-Explicit 128 139	1966年“文革”开始
+T16	Person-Nominal 140 142	大家
+T17	Metric 161 164	几十年
+T18	Time-Explicit 168 175	七十年代末以来
+T19	Person-Nominal 197 200	老三届
+T20	Metric 238 242	45周年
+T21	Person-Nominal 268 273	老三届人群
+T22	Time-Implicit 277 278	今
+T23	Location-Nominal 286 289	此山中
+T24	Thing-Nominal 283 285	“身
+R2	Located Arg1:T24 Arg2:T23	
+T25	Person-Pronoun 294 295	我
+T26	Person-Nominal 297 309	老三届高1967级的一员
+*	Coreference T26 T25
+T27	Person-Nominal 314 316	记者
+T28	Person-Nominal 318 320	作家
+T29	Person-Nominal 326 332	老三届及知青
+T30	Person-Nominal 336 340;341 342	一批同龄 人
+T31	Thing-Nominal 345 354	“青春无悔”的旗帜
+T32	Thing-Nominal 355 358	这旗帜
+*	Coreference T32 T31
+T33	Person-Pronoun 380 381	我
+T34	Time-Implicit 400 402	当年
+T35	Thing-Nominal 412 416	苍茫大地
+T36	Person-Pronoun 416 417	谁
+T37	Person-Nominal 424 428	同学少年
+T38	Thing-Nominal 442 443	血
+T39	Thing-Nominal 444 445	肉
+T40	Thing-Nominal 448 450	热血
+T41	Thing-Nominal 456 457	身
+T42	Time-Implicit 458 460	后来
+T43	Person-Name 466 469	辛弃疾
+T44	Person-Nominal 485 488	老三届
+T45	Time-Implicit 507 516	世纪之交的那个夏天
+T46	Person-Nominal 517 524	我们年级的同学
+T47	Time-Implicit 525 530	30年之后
+T48	Location-Name 536 547	川南母校富顺县第二中学
+T49	Thing-Nominal 548 550	校园
+T50	Thing-Nominal 550 553	那山丘
+T51	Thing-Name 554 557	十字岭
+*	Coreference T51 T50 T52
+T52	Thing-Pronoun 563 564	它
+T53	Thing-Nominal 568 571	十字路
+T54	Thing-Nominal 573 576	十字架
+T55	Person-Nominal 577 578	人
+T56	Time-Implicit 596 598	后来
+T57	Person-Pronoun 598 599	我
+T58	Person-Nominal 600 604	一些朋友
+R3	Social Arg1:T58 Arg2:T57	
+T59	Person-Pronoun 607 608	谁
+T60	Person-Nominal 619 628;629 630	我们年级两个班的同 学
+T61	Person-Pronoun 517 519	我们
+T62	Person-Pronoun 619 621	我们
+T63	Time-Implicit 631 633	当时
+T64	Person-Nominal 651 654	老三届
+T65	Person-Nominal 683 689;690 703	那些也曾天真 活泼很快未老先衰先亡的同学
+T66	Thing-Nominal 704 706	这病
+T67	Thing-Nominal 706 708	那病
+T68	Person-Nominal 718 721	老三届
+T69	Thing-Pronoun 727 728	它
+T70	Person-Pronoun 758 759	我
+T71	Person-Nominal 765 767	知青
+T72	Location-Nominal 832 834	城市
+T73	Location-Nominal 836 838	都市
+T76	Person-Nominal 887 890	这些人
+T74	Person-Nominal 845 878;879 886	占老三届、知青群体大多数的小城镇学生以及被叫做“回青(回乡知识青年 )”的农村学生
+*	Coreference T76 T74
+T75	Person-Nominal 908 913	未老先衰者
+T77	Person-Pronoun 915 917	我们
+T78	Person-Nominal 921 926	哀悼的对象
+T79	Person-Nominal 934 937	老三届
+T80	Person-Nominal 938 940	知青
+T81	Person-Nominal 966 969	老三届
+T82	Person-Nominal 970 972	知青
+T83	Person-Nominal 986 989	老三届
+T84	Thing-Nominal 1017 1019	血汗
+T85	Location-Name 1034 1046	世纪之交二三十年间的中国
+T86	Time-Explicit 1034 1043	世纪之交二三十年间
+T87	Person-Pronoun 1049 1051	他们
+*	Coreference T87 T83
+T88	Person-Nominal 1060 1067	各行各业的骨干
+T89	Person-Pronoun 1071 1073	他们
+T90	Thing-Nominal 1101 1104	共和国
+T91	Thing-Nominal 1105 1107	大厦
+T92	Person-Pronoun 1109 1110	我
+T93	Thing-Nominal 1114 1132	多少篇呼吁“善待”这“善待”那的文章
+T94	Person-Pronoun 1139 1140	我
+T95	Person-Nominal 1148 1159	那些仍处困境的老三届人
+T96	Person-Nominal 1160 1167	我们年级的同学
+T97	Person-Pronoun 1160 1162	我们
+R4	Social Arg1:T96 Arg2:T97	
+T98	Person-Nominal 1171 1173	高官
+T99	Person-Nominal 1175 1177	大款
+T100	Person-Nominal 1180 1182	罪犯
+T101	Person-Nominal 1193 1199	三分之一的人
+T102	Person-Nominal 1203 1204	人
+T103	Thing-Nominal 1213 1223	那一、二百元的份子钱
+T104	Person-Nominal 1224 1227	好些人
+T105	Person-Pronoun 1253 1255	他们
+*	Coreference T105 T104
+T106	Person-Nominal 1273 1276	老三届
+T107	Person-Nominal 1283 1286	老三届
+T108	Person-Nominal 1302 1314	未曾行过毕业典礼的老三届
+T109	Person-Pronoun 1327 1329	自己
+T110	Time-Implicit 1336 1343	追逐时尚的时代
+T111	Person-Nominal 1345 1347	知青
+T112	Metric 1368 1371	45年
+T113	Person-Nominal 1373 1376	老三届
+T114	Person-Nominal 1401 1403	同学
+T115	Person-Nominal 1413 1425	上世纪五十年代的爷爷奶奶
+T116	Time-Explicit 1413 1420	上世纪五十年代
+T117	Thing-Nominal 1434 1437	同学会
+T118	Location-Nominal 1432 1434	海外
+R5	Located Arg1:T117 Arg2:T118	
+T119	Thing-Nominal 1397 1404	形形色色同学会
+T120	Person-Nominal 1449 1456	“党校同学”们
+T121	Person-Pronoun 1459 1461	我们
+T122	Person-Pronoun 1473 1474	我
+T123	Person-Pronoun 1476 1477	我
+T124	Person-Nominal 1477 1500	那些未曾有过“典礼”便被扔进社会的老三届朋友们
+T125	Person-Pronoun 1501 1519	那些个同桌、同班、同年级的她们与他们
+T126	Person-Nominal 1547 1549	大家
+T127	Thing-Nominal 1551 1552	酒
+T128	Thing-Nominal 1555 1556	菜
+T129	Location-Nominal 1562 1565	校门口

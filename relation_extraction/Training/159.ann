@@ -1,0 +1,158 @@
+T1	Thing-Nominal 6 11	植物之根须
+T2	Thing-Nominal 13 20	藤蔓植物之触须
+T3	Time-Explicit 35 39	清明前后
+T4	Thing-Nominal 41 42	瓜
+T5	Thing-Nominal 43 44	豆
+T6	Thing-Nominal 49 56	几行金棒槌黄瓜
+T7	Metric 58 60	几日
+T8	Thing-Nominal 61 63	春风
+T9	Thing-Nominal 66 68	春雨
+T10	Thing-Nominal 71 74	种子们
+T11	Thing-Nominal 81 87	两片嫩绿的叶
+T12	Person-Nominal 90 92	婴儿
+T13	Thing-Nominal 103 105	小手
+R1	Part-Whole Arg1:T13 Arg2:T12	
+T14	Location-Nominal 109 113	叶子顶端
+T15	Thing-Nominal 120 128	茧丝般纤细的触须
+R2	Located Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 130 132	触须
+T17	Thing-Nominal 154 158	一股春风
+T18	Thing-Pronoun 161 162	它
+*	Coreference T18 T16
+T19	Thing-Nominal 165 169	一阵春雨
+T20	Thing-Pronoun 172 173	它
+T21	Person-Nominal 181 188	一个个乡野村姑
+T22	Person-Nominal 208 210	姑娘
+T23	Person-Nominal 214 215	人
+T24	Thing-Nominal 228 230	触须
+T25	Thing-Nominal 232 234	触须
+T26	Thing-Nominal 240 242	触须
+T27	Thing-Nominal 278 280	触须
+T28	Thing-Nominal 284 285;286 287	雷 达
+T29	Thing-Nominal 290 292	眼睛
+T30	Thing-Nominal 298 300	墙壁
+T31	Thing-Nominal 301 303	树木
+T32	Thing-Nominal 304 306	瓜架
+T33	Thing-Nominal 316 319	附着物
+T34	Thing-Nominal 328 332	到附着物
+T35	Thing-Nominal 337 341	救命稻草
+T36	Thing-Nominal 350 354	植物藤蔓
+T37	Thing-Nominal 361 363	雨露
+T38	Thing-Nominal 366 368	阳光
+T39	Person-Pronoun 376 377	我
+T40	Thing-Nominal 380 385	每株黄瓜秧
+T41	Thing-Nominal 387 394	一些食用植物油
+T42	Thing-Nominal 408 413	竹木黄瓜架
+T43	Person-Pronoun 418 419	我
+T44	Time-Implicit 422 424	今年
+T45	Thing-Nominal 424 429	金棒槌黄瓜
+T46	Metric 436 438	三日
+T47	Thing-Nominal 452 455	植物油
+T48	Thing-Nominal 456 459	黄瓜秧
+T49	Thing-Nominal 464 466	鸡血
+T50	Thing-Nominal 471 473	春风
+T51	Thing-Nominal 475 477	马蹄
+T52	Thing-Nominal 480 482	雨露
+T53	Thing-Nominal 490 491;492 496	每 株黄瓜秧
+T54	Thing-Nominal 500 502	靠山
+T55	Thing-Nominal 538 545	终身依附的靠山
+T56	Person-Pronoun 547 548	我
+T57	Thing-Nominal 553 557	黄瓜触须
+T58	Thing-Nominal 571 575	黄瓜藤蔓
+T59	Time-Implicit 570 582	当黄瓜藤蔓一节一节生长时
+T60	Thing-Nominal 583 585	触须
+T61	Location-Nominal 588 594	藤蔓的枝节处
+T62	Thing-Nominal 596 598	脑袋
+R3	Located Arg1:T60 Arg2:T61	
+T63	Thing-Nominal 614 616	触须
+T64	Thing-Nominal 619 622	附着物
+T65	Location-Nominal 629 634	滔滔洪水中
+T66	Thing-Nominal 635 641	一根救命稻草
+T67	Thing-Nominal 656 657	手
+R4	Located Arg1:T66 Arg2:T65	
+T68	Location-Nominal 663 665	顶端
+T69	Thing-Nominal 667 668;669 672	新 的藤蔓
+R5	Located Arg1:T69 Arg2:T68	
+T70	Thing-Nominal 689 691	藤蔓
+T71	Thing-Nominal 692 694	触须
+T72	Thing-Nominal 715 717	瓜秧
+T73	Thing-Nominal 720 722	触须
+T74	Thing-Nominal 736 739	触须们
+T75	Thing-Pronoun 742 744	它们
+*	Coreference T75 T74
+T76	Thing-Nominal 763 765	果实
+T77	Thing-Nominal 773 775	烈日
+T78	Thing-Nominal 778 779	风
+T79	Thing-Nominal 780 781	雨
+T80	Thing-Nominal 787 791	整个瓜架
+T81	Thing-Nominal 793 802	金棒槌的藤蔓和圆叶
+T82	Thing-Nominal 803 807	整个瓜架
+T83	Thing-Nominal 809 818	金色的娇艳的黄瓜花
+T84	Thing-Nominal 819 823	整个瓜架
+T85	Thing-Nominal 825 838	青绿的带着细刺的金棒槌黄瓜
+T86	Thing-Nominal 845 846	风
+T87	Thing-Nominal 850 851	油
+T88	Thing-Nominal 856 861	金棒槌黄瓜
+T89	Time-Implicit 869 871	这时
+T90	Person-Pronoun 872 873	我
+T91	Thing-Nominal 875 879	植物触须
+T92	Person-Nominal 898 900	人们
+T93	Thing-Nominal 907 912	一条黄瓜秧
+T94	Thing-Nominal 914 922	好几个金棒槌黄瓜
+T95	Thing-Nominal 937 943	一个个小胖墩
+T96	Location-Nominal 945 948	秋千上
+R6	Located Arg1:T95 Arg2:T96	
+T97	Person-Nominal 958 959	人
+T98	Thing-Nominal 966 968	触须
+T99	Time-Implicit 963 965	这时
+T100	Thing-Nominal 972 974	青山
+T101	Person-Nominal 995 997	勇士
+T102	Thing-Nominal 1000 1004	每条触须
+T103	Thing-Nominal 1011 1016	金棒槌黄瓜
+T104	Thing-Nominal 1017 1023;1024 1025	每个金棒槌黄 瓜
+T105	Metric 1027 1030	半市斤
+T106	Thing-Nominal 1032 1037	超级大胖子
+T107	Metric 1038 1042	一市斤多
+T108	Thing-Nominal 1043 1047	瓜架横梁
+T109	Thing-Nominal 1060 1065	纤细的触须
+T110	Person-Nominal 1067 1075	举重场上的大力士
+T111	Thing-Nominal 1078 1080	丹田
+T112	Thing-Nominal 1122 1129	弱不禁风的触须
+T113	Thing-Nominal 1133 1145	满棚满架，敦实沉重的果实
+T114	Thing-Nominal 1156 1162	草本藤蔓植物
+T115	Thing-Nominal 1173 1175	二者
+T116	Thing-Nominal 1190 1195	纤细的触须
+T117	Thing-Nominal 1196 1198	果实
+T118	Thing-Nominal 1201 1208	坚实的悬垂框架
+T119	Thing-Nominal 1209 1211	果实
+T120	Thing-Nominal 1226 1228	春风
+T121	Thing-Nominal 1229 1230	雨
+T122	Thing-Nominal 1256 1258	种子
+T123	Thing-Nominal 1269 1271	植物
+T124	Thing-Pronoun 1279 1280	它
+*	Coreference T124 T123
+T125	Person-Nominal 1284 1286	人类
+T126	Thing-Nominal 1296 1298	触须
+T127	Person-Nominal 1314 1316	人类
+T128	Thing-Nominal 1333 1335	秋风
+T129	Thing-Nominal 1338 1343	几行黄瓜秧
+T130	Person-Pronoun 1345 1346	我
+T131	Thing-Nominal 1354 1358	鲜美果实
+T132	Thing-Nominal 1360 1362	瓜叶
+T133	Thing-Nominal 1365 1367	藤蔓
+T134	Time-Implicit 1376 1387	我拆除瓜架，清理瓜秧时
+T135	Person-Pronoun 1376 1377	我
+T136	Thing-Nominal 1379 1381	瓜架
+T137	Thing-Nominal 1384 1386	瓜秧
+T138	Thing-Nominal 1392 1399	枯萎发黄的触须
+T139	Location-Nominal 1411 1414	瓜架上
+R7	Located Arg1:T138 Arg2:T139	
+T140	Thing-Nominal 1436 1438	植物
+T141	Thing-Nominal 1447 1449;1450 1457	满棚 满架的丰收果实
+T142	Person-Pronoun 1459 1461	我们
+T143	Person-Nominal 1466 1467	人
+T144	Thing-Nominal 1477 1484	几行金棒槌黄瓜
+T145	Person-Pronoun 1486 1487	我
+T146	Thing-Nominal 1503 1512	纤细柔弱的植物触须
+T147	Person-Nominal 1529 1531	人们
+T148	Person-Pronoun 1538 1540	自己

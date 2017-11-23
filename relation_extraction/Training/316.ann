@@ -1,0 +1,195 @@
+T1	Time-Implicit 2 4	当今
+T2	Person-Nominal 4 7	中国人
+T3	Person-Name 26 29	邓小平
+T4	Person-Pronoun 48 49	他
+*	Coreference T4 T3
+T5	Person-Name 73 76	邓小平
+T6	Thing-Nominal 12 16	一句名言
+T7	Thing-Nominal 17 23	这简洁的语言
+*	Coreference T7 T6 T8 T9
+T8	Thing-Nominal 39 45	这朴素的文字
+T9	Thing-Nominal 65 71	这平实的自白
+T10	Person-Name 92 95	邓小平
+T11	Time-Implicit 89 91	以往
+T12	Person-Pronoun 102 103	他
+*	Coreference T12 T10
+T13	Time-Implicit 111 113	今天
+T14	Person-Name 117 120	邓小平
+T15	Person-Pronoun 129 130	他
+T16	Person-Name 142 145	邓小平
+T17	Time-Explicit 147 157	1904年8月22日
+T18	Person-Name 160 163	邓希贤
+*	Coreference T18 T16
+T19	Person-Name 179 182	邓小平
+T20	Time-Implicit 184 186	早年
+T21	Location-Name 188 190	法国
+T22	Organization-Nominal 196 199	制鞋厂
+T23	Person-Name 213 214	他
+T24	Abstract 217 222	马、列主义
+T25	Person-Name 225 228	周恩来
+T26	Person-Nominal 225 230	周恩来等人
+T27	Abstract 234 245	旅欧中国公产主义青年团
+T28	Person-Pronoun 249 250	他
+T29	Time-Implicit 269 271	同年
+T30	Time-Explicit 284 292	1928年10月
+T31	Person-Nominal 276 283	中共中央秘书长
+T32	Abstract 301 305	百色起义
+T33	Abstract 311 318	红七革命根据地
+T34	Time-Explicit 320 325	1929年
+T35	Person-Name 326 329	邓小平
+T36	Person-Name 332 341	大他12岁的刘伯承
+T37	Person-Name 344 347	刘伯承
+T38	Person-Name 348 351	邓小平
+*	Coreference T37 T36
+T39	Person-Name 344 351	刘伯承、邓小平
+T40	Person-Pronoun 358 360	他们
+*	Coreference T40 T39
+T41	Location-Name 371 373	中国
+T42	Location-Name 375 379	刘邓大军
+T43	Time-Explicit 382 392	1947年6月30日
+T44	Person-Name 399 402	刘、邓
+T45	Person-Nominal 405 407	敌兵
+T46	Location-Name 417 420	大别山
+T47	Location-Name 436 439	大别山
+T48	Organization-Name 481 486	刘、邓大军
+*	Coreference T48 T42
+T49	Person-Nominal 476 478	人民
+T50	Time-Explicit 513 527	1966-1976文化大革命
+T51	Person-Name 533 536	刘少齐
+T52	Person-Name 537 540	邓小平
+T53	Person-Nominal 532 548	“刘少齐、邓小平”等老一辈革命家
+T54	Person-Nominal 549 555	一帮历史小人
+T55	Person-Name 558 561	刘少奇
+T56	Person-Name 566 569	邓小平
+T57	Person-Name 598 601	邓小平
+T58	Person-Pronoun 607 608	他
+*	Coreference T58 T57
+T59	Organization-Nominal 610 611	党
+T60	Abstract 618 622	共产主义
+T61	Time-Implicit 639 648	风云激荡的二十世纪
+T62	Person-Nominal 649 653	中华民族
+T63	Person-Nominal 668 670	民族
+T64	Person-Nominal 690 692	人民
+T65	Organization-Nominal 683 685	国家
+T66	Person-Name 697 698;699 703	邓 小平先生
+*	Coreference T66 T56
+T67	Person-Name 728 733	邓小平先生
+T68	Thing-Nominal 725 727	电影
+T69	Person-Pronoun 774 775	你
+T70	Person-Pronoun 787 788	他
+T71	Location-Name 804 806	日本
+T72	Thing-Nominal 812 814	影片
+*	Coreference T72 T68
+T73	Thing-Nominal 838 840	电影
+T74	Person-Nominal 842 844	我们
+*	Coreference T74 T2 T76
+T75	Thing-Nominal 850 853	新干线
+T76	Person-Pronoun 847 849	自己
+T77	Person-Pronoun 857 859	自己
+T78	Person-Pronoun 869 870	我
+*	Coreference T77 T78
+T79	Person-Name 871 875	小平同志
+*	Coreference T79 T67
+T80	Person-Name 892 896	小平同志
+T81	Location-Name 900 902	日本
+T82	Physical 919 922;923 929	大吨位 钢铁生产企业
+T83	Organization-Nominal 931 943	这个大吨位的钢铁生产企业
+T84	Organization-Name 946 953	上海的“宝钢”
+*	Coreference T83 T84
+T85	Person-Name 954 958	小平同志
+T86	Location-Name 973 975	中国
+T87	Physical 987 993	工业基础设施
+T88	Person-Name 998 1003	邓小平先生
+T89	Person-Name 1010 1012	小平
+*	Coreference T89 T88 T85 T90 T91
+T90	Person-Name 1074 1077	邓小平
+T91	Person-Pronoun 1083 1084	他
+T92	Person-Nominal 1086 1087;1088 1089	人 民
+T93	Person-Nominal 1007 1009	人民
+T94	Location-Name 1104 1108	神州大地
+T95	Location-Name 1065 1068	新中国
+*	Coreference T94 T86 T104
+T96	Person-Pronoun 1129 1130	他
+T97	Thing-Nominal 1145 1147	影片
+T98	Person-Pronoun 1148 1149	我
+T99	Person-Pronoun 1160 1161	我
+T100	Thing-Nominal 1155 1158	这部片
+*	Coreference T100 T97
+T101	Person-Name 1166 1169	邓小平
+T102	Person-Nominal 1169 1175	这位世纪伟人
+*	Coreference T102 T101
+T103	Person-Pronoun 1184 1186	自己
+*	Coreference T103 T98
+T104	Location-Nominal 1183 1193	和自己紧紧相连的祖国
+T105	Person-Pronoun 1219 1220	我
+T106	Person-Pronoun 1241 1244	邓小平
+T107	Time-Implicit 1247 1249	今天
+T108	Location-Name 1250 1252	中国
+T109	Person-Pronoun 1265 1267	我们
+T110	Person-Nominal 1274 1277	祖辈们
+R1	Social Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 1284 1287	破衣服
+T112	Thing-Nominal 1290 1292	米糖
+T113	Thing-Nominal 1297 1299	影片
+T114	Time-Explicit 1312 1322	1997年2月19日
+T115	Person-Name 1323 1327	小平同志
+T116	Person-Pronoun 1333 1335	我们
+T117	Person-Pronoun 1339 1340	我
+R2	Part-Whole Arg1:T105 Arg2:T109	
+T118	Time-Implicit 1349 1355	读幼儿中班时
+T119	Person-Nominal 1366 1368	爷爷
+R3	Family Arg1:T119 Arg2:T117	
+T120	Person-Nominal 1369 1372	老人们
+R4	Social Arg1:T120 Arg2:T117	
+R5	Social Arg1:T120 Arg2:T119	
+T121	Person-Name 1374 1377	邓小平
+T122	Person-Nominal 1385 1387	校长
+R6	Social Arg1:T122 Arg2:T117	
+T123	Person-Nominal 1391 1394	同学们
+R7	Social Arg1:T123 Arg2:T117	
+T124	Person-Name 1396 1399	邓小平
+T125	Thing-Nominal 1413 1416	电视台
+T126	Person-Nominal 1413 1418;1419 1420	电视台的伟 人
+T127	Person-Name 1422 1427	江泽民爷爷
+*	Coreference T126 T127 T133
+T128	Person-Pronoun 1440 1441	我
+T129	Person-Nominal 1444 1446	爷爷
+T130	Person-Name 1448 1451	邓小平
+T131	Person-Nominal 1458 1462	那么多人
+T132	Thing-Nominal 1466 1469	电视机
+T133	Person-Nominal 1466 1471	电视机的人
+T134	Time-Implicit 1476 1478	现在
+T135	Person-Pronoun 1480 1481	我
+T136	Person-Nominal 1486 1490	中国人民
+*	Coreference T136 T116
+T137	Person-Name 1491 1496	邓小平同志
+*	Coreference T137 T130 T138 T146 T139
+T138	Person-Pronoun 1505 1506	他
+T139	Person-Pronoun 1512 1513	他
+T140	Person-Nominal 1519 1523	中国人民
+T141	Person-Pronoun 1533 1534	他
+T142	Thing-Nominal 1527 1529	骨灰
+T143	Thing-Nominal 1506 1508	肉身
+R8	Ownership Arg1:T138 Arg2:T143	
+R9	Ownership Arg1:T141 Arg2:T142	
+T144	Thing-Nominal 1541 1545	祖国山河
+T145	Location-Name 1554 1556	中国
+R10	Located Arg1:T144 Arg2:T145	
+T146	Person-Pronoun 1565 1566	我
+T147	Person-Nominal 1567 1571	中国人民
+T148	Person-Nominal 1572 1574	儿子
+T149	Person-Pronoun 1575 1576	我
+T150	Person-Pronoun 1581 1582	我
+T151	Location-Nominal 1583 1585	土地
+*	Coreference T151 T145
+T152	Person-Nominal 1586 1588	人民
+*	Coreference T152 T147 T154
+T153	Person-Pronoun 1590 1593	邓小平
+T154	Person-Nominal 1608 1612	祖国人民
+T155	Person-Pronoun 1606 1607	他
+T156	Person-Pronoun 1623 1624;1625 1629	我 们每个人
+T157	Person-Pronoun 1635 1637	我们
+T158	Person-Name 1641 1644	邓爷爷
+*	Coreference T158 T153
+T159	Person-Pronoun 1651 1653	我们
+T160	Thing-Nominal 1663 1667	爱国之歌

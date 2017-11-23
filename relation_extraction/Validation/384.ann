@@ -1,0 +1,189 @@
+T1	Thing-Nominal 0 1	风
+T2	Thing-Nominal 6 8	雪片
+T3	Thing-Nominal 9 15	扯破了的棉絮
+T4	Thing-Nominal 33 35	喜轿
+T5	Thing-Nominal 36 40	一瓣雪梅
+T6	Thing-Nominal 48 60;61 62	吹吹打打的唢呐声音和锣鼓 声
+T7	Time-Implicit 76 78	这时
+T8	Location-Nominal 78 85	老房子的大门口
+T9	Thing-Nominal 87 92	一道大红硬
+T10	Thing-Nominal 95 99	红纸灯笼
+T11	Thing-Nominal 105 111	粉红天花幔子
+R1	Located Arg1:T9 Arg2:T8	
+R2	Located Arg1:T10 Arg2:T8	
+T12	Location-Nominal 100 103	天井里
+R3	Located Arg1:T11 Arg2:T12	
+T13	Location-Nominal 112 115	大堂上
+T14	Thing-Nominal 119 125	绿穗红罩宫灯
+R4	Located Arg1:T14 Arg2:T13	
+T15	Location-Nominal 126 130	堂屋门上
+T16	Thing-Nominal 132 136;137 140	绣花雕金 的八仙
+R5	Located Arg1:T16 Arg2:T15	
+T17	Thing-Nominal 147 149	花馍
+T18	Location-Nominal 141 144	礼桌上
+R6	Located Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 153 155	两桌
+T20	Location-Nominal 150 152	东西
+R7	Located Arg1:T19 Arg2:T20	
+T21	Person-Nominal 161 164	新娘子
+T22	Thing-Nominal 166 167	轿
+T23	Thing-Nominal 168 172	三寸金莲
+R8	Part-Whole Arg1:T23 Arg2:T21	
+T24	Location-Nominal 174 184	白雪铺满了的青石板上
+R9	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 186 195	粉红缎子绣花的霞帔
+R10	Use Arg1:T21 Arg2:T25	
+T26	Thing-Nominal 199 201	凤冠
+T27	Thing-Nominal 204 208	珍珠流苏
+R11	Part-Whole Arg1:T27 Arg2:T26	
+R12	Use Arg1:T21 Arg2:T26	
+T28	Thing-Nominal 212 214	珠串
+*	Coreference T28 T27
+T29	Person-Pronoun 228 229	她
+T30	Thing-Nominal 230 234	芊芊玉手
+R13	Part-Whole Arg1:T30 Arg2:T29	
+T31	Person-Pronoun 235 236	他
+R14	Family Arg1:T31 Arg2:T29	
+T32	Person-Pronoun 255 256	她
+T33	Person-Nominal 259 263	一个女人
+R15	General-Special Arg1:T33 Arg2:T32	
+T34	Person-Nominal 275 277	公婆
+T35	Time-Implicit 270 273	白日里
+T36	Thing-Nominal 279 280	水
+T37	Thing-Nominal 281 282	饭
+T38	Person-Pronoun 291 292	她
+T39	Location-Nominal 295 298	偏房里
+T40	Person-Pronoun 307 308	她
+T41	Thing-Nominal 317 323	她的妆奁之一
+T42	Thing-Nominal 325 327	花馍
+R16	General-Special Arg1:T41 Arg2:T42	
+R17	Ownership Arg1:T40 Arg2:T41	
+T43	Person-Nominal 329 331	人们
+T44	Thing-Nominal 334 342	那栩栩如生的花馍
+*	Coreference T44 T42
+T45	Thing-Nominal 345 349	她的双手
+*	Coreference T45 T30
+T46	Person-Pronoun 357 358	她
+T47	Person-Nominal 375 378	乡亲们
+T48	Person-Pronoun 379 380	她
+T49	Person-Pronoun 384 386	他们
+*	Coreference T49 T47
+R18	Social Arg1:T48 Arg2:T47	
+T50	Thing-Nominal 387 389	花馍
+T51	Time-Implicit 391 395	当此之时
+T52	Person-Pronoun 398 399	她
+T53	Thing-Nominal 401 403	衣袖
+T54	Thing-Nominal 406 413	洁白如藕的玉臂
+R19	Part-Whole Arg1:T54 Arg2:T52	
+T55	Thing-Nominal 416 420	翡翠镯子
+R20	Ownership Arg1:T52 Arg2:T55	
+T56	Thing-Nominal 421 423	一手
+T57	Thing-Nominal 426 428	一手
+R21	Part-Whole Arg1:T56 Arg2:T52	
+R22	Part-Whole Arg1:T57 Arg2:T52	
+T58	Thing-Nominal 424 425	袖
+T59	Thing-Nominal 430 432	面团
+T60	Thing-Nominal 452 454	汗珠
+T61	Location-Nominal 456 458	前额
+R23	Located Arg1:T60 Arg2:T61	
+T62	Person-Pronoun 459 460	她
+T63	Thing-Nominal 462 464	绢子
+R24	Use Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 467 474	海棠步摇和珠花
+T65	Location-Nominal 475 477	头上
+R25	Located Arg1:T64 Arg2:T65	
+T66	Person-Pronoun 485 486	她
+T67	Thing-Nominal 518 519	笔
+T68	Thing-Nominal 522 537	福、禄、寿三星，以及各样的老虎
+T69	Thing-Nominal 539 543	她的佳作
+R26	General-Special Arg1:T69 Arg2:T68	
+R27	Create Arg1:T62 Arg2:T69	
+T70	Thing-Nominal 545 547	虎首
+T71	Person-Pronoun 547 548	她
+T72	Thing-Nominal 558 563	眼珠、胡须
+R28	Part-Whole Arg1:T72 Arg2:T70	
+T73	Thing-Nominal 579 583	半边手肘
+T74	Thing-Nominal 584 586	玉镯
+*	Coreference T74 T55
+R29	Part-Whole Arg1:T73 Arg2:T71	
+T75	Thing-Nominal 590 591	手
+R30	Part-Whole Arg1:T75 Arg2:T71	
+T76	Time-Implicit 594 597	两三天
+T77	Thing-Nominal 603 605	成品
+T78	Person-Nominal 608 610	乡邻
+R31	Social Arg1:T78 Arg2:T71	
+T79	Person-Nominal 615 617	众家
+T80	Location-Nominal 623 626	礼桌上
+T81	Thing-Nominal 628 632	她的花馍
+R32	Located Arg1:T81 Arg2:T80	
+*	Coreference T79 T78
+T82	Person-Pronoun 634 635	她
+T83	Person-Pronoun 647 648	她
+T84	Abstract 686 696	三年灾害和文化大革命
+T85	Person-Nominal 697 699	人们
+T86	Thing-Nominal 712 713	食
+T87	Thing-Nominal 727 729	花馍
+T88	Person-Pronoun 731 732	她
+T89	Person-Nominal 754 758	一家老小
+T90	Person-Nominal 766 768	巧妇
+R33	General-Special Arg1:T90 Arg2:T88	
+T91	Thing-Nominal 771 772	米
+T92	Person-Pronoun 793 794	她
+T93	Thing-Nominal 797 799	篱筐
+T94	Thing-Nominal 802 804	锄头
+T95	Location-Nominal 806 809	荒地里
+T96	Thing-Nominal 810 812	野菜
+R34	Located Arg1:T96 Arg2:T95	
+T97	Thing-Nominal 813 819	缠裹过的小脚
+R35	Part-Whole Arg1:T97 Arg2:T92	
+T98	Location-Nominal 822 831	起伏不平的黄土地上
+T99	Thing-Nominal 832 833	风
+T100	Thing-Nominal 857 862	灰色的天空
+T101	Location-Nominal 854 856	上面
+R36	Located Arg1:T100 Arg2:T101	
+T102	Location-Nominal 863 865	下面
+T103	Thing-Nominal 866 873	堆着雪的石板地
+R37	Located Arg1:T103 Arg2:T102	
+T104	Organization-Nominal 874 877	生产队
+T105	Thing-Nominal 874 884	生产队分的那一点粮食
+T106	Thing-Nominal 893 900	野菜红薯和萝卜
+T107	Thing-Nominal 906 908	红薯
+T108	Person-Pronoun 903 904	她
+T109	Thing-Nominal 909 911	柴火
+T110	Person-Pronoun 916 917	她
+T111	Thing-Nominal 916 925	她已不再年轻的面容
+R38	Part-Whole Arg1:T111 Arg2:T110	
+T112	Thing-Nominal 927 934	曾经美丽的面庞
+T113	Thing-Nominal 939 946	岁月沧桑的年轮
+R39	Located Arg1:T113 Arg2:T112	
+*	Coreference T112 T111
+T114	Person-Pronoun 947 948	她
+T115	Location-Nominal 951 954	火光里
+T116	Person-Nominal 959 961	乡邻
+T117	Thing-Nominal 966 968	花馍
+T118	Time-Implicit 977 981	早些时候
+T119	Time-Implicit 985 993	如今每逢过年过节
+T120	Person-Nominal 994 1002	耄耋之年的太奶奶
+*	Coreference T120 T110 T29 T21 T123
+T121	Thing-Nominal 1007 1009	花馍
+T122	Person-Nominal 1016 1018	大家
+T123	Person-Nominal 1022 1025	老人家
+T124	Person-Pronoun 1036 1037	她
+T125	Thing-Nominal 1044 1048	翡翠镯子
+T126	Location-Nominal 1039 1041	灶前
+T127	Thing-Nominal 1042 1054	戴着翡翠镯子的干瘪的双手
+R40	Part-Whole Arg1:T127 Arg2:T123	
+T128	Thing-Nominal 1056 1058	剪刀
+R41	Use Arg1:T123 Arg2:T128	
+R42	Use Arg1:T123 Arg2:T125	
+T129	Thing-Nominal 1064 1073	栩栩如生的花卉动物
+T130	Thing-Nominal 1074 1076	蒸笼
+T131	Thing-Nominal 1080 1082	雾气
+R43	Located Arg1:T131 Arg2:T130	
+T132	Thing-Nominal 1086 1090	她的银发
+T133	Person-Nominal 1092 1095	老人家
+R44	Part-Whole Arg1:T132 Arg2:T133	
+R45	Located Arg1:T131 Arg2:T132	
+T134	Thing-Nominal 1106 1118	充满褶皱的脸上凹陷的眼窝
+R46	Part-Whole Arg1:T134 Arg2:T133	
+T135	Thing-Nominal 1133 1135	琵笆

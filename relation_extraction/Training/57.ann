@@ -1,0 +1,57 @@
+T1	Thing-Nominal 2 4	槐花
+T2	Thing-Nominal 13 14	花
+*	Coreference T2 T1
+T3	Location-Nominal 30 34	羊肠小道
+T4	Location-Name 38 41	雷锋林
+T5	Person-Pronoun 45 46	我
+T6	Thing-Nominal 57 58	山
+T7	Thing-Nominal 65 68	雷锋林
+T8	Thing-Nominal 91 93	树枝
+R1	Part-Whole Arg1:T8 Arg2:T7	
+T9	Location-Nominal 107 112	雷锋林碑前
+T10	Thing-Name 127 131	雷锋林碑
+T11	Person-Name 132 137	徐向前元帅
+T12	Person-Pronoun 151 152	我
+T14	Location-Name 158 166	北京老姨张映哲家
+T15	Person-Pronoun 167 168	她
+T16	Person-Name 162 165	张映哲
+*	Coreference T15 T16
+T13	Person-Pronoun 169 170	我
+T17	Person-Nominal 187 189	老姨
+*	Coreference T17 T13
+T18	Person-Name 199 204	徐向前元帅
+T19	Person-Nominal 205 208	老人家
+T20	Person-Nominal 215 217	老姨
+*	Coreference T19 T18
+T21	Person-Nominal 231 233	老姨
+T22	Person-Nominal 239 241	老姨
+T23	Time-Implicit 245 247	每年
+T24	Thing-Name 252 255	雷锋林
+T25	Thing-Nominal 257 258	碑
+*	Coreference T25 T24
+T26	Person-Nominal 265 268	老人家
+T27	Person-Nominal 271 286	建设雷锋林这一处绿色海洋的人们
+T28	Location-Name 273 276	雷锋林
+T29	Location-Name 293 296	雷锋林
+T30	Thing-Nominal 297 299	槐树
+T31	Thing-Name 302 306	雷锋林碑
+T32	Location-Nominal 321 323	亭子
+R2	Near Arg1:T31 Arg2:T32	
+T33	Person-Nominal 341 343	游人
+T34	Time-Implicit 380 382	每天
+T35	Location-Name 383 386	雷锋林
+T36	Person-Nominal 389 391	人们
+T37	Person-Name 394 396	雷锋
+T38	Person-Name 416 418	雷锋
+T39	Person-Name 439 440;441 442	雷 锋
+T40	Person-Name 474 476	雷锋
+T41	Person-Name 487 489	雷锋
+T42	Person-Pronoun 495 497	我们
+T43	Person-Pronoun 512 513	我
+T44	Location-Name 516 519	雷锋林
+T45	Thing-Nominal 526 528	槐花
+T46	Thing-Nominal 533 535	槐树
+R3	Part-Whole Arg1:T45 Arg2:T46	
+T47	Person-Nominal 555 558	鸟儿们
+T48	Location-Nominal 575 579	雷锋家园
+*	Coreference T44 T48

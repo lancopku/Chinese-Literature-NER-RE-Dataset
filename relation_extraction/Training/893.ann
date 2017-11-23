@@ -1,0 +1,405 @@
+T1	Time-Implicit 0 2	晚上
+T2	Person-Nominal 3 6	全家人
+T3	Location-Nominal 9 11	公园
+T4	Location-Nominal 17 19	广场
+R1	Part-Whole Arg1:T4 Arg2:T3	
+T5	Person-Nominal 33 35	妻子
+T6	Person-Nominal 39 41	女儿
+T7	Person-Pronoun 42 43	我
+R2	Family Arg1:T7 Arg2:T6	
+R3	Family Arg1:T7 Arg2:T5	
+R4	Family Arg1:T5 Arg2:T6	
+T8	Person-Nominal 71 73	女儿
+T9	Person-Pronoun 79 80	我
+T10	Person-Nominal 86 88	女儿
+T11	Person-Pronoun 94 95	我
+T12	Location-Nominal 97 99	公园
+T13	Location-Nominal 100 102	树林
+R5	Part-Whole Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 108 111	手电筒
+T15	Thing-Nominal 112 114	灯光
+T16	Person-Nominal 118 121	几个人
+T17	Thing-Nominal 123 125	树干
+T18	Location-Nominal 127 129	草丛
+T19	Person-Pronoun 143 145	他们
+*	Coreference T19 T16
+R6	Ownership Arg1:T16 Arg2:T14	
+T20	Thing-Nominal 149 152	知了猴
+T21	Person-Pronoun 165 166	我
+T22	Time-Implicit 176 180	七八年前
+T23	Time-Implicit 181 182;183 184	那 时
+*	Coreference T22 T23
+T24	Person-Pronoun 185 186	我
+T25	Person-Nominal 187 189	妻子
+T26	Location-Nominal 192 194	农村
+T27	Organization-Nominal 197 199	全家
+T28	Location-Nominal 202 204	村里
+T29	Organization-Nominal 204 206	学校
+R7	Ownership Arg1:T29 Arg2:T28	
+T30	Location-Nominal 207 209	宿舍
+R8	Ownership Arg1:T29 Arg2:T30	
+T31	Thing-Nominal 216 217	蝉
+T32	Time-Implicit 221 222	夏
+T33	Location-Nominal 224 226	村里
+T34	Thing-Nominal 234 237	知了猴
+T35	Location-Nominal 245 247	城里
+T36	Location-Nominal 248 250	饭店
+R9	Part-Whole Arg1:T36 Arg2:T35	
+T37	Person-Pronoun 256 258	我们
+T38	Person-Nominal 259 261	女儿
+T39	Time-Implicit 269 271	暑假
+T40	Thing-Nominal 279 282	知了猴
+T41	Thing-Nominal 288 290	夕阳
+T42	Person-Nominal 293 297	我们三人
+T43	Thing-Nominal 300 302	落日
+T44	Location-Nominal 308 310	林间
+T45	Thing-Nominal 310 312	小路
+R10	Located Arg1:T45 Arg2:T44	
+T46	Thing-Nominal 318 321	知了猴
+T47	Location-Nominal 324 327	我们村
+T48	Thing-Nominal 329 332	知了猴
+T49	Location-Nominal 341 343	村北
+T50	Thing-Nominal 344 346	公路
+R11	Located Arg1:T50 Arg2:T49	
+T51	Location-Nominal 361 364	路两边
+T52	Thing-Nominal 366 368	杂草
+R12	Located Arg1:T52 Arg2:T51	
+T53	Person-Nominal 371 375	路政工人
+T54	Thing-Nominal 390 392	蚊虫
+T55	Person-Nominal 401 403	大家
+T56	Person-Pronoun 413 415	我们
+T57	Location-Pronoun 416 418	此处
+T58	Thing-Nominal 424 426	灯火
+T59	Location-Nominal 438 440	村子
+T60	Thing-Nominal 441 443	公路
+R13	Near Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 457 460	知了猴
+T62	Time-Implicit 469 472	第二天
+T63	Time-Implicit 412 421	当我们到此处寻找时
+T64	Person-Pronoun 477 479	我们
+T65	Thing-Nominal 481 484	自行车
+R14	Ownership Arg1:T64 Arg2:T65	
+T66	Location-Nominal 511 515	河堤两岸
+T67	Location-Nominal 516 519	杨树林
+R15	Near Arg1:T67 Arg2:T66	
+T68	Location-Pronoun 525 527	这里
+*	Coreference T67 T68 T88
+T69	Thing-Nominal 528 531	知了猴
+R16	Located Arg1:T69 Arg2:T68	
+T70	Person-Nominal 539 540	人
+T71	Thing-Nominal 543 545	杂草
+R17	Located Arg1:T71 Arg2:T68	
+T72	Thing-Nominal 549 551	蚊虫
+R18	Located Arg1:T72 Arg2:T68	
+T73	Thing-Nominal 558 560	长衣
+T74	Thing-Nominal 560 562	长裤
+T75	Thing-Nominal 570 573	花露水
+T76	Thing-Nominal 575 577	蚊虫
+R19	Ownership Arg1:T64 Arg2:T73	
+R20	Ownership Arg1:T64 Arg2:T74	
+T77	Thing-Nominal 582 585	知了猴
+T78	Thing-Nominal 594 597	知了猴
+T79	Location-Nominal 599 601	高处
+T80	Thing-Pronoun 618 620	它们
+*	Coreference T80 T78
+T81	Location-Nominal 628 630	地面
+T82	Time-Implicit 622 625	日落后
+R21	Located Arg1:T80 Arg2:T81	
+T83	Time-Explicit 633 639	晚间八九点时
+T84	Thing-Nominal 643 645	手电
+T85	Thing-Nominal 646 648	树干
+R22	Located Arg1:T80 Arg2:T85	
+T86	Thing-Nominal 654 656	杂草
+T87	Person-Nominal 682 684	村民
+T88	Location-Pronoun 685 686	此
+T89	Thing-Nominal 689 691	杂草
+T90	Thing-Nominal 697 699	小路
+R23	Located Arg1:T90 Arg2:T89	
+T91	Metric 713 718	两三个小时
+T92	Thing-Nominal 658 659	腰
+R24	Part-Whole Arg1:T92 Arg2:T64	
+R25	Use Arg1:T64 Arg2:T84	
+R26	Located Arg1:T89 Arg2:T88	
+T93	Thing-Nominal 729 731;732 733	知了 猴
+T94	Person-Pronoun 746 748	我们
+T95	Thing-Nominal 752 754	知了
+R27	General-Special Arg1:T95 Arg2:T93	
+T96	Thing-Nominal 783 785	小热
+T97	Thing-Nominal 788 790	嘶了
+R28	General-Special Arg1:T96 Arg2:T93	
+R29	General-Special Arg1:T97 Arg2:T93	
+T98	Thing-Pronoun 795 797	它们
+R30	General-Special Arg1:T96 Arg2:T98	
+R31	General-Special Arg1:T97 Arg2:T98	
+T99	Person-Nominal 809 811	人们
+T100	Thing-Nominal 818 820	知了
+T102	Thing-Nominal 827 832	知了的幼虫
+T101	Thing-Nominal 822 825	知了猴
+*	Coreference T101 T102 T103
+T103	Thing-Pronoun 833 834	它
+T104	Location-Nominal 835 837	地下
+T105	Time-Implicit 840 844	几年以后
+T106	Location-Nominal 847 849	地面
+T107	Thing-Nominal 852 853;854 855	知 了
+T108	Thing-Nominal 862 865	知了猴
+T109	Thing-Nominal 865 867	有的
+R32	General-Special Arg1:T109 Arg2:T108	
+T110	Thing-Nominal 870 871	壳
+R33	Part-Whole Arg1:T110 Arg2:T109	
+T111	Thing-Nominal 875 877	身体
+R34	Part-Whole Arg1:T111 Arg2:T109	
+T112	Thing-Nominal 881 883	翅膀
+R35	Part-Whole Arg1:T112 Arg2:T109	
+T113	Thing-Nominal 887 889	羽衣
+T114	Time-Implicit 890 892	此时
+T115	Metric 900 904	几个小时
+T116	Thing-Nominal 904 906	知了
+T117	Thing-Nominal 907 909	身体
+T118	Thing-Nominal 910 912	翅膀
+R36	Part-Whole Arg1:T117 Arg2:T116	
+R37	Part-Whole Arg1:T118 Arg2:T116	
+T119	Thing-Nominal 932 935	知了猴
+T120	Thing-Nominal 940 941	皮
+R38	Part-Whole Arg1:T120 Arg2:T119	
+T121	Thing-Pronoun 951 952	它
+T122	Thing-Nominal 938 942	未脱皮的
+R39	General-Special Arg1:T122 Arg2:T119	
+*	Coreference T122 T121 T123
+T123	Thing-Pronoun 965 966	它
+T124	Thing-Nominal 967 968	壳
+R40	Part-Whole Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 982 984	中药
+T126	Thing-Nominal 988 990	蝉蜕
+*	Coreference T124 T126
+R41	General-Special Arg1:T124 Arg2:T125	
+T127	Location-Nominal 1003 1005	本地
+T128	Thing-Nominal 1010 1012	药材
+R42	General-Special Arg1:T126 Arg2:T128	
+R43	General-Special Arg1:T126 Arg2:T125	
+T129	Person-Nominal 1018 1021	孩子们
+T130	Thing-Nominal 1022 1024	玩具
+R44	General-Special Arg1:T126 Arg2:T130	
+R45	Ownership Arg1:T129 Arg2:T130	
+T131	Thing-Nominal 1055 1057	孜然
+T132	Thing-Nominal 1058 1059	盐
+T133	Thing-Nominal 1084 1086	冰箱
+T134	Time-Implicit 1094 1096	冬日
+T135	Time-Implicit 1100 1102	如今
+T136	Location-Nominal 1104 1106	公园
+T137	Thing-Nominal 1108 1110	灯光
+R46	Located Arg1:T137 Arg2:T136	
+T138	Person-Nominal 1121 1122	人
+R47	Located Arg1:T119 Arg2:T133	
+T139	Time-Implicit 1133 1138	很小的时候
+T140	Thing-Nominal 1141 1142	花
+T141	Location-Nominal 1147 1149	当地
+T142	Person-Nominal 1155 1157	小子
+T143	Person-Nominal 1158 1161	小男孩
+*	Coreference T142 T143
+T144	Thing-Nominal 1163 1164	花
+T145	Person-Nominal 1165 1167	媳妇
+R48	Family Arg1:T143 Arg2:T145	
+T146	Person-Nominal 1173 1175	别人
+T147	Thing-Nominal 1186 1187	花
+T148	Time-Implicit 1197 1202	十几岁以后
+T149	Person-Nominal 1208 1210	别人
+T150	Thing-Nominal 1220 1221	花
+T151	Person-Pronoun 1222 1223	我
+T152	Location-Nominal 1224 1231	一家废弃的商店
+T153	Thing-Nominal 1236 1239	死不了
+R49	General-Special Arg1:T153 Arg2:T150	
+R50	Located Arg1:T153 Arg2:T152	
+T154	Thing-Nominal 1245 1247	红花
+*	Coreference T153 T154 T157
+T155	Person-Pronoun 1248 1249	我
+T156	Thing-Nominal 1258 1262	铁皮脸盆
+R51	Located Arg1:T154 Arg2:T156	
+T157	Thing-Nominal 1269 1271	花朵
+T158	Time-Implicit 1287 1293	以后的日子里
+T159	Location-Nominal 1302 1304	山中
+T160	Thing-Nominal 1307 1309	野花
+R52	Located Arg1:T160 Arg2:T159	
+T161	Location-Nominal 1324 1326	野外
+T162	Thing-Nominal 1333 1334	风
+T163	Thing-Nominal 1335 1336	雪
+T164	Thing-Nominal 1337 1339	野花
+T165	Person-Pronoun 1345 1346	我
+R53	Located Arg1:T164 Arg2:T161	
+T166	Person-Pronoun 1363 1364	我
+T167	Thing-Nominal 1370 1371	花
+T168	Time-Implicit 1376 1379	几年前
+T169	Person-Nominal 1380 1384	我们夫妻
+T170	Location-Nominal 1391 1393	县城
+T171	Location-Nominal 1395 1397	城里
+T172	Thing-Nominal 1399 1401	楼房
+R54	Ownership Arg1:T169 Arg2:T172	
+R55	Located Arg1:T172 Arg2:T171	
+T173	Time-Implicit 1402 1408	喜迁新居之日
+T174	Person-Nominal 1409 1410	妻
+T175	Thing-Nominal 1416 1417	花
+T176	Person-Pronoun 1430 1431	我
+T177	Thing-Nominal 1432 1433	花
+T178	Thing-Nominal 1444 1446	杜鹃
+T179	Thing-Nominal 1452 1455	富贵竹
+R56	General-Special Arg1:T179 Arg2:T177	
+R57	General-Special Arg1:T178 Arg2:T177	
+T180	Time-Implicit 1458 1460	当时
+T181	Time-Implicit 1462 1468	金秋送爽之时
+*	Coreference T180 T181
+T182	Thing-Nominal 1478 1480	菊花
+R58	General-Special Arg1:T182 Arg2:T177	
+T183	Location-Nominal 1485 1487	室内
+T184	Thing-Nominal 1487 1488	花
+R59	Located Arg1:T184 Arg2:T183	
+R60	Located Arg1:T182 Arg2:T183	
+R61	Located Arg1:T179 Arg2:T183	
+R62	Located Arg1:T178 Arg2:T183	
+T185	Person-Nominal 1502 1503	妻
+T186	Thing-Nominal 1506 1508	吊兰
+T187	Thing-Nominal 1509 1511	绿萝
+T188	Thing-Nominal 1513 1515	甲醛
+T189	Thing-Nominal 1518 1520	空气
+T190	Person-Nominal 1523 1525	同事
+R63	Social Arg1:T185 Arg2:T190	
+T191	Thing-Nominal 1532 1534	花盆
+R64	Located Arg1:T187 Arg2:T191	
+R65	Located Arg1:T186 Arg2:T191	
+T192	Thing-Nominal 1547 1549	花儿
+T193	Thing-Nominal 1563 1564	吊
+T194	Thing-Nominal 1566 1568	绿萝
+T195	Thing-Nominal 1573 1574	根
+R66	Part-Whole Arg1:T195 Arg2:T194	
+R67	Part-Whole Arg1:T195 Arg2:T193	
+T196	Thing-Nominal 1591 1592	花
+T197	Thing-Nominal 1602 1603	花
+T198	Location-Nominal 1605 1607	室内
+T199	Thing-Nominal 1614 1616	花卉
+R68	Located Arg1:T199 Arg2:T198	
+T200	Thing-Nominal 1620 1622	花儿
+T201	Location-Nominal 1629 1631	屋中
+T202	Thing-Nominal 1643 1644	花
+T203	Thing-Nominal 1651 1652	花
+T204	Thing-Nominal 1654 1655	花
+T205	Person-Nominal 1662 1665	卖花人
+T206	Person-Nominal 1675 1678	卖花人
+T207	Time-Implicit 1693 1695	一日
+T208	Person-Pronoun 1696 1697	我
+T209	Location-Nominal 1698 1700;1701 1702	卖花 处
+T210	Person-Nominal 1707 1710	卖花人
+R69	Social Arg1:T208 Arg2:T210	
+T211	Person-Nominal 1716 1719	卖花人
+T212	Thing-Nominal 1724 1725	花
+T213	Person-Pronoun 1726 1727	您
+R70	Ownership Arg1:T211 Arg2:T212	
+T214	Person-Pronoun 1741 1742	我
+T215	Person-Nominal 1759 1761;1762 1763	卖花 人
+T216	Person-Nominal 1769 1773	勤快的人
+T217	Thing-Nominal 1776 1777	花
+T218	Person-Pronoun 1779 1780	我
+T219	Person-Pronoun 1797 1798	我
+T220	Person-Name 1806 1810	老舍先生
+T221	Person-Pronoun 1813 1814	他
+*	Coreference T220 T221
+T222	Thing-Nominal 1817 1818	花
+T223	Thing-Nominal 1831 1832	花
+T224	Person-Nominal 1842 1846	卖花的人
+T225	Person-Pronoun 1848 1849	我
+T226	Person-Nominal 1853 1857	卖花的人
+T227	Person-Pronoun 1862 1863	我
+T228	Person-Pronoun 1868 1869	我
+T229	Person-Nominal 1874 1878	买花之人
+T230	Thing-Nominal 1884 1885	花
+T231	Thing-Nominal 1889 1890	花
+T232	Metric 1904 1906	一日
+T233	Metric 1909 1911	一日
+T234	Thing-Nominal 1913 1914	水
+T235	Thing-Nominal 1917 1919	花儿
+T236	Thing-Nominal 1935 1937	花儿
+T237	Person-Pronoun 1942 1944	你们
+*	Coreference T229 T237
+T238	Thing-Nominal 1947 1949	花儿
+T239	Thing-Nominal 1957 1959	花儿
+T240	Thing-Nominal 1960 1961	水
+T241	Thing-Nominal 1972 1973	花
+T242	Person-Pronoun 1982 1983	我
+*	Coreference T226 T242
+T243	Person-Nominal 1984 1988	勤快的人
+T244	Person-Pronoun 1991 1992	花
+T245	Person-Pronoun 1993 1995	我们
+T246	Thing-Nominal 1996 1997	花
+T247	Time-Implicit 1999 2004	7―10天
+T248	Thing-Nominal 2006 2007	盆
+T249	Thing-Nominal 2008 2009	土
+R71	Located Arg1:T249 Arg2:T248	
+T250	Thing-Nominal 2011 2014	花叶儿
+T251	Thing-Pronoun 2019 2020	它
+*	Coreference T246 T251
+T252	Thing-Nominal 2021 2022	水
+T253	Time-Implicit 2023 2025	冬天
+T254	Time-Implicit 2030 2032	夏天
+T255	Thing-Nominal 2040 2043	仙人掌
+T256	Thing-Nominal 2044 2048	老虎刺儿
+R72	General-Special Arg1:T255 Arg2:T246	
+R73	General-Special Arg1:T256 Arg2:T246	
+T257	Metric 2051 2055	一两个月
+T258	Person-Nominal 2087 2091	卖花的人
+T259	Person-Pronoun 2099 2101	我们
+T260	Person-Name 2121 2125	老舍先生
+T261	Thing-Nominal 2131 2133	花儿
+T262	Person-Nominal 2143 2144;2145 2147	卖 花人
+T263	Thing-Nominal 2153 2155	花儿
+T264	Location-Nominal 2170 2173	楼房内
+T265	Thing-Nominal 2174 2175	花
+R74	Located Arg1:T265 Arg2:T264	
+T266	Person-Nominal 2180 2183	卖花人
+T267	Thing-Nominal 2198 2200	花儿
+T268	Person-Nominal 2203 2204	人
+T269	Time-Implicit 2214 2216	如今
+T270	Person-Nominal 2217 2219	孩子
+T271	Person-Nominal 2222 2226	独生子女
+R75	General-Special Arg1:T270 Arg2:T271	
+T272	Person-Nominal 2227 2230	几代人
+T273	Person-Nominal 2236 2238	孩子
+T274	Person-Nominal 2245 2247	孩子
+T275	Person-Nominal 2279 2282	许多人
+T276	Person-Nominal 2290 2293	长辈们
+R76	Family Arg1:T276 Arg2:T274	
+T277	Person-Pronoun 2321 2322	我
+T278	Person-Nominal 2323 2324	妻
+T279	Person-Nominal 2325 2327	同事
+T280	Person-Nominal 2328 2330	朋友
+R77	Social Arg1:T277 Arg2:T279	
+R78	Social Arg1:T277 Arg2:T280	
+R79	Social Arg1:T278 Arg2:T279	
+R80	Social Arg1:T278 Arg2:T280	
+T281	Thing-Nominal 2336 2338	花卉
+T282	Person-Nominal 2346 2349	卖花人
+T283	Person-Pronoun 2352 2354	我们
+T284	Thing-Nominal 2361 2363	花儿
+R81	Ownership Arg1:T283 Arg2:T284	
+T285	Time-Implicit 2372 2374	如今
+T286	Person-Pronoun 2374 2375	我
+T287	Location-Nominal 2374 2378	我的家中
+T288	Thing-Nominal 2378 2380	茉莉
+R82	Located Arg1:T288 Arg2:T287	
+T289	Thing-Nominal 2383 2387	令箭荷花
+R83	Located Arg1:T289 Arg2:T287	
+T290	Thing-Nominal 2390 2392	绿萝
+R84	Located Arg1:T290 Arg2:T287	
+T291	Thing-Nominal 2395 2397	瀑布
+T292	Thing-Nominal 2407 2409	火鹤
+R85	Located Arg1:T292 Arg2:T287	
+T293	Thing-Nominal 2414 2419	竹节海棠花
+R86	Located Arg1:T293 Arg2:T287	
+T294	Thing-Nominal 2421 2422	海
+T295	Location-Nominal 2438 2442	室内花园
+T296	Location-Pronoun 2424 2426	这里
+*	Coreference T287 T296 T295
+T297	Person-Pronoun 2449 2451	我们
+T298	Person-Nominal 2453 2456	“懒人
+*	Coreference T297 T298
+R87	General-Special Arg1:T293 Arg2:T284	
+R88	General-Special Arg1:T292 Arg2:T284	
+R89	General-Special Arg1:T290 Arg2:T284	
+R90	General-Special Arg1:T289 Arg2:T284	
+R91	General-Special Arg1:T288 Arg2:T284	

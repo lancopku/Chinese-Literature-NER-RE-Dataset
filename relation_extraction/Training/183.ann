@@ -1,0 +1,270 @@
+T1	Time-Explicit 0 5	1994年
+T2	Person-Pronoun 6 7	我
+T3	Location-Name 9 11	深圳
+T4	Time-Implicit 6 12	我刚来深圳时
+T5	Location-Name 15 21	深圳湾北东岸
+T6	Thing-Nominal 23 26	红树林
+R1	Located Arg1:T6 Arg2:T5	
+T7	Metric 30 35	368公顷
+T8	Location-Nominal 37 39	我国
+T9	Thing-Nominal 39 49	面积最小的自然保护区
+T10	Person-Nominal 53 59	国外生态专家
+T11	Thing-Name 63 70	袖珍型的保护区
+T12	Person-Pronoun 84 85	我
+T13	Time-Implicit 102 104	那时
+T14	Thing-Nominal 105 108	红树林
+T15	Thing-Nominal 119 121;122 123	红树 林
+T16	Person-Pronoun 124 125	我
+T17	Thing-Nominal 128 140	近在咫尺，远在天涯的风景
+T18	Thing-Nominal 148 151	红树林
+T19	Time-Explicit 152 162	2000年的春夏之交
+T20	Time-Implicit 163 165	当时
+*	Coreference T20 T19
+T21	Person-Nominal 166 173	武警六支队的人
+T22	Person-Pronoun 174 175	我
+T23	Person-Nominal 176 179	同事们
+R2	Social Arg1:T23 Arg2:T22	
+T24	Location-Name 182 188	红树林的腹地
+T25	Location-Name 189 196	红树林保护区内
+T26	Thing-Nominal 206 214	沼泽、浅水和林木
+T27	Location-Nominal 222 224	沿海
+T28	Thing-Nominal 225 236	长达9公里的红树林湿地
+R3	Located Arg1:T28 Arg2:T27	
+T29	Metric 227 230	9公里
+T30	Thing-Nominal 237 243	自然生长植物
+T31	Thing-Nominal 244 257	海漆、木榄、秋茄等珍稀树种
+T32	Person-Pronoun 265 266	我
+T33	Thing-Nominal 269 272	红树林
+T34	Thing-Nominal 283 287	金色阳光
+T35	Time-Implicit 296 298	当时
+T36	Thing-Nominal 300 302	海水
+T37	Thing-Nominal 305 312	高高低低的红树
+T38	Thing-Nominal 317 319	根部
+T39	Person-Nominal 327 328	人
+T40	Time-Implicit 345 348	那一天
+T41	Location-Nominal 353 357	木牌子上
+T42	Thing-Nominal 358 368	关于红树林的文字说明
+R4	Located Arg1:T42 Arg2:T41	
+T43	Person-Pronoun 369 370	我
+T44	Thing-Nominal 374 377	红树林
+T45	Thing-Nominal 391 394	红树林
+T46	Thing-Nominal 405 412	海堤的天然卫士
+T47	Thing-Nominal 428 430	石头
+T48	Thing-Nominal 432 434	堤坝
+T49	Thing-Nominal 439 444	深圳红树林
+T50	Thing-Nominal 445 454	香港米埔自然保护区
+T51	Thing-Nominal 486 499	深港边界上最具特色的风景线
+T52	Thing-Nominal 473 482	深圳湾湿地生态系统
+T53	Thing-Nominal 501 508	一片滔滔的海水
+T54	Thing-Nominal 512 517	对面的香港
+T55	Thing-Nominal 522 523	海
+T56	Thing-Nominal 531 543	香港新界元朗的群山与高楼
+T57	Person-Nominal 546 547	人
+T58	Location-Nominal 552 554	我国
+T59	Thing-Nominal 554 564	其他沿海省份的红树林
+T60	Location-Nominal 570 572	远郊
+T61	Thing-Nominal 575 581	深圳的红树林
+T62	Location-Nominal 589 595	城市的胸肌上
+R5	Located Arg1:T61 Arg2:T62	
+T63	Thing-Nominal 598 605	五彩缤纷的缎带
+T64	Location-Name 610 612	深圳
+T65	Person-Name 616 643	世界野生生物(国际)基金会主席、英女王的丈夫菲利普亲王
+T66	Person-Nominal 645 648	英女王
+T67	Time-Implicit 645 651	英女王访华时
+T68	Location-Name 653 655	深圳
+T69	Thing-Nominal 659 666	红树林的观鸟亭
+T70	Thing-Nominal 670 675	深圳湾湿地
+T71	Person-Name 681 705	丹麦野生生物基金会主席、丹麦女王的丈夫亨里克亲王
+T72	Thing-Nominal 714 715	鸟
+T73	Thing-Nominal 718 721	红树林
+T74	Thing-Nominal 734 741	红树林中的小径
+T75	Person-Pronoun 745 747	我们
+T76	Location-Name 750 755	红树林丛中
+T77	Thing-Nominal 756 762	数不清的鸟儿
+R6	Located Arg1:T77 Arg2:T76	
+T78	Thing-Nominal 763 764	鸟
+T79	Thing-Nominal 766 771	透明的雨滴
+T80	Person-Nominal 778 779	人
+T81	Person-Nominal 784 785	人
+T82	Location-Nominal 794 798	一株树上
+T83	Thing-Nominal 800 806	60多只白鹭
+R7	Located Arg1:T83 Arg2:T82	
+T84	Person-Pronoun 807 808	谁
+T85	Location-Name 813 815	深圳
+T86	Thing-Nominal 815 822	这么繁华的都市
+T87	Thing-Nominal 827 831	鸟的天堂
+T88	Location-Nominal 832 836	这片城中
+T89	Thing-Nominal 836 841	天然生态林
+R8	Located Arg1:T89 Arg2:T88	
+T90	Thing-Nominal 844 850	各种珍稀候鸟
+T91	Location-Name 859 864	深圳红树林
+T92	Thing-Nominal 866 868	鸟类
+T93	Metric 872 876	194种
+T94	Metric 879 882	24种
+T95	Thing-Nominal 885 899	国际、国内重点保护的珍稀品种
+T96	Location-Pronoun 902 904	这里
+*	Coreference T96 T91
+T97	Thing-Nominal 906 914;915 916	国家级的鸟类保护 区
+T98	Time-Implicit 917 921	每年冬天
+T99	Location-Name 922 932	深圳湾红树林滩涂上空
+T100	Thing-Nominal 932 934	万鸟
+R9	Located Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 937 940	白琴鹭
+T102	Thing-Nominal 941 944	黑嘴鸥
+T103	Thing-Nominal 945 949	小青脚鹬
+T104	Metric 955 960	10万多只
+T105	Thing-Nominal 955 962	10万多只侯鸟
+T106	Thing-Nominal 973 983	深圳红树林自然保护区
+T107	Time-Explicit 988 993	1984年
+T108	Time-Implicit 994 996	当时
+*	Coreference T108 T107
+T109	Thing-Nominal 998 1002	一条老路
+T110	Location-Pronoun 1004 1006	这里
+T111	Person-Nominal 1007 1012	当地的渔民
+T112	Location-Pronoun 1013 1015	这里
+T113	Thing-Nominal 1022 1026	基围鱼塘
+T114	Thing-Nominal 1027 1028	鱼
+T115	Thing-Nominal 1032 1033;1034 1035	果 园
+T116	Time-Explicit 1036 1041	1988年
+T117	Thing-Nominal 1042 1048	深圳红树林成
+T118	Thing-Nominal 1049 1060	国家级红树林自然保护区
+*	Coreference T118 T117
+T119	Thing-Nominal 1062 1072	如今的红树林海滨公园
+T120	Thing-Nominal 1074 1075	海
+T121	Location-Pronoun 1080 1082	这里
+T122	Location-Nominal 1085 1095	规划给滨海大道的用地
+T123	Thing-Nominal 1099 1107	规划中的滨海大道
+T124	Location-Nominal 1109 1116	保护区的核心区
+T125	Person-Nominal 1127 1131	人大代表
+T126	Organization-Nominal 1132 1135	管理局
+T127	Person-Nominal 1136 1138	市民
+T128	Organization-Name 1144 1152	深圳市委、市政府
+T129	Person-Nominal 1154 1155	民
+T130	Thing-Nominal 1159 1163	滨海大道
+T131	Thing-Nominal 1164 1167	红树林
+T132	Metric 1174 1179	200多米
+T133	Time-Explicit 1180 1183;1184 1186	199 9年
+T134	Thing-Nominal 1187 1203	这一片已经填海且靠近保护区的滩涂
+T135	Thing-Nominal 1207 1211	海滨公园
+R10	Part-Whole Arg1:T134 Arg2:T135	
+T136	Time-Explicit 1212 1220	2000年12月
+T137	Thing-Nominal 1225 1227	公园
+T138	Metric 1229 1233	21公顷
+T139	Thing-Nominal 1245 1252	400多种植物
+T140	Metric 1245 1250	400多种
+T141	Location-Nominal 1255 1259	保护区里
+T142	Thing-Nominal 1270 1277	红树林海滨公园
+T143	Person-Nominal 1284 1288	深圳市民
+T144	Thing-Nominal 1294 1300	那绿绿的草地
+T145	Thing-Nominal 1301 1308	高高的热带树木
+T146	Thing-Nominal 1309 1315	五颜六色的花
+T147	Thing-Nominal 1316 1321	湿润的海风
+T148	Thing-Nominal 1324 1329	成群的鸟儿
+T149	Location-Nominal 1331 1336	海面和树上
+R11	Located Arg1:T148 Arg2:T149	
+T150	Location-Name 1339 1344	红树林公园
+T151	Person-Nominal 1350 1354	深圳人的
+T152	Location-Nominal 1350 1357	深圳人的好去处
+T153	Location-Pronoun 1359 1361	这里
+*	Coreference T153 T150
+T154	Person-Nominal 1362 1364	人们
+T155	Thing-Nominal 1379 1380	鸟
+T156	Thing-Nominal 1389 1391	清风
+T157	Thing-Nominal 1401 1403	公园
+T158	Time-Implicit 1401 1407	公园建成初期
+T159	Thing-Nominal 1408 1413	红树林腹地
+T160	Person-Nominal 1422 1424	游客
+T161	Thing-Nominal 1434 1444	现在的红树林海滨公园
+T162	Location-Nominal 1449 1455	红树林的外围
+T163	Time-Explicit 1457 1462	前年12月
+T164	Person-Nominal 1466 1476	一个来自外地的摄影家
+T165	Location-Name 1477 1483	红树林观鸟亭
+T166	Person-Pronoun 1484 1485	我
+T167	Location-Name 1490 1495	红树林腹地
+T168	Metric 1500 1503	十几年
+T169	Location-Pronoun 1506 1508	这里
+T170	Thing-Nominal 1506 1512	这里的红树林
+T171	Thing-Nominal 1519 1529	黑黝黝连成一片的林子
+T172	Location-Nominal 1532 1538	平静的海面上
+R12	Located Arg1:T171 Arg2:T172	
+T173	Thing-Nominal 1541 1548	无比清澈的风景
+T174	Person-Nominal 1550 1551	人
+T175	Location-Name 1556 1560;1561 1563	红树林的 尽头
+T176	Thing-Nominal 1556 1559	红树林
+T177	Thing-Nominal 1568 1573	长长的浮桥
+R13	Located Arg1:T177 Arg2:T175	
+T178	Thing-Nominal 1574 1586	曲曲弯弯、摇摇摆摆的浮桥
+T179	Person-Nominal 1592 1593	人
+T180	Location-Nominal 1589 1591	上面
+T181	Location-Nominal 1605 1608	桥两边
+T182	Thing-Nominal 1609 1612	红树林
+R14	Located Arg1:T182 Arg2:T181	
+T183	Location-Nominal 1617 1621	树上树下
+T184	Thing-Nominal 1624 1626	鸟儿
+R15	Located Arg1:T184 Arg2:T183	
+T185	Thing-Nominal 1632 1634	浮桥
+T186	Location-Nominal 1646 1648	海上
+T187	Thing-Nominal 1649 1657	小木屋――观鸟亭
+R16	Located Arg1:T187 Arg2:T186	
+T188	Location-Name 1660 1663	观鸟亭
+T189	Person-Pronoun 1664 1665	我
+T190	Thing-Nominal 1670 1681	凉生生、湿漉漉的空气，
+T191	Thing-Nominal 1684 1690	深圳湾的海域
+T192	Thing-Nominal 1702 1707	鸟亭的窗口
+T193	Location-Nominal 1717 1719	海上
+T194	Thing-Nominal 1722 1728	鸟儿们的羽毛
+T195	Thing-Nominal 1722 1725	鸟儿们
+R17	Located Arg1:T195 Arg2:T193	
+T196	Thing-Nominal 1733 1744	深圳红树林海滨生态公园
+T197	Person-Nominal 1757 1762	海内外游客
+T198	Location-Name 1754 1756	深圳
+T199	Thing-Nominal 1769 1780	沿海岸逶迤的红树林风光
+T200	Location-Nominal 1770 1772	海岸
+R18	Located Arg1:T199 Arg2:T200	
+T201	Thing-Nominal 1792 1797	数万只水鸟
+T202	Person-Nominal 1807 1812	外地的朋友
+T203	Person-Pronoun 1814 1815	我
+T204	Person-Pronoun 1821 1823	他们
+*	Coreference T204 T202
+T205	Thing-Nominal 1825 1828	红树林
+T206	Location-Nominal 1833 1835	海滨
+T207	Thing-Nominal 1838 1843	无数的鸟儿
+T208	Location-Nominal 1844 1847	滩涂上
+R19	Located Arg1:T207 Arg2:T208	
+T209	Person-Nominal 1854 1857	朋友们
+T210	Thing-Nominal 1862 1867	惊喜的眼睛
+T211	Location-Nominal 1870 1873	不远处
+T212	Thing-Nominal 1878 1887	深圳这面的高楼大厦
+T213	Person-Nominal 1889 1891	朋友
+T214	Thing-Nominal 1924 1936	通向香港的深圳湾跨海大桥
+T215	Thing-Nominal 1937 1949	这两岸的高楼群和跨海大桥
+T216	Location-Name 1964 1968	深港地区
+T217	Location-Nominal 1937 1940	这两岸
+R20	Located Arg1:T215 Arg2:T217	
+T218	Thing-Nominal 1978 1988	这海面、群山、红树林
+T219	Time-Explicit 2025 2029	去年夏天
+T220	Person-Nominal 2032 2046	一位来自长江边上写散文的枫弟
+T221	Location-Name 2047 2050	红树林
+T222	Time-Explicit 2051 2055	时值黄昏
+T223	Thing-Nominal 2056 2060	整个海面
+T224	Thing-Nominal 2062 2064	夕阳
+T225	Thing-Nominal 2077 2083	红树林的园林
+T226	Thing-Nominal 2088 2108	碧绿、鹅黄、粉红、深红这样缤纷色彩的花朵
+T227	Thing-Nominal 2135 2143	这片美丽的红树林
+T228	Location-Name 2148 2150	深圳
+T229	Time-Explicit 2162 2169	上世纪50年代
+T230	Person-Nominal 2172 2176	内蒙古人
+T231	Metric 2183 2185	多年
+T232	Person-Nominal 2179 2183	报刊编辑
+T233	Person-Nominal 2188 2196	中国作家协会会员
+T234	Person-Nominal 2197 2210	深圳市福田区作家协会副主席
+T235	Abstract 2217 2222;2223 2225	《微笑的情 怀》
+T236	Abstract 2226 2235	《没有翅膀的飞翔》
+T237	Abstract 2236 2245	《万水千山总是情》
+T238	Abstract 2245 2251	《秀庐漫笔》
+T239	Abstract 2257 2263	《大爱辉煌》
+T240	Location-Nominal 265 268	我眼前
+R21	Located Arg1:T33 Arg2:T240	
+T241	Location-Nominal 554 560	其他沿海省份
+R22	Located Arg1:T59 Arg2:T241	
+R23	Located Arg1:T59 Arg2:T60	

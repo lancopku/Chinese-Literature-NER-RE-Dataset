@@ -1,0 +1,107 @@
+T1	Location-Name 0 5	西班牙昆卡
+T2	Thing-Nominal 9 13	古老城墙
+T3	Location-Nominal 17 21	旅游胜地
+R1	General-Special Arg1:T1 Arg2:T3	
+R2	Located Arg1:T2 Arg2:T1	
+T4	Location-Name 39 41	昆卡
+T5	Person-Nominal 53 55	游客
+T6	Person-Nominal 82 89	中国武汉的学生
+T7	Location-Name 82 86	中国武汉
+T8	Person-Pronoun 90 92	我们
+R3	General-Special Arg1:T6 Arg2:T8	
+T9	Location-Name 98 100	昆卡
+T10	Thing-Nominal 102 103	陶
+T11	Abstract 109 111	陶艺
+T12	Organization-Name 114 116	中国
+T13	Organization-Name 117 120	西班牙
+T14	Thing-Nominal 126 128	纽带
+T15	Thing-Nominal 143 145	桥梁
+T16	Person-Pronoun 146 148	我们
+T17	Abstract 150 152	陶艺
+T18	Metric 165 167	千年
+T19	Thing-Nominal 186 188	陶器
+T20	Person-Nominal 208 210	人们
+T21	Thing-Nominal 220 222	黏土
+T22	Thing-Nominal 223 224	水
+T23	Thing-Nominal 262 264	陶器
+T24	Organization-Name 287 289	中国
+T25	Thing-Nominal 290 291	陶
+T26	Time-Explicit 295 302	6000多年前
+T29	Time-Explicit 327 329	唐代
+T30	Thing-Nominal 329 333	三彩陶俑
+T31	Abstract 338 344	中国陶塑艺术
+T27	Abstract 304 308	中国陶艺
+T28	Organization-Name 354 357	西班牙
+T32	Time-Implicit 357 359	早期
+T33	Person-Nominal 360 364	阿拉伯人
+T34	Location-Name 366 368	中亚
+T35	Thing-Nominal 372 373	陶
+T36	Abstract 385 390	西班牙陶艺
+T37	Abstract 393 397	基督文化
+T38	Abstract 398 402	回教文化
+T39	Organization-Name 406 409	西班牙
+T40	Organization-Name 421 424	西班牙
+T41	Thing-Nominal 444 445	陶
+T42	Organization-Name 481 484	西班牙
+T43	Thing-Nominal 485 488	陶艺品
+R4	Create Arg1:T42 Arg2:T43	
+T44	Person-Nominal 575 579	艺术大师
+T45	Person-Pronoun 581 583	我们
+T46	Person-Name 591 600	西班牙的毕加索先生
+R5	General-Special Arg1:T46 Arg2:T44	
+T47	Person-Pronoun 601 602	他
+T48	Person-Nominal 607 610	绘画家
+*	Coreference T47 T48 T49
+T49	Person-Nominal 619 622	陶艺师
+T50	Person-Pronoun 623 624	他
+T51	Thing-Nominal 626 627	陶
+T52	Time-Explicit 630 634	二十世纪
+T53	Abstract 635 640	西方艺术史
+T54	Thing-Nominal 648 649	笔
+T55	Person-Pronoun 650 651	他
+T56	Thing-Nominal 654 657	陶艺品
+R6	Create Arg1:T55 Arg2:T56	
+T57	Person-Pronoun 669 670	他
+T58	Person-Nominal 676 678	女人
+T59	Thing-Nominal 689 691	动物
+T60	Thing-Nominal 692 694	山羊
+T61	Person-Pronoun 698 699	他
+T62	Thing-Nominal 710 713	陶艺品
+R7	Create Arg1:T61 Arg2:T62	
+T63	Abstract 721 723	陶艺
+T64	Time-Implicit 719 721	现代
+T65	Thing-Nominal 732 737	西班牙陶艺
+T66	Thing-Nominal 745 749	昆卡陶艺
+T67	Location-Name 751 753	昆卡
+T68	Abstract 754 758	制陶艺术
+T69	Organization-Name 759 762	西班牙
+T70	Thing-Nominal 773 778	昆卡的陶器
+T71	Thing-Nominal 787 791	手工艺品
+R8	General-Special Arg1:T70 Arg2:T71	
+T72	Thing-Nominal 799 809	昆卡的陶器制作工艺品
+T73	Location-Nominal 785 787	当地
+*	Coreference T73 T67
+T74	Person-Nominal 814 816	工匠
+T75	Location-Nominal 812 814	当地
+T76	Person-Nominal 825 827	游客
+T77	Person-Pronoun 830 832	我们
+T78	Abstract 835 837	陶艺
+T79	Organization-Nominal 839 841	学校
+T80	Location-Nominal 846 848	校园
+T81	Location-Nominal 850 853	陶艺吧
+T82	Location-Nominal 854 858	陶艺展厅
+R9	Part-Whole Arg1:T81 Arg2:T80	
+R10	Part-Whole Arg1:T82 Arg2:T80	
+T83	Thing-Nominal 863 867	昆卡陶艺
+T84	Location-Name 869 871	中国
+T85	Thing-Nominal 874 878	中国陶艺
+T86	Location-Name 881 883	昆卡
+T87	Location-Name 886 888	武汉
+T88	Location-Name 890 892	昆卡
+T89	Abstract 910 914	制陶艺术
+T90	Thing-Nominal 945 947	纽带
+T91	Person-Pronoun 948 950	我们
+T92	Location-Name 952 954	昆卡
+T93	Abstract 955 957	陶艺
+T94	Person-Nominal 976 980	艺术大师
+T95	Metric 989 991	千年

@@ -1,0 +1,186 @@
+T1	Time-Implicit 5 9	农历五月
+T2	Time-Implicit 27 29	五月
+T3	Thing-Nominal 29 31	骄阳
+T4	Thing-Nominal 37 39	热气
+T5	Location-Nominal 34 37	地面上
+R1	Located Arg1:T4 Arg2:T5	
+T6	Time-Implicit 47 49	五月
+T7	Thing-Nominal 50 51	雨
+T8	Person-Nominal 52 53	人
+T9	Thing-Nominal 54 56	梅雨
+R2	General-Special Arg1:T7 Arg2:T9	
+T10	Location-Name 58 60	人间
+R3	Located Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 62 64	河堤
+T12	Thing-Nominal 65 66	口
+R4	Part-Whole Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 67 69	洪水
+R5	Located Arg1:T12 Arg2:T13	
+T14	Time-Implicit 84 88	农历五月
+T15	Location-Name 89 91	江南
+T16	Thing-Nominal 89 94	江南的梅子
+R6	Located Arg1:T16 Arg2:T15	
+T17	Time-Implicit 100 103	这时候
+*	Coreference T17 T14
+T18	Thing-Nominal 104 106	梅雨
+T19	Thing-Nominal 120 122	农田
+T20	Thing-Nominal 125 127	庄稼
+R7	Located Arg1:T20 Arg2:T19	
+T21	Time-Implicit 132 134	五月
+*	Coreference T6 T1 T44
+T22	Thing-Nominal 132 136	五月的风
+T23	Thing-Nominal 144 146	南风
+T24	Person-Nominal 151 152	人
+T25	Thing-Nominal 135 136	风
+R8	General-Special Arg1:T25 Arg2:T22	
+R9	General-Special Arg1:T25 Arg2:T23	
+T26	Thing-Nominal 161 163	地面
+T27	Thing-Nominal 167 169	尘土
+R10	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 174 176	禾苗
+T29	Thing-Nominal 178 179	叶
+R11	Part-Whole Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 182 184	秧田
+T31	Thing-Nominal 182 187	秧田的泥土
+R12	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 189 190	纸
+T33	Person-Nominal 191 192;193 195	农 民们
+T34	Thing-Nominal 199 201	甘霖
+T35	Thing-Nominal 204 206	禾苗
+R13	Use Arg1:T33 Arg2:T34	
+T36	Time-Implicit 219 221	五月
+T37	Thing-Nominal 221 223	南风
+T38	Thing-Nominal 224 226	大水
+T39	Thing-Nominal 227 231	好大的风
+T40	Thing-Nominal 231 235	好大的水
+*	Coreference T39 T37
+*	Coreference T40 T38
+T41	Thing-Nominal 244 246	南风
+T42	Thing-Nominal 255 257	大雨
+T43	Time-Implicit 269 276	小暑、大暑节气
+T44	Time-Implicit 282 287	农历五月份
+T45	Time-Implicit 290 295	这两个节气
+*	Coreference T45 T43 T111
+T46	Thing-Nominal 305 306	雨
+T47	Time-Implicit 320 322	小暑
+T48	Thing-Nominal 323 324	雷
+T49	Time-Implicit 325 327	大暑
+T50	Thing-Nominal 328 329	圩
+T51	Time-Implicit 337 341	小暑节气
+*	Coreference T51 T47
+T52	Time-Implicit 345 349	大暑节气
+*	Coreference T52 T49
+T53	Thing-Nominal 343 344	雨
+T54	Thing-Nominal 354 356	大雨
+R14	General-Special Arg1:T53 Arg2:T54	
+T55	Person-Name 379 381	关公
+T56	Person-Nominal 388 399	家喻户晓人人皆知的英雄
+R15	General-Special Arg1:T56 Arg2:T55	
+T57	Person-Nominal 403 405	人们
+T58	Person-Name 409 411	关公
+T59	Person-Nominal 417 419	真神
+R16	General-Special Arg1:T59 Arg2:T58	
+T60	Abstract 424 426	大旱
+T61	Time-Implicit 429 435	农历五月十三
+T62	Thing-Nominal 442 443	雨
+T63	Person-Name 444 448	关公老爷
+*	Coreference T63 T58 T65 T66
+T64	Thing-Nominal 449 451	大刀
+R17	Use Arg1:T63 Arg2:T64	
+T65	Person-Name 458 461	关公爷
+T66	Person-Pronoun 462 463	他
+T67	Location-Name 467 469	天庭
+T68	Time-Implicit 488 492	五月十三
+T69	Person-Name 493 495	关公
+T70	Thing-Nominal 496 498	大刀
+T71	Thing-Nominal 505 507	甘霖
+T72	Location-Nominal 499 500	天
+T73	Thing-Nominal 516 518	甘雨
+T74	Time-Implicit 513 519	久旱逢甘雨时
+T75	Time-Implicit 525 532	五月十七、十八
+T76	Thing-Nominal 534 536	街头
+T77	Time-Implicit 550 560	五月十七、十八这两天
+*	Coreference T77 T75 T86
+T78	Location-Nominal 561 562	天
+T79	Thing-Nominal 566 568	甘霖
+T80	Person-Nominal 575 579	哪位曾神
+T81	Person-Nominal 596 600	这位曾神
+*	Coreference T81 T80
+T82	Thing-Nominal 581 584;585 586	大量的 水
+R18	Use Arg1:T80 Arg2:T82	
+T83	Thing-Nominal 589 593	街头巷尾
+R19	Use Arg1:T80 Arg2:T83	
+T84	Person-Name 606 608	雷公
+T85	Person-Name 609 612	龙王爷
+T86	Time-Implicit 621 624	这两天
+T87	Person-Name 625 627	雷公
+T88	Person-Name 628 631	龙王爷
+T89	Thing-Nominal 637 638	雨
+R20	Social Arg1:T81 Arg2:T84	
+R21	Social Arg1:T81 Arg2:T85	
+T90	Time-Implicit 641 645	五月十九
+T91	Time-Implicit 646 651	老乌龟法日
+*	Coreference T91 T90 T95 T98 T103
+T92	Thing-Nominal 657 661	一只神龟
+T93	Thing-Nominal 674 675	江
+T94	Thing-Nominal 676 677	海
+T95	Time-Implicit 686 693	五月十九这一天
+T96	Thing-Nominal 695 697	神龟
+*	Coreference T96 T92 T99
+T97	Metric 657 659	一只
+T98	Time-Implicit 697 700;701 707	每年照 例做法的日子
+T99	Thing-Pronoun 708 709	它
+T100	Thing-Nominal 711 715	天降雨水
+T101	Person-Name 723 725	龙王
+T102	Person-Name 726 728	雷公
+T103	Time-Implicit 718 722	这个日子
+T104	Thing-Nominal 733 734	雨
+T105	Time-Implicit 737 742	五月二十五
+T106	Thing-Nominal 744 746	龙袍
+T107	Time-Implicit 753 755	五月
+T108	Time-Implicit 756 761	多雨的月份
+T109	Thing-Nominal 762 764	梅雨
+T110	Time-Implicit 765 767	此月
+T111	Time-Implicit 770 775	小大暑节气
+T112	Time-Implicit 776 778	此月
+*	Coreference T110 T107
+T113	Time-Implicit 784 786	五月
+T114	Thing-Nominal 787 788	风
+T115	Thing-Nominal 789 790	雨
+T116	Time-Implicit 792 796;797 803	每年的农 历五月二十五
+*	Coreference T116 T105 T131
+T117	Person-Name 806 808	龙王
+T118	Thing-Nominal 809 811	龙袍
+R22	Ownership Arg1:T117 Arg2:T118	
+R23	Use Arg1:T117 Arg2:T118	
+T119	Person-Name 815 817	龙王
+T120	Person-Pronoun 824 825	它
+*	Coreference T120 T119 T123
+T121	Thing-Nominal 828 829	风
+T122	Thing-Nominal 830 831	雨
+T123	Person-Pronoun 837 838	它
+T124	Location-Name 841 844	人世间
+T125	Thing-Nominal 844 845	风
+T126	Thing-Nominal 846 847	雨
+T127	Thing-Nominal 858 862	广袤大地
+T128	Time-Implicit 869 871	五月
+T129	Thing-Nominal 871 872	风
+T130	Thing-Nominal 873 874	雨
+T131	Time-Implicit 879 887	五月二十五这一天
+T132	Thing-Nominal 892 893	风
+T133	Thing-Nominal 894 895	雨
+T134	Person-Name 898 900	龙王
+T135	Thing-Nominal 902 904	龙袍
+T136	Time-Implicit 907 912	多雨的五月
+*	Coreference T136 T128
+T137	Person-Nominal 913 915	人们
+T138	Time-Implicit 922 927	五月二十五
+T139	Thing-Nominal 930 931	雨
+T140	Thing-Nominal 934 938	五月的雨
+R24	General-Special Arg1:T139 Arg2:T140	
+T141	Time-Implicit 934 936	五月
+T142	Thing-Nominal 947 948	雨
+T143	Thing-Nominal 950 951	雨
+T144	Thing-Nominal 964 965	雨
+T145	Thing-Nominal 967 968	雨
+T146	Person-Nominal 974 976	人们

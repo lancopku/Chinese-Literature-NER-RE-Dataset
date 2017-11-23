@@ -1,0 +1,260 @@
+T1	Time-Implicit 14 21	青涩的学生时代
+T2	Person-Pronoun 24 25	我
+T4	Thing-Nominal 33 44	一坛没有打开的陈年老酒
+T5	Person-Pronoun 52 53	我
+T6	Time-Implicit 63 71	今年夏秋相交之际
+T7	Time-Implicit 81 86	半个多世纪
+T8	Person-Nominal 91 93	导游
+T9	Person-Pronoun 107 108	我
+T10	Person-Pronoun 113 114	她
+*	Coreference T10 T8 T11
+T11	Person-Pronoun 116 117	我
+T12	Person-Name 120 123	蒋介石
+T13	Person-Nominal 130 132	小姐
+T14	Person-Pronoun 141 142	我
+T15	Person-Pronoun 148 149	我
+T16	Thing-Nominal 155 157	狗肉
+T17	Person-Pronoun 158 160	我们
+T18	Location-Nominal 158 162	我们这里
+T19	Person-Nominal 163 165	朋友
+T20	Person-Nominal 174 177	大学生
+T21	Person-Nominal 178 182	学校老师
+T22	Person-Nominal 184 187	没有人
+T23	Person-Pronoun 188 189	她
+T24	Person-Pronoun 196 197	她
+T26	Thing-Nominal 209 218	一件荷
+绿色的上衣
+T27	Person-Nominal 220 222	游客
+T28	Person-Pronoun 238 239	我
+T29	Person-Nominal 242 244	朋友
+T30	Thing-Nominal 245 247	狗肉
+T31	Person-Pronoun 268 270	我们
+T32	Location-Name 271 278	桂林磨盘山港口
+T33	Thing-Nominal 279 281	游船
+T34	Location-Name 283 285	漓江
+T35	Location-Name 291 293	阳朔
+T36	Metric 294 297	80里
+T37	Person-Name 300 302	小蒋
+T38	Location-Name 303 305	桂林
+T39	Abstract 310 315	喀斯特地貌
+T40	Person-Pronoun 316 317	我
+T41	Abstract 322 325	喀斯特
+T42	Location-Nominal 329 331	这里
+T43	Thing-Nominal 329 333	这里的山
+R1	Located Arg1:T43 Arg2:T42	
+T44	Location-Nominal 336 338	别处
+T45	Thing-Nominal 372 376	广州的山
+T46	Location-Name 372 374	广州
+R2	Located Arg1:T45 Arg2:T46	
+T47	Person-Nominal 397 399	老人
+T48	Location-Name 403 408	陕西的华山
+T50	Person-Nominal 416 436	一位伟岸、挺拔、冷峻而目空一切的北方刀客
+T51	Location-Nominal 432 434	北方
+T52	Thing-Nominal 437 441	桂林的山
+T53	Location-Name 437 439	桂林
+R3	Located Arg1:T52 Arg2:T53	
+T54	Person-Nominal 445 450;451 457	正值妙龄打 扮入时的少女
+T55	Person-Pronoun 461 462	她
+*	Coreference T55 T54
+T56	Person-Nominal 472 474	别人
+T57	Person-Nominal 491 493	游人
+T58	Location-Nominal 494 496	江中
+T59	Person-Pronoun 519 520	我
+T60	Abstract 523 528	《爱莲说》
+T61	Thing-Nominal 530 531	莲
+T62	Thing-Nominal 548 552	桂林山水
+T63	Location-Name 548 550	桂林
+R4	Located Arg1:T62 Arg2:T63	
+T65	Location-Pronoun 567 569	这里
+T66	Thing-Nominal 575 577	游船
+T68	Person-Nominal 611 613	自己
+T69	Metric 633 636	80里
+T70	Location-Nominal 633 639	80里水路上
+T71	Thing-Nominal 647 651	碧绿的山
+T72	Thing-Nominal 652 658	波澜不惊的水
+T73	Person-Nominal 659 660	人
+T74	Person-Pronoun 670 671	我
+T75	Person-Nominal 673 675	自己
+T76	Thing-Nominal 677 683	来自井底的蛙
+T77	Location-Name 726 732	“九马画山”
+T78	Person-Name 736 738	女娲
+T79	Metric 746 748	一块
+T80	Thing-Nominal 748 752	补天石头
+T81	Thing-Pronoun 758 759	它
+*	Coreference T81 T80
+T82	Location-Nominal 761 765	漓江一侧
+T83	Location-Name 761 763	漓江
+T84	Location-Nominal 808 814	白色的石面上
+T85	Person-Nominal 841 843	人们
+T86	Person-Nominal 854 856	前人
+T88	Thing-Nominal 862 865	九匹马
+T89	Location-Nominal 857 860	那上边
+T90	Thing-Nominal 867 869	白马
+T91	Thing-Nominal 869 871	黑马
+T92	Thing-Nominal 872 874	老马
+T93	Thing-Nominal 874 876	马驹
+T94	Person-Nominal 897 899	凡人
+T95	Person-Nominal 908 910	知县
+T97	Thing-Nominal 918 921	五匹马
+T98	Time-Explicit 922 926	六十年代
+T99	Person-Name 926 931	陈毅副总理
+T101	Person-Name 933 936	周恩来
+T102	Location-Name 938 940	漓江
+T103	Person-Nominal 941 943	总理
+*	Coreference T103 T101
+T104	Person-Pronoun 944 945	他
+R5	Ownership Arg1:T104 Arg2:T102	
+T105	Metric 948 950	七匹
+T106	Thing-Nominal 950 951	马
+T107	Person-Name 952 954	陈毅
+T108	Metric 959 961	五匹
+T109	Person-Nominal 962 964	有人
+T110	Person-Name 965 967	陈毅
+T111	Person-Nominal 974 976	自己
+T112	Person-Nominal 982 984	上司
+T113	Person-Pronoun 987 988	我
+T114	Person-Name 992 995	陈老总
+T115	Person-Nominal 1012 1014	今人
+T116	Person-Nominal 1024 1026	故人
+T118	Person-Pronoun 1045 1046	我
+T119	Thing-Nominal 1052 1054	游船
+T120	Location-Name 1056 1059;1060 1061	九马画 山
+T121	Metric 1062 1065	三分钟
+T122	Time-Implicit 1051 1059;1060 1066	在游船经过九马画 山的三分钟里
+T124	Thing-Nominal 1083 1086	两匹马
+T125	Location-Nominal 1107 1113	我们的游船旁
+T126	Location-Name 1118 1120	阳朔
+T127	Thing-Nominal 1120 1127	逆水而来的游船
+T128	Metric 1139 1141	三层
+T129	Location-Nominal 1139 1145	三层大阳台上
+T130	Person-Nominal 1145 1150	观景的人们
+T131	Thing-Nominal 1172 1174	竹排
+T132	Person-Nominal 1171 1176	乘竹排之人
+T133	Location-Nominal 1177 1179	江面
+T134	Location-Nominal 1194 1200	竹制的躺椅上
+T135	Thing-Nominal 1194 1199	竹制的躺椅
+T137	Thing-Nominal 1200 1214	一顶或红、或绿、或黄色的花伞
+R6	Located Arg1:T137 Arg2:T134	
+T138	Person-Nominal 1230 1231	人
+T139	Person-Pronoun 1236 1238	他们
+T140	Person-Nominal 1240 1247	没有随团的散客
+*	Coreference T140 T139
+T141	Location-Nominal 1252 1254	江边
+T142	Location-Nominal 1255 1260	小小竹排上
+T144	Person-Nominal 1262 1266	一位老翁
+T145	Location-Nominal 1272 1274	身旁
+T146	Thing-Nominal 1276 1278	竹篓
+R7	Located Arg1:T146 Arg2:T145	
+T147	Location-Nominal 1267 1268	头
+T148	Thing-Nominal 1269 1271	斗笠
+R8	Located Arg1:T148 Arg2:T147	
+T149	Location-Nominal 1279 1282	竹排上
+T150	Thing-Nominal 1282 1291	那只灰褐色的鱼
+鹰
+R9	Located Arg1:T150 Arg2:T149	
+T151	Location-Nominal 1301 1303	江中
+T152	Thing-Nominal 1304 1305	鱼
+T153	Person-Pronoun 1307 1308	我
+T154	Person-Nominal 1312 1314	渔翁
+T155	Person-Nominal 1342 1343	人
+T156	Thing-Nominal 1357 1359	游船
+T157	Location-Name 1362 1368	“半边奇渡”
+T158	Location-Pronoun 1378 1379	它
+*	Coreference T158 T157
+T159	Thing-Nominal 1383 1385	渡船
+T160	Location-Pronoun 1395 1397	这里
+T161	Thing-Nominal 1395 1400	这里的渡船
+T162	Location-Pronoun 1411 1413	这里
+T163	Location-Nominal 1424 1427	山两边
+T164	Person-Nominal 1424 1429	山两边的人
+T167	Location-Nominal 1440 1443	上半边
+T169	Person-Nominal 1455 1458	当地人
+T170	Location-Name 1483 1485	漓江
+T171	Location-Pronoun 1496 1497	它
+T172	Location-Name 1502 1508	“黄布风光”
+*	Coreference T172 T171 T173
+T173	Location-Pronoun 1509 1511	这里
+T174	Thing-Nominal 1521 1523	群峰
+T175	Location-Nominal 1524 1526	江中
+T176	Metric 1548 1551	二十元
+T177	Location-Name 1592 1598	“鲤鱼挂壁”
+T178	Person-Name 1604 1606	王母
+T179	Location-Name 1604 1608	王母瑶池
+T180	Thing-Nominal 1612 1614	鲤鱼
+T181	Location-Name 1633 1635	漓江
+T182	Metric 1639 1641	千年
+T183	Location-Nominal 1643 1645	江边
+R10	Located Arg1:T180 Arg2:T183	
+T184	Location-Name 1654 1665	“漓江迎宾”“羊角山”
+T185	Location-Name 1669 1680	“草坪风光”“冲天峰”
+T186	Location-Name 1681 1683	漓江
+T187	Person-Name 1693 1698	“蒋狗肉”
+T188	Location-Name 1700 1706;1707 1708	繁华的阳朔西 街
+T189	Metric 1709 1713	四五十家
+T190	Organization-Nominal 1713 1715	店铺
+T191	Location-Name 1719 1721	桂林
+T192	Person-Nominal 1733 1746	中国人洋女婿、洋媳妇的老外
+T193	Location-Name 1754 1756	桂林
+T194	Person-Nominal 1768 1770	老外
+T195	Person-Nominal 1777 1780	中国人
+T196	Person-Name 1784 1786	陈毅
+T197	Location-Name 1820 1822	桂林
+T198	Metric 1826 1829	几十万
+T199	Organization-Nominal 1841 1844	旅行社
+T200	Metric 1846 1852	一百七十多家
+T201	Person-Nominal 1853 1856	年轻人
+T202	Metric 1856 1862	百分之七八十
+T203	Organization-Name 1891 1894	桂林市
+T204	Person-Nominal 1891 1898	桂林市历届领导
+T205	Thing-Nominal 1944 1947	市政府
+T206	Metric 1949 1952	几十里
+T207	Location-Name 1949 1957	几十里外的临桂县
+T208	Person-Pronoun 1959 1961	他们
+T209	Person-Nominal 1975 1976	人
+T210	Location-Name 1982 1984	桂林
+T211	Thing-Nominal 1985 1986	山
+T212	Thing-Nominal 1987 1988	水
+T213	Person-Nominal 1989 1990	人
+R11	Located Arg1:T211 Arg2:T210	
+R12	Located Arg1:T212 Arg2:T210	
+T214	Location-Name 1993 1995	漓江
+T215	Abstract 1998 2003	《刘三姐》
+T216	Person-Name 2014 2019	“蒋狗肉”
+T217	Person-Name 2021 2024	刘三姐
+T218	Person-Name 2038 2041	刘三姐
+T219	Person-Pronoun 2078 2079	她
+*	Coreference T219 T216
+T220	Person-Nominal 2093 2095	游客
+T221	Person-Pronoun 2106 2108	我们
+T222	Person-Name 2112 2117	“蒋狗肉”
+T223	Person-Nominal 2120 2121	谁
+T224	Person-Pronoun 2142 2143	她
+T225	Organization-Name 2146 2148	汉族
+T226	Person-Nominal 2149 2151	大家
+T227	Person-Nominal 2161 2162	人
+T228	Person-Name 2171 2176	“蒋狗肉”
+T3	Person-Nominal 137 139	大家
+T229	Person-Name 142 145	蒋小姐
+T230	Person-Name 149 151;152 153	蒋狗 肉
+T231	Location-Nominal 158 162	我们这里
+T25	Thing-Nominal 553 566	一副上苍画在大地上的写意画
+T49	Person-Nominal 609 611	游客
+*	Coreference T68 T49
+T64	Thing-Nominal 819 825	不规则的黑纹
+R13	Located Arg1:T64 Arg2:T84	
+R14	Located Arg1:T88 Arg2:T89	
+T67	Thing-Nominal 883 884	头
+T87	Thing-Nominal 887 889	屁股
+T96	Person-Nominal 908 914	知县以上的人
+T100	Person-Nominal 969 970	人
+T117	Thing-Nominal 1068 1070	眼皮
+R15	Part-Whole Arg1:T117 Arg2:T118	
+T123	Thing-Nominal 1107 1112	我们的游船
+T232	Person-Pronoun 1107 1109	我们
+T136	Thing-Nominal 1434 1438	一座大山
+T143	Thing-Nominal 1440 1446	上半边渡的船
+T165	Thing-Nominal 1451 1452	山
+T166	Time-Implicit 1639 1641	千年
+T168	Thing-Nominal 1878 1890	中华民族的这一方奇山丽水
+T233	Abstract 1918 1921	GDP
+T234	Thing-Nominal 1934 1938	高层建筑

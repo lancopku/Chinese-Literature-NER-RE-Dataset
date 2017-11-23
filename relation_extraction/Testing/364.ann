@@ -1,0 +1,101 @@
+T1	Person-Nominal 0 3	老年人
+T2	Time-Implicit 4 12	成熟与收获的季节
+T3	Time-Implicit 13 15	老年
+T4	Thing-Nominal 20 28	庄重而圆满的句号
+T5	Person-Nominal 29 32	老年人
+T6	Person-Nominal 70 75	哪一位老人
+R1	General-Special Arg1:T5 Arg2:T6	
+T7	Time-Implicit 81 92	少年、青年、壮年到老年
+T8	Thing-Nominal 96 98	庄稼
+T9	Thing-Nominal 99 101	果树
+T10	Thing-Nominal 102 104	幼苗
+T11	Time-Implicit 124 127	这期间
+T12	Thing-Nominal 134 138	风风雨雨
+T13	Thing-Nominal 139 141	烈日
+T14	Thing-Nominal 144 145	霜
+T15	Thing-Nominal 146 147	雪
+T16	Thing-Nominal 149 151	冰雹
+T17	Time-Implicit 160 162	秋季
+T18	Thing-Nominal 160 172	秋季那漫山遍野的一派黄金
+T20	Time-Implicit 178 182;183 190	充满丰收 喜悦的美好季节
+T19	Time-Implicit 173 177	金秋时节
+*	Coreference T19 T17 T20
+T21	Person-Nominal 194 196	古人
+T22	Time-Implicit 200 203	老年期
+T23	Thing-Nominal 227 229	夕阳
+T24	Time-Implicit 236 238	黄昏
+T25	Person-Pronoun 246 248	我们
+T26	Time-Implicit 250 263	社会主义改革开放的崭新时代
+T27	Person-Nominal 266 268	人类
+T28	Time-Implicit 284 286	晚年
+T29	Person-Name 295 301	词坛泰斗乔羽
+T30	Thing-Nominal 311 313	夕阳
+T31	Thing-Nominal 321 323	夕阳
+T32	Thing-Nominal 329 331	夕阳
+T33	Thing-Nominal 332 336	陈年的酒
+T34	Thing-Nominal 337 339	夕阳
+T35	Thing-Nominal 340 344	迟到的爱
+T36	Thing-Nominal 345 347	夕阳
+T37	Thing-Nominal 362 364	夕阳
+T38	Thing-Nominal 381 383	红日
+*	Coreference T38 T31
+T39	Thing-Nominal 413 415	日月
+T40	Thing-Nominal 420 422	庄稼
+T41	Thing-Nominal 428 432	花草树木
+T42	Thing-Nominal 472 474	丹青
+T43	Thing-Nominal 475 477	汗青
+T44	Person-Nominal 478 480	古人
+T45	Person-Pronoun 490 492	我们
+T46	Person-Nominal 495 497	前人
+*	Coreference T46 T44
+T47	Location-Nominal 521 523	人间
+T48	Person-Name 539 541	杜甫
+T49	Person-Name 555 558	曹孟德
+T50	Thing-Nominal 560 562	老骥
+T51	Thing-Nominal 563 564	枥
+T52	Person-Nominal 570 572	烈士
+T53	Person-Nominal 587 590	老年人
+T54	Time-Implicit 590 592	晚年
+T55	Thing-Nominal 605 609;610 612	这些古诗 名句
+T56	Person-Name 629 636	当代伟人毛泽东
+T57	Thing-Nominal 656 658	碣石
+T58	Thing-Nominal 652 653	鞭
+T59	Person-Pronoun 666 667	我
+T60	Person-Nominal 672 679	一位著名老教授
+T61	Metric 686 689	80岁
+T62	Person-Nominal 700 702	老人
+T63	Person-Nominal 706 708	老人
+*	Coreference T62 T53
+T64	Person-Nominal 723 726	老年人
+T65	Thing-Nominal 710 721	无用、累赘和生活的障碍
+T66	Person-Name 750 761	明代思想家、文学家李贽
+T67	Thing-Name 775 779	《焚书》
+T68	Thing-Name 780 784	《藏书》
+R2	Create Arg1:T66 Arg2:T67	
+R3	Create Arg1:T66 Arg2:T68	
+T69	Person-Name 793 799	德国诗人歌德
+T70	Thing-Name 802 807	《浮士德》
+R4	Create Arg1:T69 Arg2:T70	
+T71	Time-Explicit 810 815	1831年
+T72	Time-Implicit 815 822	他81岁的晚年
+*	Coreference T72 T71
+T73	Person-Pronoun 815 816	他
+*	Coreference T73 T69
+T74	Person-Name 829 842	参加过遵义会议的王稼祥同志
+T75	Person-Name 829 848	参加过遵义会议的王稼祥同志的夫人朱仲丽
+R5	Family Arg1:T75 Arg2:T74	
+T76	Metric 851 853;854 855	63 岁
+T77	Thing-Nominal 872 877	十余部作品
+R6	Create Arg1:T75 Arg2:T77	
+T78	Person-Nominal 882 896	当代中国文坛上起步最晚的作家
+*	Coreference T78 T75
+T79	Person-Pronoun 899 900	我
+T80	Person-Nominal 905 913	老有所为的老年人
+R7	General-Special Arg1:T64 Arg2:T80	
+T81	Person-Pronoun 915 916	我
+T82	Person-Pronoun 917 918	我
+T83	Person-Pronoun 919 921	他们
+*	Coreference T83 T80
+T84	Person-Pronoun 927 929	自己
+*	Coreference T84 T81 T85
+T85	Person-Pronoun 942 944	自己

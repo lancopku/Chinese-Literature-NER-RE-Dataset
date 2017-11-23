@@ -1,0 +1,118 @@
+T1	Thing-Nominal 0 2	衣服
+T2	Thing-Nominal 14 16	房屋
+T3	Thing-Nominal 26 27	雨
+T4	Thing-Nominal 28 30	身体
+T5	Person-Pronoun 58 59	我
+T6	Person-Nominal 69 71	个人
+T7	Person-Pronoun 93 95	我们
+T8	Person-Name 103 108	孙中山先生
+T9	Thing-Nominal 110 114	一副对联
+T10	Person-Nominal 131 133	个人
+T11	Person-Pronoun 130 131	我
+T12	Person-Nominal 141 143	完人
+T13	Person-Nominal 157 159	人类
+T14	Time-Implicit 159 167	进入文明社会以来
+T15	Location-Nominal 168 172	古今中外
+T16	Person-Nominal 178 191	多少具有高尚人格的仁人志士
+T17	Person-Pronoun 192 194	他们
+*	Coreference T17 T16
+T18	Person-Pronoun 203 205	他们
+T19	Person-Pronoun 213 215	他们
+T20	Person-Pronoun 230 232	我们
+T21	Person-Pronoun 244 246	我们
+T22	Person-Pronoun 259 261	我们
+T23	Person-Pronoun 273 275	我们
+T24	Person-Pronoun 287 289	我们
+T25	Person-Nominal 291 293	他人
+T26	Time-Implicit 295 299	千百年来
+T27	Person-Pronoun 314 316	我们
+T28	Thing-Nominal 339 341	个体
+T29	Thing-Nominal 344 348	这个世界
+T30	Person-Nominal 354 355	人
+T31	Person-Nominal 375 376	人
+T32	Thing-Nominal 376 377	眼
+R1	Part-Whole Arg1:T32 Arg2:T31	
+T33	Person-Name 400 403	迂夫子
+T34	Thing-Nominal 407 410	万卷书
+T35	Thing-Nominal 412 415	万里路
+T36	Person-Pronoun 420 422	自己
+T37	Thing-Nominal 444 451	经久流传的书籍
+T38	Person-Nominal 453 455	人类
+T39	Thing-Pronoun 467 469	它们
+*	Coreference T39 T37
+T40	Person-Nominal 473 478	一个个智者
+T41	Thing-Nominal 484 489	一双双慧眼
+T42	Person-Pronoun 498 499	你
+T43	Person-Pronoun 523 525	自己
+T44	Thing-Nominal 551 556	熟悉的风景
+T45	Location-Nominal 537 545	一个封闭的环境中
+T46	Thing-Nominal 629 635	更广大的世界
+T47	Thing-Nominal 648 653	别样的风景
+T48	Person-Pronoun 672 673	我
+T49	Person-Nominal 691 695	职场中人
+T50	Person-Nominal 731 734	新朋友
+T51	Thing-Nominal 742 746	这个世界
+T52	Person-Nominal 765 766	人
+T53	Person-Pronoun 768 770	自己
+T54	Person-Nominal 778 779	人
+T55	Person-Nominal 783 784	人
+T56	Person-Pronoun 795 797	自己
+T57	Person-Pronoun 832 834	自己
+T58	Person-Pronoun 846 848	自己
+T59	Person-Pronoun 866 867	你
+T60	Person-Pronoun 876 877	你
+T61	Person-Pronoun 887 888	你
+T62	Person-Pronoun 898 899	你
+T63	Thing-Nominal 961 964	这辆车
+T64	Thing-Nominal 978 980	车厢
+T65	Thing-Nominal 971 973	燃料
+T66	Thing-Nominal 985 987	车轮
+T67	Person-Nominal 992 994	司机
+T68	Thing-Nominal 1003 1005	我们
+T69	Location-Nominal 996 1002	前进的道路上
+T70	Thing-Nominal 1009 1010	车
+T71	Person-Nominal 1016 1018	乘客
+T72	Person-Name 1020 1023	史铁生
+T73	Person-Name 1024 1027	张海迪
+T74	Thing-Nominal 1028 1029;1030 1031	轮 椅
+T75	Thing-Nominal 1032 1033	车
+T76	Thing-Nominal 1035 1040	父亲的老酒
+T77	Thing-Nominal 1041 1046	母亲的针线
+T78	Person-Nominal 1035 1037	父亲
+T79	Person-Nominal 1041 1043	母亲
+R2	Family Arg1:T79 Arg2:T78	
+T80	Thing-Nominal 1047 1048	车
+T81	Person-Nominal 1050 1052	朋友
+T82	Thing-Nominal 1056 1057	车
+T83	Person-Name 1059 1062	曼德拉
+T84	Time-Implicit 1063 1065	当年
+T85	Person-Nominal 1067 1071	他的狱警
+T86	Person-Pronoun 1067 1068	他
+*	Coreference T86 T83
+T87	Thing-Nominal 1075 1076	车
+T88	Thing-Nominal 1078 1085	迷人的松间明月
+T89	Person-Nominal 1079 1080	人
+T90	Thing-Nominal 1086 1087	车
+T91	Thing-Nominal 1100 1101	车
+T92	Thing-Nominal 1111 1112	车
+T93	Thing-Nominal 1145 1149	高车驷马
+T94	Person-Nominal 1164 1169	华堂高坐者
+T95	Person-Nominal 1174 1179	洒扫庭除者
+T96	Person-Nominal 1184 1189	跪地乞讨者
+T97	Thing-Nominal 1197 1199	鲜花
+T98	Thing-Nominal 1205 1207	酸水
+T99	Person-Nominal 1197 1204	鲜花掌声簇拥者
+T100	Metric 1221 1223	多年
+T101	Thing-Nominal 1288 1290	飞鸟
+T102	Thing-Nominal 1292 1297	自己的羽毛
+R3	Part-Whole Arg1:T102 Arg2:T101	
+T103	Thing-Pronoun 1292 1294	自己
+*	Coreference T103 T101
+T104	Thing-Nominal 1302 1307	自己的爪牙
+T105	Thing-Pronoun 1302 1304	自己
+T106	Thing-Nominal 1298 1300	走兽
+R4	Part-Whole Arg1:T104 Arg2:T106	
+*	Coreference T105 T106
+T107	Person-Pronoun 1311 1318	万物灵长的我们
+T108	Person-Pronoun 1327 1329	自己
+*	Coreference T108 T107

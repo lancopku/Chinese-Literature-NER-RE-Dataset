@@ -1,0 +1,277 @@
+T1	Person-Name 0 3	文大波
+T2	Person-Pronoun 22 23	他
+T3	Location-Name 28 30	北京
+T4	Location-Name 35 37	长城
+T5	Location-Name 39 41	故宫
+T6	Location-Name 43 45	天坛
+T7	Location-Name 47 50	颐和园
+T8	Time-Explicit 51 57	第三天一大早
+T9	Thing-Nominal 59 60;61 65	上 头班大巴
+T10	Thing-Name 67 79	涞水县野三坡的百里峡景区
+T11	Person-Pronoun 80 81	他
+T12	Thing-Nominal 83 91	2800多级台阶
+T13	Location-Nominal 94 96	山顶
+T14	Person-Pronoun 97 98	他
+T15	Thing-Nominal 100 107	远处的耸峰叠嶂
+T16	Thing-Nominal 110 114	蓝天白云
+*	Coreference T2 T1
+T17	Location-Name 162 165	鱼谷洞
+T18	Thing-Nominal 168 171	售票处
+T19	Thing-Nominal 172 174	景点
+T20	Person-Name 180 183	文大波
+T21	Person-Pronoun 201 202	他
+*	Coreference T21 T20
+T22	Person-Pronoun 242 243	他
+T23	Thing-Nominal 226 227;228 231	极 地神光
+T24	Thing-Nominal 233 237	宇宙电闪
+T25	Thing-Pronoun 240 242	那是
+*	Coreference T25 T23 T24
+T26	Location-Nominal 244 250	前面十几米处
+T27	Person-Nominal 250 256	一位回眸女子
+T28	Person-Nominal 270 273	两个人
+T30	Person-Nominal 300 305	他们两个人
+T29	Location-Name 293 296	野三坡
+T31	Person-Pronoun 308 310	他们
+*	Coreference T30 T28 T31
+T32	Person-Nominal 325 327	两人
+T33	Person-Pronoun 342 343	我
+T34	Location-Name 346 348	福州
+T35	Person-Pronoun 359 360	我
+T36	Person-Name 362 365	文大波
+*	Coreference T36 T35 T33
+R1	Ownership Arg1:T36 Arg2:T34	
+T37	Person-Pronoun 366 367	您
+T38	Person-Pronoun 371 372	我
+T39	Thing-Name 375 378	保定市
+R2	Part-Whole Arg1:T39 Arg2:T38	
+T40	Person-Pronoun 381 382	我
+T41	Person-Pronoun 389 390	我
+T42	Person-Name 392 395	白含芬
+*	Coreference T42 T41 T40 T38
+T43	Person-Nominal 397 399	两人
+T44	Time-Implicit 404 406	尔后
+T45	Location-Name 418 421	野三坡
+T46	Thing-Pronoun 421 422	我
+T47	Time-Explicit 426 428	今天
+T48	Person-Pronoun 428 429	我
+T49	Thing-Nominal 435 436	书
+T50	Location-Name 454 457	鱼谷洞
+T51	Location-Pronoun 463 465	这里
+*	Coreference T51 T50
+T52	Person-Pronoun 469 470	你
+T53	Person-Pronoun 472 473	我
+T54	Location-Nominal 476 481	百里峡峰顶
+T55	Thing-Nominal 491 493	猴子
+T56	Time-Implicit 509 512	几分钟
+T57	Location-Name 528 531	鱼谷洞
+T58	Person-Pronoun 546 547	你
+T59	Location-Pronoun 540 542	这里
+*	Coreference T59 T57
+T60	Person-Nominal 549 551	两人
+T61	Location-Name 576 579	鱼谷洞
+T62	Person-Pronoun 581 583	他们
+T63	Person-Nominal 587 591	观景人群
+T64	Person-Pronoun 605 607	我们
+T65	Time-Explicit 607 609	今天
+T66	Person-Name 616 619	白含芬
+T67	Person-Name 622 625	文大波
+R3	Part-Whole Arg1:T66 Arg2:T64	
+R4	Part-Whole Arg1:T67 Arg2:T64	
+T68	Person-Pronoun 628 629	你
+*	Coreference T67 T68
+T69	Thing-Nominal 640 650	两个并排而立的钟乳柱
+T70	Person-Name 652 655	白含芬
+T71	Thing-Nominal 659 663	一对情侣
+T72	Person-Name 665 668	文大波
+T73	Person-Pronoun 673 675	他们
+R5	Create Arg1:T73 Arg2:T71	
+T74	Person-Pronoun 693 694	你
+*	Coreference T74 T72
+T75	Person-Nominal 704 706	二人
+*	Coreference T75 T73 T76 T81
+T76	Person-Pronoun 728 730	他们
+T77	Location-Nominal 731 734	石花前
+T78	Thing-Nominal 738 741	石兽旁
+T79	Location-Nominal 747 749	洞顶
+T80	Location-Nominal 757 759	石塔
+T81	Person-Nominal 767 777	洞中湖水中的他们自己
+T82	Location-Nominal 790 801	灯光略显晦暗的崎岖地段
+T83	Person-Name 803 806	文大波
+T84	Person-Name 810 813	白含芬
+T85	Thing-Nominal 814 815	手
+T86	Person-Name 821 824	白含芬
+T87	Person-Pronoun 850 851	她
+*	Coreference T87 T86
+T88	Location-Name 872 874	保定
+T89	Location-Name 876 879	鱼谷洞
+T90	Person-Pronoun 883 884	她
+T91	Time-Explicit 885 887	今天
+T92	Person-Pronoun 903 904	她
+T93	Person-Pronoun 923 924	她
+T94	Person-Pronoun 931 932	她
+T95	Person-Name 933 936	文大波
+R6	Social Arg1:T95 Arg2:T94	
+R7	Social Arg1:T95 Arg2:T93	
+T96	Person-Pronoun 950 951	她
+T97	Thing-Nominal 953 957	无形的手
+R8	Part-Whole Arg1:T97 Arg2:T95	
+T98	Person-Name 960 963	文大波
+T99	Person-Pronoun 972 973	她
+T100	Time-Implicit 1001 1003	刚才
+T101	Person-Name 1003 1006	文大波
+T102	Person-Pronoun 1024 1025	她
+T103	Person-Pronoun 1033 1034	你
+T104	Person-Pronoun 1054 1055	我
+T105	Person-Pronoun 1059 1060	我
+T106	Person-Pronoun 1064 1065	她
+T107	Location-Name 1085 1088	鱼谷洞
+T108	Person-Pronoun 1090 1092	他们
+T109	Location-Name 1099 1102	拒马河
+T110	Person-Pronoun 1117 1119	他们
+T111	Person-Nominal 1123 1131	所有的情侣漂流者
+T112	Person-Pronoun 1133 1135	他们
+R9	Part-Whole Arg1:T112 Arg2:T111	
+T113	Person-Pronoun 1141 1143	我们
+T114	Location-Nominal 1154 1161	梦幻般的鱼谷洞
+T115	Time-Explicit 1166 1168	傍晚
+T116	Person-Name 1169 1172	文大波
+T117	Thing-Name 1185 1187	大巴
+T118	Person-Name 1189 1192	白含芬
+T119	Location-Name 1193 1195	保定
+T120	Time-Explicit 1197 1199	晚上
+T121	Person-Name 1200 1203	白含芬
+T122	Thing-Nominal 1206 1211	文大波的手
+T123	Location-Name 1214 1218	保定钟楼
+T124	Thing-Nominal 1223 1240	八百多年历史、全国独一无二的大铁钟
+T125	Person-Nominal 1252 1254	世人
+T126	Time-Implicit 1270 1272	之后
+T127	Person-Name 1273 1276	文大波
+T128	Location-Nominal 1279 1281	旅馆
+T129	Time-Explicit 1284 1290	第二天一大早
+T130	Person-Name 1290 1293	白含芬
+T131	Thing-Nominal 1296 1298	旅馆
+T132	Person-Name 1300 1303	文大波
+T133	Thing-Nominal 1305 1310	南下的高铁
+T134	Person-Nominal 1316 1318	二人
+R10	Part-Whole Arg1:T134 Arg2:T130	
+R11	Part-Whole Arg1:T134 Arg2:T132	
+T135	Thing-Nominal 1321 1323	短信
+T136	Time-Implicit 1327 1329	此后
+T137	Abstract 1334 1336	QQ
+T138	Time-Implicit 1345 1353	三个多月后的一天
+T139	Person-Name 1354 1357	白含芬
+T140	Thing-Nominal 1358 1360	电话
+T141	Person-Name 1365 1368	文大波
+R12	Use Arg1:T139 Arg2:T140	
+R13	Use Arg1:T141 Arg2:T140	
+T142	Person-Pronoun 1375 1376	我
+*	Coreference T142 T139
+T143	Person-Pronoun 1387 1388	我
+T144	Person-Nominal 1397 1400	我母亲
+R14	Family Arg1:T144 Arg2:T143	
+T145	Person-Pronoun 1413 1414	我
+T146	Person-Name 1420 1422	大波
+T147	Person-Pronoun 1423 1424	你
+T148	Person-Pronoun 1429 1430	我
+*	Coreference T147 T146
+T149	Person-Nominal 1435 1442	电话中的白含芬
+T150	Person-Name 1453 1456	文大波
+T151	Person-Pronoun 1480 1481	我
+T152	Time-Explicit 1481 1483	明天
+T153	Thing-Nominal 1485 1487	飞机
+T154	Location-Name 1488 1490	保定
+T155	Person-Pronoun 1491 1492	我
+T156	Time-Implicit 1492 1495	等会儿
+T157	Metric 1498 1501	三万块
+T158	Thing-Nominal 1502 1506	你的卡上
+T159	Person-Pronoun 1507 1508	你
+T160	Thing-Nominal 1512 1515	你母亲
+T161	Person-Pronoun 1517 1518	我
+T162	Time-Explicit 1526 1529	第二天
+T163	Person-Name 1530 1533	文大波
+T164	Location-Nominal 1535 1538	飞机场
+T165	Thing-Nominal 1542 1544	的士
+T166	Person-Name 1546 1549	白含芬
+T167	Location-Nominal 1558 1567	保定第一医院住院部
+T168	Person-Nominal 1569 1581	住院部大门口等候的白含芬
+T169	Person-Name 1590 1593	文大波
+T170	Person-Nominal 1602 1604	两人
+R15	Part-Whole Arg1:T170 Arg2:T169	
+R16	Part-Whole Arg1:T170 Arg2:T168	
+T171	Person-Pronoun 1618 1619	你
+*	Coreference T171 T169
+T172	Person-Name 1624 1627	白含芬
+T173	Person-Pronoun 1641 1642	我
+*	Coreference T173 T172
+T174	Person-Name 1648 1651	白含芬
+T175	Thing-Nominal 1653 1658	文大波的手
+R17	Ownership Arg1:T174 Arg2:T175	
+T176	Person-Nominal 1660 1662	她妈
+T177	Person-Nominal 1669 1670	妈
+T178	Thing-Pronoun 1644 1645	你
+T179	Person-Name 1671 1673	大波
+T180	Person-Nominal 1677 1679	大妈
+T181	Person-Pronoun 1680 1681	你
+*	Coreference T181 T180
+T182	Person-Pronoun 1683 1684	我
+T183	Thing-Pronoun 1686 1687	你
+T184	Thing-Pronoun 1691 1692	你
+T185	Person-Nominal 1694 1697	小伙子
+T186	Person-Pronoun 1698 1699	你
+T187	Person-Pronoun 1707 1708	我
+T188	Thing-Nominal 1709 1715	含芬的男朋友
+T189	Person-Pronoun 1718 1719	我
+T190	Person-Name 1709 1711	含芬
+R18	Social Arg1:T190 Arg2:T187	
+T191	Person-Nominal 1725 1733	站在一旁的白含芬
+T192	Thing-Nominal 1736 1738	双眼
+T193	Thing-Nominal 1740 1745	幸福的泪水
+R19	Located Arg1:T192 Arg2:T193	
+T194	Person-Pronoun 1746 1747	她
+T195	Thing-Nominal 1754 1756	上苍
+T196	Thing-Name 1759 1762	野三坡
+T197	Thing-Name 1765 1768	鱼谷洞
+T198	Person-Nominal 1770 1778	当同病房的其他人
+R20	Social Arg1:T198 Arg2:T191	
+T199	Person-Name 1780 1783	文大波
+R21	Social Arg1:T199 Arg2:T198	
+T200	Location-Name 1787 1789	福州
+T201	Person-Nominal 1793 1798	白含芬母亲
+T202	Person-Nominal 1807 1813	一位患者家属
+R22	Social Arg1:T202 Arg2:T201	
+R23	Part-Whole Arg1:T202 Arg2:T198	
+T203	Person-Nominal 1815 1817	你们
+R24	Social Arg1:T203 Arg2:T202	
+T204	Person-Name 1838 1841	文大波
+T205	Person-Name 1842 1845	白含芬
+T206	Location-Name 1850 1853	鱼谷洞
+T207	Person-Nominal 1876 1883	同病房所有的人
+T208	Person-Nominal 1886 1891;1892 1895	刚进来的一 位护士
+R25	Social Arg1:T208 Arg2:T207	
+R26	Social Arg1:T207 Arg2:T205	
+R27	Social Arg1:T207 Arg2:T204	
+R28	Social Arg1:T204 Arg2:T205	
+T209	Person-Nominal 1903 1907	他们二人
+T210	Location-Name 1908 1911	鱼谷洞
+T211	Location-Nominal 1919 1922	住院部
+T212	Time-Explicit 1927 1931	一个月后
+T213	Person-Name 1932 1935	白含芬
+T214	Person-Nominal 1937 1946	已经完全康复的母亲
+T215	Location-Name 1948 1950	福州
+T216	Person-Name 1953 1956	文大波
+T217	Person-Nominal 1957 1961	她们母女
+T218	Location-Nominal 1963 1965	房子
+R29	Ownership Arg1:T217 Arg2:T218	
+R30	Part-Whole Arg1:T215 Arg2:T218	
+T219	Person-Name 1966 1969	白含芬
+T220	Person-Name 1971 1974	文大波
+T221	Location-Nominal 1971 1986	文大波所在的福建有名的广告公司
+T222	Time-Implicit 1988 1990	不久
+T223	Person-Nominal 1990 1992	二人
+T224	Time-Implicit 1996 1997	前
+T225	Person-Nominal 1997 1999	二人
+T226	Location-Name 2003 2006	鱼谷洞
+T227	Person-Pronoun 2011 2013	他们
+*	Coreference T227 T225 T223
+T228	Thing-Nominal 2015 2018	鱼谷洞
+T229	Person-Pronoun 2019 2021	我们

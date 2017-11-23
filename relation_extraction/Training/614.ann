@@ -1,0 +1,526 @@
+T1	Location-Name 1 5	古老中国
+T2	Thing-Nominal 5 8	一条龙
+T3	Location-Nominal 9 13	龙的故乡
+T4	Location-Name 14 16	黄陵
+T5	Location-Name 19 21	黄陵
+T6	Location-Name 23 26	陕西省
+T7	Location-Name 26 29	黄陵县
+T8	Location-Name 29 31	桥山
+T9	Location-Name 23 31	陕西省黄陵县桥山
+T10	Thing-Nominal 37 38	水
+T11	Thing-Nominal 32 34	沮河
+R1	Part-Whole Arg1:T5 Arg2:T9	
+T12	Thing-Nominal 42 44	山峦
+T13	Thing-Nominal 47 48	草
+T14	Thing-Nominal 49 50	花
+T15	Thing-Nominal 52 54	桥山
+T16	Location-Name 62 64	黄陵
+T17	Thing-Nominal 72 74	林木
+T18	Thing-Nominal 77 79	松柏
+T19	Thing-Nominal 88 90	沮河
+T20	Thing-Nominal 108 110	波涛
+T21	Thing-Nominal 113 115	霞光
+T22	Thing-Nominal 124 126	桥山
+T23	Location-Name 128 132	黄土高原
+R2	Located Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 136 137	川
+T25	Thing-Nominal 138 139	塬
+T26	Thing-Nominal 148 149	沟
+T27	Thing-Nominal 150 151	壑
+T28	Thing-Nominal 160 161	梁
+T29	Thing-Nominal 162 163	峁
+T30	Thing-Nominal 164 166	梁峁
+T31	Thing-Nominal 176 178	山水
+T32	Thing-Nominal 172 173	山
+T33	Thing-Nominal 174 175	水
+T34	Thing-Nominal 182 184	山川
+T35	Thing-Nominal 185 187	风水
+T36	Thing-Nominal 188 190	天地
+T37	Thing-Nominal 193 195	陵墓
+T38	Thing-Nominal 203 205	青龙
+T39	Thing-Nominal 207 209	白虎
+T40	Thing-Nominal 211 213	朱雀
+T41	Thing-Nominal 215 217	玄武
+T42	Thing-Nominal 218 220	四象
+T43	Physical 233 241	“天下第一古陵”
+T44	Thing-Nominal 238 240	古陵
+T45	Person-Pronoun 243 244	我
+T46	Thing-Nominal 248 250	黄陵
+T47	Time-Implicit 255 259	阳春三月
+T48	Thing-Nominal 265 267	万木
+T49	Thing-Nominal 277 279	古柏
+T50	Thing-Nominal 289 291	草坪
+T51	Thing-Nominal 294 298	松风柏涛
+T52	Thing-Nominal 152 154	沟壑
+T53	Thing-Nominal 305 307	古刹
+T54	Thing-Nominal 315 317	空气
+T55	Thing-Nominal 344 346	古柏
+R3	Located Arg1:T48 Arg2:T46	
+R4	Located Arg1:T49 Arg2:T46	
+R5	Located Arg1:T53 Arg2:T46	
+T56	Thing-Nominal 350 352	百花
+T57	Thing-Nominal 356 358	绿草
+T58	Thing-Nominal 371 373	万花
+T59	Location-Nominal 380 382	黄陵
+T60	Thing-Nominal 384 386	香风
+T61	Person-Nominal 393 395	儿女
+T62	Thing-Nominal 400 404	天子之坟
+T63	Thing-Nominal 407 410	“陵”
+T64	Thing-Nominal 411 415	庶人之坟
+T65	Thing-Nominal 418 421	“墓”
+T66	Time-Explicit 422 424	汉代
+T67	Thing-Nominal 428 431	天子陵
+T68	Thing-Nominal 434 437	“庙”
+T69	Time-Implicit 439 443	汉朝初期
+T70	Location-Nominal 445 449	桥山西麓
+T73	Time-Explicit 464 476	宋太祖开宝二年(969)
+T74	Thing-Nominal 479 481	沮水
+T75	Location-Nominal 486 490	桥山东麓
+T71	Thing-Nominal 450 455	“轩辕庙”
+R6	Located Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 459 462	黄帝庙
+*	Coreference T71 T72
+T76	Location-Nominal 496 500	轩辕前区
+T77	Thing-Nominal 508 510	建筑
+T79	Metric 539 545	一万多平方米
+T80	Thing-Nominal 548 556;557 559	5000块大型河 卵石
+T78	Thing-Nominal 530 536	新建入口广场
+R7	Located Arg1:T78 Arg2:T76	
+T81	Organization-Nominal 572 576	大型团队
+T82	Location-Nominal 601 605	广场北端
+T83	Location-Nominal 606 608	印池
+T84	Location-Nominal 609 611	印池
+T85	Thing-Nominal 614 617;618 620	新建轩 辕桥
+T86	Location-Nominal 636 638	印池
+T87	Thing-Nominal 650 654	蓝天白云
+T88	Thing-Nominal 655 657	微风
+T89	Thing-Nominal 660 662	水波
+T90	Location-Nominal 665 670	轩辕桥北端
+T91	Thing-Nominal 671 675	桥头平台
+R8	Located Arg1:T91 Arg2:T90	
+T92	Thing-Nominal 679 683	桥头广场
+*	Coreference T92 T91
+T93	Location-Nominal 689 694	“龙尾道”
+T94	Location-Nominal 697 699	庙区
+T95	Thing-Nominal 700 705	“龙尾道”
+T96	Thing-Nominal 705 710	95个台阶
+T97	Person-Name 713 715	黄帝
+T98	Physical 715 721	“九五之尊”
+T99	Thing-Nominal 723 726	龙尾道
+T100	Thing-Nominal 732 739	新建的庙前广场
+T101	Metric 743 750	2751平方米
+T102	Thing-Nominal 767 770	花岗岩
+T103	Abstract 774 776	清明
+T104	Location-Nominal 778 784	大型活动场所
+T105	Abstract 774 778	清明公祭
+T106	Location-Nominal 788 792	庙前广场
+R9	Part-Whole Arg1:T83 Arg2:T82	
+T108	Thing-Nominal 1978 1983	47通石碑
+T107	Location-Nominal 1973 1975	碑亭
+R10	Located Arg1:T108 Arg2:T107	
+T109	Location-Nominal 1990 1994	院内东侧
+T110	Location-Nominal 1990 1996	院内东侧碑廊
+T111	Thing-Nominal 1999 2003	四通石碑
+R11	Located Arg1:T111 Arg2:T110	
+T112	Person-Name 2014 2017	毛泽东
+T113	Abstract 2020 2027	“祭黄帝陵文”
+T114	Person-Name 2042 2045	邓小平
+T115	Person-Name 2069 2072	孙中山
+T116	Location-Nominal 1040 1042	庙院
+T117	Thing-Nominal 1065 1067	山门
+T118	Thing-Nominal 863 866	石筒瓦
+T119	Thing-Nominal 857 861	施灰布板
+T120	Thing-Nominal 889 891	山门
+T121	Thing-Nominal 894 903	“轩辕庙”三个大字
+R12	Located Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 917 919	山门
+T123	Location-Nominal 920 922	庙院
+T124	Location-Nominal 923 925	院内
+T125	Thing-Nominal 925 930	几十株柏树
+R13	Located Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 936 938	新柏
+T127	Thing-Nominal 946 948	古柏
+R14	General-Special Arg1:T125 Arg2:T126	
+R15	General-Special Arg1:T125 Arg2:T127	
+T128	Thing-Nominal 972 976	铁杆虬枝
+T129	Person-Nominal 985 991	一位古稀老人
+T130	Person-Pronoun 1002 1003	我
+T131	Thing-Pronoun 1009 1010	它
+T132	Thing-Nominal 964 971	“轩辕手植柏”
+*	Coreference T131 T132
+T133	Thing-Nominal 795 804	气度非凡的轩辕山门
+T134	Thing-Nominal 805 809	山门台基
+T135	Metric 812 817	高2.7米
+T136	Thing-Nominal 818 820	台阶
+T137	Thing-Nominal 821 823	踏步
+T138	Thing-Nominal 825 828	花岗岩
+T139	Thing-Nominal 831 833	山门
+T140	Thing-Nominal 841 843	建筑
+T141	Person-Nominal 1013 1015	轩辕
+T142	Thing-Nominal 1046 1049	诚心亭
+T143	Thing-Nominal 1073 1074	墙
+T144	Thing-Nominal 1075 1077	阑额
+T145	Thing-Nominal 1088 1090	台阶
+T146	Thing-Nominal 1096 1098	亭柱
+T147	Thing-Nominal 1098 1100;1101 1103	两幅 楹联
+R16	Located Arg1:T147 Arg2:T146	
+T148	Thing-Nominal 1116 1122	古今经世文章
+T149	Location-Nominal 1137 1139	神州
+T150	Location-Nominal 1144 1147	诚心亭
+T151	Person-Nominal 1148 1154	历代帝王将相
+T152	Person-Nominal 1155 1159	政府要员
+T153	Person-Nominal 1160 1161;1162 1165	社 会名流
+T154	Person-Nominal 1166 1170	墨客骚人
+T155	Person-Nominal 1171 1175	华桥同胞
+T156	Person-Nominal 1179 1181	黄帝
+T157	Thing-Nominal 1188 1190	礼品
+T158	Thing-Nominal 1184 1186	衣冠
+T159	Thing-Nominal 1202 1207	大殿的过亭
+T160	Person-Nominal 1220 1222	兄弟
+T161	Person-Nominal 1226 1228	华人
+T162	Thing-Nominal 1235 1238	诚心亭
+T163	Thing-Nominal 1240 1242	碑亭
+T164	Thing-Nominal 1245 1247	柱子
+T165	Thing-Nominal 1248 1252	一幅对联
+T166	Location-Nominal 1269 1273	碑亭东侧
+T167	Thing-Nominal 1277 1283	两通高大石碑
+T168	Person-Name 1287 1292	江泽民主席
+T169	Time-Explicit 1292 1293;1294 1298	1 993年
+T170	Person-Name 1315 1319	李鹏总理
+T171	Time-Explicit 1319 1324	1992年
+T172	Thing-Nominal 1342 1348	东侧廊庑碑刻
+T173	Person-Nominal 1352 1354;1355 1357	社会 名流
+T174	Thing-Nominal 1357 1361	书画墨宝
+T175	Location-Nominal 1362 1364	西侧
+T176	Thing-Nominal 1364 1366	文物
+R17	Located Arg1:T176 Arg2:T175	
+T177	Person-Nominal 1375 1379	达官要员
+T178	Thing-Nominal 1379 1383	祭词铭文
+T179	Thing-Nominal 1385 1388	轩辕庙
+T180	Location-Nominal 1391 1395	庙院最北
+R18	Located Arg1:T179 Arg2:T180	
+T181	Thing-Nominal 1397 1406	整个庙区的主体建筑
+*	Coreference T179 T181
+T182	Metric 1407 1412	长140米
+T183	Metric 1413 1419	宽83.3米
+T184	Metric 1423 1431	11662平方米
+T185	Metric 1434 1439	7.6公顷
+T186	Thing-Pronoun 1461 1462	它
+T187	Time-Explicit 1466 1468	明代
+T188	Time-Explicit 1479 1482	五九年
+T189	Thing-Nominal 1494 1497	古建筑
+T190	Thing-Nominal 1498 1502	现代建筑
+T191	Thing-Nominal 1510 1512	屋顶
+T192	Thing-Nominal 1513 1516	歇山顶
+T193	Thing-Nominal 1522 1526	灰布板瓦
+T194	Thing-Nominal 1527 1529	筒瓦
+T195	Thing-Nominal 1546 1548	前檐
+T196	Thing-Nominal 1550 1555	6扇隔扇门
+T197	Thing-Nominal 1563 1566	4扇门
+T198	Thing-Nominal 1568 1572	檐下栏额
+T199	Thing-Nominal 1573 1576	平板枋
+T200	Thing-Nominal 1578 1581	玺彩绘
+T201	Thing-Nominal 1582 1586	斗拱彩绘
+T202	Thing-Nominal 1587 1589	丹青
+T203	Thing-Nominal 1603 1607	正殿门楣
+T204	Thing-Nominal 1609 1617	“人文初祖”大匾
+R19	Located Arg1:T204 Arg2:T203	
+T205	Thing-Nominal 1618 1622	庙殿柱子
+T206	Thing-Nominal 1624 1628	一幅楹联
+R20	Located Arg1:T206 Arg2:T205	
+T207	Metric 1650 1654	20余米
+T208	Metric 1657 1661	10多米
+T209	Thing-Nominal 1663 1665	香炉
+T210	Thing-Nominal 1666 1668	香案
+T211	Location-Nominal 1644 1649	大殿前月台
+R21	Located Arg1:T209 Arg2:T211	
+R22	Located Arg1:T210 Arg2:T211	
+T212	Thing-Nominal 1669 1675	殿内正中壁龛
+T213	Thing-Nominal 1679 1689	轩辕黄帝墨玉浮雕全像
+R23	Located Arg1:T213 Arg2:T212	
+T214	Metric 1691 1696	高3.9米
+T215	Metric 1697 1702	宽3.3米
+T216	Metric 1703 1707	重11吨
+T217	Person-Name 1708 1710	黄帝
+T218	Thing-Nominal 1753 1755	神龛
+T219	Thing-Nominal 1757 1759	图案
+T220	Thing-Nominal 1761 1763	朱雀
+T221	Thing-Nominal 1765 1767	玄武
+T222	Thing-Nominal 1769 1771	青龙
+T223	Thing-Nominal 1773 1775	白虎
+T224	Thing-Nominal 1776 1780	殿内两壁
+T225	Thing-Nominal 1782 1784	壁画
+R24	Located Arg1:T225 Arg2:T224	
+T226	Person-Name 1786 1788	黄帝
+T227	Time-Explicit 1795 1797	明代
+T228	Location-Nominal 1806 1808	庙区
+T229	Location-Nominal 1809 1811	庙院
+T230	Thing-Nominal 1813 1815	亭殿
+T231	Thing-Nominal 1871 1875	道观寺庙
+T232	Thing-Nominal 1880 1884	经幢佛堂
+T233	Location-Nominal 1906 1908	黄陵
+T234	Thing-Nominal 1914 1916	阴雨
+T235	Thing-Nominal 1919 1921	青山
+T236	Thing-Nominal 1924 1926	松柏
+T237	Person-Nominal 1930 1935	朝拜的人流
+T238	Thing-Nominal 1949 1951	印池
+T239	Thing-Nominal 1954 1956	沮水
+T240	Abstract 2048 2054	“炎黄子孙”
+T241	Thing-Nominal 2095 2098	指南车
+T242	Person-Name 2101 2103	蚩尤
+T243	Person-Name 2128 2131	蒋介石
+T244	Time-Explicit 2131 2136	1942年
+T245	Abstract 2139 2144	“黄帝陵”
+T246	Thing-Nominal 2150 2154	铁笔银钩
+T247	Person-Name 2161 2164	毛泽东
+T248	Time-Explicit 2168 2178	1937年4月15日
+T249	Thing-Nominal 2161 2166	毛泽东祭文
+T250	Organization-Name 2179 2183	国共两党
+T251	Location-Nominal 2188 2190	黄陵
+T252	Abstract 2204 2207	四言诗
+T253	Person-Nominal 2244 2246	日寇
+T254	Location-Name 2250 2252	中国
+T255	Person-Nominal 2278 2282	四万万众
+T256	Abstract 2288 2292	民主共和
+T257	Thing-Nominal 2408 2411	轩辕庙
+T258	Thing-Nominal 2413 2416	电瓶车
+T259	Metric 2416 2420	一公里许
+T260	Location-Nominal 2423 2433	黄陵的“第二停车场”
+T261	Thing-Nominal 2444 2451	一条花岗岩登道
+T262	Thing-Nominal 2453 2455	陵冢
+T263	Thing-Nominal 2456 2458	登道
+T264	Thing-Nominal 2460 2464	“神道”
+*	Coreference T264 T263
+T265	Thing-Nominal 2465 2466;2467 2472	2 77个台阶
+T266	Thing-Nominal 2474 2481	庙前的“龙尾道
+T267	Person-Pronoun 2494 2496	我们
+T268	Thing-Nominal 2498 2500	雨伞
+R25	Use Arg1:T267 Arg2:T268	
+R26	Social Arg1:T247 Arg2:T243	
+T269	Thing-Nominal 2509 2511	古木
+T270	Thing-Nominal 2565 2567	黄陵
+T271	Metric 2568 2572	200米
+T272	Thing-Nominal 2574 2579	一通下马碑
+T273	Location-Nominal 2581 2583	路旁
+R27	Located Arg1:T272 Arg2:T273	
+T274	Time-Explicit 2599 2605	明朝嘉靖年间
+T275	Location-Nominal 2615 2619	陵园四周
+T276	Thing-Nominal 2621 2623	围墙
+R28	Located Arg1:T276 Arg2:T275	
+T277	Thing-Nominal 2634 2636	墙体
+T278	Thing-Nominal 2641 2643	墙头
+T279	Thing-Nominal 2643 2647	红椽绿瓦
+T280	Thing-Nominal 2657 2663	陵园东西两门
+T281	Person-Pronoun 2664 2666	我们
+T282	Thing-Nominal 2667 2669	西门
+T283	Thing-Nominal 2673 2677	一座高台
+T284	Metric 2678 2683	约20多米
+T285	Thing-Nominal 2686 2689	一石碑
+T286	Person-Name 2700 2703	汉武帝
+T287	Location-Name 2707 2709	朔方
+T288	Person-Name 2714 2716	黄帝
+T289	Thing-Nominal 2719 2724	“祈仙台”
+T290	Thing-Nominal 2732 2736	黄帝陵冢
+T291	Thing-Nominal 2737 2739	陵冢
+T292	Location-Nominal 2741 2745	桥山之巅
+R29	Located Arg1:T291 Arg2:T292	
+T293	Metric 2751 2756	高3.6米
+T294	Metric 2757 2762	周长48米
+T295	Metric 2767 2773	200平方米
+T296	Thing-Nominal 2775 2777	土冢
+T297	Thing-Nominal 2783 2785	方台
+T298	Thing-Nominal 2799 2802	黄帝陵
+T299	Thing-Nominal 2804 2807	一石碑
+T300	Person-Name 2820 2822	黄帝
+T301	Location-Nominal 2829 2831	碑前
+T302	Thing-Nominal 2832 2834	祭亭
+R30	Near Arg1:T302 Arg2:T301	
+T303	Location-Nominal 2835 2837	亭内
+T304	Thing-Nominal 2840 2845	一高大石碑
+R31	Located Arg1:T304 Arg2:T303	
+T305	Thing-Nominal 2848 2857	“黄帝陵”三个大字
+T306	Person-Name 2864 2869	郭沫若先生
+T307	Thing-Nominal 2872 2874	亭柱
+T308	Thing-Nominal 2876 2880	两幅楹联
+R32	Located Arg1:T308 Arg2:T307	
+T309	Person-Name 2929 2931	黄帝
+T310	Location-Nominal 2938 2940	祭亭
+T311	Thing-Nominal 2944 2949	白色花岗岩
+T312	Location-Nominal 2955 2957	亭前
+T313	Thing-Nominal 2959 2961	供桌
+R33	Located Arg1:T313 Arg2:T312	
+T314	Thing-Nominal 2962 2964	香炉
+T315	Thing-Nominal 2965 2967	祭器
+T316	Thing-Nominal 2968 2970	供品
+R34	Located Arg1:T314 Arg2:T312	
+R35	Located Arg1:T315 Arg2:T312	
+R36	Located Arg1:T316 Arg2:T312	
+T317	Location-Nominal 2971 2973	祭亭
+T318	Thing-Nominal 2975 2980	一高大古钟
+R37	Located Arg1:T318 Arg2:T317	
+T319	Thing-Nominal 2988 2990	轻烟
+T320	Person-Nominal 2993 2995	香客
+T321	Thing-Nominal 3004 3008	桥山古刹
+T322	Person-Name 3012 3014	黄帝
+T323	Person-Pronoun 3083 3084	我
+T324	Thing-Nominal 3087 3096	浩大无比的秦始皇陵
+T325	Thing-Nominal 3097 3101	汉朝茂陵
+T326	Thing-Nominal 3102 3106	唐朝乾陵
+T327	Thing-Nominal 3122 3130	奢侈豪华的清西陵
+T328	Thing-Nominal 3131 3134	清东陵
+T329	Thing-Nominal 3136 3138	正殿
+T330	Thing-Nominal 3139 3141	配殿
+T331	Thing-Nominal 3143 3145	斗拱
+T332	Thing-Nominal 3146 3148	梁枋
+T333	Person-Nominal 3169 3171	人人
+T334	Person-Nominal 3173 3175	皇帝
+T335	Person-Nominal 3177 3179	皇帝
+T336	Thing-Nominal 3193 3197	奇珍异宝
+T337	Thing-Nominal 3204 3206	白骨
+T338	Thing-Nominal 3207 3209	粪土
+T339	Person-Nominal 3214 3215	人
+T340	Person-Nominal 3232 3234	皇帝
+T341	Person-Nominal 3235 3237	乞丐
+T342	Person-Nominal 3246 3248	人民
+T343	Person-Nominal 3253 3255	人民
+R38	Social Arg1:T342 Arg2:T340	
+R39	Social Arg1:T341 Arg2:T342	
+T344	Person-Nominal 3266 3268	人民
+T345	Person-Name 3270 3272	慈禧
+T346	Person-Nominal 3275 3277	人民
+R40	Social Arg1:T344 Arg2:T345	
+T347	Person-Name 3283 3285	轩辕
+T348	Person-Nominal 3295 3297	子民
+R41	Social Arg1:T348 Arg2:T347	
+T349	Abstract 3304 3306	清明
+T350	Person-Nominal 3319 3321	香客
+T351	Person-Nominal 3329 3333	海外侨胞
+T352	Thing-Nominal 3341 3345	高香一炷
+R42	Use Arg1:T351 Arg2:T352	
+T353	Organization-Nominal 3352 3358	炎黄两大部落
+T354	Organization-Nominal 3362 3368	少典族与有氏
+T355	Person-Name 3369 3371	炎帝
+T356	Location-Name 3373 3375	姜水
+T357	Location-Name 3377 3381	陕西宝鸡
+T358	Location-Nominal 3384 3389	清姜河流域
+T359	Thing-Nominal 3391 3395	渭河支流
+T360	Person-Name 3397 3402	祖先神农氏
+T361	Person-Name 3404 3407	神农氏
+T362	Person-Nominal 3410 3411	母
+T363	Person-Name 3413 3415	任姒
+R43	Family Arg1:T361 Arg2:T363	
+T364	Person-Name 3417 3419	炎帝
+T365	Person-Name 3444 3446	炎帝
+T366	Abstract 3448 3454	《帝王世纪》
+T367	Person-Nominal 3457 3460	黄帝母
+T368	Person-Name 3461 3463	附宝
+T369	Location-Name 3466 3468	寿丘
+T370	Location-Name 3471 3473	姬水
+T371	Location-Nominal 3474 3476	姬水
+T372	Location-Nominal 3482 3489	陕西麟游西北部
+T373	Thing-Nominal 3492 3496	渭河支流
+T374	Location-Nominal 3506 3508	有熊
+T375	Location-Nominal 3510 3514	轩辕之丘
+T376	Person-Nominal 3527 3531	炎黄父亲
+T377	Person-Nominal 3532 3536	少典后裔
+T378	Organization-Nominal 3552 3556	黄帝部落
+T379	Organization-Nominal 3561 3565	炎帝部落
+T380	Person-Name 3567 3571	宓羲神农
+T381	Time-Implicit 3576 3578;3579 3582	新石 器时期
+T382	Person-Name 3583 3585	炎帝
+T383	Person-Name 3587 3589	黄帝
+T384	Person-Name 3595 3597	炎帝
+T385	Person-Nominal 3600 3606	部落联盟首领
+*	Coreference T383 T385
+R44	Social Arg1:T384 Arg2:T383	
+T386	Person-Name 3608 3610	黄帝
+T387	Thing-Nominal 3617 3618	黍
+T388	Thing-Nominal 3619 3620	稷
+T389	Thing-Nominal 3621 3622	菽
+T390	Thing-Nominal 3623 3624	麦
+T391	Thing-Nominal 3625 3628	稻五谷
+T392	Abstract 3610 3615	“艺五种”
+T393	Thing-Nominal 3632 3634	屋宇
+T394	Thing-Nominal 3636 3638	衣裳
+T395	Person-Nominal 3640 3642	男女
+T396	Organization-Nominal 3681 3685	炎帝部落
+T397	Person-Name 3699 3701	黄帝
+T398	Thing-Nominal 3703 3705	蚕桑
+T399	Thing-Nominal 3713 3715	冠冕
+R45	Create Arg1:T397 Arg2:T399	
+R46	Create Arg1:T386 Arg2:T394	
+R47	Create Arg1:T386 Arg2:T393	
+T400	Thing-Nominal 3722 3724	衣裳
+T401	Thing-Nominal 3727 3729	衣服
+T402	Thing-Nominal 3741 3742	车
+T403	Thing-Nominal 3751 3752	舟
+T404	Person-Name 3758 3760	黄帝
+T405	Thing-Nominal 3788 3790	文字
+R48	Create Arg1:T397 Arg2:T405	
+T406	Thing-Nominal 3794 3796	历法
+R49	Create Arg1:T397 Arg2:T406	
+T407	Person-Pronoun 3809 3810	他
+*	Coreference T407 T397
+T408	Thing-Nominal 3822 3824	货币
+T409	Thing-Nominal 3846 3847	镜
+T410	Thing-Nominal 3850 3851;3852 3853	陶 器
+T411	Person-Name 3864 3866	黄帝
+T412	Person-Nominal 3874 3876	百姓
+T413	Person-Name 3889 3891	黄帝
+T414	Location-Name 3893 3895	阪泉
+T415	Person-Name 3903 3905	蚩尤
+T416	Person-Name 3898 3900	炎帝
+R50	Social Arg1:T413 Arg2:T416	
+R51	Social Arg1:T415 Arg2:T413	
+T417	Person-Nominal 3913 3915	平寇
+T418	Person-Nominal 3923 3924;3925 3926	百 姓
+R52	Social Arg1:T417 Arg2:T413	
+T419	Person-Nominal 3927 3929	四夷
+R53	Social Arg1:T413 Arg2:T419	
+T420	Person-Name 3933 3935	黄帝
+T421	Person-Nominal 3936 3938	四妻
+T422	Person-Nominal 3940 3944	二十五子
+R54	Family Arg1:T420 Arg2:T421	
+R55	Family Arg1:T420 Arg2:T422	
+T423	Person-Nominal 3945 3948	同姓者
+T424	Person-Nominal 3966 3968	子孙
+T425	Person-Name 4021 4023	黄帝
+T426	Person-Name 4024 4026	风后
+T427	Person-Name 4027 4029	力牧
+T428	Thing-Nominal 4067 4071	赤色的帛
+T429	Thing-Nominal 4064 4065	缙
+*	Coreference T429 T428
+T430	Person-Name 4085 4087	黄帝
+T431	Person-Nominal 4088 4092	中央天帝
+*	Coreference T430 T431
+T432	Person-Name 4093 4095	黄帝
+T433	Thing-Nominal 4107 4109	山林
+T434	Thing-Nominal 4110 4112	泽薮
+T435	Person-Nominal 4130 4135	虞夏的祖先
+T436	Person-Name 4136 4142	黄帝之子昌意
+*	Coreference T435 T436
+T437	Person-Nominal 4143 4148	商周的祖先
+T438	Person-Name 4149 4155	黄帝之子玄嚣
+*	Coreference T437 T438
+T439	Person-Name 4156 4159	舜、尧
+T440	Person-Nominal 4160 4164	黄帝后裔
+*	Coreference T439 T440
+T441	Person-Name 4168 4170	黄帝
+T442	Person-Nominal 4171 4175	华夏始祖
+*	Coreference T441 T442
+T443	Location-Nominal 4192 4198	陕西关中华岳
+T444	Person-Nominal 4209 4212	中国人
+T445	Person-Name 4213 4215	黄帝
+T446	Person-Nominal 4226 4230	中华民族
+T447	Person-Nominal 4252 4256	一个民族
+T448	Organization-Nominal 4265 4269	一个国家
+T449	Person-Name 4277 4279	黄帝
+T450	Person-Nominal 4282 4284	圣贤
+T451	Abstract 4298 4304	世界四大文明
+T452	Time-Implicit 4331 4333	近代
+T453	Person-Name 4334 4336	慈禧
+T454	Person-Nominal 4339 4341	强寇
+T455	Person-Nominal 4360 4364	一个民族
+T456	Person-Pronoun 4422 4424	我们
+T457	Person-Nominal 4438 4441	人文祖
+T458	Location-Nominal 4444 4446	黄陵

@@ -1,0 +1,603 @@
+T1	Thing-Nominal 0 1	车
+T2	Thing-Nominal 2 3	龙
+T3	Location-Name 5 7	八台
+T4	Location-Nominal 13 15	天边
+T5	Thing-Nominal 16 17	雾
+T6	Thing-Nominal 17 18	峰
+T7	Thing-Nominal 18 19	松
+T8	Thing-Nominal 19 20	针
+T9	Thing-Nominal 21 23	云海
+T10	Person-Nominal 26 28	神将
+T11	Thing-Nominal 29 31	山峦
+T12	Thing-Nominal 32 36	高速公路
+T13	Person-Name 40 42	愚公
+T14	Thing-Nominal 43 44	山
+T15	Location-Nominal 45 47	公园
+T16	Thing-Nominal 49 50	山
+T17	Location-Name 65 67	巴山
+T18	Location-Name 67 69	八台
+T19	Thing-Nominal 71 72	水
+T20	Location-Name 75 77	重庆
+T21	Location-Name 78 80	四川
+T22	Thing-Nominal 81 82	鸡
+T23	Location-Nominal 83 85	两省
+R1	Part-Whole Arg1:T21 Arg2:T23	
+R2	Part-Whole Arg1:T20 Arg2:T23	
+T24	Location-Nominal 94 95	家
+T25	Metric 97 99	千年
+T26	Location-Nominal 99 101	巴蜀
+T27	Thing-Nominal 105 107	溪水
+T28	Thing-Nominal 113 115	凤竹
+T29	Thing-Nominal 123 124	风
+T30	Thing-Nominal 125 126	雨
+T31	Person-Nominal 127 129	穷人
+T32	Organization-Name 131 133	红军
+T33	Thing-Nominal 138 140	凤竹
+T34	Person-Nominal 142 145	子弟兵
+T35	Thing-Nominal 156 158	土地
+T36	Organization-Name 162 164	红军
+R3	Ownership Arg1:T34 Arg2:T32	
+T37	Location-Name 172 177	八台山泉边
+T38	Thing-Nominal 180 181	水
+T39	Organization-Name 189 191	红军
+T40	Thing-Nominal 192 194	杜鹃
+T41	Person-Nominal 195 199	国家主席
+T42	Person-Name 199 202	李先念
+*	Coreference T42 T41
+T43	Thing-Nominal 205 206	水
+T44	Organization-Nominal 212 213	国
+T45	Metric 231 234	几十年
+T46	Location-Nominal 239 242	游览馆
+T47	Person-Nominal 244 246	游客
+T48	Thing-Nominal 252 254	宝马
+T49	Thing-Nominal 254 256	红旗
+T50	Location-Nominal 257 259	村院
+T51	Thing-Nominal 262 263	水
+T52	Thing-Nominal 268 270	柱石
+T53	Thing-Name 272 275	独秀峰
+R4	Part-Whole Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 277 278	墨
+T55	Thing-Nominal 279 280	画
+T56	Thing-Nominal 284 286	宝马
+T57	Thing-Nominal 294 295	水
+T58	Metric 300 302	百年
+T59	Thing-Nominal 302 304	诗画
+T60	Thing-Nominal 314 315	山
+T61	Location-Nominal 322 324	家园
+T62	Location-Name 329 334	筑路幸福村
+T63	Location-Name 337 340	苦楝村
+*	Coreference T62 T63 T69 T76
+T64	Location-Nominal 347 349	村口
+R5	Part-Whole Arg1:T64 Arg2:T63	
+T65	Thing-Nominal 356 359	苦楝树
+R6	Located Arg1:T65 Arg2:T64	
+T66	Thing-Nominal 361 362	树
+*	Coreference T65 T66
+T67	Thing-Nominal 368 370	树荫
+T68	Thing-Nominal 379 382	村台门
+T69	Location-Nominal 388 391	这个村
+T70	Location-Name 394 399	凤凰山区域
+T71	Organization-Nominal 412 414	人家
+T72	Location-Nominal 406 407	村
+R7	Part-Whole Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 425 426	饭
+T74	Location-Nominal 423 424	外
+T75	Time-Implicit 427 431	＋八年前
+T76	Location-Pronoun 432 434	该村
+T77	Person-Nominal 435 437	村长
+T78	Person-Name 437 440	小烂糊
+T79	Person-Nominal 442 445	爽快人
+R8	General-Special Arg1:T78 Arg2:T79	
+*	Coreference T77 T78 T83
+R9	Ownership Arg1:T77 Arg2:T76	
+T80	Person-Nominal 446 447	谁
+T81	Location-Nominal 451 452	外
+T82	Thing-Nominal 453 454	饭
+T83	Person-Pronoun 456 457	他
+T84	Location-Name 470 473	苦拣村
+T85	Location-Name 478 483	凤凰山区域
+T86	Thing-Nominal 496 497	山
+T87	Thing-Nominal 498 499	岭
+T88	Thing-Nominal 501 503	岩石
+R10	Part-Whole Arg1:T88 Arg2:T87	
+R11	Part-Whole Arg1:T88 Arg2:T86	
+T89	Person-Nominal 506 508	有人
+T90	Thing-Nominal 514 516	石板
+T91	Person-Nominal 524 525	人
+T92	Location-Pronoun 533 534	它
+*	Coreference T92 T84
+T93	Time-Explicit 538 546	＋届三中全会以后
+T94	Time-Implicit 547 550	有－天
+T95	Organization-Nominal 563 566	小分队
+T96	Thing-Nominal 568 570	仪器
+R12	Ownership Arg1:T95 Arg2:T96	
+T97	Location-Nominal 573 574	村
+T98	Thing-Nominal 577 579	飞机
+T99	Location-Name 585 588	苦楝村
+T100	Location-Nominal 589 593	山岙东边
+R13	Part-Whole Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 598 600	金矿
+R14	Located Arg1:T101 Arg2:T100	
+T102	Time-Implicit 601 603	现在
+T103	Person-Nominal 610 612	村民
+T104	Thing-Nominal 620 622	金矿
+T105	Person-Nominal 630 631;632 635	讨 饭的人
+T106	Location-Nominal 638 639	村
+T107	Person-Nominal 642 645	村民们
+T108	Person-Nominal 652 654	村长
+R15	Social Arg1:T108 Arg2:T107	
+R16	Social Arg1:T80 Arg2:T78	
+T109	Person-Name 655 658	陈又勤
+T110	Location-Nominal 659 660	村
+T111	Person-Nominal 664 667	文化人
+R17	General-Special Arg1:T109 Arg2:T111	
+R18	Ownership Arg1:T109 Arg2:T110	
+T112	Person-Pronoun 670 671	他
+*	Coreference T112 T109 T118
+T113	Metric 673 675	几年
+T114	Organization-Nominal 675 677	小学
+T115	Location-Nominal 687 688	外
+T116	Person-Nominal 714 715	人
+T117	Location-Nominal 708 709	外
+T118	Person-Pronoun 727 728	他
+T119	Location-Nominal 731 733	外地
+T120	Person-Nominal 738 741	村上人
+R19	Social Arg1:T118 Arg2:T120	
+T121	Location-Nominal 748 750	山村
+T122	Time-Implicit 750 753	近年来
+T123	Person-Pronoun 760 762	他们
+T124	Person-Nominal 775 778	村民们
+T125	Time-Implicit 790 794	这天晚上
+T126	Location-Name 795 798	苦楝村
+T127	Person-Nominal 800 802	村民
+T128	Person-Nominal 807 809	村长
+T129	Person-Nominal 810 813	老村长
+T130	Person-Name 813 814;815 817	小 烂糊
+*	Coreference T129 T130 T134 T135
+T131	Location-Pronoun 826 828	本村
+T132	Thing-Nominal 829 831	金矿
+R20	Located Arg1:T132 Arg2:T131	
+T133	Person-Nominal 834 839	世代讨饭人
+T134	Person-Pronoun 840 841	我
+T135	Person-Nominal 843 845	村长
+T136	Person-Pronoun 852 853	我
+T137	Person-Nominal 857 862	历史的罪人
+T138	Person-Pronoun 868 869	他
+*	Coreference T138 T136
+T139	Person-Nominal 874 875;876 878	村 民们
+T140	Person-Name 888 891	陈又勤
+T141	Person-Nominal 894 896	村长
+T142	Time-Implicit 900 904	一天晚上
+T143	Person-Name 905 908	陈又勤
+T144	Thing-Nominal 910 911	床
+T145	Thing-Nominal 933 934	床
+T146	Person-Nominal 943 945	老伴
+T147	Person-Pronoun 947 948	他
+*	Coreference T140 T141
+T148	Person-Nominal 951 953	村长
+R21	Family Arg1:T146 Arg2:T147	
+*	Coreference T143 T147 T149 T150
+T149	Person-Pronoun 961 962	你
+T150	Person-Name 971 973	老陈
+T151	Thing-Nominal 981 982	手
+R22	Part-Whole Arg1:T151 Arg2:T150	
+T152	Thing-Nominal 984 986	大门
+T153	Person-Nominal 989 996	三个村委会委员
+R23	Social Arg1:T150 Arg2:T153	
+T154	Location-Nominal 1004 1007	办公室
+T155	Person-Name 1008 1010	老陈
+T156	Person-Pronoun 1016 1017	他
+*	Coreference T156 T155
+T157	Person-Nominal 1018 1021	全村人
+T158	Time-Implicit 1025 1027	现在
+T159	Location-Pronoun 1041 1043	本村
+T160	Thing-Nominal 1057 1058	路
+T161	Thing-Nominal 1064 1065	路
+T162	Person-Nominal 1072 1073	人
+T163	Person-Name 1073 1077	丈二和尚
+T164	Thing-Nominal 1080 1082	头脑
+R24	Part-Whole Arg1:T164 Arg2:T163	
+T165	Person-Nominal 1083 1085	有人
+T166	Person-Name 1097 1099	老陈
+R25	Social Arg1:T166 Arg2:T165	
+T167	Person-Pronoun 1109 1110	他
+*	Coreference T167 T166
+T168	Person-Nominal 1113 1115	祖宗
+T169	Person-Pronoun 1118 1119;1120 1121	我 们
+T170	Location-Nominal 1127 1129	山岙
+T171	Location-Nominal 1132 1134	井底
+T172	Thing-Nominal 1135 1136	蛙
+R26	Located Arg1:T172 Arg2:T171	
+T173	Thing-Nominal 1139 1140	山
+T174	Location-Nominal 1169 1171	外地
+T175	Location-Nominal 1175 1177	外地
+T176	Person-Pronoun 1188 1190	我们
+T177	Location-Nominal 1212 1214	外地
+T178	Metric 1232 1239	半个钟头挂五分
+T179	Thing-Nominal 1263 1264	路
+T180	Location-Nominal 1266 1268	村口
+T181	Location-Nominal 1270 1272	山下
+T182	Thing-Nominal 1275 1280	手扶拖拉机
+T183	Thing-Nominal 1283 1285	汽车
+T184	Thing-Nominal 1289 1290	路
+T185	Person-Name 1294 1297	陈又勤
+T186	Time-Implicit 1303 1308	笫二天傍晚
+T187	Person-Nominal 1311 1313	村民
+T188	Person-Name 1316 1318	老陈
+T189	Person-Name 1333 1335	老陈
+T190	Person-Nominal 1338 1340	大家
+T191	Person-Pronoun 1341 1342	我
+T192	Person-Nominal 1343 1345	村长
+*	Coreference T189 T191 T192
+R27	Social Arg1:T189 Arg2:T190	
+T193	Person-Pronoun 1346 1347	我
+T194	Person-Nominal 1348 1352	几个委员
+R28	Social Arg1:T193 Arg2:T194	
+T195	Organization-Nominal 1359 1360	家
+T196	Person-Nominal 1361 1363	家长
+T197	Organization-Nominal 1368 1369	家
+T198	Person-Pronoun 1373 1374	我
+T199	Person-Pronoun 1380 1382	你们
+T200	Person-Nominal 1387 1389	大家
+*	Coreference T199 T200
+T201	Location-Name 1395 1398	苦楝村
+T202	Location-Nominal 1400 1402	台下
+T203	Time-Implicit 1410 1416	筑路的第一天
+T204	Person-Name 1417 1419	老陈
+T205	Thing-Nominal 1422 1423	岩
+T206	Thing-Nominal 1429 1431	乱石
+T207	Person-Name 1437 1439	老陈
+T208	Thing-Nominal 1440 1442	右腿
+R29	Part-Whole Arg1:T208 Arg2:T207	
+T209	Person-Nominal 1445 1447	村民
+T210	Location-Nominal 1450 1452	山上
+T211	Thing-Nominal 1459 1461	草药
+R30	Located Arg1:T211 Arg2:T210	
+T212	Thing-Nominal 1457 1458	血
+T213	Person-Name 1466 1468	老陈
+R31	Social Arg1:T209 Arg2:T213	
+T214	Person-Name 1471 1473	老陈
+T215	Person-Pronoun 1502 1503	他
+*	Coreference T215 T214
+T216	Thing-Nominal 1515 1517	铁锹
+R32	Use Arg1:T215 Arg2:T216	
+T217	Time-Implicit 1508 1511	一会后
+T218	Time-Explicit 1518 1525	每天早上五点半
+T219	Person-Name 1526 1528	老陈
+T220	Thing-Nominal 1538 1539	哨
+R33	Use Arg1:T219 Arg2:T220	
+T221	Person-Nominal 1545 1546;1547 1548	村 民
+T222	Thing-Nominal 1553 1554	树
+T223	Thing-Nominal 1556 1558	宿鸟
+R34	Located Arg1:T223 Arg2:T222	
+T224	Person-Nominal 1559 1562	村民门
+T225	Thing-Nominal 1564 1568	筑路工具
+R35	Ownership Arg1:T224 Arg2:T225	
+T226	Location-Nominal 1572 1574	工地
+T227	Thing-Nominal 1576 1577	岩
+T228	Thing-Nominal 1579 1580	岩
+T229	Thing-Nominal 1582 1584	石块
+T230	Thing-Nominal 1586 1588	石块
+T231	Time-Implicit 1595 1597	昨天
+T232	Metric 1612 1619	三个月多＋三天
+T233	Thing-Name 1620 1624	凤凰公路
+T234	Thing-Nominal 1631 1632	路
+*	Coreference T234 T233
+T235	Person-Nominal 1637 1639	村民
+T236	Person-Name 1639 1641	陈跃
+R36	General-Special Arg1:T236 Arg2:T235	
+T237	Location-Nominal 1642 1644	危岩
+T238	Person-Nominal 1654 1656	村长
+T239	Person-Name 1656 1659	陈又勤
+*	Coreference T238 T239 T240
+T240	Person-Name 1671 1674	陈村长
+T241	Person-Name 1675 1677	陈跃
+R37	Social Arg1:T240 Arg2:T241	
+T242	Thing-Nominal 1685 1687	眼泪
+T243	Person-Name 1689 1691	陈跃
+T244	Location-Pronoun 1694 1696	本村
+T245	Person-Pronoun 1704 1706	我们
+T246	Person-Pronoun 1709 1710	他
+*	Coreference T246 T243
+R38	Social Arg1:T245 Arg2:T246	
+T247	Location-Nominal 1720 1721	村
+T248	Thing-Nominal 1726 1728	金矿
+T249	Person-Nominal 1732 1738	“普通话”们
+T250	Location-Pronoun 1740 1742	这里
+T251	Thing-Nominal 1743 1745	岩石
+T252	Thing-Nominal 1747 1750	化岗岩
+*	Coreference T251 T252
+R39	Located Arg1:T251 Arg2:T250	
+*	Coreference T250 T244
+T253	Thing-Nominal 1755 1757	石板
+T254	Time-Implicit 1767 1769	当时
+T255	Person-Nominal 1772 1774	村民
+T256	Person-Name 1783 1785	老陈
+T257	Person-Name 1786 1788	老陈
+R40	Social Arg1:T249 Arg2:T255	
+T258	Person-Pronoun 1798 1799	他
+T259	Time-Implicit 1799 1801	过去
+*	Coreference T258 T257
+T260	Location-Name 1808 1812	独龙山村
+T261	Person-Name 1813 1816	石师傅
+R41	Ownership Arg1:T261 Arg2:T260	
+T262	Location-Nominal 1819 1820	村
+R42	Social Arg1:T258 Arg2:T261	
+T263	Location-Name 1824 1828	“凤凰山
+T264	Thing-Nominal 1828 1830	石板
+R43	Located Arg1:T264 Arg2:T263	
+T265	Person-Nominal 1840 1845	几十个村民
+T266	Thing-Nominal 1862 1866	凤凰石板
+T267	Time-Implicit 1868 1870	每天
+T268	Location-Name 1875 1878	苦楝村
+T269	Thing-Name 1886 1890	凤凰公路
+T270	Thing-Nominal 1897 1899	石板
+T271	Time-Implicit 1905 1908	半年后
+T272	Location-Nominal 1910 1912	外地
+T273	Location-Name 1922 1925	苦楝村
+T274	Thing-Nominal 1926 1930	凤凰石板
+T275	Thing-Nominal 1940 1943	大石板
+*	Coreference T275 T274 T277
+T276	Location-Nominal 1944 1945	地
+T277	Thing-Nominal 1956 1958	石板
+T278	Location-Pronoun 1971 1973	本村
+T279	Person-Nominal 1975 1977	村民
+T280	Thing-Nominal 1979 1980	钱
+R44	Ownership Arg1:T279 Arg2:T280	
+T281	Thing-Nominal 1985 1987	旧屋
+T282	Thing-Nominal 1988 1990	新房
+R45	Ownership Arg1:T279 Arg2:T281	
+R46	Ownership Arg1:T279 Arg2:T282	
+T283	Thing-Nominal 1995 1999	凤凰石板
+R47	Part-Whole Arg1:T283 Arg2:T282	
+T284	Metric 2000 2004	八九个月
+T285	Thing-Nominal 2005 2007	石板
+T286	Thing-Nominal 2020 2022	岩坑
+T287	Thing-Nominal 2018 2019	水
+R48	Located Arg1:T287 Arg2:T286	
+T288	Person-Name 2023 2025	老陈
+T289	Time-Implicit 2025 2028	这几天
+T290	Thing-Nominal 2038 2040	岩坑
+T291	Person-Pronoun 2041 2042	他
+*	Coreference T291 T288
+T292	Thing-Nominal 2045 2047	岩坑
+T293	Thing-Nominal 2057 2058	鱼
+T294	Person-Pronoun 2062 2063	他
+T295	Person-Nominal 2066 2071	陈跃的女儿
+T296	Person-Name 2071 2074	陈倩倩
+*	Coreference T296 T295 T297
+R49	Social Arg1:T294 Arg2:T296	
+T297	Person-Pronoun 2076 2077	她
+T298	Organization-Name 2078 2083	浙大农学院
+T299	Thing-Nominal 2092 2093	信
+R50	Create Arg1:T294 Arg2:T299	
+T300	Thing-Nominal 2099 2101	石板
+T301	Thing-Nominal 2103 2105	岩坑
+T302	Thing-Nominal 2108 2109	鱼
+T303	Person-Name 2110 2112	倩倩
+T304	Thing-Nominal 2113 2114	信
+T305	Time-Implicit 2115 2117	当夜
+T306	Thing-Nominal 2118 2119	信
+R51	Create Arg1:T303 Arg2:T306	
+T307	Thing-Nominal 2126 2127	鱼
+T308	Thing-Nominal 2135 2139	深的岩坑
+T309	Thing-Nominal 2141 2143	鲫鱼
+T310	Thing-Nominal 2144 2146	鲤鱼
+T311	Thing-Nominal 2147 2149	鲢鱼
+R52	Located Arg1:T309 Arg2:T308	
+R53	Located Arg1:T310 Arg2:T308	
+R54	Located Arg1:T311 Arg2:T308	
+T312	Thing-Nominal 2150 2152	浅的
+R55	General-Special Arg1:T312 Arg2:T301	
+T313	Thing-Nominal 2155 2156;2157 2158	鳗 鱼
+T314	Thing-Nominal 2159 2161	泥鳅
+R56	Located Arg1:T314 Arg2:T312	
+R57	Located Arg1:T313 Arg2:T312	
+T315	Person-Nominal 2176 2178	父亲
+T316	Time-Implicit 2178 2180	生前
+T317	Person-Name 2066 2068	陈跃
+R58	Family Arg1:T317 Arg2:T295	
+*	Coreference T315 T317
+T318	Time-Implicit 2183 2188	大学毕业后
+T319	Organization-Nominal 2183 2185	大学
+T320	Person-Name 2194 2197	陈伯伯
+T321	Person-Name 2205 2208	陈伯伯
+T322	Location-Name 2213 2216	苦楝村
+T323	Person-Name 2227 2229	老陈
+T324	Time-Implicit 2229 2236	收信后的第二天
+*	Coreference T294 T320
+*	Coreference T321 T323
+T325	Person-Nominal 2239 2243	两个村民
+T326	Thing-Nominal 2244 2245	山
+T327	Thing-Nominal 2246 2247	苗
+T328	Thing-Nominal 2250 2252	鳗鱼
+T329	Thing-Nominal 2253 2255	鱼苗
+*	Coreference T327 T329
+T330	Thing-Nominal 2271 2273	鳗苗
+R59	General-Special Arg1:T309 Arg2:T307	
+R60	General-Special Arg1:T310 Arg2:T307	
+R61	General-Special Arg1:T311 Arg2:T307	
+R62	General-Special Arg1:T313 Arg2:T307	
+R63	General-Special Arg1:T314 Arg2:T307	
+T331	Location-Name 2275 2277	乐清
+R64	Located Arg1:T330 Arg2:T331	
+T332	Person-Name 2280 2282	老陈
+T333	Person-Nominal 2284 2286	自己
+*	Coreference T332 T333 T335
+T334	Location-Pronoun 2290 2292	那儿
+*	Coreference T334 T331
+T335	Person-Pronoun 2293 2294	他
+T336	Person-Nominal 2295 2297	亲戚
+R65	Family Arg1:T335 Arg2:T336	
+T337	Time-Implicit 2298 2300	后来
+T338	Person-Pronoun 2302 2304	自己
+T339	Thing-Nominal 2306 2307	腿
+R66	Part-Whole Arg1:T339 Arg2:T338	
+T340	Person-Nominal 2310 2312	亲戚
+T341	Person-Nominal 2326 2330	一个村民
+T342	Location-Name 2332 2334	乐清
+T343	Location-Pronoun 2336 2338	那边
+*	Coreference T342 T343
+T344	Thing-Nominal 2338 2339;2340 2342	鳗 鱼苗
+T345	Person-Nominal 2355 2357	村民
+T346	Thing-Nominal 2362 2364	岩坑
+T347	Thing-Nominal 2371 2372	鱼
+R67	Located Arg1:T346 Arg2:T347	
+T348	Time-Implicit 2391 2395	一年以后
+T349	Thing-Nominal 2397 2399	岩坑
+T350	Thing-Nominal 2401 2402	鱼
+R68	Located Arg1:T350 Arg2:T349	
+T351	Time-Implicit 2417 2421	这年除夕
+T352	Organization-Nominal 2406 2408	每户
+T353	Organization-Nominal 2421 2423	每户
+T354	Thing-Nominal 2428 2430	杂鱼
+T355	Thing-Nominal 2431 2434	年夜饭
+T356	Thing-Nominal 2434 2435	桌
+T357	Organization-Nominal 2436 2437	家
+T358	Thing-Nominal 2440 2441	鱼
+R69	Located Arg1:T356 Arg2:T358	
+R70	Ownership Arg1:T357 Arg2:T358	
+T359	Person-Nominal 2442 2444	大家
+T360	Thing-Nominal 2457 2459	石板
+T361	Person-Nominal 2481 2482	人
+T362	Thing-Nominal 2488 2490	金矿
+T363	Organization-Nominal 2497 2500	小分队
+T364	Thing-Nominal 2509 2511	飞机
+T365	Organization-Nominal 2521 2522;2523 2525	小 分队
+T366	Time-Implicit 2525 2528	回去后
+T367	Metric 2531 2533	－年
+T368	Time-Implicit 2537 2544	一年又三个月后
+T369	Organization-Nominal 2545 2548	国家队
+T370	Location-Nominal 2553 2554	村
+T371	Person-Pronoun 2555 2557	他们
+R71	Ownership Arg1:T371 Arg2:T369	
+T372	Thing-Nominal 2559 2564	两架大机器
+R72	Ownership Arg1:T371 Arg2:T372	
+T373	Person-Nominal 2579 2582	这些人
+T374	Person-Nominal 2585 2588	技术员
+R73	General-Special Arg1:T373 Arg2:T374	
+*	Coreference T373 T371
+T375	Thing-Nominal 2595 2597	金矿
+T376	Person-Nominal 2593 2599	开采金矿的人
+T377	Location-Pronoun 2602 2604	本地
+T378	Organization-Nominal 2621 2624	国家队
+T379	Location-Nominal 2625 2626	村
+T380	Time-Implicit 2627 2631	当天晚上
+T381	Person-Name 2632 2635	陈村长
+T382	Person-Nominal 2636 2640	三个委员
+T383	Location-Nominal 2641 2644	办公室
+T384	Person-Nominal 2651 2657	金矿开的人员
+T385	Person-Nominal 2661 2663	大家
+T386	Person-Name 2667 2669	陈跃
+T387	Person-Nominal 2667 2672	陈跃的儿子
+T388	Person-Name 2672 2675	陈山山
+*	Coreference T388 T387 T389 T390
+R74	Family Arg1:T386 Arg2:T387	
+T389	Person-Pronoun 2681 2682	他
+T390	Person-Nominal 2683 2687	烈士家属
+T391	Person-Nominal 2683 2685	烈士
+*	Coreference T386 T391
+T392	Person-Nominal 2700 2702	大家
+T393	Thing-Nominal 2708 2709	水
+T394	Organization-Nominal 2719 2726	比较困难的人家
+T395	Organization-Nominal 2732 2737	“采金”队
+T396	Metric 2740 2742	两年
+T397	Thing-Nominal 2742 2744	金矿
+T398	Location-Name 2748 2751	苦楝村
+T399	Location-Nominal 2769 2771	全村
+T400	Organization-Nominal 2771 2773	每户
+T401	Person-Nominal 2783 2785	村民
+T402	Person-Name 2788 2790	老陈
+T403	Person-Nominal 2797 2799	大家
+T404	Metric 2799 2801	几年
+T405	Location-Nominal 2807 2813	我们这个穷村
+T406	Location-Nominal 2818 2820	富村
+T407	Thing-Name 2823 2827	凤凰公路
+T408	Thing-Nominal 2829 2831	汽车
+R75	Located Arg1:T408 Arg2:T407	
+T409	Person-Nominal 2833 2837	有个村民
+T410	Thing-Nominal 2841 2843	火车
+T411	Person-Pronoun 2849 2850	他
+*	Coreference T411 T409
+T412	Person-Pronoun 2854 2855	我
+*	Coreference T412 T402
+T413	Location-Name 2870 2873	苦楝村
+T414	Thing-Nominal 2874 2876	火车
+T415	Location-Name 2881 2884	苦楝村
+T416	Time-Implicit 2893 2895	现在
+T417	Location-Name 2904 2907	幸福村
+T418	Person-Nominal 2909 2913	－个村民
+T419	Person-Name 2920 2922	老陈
+R76	Social Arg1:T412 Arg2:T411	
+T420	Time-Implicit 2821 2823	当时
+T421	Time-Implicit 2823 2827;2828 2832	凤凰公路 通汽车后
+*	Coreference T420 T421
+*	Coreference T415 T405
+*	Coreference T406 T417
+T422	Location-Nominal 2923 2925	台上
+T423	Thing-Nominal 2929 2930	花
+T424	Location-Nominal 2931 2933	台下
+T425	Person-Nominal 2933 2935	村民
+T426	Location-Name 2954 2957	苦楝村
+T427	Person-Name 2962 2964	老陈
+T428	Thing-Nominal 2968 2970	右腿
+R77	Part-Whole Arg1:T428 Arg2:T427	
+T429	Person-Pronoun 2978 2979	他
+*	Coreference T429 T427
+T430	Time-Implicit 2994 2996	近日
+T431	Location-Nominal 3011 3013	某市
+T432	Organization-Nominal 3013 3016	某公司
+R78	Ownership Arg1:T432 Arg2:T431	
+T433	Person-Nominal 3023 3025	员工
+R79	Ownership Arg1:T433 Arg2:T432	
+T435	Organization-Nominal 3045 3047	公司
+*	Coreference T432 T435
+T436	Person-Nominal 3055 3059	失业人员
+T434	Person-Nominal 3028 3037	几位捧着高学历人才
+R80	General-Special Arg1:T434 Arg2:T436	
+T437	Person-Nominal 3063 3065	笔者
+T438	Person-Nominal 3078 3080	笔者
+T439	Person-Nominal 3110 3114	天之骄子
+T440	Person-Nominal 3116 3120	大学生们
+*	Coreference T439 T440
+T441	Person-Nominal 3136 3142	高学历人才们
+T442	Person-Nominal 3125 3127	学士
+T443	Person-Nominal 3128 3130	硕士
+T444	Person-Nominal 3131 3133	博士
+R81	General-Special Arg1:T442 Arg2:T441	
+R82	General-Special Arg1:T443 Arg2:T441	
+R83	General-Special Arg1:T444 Arg2:T441	
+T445	Person-Nominal 3162 3167	高学历人才
+T446	Person-Nominal 3168 3172	失业人员
+R84	General-Special Arg1:T445 Arg2:T446	
+T447	Person-Nominal 3206 3214	低学历低层次人才
+T448	Person-Nominal 3221 3223	笔者
+T449	Person-Nominal 3226 3231	高学历人才
+T450	Person-Nominal 3245 3250	高学历人才
+T451	Person-Nominal 3267 3273	某些大学生们
+T452	Person-Nominal 3311 3316	高学历人才
+T453	Person-Nominal 3333 3337	部分学生
+T454	Time-Implicit 3338 3342;3343 3344	攻读学位 时
+T455	Person-Pronoun 3359 3361	他们
+*	Coreference T455 T453
+T456	Thing-Nominal 3415 3418	敲门砖
+T457	Person-Nominal 3462 3467	众多学子们
+T458	Thing-Nominal 3521 3523	标尺
+T459	Thing-Nominal 3545 3548	铁饭碗
+T460	Organization-Nominal 3582 3586	用人单位
+T461	Time-Implicit 3603 3606	前几年
+T462	Time-Implicit 3640 3643	新世纪
+T463	Person-Nominal 3644 3647	大学生
+T464	Person-Nominal 3657 3659	自己
+*	Coreference T463 T464
+T465	Organization-Nominal 3661 3663	学校
+T466	Person-Nominal 3690 3692	大家
+T467	Time-Explicit 3703 3708	二十一世纪
+T468	Thing-Nominal 3742 3744	书籍
+T469	Person-Nominal 3774 3776	自己
+T470	Person-Nominal 3793 3795	自己
+T471	Person-Nominal 3825 3826	人
+*	Coreference T470 T471
+T472	Person-Nominal 3829 3831	自己
+T473	Organization-Nominal 3852 3854	祖国
+T474	Person-Nominal 3858 3860	自己

@@ -1,0 +1,445 @@
+T1	Location-Nominal 29 31	湖中
+T2	Thing-Nominal 32 34	石头
+T3	Location-Nominal 50 52	漩涡
+T4	Person-Pronoun 73 74	我
+T5	Person-Pronoun 117 118	我
+T6	Time-Explicit 122 124;125 130	20 12年6月
+T7	Organization-Name 132 145	中国作家协会雾灵山创作之家
+T8	Location-Name 138 141	雾灵山
+T9	Location-Name 161 170	燕山山脉主峰雾灵山
+T10	Location-Name 171 174	清东陵
+T11	Location-Name 175 181	承德避暑山庄
+T12	Location-Name 184 193	承德避暑山庄的后寝
+T13	Person-Nominal 194 197	女导游
+T14	Thing-Nominal 201 202	床
+R1	Located Arg1:T14 Arg2:T12	
+T15	Thing-Nominal 206 209	小条桌
+R2	Located Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 215 217	小桌
+*	Coreference T16 T15
+T17	Person-Name 219 223	咸丰皇帝
+T18	Thing-Name 232 236	北京条约
+T19	Thing-Name 242 243;244 249	中 俄瑷珲条约
+T20	Organization-Name 254 256	中国
+T21	Person-Nominal 267 269	大家
+T22	Person-Nominal 278 280	导游
+T23	Person-Pronoun 285 286	我
+T24	Location-Pronoun 292 294	那里
+*	Coreference T24 T12
+T25	Thing-Nominal 295 297	双腿
+R3	Part-Whole Arg1:T25 Arg2:T23	
+T26	Thing-Nominal 300 301	铅
+T27	Thing-Nominal 312 315	玻璃窗
+T28	Person-Pronoun 316 317	我
+T29	Metric 322 324	一米
+T30	Thing-Nominal 332 334	小桌
+T31	Thing-Nominal 339 343	文房四宝
+R4	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 344 346	笔筒
+R5	Located Arg1:T32 Arg2:T30	
+T33	Thing-Nominal 351 353	折扇
+T34	Thing-Nominal 356 358	毛笔
+R6	Located Arg1:T33 Arg2:T32	
+R7	Located Arg1:T34 Arg2:T32	
+T35	Thing-Nominal 359 361	砚台
+T36	Thing-Nominal 361 363	镇尺
+T37	Thing-Nominal 364 365;366 367	笔 架
+R8	Located Arg1:T35 Arg2:T30	
+R9	Located Arg1:T36 Arg2:T30	
+R10	Located Arg1:T37 Arg2:T30	
+T38	Thing-Nominal 372 378	景泰蓝墨水瓶
+*	Coreference T38 T30
+T39	Organization-Nominal 400 402	国家
+T40	Person-Nominal 408 410	帮凶
+T41	Person-Pronoun 419 420	我
+T42	Person-Name 432 434	咸丰
+T43	Thing-Nominal 440 441	笔
+T44	Thing-Nominal 447 449	墨汁
+T45	Thing-Nominal 452 454	桌面
+R11	Located Arg1:T44 Arg2:T45	
+R12	Use Arg1:T42 Arg2:T43	
+T46	Thing-Nominal 442 443	手
+R13	Part-Whole Arg1:T46 Arg2:T42	
+R14	Located Arg1:T43 Arg2:T46	
+T47	Time-Implicit 472 475	签约时
+T48	Time-Implicit 434 437	签约时
+T49	Thing-Nominal 478 480	简牍
+T50	Thing-Nominal 490 492	怒江
+T51	Person-Pronoun 504 505	他
+*	Coreference T51 T42
+T52	Thing-Nominal 532 533	刀
+T53	Person-Pronoun 562 563	他
+T54	Person-Name 553 555	咸丰
+*	Coreference T53 T54
+T55	Person-Nominal 576 580	集大成者
+R15	General-Special Arg1:T55 Arg2:T53	
+T56	Person-Pronoun 581 582	他
+T57	Location-Name 584 589	德避暑山庄
+T58	Person-Nominal 607 609;610 614	泱泱 大国之君
+*	Coreference T56 T58 T59 T60
+T59	Person-Pronoun 618 619	他
+T60	Person-Nominal 630 635	良心缺席者
+T61	Thing-Name 638 644	中俄北京条约
+T62	Location-Name 648 656	中国乌苏里江以东
+T63	Location-Name 658 661	库页岛
+T64	Metric 664 670;671 672	四十万平方公 里
+T65	Thing-Name 676 682	中俄瑷珲条件
+T66	Organization-Name 684 686	中国
+T67	Organization-Name 689 694	黑龙江以北
+T68	Organization-Name 695 701	外兴安岭以南
+T69	Metric 702 709	六十万平方公里
+T70	Person-Name 752 754	咸丰
+T71	Person-Nominal 755 757	帝王
+R16	General-Special Arg1:T70 Arg2:T71	
+T72	Person-Pronoun 767 768	他
+*	Coreference T72 T70
+T73	Location-Nominal 780 782	正寝
+T74	Abstract 787 790	金瓶梅
+T75	Person-Name 793 796	玳安爱
+T76	Person-Pronoun 820 821	他
+T77	Location-Nominal 823 827	泉壤之下
+T78	Person-Nominal 834 838	列祖列宗
+T79	Person-Pronoun 851 852	我
+T80	Person-Pronoun 856 857	他
+T81	Person-Nominal 871 874	俄国人
+T82	Person-Pronoun 881 882	你
+T83	Thing-Nominal 895 896	剑
+T84	Thing-Nominal 897 898	喉
+T85	Location-Name 912 914	中国
+T86	Metric 916 924	一百多万平方公里
+T87	Location-Nominal 935 938	东三省
+T88	Metric 947 954	八十万平方公里
+T89	Location-Nominal 955 958	外东北
+T90	Location-Nominal 959 961	祖国
+T91	Thing-Nominal 966 968	脐带
+T92	Thing-Nominal 970 971	刀
+T93	Location-Name 974 976	远东
+T94	Thing-Name 988 993	多米诺骨牌
+T95	Person-Nominal 1004 1006	后人
+T96	Location-Nominal 1014 1016	旷野
+T97	Abstract 1024 1028	假晶现象
+T98	Abstract 1032 1035	地质学
+T99	Thing-Nominal 1044 1046	岩石
+T100	Thing-Nominal 1048 1050	熔岩
+T101	Thing-Nominal 1054 1056	岩石
+T102	Location-Nominal 1057 1059	缝隙
+T103	Location-Nominal 1060 1062	空洞
+R17	Located Arg1:T100 Arg2:T103	
+R18	Located Arg1:T100 Arg2:T102	
+T104	Thing-Nominal 1085 1087	岩石
+T105	Thing-Nominal 1097 1099	岩石
+T106	Organization-Name 1100 1103	俄罗斯
+T107	Person-Nominal 1161 1163	对手
+T108	Thing-Nominal 1164 1166	胳膊
+R19	Part-Whole Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 1180 1181	他
+*	Coreference T109 T107
+T110	Person-Nominal 1194 1196	对手
+T111	Organization-Name 1224 1228	大清王朝
+T112	Organization-Name 1233 1235	俄国
+T113	Person-Nominal 1249 1252	俄国人
+T114	Thing-Nominal 1262 1263	土
+T115	Thing-Nominal 1264 1265	地
+T116	Person-Pronoun 1273 1274	我
+T117	Time-Implicit 1280 1282	当时
+T118	Person-Nominal 1283 1289	沙俄外交使节
+T119	Thing-Nominal 1301 1302	手
+T120	Thing-Nominal 1303 1305	条约
+R20	Located Arg1:T120 Arg2:T119	
+R21	Part-Whole Arg1:T119 Arg2:T118	
+T121	Thing-Nominal 1310 1312	双鬓
+T122	Thing-Nominal 1313 1315	唇髭
+R22	Part-Whole Arg1:T122 Arg2:T118	
+R23	Part-Whole Arg1:T121 Arg2:T118	
+T123	Thing-Nominal 1328 1329	蛹
+T124	Thing-Nominal 1334 1336	蝴蝶
+T125	Thing-Nominal 1345 1347	翅膀
+R24	Part-Whole Arg1:T125 Arg2:T124	
+T126	Person-Pronoun 1371 1372	我
+T127	Thing-Nominal 1395 1396	土
+T128	Person-Nominal 1404 1406	王臣
+T129	Organization-Nominal 1408 1410	大国
+T130	Person-Pronoun 1428 1429	我
+T131	Organization-Name 1453 1456	清政府
+T132	Thing-Nominal 1467 1469	国土
+T133	Organization-Nominal 1475 1477	别国
+T134	Thing-Nominal 1521 1522	花
+T135	Person-Pronoun 1551 1553	我们
+T136	Person-Pronoun 1568 1569	我
+T137	Thing-Name 1579 1585	中俄瑷珲条约
+T138	Time-Explicit 1587 1592	1858年
+T139	Organization-Name 1600 1604	清朝当局
+T140	Person-Name 1607 1609	奕山
+T141	Person-Name 1613 1615	奕山
+T142	Organization-Name 1620 1622	沙俄
+T143	Thing-Nominal 1624 1626	条约
+R25	General-Special Arg1:T137 Arg2:T143	
+T144	Organization-Name 1627 1630	清政府
+T145	Thing-Name 1637 1641	瑷珲条约
+T146	Person-Name 1648 1650	奕山
+T147	Time-Explicit 1658 1663	1860年
+T148	Thing-Name 1667 1673	中俄北京条约
+T149	Thing-Name 1684 1688	瑷珲条约
+T150	Location-Name 1733 1735	东北
+T151	Thing-Name 1750 1754	中俄密约
+T152	Thing-Nominal 1757 1761	东清铁路
+T153	Location-Name 1766 1770	中国东北
+R26	Located Arg1:T152 Arg2:T153	
+T154	Thing-Nominal 1773 1778	丁字形铁路
+R27	General-Special Arg1:T152 Arg2:T154	
+T155	Person-Nominal 1784 1787	中国人
+T156	Time-Explicit 1791 1795	十九世纪
+T157	Person-Name 1795 1803	英国思想家卡莱尔
+T158	Person-Pronoun 1821 1822	他
+T159	Person-Pronoun 1831 1832	他
+T160	Time-Explicit 1842 1852	一百五十多年后的今天
+T161	Person-Pronoun 1853 1855	我们
+T162	Person-Name 1874 1876;1877 1878	恩格 斯
+T163	Organization-Name 1882 1884	俄国
+T164	Thing-Nominal 1887 1888	枪
+T165	Thing-Nominal 1889 1890	弹
+T166	Organization-Name 1891 1893	中国
+T167	Organization-Name 1902 1903	法
+T168	Organization-Name 1903 1904	德
+T169	Thing-Name 1915 1918	多瑙河
+T170	Thing-Name 1922 1924	河流
+T171	Person-Name 1940 1942	屈原
+T172	Person-Name 1948 1950	岳飞
+T173	Person-Name 1956 1958	陆游
+T174	Thing-Nominal 1976 1977	水
+T175	Metric 2000 2007	一百万平方公里
+T176	Thing-Nominal 2027 2029	大地
+T177	Location-Name 2041 2045	远东原野
+T178	Thing-Nominal 2045 2047	北风
+T179	Person-Nominal 2052 2054	游子
+T180	Location-Nominal 2055 2056	国
+T181	Thing-Nominal 2063 2065	大地
+T182	Thing-Nominal 2072 2074	大风
+T183	Thing-Nominal 2077 2079	羁鸟
+T184	Location-Nominal 2080 2081	林
+T185	Person-Name 2086 2088	鲁迅
+T186	Thing-Nominal 2091 2093	地火
+T187	Thing-Nominal 2118 2120	大地
+T188	Thing-Nominal 2113 2115	星空
+T189	Thing-Nominal 2135 2137	大地
+T190	Person-Nominal 2160 2162	愁人
+T191	Person-Name 2167 2172	元人张可久
+T192	Time-Implicit 2183 2185	古代
+T193	Person-Nominal 2185 2187	闺妇
+T194	Person-Pronoun 2200 2201	我
+T195	Thing-Nominal 2274 2277	还魂汤
+T196	Location-Nominal 2290 2292	旷野
+T197	Thing-Nominal 2295 2296	刀
+T198	Thing-Nominal 2311 2313	青草
+T199	Thing-Pronoun 2316 2317	他
+T200	Metric 2211 2218	一百万平方公里
+T201	Person-Nominal 2226 2228	母亲
+T202	Metric 2234 2236	百年
+T203	Thing-Nominal 2218 2220	土地
+T204	Thing-Pronoun 2237 2238	他
+*	Coreference T204 T203
+T205	Thing-Nominal 2243 2245	炸雷
+T206	Location-Name 2246 2249	珍宝岛
+T207	Thing-Nominal 2250 2251	炮
+T208	Thing-Nominal 2330 2332	蝴蝶
+T209	Location-Nominal 2338 2340	原野
+R28	Located Arg1:T208 Arg2:T209	
+T210	Location-Name 2348 2351	长白山
+T211	Person-Nominal 2353 2355	母亲
+T212	Thing-Name 2369 2373	远东大地
+T213	Thing-Nominal 2379 2380	苞
+T214	Thing-Nominal 2381 2383	枝头
+R29	Located Arg1:T213 Arg2:T214	
+T215	Metric 2390 2392	一秒
+T216	Location-Nominal 2418 2420	岸边
+T217	Thing-Nominal 2423 2425	芦苇
+R30	Located Arg1:T217 Arg2:T216	
+T218	Thing-Nominal 2429 2431	苇叶
+R31	Part-Whole Arg1:T218 Arg2:T217	
+T219	Thing-Nominal 2434 2436	天空
+T220	Thing-Nominal 2461 2463	河流
+T221	Thing-Nominal 2469 2471	小鱼
+T222	Thing-Nominal 2476 2478	泡泡
+R32	Located Arg1:T221 Arg2:T220	
+R33	Located Arg1:T222 Arg2:T220	
+T223	Thing-Nominal 2519 2521	落叶
+T224	Location-Name 2526 2529	黑龙江
+T225	Location-Name 2530 2533	松花江
+R34	Located Arg1:T223 Arg2:T224	
+R35	Located Arg1:T223 Arg2:T225	
+T226	Thing-Nominal 2535 2537	眼泪
+T227	Person-Nominal 2551 2556	解放军战士
+T228	Location-Nominal 2566 2568	家乡
+T229	Thing-Nominal 2569 2570	水
+T230	Thing-Nominal 2578 2579	云
+T231	Thing-Nominal 2580 2581	雨
+T232	Person-Name 2592 2594	张潮
+T233	Thing-Nominal 2604 2605	花
+T234	Thing-Nominal 2609 2610	蝶
+T235	Thing-Nominal 2611 2612	山
+T236	Thing-Nominal 2616 2617	泉
+T237	Thing-Nominal 2618 2619	石
+T238	Thing-Nominal 2623 2624	苔
+T239	Thing-Nominal 2625 2626	水
+T240	Thing-Nominal 2630 2631	藻
+R36	Located Arg1:T240 Arg2:T239	
+R37	Located Arg1:T238 Arg2:T237	
+R38	Located Arg1:T236 Arg2:T235	
+R39	Located Arg1:T234 Arg2:T233	
+T241	Thing-Nominal 2633 2635	乔木
+T242	Thing-Nominal 2639 2641	藤萝
+R40	Located Arg1:T242 Arg2:T241	
+T244	Thing-Nominal 2660 2661	根
+T245	Thing-Nominal 2662 2666	大地的根
+T246	Thing-Pronoun 2667 2668	它
+T243	Thing-Nominal 2653 2655	大地
+*	Coreference T246 T243
+T247	Thing-Pronoun 2672 2673	它
+T248	Thing-Nominal 2677 2679	榕树
+T249	Thing-Nominal 2680 2681	根
+R41	Part-Whole Arg1:T249 Arg2:T248	
+T250	Thing-Nominal 2701 2703	杜鹃
+T251	Thing-Nominal 2704 2705	血
+T252	Thing-Nominal 2713 2715	河流
+T253	Thing-Nominal 2744 2746	大海
+T254	Metric 2765 2771;2772 2773	一百万平方公 里
+T255	Thing-Nominal 2774 2776	土地
+T256	Location-Nominal 2786 2789	外东北
+T257	Thing-Nominal 2794 2796	大地
+T258	Person-Pronoun 2809 2810	我
+T259	Location-Name 2813 2820	符拉迪沃斯托克
+T260	Location-Name 2825 2828	海参崴
+*	Coreference T259 T260
+T261	Thing-Nominal 2861 2863	流弹
+T262	Time-Implicit 2868 2870	那天
+T263	Thing-Nominal 2871 2873	电视
+T264	Organization-Nominal 2876 2882	中国一些企业
+T265	Location-Name 2883 2890	俄罗斯远东地区
+T266	Thing-Nominal 2896 2898	水稻
+R42	Located Arg1:T266 Arg2:T265	
+T267	Location-Name 2903 2909	珲春圈河口岸
+T268	Location-Nominal 2911 2913	国内
+T269	Person-Pronoun 2937 2938	我
+T270	Person-Pronoun 2961 2962	我
+T271	Person-Pronoun 2969 2971	我们
+T272	Person-Pronoun 3006 3007	我
+T273	Person-Name 3010 3013	克罗齐
+T274	Metric 3030 3037	一百万平方公里
+T275	Thing-Nominal 3037 3039	土地
+T276	Thing-Pronoun 3053 3054	它
+*	Coreference T276 T275
+T277	Person-Pronoun 3056 3058	我们
+T278	Person-Nominal 3108 3110	逝者
+T279	Person-Nominal 3113 3115	来者
+T280	Person-Pronoun 3133 3134	我
+T281	Person-Name 3137 3139	李济
+T282	Thing-Nominal 3145 3147	大地
+T283	Thing-Nominal 3152 3154	史书
+T284	Person-Pronoun 3161 3163	我们
+T285	Thing-Nominal 3168 3170	大地
+T286	Thing-Nominal 3178 3180	史书
+T287	Location-Nominal 3181 3184	外东北
+T288	Thing-Nominal 3208 3210	史书
+T289	Person-Nominal 3215 3218	中国人
+T290	Person-Pronoun 3237 3239	我们
+T291	Person-Pronoun 3283 3285	我们
+T292	Thing-Nominal 3288 3290	山脊
+T293	Person-Name 3315 3320	诗人法布尔
+T294	Person-Pronoun 3327 3329	我们
+T295	Thing-Nominal 3334 3335	狼
+T296	Thing-Nominal 3340 3343	牧羊犬
+T297	Person-Nominal 3346 3348	逝者
+T298	Thing-Nominal 3352 3354	神龟
+T299	Thing-Nominal 3362 3363	蛇
+T300	Thing-Nominal 3364 3365	雾
+T301	Thing-Nominal 3368 3370	土灰
+T302	Thing-Nominal 3400 3402	白山
+T303	Thing-Nominal 3402 3404	黑水
+T304	Thing-Nominal 3414 3415	山
+T305	Thing-Nominal 3416 3417	日
+T306	Thing-Nominal 3419 3420	水
+T307	Thing-Nominal 3421 3422	石
+T308	Person-Pronoun 3454 3456	我们
+T309	Person-Nominal 3474 3476	自己
+T310	Thing-Nominal 3479 3481	稻谷
+T311	Thing-Nominal 3497 3498	仓
+R43	Located Arg1:T310 Arg2:T311	
+T312	Thing-Nominal 3507 3509	国土
+T313	Time-Implicit 3518 3520	秋日
+T314	Time-Implicit 3530 3534	有天夜里
+T315	Person-Pronoun 3535 3536	我
+T316	Location-Nominal 3538 3541	外东北
+T317	Organization-Nominal 3544 3546	祖国
+T318	Thing-Nominal 3548 3549	山
+T319	Thing-Nominal 3550 3551	水
+T320	Thing-Nominal 3559 3561	地图
+T321	Thing-Nominal 3563 3565	雄鸡
+T322	Location-Name 3570 3575	太平洋沿岸
+T323	Person-Pronoun 3577 3578	我
+T324	Thing-Nominal 3591 3592	泪
+T325	Thing-Nominal 3602 3604	瘴气
+T326	Person-Pronoun 3608 3610	我们
+T327	Person-Name 3614 3617	黑格尔
+T328	Person-Nominal 3654 3656	哲人
+T329	Thing-Nominal 3659 3661	土地
+T330	Metric 3691 3698	一百万平方公里
+T331	Thing-Nominal 3691 3701	一百万平方公里的土地
+T332	Location-Nominal 3702 3704	故乡
+T333	Person-Name 3773 3776	胡塞尔
+T334	Organization-Name 3784 3788	大清王朝
+T335	Person-Nominal 3804 3806	国民
+T336	Person-Name 3825 3828	梁启超
+T337	Person-Nominal 3843 3845	国民
+T338	Thing-Nominal 3881 3882	针
+T339	Thing-Nominal 3883 3884	血
+T340	Person-Name 3887 3889	鲁迅
+T341	Person-Nominal 3899 3901	国民
+T342	Thing-Nominal 3922 3924	招牌
+T343	Person-Name 3938 3940	鲁迅
+T344	Person-Nominal 3956 3958	国民
+T345	Person-Name 4000 4002	鲁迅
+T346	Metric 4012 4016	八十多年
+T347	Person-Nominal 4026 4028	国民
+T348	Person-Name 4044 4046	鲁迅
+T349	Time-Explicit 4061 4063	民国
+T350	Time-Implicit 4065 4067	当下
+T351	Person-Pronoun 4074 4076	我们
+T352	Person-Nominal 4092 4094	国民
+T353	Thing-Nominal 4114 4119	遗忘抗生素
+T354	Location-Nominal 4129 4131	云端
+T355	Location-Nominal 4140 4142	泥沼
+T356	Person-Nominal 4150 4152	人们
+T357	Metric 4181 4183	一秒
+T358	Metric 4184 4186	一秒
+T359	Thing-Nominal 4235 4237	电视
+T360	Person-Pronoun 4272 4274	我们
+T361	Person-Pronoun 4298 4300	我们
+T362	Thing-Nominal 4305 4307	伤疤
+T363	Organization-Nominal 4317 4318	国
+T364	Person-Pronoun 4351 4353	我们
+T365	Person-Pronoun 4388 4390	我们
+T366	Thing-Nominal 4400 4402	凉风
+T367	Person-Nominal 4406 4408	君子
+T368	Organization-Name 4421 4423	韩国
+T369	Thing-Nominal 4441 4449	志愿军烈士的遗骸
+T370	Thing-Nominal 4452 4454	马革
+T371	Thing-Nominal 4455 4456	尸
+T372	Person-Nominal 4457 4459	英烈
+T373	Person-Nominal 4441 4446	志愿军烈士
+*	Coreference T372 T373
+T374	Location-Nominal 4465 4467	故里
+T375	Thing-Nominal 4474 4476	土地
+T376	Metric 4482 4489	一百万平方公里
+T377	Thing-Nominal 4482 4491	一百万平方公里土地
+T378	Thing-Nominal 4495 4496	叶
+T379	Thing-Nominal 4497 4498	根
+T380	Thing-Nominal 4518 4520	群山
+T381	Location-Nominal 4534 4536	田园
+T382	Time-Explicit 4545 4561	那天是2012年6月25日的上午
+T383	Person-Pronoun 4562 4563	我
+T384	Location-Name 4564 4573	承德避暑山庄的门前
+T385	Thing-Nominal 4590 4591	泪
+T386	Thing-Nominal 4601 4603	小桌
+T387	Thing-Nominal 4608 4609	笔
+T388	Thing-Nominal 4609 4611	国土
+T389	Thing-Nominal 4617 4619	秋霜

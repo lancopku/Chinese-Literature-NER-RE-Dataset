@@ -1,0 +1,303 @@
+T1	Location-Name 2 5	西洞庭
+T2	Person-Nominal 6 8	人们
+T3	Location-Name 14 17	洞庭湖
+T4	Thing-Nominal 17 24	万顷波涛的水天
+T5	Thing-Nominal 25 35	云絮般洁白的片片渔帆
+T6	Thing-Nominal 37 51	那洞庭湖的许多神奇迷人的传说
+R1	Located Arg1:T4 Arg2:T3	
+R2	Located Arg1:T5 Arg2:T3	
+R3	Located Arg1:T6 Arg2:T3	
+T7	Location-Name 55 58	西洞庭
+T8	Organization-Name 61 63	中国
+T9	Location-Name 64 66	新疆
+T10	Organization-Name 73 79	生产建设兵团
+T12	Location-Nominal 89 91	内地
+T13	Thing-Nominal 93 97	国营农场
+T14	Time-Implicit 82 98	1955年春在内地兴办国营农场时
+T11	Time-Implicit 64 98	新疆搞屯垦戍边建立生产建设兵团之后，1955年春在内地兴办国营农场时
+T15	Location-Name 100 105	西洞庭农场
+T16	Location-Nominal 114 121;122 131	湖南省沅水和澧 水交汇的洞庭湖西域
+T17	Metric 134 138	15公里
+T18	Metric 141 145	10公里
+T19	Metric 149 159	110.54平方公里
+T20	Location-Name 161 168	洞庭湖断陷盆地
+T21	Thing-Nominal 178 182;183 190	芦苇、杂 草、灌木、沼泽
+R4	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 193 197	河港湖泊
+R5	Located Arg1:T22 Arg2:T20	
+T23	Person-Pronoun 202 203	我
+T24	Time-Implicit 205 208	那时候
+*	Coreference T24 T11
+T25	Person-Nominal 210 212	父母
+R6	Family Arg1:T25 Arg2:T23	
+T26	Thing-Nominal 214 218	国营农场
+T27	Location-Name 224 227	西洞庭
+T28	Person-Nominal 284 287	父辈们
+T29	Metric 230 234	近60年
+T30	Person-Pronoun 237 238	我
+T31	Person-Nominal 241 244	父辈们
+T32	Person-Nominal 259 262	父辈们
+T33	Thing-Nominal 295 296	薪
+T34	Thing-Nominal 297 298	火
+T35	Time-Implicit 304 307	3年前
+T36	Person-Pronoun 309 310	我
+T37	Time-Implicit 309 317	我临近退休的时候
+T38	Organization-Nominal 318 321	组织上
+T39	Person-Pronoun 322 323	我
+T40	Thing-Name 325 332	《西洞庭区志》
+T41	Person-Pronoun 338 339	我
+T42	Time-Implicit 344 346	如今
+T43	Person-Nominal 348 351;352 355	区志办 同志们
+T44	Metric 356 358	三年
+T45	Thing-Nominal 361 375	60万字的《西洞庭区志》初稿
+T46	Organization-Name 348 351	区志办
+T47	Thing-Nominal 391 392	车
+T48	Thing-Nominal 395 403	高屹的排灌渠堤干
+*	Coreference T47 T48
+T49	Thing-Nominal 407 411	万顷农桑
+T50	Metric 407 409	万顷
+T51	Thing-Nominal 417 422	渠水和岸柳
+T52	Location-Nominal 424 429	无尽的远方
+T53	Thing-Nominal 449 451	华灯
+T54	Thing-Nominal 449 458	华灯绽放的交通大道
+R7	Located Arg1:T53 Arg2:T54	
+T55	Thing-Nominal 462 473;474 480	那拔地而起的高楼、工厂 和如织的车流
+T56	Person-Pronoun 481 482	我
+T57	Location-Name 488 491	西洞庭
+T58	Location-Nominal 492 496	百里荒原
+T59	Location-Nominal 497 503	百亿工业园区
+R8	General-Special Arg1:T59 Arg2:T57	
+T60	Metric 506 509	60年
+T61	Person-Pronoun 523 524	你
+T62	Time-Implicit 528 534	这个伟大时代
+T63	Time-Implicit 515 517	时代
+*	Coreference T62 T63
+T64	Person-Pronoun 542 544	我们
+T65	Person-Nominal 554 566	那些勤劳勇敢的农垦先驱们
+T66	Thing-Nominal 568 576	一锹一镐一根扁担
+T67	Thing-Nominal 576 584	一声声劳动的号子
+T68	Location-Nominal 587 591	千年荒原
+*	Coreference T68 T58 T80 T82
+R9	General-Special Arg1:T58 Arg2:T57	
+T69	Thing-Nominal 593 595;596 607	一滴 一滴的汗血和青春的生命
+T70	Thing-Nominal 610 616	西洞庭的土壤
+R10	Located Arg1:T70 Arg2:T57	
+T71	Location-Nominal 619 624	昔日的荒原
+T72	Location-Nominal 626 628	粮仓
+*	Coreference T71 T57 T72 T73
+T73	Location-Nominal 631 635	工业新城
+T74	Time-Implicit 640 647	1955年初春
+T75	Organization-Name 648 655	湖南省人民政府
+T76	Thing-Nominal 656 661	纸招工布告
+T77	Person-Nominal 662 685	一批批机关干部、转业军人、知识青年、工人、农民
+T78	Thing-Nominal 690 694	国营农场
+T79	Location-Nominal 702 711	大江南北，三湘大地
+T80	Location-Nominal 716 725	沉睡了千百年的荒原
+T81	Person-Nominal 734 741	勇敢的拓荒者们
+*	Coreference T81 T77 T91
+T82	Location-Nominal 742 744	荒原
+T83	Thing-Nominal 753 755	农场
+T84	Person-Nominal 780 784	30多人
+T85	Time-Explicit 798 803	1954年
+T86	Location-Name 810 813	西洞庭
+T87	Thing-Nominal 815 817	淤泥
+T88	Thing-Nominal 820 829	蚂蝗、河蚌、菱角刺
+T89	Thing-Nominal 832 841	百年沧桑的矮桩杨柳
+T90	Thing-Nominal 842 851	密不透风的芦苇丛林
+T91	Person-Nominal 853 857	拓荒者们
+T92	Person-Nominal 872 874;875 877	拓荒 者们
+T93	Thing-Nominal 818 819	膝
+T94	Thing-Nominal 889 892	新农场
+T95	Time-Implicit 912 916	早上6点
+T96	Time-Implicit 919 923	晚上6点
+T97	Thing-Nominal 926 929	早中饭
+T98	Location-Nominal 930 933	工地上
+T99	Metric 938 943	十多个小时
+T100	Metric 936 938	一天
+T101	Thing-Nominal 945 947	泥水
+T102	Thing-Nominal 949 950	虫
+T103	Thing-Nominal 952 953	咬
+T104	Thing-Nominal 954 956	蚌壳
+T105	Thing-Nominal 957 958	脚
+T106	Thing-Nominal 961 963	手脚
+T107	Person-Nominal 970 973	一个人
+T108	Person-Nominal 978 981	每个人
+T109	Person-Nominal 986 990	英雄模范
+T110	Person-Name 991 996;997 1004	3作业区9 队5组组长罗恒
+T111	Person-Nominal 1006 1022	一位在抗美援朝战场入党的转业军人
+R11	General-Special Arg1:T111 Arg2:T110	
+T112	Person-Nominal 1028 1031	组员们
+T113	Thing-Nominal 1024 1025	饭
+T114	Location-Nominal 1041 1047	工棚的当风口
+T115	Thing-Nominal 1048 1050	双脚
+R12	Part-Whole Arg1:T115 Arg2:T110	
+T116	Time-Implicit 1064 1067	半夜里
+T117	Person-Nominal 1073 1076	组员们
+T118	Thing-Nominal 1077 1079	被子
+T119	Time-Implicit 1080 1082	每天
+T120	Metric 1086 1089	一小时
+T121	Person-Nominal 1093 1096	组员们
+T122	Thing-Nominal 1098 1102	劳动工具
+T123	Person-Pronoun 1104 1105	他
+*	Coreference T123 T110
+T124	Person-Nominal 1110 1114	全组同志
+T125	Person-Pronoun 1132 1134	他们
+*	Coreference T125 T124
+T126	Thing-Nominal 1142 1144	星星
+T127	Thing-Nominal 1146 1148	月亮
+T128	Thing-Nominal 1165 1169	万亩荒湖
+T129	Thing-Nominal 1170 1172	粮仓
+R13	Located Arg1:T128 Arg2:T80	
+T130	Time-Implicit 1175 1184	一个倾盆大雨的晚上
+T131	Person-Name 1197 1209	1作业区1队司务长欧阳洪
+T132	Person-Pronoun 1210 1212	自己
+*	Coreference T132 T131 T136
+T133	Thing-Nominal 1210 1219	自己的被褥蓑衣斗笠
+R14	Ownership Arg1:T131 Arg2:T133	
+T134	Thing-Nominal 1220 1225	自己的身体
+R15	Ownership Arg1:T131 Arg2:T134	
+T135	Thing-Nominal 1228 1230	米袋
+T136	Person-Pronoun 1232 1233	他
+T137	Time-Implicit 1248 1251	3天后
+T138	Person-Nominal 1259 1263	他的战友
+R16	Social Arg1:T138 Arg2:T136	
+R17	Social Arg1:T110 Arg2:T112	
+T139	Person-Pronoun 1264 1265	他
+T140	Person-Nominal 1268 1270	战友
+R18	Social Arg1:T140 Arg2:T139	
+T141	Thing-Nominal 1268 1272	战友口粮
+T142	Thing-Nominal 1280 1283	暴风雨
+T143	Person-Nominal 1291 1296	作业区区长
+T144	Thing-Nominal 1298 1302	他的墓碑
+T145	Thing-Nominal 1305 1318	一行“舍生为公烈士”的碑文
+R19	Located Arg1:T145 Arg2:T144	
+R20	Social Arg1:T143 Arg2:T139	
+T146	Time-Implicit 1319 1321	如今
+T147	Location-Name 1323 1329	西洞庭陈列馆
+T148	Person-Nominal 1334 1342	欧阳洪等五位烈士
+T149	Thing-Nominal 1334 1345	欧阳洪等五位烈士的照片
+R21	Located Arg1:T149 Arg2:T147	
+T150	Location-Name 1370 1373	西洞庭
+T151	Metric 1379 1382	4万亩
+T152	Time-Implicit 1385 1389	11月份
+T153	Thing-Nominal 1390 1392	农场
+T154	Thing-Nominal 1396 1398	水利
+T155	Metric 1400 1408	110多平方公里
+T156	Thing-Nominal 1415 1421	南北经渠5条
+T157	Thing-Nominal 1422 1429	东西纬渠10条
+T158	Thing-Nominal 1430 1433	每条渠
+T159	Metric 1419 1421	5条
+T160	Metric 1426 1429	10条
+T161	Metric 1435 1437	6米
+T162	Metric 1439 1441	5米
+T163	Time-Implicit 1453 1458	那年的冬天
+T164	Thing-Nominal 1462 1465	老北风
+T165	Thing-Nominal 1467 1471	鹅毛大雪
+T166	Location-Nominal 1476 1478	脸上
+T167	Thing-Nominal 1479 1480	刀
+T168	Person-Nominal 1482 1485	职工们
+T169	Thing-Nominal 1497 1499	工具
+T170	Location-Nominal 1502 1504	工地
+T171	Thing-Nominal 1529 1532	一担土
+T172	Thing-Nominal 1535 1538	两坨泥
+T173	Metric 1540 1544	两百多斤
+T174	Person-Nominal 1545 1548	挑土的
+T175	Person-Nominal 1519 1522	挖土的
+T176	Thing-Nominal 1550 1554	一条短裤
+R22	Use Arg1:T174 Arg2:T176	
+T177	Thing-Nominal 1555 1557	扁担
+T178	Thing-Nominal 1561 1562	弓
+T179	Thing-Nominal 1563 1566;1567 1568	手臂肌 肉
+T180	Thing-Nominal 1580 1582	牙关
+T181	Thing-Nominal 1592 1597	深深的脚印
+T182	Thing-Nominal 1598 1600	渠道
+T183	Thing-Nominal 1610 1613	精钢泥
+T184	Thing-Nominal 1615 1617	手掌
+T185	Thing-Nominal 1622 1624	血泡
+T186	Time-Implicit 1625 1627;1628 1629	两天 后
+T187	Thing-Nominal 1629 1631	血泡
+T188	Thing-Nominal 1633 1635	老茧
+T189	Thing-Nominal 1636 1637	手
+T190	Thing-Nominal 1639 1642	松树皮
+T191	Person-Nominal 1648 1651	挑土的
+T192	Thing-Nominal 1652 1653	坡
+T193	Person-Pronoun 1673 1674	你
+T194	Person-Pronoun 1676 1677	赶
+T195	Location-Nominal 1683 1686	堤面上
+T196	Person-Nominal 1686 1688;1689 1697	一群 群赤身徒跣的汉子
+T197	Thing-Nominal 1701 1711	一只两百多斤的青石夯
+T198	Metric 1703 1707	两百多斤
+T199	Thing-Nominal 1717 1719	天穹
+T200	Person-Pronoun 1735 1737	他们
+*	Coreference T200 T196
+T201	Location-Nominal 1735 1740	他们的脚下
+T202	Thing-Nominal 1744 1749;1750 1754	一条散发着 泥土芬芳
+T203	Thing-Nominal 1755 1763	闪着汗水油光的路
+T204	Location-Nominal 1764 1768	整个工地
+T205	Location-Nominal 1770 1779	劳动与竞赛的欢乐场
+T206	Time-Explicit 1781 1786	1967年
+T207	Metric 1789 1794	12个冬春
+T208	Thing-Nominal 1797 1806	全场15条经纬主渠
+T209	Metric 1814 1819	120公里
+T210	Metric 1826 1830	10万亩
+T211	Thing-Nominal 1822 1826	水田旱土
+T212	Location-Name 1831 1834	西洞庭
+T213	Location-Nominal 1838 1846	旱涝保收的米粮仓
+R23	General-Special Arg1:T213 Arg2:T212	
+T214	Person-Nominal 1851 1854	父辈们
+T215	Thing-Nominal 1847 1865	那伴随着父辈们战斗的口号、歌谣、号子
+T216	Thing-Nominal 1867 1869	春蚕
+T217	Thing-Nominal 1867 1871;1872 1877	春蚕嘴里 吐不尽的丝
+T218	Person-Nominal 1884 1894	世世代代历尽磨难的人
+T219	Organization-Name 1921 1924	共产党
+T220	Time-Explicit 1930 1935	1979年
+T221	Location-Name 1936 1939	西洞庭
+T222	Organization-Nominal 1942 1950	“全国红旗农场”
+R24	General-Special Arg1:T222 Arg2:T221	
+T223	Time-Explicit 1954 1959	1984年
+T224	Organization-Nominal 1962 1972	“全国农垦先进单位”
+R25	General-Special Arg1:T224 Arg2:T221	
+T225	Metric 1973 1978	1996年
+T226	Organization-Nominal 1982 1990;1991 1995	“全国农业科技投 入百强”
+R26	General-Special Arg1:T226 Arg2:T221	
+T227	Time-Explicit 2000 2005	2000年
+T228	Location-Name 2006 2011	西洞庭农场
+*	Coreference T228 T221 T244
+T229	Organization-Nominal 2018 2025	单一的农垦企业
+R27	General-Special Arg1:T229 Arg2:T228	
+T230	Organization-Nominal 2029 2031	政府
+T231	Location-Name 2036 2039	西洞庭
+T232	Thing-Nominal 2040 2047	展开双翼的雄鹰
+T233	Location-Nominal 2053 2060;2061 2062	改革开放的蓝天 上
+R28	Located Arg1:T232 Arg2:T233	
+T234	Metric 2068 2072	50多米
+T235	Thing-Nominal 2066 2084	街宽50多米的五纵六横沥青砼交通大道
+T236	Thing-Nominal 2085 2089	高速公路
+T237	Thing-Nominal 2094 2097	省道线
+T238	Time-Explicit 2124 2129	2012年
+T239	Location-Nominal 2133 2140	省级工业集中区
+R29	General-Special Arg1:T239 Arg2:T228	
+T240	Time-Explicit 2141 2146	2013年
+T241	Location-Nominal 2150 2158	省农业科技示范园
+R30	General-Special Arg1:T241 Arg2:T228	
+T242	Organization-Nominal 2159 2162	区党委
+T243	Abstract 2165 2177	2015年百亿元园区规划
+T244	Location-Nominal 2178 2182;2183 2191	一座绿色 田原上的工业新城
+T245	Time-Implicit 2201 2203	今天
+T246	Person-Pronoun 2205 2207	我们
+T247	Person-Pronoun 2235 2236	你
+T248	Person-Nominal 2239 2245	我们的父辈们
+*	Coreference T248 T214
+T249	Person-Pronoun 2251 2253	自己
+*	Coreference T249 T247
+T250	Thing-Nominal 2267 2275	一片片肤浅的脚印
+R31	Create Arg1:T247 Arg2:T250	
+T251	Time-Implicit 2283 2285	今天
+T252	Time-Implicit 2288 2297	改革开放的伟大时代
+T253	Person-Nominal 2298 2301	几代人
+T254	Person-Pronoun 2308 2310	他们
+*	Coreference T254 T253
+T255	Person-Pronoun 2310 2312	我们
+T256	Person-Nominal 2332 2335	后生们
+T257	Abstract 2337 2341;2342 2344	伟大的中 国梦
+T258	Abstract 2288 2292	改革开放

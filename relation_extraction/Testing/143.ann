@@ -1,0 +1,171 @@
+T1	Thing-Nominal 0 4	湛家大街
+T2	Location-Nominal 13 15	街上
+T3	Thing-Nominal 15 23	最著名的重点建筑
+T4	Location-Nominal 24 32	湛若水的广州故居
+T5	Person-Name 24 27	湛若水
+T6	Person-Pronoun 33 34	他
+T7	Thing-Nominal 35 37	学馆
+R1	Ownership Arg1:T6 Arg2:T7	
+*	Coreference T6 T5
+T8	Person-Name 41 44	湛若水
+T9	Time-Explicit 45 47	明代
+T10	Person-Nominal 47 60;61 63	大名鼎鼎的一位国际知名理学 大家
+R2	General-Special Arg1:T10 Arg2:T8	
+T11	Person-Name 65 67	元易
+T12	Person-Name 69 71	甘泉
+T13	Location-Name 74 78	广州增城
+T14	Person-Name 87 90	陈献章
+T15	Person-Name 94 97	陈白沙
+T16	Time-Explicit 111 114	弘治年
+T17	Person-Nominal 122 127	翰林院编修
+T18	Time-Implicit 128 131	这期间
+T19	Person-Name 133 136	王守仁
+T20	Person-Name 139 142	王阳明
+T21	Organization-Nominal 144 146	吏部
+T22	Person-Name 149 152	湛若水
+T23	Person-Pronoun 160 162	他们
+T24	Person-Pronoun 175 176	他
+*	Coreference T24 T22
+T25	Abstract 180 182;183 189	《二 礼经传测》、
+T26	Abstract 189 195	《春秋正传》
+T27	Abstract 196 202	《古乐经传》
+T28	Abstract 203 209	《甘泉新论》
+T29	Abstract 210 215	《甘泉集》
+T30	Person-Pronoun 218 219	他
+T31	Time-Explicit 220 224	嘉靖年间
+T32	Person-Nominal 230 246	南京国子监祭酒、吏、礼、兵部尚书
+T33	Person-Nominal 248 252	兵部尚书
+T34	Person-Name 286 289	湛若水
+T35	Metric 289 292	75岁
+T36	Location-Name 297 301	增城故里
+T37	Location-Nominal 307 309	外地
+T38	Person-Pronoun 312 313	他
+*	Coreference T38 T34
+T39	Person-Pronoun 339 340	我
+T40	Location-Name 341 345	湖南衡山
+T41	Person-Pronoun 348 349	他
+T42	Location-Nominal 350 352	当地
+*	Coreference T42 T40
+T43	Time-Implicit 348 355	他在当地讲学时
+T44	Person-Pronoun 365 366	他
+T45	Thing-Nominal 360 374	图表式表述他哲学思想的古石刻
+T46	Thing-Nominal 375 380	这块大石刻
+T47	Person-Pronoun 381 382	我
+T48	Person-Name 387 394	当代大名人李锐
+T49	Location-Nominal 395 401	中学母校门前
+R3	Located Arg1:T46 Arg2:T49	
+T50	Person-Name 403 406	湛若水
+T51	Metric 406 409	79岁
+T52	Time-Explicit 410 426	明代嘉靖二十三年，公元1544年
+T53	Location-Name 430 438	广州今法政路附近
+T54	Thing-Nominal 439 455	湛家大街、湛家一巷至湛家五巷一带
+R4	Located Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 457 462	“湛家园”
+T56	Thing-Nominal 465 470	天关精舍”
+T57	Person-Pronoun 476 477	我
+T58	Person-Name 484 487	湛若水
+T59	Thing-Nominal 500 501	酒
+T60	Thing-Nominal 504 506	巷子
+T61	Person-Nominal 510 512	人们
+T62	Person-Name 514 517	湛若水
+T63	Thing-Nominal 518 522	湛家大街
+T64	Person-Name 537 546	77岁高龄的吴藤川
+T65	Location-Name 550 554	天关精舍
+T66	Location-Name 523 527	天关精舍
+T67	Person-Name 559 562	湛若水
+T68	Person-Pronoun 564 566	自己
+*	Coreference T68 T67
+T69	Person-Name 572 575	吴藤川
+T70	Person-Pronoun 603 604	他
+*	Coreference T70 T69
+T71	Thing-Nominal 604 624	一根前些时候在衡山讲学带回来的四方竹手杖
+T72	Location-Name 611 613	衡山
+T73	Person-Name 629 631;632 633	吴藤 川
+T74	Thing-Nominal 635 639	一首杖铭
+T75	Person-Nominal 646 647	人
+T76	Location-Nominal 649 654	这艰手杖上
+R5	Located Arg1:T74 Arg2:T76	
+T77	Thing-Nominal 655 660	那一首权铭
+T78	Person-Name 666 669	藤川子
+T79	Person-Name 695 698	湛若水
+T80	Person-Name 701 712	吴藤川这位77岁老学生
+T81	Person-Nominal 715 733	号慎斋的另一位比吴藤川还年长的老学生
+T82	Location-Name 734 738	天关精舍
+T83	Person-Name 756 773	一位比湛若水还大3岁的82岁黎养真
+T84	Person-Name 759 762	湛若水
+T85	Person-Name 783 786	湛若水
+T86	Person-Name 789 792	吴藤川
+T87	Person-Name 793 795	慎斋
+T88	Person-Name 796 798	黎养
+T89	Person-Nominal 799 805	三位皓首老人
+T90	Abstract 826 830	《三皓》
+T91	Person-Name 842 844	养真
+T92	Person-Name 844 846	慎斋
+T93	Person-Nominal 850 852	三皓
+T94	Person-Pronoun 855 856	我
+T95	Person-Nominal 878 879	人
+T96	Person-Name 887 890	湛若水
+T97	Person-Name 906 919	一位102岁的“四皓”简老
+T98	Person-Pronoun 920 921	他
+*	Coreference T98 T97
+T99	Location-Name 923 927	天关精舍
+T100	Person-Name 939 942	湛若水
+T101	Person-Nominal 950 952	弟子
+T102	Person-Name 954 957	湛若水
+T103	Person-Name 961 963	简老
+T104	Person-Name 977 979	简老
+T105	Person-Nominal 980 982	宾客
+T106	Person-Nominal 984 986	宾客
+T107	Person-Nominal 995 1001	一位皓首老人
+T108	Location-Name 1002 1006	天关精舍
+T109	Person-Name 1007 1010	湛若水
+T110	Person-Pronoun 1017 1018	我
+T111	Person-Name 1026 1028	慎斋
+T112	Person-Name 1031 1033	黎老
+T113	Person-Nominal 1049 1051;1052 1059	这第 五位皓首老学生
+T114	Time-Explicit 1075 1077	明代
+T115	Person-Nominal 1077 1081	一位画家
+T116	Abstract 1087 1094	《师生六皓图》
+T117	Person-Pronoun 1097 1099	他们
+T118	Person-Name 1115 1118	湛若水
+T119	Person-Nominal 1120 1129	这第五位皓首老学生
+T120	Person-Pronoun 1132 1133	我
+T121	Location-Name 1137 1141	湛家大街
+T122	Location-Name 1159 1163	天关精舍
+T123	Person-Nominal 1164 1168	师生六皓
+T124	Time-Explicit 1183 1189	明代嘉靖年间
+T125	Person-Nominal 1189 1192	广州人
+T126	Person-Nominal 1209 1212	知之者
+T127	Person-Nominal 1214 1217	好之者
+T128	Person-Nominal 1218 1221	好之者
+T129	Person-Nominal 1223 1226	乐之者
+T130	Abstract 1228 1235	《论语・雍也》
+T131	Person-Nominal 1243 1245	其人
+T132	Abstract 1247 1253;1254 1255	《荀子・劝学 》
+T133	Abstract 1264 1269	2014年
+T134	Person-Nominal 1269 1277	中国各大城市居民
+T135	Location-Name 1282 1284	广州
+T136	Person-Nominal 1313 1314;1315 1317	广 州人
+T137	Person-Pronoun 1339 1340	我
+T138	Location-Name 1384 1386	广州
+T139	Time-Explicit 1386 1391	2015年
+T140	Thing-Nominal 1402 1404	电脑
+T141	Person-Nominal 1418 1421	知之者
+T142	Person-Nominal 1423 1426	好之者
+T143	Person-Nominal 1427 1430	好之者
+T144	Person-Nominal 1432 1435	乐之者
+T145	Person-Nominal 1443 1445	其人
+T146	Person-Pronoun 1456 1457	我
+T147	Person-Name 1485 1487	苏晨
+T148	Person-Nominal 1488 1490	作家
+T149	Person-Nominal 1491 1493	编审
+T150	Person-Nominal 1494 1497	研究员
+T151	Person-Nominal 1498 1502	客座教授
+T152	Person-Nominal 1510 1520	国务院特殊津贴领取者
+T153	Metric 1522 1526	50多种
+T154	Time-Explicit 1531 1536	1945年
+T155	Time-Explicit 1541 1545;1546 1547	1946 年
+T156	Organization-Name 1549 1551	中共
+T157	Person-Nominal 1557 1567	享受厅级待遇的老百姓
+R6	General-Special Arg1:T157 Arg2:T147	
+R7	General-Special Arg1:T148 Arg2:T147	

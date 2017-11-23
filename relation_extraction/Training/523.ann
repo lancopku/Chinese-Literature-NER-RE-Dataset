@@ -1,0 +1,252 @@
+T1	Time-Implicit 0 2	周末
+T2	Thing-Nominal 11 13	床榻
+T3	Location-Name 22 32	相山南麓的自然风景区
+T4	Thing-Nominal 45 46	草
+T5	Thing-Nominal 47 48	木
+T6	Thing-Nominal 49 50	花
+T7	Thing-Nominal 51 52	叶
+T8	Thing-Nominal 87 89	黄鹂
+T9	Thing-Nominal 97 99	枝条
+T10	Location-Nominal 103 105	林中
+T11	Person-Pronoun 131 132	我
+T12	Person-Pronoun 136 137	我
+T13	Thing-Nominal 149 151	雄鹰
+T14	Thing-Pronoun 152 153	它
+*	Coreference T14 T13
+T15	Thing-Pronoun 165 166	它
+T16	Thing-Pronoun 171 172	它
+T17	Thing-Pronoun 189 190	它
+T18	Person-Pronoun 206 207	我
+T19	Location-Nominal 210 214	山水之间
+T20	Person-Pronoun 245 246	我
+T21	Person-Pronoun 272 273	我
+T22	Person-Pronoun 281 282	我
+T23	Thing-Pronoun 295 296	它
+T24	Thing-Nominal 270 271	水
+T25	Thing-Nominal 215 216	水
+*	Coreference T24 T23
+T26	Person-Pronoun 301 302	我
+T27	Thing-Pronoun 307 308	它
+T28	Person-Name 316 318	西子
+T29	Thing-Nominal 335 337	峰峦
+T30	Person-Nominal 346 348	少女
+T31	Person-Nominal 357 358	老
+T32	Location-Nominal 365 368	山坡上
+T33	Thing-Nominal 369 370	树
+R1	Located Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 376 377	海
+T35	Location-Nominal 400 406	树丛间岩壁旁
+T36	Thing-Nominal 407 409	古刹
+T37	Location-Nominal 447 450	半山腰
+T38	Thing-Nominal 465 466	野
+T39	Location-Nominal 487 489	花园
+T40	Thing-Nominal 492 493	花
+R2	Located Arg1:T40 Arg2:T39	
+T41	Thing-Pronoun 496 497	它
+*	Coreference T41 T38
+T42	Thing-Pronoun 524 525	它
+T43	Thing-Nominal 538 540	山水
+T44	Thing-Nominal 541 543	田园
+T45	Thing-Nominal 544 546	蓝天
+T46	Thing-Nominal 547 549	白云
+T47	Thing-Nominal 557 559	画卷
+T48	Location-Nominal 603 606	石径上
+T49	Person-Pronoun 633 634	我
+T50	Time-Implicit 650 655	不久的将来
+T51	Location-Nominal 679 682	小吃街
+T52	Thing-Nominal 690 692	公交
+T53	Location-Nominal 697 699	超市
+T54	Location-Nominal 704 708	街心公园
+R3	Near Arg1:T53 Arg2:T54	
+T55	Location-Name 716 733	相山路与淮海路交叉口东侧的街心公园
+T56	Location-Nominal 768 770	西门
+R4	Part-Whole Arg1:T56 Arg2:T55	
+T57	Metric 782 784	十米
+T58	Thing-Nominal 785 787	长廊
+T59	Location-Nominal 788 792	长廊两边
+T60	Thing-Nominal 793 797	半圆石柱
+R5	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 805 807	树藤
+R6	Located Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 820 821	蛇
+T63	Thing-Nominal 831 833	麻花
+T64	Location-Nominal 849 853	长廊上端
+T65	Thing-Nominal 862 864	枝叶
+R7	Located Arg1:T65 Arg2:T64	
+T66	Location-Nominal 887 892	长廊的边沿
+T67	Location-Nominal 896 900	四角凉亭
+R8	Near Arg1:T67 Arg2:T66	
+T68	Thing-Nominal 921 922	顶
+T69	Thing-Nominal 928 930	朱漆
+T70	Thing-Nominal 941 942	鼓
+T71	Location-Nominal 943 945	亭内
+T72	Person-Nominal 946 947;948 950	下 棋者
+T73	Person-Nominal 951 954	打牌者
+T74	Person-Nominal 955 958	饮茶者
+T75	Person-Nominal 959 962	聊天者
+T76	Thing-Nominal 987 988	草
+T77	Thing-Nominal 993 994	树
+T78	Thing-Nominal 999 1000	花
+T79	Location-Nominal 1034 1035	湖
+T80	Location-Nominal 1036 1042	小公园的中心
+R9	Part-Whole Arg1:T79 Arg2:T80	
+T81	Location-Nominal 1049 1050	湖
+T82	Thing-Nominal 1073 1075	美裙
+T83	Location-Nominal 1082 1085	湖面上
+T84	Location-Nominal 1089 1090	湖
+T85	Thing-Nominal 1095 1096	云
+T86	Location-Nominal 1107 1110	湖中央
+T87	Thing-Nominal 1111 1113	荷花
+R10	Located Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 1114 1116	荷叶
+T89	Thing-Nominal 1120 1121	伞
+T90	Location-Nominal 1126 1128	湖面
+T91	Thing-Nominal 1150 1152	翠玉
+T92	Thing-Nominal 1161 1163	荷花
+T93	Person-Nominal 1175 1177	少女
+T94	Location-Nominal 1209 1213	湖的周围
+T95	Person-Nominal 1219 1221	树木
+T96	Location-Nominal 1234 1238	树的旁边
+T97	Location-Nominal 1239 1244	一个鸽子房
+*	Coreference T97 T96
+T98	Person-Nominal 1250 1252	小朋
+T99	Thing-Nominal 1260 1261	鸽
+T100	Thing-Nominal 1262 1264	鸽子
+T101	Thing-Pronoun 1280 1282	它们
+*	Coreference T101 T100
+T102	Thing-Nominal 1336 1338	鸽子
+T103	Thing-Nominal 1389 1391	鸽子
+T104	Location-Nominal 1429 1433	街心公园
+T105	Location-Nominal 1447 1449	长廊
+T106	Location-Nominal 1455 1457	凉亭
+T107	Location-Nominal 1463 1465	湖面
+R11	Part-Whole Arg1:T105 Arg2:T104	
+R12	Part-Whole Arg1:T106 Arg2:T104	
+R13	Part-Whole Arg1:T107 Arg2:T104	
+T108	Thing-Nominal 1471 1473	鸽子
+R14	Located Arg1:T108 Arg2:T104	
+T109	Time-Implicit 1500 1503	午饭后
+T110	Person-Nominal 1510 1512	朋友
+T111	Location-Nominal 1519 1522	老郭家
+T112	Person-Name 1525 1527	老郭
+T113	Time-Implicit 1533 1536	几十年
+T114	Person-Pronoun 1549 1551	我们
+T115	Location-Nominal 1553 1558	小区最北面
+T116	Location-Nominal 1568 1571	楼房里
+R15	Part-Whole Arg1:T116 Arg2:T115	
+T117	Location-Nominal 1572 1574	房子
+T118	Person-Pronoun 1595 1596	我
+T119	Person-Nominal 1597 1599	朋友
+R16	Social Arg1:T119 Arg2:T118	
+T120	Person-Name 1602 1604	老郭
+T121	Location-Nominal 1612 1613	房
+T122	Location-Nominal 1615 1618	房间里
+T123	Person-Name 1624 1626	老郭
+T124	Location-Nominal 1645 1647	屋子
+T125	Time-Implicit 1659 1661	今天
+T126	Person-Nominal 1667 1672	不客气的人
+T127	Location-Nominal 1675 1677	床上
+T128	Person-Nominal 1678 1681	有的进
+T129	Location-Nominal 1687 1689	门口
+T130	Person-Name 1691 1693	老郭
+T131	Thing-Nominal 1696 1698	笛子
+T132	Location-Nominal 1709 1715	田野的小渠里
+T133	Time-Implicit 1706 1708	初春
+T134	Person-Nominal 1732 1734	大家
+T135	Person-Name 1745 1747	老郭
+T136	Thing-Nominal 1832 1834	神鸟
+T137	Thing-Pronoun 1837 1838	它
+*	Coreference T137 T136
+T138	Person-Pronoun 1848 1849	我
+T139	Person-Nominal 1877 1879	自己
+T140	Person-Pronoun 1905 1906	我
+T141	Person-Nominal 1909 1919	一个头发斑白的老矿工
+T142	Person-Pronoun 1970 1971	我
+T143	Person-Pronoun 1976 1977	他
+*	Coreference T143 T141 T135
+T144	Person-Pronoun 1983 1984	我
+T145	Thing-Nominal 1997 1999	花瓣
+T146	Person-Pronoun 2000 2001	我
+T147	Person-Nominal 2003 2007	听曲的人
+T148	Person-Pronoun 2022 2024	他们
+*	Coreference T148 T147
+T149	Person-Pronoun 2028 2029	我
+T150	Person-Pronoun 2032 2034	他们
+T151	Person-Name 2084 2086	老郭
+T152	Person-Pronoun 2087 2088	你
+T153	Person-Pronoun 2090 2091	你
+T154	Thing-Nominal 2092 2096	一尺短笛
+*	Coreference T151 T152
+R17	Use Arg1:T151 Arg2:T154	
+T155	Person-Pronoun 2142 2144	我们
+T156	Time-Implicit 2175 2177	春天
+T157	Person-Pronoun 2183 2185	我们
+T158	Person-Pronoun 2202 2204	我们
+T159	Person-Nominal 2220 2222	少女
+T160	Person-Pronoun 2223 2225	我们
+T161	Person-Nominal 2236 2238	孩童
+T162	Person-Pronoun 2240 2242	我们
+T163	Person-Pronoun 2256 2258	我们
+T164	Person-Pronoun 2272 2274	我们
+T165	Person-Nominal 2283 2287	煤矿工人
+T166	Person-Pronoun 2304 2306	我们
+T167	Person-Nominal 2332 2334	人们
+T168	Location-Nominal 2370 2374	老郭的家
+T169	Person-Nominal 2375 2377	朋友
+T170	Location-Nominal 2380 2384	美术之角
+T171	Person-Pronoun 2389 2390	他
+*	Coreference T171 T169
+T172	Time-Implicit 2394 2399	周末的傍晚
+T173	Person-Nominal 2403 2405	有人
+T174	Person-Nominal 2422 2425	围观者
+T175	Person-Nominal 2426 2428;2429 2430	欣赏 者
+T176	Person-Nominal 2450 2468	一位长头发，俊脸蛋，三十岁左右的女士
+T177	Thing-Nominal 2474 2477	风景图
+R18	Create Arg1:T176 Arg2:T177	
+T178	Thing-Nominal 2517 2519	松树
+T179	Thing-Nominal 2529 2531	天空
+T180	Thing-Nominal 2532 2534	白云
+T181	Thing-Nominal 2535 2537	河流
+T182	Thing-Nominal 2538 2543	远处的雪山
+T183	Thing-Nominal 2560 2561;2562 2563	树 叶
+T184	Thing-Nominal 2568 2570	绿叶
+T185	Thing-Nominal 2579 2581	花朵
+T186	Person-Nominal 2607 2609	女士
+*	Coreference T186 T176
+T187	Thing-Nominal 2648 2650	刻刀
+R19	Use Arg1:T186 Arg2:T187	
+T188	Thing-Nominal 2655 2657	绿叶
+T189	Thing-Nominal 2660 2662	鲜花
+R20	Create Arg1:T186 Arg2:T188	
+R21	Create Arg1:T186 Arg2:T189	
+T190	Thing-Nominal 2668 2669	树
+T191	Thing-Nominal 2674 2677	风景画
+T192	Location-Nominal 2709 2711	小河
+T193	Thing-Nominal 2728 2730	蓝天
+T194	Thing-Nominal 2731 2733	绿树
+T195	Thing-Pronoun 2734 2735	它
+*	Coreference T195 T191
+T196	Thing-Nominal 2794 2796	雪山
+T197	Person-Nominal 2815 2820	作画的女士
+T198	Thing-Nominal 220 222	幽泉
+T199	Thing-Nominal 225 227	水花
+T200	Thing-Nominal 232 233	星
+T201	Thing-Nominal 240 242	烟雾
+T202	Thing-Nominal 251 252	水
+T203	Thing-Nominal 270 271	水
+T204	Thing-Nominal 287 288	我
+T205	Thing-Nominal 290 292	指缝
+T206	Thing-Nominal 353 354	发
+T207	Thing-Nominal 1018 1019	画
+T208	Thing-Nominal 1351 1353	鼻花
+T209	Thing-Nominal 1363 1364	小
+T210	Thing-Nominal 1375 1378	小米粒
+T211	Thing-Nominal 1401 1403	翅膀
+R22	Part-Whole Arg1:T211 Arg2:T103	
+T212	Thing-Nominal 1415 1416;1417 1419	小 爪子
+R23	Part-Whole Arg1:T212 Arg2:T103	
+T213	Thing-Nominal 1723 1724	水
+T214	Thing-Nominal 2826 2827	笔
+T215	Thing-Nominal 2899 2900	画
+T216	Thing-Nominal 2947 2948	画
+T217	Thing-Nominal 2763 2765	彩虹

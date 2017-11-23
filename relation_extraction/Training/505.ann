@@ -1,0 +1,262 @@
+T1	Location-Nominal 5 7	老街
+T3	Location-Nominal 14 17	皮蛋店
+T2	Location-Nominal 10 13	香烛店
+T4	Location-Nominal 18 21	饮食店
+T5	Location-Nominal 22 27	电器维修点
+R1	Part-Whole Arg1:T2 Arg2:T1	
+R2	Part-Whole Arg1:T3 Arg2:T1	
+R3	Part-Whole Arg1:T4 Arg2:T1	
+R4	Part-Whole Arg1:T5 Arg2:T1	
+T6	Location-Nominal 35 42	一家玉器古董店
+R5	Part-Whole Arg1:T6 Arg2:T1	
+T9	Location-Nominal 73 77	我家小区
+T10	Location-Nominal 85 87	商店
+T11	Location-Nominal 90 93	理发店
+T12	Location-Nominal 94 97	茶叶店
+T13	Location-Nominal 98 101	钓具店
+T14	Location-Nominal 102 105	字画店
+T15	Location-Nominal 106 109	烟酒店
+T16	Location-Nominal 110 113	鲜花店
+T17	Location-Nominal 118 121;122 124	洗脚按 摩店
+T18	Organization-Nominal 129 132	旅行社
+R6	Near Arg1:T9 Arg2:T10	
+R7	Part-Whole Arg1:T10 Arg2:T11	
+R8	Part-Whole Arg1:T10 Arg2:T12	
+R9	Part-Whole Arg1:T10 Arg2:T13	
+R10	Part-Whole Arg1:T10 Arg2:T13	
+R11	Part-Whole Arg1:T10 Arg2:T14	
+R12	Part-Whole Arg1:T10 Arg2:T16	
+R13	Part-Whole Arg1:T10 Arg2:T17	
+R14	Part-Whole Arg1:T18 Arg2:T10	
+T19	Person-Pronoun 136 137	我
+T20	Location-Name 139 144	一元擦鞋店
+T21	Person-Nominal 145 147	店主
+T22	Person-Nominal 148 154	一对中年夫妻
+*	Coreference T21 T22 T23 T25
+T23	Person-Pronoun 181 183	他们
+T24	Location-Name 185 191	南乡的大山区
+T25	Person-Nominal 192 195	夫妻俩
+T26	Metric 220 222	一元
+T27	Location-Nominal 232 236	他们店子
+*	Coreference T27 T20
+T28	Metric 244 246	一元
+T29	Person-Pronoun 249 250	我
+T30	Thing-Nominal 252 253	鞋
+T31	Location-Nominal 258 262	一家书店
+T32	Person-Nominal 273 275	店主
+T33	Person-Nominal 278 281	读书人
+R15	Ownership Arg1:T32 Arg2:T31	
+*	Coreference T33 T32
+T34	Person-Nominal 287 289	读者
+T35	Thing-Nominal 284 285	书
+T36	Thing-Nominal 308 309;310 318	古 今中外的文学名著
+T37	Person-Pronoun 319 320	我
+T38	Thing-Nominal 339 341	书架
+T39	Thing-Nominal 360 362	图书
+T40	Abstract 382 389	《静静的顿河》
+T41	Person-Pronoun 393 394	我
+T42	Location-Nominal 397 401	这家书店
+T43	Person-Pronoun 405 406	我
+T44	Location-Nominal 411 413	街边
+T45	Location-Nominal 414 418	一家茶馆
+T46	Person-Nominal 422 424	店主
+R16	Ownership Arg1:T46 Arg2:T45	
+T47	Person-Nominal 425 435	从福建来的一对亲兄弟
+*	Coreference T47 T46 T48
+T48	Person-Pronoun 438 440	他们
+T49	Location-Name 444 446	文日
+T50	Thing-Nominal 448 450	茶叶
+T51	Location-Nominal 461 465	我的家乡
+T52	Time-Implicit 470 472	几年
+T53	Person-Pronoun 501 502	你
+T54	Person-Nominal 506 508	店主
+T55	Thing-Nominal 516 518	茶水
+T56	Person-Pronoun 536 537	你
+T57	Time-Implicit 602 605	前些天
+T58	Person-Nominal 606 618	一位湖北监利县来的擦鞋女
+T59	Location-Nominal 620 622	家里
+*	Coreference T58 T67 T60
+T61	Thing-Nominal 627 630	工具车
+T62	Location-Name 631 635	梅花小区
+T63	Thing-Nominal 646 649	洒水车
+T64	Location-Nominal 652 654	路旁
+T65	Thing-Nominal 655 660	一辆新轿车
+T66	Person-Nominal 666 669	男车主
+T67	Person-Pronoun 670 671	她
+R17	Social Arg1:T66 Arg2:T67	
+R18	Ownership Arg1:T66 Arg2:T65	
+R19	Located Arg1:T65 Arg2:T64	
+T68	Metric 672 675	两千块
+T69	Person-Pronoun 678 679	她
+T70	Person-Nominal 689 702;703 704	开车从这里路过的一位乡镇干 部
+T71	Metric 713 716	两千块
+T72	Person-Pronoun 717 718	她
+R20	Social Arg1:T70 Arg2:T72	
+T73	Person-Nominal 734 741	新车车主的老婆
+R21	Family Arg1:T73 Arg2:T66	
+T74	Person-Nominal 743 747	一位好人
+*	Coreference T74 T73
+T75	Person-Nominal 749 751	丈夫
+R22	Family Arg1:T75 Arg2:T73	
+T76	Metric 762 765	两千块
+T77	Person-Nominal 767 770	擦鞋女
+T78	Person-Nominal 771 774	擦鞋女
+T79	Person-Nominal 778 780	自己
+*	Coreference T79 T78 T82
+T60	Person-Nominal 624 626	自己
+T80	Metric 788 791	两千块
+T81	Person-Nominal 795 799	那位恩人
+T82	Person-Pronoun 800 801	她
+T83	Location-Nominal 804 806	街口
+T84	Person-Nominal 812 821	《文日晚报》的记者
+T85	Organization-Name 812 818	《文日晚报》
+R23	Ownership Arg1:T84 Arg2:T85	
+T86	Organization-Nominal 823 826	交警队
+T87	Person-Pronoun 827 828	她
+T88	Person-Nominal 830 836	那位乡镇干部
+*	Coreference T81 T88
+T89	Person-Nominal 851 856	湖北擦鞋女
+T90	Location-Name 857 864	文日这个小县城
+T91	Person-Nominal 865 869	一名弱者
+*	Coreference T89 T91 T92
+T92	Person-Pronoun 885 886	她
+T93	Person-Nominal 897 899	好人
+T94	Location-Name 905 918	文日南乡有个盛产煤炭的乡镇
+T95	Person-Nominal 923 927	一个姐姐
+T96	Person-Nominal 929 931	弟弟
+R24	Family Arg1:T96 Arg2:T95	
+T97	Person-Nominal 938 942	这位姐姐
+T98	Person-Name 943 949	女版“洪战辉
+*	Coreference T97 T98
+T99	Person-Nominal 970 978	她家里生病的父母
+T100	Person-Nominal 980 983	好心人
+T101	Person-Pronoun 987 990	她自己
+T102	Person-Nominal 998 1001	大学生
+*	Coreference T102 T101
+R25	Family Arg1:T99 Arg2:T101	
+T103	Person-Nominal 1006 1010	中央首长
+T104	Person-Pronoun 1016 1017	她
+T105	Person-Nominal 1031 1033	众人
+T106	Location-Name 1038 1054	文日的东乡还有一个盛产竹木的乡镇
+T107	Person-Nominal 1057 1066	一个退休干部老头子
+T108	Time-Implicit 1068 1071	十多年
+T109	Person-Nominal 1076 1082	多位贫困学生
+T110	Person-Pronoun 1090 1091	他
+*	Coreference T110 T107
+R26	Social Arg1:T107 Arg2:T109	
+T111	Time-Explicit 1101 1103	那天
+T112	Person-Pronoun 1104 1105	我
+T113	Thing-Nominal 1106 1109	薄膜袋
+T114	Thing-Nominal 1111 1117	一把坏了雨伞
+T115	Location-Nominal 1119 1129	城西一个临街的小巷口
+T116	Person-Nominal 1137 1141	一对夫妻
+T117	Location-Name 1143 1145	邵阳
+T118	Person-Pronoun 1155 1157	他们
+*	Coreference T118 T116
+T119	Location-Nominal 1158 1160	巷口
+T120	Thing-Nominal 1163 1168	一个修理摊
+T121	Thing-Nominal 1182 1184	拉链
+T122	Thing-Nominal 1176 1178	伞骨
+T123	Thing-Nominal 1171 1173	鞋跟
+T124	Person-Pronoun 1196 1198	他们
+T125	Person-Nominal 1213 1216	男主人
+T126	Person-Nominal 1224 1227	他儿子
+R27	Family Arg1:T125 Arg2:T126	
+T127	Location-Name 1228 1230	上海
+T128	Person-Nominal 1231 1237	坐机关的干部
+*	Coreference T128 T126
+T129	Person-Pronoun 1238 1239	我
+T130	Person-Pronoun 1240 1241	他
+T131	Person-Pronoun 1246 1248	儿子
+R28	Family Arg1:T131 Arg2:T130	
+T132	Person-Pronoun 1254 1255	他
+T133	Location-Nominal 1286 1289	院子里
+T134	Thing-Nominal 1295 1298	香椿树
+T135	Thing-Nominal 1305 1308	大绿伞
+T136	Person-Nominal 1310 1320	这对平凡而普通的夫妻
+T137	Location-Name 1327 1333	我的家乡文日
+T138	Time-Implicit 1339 1342	每一天
+T139	Person-Name 1380 1383	唐学雷
+T140	Person-Name 1386 1389	唐嘉檑
+*	Coreference T139 T140 T143 T149 T150
+T141	Time-Explicit 1390 1397	1964年8月
+T142	Person-Nominal 1400 1407	湖南省浏阳市人
+T143	Person-Nominal 1408 1412	中共党员
+T144	Time-Explicit 1413 1418	1981年
+T145	Organization-Name 1421 1429	湖南第一师范学校
+T146	Time-Explicit 1430 1435	1985年
+T147	Organization-Name 1438 1440;1441 1447	湖南 广播电视大学
+T148	Abstract 1447 1454	汉语言文学专业
+T149	Person-Nominal 1457 1468	浏阳市市志档案局副局长
+T150	Person-Nominal 1469 1473	技术编辑
+T151	Time-Explicit 1474 1479	1986年
+T152	Time-Explicit 1486 1494	2001年11月
+T153	Organization-Name 1496 1501	浏阳市作协
+T154	Time-Explicit 1503 1511	2010年12月
+T155	Organization-Name 1513 1518	长沙市作协
+T156	Time-Explicit 1519 1527	2011年12月
+T157	Organization-Name 1529 1534	湖南省作协
+T161	Organization-Name 1729 1733	中国文联
+T162	Organization-Name 1734 1736	作家
+T163	Organization-Name 1737 1741	湖南文艺
+T164	Organization-Nominal 1742 1745	出版社
+R29	Part-Whole Arg1:T164 Arg2:T163	
+R30	Part-Whole Arg1:T164 Arg2:T162	
+R32	Part-Whole Arg1:T161 Arg2:T164	
+T165	Time-Explicit 1810 1815	2011年
+T166	Time-Explicit 1859 1866	2008年2月
+T167	Organization-Name 1868 1875	大众文艺出版社
+T7	Thing-Nominal 170 171	鞋
+T8	Thing-Nominal 172 173	鞋
+T158	Thing-Nominal 177 178	锁
+T159	Thing-Nominal 179 180	锁
+T160	Thing-Nominal 211 213	皮鞋
+T168	Thing-Nominal 215 217	泉水
+T169	Thing-Nominal 237 241	一双皮鞋
+R31	Ownership Arg1:T29 Arg2:T30	
+T170	Location-Nominal 265 266	店
+*	Coreference T170 T31
+T171	Thing-Nominal 301 303	书籍
+R33	Part-Whole Arg1:T36 Arg2:T171	
+T172	Thing-Nominal 323 324	书
+T173	Location-Nominal 364 365	家
+T174	Time-Explicit 476 478	过年
+T175	Location-Nominal 494 497	这家店
+T176	Thing-Nominal 514 515	茶
+T177	Thing-Nominal 521 522	壶
+T178	Thing-Nominal 524 525	壶
+R34	Located Arg1:T55 Arg2:T177	
+T179	Thing-Nominal 529 530	杯
+T180	Thing-Nominal 559 561	口齿
+R35	Part-Whole Arg1:T180 Arg2:T56	
+T181	Thing-Nominal 576 577	茶
+T182	Thing-Nominal 583 584	茶
+T183	Location-Name 1548 1550	三峡
+T184	Location-Name 1555 1558	石牛寨
+T185	Thing-Nominal 1567 1568	书
+T186	Thing-Nominal 1573 1574	墙
+T187	Location-Name 1577 1580	柳叶湖
+T188	Location-Name 1597 1600	大围山
+T189	Location-Nominal 1603 1605	城市
+T190	Thing-Nominal 1611 1613	城桥
+T191	Location-Name 1616 1618	药谷
+T192	Person-Nominal 1624 1626	夫人
+T193	Thing-Nominal 1627 1628	衣
+T194	Person-Pronoun 1628 1629	我
+R36	Family Arg1:T192 Arg2:T194	
+T195	Thing-Nominal 1630 1631	书
+T196	Person-Pronoun 1641 1642	我
+T197	Location-Name 1643 1645	浏阳
+T198	Thing-Nominal 1647 1649	三花
+R37	Located Arg1:T198 Arg2:T197	
+T199	Location-Nominal 1656 1658	宝岛
+T200	Thing-Nominal 1693 1698	乡村风景画
+T201	Location-Name 1705 1707	浏阳
+T202	Location-Name 1712 1714	长沙
+T203	Location-Nominal 1765 1767	宝岛
+T204	Time-Explicit 1774 1778	010年
+T205	Time-Explicit 1779 1784	2012年
+T206	Thing-Nominal 1807 1808	墙
+T207	Thing-Nominal 1883 1885	桐花
+T208	Location-Nominal 1886 1887	地
+R38	Located Arg1:T207 Arg2:T208	

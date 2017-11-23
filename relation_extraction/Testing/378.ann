@@ -1,0 +1,151 @@
+T1	Time-Implicit 1 4	年轻时
+T2	Organization-Nominal 5 7	医院
+T3	Metric 9 11	多年
+T4	Person-Nominal 15 17	病人
+T5	Person-Pronoun 0 1	我
+R1	Social Arg1:T4 Arg2:T5	
+T6	Person-Nominal 22 24	患者
+*	Coreference T6 T4
+T7	Thing-Nominal 20 21	目
+T8	Thing-Nominal 33 34	耳
+R2	Part-Whole Arg1:T8 Arg2:T5	
+R3	Part-Whole Arg1:T7 Arg2:T5	
+T9	Person-Pronoun 47 48	我
+T10	Person-Nominal 51 52	人
+T11	Person-Name 69 78	医学之父希波克拉底
+T12	Person-Name 129 132	毛主席
+T13	Location-Name 149 161	奥林匹克运动的故乡古希腊
+T14	Location-Nominal 163 165	山上
+T15	Thing-Nominal 167 171	这样的话
+R4	Located Arg1:T15 Arg2:T14	
+T16	Person-Pronoun 172 173	你
+T17	Person-Pronoun 179 180	你
+T18	Person-Pronoun 185 186	你
+T19	Person-Pronoun 193 194	你
+T20	Metric 242 245	34年
+T21	Time-Implicit 252 257	每天起床后
+T22	Location-Nominal 259 263	公路边上
+T23	Metric 265 269	30分钟
+T24	Time-Implicit 280 284	一年四季
+T25	Thing-Nominal 299 301	身体
+T26	Location-Name 318 325	阔别的故乡赤城
+T27	Thing-Nominal 328 330	身体
+R5	Part-Whole Arg1:T25 Arg2:T5	
+T28	Time-Implicit 345 349	金命之年
+T29	Thing-Nominal 385 387	心肌
+T30	Thing-Nominal 392 394	血管
+T31	Thing-Nominal 400 402	血液
+T32	Thing-Nominal 409 413	冠状动脉
+T33	Thing-Nominal 423 426	富贵病
+T34	Thing-Nominal 427 429	使脂
+T35	Thing-Nominal 435 436	肺
+T36	Thing-Nominal 442 443	肠
+T37	Metric 450 454	20多年
+T38	Person-Pronoun 462 463	我
+T39	Person-Pronoun 477 478	我
+T40	Metric 493 500	每天下午五点多
+T41	Metric 502 505	一小时
+T42	Metric 506 509	十华里
+T43	Person-Pronoun 515 516	我
+T44	Person-Nominal 522 525	一个人
+T45	Thing-Nominal 531 542	春天满山遍野的桃、杏花
+T46	Thing-Nominal 543 558	夏天绿草如茵，秋季大地一片金黄
+T47	Thing-Nominal 559 565	隆冬银装素裹
+T48	Time-Implicit 531 533	春天
+T49	Time-Implicit 543 545	夏天
+T50	Time-Implicit 559 561	隆冬
+T51	Location-Nominal 568 570	市井
+T52	Thing-Nominal 575 580	弥漫的废气
+T53	Thing-Nominal 598 600	东西
+T54	Person-Pronoun 603 604	我
+T55	Location-Name 605 612	锡林郭勒大草原
+T56	Thing-Nominal 643 647	写作素材
+T57	Time-Implicit 650 656	每天下午五点
+T58	Location-Nominal 659 663	公路边上
+T59	Thing-Nominal 673 679	感受深的素材
+R6	General-Special Arg1:T56 Arg2:T59	
+T60	Thing-Nominal 682 686	一篇文章
+R7	Create Arg1:T54 Arg2:T60	
+T61	Thing-Nominal 700 702	文章
+R8	General-Special Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 711 712	笔
+R9	Use Arg1:T54 Arg2:T62	
+T63	Location-Nominal 705 706	家
+T64	Thing-Nominal 717 719	文字
+T65	Thing-Nominal 723 725	身体
+T66	Thing-Nominal 728 729	脑
+T67	Person-Pronoun 736 737	我
+T68	Person-Nominal 746 749	一个人
+T69	Person-Pronoun 761 762	我
+T70	Thing-Nominal 754 756	头脑
+R10	Part-Whole Arg1:T70 Arg2:T67	
+*	Coreference T66 T70
+T71	Location-Nominal 776 783	宽广的公路边上
+T72	Thing-Nominal 786 791	奔驰的车流
+T73	Thing-Nominal 792 796;797 798	巍巍的青 山
+T74	Thing-Nominal 799 804	滔滔的河水
+T75	Person-Pronoun 805 806	我
+T76	Location-Nominal 829 835	郊外公路边上
+T77	Thing-Nominal 840 844	货运汽车
+T78	Person-Nominal 846 850	电力工人
+T79	Location-Nominal 851 853	野外
+T80	Person-Pronoun 858 859	我
+T81	Time-Implicit 863 872	20世纪50年代初
+T82	Person-Nominal 873 879	一群白衣战士
+T83	Location-Name 901 903	北疆
+T84	Thing-Nominal 897 899	汽车
+T85	Time-Explicit 911 919	文革中1968年
+T86	Person-Nominal 920 928	成千上万北京知青
+T87	Thing-Nominal 932 939	排成长龙的汽车
+R11	Use Arg1:T86 Arg2:T87	
+R12	Use Arg1:T82 Arg2:T84	
+T88	Location-Name 942 944	北京
+T89	Location-Name 951 963	广阔天地――内蒙古大草原
+T90	Location-Nominal 973 978	市内马路上
+T91	Person-Nominal 983 985	老年
+T92	Thing-Nominal 987 989	拐棍
+R13	Use Arg1:T91 Arg2:T92	
+T93	Location-Nominal 993 994	家
+T94	Location-Pronoun 1004 1006	中间
+T95	Person-Pronoun 1022 1024	自己
+*	Coreference T95 T80 T96
+T96	Person-Pronoun 1047 1049	自我
+T97	Person-Pronoun 1113 1114	我
+T98	Time-Implicit 1148 1150	老年
+T99	Thing-Nominal 1160 1162	生命
+T100	Person-Pronoun 1227 1229	自己
+T101	Person-Nominal 1263 1269	受过饥寒的人
+T102	Thing-Nominal 1272 1274	温饱
+T103	Thing-Pronoun 1281 1282	它
+*	Coreference T103 T102
+T104	Location-Nominal 1332 1336	公路边上
+T105	Thing-Nominal 1338 1343	宽阔的路面
+T106	Person-Nominal 1352 1353	人
+T107	Time-Implicit 1354 1356	晚年
+T108	Person-Pronoun 1367 1369	自我
+T109	Person-Pronoun 1440 1442	自己
+T110	Thing-Nominal 1485 1487	温饱
+T111	Thing-Pronoun 1494 1495	它
+T112	Person-Pronoun 1541 1542	我
+T113	Location-Nominal 1550 1553	大路上
+T114	Person-Pronoun 1557 1559	自己
+T115	Thing-Nominal 1575 1577	世事
+T116	Person-Pronoun 1602 1604	自己
+T117	Person-Nominal 1615 1617	人人
+T118	Person-Nominal 1624 1626	人人
+T119	Person-Nominal 1633 1634	人
+T120	Person-Nominal 1641 1644	每个人
+T121	Person-Pronoun 1646 1648	自己
+*	Coreference T121 T120
+T122	Person-Pronoun 1654 1656	自己
+T123	Metric 1658 1662	30余年
+T124	Organization-Nominal 1696 1697	党
+T125	Location-Name 1710 1716	锡林郭勒草原
+T126	Person-Nominal 1778 1779	人
+T127	Thing-Nominal 1734 1735	心
+T128	Thing-Nominal 1737 1738	水
+T129	Person-Nominal 1771 1772	人
+T130	Thing-Nominal 1791 1793	自身
+T131	Thing-Nominal 1837 1839	脑子
+T132	Person-Pronoun 1858 1863	真实的自己
+*	Coreference T132 T116

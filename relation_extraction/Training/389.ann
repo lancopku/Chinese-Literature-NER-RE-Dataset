@@ -1,0 +1,150 @@
+T1	Time-Implicit 0 2	时令
+T2	Time-Implicit 5 7	春天
+T3	Time-Implicit 14 16	有时
+T4	Thing-Nominal 18 22	一阵冷风
+T5	Person-Nominal 26 27	人
+T6	Thing-Nominal 35 37	石路
+T7	Location-Nominal 38 44	公园的山坡上
+T8	Thing-Nominal 56 61	路边的长椅
+T9	Person-Nominal 67 70	一老者
+T10	Location-Nominal 71 73	坡上
+*	Coreference T10 T7
+T11	Person-Pronoun 78 79	他
+T12	Location-Nominal 88 93	清瘦的脸上
+T13	Thing-Nominal 97 99	皱纹
+R1	Located Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 88 92	清瘦的脸
+R2	Part-Whole Arg1:T14 Arg2:T9	
+T15	Thing-Nominal 102 103	腿
+R3	Part-Whole Arg1:T15 Arg2:T9	
+T16	Person-Pronoun 117 118	我
+T17	Location-Nominal 120 122	旁边
+T18	Thing-Nominal 128 130	椅子
+*	Coreference T18 T8
+T19	Person-Nominal 133 135	老哥
+T20	Person-Pronoun 142 143	他
+T21	Thing-Nominal 164 165	头
+R4	Part-Whole Arg1:T21 Arg2:T9	
+T22	Person-Nominal 177 188	坡下一个三十几岁的妇女
+T23	Location-Nominal 177 179	坡下
+T24	Person-Nominal 190 196	四五岁的女孩
+R5	Family Arg1:T24 Arg2:T22	
+T25	Person-Nominal 204 206	女孩
+T26	Person-Nominal 209 211	妈妈
+*	Coreference T25 T24 T31 T34 T38 T49 T59
+*	Coreference T26 T22
+T27	Metric 181 185	三十几岁
+T28	Thing-Nominal 213 214	包
+T29	Thing-Nominal 217 221	一个棉垫
+T30	Thing-Nominal 223 228	路边的石头
+R6	Located Arg1:T29 Arg2:T30	
+T31	Person-Nominal 231 233	孩子
+R7	Use Arg1:T31 Arg2:T29	
+T32	Person-Nominal 239 242	母女俩
+T33	Person-Nominal 254 256	妈妈
+T34	Person-Pronoun 257 258	我
+T35	Person-Nominal 262 264	孩子
+T36	Person-Nominal 270 272	孩子
+T37	Person-Pronoun 282 283	我
+T38	Person-Pronoun 294 295	你
+T39	Person-Nominal 305 307	妈妈
+T40	Person-Pronoun 308 309	我
+T41	Person-Pronoun 313 314	你
+T42	Person-Pronoun 322 323	你
+T43	Person-Nominal 326 328	妈妈
+T44	Person-Nominal 334 336	妈妈
+T45	Person-Pronoun 337 338	我
+T46	Person-Pronoun 343 344	你
+T47	Person-Pronoun 352 353	你
+T48	Person-Nominal 356 358	妈妈
+T49	Person-Nominal 365 368	小女孩
+T50	Person-Nominal 374 376	妈妈
+T51	Person-Nominal 386 388	妈妈
+T52	Time-Implicit 383 386	那时候
+T53	Location-Nominal 394 397	大山里
+T54	Time-Implicit 401 403	这时
+T55	Person-Nominal 404 406	孩子
+T56	Person-Nominal 410 412	妈妈
+T57	Person-Nominal 428 429	妈
+T58	Person-Nominal 433 435	妈妈
+T59	Person-Nominal 442 445	傻孩子
+T60	Person-Nominal 446 447	人
+T61	Person-Nominal 471 473	妈妈
+T62	Person-Nominal 478 480	孩子
+T63	Person-Nominal 482 485	小女孩
+T64	Person-Pronoun 500 501	我
+T65	Person-Nominal 503 505	妈妈
+T66	Person-Pronoun 507 508	我
+T67	Person-Nominal 510 512	妈妈
+T68	Person-Nominal 516 518	妈妈
+T69	Person-Nominal 521 523	孩子
+T70	Thing-Nominal 534 538	孩子的头
+R8	Part-Whole Arg1:T70 Arg2:T69	
+T71	Thing-Nominal 530 532	一手
+R9	Part-Whole Arg1:T71 Arg2:T68	
+T72	Thing-Nominal 540 542	一手
+R10	Part-Whole Arg1:T72 Arg2:T68	
+T73	Thing-Nominal 545 547	手绢
+R11	Use Arg1:T68 Arg2:T73	
+T74	Person-Nominal 548 550	孩子
+T75	Thing-Nominal 557 562	自己的眼睛
+T76	Person-Pronoun 557 559	自己
+*	Coreference T76 T68
+R12	Part-Whole Arg1:T75 Arg2:T76	
+T77	Person-Nominal 565 567	孩子
+T78	Person-Nominal 575 577	妈妈
+T79	Person-Nominal 580 582	妈妈
+T80	Person-Nominal 587 589	妈妈
+T81	Person-Nominal 594 599	自己的宝贝
+T82	Person-Nominal 601 603;604 605	乖孩 子
+T83	Person-Nominal 612 614	孩子
+T84	Person-Nominal 624 626	妈妈
+T85	Person-Pronoun 629 630	她
+*	Coreference T85 T83 T81 T69 T82
+T86	Location-Nominal 634 636	坡上
+T87	Person-Nominal 646 648	孩子
+T88	Person-Nominal 652 654	妈妈
+T89	Time-Implicit 667 670	这时候
+T90	Person-Pronoun 671 672	我
+T91	Person-Nominal 674 679	身边的老者
+T92	Thing-Nominal 684 685	泪
+T93	Thing-Nominal 681 682	手
+R13	Part-Whole Arg1:T93 Arg2:T91	
+T94	Thing-Nominal 694 696	骨节
+R14	Part-Whole Arg1:T94 Arg2:T93	
+T95	Person-Pronoun 701 702	我
+T96	Person-Pronoun 705 706	你
+T97	Person-Nominal 720 722	老者
+T98	Person-Pronoun 728 729	我
+T99	Location-Nominal 745 747	坡下
+T100	Thing-Nominal 754 764	一个衰老而无助的背影
+T101	Person-Pronoun 751 752	我
+T102	Person-Pronoun 766 767	我
+T103	Location-Nominal 768 771	椅子上
+T104	Person-Nominal 782 784	老伴
+R15	Family Arg1:T104 Arg2:T102	
+T105	Thing-Nominal 785 787	电话
+T106	Person-Pronoun 787 788	我
+T107	Time-Implicit 794 797	这时候
+T108	Person-Pronoun 797 798	我
+T109	Thing-Nominal 800 805	自己的眼角
+T110	Person-Pronoun 800 802	自己
+R16	Part-Whole Arg1:T109 Arg2:T110	
+*	Coreference T110 T108
+T111	Time-Implicit 816 819	一年多
+T112	Time-Implicit 822 828	这一年的时间
+T113	Person-Pronoun 830 831	我
+T114	Location-Nominal 833 837	这个公园
+T115	Person-Nominal 845 849	那位老者
+T116	Person-Pronoun 851 852	他
+*	Coreference T116 T115 T11 T9 T19 T91 T96 T97 T120 T123
+T117	Person-Nominal 868 871;872 878	经依恋 过他的儿女们
+T118	Person-Nominal 889 893	他的老伴
+R17	Family Arg1:T118 Arg2:T117	
+R18	Family Arg1:T118 Arg2:T116	
+R19	Family Arg1:T117 Arg2:T116	
+T119	Time-Implicit 878 880	如今
+T120	Person-Pronoun 894 897	他自己
+T121	Person-Pronoun 910 911	我
+T122	Person-Pronoun 917 918	他
+T123	Person-Nominal 921 925	这位老哥

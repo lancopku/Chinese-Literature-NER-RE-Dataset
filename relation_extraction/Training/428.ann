@@ -1,0 +1,192 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 3 8	湖中的柳堤
+T3	Location-Nominal 3 5	湖中
+R1	Located Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 11 14	几道弯
+T5	Thing-Nominal 17 21	一片小树
+T6	Location-Nominal 25 43	一个僻静而又面对碧绿湖水的石椅子旁边
+T7	Location-Nominal 45 48	石椅上
+T8	Thing-Nominal 49 52	一张纸
+R2	Located Arg1:T8 Arg2:T7	
+T9	Person-Pronoun 57 58	我
+T10	Person-Pronoun 66 67	我
+T11	Thing-Nominal 70 72	石椅
+T12	Location-Nominal 76 80	公园里面
+T13	Thing-Nominal 81 83	景致
+R3	Located Arg1:T13 Arg2:T12	
+T14	Location-Nominal 86 88	园中
+T15	Person-Nominal 88 90	游人
+T16	Location-Nominal 93 95	四周
+T17	Thing-Nominal 100 106	弯曲的林荫道
+T18	Location-Nominal 108 110	湖中
+R4	Located Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 111 113	树丛
+T20	Thing-Nominal 116 118	山石
+T21	Location-Nominal 124 126	湖边
+T22	Thing-Nominal 126 128	杨柳
+R5	Located Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 131 135	数张小船
+T24	Location-Nominal 141 147	堤桥下的岸边
+T25	Person-Nominal 150 151	人
+T26	Thing-Nominal 154 156	微风
+T27	Thing-Nominal 160 162	柳捎
+T28	Thing-Nominal 163 165	柳梢
+T29	Thing-Nominal 168 170	水面
+T30	Thing-Nominal 174 178	几圈涟漪
+T31	Thing-Nominal 179 181	春城
+T32	Thing-Nominal 186 188	树木
+T33	Person-Pronoun 197 198	我
+T34	Person-Pronoun 210 211	我
+T35	Thing-Nominal 230 233	这荞饼
+T36	Person-Pronoun 249 250	我
+T37	Thing-Nominal 255 260	手里的荞饼
+T38	Location-Nominal 255 257	手里
+R6	Located Arg1:T37 Arg2:T38	
+T39	Thing-Nominal 284 289	四周的景色
+T40	Location-Nominal 284 286	四周
+R7	Located Arg1:T39 Arg2:T40	
+T41	Person-Pronoun 290 291	我
+T42	Person-Name 293 295	李白
+T43	Time-Implicit 295 297	当年
+T44	Thing-Nominal 299 301	美酒
+T45	Person-Pronoun 310 311	我
+T46	Thing-Nominal 323 324	水
+T47	Thing-Nominal 327 328	月
+T48	Thing-Nominal 319 320	山
+T49	Thing-Nominal 341 342	酒
+T50	Person-Pronoun 347 348	我
+T51	Person-Pronoun 379 380	我
+T52	Thing-Nominal 389 391	饼子
+T53	Person-Pronoun 395 396	我
+T54	Thing-Nominal 419 422	这荞饼
+T55	Person-Pronoun 427 428	我
+T56	Thing-Nominal 441 445	一口荞饼
+T57	Thing-Nominal 435 439	一阵景色
+T58	Location-Nominal 450 453	我口中
+T59	Location-Nominal 461 463	胃里
+T60	Person-Pronoun 470 471	我
+T61	Thing-Nominal 473 474	饼
+T62	Time-Implicit 522 524	这时
+T63	Location-Nominal 525 528	我眼前
+T64	Person-Pronoun 525 526	我
+T65	Time-Explicit 537 542	1958年
+T66	Person-Pronoun 543 544	我
+T67	Thing-Nominal 558 560	钢铁
+T69	Location-Nominal 571 573	县城
+T70	Metric 573 576	两公里
+T71	Location-Nominal 579 585	一座龙王庙里
+T72	Thing-Nominal 587 591	一个纸厂
+T68	Thing-Nominal 563 566	我们班
+R8	Located Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 593 594	厂
+T74	Person-Nominal 603 605	师傅
+T75	Person-Nominal 610 614	我们学生
+T76	Thing-Nominal 652 654	伙食
+T77	Person-Nominal 672 674	同学
+T78	Person-Pronoun 676 677	我
+T79	Location-Nominal 678 681	山门外
+T80	Person-Nominal 683 684	人
+T81	Person-Pronoun 685 686	我
+T82	Person-Pronoun 687 688	我
+T83	Location-Nominal 690 692	手中
+T84	Thing-Nominal 696 698	木杠
+R9	Located Arg1:T84 Arg2:T83	
+T85	Thing-Nominal 693 695	石头
+T86	Thing-Nominal 706 712	龙王庙的大门
+T87	Location-Nominal 716 719	山门外
+T88	Person-Pronoun 713 714	我
+T89	Metric 729 732	四十米
+T90	Thing-Nominal 727 729	山门
+T91	Location-Nominal 735 738	石桥上
+T92	Person-Nominal 741 743	老人
+T93	Person-Pronoun 744 745	他
+*	Coreference T93 T92
+T94	Person-Nominal 746 752	我年迈的父亲
+T95	Person-Pronoun 746 747	我
+R10	Family Arg1:T94 Arg2:T95	
+T96	Person-Pronoun 753 754	我
+T97	Thing-Nominal 758 768	山门前的二十几级台阶
+T98	Location-Nominal 758 761	山门前
+R11	Located Arg1:T97 Arg2:T98	
+T99	Location-Nominal 771 774	石桥上
+T100	Person-Pronoun 776 777	我
+T101	Person-Nominal 779 780;781 782	父 亲
+T102	Location-Nominal 786 789	他手里
+T103	Person-Pronoun 786 787	他
+T104	Thing-Nominal 791 795	一个土罐
+R12	Located Arg1:T104 Arg2:T102	
+T105	Location-Nominal 796 798	身上
+T106	Thing-Nominal 802 815	那件打了许多补丁的土布衣裳
+T107	Thing-Nominal 816 825	两寸多长的花白胡须
+T108	Location-Nominal 826 829	微风里
+T109	Person-Pronoun 832 833	他
+T110	Thing-Nominal 834 839	手里的土罐
+T111	Location-Nominal 834 836	手里
+R13	Located Arg1:T110 Arg2:T111	
+T112	Person-Pronoun 842 843	我
+T113	Person-Pronoun 844 845	我
+T114	Thing-Nominal 847 849	盖子
+T115	Thing-Nominal 852 857	一罐鸡肉汤
+T116	Person-Pronoun 858 859	他
+T117	Thing-Nominal 864 872	家里的那只老母鸡
+T118	Location-Nominal 864 866	家里
+R14	Located Arg1:T117 Arg2:T118	
+T119	Person-Pronoun 881 882	我
+T120	Thing-Nominal 889 891	土罐
+T121	Person-Pronoun 887 888	他
+T122	Location-Nominal 893 896	我手中
+T123	Person-Pronoun 893 894	我
+T124	Person-Pronoun 900 901	我
+T125	Thing-Nominal 904 907	他的手
+T126	Person-Pronoun 904 905	他
+R15	Part-Whole Arg1:T125 Arg2:T126	
+T127	Person-Pronoun 912 913	他
+T128	Person-Nominal 915 922	古稀年岁的老人
+T129	Person-Pronoun 924 925	我
+T130	Thing-Nominal 927 929	双手
+R16	Part-Whole Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 931 933	鸡汤
+T132	Location-Nominal 935 938	我眼里
+T133	Thing-Nominal 943 947	几点泪花
+T134	Thing-Nominal 948 952	他的眼圈
+T135	Person-Pronoun 948 949	他
+T136	Person-Pronoun 958 959	他
+T137	Person-Pronoun 981 983	我们
+T138	Thing-Nominal 983 985	四目
+T139	Person-Pronoun 991 992	他
+T140	Person-Pronoun 1003 1004	我
+T141	Person-Pronoun 1007 1008	他
+T142	Person-Pronoun 1009 1010	他
+T143	Person-Pronoun 1015 1016	我
+T144	Person-Pronoun 1030 1031	我
+T145	Location-Nominal 1033 1035	桥上
+T146	Person-Pronoun 1039 1040	他
+T147	Person-Pronoun 1043 1044	我
+T148	Person-Pronoun 1048 1049	他
+T149	Person-Pronoun 1055 1056	他
+T150	Thing-Nominal 1058 1062	一条小路
+T151	Thing-Nominal 1063 1065	身影
+T152	Thing-Nominal 1066 1071	一排荆棘丛
+T153	Person-Pronoun 1078 1079	我
+T154	Location-Nominal 1089 1092	喉咙里
+T155	Thing-Nominal 1101 1106	口里的荞饼
+T156	Location-Nominal 1101 1103	口里
+R17	Located Arg1:T155 Arg2:T156	
+T157	Person-Pronoun 1113 1114	我
+T158	Thing-Nominal 1116 1121	一小块荞饼
+T159	Location-Nominal 1124 1126	嘴里
+T160	Thing-Nominal 1130 1131	手
+T161	Location-Nominal 1135 1137	空中
+T162	Person-Pronoun 1139 1140	我
+T163	Thing-Nominal 1143 1144	头
+R18	Part-Whole Arg1:T163 Arg2:T162	
+T164	Location-Nominal 1147 1149	手里
+T165	Thing-Nominal 1154 1158	三个荞饼
+T166	Person-Pronoun 1163 1164	我
+T167	Time-Implicit 1160 1162	此时
+T168	Person-Pronoun 1180 1181	我
+T169	Thing-Nominal 1187 1192	这三个荞饼
+T170	Person-Nominal 1193 1194	人
+T171	Person-Nominal 1197 1199	父亲
+T172	Organization-Name 1227 1235	云南老年网络大学
+T173	Abstract 1236 1243	《云南老年报》

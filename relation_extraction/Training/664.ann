@@ -1,0 +1,283 @@
+T1	Person-Nominal 1 9	一外地公司的老总
+T2	Person-Pronoun 11 12	他
+*	Coreference T2 T1
+T3	Person-Pronoun 14 15	我
+T4	Thing-Nominal 14 25	我的小说集《惊梦红土》
+R1	Use Arg1:T2 Arg2:T4	
+T5	Person-Pronoun 31 32	他
+T6	Person-Pronoun 36 37	我
+T7	Person-Pronoun 40 41	你
+T8	Person-Nominal 43 47	成功人士
+*	Coreference T7 T6
+R2	General-Special Arg1:T8 Arg2:T7	
+T9	Person-Pronoun 49 50	我
+T10	Person-Pronoun 72 73	我
+T11	Person-Nominal 85 93	风情万种的春姑娘
+T12	Thing-Nominal 95 102	柔软纤细的小手
+R3	Part-Whole Arg1:T12 Arg2:T11	
+T13	Person-Pronoun 104 105	我
+T14	Person-Pronoun 107 108	我
+T15	Thing-Nominal 126 138	闪光的如梦如幻的圈圈涟漪
+T16	Thing-Nominal 139 144	生命的天路
+T17	Thing-Pronoun 146 147	你
+*	Coreference T17 T16
+T18	Person-Pronoun 151 152	我
+T19	Person-Pronoun 155 156	我
+T20	Thing-Nominal 180 182;183 184	钢丝 绳
+T21	Person-Pronoun 186 187	你
+T22	Person-Pronoun 190 191	我
+T23	Thing-Nominal 173 175	峰峦
+T24	Time-Implicit 197 199	每天
+T25	Person-Pronoun 200 201	我
+T26	Thing-Nominal 207 209	天地
+T27	Person-Nominal 212 214	神民
+T28	Person-Nominal 219 221	地神
+T29	Person-Pronoun 223 224	您
+*	Coreference T29 T28
+T30	Person-Pronoun 226 227	我
+T31	Thing-Name 230 232	太阳
+T32	Thing-Name 239 241	太阳
+T33	Thing-Nominal 239 244	太阳的光辉
+T34	Thing-Pronoun 250 251	它
+*	Coreference T34 T33
+T35	Thing-Nominal 253 255	万物
+T36	Thing-Pronoun 259 260	它
+T37	Person-Nominal 262 268	天下苍生大众
+T38	Thing-Pronoun 271 272	它
+T39	Person-Nominal 277 279	人类
+T40	Person-Pronoun 294 295	我
+T41	Thing-Name 304 306	太阳
+T42	Thing-Name 307 309	月亮
+T43	Person-Pronoun 313 314	我
+T44	Thing-Nominal 314 318;319 320	生命的天 路
+T45	Person-Pronoun 324 325	我
+T46	Person-Pronoun 332 333	我
+T47	Person-Pronoun 351 352	我
+T48	Person-Pronoun 375 376	我
+T49	Thing-Nominal 381 384	松树皮
+T50	Thing-Nominal 388 390	九牛
+T51	Person-Pronoun 405 406	我
+T52	Person-Pronoun 439 440	我
+T53	Person-Pronoun 446 447	我
+T54	Thing-Nominal 491 493	夕阳
+T55	Person-Pronoun 502 503	我
+T56	Person-Pronoun 507 508	我
+T57	Thing-Nominal 551 553	文件
+T58	Thing-Nominal 557 559	砖头
+T59	Thing-Nominal 563 567	车马兵炮
+T60	Location-Nominal 571 573	疆场
+T61	Person-Pronoun 574 575	我
+T62	Thing-Name 586 588	太阳
+T63	Thing-Name 593 595	月亮
+T64	Person-Pronoun 621 622	我
+T65	Thing-Nominal 600 607	世间的万事万物
+T66	Person-Nominal 624 627	命的神
+T67	Location-Nominal 655 659	神圣殿堂
+T68	Thing-Nominal 653 662	通往神圣殿堂的天路
+T69	Time-Implicit 667 671	那一瞬间
+T70	Person-Pronoun 672 673	我
+T71	Person-Name 676 680	太白金星
+T72	Person-Pronoun 681 682	他
+*	Coreference T72 T71
+T73	Person-Nominal 685 691	一位神算大师
+T74	Person-Pronoun 696 697	我
+T75	Person-Pronoun 704 705	你
+*	Coreference T75 T74
+T76	Person-Pronoun 711 712	你
+T77	Person-Nominal 721 723	行者
+T78	Person-Pronoun 752 753	你
+T79	Person-Pronoun 762 763	我
+T80	Person-Pronoun 766 767	你
+T81	Person-Nominal 770 773	老神仙
+T82	Person-Pronoun 786 787	他
+T83	Person-Pronoun 790 791	我
+T84	Person-Pronoun 813 814	他
+T85	Person-Name 836 840	太白金星
+T86	Thing-Pronoun 860 861	它
+T87	Thing-Nominal 843 859	这么一条险象环生、拥挤不堪的天路
+*	Coreference T86 T87 T68 T109 T224
+T88	Person-Pronoun 865 866	我
+T89	Person-Pronoun 873 874	我
+T90	Person-Pronoun 876 877	我
+T91	Person-Pronoun 882 884	自己
+*	Coreference T91 T90
+T92	Person-Pronoun 888 889	我
+T93	Person-Pronoun 892 893	谁
+T94	Person-Nominal 900 902	爸妈
+R4	Family Arg1:T94 Arg2:T92	
+T95	Person-Nominal 907 911	老婆孩子
+T96	Person-Nominal 917 919	情人
+R5	Family Arg1:T95 Arg2:T92	
+R6	Family Arg1:T95 Arg2:T94	
+T97	Person-Name 942 946	太白金星
+T98	Location-Nominal 952 956	天地乾坤
+T99	Person-Pronoun 986 987	他
+T100	Person-Pronoun 1003 1004	我
+T101	Person-Pronoun 1008 1009	我
+T102	Person-Pronoun 1010 1011	我
+T103	Thing-Nominal 1013 1014	背
+R7	Part-Whole Arg1:T103 Arg2:T102	
+T104	Person-Nominal 977 981	命运之神
+*	Coreference T99 T104
+T105	Thing-Nominal 986 996	他那条柔韧坚实的鞭子
+R8	Use Arg1:T104 Arg2:T105	
+T106	Thing-Nominal 1017 1018	腿
+R9	Part-Whole Arg1:T106 Arg2:T101	
+T107	Thing-Nominal 1020 1030	一头默然无语的老黄牛
+T108	Thing-Nominal 1035 1037	犁靶
+T109	Thing-Nominal 1050 1054	这条天路
+T110	Person-Pronoun 1056 1057	我
+T111	Person-Pronoun 1079 1080	我
+T112	Thing-Nominal 1084 1085	路
+T113	Thing-Nominal 1091 1093	荆棘
+T114	Person-Pronoun 1096 1097	我
+T115	Thing-Nominal 1102 1103	山
+T116	Person-Pronoun 1114 1115	我
+T117	Thing-Nominal 1122 1124	腿脚
+R10	Part-Whole Arg1:T117 Arg2:T116	
+T118	Person-Nominal 1142 1143	人
+T119	Person-Pronoun 1165 1166	我
+T120	Location-Nominal 1174 1181	金碧辉煌的圣殿
+T121	Person-Pronoun 1184 1185	我
+T122	Thing-Nominal 1184 1189	我脚下的路
+T123	Person-Pronoun 1199 1200	我
+T124	Location-Nominal 1203 1206	天路旁
+T125	Thing-Nominal 1208 1213	路旁的花草
+R11	Located Arg1:T125 Arg2:T124	
+T126	Person-Pronoun 1223 1224	我
+T127	Thing-Nominal 1229 1235	枝叶间的鸟儿
+T128	Person-Pronoun 1243 1244	我
+T129	Person-Pronoun 1264 1265	你
+T130	Person-Nominal 1267 1281	中华民族历史上独一无二的女皇
+T131	Person-Name 1283 1286	武则天
+T132	Person-Name 1283 1295	武则天的亲生女儿太平公主
+T133	Person-Pronoun 1297 1298	你
+*	Coreference T129 T132 T133 T149 T151
+T134	Location-Nominal 1303 1306	这条路
+T135	Person-Pronoun 1310 1311	你
+T136	Person-Name 1314 1316	李隆
+T137	Person-Name 1329 1331	韦后
+T138	Person-Name 1332 1336	安乐公主
+T139	Person-Pronoun 1339 1340	你
+T140	Person-Nominal 1343 1361	一个居心叵测的阴谋家、野心家、政变家
+T141	Person-Pronoun 1363 1364	你
+T142	Person-Pronoun 1369 1371	我们
+T143	Person-Nominal 1369 1382	我们这些攀登“天路”的队伍
+T144	Person-Nominal 1390 1398	“天路”的攀登者
+T145	Person-Nominal 1403 1422	一些维护、颂扬天下真善美的神圣“特使”
+T146	Person-Pronoun 1449 1450	你
+T147	Person-Pronoun 1452 1453	你
+T148	Person-Pronoun 1464 1466	我们
+T149	Person-Name 1469 1473	太平公主
+T150	Thing-Nominal 1475 1482	她那张樱桃小口
+T151	Person-Pronoun 1475 1476	她
+R12	Part-Whole Arg1:T150 Arg2:T151	
+T152	Person-Pronoun 1487 1488	她
+T153	Person-Pronoun 1496 1497	我
+T154	Person-Nominal 1502 1505	文化人
+T155	Person-Pronoun 1507 1508	你
+T156	Person-Pronoun 1518 1519	我
+T157	Person-Pronoun 1522 1523	你
+T158	Person-Name 1532 1536	太平公主
+T159	Time-Implicit 1540 1544	当朝时候
+T160	Person-Pronoun 1568 1569	她
+T161	Person-Pronoun 1575 1576	我
+T162	Time-Implicit 1593 1601	那远古的封建朝代
+T163	Person-Pronoun 1603 1604	我
+*	Coreference T163 T160
+T164	Location-Name 1617 1622	当今的中国
+T165	Person-Nominal 1635 1637	人民
+T166	Time-Implicit 1632 1634	今天
+T167	Person-Nominal 1644 1646	民众
+T168	Person-Nominal 1650 1651;1652 1653	百 姓
+T169	Person-Pronoun 1659 1660	我
+T170	Person-Pronoun 1662 1663	我
+T171	Person-Name 1668 1670	太平
+T172	Person-Nominal 1678 1680	公主
+T173	Person-Pronoun 1683 1684	我
+T174	Person-Nominal 1685 1694	千千万万的凡俗女子
+T175	Person-Pronoun 1701 1703	自己
+*	Coreference T175 T173
+T176	Person-Pronoun 1744 1745	她
+T177	Thing-Nominal 1765 1769	我的耳朵
+T178	Person-Pronoun 1765 1766	我
+R13	Part-Whole Arg1:T177 Arg2:T178	
+T179	Person-Pronoun 1772 1773	我
+T180	Person-Pronoun 1777 1778	你
+T181	Person-Pronoun 1780 1781	我
+T182	Person-Pronoun 1784 1785	我
+T183	Person-Name 1796 1800	太平公主
+T184	Person-Pronoun 1803 1804	你
+T185	Person-Pronoun 1809 1810	我
+T186	Person-Pronoun 1812 1813	你
+T187	Person-Nominal 1814 1821	那远古时代的神
+T188	Person-Nominal 1824 1825	鬼
+T189	Person-Pronoun 1829 1830	我
+T190	Person-Pronoun 1834 1835	你
+T191	Person-Pronoun 1836 1837	我
+T192	Person-Pronoun 1840 1841	你
+T193	Person-Nominal 1845 1847	神鬼
+T194	Person-Pronoun 1850 1851	你
+T195	Location-Name 1853 1855	天堂
+T196	Location-Name 1859 1861	地狱
+T197	Person-Pronoun 1864 1865	你
+T198	Person-Pronoun 1866 1867	你
+T199	Person-Pronoun 1885 1886	你
+T200	Person-Name 1892 1894	薛绍
+T201	Person-Name 1895 1898	武攸暨
+T202	Person-Pronoun 1903 1904	我
+T203	Person-Pronoun 1910 1911	你
+T204	Person-Pronoun 1914 1915	我
+T205	Person-Pronoun 1920 1922	他们
+T206	Person-Pronoun 1927 1929	他们
+T207	Person-Pronoun 1935 1936	我
+T208	Time-Implicit 1940 1942	此时
+T209	Thing-Nominal 1946 1953	路旁的万物生灵
+T210	Person-Pronoun 1962 1965	我们俩
+T211	Person-Name 1969 1971	太平
+*	Coreference T171 T158
+T212	Person-Pronoun 1979 1980	我
+T213	Person-Pronoun 1983 1984	你
+T214	Person-Name 1892 1898	薛绍、武攸暨
+*	Coreference T206 T214
+T215	Person-Pronoun 1988 1989	我
+*	Coreference T215 T211
+*	Coreference T213 T212
+T216	Person-Nominal 1988 1994	我心中的薛绍
+T217	Person-Pronoun 1996 1997	我
+T218	Person-Pronoun 1998 1999	你
+T219	Person-Pronoun 2005 2006	你
+T220	Person-Pronoun 2020 2021	你
+T221	Thing-Nominal 2026 2028	金子
+T222	Person-Pronoun 2049 2050	我
+T223	Person-Pronoun 2054 2055	你
+T225	Location-Nominal 2069 2074	神圣的殿堂
+T224	Thing-Nominal 2059 2066	雄奇险峻的天路
+*	Coreference T67 T120 T225
+T226	Thing-Nominal 2079 2088	那颗瑰丽璀璨的桂冠
+T227	Person-Pronoun 2096 2097	我
+T228	Person-Name 2098 2102	太平公主
+T229	Person-Pronoun 2118 2119	我
+T230	Thing-Nominal 2113 2114	旗
+T231	Thing-Nominal 2115 2116	鼓
+T232	Person-Name 2133 2135	太平
+T233	Thing-Nominal 2133 2138	太平的玉手
+R14	Part-Whole Arg1:T233 Arg2:T232	
+T234	Thing-Nominal 2141 2151;2152 2161	天路旁的一株枝繁叶茂 、结满青果的合欢树
+T235	Location-Nominal 2141 2144	天路旁
+R15	Located Arg1:T234 Arg2:T235	
+T236	Person-Nominal 2163 2165	两人
+T237	Thing-Nominal 2165 2166	肩
+T238	Thing-Nominal 2167 2168	肩
+T239	Person-Pronoun 2188 2189	我
+T240	Person-Pronoun 2202 2203	您
+T241	Person-Pronoun 2208 2210	我们
+T242	Person-Pronoun 2213 2215	我们
+T243	Person-Pronoun 2227 2230	我们俩
+T244	Person-Pronoun 2249 2251	我们
+T245	Person-Nominal 2232 2236	天地神民
+T246	Person-Pronoun 2268 2269	我
+T247	Person-Pronoun 2301 2302	我
+T248	Person-Name 2320 2324	太平公主
+T249	Person-Nominal 2309 2311	醉鬼
+T250	Thing-Nominal 2319 2325;2326 2340	“太平公主” 那阔绰飘逸的情思缠绵的石榴裙

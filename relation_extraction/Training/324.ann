@@ -1,0 +1,291 @@
+T1	Person-Name 0 7	女司机小钟师傅
+T2	Person-Nominal 8 13	我们的儿女
+T3	Person-Pronoun 8 10	我们
+R1	Social Arg1:T1 Arg2:T3	
+T4	Thing-Nominal 27 35	她们车队的这路车
+T5	Thing-Nominal 20 21	车
+*	Coreference T5 T4
+T6	Time-Implicit 37 40	同车时
+T7	Time-Implicit 44 52	去年12月28日
+T8	Time-Implicit 53 55	周六
+T9	Time-Implicit 56 60;61 66	数九寒天 一九第七天
+T10	Time-Implicit 67 69	头晚
+T11	Metric 73 76	-5度
+T12	Time-Implicit 77 81	温度高时
+T13	Metric 82 84	1度
+T14	Location-Nominal 85 91	周围其它地区
+T15	Metric 93 98	-7-8度
+T16	Time-Implicit 99 101	这天
+T17	Time-Implicit 102 104	去年
+T18	Person-Pronoun 105 106	她
+*	Coreference T18 T1 T22 T23 T24 T41
+T19	Person-Pronoun 119 121	我们
+T20	Thing-Nominal 115 116	车
+T21	Thing-Nominal 106 107	车
+T22	Person-Nominal 131 137	一个司机师傅
+T23	Person-Nominal 143 147	一个女儿
+T24	Person-Nominal 148 152	一个母亲
+T25	Metric 131 133	一个
+T26	Metric 143 145	一个
+T27	Metric 148 150	一个
+T28	Person-Pronoun 154 156	我们
+T29	Location-Name 164 168	汇泉广场
+T30	Location-Nominal 168 173	环形步行道
+R2	Part-Whole Arg1:T30 Arg2:T29	
+T31	Time-Implicit 178 182	该回家时
+T32	Location-Nominal 184 189	始发站那边
+T33	Thing-Nominal 193 194	车
+T34	Location-Nominal 200 207	能看见的第二站
+T35	Metric 212 214;215 220	约有 二十三十米
+T36	Thing-Nominal 222 225	公交车
+*	Coreference T36 T33
+T37	Person-Pronoun 227 229	我们
+T38	Thing-Nominal 230 232	车门
+R3	Part-Whole Arg1:T38 Arg2:T36	
+T39	Person-Pronoun 236 238	我们
+T40	Person-Nominal 241 243	妻子
+R4	Part-Whole Arg1:T40 Arg2:T39	
+T41	Person-Name 249 251	小钟
+T42	Person-Name 261 263	小钟
+T43	Person-Nominal 264 271	认识的司机师傅
+*	Coreference T43 T42
+T44	Person-Pronoun 272 273	她
+T45	Location-Nominal 274 275;276 279	这 条车路
+T46	Person-Pronoun 282 287	腿有伤的我
+T47	Person-Nominal 288 296	陪护我走步的妻子
+*	Coreference T47 T40
+R5	Part-Whole Arg1:T46 Arg2:T39	
+T48	Person-Nominal 282 298	腿有伤的我和陪护我走步的妻子二人
+*	Coreference T48 T39
+T49	Metric 300 302	多年
+T50	Thing-Nominal 312 316	司机座位
+T51	Thing-Nominal 322 325	一辆车
+T52	Person-Nominal 330 333	对面车
+T53	Metric 322 324	一辆
+T54	Thing-Nominal 348 356	司机座后的报站屏
+T55	Time-Explicit 358 363	10：40
+T56	Metric 366 370	一个小时
+T57	Time-Explicit 373 381	11：40、50
+T58	Person-Pronoun 384 386	我们
+T59	Person-Nominal 387 389	司机
+*	Coreference T59 T44
+T60	Person-Name 398 400	小钟
+T61	Person-Nominal 401 402;403 404	家 人
+T62	Time-Implicit 413 415	上午
+T63	Time-Implicit 425 427	下午
+T64	Time-Implicit 427 431	有太阳时
+T65	Thing-Name 428 430	太阳
+T66	Person-Nominal 439 442	老年人
+R6	General-Special Arg1:T66 Arg2:T46	
+T67	Thing-Nominal 446 448	血管
+T68	Thing-Pronoun 452 454	这些
+T69	Person-Pronoun 454 456	我们
+T70	Time-Implicit 461 463;464 465	前几 天
+T71	Time-Implicit 472 474	下午
+T72	Time-Implicit 468 470	往后
+T73	Time-Implicit 478 480	今天
+T74	Person-Name 482 486	小钟师傅
+*	Coreference T74 T60
+T75	Person-Pronoun 494 496	我们
+T76	Thing-Nominal 505 507	左窗
+T77	Person-Nominal 510 512	妻子
+T78	Thing-Nominal 515 516	右
+T79	Person-Name 521 523	小钟
+T80	Person-Name 529 531	小钟
+T81	Person-Nominal 539 546	生病在家的妈妈
+R7	Family Arg1:T81 Arg2:T80	
+T82	Person-Nominal 549 551	俺妈
+*	Coreference T82 T81 T84 T88 T89
+T83	Metric 553 556	一个月
+T84	Person-Nominal 559 562	老人家
+T85	Person-Nominal 568 570	女儿
+*	Coreference T85 T80 T86 T102 T105
+T86	Person-Name 574 578	女儿小钟
+T87	Thing-Nominal 583 586	公交车
+R8	Use Arg1:T86 Arg2:T87	
+T88	Person-Nominal 591 597	病久了的妈妈
+T89	Person-Nominal 601 603	妈妈
+T90	Metric 606 609	一个月
+T91	Location-Nominal 601 605	妈妈那里
+T92	Person-Nominal 615 618	俺哥哥
+R9	Family Arg1:T92 Arg2:T89	
+R10	Family Arg1:T92 Arg2:T86	
+T93	Person-Nominal 626 628	妻子
+T94	Person-Nominal 630 632	孩子
+R11	Family Arg1:T94 Arg2:T86	
+T95	Person-Nominal 635 637	孩子
+T96	Organization-Name 638 642	二中分校
+T97	Organization-Nominal 643 645	高中
+R12	General-Special Arg1:T97 Arg2:T96	
+T98	Person-Nominal 652 654	俺妈
+T99	Time-Implicit 661 663	原先
+T100	Person-Nominal 663 667	她的女儿
+*	Coreference T100 T95 T103 T107
+T101	Person-Nominal 670 672	姥姥
+*	Coreference T101 T98 T118
+T102	Person-Nominal 677 679	妈妈
+T103	Person-Pronoun 695 697	自己
+T104	Time-Implicit 703 705	夜里
+T105	Person-Pronoun 716 717	我
+T106	Person-Pronoun 721 722	我
+T107	Person-Pronoun 727 728	她
+T108	Person-Nominal 747 749	孩子
+T109	Person-Pronoun 750 751	你
+*	Coreference T109 T106
+T110	Time-Implicit 767 769	今年
+T111	Organization-Nominal 771 775	他们学校
+*	Coreference T111 T96
+T112	Person-Nominal 777 784	四个过本科线的
+R13	Social Arg1:T112 Arg2:T108	
+T113	Organization-Nominal 785 787	学校
+T114	Person-Nominal 791 793	学生
+T115	Person-Pronoun 801 803	我们
+T116	Person-Name 805 809	小钟师傅
+T117	Person-Nominal 814 816	孩子
+T118	Person-Nominal 820 822	妈妈
+T119	Thing-Nominal 840 841	车
+T120	Location-Name 842 846	一疗二疗
+T121	Thing-Nominal 848 849	车
+T122	Person-Pronoun 855 857	我们
+T123	Thing-Nominal 868 873	她手里的车
+*	Coreference T123 T119
+T124	Person-Pronoun 868 869	她
+R14	Use Arg1:T124 Arg2:T123	
+T125	Person-Nominal 880 882	乘客
+T126	Thing-Nominal 916 918	车厢
+R15	Part-Whole Arg1:T126 Arg2:T123	
+T127	Person-Pronoun 919 920	她
+T128	Person-Nominal 930 932	乘客
+T129	Location-Nominal 937 939	站上
+T130	Person-Nominal 939 942	上车人
+*	Coreference T130 T128
+T131	Person-Pronoun 945 946	她
+T132	Location-Name 964 966	二疗
+T133	Person-Nominal 969 974	中年女乘客
+R16	General-Special Arg1:T128 Arg2:T133	
+T134	Person-Pronoun 975 976	她
+T135	Person-Pronoun 977 978	我
+*	Coreference T135 T133
+T136	Location-Pronoun 979 981	哪里
+T137	Thing-Nominal 982 983;984 988	3 10路车
+T138	Person-Name 990 994	小钟师傅
+T139	Person-Pronoun 1004 1005	她
+T140	Location-Name 1007 1011	湛山寺站
+T141	Person-Pronoun 1014 1015	她
+T142	Location-Pronoun 1017 1019	这里
+*	Coreference T142 T140
+T144	Person-Pronoun 1040 1041	我
+T145	Location-Name 1045 1051	老年大学车站
+T143	Location-Name 1025 1031	下站老年大学
+*	Coreference T145 T143 T153
+T146	Person-Pronoun 1058 1059	她
+T147	Thing-Nominal 1070 1071	车
+T148	Person-Nominal 1079 1081	乘客
+T149	Person-Nominal 1099 1102	女师傅
+T150	Person-Nominal 1113 1115	乘客
+T151	Person-Pronoun 1120 1121	她
+T152	Person-Pronoun 1141 1143	自己
+*	Coreference T152 T151 T149 T138
+T153	Location-Name 1152 1157	老年大学站
+T154	Person-Nominal 1157 1158	人
+T155	Person-Nominal 1019 1020	人
+T156	Person-Nominal 1051 1052	人
+T157	Thing-Nominal 1161 1162	车
+T158	Person-Pronoun 1164 1165	她
+T159	Person-Pronoun 1166 1168	自己
+*	Coreference T159 T158
+T160	Person-Nominal 1166 1171;1172 1174	自己催上的 乘客
+T161	Person-Pronoun 1176 1177	咱
+T162	Thing-Nominal 1181 1183	信号
+T163	Location-Name 1191 1197	延安三路路口
+T164	Thing-Nominal 1184 1185	车
+T165	Thing-Nominal 1201 1206	前面信号屏
+T166	Metric 1212 1215	10秒
+T167	Metric 1222 1229	9、8、7……
+T168	Person-Pronoun 1231 1232	她
+T169	Thing-Nominal 1231 1232;1233 1235	她 的车
+*	Coreference T169 T157
+T170	Location-Pronoun 1238 1240	这里
+*	Coreference T170 T163
+T171	Metric 1253 1258	几分钟时间
+T172	Metric 1261 1266	几分钟时间
+T173	Time-Implicit 1268 1276	天天、趟趟、站站
+T174	Person-Nominal 1289 1299	那些投币打卡不清楚的
+R17	General-Special Arg1:T150 Arg2:T160	
+R18	General-Special Arg1:T150 Arg2:T174	
+T175	Person-Pronoun 1300 1301	她
+T176	Person-Nominal 1310 1314	几个青年
+R19	General-Special Arg1:T160 Arg2:T176	
+T177	Person-Pronoun 1324 1336	恁(你们，青岛话音)五个
+*	Coreference T176 T177 T180
+T178	Person-Nominal 1345 1347	四个
+R20	Part-Whole Arg1:T178 Arg2:T177	
+T179	Person-Nominal 1352 1354	一个
+R21	Part-Whole Arg1:T179 Arg2:T177	
+T180	Person-Nominal 1358 1361	五个人
+T181	Time-Explicit 1363 1368	11：03
+T182	Thing-Nominal 1371 1372	车
+T183	Location-Name 1373 1375	北站
+T184	Location-Name 1377 1382	延安路北站
+*	Coreference T183 T184
+T185	Metric 1383 1388	20多分钟
+T186	Thing-Nominal 1389 1392	她的车
+*	Coreference T186 T182
+T187	Person-Pronoun 1389 1390	她
+R22	Use Arg1:T187 Arg2:T186	
+T188	Time-Explicit 1398 1403	11：19
+T189	Thing-Nominal 1403 1406	她的车
+T190	Location-Name 1408 1411	四方站
+T191	Thing-Nominal 1414 1424	一个前行的206路车
+T192	Thing-Nominal 1430 1431	车
+T193	Person-Pronoun 1426 1427	她
+T194	Location-Name 1433 1437	宣化路站
+T195	Person-Pronoun 1442 1443	她
+T196	Person-Nominal 1444 1448	车内乘客
+T197	Person-Nominal 1450 1453	下车的
+T198	Location-Name 1465 1471	瑞安南路车站
+T199	Location-Name 1486 1489	金沙路
+T200	Person-Pronoun 1478 1479	她
+T201	Person-Nominal 1505 1510	两位女乘客
+T202	Metric 1505 1507	两位
+T203	Thing-Nominal 1511 1512	车
+T204	Person-Nominal 1516 1517	人
+*	Coreference T204 T201
+T205	Person-Nominal 1525 1526	人
+T206	Person-Name 1528 1532	小钟师傅
+T207	Person-Nominal 1538 1544	恁(您)弟弟
+T208	Metric 1549 1552	几个月
+T209	Metric 1555 1558	六个月
+T210	Time-Implicit 1561 1563	明年
+T211	Person-Pronoun 1575 1577	他们
+T212	Location-Name 1585 1587	天津
+T213	Thing-Nominal 1589 1590	车
+T214	Location-Nominal 1599 1601	前面
+T215	Location-Nominal 1591 1594	下坡路
+R23	Near Arg1:T215 Arg2:T214	
+T216	Location-Name 1609 1618	大沙路(潜艇学院)
+T217	Location-Name 1622 1630	保利百合花园小区
+T218	Location-Pronoun 1619 1621	这里
+*	Coreference T218 T216
+T219	Person-Nominal 1631 1633	乘客
+T220	Time-Explicit 1636 1641	11：30
+T221	Location-Name 1643 1647	紫荆苑站
+T222	Metric 1652 1656	10分钟
+T223	Location-Name 1657 1661	紫荆苑站
+T224	Person-Nominal 1662 1663	人
+T225	Person-Name 1665 1669	小钟师傅
+T226	Thing-Nominal 1679 1681	大车
+T227	Location-Nominal 1675 1677	后面
+T228	Metric 1686 1689	一分钟
+T229	Person-Pronoun 1696 1697	她
+T230	Thing-Nominal 1700 1702;1703 1707	那辆 超过的车
+*	Coreference T230 T191
+T231	Person-Pronoun 1709 1710	她
+T232	Organization-Nominal 1716 1718	单位
+T233	Person-Pronoun 1742 1743	她
+T234	Time-Implicit 1743 1745	今天
+T235	Location-Name 1750 1757	汇泉天泰体育场
+T236	Organization-Nominal 1757 1761	自己车队
+T237	Thing-Nominal 1724 1726	午饭
+T238	Thing-Nominal 1730 1732	晚饭
+T239	Thing-Nominal 1763 1765	午饭

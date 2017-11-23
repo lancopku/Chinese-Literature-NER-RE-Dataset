@@ -1,0 +1,116 @@
+T1	Location-Nominal 9 13	半岛湿地
+T2	Metric 17 19	一波
+T3	Metric 20 22	一波
+T4	Thing-Nominal 23 24	风
+T5	Thing-Nominal 24 25	浪
+T6	Person-Pronoun 53 54	我
+T7	Person-Pronoun 61 62	我
+T8	Thing-Nominal 63 65	血液
+T9	Thing-Nominal 65 67	骨髓
+T10	Person-Pronoun 69 70	我
+*	Coreference T10 T7 T6 T12
+T11	Person-Pronoun 79 80	他
+T12	Person-Pronoun 89 90	我
+T13	Time-Implicit 95 97	以往
+T14	Location-Nominal 98 100	都市
+T15	Time-Implicit 113 115	岁月
+T16	Time-Implicit 122 124	青春
+T17	Person-Pronoun 136 138	我们
+T18	Person-Pronoun 150 151	我
+T19	Person-Pronoun 153 155	自己
+T20	Person-Pronoun 168 170	他人
+T21	Person-Pronoun 188 189	我
+T22	Person-Pronoun 199 200	我
+T23	Person-Pronoun 219 221	我们
+T24	Location-Nominal 216 218	水底
+T25	Location-Nominal 224 226	水底
+*	Coreference T25 T24
+T26	Metric 235 237	一缕
+T27	Thing-Nominal 237 239	阳光
+T28	Person-Pronoun 241 242	她
+T29	Location-Nominal 247 250	湖面上
+T30	Metric 252 254	一刻
+T31	Time-Implicit 251 254	这一刻
+T32	Time-Implicit 269 273	夕阳西下
+T33	Person-Pronoun 284 285	我
+T34	Time-Implicit 290 292	此刻
+T35	Person-Pronoun 302 303	他
+T36	Thing-Nominal 306 310	我的灵魂
+T37	Person-Pronoun 306 307	我
+R1	Part-Whole Arg1:T36 Arg2:T37	
+T38	Metric 312 314	九天
+T39	Metric 314 316	十地
+T40	Person-Pronoun 319 321	自己
+T41	Metric 331 334	一次次
+T42	Person-Pronoun 337 338	我
+T43	Person-Pronoun 345 346	我
+T44	Time-Implicit 363 367	很多时候
+T45	Person-Pronoun 369 371	我们
+T46	Person-Pronoun 371 373	自己
+T47	Person-Pronoun 379 380	你
+T48	Person-Pronoun 384 385	我
+T49	Person-Pronoun 400 401	我
+T50	Person-Pronoun 416 417	我
+*	Coreference T50 T49 T43 T42 T48 T45 T46
+T51	Person-Pronoun 421 422	你
+*	Coreference T51 T47
+T52	Time-Implicit 439 443	暮色四合
+T53	Location-Name 444 448	龙凤古镇
+T54	Thing-Nominal 449 450	灯
+T55	Time-Implicit 455 456	夜
+T56	Thing-Nominal 456 457	风
+T57	Time-Implicit 468 470	白天
+T58	Person-Pronoun 474 475	我
+T59	Location-Nominal 475 477	身上
+T60	Thing-Nominal 478 480	衣衫
+R2	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 482 485	我的心
+T62	Thing-Nominal 488 489	风
+T63	Metric 507 509	分寸
+T64	Time-Implicit 511 513	此刻
+T65	Location-Nominal 514 519	平静的湖面
+T66	Metric 528 530	一浪
+T67	Metric 532 534	一浪
+T68	Thing-Nominal 526 528	波浪
+T69	Location-Nominal 541 543	脚下
+T70	Thing-Nominal 547 549	石柱
+R3	Located Arg1:T70 Arg2:T69	
+T71	Person-Pronoun 559 560	我
+T72	Metric 561 563	一口
+T73	Time-Implicit 566 570	就在此刻
+T74	Person-Pronoun 571 572	我
+T75	Thing-Nominal 576 582	填海的精卫鸟
+T76	Thing-Pronoun 583 584	她
+*	Coreference T76 T75 T80
+T77	Time-Implicit 586 588	生前
+T78	Person-Pronoun 590 591	我
+T79	Location-Nominal 597 599	水边
+T80	Thing-Pronoun 603 604	她
+T81	Person-Pronoun 610 611	我
+T82	Person-Pronoun 618 619	他
+T83	Location-Nominal 635 637	天空
+T84	Metric 647 649	一场
+T85	Time-Implicit 652 656	即将来临
+T86	Time-Implicit 657 660	素日里
+T87	Person-Pronoun 665 666	我
+T88	Time-Implicit 668 671	这瞬间
+T89	Location-Nominal 691 693	湖边
+T90	Thing-Nominal 694 698	观音雕塑
+R4	Located Arg1:T90 Arg2:T89	
+T91	Person-Pronoun 737 739	我们
+T92	Person-Pronoun 747 749	他们
+T93	Time-Implicit 750 754	在这一刻
+T94	Person-Name 776 781	观世音菩萨
+T95	Metric 799 803	三千红尘
+T96	Metric 817 819	百态
+T97	Person-Pronoun 823 824	我
+T98	Person-Name 844 848	观音菩萨
+*	Coreference T98 T94
+T99	Person-Nominal 829 831	世人
+T100	Person-Nominal 713 715	人类
+T101	Thing-Nominal 639 641	乌云
+R5	Located Arg1:T101 Arg2:T83	
+T102	Thing-Nominal 293 295	霞光
+T103	Metric 207 210	这一域
+T104	Location-Nominal 211 213	水中
+T105	Metric 125 127	某些

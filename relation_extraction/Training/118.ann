@@ -1,0 +1,136 @@
+T1	Location-Nominal 2 10	繁华现代的都市里
+T2	Location-Nominal 27 29	故乡
+T3	Thing-Nominal 30 35	弯弯的山路
+R1	Located Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 47 50	那山路
+T5	Thing-Nominal 51 55	一条细线
+T6	Thing-Nominal 73 80	一条曲折的河流
+T7	Location-Nominal 110 116	高耸的山腰间
+R2	Located Arg1:T6 Arg2:T7	
+T8	Person-Pronoun 124 125	我
+T9	Location-Nominal 131 138	这弯弯的山路上
+T10	Thing-Pronoun 144 145	它
+*	Coreference T10 T4
+T11	Person-Pronoun 161 162	谁
+T12	Thing-Nominal 165 167	何物
+T13	Thing-Pronoun 168 169	它
+T14	Thing-Pronoun 187 188	它
+T15	Thing-Pronoun 230 232	自身
+T16	Location-Nominal 250 257	这弯弯的山路上
+T17	Location-Nominal 263 264	家
+T18	Thing-Nominal 268 273	母亲的怀抱
+T19	Person-Nominal 268 270	母亲
+T20	Person-Nominal 276 279	亲人们
+T21	Time-Implicit 296 299	春日里
+T22	Location-Nominal 302 309	这弯弯的山路上
+T23	Thing-Nominal 310 312	百花
+T24	Thing-Nominal 315 317	万木
+T25	Thing-Nominal 339 341	这山
+T26	Thing-Nominal 342 344	那坡
+T27	Thing-Nominal 347 349	一树
+T28	Thing-Nominal 350 352	一花
+T29	Person-Pronoun 364 365	你
+T30	Person-Pronoun 369 370	你
+T31	Time-Implicit 390 393	夏日里
+T32	Location-Nominal 396 403	这弯弯的山路上
+T33	Thing-Nominal 408 410	庄稼
+T34	Location-Nominal 405 407	满山
+R3	Located Arg1:T33 Arg2:T34	
+T35	Thing-Nominal 415 420	牛儿、驴儿
+T36	Location-Nominal 421 425	寸草湾里
+R4	Located Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 429 430	草
+T38	Thing-Nominal 431 433	狗儿
+T39	Location-Nominal 439 447	村头院落的树荫下
+T40	Thing-Nominal 453 455	鸟雀
+R5	Located Arg1:T38 Arg2:T39	
+T41	Location-Nominal 456 459	树林里
+R6	Located Arg1:T40 Arg2:T41	
+T42	Person-Nominal 469 472	孩子们
+T43	Thing-Nominal 475 476	体
+T44	Thing-Nominal 473 474	身
+R7	Part-Whole Arg1:T44 Arg2:T42	
+R8	Part-Whole Arg1:T43 Arg2:T42	
+T45	Location-Nominal 478 481	小河里
+T46	Location-Nominal 494 500	远处的山梁上
+T47	Person-Nominal 504 507	农人们
+T48	Thing-Nominal 514 519	六月的日头
+T49	Thing-Nominal 519 523	腊月的风
+T50	Person-Nominal 524 527	老祖宗
+T51	Person-Nominal 530 531	人
+T52	Person-Nominal 532 533	人
+T53	Location-Nominal 537 539	满山
+T54	Thing-Nominal 540 542	庄稼
+R9	Located Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 542 543	风
+T56	Time-Implicit 560 562	此时
+T57	Person-Pronoun 563 564	你
+T58	Thing-Nominal 566 572;573 575	这纯朴的山乡 美景
+T59	Location-Nominal 583 586	树荫下
+T60	Thing-Nominal 592 593	鸟
+T61	Thing-Nominal 590 591	歌
+T62	Thing-Nominal 597 598	云
+T63	Thing-Nominal 599 600	云
+T64	Thing-Nominal 603 605	天地
+T65	Person-Nominal 612 614	神仙
+T66	Time-Implicit 643 646	秋日里
+T67	Location-Nominal 649 656	这弯弯的山路上
+T68	Thing-Nominal 662 671	一派丰收在望的景象
+T69	Thing-Nominal 672 678	黄澄澄的糜谷
+T70	Thing-Nominal 679 685	金灿灿的玉米
+T71	Thing-Nominal 688 697	红彤彤的苹果、枣儿
+T72	Thing-Nominal 700 702	硕果
+T73	Location-Nominal 698 700	到处
+R10	Located Arg1:T72 Arg2:T73	
+T74	Person-Nominal 712 714	人们
+T75	Thing-Nominal 718 720	谷子
+T76	Thing-Nominal 727 729	嗓子
+T77	Location-Nominal 733 736	崖畔上
+T78	Thing-Nominal 737 738	花
+R11	Located Arg1:T78 Arg2:T77	
+T79	Location-Nominal 738 741	崖畔上
+T80	Person-Nominal 743 746	受苦人
+T81	Thing-Nominal 749 752	好光景
+T82	Thing-Nominal 753 762	东山的糜子西山的谷
+T83	Location-Nominal 763 764;765 767	黄 土里
+T84	Location-Nominal 769 772	黄土里
+T85	Time-Implicit 776 780	此时此刻
+T86	Person-Pronoun 781 782	你
+T87	Person-Pronoun 796 797	谁
+T88	Person-Pronoun 800 801	谁
+T89	Location-Nominal 804 806	脚下
+T90	Time-Implicit 818 821	冬日里
+T91	Location-Nominal 824 831	这弯弯的山路上
+T92	Thing-Nominal 838 839	水
+T93	Thing-Nominal 840 841	冰
+T94	Thing-Nominal 842 844	大地
+T95	Location-Nominal 849 851	四周
+T96	Thing-Nominal 858 859	鸡
+T97	Thing-Nominal 860 861	狗
+T98	Thing-Nominal 880 882	山野
+T99	Person-Pronoun 887 888	你
+T100	Location-Nominal 888 890	脚底
+T101	Thing-Nominal 891 892	风
+T102	Thing-Nominal 893 895	步履
+T103	Person-Pronoun 899 900	你
+T104	Location-Nominal 914 916	身上
+T105	Thing-Nominal 934 935	雪
+T106	Location-Nominal 944 946	空中
+T107	Thing-Nominal 949 951	雪花
+R12	Located Arg1:T107 Arg2:T106	
+T108	Thing-Nominal 952 954	大地
+T109	Thing-Nominal 959 961	天地
+T110	Time-Implicit 969 973	这个时候
+T111	Thing-Nominal 974 979	弯弯的山路
+T112	Person-Nominal 988 989	人
+T113	Person-Nominal 1004 1007	山里人
+T114	Person-Pronoun 1012 1014	他们
+*	Coreference T114 T113
+T115	Thing-Nominal 1018 1020	蛛网
+T116	Thing-Nominal 1025 1031	再大再厚的雪
+T117	Thing-Nominal 1043 1048	弯弯的山路
+T118	Thing-Nominal 1049 1051	山路
+T119	Person-Pronoun 1054 1055	我
+T120	Person-Pronoun 1061 1062	你
+T121	Person-Pronoun 1064 1065	你
+T122	Thing-Nominal 1036 1041	前进的脚步

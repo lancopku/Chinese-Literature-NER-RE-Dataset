@@ -1,0 +1,126 @@
+T1	Time-Implicit 0 4	仲秋的夜
+T2	Location-Nominal 17 19	田野
+T3	Thing-Nominal 24 33	几声秋虫瑟瑟的嘶鸣
+R1	Located Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 34 39	如水的月光
+T5	Location-Nominal 42 43	地
+R2	Located Arg1:T4 Arg2:T5	
+T6	Time-Implicit 44 50	想此时的月夜
+*	Coreference T6 T1
+T7	Location-Nominal 64 70	这仲秋的田野
+*	Coreference T7 T2
+T8	Location-Nominal 71 76	仲秋的村寨
+T9	Location-Name 98 101	饮马河
+T10	Location-Nominal 107 109	两岸
+R3	Near Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 110 115	成熟的五谷
+R4	Located Arg1:T11 Arg2:T10	
+T12	Thing-Nominal 129 141	河里渐渐升腾起的淡淡水汽
+R5	Located Arg1:T12 Arg2:T9	
+T13	Thing-Nominal 145 152	点点滴滴的露珠
+R6	Located Arg1:T13 Arg2:T11	
+T14	Thing-Nominal 154 155;156 161	徐 徐潮湿的风
+T15	Thing-Nominal 166 173	一股股脉脉幽香
+T16	Thing-Nominal 174 182	这丝丝缕缕的幽香
+*	Coreference T16 T15
+R7	Located Arg1:T15 Arg2:T14	
+T17	Thing-Nominal 205 212	一坛坛陈年老酿
+T18	Thing-Nominal 213 215	酒香
+T19	Metric 221 223	千里
+T20	Thing-Nominal 228 230	新酒
+T21	Person-Nominal 232 233	人
+T22	Thing-Nominal 243 245	山峦
+T23	Thing-Nominal 248 250	河流
+T24	Person-Nominal 253 262	饮马河畔的父老乡亲
+T25	Person-Nominal 266 274	我这个漂泊的游子
+T26	Location-Nominal 253 257	饮马河畔
+*	Coreference T26 T10
+T27	Person-Nominal 285 289	饮马婆婆
+T28	Thing-Nominal 285 294	饮马婆婆的飘飘长带
+R8	Ownership Arg1:T27 Arg2:T28	
+T29	Thing-Nominal 298 302	白山黑水
+T30	Location-Nominal 298 304	白山黑水之间
+T31	Location-Nominal 308 312	松辽之巅
+T32	Thing-Nominal 347 349	画卷
+T33	Thing-Nominal 353 359	柳条边的柳芽
+T34	Location-Nominal 353 356	柳条边
+R9	Located Arg1:T33 Arg2:T34	
+T35	Location-Nominal 372 377	这片土地上
+T36	Person-Nominal 380 390	赤裸着上身的关东汉子
+T37	Thing-Nominal 392 398	那厚重的肩膀
+R10	Part-Whole Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 400 402	犁头
+R11	Use Arg1:T36 Arg2:T38	
+T39	Thing-Nominal 408 412;413 415	千载的荒 草地
+T40	Thing-Nominal 418 430	带着草芽、树根的黝黑土地
+R12	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 420 421	草
+T42	Thing-Nominal 423 425	树根
+R13	Located Arg1:T41 Arg2:T40	
+R14	Located Arg1:T42 Arg2:T40	
+T43	Person-Pronoun 435 437	他们
+*	Coreference T43 T36
+T44	Thing-Nominal 443 453	一行行歪歪扭扭的脚印
+T45	Location-Nominal 435 439	他们身后
+R15	Located Arg1:T44 Arg2:T45	
+R16	Create Arg1:T43 Arg2:T44	
+T46	Person-Nominal 462 465	关东人
+R17	General-Special Arg1:T46 Arg2:T43	
+T47	Time-Implicit 479 486	艰难苦恨的岁月
+T48	Thing-Nominal 497 499	空气
+T49	Thing-Nominal 504 511	带着血腥的硝烟
+R18	Located Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 513 521	苦涩与辛酸的泪水
+T51	Thing-Nominal 544 549	祖辈的脊梁
+T52	Person-Nominal 544 546	祖辈
+R19	Part-Whole Arg1:T51 Arg2:T52	
+T53	Thing-Nominal 553 557	风霜雨雪
+T54	Thing-Nominal 568 571	血与泪
+T55	Thing-Nominal 553 560	风霜雨雪的阴霾
+T56	Location-Nominal 600 613;614 615	这片多灾多难的广袤的黑土地 上
+T57	Time-Implicit 621 626	明媚的春天
+T58	Time-Implicit 628 632	春夏秋冬
+T59	Person-Nominal 667 672	我的父辈们
+T60	Person-Pronoun 696 698	我们
+T61	Person-Name 722 724	杜甫
+T62	Thing-Nominal 727 729	广厦
+T63	Metric 729 731	万间
+T64	Person-Nominal 739 743	天下寒士
+T65	Thing-Nominal 750 760	那株最大最美的圣诞树
+T66	Person-Nominal 762 768	卖火柴小女孩
+T67	Thing-Nominal 773 781	几千只闪烁的蜡烛
+T68	Metric 773 776	几千只
+R20	Use Arg1:T66 Arg2:T67	
+T69	Thing-Nominal 787 792	漂亮的糖纸
+T70	Location-Nominal 783 785	周围
+R21	Located Arg1:T69 Arg2:T70	
+T71	Thing-Nominal 802 807	温暖的炉火
+T72	Location-Nominal 802 808	温暖的炉火旁
+T73	Thing-Nominal 809 816	那只飘香的烤鹅
+T74	Location-Nominal 819 822	盘子里
+R22	Near Arg1:T73 Arg2:T72	
+R23	Near Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 831 835	一铺暖炕
+T76	Person-Nominal 838 843	凡卡的爷爷
+T77	Person-Nominal 852 854	爷爷
+*	Coreference T77 T76
+T78	Person-Name 838 840	凡卡
+T79	Person-Pronoun 845 847	自己
+*	Coreference T79 T78
+T80	Thing-Nominal 865 874	饮马婆婆的款款衣袂
+T81	Location-Nominal 878 882	楼宇之间
+T82	Location-Nominal 886 890	街道两畔
+T83	Person-Nominal 865 869	饮马婆婆
+R24	Ownership Arg1:T83 Arg2:T80	
+T84	Person-Name 895 898	宋祖英
+T85	Thing-Nominal 908 910	屋子
+T86	Thing-Nominal 913 915	电话
+T87	Thing-Nominal 945 946	天
+T88	Thing-Nominal 950 951	水
+T89	Thing-Nominal 955 957	道路
+T90	Thing-Nominal 974 979	五彩的霓虹
+T91	Thing-Nominal 1013 1014	花
+T92	Thing-Nominal 1023 1025	画卷
+T93	Thing-Nominal 1044 1046	声音
+T94	Thing-Nominal 1054 1055	水
+T95	Thing-Nominal 1058 1059	源

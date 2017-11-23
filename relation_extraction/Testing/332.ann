@@ -1,0 +1,97 @@
+T1	Time-Implicit 0 2	清晨
+T2	Person-Pronoun 2 3	我
+T3	Thing-Nominal 6 11	灿烂的阳光
+R1	Use Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 15 19	上海大众
+T5	Location-Name 21 26	市老年大学
+T6	Thing-Nominal 37 39	闸门
+T7	Person-Pronoun 47 48	我
+T8	Time-Explicit 51 58	上世纪五十年代
+T9	Location-Nominal 51 63	上世纪五十年代偏僻的矿山
+T10	Time-Implicit 66 73	刚上小学的时候
+T11	Organization-Nominal 68 70	小学
+T12	Person-Nominal 74 76	父亲
+T13	Person-Pronoun 81 82	我
+R2	Family Arg1:T13 Arg2:T12	
+T14	Location-Nominal 83 85	县城
+T15	Thing-Nominal 89 94	一辆辆汽车
+T16	Location-Nominal 95 97	身旁
+T17	Person-Nominal 110 112	爸爸
+T18	Person-Nominal 114 117	城里人
+T19	Time-Implicit 120 122	天天
+T20	Thing-Nominal 126 128	汽车
+T21	Person-Pronoun 130 131	我
+T22	Person-Nominal 139 141	父亲
+T23	Thing-Nominal 149 152	我的头
+R3	Part-Whole Arg1:T23 Arg2:T21	
+T24	Person-Nominal 163 166	城里人
+T25	Location-Nominal 179 181	大学
+T26	Person-Nominal 184 186	父亲
+T27	Time-Implicit 187 191	那天晚上
+T28	Person-Pronoun 191 192	我
+T29	Person-Nominal 203 206	城里人
+T30	Time-Implicit 209 211	天天
+T31	Thing-Nominal 215 217	汽车
+T32	Time-Implicit 219 222	小时候
+T33	Person-Pronoun 222 223	我
+T34	Person-Nominal 234 237	城里人
+T35	Thing-Nominal 242 244	汽车
+T36	Person-Nominal 250 257	开车的司机叔叔
+T37	Person-Pronoun 291 292	我
+T38	Abstract 303 310	“文化大革命”
+T39	Location-Nominal 315 317	全国
+T40	Person-Nominal 326 328	学生
+T41	Organization-Nominal 347 349	大学
+T42	Abstract 353 355	高考
+T43	Person-Pronoun 381 382	我
+T44	Thing-Nominal 384 392	早已发霉的教科书
+T45	Location-Nominal 412 416	高等学校
+T46	Time-Implicit 420 424	毕业之后
+T47	Location-Name 427 429	广东
+T48	Person-Pronoun 431 432	我
+T49	Location-Name 436 439	韶关市
+T50	Person-Pronoun 460 461	我
+T51	Person-Nominal 464 467	城里人
+T52	Time-Implicit 470 472	幼年
+T53	Time-Implicit 482 484	后来
+T54	Person-Nominal 484 492	父母亲及全家老小
+R4	Family Arg1:T54 Arg2:T50	
+T55	Location-Nominal 495 497	城市
+T56	Time-Implicit 498 500	近年
+T57	Thing-Nominal 502 503	房
+T58	Thing-Nominal 504 505	车
+T59	Location-Name 531 536	市老年大学
+T60	Person-Pronoun 543 544	我
+T61	Time-Implicit 548 550	如今
+T62	Thing-Nominal 550 552	小车
+R5	General-Special Arg1:T31 Arg2:T62	
+T63	Location-Nominal 561 563	城市
+T64	Person-Nominal 555 559	寻常百姓
+T65	Person-Pronoun 576 577	我
+T66	Location-Nominal 578 580	城市
+T67	Location-Nominal 584 585	城
+T68	Thing-Nominal 589 590	树
+T69	Thing-Nominal 586 587	树
+T70	Thing-Nominal 595 597	绿荫
+T71	Thing-Nominal 605 609	浓枝茂叶
+T72	Thing-Nominal 612 619	五颜六色的果实
+T73	Thing-Nominal 623 628	盛开的花朵
+T74	Location-Nominal 620 622	街边
+R6	Located Arg1:T73 Arg2:T74	
+R7	Located Arg1:T72 Arg2:T71	
+T75	Location-Nominal 629 633	门前房后
+T76	Thing-Nominal 634 636	雀鸟
+R8	Located Arg1:T76 Arg2:T75	
+T77	Person-Nominal 643 645	人们
+T78	Thing-Nominal 646 648	花草
+T79	Thing-Nominal 652 654	汽车
+T80	Location-Nominal 661 663	城市
+T81	Location-Nominal 675 677	乡下
+T82	Person-Pronoun 687 688	我
+T83	Location-Nominal 691 693	乡下
+T84	Location-Nominal 694 696	城市
+T85	Location-Nominal 707 709	城市
+T86	Person-Nominal 720 724	城乡人们
+T87	Thing-Nominal 728 733	放心的食品
+R9	Use Arg1:T86 Arg2:T87	
+T88	Abstract 710 719	公共资源和医疗服务

@@ -1,0 +1,76 @@
+T1	Location-Name 1 4	达坂城
+T2	Person-Pronoun 4 5	我
+T3	Person-Name 16 19	王洛宾
+T4	Location-Name 31 35	乌鲁木齐
+T5	Location-Name 36 40	土―乌―
+T6	Thing-Nominal 36 43	土―乌―大高速
+T7	Metric 46 50	80公里
+T8	Person-Pronoun 53 55	我们
+T9	Location-Name 58 61	达坂城
+T10	Location-Nominal 72 74	重镇
+*	Coreference T9 T10
+R1	Near Arg1:T6 Arg2:T9	
+T11	Location-Nominal 81 82	镇
+T12	Thing-Nominal 96 101	风力发电机
+T13	Thing-Name 121 125	博格达峰
+T14	Location-Nominal 139 141	旷野
+T15	Thing-Nominal 154 156	风车
+T16	Location-Nominal 172 174	山野
+T17	Location-Nominal 182 191	我国最大的风能基地
+T18	Location-Name 193 197;198 204	新疆达坂 城风力发电厂
+T19	Person-Pronoun 238 239	你
+T20	Thing-Pronoun 242 243	它
+T21	Location-Name 289 292	老风口
+T22	Location-Nominal 297 301	百里风区
+*	Coreference T21 T22
+T23	Location-Name 304 310	北疆阿拉山口
+T24	Location-Name 311 316	托里老风口
+T25	Location-Nominal 320 326	新疆三大风口
+R2	Part-Whole Arg1:T24 Arg2:T25	
+R3	Part-Whole Arg1:T23 Arg2:T25	
+R4	Part-Whole Arg1:T21 Arg2:T25	
+T26	Metric 332 334	8级
+T27	Metric 343 348	64米/秒
+T28	Metric 351 354	12级
+T29	Location-Name 369 375	达坂城老风口
+T30	Thing-Nominal 389 390	树
+T31	Thing-Nominal 394 396	石头
+T32	Person-Name 398 404	唐朝诗人岑参
+T33	Location-Name 405 408	达坂城
+T34	Location-Nominal 468 471	“轮台
+T35	Location-Pronoun 474 476	此处
+T36	Location-Name 479 482	达坂城
+*	Coreference T34 T36 T35
+T37	Person-Nominal 490 492	人们
+T38	Thing-Nominal 506 508	风车
+T39	Location-Nominal 516 518	森林
+T40	Location-Name 551 554	达坂城
+T41	Person-Pronoun 577 578	我
+T42	Person-Nominal 591 596	达坂城姑娘
+T43	Person-Name 623 629	盛唐诗人岑参
+T44	Location-Nominal 647 649	西域
+T45	Location-Name 695 698	达坂城
+T46	Location-Nominal 699 702	盐湖，
+R5	Part-Whole Arg1:T46 Arg2:T45	
+T47	Location-Nominal 714 716	山脚
+R6	Near Arg1:T46 Arg2:T47	
+T48	Location-Nominal 747 749	盐湖
+T49	Location-Name 752 755	地中海
+T50	Location-Pronoun 775 776	它
+*	Coreference T50 T48
+T51	Thing-Nominal 798 799	车
+T52	Location-Nominal 803 808	钢厂的门前
+R7	Located Arg1:T51 Arg2:T52	
+T53	Person-Nominal 809 811	导游
+T54	Person-Nominal 813 815	大家
+R8	Social Arg1:T53 Arg2:T54	
+T55	Person-Pronoun 820 821	我
+T56	Location-Name 842 845	达坂镇
+T57	Location-Nominal 857 858;859 860	房 屋
+T58	Location-Nominal 861 864	树顶上
+T59	Thing-Nominal 888 891	新铁路
+T60	Location-Nominal 893 895	小镇
+*	Coreference T60 T56
+T61	Thing-Nominal 896 898	火车
+R9	Located Arg1:T61 Arg2:T59	
+R10	Located Arg1:T59 Arg2:T60	

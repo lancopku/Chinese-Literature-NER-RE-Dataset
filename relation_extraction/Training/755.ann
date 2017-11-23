@@ -1,0 +1,103 @@
+T1	Person-Pronoun 2 3	我
+T2	Thing-Nominal 33 35	电视
+T3	Abstract 5 7	昆曲
+T4	Abstract 50 52	昆剧
+T5	Person-Pronoun 73 74	我
+T6	Time-Implicit 78 81	几年前
+T8	Abstract 106 108	昆曲
+T7	Person-Nominal 126 127	人
+T9	Person-Nominal 135 137	人物
+T10	Person-Pronoun 168 169	我
+T11	Abstract 172 174	昆曲
+T12	Person-Pronoun 176 177	我
+T13	Person-Nominal 186 189	听戏人
+R1	General-Special Arg1:T13 Arg2:T12	
+T14	Abstract 199 200	它
+*	Coreference T14 T11
+T15	Person-Pronoun 229 230	我
+T16	Abstract 231 233	昆曲
+T17	Person-Name 237 251	对国学研究颇有造诣的于丹女士
+T18	Abstract 262 264	昆曲
+T19	Person-Pronoun 265 266	她
+*	Coreference T19 T17 T22 T25
+T20	Abstract 267 269	昆曲
+T21	Person-Nominal 302 316	我们这些过去没接触过昆曲的人
+T22	Person-Pronoun 326 327	她
+T23	Person-Pronoun 376 377	我
+T24	Abstract 349 351	京剧
+T25	Person-Name 389 393	于丹女士
+T26	Abstract 403 405	昆曲
+T27	Abstract 419 421	昆曲
+T28	Person-Nominal 430 433	北方人
+T29	Abstract 434 436	昆剧
+T30	Person-Pronoun 465 466	你
+T31	Abstract 467 469	昆曲
+T32	Person-Pronoun 473 474	你
+T33	Abstract 491 493	昆曲
+T34	Person-Pronoun 512 513	你
+T35	Thing-Nominal 517 519	春柳
+T36	Thing-Nominal 517 522	春柳的碧丝
+T37	Thing-Nominal 525 527	夏荷
+T38	Thing-Nominal 525 530	夏荷的露珠
+T39	Thing-Nominal 533 535	秋枫
+T40	Thing-Nominal 541 543	冬松
+T41	Thing-Nominal 541 546	冬松的枝头
+T42	Thing-Nominal 547 548	雪
+T43	Thing-Nominal 557 558	眼
+T44	Abstract 576 578	昆曲
+T45	Abstract 592 594	昆曲
+T46	Abstract 624 625	她
+*	Coreference T46 T45
+T47	Location-Nominal 628 630	高山
+T48	Location-Nominal 634 636	大川
+T49	Location-Nominal 643 648	苏州的园林
+T50	Person-Nominal 674 679	昆曲艺术家
+T51	Person-Pronoun 689 690	我
+T52	Abstract 692 694	昆曲
+T53	Abstract 700 701	她
+*	Coreference T53 T52
+T54	Location-Nominal 706 711	葱翠的山涧
+T55	Thing-Nominal 712 719	自然流淌的小溪
+T56	Thing-Nominal 722 724	巨石
+T57	Thing-Nominal 726 728	鲜花
+T58	Thing-Nominal 728 730	绿草
+T59	Location-Nominal 726 735	鲜花绿草相伴的河谷
+T60	Person-Nominal 741 742	人
+T61	Thing-Nominal 766 767	溪
+T62	Thing-Nominal 768 770	涧石
+T63	Thing-Nominal 770 771	水
+T64	Person-Pronoun 778 779	我
+T65	Abstract 781 783	昆曲
+T66	Person-Nominal 797 798	人
+T67	Abstract 808 809	她
+*	Coreference T67 T65
+T68	Person-Nominal 810 811	人
+T69	Thing-Nominal 815 816	耳
+R2	Part-Whole Arg1:T69 Arg2:T68	
+T70	Time-Implicit 841 844	那一刻
+T71	Person-Pronoun 846 847	你
+T72	Person-Pronoun 857 858	你
+T73	Person-Pronoun 892 893	我
+T74	Abstract 896 898	昆曲
+T75	Abstract 913 914	她
+*	Coreference T75 T74
+T76	Person-Pronoun 973 975	我们
+T77	Person-Nominal 995 997	古人
+T78	Person-Nominal 997 999	今人
+T79	Person-Pronoun 1066 1067	你
+T80	Person-Pronoun 1083 1084	你
+T81	Person-Pronoun 1095 1096	你
+T82	Person-Pronoun 1124 1125	我
+T83	Person-Nominal 1151 1157	不懂昆曲的人
+T84	Abstract 1159 1161	昆曲
+T85	Thing-Nominal 1182 1184	玉石
+T86	Metric 1180 1182	一块
+T87	Person-Nominal 1185 1189	工艺大师
+T88	Thing-Nominal 1192 1194	玉器
+T89	Thing-Nominal 1197 1199	玉器
+T90	Person-Nominal 1227 1234	观赏与消费大众
+T91	Person-Nominal 1253 1258	专业工作者
+T92	Person-Nominal 1259 1262	艺术家
+T93	Person-Nominal 1282 1298;1299 1306	说不清艺术内涵，却喜欢享受艺术外 在美的广大民众
+T94	Person-Pronoun 1340 1341	我
+T95	Person-Nominal 1349 1351	外行

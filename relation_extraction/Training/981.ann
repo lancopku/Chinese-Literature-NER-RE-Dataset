@@ -1,0 +1,200 @@
+T1	Time-Implicit 18 22	远古时期
+T2	Person-Name 26 29	唐太宗
+T3	Location-Name 35 38	武落山
+T4	Time-Explicit 48 50	当今
+T5	Location-Name 51 59	清江南岸的武落山
+T6	Location-Name 61 76	湖北鄂西武陵山经济开发试验区域
+T7	Location-Name 77 79	宜昌
+T8	Location-Nominal 88 97	国家五A级旅游景区
+T9	Location-Nominal 77 87	宜昌特大城市的后花园
+T10	Abstract 100 107	党的“十八大”
+T12	Location-Nominal 157 161	宜万铁路
+T13	Location-Name 182 185	武落山
+T14	Time-Implicit 191 193	清晨
+T15	Person-Nominal 194 196	笔者
+T16	Thing-Nominal 201 203	青柯
+T17	Thing-Nominal 206 208	青石
+T18	Location-Nominal 210 218	绿茵茵的青苔古道
+T19	Location-Name 221 225	武落山巅
+T20	Metric 229 231	十米
+T21	Location-Nominal 229 237	十米见方的石柱上
+T22	Location-Name 240 248	坐西向东的向王庙
+T23	Location-Nominal 249 251;252 257	古老 神奇的庙里
+T24	Person-Name 261 265	向王天子
+T25	Person-Name 266 272	“德济娘娘”
+T26	Person-Name 276 278	向王
+T27	Location-Name 280 282	清江
+T28	Person-Name 288 292	盐水女神
+T29	Person-Nominal 295 297	后世
+T30	Person-Nominal 299 301	神女
+T31	Person-Nominal 304 309	向王的妻子
+T32	Person-Name 309 312;313 316	“德济 娘娘”
+*	Coreference T32 T31
+R3	Family Arg1:T24 Arg2:T25	
+T33	Person-Name 317 319	向王
+T34	Person-Name 329 331	向王
+T35	Organization-Name 333 336	土家族
+T36	Person-Nominal 337 339	祖先
+T37	Person-Name 339 341	廪君
+*	Coreference T37 T36
+T38	Person-Name 343 345	大禹
+T39	Person-Name 349 351	大禹
+T40	Location-Name 355 357	黄河
+T41	Thing-Nominal 358 360	积石
+T42	Location-Name 363 365	长江
+T43	Thing-Nominal 366 368	眠山
+T44	Location-Name 371 373	钱塘
+T45	Location-Name 398 400	三峡
+T46	Thing-Nominal 398 404	三峡旁的清江
+R4	Located Arg1:T46 Arg2:T45	
+T47	Person-Name 409 411	向王
+T48	Location-Name 418 421	武落山
+T49	Metric 470 473	八百里
+T50	Location-Nominal 465 475	清澈见底的八百里清江
+T51	Location-Name 477 483	宜都市陆城镇
+T52	Location-Name 485 490	浑黄的长江
+T53	Person-Name 491 493	廪君
+T54	Person-Nominal 494 496	人民
+T55	Person-Nominal 509 511	人民
+T56	Person-Nominal 518 519	神
+*	Coreference T56 T53
+T57	Person-Nominal 520 522	人们
+T58	Location-Name 523 527	清江流域
+T59	Metric 530 533	44座
+T60	Thing-Nominal 533 536	向王庙
+T61	Person-Name 539 545	向王(廪君)
+T62	Location-Name 553 561	巍然耸立的武落山
+T63	Person-Name 577 579	廪君
+T64	Location-Name 591 594	魁头岩
+T65	Location-Name 628 631	盐女岩
+T66	Location-Name 644 647	石神台
+T67	Location-Name 663 666	庙凸岩
+T68	Thing-Nominal 682 685	向王庙
+T69	Person-Name 688 690	廪君
+T70	Person-Name 691 695	盐水女神
+T72	Thing-Nominal 712 714	五峰
+T73	Thing-Name 717 720	武落山
+R5	Part-Whole Arg1:T72 Arg2:T73	
+T74	Thing-Nominal 769 773	异地兰花
+T76	Location-Name 825 828	武落山
+T77	Location-Name 839 843	武落山上
+T78	Metric 844 847	数十个
+T79	Thing-Nominal 847 849	洞穴
+T80	Metric 855 857	两个
+T81	Location-Nominal 857 859	洞穴
+T83	Location-Nominal 862 865	洞穴里
+T84	Thing-Nominal 865 867	石头
+T86	Location-Nominal 874 877	洞穴里
+T87	Thing-Nominal 878 880	石头
+T88	Person-Nominal 884 886	人们
+T89	Location-Name 890 892	赤穴
+T90	Location-Name 893 895	黑穴
+*	Coreference T90 T86
+*	Coreference T89 T83
+T91	Time-Implicit 899 902	古时候
+T92	Location-Name 902 905	赤穴里
+T93	Organization-Name 907 911	巴姓部落
+T94	Person-Nominal 912 914	首领
+T95	Person-Name 915 918	巴务相
+*	Coreference T95 T94 T96
+T96	Person-Name 921 923	廪君
+T97	Location-Name 924 927	黑穴里
+T98	Organization-Name 929 938;939 940	樊、相、郑等四姓部 落
+T99	Location-Name 941 945	武落山上
+T100	Location-Name 946 950	赤黑二穴
+T101	Organization-Name 953 956	土家族
+T102	Time-Implicit 961 966	四千多年前
+T103	Person-Name 967 969	廪君
+T104	Organization-Nominal 971 973	四姓
+T105	Person-Name 990 992	廪君
+T106	Organization-Name 1003 1009	五姓联盟部落
+T107	Location-Name 1022 1024	清江
+T108	Person-Nominal 1025 1027	巴人
+T109	Location-Name 1029 1034	洞庭湖平原
+T110	Location-Name 1039 1046	武钟山，巴丘山
+T111	Location-Name 1047 1054	夷都(宜)巴陵
+T112	Person-Name 1057 1060;1061 1062	盐水神 女
+T113	Organization-Name 1062 1066	巴人部族
+T114	Location-Name 1069 1074	黔东，渝东
+T115	Location-Name 1083 1097	美山，钟离山，女儿山，钟岭山
+T116	Location-Name 1098 1110	盐城，夷城，都亭(重庆)
+T117	Location-Name 1116 1123	赤黑二穴的洞口
+T118	Location-Nominal 1142 1144	洞穴
+T120	Abstract 1218 1224	“海市蜃楼”
+T121	Location-Name 1232 1245	历史悠久，文化灿烂的武落山
+T122	Thing-Nominal 1176 1180	蓝天白云
+T123	Time-Explicit 1246 1247	汉
+T124	Location-Nominal 1249 1250	山
+T125	Time-Explicit 1251 1254	南北朝
+T126	Location-Name 1255 1258	难留山
+*	Coreference T124 T121 T126 T128
+T127	Time-Explicit 1261 1263	唐初
+T128	Location-Name 1273 1276	长阳县
+T129	Location-Name 1264 1266	山县
+T130	Person-Name 1282 1285	唐太宗
+T131	Person-Name 1289 1292;1293 1296	李靖、 李孝恭
+T132	Location-Name 1297 1299	江陵
+T133	Location-Name 1301 1303	荆门
+T134	Location-Name 1304 1308	宜都二镇
+T135	Location-Name 1311 1316	清江武落山
+T136	Time-Implicit 1318 1320	隋朝
+T137	Person-Nominal 1320 1322	铣将
+T138	Person-Name 1322 1325	林士弘
+*	Coreference T138 T137
+T139	Location-Name 1326 1328	江南
+T140	Person-Name 1331 1333	李唐
+T141	Time-Implicit 1338 1340	唐末
+T142	Metric 1340 1344	五代十国
+T143	Person-Nominal 1349 1351	人民
+T144	Metric 1364 1366	五个
+T145	Organization-Name 1374 1381	中华人民共和国
+T146	Location-Name 1401 1406	武落山地带
+T147	Metric 1407 1413	20万年左右
+T148	Person-Nominal 1415 1420	“长阳人”
+T149	Organization-Name 1435 1446	古代巴人先世巫蜒王部落
+T150	Location-Nominal 1435 1451	古代巴人先世巫蜒王部落活动的区域
+T151	Metric 1454 1457	万余件
+T152	Time-Implicit 1462 1471	距今已有19万多年
+T153	Organization-Name 1472 1478	古代巴人部落
+T154	Location-Name 1484 1521	州衙坪，固仓坪，千渔坪，西寺坪，鲢鱼山，龙洞，驰滩岩屋，古尸悬棺的深潭湾筹
+T155	Location-Nominal 1472 1483	古代巴人部落留下的遗址
+R6	Part-Whole Arg1:T154 Arg2:T155	
+T156	Person-Nominal 0 4	向王天子
+T157	Thing-Nominal 10 15	一条清江河
+T11	Thing-Nominal 120 121;122 131;132 141	金 光道，奔向小康春。 川汉、宜湘高速公路
+T158	Thing-Nominal 142 144	车流
+T159	Thing-Nominal 147 149	人流
+T160	Thing-Nominal 164 166	火车
+T161	Location-Nominal 174 176	山谷
+T162	Thing-Nominal 413 415	号角
+R1	Use Arg1:T47 Arg2:T162	
+T163	Thing-Nominal 434 435	水
+T164	Thing-Nominal 429 430	山
+T165	Thing-Nominal 431 432	石
+R2	Located Arg1:T60 Arg2:T58	
+T166	Thing-Nominal 572 575	这五峰
+T167	Location-Nominal 678 680	岩顶
+R7	Located Arg1:T68 Arg2:T167	
+T71	Thing-Nominal 698 711	一幅巧夺天工的泼墨山水画卷
+T168	Thing-Nominal 731 733	百鸟
+T169	Thing-Nominal 737 741	岛屿湖畔
+T170	Location-Nominal 742 747	悬崖峭壁中
+T171	Thing-Nominal 750 752	兰花
+R8	Located Arg1:T171 Arg2:T170	
+T172	Thing-Nominal 753 754	叶
+R9	Part-Whole Arg1:T172 Arg2:T171	
+T173	Thing-Nominal 779 783	异地兰花
+T174	Thing-Nominal 795 796;797 800	这 里兰花
+R10	Located Arg1:T79 Arg2:T77	
+T75	Thing-Nominal 829 831	壑穴
+T82	Thing-Nominal 1181 1183	峦山
+T85	Thing-Nominal 1191 1193	江水
+T175	Thing-Nominal 1186 1188	倒影
+T176	Location-Nominal 1188 1190	清江
+R11	Located Arg1:T175 Arg2:T176	
+T177	Location-Name 1197 1200	武落山
+T178	Thing-Nominal 1206 1210	苍松翠柏
+R12	Located Arg1:T178 Arg2:T177	
+T119	Thing-Nominal 1216 1224	一座“海市蜃楼”
+T179	Thing-Nominal 1451 1459	出土的万余件文物
+R13	Located Arg1:T179 Arg2:T150	

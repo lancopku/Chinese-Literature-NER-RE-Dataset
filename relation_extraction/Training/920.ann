@@ -1,0 +1,363 @@
+T1	Time-Implicit 0 2	秋季
+T2	Thing-Nominal 15 17	月亮
+T3	Location-Nominal 29 31	天空
+R1	Located Arg1:T2 Arg2:T3	
+T4	Person-Pronoun 33 34	我
+T5	Thing-Nominal 37 39	夕阳
+T6	Thing-Nominal 50 52	书包
+T7	Location-Nominal 57 59	家里
+T8	Person-Nominal 62 64	母亲
+R2	Family Arg1:T4 Arg2:T8	
+T9	Thing-Nominal 66 68	轮椅
+T10	Location-Nominal 66 69	轮椅上
+T11	Person-Pronoun 73 74	我
+T12	Location-Nominal 80 83	路边的
+T13	Thing-Nominal 80 88	路边的苍绿的树叶
+T14	Thing-Nominal 89 94	美丽的花朵
+R3	Located Arg1:T13 Arg2:T12	
+R4	Located Arg1:T14 Arg2:T12	
+T15	Person-Pronoun 102 103	我
+T16	Person-Pronoun 110 111	我
+T17	Person-Pronoun 118 119	我
+T18	Person-Nominal 128 130	母亲
+T19	Person-Pronoun 133 134	我
+T20	Person-Pronoun 141 142	我
+T21	Person-Pronoun 146 147	我
+T22	Person-Nominal 155 157	母亲
+T23	Person-Pronoun 169 170	我
+T24	Person-Nominal 180 187	最最依恋的同学
+T25	Person-Nominal 188 191	好朋友
+T26	Person-Pronoun 218 219	我
+T27	Person-Nominal 225 227	母亲
+T28	Person-Nominal 230 232	母亲
+T29	Person-Pronoun 234 235	我
+T30	Person-Pronoun 244 245	我
+T31	Person-Nominal 250 252	母亲
+T32	Person-Nominal 260 262	母亲
+T33	Person-Pronoun 271 272	我
+T34	Person-Nominal 276 278	母亲
+T35	Thing-Nominal 284 286	校车
+T36	Person-Nominal 292 294	老师
+T37	Person-Pronoun 297 298	我
+T39	Thing-Nominal 311 315	一双翅膀
+T40	Person-Nominal 318 320	母亲
+T41	Person-Nominal 339 341	母亲
+T42	Time-Explicit 344 346	今天
+T43	Location-Nominal 360 363	电视中
+T44	Person-Nominal 360 368	电视中的魔术大师
+T46	Thing-Nominal 373 377	一只鸽子
+T47	Thing-Pronoun 379 380	它
+*	Coreference T47 T46
+T49	Person-Nominal 390 395	亲爱的妈妈
+T50	Person-Pronoun 396 397	您
+*	Coreference T50 T49
+T51	Person-Pronoun 401 402	我
+T52	Location-Nominal 405 407	学校
+T53	Person-Nominal 419 421	妈妈
+T54	Person-Pronoun 422 423	您
+*	Coreference T54 T53
+T55	Person-Pronoun 426 427	我
+T56	Time-Explicit 427 431	昨天晚上
+T57	Person-Pronoun 442 443	我
+T58	Time-Implicit 435 440	很多的夜晚
+T59	Time-Implicit 457 463	当夜幕来临时
+T60	Person-Pronoun 465 466	你
+T61	Person-Pronoun 468 469	我
+T62	Thing-Nominal 480 482	群星
+T63	Thing-Nominal 485 487	皓月
+T64	Person-Pronoun 491 492	我
+T65	Person-Pronoun 493 494	您
+T66	Location-Nominal 497 499	床上
+T67	Person-Pronoun 505 507	我们
+T68	Person-Pronoun 516 517	我
+T69	Person-Pronoun 520 521	我
+T70	Person-Pronoun 537 538	我
+T72	Person-Pronoun 551 552	我
+T73	Person-Nominal 553 555	母亲
+T74	Person-Pronoun 560 561	她
+*	Coreference T74 T73
+T75	Person-Nominal 562 566	猫咪妈妈
+T76	Person-Pronoun 567 568	我
+T77	Person-Nominal 569 573	猫咪宝宝
+T78	Person-Pronoun 588 589	我
+T79	Person-Pronoun 590 591	您
+T80	Person-Nominal 595 597	妈妈
+T81	Person-Pronoun 604 605	您
+*	Coreference T81 T80
+T82	Person-Pronoun 612 613	我
+T83	Person-Pronoun 614 615	我
+T84	Person-Nominal 614 618	我的妈妈
+T85	Person-Pronoun 619 620	我
+T86	Person-Pronoun 621 622	我
+T87	Person-Pronoun 627 628	我
+T88	Person-Pronoun 639 640	我
+T89	Person-Nominal 621 646	我含辛茹苦将我养大、时刻不离、陪伴在我的身边的妈妈
+T90	Person-Pronoun 647 648	我
+T91	Person-Pronoun 649 650	我
+T92	Person-Nominal 649 653	我的妈妈
+T93	Person-Pronoun 656 657	我
+T95	Person-Nominal 690 692	父母
+T96	Person-Pronoun 710 712	我们
+T97	Person-Nominal 713 715	父母
+T98	Person-Pronoun 740 741	我
+T99	Person-Pronoun 751 752	我
+T100	Person-Pronoun 755 756	我
+T101	Person-Pronoun 757 758	我
+T102	Person-Nominal 757 761	我的妈妈
+T104	Location-Nominal 767 770	天堂中
+T106	Person-Nominal 775 793	一位善良、慈爱，但却又不能劳作的妈妈
+T107	Person-Pronoun 794 795	她
+*	Coreference T107 T106
+T108	Person-Pronoun 798 799	我
+T109	Person-Pronoun 806 807	我
+T110	Person-Nominal 819 821	妈妈
+T111	Person-Pronoun 826 827	我
+T112	Person-Pronoun 840 841	我
+T113	Person-Pronoun 848 849	您
+T114	Person-Nominal 857 859	母亲
+T115	Person-Pronoun 880 881	您
+T116	Person-Nominal 882 889	天下最好的妈妈
+T117	Person-Pronoun 893 894	我
+T118	Person-Pronoun 898 899	您
+T119	Location-Nominal 901 903	天堂
+T120	Person-Pronoun 906 907	您
+T121	Person-Nominal 911 913	妈妈
+T122	Person-Pronoun 914 915	我
+T123	Person-Pronoun 917 918	您
+T124	Person-Pronoun 924 925	我
+T125	Person-Pronoun 926 927	我
+T126	Person-Nominal 926 930	我的母亲
+T127	Time-Implicit 933 936	小时候
+T128	Person-Nominal 945 947	母亲
+T129	Person-Pronoun 956 957	我
+T130	Thing-Nominal 964 965	炕
+T131	Person-Nominal 971 973	母亲
+T132	Person-Nominal 987 989	母亲
+T133	Person-Pronoun 994 995	我
+T134	Person-Pronoun 1002 1003	我
+T135	Time-Implicit 998 1002	从小到大
+T136	Person-Nominal 1013 1015	母亲
+T137	Thing-Nominal 1034 1036	电视
+T138	Person-Nominal 1053 1054;1055 1056	母 亲
+T139	Person-Pronoun 1062 1063	我
+T140	Person-Nominal 1071 1073	母亲
+T141	Location-Nominal 1071 1077	母亲的轮椅前
+T142	Person-Nominal 1080 1082	母亲
+T143	Person-Pronoun 1087 1088	我
+T144	Thing-Nominal 1087 1091	我的双手
+R5	Part-Whole Arg1:T144 Arg2:T143	
+T145	Person-Nominal 1093 1095	母亲
+T146	Thing-Nominal 1093 1114	母亲的因为终日呆在屋内而更显苍白和病态的脸
+R6	Part-Whole Arg1:T146 Arg2:T145	
+T147	Person-Nominal 1125 1127	母亲
+T148	Thing-Nominal 1118 1123	热热的泪珠
+R7	Located Arg1:T148 Arg2:T146	
+T149	Person-Pronoun 1135 1136	我
+T150	Thing-Nominal 1140 1142	电视
+T151	Person-Pronoun 1151 1152	您
+T152	Person-Pronoun 1160 1161	我
+T153	Person-Pronoun 1177 1178	我
+T154	Person-Nominal 1185 1187	妈妈
+T155	Thing-Nominal 1185 1190	妈妈的面颊
+R8	Part-Whole Arg1:T155 Arg2:T154	
+T156	Person-Nominal 1193 1195	母亲
+T157	Person-Pronoun 1208 1209	我
+T158	Person-Nominal 1224 1226	母亲
+T159	Person-Nominal 1253 1256	其他人
+T160	Person-Pronoun 1273 1274	我
+T161	Person-Pronoun 1275 1276	我
+T162	Person-Nominal 1275 1279	我的母亲
+T163	Location-Nominal 1288 1291	房间里
+T164	Person-Nominal 1284 1294	只能呆在房间里的妈妈
+T165	Person-Pronoun 1295 1296	我
+T166	Person-Pronoun 1306 1307	我
+T167	Thing-Nominal 1310 1316	我热热的眼睛
+T168	Person-Pronoun 1310 1311	我
+R9	Part-Whole Arg1:T167 Arg2:T168	
+T169	Person-Nominal 1318 1320	母亲
+T170	Person-Nominal 1328 1330	妈妈
+T171	Person-Pronoun 1332 1333	我
+T172	Person-Pronoun 1338 1339	您
+T173	Person-Nominal 1350 1352	母亲
+T174	Person-Pronoun 1356 1357	我
+T175	Person-Nominal 1359 1361	妈妈
+T176	Person-Pronoun 1377 1378	我
+T177	Person-Nominal 1379 1381	妈妈
+T178	Person-Pronoun 1386 1387	我
+T179	Thing-Nominal 1398 1399	钱
+T180	Organization-Nominal 1405 1407	大学
+T181	Person-Pronoun 1408 1409	我
+T182	Metric 1412 1415	十八岁
+T183	Person-Pronoun 1417 1418	我
+T184	Time-Implicit 1421 1423	白天
+T185	Time-Implicit 1426 1428	晚上
+T186	Person-Pronoun 1435 1436	我
+T187	Person-Pronoun 1439 1440	您
+T188	Location-Name 1441 1443	日本
+T189	Person-Pronoun 1454 1455	您
+T191	Thing-Pronoun 1457 1458	它
+T192	Person-Pronoun 1461 1462	您
+T193	Thing-Nominal 1467 1469	大海
+T194	Location-Nominal 1473 1476	海上的
+T195	Person-Pronoun 1484 1485	我
+T196	Person-Pronoun 1486 1487	我
+T197	Person-Nominal 1486 1490	我的母亲
+T198	Time-Implicit 1491 1493	每天
+T199	Person-Pronoun 1494 1495	我
+T200	Person-Nominal 1501 1503	母亲
+T201	Person-Nominal 1508 1510	母亲
+T202	Person-Nominal 1514 1516	母亲
+T203	Person-Nominal 1521 1523	母亲
+T204	Person-Nominal 1528 1530	母亲
+T205	Person-Nominal 1543 1545	母亲
+T206	Person-Pronoun 1560 1561	我
+T207	Person-Nominal 1569 1571	母亲
+T208	Person-Nominal 1577 1579	母亲
+T209	Person-Nominal 1589 1591	母亲
+T210	Thing-Nominal 1592 1594	心脏
+R10	Part-Whole Arg1:T210 Arg2:T209	
+T211	Person-Pronoun 1606 1607	我
+T212	Thing-Nominal 1624 1626	眼睛
+R11	Part-Whole Arg1:T212 Arg2:T211	
+T213	Person-Nominal 1629 1631	母亲
+T214	Thing-Nominal 1629 1633	母亲的脸
+R12	Part-Whole Arg1:T214 Arg2:T213	
+T215	Person-Nominal 1646 1648	母亲
+T216	Person-Nominal 1678 1680	妈妈
+T217	Person-Pronoun 1688 1689	你
+T218	Person-Nominal 1698 1700	母亲
+T219	Person-Pronoun 1706 1707	我
+T220	Person-Nominal 1719 1721	母亲
+T221	Person-Nominal 1725 1727	母亲
+T222	Person-Nominal 1740 1742	孩子
+T223	Person-Pronoun 1748 1749	我
+T224	Person-Pronoun 1750 1751	我
+T225	Person-Pronoun 1760 1761	我
+T226	Person-Pronoun 1764 1765	你
+T227	Person-Nominal 1768 1769	人
+T228	Person-Pronoun 1775 1776	我
+T229	Person-Pronoun 1787 1788	您
+T230	Person-Pronoun 1794 1795	我
+T231	Person-Pronoun 1797 1798	您
+T232	Person-Pronoun 1800 1801	我
+T233	Person-Nominal 1800 1804	我的妈妈
+T234	Person-Name 1822 1825	秦始皇
+T235	Person-Nominal 1831 1833	妈妈
+T236	Person-Pronoun 1836 1837	我
+T237	Thing-Nominal 1841 1843	眼睛
+R13	Part-Whole Arg1:T237 Arg2:T236	
+T238	Person-Nominal 1845 1847	母亲
+T239	Person-Pronoun 1861 1862	我
+T240	Person-Nominal 1861 1865	我的妈妈
+T241	Person-Pronoun 1876 1877	我
+T242	Person-Pronoun 1884 1885	您
+T243	Person-Pronoun 1891 1892	我
+T244	Person-Pronoun 1894 1895	我
+T245	Person-Nominal 1907 1909	母亲
+T246	Person-Pronoun 1927 1928	你
+T247	Person-Pronoun 1956 1957	我
+T248	Person-Nominal 1965 1967	妈妈
+T249	Thing-Nominal 1965 1970	妈妈的脖子
+R14	Part-Whole Arg1:T249 Arg2:T248	
+T250	Thing-Nominal 1975 1977	脸蛋
+T251	Person-Nominal 1979 1981	母亲
+T252	Thing-Nominal 1979 1984	母亲的脸上
+R15	Part-Whole Arg1:T252 Arg2:T251	
+T253	Person-Pronoun 1990 1991	我
+T254	Person-Pronoun 1992 1993	我
+T255	Person-Nominal 1992 1996	我的妈妈
+T256	Person-Nominal 1997 1999	妈妈
+T257	Person-Pronoun 2018 2019	我
+T258	Person-Nominal 2018 2022	我的母亲
+T259	Person-Pronoun 2023 2024	她
+T261	Thing-Nominal 2023 2032	她的一只残弱的左手
+R16	Part-Whole Arg1:T261 Arg2:T259	
+*	Coreference T259 T258
+T262	Person-Pronoun 2036 2037	我
+T263	Person-Pronoun 2049 2050	我
+T264	Thing-Nominal 2050 2061	裁制出合体、温暖的衣服
+T265	Person-Nominal 2062 2064	母亲
+T266	Person-Nominal 2092 2094	母亲
+T267	Person-Pronoun 2095 2096	您
+T268	Person-Pronoun 2097 2098	我
+T269	Location-Nominal 2102 2104	圣殿
+T270	Time-Implicit 2106 2111	许多的夜晚
+T271	Person-Pronoun 2112 2113	我
+T272	Person-Nominal 2117 2119	母亲
+T273	Thing-Nominal 2117 2122	母亲的脖子
+R17	Part-Whole Arg1:T273 Arg2:T272	
+T274	Person-Nominal 2126 2128	母亲
+T275	Person-Pronoun 2142 2143	我
+T277	Thing-Nominal 2145 2150	一只青虫子
+T278	Thing-Pronoun 2153 2154	它
+*	Coreference T278 T277
+T280	Thing-Nominal 2158 2162	一只蝴蝶
+T281	Person-Pronoun 2166 2167	您
+T282	Person-Pronoun 2170 2171	我
+T283	Person-Nominal 2170 2174	我的妈妈
+T284	Person-Nominal 2176 2182	腿不好的妈妈
+T285	Thing-Nominal 2176 2177	腿
+R18	Part-Whole Arg1:T285 Arg2:T284	
+T286	Person-Pronoun 2183 2184	您
+T288	Thing-Nominal 2186 2189	一朵花
+T289	Person-Pronoun 2201 2202	我
+T290	Person-Pronoun 2217 2218	您
+T291	Person-Pronoun 2219 2220	我
+T292	Person-Nominal 2219 2223	我的宝宝
+T293	Person-Pronoun 2224 2225	我
+T294	Person-Pronoun 2227 2228	您
+T295	Person-Pronoun 2237 2238	您
+T296	Person-Pronoun 2239 2240	我
+T297	Person-Pronoun 2247 2248	我
+T298	Person-Pronoun 2261 2262	您
+T299	Person-Pronoun 2270 2271	您
+T300	Person-Pronoun 2273 2274	我
+T301	Person-Nominal 2273 2277	我的宝贝
+T302	Person-Nominal 2283 2285	妈妈
+T303	Time-Implicit 2286 2288	今生
+T304	Person-Pronoun 2290 2291	您
+T305	Person-Pronoun 2292 2293	我
+T306	Person-Nominal 2292 2296	我的妈妈
+T307	Person-Pronoun 2297 2298	我
+T308	Person-Pronoun 2300 2301	您
+T309	Person-Pronoun 2306 2307	我
+T310	Person-Nominal 2310 2312	女儿
+T311	Person-Pronoun 2314 2315	我
+T312	Person-Pronoun 2319 2320	您
+T313	Time-Implicit 451 456	所有的夜晚
+T314	Person-Nominal 671 677	《思想品德》
+T315	Location-Nominal 175 176	家
+T316	Thing-Nominal 200 201	手
+R19	Part-Whole Arg1:T316 Arg2:T23	
+T317	Location-Nominal 246 247	家
+T38	Location-Nominal 318 323	母亲的身旁
+T318	Person-Pronoun 342 343	我
+T319	Location-Nominal 347 348	家
+T45	Thing-Nominal 382 386	一张纸条
+T48	Location-Nominal 415 416	家
+T320	Location-Nominal 488 489	空
+R20	Located Arg1:T63 Arg2:T320	
+T71	Thing-Nominal 537 540;541 549	我的“ 猫咪妈妈”的大脸
+T321	Person-Nominal 537 540;541 546	我的“ 猫咪妈妈”
+R21	Part-Whole Arg1:T71 Arg2:T321	
+T322	Person-Pronoun 598 599	我
+*	Coreference T113 T110
+T94	Location-Nominal 906 910	您的肚里
+*	Coreference T123 T121
+T103	Thing-Nominal 951 952	嘴
+R22	Part-Whole Arg1:T103 Arg2:T128	
+T105	Thing-Nominal 990 992	屁股
+R23	Part-Whole Arg1:T105 Arg2:T129	
+T323	Location-Nominal 1102 1104	屋内
+T324	Time-Implicit 1280 1282	每天
+*	Coreference T170 T169 T172
+T190	Thing-Name 1441 1444;1445 1452	日本生 产的‘机械服’
+*	Coreference T191 T190
+T325	Thing-Nominal 1473 1478	海上的日出
+R24	Located Arg1:T325 Arg2:T194	
+T326	Time-Implicit 1491 1493	每天
+T327	Thing-Nominal 1517 1519	被子
+T328	Thing-Nominal 1849 1851	拳头
+R25	Part-Whole Arg1:T328 Arg2:T236	
+R26	Part-Whole Arg1:T250 Arg2:T247	
+R27	Create Arg1:T259 Arg2:T264	

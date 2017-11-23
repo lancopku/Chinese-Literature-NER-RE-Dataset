@@ -1,0 +1,107 @@
+T1	Location-Nominal 2 4	大海
+T2	Location-Nominal 20 21	海
+T3	Thing-Nominal 44 45	云
+T4	Thing-Nominal 51 52	云
+T5	Location-Nominal 68 70	内陆
+T6	Thing-Nominal 78 80	雨雪
+T7	Thing-Nominal 89 91	雨雪
+T8	Location-Nominal 98 100	小溪
+T9	Location-Nominal 113 115	江河
+T10	Location-Nominal 116 118	江河
+T11	Location-Nominal 135 137	峡谷
+T12	Location-Nominal 141 142	滩
+T13	Location-Nominal 145 147	大海
+T14	Person-Pronoun 152 154	我们
+T15	Thing-Nominal 177 179	海水
+T16	Thing-Nominal 181 183	雨水
+T17	Thing-Nominal 184 186	雪水
+T18	Thing-Nominal 187 189	溪水
+T19	Thing-Nominal 190 192	河水
+T20	Thing-Nominal 193 195	江水
+R1	Part-Whole Arg1:T15 Arg2:T16	
+R2	Part-Whole Arg1:T15 Arg2:T17	
+R3	Part-Whole Arg1:T15 Arg2:T18	
+R4	Part-Whole Arg1:T15 Arg2:T19	
+R5	Part-Whole Arg1:T15 Arg2:T20	
+T21	Location-Nominal 215 217	大海
+T22	Location-Nominal 231 233	凹地
+T23	Thing-Nominal 238 240	湖水
+R6	Part-Whole Arg1:T15 Arg2:T23	
+T24	Thing-Nominal 248 250	死水
+T25	Person-Nominal 258 260	臭水
+T26	Location-Nominal 266 268	大海
+R7	Part-Whole Arg1:T15 Arg2:T24	
+R8	Part-Whole Arg1:T15 Arg2:T25	
+T27	Thing-Nominal 283 284	花
+T28	Thing-Nominal 285 286	花
+T29	Person-Nominal 297 299	有的
+T30	Thing-Nominal 301 303	鲜花
+T31	Person-Nominal 311 313	有的
+T32	Person-Nominal 325 327	有的
+T33	Person-Nominal 340 342	有的
+T34	Person-Nominal 356 358	猿人
+T35	Person-Nominal 359 361	猎人
+T36	Person-Nominal 362 364	猎人
+T37	Person-Nominal 365 367	农人
+T38	Person-Nominal 368 370	农人
+T39	Person-Nominal 371 373	工人
+T40	Person-Nominal 374 376	工人
+T42	Person-Nominal 407 409	猎人
+T43	Person-Nominal 410 412	原人
+T44	Location-Nominal 415 416	洞
+T45	Location-Nominal 413 414	穴
+*	Coreference T42 T43
+T46	Person-Nominal 423 425	农人
+T47	Person-Nominal 426 428	凡人
+*	Coreference T46 T47
+T48	Person-Nominal 432 433	儿
+R9	Family Arg1:T46 Arg2:T48	
+T49	Person-Nominal 435 436	儿
+T50	Person-Nominal 439 441	工人
+T51	Person-Nominal 442 444	巨人
+*	Coreference T50 T51
+T52	Thing-Nominal 446 447	山
+T53	Thing-Nominal 448 449	海
+T54	Person-Nominal 456 461	智慧劳动人
+T55	Person-Nominal 462 464	超人
+*	Coreference T54 T55
+T41	Person-Nominal 377 382	智慧劳动人
+T56	Thing-Nominal 478 480	种子
+T57	Person-Nominal 494 496	自己
+T58	Person-Nominal 511 513	孩子
+T59	Person-Nominal 518 520	老人
+T60	Person-Nominal 521 523	老人
+T61	Person-Nominal 529 531	孩子
+T62	Thing-Name 542 544	地球
+T63	Thing-Name 550 552	太阳
+T64	Thing-Name 572 574	地球
+T65	Thing-Nominal 580 582	花儿
+T66	Location-Nominal 577 579	地上
+R10	Located Arg1:T65 Arg2:T66	
+T67	Thing-Name 591 593	月亮
+T68	Thing-Nominal 596 598	星星
+T69	Thing-Name 611 613	地球
+T70	Person-Pronoun 653 654	你
+T71	Person-Nominal 804 809	年轻的朋友
+T72	Person-Pronoun 812 813	你
+*	Coreference T72 T71
+T73	Thing-Name 833 835	地球
+T74	Person-Pronoun 852 853	你
+T75	Thing-Nominal 753 755	黑发
+T76	Thing-Nominal 794 796	白发
+T77	Thing-Nominal 108 109	琴
+T78	Thing-Nominal 204 205	水
+T79	Time-Implicit 290 292	百年
+T80	Thing-Nominal 317 319	宴席
+T81	Person-Nominal 352 353	仙
+T82	Thing-Nominal 345 346	云
+T83	Thing-Nominal 347 348	雾
+T84	Thing-Nominal 395 397	地球
+T85	Thing-Nominal 560 562	碧海
+T86	Time-Implicit 623 626	小时候
+T87	Thing-Nominal 694 696	峡谷
+T88	Thing-Nominal 698 700	险滩
+T89	Thing-Nominal 713 715	死水
+T90	Thing-Nominal 719 721	臭水
+T91	Thing-Nominal 728 729	峰
+T92	Thing-Nominal 768 769	花

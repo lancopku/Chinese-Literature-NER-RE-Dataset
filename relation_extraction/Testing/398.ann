@@ -1,0 +1,137 @@
+T1	Thing-Nominal 0 6	这条林间小径
+T2	Person-Pronoun 6 7	我
+T3	Thing-Nominal 24 28	这条小径
+T4	Metric 11 17	多少年多少次
+T5	Time-Implicit 22 31	没有这条小径的时候
+T6	Person-Pronoun 31 32	我
+T7	Thing-Nominal 31 35	我的脚印
+R1	Create Arg1:T6 Arg2:T7	
+T8	Location-Pronoun 39 41	这里
+R2	Located Arg1:T3 Arg2:T8	
+T9	Thing-Nominal 44 54	长长的蜿蜒的蛛丝马迹
+R3	Create Arg1:T6 Arg2:T9	
+T10	Person-Name 57 59	鲁迅
+T11	Location-Pronoun 65 67	这里
+T12	Thing-Nominal 72 73	路
+T13	Thing-Nominal 84 88	这条小径
+T14	Thing-Nominal 92 98	这蜿蜒的小径
+*	Coreference T14 T13 T3 T1 T23 T79 T80 T81 T84
+T15	Person-Pronoun 101 102	我
+T16	Person-Pronoun 107 108	我
+T17	Person-Pronoun 113 114	我
+T18	Person-Pronoun 125 126	我
+T19	Person-Pronoun 131 132	我
+T20	Person-Pronoun 137 138	我
+T21	Person-Pronoun 144 145	我
+T22	Person-Pronoun 155 156	我
+T23	Thing-Nominal 169 171	小径
+T24	Location-Nominal 173 176	树林里
+R4	Located Arg1:T23 Arg2:T24	
+T25	Person-Nominal 177 179	人们
+T26	Location-Nominal 181 184	小径里
+T27	Location-Nominal 187 196	属于自己的一片天地
+R5	Ownership Arg1:T25 Arg2:T27	
+T28	Person-Pronoun 189 191	自己
+*	Coreference T28 T25
+T29	Location-Pronoun 202 204	这里
+T30	Person-Pronoun 211 213	自己
+T31	Thing-Nominal 281 300	那一片片在小径上随风舞动和颤抖着的落叶
+T32	Location-Nominal 286 289	小径上
+R6	Located Arg1:T31 Arg2:T32	
+T33	Person-Pronoun 303 304	我
+T34	Person-Pronoun 312 313	我
+T35	Time-Implicit 309 311	此刻
+T36	Time-Implicit 318 320	春天
+T38	Person-Nominal 340 344	芭蕾少女
+T39	Thing-Nominal 335 337;338 339	一个 个
+T37	Thing-Nominal 323 327	这些树叶
+*	Coreference T37 T31 T44
+T40	Location-Nominal 350 354	枝桠树梢
+R7	Part-Whole Arg1:T39 Arg2:T37	
+R8	Located Arg1:T39 Arg2:T40	
+T41	Thing-Nominal 355 358	一个个
+T42	Person-Nominal 359 365	绿色的嫩模儿
+T43	Time-Implicit 373 375	夏季
+T44	Thing-Pronoun 378 380	她们
+T45	Thing-Pronoun 394 396	她们
+T46	Thing-Pronoun 427 429	她们
+T47	Thing-Nominal 406 424	不同的面孔不同的姿势表演着不同的舞蹈
+T48	Thing-Nominal 427 434	她们的华彩乐段
+*	Coreference T47 T48
+T49	Thing-Nominal 438 443	一叶莲花面
+T50	Person-Nominal 446 448	将军
+T51	Thing-Nominal 448 449	剑
+T52	Thing-Pronoun 455 457	她们
+T53	Person-Nominal 462 464	将军
+T54	Thing-Nominal 464 466	剑戟
+T55	Thing-Nominal 478 479	叶
+T56	Time-Implicit 480 481	秋
+T57	Person-Pronoun 483 484	谁
+T58	Thing-Nominal 485 486	叶
+T59	Thing-Nominal 487 488	花
+T60	Thing-Nominal 493 495	春风
+T61	Time-Implicit 500 503	好时候
+T62	Thing-Pronoun 509 511	她们
+T63	Person-Nominal 514 515	人
+T64	Thing-Nominal 516 517	珠
+T65	Thing-Nominal 536 538	暮雨
+T66	Thing-Nominal 552 557	“周冬雨”
+T67	Person-Nominal 562 567	那个美人儿
+T68	Person-Name 553 556	周冬雨
+*	Coreference T68 T67
+T69	Thing-Nominal 572 576	冬天的雨
+T70	Time-Implicit 577 584	一个周日的下午
+T71	Thing-Nominal 587 593	呼啸的西北风
+T72	Thing-Nominal 594 604	无数条细钢丝般的直刺
+T73	Time-Implicit 608 609;610 611	此 刻
+T74	Thing-Nominal 615 624	当初的“金枝玉叶”
+T75	Thing-Nominal 627 639	灼灼其华的“明星范儿叶”
+T76	Thing-Nominal 642 655	那些饱满富态的“官宦相叶”
+T77	Thing-Nominal 660 669	芸芸众生的下层树叶
+T78	Metric 699 702	刹那间
+T79	Thing-Nominal 703 708	这林中小径
+T80	Thing-Nominal 713 731;732 736	一条黄灿灿、湿漉漉的、细看仍有几分律 动的金蛇
+T81	Thing-Pronoun 737 738	它
+T82	Location-Nominal 743 749	不可知的尽头
+T83	Person-Pronoun 752 753	我
+T84	Thing-Nominal 757 763	这条“金蛇”
+T85	Location-Nominal 768 770	脚下
+T86	Thing-Nominal 772 776	孜孜声音
+R9	Located Arg1:T86 Arg2:T85	
+T87	Location-Nominal 790 794	这世界上
+T88	Thing-Nominal 798 800	树叶
+T89	Person-Nominal 805 807	人类
+T90	Location-Nominal 817 820	世界上
+T91	Thing-Nominal 822 829	相同的两片树叶
+T92	Person-Nominal 832 833	人
+T93	Person-Pronoun 838 839	谁
+T94	Person-Nominal 843 852	完全相同的两张面孔
+T95	Thing-Nominal 862 864	树叶
+T96	Person-Nominal 871 872	人
+T97	Person-Nominal 898 917	帝王将相、名人雅士、巨星富贾和草根平民
+T98	Person-Nominal 922 931	单独的生命“个体”
+R10	General-Special Arg1:T98 Arg2:T97	
+T99	Person-Pronoun 932 933	谁
+T100	Person-Pronoun 943 944	你
+T101	Thing-Nominal 945 949	金山银山
+T102	Person-Pronoun 957 958	你
+R11	Ownership Arg1:T100 Arg2:T101	
+T103	Thing-Nominal 959 963	万千房产
+R12	Ownership Arg1:T102 Arg2:T103	
+T104	Metric 954 956	一天
+T105	Metric 968 970	一天
+T106	Metric 980 982	一日
+T107	Metric 982 984	三餐
+T108	Thing-Nominal 973 977	粮油万担
+T109	Person-Pronoun 971 972	你
+T110	Metric 975 977	万担
+T112	Person-Pronoun 1000 1001	谁
+T111	Time-Implicit 988 995;996 999	生命的严冬到来 的时候
+T113	Person-Nominal 1016 1017	人
+T114	Thing-Nominal 1022 1024	树叶
+T115	Thing-Nominal 1033 1035	落叶
+R13	General-Special Arg1:T114 Arg2:T115	
+T116	Thing-Nominal 1043 1045	春泥
+T117	Thing-Nominal 1047 1048	树
+T118	Person-Nominal 1049 1050	人
+T119	Thing-Nominal 1037 1040	无情物

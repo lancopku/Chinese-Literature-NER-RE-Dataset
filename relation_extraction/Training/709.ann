@@ -1,0 +1,148 @@
+T1	Thing-Nominal 12 13	床
+T2	Thing-Nominal 2 3	书
+T3	Person-Pronoun 18 19	我
+T4	Person-Nominal 25 29	我的母亲
+R1	Family Arg1:T4 Arg2:T3	
+T5	Person-Pronoun 33 34	我
+T6	Abstract 43 49	曾广惜时贤文
+T7	Abstract 35 37	唐诗
+T8	Abstract 38 41	三字经
+T9	Time-Implicit 54 57	年青时
+T10	Metric 77 79	一首
+T11	Person-Pronoun 79 81	自己
+*	Coreference T11 T3
+T12	Time-Implicit 116 119	有一天
+T13	Person-Pronoun 119 121	自己
+T14	Person-Nominal 131 132	人
+T15	Thing-Nominal 132 133	口
+R2	Part-Whole Arg1:T15 Arg2:T14	
+T16	Person-Pronoun 146 148	自己
+T17	Person-Nominal 167 168	人
+T18	Thing-Nominal 148 149	洞
+T19	Thing-Nominal 150 151	烛
+T20	Person-Nominal 175 177	别人
+T21	Person-Nominal 180 182	读者
+T22	Metric 197 200	几十年
+T23	Organization-Nominal 202 204	企业
+T24	Organization-Nominal 208 210	企业
+T25	Person-Pronoun 217 219	自己
+T27	Abstract 227 229	文学
+T28	Time-Implicit 241 244	前些年
+T29	Location-Nominal 247 249	家乡
+T30	Location-Nominal 250 252	省城
+T31	Person-Nominal 257 258	父
+T32	Person-Nominal 258 259	母
+T33	Person-Nominal 259 260	妻
+T34	Person-Nominal 260 261	儿
+T26	Abstract 220 223	文学梦
+T35	Metric 289 292	几十年
+T36	Person-Pronoun 331 333	自己
+T37	Metric 334 336	一代
+T38	Person-Nominal 336 339	同龄人
+T39	Person-Pronoun 389 390	我
+T40	Person-Pronoun 394 395	我
+T41	Time-Implicit 408 410	一天
+T42	Person-Pronoun 410 411	我
+T43	Organization-Nominal 416 420	网络杂志
+T44	Person-Pronoun 423 424	我
+T45	Metric 428 430	一首
+T46	Person-Nominal 437 441	杂志编辑
+R3	Ownership Arg1:T46 Arg2:T43	
+T47	Person-Pronoun 445 446	我
+T48	Person-Pronoun 461 462	我
+T49	Person-Pronoun 485 486	我
+T50	Person-Pronoun 500 501	我
+T51	Person-Nominal 542 544	主编
+T52	Person-Nominal 552 554	主编
+T53	Person-Pronoun 586 587	我
+*	Coreference T53 T52
+T54	Person-Pronoun 588 589	你
+*	Coreference T54 T50
+T55	Person-Pronoun 602 603	我
+T56	Person-Pronoun 612 613	我
+T57	Person-Pronoun 673 674	我
+T58	Organization-Nominal 677 681	文学圈子
+T59	Metric 681 684	四万多
+T60	Person-Nominal 684 685	人
+T61	Person-Pronoun 686 687	我
+T62	Person-Nominal 707 709	精英
+*	Coreference T62 T57
+T63	Person-Nominal 712 722	那位“糗骂”我的主编
+*	Coreference T63 T51 T66 T123 T46
+T64	Person-Pronoun 718 719	我
+T65	Person-Pronoun 726 727	我
+T66	Person-Pronoun 728 729	他
+T67	Person-Nominal 730 732	编辑
+*	Coreference T67 T65
+T68	Time-Implicit 734 737	近年来
+T69	Person-Nominal 763 769	中国当红诗人
+T70	Person-Pronoun 771 772	我
+*	Coreference T70 T69
+T71	Location-Nominal 774 780	文学最高殿堂
+T72	Location-Nominal 781 788	中国现代文学馆
+*	Coreference T72 T71
+T73	Person-Pronoun 791 792	我
+T74	Person-Nominal 816 818	诗友
+R4	Social Arg1:T74 Arg2:T73	
+T75	Person-Nominal 824 826	名家
+T76	Person-Pronoun 832 833	我
+T77	Person-Pronoun 838 840	自己
+*	Coreference T77 T76
+T78	Thing-Nominal 857 858	山
+T79	Thing-Nominal 859 861	青山
+T80	Thing-Nominal 861 862	楼
+T81	Person-Pronoun 878 879	我
+T82	Person-Pronoun 883 885	自己
+T83	Thing-Nominal 888 890	作品
+T84	Abstract 922 926	《诗经》
+T85	Abstract 926 930	《楚辞》
+T86	Abstract 930 936	《唐诗宋词》
+T87	Person-Nominal 938 942	当代名家
+T88	Person-Nominal 947 949	名师
+T89	Thing-Nominal 954 956	诗稿
+T90	Metric 959 962	十一本
+T91	Thing-Nominal 962 964	手稿
+T92	Metric 985 988	几千年
+T93	Person-Nominal 1007 1009	别人
+T94	Person-Nominal 1041 1044	同龄人
+T96	Person-Nominal 1070 1071	我
+T95	Person-Name 1065 1067	卜谷
+T97	Thing-Nominal 1100 1101	书
+T98	Metric 1097 1099	一部
+T99	Metric 1117 1119	一个
+T100	Thing-Nominal 1119 1121	脚印
+T101	Person-Nominal 1125 1127	作者
+T102	Organization-Nominal 1133 1135	国家
+T103	Thing-Nominal 1144 1145	书
+T104	Metric 1142 1144	一本
+T105	Metric 1131 1133	一个
+T106	Metric 1156 1158	一个
+T107	Time-Implicit 1158 1160	时代
+T108	Person-Nominal 1188 1189	人
+T109	Person-Nominal 1194 1195	友
+T110	Person-Nominal 1196 1198	好伴
+T111	Person-Pronoun 1199 1200	我
+T112	Metric 1204 1206	一位
+T113	Person-Nominal 1217 1219	母亲
+R5	Family Arg1:T113 Arg2:T111	
+T114	Person-Name 1224 1226	卜谷
+T115	Person-Nominal 1229 1231	老师
+T116	Person-Nominal 1231 1233	好友
+*	Coreference T115 T114 T116 T119
+T117	Person-Pronoun 1234 1235	我
+T118	Person-Nominal 1240 1242	母亲
+T119	Person-Nominal 1246 1249	卜老师
+T120	Person-Pronoun 1258 1259	我
+T121	Person-Nominal 1273 1275	编辑
+T122	Metric 1271 1273	二位
+T123	Person-Pronoun 1269 1275	上述二位编辑
+T124	Person-Nominal 1312 1313	人
+T125	Person-Pronoun 1281 1282	我
+T126	Person-Pronoun 1289 1290	我
+T127	Person-Nominal 1359 1361	诗者
+T128	Thing-Nominal 1366 1367	风
+T129	Thing-Nominal 1368 1369	浪
+T130	Thing-Nominal 1375 1377	云帆
+T131	Thing-Nominal 1378 1380	沧海
+T132	Person-Nominal 1329 1332	同龄人
+T133	Organization-Nominal 1326 1328	国家

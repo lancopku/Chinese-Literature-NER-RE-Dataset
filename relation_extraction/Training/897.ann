@@ -1,0 +1,149 @@
+T1	Time-Implicit 0 7	每年的这个时候
+T2	Person-Pronoun 8 9	我
+T3	Person-Pronoun 39 40	我
+T4	Person-Pronoun 44 45	我
+T5	Time-Implicit 51 56	今年的秋天
+T6	Time-Implicit 59 61	以往
+T7	Time-Implicit 68 70	早晨
+T8	Thing-Nominal 81 82	门
+T9	Person-Nominal 84 87	好多人
+T10	Thing-Nominal 90 92	外套
+R1	Ownership Arg1:T9 Arg2:T10	
+T11	Person-Pronoun 93 94	我
+T12	Thing-Nominal 94 96	双手
+R2	Part-Whole Arg1:T12 Arg2:T11	
+T13	Location-Nominal 99 101	胸前
+R3	Located Arg1:T12 Arg2:T13	
+T14	Time-Implicit 110 113	前几日
+T15	Thing-Nominal 116 118	大雨
+T16	Person-Nominal 127 128	人
+T17	Thing-Nominal 136 137	雷
+T18	Person-Nominal 139 141	农民
+T19	Thing-Nominal 147 148	雨
+T20	Location-Nominal 149 150	天
+T21	Thing-Nominal 157 159	庄稼
+T22	Location-Nominal 164 166	田野
+T23	Person-Nominal 174 176	诗人
+T24	Thing-Nominal 179 180	雨
+T25	Location-Nominal 188 190	农田
+T26	Location-Nominal 195 197	小河
+T27	Person-Nominal 202 203	人
+T28	Thing-Nominal 215 217	天空
+T29	Thing-Nominal 218 219	天
+*	Coreference T28 T29
+T30	Location-Nominal 231 233	田野
+T31	Thing-Nominal 234 236	稻粒
+R4	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 241 243	明星
+T33	Thing-Nominal 244 246	稻子
+R5	Part-Whole Arg1:T31 Arg2:T33	
+R6	Located Arg1:T33 Arg2:T30	
+T34	Thing-Nominal 247 250	长辫子
+T35	Thing-Nominal 255 257	高梁
+T36	Thing-Nominal 264 266	旗子
+T37	Location-Nominal 267 269	空中
+R7	Located Arg1:T36 Arg2:T37	
+R8	Located Arg1:T35 Arg2:T30	
+T38	Thing-Nominal 275 277	棉花
+T39	Thing-Nominal 282 285	小脸蛋
+R9	Located Arg1:T38 Arg2:T30	
+T40	Location-Nominal 286 289	果园里
+T41	Thing-Nominal 290 292	苹果
+R10	Located Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 294 295	脸
+T43	Thing-Nominal 298 299	头
+R11	Part-Whole Arg1:T42 Arg2:T41	
+R12	Part-Whole Arg1:T43 Arg2:T41	
+R13	Part-Whole Arg1:T39 Arg2:T38	
+T44	Person-Nominal 307 310	小姑娘
+T45	Location-Nominal 314 316	枝头
+R14	Located Arg1:T41 Arg2:T45	
+T46	Thing-Nominal 317 319	梨树
+R15	Located Arg1:T46 Arg2:T40	
+T47	Thing-Nominal 325 327	灯笼
+T48	Thing-Nominal 328 330	葡萄
+R16	Located Arg1:T48 Arg2:T40	
+T49	Thing-Nominal 338 341	珍珠楼
+T50	Thing-Nominal 338 340	珍珠
+T51	Location-Nominal 342 345	小河边
+T52	Location-Nominal 346 349	河水里
+T53	Thing-Nominal 350 352	小鱼
+R17	Located Arg1:T53 Arg2:T52	
+T54	Thing-Pronoun 364 365	我
+*	Coreference T54 T53
+T55	Time-Implicit 366 368	秋天
+T56	Time-Implicit 358 360	秋天
+T57	Thing-Nominal 370 373	小鸭子
+T58	Location-Nominal 374 376	河里
+R18	Located Arg1:T57 Arg2:T58	
+T59	Location-Nominal 379 381	岸上
+T60	Thing-Nominal 382 384	小马
+R19	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 389 390	水
+T62	Thing-Nominal 394 397	小白马
+R20	General-Special Arg1:T62 Arg2:T60	
+T63	Location-Nominal 401 404	树林里
+T64	Thing-Nominal 405 409	树叶宝宝
+T65	Location-Nominal 410 412	空中
+R21	Located Arg1:T64 Arg2:T65	
+T66	Thing-Pronoun 416 417	她
+*	Coreference T66 T64 T68 T69
+T67	Thing-Nominal 420 422	母亲
+T68	Thing-Pronoun 441 442	她
+T69	Thing-Nominal 444 446	自己
+T70	Person-Pronoun 472 473	我
+T71	Person-Nominal 497 499	人们
+T72	Person-Pronoun 518 519	我
+T73	Thing-Nominal 534 537	水墨画
+T74	Thing-Nominal 547 548	菊
+T75	Location-Nominal 548 551	东篱下
+R22	Located Arg1:T74 Arg2:T75	
+T76	Thing-Nominal 555 557	南山
+T77	Person-Nominal 560 562	人们
+T78	Location-Nominal 571 573	田园
+T79	Thing-Nominal 577 579	落霞
+T80	Thing-Nominal 580 582	孤鹜
+T81	Person-Pronoun 607 609	我们
+T82	Thing-Nominal 618 620	画卷
+T83	Thing-Nominal 644 646	蒹葭
+T84	Thing-Nominal 649 651	白露
+T85	Thing-Nominal 652 653	霜
+T86	Person-Nominal 656 658	伊人
+T87	Location-Nominal 660 661	水
+T88	Person-Nominal 667 668	人
+T89	Thing-Nominal 671 674	水墨画
+T90	Person-Nominal 679 682;683 684	白衣女 子
+T91	Thing-Nominal 699 700	冰
+T92	Thing-Nominal 701 702	玉
+T93	Person-Nominal 715 716	人
+T94	Location-Nominal 766 768	漫山
+T95	Thing-Nominal 760 762	秋风
+T96	Thing-Nominal 768 770	枫叶
+R23	Located Arg1:T96 Arg2:T94	
+T97	Thing-Nominal 777 778	车
+T98	Thing-Nominal 780 782	枫林
+T99	Thing-Nominal 784 786	霜叶
+T100	Time-Implicit 788 790	二月
+T101	Thing-Nominal 791 792	花
+T102	Thing-Nominal 806 808	枯藤
+T103	Thing-Nominal 808 810	老树
+T104	Thing-Nominal 811 813	小桥
+T105	Thing-Nominal 813 815	流水
+T106	Thing-Nominal 835 837	谷粒
+T107	Thing-Nominal 838 839	仓
+R24	Located Arg1:T106 Arg2:T107	
+T108	Metric 878 880	百尺
+T109	Thing-Nominal 880 882	竿头
+T110	Person-Nominal 896 900	不同的人
+T111	Person-Name 915 918	刘禹锡
+T112	Person-Pronoun 929 930	我
+*	Coreference T112 T111
+T113	Time-Implicit 931 933	秋日
+T114	Time-Implicit 934 936	春朝
+T115	Location-Nominal 937 939	晴空
+T116	Thing-Nominal 940 941	鹤
+T117	Thing-Nominal 942 943	云
+R25	Located Arg1:T116 Arg2:T115	
+T118	Thing-Nominal 951 953	碧霄
+T119	Person-Nominal 961 962	人
+T120	Person-Pronoun 1034 1035	我

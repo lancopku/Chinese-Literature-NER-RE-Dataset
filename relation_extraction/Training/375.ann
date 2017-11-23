@@ -1,0 +1,148 @@
+T1	Thing-Nominal 5 7	万物
+T2	Person-Pronoun 20 21	我
+T3	Person-Nominal 22 24	家人
+R1	Family Arg1:T3 Arg2:T2	
+T4	Thing-Name 31 34	大自然
+T5	Location-Nominal 39 42	山林中
+T6	Thing-Nominal 43 47	清新空气
+R2	Located Arg1:T6 Arg2:T5	
+R3	Use Arg1:T2 Arg2:T6	
+R4	Use Arg1:T3 Arg2:T6	
+T7	Person-Nominal 49 50	人
+T8	Person-Nominal 63 65	人民
+T9	Thing-Nominal 66 70	杂树草丛
+T10	Thing-Nominal 80 83	山芽菜
+T11	Thing-Nominal 93 94	腰
+T12	Thing-Nominal 95 96	腿
+R5	Ownership Arg1:T8 Arg2:T11	
+R6	Ownership Arg1:T8 Arg2:T12	
+T13	Person-Nominal 112 115	老百姓
+T14	Location-Nominal 122 124	山里
+T15	Thing-Nominal 125 127	奇宝
+R7	Located Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 128 131	山芽菜
+R8	General-Special Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 144 146	餐桌
+T18	Time-Implicit 146 148	四季
+T19	Thing-Nominal 148 151	好佳肴
+R9	Located Arg1:T19 Arg2:T17	
+T20	Time-Explicit 163 168	1972年
+T21	Person-Pronoun 159 160	我
+T22	Location-Nominal 168 170	中日
+T23	Person-Name 179 182;183 188	日本首 相田中角荣
+T24	Person-Nominal 191 196	我外交人员
+R10	Social Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 202 206	中国佳肴
+T26	Person-Pronoun 208 209	他
+*	Coreference T26 T23
+T27	Thing-Nominal 222 233	中国东北牡丹江的山芽菜
+T28	Location-Name 222 229	中国东北牡丹江
+T29	Time-Implicit 237 241	二战期间
+T30	Organization-Name 246 253	侵华日本关东军
+T31	Location-Name 254 257	牡丹江
+T32	Location-Nominal 259 262	该地区
+*	Coreference T32 T31 T38 T28
+T33	Thing-Nominal 259 266	该地区的山芽菜
+*	Coreference T33 T27 T37
+T34	Location-Nominal 279 281	两国
+T35	Person-Nominal 288 292	日本人民
+T36	Thing-Nominal 288 295	日本人民的餐桌
+T37	Thing-Nominal 299 303	这一佳肴
+T38	Location-Name 313 318	牡丹江地区
+T39	Person-Nominal 313 321	牡丹江地区的农民
+T40	Person-Nominal 328 337	男男女女，老老少少
+R11	General-Special Arg1:T39 Arg2:T40	
+T41	Location-Nominal 344 351	春风吹绿的大地
+T42	Thing-Nominal 358 361	山芽菜
+T43	Organization-Nominal 366 370	科研部门
+T44	Thing-Nominal 383 392	多种维生素和氨基酸
+T45	Thing-Name 407 410	大自然
+T46	Thing-Nominal 407 420	大自然赐给的最佳的绿色食品
+R12	General-Special Arg1:T46 Arg2:T42	
+T47	Location-Name 441 443	日本
+T48	Person-Nominal 445 447	农民
+T49	Person-Name 461 465	日中首相
+T50	Person-Nominal 466 470	日本人民
+T51	Person-Nominal 482 487	牡丹江人民
+T52	Person-Nominal 494 498	当地人民
+*	Coreference T52 T51
+T53	Thing-Nominal 503 506	山芽菜
+T54	Thing-Nominal 513 515	鲜的
+R13	General-Special Arg1:T53 Arg2:T54	
+T55	Thing-Nominal 519 521	干的
+R14	General-Special Arg1:T53 Arg2:T55	
+T56	Thing-Nominal 528 530	餐桌
+T57	Thing-Nominal 535 539	这一佳肴
+*	Coreference T57 T53
+T58	Person-Pronoun 540 541	我
+T59	Location-Nominal 545 548	供销新
+T60	Thing-Nominal 552 556	干山芽菜
+*	Coreference T60 T55
+T61	Time-Implicit 557 559	秋冬
+T62	Time-Explicit 567 574	一九七八年秋天
+T63	Time-Implicit 567 578	一九七八年秋天我转业前
+T64	Person-Name 578 586	老战友马奎德同志
+T65	Person-Pronoun 588 589	我
+R15	Social Arg1:T64 Arg2:T65	
+T66	Person-Nominal 590 592	俩人
+T67	Person-Pronoun 605 606	他
+*	Coreference T67 T64
+T68	Thing-Nominal 610 614	干山芽菜
+T69	Person-Pronoun 620 621	我
+T70	Time-Implicit 621 623	每月
+T71	Thing-Nominal 621 627;628 630	每月的两斤保 健肉
+T72	Thing-Nominal 647 650	山芽菜
+T73	Metric 652 655	一大碗
+T74	Thing-Nominal 659 662	豆腐汤
+T75	Thing-Nominal 677 679	食品
+R16	General-Special Arg1:T75 Arg2:T74	
+R17	General-Special Arg1:T75 Arg2:T72	
+R18	General-Special Arg1:T75 Arg2:T71	
+T76	Time-Explicit 709 716	二00八年十月
+T77	Person-Pronoun 717 718	我
+T78	Person-Nominal 721 723	女儿
+R19	Family Arg1:T78 Arg2:T77	
+T79	Location-Nominal 719 724	上海女儿家
+T80	Person-Nominal 727 732	马奎德夫妇
+R20	Social Arg1:T77 Arg2:T80	
+T81	Location-Nominal 733 738	杭州儿子家
+T82	Person-Nominal 735 737	儿子
+R21	Family Arg1:T82 Arg2:T80	
+T83	Person-Pronoun 741 742	我
+T84	Person-Pronoun 748 750	他们
+*	Coreference T84 T80
+T85	Time-Implicit 751 755	三十年后
+T86	Organization-Nominal 773 775	国家
+T87	Person-Nominal 799 801	俩人
+T88	Thing-Nominal 803 807	干山芽菜
+T89	Thing-Nominal 817 819	鼻子
+T90	Person-Pronoun 826 828	我们
+*	Coreference T90 T87 T93
+T91	Thing-Nominal 838 842	鲜山芽菜
+*	Coreference T91 T54
+T92	Thing-Nominal 833 835	春风
+T93	Person-Nominal 851 853	两人
+T94	Time-Implicit 863 867	三十年前
+T95	Time-Implicit 871 875	三十年后
+T96	Time-Implicit 884 887	好时代
+T97	Metric 893 895	百年
+T98	Time-Implicit 896 898	现在
+T99	Location-Nominal 898 907	大城市里的山珍餐馆
+T100	Location-Name 909 918	广州的东北人家餐厅
+T101	Thing-Nominal 919 930	保鲜的真空包装的山芽菜
+R22	Located Arg1:T101 Arg2:T100	
+T102	Time-Implicit 931 935	一年四季
+T103	Person-Nominal 955 957	人民
+T104	Metric 952 954	三尺
+T105	Thing-Nominal 1005 1007	蕨菜
+T106	Thing-Nominal 1008 1011	其根部
+R23	Part-Whole Arg1:T106 Arg2:T105	
+*	Coreference T105 T72
+T107	Thing-Nominal 1023 1027	糯米糕点
+T108	Thing-Nominal 1017 1019	糕点
+R24	General-Special Arg1:T108 Arg2:T107	
+T109	Thing-Nominal 1038 1040	根部
+*	Coreference T109 T106
+T110	Thing-Nominal 1042 1044	食品
+T111	Thing-Nominal 1049 1050	鸡
+T112	Thing-Nominal 1051 1052	卵

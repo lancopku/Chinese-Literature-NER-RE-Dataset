@@ -1,0 +1,170 @@
+T1	Thing-Nominal 5 10	很远的地方
+T2	Thing-Nominal 13 16	一盏灯
+T3	Person-Pronoun 23 24	我
+T4	Thing-Nominal 29 33	一支鬼火
+T5	Thing-Nominal 37 39	鬼火
+T6	Thing-Pronoun 40 41	它
+*	Coreference T6 T5
+T7	Person-Pronoun 44 45	我
+T8	Person-Pronoun 52 53	我
+T9	Person-Pronoun 65 66	我
+T10	Thing-Nominal 72 75	那盏灯
+T11	Thing-Pronoun 99 100	它
+*	Coreference T11 T10
+T12	Thing-Nominal 120 121	月
+T13	Thing-Nominal 123 124	星
+T14	Thing-Pronoun 127 128	它
+T15	Person-Pronoun 129 130	我
+T16	Thing-Nominal 139 143	万家灯火
+T17	Location-Nominal 148 150	远方
+T18	Thing-Pronoun 160 161	它
+T19	Person-Pronoun 162 163	我
+T20	Thing-Nominal 170 178	最远射程内的猎物
+T21	Thing-Nominal 182 184	猎物
+T22	Person-Pronoun 188 189	我
+T23	Person-Pronoun 202 203	我
+T24	Person-Nominal 209 213	光源主人
+T25	Thing-Nominal 216 220	蛛丝马迹
+T26	Person-Pronoun 223 224	我
+T27	Person-Nominal 224 230	想像中的主人
+T28	Person-Nominal 231 235	一位美人
+T29	Person-Nominal 236 238	美妇
+T30	Person-Nominal 243 245	美妇
+T31	Person-Pronoun 258 259	我
+T32	Thing-Nominal 262 265	眼导弹
+T33	Person-Nominal 269 271	美女
+T34	Person-Pronoun 274 275	我
+T35	Thing-Nominal 294 298	财产公证
+T36	Thing-Nominal 299 303	离婚换证
+T37	Thing-Nominal 313 317	有价证券
+T38	Person-Nominal 304 306	儿女
+T39	Thing-Nominal 370 375	一笔糊涂账
+T40	Thing-Nominal 357 359	窗子
+T41	Thing-Nominal 342 345	那盏灯
+T42	Location-Nominal 339 341	远方
+R1	Located Arg1:T41 Arg2:T42	
+T43	Thing-Nominal 330 333	黄花菜
+*	Coreference T28 T24
+T44	Time-Implicit 381 385	很多天里
+T45	Thing-Nominal 388 389	雨
+T46	Thing-Nominal 397 399	雨路
+T47	Person-Pronoun 402 403	我
+T48	Thing-Nominal 410 417	那盏远方的灯火
+T49	Person-Pronoun 424 425	我
+T50	Thing-Nominal 427 430	那盏灯
+T51	Person-Nominal 441 445	光源主人
+T52	Thing-Nominal 450 452	窗帘
+T53	Location-Nominal 453 456	窗帘上
+T54	Thing-Nominal 459 461	蝴蝶
+R2	Located Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 468 469	风
+T56	Person-Nominal 490 494	光源主人
+T57	Thing-Nominal 501 505	那盏灯火
+T58	Person-Pronoun 515 516	我
+T59	Thing-Nominal 516 524	屋檐下的那盏路灯
+T60	Location-Nominal 516 519	屋檐下
+R3	Located Arg1:T59 Arg2:T60	
+T61	Thing-Pronoun 527 528	它
+*	Coreference T61 T59
+T62	Thing-Pronoun 538 539	它
+T63	Thing-Nominal 593 599	远方的那盏灯
+T64	Location-Nominal 593 595	远方
+R4	Located Arg1:T63 Arg2:T64	
+T65	Thing-Nominal 563 567	远方灯火
+T66	Person-Pronoun 560 561	我
+T67	Thing-Nominal 550 552	大雾
+T68	Thing-Nominal 545 546	雨
+T69	Thing-Nominal 606 608	昙花
+T70	Person-Pronoun 615 616	我
+T71	Person-Pronoun 635 636	我
+T72	Thing-Nominal 637 641	老婆面前
+T73	Person-Nominal 721 724;725 726	我的爷 爷
+T74	Person-Pronoun 721 722	我
+R5	Family Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 712 716	那盏灯火
+T76	Person-Pronoun 697 698	他
+T77	Person-Nominal 686 696	一位躺在病榻上的老人
+*	Coreference T76 T77
+T78	Person-Nominal 679 683	光源主人
+T79	Person-Nominal 672 674	美妇
+T80	Person-Nominal 786 788	老人
+T81	Thing-Nominal 791 794	那盏灯
+T82	Person-Pronoun 798 799	我
+T83	Thing-Nominal 804 814	那盏属于老人自己的灯
+T84	Person-Nominal 808 810	老人
+T85	Person-Nominal 819 821	老人
+T86	Thing-Nominal 827 830	一盏灯
+T87	Person-Pronoun 833 834	他
+R6	Create Arg1:T87 Arg2:T83	
+T88	Thing-Nominal 842 846;847 848	幸福的灯 火
+T89	Location-Nominal 850 852	人间
+T90	Thing-Nominal 864 871	那盏远方的灯火
+T91	Person-Pronoun 872 873	我
+T92	Person-Pronoun 876 877	我
+T93	Thing-Pronoun 879 880	它
+*	Coreference T93 T90
+T94	Person-Pronoun 894 895	我
+T95	Person-Pronoun 957 958	我
+T96	Thing-Nominal 961 963	村庄
+T97	Time-Implicit 948 956	不久前的一天晚上
+T98	Thing-Nominal 916 921	远方的灯火
+T99	Location-Nominal 916 918	远方
+R7	Located Arg1:T98 Arg2:T99	
+T100	Thing-Nominal 977 981	整个村庄
+T101	Person-Pronoun 998 999	我
+T102	Thing-Nominal 1000 1005	周边的村庄
+T103	Location-Nominal 1000 1002	周边
+R8	Located Arg1:T102 Arg2:T103	
+T104	Thing-Nominal 1010 1015	附近的村庄
+T105	Person-Pronoun 1035 1036	我
+T106	Location-Nominal 1044 1046	远方
+T107	Thing-Nominal 1046 1057	那盏曾经让我纠结的灯火
+R9	Located Arg1:T107 Arg2:T106	
+T108	Person-Pronoun 1051 1052	我
+T109	Thing-Nominal 1088 1095	那盏远方的灯火
+T110	Time-Implicit 1084 1087	那一夜
+T111	Person-Pronoun 1099 1100	我
+T112	Person-Pronoun 1110 1111	我
+T113	Person-Nominal 1128 1132	那位美妇
+T114	Location-Nominal 1137 1143	老人的坟茔上
+T115	Person-Nominal 1137 1139	老人
+T116	Thing-Nominal 1146 1148	鲜花
+R10	Located Arg1:T116 Arg2:T114	
+T117	Thing-Nominal 1166 1172	远方的那盏灯
+T118	Location-Nominal 1166 1168	远方
+R11	Located Arg1:T117 Arg2:T118	
+T119	Thing-Nominal 1173 1177	鬼火流萤
+T120	Person-Pronoun 1179 1180	我
+T121	Thing-Pronoun 1187 1188	它
+T122	Person-Pronoun 1191 1192	我
+T123	Location-Nominal 1191 1196	我的窗前边
+T124	Person-Pronoun 1199 1200	灯
+T125	Person-Pronoun 1209 1210	我
+T126	Location-Nominal 1220 1225	孤傲的夜空
+T127	Thing-Nominal 1226 1233	蜜意柔情的灯火
+R12	Located Arg1:T127 Arg2:T126	
+T128	Person-Pronoun 1239 1240	谁
+T129	Person-Pronoun 1237 1238	谁
+T130	Person-Pronoun 1248 1249	我
+T131	Thing-Nominal 1254 1261	远方的那盏灯火
+T132	Thing-Nominal 1270 1271;1272 1273	扳 机
+T133	Person-Pronoun 1289 1290	我
+T134	Thing-Nominal 1291 1295	一盏心灯
+T135	Person-Pronoun 1302 1303	我
+T136	Thing-Nominal 1305 1307	双眼
+R13	Part-Whole Arg1:T136 Arg2:T135	
+T137	Thing-Nominal 1311 1316	所有的灯盏
+T138	Person-Name 1317 1320	董树平
+T139	Person-Name 1326 1328	默耕
+T140	Metric 1329 1334	1973年
+T141	Person-Nominal 1336 1341;1342 1344	云南省双柏 县人
+T142	Time-Explicit 1345 1350	1988年
+T143	Metric 1372 1376	数十万字
+T144	Person-Nominal 1378 1387	云南省作家协会会员
+T145	Person-Nominal 1388 1398	中国当代作家协会会员
+T146	Person-Nominal 1399 1402;1403 1410	中国西 部散文学会会员
+T147	Person-Nominal 1411 1421	双柏县作家协会副主席
+T148	Abstract 1431 1437	《心泉畅流》
+T149	Abstract 1437 1444	《心灵的假期》
+T150	Abstract 1444 1453	《订购春天的约会》
+T151	Abstract 1453 1459	《尖峰笔意》

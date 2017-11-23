@@ -1,0 +1,216 @@
+T1	Person-Nominal 0 4	民办教师
+T2	Time-Implicit 18 26	在我国的教育史上
+T3	Person-Nominal 13 17	民办教师
+T4	Person-Nominal 40 44	民办教师
+T5	Person-Nominal 62 63	人
+T6	Location-Name 68 81	湖南省东安县芦洪市镇槐花村
+T7	Person-Name 81 84	唐善清
+T8	Person-Pronoun 87 96	这样的一位民办教师
+*	Coreference T8 T7 T9 T10
+T9	Person-Pronoun 97 98	他
+T10	Person-Pronoun 99 101	自己
+T11	Person-Nominal 120 124	民办教师
+T12	Time-Explicit 132 137	1966年
+T13	Person-Name 138 141	唐善清
+T14	Time-Explicit 147 152	文化大革命
+T16	Person-Pronoun 167 168	他
+T17	Person-Pronoun 178 179	他
+*	Coreference T16 T13
+T18	Person-Pronoun 185 186	他
+T19	Person-Pronoun 187 189	自己
+*	Coreference T19 T18
+T20	Person-Pronoun 206 208	自己
+T21	Time-Explicit 232 240	1969年11月
+T22	Person-Name 241 244	唐善清
+T23	Person-Nominal 245 249	大队干部
+T24	Location-Nominal 252 254	小学
+T25	Person-Nominal 255 257	教师
+*	Coreference T25 T22 T43 T44 T46
+T26	Person-Pronoun 260 261	他
+T27	Person-Nominal 298 302	民办教师
+T28	Person-Nominal 310 312	人民
+T29	Person-Pronoun 318 319	他
+T30	Organization-Nominal 308 309	党
+T31	Organization-Nominal 335 336	党
+T32	Person-Nominal 348 351	接班人
+T33	Metric 342 344	一批
+T34	Person-Pronoun 352 353;354 355	他 们
+T35	Person-Nominal 358 361	许多人
+T37	Organization-Nominal 379 380	党
+T39	Person-Pronoun 395 396	他
+T40	Person-Nominal 402 404	家长
+T41	Time-Explicit 415 422	1981年上期
+T42	Person-Nominal 426 430	民办教师
+T43	Person-Nominal 434 437	唐老师
+T44	Person-Pronoun 446 447	他
+T45	Person-Pronoun 452 453	他
+T46	Person-Pronoun 461 463	自己
+T47	Person-Nominal 469 471	别人
+T48	Person-Nominal 473 478	初中毕业生
+*	Coreference T47 T48 T36
+T49	Person-Pronoun 484 486	自己
+R1	Part-Whole Arg1:T35 Arg2:T34	
+T15	Person-Nominal 487 492	高中毕业生
+*	Coreference T15 T49
+T36	Person-Nominal 508 510	他们
+T38	Person-Pronoun 526 527	他
+T50	Person-Pronoun 531 532	他
+T51	Person-Nominal 541 545	某位领导
+T52	Person-Pronoun 552 553	他
+T53	Metric 553 556	十二年
+T54	Person-Nominal 557 561	民办教师
+T55	Time-Explicit 573 580	1981年下期
+T56	Location-Nominal 581 583	学区
+T57	Person-Nominal 584 586	教师
+T58	Person-Name 587 590	唐善清
+T59	Person-Nominal 595 599	代课教师
+T60	Metric 611 613	3年
+T61	Time-Explicit 618 625	1984年下期
+T62	Thing-Name 626 629	东安县
+T63	Metric 634 639	600多名
+T64	Person-Nominal 640 644	民办教师
+T65	Person-Pronoun 645 646	他
+T66	Person-Nominal 653 657	代课教师
+T67	Person-Name 662 665	唐善清
+T68	Person-Nominal 675 679	民办教师
+T69	Person-Nominal 683 687	代课教师
+T70	Person-Pronoun 688 689	他
+T71	Person-Pronoun 695 696	他
+T72	Person-Pronoun 701 702	我
+*	Coreference T72 T71 T70 T67 T73
+T73	Person-Pronoun 705 707	自己
+T74	Location-Nominal 721 723	讲台
+T75	Location-Nominal 726 728	田野
+T76	Person-Name 729 732	唐善清
+T77	Person-Nominal 733 736	村民们
+T78	Person-Nominal 738 740	组长
+*	Coreference T78 T76
+T79	Person-Pronoun 741 742	他
+T80	Person-Nominal 745 750	全组的村民
+T81	Organization-Nominal 752 753	党
+T82	Person-Nominal 768 771	村民们
+T83	Person-Nominal 779 787	从事体力劳动的人
+T84	Time-Explicit 806 817	在唐善清59岁的那一年
+T85	Time-Explicit 819 824	2003年
+T86	Person-Name 807 810	唐善清
+T87	Person-Pronoun 826 827	他
+*	Coreference T87 T86
+T88	Person-Pronoun 834 835	他
+T89	Thing-Nominal 838 845	装满红薯的板车
+T90	Thing-Name 840 842	红薯
+R2	Located Arg1:T90 Arg2:T89	
+T91	Location-Nominal 846 848	山上
+T92	Thing-Nominal 856 858	板车
+T93	Person-Pronoun 861 862	他
+T94	Thing-Nominal 865 867	板车
+T95	Location-Nominal 883 885	医院
+T96	Person-Pronoun 889 891	自己
+T97	Thing-Nominal 891 895	右膝盖骨
+R3	Part-Whole Arg1:T97 Arg2:T96	
+*	Coreference T96 T93
+T98	Person-Nominal 899 901	医生
+T99	Person-Pronoun 902 903	他
+T100	Location-Nominal 909 913	他膝盖骨
+T101	Thing-Nominal 916 920	4根钢筋
+T102	Person-Pronoun 923 924	他
+T103	Metric 916 918	4根
+T104	Organization-Nominal 441 442	队
+T105	Organization-Nominal 481 482	队
+T106	Organization-Nominal 516 517	队
+T107	Person-Name 934 937	唐善清
+T108	Person-Pronoun 937 938	他
+*	Coreference T108 T107
+T109	Time-Implicit 953 958	10多年来
+T110	Person-Name 959 962	唐善清
+T111	Person-Nominal 963 965	妻子
+R4	Family Arg1:T111 Arg2:T110	
+T112	Person-Nominal 972 974	妻子
+T113	Thing-Nominal 980 981	屋
+T114	Thing-Nominal 986 987	雨
+T115	Time-Implicit 988 992	去年5月
+T116	Person-Nominal 993 995	妻子
+T117	Person-Pronoun 999 1000	他
+T118	Person-Nominal 1011 1013	妻子
+T119	Person-Pronoun 1017 1018	他
+*	Coreference T117 T110
+T120	Thing-Nominal 1028 1030	胯骨
+T121	Person-Pronoun 1034 1035	她
+*	Coreference T121 T118
+T122	Person-Nominal 1047 1049	妻子
+T123	Thing-Nominal 1042 1046	3根钢筋
+T124	Metric 1042 1044	3根
+T125	Location-Nominal 1034 1039	她的胯骨里
+T126	Person-Pronoun 1061 1062	他
+T127	Time-Implicit 1070 1074	从那以后
+T128	Metric 1085 1090	10多万元
+T129	Time-Implicit 1093 1095	今年
+T130	Person-Name 1096 1099	唐善清
+T131	Metric 1099 1102	70岁
+T132	Person-Nominal 1116 1119	同龄人
+T133	Person-Name 1129 1132	唐善清
+T134	Person-Pronoun 1145 1146	他
+T135	Person-Nominal 1149 1153	民办教师
+T136	Person-Nominal 1156 1160	公办教师
+T137	Person-Nominal 1161 1164	那些人
+T138	Metric 1166 1168	每月
+T139	Time-Implicit 1165 1166	现
+T140	Metric 1170 1173	几千元
+T141	Person-Name 1191 1194	唐善清
+T142	Person-Pronoun 1198 1200	自己
+*	Coreference T142 T141
+T143	Person-Pronoun 1204 1206	他们
+*	Coreference T134 T133 T135
+*	Coreference T137 T136 T143 T146
+T144	Person-Name 1214 1217	唐善清
+T145	Person-Name 1256 1259	唐善清
+T146	Person-Pronoun 1299 1301	他们
+T147	Person-Nominal 1312 1315	唐老师
+*	Coreference T147 T145 T148 T149
+T148	Person-Pronoun 1325 1326	他
+T149	Person-Pronoun 1328 1330	自己
+T150	Person-Nominal 1331 1335	民办教师
+T151	Person-Nominal 1339 1344	自己的学生
+R5	Social Arg1:T151 Arg2:T149	
+T152	Organization-Nominal 1348 1349	党
+T153	Person-Pronoun 1360 1361	他
+T154	Person-Pronoun 1364 1366	自己
+T155	Person-Nominal 1375 1378	村里人
+T156	Person-Pronoun 1383 1384	他
+T157	Person-Nominal 1386 1389	唐老师
+T158	Person-Pronoun 1390 1391	你
+*	Coreference T158 T157
+T159	Organization-Nominal 1410 1411	党
+T160	Person-Pronoun 1417 1418	你
+T161	Person-Pronoun 1419 1421	自己
+*	Coreference T161 T160
+T162	Person-Pronoun 1428 1430	自己
+T163	Person-Nominal 1443 1445	人民
+T164	Thing-Nominal 1428 1435;1436 1440	自己的年轻的健 康的身体
+R6	Part-Whole Arg1:T164 Arg2:T162	
+T165	Person-Pronoun 1451 1452	你
+T166	Person-Nominal 1454 1456	夫妻
+T167	Metric 1456 1458	双双
+T168	Person-Pronoun 1463 1464	你
+T169	Organization-Nominal 1470 1471	党
+T170	Organization-Nominal 1472 1474	政府
+T171	Person-Pronoun 1477 1478	你
+T172	Person-Nominal 1485 1488	唐老师
+T173	Person-Nominal 1497 1501	民办教师
+T174	Person-Pronoun 1509 1510	我
+*	Coreference T174 T172
+T175	Person-Pronoun 1514 1515	我
+T176	Person-Pronoun 1531 1532	我
+T177	Organization-Nominal 1535 1536	党
+T178	Organization-Nominal 1537 1539	政府
+T179	Person-Pronoun 1543 1544	我
+T180	Organization-Nominal 1547 1548	党
+T181	Organization-Nominal 1549 1551	政府
+T182	Person-Pronoun 1553 1555	我们
+T183	Person-Nominal 1557 1561	民办教师
+*	Coreference T183 T182
+T184	Person-Name 1569 1572	唐善清
+T185	Person-Nominal 1573 1576	唐老师
+T186	Person-Pronoun 1577 1578	他
+*	Coreference T185 T184 T186
+T187	Person-Pronoun 1594 1595	他
+T188	Person-Nominal 1601 1605	民办教师

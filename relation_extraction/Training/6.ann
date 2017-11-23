@@ -1,0 +1,130 @@
+T1	Person-Pronoun 6 7	我
+T3	Location-Name 56 60	澳大利亚
+T4	Location-Name 94 97	墨尔本
+T5	Time-Implicit 387 390	几个月
+T8	Location-Name 1152 1160	海宁市(硖石镇)
+T11	Person-Pronoun 571 572	我
+T12	Time-Implicit 102 104	夏季
+T16	Person-Pronoun 146 148	我们
+T17	Person-Pronoun 155 157	我们
+T18	Location-Nominal 181 183	车站
+T19	Person-Nominal 184 189	澳大利亚人
+T20	Person-Pronoun 198 200	他们
+T21	Location-Nominal 206 208	旅店
+T22	Person-Pronoun 246 247	我
+T23	Person-Nominal 285 287	学生
+T24	Person-Nominal 341 343	干部
+T25	Person-Nominal 344 346	党员
+T26	Person-Nominal 347 349	教师
+T27	Person-Nominal 350 352	医生
+T28	Person-Pronoun 366 368	他们
+T29	Person-Nominal 396 398	学生
+T30	Time-Implicit 1049 1051	早晨
+T31	Person-Nominal 1060 1062	有的
+T32	Time-Explicit 1140 1143	两年前
+T33	Location-Nominal 1148 1150	老家
+T34	Location-Nominal 1172 1175	火车站
+T36	Metric 1187 1191	百米多高
+T37	Person-Name 1247 1250	陈家洛
+T38	Person-Name 1251 1254	王国维
+T39	Person-Name 1255 1258	徐志摩
+T40	Person-Name 1259 1261	金庸
+T41	Time-Implicit 934 936	晚上
+T42	Person-Nominal 938 940	大家
+T43	Location-Name 319 323	澳大利亚
+T44	Thing-Pronoun 728 729	她
+T45	Location-Nominal 943 946	屋子里
+T47	Person-Pronoun 1262 1264	他们
+T48	Location-Nominal 1265 1267	老家
+T49	Thing-Nominal 832 834	小鱼
+T50	Thing-Nominal 834 836	小虾
+T51	Thing-Nominal 991 993	木板
+T52	Thing-Nominal 997 999	台子
+T55	Thing-Nominal 734 736	泪花
+T56	Thing-Nominal 821 825	山山水水
+T58	Thing-Nominal 1096 1098	地毯
+T62	Thing-Nominal 105 110	湛蓝的天空
+T63	Thing-Nominal 114 118	朵朵白云
+T64	Person-Nominal 1279 1284	父老乡亲们
+T65	Person-Pronoun 1327 1328	我
+*	Coreference T8 T33
+T66	Location-Nominal 1054 1056	厕所
+T67	Thing-Nominal 975 977	水斗
+T69	Thing-Nominal 967 969	炉灶
+T70	Thing-Nominal 982 985	洗澡间
+R3	Part-Whole Arg1:T16 Arg2:T1	
+T72	Person-Nominal 489 492	一个人
+T74	Thing-Nominal 503 505	背包
+T77	Thing-Nominal 519 521	月光
+T80	Thing-Nominal 580 582	眼睛
+T81	Thing-Pronoun 592 594	它们
+T82	Person-Pronoun 772 774	我们
+T83	Person-Nominal 812 814	发小
+T84	Person-Nominal 805 807	父母
+T85	Person-Nominal 808 810	妻儿
+T86	Person-Nominal 815 819	同窗好友
+R6	Located Arg1:T69 Arg2:T45	
+R7	Located Arg1:T67 Arg2:T45	
+R8	Located Arg1:T70 Arg2:T45	
+R9	Located Arg1:T52 Arg2:T45	
+T89	Thing-Nominal 1224 1226	古镇
+T90	Thing-Nominal 1229 1232	大都市
+T91	Thing-Nominal 1233 1237	古道小巷
+T92	Thing-Nominal 1240 1246	钢筋水泥大道
+T93	Thing-Nominal 827 831	五谷杂粮
+T94	Person-Nominal 886 891	澳大利亚人
+T95	Person-Pronoun 907 909	我们
+T98	Location-Nominal 1194 1196	坡峰
+R11	Part-Whole Arg1:T3 Arg2:T4	
+T99	Person-Nominal 1274 1278	亲朋好友
+R15	Part-Whole Arg1:T24 Arg2:T28	
+R16	Part-Whole Arg1:T25 Arg2:T28	
+R17	Part-Whole Arg1:T26 Arg2:T28	
+R18	Part-Whole Arg1:T27 Arg2:T28	
+T100	Location-Nominal 844 846	故乡
+T101	Thing-Nominal 25 27	户口
+R12	Located Arg1:T63 Arg2:T62	
+R19	Family Arg1:T84 Arg2:T85	
+R20	Social Arg1:T83 Arg2:T86	
+T102	Location-Nominal 1101 1104	地毯上
+T103	Location-Nominal 1107 1110	地毯上
+T104	Location-Nominal 1114 1117	地毯上
+T2	Thing-Nominal 50 54	我的双脚
+R21	Part-Whole Arg1:T2 Arg2:T1	
+T61	Location-Nominal 87 93	现代化的都市
+T60	Location-Nominal 81 86	美丽的花园
+T13	Location-Nominal 119 121;122 126	金黄 色的沙滩
+T15	Thing-Nominal 137 142	璀璨的浪花
+T71	Person-Nominal 171 178	几千名中国学生
+T7	Time-Explicit 241 244	两个月
+R22	Social Arg1:T22 Arg2:T23	
+T6	Time-Implicit 464 476	一次晚上下课乘火车回来时
+T73	Thing-Nominal 494 499	车站的靠椅
+R23	Use Arg1:T72 Arg2:T73	
+T75	Thing-Nominal 508 516	一张三口子的照片
+R24	Located Arg1:T75 Arg2:T74	
+T76	Location-Nominal 548 553	夜晚的天空
+T78	Thing-Nominal 554 561	密密匝匝的星星
+*	Coreference T81 T78
+T9	Time-Implicit 595 605	长长的、凉飕飕的夜晚
+T10	Location-Nominal 625 630	美好的家乡
+T79	Thing-Nominal 656 658	明月
+T105	Location-Nominal 662 664	故乡
+T88	Person-Nominal 909 912;913 917	十一个 中国学生
+*	Coreference T88 T95
+T87	Thing-Nominal 920 932	一幢破旧的三房一厅的别墅
+T68	Person-Nominal 1029 1033	两位女生
+T57	Thing-Nominal 1087 1091	一件家用
+T53	Location-Nominal 1076 1080	整幢屋子
+T35	Thing-Nominal 1176 1185	一座小巧玲珑的小山
+R2	Near Arg1:T35 Arg2:T34	
+T54	Thing-Nominal 1211 1218	林林总总的高楼
+R5	Part-Whole Arg1:T37 Arg2:T47	
+R10	Part-Whole Arg1:T38 Arg2:T47	
+R25	Part-Whole Arg1:T39 Arg2:T47	
+R26	Part-Whole Arg1:T40 Arg2:T47	
+T59	Thing-Nominal 1297 1307	三居室或四居室的套房
+R1	Ownership Arg1:T99 Arg2:T59	
+R14	Ownership Arg1:T64 Arg2:T59	
+T46	Location-Nominal 1328 1333	以前的老家
+T14	Thing-Nominal 129 136	一望无边的海洋

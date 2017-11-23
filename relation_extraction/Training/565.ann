@@ -1,0 +1,339 @@
+T1	Location-Nominal 0 2	乡村
+T2	Thing-Nominal 3 5	柴垛
+R1	Located Arg1:T2 Arg2:T1	
+T3	Person-Pronoun 7 8	我
+T4	Time-Implicit 8 12	童年时代
+T5	Time-Implicit 23 25	儿时
+T6	Time-Implicit 25 28	晚饭后
+T7	Person-Nominal 40 45	几个小伙伴
+R2	Social Arg1:T3 Arg2:T7	
+T8	Person-Nominal 65 69	小伙伴们
+T9	Person-Nominal 102 106	一个伙伴
+T10	Thing-Nominal 112 114	柴垛
+T11	Thing-Nominal 128 130	小洞
+T12	Thing-Nominal 139 142	玉米秆
+T13	Location-Nominal 144 146	洞口
+R3	Located Arg1:T12 Arg2:T13	
+T14	Person-Pronoun 150 151	他
+T15	Location-Nominal 153 155	洞里
+T16	Location-Nominal 161 163	洞口
+T17	Thing-Nominal 175 177	柴垛
+T18	Person-Nominal 203 205	有人
+T19	Location-Pronoun 206 208	这里
+T20	Time-Implicit 213 217	那天晚上
+T21	Person-Nominal 218 226	我们这一拨小伙伴
+T22	Person-Pronoun 253 254	他
+T23	Person-Pronoun 261 262	他
+T24	Person-Nominal 267 269	自己
+T25	Location-Nominal 270 272	洞里
+T26	Person-Pronoun 277 279	我们
+*	Coreference T26 T21
+*	Coreference T24 T23
+*	Coreference T22 T9
+T27	Location-Nominal 290 292	农村
+T28	Thing-Nominal 293 295	柴垛
+T29	Location-Nominal 315 317	农村
+T30	Person-Nominal 318 320	孩子
+T31	Person-Nominal 333 337	90后们
+T32	Person-Nominal 320 323	70后
+T33	Person-Nominal 324 328	80后们
+T34	Thing-Nominal 359 361	柴垛
+T35	Thing-Nominal 365 368	玉米秆
+T36	Thing-Nominal 369 372	高粱秆
+T37	Thing-Nominal 373 376	芝麻秆
+R4	Part-Whole Arg1:T35 Arg2:T34	
+R5	Part-Whole Arg1:T36 Arg2:T34	
+R6	Part-Whole Arg1:T37 Arg2:T34	
+T38	Time-Implicit 380 383	秋收时
+T39	Person-Pronoun 384 386	我们
+T40	Thing-Nominal 390 393	架子车
+R7	Use Arg1:T39 Arg2:T40	
+T41	Thing-Nominal 394 396	玉米
+T42	Thing-Nominal 397 399	高粱
+T43	Thing-Nominal 403 405	秆茎
+R8	Part-Whole Arg1:T43 Arg2:T42	
+R9	Part-Whole Arg1:T43 Arg2:T41	
+T44	Thing-Nominal 407 408	车
+*	Coreference T44 T40
+T45	Location-Nominal 413 417	田间地头
+T46	Location-Nominal 419 420	家
+T47	Location-Nominal 422 427	自家的院子
+T48	Thing-Nominal 456 459	玉米秆
+T49	Thing-Nominal 460 463	高粱秆
+T50	Person-Nominal 465 466;467 468	士 兵
+T51	Person-Nominal 472 474	农人
+T52	Location-Nominal 475 477	家园
+T53	Thing-Nominal 480 483	玉米秆
+T54	Thing-Nominal 484 487	高粱秆
+T55	Thing-Nominal 498 500	柴垛
+T56	Person-Pronoun 505 506	我
+T57	Time-Implicit 514 517	那年月
+T58	Thing-Nominal 529 531	柴垛
+T59	Time-Implicit 552 555	那时候
+T60	Person-Nominal 563 565	母亲
+T61	Person-Pronoun 566 567	我
+R10	Family Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 577 580	塑料布
+R11	Use Arg1:T60 Arg2:T62	
+T63	Thing-Nominal 581 583	柴垛
+R12	Located Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 589 591	柴垛
+T65	Thing-Nominal 603 605	柴禾
+T66	Person-Pronoun 608 610	我们
+T67	Person-Nominal 623 625	农人
+T68	Thing-Nominal 627 629	柴垛
+T69	Thing-Pronoun 630 631	它
+*	Coreference T69 T68
+T70	Person-Nominal 653 654	农
+T71	Person-Nominal 661 663	农妇
+T72	Time-Implicit 663 665	每天
+T73	Person-Pronoun 668 669	她
+*	Coreference T73 T71
+T74	Thing-Nominal 672 674	柴禾
+R13	Part-Whole Arg1:T65 Arg2:T64	
+T75	Location-Nominal 696 698	厨房
+T76	Thing-Nominal 701 703	柴禾
+T77	Location-Nominal 706 709	锅灶前
+R14	Located Arg1:T76 Arg2:T77	
+T78	Person-Nominal 719 721	农人
+T79	Thing-Nominal 723 725	火柴
+R15	Use Arg1:T78 Arg2:T79	
+T80	Thing-Nominal 728 730	柴禾
+T81	Thing-Nominal 735 737	柴禾
+T82	Person-Nominal 744 746	农人
+T83	Location-Nominal 751 754	锅灶内
+T84	Thing-Nominal 774 776	自己
+*	Coreference T84 T81
+T85	Time-Implicit 783 789	离开家乡不久
+T86	Person-Pronoun 791 792	我
+T87	Thing-Nominal 806 808	柴垛
+T88	Person-Pronoun 810 811	我
+T89	Thing-Nominal 822 824	柴垛
+T90	Thing-Nominal 827 829	柴垛
+T91	Thing-Nominal 832 834	柴垛
+T92	Thing-Nominal 837 839	柴垛
+T93	Person-Pronoun 840 841	我
+T94	Thing-Nominal 856 859	芝麻秆
+T95	Thing-Nominal 863 867	玉米叶子
+T96	Thing-Nominal 873 875	柴垛
+R16	Part-Whole Arg1:T95 Arg2:T96	
+R17	Part-Whole Arg1:T94 Arg2:T96	
+T97	Thing-Nominal 893 895	柴垛
+T98	Thing-Pronoun 910 911	它
+*	Coreference T98 T97
+T99	Location-Nominal 923 925	村庄
+T100	Person-Pronoun 928 929	我
+T101	Thing-Nominal 930 932	锅灶
+T102	Person-Nominal 940 942	母亲
+T103	Thing-Nominal 943 945	柴禾
+R18	Located Arg1:T101 Arg2:T103	
+T104	Thing-Nominal 951 953	柴禾
+T105	Person-Pronoun 958 959	她
+T106	Thing-Nominal 963 965	风箱
+R19	Use Arg1:T105 Arg2:T106	
+T107	Thing-Nominal 974 976	锅灶
+T108	Thing-Nominal 979 981	柴禾
+R20	Located Arg1:T108 Arg2:T107	
+T109	Thing-Nominal 1000 1002	锅盖
+T110	Thing-Nominal 993 995	饭锅
+R21	Located Arg1:T109 Arg2:T110	
+T111	Person-Nominal 1027 1030	一家人
+T112	Person-Pronoun 1030 1031	你
+T113	Person-Pronoun 1033 1034	我
+T114	Person-Pronoun 1043 1044	我
+T115	Person-Nominal 1050 1052	母亲
+T116	Time-Implicit 1058 1064	第一次烧火时
+T117	Person-Nominal 1064 1066	自己
+*	Coreference T117 T114
+T118	Thing-Nominal 1069 1071	柴禾
+T119	Thing-Nominal 1073 1075	锅灶
+R22	Located Arg1:T118 Arg2:T119	
+T120	Person-Pronoun 1077 1078	我
+T121	Thing-Nominal 1082 1084	火柴
+T122	Thing-Nominal 1085 1087	柴禾
+T123	Thing-Nominal 1094 1096	火柴
+T124	Thing-Nominal 1102 1103;1104 1105	柴 禾
+T125	Person-Pronoun 1112 1113	我
+T126	Thing-Nominal 1119 1121	火柴
+T127	Thing-Nominal 1126 1128	柴禾
+R23	Use Arg1:T120 Arg2:T121	
+T128	Thing-Nominal 1131 1133	锅灶
+T129	Thing-Nominal 1135 1137	黑烟
+R24	Located Arg1:T129 Arg2:T128	
+T130	Person-Pronoun 1149 1150	我
+T131	Person-Pronoun 1176 1177	我
+T132	Person-Nominal 1182 1184	母亲
+T133	Thing-Nominal 1189 1192	擀面杖
+R25	Use Arg1:T132 Arg2:T133	
+T134	Person-Pronoun 1200 1201	我
+T135	Thing-Nominal 1208 1210	柴禾
+T136	Person-Pronoun 1215 1216	我
+T137	Thing-Nominal 1222 1224	柴禾
+T138	Location-Nominal 1227 1229	锅灶
+T139	Person-Nominal 1232 1234	母亲
+T140	Thing-Nominal 1242 1244	柴禾
+T141	Thing-Nominal 1253 1255	锅灶
+T142	Thing-Nominal 1259 1261	柴禾
+R26	Located Arg1:T142 Arg2:T141	
+T143	Person-Pronoun 1262 1263	我
+T144	Person-Pronoun 1271 1272	我
+T145	Person-Nominal 1281 1283	自己
+*	Coreference T144 T145
+T146	Time-Implicit 1289 1291	那年
+T147	Person-Pronoun 1291 1292	我
+T148	Person-Nominal 1296 1298	母亲
+T149	Location-Nominal 1299 1300	地
+T150	Person-Nominal 1305 1307	哥哥
+T151	Person-Nominal 1308 1310	姐姐
+R27	Family Arg1:T147 Arg2:T148	
+R28	Family Arg1:T147 Arg2:T150	
+R29	Family Arg1:T147 Arg2:T151	
+T152	Person-Pronoun 1317 1318	我
+T153	Location-Nominal 1322 1323	家
+T154	Person-Pronoun 1337 1339	她们
+T155	Person-Pronoun 1340 1341	我
+T156	Person-Pronoun 1355 1356	我
+T157	Thing-Nominal 1362 1364	地瓜
+T158	Thing-Nominal 1366 1367	刀
+R30	Use Arg1:T156 Arg2:T158	
+T159	Thing-Nominal 1368 1370	地瓜
+T160	Thing-Nominal 1376 1377	锅
+R31	Located Arg1:T159 Arg2:T160	
+T161	Thing-Nominal 1380 1381	锅
+T162	Thing-Nominal 1388 1390	箅子
+R32	Located Arg1:T162 Arg2:T161	
+T163	Thing-Nominal 1393 1395	箅子
+T164	Thing-Nominal 1399 1401	馒头
+R33	Located Arg1:T164 Arg2:T163	
+T165	Thing-Nominal 1404 1406	勺子
+R34	Use Arg1:T156 Arg2:T165	
+T166	Thing-Nominal 1413 1415	豆酱
+T167	Thing-Nominal 1419 1421	瓷碗
+R35	Located Arg1:T166 Arg2:T167	
+T168	Thing-Nominal 1438 1440	箅子
+R36	Located Arg1:T167 Arg2:T168	
+T169	Thing-Nominal 1424 1426	瓷碗
+T170	Thing-Nominal 1444 1446	锅盖
+T171	Thing-Nominal 1475 1477	锅灶
+T172	Thing-Nominal 1480 1482	柴禾
+R37	Located Arg1:T172 Arg2:T171	
+T173	Person-Nominal 1486 1489	一家人
+T174	Person-Nominal 1494 1496	母亲
+T175	Time-Implicit 1494 1499	母亲回家时
+T176	Person-Pronoun 1500 1501	我
+T177	Person-Pronoun 1509 1510	她
+*	Coreference T177 T174
+T178	Location-Nominal 1511 1513	厨房
+T179	Person-Nominal 1528 1530	母亲
+T180	Person-Pronoun 1533 1534	我
+T181	Person-Pronoun 1544 1545	我
+T182	Person-Nominal 1547 1549	母亲
+T183	Time-Explicit 1569 1577	1985年的夏天
+T184	Location-Nominal 1578 1581	我们村
+T185	Person-Nominal 1583 1592	一个改良锅灶的师傅
+T186	Thing-Nominal 1605 1607	锅灶
+T187	Thing-Nominal 1610 1612	锅灶
+T188	Location-Nominal 1613 1615	灶膛
+T189	Thing-Nominal 1618 1620	锅灶
+T190	Location-Nominal 1622 1624	灶膛
+T191	Thing-Nominal 1631 1634	铁箅子
+R38	Located Arg1:T191 Arg2:T190	
+T192	Thing-Nominal 1635 1637	柴禾
+T193	Thing-Nominal 1648 1651	铁箅子
+T194	Thing-Pronoun 1658 1659	它
+*	Coreference T194 T187
+T195	Thing-Nominal 1668 1671	拉风箱
+T196	Location-Nominal 1680 1682	灶膛
+T197	Person-Nominal 1690 1697	改良锅灶的师傅
+T198	Location-Nominal 1699 1702	锅灶口
+T199	Thing-Nominal 1712 1715	薄铁皮
+R39	Located Arg1:T199 Arg2:T198	
+T200	Thing-Nominal 1722 1724	柴禾
+T201	Thing-Nominal 1728 1730	锅灶
+T202	Thing-Nominal 1736 1739	薄铁皮
+T203	Thing-Nominal 1742 1744	柴禾
+T204	Location-Nominal 1752 1754	我家
+T205	Thing-Nominal 1755 1757	锅灶
+R40	Located Arg1:T205 Arg2:T204	
+T206	Thing-Nominal 1769 1773	改良锅灶
+T207	Person-Pronoun 1777 1778	我
+T208	Time-Implicit 1784 1791	每到做饭的时候
+T209	Thing-Nominal 1823 1825	秸秆
+T210	Person-Nominal 1827 1829	农人
+T211	Thing-Nominal 1834 1835	牛
+T212	Thing-Nominal 1840 1841	房
+T213	Location-Nominal 1859 1862	村子里
+T214	Thing-Nominal 1867 1869	烟囱
+R41	Located Arg1:T214 Arg2:T213	
+T215	Thing-Nominal 1873 1875	秸秆
+T216	Person-Nominal 1909 1916	我们几个小伙伴
+T217	Thing-Nominal 1946 1948	烟囱
+T218	Thing-Nominal 1960 1962	烟囱
+T219	Thing-Nominal 1974 1976	烟囱
+T220	Thing-Nominal 1983 1985	白鹭
+T221	Location-Nominal 1999 2001	自家
+T222	Thing-Nominal 2002 2004	烟囱
+R42	Located Arg1:T222 Arg2:T221	
+T223	Location-Nominal 2021 2022	家
+T224	Thing-Nominal 2037 2040	洗脸盆
+T225	Thing-Nominal 2046 2048	水盆
+*	Coreference T225 T224
+T226	Thing-Nominal 2071 2073	烟囱
+T227	Person-Pronoun 2087 2088	我
+T228	Thing-Pronoun 2094 2095	你
+*	Coreference T228 T226
+T229	Thing-Nominal 2107 2109	柴垛
+T230	Thing-Nominal 2110 2112	锅灶
+T231	Person-Pronoun 2120 2121	我
+T232	Time-Implicit 2124 2132	童年、青少年时期
+T233	Person-Pronoun 2133 2134	我
+T234	Time-Explicit 2134 2139	1993年
+T235	Location-Nominal 2141 2143	家乡
+T236	Thing-Pronoun 2150 2152	它们
+*	Coreference T236 T230 T229
+T237	Location-Nominal 2159 2162	农村生
+T238	Person-Nominal 2169 2172	农民工
+T239	Location-Nominal 2173 2174	城
+T240	Person-Nominal 2177 2181	家乡的人
+T241	Thing-Nominal 2188 2189	牛
+T242	Thing-Nominal 2190 2191	羊
+T243	Person-Nominal 2195 2197	农户
+T244	Thing-Nominal 2201 2203	秸秆
+T245	Thing-Nominal 2235 2237	锅灶
+T246	Thing-Nominal 2251 2253	秸秆
+T247	Thing-Nominal 2259 2263	玉米秸秆
+T248	Thing-Nominal 2274 2276	柴垛
+T249	Person-Nominal 2284 2286	农妇
+T250	Person-Pronoun 2294 2295	她
+*	Coreference T250 T249
+T251	Thing-Nominal 2300 2302	柴禾
+T252	Person-Pronoun 2314 2315	我
+T253	Location-Nominal 2317 2319	农村
+T254	Person-Nominal 2323 2326	70后
+*	Coreference T252 T254
+T255	Person-Nominal 2327 2332	家乡的亲人
+T256	Location-Nominal 2333 2335	农村
+R43	Family Arg1:T252 Arg2:T255	
+T257	Person-Pronoun 2336 2337	我
+T258	Location-Nominal 2342 2344	农村
+T259	Person-Pronoun 2345 2346	我
+T260	Person-Nominal 2347 2352	农民的儿子
+*	Coreference T259 T260
+T261	Location-Nominal 2377 2379	家乡
+T262	Person-Pronoun 2384 2385	我
+T263	Location-Nominal 2391 2393	村庄
+T264	Person-Pronoun 2396 2397	我
+T265	Person-Nominal 2403 2405	父母
+R44	Family Arg1:T264 Arg2:T265	
+T266	Location-Nominal 2410 2412	家乡
+T267	Person-Pronoun 2419 2420	我
+T268	Time-Implicit 2424 2426	儿时
+T269	Location-Nominal 2429 2433	田间小道
+T270	Thing-Nominal 2442 2443	鱼
+T271	Thing-Nominal 2444 2445	虾
+T272	Location-Nominal 2446 2449	小河边
+T273	Person-Nominal 2450 2452	孩童
+T274	Time-Implicit 2464 2466	儿时
+T275	Person-Pronoun 2474 2475	我
+T276	Person-Nominal 2482 2484	游子
+*	Coreference T275 T276

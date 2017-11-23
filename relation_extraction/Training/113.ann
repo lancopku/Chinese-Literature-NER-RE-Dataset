@@ -1,0 +1,316 @@
+T1	Location-Nominal 2 7	家乡的井里
+T2	Thing-Nominal 12 13	水
+R1	Located Arg1:T2 Arg2:T1	
+T3	Location-Nominal 2 4	家乡
+T4	Thing-Nominal 21 22	水
+T5	Thing-Nominal 32 35	一口井
+T6	Person-Nominal 43 45	乡民
+T7	Person-Nominal 49 51	农人
+T8	Time-Implicit 51 53	白天
+T9	Location-Nominal 54 57	田野里
+T10	Time-Implicit 65 67	傍晚
+T11	Location-Nominal 71 73	井上
+T12	Thing-Nominal 74 75	水
+T13	Thing-Nominal 76 77	饭
+T14	Time-Implicit 95 102	母亲年轻的时候
+T15	Person-Nominal 95 97	母亲
+T16	Person-Nominal 114 117	女超人
+*	Coreference T16 T15 T17
+T17	Person-Pronoun 118 119	她
+T18	Location-Nominal 120 123	村校里
+T19	Person-Nominal 127 131	民办教师
+T20	Location-Nominal 137 139	家里
+T21	Thing-Nominal 140 152	两群家禽(一群鸡，一群鸭
+R2	Located Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 154 155;156 158	三 头猪
+R3	Located Arg1:T22 Arg2:T20	
+T23	Person-Nominal 159 163	四个孩子
+T24	Thing-Nominal 166 170	五亩田地
+T25	Metric 166 168	五亩
+T26	Thing-Nominal 173 175	旱田
+T27	Thing-Nominal 176 178	水田
+R4	Part-Whole Arg1:T26 Arg2:T24	
+R5	Part-Whole Arg1:T27 Arg2:T24	
+T28	Person-Nominal 180 182	父亲
+T29	Location-Nominal 183 185	镇上
+T30	Time-Implicit 191 193	周末
+T31	Location-Nominal 195 196	家
+T32	Person-Nominal 197 199	母亲
+R6	Family Arg1:T28 Arg2:T32	
+T33	Time-Implicit 199 201	每天
+T34	Person-Pronoun 212 213	她
+*	Coreference T34 T32
+T35	Person-Nominal 225 227	父亲
+T36	Time-Implicit 234 236	周末
+T37	Location-Nominal 237 238	家
+T38	Person-Nominal 239 241	父亲
+T39	Thing-Nominal 248 249	日
+T40	Person-Nominal 253 255	母亲
+T41	Person-Pronoun 261 262	他
+*	Coreference T41 T38
+R7	Family Arg1:T40 Arg2:T41	
+T42	Person-Pronoun 269 270	他
+T43	Location-Nominal 272 274	床上
+T44	Thing-Nominal 282 283	身
+T45	Person-Nominal 292 293	人
+T46	Person-Pronoun 296 297	己
+T48	Thing-Nominal 301 302	田
+T47	Person-Nominal 315 317	母亲
+T49	Person-Nominal 321 323	父亲
+R8	Family Arg1:T49 Arg2:T47	
+T50	Person-Pronoun 326 330	她自个儿
+*	Coreference T50 T47
+T51	Person-Pronoun 347 348	她
+T52	Thing-Nominal 357 359	老牛
+T53	Person-Pronoun 372 373	她
+T54	Person-Nominal 398 399;400 402	孩 子们
+T55	Time-Implicit 411 420	某年冬天的一个下午
+T56	Person-Pronoun 421 422	她
+T57	Person-Nominal 424 431	一岁大的小儿子
+T58	Location-Nominal 432 434	本村
+T59	Location-Nominal 435 439	民办小学
+T60	Location-Nominal 445 446	家
+T61	Location-Nominal 449 452	水缸底
+T62	Thing-Nominal 455 458	晒谷场
+T63	Person-Pronoun 461 462	她
+T64	Thing-Nominal 466 468	水桶
+T65	Thing-Nominal 470 471;472 473	水 井
+T66	Time-Implicit 476 478	傍晚
+T67	Person-Nominal 479 481	村人
+T68	Thing-Nominal 482 483	水
+T69	Thing-Nominal 484 485	饭
+T70	Time-Implicit 490 492	此时
+T71	Time-Implicit 494 499	冬季枯水期
+*	Coreference T71 T70
+T72	Thing-Nominal 500 502	水井
+T73	Location-Nominal 507 513	井底的沙窝里
+T74	Thing-Nominal 516 521	一小窝子水
+R9	Located Arg1:T74 Arg2:T73	
+T75	Person-Nominal 523 531	前一个来挑水的人
+T76	Location-Nominal 534 536	井底
+T77	Thing-Nominal 537 538	水
+R10	Located Arg1:T77 Arg2:T76	
+T78	Time-Implicit 523 532;533 540	前一个来挑水的人下 到井底舀水之后
+T79	Thing-Nominal 541 542	水
+T80	Location-Nominal 544 546	地下
+R11	Located Arg1:T79 Arg2:T80	
+T81	Person-Nominal 557 559	母亲
+T82	Person-Pronoun 564 565	她
+*	Coreference T82 T81
+T83	Thing-Nominal 574 577	一担水
+T84	Location-Nominal 578 579	家
+T85	Thing-Nominal 581 582	水
+T86	Location-Nominal 586 590	这顿晚饭
+T87	Person-Nominal 591 593;594 595	孩子 们
+T88	Person-Pronoun 604 605	她
+T89	Location-Nominal 611 613	井底
+T90	Thing-Nominal 614 615	水
+R12	Located Arg1:T90 Arg2:T89	
+T91	Person-Nominal 622 625	小儿子
+T92	Person-Pronoun 632 633	她
+T93	Person-Nominal 636 638	儿子
+T94	Location-Nominal 640 643	井栏旁
+T95	Person-Pronoun 645 646	他
+*	Coreference T95 T93
+T96	Person-Nominal 656 658	儿子
+T97	Location-Nominal 664 665	井
+T98	Person-Pronoun 667 668	她
+T99	Person-Nominal 675 677	儿子
+T100	Location-Nominal 681 682	井
+T101	Location-Nominal 686 691	井边小路上
+T102	Person-Nominal 694 697	外村人
+T103	Person-Nominal 698 700	儿子
+T104	Person-Pronoun 708 709	她
+T105	Person-Pronoun 721 722	她
+T106	Person-Nominal 731 733	儿子
+T107	Location-Nominal 736 737	井
+T108	Thing-Nominal 738 739	水
+R13	Located Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 741 742	她
+T110	Thing-Nominal 744 746	水桶
+T111	Thing-Nominal 747 749	勺子
+T112	Thing-Nominal 750 752	绳索
+R14	Use Arg1:T109 Arg2:T112	
+T113	Location-Nominal 754 756	井底
+R15	Located Arg1:T110 Arg2:T113	
+R16	Located Arg1:T111 Arg2:T113	
+T114	Thing-Nominal 767 770	一条腿
+T115	Thing-Nominal 772 773	脚
+T116	Location-Nominal 775 782	井壁的踏脚孔里
+R17	Located Arg1:T115 Arg2:T116	
+R18	Part-Whole Arg1:T114 Arg2:T109	
+R19	Part-Whole Arg1:T115 Arg2:T109	
+T117	Thing-Nominal 783 785	井壁
+T118	Thing-Nominal 786 788	红砖
+T119	Time-Implicit 791 793	常年
+T120	Thing-Nominal 799 801;802 807	黏腻 湿滑的青苔
+T121	Thing-Nominal 810 811	脚
+T122	Time-Implicit 830 834	整个冬天
+T123	Thing-Nominal 836 837	水
+T124	Person-Nominal 838 840	村人
+T125	Location-Nominal 847 849	井底
+T126	Thing-Nominal 850 851	水
+R20	Located Arg1:T126 Arg2:T125	
+T127	Location-Nominal 852 855	井壁上
+T128	Thing-Nominal 856 861	踏脚孔的砖
+R21	Located Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 864 865	脚
+T130	Thing-Nominal 874 879	母亲的双脚
+T131	Person-Nominal 874 876	母亲
+R22	Part-Whole Arg1:T130 Arg2:T131	
+T132	Thing-Nominal 885 890	两边的井壁
+T133	Location-Nominal 885 887	两边
+R23	Located Arg1:T132 Arg2:T133	
+T134	Person-Nominal 907 909	母子
+T135	Location-Nominal 913 915	井底
+T136	Thing-Nominal 918 919	井
+T137	Metric 928 931	三米多
+T138	Person-Pronoun 936 937	她
+*	Coreference T138 T131
+T139	Location-Nominal 941 943	井底
+T140	Thing-Nominal 945 946	头
+T141	Location-Nominal 951 954	井口上
+T142	Thing-Nominal 955 961	六边形的天空
+R24	Located Arg1:T142 Arg2:T141	
+T143	Location-Nominal 962 964	井底
+T144	Person-Pronoun 967 968	她
+T145	Person-Pronoun 971 973	自己
+T146	Location-Nominal 980 982	井外
+T147	Time-Implicit 990 992	此时
+T148	Time-Implicit 994 1000	牛羊归的时刻
+*	Coreference T148 T147
+T149	Thing-Nominal 1002 1003	牛
+T150	Thing-Nominal 1006 1007	田
+T151	Thing-Nominal 1010 1011	粪
+T152	Person-Nominal 1013 1018	挑水的农人
+T153	Thing-Nominal 1014 1015	水
+T154	Location-Nominal 1021 1022	家
+T155	Location-Nominal 1023 1025	井底
+T156	Thing-Nominal 1030 1035	狭窄的井壁
+T157	Person-Nominal 1053 1055	母亲
+T158	Person-Pronoun 1060 1061	她
+*	Coreference T158 T157
+T159	Person-Nominal 1078 1081	母子俩
+T160	Location-Nominal 1083 1086	井底里
+T161	Person-Pronoun 1087 1088	她
+T162	Thing-Nominal 1088 1093	身上的汗毛
+T163	Location-Nominal 1088 1090	身上
+R25	Located Arg1:T162 Arg2:T163	
+T164	Location-Nominal 1098 1100	额上
+T165	Thing-Nominal 1102 1104	汗珠
+R26	Located Arg1:T165 Arg2:T164	
+T166	Time-Implicit 1105 1109	这个时刻
+T167	Person-Pronoun 1130 1131	她
+T168	Thing-Nominal 1138 1139	水
+T169	Location-Nominal 1144 1147	沙层里
+T170	Thing-Nominal 1148 1149	水
+R27	Located Arg1:T170 Arg2:T169	
+T171	Person-Pronoun 1154 1155	她
+T172	Thing-Nominal 1161 1162	水
+T173	Thing-Nominal 1163 1164	沙
+T174	Person-Nominal 1173 1178	背后的儿子
+T175	Person-Pronoun 1188 1189	他
+*	Coreference T175 T174
+T176	Person-Nominal 1190 1192	母亲
+T177	Location-Nominal 1193 1195	背上
+T178	Location-Nominal 1173 1175	背后
+T179	Person-Nominal 1199 1201	母亲
+T180	Thing-Nominal 1206 1212	井壁的踏脚孔
+T181	Location-Nominal 1206 1208	井壁
+R28	Located Arg1:T180 Arg2:T181	
+T182	Location-Nominal 1214 1216	井底
+T183	Thing-Nominal 1226 1227	井
+T184	Thing-Nominal 1230 1231	井
+T185	Person-Nominal 1236 1238	母子
+T186	Thing-Nominal 1243 1245	双腿
+T187	Metric 1254 1257	三米多
+T188	Person-Pronoun 1262 1263	她
+T189	Metric 1266 1269	三里多
+T190	Person-Pronoun 1274 1275	她
+T191	Location-Nominal 1278 1280	井口
+T192	Thing-Nominal 1296 1298	晚风
+T193	Person-Nominal 1303 1305	母亲
+T194	Thing-Nominal 1305 1310	汗透的身体
+T195	Time-Implicit 1317 1319	这时
+T196	Person-Pronoun 1320 1321	她
+*	Coreference T196 T193
+T197	Thing-Nominal 1324 1326	手指
+R29	Part-Whole Arg1:T197 Arg2:T196	
+T198	Time-Implicit 1329 1333	爬上来时
+T199	Person-Pronoun 1342 1343	她
+T200	Thing-Nominal 1346 1351	井底的水桶
+T201	Location-Nominal 1346 1348	井底
+R30	Located Arg1:T200 Arg2:T201	
+T202	Thing-Nominal 1358 1360	水桶
+T203	Location-Nominal 1365 1366	家
+T204	Time-Implicit 1367 1370	回家后
+T205	Thing-Nominal 1374 1375	水
+T206	Thing-Nominal 1381 1382	饭
+T207	Thing-Nominal 1383 1387	这顿晚饭
+T208	Time-Implicit 1394 1398	一个月后
+T209	Location-Nominal 1399 1402	四里外
+T210	Thing-Nominal 1403 1405	邻村
+R31	Located Arg1:T210 Arg2:T209	
+T211	Thing-Nominal 1408 1410	井壁
+T212	Thing-Nominal 1415 1416	井
+T213	Thing-Nominal 1418 1419	水
+T214	Person-Nominal 1420 1421	人
+T215	Location-Nominal 1424 1427	井底下
+T216	Person-Nominal 1437 1439	母亲
+T217	Person-Nominal 1444 1446	父亲
+R32	Family Arg1:T217 Arg2:T216	
+T218	Person-Nominal 1465 1467	母亲
+T219	Person-Nominal 1481 1483	父亲
+T220	Person-Pronoun 1492 1493	我
+T221	Person-Nominal 1502 1504	母亲
+T222	Person-Pronoun 1506 1507	我
+T223	Person-Pronoun 1513 1514	我
+T224	Person-Pronoun 1516 1517	你
+T225	Person-Pronoun 1520 1521	我
+T226	Person-Pronoun 1522 1523	你
+T227	Person-Pronoun 1524 1525	我
+T228	Person-Nominal 1533 1535	儿子
+T229	Person-Nominal 1550 1552	父亲
+T230	Person-Nominal 1556 1558	母亲
+R33	Family Arg1:T229 Arg2:T230	
+*	Coreference T226 T219
+T231	Person-Nominal 1562 1564	母亲
+T232	Thing-Nominal 1567 1568	水
+T233	Person-Pronoun 1572 1573	我
+T234	Person-Pronoun 1579 1580	我
+T235	Person-Pronoun 1583 1584	她
+*	Coreference T235 T231
+T236	Person-Pronoun 1591 1592	她
+T237	Person-Pronoun 1605 1606	我
+T238	Person-Nominal 1612 1614	母亲
+T239	Thing-Nominal 1615 1620;1621 1622	她柔弱的双 肩
+R34	Part-Whole Arg1:T239 Arg2:T238	
+T240	Person-Pronoun 1615 1616	她
+*	Coreference T240 T238
+T241	Person-Nominal 1636 1638	父亲
+T242	Person-Pronoun 1645 1647	我们
+T243	Person-Pronoun 1660 1661	我
+T244	Person-Nominal 1677 1679	父亲
+T245	Person-Nominal 1684 1686	母亲
+T246	Metric 1686 1690	几十年来
+T247	Abstract 1707 1713	《赞吴老师》
+T248	Person-Nominal 1719 1721	老师
+T249	Thing-Nominal 1723 1724	田
+T250	Person-Nominal 1725 1727	孩儿
+T251	Thing-Nominal 1731 1732	肩
+T252	Thing-Nominal 1739 1741	书本
+T253	Thing-Nominal 1747 1749	教鞭
+T254	Person-Nominal 1754 1755	夫
+T255	Person-Nominal 1752 1753	子
+T256	Thing-Nominal 1760 1761	家
+T257	Person-Pronoun 1785 1786	我
+T258	Person-Nominal 1789 1791	父亲
+T259	Person-Nominal 1801 1804	我母亲
+T260	Person-Pronoun 1801 1802	我
+R35	Family Arg1:T259 Arg2:T260	
+R36	Family Arg1:T259 Arg2:T258	
+T261	Person-Pronoun 1820 1821	她
+*	Coreference T261 T259
+T262	Thing-Nominal 1780 1783	半边天
+T263	Person-Nominal 1772 1775	贤良妇
+T264	Thing-Nominal 1762 1763	国

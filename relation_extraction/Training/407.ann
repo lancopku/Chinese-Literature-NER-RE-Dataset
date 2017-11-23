@@ -1,0 +1,107 @@
+T1	Time-Implicit 1 5	闹钟响起
+T2	Person-Pronoun 9 10	你
+T3	Person-Pronoun 55 56	你
+T4	Person-Nominal 62 64	人生
+T5	Person-Pronoun 80 81	你
+T6	Time-Implicit 116 122	我们挥手告别
+T7	Person-Nominal 138 140	人生
+T8	Thing-Nominal 129 134	曾经的阴霾
+T9	Thing-Nominal 144 148	一朵浪花
+T10	Thing-Nominal 209 211	风儿
+T11	Thing-Nominal 216 218	雨儿
+T12	Thing-Nominal 223 225	草儿
+T13	Thing-Nominal 230 232	水儿
+T14	Location-Nominal 261 264	人世间
+T15	Location-Nominal 273 276	人世间
+T16	Person-Nominal 292 295	一个人
+T17	Thing-Nominal 331 333	夕阳
+T18	Thing-Nominal 334 338	盛开的花
+T19	Thing-Nominal 339 341	夕阳
+T20	Thing-Nominal 342 346	醇甜的酒
+*	Coreference T17 T18
+*	Coreference T19 T20
+T21	Time-Implicit 347 349	昨夜
+T22	Location-Nominal 356 360	你的心头
+T23	Thing-Nominal 347 352	昨夜的春意
+R1	Located Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 361 366	眼前的诗画
+T25	Thing-Nominal 370 374	你的面容
+T26	Person-Pronoun 499 500	你
+T27	Person-Pronoun 518 519	你
+T28	Person-Pronoun 531 532	我
+T29	Person-Nominal 599 601	我们
+T30	Person-Nominal 614 616	我们
+T31	Person-Nominal 622 624	我们
+T32	Person-Nominal 631 633	我们
+T33	Person-Nominal 643 645	我们
+T34	Location-Nominal 650 657	祖国的山川大地
+T35	Person-Nominal 658 660	我们
+T36	Person-Nominal 671 673	我们
+T37	Person-Nominal 684 686	我们
+T38	Person-Nominal 700 702	我们
+T39	Thing-Nominal 704 706	键盘
+T40	Person-Nominal 715 717	我们
+T41	Person-Nominal 728 730	我们
+T42	Abstract 733 735	太极
+T43	Person-Nominal 741 743	我们
+T44	Person-Nominal 757 759	我们
+T45	Person-Nominal 772 774	我们
+T46	Thing-Nominal 779 781	海棠
+T47	Person-Nominal 787 789	我们
+T48	Time-Implicit 789 791	午后
+T49	Person-Nominal 802 804	我们
+T51	Location-Nominal 821 828	老年大学的课堂
+T52	Location-Nominal 838 845	社区服务的走廊
+T53	Thing-Nominal 848 853	我们的背影
+R2	Located Arg1:T53 Arg2:T52	
+T50	Thing-Nominal 831 836	我们的身影
+R3	Located Arg1:T50 Arg2:T51	
+T54	Location-Nominal 855 861	自愿者的队伍
+T55	Thing-Nominal 864 869	我们的足迹
+R4	Located Arg1:T55 Arg2:T54	
+T56	Person-Pronoun 896 897	我
+T57	Thing-Nominal 898 902	一只发夹
+T58	Location-Nominal 906 907	头
+R5	Located Arg1:T57 Arg2:T58	
+T59	Thing-Nominal 910 912	大海
+T60	Person-Pronoun 919 920	我
+T61	Thing-Nominal 921 925	一朵鲜花
+T62	Location-Nominal 929 931	耳旁
+R6	Located Arg1:T61 Arg2:T62	
+T63	Thing-Nominal 933 935	沙漠
+T64	Person-Pronoun 942 943	我
+T65	Thing-Nominal 944 950	一件霓虹羽衣
+T66	Location-Nominal 954 956	身上
+R7	Located Arg1:T65 Arg2:T66	
+T67	Thing-Nominal 959 961	高山
+T68	Person-Pronoun 968 969	我
+T69	Thing-Nominal 970 975	生命的种子
+T70	Location-Nominal 979 981	故乡
+R8	Located Arg1:T69 Arg2:T70	
+T71	Thing-Nominal 983 987	美丽山花
+T72	Person-Pronoun 993 994	我
+T73	Thing-Nominal 995 1002	乡村牧童的笛声
+T74	Thing-Nominal 1007 1012	温柔的斜阳
+T75	Person-Pronoun 1013 1014	我
+T76	Thing-Nominal 1015 1017;1018 1023	山脊 少女的歌声
+T77	Thing-Nominal 1028 1033	幸福的门窗
+T78	Thing-Nominal 1034 1038	我的金秋
+T79	Person-Nominal 1120 1124	不同的人
+T80	Organization-Nominal 1125 1130	不同的民族
+T81	Organization-Nominal 1131 1136	不同的国家
+T82	Person-Pronoun 1148 1149	我
+T83	Thing-Nominal 1186 1188	人生
+T84	Thing-Nominal 1190 1192	人民
+T85	Thing-Nominal 1194 1196	祖国
+T86	Time-Implicit 1261 1263	现在
+T87	Abstract 1271 1274	中国梦
+T88	Location-Nominal 1290 1301	和谐、美丽、繁荣的四川
+T89	Person-Nominal 1302 1313;1314 1316	丰富、多彩、欣欣向荣的 自己
+T90	Person-Pronoun 1366 1367	我
+T91	Thing-Nominal 1370 1375	每一颗水珠
+T92	Thing-Nominal 1393 1394	凤
+T93	Location-Nominal 1396 1397	巢
+R9	Located Arg1:T92 Arg2:T93	
+T94	Thing-Nominal 1408 1412	夜的云朵
+T95	Thing-Nominal 1443 1451	美好的美丽的歌声
+T96	Thing-Nominal 1459 1467	柔柔的柔柔的月色

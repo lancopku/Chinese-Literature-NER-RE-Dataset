@@ -1,0 +1,256 @@
+T1	Time-Implicit 0 5	初夏的傍晚
+T2	Location-Name 6 15	西安东郊白鹿原西麓
+T3	Thing-Nominal 19 21	小麦
+T4	Thing-Nominal 22 24	夕阳
+T5	Thing-Nominal 27 29	彩霞
+T6	Thing-Nominal 37 39	晚风
+T7	Thing-Pronoun 43 45	自己
+*	Coreference T7 T5
+T8	Person-Nominal 45 47	美女
+T9	Thing-Nominal 49 51	面纱
+T10	Location-Nominal 52 54	塬下
+T11	Location-Nominal 59 60;61 62	闹 市
+T12	Person-Nominal 65 66	人
+T13	Thing-Nominal 70 72	烟雾
+T14	Location-Nominal 79 81	夜市
+T15	Time-Implicit 85 87	初夏
+T16	Metric 87 89	一天
+T17	Person-Pronoun 101 102	我
+T18	Location-Name 109 115	灞河湿地公园
+T19	Person-Pronoun 130 131	我
+T20	Location-Name 133 136	灞河畔
+T21	Metric 138 142	两千多米
+T22	Thing-Nominal 146 148	月亮
+T23	Person-Pronoun 156 157	我
+T24	Location-Name 166 168	灞河
+T25	Location-Nominal 169 171	道路
+T26	Location-Nominal 179 181	街巷
+T27	Location-Nominal 191 193	小路
+T28	Location-Nominal 188 189	河
+*	Coreference T28 T24
+T31	Thing-Nominal 213 215	行道
+T32	Metric 205 207	一条
+T33	Location-Nominal 222 226	湿地公园
+*	Coreference T33 T18
+T34	Location-Nominal 241 245	河堤两旁
+T35	Location-Nominal 241 243	河堤
+T29	Location-Nominal 196 202	灞河左岸河堤
+*	Coreference T29 T35
+T30	Thing-Nominal 252 254	树木
+T36	Person-Pronoun 258 259	我
+T37	Thing-Nominal 266 268	河水
+T38	Thing-Nominal 272 274	柳树
+T39	Metric 269 272	一堆堆
+T40	Metric 275 278	一团团
+T41	Thing-Nominal 278 280	芦苇
+T42	Thing-Nominal 284 286	河水
+T43	Thing-Nominal 293 295	晚风
+T44	Thing-Nominal 300 302	小虫
+T45	Location-Nominal 312 314	河旁
+T46	Thing-Nominal 314 315	头
+T47	Thing-Nominal 317 319	矿灯
+T48	Location-Nominal 321 323	水边
+T49	Thing-Nominal 324 326	青蛙
+T50	Person-Nominal 327 328	人
+T51	Thing-Nominal 333 335	水花
+T52	Thing-Nominal 339 341	河水
+R1	Part-Whole Arg1:T46 Arg2:T50	
+T53	Metric 346 349	一波波
+T54	Thing-Nominal 352 354	涟漪
+T55	Person-Pronoun 359 360	我
+T56	Time-Implicit 360 362	儿时
+T57	Location-Name 363 365	灞河
+T58	Person-Pronoun 370 371	我
+T59	Person-Pronoun 395 397	我们
+T60	Person-Nominal 402 403	人
+T61	Thing-Nominal 401 402	天
+T62	Person-Pronoun 409 410	我
+T63	Person-Pronoun 413 415	自己
+*	Coreference T63 T62
+T64	Person-Nominal 436 437	儿
+T65	Person-Nominal 437 438	女
+T66	Person-Pronoun 448 449	我
+T67	Person-Pronoun 453 454	我
+T68	Person-Pronoun 482 483	我
+T69	Location-Name 494 496	灞河
+T70	Location-Name 502 504	苏杭
+T71	Location-Nominal 507 509	廊桥
+T72	Location-Nominal 512 516	灞河两岸
+T73	Thing-Nominal 516 518	银河
+T74	Thing-Nominal 520 521	星
+T75	Location-Nominal 524 526	城市
+T76	Thing-Nominal 526 528	灯光
+R2	Located Arg1:T76 Arg2:T75	
+*	Coreference T76 T74 T73
+T77	Person-Nominal 533 534	人
+T78	Location-Name 539 541	灞河
+T79	Location-Name 546 548	灞河
+T80	Person-Pronoun 552 553	我
+T81	Time-Implicit 560 564	童年时光
+T82	Location-Name 568 570	欧洲
+T83	Location-Name 571 575	莱茵河畔
+T84	Location-Name 580 582	杭州
+T85	Location-Name 583 587	西子湖边
+R3	Part-Whole Arg1:T83 Arg2:T82	
+R4	Part-Whole Arg1:T85 Arg2:T84	
+T86	Person-Pronoun 589 590	我
+T87	Person-Nominal 617 618	人
+T88	Metric 591 593	一个
+T89	Person-Nominal 641 643	顽童
+*	Coreference T89 T86
+T90	Time-Implicit 646 648	今晚
+T91	Location-Name 649 651	灞河
+T92	Thing-Nominal 652 654	月光
+T93	Thing-Nominal 655 657	微风
+T94	Thing-Nominal 658 664;665 666	远近不一的林 木
+T95	Person-Pronoun 668 669	我
+T96	Person-Pronoun 675 676	我
+T97	Location-Nominal 678 680	廊桥
+T98	Person-Pronoun 683 684	我
+T99	Person-Pronoun 688 689	我
+T100	Person-Pronoun 699 701	自己
+*	Coreference T100 T99
+T101	Person-Pronoun 704 705	我
+T102	Person-Pronoun 748 749	我
+T103	Location-Name 750 752	灞河
+T104	Thing-Nominal 773 775	河水
+T105	Person-Pronoun 791 792	我
+T106	Time-Implicit 797 799	初夏
+T107	Location-Name 800 802	灞河
+T108	Person-Nominal 806 807	人
+T109	Person-Nominal 811 812	人
+T110	Location-Nominal 817 821	灞河湿地
+T111	Location-Nominal 824 826	塞上
+T112	Location-Nominal 826 828	沙湖
+T113	Location-Name 838 841	白洋淀
+T114	Location-Nominal 841 844	芦苇荡
+T115	Thing-Nominal 847 849	芦苇
+T116	Thing-Nominal 845 846	水
+T117	Thing-Nominal 851 852	船
+T118	Thing-Nominal 853 854	林
+T119	Location-Nominal 853 855	林道
+T120	Thing-Nominal 862 863	水
+T121	Location-Nominal 864 866	河岸
+T122	Thing-Nominal 866 867	花
+T123	Thing-Nominal 867 868	草
+T124	Location-Nominal 884 886	岸边
+T125	Thing-Nominal 886 888	柳林
+T126	Person-Nominal 889 891	少女
+T127	Thing-Nominal 892 894	秀发
+R5	Part-Whole Arg1:T127 Arg2:T126	
+*	Coreference T127 T125
+T128	Thing-Nominal 900 902	月光
+T129	Location-Nominal 904 908	灞河湿地
+T130	Person-Nominal 914 916	情侣
+T131	Location-Nominal 928 932	河堤坡间
+T132	Thing-Nominal 933 937	灌木花卉
+T133	Thing-Pronoun 949 951	自己
+*	Coreference T133 T132
+T134	Thing-Nominal 954 956	外衣
+R6	Part-Whole Arg1:T134 Arg2:T132	
+T135	Thing-Nominal 962 963	花
+T136	Thing-Nominal 965 968	小动物
+T137	Thing-Nominal 977 979	花木
+T138	Thing-Nominal 986 988	月光
+T139	Thing-Nominal 994 996	玉纱
+*	Coreference T139 T138
+T140	Metric 1002 1003	片
+T141	Thing-Nominal 1003 1005	树叶
+T142	Person-Nominal 1007 1009	月光
+R7	Located Arg1:T138 Arg2:T141	
+T143	Thing-Nominal 1011 1013	树枝
+T144	Location-Nominal 1023 1025	河道
+T147	Person-Pronoun 1061 1062	我
+T148	Thing-Nominal 1066 1069	萤火虫
+T145	Abstract 1046 1052	《荷塘月色》
+T146	Abstract 1086 1091	《葬花呤》
+T149	Thing-Nominal 1103 1104	雨
+T150	Location-Name 1106 1108	西安
+T151	Thing-Nominal 1113 1114	天
+T152	Thing-Nominal 1115 1116	云
+T153	Time-Implicit 1120 1123	夜深了
+T154	Location-Nominal 1127 1129	天空
+T155	Metric 1131 1133	一勾
+T156	Thing-Nominal 1133 1135	弯月
+T157	Thing-Nominal 1138 1139	星
+T158	Thing-Nominal 1140 1141	月
+T159	Thing-Nominal 1148 1150	笑容
+R8	Located Arg1:T159 Arg2:T158	
+T160	Time-Implicit 1153 1155	今晚
+T161	Thing-Nominal 1156 1158	月亮
+T162	Person-Pronoun 1166 1167	我
+T163	Thing-Pronoun 1175 1176	她
+*	Coreference T163 T161
+T164	Thing-Pronoun 1179 1180	她
+T165	Person-Pronoun 1181 1182	我
+T166	Thing-Pronoun 1190 1191	她
+T167	Person-Pronoun 1192 1193	我
+T168	Thing-Nominal 1201 1202	月
+T169	Person-Nominal 1208 1209	人
+T170	Person-Pronoun 1227 1229	我们
+T171	Thing-Nominal 1235 1237	月光
+T172	Person-Pronoun 1239 1241	我们
+T173	Thing-Nominal 1247 1249	月光
+T174	Person-Pronoun 1251 1253	我们
+T175	Time-Explicit 1262 1264	唐代
+T176	Person-Nominal 1264 1266	诗人
+T177	Person-Name 1266 1269	刘希夷
+T178	Location-Name 1272 1274	灞河
+T179	Person-Name 1289 1291	沈彬
+T180	Location-Name 1294 1296	灞河
+T181	Thing-Nominal 1304 1305	剑
+T182	Thing-Nominal 1300 1302	灞水
+T183	Thing-Nominal 1278 1280	灞水
+T184	Person-Nominal 1309 1310	人
+T185	Metric 1298 1300	一条
+T186	Person-Nominal 1315 1317	人们
+T187	Location-Name 1318 1320	灞河
+T188	Thing-Nominal 1321 1322;1323 1324	灞 桥
+T189	Thing-Nominal 1325 1327	灞水
+T190	Location-Nominal 1334 1339	古灞桥牌楼
+T191	Thing-Nominal 1340 1342	对联
+T192	Person-Nominal 1346 1348	世人
+T193	Thing-Nominal 1357 1358	莺
+T194	Person-Nominal 1361 1362	客
+T195	Thing-Nominal 1365 1366	柳
+T196	Location-Name 1378 1380	灞河
+T197	Location-Pronoun 1385 1386	它
+*	Coreference T197 T196
+T198	Location-Nominal 1400 1402	两岸
+T199	Thing-Nominal 1403 1407	万物生灵
+T200	Person-Pronoun 1412 1414	我们
+T201	Person-Nominal 1415 1416	人
+T202	Person-Nominal 1428 1430	文人
+T203	Person-Nominal 1430 1432	墨客
+T204	Location-Nominal 1445 1449	灞河流域
+T205	Location-Name 1467 1469	灞河
+T206	Location-Pronoun 1472 1474	自己
+*	Coreference T206 T205
+T207	Person-Name 1478 1479	子
+T208	Location-Nominal 1480 1482	川上
+T209	Thing-Nominal 1492 1493	星
+T210	Location-Name 1503 1505	灞河
+T211	Person-Pronoun 1516 1517	我
+T212	Location-Pronoun 1518 1519	它
+*	Coreference T212 T210
+T213	Person-Pronoun 1526 1528	我们
+T214	Person-Nominal 1532 1534	古人
+T215	Thing-Nominal 1549 1551	明月
+T216	Thing-Nominal 1555 1557	明月
+T217	Metric 1554 1555	轮
+T218	Thing-Nominal 1558 1560	土地
+T219	Thing-Nominal 1565 1567	土地
+T220	Metric 1564 1565	片
+T221	Thing-Nominal 1571 1573	青山
+T222	Thing-Nominal 1579 1581	灞桥
+T223	Person-Nominal 1597 1599	作家
+T224	Person-Name 1599 1604	陈忠实先生
+T225	Location-Name 1605 1607	灞河
+T226	Person-Nominal 1615 1616	人
+T227	Thing-Nominal 1617 1618	鸟
+T228	Location-Nominal 1620 1621	巢
+T229	Person-Pronoun 1623 1624	我
+T230	Thing-Nominal 1626 1628	月光
+T231	Location-Nominal 1629 1634	回家的小道
+T232	Thing-Nominal 1644 1645	心
+R9	Part-Whole Arg1:T232 Arg2:T229	

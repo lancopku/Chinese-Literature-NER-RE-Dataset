@@ -1,0 +1,79 @@
+T1	Thing-Nominal 13 15	行李
+T2	Location-Nominal 19 21	家门
+T3	Person-Pronoun 26 27	我
+T4	Thing-Nominal 53 55	票根
+T5	Thing-Nominal 50 51	手
+R1	Located Arg1:T4 Arg2:T5	
+R2	Part-Whole Arg1:T5 Arg2:T3	
+T6	Person-Pronoun 57 58	我
+T7	Person-Nominal 73 74	人
+T8	Person-Pronoun 103 105	自己
+*	Coreference T8 T3
+T9	Person-Pronoun 135 136	我
+T10	Thing-Nominal 138 140	列车
+T11	Location-Nominal 144 148	城市边缘
+T12	Location-Nominal 176 178	城市
+T13	Location-Nominal 213 218	小小的驿站
+T14	Metric 211 213	一个
+T15	Location-Nominal 201 206	再大的城市
+*	Coreference T13 T15
+T16	Location-Nominal 219 224	广阔的乡野
+T17	Thing-Nominal 230 235	沉重的列车
+T18	Person-Pronoun 238 239	我
+T19	Location-Nominal 243 245	乡野
+*	Coreference T19 T16
+T20	Location-Nominal 257 259	城市
+T21	Location-Nominal 261 263	农村
+T22	Thing-Nominal 294 295	耳
+R3	Part-Whole Arg1:T22 Arg2:T18	
+T23	Time-Implicit 300 302	今夜
+T24	Thing-Nominal 306 311	困倦的双眼
+T25	Thing-Nominal 315 320	疲倦的身体
+T26	Time-Implicit 321 323	儿时
+T27	Thing-Nominal 346 347	山
+T28	Thing-Nominal 350 351	水
+T29	Person-Pronoun 380 381	我
+T30	Person-Pronoun 383 384	我
+T31	Thing-Nominal 400 401	书
+T32	Person-Nominal 405 406	人
+T33	Thing-Nominal 413 415	躯体
+R4	Part-Whole Arg1:T33 Arg2:T32	
+T34	Person-Pronoun 426 427	我
+T35	Person-Pronoun 443 444	咱
+*	Coreference T34 T35
+T36	Person-Nominal 484 486	父亲
+T37	Person-Nominal 490 492	母亲
+T38	Thing-Nominal 484 489	父亲的白发
+R5	Part-Whole Arg1:T38 Arg2:T36	
+T39	Thing-Nominal 490 495	母亲的皱纹
+R6	Part-Whole Arg1:T39 Arg2:T37	
+T40	Thing-Nominal 547 548	柴
+T41	Thing-Nominal 548 549	米
+T42	Thing-Nominal 549 550	油
+T43	Thing-Nominal 551 552	酱
+T44	Thing-Nominal 550 551	盐
+T45	Thing-Nominal 552 553	醋
+T46	Thing-Nominal 553 554	茶
+T47	Thing-Nominal 555 556	锅
+T48	Thing-Nominal 556 557	碗
+T49	Thing-Nominal 557 558	瓢
+T50	Thing-Nominal 558 559	盆
+T51	Location-Nominal 605 610	拥挤的车厢
+T52	Thing-Nominal 765 767	列车
+T53	Person-Nominal 787 788	人
+T54	Person-Nominal 798 799	人
+T55	Person-Nominal 806 812	南来北往的人
+T56	Thing-Nominal 852 853	风
+T57	Location-Nominal 857 858	路
+T58	Person-Pronoun 876 877	我
+T59	Thing-Nominal 898 900	风沙
+T60	Person-Pronoun 909 910	我
+T61	Person-Pronoun 940 941	我
+T62	Time-Implicit 953 956	某一天
+T63	Person-Pronoun 957 958	我
+T64	Thing-Nominal 968 970	夕阳
+T65	Thing-Nominal 973 975	倦鸟
+T66	Location-Nominal 978 982	温暖的巢
+T67	Metric 971 973	一只
+T68	Thing-Pronoun 986 987	它
+R7	Located Arg1:T68 Arg2:T66	

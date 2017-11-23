@@ -1,0 +1,191 @@
+T1	Location-Nominal 1 8	祖国的东北边陲
+T2	Location-Name 10 15	穆棱河上游
+T3	Location-Name 16 19	完达山
+T4	Location-Name 20 23	老爷岭
+T5	Location-Nominal 34 42	绿色生态旅游城市
+T6	Person-Pronoun 46 47	我
+T7	Location-Nominal 46 50	我的故乡
+*	Coreference T7 T5 T9
+T8	Location-Nominal 16 26	完达山和老爷岭结合部
+R1	Part-Whole Arg1:T5 Arg2:T8	
+T9	Location-Pronoun 51 53	那里
+T10	Thing-Nominal 57 59	山岭
+T11	Thing-Nominal 64 66	林海
+T12	Thing-Nominal 70 72	湿地
+T13	Thing-Nominal 76 78	江河
+T14	Location-Nominal 102 104	矿区
+T15	Metric 100 102	百里
+R2	Located Arg1:T10 Arg2:T7	
+R3	Located Arg1:T11 Arg2:T7	
+R4	Located Arg1:T12 Arg2:T7	
+R5	Located Arg1:T13 Arg2:T7	
+R6	Part-Whole Arg1:T14 Arg2:T7	
+T16	Person-Pronoun 106 107	我
+T17	Location-Nominal 108 110	故乡
+T18	Location-Nominal 115 118	山林里
+T19	Thing-Nominal 120 121	纱
+T20	Thing-Nominal 122 124	晨雾
+R7	Located Arg1:T20 Arg2:T18	
+T21	Person-Pronoun 125 126	我
+T22	Location-Nominal 127 129	故乡
+T23	Thing-Nominal 134 136	天空
+T24	Thing-Nominal 138 139	火
+T25	Thing-Nominal 140 142	骄阳
+R8	Located Arg1:T25 Arg2:T23	
+T26	Location-Nominal 145 147	故乡
+T27	Thing-Nominal 148 151	油彩画
+T28	Person-Pronoun 163 164	我
+T29	Location-Nominal 176 178	故乡
+T31	Person-Nominal 188 190	少女
+T32	Thing-Nominal 195 197	小溪
+T33	Person-Nominal 201 203	牧童
+T34	Thing-Nominal 206 208	夕阳
+T35	Location-Nominal 233 236	田野里
+T36	Thing-Nominal 245 247	火焰
+T37	Thing-Nominal 261 263	艳阳
+T38	Thing-Pronoun 278 279	你
+T39	Thing-Nominal 288 290	细手
+T40	Thing-Nominal 300 302	苍山
+T41	Thing-Nominal 316 318	河水
+T42	Thing-Nominal 322 324	河水
+T43	Thing-Nominal 326 327	金
+T44	Thing-Nominal 328 329	银
+T45	Location-Nominal 338 340	矿区
+T46	Location-Nominal 342 343	街
+T47	Location-Nominal 344 345	巷
+R9	Part-Whole Arg1:T45 Arg2:T46	
+R10	Part-Whole Arg1:T47 Arg2:T45	
+T48	Metric 351 353	一天
+T49	Location-Nominal 354 358;359 361	百里矿区 蓦地
+T50	Person-Pronoun 378 379	你
+T51	Thing-Nominal 389 391	灰烬
+T52	Thing-Nominal 395 397	星斗
+T53	Person-Pronoun 399 400	你
+T54	Thing-Nominal 403 405	火花
+T30	Location-Nominal 407 409	故乡
+T55	Thing-Nominal 415 417	彩云
+T56	Thing-Nominal 434 436	晚霞
+T57	Thing-Nominal 453 455	红絮
+T58	Thing-Pronoun 472 473	你
+T59	Thing-Pronoun 474 475	你
+T60	Thing-Pronoun 479 480	你
+T61	Thing-Nominal 484 486	自己
+*	Coreference T60 T61
+T62	Thing-Pronoun 504 505	你
+T63	Thing-Pronoun 506 507	你
+T64	Thing-Pronoun 511 512	你
+T65	Thing-Pronoun 541 542	你
+T66	Person-Nominal 556 558	有人
+T67	Thing-Pronoun 560 561	你
+T68	Thing-Nominal 567 569	暮蔼
+T69	Thing-Nominal 577 578	血
+T70	Thing-Nominal 579 581	残阳
+T71	Thing-Nominal 585 587	晚霞
+T72	Thing-Pronoun 591 592	你
+T73	Thing-Pronoun 630 631	你
+T74	Thing-Nominal 650 652	朝阳
+T75	Location-Nominal 666 668	沙漠
+T76	Location-Nominal 676 677;678 679	森 林
+T77	Thing-Nominal 687 690	小溪水
+T78	Person-Pronoun 704 705	我
+T79	Person-Pronoun 712 713	你
+T80	Person-Pronoun 721 722	你
+T81	Thing-Nominal 733 735	红日
+T82	Thing-Nominal 756 758	晚风
+T83	Thing-Nominal 761 763	余晖
+T84	Location-Nominal 767 769	故乡
+T85	Location-Nominal 841 843	故乡
+T86	Person-Nominal 848 850	先辈
+T87	Thing-Nominal 850 852	汗水
+T88	Thing-Nominal 853 855	鲜血
+R11	Part-Whole Arg1:T87 Arg2:T86	
+R12	Part-Whole Arg1:T88 Arg2:T86	
+T89	Location-Nominal 843 861	这方用无数先辈汗水和鲜血浸润的黑土地
+*	Coreference T85 T89
+T90	Person-Nominal 866 868	人民
+T91	Person-Nominal 889 892	拓荒人
+T92	Location-Nominal 914 917	北大荒
+T93	Person-Pronoun 922 923	我
+T94	Person-Pronoun 930 932	他们
+*	Coreference T94 T91
+T95	Location-Nominal 941 943	故乡
+T96	Time-Implicit 943 945	今天
+T97	Thing-Nominal 945 947	夕阳
+T98	Thing-Nominal 951 953	炊烟
+T99	Thing-Nominal 954 956	暮蔼
+T100	Thing-Nominal 960 962	小鸟
+T101	Thing-Nominal 959 960	巢
+R13	Located Arg1:T100 Arg2:T101	
+T102	Location-Nominal 963 965	旷野
+T103	Thing-Nominal 969 970	蝉
+T104	Thing-Nominal 972 974	小河
+T105	Thing-Nominal 978 980	浪花
+R14	Located Arg1:T104 Arg2:T105	
+R15	Located Arg1:T103 Arg2:T102	
+T106	Thing-Nominal 994 996	图画
+T107	Thing-Nominal 997 999	图画
+T108	Thing-Nominal 1000 1002	底片
+T109	Thing-Nominal 1028 1030	涟漪
+T110	Thing-Nominal 1049 1053	井架飞轮
+T111	Thing-Nominal 1060 1064	排矸矿车
+T112	Location-Nominal 1041 1043	远处
+R16	Located Arg1:T110 Arg2:T112	
+R17	Located Arg1:T111 Arg2:T112	
+T113	Person-Nominal 1081 1085	劳动号子
+T114	Thing-Nominal 1090 1092	晚霞
+T115	Person-Nominal 1124 1126	老人
+T116	Person-Pronoun 1143 1145	他们
+*	Coreference T115 T116 T118 T121
+T117	Thing-Nominal 1146 1148	额头
+R18	Part-Whole Arg1:T117 Arg2:T116	
+T118	Person-Pronoun 1157 1159	他们
+T119	Thing-Nominal 1172 1174	扑克
+T120	Thing-Nominal 1176 1177;1178 1179	象 棋
+R19	Use Arg1:T118 Arg2:T119	
+R20	Use Arg1:T118 Arg2:T120	
+T121	Person-Pronoun 1193 1195	他们
+T122	Thing-Nominal 1210 1212	锣鼓
+T123	Person-Nominal 1232 1235	中年人
+T124	Thing-Nominal 1246 1247	腰
+R21	Part-Whole Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 1249 1252	红丝带
+R22	Located Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 1256 1257	手
+R23	Part-Whole Arg1:T126 Arg2:T123	
+T127	Thing-Nominal 1259 1262	花折扇
+R24	Located Arg1:T127 Arg2:T126	
+R25	Use Arg1:T123 Arg2:T127	
+T128	Thing-Nominal 1280 1281	花
+T129	Person-Nominal 1282 1285	学生们
+T130	Thing-Nominal 1286 1288	亭谢
+T131	Location-Nominal 1286 1289	亭谢间
+T132	Location-Nominal 1290 1293	绿柳下
+T133	Location-Nominal 1294 1297	小溪旁
+T134	Thing-Nominal 1308 1310	夕阳
+T135	Thing-Nominal 1315 1316	霞
+T136	Time-Implicit 1335 1339	此时此刻
+T137	Thing-Nominal 1340 1341	天
+T138	Thing-Nominal 1341 1342	地
+T139	Person-Pronoun 1350 1351	我
+T140	Location-Nominal 1354 1356	故乡
+T141	Thing-Pronoun 1362 1363	你
+T142	Location-Nominal 1366 1368	大漠
+T143	Thing-Nominal 1368 1370	孤烟
+R26	Located Arg1:T143 Arg2:T142	
+T144	Location-Nominal 1372 1374	长河
+T145	Thing-Nominal 1374 1376	落日
+R27	Located Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1387 1389	落霞
+T147	Thing-Nominal 1390 1392	孤鹜
+T148	Thing-Nominal 1396 1398	秋水
+T149	Location-Nominal 1405 1407	江南
+T150	Thing-Pronoun 1411 1412	你
+T151	Location-Nominal 1428 1430	港湾
+T152	Thing-Nominal 1434 1435	你
+T153	Location-Nominal 1494 1496	故乡
+T154	Thing-Pronoun 1500 1501	你
+T155	Thing-Pronoun 1515 1516	你
+T156	Thing-Pronoun 1530 1531	你
+T157	Person-Pronoun 1545 1546	我
+T158	Person-Pronoun 1550 1551	我
+T159	Person-Pronoun 1556 1557	我

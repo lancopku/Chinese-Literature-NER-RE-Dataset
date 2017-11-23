@@ -1,0 +1,326 @@
+T1	Person-Nominal 2 4	父亲
+T2	Person-Nominal 9 11	儿子
+R1	Family Arg1:T1 Arg2:T2	
+T3	Person-Nominal 28 30	自己
+T4	Person-Nominal 40 44	妻儿老小
+R2	Family Arg1:T3 Arg2:T4	
+T5	Person-Pronoun 45 46	我
+*	Coreference T5 T3 T2
+T6	Thing-Nominal 57 59	耳朵
+R3	Part-Whole Arg1:T6 Arg2:T5	
+T7	Person-Nominal 62 64	流氓
+T8	Person-Nominal 78 80	恶鬼
+T9	Time-Implicit 108 117	一个斜阳下沉的傍晚
+T10	Person-Nominal 118 120	父亲
+T11	Person-Pronoun 123 124	我
+T12	Thing-Nominal 129 131	鬓角
+R4	Part-Whole Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 133 134	手
+T14	Person-Nominal 136 140	我的头顶
+T15	Person-Pronoun 167 168	他
+R5	Part-Whole Arg1:T13 Arg2:T15	
+T16	Thing-Nominal 168 172	半颗残牙
+R6	Ownership Arg1:T15 Arg2:T16	
+T17	Person-Pronoun 179 180	他
+T18	Thing-Nominal 183 185	眼泪
+T19	Person-Pronoun 186 187	我
+T20	Person-Nominal 190 192	父亲
+T21	Person-Pronoun 193 194	我
+T22	Person-Pronoun 200 201	他
+T23	Person-Pronoun 205 206	我
+T24	Time-Implicit 209 219	当天太阳出来的那会儿
+T25	Person-Pronoun 219 220	我
+T26	Person-Pronoun 221 222	他
+T27	Time-Implicit 229 231	清早
+T28	Person-Pronoun 232 233	我
+T29	Location-Nominal 235 237	东方
+T30	Thing-Nominal 240 242	红日
+T31	Person-Nominal 245 247	父亲
+T32	Time-Implicit 249 252	这会儿
+T33	Person-Name 253 256	藏红花
+T34	Location-Name 258 261	兴凯湖
+T35	Person-Name 268 271	藏红花
+T36	Person-Name 275 278	藏红花
+T37	Person-Pronoun 279 280	我
+T38	Time-Implicit 281 285	高二时候
+T39	Person-Nominal 286 288	同桌
+*	Coreference T36 T39 T41 T44
+R7	Social Arg1:T37 Arg2:T36	
+T40	Time-Implicit 289 291	当年
+T41	Person-Pronoun 292 293	她
+T42	Organization-Nominal 294 298	我们学校
+T43	Person-Pronoun 300 301	我
+T44	Person-Nominal 305 307	名人
+T45	Person-Nominal 309 313	别的女生
+T46	Thing-Nominal 318 320	鸦雀
+T47	Person-Pronoun 326 327	她
+T48	Thing-Nominal 341 344	塑身衣
+T49	Thing-Nominal 345 348	喇叭裤
+T50	Thing-Nominal 362 365	丹凤眼
+T51	Thing-Nominal 366 369	柳叶眉
+R8	Ownership Arg1:T47 Arg2:T49	
+R9	Ownership Arg1:T47 Arg2:T48	
+R10	Part-Whole Arg1:T51 Arg2:T47	
+R11	Part-Whole Arg1:T50 Arg2:T47	
+T52	Time-Implicit 381 387	每到考试之前
+T53	Person-Pronoun 388 389	她
+T54	Person-Pronoun 394 395	她
+T55	Thing-Nominal 399 400	手
+R12	Part-Whole Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 402 405	我的肩
+R13	Located Arg1:T55 Arg2:T56	
+T57	Thing-Nominal 419 421	眼睛
+R14	Part-Whole Arg1:T57 Arg2:T54	
+T58	Thing-Nominal 432 437	几粒糖豆儿
+T59	Thing-Nominal 439 443	我的衣袋
+R15	Located Arg1:T58 Arg2:T59	
+T60	Time-Implicit 465 470	考试的时候
+T61	Person-Pronoun 471 472	我
+R16	Ownership Arg1:T61 Arg2:T59	
+T62	Thing-Nominal 477 479	卷子
+T63	Person-Pronoun 481 482	她
+T64	Person-Pronoun 486 487	她
+T65	Person-Nominal 494 499	监考的老师
+T66	Person-Nominal 506 510	流动监考
+R17	Social Arg1:T64 Arg2:T65	
+R18	Social Arg1:T65 Arg2:T66	
+R19	Social Arg1:T64 Arg2:T66	
+R20	Social Arg1:T61 Arg2:T65	
+T67	Person-Pronoun 513 514	他
+*	Coreference T67 T66
+T68	Thing-Nominal 516 518	胳膊
+R21	Part-Whole Arg1:T68 Arg2:T67	
+T69	Person-Pronoun 523 524	她
+T70	Person-Pronoun 534 535	她
+T71	Person-Pronoun 542 543	她
+T72	Person-Nominal 548 552	监考老师
+T73	Person-Pronoun 559 560	我
+T74	Time-Implicit 565 572	毕业考试的时候
+T75	Thing-Nominal 577 579	单桌
+T76	Person-Pronoun 587 588	她
+T77	Person-Pronoun 599 600	我
+T78	Time-Implicit 610 612	现在
+T79	Person-Nominal 619 621	父亲
+T80	Thing-Nominal 624 626	废品
+T81	Person-Pronoun 629 630	她
+T82	Time-Implicit 649 655	二十多年以后
+T83	Person-Pronoun 656 657	她
+T84	Person-Nominal 659 666	一家企业的高管
+*	Coreference T83 T84
+T85	Organization-Nominal 659 663	一家企业
+R22	Ownership Arg1:T83 Arg2:T85	
+T86	Time-Implicit 680 684	那天早上
+T87	Person-Pronoun 685 686	我
+T88	Person-Nominal 689 691	父亲
+T89	Person-Nominal 693 700	我另外一个同学
+R23	Social Arg1:T87 Arg2:T89	
+T90	Person-Nominal 709 711	小偷
+R24	General-Special Arg1:T89 Arg2:T90	
+T91	Organization-Nominal 714 717	收容所
+T92	Time-Implicit 718 721	现如今
+T93	Person-Nominal 722 731	一座县城的知名警察
+R25	General-Special Arg1:T89 Arg2:T93	
+T94	Location-Nominal 722 726	一座县城
+T95	Person-Pronoun 739 740	我
+T96	Person-Nominal 749 751	父亲
+T97	Person-Nominal 789 791	父亲
+T98	Person-Nominal 798 800	父亲
+T99	Person-Pronoun 805 806	我
+T100	Person-Pronoun 815 816	他
+T101	Person-Nominal 816 818	自己
+*	Coreference T99 T100 T101
+T102	Person-Nominal 826 828	父亲
+T103	Person-Pronoun 840 841	我
+T104	Person-Pronoun 853 854	我
+T105	Time-Implicit 854 860	参加校庆那年
+T106	Time-Implicit 867 869	那年
+T107	Person-Pronoun 871 872	我
+T108	Time-Implicit 878 880	后来
+T109	Person-Pronoun 899 900	我
+T110	Time-Explicit 899 906	我四十五岁那年
+T111	Time-Explicit 910 911;912 913	现 在
+T112	Metric 915 917	十年
+T113	Person-Pronoun 920 921	我
+T114	Person-Pronoun 933 934	我
+T115	Thing-Nominal 967 969	标本
+T116	Thing-Nominal 973 975	标本
+T117	Thing-Nominal 979 981	化石
+T118	Person-Pronoun 983 984	我
+T119	Person-Nominal 986 989	组织者
+R26	Social Arg1:T118 Arg2:T119	
+T120	Location-Nominal 1014 1021	一间偌大的教室
+T121	Location-Nominal 1025 1027	教室
+*	Coreference T121 T120
+T122	Person-Nominal 1034 1038	服毒的人
+T123	Thing-Nominal 1042 1044	胃肠
+R27	Part-Whole Arg1:T123 Arg2:T122	
+T124	Person-Name 1050 1053	王喜成
+T125	Person-Nominal 1054 1056	脚夫
+R28	General-Special Arg1:T124 Arg2:T125	
+T126	Location-Nominal 1060 1063	角落里
+R29	Part-Whole Arg1:T126 Arg2:T121	
+T127	Thing-Nominal 1064 1065	烟
+T128	Person-Pronoun 1066 1067	我
+T129	Person-Pronoun 1072 1073	他
+*	Coreference T124 T129
+T130	Person-Pronoun 1075 1076	他
+T131	Person-Nominal 1081 1084	校领导
+T132	Location-Nominal 1088 1091	迎客厅
+R30	Social Arg1:T128 Arg2:T129	
+R31	Social Arg1:T130 Arg2:T131	
+R32	Social Arg1:T128 Arg2:T131	
+T133	Person-Name 1093 1094;1095 1097	藏 红花
+R33	Social Arg1:T131 Arg2:T133	
+T134	Person-Pronoun 1099 1100	我
+T135	Person-Name 1134 1136	喜成
+T136	Location-Name 1146 1148	密山
+T137	Time-Implicit 1152 1155;1156 1159	活动结 束以后
+T138	Person-Name 1160 1163	藏红花
+T139	Person-Pronoun 1164 1165	她
+T140	Person-Nominal 1164 1168	她的随从
+*	Coreference T139 T138
+R34	Social Arg1:T138 Arg2:T140	
+T141	Metric 1170 1174	三个小时
+T142	Location-Name 1179 1181	密山
+T143	Person-Pronoun 1182 1183	我
+R35	Social Arg1:T143 Arg2:T140	
+T144	Thing-Nominal 1187 1189	酒桌
+T145	Person-Pronoun 1191 1192	她
+T146	Person-Pronoun 1205 1206	我
+*	Coreference T145 T146
+T147	Organization-Nominal 1207 1209	母校
+T148	Location-Name 1211 1213	密山
+T149	Person-Pronoun 1217 1218	我
+T150	Person-Nominal 1217 1221	我的神童
+T151	Person-Pronoun 1226 1227	我
+T152	Person-Pronoun 1228 1229	他
+*	Coreference T150 T152 T159
+T153	Person-Nominal 1232 1234	神童
+T154	Person-Pronoun 1239 1240	我
+*	Coreference T151 T154
+T155	Person-Name 1254 1257	藏红花
+T156	Thing-Nominal 1266 1268	药材
+T157	Person-Nominal 1278 1280	中医
+T158	Person-Pronoun 1286 1287	她
+*	Coreference T158 T155
+T159	Person-Pronoun 1303 1304	我
+T160	Person-Pronoun 1309 1310	我
+T161	Person-Pronoun 1311 1312	她
+T162	Time-Implicit 1311 1316	她走的时候
+T163	Thing-Nominal 1326 1328	眼泪
+T164	Person-Pronoun 1329 1330	我
+T165	Thing-Nominal 1344 1348	她的眼泪
+T166	Thing-Nominal 1350 1352	眼袋
+T167	Thing-Nominal 1354 1356	嘴角
+T168	Thing-Nominal 1358 1360	领窝
+T169	Thing-Nominal 1365 1367	眼泪
+T170	Thing-Nominal 1370 1372	阡陌
+T171	Person-Pronoun 1375 1376	她
+R36	Part-Whole Arg1:T166 Arg2:T171	
+R37	Part-Whole Arg1:T167 Arg2:T171	
+R38	Part-Whole Arg1:T168 Arg2:T171	
+R39	Located Arg1:T165 Arg2:T166	
+R40	Located Arg1:T165 Arg2:T167	
+R41	Located Arg1:T165 Arg2:T168	
+T172	Person-Pronoun 1389 1390	我
+T173	Person-Nominal 1474 1476	父亲
+T174	Person-Pronoun 1480 1481	我
+T175	Person-Name 1484 1487	藏红花
+R42	Social Arg1:T173 Arg2:T175	
+T176	Person-Pronoun 1492 1493	我
+T177	Person-Pronoun 1498 1499	我
+T178	Person-Pronoun 1506 1507	他
+*	Coreference T178 T173
+T179	Person-Name 1509 1512	藏红花
+T180	Person-Pronoun 1533 1534	她
+*	Coreference T180 T179
+T181	Person-Pronoun 1555 1556	她
+T182	Person-Nominal 1561 1566	白血病患儿
+R43	Social Arg1:T181 Arg2:T182	
+T183	Metric 1568 1570	一万
+T184	Person-Pronoun 1582 1583	我
+T185	Person-Name 1586 1589	藏红花
+T186	Person-Pronoun 1612 1613	我
+T187	Time-Implicit 1613 1617	那天早上
+T188	Person-Nominal 1622 1624	父亲
+T189	Person-Nominal 1633 1635	父亲
+T190	Person-Pronoun 1637 1638	我
+T191	Person-Pronoun 1661 1662	他
+*	Coreference T191 T189
+T192	Time-Implicit 1671 1673	现在
+T193	Person-Pronoun 1677 1678	他
+T194	Thing-Nominal 1683 1684	莲
+T195	Person-Nominal 1688 1691	一尊佛
+T196	Time-Implicit 1692 1696	打那天起
+T197	Person-Pronoun 1709 1710	我
+T198	Person-Pronoun 1717 1718	我
+T199	Time-Implicit 1725 1730	十年过去了
+T200	Person-Pronoun 1731 1732	我
+T201	Thing-Nominal 1761 1762	水
+T202	Thing-Nominal 1763 1764	火
+T203	Thing-Nominal 1768 1769	海
+T204	Thing-Nominal 1770 1771	河
+T205	Thing-Nominal 1795 1796	海
+T206	Thing-Nominal 1797 1798	河
+T207	Thing-Nominal 1826 1828	路标
+T208	Person-Nominal 1830 1832	父亲
+T209	Person-Pronoun 1837 1838	我
+*	Coreference T209 T208 T210 T211
+T210	Person-Pronoun 1851 1852	他
+T211	Person-Nominal 1856 1859	他儿子
+T212	Thing-Nominal 1862 1863	风
+T213	Thing-Nominal 1864 1865	雨
+T214	Thing-Nominal 1867 1869	五谷
+T215	Location-Nominal 1883 1888	-一座城市
+T216	Thing-Nominal 1906 1908	禾苗
+T217	Thing-Nominal 1920 1922	酸雨
+T218	Organization-Nominal 1923 1927	沈氏家族
+T219	Person-Name 1935 1938	藏红花
+T220	Time-Implicit 1938 1940	现在
+T221	Person-Pronoun 1951 1952	我
+T222	Person-Pronoun 1958 1959	我
+T223	Person-Pronoun 1963 1964	我
+T224	Person-Nominal 1968 1970	父亲
+T225	Person-Pronoun 1972 1973	我
+T226	Person-Nominal 1990 1994	我的孙儿
+T227	Person-Pronoun 1998 1999	我
+T228	Person-Pronoun 2002 2003	我
+T229	Person-Nominal 2005 2009	我的孙儿
+R44	Family Arg1:T225 Arg2:T226	
+T230	Location-Nominal 2026 2028	村落
+T231	Thing-Nominal 2030 2031	书
+T232	Person-Pronoun 2035 2036	他
+*	Coreference T232 T229 T233
+T233	Person-Nominal 2039 2041	木匠
+T234	Time-Implicit 2042 2048	寒暑假的时候
+T235	Location-Nominal 2050 2052	村落
+T236	Person-Nominal 2054 2058	待嫁新娘
+T237	Thing-Nominal 2065 2067	炕柜
+R45	Create Arg1:T232 Arg2:T237	
+T238	Person-Nominal 2070 2072;2073 2075	待嫁 新娘
+T239	Person-Pronoun 2120 2121	我
+T240	Person-Nominal 2156 2159	我孙儿
+T241	Person-Pronoun 2171 2172	我
+T242	Person-Nominal 2175 2177	孙儿
+T243	Person-Pronoun 2180 2181	我
+T244	Person-Pronoun 2182 2183	我
+T245	Person-Nominal 2191 2195	我外甥女
+R46	Family Arg1:T244 Arg2:T245	
+T246	Person-Pronoun 2201 2202	她
+*	Coreference T245 T246
+T247	Person-Pronoun 2205 2206	她
+T248	Thing-Nominal 2214 2217	大眼睛
+R47	Part-Whole Arg1:T248 Arg2:T247	
+T249	Person-Pronoun 2225 2226	她
+T250	Person-Nominal 2226 2228	自己
+*	Coreference T249 T250
+T251	Thing-Nominal 2251 2253	神童
+T252	Thing-Nominal 2266 2268	神童
+T253	Time-Implicit 2269 2275	我的中学时代
+T254	Time-Implicit 2289 2298	复课闹革命”的时代
+*	Coreference T253 T254
+T256	Person-Pronoun 2312 2313	我
+T255	Person-Nominal 2304 2306	孩子
+*	Coreference T256 T255 T257
+T257	Person-Nominal 2324 2326	神童
+T258	Time-Implicit 2351 2355	那个时代

@@ -1,0 +1,116 @@
+T1	Location-Name 0 2	上海
+T2	Location-Name 3 6	武康路
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Location-Pronoun 19 21	这里
+*	Coreference T3 T2 T4 T5
+T4	Location-Nominal 23 26	法租界
+T5	Location-Name 30 34	福开森路
+T6	Metric 42 45	一公里
+T7	Thing-Nominal 54 59	法国梧桐树
+T8	Location-Nominal 50 52	路旁
+R2	Located Arg1:T7 Arg2:T8	
+T9	Location-Nominal 61 64	人行道
+T10	Thing-Nominal 72 73	砖
+R3	Located Arg1:T10 Arg2:T9	
+T11	Location-Nominal 91 93	庭院
+T12	Location-Nominal 96 99	别墅墙
+R4	Part-Whole Arg1:T12 Arg2:T11	
+T13	Person-Pronoun 105 106	我
+T14	Location-Nominal 113 120	古典式花园洋房
+T15	Location-Nominal 125 126	楼
+T16	Person-Pronoun 139 140	我
+T17	Person-Name 161 165	巴金先生
+T18	Location-Nominal 161 168	巴金先生的故居
+T19	Location-Name 170 177	武康路113号
+*	Coreference T18 T19 T20
+T20	Location-Nominal 187 194	旧式花园小洋房
+T21	Location-Nominal 198 203	鹅卵石外墙
+T22	Thing-Nominal 204 206	绿树
+R5	Part-Whole Arg1:T21 Arg2:T20	
+T23	Time-Explicit 224 226	5年
+T24	Person-Nominal 244 248	文学巨匠
+T25	Time-Explicit 252 256	半个世纪
+T26	Time-Explicit 277 283	1923年春
+T27	Location-Name 285 287	上海
+T28	Person-Name 288 290	巴金
+T29	Time-Explicit 297 304	1955年9月
+T30	Person-Name 305 307	巴金
+T31	Location-Name 311 314	武康路
+T32	Location-Pronoun 318 320	这里
+T33	Person-Name 322 324	巴金
+*	Coreference T32 T31
+*	Coreference T24 T30
+T34	Time-Explicit 335 336;337 347	1 955年到2005年
+T35	Person-Pronoun 348 349	他
+T36	Location-Name 350 355	武康路寓所
+*	Coreference T35 T33
+T37	Time-Explicit 363 367	半个世纪
+T38	Location-Nominal 368 370	故居
+T39	Time-Explicit 373 383	二十世纪的后半个世纪
+T40	Person-Pronoun 408 409	他
+T41	Person-Pronoun 427 428	其
+*	Coreference T41 T40
+T42	Location-Name 459 463	巴金故居
+T43	Person-Pronoun 468 469	我
+T44	Location-Nominal 475 477	正门
+T45	Location-Nominal 479 480	墙
+T46	Time-Explicit 482 487	1995年
+T47	Person-Name 487 489	巴金
+T48	Thing-Nominal 492 494	照片
+T49	Person-Pronoun 495 496	他
+*	Coreference T49 T47
+R6	Located Arg1:T48 Arg2:T45	
+R7	Part-Whole Arg1:T45 Arg2:T42	
+T50	Person-Nominal 501 503	人们
+T51	Person-Name 507 509	巴金
+T53	Location-Nominal 523 525	餐厅
+T54	Location-Nominal 529 531	厨房
+T52	Location-Nominal 516 517;518 519	门 厅
+R8	Near Arg1:T53 Arg2:T52	
+R9	Near Arg1:T54 Arg2:T52	
+T55	Location-Nominal 534 536	门厅
+T56	Location-Nominal 539 541	客厅
+T57	Person-Name 550 552	巴金
+T58	Person-Nominal 557 561	中外宾客
+T59	Person-Nominal 563 567	亲朋好友
+T60	Person-Name 572 574	老舍
+T61	Person-Name 575 577	曹禺
+T62	Person-Name 579 580	唐
+T63	Person-Name 581 583	师陀
+T64	Person-Name 584 588	王西彦、
+T65	Person-Name 588 590	柯灵
+T66	Person-Name 591 594	张乐平
+T67	Person-Nominal 595 597	作家
+T68	Person-Nominal 597 599	画家
+T69	Location-Pronoun 600 601	此
+*	Coreference T69 T56
+T70	Location-Nominal 607 610	客厅外
+T71	Person-Name 611 613	巴金
+T72	Location-Name 626 629	太阳间
+*	Coreference T72 T70 T73
+T73	Location-Pronoun 631 633	这里
+T74	Location-Nominal 640 642	敞廊
+T75	Location-Nominal 652 654	廊檐
+R10	Part-Whole Arg1:T75 Arg2:T74	
+T76	Time-Explicit 656 661	1983年
+T77	Person-Name 662 664	巴金
+T78	Location-Nominal 665 669	二楼书房
+T79	Person-Name 677 679	巴老
+T80	Time-Implicit 679 683	住院期间
+T81	Person-Nominal 684 686	家人
+R11	Family Arg1:T79 Arg2:T81	
+T82	Location-Nominal 687 689	敞廊
+T83	Thing-Nominal 691 693	门窗
+R12	Located Arg1:T83 Arg2:T82	
+T84	Person-Name 697 699	巴金
+T85	Location-Nominal 709 713	客厅左边
+T86	Person-Nominal 715 719	巴金侄女
+T87	Location-Nominal 715 722	巴金侄女的房间
+*	Coreference T85 T87 T88
+T88	Location-Nominal 726 728	展厅
+T89	Person-Name 770 772	巴金
+T90	Time-Explicit 778 788	2003年11月8日
+T91	Organization-Name 789 792	国务院
+T92	Person-Name 794 796	巴金
+T93	Person-Nominal 797 801	人民作家
+*	Coreference T92 T93

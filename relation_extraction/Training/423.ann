@@ -1,0 +1,380 @@
+T1	Thing-Nominal 0 4	古镇东关
+T2	Time-Explicit 7 15	一千多年前宋朝时
+T3	Person-Name 25 30	大诗人陆游
+T4	Location-Nominal 44 46	湖中
+T5	Thing-Nominal 47 48	月
+T6	Person-Pronoun 59 60	他
+*	Coreference T6 T3
+T7	Location-Name 38 40	东关
+T8	Thing-Nominal 35 36	家
+T9	Location-Name 64 66	东关
+T10	Time-Implicit 67 69	那时
+*	Coreference T10 T2
+T11	Thing-Nominal 72 79	宜家宜居的地方
+T12	Thing-Nominal 81 88	今天的东关古镇
+T13	Metric 94 97	数千年
+T14	Person-Nominal 113 116	故乡人
+T15	Thing-Pronoun 123 124	它
+T16	Person-Nominal 133 135	人们
+T17	Time-Implicit 141 143	那时
+T18	Thing-Nominal 144 146	古镇
+T19	Thing-Nominal 148 152	萧曹运河
+T20	Thing-Nominal 153 157	一条长街
+T21	Metric 164 166	四里
+T22	Location-Nominal 168 173	长街最中间
+T23	Thing-Nominal 176 185	一座气势恢宏的庙宇
+R1	Located Arg1:T23 Arg2:T22	
+T24	Thing-Nominal 189 197	遐迩闻名的五猖庙
+T25	Person-Nominal 198 201	东关人
+T27	Thing-Nominal 208 210	大庙
+T28	Person-Nominal 231 243	骚乱地方、搅浑世界的顽魔
+T29	Person-Nominal 247 249	他们
+T26	Person-Nominal 217 219	五猖
+*	Coreference T29 T26
+T30	Person-Nominal 268 269	民
+T31	Person-Nominal 277 281	五通”神
+T32	Person-Nominal 283 287	五圣”神
+T33	Thing-Nominal 288 293	东关五猖庙
+T34	Person-Nominal 298 305	已修成神的菩萨
+T35	Thing-Nominal 331 333	大庙
+T36	Location-Nominal 336 345	粉墙乌瓦的街屋中间
+R2	Located Arg1:T35 Arg2:T36	
+T37	Location-Nominal 356 362	高高的屋脊前
+T38	Thing-Nominal 366 373	两条对视的金龙
+R3	Located Arg1:T38 Arg2:T37	
+T39	Location-Nominal 374 376	背后
+T40	Thing-Nominal 378 389	风调雨顺”四个蓝底白字
+R4	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 390 391;392 398	大 殿的黛瓦屋顶
+T42	Location-Nominal 408 413	四角飞檐上
+T43	Thing-Nominal 418 434	一位或横刀跨马、或手执双锤的将军
+R5	Located Arg1:T43 Arg2:T42	
+T44	Location-Nominal 435 441	正大门和庙前
+T45	Thing-Nominal 441 444	木栅栏
+R6	Located Arg1:T45 Arg2:T44	
+T46	Person-Nominal 456 457	人
+T47	Time-Implicit 466 473	重光后的第二年
+T48	Thing-Nominal 463 465	大庙
+T49	Time-Explicit 473 480	(民国三十五年
+T50	Thing-Nominal 487 491	五尊圣神
+T51	Location-Nominal 504 512	大庙前面的道地上
+T52	Location-Nominal 515 519	大庙内壁
+T53	Thing-Nominal 519 521	外墙
+R7	Located Arg1:T53 Arg2:T52	
+T54	Person-Nominal 537 539	菩萨
+T55	Person-Nominal 551 553	匠人
+T56	Time-Implicit 556 558	每天
+T57	Time-Implicit 558 561	上场前
+T58	Thing-Nominal 566 567	衣
+T59	Time-Implicit 568 573	顶礼膜拜后
+T60	Thing-Nominal 587 596	大殿顶上的两条金龙
+T61	Location-Nominal 587 591	大殿顶上
+R8	Located Arg1:T60 Arg2:T61	
+T62	Person-Nominal 600 604	两位名匠
+T63	Person-Pronoun 612 614	他们
+*	Coreference T63 T62
+T64	Thing-Nominal 617 620	篾簟围
+R9	Use Arg1:T63 Arg2:T64	
+T65	Person-Nominal 628 630	对方
+T66	Location-Nominal 658 660	庙前
+T67	Person-Nominal 663 665	群众
+T68	Thing-Nominal 675 679	两条金龙
+T69	Thing-Nominal 717 719	腾云
+T70	Thing-Nominal 722 724	大庙
+T71	Person-Nominal 729 733	五猖菩萨
+T72	Metric 742 746	三天三夜
+T73	Thing-Nominal 751 754	东关镇
+T74	Metric 760 765	四月十五日
+T75	Thing-Nominal 766 769	五猖庙
+T76	Thing-Nominal 780 783	五猖庙
+T77	Time-Implicit 786 788	每年
+T78	Time-Explicit 791 797	民国三十六年
+T79	Thing-Nominal 798 800	古镇
+T80	Time-Implicit 811 815	庙会那天
+T81	Location-Nominal 827 829	庙前
+T82	Person-Nominal 832 836	五猖菩萨
+T83	Person-Nominal 837 840	壮汉们
+T84	Thing-Nominal 845 847	庙门
+T85	Thing-Nominal 862 864	队伍
+T86	Person-Nominal 869 874	这些参与者
+T87	Thing-Nominal 877 878	龙
+T88	Thing-Nominal 880 881	狮
+T89	Location-Nominal 853 857	庙前高处
+T90	Person-Nominal 848 851	指挥者
+T91	Thing-Nominal 921 923	队伍
+T92	Thing-Nominal 928 930	鼓乐
+T93	Person-Nominal 944 946	高人
+T94	Thing-Nominal 950 953	过街楼
+T95	Thing-Nominal 955 956	头
+T96	Thing-Nominal 958 959	腰
+T97	Person-Nominal 968 969	人
+T98	Thing-Nominal 972 973	街
+T99	Thing-Nominal 976 978	高帽
+T100	Thing-Nominal 980 982	白脸
+T101	Person-Nominal 983 988	大小无常们
+T102	Person-Nominal 1023 1027	街边群众
+T103	Location-Nominal 1023 1025	街边
+T104	Thing-Nominal 1033 1036	五猖庙
+T105	Location-Nominal 1041 1044	庙门前
+T106	Thing-Nominal 1045 1058	一爿大约一亩见方的石板道地
+R10	Located Arg1:T106 Arg2:T105	
+T107	Person-Nominal 1059 1062	东关人
+T108	Person-Pronoun 1065 1066	他
+T109	Thing-Nominal 1067 1070	大庙前
+T110	Thing-Nominal 1077 1079	戏台
+T111	Thing-Nominal 1095 1097	戏台
+T112	Metric 1103 1105	两米
+T113	Location-Nominal 1113 1117	戏台中间
+T114	Thing-Nominal 1117 1121	一排台板
+R11	Located Arg1:T114 Arg2:T113	
+T115	Location-Nominal 1126 1129	台底下
+T116	Thing-Nominal 1131 1135	南北通道
+R12	Located Arg1:T116 Arg2:T115	
+T117	Thing-Nominal 1138 1142	这条通道
+T118	Location-Name 1148 1151	过街楼
+T119	Location-Name 1152 1154	西街
+R13	Near Arg1:T118 Arg2:T119	
+T120	Location-Nominal 1159 1167	大庙前”东西两边
+T121	Thing-Nominal 1169 1171	商店
+R14	Located Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 1177 1183	中街的连通口
+T123	Thing-Nominal 1188 1197	泉杂货店、阿周面馆
+T124	Thing-Nominal 1201 1215;1216 1219	进士台门，牙科店、致大碗店、 锡匠铺
+T125	Thing-Nominal 1222 1225	大庙前
+T126	Thing-Nominal 1227 1229	戏台
+T127	Thing-Nominal 1242 1256	这爿地处全镇中心的石板大道地
+T128	Location-Nominal 1238 1241	大庙前
+R15	Located Arg1:T127 Arg2:T128	
+T129	Thing-Nominal 1262 1266	城市广场
+T130	Person-Nominal 1268 1271	镇上人
+T131	Thing-Pronoun 1275 1276	它
+*	Coreference T131 T129
+T132	Thing-Nominal 1278 1291	闯荡江湖的各路艺人向往之地
+T133	Person-Nominal 1285 1287	艺人
+T134	Person-Pronoun 1292 1293	谁
+T135	Location-Nominal 1302 1307	古镇地面上
+T136	Location-Nominal 1343 1346	大庙前
+T137	Thing-Nominal 1347 1350	梨膏糖
+T138	Thing-Nominal 1351 1355	他的道具
+T139	Person-Pronoun 1351 1352	他
+R16	Ownership Arg1:T139 Arg2:T138	
+T140	Location-Nominal 1360 1365	一顶高茶几
+T141	Thing-Nominal 1368 1373	一把小茶壶
+R17	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 1381 1383	长凳
+T143	Thing-Nominal 1386 1391	手中小铜锣
+T144	Location-Nominal 1386 1388	手中
+R18	Located Arg1:T143 Arg2:T144	
+T145	Person-Nominal 1396 1398	听众
+T146	Person-Name 1410 1413	薛仁贵
+T147	Person-Name 1416 1419	诸葛亮
+T148	Person-Pronoun 1441 1442	他
+T149	Thing-Nominal 1446 1449	小茶壶
+T150	Thing-Nominal 1450 1451	水
+T151	Thing-Nominal 1452 1453	喉
+T152	Thing-Nominal 1462 1464	壶柄
+T153	Thing-Nominal 1466 1468	壶嘴
+T154	Person-Nominal 1475 1477	听众
+T155	Person-Pronoun 1488 1489	他
+*	Coreference T148 T147
+T156	Thing-Nominal 1498 1501	梨膏糖
+T157	Thing-Nominal 1503 1510	小热昏”梨膏糖
+T158	Person-Nominal 1522 1524	听众
+T159	Person-Name 1536 1541	大力士李大
+T160	Time-Implicit 1541 1543	每年
+T161	Location-Nominal 1546 1549	大庙前
+T162	Person-Pronoun 1553 1554	他
+*	Coreference T162 T159
+T163	Thing-Nominal 1561 1567	一条乌篷大船
+T164	Person-Nominal 1555 1559	一帮子人
+T165	Location-Nominal 1568 1571	船头上
+T166	Thing-Nominal 1571 1577	一面李字大旗
+R19	Located Arg1:T166 Arg2:T165	
+T167	Thing-Nominal 1579 1580	风
+T168	Person-Nominal 1588 1591	大力士
+T169	Thing-Nominal 1602 1606	狗皮膏药
+T170	Person-Nominal 1613 1617	两条壮汉
+T171	Thing-Nominal 1619 1624	一块大石板
+T172	Location-Nominal 1631 1637	李大力士身上
+R20	Located Arg1:T171 Arg2:T172	
+T173	Thing-Nominal 1642 1647	十二磅大锤
+T174	Person-Name 1653 1657	李大力士
+T175	Location-Nominal 1659 1664	大石板底下
+T176	Thing-Nominal 1671 1673	石板
+T177	Person-Pronoun 1678 1679	他
+*	Coreference T177 T174
+T178	Thing-Nominal 1694 1696	石粉
+T179	Location-Nominal 1692 1694	身上
+R21	Located Arg1:T178 Arg2:T179	
+T180	Location-Nominal 1703 1705	四周
+T181	Person-Nominal 1705 1707	看众
+T182	Person-Pronoun 1713 1714	他
+T183	Person-Nominal 1719 1733	身患陈伤痼疾又久治不愈的病人
+T184	Location-Nominal 1734 1736	场内
+T185	Person-Nominal 1747 1758	那些买去膏药的伤痛患者
+T186	Thing-Nominal 1760 1762	膏药
+T187	Person-Nominal 1764 1767	大力士
+T188	Person-Nominal 1768 1772	三个女儿
+R22	Family Arg1:T188 Arg2:T187	
+T189	Time-Implicit 1794 1796	这日
+T190	Person-Nominal 1797 1800	三小姐
+T191	Location-Nominal 1802 1807	一条长凳上
+T192	Person-Pronoun 1831 1833	“谁
+T193	Person-Pronoun 1835 1836	我
+T194	Person-Pronoun 1841 1842	我
+T195	Person-Pronoun 1844 1845	他
+T196	Person-Nominal 1846 1848	老婆
+T197	Person-Nominal 1852 1854	看客
+T198	Person-Pronoun 1859 1860	谁
+T199	Person-Nominal 1863 1865	农民
+T200	Thing-Nominal 1877 1882	她的肢窝间
+T201	Person-Pronoun 1877 1878	她
+T202	Person-Nominal 1887 1890	三小姐
+T203	Person-Pronoun 1894 1895	他
+T204	Person-Pronoun 1904 1905	我
+T205	Person-Nominal 1906 1908	老婆
+T206	Person-Pronoun 1908 1909	我
+T207	Person-Pronoun 1912 1913	我
+T208	Person-Nominal 1935 1937	人们
+T209	Location-Name 1951 1955	五猖庙前
+T210	Thing-Nominal 1956 1958	戏台
+R23	Located Arg1:T210 Arg2:T209	
+T211	Thing-Nominal 1965 1967	檐牙
+T212	Thing-Nominal 1975 1982	远近城乡的戏台
+T213	Person-Nominal 1991 1995	各地戏班
+T214	Person-Nominal 2008 2010	群众
+T215	Person-Name 2016 2043	绍剧名角陆长胜、筱昌顺、汪筱奎、陈鹤皋、盖昌顺、六龄童
+T216	Location-Nominal 2050 2054	这戏台上
+T217	Time-Implicit 2058 2060	那时
+T218	Thing-Nominal 2065 2067	锣鼓
+T219	Location-Nominal 2071 2072;2073 2075	台 底下
+T220	Location-Nominal 2088 2091	大庙前
+T221	Thing-Nominal 2093 2097	商家店铺
+R24	Located Arg1:T221 Arg2:T220	
+T222	Thing-Nominal 2101 2110	最佳看台、头等包厢
+T223	Location-Nominal 2111 2118	店堂内、柜台上
+T224	Person-Nominal 2126 2127	人
+T225	Person-Nominal 2128 2130	人们
+T226	Person-Nominal 2132 2133;2134 2135	演 员
+T227	Location-Nominal 2136 2138	台上
+T228	Person-Name 2162 2165	陈鹤皋
+T229	Person-Pronoun 2176 2177	他
+*	Coreference T229 T228
+T230	Time-Implicit 2193 2194;2195 2196	那 时
+T231	Thing-Nominal 2198 2201	扩音器
+T232	Person-Pronoun 2203 2205	他们
+T233	Person-Name 2219 2222	陈鹤皋
+T234	Person-Pronoun 2234 2235	他
+*	Coreference T234 T233
+T235	Location-Nominal 2250 2253	戏台下
+T236	Location-Nominal 2273 2276	舞台上
+T237	Thing-Nominal 2280 2283	麦克风
+T238	Thing-Nominal 2289 2291	双眼
+T239	Person-Nominal 2312 2315	歌星们
+T240	Person-Name 2346 2349	陈鹤皋
+T241	Person-Pronoun 2349 2351	他们
+T242	Person-Nominal 2352 2368	真真正正的、走进民众的表演艺术家
+T243	Person-Pronoun 2369 2371	他们
+T244	Person-Nominal 2388 2389	人
+T245	Location-Nominal 2396 2398	台上
+T246	Person-Name 2402 2405	陈鹤皋
+T247	Person-Nominal 2409 2410	人
+T248	Person-Nominal 2422 2425	老先生
+T249	Person-Pronoun 2436 2437	他
+*	Coreference T249 T246
+T250	Person-Name 2447 2450	陈鹤皋
+T251	Thing-Nominal 2452 2453	酒
+T252	Person-Pronoun 2460 2461	他
+T253	Thing-Nominal 2462 2466	绍兴老酒
+T254	Thing-Nominal 2467 2471	他的喉咙
+T255	Person-Pronoun 2467 2468	他
+R25	Part-Whole Arg1:T254 Arg2:T255	
+*	Coreference T252 T250
+T256	Person-Name 2477 2483	邻居章老先生
+T257	Thing-Nominal 2475 2477	我家
+T258	Thing-Nominal 2485 2495	一坛窖藏多年的女儿红
+T259	Person-Pronoun 2497 2498	他
+T260	Person-Nominal 2500 2504	这位名角
+T261	Thing-Nominal 2521 2523	田地
+T262	Time-Explicit 2512 2515	解放后
+T263	Person-Nominal 2518 2520	地主
+T264	Person-Nominal 2551 2559	高坐庙堂的菩萨们
+T265	Location-Nominal 2566 2568	镇上
+T266	Thing-Nominal 2574 2576	田地
+T267	Person-Nominal 2580 2585	农民和贫民
+T268	Thing-Nominal 2588 2605	澄心寺(东关人管叫“后寺”)的菩萨
+T269	Location-Name 2588 2591	澄心寺
+R26	Located Arg1:T268 Arg2:T269	
+T270	Organization-Name 2623 2627	东关中学
+T271	Location-Nominal 2630 2633;2634 2636	后寺寺 院里
+T272	Person-Nominal 2643 2647	五猖菩萨
+T273	Person-Nominal 2658 2669	一班敬神拜佛的虔诚信徒
+T274	Person-Pronoun 2670 2672	他们
+*	Coreference T274 T273
+T275	Person-Nominal 2688 2692	五猖菩萨
+T276	Person-Nominal 2698 2703	五尊大菩萨
+T277	Person-Name 2734 2737	敖齐伯
+T278	Person-Nominal 2739 2751	七、八个最信得过的镇上人
+T279	Thing-Nominal 2760 2762	菩萨
+T280	Location-Nominal 2763 2767	大庙后门
+T281	Location-Nominal 2774 2779	华家桥脚下
+T282	Location-Nominal 2780 2788	一个墙门的夹缝里
+T283	Thing-Nominal 2791 2794	废弃物
+T284	Thing-Nominal 2807 2815	墙门里的几家住户
+T285	Person-Name 2822 2825	樊敖齐
+T286	Person-Nominal 2827 2829	贫农
+T287	Person-Pronoun 2836 2837	他
+*	Coreference T287 T285
+T288	Person-Nominal 2844 2846	地主
+T289	Thing-Nominal 2847 2849	田地
+T290	Person-Nominal 2853 2857	贫协主任
+T291	Person-Nominal 2859 2861	群众
+T292	Person-Nominal 2867 2871	他的母亲
+T293	Person-Pronoun 2867 2868	他
+T294	Person-Name 2871 2874	钱嬷嬷
+*	Coreference T294 T292
+T295	Person-Nominal 2878 2886	专做善事的大好人
+T296	Person-Pronoun 2888 2889	他
+T297	Person-Nominal 2918 2921	镇领导
+T298	Thing-Nominal 2915 2917	寺庙
+T299	Person-Nominal 2925 2929	五猖菩萨
+T300	Time-Implicit 2935 2938;2939 2940	那个时 候
+T301	Person-Nominal 2941 2943	干部
+T302	Person-Nominal 2944 2946	群众
+T303	Person-Nominal 2950 2952	神灵
+T304	Person-Nominal 2953 2955	人人
+T305	Person-Nominal 2957 2959	神灵
+T306	Person-Pronoun 2960 2961	谁
+T307	Person-Nominal 2971 2975	五猖菩萨
+T308	Time-Implicit 2971 2985	五猖菩萨悄无声息地离开庙堂后
+T309	Thing-Nominal 2982 2984	庙堂
+T310	Thing-Nominal 2988 3001	硕大的石烛台和高悬的琉璃灯
+T311	Location-Nominal 2986 2988	庙内
+R27	Located Arg1:T310 Arg2:T311	
+T312	Thing-Nominal 3009 3014	宽敞的庙堂
+T313	Thing-Nominal 3017 3021	镇文化站
+T314	Thing-Nominal 3023 3026	阅报室
+T315	Thing-Nominal 3027 3030	借书室
+T316	Thing-Nominal 3039 3043	乒乓球桌
+T317	Location-Nominal 3047 3049	大殿
+R28	Located Arg1:T316 Arg2:T317	
+T318	Person-Nominal 3052 3059	众多年轻小伙子
+T319	Location-Nominal 3062 3065	文化站
+T320	Person-Nominal 3070 3075	中、老年人
+T321	Thing-Nominal 3081 3083	报纸
+T322	Person-Nominal 3112 3120	第一任文化站站长
+T323	Person-Name 3128 3133	谭寿焕先生
+T324	Person-Nominal 3167 3182	不断经受考验和惊吓的干部、群众
+T325	Person-Pronoun 3190 3191	谁
+T326	Person-Nominal 3201 3204	菩萨们
+T327	Location-Nominal 3224 3229	红卫兵面前
+T328	Thing-Nominal 3235 3239	缩头乌龟
+T329	Person-Pronoun 3240 3241	谁
+T330	Person-Nominal 3271 3275	五猖菩萨
+T331	Time-Implicit 3289 3291	那时
+T332	Time-Explicit 3294 3298	文革后期
+T333	Thing-Nominal 3302 3304	城镇
+T334	Thing-Nominal 3328 3335	岌岌可危的大殿
+T335	Thing-Nominal 3347 3358	一座曾经风光无限的庙宇
+T336	Thing-Nominal 3370 3377	一块砖、一片瓦
+T337	Time-Explicit 3212 3214	文革

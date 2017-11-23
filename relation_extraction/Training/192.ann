@@ -1,0 +1,142 @@
+T1	Thing-Nominal 0 2	当城
+T2	Thing-Nominal 5 7	古城
+T3	Thing-Nominal 17 24	固若金汤的城墙
+T4	Thing-Nominal 32 40	难以逾越的护城河
+T5	Person-Nominal 52 60;61 62	五行八作的小商小 贩
+T6	Thing-Nominal 73 78	醇朴的民风
+T7	Location-Nominal 91 93	家乡
+T8	Thing-Nominal 105 107	当城
+T9	Thing-Nominal 110 122	社会主义新农村的一个缩影
+T10	Person-Pronoun 126 128	我们
+T11	Thing-Nominal 132 139	钢筋水泥的建筑
+T12	Thing-Nominal 144 159	一个个整洁安宁、祥和幸福的庭院
+T13	Thing-Nominal 164 165;166 179	宽 阔大气、难望首尾的柏油马路
+T14	Thing-Nominal 184 200	一排排杨柳蔽日、小溪相伴的乡道;
+T15	Thing-Nominal 227 228	犬
+T16	Thing-Nominal 229 230	鸡
+T17	Location-Nominal 247 260	一个有着7000人口的大村
+T18	Metric 251 255	7000
+T19	Location-Pronoun 271 273	这里
+*	Coreference T19 T17
+T20	Person-Nominal 278 280	人们
+T21	Person-Nominal 287 289	人们
+T22	Person-Pronoun 293 295	他们
+*	Coreference T22 T20
+T23	Thing-Nominal 302 308	那些高楼洋房
+T24	Person-Pronoun 314 316	他们
+T25	Person-Nominal 320 323	城市人
+T26	Person-Pronoun 334 336	他们
+T27	Person-Pronoun 337 339	他们
+T28	Person-Pronoun 343 345	他们
+T29	Person-Pronoun 350 352	他们
+T30	Thing-Nominal 366 367	根
+T31	Thing-Nominal 360 361	地
+T32	Person-Pronoun 371 373	他们
+T33	Thing-Nominal 348 349	地
+T34	Thing-Nominal 377 379	烈日
+T35	Thing-Nominal 383 384	雨
+T36	Thing-Nominal 381 382	汗
+T37	Thing-Nominal 387 392	他们的庄稼
+T38	Person-Pronoun 387 389	他们
+R1	Ownership Arg1:T38 Arg2:T37	
+T39	Thing-Nominal 395 400	他们的果园
+T40	Person-Pronoun 395 397	他们
+R2	Ownership Arg1:T40 Arg2:T39	
+T41	Person-Pronoun 401 403	他们
+T42	Thing-Nominal 410 412	农药
+T43	Thing-Nominal 413 415	化肥
+T44	Thing-Nominal 417 418;419 420	粮 食
+T45	Thing-Nominal 423 425	果蔬
+T46	Person-Pronoun 429 431	他们
+T47	Time-Explicit 435 441	古老农耕时代
+T48	Thing-Nominal 444 447	农家肥
+T49	Thing-Nominal 452 454	害虫
+T50	Person-Nominal 464 467	当城人
+T51	Thing-Nominal 470 479	，当城的水果和蔬菜
+T52	Location-Name 471 473	当城
+R3	Located Arg1:T51 Arg2:T52	
+T53	Person-Nominal 481 482	人
+T54	Thing-Name 485 495	放心果”、“放心菜”
+T55	Thing-Nominal 496 501	当城的五谷
+T56	Location-Name 496 498	当城
+R4	Located Arg1:T55 Arg2:T56	
+T57	Person-Nominal 502 503	人
+T58	Thing-Name 506 511	绿色食品”
+T59	Time-Implicit 512 521	每到果蔬丰收的季节
+T60	Thing-Nominal 514 516	果蔬
+T61	Person-Nominal 526 530	。批发商
+T62	Person-Nominal 552 555	城里人
+T63	Person-Nominal 576 582	憨厚的当城人
+T64	Person-Pronoun 583 584	谁
+T65	Person-Nominal 598 600	对方
+T66	Person-Pronoun 608 609	谁
+T67	Person-Nominal 613 621	老实厚道的当城人
+T68	Thing-Nominal 630 632	黄土
+T69	Thing-Nominal 633 634	金
+T70	Thing-Nominal 653 655	当城
+T71	Metric 658 662	两千多年
+T72	Metric 674 678	10公里
+T73	Thing-Nominal 679 682	杨柳青
+T74	Thing-Nominal 687 694	闻名遐迩的名镇
+T75	Metric 704 708	600年
+T76	Location-Name 711 713;714 716	天津 市区
+T77	Thing-Nominal 719 722	大都市
+T78	Thing-Nominal 744 745	村
+T79	Thing-Nominal 740 741	城
+T80	Location-Nominal 752 758	这片风水宝地
+T81	Thing-Nominal 765 772	这座古老的城郭
+T82	Person-Nominal 776 784	祖祖辈辈的当城人
+T83	Person-Pronoun 791 792	我
+T84	Time-Implicit 791 802	我还来不及扼腕惋惜之时
+T85	Thing-Nominal 803 805	当城
+T86	Person-Pronoun 808 809	我
+T87	Person-Pronoun 819 820	我
+T88	Person-Nominal 838 841	当城人
+T89	Thing-Nominal 855 864	一座岩浆滚动的火山
+T90	Thing-Nominal 867 876	一艘风帆高扬的大船
+T91	Metric 904 906	千里
+T92	Metric 915 918	30年
+T93	Thing-Nominal 912 914	当城
+T94	Thing-Nominal 949 951	当城
+T95	Person-Nominal 962 971	睿智、勤劳的当城人
+T96	Person-Nominal 1020 1028	头脑清醒的当城人
+T97	Person-Nominal 1040 1041	人
+T98	Thing-Nominal 1089 1093	绿色农业
+T99	Thing-Nominal 1101 1105	生态农业
+T100	Thing-Nominal 1113 1117	设施农业
+T101	Thing-Nominal 1126 1130	观光农业
+T102	Metric 1164 1166	两天
+T103	Time-Implicit 1172 1181	在乘上返程的大巴时
+T104	Thing-Nominal 1178 1180	大巴
+T105	Person-Pronoun 1182 1183	我
+T106	Person-Pronoun 1191 1192	我
+T107	Location-Nominal 1196 1202	苇席的土炕上
+T108	Thing-Nominal 1205 1208	熟棒子
+T109	Thing-Nominal 1212 1217	茄子拌土豆
+T110	Thing-Nominal 1218 1221;1222 1224	小鱼贴 饼子
+T111	Person-Pronoun 1228 1229	我
+T112	Location-Nominal 1231 1240	爬满牵牛花的篱笆上
+T113	Thing-Nominal 1233 1236	牵牛花
+T114	Thing-Nominal 1240 1242	雄鸡
+R5	Located Arg1:T114 Arg2:T112	
+R6	Located Arg1:T113 Arg2:T112	
+T115	Thing-Nominal 1246 1249	鸡婆婆
+T116	Thing-Nominal 1251 1260	一群绒球般的小鸡雏
+T117	Person-Pronoun 1268 1269	我
+T118	Location-Nominal 1271 1275	子牙河中
+T119	Location-Nominal 1277 1281	小船之上
+T120	Person-Nominal 1283 1286	放鹅人
+T121	Thing-Nominal 1289 1291	竹篙
+T122	Thing-Nominal 1293 1298	上百只白鹅
+T123	Person-Pronoun 1304 1305	我
+T124	Location-Nominal 1308 1314	百亩果园深处
+T125	Thing-Nominal 1315 1318	游乐场
+R7	Located Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 1324 1330	嘎崩脆的苹果
+T127	Thing-Nominal 1335 1337	秋千
+T128	Location-Nominal 1349 1353	麦海之中
+T129	Thing-Nominal 1356 1358	麦浪
+T130	Thing-Nominal 1354 1355	耳
+T131	Thing-Nominal 1365 1367	麦穗
+T132	Thing-Nominal 1368 1370	阳光
+T133	Thing-Nominal 1381 1383	当城

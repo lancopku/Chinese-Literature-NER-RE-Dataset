@@ -1,0 +1,38 @@
+T3	Person-Nominal 71 73	他人
+T4	Person-Pronoun 85 87	我们
+T5	Person-Pronoun 93 95	自己
+T6	Person-Pronoun 113 115	他人
+T7	Person-Pronoun 120 121;122 123	他 人
+T8	Person-Pronoun 126 128	他人
+T9	Person-Pronoun 131 133	他人
+T10	Person-Pronoun 143 145	他人
+T11	Person-Pronoun 203 205	自己
+T12	Location-Nominal 234 236	身边
+T13	Person-Nominal 306 308	人们
+T14	Thing-Pronoun 303 304	它
+T15	Person-Pronoun 377 379	我们
+T16	Person-Pronoun 403 406	自己的
+T17	Person-Pronoun 435 437	我们
+T18	Person-Nominal 491 492	人
+T19	Person-Nominal 493 494	人
+T23	Thing-Nominal 273 274	诗
+*	Coreference T14 T23
+T25	Time-Explicit 56 58	同时
+T26	Person-Nominal 39 41	个人
+T27	Person-Nominal 65 67	个人
+T28	Abstract 508 512;513 518	社会的精 神文明建设
+T29	Abstract 527 533	公民道德建设
+T30	Person-Nominal 252 254	古人
+T1	Person-Nominal 140 142	个人
+T2	Organization-Nominal 146 148	集体
+T24	Abstract 154 161	《礼记・中庸》
+T20	Abstract 424 432	社会精神文明建设
+T21	Metric 334 336	千丈
+T22	Thing-Nominal 334 338	千丈之堤
+T31	Thing-Nominal 340 342	蝼蚁
+T32	Thing-Nominal 340 344	蝼蚁之穴
+T33	Metric 346 348	百尺
+T34	Thing-Nominal 346 350	百尺之室
+T35	Thing-Nominal 352 354	突隙
+T36	Thing-Nominal 352 356	突隙之烟
+T37	Person-Nominal 435 440	我们每个人

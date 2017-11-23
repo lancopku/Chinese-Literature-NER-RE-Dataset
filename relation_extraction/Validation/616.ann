@@ -1,0 +1,104 @@
+T1	Person-Pronoun 12 13	你
+T2	Person-Pronoun 1 2	你
+T3	Thing-Nominal 16 20	阳光雨露
+T4	Person-Pronoun 23 24	你
+T5	Thing-Nominal 27 31	满天星空
+T6	Person-Pronoun 34 35	你
+T7	Thing-Nominal 38 42	小草野花
+T8	Person-Pronoun 45 46	我
+T9	Person-Nominal 50 53	一个人
+T10	Person-Pronoun 940 941	我
+T11	Thing-Pronoun 945 947	它们
+T12	Thing-Nominal 951 955	一群芦苇
+T13	Thing-Pronoun 956 958	它们
+T14	Person-Nominal 962 967	今天的人们
+T15	Person-Nominal 991 993;994 995	每个 人
+T16	Thing-Nominal 998 1002	这片芦苇
+T17	Person-Pronoun 1030 1031	他
+T18	Thing-Nominal 1035 1037	芦苇
+T19	Person-Pronoun 1050 1052	我们
+T20	Thing-Nominal 929 932;933 935	顽强的 芦苇
+T21	Person-Pronoun 923 924	我
+T22	Metric 711 716	3000米
+T23	Location-Nominal 721 725	高原地带
+T24	Thing-Nominal 734 736	芦苇
+T25	Thing-Nominal 751 753	芦苇
+T26	Location-Nominal 763 765	高原
+T27	Thing-Nominal 766 768	芦苇
+R1	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 785 787	芦苇
+T29	Thing-Pronoun 804 806	它们
+T30	Thing-Pronoun 823 825	它们
+T31	Thing-Nominal 851 853	芦苇
+T32	Metric 863 868	3000米
+T33	Thing-Nominal 652 657	一片芦苇荡
+T34	Person-Pronoun 645 646	我
+T35	Person-Pronoun 634 635	我
+T36	Location-Name 606 609	九寨沟
+T37	Thing-Nominal 640 643	一座山
+T38	Person-Pronoun 658 659	我
+T39	Location-Name 89 94	险峻的黄山
+T40	Location-Name 96 101	秀丽的桂林
+T41	Location-Name 112 115	九寨沟
+T42	Person-Pronoun 120 121	我
+T43	Location-Name 135 138	九寨沟
+T44	Thing-Nominal 160 165	古朴的栈道
+T45	Thing-Nominal 166 171	斑斓的彩林
+T46	Thing-Nominal 172 178	青蓝色的湖泊
+T47	Thing-Nominal 179 182;183 185	缭绕的 云雾
+T48	Thing-Nominal 186 191	壮丽的高山
+T49	Thing-Nominal 201 208	与众不同的瀑布
+T50	Thing-Nominal 218 230	充满了民族风情的藏族寨子
+T51	Person-Nominal 263 266	藏民们
+T52	Person-Nominal 259 261	导游
+T53	Thing-Nominal 270 272	湖泊
+T54	Thing-Nominal 274 276	海子
+T55	Thing-Nominal 278 282	大海之子
+*	Coreference T55 T54
+T56	Person-Pronoun 289 290	我
+T57	Thing-Nominal 295 301	九寨沟的湖泊
+T58	Thing-Pronoun 308 309	它
+*	Coreference T57 T58
+T59	Thing-Nominal 312 316	大海之子
+T60	Thing-Nominal 318 324	青蓝色的湖水
+T61	Thing-Nominal 394 399	水边的栈道
+T62	Thing-Nominal 406 412	青蓝色的湖水
+T63	Thing-Nominal 413 417	四周群山
+T64	Thing-Nominal 419 421	彩林
+T65	Thing-Nominal 434 435	树
+T66	Thing-Nominal 472 474	湖水
+T67	Thing-Nominal 475 477	彩林
+T68	Person-Pronoun 489 490	我
+T69	Person-Pronoun 514 516	我们
+T70	Person-Pronoun 528 529	我
+T71	Person-Nominal 533 534	人
+T72	Person-Name 576 579	毛主席
+T73	Thing-Nominal 556 560	这儿的鱼
+T74	Person-Nominal 572 573	人
+T75	Person-Nominal 377 380	藏民们
+T76	Thing-Nominal 356 358	湖泊
+T77	Thing-Nominal 326 331	蓝色的大海
+T78	Thing-Nominal 362 365;366 370	无边无 垠的大海
+T79	Thing-Nominal 385 387	湖泊
+T80	Thing-Nominal 389 391	海子
+T81	Thing-Nominal 682 684	芦苇
+T82	Metric 690 694	800米
+T83	Location-Name 701 704	九寨沟
+T84	Person-Nominal 592 596	无数英雄
+T85	Location-Nominal 894 897	高原地
+T86	Thing-Nominal 908 915	不求上进的芦苇
+T87	Location-Nominal 903 905	平地
+R2	Located Arg1:T86 Arg2:T87	
+T88	Thing-Pronoun 880 882	它们
+*	Coreference T29 T28 T30
+R3	Located Arg1:T44 Arg2:T43	
+R4	Located Arg1:T46 Arg2:T43	
+R5	Located Arg1:T47 Arg2:T43	
+R6	Located Arg1:T48 Arg2:T43	
+R7	Located Arg1:T49 Arg2:T43	
+R8	Located Arg1:T50 Arg2:T43	
+*	Coreference T11 T20 T13
+R9	Social Arg1:T52 Arg2:T51	
+*	Coreference T80 T79
+R10	Located Arg1:T88 Arg2:T85	
+R11	Located Arg1:T24 Arg2:T23	

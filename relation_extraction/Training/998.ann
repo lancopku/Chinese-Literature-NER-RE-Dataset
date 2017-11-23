@@ -1,0 +1,231 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 0 4	我的家乡
+T4	Location-Nominal 5 15	杭嘉湖平原的一个村庄
+T5	Location-Name 17 20	诸桥村
+*	Coreference T2 T5
+T6	Time-Explicit 21 30	自从上世纪六十年代
+T7	Location-Nominal 39 41	市区
+T8	Location-Nominal 42 43	家
+T9	Location-Nominal 46 48	家乡
+T10	Person-Nominal 50 52	妹妹
+T11	Person-Nominal 53 55	亲戚
+T12	Location-Nominal 64 66	老家
+T13	Location-Nominal 76 78	家乡
+T14	Time-Implicit 87 98	党的十一届三中全会以后
+T15	Physical 87 96	党的十一届三中全会
+T16	Organization-Nominal 87 88	党
+T17	Thing-Nominal 104 106	村庄
+T18	Person-Nominal 115 117	人们
+T19	Thing-Nominal 126 129	住房”
+T21	Location-Nominal 135 138	这个村
+T22	Person-Nominal 135 141	这个村的农民
+T23	Time-Explicit 130 134	八十年代
+T24	Metric 152 157	三间至五间
+T25	Location-Nominal 158 160	我家
+T26	Person-Nominal 158 162	我家邻居
+T27	Person-Name 162 164;165 166	钱大 妈
+T28	Thing-Nominal 168 170	人家
+T29	Thing-Pronoun 166 168	这户
+*	Coreference T26 T27
+*	Coreference T29 T28
+T30	Metric 173 177	四、五年
+T31	Time-Implicit 184 190	八十年代以前
+T32	Person-Pronoun 191 192	她
+T34	Thing-Nominal 191 195	她家住房
+T35	Metric 200 202	三间
+T36	Thing-Nominal 195 204	低矮破旧的三间平房
+T37	Thing-Nominal 216 219	洗脸盆
+T38	Thing-Nominal 220 222	脚桶
+T39	Time-Implicit 239 243	台风季节
+T40	Thing-Nominal 244 246	房屋
+T41	Location-Nominal 257 259	屋里
+T42	Thing-Nominal 260 262	房屋
+T43	Organization-Nominal 284 285	党
+T44	Location-Nominal 293 295	她家
+T45	Time-Explicit 307 312	1983年
+T46	Thing-Nominal 313 318	破旧的平房
+T47	Thing-Nominal 321 324	新平房
+T48	Time-Explicit 326 330	九十年代
+T49	Thing-Nominal 330 332	住房
+T51	Location-Nominal 338 341	这个村
+T52	Person-Nominal 343 345	农户
+T53	Thing-Nominal 346 347;348 349	平 房
+T54	Thing-Nominal 352 356	二层楼房
+R1	Create Arg1:T52 Arg2:T54	
+T55	Time-Implicit 369 381	跨入新世纪后的十多年时间
+T56	Location-Nominal 383 384	村
+T58	Location-Nominal 396 401	在规划线内
+T59	Thing-Nominal 401 421	一座座具有江南
+水乡风格庭院式的三层楼房
+T61	Location-Name 426 441	这个村的钱家场、查家坞、许家埭
+T62	Metric 442 444	8个
+T64	Thing-Nominal 453 457	青砖黛瓦
+T65	Location-Nominal 459 461	家乡
+T66	Location-Pronoun 466 468	内部
+T68	Thing-Nominal 466 490	内部结
+构的厅堂、卧室、书房、厨房、卫生间和装饰
+T69	Person-Nominal 499 503	一位堂弟
+T71	Metric 508 513	250多户
+T72	Person-Nominal 508 515	250多户人家
+T73	Thing-Nominal 517 525	“庭院式”的住房
+T74	Metric 533 541	50万~60万元
+T75	Metric 544 550	100多万元
+T76	Location-Pronoun 551 553	内部
+T77	Location-Nominal 562 565	村庄内
+T78	Thing-Nominal 562 573	村庄内“庭院式”的住房
+T79	Location-Nominal 576 579	村庄外
+T80	Thing-Nominal 579 582	果木树
+T82	Location-Nominal 599 601	村庄
+T83	Location-Nominal 612 614	家乡
+T84	Time-Implicit 645 651	早在十多年前
+T86	Organization-Nominal 652 659;660 665	村党支部、村委 会领导班子
+T85	Organization-Nominal 672 678	村民代表大会
+T88	Thing-Nominal 704 708	村级道路
+T89	Time-Explicit 712 717	2002年
+T90	Location-Nominal 731 736	各个行政组
+T91	Location-Nominal 722 724	全村
+T92	Location-Nominal 725 729	自然村庄
+T93	Location-Nominal 737 744	村民居住集中地
+T94	Person-Nominal 746 751	一位村干部
+T96	Thing-Nominal 756 761	混凝土路面
+T97	Metric 762 767	7274米
+T98	Metric 773 777	100%
+T99	Abstract 768 771	硬化率
+T100	Location-Nominal 778 781;782 783	道路两 旁
+T101	Thing-Nominal 786 790	石块衬砌
+T102	Metric 808 810	两条
+T103	Thing-Nominal 811 818	镇区、市区公路
+T104	Thing-Nominal 808 826	两条与镇区、市区公路连接的混凝土道路
+T105	Metric 826 830	15公里
+T106	Thing-Nominal 833 836	标志牌
+T107	Person-Nominal 850 853	村民们
+T109	Location-Name 873 877	市区硖石
+T110	Thing-Nominal 867 880	一条连接通向市区硖石的公路
+T111	Location-Name 884 888	市区硖石
+T112	Location-Name 889 891	诸桥
+T113	Metric 892 895	12个
+T114	Thing-Nominal 892 900	12个班次的客车
+T115	Metric 901 903;904 905	一小 时
+T116	Location-Name 909 913	市区硖石
+T117	Metric 918 923	5、6公里
+T118	Location-Name 925 937	丰士、丁桥、盐官或九里桥
+T119	Thing-Nominal 938 940	汽车
+T120	Thing-Nominal 943 946	公交车
+T121	Location-Nominal 948 949	家
+T122	Location-Pronoun 948 951	家门口
+T123	Person-Nominal 952 956	有的村民
+T124	Location-Pronoun 969 972	城市里
+T125	Location-Nominal 974 976	村庄
+T126	Time-Explicit 986 993	六十、七十年代
+T127	Person-Nominal 996 998	人家
+T128	Thing-Nominal 1001 1004	土井水
+T129	Thing-Nominal 1008 1011	饮河水
+T130	Time-Explicit 1014 1016	夏季
+T131	Person-Nominal 1016 1020	腹泻的人
+T132	Time-Explicit 1032 1034;1035 1038	八十 年代初
+T133	Location-Pronoun 1039 1041	村里
+T134	Location-Nominal 1046 1050	自来水厂
+T135	Thing-Nominal 1057 1060	自来水
+T136	Location-Nominal 1061 1063	村里
+T137	Thing-Nominal 1064 1071	浜、、漾、河道
+T138	Time-Implicit 1071 1073	每年
+T139	Thing-Nominal 1080 1087	长期积累的淤泥
+T140	Time-Implicit 1088 1091	近几年
+T141	Physical 1092 1095;1096 1097	生态环 境
+T142	Thing-Nominal 1091 1103	对生态环
+境有影响的工厂
+T143	Thing-Nominal 1117 1124	污水处理的设备
+T145	Time-Explicit 1134 1136	同时
+T147	Organization-Nominal 1145 1150	村、组、户
+T149	Organization-Nominal 1161 1168	治水义务巡防队
+T150	Person-Nominal 1170 1172	村民
+T151	Location-Nominal 1182 1184	全村
+T154	Location-Pronoun 1210 1212	该村
+T155	Thing-Nominal 1210 1215	该村的河道
+T156	Thing-Nominal 1221 1222	鱼
+T157	Location-Pronoun 1223 1225	水中
+T158	Location-Pronoun 1230 1232	河边
+T159	Thing-Nominal 1232 1234	绿树
+T160	Location-Pronoun 1237 1239	河中
+T161	Location-Nominal 1240 1242	村里
+T162	Thing-Nominal 1245 1246	水
+T165	Person-Nominal 1265 1270	有位村干部
+T166	Person-Pronoun 1272 1273	我
+T167	Location-Nominal 1276 1278	全村
+T168	Metric 1280 1285	800多亩
+T169	Thing-Nominal 1285 1287	土地
+T170	Metric 1292 1298	2100多亩
+T171	Abstract 1299 1302	覆盖率
+T172	Metric 1302 1305	27%
+T173	Person-Nominal 1319 1322	村民们
+T174	Thing-Nominal 1323 1331	电、煤气、太阳能
+T175	Thing-Nominal 1335 1339	清洁能源
+T176	Metric 1345 1349	100%
+T177	Abstract 1340 1343	占有率
+T178	Location-Name 1353 1360	查家坞、倪家弄
+T179	Metric 1360 1362	几户
+T180	Person-Nominal 1360 1368	几户老邻居和亲戚
+T181	Location-Pronoun 1371 1375	房前屋后
+T182	Thing-Nominal 1377 1395	广玉兰、桂花树、果树、乔木、庭院绿化
+T183	Person-Nominal 1401 1403	村民
+T184	Location-Nominal 1411 1413	村里
+T185	Organization-Nominal 1431 1446	养殖业、种植业、工企业科普协会
+T186	Organization-Nominal 1452 1461;1462 1480	科普活动室、科普宣 传长廊、科普知识讲座、有了科普联络员
+T187	Location-Name 1483 1486	诸桥村
+T188	Time-Explicit 1487 1492	2006年
+T189	Location-Nominal 1495 1506	浙江省级“科普示范村”
+T190	Location-Nominal 1508 1510	村庄
+T191	Location-Pronoun 1519 1522	这个村
+T192	Time-Explicit 1534 1539	六七十年代
+T193	Thing-Nominal 1543 1545	广播
+T194	Time-Explicit 1546 1551	八九十年代
+T195	Thing-Nominal 1553 1555	电视
+T197	Time-Explicit 1556 1568	进入新世纪后的2005年
+T198	Thing-Name 1572 1578	村级文化中心
+T199	Metric 1582 1588	600多万元
+T200	Metric 1593 1601	2000多平方米
+T201	Metric 1602 1605	四层楼
+T202	Thing-Name 1602 1612	四层楼的文化活动中心
+T203	Thing-Name 1614 1629;1630 1645	图书报刊阅览室、老年活动室、电 子阅览室、文体活动室、多功能厅
+T204	Location-Pronoun 1647 1649	室外
+T205	Metric 1651 1658	600多平方米
+T206	Thing-Nominal 1651 1661	600多平方米的广场
+T207	Thing-Nominal 1664 1681	露天舞台、健身苑、篮球场、休闲长廊
+T209	Time-Explicit 1682 1687	去年国庆节
+T210	Location-Nominal 1688 1690	老家
+T211	Time-Explicit 1694 1698	那天晚上
+T212	Location-Nominal 1698 1705	村文化中心广场
+T213	Metric 1721 1723	一周
+T214	Organization-Nominal 1719 1736	为期一周的第八届村级文化艺术节活动
+T215	Person-Pronoun 1737 1742	文艺爱好者
+T216	Person-Pronoun 1756 1757	我
+T217	Location-Nominal 1759 1761	家乡
+T218	Location-Nominal 1777 1779	家乡
+T219	Person-Nominal 1800 1801	人
+T220	Thing-Nominal 360 362	土地
+T221	Thing-Nominal 612 617	家乡的道路
+T222	Thing-Nominal 618 625	坑坑洼洼的泥路
+R4	Located Arg1:T101 Arg2:T100	
+R5	Part-Whole Arg1:T207 Arg2:T206	
+R6	Part-Whole Arg1:T206 Arg2:T204	
+R7	Part-Whole Arg1:T203 Arg2:T202	
+R8	Located Arg1:T182 Arg2:T181	
+R11	Ownership Arg1:T186 Arg2:T184	
+R12	Part-Whole Arg1:T174 Arg2:T175	
+R13	Located Arg1:T156 Arg2:T157	
+R14	Located Arg1:T155 Arg2:T154	
+R15	Located Arg1:T137 Arg2:T136	
+T144	Thing-Nominal 145 148	旧平房
+T146	Time-Implicit 1721 1723	一周
+T3	Thing-Nominal 223 225	漏水
+T20	Thing-Nominal 401 408;409 421	一座座具有江南 水乡风格庭院式的三层楼房
+R2	Located Arg1:T68 Arg2:T66	
+T33	Thing-Nominal 466 469;470 490	内部结 构的厅堂、卧室、书房、厨房、卫生间和装饰
+R16	Located Arg1:T33 Arg2:T66	
+R3	Located Arg1:T78 Arg2:T77	
+R17	Located Arg1:T80 Arg2:T79	
+T50	Time-Implicit 881 883	每天
+T57	Person-Nominal 1005 1007	有的
+T60	Abstract 1139 1144	“河长制”
+T63	Abstract 1152 1156;1157 1158	治水责任 制
+R18	Located Arg1:T159 Arg2:T158	

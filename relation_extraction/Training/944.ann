@@ -1,0 +1,179 @@
+T1	Location-Nominal 0 4	我的故乡
+T2	Location-Nominal 5 8	梯田中
+T3	Location-Nominal 10 13	梯田中
+T4	Thing-Nominal 14 15	蛙
+R1	Located Arg1:T4 Arg2:T3	
+T5	Thing-Nominal 22 23	蛙
+T6	Person-Nominal 24 26	国人
+T7	Person-Nominal 43 54	美国加利福尼亚大学教授
+T8	Location-Name 43 45	美国
+T9	Person-Name 54 60	W・爱伯哈德
+T10	Abstract 62 72	《中国文化象征词典》
+T11	Time-Explicit 73 78	1983年
+R2	Part-Whole Arg1:T9 Arg2:T7	
+T12	Thing-Nominal 85 87	蛙类
+T13	Time-Implicit 118 123	中国古现代
+T14	Person-Nominal 128 130	政客
+T15	Person-Nominal 131 133	诗人
+T16	Person-Nominal 133 135	作家
+T17	Time-Implicit 152 154	唐朝
+T18	Person-Name 154 156	韩愈
+T19	Abstract 156 160	《杂诗》
+T20	Thing-Nominal 162 163	蛙
+T21	Time-Implicit 175 177	现代
+T22	Person-Nominal 177 181	著名作家
+T23	Person-Name 181 184	朱自清
+R3	Part-Whole Arg1:T23 Arg2:T22	
+T24	Abstract 188 194	《荷塘月色》
+T25	Thing-Nominal 197 198	蛙
+T26	Thing-Pronoun 207 209	它们
+T27	Person-Pronoun 211 212	我
+*	Coreference T26 T25
+T28	Location-Nominal 219 224	梯田的民间
+T29	Thing-Nominal 241 242	蛙
+T30	Thing-Nominal 245 249	“田鸡”
+*	Coreference T30 T29
+T31	Person-Pronoun 251 252	我
+T32	Thing-Nominal 255 256	蛙
+T33	Person-Nominal 283 285	人们
+T34	Person-Pronoun 290 291	我
+T35	Location-Name 292 295	水碾房
+T36	Metric 305 308	两三夜
+T37	Thing-Nominal 309 310	蛙
+T38	Thing-Nominal 272 273	蛙
+T39	Time-Implicit 328 332	那年春天
+T40	Person-Pronoun 333 334	我
+T41	Location-Name 336 338	碾房
+T42	Time-Implicit 340 342	春夜
+T43	Location-Name 343 347	碾房屋内
+T44	Thing-Nominal 348 350	水车
+R4	Located Arg1:T44 Arg2:T43	
+T45	Location-Name 361 364	金河上
+T46	Thing-Nominal 369 370	风
+T47	Location-Nominal 375 383	水碾下柱的细孔里
+T48	Location-Nominal 385 387	屋里
+T49	Thing-Nominal 393 400;401 402	吊在梁上的蜘蛛 网
+T50	Location-Nominal 394 397	在梁上
+R5	Located Arg1:T49 Arg2:T50	
+T51	Person-Pronoun 403 404	你
+T52	Location-Nominal 409 411	那屋
+T53	Person-Pronoun 417 418	我
+T54	Location-Nominal 419 426	屋门前的晒台上
+T55	Thing-Nominal 429 444	一床用金黄的稻草编织成的草帘子
+T56	Thing-Nominal 432 437	金黄的稻草
+R6	Part-Whole Arg1:T56 Arg2:T55	
+R7	Located Arg1:T55 Arg2:T54	
+T57	Thing-Nominal 446 452	黄而软的帘子
+T58	Person-Pronoun 469 470	我
+T59	Thing-Nominal 475 480	金黄的稻草
+T60	Thing-Nominal 485 487	草谷
+R8	Part-Whole Arg1:T59 Arg2:T60	
+T61	Thing-Nominal 489 491	枕头
+*	Coreference T61 T60
+T62	Location-Nominal 493 496	帘子上
+T63	Thing-Nominal 503 513	一床印了碎花的蓝被单
+T64	Thing-Nominal 499 501	天幕
+T65	Person-Pronoun 515 516	我
+T66	Person-Pronoun 519 520	我
+T67	Thing-Nominal 524 529	金河上的风
+T68	Location-Name 524 527	金河上
+R9	Located Arg1:T67 Arg2:T68	
+T69	Location-Nominal 530 533	梯田里
+T70	Person-Pronoun 560 561	我
+T71	Thing-Nominal 549 550	蛙
+T72	Location-Nominal 564 571	晒台下的水波里
+T73	Time-Implicit 585 587	春天
+T74	Thing-Nominal 588 589	蛙
+T75	Thing-Nominal 592 598	青年男女蛙们
+T76	Person-Nominal 612 614	男蛙
+T77	Person-Nominal 625 627	女蛙
+T78	Time-Implicit 645 647	春天
+T79	Location-Nominal 642 644;645 651	整个 春天的梯田里
+T80	Thing-Nominal 660 663	男女蛙
+T81	Person-Pronoun 684 685	我
+T82	Thing-Nominal 684 690	我躺着的晒台
+T83	Person-Nominal 696 698	古人
+T84	Person-Pronoun 723 724	我
+T85	Location-Nominal 726 729	水碾房
+T86	Location-Name 733 739	故乡金河岸边
+R10	Near Arg1:T85 Arg2:T86	
+T87	Location-Nominal 741 750	那连天接地的梯田里
+T88	Time-Implicit 751 755	春分时节
+T89	Thing-Nominal 755 761	栽下去的秧苗
+R11	Located Arg1:T89 Arg2:T87	
+T90	Thing-Nominal 798 801;802 806	成千上 万只青蛙
+T91	Time-Implicit 807 812	月高夜谧时
+T92	Thing-Nominal 813 814	蛙
+T93	Location-Nominal 817 824	梯田的四面八方
+T94	Person-Pronoun 854 855	你
+T95	Location-Nominal 858 862	田埂幽径
+T96	Person-Pronoun 865 866	你
+T97	Thing-Nominal 870 871	蛙
+T98	Person-Pronoun 879 880	你
+T99	Location-Nominal 884 886	脚下
+T100	Thing-Nominal 886 887	蛙
+R12	Located Arg1:T100 Arg2:T99	
+T101	Location-Nominal 894 904	身前身后三步二步远处
+T102	Person-Pronoun 910 911	你
+T103	Thing-Nominal 914 915	蛙
+T104	Person-Pronoun 924 925	你
+T105	Location-Nominal 926 929	田埂上
+T106	Location-Nominal 938 942	你的脚下
+T107	Location-Nominal 943 945	身后
+T108	Location-Nominal 947 952	你的皮肤上
+T109	Person-Pronoun 963 964	你
+T110	Person-Pronoun 977 978	你
+T111	Location-Nominal 983 984;985 989	生 态梯田中
+T112	Thing-Nominal 992 1001	带有几分稻香的空气
+R13	Located Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 1009 1010	蛙
+T114	Location-Nominal 1015 1019	故乡梯田
+T115	Thing-Nominal 1020 1021	蛙
+R14	Located Arg1:T115 Arg2:T114	
+T116	Thing-Nominal 1032 1033	水
+T117	Person-Pronoun 1035 1036	你
+T118	Person-Pronoun 1052 1053	你
+T119	Location-Nominal 1066 1070	故乡梯田
+T120	Thing-Nominal 1071 1072	蛙
+R15	Located Arg1:T120 Arg2:T119	
+T121	Person-Nominal 1089 1091	前人
+T122	Time-Implicit 1103 1105	南齐
+T123	Person-Name 1106 1109	孔稚圭
+T124	Person-Nominal 1110 1113	该同志
+*	Coreference T124 T123
+T125	Person-Pronoun 1136 1137	他
+T126	Location-Nominal 1136 1142	他的住宅周围
+T127	Location-Nominal 1155 1158	院子里
+T128	Thing-Nominal 1159 1160	草
+R16	Located Arg1:T128 Arg2:T127	
+T129	Person-Name 1177 1181	政要王晏
+T130	Location-Nominal 1188 1190	院中
+T131	Thing-Nominal 1190 1191	蛙
+R17	Located Arg1:T131 Arg2:T130	
+T132	Person-Name 1202 1204	稚圭
+T133	Person-Pronoun 1209 1210	我
+*	Coreference T133 T132
+T134	Abstract 1228 1238	《南齐书・孔稚圭传》
+T135	Person-Name 1239 1242	唐张祜
+T136	Time-Implicit 1260 1261	宋
+T137	Person-Name 1261 1264	苏东坡
+T138	Abstract 1265 1266;1267 1274	《 赠王子直秀才》
+T139	Time-Implicit 1299 1300	清
+T140	Person-Name 1300 1303	唐孙华
+T141	Abstract 1303 1311	《长夏闭居杂感》
+T142	Time-Implicit 1332 1334	明初
+T143	Abstract 1336 1341	《解学士》
+T144	Person-Name 1344 1346	解缙
+T145	Abstract 1348 1352	《咏蛙》
+T146	Location-Nominal 1357 1359	池边
+T147	Location-Nominal 1364 1368	柳荫树下
+T148	Time-Implicit 1373 1374	春
+T149	Person-Pronoun 1375 1376	吾
+T150	Thing-Nominal 1384 1386	虫儿
+T151	Location-Nominal 1404 1406	梯田
+T152	Thing-Nominal 1404 1409	梯田的蛙们
+R18	Located Arg1:T152 Arg2:T151	
+T153	Thing-Nominal 768 786	一幅“草痕遥看近却无”的中国水彩画卷
+T154	Location-Nominal 788 793	这些画卷中
+R19	Located Arg1:T90 Arg2:T154	
+T155	Thing-Nominal 807 808	月

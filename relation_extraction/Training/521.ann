@@ -1,0 +1,67 @@
+T1	Time-Implicit 0 9	今年盛夏的一天傍晚
+T2	Person-Pronoun 10 11	我
+T3	Person-Nominal 12 15	小孙子
+R1	Family Arg1:T3 Arg2:T2	
+T4	Location-Nominal 16 18	公园
+T5	Location-Nominal 27 30	小亭子
+T6	Location-Nominal 25 27	公园
+R2	Part-Whole Arg1:T5 Arg2:T6	
+T7	Person-Nominal 66 71	有的观棋者
+T8	Person-Nominal 72 75	下棋者
+T9	Person-Nominal 90 92	有人
+T10	Person-Pronoun 99 100	我
+T11	Person-Pronoun 107 108	我
+T12	Person-Nominal 114 118	臭棋篓子
+*	Coreference T11 T12
+T13	Person-Name 136 138	笠翁
+T14	Person-Nominal 157 159	君子
+T15	Person-Pronoun 169 170	你
+T16	Person-Pronoun 173 174	你
+T17	Thing-Nominal 176 179	多嘴驴
+T18	Person-Pronoun 187 188	你
+T19	Person-Pronoun 195 196	我
+T20	Person-Nominal 208 210	有人
+T21	Person-Name 259 266	著名作家贾平凹
+T22	Person-Nominal 282 287	一个观弈者
+T23	Person-Nominal 303 306	对弈者
+T24	Person-Nominal 319 322	观弈者
+T25	Person-Nominal 337 342	长脖子的人
+T26	Person-Nominal 354 356	自己
+*	Coreference T26 T24
+T27	Person-Nominal 376 377;378 379	弈 者
+T28	Person-Pronoun 481 482	他
+T29	Person-Nominal 387 389	应者
+T30	Person-Nominal 391 396	别的观弈人
+*	Coreference T30 T29
+T31	Location-Name 422 424	西安
+T32	Person-Nominal 425 429	一中年人
+T33	Person-Nominal 432 434	孩子
+T34	Time-Implicit 430 432	夜里
+R3	Family Arg1:T33 Arg2:T32	
+T35	Person-Nominal 437 438;439 440	妇 人
+R4	Family Arg1:T32 Arg2:T35	
+R5	Family Arg1:T33 Arg2:T35	
+T36	Organization-Nominal 442 444	医院
+T37	Person-Nominal 497 499;500 501	观弈 者
+T38	Organization-Nominal 519 521	医院
+T39	Person-Nominal 530 532	儿子
+T40	Person-Pronoun 534 535	他
+R6	Family Arg1:T40 Arg2:T39	
+*	Coreference T28 T32
+T41	Person-Pronoun 553 554	我
+T42	Thing-Nominal 43 44	棋
+T43	Person-Nominal 48 53	艺高”的人
+T44	Thing-Nominal 62 63	手
+T45	Thing-Nominal 64 65	脚
+T46	Thing-Nominal 93 94	棋
+T47	Thing-Nominal 252 254	大牙
+T48	Person-Nominal 274 276	弈人
+T49	Person-Nominal 382 384	大将
+T50	Thing-Nominal 449 450	棋
+T51	Thing-Nominal 461 462	脚
+T52	Thing-Nominal 471 472	眼
+T53	Thing-Nominal 573 574	棋
+T54	Thing-Nominal 541 542	棋
+T55	Thing-Nominal 603 604	棋
+T56	Thing-Nominal 607 608	帘
+T57	Thing-Nominal 582 583	棋

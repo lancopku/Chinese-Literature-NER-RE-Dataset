@@ -1,0 +1,269 @@
+T1	Time-Explicit 11 21	二十世纪六十年代初，
+T2	Person-Pronoun 21 22	你
+T3	Location-Name 25 31	浙西江山县城
+T4	Thing-Nominal 32 36	大街小巷
+R1	Located Arg1:T4 Arg2:T3	
+T5	Person-Nominal 43 52	一个卖臭豆腐的女人
+T6	Thing-Nominal 53 54	臂
+T7	Thing-Nominal 55 60	一个小竹篮
+R2	Use Arg1:T5 Arg2:T7	
+T8	Person-Pronoun 62 63	她
+*	Coreference T8 T5
+T9	Location-Nominal 66 69	小巷中
+T10	Thing-Nominal 73 80	腌子――豆腐干
+T11	Person-Pronoun 93 94	她
+T12	Location-Nominal 98 100	小巷
+T13	Person-Pronoun 105 106	她
+T14	Thing-Nominal 106 110	些许硬币
+T15	Person-Pronoun 111 112	她
+T16	Thing-Nominal 113 118	一片青菜叶
+R3	Use Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 120 121;122 126	几 块臭豆腐
+T18	Location-Nominal 131 135	你的手中
+T19	Person-Pronoun 131 132	你
+T20	Person-Pronoun 144 145	她
+T21	Thing-Nominal 150 154	青衣黛裤
+T22	Thing-Nominal 154 157	黑布鞋
+T23	Thing-Nominal 163 165	头发
+T24	Time-Implicit 170 173	闲空时
+T25	Person-Pronoun 174 175	她
+T26	Location-Nominal 178 186	文化馆的阅报栏前
+T27	Abstract 191 197	《人民日报》
+T28	Person-Nominal 202 204;205 207	成年 异性
+T29	Location-Nominal 209 211	身旁
+T30	Person-Pronoun 212 213	她
+T31	Thing-Nominal 218 219	头
+R4	Part-Whole Arg1:T31 Arg2:T30	
+T32	Person-Nominal 238 242	这个女人
+T33	Location-Nominal 248 254	这个偏远小城
+T34	Person-Nominal 259 260	人
+T35	Person-Pronoun 262 263	她
+*	Coreference T35 T32
+T36	Person-Nominal 279 280	人
+T37	Person-Pronoun 281 282	她
+T38	Person-Nominal 289 290	人
+T39	Person-Pronoun 291 292	她
+T40	Person-Nominal 303 304	人
+T41	Person-Pronoun 305 306	她
+T42	Location-Name 307 309	台湾
+T43	Person-Nominal 312 314	特务
+*	Coreference T43 T41
+T44	Person-Nominal 316 322	毛人凤的亲戚
+T45	Person-Name 316 319	毛人凤
+T46	Time-Implicit 323 327	二十年后
+T47	Person-Nominal 329 333	这个女人
+T48	Person-Pronoun 335 336	她
+*	Coreference T48 T47
+T49	Time-Explicit 328 342	当这个女人走完她的人生之路时
+T50	Organization-Name 343 352	中共江山市委统战部
+T51	Person-Name 354 359;360 361	一个叶姓官 员
+T52	Person-Pronoun 362 363	他
+*	Coreference T52 T51
+T53	Person-Name 365 372	干过摄影的小刘
+T54	Person-Nominal 375 381	殡仪馆的书记
+T55	Location-Nominal 375 378	殡仪馆
+T56	Person-Pronoun 383 384	她
+T57	Person-Nominal 397 405	这个卖臭豆腐女人
+T58	Person-Nominal 417 424	老一辈的江山人
+T59	Person-Pronoun 428 429	她
+T60	Person-Name 430 433	毛辅文
+*	Coreference T59 T57 T62
+T61	Time-Explicit 435 439	民国早年
+T62	Person-Nominal 446 453	毛氏三千金之一
+T63	Metric 460 463	四十年
+T64	Person-Nominal 464 468	她的大姐
+T65	Person-Pronoun 464 465	她
+R5	Family Arg1:T65 Arg2:T64	
+T66	Person-Nominal 476 482	民国一代名媛
+T67	Person-Name 483 485	吴宓
+T68	Person-Name 490 497	民国总理熊希龄
+T69	Person-Name 498 503	遗孀毛彦文
+R6	Family Arg1:T69 Arg2:T68	
+T70	Person-Nominal 504 509	她们的父亲
+T71	Person-Pronoun 504 506	她们
+R7	Family Arg1:T70 Arg2:T71	
+T72	Person-Nominal 512 519	江山有名的富商
+T73	Time-Implicit 510 512	当时
+T74	Person-Name 520 530	开布庄和酱园的毛华东
+T75	Person-Name 532 535	毛辅文
+T76	Location-Pronoun 550 552	当地
+T77	Person-Name 559 561	辅文
+T78	Time-Implicit 561 565	五六岁时
+T79	Person-Nominal 571 573	亲人
+T80	Person-Pronoun 579 580	她
+*	Coreference T80 T77
+T81	Time-Explicit 589 598	民国进入第二个十年
+T82	Thing-Nominal 599 601	西风
+T83	Person-Nominal 604 609	毛氏三姐妹
+T84	Thing-Nominal 628 630	眼镜
+T85	Thing-Nominal 624 626	西发
+T86	Thing-Nominal 631 633	皮鞋
+T87	Thing-Nominal 634 639	上西河女校
+T88	Thing-Nominal 641 644	英文歌
+T89	Time-Explicit 659 664	1925年
+T90	Person-Name 665 668	毛辅文
+T91	Location-Name 670 676	南京东南大学
+T92	Person-Nominal 678 681	三姐妹
+T93	Location-Name 683 685	南京
+T94	Time-Implicit 686 689	两年后
+T95	Location-Name 689 691	南京
+T96	Organization-Nominal 696 698	学校
+T97	Person-Nominal 701 704	三姐妹
+T98	Time-Implicit 709 713	自此之后
+T99	Person-Name 714 717	毛辅文
+T100	Thing-Nominal 725 736	一支刚刚探出水面的荷花
+T101	Thing-Nominal 738 742	战争之手
+T102	Thing-Nominal 748 752	尖尖一角
+T103	Thing-Nominal 621 623	天足
+R8	Ownership Arg1:T83 Arg2:T84	
+R9	Ownership Arg1:T83 Arg2:T86	
+T104	Location-Name 634 637	上西河
+R10	Located Arg1:T87 Arg2:T104	
+T105	Person-Nominal 777 779	万民
+T106	Time-Explicit 786 791	1984年
+T107	Person-Name 795 798	毛辅文
+T108	Time-Implicit 795 805	毛辅文去世的消息之时
+T109	Person-Name 806 809	毛彦文
+T110	Abstract 810 817	《哭三妹辅文》
+T111	Person-Name 821 824	毛辅文
+T112	Person-Pronoun 831 832	她
+*	Coreference T112 T111
+T113	Organization-Name 842 846	东南大学
+T114	Time-Implicit 868 871	毕业后
+T115	Person-Pronoun 896 897	谁
+T116	Time-Implicit 918 932	经过一段短暂的失败的婚姻之后
+T117	Person-Name 933 936	毛辅文
+T118	Person-Pronoun 939 940	她
+*	Coreference T118 T117
+T119	Location-Name 949 960	杭州、衢州、北京、天津
+T120	Location-Name 965 967	上海
+T121	Person-Pronoun 968 969	她
+T122	Person-Name 975 980	大姐毛彦文
+R11	Family Arg1:T121 Arg2:T122	
+T123	Time-Explicit 993 1001	1949年4月底
+T124	Thing-Nominal 1003 1010	隔江的隆隆炮声
+T125	Person-Name 1012 1015	毛彦文
+T126	Thing-Nominal 1018 1019	船
+T127	Person-Name 1022 1025	毛辅文
+T128	Location-Name 1026 1030;1031 1034	上海十六 铺码头
+T129	Person-Nominal 1037 1039	姐妹
+T130	Thing-Nominal 1041 1042	泪
+T131	Location-Nominal 1044 1045	面
+R12	Located Arg1:T130 Arg2:T131	
+T132	Person-Nominal 1048 1050	姐妹
+T133	Thing-Nominal 1050 1052	海峡
+T134	Person-Name 1060 1063	毛辅文
+T135	Person-Nominal 1071 1073	佳人
+T136	Person-Name 1079 1082	毛辅文
+T137	Person-Nominal 1097 1098	人
+T138	Person-Pronoun 1107 1110	毛辅文
+T139	Time-Implicit 1104 1107	解放后
+T140	Person-Nominal 1118 1120	一人
+T141	Location-Name 1122 1124	上海
+T142	Time-Implicit 1140 1146	三年大饥馑时
+T143	Person-Pronoun 1147 1148	她
+*	Coreference T143 T136
+T144	Location-Name 1149 1151	上海
+T145	Thing-Nominal 1152 1153	地
+T146	Thing-Nominal 1154 1155	门
+T147	Location-Name 1156 1163	流放边远的甘肃
+T148	Location-Nominal 1182 1186	江山老家
+T149	Person-Nominal 1188 1190	亲友
+T150	Time-Implicit 1192 1194	此时
+T151	Person-Name 1195 1198	毛辅文
+T152	Person-Nominal 1205 1207	乞丐
+T153	Person-Nominal 1211 1213	侄女
+T154	Time-Implicit 1225 1227	后来
+T155	Person-Name 1227 1230	毛辅文
+T156	Thing-Nominal 1233 1236	臭豆腐
+T157	Person-Nominal 1247 1252	可怜的老人
+T158	Metric 1261 1263	几年
+T159	Person-Pronoun 1282 1283	她
+*	Coreference T159 T155
+T160	Thing-Nominal 1276 1280	狂风暴雨
+T161	Person-Pronoun 1286 1287	她
+T162	Person-Nominal 1293 1296	造反派
+T163	Person-Pronoun 1298 1299	她
+T164	Person-Pronoun 1303 1304	她
+T165	Person-Pronoun 1306 1307	她
+T166	Person-Nominal 1312 1313	众
+T167	Thing-Nominal 1308 1309	街
+T168	Thing-Nominal 1310 1311	牌
+T169	Time-Implicit 1314 1318	二十年代
+T170	Person-Nominal 1319 1330	受过高等教育的民国才女
+T171	Location-Nominal 1332 1338	这个偏远小城
+T172	Person-Pronoun 1345 1346	她
+T173	Person-Pronoun 1386 1387	她
+T174	Location-Nominal 1387 1389	身上
+T175	Person-Pronoun 1403 1404	她
+T176	Time-Implicit 1409 1415	每次批斗之后
+T177	Person-Pronoun 1416 1417	她
+T178	Person-Pronoun 1420 1422	自己
+*	Coreference T178 T177
+T179	Location-Nominal 1432 1434	家中
+T180	Thing-Nominal 1437 1442	最好的食品
+R13	Located Arg1:T180 Arg2:T179	
+T181	Person-Pronoun 1444 1446	自己
+T182	Person-Pronoun 1447 1448	她
+T183	Thing-Nominal 1462 1467	她的臭豆腐
+T184	Person-Pronoun 1462 1463	她
+R14	Ownership Arg1:T184 Arg2:T183	
+T185	Person-Pronoun 1468 1469	她
+T186	Person-Pronoun 1471 1473	自己
+*	Coreference T186 T185
+T187	Person-Nominal 1481 1483	世人
+T188	Person-Pronoun 1484 1485	她
+T189	Person-Nominal 1498 1502	善良平民
+T190	Person-Pronoun 1506 1507	她
+T191	Person-Nominal 1508 1517	一位美好的受难女神
+*	Coreference T191 T190
+T192	Location-Nominal 1520 1522;1523 1527	青石 板小路上
+T193	Thing-Nominal 1529 1533	几块豆腐
+T194	Person-Nominal 1542 1544	人们
+T195	Person-Pronoun 1549 1550	她
+T196	Time-Implicit 1562 1567	非正常年代
+T197	Thing-Nominal 1585 1589	真正火种
+T198	Person-Name 1591 1594	毛辅文
+T199	Person-Nominal 1594 1598	一介平民
+T200	Time-Explicit 1602 1608	二十世纪之初
+T201	Person-Pronoun 1623 1624	她
+*	Coreference T201 T198
+T202	Time-Implicit 1642 1647	离世前几年
+T203	Person-Pronoun 1648 1649	她
+T204	Person-Name 1653 1656	张贤亮
+T205	Abstract 1658 1663	《绿化树》
+T206	Person-Name 1665 1667	章永
+T207	Thing-Nominal 1673 1676	红地毯
+T208	Time-Explicit 1679 1684	1982年
+T209	Organization-Nominal 1687 1695	政协江山市委员会
+T210	Person-Pronoun 1705 1706	她
+T211	Time-Implicit 1703 1705	当时
+T212	Person-Name 1718 1721	毛友仁
+T213	Person-Pronoun 1724 1725	她
+*	Coreference T213 T212
+T214	Person-Nominal 1743 1745	君子
+T215	Person-Nominal 1748 1749	友
+T216	Person-Nominal 1751 1752	友
+T217	Abstract 1757 1761	《颜渊》
+T218	Person-Pronoun 1762 1763	她
+T219	Person-Name 1768 1770	辅文
+T220	Person-Name 1787 1790	毛辅文
+T221	Person-Pronoun 1792 1793	她
+*	Coreference T221 T220
+T222	Person-Nominal 1799 1801	人们
+T223	Person-Nominal 1816 1818	老人
+T224	Person-Pronoun 1842 1843	她
+T225	Person-Name 1856 1861	大姐毛彦文
+R15	Family Arg1:T224 Arg2:T225	
+T226	Person-Nominal 1866 1868	亲友
+T227	Person-Name 1873 1876	毛辅文
+T228	Person-Nominal 1879 1883	她的父母
+T229	Person-Pronoun 1879 1880	她
+*	Coreference T229 T227
+R16	Family Arg1:T227 Arg2:T228	
+T230	Location-Name 1885 1891	西山的坟茔中
+T231	Person-Pronoun 1898 1899	她
+T232	Person-Name 1909 1912	毛辅文
+T233	Person-Nominal 1927 1929	上苍
+T234	Person-Nominal 1946 1948	人民
+T235	Person-Nominal 1961 1963	百姓

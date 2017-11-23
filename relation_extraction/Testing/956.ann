@@ -1,0 +1,265 @@
+T1	Time-Implicit 0 5	清晨七时许
+T2	Thing-Nominal 5 8	电话铃
+T3	Person-Pronoun 11 12	我
+T6	Time-Implicit 27 29	凌晨
+T7	Metric 38 42	90有3
+T8	Location-Nominal 45 48	工厂里
+T9	Time-Implicit 43 45	昔日
+T10	Person-Nominal 49 51	大工
+T11	Person-Nominal 52 60;61 67	对学识渊博技术精 湛的老工程师
+*	Coreference T11 T10
+T12	Time-Implicit 72 76	这天晚间
+T13	Person-Pronoun 77 78	我
+T14	Metric 80 83	19楼
+T15	Location-Nominal 80 85	19楼窗口
+T18	Location-Nominal 95 97	夜空
+T19	Person-Name 109 112	唐大工
+T20	Organization-Name 113 116	技术科
+*	Coreference T19 T24
+T24	Person-Pronoun 156 157	他
+T25	Person-Pronoun 162 163	他
+T26	Person-Nominal 182 184	上级
+T27	Person-Nominal 196 199	年轻人
+T28	Person-Pronoun 204 206	我们
+T29	Person-Nominal 222 224	自己
+T30	Person-Pronoun 261 262	他
+T31	Person-Pronoun 279 280	他
+T32	Person-Nominal 283 286	年轻人
+T33	Person-Nominal 292 294	自己
+T36	Person-Nominal 319 323	这位愚人
+T37	Person-Nominal 326 334	我们年轻技术人员
+T38	Person-Pronoun 340 341	他
+T39	Person-Pronoun 342 343	我
+T40	Metric 343 346	14岁
+T41	Person-Pronoun 356 357	我
+T42	Person-Pronoun 359 360	他
+T43	Person-Nominal 361 362	师
+T44	Person-Pronoun 364 366	我们
+T45	Person-Nominal 373 378	亲密的酒友
+T46	Time-Implicit 389 393	那个年代
+T47	Person-Pronoun 427 429	我们
+T48	Person-Pronoun 436 437	他
+T49	Person-Pronoun 450 451	他
+T50	Thing-Nominal 450 455	他的小茶壶
+T51	Location-Nominal 450 456	他的小茶壶内
+T52	Thing-Nominal 459 461	黄酒
+R2	Located Arg1:T52 Arg2:T51	
+R3	Part-Whole Arg1:T50 Arg2:T49	
+T53	Time-Explicit 504 509	“文革”时
+T54	Person-Pronoun 510 511	他
+T55	Organization-Name 528 533	“造反派”
+T56	Person-Name 537 540	唐大工
+T57	Person-Nominal 564 568	我们酒友
+T58	Time-Implicit 570 574	40余载
+T59	Metric 570 574	40余载
+T60	Time-Explicit 603 616	1978年党的三中全会之后
+T61	Abstract 622 626	“四化”
+T62	Location-Nominal 640 643	我们厂
+T63	Location-Nominal 644 652	“文革”的重灾区
+T64	Person-Nominal 661 663	职工
+T65	Person-Pronoun 673 674	我
+T66	Location-Nominal 678 680	厂内
+T67	Thing-Nominal 682 684	产品
+R4	Located Arg1:T67 Arg2:T66	
+T68	Time-Implicit 698 703	近半个世纪
+T69	Thing-Nominal 728 730	能源
+T70	Location-Nominal 526 528	厂内
+T71	Location-Nominal 441 443	厂内
+T72	Time-Implicit 752 756	一天晚上
+T73	Person-Name 757 760	唐大工
+T74	Person-Pronoun 761 762	我
+T75	Thing-Nominal 763 764	酒
+T76	Person-Pronoun 765 766	我
+T77	Person-Nominal 769 772	唐师母
+R5	Family Arg1:T77 Arg2:T73	
+T82	Location-Nominal 788 790	柜内
+T85	Person-Name 799 802	唐大工
+T86	Person-Pronoun 813 814	我
+T87	Person-Pronoun 816 817	你
+T88	Person-Pronoun 823 824	你
+T89	Person-Pronoun 827 828	你
+T90	Organization-Nominal 842 844	工厂
+T91	Person-Pronoun 848 849	我
+T92	Person-Pronoun 852 853	你
+T93	Person-Pronoun 859 860	你
+T94	Person-Pronoun 867 868	我
+T95	Person-Nominal 870 873;874 875	反对的 人
+T96	Location-Nominal 883 885	厂内
+T97	Organization-Nominal 885 892	有权位的实力派
+T98	Person-Pronoun 911 912	我
+T99	Person-Pronoun 914 915	你
+T100	Person-Nominal 925 927	别人
+T101	Person-Nominal 942 944	自己
+T102	Person-Pronoun 959 960	我
+T103	Time-Implicit 968 970	今晚
+T104	Person-Pronoun 970 972	我们
+T105	Person-Pronoun 982 983	你
+T106	Thing-Nominal 984 985	酒
+T107	Thing-Nominal 825 826	酒
+T108	Time-Implicit 992 994	那晚
+T109	Person-Pronoun 995 997	我们
+T110	Person-Pronoun 1015 1016	他
+T111	Metric 1037 1040	10个
+T112	Person-Pronoun 1044 1046	我们
+T113	Metric 1064 1067	10年
+T114	Person-Name 1073 1076	唐大工
+T115	Person-Nominal 1077 1081	调皮孩子
+T116	Thing-Nominal 1083 1086	我的手
+T117	Person-Pronoun 1083 1084	我
+R7	Part-Whole Arg1:T116 Arg2:T117	
+T118	Person-Pronoun 1099 1100	你
+T119	Person-Pronoun 1107 1108	我
+T121	Person-Pronoun 1120 1121	我
+T122	Time-Implicit 1124 1126	今儿
+T123	Person-Nominal 1127 1129	客人
+T124	Person-Pronoun 1130 1131	她
+T125	Person-Pronoun 1134 1135	我
+T126	Person-Pronoun 1140 1141	我
+T127	Person-Name 1154 1157	唐师母
+T128	Location-Nominal 1160 1164	他身后边
+T129	Person-Pronoun 1165 1166	她
+*	Coreference T129 T127
+T130	Person-Nominal 1169 1171	小偷
+T131	Time-Implicit 1177 1179	今晚
+T132	Person-Pronoun 1179 1180	我
+T133	Person-Pronoun 1185 1187	你们
+T134	Organization-Nominal 1190 1192	工厂
+T137	Time-Implicit 1212 1216	两年之后
+T138	Organization-Nominal 1226 1228	工厂
+T139	Time-Implicit 1228 1230	当年
+T141	Location-Nominal 1258 1260	厂内
+T142	Organization-Nominal 1268 1270	工厂
+T143	Location-Nominal 1276 1277	厂
+T144	Location-Nominal 1293 1295	厂内
+T145	Time-Implicit 1303 1305	这天
+T146	Person-Pronoun 1305 1306	我
+T147	Thing-Nominal 1309 1311	茅台
+T152	Person-Name 1327 1330	唐大工
+T153	Location-Nominal 1331 1335	我宿舍里
+T154	Time-Implicit 1355 1357	那晚
+T155	Thing-Nominal 1357 1358	酒
+T156	Thing-Nominal 1362 1363;1364 1365	小 菜
+T157	Person-Name 1393 1396	唐大工
+T158	Person-Pronoun 1401 1402	他
+*	Coreference T158 T157
+T159	Person-Pronoun 1410 1411	我
+T160	Person-Pronoun 1418 1419	我
+T161	Person-Pronoun 1421 1422	他
+T162	Organization-Nominal 1423 1424;1425 1426	工 厂
+T163	Organization-Nominal 1438 1440	工厂
+T164	Time-Implicit 1441 1443	未来
+T165	Location-Nominal 1461 1464	国内外
+T166	Person-Nominal 1470 1472	自己
+T167	Person-Pronoun 1478 1479	我
+T168	Person-Pronoun 1498 1499	我
+T171	Person-Pronoun 1517 1518	他
+T172	Location-Name 1522 1525	属新村
+T173	Person-Pronoun 1526 1527	我
+T174	Person-Pronoun 1529 1530	他
+T175	Person-Pronoun 1531 1532	他
+T176	Person-Pronoun 1538 1539	我
+T177	Person-Pronoun 1540 1541	我
+T178	Thing-Nominal 1545 1546	车
+T179	Location-Nominal 1557 1559	宿舍
+T180	Person-Pronoun 1560 1561	我
+T181	Thing-Nominal 1571 1572	车
+T182	Location-Name 1573 1575	新村
+T183	Thing-Nominal 1581 1582	门
+T184	Person-Name 1583 1586	唐师母
+T185	Person-Pronoun 1592 1593	我
+T186	Thing-Nominal 1592 1595	我脑门
+R8	Part-Whole Arg1:T186 Arg2:T185	
+T187	Person-Pronoun 1599 1600	我
+T188	Person-Pronoun 1604 1605	你
+T189	Person-Pronoun 1606 1607	你
+T190	Person-Pronoun 1608 1609	他
+T191	Person-Pronoun 1613 1614	他
+T192	Thing-Nominal 1616 1618	车子
+T193	Location-Nominal 1620 1623	地沟里
+R9	Located Arg1:T192 Arg2:T193	
+T194	Person-Pronoun 1625 1627	你们
+T195	Person-Pronoun 1646 1647	你
+T196	Person-Pronoun 1651 1652	我
+T197	Thing-Nominal 1654 1656	冷汗
+T198	Person-Pronoun 1661 1662	我
+T199	Person-Name 1670 1673	唐大工
+T200	Time-Implicit 1669 1676	自唐大工退休后
+T201	Person-Pronoun 1677 1679	我们
+T202	Metric 1689 1691	两盅
+T203	Organization-Nominal 1694 1696	工厂
+T204	Person-Pronoun 1703 1704	他
+T205	Metric 1706 1709	30年
+T206	Location-Nominal 1713 1715	国外
+T207	Location-Nominal 1726 1728	厂内
+T208	Thing-Nominal 1722 1724	书面
+T209	Time-Implicit 1730 1734	今年春节
+T210	Person-Pronoun 1735 1736	他
+T211	Thing-Nominal 1743 1745	轮椅
+T212	Location-Nominal 1747 1749	厂内
+T213	Person-Pronoun 1755 1756	他
+T214	Organization-Nominal 1767 1769	工厂
+T215	Time-Implicit 1780 1783	三月前
+T216	Metric 1786 1789	70年
+T217	Time-Implicit 1786 1789	70年
+T218	Time-Implicit 1706 1709	30年
+T219	Person-Nominal 1792 1794	爱妻
+T220	Time-Implicit 1801 1804	夜深了
+T221	Person-Pronoun 1805 1806	我
+T222	Location-Nominal 1808 1810	窗前
+T223	Location-Name 1817 1822	卢浦大桥上
+T224	Thing-Nominal 1822 1824	夜车
+R10	Located Arg1:T224 Arg2:T223	
+T225	Thing-Nominal 1827 1830	浦江水
+T226	Location-Name 1827 1829	浦江
+R11	Located Arg1:T225 Arg2:T226	
+T227	Thing-Nominal 1841 1843	车流
+T228	Thing-Nominal 1844 1846	波涛
+T229	Person-Pronoun 1847 1848	我
+T230	Person-Pronoun 1856 1857	我
+T231	Person-Pronoun 1880 1881	我
+T234	Location-Nominal 1894 1900	黑沉沉的夜空
+T237	Location-Nominal 1909 1912	窗台上
+T238	Person-Nominal 1918 1920	长者
+T239	Person-Nominal 1921 1923	酒友
+T240	Person-Nominal 1924 1926	酒友
+T241	Person-Nominal 1927 1929	长者
+T4	Person-Name 22 27	唐恭贤大工
+T5	Metric 80 83	19楼
+T16	Thing-Nominal 90 93	一盅酒
+R1	Located Arg1:T16 Arg2:T18	
+T17	Person-Nominal 113 123	技术科最年长的工程师
+T21	Person-Nominal 125 133	我们年轻技术人员
+T22	Location-Nominal 244 246	厂内
+T23	Person-Nominal 305 318	一名只知耕耘不计收获的愚人
+*	Coreference T23 T33 T31
+T34	Thing-Nominal 337 339	丰碑
+T35	Thing-Nominal 422 425	杯中物
+T242	Abstract 504 508	“文革”
+T243	Person-Nominal 517 525	资产阶级学术权威
+R13	Part-Whole Arg1:T54 Arg2:T243	
+T244	Location-Nominal 629 634	生产战线上
+T80	Thing-Nominal 779 786	一盘油氽花生米
+T81	Thing-Nominal 774 777	几道菜
+R14	Create Arg1:T77 Arg2:T81	
+R15	Create Arg1:T77 Arg2:T80	
+T78	Thing-Nominal 792 798	一瓶泸州特曲
+R6	Located Arg1:T78 Arg2:T82	
+T79	Thing-Nominal 804 805	杯
+T83	Person-Pronoun 1057 1058	君
+T84	Person-Pronoun 1094 1095	君
+*	Coreference T84 T117
+*	Coreference T119 T114
+T120	Person-Nominal 1112 1113;1114 1116	我 夫人
+*	Coreference T124 T120
+T245	Person-Pronoun 1160 1161	他
+T135	Thing-Nominal 1195 1198	一瓶酒
+T136	Person-Nominal 1275 1286	来厂检查工作的各路诸侯
+T140	Thing-Nominal 1314 1319	一盘花生米
+T148	Thing-Nominal 1320 1325	一盘白斩鸡
+T149	Person-Nominal 1500 1507	一个老知识分子
+R16	Part-Whole Arg1:T197 Arg2:T196	
+T150	Time-Implicit 1681 1683	一年
+T151	Thing-Nominal 1885 1888	三盅酒
+R17	Located Arg1:T151 Arg2:T234	
+T169	Thing-Nominal 1901 1905	两滴浊泪
+R18	Located Arg1:T169 Arg2:T237	

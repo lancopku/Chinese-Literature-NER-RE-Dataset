@@ -1,0 +1,244 @@
+T1	Location-Nominal 1 3	北方
+T2	Thing-Nominal 0 9	在北方最常见的树林
+T3	Thing-Nominal 11 14	杨树林
+T4	Person-Nominal 16 26	读过《白杨礼赞》的人
+T5	Thing-Nominal 30 32	杨树
+T6	Thing-Nominal 40 42	杨树
+T7	Person-Pronoun 46 47	我
+T8	Location-Nominal 50 52	村外
+T9	Thing-Nominal 50 59	村外的那一片杨树林
+R2	Located Arg1:T9 Arg2:T8	
+T10	Location-Nominal 64 66	村子
+T11	Location-Name 69 73	汾河谷地
+R3	Part-Whole Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 74 76	汾水
+T13	Location-Nominal 77 79	村东
+T14	Location-Nominal 81 83	村北
+T15	Thing-Nominal 93 97	整个村子
+T16	Location-Name 98 100	汾河
+T17	Location-Nominal 103 107	黄土坡下
+T18	Thing-Nominal 108 113	环绕的河堤
+T19	Thing-Nominal 114 116	汾水
+T20	Location-Nominal 118 120	村外
+T22	Metric 123 124;125 126	百 米
+T23	Location-Nominal 123 131	百
+米宽的河滩上
+T24	Thing-Nominal 134 136	杨树
+R5	Located Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 142 151	一条宽大的杨树林带
+T26	Thing-Pronoun 152 153	它
+*	Coreference T26 T25
+T27	Location-Nominal 154 158	整个村庄
+T29	Location-Nominal 182 189	南边的黄土坡上
+T30	Metric 199 202	近百里
+T31	Thing-Nominal 199 206	近百里外的山脉
+T32	Location-Nominal 213 215	山脚
+T33	Thing-Nominal 213 220	山脚的村庄房屋
+R6	Located Arg1:T33 Arg2:T32	
+T34	Person-Nominal 227 228	人
+T35	Time-Explicit 233 235	此时
+T36	Person-Pronoun 236 237	我
+T37	Thing-Nominal 246 248	磁石
+T38	Location-Name 256 260	汾河谷地
+T39	Thing-Nominal 256 267	汾河谷地的那一带杨树林
+R7	Located Arg1:T39 Arg2:T38	
+T40	Thing-Nominal 278 280	眼睛
+T41	Thing-Nominal 297 299	流水
+T42	Thing-Nominal 320 321	虫
+T43	Thing-Nominal 331 332	蛙
+T44	Time-Implicit 334 337	恍惚间
+T45	Thing-Nominal 344 346;347 348	杨树 林
+T46	Thing-Nominal 349 350	脚
+T47	Thing-Nominal 352 357	那层层落叶
+T48	Location-Nominal 361 364	下面的
+T49	Thing-Nominal 361 366	下面的土地
+T50	Time-Implicit 376 379	昔日里
+T51	Location-Nominal 380 383	河滩上
+T52	Thing-Nominal 380 393	河滩上走一步扬起一阵黄沙土
+R8	Located Arg1:T52 Arg2:T51	
+T53	Person-Pronoun 405 406	你
+T54	Thing-Nominal 408 411	杨树林
+T55	Thing-Pronoun 418 419	它
+*	Coreference T55 T54
+T56	Thing-Nominal 421 423	森林
+T57	Thing-Nominal 429 431	松林
+T58	Thing-Nominal 437 439	竹林
+T59	Person-Pronoun 458 459	我
+T60	Thing-Nominal 448 452	空谷幽兰
+T61	Thing-Nominal 467 476	眼下的这片杨树林带
+T62	Thing-Pronoun 478 479	它
+*	Coreference T62 T61
+T63	Person-Nominal 499 500	人
+T64	Thing-Nominal 506 510	整个林带
+T66	Location-Nominal 516 522	大地的画纸上
+T67	Time-Explicit 579 581	随后
+T69	Thing-Nominal 589 594	微微的绿烟
+T70	Thing-Nominal 597 599	绿烟
+T71	Thing-Nominal 630 632	夕阳
+T72	Thing-Nominal 639 642	杨树林
+T73	Location-Nominal 644 646;647 649	水面 上起
+T74	Time-Implicit 679 681	四季
+T75	Thing-Nominal 679 685	四季的杨树林
+T76	Thing-Nominal 707 709	杨林
+T77	Thing-Nominal 712 721	整齐而又笔直的树干
+R9	Located Arg1:T77 Arg2:T76	
+T78	Thing-Nominal 722 727	遍地的落叶
+R10	Located Arg1:T78 Arg2:T76	
+T79	Location-Nominal 728 730	林间
+T80	Thing-Nominal 734 736	杂草
+T81	Person-Pronoun 739 740	我
+T82	Location-Nominal 786 788	耳孔
+T84	Thing-Nominal 810 812	温泉
+T83	Thing-Nominal 825 833	一
+身的“尘土”
+T87	Thing-Nominal 855 861	丈把高的杨树
+T88	Thing-Nominal 866 871	斑驳的日光
+T89	Location-Nominal 873 875	林间
+T90	Location-Nominal 876 878	林中
+T92	Metric 886 889	七八米
+T93	Location-Nominal 883 893	离河岸七八米的滩地上
+T94	Thing-Nominal 896 903	星星点点的青草
+R11	Located Arg1:T94 Arg2:T93	
+T95	Thing-Nominal 915 917	杨花
+T96	Thing-Nominal 923 928	飞舞的杨花
+T97	Thing-Nominal 936 939	杨树林
+T98	Thing-Nominal 945 953	绿白相间的迷彩服
+T99	Location-Nominal 954 957	滩地上
+T100	Thing-Nominal 960 964	一袭白雪
+T101	Person-Nominal 967 968	人
+T102	Time-Implicit 971 973	冬日
+T103	Thing-Nominal 983 993	那些高不过脚踝的青草
+T104	Thing-Pronoun 998 1000	它们
+*	Coreference T104 T103
+T105	Thing-Nominal 1007 1009	头脑
+R12	Part-Whole Arg1:T105 Arg2:T104	
+T107	Person-Pronoun 1010 1011	你
+T108	Thing-Nominal 1025 1031	漫天
+的杨花
+T109	Location-Nominal 1036 1043	于一片云海之中
+T110	Thing-Nominal 1046 1048	杨林
+T111	Person-Pronoun 1049 1050	你
+T112	Time-Implicit 1058 1063	炎热的夏日
+T113	Thing-Nominal 1072 1073	蝉
+T114	Time-Explicit 1081 1083	这时
+T115	Person-Pronoun 1083 1084	我
+T116	Thing-Nominal 1088 1091	杨树林
+T117	Thing-Nominal 1094 1096	堤坝
+T118	Location-Nominal 1112 1114	林中
+T119	Thing-Nominal 1128 1132	一股清泉
+T120	Location-Nominal 1161 1163	林中
+T121	Thing-Nominal 1161 1168	林中的新鲜空气
+R13	Located Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 1188 1193	笔直的树干
+T123	Thing-Nominal 1194 1199	蓬勃的枝叶
+T124	Time-Explicit 1216 1218	傍晚
+T125	Thing-Nominal 1224 1229	浓重的阴云
+T126	Thing-Nominal 1234 1239	剧烈的狂风
+T127	Thing-Nominal 1247 1252	此时的杨林
+T128	Thing-Nominal 1252 1254	枝叶
+T130	Thing-Nominal 1260 1262	身躯
+R14	Part-Whole Arg1:T130 Arg2:T127	
+T131	Thing-Nominal 1285 1287	狂风
+T132	Person-Pronoun 1288 1289	我
+T133	Person-Pronoun 1293 1294	我
+T134	Person-Nominal 1299 1301	巨人
+T135	Thing-Nominal 1303 1304	脚
+T136	Location-Nominal 1297 1305	一个巨人
+的脚下
+R15	Part-Whole Arg1:T135 Arg2:T134	
+T137	Thing-Nominal 1313 1315	暴雨
+T138	Time-Explicit 1313 1317	暴雨过后
+T139	Thing-Nominal 1318 1320	他们
+T140	Thing-Nominal 1324 1326	身躯
+R16	Part-Whole Arg1:T140 Arg2:T139	
+T141	Thing-Nominal 1338 1342	那身绿装
+T142	Thing-Nominal 1362 1364	秋雨
+T143	Thing-Nominal 1368 1373	飘飞的落叶
+T144	Location-Nominal 1379 1381	林间
+T145	Location-Nominal 1385 1387	脚下
+T146	Thing-Nominal 1385 1386	脚
+T147	Thing-Nominal 1389 1394	厚厚的落叶
+R17	Located Arg1:T147 Arg2:T145	
+T148	Time-Implicit 1417 1422	微暖的冬日
+T149	Location-Nominal 1427 1429	背上
+T150	Location-Nominal 1431 1433	全身
+T151	Thing-Pronoun 1450 1452	他们
+T152	Thing-Nominal 1450 1455	他们的身躯
+R18	Part-Whole Arg1:T152 Arg2:T151	
+T153	Thing-Nominal 1463 1467	笔直的干
+T154	Thing-Nominal 1468 1472	笔直的枝
+R19	Part-Whole Arg1:T153 Arg2:T151	
+R20	Part-Whole Arg1:T154 Arg2:T151	
+T155	Thing-Pronoun 1476 1477	它
+T156	Thing-Nominal 1476 1482	它所有的丫枝
+R21	Part-Whole Arg1:T156 Arg2:T155	
+T157	Thing-Pronoun 1518 1520	它们
+T158	Thing-Nominal 1518 1523	它们的身躯
+R22	Part-Whole Arg1:T158 Arg2:T157	
+T159	Thing-Nominal 1544 1549	各自的枝条
+T160	Person-Nominal 1553 1555	别人
+T161	Thing-Nominal 1561 1565	别的枝条
+T162	Person-Pronoun 1566 1567	我
+T163	Thing-Pronoun 1569 1571	它们
+T164	Thing-Pronoun 1591 1593	它们
+T165	Time-Explicit 1614 1616	清晨
+T166	Person-Nominal 1617 1620	多少人
+T167	Location-Nominal 1622 1624	坝上
+T168	Thing-Pronoun 1630 1631	它
+T169	Thing-Pronoun 1635 1636	它
+T170	Thing-Pronoun 1638 1639	它
+T171	Thing-Pronoun 1650 1652	它们
+T172	Thing-Pronoun 1680 1682	它们
+T173	Organization-Nominal 1688 1695	那国庆阅兵方队
+T174	Thing-Pronoun 1706 1707	它
+T175	Person-Pronoun 1711 1712	我
+T176	Person-Pronoun 1724 1725	我
+T177	Thing-Pronoun 1730 1731	它
+T178	Person-Pronoun 1752 1753	我
+T179	Person-Pronoun 1760 1761	我
+T180	Thing-Pronoun 1764 1765	它
+T181	Person-Pronoun 1771 1772	我
+T182	Thing-Nominal 1784 1786	杨林
+T183	Person-Nominal 1793 1794	人
+T184	Person-Nominal 1797 1798	人
+T185	Person-Pronoun 1802 1803	我
+T186	Location-Nominal 1806 1808	北方
+T187	Thing-Nominal 1805 1812	这北方的杨树林
+T188	Person-Pronoun 1818 1819	我
+T189	Thing-Pronoun 1820 1821	它
+T190	Person-Pronoun 1830 1831	我
+T191	Thing-Pronoun 1832 1833	它
+T192	Person-Pronoun 1838 1839	我
+T193	Thing-Nominal 1845 1847	杨林
+T194	Location-Nominal 1845 1848	杨林中
+T195	Thing-Pronoun 1857 1858	它
+*	Coreference T195 T193
+T196	Thing-Nominal 1869 1876	身上的“尘土”
+T197	Abstract 18 24	《白杨礼赞》
+T28	Time-Implicit 164 180	在秋高气爽抑或初冬晴朗的日子里，
+T200	Time-Implicit 273 275	一阵
+T68	Thing-Nominal 687 689	彩虹
+T202	Time-Explicit 912 914	此时
+T204	Metric 1297 1299	一个
+T205	Time-Explicit 1448 1450	此时
+T206	Metric 1607 1608	丈
+R1	Located Arg1:T15 Arg2:T17	
+T21	Location-Nominal 121 124;125 131	堤外百 米宽的河滩上
+R4	Located Arg1:T24 Arg2:T21	
+T198	Thing-Nominal 310 311	雉
+R23	Located Arg1:T49 Arg2:T48	
+T65	Person-Nominal 512 515	丹青手
+T85	Thing-Nominal 861 863	枝叶
+R24	Part-Whole Arg1:T85 Arg2:T87	
+R25	Located Arg1:T88 Arg2:T89	
+T86	Location-Nominal 884 886	河岸
+T91	Location-Nominal 1019 1021	周身
+T106	Thing-Nominal 1025 1027;1028 1031	漫天 的杨花
+R26	Located Arg1:T106 Arg2:T91	
+T199	Person-Nominal 1208 1209	人
+R27	Part-Whole Arg1:T128 Arg2:T127	
+T129	Location-Nominal 1297 1301;1302 1305	一个巨人 的脚下
+T201	Thing-Nominal 1422 1426	一股暖流
+R28	Located Arg1:T187 Arg2:T186	
+T203	Location-Nominal 1869 1871	身上
+R29	Located Arg1:T196 Arg2:T203	

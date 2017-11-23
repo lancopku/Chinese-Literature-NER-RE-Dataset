@@ -1,0 +1,137 @@
+T1	Person-Name 0 18	满脸皱纹且头顶又没有几根头发的雷克昌
+T2	Location-Nominal 21 23	街上
+T3	Person-Nominal 27 30	这老头
+T4	Person-Nominal 32 34	画家
+*	Coreference T3 T1 T4
+T5	Person-Name 51 53	柳青
+T6	Abstract 45 50	《创业史》
+T7	Time-Implicit 57 59	当年
+T8	Person-Name 59 61	柳青
+T9	Location-Name 62 67	陕西皇甫村
+T10	Person-Nominal 76 78	人家
+T11	Person-Pronoun 81 82	他
+*	Coreference T11 T8
+T12	Person-Nominal 86 88	农民
+T13	Person-Name 90 92	柳青
+T14	Person-Nominal 96 98	农民
+T15	Person-Nominal 101 104	大作家
+R1	General-Special Arg1:T15 Arg2:T13	
+T16	Person-Name 105 108	雷克昌
+T17	Person-Nominal 114 116	农民
+T18	Person-Pronoun 117 118	他
+*	Coreference T18 T16
+T19	Person-Nominal 121 123	地主
+T20	Metric 127 129	两年
+T21	Location-Nominal 135 136	乡
+T22	Person-Nominal 139 142	这农民
+T23	Person-Nominal 152 154	书生
+T24	Person-Name 170 173	雷克昌
+T25	Person-Nominal 182 185	很多人
+T26	Person-Pronoun 188 189	他
+*	Coreference T26 T24 T29
+T27	Person-Nominal 191 193	作家
+T28	Thing-Nominal 210 218	这无心插柳的涂鸦
+T29	Person-Pronoun 245 246	他
+T30	Person-Pronoun 250 251	他
+T31	Thing-Nominal 250 254	他的漫画
+T32	Thing-Nominal 256 263	他的随笔或散文
+T33	Person-Pronoun 256 257	他
+T34	Thing-Nominal 275 279	他的散文
+T35	Person-Pronoun 275 276	他
+T36	Thing-Nominal 297 301	他的漫画
+T37	Person-Pronoun 297 298	他
+T38	Person-Nominal 304 305	人
+T39	Person-Nominal 329 330	人
+T40	Thing-Nominal 342 346	克昌的画
+T41	Person-Name 342 344	克昌
+T42	Person-Pronoun 347 348	我
+T43	Thing-Nominal 354 356	小品
+T44	Thing-Nominal 357 360	中国画
+T45	Thing-Nominal 362 365	小品画
+T46	Time-Explicit 374 378	三十年代
+T47	Thing-Nominal 378 386	丰子恺的小品漫画
+T48	Person-Name 378 381	丰子恺
+R2	Ownership Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 393 396	他的画
+T50	Person-Pronoun 393 394	他
+*	Coreference T50 T48
+T51	Thing-Nominal 404 405	画
+T52	Person-Nominal 420 421	人
+T53	Thing-Nominal 428 433	克昌的画,
+T54	Person-Name 428 430	克昌
+T55	Person-Nominal 439 442	很多人
+T56	Thing-Nominal 460 462	画笔
+T57	Person-Name 456 458	克昌
+T58	Location-Name 491 495	湖南家乡
+T59	Person-Nominal 498 500	客人
+T60	Location-Nominal 505 507	镇上
+T61	Thing-Nominal 508 509	肉
+T62	Person-Nominal 510 512	屠夫
+T63	Thing-Nominal 513 516	猪婆肉
+T64	Thing-Nominal 518 520	好肉
+T65	Person-Pronoun 522 523	他
+*	Coreference T65 T57
+T66	Location-Nominal 524 529	一斤猪肉里
+T67	Thing-Nominal 531 535	半斤骨头
+R3	Located Arg1:T67 Arg2:T66	
+T68	Location-Nominal 536 539	秤头上
+T69	Person-Pronoun 548 549	他
+T70	Person-Name 553 555	克昌
+T71	Person-Pronoun 568 569	他
+*	Coreference T71 T70
+T72	Thing-Nominal 572 577;578 579	同样的猪婆 肉
+T73	Thing-Nominal 582 587	同样的骨头
+T74	Person-Nominal 597 598	人
+T75	Person-Name 604 606	克昌
+T76	Thing-Nominal 614 619	手中的画笔
+T77	Location-Nominal 614 616	手中
+R4	Located Arg1:T76 Arg2:T77	
+T78	Person-Nominal 628 630	商人
+T79	Thing-Nominal 631 635	丑恶嘴脸
+R5	Part-Whole Arg1:T79 Arg2:T78	
+T80	Abstract 639 643	《包装》
+T81	Person-Name 674 677	雷克昌
+T82	Location-Nominal 690 693	骨子里
+T83	Person-Pronoun 709 710	他
+*	Coreference T83 T81
+T84	Thing-Nominal 715 716	头
+R6	Part-Whole Arg1:T84 Arg2:T83	
+T85	Person-Nominal 720 722	亲属
+T86	Person-Pronoun 725 726	他
+T87	Person-Pronoun 738 739	他
+T88	Person-Nominal 761 763	妻子
+T89	Person-Nominal 766 772	襁褓中的婴儿
+T90	Thing-Nominal 791 793	凤凰
+T91	Person-Nominal 805 807	光棍
+T92	Person-Nominal 819 821	亲友
+T93	Person-Name 837 840	雷克昌
+T94	Location-Nominal 842 846	他的画里
+T95	Person-Pronoun 842 843	他
+*	Coreference T95 T93
+T96	Person-Nominal 865 867	人物
+T97	Person-Pronoun 861 862	他
+T98	Person-Name 888 890	雷老
+T99	Person-Nominal 925 929	一介布衣
+T100	Person-Name 930 938	远离庙堂的雷克昌
+T101	Time-Explicit 957 964	2006年8月
+T102	Person-Name 970 973	雷克昌
+T103	Person-Name 987 992	儿子雷春晖
+T104	Location-Name 982 984	广东
+T105	Location-Name 997 1003	中山市三角镇
+T106	Thing-Nominal 1007 1009	衣食
+T107	Abstract 1034 1041	《最后的晚餐》
+T108	Thing-Nominal 1042 1052	四幅反腐倡廉组合漫画
+T109	Time-Explicit 1054 1059	2010年
+T110	Person-Pronoun 1111 1112	他
+*	Coreference T110 T102
+T111	Time-Explicit 1116 1121	2010年
+T112	Person-Pronoun 1131 1132	他
+T113	Person-Name 1184 1187	雷克昌
+T114	Location-Name 1189 1191	中山
+T115	Location-Name 1193 1195	中山
+T116	Organization-Name 1204 1210	湖南嘉禾县委
+T117	Abstract 1214 1220	《吃在嘉禾》
+T118	Person-Pronoun 1231 1232	他
+T119	Person-Name 1241 1243	雷老
+T120	Person-Name 1253 1255	雷老
+T121	Thing-Nominal 1154 1158	这个大奖

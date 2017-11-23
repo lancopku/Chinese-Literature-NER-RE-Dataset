@@ -1,0 +1,411 @@
+T1	Location-Nominal 1 8	一个美丽的地方
+T2	Person-Pronoun 9 10	我
+T3	Location-Pronoun 11 13	那里
+*	Coreference T3 T1
+T4	Person-Nominal 19 20	人
+T5	Thing-Nominal 32 36	这个地方
+T6	Time-Implicit 37 41	我的童年
+T7	Person-Pronoun 37 38	我
+T8	Thing-Pronoun 45 46	它
+T9	Person-Pronoun 47 48	我
+T10	Person-Pronoun 80 81	我
+T11	Location-Nominal 89 96	那个美丽的地方
+T12	Thing-Nominal 97 102	一处小山坡
+R1	Located Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 107 111	那个地方
+T14	Thing-Nominal 112 117	一条小田径
+T15	Thing-Nominal 119 122	一阵风
+T16	Location-Nominal 125 129	小山坡上
+T17	Thing-Nominal 129 141	那一大片青青的矮矮的小草
+R2	Located Arg1:T17 Arg2:T16	
+T18	Thing-Nominal 143 148	它的小黄花
+T19	Thing-Pronoun 143 144	它
+T20	Thing-Nominal 158 163	竹林沙沙地
+T21	Location-Nominal 154 157	不远处
+R3	Located Arg1:T20 Arg2:T21	
+T22	Location-Nominal 174 179	我的脑海中
+T23	Person-Pronoun 174 175	我
+T24	Location-Nominal 80 85	我的脑海中
+T25	Time-Implicit 201 207	清晨或者午后
+T26	Location-Nominal 209 218	这绿地毯般的草地上
+T27	Thing-Nominal 220 222	黄花
+T28	Thing-Pronoun 229 230	它
+T29	Person-Nominal 233 234	人
+T30	Thing-Nominal 235 249	花瓣、花芯、芯上毛茸茸的粉儿
+T31	Thing-Nominal 252 258;259 268	那只冒昧而来 的小小飞虫或者蚂蚁
+T32	Thing-Nominal 274 288	那只突然跳来又迅即跳走的蚱蜢
+T33	Location-Nominal 342 349	碧草下的细沙里
+T34	Thing-Nominal 353 354	头
+T35	Thing-Nominal 357 364	那片青翠的竹林
+T36	Location-Nominal 365 370	竹林的边上
+T37	Thing-Nominal 371 374	小黄竹
+R4	Located Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 379 385	小黄竹的竹竿
+T39	Thing-Nominal 392 394	拇指
+T40	Person-Nominal 403 407	一群孩童
+T41	Location-Nominal 408 411	竹林里
+T42	Location-Nominal 470 473	公园里
+T43	Location-Nominal 462 464	上面
+T44	Location-Nominal 444 446	上面
+T45	Thing-Nominal 447 450	跷跷板
+T46	Thing-Nominal 417 422	几棵竹子，
+T47	Thing-Nominal 423 433	一种很有韧性的小树皮
+T48	Thing-Pronoun 434 435	它
+*	Coreference T48 T46
+R5	Use Arg1:T40 Arg2:T47	
+T49	Thing-Nominal 476 480	高级材料
+T50	Thing-Nominal 483 486	跷跷板
+T51	Person-Nominal 487 490	小孩子
+T52	Person-Nominal 497 498	人
+T53	Thing-Nominal 500 507	一条弯弯的竹枝
+T54	Thing-Nominal 510 511	叶
+T55	Thing-Nominal 514 515	剑
+T56	Person-Nominal 517 520	小伙伴
+T57	Thing-Nominal 529 531	竹马
+T58	Person-Pronoun 532 533	你
+T59	Person-Pronoun 535 536	我
+T60	Person-Nominal 548 551	男孩子
+T61	Thing-Nominal 569 572	捉竹牛
+T62	Thing-Nominal 577 579	竹筒
+T63	Thing-Pronoun 580 581	它
+*	Coreference T63 T61
+T64	Person-Nominal 587 590	好伙伴
+T65	Person-Nominal 592 594	各人
+T66	Person-Pronoun 597 599	自己
+T67	Location-Nominal 609 612	竹林里
+T68	Thing-Nominal 616 623	一种细叶的小树
+R6	Located Arg1:T68 Arg2:T67	
+T69	Thing-Pronoun 637 638	它
+*	Coreference T69 T68
+T70	Thing-Nominal 628 630	枝叶
+T71	Thing-Pronoun 642 643	它
+T72	Thing-Nominal 643 647	细细的叶
+T73	Thing-Pronoun 651 652	它
+T74	Thing-Nominal 656 661	小小的果子
+T75	Person-Nominal 662 665	小孩子
+T76	Thing-Nominal 722 729	这诱人的小果子
+T77	Time-Implicit 715 718	晚归时
+T78	Person-Nominal 705 712	邻家的彩莲姐姐
+T79	Person-Nominal 695 704	兄弟姐妹或者好伙伴
+T80	Location-Nominal 692 693	家
+T81	Location-Nominal 672 679	放牛回来的路上
+T82	Time-Implicit 734 741	果子成熟的季节
+T83	Time-Implicit 744 748	傍晚时候
+T84	Person-Pronoun 749 750	我
+T85	Location-Nominal 752 759	门前的枇杷树下
+T86	Person-Pronoun 761 762	她
+*	Coreference T86 T78
+T87	Thing-Nominal 766 769	那果子
+T88	Location-Nominal 779 785	小小的果实里
+T89	Thing-Nominal 787 790;791 794	“大大 ”的核
+R7	Located Arg1:T89 Arg2:T88	
+T90	Thing-Nominal 801 807	甜甜的“皮”
+T91	Person-Nominal 812 820	那个时候的小孩子
+T92	Thing-Pronoun 828 829	它
+*	Coreference T92 T90
+T93	Thing-Nominal 834 837	小樱桃
+T94	Thing-Pronoun 842 843	它
+*	Coreference T94 T87
+T95	Thing-Nominal 845 850	大大”的核
+T96	Thing-Nominal 856 858	竹枪
+T97	Thing-Nominal 859 861	子弹
+T98	Thing-Nominal 862 864	竹枪
+T99	Thing-Nominal 866 871	细细的竹枝
+T100	Person-Nominal 875 881	全村的小男孩
+T101	Thing-Nominal 890 892	子弹
+T102	Thing-Nominal 903 909	五色梅的果子
+T103	Person-Nominal 910 912;913 914	村里 人
+T104	Thing-Nominal 915 918	五色梅
+T105	Thing-Name 921 925	头晕花”
+T106	Thing-Pronoun 928 929	它
+*	Coreference T106 T104
+T107	Person-Nominal 933 934	人
+T108	Person-Pronoun 940 941	我
+T109	Thing-Pronoun 943 944	它
+T110	Thing-Nominal 954 955	头
+T111	Thing-Pronoun 961 962	它
+T112	Thing-Nominal 962 968	五颜六色的花
+T113	Thing-Nominal 970 973;974 977	针线或 细竹篾
+T114	Thing-Nominal 982 985	小花环
+T115	Person-Nominal 996 999	小孩子
+T116	Thing-Nominal 1000 1002	玩具
+T117	Thing-Nominal 1003 1006	好材料
+T118	Thing-Nominal 1015 1016	手
+T119	Thing-Nominal 1026 1028	玩具
+T120	Thing-Nominal 1076 1084	竹子的翠翠的细叶
+T121	Person-Nominal 1068 1071	好朋友
+T122	Thing-Nominal 1064 1065	风
+T123	Thing-Nominal 1059 1063	那竹海浪
+T124	Location-Nominal 1053 1058	山坡的高处
+R8	Located Arg1:T123 Arg2:T124	
+T125	Person-Pronoun 1046 1047	我
+T126	Thing-Nominal 1038 1040	绿浪
+T127	Thing-Nominal 1033 1034	海
+T128	Thing-Nominal 1030 1032	竹林
+T129	Thing-Nominal 1035 1036	风
+T130	Person-Pronoun 1089 1090	我
+T131	Thing-Nominal 1141 1143	竹叶
+T132	Thing-Nominal 1129 1131	竹子
+T133	Thing-Nominal 1124 1126	眼睛
+T134	Person-Pronoun 1115 1116	我
+T135	Person-Pronoun 1102 1103	我
+T136	Thing-Nominal 1104 1105	额
+R9	Part-Whole Arg1:T136 Arg2:T135	
+T137	Thing-Nominal 1095 1100	短短的刘海
+T138	Person-Pronoun 1094 1095	我
+T139	Person-Nominal 1155 1160	浙江的同学
+T140	Person-Pronoun 1161 1163	我们
+T141	Thing-Nominal 1165 1172	他们安吉的竹林
+T142	Person-Pronoun 1165 1167	他们
+*	Coreference T142 T139
+T143	Time-Implicit 1149 1151;1152 1154	上大 学时
+T144	Person-Pronoun 1174 1175	我
+T145	Thing-Nominal 1186 1191	这处的竹林
+T146	Person-Nominal 1194 1198	那位同学
+T147	Person-Pronoun 1211 1212	我
+T148	Thing-Nominal 1254 1258	我的竹林
+T149	Person-Pronoun 1254 1255	我
+R10	Ownership Arg1:T149 Arg2:T148	
+T150	Abstract 1247 1253	《十面埋伏》
+T151	Person-Name 1239 1242	张艺谋
+T152	Thing-Nominal 1234 1238	她的竹林
+T153	Person-Pronoun 1234 1235	她
+T154	Person-Pronoun 1223 1224	我
+T155	Thing-Nominal 1216 1221	那一片竹林
+*	Coreference T153 T146
+T156	Location-Nominal 1274 1280	小山坡的背面
+T157	Thing-Nominal 1270 1272	竹林
+R11	Located Arg1:T157 Arg2:T156	
+T158	Location-Nominal 1281 1288	小山坡的另一面
+T159	Thing-Nominal 1289 1294	一条小村庄
+R12	Located Arg1:T159 Arg2:T158	
+T160	Location-Nominal 1295 1299	小村庄里
+T161	Thing-Nominal 1300 1304	外婆的家
+R13	Located Arg1:T161 Arg2:T160	
+T162	Person-Nominal 1300 1302	外婆
+T163	Thing-Nominal 1306 1312	旧325国道
+T164	Thing-Nominal 1313 1316	小村庄
+T165	Thing-Nominal 1322 1327	一条泥沙路
+T166	Thing-Nominal 1328 1329	路
+T167	Location-Nominal 1331 1333	两边
+T168	Thing-Nominal 1335 1337	农田
+R14	Located Arg1:T168 Arg2:T167	
+T169	Location-Nominal 1338 1340	田里
+T170	Thing-Nominal 1342 1348	绿油油的庄稼
+R15	Located Arg1:T170 Arg2:T169	
+T171	Thing-Nominal 1350 1358	水稻、粉葛、瓜菜
+T172	Thing-Nominal 1361 1363	甘蔗
+T173	Person-Pronoun 1418 1419	我
+T174	Thing-Nominal 1415 1417	甘蔗
+T175	Person-Nominal 1411 1413	小姨
+T176	Person-Nominal 1404 1409	表姐弟几个
+T177	Time-Implicit 1392 1399	我四五岁的时候
+T178	Person-Pronoun 1392 1393	我
+T179	Thing-Nominal 1386 1388	甘蔗
+T180	Person-Nominal 1382 1384	外婆
+T181	Location-Nominal 1376 1380	一块地里
+T182	Thing-Nominal 1367 1372	这条泥沙路
+T183	Location-Nominal 1476 1480	田径边上
+T184	Location-Nominal 1427 1431	小田径上
+T185	Thing-Nominal 1437 1442	田里的庄稼
+T186	Location-Nominal 1437 1439	田里
+R16	Located Arg1:T185 Arg2:T186	
+T187	Thing-Nominal 1449 1452	那条瓜
+T188	Person-Nominal 1444 1446	大家
+T189	Location-Pronoun 1456 1458	那里
+*	Coreference T189 T186
+T190	Thing-Nominal 1459 1463	一只蝴蝶
+R17	Located Arg1:T190 Arg2:T189	
+T191	Thing-Nominal 1481 1486;1487 1491	一节老鼠咬 过的甘蔗
+R18	Located Arg1:T191 Arg2:T183	
+T192	Thing-Pronoun 1495 1496	它
+T193	Person-Nominal 1499 1501	大家
+T194	Person-Pronoun 1504 1505	我
+T195	Location-Nominal 1518 1526	田径边上的水坑里
+T196	Thing-Nominal 1528 1530	水坑
+T197	Thing-Nominal 1536 1538	瓜菜
+T198	Person-Nominal 1541 1544	种田人
+T199	Location-Nominal 1545 1547	田边
+T200	Thing-Nominal 1548 1551	一个坑
+T201	Thing-Nominal 1556 1558	水渠
+T202	Thing-Nominal 1559 1564	一条小水道
+T203	Thing-Nominal 1566 1567	水
+T204	Location-Nominal 1569 1571	坑里
+R19	Located Arg1:T203 Arg2:T204	
+T205	Thing-Nominal 1578 1582	这个水坑
+T206	Thing-Nominal 1583 1588	一条小水道
+T207	Thing-Nominal 1591 1592	水
+T208	Location-Nominal 1594 1599	另一个坑里
+R20	Located Arg1:T207 Arg2:T208	
+T209	Time-Implicit 1600 1608	每天黄昏浇瓜菜时
+T210	Location-Nominal 1612 1615	水坑里
+T211	Thing-Nominal 1616 1617	水
+T212	Thing-Nominal 1623 1625	水渠
+T213	Thing-Nominal 1626 1627	水
+T214	Person-Nominal 1636 1638	舅舅
+T215	Person-Pronoun 1639 1640	我
+R21	Family Arg1:T215 Arg2:T214	
+T216	Person-Pronoun 1650 1651	我
+T217	Location-Nominal 1667 1674	泥沙路的另一边
+T218	Thing-Nominal 1676 1680	外婆的田
+R22	Located Arg1:T218 Arg2:T217	
+T219	Location-Pronoun 1681 1683	那里
+*	Coreference T219 T217
+T220	Thing-Nominal 1688 1690	瓜菜
+T221	Person-Nominal 1696 1698	外婆
+T222	Person-Pronoun 1699 1700	我
+R23	Family Arg1:T222 Arg2:T221	
+T223	Location-Nominal 1701 1703	田里
+T224	Person-Pronoun 1707 1708	她
+*	Coreference T224 T221
+T225	Person-Pronoun 1714 1715	我
+T226	Person-Nominal 1716 1719	一个人
+T227	Location-Nominal 1720 1724	一块地方
+T228	Thing-Nominal 1733 1735	野花
+T229	Thing-Nominal 1738 1741	小泥巴
+T230	Person-Nominal 1745 1748	一个人
+T231	Person-Pronoun 1753 1754	我
+T232	Person-Nominal 1755 1763	一个很能独处的人
+T233	Time-Implicit 1798 1804	一个人的时候
+T234	Person-Nominal 1798 1801	一个人
+T235	Person-Pronoun 1805 1806	我
+T236	Time-Implicit 1817 1827	七岁那一年的一个周末
+T237	Person-Pronoun 1828 1829	我
+T238	Person-Nominal 1830 1832	外婆
+R24	Family Arg1:T238 Arg2:T237	
+T239	Person-Pronoun 1837 1839	自己
+T240	Location-Nominal 1840 1841	家
+T241	Person-Nominal 1842 1844	妈妈
+*	Coreference T239 T237
+T242	Thing-Nominal 1845 1848	我的家
+T243	Thing-Nominal 1849 1852	外婆家
+T244	Person-Nominal 1855 1862	一个七岁的孩子
+T245	Thing-Nominal 1865 1866	钱
+T246	Thing-Nominal 1867 1868	车
+T247	Person-Nominal 1878 1880	外婆
+T248	Person-Pronoun 1893 1894	我
+R25	Family Arg1:T248 Arg2:T247	
+T249	Person-Pronoun 1895 1896	我
+T250	Thing-Nominal 1899 1902	泥沙路
+T251	Location-Nominal 1906 1909	半路上
+T252	Thing-Nominal 1910 1918	一间荒废了的厂房
+R26	Located Arg1:T252 Arg2:T251	
+T253	Thing-Nominal 1919 1920	门
+T254	Location-Nominal 1924 1926	门口
+T255	Thing-Nominal 1927 1931	一堆沙子
+R27	Located Arg1:T255 Arg2:T254	
+T256	Person-Pronoun 1932 1933	我
+T257	Thing-Nominal 1936 1938;1939 1941	那堆 沙子
+T258	Thing-Nominal 1944 1946	脚步
+T259	Location-Pronoun 1948 1950	那里
+T260	Thing-Nominal 1952 1954	沙子
+T261	Person-Nominal 1987 1990	大人们
+T262	Person-Pronoun 1997 1998	我
+T263	Person-Nominal 2031 2037	七八岁的孩子
+T264	Person-Pronoun 2037 2040	自个儿
+T265	Thing-Nominal 2040 2042	满村
+T266	Thing-Nominal 2054 2057	这条路
+T267	Thing-Nominal 2062 2068	旧325国道
+T268	Thing-Nominal 2071 2078	一段狭窄的田径
+T269	Thing-Nominal 2082 2086	一条小河
+T270	Location-Nominal 2079 2081	那边
+R28	Located Arg1:T269 Arg2:T270	
+T271	Person-Pronoun 2087 2088	我
+T272	Location-Pronoun 2091 2093	那里
+*	Coreference T272 T270
+T273	Thing-Nominal 2096 2098	河床
+T274	Thing-Nominal 2100 2101	水
+T275	Location-Nominal 2106 2108	田边
+T276	Thing-Nominal 2111 2113;2114 2122	一丛 一丛青碧的含羞草
+T277	Thing-Nominal 2128 2130	小手
+T278	Thing-Pronoun 2134 2135	它
+T279	Thing-Nominal 2136 2141	青青的叶儿
+*	Coreference T278 T276
+T280	Thing-Pronoun 2142 2143	它
+T281	Thing-Nominal 2146 2152	羽毛状的叶儿
+T282	Person-Nominal 2158 2163	害羞的少女
+T283	Person-Nominal 2164 2165	人
+T284	Thing-Pronoun 2167 2168	她
+T285	Thing-Pronoun 2169 2170	她
+T286	Thing-Nominal 2175 2178	绣花扇
+T287	Thing-Nominal 2181 2182	脸
+T288	Person-Nominal 2203 2205	人家
+T289	Thing-Pronoun 2207 2208	它
+T290	Thing-Pronoun 2210 2211	它
+T291	Thing-Nominal 2213 2215	叶子
+T292	Time-Implicit 2218 2222	每每此时
+T293	Person-Pronoun 2222 2223	我
+T294	Thing-Nominal 2230 2233	小手指
+R29	Part-Whole Arg1:T294 Arg2:T293	
+T295	Thing-Nominal 2280 2284	我的小手
+T296	Person-Pronoun 2280 2281	我
+R30	Part-Whole Arg1:T295 Arg2:T296	
+T297	Person-Nominal 2274 2277	小婴儿
+T298	Thing-Nominal 2269 2272	那羽叶
+T299	Thing-Nominal 2265 2268	小手指
+T300	Location-Nominal 2262 2264	上面
+T301	Thing-Nominal 2250 2252	叶片
+T302	Thing-Pronoun 2242 2243	它
+T303	Location-Nominal 2238 2241	羽叶上
+T304	Thing-Pronoun 2236 2237	它
+R31	Located Arg1:T294 Arg2:T303	
+T305	Thing-Pronoun 2315 2316	它
+T306	Thing-Nominal 2295 2296;2297 2301	含 羞草羽叶
+T307	Person-Pronoun 2308 2309	我
+T308	Thing-Nominal 2329 2331	裤脚
+T309	Thing-Nominal 2334 2335	鞋
+T310	Location-Nominal 2340 2342	河里
+T311	Thing-Nominal 2347 2349	细沙
+T312	Location-Nominal 2343 2346	河底下
+R32	Located Arg1:T311 Arg2:T312	
+T313	Location-Nominal 2353 2355	脚下
+T314	Thing-Nominal 2370 2372	河水
+T315	Thing-Nominal 2376 2382	多少尾小鱼儿
+T316	Thing-Nominal 2435 2437	腰枝
+T317	Thing-Nominal 2420 2422	鱼儿
+T318	Thing-Nominal 2411 2416	碧绿的水草
+T319	Thing-Pronoun 2403 2405	它们
+*	Coreference T319 T315
+T320	Person-Pronoun 2440 2441	我
+T321	Person-Pronoun 2445 2446	我
+T322	Location-Nominal 2454 2468	村头那棵盘根错节的老龙眼树下
+T323	Person-Nominal 2472 2475	曾祖母
+T324	Person-Pronoun 2480 2481	我
+R33	Family Arg1:T324 Arg2:T323	
+T325	Location-Nominal 2488 2490	树下
+T326	Person-Nominal 2491 2494	曾祖母
+T327	Person-Nominal 2507 2510	曾祖母
+T328	Time-Implicit 2530 2534	我回想时
+T329	Person-Pronoun 2542 2543	我
+T330	Thing-Nominal 2544 2545	手
+T331	Person-Pronoun 2530 2531	我
+T332	Person-Nominal 2553 2559	年迈的曾祖母
+T333	Thing-Nominal 2593 2595	浊水
+T334	Thing-Nominal 2564 2572	那漫天遍地的青翠
+T335	Thing-Nominal 2573 2578	清澈的河水
+T336	Location-Nominal 2583 2585	眼前
+T337	Thing-Pronoun 2650 2651	它
+T338	Person-Nominal 2656 2657	人
+T339	Person-Pronoun 2718 2719	我
+T340	Person-Nominal 2712 2714	大家
+T341	Person-Pronoun 2699 2700	我
+T342	Person-Nominal 2689 2692	后来者
+T343	Person-Nominal 2664 2665	人
+T344	Person-Nominal 2734 2736	大家
+T345	Person-Pronoun 2744 2745	我
+T346	Thing-Pronoun 2747 2748	它
+T347	Person-Nominal 2752 2753	人
+T348	Person-Pronoun 2772 2773	我
+T349	Person-Name 2834 2837	李绮文
+T350	Person-Nominal 2815 2817	来者
+T351	Person-Pronoun 2801 2802	我
+T352	Person-Pronoun 2784 2785	谁
+T353	Person-Nominal 2852 2862	鹤山市作家协会秘书长
+T354	Person-Nominal 2863 2872	鹤山电台节目主持人
+T355	Abstract 2878 2884	《文采飞扬》
+T356	Abstract 2899 2902;2903 2909	《女人 智Talk》
+T357	Abstract 2910 2916	《任君选择》
+T358	Abstract 2917 2923	《彩色博览》
+T359	Abstract 2924 2930	《绮丽生活》
+T360	Abstract 2931 2937	《丽影清吧》
+T361	Person-Nominal 2838 2841;2842 2851	广东省 江门市作家协会理事

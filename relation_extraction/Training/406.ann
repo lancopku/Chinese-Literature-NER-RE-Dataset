@@ -1,0 +1,142 @@
+T1	Person-Nominal 0 7	供应处处长刘斌
+T2	Person-Nominal 71 75	刘斌处长
+T3	Person-Nominal 76 79	别的人
+R1	Social Arg1:T3 Arg2:T2	
+T4	Person-Nominal 86 90	职工领导
+R2	Social Arg1:T2 Arg2:T4	
+T5	Thing-Nominal 104 113	普通矿工穿的工作服
+T6	Thing-Nominal 119 121;122 127	普通 的圆口布鞋
+T7	Location-Nominal 99 100	身
+T8	Location-Nominal 114 115	脚
+R3	Located Arg1:T5 Arg2:T7	
+R4	Located Arg1:T6 Arg2:T8	
+T9	Person-Nominal 129 131	同事
+T10	Person-Nominal 132 135	上下级
+R5	Social Arg1:T10 Arg2:T9	
+T11	Person-Nominal 145 151	供应处的职工
+T12	Person-Nominal 161 164	好干部
+R6	Social Arg1:T11 Arg2:T12	
+R7	Social Arg1:T11 Arg2:T10	
+R8	Social Arg1:T11 Arg2:T9	
+T13	Person-Pronoun 181 182	他
+T14	Person-Pronoun 191 193	“我
+T15	Person-Pronoun 198 200	大家
+T16	Person-Name 233 238	副处长李义
+T17	Person-Nominal 251 253	大家
+T18	Person-Pronoun 257 258	他
+*	Coreference T18 T16
+T19	Person-Nominal 260 263	刘斌处
+T20	Person-Nominal 272 290	供应科、采购科、销售科、办公室的人员
+R9	Social Arg1:T19 Arg2:T20	
+T21	Location-Nominal 291 296	各矿各公司
+T22	Person-Pronoun 299 300	他
+T23	Person-Nominal 302 304	大家
+T24	Person-Nominal 358 360	大伙
+T25	Person-Nominal 369 371	客户
+T26	Person-Nominal 410 413	一些人
+T27	Person-Nominal 420 422	处长
+T28	Person-Nominal 424 426	好人
+*	Coreference T27 T28
+T29	Person-Nominal 454 456	领导
+T30	Person-Name 468 471	刘处长
+T31	Time-Explicit 465 467	这时
+T32	Person-Nominal 479 481	自己
+T33	Person-Name 487 490	刘处长
+T34	Person-Nominal 492 494	哑叭
+T35	Thing-Nominal 495 497	饺子
+T36	Person-Pronoun 502 503	他
+T37	Person-Nominal 511 513	职工
+R10	Social Arg1:T36 Arg2:T37	
+*	Coreference T33 T36
+T38	Person-Pronoun 517 518	他
+T39	Organization-Name 557 561	局供应处
+T40	Organization-Name 580 583	供应处
+T41	Person-Name 624 627	刘处长
+T42	Time-Implicit 672 680	有一天八点一上班
+T43	Person-Name 680 683	刘处长
+T44	Person-Pronoun 684 689	办公室主任
+R11	Social Arg1:T43 Arg2:T44	
+T45	Person-Pronoun 691 695	全处职工
+T46	Location-Nominal 696 699	会议室
+R12	Social Arg1:T45 Arg2:T43	
+R13	Social Arg1:T44 Arg2:T45	
+T47	Person-Pronoun 707 709	大家
+*	Coreference T47 T45 T49
+T48	Organization-Nominal 712 715	局纪委
+T49	Person-Pronoun 716 718	咱们
+T50	Abstract 721 729	党风廉政建设会议
+T51	Person-Pronoun 731 733	大家
+T52	Person-Pronoun 740 741	我
+T53	Person-Pronoun 742 745	有些人
+T54	Time-Implicit 754 756	现在
+T55	Person-Pronoun 756 758	咱们
+T56	Abstract 762 768	反腐倡廉会议
+T57	Person-Pronoun 773 774	我
+T58	Person-Name 796 801	副处长李义
+T59	Organization-Nominal 803 806	局纪委
+T60	Person-Name 821 825	刘斌处长
+R14	Social Arg1:T60 Arg2:T58	
+T61	Person-Pronoun 840 841	他
+T62	Person-Pronoun 849 851	咱们
+T63	Organization-Nominal 857 861	采供科室
+T64	Time-Implicit 876 878	现在
+T65	Organization-Nominal 890 892	纪委
+T66	Organization-Nominal 904 907	省纪委
+T67	Organization-Nominal 908 912	检察机关
+T68	Person-Nominal 904 915;916 917	省纪委和检察机关办案人 员
+T69	Person-Name 925 929	处长刘斌
+T70	Location-Nominal 920 923	会议室
+T71	Location-Nominal 931 936	他的办公室
+T72	Time-Implicit 938 940	这时
+T73	Location-Nominal 941 944	会议室
+T74	Person-Nominal 950 952	职工
+T75	Person-Name 955 960	副处长李义
+T76	Person-Pronoun 961 962	他
+*	Coreference T76 T75
+T77	Location-Pronoun 969 971	那里
+T78	Time-Implicit 977 981	待了一会
+T79	Person-Pronoun 988 990	大家
+*	Coreference T79 T74
+T80	Person-Pronoun 996 997	我
+R15	Social Arg1:T80 Arg2:T79	
+R16	Social Arg1:T74 Arg2:T75	
+T81	Person-Name 1005 1009	刘斌处长
+T82	Location-Nominal 1011 1014	办公室
+T83	Person-Nominal 1015 1019	办案人员
+T84	Person-Pronoun 1023 1024	他
+*	Coreference T84 T81
+R17	Social Arg1:T81 Arg2:T83	
+T85	Person-Name 1026 1030	刘斌同志
+T86	Person-Nominal 1031 1040	一家销售公司销售员
+R18	Social Arg1:T85 Arg2:T86	
+T87	Person-Pronoun 1042 1043	你
+*	Coreference T87 T85
+T88	Metric 1045 1048	两万元
+T89	Person-Name 1057 1059	刘斌
+T90	Time-Implicit 1054 1056	这时
+T91	Thing-Nominal 1069 1072	办公桌
+T92	Person-Pronoun 1086 1087	我
+T93	Person-Nominal 1092 1096	办案人员
+T94	Person-Name 1105 1107	刘斌
+T95	Time-Implicit 1118 1120	当时
+T96	Person-Name 1122 1124	刘斌
+T97	Person-Nominal 1131 1135	办案人员
+T98	Location-Nominal 1136 1142	刘斌的办公室
+T99	Metric 1144 1147	二十万
+T100	Person-Nominal 1151 1155	办案人员
+T101	Person-Nominal 1157 1165	供应处观看的职工
+R19	Social Arg1:T100 Arg2:T101	
+T102	Person-Nominal 1168 1170	刘斌
+T103	Organization-Nominal 1180 1184	检察机关
+T104	Person-Pronoun 1190 1191	你
+T105	Thing-Nominal 1202 1204	手铐
+T106	Location-Nominal 1214 1218	刘斌手腕
+R20	Located Arg1:T105 Arg2:T106	
+T107	Person-Nominal 1221 1226	观看的职工
+T108	Person-Name 1277 1279	刘斌
+T109	Person-Nominal 1283 1288	观看的职工
+R21	Social Arg1:T109 Arg2:T108	
+T110	Person-Nominal 1291 1293	大家
+T111	Person-Nominal 1303 1307	检察人员
+T112	Person-Name 1312 1314	刘斌
+T113	Location-Nominal 1316 1319	执法车

@@ -1,0 +1,320 @@
+T1	Time-Implicit 0 4	民国时期
+T2	Location-Name 5 7	邢台
+T3	Location-Name 5 14	邢台羊市街、牛市街
+T4	Location-Nominal 5 16	邢台羊市街、牛市街一带
+T5	Thing-Nominal 16 18	商铺
+R1	Located Arg1:T5 Arg2:T4	
+T6	Person-Nominal 21 44	开百货铺的、杂货铺的、土特产店的，做皮草生意的
+T7	Time-Implicit 57 60;61 62	每日早 晚
+T8	Person-Nominal 63 64	人
+T9	Person-Nominal 65 66	人
+T10	Organization-Name 85 89	太行商行
+T11	Person-Nominal 90 92	东家
+R2	Ownership Arg1:T11 Arg2:T10	
+T12	Person-Name 93 95	董明
+*	Coreference T12 T11
+T13	Person-Nominal 98 101	大财主
+R3	General-Special Arg1:T13 Arg2:T12	
+T14	Person-Nominal 102 107	雇佣的掌柜
+R4	Social Arg1:T12 Arg2:T14	
+T15	Person-Name 108 111	曲二行
+*	Coreference T15 T14
+T16	Person-Name 114 117	董小角
+T17	Person-Nominal 114 123	董小角等四五个伙计
+R5	Social Arg1:T12 Arg2:T17	
+R6	Social Arg1:T12 Arg2:T16	
+R7	Social Arg1:T14 Arg2:T16	
+R8	Social Arg1:T14 Arg2:T17	
+R9	Part-Whole Arg1:T16 Arg2:T17	
+T18	Person-Name 125 127	董明
+T19	Time-Implicit 132 134	平时
+T20	Person-Name 135 138	曲二行
+T21	Time-Implicit 142 146	每到辰时
+T22	Person-Name 149 152	曲二行
+T23	Thing-Nominal 155 156	板
+T24	Thing-Nominal 157 158	门
+T25	Thing-Nominal 162 177	挂着那件集腋成裘的华丽狐裘大衣
+T26	Location-Nominal 180 186	商行大门里侧
+R10	Located Arg1:T25 Arg2:T26	
+T27	Time-Implicit 192 194	酉时
+T28	Thing-Nominal 198 199	板
+T29	Thing-Nominal 200 201	门
+T30	Time-Implicit 209 211	这年
+T31	Person-Name 212 215	曲二行
+T32	Thing-Nominal 218 219	麦
+T33	Time-Implicit 220 221	秋
+T34	Location-Name 230 232	邢台
+T35	Organization-Name 247 251	太行商行
+T36	Thing-Nominal 256 259	一竿子
+T37	Organization-Nominal 263 265	商行
+*	Coreference T37 T35
+T38	Thing-Nominal 263 268	商行的大门
+R11	Ownership Arg1:T37 Arg2:T38	
+T39	Person-Name 282 285	董小角
+T40	Thing-Nominal 298 299	门
+T41	Person-Name 303 306	曲二行
+T42	Person-Name 308 311	董小角
+T43	Organization-Nominal 324 329	两边的商行
+T44	Thing-Nominal 332 333	门
+R12	Ownership Arg1:T43 Arg2:T44	
+T45	Person-Name 336 339	董小角
+T46	Thing-Nominal 347 348	门
+T47	Thing-Nominal 355 357	东西
+T48	Person-Name 359 362	曲二行
+T49	Person-Pronoun 367 368	他
+*	Coreference T49 T45
+T50	Person-Name 385 388	董小角
+T51	Person-Name 396 399	董小角
+T52	Person-Name 409 411	董明
+T53	Person-Name 412 415	董小角
+T54	Person-Pronoun 424 425	他
+*	Coreference T54 T52
+T55	Person-Name 426 429	董小角
+T56	Person-Name 430 432	董明
+T57	Person-Nominal 432 434	二舅
+*	Coreference T57 T56
+T58	Person-Name 436 438	董明
+T59	Person-Name 442 445	曲二行
+T60	Organization-Nominal 450 452	商行
+T61	Time-Implicit 457 459	那时
+T62	Organization-Nominal 457 464	那时的皮草商行
+R13	General-Special Arg1:T62 Arg2:T35	
+T63	Thing-Nominal 470 479	动物皮毛制成的衣裳
+T64	Thing-Nominal 482 486	野生动物
+T65	Thing-Nominal 490 505	狐狸、兔子、土狼、黄鼠、獾等等
+T66	Thing-Nominal 506 508	皮毛
+T67	Thing-Nominal 515 517;518 520	皮草 服饰
+T68	Thing-Pronoun 538 539	它
+*	Coreference T68 T67
+T69	Thing-Nominal 548 549	水
+T70	Time-Implicit 550 554	雨季过后
+T71	Time-Implicit 555 559	晒皮草时
+T72	Thing-Nominal 563 565	皮草
+T73	Thing-Nominal 567 570	一层布
+T74	Time-Implicit 571 574	晒毕后
+T75	Thing-Nominal 576 578	皮草
+T76	Abstract 579 581	温度
+T77	Thing-Nominal 584 586	常温
+T78	Thing-Nominal 591 596	受潮的皮草
+T79	Thing-Nominal 599 600	毛
+R14	Part-Whole Arg1:T79 Arg2:T78	
+T80	Organization-Nominal 603 605	商行
+T81	Person-Nominal 616 619	小伙计
+T82	Time-Implicit 622 625	那会儿
+T83	Thing-Nominal 626 631	商行的地面
+T84	Organization-Nominal 626 628	商行
+T85	Thing-Nominal 636 638	水泥
+T86	Time-Implicit 633 635	现在
+T87	Thing-Nominal 645 648	地板砖
+T88	Thing-Nominal 654 656	泥土
+T89	Thing-Nominal 658 660	屋地
+T90	Time-Implicit 649 652	那会儿
+T91	Thing-Nominal 666 668	尘土
+T92	Thing-Nominal 684 686	清水
+T93	Person-Name 697 700	董小角
+T94	Thing-Nominal 702 703	水
+T95	Location-Nominal 707 710	屋地上
+T96	Person-Name 720 723	曲二行
+T97	Person-Name 725 728	董小角
+T98	Person-Pronoun 730 731	你
+*	Coreference T98 T97
+T99	Thing-Nominal 745 746	水
+T100	Person-Name 748 751	董小角
+T101	Person-Name 766 769	曲二行
+T102	Person-Pronoun 777 778	你
+T103	Person-Pronoun 774 775	他
+*	Coreference T103 T100 T102
+T104	Person-Pronoun 787 788	你
+T105	Thing-Nominal 784 786	耳朵
+T106	Thing-Nominal 792 793	水
+T107	Thing-Nominal 796 800	这件皮草
+R15	Located Arg1:T106 Arg2:T107	
+T108	Person-Name 806 809	曲二行
+T109	Thing-Nominal 811 813	皮草
+*	Coreference T109 T107
+T110	Thing-Nominal 818 823	上面的水珠
+*	Coreference T110 T106
+T111	Person-Name 825 828	董小角
+T112	Person-Pronoun 834 835	他
+T113	Thing-Nominal 830 831	腰
+R16	Part-Whole Arg1:T113 Arg2:T111	
+*	Coreference T112 T108
+T114	Person-Nominal 846 850	其他伙计
+R17	Social Arg1:T114 Arg2:T112	
+R18	Social Arg1:T114 Arg2:T111	
+T115	Person-Name 858 861	董小角
+T116	Person-Name 863 865	董明
+R19	Social Arg1:T114 Arg2:T116	
+R20	Social Arg1:T112 Arg2:T116	
+R21	Social Arg1:T115 Arg2:T116	
+T117	Person-Name 867 870	曲二行
+T118	Person-Nominal 879 881	二舅
+*	Coreference T118 T116
+R22	Family Arg1:T115 Arg2:T118	
+T119	Person-Name 890 892	董明
+T120	Person-Nominal 894 896	外甥
+*	Coreference T120 T115
+T121	Person-Name 910 912	董明
+T122	Person-Name 917 920	曲二行
+T123	Organization-Nominal 925 927	商行
+T124	Organization-Nominal 932 936	皮草商行
+R23	General-Special Arg1:T124 Arg2:T123	
+*	Coreference T10 T123
+T125	Thing-Nominal 960 962	皮草
+T126	Thing-Nominal 965 970	肩垫的衣架
+T127	Thing-Nominal 976 980	钢丝衣架
+T128	Person-Nominal 995 996	人
+T129	Thing-Nominal 1000 1002	皮草
+T130	Thing-Nominal 1013 1015	灰尘
+T131	Thing-Nominal 1016 1018	套袋
+T132	Thing-Nominal 1021 1023	塑胶
+T133	Thing-Nominal 1027 1033	宽大的布衣袋
+T134	Thing-Nominal 1055 1057	饰物
+T135	Location-Nominal 1051 1053	上面
+T136	Thing-Nominal 1058 1060	皮草
+T137	Thing-Nominal 1076 1081	一般的梳子
+T138	Thing-Nominal 1082 1083	毛
+T139	Thing-Nominal 1097 1100	发香水
+T140	Person-Nominal 1110 1114	有些客人
+T141	Person-Nominal 1106 1107	人
+T142	Organization-Nominal 1116 1118	商行
+T143	Location-Pronoun 1119 1121	这里
+T144	Location-Pronoun 1124 1126	那里
+T145	Person-Nominal 1163 1164	人
+T146	Person-Pronoun 1168 1169	你
+T147	Time-Implicit 1178 1180	这天
+T148	Organization-Name 1181 1185	太行商行
+T149	Person-Nominal 1181 1189	太行商行来的顾客
+T150	Person-Nominal 1195 1198	当官的
+T151	Person-Nominal 1200 1203	经商的
+T152	Person-Nominal 1205 1208	阔太太
+T153	Person-Nominal 1210 1213	大小姐
+T154	Metric 1220 1222	一件
+*	Coreference T150 T149 T151 T152 T153
+T155	Person-Name 1227 1230	曲二行
+T156	Time-Implicit 1224 1226	晚上
+T157	Thing-Nominal 1232 1234	身子
+R24	Part-Whole Arg1:T157 Arg2:T155	
+T158	Thing-Nominal 1247 1249	凉席
+T159	Thing-Nominal 1252 1256	一根头发
+T160	Person-Pronoun 1257 1258	他
+*	Coreference T160 T155
+T161	Person-Name 1261 1264	董小角
+T162	Person-Name 1268 1271	曲二行
+T163	Person-Name 1273 1276	董小角
+T164	Person-Pronoun 1277 1278	你
+T165	Person-Name 1294 1297	曲二行
+T166	Thing-Nominal 1299 1303	那根头发
+T167	Person-Pronoun 1306 1307	你
+*	Coreference T164 T163
+T168	Thing-Nominal 1284 1285	铺
+R25	Located Arg1:T158 Arg2:T168	
+R26	Located Arg1:T158 Arg2:T159	
+*	Coreference T159 T166 T169
+T169	Thing-Nominal 1311 1315	这根头发
+T170	Person-Pronoun 1317 1318	我
+*	Coreference T170 T165 T173
+T171	Person-Name 1324 1327	董小角
+T172	Thing-Nominal 1330 1334	一根头发
+T173	Person-Pronoun 1337 1338	你
+T174	Person-Name 1340 1343	曲二行
+T175	Person-Pronoun 1348 1349	他
+*	Coreference T175 T171
+T176	Thing-Nominal 1358 1362	这根头发
+T177	Person-Pronoun 1363 1364	我
+T178	Person-Pronoun 1370 1371	你
+T179	Person-Name 1377 1380	董小角
+T180	Person-Name 1382 1384	董明
+T181	Person-Name 1391 1393	董明
+T182	Thing-Nominal 1403 1405	铺炕
+T183	Thing-Nominal 1413 1417	一根头发
+T184	Person-Nominal 1425 1426	人
+T185	Thing-Nominal 1418 1422	一根头发
+T186	Metric 1252 1254	一根
+T187	Thing-Pronoun 1427 1428	这
+T188	Metric 1413 1415	一根
+T189	Metric 1418 1420	一根
+T190	Person-Name 1437 1439	董明
+T191	Person-Nominal 1452 1454	表姐
+T192	Person-Name 1455 1457	小角
+*	Coreference T192 T179 T195
+R27	Family Arg1:T192 Arg2:T191	
+R29	Family Arg1:T191 Arg2:T190	
+T193	Person-Pronoun 1459 1460	我
+*	Coreference T193 T190
+T194	Person-Name 1441 1444	曲二行
+T195	Person-Pronoun 1466 1467	他
+T196	Person-Pronoun 1473 1474	你
+*	Coreference T196 T194
+T197	Person-Pronoun 1480 1481	他
+T198	Location-Pronoun 1489 1491	这儿
+*	Coreference T198 T148 T220 T231
+T199	Person-Name 1498 1501	曲二行
+T200	Person-Pronoun 1509 1510	他
+*	Coreference T200 T199
+T201	Thing-Nominal 1522 1524	工钱
+R28	Ownership Arg1:T199 Arg2:T201	
+R30	Use Arg1:T155 Arg2:T168	
+T202	Person-Name 1525 1528	曲二行
+T203	Thing-Nominal 1529 1531	铺盖
+R31	Use Arg1:T202 Arg2:T203	
+T204	Person-Name 1538 1541	曲二行
+T205	Person-Nominal 1542 1545	羊范人
+R32	General-Special Arg1:T205 Arg2:T204	
+T206	Person-Name 1546 1548	董明
+T207	Person-Nominal 1549 1552	喉咽人
+R33	General-Special Arg1:T207 Arg2:T206	
+T208	Person-Name 1555 1557	董明
+T209	Location-Name 1562 1564	羊范
+T210	Location-Nominal 1558 1559	家
+T211	Location-Nominal 1566 1573	一地边的树荫下
+T212	Person-Nominal 1574 1577	一农人
+T213	Thing-Nominal 1579 1581	锄把
+R34	Use Arg1:T212 Arg2:T213	
+T214	Location-Nominal 1589 1593	坷垃地里
+T215	Person-Name 1605 1608	曲二行
+*	Coreference T212 T215
+T216	Person-Name 1610 1612	董明
+T217	Person-Name 1620 1623	曲二行
+T218	Location-Nominal 1624 1628	坷垃地里
+T219	Thing-Nominal 1630 1632	锄把
+T220	Location-Nominal 1638 1640	商行
+T221	Thing-Nominal 1640 1644	一根头发
+T222	Person-Pronoun 1647 1648	你
+T223	Time-Implicit 1652 1654	今日
+T224	Person-Pronoun 1662 1663	你
+T225	Person-Name 1669 1671	董明
+T226	Person-Name 1672 1675	曲二行
+T227	Time-Implicit 1686 1688	今天
+*	Coreference T227 T223
+T228	Person-Name 1696 1699	曲二行
+T229	Thing-Nominal 1713 1715	皮草
+T230	Person-Nominal 1702 1703	人
+T231	Location-Pronoun 1727 1729	那里
+T232	Person-Nominal 1732 1734	掌柜
+T233	Person-Pronoun 1730 1731	你
+*	Coreference T222 T217
+*	Coreference T233 T225
+T234	Time-Implicit 1735 1737	夜里
+T235	Thing-Nominal 1739 1740	床
+T236	Location-Name 1759 1761	邢台
+T237	Organization-Nominal 1763 1766	皮草行
+T238	Time-Implicit 1772 1774	每天
+T239	Person-Pronoun 1775 1776	我
+T240	Person-Name 1795 1798	冯二蛋
+*	Coreference T240 T228 T239 T246 T248
+T241	Thing-Nominal 1778 1780	冰凌
+T242	Thing-Nominal 1790 1791	水
+T243	Thing-Nominal 1806 1808	薄冰
+T244	Thing-Nominal 1813 1815	冰凌
+T245	Person-Name 1817 1819	董明
+T246	Person-Name 1826 1828	二蛋
+T247	Person-Pronoun 1829 1830	我
+*	Coreference T247 T245
+T248	Person-Pronoun 1831 1832	你
+T249	Person-Name 1836 1839	曲二行
+T250	Location-Pronoun 1842 1843	哪
+T251	Person-Name 1845 1847	董明
+T252	Organization-Name 1851 1855	太行商行
+T253	Person-Pronoun 1858 1859	你
+T254	Person-Nominal 1860 1863	掌柜!

@@ -1,0 +1,215 @@
+T1	Time-Implicit 0 5	四十多年前
+T2	Person-Pronoun 6 7	我
+T3	Organization-Nominal 10 13	幼儿园
+T4	Organization-Nominal 17 19	小学
+T5	Location-Nominal 20 22	大门
+R1	Part-Whole Arg1:T5 Arg2:T4	
+T6	Location-Name 24 27	雷神庙
+T7	Location-Name 30 33	雷神庙
+T8	Person-Pronoun 34 35	我
+T9	Person-Pronoun 43 44	我
+T10	Location-Nominal 45 47	这里
+*	Coreference T10 T7 T20
+T11	Organization-Nominal 49 51	小学
+T12	Organization-Nominal 52 54	初中
+T13	Time-Implicit 55 58	读书时
+T14	Person-Pronoun 59 60	我
+T15	Person-Name 69 73	姜克伯伯
+R2	Social Arg1:T14 Arg2:T15	
+T16	Person-Nominal 74 77	师生们
+T17	Location-Name 80 83	雷神庙
+T18	Thing-Nominal 88 90	石碑
+T19	Thing-Nominal 91 94	雨搭子
+R3	Located Arg1:T18 Arg2:T17	
+R4	Located Arg1:T19 Arg2:T17	
+R5	Social Arg1:T15 Arg2:T16	
+T20	Location-Pronoun 64 65	这
+T21	Time-Explicit 95 100	1974年
+T22	Person-Name 101 114	雷神庙联中学校长常宏传同志
+T23	Location-Name 119 121;122 123	雷神 庙
+T24	Person-Nominal 124 129	回乡知识青
+R6	General-Special Arg1:T22 Arg2:T24	
+T25	Person-Nominal 133 137	全校师生
+R7	Social Arg1:T22 Arg2:T25	
+T26	Person-Nominal 144 148	贫下中农
+T27	Time-Implicit 155 157	后来
+T28	Person-Pronoun 158 159	我
+T29	Location-Name 161 163	这里
+T30	Person-Nominal 164 166	教师
+*	Coreference T28 T30
+*	Coreference T29 T23 T34
+T31	Person-Pronoun 167 168	我
+T32	Location-Name 169 172	养马岛
+T33	Organization-Nominal 183 186	公安局
+R8	Ownership Arg1:T31 Arg2:T33	
+T34	Location-Pronoun 189 191	这里
+T35	Thing-Nominal 193 194	草
+T36	Thing-Nominal 195 196	木
+R9	Located Arg1:T35 Arg2:T34	
+R10	Located Arg1:T36 Arg2:T34	
+T37	Person-Pronoun 198 199	我
+T38	Location-Name 209 212	雷神庙
+T39	Location-Name 214 217	烟台市
+T40	Location-Name 214 232	烟台市牟平区城东南王贺庄村南50米处
+*	Coreference T38 T40 T43
+T41	Metric 228 231	50米
+T42	Thing-Nominal 238 242	一座小庙
+T43	Location-Pronoun 243 245	这里
+T44	Location-Name 258 260	庐山
+T45	Thing-Name 263 265	武宁
+T46	Thing-Nominal 268 269;270 271	岿 峰
+T47	Location-Nominal 274 276	古郡
+T48	Thing-Nominal 278 280	长河
+T49	Thing-Nominal 285 287	乔木
+T50	Location-Name 293 296	雷神庙
+T51	Location-Nominal 300 304	两个大院
+R11	Part-Whole Arg1:T51 Arg2:T50	
+T52	Location-Nominal 305 307	西院
+T53	Location-Nominal 308 310	花园
+T54	Location-Name 314 316	范园
+*	Coreference T53 T54 T52 T57
+R12	Part-Whole Arg1:T52 Arg2:T51	
+T55	Time-Explicit 318 320	金朝
+T56	Person-Name 320 327	宁海州学正范泽
+T57	Location-Nominal 328 330	花园
+R13	Ownership Arg1:T56 Arg2:T57	
+T58	Location-Nominal 331 334	王朝殿
+T59	Location-Name 336 339	玄都宫
+*	Coreference T58 T59
+T60	Time-Explicit 342 344	清初
+T61	Person-Nominal 347 350	统治者
+T62	Location-Name 356 359	玄都宫
+T63	Thing-Name 365 368	雷神庙
+T64	Time-Explicit 370 382	明崇祯七年(1634年)
+T65	Time-Implicit 383 385	当年
+*	Coreference T64 T65
+T66	Location-Name 385 388	宁海州
+R14	Located Arg1:T63 Arg2:T66	
+T67	Person-Name 391 395	知州绕登
+T68	Person-Nominal 398 400	官员
+R15	Social Arg1:T67 Arg2:T68	
+T69	Location-Name 401 408	城南八里金龙山
+T70	Thing-Nominal 409 410	雨
+T71	Location-Name 416 418	范园
+T72	Thing-Nominal 427 429	暴雨
+T73	Person-Nominal 435 437	雷神
+T74	Location-Pronoun 444 445	此
+T75	Thing-Nominal 447 450	雷祖殿
+T76	Thing-Name 453 456	雷神庙
+*	Coreference T75 T76
+T77	Thing-Nominal 460 464	庙堂三间
+R16	Part-Whole Arg1:T77 Arg2:T76	
+T78	Thing-Nominal 467 469	雷神
+T79	Thing-Nominal 470 472	雨神
+T80	Thing-Nominal 473 475	闪神
+T81	Thing-Nominal 476 478	神像
+R17	General-Special Arg1:T80 Arg2:T81	
+R18	General-Special Arg1:T79 Arg2:T81	
+R19	General-Special Arg1:T78 Arg2:T81	
+R20	Located Arg1:T81 Arg2:T77	
+T82	Thing-Nominal 479 481	香火
+*	Coreference T82 T77
+T83	Time-Explicit 485 490	七七事变后
+T84	Time-Explicit 491 500	1938年2月5日
+T85	Organization-Nominal 501 503	日军
+T86	Location-Name 506 509	牟平城
+T87	Person-Nominal 514 516	日寇
+T88	Time-Explicit 522 527	2月13日
+T89	Person-Nominal 528 536	中共胶东特委书记
+T90	Person-Nominal 537 545;546 553	山东人民抗日救国 军第三军司令员
+T91	Person-Name 553 557	理琪同志
+*	Coreference T90 T91 T89
+T92	Organization-Nominal 558 564	第三军一大队
+T93	Location-Name 569 572	牟平城
+R21	Ownership Arg1:T91 Arg2:T92	
+T94	Organization-Nominal 576 578	部队
+T95	Time-Implicit 573 575	战后
+*	Coreference T94 T92
+T96	Location-Nominal 579 580	南
+T97	Person-Name 583 585	理琪
+T98	Person-Nominal 586 588	同志
+R22	General-Special Arg1:T97 Arg2:T98	
+T99	Location-Name 589 594	城南雷神庙
+T100	Time-Implicit 597 599	中午
+T101	Location-Name 601 603	烟台
+T102	Organization-Name 607 614	日军海军陆战队
+T103	Location-Name 620 623	雷神庙
+T104	Person-Nominal 624 632	我第三军干部战士
+T105	Location-Name 634 637	雷神庙
+T106	Person-Nominal 648 650	日军
+T107	Person-Nominal 654 656	敌人
+*	Coreference T107 T106
+T108	Time-Implicit 665 667;668 669	战斗 中
+T109	Person-Name 670 674	理琪同志
+T110	Person-Name 687 694	特务队长杜梓林
+T111	Person-Name 699 702	林一山
+T112	Person-Name 703 705	宋澄
+T113	Person-Nominal 706 708	同志
+R23	General-Special Arg1:T112 Arg2:T113	
+R24	General-Special Arg1:T111 Arg2:T113	
+R25	General-Special Arg1:T110 Arg2:T113	
+T114	Time-Explicit 714 725	民国二年(1993年)
+T115	Location-Name 726 729	雷神庙
+T116	Organization-Name 735 740	雷神庙小学
+T117	Time-Explicit 743 751	1984年10月
+T118	Location-Nominal 753 755	正殿
+T119	Location-Name 757 760	雷神庙
+R26	Part-Whole Arg1:T118 Arg2:T119	
+T120	Time-Explicit 765 770	1995年
+T121	Location-Name 770 777	雷神庙战斗遗址
+T122	Location-Nominal 780 791	山东省优秀社会教育基地
+R27	General-Special Arg1:T121 Arg2:T122	
+T123	Location-Name 780 783	山东省
+R28	Part-Whole Arg1:T121 Arg2:T123	
+T124	Location-Name 792 795	雷神庙
+T125	Location-Name 802 803;804 806	山 东省
+T126	Time-Explicit 811 816	1996年
+T127	Location-Name 817 824	雷神庙战斗遗址
+T128	Location-Nominal 828 839	烟台市爱国主义教育基地
+R29	General-Special Arg1:T127 Arg2:T128	
+T129	Location-Name 828 831	烟台市
+R30	Part-Whole Arg1:T127 Arg2:T129	
+R31	Part-Whole Arg1:T129 Arg2:T125	
+T130	Time-Explicit 839 845	;2000年
+T131	Organization-Name 847 857	山东省国防教育委员会
+T132	Organization-Nominal 859 864;865 873	山东省国防 教育基地先进单位
+R32	General-Special Arg1:T127 Arg2:T132	
+T133	Time-Explicit 876 882	2001年春
+T134	Organization-Nominal 888 889	党
+T135	Time-Explicit 887 893	建党80周年
+T136	Location-Name 894 897	雷神庙
+T137	Time-Explicit 909 913	7月1日
+T138	Time-Explicit 929 935	2004年底
+T139	Location-Name 936 943	雷神庙战斗遗址
+T140	Person-Nominal 948 953	参观学习者
+T141	Person-Name 960 963	高玉宝
+T142	Location-Name 965 968	雷神庙
+T143	Location-Name 968 973	雷神庙遗址
+T144	Time-Implicit 978 982	近几年来
+T145	Location-Name 986 989	雷神庙
+T146	Person-Name 992 994	姜克
+T147	Person-Name 995 998	常毅传
+T148	Person-Name 999 1002	林一山
+T149	Person-Name 1003 1006	张玉华
+T150	Person-Name 1007 1009	夏来
+T151	Person-Name 1010 1013	丛桂滋
+T152	Person-Name 1014 1017	刘中华
+T153	Person-Nominal 1021 1024	老领导
+R33	General-Special Arg1:T152 Arg2:T153	
+R34	General-Special Arg1:T151 Arg2:T153	
+R35	General-Special Arg1:T149 Arg2:T153	
+R36	General-Special Arg1:T148 Arg2:T153	
+R37	General-Special Arg1:T147 Arg2:T153	
+R38	General-Special Arg1:T146 Arg2:T153	
+T154	Location-Name 1025 1032	雷神庙战斗遗址
+T155	Person-Name 1039 1043	姜克伯伯
+T156	Time-Explicit 1044 1049	1962年
+T157	Time-Explicit 1050 1055	1979年
+T158	Location-Name 1061 1064	雷神庙
+T159	Person-Name 1066 1068	理琪
+T160	Person-Pronoun 1072 1073	我
+T161	Location-Nominal 1077 1079	险滩
+T162	Person-Nominal 1090 1095	英雄烈士们
+R39	General-Special Arg1:T159 Arg2:T162	
+T163	Organization-Nominal 1099 1101	国家
+T164	Person-Nominal 1103 1105	人民

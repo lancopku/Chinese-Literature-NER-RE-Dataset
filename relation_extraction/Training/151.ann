@@ -1,0 +1,219 @@
+T1	Time-Implicit 0 3	那一天
+T2	Person-Pronoun 4 5	我
+T3	Person-Nominal 10 15	一位老太太
+T4	Person-Nominal 31 33	母亲
+T5	Person-Nominal 37 39	母亲
+T6	Metric 44 48	多少年前
+T7	Time-Implicit 56 60	很久以来
+T8	Person-Pronoun 62 63	我
+T9	Thing-Pronoun 86 87	它
+T10	Person-Pronoun 89 90	我
+T11	Person-Pronoun 96 98	自己
+T12	Person-Pronoun 113 114	我
+T13	Person-Pronoun 130 131	我
+T14	Person-Pronoun 136 138	自己
+T15	Person-Nominal 146 148	母亲
+T16	Person-Nominal 153 155	母亲
+T17	Person-Pronoun 162 163	她
+*	Coreference T17 T16 T22
+T18	Person-Pronoun 175 176	我
+T19	Metric 180 182;183 184	这些 年
+R1	Family Arg1:T2 Arg2:T4	
+R2	Family Arg1:T15 Arg2:T13	
+T20	Person-Pronoun 185 186	我
+T21	Location-Nominal 187 189	乡下
+T22	Person-Pronoun 195 196	她
+T23	Person-Pronoun 205 206	我
+T24	Person-Pronoun 220 221	我
+T25	Time-Implicit 205 219	我心里的宿命感越来越深的时刻
+T26	Person-Nominal 237 239	父亲
+T27	Person-Nominal 225 227	母亲
+R3	Family Arg1:T26 Arg2:T27	
+T28	Location-Nominal 241 243	家中
+T29	Person-Pronoun 263 265	他们
+T30	Person-Nominal 286 288	父亲
+T31	Person-Pronoun 290 291	我
+R4	Family Arg1:T31 Arg2:T30	
+T32	Person-Pronoun 303 304	他
+T33	Person-Nominal 315 317	那人
+T34	Person-Pronoun 318 319	我
+T35	Person-Nominal 325 327	父亲
+T36	Person-Nominal 330 332	母亲
+R5	Family Arg1:T36 Arg2:T35	
+T37	Person-Pronoun 340 342	他们
+T38	Person-Nominal 388 390	父亲
+T39	Thing-Nominal 396 398	家门
+T40	Location-Nominal 402 404	外面
+T41	Location-Nominal 424 426	家中
+T42	Person-Nominal 433 435	父亲
+T43	Person-Pronoun 447 448	他
+*	Coreference T43 T42
+T44	Person-Nominal 459 461	母亲
+T45	Time-Explicit 477 482	三十五年前
+T46	Metric 492 496	三十多岁
+T47	Person-Nominal 497 499	父亲
+T48	Person-Pronoun 500 501	他
+*	Coreference T48 T47
+T49	Person-Pronoun 508 510	我们
+T50	Person-Pronoun 511 512	他
+T51	Person-Nominal 516 525	一个特别有勇气的人
+T52	Time-Implicit 533 538	三十多年来
+T53	Person-Pronoun 550 551	我
+T54	Person-Nominal 558 560	父亲
+T55	Person-Pronoun 563 564	他
+*	Coreference T55 T54
+T56	Person-Nominal 565 567	母亲
+T57	Person-Pronoun 582 584	我们
+T58	Time-Implicit 588 592	多少年后
+T59	Person-Pronoun 594 596	他们
+T60	Time-Implicit 594 606	他们已经开始迈向衰老之时
+T61	Person-Nominal 607 609	父亲
+T62	Person-Pronoun 617 618	他
+*	Coreference T62 T61
+T63	Person-Nominal 636 638	父亲
+T64	Person-Nominal 641 643	母亲
+T65	Person-Nominal 658 660	父亲
+T66	Person-Nominal 682 686	一个老农
+T67	Person-Nominal 687 689	父亲
+T68	Person-Pronoun 693 695	自己
+T69	Person-Pronoun 699 700	他
+*	Coreference T69 T67
+T70	Thing-Nominal 712 714	泥土
+T71	Person-Nominal 722 725	多数人
+T72	Person-Pronoun 731 733	我们
+T73	Location-Nominal 734 736	乡下
+T74	Person-Pronoun 750 752	他们
+T75	Person-Nominal 772 774	母亲
+T76	Time-Implicit 769 771	这时
+T77	Person-Nominal 781 783	儿孙
+T78	Person-Nominal 787 792	她的儿女们
+T79	Person-Pronoun 787 788	她
+*	Coreference T79 T75
+T80	Person-Pronoun 797 798	她
+T81	Person-Nominal 804 806	他人
+T82	Time-Implicit 808 811	那一天
+R6	Family Arg1:T78 Arg2:T79	
+T83	Person-Pronoun 812 813	我
+T84	Person-Nominal 818 823	一位老太太
+T85	Person-Nominal 839 841	母亲
+T86	Person-Pronoun 845 846	我
+T87	Person-Nominal 848 850	母亲
+T88	Person-Pronoun 859 860	她
+*	Coreference T88 T87
+T89	Person-Nominal 861 865	年迈的人
+T90	Person-Nominal 872 873	人
+T91	Person-Pronoun 874 875	她
+T92	Person-Pronoun 878 879	她
+T93	Person-Nominal 881 885	年迈的人
+T94	Person-Pronoun 891 893	自己
+T95	Thing-Nominal 908 912	一道院门
+T96	Time-Implicit 922 929;930 933	冬季寒冷萧瑟的 日子里
+T97	Person-Pronoun 934 935	我
+T98	Person-Nominal 939 941	母亲
+T99	Person-Pronoun 942 943	我
+T100	Person-Pronoun 946 948	自己
+T101	Location-Nominal 955 963	故土之外的城市不
+T102	Person-Pronoun 965 966	她
+*	Coreference T102 T98
+T103	Person-Pronoun 967 968	我
+T104	Person-Nominal 970 972	母亲
+T105	Person-Pronoun 974 975	我
+T106	Location-Nominal 974 981	我所居住的城市
+T107	Person-Pronoun 1001 1002	她
+*	Coreference T107 T104
+T108	Person-Pronoun 1008 1009	我
+T109	Person-Nominal 1010 1012	父亲
+T110	Person-Pronoun 1019 1020	他
+*	Coreference T110 T109
+T111	Location-Nominal 1025 1027	家中
+T112	Person-Pronoun 1030 1032	他们
+T113	Person-Pronoun 1043 1044	我
+T114	Person-Nominal 1046 1048	父亲
+T115	Person-Nominal 1054 1056	母亲
+R7	Family Arg1:T114 Arg2:T115	
+T116	Person-Pronoun 1065 1067	他们
+T117	Person-Pronoun 1079 1080	我
+T118	Person-Nominal 1090 1091	人
+T119	Person-Pronoun 1119 1121	他们
+T120	Person-Pronoun 1133 1134	我
+T121	Person-Pronoun 1153 1154	我
+T122	Person-Pronoun 1161 1162	我
+T123	Person-Pronoun 1174 1175	我
+T124	Time-Implicit 1174 1184	我比现在还年轻的时候
+T125	Person-Pronoun 1208 1209	我
+T126	Person-Nominal 1219 1221	母亲
+T127	Person-Pronoun 1228 1229	她
+*	Coreference T127 T126
+T128	Person-Pronoun 1245 1246	我
+T129	Person-Pronoun 1249 1250	她
+T130	Person-Pronoun 1266 1267	我
+T131	Person-Nominal 1271 1273	父亲
+T132	Person-Pronoun 1284 1285	我
+T133	Person-Pronoun 1287 1288	他
+*	Coreference T133 T131
+T134	Time-Implicit 1297 1303	听故事的时候
+T135	Person-Pronoun 1304 1305	我
+T136	Person-Nominal 1308 1314	一个年迈之人
+T137	Time-Implicit 1333 1339	听故事的时候
+T138	Person-Pronoun 1340 1341	我
+T139	Thing-Nominal 1350 1352	蛛丝
+T140	Person-Pronoun 1357 1359	我们
+T141	Person-Pronoun 1360 1361	我
+T142	Person-Pronoun 1366 1368	自己
+T143	Person-Nominal 1372 1377	我们无数人
+T144	Person-Pronoun 1372 1374	我们
+T145	Person-Pronoun 1422 1423	我
+T146	Person-Nominal 1434 1438	衰老之人
+T147	Person-Pronoun 1447 1448	我
+T148	Person-Nominal 1456 1458	父亲
+T149	Person-Nominal 1458 1460	母亲
+R8	Family Arg1:T149 Arg2:T148	
+T150	Person-Pronoun 1472 1474	他们
+T151	Person-Nominal 1480 1483	一个人
+T152	Person-Pronoun 1495 1497	我们
+T153	Thing-Nominal 1506 1513	那些飞扬的万物
+T154	Person-Pronoun 1518 1520	我们
+T155	Person-Nominal 1525 1527	母亲
+T156	Person-Pronoun 1534 1535	她
+*	Coreference T156 T155
+T157	Person-Pronoun 1548 1549	我
+T158	Person-Pronoun 1562 1563	她
+T159	Location-Nominal 1565 1567	故土
+T160	Person-Pronoun 1568 1569	我
+T161	Person-Pronoun 1576 1578	我们
+T162	Person-Nominal 1579 1581	母子
+T163	Person-Nominal 1591 1592	人
+T164	Person-Pronoun 1599 1600	我
+T165	Person-Pronoun 1603 1604	她
+T166	Person-Pronoun 1619 1621	我们
+T167	Person-Pronoun 1628 1629	我
+T168	Person-Pronoun 1643 1644	我
+T169	Person-Pronoun 1657 1658	我
+T170	Person-Nominal 1669 1670	人
+T171	Person-Pronoun 1673 1674	她
+T172	Person-Pronoun 1677 1679	我们
+T173	Person-Pronoun 1680 1681	我
+T174	Person-Nominal 1682 1689	我的弟弟与妹妹
+T175	Person-Pronoun 1682 1683	我
+R9	Family Arg1:T174 Arg2:T175	
+T176	Person-Pronoun 1690 1692	我们
+T177	Person-Nominal 1698 1699	人
+T178	Person-Pronoun 1702 1704	我们
+T179	Person-Pronoun 1719 1720	我
+T180	Thing-Nominal 1733 1735	星空
+T181	Person-Pronoun 1739 1740	我
+T182	Person-Pronoun 1754 1755	我
+T183	Person-Nominal 1755 1760	孤独的母亲
+T184	Person-Pronoun 1765 1766	我
+R10	Family Arg1:T183 Arg2:T182	
+T185	Person-Pronoun 1770 1771	她
+*	Coreference T185 T183
+T186	Person-Pronoun 1781 1782	她
+T187	Person-Name 1787 1790	闫文盛
+T188	Time-Explicit 1790 1795	1978年
+T189	Abstract 1799 1807	《失踪者的旅行》
+T190	Abstract 1807 1814	《你往哪里去》
+T191	Abstract 1814 1819	《主观书》
+T192	Abstract 1819 1825	《在危崖上》
+T193	Person-Nominal 1834 1843	山西文学院专业作家
+T194	Person-Nominal 1844 1847;1848 1853	中国作 家协会会员

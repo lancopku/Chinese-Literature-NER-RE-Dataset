@@ -1,0 +1,450 @@
+T1	Location-Name 0 7	我的家乡牛头镇
+T2	Location-Nominal 10 30	中国蔬菜之乡寿光市西北部美丽富饶的淀湖畔
+T3	Location-Name 10 19	中国蔬菜之乡寿光市
+R1	Near Arg1:T1 Arg2:T2	
+T4	Location-Nominal 32 41	一块难得的风水宝地
+R2	General-Special Arg1:T4 Arg2:T1	
+T5	Location-Nominal 42 51	一方神奇的沃野热土
+*	Coreference T5 T1 T7 T9 T17 T24 T50
+T6	Thing-Nominal 53 60;61 69	齐鲁大地闻名遐 尔的革命老根据地
+R3	Located Arg1:T6 Arg2:T1	
+T7	Location-Name 73 77	寿光延安
+T8	Time-Implicit 83 85	少小
+T9	Location-Nominal 86 93	生我养我的家乡
+T10	Metric 95 101	整整半个世纪
+T11	Time-Implicit 102 103	现
+T12	Thing-Nominal 110 112	须发
+T13	Person-Pronoun 152 153	我
+R4	Part-Whole Arg1:T12 Arg2:T13	
+T14	Time-Implicit 155 157	今年
+T15	Location-Nominal 157 159	家中
+T16	Time-Explicit 166 175	2011年12月份
+T17	Location-Name 176 179	牛头镇
+T18	Location-Name 181 189	双王城生态经济区
+R5	Part-Whole Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 198 199	你
+*	Coreference T19 T13
+T20	Person-Pronoun 218 219	我
+T21	Person-Pronoun 235 236	我
+T22	Thing-Nominal 250 257	家乡的河沟湾塘
+T23	Thing-Nominal 241 248	家乡的田园风光
+T24	Location-Nominal 237 239	家乡
+R6	Located Arg1:T23 Arg2:T24	
+R7	Located Arg1:T22 Arg2:T24	
+T25	Person-Nominal 259 266	家乡的父老乡亲
+T26	Thing-Nominal 268 275	家乡的一草一木
+R8	Located Arg1:T26 Arg2:T24	
+T27	Thing-Nominal 280 293	家乡淀湖里的那片万亩芦苇荡
+R9	Located Arg1:T27 Arg2:T24	
+T28	Time-Implicit 296 313	红色十月、金秋送爽、芦花飘香的季节
+T29	Person-Pronoun 314 315	我
+T30	Thing-Nominal 318 319	车
+T31	Thing-Nominal 345 348	芦苇荡
+T32	Location-Name 335 337	淀湖
+R10	Located Arg1:T31 Arg2:T32	
+T33	Person-Nominal 326 329	亲人们
+*	Coreference T31 T27 T55 T70
+T34	Location-Nominal 320 321	家
+T35	Thing-Nominal 350 353	芦苇荡
+T36	Time-Implicit 350 355;356 378	芦苇荡还是 一望无垠、随风起伏、绿浪浩荡映入我眼帘的瞬间
+T37	Thing-Nominal 373 375	眼帘
+T38	Person-Pronoun 372 373	我
+R11	Part-Whole Arg1:T37 Arg2:T38	
+T39	Person-Pronoun 385 386	我
+T40	Location-Name 392 396	淀湖景区
+T41	Location-Nominal 410 414	所有景点
+R12	Part-Whole Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 418 421	芦苇荡
+R13	Located Arg1:T42 Arg2:T40	
+T43	Thing-Nominal 482 484	大门
+T44	Time-Implicit 497 499	儿时
+T45	Thing-Nominal 502 505	芦苇荡
+T46	Person-Pronoun 516 517	我
+T47	Metric 522 529	一桩桩、一件件
+T48	Thing-Nominal 506 510	所见所闻
+T49	Time-Implicit 531 533	昨天
+T50	Location-Nominal 548 550	老家
+T51	Person-Pronoun 553 554	我
+T52	Location-Nominal 569 571	家乡
+T53	Thing-Nominal 561 563	散文
+T54	Metric 559 561	一篇
+T55	Thing-Nominal 571 576	万亩芦苇荡
+R14	Located Arg1:T55 Arg2:T52	
+T56	Thing-Nominal 586 588	芦苇
+R15	Part-Whole Arg1:T56 Arg2:T55	
+T57	Time-Implicit 582 584	如今
+T58	Time-Implicit 586 591	芦苇收获时
+T59	Location-Nominal 592 594	家乡
+T60	Thing-Nominal 599 601	芦苇
+T61	Thing-Nominal 607 608;609 611	催 化剂
+T62	Person-Pronoun 613 614	我
+T63	Thing-Nominal 626 629	芦苇荡
+T64	Thing-Nominal 634 636	火山
+T65	Location-Nominal 648 650	书房
+T66	Thing-Nominal 653 656	写字台
+R16	Located Arg1:T66 Arg2:T65	
+R17	Ownership Arg1:T62 Arg2:T66	
+T67	Thing-Nominal 665 666	纸
+R18	Ownership Arg1:T62 Arg2:T65	
+R19	Use Arg1:T62 Arg2:T67	
+T68	Thing-Nominal 670 671	笔
+R20	Use Arg1:T62 Arg2:T68	
+T69	Person-Pronoun 672 673	我
+T70	Thing-Nominal 674 681	家乡万亩芦苇荡
+T71	Thing-Nominal 682 686	肺腑之言
+T72	Location-Nominal 695 697	纸上
+R21	Located Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 690 691	笔
+T74	Person-Pronoun 699 700	我
+T75	Thing-Nominal 701 708	家乡万亩芦苇荡
+T76	Thing-Pronoun 711 712	她
+*	Coreference T76 T75 T87 T97
+T77	Location-Name 745 747	淀湖
+T78	Time-Implicit 748 750	随之
+T79	Thing-Nominal 753 760	这水生植物芦苇
+R22	Part-Whole Arg1:T79 Arg2:T75	
+T80	Location-Name 761 763	淀湖
+T81	Time-Implicit 766 775	哪朝哪代，哪年哪月
+T82	Person-Pronoun 776 777	我
+T83	Thing-Nominal 784 786	史书
+T84	Time-Explicit 789 793	征和四年
+T85	Person-Nominal 794 797	汉武帝
+T86	Location-Nominal 800 803	淀湖畔
+R23	Part-Whole Arg1:T86 Arg2:T80	
+T87	Thing-Nominal 818 823	家乡芦苇荡
+T88	Time-Implicit 836 853	那炮火连天、硝烟弥漫的革命战争年代
+T89	Time-Explicit 854 858	八年抗日
+T90	Location-Nominal 859 861	家乡
+T91	Person-Name 864 871	抗日英雄马保三
+T92	Person-Pronoun 872 873	他
+*	Coreference T92 T91
+T93	Thing-Nominal 874 875	马
+T94	Thing-Nominal 879 880	竿
+T95	Abstract 887 894	牛头镇武装起义
+T96	Organization-Name 899 917	国民革命军第八路军鲁东游击队第八支队
+T97	Thing-Nominal 920 925	淀湖芦苇荡
+T98	Thing-Nominal 927 928	营
+T99	Thing-Nominal 929 930	寨
+T100	Location-Name 933 935	寿光
+T102	Person-Nominal 948 952	芦荡火种
+T103	Person-Nominal 953 955	他们
+R24	Ownership Arg1:T103 Arg2:T96	
+T104	Location-Nominal 957 961	芦苇荡中
+T105	Abstract 963 974	“八卦阵”、“迷魂阵”
+T106	Person-Nominal 981 985	日本鬼子
+T107	Thing-Nominal 1003 1011	一曲曲英雄的赞歌
+T108	Person-Nominal 1013 1017	芦荡火种
+*	Coreference T103 T102
+T101	Location-Name 1030 1034	齐鲁大地
+T109	Time-Explicit 1044 1050	三年解放战争
+T110	Person-Nominal 1051 1057	国民党反动派
+T111	Organization-Nominal 1051 1062	国民党反动派的正规部队
+R25	Ownership Arg1:T110 Arg2:T111	
+T112	Person-Nominal 1064 1066	土顽
+T113	Location-Name 1071 1074	牛头镇
+T114	Thing-Nominal 1082 1085	芦苇荡
+T115	Person-Nominal 1087 1089	军民
+T116	Thing-Nominal 1090 1093	掩避所
+T117	Person-Nominal 1094 1097	保护神
+T118	Organization-Nominal 1106 1109	党组织
+T119	Thing-Nominal 1087 1097	军民的掩避所和保护神
+*	Coreference T119 T114
+T120	Thing-Nominal 1112 1115	芦苇荡
+T121	Location-Nominal 1112 1116	芦苇荡中
+T122	Organization-Nominal 1118 1130	兵工厂、被服厂、野战医院
+T123	Thing-Nominal 1136 1139;1140 1143	家乡的 芦苇荡
+*	Coreference T123 T120
+T124	Person-Nominal 1168 1172	千秋万代
+T125	Person-Nominal 1174 1176	人们
+T126	Thing-Nominal 1179 1182	芦苇荡
+T127	Thing-Name 1191 1200;1201 1204	牛头镇抗日武装起义 纪念碑
+T128	Location-Nominal 1212 1218	一侧的纪念馆
+R26	Near Arg1:T127 Arg2:T128	
+T129	Location-Pronoun 1237 1239	这里
+T130	Location-Nominal 1255 1257	家乡
+T131	Person-Pronoun 1253 1254	我
+T132	Location-Nominal 1255 1262	家乡万亩芦苇荡
+T133	Location-Pronoun 1265 1266	她
+*	Coreference T133 T132 T129 T130
+T134	Location-Nominal 1286 1288	家乡
+T135	Location-Name 1293 1295	寿光
+T136	Thing-Nominal 1255 1262	家乡万亩芦苇荡
+R27	Located Arg1:T136 Arg2:T135	
+T137	Thing-Nominal 1297 1299	芦苇
+T138	Thing-Nominal 1318 1319	水
+T139	Thing-Nominal 1324 1327	好芦苇
+R28	General-Special Arg1:T137 Arg2:T139	
+T140	Location-Name 1345 1357;1358 1372	湖中流水的淄河、跃龙河、 王钦河、织女河、张僧河、阳河
+T141	Thing-Nominal 1384 1386	芦苇
+T142	Time-Implicit 1390 1393	多年来
+T143	Person-Nominal 1393 1396	村两委
+T144	Person-Nominal 1410 1413	村民们
+*	Coreference T144 T143
+T145	Thing-Nominal 1415 1417	芦苇
+T146	Person-Nominal 1431 1434	家乡人
+T147	Time-Implicit 1443 1445	今后
+T148	Thing-Nominal 1451 1454	芦苇荡
+*	Coreference T148 T136
+T149	Abstract 1460 1464	南水北调
+T150	Thing-Nominal 1464 1467	长江水
+T151	Thing-Nominal 1475 1478	芦苇荡
+T152	Thing-Nominal 1480 1482	水源
+R29	General-Special Arg1:T152 Arg2:T150	
+T153	Thing-Nominal 1493 1495	芦苇
+T154	Thing-Nominal 1506 1508	茎杆
+R30	Part-Whole Arg1:T154 Arg2:T153	
+T155	Thing-Pronoun 1509 1510	它
+*	Coreference T155 T154
+T156	Person-Nominal 1542 1544	农家
+T157	Person-Nominal 1560 1562	人们
+T158	Thing-Nominal 1570 1576	这些芦苇产品
+T159	Thing-Pronoun 1576 1579	大部分
+R31	Part-Whole Arg1:T159 Arg2:T158	
+T160	Person-Nominal 1607 1610	家乡人
+T161	Location-Nominal 1612 1614	城市
+T162	Thing-Nominal 1621 1623	苇板
+T163	Thing-Nominal 1626 1630	淀湖芦苇
+R32	General-Special Arg1:T153 Arg2:T163	
+T164	Location-Nominal 1651 1652	湖
+T165	Location-Name 1626 1628	淀湖
+*	Coreference T164 T165
+T166	Organization-Nominal 1658 1663	苇板加工厂
+T167	Thing-Nominal 1671 1673	苇板
+R33	Create Arg1:T166 Arg2:T167	
+T168	Thing-Nominal 1681 1682	钱
+T169	Thing-Nominal 1696 1698	茎杆
+T170	Thing-Nominal 1688 1690	芦苇
+T171	Thing-Nominal 1700 1702	根茎
+R34	Part-Whole Arg1:T169 Arg2:T170	
+R35	Part-Whole Arg1:T171 Arg2:T170	
+T172	Time-Implicit 1707 1718	那个物质异常匮乏的年代
+T173	Thing-Nominal 1719 1731	刚抽芽时刨出来的白白芦根
+T174	Thing-Nominal 1729 1731	芦根
+R36	Part-Whole Arg1:T174 Arg2:T170	
+T175	Person-Pronoun 1733 1734	我
+T176	Person-Nominal 1735 1739	小伙伴们
+R37	Social Arg1:T176 Arg2:T175	
+T177	Thing-Nominal 1745 1747	糖果
+T178	Thing-Nominal 1745 1748;1749 1753	糖果一 般的珍品
+*	Coreference T178 T173
+T179	Thing-Nominal 1754 1756	叶子
+R38	Part-Whole Arg1:T179 Arg2:T170	
+T180	Thing-Nominal 1757 1759	粽子
+T181	Thing-Nominal 1757 1765	粽子的最佳包装物
+R39	Part-Whole Arg1:T181 Arg2:T180	
+*	Coreference T181 T179
+T182	Thing-Nominal 1773 1781	自养自的上好肥料
+T183	Thing-Nominal 1782 1784	芦苇
+T184	Thing-Pronoun 1789 1792	不烂的
+T185	Thing-Nominal 1805 1807	芦花
+R40	Part-Whole Arg1:T185 Arg2:T183	
+T186	Time-Implicit 1810 1811	季
+T187	Thing-Pronoun 1820 1821	它
+*	Coreference T187 T185
+T188	Thing-Nominal 1830 1842	芦花鞋、芦花帽、芦花手套
+T189	Thing-Nominal 1823 1829	越冬蔬菜韭黄
+T190	Time-Implicit 1843 1844	现
+T191	Time-Implicit 1855 1870;1871 1877	在那尚未解决温饱、不能讲时尚的 一穷二白年代
+T192	Thing-Pronoun 1879 1881	它们
+*	Coreference T192 T188
+T193	Person-Nominal 1883 1892	我们处在这一代的人
+T194	Time-Implicit 1896 1901	严寒的冬天
+T195	Time-Implicit 1910 1913	历年来
+T196	Location-Nominal 1913 1915	家乡
+T197	Thing-Nominal 1916 1918	芦苇
+T198	Metric 1933 1940	1000多万斤
+T199	Metric 1957 1962	一千多万元
+T200	Person-Nominal 1953 1955	村民
+T201	Abstract 1931 1933	产量
+T202	Time-Implicit 1929 1931	每年
+T203	Person-Nominal 1967 1970;1971 1972	家乡人 民
+T204	Thing-Nominal 1974 1992	“摇钱树”、“聚宝盆”和“天然银行”
+*	Coreference T204 T197
+T205	Location-Nominal 1994 2001	家乡万亩芦苇荡
+T206	Location-Nominal 2003 2013	寿光市最大的天然湿地
+*	Coreference T205 T206 T209 T210 T211 T215 T214
+T207	Location-Nominal 2017 2019	本市
+T208	Location-Name 2003 2006	寿光市
+*	Coreference T207 T208
+T209	Location-Name 2044 2054;2055 2058	“寿光之肾”和“寿光 之肺”
+T210	Location-Pronoun 2059 2061	这里
+T211	Location-Nominal 2062 2067	鸟类的乐园
+T212	Thing-Nominal 2072 2100	国家重点保护的野鸡、野鸭、白鹭、大雁、天鹅等二十多种鸟类
+T213	Metric 2094 2098	二十多种
+T214	Location-Pronoun 2104 2106	这里
+T215	Location-Nominal 2107 2112	昆虫的天堂
+T216	Thing-Nominal 2062 2064	鸟类
+R41	General-Special Arg1:T216 Arg2:T212	
+T217	Thing-Nominal 2120 2122	昆虫
+T218	Thing-Nominal 2145 2147	昆虫
+T219	Thing-Nominal 2145 2154	昆虫中的佼佼者蝈蝈
+R42	General-Special Arg1:T218 Arg2:T219	
+T220	Thing-Nominal 2167 2176;2177 2179	昆虫世界的轻音乐演 奏家
+*	Coreference T220 T219 T221
+T221	Thing-Nominal 2182 2184	蝈蝈
+T222	Thing-Nominal 2199 2202	母蝈蝈
+R43	General-Special Arg1:T221 Arg2:T222	
+T223	Thing-Nominal 2207 2215	高梁楷编制的宠子
+T224	Thing-Nominal 2220 2223	南瓜花
+T225	Thing-Nominal 2225 2227	蝈蝈
+T226	Thing-Nominal 2225 2230	蝈蝈的主食
+*	Coreference T224 T226
+T227	Metric 2197 2199	一只
+T228	Metric 2233 2235	童年
+T229	Person-Pronoun 2243 2244	我
+T230	Thing-Nominal 2245 2252	家乡万亩芦苇荡
+T231	Thing-Pronoun 2255 2256	她
+*	Coreference T231 T230 T234
+T232	Location-Name 2283 2285	江南
+T233	Location-Name 2286 2288	江南
+T234	Thing-Nominal 2290 2296	家乡的芦苇荡
+T235	Time-Implicit 2302 2306	春夏秋冬
+T236	Time-Implicit 2307 2309	四季
+*	Coreference T236 T235
+T237	Thing-Pronoun 2317 2318	她
+T238	Time-Implicit 2329 2333	什么时侯
+T239	Person-Nominal 2379 2381	游客
+T240	Location-Nominal 2361 2363	湿地
+T241	Time-Implicit 2394 2396	春天
+T242	Thing-Nominal 2397 2405	沉睡了一冬的芦苇
+T243	Thing-Nominal 2409 2413	春风春雨
+T244	Location-Nominal 2420 2422	湖底
+R44	Located Arg1:T242 Arg2:T244	
+T245	Thing-Nominal 2426 2431	嫩嫩的黄芽
+R45	Part-Whole Arg1:T245 Arg2:T242	
+T246	Thing-Nominal 2433 2439	齐刷刷的锥子
+T247	Thing-Nominal 2452 2454;2455 2464	一个 个可爱的绿色小精灵
+T248	Metric 2465 2467	几日
+T249	Metric 2479 2481	一片
+T250	Metric 2473 2475	尺把
+T251	Thing-Nominal 2484 2495	一床硕大无朋的绿色地毯
+T252	Time-Implicit 2522 2524	夏天
+T253	Thing-Nominal 2522 2528	夏天的芦苇荡
+R46	General-Special Arg1:T234 Arg2:T253	
+T254	Thing-Nominal 2574 2575	天
+T255	Thing-Nominal 2578 2579	水
+T256	Thing-Nominal 2585 2589	绿色海洋
+T257	Metric 2583 2585	一个
+T258	Thing-Nominal 2622 2624	鱼儿
+T259	Location-Nominal 2625 2629	湖边水中
+R47	Located Arg1:T258 Arg2:T259	
+T260	Thing-Nominal 2639 2641	水鸟
+T261	Location-Nominal 2642 2643;2644 2647	芦 苇丛中
+R48	Located Arg1:T260 Arg2:T261	
+T262	Thing-Nominal 2663 2664	诗
+T263	Thing-Nominal 2665 2666	画
+T264	Thing-Nominal 2686 2692	齐身的芦苇荡
+T265	Thing-Nominal 2695 2698	芦苇丛
+T266	Person-Nominal 2780 2782	人们
+T267	Time-Implicit 2813 2814	现
+T268	Thing-Nominal 2819 2822	芦苇荡
+T269	Time-Implicit 2848 2850	秋天
+T270	Thing-Nominal 2851 2853	芦苇
+T271	Thing-Nominal 2851 2856	芦苇的茎叶
+R49	Part-Whole Arg1:T271 Arg2:T270	
+T272	Thing-Nominal 2862 2863	穗
+T273	Thing-Nominal 2864 2865	花
+R50	Part-Whole Arg1:T272 Arg2:T270	
+*	Coreference T273 T270 T274
+T274	Thing-Nominal 2866 2868	芦花
+T275	Thing-Nominal 2875 2877	苇杆
+R51	Part-Whole Arg1:T275 Arg2:T270	
+T276	Person-Nominal 2886 2894	像鹤发童颜的老人
+T277	Location-Nominal 2897 2902	广袤的原野
+T278	Thing-Nominal 2904 2906	浓霜
+T279	Thing-Nominal 2910 2912	万物
+T280	Thing-Nominal 2913 2915	秋风
+T281	Thing-Nominal 2917 2919	苇叶
+R52	Part-Whole Arg1:T281 Arg2:T270	
+T282	Thing-Nominal 2922 2926	晚秋阳光
+T283	Thing-Nominal 2931 2933	苇杆
+T284	Thing-Nominal 2941 2943	芦花
+T285	Location-Nominal 2962 2968	一根根金条上
+T286	Thing-Nominal 2971 2976	一个个银穗
+R53	Located Arg1:T286 Arg2:T285	
+T287	Thing-Nominal 2980 2982	金银
+T288	Location-Nominal 2977 2980	满湖“
+R54	Located Arg1:T287 Arg2:T288	
+T289	Person-Nominal 2984 2989	家乡的人们
+*	Coreference T289 T203 T332 T338
+T290	Time-Implicit 3001 3003	冬天
+T291	Thing-Nominal 3004 3005	雪
+T292	Thing-Nominal 3009 3011	北风
+T293	Thing-Nominal 3014 3017	芦苇荡
+T294	Thing-Nominal 3022 3026	千军万马
+T295	Thing-Nominal 3035 3037	芦花
+T296	Location-Nominal 3029 3031	疆场
+T297	Location-Nominal 3033 3035	风中
+R55	Located Arg1:T295 Arg2:T297	
+T298	Thing-Nominal 3043 3047	鹅毛大雪
+T299	Person-Nominal 3059 3061	人们
+T300	Time-Implicit 3080 3082	冬季
+T301	Time-Implicit 3083 3090	芦苇收获的季节
+*	Coreference T301 T300
+T302	Person-Nominal 3098 3104	忙碌的割苇人
+T303	Location-Nominal 3091 3097	“雪中”处处
+T304	Time-Implicit 3108 3110	冬天
+T305	Person-Nominal 3121 3123	他们
+*	Coreference T305 T302
+T306	Thing-Nominal 3135 3140;3141 3142	古铜色的脸 上
+R56	Part-Whole Arg1:T306 Arg2:T305	
+T307	Person-Nominal 3145 3149	累了的人
+R57	Part-Whole Arg1:T307 Arg2:T305	
+T308	Thing-Nominal 3151 3158	树皮一样的手掌
+R58	Part-Whole Arg1:T308 Arg2:T307	
+T309	Thing-Nominal 3160 3161	腰
+R59	Part-Whole Arg1:T309 Arg2:T307	
+T310	Thing-Nominal 3163 3168	结实的腰板
+R60	Part-Whole Arg1:T310 Arg2:T307	
+T311	Thing-Nominal 3181 3183	脖子
+R61	Part-Whole Arg1:T311 Arg2:T307	
+T312	Thing-Nominal 3181 3187	脖子上的毛巾
+R62	Use Arg1:T307 Arg2:T312	
+T313	Thing-Nominal 3193 3195	额头
+T314	Thing-Nominal 3197 3199	脖颈
+R63	Part-Whole Arg1:T313 Arg2:T307	
+R64	Part-Whole Arg1:T314 Arg2:T307	
+T315	Time-Implicit 3200 3201;3202 3203	而 后
+T316	Location-Nominal 3204 3207	篮子里
+T317	Thing-Nominal 3204 3206	篮子
+T318	Thing-Nominal 3209 3211	水瓶
+R65	Located Arg1:T318 Arg2:T316	
+T319	Thing-Nominal 3220 3224	清洌的水
+T320	Thing-Nominal 3226 3228	嘴角
+R66	Part-Whole Arg1:T320 Arg2:T307	
+T321	Thing-Nominal 3233 3235	手背
+R67	Part-Whole Arg1:T321 Arg2:T307	
+T322	Thing-Nominal 3254 3259	一捆捆芦苇
+T323	Thing-Nominal 3263 3268	一个个山丘
+R68	Part-Whole Arg1:T322 Arg2:T323	
+T324	Person-Pronoun 3277 3279	他们
+T325	Metric 3310 3312	一天
+T326	Person-Pronoun 3318 3320	他们
+T327	Person-Nominal 3389 3392	水晶人
+*	Coreference T327 T326
+T328	Thing-Nominal 3422 3424	脑袋
+T329	Thing-Nominal 3425 3427	脖子
+R69	Part-Whole Arg1:T328 Arg2:T326	
+R70	Part-Whole Arg1:T329 Arg2:T326	
+T330	Thing-Nominal 3452 3455	九头牛
+T331	Metric 3452 3454	九头
+T332	Person-Nominal 3463 3467	老区人民
+T333	Person-Pronoun 3472 3473	我
+T334	Thing-Nominal 3483 3484	湖
+T335	Thing-Nominal 3486 3487	苇
+T336	Person-Nominal 3489 3490	人
+T337	Thing-Nominal 3494 3501	家乡万亩芦苇荡
+T338	Person-Nominal 3502 3506	家乡人民
+T339	Person-Nominal 3515 3522	我们的祖祖辈辈
+T340	Person-Nominal 3523 3527	家乡人民
+T341	Thing-Nominal 3528 3531	芦苇荡
+*	Coreference T341 T337 T345
+T342	Time-Implicit 3555 3557	现在
+T343	Time-Implicit 3560 3562	未来
+T344	Person-Nominal 3580 3584	家乡人民
+T345	Thing-Nominal 3591 3597	家乡的芦苇荡
+T346	Thing-Nominal 3599 3600	根
+T347	Thing-Nominal 3601 3602	叶
+T348	Person-Nominal 3616 3620	家乡人民
+T349	Time-Implicit 3629 3636	更加美好的明天
+T350	Abstract 3567 3573	生态文明建设

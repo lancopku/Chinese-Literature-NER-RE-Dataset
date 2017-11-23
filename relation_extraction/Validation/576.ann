@@ -1,0 +1,235 @@
+T1	Person-Pronoun 0 1	我
+T2	Person-Nominal 6 8	自己
+T3	Person-Nominal 9 11	父母
+*	Coreference T1 T2
+R1	Family Arg1:T1 Arg2:T3	
+T4	Person-Pronoun 12 13	我
+T5	Person-Nominal 16 18	孤儿
+*	Coreference T4 T5
+T6	Person-Name 20 24	慧净师父
+T7	Person-Pronoun 27 28	我
+T8	Location-Name 30 35	天清寺山门
+T9	Person-Nominal 41 45	师兄弟们
+R2	Social Arg1:T7 Arg2:T9	
+T10	Location-Nominal 47 49	树巅
+T11	Location-Nominal 50 52	山下
+T12	Location-Nominal 52 54	家里
+R3	Near Arg1:T12 Arg2:T11	
+T13	Person-Pronoun 61 62	我
+T14	Person-Nominal 74 76	父母
+T15	Person-Nominal 77 79	孩子
+R4	Family Arg1:T15 Arg2:T14	
+T16	Person-Pronoun 85 86	我
+T17	Location-Name 89 92	天清寺
+T18	Location-Nominal 94 98	自己的家
+*	Coreference T17 T18
+T19	Person-Name 102 106	慧净师父
+T20	Person-Nominal 108 112	最亲的人
+*	Coreference T19 T20
+T21	Person-Name 113 117	慧净师父
+T22	Person-Pronoun 122 124	我们
+T23	Person-Pronoun 132 133	我
+T24	Person-Pronoun 140 141	他
+*	Coreference T24 T21
+T25	Time-Explicit 145 149	十岁那年
+T26	Person-Pronoun 150 151	我
+T27	Time-Implicit 159 161	夜里
+T28	Person-Pronoun 162 164	我们
+T29	Person-Nominal 164 170	几个师兄弟们
+*	Coreference T28 T29
+T30	Location-Nominal 175 177	禅房
+T31	Person-Pronoun 180 181	我
+T32	Time-Implicit 186 190	每天晚上
+T33	Location-Nominal 197 199	厕所
+T34	Location-Nominal 200 202	禅房
+T35	Location-Nominal 213 215	小径
+T36	Person-Pronoun 224 225	我
+T37	Person-Name 229 233	师兄悟虚
+R5	Social Arg1:T36 Arg2:T37	
+T38	Person-Pronoun 234 235	我
+T39	Location-Nominal 239 241	茅厕
+T40	Person-Name 242 246	师兄悟虚
+T41	Person-Pronoun 259 260	他
+*	Coreference T41 T40
+T42	Time-Implicit 276 280	一天深夜
+T43	Person-Pronoun 281 282	我
+T44	Person-Name 283 285	悟虚
+T45	Person-Pronoun 298 299	他
+*	Coreference T45 T44
+T46	Location-Nominal 310 312	茅厕
+T47	Location-Nominal 341 343	厕所
+*	Coreference T47 T46
+T48	Location-Nominal 349 355	禅房的拐角处
+T49	Location-Nominal 360 362	禅房
+T50	Location-Nominal 363 364	墙
+R6	Part-Whole Arg1:T50 Arg2:T49	
+T51	Person-Pronoun 372 373	我
+T52	Location-Nominal 394 396	禅房
+T53	Person-Pronoun 398 399	我
+T54	Person-Nominal 408 412	师兄弟们
+T55	Person-Name 417 419	悟虚
+T56	Person-Pronoun 420 421	我
+T57	Person-Pronoun 427 428	我
+T58	Person-Pronoun 447 448	我
+T59	Location-Nominal 450 452	禅房
+T60	Location-Nominal 453 455	墙面
+R7	Part-Whole Arg1:T60 Arg2:T59	
+T61	Person-Pronoun 461 462	我
+T63	Person-Name 468 470	悟虚
+T64	Location-Nominal 472 474	寺院
+T62	Person-Pronoun 485 486	你
+T65	Person-Name 508 510	悟虚
+T66	Person-Pronoun 513 514	他
+*	Coreference T66 T65
+T67	Person-Pronoun 517 519	我们
+T68	Person-Nominal 519 522	师兄弟
+*	Coreference T67 T68
+T69	Location-Nominal 527 531	禅房墙面
+T70	Location-Nominal 532 535	墙面上
+T71	Person-Pronoun 561 563	我们
+T72	Person-Name 572 574	悟虚
+T73	Person-Pronoun 599 600	他
+T74	Person-Nominal 611 613	大家
+T75	Person-Pronoun 615 617	我们
+*	Coreference T75 T74 T76
+T76	Person-Nominal 622 624	自己
+T77	Thing-Nominal 630 632	月亮
+T78	Thing-Nominal 583 585	明月
+T79	Thing-Nominal 592 593	云
+R8	Located Arg1:T78 Arg2:T79	
+T80	Location-Nominal 644 648	禅房墙面
+T81	Thing-Nominal 660 662	月亮
+T82	Person-Pronoun 678 680	我们
+T83	Person-Pronoun 685 687	我们
+T84	Location-Nominal 689 691	墙壁
+T85	Person-Pronoun 705 706	我
+T86	Person-Nominal 711 715	师兄弟们
+T87	Person-Pronoun 718 719	我
+T88	Person-Nominal 720 722	自己
+*	Coreference T87 T88 T89
+T89	Person-Nominal 737 740	胆小鬼
+T90	Person-Pronoun 742 743	我
+T91	Person-Nominal 752 754	自己
+*	Coreference T90 T91
+T92	Person-Pronoun 780 782	我们
+T93	Time-Implicit 813 815	那时
+T94	Person-Nominal 839 841	自己
+T95	Person-Pronoun 849 850	你
+T96	Person-Pronoun 879 880	你
+T97	Person-Nominal 891 893	自己
+*	Coreference T96 T97
+T98	Person-Pronoun 911 912	你
+T99	Person-Pronoun 902 903	我
+T100	Person-Nominal 917 919	自己
+*	Coreference T98 T100
+T101	Person-Pronoun 937 938	你
+T102	Person-Pronoun 948 949	你
+T103	Person-Nominal 955 957	自己
+*	Coreference T102 T103
+T104	Person-Pronoun 971 973	我们
+T105	Person-Nominal 977 979	自己
+*	Coreference T104 T105
+T106	Person-Pronoun 988 990	我们
+T107	Person-Pronoun 1003 1005	我们
+T108	Person-Pronoun 1015 1017	我们
+T109	Person-Pronoun 1033 1035	我们
+T110	Time-Implicit 1059 1063	一天夜里
+T111	Person-Pronoun 1064 1065	我
+T112	Person-Name 1067 1071	慧净师父
+T113	Location-Nominal 1072 1074	禅房
+T114	Person-Name 1076 1080	慧净师父
+T115	Thing-Nominal 1082 1084	油灯
+T116	Thing-Nominal 1093 1095	经书
+T117	Person-Name 1096 1100	慧净师父
+T118	Person-Pronoun 1124 1125	我
+T119	Person-Name 1136 1140	慧净师父
+T120	Time-Implicit 1141 1143	每天
+T121	Thing-Nominal 1148 1150	经书
+R9	Social Arg1:T111 Arg2:T112	
+T122	Thing-Nominal 1159 1161	经书
+T123	Person-Name 1162 1166	慧净师父
+T124	Person-Pronoun 1185 1186	我
+T125	Person-Name 1188 1192	慧净师父
+T126	Thing-Nominal 1198 1200	油灯
+T127	Person-Name 1201 1205	慧净师父
+T128	Location-Nominal 1211 1213	房间
+T129	Location-Nominal 1214 1216;1217 1218	墙壁 上
+R10	Part-Whole Arg1:T129 Arg2:T128	
+T130	Person-Pronoun 1230 1231	我
+T131	Person-Nominal 1234 1236	师父
+T132	Person-Pronoun 1237 1238	你
+*	Coreference T132 T131 T134
+T133	Location-Nominal 1242 1244	房间
+T134	Person-Name 1255 1259	慧净师父
+T135	Location-Nominal 1267 1269	房间
+T136	Thing-Nominal 1275 1277	油灯
+T137	Location-Nominal 1283 1286	墙壁上
+T138	Person-Pronoun 1298 1299	我
+T139	Person-Name 1304 1308	慧净师父
+T140	Person-Nominal 1318 1320	自己
+T141	Person-Pronoun 1334 1335	你
+*	Coreference T141 T140
+T142	Person-Pronoun 1345 1346	你
+T143	Person-Pronoun 1350 1351	你
+T144	Person-Pronoun 1360 1361	你
+T145	Person-Pronoun 1375 1376	你
+T146	Person-Nominal 1377 1379	自己
+*	Coreference T145 T146
+T147	Person-Pronoun 1399 1400	我
+T148	Person-Name 1402 1406	慧净师父
+T149	Person-Name 1414 1418	慧净师父
+T150	Location-Nominal 1424 1426	地面
+T151	Person-Pronoun 1433 1434	我
+T152	Time-Implicit 1434 1437	小时候
+T153	Person-Pronoun 1447 1448	我
+T154	Person-Name 1450 1454	慧净师父
+T155	Person-Name 1470 1474	慧净师父
+T156	Person-Name 1486 1490	慧净师父
+T157	Person-Name 1501 1505	慧净师父
+T158	Person-Name 1515 1517	悟觉
+T159	Person-Pronoun 1518 1519	你
+T160	Person-Pronoun 1508 1509	我
+*	Coreference T160 T158 T159
+T161	Person-Pronoun 1525 1526	我
+T162	Person-Name 1534 1538	慧净师父
+T163	Person-Pronoun 1549 1550	我
+T164	Person-Nominal 1552 1554	师父
+T165	Person-Pronoun 1554 1555	你
+*	Coreference T165 T164 T162
+T166	Person-Name 1582 1586	慧净师父
+T167	Thing-Nominal 1616 1618	月亮
+T168	Person-Pronoun 1619 1620	你
+T169	Person-Pronoun 1649 1650	你
+T170	Person-Pronoun 1660 1661	你
+T171	Thing-Pronoun 1663 1664	它
+T172	Person-Name 1715 1719	慧净师父
+T173	Person-Pronoun 1723 1724	我
+T174	Person-Name 1725 1727	悟觉
+T175	Person-Pronoun 1728 1729	你
+T176	Person-Pronoun 1740 1741	你
+*	Coreference T174 T173 T175
+T177	Person-Pronoun 1746 1747	我
+T178	Location-Nominal 1764 1766	地面
+T179	Person-Name 1779 1783	慧净师父
+T180	Person-Pronoun 1789 1790	你
+T181	Location-Nominal 1792 1795	一堵墙
+T182	Person-Pronoun 1800 1801	你
+T183	Person-Pronoun 1809 1810	你
+T184	Person-Pronoun 1816 1817	我
+T185	Person-Nominal 1831 1833	自己
+*	Coreference T184 T185
+T186	Person-Name 1839 1843	慧净师父
+T187	Person-Pronoun 1845 1846	我
+T188	Person-Pronoun 1848 1849	你
+T189	Person-Nominal 1851 1853	自己
+*	Coreference T187 T188 T189
+T190	Person-Pronoun 1866 1867	我
+T191	Person-Name 1876 1880	慧净师父
+T192	Person-Pronoun 1887 1888	你
+T193	Person-Pronoun 1894 1895	你
+T194	Person-Pronoun 1903 1904	你
+T195	Location-Nominal 1908 1911	一堵墙
+T196	Person-Nominal 1933 1935	自己
+T197	Person-Nominal 1938 1940	自己
+T198	Person-Pronoun 1953 1954	你
+T199	Person-Pronoun 1964 1965	你

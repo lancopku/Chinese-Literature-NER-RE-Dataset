@@ -1,0 +1,110 @@
+T1	Time-Implicit 0 2	今夜
+T2	Person-Pronoun 3 4	我
+T3	Location-Nominal 5 11	虚拟的空间里
+T4	Person-Pronoun 12 13	你
+R1	Social Arg1:T2 Arg2:T4	
+T5	Person-Pronoun 15 16	你
+T6	Location-Nominal 25 31	万水千山之间
+T7	Person-Pronoun 23 24	你
+T8	Location-Nominal 17 21	咫尺天涯
+T9	Location-Nominal 35 39	九霄云外
+T10	Person-Pronoun 33 34	你
+T11	Person-Pronoun 41 42	我
+T12	Person-Pronoun 45 46	你
+T13	Person-Pronoun 48 49	你
+T14	Person-Pronoun 52 53	你
+T15	Person-Pronoun 54 55	我
+T16	Thing-Nominal 76 77	帘
+T17	Thing-Nominal 78 80	西风
+T18	Person-Nominal 81 82	人
+T19	Thing-Nominal 83 85	黄花
+T20	Metric 65 67	三秋
+T21	Metric 58 60	一日
+T22	Thing-Nominal 97 99	眉头
+T23	Thing-Nominal 103 105	心头
+T24	Person-Pronoun 110 111	我
+T25	Person-Pronoun 117 118	你
+T26	Person-Pronoun 123 124	你
+T27	Person-Pronoun 126 127	我
+T28	Person-Pronoun 131 132	我
+T29	Thing-Nominal 131 135	我的文字
+R2	Create Arg1:T28 Arg2:T29	
+T30	Location-Nominal 144 148	你的梦乡
+T31	Person-Pronoun 144 145	你
+T32	Thing-Nominal 140 142	风儿
+T33	Person-Pronoun 153 154	你
+T34	Person-Pronoun 158 159	我
+T35	Person-Pronoun 160 161	你
+T36	Thing-Nominal 167 170	一首诗
+T37	Metric 167 169	一首
+T38	Person-Pronoun 172 173	我
+T39	Person-Pronoun 174 175	你
+T40	Person-Pronoun 181 182	我
+T41	Person-Pronoun 185 186	我
+T42	Person-Pronoun 187 188	你
+T43	Thing-Nominal 190 196	我暧昧的字眼
+R3	Create Arg1:T41 Arg2:T43	
+T44	Person-Pronoun 197 198	我
+T45	Person-Pronoun 208 209	我
+T46	Time-Implicit 223 229	最寂寞的时候
+T47	Person-Pronoun 232 233	你
+T48	Person-Pronoun 237 238	你
+T49	Thing-Nominal 245 249	一缕清风
+T50	Thing-Nominal 238 243	诗歌的韵律
+R4	Create Arg1:T48 Arg2:T50	
+T51	Thing-Nominal 251 255	我的发髻
+T52	Person-Pronoun 251 252	我
+R5	Part-Whole Arg1:T51 Arg2:T52	
+T53	Thing-Nominal 256 258	溪水
+T54	Person-Pronoun 266 267	你
+T55	Thing-Nominal 267 273	清亮亮的容颜
+R6	Part-Whole Arg1:T55 Arg2:T54	
+T56	Person-Pronoun 279 280	我
+T57	Thing-Nominal 279 282;283 284	我的日 历
+R7	Ownership Arg1:T56 Arg2:T57	
+T58	Person-Pronoun 287 288	我
+T59	Thing-Nominal 289 294	密密的秋雨
+R8	Use Arg1:T58 Arg2:T59	
+T60	Thing-Nominal 306 311	满地的黄花
+T61	Location-Nominal 319 321	心间
+T62	Time-Implicit 323 325	来时
+T63	Thing-Nominal 329 351	“两情若是久长时，又岂在朝朝暮暮”的缠绵诗句
+T64	Time-Implicit 352 354	去时
+T65	Thing-Nominal 378 381	一支烟
+T66	Metric 378 380	一支
+T67	Thing-Nominal 397 400	一杯酒
+T68	Metric 397 399	一杯
+T69	Person-Pronoun 411 413	自己
+*	Coreference T69 T56
+T70	Person-Pronoun 424 425	我
+T71	Person-Pronoun 432 433	我
+T72	Person-Pronoun 439 440	你
+T74	Person-Pronoun 443 444	你
+T73	Person-Pronoun 448 449	你
+T75	Person-Pronoun 451 452	我
+T76	Thing-Nominal 451 461	我苦心经营的暧昧文字
+R9	Create Arg1:T75 Arg2:T76	
+T77	Person-Pronoun 466 467	你
+T78	Thing-Nominal 473 475	罂粟
+T79	Person-Pronoun 481 482	你
+T80	Metric 497 499	一秋
+T81	Metric 510 514	一个世纪
+T82	Thing-Nominal 517 522	薄薄的屏幕
+T83	Thing-Nominal 525 529	万水千山
+T84	Person-Pronoun 541 542	你
+T85	Person-Pronoun 554 555	我
+T86	Thing-Nominal 559 561	弦月
+T87	Thing-Nominal 571 572	雪
+T88	Metric 592 594	一颗
+T89	Person-Pronoun 610 611	我
+T90	Person-Pronoun 618 619	你
+T91	Person-Pronoun 636 637	你
+T92	Thing-Nominal 651 653	笙箫
+T93	Person-Pronoun 660 661	我
+T94	Person-Pronoun 667 668	我
+T95	Thing-Nominal 675 676;677 678	烟 花
+T96	Thing-Nominal 688 690	流云
+T97	Time-Implicit 712 714	今夜
+T98	Person-Pronoun 715 716	我
+T99	Person-Pronoun 719 720	你
+T100	Person-Pronoun 730 731	你

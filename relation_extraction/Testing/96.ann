@@ -1,0 +1,359 @@
+T1	Location-Name 1 4	黄果树
+T2	Thing-Nominal 5 7	瀑布
+T3	Thing-Nominal 8 11	旅游车
+T4	Location-Name 12 14	安顺
+T5	Location-Name 20 22	龙宫
+T6	Location-Name 28 31	黄果树
+T7	Location-Nominal 33 35	瀑布
+T8	Metric 37 39	几里
+R1	Located Arg1:T2 Arg2:T1	
+T9	Thing-Nominal 41 42	车
+T10	Location-Nominal 44 50	固定的站口上
+R2	Located Arg1:T9 Arg2:T10	
+T13	Thing-Nominal 59 60	票
+T11	Person-Nominal 54 58	游人自己
+T12	Thing-Nominal 62 64	电梯
+T14	Thing-Nominal 65 71	河边的步行道
+T15	Thing-Nominal 72 75	步行道
+T16	Metric 76 79	一公里
+T17	Thing-Nominal 93 95	瀑布
+T18	Thing-Nominal 97 99	瀑布
+T19	Location-Nominal 100 102	岩上
+T20	Location-Name 109 114	三峡水电站
+T21	Thing-Nominal 146 149	发电机
+T22	Person-Nominal 160 161	人
+T23	Thing-Nominal 183 184	水
+T24	Location-Nominal 189 192	石岩上
+T25	Thing-Nominal 194 196	水花
+T26	Metric 202 205	几百米
+T27	Location-Nominal 207 211	一片天空
+T29	Thing-Nominal 223 225	瀑布
+T30	Time-Implicit 238 240	夏天
+T31	Thing-Nominal 249 251	衣服
+T32	Thing-Nominal 255 256	伞
+T33	Person-Nominal 260 265	体力差的人
+T34	Thing-Nominal 281 283	瀑布
+T35	Location-Nominal 281 288	瀑布两侧石岩上
+T36	Thing-Nominal 289 291	杂草
+R3	Located Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 310 312	瀑布
+T38	Person-Nominal 314 315	人
+T39	Thing-Nominal 323 325	瀑布
+T40	Location-Name 326 329	白水河
+T41	Metric 336 340	七十多米
+T42	Person-Nominal 342 344	人们
+T43	Person-Nominal 354 356	导游
+T44	Time-Implicit 358 362	每当夏天
+T45	Location-Nominal 415 419	崎岖山路
+T46	Thing-Nominal 427 429	瀑布
+T47	Location-Nominal 435 438	岩层中
+T48	Location-Name 447 450	水帘洞
+T49	Abstract 456 461	《西游记》
+T50	Location-Name 451 466	电视连续剧《西游记》里的水帘洞
+T51	Location-Name 478 481	水帘洞
+T52	Location-Nominal 483 488	瀑布的背面
+*	Coreference T52 T51
+T55	Metric 491 493	百米
+T56	Thing-Nominal 503 504	水
+T57	Location-Nominal 505 507	岩缝
+R4	Located Arg1:T56 Arg2:T57	
+T58	Location-Name 512 518	天生的水帘洞
+T59	Thing-Nominal 535 543	千奇百怪的钟乳石
+T60	Thing-Nominal 545 547	厅堂
+T61	Thing-Nominal 549 551	门套
+T62	Thing-Nominal 552 554	窗户
+T63	Thing-Nominal 555 557	石椅
+T64	Thing-Nominal 558 560	石凳
+T65	Person-Pronoun 593 594	你
+T66	Location-Name 598 600	琳宫
+T67	Person-Name 620 624	靖节先生
+T68	Time-Implicit 624 626	当年
+T69	Person-Pronoun 629 630	他
+*	Coreference T69 T67
+T70	Location-Nominal 629 636	他想象的桃花源
+T71	Organization-Name 649 655	徐霞客研究会
+T72	Person-Nominal 649 656;657 659	徐霞客研究会的 专家
+T73	Person-Name 661 664	徐先生
+T74	Time-Implicit 664 666	早年
+T75	Location-Nominal 676 678	洞中
+T76	Location-Nominal 681 683	洞外
+T77	Thing-Nominal 683 686	大瀑布
+T80	Thing-Nominal 722 724	鼙鼓
+T81	Thing-Nominal 727 729	兵马
+T82	Location-Nominal 722 739	鼙鼓冬冬、兵马交锋、浩浩荡荡的战场
+T83	Time-Implicit 740 743	出洞后
+T84	Location-Nominal 745 749	河边小路
+T85	Thing-Nominal 754 756	瀑布
+T86	Location-Nominal 763 765	河中
+T87	Thing-Nominal 862 868	悠悠的铁索桥
+T88	Person-Nominal 873 878	靓女帅哥们
+T89	Thing-Nominal 885 893	荡秋千似的铁索桥
+T90	Location-Nominal 897 902	来时的大路
+T91	Thing-Nominal 904 906	河山
+T92	Thing-Nominal 910 912	瀑布
+T93	Location-Name 917 919	赤水
+T94	Thing-Nominal 920 927	令人陶醉的瀑布
+T95	Location-Name 930 933	十丈瀑
+T96	Location-Pronoun 934 935	它
+*	Coreference T96 T95
+T97	Location-Name 937 942	凤溪河上游
+T98	Person-Pronoun 950 952	我们
+T99	Location-Nominal 953 955	公路
+T100	Thing-Nominal 960 964;965 970	安全而又 规范的栈道
+T101	Location-Nominal 982 984	河底
+T102	Location-Nominal 988 990	河面
+T103	Location-Nominal 993 996	观景路
+T104	Thing-Nominal 999 1003	嶙峋怪石
+T105	Thing-Nominal 1013 1015	树林
+T106	Location-Nominal 1011 1013	周围
+T107	Location-Nominal 1018 1020	两岸
+T108	Thing-Nominal 1020 1022	山崖
+R5	Located Arg1:T108 Arg2:T107	
+R6	Located Arg1:T105 Arg2:T106	
+T109	Thing-Nominal 1028 1030	瀑布
+T110	Location-Nominal 1033 1036	银河里
+T113	Thing-Nominal 1054 1056	雨雾
+T114	Person-Nominal 1068 1069	人
+T115	Person-Name 1072 1078	市人大杨主席
+T116	Person-Pronoun 1079 1081	我们
+T117	Time-Implicit 1085 1086;1087 1088	此 刻
+T118	Person-Pronoun 1089 1090	他
+*	Coreference T118 T115
+T119	Person-Pronoun 1091 1093	我们
+T120	Person-Pronoun 1107 1108	我
+T121	Location-Nominal 1124 1127	瀑布前
+T122	Thing-Nominal 1145 1147	瀑布
+T123	Person-Name 1154 1157	杨主席
+T124	Time-Implicit 1167 1169	晚上
+T125	Thing-Nominal 1170 1171	水
+T126	Time-Implicit 1172 1174	白天
+T127	Person-Nominal 1182 1184	游人
+T128	Thing-Nominal 1189 1191	瀑布
+T129	Thing-Name 1193 1198	黄果树瀑布
+T130	Thing-Name 1206 1208;1209 1212	黄果 树瀑布
+T131	Thing-Pronoun 1216 1218	它们
+T132	Location-Nominal 1228 1231	大门外
+T133	Thing-Nominal 1234 1237	观光车
+T134	Person-Nominal 1238 1240	游人
+T135	Location-Nominal 1254 1256	宾馆
+T136	Location-Nominal 1263 1265	景区
+T138	Thing-Nominal 1270 1272	车辆
+T139	Person-Nominal 1275 1277	游人
+T140	Location-Name 1293 1298	十丈洞瀑布
+T141	Location-Name 1303 1310	大同镇的四洞沟
+T142	Location-Name 1312 1315	四洞沟
+T143	Metric 1317 1321	10华里
+T144	Location-Nominal 1340 1343	峡谷里
+T148	Thing-Pronoun 1357 1358	它
+*	Coreference T149 T156
+T149	Thing-Nominal 1363 1370	川黔通行的大道
+T150	Person-Nominal 1375 1377	游人
+T151	Time-Implicit 1380 1383	近年来
+T152	Organization-Nominal 1384 1389	当地旅游局
+T153	Location-Nominal 1384 1386	当地
+T154	Thing-Nominal 1391 1398	原有的这条古道
+T155	Thing-Nominal 1403 1405	石板
+T156	Thing-Pronoun 1436 1437	它
+T157	Location-Name 1439 1442	四洞沟
+T158	Thing-Pronoun 1452 1453	它
+T159	Location-Name 1454 1457	四洞沟
+T160	Location-Nominal 1459 1461	全国
+T161	Location-Nominal 1464 1466	世界
+T162	Location-Name 1470 1473	四洞沟
+T163	Person-Pronoun 1478 1479	我
+T164	Location-Name 1481 1484	四洞沟
+T165	Location-Name 1493 1496	赤水市
+T166	Person-Name 1496 1510	才丰学富、德高望重的登益先生
+T167	Thing-Nominal 1522 1528	秀美的瀑布群
+T168	Person-Nominal 1541 1543	人们
+T169	Thing-Nominal 1578 1580	瀑布
+T170	Metric 1576 1578	四道
+T171	Location-Name 1582 1585	四洞沟
+T172	Metric 1589 1591	四道
+T173	Thing-Nominal 1591 1593	瀑布
+T174	Person-Nominal 1608 1612	国际游人
+T175	Location-Name 1615 1618	闵溪嘴
+T176	Location-Nominal 1619 1621	景区
+T177	Location-Nominal 1624 1627	石板路
+T178	Metric 1631 1636	1000米
+T181	Metric 1655 1658	30米
+T182	Metric 1661 1665	30多米
+T185	Location-Nominal 1675 1679	垂帘瀑后
+T186	Thing-Nominal 1681 1683	瀑布
+T188	Thing-Nominal 1689 1691	石穴
+T190	Thing-Nominal 1700 1702	洞穴
+T191	Thing-Nominal 1712 1714	瀑布
+T192	Thing-Name 1716 1722	“垂帘待卷”
+T193	Location-Nominal 1727 1729	石穴
+T194	Location-Nominal 1730 1732	仙宫
+T195	Person-Nominal 1736 1738	仙人
+T196	Location-Nominal 1743 1747	家中门上
+T197	Thing-Nominal 1743 1751	家中门上挂的门帘
+R8	Located Arg1:T197 Arg2:T196	
+T198	Location-Nominal 1757 1759	洞中
+T199	Person-Nominal 1760 1762	仙人
+T200	Thing-Nominal 1760 1767	仙人培植的盆景
+R9	Located Arg1:T200 Arg2:T198	
+T201	Thing-Nominal 1769 1771	瀑布
+T202	Time-Implicit 1777 1779	清代
+T203	Person-Name 1779 1782	黄秀才
+T204	Location-Nominal 1822 1830	瀑布前的碧波深潭
+T205	Location-Nominal 1838 1840	潭前
+T206	Metric 1840 1842	两礅
+T207	Thing-Nominal 1842 1844	巨石
+T208	Metric 1845 1847	两位
+T209	Person-Nominal 1847 1849	神仙
+T210	Location-Nominal 1869 1875	溪边的观景路
+T211	Metric 1878 1882	800米
+T212	Location-Name 1886 1889	月亮湖
+T213	Location-Pronoun 1900 1902	这里
+*	Coreference T213 T212
+T214	Metric 1910 1913	10米
+T215	Metric 1915 1919	40余米
+T216	Thing-Nominal 1927 1928;1929 1932	雪 白婚纱
+T217	Location-Nominal 1944 1948	瀑下洞里
+T218	Thing-Nominal 1951 1953	奇树
+R10	Located Arg1:T218 Arg2:T217	
+T219	Thing-Nominal 1954 1956	树干
+T220	Location-Nominal 1957 1958	外
+R11	Located Arg1:T219 Arg2:T220	
+T221	Thing-Nominal 1959 1961	树枝
+T222	Location-Nominal 1962 1963	上
+R12	Located Arg1:T221 Arg2:T222	
+T223	Location-Nominal 1964 1966	树腰
+T224	Thing-Nominal 1970 1974	粗大的根
+R13	Located Arg1:T224 Arg2:T223	
+T225	Location-Nominal 1981 1985	泥土之中
+R14	Located Arg1:T224 Arg2:T225	
+T226	Location-Nominal 1993 1995	树身
+T227	Person-Nominal 2005 2007	人们
+T228	Thing-Name 2011 2016	“槐荫树”
+T231	Location-Name 2023 2026	二洞瀑
+T232	Location-Name 1903 1907	二洞瀑布
+T233	Location-Name 1548 1563	一洞瀑、二洞瀑、三洞瀑、四洞瀑
+T234	Location-Name 2069 2072	二洞瀑
+T235	Location-Nominal 2075 2077	水中
+T236	Thing-Nominal 2078 2080	宝石
+R15	Located Arg1:T236 Arg2:T235	
+T237	Thing-Nominal 2081 2083	玉珠
+T238	Location-Nominal 2084 2086	水边
+T239	Thing-Nominal 2087 2089	奇石
+R16	Located Arg1:T239 Arg2:T238	
+T240	Thing-Nominal 2090 2092	雄鹰
+T241	Person-Nominal 2093 2095	人们
+T242	Thing-Name 2099 2105	“雄鹰慕玉”
+T243	Location-Nominal 2113 2115	水中
+T244	Thing-Nominal 2127 2129	野花
+T245	Thing-Nominal 2132 2139	灌木丛生的石堆
+T246	Thing-Nominal 2143 2147	水中盆景
+T247	Thing-Name 2155 2172	“天书石”、“棺材石”、“金龟石”
+T248	Location-Name 2181 2183	三洞
+T249	Location-Nominal 2187 2195	瀑布前的天鹅池中
+T250	Thing-Nominal 2198 2207	潜入水中的蛙形巨石
+R17	Located Arg1:T250 Arg2:T249	
+T251	Person-Name 2208 2212	登益先生
+T252	Thing-Name 2216 2222	“银蛙戏水”
+T253	Metric 2226 2228	一位
+T254	Person-Nominal 2228 2231	女青年
+T255	Thing-Nominal 2245 2247	瀑布
+T256	Metric 2248 2252	20余米
+T257	Metric 2254 2258	40余米
+T258	Location-Name 2260 2263	二洞瀑
+T259	Location-Nominal 2268 2275	瀑布上边的水里
+T260	Thing-Nominal 2283 2285	石头
+R18	Located Arg1:T260 Arg2:T259	
+T261	Thing-Nominal 2289 2290	蛇
+T262	Thing-Nominal 2287 2288	石
+T263	Thing-Nominal 2292 2293	石
+T264	Thing-Nominal 2295 2296	蛙
+T265	Person-Nominal 2297 2299	人们
+T266	Thing-Name 2302 2313	“蛇蛙观瀑，池水生辉”
+T267	Person-Name 2323 2326	黄秀才
+T268	Location-Name 2369 2372	三洞瀑
+T269	Thing-Nominal 2374 2378	石板大路
+T270	Location-Nominal 2380 2382	林中
+T271	Location-Nominal 2400 2403	溪两旁
+T272	Thing-Nominal 2407 2415	枝荣叶茂的桫椤树
+R19	Located Arg1:T272 Arg2:T271	
+T273	Thing-Pronoun 2416 2418	它们
+*	Coreference T273 T272 T276
+T274	Location-Nominal 2428 2433	深幽的峡谷
+T275	Person-Nominal 2438 2440	游人
+T276	Thing-Pronoun 2468 2469	它
+T277	Person-Nominal 2480 2481	人
+T278	Thing-Nominal 2490 2492	桫椤
+T279	Thing-Pronoun 2493 2494	它
+*	Coreference T279 T278
+T280	Time-Implicit 2508 2512	3亿年前
+T281	Time-Explicit 2519 2521	至今
+T282	Location-Nominal 2533 2540	深邃的林阴道上
+T283	Location-Nominal 2548 2550	石梯
+T284	Person-Nominal 2560 2562	人们
+T285	Location-Name 2580 2583	小龙潭
+T286	Thing-Nominal 2594 2596	银河
+T287	Location-Nominal 2597 2599	天上
+T290	Location-Name 2633 2636	四洞瀑
+T291	Person-Nominal 2637 2639	人们
+T292	Thing-Name 2642 2647	“飞龙瀑”
+T293	Location-Nominal 2648 2652	瀑下龙潭
+T295	Thing-Nominal 2655 2660	碧绿的池水
+R20	Located Arg1:T295 Arg2:T293	
+T296	Location-Nominal 2666 2668	池中
+T297	Thing-Nominal 2669 2671	金鸭
+R21	Located Arg1:T297 Arg2:T296	
+T298	Person-Nominal 2677 2679	人们
+T299	Person-Nominal 2701 2706	吟诗的秀才
+T300	Thing-Nominal 2752 2755	大瀑布
+T301	Thing-Nominal 2760 2764	小瀑布群
+T302	Metric 2767 2771	10多个
+T303	Location-Name 2783 2786	四洞沟
+T304	Location-Name 2794 2797	赤水河
+T305	Location-Nominal 2799 2802	峡谷中
+T306	Thing-Nominal 2864 2866	银绸
+T307	Thing-Nominal 2859 2861	婚纱
+T308	Thing-Nominal 2849 2851	飞花
+T309	Thing-Nominal 2851 2853	瀑布
+T310	Location-Nominal 2854 2856	溪头
+T311	Thing-Nominal 2869 2871	桫椤
+T312	Time-Implicit 2881 2882	夏
+T313	Time-Implicit 2883 2884	秋
+T314	Location-Nominal 2886 2888	林间
+T315	Thing-Nominal 2894 2896	翠竹
+T316	Person-Nominal 2888 2890	客旅
+T317	Thing-Nominal 2899 2901	盆景
+T318	Thing-Nominal 2907 2909	瀑布
+T319	Person-Nominal 2923 2924	人
+T320	Location-Nominal 65 67	河边
+R22	Located Arg1:T14 Arg2:T320	
+T28	Location-Pronoun 470 471	此
+*	Coreference T28 T48
+T53	Thing-Nominal 489 497	一个百米长的溶洞
+T54	Location-Nominal 698 709	一个隆重的交响乐殿堂里
+T78	Thing-Nominal 788 790	瀑布
+T79	Location-Nominal 821 823	洞里
+T321	Person-Name 823 825	唐僧
+T322	Person-Name 831 833	霞客
+T323	Location-Nominal 829 831	岩中
+T324	Person-Nominal 837 839	游人
+T325	Person-Nominal 845 849	海外宾朋
+T326	Location-Nominal 845 847	海外
+T327	Location-Nominal 870 872	面前
+R23	Located Arg1:T87 Arg2:T327	
+T111	Thing-Nominal 1044 1053	一幅非常宽大的银幕
+T112	Organization-Nominal 1072 1075	市人大
+T137	Person-Nominal 1261 1268	早进景区的游客
+T328	Person-Nominal 1286 1287	人
+T145	Thing-Nominal 1344 1351;1352 1356	一条藏在密林中 的石板路
+R24	Located Arg1:T145 Arg2:T144	
+*	Coreference T148 T145
+T146	Thing-Nominal 1643 1652	一道形似垂帘的瀑布
+T147	Thing-Nominal 1666 1672	一个天然石穴
+R7	Located Arg1:T147 Arg2:T185	
+T179	Thing-Nominal 1685 1699	一道遮掩石穴的闪闪发光的银帘
+T180	Person-Name 2017 2022	前贤黄三之
+T183	Thing-Nominal 2340 2342	蛙蛇
+T184	Location-Nominal 2357 2359	湖底
+T187	Thing-Nominal 2344 2345	水
+R25	Located Arg1:T269 Arg2:T270	
+T189	Location-Nominal 2419 2421	林中
+T229	Thing-Nominal 2608 2613	一条玉龙腾

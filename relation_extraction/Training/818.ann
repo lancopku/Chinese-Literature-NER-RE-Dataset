@@ -1,0 +1,142 @@
+T1	Location-Nominal 0 1	村
+T2	Location-Nominal 3 7	十字街口
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 10 14	千年古槐
+R2	Located Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 15 16	枝
+T5	Thing-Nominal 17 18	叶
+R3	Part-Whole Arg1:T4 Arg2:T3	
+R4	Part-Whole Arg1:T5 Arg2:T3	
+T6	Location-Pronoun 30 32	这里
+T7	Person-Nominal 33 36	村里人
+T8	Person-Nominal 46 49	本村人
+*	Coreference T8 T7
+T9	Location-Pronoun 53 55	这里
+T10	Location-Nominal 58 61	小集市
+T11	Thing-Nominal 64 66	蔬菜
+T12	Thing-Nominal 66 68	瓜果
+R5	Located Arg1:T11 Arg2:T10	
+R6	Located Arg1:T12 Arg2:T10	
+T13	Thing-Nominal 71 73	鞋袜
+T14	Thing-Nominal 73 75	衣裤
+R7	Located Arg1:T13 Arg2:T10	
+R8	Located Arg1:T14 Arg2:T10	
+T15	Thing-Nominal 78 80	文具
+T16	Thing-Nominal 80 82	百货
+R9	Located Arg1:T15 Arg2:T10	
+R10	Located Arg1:T16 Arg2:T10	
+T17	Thing-Nominal 85 87	油条
+T18	Thing-Nominal 87 90	豆腐脑
+R11	Located Arg1:T17 Arg2:T10	
+R12	Located Arg1:T18 Arg2:T10	
+T19	Time-Implicit 95 97	近日
+T20	Thing-Nominal 102 106	羊肉泡馍
+R13	Located Arg1:T20 Arg2:T10	
+T21	Location-Nominal 111 113	本村
+T22	Thing-Nominal 117 119	泡馍
+*	Coreference T22 T20
+T23	Thing-Nominal 129 130	汤
+T24	Thing-Nominal 142 144	辣子
+R14	Located Arg1:T23 Arg2:T24	
+T25	Thing-Nominal 165 166	肚
+T26	Thing-Nominal 177 179	面片
+T27	Thing-Nominal 182 184	饼子
+T28	Thing-Nominal 190 191	汗
+T29	Thing-Nominal 188 189	头
+R15	Located Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 198 200	鼻子
+T31	Thing-Nominal 201 202	嘴
+T32	Person-Nominal 224 228	男女老幼
+T33	Thing-Nominal 246 251	羊肉泡馍店
+T34	Thing-Nominal 257 258	钱
+T35	Person-Nominal 259 262	村里人
+T36	Thing-Nominal 264 267	红头发
+T37	Person-Name 269 272	赵黑蛋
+T38	Thing-Nominal 274 275	眼
+R16	Part-Whole Arg1:T38 Arg2:T37	
+T39	Person-Pronoun 276 277	他
+*	Coreference T39 T37 T42 T51
+T40	Thing-Nominal 280 282	泡馍
+T41	Thing-Nominal 287 288	烟
+R17	Ownership Arg1:T39 Arg2:T41	
+T42	Person-Pronoun 300 301	他
+T43	Metric 315 319	三二百元
+T44	Metric 320 323	一个月
+T45	Time-Implicit 310 312	一天
+T46	Metric 325 328	小万元
+T47	Metric 338 340	三年
+T48	Person-Nominal 342 344	媳妇
+T49	Thing-Nominal 345 347	房子
+T50	Thing-Nominal 348 349	钱
+T51	Person-Pronoun 367 368	他
+T52	Thing-Nominal 374 376	烟头
+R18	Part-Whole Arg1:T52 Arg2:T41	
+T53	Location-Nominal 377 379	地上
+R19	Located Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 382 383	袄
+T55	Thing-Nominal 384 385	肩
+R20	Located Arg1:T54 Arg2:T55	
+R21	Part-Whole Arg1:T55 Arg2:T51	
+T56	Person-Name 394 397	赵黑蛋
+T57	Person-Nominal 401 406	坐锅的把师
+R22	Social Arg1:T56 Arg2:T57	
+T58	Location-Nominal 411 418	羊肉泡馍店对面
+T59	Thing-Nominal 422 427	羊肉泡馍店
+R23	Located Arg1:T59 Arg2:T58	
+T60	Person-Pronoun 428 429	他
+*	Coreference T60 T56 T63
+T61	Thing-Nominal 433 435	强龙
+T62	Thing-Nominal 438 441	地头蛇
+T63	Person-Pronoun 442 443	我
+T64	Person-Pronoun 445 446	你
+T65	Person-Pronoun 456 457	我
+T66	Person-Name 462 465	赵黑蛋
+T67	Thing-Nominal 466 471	羊肉泡馍店
+R24	Ownership Arg1:T66 Arg2:T67	
+R25	Ownership Arg1:T56 Arg2:T59	
+T68	Time-Implicit 471 476	刚开张那阵
+T69	Metric 481 483	几天
+T70	Thing-Nominal 493 496	羊肉泡
+T71	Person-Name 506 509	赵黑蛋
+T72	Person-Nominal 517 520	外来户
+T73	Person-Nominal 524 526	有人
+T74	Person-Name 527 530	赵黑蛋
+T75	Person-Pronoun 533 534	你
+*	Coreference T75 T74 T79
+T76	Person-Nominal 537 540	外来户
+T77	Person-Nominal 541 544	村主任
+R26	Family Arg1:T76 Arg2:T77	
+T78	Person-Nominal 541 547	村主任的亲戚
+*	Coreference T76 T78
+T79	Person-Name 549 551	黑蛋
+T80	Thing-Nominal 561 562	桌
+T81	Thing-Nominal 564 565	碗
+R27	Located Arg1:T81 Arg2:T80	
+T82	Person-Nominal 573 576	外来户
+T83	Thing-Nominal 577 579	耳朵
+R28	Part-Whole Arg1:T83 Arg2:T82	
+T84	Person-Pronoun 581 582	他
+*	Coreference T84 T82
+T85	Person-Name 604 607	赵黑蛋
+R29	Social Arg1:T84 Arg2:T85	
+T86	Person-Pronoun 611 612	他
+T87	Person-Name 615 619	黑蛋兄弟
+T88	Person-Pronoun 620 621	我
+*	Coreference T88 T86
+T89	Person-Pronoun 642 644	咱两
+T90	Time-Implicit 658 660	随后
+T91	Person-Nominal 661 664	外来户
+T92	Person-Name 665 667	黑蛋
+T93	Person-Pronoun 668 669	他
+*	Coreference T91 T93 T97
+T94	Thing-Nominal 672 674	羊汤
+T95	Thing-Nominal 671 672	碗
+R30	Located Arg1:T94 Arg2:T95	
+T96	Time-Implicit 692 694	晚上
+T97	Person-Pronoun 694 695	我
+T98	Person-Pronoun 702 703	你
+*	Coreference T98 T92
+T99	Time-Implicit 706 709	几天后
+T100	Person-Name 710 713	赵黑蛋
+T101	Thing-Nominal 714 717	羊肉泡
+T102	Person-Nominal 721 724	外来户

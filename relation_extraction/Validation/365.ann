@@ -1,0 +1,242 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 8 9	腰
+T3	Thing-Nominal 10 11	背
+T4	Thing-Nominal 13 14	耳
+T5	Thing-Nominal 15 16	目
+R1	Part-Whole Arg1:T2 Arg2:T1	
+R2	Part-Whole Arg1:T3 Arg2:T1	
+R3	Part-Whole Arg1:T5 Arg2:T1	
+R4	Part-Whole Arg1:T4 Arg2:T1	
+T6	Thing-Nominal 18 19	身
+T7	Thing-Nominal 20 21	体
+R5	Part-Whole Arg1:T6 Arg2:T1	
+R6	Part-Whole Arg1:T7 Arg2:T1	
+T8	Thing-Nominal 32 34	大病
+T9	Location-Nominal 38 40	医院
+T10	Time-Implicit 35 37	终年
+T11	Person-Pronoun 45 46	我
+T12	Metric 48 50	花甲
+T13	Person-Pronoun 51 52	我
+T14	Time-Implicit 56 58	当年
+T15	Person-Pronoun 64 65	我
+T16	Person-Nominal 118 121	年轻人
+T17	Thing-Nominal 79 84	爱美的心态
+R7	Ownership Arg1:T15 Arg2:T17	
+T18	Thing-Nominal 95 99	爱美之心
+*	Coreference T18 T17
+T19	Person-Nominal 126 130	我们老年
+R8	General-Special Arg1:T19 Arg2:T15	
+T20	Person-Pronoun 131 133	我们
+*	Coreference T20 T19 T23
+T21	Thing-Nominal 144 155	一副老态龙钟的“尊容”
+T22	Person-Nominal 171 173	别人
+T23	Person-Pronoun 178 180	自己
+T24	Person-Nominal 159 163	“观众”
+T25	Person-Pronoun 182 183	我
+T26	Thing-Nominal 184 186	仪容
+T27	Thing-Nominal 188 189	脸
+T28	Thing-Nominal 192 193	须
+T29	Thing-Nominal 196 197	头
+T30	Thing-Nominal 200 201	发
+T31	Thing-Nominal 206 208	脸面
+T32	Thing-Nominal 213 215	头发
+R9	Part-Whole Arg1:T27 Arg2:T25	
+R10	Part-Whole Arg1:T28 Arg2:T25	
+R11	Part-Whole Arg1:T30 Arg2:T25	
+R12	Part-Whole Arg1:T31 Arg2:T25	
+R13	Part-Whole Arg1:T32 Arg2:T25	
+*	Coreference T32 T30
+R14	Part-Whole Arg1:T26 Arg2:T25	
+T33	Thing-Nominal 236 238	笑容
+T34	Person-Nominal 240 241	人
+T35	Thing-Nominal 253 254	脸
+*	Coreference T31 T27
+T36	Location-Nominal 261 263	脸上
+T37	Thing-Nominal 267 272	灿烂的阳光
+R15	Located Arg1:T37 Arg2:T36	
+T38	Person-Pronoun 274 275	我
+T39	Thing-Nominal 282 283	钟
+T40	Thing-Nominal 286 287	松
+T41	Thing-Nominal 292 293	胸
+R16	Part-Whole Arg1:T41 Arg2:T38	
+T42	Thing-Nominal 294 296	两手
+R17	Part-Whole Arg1:T42 Arg2:T38	
+T43	Thing-Nominal 301 303	两臂
+R18	Part-Whole Arg1:T43 Arg2:T38	
+T44	Thing-Nominal 311 312	腰
+R19	Part-Whole Arg1:T44 Arg2:T38	
+T45	Thing-Nominal 313 314	背
+R20	Part-Whole Arg1:T45 Arg2:T38	
+T46	Thing-Nominal 324 325	腿
+T47	Thing-Nominal 329 330	脚
+R21	Part-Whole Arg1:T46 Arg2:T38	
+R22	Part-Whole Arg1:T47 Arg2:T38	
+T48	Thing-Nominal 340 341	脚
+T49	Person-Nominal 360 361	人
+T50	Person-Pronoun 380 381	我
+T51	Thing-Nominal 382 384	服饰
+T52	Person-Nominal 386 387	人
+T53	Thing-Nominal 388 390	衣裳
+R23	Use Arg1:T52 Arg2:T53	
+T54	Thing-Nominal 390 391	马
+T55	Thing-Nominal 392 393	鞍
+T56	Thing-Nominal 394 398	时尚新衣
+T57	Thing-Nominal 404 408	高档名牌
+T58	Thing-Nominal 441 443	新衣
+T59	Metric 449 452	十余载
+T60	Time-Implicit 461 464	新时代
+T61	Thing-Nominal 416 418	款式
+T62	Person-Pronoun 467 468	我
+T63	Thing-Nominal 474 478	豪华房屋
+T64	Time-Implicit 488 490	黎明
+T65	Thing-Nominal 495 497	庭除
+T66	Thing-Nominal 508 512	勤劳双手
+T67	Location-Nominal 513 515	院中
+T68	Thing-Nominal 521 522	花
+T69	Thing-Nominal 523 524	草
+T70	Thing-Nominal 525 526	竹
+T71	Time-Implicit 528 530	春冬
+T72	Thing-Nominal 530 532	翠竹
+T73	Time-Implicit 535 537	夏秋
+T74	Thing-Nominal 537 539	花团
+T75	Time-Implicit 542 544	其间
+T76	Thing-Nominal 545 546	书
+T77	Thing-Nominal 547 548	报
+T78	Person-Nominal 550 551	人
+T79	Time-Implicit 556 558	更间
+T80	Person-Nominal 558 560	老友
+R24	Social Arg1:T80 Arg2:T62	
+T81	Thing-Nominal 564 565	弈
+T82	Thing-Nominal 567 568	球
+T83	Person-Pronoun 590 591	我
+T84	Person-Nominal 596 605	古圣今贤，英雄模范
+T85	Person-Nominal 616 617	人
+T86	Time-Implicit 644 646	天天
+T87	Person-Pronoun 652 654	自己
+*	Coreference T87 T83
+T88	Person-Nominal 670 677	老有所为的表率
+R25	General-Special Arg1:T88 Arg2:T87	
+T89	Person-Nominal 697 701	老年朋友
+T90	Thing-Nominal 690 693	打油诗
+T91	Thing-Nominal 705 709	爱美之心
+T92	Person-Pronoun 733 734	我
+T93	Metric 737 739	古稀
+T94	Thing-Nominal 741 742	耳
+T95	Thing-Nominal 743 744	目
+T96	Thing-Nominal 746 748	腰干
+R26	Part-Whole Arg1:T96 Arg2:T92	
+T97	Thing-Nominal 751 753	童颜
+T98	Thing-Nominal 753 755	鹤发
+T99	Thing-Nominal 762 768	退休十几年来
+T100	Metric 764 767	十几年
+T101	Metric 796 798	半刻
+T102	Person-Pronoun 806 807	我
+T103	Person-Pronoun 819 820	我
+T104	Thing-Nominal 810 815	兴趣和爱好
+T105	Thing-Nominal 823 824	书
+T106	Thing-Nominal 825 826	报
+T107	Thing-Nominal 827 829	书报
+T108	Person-Nominal 830 832	良师
+T109	Person-Nominal 834 836	益友
+T110	Thing-Pronoun 837 838	她
+*	Coreference T110 T107 T121 T122
+T111	Thing-Nominal 839 846	取之不尽的甘露
+T112	Thing-Pronoun 847 848	她
+T113	Thing-Nominal 849 856	用之不竭的营养
+T114	Thing-Pronoun 857 858	她
+T115	Person-Nominal 859 860	我
+T116	Person-Pronoun 869 870	我
+T117	Thing-Nominal 870 872	道路
+T118	Person-Pronoun 874 875	我
+T119	Thing-Pronoun 878 879	她
+T121	Thing-Nominal 881 892	与我终生厮守的忠实伴侣
+T122	Thing-Nominal 894 906	我天天不可缺少的美味佳肴
+T120	Person-Pronoun 909 910	我
+T123	Abstract 919 921	文学
+T124	Thing-Nominal 940 941	笔
+T125	Thing-Nominal 945 947	故事
+T126	Thing-Nominal 949 951	评论
+T127	Thing-Nominal 953 955	散文
+T128	Thing-Nominal 957 959	诗歌
+T129	Thing-Nominal 963 966	大文章
+T130	Thing-Nominal 971 974	火柴盒
+T131	Organization-Nominal 983 985	报社
+T132	Time-Implicit 986 991	下面的日子
+T133	Person-Nominal 994 996	农民
+T134	Thing-Nominal 1005 1007	种子
+R27	Create Arg1:T120 Arg2:T125	
+R28	Create Arg1:T120 Arg2:T126	
+R29	Create Arg1:T120 Arg2:T127	
+R30	Create Arg1:T120 Arg2:T128	
+T135	Person-Pronoun 1012 1013	我
+T136	Thing-Nominal 1016 1017	花
+T137	Thing-Nominal 1018 1019	菜
+T138	Thing-Nominal 1020 1021	花
+T139	Thing-Nominal 1022 1027	“懒汉”花
+R31	General-Special Arg1:T138 Arg2:T139	
+T140	Thing-Nominal 1028 1041	月季、玫瑰、凌霄、牵牛……
+R32	General-Special Arg1:T139 Arg2:T140	
+T141	Thing-Nominal 1052 1053	水
+T142	Thing-Nominal 1056 1057	肥
+T143	Thing-Nominal 1060 1061	花
+T144	Thing-Nominal 1062 1063	叶
+T145	Thing-Nominal 1070 1071	菜
+T146	Thing-Nominal 1073 1076	家常菜
+R33	General-Special Arg1:T145 Arg2:T146	
+T147	Thing-Nominal 1077 1094	紫茄子、红辣椒、白萝卜、绿大葱……
+R34	General-Special Arg1:T146 Arg2:T147	
+T148	Thing-Nominal 1099 1100	钱
+T149	Person-Nominal 1114 1115	人
+T150	Person-Pronoun 1116 1118	自己
+*	Coreference T150 T135
+T151	Person-Nominal 1121 1123	别人
+R35	Social Arg1:T151 Arg2:T150	
+T152	Person-Pronoun 1142 1143	我
+T153	Thing-Nominal 1145 1147	书画
+T154	Thing-Nominal 1151 1153	书画
+T155	Time-Implicit 1148 1150	从小
+T156	Time-Implicit 1156 1158	一生
+T157	Thing-Nominal 1159 1161	笔墨
+T158	Time-Implicit 1164 1167	退休前
+T159	Organization-Name 1171 1179	中国书画函授大学
+T160	Time-Implicit 1185 1188	几年来
+T161	Person-Nominal 1188 1190	名师
+R36	Social Arg1:T161 Arg2:T152	
+T162	Thing-Nominal 1194 1198	真草隶篆
+T163	Thing-Nominal 1205 1209	梅兰竹菊
+T164	Thing-Nominal 1201 1202;1203 1204	门 径
+T165	Person-Nominal 1233 1235	亲友
+R37	Social Arg1:T165 Arg2:T152	
+T166	Person-Pronoun 1255 1256	我
+T167	Time-Implicit 1261 1264	前些年
+T168	Thing-Nominal 1261 1276	前些年的师生照、朋友照、家庭照
+R38	Ownership Arg1:T166 Arg2:T168	
+T169	Time-Implicit 1283 1287	近些年来
+T170	Person-Nominal 1292 1294	夫妻
+T171	Person-Nominal 1298 1300	全家
+T172	Thing-Nominal 1292 1295	夫妻影
+T173	Thing-Nominal 1298 1301	全家福
+T174	Time-Implicit 1290 1292	年年
+T175	Time-Implicit 1296 1298	岁岁
+T176	Time-Implicit 1302 1304	前年
+T177	Person-Pronoun 1305 1306	我
+T178	Time-Implicit 1306 1312	结婚六十周年
+*	Coreference T178 T176
+T179	Abstract 1318 1320	金婚
+T180	Thing-Nominal 1326 1329	婚纱照
+T181	Person-Pronoun 1330 1331	谁
+T182	Person-Pronoun 1332 1333	谁
+T183	Person-Pronoun 1337 1338	我
+T184	Thing-Nominal 1341 1344	乒乓球
+T185	Time-Implicit 1345 1348	退休后
+T186	Time-Implicit 1355 1357	每天
+T187	Person-Pronoun 1385 1386	我
+T188	Metric 1357 1359	两场
+T189	Metric 1412 1414	十局
+T190	Thing-Nominal 1421 1422	心
+T191	Person-Pronoun 1434 1435	我
+T192	Thing-Nominal 1438 1440	京剧
+T193	Thing-Nominal 1465 1467	电脑
+T194	Location-Nominal 1472 1477	爱好的乐园
+T195	Person-Pronoun 1478 1479	我
+T196	Time-Implicit 1483 1487	闲暇之时

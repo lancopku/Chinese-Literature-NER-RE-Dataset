@@ -1,0 +1,184 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Nominal 2 4	山野
+T3	Thing-Nominal 19 21	灌木
+R1	Located Arg1:T3 Arg2:T2	
+T4	Location-Nominal 29 32	人工林
+T5	Thing-Nominal 36 38	松树
+T6	Thing-Nominal 39 41	杉树
+R2	Located Arg1:T5 Arg2:T4	
+R3	Located Arg1:T6 Arg2:T4	
+T7	Thing-Nominal 54 56	茅草
+T8	Location-Nominal 57 59	山丘
+R4	Located Arg1:T7 Arg2:T8	
+T9	Location-Nominal 66 68	山坡
+T10	Location-Nominal 69 71	溪涧
+R5	Part-Whole Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 82 84	老树
+R6	Located Arg1:T11 Arg2:T10	
+T12	Person-Nominal 107 109	自己
+T13	Person-Nominal 114 116	长者
+T14	Location-Name 151 155	三堡桥边
+T15	Location-Nominal 156 158	山脊
+T16	Thing-Nominal 161 163	古木
+R8	Near Arg1:T15 Arg2:T14	
+R7	Near Arg1:T16 Arg2:T14	
+T17	Thing-Nominal 183 185	绿叶
+T18	Thing-Nominal 189 190	枝
+R9	Part-Whole Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 194 196	鸟儿
+R10	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 209 211	枯杈
+T21	Thing-Nominal 225 227	老枝
+T22	Thing-Nominal 231 234	寄生蕨
+R11	Located Arg1:T22 Arg2:T21	
+T23	Person-Name 242 246	太上老君
+T24	Thing-Nominal 251 253	长髯
+R12	Part-Whole Arg1:T24 Arg2:T23	
+T25	Person-Name 268 272	千手观音
+T26	Thing-Nominal 312 314	萝藤
+T27	Person-Nominal 318 320	女子
+T28	Location-Nominal 322 324	林间
+R13	Located Arg1:T26 Arg2:T28	
+T30	Thing-Nominal 368 371	老樟树
+T29	Location-Nominal 358 361	山脊下
+R14	Located Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 379 381	龙须
+T32	Location-Nominal 376 378	山脉
+T33	Thing-Nominal 382 384	老树
+T34	Location-Nominal 428 431	土地庙
+T35	Location-Nominal 432 434	树前
+T36	Location-Nominal 439 441	坪地
+*	Coreference T35 T36
+T37	Thing-Nominal 447 449	绿叶
+T38	Location-Nominal 459 462	土地庙
+T39	Person-Pronoun 478 479	我
+T40	Thing-Nominal 482 484	老树
+T41	Thing-Nominal 495 497	老树
+T42	Thing-Nominal 504 506	榕树
+T43	Thing-Nominal 526 528	榕树
+T44	Thing-Nominal 540 542	老树
+*	Coreference T42 T41
+T45	Person-Nominal 555 558	先人们
+T46	Thing-Nominal 561 563	树木
+T47	Thing-Nominal 567 570	风景树
+T48	Location-Nominal 571 574	风水林
+T49	Person-Nominal 611 613	人们
+T50	Thing-Nominal 614 616	斧锯
+R15	Use Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 624 629	名贵的树木
+T52	Thing-Nominal 632 634	楠木
+T53	Thing-Nominal 635 636;637 639	花 梨木
+T54	Thing-Nominal 640 643	红豆杉
+T55	Thing-Nominal 644 646	丹桂
+*	Coreference T52 T51 T53 T54 T55
+T56	Thing-Nominal 655 658	风景树
+T57	Location-Nominal 659 662	风水林
+T58	Person-Nominal 663 666	先人们
+T59	Person-Nominal 675 677	神明
+T60	Person-Nominal 696 697;698 700	土 地神
+T61	Person-Nominal 708 711	土地神
+T62	Person-Nominal 714 716	社神
+*	Coreference T61 T62 T63 T64
+T63	Person-Pronoun 727 728	他
+T64	Person-Nominal 751 754	矮老头
+T65	Person-Pronoun 760 761	他
+T66	Person-Name 766 769	孙悟空
+T67	Person-Nominal 771 775	土地老儿
+*	Coreference T65 T67
+T68	Person-Nominal 786 788	妖怪
+T69	Person-Pronoun 793 794	他
+T70	Person-Pronoun 796 797	他
+T71	Person-Nominal 836 839	土地神
+T72	Person-Pronoun 853 854	神
+T73	Person-Pronoun 858 859	神
+T74	Person-Nominal 860 863	老百姓
+T75	Person-Pronoun 865 866	他
+*	Coreference T75 T71 T76 T77
+T76	Person-Nominal 866 870	土地伯公
+T77	Person-Nominal 871 875	土地爷爷
+T78	Location-Nominal 884 888	我的家乡
+T79	Location-Nominal 894 898	石山脚下
+R16	Near Arg1:T78 Arg2:T79	
+T80	Location-Nominal 899 901	山麓
+T81	Thing-Nominal 907 909	老树
+R17	Located Arg1:T81 Arg2:T80	
+T82	Location-Nominal 910 912	树下
+T83	Location-Nominal 915 917	清泉
+R18	Near Arg1:T83 Arg2:T82	
+T84	Person-Nominal 935 938	全村人
+T85	Location-Nominal 943 944;945 946	泉 边
+*	Coreference T85 T83
+T86	Thing-Nominal 952 955	矮石头
+R19	Near Arg1:T86 Arg2:T85	
+T87	Person-Nominal 956 958	长辈
+T88	Person-Nominal 965 968	乡亲们
+T89	Person-Nominal 984 987	土地爷
+T90	Time-Explicit 993 998	“文革”时
+T91	Person-Nominal 1004 1005;1006 1009	毛 头后生
+T92	Thing-Nominal 1019 1021	斧头
+R20	Use Arg1:T91 Arg2:T92	
+T93	Thing-Nominal 1026 1029	风水树
+T94	Person-Nominal 1030 1033	村民们
+T95	Person-Pronoun 1038 1040	他们
+*	Coreference T95 T91
+T96	Person-Nominal 1048 1053	全村的老人
+T97	Person-Nominal 1060 1062	老翁
+T98	Thing-Nominal 1068 1070	古树
+T99	Person-Nominal 1071 1074	老妪们
+T100	Person-Nominal 1076 1079	土地爷
+T101	Person-Nominal 1120 1124	毛头后生
+*	Coreference T93 T98 T102
+T102	Thing-Nominal 1135 1136	树
+T103	Person-Nominal 1141 1143	神明
+T104	Person-Nominal 1143 1145	自己
+*	Coreference T101 T104
+T105	Person-Nominal 1166 1169	老人们
+T106	Person-Nominal 1172 1175	土地爷
+T107	Thing-Nominal 1196 1198	树枝
+T108	Thing-Nominal 1201 1203	红布
+R21	Located Arg1:T108 Arg2:T107	
+T109	Person-Nominal 1206 1208	神明
+T110	Person-Nominal 1209 1211	人们
+T111	Thing-Nominal 1221 1222	树
+R22	Part-Whole Arg1:T107 Arg2:T111	
+T112	Thing-Nominal 1234 1237	风景树
+T113	Location-Nominal 1242 1245	土地庙
+T114	Location-Nominal 1251 1254	土地庙
+T115	Location-Nominal 1260 1263	风水林
+R23	Located Arg1:T112 Arg2:T113	
+R24	Near Arg1:T115 Arg2:T114	
+T116	Location-Nominal 1270 1272	村落
+T117	Location-Nominal 1275 1277	旷野
+T118	Location-Nominal 1282 1285	风水林
+R25	Part-Whole Arg1:T118 Arg2:T117	
+R26	Part-Whole Arg1:T118 Arg2:T116	
+T119	Person-Nominal 1298 1301	土地神
+T120	Person-Nominal 1305 1308	土地神
+T121	Person-Pronoun 1323 1324	他
+*	Coreference T121 T120
+T122	Time-Implicit 1313 1317	千百年来
+T123	Location-Nominal 1328 1331	土地庙
+T124	Thing-Nominal 1345 1347	石头
+R27	Located Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 1380 1382	石头
+T126	Location-Nominal 1384 1386	路边
+T127	Location-Nominal 1389 1391	树下
+R28	Located Arg1:T125 Arg2:T126	
+R29	Located Arg1:T125 Arg2:T127	
+T128	Thing-Nominal 1392 1394	红布
+T129	Person-Nominal 1400 1403	土地爷
+T130	Time-Implicit 1417 1419	几年
+T131	Time-Implicit 1420 1423	几十年
+T132	Person-Nominal 1433 1436	土地神
+T133	Person-Nominal 1467 1470	土地爷
+T134	Person-Nominal 1475 1477	长者
+*	Coreference T133 T134
+T135	Person-Nominal 1485 1488	土地神
+T136	Thing-Nominal 1503 1505	树木
+T137	Person-Pronoun 1528 1529	我
+T138	Person-Pronoun 1537 1539	我们
+T139	Person-Nominal 1541 1545	乡间小吏
+*	Coreference T138 T139 T141
+T140	Person-Nominal 1550 1553	土地神
+T141	Person-Nominal 1557 1559	自己
+T142	Person-Nominal 1578 1580	后人

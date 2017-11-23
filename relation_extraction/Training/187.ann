@@ -1,0 +1,305 @@
+T1	Thing-Nominal 1 6	一个个风景
+T2	Thing-Nominal 19 21	风景
+T3	Thing-Nominal 35 40	高沙古商城
+T4	Thing-Nominal 41 45	建街兴市
+T5	Metric 49 55	1300多年
+T6	Time-Explicit 59 60;61 66	明 清鼎盛时期
+T7	Location-Nominal 67 71	古商城内
+T8	Thing-Nominal 71 73	商贾
+T9	Location-Name 76 80	蓼水河中
+T10	Thing-Nominal 80 82	樯桅
+R1	Located Arg1:T10 Arg2:T9	
+R2	Located Arg1:T8 Arg2:T7	
+T11	Thing-Nominal 96 98	高沙
+T12	Thing-Nominal 98 109	这座闻名遐迩的千年古镇
+T13	Time-Explicit 116 121	2014年
+T14	Thing-Pronoun 147 148	她
+T15	Thing-Nominal 148 160	那潺潺而流日夜不息的蓼水
+T16	Person-Nominal 164 168	高沙人们
+T17	Thing-Pronoun 179 180	她
+T18	Thing-Nominal 180 182;183 189	那古 老坚固的河堤
+T19	Thing-Pronoun 203 204	她
+T20	Thing-Nominal 204 212	那湾湾的河流潭水
+T21	Location-Name 216 218	蓼湄
+T22	Location-Nominal 231 233	家乡
+T23	Location-Name 238 240	蓼湄
+T24	Location-Nominal 257 269	已久违的古韵幽静的老街上
+T25	Time-Implicit 270 272	儿时
+T26	Thing-Nominal 275 286	那个烟景繁华的五里长街
+T27	Person-Pronoun 292 293	我
+T28	Person-Pronoun 305 306	我
+T29	Person-Pronoun 313 314	我
+T30	Thing-Nominal 333 344	那一份沉甸甸的人文档案
+T31	Time-Implicit 348 349;350 351	儿 时
+T32	Person-Pronoun 364 365	我
+T33	Location-Name 368 370	武冈
+T34	Person-Pronoun 372 373	我
+T35	Location-Name 374 376	高沙
+T36	Person-Pronoun 384 385	我
+T37	Location-Name 387 389	高沙
+T38	Person-Nominal 391 392	妻
+T39	Person-Nominal 395 399	高沙女婿
+T40	Person-Pronoun 401 402	我
+T41	Thing-Nominal 406 410;411 412	那个小山 村
+T42	Thing-Nominal 414 418	高沙古镇
+T43	Metric 419 421	十里
+T44	Time-Implicit 426 429	孩提时
+T45	Person-Pronoun 430 431	我
+T46	Person-Nominal 436 439	大人们
+T47	Thing-Nominal 440 444	高沙老街
+T48	Thing-Nominal 447 450	青石板
+T49	Location-Nominal 451 454	老街上
+R3	Located Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 454 469	那香辣可口、风味独特的小米豆腐
+T51	Person-Nominal 473 474	人
+T52	Person-Pronoun 477 478	我
+T53	Thing-Nominal 480 487	古色古香的老街
+T54	Thing-Nominal 498 503	长长的口水
+T55	Location-Nominal 506 511	大人袋裤里
+T56	Thing-Nominal 513 514	钱
+R4	Located Arg1:T56 Arg2:T55	
+T57	Person-Pronoun 518 519	我
+T58	Thing-Nominal 523 527	小米豆腐
+T59	Thing-Nominal 533 540	那幽幽十八茅湾
+T60	Thing-Nominal 541 550	古朴风韵的民居长街
+T61	Thing-Nominal 553 563	一个从未见过的大迷宫
+T62	Person-Pronoun 567 568	我
+T63	Thing-Nominal 584 588	千年古镇
+T64	Metric 596 599	千百年
+T65	Thing-Nominal 599 609	岁月沧桑的“高沙八景
+T66	Thing-Nominal 613 625	滚滚东流、百折迂回的蓼水
+T67	Thing-Nominal 629 642	那长长的悄无声息的青石板路
+T68	Thing-Nominal 646 658	那一个个风情涌动的吊脚楼
+T69	Thing-Nominal 682 684	山水
+T70	Thing-Nominal 689 691	澜桥
+T71	Thing-Name 694 697	真武桥
+T72	Thing-Nominal 700 703	祖师桥
+T73	Thing-Nominal 706 708	高沙
+T74	Time-Explicit 719 721	明代
+T75	Thing-Nominal 726 727	水
+T76	Thing-Nominal 728 729	火
+T77	Thing-Nominal 730 732	兵燹
+T78	Time-Explicit 740 750	1945年5月11日
+T79	Metric 753 758	500余人
+T80	Person-Nominal 751 753	日军
+T81	Location-Name 760 762	高沙
+T82	Location-Name 765 767	高沙
+T83	Thing-Nominal 767 771	店铺房屋
+R5	Located Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 776 779	祖师桥
+T85	Metric 787 790	11个
+T86	Thing-Nominal 790 792	石墩
+T87	Location-Name 800 804	蓼水两岸
+T88	Thing-Nominal 796 798	浮桥
+T89	Time-Explicit 805 810	2013年
+T90	Person-Nominal 811 813	大伙
+T91	Thing-Nominal 820 825;826 830	一座十一墩 的风雨桥
+T92	Location-Nominal 833 837	桥的中央
+T93	Thing-Nominal 840 846	真武祖师塑像
+R6	Located Arg1:T93 Arg2:T92	
+T94	Thing-Name 852 855	真武桥
+T95	Person-Nominal 857 860	老百姓
+T96	Thing-Pronoun 861 862	它
+*	Coreference T96 T93
+T97	Thing-Nominal 870 873	祖师桥
+T98	Time-Explicit 882 886;887 896	明代万历 丁未年(1607)
+T99	Person-Nominal 897 902	浙江布政使
+T100	Person-Nominal 903 907	著名学者
+T101	Abstract 910 918	《高沙市佑圣碑记
+T102	Person-Name 907 910	车大任
+T103	Location-Name 928 933	高沙镇市区
+T104	Thing-Nominal 934 936	蓼水
+T105	Metric 940 943	4公里
+T106	Thing-Nominal 944 947	木山村
+T107	Location-Name 957 960	龙头石
+T108	Time-Implicit 961 968	每当月圆的晚上
+T109	Location-Name 969 973	龙头石上
+T110	Thing-Nominal 974 978	巨石神像
+R7	Located Arg1:T110 Arg2:T109	
+T111	Person-Nominal 997 999	天神
+T112	Thing-Nominal 1005 1008;1009 1011	一盏盏 明灯
+T113	Location-Nominal 1000 1002	山上
+R8	Located Arg1:T112 Arg2:T113	
+T114	Thing-Name 1021 1026	石祖悬灯”
+T115	Person-Nominal 1033 1037	当地百姓
+T116	Person-Nominal 1041 1043	菩萨
+T117	Person-Nominal 1056 1061	当地的老者
+T118	Person-Nominal 1066 1069;1070 1071	北方的 神
+T119	Location-Nominal 1066 1068	北方
+T120	Person-Nominal 1074 1077	武祖师
+T121	Location-Name 1085 1090	高沙的南方
+T122	Location-Nominal 1094 1096	北方
+T123	Thing-Nominal 1097 1101	一座寺庙
+R9	Located Arg1:T123 Arg2:T122	
+T124	Person-Nominal 1104 1108	真武祖师
+T125	Location-Name 1113 1115	高沙
+T126	Person-Nominal 1131 1136	高沙的民众
+T127	Location-Name 1143 1147	高沙镇北
+T128	Thing-Nominal 1150 1156	一座“真武殿
+R10	Located Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 1162 1169	真武祖师金身像
+T130	Time-Implicit 1170 1184	每逢初一、十五或农历三月初三
+T131	Person-Nominal 1184 1188	真武祖师
+T132	Location-Name 1192 1196	真武殿里
+T133	Thing-Nominal 1196 1200	晨钟暮鼓
+R11	Located Arg1:T133 Arg2:T132	
+T134	Person-Nominal 1201 1205	许多百姓
+T135	Thing-Nominal 1212 1214	香烟
+T136	Time-Explicit 1239 1243	解放初期
+T137	Thing-Nominal 1246 1252	高沙的蓼水河
+T138	Time-Implicit 1244 1246	那时
+T139	Thing-Nominal 1255 1265	一座可供行人过河的桥
+T140	Person-Nominal 1259 1261	行人
+T141	Person-Nominal 1266 1268	人们
+T142	Thing-Nominal 1269 1270	河
+T143	Thing-Nominal 1278 1281	蓼水河
+T144	Thing-Nominal 1282 1283	水
+T145	Person-Nominal 1285 1287	人们
+T146	Thing-Nominal 1297 1298	河
+T147	Person-Nominal 1301 1303	人们
+T148	Thing-Nominal 1310 1311	桥
+T149	Thing-Nominal 1315 1317	洪水
+T150	Thing-Nominal 1323 1324	火
+T151	Location-Name 1331 1335	真武庙前
+T152	Thing-Nominal 1337 1340	一座桥
+R12	Located Arg1:T152 Arg2:T151	
+T153	Time-Implicit 1349 1358	建起“真武庙”以后
+T154	Thing-Nominal 1359 1362	这座桥
+T155	Person-Nominal 1371 1373	大家
+T156	Thing-Nominal 1381 1390	一座十一墩的风雨桥
+T157	Location-Nominal 1393 1397	桥的中央
+T158	Thing-Nominal 1400 1405;1406 1407	真武祖师塑 像
+R13	Located Arg1:T158 Arg2:T157	
+T159	Thing-Name 1413 1416	真武桥
+T160	Person-Nominal 1418 1421	老百姓
+T161	Thing-Pronoun 1422 1423	它
+*	Coreference T161 T159
+T162	Thing-Name 1424 1427	祖师桥
+T163	Thing-Name 1429 1432	祖师桥
+T164	Thing-Nominal 1447 1449	高沙
+T165	Thing-Nominal 1459 1461	古镇
+T166	Thing-Name 1482 1485	祖师桥
+T167	Person-Nominal 1489 1491	人们
+T168	Location-Nominal 1491 1495	神圣领地
+T169	Thing-Nominal 1502 1506	高沙八景
+T170	Time-Implicit 1535 1538	古时候
+T171	Location-Name 1539 1541;1542 1545	南泥 的半山
+T172	Person-Nominal 1546 1552	一位刘姓老者
+T173	Location-Name 1561 1565	高沙市郊
+T174	Person-Nominal 1567 1568	人
+T175	Person-Nominal 1582 1584	孤儿
+T176	Person-Nominal 1584 1587	老残者
+T177	Person-Nominal 1599 1601	人们
+T178	Person-Pronoun 1607 1608	他
+T179	Person-Nominal 1610 1612	员外
+T180	Time-Implicit 1614 1618	这年夏天
+T181	Thing-Nominal 1623 1627	倾盆暴雨
+T182	Thing-Nominal 1630 1632	山洪
+T183	Thing-Nominal 1635 1639	许多房屋
+T184	Thing-Nominal 1640 1642	洪水
+T185	Person-Nominal 1645 1647	人们
+T186	Person-Nominal 1653 1655	员外
+T187	Thing-Nominal 1662 1663;1664 1665	房 子
+T188	Location-Nominal 1668 1670	家中
+T189	Thing-Nominal 1671 1676	粮食、衣物
+R14	Located Arg1:T189 Arg2:T188	
+T190	Person-Nominal 1678 1680	灾民
+T191	Thing-Nominal 1684 1691	一股更大的洪水
+T192	Location-Name 1692 1697	南泥的山岭
+T193	Thing-Nominal 1701 1703	山岭
+T194	Thing-Nominal 1710 1714	一个深潭
+T195	Location-Nominal 1718 1722	这个地方
+T196	Location-Name 1726 1728	半山
+T197	Time-Implicit 1738 1744	洪水消退以后
+T198	Person-Nominal 1746 1748	员外
+T199	Person-Nominal 1753 1755	乡亲
+T200	Thing-Nominal 1757 1759	家园
+T201	Time-Implicit 1765 1767	一天
+T202	Person-Nominal 1768 1770	员外
+T203	Thing-Nominal 1773 1775	洪水
+T204	Location-Name 1778 1782	半山脚下
+T205	Location-Nominal 1786 1793	新形成的深潭中
+T206	Thing-Nominal 1794 1796	鲤鱼
+R15	Located Arg1:T206 Arg2:T205	
+T207	Thing-Nominal 1799 1801	银光
+T208	Thing-Nominal 1811 1815	几条鲤鱼
+T209	Location-Nominal 1822 1826	员外脚边
+R16	Located Arg1:T208 Arg2:T209	
+T210	Person-Nominal 1827 1829	员外
+T211	Thing-Nominal 1831 1833	鲤鱼
+T212	Location-Nominal 1837 1839	潭中
+T213	Person-Nominal 1840 1845	邻近的村民
+T214	Location-Nominal 1847 1849	潭中
+T215	Thing-Nominal 1849 1851	鲤鱼
+R17	Located Arg1:T215 Arg2:T214	
+T216	Thing-Nominal 1857 1858	网
+T217	Thing-Nominal 1859 1860	罾
+T218	Thing-Nominal 1862 1863	鱼
+T219	Metric 1867 1869	半天
+T220	Thing-Nominal 1871 1874	一条鱼
+T221	Person-Nominal 1879 1881	员外
+T222	Thing-Nominal 1884 1886	鲤鱼
+T223	Location-Nominal 1890 1894	他的脚下
+T224	Person-Pronoun 1890 1891	他
+R18	Located Arg1:T222 Arg2:T223	
+T225	Person-Nominal 1900 1903	当地人
+T226	Thing-Nominal 1895 1900	这离奇景象
+T227	Thing-Nominal 1910 1911	鱼
+T228	Person-Nominal 1912 1914	员外
+T229	Person-Nominal 1917 1919	别人
+T230	Person-Nominal 1933 1937	高沙的人
+T231	Location-Name 1944 1946	半山
+T232	Thing-Nominal 1947 1954	这一奇特的景象
+T233	Person-Nominal 1958 1962	一位文人
+T234	Location-Nominal 1965 1968	石岩上
+T235	Thing-Nominal 1985 1989	高沙八景
+T236	Location-Nominal 1994 1998	那石岩上
+T237	Thing-Nominal 2008 2012	那四个字
+T238	Thing-Nominal 2017 2021	千年高沙
+T239	Thing-Nominal 2022 2040	一座从小就烙印在我心灵深处的魅力古镇
+T240	Person-Pronoun 2030 2031	我
+T241	Metric 2045 2049	30多年
+T242	Thing-Nominal 2097 2106	一片充满激情的热土
+T243	Thing-Nominal 2109 2124	那美轮美奂的曾氏宗祠、杨氏宗祠
+T244	Organization-Nominal 2125 2137	两处国家重点文物保护单位
+T245	Location-Name 2143 2147	蓼水河畔
+T246	Thing-Nominal 2148 2151	云峰塔
+R19	Located Arg1:T246 Arg2:T245	
+T247	Thing-Nominal 2161 2163	古镇
+T248	Person-Nominal 2183 2184	人
+T249	Thing-Nominal 2197 2204	如梦令般的高沙
+T250	Person-Pronoun 2206 2207	我
+T251	Person-Pronoun 2213 2214	她
+T252	Thing-Nominal 2239 2249	千年古韵今犹存的高沙
+T253	Person-Name 2261 2263	刘渌
+T254	Person-Name 2250 2253	刘奇叶
+T255	Person-Nominal 2270 2278	中国作家协会会员
+T256	Time-Explicit 2279 2284	2011年
+T257	Organization-Name 2287 2294;2295 2300	湖南省首届新锐 作家研修班
+T258	Time-Explicit 2301 2308	2014年6月
+T259	Organization-Name 2311 2321	湖南省编剧高级研修班
+T260	Abstract 2327 2333	《人民文学》
+T261	Abstract 2334 2340	《短篇小说》
+T262	Abstract 2341 2348	《创作与评论》
+T263	Abstract 2349 2354	《小说界》
+T264	Metric 2366 2370	200万
+T265	Abstract 2378 2383	《赤子吟》
+T266	Abstract 2384 2391	《两地情未了》
+T267	Abstract 2398 2405	《无悔我执著》
+T268	Abstract 2412 2416;2417 2424	《资水从 武冈拐了个弯》
+T269	Abstract 2429 2436	《红豆生南国》
+T270	Abstract 2437 2441	《论语》
+T271	Abstract 2442 2447	《拂尘记》
+T272	Abstract 2448 2452	《清水》
+T273	Abstract 2455 2462	《武冈黄埔情》
+T274	Abstract 2463 2474	《世纪伟人毛泽东珍闻》
+T275	Abstract 2475 2477;2478 2485	《云 山脚下的传说》
+T276	Abstract 2494 2500	《人民文学》
+T277	Metric 2515 2519	50余篇
+T278	Metric 2486 2490	40余篇
+T279	Abstract 2537 2538;2539 2547	《 活捉“野骡子”》
+T280	Abstract 2548 2554	《治病救人》
+T281	Abstract 2555 2562	《家庭纪检员》
+T282	Abstract 2565 2570	《明末王》
+T283	Metric 2572 2574	十部
+*	Coreference T14 T12

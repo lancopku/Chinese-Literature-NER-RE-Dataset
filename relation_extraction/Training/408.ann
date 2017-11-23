@@ -1,0 +1,54 @@
+T1	Time-Implicit 0 2	当今
+T2	Person-Nominal 23 25	儿童
+T3	Person-Nominal 27 29	老人
+T4	Person-Nominal 31 33	男人
+T5	Person-Nominal 35 37	女人
+T6	Person-Nominal 41 43	人人
+R1	Part-Whole Arg1:T2 Arg2:T6	
+R2	Part-Whole Arg1:T3 Arg2:T6	
+R3	Part-Whole Arg1:T4 Arg2:T6	
+R4	Part-Whole Arg1:T5 Arg2:T6	
+T7	Person-Nominal 111 113	我们
+T8	Person-Nominal 221 224	很多人
+T9	Person-Nominal 307 310	很多人
+T10	Time-Implicit 363 370	上世纪五十年代
+T11	Person-Name 371 374	刘青山
+T12	Person-Name 375 378	张子善
+T13	Time-Implicit 381 383	当代
+T14	Person-Name 384 387	成克杰
+T15	Person-Name 388 391	胡长清
+R5	Social Arg1:T11 Arg2:T12	
+R6	Social Arg1:T14 Arg2:T15	
+T16	Person-Nominal 488 491	一个人
+T17	Organization-Nominal 511 513	社会
+T18	Organization-Nominal 515 517	国家
+T19	Person-Nominal 545 550	事业有成者
+T20	Person-Nominal 554 560	知识在身的人
+T21	Location-Nominal 565 581	知识化、信息化、网络化的当今世界
+T22	Person-Nominal 622 624	自我
+T23	Organization-Nominal 639 641	国家
+T24	Thing-Nominal 669 671	书籍
+T25	Person-Nominal 672 679	人类最好的朋友
+T26	Person-Nominal 708 710	有人
+T27	Thing-Nominal 714 716	书本
+T28	Person-Name 725 728	毛主席
+T29	Metric 728 730	一生
+T30	Metric 732 737	近10万册
+T31	Thing-Nominal 737 738	书
+T32	Thing-Nominal 799 811	积极向上、催人奋进的好书
+T33	Person-Name 812 815	高尔基
+T34	Thing-Nominal 819 823	一本好书
+T35	Person-Name 835 842	英国哲学家培根
+T36	Thing-Nominal 897 899	书籍
+T37	Thing-Nominal 900 905	知识的海洋
+*	Coreference T36 T37
+T38	Person-Pronoun 1031 1033	我们
+T39	Person-Pronoun 1077 1079	自己
+T40	Person-Nominal 1083 1089	真正健康的人
+*	Coreference T39 T40
+T41	Person-Nominal 1090 1096	真正健全的人
+T42	Thing-Nominal 1099 1101	国家
+T43	Thing-Nominal 1105 1107	民族
+T44	Thing-Nominal 1111 1113	自身
+R7	Part-Whole Arg1:T44 Arg2:T43	
+R8	Part-Whole Arg1:T42 Arg2:T44	

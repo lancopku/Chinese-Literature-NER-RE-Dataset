@@ -1,0 +1,85 @@
+T1	Thing-Nominal 0 1	家
+T2	Person-Nominal 4 7	每个人
+T3	Thing-Nominal 9 18	一个无比温馨的港湾
+*	Coreference T3 T1
+T4	Time-Implicit 21 25	每逢春节
+T5	Person-Nominal 26 29	许多人
+T6	Location-Nominal 32 33	家
+T7	Person-Pronoun 44 45	我
+T8	Person-Pronoun 54 56	自己
+T9	Time-Implicit 62 67	那个除夕夜
+T10	Time-Implicit 69 78	初参加工作的头几年
+T11	Person-Pronoun 79 80	我
+T12	Location-Nominal 82 85	大西北
+T13	Thing-Nominal 85 95	一个铁路小站养路工区
+R1	Located Arg1:T13 Arg2:T12	
+T14	Thing-Nominal 102 106	四等小站
+T15	Thing-Nominal 107 109	小站
+T16	Location-Nominal 112 118	两条铁路线上
+T17	Time-Implicit 119 121	每日
+T18	Thing-Nominal 121 128	来来往往的列车
+R2	Located Arg1:T18 Arg2:T16	
+T19	Thing-Nominal 135 136	风
+T20	Thing-Nominal 140 142	小站
+T21	Thing-Nominal 156 157	车
+T22	Thing-Nominal 161 165	别的列车
+T23	Thing-Nominal 173 175	客车
+T24	Thing-Nominal 176 178	小站
+T25	Time-Implicit 178 180	每日
+T26	Thing-Nominal 185 187	客车
+T27	Thing-Nominal 194 196	慢车
+T28	Location-Nominal 216 217	家
+T29	Time-Explicit 222 227	凌晨两点钟
+T30	Thing-Nominal 229 231	小站
+T31	Thing-Nominal 262 264	小站
+T32	Person-Nominal 266 268	家属
+T33	Thing-Nominal 273 276	家属房
+T34	Thing-Nominal 279 282	运转室
+T35	Thing-Nominal 283 296	作为单身职工宿舍的几排平房
+T36	Person-Nominal 285 289	单身职工
+T37	Location-Nominal 303 312	一片铁灰色的戈壁上
+R3	Located Arg1:T35 Arg2:T37	
+T38	Thing-Nominal 313 315	戈壁
+T39	Person-Nominal 324 325	人
+T40	Time-Implicit 331 336	每逢休息日
+T41	Person-Nominal 337 351	几个家在不算远的大站上的职工
+T42	Location-Nominal 360 361	家
+T43	Person-Pronoun 363 364	我
+T44	Time-Implicit 371 373	那时
+T45	Person-Pronoun 373 374	我
+T46	Location-Nominal 380 382	家里
+T47	Person-Nominal 385 387	父母
+R4	Family Arg1:T45 Arg2:T47	
+T48	Thing-Nominal 392 394	铁路
+T49	Thing-Nominal 397 398	车
+T50	Person-Pronoun 403 404	我
+T51	Time-Implicit 404 411	每周一个休息日
+T52	Location-Nominal 412 413	家
+T53	Location-Nominal 425 426	家
+T54	Time-Implicit 434 443	上班后的第一个“年
+T55	Time-Implicit 455 463	二十九那天下班后
+T56	Thing-Nominal 468 482;483 485	一趟在这个不起眼的小站停下的 火车
+T57	Location-Nominal 477 479	小站
+T58	Time-Implicit 488 490	晚上
+T59	Thing-Nominal 490 492	慢车
+T60	Time-Implicit 507 509	半夜
+T61	Thing-Nominal 511 513	客车
+T62	Person-Pronoun 518 519	我
+T63	Thing-Nominal 523 525	房门
+T64	Thing-Nominal 526 528	列车
+T65	Thing-Nominal 539 541	列车
+T66	Location-Nominal 550 552	屋里
+T67	Thing-Nominal 554 556	耳朵
+T68	Thing-Nominal 557 559	火车
+T69	Thing-Nominal 571 576	客车、货车
+T70	Time-Implicit 617 623	把下午带走时
+T71	Thing-Nominal 624 633	一趟喘着粗气的货车
+T72	Location-Nominal 638 646	门前高高的路基上
+R5	Located Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 648 650	太阳
+T74	Thing-Nominal 655 660	冬日的阳光
+T75	Thing-Nominal 681 686	回家的列车
+T76	Person-Pronoun 692 693	我
+T77	Person-Nominal 696 705	与我同样遭遇的同事
+T78	Person-Pronoun 697 698	我
+R6	Social Arg1:T78 Arg2:T77	

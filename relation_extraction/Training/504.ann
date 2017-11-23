@@ -1,0 +1,105 @@
+T1	Location-Nominal 0 2	我家
+T2	Location-Name 4 6	湘东
+T3	Location-Name 6 15	一个叫文日的小县城
+R1	Part-Whole Arg1:T3 Arg2:T2	
+R2	Part-Whole Arg1:T1 Arg2:T3	
+T4	Location-Nominal 16 19	东街口
+T5	Location-Nominal 44 46	小区
+T6	Thing-Nominal 26 31	几间老铺面
+T7	Metric 54 58	七八百户
+T8	Person-Nominal 58 60	人家
+T9	Thing-Nominal 62 64	楼房
+T10	Time-Explicit 70 73	星期一
+T11	Time-Explicit 74 77	星期五
+T12	Time-Implicit 78 81	一大早
+T13	Person-Nominal 83 85	司机
+T14	Thing-Nominal 87 89	小车
+T15	Location-Nominal 91 93	街口
+T16	Person-Pronoun 95 96	我
+R3	Social Arg1:T16 Arg2:T13	
+T17	Location-Nominal 97 107	七八公里外的行政中心
+T18	Person-Pronoun 111 112	我
+T19	Time-Explicit 117 126;127 130	星期六、星期日双休 的日子
+T20	Time-Explicit 133 135	早上
+T21	Thing-Nominal 145 147	闹钟
+T22	Time-Explicit 152 159	头天晚上临睡前
+T23	Thing-Nominal 172 173	书
+T24	Thing-Nominal 176 178	电视
+T25	Time-Explicit 202 205	星期日
+T26	Location-Nominal 206 208	后院
+T27	Thing-Nominal 210 213	矮屋子
+T28	Person-Name 216 218	胖婶
+T29	Person-Pronoun 232 233	你
+R4	Social Arg1:T29 Arg2:T28	
+R5	Located Arg1:T27 Arg2:T26	
+T30	Person-Pronoun 245 246	她
+*	Coreference T30 T28
+T31	Person-Nominal 250 255	自己的老公
+R6	Family Arg1:T30 Arg2:T31	
+T33	Thing-Nominal 281 283	皮球
+T32	Person-Nominal 269 271	阿叔
+*	Coreference T32 T31
+T34	Person-Nominal 287 289	阿叔
+T35	Person-Name 293 295	胖婶
+R7	Family Arg1:T35 Arg2:T34	
+T36	Person-Pronoun 308 309	我
+T37	Person-Pronoun 314 316	他们
+R8	Social Arg1:T37 Arg2:T36	
+T38	Person-Pronoun 332 333	我
+T39	Thing-Nominal 344 345	床
+T40	Time-Explicit 348 350	九点
+T41	Metric 386 387;388 391	一 个小时
+T42	Thing-Nominal 396 397	门
+T43	Location-Nominal 401 403	河边
+T44	Location-Name 414 417	文日河
+T45	Location-Nominal 427 429	县城
+T46	Location-Nominal 434 436	城东
+T47	Location-Nominal 437 439	城西
+T48	Metric 457 459	百里
+T49	Location-Name 462 464	湘江
+R9	Near Arg1:T44 Arg2:T49	
+T50	Location-Nominal 468 470	岸边
+T51	Person-Nominal 478 481	垂钓者
+T52	Person-Pronoun 482 484	他们
+*	Coreference T51 T52
+T53	Thing-Nominal 485 489	钓钩丝线
+T54	Location-Nominal 491 493	河中
+T55	Thing-Nominal 510 512	大鱼
+T56	Thing-Nominal 514 516	小鱼
+T57	Person-Pronoun 538 539	我
+T58	Location-Nominal 566 568	河岸
+T59	Location-Name 574 580	天马大桥底下
+T60	Location-Nominal 591 593	公园
+T61	Thing-Nominal 602 604	古树
+T62	Location-Nominal 608 611	水岸边
+T63	Location-Nominal 613 617	一片林子
+T64	Thing-Nominal 618 620	绿树
+T65	Thing-Nominal 623 624	鸟
+T66	Thing-Nominal 625 626	花
+R10	Part-Whole Arg1:T63 Arg2:T62	
+R11	Located Arg1:T61 Arg2:T63	
+R12	Located Arg1:T61 Arg2:T60	
+T67	Location-Nominal 631 633	斜坡
+T68	Location-Nominal 636 640	水泥坪地
+T69	Thing-Nominal 642 648	几个方形花坛
+T70	Thing-Nominal 653 655	大树
+T71	Thing-Nominal 661 664	长木条
+T72	Person-Nominal 670 674	几位老者
+T73	Person-Nominal 695 705	一位白胡子飘然的老人
+*	Coreference T73 T72
+T74	Time-Explicit 708 711	大前天
+T75	Location-Nominal 712 714	河边
+T76	Person-Nominal 714 718	有位女子
+T77	Person-Nominal 724 726	船家
+T78	Person-Pronoun 753 754	她
+*	Coreference T78 T76 T81
+T79	Person-Nominal 766 785	另一位年过半百已退居二线的干部模样的人
+T80	Person-Pronoun 788 789	他
+*	Coreference T80 T79
+T81	Person-Nominal 807 809	死者
+R13	Located Arg1:T9 Arg2:T5	
+R14	Near Arg1:T5 Arg2:T4	
+T82	Person-Nominal 193 195	自己
+R15	Located Arg1:T55 Arg2:T54	
+R16	Located Arg1:T56 Arg2:T54	
+T83	Thing-Nominal 531 532	鱼

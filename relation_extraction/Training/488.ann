@@ -1,0 +1,220 @@
+T1	Location-Name 13 22	坦荡无砥的江汉平原
+T2	Person-Nominal 24 26	母性
+T3	Thing-Nominal 36 46	一棵棵杨槐柳榆桑椿枣
+R1	Located Arg1:T3 Arg2:T1	
+T4	Thing-Nominal 47 57	一株株黍粟稻麦秫豆薯
+R2	Located Arg1:T4 Arg2:T1	
+T5	Thing-Nominal 58 60;61 63	一道 道河
+T6	Thing-Nominal 64 68	一泊泊水
+R3	Located Arg1:T5 Arg2:T1	
+R4	Located Arg1:T6 Arg2:T1	
+T7	Thing-Nominal 69 73	一条条林
+R5	Located Arg1:T7 Arg2:T1	
+T8	Thing-Nominal 74 78	一个个湾
+R6	Located Arg1:T8 Arg2:T1	
+T9	Thing-Nominal 79 81	风儿
+T10	Thing-Nominal 86 88	云儿
+T11	Thing-Nominal 98 100	花儿
+T12	Person-Pronoun 112 113	我
+T13	Person-Pronoun 188 189	我
+T14	Person-Pronoun 176 177	我
+T15	Thing-Nominal 166 174	每一个熟悉的音符
+T16	Location-Nominal 145 151	蒋家河的村里
+T17	Person-Pronoun 141 142	我
+T18	Person-Nominal 205 207	老人
+T19	Location-Nominal 198 200	湾里
+T20	Person-Nominal 216 226	一棵棵佝偻虬曲的老树
+T21	Person-Pronoun 231 232	我
+T22	Person-Pronoun 251 252	我
+T23	Location-Name 258 262	江汉平原
+T24	Thing-Nominal 279 289	一朵朵曾经缱绻的白云
+T25	Person-Pronoun 295 296	我
+T26	Thing-Nominal 328 335	一轮皎洁的月亮
+T27	Location-Nominal 338 343	湾子的上空
+R7	Located Arg1:T26 Arg2:T27	
+T28	Person-Nominal 366 369	大人们
+T29	Person-Nominal 371 378	咿呀学语的孩子
+T30	Thing-Nominal 380 382	手指
+R8	Part-Whole Arg1:T30 Arg2:T29	
+T31	Thing-Nominal 383 388	天上的月亮
+T32	Location-Nominal 383 385	天上
+R9	Located Arg1:T31 Arg2:T32	
+T33	Person-Pronoun 409 410	我
+T34	Thing-Nominal 460 461	菜
+T35	Thing-Nominal 458 459	菜
+T36	Thing-Nominal 436 438	竹片
+T37	Thing-Nominal 433 435	竹片
+T38	Location-Name 538 542	江汉平原
+T39	Person-Nominal 546 547	人
+T40	Abstract 556 561	《月亮歌》
+T41	Person-Pronoun 1699 1700	我
+T42	Person-Pronoun 576 578	我们
+T43	Location-Nominal 579 585	湾前的田野里
+T44	Thing-Nominal 587 590	萤火虫
+R10	Located Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 599 602	萤火虫
+T46	Location-Nominal 604 608	玻璃瓶内
+R11	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 610 613	萤火虫
+T48	Person-Pronoun 620 622	我们
+T49	Thing-Nominal 629 631	白雾
+T50	Person-Pronoun 635 637	我们
+T51	Thing-Nominal 639 653	一群群红蜻蜒、黄蜻蜒、黑蜻蜒
+T52	Person-Nominal 666 676	袅袅娜娜的“小花故娘
+T53	Time-Implicit 679 683	傍晚时分
+T54	Person-Nominal 684 687	大人们
+T55	Thing-Nominal 691 694	芭蕉扇
+T56	Person-Nominal 695 702	不会走路的孩童
+T57	Thing-Nominal 704 706	蚊子
+R12	Use Arg1:T54 Arg2:T55	
+T58	Abstract 711 716	《虫虫飞》
+T59	Thing-Nominal 721 723	虫虫
+T60	Thing-Nominal 725 727	虫虫
+T61	Location-Nominal 731 733	屋里
+R13	Located Arg1:T60 Arg2:T61	
+T62	Thing-Nominal 737 739	虫虫
+T63	Thing-Nominal 741 743	虫虫
+T64	Thing-Nominal 745 747	虫虫
+T65	Thing-Nominal 752 753	手
+T66	Person-Name 749 751	伢讶
+T67	Person-Name 758 760	伢讶
+T68	Thing-Nominal 761 762	手
+T69	Thing-Nominal 754 756	虫虫
+T70	Person-Nominal 763 765	爹爹
+T71	Thing-Nominal 767 769	满屋
+T72	Location-Nominal 821 824	牛背上
+R14	Part-Whole Arg1:T65 Arg2:T66	
+R15	Part-Whole Arg1:T68 Arg2:T67	
+T73	Thing-Nominal 777 778	牛
+T74	Person-Pronoun 772 773	谁
+T75	Location-Nominal 783 791	青草凄凄的小河边
+T76	Location-Nominal 793 800	绿油油的田埂上
+T77	Thing-Nominal 804 806	缰绳
+T78	Thing-Nominal 808 809	牛
+T79	Thing-Nominal 825 827	大腿
+T80	Thing-Nominal 828 830	屁股
+T81	Abstract 836 844	《三岁娃会放牛》
+T82	Person-Nominal 850 854	三岁的娃
+T83	Thing-Nominal 857 858	牛
+T84	Thing-Nominal 863 866	花牯牛
+T85	Thing-Nominal 871 874	缎子花
+T86	Thing-Nominal 869 870	花
+T87	Thing-Nominal 879 882	辣椒缎
+T88	Thing-Nominal 887 890	胡椒辣
+T89	Thing-Nominal 895 898	洞庭湖
+T90	Thing-Nominal 903 906	老鼠洞
+T91	Thing-Nominal 919 922	水牛角
+T92	Thing-Nominal 927 929	糖水
+T93	Thing-Nominal 934 936	麻塘
+T94	Thing-Nominal 941 943	线麻
+T95	Thing-Nominal 948 953	鞋底索子线
+T96	Thing-Nominal 958 961	缎子鞋
+T97	Thing-Nominal 966 968	鸡蛋
+T98	Thing-Nominal 1024 1026	蚂蟥
+T99	Thing-Nominal 1017 1019	黄豆
+T100	Thing-Nominal 974 976	雄鸡
+T101	Thing-Nominal 981 983	狗熊
+T102	Thing-Nominal 995 997	劈材
+T103	Thing-Nominal 988 990	豺狗
+T104	Thing-Nominal 1010 1012	豆腐
+T105	Thing-Nominal 1030 1032;1033 1038	?客 马(青蛙)
+T106	Thing-Nominal 1051 1052	粥
+T107	Thing-Nominal 1066 1068	小麦
+T108	Thing-Nominal 1058 1061	麦米粥
+T109	Person-Nominal 1078 1082	三岁的娃
+T110	Thing-Nominal 1085 1086	牛
+T111	Person-Nominal 1115 1120	许多小伙伴
+T112	Person-Nominal 1159 1162	小伙伴
+T113	Person-Nominal 1193 1198	其他小伙伴
+T114	Abstract 1206 1211	《张打铁》
+T115	Thing-Nominal 1235 1237	剪子
+T116	Person-Nominal 1238 1240	姐姐
+T117	Person-Nominal 1241 1243	姐姐
+T118	Person-Pronoun 1244 1245	我
+T119	Metric 1245 1248	半个月
+T120	Person-Pronoun 1249 1250	我
+T121	Thing-Nominal 1255 1256	铁
+T122	Location-Name 1259 1263	张家月子
+T123	Thing-Nominal 1264 1266	茶叶
+T124	Thing-Nominal 1267 1268	茶
+T125	Thing-Nominal 1271 1272	酒
+T126	Thing-Nominal 1275 1279	十个鸡蛋
+T127	Thing-Nominal 1338 1340	人家
+T128	Location-Nominal 1326 1335	江堤外月亮形的地方
+T129	Location-Name 1315 1317	汉江
+T130	Location-Name 1289 1309	汉江边仙桃市郑场镇的徐鸳口对岸天门市境内
+T131	Thing-Nominal 1284 1288	张家月子
+R16	Located Arg1:T131 Arg2:T130	
+T132	Person-Nominal 1393 1395	父亲
+T133	Location-Name 1399 1403	张家月子
+T134	Person-Pronoun 1398 1399	我
+T135	Location-Name 1383 1387	张家月子
+T136	Person-Nominal 1379 1381	父亲
+T137	Location-Name 1369 1373	张家月子
+T138	Location-Name 1353 1366	徐鸳口过河上天门岳口亲戚家
+T139	Person-Nominal 1350 1352	父亲
+T140	Person-Pronoun 1348 1349	我
+R17	Family Arg1:T139 Arg2:T140	
+T141	Abstract 1421 1426	《好吃佬》
+T142	Person-Pronoun 1459 1460	你
+T143	Thing-Nominal 1531 1533	竹笛
+T144	Thing-Nominal 1517 1522	点燃的汽灯
+T145	Location-Nominal 1514 1517	堂屋内
+R18	Located Arg1:T144 Arg2:T145	
+T146	Location-Name 1498 1502	江汉平原
+T147	Person-Nominal 1485 1487	爹爹
+T148	Person-Nominal 1481 1483	婆婆
+T149	Person-Pronoun 1447 1448	你
+T150	Location-Nominal 1437 1439	乡里
+T151	Thing-Nominal 1432 1433	牛
+T152	Thing-Nominal 1564 1566	锣鼓
+T153	Thing-Nominal 1587 1594	红红绿绿的旗帜
+T154	Person-Nominal 1581 1585	几名儿童
+T155	Thing-Nominal 1599 1604	远方的村子
+T156	Person-Nominal 1607 1612	湾子的儿童
+T157	Thing-Nominal 1623 1630	一颗甜甜的喜糖
+T158	Person-Nominal 1635 1638	新娘子
+T159	Abstract 1646 1651	《新姑娘》
+T160	Person-Nominal 1680 1682	儿子
+T161	Thing-Nominal 1669 1671	米汤
+T162	Thing-Nominal 1672 1674	米汤
+T163	Person-Nominal 1656 1659	新故娘
+T164	Location-Name 1705 1707	仙桃
+T165	Time-Explicit 1722 1727	一九八六年
+T166	Location-Name 1728 1731	仙桃市
+T167	Location-Name 1710 1712	沔阳
+T168	Location-Name 1735 1737	沔阳
+T169	Location-Name 1755 1757	沔阳
+T170	Location-Name 1813 1818	远去的沔阳
+T171	Thing-Nominal 1805 1807	白云
+T172	Thing-Pronoun 1800 1801	你
+T173	Thing-Nominal 1797 1799	白云
+*	Coreference T172 T173
+T174	Person-Pronoun 1793 1794	我
+T175	Thing-Nominal 1780 1787	一贫如洗的蓝天
+T176	Person-Pronoun 1764 1765	我
+T177	Organization-Name 1866 1875	湖北省仙挑市工商局
+T178	Time-Explicit 1845 1850	一九六二年
+T179	Location-Name 1852 1854	新疆
+T180	Person-Name 1829 1832	程志峰
+T181	Person-Name 1835 1837	晨风
+T182	Person-Nominal 1877 1879;1880 1887	湖北 省作家协会会员
+T183	Abstract 1906 1910	《芳草》
+T184	Abstract 1911 1916	《诗选刊》
+T185	Abstract 1917 1922	《新国风》
+T186	Abstract 1923 1928	《作家报》
+T187	Abstract 1929 1935	《新疆日报》
+T188	Abstract 1936 1940;1941 1944	《中国工 商报》
+T189	Abstract 1952 1958	《红袖添香》
+T190	Metric 1969 1974	100万字
+T191	Abstract 1989 1997	《华夏散文选萃》
+T192	Abstract 2047 2054	《我家的屋园》
+T193	Abstract 1998 2001;2002 2009	《当代 微型作品选萃》
+T194	Abstract 2010 2020	《中国文学百年经典》
+T195	Abstract 2021 2029	《中国作家选集》
+T196	Abstract 2030 2039	《中国新诗六百人》
+T197	Abstract 2040 2044	《真情》
+T198	Abstract 2122 2123;2124 2130	《 远去的童谣》
+T199	Abstract 2167 2173	《心在襄河》
+T200	Abstract 2082 2090	《童话中的教诲》
+T201	Abstract 2091 2097	《散文选刊》

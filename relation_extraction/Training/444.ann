@@ -1,0 +1,283 @@
+T1	Location-Nominal 0 9	一道长长的土坝中间
+T2	Thing-Nominal 10 14	一个豁口
+R1	Located Arg1:T2 Arg2:T1	
+T3	Location-Nominal 16 23	豁口右边的坝顶
+T4	Location-Nominal 25 30	一个浅坑里
+T5	Person-Nominal 33 36	两个人
+T6	Person-Name 37 40	肖部长
+T7	Person-Name 41 44	夏干事
+T8	Thing-Nominal 45 47	土坝
+T9	Thing-Nominal 52 54	青草
+T10	Person-Name 63 66	夏干事
+T11	Thing-Nominal 75 79	自动步枪
+T12	Person-Pronoun 80 81	他
+*	Coreference T12 T10
+T13	Person-Name 103 106	肖部长
+T14	Person-Nominal 116 117	人
+T15	Organization-Nominal 138 141	电视台
+T16	Person-Pronoun 154 155	他
+*	Coreference T16 T13
+T17	Thing-Nominal 161 166	一部摄像机
+T18	Location-Nominal 156 159	皮包里
+R2	Located Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 169 170	他
+T20	Person-Pronoun 176 177	他
+T21	Organization-Nominal 186 189	电视台
+T22	Time-Implicit 191 193	前天
+T23	Location-Nominal 194 197	太平村
+T24	Thing-Nominal 200 204	四条灰狼
+T25	Thing-Nominal 215 219	两只小崽
+T26	Location-Nominal 220 224	此村周围
+T27	Thing-Nominal 224 226	草木
+R3	Located Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 229 234	数十家住户
+T29	Time-Implicit 235 237	白天
+T30	Location-Nominal 238 240	村外
+T31	Thing-Nominal 240 245	散放的鸡鸭
+R4	Located Arg1:T31 Arg2:T30	
+T32	Location-Nominal 258 262	庄子四周
+T33	Person-Nominal 272 277	老年的村民
+T34	Metric 291 295	四十多年
+T35	Thing-Nominal 298 299	狼
+T36	Time-Implicit 304 308	近十年来
+T37	Thing-Nominal 313 314	树
+T38	Thing-Pronoun 327 329	它们
+T39	Thing-Nominal 319 322	这地方
+T40	Thing-Nominal 335 337	家园
+T41	Person-Name 342 349	镇武装部肖部长
+T42	Location-Name 359 362	太平镇
+T43	Person-Nominal 364 365	民
+T44	Person-Name 368 371	肖部长
+T45	Person-Nominal 375 377	干事
+T46	Person-Pronoun 379 380	他
+*	Coreference T46 T45
+T47	Thing-Nominal 383 385	步枪
+T48	Person-Name 391 394	肖部长
+T49	Thing-Nominal 396 399;400 402	一辆吉 普车
+T50	Location-Nominal 407 409	路上
+T51	Person-Nominal 411 417	太平村的村长
+T52	Person-Pronoun 418 419	他
+T53	Thing-Nominal 419 421	手机
+R5	Ownership Arg1:T52 Arg2:T53	
+*	Coreference T52 T48
+T54	Person-Nominal 433 435	乡长
+T55	Location-Nominal 442 445	在村外
+T56	Thing-Nominal 447 450	一只羊
+T57	Thing-Nominal 451 452	狼
+T58	Person-Nominal 456 458	两人
+R6	Located Arg1:T56 Arg2:T55	
+T59	Thing-Nominal 464 465	狼
+T60	Location-Nominal 475 480	土坝的豁口
+T61	Thing-Nominal 488 490	田地
+T62	Thing-Nominal 501 502	车
+T63	Location-Nominal 503 505	豁口
+T64	Thing-Nominal 505 510	高高的杂草
+R7	Located Arg1:T64 Arg2:T63	
+T65	Person-Nominal 513 515	两人
+T66	Location-Nominal 517 519	里面
+T67	Location-Nominal 534 539	一颗小树下
+T68	Location-Nominal 546 548	坝顶
+T69	Location-Nominal 551 553	豁口
+T70	Thing-Nominal 564 566	地面
+T71	Location-Nominal 571 574	杂草里
+T72	Thing-Nominal 574 576	蚊蝇
+R8	Located Arg1:T72 Arg2:T71	
+T73	Location-Nominal 580 585	土坝的下面
+T74	Thing-Nominal 586 592	开阔的沙砾地
+R9	Located Arg1:T74 Arg2:T73	
+T75	Thing-Nominal 593 595	小草
+T76	Thing-Nominal 610 612	土坝
+T77	Metric 612 615	近百米
+T78	Thing-Nominal 617 619	地方
+T79	Metric 634 636	几米
+T80	Location-Nominal 623 630	摄像机的镜头里
+T81	Thing-Nominal 643 651	一颗很茁壮的小树
+T82	Thing-Nominal 652 660	两条强健的大灰狼
+T83	Location-Nominal 663 666	树荫里
+R10	Located Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 667 669	肚子
+T85	Thing-Nominal 678 680	粗气
+T86	Location-Nominal 689 691	旁边
+T87	Thing-Nominal 693 701;702 705	一头已经断了气的 小公羊
+R11	Located Arg1:T87 Arg2:T86	
+T88	Thing-Pronoun 706 707	它
+*	Coreference T88 T87
+T89	Thing-Nominal 716 721	泥土和草渍
+T90	Thing-Nominal 724 728	两条小狼
+T91	Thing-Nominal 730 732	肚皮
+T92	Person-Pronoun 740 741	它
+T93	Person-Name 757 760	夏干事
+T94	Time-Implicit 765 769	上星期天
+T95	Person-Pronoun 769 770	他
+*	Coreference T95 T93
+T96	Person-Nominal 771 777	两名亲密战友
+R12	Social Arg1:T96 Arg2:T95	
+T97	Person-Nominal 779 781	家眷
+T98	Location-Nominal 782 784	郊外
+T99	Thing-Nominal 791 793	全羊
+T100	Location-Nominal 797 807	一颗叶茂枝繁的大树下
+T101	Location-Nominal 808 817;818 821	一大张油渍麻花的牛 皮纸上
+T102	Thing-Nominal 824 835	一只喂满了调料的小肥羊
+R13	Located Arg1:T102 Arg2:T101	
+T103	Location-Nominal 836 838	周围
+T104	Thing-Nominal 839 846	一片肥沃的土地
+R14	Located Arg1:T104 Arg2:T103	
+T105	Thing-Nominal 856 858	小草
+T106	Thing-Nominal 861 863	野花
+T107	Thing-Nominal 870 872	大树
+T108	Metric 872 875	数十株
+T109	Person-Nominal 877 878;879 881	大 人们
+T110	Thing-Nominal 885 893	粗树枝(搭支架)
+T111	Thing-Nominal 897 898	炭
+T112	Person-Nominal 900 909	三个天真活泼的小孩
+T113	Thing-Nominal 911 914	小肥羊
+T114	Thing-Nominal 928 929	羊
+T115	Thing-Nominal 948 950	大狼
+T116	Person-Nominal 966 968	猎物
+T117	Thing-Nominal 975 982	北方远处的密林
+T118	Location-Nominal 975 979	北方远处
+R15	Located Arg1:T117 Arg2:T118	
+T119	Thing-Nominal 994 996	小狼
+T120	Thing-Nominal 1012 1014	小狼
+T121	Thing-Nominal 1019 1022	猎物”
+T122	Thing-Nominal 1029 1031	大狼
+T123	Thing-Nominal 1033 1034	口
+R16	Part-Whole Arg1:T122 Arg2:T123	
+T124	Thing-Nominal 1038 1040	大狼
+T125	Location-Nominal 1050 1053	树荫中
+R17	Located Arg1:T124 Arg2:T125	
+T126	Thing-Nominal 1056 1058	土坝
+T127	Thing-Nominal 1063 1064	草
+T128	Thing-Nominal 1068 1069	鸟
+T129	Thing-Nominal 1071 1072	蝈
+T130	Thing-Nominal 1083 1085	大狼
+T131	Thing-Nominal 1095 1097	公狼
+T132	Thing-Nominal 1099 1106	“猎物”的颈椎
+T133	Thing-Nominal 1107 1109	母狼
+T134	Thing-Nominal 1110 1112	长嘴
+*	Coreference T134 T133
+T135	Thing-Nominal 1117 1119	小崽
+T136	Location-Nominal 1123 1129	猎物”的腹部
+T137	Person-Nominal 1123 1125	猎物
+T138	Thing-Nominal 1139 1141	腹部
+T139	Thing-Nominal 1149 1156	一个血淋淋的洞
+T140	Person-Name 1158 1161	夏干事
+T141	Thing-Nominal 1169 1171	右手
+T142	Person-Pronoun 1168 1169	他
+*	Coreference T142 T140
+R18	Part-Whole Arg1:T141 Arg2:T142	
+T143	Thing-Nominal 1172 1174	食指
+T144	Thing-Nominal 1180 1182	扳机
+T145	Person-Pronoun 1183 1184	他
+T146	Thing-Nominal 1185 1186	头
+T147	Person-Name 1188 1191	肖部长
+T148	Person-Pronoun 1194 1195	我
+T149	Thing-Nominal 1197 1198	羊
+T150	Person-Name 1203 1206	肖部长
+T151	Thing-Nominal 1225 1227	小狼
+T152	Thing-Nominal 1236 1238	嘴巴
+*	Coreference T152 T151
+T153	Thing-Nominal 1245 1250	嫩嫩的脏腑
+T154	Thing-Nominal 1253 1255	满嘴
+T155	Thing-Nominal 1255 1256	血
+T156	Thing-Nominal 1260 1262	大狼
+T157	Thing-Nominal 1268 1270	脖子
+T158	Thing-Nominal 1263 1265	背部
+T159	Thing-Nominal 1276 1278	鲜肉
+T160	Person-Name 1293 1296	夏干事
+T161	Person-Pronoun 1300 1301	他
+*	Coreference T161 T160
+T162	Thing-Nominal 1308 1311	小肥羊
+T163	Person-Nominal 1324 1325	人
+T164	Person-Name 1333 1336	夏干事
+T165	Thing-Nominal 1338 1345	一把锋利的小刀
+T166	Thing-Nominal 1347 1352	滚烫的羊肉
+T167	Location-Nominal 1364 1374	地上一个干净的大盆里
+T168	Person-Nominal 1375 1377	小孩
+T169	Person-Nominal 1377 1379	每人
+T170	Thing-Nominal 1382 1386	一个熟腿
+T171	Thing-Nominal 1387 1389	微风
+T172	Person-Nominal 1393 1395	大家
+T173	Thing-Nominal 1397 1405	白酒啤酒果汁饮料
+T174	Thing-Nominal 1427 1429	满手
+T175	Thing-Nominal 1429 1431	满嘴
+T176	Thing-Nominal 1440 1443	一只狼
+T177	Thing-Nominal 1454 1455	狼
+T178	Thing-Nominal 1450 1453	小公羊
+T179	Thing-Nominal 1463 1466	小肥羊
+T180	Thing-Nominal 1467 1468	狼
+T181	Person-Nominal 1493 1495	朋友
+T182	Person-Pronoun 1496 1498	你们
+T183	Person-Nominal 1517 1518	人
+T184	Person-Pronoun 1533 1534	你
+T185	Person-Name 1546 1549	肖部长
+T186	Thing-Pronoun 1562 1564	它们
+T187	Thing-Nominal 1576 1579	小公羊
+T188	Thing-Nominal 1582 1593	一堆不整齐的鲜亮的骨架
+T189	Thing-Nominal 1594 1602	那只小肥羊的骨架
+T190	Thing-Nominal 1615 1617	头颅
+T191	Thing-Nominal 1620 1625	四蹄和皮毛
+T192	Person-Name 1631 1634	肖部长
+T193	Person-Name 1645 1648	夏干事
+T194	Person-Pronoun 1661 1662	他
+*	Coreference T194 T193
+T195	Thing-Nominal 1669 1675	勾板机的食指
+T196	Thing-Nominal 1670 1672	板机
+T197	Thing-Nominal 1689 1691	草木
+T198	Thing-Nominal 1696 1698	群鸟
+T199	Location-Nominal 1694 1696	远方
+T200	Thing-Nominal 1705 1706	狼
+T201	Thing-Nominal 1714 1717	四条狼
+T202	Thing-Nominal 1725 1730	北方的密林
+T203	Person-Pronoun 1731 1733	他们
+T204	Location-Nominal 1737 1739	坝上
+T205	Thing-Nominal 1742 1749	一个举枪的人影
+T206	Thing-Nominal 1750 1752	公狼
+T207	Thing-Nominal 1753 1757	一支灰箭
+T208	Thing-Nominal 1760 1762	母狼
+T209	Thing-Pronoun 1771 1772	它
+*	Coreference T209 T208
+T210	Thing-Nominal 1775 1780	尾随的小狼
+T211	Thing-Nominal 1782 1786	那个人影
+T212	Person-Name 1787 1790	肖部长
+T213	Person-Name 1798 1801	肖部长
+T214	Thing-Nominal 1811 1814	摄像机
+T215	Thing-Nominal 1817 1819	步枪
+T216	Thing-Nominal 1822 1824	表尺
+T217	Person-Name 1831 1834	肖部长
+T218	Person-Pronoun 1854 1855	他
+*	Coreference T218 T217
+T219	Person-Name 1859 1862	夏干事
+T220	Thing-Nominal 1867 1871	一颗弹丸
+T221	Thing-Nominal 1879 1885	公狼的后脑骨
+T222	Thing-Nominal 1886 1888	公狼
+T223	Thing-Nominal 1893 1895	伤口
+T224	Thing-Nominal 1897 1902	脑浆和鲜血
+T225	Thing-Nominal 1907 1912	另一颗弹头
+T226	Thing-Nominal 1922 1927	母狼的背部
+T227	Thing-Nominal 1929 1931	母狼
+T228	Location-Nominal 1933 1935	地上
+T229	Thing-Nominal 1946 1948	枪弹
+T230	Thing-Nominal 1962 1967	小狼的颅骨
+T231	Thing-Nominal 1962 1964	小狼
+*	Coreference T230 T231
+T232	Thing-Pronoun 1968 1970	它俩
+T233	Person-Nominal 1987 1988;1989 1990	父 母
+T234	Thing-Nominal 1997 1999	母狼
+T235	Thing-Nominal 2001 2007	血糊糊的长嘴
+T236	Thing-Nominal 2022 2024	小崽
+T237	Organization-Nominal 2043 2047	市电视台
+T238	Location-Nominal 2064 2070	广袤的草原上
+T239	Location-Nominal 2071 2077	巍峨的群山间
+T240	Location-Nominal 2078 2086	花团锦簇的清溪边
+T241	Thing-Nominal 2087 2091	蓝天白云
+T242	Thing-Nominal 2094 2096;2097 2099	两条 大狼
+T243	Thing-Nominal 2107 2111	两条小狼
+T244	Person-Nominal 2117 2119	父母
+T245	Person-Pronoun 2123 2125	它们
+R19	Create Arg1:T245 Arg2:T243	
+T246	Time-Implicit 2158 2162	今天上午
+T247	Location-Name 2164 2172	太平镇太平村附近
+T248	Thing-Nominal 2175 2178	四只狼
+T249	Person-Name 2201 2204	肖部长
+T250	Location-Nominal 2206 2210	电视机前

@@ -1,0 +1,105 @@
+T1	Location-Name 5 8	白洋淀
+T2	Person-Nominal 15 17	新娘
+T3	Location-Name 30 33	白洋淀
+T4	Location-Name 64 65	京
+T5	Location-Name 66 67	津
+T6	Location-Name 68 69	冀
+T8	Location-Name 163 166	白洋淀
+T9	Location-Name 205 208	白洋淀
+T10	Location-Nominal 217 219	荷园
+T11	Person-Name 261 264	李师儿
+T12	Person-Name 246 250	章宗皇帝
+T13	Time-Explicit 243 245	金代
+T14	Location-Pronoun 228 230	这里
+*	Coreference T10 T14 T60
+T15	Person-Nominal 255 257	元妃
+*	Coreference T15 T11
+T16	Location-Name 269 273;274 276	保定安新 县城
+T17	Person-Name 300 304	章宗皇帝
+T18	Person-Pronoun 307 308	她
+T19	Person-Nominal 325 327	皇帝
+T20	Person-Nominal 328 330	元妃
+*	Coreference T19 T17
+*	Coreference T18 T20
+T21	Person-Nominal 339 343	平常百姓
+T22	Location-Pronoun 346 347	此
+T23	Person-Nominal 354 356	人们
+T24	Location-Pronoun 358 360	这里
+T25	Location-Nominal 363 367	元妃荷园
+*	Coreference T24 T25 T22
+T26	Location-Name 370 373	白洋淀
+T27	Location-Nominal 379 383	华北平原
+R1	Part-Whole Arg1:T26 Arg2:T27	
+T28	Thing-Name 400 401	芦
+T29	Thing-Nominal 407 409	荷叶
+T31	Thing-Nominal 412 414	蒲草
+T32	Thing-Nominal 422 424	菱角
+T33	Location-Nominal 511 515	华北平原
+T34	Location-Pronoun 532 533	此
+T36	Thing-Nominal 552 553	水
+T37	Thing-Nominal 553 554	天
+T38	Thing-Nominal 574 575	荷
+T39	Thing-Nominal 575 576	藕
+T40	Location-Name 660 663	白洋淀
+T41	Thing-Nominal 686 688	船楼
+T42	Person-Nominal 693 695	游人
+T43	Thing-Nominal 698 699;700 701	画 舫
+T44	Location-Nominal 710 712	江南
+T45	Location-Nominal 713 715	北国
+T46	Thing-Nominal 732 734	藕花
+T47	Thing-Nominal 734 735	船
+T48	Thing-Nominal 736 737	月
+T49	Location-Name 730 731	淀
+T50	Thing-Nominal 742 745	野鸳鸯
+T51	Time-Implicit 199 203	自古以来
+T53	Person-Nominal 146 148	帝王
+T54	Location-Pronoun 41 42	它
+T55	Location-Pronoun 61 62	它
+T56	Person-Nominal 208 212;213 215	观赏荷花 的人
+T57	Person-Pronoun 267 269	我们
+T58	Thing-Nominal 281 283	荷花
+T59	Thing-Nominal 290 292	荷花
+T60	Location-Pronoun 309 311	这里
+T61	Location-Pronoun 319 321	这里
+T62	Thing-Nominal 332 334	荷花
+T7	Metric 75 82	366平方公里
+T63	Organization-Name 132 136	荷花淀派
+*	Coreference T3 T54 T52 T64 T65
+R2	Near Arg1:T4 Arg2:T5	
+R3	Near Arg1:T5 Arg2:T55	
+R4	Near Arg1:T4 Arg2:T6	
+T52	Location-Name 102 106	北地西湖
+T64	Location-Name 113 117	华北明珠
+T65	Location-Name 124 128	鱼米之乡
+R5	Located Arg1:T46 Arg2:T49	
+R6	Located Arg1:T47 Arg2:T49	
+R7	Located Arg1:T50 Arg2:T49	
+*	Coreference T34 T26
+T35	Thing-Nominal 569 570	蛙
+T66	Thing-Nominal 171 172	水
+T67	Thing-Nominal 174 175	鸟
+T68	Thing-Nominal 176 177	花
+T69	Location-Nominal 179 181	堤岸
+T70	Location-Nominal 189 193	北国江南
+*	Coreference T8 T70
+T71	Location-Nominal 405 407	水中
+R8	Located Arg1:T29 Arg2:T71	
+R9	Located Arg1:T31 Arg2:T71	
+T30	Thing-Nominal 417 419	鸡头
+R10	Located Arg1:T30 Arg2:T71	
+R11	Located Arg1:T32 Arg2:T71	
+T72	Location-Nominal 388 390	水域
+R12	Near Arg1:T28 Arg2:T72	
+T73	Thing-Nominal 523 525	衣裳
+T74	Thing-Nominal 537 538	烟
+T75	Time-Implicit 581 585	金秋十月
+T76	Time-Implicit 598 602	隆冬时日
+T77	Thing-Nominal 602 603	冰
+T78	Thing-Nominal 603 604	水
+T79	Thing-Nominal 619 620	水
+T80	Thing-Nominal 672 674	轻纱
+T81	Thing-Nominal 676 678	细雨
+T82	Thing-Nominal 681 683	薄雾
+R13	Located Arg1:T41 Arg2:T40	
+R14	Use Arg1:T42 Arg2:T43	
+T83	Thing-Nominal 717 719	油画

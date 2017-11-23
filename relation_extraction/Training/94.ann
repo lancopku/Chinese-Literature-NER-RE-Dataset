@@ -1,0 +1,174 @@
+T1	Time-Implicit 0 4	这个周六
+T2	Person-Pronoun 5 6	我
+T3	Person-Nominal 16 18	自己
+T4	Person-Nominal 28 31	一个人
+T5	Location-Nominal 33 35	家门
+T6	Thing-Name 38 43	贡布茨纳路
+T7	Location-Name 47 49	洮河
+T8	Location-Nominal 62 64	城郊
+T9	Thing-Nominal 81 86	高大的白杨
+T10	Thing-Nominal 87 92	低矮的杂树
+T11	Thing-Nominal 93 98	满山的衰草
+T12	Thing-Nominal 99 104	流淌的河流
+T13	Thing-Nominal 105 110	蔚蓝的天空
+T14	Person-Pronoun 135 136	我
+T15	Person-Pronoun 163 164	我
+T16	Time-Implicit 189 191	这时
+T17	Person-Pronoun 191 192	我
+T18	Location-Pronoun 219 221	这里
+*	Coreference T18 T8
+T19	Thing-Nominal 223 228	多彩的画笔
+T20	Person-Nominal 233 235	自己
+T21	Person-Nominal 237 241	一位画家
+T22	Person-Nominal 256 258	画家
+T23	Thing-Nominal 256 262	画家手中的笔
+T24	Location-Nominal 256 260	画家手中
+R1	Located Arg1:T23 Arg2:T24	
+T25	Person-Pronoun 280 281	我
+T26	Person-Pronoun 295 296	我
+T27	Person-Nominal 321 329	如我一般失意之人
+T28	Time-Implicit 303 305	一年
+T29	Metric 303 305	一年
+T30	Person-Nominal 352 355	没有人
+T31	Person-Nominal 362 363	人
+T32	Person-Nominal 371 373	自己
+T33	Person-Nominal 428 431	多少人
+T34	Person-Nominal 452 456	英雄豪杰
+T35	Person-Nominal 458 462	无数人物
+T36	Person-Nominal 483 485	人类
+T37	Time-Implicit 502 509	多姿多彩的秋天
+T38	Time-Implicit 520 523	在古代
+T39	Person-Pronoun 552 553	我
+T40	Person-Nominal 566 572	历代文人墨客
+T41	Person-Pronoun 590 591	我
+T42	Time-Implicit 599 601	秋天
+T43	Person-Pronoun 608 609	我
+T44	Time-Implicit 620 622	秋天
+T45	Person-Pronoun 640 641	我
+T46	Person-Nominal 647 650	没有人
+T47	Time-Implicit 652 655	秋天里
+T48	Person-Pronoun 655 656	我
+T49	Person-Pronoun 687 688	我
+T50	Thing-Nominal 692 703	那土地、那山野、那河流
+T51	Person-Pronoun 710 711	我
+T52	Thing-Nominal 712 716	那块土地
+T53	Person-Pronoun 717 718	我
+T54	Person-Pronoun 725 726	我
+T56	Thing-Nominal 727 729;730 733	自己 的身躯
+R2	Part-Whole Arg1:T56 Arg2:T54	
+T55	Person-Pronoun 745 746	我
+T57	Thing-Nominal 747 751	那座大山
+T58	Person-Pronoun 752 753	我
+T59	Person-Pronoun 760 761	我
+T60	Thing-Nominal 762 767	自己的草叶
+R3	Part-Whole Arg1:T60 Arg2:T59	
+T61	Person-Pronoun 780 781	我
+T62	Thing-Nominal 782 785	那河流
+T63	Person-Pronoun 786 787	我
+T64	Person-Pronoun 795 796	我
+T65	Thing-Nominal 797 802	自己的乳液
+R4	Part-Whole Arg1:T65 Arg2:T64	
+T66	Metric 807 809	万顷
+T67	Thing-Nominal 807 811	万顷良田
+T68	Person-Pronoun 817 818	我
+T69	Person-Pronoun 824 825	我
+T70	Person-Pronoun 838 839	我
+T71	Person-Nominal 827 837	活着用来消耗自己的人
+T72	Person-Nominal 842 851;852 855	悲观甚至厌世的无为 之女人
+T73	Person-Nominal 860 862	女人
+T74	Person-Nominal 876 880	所有的人
+T75	Person-Nominal 894 896	女人
+T76	Time-Implicit 898 900	白天
+T77	Person-Nominal 902 903	夫
+T78	Person-Nominal 904 905	儿
+T79	Person-Nominal 907 908	衣
+T80	Person-Nominal 909 910	饭
+T81	Person-Nominal 924 926	女人
+T82	Time-Implicit 930 932	晚上
+T83	Person-Nominal 951 953	女人
+T84	Person-Nominal 935 937	自己
+T85	Time-Implicit 963 965	夜晚
+T86	Person-Pronoun 967 968	我
+T87	Person-Pronoun 973 974	我
+T88	Time-Implicit 982 984	晚上
+T89	Time-Implicit 988 992	每个夜晚
+T90	Location-Nominal 993 996	灯光下
+T91	Person-Pronoun 993 998	灯光下的我
+T92	Person-Pronoun 1013 1014	我
+T93	Person-Pronoun 1029 1030	我
+T94	Thing-Nominal 1041 1045	我的躯体
+T95	Person-Pronoun 1041 1042	我
+R5	Part-Whole Arg1:T94 Arg2:T95	
+T96	Person-Pronoun 1055 1056	我
+T97	Person-Nominal 1062 1064	自己
+T98	Time-Explicit 1066 1068	而今
+T99	Time-Implicit 1079 1082	年少时
+T100	Time-Implicit 1139 1141	早上
+T101	Thing-Nominal 1143 1145	太阳
+T102	Time-Implicit 1148 1150	晚上
+T103	Thing-Nominal 1152 1154	太阳
+T104	Person-Pronoun 1214 1215	我
+T105	Person-Pronoun 1243 1244	我
+T106	Person-Pronoun 1257 1259	我们
+T107	Thing-Nominal 1272 1274	金子
+T108	Thing-Nominal 1288 1293	海绵里的水
+T109	Location-Nominal 1288 1291	海绵里
+R6	Located Arg1:T108 Arg2:T109	
+T110	Person-Nominal 1316 1324	作出伟大成绩的人
+T111	Person-Nominal 1328 1336	一个惜时如命的人
+T112	Thing-Nominal 1348 1354	最美丽的花朵
+T113	Location-Nominal 1339 1345	时间的绸幅上
+R7	Located Arg1:T112 Arg2:T113	
+R8	Create Arg1:T110 Arg2:T112	
+T114	Person-Name 1354 1357	。鲁迅
+T115	Person-Nominal 1371 1379	一个热爱生活的人
+T116	Person-Pronoun 1380 1381	他
+*	Coreference T116 T115
+T117	Person-Nominal 1384 1394	一个懂得珍惜时间的人
+T118	Person-Nominal 1395 1398	多少人
+T119	Person-Nominal 1428 1431	许多人
+T120	Thing-Nominal 1439 1441	芝麻
+T121	Thing-Nominal 1443 1445	西瓜
+T122	Person-Name 1463 1466	朱自清
+T123	Abstract 1467 1471	《匆匆》
+T124	Thing-Nominal 1473 1475	燕子
+T125	Thing-Nominal 1485 1487	杨柳
+T126	Thing-Nominal 1497 1499	桃花
+T127	Person-Pronoun 1516 1517	你
+T128	Person-Pronoun 1519 1520	我
+T129	Person-Pronoun 1521 1522;1523 1524	我 们
+T130	Thing-Nominal 1559 1561	流泪
+T131	Person-Pronoun 1574 1575	我
+T132	Person-Nominal 1578 1589	古往今来中外的圣哲先贤
+T133	Person-Nominal 1590 1594	爱国诗人
+T134	Person-Name 1594 1596	屈原
+R9	Part-Whole Arg1:T134 Arg2:T133	
+T135	Person-Nominal 1597 1601	史家鼻祖
+T136	Person-Name 1601 1604	司马迁
+*	Coreference T136 T135
+T137	Person-Nominal 1605 1609	精神高士
+T138	Person-Name 1609 1612	陶渊明
+R10	Part-Whole Arg1:T137 Arg2:T138	
+T139	Person-Nominal 1613 1616	文学家
+T140	Person-Name 1616 1619	弥尔顿
+R11	Part-Whole Arg1:T140 Arg2:T139	
+T141	Person-Nominal 1620 1623	音乐家
+T142	Person-Name 1623 1626	贝多芬
+R12	Part-Whole Arg1:T142 Arg2:T141	
+T143	Person-Nominal 1628 1632	小提琴家
+T144	Person-Name 1632 1636	帕格尼尼
+R13	Part-Whole Arg1:T144 Arg2:T143	
+T145	Person-Nominal 1637 1640	哲学家
+T146	Person-Name 1640 1642	尼采
+R14	Part-Whole Arg1:T146 Arg2:T145	
+T147	Person-Pronoun 1644 1646	他们
+T148	Person-Pronoun 1668 1670	他们
+T149	Person-Pronoun 1687 1688;1689 1690	他 们
+T150	Person-Pronoun 1717 1719	他们
+T151	Person-Pronoun 1731 1733	他们
+T152	Person-Nominal 1720 1722	自己
+T153	Person-Nominal 1734 1736	自己
+T154	Time-Explicit 1754 1756	此刻
+T155	Person-Pronoun 1757 1758	我
+T156	Person-Nominal 1760 1762	自己
+T157	Thing-Nominal 1774 1776	秋风

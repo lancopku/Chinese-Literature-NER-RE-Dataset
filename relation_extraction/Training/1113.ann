@@ -1,0 +1,132 @@
+T1	Thing-Nominal 0 3	草原狼
+T2	Thing-Nominal 25 29	这些狼群
+T3	Location-Nominal 47 50	草原上
+T4	Thing-Nominal 63 65	雪山
+T5	Thing-Nominal 69 71	冰河
+T6	Thing-Nominal 93 95	日月
+T7	Thing-Nominal 102 103	狼
+T8	Location-Nominal 98 101	草原上
+R1	Located Arg1:T7 Arg2:T8	
+T9	Thing-Nominal 104 106	血腥
+T10	Person-Nominal 135 138	流浪者
+T11	Location-Nominal 146 151	辽阔的草原
+T12	Thing-Nominal 154 155	狼
+R2	Located Arg1:T12 Arg2:T11	
+T13	Thing-Nominal 162 163	狼
+T14	Thing-Nominal 165 168	牛马羊
+T15	Thing-Nominal 174 175	狼
+T16	Thing-Nominal 189 191	种群
+T17	Thing-Nominal 192 194;195 196	牛马 羊
+T18	Person-Nominal 197 199	牧人
+T19	Thing-Nominal 213 218	一对对寒光
+T20	Person-Nominal 222 224	牧人
+T21	Thing-Nominal 246 247	狼
+T22	Thing-Pronoun 257 259	它们
+*	Coreference T22 T21
+T23	Thing-Nominal 279 283	风霜雨雪
+T24	Time-Implicit 288 292	春夏秋冬
+T25	Thing-Nominal 311 316	祖辈的目光
+T26	Person-Nominal 311 313	祖辈
+T27	Thing-Nominal 319 321	脊梁
+T28	Thing-Nominal 326 328	草原
+T29	Thing-Nominal 332 336	茫茫白雪
+T30	Thing-Nominal 339 341	草原
+T31	Thing-Nominal 344 351	散着争夺的瘴气
+T32	Thing-Pronoun 361 364	它们咀
+T33	Thing-Nominal 371 374	牛马羊
+T34	Location-Nominal 379 381	驻地
+R3	Located Arg1:T33 Arg2:T34	
+T35	Thing-Nominal 382 388	蒙古包的炊烟
+T36	Thing-Nominal 382 385	蒙古包
+T37	Thing-Nominal 394 397	马头琴
+T38	Thing-Nominal 412 413	草
+T39	Thing-Nominal 405 409	一曲长调
+T40	Thing-Nominal 420 422	青草
+T41	Thing-Nominal 431 433	草原
+T42	Thing-Nominal 443 444	狼
+T43	Person-Nominal 450 454	蒙古汉子
+T44	Thing-Pronoun 458 459	它
+*	Coreference T44 T42
+T45	Thing-Nominal 470 472	血腥
+T46	Thing-Nominal 473 475	烈火
+T47	Location-Nominal 478 482	大地之上
+T48	Thing-Nominal 484 489	每一个足印
+R4	Located Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 490 495	幽幽的绿光
+T50	Thing-Nominal 505 509	一只狐狸
+T51	Time-Implicit 512 514	深秋
+T52	Time-Implicit 497 499	深秋
+T53	Thing-Nominal 523 525	狐狸
+T54	Thing-Nominal 552 555	牛和羊
+T55	Thing-Pronoun 560 562	它们
+*	Coreference T55 T54
+T56	Thing-Nominal 567 572	吃不完的草
+T57	Thing-Nominal 575 587	永远也呼吸不完的清新空气
+T58	Thing-Nominal 599 600	头
+R5	Part-Whole Arg1:T58 Arg2:T54	
+T59	Thing-Nominal 609 610	草
+T60	Location-Nominal 616 618	远处
+T61	Thing-Nominal 619 620	山
+R6	Located Arg1:T61 Arg2:T60	
+T62	Location-Nominal 626 627	家
+T63	Thing-Nominal 644 645	它
+*	Coreference T63 T61
+T64	Thing-Nominal 660 667	寒冷堆积的盘子
+T65	Thing-Nominal 680 681	风
+T66	Thing-Nominal 694 696	落叶
+T67	Thing-Nominal 709 710	风
+T68	Thing-Nominal 739 743	一缕光线
+T69	Time-Implicit 746 747	夜
+T70	Thing-Nominal 765 767	狐狸
+T71	Time-Implicit 785 789	这个季节
+T72	Thing-Nominal 804 806	目光
+T73	Location-Nominal 838 847	每一口度日的食物上
+T74	Thing-Nominal 876 878	尾巴
+T75	Thing-Nominal 920 922	狐狸
+T76	Thing-Nominal 923 925	狐狸
+T77	Thing-Nominal 932 935	一个洞
+T78	Time-Implicit 946 955	充满丰富多样的深秋
+T79	Thing-Nominal 965 967	大地
+T80	Location-Nominal 977 979	仓库
+T81	Thing-Nominal 982 986	表面的痕
+T82	Thing-Nominal 1014 1016	狐狸
+T83	Thing-Nominal 1047 1049	白云
+T84	Thing-Nominal 1050 1052	天空
+T85	Thing-Nominal 1056 1061	四季的脚步
+T86	Time-Implicit 1056 1058	四季
+T87	Thing-Nominal 1075 1077	阳光
+T88	Thing-Nominal 1088 1090	月亮
+T89	Thing-Nominal 1117 1119	天空
+T90	Thing-Nominal 1127 1129	白云
+T91	Thing-Nominal 1137 1141	滚动的云
+T92	Thing-Nominal 1152 1153	鸟
+T93	Thing-Nominal 1174 1179	静默的目光
+T94	Location-Nominal 1204 1209	一片绿草地
+T95	Thing-Nominal 1211 1213	炊烟
+T96	Thing-Nominal 1222 1227	疯长的青草
+T97	Thing-Nominal 1271 1273	大地
+T98	Thing-Nominal 1274 1276	万物
+T99	Location-Nominal 1281 1285	道路之上
+T100	Thing-Nominal 1288 1290	荆棘
+R7	Located Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 1291 1298	没有退缩的脚印
+T102	Thing-Nominal 1304 1306	耳畔
+T103	Thing-Nominal 1307 1308	火
+T104	Time-Implicit 1314 1318	焚烧之后
+T105	Location-Nominal 1319 1322	灰烬里
+T106	Thing-Nominal 1325 1329;1330 1331	劣质的骨 头
+R8	Located Arg1:T106 Arg2:T105	
+T107	Thing-Nominal 1374 1376	嫩芽
+T108	Thing-Nominal 1386 1387	手
+T109	Thing-Nominal 1417 1419	利齿
+T110	Thing-Nominal 1422 1424	花朵
+T111	Location-Nominal 1422 1427	花朵的一侧
+T112	Location-Nominal 1439 1440	台
+T113	Thing-Nominal 1526 1528	根系
+T114	Thing-Nominal 1531 1532	树
+T115	Thing-Nominal 1533 1534	草
+T116	Thing-Nominal 1444 1448	严谨的钟
+T117	Thing-Nominal 1573 1575	根系
+R9	Part-Whole Arg1:T113 Arg2:T114	
+T118	Person-Nominal 1640 1641	人
+T119	Thing-Nominal 1674 1680	一条安静的河

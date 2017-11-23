@@ -1,0 +1,312 @@
+T1	Person-Nominal 7 9	伟人
+T2	Person-Name 9 12	毛泽东
+*	Coreference T1 T2
+T3	Time-Implicit 26 30	童年时代
+T4	Location-Name 32 35	井冈山
+T5	Person-Pronoun 38 39	我
+T6	Location-Nominal 43 45	圣地
+*	Coreference T4 T6
+T7	Time-Explicit 46 50	今年5月
+T8	Location-Name 51 54	井冈山
+T9	Location-Name 57 60	井冈山
+T10	Thing-Nominal 65 67	山峦
+T11	Thing-Nominal 71 73	云海
+T12	Thing-Nominal 77 79	山石
+T13	Thing-Nominal 83 85	溶洞
+T14	Thing-Nominal 89 91	古树
+T15	Thing-Nominal 96 98	杜鹃
+T16	Person-Pronoun 102 103	我
+T17	Person-Pronoun 108 109	我
+T18	Location-Name 124 127	井冈山
+T19	Thing-Nominal 139 141	溪流
+T20	Thing-Nominal 145 147	飞瀑
+R1	Located Arg1:T10 Arg2:T18	
+R2	Located Arg1:T11 Arg2:T18	
+R3	Located Arg1:T12 Arg2:T18	
+R4	Located Arg1:T13 Arg2:T18	
+R5	Located Arg1:T14 Arg2:T18	
+R6	Located Arg1:T15 Arg2:T18	
+R7	Located Arg1:T19 Arg2:T18	
+R8	Located Arg1:T20 Arg2:T18	
+T21	Location-Name 158 161	井冈山
+T22	Thing-Nominal 154 156	摇篮
+T23	Location-Name 183 186	北岩峰
+T24	Location-Nominal 187 191	烈士陵园
+R9	Part-Whole Arg1:T24 Arg2:T23	
+T25	Location-Nominal 207 209;210 212	瞻仰 大厅
+T26	Person-Name 214 217	毛泽东
+T27	Thing-Nominal 236 239	玻璃柜
+T28	Thing-Nominal 243 249	革命烈士名册
+R10	Located Arg1:T28 Arg2:T27	
+T29	Location-Nominal 252 254	大厅
+T30	Person-Nominal 255 257	人们
+T31	Thing-Nominal 260 262	花圈
+T32	Thing-Nominal 263 265	花篮
+R11	Located Arg1:T31 Arg2:T29	
+R12	Located Arg1:T32 Arg2:T29	
+T33	Person-Pronoun 267 268	我
+T34	Location-Pronoun 273 275	这里
+*	Coreference T34 T29
+T35	Location-Nominal 284 288	吊唁大厅
+T36	Location-Nominal 290 292	墙面
+R13	Part-Whole Arg1:T36 Arg2:T35	
+T37	Time-Explicit 296 305	井冈山革命斗争时期
+T38	Person-Nominal 310 312	烈士
+T39	Person-Pronoun 316 317	我
+T40	Location-Pronoun 342 344	这里
+T41	Person-Nominal 345 347	烈士
+*	Coreference T35 T40
+T42	Person-Nominal 359 364	无名的烈士
+T43	Location-Nominal 372 376	吊唁大厅
+T44	Thing-Nominal 382 387	汉白玉碑石
+R14	Located Arg1:T44 Arg2:T43	
+T45	Person-Nominal 399 402	英烈们
+T46	Person-Pronoun 413 415	他们
+*	Coreference T46 T45
+T47	Thing-Nominal 420 423	红星章
+T48	Thing-Nominal 430 432	杜鹃
+T49	Person-Pronoun 459 461	他们
+T50	Location-Name 525 528	井冈山
+T51	Person-Nominal 574 575;576 577	英 烈
+T52	Person-Pronoun 578 579	我
+T53	Thing-Nominal 597 601	金色火炬
+T54	Thing-Nominal 602 607	无名烈士碑
+T55	Person-Pronoun 608 609	你
+T56	Thing-Nominal 620 622	钢枪
+T57	Thing-Nominal 628 629	笔
+T58	Person-Nominal 633 635	英烈
+T59	Location-Name 645 648	黄洋界
+T60	Location-Name 649 651	大井
+T61	Location-Name 652 654	小井
+T62	Location-Name 655 663	井冈山革命博物馆
+T63	Location-Name 664 671	井冈山烈士陵园
+T64	Person-Pronoun 679 680	我
+T65	Thing-Nominal 685 690	井冈山的路
+T66	Person-Nominal 692 694	烈士
+R15	Part-Whole Arg1:T60 Arg2:T59	
+R16	Part-Whole Arg1:T61 Arg2:T59	
+R17	Part-Whole Arg1:T62 Arg2:T59	
+R18	Part-Whole Arg1:T63 Arg2:T59	
+T67	Location-Name 745 752	大井毛泽东故居
+T68	Thing-Nominal 761 764	海罗杉
+T69	Thing-Nominal 765 769	椤木石楠
+R19	Located Arg1:T68 Arg2:T67	
+R20	Located Arg1:T69 Arg2:T67	
+T70	Thing-Nominal 771 773	古树
+*	Coreference T69 T70 T68
+T71	Location-Name 778 781	大井村
+T72	Location-Name 797 800	井冈山
+T73	Location-Name 804 805;806 808	大 井村
+T74	Thing-Nominal 819 821	子弹
+T75	Thing-Nominal 822 824	刺刀
+T76	Location-Name 825 831	井冈山根据地
+T77	Location-Nominal 840 843	屠宰场
+*	Coreference T76 T77
+T78	Person-Pronoun 850 851	你
+T79	Organization-Name 864 866;867 871	小井 红军医院
+T80	Person-Nominal 877 881	红军伤员
+T81	Person-Nominal 882 886	医务人员
+T82	Location-Nominal 899 901	稻田
+T83	Person-Pronoun 918 920	我们
+T84	Person-Pronoun 926 928	我们
+T85	Person-Name 960 963	朱毛深
+T86	Person-Name 971 974	王尔琢
+R21	Social Arg1:T85 Arg2:T86	
+T87	Person-Nominal 978 980	叛徒
+T88	Thing-Nominal 981 983	枪口
+T89	Person-Name 985 996	中共花莲县委书记刘仁堪
+T90	Location-Nominal 997 1000	刑场上
+T91	Person-Nominal 1009 1012	刽子手
+T92	Person-Pronoun 1017 1018	他
+*	Coreference T92 T89
+T93	Person-Pronoun 1022 1023	他
+T94	Person-Nominal 1028 1029;1030 1031	自 己
+*	Coreference T93 T94
+T95	Location-Nominal 1036 1038	地上
+T96	Person-Name 1061 1068	红军班长马奕福
+T97	Person-Nominal 1072 1074	敌人
+T98	Location-Nominal 1075 1080	机枪火力点
+T99	Person-Nominal 1089 1090;1091 1092	自 己
+*	Coreference T96 T99
+T100	Person-Nominal 1097 1099	敌人
+T101	Thing-Nominal 1100 1102	机枪
+R22	Use Arg1:T100 Arg2:T101	
+T102	Person-Name 1119 1125	红军营长肖劲
+T103	Thing-Nominal 1161 1167	乡苏维埃印章
+T104	Person-Name 1197 1204	双枪女将伍若兰
+T105	Person-Nominal 1213 1215	丈夫
+T106	Person-Name 1215 1217	朱德
+*	Coreference T105 T106
+R23	Family Arg1:T104 Arg2:T106	
+T107	Person-Pronoun 1223 1224	她
+*	Coreference T107 T104
+T108	Person-Name 1229 1231	朱德
+T109	Thing-Nominal 1241 1243	兰花
+T110	Person-Name 1246 1248	朱德
+T111	Thing-Nominal 1254 1255	花
+*	Coreference T109 T111
+T112	Person-Pronoun 1257 1259	我们
+T113	Location-Name 1267 1270	井冈山
+T114	Time-Implicit 1265 1267	当年
+T115	Person-Nominal 1292 1299	红军某营司务长
+T116	Person-Nominal 1321 1323	大家
+T117	Location-Name 1339 1342	井冈山
+T118	Person-Pronoun 1349 1350	我
+T119	Person-Name 1357 1360	袁文才
+T120	Person-Name 1361 1363	王佐
+T121	Location-Name 1370 1374	湘赣边界
+T122	Location-Name 1376 1379	井冈山
+T123	Person-Name 1391 1394	袁文才
+T124	Person-Name 1395 1397	王佐
+T125	Person-Nominal 1402 1405	自己人
+R24	Social Arg1:T123 Arg2:T125	
+R25	Social Arg1:T124 Arg2:T125	
+T126	Location-Name 1416 1421	井冈山地区
+T127	Person-Name 1447 1450	袁文才
+T128	Person-Name 1451 1453	王佐
+T129	Location-Name 1458 1460;1461 1462	井冈 山
+T130	Time-Explicit 1469 1476	1949年9月
+T131	Thing-Nominal 1480 1482	红旗
+T132	Location-Name 1487 1490	井冈山
+R26	Located Arg1:T131 Arg2:T132	
+T133	Person-Name 1494 1497	毛泽东
+T134	Person-Name 1499 1502	袁文才
+T135	Person-Name 1503 1505	王佐
+R27	Social Arg1:T133 Arg2:T134	
+R28	Social Arg1:T133 Arg2:T135	
+T136	Thing-Nominal 1510 1512	铁箱
+T137	Location-Name 1520 1521;1522 1524	井 冈山
+T138	Thing-Pronoun 1530 1531	它
+*	Coreference T138 T136
+T139	Location-Name 1539 1542	井冈山
+T140	Person-Name 1562 1565	毛泽东
+T141	Person-Name 1566 1569	袁文才
+T142	Person-Name 1570 1572	王佐
+T143	Time-Explicit 1586 1592	新中国成立后
+T144	Organization-Nominal 1593 1597	中共中央
+T145	Person-Name 1598 1599	袁
+T146	Person-Name 1600 1601	王
+*	Coreference T145 T141 T146 T142 T150
+T147	Person-Name 1606 1608	朱德
+T148	Person-Nominal 1613 1619	袁、王的遗属
+R29	Social Arg1:T147 Arg2:T148	
+T149	Thing-Name 1623 1631	井冈山革命纪念碑
+T150	Person-Pronoun 1633 1635	他俩
+T151	Location-Name 1639 1643;1644 1647	井冈山博 物馆里
+T152	Person-Pronoun 1650 1652	他俩
+T153	Thing-Nominal 1653 1655	照片
+T154	Thing-Nominal 1656 1658	遗物
+T155	Location-Nominal 1659 1664	大井村旧居
+T156	Person-Pronoun 1668 1670	他俩
+T157	Person-Name 1682 1685	袁文才
+T158	Person-Name 1686 1688	王佐
+T159	Person-Pronoun 1698 1699	我
+T160	Person-Pronoun 1751 1752	我
+T161	Location-Nominal 1758 1762	实景剧场
+T162	Person-Name 1779 1780	我
+T163	Location-Nominal 1791 1793	战场
+T164	Person-Pronoun 1794 1795	我
+T165	Person-Nominal 1799 1803	红军将士
+T166	Person-Nominal 1816 1818	英烈
+T167	Location-Nominal 1819 1821	刑场
+T168	Person-Name 1839 1842	袁文才
+T169	Person-Name 1843 1845	王佐
+T170	Location-Name 1858 1861	井冈山
+T171	Location-Name 1874 1877	井冈山
+T172	Location-Pronoun 1912 1913;1914 1915	这 里
+*	Coreference T171 T172
+T173	Thing-Nominal 1922 1924	溪流
+T174	Thing-Nominal 1886 1888	大江
+T175	Thing-Nominal 1888 1890	大河
+T176	Location-Name 1933 1936	井冈山
+T177	Location-Pronoun 1937 1939	这里
+*	Coreference T177 T176
+T178	Location-Pronoun 1979 1981	这里
+T179	Location-Name 1993 1996	井冈山
+T180	Person-Nominal 2005 2007	导游
+T181	Person-Pronoun 2011 2012	你
+T182	Person-Pronoun 2023 2024	你
+T183	Person-Pronoun 2033 2034	你
+T184	Location-Name 2048 2051	井冈山
+T185	Person-Pronoun 2077 2078	我
+T186	Thing-Pronoun 2091 2093	这里
+T187	Time-Implicit 2101 2103	从前
+T188	Person-Nominal 2107 2109	神仙
+T189	Thing-Nominal 2117 2120	水珠宝
+T190	Location-Name 2134 2137	井冈山
+T191	Thing-Nominal 2128 2131	水珠宝
+R30	Located Arg1:T191 Arg2:T190	
+T192	Thing-Nominal 2148 2150	水井
+T193	Location-Name 2196 2198	大井
+T194	Location-Name 2199 2201	小井
+T195	Location-Name 2202 2204	中井
+T196	Location-Name 2205 2207	上井
+T197	Location-Name 2208 2210	下井
+T198	Location-Pronoun 2217 2219	这里
+T199	Thing-Name 2227 2231	飞龙瀑布
+T200	Thing-Name 2232 2236	飞龙瀑布
+T201	Location-Name 2238 2253	井冈山自然保护区的核心区域水口
+R31	Located Arg1:T200 Arg2:T201	
+T202	Location-Name 2255 2257	大井
+T203	Location-Nominal 2260 2262	深山
+T204	Location-Nominal 2270 2272	水口
+*	Coreference T204 T201
+T205	Location-Nominal 2275 2277	水口
+T206	Person-Pronoun 2281 2283	我们
+T207	Thing-Nominal 2290 2292	峡谷
+T208	Thing-Nominal 2298 2300	磴道
+T209	Thing-Nominal 2312 2314	山岩
+T210	Thing-Nominal 2322 2324	大树
+T211	Thing-Nominal 2304 2306	流水
+T212	Person-Pronoun 2325 2326	我
+T213	Thing-Nominal 2328 2330	磴道
+T214	Person-Pronoun 2347 2348	我
+T215	Person-Pronoun 2352 2353	我
+T216	Location-Name 2355 2358	百跌泉
+T217	Location-Name 2361 2364	百跌泉
+T218	Person-Pronoun 2365 2366	我
+T219	Location-Nominal 2368 2370	山口
+T220	Location-Nominal 2378 2380	峡谷
+T221	Location-Nominal 2387 2389	山崖
+T222	Thing-Nominal 2392 2394	石门
+R32	Part-Whole Arg1:T221 Arg2:T220	
+T223	Location-Nominal 2411 2413	山口
+T224	Thing-Nominal 2414 2416	磴道
+T225	Thing-Nominal 2427 2429	崖壁
+T226	Location-Nominal 2439 2441	山谷
+T227	Person-Nominal 2445 2447	游人
+T228	Thing-Nominal 2462 2464	战鼓
+T229	Person-Pronoun 2469 2470	我
+T230	Location-Nominal 2476 2478	磴道
+T231	Location-Nominal 2483 2484	亭
+T232	Person-Pronoun 2487 2488	我
+T233	Location-Nominal 2494 2495	亭
+T234	Location-Name 2496 2499	观瀑亭
+*	Coreference T234 T233
+T235	Location-Name 2502 2505	观瀑亭
+T236	Thing-Nominal 2514 2516	瀑布
+T237	Location-Nominal 2517 2521	对面山头
+T238	Thing-Nominal 2556 2558	丝絮
+T239	Thing-Nominal 2560 2562	珍珠
+T240	Person-Pronoun 2571 2572	我
+T241	Location-Nominal 2580 2582	瀑底
+T242	Metric 2589 2591	百米
+T243	Thing-Nominal 2592 2594	瀑布
+T244	Person-Pronoun 2625 2626	我
+T245	Location-Nominal 2644 2646	瀑底
+T246	Thing-Nominal 2654 2656	山崖
+R33	Near Arg1:T246 Arg2:T245	
+T247	Thing-Nominal 2657 2659	山崖
+T248	Metric 2665 2669	180度
+T249	Thing-Nominal 2675 2677	瀑布
+T250	Thing-Nominal 2679 2681	山崖
+T251	Person-Pronoun 2701 2702	我
+T252	Time-Explicit 2723 2727	中国革命
+T253	Time-Explicit 2728 2733	新中国成立
+T254	Time-Explicit 2734 2741	改革开放新时期
+T255	Person-Pronoun 2758 2759	我
+T256	Location-Name 2763 2765;2766 2768	飞龙 瀑布
+T257	Location-Name 2784 2786	井冈
+T258	Person-Pronoun 2789 2790	我
+T259	Location-Nominal 2893 2895	崖底
+T260	Thing-Nominal 2817 2819	流水

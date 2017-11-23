@@ -1,0 +1,203 @@
+T1	Location-Name 0 2	东园
+T2	Location-Name 3 5	古城
+T3	Metric 19 21	四条
+T4	Metric 25 33	3.65平方公里
+T5	Location-Name 25 36	3.65平方公里的古城
+T6	Metric 38 40	四个
+T7	Metric 49 53	10万多
+T8	Person-Nominal 49 54	10万多人
+T9	Location-Name 62 66	香港东京
+T10	Location-Name 73 75	东园
+T11	Location-Nominal 87 92	上面的水塘
+T12	Metric 100 102	几个
+T13	Person-Nominal 100 104	几个老妪
+T14	Thing-Nominal 135 147	一畦畦的韭菜、豆角、莴笋
+T15	Location-Name 203 206	东园里
+T16	Person-Nominal 215 217	菜农
+T17	Thing-Nominal 235 239	温室设备
+T18	Thing-Nominal 243 247	东园的菜
+T19	Person-Nominal 272 275	市民们
+T20	Location-Nominal 309 315	古城菜市场里
+T21	Person-Pronoun 331 332	俺
+T22	Location-Name 386 388	古城
+T23	Location-Nominal 420 422	东园
+T24	Person-Name 445 449	诗人浮木
+T25	Person-Pronoun 488 489	你
+T26	Time-Explicit 509 514	1996年
+T27	Person-Pronoun 514 515	我
+T29	Person-Pronoun 534 535	我
+T30	Metric 528 530	一位
+T31	Location-Name 537 538;539 540	寿 县
+T32	Location-Name 545 547	寿县
+T33	Location-Name 551 553	寿县
+*	Coreference T33 T37
+T35	Time-Implicit 580 583	。那时
+T36	Person-Pronoun 583 584	我
+T37	Location-Nominal 594 596	家乡
+T38	Location-Nominal 611 616	东园东北拐
+T39	Time-Explicit 619 625	明代万历年间
+T40	Thing-Nominal 628 636	与城墙等高的月坝
+T41	Abstract 680 684	虹吸原理
+T42	Person-Name 753 760	水利专家郑肇经
+T43	Location-Name 762 766	寿州古涵
+T44	Metric 775 777	一颗
+T45	Thing-Nominal 775 779	一颗明珠
+T46	Location-Name 783 785	东园
+T47	Thing-Nominal 814 817	离乡草
+T48	Metric 838 840	一米
+T49	Time-Explicit 846 850	头年九月
+T50	Time-Explicit 853 857	次年四月
+T51	Thing-Nominal 860 863	离乡草
+T52	Metric 914 916	一丝
+T53	Metric 927 929	一段
+T54	Person-Nominal 967 970	百姓们
+T55	Person-Nominal 976 978	楚人
+T57	Person-Pronoun 998 1000	他们
+T58	Location-Nominal 1024 1026	家乡
+T59	Thing-Name 1014 1020	离香(乡)草
+T60	Time-Explicit 1045 1051	每年端午时节
+T61	Location-Name 1066 1071	在古城上空
+T62	Thing-Name 1108 1112	寿州香草
+T63	Time-Explicit 1115 1116;1117 1122	五 代十国末期
+T64	Person-Name 1123 1130	后周大将赵匡胤
+T65	Location-Name 1134 1138	南唐寿州
+T66	Person-Pronoun 1139 1140	他
+T67	Thing-Nominal 1139 1143	他的战马
+T68	Person-Name 1167 1170	赵匡胤
+T69	Thing-Name 1201 1205	寿州香草
+T70	Person-Nominal 1213 1215	人们
+T71	Thing-Name 1221 1225	寿州香草
+T72	Person-Pronoun 1227 1228	我
+T73	Metric 1248 1250	一种
+T74	Thing-Name 1254 1257	离乡草
+T75	Thing-Name 1275 1280	寿州黄心乌
+T76	Thing-Name 1289 1291	青菜
+T77	Thing-Name 1294 1296	菘菜
+T78	Metric 1335 1337	一种
+T79	Location-Name 1337 1341	江淮一带
+T80	Time-Implicit 1341 1343	冬季
+T81	Person-Nominal 1364 1365;1366 1374	贫 家穷户、富贵达人
+T82	Thing-Name 1382 1387	寿州黄心乌
+T83	Thing-Nominal 1388 1393	别地的青菜
+T84	Thing-Nominal 1398 1403	别地的青菜
+T85	Thing-Name 1408 1413	寿州黄心乌
+T86	Thing-Name 1439 1442	黄心乌
+T87	Person-Nominal 1459 1462	寿州人
+T88	Time-Implicit 1466 1469	冬日里
+T89	Time-Explicit 1486 1487;1488 1491	东 园冬季
+T90	Person-Pronoun 1514 1516	人们
+T91	Thing-Name 1535 1538	黄心乌
+T92	Location-Name 1550 1552	东园
+T93	Location-Name 1570 1572	东园
+T94	Person-Nominal 1584 1588	农艺专家
+T95	Thing-Nominal 1589 1596	东园的土壤气候
+T96	Thing-Name 1613 1616	黄心乌
+T97	Person-Nominal 1639 1642	小城人
+T98	Thing-Name 1656 1659	离乡草
+T99	Person-Nominal 1670 1675	这些小城人
+T100	Location-Name 1712 1717	上海、苏州
+T101	Metric 1727 1731	三十五万
+T102	Person-Nominal 1745 1748	小城人
+T103	Location-Name 1761 1763	东园
+T104	Person-Pronoun 1776 1778	他们
+T105	Thing-Name 1761 1772	东园的离乡草、黄心乌们
+R1	Part-Whole Arg1:T1 Arg2:T2	
+T28	Organization-Name 516 521	北京水利部
+T106	Metric 831 833	一种
+R2	Ownership Arg1:T27 Arg2:T28	
+*	Coreference T102 T104
+T107	Thing-Nominal 19 23	四条大街
+T108	Thing-Nominal 38 42	四个方块
+T109	Thing-Nominal 92 94	苇荻
+R3	Located Arg1:T109 Arg2:T11	
+T110	Thing-Nominal 107 108	叶
+T111	Location-Nominal 111 112	家
+T112	Thing-Nominal 113 115	粽子
+T113	Thing-Nominal 132 134	菜园
+T114	Person-Nominal 153 157	几个菜农
+T115	Thing-Nominal 162 163	地
+T116	Thing-Nominal 164 165	草
+T117	Location-Pronoun 159 161	其间
+T118	Thing-Nominal 171 178	不远处的报恩寺
+T119	Thing-Nominal 194 196	寺墙
+T120	Location-Nominal 243 245	东园
+R4	Located Arg1:T18 Arg2:T120	
+T121	Location-Nominal 334 336	东园
+T122	Person-Nominal 316 319	卖菜的
+T123	Person-Nominal 322 324;325 326	买菜 的
+*	Coreference T21 T122
+T124	Person-Nominal 342 345	菜贩子
+T125	Thing-Nominal 350 351	菜
+T126	Person-Nominal 355 361	精明的古城人
+T127	Location-Nominal 425 427	菜园
+T128	Location-Nominal 428 430	东园
+T129	Location-Nominal 438 440	古城
+T130	Person-Nominal 445 447	诗人
+T131	Person-Nominal 470 472	诗人
+T132	Location-Nominal 485 487	东园
+T133	Location-Nominal 499 501	古城
+T134	Person-Nominal 528 532	一位领导
+T34	Thing-Name 555 557	古涵
+T135	Thing-Nominal 559 562	古城墙
+T136	Thing-Nominal 563 566	安丰塘
+R5	Located Arg1:T34 Arg2:T33	
+T137	Thing-Name 606 608	古涵
+T138	Thing-Nominal 629 631	城墙
+T139	Location-Nominal 637 639	坝上
+T140	Location-Nominal 651 656	坝下涵沟里
+T141	Thing-Nominal 658 660	水闸
+R6	Located Arg1:T141 Arg2:T140	
+T142	Thing-Nominal 676 678	涵闸
+T143	Location-Nominal 692 694	城内
+T144	Thing-Nominal 694 696	积水
+R7	Located Arg1:T144 Arg2:T143	
+T145	Thing-Nominal 703 705	洪水
+T146	Location-Nominal 708 709	城
+T147	Location-Nominal 716 720	城内城外
+T148	Organization-Name 770 774	水利科苑
+T149	Thing-Nominal 792 793	菜
+T150	Thing-Nominal 795 796	菜
+T151	Thing-Name 823 826	离乡草
+T152	Thing-Nominal 828 829	菜
+T153	Thing-Nominal 841 842	茎
+T154	Location-Nominal 870 872;873 875	惟东 园内
+T155	Thing-Name 919 922	离乡草
+T156	Thing-Name 939 942	离乡草
+T157	Person-Nominal 943 947	楚国将士
+T158	Location-Name 960 962	楚国
+T56	Person-Nominal 982 994;995 997	那些精忠报国、长眠故土的 将士
+T159	Thing-Nominal 1003 1007	家乡草木
+T160	Person-Pronoun 1009 1011	他们
+T161	Thing-Name 1040 1043	离乡草
+T162	Person-Nominal 1074 1078	楚国楚士
+T163	Location-Nominal 1083 1085	楚都
+T164	Thing-Name 1097 1100	离乡草
+*	Coreference T62 T164
+T165	Location-Nominal 1152 1155	东园里
+T166	Thing-Nominal 1158 1159	草
+T167	Thing-Nominal 1180 1182	草枝
+T168	Thing-Name 1217 1220	离乡草
+T169	Thing-Name 1234 1237	离乡草
+T170	Location-Nominal 1244 1246	东园
+T171	Thing-Name 1283 1286	黄心乌
+*	Coreference T76 T171 T77
+T172	Abstract 1325 1331	《白下琐言》
+T173	Person-Name 1323 1325	甘熙
+T174	Thing-Nominal 1335 1349	一种江淮一带冬季最常见的蔬菜
+T175	Thing-Nominal 1355 1359	米面白水
+T176	Thing-Nominal 1405 1407	青菜
+T177	Location-Nominal 1388 1390	别地
+R8	Located Arg1:T83 Arg2:T177	
+T178	Location-Nominal 1398 1400	别地
+R9	Located Arg1:T84 Arg2:T178	
+T179	Thing-Name 1493 1496	黄心乌
+T180	Thing-Nominal 1556 1561	平常的青菜
+T181	Thing-Nominal 1563 1565	青菜
+T182	Thing-Name 1578 1581	黄心乌
+T183	Location-Nominal 1589 1591	东园
+R10	Located Arg1:T95 Arg2:T183	
+T184	Thing-Name 1662 1665	黄心乌
+T185	Person-Nominal 1719 1724	务工经商者
+T186	Thing-Nominal 1736 1737	树
+T187	Person-Nominal 1740 1741	人
+R11	Located Arg1:T105 Arg2:T103	

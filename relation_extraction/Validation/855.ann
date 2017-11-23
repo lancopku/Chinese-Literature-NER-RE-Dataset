@@ -1,0 +1,187 @@
+T1	Location-Name 0 5	浙江安吉县
+T2	Thing-Nominal 7 8	竹
+R1	Located Arg1:T2 Arg2:T1	
+T3	Location-Nominal 13 17	中国竹乡
+*	Coreference T1 T3
+T4	Thing-Nominal 23 25	竹子
+T5	Person-Pronoun 26 27	我
+T6	Thing-Nominal 44 45	肉
+T7	Thing-Nominal 50 51	竹
+T8	Thing-Nominal 66 67	云
+T9	Thing-Nominal 56 57	土
+T10	Thing-Nominal 61 62	节
+R2	Part-Whole Arg1:T10 Arg2:T7	
+T11	Location-Nominal 73 75	山间
+T12	Thing-Nominal 75 77	竹笋
+T13	Time-Explicit 86 88	宋代
+T14	Person-Name 89 95	大诗人苏东坡
+T15	Thing-Nominal 102 103	肉
+T16	Thing-Nominal 108 109	竹
+T17	Thing-Nominal 111 112	肉
+T18	Thing-Nominal 117 118	竹
+T19	Thing-Nominal 186 187	梅
+T20	Thing-Nominal 188 189	竹
+T21	Thing-Nominal 190 191	菊
+T22	Thing-Nominal 192 193	兰
+T23	Thing-Nominal 193 197	岁寒四友
+T24	Person-Pronoun 198 199	他
+*	Coreference T24 T14
+T25	Thing-Nominal 210 211	竹
+R3	Part-Whole Arg1:T22 Arg2:T23	
+R4	Part-Whole Arg1:T21 Arg2:T23	
+R5	Part-Whole Arg1:T20 Arg2:T23	
+R6	General-Special Arg1:T19 Arg2:T23	
+T26	Time-Implicit 247 249	清代
+T27	Person-Name 250 253	郑板桥
+T28	Thing-Nominal 261 262	土
+T29	Thing-Nominal 265 266	节
+T30	Thing-Nominal 270 271	云
+T31	Location-Nominal 279 283	凌云”处
+T32	Thing-Nominal 341 343	竹子
+T33	Time-Implicit 343 347	未出土时
+T34	Thing-Nominal 349 350	节
+R7	Part-Whole Arg1:T34 Arg2:T32	
+T35	Thing-Nominal 363 365	竹子
+T36	Thing-Nominal 373 375	竹子
+T37	Thing-Nominal 391 393	竹子
+T38	Person-Name 406 409	郑板桥
+T39	Location-Nominal 411 413	衙斋
+T40	Thing-Nominal 417 418	竹
+T41	Location-Nominal 421 423	民间
+T42	Person-Name 430 433	毛泽东
+T43	Location-Name 434 436	延安
+T44	Time-Explicit 434 442	延安整风运动期间
+T45	Thing-Name 445 452	改造我们的学习
+R8	Create Arg1:T42 Arg2:T45	
+T46	Person-Pronoun 456 457	他
+*	Coreference T46 T42
+T47	Thing-Nominal 459 460	墙
+T48	Thing-Nominal 461 463	芦苇
+R9	Located Arg1:T48 Arg2:T47	
+T49	Thing-Nominal 468 469	根
+R10	Part-Whole Arg1:T49 Arg2:T48	
+T50	Location-Nominal 472 474	山间
+T51	Thing-Nominal 474 476	竹笋
+T52	Thing-Nominal 479 480	皮
+R11	Part-Whole Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 489 491	对联
+T54	Person-Pronoun 506 507	我
+T55	Location-Name 517 519	济南
+T56	Location-Name 517 521	济南西站
+T57	Location-Name 523 527	杭州东站
+T58	Location-Name 523 525	杭州
+R12	Part-Whole Arg1:T56 Arg2:T55	
+R13	Part-Whole Arg1:T57 Arg2:T58	
+T59	Thing-Nominal 528 530	高铁
+T60	Thing-Pronoun 536 537	她
+*	Coreference T60 T59
+T61	Metric 538 541	每小时
+T62	Metric 541 546	300公里
+T63	Person-Pronoun 550 551	我
+T64	Thing-Nominal 560 564	交通工具
+R14	General-Special Arg1:T60 Arg2:T64	
+T65	Time-Implicit 573 577	二十年前
+T66	Person-Pronoun 577 578	我
+T67	Thing-Nominal 580 582	汽车
+R15	Use Arg1:T66 Arg2:T67	
+T68	Metric 583 587	两天两夜
+T69	Time-Implicit 591 594	十年前
+T70	Thing-Nominal 596 600	高速公路
+T71	Metric 603 607	12小时
+T72	Time-Implicit 611 613	今天
+T73	Thing-Nominal 614 616	高铁
+T74	Metric 626 627;628 630	4 小时
+T75	Metric 631 635	一千公里
+T76	Thing-Nominal 639 641	高铁
+T77	Thing-Nominal 644 646	飞机
+T78	Location-Name 651 655	杭州北站
+T79	Thing-Nominal 656 657	车
+T80	Location-Name 659 661	安吉
+T81	Person-Pronoun 662 663	我
+T82	Location-Name 667 669	安吉
+T83	Location-Name 0 2	浙江
+R16	Part-Whole Arg1:T1 Arg2:T83	
+T84	Person-Nominal 129 130	士
+T85	Person-Name 135 137	苏轼
+T86	Thing-Nominal 147 148	肉
+T87	Thing-Nominal 151 153	竹子
+T88	Thing-Nominal 174 175	竹
+T89	Thing-Nominal 673 677	公共汽车
+T90	Thing-Nominal 679 683	高速公路
+R17	Located Arg1:T89 Arg2:T90	
+T91	Thing-Nominal 686 688	青竹
+T92	Thing-Nominal 690 691	山
+T93	Thing-Nominal 697 699	车窗
+R18	Part-Whole Arg1:T93 Arg2:T89	
+T94	Location-Nominal 697 700	车窗里
+T96	Location-Nominal 708 710	房前
+T97	Location-Nominal 710 712	屋后
+T98	Location-Nominal 713 715	路旁
+T99	Location-Nominal 715 717	溪边
+T100	Location-Nominal 718 720	坡面
+T101	Location-Nominal 720 722	沟坎
+T102	Thing-Nominal 725 727	竹林
+R19	Located Arg1:T102 Arg2:T101	
+R20	Located Arg1:T102 Arg2:T100	
+R21	Located Arg1:T102 Arg2:T98	
+R22	Located Arg1:T102 Arg2:T99	
+R23	Located Arg1:T102 Arg2:T97	
+R24	Located Arg1:T102 Arg2:T96	
+T95	Thing-Nominal 703 705	远山
+T103	Location-Nominal 705 707	近居
+R25	Located Arg1:T102 Arg2:T103	
+R26	Located Arg1:T102 Arg2:T95	
+T104	Time-Explicit 773 775	五月
+T105	Thing-Nominal 784 786	图画
+T106	Thing-Nominal 799 801	远山
+T107	Thing-Nominal 802 803	峦
+T108	Thing-Nominal 804 805	嶂
+T109	Location-Nominal 814 816	江南
+T110	Person-Nominal 816 818	绣娘
+T111	Thing-Nominal 821 823	锦绣
+R27	Create Arg1:T110 Arg2:T111	
+T112	Location-Nominal 836 837	山
+T113	Location-Nominal 838 839	野
+T114	Thing-Nominal 840 842	茂林
+T115	Thing-Nominal 842 844	修竹
+R28	Located Arg1:T115 Arg2:T113	
+R29	Located Arg1:T115 Arg2:T112	
+R30	Located Arg1:T114 Arg2:T113	
+R31	Located Arg1:T114 Arg2:T112	
+T116	Location-Nominal 862 864	山顶
+T117	Location-Nominal 866 868	山脚
+T118	Thing-Nominal 875 877	角尖
+T119	Thing-Nominal 878 880	竹子
+T120	Thing-Nominal 881 883	竹子
+T121	Thing-Nominal 886 888	竹子
+R32	Part-Whole Arg1:T118 Arg2:T119	
+R33	Located Arg1:T119 Arg2:T116	
+R34	Located Arg1:T119 Arg2:T117	
+T122	Location-Nominal 893 897	中国竹乡
+T123	Location-Name 898 900	安吉
+*	Coreference T122 T123
+T124	Thing-Nominal 909 911	竹林
+T125	Person-Pronoun 913 914	我
+T126	Thing-Nominal 921 923	竹子
+R35	Part-Whole Arg1:T126 Arg2:T124	
+T127	Thing-Nominal 944 946	蓝天
+T128	Thing-Nominal 956 958	巨伞
+T129	Person-Pronoun 959 960	你
+T130	Location-Nominal 966 968	顶蓬
+T131	Thing-Nominal 969 971	竹叶
+T132	Thing-Nominal 972 974	竹尖
+R36	Part-Whole Arg1:T132 Arg2:T131	
+T133	Thing-Nominal 979 981	箭头
+T134	Thing-Pronoun 982 983	它
+T135	Location-Nominal 986 988	那边
+T136	Thing-Pronoun 989 990	它
+T137	Location-Nominal 999 1001	地面
+T138	Thing-Pronoun 1006 1007	它
+T139	Thing-Pronoun 1013 1014	它
+T140	Location-Nominal 1021 1023	地面
+*	Coreference T139 T138 T132 T134 T136
+T141	Thing-Nominal 1025 1027	绿竹
+T142	Person-Pronoun 1032 1033	我
+T143	Location-Nominal 1038 1041	目的地
+T144	Location-Name 1041 1048	安吉中南百草原
+*	Coreference T143 T144

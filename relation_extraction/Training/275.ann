@@ -1,0 +1,126 @@
+T1	Location-Nominal 0 3	五圣宫
+T2	Location-Nominal 4 6	民间
+T3	Thing-Nominal 8 11	山神庙
+T4	Organization-Nominal 12 14	我国
+T5	Person-Nominal 18 20	明君
+T6	Person-Nominal 20 22	廉吏
+T7	Person-Nominal 23 25	文臣
+T8	Person-Nominal 25 27	武将
+T9	Person-Nominal 28 32	民族英雄
+T10	Person-Nominal 33 37	爱国志士
+T11	Person-Nominal 38 42	济世名医
+T12	Person-Nominal 43 47	能工巧匠
+T13	Person-Nominal 49 54	惩恶扬善者
+T14	Person-Nominal 55 57	舍己
+T15	Person-Nominal 57 59	救人
+T16	Person-Nominal 62 67	抱打不平者
+T17	Person-Nominal 68 73	功卓者宜敬
+T18	Person-Nominal 75 77	人民
+T19	Thing-Nominal 77 79	树碑
+T20	Thing-Nominal 82 84	建祠
+T21	Metric 97 99	五位
+T22	Thing-Nominal 99 101	尊神
+T23	Location-Name 108 111	镇原县
+T24	Location-Name 111 114	平泉镇
+T25	Location-Nominal 114 116	城南
+T26	Location-Nominal 116 121	十五公里处
+T27	Metric 116 120	十五公里
+R1	Near Arg1:T26 Arg2:T25	
+R2	Near Arg1:T25 Arg2:T24	
+R3	Near Arg1:T24 Arg2:T23	
+T28	Location-Nominal 123 128	显圣塬腹地
+T29	Metric 129 131	四府
+T30	Thing-Nominal 131 136	行政村中心
+T31	Thing-Nominal 137 138	砖
+T32	Thing-Nominal 138 139	木
+T33	Thing-Nominal 139 143	结构建筑
+T34	Location-Nominal 143 146	坐西北
+T35	Location-Nominal 146 149	向东南
+T36	Metric 149 152	大一间
+T37	Metric 152 159	十六平方米面积
+T38	Thing-Nominal 160 162	脊梁
+T39	Metric 162 164	两头
+T40	Thing-Nominal 164 169	安座鸡型兽
+T41	Location-Nominal 169 171	中间
+T42	Thing-Nominal 171 176	仿古式提梁
+T43	Thing-Nominal 177 180	小青瓦
+T44	Metric 184 186	两坡
+T45	Metric 186 188	双层
+T46	Thing-Nominal 188 191	歇山式
+T47	Thing-Nominal 192 194	门扇
+T48	Thing-Nominal 194 196	红边
+T49	Thing-Nominal 196 198	白框
+T50	Thing-Nominal 198 206	绘有竹兰梅菊图案
+T51	Thing-Nominal 207 213	木制方格窗棂
+T52	Metric 214 216	两根
+T53	Thing-Nominal 216 220	云子明柱
+T54	Thing-Nominal 220 226	承顶斗拱前檐
+T55	Location-Nominal 247 251	进入殿内
+T56	Location-Nominal 251 257	迎面看见的是
+T57	Metric 267 269	五位
+T58	Thing-Nominal 269 273	尊神塑像
+T59	Metric 274 276	两位
+T60	Location-Nominal 276 278	手拿
+T61	Thing-Nominal 278 280	朱笔
+T62	Thing-Nominal 280 282	铁链
+T63	Person-Nominal 283 285	判官
+T64	Person-Nominal 289 295	洞观芸芸众生
+T65	Time-Implicit 301 304;305 306	太平盛 世
+T66	Time-Implicit 307 311	沧桑巨变
+T67	Location-Nominal 312 314	两边
+T68	Location-Nominal 314 318	山墙壁上
+T69	Metric 321 323	一块
+T70	Person-Nominal 324 328	物阜民康
+T71	Thing-Nominal 336 341	金黄色大字
+T72	Thing-Nominal 342 348	下书黎众募款
+T73	Person-Nominal 349 355	鸠工庀材人员
+T74	Thing-Nominal 355 361	姓名的大木牌
+T75	Person-Nominal 366 368	善男
+T76	Person-Nominal 368 370	信女
+T77	Thing-Nominal 370 376	敬献的红和匾
+T78	Thing-Nominal 377 378	香
+T79	Thing-Nominal 378 379	火
+T80	Person-Nominal 383 386	四府者
+T81	Time-Explicit 387 393	相传在宋朝时
+T82	Person-Nominal 394 396	太师
+T83	Person-Name 396 399	潘仁美
+*	Coreference T83 T82
+T84	Metric 400 402	四子
+T85	Person-Nominal 400 402	四子
+R4	Family Arg1:T85 Arg2:T83	
+T86	Thing-Nominal 402 405	各建府
+T87	Thing-Nominal 406 408	一府
+T88	Thing-Nominal 408 410	二府
+T89	Location-Nominal 410 416	在平凉市境内
+R5	Located Arg1:T88 Arg2:T89	
+R6	Located Arg1:T87 Arg2:T89	
+T90	Thing-Nominal 417 419	三府
+T91	Location-Nominal 420 425	平庆交界的
+T92	Location-Name 425 428	庆阳市
+T93	Location-Nominal 428 430	境内
+T94	Location-Name 430 433	新城乡
+R7	Near Arg1:T93 Arg2:T94	
+R8	Near Arg1:T92 Arg2:T93	
+R9	Near Arg1:T91 Arg2:T92	
+R10	Located Arg1:T90 Arg2:T94	
+T95	Thing-Nominal 434 436	四府
+T96	Time-Implicit 441 443	同时
+T97	Person-Name 444 447	杨继业
+T98	Person-Nominal 448 450	八子
+T99	Thing-Nominal 450 453	各建营
+T100	Location-Nominal 454 463	宁夏回族自治区境内
+T101	Thing-Nominal 464 466	一营
+T102	Thing-Nominal 466 468	二营
+T103	Thing-Nominal 470 472	八营
+R11	Part-Whole Arg1:T101 Arg2:T99	
+R12	Part-Whole Arg1:T102 Arg2:T99	
+R13	Part-Whole Arg1:T103 Arg2:T99	
+R14	Part-Whole Arg1:T88 Arg2:T86	
+R15	Part-Whole Arg1:T88 Arg2:T86	
+R16	Part-Whole Arg1:T90 Arg2:T86	
+R17	Part-Whole Arg1:T95 Arg2:T86	
+T104	Location-Nominal 476 480	国家安宁
+T105	Location-Nominal 481 488	平凉与庆阳交界
+T106	Location-Name 489 492	潘杨涧
+T107	Location-Nominal 494 503	镇原去平凉必经之涧
+*	Coreference T107 T106

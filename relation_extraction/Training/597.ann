@@ -1,0 +1,106 @@
+T1	Location-Name 0 4	姜桥界湾
+T2	Thing-Nominal 5 7	芦苇
+R1	Located Arg1:T2 Arg2:T1	
+T3	Person-Pronoun 14 15	你
+T4	Thing-Pronoun 41 43	他们
+T5	Location-Name 46 48	界湾
+*	Coreference T5 T1
+*	Coreference T4 T2
+T6	Thing-Nominal 51 52	风
+T7	Thing-Nominal 53 54	雨
+T8	Thing-Nominal 56 57	风
+T9	Thing-Nominal 58 59	雨
+T10	Person-Pronoun 91 92	我
+T11	Location-Name 95 97	界湾
+T12	Thing-Nominal 102 104	芦苇
+T13	Person-Pronoun 111 112	我
+T14	Thing-Nominal 125 126	花
+T15	Thing-Nominal 127 128	草
+T16	Person-Pronoun 150 151	我
+T17	Location-Name 169 171	界湾
+T18	Thing-Nominal 179 181	芦苇
+R2	Located Arg1:T12 Arg2:T11	
+R3	Located Arg1:T18 Arg2:T17	
+T19	Person-Pronoun 183 184	我
+T20	Location-Nominal 191 193	娘家
+T21	Person-Pronoun 209 210	我
+T22	Location-Name 225 229	姜桥界湾
+T23	Person-Pronoun 231 232	我
+T24	Thing-Nominal 242 243	水
+T25	Thing-Nominal 247 248	鸟
+T26	Thing-Nominal 252 253	草
+T27	Thing-Nominal 257 258	柳
+T28	Thing-Nominal 262 263	牛
+T29	Thing-Pronoun 265 267	她们
+T30	Person-Pronoun 301 302	我
+T31	Thing-Nominal 305 307	芦苇
+R4	Located Arg1:T24 Arg2:T22	
+R5	Located Arg1:T25 Arg2:T22	
+R6	Located Arg1:T26 Arg2:T22	
+R7	Located Arg1:T27 Arg2:T22	
+R8	Located Arg1:T28 Arg2:T22	
+T32	Thing-Nominal 329 331	芦苇
+T33	Person-Pronoun 343 344	我
+T34	Location-Name 345 347	界湾
+T35	Thing-Nominal 356 357	树
+T36	Thing-Nominal 361 362	水
+T37	Thing-Nominal 386 388	芦苇
+T38	Location-Nominal 363 368	沟沟壑壑间
+T39	Person-Pronoun 393 394	我
+T40	Location-Nominal 413 415	土圪
+T41	Location-Nominal 416 418	深壑
+T42	Location-Nominal 419 421	岸边
+T43	Location-Nominal 422 424	湾底
+T44	Thing-Nominal 438 440	青苇
+R9	Located Arg1:T44 Arg2:T43	
+R10	Located Arg1:T44 Arg2:T42	
+R11	Located Arg1:T44 Arg2:T41	
+R12	Located Arg1:T44 Arg2:T40	
+*	Coreference T44 T37 T45
+T45	Thing-Pronoun 464 466	他们
+T46	Location-Name 502 504	界湾
+T47	Thing-Nominal 504 506	芦苇
+R13	Located Arg1:T47 Arg2:T46	
+T48	Thing-Pronoun 511 513	他们
+*	Coreference T48 T47
+T49	Person-Pronoun 523 524	你
+T50	Person-Pronoun 571 572	你
+T51	Thing-Nominal 582 586	界湾芦苇
+T52	Person-Pronoun 590 591	你
+T53	Person-Pronoun 616 617	我
+T54	Thing-Nominal 670 672	芦苇
+T55	Location-Nominal 675 677	幽壑
+R14	Located Arg1:T54 Arg2:T55	
+T56	Thing-Pronoun 678 680	他们
+*	Coreference T56 T54
+T57	Location-Nominal 720 722	土圪
+T58	Location-Nominal 723 725	岸边
+T59	Thing-Nominal 725 727	芦苇
+R15	Located Arg1:T59 Arg2:T58	
+R16	Located Arg1:T59 Arg2:T57	
+T60	Location-Nominal 752 754	深壑
+T61	Location-Nominal 755 757	湾底
+T62	Thing-Nominal 758 760	芦苇
+R17	Located Arg1:T62 Arg2:T61	
+R18	Located Arg1:T62 Arg2:T60	
+T63	Thing-Nominal 785 787	芦苇
+T64	Person-Nominal 792 793	朋
+T65	Person-Nominal 794 795	友
+T66	Thing-Pronoun 796 797	你
+T67	Thing-Pronoun 798 799	我
+T68	Thing-Pronoun 801 802	我
+T69	Thing-Pronoun 803 804	你
+T70	Thing-Nominal 817 818	日
+T71	Thing-Nominal 819 820	日
+T72	Thing-Nominal 823 824	花
+T73	Thing-Nominal 826 827	鸟
+T74	Thing-Nominal 868 870	芦苇
+T75	Person-Pronoun 881 882	你
+T76	Person-Pronoun 883 884	我
+T77	Thing-Nominal 902 904	芦苇
+T78	Person-Nominal 931 933	自己
+T79	Thing-Pronoun 951 953	他们
+T80	Thing-Pronoun 968 970	他们
+T81	Thing-Pronoun 983 985	他们
+T82	Thing-Pronoun 1013 1015	他们
+T83	Person-Nominal 1034 1036	智者

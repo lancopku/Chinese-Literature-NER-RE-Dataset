@@ -1,0 +1,187 @@
+T1	Person-Nominal 1 3	人们
+T2	Location-Name 12 15	八达岭
+T3	Location-Nominal 18 20	塞外
+T4	Person-Nominal 24 35	生活在张家口地域的人们
+T5	Location-Nominal 27 32	张家口地域
+T6	Location-Nominal 38 42	坝头沿线
+T7	Location-Nominal 45 49	坝上草原
+T8	Location-Nominal 53 60	坝下丘陵河川区
+T9	Location-Nominal 65 69	张垣大地
+T10	Location-Name 72 74	塞外
+*	Coreference T10 T9
+T11	Location-Name 50 52	口外
+*	Coreference T11 T7
+T12	Location-Name 62 64	口里
+*	Coreference T12 T8
+T13	Location-Name 75 77	塞外
+T14	Location-Name 79 81	塞南
+T15	Location-Name 82 84	塞北
+T16	Person-Nominal 86 90	张垣人们
+T17	Location-Name 104 106	塞北
+T18	Person-Nominal 128 130	人们
+T19	Thing-Nominal 135 138	西北风
+T20	Thing-Nominal 146 150	白毛风雪
+T21	Person-Nominal 153 154	人
+T22	Thing-Nominal 158 164	柔和的东南风
+T23	Thing-Nominal 171 172	雪
+T24	Thing-Nominal 174 178	塞北的雪
+T25	Thing-Pronoun 181 182	其
+*	Coreference T25 T24
+T26	Person-Nominal 191 192	人
+T27	Location-Nominal 207 209	塞外
+T28	Time-Implicit 210 212	夏季
+T29	Thing-Nominal 212 215	东南风
+T30	Thing-Nominal 223 225	降雨
+T31	Time-Implicit 226 228	冬季
+T32	Thing-Nominal 228 231	东南风
+T33	Thing-Nominal 233 234;235 238	漫 天飘雪
+T34	Time-Implicit 239 243	初冬刚到
+T35	Thing-Nominal 244 247	东南风
+T36	Thing-Nominal 250 252	雪花
+T37	Location-Nominal 253 254	天
+T38	Thing-Nominal 257 258	雪
+T39	Person-Nominal 259 261	天公
+T40	Person-Nominal 264 268	油漆工匠
+T41	Location-Nominal 270 272	大地
+T42	Location-Nominal 280 281	山
+T43	Thing-Nominal 282 284	白袍
+T44	Thing-Nominal 285 286	树
+T45	Thing-Nominal 287 289	梨花
+T46	Location-Nominal 290 291	地
+T47	Thing-Nominal 292 294	白衣
+T48	Person-Nominal 297 299	居民
+T49	Location-Nominal 297 304	居民居住的房屋
+T50	Thing-Nominal 307 309	白帽
+T51	Thing-Nominal 310 311	雪
+T52	Thing-Nominal 314 316	空气
+T53	Thing-Nominal 318 320	尘埃
+T54	Time-Implicit 321 323	这时
+T55	Person-Pronoun 323 324	你
+T56	Thing-Nominal 327 328	雪
+T57	Thing-Nominal 367 371	塞北的雪
+T58	Person-Nominal 381 382	人
+T59	Time-Implicit 385 389	正逢降雪
+T60	Person-Pronoun 390 391	你
+T61	Thing-Nominal 395 399	漫天雪花
+T62	Location-Nominal 410 412	空中
+T63	Thing-Nominal 420 422	树枝
+T64	Location-Nominal 427 429	大地
+T65	Thing-Nominal 433 434	风
+T66	Thing-Nominal 439 440	雪
+T67	Thing-Nominal 448 449	风
+T68	Thing-Nominal 453 454	雪
+T69	Thing-Nominal 461 463	晶莹
+T70	Thing-Nominal 479 480	花
+T71	Metric 475 477	片片
+T72	Thing-Nominal 511 513	雪花
+T73	Thing-Nominal 524 525	鸟
+T74	Location-Nominal 523 524	山
+T75	Person-Nominal 530 531	人
+T76	Thing-Nominal 538 539;540 541	雪 花
+T77	Thing-Nominal 555 556	风
+T78	Thing-Nominal 559 560	树
+T79	Thing-Nominal 562 564	梨花
+T80	Thing-Nominal 571 573	雪花
+T81	Thing-Nominal 594 596	黑狗
+T82	Thing-Nominal 610 612	雪花
+T83	Person-Name 623 626	毛主席
+T84	Thing-Nominal 642 643	冰
+T85	Thing-Nominal 647 648	雪
+T86	Location-Nominal 651 655	长城内外
+T87	Location-Nominal 659 661	大河
+T88	Location-Nominal 635 637	北国
+T89	Time-Implicit 677 681	此时此刻
+T90	Thing-Nominal 688 693	飘落的雪花
+T91	Thing-Nominal 705 712	洁白无暇的雪花
+T92	Thing-Nominal 724 725	雪
+*	Coreference T90 T91 T92
+T93	Thing-Nominal 747 751	塞北的雪
+T94	Time-Implicit 767 773	进入21世纪
+T95	Thing-Nominal 774 778	塞北的雪
+T96	Person-Name 780 793	北京市好利来创始人之一罗力
+T97	Person-Pronoun 799 800	他
+*	Coreference T97 T96 T104 T106 T114
+T98	Location-Name 809 811	东北
+T99	Location-Name 813 815	北京
+T100	Location-Nominal 813 819	北京周边地区
+R1	Near Arg1:T100 Arg2:T99	
+T101	Location-Nominal 809 823	东北以及北京周边地区的滑雪场
+T102	Location-Name 835 839	塞北崇礼
+T103	Thing-Nominal 841 847	塞北皑皑白雪
+T104	Person-Pronoun 861 862	他
+T105	Thing-Nominal 854 858	塞北的雪
+T106	Person-Pronoun 867 868	他
+T107	Location-Name 871 874	张家口
+T108	Location-Name 875 878	崇礼县
+T109	Location-Name 895 902	万龙坡的红花梁
+T110	Location-Nominal 941 945	北京周围
+T111	Location-Nominal 955 958	滑雪场
+T112	Person-Nominal 963 974	北京周边地区滑雪爱好者
+T113	Person-Nominal 975 979	专业人士
+T114	Person-Pronoun 985 986	他
+T115	Location-Name 1004 1009	万龙滑雪场
+T116	Time-Explicit 1011 1022	2003年12月18日
+T117	Location-Name 1023 1033	盛装亮相的万龙滑雪场
+T118	Thing-Nominal 1041 1045	专业人士
+T119	Location-Nominal 1052 1054	塞北
+T120	Location-Nominal 1056 1063	这么好的滑雪场
+*	Coreference T120 T117 T121 T137 T138
+T121	Location-Nominal 1070 1071;1072 1073	雪 场
+T122	Location-Name 1089 1092	张家口
+T123	Location-Name 1096 1098	北京
+T124	Location-Name 1099 1101	天津
+T125	Location-Name 1102 1104	上海
+T126	Location-Name 1105 1107	香港
+T127	Location-Name 1108 1110	澳门
+T128	Location-Name 1113 1115	日本
+T129	Location-Name 1116 1118	韩国
+T130	Location-Name 1119 1122	俄罗斯
+T131	Location-Name 1123 1125	朝鲜
+T132	Person-Nominal 1089 1132;1133 1145	张家口本地以及北京、天津、上海、香港、澳门、乃至日本、韩国、俄罗斯、朝鲜已及各国驻华使 节爱好滑雪的外国友好人士
+T133	Person-Pronoun 1150 1152	他们
+*	Coreference T133 T132
+T134	Person-Name 1157 1159	罗力
+T135	Thing-Nominal 1161 1165	塞北的雪
+T136	Location-Name 1167 1169	万龙
+T137	Location-Name 1184 1186	万龙
+T138	Location-Nominal 1188 1193;1194 1205	以塞北滑雪 为特色的国家四A级景区
+T139	Location-Nominal 1208 1212	密苑云顶
+T140	Location-Nominal 1213 1216	多乐美
+T141	Location-Nominal 1217 1220	长城岭
+T142	Location-Nominal 1224 1237	功能齐全，承载能力强的雪场
+T143	Location-Nominal 1238 1242	四大雪场
+R2	Part-Whole Arg1:T139 Arg2:T143	
+R3	Part-Whole Arg1:T140 Arg2:T143	
+R4	Part-Whole Arg1:T141 Arg2:T143	
+R5	Part-Whole Arg1:T137 Arg2:T143	
+T144	Location-Nominal 1243 1251	高、中、初级雪道
+T145	Metric 1251 1254	82条
+T146	Thing-Nominal 1257 1261	塞北的雪
+T147	Location-Name 1288 1290	塞北
+T148	Person-Nominal 1327 1341	国际奥委会专业人士和业内专家
+T149	Organization-Nominal 1327 1332	国际奥委会
+T150	Location-Pronoun 1351 1353	这里
+*	Coreference T150 T147 T152 T154
+T151	Location-Nominal 1354 1358	华北地区
+T152	Location-Nominal 1354 1367	华北地区最理想的天然滑雪场
+T153	Organization-Nominal 1369 1371	中国
+T154	Location-Nominal 1369 1391	中国目前最好能够举办冬奥会雪业项目的比赛地点
+T155	Time-Explicit 1392 1402	2013年12月3日
+T156	Person-Nominal 1438 1439	人
+T157	Person-Nominal 1446 1450	张垣人民
+T158	Person-Nominal 1499 1503	塞北人民
+T159	Location-Name 1522 1525	张家口
+T160	Location-Name 1526 1529	崇礼县
+T161	Person-Nominal 1549 1553	塞北人民
+T162	Thing-Nominal 1566 1570	塞北的雪
+T163	Person-Nominal 1582 1588	当地人民群众
+T164	Person-Pronoun 1612 1614	我们
+T165	Person-Name 1619 1621	王德
+T166	Person-Name 1624 1627	刘锡津
+T167	Person-Pronoun 1637 1638	我
+T168	Thing-Pronoun 1639 1640	你
+T169	Thing-Nominal 1641 1645	塞北的雪
+T170	Thing-Pronoun 1658 1659	你
+T171	Thing-Nominal 1684 1690	春天的亲姐妹
+T172	Thing-Nominal 1695 1702	春天派出的使节
+*	Coreference T172 T171 T170 T169 T168

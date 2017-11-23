@@ -1,0 +1,131 @@
+T1	Metric 0 2	多年
+T2	Metric 6 8	许久
+T3	Location-Nominal 17 22	中学的校园
+T4	Organization-Nominal 17 19	中学
+T5	Person-Nominal 47 53	先贤和伟人们
+T6	Thing-Nominal 28 30	白杨
+T7	Thing-Nominal 23 25	垂柳
+T8	Thing-Nominal 33 35	红砖
+T9	Thing-Nominal 35 37	黑瓦
+T10	Thing-Nominal 38 43	雪白的墙壁
+T11	Person-Pronoun 72 73	我
+T12	Time-Implicit 94 101	刚到中学的时候
+T13	Location-Nominal 96 98	中学
+*	Coreference T13 T4
+T14	Thing-Nominal 144 148	锦绣河山
+T15	Thing-Nominal 151 154;155 156	青春文 章
+T16	Time-Implicit 183 186	忽一日
+T17	Organization-Nominal 187 189	上面
+T18	Thing-Nominal 191 193	指示
+T19	Organization-Nominal 194 196	学校
+T20	Thing-Nominal 197 208	社会的一个细胞壁和分支
+T21	Thing-Nominal 224 229	战场和领地
+T22	Location-Nominal 217 221	这个角落
+*	Coreference T22 T19
+T23	Time-Implicit 258 260	于是
+T24	Location-Nominal 261 272	本该是净土的讲坛和操场
+T25	Thing-Nominal 276 287	知识的雨露和智慧的阳光
+T26	Thing-Nominal 290 299	一些嘶哑的生死拼杀
+T27	Time-Implicit 300 303	每日里
+T28	Thing-Nominal 306 316	歇斯底里的拳头和手臂
+T29	Time-Implicit 318 320	今日
+T30	Person-Name 341 343	宋江
+T31	Thing-Name 336 340	《水浒》
+T32	Organization-Nominal 348 352	反动黑帮
+T33	Abstract 353 363	“农业学大寨”的口号
+T34	Location-Nominal 366 368	学校
+T35	Thing-Nominal 368 376	高高的树丛和围墙
+R1	Located Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 379 380	风
+T37	Thing-Nominal 384 385	雷
+T38	Thing-Nominal 385 386	电
+T39	Time-Implicit 388 390	于是
+T40	Thing-Nominal 391 397	社会主义的草
+T41	Thing-Nominal 398 399	土
+T42	Thing-Nominal 400 401	苗
+T43	Thing-Nominal 403 404	苞
+T44	Metric 407 410	顷刻间
+T45	Location-Nominal 413 424	书桌、课本、操场和黑板
+T46	Thing-Nominal 425 431	资本主义的苗
+T47	Location-Nominal 433 437	灵魂深处
+T48	Thing-Nominal 438 439	根
+T49	Person-Name 473 475	张生
+T50	Thing-Nominal 473 478	张生的白卷
+R2	Create Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 502 504	破锚
+T52	Location-Pronoun 500 502	这里
+*	Coreference T52 T34
+T53	Person-Name 509 511	孔孟
+T54	Metric 517 519	万年
+T55	Person-Nominal 522 525	投降派
+T56	Person-Nominal 534 537	反革命
+T57	Thing-Nominal 544 547	作业本
+T58	Thing-Nominal 575 589	似懂非懂的政治口号和宣传文字
+T59	Thing-Nominal 592 594	星火
+T60	Thing-Nominal 601 604	发言稿
+T61	Thing-Nominal 612 615	批判文
+T62	Thing-Nominal 623 626	成绩单
+T63	Location-Nominal 633 637	田间地头
+T64	Thing-Nominal 667 674	锄地拿草的汗滴
+T65	Thing-Nominal 677 682	水利方条田
+T66	Thing-Nominal 691 697	旱地坡度梯田
+T67	Thing-Nominal 689 702	营造旱地坡度梯田的汗湿脊背
+T68	Thing-Nominal 707 726	说的硬、叫得出，响当当的硬通货和真东西
+T69	Thing-Nominal 659 683;684 702	插秧支援的赞语;锄地拿草的汗滴;修建水利方条田的 朝天热火;营造旱地坡度梯田的汗湿脊背
+T70	Thing-Pronoun 703 705	这些
+*	Coreference T70 T69
+T71	Thing-Nominal 730 732	黑板
+T72	Thing-Pronoun 734 735	那
+*	Coreference T72 T71 T73
+T73	Thing-Nominal 736 746	欺骗和谎言设计的版式
+T74	Person-Nominal 747 749	老师
+T75	Thing-Nominal 751 760	沉重的“九品”高帽
+R3	Ownership Arg1:T74 Arg2:T75	
+T76	Thing-Nominal 775 777	课本
+T77	Person-Nominal 792 794	学生
+T78	Thing-Nominal 792 797	学生的笔端
+R4	Ownership Arg1:T77 Arg2:T78	
+T79	Thing-Nominal 845 847	杯水
+T80	Thing-Nominal 847 849	车薪
+T81	Time-Implicit 870 877	我们的中学时代
+T82	Time-Implicit 881 891	我们被耽误的美好时光
+T83	Location-Nominal 907 912	不幸的港湾
+T84	Thing-Nominal 902 904	青春
+R5	Located Arg1:T84 Arg2:T83	
+T85	Time-Implicit 919 924	不幸的年代
+T86	Time-Implicit 925 930	不幸的时光
+T87	Person-Pronoun 931 936	不幸的我们
+T88	Person-Pronoun 870 872	我们
+*	Coreference T88 T87
+T89	Thing-Nominal 938 944	人生的履历表
+R6	Ownership Arg1:T87 Arg2:T89	
+T90	Thing-Nominal 953 969	一行行让人永生难忘的“警世恒言”
+T91	Time-Implicit 976 979	忽一天
+T92	Thing-Nominal 980 982	阴霾
+T93	Thing-Nominal 985 986	天
+T94	Thing-Nominal 987 988	日
+T95	Thing-Nominal 991 996	心灵的尘垢
+T96	Time-Implicit 1004 1009	美好的光阴
+T97	Person-Pronoun 1025 1026	谁
+T98	Organization-Nominal 1028 1031	全社会
+T99	Person-Nominal 1035 1037	何人
+T100	Person-Pronoun 1055 1057	那个
+T101	Person-Pronoun 1064 1066	我们
+T102	Thing-Nominal 1088 1093	知识的海洋
+T103	Thing-Nominal 1098 1103	船浆、手臂
+T104	Person-Nominal 1115 1119	幸运之神
+T105	Person-Pronoun 1132 1134	我们
+T106	Person-Pronoun 1138 1140	我们
+T107	Thing-Nominal 1143 1144	脚
+T108	Thing-Nominal 1145 1146	足
+T109	Person-Pronoun 1147 1149	我们
+T110	Person-Pronoun 1153 1155	我们
+T111	Thing-Nominal 1165 1173	残缺而沉重的行囊
+R7	Use Arg1:T110 Arg2:T111	
+T112	Thing-Nominal 1175 1185	满天风雨、星星和阳光
+T113	Person-Pronoun 1186 1188	我们
+T114	Thing-Nominal 1190 1191	路
+T115	Location-Nominal 1192 1194	脚下
+R8	Located Arg1:T114 Arg2:T115	
+T116	Location-Nominal 1195 1197	脚下
+T117	Thing-Nominal 1198 1199	天

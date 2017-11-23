@@ -1,0 +1,104 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 4 5	书
+R1	Ownership Arg1:T1 Arg2:T2	
+T3	Location-Nominal 9 12	旧书摊
+T4	Thing-Nominal 13 14	书
+R2	Located Arg1:T4 Arg2:T3	
+T5	Time-Implicit 20 27	深秋雨后的傍晚
+T6	Location-Name 29 34	珠江河南岸
+T7	Location-Nominal 42 44	书屋
+R3	Part-Whole Arg1:T7 Arg2:T6	
+T8	Person-Pronoun 46 47	我
+T9	Thing-Nominal 54 56	旧书
+T10	Person-Pronoun 86 87	我
+T11	Thing-Nominal 90 91	书
+T12	Location-Nominal 94 95	店
+T13	Thing-Nominal 97 98	书
+T14	Thing-Nominal 101 104	二手书
+R4	Located Arg1:T11 Arg2:T12	
+*	Coreference T14 T13
+T15	Thing-Nominal 116 119	这本书
+T16	Organization-Name 120 127	浙江文艺出版社
+T17	Time-Explicit 127 134	1996年1月
+T18	Thing-Nominal 141 143	封面
+R5	Part-Whole Arg1:T18 Arg2:T15	
+T19	Thing-Nominal 154 156	图片
+T20	Thing-Nominal 159 161	封面
+T21	Thing-Nominal 162 164	封底
+T22	Person-Name 178 183	林清玄先生
+T23	Thing-Nominal 228 230	书脊
+T24	Thing-Nominal 269 271	芭蕉
+T25	Person-Pronoun 287 288	我
+T26	Thing-Nominal 290 291	床
+T27	Person-Name 296 301	林清玄先生
+T28	Person-Nominal 326 329	小人物
+T29	Person-Nominal 341 343	先生
+*	Coreference T29 T27
+T30	Thing-Nominal 382 383	草
+T31	Thing-Nominal 411 412	树
+T32	Thing-Pronoun 420 421	它
+T33	Thing-Nominal 416 418	果实
+*	Coreference T32 T31
+T34	Thing-Nominal 464 466	大地
+T35	Person-Nominal 477 479	先生
+T36	Time-Implicit 488 490	今夜
+T37	Person-Nominal 494 496	先生
+T38	Person-Nominal 514 516	先生
+T39	Time-Explicit 516 524	上世纪八十年代初
+T40	Time-Implicit 528 531	十多年
+T41	Person-Name 211 212	慧
+T42	Person-Name 533 540	这个叫慧的女孩
+T43	Person-Nominal 543 545	女孩
+*	Coreference T43 T42
+T44	Time-Implicit 548 551	十多年
+T45	Person-Pronoun 555 556	我
+T46	Thing-Nominal 556 557	枕
+R6	Use Arg1:T45 Arg2:T46	
+T47	Person-Pronoun 568 569	我
+T48	Person-Pronoun 583 584	我
+T49	Person-Pronoun 591 593	我们
+T50	Person-Nominal 623 625	女孩
+T51	Person-Pronoun 634 635	她
+*	Coreference T51 T50
+T52	Person-Pronoun 639 640	她
+T53	Person-Pronoun 664 665	她
+T54	Person-Pronoun 675 676	我
+T55	Person-Pronoun 679 680	她
+T56	Person-Nominal 691 693	女孩
+T57	Person-Nominal 697 701	碧玉闺秀
+*	Coreference T56 T57
+T58	Person-Nominal 709 711	女孩
+T59	Person-Nominal 721 723	美女
+T60	Person-Pronoun 742 743	我
+T61	Person-Nominal 769 771	少女
+T62	Thing-Nominal 774 776	书卷
+T63	Person-Pronoun 803 804	她
+T64	Person-Nominal 822 824	自己
+T65	Person-Nominal 844 847	说明书
+*	Coreference T63 T64
+T66	Person-Pronoun 887 888	她
+T67	Thing-Nominal 872 875	这本书
+R7	Ownership Arg1:T66 Arg2:T67	
+T68	Time-Implicit 917 920	十多年
+T69	Person-Pronoun 949 950	她
+T70	Person-Nominal 1029 1031	伴侣
+T71	Location-Nominal 1035 1037	家园
+T72	Time-Implicit 1038 1041	十多年
+T73	Person-Name 1072 1078	这个叫慧的女
+T74	Person-Name 1161 1163	歌德
+T75	Person-Nominal 1178 1182	高尚的人
+T76	Location-Nominal 1192 1194	书屋
+T77	Person-Nominal 1199 1202	藏书人
+T78	Person-Pronoun 1227 1228	我
+T79	Person-Pronoun 1280 1281	我
+T80	Time-Implicit 1276 1279	这时候
+T81	Person-Name 1286 1289	温总理
+T82	Time-Implicit 1372 1382	那个深秋的雨后的傍晚
+T83	Person-Pronoun 1411 1412	我
+T84	Person-Pronoun 1416 1417	我
+T85	Thing-Nominal 1421 1425	这一本书
+T86	Thing-Nominal 1437 1440	这本书
+T87	Person-Name 1445 1446	慧
+T88	Thing-Nominal 1447 1449	书架
+T89	Person-Name 1449 1450	慧
+R8	Ownership Arg1:T84 Arg2:T85	

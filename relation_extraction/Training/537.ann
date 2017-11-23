@@ -1,0 +1,78 @@
+T1	Thing-Nominal 2 4	新月
+T2	Thing-Nominal 7 8	灯
+T3	Thing-Nominal 12 14	香茗
+T4	Thing-Nominal 18 19	书
+T5	Thing-Nominal 65 66	鸟
+T6	Location-Nominal 154 156	松林
+T7	Thing-Nominal 162 163	鸟
+T8	Thing-Nominal 167 168	虫
+R1	Located Arg1:T7 Arg2:T6	
+R2	Located Arg1:T8 Arg2:T6	
+T9	Thing-Nominal 172 174	松果
+R3	Located Arg1:T9 Arg2:T6	
+T10	Location-Nominal 184 186	松林
+T11	Person-Pronoun 203 204	我
+T12	Location-Nominal 237 239	山巅
+T13	Location-Nominal 267 269	山巅
+T14	Person-Pronoun 298 299	我
+T15	Location-Nominal 327 329	草地
+T16	Thing-Nominal 340 342	柳丝
+T17	Thing-Nominal 347 349	彩云
+T18	Location-Nominal 357 360	芳草地
+T19	Person-Pronoun 367 368	我
+T20	Thing-Nominal 370 372	青草
+R4	Located Arg1:T20 Arg2:T18	
+R5	Located Arg1:T19 Arg2:T18	
+T21	Person-Pronoun 389 390	我
+T22	Location-Nominal 418 420	小溪
+T23	Location-Nominal 448 450	小溪
+T24	Person-Pronoun 491 492	我
+T25	Location-Nominal 520 522	池潭
+T26	Thing-Nominal 541 543	盘石
+T27	Thing-Nominal 538 540	诗卷
+T28	Person-Pronoun 590 591	我
+R6	Ownership Arg1:T28 Arg2:T27	
+T29	Location-Nominal 623 625	大江
+T30	Thing-Nominal 637 638	帆
+T31	Location-Name 658 660	长江
+T32	Location-Nominal 664 666	大江
+R7	Part-Whole Arg1:T31 Arg2:T32	
+T33	Person-Pronoun 670 671	我
+T34	Person-Pronoun 693 694	我
+T35	Person-Name 697 699	太白
+T36	Location-Nominal 710 712	大海
+T37	Location-Nominal 748 750	大海
+T38	Person-Pronoun 759 760	我
+T39	Person-Pronoun 790 791	我
+T40	Time-Implicit 889 891	春天
+T41	Person-Pronoun 901 902	我
+T42	Time-Implicit 930 932	夏天
+T43	Person-Pronoun 942 943	我
+T44	Time-Implicit 972 974	秋天
+T45	Person-Pronoun 985 986	我
+T46	Time-Implicit 1015 1017	冬天
+T47	Person-Pronoun 1028 1029	我
+T48	Location-Nominal 1091 1093	教室
+T49	Location-Nominal 1094 1096	书房
+T50	Location-Nominal 1097 1099	公园
+T51	Location-Nominal 1100 1102	郊野
+T52	Person-Name 271 273	杜甫
+T53	Thing-Nominal 394 396	绿草
+T54	Thing-Nominal 397 399	小径
+R8	Located Arg1:T53 Arg2:T54	
+T55	Thing-Nominal 400 402	白云
+T56	Thing-Nominal 426 428	流水
+T57	Thing-Nominal 438 440	清水
+T58	Thing-Nominal 528 530	碧水
+T59	Location-Nominal 558 561	池潭边
+T60	Metric 570 572	十里
+T61	Location-Nominal 572 574	银塘
+T62	Thing-Nominal 596 597	渠
+T63	Location-Name 677 679	长江
+T64	Metric 721 723	千尺
+T65	Thing-Nominal 775 777	大海
+T66	Thing-Nominal 782 784	大海
+T67	Thing-Nominal 1039 1041	冰雪
+T68	Thing-Nominal 1031 1033	玉壶
+T69	Person-Nominal 1066 1068	诗人
+T70	Location-Nominal 1105 1109	诵诗之地

@@ -1,0 +1,46 @@
+T1	Thing-Name 0 3	恩和贝
+T2	Person-Nominal 32 37	近处的沙漠
+T3	Thing-Nominal 182 189	果园的串串葡萄
+T5	Person-Nominal 42 47	远处的大漠
+T6	Thing-Nominal 54 59	新月形沙丘
+T4	Location-Nominal 204 206	木架
+T7	Thing-Nominal 61 66	罕见的垄沙
+T8	Thing-Nominal 67 73	蜂窝状的沙丘
+R1	Located Arg1:T3 Arg2:T4	
+T9	Thing-Nominal 171 181	青纱帐般的玉米、高梁
+T11	Thing-Nominal 216 218	花朵
+T10	Location-Nominal 208 211	花卉园
+T12	Thing-Nominal 253 266	采蜜的蜜蜂和嬉戏纷飞的彩蝶
+T13	Location-Nominal 279 282	景区内
+T14	Thing-Nominal 285 294	白绒山羊的培育基地
+R2	Located Arg1:T14 Arg2:T13	
+R3	Located Arg1:T11 Arg2:T10	
+T15	Thing-Nominal 297 300	百禽园
+R4	Located Arg1:T15 Arg2:T13	
+T16	Thing-Nominal 301 312	那些分门别类养殖的奇鸟
+T17	Thing-Nominal 329 339;340 344	畜禽业“超级名星”的 驼鸟养殖
+T18	Thing-Nominal 347 356	恩和贝沙产业的龙头
+*	Coreference T18 T17
+T19	Location-Nominal 359 371	一片沙柳、沙蒿丛生的草滩
+T20	Person-Nominal 372 377	一群群驼鸟
+T21	Person-Pronoun 390 392	我们
+T22	Thing-Nominal 413 418;419 423	自然天性的 禽类接触
+T23	Location-Nominal 443 451	瀚海的恩和贝绿洲
+T24	Person-Nominal 483 486	大自然
+T25	Person-Pronoun 497 498	我
+T26	Thing-Nominal 504 509	沙区的太阳
+T27	Thing-Nominal 515 517	月亮
+T28	Thing-Nominal 523 525	星星
+T29	Thing-Nominal 532 533	水
+T30	Location-Pronoun 541 543	这里
+T31	Person-Nominal 550 552	英雄
+T32	Person-Nominal 562 565	创业者
+T33	Time-Explicit 560 562	今日
+T34	Location-Name 587 590	恩和贝
+T35	Person-Nominal 600 603	支援者
+T36	Person-Nominal 613 616	开拓者
+T37	Person-Nominal 623 627	恩和贝人
+T38	Thing-Nominal 638 640	人类
+T39	Person-Nominal 666 668	自己
+T40	Thing-Nominal 676 678	沙漠
+R5	Social Arg1:T36 Arg2:T35	

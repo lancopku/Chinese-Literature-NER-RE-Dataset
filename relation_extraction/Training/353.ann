@@ -1,0 +1,253 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Name 3 5	辞海
+T3	Person-Nominal 12 15	农民家
+T4	Person-Pronoun 24 25	我
+T5	Person-Nominal 27 29	父亲
+R1	Family Arg1:T5 Arg2:T4	
+T6	Person-Nominal 31 35	这个名称
+*	Coreference T6 T3 T7
+T7	Person-Nominal 36 40	这个称呼
+T8	Person-Pronoun 41 42	他
+R2	General-Special Arg1:T7 Arg2:T8	
+T9	Person-Nominal 50 55	我祖父祖母
+R3	Family Arg1:T9 Arg2:T8	
+R4	Family Arg1:T1 Arg2:T9	
+T10	Person-Nominal 56 61	典型的贫农
+R5	General-Special Arg1:T10 Arg2:T9	
+T11	Person-Nominal 67 69	父亲
+T12	Person-Pronoun 75 76	他
+T13	Thing-Nominal 90 97	几个阿拉伯数字
+T14	Thing-Nominal 98 102	乘法口诀
+T15	Person-Pronoun 115 116	他
+T16	Location-Nominal 118 122	远村近寨
+T17	Person-Nominal 125 129	多个名匠
+*	Coreference T17 T15
+T18	Person-Nominal 131 133	父亲
+T19	Person-Nominal 137 141	种田能手
+R6	General-Special Arg1:T19 Arg2:T18	
+T21	Thing-Nominal 160 164	各种蔬菜
+T20	Thing-Nominal 143 158	玉米、稻谷、小麦、蚕豆等农作物
+T22	Thing-Nominal 169 173	各种水果
+T23	Time-Implicit 186 188	何时
+T24	Time-Implicit 189 191	何时
+T25	Time-Implicit 194 196	何时
+T26	Person-Pronoun 203 204	他
+T27	Time-Implicit 198 200	何时
+T28	Thing-Nominal 208 210	日历
+T29	Thing-Nominal 217 219	五谷
+T30	Thing-Nominal 222 224	瓜果
+T31	Thing-Nominal 197 198	虫
+T32	Time-Implicit 227 229	秋天
+T33	Person-Nominal 231 233	父亲
+T34	Thing-Nominal 234 236	金奖
+R7	Ownership Arg1:T33 Arg2:T34	
+T35	Person-Nominal 238 240	父亲
+T36	Person-Nominal 242 249	远近闻名的铁匠
+R8	General-Special Arg1:T36 Arg2:T35	
+T37	Person-Pronoun 252 253	我
+T38	Time-Implicit 252 257	我能记事时
+T39	Person-Nominal 261 263	人们
+T40	Thing-Nominal 264 279	各种各样用坏的斧头、镰刀、菜刀
+T41	Person-Nominal 282 284	父亲
+T42	Person-Nominal 286 288	父亲
+T43	Thing-Nominal 289 298;299 302	烧红的一坨畸形怪状 的铁疤
+T44	Thing-Nominal 303 305	铁钳
+R9	Use Arg1:T42 Arg2:T44	
+T45	Thing-Nominal 307 309	铁砧
+T46	Thing-Nominal 311 313	铁锤
+R10	Use Arg1:T42 Arg2:T46	
+T47	Thing-Nominal 322 324	冷水
+T48	Thing-Nominal 328 335	一把斩新的斧头
+T49	Thing-Nominal 336 343	一把斩新的镰刀
+T50	Thing-Nominal 344 351	其它精巧的铁具
+T51	Person-Nominal 359 361	父亲
+T52	Person-Nominal 363 370	受人尊敬的铧匠
+R11	General-Special Arg1:T52 Arg2:T51	
+T53	Time-Implicit 371 377	我七、八岁时
+T54	Person-Nominal 382 384	父亲
+T55	Thing-Nominal 385 389	一把稻草
+T56	Thing-Nominal 391 393	火炉
+T57	Thing-Nominal 395 396	灰
+T58	Thing-Nominal 405 414	烧得滚烫通红的铁水
+T59	Thing-Nominal 416 417	模
+R12	Use Arg1:T54 Arg2:T55	
+T60	Time-Implicit 420 424	几分钟后
+T61	Metric 420 423	几分钟
+T62	Thing-Nominal 425 427	模盖
+R13	Part-Whole Arg1:T62 Arg2:T59	
+T63	Thing-Nominal 430 440	一张红朗朗的崭新铧片
+T64	Thing-Nominal 449 451	铁水
+*	Coreference T64 T58
+T65	Thing-Nominal 455 457	模型
+T66	Thing-Nominal 455 460	模型的表面
+R14	Part-Whole Arg1:T66 Arg2:T65	
+T67	Thing-Nominal 469 473	下一张铧
+T68	Person-Pronoun 482 483	他
+T69	Thing-Nominal 485 493	锅底刮下来的烟灰
+R15	Use Arg1:T68 Arg2:T69	
+T70	Thing-Nominal 494 496	原料
+T71	Thing-Nominal 497 502	灵巧的双手
+R16	Part-Whole Arg1:T71 Arg2:T68	
+T72	Thing-Nominal 503 505	模型
+T73	Thing-Nominal 512 514	蜜蜂
+T74	Thing-Nominal 515 517	蜂房
+T75	Thing-Nominal 526 533	一副崭新的模型
+T76	Person-Nominal 545 547	父亲
+T77	Time-Implicit 555 558	几个月
+T78	Person-Nominal 553 561	当了几个月的学徒
+T79	Thing-Nominal 565 568	一张铧
+T80	Thing-Nominal 569 573	做出的铧
+R17	Create Arg1:T78 Arg2:T79	
+R18	Create Arg1:T78 Arg2:T80	
+T81	Thing-Nominal 578 583	一部分铁水
+T82	Thing-Nominal 588 590	模型
+T83	Person-Nominal 598 600	父亲
+T84	Thing-Nominal 617 619	炉火
+T85	Thing-Nominal 620 622	脸庞
+T86	Thing-Nominal 623 625	火星
+R19	Part-Whole Arg1:T86 Arg2:T84	
+T87	Thing-Nominal 626 628	紫烟
+T88	Thing-Nominal 648 649	鞋
+T89	Person-Nominal 650 652	父亲
+T90	Thing-Nominal 650 655	父亲的双脚
+R20	Part-Whole Arg1:T90 Arg2:T89	
+T92	Thing-Nominal 681 683	脚跟
+R21	Part-Whole Arg1:T92 Arg2:T90	
+T93	Person-Nominal 685 687	父亲
+T94	Thing-Nominal 698 703	厚厚的老茧
+R22	Part-Whole Arg1:T94 Arg2:T90	
+T95	Thing-Nominal 706 708	屏障
+T96	Location-Nominal 672 674	地面
+T91	Thing-Nominal 671 679	从地面溅起的铁水
+T97	Person-Nominal 713 715	父亲
+T98	Person-Nominal 717 722	出色的木匠
+R23	General-Special Arg1:T98 Arg2:T97	
+T99	Person-Pronoun 724 725	我
+T100	Person-Nominal 732 734	父亲
+T102	Person-Pronoun 742 743	他
+T101	Thing-Nominal 737 739	木工
+T104	Metric 746 748	几条
+T103	Thing-Nominal 742 750	他做出的几条凳子
+R24	Create Arg1:T102 Arg2:T103	
+T105	Person-Pronoun 759 760	他
+T106	Thing-Nominal 760 768	魁梧而笨拙的身体
+R25	Ownership Arg1:T105 Arg2:T106	
+T107	Time-Implicit 771 773;774 776	十几 年后
+T108	Metric 771 773;774 775	十几 年
+T109	Person-Pronoun 786 788	父亲
+T110	Person-Nominal 791 793	师傅
+T111	Person-Nominal 798 800	帮手
+T112	Thing-Nominal 807 810	新厨房
+R26	Create Arg1:T109 Arg2:T112	
+T113	Thing-Nominal 812 825	石脚、备料、框架结构到隔整
+T114	Person-Pronoun 827 828	他
+T115	Person-Pronoun 828 830	自己
+*	Coreference T115 T114
+T116	Person-Pronoun 840 841	我
+T117	Person-Nominal 846 853	识字不多的父亲
+*	Coreference T117 T109
+T118	Thing-Nominal 856 873	水平尺、墨线、直角尺、垂线、三角形
+T119	Metric 886 889	几十年
+T120	Thing-Nominal 902 903	风
+T121	Thing-Nominal 904 905	雨
+T122	Thing-Nominal 910 914	各种部件
+T123	Thing-Nominal 894 895;896 927	所 在经历那么多风吹雨打，搬迁中各种部件又历经拆散、再组合后的房子
+T124	Person-Nominal 940 942	父亲
+T125	Person-Nominal 944 954	惠及四邻五舍的榨油匠
+R27	General-Special Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 960 963	榨油机
+T127	Time-Implicit 964 970	每逢年关节头
+T128	Person-Nominal 970 972	人们
+T129	Thing-Nominal 974 984	菜籽、麻籽等榨油原料
+T130	Location-Nominal 986 988	家里
+T131	Person-Nominal 989 991	父亲
+T132	Person-Pronoun 992 994	它们
+R28	Create Arg1:T132 Arg2:T129	
+T133	Thing-Nominal 1008 1013	大大的木槽
+T134	Thing-Nominal 1015 1020	大锤加楔子
+R29	Use Arg1:T131 Arg2:T134	
+T135	Metric 1021 1025	不一会儿
+T136	Thing-Nominal 1025 1033	块子粗的一股香油
+T137	Person-Nominal 1042 1045	村民们
+T138	Person-Nominal 1049 1051	父亲
+T139	Person-Nominal 1054 1059	优秀的篾匠
+R30	General-Special Arg1:T139 Arg2:T138	
+T140	Location-Nominal 1060 1062	家里
+T141	Thing-Nominal 1064 1078	簸箕、筲箕、撮箕、篮子等器物
+T142	Person-Nominal 1084 1086	父亲
+T143	Thing-Nominal 1090 1092	篾器
+R31	General-Special Arg1:T143 Arg2:T141	
+T144	Person-Pronoun 1101 1102	他
+T145	Metric 1105 1108	一会儿
+T146	Thing-Nominal 1111 1116	三五棵竹子
+T147	Metric 1111 1114	三五棵
+T148	Metric 1122 1127	二三十分钟
+T149	Thing-Nominal 1127 1134	一具崭新的篾器
+T150	Person-Nominal 1140 1142	父亲
+T151	Time-Implicit 1158 1165	每天天刚蒙蒙亮
+T152	Time-Implicit 1169 1171	傍晚
+T153	Person-Nominal 1171 1173	父亲
+T154	Thing-Nominal 1177 1179	手脚
+R32	Part-Whole Arg1:T154 Arg2:T153	
+T155	Thing-Nominal 1181 1190	滚滚不息的金沙江水
+T156	Location-Name 1186 1189	金沙江
+T157	Person-Pronoun 1210 1211	他
+T158	Person-Nominal 1212 1218	农技的多面手
+R33	General-Special Arg1:T158 Arg2:T157	
+T159	Person-Nominal 1221 1222	他
+T160	Person-Nominal 1240 1245	生产队队长
+T161	Person-Nominal 1251 1255	劳动模范
+R34	General-Special Arg1:T161 Arg2:T157	
+T162	Organization-Name 1273 1278	中国共产党
+T163	Person-Pronoun 1290 1291	他
+T164	Person-Pronoun 1287 1291	优秀的他
+T165	Person-Nominal 1297 1299	父亲
+*	Coreference T164 T165
+T166	Person-Pronoun 1292 1293	我
+T167	Thing-Nominal 1308 1309	虎
+T168	Thing-Nominal 1310 1311	翼
+T169	Person-Pronoun 1312 1313	他
+T170	Person-Nominal 1323 1329	伟大的科学家
+T171	Person-Nominal 1330 1336	杰出的艺术家
+T172	Person-Nominal 1341 1343	父亲
+T173	Person-Nominal 1354 1356	农民
+R35	General-Special Arg1:T173 Arg2:T172	
+T174	Person-Pronoun 1358 1359	他
+T175	Thing-Nominal 1367 1369	汗水
+R36	Create Arg1:T174 Arg2:T175	
+T176	Thing-Nominal 1371 1382	一桶倒在干旱土地上的水
+T177	Person-Nominal 1394 1398	七个儿女
+R37	Family Arg1:T177 Arg2:T174	
+T178	Thing-Nominal 1407 1417	全家人遮风挡雨的土房
+T179	Person-Nominal 1407 1410	全家人
+R38	Ownership Arg1:T179 Arg2:T178	
+R39	Part-Whole Arg1:T177 Arg2:T179	
+R40	Part-Whole Arg1:T166 Arg2:T177	
+T180	Time-Implicit 1418 1424	80岁去世时
+T181	Thing-Nominal 1427 1433	隆重的追悼会
+T182	Thing-Nominal 1436 1441	表扬的悼词
+T183	Thing-Nominal 1445 1450	醒目的花圈
+T184	Thing-Nominal 1453 1458	悲伤的哀乐
+T185	Time-Implicit 1459 1461	而今
+T186	Person-Pronoun 1463 1464	我
+T187	Location-Nominal 1466 1468	家乡
+T188	Person-Nominal 1471 1477	淳朴的乡亲们
+T189	Person-Nominal 1480 1482	父亲
+T190	Person-Pronoun 1489 1490	我
+T191	Person-Pronoun 1500 1501	他
+T192	Person-Pronoun 1515 1516	他
+T193	Thing-Nominal 1531 1533	泪眼
+R41	Ownership Arg1:T190 Arg2:T193	
+T194	Person-Nominal 1539 1563	身壮如牛，手脚粗糙如松，古铜色脸上布满邹纹的父亲
+*	Coreference T194 T172 T195
+T195	Person-Pronoun 1569 1570	他
+T196	Location-Nominal 1571 1586	田间地角、房前屋后和炉火铁水旁
+T197	Person-Nominal 1596 1613	千千万万像父亲这样勤劳而智慧的人民
+R42	General-Special Arg1:T197 Arg2:T194	
+T198	Person-Pronoun 1625 1626	我
+T199	Person-Nominal 1629 1631	父亲
+T200	Time-Implicit 1662 1665	退休后
+T201	Person-Nominal 1727 1729	父亲
+T202	Person-Pronoun 1730 1731	你
+T203	Person-Pronoun 1735 1736	我
+*	Coreference T202 T201

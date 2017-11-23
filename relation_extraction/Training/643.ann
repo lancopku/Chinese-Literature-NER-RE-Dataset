@@ -1,0 +1,137 @@
+T1	Time-Implicit 0 2	春天
+T2	Time-Implicit 3 12	一个如诗如画的季节
+T3	Time-Implicit 13 24	一个充满生机活力的季节
+T4	Time-Implicit 24 34	，一个多情浪漫的季节
+*	Coreference T4 T3 T2 T1
+T5	Thing-Nominal 35 39	许多生命
+T6	Time-Implicit 40 42	春天
+T7	Person-Pronoun 66 67	我
+T8	Thing-Nominal 66 69	我的笔
+R1	Ownership Arg1:T7 Arg2:T8	
+T9	Person-Pronoun 72 73	我
+T10	Time-Implicit 80 82	春天
+T11	Thing-Nominal 83 85	生命
+T12	Thing-Nominal 83 88	生命的源泉
+T13	Time-Implicit 89 91	春天
+T14	Thing-Nominal 92 97	美好的象征
+T15	Thing-Nominal 101 106	优美的画卷
+T16	Time-Implicit 98 100	春天
+T17	Time-Implicit 107 109	春天
+T18	Thing-Nominal 80 82	春天
+*	Coreference T18 T11
+T19	Thing-Nominal 89 91	春天
+*	Coreference T19 T14
+T20	Thing-Nominal 98 100	春天
+*	Coreference T20 T15
+T21	Person-Nominal 115 116	人
+T22	Person-Nominal 121 122	人
+T23	Person-Nominal 127 128	人
+T24	Time-Implicit 132 134	春天
+T25	Person-Pronoun 158 159	我
+T26	Thing-Nominal 174 176	微风
+T27	Time-Implicit 180 182	春天
+T28	Person-Pronoun 184 185	我
+T29	Time-Implicit 191 193	春天
+T30	Person-Pronoun 198 199	我
+T31	Time-Implicit 206 208	春天
+T32	Person-Pronoun 213 214	我
+T33	Time-Implicit 219 221	春天
+T34	Person-Pronoun 222 223	我
+T35	Time-Implicit 244 246	春天
+T36	Time-Implicit 249 254	灿烂的季节
+*	Coreference T36 T35
+T37	Thing-Pronoun 255 256	它
+T38	Thing-Nominal 244 246	春天
+*	Coreference T37 T38 T39 T98
+T39	Thing-Pronoun 268 269	她
+T40	Thing-Nominal 292 294	小草
+T41	Thing-Nominal 296 304;305 306	油油而又清新的叶 片
+T42	Thing-Nominal 308 310	枝干
+R2	Located Arg1:T41 Arg2:T42	
+T43	Thing-Name 312 314	太阳
+T44	Thing-Nominal 322 327	晶莹的光芒
+R3	Located Arg1:T44 Arg2:T41	
+T45	Thing-Name 333 334	日
+*	Coreference T45 T43
+T46	Thing-Nominal 335 337	江花
+T47	Time-Implicit 341 342	春
+T48	Thing-Nominal 343 345	江水
+T49	Thing-Nominal 349 351	万物
+T50	Thing-Nominal 358 365;366 368	一片生机盎然的 景象
+T51	Time-Implicit 370 372	春天
+T52	Time-Implicit 377 383	每每春暖花开
+T53	Time-Implicit 399 410	简单的、充满希望的日子
+T54	Time-Implicit 414 421	带来希望的春天
+*	Coreference T54 T51
+T55	Time-Implicit 441 443	春天
+T56	Time-Implicit 452 453	春
+T57	Thing-Nominal 459 464	吐绿的枝头
+T58	Thing-Nominal 466 471	泛绿的草地
+T59	Thing-Nominal 473 478	花开的声音
+T60	Thing-Nominal 480 487	惹眼的斑斓色彩
+T61	Person-Pronoun 488 489	我
+T62	Time-Implicit 490 491	春
+T63	Time-Implicit 500 501	春
+T64	Person-Pronoun 511 512	我
+T65	Time-Implicit 515 517	现在
+T66	Time-Implicit 521 523	春天
+T67	Thing-Nominal 531 538	这身厚重的衣服
+R4	Ownership Arg1:T64 Arg2:T67	
+T68	Thing-Nominal 541 546	暖和的阳光
+T69	Thing-Nominal 557 559;560 565	我的 眼睛和心灵
+T70	Person-Pronoun 557 558	我
+R5	Part-Whole Arg1:T69 Arg2:T70	
+T71	Person-Pronoun 569 570	我
+T72	Thing-Nominal 571 577	山上的迎春花
+T73	Location-Nominal 571 573	山上
+R6	Located Arg1:T72 Arg2:T73	
+T74	Thing-Nominal 579 583	远处的云
+T75	Location-Nominal 579 581	远处
+R7	Located Arg1:T74 Arg2:T75	
+T76	Location-Nominal 585 587	近处
+T77	Thing-Nominal 585 589	近处的水
+R8	Located Arg1:T77 Arg2:T76	
+T78	Thing-Nominal 607 611	我的文字
+R9	Create Arg1:T71 Arg2:T78	
+T79	Time-Implicit 614 616	春天
+T80	Person-Pronoun 618 619	我
+T81	Time-Implicit 626 627;628 629	春 天
+T82	Person-Nominal 632 637	任何一个人
+T83	Person-Pronoun 644 646	我们
+T84	Thing-Nominal 651 653	春光
+T85	Person-Pronoun 658 660	我们
+T86	Person-Pronoun 674 675	我
+T87	Person-Pronoun 682 683	我
+T88	Time-Implicit 679 681	春天
+T89	Time-Implicit 685 687	春天
+T90	Thing-Nominal 690 695	那一片翠绿
+T91	Person-Pronoun 698 699	我
+T92	Thing-Nominal 702 704	小草
+T93	Thing-Nominal 705 706	士
+T94	Time-Implicit 718 720	早春
+T95	Time-Implicit 726 728	残冬
+T96	Time-Implicit 718 725;726 731	早春的生机压倒 残冬荒凉时
+T97	Thing-Nominal 747 755	全身的每一个细胞
+T98	Thing-Pronoun 756 757	她
+T99	Person-Nominal 759 767	我一见钟情的恋人
+T100	Person-Pronoun 769 770	我
+T101	Person-Pronoun 783 785	我们
+T102	Person-Pronoun 787 789	我们
+T103	Thing-Nominal 787 792	我们的双臂
+R10	Part-Whole Arg1:T103 Arg2:T102	
+T104	Time-Implicit 794 796	春天
+T105	Time-Implicit 799 801	春天
+T106	Time-Implicit 803 805	春天
+T107	Location-Name 807 809	人间
+T108	Person-Pronoun 811 813	我们
+T109	Time-Implicit 815 817	春天
+T110	Thing-Nominal 824 829	和煦的春风
+T111	Time-Implicit 840 842	春天
+T112	Person-Pronoun 854 856	我们
+T113	Person-Pronoun 859 860	我
+T114	Person-Pronoun 863 865	我们
+T115	Time-Implicit 865 867	明天
+T116	Person-Pronoun 875 877	我们
+T117	Time-Implicit 888 890	春天
+T118	Person-Pronoun 891 892	我
+T119	Person-Pronoun 901 902	你

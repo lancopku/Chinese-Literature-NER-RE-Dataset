@@ -1,0 +1,353 @@
+T1	Thing-Nominal 12 14	杨梅
+T2	Time-Explicit 17 25	端午节刚过第二天
+T4	Person-Pronoun 38 39	我
+T3	Person-Nominal 26 34	老友钟协文的女儿
+T5	Person-Name 34 36	钟燕
+*	Coreference T5 T3 T7
+T6	Person-Nominal 26 28	老友
+T7	Person-Pronoun 46 47	她
+T8	Time-Implicit 47 50	前几天
+T9	Person-Nominal 56 59	老父亲
+R1	Family Arg1:T7 Arg2:T9	
+T10	Person-Name 28 31	钟协文
+*	Coreference T9 T10 T13
+R2	Social Arg1:T6 Arg2:T4	
+T11	Time-Implicit 63 65	昨天
+T12	Location-Name 66 68	靖州
+T13	Person-Nominal 71 74	我爸爸
+T14	Person-Pronoun 75 76	你
+T15	Person-Nominal 78 81	龙叔叔
+*	Coreference T14 T4
+T16	Thing-Nominal 86 88	杨梅
+T17	Person-Pronoun 89 90	我
+T18	Thing-Nominal 93 96	公共车
+R3	Use Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 101 102	你
+T20	Location-Nominal 103 109	公共车停车点
+T21	Person-Pronoun 116 117	我
+T22	Person-Name 120 125	龙燕怡叔叔
+T23	Thing-Nominal 130 132	杨梅
+T24	Person-Pronoun 162 163	我
+T25	Thing-Nominal 175 177	杨梅
+T26	Time-Explicit 185 190	1958年
+T27	Time-Implicit 191 198	我刚参加工作时
+*	Coreference T27 T26
+T28	Thing-Nominal 201 203	杨梅
+T29	Person-Pronoun 219 220	我
+T30	Thing-Nominal 227 229	杨梅
+T31	Person-Nominal 230 232	老友
+T32	Person-Pronoun 239 240	我
+T33	Time-Explicit 246 251;252 254	上世纪八十 年代
+T34	Person-Pronoun 254 255	我
+T35	Person-Pronoun 256 257	他
+*	Coreference T35 T31
+R4	Social Arg1:T34 Arg2:T35	
+T36	Person-Nominal 264 266	老友
+T37	Person-Pronoun 268 269	我
+T38	Person-Pronoun 276 277	我
+T39	Person-Nominal 280 282	兄长
+*	Coreference T36 T39
+T40	Time-Explicit 283 288	1958年
+T41	Location-Name 294 299	双江汽车站
+T42	Person-Pronoun 302 303	我
+T43	Person-Pronoun 307 308	他
+T44	Location-Nominal 313 315	公司
+*	Coreference T44 T41
+T45	Person-Pronoun 321 322	他
+T46	Location-Name 323 324;325 330	贵 州锦屏车站
+T47	Person-Nominal 331 334	联络员
+*	Coreference T45 T47 T51
+T48	Location-Nominal 342 346	我们公司
+T49	Location-Name 348 350	锦屏
+T50	Location-Name 377 382	溆浦汽车站
+T51	Person-Nominal 383 385	领导
+R5	Ownership Arg1:T51 Arg2:T50	
+R6	Ownership Arg1:T47 Arg2:T46	
+T52	Person-Pronoun 388 389	我
+T53	Person-Pronoun 390 391	他
+T54	Time-Explicit 396 404	上世纪八十年代初
+T55	Person-Pronoun 407 408	他
+T56	Person-Nominal 409 416	靖县汽车站站长
+*	Coreference T55 T56
+T57	Person-Pronoun 417 418	我
+T58	Person-Nominal 419 427	通道汽车站付站长
+*	Coreference T57 T58
+T59	Location-Nominal 435 437	公司
+T60	Person-Pronoun 444 446	我们
+T61	Location-Name 446 448	会同
+T62	Location-Name 450 452	靖县
+T63	Location-Name 453 455	通道
+T64	Person-Nominal 457 461	车站站长
+T65	Person-Pronoun 496 498	我们
+T66	Time-Explicit 507 512	1984年
+T67	Location-Nominal 512 515	总公司
+T68	Location-Nominal 537 540	分公司
+T69	Person-Pronoun 541 542	我
+T70	Person-Nominal 546 551	分公司经理
+*	Coreference T69 T70
+R7	Ownership Arg1:T69 Arg2:T68	
+T71	Person-Nominal 553 555	老友
+T72	Person-Nominal 558 563	总公司领导
+T73	Person-Pronoun 564 565	其
+*	Coreference T73 T71
+T74	Person-Pronoun 572 573	他
+T75	Location-Nominal 574 579	我们分公司
+T76	Person-Nominal 580 582	书记
+*	Coreference T74 T76
+T77	Person-Nominal 583 585	老友
+T78	Person-Nominal 588 590	自己
+T79	Person-Nominal 606 608	领导
+T80	Location-Nominal 612 617	靖州分公司
+T81	Person-Nominal 623 625	领导
+T82	Person-Pronoun 636 637	他
+T83	Person-Nominal 639 647	靖州分公司协理员
+*	Coreference T82 T83 T77 T78
+T84	Time-Explicit 651 656	1986年
+T85	Location-Nominal 663 668	我们分公司
+T86	Person-Nominal 672 676	青年职工
+T87	Person-Pronoun 704 705	我
+T88	Person-Nominal 710 711;712 720	爱 好文学的青年职工
+T89	Organization-Name 723 729	运峰”文学社
+T90	Person-Nominal 740 742	老友
+T91	Person-Pronoun 770 771	我
+T92	Person-Pronoun 774 775	他
+*	Coreference T92 T90
+T93	Person-Pronoun 799 800	我
+T94	Location-Name 821 823	靖县
+T95	Person-Pronoun 824 825	我
+T96	Person-Nominal 829 831	密友
+T97	Person-Pronoun 834 835	他
+*	Coreference T96 T97
+T98	Location-Nominal 835 837	房里
+T99	Person-Pronoun 846 847	我
+T100	Thing-Nominal 840 842	书法
+T101	Thing-Nominal 843 845	国画
+R8	Located Arg1:T100 Arg2:T98	
+R9	Located Arg1:T101 Arg2:T98	
+T102	Person-Nominal 858 861	老朋友
+T103	Person-Pronoun 869 870	他
+*	Coreference T103 T102
+T104	Person-Pronoun 878 879	我
+T105	Person-Nominal 880 883	老伙计
+*	Coreference T105 T99
+T106	Person-Nominal 902 904	人家
+T107	Location-Nominal 934 936	房间
+T108	Person-Pronoun 945 946	我
+T109	Person-Nominal 965 967	老兄
+T110	Person-Pronoun 978 979	我
+T111	Person-Pronoun 982 983	你
+*	Coreference T111 T109
+T112	Time-Explicit 995 1002	1987年5月
+T113	Person-Pronoun 1003 1004	我
+T114	Location-Nominal 1005 1011	县公司会议室
+T115	Location-Nominal 1012 1017	办公的走廊
+T116	Person-Name 1022 1024	钟友
+T117	Person-Nominal 1039 1040	职
+T118	Person-Nominal 1043 1051	公司的驾、乘人员
+T119	Person-Nominal 1053 1055;1056 1067	广西 桂林汽车站宿我地的司机
+T120	Person-Nominal 1068 1071	乘务员
+T121	Person-Name 1089 1092	钟站长
+T122	Time-Explicit 1132 1139	1988年7月
+T123	Person-Pronoun 1139 1140	我
+T124	Location-Name 1144 1146	怀化
+T125	Person-Pronoun 1148 1150	我们
+T126	Time-Explicit 1161 1166	1992年
+T127	Person-Pronoun 1166 1167	我
+T128	Organization-Nominal 1168 1173	总公司工会
+T129	Person-Pronoun 1190 1191	他
+T130	Person-Pronoun 1203 1204	我
+T131	Person-Pronoun 1214 1215	我
+T132	Person-Nominal 1230 1232	职工
+T133	Time-Explicit 1343 1352	2000年7月4日
+T134	Person-Pronoun 1352 1353	我
+T135	Person-Pronoun 1362 1363	我
+T136	Person-Nominal 1372 1375	老朋友
+T137	Person-Pronoun 1378 1380	我们
+T138	Time-Explicit 1402 1403;1404 1408	2 004年
+T139	Person-Pronoun 1408 1409	我
+T140	Location-Name 1413 1417	贵州开阳
+T141	Person-Pronoun 1433 1435	我们
+T142	Location-Name 1437 1439	贵阳
+T143	Location-Name 1442 1447	黄果树瀑布
+T144	Location-Name 1448 1450	花溪
+T145	Location-Name 1451 1455	黔灵公园
+R10	Part-Whole Arg1:T143 Arg2:T142	
+R11	Part-Whole Arg1:T145 Arg2:T142	
+R12	Part-Whole Arg1:T144 Arg2:T142	
+T146	Person-Pronoun 1518 1519	我
+T147	Person-Pronoun 1524 1525	他
+T148	Person-Pronoun 1528 1529	他
+T149	Person-Pronoun 1543 1544	我
+T150	Person-Pronoun 1559 1560	他
+T151	Person-Pronoun 1595 1596	我
+T152	Time-Explicit 1641 1646	1988年
+T153	Location-Name 1648 1650	怀化
+T154	Person-Pronoun 1665 1666	我
+T155	Person-Nominal 1674 1677	我父母
+R13	Family Arg1:T154 Arg2:T155	
+T156	Location-Name 1687 1689	靖州
+T157	Person-Pronoun 1682 1683	我
+T158	Person-Pronoun 1690 1691	我
+T159	Person-Nominal 1695 1701;1702 1703	我的老友钟协 文
+T160	Person-Pronoun 1712 1713	他
+*	Coreference T160 T159
+T161	Person-Pronoun 1717 1718	他
+T162	Person-Pronoun 1722 1723	我
+T163	Person-Pronoun 1739 1740	我
+T164	Time-Explicit 1748 1753	2008年
+T165	Person-Pronoun 1753 1754	我
+T166	Person-Nominal 1762 1764	老友
+T167	Time-Implicit 1766 1771	扫墓完毕后
+T168	Person-Pronoun 1772 1773	我
+T169	Person-Nominal 1775 1779	女儿她们
+R14	Family Arg1:T168 Arg2:T169	
+T170	Person-Pronoun 1782 1784	你们
+*	Coreference T170 T169
+T171	Person-Pronoun 1787 1788	我
+T172	Thing-Nominal 1791 1793	汽车
+T173	Location-Name 1794 1796	靖州
+R15	Use Arg1:T171 Arg2:T172	
+T174	Person-Nominal 1800 1804	你钟伯伯
+T175	Time-Implicit 1806 1808;1809 1810	第二 天
+T176	Location-Name 1811 1813	靖州
+T177	Time-Implicit 1817 1821	10点多
+T178	Person-Pronoun 1852 1853	他
+T179	Person-Pronoun 1862 1863	我
+T180	Person-Pronoun 1867 1868	他
+*	Coreference T174 T178
+T181	Person-Nominal 1879 1881	诗友
+T182	Time-Implicit 1917 1920	3点多
+T183	Person-Pronoun 1921 1922	我
+T184	Thing-Nominal 1925 1927	火车
+T185	Location-Name 1931 1933	怀化
+R16	Use Arg1:T183 Arg2:T184	
+T186	Person-Pronoun 1950 1951	我
+T187	Thing-Nominal 1957 1959	的士
+R17	Use Arg1:T186 Arg2:T187	
+T188	Location-Nominal 1961 1964	火车站
+T189	Person-Nominal 1966 1968	老友
+T190	Person-Pronoun 1972 1973	我
+T191	Person-Pronoun 1975 1976	我
+T192	Person-Nominal 1980 1986	上了年纪的人
+T193	Person-Nominal 1990 1995	退下来的人
+T194	Person-Nominal 2011 2013	老人
+T195	Person-Pronoun 2025 2027	我俩
+T196	Person-Pronoun 2052 2054	我俩
+T197	Thing-Nominal 2055 2056	伞
+R18	Use Arg1:T196 Arg2:T197	
+T198	Location-Nominal 2078 2081	汽车站
+T199	Location-Nominal 2082 2085	火车站
+T200	Metric 2089 2093	7、8里
+T201	Person-Pronoun 2104 2105	我
+T202	Person-Pronoun 2106 2107	他
+T203	Person-Pronoun 2111 2112	他
+T204	Person-Pronoun 2115 2116	我
+T205	Person-Pronoun 2128 2129	他
+T206	Person-Pronoun 2139 2140	我
+T207	Time-Explicit 2142 2144	唐朝
+T208	Person-Name 2144 2149	大诗人李白
+T209	Person-Name 2153 2155	汪伧
+T210	Person-Pronoun 2191 2192	我
+T211	Person-Name 2162 2164	李白
+*	Coreference T210 T211
+T212	Time-Implicit 2196 2202	回家后没几天
+T213	Person-Nominal 2203 2206	老朋友
+T214	Person-Pronoun 2208 2209	我
+T215	Person-Pronoun 2216 2217	我
+T216	Location-Name 2218 2220	靖州
+T217	Person-Pronoun 2222 2223	他
+*	Coreference T217 T213
+T218	Time-Implicit 2226 2231	头一天晚上
+T219	Person-Pronoun 2232 2233	他
+T220	Person-Pronoun 2241 2242	他
+T221	Person-Pronoun 2244 2245	我
+T222	Person-Pronoun 2250 2251	他
+T223	Person-Nominal 2292 2294	旧友
+T224	Person-Name 2294 2299	李永安同志
+*	Coreference T224 T223
+T225	Time-Implicit 2305 2307	昨晚
+T226	Person-Pronoun 2366 2367	他
+T227	Person-Pronoun 2387 2389	我们
+T228	Person-Nominal 2391 2396	上了年纪的
+*	Coreference T227 T228
+T229	Person-Pronoun 2453 2454	我
+T230	Person-Pronoun 2462 2463	他
+T231	Person-Pronoun 2510 2511	我
+T232	Person-Nominal 2513 2515	老友
+T233	Person-Pronoun 2517 2518	我
+T234	Organization-Nominal 2528 2532	集团公司
+T235	Person-Nominal 2541 2547	《简报》主编
+T236	Person-Nominal 2564 2566	编者
+T237	Person-Name 2570 2575	李永安同志
+T238	Person-Nominal 2576 2586	集团公司原行政办主任
+T239	Person-Nominal 2587 2591	总经济师
+*	Coreference T237 T238 T239
+T240	Person-Name 2592 2597	钟协文同志
+T241	Person-Nominal 2598 2607	靖州分公司退休干部
+*	Coreference T240 T241
+T242	Person-Nominal 2608 2613	两位老同志
+T243	Organization-Name 2646 2650	怀运集团
+T244	Person-Nominal 2650 2655	退休老同志
+R19	Ownership Arg1:T244 Arg2:T243	
+T245	Time-Implicit 2675 2682	今年3月的一天
+T246	Person-Pronoun 2683 2684	我
+T247	Person-Name 2692 2697	龙燕怡老师
+T248	Location-Nominal 2700 2702	我家
+T249	Thing-Nominal 2702 2704	铁门
+R20	Located Arg1:T249 Arg2:T248	
+T250	Person-Name 2706 2709	钟协文
+T251	Person-Pronoun 2713 2714	我
+T252	Person-Pronoun 2715 2716	他
+*	Coreference T252 T250
+T253	Location-Nominal 2717 2719	酒楼
+T254	Person-Pronoun 2724 2725	我
+T255	Person-Name 2733 2735;2736 2737	龙老 师
+T256	Person-Pronoun 2739 2740	我
+T257	Person-Pronoun 2747 2748	你
+*	Coreference T256 T257
+T258	Person-Pronoun 2750 2751	我
+T259	Person-Nominal 2754 2756	家人
+T260	Person-Nominal 2766 2769	老朋友
+T261	Person-Nominal 2782 2785	老朋友
+T262	Person-Pronoun 2786 2787	你
+T263	Time-Implicit 2787 2789	今天
+T264	Location-Name 2794 2796	怀化
+*	Coreference T262 T261
+T265	Person-Pronoun 2807 2808	他
+T266	Location-Name 2809 2811	怀化
+T267	Person-Pronoun 2812 2813	他
+T268	Person-Pronoun 2820 2821	我
+T269	Person-Nominal 2825 2829	他大女儿
+T270	Person-Name 2829 2831	钟燕
+*	Coreference T270 T269
+T271	Person-Pronoun 2837 2838	我
+T272	Person-Nominal 2841 2844	他老伴
+T273	Time-Explicit 2845 2851	去年11月份
+T274	Person-Nominal 2854 2857	他女儿
+T275	Person-Pronoun 2858 2859	他
+R21	Family Arg1:T275 Arg2:T274	
+R22	Family Arg1:T275 Arg2:T272	
+T276	Person-Nominal 2872 2874	父亲
+T277	Location-Name 2876 2878	怀化
+*	Coreference T276 T275
+T278	Person-Nominal 2883 2887	我们老友
+T279	Time-Implicit 2896 2898	年后
+T280	Person-Pronoun 2898 2899	他
+T281	Location-Name 2902 2904	靖州
+T282	Person-Pronoun 2909 2910	他
+T283	Time-Implicit 2912 2916	10多年
+T284	Location-Name 2918 2920	怀化
+T285	Person-Nominal 2923 2926	老朋友
+T286	Person-Pronoun 2930 2931	他
+T287	Person-Pronoun 2954 2955	我
+*	Coreference T285 T287
+T288	Person-Pronoun 2999 3000	我
+T289	Person-Pronoun 3003 3004	他
+T290	Person-Pronoun 3019 3020	我
+T291	Person-Name 3104 3109	老友钟协文
+T292	Person-Pronoun 3111 3112	我
+T293	Person-Pronoun 3114 3115	他
+*	Coreference T293 T291
+T294	Person-Name 3135 3140	老友李永安
+T295	Person-Nominal 3161 3163	君子
+T296	Person-Nominal 3184 3186	儿孙

@@ -1,0 +1,148 @@
+T1	Location-Name 0 2	黄河
+T2	Location-Name 5 15	青海省白音喀拉山北麓
+T3	Location-Name 29 33	蒙古高原
+T4	Thing-Nominal 48 55	两个九十度的弯
+T5	Thing-Nominal 61 68	巨大的几字头形
+T6	Person-Name 71 75	成吉思汗
+T7	Thing-Nominal 71 81	成吉思汗射雕用的金弓
+R1	Use Arg1:T6 Arg2:T7	
+R2	Ownership Arg1:T6 Arg2:T7	
+T8	Location-Name 82 87	库布其沙漠
+T9	Thing-Nominal 89 94	白色的哈达
+T10	Thing-Nominal 106 116	一束四百公里长的弓弦
+T11	Thing-Nominal 117 121;122 127	这苍茫而 浩瀚的景观
+T12	Thing-Nominal 129 138	大漠孤烟、长河落日
+T13	Location-Name 146 153	恩和贝旅游景区
+T14	Thing-Nominal 154 161	一颗璀璨的明珠
+T15	Location-Name 165 174	白茫茫的库布其沙漠
+*	Coreference T15 T8
+T16	Location-Nominal 165 176	白茫茫的库布其沙漠中央
+R3	Part-Whole Arg1:T13 Arg2:T16	
+R4	Part-Whole Arg1:T16 Arg2:T15	
+T17	Person-Nominal 180 182;183 185	八方 旅客
+T18	Person-Pronoun 191 192	我
+T19	Person-Nominal 194 199	其中的一员
+R5	General-Special Arg1:T19 Arg2:T18	
+R6	General-Special Arg1:T17 Arg2:T19	
+T20	Location-Name 201 208	恩和贝召庙遗址
+T21	Location-Name 213 218	烈士纪念碑
+T22	Location-Name 244 247	恩和贝
+T23	Location-Nominal 248 254	一块风水宝地
+R7	General-Special Arg1:T23 Arg2:T22	
+T24	Location-Nominal 256 266	这一带的经济文化中心
+*	Coreference T24 T22 T48
+T25	Time-Implicit 279 283	汉宣帝时
+T26	Person-Nominal 284 287	南匈奴
+T27	Location-Name 291 300;301 304	巴彦淖尔乌拉特前旗 明安乡
+T28	Location-Pronoun 305 307	这里
+T29	Person-Nominal 308 310	他们
+*	Coreference T29 T26
+T30	Location-Nominal 308 313	他们的领地
+R8	General-Special Arg1:T30 Arg2:T28	
+T31	Person-Nominal 315 318	南匈奴
+T32	Thing-Nominal 315 322	南匈奴大毡蓬里
+T33	Thing-Nominal 325 332	胡茄优美的旋律
+R9	Located Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 336 342	欢快的胡旋舞
+R10	Located Arg1:T34 Arg2:T32	
+T35	Location-Nominal 344 351	水草丰美的原野
+T36	Thing-Nominal 356 361;362 364	西域的高蹄 烈马
+R11	Located Arg1:T36 Arg2:T35	
+T37	Person-Name 367 372	呼韩邪单于
+T38	Person-Name 374 377	王昭君
+R12	Family Arg1:T37 Arg2:T38	
+T39	Thing-Nominal 379 381	宝马
+R13	Use Arg1:T38 Arg2:T39	
+R14	Use Arg1:T37 Arg2:T39	
+T40	Location-Pronoun 382 384	这里
+T41	Time-Implicit 390 392	清代
+T42	Location-Name 393 403	秦砖汉瓦的恩和贝召庙
+T43	Location-Nominal 406 432	灯火长明，祥烟缭绕，诵经和鼓乐之声不绝于耳的佛教圣地
+R15	General-Special Arg1:T43 Arg2:T42	
+T44	Person-Nominal 433 437	善男信女
+T45	Time-Implicit 437 439	常年
+T46	Person-Nominal 444 450;451 452	前来朝圣的信 徒
+T47	Time-Explicit 458 463	一九一三年
+T48	Location-Pronoun 464 466	这里
+T49	Organization-Nominal 470 481	“独贵龙”运动的大本营
+*	Coreference T49 T27
+T50	Time-Implicit 483 489	抗日战争时期
+T51	Location-Pronoun 490 492	这里
+T52	Person-Nominal 495 499	抗日战士
+T53	Person-Nominal 500 504	侵华日军
+T54	Person-Nominal 513 520	五百名抗日英烈
+T55	Person-Nominal 526 530	侵华日军
+T56	Location-Pronoun 536 538	这里
+T57	Thing-Nominal 531 533	战火
+R16	Create Arg1:T55 Arg2:T57	
+T58	Person-Nominal 544 549	日本侵略者
+*	Coreference T58 T55
+T59	Thing-Nominal 550 554	三光政策
+R17	Create Arg1:T58 Arg2:T59	
+T60	Location-Pronoun 557 559	这里
+T61	Location-Name 594 599	库布其沙漠
+T62	Location-Pronoun 590 592	这里
+T63	Location-Nominal 605 623	没有人烟、人迹罕至的一片白茫茫的沙海
+*	Coreference T63 T61 T96
+T64	Location-Name 624 627	恩和贝
+T65	Person-Nominal 631 632	人
+T66	Person-Nominal 642 644	人们
+T67	Thing-Nominal 652 665	寸草不长的白茫茫的瞪眼明沙
+R18	Located Arg1:T67 Arg2:T61	
+T68	Location-Nominal 668 670	沙区
+T69	Location-Nominal 672 685	恩和贝这样被沙漠掩埋的家园
+T70	Person-Nominal 690 700	世代居住在沙区的民众
+T71	Thing-Nominal 707 709	沙漠
+T72	Location-Nominal 717 719	热土
+T73	Person-Nominal 741 743	儿孙
+T74	Location-Nominal 752 754	他乡
+T75	Thing-Nominal 732 734	泪水
+T76	Location-Nominal 759 761	全球
+T77	Thing-Nominal 761 771	每年被沙漠吞没的土地
+T78	Metric 774 779	六百万公顷
+T79	Person-Nominal 795 797	人类
+T80	Person-Nominal 823 825	人类
+T81	Person-Nominal 827 831	子孙后代
+T82	Thing-Nominal 863 865	沙漠
+T83	Person-Nominal 870 872	人类
+T84	Time-Implicit 880 882	现今
+T85	Person-Nominal 885 894	土生土长的沙区居民
+T86	Thing-Nominal 897 899	沙漠
+T87	Person-Pronoun 906 907	谁
+T88	Thing-Pronoun 910 911	它
+*	Coreference T88 T86
+T89	Thing-Nominal 914 920	白花花的银子
+R19	Use Arg1:T87 Arg2:T89	
+T90	Person-Nominal 937 945	独具慧眼的企业家
+T91	Location-Nominal 948 956	恩和贝这片明沙中
+*	Coreference T91 T64
+T92	Location-Name 985 988	恩和贝
+T93	Location-Name 997 1000	恩和贝
+T94	Time-Implicit 994 996	如今
+T95	Location-Nominal 1005 1012	著名的旅游景区
+R20	General-Special Arg1:T95 Arg2:T93	
+T96	Location-Nominal 1015 1020	库布其沙海
+T97	Location-Nominal 1015 1028	库布其沙海中一颗璀璨的明珠
+*	Coreference T97 T93 T98
+T98	Location-Nominal 1029 1031	景区
+T99	Thing-Nominal 1029 1036	景区栽植的乔木
+R21	Located Arg1:T99 Arg2:T98	
+T100	Metric 1049 1053	数十公里
+T101	Thing-Nominal 1038 1043	绿色的屏障
+T102	Thing-Nominal 1064 1068	玉树清风
+T103	Thing-Nominal 1073 1085	沙柳为主的灌木和各类沙草
+T104	Location-Name 1091 1094	恩和贝
+T105	Location-Nominal 1091 1097	恩和贝的沙漠
+T106	Thing-Nominal 1099 1104	葱翠的绿衣
+R22	Located Arg1:T106 Arg2:T105	
+*	Coreference T106 T103
+T107	Location-Name 1106 1109	恩和贝
+T108	Location-Nominal 1143 1150	恩和贝这片沙海
+T109	Thing-Nominal 1154 1165	蓝天碧水相映成趣的景致
+T110	Thing-Nominal 1171 1176	水库、水塘
+T111	Thing-Nominal 1179 1194	叮咚作响的泉水和潺潺流淌的河流
+T112	Location-Pronoun 1166 1168	这里
+*	Coreference T112 T107
+R23	Located Arg1:T110 Arg2:T112	
+R24	Located Arg1:T111 Arg2:T112	
+R25	Located Arg1:T109 Arg2:T112	

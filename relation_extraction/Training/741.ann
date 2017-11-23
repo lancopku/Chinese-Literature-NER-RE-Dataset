@@ -1,0 +1,169 @@
+T1	Thing-Nominal 10 11	日
+T2	Thing-Nominal 11 12	月
+T3	Location-Nominal 16 18	绵恒
+T4	Metric 18 23	八十多华里
+T5	Location-Nominal 24 28	沿江码头
+T6	Location-Nominal 34 38	江滨大道
+T7	Location-Nominal 41 43	长江
+T8	Location-Nominal 55 59	临江港区
+T9	Location-Nominal 62 66	全国各地
+T10	Location-Nominal 67 73	水陆交通枢纽
+*	Coreference T10 T5 T6
+T11	Person-Nominal 74 86	张家港口岸的每位党员干部
+T12	Person-Nominal 88 91	局领导
+T13	Person-Nominal 92 96	普通员工
+R1	Part-Whole Arg1:T12 Arg2:T11	
+R2	Part-Whole Arg1:T13 Arg2:T11	
+T14	Metric 99 101	一颗
+T15	Thing-Nominal 101 103	金子
+T16	Person-Pronoun 111 113	他们
+*	Coreference T16 T11 T19 T20
+T17	Location-Nominal 120 121;122 123	港 区
+T18	Time-Implicit 111 121;122 125	他们足声跫跫地踏进港 区那时
+T19	Person-Pronoun 127 129	他们
+T20	Person-Pronoun 131 133	自己
+T21	Organization-Nominal 139 140	党
+T22	Location-Nominal 153 157	金色土地
+T23	Location-Nominal 170 174	江港口岸
+*	Coreference T23 T22
+T24	Organization-Nominal 201 202	党
+T25	Person-Nominal 210 214	中华民族
+T26	Person-Nominal 220 224	张家港人
+T27	Location-Nominal 247 250	张家港
+T28	Time-Explicit 271 282	1982年11月19日
+T29	Organization-Nominal 283 286	国务院
+T30	Location-Nominal 289 292	张家港
+T31	Organization-Nominal 293 295	全国
+T32	Location-Nominal 304 306	口岸
+T33	Location-Nominal 295 306	首批对外开放的一类口岸
+R3	Part-Whole Arg1:T30 Arg2:T33	
+T34	Location-Nominal 309 313	长江流域
+T35	Location-Nominal 309 323	长江流域第一批对外开放的港口
+*	Coreference T35 T33
+T36	Time-Explicit 324 331;332 334	1983年5月 7日
+T37	Metric 313 316	第一批
+T38	Metric 302 304	一类
+T39	Metric 336 339	第一艘
+T40	Thing-Nominal 339 352	巴拿马籍“日本商人号”货轮
+T41	Location-Nominal 355 356	港
+T42	Location-Nominal 360 363	张家港
+*	Coreference T42 T41 T30
+T43	Location-Nominal 365 369	国际口岸
+R4	General-Special Arg1:T43 Arg2:T42	
+T44	Person-Nominal 375 379	港区人民
+T45	Location-Nominal 391 392;393 394	港 区
+T46	Location-Nominal 407 410	张家港
+T47	Location-Nominal 426 428	港区
+T48	Time-Explicit 443 453	1986年9月16日
+T49	Organization-Nominal 454 456	国家
+T50	Location-Nominal 459 462	沙州县
+T51	Location-Nominal 476 480	张家港市
+T52	Location-Nominal 483 492	长三角经济发达地区
+T53	Metric 506 513	80.40公里
+T54	Location-Nominal 514 518	长江岸线
+T55	Location-Nominal 523 533	大新、东沙两条主航道
+T56	Location-Nominal 536 538	泊位
+T57	Location-Nominal 543 549	对外开放泊位
+T58	Location-Nominal 556 561	万吨深水港
+T59	Metric 538 542	123个
+T60	Metric 549 553	90多个
+T61	Metric 561 564	69个
+T62	Person-Nominal 587 594	口岸港务局领导
+T63	Time-Explicit 692 697	2013年
+T64	Thing-Nominal 697 699	货物
+T65	Metric 704 710	2600亿吨
+T66	Location-Nominal 717 728	全国县级港口超亿吨大港
+T68	Location-Nominal 781 783	港区
+T69	Thing-Nominal 784 787	集装箱
+T70	Thing-Nominal 788 790	钢材
+T71	Thing-Nominal 791 793	木材
+T72	Thing-Nominal 794 796	矿石
+T73	Thing-Nominal 797 799	煤炭
+T74	Thing-Nominal 800 804	化工产品
+T75	Thing-Nominal 805 807	粮油
+T76	Thing-Nominal 809 811	棉纱
+T77	Thing-Nominal 819 821	货物
+T78	Location-Nominal 831 833	欧美
+T79	Location-Nominal 834 836	日本
+T80	Location-Nominal 837 839	韩国
+T81	Location-Nominal 840 842	台湾
+T82	Location-Nominal 843 846	港澳台
+T83	Location-Nominal 849 851	国家
+T84	Location-Nominal 852 854	地区
+T85	Location-Nominal 857 866	国际集装箱直达航线
+T86	Location-Nominal 870 875	长三角地区
+T87	Location-Nominal 876 880	长江沿线
+T88	Location-Nominal 885 893	最大国际贸易商港
+*	Coreference T88 T66
+T67	Location-Nominal 766 772	长江沿线港口
+T89	Time-Explicit 895 906	2008年11月18日
+T90	Organization-Nominal 908 911	国务院
+T91	Location-Nominal 913 916	张家港
+T92	Location-Nominal 917 921	保税港区
+T93	Organization-Nominal 926 930	海关总署
+T94	Organization-Nominal 932 937	国家发改委
+T95	Organization-Nominal 938 941	财政局
+T96	Organization-Nominal 942 945	商务部
+T97	Organization-Nominal 949 952	部委办
+T98	Location-Nominal 963 964	区
+*	Coreference T98 T92
+T99	Organization-Nominal 983 985	政策
+T100	Location-Nominal 1024 1026	江苏
+T101	Location-Nominal 1067 1071	长江流域
+T102	Location-Nominal 1072 1081	长三角经济发达地区
+T103	Location-Nominal 1110 1112	港口
+T104	Location-Nominal 1116 1118	场站
+T105	Location-Nominal 1193 1201	电子数字化新口岸
+T106	Location-Nominal 1232 1233	江
+T107	Location-Nominal 1234 1235	海
+T108	Location-Nominal 1244 1248	保税港区
+T109	Thing-Nominal 1260 1264	化工产品
+T110	Thing-Nominal 1275 1279	建筑材料
+T111	Thing-Nominal 1270 1274	粮油食品
+T112	Thing-Nominal 1280 1284	针纺织品
+T113	Thing-Nominal 1265 1269	机电冶金
+T114	Location-Nominal 1299 1319	一个震惊世界的多功能数字化、现代电子新港
+T115	Metric 1299 1301	一个
+T116	Location-Nominal 1324 1328	长江南岸
+T117	Location-Nominal 1349 1351	港口
+T118	Location-Nominal 1367 1384	年吞吐量2.6亿元的电子数字化新港
+T119	Location-Nominal 1390 1393	长山港
+T120	Location-Nominal 1394 1397	张家港
+T121	Location-Nominal 1398 1401	段山港
+T122	Location-Nominal 1402 1405	东沙港
+T123	Location-Nominal 1406 1411	化学工业园
+T124	Location-Nominal 1412 1417	冶金工业园
+T125	Location-Nominal 1417 1418;1419 1423	六 大作业区
+R5	Part-Whole Arg1:T119 Arg2:T125	
+R6	Part-Whole Arg1:T120 Arg2:T125	
+R7	Part-Whole Arg1:T121 Arg2:T125	
+R8	Part-Whole Arg1:T122 Arg2:T125	
+R9	Part-Whole Arg1:T123 Arg2:T125	
+R10	Part-Whole Arg1:T124 Arg2:T125	
+T126	Location-Nominal 1431 1438	万吨级以上泊位
+T127	Metric 1438 1441	30座
+T128	Metric 1371 1376	2.6亿元
+T129	Thing-Nominal 1446 1448	煤炭
+T130	Thing-Nominal 1449 1452	铁矿石
+T131	Thing-Nominal 1453 1455	粮食
+T132	Thing-Nominal 1458 1460	货物
+T133	Thing-Nominal 1461 1471	集装箱液体化工业产品
+T134	Location-Nominal 1515 1518	张家港
+T135	Location-Nominal 1524 1531	全国的先进口岸
+T136	Location-Nominal 1532 1536	文明口岸
+*	Coreference T134 T135 T136
+T137	Organization-Nominal 1537 1541	口岸党委
+T138	Organization-Nominal 1542 1545	口岸办
+T139	Organization-Nominal 1553 1560	江苏省先进单位
+*	Coreference T137 T139 T138
+T140	Organization-Nominal 1568 1570	国检
+T141	Organization-Nominal 1571 1572;1573 1574	海 关
+T142	Organization-Nominal 1575 1577	海事
+T143	Organization-Nominal 1578 1580	边检
+T144	Organization-Nominal 1581 1587	口岸先进单位
+T145	Abstract 1633 1638	党的十八大
+T146	Abstract 1639 1650	党的十八届三中全会精神
+T147	Person-Nominal 1660 1664	张家港人
+T148	Abstract 1672 1674;1675 1684	中国 特色的社会主义道路
+T149	Person-Nominal 1709 1713	中华民族
+T150	Location-Nominal 1726 1729	张家港

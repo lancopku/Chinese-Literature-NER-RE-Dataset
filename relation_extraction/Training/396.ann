@@ -1,0 +1,232 @@
+T1	Person-Name 0 6	杂文家李昶林
+T2	Thing-Name 22 34	一篇随笔《美女也有陋处》
+T3	Thing-Nominal 8 19	《人民日报》(海外版)
+R1	Create Arg1:T1 Arg2:T2	
+T4	Person-Pronoun 35 36	我
+T5	Time-Implicit 36 37	今
+T6	Thing-Name 41 51	一篇《丑女也有荣光》
+R2	Create Arg1:T4 Arg2:T6	
+T7	Person-Pronoun 52 53	我
+T8	Person-Nominal 63 66	我孙女
+R3	Family Arg1:T7 Arg2:T8	
+T9	Person-Nominal 70 73	我孙女
+T10	Location-Name 74 78	美国加州
+T11	Organization-Nominal 79 81	大学
+T12	Time-Implicit 82 86	前年暑假
+T13	Organization-Nominal 87 88	家
+T14	Person-Pronoun 91 92	她
+*	Coreference T14 T9
+T15	Time-Implicit 94 97	小时候
+T16	Person-Nominal 103 108	爷爷、爷爷
+*	Coreference T16 T7
+T17	Person-Pronoun 118 119	我
+T18	Person-Pronoun 127 128	她
+T19	Person-Pronoun 129 130	我
+T20	Person-Nominal 132 134	爷爷
+T21	Person-Pronoun 135 136	您
+*	Coreference T21 T20
+T22	Person-Pronoun 140 141	我
+*	Coreference T22 T18
+T23	Time-Implicit 142 146	中国古代
+T24	Person-Nominal 147 151	许多美女
+T25	Person-Name 154 164	杨玉环、王昭君、西施
+R4	General-Special Arg1:T24 Arg2:T25	
+T26	Time-Implicit 167 169	今天
+T27	Person-Pronoun 169 170	我
+T28	Person-Pronoun 172 173	你
+T29	Time-Implicit 178 182	中国古代
+T30	Person-Nominal 184 191	哪些著名的丑女
+T31	Person-Pronoun 192 193	您
+T32	Person-Pronoun 201 202	我
+T33	Metric 196 198	几个
+T34	Person-Pronoun 203 204	她
+T36	Thing-Nominal 233 235	史册
+T35	Time-Implicit 222 224	古代
+*	Coreference T35 T29
+T37	Person-Nominal 224 226	丑女
+T38	Person-Nominal 239 243;244 247	有名气和 影响的
+T39	Person-Pronoun 251 252	我
+T40	Metric 257 259	几个
+T41	Person-Name 266 268	嫫母
+T42	Thing-Name 270 276	《路史后纪》
+T43	Person-Nominal 279 281	皇帝
+T44	Person-Name 279 285	皇帝次妃嫫母
+*	Coreference T44 T41 T45 T47
+T45	Person-Pronoun 296 297	她
+T46	Person-Name 298 302	轩辕皇帝
+T47	Person-Nominal 298 304	轩辕皇帝之妻
+R5	Family Arg1:T47 Arg2:T46	
+T48	Person-Nominal 310 312	夜叉
+T49	Person-Name 325 327	孟光
+T50	Person-Nominal 318 324	另外一个丑女
+*	Coreference T49 T50 T52
+T51	Person-Name 334 341	东汉大名士梁鸿
+T52	Person-Nominal 334 343	东汉大名士梁鸿之妻
+R6	Family Arg1:T51 Arg2:T52	
+T53	Person-Name 344 346	孟光
+T54	Thing-Nominal 362 365;366 370	两百多 斤的石臼
+T55	Metric 362 365;366 367	两百多 斤
+T56	Person-Pronoun 377 378	她
+T57	Person-Nominal 381 383	丈夫
+*	Coreference T56 T53
+*	Coreference T57 T51
+T58	Thing-Nominal 386 387	案
+T59	Thing-Nominal 388 389	眉
+T60	Person-Nominal 394 395	宾
+T61	Person-Nominal 405 409	他们夫妻
+R7	Part-Whole Arg1:T56 Arg2:T61	
+R8	Part-Whole Arg1:T57 Arg2:T61	
+T62	Person-Pronoun 421 422	我
+T63	Person-Name 433 436	钟离春
+T64	Person-Pronoun 437 438	她
+*	Coreference T64 T63 T65
+T65	Person-Nominal 426 433	位居第二的丑女
+T66	Person-Nominal 439 447	战国时代的齐国人
+R9	General-Special Arg1:T66 Arg2:T64	
+T67	Time-Implicit 439 443	战国时代
+T68	Location-Name 451 456	齐国无盐邑
+T69	Person-Pronoun 472 473	她
+T70	Location-Name 458 469	山东泰安市东平县无盐村
+*	Coreference T70 T68
+T71	Thing-Nominal 481 482	头
+T72	Thing-Nominal 484 485	肚
+T73	Thing-Nominal 487 488	发
+T74	Thing-Nominal 490 492	皮肤
+T75	Thing-Nominal 494 495	漆
+R10	Part-Whole Arg1:T74 Arg2:T69	
+R11	Part-Whole Arg1:T73 Arg2:T69	
+R12	Part-Whole Arg1:T72 Arg2:T69	
+R13	Part-Whole Arg1:T71 Arg2:T69	
+T76	Thing-Nominal 496 498	四肢
+R14	Part-Whole Arg1:T76 Arg2:T69	
+T77	Person-Nominal 502 504	人们
+T78	Person-Pronoun 506 507	她
+T79	Person-Pronoun 513 514	她
+T80	Person-Name 514 524	”钟无盐”“钟无艳”
+*	Coreference T80 T79
+T81	Metric 527 529	四十
+T82	Person-Pronoun 537 538	她
+T83	Person-Pronoun 549 550	她
+T84	Location-Name 551 553	齐国
+T85	Person-Nominal 558 560	奸佞
+T86	Person-Nominal 568 570	百姓
+T87	Time-Implicit 580 582	一天
+T88	Person-Pronoun 583 584	她
+T89	Location-Name 588 590	齐宫
+T90	Person-Nominal 595 597	齐王
+T92	Person-Pronoun 610 611	你
+*	Coreference T92 T88
+T93	Location-Nominal 616 618	乡下
+T94	Person-Nominal 623 625	寡人
+T91	Person-Name 598 600;601 602	齐宣 王
+R15	General-Special Arg1:T90 Arg2:T91	
+*	Coreference T94 T91 T98 T100
+T95	Person-Pronoun 628 629	你
+T96	Person-Name 636 639	钟离春
+T97	Person-Nominal 641 643	民女
+*	Coreference T97 T96
+T98	Person-Name 652 654	宣王
+T99	Person-Pronoun 663 664	你
+T100	Person-Nominal 667 668	孤
+T101	Person-Name 678 681	钟离春
+T102	Person-Pronoun 700 701	她
+T103	Thing-Nominal 701 703	面部
+R16	Part-Whole Arg1:T103 Arg2:T102	
+T104	Thing-Nominal 710 711	头
+R17	Part-Whole Arg1:T104 Arg2:T102	
+T105	Thing-Nominal 715 717	双眼
+R18	Part-Whole Arg1:T105 Arg2:T102	
+T106	Person-Name 724 727	齐宣王
+T107	Thing-Nominal 732 734	双手
+T108	Thing-Nominal 739 741	双腿
+T109	Thing-Nominal 742 744	嘴巴
+R19	Part-Whole Arg1:T107 Arg2:T102	
+R20	Part-Whole Arg1:T108 Arg2:T102	
+T110	Person-Nominal 761 765	在场的人
+T111	Person-Name 772 774	宣王
+T112	Metric 786 788	一会
+T113	Person-Pronoun 790 791	她
+T114	Person-Pronoun 792 794	你这
+*	Coreference T114 T113
+T115	Person-Name 800 803	钟离春
+T116	Person-Nominal 805 807	大王
+*	Coreference T116 T111
+T117	Person-Pronoun 808 809	我
+*	Coreference T117 T115
+T118	Person-Pronoun 812 813	我
+T119	Person-Nominal 817 819	宣王
+T120	Person-Pronoun 821 822	她
+T121	Person-Name 826 829	钟离春
+T122	Person-Pronoun 835 836	我
+T123	Person-Nominal 841 843	大王
+T124	Thing-Nominal 846 848	风云
+T125	Thing-Nominal 837 838	目
+*	Coreference T125 T105
+T126	Thing-Nominal 853 854	口
+*	Coreference T126 T109
+T127	Person-Nominal 857 859	大王
+T128	Thing-Nominal 859 867	那不听忠言的耳朵
+R21	Part-Whole Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 869 870	手
+*	Coreference T129 T107
+T130	Person-Nominal 873 875	大王
+T131	Person-Nominal 877 882	阿谀之徒;
+T132	Thing-Nominal 883 884	腿
+T133	Thing-Nominal 888 897	专供大王享乐的宫殿
+*	Coreference T132 T108
+T134	Person-Pronoun 901 902	她
+T135	Person-Nominal 908 910	民女
+T136	Person-Nominal 919 920	君
+T137	Person-Nominal 921 923	诤臣
+R22	Social Arg1:T137 Arg2:T136	
+T138	Person-Nominal 929 930	父
+T139	Person-Nominal 931 933	诤子
+R23	Family Arg1:T138 Arg2:T139	
+T140	Organization-Nominal 927 928	国
+T141	Organization-Nominal 937 938	家
+R24	Ownership Arg1:T138 Arg2:T141	
+R25	Ownership Arg1:T136 Arg2:T140	
+T142	Time-Implicit 940 942	而今
+T143	Person-Nominal 942 944	大王
+T144	Thing-Nominal 951 953	忠言
+T145	Organization-Nominal 954 956	国家
+T146	Person-Pronoun 959 960	我
+T147	Person-Nominal 971 973	大王
+T148	Person-Nominal 978 980	民女
+T149	Person-Pronoun 984 985	我
+T150	Thing-Nominal 998 1006	几条安邦治国之策
+T151	Person-Nominal 1007 1009	宣王
+T152	Person-Pronoun 1021 1022	她
+T153	Thing-Name 1028 1032	“渐台”
+T154	Person-Nominal 1034 1036	乐女
+T155	Thing-Nominal 1038 1040	谗言
+T156	Time-Implicit 1044 1048	良辰吉日
+T157	Person-Name 1050 1053	钟离春
+T158	Location-Name 1059 1061	齐国
+T159	Organization-Nominal 1066 1068	强国
+T160	Organization-Name 1059 1061	齐国
+R26	General-Special Arg1:T159 Arg2:T160	
+T161	Person-Nominal 1102 1104	丑女
+T162	Person-Name 1115 1118	钟离春
+T163	Person-Nominal 1122 1129	诸葛亮的妻子。
+R27	General-Special Arg1:T161 Arg2:T163	
+T164	Person-Name 1136 1144	诸葛亮之妻黄月英
+T165	Person-Nominal 1146 1156	一个不显山露水的丑女
+R28	General-Special Arg1:T165 Arg2:T164	
+T166	Person-Pronoun 1157 1158	她
+T167	Thing-Name 1166 1172	《三国演义》
+T168	Person-Name 1173 1176	诸葛亮
+R29	Family Arg1:T168 Arg2:T164	
+T169	Location-Name 1180 1182	岐山
+T170	Thing-Nominal 1186 1187	粮
+T171	Thing-Nominal 1195 1199	木牛流马
+T172	Thing-Name 1200 1206	《三国演义》
+T173	Person-Name 1212 1215	诸葛亮
+T174	Person-Name 1223 1226	黄月英
+T175	Person-Nominal 1229 1237	真正的设计制造人
+T176	Person-Nominal 1239 1241	其妻
+*	Coreference T175 T176 T164 T163 T166 T174 T177
+T177	Person-Pronoun 1242 1243	她
+T178	Person-Nominal 1257 1263	出色的贤内助
+R30	General-Special Arg1:T178 Arg2:T177	
+T179	Person-Pronoun 1264 1265	她

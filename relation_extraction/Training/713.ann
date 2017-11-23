@@ -1,0 +1,79 @@
+T1	Person-Pronoun 0 1	你
+T2	Person-Pronoun 3 4	我
+T3	Thing-Nominal 14 16	彩蝶
+T4	Thing-Nominal 17 19	猎物
+T5	Thing-Nominal 28 30	牢笼
+T6	Person-Pronoun 42 43	我
+T7	Person-Pronoun 44 45	你
+T8	Person-Pronoun 53 55	自己
+T9	Person-Nominal 80 83	倾听者
+T10	Person-Pronoun 84 85	你
+T11	Thing-Nominal 90 93	梧桐树
+T12	Person-Pronoun 107 108	我
+T13	Thing-Pronoun 113 114	你
+T14	Thing-Pronoun 120 121	您
+*	Coreference T13 T11 T14 T17 T20
+T15	Person-Pronoun 126 127	我
+T16	Person-Pronoun 135 136	我
+T17	Thing-Pronoun 137 138	您
+T18	Thing-Nominal 152 153	身
+R1	Part-Whole Arg1:T18 Arg2:T17	
+T19	Person-Pronoun 156 157	我
+T20	Thing-Pronoun 164 165	您
+T21	Person-Pronoun 171 172	我
+T22	Person-Pronoun 181 182	我
+T23	Thing-Nominal 191 193	肩膀
+R2	Part-Whole Arg1:T23 Arg2:T20	
+T24	Thing-Pronoun 196 197	您
+T25	Person-Pronoun 212 213	我
+T26	Person-Pronoun 226 227	我
+T27	Person-Pronoun 256 257	我
+T28	Time-Implicit 266 268	有时
+T29	Person-Pronoun 305 306	我
+T30	Person-Pronoun 349 350	我
+T31	Person-Pronoun 375 376	我
+T32	Person-Nominal 360 361	人
+T33	Thing-Pronoun 383 384	你
+T34	Metric 397 399	一座
+T35	Thing-Nominal 399 400	山
+T36	Thing-Nominal 404 405	海
+T37	Person-Pronoun 475 476	你
+T38	Person-Pronoun 492 493	你
+T39	Location-Nominal 510 514	康庄大道
+T40	Person-Pronoun 523 524	你
+T41	Person-Pronoun 540 542	自己
+T42	Person-Pronoun 557 558	你
+T43	Person-Pronoun 562 564	自己
+*	Coreference T43 T42
+T44	Person-Pronoun 572 573	我
+T45	Person-Pronoun 593 594	你
+T46	Person-Pronoun 607 608	我
+T47	Person-Pronoun 616 617	你
+T48	Person-Pronoun 624 625	我
+T49	Thing-Nominal 631 634	暴风雨
+T50	Time-Implicit 638 642	于此同时
+T51	Person-Pronoun 643 644	你
+T52	Location-Nominal 652 654	屋檐
+T53	Thing-Nominal 659 661	雨水
+T54	Person-Pronoun 663 664	我
+T55	Thing-Nominal 673 674	血
+R3	Part-Whole Arg1:T55 Arg2:T54	
+T56	Person-Pronoun 682 683	你
+T57	Person-Pronoun 698 700	我们
+T58	Thing-Nominal 704 706	皱纹
+T59	Thing-Nominal 712 714	脸颊
+R4	Part-Whole Arg1:T58 Arg2:T57	
+R5	Part-Whole Arg1:T59 Arg2:T57	
+R6	Located Arg1:T58 Arg2:T59	
+T60	Person-Pronoun 717 718	你
+T61	Person-Pronoun 740 741	你
+T62	Person-Pronoun 750 751	你
+T63	Person-Nominal 756 758	别人
+T64	Person-Pronoun 825 826	你
+T65	Person-Pronoun 836 837	我
+T66	Thing-Nominal 849 854	弱小的身躯
+R7	Part-Whole Arg1:T66 Arg2:T65	
+T67	Person-Pronoun 857 858	我
+T68	Thing-Nominal 902 904	枯木
+T69	Time-Implicit 905 906	春
+T70	Person-Pronoun 918 919	你

@@ -1,0 +1,57 @@
+T1	Thing-Nominal 2 6	书法作品
+T3	Thing-Pronoun 14 15	它
+*	Coreference T3 T1
+T4	Person-Nominal 17 19	书家
+T5	Thing-Nominal 32 40	一幅美的书法作品
+T6	Thing-Pronoun 43 44	它
+*	Coreference T6 T5
+T7	Location-Name 47 49	中国
+T9	Person-Nominal 64 66	古人
+T10	Person-Name 72 75	孙大娘
+T11	Thing-Nominal 81 85	兽鸟虫鱼
+T12	Person-Nominal 101 103	人类
+T13	Person-Nominal 101 106	人类的母亲
+T14	Abstract 108 112	文学艺术
+T15	Thing-Nominal 140 144	书法作品
+T16	Thing-Nominal 168 174	书法艺术作品
+T17	Abstract 184 186	书法
+T19	Person-Name 202 204	炎黄
+T20	Person-Nominal 202 206	炎黄子孙
+T21	Thing-Pronoun 216 217	它
+T22	Person-Nominal 219 228	各个历史时期书法家
+T24	Thing-Nominal 276 286	一幅美的书法艺术作品
+T25	Abstract 340 342	书法
+T26	Term 414 419	一两个小时
+T27	Time-Implicit 410 412	每天
+T28	Time-Implicit 423 427	三年五载
+T29	Abstract 436 438	书法
+T30	Abstract 445 447	书法
+T31	Abstract 530 532	书法
+T32	Abstract 566 568	书法
+T33	Person-Nominal 590 592	前人
+T34	Person-Nominal 600 602	书家
+T37	Time-Implicit 645 649	古往今来
+T38	Person-Nominal 655 660	书画艺术家
+T39	Person-Name 681 689;690 696	颜真卿、赵孟、柳 公权、欧阳洵
+T40	Person-Pronoun 697 698;699 700	他 们
+*	Coreference T40 T39
+T41	Metric 705 708	八十岁
+T42	Person-Name 711 713	柳氏
+T43	Metric 715 719	八十九岁
+T44	Person-Nominal 733 736	书画家
+T45	Organization-Nominal 746 752	各地老年大学
+T46	Person-Nominal 761 764	老年人
+T47	Abstract 784 786	书法
+T49	Abstract 801 804;805 806	中华文 明
+T2	Time-Implicit 306 308	十年
+T8	Metric 306 308	十年
+T18	Thing-Nominal 368 369	笔
+T23	Time-Implicit 414 419	一两个小时
+T50	Thing-Nominal 494 496	龙蛇
+T35	Person-Nominal 629 637	从事书画艺术的人
+T36	Person-Nominal 675 681	著名书法名家
+R1	Part-Whole Arg1:T39 Arg2:T36	
+T51	Time-Explicit 744 746	现在
+T52	Organization-Nominal 757 760	书画班
+T48	Thing-Nominal 820 822	劲松
+T53	Thing-Nominal 836 838	龙蛇

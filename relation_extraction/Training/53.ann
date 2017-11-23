@@ -1,0 +1,289 @@
+T1	Person-Nominal 6 8	夫君
+T2	Person-Nominal 9 11	朋友
+T3	Location-Nominal 17 19	池塘
+T4	Location-Nominal 20 22	草丛
+T5	Thing-Nominal 29 30	蛙
+R1	Near Arg1:T4 Arg2:T3	
+R2	Located Arg1:T5 Arg2:T4	
+T6	Person-Pronoun 32 33	我
+R3	Family Arg1:T6 Arg2:T1	
+R4	Social Arg1:T6 Arg2:T2	
+T7	Thing-Nominal 48 49	蛙
+T8	Thing-Nominal 75 76	蛙
+T9	Thing-Nominal 93 94	蛙
+T10	Person-Pronoun 101 102	我
+T11	Person-Pronoun 111 112	我
+T12	Thing-Nominal 114 115	蛙
+T13	Location-Nominal 119 123	田野乡村
+T14	Location-Nominal 125 127	乡村
+T15	Thing-Nominal 133 134	蛙
+R5	Located Arg1:T12 Arg2:T13	
+T16	Thing-Pronoun 143 144	它
+T17	Thing-Nominal 192 193	蛙
+T18	Person-Pronoun 197 198	我
+T19	Time-Implicit 198 200	儿时
+T20	Location-Nominal 201 205	乡村田野
+T21	Time-Implicit 216 218	儿时
+T22	Location-Nominal 220 222	老家
+T23	Location-Nominal 226 229	小村庄
+T24	Location-Nominal 233 235	池塘
+R6	Part-Whole Arg1:T24 Arg2:T23	
+T25	Location-Nominal 236 237	村
+T26	Location-Nominal 247 249	小河
+R7	Near Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 250 251	天
+T28	Thing-Nominal 256 257	水
+T29	Thing-Nominal 262 263	草
+T30	Thing-Nominal 270 271	蝶
+T31	Thing-Nominal 272 273	莺
+T32	Time-Implicit 268 270	白天
+T33	Time-Implicit 275 276;277 278	夜 晚
+T34	Thing-Nominal 278 279	虫
+T35	Thing-Nominal 280 281	蛙
+T36	Person-Pronoun 305 306	我
+T37	Time-Implicit 315 317	春天
+T38	Location-Nominal 338 340	池塘
+T39	Thing-Nominal 343 345	苇芽
+T40	Thing-Nominal 356 358	柳枝
+T41	Thing-Nominal 362 364	柳苞
+R8	Part-Whole Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 365 367	小秧
+T43	Location-Nominal 370 371	田
+T44	Person-Nominal 379 381	爷爷
+T45	Person-Nominal 381 383	奶奶
+R9	Family Arg1:T45 Arg2:T44	
+T46	Location-Nominal 384 386	土炕
+T47	Location-Nominal 397 399	池塘
+T48	Location-Nominal 400 402	小河
+T49	Person-Pronoun 443 444	你
+T50	Thing-Nominal 445 446	蛙
+T51	Location-Nominal 509 511	池塘
+T52	Location-Nominal 512 516	小河沟渠
+T53	Thing-Nominal 518 519	蛙
+T54	Thing-Nominal 531 533	苇叶
+T55	Person-Nominal 557 559	爷爷
+T56	Location-Nominal 560 561	田
+T57	Location-Nominal 565 567	田埂
+T58	Location-Nominal 568 570	渠道
+T59	Thing-Nominal 579 581	青蛙
+T60	Thing-Pronoun 582 584	它们
+*	Coreference T60 T59 T61
+T61	Thing-Nominal 584 586	弹丸
+T62	Location-Nominal 606 608	草层
+T63	Location-Nominal 609 611	沟渠
+T64	Location-Nominal 627 629	草丛
+T65	Thing-Pronoun 632 634	它们
+T66	Person-Pronoun 647 648	你
+T67	Person-Pronoun 658 659	我
+T68	Thing-Pronoun 661 662	它
+T69	Location-Nominal 671 673	田野
+T70	Thing-Nominal 673 674	蛙
+T71	Thing-Nominal 680 681	蛙
+T72	Location-Nominal 684 686	大田
+T73	Thing-Nominal 687 689	害虫
+T74	Person-Nominal 694 700	故乡的亲人们
+T75	Person-Pronoun 711 713	他们
+*	Coreference T75 T74
+T76	Thing-Nominal 781 783	蚊子
+T77	Person-Nominal 785 788	故乡人
+R10	Located Arg1:T70 Arg2:T69	
+R11	Located Arg1:T73 Arg2:T72	
+R12	Located Arg1:T71 Arg2:T72	
+R13	Located Arg1:T65 Arg2:T64	
+R14	Located Arg1:T60 Arg2:T62	
+R15	Located Arg1:T60 Arg2:T63	
+T78	Time-Implicit 800 802	傍晚
+T79	Thing-Nominal 817 819	绿树
+T80	Location-Nominal 823 827	村舍屋顶
+T81	Thing-Nominal 832 834	炊烟
+T82	Location-Nominal 835 837	田间
+T83	Thing-Nominal 837 839	草叶
+T84	Thing-Nominal 846 848	露水
+R16	Located Arg1:T84 Arg2:T83	
+R17	Located Arg1:T83 Arg2:T82	
+T85	Person-Nominal 851 854	乡亲们
+T86	Time-Implicit 857 859	一天
+T87	Person-Pronoun 869 871	他们
+*	Coreference T87 T85 T90
+T88	Location-Nominal 888 892	野草小路
+T89	Thing-Nominal 906 907	蛙
+T90	Person-Nominal 915 917	农人
+T91	Time-Implicit 941 943	傍晚
+T92	Location-Nominal 943 945	田野
+T93	Thing-Nominal 985 986	蛙
+T94	Thing-Nominal 1000 1001	蛙
+T95	Time-Implicit 1022 1024	傍晚
+T96	Location-Nominal 1049 1051	田野
+T97	Time-Implicit 1063 1066	晚饭后
+T98	Thing-Nominal 1067 1068	窗
+T99	Person-Pronoun 1088 1089	我
+T100	Person-Nominal 1091 1093	爷爷
+R18	Family Arg1:T99 Arg2:T100	
+T101	Thing-Nominal 1098 1099	烟
+R19	Use Arg1:T100 Arg2:T101	
+T102	Person-Nominal 1100 1102	奶奶
+T103	Location-Nominal 1108 1109	院
+T104	Thing-Nominal 1110 1111	桌
+T105	Thing-Nominal 1113 1115	碗筷
+R20	Located Arg1:T105 Arg2:T104	
+R21	Located Arg1:T104 Arg2:T103	
+T106	Thing-Nominal 1117 1119	水缸
+T107	Thing-Nominal 1130 1132	西瓜
+R22	Located Arg1:T107 Arg2:T106	
+T108	Time-Implicit 1135 1139	夏日夜晚
+T109	Person-Pronoun 1149 1150	我
+T110	Thing-Nominal 1161 1162	缸
+T111	Thing-Nominal 1164 1166	西瓜
+R23	Located Arg1:T111 Arg2:T110	
+T112	Thing-Nominal 1180 1182	西瓜
+T113	Time-Implicit 1190 1192	晚上
+T114	Thing-Nominal 1199 1201	西瓜
+T115	Person-Pronoun 1208 1209	我
+T116	Person-Nominal 1218 1220	奶奶
+T117	Person-Pronoun 1224 1225	我
+R24	Family Arg1:T117 Arg2:T116	
+T118	Person-Pronoun 1238 1239	你
+*	Coreference T118 T117
+T119	Location-Name 1240 1242	青州
+T120	Location-Name 1244 1245;1246 1247	通 州
+T121	Person-Pronoun 1250 1251	她
+T122	Person-Pronoun 1254 1255	我
+T123	Person-Nominal 1274 1276	奶奶
+T124	Person-Nominal 1278 1280	爷爷
+T125	Thing-Nominal 1286 1287	桌
+T126	Thing-Nominal 1283 1284	瓜
+R25	Located Arg1:T126 Arg2:T125	
+*	Coreference T121 T123
+T127	Person-Pronoun 1291 1292	他
+*	Coreference T127 T124
+T128	Thing-Nominal 1301 1302	鞋
+T129	Thing-Nominal 1305 1306;1307 1308	烟 袋
+T130	Thing-Nominal 1310 1312	灰烬
+R26	Located Arg1:T130 Arg2:T129	
+T131	Location-Nominal 1315 1316	家
+T132	Thing-Nominal 1320 1322	算盘
+T133	Thing-Nominal 1324 1325	桌
+R27	Located Arg1:T132 Arg2:T133	
+T134	Thing-Nominal 1336 1337	蛙
+T135	Time-Implicit 1342 1344	今年
+T136	Thing-Nominal 1363 1367	算盘珠子
+R28	Part-Whole Arg1:T136 Arg2:T132	
+T137	Person-Nominal 1376 1378	爷爷
+T138	Thing-Nominal 1388 1390	钢琴
+T139	Person-Nominal 1392 1394	乐手
+R29	Use Arg1:T139 Arg2:T138	
+T140	Location-Nominal 1410 1411	村
+T141	Thing-Nominal 1420 1422	板凳
+T142	Thing-Nominal 1425 1427	铺垫
+T143	Thing-Nominal 1430 1432	蒲扇
+T144	Thing-Nominal 1434 1435	门
+T145	Location-Nominal 1456 1458	农田
+T146	Thing-Nominal 1460 1462	庄稼
+T147	Location-Nominal 1471 1473	田埂
+T148	Thing-Nominal 1473 1475	水草
+T149	Thing-Nominal 1478 1480	蛐蛐
+T150	Thing-Nominal 1482 1489	不知名的昆虫们
+R30	Located Arg1:T149 Arg2:T148	
+R31	Located Arg1:T150 Arg2:T148	
+R32	Located Arg1:T148 Arg2:T147	
+T151	Thing-Nominal 1491 1493	青蛙
+T152	Person-Nominal 1540 1542	大家
+T153	Person-Pronoun 1563 1564	你
+T154	Person-Pronoun 1566 1567	我
+T155	Person-Pronoun 1620 1621	我
+T156	Person-Nominal 1628 1631	大人们
+T157	Person-Pronoun 1642 1644	他们
+*	Coreference T157 T156
+T158	Person-Pronoun 1655 1657	他们
+T159	Person-Pronoun 1671 1673	他们
+T160	Person-Nominal 1699 1703	神鬼狐妖
+T161	Person-Pronoun 1711 1712	我
+T162	Person-Nominal 1732 1734	自己
+*	Coreference T161 T162
+T163	Person-Nominal 1763 1765	奶奶
+T164	Thing-Nominal 1771 1773	蒲扇
+R33	Use Arg1:T163 Arg2:T164	
+T165	Person-Nominal 1413 1417	老老少少
+R34	Use Arg1:T165 Arg2:T141	
+R35	Use Arg1:T165 Arg2:T142	
+R36	Use Arg1:T165 Arg2:T143	
+T166	Person-Pronoun 1774 1775	我
+T167	Thing-Nominal 1784 1787	“青蛙
+T168	Person-Pronoun 1789 1790	你
+*	Coreference T168 T166
+T169	Thing-Pronoun 1808 1810	它们
+*	Coreference T169 T167
+T170	Thing-Nominal 1836 1837	鞋
+T171	Thing-Nominal 1839 1840	袜
+T172	Person-Nominal 1845 1848	乖孩子
+T173	Person-Nominal 1849 1852	乖孩子
+T174	Person-Nominal 1855 1857	奶奶
+T175	Thing-Nominal 1860 1862	蒲扇
+R37	Use Arg1:T174 Arg2:T175	
+T176	Thing-Nominal 1865 1867	蚊子
+T177	Person-Nominal 1884 1889	一个小孩子
+T178	Person-Nominal 1913 1915	妖怪
+T179	Person-Nominal 1924 1927	小孩子
+T180	Person-Nominal 1934 1937	小孩子
+T181	Location-Nominal 1938 1939	河
+T182	Person-Nominal 1942 1943;1944 1945	妖 怪
+T183	Thing-Nominal 1955 1956	鞋
+T184	Thing-Nominal 1957 1958	袜
+T185	Thing-Nominal 1964 1966	鞋袜
+T186	Location-Nominal 1967 1968	河
+T187	Person-Nominal 1971 1973	妖怪
+T188	Person-Nominal 1977 1980	小孩子
+T189	Thing-Nominal 1981 1983	鞋袜
+T190	Person-Nominal 1987 1989	孩子
+T191	Location-Nominal 1995 1996	河
+T192	Thing-Nominal 2011 2013	青蛙
+T193	Location-Nominal 2017 2018	河
+R38	Located Arg1:T192 Arg2:T193	
+T194	Person-Nominal 2021 2023	大家
+T195	Thing-Nominal 2030 2031	鞋
+T196	Thing-Nominal 2032 2033	袜
+T197	Person-Nominal 2040 2042	大人
+T198	Person-Pronoun 2053 2055	我们
+T199	Person-Nominal 2066 2068	自己
+*	Coreference T198 T199
+T200	Person-Nominal 2073 2075	妖怪
+T201	Person-Nominal 2079 2081	自己
+T202	Thing-Nominal 2084 2086	青蛙
+T203	Thing-Nominal 2094 2095;2096 2097	青 蛙
+T204	Person-Nominal 2109 2111	自己
+T205	Person-Nominal 2114 2116	妖怪
+T206	Thing-Nominal 2118 2120	青蛙
+T207	Person-Nominal 2133 2138	故乡的亲人
+T208	Location-Nominal 2145 2147	大田
+T209	Thing-Nominal 2149 2151	庄稼
+R39	Located Arg1:T209 Arg2:T208	
+T210	Thing-Nominal 2162 2163	衣
+T211	Thing-Nominal 2164 2165	房
+T212	Thing-Nominal 2186 2188	秋虫
+T213	Location-Nominal 2199 2201	田野
+T214	Time-Implicit 2217 2220	几十年
+T215	Location-Nominal 2225 2229	乡野田间
+T216	Time-Implicit 2244 2246	儿时
+T217	Time-Implicit 2268 2269;2270 2271	儿 时
+T218	Location-Nominal 2278 2282	乡野田园
+T219	Person-Nominal 2290 2292	自己
+T220	Person-Pronoun 2301 2302	我
+T221	Location-Nominal 2307 2309	池塘
+T222	Location-Nominal 2310 2312	小河
+T223	Thing-Nominal 2317 2318	蛙
+R40	Located Arg1:T223 Arg2:T221	
+R41	Located Arg1:T223 Arg2:T222	
+T224	Location-Nominal 57 59	水中
+R42	Located Arg1:T7 Arg2:T224	
+T225	Location-Nominal 78 80	故乡
+T226	Thing-Nominal 84 85	蛙
+T227	Location-Nominal 407 409	水面
+T228	Thing-Nominal 418 420	星斗
+T229	Time-Implicit 490 495	不一会工夫
+T230	Person-Nominal 756 758	文人
+T231	Thing-Nominal 771 773	太阳
+T232	Thing-Nominal 794 795	脚
+T233	Location-Nominal 797 798	地
+T234	Thing-Nominal 969 971	衣角
+T235	Location-Nominal 1030 1032	乡野
+T236	Time-Explicit 1127 1129	两天

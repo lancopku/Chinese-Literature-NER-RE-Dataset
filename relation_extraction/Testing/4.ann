@@ -1,0 +1,139 @@
+T1	Thing-Name 0 4	哈姆雷特
+T3	Thing-Name 50 54	哈姆雷特
+T4	Thing-Pronoun 91 92	它
+T5	Thing-Pronoun 100 102	自己
+T6	Thing-Name 125 129	哈姆雷特
+T7	Person-Nominal 148 154	那位丹麦王子
+T8	Thing-Name 223 227	哈姆雷特
+T9	Thing-Pronoun 231 232	它
+T10	Thing-Name 301 305	哈姆雷特
+T11	Person-Nominal 311 320	好心肠的墨西哥妇人
+T12	Person-Pronoun 321 322	她
+T13	Thing-Name 356 360	哈姆雷特
+T14	Thing-Pronoun 378 379	它
+T15	Person-Nominal 388 392	一个孩子
+T16	Person-Pronoun 393 394	他
+T17	Person-Nominal 384 387	一个人
+T18	Thing-Name 420 424	哈姆雷特
+T19	Thing-Name 456 460	哈姆雷特
+T20	Person-Nominal 465 469	这个男孩
+T21	Thing-Pronoun 502 503	它
+T22	Thing-Pronoun 519 520	它
+T23	Thing-Pronoun 547 548	它
+T24	Thing-Pronoun 554 555	它
+T25	Thing-Name 561 565	哈姆雷特
+T26	Person-Nominal 581 583	男孩
+T27	Thing-Pronoun 588 589	它
+T28	Person-Nominal 598 600	男孩
+T29	Thing-Pronoun 608 609	它
+T30	Thing-Pronoun 611 612	它
+T31	Thing-Name 644 648	哈姆雷特
+T32	Thing-Pronoun 650 652	自己
+T33	Person-Nominal 673 676	那孩子
+T34	Thing-Name 683 687	哈姆雷特
+T35	Thing-Pronoun 692 693	它
+T36	Person-Nominal 733 735	孩子
+T37	Thing-Nominal 740 743;744 747	这可怜 的兔子
+T38	Thing-Pronoun 749 750	它
+T39	Thing-Pronoun 774 775	它
+T40	Thing-Pronoun 790 791	它
+T41	Thing-Pronoun 804 805	它
+T42	Thing-Name 818 822	哈姆雷特
+T43	Thing-Pronoun 828 829	它
+T44	Person-Nominal 835 837	男孩
+T45	Thing-Pronoun 839 841	自己
+T46	Person-Nominal 875 890	几只毛色灰黄,两耳直竖的小兔子
+T47	Person-Pronoun 891 893	自己
+T48	Thing-Pronoun 901 902	它
+T49	Thing-Pronoun 919 920	它
+T50	Person-Nominal 945 951	那个中国男孩
+T51	Person-Pronoun 958 959	他
+T52	Thing-Name 976 980	哈姆雷特
+T53	Person-Pronoun 1023 1024	他
+T54	Thing-Name 1024 1028	哈姆雷特
+T55	Person-Nominal 1032 1034	男孩
+T56	Person-Nominal 1067 1069	孩子
+T57	Thing-Name 1084 1088	哈姆雷特
+T58	Thing-Pronoun 1096 1097	它
+T59	Person-Pronoun 1124 1125	他
+T60	Thing-Pronoun 1130 1131	它
+*	Coreference T1 T3 T4 T5 T6 T8 T9 T10 T13 T14 T18 T19 T21 T22 T23 T24 T25 T27 T29 T30 T31 T32 T34 T35 T37 T38 T39 T40 T41 T42 T43 T45 T48 T49 T52 T54 T57 T58 T60 T112
+*	Coreference T11 T12
+*	Coreference T15 T16 T20 T26 T28 T33 T36 T44 T50 T51 T53 T55 T56 T59
+T61	Metric 8 10	三天
+T62	Thing-Nominal 29 34	机制兔子食
+T65	Thing-Nominal 48 49	水
+T64	Thing-Nominal 35 37	兔笼
+T66	Thing-Nominal 42 43	瓶
+T69	Thing-Nominal 159 161	兔笼
+T70	Thing-Nominal 210 212	笼子
+T71	Location-Nominal 245 246	园
+T72	Time-Implicit 251 253	夏日
+T73	Thing-Nominal 298 300	笼子
+T74	Thing-Nominal 324 325	盆
+T75	Thing-Nominal 343 349	两片生菜叶子
+T76	Thing-Nominal 330 333	干草球
+T77	Metric 368 371	一小片
+T78	Thing-Nominal 410 418	一大把肥嫩的青草
+T79	Thing-Nominal 427 432	新鲜的青草
+T80	Time-Implicit 474 476	每天
+T81	Thing-Nominal 489 491	笼子
+T84	Thing-Nominal 539 543	这些草叶
+T85	Thing-Nominal 615 619	手上的草
+T86	Time-Implicit 632 636	半个夏天
+T87	Time-Implicit 666 672	几天前的下午
+T88	Thing-Nominal 696 703	装干草球的盆子
+T89	Thing-Nominal 707 712	饮水的瓶子
+T90	Thing-Nominal 718 719	笼
+T91	Thing-Nominal 779 780	盆
+T92	Thing-Nominal 784 787	干草球
+T93	Thing-Nominal 799 801	生菜
+T94	Location-Nominal 844 850	一个陌生的家
+T95	Location-Nominal 851 856	新挖的土洞
+T96	Thing-Nominal 857 861	三个出口
+T97	Location-Nominal 862 863	洞
+T98	Thing-Nominal 867 870;871 874	流奶汁 的青草
+T99	Thing-Nominal 923 925	泥土
+T100	Time-Implicit 938 944	两个星期以后
+T101	Thing-Nominal 961 972	一大把开小黄花的蒲公英
+T102	Thing-Nominal 988 993	空着的兔笼
+T103	Thing-Nominal 994 998;999 1003	满满的一 盆干草球
+T104	Person-Nominal 1004 1009	一只蓝喜鹊
+T105	Thing-Nominal 1043 1044	笼
+T106	Thing-Nominal 1046 1050	手里的草
+T107	Thing-Nominal 1055 1059	白色草汁
+T108	Time-Implicit 1069 1071	夜里
+T109	Time-Implicit 1074 1077	清晨时
+T110	Thing-Nominal 1100 1108	一只黄毛的野兔子
+T111	Location-Nominal 106 110	笼外草地
+*	Coreference T64 T69 T70 T73 T81 T83 T105 T67
+*	Coreference T79 T78 T82 T84 T85
+T82	Thing-Nominal 504 507	那青草
+T83	Thing-Nominal 585 587	兔笼
+R1	Located Arg1:T96 Arg2:T95	
+T112	Thing-Pronoun 12 13	它
+T2	Location-Name 256 258	加州
+T63	Thing-Nominal 16 17	盆
+R2	Located Arg1:T62 Arg2:T63	
+R3	Located Arg1:T66 Arg2:T64	
+R4	Located Arg1:T65 Arg2:T66	
+T67	Thing-Nominal 62 63	笼
+T68	Thing-Nominal 65 70	长长的耳朵
+R5	Part-Whole Arg1:T68 Arg2:T3	
+T113	Thing-Nominal 75 76	头
+R6	Part-Whole Arg1:T113 Arg2:T65	
+T114	Thing-Nominal 79 86	背上的灰色长毛
+R7	Part-Whole Arg1:T114 Arg2:T3	
+T115	Thing-Nominal 95 97	眼睛
+R8	Part-Whole Arg1:T115 Arg2:T4	
+T116	Thing-Nominal 134 136	兔子
+R9	Part-Whole Arg1:T6 Arg2:T116	
+T117	Thing-Nominal 164 168	一棵大树
+T118	Thing-Nominal 177 179	橡树
+R10	Part-Whole Arg1:T117 Arg2:T118	
+T119	Thing-Nominal 182 192	干干的,有刺的小叶子
+R11	Part-Whole Arg1:T119 Arg2:T117	
+T120	Thing-Nominal 233 235	长毛
+R12	Part-Whole Arg1:T120 Arg2:T9	
+T121	Thing-Nominal 268 269	海
+T122	Thing-Nominal 282 284	沙漠

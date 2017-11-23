@@ -1,0 +1,96 @@
+T1	Thing-Nominal 18 20	昙花
+T2	Person-Nominal 56 58	人们
+T3	Time-Implicit 74 78	那个傍晚
+T4	Person-Pronoun 79 80	我
+T5	Location-Nominal 104 106	闹市
+T6	Location-Nominal 111 113	商厦
+T7	Thing-Nominal 113 115	音箱
+R1	Located Arg1:T7 Arg2:T6	
+T8	Location-Nominal 123 124	家
+T9	Thing-Nominal 127 129	电脑
+T10	Thing-Nominal 137 141	CD碟片
+R2	Ownership Arg1:T4 Arg2:T9	
+R3	Located Arg1:T9 Arg2:T8	
+R4	Located Arg1:T10 Arg2:T9	
+T11	Location-Nominal 192 194	房间
+T12	Person-Pronoun 408 409	我
+T13	Location-Nominal 460 462	田园
+T14	Person-Pronoun 500 501	我
+T15	Person-Pronoun 504 505	我
+T16	Person-Pronoun 659 660	我
+T17	Person-Pronoun 772 773	我
+T18	Person-Nominal 798 802	我们祖先
+T19	Person-Nominal 881 884	中国人
+T20	Thing-Nominal 939 940	画
+T21	Person-Pronoun 964 966	我们
+T22	Person-Pronoun 974 976	我们
+T23	Thing-Nominal 984 987	调味品
+T24	Person-Pronoun 989 991	我们
+T25	Person-Pronoun 1048 1049	我
+T26	Person-Nominal 1222 1226	人民大众
+T27	Person-Nominal 1290 1292	人们
+T28	Person-Nominal 1341 1343	青年
+T29	Person-Nominal 1367 1369	青年
+T30	Person-Nominal 1370 1375;1376 1384	流行歌曲主 要受众者和传播者
+*	Coreference T29 T30
+T31	Time-Implicit 1401 1403	当今
+T32	Person-Nominal 1428 1430	超女
+T33	Person-Nominal 1506 1509	新歌手
+T34	Person-Pronoun 1530 1532	我们
+T35	Thing-Nominal 1591 1593	灯火
+T36	Location-Nominal 1596 1600	音乐大厅
+T37	Location-Nominal 1608 1610	场馆
+T38	Person-Pronoun 1616 1617	你
+T39	Person-Pronoun 1620 1621	我
+T40	Person-Nominal 1664 1667	都市人
+T41	Location-Nominal 1669 1673	高速公路
+T42	Person-Pronoun 1739 1741	我们
+T43	Person-Pronoun 1795 1797	我们
+T44	Person-Nominal 1805 1808	现代人
+T45	Person-Pronoun 1936 1938	我们
+T46	Person-Pronoun 1964 1965	我
+T47	Person-Nominal 1979 1984	某一部分人
+T48	Person-Pronoun 2036 2037	我
+T49	Time-Explicit 2045 2052	上世纪八十年代
+T50	Person-Pronoun 2106 2108	我们
+T51	Person-Pronoun 2119 2121	我们
+T52	Person-Pronoun 2130 2132	我们
+T53	Person-Pronoun 2143 2145	我们
+T54	Thing-Nominal 2146 2148	磁带
+R5	Use Arg1:T53 Arg2:T54	
+T55	Person-Nominal 2224 2226	粉丝
+T56	Person-Nominal 2307 2311	词曲作者
+T57	Person-Nominal 2312 2315	歌唱家
+T58	Thing-Pronoun 2326 2328	它们
+T59	Person-Nominal 2517 2519	作者
+T60	Time-Explicit 2547 2552	九十年代初
+T61	Person-Nominal 2590 2592	人们
+T62	Location-Name 2608 2612	黄土高原
+T63	Person-Nominal 2619 2623	高原人民
+T64	Person-Nominal 2663 2668;2669 2676	我的一位在 美国工作的同学
+T65	Location-Name 2683 2685	美国
+T66	Person-Nominal 2697 2701	几个老外
+T67	Person-Pronoun 2703 2704	他
+*	Coreference T67 T64
+T68	Thing-Nominal 2709 2713	几盘唱片
+T69	Person-Pronoun 2746 2748	我们
+T70	Person-Pronoun 2789 2790;2791 2792	我 们
+T71	Person-Nominal 2805 2807	人们
+T72	Person-Nominal 2922 2929	沉浸在音乐的人
+T73	Person-Nominal 3012 3014	世人
+T74	Person-Nominal 3109 3113	中外歌手
+T75	Person-Nominal 3251 3255	亿万观众
+T76	Person-Pronoun 3336 3337	你
+T77	Person-Pronoun 3356 3357	你
+T78	Location-Nominal 3371 3373	山脉
+T79	Thing-Nominal 3373 3375	海洋
+T80	Person-Pronoun 3379 3380	你
+T81	Location-Name 3432 3434	广州
+T82	Location-Name 3442 3444	北京
+T83	Location-Name 3476 3478	珠江
+T84	Person-Nominal 3490 3492	世人
+T85	Location-Name 3530 3532	亚洲
+T86	Person-Name 3549 3552	周杰伦
+T87	Person-Nominal 3553 3560	老少喜爱的歌手
+*	Coreference T86 T87 T88
+T88	Person-Pronoun 3584 3585	他

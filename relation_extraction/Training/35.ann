@@ -1,0 +1,10 @@
+T1	Person-Nominal 0 2	人们
+T2	Thing-Nominal 6 8	大海
+T3	Time-Implicit 18 23	天晴日丽时
+T4	Thing-Nominal 29 30	雨
+T5	Thing-Nominal 32 33	海
+*	Coreference T5 T2
+T6	Thing-Nominal 37 41	雨中的海
+R1	General-Special Arg1:T5 Arg2:T6	
+T7	Thing-Pronoun 50 51	它
+*	Coreference T7 T6

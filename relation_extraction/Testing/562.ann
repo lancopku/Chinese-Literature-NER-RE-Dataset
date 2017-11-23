@@ -1,0 +1,211 @@
+T1	Thing-Nominal 3 5	小船
+T2	Thing-Nominal 12 14	茭草
+R1	Located Arg1:T1 Arg2:T2	
+T3	Person-Pronoun 31 32	你
+T4	Thing-Nominal 42 43	菱
+T5	Thing-Nominal 44 45	莲
+T6	Person-Pronoun 47 48	你
+T7	Person-Pronoun 53 54	你
+T8	Location-Nominal 59 60;61 62	水 乡
+T9	Location-Nominal 64 66	水乡
+T10	Location-Nominal 82 84	村庄
+T11	Location-Nominal 126 128	门前
+T12	Location-Nominal 128 130	窗下
+T13	Thing-Nominal 147 149	麻石
+T14	Location-Nominal 144 146	水中
+R2	Located Arg1:T13 Arg2:T14	
+T15	Thing-Nominal 103 105	绿水
+T16	Thing-Nominal 117 119	河水
+T17	Thing-Nominal 151 153	河水
+T18	Thing-Nominal 160 162	镜子
+T19	Thing-Nominal 166 168	麻石
+T20	Person-Nominal 170 172	女人
+T21	Thing-Nominal 190 192	棒槌
+R3	Use Arg1:T20 Arg2:T21	
+T22	Time-Implicit 193 195	每天
+T23	Thing-Nominal 202 204	麻石
+T24	Person-Pronoun 234 235	我
+T25	Location-Nominal 242 244	河边
+T26	Location-Nominal 255 257	水边
+T27	Thing-Nominal 258 260	竹榻
+R4	Located Arg1:T27 Arg2:T26	
+T28	Person-Pronoun 270 271	我
+T29	Person-Nominal 272 275	伙伴们
+R5	Social Arg1:T28 Arg2:T29	
+T30	Location-Nominal 276 278	水边
+T31	Thing-Nominal 280 282	螺蛳
+R6	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 287 288	壳
+R7	Part-Whole Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 291 293	竹篮
+R8	Located Arg1:T32 Arg2:T33	
+T34	Thing-Nominal 295 296	虾
+T35	Thing-Nominal 302 304	大虾
+T36	Person-Pronoun 310 312	我们
+T37	Thing-Nominal 312 313	盘
+R9	Located Arg1:T35 Arg2:T37	
+T38	Person-Nominal 326 328	祖父
+T39	Thing-Nominal 331 333	小船
+R10	Use Arg1:T38 Arg2:T39	
+T40	Location-Nominal 342 344	河面
+T41	Location-Nominal 353 355	河湾
+T42	Person-Pronoun 359 360	我
+T43	Person-Nominal 362 364	大人
+T44	Thing-Nominal 377 379	莲蓬
+T45	Thing-Nominal 384 386	菱角
+T46	Thing-Nominal 391 393	荷叶
+T47	Person-Nominal 397 399	大人
+T48	Location-Nominal 403 405	岸上
+T49	Thing-Nominal 420 423	荷叶们
+T50	Person-Pronoun 439 441	我们
+T51	Person-Nominal 443 445	伢们
+*	Coreference T50 T51
+T52	Thing-Nominal 472 475	荷叶们
+T53	Location-Nominal 480 481	镇
+T54	Organization-Nominal 483 486	供销社
+R11	Part-Whole Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 498 501	包装纸
+T56	Thing-Nominal 491 493	红糖
+T57	Thing-Nominal 494 496	咸盐
+R12	Located Arg1:T56 Arg2:T55	
+R13	Located Arg1:T57 Arg2:T55	
+T58	Location-Nominal 503 505	河里
+T59	Thing-Name 510 512	高苗
+T60	Thing-Nominal 521 523	茭白
+T61	Thing-Nominal 524 525	花
+R14	Part-Whole Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 529 530	米
+*	Coreference T59 T62
+T63	Thing-Nominal 540 541	梭
+T64	Thing-Nominal 548 550	玫瑰
+T65	Thing-Nominal 553 555	高苗
+T66	Thing-Nominal 572 573	粑
+T67	Location-Nominal 574 576	锅里
+T68	Thing-Nominal 584 586	玫瑰
+T69	Thing-Nominal 589 591	锅盖
+R15	Located Arg1:T69 Arg2:T67	
+T70	Person-Pronoun 606 607	你
+T71	Person-Pronoun 615 616	我
+T72	Person-Nominal 637 639	祖父
+T73	Thing-Nominal 640 641	船
+T74	Location-Nominal 643 645	河心
+T75	Thing-Nominal 654 655	鱼
+T76	Person-Nominal 656 658	祖父
+R16	Family Arg1:T38 Arg2:T42	
+T77	Person-Pronoun 664 665	他
+R17	Create Arg1:T77 Arg2:T75	
+T78	Thing-Nominal 666 668	竹篙
+R18	Use Arg1:T77 Arg2:T78	
+T79	Thing-Nominal 678 680	鳊鱼
+T80	Thing-Nominal 680 682	鲫鱼
+T81	Thing-Nominal 682 684	草鱼
+T82	Location-Nominal 669 671	水中
+R19	Located Arg1:T79 Arg2:T82	
+R20	Located Arg1:T80 Arg2:T82	
+R21	Located Arg1:T81 Arg2:T82	
+T83	Person-Nominal 691 693	祖父
+T84	Thing-Nominal 694 696	茭草
+T85	Thing-Nominal 702 704	高苗
+T86	Thing-Nominal 717 719	高苗
+T87	Thing-Nominal 725 726	钩
+R22	Located Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 731 732	钩
+T89	Thing-Nominal 737 740	大鳊鱼
+T90	Time-Implicit 747 752	一袋烟工夫
+T91	Location-Nominal 763 765	水乡
+T92	Person-Nominal 766 768	孩子
+T93	Time-Implicit 783 785	白天
+T94	Thing-Nominal 786 787	鱼
+T95	Thing-Nominal 788 789	蟹
+T96	Location-Nominal 806 808	水面
+T97	Location-Nominal 819 821	家里
+T98	Time-Implicit 836 843	夜幕四合的时候
+T99	Person-Nominal 851 853	奶奶
+T100	Person-Nominal 859 861	小孩
+T101	Thing-Nominal 862 864	衣物
+T102	Location-Nominal 869 871	河边
+R23	Family Arg1:T99 Arg2:T100	
+T103	Person-Nominal 886 888	伢子
+T104	Location-Nominal 896 897	家
+T105	Location-Nominal 916 918	河面
+T106	Location-Nominal 923 925	村庄
+T107	Location-Nominal 939 941	岸边
+T108	Thing-Nominal 945 947	芦苇
+R24	Located Arg1:T108 Arg2:T107	
+T109	Person-Pronoun 959 960	我
+T110	Person-Nominal 963 967	小伙伴们
+R25	Social Arg1:T109 Arg2:T110	
+T111	Location-Nominal 969 971	苇丛
+T112	Thing-Nominal 975 977	芦根
+T113	Thing-Nominal 982 984	芦叶
+T114	Thing-Nominal 989 990;991 992	芦 枪
+R26	Part-Whole Arg1:T112 Arg2:T108	
+R27	Part-Whole Arg1:T113 Arg2:T108	
+R28	Located Arg1:T112 Arg2:T111	
+R29	Use Arg1:T109 Arg2:T114	
+T115	Thing-Nominal 1003 1005	芦笛
+R30	Use Arg1:T109 Arg2:T115	
+T116	Thing-Nominal 1020 1022	苇花
+T117	Person-Nominal 1044 1047	水乡人
+T118	Person-Nominal 1055 1057	女子
+T119	Location-Nominal 1064 1066	村庄
+T120	Location-Nominal 1067 1069	屋顶
+T121	Location-Nominal 1070 1072	树梢
+T122	Location-Nominal 1073 1075	田野
+T123	Location-Nominal 1076 1078	河面
+R31	Part-Whole Arg1:T116 Arg2:T108	
+T124	Location-Nominal 1131 1133	水乡
+T125	Thing-Nominal 1135 1137	水鸟
+T126	Person-Nominal 1141 1144	水乡人
+T127	Thing-Nominal 1148 1150	水鸟
+T128	Location-Nominal 1151 1153	河边
+T129	Thing-Nominal 1154 1156	水草
+R32	Near Arg1:T129 Arg2:T128	
+T130	Location-Nominal 1158 1160	稻田
+R33	Near Arg1:T130 Arg2:T128	
+T131	Thing-Nominal 1165 1169	水鸟的窝
+T132	Thing-Nominal 1170 1174	水鸟的蛋
+R34	Located Arg1:T132 Arg2:T131	
+T133	Thing-Nominal 1183 1185	雏鸟
+R35	Located Arg1:T133 Arg2:T131	
+T134	Thing-Pronoun 1190 1191	它
+T135	Thing-Pronoun 1193 1194	它
+*	Coreference T134 T132
+*	Coreference T135 T133
+T136	Person-Nominal 1201 1203	孩子
+T137	Thing-Pronoun 1206 1207	它
+T138	Thing-Pronoun 1208 1209	它
+T139	Person-Nominal 1214 1216	大人
+T140	Person-Pronoun 1221 1223	他们
+*	Coreference T139 T140
+T141	Person-Nominal 1226 1231	自己的孩子
+R36	Family Arg1:T140 Arg2:T141	
+T142	Thing-Nominal 1246 1248	小鸟
+T143	Location-Nominal 1261 1263	河里
+T144	Person-Nominal 1274 1277	水乡人
+T145	Thing-Nominal 1282 1283	鸟
+T146	Person-Nominal 1291 1294	水鸟们
+T147	Location-Nominal 1317 1321	田垄地边
+T148	Thing-Nominal 1323 1324	烟
+T149	Thing-Nominal 1328 1330	水鸟
+T150	Thing-Nominal 1350 1352	水鸟
+T151	Thing-Nominal 1362 1364	水鸟
+T152	Person-Nominal 1369 1372	水乡人
+T153	Thing-Nominal 1399 1400	鸟
+T154	Location-Nominal 1412 1414	水乡
+T155	Time-Implicit 1420 1423	几十年
+T156	Location-Nominal 1429 1431	水乡
+T157	Person-Nominal 1438 1443	水乡的乡民
+T158	Person-Nominal 1444 1447	水乡人
+*	Coreference T158 T157
+T159	Location-Nominal 1453 1455	稻田
+T160	Thing-Nominal 1457 1458	藕
+R37	Located Arg1:T160 Arg2:T159	
+T161	Location-Nominal 1460 1462	池塘
+T162	Thing-Nominal 1464 1465	鱼
+R38	Located Arg1:T162 Arg2:T161	
+T163	Thing-Nominal 1469 1471	芦花
+T164	Person-Nominal 1474 1476	诗人
+T165	Thing-Nominal 1485 1486	鸟
+T166	Person-Nominal 1505 1509	水乡的人
+T167	Person-Pronoun 1529 1530	我

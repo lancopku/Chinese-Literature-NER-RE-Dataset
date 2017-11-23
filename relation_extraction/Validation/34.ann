@@ -1,0 +1,312 @@
+T1	Time-Implicit 0 2	清晨
+T2	Location-Name 3 6	酉水河
+T3	Thing-Nominal 11 13	雾霭
+T4	Person-Nominal 18 22	一个亲人
+T5	Person-Pronoun 23 24	我
+R1	Family Arg1:T4 Arg2:T5	
+T6	Person-Nominal 24 28	独自一人
+*	Coreference T6 T5
+T7	Location-Name 31 35	里耶古镇
+T8	Thing-Nominal 39 55	一条盘桓于崇山峻岭间的青石板小道
+T9	Thing-Nominal 37 38	路
+*	Coreference T9 T8 T11 T22 T29 T15
+T10	Thing-Nominal 59 63	风霜雨雪
+T11	Thing-Pronoun 66 67	它
+T12	Thing-Nominal 76 93	那残破但却被水草鞋擦拭得锃亮的石板
+R2	Part-Whole Arg1:T12 Arg2:T8	
+T13	Person-Pronoun 95 96	我
+T14	Thing-Nominal 102 111	许多深浅不一的石凼
+R3	Located Arg1:T12 Arg2:T14	
+T15	Thing-Nominal 114 115	山
+T16	Thing-Pronoun 120 121	这
+*	Coreference T16 T14
+T17	Thing-Nominal 123 126	大自然
+T18	Person-Pronoun 145 146	我
+T19	Thing-Nominal 151 153	自然
+*	Coreference T19 T17
+T20	Thing-Pronoun 168 169	这
+T21	Person-Nominal 172 175	某些人
+T22	Thing-Nominal 200 205	几百里石道
+T23	Metric 200 203	几百里
+T24	Person-Pronoun 238 239	我
+T25	Person-Nominal 249 253	一个老人
+T26	Thing-Nominal 254 255	手
+R4	Part-Whole Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 258 265	一根齐腰的拐杖
+R5	Use Arg1:T25 Arg2:T27	
+T28	Metric 258 260	一根
+R6	Located Arg1:T27 Arg2:T26	
+T29	Thing-Nominal 267 269	山道
+T30	Person-Pronoun 282 283	他
+*	Coreference T30 T25 T39 T40 T52 T45
+T31	Thing-Nominal 284 285	背
+R7	Part-Whole Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 292 294	双手
+R8	Part-Whole Arg1:T32 Arg2:T30	
+T33	Thing-Nominal 301 303	拐杖
+*	Coreference T33 T27 T34 T36
+T34	Thing-Pronoun 306 307	它
+T35	Thing-Nominal 311 318	青筋爆满的双腿
+R9	Part-Whole Arg1:T35 Arg2:T30	
+T36	Thing-Nominal 326 329	那拐杖
+T37	Thing-Nominal 326 337	那拐杖在地上尖端的铁钉
+R10	Part-Whole Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 340 342	石板
+R11	Part-Whole Arg1:T38 Arg2:T29	
+T39	Person-Nominal 351 353	老人
+T40	Person-Nominal 371 374	老大爷
+T41	Person-Pronoun 379 380	我
+T42	Time-Implicit 386 390	前三十年
+T43	Time-Implicit 394 398	后三十年
+T44	Person-Nominal 403 406	我孙女
+R12	Family Arg1:T44 Arg2:T40	
+T46	Person-Pronoun 416 417	她
+*	Coreference T46 T44
+T47	Organization-Name 407 412	重庆医科大
+T48	Metric 419 420;421 422	几 年
+T49	Location-Name 425 427	里耶
+T50	Thing-Nominal 429 431	大桥
+T51	Thing-Nominal 436 440	防洪大坝
+R13	Located Arg1:T50 Arg2:T49	
+R14	Located Arg1:T51 Arg2:T49	
+T52	Person-Pronoun 441 442	我
+T45	Person-Pronoun 403 404	我
+T53	Person-Nominal 449 451	老人
+T54	Person-Pronoun 453 454	我
+T55	Person-Pronoun 455 456	他
+*	Coreference T55 T53
+T56	Metric 461 463	十岁
+T57	Person-Nominal 466 470	有钱人家
+T58	Thing-Nominal 471 472	牛
+R15	Ownership Arg1:T57 Arg2:T58	
+T59	Thing-Nominal 484 486	酉水
+T60	Person-Nominal 488 494	里耶一家盐商
+T61	Thing-Nominal 497 498	盐
+T62	Thing-Nominal 495 496	纤
+T63	Location-Name 488 490	里耶
+T64	Thing-Nominal 504 505	盐
+T65	Person-Nominal 507 510	一般人
+T66	Person-Nominal 529 533	土匪抢劫
+T67	Person-Nominal 543 545	土匪
+T68	Organization-Nominal 549 551	官府
+T69	Person-Nominal 556 558	老人
+T70	Person-Pronoun 576 577	我
+T71	Thing-Nominal 581 591	酉水千里纤道上的石板
+T72	Location-Nominal 581 588	酉水千里纤道上
+R16	Located Arg1:T71 Arg2:T72	
+T73	Person-Nominal 594 597	劳动者
+R17	General-Special Arg1:T73 Arg2:T69	
+T74	Person-Nominal 607 616	这群被历史遗忘的人
+*	Coreference T74 T73 T86 T134
+T75	Thing-Nominal 619 624	一支拙路棍
+R18	Use Arg1:T74 Arg2:T75	
+T76	Metric 619 621	一支
+T77	Thing-Nominal 627 634	一副伛偻的腰背
+T78	Metric 627 629	一副
+R19	Ownership Arg1:T74 Arg2:T77	
+T79	Thing-Nominal 638 642	土家山寨
+T80	Time-Implicit 642 651	从明清至清末几百年
+T81	Person-Nominal 659 662	现代人
+T82	Person-Pronoun 657 664;665 666	作为现代人的我 们
+R20	General-Special Arg1:T81 Arg2:T82	
+T83	Thing-Nominal 683 685	汽车
+T84	Thing-Nominal 688 690	火车
+T85	Thing-Nominal 697 699	资金
+T86	Person-Nominal 705 718	被称之为“背老二”的这些人
+T87	Thing-Nominal 720 725;726 730	成千上万的 血肉之躯
+R21	Use Arg1:T86 Arg2:T87	
+T88	Thing-Nominal 670 672	交通
+T89	Thing-Nominal 741 746	汽车和火车
+T90	Location-Name 748 750	长沙
+T91	Location-Name 751 753	常德
+T92	Location-Name 754 756	里耶
+T93	Location-Name 764 766	巴蜀
+T94	Location-Name 767 769	湘楚
+T95	Person-Nominal 781 783	老人
+T96	Time-Implicit 787 789	那时
+T97	Location-Name 789 791	酉水
+T98	Thing-Nominal 791 793	险滩
+R22	Located Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 796 798	暗礁
+R23	Located Arg1:T99 Arg2:T97	
+T100	Thing-Nominal 806 808	民谣
+T101	Thing-Nominal 801 802	水
+T102	Thing-Nominal 803 804	浪
+T103	Location-Name 812 816	凤滩茨滩
+T104	Location-Name 824 827	绕鸡笼
+T105	Thing-Name 829 835	《永顺县志》
+T106	Location-Nominal 839 841;842 843	双溶 水
+T107	Metric 849 852	十余丈
+T108	Thing-Nominal 856 859	长方石
+T109	Thing-Nominal 862 864	鸡笼
+T110	Thing-Pronoun 865 866	它
+*	Coreference T110 T108
+T111	Location-Nominal 844 847	入口处
+T112	Thing-Nominal 872 873	船
+T113	Location-Nominal 893 895	两岸
+T114	Thing-Nominal 895 896	山
+R24	Located Arg1:T114 Arg2:T113	
+T115	Location-Nominal 895 897	山中
+T116	Thing-Nominal 899 901	虎豹
+R25	Located Arg1:T116 Arg2:T115	
+T117	Person-Nominal 903 904	人
+T118	Time-Implicit 905 908	大白天
+T119	Thing-Nominal 910 911	虎
+T120	Thing-Nominal 912 913	狼
+T121	Person-Nominal 918 919	人
+T122	Time-Implicit 925 928	那年月
+T123	Location-Nominal 929 931	两岸
+T124	Thing-Nominal 931 933	田地
+R26	Located Arg1:T124 Arg2:T123	
+T125	Location-Nominal 946 949	村寨上
+T127	Location-Nominal 956 958	河岸
+T128	Thing-Nominal 955 961	沿河岸的石洞
+R28	Located Arg1:T128 Arg2:T127	
+T126	Thing-Nominal 946 953	村寨上的破茅棚
+R27	Located Arg1:T126 Arg2:T125	
+T129	Thing-Nominal 974 976	河水
+T130	Location-Nominal 981 983	沙滩
+T131	Thing-Nominal 983 985	尸首
+R29	Located Arg1:T131 Arg2:T130	
+T132	Location-Name 992 994	酉水
+R30	Located Arg1:T129 Arg2:T132	
+T133	Thing-Nominal 992 999	酉水上的乌篷船
+R31	Located Arg1:T133 Arg2:T132	
+T134	Person-Nominal 1005 1008	背老二
+T135	Location-Nominal 1010 1014	河岸壁间
+T136	Thing-Nominal 1017 1019	纤索
+T137	Thing-Nominal 1015 1016	肩
+R32	Part-Whole Arg1:T137 Arg2:T134	
+R33	Use Arg1:T134 Arg2:T136	
+T138	Thing-Nominal 1022 1027	一串连珠汗
+T139	Metric 1022 1024	一串
+R34	Create Arg1:T134 Arg2:T138	
+T140	Thing-Nominal 1030 1035	一个铁脚板
+R35	Part-Whole Arg1:T140 Arg2:T134	
+T141	Thing-Nominal 1044 1046;1047 1048	一口 气
+R36	Create Arg1:T134 Arg2:T141	
+T142	Thing-Nominal 1054 1055	船
+T143	Location-Nominal 1050 1051	滩
+T144	Thing-Nominal 1056 1058	波涛
+R37	Located Arg1:T142 Arg2:T144	
+T145	Thing-Nominal 1071 1073	暗礁
+T146	Thing-Nominal 1074 1075	船
+T147	Person-Nominal 1076 1077	人
+T148	Person-Nominal 1079 1082	背老二
+T149	Thing-Nominal 1082 1088	瘦骨嶙峋的肩
+R38	Ownership Arg1:T148 Arg2:T149	
+R39	Part-Whole Arg1:T149 Arg2:T148	
+T150	Thing-Nominal 1095 1103	负重几千斤的纤索
+T151	Metric 1097 1100	几千斤
+R40	Use Arg1:T148 Arg2:T150	
+T152	Person-Pronoun 1105 1107	他们
+*	Coreference T152 T148
+T153	Location-Name 1108 1111	洞庭湖
+T154	Location-Name 1112 1114	里耶
+T155	Time-Implicit 1121 1123	昨天
+T156	Person-Pronoun 1124 1126	他们
+T157	Person-Nominal 1134 1137	十几人
+T158	Person-Nominal 1138 1142	二十几人
+T159	Location-Pronoun 1152 1154	哪里
+T160	Location-Pronoun 1155 1157	哪里
+T161	Organization-Nominal 1167 1169	客栈
+T162	Person-Pronoun 1170 1172	他们
+T163	Person-Pronoun 1177 1179	他们
+T164	Person-Pronoun 1200 1201	我
+T165	Person-Pronoun 1212 1213	他
+T166	Person-Nominal 1221 1223	老人
+*	Coreference T165 T166
+T167	Person-Pronoun 1237 1238	我
+T168	Person-Pronoun 1240 1242	我们
+*	Coreference T168 T163
+T169	Thing-Nominal 1245 1247	血盆
+T170	Person-Nominal 1244 1253	从血盆里抓饭吃的人
+R41	General-Special Arg1:T170 Arg2:T168	
+T171	Person-Pronoun 1262 1263	他
+T172	Person-Pronoun 1273 1274	他
+T173	Person-Pronoun 1276 1278	我们
+T174	Time-Implicit 1282 1286	那个时候
+T175	Metric 1300 1303	一辈子
+T176	Person-Nominal 1306 1309	辈辈人
+T177	Person-Nominal 1312 1315	山寨人
+T178	Person-Nominal 1315 1317	小孩
+T179	Time-Implicit 1318 1320	周岁
+T180	Thing-Nominal 1330 1331	钱
+T181	Thing-Nominal 1332 1333	米
+T182	Thing-Nominal 1334 1336	银子
+T183	Thing-Nominal 1337 1341	笔墨纸砚
+T184	Person-Nominal 1344 1347	背老二
+T185	Person-Nominal 1351 1353	孩子
+T186	Thing-Nominal 1356 1360	摆的东西
+T187	Thing-Nominal 1362 1367	木杵和肩搭
+*	Coreference T187 T186
+T188	Thing-Nominal 1376 1378	杵杵
+T189	Thing-Nominal 1388 1390	肩搭
+T190	Metric 1382 1385	一百五
+T191	Metric 1394 1397	二百八
+T192	Thing-Nominal 1362 1364	木杵
+*	Coreference T188 T192
+T193	Person-Pronoun 1414 1415	你
+T194	Person-Pronoun 1423 1424	你
+T195	Person-Pronoun 1431 1432	你
+T196	Person-Pronoun 1467 1469	自己
+T197	Person-Nominal 1465 1483	磨熬自己的骨肉而挣扎在生活线上的人群
+T198	Thing-Nominal 1485 1497	这个社会最不安定的火药桶
+T199	Thing-Nominal 1501 1505	千里纤道
+T200	Thing-Nominal 1513 1521	昔日脚步踏的纤道
+*	Coreference T200 T199 T203 T244
+T201	Time-Implicit 1499 1501	而今
+T202	Thing-Nominal 1525 1533	漫径的野草、山花
+R42	Located Arg1:T202 Arg2:T200	
+T203	Thing-Pronoun 1547 1548	它
+T204	Time-Explicit 1554 1559	1949年
+T205	Thing-Nominal 1560 1563	红太阳
+T206	Location-Name 1566 1568	酉水
+T207	Person-Nominal 1569 1575	土家苗汉人民
+T208	Location-Name 1581 1584	酉水河
+*	Coreference T208 T206
+T209	Thing-Nominal 1585 1586	桥
+T210	Thing-Nominal 1587 1589	电站
+R43	Located Arg1:T209 Arg2:T208	
+R44	Located Arg1:T210 Arg2:T208	
+T211	Thing-Nominal 1591 1593	暗礁
+R45	Located Arg1:T211 Arg2:T208	
+T212	Thing-Nominal 1595 1597	河道
+R46	Located Arg1:T212 Arg2:T208	
+T213	Location-Nominal 1600 1605	两岸的荒村
+T214	Location-Nominal 1610 1614;1615 1618	社会主义 新农村
+R47	General-Special Arg1:T214 Arg2:T213	
+T215	Time-Implicit 1620 1624	建国时代
+T216	Person-Nominal 1625 1629	土家居民
+T217	Location-Name 1631 1633	酉水
+T218	Location-Nominal 1631 1635	酉水岸边
+R48	Near Arg1:T218 Arg2:T217	
+T219	Person-Nominal 1640 1647	朝朝代代土家人
+T220	Location-Name 1652 1654	酉水
+T221	Person-Pronoun 1655 1657	自己
+*	Coreference T221 T219
+T222	Time-Implicit 1666 1668	今天
+T223	Location-Name 1674 1675;1676 1679	凤 滩电站
+T224	Location-Name 1680 1685	碗米坡电站
+T225	Location-Name 1674 1675;1676 1685	凤 滩电站，碗米坡电站
+T226	Location-Name 1688 1694	“湘西明珠”
+*	Coreference T226 T225
+T227	Location-Name 1699 1701	酉水
+T228	Time-Implicit 1696 1698	如今
+T229	Thing-Nominal 1702 1704	帆樯
+T230	Thing-Nominal 1707 1709	机船
+T231	Thing-Nominal 1712 1714	铁路
+T232	Location-Nominal 1715 1716	河
+*	Coreference T232 T227
+T233	Location-Name 1732 1736	里耶大桥
+T234	Thing-Nominal 1743 1751	一片片游船的白帆
+T235	Thing-Nominal 1758 1761	下行船
+T236	Location-Name 1767 1769	酉水
+T237	Location-Name 1771 1773	酉水
+T238	Time-Implicit 1775 1778	新时代
+T239	Person-Nominal 1779 1781	船工
+T240	Location-Nominal 1789 1793	土家山乡
+T241	Organization-Name 1798 1801	共产党
+T242	Person-Nominal 1804 1806	老人
+T243	Person-Pronoun 1807 1808	我
+T244	Thing-Nominal 1809 1811	纤道

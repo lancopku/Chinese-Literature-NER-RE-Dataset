@@ -1,0 +1,171 @@
+T1	Location-Name 0 3	石门峰
+T2	Location-Name 5 8	双扇门
+*	Coreference T2 T1 T3
+T3	Location-Name 10 21	丹山三十六峰之第十二峰
+T4	Location-Nominal 23 31	峰的西北面绝壁上
+R1	Part-Whole Arg1:T4 Arg2:T1	
+T5	Thing-Nominal 34 38	两块巨石
+R2	Located Arg1:T5 Arg2:T4	
+T6	Thing-Nominal 41 48	两扇关闭的大门
+T7	Metric 34 36	两块
+T8	Metric 41 43	两扇
+T9	Time-Implicit 53 61	今年的小阳春时节
+T10	Time-Implicit 64 68	阳春三月
+T11	Person-Nominal 73 74	朋
+T12	Person-Pronoun 80 82	我们
+R3	Social Arg1:T11 Arg2:T12	
+T13	Location-Name 91 93	丹山
+T14	Location-Name 96 99	石门峰
+R4	Part-Whole Arg1:T14 Arg2:T13	
+T15	Location-Nominal 103 105	峰下
+T16	Location-Nominal 108 110	峰顶
+T17	Location-Nominal 111 117	蔚蓝的天空上
+T18	Thing-Nominal 117 119	白云
+R5	Located Arg1:T18 Arg2:T17	
+T19	Thing-Nominal 122 124	峰顶
+T20	Location-Nominal 126 128	云天
+T21	Location-Name 129 141	镶嵌在半山悬崖中的石门峰
+*	Coreference T21 T14
+T22	Thing-Nominal 143 145	云雾
+T23	Person-Nominal 154 155	人
+T24	Location-Nominal 162 164	峰下
+T25	Thing-Nominal 164 171	农家小舍的屋顶
+T26	Thing-Nominal 178 180	小鸟
+T27	Location-Nominal 184 186	农家
+T28	Location-Name 197 200	石门峰
+T29	Person-Nominal 208 210	向导
+T30	Person-Pronoun 215 217	我们
+R6	Social Arg1:T29 Arg2:T30	
+T31	Location-Nominal 219 223	羊肠小道
+T32	Thing-Nominal 224 226	手脚
+T33	Location-Name 236 239	石门峰
+R7	Ownership Arg1:T30 Arg2:T32	
+T34	Thing-Nominal 242 244	衣裤
+R8	Ownership Arg1:T30 Arg2:T34	
+T35	Thing-Nominal 247 252	满山的树枝
+T36	Thing-Nominal 253 257	藤条棘刺
+T37	Thing-Nominal 270 272	双手
+R9	Use Arg1:T30 Arg2:T32	
+R10	Use Arg1:T30 Arg2:T37	
+R11	Ownership Arg1:T30 Arg2:T37	
+T38	Thing-Nominal 284 286	双手
+T39	Thing-Nominal 292 297	一道道血痕
+R12	Located Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 298 300	双脚
+R13	Ownership Arg1:T30 Arg2:T40	
+T41	Metric 310 315	500多米
+T42	Person-Pronoun 318 320	我们
+T43	Metric 324 328;329 334	近一个半 小时的时间
+T44	Location-Name 337 340	石门峰
+T45	Location-Name 344 347	石门峰
+T46	Location-Name 370 373	石门峰
+T47	Person-Nominal 357 360	大自然
+T48	Location-Nominal 380 382	门框
+T49	Location-Nominal 387 390	大石门
+R14	Near Arg1:T48 Arg2:T49	
+T50	Thing-Nominal 394 396	门框
+T51	Thing-Nominal 405 407	石门
+T52	Thing-Nominal 414 416	石门
+T53	Thing-Nominal 387 390	大石门
+T54	Thing-Nominal 380 382	门框
+*	Coreference T51 T53
+T55	Thing-Nominal 425 427	石门
+T56	Thing-Nominal 433 435	机器
+T57	Thing-Nominal 440 452	上面几处下雨时留下的水迹
+R15	Located Arg1:T57 Arg2:T55	
+T58	Thing-Nominal 454 463	画师笔下的水墨荷花
+T59	Person-Nominal 454 456	画师
+T60	Metric 442 444	几处
+T61	Thing-Nominal 459 463	水墨荷花
+T62	Thing-Nominal 474 476	门顶
+T63	Thing-Nominal 501 509	这庞大石门的门楣
+T64	Thing-Nominal 501 506	这庞大石门
+R16	Part-Whole Arg1:T62 Arg2:T55	
+R17	Part-Whole Arg1:T63 Arg2:T64	
+*	Coreference T64 T55
+T65	Thing-Nominal 515 522	纤陌纵横的田野
+T66	Thing-Nominal 523 524;525 533	错 落有致的农家小舍
+T67	Thing-Nominal 534 536	浓雾
+R18	Located Arg1:T66 Arg2:T67	
+R19	Located Arg1:T65 Arg2:T67	
+T68	Thing-Nominal 555 557	门上
+T70	Thing-Nominal 577 579	字迹
+T71	Person-Name 584 587	何仙姑
+T72	Thing-Nominal 584 597	何仙姑在此清修时留下的墨宝
+T69	Thing-Nominal 555 563	门上数十字的篆文
+R20	Located Arg1:T69 Arg2:T68	
+*	Coreference T72 T69 T100 T102
+T73	Location-Pronoun 601 603	这里
+*	Coreference T73 T46 T74
+T74	Location-Nominal 605 615;616 618	八仙之一何仙姑的清修 之地
+T75	Person-Name 619 627	在此修行的何仙姑
+T76	Time-Implicit 647 649	傍晚
+T77	Person-Nominal 639 641	谁家
+T78	Time-Implicit 662 667	第二天早上
+T79	Location-Pronoun 668 670	这里
+T80	Person-Pronoun 672 673	你
+*	Coreference T80 T77
+T81	Thing-Nominal 672 676;677 679	你需要的 东西
+T82	Person-Pronoun 681 682	你
+T83	Thing-Nominal 692 694	原物
+T84	Person-Nominal 706 710	当地恶霸
+R21	Social Arg1:T84 Arg2:T82	
+T85	Person-Pronoun 715 716	他
+*	Coreference T85 T84
+T86	Thing-Nominal 721 722	粮
+T87	Thing-Nominal 724 728	黄谷一担
+T88	Metric 726 728	一担
+T89	Person-Name 729 732	何仙姑
+*	Coreference T75 T71
+T90	Person-Pronoun 735 736	他
+T91	Person-Pronoun 740 741	他
+T92	Thing-Nominal 753 755	谷糠
+T93	Thing-Nominal 757 759	黄谷
+T94	Thing-Nominal 765 772	三分之二的黄谷
+T95	Time-Implicit 773 775	从此
+T96	Thing-Nominal 781 785	任何东西
+T97	Person-Name 786 789	何仙姑
+T98	Time-Implicit 800 803	临行前
+T99	Location-Nominal 804 807	石门上
+T100	Thing-Nominal 809 814	这数十篆文
+R22	Located Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 823 827	这个传说
+T102	Thing-Nominal 833 838	门上的篆文
+T103	Person-Pronoun 842 844	我们
+T104	Location-Pronoun 846 855	这个人迹罕至的地方
+T105	Location-Nominal 891 894	石门关
+T106	Person-Nominal 858 859;860 861	古 人
+T107	Person-Name 866 873	前清举人李春生
+*	Coreference T104 T105
+T108	Person-Nominal 879 883	姑射仙人
+*	Coreference T108 T97
+T109	Thing-Nominal 954 960	这个传奇故事
+T110	Person-Name 962 965	何仙姑
+T111	Thing-Nominal 962 974	何仙姑乐善好施的传奇故事
+*	Coreference T109 T101 T111
+T112	Time-Implicit 979 981	而今
+T113	Location-Name 982 985	石门峰
+T114	Physical 987 992	新农村建设
+T115	Thing-Nominal 993 1001	一座座崭新的楼房
+R23	Located Arg1:T115 Arg2:T113	
+T116	Thing-Nominal 1006 1017	层层梯田上绿油油的麦苗
+T117	Thing-Nominal 1006 1010	层层梯田
+R24	Located Arg1:T116 Arg2:T117	
+R25	Located Arg1:T117 Arg2:T113	
+T118	Thing-Nominal 1020 1022;1023 1029	山岭 上成群的牛羊
+T119	Thing-Nominal 1020 1022;1023 1024	山岭 上
+R26	Located Arg1:T119 Arg2:T113	
+R27	Located Arg1:T118 Arg2:T119	
+T120	Thing-Nominal 1035 1039	农家小院
+T121	Thing-Nominal 1035 1049	农家小院里不时飘出欢快的歌声
+R28	Located Arg1:T120 Arg2:T113	
+T122	Person-Nominal 1051 1058	勤劳朴实的山民
+T123	Thing-Nominal 1059 1064	勤劳的双手
+R29	Ownership Arg1:T122 Arg2:T123	
+R30	Use Arg1:T122 Arg2:T123	
+T124	Person-Name 1087 1090	何仙姑
+T125	Person-Pronoun 1106 1108	我们
+T126	Location-Name 1124 1127	石门峰
+T127	Location-Name 1115 1118	石门峰
+T128	Thing-Nominal 1100 1105	夕阳的余辉
+T129	Thing-Nominal 1128 1130	晚霞

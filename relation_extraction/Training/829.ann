@@ -1,0 +1,93 @@
+T1	Location-Nominal 0 1	城
+T2	Location-Nominal 2 4	小城
+T3	Metric 9 11	几万
+T4	Metric 17 22	十平方公里
+T5	Thing-Nominal 26 27	山
+T6	Thing-Nominal 31 32	水
+T7	Thing-Nominal 40 42	小河
+T8	Location-Nominal 47 48	城
+R1	Located Arg1:T7 Arg2:T8	
+T9	Location-Nominal 56 60	北方小镇
+*	Coreference T8 T9 T1 T2
+T10	Person-Nominal 62 64	居民
+T11	Thing-Nominal 83 85	房子
+T12	Person-Nominal 86 87	人
+T13	Thing-Nominal 88 90	街道
+T14	Thing-Nominal 91 93	树木
+T15	Thing-Nominal 101 103	河水
+R2	Part-Whole Arg1:T15 Arg2:T7	
+T16	Time-Implicit 112 114	每年
+T17	Thing-Nominal 114 116	槐花
+T18	Location-Nominal 125 127	小城
+T19	Location-Nominal 136 138	小城
+T20	Thing-Nominal 139 141	槐树
+R3	Located Arg1:T20 Arg2:T19	
+T21	Thing-Nominal 146 148	槐花
+R4	Part-Whole Arg1:T21 Arg2:T20	
+T22	Thing-Nominal 151 152	花
+*	Coreference T22 T21 T31 T37
+T23	Thing-Nominal 165 166	琼
+T24	Thing-Nominal 167 168	玉
+T25	Location-Nominal 169 171	小城
+T26	Thing-Nominal 175 177	红云
+T27	Thing-Nominal 181 182	风
+T28	Time-Implicit 181 186	风起的时候
+T29	Thing-Nominal 190 192	云彩
+T30	Thing-Nominal 198 199	叶
+T31	Thing-Nominal 202 203	花
+T32	Thing-Nominal 211 213	微风
+T33	Location-Nominal 221 223	小城
+T34	Thing-Nominal 225 226	画
+R5	Part-Whole Arg1:T30 Arg2:T20	
+T35	Thing-Nominal 235 237	枝干
+T36	Thing-Nominal 239 241	梅树
+T37	Thing-Nominal 254 256	花朵
+T38	Thing-Nominal 262 264	牡丹
+R6	Part-Whole Arg1:T35 Arg2:T20	
+T39	Thing-Nominal 268 269	雨
+T40	Time-Implicit 268 273	雨来的时候
+T41	Thing-Nominal 280 281	花
+T42	Thing-Nominal 288 290	轻纱
+T43	Time-Implicit 301 303	这时
+T44	Location-Nominal 304 306	小城
+T45	Person-Nominal 310 312	匠人
+T46	Thing-Nominal 317 318;319 320	兰 花
+T47	Thing-Nominal 321 323	粗布
+R7	Located Arg1:T46 Arg2:T47	
+R8	Create Arg1:T45 Arg2:T47	
+T48	Thing-Nominal 325 326	风
+T49	Thing-Nominal 331 332	雨
+T50	Thing-Nominal 338 339	风
+T51	Person-Pronoun 345 346	我
+T52	Location-Name 347 349	泰山
+T53	Location-Name 350 352	黄山
+T54	Thing-Nominal 358 360	河山
+T55	Person-Pronoun 365 366	我
+T56	Location-Name 369 371	黄河
+T57	Location-Name 372 376	长江之岸
+T58	Location-Nominal 396 404;405 406	这座北方的槐花小 城
+T59	Thing-Nominal 401 403	槐花
+T60	Location-Pronoun 407 408	他
+*	Coreference T58 T60 T62
+T61	Person-Pronoun 419 420	我
+T62	Location-Nominal 430 432	小城
+T63	Person-Pronoun 433 434	我
+T64	Location-Name 447 451	西子湖畔
+T65	Location-Nominal 468 472	北国冰城
+T66	Thing-Nominal 483 485	落日
+T67	Thing-Nominal 485 487	长河
+T68	Location-Nominal 488 490	西疆
+R9	Located Arg1:T67 Arg2:T68	
+R10	Located Arg1:T66 Arg2:T68	
+T69	Location-Nominal 506 510	海滨之都
+T70	Location-Nominal 528 530	小城
+T71	Thing-Nominal 533 535	槐花
+R11	Located Arg1:T71 Arg2:T70	
+T72	Thing-Nominal 548 550	楼宇
+T73	Thing-Nominal 559 561	街道
+T74	Location-Pronoun 564 566	这里
+*	Coreference T74 T70
+T75	Person-Nominal 576 578	人民
+T76	Location-Nominal 581 583	小城
+T77	Thing-Nominal 595 596	花
+T78	Thing-Nominal 601 602	花

@@ -1,0 +1,281 @@
+T1	Location-Name 0 3	炭子冲
+T2	Thing-Nominal 3 5	杂树
+T3	Location-Nominal 6 7	野
+R1	Located Arg1:T2 Arg2:T3	
+T4	Time-Implicit 8 10	过去
+T5	Person-Nominal 11 14	当地人
+T6	Thing-Nominal 16 18	木炭
+R2	Use Arg1:T5 Arg2:T6	
+T7	Location-Pronoun 24 25	她
+*	Coreference T7 T1 T18
+T8	Person-Name 26 36	原国家主席刘少奇同志
+T9	Location-Name 42 51	宁乡县花明楼乡政府
+T10	Location-Name 42 45	宁乡县
+T11	Location-Name 46 49	明楼乡
+R3	Part-Whole Arg1:T11 Arg2:T10	
+T12	Location-Name 55 58	长沙市
+T13	Metric 59 60;61 65	5 0多公里
+T14	Person-Name 67 70	毛主席
+T15	Location-Nominal 67 72	毛主席故乡
+T16	Location-Name 72 75	韶山冲
+T17	Metric 78 83	30多公里
+*	Coreference T15 T16
+T18	Location-Nominal 26 39	原国家主席刘少奇同志的故乡
+R4	Social Arg1:T8 Arg2:T14	
+R5	Near Arg1:T18 Arg2:T9	
+T19	Thing-Nominal 85 87	汽车
+T20	Location-Nominal 91 93	小街
+R6	Located Arg1:T19 Arg2:T20	
+T21	Thing-Nominal 98 100	牌坊
+T22	Thing-Nominal 102 105	大门楼
+T23	Thing-Nominal 116 121	汉白玉石柱
+T24	Thing-Nominal 125 126	门
+T25	Location-Nominal 127 130	门正中
+T26	Thing-Nominal 130 133	玉石匾
+R7	Located Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 137 145;146 148	刘少奇故里”五个 大字
+R8	Located Arg1:T27 Arg2:T26	
+R9	Part-Whole Arg1:T23 Arg2:T22	
+T28	Thing-Nominal 160 162	大门
+*	Coreference T28 T22
+T29	Metric 162 167	100多米
+T30	Location-Name 170 177	刘少奇铜像广场
+T31	Thing-Nominal 170 175	刘少奇铜像
+R10	Located Arg1:T31 Arg2:T30	
+T32	Location-Nominal 178 180	广场
+*	Coreference T32 T30
+T33	Thing-Nominal 187 189	雨水
+T34	Thing-Nominal 193 195	雪松
+T35	Thing-Nominal 196 198	丹桂
+T36	Thing-Nominal 199 201	翠柏
+R11	Located Arg1:T34 Arg2:T32	
+R12	Located Arg1:T35 Arg2:T32	
+R13	Located Arg1:T36 Arg2:T32	
+T37	Thing-Nominal 210 212	铜像
+*	Coreference T31 T37
+T38	Location-Nominal 215 219;220 223	故居的南 山坡上
+R14	Located Arg1:T37 Arg2:T38	
+T39	Location-Nominal 215 217	故居
+T40	Location-Nominal 137 142	刘少奇故里
+*	Coreference T40 T39
+T41	Thing-Nominal 224 226	铜像
+T42	Metric 228 232	7.1米
+T43	Time-Explicit 243 245	七一
+T44	Organization-Nominal 247 248	党
+T45	Time-Explicit 247 251	党的生日
+*	Coreference T43 T45
+T46	Person-Name 254 258	少奇同志
+T47	Organization-Nominal 263 264	党
+R15	Ownership Arg1:T46 Arg2:T47	
+T48	Organization-Pronoun 269 272	我们党
+T49	Person-Nominal 269 278	我们党的卓越领导人
+R16	General-Special Arg1:T46 Arg2:T49	
+T50	Person-Name 282 286	少奇同志
+T51	Person-Pronoun 294 295	他
+*	Coreference T51 T50
+T52	Thing-Nominal 301 305	赭色玉石
+T53	Location-Nominal 301 309	赭色玉石基座正面
+T54	Person-Name 311 314	江泽民
+T55	Thing-Nominal 318 330	刘少奇同志”5个流金大字
+R17	Located Arg1:T55 Arg2:T53	
+T56	Person-Name 318 323	刘少奇同志
+R18	Social Arg1:T54 Arg2:T56	
+T57	Person-Pronoun 331 332	我
+T58	Organization-Nominal 354 357	四人帮
+T59	Person-Nominal 364 373	坚定的共产主义战士
+T60	Person-Name 375 379	少奇同志
+R19	General-Special Arg1:T59 Arg2:T60	
+T61	Thing-Nominal 381 384	长大衣
+R20	Ownership Arg1:T60 Arg2:T61	
+T62	Thing-Nominal 385 387	左手
+T63	Thing-Nominal 388 389	腰
+T64	Thing-Nominal 390 392	右手
+T65	Location-Nominal 394 396	胸前
+R21	Located Arg1:T64 Arg2:T65	
+R22	Part-Whole Arg1:T64 Arg2:T60	
+R23	Part-Whole Arg1:T63 Arg2:T60	
+R24	Part-Whole Arg1:T62 Arg2:T60	
+R25	Located Arg1:T62 Arg2:T63	
+T66	Thing-Nominal 397 399	手指
+R26	Part-Whole Arg1:T66 Arg2:T60	
+T67	Thing-Nominal 403 405	香烟
+R27	Located Arg1:T67 Arg2:T66	
+T68	Thing-Nominal 413 415	风霜
+T69	Thing-Nominal 433 437	山茶花丛
+T70	Person-Pronoun 438 440	我们
+T71	Location-Name 443 450	少奇同志纪念馆
+T72	Location-Nominal 451 454	纪念馆
+*	Coreference T72 T71 T87
+T73	Thing-Nominal 455 457	大门
+T74	Location-Nominal 458 460	广场
+T75	Location-Nominal 461 463	序厅
+T76	Location-Nominal 464 466	展室
+T77	Location-Nominal 467 470	音像厅
+T78	Location-Nominal 471 474	休息厅
+T79	Location-Nominal 475 477	水榭
+R28	Located Arg1:T73 Arg2:T72	
+R29	Part-Whole Arg1:T74 Arg2:T72	
+R30	Part-Whole Arg1:T75 Arg2:T72	
+R31	General-Special Arg1:T76 Arg2:T72	
+R32	General-Special Arg1:T77 Arg2:T72	
+R33	General-Special Arg1:T78 Arg2:T72	
+R34	General-Special Arg1:T79 Arg2:T72	
+T80	Location-Nominal 481 483	展室
+T81	Location-Nominal 484 488	八个展厅
+R35	Part-Whole Arg1:T81 Arg2:T80	
+T82	Location-Nominal 490 497	第一至第七展厅
+T83	Person-Name 500 504	少奇同志
+T84	Time-Explicit 512 514	文革
+T85	Location-Nominal 523 527	第八展厅
+T86	Thing-Nominal 535 537	图片
+T87	Location-Pronoun 531 532	此
+R36	Located Arg1:T86 Arg2:T85	
+T88	Location-Name 543 549	刘少奇纪念馆
+T89	Person-Pronoun 562 563	我
+T90	Person-Nominal 564 568	一代伟人
+R37	General-Special Arg1:T83 Arg2:T90	
+T91	Person-Nominal 581 583	百姓
+T92	Person-Nominal 577 579	伟人
+*	Coreference T90 T92 T93 T95
+R38	Social Arg1:T92 Arg2:T91	
+T93	Person-Nominal 592 594	伟人
+T94	Organization-Nominal 595 599	“四人帮
+T95	Person-Name 618 620	少奇
+T96	Person-Nominal 628 630	人民
+T97	Person-Pronoun 634 635	我
+T98	Thing-Nominal 641 643	大海
+T99	Person-Name 647 651	少奇同志
+T100	Person-Pronoun 655 656	他
+T101	Person-Nominal 659 661	人民
+*	Coreference T100 T99
+R39	Social Arg1:T100 Arg2:T101	
+T102	Time-Implicit 665 667	十月
+T103	Thing-Nominal 677 679	美酒
+T104	Location-Name 683 687	少奇故居
+T105	Thing-Nominal 694 696	雨丝
+T106	Thing-Nominal 707 709	银线
+T107	Thing-Name 710 714	少奇故居
+T108	Thing-Nominal 720 722	土木
+T110	Thing-Nominal 727 730	四合院
+T109	Thing-Nominal 731 733	平房
+R40	Part-Whole Arg1:T110 Arg2:T109	
+R41	Located Arg1:T108 Arg2:T109	
+*	Coreference T107 T109 T111
+T111	Thing-Nominal 734 736	房子
+T112	Thing-Nominal 737 739	外墙
+R42	Part-Whole Arg1:T112 Arg2:T111	
+T113	Thing-Nominal 742 745	谷糠灰
+R43	Located Arg1:T113 Arg2:T112	
+T114	Thing-Nominal 755 759	三个天井
+T115	Thing-Nominal 762 765	茅草房
+T116	Thing-Nominal 766 768	瓦房
+R44	Located Arg1:T114 Arg2:T111	
+R45	General-Special Arg1:T115 Arg2:T111	
+R46	General-Special Arg1:T116 Arg2:T111	
+T117	Thing-Nominal 777 783	少奇家的房子
+T118	Thing-Nominal 793 800	少奇伯伯家里的
+R47	Part-Whole Arg1:T117 Arg2:T111	
+R48	Part-Whole Arg1:T118 Arg2:T111	
+T119	Person-Nominal 793 797	少奇伯伯
+T120	Person-Name 777 779	少奇
+R49	Family Arg1:T120 Arg2:T119	
+T121	Location-Nominal 801 802;803 807	房 子的前面
+T122	Thing-Nominal 813 815	水塘
+R50	Near Arg1:T122 Arg2:T121	
+T123	Location-Nominal 816 818	后面
+T124	Thing-Nominal 826 828	树林
+R51	Near Arg1:T124 Arg2:T123	
+T125	Location-Nominal 840 842	故居
+T126	Thing-Nominal 840 844	故居正门
+T127	Person-Name 847 850	邓小平
+T128	Person-Name 854 859	刘少奇同志
+T129	Thing-Name 854 864	刘少奇同志故居”匾额
+*	Coreference T129 T126
+R52	Create Arg1:T127 Arg2:T129	
+R53	Social Arg1:T128 Arg2:T127	
+R54	Create Arg1:T54 Arg2:T55	
+T130	Location-Nominal 865 868	故居内
+T131	Person-Name 869 872	刘少奇
+T132	Person-Nominal 873 875	父母
+T133	Person-Nominal 876 878	兄长
+R55	Family Arg1:T131 Arg2:T132	
+R56	Family Arg1:T131 Arg2:T133	
+R57	Family Arg1:T132 Arg2:T133	
+T134	Thing-Nominal 881 883	住房
+R58	Located Arg1:T134 Arg2:T130	
+T135	Thing-Nominal 886 888	堂屋
+T136	Thing-Nominal 889 891	碓屋
+T137	Thing-Nominal 892 898	储酒和卖酒屋
+T138	Thing-Nominal 899 900;901 903	牛 栏屋
+T139	Thing-Nominal 904 907	猪栏屋
+T140	Thing-Nominal 910 912	灶房
+T141	Thing-Nominal 913 915	书房
+R59	Located Arg1:T135 Arg2:T130	
+R60	Located Arg1:T136 Arg2:T130	
+R61	Located Arg1:T137 Arg2:T130	
+R62	Located Arg1:T138 Arg2:T130	
+R63	Located Arg1:T139 Arg2:T130	
+R64	Located Arg1:T141 Arg2:T130	
+R65	Located Arg1:T140 Arg2:T130	
+T142	Thing-Nominal 919 921	堂屋
+T143	Thing-Nominal 921 922	墙
+R66	Located Arg1:T143 Arg2:T142	
+T144	Person-Name 924 927	刘少奇
+T145	Person-Name 928 931	王光美
+T146	Thing-Nominal 924 937	刘少奇和王光美在故居的合影
+R67	Located Arg1:T143 Arg2:T146	
+R68	Family Arg1:T144 Arg2:T145	
+T147	Person-Nominal 947 952	房屋的主人
+R69	General-Special Arg1:T145 Arg2:T147	
+R70	General-Special Arg1:T144 Arg2:T147	
+T148	Person-Name 959 961;962 963	刘少 奇
+T149	Person-Nominal 964 966	母亲
+R71	Family Arg1:T148 Arg2:T149	
+T150	Thing-Nominal 959 961;962 971	刘少 奇和母亲同住的屋子
+T151	Thing-Nominal 973 976	小窗户
+R72	Part-Whole Arg1:T151 Arg2:T150	
+T152	Thing-Nominal 982 985	旧书桌
+T153	Thing-Nominal 988 990	椅子
+T154	Thing-Nominal 998 1000	木床
+T155	Thing-Nominal 1006 1009	脸盆架
+T156	Location-Nominal 973 978	小窗户下面
+R73	Located Arg1:T152 Arg2:T156	
+R74	Located Arg1:T153 Arg2:T156	
+R75	Located Arg1:T154 Arg2:T150	
+R76	Located Arg1:T155 Arg2:T150	
+R77	Located Arg1:T153 Arg2:T150	
+R78	Located Arg1:T152 Arg2:T150	
+T157	Thing-Nominal 1010 1012	屋子
+*	Coreference T157 T150
+T158	Time-Explicit 1021 1022;1023 1029	1 961年5月
+T159	Person-Nominal 1029 1032	乡亲们
+T160	Person-Name 1034 1036	少奇
+T161	Location-Nominal 1038 1039	家
+R79	Social Arg1:T159 Arg2:T160	
+T162	Thing-Nominal 1051 1053	房子
+T163	Location-Nominal 1055 1058	接待室
+T164	Person-Name 1062 1064	少奇
+T165	Time-Implicit 1075 1077	晚上
+T166	Location-Name 1082 1083;1084 1086	炭 子冲
+T167	Person-Nominal 1089 1091	自己
+T168	Location-Nominal 1089 1094	自己的旧居
+*	Coreference T167 T164
+T169	Thing-Nominal 1106 1107	雨
+T170	Person-Pronoun 1109 1110	我
+T171	Person-Name 1112 1114	少奇
+T172	Thing-Nominal 1117 1119	飞机
+T173	Person-Pronoun 1125 1126	他
+*	Coreference T173 T171 T174 T180 T185
+T174	Person-Pronoun 1150 1151	他
+T175	Person-Nominal 1154 1156	人民
+T176	Organization-Nominal 1161 1162;1163 1164	工 厂
+T177	Location-Nominal 1165 1167	农村
+T178	Person-Nominal 1170 1172	人民
+T179	Time-Implicit 1188 1192	此时此刻
+T180	Person-Nominal 1196 1198	领袖
+T181	Organization-Name 1209 1215	花明楼邮政局
+T182	Person-Pronoun 1216 1217	我
+T183	Thing-Nominal 1221 1231	刘少奇同志”金箔邮票
+R80	Ownership Arg1:T181 Arg2:T183	
+T184	Thing-Nominal 1235 1243	少奇故里行纪念封
+T185	Person-Nominal 1248 1254	这位人民公仆

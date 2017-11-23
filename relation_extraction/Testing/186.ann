@@ -1,0 +1,162 @@
+T1	Thing-Nominal 3 7	宇宙万物
+T2	Thing-Pronoun 10 11	它
+T3	Thing-Nominal 32 34	天地
+T4	Thing-Nominal 53 58	第一只精灵
+T5	Thing-Nominal 62 68	蔚蓝色的大海
+T6	Thing-Nominal 69 76	深邃宁静的世界
+T7	Thing-Nominal 130 132	春雨
+T8	Thing-Nominal 135 137	东风
+T9	Thing-Nominal 140 142	垂柳
+T10	Thing-Nominal 144 146	别絮
+T11	Thing-Nominal 146 148	梨花
+T12	Thing-Nominal 151 152	雪
+T13	Time-Implicit 153 158	乍暖还寒时
+T14	Thing-Nominal 165 166	蝶
+T15	Location-Nominal 167 169	花丛
+R1	Located Arg1:T14 Arg2:T15	
+T16	Thing-Nominal 170 171	蜂
+T17	Location-Nominal 172 174	津渡
+R2	Located Arg1:T16 Arg2:T17	
+T18	Thing-Nominal 175 177	百蕊
+T19	Thing-Nominal 182 186	万木葳蕤
+T20	Thing-Nominal 189 190;191 192	清 荷
+T21	Thing-Nominal 201 203	芦荻
+T22	Thing-Nominal 206 208	枫林
+T23	Thing-Nominal 211 213	落英
+T24	Thing-Nominal 218 220	炊烟
+T25	Thing-Nominal 240 241	犬
+T26	Thing-Nominal 243 247	一桢雪影
+T27	Thing-Nominal 248 250	琼花
+T28	Thing-Nominal 256 258	梅花
+T29	Thing-Nominal 258 260	栈道
+T30	Thing-Nominal 261 262	雪
+T31	Person-Pronoun 283 284	我
+T32	Thing-Nominal 288 290	娇柳
+T33	Thing-Nominal 296 298	红豆
+T34	Thing-Nominal 304 306	落叶
+T35	Thing-Nominal 312 314	梅花
+T36	Thing-Nominal 326 331	灿烂的星空
+T37	Person-Pronoun 335 336	我
+T38	Thing-Nominal 355 356	风
+T39	Thing-Nominal 358 359	水
+T40	Thing-Nominal 361 362	雪
+T41	Thing-Nominal 364 366	冰霜
+T42	Location-Nominal 367 370	人世间
+T43	Thing-Nominal 402 404	长河
+T44	Thing-Nominal 405 406	日
+T45	Thing-Nominal 407 409	大漠
+T46	Thing-Nominal 409 411	孤烟
+T47	Thing-Nominal 421 425	胡杨绿洲
+T48	Thing-Nominal 426 428	大浪
+T49	Thing-Nominal 431 433	沉舟
+T50	Thing-Nominal 436 438	烟波
+T51	Thing-Nominal 445 449	樯楫帆桅
+T52	Thing-Nominal 450 454	亭廊轩榭
+T53	Thing-Nominal 455 459	笙瑟琴箫
+T54	Thing-Nominal 470 472	清风
+T55	Thing-Nominal 472 474	郎月
+T56	Thing-Nominal 475 477	桑田
+T57	Thing-Nominal 477 479	沧海
+T58	Thing-Nominal 481 482	水
+T59	Thing-Nominal 500 502	江河
+T60	Thing-Nominal 505 507	日月
+T61	Location-Nominal 512 514	风中
+T62	Thing-Nominal 514 516	流云
+R3	Located Arg1:T62 Arg2:T61	
+T63	Location-Nominal 521 523	柳上
+T64	Thing-Nominal 523 525	花雨
+T65	Thing-Nominal 555 560	奔腾的黄河
+T66	Thing-Nominal 561 566	浩荡的长江
+T67	Thing-Nominal 567 572	南国的稻海
+T68	Thing-Nominal 573 578	北国的麦浪
+T69	Location-Name 567 569	南国
+R4	Located Arg1:T67 Arg2:T69	
+T70	Location-Name 573 575	北国
+R5	Located Arg1:T68 Arg2:T70	
+T71	Thing-Nominal 579 584	雪域的阳光
+T72	Location-Nominal 579 581	雪域
+R6	Located Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 585 590	塞外的毡房
+T74	Location-Name 585 587	塞外
+R7	Located Arg1:T73 Arg2:T74	
+T75	Location-Name 598 606	楼兰古道昆仑峰巅
+T76	Location-Name 611 615	喜马拉雅
+T77	Location-Name 620 624	雅鲁藏布
+T78	Location-Name 628 632	蛛穆朗马
+T79	Person-Pronoun 648 649	我
+T80	Thing-Nominal 660 662	虹霓
+T81	Thing-Nominal 665 667	百鸟
+T82	Thing-Nominal 680 682	椰林
+T83	Thing-Nominal 713 717	雪树参禅
+T84	Thing-Nominal 718 720	红烛
+T85	Thing-Nominal 721 722	泪
+T86	Thing-Nominal 725 734	浩瀚无垠的宇宙苍穹
+T87	Thing-Nominal 735 737	繁星
+T88	Thing-Nominal 740 742	星系
+T89	Thing-Nominal 770 773;774 778	詹若流 水的星河
+T90	Thing-Nominal 779 781	流星
+T91	Thing-Nominal 785 787	夜空
+T92	Thing-Nominal 790 797	眩目极致的星雨
+T93	Thing-Nominal 800 807	一泓凄美的弧痕
+T94	Thing-Nominal 813 818	遥远的天幕
+T95	Thing-Pronoun 819 820	它
+*	Coreference T95 T90
+T96	Thing-Nominal 821 827	一束丽的星辉
+T97	Thing-Nominal 842 844	流星
+T98	Thing-Nominal 844 846	昙花
+T99	Person-Pronoun 854 856	我们
+T100	Thing-Nominal 860 864	昨夜星辰
+T101	Thing-Nominal 865 869	酩酊清风
+T102	Thing-Nominal 870 872	黄发
+T103	Thing-Nominal 876 877	花
+T104	Location-Nominal 878 879	冢
+T105	Thing-Pronoun 898 899	它
+T106	Location-Nominal 910 912	雾里
+T107	Thing-Nominal 913 914	花
+T108	Thing-Nominal 918 922	春花秋月
+T109	Thing-Nominal 926 928	朝花
+T110	Thing-Nominal 931 935	茫茫沧海
+T111	Person-Nominal 936 940	芸芸众生
+T112	Thing-Nominal 942 944	草木
+T113	Thing-Nominal 957 959	鲜花
+T114	Thing-Nominal 967 969	阳光
+T115	Thing-Nominal 972 974	风雨
+T116	Location-Nominal 1005 1007	庭前
+T117	Thing-Nominal 1007 1008	花
+T118	Thing-Nominal 1009 1010	花
+R8	Located Arg1:T118 Arg2:T116	
+T119	Location-Nominal 1014 1016	天外
+T120	Thing-Nominal 1016 1017	云
+T121	Thing-Nominal 1018 1019	云
+R9	Located Arg1:T121 Arg2:T119	
+T122	Thing-Nominal 1022 1023	菊
+T123	Thing-Nominal 1028 1030	临风
+T124	Thing-Nominal 1033 1035	夏花
+T125	Thing-Nominal 1041 1043	秋叶
+T126	Thing-Nominal 1068 1070	高山
+T127	Thing-Nominal 1070 1072	流水
+T128	Thing-Nominal 1073 1077	花鸟鱼虫
+T129	Thing-Nominal 1078 1082	风云雷电
+T130	Person-Nominal 1101 1102	子
+T131	Person-Nominal 1104 1105	子
+T132	Person-Nominal 1106 1107	子
+T133	Person-Nominal 1109 1110	孙
+T134	Person-Nominal 1111 1115	子子孙孙
+T135	Thing-Nominal 1135 1140	浩渺的宇宙
+T136	Thing-Pronoun 1191 1193	自己
+T137	Thing-Nominal 1226 1227	鹰
+T138	Location-Nominal 1228 1230	长空
+R10	Located Arg1:T137 Arg2:T138	
+T139	Thing-Nominal 1233 1235	云霞
+T140	Thing-Nominal 1238 1239	鱼
+T141	Location-Nominal 1240 1242	浅底
+R11	Located Arg1:T140 Arg2:T141	
+T142	Person-Pronoun 1255 1257	我们
+T143	Thing-Nominal 1269 1271	天地
+T144	Thing-Nominal 1276 1278	万物
+T145	Person-Nominal 1338 1340	人世
+T146	Thing-Nominal 1352 1356	晨钟暮鼓
+T147	Thing-Nominal 1245 1247	沧海
+T148	Location-Nominal 412 417	海市蜃楼中
+R12	Located Arg1:T47 Arg2:T148	
+T149	Location-Nominal 117 126	朝曦霞蔚月晕星辉中

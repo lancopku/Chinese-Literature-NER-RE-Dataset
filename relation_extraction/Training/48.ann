@@ -1,0 +1,173 @@
+T1	Abstract 5 18	《中国・俄罗斯写实油画展》
+T2	Location-Name 20 22	青岛
+T3	Thing-Nominal 23 30	俄罗斯油画展览
+T4	Thing-Nominal 36 43	俄罗斯油画风景
+T5	Person-Pronoun 49 50	我
+T6	Person-Nominal 55 57	熟人
+T7	Person-Pronoun 61 63	他们
+*	Coreference T7 T6
+T8	Thing-Nominal 69 75	那些油画风景
+T9	Person-Pronoun 78 79	你
+T10	Thing-Nominal 86 91	熟悉的风景
+T11	Thing-Nominal 101 103	卡片
+T12	Time-Implicit 96 99	看画时
+T13	Location-Pronoun 104 106	这里
+T14	Thing-Nominal 107 111	几张旧卡
+T15	Abstract 130 134	《秋天》
+T16	Abstract 151 157	《奔跑的云》
+T17	Thing-Nominal 137 145	蓝河、黄树、绿天
+T18	Person-Name 147 151	特尤勒金
+T19	Abstract 161 164	《湖》
+T20	Thing-Nominal 172 177	常见的水彩
+T21	Thing-Nominal 167 169	湖景
+T22	Abstract 178 182	《决斗》
+T23	Thing-Nominal 187 188	马
+T24	Person-Pronoun 212 213	我
+T25	Thing-Nominal 222 226	荒原草原
+T26	Thing-Nominal 230 235	俄罗斯原野
+T27	Location-Nominal 227 229	画上
+R1	Located Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 240 242	风物
+T29	Time-Implicit 247 249	当年
+T30	Person-Nominal 252 258	喜爱马的战士
+T31	Thing-Nominal 264 266	马匹
+T32	Organization-Nominal 280 284	我们连队
+T33	Person-Pronoun 280 282	我们
+T34	Time-Implicit 292 294	当时
+T35	Thing-Nominal 297 303	马群的风景照
+T36	Thing-Nominal 308 309	马
+T37	Person-Nominal 314 318	多数男兵
+T38	Person-Name 331 333	韩瑞
+T39	Person-Pronoun 341 342	他
+*	Coreference T39 T38
+T40	Organization-Nominal 351 354	马车班
+T41	Thing-Nominal 360 361	马
+T42	Person-Nominal 355 358	守马号
+T43	Thing-Nominal 363 374	库兹米乔夫的静物、风景
+T44	Abstract 375 381	《春天来临》
+T45	Thing-Nominal 384 389	天空和雪野
+T46	Abstract 393 397	《田野》
+T47	Thing-Nominal 397 405	蓝地、绿天、黄树
+T48	Location-Pronoun 406 408	这里
+T49	Person-Nominal 417 420	观画者
+T50	Thing-Nominal 421 423;424 429	蓝绿 黄三种色彩
+T51	Thing-Nominal 456 460	三种色彩
+T52	Location-Pronoun 452 454	这里
+T53	Location-Name 464 466	青海
+T54	Thing-Nominal 440 442	色彩
+T55	Location-Pronoun 475 477	那里
+T56	Thing-Nominal 478 484;485 489	蓝天、绿草原 、黄戈壁
+R2	Located Arg1:T56 Arg2:T55	
+T57	Person-Pronoun 492 494	我们
+T58	Thing-Nominal 494 496	眼睛
+R3	Part-Whole Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 507 514	自己农场的麦田
+T60	Location-Nominal 507 511	自己农场
+R4	Located Arg1:T59 Arg2:T60	
+T61	Thing-Nominal 524 527	那草原
+T62	Thing-Nominal 552 555	黄戈壁
+T63	Thing-Nominal 572 574	蓝天
+T64	Thing-Nominal 579 584	青岛的蓝天
+T65	Person-Nominal 590 591	人
+T66	Person-Nominal 595 596	人
+T67	Person-Name 625 630	小拉乌斯卡
+T68	Abstract 632 637	《老木屋》
+T69	Abstract 637 644	《金色的田野》
+T70	Abstract 645 653	《青岛财经日报》
+T71	Person-Nominal 684 685;686 687	画 家
+T72	Thing-Nominal 689 691	作品
+T73	Thing-Nominal 693 698	画展的赠品
+T74	Person-Nominal 699 703	这位画家
+T75	Abstract 713 717	《河边》
+T76	Thing-Nominal 721 725	两堆草料
+T77	Location-Nominal 726 728	周围
+T78	Thing-Nominal 728 730	草地
+R5	Located Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 734 738	岸边绿树
+T80	Thing-Nominal 739 746;747 748	对岸绿树和芦苇 荡
+T81	Thing-Nominal 752 756	河的白水
+T82	Location-Nominal 749 751	下面
+R6	Located Arg1:T81 Arg2:T82	
+T83	Thing-Nominal 760 767	泛黄泛紫的天空
+T84	Location-Pronoun 768 770	这里
+T85	Thing-Nominal 773 777	河和河水
+T86	Organization-Nominal 779 786	屯垦的农业连队
+T87	Location-Nominal 787 789	周围
+T88	Organization-Nominal 799 801	连队
+T89	Thing-Nominal 809 814	格尔木河水
+T90	Organization-Nominal 838 842	农业连队
+T91	Thing-Nominal 844 845	水
+T92	Location-Nominal 855 858	水流边
+T93	Location-Nominal 850 853	那河边
+T94	Location-Nominal 860 863	渠道边
+T95	Thing-Nominal 865 868;869 886	干渠、 支渠、斗渠、毛渠、农渠。干渠、支渠
+R7	Located Arg1:T95 Arg2:T94	
+T96	Thing-Nominal 890 898	斗渠、毛渠、农渠
+T97	Location-Nominal 900 902	身边
+R8	Located Arg1:T96 Arg2:T97	
+T98	Thing-Nominal 922 926	干渠支渠
+T99	Thing-Nominal 930 937	这格尔木河河水
+T100	Abstract 944 950	《西伯利亚》
+T101	Thing-Nominal 953 963	画石屋、树、草、远山
+T102	Person-Pronoun 967 968	谁
+T103	Thing-Nominal 973 975	卡片
+T104	Thing-Nominal 982 987	熟悉的风景
+T105	Thing-Nominal 988 994	树、草、远山
+T106	Time-Implicit 995 997	每天
+T107	Person-Pronoun 1002 1004	自己
+T108	Thing-Nominal 1000 1001	树
+T109	Thing-Nominal 1011 1013	杨树
+T110	Thing-Nominal 1014 1016	草原
+T111	Thing-Nominal 1017 1019	荒原
+T112	Thing-Nominal 1023 1024	草
+T113	Thing-Nominal 1025 1027	小草
+T114	Location-Pronoun 1031 1033	这里
+T115	Thing-Nominal 1045 1046	草
+T116	Thing-Nominal 1048 1060	麦秸、豌豆芥叶、油菜芥竿
+T117	Organization-Nominal 1068 1072	农业连队
+T118	Thing-Nominal 1081 1083	石屋
+T119	Thing-Nominal 1079 1080	草
+T120	Thing-Nominal 1091 1093	土屋
+T121	Person-Pronoun 1094 1096	我们
+T122	Person-Pronoun 1114 1116	自己
+T123	Thing-Nominal 1123 1125	土屋
+T124	Thing-Nominal 1134 1137	“洋房
+T125	Location-Nominal 1139 1145	土屋里地面上
+T126	Thing-Nominal 1151 1154	芦苇芽
+R9	Located Arg1:T126 Arg2:T125	
+T127	Person-Nominal 1156 1157	人
+T128	Person-Nominal 1169 1170	人
+T129	Person-Nominal 1173 1175	战士
+T130	Thing-Nominal 1181 1183	芦苇
+T131	Person-Name 1196 1201	贝斯特洛夫
+T132	Abstract 1201 1207	《夜间篝火》
+T133	Person-Nominal 1209 1210	人
+T134	Abstract 1225 1231	《河边篝火》
+T135	Person-Pronoun 1243 1244	我
+T136	Location-Nominal 1245 1248	这画前
+T137	Person-Pronoun 1259 1260	我
+T138	Person-Pronoun 1266 1267	我
+T139	Person-Name 1268 1270	李硕
+T140	Person-Name 1271 1273	碧涛
+T141	Thing-Nominal 1274 1276	草原
+T142	Thing-Nominal 1277 1278	柴
+T143	Person-Pronoun 1280 1281	我
+T144	Thing-Nominal 1284 1289	一幅水彩画
+T145	Person-Nominal 1303 1305	好友
+T146	Person-Pronoun 1310 1311	我
+T147	Thing-Nominal 1307 1309	此画
+T148	Abstract 1359 1380	《看〈夜间篝火〉油画忆自己画的木柴地篝火》
+T149	Abstract 1408 1423	《中国・俄罗斯写实油画展小记》
+T150	Organization-Nominal 1432 1439	艺术馆等单位办
+T151	Metric 1447 1450	十一年
+T152	Thing-Nominal 1459 1462	油画展
+T153	Thing-Nominal 1473 1476	艺术馆
+T154	Person-Nominal 1479 1484	俄罗斯画家
+T155	Location-Name 1489 1491	青海
+T156	Thing-Nominal 1503 1510	俄罗斯油画风景
+T157	Metric 1394 1396	一年
+T158	Thing-Nominal 1347 1348	画
+T159	Thing-Nominal 1296 1297	饭
+R10	Use Arg1:T49 Arg2:T50	
+R11	Social Arg1:T146 Arg2:T145	
+T160	Person-Pronoun 1451 1453	自己

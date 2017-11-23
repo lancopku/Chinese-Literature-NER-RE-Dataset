@@ -1,0 +1,120 @@
+T1	Time-Explicit 0 4	建国初期
+T2	Organization-Name 5 7	苏联
+T3	Location-Name 20 25	乌蒙山深处
+T4	Location-Nominal 29 31	矿山
+T5	Location-Name 20 23	乌蒙山
+*	Coreference T5 T4
+T6	Person-Nominal 44 47	建设者
+T7	Location-Name 50 52	北京
+T8	Location-Nominal 39 43	全国各地
+T9	Person-Nominal 53 57	冶金专家
+T10	Organization-Name 58 60;61 63	子弟 小学
+T11	Location-Name 67 69	北京
+T12	Person-Name 70 75	刘凤云老师
+T13	Person-Pronoun 76 77	她
+T14	Person-Nominal 85 87	同学
+R1	Social Arg1:T13 Arg2:T14	
+R2	Ownership Arg1:T12 Arg2:T10	
+T15	Person-Pronoun 90 91	她
+*	Coreference T13 T12
+T16	Person-Name 92 94	高斯
+T17	Person-Nominal 99 101	学生
+*	Coreference T14 T17
+T18	Person-Nominal 127 130	同学们
+T19	Time-Implicit 136 142	步入初中一年
+T20	Thing-Nominal 151 152	花
+T21	Person-Nominal 172 175	求知者
+T22	Organization-Nominal 176 178	大学
+T23	Person-Nominal 180 182	知青
+T24	Location-Nominal 184 185	乡
+T25	Location-Name 188 196	乌蒙山区贫困农村
+T26	Time-Implicit 206 209	工作后
+T27	Person-Nominal 242 243;244 245	军 人
+T28	Person-Nominal 272 274	志士
+T29	Location-Nominal 278 280	矿山
+T30	Person-Name 333 335	高斯
+T31	Organization-Name 353 355	德国
+T32	Thing-Nominal 360 362	纸币
+T33	Metric 355 359	10马克
+T34	Person-Name 362 364	高斯
+T35	Person-Name 386 388	高斯
+T36	Person-Name 413 415	高斯
+T37	Person-Nominal 418 421	德国人
+T38	Person-Nominal 482 487	数学界专家
+T39	Person-Name 550 552	高斯
+T40	Person-Name 497 499	高斯
+T41	Person-Name 534 536	高斯
+T42	Location-Nominal 540 543	处女地
+T43	Person-Nominal 545 548	自学者
+T44	Thing-Nominal 561 563	牛犊
+T45	Thing-Nominal 565 566	虎
+T46	Thing-Nominal 698 699	我
+T47	Person-Pronoun 705 706	我
+T48	Time-Implicit 711 714	每一天
+T49	Person-Pronoun 722 723	我
+T50	Metric 725 727;728 731	每一 个小时
+T51	Person-Pronoun 746 747	我
+T52	Time-Implicit 762 764	当初
+T53	Person-Pronoun 764 765	我
+T54	Time-Implicit 782 784	如今
+T55	Person-Pronoun 784 785	我
+T56	Person-Nominal 791 794	牧羊人
+T57	Time-Explicit 852 859;860 870	2004年2月 8日元宵节后的第三天
+T58	Thing-Nominal 879 881	迷宫
+T59	Thing-Nominal 904 906	山峰
+T60	Thing-Nominal 914 916	山坡
+T61	Person-Name 936 938	高斯
+T62	Thing-Nominal 961 963	山坡
+T63	Person-Name 992 994	高斯
+T64	Time-Implicit 1044 1046	初春
+T65	Time-Implicit 1051 1053	严冬
+T66	Thing-Nominal 1093 1094	人
+T67	Person-Name 1129 1135	科学家钱学森
+T68	Thing-Nominal 1291 1293	火花
+T69	Person-Name 1357 1359	高斯
+T70	Thing-Nominal 1397 1399	铁鞋
+T71	Time-Explicit 1462 1467	2007年
+T72	Thing-Nominal 1468 1470	风光
+T73	Thing-Nominal 1471 1473	大地
+T74	Organization-Name 1504 1510	东北师范大学
+T75	Person-Nominal 1525 1530	在校硕士生
+T76	Person-Nominal 1531 1534	博士生
+T77	Organization-Nominal 1574 1577	组委会
+T78	Thing-Nominal 1599 1602	邀请函
+T79	Time-Explicit 1604 1610	10月10日
+T80	Location-Name 1615 1617	长春
+T81	Location-Nominal 1646 1650	北国春城
+T82	Organization-Name 1653 1659	东北师范大学
+*	Coreference T81 T82 T97
+T83	Time-Implicit 1660 1664	金秋十月
+T84	Location-Nominal 1683 1685	校园
+T85	Person-Nominal 1705 1712	著名的统计学家
+T86	Person-Nominal 1718 1722	两院院士
+T87	Person-Nominal 1736 1737	师
+T88	Person-Nominal 1742 1744	大师
+T89	Location-Nominal 1742 1747	大师办公室
+T90	Person-Name 1748 1752	陶剑教授
+R3	General-Special Arg1:T90 Arg2:T88	
+T91	Person-Nominal 1837 1838	宾
+T92	Thing-Nominal 1839 1841	薪火
+T93	Location-Nominal 1843 1845	校园
+T94	Person-Nominal 1831 1833	天公
+T95	Person-Nominal 1850 1852	学者
+T96	Person-Nominal 1848 1850	专家
+T97	Organization-Name 1853 1855	东师
+T98	Location-Name 1856 1858	长春
+T99	Person-Pronoun 1858 1859	我
+T100	Person-Nominal 1864 1866	群英
+T101	Person-Name 1897 1903	数学家汉克尔
+T102	Person-Nominal 1914 1918	，一代人
+T103	Person-Nominal 1924 1928	另一代人
+T104	Person-Nominal 1932 1935	一个人
+T105	Person-Nominal 1939 1943	另一个人
+T106	Person-Nominal 1952 1956	每一代人
+T107	Thing-Nominal 1962 1964	大厦
+T108	Thing-Nominal 1969 1970	楼
+R4	Part-Whole Arg1:T108 Arg2:T107	
+T109	Person-Name 1981 1983	高斯
+T110	Thing-Nominal 1996 1998	夕阳
+T111	Person-Nominal 2060 2062	大师
+T112	Thing-Nominal 2064 2065	雾

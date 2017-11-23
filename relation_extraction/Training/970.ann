@@ -1,0 +1,105 @@
+T1	Location-Nominal 0 9	宿舍外的人行道两旁
+T3	Thing-Nominal 12 21	两排高大的常绿乔木
+R1	Located Arg1:T3 Arg2:T1	
+T4	Thing-Pronoun 29 30	它
+*	Coreference T4 T3 T12
+T5	Person-Nominal 32 37	忠实的门卫
+T6	Person-Nominal 41 43	主人
+T7	Person-Nominal 46 53	相识多年的老友
+T8	Person-Pronoun 56 57	你
+T9	Metric 68 71	十多年
+T10	Time-Implicit 68 71	十多年
+T11	Time-Explicit 74 76	至今
+T12	Thing-Pronoun 79 80	它
+T13	Person-Pronoun 87 89	我们
+T14	Time-Implicit 102 108	每当阳春三月
+T15	Thing-Pronoun 109 110	它
+T16	Person-Pronoun 126 128	我们
+T17	Time-Implicit 148 149	春
+T18	Time-Implicit 128 129	春
+T19	Person-Pronoun 183 184	你
+T20	Person-Pronoun 191 192	你
+T21	Thing-Nominal 213 214	花
+T22	Thing-Pronoun 179 180	它
+T24	Thing-Nominal 215 218	它的花
+T23	Location-Nominal 232 241	浓绿而高耸的树冠中
+R2	Located Arg1:T24 Arg2:T23	
+T25	Person-Nominal 253 255	行人
+T26	Person-Nominal 258 264	散发香气的花
+T27	Time-Implicit 272 279	大约在端午节后
+T28	Thing-Nominal 280 284	凋谢的花
+T29	Thing-Nominal 288 290	果实
+T30	Time-Implicit 310 314	七月以否
+T31	Thing-Pronoun 315 316	它
+T32	Person-Pronoun 318 320	我们
+T33	Time-Implicit 322 323	秋
+T34	Thing-Nominal 327 333	成熟的小圆果
+T35	Person-Nominal 346 348	行人
+T36	Location-Nominal 346 350	行人头上
+T37	Thing-Nominal 364 366	果实
+T38	Person-Nominal 384 387	孩子们
+T39	Person-Pronoun 388 390	他们
+*	Coreference T39 T38
+T40	Thing-Nominal 392 394	果实
+T41	Person-Nominal 410 412	行人
+T42	Thing-Nominal 415 417	车辆
+T43	Thing-Nominal 420 422	果实
+T44	Location-Nominal 424 426	地上
+R3	Located Arg1:T43 Arg2:T44	
+T45	Location-Nominal 429 435	人行道地砖上
+T46	Person-Nominal 455 458	清洁工
+T47	Person-Pronoun 473 475	我们
+T48	Thing-Nominal 480 483	中草药
+T49	Abstract 484 488	民间偏方
+T50	Thing-Nominal 492 498	不知名的果实
+T51	Thing-Pronoun 503 504	它
+*	Coreference T51 T50
+T52	Thing-Pronoun 519 520	它
+T53	Person-Nominal 546 549	老大爷
+T54	Person-Nominal 549 552	老大娘
+T55	Thing-Nominal 555 558	塑料袋
+T56	Thing-Nominal 565 571	地上的小黄果
+T57	Location-Nominal 565 567	地上
+R4	Located Arg1:T56 Arg2:T57	
+T58	Person-Nominal 573 577	过往路人
+T59	Thing-Nominal 592 595	小圆果
+T60	Person-Nominal 601 604	我自己
+T61	Person-Pronoun 626 628	我们
+T62	Thing-Nominal 646 648	香树
+T63	Thing-Pronoun 659 660	它
+*	Coreference T63 T62
+T64	Thing-Pronoun 682 683	它
+T65	Person-Pronoun 693 695	我们
+T66	Thing-Nominal 702 704	果实
+T67	Person-Nominal 705 708	孩子们
+T68	Thing-Nominal 712 714	果实
+T69	Person-Nominal 715 718	环卫工
+T70	Thing-Nominal 722 724	果实
+T71	Thing-Nominal 736 737;738 739	果 实
+T72	Thing-Nominal 746 748	香树
+T73	Person-Pronoun 754 756	我们
+T74	Person-Nominal 754 758	我们人类
+T76	Time-Explicit 813 820	2007年4月
+T77	Person-Pronoun 821 822	我
+T78	Location-Name 823 825	日本
+T79	Thing-Nominal 832 834	樱花
+T80	Person-Pronoun 843 844	我
+T81	Person-Nominal 849 851	亲人
+T82	Thing-Nominal 856 868	宿舍外人行道两旁的大香树
+T83	Location-Nominal 856 864	宿舍外人行道两旁
+R6	Located Arg1:T82 Arg2:T83	
+T84	Time-Implicit 869 872	这时节
+T85	Thing-Pronoun 874 875	它
+*	Coreference T85 T82
+T86	Person-Pronoun 895 896	我
+T87	Person-Pronoun 914 915	我
+T88	Time-Explicit 915 917	至今
+T89	Thing-Nominal 922 924	这树
+T2	Location-Nominal 307 309	枝丫
+R7	Located Arg1:T29 Arg2:T2	
+T90	Thing-Nominal 355 361	一场狂风骤雨
+T75	Thing-Nominal 750 752	种子
+T91	Location-Pronoun 830 832	那儿
+*	Coreference T91 T78
+T92	Thing-Nominal 553 554	手
+T93	Time-Implicit 468 472	长久以来

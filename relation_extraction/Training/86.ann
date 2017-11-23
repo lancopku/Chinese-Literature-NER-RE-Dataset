@@ -1,0 +1,151 @@
+T1	Location-Nominal 0 2	家里
+T2	Thing-Nominal 4 6	新房
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 13 15	对联
+R2	Located Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 19 21	酒席
+T5	Person-Nominal 23 25	亲戚
+T6	Person-Nominal 25 27	朋友
+T7	Person-Nominal 28 30	左邻
+T8	Person-Nominal 30 32	右舍
+T9	Thing-Nominal 39 40	酒
+T10	Person-Nominal 50 52	叔叔
+T11	Person-Nominal 52 55	婶婶们
+T12	Person-Pronoun 67 69	他们
+*	Coreference T12 T10 T11
+T13	Thing-Nominal 73 74	口
+T14	Person-Nominal 88 90	人们
+T15	Person-Nominal 97 100	小舅子
+T16	Person-Nominal 102 108	见过世面的入
+R3	General-Special Arg1:T15 Arg2:T16	
+T17	Person-Pronoun 124 125	他
+*	Coreference T17 T15 T20 T24
+T18	Thing-Nominal 128 131	后脑壳
+R4	Part-Whole Arg1:T18 Arg2:T17	
+T19	Thing-Nominal 139 140	人
+T20	Person-Pronoun 149 150	他
+T21	Person-Nominal 159 161	大伙
+*	Coreference T21 T14 T23
+T22	Thing-Nominal 161 163	眼球
+T23	Person-Nominal 169 171	众人
+T24	Person-Pronoun 178 179	他
+T25	Person-Pronoun 180 181	我
+T26	Person-Nominal 186 188	姐夫
+*	Coreference T25 T26
+T27	Thing-Nominal 189 191	新房
+T28	Thing-Nominal 199 200	树
+T29	Thing-Nominal 201 202	花
+R5	Located Arg1:T27 Arg2:T28	
+R6	Located Arg1:T29 Arg2:T27	
+T30	Person-Nominal 203 205	有人
+T31	Person-Pronoun 214 215	他
+T32	Time-Implicit 230 232	现在
+T33	Thing-Nominal 238 241	小叶兰
+R7	General-Special Arg1:T33 Arg2:T29	
+T34	Location-Nominal 242 243;244 245	城 里
+T35	Location-Nominal 245 247	路旁
+T36	Thing-Pronoun 250 251	它
+R8	Located Arg1:T36 Arg2:T35	
+*	Coreference T36 T33 T38
+T37	Metric 254 257	三五年
+T38	Thing-Pronoun 258 259	它
+T39	Thing-Nominal 263 264	伞
+T40	Thing-Nominal 268 272	印度塔松
+T41	Location-Nominal 275 279	泰国皇宫
+R9	Located Arg1:T40 Arg2:T41	
+T42	Thing-Nominal 281 285	名贵树种
+R10	General-Special Arg1:T40 Arg2:T42	
+T43	Person-Pronoun 291 292	他
+T44	Location-Nominal 296 298	屋边
+T45	Thing-Nominal 300 303	海棠树
+R11	Located Arg1:T45 Arg2:T44	
+T46	Thing-Pronoun 314 315	它
+*	Coreference T46 T45 T47
+T47	Thing-Pronoun 325 326	它
+T48	Person-Pronoun 332 333	我
+T49	Location-Nominal 337 339	城里
+*	Coreference T48 T43 T50
+T50	Person-Pronoun 350 351	我
+T51	Thing-Nominal 353 355	茅台
+T52	Person-Pronoun 369 370	我
+R12	Family Arg1:T24 Arg2:T25	
+R13	Social Arg1:T23 Arg2:T24	
+T53	Person-Pronoun 379 380	我
+T54	Thing-Nominal 397 398	牛
+T55	Thing-Nominal 408 410	酒席
+T56	Person-Nominal 413 415	客人
+T57	Person-Pronoun 421 422	我
+T58	Thing-Nominal 425 428	海棠树
+T59	Thing-Pronoun 432 433	它
+*	Coreference T58 T59 T65
+T60	Thing-Nominal 433 435	树冠
+R14	Part-Whole Arg1:T60 Arg2:T59	
+T61	Time-Implicit 441 443	夏日
+T62	Thing-Nominal 444 446	阳光
+T63	Person-Pronoun 447 448	我
+T64	Time-Implicit 455 459	几十年来
+T65	Thing-Pronoun 460 461	它
+T66	Person-Nominal 466 468	人们
+T67	Location-Nominal 469 472	树底下
+T68	Thing-Nominal 476 477	茶
+T69	Time-Implicit 484 486	如今
+T70	Person-Pronoun 488 489	我
+T71	Thing-Pronoun 497 498	它
+T72	Thing-Pronoun 509 510	它
+T73	Thing-Nominal 515 518	风景树
+T74	Person-Nominal 524 527	海南人
+T75	Thing-Nominal 532 535	海棠树
+T76	Thing-Pronoun 557 558	它
+*	Coreference T75 T76
+T77	Abstract 552 555	崖州志
+T78	Thing-Nominal 567 570	海棠树
+T79	Thing-Nominal 579 581	粗皮
+R15	Part-Whole Arg1:T78 Arg2:T79	
+T80	Thing-Nominal 587 589	树根
+R16	Part-Whole Arg1:T80 Arg2:T78	
+T81	Location-Nominal 591 593	地面
+T82	Thing-Nominal 594 596	枝茎
+R17	Part-Whole Arg1:T82 Arg2:T78	
+T83	Thing-Pronoun 604 605	它
+*	Coreference T83 T78 T84
+T84	Thing-Nominal 614 616	自己
+T85	Time-Implicit 622 625	四五月
+T86	Thing-Nominal 628 630	手掌
+T87	Thing-Nominal 632 634	叶片
+T88	Thing-Nominal 640 641	花
+R18	Part-Whole Arg1:T87 Arg2:T78	
+T89	Location-Nominal 632 635	叶片间
+R19	Located Arg1:T88 Arg2:T89	
+T90	Thing-Nominal 647 649	花瓣
+*	Coreference T90 T88 T91
+T91	Thing-Pronoun 657 658	它
+T92	Thing-Nominal 662 665	喇叭花
+T93	Thing-Nominal 669 670	花
+T94	Person-Pronoun 682 683	我
+T95	Thing-Nominal 687 690	海棠花
+T96	Thing-Nominal 704 706	果实
+T97	Thing-Nominal 708 710	枝头
+R20	Located Arg1:T96 Arg2:T97	
+T98	Thing-Nominal 711 713	果实
+T99	Thing-Nominal 714 717	乒乓球
+T100	Thing-Nominal 749 751	果壳
+T101	Thing-Nominal 753 755	果仁
+R21	Located Arg1:T101 Arg2:T100	
+T102	Location-Nominal 764 766	农村
+T103	Person-Nominal 768 770	老人
+T104	Person-Nominal 771 773	小孩
+T105	Person-Nominal 784 786	使者
+T106	Thing-Nominal 792 795	小木锤
+T107	Thing-Nominal 798 800	果子
+R22	Use Arg1:T104 Arg2:T106	
+R23	Use Arg1:T103 Arg2:T106	
+T108	Thing-Nominal 811 813	果仁
+T109	Thing-Pronoun 818 819	它
+*	Coreference T109 T108
+T110	Thing-Nominal 829 832	榨油包
+T111	Thing-Nominal 835 837	木板
+R24	Located Arg1:T110 Arg2:T111	
+R25	Located Arg1:T109 Arg2:T110	
+T112	Person-Nominal 840 842	人们
+T113	Thing-Nominal 843 845	大槌
+R26	Use Arg1:T112 Arg2:T113	

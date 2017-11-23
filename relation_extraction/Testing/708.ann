@@ -1,0 +1,1487 @@
+T1	Person-Nominal 0 2	慈母
+T2	Thing-Nominal 2 3	手
+T3	Thing-Nominal 4 5	线
+T4	Person-Nominal 6 8	游子
+T5	Thing-Nominal 8 9	身
+T6	Thing-Nominal 10 11	衣
+R1	Part-Whole Arg1:T2 Arg2:T1	
+R2	Located Arg1:T3 Arg2:T2	
+R3	Located Arg1:T6 Arg2:T5	
+R4	Part-Whole Arg1:T5 Arg2:T4	
+T7	Person-Nominal 26 27	谁
+T8	Thing-Nominal 28 30	寸草
+T9	Location-Nominal 42 44	故乡
+T10	Location-Name 49 51	惠州
+T11	Thing-Nominal 59 60	月
+T12	Thing-Nominal 61 62	星
+T13	Time-Implicit 56 66	多少个月明星稀的夜晚
+T14	Time-Implicit 67 77	多少个晨曦初露的黎明
+T15	Thing-Nominal 73 74	露
+T16	Person-Pronoun 78 79	我
+T17	Location-Nominal 82 84	窗前
+T18	Thing-Nominal 88 93	西南的天空
+T19	Person-Name 103 105	孟郊
+T20	Person-Nominal 113 115	慈母
+T21	Person-Pronoun 118 119	我
+T22	Location-Nominal 131 133	故乡
+T23	Person-Pronoun 136 137	我
+T24	Thing-Nominal 138 140	两鬓
+T25	Person-Nominal 143 145	母亲
+R6	Family Arg1:T23 Arg2:T25	
+R5	Part-Whole Arg1:T24 Arg2:T23	
+T26	Person-Pronoun 162 163	我
+T27	Time-Implicit 165 170	遥远的年代
+T28	Time-Implicit 194 211	人生中最美好、最令人难以忘怀的时代
+T29	Time-Implicit 175 177	童年
+*	Coreference T28 T29
+T30	Person-Pronoun 214 215	我
+T31	Time-Implicit 214 218	我的童年
+T32	Time-Explicit 228 233	共和国诞生
+T33	Time-Explicit 234 235;236 253	天 安门城楼上升起第一面五星红旗的时候
+*	Coreference T33 T32
+T34	Location-Name 234 235;236 240	天 安门城楼
+T35	Organization-Nominal 228 231	共和国
+T36	Thing-Nominal 246 250	五星红旗
+T37	Person-Pronoun 254 255	我
+T38	Location-Name 256 258	成都
+T39	Time-Implicit 264 267	三岁时
+T40	Person-Nominal 268 270	父亲
+R7	Family Arg1:T40 Arg2:T37	
+T41	Person-Nominal 279 281	父亲
+T42	Person-Pronoun 283 284	我
+T43	Person-Nominal 299 301	母亲
+T44	Person-Pronoun 304 305	我
+T45	Person-Nominal 306 308	父亲
+T46	Location-Nominal 310 312	川北
+T47	Time-Implicit 310 314	川北土改
+T48	Person-Nominal 320 322	母亲
+T49	Thing-Nominal 322 323	马
+T50	Person-Nominal 337 339	父亲
+T51	Time-Explicit 343 353	1952年3月15日
+T52	Time-Explicit 354 357;358 364	这个天 昏地暗的日子
+*	Coreference T52 T51
+T53	Person-Nominal 365 367	父亲
+T54	Location-Name 368 372	川北医院
+T55	Person-Nominal 379 381	父亲
+T56	Person-Nominal 385 387	母亲
+T57	Location-Name 393 395	南充
+T58	Thing-Nominal 396 397	目
+R8	Part-Whole Arg1:T58 Arg2:T56	
+T59	Person-Nominal 398 399	亲
+R9	Family Arg1:T59 Arg2:T56	
+T60	Person-Nominal 408 419	我们三个敖敖待哺的稚儿
+R10	Family Arg1:T60 Arg2:T56	
+T61	Person-Nominal 420 422	母亲
+T62	Person-Pronoun 428 429	她
+*	Coreference T62 T61
+T63	Location-Nominal 428 432	她的故乡
+T64	Location-Name 436 438	璧山
+*	Coreference T64 T63
+T65	Person-Pronoun 445 446	我
+T66	Person-Nominal 447 449	外婆
+T67	Person-Nominal 450 452	舅舅
+R11	Family Arg1:T66 Arg2:T65	
+R12	Family Arg1:T67 Arg2:T65	
+T68	Person-Nominal 453 455	母亲
+T69	Person-Pronoun 460 462	他们
+*	Coreference T69 T66 T67
+T70	Person-Pronoun 470 471	我
+T71	Person-Nominal 472 474	母亲
+T72	Location-Name 479 481	南充
+T73	Person-Nominal 485 487	父亲
+T74	Thing-Nominal 488 490	骸骨
+R13	Part-Whole Arg1:T74 Arg2:T73	
+T75	Location-Nominal 493 497	南充郊外
+R14	Near Arg1:T75 Arg2:T72	
+T76	Person-Nominal 499 501	母亲
+T77	Person-Pronoun 503 505	我们
+*	Coreference T77 T60 T94 T181
+T78	Location-Name 507 509	果城
+T79	Thing-Nominal 511 516	凛冽的寒风
+T80	Person-Pronoun 518 519	我
+T81	Person-Nominal 520 522	奶妈
+T82	Person-Pronoun 524 525	我
+T83	Thing-Nominal 524 528	我的小手
+R15	Part-Whole Arg1:T83 Arg2:T82	
+T84	Location-Nominal 531 535	嘉陵江边
+T85	Location-Nominal 536 539	码头上
+T86	Thing-Nominal 539 541	乌云
+R16	Near Arg1:T85 Arg2:T84	
+T87	Thing-Nominal 544 545	汽
+T88	Location-Name 531 533	嘉陵
+T89	Thing-Nominal 549 551	江水
+T90	Person-Pronoun 554 556	我们
+*	Coreference T90 T80 T81 T76
+T91	Thing-Nominal 563 565	客轮
+T92	Time-Implicit 568 582	一个多么令人心碎的悲伤的日子
+T93	Person-Nominal 588 590	母亲
+T94	Person-Pronoun 592 594	我们
+T95	Person-Nominal 594 599	唯一的亲人
+*	Coreference T95 T93
+T96	Person-Pronoun 600 602	我们
+T97	Person-Nominal 603 605	母亲
+T98	Person-Nominal 610 612	父亲
+T99	Person-Nominal 616 618	母亲
+T100	Person-Pronoun 630 631	她
+*	Coreference T100 T99
+T101	Person-Pronoun 649 651	我们
+T102	Time-Implicit 655 658	那时候
+T103	Person-Nominal 659 661	母亲
+T104	Location-Name 662 668	璧山丹凤小学
+T105	Organization-Nominal 671 673	学校
+*	Coreference T105 T104
+T106	Location-Nominal 676 678	破庙
+T107	Metric 674 676	一座
+T108	Person-Pronoun 684 689	我们一家人
+*	Coreference T97 T108 T96 T115 T122 T128 T230
+T109	Location-Nominal 692 698	狭窄的破庙屋
+T110	Time-Implicit 700 702	冬天
+T111	Thing-Nominal 707 709	北风
+T112	Thing-Nominal 710 711	门
+T113	Person-Nominal 715 716	人
+T114	Person-Nominal 721 723	母亲
+T115	Person-Nominal 741 746	全家四口人
+T116	Organization-Nominal 754 756	学校
+T117	Location-Nominal 758 762	教工食堂
+T118	Person-Nominal 765 767	教工
+R17	General-Special Arg1:T118 Arg2:T114	
+T119	Location-Nominal 769 771	食堂
+*	Coreference T119 T117
+T120	Person-Nominal 774 776	母亲
+T121	Person-Pronoun 783 784	她
+*	Coreference T121 T120
+T122	Person-Pronoun 793 795	我们
+T123	Person-Nominal 800 802	校长
+T124	Person-Nominal 803 808	一位女校长
+*	Coreference T124 T123 T127
+T125	Person-Nominal 810 812	母亲
+T126	Person-Nominal 820 822	女性
+R18	General-Special Arg1:T126 Arg2:T123	
+T127	Person-Pronoun 830 831	她
+T128	Person-Pronoun 836 840	我们自己
+T129	Thing-Nominal 843 844	饭
+T130	Person-Nominal 845 847	母亲
+T131	Thing-Nominal 850 851	脸
+R19	Part-Whole Arg1:T131 Arg2:T130	
+T132	Time-Implicit 859 861	而后
+T133	Person-Nominal 862 864	母亲
+T134	Thing-Nominal 867 869	箩筐
+T135	Metric 865 867	一个
+T136	Thing-Pronoun 870 872	自己
+R20	Part-Whole Arg1:T136 Arg2:T133	
+T137	Thing-Nominal 876 878	黄泥
+T138	Thing-Nominal 879 881	糠壳
+T139	Thing-Nominal 884 886	泥浆
+T140	Thing-Nominal 892 894	柴灶
+T141	Metric 890 892	一个
+R21	Part-Whole Arg1:T139 Arg2:T140	
+R22	Part-Whole Arg1:T137 Arg2:T139	
+R23	Part-Whole Arg1:T138 Arg2:T139	
+T142	Person-Pronoun 898 900	我们
+T143	Time-Implicit 911 914	那时候
+T144	Person-Nominal 915 917	母亲
+T145	Person-Pronoun 922 923	她
+T146	Time-Implicit 925 928	黎明前
+T147	Thing-Nominal 932 933	饭
+T148	Person-Pronoun 934 935	我
+T149	Time-Implicit 938 940	清晨
+T150	Thing-Nominal 945 947	眼睛
+R24	Part-Whole Arg1:T150 Arg2:T148	
+T151	Thing-Pronoun 950 951	她
+R25	Part-Whole Arg1:T151 Arg2:T144	
+*	Coreference T145 T144
+T152	Location-Nominal 952 953	灶
+T153	Thing-Nominal 955 956	火
+T154	Location-Nominal 957 958	灶
+T155	Thing-Nominal 960 961	米
+T156	Time-Implicit 962 965	有时侯
+T157	Person-Pronoun 966 967	她
+T158	Thing-Nominal 972 973	饭
+T159	Thing-Nominal 977 979	衣服
+T160	Person-Nominal 980 982	母亲
+T161	Thing-Nominal 983 984	火
+T162	Thing-Nominal 985 986	饭
+T163	Person-Pronoun 993 994	她
+T164	Location-Nominal 996 998	灶膛
+T165	Metric 1000 1003	一小把
+T166	Thing-Nominal 1003 1005	竹篾
+T167	Thing-Nominal 1007 1009	废纸
+T168	Thing-Nominal 1010 1011	火
+T169	Location-Nominal 1017 1019	灶膛
+T170	Metric 1022 1024	一根
+T171	Thing-Nominal 1024 1026	木柴
+R26	Located Arg1:T171 Arg2:T169	
+R27	Located Arg1:T166 Arg2:T164	
+T172	Thing-Nominal 1034 1039	横着的木柴
+*	Coreference T172 T171 T175 T174
+T173	Metric 1044 1046	两根
+T174	Thing-Nominal 1046 1049	短木柴
+T175	Thing-Nominal 1055 1060	每一根木柴
+T176	Time-Implicit 1076 1079	那时候
+T177	Person-Pronoun 1080 1081	我
+T178	Person-Nominal 1086 1088	母亲
+T179	Thing-Nominal 1094 1100	红焰焰的火苗
+T180	Thing-Nominal 1103 1105	木柴
+T181	Person-Pronoun 1122 1124	我们
+T182	Person-Nominal 1129 1131	姐姐
+T183	Person-Nominal 1133 1135	母亲
+T184	Thing-Nominal 1136 1137	火
+T185	Thing-Nominal 1138 1139	饭
+R28	Family Arg1:T182 Arg2:T183	
+R29	Part-Whole Arg1:T182 Arg2:T181	
+T186	Person-Pronoun 1140 1141	我
+T187	Person-Nominal 1142 1144	哥哥
+R30	Family Arg1:T187 Arg2:T186	
+R31	Family Arg1:T187 Arg2:T182	
+R32	Part-Whole Arg1:T186 Arg2:T181	
+R33	Part-Whole Arg1:T187 Arg2:T181	
+T188	Location-Nominal 1146 1148	田边
+T189	Location-Nominal 1148 1149	井
+R34	Near Arg1:T189 Arg2:T188	
+T190	Thing-Nominal 1151 1152	水
+T191	Metric 1155 1157	一个
+T192	Thing-Nominal 1157 1159	木桶
+T193	Thing-Nominal 1160 1161	水
+R35	Located Arg1:T193 Arg2:T192	
+T194	Thing-Nominal 1166 1167	饭
+T195	Person-Nominal 1168 1170	哥哥
+T196	Person-Pronoun 1171 1172	我
+T197	Person-Pronoun 1179 1180	我
+T198	Thing-Nominal 1183 1184	水
+T199	Location-Nominal 1187 1196	弯弯的湿淋淋的小路
+T200	Thing-Nominal 1198 1200	绳索
+T201	Thing-Nominal 1201 1203	扁担
+R36	Located Arg1:T200 Arg2:T201	
+T202	Thing-Nominal 1207 1209	水桶
+T203	Thing-Nominal 1218 1220	秋千
+T204	Time-Implicit 1223 1228	有一年冬天
+T205	Thing-Nominal 1229 1231	阴雨
+T206	Location-Nominal 1234 1236	道路
+T207	Thing-Pronoun 1239 1240	我
+T208	Location-Nominal 1249 1251	水田
+T209	Thing-Nominal 1255 1257	牙齿
+R37	Part-Whole Arg1:T207 Arg2:T209	
+T210	Person-Nominal 1262 1264	母亲
+T211	Person-Pronoun 1271 1272	我
+T212	Thing-Nominal 1275 1276;1277 1278	衣 服
+T213	Thing-Nominal 1281 1283	棉衣
+T214	Person-Pronoun 1286 1287	我
+T215	Location-Nominal 1291 1292	床
+T216	Location-Nominal 1297 1299	被窝
+T217	Person-Nominal 1301 1303	母亲
+T218	Thing-Nominal 1304 1306	棉衣
+T219	Metric 1312 1314	一只
+T220	Thing-Nominal 1314 1323	盛着炭火的大竹篾笼
+T221	Person-Pronoun 1326 1327	我
+T222	Time-Implicit 1330 1333	第二天
+T223	Person-Pronoun 1334 1335	我
+T224	Thing-Nominal 1340 1342	棉衣
+*	Coreference T224 T213
+T225	Person-Nominal 1346 1348	母亲
+T226	Person-Nominal 1355 1359	中国妇女
+R38	General-Special Arg1:T226 Arg2:T225	
+T227	Person-Pronoun 1365 1366	她
+*	Coreference T227 T225
+T228	Thing-Nominal 1367 1373	一双灵巧的手
+R39	Part-Whole Arg1:T228 Arg2:T227	
+T229	Time-Implicit 1374 1377	小时候
+T230	Person-Nominal 1378 1386	我们一家大人小孩
+T231	Thing-Nominal 1378 1389	我们一家大人小孩的衣服
+T232	Person-Nominal 1391 1393	母亲
+R40	Part-Whole Arg1:T231 Arg2:T230	
+T233	Person-Nominal 1397 1399	母亲
+T234	Person-Nominal 1401 1403	外婆
+R41	Family Arg1:T234 Arg2:T233	
+T235	Thing-Nominal 1404 1406	棉衣
+T236	Location-Nominal 1414 1418	当地农村
+T237	Person-Pronoun 1425 1426	我
+T238	Person-Pronoun 1436 1437	我
+T239	Time-Implicit 1438 1444	上初中的时候
+T240	Thing-Nominal 1450 1452	衣服
+T241	Time-Explicit 1458 1466	1961年的暑假
+T242	Person-Pronoun 1468 1469	我
+T243	Time-Explicit 1469 1474	小学毕业后
+*	Coreference T243 T241
+T244	Location-Name 1483 1487	来凤中学
+T245	Person-Nominal 1488 1490	母亲
+T246	Time-Implicit 1495 1497	昔日
+T247	Thing-Nominal 1497 1501	愁苦的脸
+R42	Part-Whole Arg1:T247 Arg2:T245	
+T248	Thing-Nominal 1505 1507	笑容
+R43	Located Arg1:T248 Arg2:T247	
+T249	Person-Pronoun 1508 1510	母亲
+T250	Person-Name 1513 1514	明
+*	Coreference T250 T242
+T251	Location-Name 1521 1525	来凤中学
+T252	Person-Nominal 1546 1550	裁缝师傅
+T253	Metric 1544 1546	一个
+T254	Thing-Nominal 1553 1555	衣服
+T255	Metric 1551 1553	一套
+T256	Person-Nominal 1560 1562	母亲
+T257	Location-Nominal 1563 1565	镇上
+T258	Thing-Nominal 1569 1571	兰布
+T259	Metric 1567 1569	两段
+T260	Metric 1574 1576	一个
+T261	Person-Nominal 1576 1580	农村师傅
+T262	Person-Pronoun 1581 1582	我
+T263	Metric 1584 1586	两件
+T264	Thing-Nominal 1586 1588	衣服
+T265	Metric 1590 1592	一条
+T266	Thing-Nominal 1592 1594	裤子
+T267	Thing-Nominal 1595 1599	一件衣服
+R44	Part-Whole Arg1:T267 Arg2:T264	
+T268	Thing-Nominal 1600 1603	青年服
+*	Coreference T268 T267
+T269	Person-Pronoun 1606 1607	我
+T270	Person-Nominal 1609 1611	别人
+T271	Metric 1625 1627	三个
+T272	Thing-Nominal 1625 1629	三个衣袋
+R45	Part-Whole Arg1:T272 Arg2:T268	
+T273	Thing-Nominal 1630 1635	左胸的袋口
+R46	Part-Whole Arg1:T273 Arg2:T272	
+T274	Thing-Nominal 1642 1644	钢笔
+R47	Located Arg1:T274 Arg2:T273	
+T275	Thing-Nominal 1652 1656	一个衣袋
+R48	Part-Whole Arg1:T275 Arg2:T272	
+T276	Thing-Nominal 1658 1660	袋盖
+T277	Thing-Nominal 1663 1665	东西
+T278	Time-Implicit 1670 1672	当时
+T279	Thing-Nominal 1680 1682	布料
+T280	Person-Nominal 1687 1695	家庭条件差的家长
+T281	Person-Nominal 1699 1701	孩子
+R49	Family Arg1:T281 Arg2:T280	
+T282	Person-Nominal 1708 1710	师傅
+*	Coreference T282 T261
+T283	Person-Pronoun 1715 1716	我
+T284	Thing-Nominal 1727 1729	双手
+R50	Part-Whole Arg1:T284 Arg2:T283	
+T285	Thing-Nominal 1731 1736	下面的衣袋
+R51	Located Arg1:T284 Arg2:T285	
+T286	Thing-Nominal 1739 1740	头
+T287	Thing-Nominal 1743 1744	胸
+R52	Part-Whole Arg1:T286 Arg2:T283	
+R53	Part-Whole Arg1:T287 Arg2:T283	
+T288	Person-Nominal 1749 1754	青年小伙子
+*	Coreference T288 T283
+T289	Time-Implicit 1758 1760	那时
+T290	Person-Pronoun 1760 1761	我
+T291	Time-Implicit 1762 1765	12岁
+T292	Thing-Nominal 1766 1770	一件衣服
+R54	Part-Whole Arg1:T292 Arg2:T264	
+T293	Time-Implicit 1773 1775	当时
+T294	Thing-Nominal 1780 1782	夏布
+T295	Thing-Nominal 1785 1787	麻布
+T296	Thing-Nominal 1790 1792	衬衣
+T297	Person-Nominal 1794 1796	母亲
+T298	Thing-Nominal 1797 1799	蚊帐
+T299	Thing-Nominal 1804 1806	夏布
+T300	Person-Pronoun 1818 1819	我
+T301	Time-Implicit 1825 1827	夏天
+T302	Thing-Nominal 1845 1847	裤子
+T303	Thing-Nominal 1847 1848	布
+R55	Part-Whole Arg1:T303 Arg2:T302	
+T304	Thing-Nominal 1853 1855	帆布
+T305	Thing-Nominal 1860 1862	裤腰
+R56	Part-Whole Arg1:T305 Arg2:T302	
+T306	Thing-Nominal 1872 1873	腰
+R57	Part-Whole Arg1:T306 Arg2:T300	
+T307	Person-Nominal 1882 1884	母亲
+T308	Thing-Nominal 1887 1888	鞋
+T309	Thing-Nominal 1889 1891	布鞋
+T310	Thing-Nominal 1892 1894	棉鞋
+R58	General-Special Arg1:T309 Arg2:T308	
+R59	General-Special Arg1:T310 Arg2:T308	
+T311	Thing-Nominal 1896 1899	方口鞋
+T312	Thing-Nominal 1900 1903	圆口鞋
+R60	General-Special Arg1:T311 Arg2:T308	
+R61	General-Special Arg1:T312 Arg2:T308	
+T313	Person-Nominal 1907 1914	我们一家四口人
+T314	Thing-Nominal 1915 1916	鞋
+T315	Person-Pronoun 1918 1919	她
+*	Coreference T315 T307
+T316	Person-Nominal 1922 1924	母亲
+T317	Thing-Nominal 1926 1928	鞋底
+T318	Thing-Nominal 1936 1937	针
+T319	Thing-Nominal 1951 1953	星星
+T320	Thing-Nominal 1954 1955;1956 1958	鞋 底腰
+T321	Thing-Nominal 1964 1968	织布的梭
+T322	Thing-Nominal 1981 1984	小船仓
+T323	Thing-Nominal 1988 1991	仙人掌
+T324	Thing-Nominal 1992 1994	棉鞋
+T325	Thing-Nominal 1994 1996	鞋面
+T326	Thing-Nominal 1969 1971	鞋口
+T327	Metric 1997 1999	两块
+T328	Metric 1877 1879	一圈
+T329	Thing-Nominal 1999 2001	鞋帮
+T330	Thing-Nominal 2008 2010	棉花
+T331	Thing-Nominal 2019 2021	脚背
+T332	Metric 2023 2025	一道
+T333	Thing-Nominal 2025 2026	棱
+T334	Thing-Nominal 1879 1881	肉痕
+T335	Thing-Nominal 2031 2033	棉线
+T336	Thing-Nominal 2037 2038	结
+T337	Metric 2035 2037	一个
+T338	Metric 2040 2042	一粒
+T339	Thing-Nominal 2042 2044	豆子
+T340	Person-Pronoun 2045 2046	我
+T341	Time-Implicit 2046 2050	上中学时
+T342	Person-Nominal 2051 2053	母亲
+R62	Family Arg1:T342 Arg2:T340	
+T343	Person-Pronoun 2055 2056	我
+T344	Thing-Nominal 2059 2061	草鞋
+T345	Thing-Nominal 2073 2076	布凉鞋
+*	Coreference T345 T344
+T346	Thing-Nominal 2066 2068	草鞋
+T347	Thing-Nominal 2082 2084	布鞋
+T348	Thing-Nominal 2089 2091	布带
+T349	Metric 2093 2095	七个
+T350	Thing-Nominal 2095 2097	鞋耳
+T351	Metric 2099 2101	一条
+T352	Thing-Nominal 2101 2102	带
+T353	Thing-Nominal 2107 2109	脚髁
+T354	Thing-Nominal 2113 2115	草鞋
+T355	Person-Nominal 2120 2122	母亲
+T356	Person-Pronoun 2124 2125	我
+T357	Thing-Nominal 2137 2138;2139 2140	草 鞋
+T358	Thing-Nominal 2149 2150	汗
+T359	Person-Pronoun 2155 2156	我
+T360	Thing-Pronoun 2158 2159	它
+*	Coreference T360 T357
+T361	Thing-Nominal 2174 2175	钱
+T362	Person-Pronoun 2176 2178	我们
+T363	Thing-Nominal 2180 2182	衣服
+T364	Person-Pronoun 2185 2187	母亲
+R63	Family Arg1:T364 Arg2:T362	
+T365	Thing-Nominal 2189 2190	布
+T366	Metric 2209 2211	三年
+T367	Metric 2213 2215	三年
+T368	Time-Implicit 2225 2228	几年后
+T369	Metric 2229 2231	一件
+T370	Thing-Nominal 2231 2234	新衣服
+T371	Thing-Nominal 2237 2240	旧衣服
+T372	Thing-Nominal 2241 2243	内衣
+*	Coreference T372 T371
+T373	Person-Nominal 2263 2265	别人
+T374	Person-Nominal 2272 2274	母亲
+T375	Metric 2284 2286	每月
+T376	Metric 2288 2292	三十来块
+T377	Thing-Nominal 2292 2293	钱
+T378	Person-Pronoun 2297 2298	她
+T379	Metric 2305 2309	六、七元
+T380	Location-Nominal 2311 2313	银行
+T381	Metric 2315 2319	二十来块
+T382	Thing-Nominal 2319 2320	钱
+T383	Person-Nominal 2322 2325	一家人
+T384	Thing-Nominal 2333 2334	油
+T385	Thing-Nominal 2334 2335	盐
+T386	Thing-Nominal 2335 2336	柴
+T387	Thing-Nominal 2336 2337	米
+T388	Metric 2340 2342	几块
+T389	Thing-Nominal 2342 2343	钱
+T390	Thing-Nominal 2344 2345	菜
+T391	Person-Nominal 2353 2355	母亲
+T392	Metric 2359 2362	几百元
+T393	Thing-Nominal 2362 2363	钱
+T394	Time-Implicit 2365 2371	那艰难的岁月
+T395	Person-Nominal 2380 2382	母亲
+T396	Thing-Nominal 2383 2384	钱
+T397	Person-Pronoun 2388 2389	她
+*	Coreference T397 T395
+T398	Metric 2396 2398	一分
+T399	Thing-Nominal 2398 2399	钱
+T400	Metric 2401 2403	两分
+T401	Thing-Nominal 2403 2404	钱
+T402	Person-Pronoun 2408 2409	她
+T403	Thing-Nominal 2410 2412	东西
+T404	Thing-Nominal 2424 2425	物
+T405	Location-Nominal 2428 2430	市场
+T406	Thing-Nominal 2432 2433	菜
+T407	Person-Pronoun 2434 2435	她
+T408	Person-Nominal 2456 2458	母亲
+T409	Thing-Nominal 2466 2468	蔬菜
+T410	Thing-Nominal 2475 2477	蔬菜
+T411	Time-Implicit 2484 2487	那时候
+T412	Person-Pronoun 2488 2490	我们
+T413	Thing-Nominal 2493 2495	蔬菜
+T414	Thing-Nominal 2496 2498	萝卜
+T415	Thing-Nominal 2499 2501	白菜
+T416	Thing-Nominal 2502 2504	豇豆
+T417	Thing-Nominal 2505 2507	茄子
+T418	Thing-Nominal 2508 2511	空心菜
+R64	General-Special Arg1:T414 Arg2:T413	
+R65	General-Special Arg1:T415 Arg2:T413	
+R66	General-Special Arg1:T416 Arg2:T413	
+R67	General-Special Arg1:T417 Arg2:T413	
+R68	General-Special Arg1:T418 Arg2:T413	
+T419	Time-Explicit 2512 2515;2516 2523	我国三 年自然灾害期间
+T420	Person-Nominal 2524 2526	母亲
+T421	Person-Pronoun 2529 2531	我们
+T422	Location-Nominal 2532 2534	学校
+T423	Thing-Nominal 2539 2540	菜
+T424	Time-Explicit 2541 2544	那时候
+*	Coreference T424 T419
+T425	Person-Pronoun 2545 2547	我们
+T426	Metric 2549 2551	两个
+T427	Thing-Nominal 2551 2553	泡菜
+T428	Metric 2563 2566	几十斤
+T429	Thing-Nominal 2566 2568	咸菜
+T430	Time-Implicit 2569 2571	冬天
+T431	Thing-Nominal 2572 2574	萝卜
+T432	Thing-Nominal 2575 2576;2577 2578	青 菜
+T433	Time-Implicit 2579 2581	夏天
+T434	Thing-Nominal 2582 2584	豇豆
+T435	Thing-Nominal 2585 2587	辣椒
+T436	Thing-Nominal 2593 2595	稀饭
+T437	Thing-Nominal 2590 2592	早餐
+T438	Thing-Nominal 2596 2598	咸菜
+T439	Person-Pronoun 2603 2605	我们
+T440	Metric 2614 2617	几十年
+T441	Person-Nominal 2618 2620	母亲
+T442	Time-Implicit 2631 2633	中午
+T443	Thing-Nominal 2638 2640	肚子
+R69	Part-Whole Arg1:T443 Arg2:T441	
+T444	Time-Implicit 2643 2645	晚上
+T445	Thing-Nominal 2649 2650	饭
+T446	Time-Explicit 2651 2654	六一年
+T447	Person-Pronoun 2663 2665	我们
+T448	Thing-Nominal 2667 2669	野菜
+T449	Person-Nominal 2671 2673	母亲
+T450	Metric 2674 2678	二、三两
+T451	Thing-Nominal 2678 2679	米
+T452	Thing-Nominal 2681 2682	面
+T453	Thing-Nominal 2685 2689	野菜饽饽
+T454	Thing-Nominal 2690 2692	野菜
+T455	Person-Nominal 2697 2698;2699 2700	母 亲
+T456	Person-Pronoun 2722 2724	我们
+T457	Thing-Nominal 2728 2732	野菜饽饽
+T458	Time-Explicit 2736 2745	生活那么困难的灾年
+*	Coreference T458 T446 T460
+T459	Person-Nominal 2746 2748	母亲
+T460	Time-Explicit 2756 2758	那年
+T461	Metric 2762 2765	几十斤
+T462	Thing-Nominal 2765 2767	大米
+T463	Person-Pronoun 2768 2769	我
+T464	Thing-Nominal 2771 2774	购粮本
+T465	Person-Nominal 2783 2785	母亲
+T466	Person-Pronoun 2789 2791	我们
+T467	Person-Pronoun 2803 2804	她
+*	Coreference T467 T465
+T468	Metric 2806 2808	一分
+T469	Thing-Nominal 2808 2809	钱
+T470	Person-Pronoun 2818 2819	她
+T471	Person-Pronoun 2824 2826	我们
+T472	Person-Pronoun 2832 2833	她
+T473	Person-Nominal 2837 2839	孩子
+*	Coreference T473 T471
+T474	Person-Pronoun 2859 2861	我们
+T475	Thing-Nominal 2863 2864	肉
+T476	Thing-Nominal 2866 2867	鱼
+T477	Thing-Nominal 2868 2869	肉
+T478	Thing-Nominal 2872 2874	猪肉
+R70	General-Special Arg1:T478 Arg2:T477	
+T479	Person-Nominal 2875 2877	母亲
+T480	Thing-Nominal 2880 2882	肥肉
+T481	Person-Pronoun 2883 2884	她
+T482	Thing-Nominal 2885 2887	肥肉
+T483	Thing-Nominal 2890 2891	油
+T484	Thing-Nominal 2900 2902	肚子
+T485	Thing-Nominal 2906 2908	肉食
+T486	Thing-Nominal 2915 2917	猪肉
+T487	Thing-Nominal 2927 2929	蒜苗
+T488	Thing-Nominal 2930 2932	青椒
+T489	Thing-Nominal 2933 2936	回锅肉
+T490	Thing-Nominal 2940 2941	肉
+T491	Thing-Nominal 2943 2948	长方体萝卜
+*	Coreference T491 T490
+T492	Time-Implicit 2949 2953	逢年过节
+T493	Person-Nominal 2954 2956	母亲
+T494	Metric 2959 2961	一碗
+T495	Thing-Nominal 2961 2964	肉片汤
+T496	Metric 2967 2969	一斤
+T497	Thing-Nominal 2969 2970	鱼
+T498	Person-Nominal 2971 2973	母亲
+T499	Thing-Nominal 2975 2976	鱼
+T500	Thing-Nominal 2980 2982	暴雨
+T501	Thing-Nominal 2983 2985	小河
+T502	Thing-Nominal 2986 2987	水
+T503	Location-Nominal 2988 2990	市场
+T504	Thing-Nominal 2995 2996	鱼
+T505	Person-Nominal 2998 3000	母亲
+T506	Thing-Nominal 3004 3005	鱼
+T507	Person-Pronoun 3007 3008	她
+T508	Thing-Nominal 3011 3013	小鱼
+T509	Metric 3015 3017	两个
+T510	Thing-Nominal 3017 3019	指头
+T511	Time-Implicit 3021 3023	有时
+T512	Thing-Nominal 3028 3029	鱼
+T513	Person-Nominal 3037 3039	母亲
+T514	Thing-Nominal 3040 3041	鱼
+T515	Thing-Nominal 3049 3051	菜油
+T516	Thing-Nominal 3053 3055	铁锅
+T517	Thing-Nominal 3057 3058	鱼
+T518	Thing-Nominal 3060 3061	锅
+T519	Thing-Nominal 3066 3067	火
+T520	Thing-Nominal 3072 3074	小鱼
+T521	Time-Implicit 3083 3085	秋天
+T522	Thing-Nominal 3092 3096	黄色树叶
+T523	Person-Nominal 3099 3101	母亲
+T524	Metric 3102 3104	一碗
+T525	Thing-Nominal 3104 3109	切碎的泡菜
+T526	Thing-Nominal 3110 3113	泡辣椒
+T527	Thing-Nominal 3114 3116	泡姜
+T528	Thing-Nominal 3117 3118	鱼
+T529	Thing-Nominal 3120 3121	鱼
+T530	Person-Nominal 3123 3125	母亲
+T531	Thing-Nominal 3128 3130	鱼碗
+T532	Thing-Nominal 3131 3132	鱼
+T533	Metric 3132 3134	一条
+T534	Person-Pronoun 3139 3141	我们
+T535	Thing-Nominal 3141 3143	饭碗
+T536	Person-Pronoun 3146 3147	她
+T537	Thing-Nominal 3152 3153	鱼
+T538	Thing-Nominal 3154 3156	咸菜
+T539	Person-Pronoun 3157 3159	我们
+T540	Thing-Nominal 3165 3167	杂草
+*	Coreference T540 T538
+T541	Person-Pronoun 3169 3171	我们
+T542	Thing-Nominal 3178 3179	鱼
+T543	Thing-Nominal 3181 3183	鱼碗
+T544	Person-Nominal 3185 3187	母亲
+T545	Thing-Nominal 3191 3192	鱼
+T546	Person-Pronoun 3196 3198	我们
+T547	Person-Pronoun 3199 3201	我们
+T548	Person-Nominal 3214 3216	母亲
+T549	Person-Pronoun 3221 3222	我
+*	Coreference T549 T548
+T550	Thing-Nominal 3223 3225	鱼头
+T551	Thing-Nominal 3226 3228	鱼头
+T552	Thing-Nominal 3228 3229	刺
+T553	Person-Pronoun 3231 3233	你们
+*	Coreference T553 T547
+T554	Thing-Nominal 3240 3241	喉
+R71	Part-Whole Arg1:T554 Arg2:T553	
+T555	Person-Pronoun 3246 3248	我们
+T556	Thing-Nominal 3250 3251	鱼
+T557	Person-Nominal 3254 3256	母亲
+T558	Thing-Nominal 3257 3259	鱼头
+T559	Thing-Nominal 3261 3263	杂草
+T560	Metric 3268 3270	一条
+T561	Thing-Nominal 3271 3273	小鱼
+T562	Person-Pronoun 3274 3276	我们
+T563	Thing-Nominal 3284 3286	兔肉
+T564	Time-Implicit 3289 3292	小时候
+T565	Person-Pronoun 3293 3295	我们
+T566	Location-Nominal 3296 3300	丹凤小学
+T567	Time-Implicit 3301 3303	晚上
+T568	Thing-Nominal 3306 3310	大方桌子
+T569	Thing-Nominal 3313 3322	豆大的昏黄的煤油灯
+T570	Thing-Nominal 3324 3325	书
+T571	Thing-Nominal 3326 3327	字
+T572	Time-Implicit 3328 3331	有时侯
+T573	Person-Nominal 3333 3335	母亲
+T574	Person-Pronoun 3337 3339	我们
+T575	Location-Nominal 3346 3347	街
+T576	Metric 3349 3352	一小碟
+T577	Thing-Nominal 3352 3356	卤豆腐干
+T578	Metric 3357 3360	五分钱
+T579	Person-Pronoun 3362 3364	我们
+T580	Metric 3365 3368	一点点
+T581	Person-Pronoun 3371 3373	我们
+T582	Person-Nominal 3381 3383	母亲
+T583	Location-Nominal 3390 3392	街上
+T584	Metric 3395 3397	一碟
+T585	Thing-Nominal 3397 3400	卤兔肉
+T586	Metric 3402 3404	两只
+T587	Thing-Nominal 3404 3407	卤兔头
+T588	Metric 3411 3413	一角
+T589	Thing-Nominal 3413 3414	钱
+T590	Person-Nominal 3415 3417	母亲
+T591	Person-Pronoun 3424 3426	我们
+T592	Person-Pronoun 3432 3434	我们
+T593	Thing-Nominal 3436 3437	嘴
+R72	Part-Whole Arg1:T593 Arg2:T592	
+T594	Person-Pronoun 3439 3440	她
+*	Coreference T594 T590
+T595	Person-Pronoun 3444 3446	我们
+T596	Thing-Nominal 3450 3451	手
+R73	Part-Whole Arg1:T596 Arg2:T595	
+T597	Person-Nominal 3452 3453;3454 3455	别 人
+T598	Thing-Nominal 3456 3458	东西
+T599	Thing-Nominal 3461 3463	东西
+T600	Time-Implicit 3473 3476	那时候
+T601	Person-Pronoun 3477 3479	我们
+T602	Time-Implicit 3479 3481	暑假
+T603	Location-Nominal 3483 3485	农村
+T604	Person-Nominal 3485 3487	外婆
+R74	Family Arg1:T604 Arg2:T601	
+T605	Person-Pronoun 3489 3491	我们
+T606	Thing-Nominal 3495 3497	豆腐
+T607	Time-Implicit 3500 3503	有一次
+T608	Person-Nominal 3504 3506	母亲
+T609	Location-Nominal 3508 3510	璧山
+T610	Time-Implicit 3511 3514	临走时
+T611	Thing-Nominal 3519 3521	午饭
+T612	Person-Nominal 3522 3524	舅舅
+R75	Family Arg1:T612 Arg2:T601	
+T613	Person-Nominal 3527 3532	你们三姊妹
+*	Coreference T613 T601
+T614	Person-Nominal 3533 3535	外婆
+T615	Thing-Nominal 3538 3540	豆腐
+T616	Person-Pronoun 3543 3545	我们
+T617	Person-Pronoun 3551 3552	我
+T618	Person-Pronoun 3553 3555	哥哥
+R76	Part-Whole Arg1:T617 Arg2:T616	
+R77	Part-Whole Arg1:T618 Arg2:T616	
+R78	Family Arg1:T618 Arg2:T617	
+T619	Person-Nominal 3557 3560	推磨手
+*	Coreference T617 T619 T618
+T620	Person-Pronoun 3561 3563	我们
+T621	Thing-Nominal 3568 3569	胸
+R79	Part-Whole Arg1:T621 Arg2:T620	
+T622	Thing-Nominal 3576 3579	磨手柄
+T623	Thing-Nominal 3582 3584	臂膀
+R80	Part-Whole Arg1:T623 Arg2:T620	
+T624	Thing-Nominal 3590 3592	豆腐
+T625	Thing-Nominal 3595 3596	手
+T626	Thing-Nominal 3597 3598	臂
+R81	Part-Whole Arg1:T625 Arg2:T620	
+R82	Part-Whole Arg1:T626 Arg2:T620	
+T627	Thing-Nominal 3601 3602	头
+R83	Part-Whole Arg1:T627 Arg2:T620	
+T628	Thing-Nominal 3603 3604	汗
+T629	Thing-Nominal 3616 3618	蜜糖
+T630	Thing-Nominal 3624 3626	豆浆
+T631	Thing-Nominal 3631 3632	锅
+T632	Thing-Nominal 3640 3642	石膏
+T633	Thing-Nominal 3653 3655	豆腐
+T634	Person-Pronoun 3656 3658	我们
+T635	Thing-Nominal 3661 3662	嘴
+T636	Thing-Nominal 3663 3664	舌
+R84	Part-Whole Arg1:T635 Arg2:T634	
+R85	Part-Whole Arg1:T636 Arg2:T634	
+T637	Person-Nominal 3668 3670	母亲
+T638	Person-Pronoun 3675 3677	我们
+T639	Person-Pronoun 3686 3688	我们
+T640	Location-Nominal 3695 3697;3698 3701	院后 的山洼
+T641	Location-Nominal 3708 3710	璧山
+T642	Location-Nominal 3711 3715	山坡小路
+T643	Person-Nominal 3721 3723	母亲
+T644	Person-Pronoun 3761 3763	我们
+T645	Time-Implicit 3774 3779	下午3点钟
+T646	Person-Nominal 3783 3785	母亲
+T647	Location-Nominal 3790 3793	山坡上
+T648	Person-Pronoun 3797 3799	我们
+T649	Person-Nominal 3815 3817	外婆
+T650	Person-Nominal 3824 3826	母亲
+T651	Person-Pronoun 3835 3836	我
+T652	Person-Pronoun 3843 3844	我
+T653	Person-Pronoun 3855 3856	我
+T654	Time-Implicit 3856 3860	读高小时
+T655	Metric 3861 3864	11岁
+T656	Person-Nominal 3869 3875	农村大伯阿姨
+T657	Metric 3876 3879	十几里
+T658	Location-Nominal 3882 3884;3885 3886	燃灯 山
+T659	Location-Nominal 3891 3893	镇上
+T660	Thing-Nominal 3888 3889	煤
+T661	Thing-Nominal 3897 3898	煤
+T662	Location-Nominal 3900 3902	街上
+T663	Thing-Nominal 3907 3908	钱
+T664	Time-Implicit 3910 3912	开学
+T665	Time-Explicit 3916 3924	三年自然灾害期间
+T666	Time-Implicit 3925 3928	节假日
+T667	Person-Pronoun 3928 3929	我
+T668	Person-Nominal 3930 3932	姐姐
+R86	Family Arg1:T668 Arg2:T667	
+T669	Person-Nominal 3933 3937	农村青年
+T670	Location-Nominal 3941 3943	大山
+T671	Thing-Nominal 3947 3948	柴
+T672	Thing-Nominal 3959 3961	双手
+T673	Thing-Nominal 3962 3965	松树皮
+*	Coreference T673 T672
+T674	Time-Implicit 3970 3974	上中学后
+T675	Location-Nominal 3977 3979	学校
+T676	Time-Implicit 3980 3982	周末
+T677	Location-Nominal 3985 3987	床沿
+T678	Thing-Nominal 3989 3991	衣服
+T679	Thing-Nominal 3995 3996	手
+T680	Thing-Nominal 3999 4000	针
+T681	Thing-Nominal 4013 4015	衣服
+T682	Thing-Nominal 4017 4019	破洞
+R87	Located Arg1:T682 Arg2:T681	
+T683	Thing-Nominal 4021 4023	补丁
+T684	Thing-Nominal 4039 4041	补丁
+T685	Thing-Nominal 4050 4052	针路
+T686	Thing-Nominal 4072 4075	黑蚂蚁
+T687	Person-Nominal 4077 4079	知青
+T688	Person-Pronoun 4097 4098	我
+T689	Person-Nominal 4100 4102	木匠
+T690	Person-Nominal 4104 4106	缝纫
+T691	Person-Nominal 4108 4111	砖瓦工
+T692	Location-Nominal 4130 4134	海港洋场
+T693	Person-Pronoun 4137 4138	我
+T694	Person-Nominal 4140 4142	宾客
+T695	Thing-Nominal 4144 4149	豪华的轿车
+T696	Location-Nominal 4152 4157	宽阔的道路
+T697	Person-Pronoun 4159 4160	我
+T698	Person-Nominal 4163 4165	母亲
+T699	Person-Pronoun 4166 4167	我
+T700	Thing-Nominal 4177 4179	草鞋
+T701	Thing-Nominal 4187 4189	棉鞋
+T702	Person-Pronoun 4193 4194	我
+T703	Person-Nominal 4196 4198	客人
+T704	Location-Nominal 4200 4207	富丽堂皇的酒楼
+T705	Thing-Nominal 4210 4214	山珍海味
+T706	Thing-Nominal 4215 4219	美酒金杯
+T707	Person-Pronoun 4223 4224	我
+T708	Person-Nominal 4227 4229	母亲
+T709	Thing-Nominal 4235 4237	杂草
+T710	Thing-Nominal 4240 4241	鱼
+T711	Metric 4243 4245	一碟
+T712	Thing-Nominal 4245 4248	卤豆干
+T713	Thing-Nominal 4249 4250;4251 4253	卤 兔肉
+T714	Person-Pronoun 4254 4255	我
+T715	Thing-Nominal 4259 4260	泪
+R88	Part-Whole Arg1:T715 Arg2:T714	
+T716	Person-Nominal 4262 4264	母亲
+T717	Person-Nominal 4268 4270	母亲
+T718	Person-Pronoun 4271 4272	我
+T719	Person-Pronoun 4278 4279	你
+*	Coreference T719 T716
+T720	Person-Nominal 4288 4290	母亲
+T721	Person-Nominal 4302 4304	母亲
+T722	Person-Nominal 4335 4337	母亲
+T723	Person-Pronoun 4296 4297	我
+T724	Thing-Nominal 4311 4312	药
+T725	Person-Pronoun 4313 4314	她
+*	Coreference T725 T721
+T726	Location-Nominal 4315 4322	床边木方桌子上
+T727	Thing-Nominal 4325 4327	药包
+T728	Thing-Nominal 4328 4330	药瓶
+T729	Location-Name 4338 4346	正兴乡卫寺村小学
+T730	Time-Implicit 4350 4355	星期六下午
+T731	Location-Name 4357 4361	正兴完小
+*	Coreference T731 T729
+T732	Thing-Nominal 4374 4376	中药
+T733	Person-Nominal 4377 4379	母亲
+T734	Time-Implicit 4386 4388	夜里
+T735	Person-Pronoun 4391 4392	她
+*	Coreference T735 T733
+T736	Thing-Nominal 4393 4394	手
+T737	Thing-Nominal 4396 4398	胸口
+R89	Part-Whole Arg1:T736 Arg2:T735	
+R90	Part-Whole Arg1:T737 Arg2:T735	
+T738	Thing-Nominal 4400 4401	手
+T739	Thing-Nominal 4403 4405	作业
+T740	Time-Implicit 4406 4408	有时
+T741	Thing-Nominal 4412 4413	床
+T742	Person-Nominal 4422 4424	母亲
+T743	Person-Pronoun 4430 4432	我们
+T744	Thing-Nominal 4435 4441	热锅上的蚂蚁
+T745	Person-Nominal 4463 4465	母亲
+T746	Person-Nominal 4469 4470;4471 4472	别 人
+T747	Thing-Nominal 4481 4486	白蜡粉蒸蛋
+T748	Thing-Nominal 4488 4489	心
+T749	Person-Nominal 4500 4502	母亲
+T750	Person-Nominal 4527 4529	母亲
+T751	Person-Nominal 4577 4579	母亲
+T752	Time-Implicit 4502 4504	半夜
+T753	Time-Implicit 4518 4520	那时
+T754	Person-Pronoun 4521 4523	我们
+T755	Person-Pronoun 4538 4539	她
+*	Coreference T755 T750 T757
+T756	Person-Pronoun 4540 4542	我们
+T757	Person-Nominal 4542 4547	唯一的亲人
+T758	Person-Pronoun 4550 4551	她
+T759	Person-Pronoun 4562 4564	我们
+T760	Thing-Nominal 4567 4570	路边草
+T761	Thing-Nominal 4571 4574	水中萍
+T762	Time-Implicit 4588 4592	一到冬天
+T763	Person-Pronoun 4594 4595	她
+T764	Metric 4606 4608	一个
+T765	Person-Nominal 4619 4621	母亲
+T766	Person-Pronoun 4631 4632	她
+T767	Person-Pronoun 4645 4646	她
+T768	Person-Nominal 4676 4678	阿姨
+T769	Metric 4674 4676	一个
+T770	Thing-Nominal 4681 4685	一种水鸟
+T771	Thing-Nominal 4689 4691	翠鸟
+*	Coreference T771 T770
+T772	Thing-Nominal 4693 4695	唾液
+R91	Part-Whole Arg1:T772 Arg2:T770	
+T773	Thing-Nominal 4696 4697	蛋
+T774	Thing-Nominal 4699 4701	气管
+T775	Person-Pronoun 4706 4708	我们
+T776	Location-Nominal 4717 4722	家乡的小河
+T777	Thing-Nominal 4723 4725	翠鸟
+T778	Time-Implicit 4741 4743	后来
+T779	Person-Nominal 4744 4746	母亲
+T780	Person-Nominal 4773 4775	母亲
+T781	Person-Pronoun 4757 4759	我们
+T782	Person-Pronoun 4763 4764	她
+*	Coreference T782 T779
+T783	Person-Pronoun 4784 4785	她
+T784	Thing-Nominal 4787 4788	药
+T785	Time-Implicit 4800 4802	而今
+T786	Person-Nominal 4803 4805	母亲
+T787	Person-Pronoun 4819 4820	她
+T788	Thing-Nominal 4823 4825	骨质
+T789	Time-Implicit 4828 4830	冬天
+T790	Thing-Nominal 4838 4841	支气管
+T791	Person-Nominal 4844 4846	母亲
+T792	Person-Pronoun 4852 4853	我
+T793	Person-Pronoun 4854 4855	她
+T794	Person-Pronoun 4861 4862	我
+*	Coreference T787 T786 T798
+T795	Person-Name 4866 4868	孔子
+T796	Thing-Nominal 4871 4873	父母
+T797	Person-Pronoun 4880 4881	我
+T798	Person-Pronoun 4893 4894	她
+T799	Thing-Nominal 4902 4903	药
+T800	Person-Pronoun 4906 4907	我
+T801	Person-Pronoun 4911 4912	我
+T802	Person-Nominal 4923 4925	母亲
+T803	Person-Pronoun 4928 4930	我们
+T804	Person-Pronoun 4940 4941	我
+T805	Person-Nominal 4949 4951	母亲
+T806	Person-Nominal 4965 4967	母亲
+T807	Person-Nominal 4971 4973	母亲
+T808	Person-Nominal 4977 4979	母亲
+T809	Person-Pronoun 4986 4987	她
+*	Coreference T809 T808
+T810	Person-Pronoun 5000 5001	她
+T811	Thing-Nominal 5018 5019	山
+T812	Thing-Nominal 5020 5021	水
+T813	Time-Implicit 5022 5024	晚年
+T814	Location-Name 5026 5028	成都
+T815	Thing-Nominal 5032 5034	电视
+T816	Location-Name 5040 5043	峨眉山
+T817	Location-Name 5044 5046	乐山
+T818	Person-Pronoun 5050 5051	她
+T819	Person-Nominal 5075 5077	母亲
+T820	Person-Pronoun 5079 5081	自己
+*	Coreference T820 T819
+T821	Person-Nominal 5082 5084	儿女
+T822	Person-Pronoun 5089 5090	我
+R92	Part-Whole Arg1:T822 Arg2:T821	
+R93	Family Arg1:T821 Arg2:T819	
+T823	Time-Implicit 5091 5094	小时候
+T824	Thing-Nominal 5098 5101	水果糖
+T825	Person-Nominal 5102 5107	全家四口人
+T826	Person-Nominal 5112 5114	母亲
+T827	Person-Pronoun 5117 5118	她
+T828	Person-Pronoun 5122 5123	我
+T829	Person-Pronoun 5124 5126	我们
+T830	Time-Implicit 5126 5129	有时侯
+T831	Thing-Nominal 5129 5131	晚餐
+T832	Thing-Nominal 5132 5134	面条
+T833	Person-Pronoun 5136 5137	我
+T834	Person-Nominal 5138 5140	哥哥
+R94	Family Arg1:T834 Arg2:T833	
+T835	Thing-Nominal 5141 5142	面
+T836	Thing-Nominal 5144 5146	大碗
+T837	Person-Nominal 5147 5149	姐姐
+T838	Person-Nominal 5154 5156	母亲
+T839	Person-Nominal 5161 5163	母亲
+T840	Person-Nominal 5187 5189	母亲
+T841	Thing-Nominal 5151 5153	中碗
+T842	Thing-Nominal 5158 5160	小碗
+T843	Person-Pronoun 5165 5166	我
+T844	Person-Pronoun 5172 5173	我
+T845	Person-Nominal 5191 5193	别人
+T846	Person-Pronoun 5197 5198	我
+T847	Person-Pronoun 5215 5216	我
+T848	Person-Pronoun 5235 5236	我
+T849	Time-Implicit 5236 5240	读高小时
+T850	Time-Implicit 5198 5201	小时候
+T851	Thing-Nominal 5242 5245	黑板报
+T852	Time-Implicit 5246 5248	有时
+T853	Person-Pronoun 5248 5249	我
+T854	Person-Pronoun 5251 5252	她
+T855	Person-Pronoun 5260 5261	我
+T856	Person-Pronoun 5271 5272	我
+T857	Person-Nominal 5274 5276	母亲
+T858	Person-Pronoun 5281 5282	她
+*	Coreference T858 T857
+T859	Person-Pronoun 5286 5287	她
+T860	Thing-Nominal 5291 5295	我们的心
+T861	Thing-Nominal 5297 5301	母亲的心
+T862	Person-Pronoun 5307 5308	我
+T863	Time-Implicit 5316 5318;5319 5321	中学 时代
+T864	Time-Implicit 5322 5327	星期六下午
+T865	Person-Pronoun 5327 5328	我
+T866	Person-Nominal 5334 5336	母亲
+T867	Location-Nominal 5339 5345	家门前的大路
+T868	Person-Pronoun 5348 5349	我
+T869	Person-Nominal 5359 5361	游子
+*	Coreference T869 T868
+T870	Time-Implicit 5362 5365	星期天
+T871	Person-Pronoun 5366 5367	她
+T872	Thing-Nominal 5390 5392	猪肉
+T873	Time-Implicit 5393 5395	中午
+T874	Thing-Nominal 5396 5397	饭
+T875	Person-Pronoun 5398 5399	她
+T876	Thing-Nominal 5401 5403	筷子
+T877	Thing-Nominal 5404 5407	回锅肉
+T878	Location-Nominal 5413 5417	我的饭碗
+T879	Person-Pronoun 5420 5421	我
+T880	Time-Implicit 5428 5430	有时
+T881	Person-Pronoun 5434 5435	她
+T882	Thing-Nominal 5444 5445	肉
+T883	Location-Nominal 5447 5451	我的饭碗
+T884	Person-Pronoun 5453 5454	我
+T885	Person-Pronoun 5458 5459	她
+T886	Thing-Nominal 5465 5466	脸
+R95	Part-Whole Arg1:T886 Arg2:T885	
+T887	Location-Nominal 5480 5482	学校
+T888	Person-Pronoun 5496 5497	我
+T889	Person-Pronoun 5503 5504	她
+T890	Person-Nominal 5516 5518	母亲
+T891	Person-Pronoun 5511 5512	我
+T892	Location-Nominal 5513 5515	学校
+T893	Person-Pronoun 5526 5527	我
+T894	Person-Pronoun 5558 5559	我
+T895	Location-Name 5560 5562;5563 5565	来凤 中学
+T896	Thing-Nominal 5575 5576	血
+R96	Part-Whole Arg1:T896 Arg2:T894	
+T897	Person-Nominal 5577 5579	母亲
+T898	Person-Pronoun 5584 5585	她
+*	Coreference T898 T897
+T899	Person-Nominal 5586 5587	医
+T900	Thing-Nominal 5588 5589	药
+T901	Thing-Nominal 5592 5594	中药
+T902	Thing-Nominal 5595 5597	红糖
+T903	Thing-Nominal 5599 5602	中药丸
+T904	Location-Nominal 5604 5606	学校
+T905	Person-Pronoun 5607 5608	我
+T906	Metric 5610 5614	两个多月
+T907	Thing-Nominal 5615 5617	药丸
+*	Coreference T907 T903
+T908	Person-Pronoun 5626 5627	我
+T909	Person-Nominal 5631 5633	母亲
+T910	Person-Nominal 5639 5641	母亲
+T911	Person-Nominal 5685 5687	母亲
+T912	Person-Pronoun 5635 5636	我
+T913	Person-Pronoun 5642 5643	你
+*	Coreference T913 T910
+T914	Person-Pronoun 5637 5638	我
+T915	Person-Pronoun 5645 5646	我
+T916	Thing-Nominal 5651 5653	身体
+R97	Part-Whole Arg1:T916 Arg2:T915	
+T917	Person-Pronoun 5655 5656	我
+T918	Time-Implicit 5656 5661	走向社会后
+T919	Person-Pronoun 5679 5680	我
+T920	Person-Nominal 5689 5691	母亲
+T921	Person-Nominal 5771 5773	母亲
+T922	Person-Nominal 5845 5847	母亲
+T923	Person-Pronoun 5712 5713	她
+*	Coreference T923 T920
+T924	Thing-Nominal 5757 5758	牙
+T925	Thing-Nominal 5759 5760	齿
+R98	Part-Whole Arg1:T925 Arg2:T920	
+R99	Part-Whole Arg1:T924 Arg2:T920	
+T926	Thing-Nominal 5762 5763	铁
+T927	Thing-Nominal 5765 5766	钢
+T928	Person-Pronoun 5769 5770	你
+T929	Person-Pronoun 5784 5785	她
+*	Coreference T929 T921 T930
+T930	Person-Pronoun 5817 5818	我
+T931	Thing-Nominal 5817 5821	我的胸口
+T932	Person-Pronoun 5857 5858	她
+T933	Person-Nominal 5860 5861	谁
+*	Coreference T932 T922
+T934	Person-Nominal 5868 5870	母亲
+T935	Person-Pronoun 5880 5881	她
+T936	Person-Nominal 5886 5888	丈夫
+R100	Family Arg1:T936 Arg2:T934	
+*	Coreference T935 T934
+T937	Person-Pronoun 5892 5894	我们
+T938	Person-Pronoun 5918 5919	我
+T939	Person-Nominal 5919 5921	父亲
+T940	Person-Nominal 5927 5928;5929 5930	法 官
+T941	Person-Nominal 5931 5933	母亲
+T942	Person-Nominal 5942 5944	地主
+T943	Time-Implicit 5950 5972	阶级斗争整天价响，政治风暴一浪高过一浪的岁月
+T944	Person-Nominal 5973 5975	母亲
+T945	Person-Nominal 5982 5986	知识分子
+*	Coreference T945 T944 T946
+T946	Person-Nominal 5990 5994	改造对象
+T947	Person-Pronoun 5998 5999	她
+T948	Person-Pronoun 6015 6016	她
+T949	Time-Implicit 6028 6030	那时
+T950	Person-Pronoun 6044 6046	我们
+T951	Location-Nominal 6053 6055	大海
+T952	Thing-Nominal 6063 6065	风浪
+T953	Person-Pronoun 6080 6082	我们
+T954	Person-Nominal 6086 6088	母亲
+T955	Person-Nominal 6091 6094	我父亲
+*	Coreference T955 T939
+T956	Person-Pronoun 6099 6100	她
+T957	Person-Pronoun 6105 6106	我
+T958	Person-Nominal 6112 6114	知青
+T959	Person-Nominal 6118 6120	父亲
+R101	Family Arg1:T959 Arg2:T957	
+T960	Person-Pronoun 6149 6151	我们
+T961	Person-Nominal 6165 6167	母亲
+T962	Thing-Nominal 6176 6177	牛
+T963	Person-Pronoun 6192 6193	她
+*	Coreference T963 T961
+T964	Person-Nominal 6227 6229	领导
+R102	Social Arg1:T964 Arg2:T963	
+T965	Person-Nominal 6232 6233;6234 6235	群 众
+R103	Social Arg1:T965 Arg2:T963	
+T966	Time-Implicit 6238 6240	那时
+T967	Person-Nominal 6240 6242	母亲
+T968	Person-Nominal 6248 6250	家长
+T969	Person-Nominal 6271 6273	家长
+T970	Person-Nominal 6276 6280	亲朋好友
+T971	Person-Pronoun 6281 6282	她
+T972	Thing-Nominal 6303 6307	她的衣角
+T973	Person-Pronoun 6292 6294	我们
+T974	Person-Nominal 6315 6317	母亲
+T975	Person-Nominal 6330 6334	柴米油盐
+T976	Person-Nominal 6346 6347	喉
+R104	Part-Whole Arg1:T976 Arg2:T974	
+T977	Person-Nominal 6363 6365	别人
+T978	Person-Pronoun 6368 6369	她
+T979	Thing-Nominal 6373 6374	脸
+R105	Part-Whole Arg1:T979 Arg2:T978	
+T980	Person-Pronoun 6388 6389	她
+T981	Thing-Nominal 6395 6398	竹叶子
+T982	Thing-Nominal 6405 6406	头
+T983	Person-Pronoun 6433 6434	她
+T984	Person-Pronoun 6471 6473	我们
+T985	Abstract 6448 6452	三反五反
+T986	Abstract 6455 6457	反右
+T987	Abstract 6460 6462	四清
+T988	Person-Nominal 6488 6490	母亲
+T989	Person-Nominal 6521 6523	母亲
+T990	Person-Nominal 6545 6547	母亲
+T991	Person-Pronoun 6504 6506	我们
+T992	Person-Pronoun 6567 6569	自己
+T993	Person-Pronoun 6579 6580	我
+T994	Time-Explicit 6589 6595	三年自然灾害
+T995	Time-Implicit 6580 6585	小学毕业时
+*	Coreference T994 T995
+T996	Organization-Nominal 6610 6612	中学
+T997	Metric 6617 6620	上千名
+T998	Organization-Name 6624 6628	来凤中学
+T999	Person-Nominal 6631 6633	母亲
+T1000	Person-Nominal 6646 6648	哥哥
+T1001	Person-Nominal 6649 6651	姐姐
+T1002	Person-Nominal 6657 6659	母亲
+T1003	Time-Explicit 6678 6683	1963年
+T1004	Organization-Nominal 6691 6693	学校
+T1005	Time-Implicit 6719 6722	那时候
+*	Coreference T1005 T1003
+T1006	Organization-Name 6727 6731	璧山中学
+T1007	Organization-Nominal 6703 6705	中学
+T1008	Person-Nominal 6696 6698	哥哥
+T1009	Person-Nominal 6699 6701	姐姐
+T1010	Person-Nominal 6706 6708	母亲
+T1011	Organization-Nominal 6734 6736	高中
+T1012	Organization-Nominal 6739 6741	高中
+T1013	Time-Explicit 6746 6756	1965年我初中毕业
+T1014	Person-Nominal 6766 6768	母亲
+T1015	Thing-Nominal 6773 6774	脸
+R106	Part-Whole Arg1:T1015 Arg2:T1014	
+T1016	Thing-Nominal 6778 6780	笑容
+R107	Located Arg1:T1016 Arg2:T1015	
+T1017	Person-Pronoun 6803 6804	她
+T1018	Person-Nominal 6795 6797	母亲
+*	Coreference T1017 T1018
+T1019	Person-Nominal 6845 6847	母亲
+T1020	Person-Pronoun 6855 6856	我
+T1021	Time-Explicit 6878 6883	1966年
+T1022	Organization-Name 6883 6889	重庆水轮机厂
+T1023	Location-Name 6890 6892	璧山
+T1024	Physical 1409 1413	中式斜襟
+T1025	Physical 1420 1423	琵琶襟
+T1026	Person-Nominal 6893 6894	工
+T1027	Person-Nominal 6895 6897	母亲
+T1028	Organization-Nominal 6908 6911	乡政府
+T1029	Person-Nominal 6913 6914;6915 6919	乡 政府领导
+T1030	Person-Pronoun 6921 6923	自己
+*	Coreference T1030 T1027
+T1031	Time-Implicit 6923 6926	年轻时
+T1032	Person-Nominal 6930 6932	丈夫
+R108	Family Arg1:T1032 Arg2:T1027	
+T1033	Thing-Nominal 6961 6963	眼泪
+T1034	Person-Nominal 6987 6989	教徒
+T1035	Metric 6982 6984	一个
+T1036	Thing-Nominal 7000 7004	她的泪水
+*	Coreference T1036 T1033
+T1037	Person-Nominal 7007 7009	上帝
+T1038	Person-Nominal 7010 7012	哥哥
+T1039	Organization-Pronoun 7017 7018	厂
+*	Coreference T1039 T1022
+T1040	Person-Nominal 7019 7021	母亲
+T1041	Thing-Nominal 7026 7027	心
+R109	Part-Whole Arg1:T1041 Arg2:T1040	
+T1042	Person-Pronoun 7035 7036	我
+T1043	Location-Name 7038 7042	璧山中学
+T1044	Person-Pronoun 7071 7073	我们
+T1045	Person-Nominal 7076 7078	母亲
+T1046	Thing-Nominal 7083 7085	小舟
+T1047	Thing-Nominal 7087 7091	暴风骤雨
+T1048	Time-Implicit 7108 7111	那时候
+T1049	Abstract 7112 7117	文化大革命
+T1050	Organization-Nominal 7127 7129	学校
+T1051	Person-Nominal 7132 7135	红卫兵
+T1052	Location-Nominal 7138 7140	街头
+T1053	Person-Pronoun 7141 7142	我
+T1054	Time-Explicit 7156 7163	1967年2月
+T1055	Location-Name 7164 7166	璧山
+T1056	Organization-Nominal 7166 7168;7169 7172	红卫 兵组织
+T1057	Person-Nominal 7181 7183	母亲
+T1058	Thing-Nominal 7189 7190	鸟
+T1059	Person-Pronoun 7192 7193	我
+T1060	Person-Nominal 7205 7207	母亲
+T1061	Location-Name 7211 7213	成都
+T1062	Location-Nominal 7217 7221	我姨妈家
+T1063	Person-Pronoun 7241 7242	我
+T1064	Location-Name 7243 7245	成都
+T1065	Person-Nominal 7247 7249	姨爹
+R110	Social Arg1:T1065 Arg2:T1063	
+T1066	Person-Nominal 7271 7273	母亲
+T1067	Metric 7274 7275	封
+T1068	Thing-Nominal 7275 7277	来信
+T1069	Person-Pronoun 7280 7281	我
+T1070	Time-Explicit 7354 7360	1968年春
+T1071	Thing-Nominal 7376 7378	书信
+T1072	Person-Pronoun 7399 7400	我
+T1073	Person-Nominal 7412 7419	当地的一个青年
+T1074	Thing-Pronoun 7408 7411	这封信
+*	Coreference T1074 T1071
+T1075	Organization-Nominal 7436 7443	一个红卫兵组织
+T1076	Person-Nominal 7447 7454	红卫兵组织头目
+T1077	Metric 7456 7458	几名
+T1078	Person-Nominal 7458 7460	暴徒
+T1079	Thing-Nominal 7461 7462	手
+R111	Part-Whole Arg1:T1079 Arg2:T1078	
+T1080	Thing-Nominal 7463 7465	匕首
+R112	Located Arg1:T1080 Arg2:T1079	
+T1081	Location-Nominal 7468 7475	母亲工作的学校
+T1082	Person-Nominal 7482 7484	母亲
+T1083	Person-Nominal 7490 7493	红卫兵
+T1084	Location-Nominal 7550 7552	厕所
+T1085	Thing-Nominal 7555 7556	墙
+T1086	Location-Nominal 7558 7560	学校
+T1087	Time-Explicit 7610 7620	一九六九年复课闹革命
+T1088	Person-Pronoun 7621 7622	我
+T1089	Person-Nominal 7623 7625	母亲
+T1090	Person-Pronoun 7643 7644	她
+*	Coreference T1090 T1089
+T1091	Abstract 7662 7666	一打三反
+T1092	Thing-Nominal 7702 7704	黑牌
+T1093	Location-Nominal 7705 7706	街
+T1094	Person-Nominal 7707 7708	众
+T1095	Location-Nominal 7748 7757	一间阴暗底矮的楼阁
+T1096	Time-Implicit 7732 7735	有一天
+T1097	Person-Pronoun 7762 7763	我
+T1098	Person-Nominal 7764 7766	母亲
+T1099	Person-Nominal 7767 7769	眼泪
+R113	Part-Whole Arg1:T1099 Arg2:T1097	
+R114	Part-Whole Arg1:T1099 Arg2:T1098	
+T1100	Person-Nominal 7781 7783	母亲
+T1101	Person-Pronoun 7837 7838	我
+T1102	Person-Pronoun 7841 7842	我
+T1103	Person-Pronoun 7808 7809	我
+T1104	Person-Pronoun 7817 7818	我
+T1105	Person-Nominal 7820 7822	母亲
+T1106	Thing-Nominal 7827 7828	心
+T1107	Thing-Nominal 7830 7831	血
+R115	Part-Whole Arg1:T1106 Arg2:T1105	
+R116	Part-Whole Arg1:T1107 Arg2:T1105	
+T1108	Person-Nominal 7866 7868	母亲
+T1109	Person-Pronoun 7870 7871	我
+T1110	Person-Nominal 7896 7899	我外婆
+T1111	Location-Nominal 7901 7903	床榻
+T1112	Thing-Nominal 7909 7918	一双昏浊板滞的眼睛
+R117	Part-Whole Arg1:T1112 Arg2:T1110	
+T1113	Person-Nominal 7925 7927	母亲
+T1114	Person-Nominal 7935 7937	母亲
+T1115	Person-Pronoun 7930 7931	我
+T1116	Person-Pronoun 7938 7939	她
+*	Coreference T1116 T1114
+T1117	Person-Nominal 7946 7948	外婆
+*	Coreference T1117 T1110
+T1118	Person-Nominal 7958 7960	母亲
+T1119	Thing-Nominal 7960 7961	泪
+T1120	Thing-Nominal 7963 7964	面
+R118	Part-Whole Arg1:T1119 Arg2:T1118	
+R119	Part-Whole Arg1:T1120 Arg2:T1118	
+T1121	Person-Pronoun 7965 7966	她
+*	Coreference T1121 T1118
+T1122	Person-Pronoun 7965 7966	她
+T1123	Person-Nominal 7972 7974	外婆
+T1124	Person-Nominal 8003 8008	不戴帽地主
+T1125	Person-Nominal 7994 7996	母亲
+*	Coreference T1124 T1125
+T1126	Organization-Name 8018 8023	会兴乡小学
+T1127	Person-Nominal 8033 8035	群众
+T1128	Person-Nominal 8067 8070	四人帮
+T1129	Person-Nominal 8074 8076	母亲
+T1130	Time-Implicit 8085 8093	那黑暗的动乱年月
+T1131	Time-Implicit 8095 8104	母亲生死存亡的时候
+T1132	Person-Nominal 8105 8107	母亲
+T1133	Person-Pronoun 8115 8117	我们
+T1134	Person-Pronoun 8121 8122	她
+*	Coreference T1134 T1132
+T1135	Person-Pronoun 8127 8128	她
+T1136	Person-Pronoun 8139 8140	我
+T1137	Person-Pronoun 8141 8143	姐姐
+T1138	Location-Nominal 8159 8161	农村
+T1139	Person-Nominal 8162 8165	姐弟俩
+R120	Part-Whole Arg1:T1136 Arg2:T1139	
+R121	Part-Whole Arg1:T1137 Arg2:T1139	
+T1140	Person-Nominal 8153 8157	我和姐姐
+*	Coreference T1140 T1139 T1143
+T1141	Person-Nominal 8171 8173	知青
+T1142	Person-Nominal 8176 8178	母亲
+T1143	Person-Pronoun 8180 8182	我们
+T1144	Time-Implicit 8187 8194	每个星期六下午
+T1145	Person-Pronoun 8202 8204	我们
+T1146	Metric 8212 8214	一只
+T1147	Thing-Nominal 8219 8221	小碗
+T1148	Person-Pronoun 8227 8228	她
+T1149	Thing-Nominal 8236 8237	肉
+T1150	Thing-Nominal 8239 8242	一脔肉
+*	Coreference T1150 T1149
+T1151	Person-Nominal 8247 8249	母亲
+T1152	Person-Pronoun 8256 8257	我
+T1153	Thing-Nominal 8259 8260	泪
+T1154	Thing-Nominal 8261 8262	雨
+R122	Part-Whole Arg1:T1153 Arg2:T1152	
+T1155	Person-Nominal 8277 8279	母亲
+T1156	Person-Nominal 8280 8282	姐姐
+T1157	Person-Nominal 8289 8291	姨妈
+R123	Family Arg1:T1157 Arg2:T1155	
+T1158	Location-Name 8295 8297	成都
+T1159	Person-Pronoun 8298 8299	我
+T1160	Location-Nominal 8301 8303	农村
+T1161	Person-Nominal 8307 8309	母亲
+T1162	Time-Explicit 8331 8336	1977年
+T1163	Thing-Nominal 8347 8348	树
+T1164	Thing-Nominal 8350 8352	梨花
+T1165	Person-Nominal 8359 8362	四人帮
+T1166	Person-Nominal 8380 8382	母亲
+T1167	Person-Pronoun 8392 8393	她
+T1168	Location-Nominal 8398 8400	学校
+T1169	Person-Pronoun 8406 8407	我
+T1170	Time-Explicit 8429 8436	1977年高考
+T1171	Organization-Nominal 8439 8441	大学
+T1172	Person-Pronoun 8468 8469	我
+T1173	Person-Name 8471 8473	鲁迅
+T1174	Person-Name 8481 8483	闰土
+T1175	Person-Nominal 8475 8476	人
+T1176	Time-Implicit 8477 8479	中年
+T1177	Person-Pronoun 8487 8488	我
+T1178	Organization-Nominal 8491 8493	大学
+T1179	Person-Nominal 8496 8498	母亲
+T1180	Person-Nominal 8500 8504	我的儿子
+R124	Family Arg1:T1180 Arg2:T1177	
+T1181	Person-Nominal 8514 8516	母亲
+T1182	Person-Nominal 8521 8523	孙儿
+*	Coreference T1182 T1180
+T1183	Person-Pronoun 8518 8520	自己
+*	Coreference T1183 T1181 T1190
+T1184	Person-Nominal 8528 8530	孙儿
+T1185	Person-Nominal 8535 8537	孙儿
+T1186	Thing-Nominal 8538 8539	头
+R125	Part-Whole Arg1:T1186 Arg2:T1185	
+T1187	Thing-Nominal 8544 8547	大脑壳
+T1188	Thing-Nominal 8548 8551	猪脑壳
+*	Coreference T1187 T1186 T1188
+T1189	Person-Nominal 8556 8558	孩子
+*	Coreference T1189 T1185
+T1190	Person-Nominal 8570 8572	奶奶
+T1191	Thing-Nominal 8576 8578	电话
+T1192	Person-Pronoun 8612 8613	我
+T1193	Time-Implicit 8618 8624	大学读书期间
+T1194	Thing-Nominal 8628 8630	晨风
+T1195	Person-Nominal 8633 8635	月光
+T1196	Person-Pronoun 8646 8647	我
+T1197	Thing-Nominal 8648 8649	书
+T1198	Person-Pronoun 8654 8655	我
+T1199	Person-Nominal 8660 8662	母亲
+T1200	Thing-Nominal 8670 8671	耳
+T1201	Thing-Nominal 8672 8673	目
+R126	Part-Whole Arg1:T1200 Arg2:T1198	
+T1202	Person-Pronoun 8677 8678	我
+T1203	Metric 8707 8709	一箪
+T1204	Thing-Nominal 8709 8710	食
+T1205	Metric 8711 8712;8713 8714	一 脔
+T1206	Thing-Nominal 8714 8715	肉
+T1207	Time-Implicit 8688 8694	那苦难的岁月
+T1208	Person-Pronoun 8716 8717	我
+T1209	Time-Implicit 8732 8738	我大学毕业后
+T1210	Organization-Name 8746 8752	璧山师范学校
+T1211	Metric 8756 8758	一名
+T1212	Person-Pronoun 8732 8733	我
+T1213	Person-Nominal 8758 8762	语文教师
+*	Coreference T1213 T1212
+T1214	Metric 8766 8769	一大批
+T1215	Person-Nominal 8769 8776	中等师范毕业生
+T1216	Organization-Nominal 8779 8781	小学
+T1217	Metric 8789 8791	一片
+T1218	Person-Pronoun 8799 8800	我
+T1219	Time-Explicit 8806 8813	1989年冬天
+T1220	Person-Pronoun 8814 8815	我
+T1221	Person-Nominal 8820 8822	母亲
+T1222	Person-Nominal 8827 8829	孩子
+T1223	Location-Name 8838 8840	重庆
+T1224	Organization-Name 8843 8849	惠州市委党校
+T1225	Person-Nominal 8877 8879	母亲
+T1226	Person-Nominal 8893 8895	母亲
+T1227	Person-Nominal 8901 8903	母亲
+T1228	Thing-Nominal 8908 8910	昆仑
+T1229	Person-Pronoun 8915 8916	我
+T1230	Person-Nominal 8920 8922	母亲
+T1231	Thing-Nominal 8927 8929	阳光
+T1232	Person-Pronoun 8933 8934	我
+R127	Part-Whole Arg1:T1231 Arg2:T1230	
+T1233	Thing-Nominal 8935 8936	心
+R128	Part-Whole Arg1:T1233 Arg2:T1232	
+T1234	Person-Nominal 8947 8949	母亲
+T1235	Thing-Nominal 8937 8939	寸草
+T1236	Thing-Nominal 8945 8946	血
+T1237	Person-Nominal 8957 8959	孩儿
+*	Coreference T1237 T1229
+T1238	Person-Nominal 8954 8956	母亲
+T1239	Person-Pronoun 8964 8965	您
+*	Coreference T1239 T1238
+T1240	Location-Name 8985 8991	惠州市委党校
+T1241	Person-Pronoun 8996 8997	我
+T1242	Time-Implicit 8997 8999	每年
+T1243	Location-Name 9002 9004	成都
+T1244	Person-Nominal 9006 9008	母亲
+T1245	Person-Pronoun 9009 9010	她
+*	Coreference T1245 T1244
+T1246	Person-Pronoun 9012 9013	我
+T1247	Location-Nominal 9023 9026	家门口
+T1248	Location-Name 9048 9050	成都
+T1249	Location-Name 9051 9053	惠州
+T1250	Person-Pronoun 9054 9055	她
+T1251	Person-Pronoun 9059 9060	我
+T1252	Time-Implicit 9070 9072	晚年
+T1253	Thing-Nominal 9074 9076	轮椅
+T1254	Thing-Nominal 9086 9087	泪
+T1255	Time-Explicit 9103 9110	2006年春节
+T1256	Person-Nominal 9113 9115	母亲
+T1257	Person-Nominal 9141 9143	母亲
+T1258	Location-Nominal 9120 9121	院
+T1259	Person-Pronoun 9127 9128	我
+T1260	Person-Pronoun 9130 9131	她
+T1261	Person-Pronoun 9149 9150	我
+T1262	Person-Pronoun 9153 9154	我
+T1263	Thing-Nominal 9160 9161	身
+T1264	Thing-Nominal 9145 9147	轮椅
+R129	Part-Whole Arg1:T1263 Arg2:T1262	
+R130	Use Arg1:T1257 Arg2:T1264	
+T1265	Person-Nominal 9165 9167	母亲
+T1266	Person-Pronoun 9170 9171	她
+T1267	Metric 9188 9190	五年
+T1268	Time-Explicit 9191 9201	2011年4月28日
+T1269	Person-Nominal 9201 9203	母亲
+T1270	Metric 9212 9215	88岁
+T1271	Person-Nominal 9225 9227	母亲

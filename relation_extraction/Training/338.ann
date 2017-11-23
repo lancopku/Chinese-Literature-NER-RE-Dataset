@@ -1,0 +1,238 @@
+T1	Time-Implicit 0 11	1月25日21时20分
+T2	Location-Name 11 20	墨尔本公园沃尔球场
+T3	Thing-Nominal 26 28	红旗
+T4	Thing-Nominal 21 23	掌声
+T5	Person-Name 36 42	中国金花李娜
+T6	Location-Nominal 47 51	决赛主场
+T7	Thing-Nominal 66 71	女单冠军杯
+T8	Person-Name 72 74	李娜
+T9	Thing-Nominal 82 88	大满贯冠军杯
+*	Coreference T9 T7
+R1	Ownership Arg1:T5 Arg2:T7	
+T10	Person-Name 93 98	澳网女神娜
+*	Coreference T10 T8 T5 T12 T13 T15 T16
+T11	Thing-Nominal 118 122	巨额奖金
+T12	Person-Name 127 133	网球女神李娜
+T13	Person-Nominal 186 187;188 210	一 个底气深厚，朝气蓬勃，锐气昂扬的中国女网皇后
+T14	Person-Name 213 218	齐布尔科娃
+T15	Person-Name 222 224	娜姐
+R2	Social Arg1:T15 Arg2:T14	
+T16	Person-Name 237 239	李娜
+T17	Thing-Nominal 249 254	大满贯比赛
+T18	Person-Nominal 274 276	对方
+*	Coreference T18 T14
+T19	Thing-Nominal 286 288	首盘
+T20	Person-Name 294 296	娜姐
+T21	Person-Nominal 306 311	大满贯冠军
+R3	General-Special Arg1:T21 Arg2:T20	
+T22	Time-Implicit 338 346	过去两次澳网决赛
+T23	Person-Name 347 349	李娜
+T24	Person-Nominal 354 356	对手
+R4	Social Arg1:T24 Arg2:T23	
+T25	Time-Implicit 366 368	这次
+T26	Person-Name 368 370	娜姐
+T27	Person-Name 383 388	齐布尔科娃
+T28	Person-Name 401 403	娜姐
+T29	Thing-Nominal 411 416	绷紧的神经
+R5	Part-Whole Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 424 425	拍
+R6	Use Arg1:T28 Arg2:T30	
+T31	Thing-Nominal 442 443	球
+T32	Person-Nominal 445 447	对手
+*	Coreference T32 T27
+T33	Person-Name 469 471	娜姐
+T34	Thing-Nominal 474 475	网
+T35	Person-Nominal 507 509	对手
+T36	Person-Name 514 516	李娜
+T37	Metric 518 520;521 523	27 分钟
+T38	Abstract 538 542	女单冠军
+T39	Person-Nominal 525 527	对手
+T40	Thing-Nominal 544 545	囊
+T41	Thing-Nominal 547 554	场内暴风般掌声
+T42	Person-Name 559 561	李娜
+T43	Thing-Nominal 563 565	双手
+R7	Part-Whole Arg1:T43 Arg2:T42	
+T44	Person-Nominal 575 577	观众
+R8	Social Arg1:T44 Arg2:T42	
+T45	Abstract 590 595	大满贯冠军
+T46	Thing-Nominal 599 600	拍
+T47	Person-Nominal 612 616	网球女神
+*	Coreference T47 T42
+T48	Person-Name 638 640	李娜
+T49	Person-Pronoun 645 646	她
+*	Coreference T49 T48
+T50	Person-Name 663 665	娜姐
+T51	Location-Nominal 673 675	低谷
+T52	Person-Pronoun 676 678	有人
+T53	Person-Name 680 682	娜姐
+T54	Time-Implicit 688 692	黄金年龄
+T55	Person-Name 704 706	李娜
+T56	Thing-Name 714 716	澳网
+T57	Person-Nominal 731 733	对手
+T58	Time-Implicit 738 740	此时
+T59	Person-Name 741 743	李娜
+T60	Thing-Nominal 747 748;749 751	夫 妻店
+T61	Person-Name 755 758	卡洛斯
+T62	Person-Nominal 759 761	教练
+R9	General-Special Arg1:T62 Arg2:T61	
+T63	Person-Nominal 762 767	自己的老公
+T64	Person-Pronoun 762 764	自己
+*	Coreference T64 T59
+R10	Family Arg1:T63 Arg2:T59	
+T65	Person-Name 771 774	卡洛斯
+T66	Person-Name 783 785	李娜
+R11	Social Arg1:T65 Arg2:T66	
+T67	Person-Name 794 796	娜姐
+T68	Person-Name 802 804	李娜
+T69	Person-Nominal 832 834	对手
+T70	Abstract 811 817	网前快速攻击
+T71	Person-Nominal 841 843	对手
+T72	Abstract 885 890	大角度冲击
+T73	Thing-Name 896 898	澳网
+T74	Person-Name 902 904	李娜
+T75	Abstract 907 914	正手和上网击球
+T76	Person-Name 917 919	娜姐
+T77	Person-Nominal 921 923	对手
+T78	Thing-Nominal 919 928	击垮对手的致命武器
+R12	Use Arg1:T76 Arg2:T78	
+T79	Person-Name 932 936	马卡洛娃
+R13	General-Special Arg1:T77 Arg2:T79	
+T80	Person-Name 941 944	佩内塔
+R14	General-Special Arg1:T77 Arg2:T80	
+T81	Person-Name 946 948	娜姐
+T82	Person-Nominal 968 970	对手
+T83	Person-Name 975 978	卡洛斯
+T84	Person-Name 980 982	李娜
+T85	Person-Name 984 986	娜姐
+T86	Abstract 1027 1034	跑步和力量训练
+T87	Person-Name 1036 1038	娜姐
+T88	Metric 1057 1060	三小时
+T89	Person-Nominal 1065 1067	教练
+*	Coreference T89 T83
+T90	Person-Name 2428 2434	约瑟夫、墨菲
+T91	Thing-Name 2434 2442	《潜意识的力量》
+R15	Create Arg1:T90 Arg2:T91	
+T92	Person-Name 1108 1110	娜姐
+T93	Person-Name 1133 1137	萨法洛娃
+R16	General-Special Arg1:T77 Arg2:T93	
+T94	Person-Name 1150 1152	李娜
+T95	Person-Name 1189 1192	卡洛斯
+T96	Person-Name 1193 1195	李娜
+T97	Person-Nominal 1210 1213	任何人
+T98	Person-Name 1218 1220	娜姐
+T99	Metric 1253 1256	三小时
+T100	Person-Name 1260 1262	娜姐
+T101	Person-Name 1291 1293	李娜
+T102	Abstract 1296 1297;1298 1300	潜 意识
+T103	Abstract 1327 1330	潜意识
+T104	Person-Pronoun 1333 1335	自己
+T105	Thing-Name 1354 1358;1359 1362	深圳网球 公开赛
+T106	Person-Name 1362 1364	李娜
+T107	Person-Name 1370 1373	卡洛斯
+T108	Person-Name 1384 1386	李娜
+T109	Person-Name 1390 1392	娜姐
+T110	Person-Name 1396 1399	卡洛斯
+T111	Thing-Nominal 1415 1419;1420 1421	夺冠的金 针
+T112	Thing-Nominal 1423 1428	致胜的法宝
+T113	Person-Name 1429 1431	娜姐
+T114	Person-Name 1433 1436	卡洛斯
+T115	Person-Nominal 1444 1446	教练
+*	Coreference T115 T114
+T116	Person-Pronoun 1457 1458	我
+*	Coreference T116 T113
+T117	Thing-Nominal 1463 1468	大满贯冠军
+T118	Abstract 1473 1475	澳网
+T119	Abstract 586 588	法网
+T120	Abstract 342 344	澳网
+T121	Person-Name 1478 1480	李娜
+T122	Person-Name 1487 1490	卡洛斯
+T123	Person-Name 1495 1497	娜姐
+T124	Person-Name 1514 1516	娜姐
+T125	Thing-Nominal 1519 1526	大满贯女单冠军
+R17	Ownership Arg1:T124 Arg2:T125	
+*	Coreference T125 T117
+T126	Person-Name 1533 1535	娜姐
+T127	Abstract 1527 1530	潜意识
+T128	Person-Name 1550 1552	李娜
+T129	Person-Name 1560 1562	娜姐
+T130	Abstract 1577 1579	澳网
+T131	Person-Name 1579 1581	李娜
+T132	Metric 1583 1585	十次
+T133	Time-Explicit 1593 1598	2001年
+T134	Metric 1599 1601;1602 1603	18 岁
+T135	Person-Name 1604 1606	李娜
+T136	Abstract 1610 1613	澳网赛
+T137	Thing-Nominal 1615 1618	资格赛
+T138	Time-Explicit 1631 1636	2005年
+T139	Person-Name 1640 1642	莎娃
+T140	Person-Name 1645 1647	娜姐
+T141	Time-Explicit 1654 1659	2006年
+T142	Person-Name 1664 1666	小威
+T143	Time-Explicit 1737 1742	2011年
+T144	Time-Explicit 1677 1682	2007年
+T145	Time-Explicit 1696 1701	2008年
+T146	Thing-Nominal 1682 1687	1/8决赛
+T147	Thing-Nominal 1725 1728	半决赛
+T148	Time-Explicit 1747 1752	2012年
+T149	Person-Name 1754 1756	小威
+T150	Time-Explicit 1759 1763	2013
+T151	Person-Name 1778 1780	李娜
+T152	Thing-Nominal 1786 1787	山
+T153	Thing-Nominal 1791 1795	悬涯绝壁
+T154	Thing-Nominal 1796 1798	荆棘
+T155	Person-Nominal 1846 1850	网球女神
+T156	Abstract 1915 1917	澳网
+T157	Person-Nominal 1923 1927	网球女神
+T158	Person-Name 1932 1938	网球女神李娜
+*	Coreference T158 T157 T151 T161
+T159	Abstract 1939 1941	澳网
+T160	Person-Nominal 1956 1958	对手
+T161	Person-Nominal 1970 1981	澳网称雄女单首位亚洲人
+T162	Person-Name 1998 2000	李娜
+T163	Metric 2001 2008	31岁334天
+T164	Person-Name 2010 2022	新本士名将玛格丽特・考特
+T165	Metric 2026 2034	30岁，169天
+T166	Thing-Nominal 2078 2099	高额奖金265万澳元约合1396万元人民币
+R18	Ownership Arg1:T162 Arg2:T166	
+T167	Person-Nominal 2104 2108	网球女神
+T168	Person-Nominal 2112 2116	女单冠军
+R19	General-Special Arg1:T168 Arg2:T162	
+T169	Person-Nominal 2125 2128	幸运儿
+T170	Person-Name 2138 2144	网球女神娜姐
+T171	Location-Name 2161 2164	墨尔本
+T172	Person-Name 2165 2167	李娜
+T173	Person-Name 2171 2173	李娜
+T174	Time-Implicit 2180 2185	开赛第一天
+T175	Person-Nominal 2185 2187	粉丝
+T176	Person-Nominal 2173 2175	粉丝
+R20	Social Arg1:T176 Arg2:T173	
+T177	Person-Name 2195 2197	李娜
+T178	Person-Name 2197 2198;2199 2200	李 娜
+T179	Abstract 2200 2202	澳网
+T180	Person-Name 2206 2208	娜姐
+T181	Thing-Nominal 2210 2214	一个好球
+R21	Create Arg1:T180 Arg2:T181	
+T182	Person-Nominal 2220 2224	本士观众
+T183	Person-Name 2227 2229	李娜
+T184	Person-Name 2232 2234	李娜
+T185	Person-Pronoun 2244 2245	她
+*	Coreference T185 T184
+T186	Person-Nominal 2283 2292	中国年轻一代运动员
+T187	Person-Name 2296 2298	李娜
+T188	Thing-Nominal 2300 2315	印有“心敢比天高”字样冠军T恤
+R22	Use Arg1:T187 Arg2:T188	
+T189	Thing-Nominal 2318 2320;2321 2326	赛后 新闻发布会
+T190	Person-Pronoun 2329 2330	她
+T191	Person-Pronoun 2342 2344	自我
+*	Coreference T191 T190
+T192	Person-Nominal 2362 2368	中国年轻一代
+T193	Person-Name 2369 2371	李娜
+T194	Person-Nominal 2389 2393	娜姐女神
+*	Coreference T194 T193
+T195	Abstract 2399 2401	澳网
+T196	Person-Nominal 2419 2421	粉丝
+T197	Thing-Nominal 1887 1889	狂沙
+T198	Thing-Nominal 1891 1892	金
+T199	Thing-Nominal 1858 1859	锤
+T200	Thing-Nominal 1867 1869	大浪
+T201	Thing-Nominal 1870 1871	沙

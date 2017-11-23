@@ -1,0 +1,152 @@
+T1	Thing-Nominal 13 15	夕阳
+T2	Location-Nominal 23 24	天
+T3	Thing-Nominal 27 29	泪珠
+T4	Thing-Nominal 30 32	晚霞
+T5	Thing-Nominal 34 36	归鸦
+T6	Thing-Nominal 10 12	秋露
+T7	Thing-Nominal 46 48	落叶
+T8	Location-Nominal 49 51	树梢
+T9	Thing-Nominal 88 90	夕阳
+T10	Thing-Nominal 110 112	影子
+T11	Person-Pronoun 113 114	我
+T13	Thing-Nominal 124 128	一座秋山
+T14	Person-Pronoun 129 130	我
+T15	Thing-Nominal 149 151	清泪
+T16	Location-Nominal 143 145	眼角
+R1	Located Arg1:T15 Arg2:T16	
+T17	Thing-Nominal 155 156	月
+T18	Thing-Nominal 157 159	秋月
+T19	Thing-Nominal 162 163	纸
+T20	Thing-Nominal 164 165	笔
+T21	Person-Pronoun 168 169	我
+T22	Person-Nominal 189 191	文人
+T23	Thing-Nominal 238 240	额发
+T24	Thing-Nominal 318 320	书签
+T25	Location-Nominal 323 325	书里
+R2	Located Arg1:T24 Arg2:T25	
+T27	Thing-Nominal 327 336	至爱的情人――书本
+T28	Thing-Pronoun 344 345	他
+T29	Location-Nominal 344 348	他的怀抱
+T31	Thing-Nominal 396 406	被黑夜救活了的灯盏，
+T32	Thing-Nominal 435 437	枯荷
+T33	Thing-Nominal 449 451	烟云
+T34	Time-Implicit 0 2	暮秋
+T12	Thing-Nominal 139 140	杯
+T26	Location-Nominal 363 365	书里
+T30	Thing-Nominal 481 486	仁慈的光芒
+T35	Time-Implicit 498 501	孩童时
+T36	Person-Nominal 529 530	人
+T37	Thing-Nominal 535 537	黄沙
+T38	Person-Nominal 569 573	善良的人
+T39	Person-Nominal 592 593	人
+T40	Person-Nominal 600 603	“人”
+T41	Thing-Nominal 679 681	月光
+T42	Thing-Nominal 682 684	月光
+T43	Person-Nominal 883 885	人人
+T44	Person-Nominal 949 951	妈妈
+T45	Person-Pronoun 952 953	我
+R3	Family Arg1:T45 Arg2:T44	
+T46	Person-Nominal 976 978	妈妈
+T47	Thing-Nominal 980 982	竹耙
+T48	Thing-Nominal 984 986	衣衫
+R4	Located Arg1:T48 Arg2:T47	
+T49	Person-Pronoun 992 993	我
+T50	Person-Pronoun 1011 1012	我
+T51	Thing-Nominal 1025 1027	秋霜
+T52	Thing-Nominal 1030 1035	腮边的清泪
+T53	Thing-Nominal 1038 1039	霜
+T54	Person-Pronoun 1054 1055	我
+T55	Person-Nominal 1058 1066	一个能够倾听的人
+T56	Location-Nominal 1072 1074	家里
+T57	Thing-Nominal 1072 1077	家里的电话
+R5	Located Arg1:T57 Arg2:T56	
+T58	Person-Nominal 1083 1085	妈妈
+T59	Time-Implicit 1127 1128	秋
+T60	Person-Pronoun 1131 1132	我
+T61	Person-Nominal 1136 1141;1142 1154	那个“闻鸡 生气、见月伤心”的小女孩
+T62	Time-Explicit 1183 1185	如今
+T63	Thing-Nominal 1197 1199	行囊
+T64	Person-Pronoun 1224 1225	我
+T65	Person-Nominal 1232 1234	圣贤
+T66	Person-Nominal 1227 1229	强者
+T67	Person-Nominal 1219 1221	强者
+T68	Person-Nominal 1214 1216	圣者
+T69	Abstract 1253 1260	“湄公河血案”
+T70	Location-Nominal 1248 1251	电视上
+T71	Person-Nominal 1261 1267	中国船员家属
+T72	Person-Pronoun 1275 1276	我
+T73	Location-Nominal 1281 1284	被窝儿
+T74	Location-Nominal 1289 1292	手机上
+T75	Thing-Nominal 1289 1296	手机上的电话簿
+R6	Located Arg1:T75 Arg2:T74	
+T76	Thing-Nominal 1311 1314	电话本
+T77	Person-Nominal 1328 1330;1331 1337	哪个 曾被删掉的人
+T78	Abstract 1340 1346	“雪中送炭”
+T79	Person-Nominal 1355 1357	朋友
+T80	Person-Nominal 1372 1377	我的朋友们
+T81	Location-Nominal 1387 1389	眼里
+T82	Thing-Nominal 1392 1394	泪水
+R7	Located Arg1:T82 Arg2:T81	
+T83	Person-Nominal 1407 1416	一直守在身边的老公
+T84	Person-Pronoun 1418 1419	我
+R8	Family Arg1:T84 Arg2:T83	
+T85	Person-Nominal 1424 1426	自己
+T86	Thing-Nominal 1428 1430	蚕蛹
+T87	Person-Pronoun 1442 1443	我
+T88	Thing-Nominal 1444 1449	自己的影子
+T89	Thing-Nominal 1459 1464	苍茫的云雾
+T90	Person-Nominal 1490 1492	老公
+T91	Organization-Nominal 1498 1503	房产开发商
+T92	Metric 1514 1516	十万
+T93	Time-Implicit 1521 1523	两年
+T94	Metric 1521 1523	两年
+T95	Person-Pronoun 1534 1535	我
+T96	Thing-Nominal 1542 1544	眼睛
+R9	Part-Whole Arg1:T96 Arg2:T95	
+T97	Time-Implicit 1550 1554	七天之内
+T98	Metric 1557 1559	十万
+T99	Person-Nominal 1569 1571	那咱
+T100	Person-Pronoun 1607 1608	你
+T101	Person-Nominal 1610 1612	有人
+T102	Person-Nominal 1618 1621	有钱人
+T103	Thing-Nominal 1626 1627	虎
+T104	Person-Nominal 1662 1664	房奴
+T105	Person-Pronoun 1665 1666	我
+T106	Thing-Nominal 1672 1674	被子
+T107	Thing-Nominal 1676 1677	头
+R10	Part-Whole Arg1:T107 Arg2:T105	
+T108	Person-Pronoun 1686 1687	他
+T109	Person-Pronoun 1693 1694	我
+T110	Person-Pronoun 1720 1721	他
+T111	Person-Pronoun 1731 1732	他
+T112	Person-Nominal 1755 1770	这个一肩挑责任一肩负沧桑的男人
+T113	Thing-Nominal 1783 1785	蚂蚁
+T114	Person-Nominal 1797 1799	自己
+T115	Thing-Nominal 1797 1801	自己身体
+T116	Person-Pronoun 1809 1813	旁观的我
+T117	Person-Pronoun 1847 1848	他
+T118	Person-Pronoun 1852 1853	我
+T119	Person-Pronoun 1859 1860	他
+T120	Person-Pronoun 1864 1865	我
+T121	Person-Pronoun 1878 1879	我
+T122	Thing-Nominal 1909 1913	瘦削的笔
+T123	Thing-Nominal 1914 1916	苍苔
+T124	Person-Nominal 1960 1964;1965 1967	一个落魄 之人
+T125	Person-Nominal 1971 1978	品德俱佳的富翁
+T126	Person-Nominal 1983 1985	富翁
+T127	Time-Implicit 2033 2034	秋
+T128	Thing-Nominal 2037 2038	月
+T129	Person-Pronoun 2041 2042	我
+T130	Thing-Nominal 2080 2082	车子
+T131	Thing-Nominal 2089 2090;2091 2092	房 子
+T132	Time-Implicit 2096 2100	这个秋季
+T133	Person-Nominal 2126 2127	人
+T134	Thing-Nominal 2144 2146	秋风
+T135	Location-Nominal 2166 2172	眠熟的温床上
+T136	Thing-Nominal 2174 2176	秋风
+R11	Located Arg1:T136 Arg2:T135	
+T137	Person-Pronoun 2191 2195	梦中的我
+T138	Location-Nominal 2199 2207	一个不知名的路口
+T139	Thing-Nominal 2220 2222	阳光
+T140	Time-Implicit 2229 2231	子夜
+T141	Person-Nominal 2237 2239	自己

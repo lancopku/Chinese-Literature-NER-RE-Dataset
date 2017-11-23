@@ -1,0 +1,291 @@
+T1	Person-Nominal 934 936	女方
+T2	Person-Nominal 941 943	母亲
+T3	Person-Nominal 948 950	父亲
+R1	Family Arg1:T1 Arg2:T2	
+T4	Time-Implicit 0 2	时下
+T5	Location-Nominal 3 5	农村
+T6	Person-Nominal 5 9	男女青年
+T7	Person-Nominal 15 17	男方
+T8	Person-Nominal 19 21	女方
+T9	Thing-Nominal 23 26	四彩礼
+T10	Thing-Nominal 29 31	三金
+T11	Thing-Nominal 33 36	聘礼钱
+T12	Metric 38 41	数千元
+T13	Metric 44 47	几万元
+T14	Person-Nominal 50 52	男方
+T15	Thing-Nominal 55 57	楼房
+T16	Person-Nominal 61 63	女方
+T17	Thing-Nominal 68 70	车子
+T18	Person-Nominal 73 75	女方
+T19	Person-Nominal 80 82	男方
+T20	Person-Nominal 85 87	女方
+T21	Thing-Nominal 89 92	梳头钱
+T22	Person-Nominal 94 96	亲属
+T23	Thing-Nominal 98 101	端灯钱
+R2	Social Arg1:T22 Arg2:T20	
+T24	Thing-Nominal 104 108	提痰盂钱
+T25	Person-Nominal 111 113	公婆
+T26	Thing-Nominal 117 120	改口钱
+T27	Person-Nominal 133 135	男方
+T28	Person-Nominal 197 201	亲朋好友
+T29	Person-Nominal 212 214	男方
+T30	Person-Nominal 238 241	青年人
+T31	Person-Pronoun 257 259	我们
+T32	Time-Implicit 259 261	当年
+T33	Person-Pronoun 284 285	我
+T34	Person-Nominal 286 288	老伴
+R3	Family Arg1:T34 Arg2:T33	
+T35	Metric 292 296	40多年
+T36	Location-Name 302 307	淮南市上窑
+T37	Person-Pronoun 320 321	我
+T38	Person-Nominal 322 324	老伴
+T39	Time-Explicit 327 332	1962年
+T40	Person-Pronoun 333 334	我
+T41	Organization-Name 335 339	淮南农校
+T42	Location-Name 347 353	国营上窑林场
+T43	Metric 359 362	20元
+T44	Metric 366 369	23元
+T45	Time-Implicit 370 372	当时
+T46	Location-Nominal 374 376	城里
+T48	Person-Pronoun 385 386	我
+T49	Person-Nominal 396 401	当地的农民
+T47	Person-Nominal 376 381	好企业工人
+T50	Person-Pronoun 411 412	我
+T51	Person-Nominal 411 415	我的门邻
+T52	Person-Pronoun 416 417	我
+T53	Thing-Nominal 424 425	烟
+T54	Thing-Nominal 428 429	酒
+T55	Person-Pronoun 434 435	我
+T56	Person-Nominal 438 440	对象
+T57	Person-Nominal 446 448	老伴
+*	Coreference T56 T57
+T58	Person-Nominal 449 451	父母
+T59	Person-Nominal 453 455	媒人
+R4	Family Arg1:T58 Arg2:T55	
+T60	Person-Nominal 467 469	父亲
+T61	Person-Nominal 475 477	他俩
+R5	Part-Whole Arg1:T57 Arg2:T61	
+R6	Part-Whole Arg1:T55 Arg2:T61	
+T62	Person-Nominal 484 486	外人
+T63	Person-Nominal 491 493	媒人
+T64	Time-Implicit 496 499	现如今
+T65	Person-Pronoun 579 580	我
+T66	Person-Nominal 581 583	女方
+T67	Organization-Name 594 598	上窑小学
+T68	Person-Nominal 606 608	我俩
+*	Coreference T68 T61 T69
+T69	Person-Nominal 619 621	双方
+T70	Person-Pronoun 631 632	我
+T71	Person-Nominal 633 635	女方
+T72	Person-Nominal 646 649;650 654	同族个 别长辈人
+T73	Person-Pronoun 659 661	他们
+*	Coreference T73 T72 T74 T76 T127 T154
+T74	Person-Pronoun 672 674	我们
+T75	Person-Nominal 689 691	父亲
+T76	Person-Nominal 692 695	长辈们
+T77	Person-Pronoun 707 708	我
+T78	Thing-Nominal 722 724	吊桶
+T79	Thing-Nominal 725 726	水
+T80	Person-Pronoun 715 716	我
+T81	Person-Nominal 738 740	父母
+T82	Person-Nominal 744 745	人
+T83	Location-Nominal 750 752	当地
+T84	Person-Pronoun 757 758	我
+T85	Person-Nominal 767 769	别人
+T86	Person-Nominal 773 775	二老
+*	Coreference T86 T81 T96
+T87	Thing-Nominal 776 779	脊梁骨
+R7	Part-Whole Arg1:T87 Arg2:T86	
+T88	Person-Pronoun 782 783	我
+T89	Person-Nominal 786 788	女方
+T90	Person-Nominal 800 802	女方
+T91	Person-Pronoun 806 807	我
+T92	Thing-Nominal 807 808	信
+T93	Person-Pronoun 819 820	我
+T94	Person-Nominal 828 830	女方
+T95	Person-Pronoun 833 834	我
+T96	Person-Nominal 840 843	我父母
+T97	Person-Nominal 849 851	父亲
+T98	Person-Pronoun 873 874	我
+T99	Thing-Nominal 880 882	旧缸
+T100	Thing-Nominal 885 887	房子
+T101	Thing-Nominal 894 895	烟
+T102	Thing-Nominal 896 897	火
+T103	Person-Nominal 904 916	家庭条件稍好人家的大姑娘
+T104	Person-Pronoun 920 921	我
+T105	Person-Pronoun 926 927	我
+T106	Person-Nominal 928 930	父母
+T107	Person-Pronoun 964 966	你们
+*	Coreference T107 T106
+T108	Person-Pronoun 970 971	她
+*	Coreference T108 T1 T110 T116
+R8	Family Arg1:T3 Arg2:T1	
+R9	Family Arg1:T106 Arg2:T105	
+T109	Person-Nominal 975 977	弟妹
+R10	Family Arg1:T109 Arg2:T108	
+T110	Person-Nominal 986 987	人
+T111	Person-Nominal 1011 1014	下一代
+T112	Person-Pronoun 1023 1025	我们
+R11	Part-Whole Arg1:T1 Arg2:T112	
+R12	Part-Whole Arg1:T105 Arg2:T112	
+T113	Person-Nominal 1046 1048	父母
+T114	Thing-Nominal 1058 1060	塘水
+T115	Thing-Nominal 1069 1071	大鱼
+T116	Person-Nominal 1072 1074	人家
+T117	Person-Nominal 1078 1079	咱
+R13	Part-Whole Arg1:T113 Arg2:T117	
+R14	Part-Whole Arg1:T104 Arg2:T117	
+T118	Person-Pronoun 1090 1093	你们俩
+*	Coreference T118 T112 T126 T133 T136 T149 T151
+T119	Person-Pronoun 1106 1108	我们
+*	Coreference T119 T113
+T120	Time-Implicit 1112 1115	那阵子
+T121	Person-Pronoun 1116 1117	我
+T122	Organization-Nominal 1118 1123	外窑林业队
+T123	Person-Nominal 1124 1127	护林员
+*	Coreference T123 T121
+R15	Ownership Arg1:T121 Arg2:T122	
+T124	Location-Nominal 1137 1138	街
+T125	Person-Nominal 1145 1147	熟人
+R16	Social Arg1:T125 Arg2:T121	
+T126	Person-Pronoun 1149 1151	我们
+T127	Person-Nominal 1170 1175	个别长辈人
+T128	Person-Pronoun 1185 1186	我
+T129	Thing-Nominal 1198 1199	书
+T130	Person-Pronoun 1214 1215	我
+T131	Person-Nominal 1217 1219	女友
+T132	Person-Nominal 1220 1221	人
+T133	Person-Pronoun 1223 1226	我们俩
+T134	Person-Pronoun 1231 1232	她
+*	Coreference T134 T131
+T135	Person-Nominal 1245 1247	别人
+T136	Person-Pronoun 1257 1259	我俩
+T137	Person-Pronoun 1269 1270	我
+T138	Person-Pronoun 1271 1273	自己
+*	Coreference T138 T137
+T139	Person-Pronoun 1278 1279	我
+T140	Person-Nominal 1284 1291	外地的有钱人家
+T141	Person-Pronoun 1300 1301	我
+T142	Person-Nominal 1304 1306	弟妹
+R17	Family Arg1:T142 Arg2:T141	
+T143	Person-Pronoun 1312 1313	我
+T144	Person-Pronoun 1327 1329	他俩
+*	Coreference T144 T142 T145 T146
+T145	Person-Nominal 1342 1346	我的弟妹
+T146	Person-Pronoun 1351 1353	我们
+T147	Location-Nominal 1354 1357	避风港
+T148	Person-Nominal 1364 1366	父母
+T149	Person-Pronoun 1387 1389	我俩
+T150	Time-Explicit 1401 1408	1965年秋天
+T151	Person-Pronoun 1409 1411	我俩
+T152	Metric 1439 1442	3元钱
+T153	Metric 1446 1449	5元钱
+T154	Person-Nominal 1452 1463	不同意这门婚事的长辈们
+T155	Person-Nominal 1479 1481	父亲
+T156	Person-Nominal 1483 1485	老大
+*	Coreference T156 T155
+T157	Thing-Nominal 1497 1499	礼钱
+T158	Person-Pronoun 1502 1503	我
+T159	Location-Nominal 1506 1508	单位
+T160	Location-Nominal 1508 1510	住房
+T161	Person-Nominal 1513 1515	哥哥
+R18	Family Arg1:T161 Arg2:T158	
+T162	Person-Pronoun 1518 1519	他
+*	Coreference T162 T161 T167
+T163	Metric 1523 1525	两间
+T164	Location-Nominal 1525 1527	草房
+T165	Metric 1534 1536	一间
+T166	Location-Nominal 1536 1538	小屋
+T167	Person-Nominal 1539 1540	哥
+T168	Person-Nominal 1540 1541	嫂
+R19	Family Arg1:T167 Arg2:T168	
+T169	Location-Nominal 1544 1546	住房
+T170	Person-Pronoun 1549 1550	我
+T171	Location-Nominal 1553 1555	新房
+T172	Person-Nominal 1566 1568	父母
+T173	Location-Nominal 1572 1575	黑房子
+T174	Thing-Nominal 1578 1580	灰尘
+T175	Thing-Nominal 1584 1586	阳光
+T176	Thing-Nominal 1593 1594	头
+T177	Thing-Nominal 1606 1608	门框
+T178	Location-Nominal 1597 1598	房
+*	Coreference T178 T171
+T179	Person-Pronoun 1611 1612	我
+T180	Metric 1614 1616;1617 1618	50 元
+T181	Metric 1621 1623	一张
+T182	Thing-Nominal 1626 1629	架子床
+T183	Thing-Nominal 1636 1638	桌子
+T184	Thing-Nominal 1633 1635	抽屉
+T185	Person-Nominal 1640 1642	女方
+T186	Metric 1644 1646	二套
+T187	Thing-Nominal 1646 1648	衣服
+T188	Person-Nominal 1649 1651	女方
+T189	Metric 1654 1656	一只
+T190	Metric 1656 1658	6元
+T191	Thing-Nominal 1661 1664	小箱子
+T192	Person-Pronoun 1665 1666	她
+*	Coreference T192 T188
+T193	Person-Pronoun 1670 1671	我
+T194	Person-Pronoun 1679 1681	我俩
+T195	Person-Nominal 1695 1697	同事
+T196	Person-Nominal 1703 1705	姊妹
+R20	Social Arg1:T195 Arg2:T194	
+R21	Social Arg1:T196 Arg2:T194	
+T197	Time-Implicit 1710 1715	婚后第三天
+T198	Thing-Nominal 1721 1723	镰刀
+T199	Thing-Nominal 1726 1728	扁担
+T200	Thing-Nominal 1729 1730	绳
+T201	Location-Nominal 1732 1734	山上
+T202	Thing-Nominal 1737 1738	锅
+T203	Thing-Nominal 1739 1741	柴禾
+T204	Location-Nominal 1744 1745	山
+T205	Location-Pronoun 1747 1750	那座山
+*	Coreference T205 T204 T206
+T206	Location-Pronoun 1755 1757	此山
+T207	Thing-Nominal 1764 1765	草
+T208	Person-Nominal 1772 1774	俩人
+*	Coreference T208 T194
+T209	Time-Implicit 1801 1805	婚后不久
+T210	Person-Pronoun 1806 1807	我
+T211	Person-Nominal 1808 1810	父母
+T212	Person-Nominal 1811 1813	哥嫂
+T213	Person-Nominal 1539 1541	哥嫂
+T214	Person-Nominal 1821 1823	妻子
+T215	Person-Pronoun 1824 1825	她
+*	Coreference T215 T214 T228
+T216	Person-Nominal 1825 1831	15岁的弟弟
+T217	Person-Nominal 1832 1838	13岁的妹妹
+R22	Family Arg1:T216 Arg2:T215	
+R23	Family Arg1:T217 Arg2:T215	
+T218	Person-Nominal 1853 1854	妻
+T219	Person-Nominal 1856 1857	人
+T220	Time-Implicit 1859 1861	如今
+T221	Person-Pronoun 1861 1862	我
+T222	Location-Nominal 1868 1873	那两间草房
+*	Coreference T222 T164
+T223	Person-Pronoun 1878 1879	我
+T224	Location-Nominal 1883 1885	楼房
+T225	Person-Pronoun 1886 1887	我
+T226	Person-Nominal 1891 1893	孙子
+T227	Location-Nominal 1894 1899	省重点高中
+T228	Person-Nominal 1902 1904	老伴
+T229	Person-Nominal 1902 1907	老伴的弟妹
+R24	Part-Whole Arg1:T216 Arg2:T229	
+R25	Part-Whole Arg1:T217 Arg2:T229	
+T230	Location-Nominal 1909 1911	农村
+T231	Person-Nominal 1917 1919	伴侣
+T232	Person-Pronoun 1921 1923	他们
+*	Coreference T232 T229
+T233	Person-Nominal 1928 1930	儿孙
+T234	Location-Nominal 1937 1939	楼房
+T235	Location-Nominal 1941 1943	楼上
+T236	Location-Nominal 1943 1945	楼下
+T237	Thing-Nominal 1946 1948	电灯
+T238	Thing-Nominal 1948 1950	电话
+T239	Time-Explicit 1952 1956	解放初期
+T240	Person-Nominal 1956 1959	老百姓
+T241	Organization-Nominal 1971 1973	我国
+T242	Location-Nominal 1973 1975	农村
+T243	Thing-Nominal 1981 1983	手机
+T244	Thing-Nominal 1984 1986	电脑
+T245	Location-Nominal 1990 1992	农家

@@ -1,0 +1,115 @@
+T1	Person-Nominal 7 9	人们
+T2	Thing-Nominal 10 13	剩茶水
+T3	Location-Nominal 15 19	江河湖泊
+R1	Located Arg1:T2 Arg2:T3	
+T4	Person-Nominal 37 41	任何人以
+T5	Person-Pronoun 52 53	我
+T6	Location-Name 56 60;61 64	澳大利亚 大堡礁
+T7	Thing-Nominal 71 76	半杯剩茶水
+T8	Location-Nominal 78 81	大海里
+T9	Person-Nominal 84 92	游艇上的工作人员
+T10	Person-Nominal 93 95	导游
+T11	Person-Pronoun 102 103	我
+T12	Thing-Nominal 109 112	大堡礁
+T13	Location-Name 114 123	澳大利亚东南面海域
+R2	Located Arg1:T12 Arg2:T13	
+T14	Thing-Nominal 126 137	2600公里的珊瑚礁群
+T15	Metric 126 132	2600公里
+T16	Location-Nominal 139 142	世界上
+T17	Thing-Nominal 142 154	最大最长最壮观的海底世界
+T18	Location-Pronoun 155 157	这里
+*	Coreference T18 T13
+T19	Thing-Nominal 160 167	地、海、空景点
+T20	Person-Nominal 172 176	世界游客
+T21	Time-Implicit 179 183	是年7月
+T22	Person-Pronoun 184 185	我
+T23	Location-Name 188 192	澳大利亚
+T24	Time-Implicit 195 197	当日
+T25	Person-Pronoun 201 203	我们
+T26	Thing-Nominal 205 207	游艇
+T27	Location-Nominal 222 230;231 232	了大堡礁海域旅游 点
+T28	Location-Pronoun 234 236	那里
+*	Coreference T28 T27
+T29	Person-Pronoun 236 238	我们
+T30	Thing-Nominal 239 242	直升机
+T31	Thing-Nominal 244 248	海上世界
+T32	Thing-Nominal 250 253	半潜艇
+T33	Thing-Nominal 254 259	珊瑚、鱼群
+T34	Thing-Nominal 266 269	救生衣
+T35	Location-Nominal 270 274	指定海域
+T36	Thing-Nominal 285 287	海鲜
+T37	Thing-Nominal 321 323	游艇
+T38	Thing-Nominal 326 331	返程的汽笛
+T39	Person-Nominal 332 334	大家
+T40	Thing-Nominal 341 344	大堡礁
+T41	Thing-Nominal 339 340	手
+T42	Person-Pronoun 350 351	我
+T43	Thing-Nominal 360 362	茶水
+T44	Location-Nominal 366 368	海里
+R3	Located Arg1:T43 Arg2:T44	
+T45	Person-Nominal 379 388	船上的几位工作人员
+T46	Thing-Nominal 401 404	剩茶水
+T47	Location-Nominal 406 408	海里
+T48	Person-Pronoun 412 413	我
+T49	Person-Nominal 417 423	一位中文导游
+T50	Person-Pronoun 425 426	我
+T51	Location-Nominal 434 437	我跟前
+T52	Person-Pronoun 443 444	我
+T53	Thing-Nominal 445 448	剩茶水
+T54	Location-Nominal 450 454	卫生间里
+T55	Location-Nominal 457 459	海里
+T56	Location-Nominal 462 465	卫生间
+T57	Person-Nominal 477 488	游艇上的工作人员和导游
+T58	Person-Pronoun 493 494	我
+T59	Person-Nominal 495 498;499 500	中文导 游
+T60	Person-Pronoun 503 504	我
+T61	Location-Pronoun 512 514	这里
+T62	Thing-Nominal 524 525	水
+T63	Location-Nominal 529 531	海里
+T64	Thing-Nominal 540 541	水
+T65	Location-Nominal 552 554	海里
+T66	Location-Nominal 556 559;560 561	那游艇 上
+T67	Thing-Nominal 565 567	污水
+T68	Thing-Nominal 563 570	处理污水的设备
+R4	Located Arg1:T68 Arg2:T66	
+T69	Person-Pronoun 572 573	我
+T70	Location-Nominal 582 586	我们船上
+T71	Thing-Nominal 587 593	污水净化设备
+R5	Located Arg1:T71 Arg2:T70	
+T72	Person-Pronoun 582 584	我们
+T73	Thing-Nominal 594 599	船上的污水
+T74	Location-Nominal 594 596	船上
+R6	Located Arg1:T73 Arg2:T74	
+T75	Time-Implicit 601 604	净化后
+T76	Location-Nominal 609 611	海里
+T77	Person-Nominal 613 617	中文导游
+T78	Person-Nominal 628 636	游艇上的中文导游
+T79	Person-Pronoun 645 646	我
+T80	Time-Implicit 653 660	回到凯恩斯之后
+T81	Time-Implicit 661 666	第二天清早
+T82	Person-Pronoun 667 668	我
+T83	Person-Nominal 671 678	澳籍华人高导游
+T84	Person-Pronoun 679 680	她
+*	Coreference T84 T83
+T85	Person-Pronoun 689 690	她
+T86	Location-Name 691 695	澳大利亚
+T87	Metric 699 702	六七年
+T88	Location-Name 705 709	澳大利亚
+T89	Person-Pronoun 718 720	她们
+T90	Thing-Nominal 727 728	水
+T91	Location-Nominal 748 752	河流大海
+T92	Person-Pronoun 753 754	她
+T93	Thing-Nominal 772 777	半杯剩茶水
+T94	Person-Pronoun 779 780	我
+T95	Person-Nominal 781 794	我们一起参加此次旅游的朋友
+T96	Person-Pronoun 781 783	我们
+T97	Time-Implicit 805 809	回国之后
+T98	Person-Pronoun 810 811	我
+T99	Person-Nominal 819 823	身边的人
+T100	Person-Pronoun 825 827	他们
+*	Coreference T100 T99
+T101	Location-Name 831 835	澳大利亚
+T102	Person-Pronoun 853 854	我
+T103	Thing-Nominal 858 864	半杯剩茶水”
+T104	Person-Nominal 869 872	更多人
+T105	Thing-Nominal 879 883	这篇拙稿

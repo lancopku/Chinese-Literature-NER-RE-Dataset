@@ -1,0 +1,140 @@
+T1	Time-Explicit 0 5	1959年
+T2	Person-Nominal 5 7	吾父
+T3	Organization-Name 8 13	罗定制药厂
+T4	Location-Name 20 25	郁南大历山
+T5	Thing-Nominal 26 27	药
+R1	Located Arg1:T5 Arg2:T4	
+T6	Person-Pronoun 5 6	吾
+R2	Family Arg1:T6 Arg2:T2	
+T7	Organization-Name 40 45	罗定收容所
+T8	Location-Name 8 10	罗定
+T9	Location-Name 20 22	郁南
+R3	Part-Whole Arg1:T4 Arg2:T9	
+R4	Part-Whole Arg1:T3 Arg2:T8	
+R5	Part-Whole Arg1:T7 Arg2:T8	
+T10	Time-Implicit 105 110	释放回来时
+T11	Organization-Name 72 78	国民党军统局
+T12	Time-Explicit 79 83	抗日期间
+T13	Metric 84 86	八年
+T14	Organization-Name 87 88	日
+T15	Organization-Nominal 89 90	国
+T16	Location-Nominal 98 100	家门
+T17	Person-Nominal 115 116	妻
+T18	Person-Nominal 116 117	儿
+T19	Person-Nominal 149 151	父亲
+T20	Thing-Nominal 153 155	砖头
+T21	Thing-Nominal 156 157	灶
+R6	Part-Whole Arg1:T20 Arg2:T21	
+T22	Thing-Nominal 160 162	瓦煲
+T23	Thing-Nominal 164 166	厨具
+R7	General-Special Arg1:T22 Arg2:T23	
+T24	Organization-Nominal 179 182	生产队
+T25	Thing-Nominal 187 189	口粮
+T26	Thing-Nominal 192 194	什粮
+T27	Person-Pronoun 197 199	我们
+R8	Family Arg1:T27 Arg2:T19	
+R9	Family Arg1:T19 Arg2:T17	
+R10	Family Arg1:T18 Arg2:T19	
+T28	Time-Implicit 202 204	每天
+T29	Metric 206 208	半斤
+T30	Thing-Nominal 208 210	稻谷
+T31	Person-Pronoun 215 216	你
+T32	Person-Nominal 229 231	父亲
+T33	Person-Nominal 232 234	哥哥
+T34	Location-Nominal 236 238	荒地
+T35	Thing-Nominal 240 242	番薯
+T36	Thing-Nominal 243 245	什粮
+R11	Located Arg1:T35 Arg2:T34	
+R12	Located Arg1:T36 Arg2:T34	
+T37	Time-Explicit 258 273	1960年――1961年这期间
+T38	Metric 275 278	一个月
+T39	Thing-Nominal 283 284	饭
+T40	Thing-Nominal 352 355	龙眼核
+T41	Thing-Nominal 360 362	粮食
+R13	General-Special Arg1:T40 Arg2:T41	
+T42	Person-Nominal 364 366	父亲
+T43	Thing-Nominal 370 372	杂粮
+T44	Person-Nominal 386 387	兄
+*	Coreference T33 T44 T45 T49 T56
+R14	Family Arg1:T32 Arg2:T33	
+T45	Person-Name 390 392	其敬
+T46	Person-Pronoun 397 398	我
+*	Coreference T46 T42
+T47	Organization-Nominal 405 408	生产队
+T48	Time-Implicit 426 428	晚上
+T49	Person-Pronoun 428 429	你
+T50	Organization-Nominal 432 435	生产队
+T51	Thing-Nominal 437 439	番薯
+T52	Time-Implicit 460 464	”这年里
+T53	Person-Nominal 506 508	慈母
+T54	Person-Nominal 512 513	子
+R15	Family Arg1:T53 Arg2:T54	
+T55	Person-Nominal 515 517	父亲
+T56	Person-Nominal 534 535	子
+T57	Person-Nominal 536 537	贼
+T58	Thing-Nominal 544 545	衣
+T59	Thing-Nominal 545 546	食
+T60	Time-Implicit 554 556	今天
+T61	Person-Name 563 564	敬
+T62	Person-Nominal 564 565	兄
+*	Coreference T62 T61
+T63	Person-Nominal 566 567	父
+*	Coreference T55 T63
+T64	Thing-Pronoun 578 580	当晚
+T65	Thing-Pronoun 587 589	深夜
+T66	Thing-Nominal 596 597	狗
+T67	Thing-Nominal 605 606	路
+T68	Location-Nominal 623 626	村东边
+T69	Location-Name 627 630	广西岭
+*	Coreference T68 T69
+T70	Time-Implicit 632 634	当时
+T71	Organization-Nominal 634 637	生产队
+T72	Thing-Nominal 640 641	人
+T73	Thing-Nominal 643 645	番薯
+T74	Person-Nominal 654 655	兄
+T75	Location-Nominal 660 661	山
+T76	Thing-Nominal 662 663	虎
+T77	Location-Nominal 666 668	虎山
+R16	Located Arg1:T76 Arg2:T75	
+*	Coreference T75 T77
+T78	Location-Nominal 672 674	地里
+T79	Thing-Nominal 689 691	裤袋
+T80	Person-Nominal 698 699	贼
+T81	Person-Nominal 703 704	贼
+T82	Location-Nominal 706 708	远处
+R17	Ownership Arg1:T74 Arg2:T79	
+R18	Located Arg1:T73 Arg2:T79	
+T83	Thing-Nominal 720 721	兄
+T84	Thing-Nominal 725 726	腿
+R19	Part-Whole Arg1:T84 Arg2:T83	
+T85	Thing-Nominal 732 735	电筒光
+T86	Person-Pronoun 737 738	他
+R20	Create Arg1:T86 Arg2:T83	
+T87	Thing-Nominal 739 741	脚印
+T88	Thing-Nominal 742 744	闪电
+T89	Person-Name 750 752	刘翔
+T90	Metric 758 759	分
+T91	Metric 760 761	秒
+T92	Person-Nominal 762 765	看护人
+R21	Social Arg1:T86 Arg2:T92	
+T93	Person-Nominal 762 765	看护人
+T94	Person-Nominal 773 774	兄
+T95	Thing-Nominal 779 782	小石块
+R22	Use Arg1:T94 Arg2:T95	
+T96	Person-Nominal 787 789	对方
+*	Coreference T96 T93
+T97	Abstract 795 798	水浒传
+T98	Thing-Nominal 827 829	电筒
+R23	Use Arg1:T93 Arg2:T98	
+T99	Person-Nominal 832 833	兄
+T100	Person-Nominal 842 845	看护人
+T101	Person-Nominal 859 864	生产队堂叔
+*	Coreference T100 T101 T102
+T102	Person-Pronoun 865 866	他
+T103	Person-Nominal 872 873	兄
+T104	Person-Nominal 891 892	贼
+T105	Thing-Nominal 898 899	床
+T106	Person-Pronoun 911 913	他们
+T107	Time-Implicit 928 930	今天
+T108	Person-Pronoun 930 931	我
+R24	Family Arg1:T108 Arg2:T103	

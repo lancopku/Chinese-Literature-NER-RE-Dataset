@@ -1,0 +1,338 @@
+T1	Thing-Nominal 1 6	西垂的落日
+T2	Thing-Nominal 8 9	光
+T3	Person-Name 12 15	华之风
+T4	Location-Nominal 17 18	家
+T5	Thing-Nominal 26 33	街谈巷议的新闻
+T6	Thing-Nominal 35 36	树
+T7	Thing-Nominal 40 41	叶
+T8	Metric 37 39	千丈
+T9	Thing-Nominal 43 44	根
+R1	Part-Whole Arg1:T9 Arg2:T6	
+T10	Thing-Nominal 47 58	县计划发展局局长的宝座
+T11	Person-Nominal 47 55	县计划发展局局长
+T12	Metric 63 66	十五年
+T13	Location-Nominal 67 69	板上
+T14	Thing-Nominal 70 71	钉
+R2	Located Arg1:T14 Arg2:T13	
+T15	Thing-Nominal 82 88	一、二个台阶
+T16	Person-Name 89 92	华局长
+*	Coreference T16 T3 T19
+T17	Thing-Nominal 92 102	一生革命生涯的火车头
+T18	Thing-Nominal 111 113	终端
+T19	Person-Pronoun 115 116	他
+T20	Thing-Nominal 122 127	石磨的主轴
+T21	Location-Nominal 137 140	官场上
+T22	Thing-Nominal 146 147	狼
+T23	Thing-Nominal 156 158	狐狸
+T24	Thing-Nominal 167 170	哈叭狗
+T25	Person-Nominal 188 192	哪位名人
+T26	Person-Name 204 207	华局长
+T27	Person-Nominal 239 244	同事和朋友
+T28	Person-Pronoun 247 248	他
+T29	Person-Nominal 259 260	官
+T30	Thing-Nominal 268 271	锈剪刀
+T31	Thing-Nominal 272 274	铁丝
+T32	Person-Pronoun 291 292	他
+T33	Thing-Nominal 292 296	祖宗坟墓
+T34	Location-Nominal 299 303	风水宝地
+R3	Located Arg1:T33 Arg2:T34	
+T35	Person-Pronoun 308 309	他
+T36	Organization-Nominal 316 318	佛家
+T37	Organization-Nominal 321 323	道家
+T38	Person-Pronoun 331 332	我
+T39	Organization-Nominal 346 348	单位
+T40	Metric 352 356	三十多年
+T41	Thing-Nominal 367 374	转动久了的车轮
+T42	Thing-Nominal 377 378	油
+T43	Thing-Nominal 379 380	胎
+R4	Part-Whole Arg1:T43 Arg2:T41	
+T44	Person-Name 382 387	华之风局长
+*	Coreference T44 T26
+T45	Metric 209 211	多载
+T46	Thing-Nominal 387 390	生命钟
+T47	Time-Implicit 396 398	每天
+T48	Time-Implicit 404 405;406 407	八 点
+T49	Time-Implicit 412 414	五点
+T50	Person-Pronoun 430 431	他
+T51	Location-Nominal 439 447	办公室的里里外外
+T52	Person-Pronoun 449 450	他
+T53	Person-Nominal 456 459	协理员
+T54	Location-Nominal 466 468	里面
+T55	Person-Nominal 484 486	后任
+T56	Person-Pronoun 496 498	人家
+*	Coreference T56 T55
+T57	Person-Name 503 506	华局长
+T58	Metric 516 519	几十年
+T59	Thing-Nominal 541 543	小车
+T60	Thing-Nominal 549 556	生就翅膀的蝴蝶
+T61	Person-Pronoun 565 566	他
+T62	Thing-Nominal 586 590	桌椅板凳
+T63	Location-Nominal 593 598	卫生间庭院
+T64	Person-Nominal 603 606	勤杂工
+T65	Person-Pronoun 610 611	他
+T66	Person-Nominal 613 618	“倔老头”
+R5	General-Special Arg1:T66 Arg2:T65	
+T67	Person-Pronoun 619 620	他
+T68	Location-Nominal 629 635	最爱出的地方
+T69	Location-Nominal 636 643	门卫张老头那儿
+*	Coreference T68 T69
+T70	Person-Pronoun 644 645	他
+T71	Thing-Nominal 648 650	书报
+T72	Thing-Nominal 653 655	信件
+T73	Thing-Nominal 660 664	报纸杂志
+R6	Use Arg1:T70 Arg2:T73	
+T74	Person-Name 671 674	老张头
+T75	Person-Name 638 641	张老头
+*	Coreference T74 T75
+R7	Social Arg1:T75 Arg2:T70	
+T76	Thing-Nominal 683 685;686 687	哈叭 狗
+T77	Person-Pronoun 695 696	他
+T78	Person-Nominal 702 703	人
+T79	Thing-Nominal 709 716	地上滚动的铁环
+T80	Organization-Nominal 729 734	幸福的家庭
+T81	Organization-Nominal 740 745	不幸的家庭
+T82	Person-Name 752 755	华局长
+T83	Person-Name 765 770	老托尔斯泰
+T84	Person-Nominal 781 788	华局长的老伴儿
+R8	Family Arg1:T84 Arg2:T82	
+T85	Time-Implicit 791 799	二十世纪七十年代
+T86	Location-Nominal 800 802	农村
+T87	Location-Nominal 804 806	城市
+T88	Person-Nominal 791 817	二十世纪七十年代从农村包围城市“打江山”带出来的村妇
+R9	General-Special Arg1:T88 Arg2:T84	
+T89	Thing-Nominal 825 828	大染缸
+T90	Location-Nominal 830 832	城里
+T91	Metric 835 839	三十多年
+T92	Thing-Nominal 846 848	黑发
+T93	Person-Nominal 857 861	西方女郎
+T94	Thing-Nominal 880 885	一双高跟鞋
+R10	Use Arg1:T84 Arg2:T94	
+T95	Thing-Nominal 873 879	浓重的鼻音腔
+R11	Use Arg1:T84 Arg2:T95	
+T96	Person-Nominal 917 919	村妇
+*	Coreference T96 T88
+T97	Thing-Nominal 909 910	胎
+T98	Thing-Nominal 911 912	骨
+T99	Person-Name 925 928	华局长
+T100	Thing-Nominal 928 930	莼鲈
+T101	Location-Nominal 940 945	繁华的都市
+T102	Location-Nominal 947 949	乡下
+T103	Person-Nominal 951 958	陶公式的归隐者
+T104	Location-Nominal 962 965	东篱下
+T105	Location-Nominal 969 971	南山
+T106	Person-Nominal 981 983	老伴
+*	Coreference T106 T84 T111 T187 T190 T209 T242
+T107	Thing-Nominal 988 989	驼
+T108	Thing-Nominal 985 986	称
+T109	Person-Nominal 990 991	公
+T110	Person-Nominal 993 994	婆
+T111	Person-Pronoun 996 997	她
+T112	Person-Nominal 1003 1004	夫
+*	Coreference T112 T99
+T113	Person-Name 1020 1023	华局长
+T114	Thing-Nominal 1026 1028	烟酒
+T115	Thing-Nominal 1032 1039	牌九、麻将之类
+T116	Thing-Nominal 1047 1048	书
+T117	Thing-Nominal 1050 1051	文
+T118	Time-Implicit 1071 1074	闲暇时
+T119	Thing-Nominal 1075 1076	花
+T120	Thing-Nominal 1077 1078	草
+T121	Thing-Nominal 1082 1084	树苗
+T122	Thing-Nominal 1097 1099	苔痕
+T123	Location-Nominal 1100 1102	阶梯
+R12	Located Arg1:T122 Arg2:T123	
+T125	Thing-Nominal 1115 1117	花卉
+T124	Thing-Nominal 1109 1111	菜蔬
+T126	Location-Nominal 1121 1123	花圃
+T127	Thing-Nominal 1127 1128	兰
+T128	Thing-Nominal 1131 1132	芷
+T129	Thing-Nominal 1135 1136	菊
+T130	Thing-Nominal 1139 1140	梅
+T131	Thing-Nominal 1141 1151	樟，桂，铁树，万年青
+T132	Time-Implicit 1125 1126	春
+T133	Time-Implicit 1129 1130	夏
+T134	Time-Implicit 1133 1134	秋
+T135	Time-Implicit 1137 1138	冬
+R13	Located Arg1:T127 Arg2:T126	
+R14	Located Arg1:T128 Arg2:T126	
+R15	Located Arg1:T129 Arg2:T126	
+R16	Located Arg1:T130 Arg2:T126	
+R17	Located Arg1:T131 Arg2:T126	
+T136	Person-Pronoun 1193 1194	他
+T137	Person-Nominal 1197 1200	朋友们
+R18	Social Arg1:T137 Arg2:T136	
+T138	Person-Name 1210 1213	郑板桥
+T139	Thing-Nominal 1215 1229	茅屋一间，兰花数枝，雪白纸窗
+R19	Ownership Arg1:T138 Arg2:T139	
+T140	Time-Implicit 1213 1215	当年
+T141	Thing-Pronoun 1237 1238	其
+*	Coreference T141 T139
+T142	Thing-Nominal 1240 1253;1254 1264	一盏雨前茶，一方端砚石，一 张宣州纸，几笔折枝花
+R20	Ownership Arg1:T138 Arg2:T142	
+T143	Person-Nominal 1265 1267	朋友
+R21	Social Arg1:T143 Arg2:T138	
+T144	Thing-Nominal 1283 1287	十二金钗
+T145	Thing-Nominal 1288 1290	鲜花
+T146	Thing-Nominal 1271 1272	屣
+T147	Person-Name 1294 1301	唐代大诗人李白
+T148	Thing-Nominal 1314 1316	诗歌
+T149	Person-Name 1323 1325	李白
+*	Coreference T149 T147 T152
+T150	Location-Nominal 1329 1331	官场
+T151	Location-Name 1365 1368	长安城
+T152	Person-Name 1369 1370	他
+T153	Person-Pronoun 1400 1401	我
+T154	Person-Pronoun 1402 1404	他们
+T155	Person-Pronoun 1411 1412	我
+T156	Person-Nominal 1414 1421	遵循自然规律者
+R22	General-Special Arg1:T156 Arg2:T155	
+T157	Thing-Nominal 1426 1430	摇船的橹
+T158	Thing-Nominal 1432 1436	摇船的橹
+T159	Thing-Nominal 1439 1443	摇钱的树
+T160	Thing-Nominal 1445 1449	摇钱的树
+T161	Person-Pronoun 1461 1462	我
+*	Coreference T155 T153 T161 T162 T163
+T162	Person-Pronoun 1466 1467	他
+T163	Person-Name 1521 1524	华局长
+T164	Person-Pronoun 1511 1512	他
+T165	Thing-Nominal 1526 1534	根深叶茂的老槐树
+T166	Thing-Nominal 1540 1542	髀肉
+T167	Person-Nominal 1545 1549	大方之家
+T168	Person-Pronoun 1550 1551	他
+T169	Thing-Nominal 1550 1565	他的诗歌、散文、小说等文学作品
+R23	Create Arg1:T168 Arg2:T169	
+T170	Thing-Nominal 1579 1581	报刊
+T171	Thing-Nominal 1594 1596	大器
+T172	Person-Nominal 1604 1605	人
+T173	Thing-Nominal 1621 1624	鸦片烟
+T174	Person-Pronoun 1679 1680	他
+T175	Thing-Nominal 1681 1686	脱僵的野马
+T176	Thing-Nominal 1700 1703;1704 1717	彪炳千 古，含英咀华之妙的文学作品
+R24	Create Arg1:T174 Arg2:T176	
+T177	Thing-Nominal 1718 1746	欧美的旖旎风光，夏威夷的风情;东南亚的民俗，西藏的野羚羊
+T178	Thing-Nominal 1820 1824	卷卷画册
+T179	Person-Nominal 1835 1837	读者
+T180	Person-Pronoun 1841 1842	他
+T181	Thing-Nominal 1846 1852	几本书集作品
+T182	Thing-Nominal 1854 1860	全身心的结晶
+R25	Create Arg1:T180 Arg2:T181	
+T183	Metric 1846 1848	几本
+T184	Thing-Nominal 1867 1876	几朵璀璨的并蒂花儿
+T185	Person-Pronoun 1882 1884	自己
+*	Coreference T185 T180 T189 T191 T205 T207
+T186	Location-Nominal 1879 1880	世
+T187	Person-Nominal 1900 1911	掌握“财团”大权的老伴
+T188	Thing-Nominal 1920 1923	河东狮
+T189	Person-Nominal 1936 1939	老东西
+T190	Person-Pronoun 1940 1941	我
+T191	Person-Pronoun 1943 1944	你
+T192	Person-Pronoun 1951 1952	你
+T193	Thing-Nominal 1958 1960	夕阳
+T194	Thing-Nominal 1966 1968	旭日
+T195	Person-Name 1985 1988	毛泽东
+T196	Person-Nominal 1997 1999	儿子
+R26	Family Arg1:T196 Arg2:T187	
+R27	Family Arg1:T196 Arg2:T180	
+T197	Thing-Nominal 2006 2007	草
+T198	Thing-Nominal 2008 2009	花
+T199	Thing-Nominal 2023 2024	文
+T200	Thing-Nominal 2026 2027	书
+T201	Thing-Nominal 2040 2042	清水
+T202	Person-Nominal 2049 2051	媳妇
+R28	Family Arg1:T202 Arg2:T196	
+R29	Family Arg1:T202 Arg2:T187	
+R30	Family Arg1:T202 Arg2:T180	
+T203	Person-Nominal 2075 2078	大孙女
+R31	Family Arg1:T203 Arg2:T202	
+R32	Family Arg1:T203 Arg2:T196	
+R33	Family Arg1:T203 Arg2:T187	
+R34	Family Arg1:T203 Arg2:T180	
+T204	Thing-Nominal 2088 2093	舀起的鱼儿
+T205	Person-Nominal 2101 2103	爷爷
+T206	Person-Nominal 2114 2116	女儿
+T207	Person-Name 2128 2130	老华
+T208	Person-Nominal 2134 2137	孤家寡
+R35	Family Arg1:T206 Arg2:T205	
+R36	Family Arg1:T203 Arg2:T206	
+R37	Family Arg1:T206 Arg2:T202	
+R38	Family Arg1:T206 Arg2:T196	
+R39	Family Arg1:T206 Arg2:T187	
+T209	Person-Nominal 2140 2142	老伴
+T210	Thing-Nominal 2146 2151	“杀手锏”
+T211	Thing-Nominal 2158 2162	“积蓄”
+T212	Thing-Nominal 2166 2170	“金库”
+T213	Thing-Nominal 2171 2176	脱毛的凤凰
+T214	Thing-Nominal 2178 2179	鸡
+T215	Thing-Nominal 2180 2185	折翅的蝴蝶
+T216	Person-Name 2190 2193	华之风
+T217	Person-Pronoun 2208 2210	自己
+*	Coreference T217 T216
+T218	Thing-Nominal 2212 2216	国家财团
+T219	Metric 2229 2232	一辈子
+T220	Location-Name 2234 2236	欧亚
+T221	Location-Name 2238 2240	北美
+T222	Location-Nominal 2243 2247	祖国各地
+T223	Thing-Nominal 2258 2263	折翅的蝴蝶
+T224	Thing-Nominal 2265 2270	落架的凤凰
+T225	Person-Nominal 2285 2287	人们
+T226	Thing-Nominal 2290 2294	落毛凤凰
+T227	Thing-Nominal 2296 2297	鸡
+T228	Person-Pronoun 2298 2299	他
+T229	Person-Pronoun 2309 2310	我
+T230	Thing-Nominal 2330 2335	华山一条道
+T231	Location-Name 2330 2332	华山
+T232	Location-Name 2340 2342	梁山
+T233	Person-Nominal 2348 2350	朋友
+T234	Thing-Nominal 2354 2356	屠门
+T235	Metric 2367 2371	一段时日
+T236	Thing-Nominal 2377 2379	母鸡
+T237	Thing-Nominal 2381 2383	小鸡
+T238	Thing-Nominal 2386 2388	皱鸡
+T239	Person-Pronoun 2392 2393	他
+T240	Thing-Nominal 2410 2415	几套丛书集
+T241	Person-Pronoun 2416 2418	自己
+T242	Person-Nominal 2425 2428	老伴儿
+T243	Person-Pronoun 2438 2439	他
+T244	Thing-Nominal 2438 2444	他的“钢火”
+T245	Person-Pronoun 2456 2457	他
+T246	Person-Pronoun 2464 2466	我们
+T247	Location-Nominal 2464 2468	我们乡下
+T248	Person-Nominal 2471 2475	“大秀才
+R40	General-Special Arg1:T248 Arg2:T245	
+T249	Person-Pronoun 2493 2495	自己
+T250	Person-Pronoun 2501 2502	他
+T251	Location-Nominal 2522 2524	书上
+T252	Thing-Nominal 2528 2537	甘甜已经成熟的果子
+R41	Located Arg1:T252 Arg2:T251	
+T253	Person-Nominal 2542 2544	母亲
+T254	Person-Nominal 2549 2562	自己身边刚刚降临人间的婴儿
+R42	Family Arg1:T253 Arg2:T254	
+T255	Person-Pronoun 2563 2564	他
+T256	Person-Pronoun 2570 2571	我
+T257	Thing-Nominal 2582 2584	金钱
+T258	Person-Pronoun 2593 2594	他
+T259	Abstract 2610 2614	市场经济
+T260	Thing-Nominal 2616 2624	一叶难驾驭的扁舟
+T261	Thing-Nominal 2634 2638	他的书籍
+T262	Person-Pronoun 2634 2635	他
+T263	Person-Pronoun 2642 2643	他
+T264	Thing-Nominal 2650 2652	风浪
+T265	Thing-Nominal 2657 2660	钓鱼船
+T266	Person-Name 2662 2665	华之风
+T267	Person-Name 2674 2679	毛泽东主席
+*	Coreference T267 T195
+T268	Location-Nominal 2682 2684	农村
+T269	Location-Nominal 2686 2691	广阔的天地
+R43	General-Special Arg1:T269 Arg2:T268	
+T270	Location-Nominal 2707 2709	农村
+T271	Location-Nominal 2711 2714	好地方
+R44	General-Special Arg1:T271 Arg2:T270	
+T272	Person-Pronoun 2736 2737	我
+*	Coreference T272 T266
+T273	Person-Nominal 2745 2747	人儿
+T274	Person-Pronoun 2749 2751	自己
+T275	Thing-Nominal 2760 2762	刀山
+T276	Thing-Nominal 2763 2765	火海
+T277	Thing-Nominal 2773 2775	高山
+T278	Thing-Nominal 2778 2780	夕阳
+T279	Time-Implicit 2784 2786	黄昏

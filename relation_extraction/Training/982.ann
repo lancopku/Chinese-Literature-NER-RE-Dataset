@@ -1,0 +1,237 @@
+T1	Time-Explicit 0 8	早在原始社会时期
+T2	Time-Implicit 9 11	古代
+T3	Organization-Name 9 15	古代巴人部落
+T4	Location-Name 17 20	武落山
+T5	Person-Nominal 23 25	笔者
+T6	Location-Nominal 35 37	洞穴
+T7	Location-Name 51 54	黄杨溪
+T8	Location-Name 57 60	鲢鱼山
+T9	Location-Name 64 67	鱼泉湾
+T10	Location-Name 70 73	土地垴
+T11	Thing-Nominal 79 80	鱼
+T12	Time-Implicit 83 85	先后
+T13	Location-Nominal 88 92	生活遗址
+T14	Location-Name 93 96	下渔口
+T15	Location-Name 97 100	牛盘溪
+T16	Location-Name 105 108	青鱼洞
+R1	Part-Whole Arg1:T14 Arg2:T13	
+R2	Part-Whole Arg1:T16 Arg2:T13	
+R3	Part-Whole Arg1:T15 Arg2:T13	
+T17	Person-Name 111 113	廪君
+T18	Person-Name 133 135	廪君
+T19	Organization-Name 140 144	巴人部落
+T20	Abstract 154 157	原始型
+T21	Abstract 158 161	近代型
+T22	Abstract 167 171	生产方式
+T23	Location-Nominal 199 202	山野里
+T24	Thing-Name 203 206	狗尾草
+T25	Thing-Name 215 218	狗尾草
+T26	Thing-Nominal 221 223	稻谷
+T27	Person-Nominal 224 226	祖先
+T28	Location-Nominal 274 276	遗址
+T29	Location-Name 277 293;294 297	牛栏口、羊啃草、赶猪岩、骡马洞、 固仓坪
+R4	Part-Whole Arg1:T29 Arg2:T28	
+T30	Time-Explicit 300 302	当今
+T33	Location-Nominal 336 340	现代景区
+T35	Location-Nominal 374 378	山门上方
+T36	Location-Nominal 414 416	山门
+T37	Thing-Nominal 418 425	一块古老的石碑
+T38	Thing-Nominal 438 440	古碑
+T39	Thing-Nominal 466 467;468 470	碑 文记
+T40	Time-Implicit 471 473	古代
+T41	Person-Nominal 473 475	巴人
+T42	Physical 485 488	甲骨文
+T43	Abstract 478 483	《山海经》
+T44	Location-Nominal 489 491	西南
+T45	Location-Name 492 494	巴国
+T46	Location-Name 495 498	武落山
+T47	Person-Nominal 499 503	古代巴人
+T48	Abstract 504 507	发祥地
+T49	Person-Name 508 510	廪君
+T50	Person-Name 514 518	武王克殷
+T51	Location-Nominal 521 523	子国
+T52	Time-Implicit 524 527	春秋时
+T53	Location-Name 529 533	楚、蜀国
+T54	Time-Implicit 536 538	周后
+T55	Person-Name 538 541	秦始皇
+T56	Location-Nominal 552 554	部族
+T57	Location-Name 558 565	湘、鄂、川、默
+T58	Time-Implicit 568 570	唐代
+T59	Person-Name 571 573	巴国
+T60	Time-Explicit 583 585	而今
+T61	Organization-Name 585 588	土家族
+T62	Person-Nominal 585 592	土家族的
+先民
+T63	Thing-Nominal 596 598	碑文
+T64	Location-Nominal 614 618	民族大厅
+T65	Thing-Nominal 621 623	楼阁
+T66	Thing-Nominal 625 626	砖
+T67	Thing-Nominal 627 628	瓦
+T68	Thing-Nominal 629 632	万字窗
+T69	Thing-Nominal 633 636	双开门
+T70	Thing-Nominal 649 653	古老宫殿
+T71	Location-Nominal 655 657	厅内
+T72	Metric 661 663	5米
+T73	Metric 665 667	2米
+T74	Person-Name 692 694	廪君
+T75	Thing-Nominal 660 696	高5米、宽2米，玻璃钢，抹金装表，闪闪发光，庄严肃穆，气势磅礴的廪君神像
+R6	Located Arg1:T75 Arg2:T71	
+T76	Person-Nominal 697 699	来客
+T77	Thing-Nominal 703 705	魁甲
+T78	Thing-Nominal 708 710	号角
+T79	Thing-Name 711 714	廪君像
+T80	Location-Nominal 711 715	廪君像前
+T81	Time-Explicit 743 747	五千年前
+T82	Location-Nominal 760 762	大厅
+T83	Thing-Nominal 764 773	弯弯曲曲的青石台阶
+T84	Thing-Nominal 778 788	浑然天成的灰白色石虎
+T85	Time-Implicit 798 802	年长月久
+T86	Thing-Nominal 808 810	白虎
+T87	Location-Nominal 812 814	山腰
+R7	Located Arg1:T86 Arg2:T87	
+T88	Location-Nominal 817 819	林间
+T89	Thing-Nominal 823 828	蜿蜒的清江
+T90	Person-Name 850 852	廪君
+T91	Thing-Nominal 855 859	一股青烟
+T92	Thing-Nominal 862 864	白虎
+T93	Location-Nominal 867 869	蓝天
+T94	Organization-Name 870 873	土家族
+T95	Person-Nominal 870 875	土家族儿女
+T96	Thing-Nominal 877 879	白虎
+T97	Person-Nominal 881 883	自己
+T98	Person-Nominal 881 886	自己的祖先
+T99	Thing-Nominal 903 905	夕阳
+T100	Thing-Nominal 908 910	晚霞
+T101	Thing-Nominal 911 912	窗
+T102	Person-Nominal 913 915	笔者
+T104	Location-Name 930 933	武落山
+T105	Location-Nominal 930 936	武落山的顶平
+T106	Person-Nominal 968 972	舟头少女
+T107	Thing-Nominal 975 978	花边衣
+T108	Thing-Nominal 981 984	绣花鞋
+T109	Person-Nominal 1027 1029	宾客
+T111	Location-Name 1033 1037	武落山顶
+T112	Person-Nominal 1040 1042	人民
+T113	Abstract 1055 1058	十八大
+T114	Location-Nominal 1068 1070	乡村
+T115	Thing-Nominal 1073 1082	平滑如镜的乡村公路
+T116	Thing-Nominal 1090 1091;1092 1094	灰 沙砖
+T117	Thing-Nominal 1095 1098	瓷砖墙
+T118	Thing-Nominal 1099 1107	雪白如银的小洋楼
+T119	Thing-Nominal 1108 1111	吊脚楼
+T120	Thing-Nominal 1112 1116	农家饭庄
+T121	Location-Nominal 1125 1127	城市
+T122	Location-Nominal 1129 1131	乡村
+T123	Person-Name 1132 1134	包公
+T124	Thing-Nominal 1140 1143	乡间饭
+T125	Thing-Nominal 1149 1152	苞谷面
+T126	Thing-Nominal 1153 1155	大米
+T127	Thing-Nominal 1163 1166	木制蹲
+T128	Location-Nominal 1163 1167	木制蹲里
+T129	Thing-Nominal 1168 1171	苞谷穗
+T130	Thing-Nominal 1172 1175	葵花籽
+T131	Location-Nominal 1178 1181	走栏里
+T132	Thing-Nominal 1184 1187	花椒盐
+T133	Thing-Nominal 1182 1191	下了花椒盐的墩墩肉
+T134	Location-Nominal 1193 1195	缸里
+R8	Located Arg1:T129 Arg2:T131	
+R9	Located Arg1:T130 Arg2:T131	
+R10	Located Arg1:T133 Arg2:T134	
+T135	Thing-Nominal 1196 1199	大块肉
+T136	Thing-Nominal 1201 1204	腊香肠
+T137	Location-Nominal 1206 1210	火炉屋里
+R11	Located Arg1:T136 Arg2:T137	
+R12	Located Arg1:T135 Arg2:T137	
+T138	Thing-Nominal 1211 1214	榨广椒
+T139	Thing-Nominal 1215 1219	泡球白菜
+T140	Location-Nominal 1221 1224	瓦坛里
+R13	Located Arg1:T139 Arg2:T140	
+R14	Located Arg1:T138 Arg2:T140	
+T141	Thing-Nominal 1225 1228	烧洋芋
+T142	Location-Nominal 1231 1235	油星火里
+R15	Located Arg1:T141 Arg2:T142	
+T143	Thing-Nominal 1236 1243	红萝卜、大青椒
+T144	Location-Nominal 1246 1249	泥土里
+T145	Thing-Nominal 1255 1258	春天芽
+T146	Thing-Nominal 1259 1261	鸡蛋
+R16	Located Arg1:T143 Arg2:T144	
+T147	Thing-Nominal 1263 1266	榨广椒
+T148	Thing-Nominal 1267 1269	腊肉
+T149	Thing-Nominal 1270 1273	坨坨肉
+T150	Thing-Nominal 1274 1276	土豆
+T151	Thing-Nominal 1277 1280	烧鸡公
+T152	Thing-Nominal 1281 1283	香菇
+T153	Thing-Nominal 1286 1288	烧酒
+T154	Location-Nominal 1289 1291	乡间
+T155	Person-Nominal 1289 1297	乡间土家嫂、幺妹
+T156	Location-Nominal 1302 1303	桌
+T157	Thing-Nominal 1306 1308	泥土
+T158	Thing-Nominal 1304 1313	带着泥土鲜活的饭菜
+T159	Location-Nominal 1321 1322;1323 1324	乡 间
+T160	Location-Nominal 1326 1328	城里
+T161	Time-Implicit 1330 1332	今年
+T162	Time-Explicit 1334 1336	明年
+T163	Location-Nominal 1339 1343	小洋楼里
+T164	Person-Nominal 1345 1347	老人
+T165	Person-Pronoun 1348 1350	他们
+*	Coreference T165 T164
+T166	Person-Nominal 1358 1360	过客
+T167	Time-Explicit 1398 1399;1400 1401	清 早
+T168	Thing-Nominal 1406 1408	黄牛
+T169	Thing-Nominal 1411 1413	山羊
+T170	Location-Nominal 1415 1418	大山里
+T171	Thing-Nominal 1424 1426	牛铃
+T172	Thing-Nominal 1431 1433	山羊
+T173	Thing-Nominal 1439 1446	小花猫、守家犬
+T174	Location-Nominal 1456 1459	山林里
+T175	Location-Nominal 1461 1464	石缝间
+T176	Time-Implicit 1484 1485	春
+T177	Thing-Nominal 1486 1487	鸟
+T178	Thing-Nominal 1488 1490	山花
+T179	Person-Nominal 1480 1482	游客
+T180	Time-Implicit 1493 1497	乡村夜晚
+T181	Location-Nominal 1493 1495	乡村
+T182	Thing-Nominal 1500 1502	月色
+T183	Thing-Nominal 1517 1519	月光
+T184	Thing-Nominal 1514 1522	那盛世月光的路灯
+T185	Location-Nominal 1528 1536	商铺、超市、饭庄
+T186	Thing-Nominal 1528 1540	商铺、超市、饭庄的霓虹灯
+R17	Located Arg1:T186 Arg2:T185	
+T187	Abstract 1549 1553	改革开放
+T188	Person-Nominal 1571 1573	笔者
+T189	Thing-Nominal 1594 1596	脚印
+T190	Thing-Nominal 1608 1610	山花
+T191	Time-Implicit 1603 1604	春
+T192	Location-Nominal 1605 1607	大地
+T193	Abstract 1621 1624	十八大
+T195	Metric 1343 1345	几个
+T196	Metric 1592 1594	一双
+R18	Near Arg1:T7 Arg2:T4	
+R19	Near Arg1:T8 Arg2:T4	
+R20	Near Arg1:T9 Arg2:T4	
+R21	Near Arg1:T10 Arg2:T4	
+T197	Location-Name 101 104	赶鱼溪
+R22	Part-Whole Arg1:T197 Arg2:T13	
+T31	Thing-Nominal 362 373	精心绘就仿古双层的山门
+R23	Located Arg1:T31 Arg2:T33	
+T32	Thing-Nominal 379 380;381 395	红 底金色“武落钟离山”五个大字
+R5	Located Arg1:T32 Arg2:T35	
+T34	Person-Nominal 446 447	人
+R24	Ownership Arg1:T62 Arg2:T61	
+T194	Person-Nominal 585 589;590 592	土家族的 先民
+T198	Abstract 791 797	“白虎望江”
+T199	Thing-Nominal 803 804	日
+T200	Thing-Nominal 805 806	雨
+R25	Located Arg1:T91 Arg2:T93	
+R26	Located Arg1:T100 Arg2:T101	
+T103	Thing-Nominal 942 944	江水
+T201	Thing-Nominal 954 956	山泉
+T202	Thing-Nominal 962 963;964 965	轻 舟
+T203	Location-Nominal 968 970	舟头
+R27	Part-Whole Arg1:T107 Arg2:T106	
+T204	Location-Nominal 979 980	脚
+R28	Located Arg1:T108 Arg2:T204	
+T205	Location-Name 1003 1006	武落山
+T206	Location-Name 1007 1010	武落山
+T207	Thing-Nominal 1017 1019	芍药
+T208	Thing-Nominal 1020 1022	牡丹

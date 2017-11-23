@@ -1,0 +1,299 @@
+T1	Time-Explicit 0 7	公元2013年
+T2	Time-Implicit 0 16	公元2013年春光明媚的一个下午
+T3	Person-Nominal 17 31	一个名不见经传满头白发的老汉
+T4	Location-Name 34 37	沂蒙山
+T5	Thing-Nominal 34 40	沂蒙山黄土地
+T6	Thing-Nominal 48 55	通往北京的列车
+T7	Location-Name 50 52	北京
+T8	Person-Pronoun 56 57	他
+*	Coreference T8 T3 T15
+T9	Location-Name 68 71	临沭县
+T10	Person-Nominal 71 78	一位胡姓的青年
+T11	Metric 71 73	一位
+T12	Person-Name 83 85	小胡
+*	Coreference T12 T10 T16 T17
+T13	Location-Name 86 90	北京机场
+T14	Person-Nominal 92 101	他那美国侨住的父母
+R1	Family Arg1:T14 Arg2:T12	
+T15	Person-Nominal 102 104	老汉
+T16	Person-Pronoun 92 93	他
+T17	Person-Nominal 110 113	小伙子
+T18	Thing-Nominal 130 132	列车
+*	Coreference T18 T6
+T19	Location-Name 135 138	北京站
+T20	Person-Name 139 141	小胡
+T21	Person-Nominal 142 144	老汉
+T22	Person-Nominal 154 158	这位老汉
+*	Coreference T22 T21 T23
+T23	Person-Pronoun 170 171	他
+T24	Person-Nominal 172 176	普通农民
+T25	Thing-Nominal 191 192	书
+T26	Thing-Nominal 193 194	笔
+T27	Thing-Nominal 195 196	纸
+T28	Thing-Nominal 197 199	眼镜
+T29	Location-Nominal 206 208	地头
+T30	Thing-Nominal 212 213	书
+T31	Thing-Nominal 217 219	笔记
+T32	Person-Pronoun 231 232	他
+T33	Location-Nominal 233 240	光秃秃的西山上
+T34	Thing-Nominal 243 250	几十棵白杨树，
+R2	Located Arg1:T34 Arg2:T33	
+T35	Metric 243 246	几十棵
+T36	Metric 253 255	两棵
+T37	Person-Pronoun 262 263	他
+T38	Metric 264 269	十二年时间
+T39	Metric 273 276	好几把
+T40	Thing-Nominal 276 277	镐
+T41	Metric 278 281	好几张
+T42	Thing-Nominal 281 282	锨
+T43	Thing-Nominal 285 291	八百平方土地
+T44	Metric 285 289	八百平方
+T45	Location-Nominal 293 296	这山场
+*	Coreference T45 T33 T57
+T46	Physical 302 308	20公分土层
+T47	Metric 302 306	20公分
+T48	Thing-Nominal 316 320	种的大葱
+R3	Located Arg1:T48 Arg2:T45	
+T49	Metric 322 326	300克
+T50	Thing-Nominal 328 330	地瓜
+R4	Located Arg1:T50 Arg2:T45	
+T51	Thing-Nominal 339 352	南瓜、花生、绿豆、红小豆等
+R5	Located Arg1:T51 Arg2:T45	
+T52	Thing-Nominal 354 358	两棵白杨
+T53	Metric 354 356	两棵
+R6	Located Arg1:T52 Arg2:T45	
+T54	Person-Nominal 360 362	老汉
+T55	Person-Pronoun 367 368	他
+T56	Person-Nominal 375 379	高中老师
+R7	Social Arg1:T56 Arg2:T55	
+T57	Location-Nominal 391 394	这地方
+T58	Person-Pronoun 399 400	他
+T59	Time-Explicit 420 427	2011年7月
+T60	Person-Nominal 428 430	儿子
+R8	Family Arg1:T60 Arg2:T58	
+T61	Location-Name 430 432	南京
+T62	Person-Nominal 439 446	山西晋城的儿媳
+R9	Family Arg1:T62 Arg2:T60	
+R10	Family Arg1:T62 Arg2:T58	
+T63	Location-Name 448 450	淮安
+T64	Location-Name 452 455	大学城
+T65	Person-Nominal 458 459;460 461	老 汉
+T66	Thing-Nominal 468 471	土特产
+T67	Person-Nominal 474 476	儿子
+T68	Location-Name 484 489	周总理故居
+T69	Thing-Nominal 499 503	伟人塑像
+T70	Person-Nominal 508 514	过往的小学生
+T71	Person-Nominal 522 526	这位爷爷
+T72	Person-Name 484 487	周总理
+T73	Person-Nominal 499 501	伟人
+*	Coreference T73 T72
+T74	Person-Nominal 533 535	老汉
+T75	Person-Nominal 543 545	儿子
+T76	Person-Pronoun 548 549	他
+T77	Thing-Nominal 579 581	风雨
+T78	Person-Nominal 599 601	老汉
+T79	Organization-Nominal 605 607	大学
+T80	Person-Nominal 616 618	儿子
+T81	Person-Nominal 627 629	爸爸
+*	Coreference T81 T78
+T82	Person-Nominal 651 653	儿子
+T83	Person-Pronoun 656 657	我
+*	Coreference T83 T82
+T84	Person-Nominal 658 660	爸爸
+R11	Family Arg1:T80 Arg2:T81	
+T85	Person-Nominal 664 666	爸爸
+T86	Thing-Nominal 683 685	铁树
+T87	Metric 685 688	60年
+T88	Person-Nominal 693 695	爸爸
+T89	Person-Nominal 713 715	父子
+R12	Part-Whole Arg1:T82 Arg2:T89	
+R13	Part-Whole Arg1:T84 Arg2:T89	
+T90	Location-Name 716 718	淮安
+T91	Metric 724 727	六十年
+T92	Location-Name 732 734	淮安
+T93	Person-Nominal 740 744	文人墨客
+T94	Person-Nominal 756 758	英雄
+T95	Person-Name 762 764	韩信
+T96	Person-Name 776 779	吴承恩
+T97	Person-Name 787 790	美猴王
+T98	Person-Nominal 805 810	新四军健儿
+T99	Organization-Name 805 808	新四军
+T100	Person-Nominal 818 820	壮士
+T101	Person-Name 827 830	周总理
+T102	Person-Nominal 836 838	人民
+T103	Person-Nominal 856 858	儿子
+T104	Person-Nominal 862 864	爸爸
+T105	Person-Nominal 867 869	老汉
+T106	Location-Nominal 870 873	儿子家
+T107	Metric 875 878	一个月
+T108	Person-Pronoun 894 895	他
+*	Coreference T108 T105
+T109	Person-Nominal 903 905	老汉
+T110	Person-Pronoun 920 921	他
+T111	Person-Name 935 937	李白
+T112	Person-Name 915 917	太白
+T113	Person-Name 909 911	太白
+*	Coreference T111 T112 T116
+T114	Location-Name 943 946	长安街
+T115	Person-Nominal 951 953	天子
+R14	Social Arg1:T115 Arg2:T111	
+T116	Person-Nominal 961 962	臣
+T117	Person-Pronoun 969 970	他
+T118	Person-Nominal 984 986	乡亲
+R15	Social Arg1:T118 Arg2:T117	
+T119	Person-Pronoun 990 991	他
+T120	Person-Name 1003 1006	唐伯虎
+T121	Person-Pronoun 1011 1012	我
+*	Coreference T121 T119
+T122	Person-Name 1015 1017	李白
+T123	Person-Pronoun 1025 1026	我
+T124	Person-Pronoun 1028 1029	我
+T125	Person-Pronoun 1036 1037	我
+T126	Thing-Nominal 1032 1035	天子船
+T127	Person-Nominal 1045 1047	老汉
+T128	Person-Nominal 1060 1064	君子小人
+T129	Person-Name 1118 1125	善书法的刘教授
+T130	Location-Name 1126 1128	青海
+T131	Person-Name 1139 1141	太白
+T132	Person-Nominal 1163 1165	老汉
+T133	Person-Pronoun 1179 1180	他
+T134	Person-Nominal 1183 1189	初高中时老师
+R16	Social Arg1:T134 Arg2:T133	
+T135	Person-Nominal 1194 1196	恩师
+*	Coreference T135 T134
+T136	Person-Name 1205 1214	躺在病床上的于老师
+R17	Part-Whole Arg1:T136 Arg2:T135	
+T137	Thing-Nominal 1222 1223;1224 1227	他 的文章
+T138	Person-Name 1228 1235	善书画的严老师
+R18	Part-Whole Arg1:T138 Arg2:T135	
+R19	Social Arg1:T136 Arg2:T133	
+R20	Social Arg1:T138 Arg2:T133	
+T139	Person-Pronoun 1239 1240	他
+T140	Person-Nominal 1250 1252	老汉
+T141	Organization-Name 1254 1257	海汇报
+T142	Metric 1266 1270	四十二年
+T143	Person-Name 1328 1333	八旬刘校长
+R21	Social Arg1:T143 Arg2:T140	
+T144	Person-Nominal 1335 1337	爱徒
+*	Coreference T144 T140
+T145	Thing-Nominal 1372 1374	火车
+T146	Person-Name 1376 1378	小胡
+T147	Person-Nominal 1379 1381	老汉
+T148	Person-Nominal 1386 1388	老汉
+T149	Person-Pronoun 1399 1400	他
+T150	Person-Nominal 1403 1406	曾祖父
+R22	Family Arg1:T150 Arg2:T149	
+*	Coreference T149 T148
+T151	Person-Nominal 1415 1418	曾祖父
+T152	Location-Name 1419 1421	南京
+T153	Time-Implicit 1426 1428	春节
+T154	Location-Nominal 1435 1437	家乡
+T155	Location-Nominal 1438 1441	荒野中
+T156	Thing-Nominal 1443 1446	一群狼
+T157	Metric 1443 1445	一群
+R23	Located Arg1:T156 Arg2:T155	
+T158	Person-Pronoun 1448 1449	他
+*	Coreference T158 T151
+T159	Time-Implicit 1454 1457	危急时
+T160	Person-Pronoun 1458 1459	他
+T161	Thing-Nominal 1462 1468	一头养大的狼
+R24	Part-Whole Arg1:T161 Arg2:T156	
+T162	Thing-Pronoun 1472 1473	它
+*	Coreference T162 T161 T163
+T163	Thing-Nominal 1477 1480	那头狼
+T164	Person-Nominal 1484 1488	救命恩人
+*	Coreference T164 T160
+T165	Thing-Nominal 1498 1500	狼群
+*	Coreference T165 T156
+T166	Person-Nominal 1503 1506	曾祖父
+T167	Person-Nominal 1511 1513	老汉
+T168	Person-Nominal 1524 1529	有思想的人
+T169	Thing-Nominal 1515 1517	禽兽
+T170	Person-Nominal 1537 1541	父老乡亲
+T171	Person-Nominal 1542 1546	妻子儿女
+T172	Location-Nominal 1531 1536	可爱的祖国
+T173	Person-Pronoun 1547 1548	他
+R25	Family Arg1:T171 Arg2:T173	
+R26	Family Arg1:T170 Arg2:T173	
+R27	Family Arg1:T170 Arg2:T171	
+*	Coreference T173 T167
+T174	Organization-Nominal 1553 1554;1555 1558	伟 大的党
+T175	Person-Pronoun 1561 1562	他
+T176	Person-Pronoun 1575 1576	他
+T177	Person-Pronoun 1602 1603	他
+T178	Person-Pronoun 1607 1608	我
+*	Coreference T178 T177
+T179	Person-Pronoun 1614 1615	我
+T180	Time-Implicit 1625 1628	两年来
+T181	Person-Nominal 1629 1631	老汉
+T182	Person-Pronoun 1637 1638	他
+T183	Thing-Nominal 1637 1641	他的作品
+R28	Ownership Arg1:T182 Arg2:T183	
+T184	Thing-Nominal 1646 1648	报纸
+T185	Thing-Pronoun 1642 1644	有的
+R29	Part-Whole Arg1:T185 Arg2:T183	
+T186	Thing-Pronoun 1649 1651	有的
+R30	Part-Whole Arg1:T186 Arg2:T183	
+T187	Thing-Nominal 1653 1655	刊物
+T188	Organization-Name 1659 1681	《中华颂》《东方美》《祖国好》等诗文书画大赛
+T189	Thing-Name 1700 1706	诺贝尔文学奖
+T190	Person-Pronoun 1708 1709	他
+T191	Person-Pronoun 1715 1716	他
+T192	Abstract 1720 1730	中国梦，中国农民的梦
+T193	Organization-Nominal 1732 1736	村党支部
+T194	Organization-Name 1747 1751	莒州通讯
+T195	Abstract 1760 1774	中国当代作家书画家代表作文库
+T196	Person-Pronoun 1776 1777	他
+T197	Abstract 1779 1790	农民版，谁是最可爱的人
+T198	Organization-Name 1792 1799	“中华颂”大赛
+T199	Person-Pronoun 1804 1805	他
+T200	Organization-Nominal 1808 1810	委会
+T201	Location-Name 1814 1816	北京
+T202	Location-Name 1817 1823	钓鱼台国宾馆
+R31	Part-Whole Arg1:T202 Arg2:T201	
+T203	Location-Name 1829 1832	北京站
+T204	Person-Name 1835 1837	小胡
+T205	Person-Nominal 1839 1841	老汉
+T206	Person-Nominal 1846 1848	两人
+R32	Part-Whole Arg1:T205 Arg2:T206	
+R33	Part-Whole Arg1:T204 Arg2:T206	
+T207	Time-Implicit 1856 1866	4月25日上午9时许
+T208	Person-Nominal 1875 1877	老汉
+T209	Person-Pronoun 1886 1887	他
+T210	Person-Nominal 1898 1908	来自全国各地的艺术家
+T211	Person-Name 1915 1916;1917 1923	著 名词作家石祥
+T212	Person-Pronoun 1924 1925	他
+T213	Person-Pronoun 1928 1929	他
+T214	Person-Nominal 1947 1949	老汉
+T215	Person-Nominal 1954 1965	70多岁的老支书与乡亲
+R34	Social Arg1:T215 Arg2:T214	
+T216	Person-Name 1970 1976	83的盛校长
+T217	Person-Name 1977 1985	高中班主任慕老师
+T218	Person-Name 1986 1991	老中医邵老
+T219	Person-Name 1992 1997;1998 1999	兰草画家长 风
+T220	Person-Pronoun 1966 1967	他
+*	Coreference T220 T214 T224
+T221	Person-Name 1970 1997;1998 2000	83的盛校长，高中班主任慕老师，老中医邵老，兰草画家长 风等
+R35	Social Arg1:T221 Arg2:T220	
+T222	Person-Name 2005 2015	县交通局退休干部老魏
+T223	Person-Nominal 2064 2066	老汉
+T224	Person-Name 2020 2026	草根达人孝洪
+T225	Location-Nominal 2027 2031	小山村中
+T226	Thing-Nominal 2053 2054	剑
+T227	Person-Nominal 2068 2070	老牛
+*	Coreference T227 T223
+T228	Person-Pronoun 2087 2088	他
+T229	Location-Name 2100 2102	淮安
+T230	Location-Name 2089 2091	北京
+T231	Person-Nominal 2102 2108	看孙子的老伴
+R36	Family Arg1:T231 Arg2:T228	
+R37	Family Arg1:T231 Arg2:T82	
+T232	Person-Nominal 2114 2116	老汉
+T233	Person-Nominal 2103 2105	孙子
+R38	Family Arg1:T233 Arg2:T231	
+R39	Family Arg1:T233 Arg2:T228	
+R40	Family Arg1:T233 Arg2:T82	
+T234	Person-Pronoun 2142 2143	你
+T235	Person-Pronoun 2149 2150	我
+T236	Person-Pronoun 2159 2160	你
+T237	Person-Pronoun 2165 2166	我

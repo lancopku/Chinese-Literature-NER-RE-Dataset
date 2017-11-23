@@ -1,0 +1,274 @@
+T1	Time-Implicit 4 6	有时
+T2	Person-Nominal 9 10	人
+T3	Person-Nominal 12 13	妻
+T4	Person-Nominal 16 17	人
+T5	Thing-Nominal 34 37	双面梯
+T6	Person-Pronoun 38 39	我
+R1	Family Arg1:T6 Arg2:T3	
+T7	Person-Nominal 43 44	人
+T8	Person-Nominal 53 54	民
+T9	Person-Pronoun 66 67	他
+*	Coreference T9 T8
+T10	Person-Pronoun 76 77	我
+T11	Thing-Nominal 190 191	衣
+T12	Thing-Nominal 192 193	饭
+T13	Location-Nominal 160 164	一方土地
+T14	Person-Nominal 205 206	人
+T15	Person-Pronoun 215 216	你
+T16	Person-Pronoun 217 218	他
+T17	Metric 236 238	一位
+T18	Person-Nominal 238 243	半老的人物
+T19	Person-Name 245 247	牛儿
+*	Coreference T19 T18 T16 T25
+T20	Person-Pronoun 228 229	我
+*	Coreference T15 T20 T24 T36 T39
+T21	Person-Nominal 223 224	妻
+T22	Location-Nominal 231 233	街道
+T23	Person-Nominal 256 257	妻
+T24	Person-Pronoun 259 260	你
+T25	Person-Pronoun 265 266	他
+T26	Person-Nominal 271 272	妻
+T27	Thing-Nominal 275 277	冬衣
+T28	Time-Implicit 278 280	今天
+T29	Time-Implicit 282 283	冬
+T30	Person-Nominal 292 293	妻
+T31	Thing-Nominal 294 296	毛衣
+T32	Thing-Nominal 297 299	绒衣
+T33	Thing-Nominal 300 302	皮衣
+T34	Thing-Nominal 303 306	羽绒服
+T35	Person-Name 316 318	牛儿
+T36	Person-Pronoun 324 325	你
+T37	Thing-Nominal 329 333	宝贝大衣
+T38	Person-Pronoun 335 336	他
+*	Coreference T38 T35 T58 T63 T65
+T39	Person-Pronoun 345 346	我
+T40	Thing-Pronoun 362 367	这件棉大衣
+*	Coreference T40 T37 T42 T43 T47 T48 T68 T73 T79 T148
+T41	Person-Pronoun 368 369	我
+T42	Thing-Nominal 372 374	宝贝
+T43	Thing-Pronoun 376 377	它
+T44	Person-Pronoun 384 385	我
+T45	Person-Pronoun 392 393	我
+T46	Person-Pronoun 398 400	自己
+*	Coreference T46 T45 T44
+T47	Thing-Nominal 408 412;413 421	属于自己 的第一件新棉大衣
+T48	Thing-Pronoun 422 423	它
+T49	Person-Pronoun 428 429	我
+T50	Metric 429 434	三、四个月
+T51	Thing-Nominal 429 443	三、四个月的“民办教师津贴”
+T52	Person-Nominal 446 447	人
+T53	Location-Nominal 448 450	黑市
+T54	Thing-Nominal 452 454	布票
+T55	Thing-Nominal 455 458	棉花票
+T56	Person-Nominal 463 469	上等成衣师傅
+T57	Person-Nominal 485 486	妻
+T58	Person-Nominal 509 525	这位“古戏楼，捞潲水渣吃”的人物
+T59	Time-Implicit 529 531	这天
+T60	Thing-Nominal 546 547	手
+T61	Thing-Nominal 548 549	脚
+T62	Location-Nominal 540 541	屋
+T63	Person-Nominal 550 559	一位流浪街头的人物
+T64	Metric 550 552	一位
+T65	Person-Pronoun 567 568	他
+T66	Metric 573 575	一件
+T67	Thing-Nominal 575 580	上好的棉衣
+T68	Thing-Nominal 588 589;590 595	这 件宝贝棉衣
+T69	Person-Pronoun 623 624	我
+T70	Person-Nominal 625 626	妻
+T71	Person-Name 627 629	牛儿
+T72	Person-Pronoun 641 642	他
+*	Coreference T72 T71 T75
+T73	Thing-Nominal 649 651	棉衣
+T74	Person-Nominal 644 645	妻
+T75	Person-Pronoun 656 657	他
+T76	Thing-Nominal 658 660	双手
+R2	Part-Whole Arg1:T76 Arg2:T74	
+T77	Person-Name 670 672	牛儿
+T78	Person-Pronoun 674 675	你
+*	Coreference T78 T77
+T79	Thing-Nominal 675 677	大衣
+T80	Person-Pronoun 688 689	你
+T81	Person-Name 690 692	牛儿
+T82	Person-Pronoun 696 697	他
+*	Coreference T82 T81
+T83	Person-Nominal 728 729	妻
+T84	Person-Pronoun 733 734	我
+*	Coreference T84 T83
+T85	Time-Implicit 737 740	六月天
+T86	Person-Name 759 761	牛儿
+T87	Person-Pronoun 762 763	你
+*	Coreference T87 T86
+T88	Person-Pronoun 809 810	你
+T89	Person-Name 810 812	牛儿
+*	Coreference T89 T88 T95
+T90	Time-Implicit 819 821	当初
+T91	Person-Pronoun 821 823	我们
+R3	Part-Whole Arg1:T88 Arg2:T91	
+T92	Person-Pronoun 801 802	我
+R4	Part-Whole Arg1:T92 Arg2:T91	
+T93	Organization-Nominal 827 830	生产队
+T94	Metric 825 827	一个
+T95	Person-Pronoun 835 836	你
+T96	Person-Pronoun 846 847	我
+T97	Thing-Nominal 850 851	鱼
+T98	Thing-Nominal 852 854	黄鳝
+T99	Person-Pronoun 855 856	我
+T100	Time-Implicit 863 865	晚间
+T101	Person-Nominal 866 867	人
+T102	Person-Pronoun 911 912	你
+T103	Person-Nominal 912 914	父母
+R5	Family Arg1:T102 Arg2:T103	
+T104	Person-Nominal 918 921	弟妹们
+R6	Family Arg1:T104 Arg2:T102	
+T105	Metric 944 946	一间
+T106	Location-Nominal 946 948	老屋
+T107	Location-Nominal 962 963	街
+T108	Location-Nominal 964 967	古戏楼
+T109	Thing-Nominal 968 971	潲水渣
+T110	Person-Pronoun 991 992	我
+T111	Location-Nominal 995 997	铜梁
+T112	Person-Pronoun 998 999	你
+*	Coreference T112 T102 T119
+*	Coreference T110 T92
+T113	Thing-Nominal 1010 1012	头发
+T114	Thing-Nominal 1012 1014	胡子
+R7	Part-Whole Arg1:T113 Arg2:T112	
+R8	Part-Whole Arg1:T114 Arg2:T112	
+T115	Thing-Nominal 1019 1020	脸
+R9	Part-Whole Arg1:T115 Arg2:T112	
+T116	Thing-Nominal 1022 1023	衣
+T117	Thing-Nominal 1024 1025	衫
+T118	Person-Nominal 1028 1029	人
+T119	Person-Nominal 1032 1039	一个能动的动物
+T120	Time-Implicit 1061 1063	那时
+T121	Location-Nominal 1064 1066	长街
+T122	Person-Nominal 1068 1072	这类人物
+T123	Thing-Nominal 1079 1081	破锅
+T124	Thing-Nominal 1081 1083	烂桶
+T125	Location-Nominal 1084 1086	街头
+T126	Thing-Nominal 1087 1088	手
+T127	Thing-Nominal 1089 1090	钱
+T128	Location-Nominal 1093 1096	垃圾坑
+T129	Thing-Nominal 1098 1099	食
+T130	Metric 1107 1109	一个
+T131	Person-Nominal 1109 1112	小女孩
+T132	Person-Nominal 1116 1119	老头儿
+T133	Location-Nominal 1123 1125	店铺
+T134	Person-Nominal 1131 1134	瘸腿人
+T135	Thing-Nominal 1136 1141	滑动的木板
+T136	Person-Nominal 1147 1148	人
+T137	Person-Nominal 1154 1157	女学生
+T138	Location-Nominal 1157 1160	长跑街
+T139	Person-Pronoun 1209 1211	他们
+*	Coreference T139 T122
+T140	Person-Nominal 1224 1225	人
+T141	Time-Implicit 1242 1244	而今
+T142	Metric 1251 1253	一件
+T143	Thing-Nominal 1253 1259	半旧黑呢大衣
+T144	Metric 1260 1262	一双
+T145	Thing-Nominal 1262 1267	半旧黑皮鞋
+T146	Person-Pronoun 1272 1273	他
+T147	Person-Name 1244 1246	牛儿
+*	Coreference T146 T147
+T148	Thing-Nominal 1273 1277	宝贝大衣
+T149	Person-Pronoun 1326 1327	我
+T150	Person-Name 1331 1333	牛儿
+T151	Location-Nominal 1331 1335	牛儿新居
+T152	Location-Nominal 1337 1353	一间在原生产队的晒坝侧砌就的砖房
+T153	Metric 1337 1339	一间
+T154	Location-Nominal 1354 1356	砖房
+*	Coreference T154 T152
+T155	Thing-Nominal 1363 1365	衣服
+T156	Thing-Nominal 1367 1373	绿色塑料雨衣
+T157	Thing-Nominal 1374 1380	蓝色长羽绒服
+T158	Thing-Nominal 1381 1383;1384 1388	紫色 长呢大衣
+T159	Thing-Nominal 1389 1396	黄色毛领皮大衣
+T160	Thing-Nominal 1397 1404	黑色拉练皮夹克
+T161	Thing-Nominal 1407 1410	黑绒裤
+T162	Thing-Nominal 1411 1414	牛仔裤
+T163	Thing-Nominal 1418 1420	房门
+T164	Thing-Nominal 1423 1427	翻毛皮鞋
+T165	Thing-Nominal 1428 1432	长统雨鞋
+T166	Thing-Nominal 1436 1439	红花被
+T167	Thing-Nominal 1440 1444;1445 1446	厚厚的垫 褥
+T168	Person-Pronoun 1457 1458	我
+T169	Person-Pronoun 1471 1472	他
+*	Coreference T169 T150
+T170	Person-Nominal 1476 1480	侧边邻居
+T171	Organization-Nominal 1487 1489	政府
+T172	Person-Nominal 1497 1500	好心人
+T173	Person-Nominal 1502 1504	人家
+*	Coreference T173 T172
+T174	Thing-Nominal 1506 1508	大衣
+T175	Thing-Nominal 1510 1512	皮鞋
+T176	Person-Pronoun 1533 1534	你
+*	Coreference T176 T168 T187
+T177	Location-Nominal 1538 1545	场口那个垃圾抗
+T178	Thing-Nominal 1547 1554	花花绿绿的衣物
+T179	Metric 1562 1564	一座
+T180	Thing-Nominal 1564 1566	小山
+T181	Person-Nominal 1579 1581	邻居
+*	Coreference T181 T170
+T182	Organization-Nominal 1590 1592	国家
+T183	Person-Nominal 1596 1598	他弟
+T184	Person-Name 1572 1574	牛儿
+R10	Family Arg1:T183 Arg2:T184	
+T185	Person-Pronoun 1596 1597	他
+*	Coreference T185 T184
+T186	Thing-Nominal 1602 1603	米
+T187	Person-Pronoun 1623 1624	你
+T188	Location-Nominal 1630 1632	餐馆
+T189	Thing-Nominal 1639 1640	鱼
+T190	Thing-Nominal 1641 1642	肉
+T191	Person-Nominal 1645 1646	人
+T192	Person-Name 1647 1649	牛儿
+T193	Metric 1657 1659	一碗
+T194	Thing-Nominal 1659 1660	饭
+T195	Thing-Nominal 1663 1665	鱼肉
+T196	Person-Pronoun 1668 1669	他
+*	Coreference T196 T192
+T197	Person-Nominal 1671 1674	好心人
+T198	Location-Nominal 1691 1695	一方土地
+T199	Person-Nominal 1714 1716	邻居
+T200	Person-Pronoun 1719 1720	他
+*	Coreference T200 T199
+T201	Person-Nominal 1723 1725	熟人
+R11	Social Arg1:T201 Arg2:T200	
+T202	Person-Pronoun 1729 1730	他
+*	Coreference T202 T201
+T203	Organization-Nominal 1726 1728	政府
+T204	Person-Nominal 1751 1753	人家
+T205	Person-Nominal 1846 1847	人
+T206	Person-Pronoun 1864 1865	我
+T207	Time-Implicit 1893 1896	赶场天
+T208	Person-Nominal 1939 1941	大家
+T209	Person-Nominal 2116 2118	仁人
+T210	Person-Nominal 2118 2120	志士
+T211	Person-Pronoun 2131 2133	自己
+*	Coreference T211 T210 T209
+T212	Location-Nominal 2147 2157	楼盘林立的宽阔的街道
+T213	Person-Name 2140 2142	牛儿
+T214	Person-Pronoun 2161 2162	他
+*	Coreference T214 T213
+T215	Thing-Nominal 2162 2164	头发
+T216	Thing-Nominal 2164 2166	胡子
+T217	Metric 2175 2177	一件
+T218	Thing-Nominal 2177 2184	毛领黄色皮大衣
+T219	Metric 2186 2188	一顶
+T220	Thing-Nominal 2188 2193	翻毛黄军帽
+T221	Metric 2196 2198	一双
+T222	Thing-Nominal 2198 2200;2201 2204	翻毛 黄皮鞋
+T223	Person-Nominal 2209 2211	军官
+T224	Thing-Nominal 2214 2216	手指
+R12	Part-Whole Arg1:T224 Arg2:T214	
+T225	Thing-Nominal 2223 2226	保温杯
+T226	Person-Pronoun 2238 2239	我
+T227	Person-Name 2245 2247	牛儿
+T228	Person-Pronoun 2258 2259	他
+*	Coreference T228 T227
+T229	Person-Nominal 2315 2316	人
+T230	Person-Nominal 2321 2322	民
+T231	Person-Pronoun 2334 2335	我
+T232	Metric 2347 2349	一幢
+T233	Location-Nominal 2349 2354	宏伟的大厦
+T234	Location-Nominal 2363 2365	云天

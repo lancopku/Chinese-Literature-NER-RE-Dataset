@@ -1,0 +1,130 @@
+T1	Time-Explicit 2 4	一年
+T2	Thing-Nominal 11 13	日历
+T3	Time-Explicit 19 21	一月
+T4	Location-Nominal 46 48	书屋
+T5	Location-Nominal 49 50	窗
+R1	Part-Whole Arg1:T5 Arg2:T4	
+T6	Thing-Nominal 53 54	茶
+T7	Location-Nominal 63 65	窗外
+T8	Location-Nominal 66 69	三楼窗
+T9	Location-Nominal 79 83	校园操场
+T10	Location-Nominal 90 92	街外
+R2	Near Arg1:T9 Arg2:T8	
+T11	Location-Name 106 109	胭脂岭
+T12	Thing-Nominal 122 124	窗子
+T13	Person-Pronoun 178 179	我
+T14	Person-Pronoun 228 230	我们
+T15	Location-Nominal 259 261	操场
+T16	Person-Pronoun 267 268	我
+T17	Time-Explicit 265 267	现在
+T18	Location-Pronoun 272 273	它
+T19	Location-Nominal 283 285	操场
+T20	Person-Nominal 292 299	两个打羽毛球的
+T21	Person-Pronoun 302 304	他们
+*	Coreference T21 T20 T22
+T22	Person-Nominal 318 329	即将退休的一对老师夫妇
+T23	Person-Nominal 342 349	一个是单位领导
+T24	Person-Pronoun 350 351	他
+*	Coreference T24 T23
+T25	Location-Nominal 352 354	操场
+T26	Location-Nominal 356 361	环形人行道
+R3	Part-Whole Arg1:T26 Arg2:T25	
+T27	Person-Pronoun 371 372	我
+T28	Person-Nominal 380 382	领导
+T29	Person-Pronoun 388 389	他
+*	Coreference T29 T28
+T30	Location-Nominal 408 411	垃圾场
+T31	Person-Pronoun 412 413	我
+T32	Person-Pronoun 425 426	他
+T33	Person-Nominal 434 438;439 442	四个学前 的孩子
+T34	Person-Pronoun 443 445	他们
+*	Coreference T34 T33
+T35	Person-Pronoun 461 462	我
+T36	Person-Pronoun 467 469	他们
+T37	Person-Pronoun 470 472	他们
+T38	Person-Pronoun 479 480	我
+T39	Person-Pronoun 484 485	我
+T40	Person-Nominal 507 511	这些孩子
+*	Coreference T37 T40
+T41	Location-Nominal 532 537	街外人家处
+T42	Location-Nominal 566 568	屋顶
+T43	Thing-Nominal 574 576	叶子
+T44	Thing-Nominal 577 578	树
+R4	Part-Whole Arg1:T43 Arg2:T44	
+T45	Thing-Nominal 579 580;581 582	鸟 儿
+T46	Thing-Nominal 587 589	叶子
+T47	Thing-Pronoun 584 586	它们
+*	Coreference T47 T44
+T48	Thing-Nominal 591 592	树
+T49	Thing-Nominal 608 610	鸟儿
+T50	Thing-Nominal 620 623	这个树
+T51	Thing-Nominal 626 629	那个树
+T52	Thing-Nominal 637 639	喜鹊
+T53	Thing-Nominal 656 658	乌鸦
+T54	Person-Pronoun 665 666	我
+T55	Thing-Nominal 679 681	乌鸦
+T56	Location-Nominal 758 760	人家
+T57	Location-Nominal 761 763	山坡
+T58	Person-Pronoun 767 768	我
+T59	Location-Nominal 769 771	窗前
+T60	Location-Name 786 789	胭脂岭
+T61	Person-Nominal 808 810	女子
+T62	Location-Name 822 831	胭脂岭山边有座小屋
+T63	Person-Nominal 838 840	移民
+T64	Person-Nominal 843 847	山上的人
+T65	Location-Nominal 850 852	街镇
+*	Coreference T63 T64
+T66	Person-Nominal 871 873	老人
+T67	Person-Nominal 898 900	女子
+T68	Person-Name 905 908	陶渊明
+T69	Person-Name 884 886	妙玉
+T70	Person-Nominal 919 923	隐士高人
+*	Coreference T68 T70
+T71	Person-Pronoun 925 926	我
+T72	Time-Implicit 928 930	明天
+T73	Time-Implicit 933 935	明天
+T74	Person-Pronoun 936 937	我
+T75	Location-Nominal 942 944	小屋
+T76	Thing-Nominal 951 953	手机
+T77	Person-Nominal 962 964	哥们
+T78	Person-Pronoun 965 966	我
+T79	Location-Nominal 967 968	街
+R5	Social Arg1:T77 Arg2:T78	
+T80	Person-Pronoun 976 977	他
+T81	Person-Pronoun 978 979	我
+*	Coreference T80 T77
+T82	Person-Pronoun 984 985	我
+T83	Person-Nominal 1006 1008	哥们
+T84	Person-Pronoun 1010 1011	我
+T85	Person-Pronoun 1021 1023	我们
+T86	Person-Pronoun 1041 1043	自己
+T87	Person-Nominal 1052 1054	行者
+T88	Person-Nominal 1058 1060	自己
+T89	Location-Nominal 1067 1069	窗前
+*	Coreference T86 T87
+R6	Social Arg1:T83 Arg2:T84	
+T90	Person-Pronoun 112 113	我
+T91	Time-Implicit 138 141	黄昏里
+T92	Thing-Nominal 142 144	夕阳
+T93	Time-Implicit 161 164	黄昏后
+T94	Thing-Nominal 167 169	夕阳
+T95	Thing-Nominal 203 204	窗
+*	Coreference T18 T15 T97
+T96	Time-Implicit 277 279	这时
+T97	Location-Pronoun 312 314	这里
+T98	Thing-Nominal 332 335	运动装
+T99	Thing-Nominal 363 364	烟
+T100	Thing-Nominal 396 398	烟蒂
+R7	Part-Whole Arg1:T100 Arg2:T99	
+T101	Thing-Nominal 540 542	屋宇
+T102	Thing-Nominal 546 547	树
+T103	Thing-Nominal 552 553	叶
+R8	Part-Whole Arg1:T103 Arg2:T102	
+T104	Thing-Nominal 558 559	铁
+T105	Thing-Nominal 562 564	枝杆
+R9	Part-Whole Arg1:T105 Arg2:T102	
+T106	Time-Implicit 688 690	童年
+T107	Thing-Nominal 713 715	炊烟
+T108	Thing-Nominal 745 746	山
+T109	Thing-Nominal 742 744	夕阳
+T110	Thing-Nominal 750 751	箭

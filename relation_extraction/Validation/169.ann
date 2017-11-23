@@ -1,0 +1,391 @@
+T1	Person-Name 0 8	亨利、戴维、梭罗
+T2	Location-Name 22 24	美国
+T3	Time-Explicit 24 28	十九世纪
+T4	Person-Nominal 28 37	自然主义作家的先驱
+T5	Location-Nominal 40 44	他的故居
+T6	Person-Pronoun 40 41	他
+*	Coreference T6 T1
+T7	Time-Implicit 46 48	今年
+T8	Location-Name 49 52	波士顿
+T9	Location-Nominal 52 55	儿子家
+T10	Person-Nominal 64 66	儿子
+T11	Location-Nominal 68 70	机场
+T12	Person-Pronoun 71 72	我
+T13	Location-Nominal 73 75	路上
+T14	Thing-Nominal 78 80	他家
+T15	Person-Pronoun 78 79	他
+T16	Location-Nominal 78 83	他家的附近
+T17	Thing-Nominal 87 91	瓦尔登湖
+R1	Located Arg1:T17 Arg2:T16	
+T18	Location-Nominal 94 96	湖边
+T19	Thing-Nominal 97 104	作家梭罗的故居
+T20	Person-Name 99 101	梭罗
+R2	Located Arg1:T19 Arg2:T18	
+T21	Person-Pronoun 116 117	我
+T22	Person-Pronoun 125 126	我
+T23	Thing-Nominal 130 134	名人故居
+T24	Person-Nominal 130 132	名人
+T25	Thing-Nominal 135 141	一座名人故居
+T26	Thing-Nominal 145 152	一部厚重的经典
+T27	Thing-Pronoun 155 156	它
+*	Coreference T27 T25
+T28	Person-Nominal 165 170	曾经的主人
+T29	Thing-Nominal 208 214	梭罗的小木屋
+T30	Person-Name 208 210	梭罗
+T31	Location-Name 215 223	波士顿郊外林肯区
+T32	Location-Name 224 229	瓦尔登湖畔
+R3	Located Arg1:T29 Arg2:T32	
+T33	Location-Nominal 231 234	小孩家
+T34	Thing-Pronoun 249 250	它
+*	Coreference T34 T29
+T35	Time-Implicit 259 261	那天
+T36	Time-Explicit 262 266	正月初十
+T37	Thing-Nominal 267 268	雪
+T38	Location-Pronoun 275 277	这里
+T39	Thing-Nominal 278 283	灿烂的阳光
+T40	Thing-Nominal 285 290	见瓦尔登湖
+T41	Thing-Nominal 290 292	冰雪
+T42	Location-Nominal 305 307	周边
+T43	Thing-Nominal 307 309	苍松
+R4	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 312 314	树木
+R5	Located Arg1:T44 Arg2:T42	
+T45	Person-Nominal 324 328	三两游人
+T46	Location-Nominal 330 332	湖上
+T47	Person-Nominal 354 360	一位善意老人
+T48	Person-Pronoun 365 367	我们
+T49	Thing-Nominal 370 377	树林中的小木屋
+T50	Location-Nominal 370 373	树林中
+R6	Located Arg1:T49 Arg2:T50	
+T51	Time-Implicit 378 387	第一眼见到小木屋时
+T52	Thing-Nominal 383 386	小木屋
+T53	Person-Pronoun 388 389	我
+T54	Thing-Pronoun 401 402	它
+*	Coreference T54 T52
+T55	Thing-Nominal 410 414	高大树木
+T56	Thing-Pronoun 418 419	它
+T57	Thing-Nominal 435 438	小木屋
+T58	Person-Pronoun 449 450	我
+T59	Thing-Nominal 461 468	当年梭罗的居所
+T60	Person-Name 463 465	梭罗
+T61	Person-Nominal 472 474	一人
+T62	Thing-Nominal 469 471	房檐
+T63	Metric 480 484	十四平米
+T64	Thing-Nominal 487 492	小小的窗户
+T65	Location-Nominal 497 499	屋内
+T66	Thing-Nominal 510 512;513 520	一张 两尺左右的小床
+T67	Thing-Nominal 521 530	一只装粮食用的木柜
+T68	Thing-Nominal 533 544	一张比小学生的单人课桌
+T69	Thing-Nominal 549 552	写字桌
+T70	Thing-Nominal 553 563	一个小小的壁炉和锅台
+T71	Location-Nominal 564 566	墙角
+T72	Thing-Nominal 566 571	一张小圆桌
+R7	Located Arg1:T72 Arg2:T71	
+T73	Thing-Nominal 572 573;574 578	一 张小靠椅
+T74	Person-Nominal 585 594	一个现实生活中的人
+T75	Person-Pronoun 607 608	我
+T76	Thing-Nominal 619 621	房子
+T77	Person-Nominal 622 628	童话里的人物
+T78	Person-Pronoun 632 634	自己
+*	Coreference T78 T77
+T79	Person-Name 649 651	梭罗
+T80	Person-Nominal 652 662	一个真实的活生生的人
+T81	Location-Nominal 663 666	小屋前
+T82	Thing-Nominal 666 671	梭罗的铜像
+R8	Located Arg1:T82 Arg2:T81	
+T83	Person-Pronoun 674 675	我
+T84	Person-Pronoun 678 680	我们
+T85	Thing-Nominal 713 720	一股澎湃的热血
+T86	Location-Nominal 721 725	我的周身
+T87	Person-Pronoun 721 722	我
+R9	Located Arg1:T85 Arg2:T86	
+T88	Person-Pronoun 728 729	我
+T89	Person-Pronoun 735 737	自己
+*	Coreference T89 T88
+T90	Person-Name 738 740	梭罗
+T91	Person-Name 747 749	梭罗
+T92	Person-Pronoun 750 751	我
+T93	Person-Pronoun 760 761	我
+T94	Location-Nominal 762 766	湖畔迎面
+T95	Thing-Nominal 766 774	那高耸入云的青松
+T96	Thing-Nominal 776 778	梭罗
+R10	Located Arg1:T95 Arg2:T94	
+T97	Thing-Nominal 780 786	梭罗的小木屋
+T98	Person-Name 780 782	梭罗
+T99	Person-Nominal 792 800	一个自然主义作家
+T100	Person-Name 837 839	梭罗
+T101	Person-Pronoun 850 851	他
+*	Coreference T101 T100
+T102	Location-Name 854 861	美国马萨诸塞州
+T103	Thing-Nominal 862 865	康科德
+T104	Person-Nominal 871 872	人
+R11	Located Arg1:T103 Arg2:T102	
+T105	Person-Pronoun 881 882	他
+T106	Location-Name 885 889	哈佛大学
+T107	Person-Nominal 898 901;902 903	中学校 长
+T108	Person-Nominal 904 916	一百五十多年前的中学校长
+T109	Person-Nominal 917 924	现在的大学校长
+T110	Person-Nominal 928 929	人
+T111	Person-Pronoun 936 937	他
+T112	Time-Explicit 904 911	一百五十多年前
+T113	Thing-Nominal 949 953	鲜花美酒
+T114	Time-Implicit 963 965	当时
+T115	Time-Implicit 967 978	资本主义蓬勃发展的时期
+*	Coreference T115 T114
+T116	Thing-Nominal 995 997	资本
+T117	Thing-Nominal 1004 1006	财富
+T118	Thing-Nominal 1022 1023;1024 1025	森 林
+T119	Person-Pronoun 1040 1041	他
+T120	Person-Nominal 1050 1052	人类
+T121	Time-Implicit 1042 1044	那时
+T122	Person-Nominal 1063 1065	人类
+T123	Person-Pronoun 1072 1073	他
+T124	Person-Pronoun 1083 1084	他
+T125	Person-Name 1099 1108	富有名望的作家爱生
+T126	Time-Implicit 1097 1099	当时
+T127	Person-Name 1111 1113	爱生
+T128	Person-Nominal 1114 1119	梭罗的老师
+T129	Person-Nominal 1121 1123	朋友
+T130	Person-Name 1114 1116	梭罗
+T131	Person-Name 1124 1126	爱生
+T132	Person-Name 1129 1131	梭罗
+T133	Person-Name 1137 1139	梭罗
+T134	Person-Name 1141 1143	爱生
+T135	Location-Nominal 1144 1145;1146 1149	私 人领地
+T136	Location-Name 1152 1157	瓦尔登湖畔
+T137	Thing-Nominal 1161 1165	一片土地
+R12	Located Arg1:T137 Arg2:T136	
+T138	Location-Pronoun 1167 1169	这里
+T139	Metric 1197 1205	两年两个月又两天
+T140	Time-Implicit 1207 1210	离开时
+T141	Person-Pronoun 1210 1211	他
+T142	Person-Nominal 1214 1216	朋友
+T143	Person-Name 1232 1234	梭罗
+T144	Thing-Nominal 1235 1238	小木屋
+T145	Location-Name 1242 1247	瓦尔登湖畔
+T146	Person-Pronoun 1259 1260	他
+T147	Time-Implicit 1260 1267	去世后的好多年
+T148	Person-Nominal 1269 1271	人们
+T149	Location-Nominal 1273 1275	湖畔
+T150	Location-Nominal 1276 1285	另一处高地的树林里
+T151	Thing-Nominal 1292 1297	这座小木屋
+T152	Person-Nominal 1302 1304	人们
+T153	Person-Nominal 1309 1311	人们
+R13	Located Arg1:T151 Arg2:T150	
+T154	Thing-Nominal 1321 1325	这个符号
+T155	Person-Name 1326 1328	梭罗
+T156	Person-Name 1346 1348	梭罗
+T157	Thing-Pronoun 1369 1370	它
+T158	Thing-Nominal 1358 1363	不朽的东西
+*	Coreference T157 T158
+T159	Thing-Nominal 1390 1392	金子
+T160	Person-Pronoun 1405 1406	他
+T161	Person-Nominal 1410 1412	世人
+T162	Abstract 1416 1422	《瓦尔登湖》
+T163	Person-Nominal 1427 1428	人
+T164	Person-Nominal 1434 1435	人
+T165	Person-Nominal 1441 1442	人
+T166	Thing-Nominal 1462 1469	现代文学的经典
+T167	Person-Name 1471 1473	梭罗
+T168	Thing-Nominal 1483 1488	后来的文坛
+T169	Thing-Nominal 1491 1495	瓦尔登湖
+T170	Thing-Nominal 1499 1502	小木屋
+T171	Person-Name 1503 1505	梭罗
+T172	Thing-Nominal 1505 1510	心灵的乐园
+T173	Person-Pronoun 1512 1513	他
+*	Coreference T173 T171
+T174	Person-Pronoun 1515 1517	自己
+T175	Person-Pronoun 1523 1524	他
+T176	Thing-Nominal 1537 1540	天堂!
+T177	Time-Implicit 1543 1545	当年
+T178	Person-Name 1545 1547	梭罗
+T179	Location-Pronoun 1548 1550	这里
+T180	Time-Implicit 1551 1553	白天
+T181	Thing-Nominal 1555 1557	春光
+T182	Location-Nominal 1563 1565	头顶
+T183	Thing-Nominal 1569 1571	小鸟
+T184	Person-Pronoun 1579 1580	他
+T185	Thing-Nominal 1582 1584	烈日
+T186	Location-Nominal 1589 1593	田间地头
+T187	Thing-Nominal 1594 1598	蚂蚁蚂蚱
+R14	Located Arg1:T187 Arg2:T186	
+T188	Person-Pronoun 1606 1607	他
+T189	Person-Pronoun 1644 1645	他
+T190	Person-Pronoun 1652 1654	自己
+T191	Time-Implicit 1658 1662	每天早上
+T192	Thing-Nominal 1670 1672	树林
+T193	Thing-Nominal 1665 1667	晨雾
+T194	Thing-Nominal 1673 1675	阳光
+T195	Thing-Nominal 1678 1680	绿叶
+T196	Person-Pronoun 1682 1683	他
+T197	Thing-Nominal 1684 1689	早起的鸟儿
+T198	Thing-Nominal 1697 1699	晚霞
+T199	Thing-Nominal 1700 1705	湖边的林子
+T200	Location-Nominal 1700 1702	湖边
+R15	Located Arg1:T199 Arg2:T200	
+T201	Thing-Nominal 1713 1715	晚风
+T202	Thing-Nominal 1718 1722	瓦尔登湖
+T203	Person-Nominal 1729 1730	人
+T204	Person-Pronoun 1731 1732	他
+T205	Thing-Nominal 1734 1738	一支长笛
+T206	Location-Nominal 1741 1742;1743 1744	湖 边
+T207	Thing-Nominal 1754 1763	瓦尔登湖的轻波微澜
+T208	Location-Nominal 1765 1768	树林间
+T209	Location-Nominal 1769 1772	湖面上
+T210	Thing-Nominal 1781 1782	花
+T211	Thing-Nominal 1777 1778	树
+T212	Thing-Nominal 1785 1786	草
+T213	Thing-Nominal 1789 1790	湖
+T214	Person-Pronoun 1793 1794	他
+T215	Person-Pronoun 1832 1834	自己
+T216	Person-Pronoun 1831 1832	他
+T217	Time-Implicit 1838 1840	当时
+T218	Person-Nominal 1841 1847	绅士和贵族们
+T219	Person-Pronoun 1850 1851	他
+T220	Person-Nominal 1854 1858	一个疯子
+T221	Person-Pronoun 1860 1861	他
+T222	Person-Pronoun 1867 1868	他
+T223	Location-Nominal 1868 1870	锅里
+T224	Location-Nominal 1873 1875	碗里
+T225	Person-Nominal 1880 1882	贫民
+T226	Person-Nominal 1889 1891	奴隶
+T227	Thing-Nominal 1901 1903	汗水
+T228	Person-Pronoun 1899 1901	自己
+T229	Person-Pronoun 1911 1912	他
+T230	Location-Nominal 1914 1918	小木屋外
+T231	Thing-Nominal 1946 1950	自己的笔
+T232	Person-Pronoun 1946 1948	自己
+T233	Person-Nominal 1973 1975	读者
+T234	Person-Pronoun 1978 1979	他
+T235	Person-Pronoun 1989 1990	他
+T236	Person-Nominal 1999 2000	人
+T237	Person-Nominal 2012 2013	人
+T238	Person-Pronoun 2030 2031	他
+T239	Person-Pronoun 2049 2051	我们
+T240	Person-Pronoun 2066 2067	他
+T241	Person-Pronoun 2075 2076	他
+T242	Person-Nominal 2098 2103	实践主义者
+T243	Person-Nominal 2090 2095	口头革命派
+T244	Person-Pronoun 2104 2105	他
+T245	Person-Nominal 2128 2129	人
+T246	Person-Pronoun 2151 2152	他
+T247	Person-Pronoun 2155 2157	自己
+*	Coreference T247 T246
+T248	Person-Nominal 2173 2174	人
+T249	Person-Name 2199 2201	梭罗
+T250	Person-Nominal 2209 2221	自由地欣赏广阔地平线的人
+T251	Person-Nominal 2221 2226	更快乐的人
+T252	Person-Pronoun 2229 2230	他
+T253	Person-Nominal 2233 2237	这样的人
+*	Coreference T252 T249
+T254	Location-Nominal 2241 2247	这所小木屋里
+T255	Person-Pronoun 2248 2249	他
+T256	Person-Pronoun 2277 2278	他
+T257	Person-Pronoun 2287 2288	他
+T258	Person-Pronoun 2281 2282	他
+T259	Person-Pronoun 2295 2296	我
+T260	Person-Pronoun 2300 2302	我们
+T261	Person-Nominal 2310 2312	人们
+T262	Location-Name 2316 2318	中国
+T263	Time-Implicit 2325 2327	今天
+T264	Person-Pronoun 2339 2341	我们
+T265	Thing-Nominal 2351 2352;2353 2354	房 子
+T266	Thing-Nominal 2356 2358	汽车
+T267	Thing-Nominal 2364 2366	饰品
+T268	Thing-Nominal 2367 2369	汽车
+T269	Location-Name 2370 2372	德国
+T270	Thing-Nominal 2374 2376	手机
+T271	Location-Name 2377 2379	美国
+T272	Thing-Nominal 2381 2383	大米
+T273	Location-Name 2384 2386	日本
+T274	Location-Name 2391 2393	韩国
+T275	Thing-Nominal 2407 2409	雾霾
+T276	Thing-Nominal 2412 2413;2414 2415	尾 气
+T277	Location-Nominal 2431 2433	路上
+T278	Location-Nominal 2438 2440	家里
+T279	Person-Nominal 2457 2459	爸爸
+T280	Person-Pronoun 2498 2500	我们
+T281	Person-Pronoun 2514 2516	我们
+T282	Person-Pronoun 2517 2519	自己
+T283	Thing-Nominal 2523 2534	一座象梭罗这样的小木屋
+T284	Thing-Nominal 2571 2574	一棵树
+T285	Thing-Nominal 2577 2580	一天车
+T286	Thing-Nominal 2583 2586	一支烟
+T287	Thing-Nominal 2591 2595	我们国家
+T288	Person-Nominal 2597 2606	我们民族的千秋万代
+T289	Person-Nominal 2610 2617	我们的子孙后代
+T290	Person-Pronoun 2620 2622	我们
+T291	Thing-Nominal 2635 2642	那么快乐的小鸟
+T292	Person-Pronoun 2648 2650	我们
+T293	Thing-Nominal 2654 2660	梭罗的小木屋
+T294	Person-Name 2654 2656	梭罗
+T295	Metric 2662 2668	一百五十多年
+T296	Thing-Pronoun 2677 2678	它
+*	Coreference T296 T293
+T297	Person-Nominal 2681 2688	一位睿智的老人
+T298	Thing-Nominal 2698 2702	瓦尔登湖
+T299	Thing-Pronoun 2734 2735	它
+*	Coreference T299 T298
+T300	Thing-Nominal 2743 2747	瓦尔登湖
+T301	Thing-Pronoun 2752 2753	它
+*	Coreference T301 T300
+T302	Person-Name 2756 2758	梭罗
+T303	Thing-Nominal 2762 2766	他的杰作
+T304	Person-Pronoun 2762 2763	他
+*	Coreference T304 T302
+T305	Thing-Nominal 2781 2783	森林
+T306	Thing-Nominal 2785 2787	森林
+T307	Thing-Nominal 2788 2790	草坪
+T308	Thing-Nominal 2792 2794	湿地
+T309	Thing-Nominal 2800 2801	鸟
+T310	Thing-Nominal 2802 2803	花
+T311	Thing-Nominal 2805 2807	碧水
+T312	Thing-Nominal 2807 2809	蓝天
+T313	Location-Nominal 2810 2813	树林间
+T314	Person-Nominal 2817 2819	居民
+T315	Thing-Nominal 2825 2832	木结构的小别墅
+R16	Located Arg1:T315 Arg2:T313	
+T316	Thing-Nominal 2834 2836;2837 2841	路旁 的电线杆
+T317	Thing-Nominal 2844 2846	木头
+T318	Thing-Nominal 2850 2855	恼人的尘烟
+T319	Person-Nominal 2851 2852	人
+T320	Thing-Nominal 2858 2860	都市
+T321	Person-Name 2878 2880	梭罗
+T322	Person-Pronoun 2887 2888	他
+*	Coreference T322 T321
+T323	Person-Pronoun 2900 2901	我
+T324	Location-Nominal 2903 2910	小停车场的路边
+T325	Thing-Nominal 2911 2917	梭罗的小木屋
+T326	Person-Name 2911 2913	梭罗
+T327	Location-Nominal 2918 2922	雕像脚下
+T328	Location-Nominal 2923 2929	瓦尔登湖周边
+T329	Thing-Nominal 2929 2931	树木
+R17	Located Arg1:T329 Arg2:T328	
+T330	Thing-Nominal 2937 2941	茫茫白雪
+T331	Thing-Nominal 2953 2958;2959 2960	整个瓦尔登 湖
+T332	Thing-Nominal 2962 2971	一个巨大无比的花环
+T333	Location-Nominal 2981 2992	梭罗的铜像和小木屋之下
+T334	Person-Pronoun 2993 2994	我
+T335	Person-Pronoun 3000 3002	自己
+T336	Person-Nominal 3014 3016	苍天
+T337	Thing-Nominal 3023 3025	山水
+T338	Person-Pronoun 3041 3042	我
+T339	Person-Nominal 3047 3049	上苍
+T340	Person-Nominal 3057 3073	这位毕生为保护自然奔走呼号的先驱
+T341	Thing-Nominal 3077 3081	瓦尔登湖
+T342	Person-Name 3096 3098	陈峻
+T343	Person-Name 3100 3102	陈才
+T344	Person-Nominal 3103 3111	中国作家协会会员
+T345	Person-Nominal 3113 3120	浙江省作协委员
+T346	Person-Nominal 3121 3128	衢州市作协主席
+T347	Abstract 3133 3139	《新华文摘》
+T348	Abstract 3140 3146	《小说月报》
+T349	Organization-Name 3157 3166	天津百花文艺出版社
+T350	Abstract 3166 3175	《陈峻短篇小说选》
+T351	Abstract 3188 3197	《算了是什么意思》
+T352	Abstract 3198 3202	《墙界》
+T353	Abstract 3218 3226	《乡土中国衢州》
+T354	Abstract 3234 3245	《风之古老，俗之大雅》
+T355	Organization-Name 3176 3183	中国文联出版社
+T356	Organization-Name 3203 3212	北京三联书店出版社
+T357	Organization-Name 3227 3234	上海商务出版社

@@ -1,0 +1,305 @@
+T1	Location-Name 23 33	川南边城叙永县大石乡
+T2	Person-Nominal 20 22	人们
+T3	Person-Pronoun 58 59	我
+T4	Thing-Nominal 67 70	大石头
+T5	Thing-Nominal 78 79	山
+T6	Thing-Nominal 84 85	石
+T7	Location-Pronoun 87 89	这里
+*	Coreference T7 T1
+T8	Thing-Nominal 90 93	大石头
+T9	Location-Nominal 98 100	乡场
+T10	Thing-Nominal 110 113	石公石
+T11	Thing-Nominal 114 117	石母石
+T12	Thing-Pronoun 109 110	它
+T13	Person-Nominal 106 108	人们
+T14	Person-Pronoun 124 125	你
+T15	Thing-Pronoun 130 131	它
+*	Coreference T15 T12 T10 T11
+T16	Person-Pronoun 135 136	我
+T17	Location-Name 139 146	大石境内敦梓河
+T18	Thing-Nominal 149 153	猪儿巴石
+T19	Metric 147 149	一块
+T20	Thing-Nominal 158 160	石头
+T21	Metric 156 158	一块
+*	Coreference T20 T18 T24 T30 T33
+T22	Person-Nominal 192 194	工匠
+T23	Metric 209 211	一块
+T24	Thing-Nominal 211 217	天然的好石头
+T25	Thing-Nominal 219 222	肥猪儿
+T26	Person-Nominal 230 231	人
+T27	Metric 228 230	2个
+T28	Metric 168 171	2米长
+T29	Metric 172 176	1米多高
+T30	Thing-Nominal 249 256	这样奇特的大石
+T31	Person-Nominal 259 262	造物者
+T32	Location-Nominal 270 274	此一条河
+*	Coreference T32 T17 T37 T38
+T33	Thing-Nominal 280 286	这样的大石头
+T34	Person-Pronoun 303 304	你
+T35	Thing-Pronoun 309 311	它们
+T36	Person-Nominal 321 324	上辈人
+T37	Location-Pronoun 325 326	它
+T38	Location-Name 328 331	大石场
+T39	Location-Name 340 350	离大石场不远的白云村
+T40	Location-Nominal 353 355	竹林
+T41	Location-Nominal 353 360	竹林掩映的河湾
+T42	Location-Name 362 366	群兽戏水
+*	Coreference T42 T41
+T43	Person-Pronoun 368 370	我们
+T44	Location-Nominal 372 380	石墩子搭成的石桥
+T45	Location-Nominal 386 388	岸边
+T46	Metric 388 390	9块
+T47	Thing-Nominal 390 392	大石
+T48	Thing-Nominal 423 426	山野狮
+T49	Thing-Nominal 427 428	猴
+T50	Thing-Nominal 429 430	鹿
+T51	Thing-Nominal 431 432	象
+T52	Thing-Nominal 433 434	虎
+T53	Thing-Nominal 435 436	豹
+T54	Thing-Nominal 437 438	熊
+T55	Thing-Nominal 440 442	动物
+R1	General-Special Arg1:T55 Arg2:T48	
+R2	General-Special Arg1:T55 Arg2:T49	
+R3	General-Special Arg1:T55 Arg2:T50	
+R4	General-Special Arg1:T55 Arg2:T51	
+R5	General-Special Arg1:T55 Arg2:T52	
+R6	General-Special Arg1:T55 Arg2:T53	
+R7	General-Special Arg1:T55 Arg2:T54	
+T56	Thing-Pronoun 447 448	它
+*	Coreference T56 T47 T57 T71
+T57	Thing-Nominal 453 457	那些石头
+T58	Person-Pronoun 504 505	我
+T59	Location-Name 510 517	湖南张家界金鞭
+T60	Location-Pronoun 519 521	那里
+*	Coreference T60 T59
+T61	Thing-Nominal 523 524	石
+T62	Thing-Nominal 525 526	山
+T63	Location-Pronoun 533 535	这里
+*	Coreference T63 T44
+T64	Thing-Nominal 541 546	黄山的奇石
+T65	Location-Name 541 543	黄山
+T66	Person-Pronoun 553 554	我
+T67	Location-Name 559 562	大石乡
+T68	Thing-Nominal 563 564	石
+T69	Location-Name 571 574	白云村
+T70	Location-Name 571 582	白云村整条狭长的沙湾河
+T71	Thing-Nominal 585 591	这样的大石头
+T72	Person-Nominal 602 604	画家
+T73	Person-Nominal 605 607	工匠
+T74	Thing-Nominal 617 623	多奇美的大石
+T75	Location-Pronoun 625 627	这里
+*	Coreference T75 T67
+T76	Person-Nominal 628 629	人
+T77	Location-Nominal 631 634	大石乡
+T78	Location-Name 636 640	石刻之乡
+*	Coreference T78 T77 T81
+T79	Person-Nominal 642 644;645 647	能工 巧匠
+T80	Person-Pronoun 649 650	我
+T81	Location-Pronoun 654 655	它
+T82	Thing-Nominal 656 657	石
+T83	Person-Nominal 671 678	技艺高超的工匠
+T84	Location-Nominal 691 696	大石乡境内
+T85	Thing-Nominal 696 703	雕工精美的石刻
+T86	Thing-Nominal 709 715	龙龟山寺石刻
+T87	Thing-Nominal 719 721	史书
+T88	Time-Explicit 723 737	明嘉庆十三年(1564年)时
+T89	Location-Name 738 743	龙龟山殿宇
+T90	Location-Name 755 758	玄阳殿
+T91	Location-Name 759 762	玉祖殿
+T92	Location-Name 763 766	东皇殿
+T93	Location-Name 767 770	太宝殿
+T94	Location-Name 771 776	冥府十二殿
+T95	Location-Nominal 778 780	殿前
+T96	Location-Nominal 781 786	高大石牌坊
+T97	Location-Name 787 790	崇德坊
+*	Coreference T97 T96
+T98	Location-Nominal 792 794	殿内
+T99	Thing-Nominal 796 800	精美石刻
+T100	Thing-Nominal 800 802	造像
+T101	Thing-Nominal 822 831	全国罕见的珍贵文物
+T102	Location-Nominal 832 834	我国
+T103	Thing-Nominal 834 838	冥府造像
+T104	Thing-Nominal 843 856	北京东岳庙和丰都鬼城的造像
+T105	Location-Name 843 848	北京东岳庙
+T106	Location-Name 849 853	丰都鬼城
+T107	Thing-Nominal 859 863	两处造像
+T108	Thing-Nominal 865 866	泥
+T109	Thing-Nominal 869 873;874 881	叙永大石 龙龟山冥府造像
+T110	Thing-Pronoun 885 886	它
+*	Coreference T110 T109 T117
+T111	Location-Name 887 890	东岳庙
+T112	Location-Name 891 895	丰都鬼城
+T113	Thing-Nominal 887 897	东岳庙、丰都鬼城造像
+T114	Thing-Nominal 906 908	石头
+T115	Time-Explicit 918 923	2011年
+T116	Organization-Nominal 924 934;935 939	中央电视台《走遍中国 》栏目组
+T117	Thing-Nominal 947 948	它
+T118	Person-Nominal 951 955	全国观众
+T119	Person-Nominal 960 961	人
+T120	Thing-Nominal 964 970	龙龟山寺石刻
+T121	Person-Pronoun 977 978	我
+T122	Thing-Nominal 985 991	冥府石雕像群
+T123	Thing-Nominal 1023 1025	衣服
+T124	Person-Nominal 1034 1036	人物
+T125	Thing-Nominal 1071 1073	慈眉
+T126	Thing-Nominal 1073 1075	善目
+T127	Organization-Nominal 1092 1098	中华文明古国
+T128	Person-Nominal 1109 1111	工匠
+T129	Thing-Nominal 1121 1127	殿宇的柱础石
+T130	Thing-Nominal 1148 1149	花
+T131	Thing-Nominal 1149 1150	草
+T132	Thing-Nominal 1150 1151	虫
+T133	Thing-Nominal 1151 1152	鱼
+T134	Person-Nominal 1153 1155	人物
+T135	Thing-Nominal 1155 1156	鸟
+T136	Thing-Nominal 1156 1157	兽
+T137	Thing-Nominal 1169 1171	毛发
+T138	Person-Nominal 1180 1181	人
+T139	Time-Explicit 1186 1191	1999年
+T140	Location-Name 1192 1197	四川博物馆
+T141	Location-Name 1219 1222	龙龟山
+T142	Thing-Nominal 1219 1229	龙龟山50尊冥府石刻
+T143	Metric 1222 1225	50尊
+T144	Person-Nominal 1234 1239	国内外专家
+T145	Thing-Nominal 1248 1252	这些石刻
+*	Coreference T145 T142 T149
+T146	Location-Name 1255 1257	香港
+T147	Location-Name 1258 1261	新加坡
+T148	Location-Nominal 1274 1288	大石乡方圆数百平方公里的境内
+T149	Thing-Nominal 1289 1298	这样细腻精美的石刻
+T150	Location-Nominal 1305 1307	境内
+*	Coreference T150 T148
+T151	Location-Nominal 1307 1318	高大壮美的唐氏无字牌坊
+T152	Location-Nominal 1319 1330	精美可人的金龙山惜字宫
+T153	Location-Nominal 1331 1342	空前罕有的肖家岩古石寨
+T154	Location-Nominal 1343 1352	雕工精秀的赖氏庄园
+T155	Location-Nominal 1353 1361;1362 1363	恢宏气派的赖家墓 群
+T156	Location-Nominal 1364 1375	秀美绝伦的张氏家族墓群
+T157	Location-Nominal 1376 1386	无以伦比的周氏雕花坟
+T158	Location-Nominal 1387 1395	石刻生动的宏济桥
+T159	Location-Nominal 1396 1404	造型别致的龙脑桥
+T160	Time-Explicit 1425 1426	唐
+T161	Time-Explicit 1427 1428	宋
+T162	Time-Explicit 1429 1430	元
+T163	Time-Explicit 1431 1432	明
+T164	Time-Explicit 1433 1434	清
+T165	Thing-Nominal 1434 1436	石刻
+T166	Location-Nominal 1450 1452	川南
+T167	Location-Nominal 1464 1468	石刻之乡
+T168	Location-Name 1503 1506	大石乡
+T169	Location-Pronoun 1523 1524	它
+*	Coreference T169 T168
+T170	Thing-Nominal 1525 1527	植被
+T171	Location-Name 1541 1545	四川盆地
+T172	Location-Name 1546 1550	云贵高原
+T173	Location-Nominal 1541 1559	四川盆地向云贵高原过渡带的赤水河流域
+R8	Near Arg1:T168 Arg2:T173	
+T174	Time-Implicit 1560 1563	中生纪
+T175	Location-Nominal 1564 1572	红岩泥石丹霞地貌
+T176	Thing-Nominal 1573 1575	植被
+T177	Thing-Nominal 1578 1580	资源
+T178	Metric 1584 1586	三个
+T179	Location-Nominal 1586 1595	国家自然生态保护区
+T180	Location-Name 1597 1602	水尾画稿溪
+T181	Location-Name 1603 1609	古蔺黄荆老林
+T182	Location-Name 1610 1615	贵州四洞沟
+T183	Thing-Nominal 1649 1651	楠竹
+T184	Thing-Nominal 1652 1653	松
+T185	Thing-Nominal 1654 1655	杉
+T186	Thing-Nominal 1656 1658	桫椤
+T187	Thing-Nominal 1667 1669	植物
+T188	Metric 1659 1667	78类300多种
+T189	Thing-Nominal 1670 1677	全国罕见的植物
+T190	Thing-Nominal 1678 1681	鹅掌秋
+*	Coreference T190 T189
+T191	Location-Pronoun 1684 1685;1686 1687	这 里
+*	Coreference T191 T175 T192
+T192	Location-Pronoun 1692 1693	它
+T193	Location-Nominal 1696 1697	山
+T194	Location-Nominal 1698 1699	山
+T195	Thing-Nominal 1703 1705	松鼠
+T196	Thing-Nominal 1706 1708	野鸡
+T197	Thing-Nominal 1709 1711	韦子
+T198	Thing-Nominal 1712 1714	山羊
+T199	Thing-Nominal 1715 1717	灵猴
+T200	Thing-Nominal 1723 1725	动物
+T201	Metric 1718 1723	100多种
+T202	Thing-Nominal 1726 1728	水源
+T203	Thing-Nominal 1731 1733	河流
+T204	Location-Name 1739 1742	水尾河
+T205	Location-Name 1743 1746	敦梓河
+T206	Location-Name 1753 1756	龙龟山
+T207	Location-Name 1759 1763	沙湾电站
+T208	Thing-Nominal 1783 1785	蓝天
+T209	Thing-Nominal 1785 1787	碧水
+T210	Thing-Nominal 1788 1790	茂林
+T211	Thing-Nominal 1790 1792	修竹
+T212	Thing-Nominal 1793 1795	桫椤
+T213	Thing-Nominal 1798 1800	翠竹
+T214	Person-Pronoun 1827 1828	你
+T215	Location-Name 1847 1853	龙龟山石碑坊
+T216	Person-Nominal 1883 1884	人
+T217	Location-Name 1893 1901	境内的红洞桥景区
+T218	Thing-Nominal 1902 1906	赤壁红岩
+T219	Thing-Nominal 1912 1916	流泉飞瀑
+T220	Thing-Nominal 1922 1926	奇峰异石
+T221	Thing-Nominal 1927 1931	珍稀植物
+T222	Person-Nominal 1952 1953	你
+T223	Thing-Nominal 1963 1964	岩
+T224	Thing-Nominal 1966 1967	瀑
+T225	Location-Name 1975 1980	红洞桥景区
+*	Coreference T225 T217
+T226	Location-Nominal 1983 1985	瀑布
+T227	Metric 1981 1983	多处
+T228	Location-Name 1987 1993	小河沟红洞瀑
+T229	Location-Nominal 1999 2011	一条宽21.2米的三叠瀑
+*	Coreference T229 T228 T247
+T230	Metric 1999 2001	一条
+T231	Location-Nominal 2014 2024	189米高的丹霞峭壁
+T232	Metric 2014 2019	189米高
+T233	Thing-Nominal 2031 2033	洪钟
+T234	Thing-Nominal 2033 2034	龙
+T235	Thing-Nominal 2038 2040	水雾
+T236	Location-Name 2046 2049	大龙潭
+T237	Location-Name 2059 2066	贵州黄果树瀑布
+T238	Thing-Nominal 2069 2071	艳阳
+T239	Thing-Nominal 2085 2087	彩虹
+T240	Location-Nominal 2078 2080	龙潭
+T241	Location-Nominal 2114 2118	飞龙瀑布
+T242	Location-Nominal 2119 2123	彩虹瀑布
+T243	Location-Nominal 2124 2128	幻影瀑布
+T244	Location-Nominal 2137 2144	二级瀑处彩虹台
+T245	Thing-Nominal 2150 2153	五彩光
+T246	Person-Nominal 2154 2155	人
+T248	Location-Name 2177 2182	红洞丹岩群
+T249	Location-Name 2186 2192	神州帘状瀑布
+T247	Location-Nominal 2173 2174	瀑
+R9	Near Arg1:T248 Arg2:T247	
+R10	Near Arg1:T249 Arg2:T247	
+T250	Location-Name 2203 2208	红洞丹岩群
+T251	Thing-Nominal 2211 2213	半月
+T252	Thing-Nominal 2219 2221	莲花
+T253	Thing-Nominal 2222 2223	萼
+T254	Thing-Nominal 2227 2230	新月岩
+T255	Thing-Nominal 2233 2236	莲花台
+T256	Thing-Nominal 2240 2241	网
+T257	Thing-Nominal 2242 2243	鱼
+T258	Thing-Nominal 2246 2248	猴子
+T259	Thing-Nominal 2253 2255	丹凤
+T260	Thing-Nominal 2261 2263	仙人
+T261	Location-Name 2313 2316	大石乡
+T262	Person-Nominal 2322 2324	蛮夷
+T263	Person-Nominal 2329 2331	羿子
+T264	Person-Nominal 2334 2339	夜郎国臣民
+*	Coreference T262 T263 T264 T265
+T265	Person-Nominal 2340 2343	该民族
+T266	Time-Implicit 2358 2360	当年
+T267	Location-Nominal 2360 2364	岩居遗址
+T268	Location-Nominal 2365 2373	遗留下的石窟墓群
+T269	Location-Name 2377 2380	大石乡
+T270	Location-Name 2383 2400	石刻艺术与自然风光融为一体的大石乡
+*	Coreference T270 T269 T272 T271 T273
+T271	Location-Nominal 2403 2414	十里流翠的竹海桫椤之乡
+T272	Location-Nominal 2417 2431	清泉幽谷岩溶洞景交辉的大石乡
+T273	Location-Nominal 2475 2479	这片土地
+T274	Person-Pronoun 2507 2509	我们

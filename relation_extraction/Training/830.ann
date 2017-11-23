@@ -1,0 +1,31 @@
+T1	Thing-Nominal 15 16	桌
+T2	Person-Pronoun 19 20	你
+T3	Person-Pronoun 25 26	我
+T4	Time-Implicit 48 50	每天
+T5	Thing-Nominal 62 64	微风
+T6	Person-Nominal 107 109	自己
+T7	Thing-Nominal 123 125	河水
+T8	Thing-Nominal 130 132	金子
+T9	Thing-Nominal 171 173	云彩
+T10	Time-Implicit 188 190	现在
+T11	Time-Implicit 363 365	曾经
+T12	Person-Pronoun 366 367	我
+*	Coreference T6 T12
+T13	Thing-Nominal 375 376	花
+T14	Thing-Nominal 377 378	锦
+T15	Time-Implicit 379 381	曾经
+T16	Person-Pronoun 382 383	我
+T17	Person-Pronoun 398 399	我
+T18	Time-Implicit 411 413	曾经
+T19	Person-Pronoun 414 415	我
+T20	Time-Implicit 439 441	当初
+T21	Thing-Nominal 512 514	坟墓
+T22	Thing-Nominal 536 538	眼睛
+T23	Thing-Nominal 541 542	风
+T24	Thing-Nominal 548 549	雨
+T25	Person-Pronoun 555 556	我
+R1	Part-Whole Arg1:T22 Arg2:T25	
+T26	Thing-Nominal 561 562	心
+R2	Part-Whole Arg1:T26 Arg2:T25	
+T27	Person-Pronoun 588 589	你
+T28	Person-Pronoun 592 593	我

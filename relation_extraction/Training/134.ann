@@ -1,0 +1,10 @@
+T1	Person-Nominal 0 4	唐朝诗人
+T2	Person-Name 4 6	元稹
+R1	General-Special Arg1:T1 Arg2:T2	
+T3	Abstract 7 11	《莺莺传
+T4	Metric 19 22	十余里
+T5	Thing-Nominal 24 26	僧舍
+T6	Thing-Name 28 31	普救寺
+T7	Location-Nominal 34 36	蒲东
+T8	Location-Name 38 44	山西省永济市
+T9	Location-Nominal 16 19	蒲之东

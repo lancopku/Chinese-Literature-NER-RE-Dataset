@@ -1,0 +1,127 @@
+T1	Person-Pronoun 20 22	我们
+T2	Location-Nominal 38 40	家乡
+T3	Thing-Nominal 46 52	甜脆嫩的菱角
+T4	Thing-Nominal 54 60;61 62	黄多油满的螃 蟹
+T5	Thing-Nominal 64 78	“咬秋”时的红瓤西瓜绿瓤香瓜
+T6	Thing-Nominal 80 85	中秋的月饼
+T7	Thing-Nominal 85 91	重阳的米甜酒
+T8	Thing-Nominal 93 94	霜
+T9	Thing-Nominal 95 96	菊
+T10	Thing-Nominal 97 99	芦花
+T11	Thing-Nominal 101 103	枫林
+T12	Thing-Nominal 107 120	垂着丰满穗头的黄灿灿的稻谷
+T13	Thing-Nominal 123 125	金风
+T14	Location-Nominal 142 147	广袤的田野
+T15	Thing-Nominal 153 162	一幅色彩艳丽的油画
+T16	Thing-Nominal 163 165	太阳
+T17	Thing-Nominal 167 173	金黄色的光芒
+T18	Thing-Nominal 175 182	一望无际的原野
+T19	Thing-Nominal 183 188	金色的稻浪
+R1	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 201 218	颗粒饱满谦虚地低着头的沉甸甸的稻穗
+T21	Person-Pronoun 246 247	我
+T22	Thing-Nominal 251 252	墒
+T23	Thing-Nominal 254 255	渣
+T24	Thing-Nominal 261 263	河泥
+T25	Thing-Nominal 282 284	身子
+T26	Thing-Nominal 290 292	稻子
+T27	Thing-Nominal 299 301	右手
+T28	Thing-Nominal 287 289	左手
+T29	Thing-Nominal 307 309	稻丛
+T30	Thing-Nominal 323 329	锯齿状的稻叶
+T31	Thing-Nominal 333 334	脸
+T32	Thing-Nominal 335 337	手臂
+T33	Thing-Nominal 341 353	一道道又痛又痒的淡淡红痕
+T34	Person-Nominal 354 358	割稻的人
+T35	Thing-Nominal 358 360	身躯
+R2	Part-Whole Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 372 379;380 381	一个个结实的稻 把
+T37	Thing-Nominal 382 391	一捆捆沉甸甸的稻把
+T38	Thing-Nominal 397 398	船
+T39	Location-Nominal 403 406	打谷场
+T40	Thing-Nominal 408 410	稻把
+T41	Person-Nominal 416 418	专人
+T42	Thing-Nominal 419 421	水牛
+T43	Thing-Nominal 423 425	石磙
+T44	Thing-Nominal 836 838	苹果
+T45	Thing-Nominal 833 835	鸭梨
+T46	Thing-Nominal 831 832	柿
+T47	Thing-Nominal 829 830	橘
+T48	Thing-Nominal 827 828	橙
+T49	Thing-Nominal 825 826	柑
+T50	Thing-Nominal 864 874	一盆盆傲霜怒放的菊花
+T51	Thing-Nominal 896 903	多姿多彩的菊花
+T52	Thing-Nominal 920 922	秋风
+T53	Thing-Nominal 925 927	秋花
+T54	Thing-Nominal 931 933	秋叶
+T55	Thing-Nominal 938 942	一枚红叶
+T56	Thing-Nominal 945 947	案头
+T57	Thing-Nominal 947 952	常翻的书页
+T58	Thing-Nominal 984 986	麦子
+T59	Thing-Nominal 1012 1017	成熟的果实
+T60	Thing-Nominal 1065 1067	秋风
+T61	Thing-Nominal 1073 1075	草木
+T62	Thing-Nominal 1079 1080	霜
+T63	Thing-Nominal 1077 1078	露
+T64	Thing-Nominal 1082 1086	秋风秋雨
+T65	Thing-Nominal 1099 1104	满地的落红
+T66	Thing-Nominal 1105 1111	一片片树叶儿
+T67	Person-Nominal 1384 1386	人们
+T68	Person-Pronoun 1333 1335	我们
+T69	Thing-Nominal 1339 1341	冰雪
+T70	Person-Name 1298 1305	印度诗人泰戈尔
+T71	Thing-Nominal 1203 1210	一片肥沃的土壤
+T72	Thing-Nominal 1176 1183	深扎泥土的根须
+T73	Thing-Nominal 1154 1156	落叶
+T74	Thing-Pronoun 1147 1148	她
+T75	Thing-Nominal 1137 1139	秋风
+T76	Thing-Nominal 1129 1134	金黄的落叶
+T77	Thing-Nominal 1122 1124;1125 1134	片片 火红的、金黄的落叶
+T78	Thing-Nominal 1034 1036	土地
+T79	Thing-Nominal 793 795	瓜棚
+T80	Thing-Nominal 797 799	藤芋
+T81	Thing-Nominal 800 805	成熟的瓜果
+T82	Thing-Nominal 806 809	葡萄架
+T83	Thing-Nominal 812 820;821 824	一嘟噜一嘟噜晶莹 的葡萄
+R3	Located Arg1:T83 Arg2:T82	
+T84	Person-Nominal 656 658	一人
+T85	Thing-Nominal 639 645	金黄色的稻海
+T86	Thing-Nominal 630 635	一艘艘战舰
+T87	Thing-Nominal 624 629	联合收割机
+T88	Person-Nominal 662 664	一人
+T89	Thing-Nominal 685 689	一片稻子
+T90	Person-Nominal 696 705	乐得合不拢嘴的农民
+T91	Thing-Nominal 706 711	一袋袋稻谷
+T92	Thing-Nominal 713 715	板车
+T93	Thing-Nominal 716 719	拖拉机
+T94	Thing-Nominal 741 743	汗水
+T95	Thing-Nominal 609 612	播种机
+T96	Thing-Nominal 612 615	挖墒机
+T97	Thing-Nominal 618 622	钉耙大锹
+T98	Thing-Nominal 598 601	收割机
+T99	Thing-Nominal 604 608	镰刀把叉
+T100	Time-Implicit 559 562;563 566	40多 个春秋
+T101	Thing-Nominal 512 520	黄澄澄的稻谷颗粒
+T102	Thing-Nominal 444 445	草
+T103	Thing-Nominal 448 450	稻草
+T104	Thing-Nominal 451 453	谷草
+T105	Thing-Nominal 459 460	稻
+T106	Thing-Nominal 484 486	眼皮
+T107	Thing-Nominal 487 489	腿脚
+R4	Part-Whole Arg1:T28 Arg2:T21	
+R5	Part-Whole Arg1:T25 Arg2:T21	
+R6	Part-Whole Arg1:T20 Arg2:T26	
+R7	Part-Whole Arg1:T27 Arg2:T21	
+T108	Thing-Nominal 303 305	镰刀
+R8	Use Arg1:T21 Arg2:T108	
+R9	Located Arg1:T87 Arg2:T85	
+R10	Use Arg1:T90 Arg2:T92	
+R11	Use Arg1:T90 Arg2:T93	
+T109	Person-Nominal 735 738	多少人
+T110	Thing-Nominal 847 849	树枝
+R12	Located Arg1:T44 Arg2:T110	
+R13	Located Arg1:T45 Arg2:T110	
+R14	Located Arg1:T46 Arg2:T110	
+R15	General-Special Arg1:T53 Arg2:T50	
+R16	General-Special Arg1:T54 Arg2:T55	
+*	Coreference T58 T59

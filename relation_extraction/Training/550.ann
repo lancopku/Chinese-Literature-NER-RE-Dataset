@@ -1,0 +1,266 @@
+T1	Thing-Nominal 0 2	地图
+T2	Location-Name 3 8	帕米尔高原
+T3	Location-Name 19 21	新疆
+T4	Location-Name 23 25	喀什
+T5	Location-Nominal 48 50	公路
+T6	Thing-Nominal 57 59	汽车
+T7	Thing-Nominal 69 72	甲壳虫
+T8	Location-Nominal 77 79	荒滩
+T9	Location-Nominal 80 82	险地
+T10	Thing-Nominal 127 129	雪山
+T11	Thing-Nominal 186 188	高峰
+T12	Thing-Nominal 231 233	火车
+T13	Thing-Nominal 233 235	汽车
+T14	Thing-Nominal 257 261	马匹牛车
+T15	Location-Name 302 304	火星
+T16	Person-Pronoun 310 311	我
+T17	Person-Name 315 318	林则徐
+T18	Location-Name 320 322	新疆
+T19	Thing-Nominal 323 325	油画
+*	Coreference T6 T7
+R1	Located Arg1:T6 Arg2:T5	
+T20	Location-Nominal 337 341	高山险处
+T21	Person-Nominal 349 352	旅游者
+T22	Location-Nominal 374 376	高原
+T23	Thing-Nominal 380 382	雪峰
+T24	Person-Pronoun 418 419	你
+T25	Location-Nominal 420 422	内地
+T26	Thing-Nominal 434 435	车
+T27	Thing-Nominal 447 449	汽车
+T28	Location-Nominal 450 452	大山
+T29	Person-Pronoun 469 470	你
+T30	Person-Pronoun 476 477	你
+T31	Thing-Nominal 497 499	牛羊
+T32	Location-Nominal 502 504	城镇
+T33	Location-Nominal 515 517;518 520	达坂 高坡
+T34	Location-Nominal 521 524	石砺地
+T35	Thing-Nominal 539 542	芨芨草
+T36	Thing-Nominal 543 546	骆驼刺
+R2	Located Arg1:T35 Arg2:T34	
+R3	Located Arg1:T35 Arg2:T33	
+R4	Located Arg1:T36 Arg2:T34	
+R5	Located Arg1:T36 Arg2:T33	
+T37	Thing-Nominal 554 556	旱獭
+T38	Person-Pronoun 593 595	我们
+T39	Location-Nominal 635 637	驿站
+T40	Person-Pronoun 649 650	你
+T41	Person-Pronoun 660 661	你
+T42	Person-Pronoun 666 667	你
+T43	Thing-Nominal 675 677	芥子
+T44	Location-Name 681 690	边境城市塔什库尔干
+T45	Person-Pronoun 708 709	你
+T46	Location-Nominal 715 717	高原
+T47	Thing-Nominal 733 736	烤羊肉
+T48	Thing-Nominal 747 748	馕
+T49	Thing-Nominal 743 746	干饼子
+*	Coreference T48 T49
+T50	Person-Name 771 777	作曲家雷振邦
+T51	Location-Nominal 784 786	高原
+T52	Location-Name 805 809	长江山城
+T53	Person-Pronoun 810 811	你
+T54	Time-Implicit 820 822	早晨
+T55	Person-Pronoun 827 828	你
+T56	Thing-Nominal 837 839	公路
+T57	Thing-Nominal 846 848	大山
+T58	Thing-Nominal 854 856	雪山
+T59	Location-Nominal 873 875	河流
+T60	Location-Nominal 875 877	草地
+T61	Thing-Nominal 877 879	牛羊
+T62	Thing-Nominal 879 881	骆驼
+T63	Thing-Nominal 889 891	毡包
+T64	Person-Pronoun 920 921	你
+T65	Person-Pronoun 946 947	你
+T66	Location-Pronoun 954 956	这里
+T67	Person-Nominal 974 976	朋友
+T68	Location-Name 982 985	帕米尔
+T69	Metric 988 992	八千多米
+T70	Thing-Name 993 997	乔戈里峰
+R6	Located Arg1:T70 Arg2:T68	
+T71	Metric 998 1002	七千多米
+T72	Thing-Name 1003 1009	慕士塔格里山
+R7	Located Arg1:T72 Arg2:T68	
+T73	Location-Pronoun 1010 1012	这里
+T74	Person-Nominal 1019 1029	这位爱好摄影的当地人
+*	Coreference T74 T67
+T75	Person-Pronoun 1033 1034;1035 1036	我 们
+T76	Person-Nominal 1042 1049	土著塔吉克居民
+T77	Location-Name 1050 1052	塔乡
+T78	Thing-Nominal 1053 1054	路
+T79	Thing-Nominal 1057 1059	汽车
+R8	Located Arg1:T79 Arg2:T78	
+T80	Person-Pronoun 1069 1071	我们
+T81	Person-Pronoun 1100 1101	你
+T82	Location-Nominal 1103 1105	草坡
+T83	Thing-Nominal 1106 1108	毡包
+R9	Located Arg1:T83 Arg2:T82	
+T84	Person-Name 1121 1125	古兰丹姆
+T87	Location-Pronoun 1144 1146	这里
+T86	Thing-Nominal 1166 1168	雪峰
+T85	Person-Name 1131 1137	小伙子阿米尔
+T88	Person-Pronoun 1177 1179	我们
+T89	Location-Name 1180 1182	塔乡
+T90	Person-Nominal 1185 1189	年轻司机
+T91	Person-Name 1193 1196	阿米尔
+*	Coreference T91 T90 T92
+T92	Person-Pronoun 1197 1198	他
+T93	Person-Nominal 1224 1227	姑娘们
+T94	Person-Pronoun 1232 1233	他
+T95	Person-Pronoun 1234 1235	我
+T96	Person-Pronoun 1263 1264	他
+T97	Location-Pronoun 1269 1271	这里
+T98	Time-Implicit 1271 1274	十月后
+T99	Person-Nominal 1276 1278	新娘
+T100	Person-Nominal 1291 1293	姑娘
+T101	Thing-Nominal 1299 1301	绿草
+T102	Thing-Nominal 1313 1314	羊
+T103	Thing-Nominal 1316 1317	牛
+T104	Person-Nominal 1320 1323;1324 1325	小伙子 们
+T105	Thing-Nominal 1328 1329	马
+T106	Thing-Nominal 1330 1331	羊
+T107	Person-Nominal 1347 1352	漂亮的姑娘
+T108	Person-Nominal 1353 1355	情人
+T109	Location-Nominal 1365 1367	毡房
+T110	Time-Implicit 1377 1380	天亮后
+T111	Person-Nominal 1454 1458	塔吉克人
+T112	Time-Implicit 1458 1462	很久以前
+T113	Location-Name 1463 1467	中亚伊朗
+T114	Location-Nominal 1472 1474	高原
+T115	Thing-Nominal 1505 1507	珠串
+T116	Thing-Nominal 1501 1503	服饰
+T117	Thing-Nominal 1507 1511	金银耳环
+T118	Thing-Nominal 1525 1527	鹰笛
+T119	Location-Name 1531 1534	帕米尔
+T120	Person-Nominal 1543 1545	老人
+T121	Person-Nominal 1556 1559	小孩子
+T122	Location-Nominal 1560 1562	草场
+T123	Person-Nominal 1569 1572	小伙子
+T124	Person-Nominal 1582 1584	姑娘
+T125	Person-Nominal 1586 1589	新嫁娘
+T126	Person-Nominal 1594 1596	头饰
+T127	Thing-Nominal 1623 1625	牛羊
+T128	Person-Pronoun 1646 1648	我们
+T129	Thing-Nominal 1650 1653	照相机
+R10	Use Arg1:T128 Arg2:T129	
+T130	Location-Nominal 1691 1693	草场
+T131	Location-Nominal 1695 1697	毡房
+T132	Person-Pronoun 1720 1721	我
+T133	Thing-Nominal 1727 1731	乳牛犄角
+T134	Person-Nominal 1735 1739	面纱少女
+T135	Location-Nominal 1744 1746	脚下
+T136	Thing-Nominal 1759 1763	骆驼刺蓬
+R11	Located Arg1:T136 Arg2:T135	
+T137	Person-Pronoun 1771 1772	我
+T138	Thing-Nominal 1773 1775	皮鞋
+T139	Thing-Pronoun 1790 1791	它
+*	Coreference T139 T136
+T140	Person-Pronoun 1793 1794	我
+T141	Location-Name 1796 1798	塔乡
+T142	Person-Nominal 1814 1819	塔吉克少女
+T143	Person-Pronoun 1827 1828	我
+T144	Person-Nominal 1829 1832	阿米尔
+T145	Person-Nominal 1833 1837	你的新娘
+R12	Family Arg1:T144 Arg2:T145	
+T146	Person-Pronoun 1839 1840	他
+T147	Person-Pronoun 1844 1845	我
+*	Coreference T147 T146 T144
+T148	Person-Pronoun 1849 1851	你们
+T149	Person-Nominal 1854 1862	最美丽多情的女人
+T150	Person-Pronoun 1864 1865	我
+T151	Time-Implicit 1865 1869	不久以后
+T152	Person-Nominal 1870 1872	妻子
+R13	Family Arg1:T150 Arg2:T152	
+*	Coreference T149 T152
+T153	Metric 1937 1940	几百里
+T154	Location-Name 1942 1947	其拉甫山口
+T155	Location-Nominal 1954 1958	边防哨所
+T156	Thing-Nominal 1959 1961	界碑
+T157	Location-Name 1965 1968	帕米尔
+T158	Location-Nominal 1985 1988	汽车路
+T159	Time-Implicit 2018 2021	六千米
+T160	Thing-Nominal 2031 2033	米粮
+T161	Thing-Nominal 2033 2035	蔬菜
+T162	Location-Name 2037 2039	咯什
+T163	Person-Pronoun 2043 2045	我们
+T164	Location-Nominal 2056 2058	暖棚
+T165	Thing-Nominal 2054 2055	菜
+R14	Located Arg1:T165 Arg2:T164	
+T166	Location-Nominal 2071 2073	哨所
+R15	Part-Whole Arg1:T164 Arg2:T166	
+T167	Person-Pronoun 2082 2084	他们
+T168	Thing-Nominal 2088 2091	羊奶子
+T169	Thing-Nominal 2092 2096	手抓羊肉
+T170	Thing-Nominal 2097 2101	新鲜蔬菜
+T171	Person-Nominal 2104 2106	客人
+R16	Use Arg1:T167 Arg2:T168	
+R17	Use Arg1:T167 Arg2:T169	
+R18	Use Arg1:T167 Arg2:T170	
+T172	Location-Nominal 2107 2109	哨所
+T173	Location-Nominal 2110 2111;2112 2113	草 坪
+R19	Near Arg1:T173 Arg2:T172	
+T175	Person-Name 2188 2196	四川人小老乡姓陈
+T174	Person-Nominal 2177 2179	战士
+*	Coreference T175 T174
+T176	Person-Pronoun 2197 2198	我
+T177	Person-Nominal 2199 2201	自己
+*	Coreference T176 T177
+T178	Location-Name 2211 2216	帕米尔高原
+T179	Location-Pronoun 2221 2223	这里
+*	Coreference T179 T178
+T180	Person-Pronoun 2246 2247	我
+T181	Location-Nominal 2249 2251	哨所
+T182	Metric 2253 2257	两三百米
+T183	Thing-Nominal 2260 2266	中国国境界碑
+R20	Located Arg1:T156 Arg2:T154	
+R21	Near Arg1:T183 Arg2:T181	
+T184	Location-Nominal 2270 2272	石面
+T185	Thing-Nominal 2280 2282	国徽
+R22	Located Arg1:T185 Arg2:T184	
+T186	Location-Nominal 2286 2290	友好邻邦
+T187	Location-Name 2290 2294	巴基斯坦
+*	Coreference T187 T186
+T188	Location-Nominal 2290 2296	巴基斯坦哨所
+T189	Person-Nominal 2302 2304	巴人
+T190	Person-Pronoun 2310 2312	我们
+T191	Thing-Nominal 2334 2336	大巴
+T192	Person-Nominal 2340 2343	车上人
+T193	Location-Nominal 2344 2346	哨所
+T194	Location-Nominal 2369 2371	地面
+T195	Thing-Nominal 2381 2382	草
+R23	Located Arg1:T195 Arg2:T194	
+T196	Location-Nominal 2388 2390	山坡
+T197	Thing-Nominal 2390 2392	牛羊
+R24	Located Arg1:T197 Arg2:T196	
+T198	Thing-Nominal 2400 2402	羊群
+T199	Thing-Nominal 2409 2411	牛群
+T200	Time-Implicit 2433 2437	九十月后
+T201	Thing-Nominal 2449 2451	苍鹰
+T202	Location-Pronoun 2454 2456	这里
+T203	Person-Nominal 2466 2468	勇士
+T204	Location-Pronoun 2470 2472	这里
+T205	Thing-Nominal 2472 2473;2474 2475	雕 塑
+T206	Person-Pronoun 2491 2492	我
+T207	Location-Name 2519 2522	帕米尔
+T208	Person-Pronoun 2546 2547	我
+T209	Thing-Nominal 2572 2574	花儿
+T210	Person-Nominal 2608 2612	边防战士
+T211	Person-Nominal 2616 2618	人民
+T212	Person-Pronoun 2625 2627	我们
+T213	Person-Pronoun 2630 2632	我们
+T214	Thing-Nominal 2671 2673	山岭
+T215	Thing-Nominal 2674 2676	原野
+T216	Thing-Nominal 2676 2678	江河
+T217	Person-Nominal 2684 2691	十三亿人民群众
+T218	Location-Name 2704 2709	新疆帕米尔
+T219	Thing-Nominal 2727 2730	冬不拉
+T220	Thing-Nominal 2731 2734	独它尔
+T221	Thing-Nominal 2744 2746	手鼓
+T222	Person-Pronoun 2808 2810	我们
+T223	Location-Pronoun 2812 2814	那里
+T224	Time-Implicit 2821 2823	几年
+T225	Location-Name 2824 2829	帕米尔高原
+*	Coreference T223 T225 T229
+T226	Person-Pronoun 2845 2846	我
+T227	Time-Implicit 2855 2857	现在
+T228	Person-Pronoun 2858 2859	我
+T229	Location-Pronoun 2863 2865	那里
+T230	Person-Nominal 2867 2869	人们

@@ -1,0 +1,21 @@
+T1	Thing-Nominal 0 2	台阶
+T2	Thing-Nominal 3 5	秋阳
+T3	Person-Pronoun 8 9	我
+T4	Location-Name 12 21	芜湖新建的长江大堤
+T5	Location-Nominal 22 24	堤上
+T6	Thing-Nominal 29 34	一道道台阶
+R1	Located Arg1:T6 Arg2:T5	
+T7	Thing-Nominal 36 44	一条靓丽的风景线
+T8	Thing-Nominal 59 60	树
+T9	Thing-Nominal 68 76	一棵高大的银杏树
+T10	Location-Nominal 98 109	一簇簇的枝枝花和通道上
+T11	Thing-Nominal 142 147	宽阔的长江
+T12	Time-Implicit 160 164	夏秋时节
+T13	Thing-Nominal 167 171	几场暴雨
+T14	Thing-Nominal 172 176	特大暴雨
+T15	Thing-Nominal 179 181	山川
+T16	Thing-Nominal 189 193	黄土泥浆
+T17	Location-Nominal 197 199	江中
+T18	Thing-Nominal 201 207	蓝盈盈的江水
+T19	Thing-Nominal 250 255	黄金水道”
+T20	Thing-Nominal 219 221	底儿

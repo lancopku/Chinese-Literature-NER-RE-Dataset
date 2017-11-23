@@ -1,0 +1,196 @@
+T1	Time-Implicit 0 2	清晨
+T2	Location-Name 3 6	酉水河
+T3	Person-Nominal 20 22	亲人
+T4	Person-Pronoun 23 24	我
+R1	Family Arg1:T4 Arg2:T3	
+T5	Location-Name 31 35	里耶古镇
+T6	Location-Nominal 50 55	青石板小道
+T7	Location-Pronoun 66 67	它
+*	Coreference T7 T6
+T8	Thing-Nominal 82 85	水草鞋
+T9	Thing-Nominal 93 95	石板
+R2	Located Arg1:T9 Arg2:T6	
+T10	Person-Pronoun 98 99	我
+T11	Thing-Nominal 111 113	石凼
+T12	Location-Nominal 116 118	山路
+T13	Person-Pronoun 147 148	我
+T14	Person-Nominal 174 178	某些人们
+T15	Metric 203 206	几百里
+T16	Location-Nominal 206 208	石道
+T17	Person-Pronoun 241 242	我
+T18	Person-Nominal 252 256	一个老人
+T19	Thing-Nominal 266 268	拐杖
+R3	Use Arg1:T18 Arg2:T19	
+T20	Location-Nominal 270 272	山道
+T21	Person-Pronoun 285 286	他
+*	Coreference T21 T18
+T22	Thing-Nominal 305 307	拐杖
+T23	Thing-Pronoun 310 311	它
+*	Coreference T23 T22
+T24	Thing-Nominal 331 333	拐杖
+T25	Thing-Nominal 339 341	铁钉
+R4	Part-Whole Arg1:T25 Arg2:T24	
+T26	Thing-Nominal 344 346	石板
+T27	Person-Nominal 355 357	老人
+T28	Person-Nominal 375 378	老大爷
+T29	Person-Pronoun 382 383	我
+*	Coreference T28 T27
+T30	Time-Explicit 390 393	三十年
+T31	Time-Explicit 398 401	三十年
+T32	Person-Nominal 405 408	我孙女
+T33	Organization-Name 409 414	重庆医科大
+T34	Person-Pronoun 418 419	她
+T35	Time-Implicit 421 423	几年
+T36	Location-Name 427 429	里耶
+T37	Thing-Nominal 431 433	大桥
+R5	Located Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 438 442	防洪大坝
+R6	Located Arg1:T38 Arg2:T36	
+T39	Person-Pronoun 443 444	我
+T40	Person-Nominal 451 453	老人
+T41	Person-Pronoun 455 456	我
+T42	Person-Pronoun 457 458	他
+*	Coreference T42 T40
+T43	Person-Nominal 469 473	有钱人家
+T44	Thing-Nominal 474 475	牛
+T45	Location-Name 487 489	酉水
+T46	Person-Nominal 491 497	里耶一家盐商
+T47	Person-Nominal 532 534	土匪
+T48	Person-Nominal 546 548	土匪
+T49	Organization-Nominal 552 554	官府
+T50	Person-Nominal 566 568	老人
+T51	Person-Pronoun 586 587	我
+T52	Location-Name 591 593	酉水
+T53	Thing-Nominal 599 601	石板
+T54	Location-Nominal 595 597	纤道
+R7	Located Arg1:T53 Arg2:T54	
+T55	Person-Nominal 604 606;607 608	劳动 者
+T56	Person-Nominal 619 626	被历史遗忘的人
+*	Coreference T55 T56
+T57	Thing-Nominal 631 634	拙路棍
+R8	Use Arg1:T56 Arg2:T57	
+T58	Location-Name 648 652	土家山寨
+T59	Time-Implicit 652 661	从明清至清末几百年
+T60	Person-Nominal 670 673	现代人
+T61	Person-Pronoun 674 676	我们
+*	Coreference T60 T61
+T62	Thing-Nominal 693 695	汽车
+T63	Thing-Nominal 698 700	火车
+T64	Person-Nominal 715 728	被称之为“背老二”的这些人
+T65	Thing-Nominal 751 753	汽车
+T66	Thing-Nominal 754 756	火车
+T67	Location-Name 758 760	长沙
+T68	Location-Name 761 763	常德
+T69	Location-Name 764 766	里耶
+T70	Location-Name 774 776	巴蜀
+T71	Location-Name 777 779	湘楚
+R9	Near Arg1:T70 Arg2:T71	
+T72	Person-Nominal 792 794	老人
+T73	Person-Pronoun 796 797	我
+T74	Location-Name 800 802	酉水
+T75	Thing-Nominal 807 809	暗礁
+T76	Location-Nominal 802 804	险滩
+T78	Thing-Nominal 910 912	虎豹
+T77	Location-Nominal 904 908	两岸山中
+R10	Located Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 921 922	虎
+T80	Thing-Nominal 923 924	狼
+T81	Location-Nominal 942 944	田地
+T82	Location-Nominal 957 959	村寨
+T83	Location-Nominal 961 964	破茅棚
+T84	Location-Nominal 970 972	石洞
+T85	Location-Nominal 967 969	河岸
+R11	Near Arg1:T84 Arg2:T85	
+R12	Part-Whole Arg1:T83 Arg2:T82	
+T86	Location-Nominal 992 994	沙滩
+T87	Location-Name 1003 1005	酉水
+T88	Thing-Nominal 1007 1010	乌篷船
+R13	Located Arg1:T88 Arg2:T87	
+T89	Person-Nominal 1016 1019	背老二
+T90	Location-Nominal 1021 1023	河岸
+T91	Thing-Nominal 1028 1030	纤索
+T92	Thing-Nominal 1065 1066	船
+T93	Thing-Nominal 1082 1084	暗礁
+T94	Person-Nominal 1090 1093	背老二
+T95	Metric 1108 1111	几千斤
+T96	Thing-Nominal 1112 1114	纤索
+T97	Person-Pronoun 1116 1118	他们
+*	Coreference T97 T94
+T98	Location-Name 1119 1122	洞庭湖
+T99	Location-Name 1123 1125	里耶
+T100	Person-Pronoun 1135 1137	他们
+T101	Location-Nominal 1178 1180	客栈
+T102	Person-Pronoun 1181 1183	他们
+T103	Person-Nominal 1187 1194	与他们相遇的人
+T104	Person-Pronoun 1211 1212	我
+T105	Person-Pronoun 1222 1223	他
+T106	Person-Nominal 1231 1233	老人
+*	Coreference T105 T106
+T107	Person-Pronoun 1247 1248	我
+T108	Person-Pronoun 1250 1252	我们
+T109	Person-Pronoun 1272 1273	他
+T110	Person-Pronoun 1283 1284	他
+T111	Person-Pronoun 1286 1288	我们
+T112	Person-Nominal 1322 1327	山寨人小孩
+T113	Thing-Nominal 1341 1342	米
+T114	Thing-Nominal 1342 1344	银子
+T115	Person-Nominal 1344 1348	笔墨纸砚
+T116	Person-Nominal 1350 1352;1353 1355	背老 二”
+T117	Person-Nominal 1358 1360	孩子
+T118	Thing-Nominal 1369 1371	木杵
+T119	Thing-Nominal 1372 1374	肩搭
+T120	Person-Pronoun 1421 1422	你
+T121	Person-Pronoun 1430 1431	你
+T122	Person-Pronoun 1438 1440	你面
+T123	Person-Nominal 1474 1476	自己
+T124	Thing-Nominal 1501 1504	火药桶
+T125	Location-Nominal 1522 1523	纤
+T126	Location-Nominal 1538 1540	纤道
+T127	Thing-Nominal 1547 1551	野草山花
+R14	Located Arg1:T127 Arg2:T126	
+T128	Location-Pronoun 1565 1566	它
+*	Coreference T128 T126
+T129	Time-Explicit 1573 1577	949年
+T130	Location-Name 1584 1586	酉水
+T131	Person-Nominal 1587 1593	土家苗汉人民
+T132	Location-Name 1599 1602	酉水河
+T133	Thing-Nominal 1603 1604	桥
+T134	Location-Nominal 1605 1607	电站
+R15	Located Arg1:T133 Arg2:T132	
+T135	Thing-Nominal 1609 1611	暗礁
+T136	Location-Nominal 1613 1615	河道
+T137	Location-Nominal 1618 1623	两岸的荒村
+T138	Location-Nominal 1633 1636	新农村
+T139	Time-Implicit 1638 1642	建国时代
+T140	Person-Nominal 1643 1647	土家居民
+T141	Location-Name 1649 1653	酉水岸边
+T142	Person-Nominal 1662 1665	土家人
+T143	Location-Name 1670 1672	酉水
+T144	Person-Nominal 1673 1675	自己
+*	Coreference T144 T142
+T145	Location-Name 1692 1693;1694 1697	凤 滩电站
+T146	Location-Name 1698 1703	碗米坡电站
+T147	Location-Name 1717 1719	酉水
+T148	Thing-Nominal 1725 1727	机船
+T149	Thing-Nominal 1730 1732	铁路
+T150	Location-Name 1750 1754	里耶大桥
+T151	Thing-Nominal 1767 1769	白帆
+T152	Thing-Nominal 1778 1779	船
+T153	Location-Name 1785 1787	酉水
+T154	Person-Nominal 1797 1799	船工
+T155	Organization-Name 1816 1819	共产党
+T156	Person-Nominal 1822 1824	老人
+T157	Person-Pronoun 1825 1826	我
+T158	Location-Nominal 1827 1829	纤道
+T159	Location-Nominal 1807 1811	土家山乡
+T160	Location-Name 841 844	永顺县
+T161	Metric 860 863	十余丈
+T162	Location-Nominal 864 866	水中
+T163	Thing-Nominal 867 870	长方石
+T164	Thing-Nominal 873 875	鸡笼
+T165	Thing-Pronoun 876 877	它
+*	Coreference T165 T163
+T166	Thing-Nominal 883 884	船
+T167	Location-Nominal 855 858	入口处
+T168	Thing-Nominal 850 852;853 854	双溶 水
+R16	Located Arg1:T168 Arg2:T167	

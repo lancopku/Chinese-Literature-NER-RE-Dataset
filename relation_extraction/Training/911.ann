@@ -1,0 +1,119 @@
+T1	Person-Nominal 3 5	人类
+T2	Person-Name 24 27	狄德罗
+T3	Location-Name 28 47	泰国普吉岛(PhuketIsland)
+T4	Location-Nominal 28 50	泰国普吉岛(PhuketIsland)的沙滩
+T5	Person-Pronoun 51 52	我
+T6	Location-Nominal 57 63	最精致的沙滩
+T7	Thing-Nominal 66 68	贝螺
+T8	Thing-Nominal 76 78	石藻
+T9	Thing-Nominal 86 88	绸缎
+T10	Thing-Nominal 156 160	每一粒沙
+T11	Thing-Nominal 178 183	嫣红的暖潮
+T12	Location-Pronoun 230 231	她
+T13	Location-Pronoun 245 246	她
+T14	Location-Pronoun 254 255	她
+T15	Person-Nominal 272 274	旅者
+T16	Location-Pronoun 292 293	她
+T17	Location-Pronoun 350 351	她
+T18	Thing-Nominal 382 384	罂粟
+T19	Person-Pronoun 431 432	我
+T21	Location-Name 433 438	普吉岛海滩
+T20	Person-Pronoun 483 484	我
+T22	Location-Nominal 488 495	这般唯美的沙滩
+T23	Location-Nominal 512 516	超市货架
+T25	Person-Pronoun 538 539	我
+T26	Thing-Nominal 548 558	脚下随海潮退去的沙层
+T27	Thing-Nominal 578 581	指甲盖
+T29	Thing-Pronoun 601 603	它们
+T30	Thing-Nominal 629 636	涌溢的海水泡沫
+T31	Thing-Nominal 622 628	半透明的背脊
+T32	Thing-Nominal 608 614	蝶翼般的甲壳
+T33	Thing-Nominal 608 610	蝶翼
+T34	Person-Pronoun 644 645	我
+T35	Person-Pronoun 661 662	我
+T36	Person-Pronoun 696 697	我
+T37	Location-Name 736 754	披群岛(PhiPhiIslands)
+T38	Location-Nominal 735 761	披披群岛(PhiPhiIslands)粗犷炽烈的沙滩
+T39	Thing-Nominal 763 768	那里的沙粒
+T40	Thing-Nominal 788 791	一捧沙
+T47	Location-Name 892 896	披披群岛
+T48	Location-Name 908 911	普吉岛
+T49	Thing-Nominal 952 957	贝壳、海螺
+T50	Location-Nominal 963 965	沙滩
+R10	Located Arg1:T49 Arg2:T50	
+T51	Location-Name 980 983	普吉岛
+T52	Thing-Nominal 980 985	普吉岛的沙
+R11	Located Arg1:T52 Arg2:T51	
+T53	Thing-Pronoun 994 996	它们
+T54	Location-Name 1017 1020	普吉岛
+T55	Thing-Nominal 1017 1022	普吉岛的沙
+R12	Located Arg1:T55 Arg2:T54	
+T56	Thing-Pronoun 1031 1033	它们
+T57	Location-Nominal 1060 1067	如此精致的沙滩
+T58	Location-Pronoun 1161 1162	她
+T59	Person-Pronoun 1186 1187	我
+T60	Location-Nominal 1209 1214	这样的沙滩
+T61	Location-Pronoun 1227 1228	她
+T62	Person-Nominal 1233 1240	迷失步履的行者
+T63	Location-Pronoun 1246 1247	她
+T64	Person-Pronoun 1278 1280	我们
+T65	Location-Pronoun 1286 1287	她
+T66	Location-Pronoun 1302 1303	她
+T67	Person-Name 1320 1329	阿尔弗雷得.贝斯特
+T68	Person-Pronoun 1330 1331	他
+*	Coreference T68 T67
+T69	Person-Pronoun 1350 1352	我们
+T70	Person-Pronoun 1396 1398	我们
+T71	Location-Nominal 1443 1445	沙滩
+T72	Thing-Nominal 1448 1450	贝壳
+T73	Location-Nominal 1464 1469	纯粹的沙滩
+T74	Location-Nominal 1478 1480	沙滩
+T75	Person-Pronoun 1502 1504	我们
+T76	Person-Pronoun 1511 1513	我们
+T77	Person-Pronoun 1529 1531	我们
+T78	Thing-Nominal 1557 1558	沙
+T79	Thing-Nominal 1564 1566	贝壳
+T80	Location-Name 1586 1588	广天
+T81	Thing-Nominal 1590 1595	浓郁的烟霭
+T82	Person-Pronoun 1611 1612	我
+T83	Thing-Nominal 1628 1630	细沙
+T84	Person-Pronoun 1655 1656	我
+T85	Person-Pronoun 1675 1676	我
+T86	Person-Pronoun 1703 1704	你
+T87	Thing-Nominal 125 127	暮霞
+T88	Thing-Nominal 164 166	霞光
+T89	Thing-Nominal 213 224	一幅扑朔迷离的金色织锦
+*	Coreference T12 T4
+T90	Thing-Nominal 239 243	雾岚云影
+T91	Location-Nominal 393 396	瑶池中
+T92	Thing-Nominal 496 502	全然纯粹的沙
+T24	Thing-Nominal 512 524;525 527	超市货架上包装精良的免淘 大米
+R1	Located Arg1:T24 Arg2:T23	
+T93	Thing-Nominal 541 543	大海
+T94	Location-Nominal 548 550	脚下
+R13	Located Arg1:T26 Arg2:T94	
+T28	Thing-Nominal 574 585;586 591	一些不到指甲盖一半大小 的白色贝壳
+T95	Thing-Nominal 594 598	掩体的沙
+*	Coreference T29 T28
+T96	Thing-Nominal 698 701	海岸线
+T97	Location-Pronoun 763 765	那里
+*	Coreference T97 T38
+R2	Located Arg1:T39 Arg2:T97	
+T98	Person-Nominal 777 778	人
+T99	Thing-Nominal 796 798	大海
+T41	Thing-Nominal 805 828	狡黠敏捷的虾蟹，花纹奇异的扇贝，色彩斑斓的海螺
+T42	Thing-Nominal 833 835;836 845	远古 的货币使者虎斑宝贝
+R3	Located Arg1:T99 Arg2:T41	
+R4	Located Arg1:T42 Arg2:T99	
+T43	Location-Nominal 881 883	脚下
+T44	Thing-Nominal 900 901	沙
+T45	Thing-Nominal 915 916	沙
+*	Coreference T53 T49
+T46	Thing-Nominal 1040 1042	大海
+T100	Time-Implicit 1109 1112	朝暮间
+T101	Thing-Nominal 1112 1123	一席如此广袤的绫罗素绸
+T102	Thing-Nominal 1126 1131	华丽的流苏
+T103	Abstract 1331 1339	《霍伯森的选择》
+T104	Thing-Nominal 1355 1360	迷人的蜃景
+T105	Thing-Nominal 1605 1610	潮湿的海风
+T106	Thing-Nominal 1670 1671	沙

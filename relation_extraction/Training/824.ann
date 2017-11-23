@@ -1,0 +1,192 @@
+T1	Organization-Name 0 7	喇荣五明佛学院
+T2	Person-Name 0 14	喇荣五明佛学院上师索达吉堪布
+R1	Ownership Arg1:T2 Arg2:T1	
+T3	Thing-Name 20 26	残酷才是青春
+T4	Time-Implicit 38 42	很久以前
+T5	Person-Nominal 43 47	有位公差
+T6	Person-Nominal 49 58	一名犯了戒规的和尚
+T7	Location-Name 59 60;61 62	京 城
+T8	Person-Nominal 68 70	公差
+T9	Time-Implicit 70 74	每天一早
+T10	Thing-Nominal 87 89	包裹
+T11	Thing-Nominal 93 95	盘缠
+T12	Thing-Nominal 96 98	衣服
+R2	Located Arg1:T11 Arg2:T10	
+R3	Located Arg1:T12 Arg2:T10	
+R4	Ownership Arg1:T8 Arg2:T10	
+T13	Thing-Nominal 106 108	公文
+T14	Thing-Nominal 113 115	公文
+T15	Person-Nominal 132 134	和尚
+R5	Social Arg1:T6 Arg2:T5	
+T16	Person-Pronoun 137 138	他
+T17	Person-Nominal 138 140	自己
+*	Coreference T16 T8 T17 T18
+T18	Person-Pronoun 148 149	他
+T19	Thing-Nominal 153 154	路
+T20	Thing-Nominal 155 156	天
+T21	Thing-Nominal 157 158	地
+T22	Person-Nominal 165 167	两人
+T23	Person-Nominal 181 182;183 184	朋 友
+R6	Part-Whole Arg1:T18 Arg2:T22	
+R7	Part-Whole Arg1:T15 Arg2:T22	
+T24	Time-Implicit 186 189	有一天
+T25	Thing-Nominal 190 192	风雨
+T26	Metric 197 199	一天
+T27	Person-Pronoun 202 204	他们
+*	Coreference T27 T22
+T28	Location-Nominal 210 212	破庙
+T29	Person-Nominal 213 215	和尚
+T30	Person-Nominal 216 218	公差
+T31	Person-Pronoun 221 222	我
+*	Coreference T31 T29
+T32	Person-Pronoun 223 224	你
+*	Coreference T30 T32
+T33	Thing-Nominal 227 228	酒
+T34	Time-Explicit 230 232	今天
+T35	Person-Nominal 242 244	公差
+T36	Thing-Nominal 247 249	枷锁
+T37	Person-Nominal 250 252	和尚
+T38	Time-Implicit 255 258	不一会
+T39	Person-Nominal 259 261	和尚
+T40	Thing-Nominal 262 263	酒
+T41	Thing-Nominal 271 274	下酒菜
+T42	Person-Nominal 275 277	公差
+T43	Person-Nominal 291 293	和尚
+T44	Thing-Nominal 300 307	一把刚买的剃刀
+R8	Use Arg1:T43 Arg2:T44	
+T45	Thing-Nominal 310 315	公差的头发
+T46	Person-Pronoun 324 325	他
+*	Coreference T46 T42
+T47	Thing-Nominal 326 328	衣服
+R9	Ownership Arg1:T46 Arg2:T47	
+T48	Person-Nominal 333 335	自己
+T49	Thing-Nominal 336 338	僧衣
+R10	Ownership Arg1:T48 Arg2:T49	
+T50	Person-Nominal 340 342	公差
+*	Coreference T43 T48
+T51	Person-Nominal 350 352	公差
+T52	Time-Implicit 358 364	日上三竿时分
+T53	Person-Pronoun 365 366	他
+*	Coreference T53 T51 T57 T61 T63
+T54	Thing-Nominal 376 378	包狱
+R11	Ownership Arg1:T53 Arg2:T54	
+T55	Thing-Nominal 380 382	公文
+T56	Person-Nominal 384 386	和尚
+T57	Person-Nominal 394 397	自个儿
+T58	Thing-Nominal 397 398	头
+R12	Part-Whole Arg1:T58 Arg2:T57	
+T59	Thing-Nominal 407 409	僧衣
+T60	Person-Nominal 413 415	和尚
+T61	Person-Nominal 420 422	自己
+T62	Person-Nominal 437 439	和尚
+T63	Person-Pronoun 443 444	我
+T64	Time-Implicit 448 451	一夜间
+T65	Person-Nominal 454 456	公差
+T66	Person-Nominal 460 462	和尚
+T67	Person-Nominal 481 485	现代公差
+T68	Person-Nominal 491 493	自己
+T69	Person-Nominal 496 499	不少人
+T70	Thing-Nominal 535 536	柴
+T71	Thing-Nominal 536 537	米
+T72	Thing-Nominal 537 538	油
+T73	Thing-Nominal 538 539	盐
+T74	Thing-Nominal 542 544	五洲
+T75	Thing-Nominal 544 546	四海
+T76	Location-Nominal 547 549	天涯
+T77	Location-Nominal 549 551	海角
+T78	Thing-Nominal 571 573	电脑
+T79	Physical 564 566	爱疯
+T80	Physical 567 569	爱派
+T81	Person-Nominal 588 590	自我
+T82	Thing-Nominal 606 610	通讯工具
+T83	Thing-Name 624 626	庐山
+T84	Person-Pronoun 683 684	我
+T85	Thing-Nominal 710 712	耳朵
+T86	Thing-Nominal 716 718	耳朵
+T87	Person-Pronoun 728 729	我
+T88	Person-Pronoun 738 739	我
+T89	Person-Nominal 773 775	旁人
+R13	Social Arg1:T89 Arg2:T88	
+T90	Thing-Nominal 810 813	麦克风
+T91	Person-Pronoun 821 822	你
+T92	Time-Implicit 815 819	开放时代
+T93	Person-Pronoun 839 840	我
+T94	Person-Pronoun 847 848	我
+*	Coreference T91 T93 T94 T95
+T95	Person-Nominal 877 879	自己
+T96	Thing-Nominal 1012 1013	瓜
+T97	Thing-Nominal 1014 1015	瓜
+T98	Thing-Nominal 1017 1018	豆
+T99	Thing-Nominal 1019 1020	豆
+T100	Organization-Nominal 1039 1042	照相馆
+T101	Time-Implicit 1031 1045	只有特别需要才上照相馆的年代
+T102	Person-Nominal 1053 1055	亲友
+T103	Organization-Nominal 1060 1063	照相馆
+T104	Thing-Nominal 1065 1067	照片
+T105	Person-Nominal 1073 1075	主人
+T106	Person-Pronoun 1076 1078	我们
+R14	Social Arg1:T106 Arg2:T105	
+T107	Organization-Name 1088 1095	不二我”照相馆
+T108	Person-Pronoun 1101 1102	我
+T110	Thing-Nominal 1119 1123	玻璃柜台
+T109	Thing-Nominal 1114 1115	墙
+R15	Ownership Arg1:T107 Arg2:T109	
+R16	Ownership Arg1:T107 Arg2:T110	
+T111	Person-Nominal 1126 1128	客人
+T112	Thing-Nominal 1131 1133	相册
+R17	Ownership Arg1:T107 Arg2:T112	
+R18	Located Arg1:T112 Arg2:T110	
+R19	Located Arg1:T112 Arg2:T109	
+T113	Thing-Nominal 1138 1140	照片
+R20	Located Arg1:T113 Arg2:T112	
+T114	Person-Nominal 1159 1162	摄影师
+T115	Thing-Nominal 1172 1175	不二我
+T116	Thing-Nominal 1185 1187	相片
+T117	Organization-Name 1198 1201	不二我
+T118	Person-Pronoun 1217 1218	我
+T119	Person-Nominal 1222 1232	有位退休不久的老领导
+T120	Metric 1233 1236	几十年
+T121	Person-Pronoun 1238 1239	他
+*	Coreference T121 T119
+T122	Organization-Nominal 1250 1252	医院
+T123	Person-Nominal 1253 1255	大家
+T124	Person-Pronoun 1257 1258	他
+R21	Social Arg1:T123 Arg2:T124	
+T125	Time-Implicit 1267 1272	退休清闲后
+T126	Person-Pronoun 1273 1274	他
+T127	Person-Nominal 1292 1294	家人
+T128	Person-Pronoun 1298 1299	他
+R22	Family Arg1:T127 Arg2:T128	
+T129	Person-Nominal 1305 1307	医生
+R23	Social Arg1:T128 Arg2:T129	
+T130	Person-Pronoun 1338 1340	医生
+T131	Person-Pronoun 1343 1344	他
+T132	Person-Pronoun 1370 1371	他
+T133	Thing-Nominal 1376 1377	头
+R24	Part-Whole Arg1:T133 Arg2:T132	
+T134	Thing-Nominal 1400 1402	镜子
+T135	Thing-Nominal 1405 1407	胡子
+T136	Thing-Nominal 1413 1414	脸
+R25	Located Arg1:T135 Arg2:T136	
+T137	Thing-Nominal 1419 1420	粉
+T138	Thing-Nominal 1416 1417	斑
+R26	Located Arg1:T138 Arg2:T136	
+R27	Located Arg1:T137 Arg2:T136	
+T139	Metric 1430 1432	一天
+T140	Thing-Nominal 1446 1448	镜子
+T141	Thing-Pronoun 1457 1458	它
+*	Coreference T141 T140
+T142	Person-Nominal 1469 1471	古人
+T143	Thing-Nominal 1476 1477	铜
+T144	Thing-Nominal 1478 1479	镜
+T145	Thing-Nominal 1483 1485	衣冠
+T146	Thing-Nominal 1489 1490	镜
+T147	Time-Implicit 1514 1516	当下
+T148	Person-Nominal 1519 1521	名人
+T149	Person-Nominal 1522 1525	老同志
+T150	Person-Pronoun 1570 1571	我
+T151	Person-Pronoun 1581 1582	我
+*	Coreference T151 T150
+T152	Person-Pronoun 1600 1602	自我
+T153	Person-Pronoun 1614 1616	自我
+T154	Person-Pronoun 1433 1435	自我

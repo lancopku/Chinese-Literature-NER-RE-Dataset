@@ -1,0 +1,290 @@
+T1	Organization-Nominal 0 3	我们家
+T2	Thing-Nominal 0 7	我们家的老宅子
+R1	Ownership Arg1:T1 Arg2:T2	
+T3	Thing-Nominal 15 20	南院和北院
+R2	Part-Whole Arg1:T3 Arg2:T2	
+T4	Thing-Nominal 21 23	南院
+R3	Part-Whole Arg1:T4 Arg2:T3	
+T5	Thing-Nominal 24 28	两孔窑洞
+R4	Located Arg1:T5 Arg2:T4	
+T6	Organization-Nominal 29 31	我家
+*	Coreference T6 T1
+T7	Organization-Nominal 34 37	堂叔家
+T8	Metric 31 33	一孔
+T9	Metric 37 39	一孔
+T10	Organization-Nominal 40 42	两家
+T11	Thing-Nominal 44 48	一个院子
+T12	Thing-Nominal 49 51	北院
+R5	Part-Whole Arg1:T12 Arg2:T3	
+T13	Thing-Nominal 52 56	一孔窑洞
+R6	Located Arg1:T13 Arg2:T12	
+T14	Person-Pronoun 58 60	我们
+R7	Ownership Arg1:T14 Arg2:T1	
+T15	Thing-Nominal 65 67	北院
+T16	Thing-Nominal 73 78	其它建筑物
+T17	Thing-Nominal 81 83	院落
+T18	Location-Pronoun 93 95	这里
+T19	Location-Nominal 65 67	北院
+*	Coreference T18 T19
+T20	Location-Nominal 96 106	发展庭院经济的好地方
+R8	General-Special Arg1:T20 Arg2:T18	
+T21	Time-Implicit 114 116	当时
+T22	Organization-Nominal 117 120	我们家
+T23	Thing-Nominal 122 123	猪
+T24	Location-Nominal 125 127	北院
+T25	Thing-Nominal 128 129	羊
+R9	Located Arg1:T23 Arg2:T24	
+T26	Location-Nominal 131 133	北院
+R10	Located Arg1:T25 Arg2:T26	
+T27	Thing-Nominal 134 135	鸡
+T28	Location-Nominal 138 140	北院
+R11	Located Arg1:T27 Arg2:T28	
+T29	Location-Nominal 141 144	院子里
+T30	Thing-Nominal 146 148	群鸡
+T31	Thing-Nominal 151 152	猪
+T32	Thing-Nominal 153 154	羊
+R12	Located Arg1:T30 Arg2:T29	
+R13	Located Arg1:T31 Arg2:T29	
+*	Coreference T32 T30
+T33	Location-Nominal 164 167	北小院
+*	Coreference T33 T26
+T34	Thing-Nominal 171 186	两棵果树，一棵杏树，一棵沙果树
+R14	Located Arg1:T34 Arg2:T33	
+T35	Metric 194 196	春天
+T36	Thing-Nominal 197 203	杏花和沙果花
+T37	Thing-Nominal 208 210	花香
+T38	Location-Nominal 213 217	整个院子
+R15	Located Arg1:T37 Arg2:T38	
+T39	Thing-Nominal 221 222	蝶
+T40	Thing-Nominal 223 224	蜂
+T41	Thing-Nominal 233 237	各样小鸟
+T42	Thing-Nominal 241 249	南方归来的小燕子
+R16	General-Special Arg1:T41 Arg2:T42	
+T43	Location-Nominal 251 254	院子里
+R17	Located Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 267 268	泥
+T45	Thing-Nominal 269 270	草
+T46	Thing-Nominal 272 273	窝
+T47	Thing-Nominal 274 275	巢
+T48	Thing-Nominal 276 277	鸟
+T49	Thing-Nominal 278 279	花
+T50	Thing-Nominal 281 285	满院春色
+T51	Location-Nominal 290 293	北小院
+T52	Time-Implicit 300 302	夏日
+T53	Thing-Nominal 303 305	杏子
+T54	Thing-Nominal 308 310	沙果
+T55	Thing-Nominal 313 318	一个个果实
+T56	Location-Nominal 321 327	绿叶树枝之间
+R18	Located Arg1:T55 Arg2:T56	
+T57	Thing-Nominal 328 330	宝石
+T58	Person-Nominal 334 335	人
+T59	Time-Implicit 347 349	这时
+T60	Person-Nominal 354 362	村子里的小孩子们
+T61	Location-Nominal 364 367	北小院
+T62	Person-Pronoun 368 370	他们
+*	Coreference T62 T60 T69
+T63	Person-Nominal 379 381	大人
+T64	Location-Nominal 388 390	树上
+T65	Thing-Nominal 391 397	杏子或沙果子
+R19	Located Arg1:T65 Arg2:T64	
+T66	Person-Nominal 399 404	我们家大人
+T67	Person-Pronoun 415 417	他们
+T68	Time-Implicit 426 428	有时
+T69	Person-Nominal 432 439	在树上的小朋友
+T70	Thing-Nominal 440 441	手
+T71	Thing-Nominal 445 446	脚
+T72	Location-Nominal 458 460	树上
+T73	Thing-Nominal 469 473	两树果子
+T74	Person-Pronoun 473 475	我们
+T75	Time-Implicit 481 483	每年
+T76	Time-Implicit 486 490	收获之后
+T77	Person-Nominal 493 498	亲戚邻居们
+R20	Social Arg1:T74 Arg2:T77	
+T78	Time-Implicit 501 503	后来
+T79	Location-Nominal 504 508	院子中间
+T80	Thing-Nominal 511 515	一棵桑树
+R21	Located Arg1:T80 Arg2:T79	
+T81	Thing-Nominal 517 519	桑果
+T82	Thing-Nominal 522 524	桑葚
+*	Coreference T82 T81
+R22	Located Arg1:T81 Arg2:T80	
+T83	Thing-Nominal 546 552	成熟了的桑果
+R23	General-Special Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 571 577	一身的小珍珠
+T85	Thing-Nominal 557 564	一粒粒的小黑点
+R24	Located Arg1:T85 Arg2:T83	
+T86	Metric 580 582	几个
+T87	Thing-Nominal 592 594	牙齿
+T88	Person-Nominal 615 621	贪嘴的小孩子
+T89	Person-Nominal 637 639	对方
+T90	Thing-Nominal 645 650	桑树的叶子
+R25	Part-Whole Arg1:T90 Arg2:T80	
+T91	Thing-Nominal 657 659	春蚕
+T92	Person-Nominal 668 674	养蚕的小家伙
+T93	Location-Nominal 680 683	北小院
+T94	Thing-Nominal 685 687	桑叶
+*	Coreference T94 T90
+T95	Time-Implicit 688 692	当此之时
+T96	Location-Nominal 693 696	院子里
+T97	Thing-Nominal 698 707	蜂蝶小鸟、猪羊鸡兔
+T98	Person-Nominal 714 718	小孩子们
+T99	Location-Nominal 736 740	整个小院
+*	Coreference T99 T93
+T100	Time-Implicit 755 759	夏末秋初
+T101	Location-Nominal 760 763	院子里
+T102	Thing-Nominal 769 770	蝉
+T103	Thing-Nominal 775 777	蟋蟀
+T104	Thing-Nominal 781 787	这些小鸟小虫
+T105	Location-Nominal 825 827	院子
+T106	Location-Nominal 829 831	院子
+T107	Thing-Nominal 803 808	果树的叶子
+T108	Thing-Nominal 839 850	一床薄薄的黄颜色的被子
+R26	Located Arg1:T108 Arg2:T106	
+T109	Thing-Nominal 853 862	这一层又一层的落叶
+*	Coreference T109 T108
+T110	Location-Nominal 891 894	院子里
+T111	Thing-Nominal 896 898	果树
+R27	Part-Whole Arg1:T107 Arg2:T111	
+T114	Thing-Nominal 914 924	猪呀、鸡呀的这些东西
+T115	Thing-Nominal 928 929	窝
+T116	Thing-Nominal 946 956;957 958	那些蝶呀、蜂呀、蝉呀 的
+T117	Thing-Nominal 969 973	那些小鸟
+T112	Thing-Nominal 977 979	麻雀
+R28	General-Special Arg1:T117 Arg2:T112	
+T113	Location-Nominal 997 1000	院子里
+T118	Person-Nominal 1007 1010	孩子们
+T119	Person-Pronoun 1023 1025	他们
+*	Coreference T119 T118 T126
+T120	Thing-Nominal 1029 1035	一些麦粒谷颗
+R29	Use Arg1:T119 Arg2:T120	
+T121	Thing-Nominal 1042 1046	一顶筛子
+T122	Thing-Nominal 1049 1052	小树杈
+T123	Thing-Nominal 1053 1055	筛子
+*	Coreference T123 T121
+T124	Thing-Nominal 1059 1062	小树杈
+T125	Thing-Nominal 1064 1071	一根长长得绳子
+R30	Use Arg1:T119 Arg2:T121	
+R31	Use Arg1:T119 Arg2:T122	
+R32	Use Arg1:T119 Arg2:T125	
+T126	Person-Nominal 1072 1073	人
+T127	Thing-Nominal 1075 1077	绳子
+T128	Thing-Nominal 1085 1088	麻雀们
+T129	Thing-Nominal 1090 1092	筛子
+T130	Thing-Nominal 1101 1103	绳子
+T131	Thing-Nominal 1109 1112	麻雀们
+T132	Thing-Nominal 1124 1128	瓮中之鳖
+T133	Thing-Nominal 1135 1139	筛下之雀
+T134	Thing-Nominal 1146 1150	小麻雀们
+*	Coreference T134 T128
+T135	Person-Nominal 1155 1158	孩子们
+T136	Person-Pronoun 1166 1168	他们
+T137	Thing-Nominal 1169 1174	捉到的麻雀
+T138	Thing-Nominal 1144 1150	那些小麻雀们
+*	Coreference T137 T138
+T139	Thing-Nominal 1176 1178	泥巴
+*	Coreference T136 T135
+R33	Use Arg1:T136 Arg2:T139	
+T140	Location-Nominal 1183 1185	火上
+T141	Thing-Nominal 1191 1197	烧烤的麻雀肉
+T142	Person-Pronoun 1202 1205	孩子们
+T143	Time-Implicit 1223 1227	一年四季
+T144	Location-Nominal 1228 1231	北小院
+T145	Time-Implicit 1232 1234	季季
+T146	Time-Implicit 1257 1259	夏季
+T147	Location-Nominal 1257 1263	夏季的北小院
+T148	Time-Implicit 1270 1272	夏季
+T149	Thing-Nominal 1273 1275	果子
+T150	Location-Nominal 1282 1283;1284 1289	夏 季的北小院
+T151	Person-Pronoun 1299 1300	我
+T152	Person-Nominal 1305 1308	父、母
+R34	Family Arg1:T152 Arg2:T151	
+T153	Location-Nominal 1310 1313	北小院
+*	Coreference T150 T153
+T154	Thing-Nominal 1316 1321	一块小菜地
+T155	Thing-Nominal 1324 1342	辣椒、茄子、黄瓜、南瓜、西红柿等蔬菜
+R35	Located Arg1:T155 Arg2:T154	
+R36	Located Arg1:T154 Arg2:T153	
+T156	Time-Implicit 1346 1348	夏天
+T157	Thing-Nominal 1349 1354	这块小菜地
+*	Coreference T157 T155 T167
+T158	Thing-Nominal 1355 1357	茄子
+T159	Thing-Nominal 1360 1362	柿子
+T160	Thing-Nominal 1365 1367	南瓜
+T161	Thing-Nominal 1371 1373	黄瓜
+R37	Located Arg1:T158 Arg2:T157	
+R38	Located Arg1:T159 Arg2:T157	
+R39	Located Arg1:T160 Arg2:T157	
+R40	Located Arg1:T161 Arg2:T157	
+T162	Person-Pronoun 1377 1379	我们
+T163	Thing-Nominal 1380 1382	餐桌
+T164	Thing-Nominal 1377 1386	我们家餐桌上吃的菜
+R41	Located Arg1:T163 Arg2:T164	
+T165	Thing-Nominal 1404 1405;1406 1409	一 根黄瓜
+T166	Thing-Nominal 1411 1416	一颗西红柿
+T167	Thing-Nominal 1448 1451	菜园子
+T168	Thing-Nominal 1465 1466;1467 1473	一 些花儿草呀的
+T169	Location-Nominal 1448 1453	菜园子周围
+R42	Located Arg1:T168 Arg2:T169	
+T170	Thing-Nominal 1474 1478	这些花儿
+*	Coreference T170 T168
+T171	Location-Nominal 1491 1494	北小院
+T172	Thing-Nominal 1509 1512	指甲花
+T173	Thing-Nominal 1516 1519	凤仙花
+*	Coreference T173 T172 T175
+T174	Person-Nominal 1520 1527;1528 1530	乡下的姑娘、媳 妇们
+T175	Thing-Nominal 1532 1535	这种花
+T176	Thing-Nominal 1536 1538	指甲
+T177	Person-Pronoun 1539 1541	她们
+*	Coreference T177 T174 T186
+R43	Part-Whole Arg1:T176 Arg2:T174	
+T178	Thing-Nominal 1542 1548	那红红的花朵
+R44	Part-Whole Arg1:T178 Arg2:T175	
+T179	Thing-Nominal 1554 1556	白矾
+T180	Thing-Nominal 1564 1566	指甲
+T181	Thing-Nominal 1569 1571	桑叶
+R45	Use Arg1:T177 Arg2:T179	
+R46	Use Arg1:T177 Arg2:T181	
+T182	Thing-Nominal 1576 1577	线
+R47	Use Arg1:T177 Arg2:T182	
+T183	Time-Implicit 1589 1592	第二天
+T184	Thing-Nominal 1595 1600	包裹的桑叶
+T185	Thing-Nominal 1601 1603	指甲
+T186	Person-Nominal 1618 1630	那些爱臭美的姑娘、媳妇们
+T187	Time-Implicit 1640 1643	三伏天
+T188	Location-Nominal 1644 1647	屋子里
+T189	Person-Nominal 1653 1654	人
+T190	Location-Nominal 1661 1668	北小院的荫凉处
+T191	Thing-Nominal 1669 1674	一张小饭桌
+R48	Located Arg1:T191 Arg2:T190	
+T192	Thing-Nominal 1676 1681	几个小板凳
+R49	Located Arg1:T192 Arg2:T190	
+T193	Metric 1676 1678	几个
+T194	Person-Nominal 1682 1685	一家人
+T195	Location-Pronoun 1687 1689	这里
+T196	Location-Pronoun 1692 1694	这里
+T197	Person-Nominal 1709 1710;1711 1712	人 们
+T198	Time-Implicit 1729 1731	晚上
+T199	Person-Nominal 1732 1734	人们
+T200	Thing-Nominal 1744 1748	一页席子
+T201	Location-Nominal 1751 1753	小院
+T202	Location-Nominal 1661 1664	北小院
+*	Coreference T201 T202
+R50	Part-Whole Arg1:T190 Arg2:T202	
+T203	Thing-Nominal 1758 1760	月亮
+T204	Thing-Nominal 1761 1763	星星
+T205	Person-Nominal 1765 1769	天上神仙
+T206	Thing-Nominal 1775 1785	附近池塘里的声声蛙叫
+T207	Person-Nominal 1799 1802	大人们
+T208	Person-Nominal 1803 1805	孩子
+T209	Person-Nominal 1829 1832	孩子们
+T210	Person-Nominal 1845 1848	大人们
+T211	Person-Nominal 1871 1873	人们
+T212	Person-Nominal 1894 1898	谁家大人
+T213	Person-Nominal 1900 1902	孩子
+R51	Family Arg1:T212 Arg2:T213	
+T214	Thing-Nominal 1908 1911	这声音
+T215	Thing-Pronoun 1941 1942	它
+*	Coreference T215 T214
+T216	Person-Nominal 1950 1952	人们
+T217	Location-Nominal 1961 1962	屋
+T218	Thing-Nominal 1945 1949	一种信号

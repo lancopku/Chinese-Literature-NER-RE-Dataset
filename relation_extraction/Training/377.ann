@@ -1,0 +1,331 @@
+T1	Location-Nominal 1 6	我老家门前
+T2	Thing-Nominal 8 13	一棵大槐树
+R1	Located Arg1:T2 Arg2:T1	
+T3	Location-Nominal 48 50	我家
+T4	Location-Nominal 1 4	我老家
+*	Coreference T4 T3
+T5	Location-Nominal 52 60;61 62	胡同底部的拐弯深 处
+R2	Near Arg1:T3 Arg2:T5	
+T6	Location-Nominal 72 75	胡同底
+R3	Part-Whole Arg1:T5 Arg2:T6	
+T7	Thing-Nominal 80 84	高墙壁垒
+T8	Thing-Nominal 91 92	柳
+T9	Thing-Nominal 93 94	花
+T10	Time-Implicit 102 104	这时
+T11	Thing-Nominal 105 107	古槐
+*	Coreference T11 T2 T12 T32 T38 T41 T73 T97 T141 T159 T176
+T12	Thing-Nominal 113 114	树
+T13	Thing-Nominal 119 121	主干
+R4	Part-Whole Arg1:T13 Arg2:T11	
+T14	Person-Nominal 127 129	俩人
+T15	Metric 115 118	五六丈
+T16	Metric 133 135	三尺
+T17	Thing-Nominal 140 145	三股主枝杈
+R5	Part-Whole Arg1:T17 Arg2:T11	
+T18	Metric 151 154	十多米
+T19	Thing-Nominal 158 163	周围的房顶
+T20	Thing-Nominal 177 179	枝梢
+R6	Part-Whole Arg1:T20 Arg2:T11	
+T21	Metric 185 188	两米多
+T22	Thing-Nominal 191 195	三把巨伞
+T23	Location-Nominal 198 205	紧邻的三座院落
+R7	Near Arg1:T22 Arg2:T23	
+T24	Thing-Nominal 206 210	往北一枝
+R8	Part-Whole Arg1:T24 Arg2:T11	
+T25	Location-Nominal 213 218	我家院中央
+T26	Thing-Nominal 222 224	浓荫
+T27	Time-Implicit 219 221	夏天
+T28	Location-Nominal 225 230	不宽的院落
+R9	Part-Whole Arg1:T25 Arg2:T28	
+T29	Thing-Nominal 240 242	烈日
+T30	Thing-Nominal 246 248	小雨
+T31	Person-Nominal 254 260	我爷爷的爷爷
+T32	Thing-Pronoun 264 265	她
+T33	Metric 279 282	二百岁
+T34	Thing-Pronoun 285 286	她
+T35	Person-Nominal 292 296	十几代人
+T36	Person-Nominal 302 304	人们
+T37	Thing-Pronoun 307 308	她
+T38	Thing-Name 308 313	“长寿树”
+T39	Time-Implicit 330 334	冬去春来
+T40	Thing-Nominal 338 344	黄茸茸的嫩芽
+T41	Thing-Nominal 336 337	树
+T42	Thing-Nominal 315 317	槐树
+R10	Located Arg1:T40 Arg2:T41	
+T43	Thing-Nominal 348 349	叶
+T44	Thing-Nominal 350 351	花
+T45	Time-Implicit 358 360	夏天
+T46	Thing-Nominal 361 362	枝
+T47	Thing-Nominal 363 364	叶
+T48	Thing-Nominal 367 368	树
+R11	Part-Whole Arg1:T47 Arg2:T48	
+R12	Part-Whole Arg1:T46 Arg2:T48	
+T49	Thing-Nominal 368 370	碧绿
+R13	Located Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 371 373	阳光
+T51	Thing-Nominal 376 378	树叶
+*	Coreference T51 T47
+T52	Location-Nominal 386 388	地上
+T53	Thing-Nominal 391 393	树荫
+T54	Time-Implicit 396 398	秋天
+T55	Thing-Nominal 407 412	串串槐豆角
+T56	Location-Nominal 399 404	浓密的叶间
+R14	Located Arg1:T55 Arg2:T56	
+T57	Thing-Nominal 414 421	贵夫人的金耳坠
+T58	Person-Nominal 414 417	贵夫人
+T59	Time-Implicit 430 432	初冬
+T60	Thing-Nominal 433 434	风
+T61	Thing-Nominal 435 436	叶
+T62	Location-Nominal 445 447	枝头
+T63	Thing-Nominal 439 444	千万串果实
+R15	Located Arg1:T63 Arg2:T62	
+T64	Time-Implicit 459 463	隆冬季节
+T65	Thing-Nominal 464 466	大雪
+T66	Thing-Pronoun 469 470	她
+T67	Location-Nominal 480 482	枝头
+T68	Thing-Nominal 484 490	尺把长的冰柱
+R16	Located Arg1:T68 Arg2:T67	
+T69	Person-Nominal 492 494	壮士
+T70	Thing-Nominal 496 497;498 499	银 剑
+R17	Use Arg1:T69 Arg2:T70	
+T71	Location-Nominal 508 510	家乡
+T72	Location-Nominal 512 514	村里
+T73	Thing-Nominal 512 518	村里一大景观
+T74	Time-Implicit 519 523	一年四季
+T75	Thing-Nominal 524 529	成群的鸟雀
+T76	Location-Nominal 530 532	树上
+R18	Located Arg1:T75 Arg2:T76	
+T77	Thing-Nominal 533 534	洞
+T78	Thing-Nominal 536 537	窝
+R19	Located Arg1:T77 Arg2:T76	
+R20	Located Arg1:T78 Arg2:T76	
+T79	Time-Implicit 543 547	一天到晚
+T80	Thing-Nominal 548 550	群鸟
+T81	Time-Implicit 563 565	清晨
+T82	Person-Nominal 573 575	人们
+T83	Time-Implicit 580 582	傍晚
+T84	Person-Nominal 591 593	人们
+T85	Thing-Nominal 593 595	夜幕
+T86	Time-Implicit 600 602	不时
+T87	Thing-Nominal 605 607	喜鹊
+R21	General-Special Arg1:T80 Arg2:T87	
+T88	Location-Nominal 608 610	枝头
+R22	Located Arg1:T87 Arg2:T88	
+T89	Person-Nominal 615 617	人们
+T90	Thing-Nominal 622 624	喜鹊
+T91	Person-Nominal 630 632	客人
+T92	Thing-Nominal 643 645	喜鹊
+T93	Person-Nominal 652 657	一两家亲戚
+T94	Thing-Pronoun 668 669	她
+T95	Person-Nominal 691 693	人们
+T96	Thing-Pronoun 695 696	她
+T97	Thing-Name 696 701	“消息树”
+T98	Thing-Nominal 703 705	槐树
+T99	Location-Nominal 703 706	槐树下
+T100	Location-Nominal 707 715	乡亲们汇聚的地方
+*	Coreference T100 T99
+T101	Person-Nominal 707 710	乡亲们
+T102	Time-Implicit 716 718	夏天
+T103	Thing-Nominal 719 721	浓荫
+T104	Thing-Nominal 724 728	一日三餐
+T105	Person-Nominal 730 731	人
+T106	Thing-Nominal 733 734	饭
+R23	Use Arg1:T105 Arg2:T106	
+T107	Person-Nominal 756 759	孩童们
+T108	Location-Nominal 767 769	树上
+T109	Thing-Nominal 777 779	槐树
+T110	Metric 782 784	三年
+T111	Thing-Nominal 785 787	片叶
+T112	Person-Nominal 790 792	人们
+T113	Time-Implicit 801 804	第四年
+T114	Thing-Nominal 805 807	枝叶
+T115	Person-Nominal 819 821	人们
+T116	Thing-Nominal 835 836	松
+T117	Thing-Nominal 839 840	柏
+T118	Thing-Nominal 843 845	老槐
+T119	Thing-Nominal 850 852	槐树
+T120	Thing-Pronoun 861 862	她
+*	Coreference T120 T119 T123
+T121	Metric 853 855	N年
+T122	Thing-Nominal 884 885;886 887	树 冠
+R24	Part-Whole Arg1:T122 Arg2:T119	
+T123	Thing-Pronoun 905 906	它
+T124	Person-Nominal 911 917	旧社会不少人
+T125	Location-Pronoun 918 920	这里
+T126	Person-Nominal 930 933	有些人
+T127	Location-Nominal 936 939	它身上
+T128	Thing-Nominal 940 941	绸
+T129	Thing-Nominal 942 943	缎
+R25	Located Arg1:T128 Arg2:T127	
+R26	Located Arg1:T129 Arg2:T127	
+T130	Time-Implicit 950 956	正月十五晚上
+T131	Person-Nominal 957 959	人们
+T132	Location-Nominal 963 966	她身上
+*	Coreference T132 T127
+T133	Thing-Nominal 968 972	红黄纱灯
+R27	Located Arg1:T133 Arg2:T132	
+T134	Thing-Nominal 973 975	树根
+R28	Part-Whole Arg1:T134 Arg2:T119	
+T135	Location-Nominal 973 978	树根供台上
+T136	Thing-Nominal 983 985	香烟
+T137	Thing-Nominal 990 994	火树银花
+T138	Person-Pronoun 1005 1006	她
+T139	Person-Nominal 1029 1031	人们
+T140	Thing-Pronoun 1033 1034	她
+T141	Thing-Name 1035 1040	“祈福树”
+T142	Time-Implicit 1042 1045	旧社会
+T143	Organization-Name 1046 1049	国民党
+T144	Person-Nominal 1050 1052	壮丁
+T145	Person-Nominal 1053 1062	熟悉地形的被抓青年
+T146	Location-Nominal 1066 1070	我们胡同
+T147	Thing-Nominal 1074 1076	槐树
+T148	Thing-Nominal 1079 1084	东伸的粗枝
+R29	Part-Whole Arg1:T148 Arg2:T147	
+T149	Location-Nominal 1087 1090	东邻家
+T150	Location-Name 1093 1096	东大街
+T151	Thing-Nominal 1101 1102;1103 1107	南 伸的粗枝
+R30	Part-Whole Arg1:T151 Arg2:T147	
+T152	Location-Nominal 1110 1113	南邻家
+T153	Location-Name 1116 1119	南大街
+T154	Person-Nominal 1125 1129	日本鬼子
+T155	Location-Nominal 1130 1133	我们村
+T156	Person-Nominal 1141 1149	不少大姑娘小媳妇
+T157	Person-Nominal 1150 1152	鬼子
+*	Coreference T157 T154
+T158	Location-Nominal 1161 1163;1164 1167	大槐 树跟前
+T159	Thing-Nominal 1170 1176	“空中天桥”
+T160	Time-Implicit 1182 1186	解放前夕
+T161	Organization-Name 1187 1190	八路军
+T162	Location-Nominal 1191 1194	我们村
+T163	Person-Nominal 1196 1202	一个连事务长
+T164	Person-Nominal 1203 1207	几个劫匪
+T165	Person-Pronoun 1210 1211	他
+*	Coreference T165 T163
+T166	Location-Nominal 1213 1217	我们胡同
+T167	Thing-Nominal 1225 1229	身上的钱
+R31	Ownership Arg1:T165 Arg2:T167	
+T168	Thing-Nominal 1231 1234	槐树洞
+T169	Thing-Nominal 1161 1163;1164 1165	大槐 树
+R32	Part-Whole Arg1:T168 Arg2:T169	
+*	Coreference T169 T147 T185 T214 T253
+T170	Time-Implicit 1241 1245	解放初期
+T171	Organization-Nominal 1246 1253	我们村的儿童团
+T172	Location-Nominal 1254 1256	村口
+T173	Person-Nominal 1265 1267	地主
+T174	Organization-Nominal 1265 1271	地主的返乡团
+T175	Person-Nominal 1275 1279	儿童团长
+T176	Thing-Nominal 1284 1285;1286 1291	槐 树”天桥”
+T177	Location-Nominal 1294 1296	我家
+T178	Person-Nominal 1298 1302	农会主席
+T179	Person-Nominal 1308 1310	民兵
+T180	Organization-Nominal 1316 1319	返乡团
+*	Coreference T180 T174
+T181	Location-Nominal 1320 1322	村口
+T182	Person-Nominal 1338 1340	地主
+R33	Ownership Arg1:T173 Arg2:T174	
+T183	Person-Nominal 1347 1349	人们
+T184	Person-Pronoun 1351 1352	她
+T185	Thing-Name 1353 1358	“避难树”
+T186	Time-Explicit 1360 1366	民国三十二年
+T187	Time-Implicit 1367 1370	灾荒年
+T188	Person-Nominal 1371 1378	我家周围的群众
+T189	Location-Nominal 1371 1375	我家周围
+T190	Thing-Nominal 1383 1386	槐树叶
+T191	Thing-Nominal 1391 1394	玉米面
+T192	Thing-Nominal 1397 1400	窝窝头
+T193	Time-Implicit 1403 1406	解放后
+T194	Person-Nominal 1407 1409	人们
+T195	Thing-Nominal 1417 1420	槐树叶
+T196	Thing-Nominal 1423 1426	小米汤
+T197	Thing-Nominal 1443 1445	米汤
+*	Coreference T197 T196
+T198	Thing-Nominal 1451 1455	绿豆凉粉
+T199	Person-Nominal 1450 1458	卖绿豆凉粉的商户
+T200	Thing-Nominal 1460 1463	槐树叶
+T201	Thing-Nominal 1460 1470	槐树叶煮水做成的凉粉
+T202	Time-Implicit 1479 1481	深秋
+T203	Thing-Nominal 1483 1488	满树的叶子
+T204	Thing-Nominal 1494 1512	千万支槐豆角(槐树的果实，三四寸长)
+T205	Metric 1507 1510	三四寸
+T206	Person-Nominal 1513 1515	人们
+T207	Thing-Nominal 1521 1527	染蓝布的颜料
+T208	Time-Implicit 1528 1530	春天
+T209	Thing-Nominal 1531 1536	新抽的嫩枝
+T210	Thing-Nominal 1501 1503	槐树
+R34	Located Arg1:T204 Arg2:T210	
+R35	Located Arg1:T203 Arg2:T210	
+R36	Part-Whole Arg1:T209 Arg2:T210	
+T211	Location-Nominal 1549 1561	身上的痒疙瘩或无名肿毒上
+T212	Person-Nominal 1581 1583	人们
+T213	Thing-Pronoun 1585 1586	她
+T214	Thing-Name 1587 1592	“宝贝树”
+T215	Time-Implicit 1594 1597	小时候
+T216	Person-Nominal 1598 1601	孩子们
+T217	Time-Implicit 1601 1603	夏天
+T218	Location-Nominal 1605 1607	树上
+T219	Time-Implicit 1613 1618	一天午饭后
+T220	Person-Nominal 1619 1624	几个小朋友
+R37	General-Special Arg1:T216 Arg2:T220	
+T221	Location-Nominal 1625 1627	树上
+T222	Time-Implicit 1631 1636	上学的时候
+T223	Person-Name 1641 1643	小明
+T224	Metric 1648 1650	半天
+T225	Person-Pronoun 1651 1652	他
+*	Coreference T225 T223
+T226	Thing-Nominal 1655 1659	树的枝杈
+R38	Part-Whole Arg1:T226 Arg2:T214	
+T227	Person-Pronoun 1664 1666	我们
+T228	Location-Nominal 1668 1670	胡同
+T229	Location-Nominal 1671 1673	学校
+T230	Thing-Pronoun 1675 1676	他
+T231	Thing-Nominal 1678 1680	树枝
+*	Coreference T231 T226
+T232	Location-Nominal 1682 1686	东边院子
+T233	Location-Nominal 1687 1689	学校
+T234	Person-Pronoun 1692 1694	我们
+T235	Metric 1697 1700	几分钟
+T236	Time-Implicit 1701 1703	五月
+T237	Person-Nominal 1710 1712	学生
+T238	Thing-Nominal 1723 1725	书本
+T239	Location-Nominal 1726 1728	树上
+T240	Thing-Nominal 1733 1735	绿叶
+T241	Person-Pronoun 1743 1744	你
+T242	Person-Pronoun 1745 1746	我
+T243	Location-Nominal 1761 1764	树枝上
+T244	Thing-Nominal 1765 1769	一条长绳
+R39	Located Arg1:T244 Arg2:T243	
+T245	Thing-Nominal 1797 1801	一片树叶
+T246	Thing-Nominal 1816 1823	树上一片鸟叫声
+T247	Time-Implicit 1829 1831	这时
+T248	Person-Nominal 1832 1835	孩子们
+T249	Thing-Nominal 1847 1851	一群飞鸟
+T250	Thing-Pronoun 1852 1853	她
+T251	Person-Nominal 1854 1856	孩童
+T252	Person-Nominal 1876 1880	小朋友们
+*	Coreference T252 T251
+T253	Thing-Name 1883 1888	“快乐树”
+T254	Time-Explicit 1890 1898	上个世纪五十年代
+T255	Organization-Nominal 1899 1903	我国社会
+T256	Time-Implicit 1905 1908	狂躁期
+T257	Time-Explicit 1920 1927	五八年大跃进时
+T258	Location-Nominal 1938 1940	村南
+T259	Thing-Nominal 1942 1950;1951 1955	一条三里长的人推 小火车道
+R40	Located Arg1:T259 Arg2:T258	
+T260	Metric 1944 1946	三里
+T261	Organization-Nominal 1956 1960	人民公社
+T262	Thing-Nominal 1961 1964	大槐树
+T263	Thing-Nominal 1972 1987	一个能盛六吨货物的人推小火车箱
+R41	Create Arg1:T261 Arg2:T263	
+T264	Thing-Nominal 1991 1997	一百多根枕木
+R42	Create Arg1:T261 Arg2:T264	
+T265	Thing-Nominal 1998 2006	剩下的枝梢和段木
+R43	Use Arg1:T261 Arg2:T265	
+T266	Thing-Nominal 2010 2011;2012 2029	大 办钢铁土高炉、人民公社大食堂的燃料
+T267	Thing-Nominal 2034 2037	大槐树
+T268	Person-Nominal 2039 2042	乡亲们
+T269	Organization-Nominal 2048 2050	社会
+T270	Person-Nominal 2057 2059	人们
+T271	Thing-Pronoun 2068 2069	她
+T272	Thing-Nominal 2081 2088	百木丛中老寿星
+*	Coreference T272 T271
+T273	Thing-Nominal 2105 2107	斧锯

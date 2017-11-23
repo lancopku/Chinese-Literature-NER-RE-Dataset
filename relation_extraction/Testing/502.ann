@@ -1,0 +1,166 @@
+T1	Time-Explicit 0 7	一九六八年十月
+T2	Person-Nominal 10 13	毛主席
+T3	Person-Nominal 14 18	知识青年
+T4	Location-Nominal 20 22	农村
+T5	Person-Pronoun 28 29	我
+T6	Location-Name 30 45	黑龙江省饶河县西丰公社西丰大队
+T7	Person-Nominal 50 58	一名人民公社社员
+*	Coreference T5 T7 T3
+T8	Time-Explicit 62 64	四年
+T9	Time-Explicit 70 77	一九七二年春天
+T10	Person-Nominal 90 95	工农兵学员
+T11	Organization-Nominal 82 86	中专院校
+T12	Person-Pronoun 96 97	我
+T13	Person-Nominal 98 102	贫下中农
+T14	Organization-Name 105 112	哈尔滨电力学校
+T15	Organization-Nominal 170 174	电力学校
+T16	Person-Name 180 181;182 184	冯 大为
+T17	Person-Pronoun 185 186	他
+*	Coreference T17 T16 T18
+T18	Person-Nominal 187 192	我同班同学
+T19	Person-Nominal 197 199	父亲
+R1	Family Arg1:T16 Arg2:T19	
+T20	Organization-Nominal 200 201	党
+T21	Person-Nominal 202 208	高级领导干部
+T22	Time-Explicit 209 217	文化大革命开始后
+T23	Time-Implicit 222 224	最近
+T24	Person-Pronoun 230 231	我
+T25	Person-Nominal 233 235	自己
+*	Coreference T24 T25
+T26	Organization-Nominal 236 240	电力学校
+T27	Time-Implicit 247 252	五月的一天
+T28	Person-Pronoun 252 254	我们
+T29	Location-Nominal 257 259	县城
+T30	Location-Name 269 271	西丰
+T31	Location-Name 272 276	饶河县城
+T32	Metric 280 284	200里
+T33	Time-Implicit 289 291	春季
+T34	Thing-Nominal 299 303	一趟班车
+R2	Near Arg1:T30 Arg2:T31	
+*	Coreference T29 T31
+T35	Person-Nominal 309 311	我俩
+T36	Metric 313 316	60里
+T37	Thing-Nominal 316 318	山路
+T38	Time-Implicit 320 323	早饭后
+T39	Time-Explicit 326 331	下午五点多
+T40	Location-Name 334 336	宝清
+T41	Location-Name 337 342	饶河公路口
+R3	Near Arg1:T40 Arg2:T41	
+T42	Thing-Nominal 350 352	汽车
+T43	Location-Name 354 358	饶河县城
+T44	Person-Pronoun 367 369	我们
+T45	Location-Name 374 378	反修旅社
+T46	Time-Explicit 380 385	第二天早上
+T47	Location-Nominal 386 389	洗面间
+T48	Person-Nominal 394 415	调到县商业，水产，土特产几个部门工作的同学
+T49	Location-Nominal 417 419	旅社
+T50	Person-Pronoun 420 422	我们
+R4	Social Arg1:T50 Arg2:T48	
+T51	Person-Nominal 423 426	同学们
+T52	Person-Nominal 444 446	大伙
+T53	Person-Nominal 464 467	同学们
+T54	Person-Pronoun 469 470	我
+R5	Social Arg1:T54 Arg2:T53	
+T55	Organization-Name 471 475	电力学校
+*	Coreference T14 T15
+T56	Person-Nominal 481 484	有的人
+T57	Thing-Pronoun 486 487	我
+T58	Time-Implicit 489 491	平时
+T59	Location-Nominal 496 498	县城
+T60	Location-Nominal 511 513	县里
+T61	Time-Implicit 515 517	几天
+T62	Person-Nominal 528 542	在县商业部门工作的荆建华同学
+T63	Person-Name 537 540	荆建华
+*	Coreference T62 T63 T65
+T64	Person-Pronoun 543 544	我
+T65	Person-Pronoun 545 546	他
+R6	Social Arg1:T64 Arg2:T65	
+T66	Person-Pronoun 556 558	我们
+T67	Thing-Name 561 562;563 569	乌 苏里江大白鱼
+T68	Person-Pronoun 591 592	我
+T69	Location-Name 594 602	绥化铁路司机学校
+T70	Person-Nominal 603 607	两位老师
+R7	Social Arg1:T68 Arg2:T70	
+R8	Ownership Arg1:T70 Arg2:T69	
+T71	Time-Implicit 609 613	中午饭后
+T72	Person-Nominal 615 618	两个人
+T73	Location-Nominal 622 626	我们房间
+T74	Person-Pronoun 627 629	他们
+*	Coreference T74 T72 T75
+T75	Person-Nominal 650 667	哈尔滨铁路局绥化铁路司机学校的老师
+T76	Organization-Name 650 664	哈尔滨铁路局绥化铁路司机学校
+R9	Ownership Arg1:T75 Arg2:T76	
+T77	Location-Nominal 677 680	边境线
+T78	Location-Name 691 696	乌苏里江边
+T79	Location-Name 697 702	珍宝岛地区
+T80	Person-Pronoun 705 706	我
+T81	Person-Name 707 710	冯大为
+R10	Social Arg1:T80 Arg2:T81	
+T82	Time-Explicit 713 721	珍宝岛战斗打响后
+T83	Organization-Nominal 726 730;731 732	武装民兵 连
+T84	Organization-Nominal 744 749	县党政机关
+T85	Person-Pronoun 757 759	我们
+T86	Location-Name 762 767	珍宝岛地区
+T87	Person-Nominal 775 779	两位老师
+T88	Person-Pronoun 780 782	他们
+*	Coreference T88 T87
+T89	Person-Name 803 806	刘老师
+T90	Organization-Name 809 817	绥化铁路司机学校
+T91	Location-Name 820 823	饶河县
+T92	Person-Nominal 825 829	一名学员
+T93	Organization-Name 831 835	饶河大队
+T94	Person-Name 835 842	一位姓朱的同学
+T95	Person-Name 862 865	刘老师
+T96	Person-Name 866 869	孟老师
+T97	Person-Name 876 879	刘老师
+T98	Person-Pronoun 882 883	我
+R11	Social Arg1:T95 Arg2:T96	
+R12	Social Arg1:T97 Arg2:T98	
+T99	Person-Pronoun 886 887	你
+*	Coreference T99 T98
+T100	Organization-Nominal 888 892	电力学校
+T101	Time-Explicit 897 901	今天上午
+T102	Location-Nominal 902 906	县招生办
+T103	Person-Pronoun 906 908	我们
+T104	Person-Pronoun 910 911	你
+R13	Social Arg1:T104 Arg2:T103	
+T105	Person-Pronoun 918 919	你
+T106	Person-Nominal 920 925	哈尔滨知青
+*	Coreference T105 T106 T107
+T107	Person-Nominal 928 934	哈三中的学生
+T108	Person-Pronoun 943 945	我们
+T109	Person-Pronoun 947 948	你
+R14	Social Arg1:T109 Arg2:T108	
+T110	Organization-Name 949 957	绥化铁路司机学校
+T111	Person-Name 961 964	刘老师
+R15	Ownership Arg1:T111 Arg2:T110	
+T112	Person-Pronoun 977 978	你
+T113	Person-Pronoun 983 985	我们
+T114	Organization-Nominal 986 988	学校
+T115	Location-Name 992 995	同江县
+T116	Location-Name 999 1002	饶河县
+T117	Person-Pronoun 1003 1004	你
+R16	Near Arg1:T115 Arg2:T116	
+R17	Ownership Arg1:T113 Arg2:T114	
+T118	Person-Name 1012 1015	刘老师
+T119	Person-Pronoun 1019 1020	我
+R18	Social Arg1:T119 Arg2:T118	
+T120	Person-Name 1040 1043	冯大为
+T121	Person-Pronoun 1050 1051	我
+R19	Social Arg1:T121 Arg2:T120	
+T122	Person-Pronoun 1052 1053	他
+*	Coreference T122 T121
+T123	Person-Pronoun 1058 1059	我
+T124	Person-Nominal 1064 1068	两位老师
+T125	Person-Pronoun 1072 1073	我
+T126	Person-Pronoun 1074 1076	他们
+*	Coreference T126 T124
+T127	Person-Pronoun 1080 1081	我
+T128	Person-Pronoun 1085 1086	我
+T129	Person-Pronoun 1091 1092	我
+R20	Social Arg1:T126 Arg2:T127	
+T130	Time-Implicit 117 120	那时候
+*	Coreference T129 T128
+R21	Social Arg1:T123 Arg2:T124	
+*	Coreference T119 T117
+R22	Part-Whole Arg1:T111 Arg2:T113	

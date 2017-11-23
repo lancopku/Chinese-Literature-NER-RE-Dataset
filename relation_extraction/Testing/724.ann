@@ -1,0 +1,157 @@
+T1	Time-Implicit 7 9	那天
+T2	Thing-Nominal 11 12	日
+T3	Thing-Nominal 15 18	乒乓球
+T4	Person-Nominal 43 47	天文学家
+T5	Person-Nominal 68 71	科学家
+T6	Abstract 11 14	日全食
+T7	Person-Nominal 78 81	小孩子
+T8	Person-Nominal 83 86	大人们
+T9	Thing-Nominal 90 92	天狗
+T10	Thing-Nominal 93 95	太阳
+T11	Person-Nominal 98 99	人
+T12	Thing-Nominal 104 106	太阳
+T13	Thing-Nominal 107 109	月亮
+T14	Location-Nominal 110 112	洞房
+T15	Person-Pronoun 113 114	我
+T16	Thing-Nominal 135 137	月亮
+T17	Thing-Nominal 138 140	太阳
+T18	Time-Implicit 168 170	那天
+T19	Person-Nominal 182 183	人
+T20	Person-Nominal 186 188	人们
+*	Coreference T20 T19
+T21	Thing-Nominal 203 205	太阳
+T22	Person-Pronoun 220 221	我
+T23	Time-Implicit 223 228;229 230	大约八点半 钟
+T24	Location-Nominal 252 256	太阳周围
+T25	Thing-Nominal 259 261	云层
+T26	Thing-Nominal 264 266	云朵
+T27	Thing-Nominal 268 270	鱼鳞
+T28	Person-Pronoun 282 283	我
+T29	Thing-Nominal 286 289;290 291	X光胶 片
+T30	Thing-Name 322 324	新郎
+T31	Thing-Nominal 298 300	太阳
+*	Coreference T30 T31 T33
+T32	Thing-Nominal 332 334	月亮
+T33	Thing-Pronoun 372 373	他
+T34	Thing-Nominal 422 424	月亮
+T35	Thing-Nominal 425 427	耳根
+R1	Part-Whole Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 452 453	身
+T37	Thing-Nominal 449 451	月亮
+R2	Part-Whole Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 507 509	圆脸
+T39	Thing-Nominal 504 506	太阳
+R3	Part-Whole Arg1:T39 Arg2:T38	
+T40	Thing-Nominal 518 522	白炽灯泡
+T41	Thing-Nominal 527 529	镰刀
+*	Coreference T40 T39 T41 T42
+T42	Thing-Nominal 535 537	柳眉
+T43	Person-Nominal 567 569	人们
+T44	Time-Implicit 580 585	几百年以来
+T45	Time-Implicit 437 441	不一会儿
+T46	Thing-Nominal 618 620	沧海
+T47	Thing-Nominal 622 624	桑田
+T48	Time-Implicit 625 630	万年亿年来
+T49	Time-Implicit 643 646	这时候
+T50	Thing-Name 647 652	美丽的蝉娟
+T51	Thing-Nominal 542 544	月亮
+*	Coreference T50 T51 T62
+T52	Thing-Name 672 676	太阳哥哥
+T53	Thing-Nominal 550 552	太阳
+*	Coreference T52 T53 T61
+T54	Thing-Nominal 679 681	溪流
+T55	Thing-Nominal 681 683	柔水
+T56	Thing-Nominal 684 686	青山
+T57	Thing-Nominal 693 695	月亮
+T58	Thing-Nominal 708 710	眼睛
+R4	Part-Whole Arg1:T58 Arg2:T57	
+T59	Location-Nominal 711 713	大地
+T60	Person-Nominal 721 722	人
+T61	Thing-Name 729 731	新郎
+T62	Thing-Name 731 733	新娘
+T63	Time-Implicit 736 738	黑夜
+T64	Time-Implicit 739 743	此时此刻
+*	Coreference T64 T63
+T65	Person-Nominal 744 746	人们
+T66	Thing-Nominal 768 771	红盖头
+T67	Location-Nominal 835 837	洞房
+T68	Time-Implicit 830 833	这一天
+T69	Time-Explicit 842 847;848 856	公元二OO 九年七月二十三日
+*	Coreference T69 T68 T70 T94 T96 T121 T125
+T70	Time-Explicit 857 863	九时二十三分
+T71	Thing-Nominal 890 891	日
+T72	Thing-Nominal 899 900	月
+T73	Thing-Nominal 864 866	月亮
+T74	Thing-Nominal 867 869	太阳
+*	Coreference T71 T74
+*	Coreference T72 T73
+T75	Location-Nominal 908 910	天庭
+T76	Time-Implicit 952 955	一会儿
+T77	Thing-Nominal 956 964	天上这双绝配伉俪
+R5	Part-Whole Arg1:T71 Arg2:T77	
+R6	Part-Whole Arg1:T72 Arg2:T77	
+T78	Thing-Pronoun 979 981	他俩
+*	Coreference T77 T78 T81
+T79	Thing-Nominal 987 989	太阳
+T80	Thing-Nominal 990 991	脸
+R7	Part-Whole Arg1:T80 Arg2:T79	
+T81	Thing-Pronoun 1013 1015	他们
+T82	Thing-Nominal 1027 1029	衣裳
+T83	Thing-Nominal 1039 1041	头发
+T84	Thing-Nominal 1034 1036	云朵
+T85	Metric 1065 1068	六分钟
+T86	Thing-Nominal 1075 1077	太阳
+T87	Thing-Pronoun 1095 1097	自己
+*	Coreference T87 T86 T112
+T88	Person-Pronoun 1122 1124	他们
+R8	Create Arg1:T88 Arg2:T81	
+T89	Person-Nominal 1144 1145	君
+T90	Person-Nominal 1149 1150	人
+T91	Person-Pronoun 1166 1168	我们
+T92	Thing-Nominal 1171 1174	乒乓球
+T93	Person-Pronoun 1183 1184	我
+T94	Time-Implicit 1203 1205	这天
+T95	Person-Pronoun 1207 1208	我
+T96	Time-Implicit 1297 1303	日全食这一天
+T97	Person-Nominal 1331 1334	天下人
+T98	Person-Nominal 1319 1323	普天下人
+T99	Person-Nominal 1464 1465	众
+T100	Person-Nominal 1466 1467	亲
+T101	Person-Nominal 1479 1480	人
+T102	Person-Pronoun 1342 1343	我
+T103	Person-Nominal 1347 1349	人类
+T104	Person-Pronoun 1359 1360	我
+T105	Thing-Nominal 1366 1368	太阳
+T106	Person-Nominal 1417 1419	人类
+T107	Person-Nominal 1495 1497	人类
+T108	Thing-Nominal 1498 1500	天体
+T109	Person-Nominal 1510 1511	人
+T110	Person-Nominal 1521 1522	人
+T111	Person-Nominal 1524 1525	人
+T112	Thing-Nominal 1550 1552	新郎
+T113	Thing-Nominal 1544 1546	月亮
+T114	Thing-Pronoun 1558 1559	她
+*	Coreference T114 T113 T117
+T115	Thing-Nominal 1576 1578	月亮
+T116	Thing-Nominal 1583 1585	太阳
+T117	Thing-Pronoun 1592 1593	她
+T118	Person-Nominal 1603 1605	人类
+T119	Thing-Nominal 1610 1612	地球
+T120	Person-Nominal 1616 1617	人
+T121	Time-Explicit 1676 1679	这一夜
+T122	Thing-Nominal 1680 1682	秋风
+T123	Person-Pronoun 1690 1691	我
+T124	Location-Nominal 1693 1695	天空
+T125	Time-Explicit 1696 1698	今晚
+T126	Thing-Nominal 1699 1701	月亮
+T127	Thing-Pronoun 1706 1707	她
+*	Coreference T127 T126
+T128	Thing-Nominal 1725 1726	脸
+R9	Part-Whole Arg1:T128 Arg2:T127	
+T129	Person-Pronoun 1755 1756	我
+T130	Thing-Nominal 1774 1776	翅膀
+T131	Location-Nominal 1779 1781	天庭
+T132	Thing-Nominal 1793 1795	喜糖
+T133	Person-Pronoun 1819 1820	我
+T134	Thing-Nominal 1822 1824	眼晴
+R10	Part-Whole Arg1:T134 Arg2:T133	

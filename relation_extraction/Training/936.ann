@@ -1,0 +1,280 @@
+T1	Location-Nominal 11 13	床榻
+T2	Thing-Nominal 14 16	晨光
+T3	Location-Nominal 22 32	相山南麓的自然风景区
+T4	Thing-Nominal 43 51	一草一木一花一叶
+T5	Thing-Nominal 86 88	黄鹂
+T6	Location-Nominal 93 99	柔韧的枝条上
+R1	Located Arg1:T5 Arg2:T6	
+T7	Location-Nominal 102 104	林中
+T8	Person-Pronoun 130 131	我
+T9	Person-Pronoun 135 136	我
+T10	Thing-Nominal 148 150	雄鹰
+T11	Thing-Pronoun 151 152	它
+*	Coreference T11 T10
+T12	Location-Nominal 154 156	空中
+R2	Located Arg1:T11 Arg2:T12	
+T13	Thing-Pronoun 164 165	它
+T15	Location-Nominal 170 173	它身上
+T14	Thing-Pronoun 188 189	它
+T16	Person-Pronoun 205 206	我
+T17	Location-Nominal 209 213	山水之间
+T18	Thing-Nominal 214 215	水
+T19	Thing-Nominal 219 221	幽泉
+T20	Thing-Nominal 224 226	水花
+T21	Thing-Nominal 230 232	繁星
+T22	Location-Nominal 233 234	天
+R3	Located Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 235 237	水气
+T24	Person-Pronoun 244 245	我
+T25	Thing-Nominal 250 251	水
+T26	Thing-Nominal 263 268;269 270	晶莹透亮的 水
+T27	Location-Nominal 271 274	我指间
+R4	Located Arg1:T26 Arg2:T27	
+T28	Person-Pronoun 280 281	我
+T29	Person-Pronoun 286 287	我
+T30	Thing-Pronoun 294 295	它
+*	Coreference T30 T26
+T31	Person-Pronoun 300 301	我
+T32	Thing-Pronoun 306 307	它
+T33	Thing-Nominal 308 313	微皱的波纹
+T34	Person-Name 315 317	西子
+T35	Thing-Nominal 329 336	大大小小的峰峦
+T36	Person-Nominal 340 347	婷婷玉立的少女
+T37	Person-Nominal 350 358	如鹤发童颜的老人
+T38	Thing-Nominal 364 369	山坡上的树
+T39	Location-Nominal 364 367	山坡上
+R5	Located Arg1:T38 Arg2:T39	
+T40	Thing-Nominal 372 376	翠绿的海
+T41	Thing-Nominal 390 394	波峰浪谷
+T42	Location-Nominal 399 405	树丛间岩壁旁
+T43	Thing-Nominal 427 429	眼睛
+T44	Thing-Nominal 437 439	眼睛
+T45	Location-Nominal 446 449	半山腰
+T46	Thing-Nominal 454 456;457 466	那毫 不起眼的小小的野花
+R6	Located Arg1:T46 Arg2:T45	
+T47	Thing-Nominal 478 492	那些绚丽多彩的“花园”里的花
+T48	Thing-Pronoun 495 496	它
+*	Coreference T48 T46
+T49	Location-Nominal 523 526	它身上
+T50	Thing-Nominal 537 548	山水，田园，蓝天，白云
+T51	Location-Pronoun 560 562	这里
+T52	Thing-Nominal 588 595	清新净洁的空气
+T53	Location-Nominal 599 605	下坡的石径上
+T54	Person-Pronoun 632 633	我
+T55	Location-Nominal 678 681	小吃街
+T56	Thing-Nominal 689 691	公交
+T57	Location-Nominal 692 698	新开张的超市
+T58	Location-Name 703 707	街心公园
+T59	Location-Name 715 732	相山路与淮海路交叉口东侧的街心公园
+T60	Location-Nominal 767 769	西门
+T61	Metric 780 783	数十米
+T62	Thing-Nominal 778 786	约有数十米的长廊
+T63	Location-Nominal 787 797	长廊两边的半圆石柱上
+T64	Thing-Nominal 799 806	一圈一圈的树藤
+R7	Located Arg1:T64 Arg2:T63	
+T65	Thing-Nominal 816 820	许多条蛇
+T66	Location-Nominal 848 852	长廊上端
+T67	Thing-Nominal 853 863	多种式样绿油油的枝叶
+R8	Located Arg1:T67 Arg2:T66	
+T68	Location-Nominal 866 868	中间
+T69	Location-Nominal 886 891	长廊的边沿
+T70	Thing-Nominal 893 899	一个四角凉亭
+R9	Located Arg1:T70 Arg2:T69	
+T71	Thing-Nominal 900 903	琉璃瓦
+R10	Part-Whole Arg1:T71 Arg2:T70	
+T72	Location-Nominal 908 911	最上面
+T73	Thing-Nominal 917 921	木制的顶
+R11	Located Arg1:T73 Arg2:T72	
+T74	Thing-Nominal 934 941	一个红彤彤的鼓
+T75	Location-Nominal 942 944	亭内
+T76	Person-Nominal 945 946;947 961	下 棋者，打牌者，饮茶者，聊天者
+T77	Thing-Nominal 982 987	绿油油的草
+T78	Thing-Nominal 988 993	青葱葱的树
+T79	Thing-Nominal 994 999	红艳艳的花
+T80	Location-Nominal 1026 1041	有着澄碧如镜的湖的小公园的中心
+T81	Thing-Nominal 1042 1049	近似葫芦形的湖
+R12	Located Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 1060 1064	层层细波
+T83	Location-Nominal 1081 1084	湖面上
+R13	Located Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 1055 1057	微风
+T85	Thing-Nominal 1067 1068;1069 1074	起 了皱的美裙
+T86	Thing-Nominal 1085 1089	青蓝的湖
+T87	Thing-Nominal 1091 1095	雪白的云
+T88	Location-Nominal 1106 1109	湖中央
+T89	Thing-Nominal 1110 1112	荷花
+R14	Located Arg1:T89 Arg2:T88	
+T90	Thing-Nominal 1113 1115	荷叶
+T91	Thing-Nominal 1116 1120	撑开的伞
+T92	Location-Nominal 1125 1129	湖面之上
+R15	Located Arg1:T90 Arg2:T92	
+T93	Location-Nominal 1135 1139	碧波之中
+R16	Located Arg1:T90 Arg2:T93	
+T94	Thing-Nominal 1141 1145	层层绿浪
+T95	Thing-Nominal 1147 1151	片片翠玉
+T96	Thing-Nominal 1152 1162	一枝枝婷婷玉立的荷花
+T97	Person-Nominal 1164 1176	一个个披着轻纱沐浴的少女
+T98	Location-Nominal 1208 1212	湖的周围
+T99	Thing-Nominal 1213 1220	几棵高大的树木
+R17	Located Arg1:T99 Arg2:T98	
+T100	Location-Nominal 1233 1237	树的旁边
+T101	Thing-Nominal 1238 1243	一个鸽子房
+R18	Located Arg1:T101 Arg2:T100	
+T102	Location-Pronoun 1245 1247	这儿
+T103	Person-Nominal 1249 1252	小朋友
+T104	Thing-Nominal 1257 1258	食
+T105	Thing-Nominal 1259 1260	鸽
+T106	Thing-Nominal 1261 1263	鸽子
+T107	Thing-Pronoun 1279 1281	它们
+*	Coreference T107 T106
+T108	Thing-Nominal 1279 1284	它们的眼睛
+R19	Part-Whole Arg1:T108 Arg2:T107	
+T109	Thing-Nominal 1290 1293	红宝石
+T110	Thing-Nominal 1300 1302	薄膜
+T111	Thing-Nominal 1300 1306	薄膜似的眼皮
+R20	Part-Whole Arg1:T111 Arg2:T107	
+T112	Thing-Nominal 1323 1325	眼睛
+R21	Part-Whole Arg1:T112 Arg2:T108	
+T113	Thing-Nominal 1335 1339	鸽子的嘴
+T114	Thing-Nominal 1335 1337	鸽子
+R22	Part-Whole Arg1:T113 Arg2:T114	
+T115	Location-Nominal 1344 1346	上方
+T116	Thing-Nominal 1348 1352	两朵鼻花
+R23	Located Arg1:T116 Arg2:T115	
+T117	Location-Nominal 1353 1354;1355 1358	左 右两边
+T118	Thing-Nominal 1360 1364	一个小孔
+R24	Located Arg1:T118 Arg2:T117	
+T119	Thing-Nominal 1374 1377	小米粒
+T120	Person-Nominal 1381 1382	人
+T121	Thing-Nominal 1388 1390	鸽子
+T122	Thing-Nominal 1400 1402	翅膀
+R25	Part-Whole Arg1:T122 Arg2:T121	
+T123	Thing-Nominal 1411 1415;1416 1418	红色的小 爪子
+R26	Part-Whole Arg1:T123 Arg2:T121	
+T124	Location-Name 1428 1432	街心公园
+T125	Thing-Nominal 1441 1448	疏密有致的长廊
+T126	Thing-Nominal 1449 1456	富有古韵的凉亭
+T127	Thing-Nominal 1457 1464	波光粼粼的湖面
+T128	Thing-Nominal 1465 1472	情趣盎然的鸽子
+R27	Located Arg1:T125 Arg2:T124	
+R28	Located Arg1:T126 Arg2:T124	
+R29	Located Arg1:T127 Arg2:T124	
+R30	Located Arg1:T128 Arg2:T124	
+T129	Time-Implicit 1499 1502	午饭后
+T130	Person-Nominal 1509 1511	朋友
+T131	Location-Nominal 1518 1521	老郭家
+T132	Person-Name 1524 1526	老郭
+T133	Location-Nominal 1527 1530	煤矿上
+T134	Metric 1532 1535	几十年
+T135	Location-Nominal 1548 1570	我们这个小区最北面的一套不大但很干净的楼房里
+T136	Thing-Nominal 1571 1573	房子
+T137	Person-Nominal 1582 1583	人
+T138	Person-Pronoun 1594 1595	我
+T139	Person-Nominal 1596 1598	朋友
+T140	Location-Nominal 1601 1613	老郭那充满神奇色彩的房里
+T141	Location-Nominal 1614 1617	房间里
+T142	Person-Name 1623 1625	老郭
+T143	Person-Nominal 1642 1643	人
+T144	Thing-Nominal 1644 1646	屋子
+T145	Metric 1652 1654;1655 1656	十余 人
+T146	Time-Implicit 1658 1660	今天
+T147	Metric 1662 1665	二十多
+T148	Person-Nominal 1666 1671	不客气的人
+T149	Location-Nominal 1674 1676	床上
+T150	Location-Nominal 1686 1688	门口
+T151	Person-Name 1690 1692	老郭
+T152	Thing-Nominal 1695 1697	笛子
+R31	Use Arg1:T151 Arg2:T152	
+T153	Location-Nominal 1705 1714	初春的田野的小渠里
+T154	Time-Implicit 1705 1707	初春
+T155	Thing-Nominal 1715 1723	一股清幽鲜亮的水
+T156	Person-Nominal 1731 1733	大家
+T157	Person-Name 1744 1746	老郭
+T158	Thing-Nominal 1746 1750;1751 1759	那抬动的 手指和抖动的嘴唇
+R32	Part-Whole Arg1:T158 Arg2:T157	
+T159	Thing-Nominal 1826 1833	一只美丽的神鸟
+T160	Thing-Pronoun 1836 1837	它
+*	Coreference T160 T159
+T161	Thing-Nominal 1836 1846	它那扑棱棱扇动的翅膀
+R33	Part-Whole Arg1:T161 Arg2:T160	
+T162	Person-Pronoun 1847 1848	我
+T163	Thing-Nominal 1857 1862	所有的耳朵
+T164	Person-Nominal 1876 1878	自己
+T165	Thing-Nominal 1882 1887	所有的眸子
+T166	Person-Pronoun 1904 1905	我
+T167	Person-Nominal 1908 1918	一个头发斑白的老矿工
+T168	Person-Pronoun 1969 1970	我
+T169	Person-Pronoun 1975 1976	他
+T170	Thing-Nominal 1975 1981	他那吹笛的手
+R34	Part-Whole Arg1:T170 Arg2:T169	
+T171	Person-Pronoun 1982 1983	我
+T172	Thing-Nominal 1991 1994;1995 1998	最亮丽 的花瓣
+T173	Person-Pronoun 1999 2000	我
+T174	Person-Nominal 2002 2006	听曲的人
+T175	Location-Nominal 2021 2026	他们的脸上
+T176	Person-Pronoun 2027 2028	我
+T177	Person-Pronoun 2031 2033	他们
+*	Coreference T177 T174
+T178	Location-Pronoun 2034 2036	这里
+T179	Person-Name 2083 2085	老郭
+T180	Person-Pronoun 2086 2087	你
+*	Coreference T180 T179
+T181	Thing-Nominal 2089 2095	你那一尺短笛
+T182	Person-Pronoun 2141 2143	我们
+T183	Time-Implicit 2174 2176	春天
+T184	Person-Pronoun 2182 2184	我们
+T185	Thing-Nominal 2187 2189	秋水
+T186	Thing-Nominal 2194 2199	宁静的火焰
+T187	Person-Pronoun 2201 2203	我们
+T188	Person-Nominal 2213 2221	那美丽纯洁的少女
+T189	Person-Pronoun 2222 2224	我们
+T190	Person-Nominal 2229 2237	那活泼可爱的孩童
+T191	Location-Nominal 2239 2243	我们身边
+T192	Location-Nominal 2255 2259	我们眼前
+T193	Thing-Nominal 2262 2270	那奔腾咆哮的江水
+T194	Person-Pronoun 2271 2273	我们
+T195	Person-Nominal 2281 2286	那煤矿工人
+T196	Location-Nominal 2303 2308	我们的眼前
+T197	Person-Nominal 2331 2333	人们
+T198	Location-Nominal 2338 2347	一双双渴慕的眼睛里
+T199	Location-Nominal 2369 2373	老郭的家
+T200	Person-Nominal 2374 2376	朋友
+T201	Location-Name 2379 2383	美术之角
+T202	Person-Pronoun 2388 2389	他
+T203	Time-Implicit 2393 2398	周末的傍晚
+T204	Location-Pronoun 2399 2401	那儿
+*	Coreference T204 T201
+T205	Person-Nominal 2402 2404	有人
+T206	Person-Nominal 2421 2427;2428 2429	围观者，欣赏 者
+T207	Location-Nominal 2443 2446	人堆里
+T208	Person-Nominal 2449 2467	一位长头发，俊脸蛋，三十岁左右的女士
+T209	Metric 2459 2464	三十岁左右
+T210	Thing-Nominal 2471 2476	一幅风景图
+R35	Create Arg1:T208 Arg2:T210	
+T211	Thing-Nominal 2509 2518	数棵参天挺拔的松树
+T212	Thing-Nominal 2523 2545	蔚蓝明澈的天空、白云、河流、远处的雪山、动物
+T213	Thing-Nominal 2559 2560;2561 2562	树 叶
+T214	Location-Nominal 2567 2570	绿叶间
+T215	Thing-Nominal 2573 2580	星星点点的花朵
+R36	Located Arg1:T215 Arg2:T214	
+T216	Thing-Nominal 2583 2592	扑面而来的阵阵清风
+T217	Person-Nominal 2606 2608	女士
+T218	Thing-Nominal 2606 2613	女士笔下的作品
+R37	Create Arg1:T217 Arg2:T218	
+T219	Thing-Nominal 2652 2656	片片绿叶
+T220	Thing-Nominal 2657 2661	朵朵鲜花
+T221	Thing-Nominal 2662 2668	遒劲挺拔的树
+T222	Person-Nominal 2684 2685	人
+T223	Thing-Nominal 2703 2710	曲曲折折的小河
+T224	Thing-Nominal 2727 2729	蓝天
+T225	Thing-Nominal 2730 2732	绿树
+T226	Thing-Pronoun 2733 2734	它
+T227	Thing-Nominal 2759 2764	固体的彩虹
+T228	Person-Nominal 2778 2779	人
+T229	Thing-Nominal 2790 2795	天边的雪山
+T230	Location-Nominal 2790 2792	天边
+R38	Located Arg1:T229 Arg2:T230	
+T231	Person-Nominal 2814 2819	作画的女士
+T232	Person-Nominal 2839 2840	人
+T233	Thing-Nominal 2897 2899	此画
+T234	Person-Nominal 201 202	人

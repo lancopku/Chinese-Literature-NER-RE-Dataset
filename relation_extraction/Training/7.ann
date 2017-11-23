@@ -1,0 +1,6 @@
+T1	Location-Nominal 15 17	故乡
+T2	Location-Nominal 9 13	神州大地
+T3	Location-Nominal 0 5	世界的中心
+T4	Person-Nominal 23 24	人
+T5	Location-Nominal 0 2	世界
+R1	Part-Whole Arg1:T3 Arg2:T5	

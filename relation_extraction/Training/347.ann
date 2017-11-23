@@ -1,0 +1,276 @@
+T1	Time-Implicit 0 9	一个风雨交加的傍晚
+T2	Person-Nominal 10 12	女儿
+T3	Person-Pronoun 16 17	我
+R1	Family Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 24 28	一只白鸽
+T5	Location-Nominal 31 37	窗台的角落里
+R2	Located Arg1:T4 Arg2:T5	
+T6	Thing-Nominal 39 41	风雨
+T7	Person-Pronoun 43 44	我
+T8	Thing-Nominal 48 49	窗
+T9	Thing-Nominal 57 59	白鸽
+*	Coreference T9 T4 T11
+T10	Metric 24 26	一只
+T11	Thing-Pronoun 60 61	它
+T12	Thing-Nominal 70 74	我的手掌
+R3	Part-Whole Arg1:T12 Arg2:T7	
+T13	Person-Pronoun 70 71	我
+T14	Thing-Nominal 77 80	避风港
+T15	Thing-Pronoun 81 82	它
+T16	Thing-Nominal 88 90	掌心
+R4	Part-Whole Arg1:T16 Arg2:T12	
+T17	Thing-Nominal 96 98	动物
+T18	Person-Nominal 108 109	人
+T19	Person-Nominal 124 126	女儿
+T20	Thing-Nominal 129 131	丝帕
+T21	Thing-Nominal 134 136	白鸽
+T22	Thing-Pronoun 144 145	它
+T23	Thing-Nominal 150 155	温柔的胸脯
+R5	Part-Whole Arg1:T23 Arg2:T19	
+T24	Thing-Nominal 156 162	那冰冷的身子
+*	Coreference T24 T21
+T25	Person-Name 164 176	闻讯从隔壁奔来的侄儿铁铁
+R6	Family Arg1:T25 Arg2:T19	
+R7	Family Arg1:T25 Arg2:T13	
+T26	Thing-Nominal 179 186	一双好奇的眼睛
+R8	Part-Whole Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 194 196	白鸽
+T28	Person-Nominal 198 200	女儿
+T29	Person-Pronoun 205 206	他
+T30	Person-Pronoun 207 208	他
+*	Coreference T29 T28
+*	Coreference T30 T25 T41 T75 T84
+T31	Thing-Nominal 217 220	小白鸽
+T32	Time-Implicit 222 224	晚上
+T33	Thing-Nominal 225 227	鸽子
+T34	Person-Nominal 230 233	全家人
+T35	Thing-Nominal 238 247	诺亚方舟放飞的鸽子
+T36	Thing-Nominal 248 264	毕家索绘画的象征世界和平的和平鸽
+R9	General-Special Arg1:T33 Arg2:T35	
+R10	General-Special Arg1:T33 Arg2:T36	
+T37	Thing-Nominal 267 281	民间流传的关于鸽子的种种传说
+T38	Thing-Nominal 286 293	一只落难的白鸽
+*	Coreference T38 T31
+T39	Person-Nominal 295 297	家人
+*	Coreference T39 T34
+T40	Person-Nominal 311 313	女儿
+T41	Person-Nominal 314 316	侄儿
+T42	Thing-Nominal 319 328	有关鸽子的种种传说
+T43	Location-Nominal 334 343	一个无比神奇的世界
+T44	Thing-Nominal 348 350	白鸽
+T45	Person-Pronoun 356 358	他们
+T46	Person-Nominal 311 316	女儿跟侄儿
+*	Coreference T45 T46
+T47	Thing-Pronoun 362 363	它
+*	Coreference T47 T44
+T48	Thing-Nominal 364 365	窝
+T49	Thing-Nominal 366 367	巢
+T50	Thing-Pronoun 372 373	它
+T51	Thing-Nominal 373 377	米粒面包
+T52	Person-Nominal 378 380	女儿
+T53	Thing-Nominal 385 387	白鸽
+T54	Thing-Nominal 389 396	它那洁白的羽毛
+R11	Part-Whole Arg1:T54 Arg2:T53	
+T55	Person-Nominal 401 413	匆匆赶来接侄儿铁铁的爸爸
+T56	Person-Nominal 416 419	一家人
+T57	Person-Pronoun 423 424	他
+*	Coreference T57 T55
+T58	Thing-Nominal 426 428	白鸽
+T59	Thing-Nominal 436 439	下酒采
+T60	Thing-Nominal 461 463	白鸽
+T61	Thing-Nominal 467 470	盘中肴
+T62	Time-Implicit 471 473	末了
+T63	Person-Pronoun 474 475	他
+T64	Thing-Nominal 477 479	白鸽
+T65	Person-Pronoun 491 492	我
+*	Coreference T65 T63 T70 T88
+T66	Thing-Nominal 492 494	窗台
+R12	Ownership Arg1:T65 Arg2:T66	
+T67	Person-Nominal 498 500	女儿
+T68	Person-Pronoun 514 515	她
+*	Coreference T68 T67
+T69	Person-Pronoun 518 519	我
+T70	Person-Nominal 525 527	叔叔
+T71	Thing-Nominal 528 530	白鸽
+T72	Person-Nominal 533 535	叔叔
+T73	Thing-Nominal 536 538	白鸽
+T74	Time-Implicit 541 543	此刻
+T75	Person-Name 544 548	侄儿铁铁
+T76	Thing-Nominal 559 562	一只手
+R13	Part-Whole Arg1:T76 Arg2:T75	
+T77	Thing-Nominal 571 576	白鸽的脖项
+R14	Part-Whole Arg1:T77 Arg2:T73	
+T78	Person-Nominal 577 579	爸爸
+T79	Thing-Nominal 580 581	鸟
+R15	General-Special Arg1:T79 Arg2:T73	
+T80	Thing-Nominal 586 587	头
+R16	Part-Whole Arg1:T80 Arg2:T79	
+T81	Person-Nominal 591 593	女儿
+T82	Thing-Nominal 599 601	白鸽
+T83	Person-Nominal 604 606	侄儿
+T84	Person-Name 609 611	铁铁
+T85	Person-Name 613 615	铁铁
+T86	Thing-Nominal 618 620	益鸟
+R17	General-Special Arg1:T86 Arg2:T73	
+R18	General-Special Arg1:T79 Arg2:T86	
+T87	Person-Pronoun 623 624	我
+T88	Person-Nominal 627 629	弟弟
+T89	Person-Nominal 633 635	侄儿
+T90	Person-Pronoun 637 638	他
+*	Coreference T90 T89
+T91	Person-Nominal 639 641	女儿
+T92	Thing-Nominal 643 645	白鸽
+T93	Person-Pronoun 659 660	我
+T94	Time-Implicit 656 658	是夜
+T95	Person-Name 676 677	竹
+T96	Person-Nominal 678 679	人
+T97	Thing-Nominal 682 688	常绿植物之竹
+T98	Thing-Nominal 693 694	竹
+T99	Thing-Nominal 697 698	竹
+T100	Thing-Nominal 712 716	踝膝腰项
+T101	Person-Nominal 725 726	人
+T102	Person-Pronoun 729 730	他
+*	Coreference T102 T101 T95
+T103	Thing-Nominal 729 732	他的诗
+R19	Create Arg1:T102 Arg2:T103	
+T104	Thing-Nominal 752 755	他的诗
+T105	Thing-Nominal 758 759	节
+T106	Abstract 762 764	平仄
+T107	Person-Pronoun 765 766	他
+T108	Person-Name 788 789	竹
+T109	Person-Pronoun 792 793	我
+T110	Person-Pronoun 794 795	我
+T111	Person-Name 798 799	竹
+T112	Time-Implicit 801 805	孩提时代
+T113	Person-Pronoun 801 807	孩提时代的我
+*	Coreference T110 T113
+T114	Person-Nominal 812 818	上中学的哥哥
+R20	Family Arg1:T114 Arg2:T113	
+T115	Time-Implicit 822 824	那晚
+T116	Location-Nominal 824 826	中学
+T117	Person-Nominal 839 843	藏族老汉
+T118	Person-Nominal 845 847	女儿
+R21	Family Arg1:T118 Arg2:T117	
+T119	Location-Name 848 850	拉萨
+T120	Thing-Nominal 829 831	节目
+T121	Thing-Nominal 832 838	其中一个节目
+R22	Part-Whole Arg1:T121 Arg2:T120	
+T122	Thing-Name 852 855	逛新城
+R23	General-Special Arg1:T120 Arg2:T122	
+T123	Thing-Nominal 869 876	辉惶明亮的气灯
+T124	Thing-Nominal 859 861;862 867	清脆 嘹亮的歌声
+T125	Thing-Nominal 878 885	鲜艳美丽的服饰
+T126	Person-Nominal 887 891	农家孩子
+T127	Person-Nominal 907 909	哥哥
+*	Coreference T127 T114 T140
+T128	Person-Nominal 911 920	扮演藏族老汉的演员
+T129	Person-Name 922 927	他的老师竹
+T130	Person-Nominal 929 931	哥哥
+T131	Person-Name 934 935	竹
+T132	Organization-Nominal 936 942	名牌高等学府
+T133	Person-Nominal 936 948	名牌高等学府的优秀毕业生
+T134	Person-Nominal 951 953	右派
+T135	Organization-Nominal 957 965	咱这贫困农村中学
+T136	Person-Name 971 972	竹
+T137	Person-Nominal 977 983	一个农村孩子
+T138	Person-Name 989 990	竹
+T139	Person-Pronoun 1000 1001	我
+R24	Social Arg1:T127 Arg2:T129	
+T140	Person-Pronoun 922 923	他
+T141	Time-Implicit 1009 1013	若干年后
+T142	Person-Pronoun 1014 1015	我
+T143	Organization-Nominal 1017 1023	一个文学社团
+T144	Person-Nominal 1029 1036	讲台上的主讲人
+T145	Person-Name 1038 1039	竹
+*	Coreference T144 T145
+T146	Person-Name 1043 1044	竹
+T147	Person-Name 1052 1053	我
+T148	Person-Name 1058 1062	波德莱尔
+T149	Thing-Nominal 1068 1069;1070 1074	儿 时的疑团
+T150	Time-Implicit 1076 1081	讲座结束后
+T151	Person-Name 1082 1083	竹
+T152	Thing-Nominal 1084 1087	一滴水
+T153	Time-Implicit 1097 1105	又不知过了多少年
+T154	Person-Name 1121 1122	竹
+T155	Person-Pronoun 1116 1117	我
+T156	Thing-Nominal 1125 1135	一架鲜红亮丽的糖胡芦
+T157	Person-Nominal 1138 1146	卖糖胡芦的老太太
+T158	Thing-Nominal 1161 1169	又酸又甜的糖胡芦
+T159	Person-Nominal 1172 1175	老太太
+*	Coreference T159 T157
+T160	Person-Pronoun 1181 1182	我
+T161	Person-Name 1187 1188	竹
+T162	Person-Name 1189 1190	竹
+T163	Person-Name 1203 1204	竹
+T164	Thing-Nominal 1207 1210	糖胡芦
+*	Coreference T164 T158
+T165	Person-Pronoun 1211 1212	我
+T166	Person-Name 1215 1216	竹
+T167	Person-Name 1218 1219	竹
+T168	Thing-Nominal 1222 1230	又酸又甜的糖胡芦
+T169	Person-Nominal 1233 1236	老太太
+T170	Metric 1238 1240	片刻
+T171	Person-Name 1294 1295	竹
+T172	Person-Name 1299 1301	子仁
+*	Coreference T172 T171 T173
+T173	Person-Pronoun 1315 1316	他
+T174	Person-Pronoun 1322 1323	他
+T175	Person-Name 1330 1331	竹
+T176	Thing-Nominal 1341 1343	树林
+T177	Location-Nominal 1341 1344	树林里
+T178	Thing-Nominal 1344 1346	凉风
+R25	Located Arg1:T178 Arg2:T177	
+T179	Thing-Nominal 1349 1351	黄雀
+T180	Location-Nominal 1352 1354	枝上
+R26	Located Arg1:T179 Arg2:T180	
+T181	Person-Pronoun 1357 1358	我
+T182	Thing-Nominal 1359 1360	林
+T183	Thing-Nominal 1365 1367	秋风
+T184	Thing-Nominal 1374 1379	娜娜的柳叶
+T185	Thing-Nominal 1382 1387	溪边的芦苇
+T186	Thing-Nominal 1389 1394	世故的白首
+R27	Part-Whole Arg1:T186 Arg2:T185	
+T187	Thing-Nominal 1398 1407	枯枝上落下一片桐叶
+T188	Person-Pronoun 1412 1413	我
+T189	Thing-Nominal 1413 1417	点点泪滴
+R28	Create Arg1:T188 Arg2:T189	
+T190	Thing-Nominal 1420 1424	一株松树
+T191	Metric 1420 1422	一株
+T192	Time-Implicit 1429 1430	秋
+T193	Thing-Nominal 1435 1442	四野广袤的大地
+T194	Thing-Nominal 1444 1446	秋风
+T195	Person-Nominal 1453 1455	人们
+T196	Thing-Pronoun 1457 1458	她
+*	Coreference T196 T193
+T197	Thing-Nominal 1467 1472	丰硕的汗滴
+T198	Time-Implicit 1476 1481	丰收的季节
+T199	Person-Pronoun 1482 1483	我
+T200	Person-Pronoun 1486 1488	自已
+*	Coreference T200 T199
+T201	Thing-Nominal 1486 1491	自已的履历
+T202	Thing-Nominal 1496 1500	我的履历
+*	Coreference T202 T201
+T203	Thing-Nominal 1503 1511	一片荒芜了的土地
+T204	Person-Nominal 1513 1521	获得了丰收的人们
+T205	Thing-Nominal 1530 1532	寒霜
+T206	Thing-Nominal 1535 1537	戴月
+T207	Thing-Nominal 1543 1545	土地
+T208	Thing-Nominal 1549 1555	荒芜了的土地
+T209	Thing-Nominal 1556 1558	秋风
+T210	Person-Pronoun 1560 1561	我
+T211	Thing-Nominal 1560 1564	我的衣裾
+R29	Ownership Arg1:T210 Arg2:T211	
+T212	Thing-Pronoun 1565 1566	她
+*	Coreference T212 T209
+T213	Person-Pronoun 1571 1572	我
+T214	Thing-Nominal 1573 1575	土地
+T215	Location-Nominal 1583 1586	树林里
+T216	Thing-Nominal 1586 1588	凉风
+R30	Located Arg1:T216 Arg2:T215	
+T217	Thing-Nominal 1591 1593	黄雀
+T218	Location-Nominal 1594 1596	枝上
+T219	Person-Pronoun 1599 1600	我
+R31	Located Arg1:T217 Arg2:T218	
+T220	Thing-Nominal 1607 1609	秋风
+T221	Location-Nominal 1601 1603	林中
+R32	Located Arg1:T220 Arg2:T221	

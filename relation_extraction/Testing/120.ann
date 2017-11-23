@@ -1,0 +1,265 @@
+T1	Thing-Nominal 0 6	这些年的歌曲
+T2	Metric 0 3	这些年
+T3	Thing-Nominal 11 15	杨花柳絮
+T4	Thing-Nominal 45 50	砂中的金子
+T5	Location-Nominal 45 47	砂中
+R1	Located Arg1:T4 Arg2:T5	
+T6	Location-Nominal 54 56	眼前
+T7	Thing-Nominal 69 71	春雨
+T8	Thing-Nominal 75 76	耳
+T9	Person-Pronoun 80 81	我
+T10	Person-Pronoun 84 85	你
+T11	Person-Pronoun 86 87	谁
+T12	Person-Pronoun 88 89	我
+T13	Person-Pronoun 91 92	你
+T14	Person-Pronoun 94 95	谁
+T15	Person-Nominal 101 103	别人
+T16	Person-Pronoun 119 120	我
+T17	Person-Pronoun 123 124	我
+T18	Time-Explicit 127 136	上世纪三十年代中期
+T19	Thing-Nominal 143 145	世界
+T20	Person-Nominal 151 156	日本关东军
+T21	Thing-Nominal 157 159	军靴
+R2	Ownership Arg1:T20 Arg2:T21	
+T22	Location-Name 169 172	东三省
+T23	Person-Pronoun 173 174	我
+T24	Time-Implicit 181 184	那以前
+T25	Person-Nominal 186 195	关内的东北流亡学生
+T26	Thing-Nominal 200 203	我的家
+T27	Person-Pronoun 200 201	我
+T28	Location-Name 204 210	东北松花江上
+R3	Located Arg1:T26 Arg2:T28	
+T29	Location-Pronoun 211 213	那里
+*	Coreference T29 T28
+T30	Thing-Nominal 214 218	森林煤矿
+R4	Located Arg1:T30 Arg2:T29	
+T31	Location-Nominal 222 227	那满山遍野
+T32	Thing-Nominal 228 232	大豆高粱
+R5	Located Arg1:T32 Arg2:T31	
+T33	Person-Nominal 234 239	衰老的爹娘
+T34	Person-Pronoun 245 247	他们
+*	Coreference T34 T33
+T35	Person-Nominal 254 258	清华学子
+T36	Person-Name 260 265	胡乔木同志
+T37	Person-Name 267 277	从事地下工作的张甲洲
+T38	Person-Nominal 279 283	共产党员
+T39	Location-Name 289 293	家乡巴彦
+T40	Organization-Name 296 301	抗日游击队
+T41	Person-Pronoun 309 310	他
+*	Coreference T41 T37
+T42	Person-Pronoun 312 314	我们
+T43	Person-Nominal 319 321	群众
+T44	Location-Nominal 324 327	大车上
+T45	Thing-Nominal 331 332	泪
+T46	Location-Name 337 339	日本
+T47	Thing-Nominal 347 348	枪
+T48	Thing-Nominal 349 350	枪
+T49	Person-Nominal 352 353	人
+T50	Person-Nominal 354 355	人
+T51	Person-Pronoun 361 362	他
+T52	Location-Name 363 370	县城东张家油坊
+T53	Person-Nominal 371 372	人
+T54	Person-Nominal 379 390	父亲、妻子、妹妹、女儿
+T55	Location-Nominal 396 398	他乡
+T56	Person-Pronoun 396 397	他
+R6	Family Arg1:T51 Arg2:T54	
+T57	Person-Pronoun 409 410	他
+T58	Person-Pronoun 410 412	本人
+*	Coreference T58 T57
+T59	Person-Pronoun 424 425	我
+T60	Person-Pronoun 431 432	他
+T61	Person-Nominal 433 435	英雄
+T62	Person-Pronoun 439 440	他
+T63	Thing-Nominal 441 442	家
+T64	Thing-Nominal 443 444	国
+T65	Person-Pronoun 450 451	他
+T66	Person-Pronoun 452 453	我
+T67	Person-Nominal 456 463	第一个共产党人
+T68	Time-Explicit 465 471	1949年春
+T69	Organization-Nominal 474 478	县城中学
+T70	Person-Nominal 481 483	新生
+T71	Person-Name 486 491	校长冉欲达
+T72	Time-Implicit 492 494	那时
+*	Coreference T72 T68
+T73	Person-Nominal 494 496	校长
+T74	Person-Nominal 504 506	县长
+T75	Person-Pronoun 507 508	他
+T76	Thing-Nominal 515 517	背发
+T77	Thing-Nominal 519 525	新四军灰制服
+T78	Location-Name 542 546	圣地延安
+T79	Person-Nominal 549 558	不到30岁的老干部
+T80	Time-Implicit 559 565	东北解放不久
+T81	Person-Nominal 566 568	人们
+T82	Person-Nominal 569 572	老八路
+T83	Person-Nominal 580 582	诗人
+T84	Person-Pronoun 583 584	他
+T85	Person-Nominal 590 593	学生们
+T86	Person-Nominal 599 602	老干部
+T87	Person-Nominal 606 608	工农
+T88	Organization-Nominal 609 611	部队
+T89	Person-Pronoun 637 638	他
+T90	Person-Pronoun 656 657	他
+T91	Person-Nominal 663 669	知识分子党员
+R7	General-Special Arg1:T91 Arg2:T90	
+T92	Person-Nominal 681 684	穷苦人
+T93	Time-Implicit 689 691	当时
+T94	Person-Pronoun 696 697	他
+T95	Person-Nominal 698 701	学生们
+T96	Person-Pronoun 722 723	你
+T97	Thing-Nominal 724 726	灯塔
+T98	Person-Pronoun 737 738	你
+T99	Person-Nominal 739 741	舵手
+T100	Person-Nominal 751 759	年轻的中国共产党
+T101	Person-Pronoun 760 761	你
+T102	Person-Pronoun 766 767	你
+T103	Person-Pronoun 773 775	我们
+T104	Person-Pronoun 779 780	你
+T105	Person-Nominal 782 784	人类
+T106	Person-Nominal 790 794	年轻学子
+T107	Person-Nominal 803 807	幼稚孩子
+T108	Person-Nominal 810 814	有志青年
+T109	Person-Pronoun 816 817	他
+T110	Person-Nominal 820 823	学生们
+T111	Person-Nominal 826 828	同志
+T112	Thing-Nominal 834 837	这个词
+T113	Thing-Nominal 861 863	同志
+T114	Person-Pronoun 895 896	它
+R8	Create Arg1:T114 Arg2:T113	
+T115	Person-Nominal 904 905	人
+T116	Person-Nominal 916 918	校长
+T117	Person-Nominal 921 924	同学们
+T118	Thing-Nominal 944 945	弓
+T119	Thing-Nominal 954 955	箭
+T120	Thing-Nominal 964 965	弓
+T121	Thing-Nominal 968 969	箭
+T122	Person-Nominal 980 982	校长
+T123	Person-Nominal 987 991	一些同学
+T124	Person-Nominal 1005 1009	一些同学
+T125	Organization-Nominal 1023 1027	上级学校
+T126	Person-Pronoun 1029 1030	我
+T127	Thing-Nominal 1031 1036	家乡的平原
+T128	Location-Nominal 1031 1033	家乡
+R9	Located Arg1:T127 Arg2:T128	
+T129	Location-Name 1038 1046	小兴安岭密林深处
+T130	Thing-Nominal 1048 1049	饭
+T131	Person-Nominal 1060 1070	阿爸基”鲜族语老人家
+T132	Person-Nominal 1076 1079	陕西人
+T133	Thing-Nominal 1088 1089;1090 1091	棉 裤
+T134	Person-Nominal 1110 1113	老干部
+T135	Location-Name 1106 1108	延安
+T136	Person-Pronoun 1114 1115	他
+T137	Thing-Nominal 1116 1122	一件旧军大衣
+R10	Ownership Arg1:T136 Arg2:T137	
+T138	Time-Implicit 1123 1125	后来
+T139	Thing-Nominal 1133 1136	小棉袄
+T140	Location-Nominal 1137 1139	林场
+T141	Person-Nominal 1141 1142	人
+T142	Thing-Nominal 1143 1145	大衣
+T143	Person-Nominal 1151 1155	林业工人
+T144	Location-Nominal 1155 1157	担架
+T145	Person-Nominal 1161 1162	人
+T146	Person-Nominal 1164 1168	工人家属
+T147	Location-Name 1169 1171	山东
+T148	Thing-Nominal 1173 1174	马
+T149	Thing-Nominal 1177 1179	风雪
+T150	Person-Nominal 1182 1184	孩子
+T151	Thing-Nominal 1186 1187	脸
+T152	Person-Name 1190 1193	阿爸基
+T153	Thing-Nominal 1194 1196	大衣
+T154	Person-Nominal 1197 1199	孩子
+T155	Time-Implicit 1204 1207	那时侯
+T156	Thing-Nominal 1208 1210	木材
+T157	Thing-Nominal 1211 1213	爬犁
+T158	Thing-Nominal 1216 1219	浇冰道
+T159	Person-Pronoun 1220 1221	他
+T160	Person-Nominal 1223 1225	工人
+T161	Thing-Nominal 1234 1236	棉衣
+T162	Thing-Nominal 1230 1231	水
+T163	Thing-Nominal 1232 1233	冰
+T164	Thing-Nominal 1238 1242	冰盔冰甲
+T165	Person-Nominal 1243 1246	新驭手
+T166	Person-Pronoun 1248 1249	他
+T167	Person-Nominal 1250 1253	老工人
+T168	Thing-Nominal 1256 1258	拇指
+T169	Person-Pronoun 1259 1260	他
+T170	Person-Name 1262 1264;1265 1266	阿爸 基
+T171	Person-Pronoun 1267 1268	你
+T172	Person-Pronoun 1277 1278	他
+T173	Metric 1280 1283	几十里
+T174	Thing-Nominal 1283 1285	山路
+T175	Location-Nominal 1288 1291	森林中
+T176	Thing-Nominal 1291 1296	一座工棚子
+T177	Location-Nominal 1297 1300	林子里
+T178	Person-Nominal 1305 1306	人
+T179	Location-Nominal 1312 1313	屋
+T180	Location-Nominal 1318 1320	梁上
+T181	Thing-Nominal 1321 1325;1326 1327	煤油保险 灯
+T182	Thing-Nominal 1333 1335	灯光
+T183	Person-Pronoun 1338 1339	他
+T184	Thing-Nominal 1350 1353	空地儿
+T185	Location-Nominal 1356 1362	炉旁的木柴上
+T186	Person-Nominal 1368 1370	人们
+T187	Person-Nominal 1385 1386;1387 1388	老 头
+T188	Person-Pronoun 1389 1390	他
+T189	Location-Nominal 1391 1393	怀里
+T190	Thing-Nominal 1395 1400	一包辣椒面
+R11	Located Arg1:T190 Arg2:T189	
+T191	Person-Nominal 1402 1404	老伴
+T192	Person-Pronoun 1405 1406	我
+R12	Family Arg1:T192 Arg2:T191	
+T193	Person-Pronoun 1411 1413	你们
+T194	Person-Pronoun 1419 1420	他
+T195	Person-Pronoun 1424 1425	谁
+T196	Thing-Nominal 1427 1429	木材
+T197	Person-Pronoun 1430 1431	他
+T198	Person-Pronoun 1436 1437	你
+T199	Time-Implicit 1446 1452	三年困难时期
+T200	Person-Pronoun 1453 1454	他
+T201	Person-Nominal 1454 1456	老伴
+R13	Family Arg1:T201 Arg2:T200	
+T202	Thing-Nominal 1457 1459	山菜
+T203	Thing-Nominal 1463 1464	猪
+T204	Person-Pronoun 1467 1468	他
+T205	Person-Pronoun 1475 1476	他
+T206	Person-Nominal 1479 1481	老伴
+T207	Thing-Nominal 1482 1483	猪
+T208	Thing-Nominal 1485 1489	职工食堂
+T209	Person-Pronoun 1491 1492	他
+T210	Person-Pronoun 1503 1505	他们
+T211	Person-Name 1519 1522	阿爸基
+T212	Person-Name 1523 1526	张子良
+T213	Person-Nominal 1531 1539	东北森工总局局长
+T214	Location-Name 1541 1543	延安
+T215	Time-Implicit 1541 1544	延安时
+T216	Organization-Name 1546 1549	党中央
+T217	Thing-Pronoun 1585 1586	它
+T218	Thing-Nominal 1589 1595	月亮地球太阳
+T219	Thing-Pronoun 1601 1602	它
+T220	Person-Name 1638 1648	40岁的女同志任长霞
+T221	Person-Nominal 1659 1663	许多父老
+T222	Person-Pronoun 1668 1669	她
+T223	Person-Pronoun 1689 1690	她
+T224	Person-Nominal 1692 1694	女儿
+T225	Thing-Nominal 1696 1697	手
+T226	Person-Nominal 1702 1704	农妇
+T227	Person-Nominal 1724 1726	人类
+T228	Person-Nominal 1737 1741	滔滔洪水
+T229	Location-Nominal 1742 1745	森林里
+T230	Thing-Nominal 1745 1749	熊熊大火
+T231	Location-Pronoun 1760 1762	那里
+T232	Person-Nominal 1764 1770	我们的子弟兵
+T233	Person-Pronoun 1764 1766	我们
+T234	Person-Pronoun 1777 1779	自己
+T235	Person-Nominal 1784 1786	人民
+T236	Thing-Nominal 1787 1789	长城
+T237	Person-Nominal 1791 1795	共产党人
+T238	Person-Pronoun 1847 1848	你
+T239	Person-Pronoun 1853 1854	你
+T240	Person-Pronoun 1856 1857	谁
+*	Coreference T222 T220
+R14	Part-Whole Arg1:T225 Arg2:T223	
+*	Coreference T213 T212
+R15	Located Arg1:T142 Arg2:T144	
+R16	Part-Whole Arg1:T151 Arg2:T150	
+*	Coreference T159 T152
+*	Coreference T172 T170

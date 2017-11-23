@@ -1,0 +1,113 @@
+T1	Time-Implicit 0 3	几年前
+T2	Person-Pronoun 4 5	我
+T3	Location-Nominal 6 12	家乡的小县城
+T4	Person-Pronoun 15 16	我
+T5	Location-Nominal 16 21	蜗居的小院
+T6	Person-Nominal 28 30	房东
+T7	Thing-Nominal 33 37	几株盆栽
+R1	Ownership Arg1:T6 Arg2:T7	
+T8	Person-Pronoun 48 49	我
+T9	Thing-Nominal 53 57	这些盆栽
+T10	Person-Pronoun 72 73	我
+T11	Thing-Nominal 100 104	这些盆栽
+T12	Location-Nominal 114 116	小院
+T13	Person-Pronoun 123 124	我
+T14	Thing-Pronoun 126 128	它们
+*	Coreference T14 T11
+T15	Thing-Pronoun 158 160	它们
+T16	Thing-Nominal 162 166	一两杯水
+T17	Thing-Nominal 167 169	小院
+T18	Thing-Nominal 173 175	屋顶
+R2	Part-Whole Arg1:T18 Arg2:T17	
+T19	Thing-Nominal 180 182	铁皮
+T20	Person-Pronoun 195 196	我
+T21	Thing-Pronoun 197 199	它们
+T22	Thing-Nominal 211 218	这些盆栽的绿叶
+T23	Thing-Nominal 234 240	光秃秃的枝桠
+T24	Thing-Nominal 211 215	这些盆栽
+R3	Part-Whole Arg1:T23 Arg2:T24	
+T25	Thing-Pronoun 272 274	它们
+T26	Person-Pronoun 277 278	我
+T27	Thing-Pronoun 279 281	它们
+T28	Thing-Pronoun 299 301	它们
+T29	Thing-Pronoun 307 309	它们
+T30	Thing-Pronoun 326 328	它们
+T31	Person-Pronoun 347 348	我
+T32	Thing-Pronoun 349 351	他们
+T33	Person-Pronoun 355 359	失望的我
+*	Coreference T30 T29
+*	Coreference T28 T27
+*	Coreference T25 T24
+T34	Thing-Pronoun 376 378	它们
+T35	Thing-Pronoun 364 365;366 367	它 们
+T36	Person-Pronoun 388 389	我
+T37	Thing-Nominal 402 413	几盆被我冷落多日的盆栽
+T38	Thing-Nominal 418 420	新叶
+R4	Part-Whole Arg1:T38 Arg2:T37	
+T39	Thing-Pronoun 424 426	它们
+T40	Person-Pronoun 436 437	我
+T41	Thing-Pronoun 441 443	它们
+T42	Thing-Nominal 446 450	几杯清水
+T43	Thing-Pronoun 451 453	它们
+T44	Person-Pronoun 458 459	我
+T45	Time-Implicit 468 470	数日
+T46	Thing-Nominal 471 476	它们的枝叶
+T47	Thing-Nominal 488 493	翠绿的藤蔓
+T48	Thing-Nominal 501 503	屋顶
+T49	Thing-Pronoun 511 513	它们
+T50	Person-Pronoun 516 517	我
+T51	Thing-Nominal 518 522	每株盆栽
+T52	Thing-Nominal 525 532	一根长长的木棒
+T53	Thing-Pronoun 535 537	它们
+T54	Thing-Nominal 541 543	木棒
+T55	Thing-Nominal 549 554	屋顶的铁架
+T56	Thing-Nominal 560 565	鲜红的花朵
+R5	Part-Whole Arg1:T56 Arg2:T53	
+T57	Thing-Nominal 571 576	稀疏的几朵
+T58	Thing-Nominal 586 591	大半个屋顶
+T59	Thing-Nominal 600 604	一片红云
+T60	Thing-Nominal 619 621	红云
+T61	Person-Pronoun 622 623	我
+T62	Person-Pronoun 633 634	我
+T63	Thing-Nominal 644 649	卑微的花儿
+T64	Thing-Pronoun 650 652	它们
+T65	Person-Pronoun 656 657	我
+T66	Thing-Pronoun 658 660	它们
+T67	Person-Pronoun 672 673	我
+T68	Thing-Pronoun 696 698	它们
+T69	Thing-Pronoun 724 726	它们
+T70	Thing-Nominal 731 735	一杯清水
+T71	Thing-Nominal 726 730	一点阳光
+T72	Thing-Pronoun 736 738	它们
+T73	Thing-Pronoun 759 761	它们
+T74	Person-Pronoun 768 769	我
+T75	Thing-Pronoun 775 777	它们
+T76	Person-Pronoun 784 785	我
+T77	Person-Pronoun 796 797	我
+T78	Thing-Nominal 829 833	无名之花
+T79	Person-Pronoun 837 838	我
+T80	Person-Pronoun 849 850	我
+T81	Time-Explicit 860 863	两年后
+T82	Person-Pronoun 864 865	我
+T83	Location-Nominal 868 874	家乡的小县城
+T84	Thing-Nominal 880 885	狭陋的小屋
+T85	Person-Pronoun 886 887	我
+T86	Thing-Nominal 893 898	无名的盆栽
+T87	Person-Pronoun 902 903	我
+T88	Thing-Nominal 908 913	绚烂的红云
+*	Coreference T88 T86
+T89	Thing-Pronoun 914 916	它们
+T90	Person-Pronoun 917 918	我
+T91	Person-Pronoun 946 947	我
+T92	Thing-Pronoun 951 953	它们
+T93	Thing-Pronoun 963 965	它们
+T94	Thing-Pronoun 972 974	它们
+T95	Person-Pronoun 976 977	我
+T96	Person-Pronoun 988 989	我
+T97	Thing-Pronoun 1000 1002	它们
+R6	Social Arg1:T6 Arg2:T4	
+R7	Part-Whole Arg1:T46 Arg2:T43	
+R8	Part-Whole Arg1:T47 Arg2:T43	
+R9	Located Arg1:T57 Arg2:T58	
+*	Coreference T66 T63
+*	Coreference T69 T68

@@ -1,0 +1,101 @@
+T1	Thing-Nominal 2 4	高阁
+T2	Thing-Nominal 9 11	楼群
+T3	Location-Nominal 14 16	街巷
+R1	Located Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 20 22	壁垒
+R2	Part-Whole Arg1:T4 Arg2:T2	
+T5	Thing-Nominal 41 44	水泥地
+T6	Thing-Nominal 56 58	屋宇
+T7	Location-Nominal 107 109	郊外
+T8	Thing-Nominal 147 149	山风
+T9	Time-Implicit 182 186	阴历年前
+T10	Location-Name 191 197	吕河镇汉坝川
+T11	Location-Nominal 198 200	川地
+T12	Metric 205 207	十里
+T13	Thing-Nominal 213 215	矮丘
+T14	Location-Nominal 208 213	东西北三面
+R3	Located Arg1:T13 Arg2:T14	
+T15	Location-Nominal 218 220	南边
+T16	Thing-Nominal 220 222	两峰
+R4	Located Arg1:T16 Arg2:T15	
+T17	Location-Nominal 232 234	平地
+T18	Location-Nominal 237 239	峰领
+T19	Location-Nominal 239 241	盆地
+T20	Thing-Nominal 243 245	阳光
+T21	Location-Name 255 258	汉坝川
+T22	Location-Nominal 267 269	福地
+R5	General-Special Arg1:T21 Arg2:T22	
+T23	Time-Explicit 287 291	正月十四
+T24	Person-Nominal 292 298	我们一家三口
+T25	Location-Name 301 304	汉坝川
+T26	Thing-Nominal 307 308	车
+T27	Location-Nominal 309 311	隧道
+T28	Location-Nominal 313 314	山
+T29	Location-Nominal 315 316	川
+T30	Thing-Nominal 318 320	太阳
+T31	Thing-Nominal 326 328	黄土
+T32	Thing-Nominal 337 338	头
+T33	Thing-Nominal 338 339	足
+T34	Thing-Nominal 339 341	四肢
+T35	Thing-Nominal 343 345	脏腑
+T36	Thing-Nominal 356 358	灰尘
+T37	Thing-Nominal 371 373	清风
+T38	Thing-Nominal 376 378	发丝
+T39	Location-Nominal 381 383	麦田
+T40	Thing-Nominal 386 388	荠菜
+R6	Located Arg1:T40 Arg2:T39	
+T41	Thing-Nominal 391 394	蒲公英
+T42	Location-Nominal 397 398	地
+R7	Located Arg1:T41 Arg2:T42	
+T43	Thing-Nominal 399 402	花花草
+R8	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 407 408;409 410	耕 牛
+T45	Location-Nominal 413 415	田园
+R9	Located Arg1:T44 Arg2:T45	
+T46	Thing-Nominal 416 417	榆
+T47	Thing-Nominal 417 418	柳
+T48	Location-Nominal 457 459	村落
+T49	Thing-Nominal 462 464	牌楼
+T50	Thing-Nominal 470 472	小桥
+T51	Thing-Nominal 472 474	流水
+T52	Thing-Nominal 474 476	人家
+T53	Location-Name 491 495	张家院子
+T54	Thing-Nominal 503 505	牛槽
+T55	Thing-Nominal 514 516	石磙
+T56	Location-Nominal 521 523	墙边
+T57	Thing-Nominal 524 526	磨扇
+R10	Located Arg1:T57 Arg2:T56	
+T58	Thing-Nominal 529 531	老门
+T59	Thing-Nominal 534 536	门额
+T60	Thing-Nominal 538 540	雕花
+R11	Located Arg1:T60 Arg2:T59	
+R12	Part-Whole Arg1:T59 Arg2:T58	
+T61	Thing-Nominal 569 571	物件
+R13	General-Special Arg1:T54 Arg2:T61	
+R14	General-Special Arg1:T55 Arg2:T61	
+R15	General-Special Arg1:T57 Arg2:T61	
+R16	General-Special Arg1:T60 Arg2:T61	
+T62	Person-Nominal 576 578	先民
+T63	Person-Nominal 586 589	老祖宗
+T64	Metric 589 592	几千载
+T65	Person-Nominal 596 598	我辈
+T66	Metric 598 600	多年
+T67	Location-Nominal 608 610	乡间
+T68	Thing-Nominal 611 613	宝贝
+*	Coreference T61 T68 T69 T73
+T69	Thing-Pronoun 614 616	它们
+T70	Person-Nominal 626 628	母亲
+T71	Person-Pronoun 642 643	我
+T72	Person-Pronoun 651 652	我
+T73	Thing-Pronoun 659 661	它们
+T74	Person-Pronoun 662 663	我
+T75	Person-Pronoun 669 670	我
+T76	Thing-Pronoun 679 681	它们
+T77	Person-Pronoun 711 712	我
+T78	Thing-Nominal 721 723	手掌
+R17	Part-Whole Arg1:T78 Arg2:T77	
+T79	Thing-Pronoun 727 729	他们
+*	Coreference T79 T76 T80
+T80	Thing-Pronoun 745 747	它们
+T81	Location-Pronoun 749 751	那儿
+T82	Person-Pronoun 761 762	我

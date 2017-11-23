@@ -1,0 +1,343 @@
+T1	Person-Nominal 0 2	乡亲
+T2	Thing-Nominal 17 18	井
+T3	Location-Nominal 39 43	田园地头
+T4	Thing-Nominal 54 57	连裆裤
+T5	Thing-Nominal 61 62	藤
+T6	Thing-Nominal 65 66	瓜
+T7	Thing-Nominal 68 70	老树
+T8	Location-Nominal 76 78	竹园
+T9	Thing-Nominal 84 86	春草
+R1	Located Arg1:T6 Arg2:T5	
+T10	Location-Nominal 97 98	田
+T11	Location-Nominal 99 100	田
+R2	Near Arg1:T11 Arg2:T10	
+T12	Thing-Nominal 100 101	土
+T13	Thing-Nominal 102 103	土
+T14	Location-Nominal 106 109	小山包
+T15	Location-Nominal 114 115	河
+T16	Location-Nominal 118 120	竹丛
+T17	Location-Nominal 162 163	村
+T18	Location-Nominal 164 165	院
+T19	Thing-Nominal 179 182	棉花塞
+T20	Location-Nominal 190 192	院子
+T21	Location-Nominal 192 194	屋梁
+R3	Part-Whole Arg1:T21 Arg2:T20	
+T22	Location-Nominal 199 202	阿三家
+T23	Location-Nominal 176 178	邻家
+T24	Thing-Nominal 203 204	鸡
+T25	Person-Nominal 208 211	小妹妹
+T26	Thing-Nominal 211 212	碗
+T27	Thing-Nominal 213 214	饭
+R4	Located Arg1:T26 Arg2:T27	
+T28	Location-Nominal 217 219	邻家
+R5	Located Arg1:T24 Arg2:T22	
+T29	Thing-Nominal 219 221	黑狗
+R6	Located Arg1:T29 Arg2:T28	
+T30	Person-Nominal 223 225	小儿
+T31	Person-Nominal 242 245	小两口
+T32	Thing-Nominal 257 258	墙
+T33	Person-Nominal 278 282	叔伯父侄
+T34	Person-Nominal 285 289	亲房兄弟
+T35	Person-Nominal 298 302	远房亲戚
+T36	Location-Nominal 363 365	家里
+T37	Thing-Nominal 366 368	金银
+R7	Located Arg1:T37 Arg2:T36	
+T38	Location-Nominal 369 371	隔壁
+T39	Person-Pronoun 381 383	张三
+T40	Person-Pronoun 383 385	李四
+T41	Person-Pronoun 385 389	王二麻子
+T42	Person-Pronoun 398 402	隔壁老大
+T43	Person-Pronoun 404 406	老二
+T44	Location-Nominal 407 409	地坎
+T45	Thing-Nominal 414 416	柏树
+R8	Located Arg1:T45 Arg2:T44	
+T46	Location-Nominal 417 418	田
+T47	Location-Nominal 423 425	菜地
+T48	Thing-Nominal 428 430	青菜
+T49	Thing-Nominal 430 432	萝卜
+R9	Located Arg1:T48 Arg2:T47	
+R10	Located Arg1:T49 Arg2:T47	
+T50	Location-Nominal 443 445	邻家
+T51	Thing-Nominal 447 450	小花狗
+T52	Thing-Nominal 459 461	尾巴
+R11	Part-Whole Arg1:T52 Arg2:T51	
+T53	Thing-Nominal 481 483	电话
+T54	Location-Nominal 502 504	巷道
+T55	Thing-Nominal 505 507	竹子
+T56	Person-Nominal 601 605	乡村邻居
+T57	Thing-Nominal 607 609	土地
+T58	Thing-Nominal 633 635	庄稼
+T59	Thing-Nominal 651 653	种子
+T60	Thing-Nominal 655 657	锄头
+T61	Thing-Nominal 670 671	虫
+T62	Thing-Nominal 671 672	鸟
+T63	Thing-Nominal 677 678	稻
+T64	Thing-Nominal 678 679	麦
+T65	Thing-Nominal 712 714	粮食
+T66	Thing-Nominal 725 726	粮
+*	Coreference T66 T65
+T67	Location-Nominal 735 737	空地
+T68	Thing-Nominal 740 742	土堆
+R12	Located Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 745 747	红苕
+T70	Thing-Nominal 747 749	南瓜
+R13	Located Arg1:T69 Arg2:T68	
+R14	Located Arg1:T70 Arg2:T68	
+T71	Location-Nominal 750 752	路上
+T72	Thing-Nominal 753 755	猪屎
+T73	Thing-Nominal 755 757	狗屎
+T74	Location-Nominal 760 764	庄稼地里
+R15	Located Arg1:T73 Arg2:T74	
+R16	Located Arg1:T72 Arg2:T74	
+T75	Thing-Nominal 771 773	庄稼
+T76	Thing-Nominal 775 776	花
+T77	Person-Nominal 786 790	乡邻老者
+T78	Thing-Nominal 836 839	着长衫
+T79	Thing-Nominal 840 842	烘笼
+T81	Location-Nominal 856 860	田头地里
+T80	Location-Nominal 851 853	院里
+T82	Metric 881 883	三块
+T83	Metric 888 890	三万
+T84	Thing-Nominal 901 903	棉衣
+T85	Thing-Nominal 905 907	貂皮
+T86	Thing-Nominal 972 974	锤子
+T87	Thing-Nominal 1011 1013	砖石
+T88	Thing-Nominal 1014 1016	灰桶
+T89	Location-Nominal 1032 1034	桥洞
+T90	Thing-Nominal 1064 1067	磨刀石
+T91	Thing-Nominal 1087 1088	桥
+T92	Thing-Nominal 1089 1090	路
+T93	Person-Nominal 1099 1101	乡亲
+T94	Thing-Nominal 1109 1111	笆笼
+T95	Thing-Nominal 1131 1133	绳子
+T96	Person-Name 1153 1156	林妹妹
+T97	Thing-Nominal 1161 1162	锄
+T98	Person-Nominal 1164 1167	金娃娃
+T99	Person-Nominal 1171 1174	小儿女
+T100	Person-Nominal 1186 1190	狗儿猪娃
+T101	Person-Nominal 1191 1197	大妹崽二丫头
+T102	Thing-Nominal 1204 1206	草儿
+T103	Thing-Nominal 1207 1209	猫狗
+T104	Thing-Nominal 1232 1233	柴
+T105	Thing-Nominal 1245 1246	河
+T106	Thing-Nominal 1249 1251	筲箕
+T107	Thing-Nominal 1252 1255	地耳子
+T108	Thing-Nominal 1256 1258	野菜
+T109	Thing-Nominal 1261 1265	狗屎撮箕
+T110	Location-Nominal 1265 1267	院前
+T111	Location-Nominal 1267 1269	院后
+T112	Thing-Nominal 1273 1274	鸟
+T113	Person-Pronoun 1282 1283	你
+T114	Person-Nominal 1283 1285	老汉
+*	Coreference T113 T114
+T115	Thing-Nominal 1291 1294	草背篼
+T116	Location-Nominal 1295 1296	坡
+T117	Location-Nominal 1298 1299	坡
+T118	Location-Nominal 1301 1303	土坎
+T119	Location-Nominal 1305 1307	土坎
+T120	Location-Nominal 1312 1314	壕沟
+T121	Thing-Nominal 1315 1318	子打叉
+T122	Location-Nominal 1321 1323	房上
+T123	Person-Nominal 1328 1330	妈妈
+T124	Thing-Nominal 1336 1338	背篼
+T125	Location-Nominal 1416 1417	院
+T126	Thing-Nominal 1421 1423	凉椅
+T127	Thing-Nominal 1424 1426	滑竿
+T128	Thing-Nominal 1427 1428;1429 1430	滑 竿
+T129	Thing-Nominal 1502 1504	稻谷
+T130	Person-Pronoun 1506 1507	你
+T131	Thing-Nominal 1510 1511	桶
+T132	Thing-Nominal 1512 1513	谷
+R17	Use Arg1:T130 Arg2:T131	
+T133	Person-Pronoun 1514 1515	她
+T134	Person-Pronoun 1516 1517	你
+T135	Thing-Nominal 1518 1519	谷
+T136	Thing-Nominal 1520 1521	谷
+*	Coreference T129 T135
+T137	Thing-Nominal 1524 1526	白酒
+T138	Thing-Nominal 1526 1528	啤酒
+T139	Thing-Nominal 1534 1536	齿镰
+T140	Thing-Nominal 1547 1548	房
+T141	Thing-Nominal 1549 1550	屋
+T142	Person-Nominal 1566 1567	儿
+T143	Thing-Nominal 1568 1569	石
+T144	Thing-Nominal 1570 1571	砖
+T145	Person-Nominal 1573 1574	女
+T146	Thing-Nominal 1575 1576	酒
+T147	Thing-Nominal 1577 1578	肉
+T148	Person-Nominal 1579 1581	老婆
+T149	Thing-Nominal 1622 1624	虱子
+T150	Thing-Nominal 1630 1632	瓜藤
+T151	Location-Nominal 1634 1635	墙
+T152	Thing-Nominal 1638 1639	瓜
+R18	Located Arg1:T150 Arg2:T151	
+T153	Thing-Nominal 1654 1656	筷儿
+T154	Location-Nominal 1677 1679	地里
+T155	Thing-Nominal 1681 1683	西瓜
+R19	Located Arg1:T155 Arg2:T154	
+T156	Person-Nominal 1687 1689	大人
+T157	Person-Nominal 1691 1693	细娃
+T158	Person-Nominal 1728 1730	客人
+T159	Person-Nominal 1732 1736	隔壁男人
+T160	Thing-Nominal 1740 1742	瓢羹
+T161	Person-Pronoun 1745 1746	你
+T162	Person-Pronoun 1749 1750	我
+T163	Thing-Nominal 1778 1780	盐巴
+T164	Thing-Nominal 1780 1782	称砣
+T165	Thing-Nominal 1789 1791	纸牌
+T166	Person-Nominal 1804 1806	自己
+T167	Person-Nominal 1810 1812	别人
+T168	Thing-Nominal 1817 1818	猪
+T169	Thing-Nominal 1829 1831	锅儿
+T170	Thing-Nominal 1831 1833	瓢盆
+T171	Thing-Nominal 1845 1846	桌
+T172	Thing-Nominal 1839 1840	盘
+T173	Thing-Nominal 1842 1843	碗
+R20	Located Arg1:T172 Arg2:T171	
+R21	Located Arg1:T173 Arg2:T171	
+T174	Person-Nominal 1848 1850	小儿
+T175	Location-Nominal 1851 1853	东家
+T176	Person-Nominal 1859 1861	长女
+T177	Location-Nominal 1862 1864	西家
+T178	Person-Nominal 1871 1874;1875 1876	家公舅 爷
+T179	Location-Nominal 1884 1885	屋
+T180	Time-Implicit 1932 1937	过去夏夜里
+T181	Location-Nominal 1946 1947	院
+T182	Thing-Nominal 1955 1957	长裤
+T183	Thing-Nominal 1957 1959	短褂
+T184	Person-Nominal 1960 1963	小儿女
+T185	Thing-Nominal 1974 1976	凉椅
+T186	Thing-Nominal 1979 1981	簸箕
+T187	Thing-Nominal 1983 1985	篾扇
+T188	Thing-Nominal 1985 1987	蒲扇
+T189	Thing-Nominal 1997 1999	蚊虫
+T190	Person-Nominal 2002 2004	人们
+T191	Person-Nominal 2115 2118	留守者
+T192	Location-Nominal 2126 2127	室
+T193	Thing-Nominal 2135 2136	草
+T194	Thing-Nominal 2137 2139	豆苗
+T195	Person-Nominal 2143 2145	听众
+T196	Thing-Nominal 2146 2147	蛙
+T197	Time-Implicit 2160 2163	入冬后
+T198	Time-Implicit 2165 2169	正二三月
+T199	Person-Nominal 2173 2175	男人
+T200	Location-Nominal 2180 2182	沙凼
+T201	Location-Nominal 2183 2185	堰塘
+T202	Location-Nominal 2186 2188	水沟
+T203	Thing-Nominal 2196 2199	花篾条
+T204	Thing-Nominal 2201 2203	烘笼
+T205	Thing-Nominal 2205 2207	筲箕
+T206	Thing-Nominal 2209 2211	篮子
+T207	Thing-Nominal 2213 2215	背篼
+T208	Thing-Nominal 2217 2218;2219 2220	簸 箕
+R22	Use Arg1:T199 Arg2:T203	
+R23	Create Arg1:T199 Arg2:T204	
+R24	Create Arg1:T199 Arg2:T205	
+R25	Create Arg1:T199 Arg2:T206	
+R26	Create Arg1:T199 Arg2:T207	
+R27	Create Arg1:T199 Arg2:T208	
+T209	Person-Nominal 2233 2236	;女人
+T210	Thing-Nominal 2243 2245	烘笼
+T211	Person-Nominal 2250 2252	围腰
+T212	Thing-Nominal 2263 2265	鞋底
+T213	Thing-Nominal 2266 2268	鞋垫
+R28	Create Arg1:T209 Arg2:T212	
+R29	Create Arg1:T209 Arg2:T213	
+T214	Person-Nominal 2275 2277	旁人
+T215	Person-Nominal 2314 2316	儿孙
+T216	Location-Nominal 2321 2323	镇上
+T217	Person-Nominal 2325 2327	外孙
+T218	Thing-Nominal 2337 2340	打米碗
+T219	Person-Nominal 2346 2348	自己
+T220	Person-Nominal 2357 2359	儿子
+T221	Person-Nominal 2364 2365	子
+*	Coreference T221 T220
+T222	Person-Nominal 2422 2424	女儿
+T223	Person-Nominal 2427 2430	小棉袄
+T224	Person-Nominal 2432 2433	女
+*	Coreference T224 T222
+T225	Person-Nominal 2472 2473	婿
+T226	Thing-Nominal 2505 2507	新稻
+T227	Thing-Nominal 2512 2515	老谷子
+T228	Thing-Nominal 2520 2522	拌桶
+T229	Thing-Nominal 2527 2529	晒席
+T230	Thing-Nominal 2529 2531	围席
+T231	Thing-Nominal 2536 2538	箩篼
+T232	Thing-Nominal 2543 2545	齿镰
+T233	Thing-Nominal 2564 2565;2566 2568	裹 脚布
+T234	Location-Nominal 2573 2575	菜园
+T235	Thing-Nominal 2575 2577	蔬菜
+R30	Located Arg1:T235 Arg2:T234	
+T236	Person-Nominal 2593 2599	七大姑八大姨
+T237	Thing-Nominal 2601 2604	绿色菜
+*	Coreference T237 T235
+T238	Location-Nominal 2625 2627	祖坟
+T239	Thing-Nominal 2631 2633	刀头
+T240	Thing-Nominal 2636 2638	鞭炮
+T241	Person-Nominal 2645 2646	儿
+T242	Person-Nominal 2647 2648	孙
+T243	Person-Nominal 2667 2669	儿孙
+T244	Location-Nominal 2680 2682	田梗
+T245	Thing-Nominal 2683 2684	烟
+T246	Thing-Nominal 2699 2701	水稻
+T247	Location-Nominal 2713 2715	圈里
+T248	Thing-Nominal 2715 2717	肥猪
+R31	Located Arg1:T248 Arg2:T247	
+T249	Person-Nominal 2737 2743	打工娃儿妹崽
+T250	Thing-Nominal 2758 2760	老屋
+T251	Location-Nominal 2764 2766	镇上
+T252	Thing-Nominal 2767 2769	新房
+R32	Located Arg1:T252 Arg2:T251	
+T253	Thing-Nominal 2795 2796	鸡
+T254	Thing-Nominal 2797 2799	小菜
+T255	Thing-Nominal 2800 2801	鸭
+T256	Thing-Nominal 2802 2804	秧田
+T257	Thing-Nominal 2805 2806	猪
+T258	Thing-Nominal 2807 2809	南瓜
+T259	Thing-Nominal 2893 2896	牛卵子
+T260	Person-Nominal 2853 2858	骂花鸡公者
+T261	Location-Nominal 2965 2967	戏台
+T262	Location-Nominal 2977 2979	乡村
+T263	Time-Implicit 3008 3011	三五天
+T264	Thing-Nominal 2992 2993	雨
+T265	Thing-Nominal 2994 2996	地皮
+T266	Thing-Nominal 3000 3002	脑壳
+T267	Location-Nominal 3058 3060	它乡
+T268	Person-Nominal 3063 3065	老乡
+T269	Person-Nominal 3066 3068	老乡
+R33	Social Arg1:T269 Arg2:T268	
+T270	Thing-Nominal 3069 3071	两眼
+T271	Time-Implicit 3048 3052	猴年马月
+T272	Thing-Nominal 3079 3081	脐带
+T273	Thing-Nominal 3095 3096	肩
+T274	Thing-Nominal 3097 3098	背
+T275	Thing-Nominal 3127 3129	饭菜
+T276	Thing-Nominal 3133 3134	桌
+R34	Located Arg1:T275 Arg2:T276	
+T277	Person-Pronoun 3135 3136	你
+T278	Person-Pronoun 3138 3139	我
+T279	Person-Pronoun 3149 3150	你
+T280	Person-Pronoun 3151 3152	我
+T281	Person-Nominal 3154 3156	老板
+T282	Person-Nominal 3164 3166	评委
+*	Coreference T281 T282
+T283	Person-Nominal 3190 3194	哥儿姐们
+T284	Thing-Nominal 3201 3203	脑壳
+T285	Thing-Nominal 3206 3208	耳朵
+T286	Person-Nominal 3211 3214	亲兄弟
+T287	Person-Nominal 3217 3220	父子兵
+T288	Thing-Nominal 3232 3233	刀
+T289	Thing-Nominal 3229 3231	两肋
+T290	Thing-Nominal 3241 3243	汤圆
+T291	Thing-Nominal 3253 3255	汗毛
+T292	Person-Pronoun 3260 3261	你
+T293	Person-Nominal 3266 3268	朋友
+T294	Person-Nominal 3273 3275	老乡
+T295	Person-Nominal 3279 3283	乡间邻居
+T296	Location-Nominal 3290 3293	庄稼地
+T297	Thing-Nominal 3300 3301	骨
+T298	Thing-Nominal 3302 3303	髓
+T299	Person-Nominal 3306 3310	中国农民
+T300	Thing-Nominal 3335 3336	网
+T301	Thing-Nominal 3346 3347	灯
+T302	Thing-Nominal 3356 3358	太阳

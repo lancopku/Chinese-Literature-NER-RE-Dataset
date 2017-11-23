@@ -1,0 +1,142 @@
+T1	Person-Name 20 23	安徒生
+T2	Time-Implicit 31 33	雨夜
+T3	Person-Name 38 40	伊索
+T4	Thing-Nominal 41 43	血液
+R1	Part-Whole Arg1:T4 Arg2:T3	
+T5	Person-Nominal 47 51	德尔菲人
+T6	Thing-Nominal 52 54	乱发
+R2	Part-Whole Arg1:T6 Arg2:T5	
+T7	Person-Name 58 60;61 63	舒克 贝塔
+T8	Person-Name 67 70	郑渊洁
+T9	Thing-Nominal 71 75	五角飞碟
+T10	Thing-Name 84 89	时间的玫瑰
+T11	Thing-Nominal 91 93	床脚
+T12	Time-Implicit 109 111	儿时
+T13	Thing-Nominal 123 124	檀
+T14	Thing-Nominal 126 131	木质螺旋塔
+T15	Thing-Pronoun 134 135	它
+*	Coreference T15 T14 T24
+T16	Thing-Pronoun 140 141	它
+T17	Person-Pronoun 142 143	我
+T18	Thing-Nominal 156 157	墙
+R3	Part-Whole Arg1:T18 Arg2:T16	
+T19	Thing-Nominal 168 171	鹅卵石
+R4	Located Arg1:T19 Arg2:T18	
+T20	Thing-Nominal 187 189	窗户
+T21	Thing-Nominal 197 199	玻璃
+R5	Located Arg1:T21 Arg2:T20	
+R6	Part-Whole Arg1:T20 Arg2:T16	
+T22	Thing-Nominal 205 208	水果糖
+T23	Thing-Nominal 232 234	溪流
+T24	Thing-Nominal 250 251	塔
+T25	Person-Pronoun 254 255	我
+T26	Thing-Nominal 271 273	地板
+R7	Part-Whole Arg1:T26 Arg2:T16	
+T27	Thing-Nominal 278 282	海螺内纹
+T28	Location-Nominal 292 294	塔顶
+T29	Thing-Nominal 298 300	长发
+T30	Person-Nominal 304 307	小瀑布
+T31	Thing-Nominal 317 321	古老地板
+T32	Thing-Nominal 323 328	浮雕红木门
+T33	Thing-Nominal 350 352	白纸
+T34	Location-Nominal 368 371	左手边
+T35	Thing-Nominal 372 374	盏茶
+R8	Located Arg1:T35 Arg2:T34	
+T36	Thing-Nominal 377 379	徐烟
+R9	Located Arg1:T36 Arg2:T34	
+T37	Person-Pronoun 396 397	我
+T38	Thing-Nominal 401 402	塔
+T39	Person-Pronoun 403 404	我
+T40	Thing-Pronoun 410 411	它
+*	Coreference T40 T38
+T41	Thing-Pronoun 425 426	它
+T42	Person-Pronoun 427 428	我
+T43	Person-Name 438 441	灰姑娘
+T44	Thing-Nominal 451 454	水晶鞋
+R10	Ownership Arg1:T43 Arg2:T44	
+T45	Person-Name 459 463	白雪公主
+T46	Person-Nominal 471 474	小矮人
+R11	Social Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 479 482	丑小鸭
+T48	Thing-Nominal 488 490	蓝天
+T49	Person-Nominal 496 501	痴情的人儿
+T50	Person-Nominal 505 509	海的女儿
+T51	Thing-Nominal 513 515	泡沫
+T52	Person-Nominal 540 542	孩子
+T53	Person-Pronoun 598 599	我
+T54	Thing-Nominal 603 605	泪水
+T55	Thing-Nominal 609 613	我的头发
+R12	Part-Whole Arg1:T55 Arg2:T53	
+T56	Thing-Nominal 617 619	闪电
+T57	Person-Pronoun 622 623	我
+T58	Thing-Nominal 632 634	荆棘
+T59	Thing-Nominal 637 638	沙
+T60	Thing-Nominal 636 637	风
+T61	Thing-Nominal 638 639	雪
+T62	Thing-Nominal 639 640	月
+T63	Thing-Nominal 644 646	印阶
+T64	Thing-Nominal 647 649	苔痕
+R13	Located Arg1:T64 Arg2:T63	
+T65	Thing-Nominal 650 652	脚印
+R14	Located Arg1:T65 Arg2:T64	
+T66	Person-Pronoun 672 673	我
+T67	Person-Pronoun 674 675	我
+T68	Person-Nominal 696 700	退伍军人
+T69	Person-Nominal 719 721	大众
+T70	Thing-Pronoun 750 751	它
+T71	Person-Pronoun 761 762	我
+T72	Thing-Nominal 785 787	手指
+T73	Thing-Nominal 791 792	沙
+T74	Thing-Nominal 798 800	沙漠
+T75	Thing-Nominal 835 837	高楼
+T76	Thing-Nominal 842 843	笛
+T77	Thing-Nominal 847 849	尾烟
+T78	Thing-Nominal 891 893	泪滴
+T79	Thing-Nominal 899 900	血
+T80	Thing-Nominal 875 877	眼睛
+T81	Thing-Nominal 880 881	血
+R15	Located Arg1:T81 Arg2:T80	
+T82	Person-Pronoun 909 910	我
+T83	Person-Pronoun 940 941	我
+T84	Thing-Nominal 944 946	孤塔
+T85	Person-Pronoun 971 972	我
+T86	Thing-Nominal 975 977	毒品
+T87	Thing-Nominal 981 983	针头
+T88	Thing-Nominal 988 990	静脉
+T89	Person-Nominal 996 999	开发商
+T90	Thing-Nominal 1000 1002	口袋
+T91	Person-Nominal 1004 1008;1009 1010	某政府高 官
+T92	Thing-Nominal 1011 1013	沙发
+T93	Thing-Nominal 1020 1023	啤酒瓶
+T94	Thing-Nominal 1028 1029	酒
+R16	Located Arg1:T94 Arg2:T93	
+T95	Thing-Nominal 1030 1032	容器
+R17	General-Special Arg1:T93 Arg2:T95	
+T96	Thing-Nominal 1033 1035	硫酸
+T97	Thing-Nominal 1039 1041	试管
+R18	Located Arg1:T96 Arg2:T97	
+T98	Location-Nominal 1050 1053	出租屋
+T99	Thing-Nominal 1065 1069	红色钞票
+T100	Person-Pronoun 1080 1081	我
+T101	Time-Implicit 1088 1090	此刻
+T102	Time-Implicit 1104 1106	冬季
+T103	Thing-Nominal 1106 1108	壁炉
+T104	Thing-Nominal 1125 1127	雪花
+T105	Thing-Nominal 1118 1120	天空
+T106	Thing-Nominal 1132 1134	炭火
+T107	Thing-Nominal 1142 1144	尘灰
+T108	Thing-Nominal 1148 1150	雪花
+T109	Thing-Nominal 1161 1163	天空
+T110	Thing-Nominal 1182 1184	大海
+T111	Thing-Nominal 1186 1187	花
+T112	Thing-Nominal 1195 1197	海风
+T113	Thing-Nominal 1209 1211	尘埃
+T114	Thing-Nominal 1240 1242	泉水
+T115	Person-Pronoun 1267 1268	我
+T116	Thing-Nominal 1279 1281	灰尘
+T117	Thing-Nominal 1288 1290	风雨
+T118	Person-Pronoun 1297 1298	我
+T119	Time-Implicit 1306 1308	此刻
+T120	Person-Pronoun 1312 1313	我
+T121	Thing-Nominal 1335 1336	塔
+T122	Person-Pronoun 1341 1343	我们

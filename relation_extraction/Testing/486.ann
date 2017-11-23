@@ -1,0 +1,117 @@
+T1	Location-Nominal 0 7	湛蓝湛蓝的天空
+T2	Thing-Nominal 10 15	淡淡的白云
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 16 23	乌黑发亮的土地
+T4	Thing-Nominal 26 28	黄金
+T5	Thing-Nominal 43 48	十月的乡村
+T6	Thing-Nominal 54 59	丰收的果实
+T7	Thing-Nominal 82 87	十月的乡村
+T8	Location-Nominal 89 92	秋风中
+T9	Location-Nominal 96 99	秋雨中
+T10	Person-Nominal 109 117	一位刚结婚的新娘
+T11	Thing-Nominal 151 153	乡村
+T12	Person-Pronoun 166 168	我们
+T13	Thing-Nominal 176 183	五彩缤纷的田野
+T14	Thing-Nominal 184 194	捧一手晶莹透亮的水珠
+T15	Thing-Nominal 195 205	掐一朵香气怡人的菊花
+T16	Person-Nominal 209 210	人
+T17	Thing-Nominal 223 228	一副风景画
+T18	Thing-Nominal 234 236	水笔
+T19	Thing-Nominal 250 255	镰刀和犁头
+T20	Thing-Nominal 266 273	期间苦涩的汗水
+T21	Thing-Nominal 276 278	泥土
+T22	Person-Pronoun 313 314	我
+T23	Location-Nominal 323 325	田间
+T24	Person-Nominal 327 334	一辈子的老父亲
+T25	Person-Nominal 335 339	他老人家
+*	Coreference T25 T24 T27 T107
+T26	Person-Pronoun 374 375	我
+T27	Person-Pronoun 382 383	他
+T28	Thing-Nominal 386 388	汗珠
+T29	Person-Pronoun 397 398	他
+T30	Thing-Nominal 401 405;406 407	秋天的果 实
+T31	Person-Pronoun 408 410	我们
+T32	Person-Nominal 413 414	人
+T33	Thing-Nominal 417 420	黄土地
+T34	Thing-Nominal 424 429	钢筋混凝土
+T35	Location-Nominal 437 443	秋天的田野里
+T36	Thing-Nominal 459 466	半尺多长的稻穗
+T37	Thing-Nominal 478 480	海泼
+T38	Thing-Nominal 472 474	微风
+T39	Thing-Nominal 515 520	留金的玉米
+T40	Location-Nominal 584 585	枝
+T41	Thing-Nominal 579 581	柿子
+T42	Thing-Nominal 572 574	苹果
+T43	Thing-Nominal 577 578	腰
+T44	Thing-Nominal 586 588	石榴
+T45	Thing-Nominal 561 565	隆冬的雪
+T46	Thing-Nominal 530 532	大豆
+T47	Thing-Nominal 535 537	铜铃
+T48	Thing-Nominal 538 540	红薯
+T49	Thing-Nominal 543 545	地皮
+T50	Thing-Nominal 546 548	高粱
+T51	Thing-Nominal 551 552	脸
+T52	Thing-Nominal 553 555	棉花
+T53	Thing-Nominal 483 485	泼涛
+T54	Thing-Nominal 595 597	葡萄
+T55	Thing-Nominal 603 608	所有的果实
+T56	Person-Nominal 619 621	主人
+T57	Person-Pronoun 628 629	我
+T58	Thing-Nominal 632 634	稻穗
+T59	Thing-Nominal 652 657	镰刀和犁铧
+T60	Thing-Nominal 660 665	沉闷的大地
+T61	Time-Implicit 667 673	秋日的季节里
+T62	Thing-Nominal 679 681	刀光
+R2	Part-Whole Arg1:T51 Arg2:T50	
+T63	Thing-Nominal 558 559	花
+R3	Part-Whole Arg1:T43 Arg2:T42	
+R4	Located Arg1:T41 Arg2:T40	
+T64	Location-Nominal 590 592	桠间
+R5	Located Arg1:T44 Arg2:T64	
+T65	Thing-Nominal 697 702	十月的乡村
+T66	Location-Nominal 708 714	淝河的堤坝上
+T67	Person-Pronoun 704 705	我
+T68	Thing-Nominal 715 719	一轮晚霞
+T69	Location-Nominal 720 723	水面上
+R6	Located Arg1:T68 Arg2:T69	
+T70	Thing-Nominal 726 730	两岸村庄
+T71	Location-Nominal 733 739	一片水乡之中
+T72	Thing-Nominal 740 742	霞光
+T73	Thing-Nominal 745 747	乡村
+T74	Thing-Nominal 798 806	清澈见底的淝河水
+T75	Thing-Nominal 783 788	诗意的秋水
+T76	Thing-Nominal 818 823	高远的霞光
+T77	Thing-Nominal 904 909	皎洁的月光
+T78	Thing-Nominal 882 884	大地
+T79	Thing-Nominal 862 867	十月的乡村
+T80	Thing-Nominal 875 877	明月
+T81	Person-Pronoun 870 871	我
+T82	Thing-Nominal 910 914	整个原野
+T83	Thing-Nominal 966 968	月光
+T85	Thing-Nominal 939 948	山山水水、一草一木
+T86	Location-Nominal 936 938	村庄
+R7	Located Arg1:T85 Arg2:T86	
+T84	Thing-Nominal 1036 1041	幸福的村庄
+T87	Thing-Nominal 1003 1005	秋月
+T88	Thing-Nominal 997 1002	秋天的烙印
+T89	Thing-Nominal 987 993	秋天的光彩，
+T90	Thing-Nominal 1022 1024	秋月
+T91	Thing-Nominal 1089 1090	水
+T92	Person-Nominal 1080 1085	一个出家人
+T93	Person-Pronoun 1048 1049	我
+T94	Location-Nominal 1100 1102	故乡
+T95	Person-Pronoun 1159 1160	我
+T96	Location-Nominal 1215 1217	故乡
+T97	Thing-Nominal 1201 1205	故乡水，
+T98	Thing-Nominal 1187 1192	富铙的乡土
+T99	Person-Nominal 1168 1169	人
+T100	Location-Nominal 1207 1209	故乡
+T101	Time-Implicit 1267 1281	阳光、果实、喜悦，欢笑的十月
+T102	Time-Implicit 1256 1265	生命充满坚实的十月
+T103	Time-Implicit 1233 1239	富有的十月，
+T104	Time-Implicit 1240 1245	微笑的十月
+T105	Time-Implicit 1247 1254	大地生辉的十月
+T106	Time-Implicit 1226 1231	乡村的十月
+R8	Located Arg1:T7 Arg2:T8	
+R9	Located Arg1:T7 Arg2:T9	
+T107	Person-Pronoun 335 336	他

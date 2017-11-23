@@ -1,0 +1,212 @@
+T1	Thing-Nominal 0 4	五星红旗
+T2	Organization-Nominal 6 8	祖国
+T3	Organization-Name 8 12	伟大母亲
+T4	Organization-Nominal 24 26	祖国
+T5	Abstract 27 33	特色社会主义
+T6	Time-Explicit 54 60;61 72	2013年1 2月14日21时11分
+T7	Thing-Nominal 73 84	中国嫦娥三号月球着陆器
+T8	Metric 89 93	750牛
+T9	Thing-Nominal 93 99	核动力发动机
+T10	Location-Nominal 102 104	月表
+T11	Metric 105 107	3米
+T12	Metric 128 130	一只
+T13	Thing-Nominal 130 134	太空蜂鸟
+T14	Metric 137 139	一只
+T15	Thing-Nominal 139 141	鹰隼
+T16	Metric 144 146	一架
+T17	Thing-Nominal 146 149	直升机
+T18	Metric 164 168	700秒
+T19	Person-Pronoun 183 184	我
+T20	Person-Nominal 185 189	古稀老人
+*	Coreference T20 T19
+T21	Thing-Nominal 190 192	肉眼
+R1	Part-Whole Arg1:T21 Arg2:T19	
+T22	Metric 204 206	一片
+T23	Thing-Nominal 204 217	一片平整无碍无陨石坑的月面
+T24	Thing-Nominal 211 214	陨石坑
+T25	Thing-Nominal 228 232	电视屏幕
+T26	Thing-Nominal 238 242	嫦娥三号
+*	Coreference T26 T7 T13 T15 T17 T27
+R2	Part-Whole Arg1:T9 Arg2:T7	
+T27	Thing-Nominal 267 270	着陆器
+T28	Location-Name 281 284	虹湾区
+T29	Location-Nominal 288 290	月面
+R3	Part-Whole Arg1:T29 Arg2:T28	
+T30	Thing-Name 292 294	嫦娥
+T31	Thing-Name 295 297	姑娘
+*	Coreference T31 T30
+T32	Thing-Nominal 301 304;305 306	五星红 旗
+T33	Thing-Nominal 311 313	阳光
+T34	Thing-Nominal 317 318	星
+T35	Thing-Nominal 322 324	红焰
+T36	Person-Pronoun 327 328	我
+T37	Location-Nominal 332 340	北京飞行控制中心
+T38	Time-Implicit 354 356	同时
+T39	Thing-Nominal 357 359	电视
+T40	Person-Nominal 363 365;366 367	主持 人
+T41	Organization-Nominal 377 379	中国
+T42	Organization-Nominal 380 383	前苏联
+T43	Organization-Nominal 384 386	美国
+T44	Location-Nominal 399 401	月球
+T46	Organization-Nominal 392 410	世界上第三个在月球上实现软着陆的国家
+*	Coreference T46 T41
+T47	Thing-Nominal 411 415	五星红旗
+T48	Location-Nominal 421 425	地外天体
+T49	Time-Explicit 431 439	15日4时35分
+T50	Time-Implicit 427 430	紧接着
+T51	Thing-Nominal 440 447	月球巡视器玉兔
+T52	Thing-Nominal 453 460	嫦娥三号着陆器
+R4	Part-Whole Arg1:T51 Arg2:T52	
+T53	Location-Nominal 464 468	月球表土
+T54	Time-Explicit 485 487	同时
+*	Coreference T54 T49
+T55	Location-Nominal 492 493	月
+T56	Thing-Name 500 502	嫦娥
+T57	Thing-Name 503 505	玉兔
+*	Coreference T57 T51
+*	Coreference T56 T52
+T45	Thing-Nominal 509 511	照片
+T59	Thing-Nominal 523 533	鲜艳而庄严的五星红旗
+*	Coreference T59 T32 T58
+T58	Thing-Nominal 515 520	第一张照片
+T60	Person-Pronoun 534 535	我
+T61	Person-Nominal 539 548;549 551	全世界华夏儿女及其 友人
+R5	Social Arg1:T61 Arg2:T60	
+T62	Thing-Nominal 559 563	嫦娥三号
+T63	Location-Nominal 571 573	月球
+T64	Thing-Name 574 576	玉兔
+T65	Thing-Name 577 579	嫦娥
+*	Coreference T65 T62
+T66	Time-Explicit 594 600	2013年内
+T67	Organization-Nominal 601 603	中国
+T68	Metric 613 618	7000米
+T69	Thing-Nominal 627 632	辽宁号航母
+T70	Location-Nominal 632 634	南海
+T71	Thing-Nominal 639 641	粮食
+T72	Organization-Nominal 647 651	广东恒大
+T73	Person-Nominal 669 670;671 674	中 华儿女
+T74	Person-Nominal 696 700	中华民族
+T75	Metric 703 706	几千年
+T76	Person-Name 715 717	嫦娥
+T77	Location-Nominal 718 719	月
+T78	Organization-Nominal 738 740	中国
+T79	Thing-Nominal 741 748	嫦娥三号着陆器
+T80	Thing-Nominal 749 754	巡视器玉兔
+T81	Location-Nominal 813 814	月
+T82	Thing-Nominal 825 829	嫦娥三号
+T83	Person-Nominal 851 853;854 855	中国 人
+T84	Person-Pronoun 856 858	自己
+*	Coreference T84 T83
+T85	Abstract 866 870	中国创造
+T86	Abstract 873 877	中国制造
+T87	Thing-Nominal 879 883	嫦娥三号
+T88	Person-Name 888 890	嫦娥
+T89	Location-Nominal 891 892	月
+T90	Thing-Nominal 913 914;915 917	D NA
+T91	Organization-Nominal 938 940	祖国
+*	Coreference T3 T2
+T92	Organization-Name 940 944	伟大母亲
+*	Coreference T92 T91
+T93	Thing-Nominal 954 958	五星红旗
+T94	Abstract 959 965	特色社会主义
+T95	Person-Pronoun 980 981	我
+T96	Thing-Nominal 987 991	五星红旗
+T97	Location-Name 1005 1007	泰山
+T98	Time-Implicit 1007 1009	自古
+T99	Location-Name 1021 1023	岱宗
+T100	Location-Name 1012 1016	五岳独尊
+*	Coreference T99 T97 T100
+T101	Location-Name 1025 1027	泰山
+T102	Organization-Nominal 1028 1030	中国
+T103	Location-Nominal 1033 1035	公园
+T104	Location-Nominal 1048 1059	历史、自然、艺术博物馆
+T105	Location-Name 1063 1065	泰山
+T106	Thing-Nominal 1089 1093	科技设施
+T107	Location-Name 1101 1103	泰山
+T108	Person-Nominal 1106 1108	古人
+T109	Person-Nominal 1108 1110	前人
+T110	Time-Implicit 1117 1120	历史上
+T111	Location-Name 1122 1124	泰山
+T112	Metric 1125 1126;1127 1128	旬 日
+T113	Time-Implicit 1134 1136	今天
+T114	Metric 1138 1140	一日
+T115	Metric 1141 1143	几日
+T116	Person-Pronoun 1146 1147	我
+T117	Metric 1151 1153	一次
+T118	Location-Nominal 1174 1177	山门路
+T119	Person-Nominal 1185 1187	司机
+T120	Person-Name 1187 1189	小隋
+*	Coreference T120 T119
+T121	Thing-Nominal 1190 1192	小车
+R6	Use Arg1:T120 Arg2:T121	
+T122	Thing-Nominal 1195 1198	公交车
+T123	Location-Name 1201 1204	中天门
+T124	Location-Nominal 1216 1220	上山公路
+T125	Thing-Nominal 1225 1227	山林
+R7	Near Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 1230 1232	峰峦
+R8	Near Arg1:T126 Arg2:T124	
+T127	Thing-Nominal 1238 1240	大雾
+R9	Near Arg1:T127 Arg2:T124	
+T128	Location-Name 1260 1262	庐山
+T129	Person-Pronoun 1267 1269	我们
+T130	Thing-Nominal 1279 1280	雾
+T131	Thing-Nominal 1282 1283	花
+T132	Thing-Nominal 1284 1285	水
+T134	Location-Name 1290 1292	泰山
+T133	Location-Name 1300 1302	泰山
+T135	Person-Nominal 1303 1304;1305 1307	旅 游者
+T136	Location-Name 1313 1315	泰山
+T137	Location-Name 1329 1333	灰白大蟒
+T138	Location-Nominal 1336 1338	山峡
+R10	Located Arg1:T137 Arg2:T138	
+T139	Location-Nominal 1349 1356	十八盘弯道险路
+*	Coreference T139 T137 T141
+T140	Location-Name 1357 1359	泰山
+T141	Location-Nominal 1375 1378	十八盘
+T142	Thing-Nominal 1390 1393	公交车
+T143	Location-Name 1399 1402	中天门
+T144	Location-Name 1403 1405	泰山
+R11	Near Arg1:T143 Arg2:T144	
+T145	Location-Nominal 1395 1397	山脚
+R12	Near Arg1:T145 Arg2:T143	
+T146	Metric 1412 1415	三几个
+T147	Person-Nominal 1415 1417	行人
+T148	Location-Name 1421 1423	泰山
+T149	Person-Nominal 1424 1426	人流
+T150	Location-Name 1431 1434	中天门
+T151	Location-Name 1435 1438	南天门
+T152	Thing-Nominal 1441 1443	揽车
+R13	Located Arg1:T152 Arg2:T150	
+R14	Located Arg1:T152 Arg2:T151	
+T153	Person-Nominal 1445 1447	人流
+T154	Person-Pronoun 1448 1450	他们
+*	Coreference T154 T153
+T155	Location-Name 1471 1473	泰山
+T156	Location-Name 1480 1483	中天门
+T157	Location-Name 1485 1488	南天门
+R15	Near Arg1:T157 Arg2:T156	
+R16	Near Arg1:T151 Arg2:T150	
+T158	Thing-Nominal 1499 1501	揽车
+T159	Person-Pronoun 1502 1504	我们
+T160	Location-Nominal 1507 1509	陡坡
+T161	Metric 1512 1516	一级一级
+T162	Location-Nominal 1517 1519	石阶
+T163	Metric 1532 1537	1545米
+T164	Location-Name 1540 1542	泰山
+T165	Metric 1543 1547	18华里
+T166	Location-Nominal 1548 1550	山路
+T167	Metric 1552 1558	7400多个
+T168	Location-Nominal 1558 1560	石阶
+T169	Thing-Nominal 1572 1573	腿
+T170	Location-Nominal 1617 1620	登山路
+T171	Person-Nominal 1625 1626	人
+T172	Location-Name 1628 1630	泰山
+T173	Thing-Nominal 1631 1633	竹杖
+T174	Person-Pronoun 1636 1637	我
+T175	Person-Name 1640 1642	小隋
+T176	Person-Pronoun 1643 1644	我
+R17	Social Arg1:T175 Arg2:T174	
+T177	Person-Pronoun 1648 1649	我
+T178	Thing-Nominal 1655 1658	青竹杖
+T179	Metric 1652 1654	一根

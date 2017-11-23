@@ -1,0 +1,196 @@
+T1	Location-Nominal 2 4	竹林
+T2	Thing-Nominal 13 14	竹
+T3	Thing-Nominal 30 31	竹
+T4	Location-Name 40 42	安化
+T5	Thing-Name 45 47	楠竹
+T6	Location-Nominal 49 53	老家屋子
+T7	Thing-Nominal 74 76	竹子
+T8	Location-Nominal 57 60	楠竹林
+T10	Time-Implicit 78 83	青少年时期
+T11	Person-Nominal 84 90	老家的村民们
+T12	Person-Pronoun 0 1	我
+T13	Thing-Nominal 98 100	竹子
+T14	Thing-Nominal 101 104	竹筷子
+T15	Thing-Nominal 107 110	竹斗笠
+T16	Thing-Nominal 113 115	竹子
+T17	Thing-Nominal 119 124	竹凳子椅子
+T18	Thing-Nominal 126 129	竹凉席
+T19	Thing-Nominal 130 133	竹筛子
+T20	Thing-Nominal 136 138;139 140	竹箩 筐
+T21	Thing-Nominal 144 147	竹枷椅
+T22	Thing-Nominal 156 159	竹篮子
+T23	Thing-Nominal 166 172	农产品和茶叶
+T24	Thing-Nominal 173 176	竹晒簟
+T25	Thing-Nominal 195 199	竹篾片子
+T26	Person-Nominal 153 155	妇女
+T27	Location-Nominal 234 239	远处山沟搭
+T28	Location-Nominal 247 255	道路或房屋的地方
+T29	Person-Nominal 284 287	村民们
+T30	Time-Implicit 325 327	那时
+T31	Person-Nominal 327 330	小朋友
+T32	Thing-Nominal 344 368	竹削、篾制的，篾制小鸟、篾制青蛙、竹板子削的小刀
+T33	Thing-Nominal 369 373	竹制弓箭
+T34	Thing-Nominal 374 380	竹筒子做小碗
+T35	Thing-Nominal 204 207	村民们
+R1	Part-Whole Arg1:T5 Arg2:T3	
+R2	Near Arg1:T6 Arg2:T8	
+R3	Use Arg1:T11 Arg2:T14	
+R4	Use Arg1:T11 Arg2:T15	
+R5	Use Arg1:T11 Arg2:T16	
+R6	Use Arg1:T11 Arg2:T17	
+R7	Use Arg1:T11 Arg2:T18	
+R8	Use Arg1:T11 Arg2:T19	
+R9	Use Arg1:T11 Arg2:T20	
+R10	Use Arg1:T11 Arg2:T21	
+R11	Use Arg1:T26 Arg2:T22	
+R12	Use Arg1:T26 Arg2:T23	
+T9	Time-Implicit 311 314	休息时
+T36	Thing-Nominal 327 334	小朋友玩的玩具
+T37	Person-Pronoun 383 384	我
+T38	Person-Nominal 387 389	祖父
+T39	Person-Pronoun 390 391	我
+T40	Thing-Nominal 392 394	石头
+T41	Thing-Nominal 396 400	一只小鸟
+T42	Thing-Nominal 404 407	细竹篾
+T43	Thing-Nominal 415 420	这个小玩意
+*	Coreference T43 T41
+T44	Metric 424 427	好几年
+T45	Person-Nominal 428 435	半大不小的孩子
+T46	Person-Nominal 447 451	几个伙伴
+T47	Time-Implicit 673 681	我六、七岁的时候
+T48	Location-Nominal 453 455	竹林
+T49	Person-Nominal 630 632	小孩
+T50	Person-Nominal 581 583	孩子
+T51	Person-Nominal 599 603	毛头小子
+T52	Person-Nominal 549 551	养母
+T53	Person-Pronoun 552 553	我
+T54	Person-Pronoun 558 559	我
+R13	Family Arg1:T53 Arg2:T52	
+T55	Person-Pronoun 516 517	我
+T56	Time-Implicit 511 516	曾经有一次
+T57	Person-Name 771 776	宋人杨万里
+T58	Location-Nominal 469 471	竹树
+T59	Thing-Nominal 296 298	竹筒
+T60	Thing-Nominal 307 309	树枝
+T61	Time-Implicit 1272 1276	十多年前
+T62	Metric 1252 1258	4000余元
+T63	Metric 1209 1213	30多元
+T64	Metric 988 995	1.5米左右长
+T65	Time-Implicit 894 896	春天
+T66	Thing-Nominal 268 271	木桶子
+T67	Time-Implicit 662 665	小时候
+T68	Person-Name 683 689	邻居栋财伯伯
+T69	Person-Nominal 694 696	养母
+T70	Person-Pronoun 661 662	我
+T71	Person-Nominal 1277 1279	养父
+T72	Person-Nominal 1260 1262	农民
+T73	Time-Implicit 2187 2189	如今
+T74	Location-Nominal 2196 2200	竹下小亭
+T75	Time-Implicit 1913 1917	自古以来
+T76	Person-Nominal 1920 1924	骚客诗人
+T77	Person-Name 1577 1580	苏东坡
+T78	Time-Explicit 1555 1561	2008年初
+T79	Person-Name 1352 1354	韩驹
+T80	Thing-Nominal 1358 1359	鸡
+T81	Thing-Nominal 1368 1372	鸡的粪便
+T82	Person-Pronoun 1322 1324	我们
+T83	Person-Nominal 1943 1946	明太祖
+T84	Person-Name 1946 1949	朱元璋
+*	Coreference T84 T83
+T85	Person-Nominal 2211 2213	先贤
+T86	Person-Pronoun 2226 2228	自己
+T87	Time-Implicit 1875 1877	时下
+T88	Person-Nominal 1849 1851	故人
+T89	Person-Pronoun 1854 1855	我
+T90	Person-Nominal 1861 1863	客人
+T91	Person-Nominal 1885 1886	客
+T92	Person-Name 1905 1908	施肩吾
+T93	Time-Implicit 1786 1791	夜深人静时
+T94	Person-Name 1684 1686	杜甫
+T95	Metric 1646 1648	几年
+T96	Location-Name 1620 1622	浙江
+T98	Person-Pronoun 1446 1447	你
+T99	Thing-Nominal 1547 1549	蚊子
+T100	Person-Name 2007 2009	陆游
+T101	Thing-Nominal 519 521	竹圈
+T102	Abstract 2132 2133	竹
+T103	Metric 1229 1235	6000余元
+T105	Person-Pronoun 745 746	我
+T106	Person-Nominal 764 766	古人
+T107	Person-Name 2261 2264	郑板桥
+T108	Thing-Nominal 525 527	竹圈
+T109	Thing-Nominal 534 535	脚
+T110	Person-Nominal 529 530	人
+*	Coreference T110 T55
+R14	Part-Whole Arg1:T109 Arg2:T110	
+T111	Location-Nominal 547 548	家
+R15	Family Arg1:T52 Arg2:T55	
+*	Coreference T50 T51 T49
+T112	Thing-Nominal 608 615	一枝较粗的竹枝
+*	Coreference T67 T47
+R16	Social Arg1:T70 Arg2:T68	
+R17	Family Arg1:T70 Arg2:T69	
+R18	Social Arg1:T68 Arg2:T69	
+T113	Person-Pronoun 706 707	我
+R19	Family Arg1:T69 Arg2:T113	
+T114	Thing-Nominal 710 712	裤子
+R20	Ownership Arg1:T113 Arg2:T114	
+T115	Thing-Nominal 723 725	屁股
+R21	Part-Whole Arg1:T115 Arg2:T113	
+T116	Thing-Nominal 767 768	竹
+R22	Part-Whole Arg1:T57 Arg2:T106	
+T104	Thing-Name 790 793	陈允平
+T117	Time-Explicit 788 790	南宋
+R23	Part-Whole Arg1:T104 Arg2:T106	
+T118	Person-Pronoun 831 833	他们
+T119	Person-Nominal 821 823	农家
+T120	Thing-Nominal 827 829	竹子
+*	Coreference T118 T119
+T121	Time-Implicit 838 842	每年冬天
+T122	Person-Nominal 862 864	客人
+T123	Location-Nominal 843 845	竹林
+T124	Thing-Nominal 847 849	冬笋
+R24	Located Arg1:T124 Arg2:T123	
+T125	Thing-Nominal 850 859	一道谁都爱吃的好菜
+*	Coreference T125 T124
+T126	Person-Nominal 871 873	大家
+*	Coreference T126 T122
+T127	Thing-Nominal 866 868	冬笋
+T128	Thing-Nominal 869 870	肉
+T129	Thing-Nominal 878 880	冬笋
+T130	Thing-Nominal 897 899	春笋
+T134	Thing-Nominal 928 930	笋子
+T131	Location-Nominal 914 925	田边、地头、路旁深土中
+T132	Physical 932 935	白芽笋
+T133	Time-Implicit 963 966	这时候
+T135	Location-Nominal 1280 1287	老屋东面的湾里
+T136	Thing-Nominal 1289 1293	三株楠竹
+R25	Located Arg1:T136 Arg2:T135	
+T137	Time-Explicit 1295 1297	现在
+T138	Thing-Nominal 1932 1933	竹
+T139	Thing-Nominal 1953 1954	竹
+T140	Person-Pronoun 2004 2005	我
+R26	Part-Whole Arg1:T100 Arg2:T76	
+T141	Thing-Nominal 2085 2086	竹
+T142	Thing-Nominal 2091 2092	竹
+T143	Person-Name 2128 2131	宋代王
+T144	Thing-Nominal 1562 1564	老屋
+T145	Person-Pronoun 1575 1576	我
+T97	Time-Implicit 1611 1614	当年冬
+R27	Part-Whole Arg1:T71 Arg2:T82	
+T146	Thing-Nominal 1326 1330	几十只鸡
+T147	Thing-Nominal 1311 1318	一片不小的竹林
+T148	Thing-Nominal 1303 1307	一湾竹子
+*	Coreference T148 T147
+R28	Part-Whole Arg1:T148 Arg2:T136	
+T149	Time-Explicit 1350 1351	宋
+T150	Thing-Nominal 1360 1364	林中小草
+T151	Time-Implicit 1194 1197	前不久
+T152	Time-Implicit 1157 1159	现在
+T153	Time-Implicit 1146 1150	近些年来
+T154	Thing-Nominal 1166 1168	竹子
+T155	Person-Nominal 1036 1038	农户
+T156	Location-Nominal 1536 1539	竹林中
+T157	Location-Nominal 1660 1664	我的院中
+T158	Thing-Nominal 1653 1658	十多棵新竹
+T159	Time-Implicit 1381 1383	如今

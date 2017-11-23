@@ -1,0 +1,567 @@
+T1	Time-Implicit 0 7	癸已年深秋时节
+T2	Thing-Nominal 8 9	风
+T3	Thing-Nominal 10 11	日
+T4	Thing-Nominal 13 15	阳光
+T5	Person-Pronoun 18 20	我们
+T6	Thing-Nominal 24 28	岷江之水
+T7	Location-Name 24 26	岷江
+R1	Located Arg1:T6 Arg2:T7	
+T8	Thing-Nominal 21 22	车
+R2	Use Arg1:T5 Arg2:T8	
+T9	Metric 35 38	一天多
+T10	Thing-Nominal 38 42	崎岖山路
+T11	Location-Name 49 52	四川省
+T12	Location-Name 49 60	四川省阿坝藏羌族自治洲
+R3	Part-Whole Arg1:T12 Arg2:T11	
+T13	Location-Nominal 49 60;61 63	四川省阿坝藏羌族自治洲 境内
+T14	Thing-Nominal 69 73	座座山峰
+T15	Thing-Nominal 74 76	白雪
+T16	Location-Nominal 81 83	云际
+T17	Thing-Nominal 85 94	令人生畏的峡谷激流
+T18	Location-Nominal 85 95	令人生畏的峡谷激流间
+T19	Thing-Nominal 96 106	一片枫叶、花海、绿池
+T20	Person-Nominal 108 110	人们
+R4	Located Arg1:T19 Arg2:T18	
+T21	Thing-Nominal 114 118	大川奇峰
+T22	Thing-Nominal 124 128	高山云景
+T23	Thing-Nominal 134 136	阳光
+T24	Thing-Nominal 140 144	堪蓝太空
+T25	Thing-Nominal 150 152	白云
+T26	Thing-Nominal 159 164	山峰和积雪
+T27	Thing-Nominal 165 167	阳光
+T28	Thing-Nominal 174 179	长长的银带
+T29	Location-Nominal 180 182	远处
+T30	Thing-Nominal 180 182;183 186	远处 的山峦
+R5	Located Arg1:T30 Arg2:T29	
+T31	Location-Nominal 194 201	令人神往的仙境
+T32	Location-Pronoun 191 192	这
+R6	General-Special Arg1:T31 Arg2:T32	
+T33	Location-Name 203 206	九寨沟
+T34	Thing-Nominal 207 211	九个寨子
+T35	Thing-Nominal 211 214	一条沟
+T36	Metric 207 209	九个
+T37	Metric 211 213	一条
+T38	Location-Name 217 221	“翠海”
+T39	Location-Name 222 226	“翠海”
+*	Coreference T38 T33
+R7	Located Arg1:T34 Arg2:T33	
+R8	Located Arg1:T35 Arg2:T33	
+T40	Location-Nominal 231 235	高山湖泊
+R9	General-Special Arg1:T40 Arg2:T39	
+T41	Location-Pronoun 239 241	这里
+*	Coreference T41 T39
+T42	Person-Nominal 236 244	生活在这里的人们
+T43	Thing-Nominal 246 254	114个高山湖泊
+T44	Metric 246 250	114个
+T45	Thing-Name 257 261	“海子”
+T46	Person-Nominal 265 274	旅游者和摄影爱好者
+T47	Location-Nominal 265 278	旅游者和摄影爱好者的新天地
+R10	General-Special Arg1:T47 Arg2:T39	
+*	Coreference T45 T43
+R11	Located Arg1:T43 Arg2:T39	
+T48	Location-Name 280 283	九寨沟
+T49	Thing-Nominal 283 284	水
+T50	Thing-Nominal 288 289	水
+T51	Thing-Nominal 292 296	山门木桥
+T52	Thing-Nominal 297 302	迎面的泉台
+T53	Thing-Nominal 303 310	几十米平顶断崖
+T54	Thing-Nominal 313 319	晶莹的水晶廉
+T55	Metric 303 306	几十米
+R12	Located Arg1:T49 Arg2:T48	
+R13	Located Arg1:T50 Arg2:T48	
+R14	Located Arg1:T51 Arg2:T48	
+R15	Located Arg1:T52 Arg2:T48	
+R16	Located Arg1:T53 Arg2:T48	
+R17	Located Arg1:T54 Arg2:T53	
+R18	Located Arg1:T54 Arg2:T52	
+R19	Located Arg1:T54 Arg2:T51	
+T56	Location-Name 322 326	尼亚加拉
+T57	Thing-Nominal 330 331	水
+T58	Location-Nominal 336 339	水底里
+T59	Thing-Nominal 343 348	巨大的树丛
+R20	Located Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 349 356	碳酸钙的沉积物
+T61	Thing-Nominal 362 368	木乃伊的干枝
+R21	Part-Whole Arg1:T61 Arg2:T59	
+R22	Located Arg1:T60 Arg2:T61	
+T62	Thing-Nominal 371 379	硕人无比的珊瑚群
+*	Coreference T62 T59
+T63	Thing-Nominal 388 392	透明的水
+T64	Location-Nominal 397 400	水晶宫
+T65	Thing-Nominal 397 401;402 407	水晶宫里 出色的景观
+T66	Location-Nominal 408 413	高处一个海
+T67	Location-Name 415 418	熊猫海
+*	Coreference T67 T66
+T68	Thing-Nominal 433 435	熊猫
+T69	Thing-Nominal 440 442	熊猫
+T70	Thing-Nominal 446 447	水
+T71	Person-Nominal 451 453	吉人
+T72	Thing-Nominal 458 460	熊猫
+T73	Thing-Nominal 463 465	山间
+T74	Person-Nominal 472 474	游人
+T75	Thing-Nominal 478 479	阶
+T76	Thing-Nominal 482 486	蜿蜒山路
+T77	Thing-Nominal 486 488	曲径
+T78	Thing-Nominal 491 492	泉
+T79	Location-Nominal 493 495	石上
+T80	Thing-Nominal 493 494	石
+T81	Person-Nominal 497 498	人
+T82	Location-Nominal 499 501	画中
+T83	Thing-Nominal 499 500	画
+T84	Thing-Nominal 503 508	绿的嫩柳枝
+T85	Thing-Nominal 509 514	黄的迎春花
+T86	Thing-Nominal 515 519	粉的杏花
+T87	Thing-Nominal 525 536	这带有质感的鲜艳的色彩
+T88	Thing-Nominal 545 551	眼前的花草还
+T89	Thing-Nominal 558 562	天上来水
+T90	Person-Nominal 571 573	孩童
+T91	Thing-Nominal 573 580	清脆爽朗的笑声
+R23	Create Arg1:T90 Arg2:T91	
+T92	Thing-Nominal 592 596	崇山峻岭
+T93	Thing-Nominal 590 591	雨
+T94	Location-Nominal 587 589	九天
+T95	Thing-Nominal 598 606	一条碧蓝碧蓝的水
+T96	Metric 609 613	数十公里
+T97	Location-Nominal 620 622	山谷
+T98	Thing-Nominal 627 634	诸多样式的瀑布
+T99	Location-Name 635 642	“诺日朗”瀑布
+T100	Location-Nominal 642 644	悬崖
+T101	Thing-Nominal 648 653	一道道白练
+T102	Location-Name 673 679	“树正”瀑布
+T103	Thing-Nominal 686 690	弧状群石
+T104	Person-Nominal 702 704	素女
+T105	Thing-Nominal 704 706	机丝
+T106	Thing-Nominal 708 712	缟带轻烟
+T107	Thing-Nominal 715 718	黄果树
+T108	Thing-Nominal 727 729	山水
+T109	Thing-Nominal 732 734	银泉
+T110	Person-Nominal 738 739	人
+T111	Thing-Nominal 749 751	瀑布
+T112	Person-Nominal 786 793	尚未走近的人们
+T113	Thing-Nominal 796 798	树丛
+T114	Thing-Nominal 801 806	她们的身段
+T115	Thing-Pronoun 801 803	她们
+*	Coreference T115 T111
+T116	Location-Name 807 812	珍珠滩瀑布
+T117	Location-Name 814 817	五花海
+R24	Near Arg1:T116 Arg2:T117	
+T118	Location-Name 819 822	九寨沟
+T119	Location-Nominal 819 828;829 830	九寨沟最为雄壮的瀑 布
+T120	Location-Nominal 831 833	瀑布
+T121	Metric 835 840	2443米
+T122	Metric 843 847	200米
+T123	Thing-Name 852 860	电视剧《西游记》
+T124	Location-Nominal 852 865	电视剧《西游记》的摄影基地
+R25	General-Special Arg1:T119 Arg2:T124	
+T125	Thing-Nominal 866 868	瀑布
+T126	Location-Nominal 871 881	四十多米高的钙华岩上
+T127	Metric 871 875	四十多米
+T128	Thing-Nominal 807 812	珍珠滩瀑布
+*	Coreference T128 T125
+R26	Located Arg1:T125 Arg2:T126	
+T129	Location-Nominal 883 885	高处
+T130	Thing-Nominal 890 902	颗颗在山涧流淌的“珍珠”
+T131	Thing-Nominal 904 909	一道宽银幕
+T132	Metric 904 906	一道
+T133	Location-Nominal 911 918	浅黄色的苔藓上
+R27	Located Arg1:T131 Arg2:T133	
+T134	Thing-Nominal 932 939	股股欢乐的热浪
+T135	Location-Nominal 940 942	瀑布
+T136	Location-Nominal 943 945	瀑间
+T137	Thing-Nominal 948 950;951 958	明静 宽阔的蔚蓝水面
+R28	Located Arg1:T137 Arg2:T136	
+R29	Located Arg1:T137 Arg2:T135	
+T138	Location-Nominal 959 961	水里
+T139	Thing-Nominal 964 968	高山丛林
+R30	Located Arg1:T139 Arg2:T138	
+T140	Thing-Nominal 970 972	镜海
+T141	Thing-Nominal 981 983	秋风
+T142	Thing-Nominal 992 996	绝壁悬崖
+T143	Thing-Nominal 997 1001	百丈飞瀑
+R31	Located Arg1:T143 Arg2:T142	
+T144	Thing-Nominal 1008 1011;1012 1013	银波双 剑
+T145	Thing-Nominal 1019 1020	虎
+T146	Thing-Nominal 1021 1022	龙
+T147	Thing-Nominal 1027 1028	潭
+T148	Thing-Nominal 1029 1033	玉盘明镜
+T149	Person-Nominal 1061 1062	人
+T150	Thing-Nominal 1067 1072	面前的飞瀑
+*	Coreference T150 T143
+T151	Person-Nominal 1075 1076	人
+T152	Thing-Nominal 1062 1064	心胸
+R32	Part-Whole Arg1:T152 Arg2:T149	
+T153	Time-Implicit 1088 1090	此时
+T154	Location-Name 1104 1108	深潭天池
+T155	Location-Nominal 1104 1110	深潭天池两边
+T156	Thing-Nominal 1112 1117	一条人工渠
+T157	Metric 1112 1114	一条
+R33	Located Arg1:T156 Arg2:T155	
+T158	Thing-Nominal 1121 1122	岩
+T159	Location-Nominal 1127 1132	两边的田野
+T160	Person-Nominal 1137 1147	纯朴，善良的九寨水人
+T161	Location-Name 1148 1150	天池
+*	Coreference T161 T154
+T162	Location-Nominal 1148 1152	天池上游
+R34	Part-Whole Arg1:T162 Arg2:T161	
+T163	Thing-Nominal 1155 1165	山涧依次营造的水景池
+R35	Located Arg1:T163 Arg2:T162	
+T164	Location-Nominal 1166 1168	池内
+T165	Thing-Nominal 1166 1167	池
+*	Coreference T165 T163
+T166	Thing-Nominal 1168 1170	清水
+R36	Located Arg1:T166 Arg2:T164	
+T167	Location-Nominal 1178 1180	池边
+T168	Thing-Nominal 1181 1183	绿树
+R37	Located Arg1:T168 Arg2:T167	
+T169	Thing-Nominal 1186 1188	红杏
+R38	Located Arg1:T169 Arg2:T167	
+T170	Thing-Nominal 1191 1192	水
+T171	Thing-Nominal 1193 1194	山
+T172	Thing-Nominal 1198 1199	绘
+T173	Thing-Nominal 1200 1201	画
+T174	Location-Name 1204 1207	九寨沟
+T175	Thing-Nominal 1204 1212	九寨沟的这些海子
+T176	Location-Name 1214 1217	五花海
+T177	Location-Nominal 1220 1233	最令我沉迷，色彩最美的海魁
+*	Coreference T177 T176
+T178	Location-Name 1235 1238	五花海
+T179	Location-Name 1240 1243	孔雀海
+T180	Location-Nominal 1246 1254	孔雀河上游的尽头
+R39	Near Arg1:T178 Arg2:T180	
+T181	Location-Name 1256 1259	老虎嘴
+T182	Thing-Nominal 1267 1278	一只羽毛丰满的开屏孔雀
+T183	Metric 1267 1269	一只
+T184	Location-Nominal 1282 1291	三面环山的日则沟内
+R40	Located Arg1:T182 Arg2:T184	
+T185	Location-Pronoun 1293 1294	她
+*	Coreference T185 T178 T179
+T186	Location-Nominal 1293 1297	她的上部
+R41	Part-Whole Arg1:T186 Arg2:T185	
+T187	Thing-Nominal 1298 1303	孔雀的彩屏
+T188	Location-Nominal 1304 1306	下部
+R42	Part-Whole Arg1:T188 Arg2:T185	
+T189	Thing-Nominal 1307 1312	孔雀的头顶
+R43	Part-Whole Arg1:T187 Arg2:T182	
+R44	Part-Whole Arg1:T189 Arg2:T182	
+T190	Thing-Nominal 1313 1318	岸边的古树
+T191	Location-Nominal 1313 1315	岸边
+R45	Near Arg1:T191 Arg2:T178	
+T192	Thing-Nominal 1320 1325	孔雀的花翎
+R46	Part-Whole Arg1:T192 Arg2:T182	
+T193	Location-Name 1326 1329	五花海
+T194	Location-Nominal 1329 1334	这一潭秀水
+*	Coreference T194 T193
+T195	Thing-Nominal 1336 1338	阳光
+T196	Thing-Nominal 1373 1377	峰峦绿树
+T197	Location-Nominal 1384 1386	街市
+T198	Thing-Nominal 1390 1392	牛马
+T199	Thing-Nominal 1396 1398	林木
+T200	Thing-Nominal 1404 1413	令人遐想的海市蜃楼
+T201	Location-Name 1416 1419	五花海
+T202	Person-Pronoun 1420 1421	我
+T203	Thing-Nominal 1426 1431	另一道风景
+T204	Person-Nominal 1432 1444	一对看似年过七旬的老夫妻
+T205	Location-Nominal 1447 1450	栈桥上
+T206	Person-Nominal 1453 1456	老先生
+R47	Part-Whole Arg1:T206 Arg2:T204	
+T207	Metric 1432 1434	一对
+T208	Thing-Nominal 1463 1467	整个伞面
+T209	Thing-Nominal 1458 1461	遮阳伞
+R48	Use Arg1:T206 Arg2:T209	
+R49	Part-Whole Arg1:T208 Arg2:T209	
+T210	Person-Nominal 1470 1472	老伴
+R50	Family Arg1:T210 Arg2:T206	
+R51	Part-Whole Arg1:T210 Arg2:T204	
+T211	Person-Pronoun 1489 1490	他
+*	Coreference T211 T206
+T212	Thing-Nominal 1491 1492	伞
+T213	Person-Pronoun 1511 1512	他
+T214	Thing-Nominal 1516 1524	大自然赏赐的美景
+T215	Person-Nominal 1529 1531	老伴
+T216	Person-Pronoun 1532 1533	他
+T217	Metric 1538 1541	几十年
+T218	Person-Pronoun 1542 1544	我们
+T219	Person-Nominal 1549 1551	者伴
+*	Coreference T219 T215
+T220	Thing-Nominal 1555 1557	双手
+R52	Part-Whole Arg1:T220 Arg2:T219	
+R53	Use Arg1:T219 Arg2:T220	
+T221	Person-Nominal 1559 1562	老先生
+T222	Thing-Nominal 1559 1568	老先生脸颊上的汗水
+T223	Person-Pronoun 1569 1571	他们
+*	Coreference T223 T204
+T224	Person-Nominal 1591 1597;1598 1600	一对热恋中的 情侣
+T225	Metric 1591 1593	一对
+T226	Person-Nominal 1606 1616	周围那些羡慕和嫉妒的
+T227	Person-Pronoun 1617 1619	他们
+T228	Thing-Nominal 1636 1642	所有的风和浪
+T229	Location-Name 1657 1658;1659 1661	五 花海
+*	Coreference T229 T201
+T230	Thing-Nominal 1656 1658;1659 1669	这五 花海中令人陶醉的风景
+T231	Thing-Nominal 1648 1652	此情此景
+*	Coreference T230 T231
+T232	Location-Name 1672 1675	五彩池
+T233	Thing-Nominal 1676 1685	一个富有诗意的名字
+T234	Thing-Name 1672 1675	五彩池
+T235	Thing-Pronoun 1686 1687	她
+*	Coreference T235 T234
+T236	Location-Nominal 1690 1696	九寨的山坳里
+R54	Located Arg1:T235 Arg2:T236	
+T237	Thing-Nominal 1697 1699	阳光
+T238	Thing-Nominal 1701 1703	池水
+T239	Thing-Nominal 1716 1727	盛满了各色颜料的水彩板
+T240	Thing-Nominal 1735 1737	水面
+R55	Part-Whole Arg1:T240 Arg2:T238	
+T241	Location-Nominal 1738 1740	水中
+T242	Thing-Nominal 1744 1748	圈圈涟漪
+R56	Located Arg1:T242 Arg2:T241	
+T243	Thing-Nominal 1752 1756	道道光晕
+R57	Located Arg1:T243 Arg2:T242	
+T244	Location-Name 1758 1761	九寨沟
+T245	Thing-Nominal 1762 1767	每一个海子
+R58	Located Arg1:T245 Arg2:T244	
+T246	Person-Nominal 1771 1778	紧密相拥的邻居
+T247	Location-Name 1779 1810	火花海、芦苇海、盆景滩、孔雀河、卧龙海、犀牛海、箭竹海、熊猫海
+T248	Time-Implicit 1819 1829	每当晨雾初散阳光照耀
+T249	Thing-Nominal 1821 1823	晨雾
+T250	Thing-Nominal 1825 1827	阳光
+T251	Location-Name 1830 1833	火花海
+T252	Thing-Nominal 1838 1843	炫目的光芒
+R59	Located Arg1:T252 Arg2:T251	
+T253	Thing-Nominal 1844 1852	一丛丛茂密的芦苇
+T254	Location-Name 1853 1856	芦苇海
+R60	Located Arg1:T253 Arg2:T254	
+T255	Thing-Nominal 1862 1867	一群群飞鸟
+T256	Thing-Nominal 1871 1873	翅膀
+T257	Thing-Nominal 1865 1867	飞鸟
+R61	Part-Whole Arg1:T256 Arg2:T257	
+T258	Location-Nominal 1875 1879	芦苇深处
+T259	Location-Nominal 1886 1888	远方
+T260	Thing-Nominal 1889 1904	一棵棵盘根错节、奇形怪状的古木
+T261	Thing-Nominal 1905 1912	一丛丛奇花异草
+T262	Thing-Nominal 1921 1923	水流
+T263	Location-Nominal 1915 1919	乱石丛中
+R62	Located Arg1:T261 Arg2:T263	
+R63	Located Arg1:T260 Arg2:T263	
+T264	Thing-Nominal 1932 1940;1941 1953	经过盆景大师的精 心设计摆放其中的艺术品;
+T265	Thing-Nominal 1953 1958	水中的枯木
+T266	Thing-Nominal 1966 1968	玉枝
+T267	Location-Name 1972 1975	九寨沟
+T268	Thing-Nominal 1975 1976	水
+T269	Thing-Nominal 1977 1978	山
+T270	Thing-Nominal 1983 1985	奇水
+T271	Thing-Nominal 1986 1988	奇峰
+R64	Located Arg1:T270 Arg2:T267	
+R65	Located Arg1:T271 Arg2:T267	
+T272	Location-Name 1990 1992	天池
+T273	Thing-Nominal 1999 2004	九寨沟高山
+T274	Location-Pronoun 2009 2011	这里
+*	Coreference T274 T267
+T275	Thing-Nominal 2017 2019	危崖
+T276	Thing-Nominal 2022 2024	峭岩
+T277	Thing-Nominal 2027 2029	重峦
+T278	Thing-Nominal 2037 2038	山
+T279	Thing-Nominal 2042 2043	林
+T280	Location-Nominal 2052 2054	景区
+T281	Location-Nominal 2056 2063	山间的二处盆地
+R66	Near Arg1:T280 Arg2:T281	
+T282	Thing-Nominal 2066 2068	秀山
+T283	Location-Nominal 2064 2066	四面
+R67	Near Arg1:T283 Arg2:T281	
+R68	Located Arg1:T282 Arg2:T283	
+T284	Thing-Nominal 2087 2089	远山
+T285	Thing-Nominal 2107 2109	骏马
+T286	Thing-Nominal 2114 2115	龙
+T287	Thing-Nominal 2116 2117	凤
+T288	Thing-Nominal 2121 2123	骆驼
+T289	Thing-Nominal 2128 2130	金龟
+T290	Person-Nominal 2135 2137	天兵
+T291	Person-Nominal 2142 2144	将军
+T292	Person-Nominal 2160 2161	人
+T293	Thing-Name 2162 2164	自然
+T294	Location-Nominal 2170 2172	石头
+T295	Thing-Nominal 2176 2178	生命
+T296	Thing-Nominal 2192 2196	丹崖地貌
+T297	Thing-Nominal 2188 2190	山石
+T298	Thing-Nominal 2199 2204	喀斯特地形
+T299	Thing-Nominal 2208 2215;2216 2217	遍布景区的泉华 台
+T300	Thing-Nominal 2220 2223	上水石
+*	Coreference T300 T299 T304
+T301	Location-Nominal 2210 2212	景区
+R69	Located Arg1:T299 Arg2:T301	
+T302	Thing-Nominal 2225 2228	沏沏水
+T303	Location-Nominal 2236 2238	全国
+T304	Thing-Nominal 2243 2245	此石
+T305	Thing-Nominal 2248 2249	水
+T306	Thing-Nominal 2250 2251	山
+T307	Thing-Nominal 2255 2256	山
+T308	Thing-Nominal 2260 2261	水
+T309	Location-Name 2269 2272	九寨沟
+T310	Thing-Nominal 2269 2275	九寨沟的泉石
+R70	Located Arg1:T310 Arg2:T309	
+T311	Thing-Nominal 2281 2285	叠床架屋
+T312	Thing-Nominal 2287 2288	树
+T313	Thing-Nominal 2289 2290	笋
+T314	Thing-Nominal 2291 2295	一层绿苔
+T315	Thing-Nominal 2297 2300	衣霓裳
+T316	Person-Nominal 2314 2316	人们
+T317	Time-Implicit 2318 2320	秋天
+T318	Thing-Nominal 2325 2330	蓝色的镜子
+T319	Thing-Nominal 2334 2342	火红与鲜黄的浓装
+T320	Thing-Nominal 2343 2347	水生灌木
+T321	Thing-Nominal 2350 2351	林
+T322	Thing-Nominal 2353 2354	堤
+T323	Thing-Nominal 2364 2368	蓝色小池
+T324	Thing-Nominal 2358 2360	水面
+T325	Thing-Nominal 2377 2379	海子
+T326	Thing-Nominal 2380 2383	海之子
+*	Coreference T326 T325
+T327	Thing-Nominal 2386 2391	硕人的翡翠
+T328	Thing-Nominal 2392 2394	水滩
+T329	Location-Nominal 2397 2399	其间
+T330	Thing-Nominal 2402 2410	无数小小的“岛”
+R71	Located Arg1:T330 Arg2:T329	
+T331	Location-Nominal 2411 2413	岛上
+T332	Thing-Nominal 2413 2419	野树与松、柳
+R72	Located Arg1:T332 Arg2:T331	
+R73	Located Arg1:T332 Arg2:T330	
+T333	Location-Nominal 2428 2434	有限的土石间
+R74	Located Arg1:T332 Arg2:T333	
+T334	Thing-Nominal 2451 2458	丰富多样的盆栽
+T335	Location-Name 2461 2464	盆景滩
+T336	Location-Name 2467 2470	盆景海
+*	Coreference T336 T335
+T337	Thing-Nominal 2471 2472	水
+T338	Location-Nominal 2475 2478	浅滩处
+T339	Thing-Nominal 2478 2480	芦苇
+R75	Located Arg1:T339 Arg2:T338	
+T340	Location-Name 2488 2491	芦苇海
+*	Coreference T340 T338
+T341	Thing-Nominal 2494 2496	野鸭
+T342	Thing-Nominal 2502 2504	野鸭
+T343	Thing-Nominal 2509 2511	乌鸦
+T344	Location-Nominal 2516 2520	沟上沟下
+R76	Located Arg1:T343 Arg2:T344	
+T345	Person-Nominal 2525 2533	来寻野趣的城里人
+T346	Person-Nominal 2535 2538	城里人
+*	Coreference T346 T345
+T347	Thing-Nominal 2539 2541	汽车
+R77	Use Arg1:T346 Arg2:T347	
+T348	Location-Nominal 2548 2558	宾馆、旅社、帐篷宿店
+T349	Location-Nominal 2565 2568	饭堂里
+T350	Person-Nominal 2568 2570	食客
+T351	Location-Nominal 2573 2576	山路上
+T352	Person-Nominal 2576 2578	行人
+T353	Location-Nominal 2583 2585	闹市
+T354	Thing-Nominal 2588 2592	九个寨子
+T355	Thing-Nominal 2594 2595;2596 2600	藏 羌家寨子
+T356	Time-Implicit 2601 2603	夜晚
+T357	Person-Nominal 2628 2636	美丽的藏羌族姑娘
+T358	Person-Pronoun 2637 2639	我们
+T359	Thing-Nominal 2641 2647	哈达和青稞酒
+T360	Time-Implicit 2648 2650	同时
+T361	Person-Pronoun 2651 2653	她们
+T362	Person-Pronoun 2655 2656;2657 2658	我 们
+T363	Thing-Nominal 2674 2681	这里的“风景”
+T364	Person-Nominal 2688 2690	人类
+T365	Location-Nominal 2702 2705	自然界
+T366	Person-Nominal 2723 2724	人
+T367	Thing-Nominal 2727 2731	第二自然
+R78	Create Arg1:T366 Arg2:T367	
+T368	Time-Implicit 2733 2737	次日清晨
+T369	Thing-Nominal 2738 2740	窗纸
+T370	Thing-Nominal 2745 2747	万籁
+T371	Thing-Nominal 2750 2756	嘹亮的喇叭声
+T372	Thing-Nominal 2753 2755	喇叭
+T373	Location-Name 2763 2766	九寨沟
+T374	Thing-Nominal 2772 2777	险峻的山路
+T375	Location-Nominal 2772 2778	险峻的山路上
+R79	Located Arg1:T374 Arg2:T373	
+T376	Thing-Nominal 2792 2793;2794 2801	眼 下经过的这条路
+*	Coreference T376 T374
+T377	Thing-Nominal 2804 2813	当年红军走过的路线
+R80	General-Special Arg1:T377 Arg2:T376	
+T378	Organization-Name 2806 2808	红军
+T379	Organization-Name 2816 2818	红军
+T380	Abstract 2822 2826	中国革命
+T381	Abstract 2832 2844	“两河口”中央政治局会议
+T382	Location-Name 2845 2847	汶川
+T383	Location-Nominal 2853 2854;2855 2873	满 饥寒神秘死亡地带、人迹罕至的松潘草地
+T384	Organization-Nominal 2874 2880	红军两大主力
+R81	Part-Whole Arg1:T384 Arg2:T379	
+T385	Location-Nominal 2882 2893	最后一道千年积雪的雪山
+T386	Location-Name 2895 2897	岷山
+*	Coreference T385 T386
+T387	Location-Nominal 2895 2899	岷山脚下
+T388	Location-Nominal 2910 2912	世上
+T389	Thing-Nominal 2913 2915;2916 2928	比穿 越雪山、草地更艰难的路障
+R82	Located Arg1:T389 Arg2:T388	
+T390	Person-Nominal 2930 2937	多少高尚的灵魂
+T391	Location-Nominal 2940 2944	雪山草地
+T392	Person-Nominal 2947 2952	英勇的红军
+T393	Time-Implicit 2964 2966	如今
+T394	Thing-Nominal 2967 2976;2977 2995	一座光芒万丈的中国 工农红军一、四方面军胜利会师纪念丰碑
+T395	Location-Nominal 3000 3003	山岗上
+R83	Located Arg1:T394 Arg2:T395	
+T396	Location-Nominal 3018 3026	爱国主义教育基地
+T397	Location-Pronoun 3014 3016	这里
+R84	General-Special Arg1:T396 Arg2:T397	
+*	Coreference T397 T395
+T398	Person-Pronoun 3029 3031	我们
+T399	Person-Pronoun 3043 3044	我
+T400	Location-Nominal 3049 3055	丰碑上背景前
+T401	Thing-Nominal 3055 3062	一个淡黑的侧影
+R85	Located Arg1:T401 Arg2:T400	
+T402	Person-Nominal 3063 3067	一个号兵
+T403	Thing-Nominal 3070 3072	喇叭
+R86	Use Arg1:T402 Arg2:T403	
+T404	Metric 3063 3065	一个
+T405	Person-Nominal 3094 3097	小号兵
+T406	Thing-Nominal 3099 3110	挺直的胸膛和高高的眉棱
+R87	Part-Whole Arg1:T406 Arg2:T405	
+T407	Person-Pronoun 3113 3114	我
+T408	Person-Nominal 3116 3120	这雕塑家
+T409	Person-Pronoun 3124 3125	我
+T410	Person-Pronoun 3129 3130	我
+T411	Thing-Nominal 3131 3137	当前的喇叭声
+T412	Person-Pronoun 3161 3162	我
+T413	Thing-Nominal 3177 3179	朝霞
+T414	Thing-Nominal 3182 3186	左面的山
+T415	Person-Pronoun 3187 3188	我
+T416	Person-Nominal 3190 3197	山峰上的小号兵
+T417	Thing-Nominal 3199 3201	霞光
+T418	Person-Pronoun 3203 3204	他
+*	Coreference T418 T416 T421 T427
+T419	Thing-Nominal 3208 3212	他的额角
+R88	Part-Whole Arg1:T419 Arg2:T418	
+T420	Person-Pronoun 3222 3223	我
+T421	Person-Nominal 3231 3238	一位荷枪的战士
+T422	Metric 3231 3233	一位
+T423	Location-Nominal 3242 3244	东方
+T424	Thing-Nominal 3248 3250	钢铁
+T425	Thing-Nominal 3260 3266	喇叭的红绸子
+T426	Thing-Nominal 3256 3258	晨风
+T427	Person-Nominal 3273 3275	战士
+T428	Thing-Nominal 3275 3280	枪尖的刺刀
+T429	Thing-Nominal 3234 3235	枪
+R89	Located Arg1:T428 Arg2:T429	
+T430	Thing-Nominal 3287 3292	粉红的霞色
+T431	Person-Pronoun 3301 3302	我
+T432	Person-Pronoun 3307 3308	我
+T433	Person-Nominal 3313 3315	民族
+T434	Person-Pronoun 3322 3326	他们两个
+T435	Person-Pronoun 3329 3330	你
+T436	Thing-Pronoun 3332 3333	它
+T437	Thing-Nominal 3349 3357	伟大中之最伟大者
+T438	Thing-Nominal 3343 3347	真的风景
+*	Coreference T437 T438
+T439	Time-Explicit 3359 3361	今年
+T440	Time-Explicit 3364 3376	毛泽东主席诞辰120周年
+*	Coreference T440 T439
+T441	Abstract 3377 3381	中国革命
+T442	Person-Pronoun 3396 3397	我
+T443	Person-Name 3364 3369	毛泽东主席
+T444	Person-Nominal 3399 3403	他老人家
+*	Coreference T444 T443
+T445	Thing-Nominal 3408 3412	雄关漫道
+T446	Thing-Nominal 3414 3415	铁

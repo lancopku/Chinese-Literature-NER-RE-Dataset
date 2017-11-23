@@ -1,0 +1,126 @@
+T1	Location-Nominal 3 5	钢厂
+T2	Location-Nominal 6 8	院子
+R1	Part-Whole Arg1:T2 Arg2:T1	
+T3	Person-Pronoun 10 11	我
+T4	Person-Name 16 19	王洛宾
+T5	Thing-Nominal 16 22	王洛宾的雕像
+T6	Person-Pronoun 23 24	他
+*	Coreference T6 T4
+T7	Thing-Nominal 42 44	马车
+T8	Person-Nominal 37 39	姑娘
+T9	Person-Pronoun 46 47	我
+T10	Location-Nominal 78 81	砾石地
+T11	Location-Nominal 88 93	钢厂门市前
+T12	Location-Nominal 103 108	矿山的脚下
+T13	Thing-Nominal 112 114	石头
+T14	Location-Name 116 119	老风口
+T15	Person-Nominal 132 135	艺术家
+T16	Thing-Nominal 212 214	雕像
+*	Coreference T16 T5
+T17	Person-Nominal 221 230	一个维吾尔族小伙子
+T18	Thing-Nominal 217 218	泥
+R2	Part-Whole Arg1:T18 Arg2:T16	
+T19	Thing-Nominal 234 236	马车
+T20	Thing-Nominal 239 242	弹拨尔
+T21	Person-Nominal 258 260	新娘
+T22	Person-Nominal 268 270	新郎
+*	Coreference T22 T17
+R3	Family Arg1:T21 Arg2:T22	
+T23	Person-Nominal 294 296	新娘
+T24	Person-Pronoun 300 301	她
+*	Coreference T24 T23
+T25	Person-Nominal 305 307	妹妹
+T26	Person-Pronoun 313 314	她
+R4	Family Arg1:T26 Arg2:T25	
+T27	Thing-Nominal 321 324	弹拨儿
+T28	Thing-Nominal 332 333	车
+T29	Thing-Nominal 336 337	马
+T30	Thing-Nominal 341 342	车
+T31	Thing-Nominal 378 384	王洛宾的塑像
+T32	Thing-Nominal 404 406	雕像
+*	Coreference T32 T31
+T33	Thing-Nominal 418 423	大理石面砖
+T34	Person-Pronoun 446 447	我
+T35	Location-Nominal 453 456	石面上
+T36	Person-Nominal 469 471	人们
+T37	Person-Nominal 473 478	这位艺术家
+T38	Time-Implicit 489 492	千百年
+T39	Location-Nominal 497 499	小镇
+T40	Time-Explicit 514 519	2000年
+T41	Thing-Nominal 524 526	雕像
+T42	Person-Nominal 539 550	这位痴迷大西北的艺术家
+T43	Person-Name 378 381	王洛宾
+*	Coreference T37 T43
+T44	Location-Name 559 568	达坂城白水古镇遗址
+T45	Person-Pronoun 572 573	他
+T46	Thing-Nominal 577 579	雕像
+T47	Person-Nominal 580 582	老人
+*	Coreference T47 T45
+T48	Thing-Nominal 584 586	吉他
+T49	Person-Pronoun 625 626	他
+T50	Person-Pronoun 641 642	他
+T51	Time-Explicit 644 647	19年
+T52	Location-Nominal 648 650	大牢
+T53	Person-Pronoun 658 659	他
+T54	Thing-Nominal 669 671	鸟儿
+T55	Time-Explicit 738 743	1994年
+T56	Organization-Name 743 751	联合国科教文组织
+T57	Person-Nominal 753 755	老人
+T58	Person-Nominal 785 787	姑娘
+T59	Person-Name 814 816	荷西
+T60	Person-Name 817 824	台湾女作家三毛
+R5	Family Arg1:T59 Arg2:T60	
+T61	Person-Pronoun 825 826	她
+*	Coreference T60 T61
+T62	Location-Name 832 836	乌鲁木齐
+T63	Person-Name 838 841	王洛宾
+T64	Person-Nominal 848 850	老人
+T65	Person-Name 854 856	三毛
+T66	Location-Name 858 859	台
+T67	Location-Name 817 819	台湾
+*	Coreference T66 T67
+T68	Person-Name 874 877	王洛宾
+*	Coreference T64 T68
+T69	Person-Nominal 888 890	死者
+*	Coreference T69 T65
+T70	Person-Pronoun 896 897	你
+T71	Thing-Nominal 899 902	橄榄树
+T72	Person-Pronoun 909 910	我
+T73	Person-Pronoun 937 938	我
+T74	Person-Pronoun 949 950	我
+T75	Thing-Nominal 957 958	月
+T76	Thing-Nominal 964 967	橄榄树
+T77	Location-Name 1029 1032;1033 1034	天山南 麓
+T78	Thing-Nominal 1046 1048	溪流
+T79	Thing-Nominal 1035 1037	雪水
+R6	Part-Whole Arg1:T79 Arg2:T78	
+T80	Thing-Nominal 1053 1055	卵石
+T81	Location-Nominal 1076 1079	山崖间
+T82	Location-Name 1086 1089	白水涧
+T83	Location-Nominal 1101 1102	镇
+T84	Location-Pronoun 1107 1108	它
+*	Coreference T84 T83
+T85	Person-Nominal 1111 1114	侵略者
+T86	Organization-Name 1124 1127	唐王朝
+T87	Location-Pronoun 1128 1129	此
+T88	Location-Name 1131 1133	高昌
+T89	Person-Name 1134 1137	左宗棠
+T90	Location-Pronoun 1138 1139	此
+T91	Person-Name 1142 1145	阿古柏
+T92	Location-Name 1166 1171	白杨河沟口
+T93	Thing-Nominal 1174 1176	巨石
+T94	Location-Nominal 1178 1180	古城
+T95	Thing-Nominal 1189 1191	石子
+T96	Thing-Nominal 1191 1193	泥土
+T97	Thing-Nominal 1196 1198	城墙
+R7	Part-Whole Arg1:T96 Arg2:T97	
+R8	Part-Whole Arg1:T95 Arg2:T97	
+R9	Located Arg1:T97 Arg2:T94	
+T98	Location-Nominal 1236 1240	古城遗址
+T99	Person-Pronoun 1241 1242	我
+T100	Person-Pronoun 1286 1288	我们
+T101	Thing-Nominal 1310 1312	面纱
+T102	Thing-Pronoun 1331 1332	它
+*	Coreference T102 T101
+T103	Person-Pronoun 1339 1341	我们
+T104	Thing-Nominal 1356 1358	雪山

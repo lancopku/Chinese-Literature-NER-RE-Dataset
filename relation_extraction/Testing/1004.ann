@@ -1,0 +1,52 @@
+T1	Location-Name 2 4	莫里
+T2	Location-Name 31 33	云南
+T3	Location-Name 52 60	莫里原始森林景区
+T4	Metric 5 11	1400多种
+T5	Location-Name 93 98	浙江雪窦山
+T6	Thing-Nominal 99 105	几粒小小的花
+T7	Person-Nominal 122 126	北方同学
+T8	Person-Pronoun 146 147	我
+T9	Person-Nominal 148 154	其他云南同学
+T10	Person-Nominal 186 188	自己
+T11	Location-Nominal 216 218	家乡
+T12	Location-Name 233 235	瑞丽
+T13	Location-Name 238 240	瑞丽
+T14	Location-Name 243 245	瑞丽
+T15	Person-Nominal 252 257	父亲和母亲
+T16	Person-Pronoun 265 266	我
+T17	Person-Nominal 268 275	不肯归家的游子
+*	Coreference T16 T17
+T18	Person-Pronoun 281 282	我
+T19	Person-Nominal 295 297	有人
+T20	Person-Pronoun 298 299	我
+T21	Location-Name 303 305	瑞丽
+T22	Person-Pronoun 321 322	我
+T23	Location-Nominal 336 340	我的家乡
+*	Coreference T23 T21
+T24	Person-Pronoun 341 342	我
+T25	Person-Nominal 348 351	每个人
+T26	Person-Pronoun 362 363	我
+T27	Person-Nominal 371 373	对方
+*	Coreference T27 T19
+T28	Location-Name 375 377	瑞丽
+T29	Thing-Name 384 386	瑞丽
+T30	Person-Nominal 393 397	瑞丽的人
+T31	Location-Name 393 395	瑞丽
+T32	Location-Nominal 420 422	家乡
+*	Coreference T32 T31
+T33	Person-Pronoun 427 428	我
+R1	Social Arg1:T8 Arg2:T9	
+R2	Social Arg1:T7 Arg2:T8	
+R3	Part-Whole Arg1:T1 Arg2:T2	
+R4	Part-Whole Arg1:T3 Arg2:T2	
+R5	Part-Whole Arg1:T3 Arg2:T1	
+*	Coreference T8 T10
+*	Coreference T12 T11
+R6	Family Arg1:T15 Arg2:T16	
+R7	Social Arg1:T20 Arg2:T19	
+T34	Person-Nominal 314 315	人
+*	Coreference T34 T30
+T35	Thing-Nominal 138 139	花
+T36	Thing-Nominal 143 144	叶
+T37	Thing-Nominal 233 237	瑞丽的山
+T38	Thing-Nominal 238 242	瑞丽的水

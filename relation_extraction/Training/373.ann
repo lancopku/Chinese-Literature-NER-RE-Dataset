@@ -1,0 +1,260 @@
+T1	Time-Implicit 0 2	时下
+T2	Thing-Nominal 3 5	餐桌
+T3	Thing-Nominal 7 9	菜肴
+R1	Located Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 17 26	大鱼大肉及鸡鸭之类
+T5	Person-Nominal 31 33	人们
+T6	Thing-Pronoun 34 35	它
+*	Coreference T6 T4
+T7	Thing-Nominal 42 48	植物性的东西
+T8	Thing-Nominal 49 56	传统的家常小炒
+T9	Thing-Nominal 70 72	餐桌
+T10	Time-Implicit 81 85	那天晚餐
+T11	Person-Nominal 86 88	老伴
+T12	Person-Pronoun 95 96	我
+R2	Family Arg1:T11 Arg2:T12	
+T13	Thing-Nominal 90 91	桌
+T14	Thing-Nominal 96 109	以往在老家所喜欢的几样小菜
+T15	Thing-Nominal 113 122	一道非常显眼的美食
+R3	Located Arg1:T13 Arg2:T14	
+R4	Located Arg1:T15 Arg2:T13	
+T16	Thing-Nominal 123 128	白盘盛方片
+T17	Thing-Nominal 143 150	一层鲜嫩的葱花
+R5	Located Arg1:T17 Arg2:T16	
+T18	Person-Pronoun 159 160	我
+T19	Thing-Nominal 165 168	这食物
+*	Coreference T19 T16 T31
+T20	Thing-Nominal 172 174	芒粑
+T21	Person-Nominal 168 171	乡下人
+T22	Person-Nominal 175 178	城里人
+T23	Thing-Nominal 179 181	蕨粑
+*	Coreference T23 T20
+T24	Person-Nominal 184 186	家人
+T25	Person-Pronoun 189 190	我
+R6	Family Arg1:T24 Arg2:T25	
+R7	Family Arg1:T11 Arg2:T24	
+T26	Metric 194 196	一块
+T27	Person-Pronoun 234 235	我
+T28	Person-Nominal 237 239	孩儿
+T29	Person-Nominal 252 255	儿媳们
+R8	Family Arg1:T29 Arg2:T27	
+T30	Person-Nominal 260 263	孙辈们
+R9	Family Arg1:T30 Arg2:T29	
+R10	Family Arg1:T30 Arg2:T27	
+R11	Family Arg1:T30 Arg2:T11	
+R12	Family Arg1:T29 Arg2:T11	
+T31	Thing-Pronoun 267 268	其
+T32	Thing-Pronoun 269 271	何物
+T33	Person-Pronoun 277 278	我
+T34	Person-Pronoun 292 293	我
+T35	Person-Pronoun 307 309	他们
+T36	Thing-Nominal 313 315	芒粑
+T37	Thing-Nominal 319 324;325 329	一种土里土 气的食品
+R13	General-Special Arg1:T37 Arg2:T36	
+T38	Person-Pronoun 334 335	我
+T39	Time-Implicit 335 340	五十多年前
+T40	Metric 335 339	五十多年
+T41	Thing-Nominal 342 344	芒粑
+T42	Person-Pronoun 357 359	他们
+T43	Person-Pronoun 366 367	我
+T44	Time-Explicit 378 393	20世纪五十年代末、六十年代初
+T45	Thing-Nominal 394 398	天灾人祸
+T46	Thing-Nominal 399 401	粮食
+T47	Thing-Nominal 409 411	货币
+T48	Time-Explicit 416 425	共和国三年困难时期
+T49	Person-Nominal 426 432	一般国家干部
+T50	Thing-Nominal 426 435	一般国家干部的月薪
+R14	Ownership Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 439 442	一只鸡
+T52	Thing-Nominal 443 446	一只鸭
+T53	Person-Nominal 447 449	人们
+T54	Person-Nominal 452 462	“鸡干部”、“鸭干部
+*	Coreference T54 T49
+T55	Thing-Nominal 470 472	芒粑
+T56	Person-Nominal 474 476	人们
+T57	Thing-Nominal 474 481	人们充饥的宝贝
+*	Coreference T57 T55 T70
+T58	Metric 482 484	一斤
+T59	Thing-Nominal 488 490	拳头
+T60	Metric 497 499;500 505	五、 六元人民币
+T61	Person-Pronoun 506 507	我
+T62	Time-Implicit 506 512	我的高中生涯
+T63	Person-Nominal 534 540	我家的劳动力
+T64	Organization-Nominal 534 536	我家
+T65	Person-Nominal 553 555	父亲
+R15	Family Arg1:T65 Arg2:T61	
+T66	Person-Nominal 573 577	父母二人
+R16	Family Arg1:T66 Arg2:T61	
+T67	Organization-Nominal 565 568	生产队
+T68	Metric 594 598	两三角钱
+T69	Person-Nominal 602 604	母亲
+T70	Thing-Nominal 612 613	芒
+T71	Thing-Nominal 617 618	芒
+T72	Thing-Nominal 620 621	芒
+T73	Thing-Nominal 623 624	芒
+T74	Thing-Nominal 627 629	芒粑
+T75	Thing-Nominal 637 641	家中口粮
+T76	Person-Pronoun 648 649	我
+T77	Organization-Nominal 651 653	高中
+T78	Organization-Nominal 654 656	大学
+T79	Time-Explicit 659 664	1960年
+T80	Location-Nominal 664 666	农村
+T81	Organization-Nominal 676 681	集体食堂，
+T82	Location-Nominal 681 683	集市
+T83	Metric 685 687	7天
+T84	Metric 692 694	5天
+T85	Metric 687 689	一场
+T86	Time-Implicit 697 699	每场
+T87	Person-Nominal 700 704	我的母亲
+*	Coreference T87 T69
+T88	Person-Pronoun 700 701	我
+R17	Family Arg1:T69 Arg2:T61	
+T89	Thing-Nominal 706 712	其单薄的身体
+R18	Ownership Arg1:T87 Arg2:T89	
+T90	Thing-Nominal 714 718;719 724	60来斤 煎好的芒粑
+T91	Metric 714 718	60来斤
+T92	Thing-Nominal 726 727	山
+T93	Thing-Nominal 728 729	岭
+T94	Metric 732 736	50华里
+T95	Location-Name 737 745	我读书的锦屏县城
+T96	Time-Implicit 748 750	每次
+T97	Person-Nominal 750 752	母亲
+T98	Thing-Nominal 756 765	一坨10来斤的芒粑
+T99	Person-Pronoun 766 767	我
+T100	Metric 758 762	10来斤
+T101	Metric 756 758	一坨
+T102	Thing-Nominal 773 779;780 782	5―10元零 用钱
+T103	Time-Implicit 783 787	每到这天
+T104	Time-Implicit 793 795	下午
+T105	Location-Nominal 805 807	市上
+T106	Person-Nominal 809 811	母亲
+T107	Thing-Nominal 815 820	要卖的芒粑
+T108	Person-Nominal 824 826	母亲
+T109	Location-Name 827 832	清水江渡口
+T110	Location-Nominal 835 837	对岸
+R19	Near Arg1:T110 Arg2:T109	
+T111	Thing-Nominal 839 840;841 845	孱 弱的身影
+T112	Location-Nominal 848 856	弯弯的山间公路上
+T113	Person-Nominal 860 862	母亲
+T114	Thing-Nominal 860 879	母亲用血汗换来的专留给我的芒粑和零用钱
+T115	Thing-Nominal 882 887	辛酸的泪水
+T116	Person-Pronoun 871 872	我
+R20	Create Arg1:T116 Arg2:T115	
+T117	Location-Nominal 902 904	学校
+T118	Location-Nominal 907 909	学校
+T119	Person-Pronoun 910 911	我
+T120	Time-Implicit 913 915	每月
+T121	Location-Nominal 918 919	家
+T122	Thing-Nominal 923 924	车
+T123	Thing-Nominal 925 926	车
+T124	Thing-Nominal 928 929	车
+T125	Time-Implicit 932 937	星期六中午
+T126	Location-Nominal 938 939	校
+T127	Time-Implicit 942 945	星期一
+T128	Location-Nominal 946 947	校
+*	Coreference T126 T118
+T129	Time-Implicit 948 950	下午
+T130	Location-Nominal 955 956	家
+T131	Metric 956 962	一天或一天半
+T132	Person-Nominal 968 970	父母
+T133	Person-Pronoun 972 974	他们
+*	Coreference T133 T132
+T134	Person-Nominal 988 990	母亲
+T135	Location-Nominal 996 997	家
+T136	Thing-Nominal 993 994	芒
+T137	Thing-Nominal 998 999	芒
+T138	Thing-Nominal 1001 1002	芒
+T139	Thing-Nominal 1004 1005	芒
+T140	Thing-Nominal 1006 1007	事
+T141	Person-Nominal 1015 1017	母亲
+T142	Person-Nominal 1030 1034	作儿子的
+*	Coreference T142 T119
+T143	Time-Implicit 1047 1056	1961年夏秋之交
+T144	Time-Implicit 1057 1068	一个要回校的星期天早上
+T145	Person-Pronoun 1069 1070	我
+T146	Person-Nominal 1071 1073	母亲
+T147	Location-Name 1074 1086	一个叫“老王头”的荒坡上
+T148	Thing-Nominal 1087 1088	芒
+T149	Thing-Nominal 1093 1095	芒根
+R21	Part-Whole Arg1:T149 Arg2:T148	
+T150	Thing-Nominal 1104 1106	肥者
+T151	Thing-Nominal 1112 1114	干者
+T152	Person-Nominal 1123 1126	母子俩
+T153	Person-Nominal 1069 1073	我和母亲
+*	Coreference T152 T153
+T154	Thing-Name 1140 1142	太阳
+T155	Time-Implicit 1151 1155	中午一点
+T156	Person-Nominal 1156 1158	母亲
+T157	Person-Pronoun 1165 1166	我
+T158	Thing-Nominal 1169 1176	包来的芒粑午餐
+T159	Location-Nominal 1178 1180	学校
+T160	Location-Pronoun 1182 1184	此地
+*	Coreference T160 T147 T168
+T161	Location-Nominal 1190 1191	家
+T162	Thing-Nominal 1198 1202	两道山梁
+T163	Thing-Nominal 1204 1208	一个小坡
+T164	Thing-Nominal 1210 1214	一条田冲
+T165	Thing-Nominal 1217 1228	一段叫“牛尾巴”的山路
+T166	Location-Nominal 1233 1239	去县城的公路
+T167	Location-Nominal 1240 1242	公路
+*	Coreference T167 T166
+T168	Location-Nominal 1245 1250	挖芒的地方
+T169	Person-Pronoun 1256 1257	我
+T170	Location-Nominal 1263 1277	远处对面山上新开挖的黄土坡上
+T171	Thing-Nominal 1281 1290	一根如中指般的黑物
+T172	Thing-Nominal 1301 1306	母亲的身影
+T173	Person-Nominal 1301 1303	母亲
+T174	Person-Pronoun 1308 1309	她
+T175	Person-Nominal 1315 1322	自己远去的儿子
+T176	Person-Pronoun 1326 1327	我
+*	Coreference T175 T176
+*	Coreference T174 T173
+T177	Person-Pronoun 1336 1337	她
+T178	Thing-Nominal 1337 1351;1352 1363	疲惫的神情，憔悴的面容，弯曲 的背脊和那双希冀的眼睛
+R22	Ownership Arg1:T177 Arg2:T178	
+T179	Thing-Nominal 1364 1368	两行热泪
+T180	Person-Pronoun 1376 1377	我
+R23	Create Arg1:T180 Arg2:T179	
+T181	Person-Pronoun 1381 1382	我
+T182	Person-Nominal 1384 1386	母亲
+T183	Person-Pronoun 1410 1411	我
+T184	Person-Pronoun 1417 1418	我
+T185	Location-Nominal 1428 1430	学校
+T186	Time-Explicit 1442 1447	1962年
+T187	Thing-Nominal 1447 1449	新谷
+T188	Location-Nominal 1452 1454	农村
+T189	Time-Implicit 1462 1466	8月中旬
+T190	Person-Pronoun 1467 1468	我
+T191	Location-Nominal 1469 1471	县城
+T192	Organization-Name 1472 1481	贵阳师范学院中文系
+T193	Thing-Nominal 1482 1487	录取通知书
+T194	Person-Nominal 1499 1501	父亲
+T195	Organization-Nominal 1508 1511	全大队
+T196	Organization-Nominal 1514 1518	我们单家
+T197	Person-Nominal 1520 1526	第一个大学生
+T198	Person-Nominal 1528 1530	奶奶
+T199	Person-Nominal 1549 1551	祖宗
+T200	Person-Nominal 1544 1546	老天
+T202	Person-Nominal 1568 1569	我
+R24	Family Arg1:T198 Arg2:T202	
+T201	Person-Nominal 1556 1558	母亲
+R25	Family Arg1:T198 Arg2:T201	
+R26	Family Arg1:T194 Arg2:T198	
+T203	Person-Nominal 1574 1575	崽
+*	Coreference T203 T202
+T204	Person-Pronoun 1576 1577	我
+*	Coreference T204 T201
+T205	Person-Pronoun 1592 1593	我
+T206	Thing-Nominal 1619 1621	芒粑
+T207	Person-Pronoun 1626 1627	我
+T208	Location-Name 1628 1630	贵阳
+T209	Location-Nominal 1631 1633	大学
+T210	Thing-Nominal 1626 1635	我去贵阳上大学的钱
+T211	Person-Nominal 1637 1639	母亲
+T212	Thing-Nominal 1640 1642	芒粑
+T213	Person-Nominal 1652 1654	母亲
+T214	Person-Nominal 1655 1657	奶奶
+T215	Person-Nominal 1658 1660	父亲
+T216	Time-Implicit 1669 1674	五十多年前
+T217	Thing-Nominal 1676 1678	芒粑
+T218	Person-Pronoun 1689 1690	我

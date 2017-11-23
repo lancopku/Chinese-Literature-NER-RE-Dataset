@@ -1,0 +1,403 @@
+T1	Thing-Nominal 11 14	霓虹灯
+T2	Thing-Nominal 18 22	商业街道
+T3	Person-Pronoun 33 34	我
+T4	Location-Nominal 39 43	山的顶端
+T5	Person-Pronoun 43 44	我
+T6	Thing-Nominal 75 77	烟花
+T7	Thing-Nominal 78 82	水泥公路
+T8	Thing-Nominal 86 88	公路
+*	Coreference T8 T7
+T9	Thing-Nominal 92 94	巨龙
+T10	Location-Nominal 97 99	国土
+R1	Located Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 110 113	聚宝盆
+T12	Person-Pronoun 114 115	我
+T13	Location-Nominal 140 142	城市
+T14	Location-Pronoun 143 144	它
+*	Coreference T14 T13
+T15	Location-Pronoun 152 153	它
+T16	Organization-Nominal 158 160	企业
+T17	Location-Nominal 163 166	小城市
+T18	Organization-Nominal 174 176	公司
+T19	Organization-Nominal 177 180	分公司
+T20	Location-Nominal 184 186	小城
+T21	Organization-Nominal 189 193	化工企业
+*	Coreference T21 T19
+T22	Organization-Nominal 194 198	玩具公司
+T23	Location-Nominal 200 202	小城
+T24	Location-Nominal 215 217	小城
+T25	Thing-Nominal 393 395	河鱼
+T26	Location-Nominal 405 408	照相馆
+T27	Organization-Nominal 232 234	企业
+T28	Location-Nominal 249 251	城市
+T29	Thing-Nominal 251 253	高楼
+R2	Located Arg1:T29 Arg2:T28	
+T30	Location-Nominal 265 267	城市
+T31	Organization-Nominal 268 271	博物馆
+R3	Part-Whole Arg1:T31 Arg2:T30	
+T32	Location-Nominal 273 275	城市
+T33	Location-Nominal 293 295	城市
+T34	Organization-Nominal 282 284	外国
+T35	Thing-Nominal 311 313	石头
+T36	Thing-Nominal 316 318	石碑
+T37	Thing-Nominal 323 325	马蹄
+T38	Location-Nominal 237 239	城市
+T39	Location-Nominal 326 328	乡下
+T40	Thing-Nominal 331 333	红葱
+R4	Located Arg1:T40 Arg2:T39	
+T41	Location-Nominal 334 336	农村
+T42	Location-Nominal 341 343	田野
+T43	Thing-Nominal 346 348	蔬菜
+R5	Located Arg1:T43 Arg2:T42	
+T44	Thing-Nominal 353 356	红瓜子
+T45	Thing-Nominal 357 360	土猪肉
+T46	Thing-Nominal 361 362;363 367	乡 下的野味
+T47	Thing-Nominal 372 374	西瓜
+T48	Time-Implicit 377 379	夏天
+T49	Person-Nominal 387 389	渔民
+T50	Thing-Nominal 397 399	河鲜
+T51	Person-Nominal 411 413	大家
+T52	Location-Nominal 419 422	游乐场
+T53	Person-Pronoun 425 427	我们
+T54	Location-Pronoun 431 433	那里
+*	Coreference T54 T52
+T55	Person-Pronoun 434 435	我
+T56	Time-Implicit 436 438	童年
+T57	Location-Nominal 445 447	米店
+T58	Thing-Nominal 448 450	粮油
+T59	Location-Nominal 451 454	蛋糕店
+T60	Location-Nominal 455 458	咖啡厅
+T61	Location-Nominal 459 462	奶茶馆
+T62	Location-Nominal 463 466	快餐店
+T63	Location-Nominal 467 470	糖果店
+T64	Location-Nominal 471 474	美食街
+T65	Person-Nominal 479 481	人们
+T66	Person-Nominal 487 489	朋友
+T67	Person-Nominal 490 492	情人
+T68	Location-Nominal 500 502	店里
+R6	General-Special Arg1:T63 Arg2:T68	
+R7	General-Special Arg1:T62 Arg2:T68	
+R8	General-Special Arg1:T61 Arg2:T68	
+R9	General-Special Arg1:T60 Arg2:T68	
+R10	General-Special Arg1:T59 Arg2:T68	
+R11	General-Special Arg1:T57 Arg2:T68	
+T69	Location-Nominal 511 513	街边
+T70	Location-Nominal 525 528	小吃店
+T71	Location-Nominal 545 547	路边
+T72	Thing-Nominal 548 550	小吃
+R12	Located Arg1:T72 Arg2:T71	
+T73	Location-Nominal 554 556	街市
+T74	Person-Pronoun 558 559	我
+T75	Thing-Nominal 562 565	动物糖
+T76	Thing-Nominal 567 570	油炸酥
+R13	General-Special Arg1:T75 Arg2:T72	
+R14	General-Special Arg1:T76 Arg2:T72	
+T77	Thing-Nominal 571 573	糖果
+T78	Person-Pronoun 575 576	我
+T79	Thing-Nominal 580 582	熟食
+T80	Thing-Nominal 583 585	棉花
+R15	General-Special Arg1:T77 Arg2:T72	
+T81	Thing-Nominal 587 589	眼镜
+T82	Location-Nominal 594 596	城镇
+T83	Person-Nominal 597 599	人民
+T84	Thing-Nominal 606 607	眼
+T85	Thing-Nominal 600 601	脑
+R16	Part-Whole Arg1:T85 Arg2:T83	
+R17	Part-Whole Arg1:T84 Arg2:T83	
+T86	Thing-Nominal 634 636	眼镜
+T87	Thing-Nominal 642 644	镜片
+R18	Part-Whole Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 652 655	眼镜架
+R19	Part-Whole Arg1:T88 Arg2:T86	
+T89	Organization-Nominal 660 662	医院
+T90	Organization-Nominal 664 666	眼科
+R20	Part-Whole Arg1:T90 Arg2:T89	
+T91	Thing-Nominal 693 695	墨镜
+*	Coreference T91 T86
+T92	Thing-Nominal 700 702	眼睛
+T93	Thing-Nominal 711 713	眼睛
+T94	Thing-Nominal 714 716	大脑
+T95	Person-Pronoun 722 723	我
+T96	Thing-Nominal 725 727	眼镜
+R21	Ownership Arg1:T95 Arg2:T96	
+T97	Person-Nominal 734 736	人们
+T98	Location-Nominal 734 739	人们的家居
+T99	Organization-Nominal 748 750	国家
+T100	Person-Nominal 758 760	人们
+T101	Thing-Nominal 779 781	窗帘
+T102	Location-Nominal 793 795	居室
+T103	Thing-Nominal 803 804	门
+T104	Thing-Nominal 814 816	灯饰
+T105	Thing-Nominal 825 827	鲜花
+T106	Location-Nominal 833 835	室内
+R22	Located Arg1:T105 Arg2:T106	
+T107	Thing-Nominal 848 850	家具
+T108	Location-Nominal 858 863	人民的新居
+T109	Thing-Nominal 869 871	餐具
+T110	Location-Nominal 882 885	按摩店
+T111	Person-Nominal 886 888	人民
+T112	Thing-Nominal 900 903	护肤品
+T113	Thing-Nominal 904 907	装饰品
+T114	Person-Nominal 933 934;935 936	顾 客
+T115	Person-Nominal 937 939	上帝
+*	Coreference T114 T115
+T116	Person-Nominal 947 949	人们
+T117	Person-Nominal 959 961	盲人
+T118	Location-Nominal 968 972	保龄球场
+T119	Location-Nominal 988 990	歌厅
+T120	Location-Nominal 997 1001	游戏机场
+T121	Location-Nominal 1009 1012	溜冰场
+T122	Location-Nominal 1013 1016	运动场
+T123	Thing-Nominal 1031 1032	头
+T124	Thing-Nominal 1033 1034	脚
+T125	Location-Nominal 1042 1045	理发店
+T126	Thing-Nominal 1047 1049	衣服
+T127	Thing-Nominal 1052 1053	鞋
+T128	Thing-Nominal 1055 1056	鞋
+T129	Thing-Nominal 1057 1059	电器
+T130	Thing-Nominal 1062 1064	汽车
+T131	Thing-Nominal 1064 1067	摩托车
+T132	Person-Nominal 1070 1073	钟点工
+T133	Thing-Nominal 1086 1089	饮用水
+T134	Person-Nominal 1095 1097	保姆
+T135	Person-Nominal 1098 1101	清洁工
+T136	Person-Nominal 1102 1104	家教
+T137	Thing-Nominal 1118 1120	衣服
+T138	Thing-Nominal 1123 1125	锁头
+T139	Thing-Nominal 1128 1130	金银
+T140	Thing-Nominal 1133 1135	衣服
+T141	Thing-Nominal 1143 1145	单车
+T142	Thing-Nominal 1149 1151	动物
+T143	Thing-Nominal 1153 1155	手机
+T144	Thing-Nominal 1156 1157	膜
+R23	Located Arg1:T144 Arg2:T143	
+T145	Location-Nominal 1160 1162	旅馆
+T146	Location-Nominal 1163 1166	大酒店
+T147	Location-Nominal 1170 1172	城市
+T148	Person-Nominal 1187 1192	外地的旅客
+T149	Location-Nominal 1200 1202	房间
+T150	Person-Nominal 1213 1215	过客
+T151	Person-Nominal 1218 1219	宾
+*	Coreference T151 T150
+T152	Person-Nominal 1227 1232	旅馆的老板
+T153	Location-Nominal 1227 1229	旅馆
+R24	Ownership Arg1:T152 Arg2:T153	
+T154	Thing-Nominal 1279 1281;1282 1284	旅馆 门牌
+T155	Location-Nominal 1307 1310	连锁店
+T156	Location-Nominal 1334 1336	柜台
+T157	Person-Pronoun 1337 1338	你
+T158	Organization-Nominal 1367 1369	总部
+T159	Organization-Nominal 1371 1373	分店
+R25	Part-Whole Arg1:T159 Arg2:T158	
+T160	Person-Nominal 1380 1382	客户
+T161	Location-Nominal 1402 1404	超市
+T162	Person-Nominal 1406 1408	人民
+T163	Organization-Nominal 1431 1435	跨国企业
+T164	Thing-Nominal 1459 1462	电磁炉
+T165	Thing-Nominal 1463 1466	微波炉
+T166	Thing-Nominal 1467 1470	消毒柜
+T167	Thing-Nominal 1471 1474	洗衣机
+T168	Thing-Nominal 1475 1477	空调
+T169	Thing-Nominal 1478 1480	冰箱
+T170	Thing-Nominal 1481 1484	洗衣机
+T171	Thing-Nominal 1485 1487	电话
+T172	Thing-Nominal 1488 1490	烤箱
+T173	Thing-Nominal 1491 1493	煤气
+T174	Thing-Nominal 1494 1496	彩电
+T175	Thing-Nominal 1497 1499	电脑
+T176	Thing-Nominal 1500 1503	计算机
+T177	Thing-Nominal 1504 1506	风扇
+T178	Thing-Nominal 1508 1511	电热器
+T179	Thing-Nominal 1512 1514	风筒
+T180	Thing-Nominal 1515 1518	胡须刨
+T181	Thing-Nominal 1519 1522	电剃刀
+T182	Thing-Nominal 1528 1530	电铃
+T183	Thing-Nominal 1536 1538	灯饰
+T184	Thing-Nominal 1541 1544	电子门
+T185	Thing-Nominal 1545 1549	电动麻将
+T186	Thing-Nominal 1550 1553	游戏机
+T187	Thing-Nominal 1554 1558	电动玩具
+T188	Thing-Nominal 1566 1568	耳机
+T189	Person-Nominal 1574 1576	人民
+T190	Thing-Nominal 1593 1595	家电
+R26	General-Special Arg1:T164 Arg2:T190	
+R27	General-Special Arg1:T165 Arg2:T190	
+R28	General-Special Arg1:T166 Arg2:T190	
+R29	General-Special Arg1:T167 Arg2:T190	
+R30	General-Special Arg1:T168 Arg2:T190	
+R31	General-Special Arg1:T169 Arg2:T190	
+R32	General-Special Arg1:T170 Arg2:T190	
+R33	General-Special Arg1:T171 Arg2:T190	
+R34	General-Special Arg1:T172 Arg2:T190	
+R35	General-Special Arg1:T173 Arg2:T190	
+R36	General-Special Arg1:T174 Arg2:T190	
+R37	General-Special Arg1:T175 Arg2:T190	
+R38	General-Special Arg1:T176 Arg2:T190	
+R39	General-Special Arg1:T177 Arg2:T190	
+R40	General-Special Arg1:T178 Arg2:T190	
+R41	General-Special Arg1:T179 Arg2:T190	
+R42	General-Special Arg1:T181 Arg2:T190	
+R43	General-Special Arg1:T180 Arg2:T190	
+R44	General-Special Arg1:T184 Arg2:T190	
+T191	Thing-Nominal 1596 1599	农用车
+T192	Location-Nominal 1600 1601	乡
+R45	Located Arg1:T190 Arg2:T192	
+R46	Located Arg1:T191 Arg2:T192	
+T193	Location-Nominal 1720 1721	乡
+T194	Organization-Nominal 1723 1727	乡镇政府
+T195	Thing-Nominal 1735 1737	手机
+T196	Location-Name 1744 1746	广州
+T197	Organization-Nominal 1774 1776	中国
+T198	Thing-Nominal 1791 1795;1796 1797	上网的手 机
+R47	General-Special Arg1:T198 Arg2:T195	
+T199	Person-Pronoun 1835 1837	我们
+T200	Person-Nominal 1851 1853	自己
+*	Coreference T199 T200
+T201	Person-Nominal 1863 1867	亲朋好友
+T202	Thing-Nominal 1892 1894	电视
+T203	Person-Pronoun 1900 1902	我们
+T204	Time-Implicit 1907 1915	农作物丰收的时候
+T205	Person-Pronoun 1917 1919	我们
+T206	Thing-Nominal 1987 1988	鲍
+T207	Thing-Nominal 1988 1989	参
+T208	Location-Nominal 1968 1970	草原
+T209	Thing-Nominal 1971 1975	运动动物
+T210	Thing-Nominal 1976 1978	肌肉
+R48	Part-Whole Arg1:T210 Arg2:T209	
+R49	Located Arg1:T209 Arg2:T208	
+T211	Organization-Nominal 2021 2025	烟草公司
+T212	Person-Nominal 2021 2028	烟草公司的老板
+R50	Ownership Arg1:T212 Arg2:T211	
+T213	Time-Implicit 2029 2031	每年
+T214	Thing-Nominal 2065 2067	烟草
+T215	Thing-Nominal 2084 2085	烟
+T216	Thing-Nominal 2114 2115	烟
+T217	Person-Nominal 2117 2119	兄弟
+T218	Person-Nominal 2120 2122	男人
+T219	Thing-Nominal 2132 2133	烟
+T220	Person-Nominal 2170 2172	老少
+T221	Location-Nominal 2188 2190	街市
+T222	Location-Nominal 2199 2201	柜台
+T223	Person-Pronoun 2205 2206	你
+T224	Thing-Nominal 2212 2214	街灯
+T225	Person-Nominal 2220 2222	老板
+T226	Location-Nominal 2234 2236	街市
+T227	Person-Nominal 2264 2266	小孩
+T228	Organization-Nominal 2270 2275	市政商业局
+T229	Person-Nominal 2277 2279	职员
+R51	Ownership Arg1:T229 Arg2:T228	
+T230	Person-Nominal 2292 2295	情侣们
+T231	Time-Implicit 2289 2292	入夜时
+T232	Time-Implicit 2374 2377	小时候
+T233	Location-Nominal 2394 2397	红领巾
+T234	Thing-Nominal 2416 2421	国家的花朵
+T235	Person-Pronoun 2442 2443	我
+T236	Location-Nominal 2460 2462	小城
+T237	Organization-Nominal 2465 2472	再就业培训中心
+T238	Person-Nominal 2473 2475	人民
+T239	Thing-Nominal 2478 2480	电脑
+T240	Organization-Nominal 2497 2502	天气预报局
+T241	Organization-Nominal 2503 2509	疾病控制中心
+T242	Organization-Nominal 2510 2512;2513 2516	专门 屠宰场
+T243	Organization-Nominal 2529 2534	渔业管理局
+T244	Thing-Nominal 2537 2538	脑
+T245	Location-Nominal 2541 2544	报刊亭
+T246	Organization-Nominal 2549 2554	知识产权局
+T247	Organization-Nominal 2560 2563	房产局
+T248	Thing-Nominal 2557 2559	房屋
+T249	Organization-Nominal 2569 2572	地税局
+T250	Organization-Nominal 2574 2577	国税局
+T251	Organization-Nominal 2584 2588	报纸媒体
+T252	Location-Nominal 2589 2591	球室
+T253	Thing-Nominal 2617 2619	蜡烛
+T254	Thing-Nominal 2620 2622	香炉
+T255	Thing-Nominal 2624 2626	纸钱
+T256	Thing-Nominal 2627 2629	纸张
+T257	Thing-Nominal 2632 2634	房子
+T258	Thing-Nominal 2635 2637	小车
+R52	Part-Whole Arg1:T257 Arg2:T258	
+R53	Part-Whole Arg1:T256 Arg2:T257	
+T259	Person-Nominal 2650 2652	亲人
+T260	Person-Nominal 2654 2656	朋友
+T261	Organization-Nominal 2667 2670	殡仪馆
+T262	Person-Nominal 2671 2675	工作人员
+R54	Ownership Arg1:T262 Arg2:T261	
+T263	Person-Nominal 2676 2678	死者
+T264	Location-Nominal 2685 2688	太平间
+T265	Thing-Nominal 2689 2691	骨灰
+R55	Part-Whole Arg1:T265 Arg2:T263	
+T266	Person-Nominal 2705 2709	思念的人
+T267	Time-Implicit 2738 2740	端午
+T268	Thing-Nominal 2749 2752	端午茶
+T269	Thing-Nominal 2759 2761	茶叶
+R56	General-Special Arg1:T268 Arg2:T269	
+T270	Thing-Nominal 2790 2791	茶
+T271	Thing-Nominal 2800 2802	茶叶
+T272	Thing-Nominal 2829 2831	茶桌
+T273	Person-Nominal 2841 2843	好友
+T274	Person-Nominal 2844 2848	生意朋友
+T275	Thing-Nominal 2851 2852	茶
+T276	Thing-Nominal 2868 2870	茶叶
+T277	Person-Pronoun 2898 2899	我
+R57	Social Arg1:T277 Arg2:T273	
+R58	Social Arg1:T277 Arg2:T274	
+T278	Organization-Nominal 2904 2907	屠宰场
+T279	Person-Pronoun 2911 2912	我
+T280	Thing-Nominal 2914 2917	小动物
+T281	Location-Nominal 2924 2927	屠宰场
+T282	Person-Pronoun 2927 2928	我
+T283	Thing-Nominal 2934 2936	鸡鸭
+R59	Located Arg1:T283 Arg2:T281	
+T284	Organization-Nominal 2955 2958	渔业局
+T285	Thing-Nominal 2963 2965	海鲜
+T286	Thing-Nominal 2966 2968	河鲜
+T287	Person-Nominal 2980 2982	厨师
+T288	Thing-Nominal 2986 2990	上等的菜
+R60	General-Special Arg1:T286 Arg2:T288	
+R61	General-Special Arg1:T285 Arg2:T288	
+T289	Thing-Nominal 3007 3008	酒
+T290	Thing-Nominal 3008 3009	肉
+T291	Location-Nominal 3025 3027	城市
+T292	Person-Pronoun 3033 3034	我
+T293	Thing-Nominal 3054 3056	布鞋
+T294	Thing-Nominal 3058 3062	补丁衣服
+T295	Person-Nominal 3066 3068	人民
+T296	Organization-Nominal 3071 3073	中国
+T297	Organization-Nominal 3073 3075	日本
+T298	Organization-Nominal 3075 3077	美国
+T299	Organization-Nominal 3077 3079	韩国
+T300	Organization-Nominal 3079 3080;3081 3082	英 国
+T301	Organization-Nominal 3082 3084	俄国
+T302	Organization-Nominal 3084 3086	法国
+T303	Thing-Nominal 3111 3115	西装革履
+T304	Location-Pronoun 3116 3118	这里
+*	Coreference T304 T291
+T305	Thing-Nominal 3129 3131	裙子
+T306	Thing-Nominal 3163 3165	电脑
+T307	Thing-Nominal 3184 3186	电脑
+T308	Thing-Nominal 3191 3193	电脑
+T309	Physical 3196 3201	音乐播放器
+T310	Physical 3204 3208	电子书刊
+T311	Thing-Nominal 3209 3214	电脑零配件
+T312	Physical 3215 3219	软件系统
+T313	Thing-Nominal 3220 3223	游戏机
+T314	Physical 3225 3229	电子信箱
+T315	Physical 3232 3236	应用软件
+T316	Physical 3237 3241	电脑视频
+T317	Physical 3242 3248	电脑压缩光盘
+T318	Abstract 3249 3253	视频聊天
+T319	Abstract 3254 3259	电脑的虚拟
+T320	Abstract 3274 3281	电脑软件的应用
+T321	Thing-Nominal 3291 3293	电脑
+T322	Person-Pronoun 3305 3306	我
+T323	Location-Nominal 3307 3311	山的顶端
+T324	Location-Nominal 3314 3316	城市
+T325	Location-Nominal 3340 3343	大城市
+T326	Person-Pronoun 3347 3351	如今的我
+T327	Person-Pronoun 3366 3367	我
+T328	Person-Pronoun 3384 3385	我
+T329	Location-Nominal 3389 3391	城市
+T330	Person-Nominal 3405 3407	人民
+T331	Person-Pronoun 3416 3417	我
+T332	Location-Nominal 3420 3422	城市
+T333	Person-Pronoun 3432 3433	我

@@ -1,0 +1,380 @@
+T1	Location-Nominal 1 3	秦地
+T2	Location-Name 5 9	山西壶关
+T3	Thing-Nominal 10 14	整个县城
+T4	Location-Nominal 20 23	大地上
+R1	Located Arg1:T3 Arg2:T4	
+T5	Location-Nominal 24 26	西北
+T6	Thing-Nominal 28 30	一山
+R2	Located Arg1:T6 Arg2:T5	
+T7	Location-Nominal 31 33	顶上
+T8	Thing-Nominal 36 45	一个高大的八角阁楼
+R3	Located Arg1:T8 Arg2:T7	
+T9	Location-Nominal 49 51	城里
+T10	Thing-Nominal 51 58	鳞次栉比的房屋
+R4	Located Arg1:T10 Arg2:T9	
+T11	Location-Nominal 62 64	城里
+T12	Thing-Nominal 75 77	汽车
+T13	Thing-Nominal 82 84	车子
+T14	Person-Nominal 95 97	居民
+T15	Location-Nominal 112 114	脸上
+T16	Person-Nominal 124 126	人们
+T17	Location-Nominal 129 131	眼里
+T18	Thing-Nominal 174 175	头
+T19	Thing-Nominal 176 177	天
+T20	Thing-Nominal 178 182;183 190	大团大团 山垛一般的白云
+T21	Location-Nominal 191 196	深蓝的天空
+R5	Located Arg1:T20 Arg2:T21	
+T22	Thing-Nominal 199 201	这云
+T23	Thing-Nominal 202 206	壶关的云
+T24	Location-Name 209 211	壶关
+T25	Person-Nominal 211 213	人们
+T26	Thing-Nominal 214 219	壶类的器皿
+T27	Location-Nominal 226 231	商店超市里
+T28	Thing-Nominal 233 241	暖壶、水壶、茶壶
+T29	Location-Nominal 245 255	一眼能看见的显著位置
+R6	Located Arg1:T28 Arg2:T29	
+T30	Location-Name 256 265	古城路新华书店里面
+T31	Thing-Nominal 266 268	“壶
+R7	Located Arg1:T31 Arg2:T30	
+T32	Person-Nominal 292 293	人
+T33	Thing-Nominal 277 291	十二生肖、南瓜、花卉种种造型
+T34	Thing-Nominal 298 307	这些手工打造的铁壶
+T35	Location-Nominal 319 321	城中
+T36	Thing-Nominal 323 327	两把巨壶
+R8	Located Arg1:T36 Arg2:T35	
+T37	Location-Name 332 336	长壶路上
+T38	Location-Pronoun 338 340	这里
+*	Coreference T38 T37
+T39	Thing-Nominal 341 348	一把偌大的茶壶
+T40	Location-Nominal 350 352	半空
+R9	Located Arg1:T39 Arg2:T40	
+T41	Location-Nominal 353 356	壶嘴里
+T42	Thing-Nominal 359 366	源源不断的水流
+R10	Located Arg1:T42 Arg2:T41	
+T43	Person-Nominal 373 374	人
+T44	Location-Name 383 387	玉壶广场
+T45	Thing-Nominal 392 396	一把玉壶
+T46	Location-Nominal 402 406	基台之上
+R11	Located Arg1:T45 Arg2:T46	
+T47	Thing-Nominal 407 417	四名憨态可掬的胖娃娃
+T48	Location-Nominal 420 424	玉壶周围
+R12	Located Arg1:T47 Arg2:T48	
+T49	Thing-Nominal 427 431	一个娃娃
+T50	Location-Nominal 434 439	壶嘴下方，
+R13	Located Arg1:T49 Arg2:T50	
+T51	Thing-Nominal 439 441	两手
+T52	Thing-Nominal 443 445	茶杯
+T53	Thing-Nominal 446 447	水
+T54	Thing-Nominal 448 449	水
+T55	Thing-Nominal 453 454	杯
+T56	Thing-Nominal 457 459	娃娃
+T57	Location-Pronoun 462 464	那里
+T58	Location-Nominal 479 482	县城北
+T59	Thing-Nominal 483 486	老顶山
+R14	Located Arg1:T59 Arg2:T58	
+T60	Thing-Nominal 489 492	双龙山
+T61	Thing-Nominal 493 495	两山
+T62	Location-Nominal 498 500	腹部
+T63	Thing-Nominal 503 505	山色
+T64	Thing-Nominal 515 519	一把铁壶
+T65	Thing-Nominal 520 522	壶关
+T66	Location-Name 530 536	城里清流路口
+T67	Thing-Nominal 537 542	一棵大柳树
+R15	Located Arg1:T67 Arg2:T66	
+T68	Time-Explicit 546 548	唐代
+T69	Person-Name 548 553	名臣苗晋卿
+T70	Person-Name 557 560	苗晋卿
+T71	Person-Name 565 576	唐玄宗、唐肃宗、唐代宗
+T72	Person-Nominal 582 583	人
+T73	Time-Explicit 603 609	安史叛乱期间
+T74	Person-Name 610 613	苗晋卿
+T75	Metric 620 622	千里
+T76	Person-Name 625 628	唐肃宗
+T77	Time-Explicit 637 642	唐代宗时期
+T78	Person-Nominal 643 647	吐蕃军队
+T79	Location-Name 649 651	长安
+T80	Person-Nominal 653 657	一些叛臣
+T81	Person-Nominal 659 661	吐蕃
+T82	Time-Implicit 666 668	那时
+*	Coreference T82 T77
+T83	Person-Name 669 672	苗晋卿
+T84	Person-Name 675 678	唐代宗
+T85	Location-Nominal 682 684	家中
+T86	Person-Pronoun 690 691	他
+*	Coreference T86 T83
+T87	Person-Nominal 700 701	人
+T88	Thing-Nominal 703 705	轿子
+T89	Person-Pronoun 707 708	他
+T90	Person-Name 717 720	苗晋卿
+T91	Person-Name 721 724	唐代宗
+T92	Time-Implicit 733 736	那一刻
+T93	Person-Pronoun 737 738	他
+*	Coreference T93 T90
+T94	Person-Nominal 740 742	个人
+T95	Person-Nominal 747 749	说客
+T96	Person-Name 765 773;774 777	梁山好汉“赤发鬼 ”刘唐
+T97	Person-Nominal 779 782	壶关人
+T98	Person-Name 783 786	金圣叹
+T99	Person-Name 787 789	刘唐
+T100	Person-Nominal 791 795	中上人物
+T101	Person-Name 796 798	刘唐
+T102	Thing-Nominal 804 805	酒
+T103	Thing-Nominal 806 807	肉
+T104	Person-Nominal 814 816	朋友
+T105	Abstract 821 826	《水浒传》
+T106	Person-Name 827 829	刘唐
+T107	Person-Nominal 835 840	三五个汉子
+T108	Thing-Nominal 843 849	一二千军马队
+T109	Thing-Nominal 853 854	枪
+T110	Person-Pronoun 857 858	他
+T111	Person-Name 859 861	刘唐
+T112	Person-Nominal 870 871	人
+T113	Person-Name 874 876	刘唐
+T114	Person-Nominal 878 884	梁山步军头领
+T115	Thing-Nominal 894 895	马
+T116	Thing-Nominal 898 902	一把朴刀
+T117	Location-Nominal 905 909	队伍前面
+T118	Person-Nominal 913 914	敌
+T119	Person-Name 925 928	苗晋卿
+T120	Person-Name 930 932	刘唐
+T121	Person-Name 935 938	苗晋卿
+T122	Person-Name 939 941	刘唐
+T123	Person-Nominal 941 946	这两位古人
+T124	Thing-Nominal 949 955	太行山的石头
+T125	Location-Name 949 952	太行山
+R16	Located Arg1:T124 Arg2:T125	
+T126	Person-Nominal 970 977	太行山的儿女们
+T127	Location-Name 970 973	太行山
+T128	Person-Nominal 979 982	外地人
+T129	Location-Name 983 985	壶关
+T130	Person-Nominal 986 991	壶关的朋友
+T131	Location-Name 999 1005	太行山大峡谷
+T132	Thing-Nominal 1009 1011	车子
+T133	Thing-Nominal 1013 1017	荫林公路
+T134	Thing-Nominal 1028 1032	田舍果林
+T135	Location-Name 1035 1038	东井岭
+T136	Thing-Nominal 1040 1042	道路
+T137	Thing-Nominal 1053 1055	石坡
+T138	Thing-Nominal 1057 1061	这条公路
+T139	Thing-Nominal 1063 1070	一条白色的蟒蛇
+T140	Location-Nominal 1072 1074	两边
+T141	Location-Nominal 1081 1084	峡谷里
+T142	Thing-Nominal 1089 1090	山
+T143	Thing-Nominal 1128 1132	这座险峰
+T144	Thing-Nominal 1141 1146	另一座奇山
+T145	Thing-Nominal 1155 1157	眼睛
+T146	Thing-Nominal 1171 1175	山海峰林
+T147	Location-Nominal 1176 1183	路的两侧纵深处
+T148	Thing-Nominal 1185 1192	探幽寻奇的谷口
+R17	Located Arg1:T148 Arg2:T147	
+T149	Thing-Nominal 1194 1197	黑龙潭
+T150	Thing-Nominal 1198 1201	紫团山
+T151	Thing-Nominal 1202 1205	红豆峡
+T152	Thing-Nominal 1206 1209	八泉峡
+T153	Thing-Nominal 1210 1213	青龙峡
+T154	Thing-Nominal 1216 1218	树枝
+T155	Location-Nominal 1223 1226	峡谷里
+T156	Thing-Nominal 1229 1236	一个百米的石洞
+T157	Thing-Nominal 1237 1239	洞壁
+T158	Thing-Nominal 1246 1250	山的肋骨
+T159	Person-Nominal 1256 1258	前人
+T160	Location-Name 1263 1270	紫团山石梯入口
+T161	Thing-Nominal 1278 1283	两股冷暖风
+T162	Thing-Nominal 1287 1289	左脸
+T163	Thing-Nominal 1294 1298	一股冷风
+T164	Thing-Nominal 1299 1301	右脸
+T165	Thing-Nominal 1303 1307	一股暖风
+T166	Location-Nominal 1323 1326	大峡谷
+T167	Thing-Nominal 1327 1333	二十多个山村
+R18	Located Arg1:T167 Arg2:T166	
+T168	Person-Nominal 1334 1336	村民
+T169	Location-Nominal 1341 1347	山的漫坡地段
+T170	Thing-Nominal 1355 1357	村庄
+T171	Thing-Nominal 1370 1382	土圪堆、前脑、后脑、树掌
+T172	Thing-Nominal 1385 1390	多数的房屋
+T173	Thing-Nominal 1391 1395	麻灰条石
+T174	Location-Nominal 1398 1400	屋前
+T175	Thing-Nominal 1402 1407	梨树、楂树
+R19	Located Arg1:T175 Arg2:T174	
+T176	Time-Implicit 1408 1412	深秋时候
+T177	Person-Nominal 1413 1416	农民们
+T178	Location-Nominal 1417 1421	太阳底下
+T179	Thing-Nominal 1422 1424	山楂
+T180	Location-Nominal 1425 1428	山谷里
+T181	Thing-Nominal 1436 1438	云霞
+T182	Location-Nominal 1444 1448	山的深处
+T183	Thing-Nominal 1450 1458	一座叫桥上的小镇
+R20	Located Arg1:T183 Arg2:T182	
+T184	Thing-Nominal 1459 1461	镇子
+T185	Location-Nominal 1464 1468	沿街两排
+T186	Thing-Nominal 1469 1476	一些农家乐客栈
+R21	Located Arg1:T186 Arg2:T185	
+T187	Thing-Nominal 1498 1500	街面
+T188	Thing-Nominal 1507 1511	一片垃圾
+T189	Thing-Nominal 1514 1518	一座石桥
+T190	Location-Nominal 1520 1528	桥上乡政府所在地
+T191	Location-Nominal 1529 1535	政府门口墙上
+T192	Thing-Nominal 1538 1551	老实做人，用心做事”的标语
+R22	Located Arg1:T192 Arg2:T191	
+T193	Thing-Nominal 1556 1564	一座有年代的石桥
+T194	Location-Nominal 1566 1568	桥下
+T195	Thing-Nominal 1568 1569	水
+R23	Located Arg1:T195 Arg2:T194	
+T196	Thing-Nominal 1573 1577	无数激流
+T197	Thing-Nominal 1579 1581	护堤
+T198	Thing-Nominal 1583 1591	平阔深沉的安波湖
+T199	Thing-Nominal 1592 1594	湖水
+T200	Thing-Nominal 1601 1603	这水
+T201	Location-Name 1605 1608	八泉峡
+T202	Location-Name 1614 1617	八泉峡
+T203	Location-Nominal 1618 1620	路上
+T204	Thing-Nominal 1627 1632	清澈的泉溪
+T205	Location-Nominal 1633 1636	河道里
+T206	Location-Nominal 1637 1639	桥上
+T207	Person-Nominal 1657 1658	人
+T208	Location-Name 1660 1663	八泉峡
+T209	Location-Name 1665 1671	八泉峡山腰里
+T210	Thing-Nominal 1672 1674	隧道
+R24	Located Arg1:T210 Arg2:T209	
+T211	Thing-Nominal 1677 1681	一池碧水
+T212	Location-Nominal 1684 1687;1688 1689	整个山 谷
+R25	Located Arg1:T211 Arg2:T212	
+T213	Location-Nominal 1690 1692	两侧
+T214	Thing-Nominal 1692 1699	高峻的悬崖绝壁
+R26	Located Arg1:T214 Arg2:T213	
+T215	Person-Nominal 1700 1701	你
+T216	Location-Name 1705 1709	长江三峡
+T217	Thing-Nominal 1711 1712	船
+T218	Metric 1712 1714	五里
+T219	Thing-Nominal 1715 1719	身边的水
+T220	Person-Nominal 1722 1723	人
+T221	Thing-Nominal 1726 1728	水面
+T222	Thing-Nominal 1734 1741	一块温润的碧玉
+T223	Location-Pronoun 1745 1747	那里
+T224	Thing-Nominal 1756 1761	无数的绿叶
+T225	Location-Nominal 1762 1765	峡谷里
+R27	Located Arg1:T224 Arg2:T225	
+T226	Thing-Nominal 1771 1776	孩子的眼睛
+T227	Person-Nominal 1771 1773	孩子
+R28	Part-Whole Arg1:T226 Arg2:T227	
+T228	Thing-Nominal 1782 1788	两侧悬崖峭壁
+T229	Thing-Nominal 1793 1795	天光
+T230	Thing-Nominal 1800 1804	一根白线
+T231	Thing-Nominal 1814 1815	船
+T232	Thing-Nominal 1819 1821	谷道
+T233	Thing-Nominal 1828 1830	飞瀑
+T234	Thing-Nominal 1831 1832	雷
+T235	Thing-Nominal 1833 1835	山石
+T236	Thing-Nominal 1838 1842	数道山泉
+T237	Location-Nominal 1852 1855	草丛中
+T238	Location-Nominal 1852 1855	草丛中
+T239	Thing-Nominal 1861 1865	这些源泉
+T240	Thing-Nominal 1875 1878	八道水
+T241	Location-Name 1884 1888	名八泉峡
+T242	Time-Implicit 1890 1892	傍晚
+T243	Location-Nominal 1894 1897	大峡谷
+T244	Location-Nominal 1899 1901	县城
+T245	Thing-Nominal 1902 1904	山岭
+T246	Person-Nominal 1911 1912	人
+T247	Thing-Nominal 1911 1916	人和人的手
+T248	Person-Nominal 1913 1914	人
+T249	Thing-Nominal 1926 1937	一棵一棵卓尔不群的油松
+T250	Location-Nominal 1924 1926	山上
+R29	Located Arg1:T249 Arg2:T250	
+T251	Thing-Nominal 1939 1940	伞
+T252	Thing-Nominal 1943 1945	云盖
+T253	Thing-Nominal 1947 1949	宝塔
+T254	Location-Nominal 1955 1957	山上
+T255	Thing-Nominal 1959 1962	阳的光
+T256	Thing-Nominal 1965 1970	西边的天空
+T257	Location-Nominal 1971 1975	人的脸上
+T258	Thing-Nominal 1980 1982	红光
+T259	Location-Nominal 1983 1986	川道里
+T260	Thing-Nominal 1989 1994	青色的薄烟
+R30	Located Arg1:T260 Arg2:T259	
+T261	Location-Name 2005 2010	太行山之巅
+T262	Thing-Nominal 2012 2015	这个城
+T263	Thing-Nominal 2018 2025	一串结实的脚印
+R31	Located Arg1:T262 Arg2:T261	
+T264	Person-Name 2027 2029	王飞
+T265	Person-Name 2034 2036	王飞
+T266	Time-Explicit 2037 2042	1979年
+T267	Location-Name 2044 2048	陕西蒲城
+T268	Time-Implicit 2049 2056	海军部队退伍后
+T269	Location-Name 2058 2064	陕西师范大学
+T270	Person-Nominal 2067 2075	中国作家协会会员
+T271	Person-Nominal 2076 2087	陕西省散文学会副秘书长
+T272	Person-Nominal 2088 2094;2095 2102	陕西省青年文 学协会副秘书长
+T273	Person-Nominal 2103 2115	西安文史艺术研究院研究员
+T274	Person-Nominal 2116 2129	陕西省文学院第二届签约作家
+T275	Abstract 2131 2137	《光明日报》
+T276	Abstract 2137 2143	《北京文学》
+T277	Abstract 2143 2147	《读者》
+T278	Abstract 2147 2155;2156 2157	《多伦多绿色文化 》
+T279	Thing-Nominal 2158 2163	海内外报刊
+T280	Metric 2174 2178	百万余字
+T281	Abstract 2185 2191	《信步南山》
+T282	Abstract 2191 2199	《敞开心灵之门》
+T283	Abstract 2199 2208	《让梦想不再遥远》
+T284	Abstract 2208 2212	《豁亮》
+T285	Abstract 2218 2224	《信步南山》
+T286	Abstract 2253 2262	《让梦想不再遥远》
+T287	Abstract 2265 2277	《全国课外阅读百部文库》
+T288	Abstract 2292 2301	《中国散文排行榜》
+T289	Abstract 2301 2314	《我最喜爱的散文100篇》
+T290	Abstract 2314 2324	《中国散文最佳年选》
+T291	Abstract 2324 2333	《最经典游记散文》
+T292	Abstract 2343 2349	《散文选刊》
+T293	Abstract 2349 2357	《散文.海外版》
+T294	Abstract 2357 2363	《青年文摘》
+T295	Time-Explicit 2368 2373	2008年
+T296	Time-Explicit 2393 2398	2011年
+T297	Time-Explicit 2417 2422	2011年
+T298	Time-Explicit 2440 2445	2012年
+T299	Time-Explicit 2469 2474	2012年
+T300	Time-Explicit 2493 2498	2012年
+T301	Abstract 2376 2382	《信步南山》
+T302	Abstract 2400 2407	《曲江的早晨》
+T303	Abstract 2424 2428	《安静》
+T304	Abstract 2447 2454	《卢舍那的笑》
+T305	Abstract 2476 2482	《月出龙门》
+T306	Abstract 2501 2509	《敞开心灵之门》
+T307	Person-Name 2520 2522	王飞
+T308	Person-Name 2608 2610	王飞
+T309	Location-Name 2602 2607	关中与南山
+T310	Person-Name 2618 2620	王飞
+T311	Thing-Nominal 2625 2631	清凌凌的山泉
+T312	Thing-Nominal 2653 2655	波光
+T313	Person-Pronoun 2659 2660	他
+*	Coreference T313 T310
+T314	Person-Pronoun 2665 2667	我们
+T315	Thing-Nominal 2671 2678	关中地域的影像
+T316	Thing-Nominal 2679 2684	岁月的宝藏
+T317	Person-Pronoun 2692 2693	他
+T318	Abstract 2694 2700	《火里的爱》
+T319	Abstract 2700 2702;2703 2705	《锁 舅》
+T320	Abstract 2705 2709	《浅笑》
+T321	Person-Nominal 2737 2739	人们
+T322	Person-Nominal 2742 2744	人物
+T323	Person-Name 2760 2762	王飞
+T324	Person-Nominal 2764 2766	文人
+T325	Person-Nominal 2773 2774	人
+T326	Thing-Nominal 2785 2787	南山
+T327	Person-Name 2789 2791	王飞
+T328	Person-Name 2805 2807	王飞
+T329	Person-Pronoun 2813 2815	自已
+*	Coreference T329 T328
+T330	Thing-Nominal 2847 2855	王飞的骨髓与血脉
+T331	Abstract 2856 2862	《在南山》《
+T332	Abstract 2861 2867	《南山影像》
+T333	Abstract 2867 2873	《书读南山》
+T334	Abstract 2873 2879	《南山隐者》
+T335	Person-Pronoun 2912 2914	自己
+T336	Location-Name 2926 2929	终南山
+T337	Person-Pronoun 2940 2942	自已
+T338	Location-Name 2958 2964	北京师范大学
+T339	Person-Nominal 2964 2972	十多位文学硕士生
+T340	Thing-Nominal 2973 2978	王飞的散文
+T341	Person-Name 2973 2975	王飞
+R32	Create Arg1:T341 Arg2:T340	
+T342	Person-Nominal 3013 3018;3019 3026	一位有理想 抱负的青年作家

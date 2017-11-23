@@ -1,0 +1,123 @@
+T1	Person-Nominal 2 6	法国诗人
+T2	Person-Nominal 7 9	作家
+T3	Person-Name 9 15	维克多?雨果
+*	Coreference T3 T2 T1
+T4	Thing-Nominal 31 33	海洋
+T5	Thing-Nominal 42 44	天空
+T6	Person-Pronoun 59 60	我
+T7	Person-Pronoun 123 124	你
+T8	Person-Pronoun 176 177	我
+T9	Person-Pronoun 233 234	你
+T10	Person-Nominal 240 242	作者
+T11	Person-Nominal 264 266	作者
+T12	Time-Explicit 305 309	上大学时
+T13	Person-Nominal 309 311	自己
+T14	Person-Nominal 349 351	自己
+T15	Person-Nominal 365 367	自己
+T16	Person-Pronoun 377 378	我
+*	Coreference T16 T15
+T17	Person-Nominal 378 383	儿时的伙伴
+T18	Person-Pronoun 388 389	我
+R1	Social Arg1:T18 Arg2:T17	
+T19	Time-Explicit 392 396	上小学时
+T20	Time-Explicit 407 410	中学时
+T21	Time-Explicit 417 420	大学时
+T22	Thing-Nominal 426 428	报刊
+T23	Time-Implicit 434 439	参加工作后
+T24	Person-Pronoun 455 456	我
+T25	Time-Explicit 473 478	2011年
+T26	Time-Explicit 502 506	那年8月
+T27	Person-Pronoun 507 508	我
+T28	Location-Name 511 513	北京
+T29	Person-Nominal 540 542	大师
+T30	Person-Nominal 546 548	文友
+T31	Person-Pronoun 550 551	我
+R2	Social Arg1:T31 Arg2:T30	
+R3	Social Arg1:T31 Arg2:T29	
+T32	Time-Explicit 568 571	一年后
+T33	Time-Explicit 576 581	2012年
+T34	Person-Nominal 611 613	自己
+T35	Person-Pronoun 572 573	我
+*	Coreference T34 T35
+T36	Time-Explicit 621 627	大学毕业那年
+T37	Person-Pronoun 628 629	我
+T38	Thing-Nominal 632 635	互联网
+T39	Time-Implicit 671 674	童年时
+T41	Thing-Nominal 682 685	向日葵
+T40	Location-Nominal 674 678	我家墙外
+T42	Thing-Nominal 693 696	向阳花
+T43	Person-Pronoun 702 703	我
+R4	Located Arg1:T41 Arg2:T40	
+T44	Person-Pronoun 711 712	我
+T45	Person-Nominal 723 730	一个有知识的人
+T46	Thing-Nominal 735 736	书
+T47	Person-Nominal 738 742;743 746	一个有智 慧的人
+T48	Person-Nominal 761 763	自己
+T49	Person-Pronoun 768 769	我
+*	Coreference T49 T48
+T50	Thing-Nominal 778 780	书籍
+T51	Thing-Nominal 791 792	书
+T52	Person-Pronoun 801 803	我们
+T53	Person-Pronoun 813 815	我们
+T54	Person-Pronoun 825 827	我们
+T55	Time-Explicit 837 840	八年来
+T56	Person-Nominal 846 848	自己
+T57	Location-Nominal 851 853	花园
+T58	Person-Nominal 867 869	自己
+T59	Person-Nominal 904 906	自己
+T60	Person-Nominal 922 924	朋友
+R5	Social Arg1:T59 Arg2:T60	
+T61	Person-Nominal 942 945	知心朋
+T62	Person-Nominal 952 954	自己
+R6	Social Arg1:T62 Arg2:T61	
+T63	Time-Explicit 1083 1087	20年来
+T64	Person-Nominal 1163 1165	自己
+T65	Person-Pronoun 1180 1181	我
+*	Coreference T65 T64
+T66	Person-Pronoun 1235 1236	我
+T67	Person-Pronoun 1263 1264	我
+T68	Person-Nominal 1274 1276	孩子
+T69	Person-Pronoun 1304 1305	我
+*	Coreference T69 T68
+T70	Person-Pronoun 1325 1326	我
+T71	Person-Nominal 1339 1341	孩子
+T72	Person-Pronoun 1342 1343	我
+*	Coreference T72 T71 T73
+T73	Person-Nominal 1380 1382	自己
+T74	Person-Nominal 1394 1396	自己
+T75	Person-Nominal 1406 1408	自己
+T76	Person-Nominal 1434 1436	自己
+T77	Person-Nominal 1451 1453	自己
+T78	Person-Nominal 1482 1484	大家
+T79	Person-Pronoun 1495 1496	我
+R7	Social Arg1:T79 Arg2:T78	
+T80	Person-Nominal 1510 1512	自己
+T81	Person-Nominal 1522 1524	他人
+R8	Social Arg1:T81 Arg2:T80	
+T82	Person-Pronoun 1527 1528	我
+*	Coreference T80 T82
+T83	Person-Pronoun 1651 1652	我
+T84	Person-Pronoun 1678 1679	我
+T85	Person-Nominal 1788 1790	自己
+T86	Person-Pronoun 1873 1874	我
+T87	Person-Pronoun 1911 1912	我
+T88	Person-Pronoun 1946 1947	我
+T89	Thing-Pronoun 269 270	它
+T90	Thing-Pronoun 276 277	它
+T91	Thing-Nominal 249 251	文字
+*	Coreference T89 T91
+T92	Thing-Nominal 140 142	文字
+T93	Thing-Nominal 103 105	文字
+T94	Thing-Nominal 119 121	文字
+T95	Thing-Nominal 343 345	文字
+T96	Thing-Nominal 358 360	文字
+T97	Thing-Nominal 1226 1228	文字
+T98	Thing-Pronoun 1229 1230	它
+*	Coreference T98 T97
+T99	Thing-Nominal 632 635	互联网
+T100	Thing-Nominal 648 651	向阳花
+T101	Thing-Nominal 841 843	博客
+T102	Person-Nominal 1132 1134	自己
+T103	Thing-Nominal 1296 1298	文字
+T104	Thing-Nominal 1320 1322	文字
+T105	Person-Nominal 1360 1365	真善美的人

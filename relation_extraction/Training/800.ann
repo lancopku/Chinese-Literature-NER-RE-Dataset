@@ -1,0 +1,209 @@
+T1	Thing-Nominal 5 6	天
+T2	Thing-Nominal 10 12	馅饼
+T3	Thing-Name 15 18	红楼梦
+T4	Thing-Nominal 21 22	天
+T5	Person-Name 27 30	林妹妹
+T6	Location-Pronoun 32 34	这里
+T7	Thing-Nominal 40 41	天
+T8	Person-Nominal 45 48	书法家
+T9	Location-Name 55 63	长江下游巢湖附近
+T10	Location-Name 66 69	无为市
+R1	Near Arg1:T10 Arg2:T9	
+T11	Location-Name 71 74	无为市
+T12	Location-Nominal 82 86	鱼米之乡
+T13	Person-Nominal 89 90	民
+T14	Person-Nominal 105 107	名人
+R2	General-Special Arg1:T11 Arg2:T12	
+T15	Location-Pronoun 112 114	这里
+T16	Person-Nominal 115 117	人们
+*	Coreference T15 T11
+T17	Person-Nominal 125 128	当地人
+T18	Person-Nominal 133 135	大人
+T19	Person-Nominal 135 137	孩子
+T20	Thing-Nominal 139 141	毛笔
+R3	Use Arg1:T19 Arg2:T20	
+R4	Use Arg1:T18 Arg2:T20	
+T21	Time-Explicit 146 152	20世纪中叶
+T22	Location-Name 153 156	无为市
+T23	Organization-Nominal 157 161	中小学校
+R5	Part-Whole Arg1:T23 Arg2:T22	
+T24	Abstract 121 123	书法
+T25	Abstract 165 167	书法
+T26	Time-Explicit 173 180	八十至九十年代
+T27	Person-Nominal 183 187	机关干部
+T28	Person-Nominal 197 201	领导干部
+R6	General-Special Arg1:T28 Arg2:T27	
+T29	Location-Pronoun 219 221	此地
+T30	Location-Nominal 223 229	中国书法之乡
+*	Coreference T29 T30 T31
+T31	Location-Name 231 234	无为市
+T32	Person-Nominal 237 240	副市长
+T33	Time-Explicit 252 263	20世纪八十至九十年代
+T34	Person-Pronoun 264 265	他
+*	Coreference T34 T32
+T35	Metric 268 271	20年
+T36	Person-Nominal 272 274	市长
+T37	Person-Nominal 275 279	副市长们
+T38	Person-Name 282 285	无不为
+T39	Person-Nominal 302 307	大多数干部
+T40	Person-Name 312 316	无副市长
+T41	Thing-Nominal 340 342	翰墨
+T42	Thing-Nominal 214 216	翰墨
+R7	Use Arg1:T28 Arg2:T42	
+R8	Use Arg1:T40 Arg2:T41	
+T43	Person-Nominal 351 352;353 354	自 己
+T44	Person-Name 358 361	无不为
+*	Coreference T44 T43
+T45	Person-Name 368 374	这位无副市长
+T46	Organization-Name 375 383	北京行政管理学院
+T47	Metric 385 387	一年
+T48	Person-Pronoun 388 389	他
+*	Coreference T48 T45
+T49	Location-Pronoun 399 401	本市
+T50	Abstract 419 421	书法
+T51	Location-Nominal 447 449	展厅
+T52	Person-Nominal 459 463	市级领导
+T53	Thing-Nominal 468 470	电话
+T54	Location-Name 474 476	北京
+T55	Person-Name 481 485	无副市长
+T56	Person-Pronoun 495 496	我
+*	Coreference T56 T55
+T57	Person-Nominal 509 511	秘书
+T58	Person-Pronoun 512 513	我
+R9	Social Arg1:T57 Arg2:T56	
+R10	General-Special Arg1:T55 Arg2:T52	
+T59	Person-Name 541 545	无副市长
+T60	Person-Nominal 613 618	分管副市长
+T61	Location-Nominal 620 622	本市
+T62	Person-Pronoun 628 629	他
+*	Coreference T62 T60 T63
+T63	Person-Nominal 631 633	评委
+T64	Person-Name 666 668;669 671	无副 市长
+T65	Organization-Nominal 682 689	本市书法家协会
+T66	Person-Nominal 696 698	会员
+T67	Person-Nominal 702 706	常务理事
+T68	Person-Nominal 707 712	市书协主席
+*	Coreference T64 T66 T67 T68
+R11	Ownership Arg1:T64 Arg2:T65	
+T69	Time-Explicit 736 744	20世纪九十年代
+T70	Location-Name 773 776	无为市
+T71	Location-Name 777 782	日本鸟曲县
+T72	Location-Nominal 786 788	城市
+R12	General-Special Arg1:T71 Arg2:T72	
+R13	General-Special Arg1:T70 Arg2:T72	
+T73	Time-Implicit 798 800	每年
+T74	Organization-Nominal 794 797	访问团
+T75	Organization-Name 805 807	日本
+T76	Organization-Name 745 746	中
+T77	Organization-Name 746 747	日
+*	Coreference T77 T75
+T78	Abstract 808 810	书法
+T79	Organization-Name 820 824	书道会社
+T80	Time-Implicit 826 829	有一年
+T81	Location-Name 831 836	日本鸟曲县
+T82	Organization-Name 836 840	书道会社
+R14	Part-Whole Arg1:T82 Arg2:T81	
+T83	Organization-Nominal 843 850;851 854	无为市书法家协 会组团
+T84	Organization-Name 855 856	日
+T85	Person-Name 861 867	无不为副市长
+T86	Person-Nominal 868 870	团长
+*	Coreference T85 T86
+R15	Ownership Arg1:T85 Arg2:T83	
+T87	Person-Nominal 873 888	几位市内外甚至省内外著名书法家
+T88	Organization-Nominal 896 902	书法家访问团
+*	Coreference T88 T83
+R16	Ownership Arg1:T87 Arg2:T88	
+T89	Person-Name 908 911	无团长
+T90	Person-Pronoun 918 919	他
+*	Coreference T90 T89 T94
+T91	Person-Nominal 922 931	办公室副主任兼秘书
+T92	Metric 919 921	多年
+T93	Abstract 940 942	书法
+T94	Person-Nominal 947 949	领导
+T95	Person-Nominal 966 970	行家里手
+*	Coreference T91 T95
+T96	Organization-Name 972 981	日本鸟曲县书道会社
+T97	Person-Name 983 989	社长野草太郎
+T98	Person-Name 990 997	副社长松茅次郎
+T99	Person-Name 998 1005	秘书长尉迟永彬
+R17	Ownership Arg1:T97 Arg2:T96	
+R18	Ownership Arg1:T98 Arg2:T96	
+R19	Ownership Arg1:T99 Arg2:T96	
+R20	Social Arg1:T85 Arg2:T87	
+R21	Social Arg1:T91 Arg2:T90	
+R22	Social Arg1:T97 Arg2:T98	
+R23	Social Arg1:T98 Arg2:T99	
+R24	Social Arg1:T97 Arg2:T99	
+T100	Organization-Nominal 1016 1024	无为市书法访问团
+T101	Metric 1026 1028	几天
+T102	Person-Nominal 1062 1067	中日书法家
+T103	Person-Nominal 1075 1080	中日书法家
+T104	Organization-Nominal 1085 1087	日方
+T105	Thing-Nominal 1104 1107	榻榻米
+T106	Thing-Nominal 1110 1113	红地毯
+T107	Thing-Nominal 1116 1120	高腿几案
+R25	Located Arg1:T107 Arg2:T106	
+T108	Thing-Nominal 1125 1127	笔墨
+R26	Located Arg1:T108 Arg2:T107	
+T109	Metric 1133 1135;1136 1138	4― 6尺
+T110	Thing-Nominal 1138 1140	丝宣
+T111	Person-Nominal 1142 1147	日方主持人
+T112	Person-Nominal 1158 1163	中日书法家
+T113	Person-Nominal 1168 1175	几位中日书法家
+T114	Thing-Nominal 1180 1181	笔
+R27	Use Arg1:T113 Arg2:T114	
+T115	Thing-Nominal 1183 1184	蛇
+T116	Thing-Nominal 1182 1183	龙
+T117	Thing-Nominal 1185 1187	翰墨
+T118	Thing-Nominal 1208 1209	笔
+T119	Person-Name 1222 1227	中国无团长
+T120	Person-Pronoun 1240 1241	他
+*	Coreference T120 T119 T123 T124
+T121	Person-Nominal 1250 1252	秘书
+T122	Person-Nominal 1255 1257	秘书
+T123	Person-Nominal 1272 1274	领导
+T124	Person-Pronoun 1278 1279	您
+T125	Person-Pronoun 1289 1290	您
+T126	Person-Pronoun 1305 1306	我
+T127	Person-Name 1316 1323	咱们这位无团长
+T128	Thing-Nominal 1330 1336	中号狼羊兼毫
+R28	Use Arg1:T127 Arg2:T128	
+T129	Person-Nominal 1337 1339	秘书
+T130	Person-Pronoun 1341 1342	他
+*	Coreference T130 T127
+T131	Metric 1346 1348	6尺
+T132	Thing-Nominal 1345 1346	纸
+T133	Thing-Nominal 1346 1349	6尺宣
+T134	Person-Pronoun 1353 1354	他
+T135	Thing-Nominal 1391 1394	红地毯
+T137	Thing-Nominal 1383 1386	大背头
+T136	Thing-Nominal 1372 1373;1374 1375	左 手
+R29	Part-Whole Arg1:T136 Arg2:T134	
+R30	Part-Whole Arg1:T137 Arg2:T134	
+T138	Thing-Nominal 1387 1389	左脚
+R31	Part-Whole Arg1:T138 Arg2:T134	
+T139	Thing-Nominal 1402 1405	右脚掌
+R32	Part-Whole Arg1:T139 Arg2:T134	
+T140	Thing-Nominal 1406 1407	地
+T141	Thing-Nominal 1414 1416	墨汁
+T142	Thing-Nominal 1417 1419	左手
+T143	Thing-Nominal 1420 1424	右手衣袖
+T144	Thing-Nominal 1435 1437	毛笔
+T145	Thing-Nominal 1438 1440	宣纸
+T146	Thing-Nominal 1462 1464	墨汁
+T147	Metric 1470 1472	6尺
+T148	Thing-Nominal 1511 1512	头
+T149	Person-Nominal 1522 1524	人们
+T150	Thing-Nominal 1530 1531	笔
+T151	Person-Pronoun 1540 1541	他
+T152	Time-Implicit 1581 1583	此刻
+T153	Location-Nominal 1587 1589	厅堂
+T154	Person-Nominal 1596 1598	人们
+T155	Metric 1607 1610	数秒钟
+T156	Person-Nominal 1617 1620	日本人
+T157	Person-Nominal 1628 1631	中国人
+T158	Person-Name 1663 1667	“无不为
+T159	Abstract 1667 1669	书法
+T160	Person-Nominal 1679 1681	有人
+T161	Person-Name 1691 1694	无不为
+T162	Abstract 1694 1696	书法

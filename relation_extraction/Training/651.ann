@@ -1,0 +1,286 @@
+T1	Location-Name 2 8	城边的王岩村
+T2	Person-Nominal 9 11	母亲
+T3	Thing-Nominal 16 19	两顿饭
+R1	Create Arg1:T2 Arg2:T3	
+T4	Person-Nominal 25 27	父亲
+R2	Family Arg1:T4 Arg2:T2	
+T5	Thing-Nominal 52 55	垃圾袋
+T6	Person-Nominal 57 59	母亲
+T7	Location-Name 63 67	照金老家
+T8	Thing-Nominal 85 89	那只奶羊
+T9	Person-Pronoun 90 91	他
+*	Coreference T9 T4
+T10	Thing-Nominal 97 99	那羊
+*	Coreference T10 T8 T19
+T11	Thing-Nominal 99 101	奶水
+T12	Person-Nominal 106 108	父亲
+T13	Person-Nominal 109 111	母亲
+T14	Person-Nominal 112 117	邻家的老人
+R3	Social Arg1:T14 Arg2:T13	
+R4	Social Arg1:T14 Arg2:T12	
+T15	Person-Nominal 122 124	孩子
+R5	Social Arg1:T15 Arg2:T13	
+R6	Social Arg1:T15 Arg2:T12	
+T16	Metric 132 136	一碗半碗
+T17	Thing-Nominal 141 144	奶粉钱
+T18	Person-Nominal 150 152	父亲
+T19	Thing-Nominal 154 156	奶羊
+T20	Time-Implicit 169 171	每天
+T21	Person-Nominal 184 189	自己的孙儿
+T22	Person-Pronoun 184 186	自己
+*	Coreference T22 T18
+T23	Thing-Nominal 202 207	殷实的草料
+T24	Thing-Nominal 208 216	晒成干崩的垫圈土
+T25	Location-Nominal 236 239	城边上
+T26	Person-Nominal 240 242	父亲
+T27	Thing-Nominal 240 243;244 245	父亲两 手
+R7	Part-Whole Arg1:T27 Arg2:T26	
+T28	Thing-Nominal 259 260	饭
+T29	Location-Nominal 262 265	街门口
+T30	Time-Implicit 270 272	中午
+T31	Metric 275 278	半点钟
+T32	Thing-Nominal 273 274	床
+T33	Time-Implicit 279 281	晚间
+T34	Thing-Nominal 283 285	电视
+T35	Thing-Nominal 290 293	收音机
+T36	Person-Pronoun 309 310	我
+T37	Person-Nominal 312 314	父亲
+R8	Family Arg1:T36 Arg2:T37	
+R9	Family Arg1:T36 Arg2:T13	
+T38	Person-Nominal 334 340	自己这个儿子
+*	Coreference T38 T36
+T39	Location-Nominal 349 353	姨夫家里
+T40	Person-Nominal 349 351	姨夫
+R10	Family Arg1:T40 Arg2:T36	
+R11	Family Arg1:T40 Arg2:T37	
+R12	Family Arg1:T6 Arg2:T40	
+T41	Person-Pronoun 362 363	我
+T42	Time-Implicit 368 370	那天
+T43	Person-Pronoun 370 371	我
+T44	Person-Nominal 372 377	妻子、女儿
+R13	Family Arg1:T44 Arg2:T43	
+T45	Location-Nominal 378 381	姨夫家
+*	Coreference T45 T39
+T46	Person-Nominal 384 386	姨夫
+T47	Location-Nominal 389 395	王岩村的近旁
+T48	Location-Name 389 392	王岩村
+T49	Person-Nominal 396 398	父亲
+T50	Person-Nominal 399 401	母亲
+T51	Location-Nominal 402 404	城边
+T52	Person-Nominal 406 407;408 416	姨 夫这一家要紧亲戚
+T53	Person-Nominal 417 420	其余人
+T54	Person-Nominal 434 436	姨夫
+T55	Time-Implicit 431 434	闲聊时
+T56	Person-Nominal 441 443	你爸
+*	Coreference T56 T37
+T57	Location-Nominal 451 453	城里
+T58	Person-Nominal 455 457	山里
+T59	Thing-Nominal 462 464	眼睛
+R14	Part-Whole Arg1:T59 Arg2:T56	
+T60	Thing-Nominal 469 474	一副石头镜
+T61	Metric 469 471	一副
+T62	Person-Nominal 478 480	姨夫
+T63	Thing-Nominal 482 484	蒲扇
+R15	Use Arg1:T62 Arg2:T63	
+T64	Person-Nominal 490 492	你爸
+T65	Person-Pronoun 500 501	我
+*	Coreference T65 T62
+T66	Person-Name 502 514	在街上开眼镜店的邻家二牛
+R16	Social Arg1:T66 Arg2:T65	
+T67	Metric 526 529;530 532	三百六 十元
+T68	Person-Nominal 533 535	你爸
+T69	Metric 541 544	二百块
+T70	Person-Pronoun 551 552	他
+T71	Person-Pronoun 563 564	我
+T72	Person-Nominal 574 576	父亲
+T73	Person-Pronoun 583 584	他
+T74	Metric 515 517	一副
+T75	Person-Nominal 601 603	父亲
+T76	Person-Nominal 609 617	有俩钱就烧包的人
+T77	Person-Nominal 620 622	妻子
+T78	Person-Pronoun 658 659	我
+R17	Family Arg1:T77 Arg2:T78	
+T79	Thing-Nominal 631 638	可有可无的东西
+T80	Thing-Pronoun 629 630	那
+*	Coreference T80 T60 T81
+R18	General-Special Arg1:T79 Arg2:T80	
+T81	Thing-Nominal 662 664	眼镜
+T82	Person-Nominal 664 666	妻子
+T83	Person-Pronoun 675 677	我俩
+T84	Time-Implicit 686 693	还房贷的这几年
+T85	Thing-Nominal 694 701	家里的吃穿用度
+T86	Thing-Nominal 720 728	可买可不买的东西
+T87	Person-Nominal 733 735	姨夫
+T88	Thing-Nominal 737 740	一支烟
+T89	Metric 737 739	一支
+R19	Use Arg1:T87 Arg2:T88	
+T90	Person-Pronoun 744 746	我们
+*	Coreference T90 T83
+T91	Person-Nominal 748 750	你爸
+T92	Thing-Nominal 755 757	眼镜
+T93	Person-Name 778 780	二牛
+*	Coreference T93 T66
+T94	Person-Nominal 787 789	你爸
+T95	Thing-Nominal 781 783	眼镜
+T96	Thing-Nominal 803 805	脑勺
+R20	Part-Whole Arg1:T96 Arg2:T94	
+T97	Time-Implicit 809 812	年轻时
+T98	Thing-Nominal 831 835	石头眼镜
+T99	Time-Implicit 838 840	那时
+T100	Location-Nominal 840 842	家里
+T101	Person-Nominal 846 847	人
+T102	Metric 852 855	好多年
+T103	Metric 860 862	七十
+T104	Time-Implicit 856 858	如今
+T105	Person-Nominal 864 866	孙女
+R21	Family Arg1:T105 Arg2:T94	
+R22	Family Arg1:T105 Arg2:T90	
+R23	Part-Whole Arg1:T78 Arg2:T83	
+R24	Part-Whole Arg1:T82 Arg2:T83	
+T106	Person-Pronoun 873 875	自己
+*	Coreference T106 T94
+T107	Person-Pronoun 889 891	自己
+T108	Metric 881 883	几天
+T109	Location-Nominal 878 880	世上
+T110	Thing-Nominal 889 897	自己亲手买的石头
+R25	Ownership Arg1:T107 Arg2:T110	
+T111	Person-Nominal 900 903	乡亲们
+R26	Social Arg1:T111 Arg2:T106	
+T112	Location-Nominal 900 905	乡亲们眼前
+T113	Person-Nominal 911 919	那些小瞧自己的人
+R27	Part-Whole Arg1:T113 Arg2:T111	
+T114	Location-Nominal 927 929	世上
+T115	Person-Nominal 934 936	你爸
+T116	Thing-Nominal 937 940	石头镜
+T117	Person-Nominal 948 950	姨夫
+T118	Person-Pronoun 963 964	我
+T119	Person-Nominal 966 968	姨夫
+T120	Person-Nominal 998 1000	父亲
+T121	Person-Nominal 1002 1015	其他有身份有文化的城里老人
+T122	Person-Pronoun 1020 1022	自己
+*	Coreference T122 T120
+T123	Person-Pronoun 1031 1033	我们
+T124	Person-Nominal 1048 1050	老人
+T125	Person-Nominal 1071 1073	儿女
+T126	Location-Nominal 1087 1092	回家的路上
+T127	Person-Pronoun 1093 1094	我
+T128	Person-Nominal 1101 1103	姨夫
+T129	Person-Nominal 1112 1114	父亲
+T130	Time-Implicit 1120 1122	晚上
+T131	Person-Pronoun 1123 1124	我
+T132	Organization-Nominal 1137 1140	我们家
+T133	Location-Nominal 1144 1146	家里
+T134	Organization-Nominal 1154 1163	村里数一数二的穷户
+R28	General-Special Arg1:T134 Arg2:T132	
+T135	Person-Nominal 1164 1166	父亲
+T136	Person-Nominal 1187 1193	我们兄妹三个
+R29	Family Arg1:T136 Arg2:T135	
+T137	Person-Pronoun 1230 1232	我们
+T138	Person-Pronoun 1233 1235	自己
+T139	Person-Pronoun 1249 1250	我
+T140	Person-Pronoun 1255 1257	自己
+T141	Person-Nominal 1267 1269	父亲
+T142	Person-Nominal 1275 1277	女儿
+T143	Location-Nominal 1278 1281	阳台上
+T144	Thing-Nominal 1283 1293	一本包装精美的故事书
+R30	Located Arg1:T144 Arg2:T143	
+R31	Use Arg1:T142 Arg2:T144	
+T145	Thing-Nominal 1301 1304	插图画
+R32	Located Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1314 1317	近视镜
+T147	Person-Nominal 1320 1322	女儿
+R33	Family Arg1:T142 Arg2:T139	
+T148	Person-Pronoun 1331 1332	我
+T149	Person-Pronoun 1346 1347	我
+T150	Thing-Nominal 1357 1362	女儿的眼镜
+R34	Family Arg1:T142 Arg2:T82	
+T151	Time-Implicit 1363 1366	过完年
+T152	Location-Nominal 1372 1374	门前
+T153	Location-Name 1375 1380	新华眼镜店
+T154	Metric 1381 1383	一副
+T155	Person-Nominal 1388 1390	妻子
+T156	Location-Name 1393 1395	西安
+T157	Location-Nominal 1410 1416	省城的大医院
+T158	Metric 1425 1429	630元
+T159	Metric 1440 1443	一千元
+T160	Person-Pronoun 1503 1504	我
+T161	Person-Nominal 1544 1546	父亲
+T162	Person-Nominal 1556 1558	女儿
+T163	Thing-Nominal 1573 1582	一架极为不等的天平
+T164	Metric 1573 1575	一架
+T165	Person-Pronoun 1596 1597	我
+T166	Person-Nominal 1601 1603	父亲
+T167	Person-Nominal 1604 1609	过往的亲人
+R35	General-Special Arg1:T167 Arg2:T166	
+T168	Person-Nominal 1611 1621	我们生命终极的补给者
+R36	General-Special Arg1:T168 Arg2:T166	
+T169	Person-Pronoun 1650 1652	我们
+T170	Person-Pronoun 1653 1654	他
+*	Coreference T170 T166
+T171	Person-Nominal 1653 1661	他根上抽出的新枝
+T172	Person-Pronoun 1665 1666	他
+T173	Thing-Nominal 1665 1669	他的汁液
+*	Coreference T171 T169 T137 T136
+T174	Person-Pronoun 1693 1694;1695 1696	他 们
+T175	Person-Nominal 1703 1705	女儿
+T176	Person-Nominal 1707 1709	女儿
+T177	Person-Pronoun 1712 1714	我们
+T178	Person-Nominal 1726 1737	我们枝头光华夺目的果实
+*	Coreference T178 T176
+T179	Person-Pronoun 1741 1743	我们
+T180	Thing-Nominal 1764 1767	石头镜
+T181	Person-Pronoun 1784 1785	我
+T182	Thing-Nominal 1802 1813	我们看来可有可无的东西
+T183	Person-Nominal 1815 1817	父亲
+T184	Person-Pronoun 1830 1831	我
+T185	Person-Nominal 1846 1848	父亲
+T186	Thing-Nominal 1850 1854	他的眼镜
+R37	Ownership Arg1:T185 Arg2:T186	
+T187	Time-Implicit 1836 1845	多少长夜难眠的晚上
+T188	Person-Pronoun 1860 1861	他
+T189	Person-Nominal 1864 1867	乡亲们
+T190	Person-Pronoun 1892 1893	他
+T191	Person-Nominal 1895 1919	左邻右舍的老人、大街闹市里的老人、电视片里的老人
+T192	Thing-Nominal 1922 1923;1924 1931	光 洁莹润的石头镜
+R38	Use Arg1:T191 Arg2:T192	
+T193	Time-Implicit 1936 1939	那一刻
+T194	Person-Nominal 1940 1942	父亲
+T195	Person-Pronoun 1970 1972	自己
+*	Coreference T195 T194 T222
+T196	Person-Nominal 1977 1979	儿女
+T197	Person-Pronoun 1981 1983	自己
+T198	Time-Implicit 1991 1993	晚上
+T199	Location-Nominal 1995 1997	广场
+T200	Person-Nominal 2002 2004	岳母
+T201	Person-Nominal 2008 2010	妻子
+R39	Family Arg1:T200 Arg2:T201	
+R40	Family Arg1:T200 Arg2:T184	
+T202	Person-Nominal 2012 2016	妻弟媳妇
+R41	Family Arg1:T202 Arg2:T201	
+T203	Thing-Nominal 2023 2025	眼睛
+R42	Part-Whole Arg1:T203 Arg2:T202	
+T204	Person-Nominal 2034 2039	肚里的孩子
+R43	Family Arg1:T204 Arg2:T202	
+T205	Location-Name 2043 2045	西安
+T206	Person-Nominal 2048 2050	妻子
+T207	Thing-Nominal 2053 2055	手机
+T208	Thing-Nominal 2062 2064	眼睛
+T209	Person-Nominal 2067 2069	胎儿
+T210	Location-Nominal 2081 2084	县医院
+T211	Location-Nominal 2085 2088	市医院
+T212	Person-Nominal 2108 2110	岳母
+T213	Person-Nominal 2129 2131	妻子
+T214	Person-Nominal 2153 2155	父母
+T215	Person-Nominal 2156 2158	孩子
+R44	Family Arg1:T215 Arg2:T214	
+T216	Person-Nominal 2179 2181	孩子
+T217	Person-Nominal 2182 2184	父母
+T218	Abstract 2235 2240	母爱，父爱
+T219	Person-Nominal 2254 2256	妻子
+T220	Metric 2256 2258	半晌
+T221	Location-Nominal 2279 2282	眼镜店
+T222	Person-Nominal 2289 2291	咱爸
+T223	Thing-Nominal 2292 2299	那副‘竹叶青’
+R45	Ownership Arg1:T222 Arg2:T223	
+T224	Person-Pronoun 2302 2303	我
+T225	Person-Nominal 2324 2326	妻子

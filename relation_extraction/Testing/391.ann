@@ -1,0 +1,281 @@
+T1	Person-Name 3 6	老张头
+T2	Time-Implicit 11 13	晚上
+T3	Thing-Nominal 42 45	那声音
+T4	Person-Nominal 61 62	人
+T5	Person-Nominal 88 90	老伴
+R1	Family Arg1:T5 Arg2:T1	
+T6	Person-Nominal 96 98	俩人
+T7	Thing-Nominal 98 102	一个床上
+T8	Metric 104 107	一辈子
+T9	Thing-Nominal 121 122	雷
+T10	Person-Pronoun 124 125	她
+*	Coreference T10 T5
+T11	Person-Pronoun 133 134	她
+T12	Person-Name 154 156	老张
+*	Coreference T12 T1 T14
+T13	Person-Pronoun 164 165	她
+T14	Person-Pronoun 174 175	他
+T15	Person-Pronoun 179 180	她
+T16	Thing-Nominal 188 190	声音
+T17	Thing-Nominal 16 18	呼噜
+T18	Thing-Nominal 176 178	呼噜
+*	Coreference T16 T18
+R2	Create Arg1:T14 Arg2:T16	
+R3	Create Arg1:T1 Arg2:T3	
+T19	Person-Pronoun 201 202	她
+T20	Person-Pronoun 244 245	她
+T21	Thing-Nominal 250 252	板床
+T22	Thing-Nominal 255 257	身子
+T23	Person-Pronoun 270 271	她
+T24	Thing-Nominal 273 275	床垫
+T25	Thing-Nominal 278 282	一层褥子
+T26	Person-Pronoun 288 290	老张
+T27	Person-Pronoun 296 297	她
+T28	Thing-Nominal 303 305	头枕
+T29	Thing-Nominal 311 313	脖儿
+T30	Thing-Nominal 317 319	喉咙
+T31	Thing-Nominal 314 316	气息
+T32	Person-Pronoun 331 332	她
+T33	Thing-Nominal 334 336	枕头
+T34	Thing-Nominal 342 351	一个筒状的老式枕套
+R4	Create Arg1:T32 Arg2:T34	
+T35	Thing-Nominal 353 356;357 361	秋天采 来的野子
+T36	Person-Pronoun 383 384	谁
+T37	Person-Name 391 393	老张
+T38	Thing-Nominal 394 396	呼噜
+R5	Create Arg1:T37 Arg2:T38	
+T39	Person-Nominal 403 405	老伴
+T40	Person-Pronoun 420 421	她
+T41	Thing-Nominal 423 424	衣
+T42	Person-Nominal 430 438	鼾声正浓的老头子
+*	Coreference T42 T37 T44 T46
+T43	Person-Pronoun 443 444	她
+T44	Person-Nominal 446 453	你个没心没肺的
+T45	Person-Nominal 454 456	儿女
+R6	Family Arg1:T45 Arg2:T44	
+R7	Family Arg1:T45 Arg2:T43	
+T46	Person-Pronoun 463 464	你
+T47	Person-Pronoun 479 480	你
+T48	Person-Pronoun 496 497	你
+T49	Thing-Nominal 512 513	烟
+T50	Person-Name 521 523	老张
+T51	Person-Nominal 531 533	老伴
+T52	Thing-Nominal 538 542	他的脸子
+R8	Part-Whole Arg1:T52 Arg2:T50	
+T53	Person-Nominal 545 549	你个老东
+*	Coreference T53 T50
+T54	Person-Pronoun 561 562	我
+*	Coreference T54 T51
+T55	Person-Pronoun 564 565	我
+T56	Person-Pronoun 573 574	你
+T57	Person-Pronoun 581 582	你
+T58	Person-Pronoun 587 588	我
+T59	Person-Pronoun 599 600	我
+T60	Person-Pronoun 603 604	你
+T61	Person-Name 617 619	老张
+T62	Person-Pronoun 623 624	她
+T63	Person-Nominal 628 630	老伴
+T64	Person-Pronoun 634 635	他
+T65	Person-Nominal 638 644	你个没良心的
+*	Coreference T65 T64
+T66	Time-Implicit 647 652	长病那几年
+T67	Person-Pronoun 652 653	我
+T68	Person-Pronoun 657 658	你
+T69	Person-Pronoun 660 661	你
+T70	Person-Pronoun 665 666	我
+T71	Person-Pronoun 669 670	你
+T72	Thing-Nominal 671 674	小米粥
+R9	Create Arg1:T70 Arg2:T72	
+T73	Thing-Nominal 677 678	你
+T74	Thing-Nominal 679 681	山药
+T75	Person-Pronoun 689 690	我
+T76	Person-Pronoun 691 692	你
+T77	Person-Pronoun 701 702	你
+T78	Person-Pronoun 710 711	你
+T79	Person-Pronoun 713 714	我
+T80	Person-Pronoun 724 725	她
+T81	Person-Pronoun 730 731	她
+T82	Person-Pronoun 735 736	他
+T83	Person-Pronoun 745 746	他
+T84	Person-Pronoun 765 766	他
+T85	Person-Nominal 769 779;780 784	那个从文化局退休的漂 亮的会计
+R10	Social Arg1:T84 Arg2:T85	
+T86	Person-Nominal 785 787	两人
+T87	Person-Nominal 789 793	铁杆舞伴
+R11	General-Special Arg1:T87 Arg2:T86	
+T88	Person-Pronoun 795 796	她
+T89	Person-Pronoun 797 798	他
+T90	Thing-Nominal 804 808	唾沫星子
+T91	Location-Nominal 810 813	他脸上
+T92	Person-Name 814 816	老张
+T93	Thing-Nominal 820 822	身子
+R12	Ownership Arg1:T92 Arg2:T93	
+T94	Person-Pronoun 834 835	她
+T95	Person-Nominal 837 840	老东西
+*	Coreference T95 T92
+T96	Person-Nominal 851 855	那个舞伴
+*	Coreference T96 T85
+T97	Person-Pronoun 866 867	她
+T98	Thing-Nominal 869 872	铺盖卷
+T99	Location-Nominal 876 881	另一间卧室
+T100	Location-Nominal 886 888	地方
+R13	General-Special Arg1:T100 Arg2:T99	
+T101	Person-Pronoun 893 894	他
+T102	Person-Pronoun 899 900	她
+T103	Thing-Nominal 903 905	头枕
+T104	Person-Pronoun 910 911	他
+T105	Thing-Nominal 911 914	一条腿
+R14	Part-Whole Arg1:T105 Arg2:T104	
+T106	Person-Pronoun 924 925	他
+T107	Thing-Nominal 928 930	被子
+T108	Thing-Nominal 938 939	牛
+T109	Person-Pronoun 946 947	我
+T110	Person-Pronoun 951 952	她
+*	Coreference T110 T109
+T111	Thing-Nominal 962 964	被窝
+T112	Person-Nominal 973 974	人
+T113	Time-Implicit 986 988	当年
+T114	Thing-Nominal 998 1000	电影
+T115	Person-Pronoun 1003 1004	她
+T116	Person-Pronoun 1011 1012	她
+T117	Person-Pronoun 1018 1020	他们
+T118	Time-Implicit 1028 1030	那年
+T119	Organization-Nominal 1031 1033	乡里
+T120	Organization-Nominal 1034 1036	村里
+T121	Person-Nominal 1038 1042	文艺骨干
+T122	Location-Nominal 1044 1046	县里
+T123	Thing-Nominal 1044 1049	县里的汇演
+T124	Person-Pronoun 1050 1052	他俩
+*	Coreference T124 T117 T142
+T125	Person-Pronoun 1061 1062	他
+T126	Person-Pronoun 1065 1066	她
+R15	Part-Whole Arg1:T125 Arg2:T124	
+R16	Part-Whole Arg1:T126 Arg2:T124	
+T127	Time-Implicit 1055 1057	那时
+T128	Person-Pronoun 1069 1070	她
+T129	Person-Pronoun 1073 1074	他
+T130	Location-Nominal 1070 1072	台上
+T131	Location-Nominal 1074 1076	台下
+T132	Person-Pronoun 1091 1092	她
+T133	Person-Nominal 1093 1096	李二嫂
+T134	Person-Pronoun 1097 1098	他
+T135	Thing-Nominal 1099 1104	一把大二胡
+R17	Use Arg1:T134 Arg2:T135	
+T136	Location-Nominal 1109 1111	台上
+T137	Thing-Nominal 1112 1114	二胡
+*	Coreference T137 T135 T138
+T138	Thing-Nominal 1120 1122	胡琴
+T139	Person-Pronoun 1125 1126	她
+T140	Location-Nominal 1136 1138	台下
+T141	Thing-Nominal 1138 1142	一片掌声
+R18	Located Arg1:T141 Arg2:T140	
+T142	Person-Nominal 1155 1157	两人
+T143	Person-Pronoun 1161 1162	他
+T144	Thing-Nominal 1173 1175	二胡
+T145	Person-Pronoun 1177 1178	她
+T146	Thing-Nominal 1179 1180	牙
+T147	Thing-Nominal 1181 1182	齿
+T148	Person-Pronoun 1210 1211	她
+T149	Thing-Nominal 1222 1224	声音
+T150	Person-Pronoun 1232 1233	她
+T151	Thing-Nominal 1238 1239	门
+T152	Thing-Nominal 1245 1248	呼噜声
+R19	Create Arg1:T143 Arg2:T152	
+T153	Person-Nominal 1250 1255	调皮的孩子
+T154	Person-Pronoun 1264 1265	她
+T155	Thing-Nominal 1268 1270	房门
+*	Coreference T155 T151
+T156	Person-Pronoun 1277 1278	她
+T157	Person-Pronoun 1290 1291	她
+T158	Person-Pronoun 1293 1294	他
+T159	Metric 1294 1297	一辈子
+T160	Person-Pronoun 1303 1304	他
+T161	Person-Pronoun 1305 1306	她
+T162	Person-Pronoun 1312 1313	他
+T163	Organization-Nominal 1314 1316	家庭
+T164	Person-Pronoun 1331 1332	他
+T165	Person-Pronoun 1334 1335	她
+T166	Thing-Nominal 1336 1337;1338 1339	电 视
+T167	Thing-Nominal 1343 1349	一个专家讲座
+T168	Thing-Nominal 1351 1354	打呼噜
+T169	Thing-Nominal 1355 1359	一种疾病
+R20	General-Special Arg1:T169 Arg2:T168	
+T170	Person-Nominal 1369 1372	老头子
+T171	Person-Pronoun 1378 1379	她
+T172	Thing-Nominal 1389 1390	门
+T173	Thing-Nominal 1402 1405	呼噜声
+T174	Person-Pronoun 1410 1411	她
+T175	Person-Nominal 1418 1421	老头子
+T176	Thing-Nominal 1429 1432	那声音
+*	Coreference T176 T173
+T177	Person-Pronoun 1442 1443	她
+T178	Location-Nominal 1451 1456	自己的房间
+T179	Person-Pronoun 1451 1453	自己
+*	Coreference T179 T177
+T180	Person-Pronoun 1458 1459	她
+T181	Person-Pronoun 1484 1485	她
+T182	Thing-Nominal 1492 1495	铺盖卷
+R21	Use Arg1:T181 Arg2:T182	
+T183	Person-Nominal 1501 1504	老头子
+T184	Person-Pronoun 1511 1512	他
+T185	Person-Pronoun 1516 1517	她
+T186	Person-Nominal 1527 1531	少年夫妻
+T187	Person-Pronoun 1551 1552	她
+T188	Person-Pronoun 1556 1557	他
+T189	Thing-Nominal 1562 1570	一条腿和一只胳膊
+R22	Part-Whole Arg1:T189 Arg2:T188	
+T190	Location-Nominal 1574 1577	她身上
+R23	Located Arg1:T189 Arg2:T190	
+T191	Location-Nominal 1594 1598	她的脸上
+T192	Thing-Nominal 1585 1590	呼呼的气息
+R24	Located Arg1:T192 Arg2:T191	
+T193	Person-Pronoun 1599 1600	她
+T194	Thing-Nominal 1603 1609	他的腿和胳膊
+*	Coreference T194 T189
+T195	Person-Pronoun 1615 1616	他
+T196	Person-Pronoun 1624 1625	她
+T197	Person-Pronoun 1628 1630	他俩
+T198	Time-Implicit 1637 1640	那晚上
+T199	Time-Implicit 1628 1636	他俩结婚的那晚上
+*	Coreference T198 T199
+T200	Person-Nominal 1641 1645	闹房的人
+R25	Social Arg1:T200 Arg2:T197	
+T201	Person-Pronoun 1648 1649	他
+T202	Person-Pronoun 1651 1652	你
+*	Coreference T202 T196
+T203	Person-Pronoun 1658 1659	她
+T204	Person-Pronoun 1664 1665	我
+*	Coreference T204 T203
+T205	Time-Implicit 1672 1676	深更半夜
+T206	Person-Pronoun 1677 1678	他
+T207	Person-Pronoun 1679 1680	她
+T208	Time-Implicit 1689 1692	那晚上
+T209	Person-Pronoun 1692 1693	她
+T210	Person-Pronoun 1723 1724	我
+T211	Person-Nominal 1737 1739	敌人
+T212	Person-Nominal 1745 1748	六兄弟
+T213	Location-Nominal 1753 1754	家
+T214	Location-Nominal 1709 1712	前方上
+T215	Person-Pronoun 1764 1765	她
+T216	Thing-Nominal 1771 1773	二胡
+T217	Person-Pronoun 1768 1769	他
+T218	Person-Nominal 1782 1787	俺的李二嫂
+*	Coreference T218 T215
+T219	Person-Pronoun 1789 1790	她
+T220	Location-Nominal 1797 1799	床上
+T221	Person-Pronoun 1806 1807	她
+T222	Person-Pronoun 1813 1814	她
+T223	Person-Pronoun 1823 1824	他
+T224	Thing-Nominal 1825 1829	两个白头
+T225	Thing-Nominal 1836 1846	两朵并蒂盛开的白菊花
+T226	Person-Pronoun 1847 1848	她
+T227	Person-Nominal 1857 1861	个老东西
+*	Coreference T227 T223
+T228	Person-Pronoun 1876 1877	她
+T229	Person-Nominal 1883 1886	老头子
+T230	Person-Pronoun 1895 1896	他
+*	Coreference T230 T229
+T231	Person-Pronoun 1903 1904	她
+T232	Person-Pronoun 1913 1914	她
+T233	Thing-Nominal 1919 1924	呼吸的声音
+R26	Create Arg1:T232 Arg2:T233	

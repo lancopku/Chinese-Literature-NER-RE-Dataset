@@ -1,0 +1,244 @@
+T1	Thing-Nominal 0 1	月
+T2	Thing-Nominal 2 3	星
+T3	Thing-Nominal 15 17	霓虹
+T4	Thing-Nominal 18 20	树影
+T5	Thing-Nominal 22 27	游人的影子
+T6	Location-Name 37 44	月湖公园麻石地
+T7	Location-Nominal 46 48	草坪
+R1	Located Arg1:T5 Arg2:T6	
+R2	Located Arg1:T5 Arg2:T7	
+R3	Located Arg1:T4 Arg2:T6	
+R4	Located Arg1:T4 Arg2:T7	
+T8	Location-Nominal 51 52	湖
+T9	Location-Name 37 39	月湖
+*	Coreference T8 T9
+T11	Thing-Nominal 73 76	小茶几
+T12	Thing-Nominal 82 85	小躺椅
+T10	Thing-Nominal 55 58	桂树下
+R5	Near Arg1:T10 Arg2:T8	
+R6	Near Arg1:T11 Arg2:T8	
+R7	Near Arg1:T12 Arg2:T8	
+T13	Person-Pronoun 87 88	我
+T14	Person-Nominal 89 91	伊人
+T15	Thing-Nominal 103 105	桂树
+T16	Thing-Nominal 124 128	两杯绿茶
+T17	Thing-Nominal 157 159	茶汁
+T18	Thing-Nominal 170 172	霓虹
+T19	Location-Nominal 176 178	城市
+T20	Person-Pronoun 182 183	我
+T21	Thing-Nominal 187 190	小茶桌
+T22	Person-Nominal 193 195	伊人
+T23	Person-Nominal 196 198	伊人
+T24	Location-Nominal 209 211	湖面
+T25	Thing-Nominal 218 219	茶
+T26	Thing-Nominal 222 223	花
+T27	Person-Pronoun 229 230	我
+T28	Person-Nominal 233 235	伊人
+T29	Person-Nominal 257 259	常人
+T30	Location-Nominal 274 276	湖面
+R8	Social Arg1:T13 Arg2:T14	
+T31	Thing-Nominal 289 291	小船
+R9	Located Arg1:T31 Arg2:T30	
+T32	Person-Nominal 292 294	情侣
+T33	Thing-Nominal 311 313	鸳鸯
+T34	Person-Pronoun 315 316	我
+T35	Person-Nominal 318 320	自己
+*	Coreference T34 T35
+T36	Person-Nominal 370 373	玉观音
+T37	Location-Name 386 388	月湖
+T38	Time-Implicit 405 408	千万年
+T39	Person-Pronoun 413 414	我
+T40	Thing-Nominal 420 422	霓虹
+T41	Thing-Pronoun 423 424	你
+*	Coreference T41 T40
+T42	Person-Pronoun 428 429	我
+T43	Thing-Nominal 437 439	霓虹
+T44	Person-Pronoun 451 452	我
+T45	Thing-Nominal 459 461	霓虹
+T46	Person-Pronoun 470 471	你
+*	Coreference T46 T44 T47
+T47	Person-Pronoun 496 497	你
+T48	Thing-Nominal 510 512	电话
+T49	Physical 506 508	短信
+T50	Person-Pronoun 517 518	你
+T51	Person-Pronoun 543 544	你
+*	Coreference T51 T50
+T52	Thing-Nominal 551 553	QQ
+T53	Person-Nominal 588 591	那个人
+T54	Person-Pronoun 621 622	我
+T55	Thing-Nominal 626 628	星星
+T56	Thing-Pronoun 629 630	你
+*	Coreference T56 T55
+T57	Person-Pronoun 633 634	我
+T58	Thing-Nominal 652 654	繁星
+T59	Thing-Nominal 662 664	太空
+T60	Thing-Nominal 665 667	太空
+T61	Thing-Nominal 692 694	星星
+T62	Person-Name 747 750	马克思
+T63	Person-Name 751 753	燕妮
+T64	Person-Name 754 757	孙中山
+T65	Person-Name 758 761	宋庆龄
+R10	Family Arg1:T64 Arg2:T65	
+R11	Family Arg1:T62 Arg2:T63	
+T66	Person-Name 762 765	杨振宁
+T67	Person-Name 766 768	翁帆
+R12	Family Arg1:T66 Arg2:T67	
+T68	Person-Name 769 776	江府小吏焦仲卿
+T69	Person-Name 777 780	刘兰芝
+R13	Family Arg1:T68 Arg2:T69	
+T70	Person-Name 781 782;783 785	梁 山伯
+T71	Person-Name 786 789	祝英台
+R14	Social Arg1:T70 Arg2:T71	
+T72	Person-Name 790 793	柳梦梅
+T73	Person-Name 794 797	杜丽娘
+R15	Family Arg1:T72 Arg2:T73	
+T74	Person-Name 800 803	周有光
+T75	Person-Name 804 807	张永和
+R16	Family Arg1:T74 Arg2:T75	
+T76	Person-Name 808 810	巴金
+T77	Person-Name 811 813	肖珊
+R17	Family Arg1:T76 Arg2:T77	
+T78	Time-Implicit 827 830	近现代
+T79	Thing-Nominal 849 850	蝶
+T80	Time-Implicit 854 856	古代
+T81	Person-Nominal 915 919	饮食男女
+T82	Abstract 936 939	生命学
+T83	Abstract 939 942	社会学
+T84	Abstract 942 945	经济学
+T85	Abstract 945 948	伦理学
+T86	Person-Pronoun 1003 1004	我
+T87	Abstract 1025 1027	哲学
+T88	Person-Nominal 1035 1037	诸君
+T89	Person-Nominal 1052 1054	仁者
+T90	Person-Nominal 1056 1058	智者
+T91	Time-Explicit 1065 1071	1843年秋
+T92	Person-Name 1072 1083	法国文学家路易・维亚多
+T93	Person-Name 1084 1089	妻子波丽娜
+R18	Family Arg1:T92 Arg2:T93	
+T94	Organization-Name 1090 1097	圣彼德堡歌剧团
+T95	Location-Name 1098 1101	莫斯科
+R19	Ownership Arg1:T93 Arg2:T94	
+T96	Person-Name 1105 1115	俄国大文学家屠格涅夫
+T97	Person-Name 1120 1124	屠格涅夫
+T98	Person-Name 1126 1129	波丽娜
+T99	Time-Implicit 1134 1139	演出结束后
+T100	Person-Name 1140 1143	波丽娜
+T101	Organization-Nominal 1144 1145	团
+*	Coreference T101 T94
+T102	Location-Name 1147 1149	俄国
+T103	Person-Name 1150 1154	屠格涅夫
+T104	Thing-Nominal 1159 1160	茶
+T105	Thing-Nominal 1160 1161	饭
+T106	Person-Nominal 1173 1183	内务府办公厅十等文官
+*	Coreference T103 T106
+T107	Organization-Nominal 1173 1179	内务府办公厅
+R20	Ownership Arg1:T103 Arg2:T107	
+T108	Person-Name 1191 1194	波丽娜
+T109	Location-Name 1198 1200	俄国
+T110	Location-Name 1205 1222	巴黎东南的库尔塔弗内尔的维亚多庄园
+T111	Location-Name 1230 1236	库尔塔弗内尔
+T112	Person-Name 1240 1244	屠格涅夫
+T113	Time-Implicit 1244 1246	白天
+T114	Time-Implicit 1249 1251	晚上
+T115	Person-Name 1255 1258	波丽娜
+T116	Person-Pronoun 1281 1282	她
+*	Coreference T116 T115
+T117	Person-Pronoun 1288 1289	他
+*	Coreference T117 T112
+T118	Thing-Nominal 1296 1298	长信
+T119	Person-Pronoun 1309 1310	他
+T120	Person-Name 1333 1337	屠格涅夫
+T121	Person-Name 1347 1350	波丽娜
+T122	Person-Pronoun 1352 1353	他
+*	Coreference T120 T122
+T123	Person-Nominal 1358 1362	第一读者
+T124	Person-Nominal 1363 1366	评论者
+*	Coreference T121 T123 T124
+T125	Person-Pronoun 1367 1369	他们
+T126	Thing-Nominal 1373 1375	鸟儿
+T127	Time-Implicit 1391 1397	夜深人静时候
+T128	Location-Nominal 1404 1409	各自的家里
+T129	Metric 1419 1422	二十年
+T130	Time-Explicit 1423 1428	1864年
+T131	Person-Name 1429 1432	波丽娜
+T132	Location-Name 1436 1441	德国的巴登
+T133	Person-Name 1442 1446	屠格涅夫
+T134	Person-Nominal 1448 1450	家人
+R21	Family Arg1:T133 Arg2:T134	
+R22	Social Arg1:T100 Arg2:T103	
+T135	Location-Name 1456 1458	巴登
+T136	Location-Nominal 1463 1470	波丽娜家的别墅
+T137	Thing-Nominal 1476 1478	宅子
+R23	Near Arg1:T137 Arg2:T136	
+T138	Time-Implicit 1479 1486	普法战争结束后
+T139	Person-Name 1487 1490	波丽娜
+T140	Location-Name 1495 1497	巴黎
+T141	Person-Name 1498 1502	屠格涅夫
+T142	Person-Name 1505 1508	波丽娜
+T143	Location-Name 1514 1520	小镇布日瓦尔
+T144	Thing-Nominal 1525 1529	乡村别墅
+R24	Located Arg1:T144 Arg2:T143	
+T145	Time-Explicit 1533 1538	1883年
+T146	Person-Name 1539 1543	屠格涅夫
+T147	Location-Nominal 1545 1547	别墅
+T148	Thing-Nominal 1551 1552	床
+R25	Located Arg1:T148 Arg2:T147	
+T149	Person-Pronoun 1561 1562	他
+T150	Person-Name 1563 1566	波丽娜
+*	Coreference T149 T146 T152
+R26	Social Arg1:T149 Arg2:T150	
+T151	Metric 1566 1569	四十年
+T152	Person-Nominal 1576 1586	一个名震寰宇的文学家
+T153	Person-Nominal 1589 1609	一个已经有了丈夫只能相望却不能相守的女人
+*	Coreference T150 T153
+T154	Person-Nominal 1744 1746	智者
+T155	Thing-Nominal 1655 1657	春雨
+T156	Thing-Nominal 1661 1662	阳
+T157	Thing-Nominal 1670 1672	霜雪
+T158	Thing-Nominal 1665 1667	秋风
+T159	Person-Name 1769 1772	金岳霖
+T160	Person-Name 1773 1776	梁思成
+T161	Person-Name 1777 1781	林徽因的
+R27	Social Arg1:T159 Arg2:T160	
+R28	Social Arg1:T159 Arg2:T161	
+R29	Family Arg1:T160 Arg2:T161	
+T162	Location-Name 1794 1796	月湖
+T163	Thing-Nominal 1799 1801	高楼
+R30	Near Arg1:T163 Arg2:T162	
+T164	Thing-Nominal 1804 1805	车
+T165	Thing-Nominal 1806 1807	车
+T166	Person-Pronoun 1814 1815	我
+T167	Thing-Nominal 1844 1847	小茶几
+T168	Thing-Nominal 1852 1853	茗
+T169	Person-Pronoun 1880 1881	我
+T170	Location-Nominal 1897 1899	秋池
+T171	Person-Pronoun 1900 1901	我
+T172	Person-Nominal 1904 1906	伊人
+T173	Person-Pronoun 1927 1928	我
+T174	Location-Name 1962 1966	杜甫江阁
+T175	Location-Name 1970 1974	橘子洲头
+T176	Location-Name 1978 1982	洋湖湿地
+T177	Location-Name 1986 1990	湘江岸边
+T178	Location-Nominal 1994 1996	岳麓
+T179	Thing-Nominal 1996 1998	红枫
+R31	Located Arg1:T179 Arg2:T178	
+T180	Thing-Nominal 2058 2059	茶
+T181	Thing-Nominal 2060 2061	茗
+*	Coreference T181 T180
+T182	Thing-Nominal 2066 2073	糯米锅巴家常饭
+T183	Metric 2082 2083;2084 2086	半 个钟
+T184	Location-Nominal 2097 2099	天堂
+T185	Location-Nominal 2101 2103	仙境
+T186	Person-Nominal 2131 2133	有人
+T187	Thing-Nominal 2167 2169	针眼
+T188	Person-Nominal 2214 2216	伊人
+T189	Location-Name 2282 2284	月湖
+T190	Thing-Nominal 2286 2287	车
+T191	Person-Nominal 2298 2300	伊人
+T192	Person-Pronoun 2307 2308	我
+T193	Thing-Nominal 2308 2310	鹦鹉
+T194	Thing-Nominal 2340 2341	茶
+T195	Person-Nominal 2345 2347	伊人
+T196	Thing-Nominal 2356 2357	水
+T197	Time-Implicit 2371 2374	这一晚
+T198	Location-Name 2404 2406	月湖

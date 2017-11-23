@@ -1,0 +1,191 @@
+T1	Time-Explicit 2 5	圣诞节
+T2	Time-Explicit 7 14	每一年的圣诞节
+T3	Time-Implicit 21 24	上一年
+T4	Time-Implicit 25 30	过去许多年
+T5	Location-Nominal 38 43	步行商业街
+T6	Person-Nominal 51 53	行人
+T7	Thing-Nominal 64 66	大包
+T8	Thing-Nominal 66 68	小包
+R1	Ownership Arg1:T6 Arg2:T8	
+R2	Ownership Arg1:T6 Arg2:T7	
+T9	Location-Nominal 70 72	商店
+T10	Location-Nominal 75 77	街道
+T11	Person-Nominal 81 83	人们
+T12	Thing-Nominal 88 90	热气
+T13	Thing-Nominal 97 99	热气
+T14	Thing-Nominal 149 152	圣诞灯
+T16	Person-Nominal 163 167	圣诞老人
+T17	Thing-Nominal 171 174	有些灯
+T15	Thing-Nominal 158 161	有些灯
+R3	Part-Whole Arg1:T15 Arg2:T14	
+R4	Part-Whole Arg1:T17 Arg2:T14	
+T18	Thing-Nominal 176 178	小鹿
+T19	Thing-Nominal 192 194	小灯
+R5	Part-Whole Arg1:T19 Arg2:T14	
+T20	Thing-Nominal 205 206	树
+T21	Thing-Nominal 208 209	树
+R6	Located Arg1:T19 Arg2:T20	
+T22	Thing-Nominal 219 220	房
+T23	Thing-Nominal 222 223	房
+R7	Located Arg1:T19 Arg2:T22	
+T24	Thing-Nominal 240 242	瀑布
+T25	Location-Nominal 248 250	地面
+T26	Thing-Nominal 253 255	小灯
+T27	Thing-Nominal 261 264	火柴头
+T28	Thing-Nominal 278 279	草
+T29	Thing-Nominal 285 286	草
+T30	Thing-Nominal 292 293	沙
+T31	Thing-Nominal 288 289	原
+R8	Part-Whole Arg1:T29 Arg2:T31	
+T32	Thing-Nominal 299 300	沙
+T33	Thing-Nominal 302 303	漠
+R9	Part-Whole Arg1:T32 Arg2:T33	
+T34	Thing-Nominal 307 308	水
+T35	Thing-Nominal 314 315	水
+T36	Thing-Nominal 317 318	洋
+R10	Part-Whole Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 283 286	一片草
+*	Coreference T37 T31
+T38	Thing-Nominal 297 300	一片沙
+*	Coreference T38 T33
+T39	Thing-Nominal 312 315	一片水
+*	Coreference T39 T36
+T40	Thing-Nominal 321 323	小灯
+T41	Thing-Nominal 333 334	星
+T42	Person-Pronoun 346 347	我
+T43	Thing-Nominal 352 355	小星星
+T44	Location-Nominal 357 358	家
+T45	Thing-Pronoun 360 362	他们
+*	Coreference T45 T43 T26
+T46	Location-Nominal 383 384	街
+T47	Thing-Nominal 385 387	窗户
+R11	Near Arg1:T47 Arg2:T46	
+R12	Located Arg1:T45 Arg2:T47	
+T48	Thing-Nominal 395 397	窗户
+T49	Thing-Nominal 409 412	小星星
+T50	Thing-Nominal 415 417	窗子
+T51	Location-Nominal 421 425	左邻右舍
+T52	Thing-Nominal 426 429	小星星
+R13	Located Arg1:T52 Arg2:T51	
+T53	Location-Nominal 430 431	街
+T54	Location-Nominal 434 437	居民家
+R14	Near Arg1:T54 Arg2:T53	
+T55	Thing-Nominal 438 441	小星星
+R15	Located Arg1:T55 Arg2:T54	
+T56	Thing-Nominal 445 448	窗户都
+T57	Thing-Nominal 449 452	小星星
+R16	Located Arg1:T56 Arg2:T57	
+T58	Location-Nominal 462 464	街道
+T59	Thing-Nominal 466 467;468 470	小 星星
+T60	Thing-Nominal 473 474	河
+T61	Thing-Nominal 487 489	星星
+T62	Thing-Nominal 501 504	小星星
+T63	Thing-Nominal 536 538	星星
+T64	Person-Pronoun 539 540	我
+T65	Location-Nominal 545 547	家乡
+T66	Time-Implicit 542 544	童年
+T67	Location-Name 550 553	南京城
+T68	Location-Nominal 557 560	小院子
+R17	Part-Whole Arg1:T68 Arg2:T67	
+T69	Time-Implicit 571 575	夏季晚上
+T70	Thing-Nominal 576 578	青石
+T71	Location-Nominal 581 583	地上
+R18	Located Arg1:T70 Arg2:T71	
+T72	Thing-Nominal 588 589	水
+T73	Organization-Nominal 564 566	人家
+T74	Thing-Nominal 594 596	竹椅
+T75	Thing-Nominal 599 601	竹床
+R19	Located Arg1:T74 Arg2:T68	
+R20	Located Arg1:T75 Arg2:T68	
+T76	Person-Nominal 602 604	大人
+T77	Person-Nominal 608 610	小孩
+R21	Family Arg1:T76 Arg2:T77	
+T78	Thing-Nominal 614 617	萤火虫
+T79	Thing-Nominal 619 621	蛐蛐
+T80	Thing-Nominal 632 634	星星
+T81	Person-Nominal 636 638	人们
+T82	Thing-Nominal 642 644	星星
+T83	Person-Pronoun 649 650	我
+T84	Location-Nominal 490 492	天上
+R22	Located Arg1:T61 Arg2:T84	
+T85	Thing-Nominal 494 496	地上
+*	Coreference T59 T85
+T86	Location-Nominal 498 499	家
+R23	Located Arg1:T62 Arg2:T86	
+T87	Location-Nominal 652 654	老家
+T88	Location-Name 655 659	广东南海
+T89	Location-Nominal 660 664	一个村庄
+R24	Part-Whole Arg1:T89 Arg2:T88	
+T90	Person-Nominal 674 676	外公
+R25	Family Arg1:T83 Arg2:T90	
+T91	Thing-Nominal 676 680	紫砂茶壶
+R26	Ownership Arg1:T90 Arg2:T91	
+T92	Thing-Nominal 687 689	龙眼
+R27	Located Arg1:T92 Arg2:T91	
+T93	Thing-Nominal 690 692	烟斗
+R28	Ownership Arg1:T90 Arg2:T93	
+T94	Person-Pronoun 705 706	我
+T95	Time-Implicit 708 712	几十年前
+T96	Location-Nominal 713 717	苏北农村
+T97	Thing-Nominal 718 720	祖屋
+T98	Thing-Nominal 722 725	小油灯
+R29	Located Arg1:T98 Arg2:T97	
+R30	Located Arg1:T97 Arg2:T96	
+T99	Thing-Nominal 735 737	屋梁
+T100	Thing-Nominal 739 741	鸟窝
+R31	Located Arg1:T99 Arg2:T100	
+T101	Thing-Nominal 742 745	小燕子
+R32	Located Arg1:T101 Arg2:T100	
+T102	Thing-Nominal 759 761	火苗
+T103	Thing-Nominal 726 728	火苗
+R33	Located Arg1:T103 Arg2:T98	
+T104	Person-Nominal 769 771	奶奶
+R34	Family Arg1:T94 Arg2:T104	
+T105	Location-Name 794 796	北京
+T106	Time-Implicit 796 798	夜晚
+T107	Thing-Nominal 799 801	路灯
+R35	Located Arg1:T107 Arg2:T105	
+T108	Time-Explicit 802 810	二十世纪八十年代
+T109	Person-Pronoun 811 813	我们
+T110	Person-Nominal 813 817	几个朋友
+*	Coreference T109 T110
+T111	Location-Nominal 819 821	天桥
+T112	Thing-Nominal 830 832	车灯
+T113	Location-Nominal 837 839	路边
+T114	Thing-Nominal 843 845	高楼
+R36	Located Arg1:T114 Arg2:T113	
+T115	Thing-Nominal 862 863	星
+T116	Thing-Nominal 864 866	灯海
+T117	Person-Pronoun 886 888	你们
+T118	Thing-Nominal 898 900	毛发
+T119	Person-Nominal 910 912	大家
+T120	Time-Implicit 918 920	当年
+T121	Time-Implicit 930 932	当年
+T122	Person-Pronoun 940 942	我们
+T123	Person-Nominal 944 952	新一届大学毕业生
+*	Coreference T122 T123
+T124	Location-Nominal 957 959	宿舍
+T125	Metric 963 965	四年
+T126	Organization-Nominal 971 973	单位
+T127	Metric 989 991	四年
+T128	Person-Nominal 1016 1018	父母
+T129	Person-Nominal 1025 1027	游子
+R37	Family Arg1:T129 Arg2:T128	
+T130	Person-Pronoun 1036 1037	你
+T131	Thing-Nominal 1042 1044	电话
+T132	Thing-Nominal 1050 1052	电话
+T133	Person-Nominal 1054 1056	老爸
+T134	Person-Pronoun 1067 1068	我
+*	Coreference T134 T130
+R38	Family Arg1:T133 Arg2:T134	
+T135	Person-Pronoun 1073 1074	你
+T136	Location-Nominal 1077 1079	国内
+T137	Metric 1080 1082	一年
+T138	Location-Nominal 1097 1099	国外
+T139	Metric 1100 1102	一年
+T140	Metric 1105 1108	一个月
+T141	Person-Nominal 1121 1123	父母
+R39	Family Arg1:T135 Arg2:T141	
+T142	Thing-Nominal 1129 1131	星星
+T143	Person-Pronoun 1146 1147	我
+T144	Thing-Nominal 1143 1145	星星

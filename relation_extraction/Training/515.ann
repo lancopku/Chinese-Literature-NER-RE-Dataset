@@ -1,0 +1,195 @@
+T1	Thing-Nominal 12 13	人
+T2	Person-Nominal 116 118	别人
+T3	Person-Nominal 122 124	自己
+T4	Person-Pronoun 130 131	我
+*	Coreference T4 T3
+T5	Person-Nominal 137 139	他人
+*	Coreference T5 T2
+T6	Time-Explicit 143 147	五十年代
+T7	Person-Pronoun 161 162	我
+T8	Person-Pronoun 164 165	您
+T9	Location-Nominal 165 167	门前
+T10	Person-Pronoun 169 170	你
+*	Coreference T10 T8
+T11	Thing-Nominal 173 175	水桶
+T12	Thing-Nominal 182 186	我的皮鞋
+R1	Ownership Arg1:T7 Arg2:T12	
+T13	Person-Nominal 188 194	街上的行人儿
+T14	Person-Pronoun 200 201	你
+T15	Person-Pronoun 209 210	我
+T16	Person-Pronoun 220 221	我
+R2	Social Arg1:T14 Arg2:T15	
+R3	Social Arg1:T8 Arg2:T7	
+T17	Thing-Nominal 227 229	脏水
+T18	Person-Nominal 232 236	男女青年
+T19	Thing-Nominal 258 260	鸳鸯
+T20	Person-Name 263 265	老朱
+T21	Organization-Nominal 266 268	学校
+T22	Person-Nominal 266 276	学校附近油条铺的老板
+*	Coreference T20 T22 T25
+T23	Person-Pronoun 277 278	我
+T24	Person-Nominal 279 283	中学教师
+*	Coreference T23 T24
+T25	Person-Pronoun 300 301	他
+T26	Thing-Nominal 303 305	油条
+T27	Thing-Nominal 311 312	钱
+T28	Person-Pronoun 331 332	我
+T29	Person-Pronoun 335 336	他
+T30	Location-Nominal 336 338	门口
+T31	Person-Pronoun 348 349	我
+T32	Thing-Name 351 354	落汤鸡
+T33	Person-Pronoun 355 356	他
+T34	Person-Pronoun 389 390	我
+T35	Person-Pronoun 391 393	她们
+T36	Person-Pronoun 394 395	你
+T37	Thing-Nominal 401 406	一块新毛巾
+T38	Person-Pronoun 408 409	我
+*	Coreference T38 T36
+T39	Person-Pronoun 412 413	我
+T40	Thing-Nominal 424 426	手巾
+T41	Person-Nominal 426 428	自己
+*	Coreference T41 T39
+T42	Person-Pronoun 436 437	他
+T43	Person-Pronoun 439 440	我
+T44	Thing-Nominal 453 454	茶
+*	Coreference T42 T34
+T45	Person-Pronoun 463 464	我
+T46	Thing-Nominal 472 473	茶
+T47	Person-Pronoun 477 478	他
+T48	Thing-Nominal 485 488	一碗茶
+T49	Time-Implicit 520 522	去年
+T50	Thing-Nominal 516 518	茶碗
+T51	Thing-Nominal 529 531	茶锈
+T52	Person-Pronoun 539 540	我
+R4	Located Arg1:T51 Arg2:T50	
+T53	Person-Pronoun 556 558	我们
+T54	Person-Nominal 561 563	朋友
+*	Coreference T53 T54
+T55	Person-Pronoun 574 575	我
+T56	Thing-Nominal 577 579	油条
+T57	Thing-Nominal 583 584	钱
+T58	Person-Nominal 592 594	小孩
+T59	Person-Pronoun 595 596	他
+T60	Location-Nominal 596 598	门前
+T61	Thing-Nominal 604 606	油条
+T62	Person-Nominal 609 611	小孩
+R5	Family Arg1:T58 Arg2:T55	
+T63	Person-Pronoun 627 628	他
+T64	Person-Nominal 629 633	这个朋友
+*	Coreference T63 T64
+T65	Person-Nominal 645 655	两位素不相识的老太太
+T66	Location-Nominal 660 662	商店
+T67	Thing-Nominal 677 678	犬
+T68	Person-Nominal 671 673	自己
+T69	Person-Nominal 687 690	宝贝儿
+T70	Person-Pronoun 691 692	咱
+T71	Person-Nominal 702 704	奶奶
+T72	Person-Nominal 708 713	那位老太太
+T73	Person-Pronoun 721 722	我
+T74	Person-Nominal 723 726	狗奶奶
+*	Coreference T73 T72 T74
+T75	Person-Pronoun 735 736	你
+T76	Person-Pronoun 737 738	我
+T77	Person-Pronoun 740 741	你
+T78	Person-Pronoun 742 743	我
+T79	Organization-Nominal 747 749	法庭
+T80	Person-Nominal 786 789	重刑犯
+T81	Person-Name 799 807	上海天通庵路邱某
+T82	Location-Nominal 809 812	马路上
+T83	Person-Name 826 831	路边的俞某
+T84	Person-Nominal 839 842	青年妇
+T85	Person-Name 844 846	邱某
+T86	Person-Name 851 853	俞某
+*	Coreference T84 T85 T86
+R6	Social Arg1:T85 Arg2:T86	
+T87	Person-Name 864 869	俞某的母亲
+T88	Person-Name 869 871	吴某
+*	Coreference T88 T87
+T89	Person-Name 902 904	邱某
+T90	Person-Name 908 910	邱某
+T91	Person-Name 967 969	邱某
+T92	Location-Nominal 971 975	马路中间
+T93	Person-Nominal 994 996	民警
+T94	Person-Nominal 1013 1014;1015 1017	吴 家军
+T95	Location-Nominal 1020 1022	门外
+T96	Person-Name 1023 1025	俞某
+T97	Person-Nominal 1026 1028	民警
+T98	Person-Name 1046 1049	吴永宏
+R7	Family Arg1:T98 Arg2:T96	
+T99	Person-Pronoun 1051 1052	他
+*	Coreference T99 T98
+T100	Person-Pronoun 1071 1072	他
+T101	Person-Nominal 1080 1082	民警
+T102	Person-Pronoun 1090 1091	他
+T103	Person-Pronoun 1094 1096	他们
+*	Coreference T103 T101 T104
+T104	Person-Pronoun 1106 1107	你
+T105	Person-Pronoun 1109 1110	我
+*	Coreference T102 T105
+T106	Person-Pronoun 1114 1115	我
+T107	Person-Pronoun 1117 1118	你
+T108	Person-Nominal 1131 1134	!民警
+T109	Person-Pronoun 1137 1139	他们
+T111	Thing-Nominal 1164 1165	刀
+T112	Person-Pronoun 1166 1167	我
+T113	Person-Pronoun 1170 1171	你
+T114	Person-Nominal 1177 1180	吴家军
+T115	Person-Nominal 1187 1189	流氓
+T116	Person-Name 1202 1205	吴永祥
+T117	Person-Name 1208 1210	吴某
+T118	Person-Nominal 1213 1217	其他四人
+T119	Time-Explicit 1210 1212	十年
+T120	Time-Explicit 1219 1224	二至十二年
+R8	Family Arg1:T116 Arg2:T117	
+R9	Family Arg1:T117 Arg2:T118	
+T121	Time-Explicit 1230 1234	三个月后
+T122	Person-Name 1235 1237	吴某
+T123	Person-Nominal 1241 1243	记者
+T124	Person-Pronoun 1246 1247	我
+*	Coreference T124 T122
+T125	Time-Explicit 1259 1263	十五年后
+T126	Person-Name 1264 1265	我
+T127	Person-Pronoun 1272 1273	我
+T128	Person-Nominal 1281 1283	丈夫
+R10	Family Arg1:T127 Arg2:T128	
+T129	Location-Name 1285 1287	上海
+T130	Person-Pronoun 1305 1306	我
+T131	Person-Pronoun 1326 1327	她
+*	Coreference T131 T130
+T132	Person-Nominal 1363 1365	别人
+T133	Person-Nominal 1389 1391	别人
+T134	Thing-Nominal 1385 1387	脏水
+T135	Thing-Nominal 1368 1370	脏水
+T136	Person-Nominal 1403 1406	泼水者
+T137	Thing-Nominal 1421 1423	脏水
+T138	Person-Nominal 1425 1427	别人
+T139	Metric 1464 1466	千里
+T140	Person-Nominal 1489 1492	吴家军
+T141	Person-Pronoun 1511 1513	他们
+*	Coreference T141 T140
+T142	Person-Pronoun 1536 1537	我
+T143	Thing-Nominal 1576 1578	电视
+T144	Location-Nominal 1582 1590	某国的一个广场上
+T145	Person-Nominal 1594 1596	人们
+T146	Thing-Nominal 1597 1599	衣服
+T147	Person-Nominal 1619 1627	素不相识的小朋友
+T148	Person-Nominal 1640 1642	老人
+T149	Location-Nominal 1635 1636;1637 1639	连 椅上
+T150	Thing-Nominal 1647 1650	和平鸽
+T151	Person-Nominal 1652 1654	人们
+T152	Person-Nominal 1665 1669	卖鸟食者
+T153	Person-Nominal 1670 1673	游人们
+T154	Thing-Nominal 1681 1683	鸟食
+T155	Thing-Nominal 1689 1691	鸽子
+T156	Thing-Nominal 1655 1656	肩
+T157	Thing-Nominal 1658 1659	头
+R11	Located Arg1:T150 Arg2:T156	
+R12	Located Arg1:T150 Arg2:T157	
+R13	Part-Whole Arg1:T156 Arg2:T151	
+R14	Part-Whole Arg1:T157 Arg2:T151	
+R15	Social Arg1:T152 Arg2:T153	
+T158	Thing-Nominal 1686 1687	肩
+R16	Located Arg1:T155 Arg2:T158	
+T159	Time-Implicit 1060 1063	!十年
+T160	Thing-Nominal 1154 1156	铐子
+T110	Thing-Nominal 1139 1140	铐

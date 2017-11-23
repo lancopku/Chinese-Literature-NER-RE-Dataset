@@ -1,0 +1,100 @@
+T1	Person-Pronoun 12 14	我们
+T2	Time-Implicit 15 17	一生
+T3	Metric 20 22	各种
+T4	Person-Pronoun 33 35	我们
+T5	Person-Pronoun 44 46	自己
+T6	Metric 48 52	一路前行
+T7	Time-Implicit 81 83	夏天
+T8	Person-Pronoun 102 103	我
+T9	Metric 115 117	一场
+T10	Thing-Nominal 140 141;142 145	生 之夏花
+T11	Thing-Pronoun 138 140	这棵
+*	Coreference T10 T11
+T12	Location-Nominal 124 126	古镇
+T13	Location-Nominal 160 162	古镇
+T14	Thing-Nominal 166 168	太阳
+T15	Person-Pronoun 169 170	我
+T16	Thing-Nominal 180 182	阳光
+T17	Location-Nominal 191 195	其它地方
+T18	Location-Nominal 205 210	瓦蓝的天空
+T19	Location-Name 216 218;219 220	乌托 邦
+*	Coreference T19 T18
+T20	Thing-Nominal 221 226	漂浮的白云
+T21	Person-Nominal 227 230	孩子们
+T22	Location-Nominal 230 232	手中
+T23	Thing-Nominal 235 238	棉花糖
+R1	Located Arg1:T23 Arg2:T22	
+T24	Person-Pronoun 240 241	我
+T25	Time-Implicit 251 256	都市的初夏
+T26	Time-Implicit 260 262	夏天
+T27	Person-Pronoun 274 275	我
+T28	Location-Name 277 281	龙凤古镇
+T29	Metric 283 285	一寸
+T30	Person-Pronoun 289 290	我
+T31	Time-Implicit 295 297	春天
+T32	Metric 302 304	一片
+T33	Location-Nominal 309 311	古镇
+T34	Person-Pronoun 338 339	我
+T35	Location-Nominal 358 361	古栈道
+T36	Metric 363 365	一方
+T37	Thing-Nominal 387 389	小草
+T38	Thing-Nominal 393 395	柳树
+T39	Thing-Nominal 399 401	翠竹
+T40	Thing-Nominal 420 422	湖面
+T41	Metric 439 441	一株
+T42	Thing-Nominal 441 444	月老树
+T43	Person-Pronoun 454 455	我
+T44	Metric 460 462	一种
+T45	Thing-Nominal 474 475	城
+T46	Location-Name 477 480	月老湖
+T47	Time-Implicit 486 488	春光
+T48	Metric 493 497	三五游人
+T49	Location-Name 504 506	古镇
+T50	Time-Implicit 520 522	前世
+T51	Time-Implicit 536 537;538 541	六 道轮回
+T52	Thing-Nominal 545 547	鸳鸯
+T53	Time-Implicit 569 571	一生
+T54	Person-Pronoun 576 577	我
+T55	Metric 583 585	一抹
+T56	Person-Pronoun 610 611	我
+T57	Time-Implicit 613 615	此生
+T58	Person-Pronoun 619 621	自己
+T59	Time-Implicit 634 637	这一刻
+T60	Metric 635 637	一刻
+T61	Person-Pronoun 638 639	我
+T62	Person-Pronoun 644 645	我
+T63	Metric 651 653	一个
+T64	Time-Implicit 653 655	前生
+T65	Person-Pronoun 659 660	我
+T66	Person-Pronoun 668 669	我
+*	Coreference T66 T65 T61 T58 T56 T54
+T67	Time-Implicit 671 673	万载
+T68	Location-Nominal 685 688	佛珠墙
+T69	Metric 690 692	粒粒
+T70	Thing-Nominal 692 694	佛珠
+T71	Person-Pronoun 698 699	我
+T72	Time-Implicit 707 709	千年
+T73	Time-Implicit 710 713	那一年
+T74	Person-Pronoun 713 714	你
+T75	Person-Pronoun 714 715	我
+T76	Metric 730 733	十二分
+T77	Metric 738 740	数载
+T78	Time-Implicit 736 740	别后数载
+T79	Time-Implicit 752 756	光阴荏苒
+T80	Person-Pronoun 763 765	我们
+T81	Location-Nominal 774 778	月老树下
+T82	Metric 787 789	一场
+T83	Metric 805 806;807 808	一 丝
+T84	Location-Nominal 815 820	古朴的城郭
+T85	Thing-Nominal 825 827	都市
+T86	Metric 829 831	一种
+T87	Metric 857 859	一团
+T88	Location-Name 880 882	古镇
+T89	Person-Pronoun 887 889	他们
+T90	Person-Nominal 874 875;876 879	信 男信女
+*	Coreference T89 T90
+T91	Person-Nominal 900 905	观世音菩萨
+T92	Person-Nominal 917 922	观音菩萨聆
+T93	Person-Pronoun 925 926	我
+T94	Person-Pronoun 932 934	后者
+*	Coreference T94 T93

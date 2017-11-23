@@ -1,0 +1,192 @@
+T1	Organization-Pronoun 0 2	我国
+T2	Organization-Nominal 5 9	人口大国
+R1	General-Special Arg1:T1 Arg2:T2	
+T3	Time-Explicit 20 22	现在
+T4	Organization-Nominal 26 28	家庭
+T5	Person-Nominal 29 33	一个孩子
+T6	Person-Nominal 37 41	独生子女
+*	Coreference T5 T6 T11 T14 T13
+T7	Person-Nominal 44 46	爷爷
+T8	Person-Nominal 47 49	奶奶
+T9	Person-Nominal 50 52	爸爸
+T10	Person-Nominal 53 55	妈妈
+T11	Person-Nominal 57 59	孩子
+R2	Family Arg1:T11 Arg2:T10	
+R3	Family Arg1:T11 Arg2:T9	
+R4	Family Arg1:T11 Arg2:T8	
+R5	Family Arg1:T11 Arg2:T7	
+T12	Thing-Nominal 64 66	明珠
+T13	Person-Nominal 69 71	太子
+T14	Person-Nominal 73 75	公主
+T15	Person-Nominal 82 87	这样的孩子
+T16	Person-Nominal 94 96	爷爷
+T17	Person-Nominal 97 99	奶奶
+T18	Person-Nominal 100 102	爸爸
+T19	Person-Nominal 103 105	妈妈
+R6	Family Arg1:T19 Arg2:T18	
+R7	Family Arg1:T16 Arg2:T17	
+R8	Family Arg1:T16 Arg2:T18	
+R9	Family Arg1:T16 Arg2:T19	
+R10	Family Arg1:T17 Arg2:T18	
+R11	Family Arg1:T17 Arg2:T19	
+T20	Person-Nominal 116 117	子
+*	Coreference T15 T20
+T21	Thing-Nominal 118 119	龙
+T22	Person-Nominal 121 123	孩子
+T23	Person-Nominal 127 129	家长
+R12	General-Special Arg1:T23 Arg2:T19	
+R13	General-Special Arg1:T18 Arg2:T23	
+R14	General-Special Arg1:T17 Arg2:T23	
+R15	General-Special Arg1:T16 Arg2:T23	
+R16	Family Arg1:T22 Arg2:T23	
+T24	Organization-Nominal 140 142;143 144	幼儿 园
+T25	Organization-Nominal 145 147	小学
+T26	Organization-Nominal 150 152	初中
+T27	Organization-Nominal 153 155	高中
+T28	Organization-Nominal 159 161	大学
+T29	Person-Nominal 164 166	家长
+T30	Person-Nominal 169 171	孩子
+T31	Person-Nominal 176 178	孩子
+T32	Person-Nominal 193 195	家长
+T33	Person-Nominal 202 203;204 205	孩 子
+T34	Person-Nominal 211 218	很多中国的家长
+T35	Person-Nominal 225 227	自己
+*	Coreference T34 T35 T37
+T36	Person-Nominal 228 230	孩子
+R17	Family Arg1:T35 Arg2:T36	
+T37	Person-Nominal 243 245	自己
+T38	Person-Nominal 254 256	孩子
+T39	Person-Nominal 256 258	自己
+*	Coreference T38 T39
+T40	Person-Nominal 265 271;272 273	多数中国的孩 子
+T41	Person-Nominal 280 282	家长
+T42	Person-Nominal 294 298	许多家长
+T43	Thing-Nominal 299 304	无头的苍蝇
+T44	Person-Nominal 316 323	考得很好的孩子
+T45	Person-Nominal 329 331	自己
+T46	Person-Nominal 332 334	孩子
+*	Coreference T42 T45
+*	Coreference T46 T44
+T47	Person-Nominal 346 347;348 349	孩 子
+T48	Person-Nominal 354 356	家长
+T49	Person-Nominal 372 374	自己
+*	Coreference T47 T49
+T50	Time-Explicit 384 386	现在
+T51	Person-Pronoun 417 418	我
+T52	Person-Nominal 417 423	我的一位朋友
+R18	Social Arg1:T51 Arg2:T52	
+T53	Person-Nominal 429 431	孩子
+T54	Person-Pronoun 438 439	我
+T55	Person-Nominal 442 446	我的孩子
+T56	Person-Pronoun 448 449	我
+R20	Family Arg1:T54 Arg2:T55	
+R19	Family Arg1:T52 Arg2:T53	
+T57	Person-Pronoun 459 460	他
+T58	Thing-Nominal 464 465	龙
+*	Coreference T57 T55
+T59	Person-Pronoun 470 471	我
+T60	Person-Nominal 481 483	孩子
+T61	Thing-Nominal 488 489	马
+T62	Person-Nominal 499 502	普通人
+R21	General-Special Arg1:T60 Arg2:T62	
+T63	Person-Nominal 504 508	这位朋友
+T64	Person-Nominal 510 511	子
+T65	Thing-Nominal 512 513	马
+*	Coreference T64 T60
+T66	Person-Nominal 524 526	家长
+T67	Person-Pronoun 536 538	我们
+T68	Person-Nominal 545 547	孩子
+T69	Person-Nominal 549 551	自己
+*	Coreference T68 T69 T70
+T70	Person-Pronoun 557 559	他们
+T71	Person-Nominal 600 601	子
+T72	Thing-Nominal 602 603	龙
+T73	Person-Nominal 606 608	孩子
+*	Coreference T71 T73 T74
+T74	Person-Pronoun 618 620	他们
+T75	Person-Nominal 636 641	大多数孩子
+T76	Person-Pronoun 644 646	他们
+*	Coreference T76 T75 T81 T80
+T77	Person-Nominal 655 657	名家
+T78	Person-Nominal 659 661	奇才
+T79	Person-Nominal 669 673	尖端人才
+T80	Person-Nominal 681 684	劳动者
+T81	Person-Nominal 685 688	建设者
+T82	Person-Nominal 691 693	孩子
+T83	Person-Nominal 708 710	孩子
+T84	Person-Nominal 719 721	孩子
+T85	Person-Nominal 726 732	四有”劳动者
+T86	Person-Nominal 734 736	孩子
+*	Coreference T84 T85
+T87	Thing-Nominal 763 764	马
+T88	Person-Nominal 769 774	大多数家长
+T89	Person-Nominal 784 786	笔者
+T90	Person-Nominal 796 800	有个孩子
+T91	Person-Nominal 801 803	父母
+T92	Person-Nominal 805 806	子
+T93	Thing-Nominal 807 809	龙”
+T94	Person-Pronoun 817 818	他
+T95	Thing-Nominal 830 831	衣
+T96	Thing-Nominal 835 836	饭
+T97	Thing-Nominal 833 834	手
+T98	Thing-Nominal 838 839	口
+T99	Time-Explicit 846 850	上中学了
+T100	Thing-Nominal 854 855	床
+T101	Thing-Nominal 856 857	被
+T102	Person-Nominal 865 867	家长
+T103	Person-Nominal 878 881	小皇帝
+T104	Person-Nominal 883 885	孩子
+*	Coreference T104 T103 T91 T90 T92 T94
+R22	Part-Whole Arg1:T97 Arg2:T94	
+R23	Part-Whole Arg1:T98 Arg2:T94	
+T105	Organization-Nominal 897 901	名牌大学
+R24	Ownership Arg1:T104 Arg2:T105	
+T106	Metric 909 911	几天
+T107	Person-Nominal 941 946	这样的孩子
+T108	Thing-Nominal 952 953	龙
+T109	Person-Nominal 967 968	子
+T110	Thing-Nominal 969 970	马
+T111	Thing-Nominal 990 991	马
+T112	Person-Nominal 1006 1010	人民大众
+T113	Organization-Nominal 1016 1018	国家
+T114	Organization-Nominal 1024 1025;1026 1027	家 庭
+T115	Person-Nominal 1034 1035	子
+T116	Thing-Nominal 1036 1037	马
+T117	Person-Nominal 1048 1049	子
+T118	Thing-Nominal 1050 1051	龙
+T119	Person-Nominal 1055 1057	家长
+T120	Person-Nominal 1077 1079	孩子
+T121	Person-Nominal 1088 1090	孩子
+T122	Person-Nominal 1112 1114	孩子
+T123	Thing-Nominal 1126 1127	龙
+T124	Thing-Nominal 1136 1137	虫
+T125	Organization-Nominal 1151 1153	国家
+T126	Person-Nominal 1238 1239	子
+T127	Thing-Nominal 1240 1241	马
+T128	Person-Nominal 1247 1249	家长
+T129	Person-Nominal 1255 1257	孩子
+*	Coreference T129 T126
+*	Coreference T122 T117
+T130	Person-Nominal 1272 1274	孩子
+T131	Person-Pronoun 1299 1301	我们
+T132	Person-Nominal 1307 1309	夫妻
+T133	Person-Nominal 1314 1318	一个孩子
+R25	Family Arg1:T132 Arg2:T133	
+T135	Person-Pronoun 1365 1367	他们
+T134	Person-Nominal 1354 1356	孩子
+*	Coreference T135 T134 T136 T137 T138
+T136	Person-Pronoun 1374 1376	他们
+T137	Person-Nominal 1377 1379	自己
+T138	Person-Pronoun 1396 1398	他们
+T139	Person-Nominal 1402 1404	父母
+T140	Organization-Name 1411 1413	英国
+T141	Person-Nominal 1411 1416	英国的孩子
+T142	Person-Nominal 1423 1425	父母
+T143	Person-Pronoun 1427 1429	他们
+*	Coreference T143 T141
+T144	Person-Nominal 1436 1438	父母
+T145	Person-Nominal 1445 1447	自己
+*	Coreference T144 T145
+T146	Person-Nominal 1452 1454	孩子
+R26	Family Arg1:T144 Arg2:T146	
+T147	Person-Nominal 1473 1475	孩子

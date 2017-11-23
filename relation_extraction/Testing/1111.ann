@@ -1,0 +1,130 @@
+T1	Time-Implicit 1 9	波士顿缤纷的四季
+T2	Location-Name 1 4	波士顿
+T3	Person-Pronoun 11 12	我
+T4	Location-Name 20 23	波士顿
+T5	Time-Implicit 26 29	冬天里
+T6	Time-Implicit 16 18	春天
+T7	Person-Pronoun 30 31	我
+T8	Time-Implicit 35 37	春天
+T9	Time-Implicit 41 45	很久以前
+T10	Thing-Nominal 48 50	音乐
+T11	Abstract 58 64	《渴望春天》
+T12	Time-Explicit 100 105	一七九一年
+T13	Person-Name 106 117	奥地利天才作曲家莫扎特
+T14	Location-Name 106 109	奥地利
+T15	Person-Name 120 124	奥弗贝克
+T16	Person-Nominal 143 145	作者
+T17	Time-Implicit 146 148	春天
+T18	Time-Implicit 159 160;161 162	现 在
+T19	Time-Implicit 168 170	当年
+T20	Time-Implicit 194 198	那个时代
+T21	Time-Implicit 211 217	初听的那一刻
+T22	Person-Pronoun 225 226	我
+T23	Time-Implicit 245 250	我少年时代
+T24	Person-Pronoun 245 246	我
+T25	Thing-Nominal 250 258	最喜爱的外国歌曲
+T26	Thing-Nominal 208 210	歌儿
+T27	Thing-Nominal 127 139	一首原为德文的童声合唱曲
+R1	Create Arg1:T13 Arg2:T27	
+R2	Create Arg1:T15 Arg2:T27	
+T28	Time-Implicit 262 264	那时
+T29	Person-Pronoun 261 262	我
+T30	Thing-Nominal 274 282	一首欧洲古典名曲
+T31	Person-Pronoun 283 284	我
+T32	Thing-Pronoun 302 303	它
+*	Coreference T32 T25
+T33	Thing-Nominal 313 318	两个小辫儿
+T34	Person-Pronoun 319 321	自己
+T35	Time-Implicit 323 327	中学时代
+T36	Location-Nominal 327 329;330 336	花香 四溢的槐园里
+T37	Location-Nominal 341 346	邻家栅栏旁
+T38	Time-Implicit 346 352	蔷薇花初放时
+T39	Thing-Nominal 346 349	蔷薇花
+R3	Located Arg1:T39 Arg2:T37	
+T40	Location-Nominal 358 365	京郊踏青的路上
+T41	Person-Nominal 366 370	小伙伴们
+T42	Thing-Nominal 374 377	自行车
+T43	Thing-Nominal 395 397	树林
+T44	Thing-Nominal 399 401	绿衣
+T45	Person-Pronoun 403 405	我们
+T46	Thing-Nominal 410 413	紫罗兰
+T47	Location-Nominal 406 409	小河旁
+R4	Located Arg1:T46 Arg2:T47	
+T48	Person-Pronoun 416 418	我们
+T49	Thing-Nominal 425 429	那紫罗兰
+T50	Person-Pronoun 441 443	我们
+T51	Person-Pronoun 452 454	我们
+T52	Time-Implicit 447 449	冬天
+T53	Location-Nominal 463 466	雪地上
+T54	Location-Nominal 467 469	灯下
+T55	Person-Nominal 469 471	大家
+T56	Thing-Nominal 477 479	纸牌
+T57	Thing-Nominal 481 483	小屋
+T58	Location-Nominal 496 499	大地上
+T59	Thing-Nominal 500 502	雪橇
+T60	Thing-Nominal 507 509	小鸟
+T61	Thing-Nominal 511 513	歌儿
+T62	Time-Implicit 515 517	春天
+T63	Location-Nominal 521 525	青草地上
+R5	Located Arg1:T60 Arg2:T63	
+T64	Thing-Nominal 556 559	布谷鸟
+T65	Thing-Nominal 560 565	伶俐的夜莺
+T66	Time-Implicit 570 575	北国的冬天
+T67	Location-Nominal 570 572	北国
+T68	Person-Pronoun 578 580	我们
+T69	Thing-Nominal 586 587	它
+T70	Time-Implicit 590 592	春天
+T71	Person-Pronoun 594 596	我们
+T72	Time-Implicit 611 613	春天
+T73	Thing-Nominal 614 620	刚落地的娃娃
+T74	Thing-Nominal 622 623	头
+T75	Thing-Nominal 624 625	脚
+R6	Part-Whole Arg1:T74 Arg2:T73	
+R7	Part-Whole Arg1:T75 Arg2:T73	
+T76	Thing-Pronoun 632 633	它
+*	Coreference T76 T73
+T77	Person-Pronoun 635 637	我们
+T78	Person-Nominal 650 655	绿色的使者
+T79	Time-Implicit 647 649	春天
+T80	Thing-Nominal 663 669	莫扎特的歌曲
+T81	Person-Name 663 666	莫扎特
+R8	Create Arg1:T81 Arg2:T80	
+T82	Person-Pronoun 670 671	我
+T83	Person-Name 674 677	朱自清
+T84	Abstract 682 685	《春》
+T85	Person-Pronoun 692 693	我
+T86	Time-Implicit 698 700	春天
+T87	Location-Name 709 712	波士顿
+T88	Person-Pronoun 707 708	我
+T89	Time-Implicit 720 722	春天
+T90	Time-Implicit 713 715	冬天
+T91	Thing-Nominal 726 728	树林
+T92	Thing-Nominal 732 734	绿衣
+T93	Thing-Nominal 736 739	春姑娘
+T94	Thing-Nominal 742 744	脚步
+T95	Person-Nominal 748 756	许许多多花的伙伴
+T96	Location-Nominal 758 766	波士顿郊外的家园
+T97	Thing-Nominal 769 776	我喜爱的百草园
+R9	Located Arg1:T97 Arg2:T96	
+T98	Person-Pronoun 769 770	我
+T99	Person-Nominal 779 781	上苍
+T100	Thing-Nominal 785 792	一花一草一树木
+T101	Location-Pronoun 782 784	这里
+R10	Located Arg1:T100 Arg2:T101	
+T102	Person-Pronoun 794 795	我
+T103	Location-Nominal 802 805	草地里
+T104	Location-Nominal 807 810	花丛中
+T105	Person-Pronoun 811 812	我
+T106	Location-Nominal 822 825	晨风里
+T107	Location-Nominal 827 828;829 831	夕 阳下
+T108	Person-Pronoun 832 833	我
+T109	Thing-Nominal 835 836	鸟
+T110	Thing-Nominal 838 839	虫
+T111	Thing-Nominal 841 842	蛙
+T112	Thing-Nominal 851 854	百草园
+T113	Thing-Nominal 863 867	多少家花
+T114	Thing-Nominal 868 873	莫名的野花
+T115	Time-Implicit 875 876	春
+T116	Time-Implicit 877 878	秋
+T117	Thing-Nominal 879 880	花
+T118	Thing-Nominal 881 882	花

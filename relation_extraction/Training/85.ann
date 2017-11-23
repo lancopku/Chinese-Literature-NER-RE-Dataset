@@ -1,0 +1,104 @@
+T1	Thing-Nominal 0 1	山
+T2	Thing-Nominal 2 3	水
+T3	Thing-Nominal 6 7	水
+T4	Thing-Nominal 8 9	山
+T5	Person-Nominal 12 13	人
+T6	Thing-Nominal 14 16	山水
+T7	Thing-Nominal 43 44	山
+T8	Thing-Nominal 50 52	摇篮
+T9	Location-Nominal 76 78	城市
+T10	Location-Nominal 89 91	乡村
+T11	Thing-Pronoun 96 97	她
+*	Coreference T11 T7 T13
+T12	Person-Pronoun 114 115	你
+T13	Thing-Pronoun 119 120	她
+T14	Time-Implicit 131 133	如今
+T15	Location-Nominal 142 144	都市
+T16	Location-Nominal 151 153	乡村
+T17	Person-Pronoun 165 166	我
+T18	Person-Pronoun 217 218	你
+T19	Thing-Name 231 233	庐山
+T20	Thing-Nominal 241 243	此山
+*	Coreference T19 T20
+T21	Person-Nominal 253 255	人们
+T22	Person-Pronoun 284 286	自我
+T23	Person-Pronoun 289 290	你
+T24	Person-Pronoun 296 297	你
+T25	Person-Pronoun 305 306	你
+T26	Time-Implicit 335 347	不久前一个春暖花开的日子
+T27	Thing-Nominal 342 343	花
+T28	Person-Pronoun 348 349	我
+T29	Person-Nominal 350 352	同事
+R1	Social Arg1:T28 Arg2:T29	
+T31	Thing-Nominal 364 366	车子
+T32	Location-Name 369 373	大别山区
+R2	Located Arg1:T31 Arg2:T32	
+T33	Thing-Nominal 386 390	山野之风
+T34	Person-Nominal 397 398	人
+T35	Thing-Nominal 425 429	崇山峻岭
+T36	Location-Nominal 437 438	山
+T37	Location-Nominal 439 440	野
+T38	Thing-Nominal 446 447	花
+T39	Location-Nominal 457 459	山谷
+T40	Person-Nominal 464 465	人
+T41	Thing-Nominal 491 493	山峦
+T42	Person-Pronoun 494 496	我们
+T43	Person-Nominal 508 509	人
+T44	Person-Pronoun 516 517;518 519	我 们
+T45	Thing-Pronoun 522 523	她
+*	Coreference T45 T41
+T46	Person-Pronoun 553 554	我
+T47	Location-Name 555 558	大别山
+T48	Thing-Nominal 559 560	山
+T49	Thing-Nominal 561 562	水
+T50	Thing-Nominal 567 569	大山
+T51	Thing-Nominal 587 588	翅
+T52	Location-Nominal 591 593	城市
+T53	Location-Nominal 600 603	大山里
+*	Coreference T47 T53
+T54	Thing-Nominal 605 606	草
+T55	Thing-Nominal 607 608	木
+R3	Located Arg1:T54 Arg2:T53	
+R4	Located Arg1:T55 Arg2:T53	
+T56	Person-Pronoun 617 618	我
+T57	Thing-Nominal 632 634	烙纹
+T58	Thing-Nominal 638 639	日
+T59	Thing-Nominal 643 644	日
+T60	Person-Nominal 655 658	乡民们
+T61	Person-Nominal 668 672	社会精英
+T62	Person-Nominal 687 693	先进基层典范
+T63	Location-Name 724 726	鄂东
+T64	Thing-Nominal 730 732	沃土
+T65	Person-Pronoun 743 745	他们
+R5	General-Special Arg1:T60 Arg2:T65	
+R6	General-Special Arg1:T61 Arg2:T65	
+R7	General-Special Arg1:T62 Arg2:T65	
+T66	Thing-Nominal 777 779	大山
+T67	Thing-Nominal 782 784	江潮
+T68	Thing-Nominal 790 792	号角
+T69	Person-Pronoun 799 800	我
+T70	Thing-Nominal 808 809	马
+T71	Person-Nominal 838 840	书生
+T72	Thing-Nominal 843 845	长缨
+T73	Location-Name 857 860	大别山
+T74	Thing-Nominal 870 872	摇篮
+T75	Location-Pronoun 873 874	您
+*	Coreference T73 T75
+T76	Person-Nominal 885 887	英雄
+T77	Person-Nominal 907 909	游子
+T78	Person-Pronoun 921 923	他们
+R8	General-Special Arg1:T77 Arg2:T78	
+R9	General-Special Arg1:T76 Arg2:T78	
+T79	Thing-Nominal 941 942	草
+T80	Person-Pronoun 952 953	我
+T81	Location-Name 963 966	大别山
+T82	Location-Pronoun 972 973	您
+*	Coreference T81 T82
+T83	Person-Pronoun 982 983	我
+T84	Person-Nominal 1012 1015	吹鼓手
+T85	Organization-Nominal 1017 1019	祖国
+T86	Thing-Nominal 1034 1035	旗
+T30	Location-Name 353 355	鄂东
+T87	Location-Nominal 359 361	故乡
+R10	Part-Whole Arg1:T87 Arg2:T30	
+*	Coreference T87 T32

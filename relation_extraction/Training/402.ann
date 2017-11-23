@@ -1,0 +1,150 @@
+T1	Location-Nominal 12 17	偌大的广场
+T2	Thing-Nominal 21 26	喷泉的水花
+T3	Thing-Nominal 34 41	美丽的七彩光环
+R1	Located Arg1:T2 Arg2:T1	
+T4	Thing-Nominal 44 46	彩旗
+T5	Thing-Nominal 59 60;61 62	高 楼
+T6	Location-Nominal 67 72	宽阔的马路
+T7	Thing-Nominal 73 75	车流
+R2	Located Arg1:T7 Arg2:T6	
+T8	Person-Pronoun 79 80	我
+T9	Thing-Nominal 78 89	离我不远的变形金刚雕塑
+T10	Thing-Pronoun 97 99	人们
+T11	Thing-Pronoun 100 101	这
+*	Coreference T9 T11
+T12	Location-Nominal 102 114	新落成的哈西万达购物广场
+T13	Time-Implicit 114 118	国庆假期
+R3	Located Arg1:T9 Arg2:T12	
+T14	Person-Pronoun 124 125	我
+T15	Abstract 137 146	“刘姥姥进大观园”
+T16	Time-Implicit 147 150	这些年
+T17	Thing-Nominal 151 156	新地标建筑
+T18	Thing-Nominal 157 160	新景观
+T19	Person-Pronoun 178 179	我
+T20	Person-Nominal 181 183	家人
+R4	Family Arg1:T20 Arg2:T19	
+T21	Location-Nominal 185 192	新开业的烤鸭店
+T22	Person-Nominal 195 197	弟弟
+R5	Family Arg1:T22 Arg2:T19	
+R6	Family Arg1:T22 Arg2:T20	
+T23	Person-Nominal 203 209	被搀扶的老娘
+R7	Social Arg1:T23 Arg2:T22	
+T24	Location-Pronoun 222 224	这里
+T25	Person-Nominal 225 228	你四哥
+T26	Thing-Nominal 231 235	杨马架子
+R8	Ownership Arg1:T25 Arg2:T26	
+T27	Person-Pronoun 241 242	他
+T28	Person-Pronoun 250 251	我
+T29	Time-Implicit 254 258	短短几年
+T30	Time-Implicit 264 266	此时
+T31	Thing-Nominal 267 275	一辆宝马迷你轿车
+T32	Thing-Nominal 296 299;300 303	明晃晃 的车标
+T33	Person-Pronoun 307 308	我
+*	Coreference T27 T25
+T34	Thing-Pronoun 313 314	它
+*	Coreference T34 T31
+T35	Person-Nominal 315 319	时尚人士
+T36	Person-Nominal 336 337	姥
+T37	Person-Nominal 338 340	大舅
+T38	Abstract 328 331	影视剧
+T39	Person-Nominal 347 350	外甥女
+R9	Family Arg1:T39 Arg2:T33	
+T40	Thing-Nominal 359 360;361 364	她 的座骑
+R10	Ownership Arg1:T39 Arg2:T40	
+T41	Person-Nominal 365 367	我们
+T42	Person-Pronoun 372 373	她
+T43	Person-Pronoun 375 376	你
+T44	Thing-Pronoun 380 381	我
+T45	Person-Nominal 385 387	三弟
+R11	Family Arg1:T45 Arg2:T41	
+T46	Person-Pronoun 393 394	他
+*	Coreference T46 T45
+T47	Person-Pronoun 407 408	我
+T48	Time-Explicit 412 414	今天
+T49	Person-Pronoun 417 419	你们
+*	Coreference T49 T41
+T50	Person-Pronoun 486 487	他
+T52	Person-Nominal 520 522	大侄
+T53	Person-Pronoun 528 530	你们
+T54	Thing-Nominal 537 545	北京的‘茶马古道
+T55	Person-Pronoun 549 550	我
+T56	Time-Explicit 552 554	去年
+T57	Location-Pronoun 555 556	那
+T51	Location-Nominal 511 513	餐厅
+*	Coreference T51 T57
+T58	Person-Pronoun 559 561	我们
+T59	Thing-Pronoun 565 567	它的
+*	Coreference T59 T54
+T60	Person-Nominal 577 583	一个知名画家
+T61	Time-Implicit 610 612	如今
+T62	Person-Nominal 613 615	我们
+T63	Person-Pronoun 662 664	我们
+T64	Person-Pronoun 697 699	我们
+T65	Location-Nominal 706 708	餐厅
+T66	Thing-Nominal 718 734	橙黄、淡紫饮料晶莹剔透的玻璃酒杯
+T67	Thing-Nominal 735 742	泛着白光的餐盘
+T68	Thing-Nominal 745 748	芥茉墩
+T69	Thing-Nominal 749 752	怪味鸡
+T70	Thing-Nominal 753 756	烧划水
+R12	Located Arg1:T68 Arg2:T67	
+R13	Located Arg1:T69 Arg2:T67	
+*	Coreference T70 T67
+T71	Location-Nominal 710 714	洁白台布
+R14	Located Arg1:T66 Arg2:T71	
+T72	Thing-Nominal 770 774	果木烤鸭
+R15	Located Arg1:T72 Arg2:T67	
+T73	Person-Nominal 778 779	人
+T74	Person-Nominal 785 786	人
+T75	Abstract 790 793	影视剧
+T76	Person-Nominal 805 807	百姓
+T77	Person-Pronoun 820 821	我
+T78	Thing-Nominal 823 827;828 835	油光锃亮 、微褐色的鸭子
+T79	Person-Pronoun 840 841	我
+T80	Person-Nominal 845 847	奶奶
+T81	Thing-Nominal 851 853	白发
+R16	Part-Whole Arg1:T81 Arg2:T80	
+T82	Thing-Nominal 859 862	甜菜缨
+T83	Thing-Nominal 867 873	果腹的菜团子
+R17	Create Arg1:T80 Arg2:T82	
+R18	Create Arg1:T80 Arg2:T83	
+T84	Metric 874 880	三年自然灾害
+T85	Person-Nominal 887 888;889 891	奶 奶作
+T86	Person-Pronoun 898 899	我
+T87	Person-Nominal 901 903	妈妈
+T88	Thing-Nominal 910 913	高粱米
+T89	Time-Implicit 918 920	如今
+T90	Time-Implicit 921 923	天天
+T91	Time-Implicit 927 929	日日
+T92	Person-Pronoun 944 946	我们
+T93	Thing-Nominal 958 960	子女
+T94	Thing-Nominal 981 983	我们
+T95	Thing-Nominal 985 988	一滴水
+T96	Thing-Nominal 991 993	大海
+R19	Part-Whole Arg1:T95 Arg2:T96	
+T97	Person-Pronoun 995 996	我
+T98	Thing-Nominal 1006 1011	伟大的祖国
+R20	Part-Whole Arg1:T98 Arg2:T97	
+T99	Thing-Nominal 1019 1021	火车
+T100	Location-Nominal 1023 1027	雪域高原
+T101	Thing-Nominal 1028 1034	万里长江高峡
+T102	Location-Nominal 1035 1037	平湖
+R21	Located Arg1:T99 Arg2:T100	
+R22	Located Arg1:T101 Arg2:T102	
+T103	Thing-Nominal 1038 1042	高速铁路
+T104	Thing-Nominal 1048 1050	卫星
+T105	Location-Nominal 1051 1052	天
+R23	Located Arg1:T104 Arg2:T105	
+T106	Physical 1054 1057	嫦娥”
+T107	Location-Nominal 1058 1059	月
+T108	Organization-Nominal 1094 1096	G2
+T109	Organization-Nominal 1100 1104	金砖五国
+T110	Organization-Nominal 1108 1115	中华人民共和国
+T111	Organization-Nominal 1119 1122	联合国
+R24	Part-Whole Arg1:T110 Arg2:T108	
+R25	Part-Whole Arg1:T110 Arg2:T109	
+R26	Part-Whole Arg1:T110 Arg2:T111	
+T112	Organization-Nominal 1124 1126	中国
+R27	Part-Whole Arg1:T112 Arg2:T111	
+T113	Time-Implicit 1156 1159	这些年
+T114	Person-Pronoun 1160 1161	我
+T115	Person-Pronoun 1220 1221	我

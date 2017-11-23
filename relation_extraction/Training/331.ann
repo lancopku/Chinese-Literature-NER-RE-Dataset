@@ -1,0 +1,91 @@
+T1	Location-Nominal 0 4	好蓝的天
+T2	Thing-Nominal 24 29	高原的阴霭
+T3	Thing-Nominal 21 36	一双被高原的阴霭久久困顿的眼光
+T4	Location-Nominal 39 48	一个叫“渺”的地方
+T5	Person-Nominal 21 23	一双
+T6	Metric 39 41	一个
+T7	Thing-Nominal 52 54	目标
+T8	Location-Nominal 59 60	山
+T9	Thing-Nominal 66 68	阳光
+T10	Thing-Nominal 73 75	阳光
+T11	Thing-Nominal 71 78	向着阳光的万物
+T12	Thing-Nominal 85 87	阳光
+T13	Thing-Nominal 93 95	阳光
+T14	Thing-Name 96 98	太阳
+T15	Person-Pronoun 106 107	我
+T16	Location-Pronoun 101 103	那边
+T17	Location-Pronoun 111 113	这边
+R1	Near Arg1:T17 Arg2:T16	
+T18	Location-Pronoun 59 60;61 64	山 的那边
+*	Coreference T18 T16
+R2	Part-Whole Arg1:T18 Arg2:T8	
+R3	Part-Whole Arg1:T17 Arg2:T18	
+T19	Person-Pronoun 116 117	我
+T20	Thing-Nominal 118 120	阳光
+T21	Abstract 131 133	高度
+T22	Thing-Nominal 136 138	阳光
+T23	Thing-Nominal 152 154	阳光
+T24	Person-Pronoun 163 165	我们
+T25	Person-Pronoun 170 172	我们
+T26	Person-Pronoun 173 175	我们
+R4	Part-Whole Arg1:T19 Arg2:T24	
+T27	Thing-Nominal 176 178	视觉
+R5	Ownership Arg1:T26 Arg2:T27	
+T28	Thing-Nominal 180 182	万物
+T29	Thing-Nominal 194 195	光
+T30	Thing-Nominal 201 203	阳光
+R6	General-Special Arg1:T29 Arg2:T30	
+T31	Person-Nominal 208 212	每一个人
+R7	Part-Whole Arg1:T31 Arg2:T25	
+T32	Person-Pronoun 225 226	我
+T33	Person-Pronoun 231 232	他
+R8	General-Special Arg1:T31 Arg2:T33	
+R9	General-Special Arg1:T31 Arg2:T32	
+T34	Person-Nominal 235 237	人类
+*	Coreference T26 T34
+T36	Abstract 252 258	100的高度
+T37	Abstract 263 269	200的高度
+T39	Person-Pronoun 271 274	有的人
+T35	Person-Pronoun 247 249	有人
+T38	Person-Pronoun 259 261	有人
+T40	Abstract 277 283	500的高度
+T41	Person-Pronoun 284 286	我们
+T42	Person-Pronoun 294 297	这个人
+T43	Person-Pronoun 323 325	我们
+T44	Thing-Pronoun 340 341	这
+T45	Person-Pronoun 355 356	你
+R10	Part-Whole Arg1:T45 Arg2:T43	
+T46	Thing-Nominal 370 372	阳光
+T47	Abstract 377 379	高度
+T48	Person-Pronoun 392 393	你
+T49	Person-Pronoun 400 401	我
+T50	Person-Pronoun 405 406	你
+T51	Person-Pronoun 411 412	我
+T52	Person-Pronoun 416 417	你
+T53	Person-Pronoun 424 425	我
+T54	Person-Pronoun 439 441	我们
+T55	Abstract 467 469	高度
+T56	Person-Pronoun 471 472	我
+T57	Thing-Nominal 474 478	一双眼睛
+R11	Part-Whole Arg1:T57 Arg2:T56	
+T58	Time-Implicit 494 496	今天
+T59	Thing-Nominal 497 498	雾
+T60	Person-Pronoun 508 509	我
+T61	Time-Implicit 499 501	明天
+T62	Thing-Nominal 503 504	雨
+T63	Location-Nominal 512 514	远方
+T64	Person-Pronoun 521 522	我
+T65	Thing-Nominal 523 527	一只眼睛
+R12	Part-Whole Arg1:T65 Arg2:T57	
+R13	Use Arg1:T64 Arg2:T65	
+T66	Person-Nominal 532 533	人
+T67	Abstract 534 536	高度
+T68	Thing-Nominal 537 538	心
+R14	Part-Whole Arg1:T68 Arg2:T66	
+T69	Abstract 539 541	高度
+T70	Thing-Nominal 542 543	心
+T71	Thing-Nominal 544 545	眼
+R15	Part-Whole Arg1:T71 Arg2:T66	
+T72	Abstract 552 556	心的高度
+T73	Abstract 558 563	眼的清晰度
+T74	Person-Pronoun 611 612	我

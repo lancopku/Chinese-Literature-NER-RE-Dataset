@@ -1,0 +1,146 @@
+T1	Person-Nominal 0 2	老师
+T2	Person-Name 3 4	谭
+T3	Person-Name 5 7	东坡
+T4	Person-Nominal 8 19	一个默默奉献的共产党员
+T5	Person-Nominal 20 30	一个兢兢业业的老学究
+*	Coreference T4 T1 T5
+T6	Person-Nominal 31 33	老师
+T7	Abstract 35 37	语文
+T8	Thing-Nominal 38 42	诗词书画
+T9	Thing-Nominal 52 58	苏东坡的诗词
+T10	Thing-Nominal 68 73	苏东坡的诗
+T11	Thing-Pronoun 112 113	之
+*	Coreference T11 T10 T9
+T13	Person-Pronoun 149 150	他
+*	Coreference T13 T3
+T14	Abstract 157 163	“西坡居士”
+T15	Person-Nominal 183 185	老师
+T12	Person-Nominal 143 145	同学
+R1	Social Arg1:T15 Arg2:T12	
+T16	Location-Nominal 203 205	黑板
+T17	Thing-Nominal 228 231	教育家
+T18	Person-Name 231 234	陶行知
+R2	Social Arg1:T18 Arg2:T15	
+T19	Person-Nominal 277 279	老师
+T20	Person-Nominal 280 282	学生
+R3	Social Arg1:T19 Arg2:T20	
+T21	Person-Nominal 288 290	自己
+T22	Thing-Nominal 297 302	称职的教师
+T23	Person-Nominal 306 308	同学
+T24	Person-Nominal 314 326	勤奋好学、有作有为的学生
+*	Coreference T24 T23
+T25	Thing-Nominal 328 330;331 334	漂亮 的板书
+T26	Thing-Nominal 341 346	绝妙的书法
+T27	Metric 361 364	一下子
+T28	Person-Nominal 368 377	我们这些调皮的学生
+T29	Person-Nominal 379 381	老师
+R4	Social Arg1:T29 Arg2:T28	
+T30	Time-Implicit 393 396	有一次
+T31	Person-Nominal 398 402	一个同学
+T32	Person-Name 417 424	车尔尼雪夫斯基
+T33	Person-Nominal 430 433	该同学
+*	Coreference T33 T31
+T34	Thing-Nominal 449 452	法国人
+T35	Person-Nominal 454 456	老师
+T36	Person-Pronoun 463 464	你
+T37	Person-Pronoun 465 466	他
+T38	Person-Nominal 477 479	同学
+R5	Social Arg1:T38 Arg2:T35	
+T39	Person-Nominal 482 484	老师
+R6	Social Arg1:T39 Arg2:T38	
+T40	Person-Nominal 490 493	俄国人
+T41	Person-Nominal 493 495	司机
+T42	Person-Nominal 502 505	日本人
+T43	Person-Nominal 505 506	狼
+R7	Part-Whole Arg1:T43 Arg2:T42	
+R8	Part-Whole Arg1:T41 Arg2:T40	
+T44	Person-Nominal 529 531	同学
+T45	Person-Nominal 544 546	学生
+T46	Person-Nominal 560 562	老师
+T47	Abstract 575 578	孔乙己
+T48	Person-Pronoun 581 582	他
+*	Coreference T48 T46
+T49	Thing-Nominal 589 590	手
+T50	Thing-Nominal 585 587	袖子
+T51	Thing-Nominal 602 604	眼睛
+T52	Thing-Name 617 620	孔乙己
+T53	Abstract 638 642	阿Q正传
+T54	Person-Nominal 645 647	老师
+T55	Person-Name 649 652	赵太爷
+T56	Person-Name 665 667	老Q
+T57	Person-Name 670 673	赵太爷
+T58	Person-Name 675 677	阿Q
+T59	Time-Implicit 710 714	几十年后
+T60	Person-Nominal 715 718	老同学
+R9	Social Arg1:T60 Arg2:T54	
+T61	Time-Implicit 730 732	昨天
+T62	Person-Nominal 734 736	老师
+T63	Person-Pronoun 746 747	他
+T64	Person-Pronoun 757 758	他
+T65	Person-Nominal 760 765	不读书的人
+T66	Person-Pronoun 778 779	他
+T67	Person-Pronoun 789 790	他
+T68	Thing-Nominal 798 800	阳光
+T69	Thing-Nominal 804 806	雨滴
+T70	Thing-Nominal 810 812	花朵
+T71	Thing-Nominal 820 822	春风
+T72	Person-Pronoun 830 831	他
+T73	Person-Pronoun 840 841	他
+T74	Person-Nominal 847 848	人
+T75	Person-Nominal 850 851	人
+T76	Thing-Nominal 852 853	天
+T77	Thing-Nominal 856 857	天
+T78	Thing-Nominal 863 870	绿水长流的宇宙
+T79	Person-Nominal 873 874	他
+T80	Person-Nominal 882 883	他
+T81	Person-Nominal 939 941	老师
+T82	Person-Nominal 945 949	他的弟子
+*	Coreference T82 T81
+T83	Person-Nominal 956 957	我
+T84	Location-Nominal 962 966	三尺讲台
+T85	Location-Nominal 974 976	报刊
+T86	Thing-Nominal 979 983	几个铅字
+R10	Located Arg1:T86 Arg2:T85	
+T87	Person-Nominal 1015 1017	老师
+T88	Time-Implicit 1022 1024	少时
+T89	Person-Nominal 1025 1027	老师
+T90	Person-Nominal 1036 1038	自己
+T91	Thing-Nominal 1040 1042	老师
+T92	Thing-Pronoun 1057 1058	此
+*	Coreference T92 T91
+T93	Metric 1070 1072	每次
+T94	Person-Nominal 1074 1076	老师
+T95	Person-Pronoun 1080 1081	他
+T96	Thing-Nominal 1081 1082;1083 1087	鬓 边的白发
+T97	Thing-Nominal 1088 1093	额上的皱纹
+R11	Part-Whole Arg1:T97 Arg2:T95	
+R12	Part-Whole Arg1:T96 Arg2:T95	
+T98	Person-Nominal 1101 1103	老师
+T99	Person-Nominal 1120 1122	老师
+T100	Time-Implicit 1148 1152	最后一次
+T101	Person-Nominal 1154 1158	几位同窗
+T102	Person-Nominal 1160 1162	老师
+T103	Person-Nominal 1164 1166	老师
+R13	Social Arg1:T101 Arg2:T102	
+R14	Social Arg1:T101 Arg2:T90	
+T104	Person-Pronoun 1170 1171	他
+*	Coreference T104 T102
+T105	Location-Nominal 1189 1191	墓碑
+T106	Thing-Nominal 1193 1197	一副挽联
+R15	Located Arg1:T106 Arg2:T105	
+T107	Person-Nominal 1223 1225	人们
+T108	Person-Name 1229 1232	郭沫若
+T109	Time-Implicit 1227 1229	当年
+T110	Person-Name 1235 1238	陶行知
+T111	Person-Nominal 1263 1266	同学们
+T112	Person-Nominal 1297 1299	同学
+T113	Person-Nominal 1305 1307	老师
+T114	Person-Nominal 1309 1310	他
+*	Coreference T114 T113
+T115	Person-Nominal 1319 1321	大家
+T116	Thing-Nominal 1324 1329	老师的书信
+T117	Thing-Nominal 1330 1332	著作
+T118	Person-Nominal 1333 1335	同学
+T119	Person-Nominal 1337 1339	老师
+T120	Time-Explicit 1352 1364;1365 1372	老师的八十寿辰--200 4年11月8日
+T121	Abstract 1379 1381	老师

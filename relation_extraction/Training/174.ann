@@ -1,0 +1,320 @@
+T1	Thing-Nominal 1 5	这个城市
+T2	Metric 7 10	10年
+T3	Location-Name 19 22	青城山
+T4	Time-Implicit 25 31	上小学的时候
+T5	Thing-Nominal 32 34	书本
+T6	Thing-Nominal 38 40	青城
+T7	Thing-Nominal 44 46	峨眉
+T8	Thing-Nominal 50 52	剑阁
+T9	Thing-Nominal 56 58	三峡
+T10	Person-Pronoun 72 73	我
+T11	Person-Pronoun 80 81	我
+T12	Location-Nominal 86 88	山里
+T13	Person-Pronoun 90 91	我
+T14	Location-Name 92 95	青城山
+T15	Time-Implicit 97 105	三年前的一个春节
+T16	Person-Nominal 106 111	城市里的人
+T17	Location-Nominal 106 109	城市里
+T18	Thing-Nominal 114 118	大包小包
+T19	Thing-Nominal 121 123	火车
+T20	Thing-Nominal 125 127	飞机
+T21	Location-Nominal 128 130	乡下
+T22	Person-Nominal 132 136	我的女儿
+T23	Person-Pronoun 132 133	我
+T24	Person-Nominal 137 141	她的妈妈
+T25	Person-Pronoun 137 138	她
+T26	Person-Nominal 144 146	人流
+T27	Location-Nominal 148 150	乡下
+R1	Family Arg1:T22 Arg2:T23	
+R2	Family Arg1:T24 Arg2:T25	
+T28	Person-Nominal 152 155	她妈妈
+T29	Thing-Nominal 160 164	一个城市
+T30	Person-Pronoun 169 170	我
+T31	Person-Nominal 171 174	我父母
+T32	Location-Nominal 176 180	这城市里
+T33	Person-Pronoun 171 172	我
+R3	Family Arg1:T31 Arg2:T30	
+T34	Person-Pronoun 183 185	他们
+T35	Location-Nominal 187 189	城里
+T36	Location-Nominal 195 197	乡下
+T37	Person-Pronoun 218 220	他们
+T38	Person-Pronoun 224 225	我
+T39	Location-Name 228 234	著名的青城山
+T40	Time-Explicit 237 241	大年初三
+T41	Person-Pronoun 242 243	我
+T42	Person-Nominal 244 246	父母
+R4	Family Arg1:T42 Arg2:T41	
+T43	Location-Name 252 255	青城山
+T44	Location-Nominal 259 262	高铁站
+T45	Person-Nominal 262 263	人
+T46	Person-Nominal 264 265	人
+T47	Location-Name 268 271	青城山
+T48	Location-Nominal 273 276	高铁里
+T49	Thing-Nominal 282 285	离弦箭
+T50	Location-Name 294 297;298 300	青城山 脚下
+T51	Person-Pronoun 313 315	我们
+T52	Thing-Nominal 318 325	好客的青城后山
+T53	Thing-Nominal 326 331	豪华大巴车
+T54	Location-Nominal 338 340	后山
+T55	Person-Nominal 341 342	客
+T56	Person-Nominal 347 355	认识与不认识的人
+T57	Thing-Nominal 360 363	这里山
+T58	Thing-Nominal 364 368	这里人家
+T59	Location-Nominal 371 380	5.12地震的这里
+T60	Thing-Nominal 387 394	青城后山的门槛
+T61	Thing-Nominal 395 399	泰安古镇
+T62	Thing-Nominal 400 405	小巧的古镇
+T63	Thing-Nominal 406 412	一条青石板街
+T64	Thing-Nominal 413 417	清澈的水
+T65	Thing-Nominal 419 422	石板街
+T66	Thing-Nominal 426 434	三颗粗大的香樟树
+T67	Person-Pronoun 437 438	你
+T68	Thing-Nominal 438 441	这古镇
+T69	Metric 445 447	千年
+T70	Thing-Nominal 449 451	小镇
+T71	Person-Nominal 454 457	来往人
+T72	Thing-Nominal 466 470	味江索桥
+T73	Thing-Nominal 473 475	溪流
+T74	Thing-Nominal 486 487	桥
+T75	Thing-Nominal 484 485	溪
+T76	Thing-Nominal 478 479	路
+T77	Thing-Nominal 480 481	溪
+T78	Thing-Nominal 489 490	桥
+T79	Thing-Nominal 491 493	绝壁
+T80	Location-Nominal 494 496	绝壁
+T81	Thing-Nominal 497 499	石梯
+R5	Located Arg1:T81 Arg2:T80	
+T82	Location-Nominal 500 503	石梯旁
+T83	Thing-Nominal 504 506	铁链
+R6	Located Arg1:T83 Arg2:T82	
+T84	Thing-Nominal 509 511	铁链
+T85	Thing-Nominal 515 517	溪涧
+T86	Location-Nominal 524 527	峭壁上
+T87	Thing-Nominal 527 529	树木
+R7	Located Arg1:T87 Arg2:T86	
+T88	Location-Nominal 532 535	树杆上
+T89	Thing-Nominal 537 539	青苔
+R8	Located Arg1:T89 Arg2:T88	
+T90	Person-Nominal 540 545	一路上的人
+T91	Thing-Nominal 551 555	脚下的路
+T92	Location-Nominal 551 553	脚下
+R9	Located Arg1:T91 Arg2:T92	
+T93	Thing-Nominal 566 567	路
+T94	Location-Nominal 568 569;570 571	溪 沟
+R10	Located Arg1:T93 Arg2:T94	
+T95	Person-Nominal 581 584	年青人
+T96	Person-Nominal 592 598	上年龄的老人
+T97	Thing-Nominal 599 601	箭步
+T98	Person-Nominal 622 625	体胖者
+T99	Thing-Nominal 629 630	路
+T100	Location-Name 643 646	印翠湖
+T101	Thing-Nominal 649 651	索道
+T102	Person-Pronoun 657 659	我们
+T103	Person-Nominal 676 677	人
+T104	Thing-Nominal 680 681	雪
+T105	Thing-Nominal 687 690	半山腰
+T106	Location-Nominal 685 687	前面
+R11	Located Arg1:T105 Arg2:T106	
+T107	Location-Nominal 691 695	一棵树上
+T108	Thing-Nominal 696 701	枕头大块雪
+R12	Located Arg1:T108 Arg2:T107	
+T109	Location-Nominal 710 715	那些绝壁上
+T110	Thing-Nominal 718 727	一条一条晶莹的冰柱
+R13	Located Arg1:T110 Arg2:T109	
+T111	Person-Nominal 728 733	疲倦的人们
+T112	Thing-Nominal 741 743	深谷
+T113	Thing-Nominal 744 745	头
+T114	Thing-Nominal 752 753	雪
+T115	Person-Nominal 758 760	我们
+T116	Location-Nominal 762 763	路
+T117	Thing-Nominal 765 767	雪花
+R14	Located Arg1:T117 Arg2:T116	
+T118	Person-Nominal 782 783	人
+T119	Thing-Nominal 785 786	手
+T120	Thing-Nominal 788 789	手
+T121	Time-Implicit 803 806	这时候
+T122	Person-Nominal 807 808	人
+T123	Thing-Nominal 810 812	雪花
+T124	Location-Nominal 817 819	山上
+T125	Thing-Nominal 820 825	农家乐人家
+R15	Located Arg1:T125 Arg2:T124	
+T126	Thing-Nominal 828 831	半山腰
+T127	Person-Nominal 835 839	上山的人
+T128	Person-Pronoun 841 842	你
+T129	Location-Nominal 847 849	他家
+T130	Person-Pronoun 847 848	他
+*	Coreference T130 T127
+T131	Person-Pronoun 852 854	他们
+T132	Person-Pronoun 858 859	你
+T133	Person-Nominal 863 866	许多人
+T134	Thing-Nominal 875 878	白云寨
+T135	Thing-Nominal 887 888	山
+T136	Thing-Nominal 895 896	山
+T137	Thing-Nominal 892 894	索道
+T138	Person-Pronoun 899 901	我们
+T139	Thing-Nominal 911 914	观云亭
+T140	Thing-Nominal 918 919	路
+T141	Thing-Nominal 921 923	山梁
+T142	Thing-Nominal 926 927	路
+T143	Thing-Nominal 934 936	护栏
+T144	Location-Nominal 937 939	路旁
+T145	Thing-Nominal 942 944	灌木
+R16	Located Arg1:T145 Arg2:T144	
+T146	Location-Nominal 945 947	两边
+T147	Thing-Nominal 947 949	绝壁
+R17	Located Arg1:T147 Arg2:T146	
+T148	Location-Nominal 950 953	山梁上
+T149	Thing-Nominal 954 955	路
+R18	Located Arg1:T149 Arg2:T148	
+T150	Thing-Nominal 956 958	白雪
+T151	Thing-Nominal 961 962	路
+T152	Person-Pronoun 965 966	我
+T153	Person-Nominal 976 979	我爸妈
+T154	Person-Pronoun 985 987	他们
+*	Coreference T154 T153
+T155	Person-Pronoun 988 989	我
+T156	Person-Pronoun 997 998	我
+T157	Person-Nominal 999 1001	爸妈
+T158	Person-Nominal 1002 1007	六十多岁人
+T159	Person-Pronoun 1010 1016	三十多岁的我
+T160	Person-Pronoun 1017 1018	我
+T161	Thing-Nominal 1029 1031	这路
+T162	Location-Name 1044 1045;1046 1048	万 佛洞
+T163	Person-Nominal 1053 1055	一人
+T164	Thing-Nominal 1056 1058	小道
+T165	Person-Nominal 1071 1072	人
+T166	Location-Nominal 1075 1077	上面
+T167	Thing-Nominal 1079 1085	九十九级台阶
+R19	Located Arg1:T167 Arg2:T166	
+T168	Location-Nominal 1089 1092	最顶端
+T169	Thing-Nominal 1093 1096	白云寺
+R20	Located Arg1:T169 Arg2:T168	
+T170	Thing-Nominal 1099 1106	黑漆漆潮湿的洞
+T171	Location-Nominal 1110 1113	险崖边
+T172	Person-Nominal 1115 1117	一人
+T173	Thing-Nominal 1119 1120	道
+R21	Located Arg1:T173 Arg2:T171	
+T174	Thing-Nominal 1125 1129	一道木门
+T175	Thing-Nominal 1132 1137	一大坡石梯
+T176	Location-Nominal 1138 1140	前面
+T177	Thing-Nominal 1141 1143	寺庙
+R22	Located Arg1:T177 Arg2:T176	
+T178	Person-Nominal 1144 1145	人
+T179	Thing-Nominal 1169 1176	一尊胖嘟嘟笑佛
+T180	Person-Nominal 1184 1185	人
+T181	Thing-Nominal 1185 1187	双手
+T182	Person-Nominal 1191 1192	人
+T183	Person-Nominal 1200 1201	人
+T184	Person-Nominal 1205 1206	人
+T185	Thing-Nominal 1209 1214	身上的干粮
+T186	Location-Nominal 1209 1211	身上
+R23	Located Arg1:T185 Arg2:T186	
+T187	Person-Nominal 1216 1217	人
+T188	Thing-Nominal 1243 1244	山
+T189	Person-Pronoun 1246 1248	我们
+T190	Thing-Nominal 1250 1252	寺庙
+T191	Location-Nominal 1259 1261	背后
+T192	Thing-Nominal 1263 1269	坡更大的梯子
+R24	Located Arg1:T192 Arg2:T191	
+T193	Location-Nominal 1270 1274	梯子上面
+T194	Thing-Nominal 1274 1278	楼阁飞檐
+R25	Located Arg1:T194 Arg2:T193	
+T195	Thing-Nominal 1279 1281	山门
+T196	Thing-Nominal 1290 1293	白云观
+T197	Thing-Nominal 1296 1297	山
+T198	Person-Pronoun 1297 1299	我们
+T199	Thing-Nominal 1301 1303	原路
+T200	Thing-Nominal 1306 1308	官道
+T201	Thing-Nominal 1309 1311	道路
+T202	Thing-Nominal 1314 1316	风景
+T203	Person-Nominal 1321 1324	许多人
+T204	Thing-Nominal 1332 1333	山
+T205	Thing-Nominal 1330 1331	路
+T206	Person-Pronoun 1334 1336	他们
+*	Coreference T206 T203
+T207	Location-Name 1337 1341	又一村站
+T208	Thing-Nominal 1342 1344	索道
+T209	Thing-Nominal 1345 1346	山
+T210	Person-Pronoun 1349 1351	我们
+T211	Person-Nominal 1361 1362	人
+T212	Thing-Nominal 1370 1371	路
+T213	Location-Nominal 1406 1409	溪涧中
+T214	Person-Pronoun 1413 1414	你
+T215	Person-Pronoun 1417 1418	你
+T216	Location-Nominal 1420 1423	古栈道
+T217	Person-Pronoun 1424 1425	你
+T218	Person-Nominal 1428 1430	古人
+T219	Thing-Nominal 1438 1439	山
+T220	Thing-Nominal 1440 1441	路
+T221	Thing-Nominal 1442 1443	水
+T222	Thing-Nominal 1444 1445	桥
+T223	Thing-Nominal 1462 1469	弯弯曲曲古栈道
+T224	Thing-Nominal 1475 1477	天空
+T225	Thing-Nominal 1489 1493	远处人家
+T226	Thing-Nominal 1504 1506	人家
+T227	Thing-Nominal 1510 1517	远处的泰安古镇
+T228	Time-Implicit 1519 1522	那一年
+T229	Person-Pronoun 1523 1524	我
+T230	Location-Name 1529 1533	青城后山
+T231	Person-Nominal 1551 1553	别人
+T232	Thing-Nominal 1560 1561	山
+T233	Thing-Nominal 1563 1565	身体
+T234	Time-Implicit 1569 1573	去年春节
+T235	Person-Nominal 1573 1575	妹妹
+T236	Person-Nominal 1575 1578	一家人
+T237	Location-Nominal 1581 1583	我家
+T238	Time-Implicit 1586 1590	大年初一
+T239	Person-Nominal 1590 1595	我们全家人
+T240	Thing-Nominal 1598 1602	青城后山
+T241	Person-Nominal 1609 1613	两个小孩
+T242	Person-Nominal 1616 1621	我们的父母
+T243	Person-Pronoun 1623 1625	他们
+*	Coreference T243 T242
+T244	Thing-Nominal 1627 1629	身体
+R26	Part-Whole Arg1:T244 Arg2:T243	
+T245	Person-Pronoun 1630 1632	我们
+T246	Location-Name 1634 1638	印翠湖点
+T247	Thing-Nominal 1643 1645	索道
+T248	Thing-Nominal 1646 1647	山
+T249	Location-Nominal 1650 1654	索道车里
+T250	Thing-Nominal 1655 1658	索道车
+T251	Person-Pronoun 1677 1679	我们
+T252	Thing-Nominal 1687 1689	索道
+T253	Location-Nominal 1697 1701	索道车里
+T254	Location-Nominal 1702 1705	玻璃上
+T255	Person-Nominal 1715 1717	大家
+T256	Thing-Nominal 1725 1726	头
+T257	Person-Pronoun 1731 1732	我
+T258	Location-Nominal 1738 1740	这里
+T259	Thing-Nominal 1743 1746	青城山
+T260	Thing-Nominal 1755 1759	万仗绝壁
+T261	Location-Nominal 1766 1768	下面
+T262	Thing-Nominal 1768 1770	沟壑
+R27	Located Arg1:T262 Arg2:T261	
+T263	Thing-Nominal 1771 1776	满沟的树木
+T264	Location-Nominal 1771 1773	满沟
+R28	Located Arg1:T263 Arg2:T264	
+T265	Person-Pronoun 1777 1778	我
+T266	Location-Nominal 1780 1782	下面
+T267	Person-Nominal 1783 1786	许多人
+T268	Location-Nominal 1787 1790	沟里面
+T269	Person-Pronoun 1814 1816	他们
+*	Coreference T269 T267
+T270	Thing-Nominal 1819 1820	头
+T271	Person-Pronoun 1825 1826	我
+T272	Person-Pronoun 1827 1829	他们
+T273	Person-Pronoun 1841 1842	我
+T274	Person-Nominal 1865 1866	人
+T275	Location-Nominal 1869 1872	沟壑里
+T276	Person-Nominal 1873 1874	人
+T277	Location-Nominal 1862 1864	山下
+T278	Thing-Nominal 1886 1887	路
+T279	Location-Nominal 1912 1914	高处
+T280	Person-Pronoun 1910 1911	谁
+T281	Person-Nominal 1924 1930	山上山下的人
+T282	Person-Nominal 1934 1938	追求的人
+T283	Person-Pronoun 1954 1956	我们
+T284	Thing-Nominal 2007 2012	那里的天空
+T285	Location-Nominal 2007 2009	那里
+R29	Located Arg1:T284 Arg2:T285	
+T286	Location-Name 2020 2023	青城山

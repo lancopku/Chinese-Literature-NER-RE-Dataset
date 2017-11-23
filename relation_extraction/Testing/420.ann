@@ -1,0 +1,204 @@
+T1	Thing-Nominal 0 2	我家
+T2	Location-Nominal 4 13	单位院子里的宿舍里
+T3	Thing-Nominal 17 20	福利房
+T4	Location-Nominal 21 26	宿舍的对门
+T5	Thing-Nominal 27 41	一个新建的小区邻街的一幢房屋
+T6	Location-Nominal 43 46	阳台上
+T7	Thing-Nominal 21 23	宿舍
+R1	Located Arg1:T1 Arg2:T2	
+T8	Thing-Nominal 50 54	这幢房屋
+T9	Thing-Nominal 59 60;61 81	各 种各样的门店，米粉店，小超市，复印打字店
+T10	Thing-Nominal 92 97	那一排门面
+T11	Thing-Nominal 87 91	我家阳台
+T12	Location-Nominal 87 89	我家
+R2	Located Arg1:T11 Arg2:T12	
+T13	Person-Nominal 100 104	一群靓女
+T14	Thing-Nominal 108 113	她们的店子
+T15	Person-Pronoun 108 110	她们
+*	Coreference T15 T13
+R3	Ownership Arg1:T15 Arg2:T14	
+T16	Thing-Nominal 136 144	一块挂羊头的招牌
+T17	Person-Nominal 148 156	这些靓妹“洗头妹
+T18	Person-Pronoun 162 164	她们
+*	Coreference T18 T17
+T19	Thing-Nominal 169 174	她们的店子
+T20	Person-Pronoun 169 171	她们
+R4	Ownership Arg1:T20 Arg2:T19	
+T21	Thing-Nominal 177 180	卷闸门
+T22	Time-Implicit 188 195	下午三四点钟时
+T23	Person-Pronoun 211 213	她们
+T24	Location-Nominal 219 221	门口
+T25	Thing-Nominal 223 227	门外的车
+T26	Location-Nominal 223 225	门外
+R5	Located Arg1:T25 Arg2:T26	
+T27	Time-Implicit 232 235	早几年
+T28	Person-Nominal 235 240	我的老父亲
+T29	Person-Pronoun 235 236	我
+R6	Family Arg1:T28 Arg2:T29	
+T30	Location-Nominal 241 244	我家里
+T31	Person-Pronoun 241 242	我
+T32	Person-Pronoun 257 259	自己
+T33	Person-Pronoun 256 257	他
+T34	Thing-Nominal 262 269	马路对面的店子
+T35	Location-Nominal 262 266	马路对面
+R7	Located Arg1:T34 Arg2:T35	
+T36	Thing-Nominal 291 292	门
+T37	Person-Pronoun 297 298	他
+T38	Thing-Nominal 302 303	门
+T39	Location-Nominal 311 318	高桥市场西大门
+T40	Thing-Nominal 322 325	理发店
+R8	Located Arg1:T40 Arg2:T39	
+T41	Person-Pronoun 333 334	他
+*	Coreference T33 T28
+T42	Thing-Nominal 336 342	对门的美发店
+T43	Location-Nominal 336 338	对门
+R9	Located Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 344 345	门
+T45	Person-Pronoun 347 348	他
+T46	Person-Nominal 364 365	人
+T47	Person-Pronoun 367 368	他
+T48	Person-Pronoun 371 372	你
+T49	Thing-Nominal 373 377	对门的店
+T50	Location-Nominal 373 375	对门
+R10	Located Arg1:T49 Arg2:T50	
+T51	Person-Nominal 385 386	人
+T52	Person-Nominal 389 393	您老人家
+T53	Time-Implicit 396 400	昨天晚上
+T54	Person-Pronoun 401 403	她们
+T55	Person-Pronoun 412 413	我
+T56	Person-Nominal 415 418	老父亲
+R11	Family Arg1:T56 Arg2:T55	
+T57	Person-Nominal 426 428	这人
+T58	Person-Nominal 434 436	别人
+T59	Person-Pronoun 440 441	我
+T60	Person-Pronoun 452 453	我
+T61	Person-Nominal 477 480	老父亲
+T62	Person-Nominal 494 499	离休老干部
+T63	Person-Pronoun 500 501	他
+*	Coreference T63 T61
+T64	Person-Pronoun 507 509	他们
+T65	Time-Implicit 509 511	当年
+T66	Person-Nominal 520 522	娼妓
+T67	Thing-Nominal 527 529	死灰
+T68	Person-Nominal 537 540	他女儿
+T69	Location-Nominal 543 550	单位宿舍的附近
+T70	Thing-Nominal 575 583	美容美发”的牌子
+T71	Thing-Nominal 598 605	这些靓女的店子
+T72	Person-Nominal 598 602	这些靓女
+T73	Thing-Nominal 609 622	成人用品店”专卖“情趣用品
+T74	Person-Nominal 633 635	人们
+T75	Location-Pronoun 638 640	这里
+T76	Location-Nominal 642 647	“红灯区”
+T77	Person-Nominal 648 655	宿舍里的同事们
+T78	Person-Pronoun 668 669	谁
+T79	Person-Nominal 678 681	这些人
+T80	Thing-Nominal 682 683	店
+T81	Person-Nominal 687 688;689 690	同 事
+T82	Thing-Nominal 707 712	几辆执法车
+T83	Location-Nominal 714 718	这些店里
+R12	Located Arg1:T82 Arg2:T83	
+T84	Thing-Nominal 726 729	这些店
+T85	Thing-Nominal 734 737	卷闸门
+T86	Person-Pronoun 738 739	我
+T87	Location-Nominal 740 743	阳台上
+T88	Location-Pronoun 763 765	这里
+T89	Thing-Nominal 776 779	卷闸门
+T90	Time-Implicit 788 794	下午三四点钟
+T91	Thing-Nominal 796 797	门
+T92	Person-Nominal 801 810	一排浓妆艳抹的靓女
+T93	Location-Nominal 816 818	门口
+T94	Thing-Nominal 826 829;830 832	白白的 大腿
+T95	Location-Nominal 834 836	门外
+T96	Person-Nominal 837 838	人
+T97	Person-Nominal 839 840	人
+T98	Person-Nominal 848 850	同事
+T99	Person-Nominal 858 859	人
+T100	Thing-Nominal 865 866	门
+T101	Thing-Nominal 842 843	车
+T102	Thing-Nominal 844 845	车
+T103	Person-Nominal 871 875	这些女人
+T104	Person-Nominal 885 886	人
+T105	Person-Pronoun 882 884	她们
+*	Coreference T105 T103
+T106	Person-Nominal 895 897	大家
+T107	Thing-Nominal 901 905	周边环境
+T108	Location-Nominal 929 936	附近的立交桥下
+T109	Person-Nominal 968 970	同事
+T110	Person-Pronoun 980 981	谁
+T111	Person-Nominal 985 987	孟母
+T112	Location-Nominal 997 1002	高雅的小区
+T113	Location-Nominal 1011 1016	配套的学区
+T114	Person-Nominal 1018 1021	孩子们
+T115	Person-Pronoun 1037 1038	我
+T116	Person-Nominal 1041 1049	买不起商品房的人
+T117	Location-Nominal 1055 1060	这福利房内
+T118	Thing-Nominal 1063 1066	“两耳
+T119	Thing-Nominal 1068 1071	窗外事
+T120	Person-Nominal 1078 1079	人
+T121	Person-Nominal 1085 1088	小孙子
+T122	Person-Pronoun 1095 1096	我
+T123	Person-Pronoun 1103 1104	他
+T124	Person-Pronoun 1114 1115	我
+T125	Person-Pronoun 1118 1119	他
+T126	Person-Nominal 1121 1140	这些浓妆艳抹、袒胸露背、翘着大腿的靓女
+T127	Person-Pronoun 1147 1149	她们
+T128	Location-Nominal 1161 1163	门口
+T129	Location-Nominal 1173 1176	阳台上
+T130	Person-Pronoun 1180 1181	我
+T131	Thing-Nominal 1187 1190	红灯区
+T132	Time-Implicit 1200 1204	几十年前
+T133	Person-Nominal 1204 1209	我们的前辈
+T134	Person-Pronoun 1204 1206	我们
+T135	Person-Nominal 1214 1216	娼妓
+T136	Person-Nominal 1232 1234	人们
+T137	Person-Nominal 1242 1246	外国记者
+T138	Person-Name 1252 1257	周恩来总理
+T139	Person-Nominal 1264 1266	娼妓
+T140	Location-Name 1261 1263	中国
+T141	Person-Name 1269 1272	周总理
+T142	Location-Name 1284 1286	台湾
+T143	Person-Nominal 1298 1300	娼妓
+T144	Location-Nominal 1301 1303	大陆
+T145	Person-Name 1326 1329	邓小平
+T146	Thing-Nominal 1335 1339	苍蝇蚊子
+T147	Thing-Nominal 1344 1351	这些“苍蝇蚊子
+T148	Person-Nominal 1357 1358	人
+T149	Person-Pronoun 1372 1373	我
+T150	Location-Nominal 1394 1397	阳台上
+T151	Time-Implicit 1391 1393	这天
+T152	Thing-Nominal 1404 1411	对面一楼的门面
+T153	Thing-Nominal 1421 1428	一家门面卷闸门
+T154	Thing-Nominal 1433 1435	两家
+T155	Person-Nominal 1436 1438	工人
+T156	Metric 1444 1446	几天
+T157	Location-Nominal 1454 1457	门楣上
+T158	Thing-Nominal 1462 1471	新的白底蓝字的招牌
+R13	Located Arg1:T158 Arg2:T157	
+T159	Thing-Nominal 1513 1520	福利彩票的站点
+T160	Thing-Nominal 1527 1528	门
+T161	Location-Nominal 1508 1510	隔壁
+T162	Thing-Nominal 1537 1544	，这些新的招牌
+T163	Thing-Nominal 1564 1565	楼
+T164	Thing-Nominal 1566 1567	门
+T165	Thing-Nominal 1569 1573;1574 1581	靠街的另 一头的两家门面
+T166	Thing-Nominal 1588 1590	花店
+T167	Thing-Nominal 1596 1604	卖汽车饰品的店子
+T168	Thing-Nominal 1607 1617	那些靓女们卖肉的店子
+T169	Thing-Nominal 1620 1621	门
+T170	Person-Pronoun 1626 1627	我
+T171	Person-Pronoun 1631 1633	自己
+*	Coreference T171 T170
+T172	Person-Nominal 1642 1644	孟母
+T173	Person-Nominal 1658 1663	那些靓女们
+T174	Person-Pronoun 1674 1676	她们
+*	Coreference T174 T173
+T175	Person-Pronoun 1705 1707	她们
+T176	Person-Pronoun 1756 1758	她们
+T177	Person-Pronoun 1778 1780	她们
+T178	Person-Pronoun 1802 1803	我
+T179	Person-Pronoun 1809 1810	我
+T180	Person-Pronoun 1813 1815	她们
+T181	Person-Pronoun 1793 1794	我
+*	Coreference T123 T121
+*	Coreference T127 T126
+T182	Time-Implicit 1229 1230;1231 1232	当 年

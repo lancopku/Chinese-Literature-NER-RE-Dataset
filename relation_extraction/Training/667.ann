@@ -1,0 +1,240 @@
+T1	Person-Name 0 5	闭月的貂蝉
+T2	Person-Name 6 12	羞花的杨贵妃
+T3	Person-Name 13 18	沉鱼的西施
+T4	Person-Name 19 24	落雁的昭君
+T5	Person-Nominal 25 29	四大美女
+R1	Part-Whole Arg1:T4 Arg2:T5	
+R2	Part-Whole Arg1:T3 Arg2:T5	
+R3	Part-Whole Arg1:T2 Arg2:T5	
+R4	Part-Whole Arg1:T1 Arg2:T5	
+T6	Person-Nominal 41 43	女人
+T7	Thing-Nominal 50 54	纤纤玉指
+T8	Thing-Nominal 48 49	手
+R5	Part-Whole Arg1:T8 Arg2:T6	
+R6	Part-Whole Arg1:T7 Arg2:T8	
+T9	Thing-Nominal 62 63	足
+R7	Part-Whole Arg1:T9 Arg2:T6	
+T10	Thing-Nominal 73 75	长发
+R8	Part-Whole Arg1:T10 Arg2:T6	
+T11	Thing-Nominal 83 84	眼
+R9	Part-Whole Arg1:T11 Arg2:T6	
+T12	Thing-Nominal 81 82	瀑
+T13	Thing-Nominal 86 87	水
+T14	Person-Nominal 91 92	人
+T15	Thing-Nominal 93 97	樱桃小嘴
+R10	Part-Whole Arg1:T15 Arg2:T6	
+T16	Person-Pronoun 106 107	谁
+T17	Person-Nominal 130 132	女人
+T18	Thing-Nominal 137 139	日月
+T19	Abstract 142 144	学问
+T20	Thing-Nominal 147 154	一页页闪光诗章
+T21	Thing-Nominal 156 160	胜雪玉手
+T22	Thing-Nominal 162 164	刘海
+R11	Part-Whole Arg1:T21 Arg2:T17	
+R12	Part-Whole Arg1:T22 Arg2:T17	
+T23	Time-Implicit 165 168	那一瞬
+T24	Thing-Nominal 178 180	清流
+T25	Person-Nominal 185 186	人
+T26	Thing-Nominal 197 198	诗
+T27	Thing-Nominal 206 208	唱曲
+T28	Person-Nominal 209 211	女人
+T29	Thing-Nominal 248 252	花容月貌
+T30	Thing-Nominal 261 262	弦
+T31	Thing-Nominal 279 281	手指
+T32	Thing-Nominal 283 285	长发
+R13	Part-Whole Arg1:T31 Arg2:T28	
+R14	Part-Whole Arg1:T32 Arg2:T28	
+T33	Thing-Nominal 286 291	一缕缕秀发
+R15	Part-Whole Arg1:T33 Arg2:T32	
+T34	Thing-Nominal 291 296	滴下的水珠
+T35	Thing-Nominal 298 303	一粒粒珍珠
+T36	Metric 298 301	一粒粒
+T37	Person-Nominal 310 311	人
+T38	Thing-Nominal 314 316	面巾
+T39	Thing-Nominal 318 320	长发
+T40	Thing-Nominal 352 357	绝美的图画
+T41	Thing-Nominal 360 365	词韵之声响
+T42	Thing-Nominal 367 371	花开之貌
+T43	Person-Nominal 382 383	人
+T44	Thing-Nominal 387 388	心
+R16	Part-Whole Arg1:T44 Arg2:T43	
+T45	Thing-Nominal 390 405	优美的身段，丰乳肥臀，细腰雪肤
+T46	Thing-Nominal 406 410	纤纤细腰
+T47	Person-Nominal 467 469	女人
+R17	Part-Whole Arg1:T46 Arg2:T47	
+R18	Part-Whole Arg1:T45 Arg2:T47	
+T48	Person-Nominal 417 418	人
+T49	Thing-Nominal 411 413	杨柳
+T50	Thing-Nominal 421 423	春光
+T51	Thing-Nominal 433 435	云彩
+T52	Thing-Nominal 440 444	雨后彩虹
+T53	Thing-Nominal 495 500	漂亮的翅膀
+T54	Thing-Nominal 501 503	天使
+T55	Thing-Nominal 510 511;512 520	遥 远的念念不忘之地
+T56	Thing-Nominal 523 524	苞
+T57	Thing-Nominal 533 535	琵琶
+T58	Person-Nominal 562 564	女人
+T59	Thing-Nominal 585 589	柔韵留音
+T60	Metric 610 612	百尺
+T61	Person-Nominal 629 631	男子
+T62	Person-Nominal 658 660	男人
+R19	Part-Whole Arg1:T53 Arg2:T54	
+T63	Time-Implicit 642 643;644 647	自 古以来
+T64	Person-Name 680 684	隋朝杨广
+T65	Thing-Nominal 689 691	江山
+T66	Person-Nominal 697 698	人
+T67	Person-Nominal 701 703	美人
+T68	Person-Name 706 711	西周周幽王
+T69	Person-Name 712 714	褒姒
+R20	Social Arg1:T68 Arg2:T69	
+T70	Thing-Nominal 715 717	烽火
+T71	Person-Nominal 718 720	诸侯
+R21	Social Arg1:T71 Arg2:T68	
+T72	Person-Nominal 723 725	犬戎
+T73	Location-Name 727 729	镐京
+T74	Person-Name 730 733	周幽王
+*	Coreference T74 T68
+T75	Person-Name 746 749	唐伯虎
+T76	Person-Name 750 752	秋香
+R22	Social Arg1:T75 Arg2:T76	
+T77	Person-Name 758 761	毕加索
+T78	Thing-Name 770 777	《亚威农少女》
+R23	Create Arg1:T77 Arg2:T78	
+T79	Thing-Name 737 740;741 743	《九美 图》
+T80	Thing-Nominal 781 795	一幅具有里程碑意义的著名杰作
+*	Coreference T80 T78
+T81	Organization-Name 796 800	殷商王朝
+T82	Person-Name 802 804	纣王
+T83	Person-Name 811 813	妲己
+T84	Person-Pronoun 815 816	她
+*	Coreference T84 T83
+T85	Person-Name 821 823	纣王
+R24	Social Arg1:T83 Arg2:T82	
+T86	Person-Name 827 830	周武王
+T87	Organization-Name 833 834	商
+*	Coreference T87 T81
+T88	Person-Nominal 842 844	女人
+T89	Person-Nominal 849 851	女人
+T90	Person-Nominal 859 861	女人
+T91	Person-Nominal 863 865	男人
+T92	Person-Nominal 871 873	男人
+T93	Person-Nominal 876 878	女人
+T94	Person-Nominal 922 924	女人
+T95	Person-Nominal 942 944	女人
+T96	Person-Nominal 962 964	女人
+T97	Thing-Nominal 978 980	白玉
+T98	Person-Nominal 996 998	女人
+T99	Person-Nominal 1027 1029	女人
+T100	Person-Nominal 1034 1037;1038 1042	许许多 多的人们
+T101	Person-Nominal 1046 1048	英雄
+T102	Person-Nominal 1051 1053	儿女
+T103	Person-Nominal 1057 1059	女人
+T104	Person-Nominal 1082 1086	儒生俊杰
+T105	Person-Nominal 1089 1091	女人
+T106	Person-Pronoun 1112 1114	自己
+*	Coreference T106 T104
+T107	Person-Nominal 1133 1135	女人
+T108	Location-Name 1149 1151	北方
+T109	Person-Nominal 1152 1154	佳人
+T110	Location-Nominal 1164 1166	人城
+T111	Location-Nominal 1170 1172	人国
+T112	Person-Nominal 1183 1187	六宫粉黛
+T113	Thing-Nominal 1198 1202	波峰浪谷
+T114	Person-Nominal 1204 1206	女人
+T115	Thing-Nominal 1215 1219	空谷幽兰
+T116	Thing-Nominal 1239 1241	芙蓉
+T117	Thing-Nominal 1236 1238	清水
+T118	Person-Nominal 1249 1253	妖艳美女
+T119	Person-Name 1267 1271	宋朝苏轼
+T120	Location-Name 1276 1278	西湖
+T121	Person-Name 1279 1281	西子
+T122	Thing-Nominal 1291 1296	淡雅的装饰
+T123	Thing-Nominal 1297 1302	浓艳的粉脂
+T124	Person-Nominal 1313 1315	女人
+T125	Thing-Nominal 1325 1327	夏花
+T126	Thing-Nominal 1333 1335	秋叶
+T127	Person-Pronoun 1341 1342	你
+T128	Person-Nominal 1357 1361	红颜知己
+T129	Person-Nominal 1369 1371	女人
+T130	Person-Pronoun 1376 1377	你
+T131	Person-Pronoun 1380 1381	你
+T132	Person-Pronoun 1392 1393	你
+T133	Person-Nominal 1405 1407	天仙
+T134	Thing-Nominal 1410 1412	桃李
+T135	Time-Implicit 1433 1436	汉代时
+T136	Person-Name 1437 1440	赵飞燕
+T137	Person-Name 1445 1450	唐代杨贵妃
+*	Coreference T137 T2
+T138	Person-Nominal 1457 1464	女人的美的典范
+R25	General-Special Arg1:T138 Arg2:T137	
+R26	General-Special Arg1:T138 Arg2:T136	
+T139	Person-Nominal 1466 1468	女人
+T140	Thing-Nominal 1472 1480	一道道亮丽的风景
+T141	Thing-Nominal 1491 1493	面容
+R27	Part-Whole Arg1:T141 Arg2:T139	
+T142	Thing-Nominal 1509 1511	明眸
+R28	Part-Whole Arg1:T142 Arg2:T139	
+T143	Thing-Nominal 1519 1521	肢体
+R29	Part-Whole Arg1:T143 Arg2:T139	
+T144	Thing-Nominal 1524 1526	红唇
+R30	Part-Whole Arg1:T144 Arg2:T139	
+T145	Thing-Nominal 1530 1532	美腿
+R31	Part-Whole Arg1:T145 Arg2:T139	
+T146	Person-Nominal 1560 1561	人
+T147	Thing-Nominal 1567 1569	明珠
+T148	Person-Nominal 1574 1576	女人
+T149	Thing-Nominal 1579 1583	消瘦的肩
+T150	Thing-Nominal 1584 1587;1588 1589	纤细的 腰
+T151	Thing-Nominal 1590 1595	光滑的皮肤
+R32	Part-Whole Arg1:T149 Arg2:T148	
+R33	Part-Whole Arg1:T150 Arg2:T148	
+R34	Part-Whole Arg1:T151 Arg2:T148	
+R35	Use Arg1:T146 Arg2:T147	
+T152	Person-Pronoun 1609 1610	你
+T153	Thing-Nominal 1612 1614	秋水
+T154	Person-Nominal 1626 1628	女人
+T155	Thing-Nominal 1630 1638	一束束洁白的百合
+T156	Person-Nominal 1656 1658	女人
+T157	Thing-Nominal 1661 1666	一朵朵玉兰
+T158	Metric 1630 1633	一束束
+T159	Metric 1661 1664	一朵朵
+T160	Person-Nominal 1677 1679	女人
+T161	Thing-Nominal 1681 1686;1687 1689	山上洁净的 雪莲
+T162	Location-Nominal 1681 1683	山上
+R36	Located Arg1:T161 Arg2:T162	
+T163	Person-Nominal 1700 1702	女人
+T164	Thing-Nominal 1704 1712	秉性独具的格桑花
+T165	Person-Nominal 1728 1730	女人
+T166	Person-Nominal 1738 1745	爱与倾城的女神
+T167	Person-Nominal 1758 1763	漂亮的天使
+T168	Thing-Nominal 1765 1772	一首首绝妙的诗
+T169	Thing-Nominal 1774 1782	一幅幅历史的画卷
+T170	Thing-Nominal 1784 1791	一阕阕清丽的词
+T171	Metric 1765 1768	一首首
+T172	Metric 1774 1777	一幅幅
+T173	Thing-Nominal 1797 1798	云
+T174	Thing-Nominal 1799 1800	风
+T175	Thing-Nominal 1804 1808	一缕轻烟
+T176	Metric 1804 1806	一缕
+T177	Person-Nominal 1817 1819	女人
+T178	Thing-Nominal 1830 1831	鹤
+T179	Thing-Nominal 1832 1833	鸡
+T180	Person-Nominal 1836 1837	美
+T181	Thing-Nominal 1836 1839	美女之
+T182	Thing-Nominal 1842 1846	天籁之音
+T183	Person-Nominal 1849 1851	少女
+T184	Person-Nominal 1862 1866	良家少妇
+T185	Person-Nominal 1880 1884	菊花老妪
+T186	Time-Implicit 1902 1904	夏天
+T187	Time-Implicit 1913 1915	冬天
+T188	Thing-Nominal 1913 1920	冬天的厚厚衣裳
+T189	Person-Nominal 1926 1928	女人
+T190	Person-Nominal 1931 1933	女人
+T191	Person-Nominal 1940 1957	一个个五彩斑斓和春光四溢的红粉佳人
+T192	Metric 1940 1943	一个个
+T193	Person-Nominal 1959 1960	人
+T194	Thing-Nominal 1961 1964	牡丹花
+T195	Person-Nominal 1974 1976	女人
+T196	Thing-Nominal 1968 1969	鬼
+T197	Thing-Nominal 1987 1998	一幅幅绝美的美女群芳图
+T198	Metric 1987 1990	一幅幅

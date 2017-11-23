@@ -1,0 +1,159 @@
+T1	Thing-Nominal 0 1	水
+T2	Thing-Nominal 4 7	鱼儿们
+T3	Location-Nominal 11 13	水里
+R1	Located Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 17 18	草
+T5	Thing-Nominal 21 23	蚯蚓
+T6	Location-Nominal 30 32	地面
+R2	Near Arg1:T5 Arg2:T6	
+T7	Thing-Nominal 37 40	小燕子
+T8	Location-Nominal 41 44	天空上
+R3	Located Arg1:T7 Arg2:T8	
+T9	Thing-Nominal 51 57	悦耳地鸣叫声
+T10	Time-Implicit 58 60	春天
+T11	Person-Nominal 64 67	春姑娘
+T12	Location-Nominal 75 77	人间
+T13	Person-Nominal 78 81	人儿们
+T14	Person-Pronoun 99 100	我
+T15	Time-Implicit 102 104	每天
+T16	Time-Implicit 131 133	如今
+T17	Person-Nominal 133 138	中国老百姓
+R4	General-Special Arg1:T17 Arg2:T14	
+T18	Person-Pronoun 148 149	我
+T19	Person-Name 156 158	小平
+T20	Person-Pronoun 159 160	您
+*	Coreference T20 T19 T26 T30
+T21	Person-Pronoun 162 163	您
+T22	Location-Nominal 164 166	天国
+T23	Person-Nominal 170 176	中国的老百姓
+*	Coreference T23 T17
+T24	Person-Pronoun 178 179	您
+T25	Person-Pronoun 183 184	我
+T26	Person-Name 192 197	邓小平爷爷
+T27	Time-Implicit 203 205	春天
+T28	Time-Implicit 208 210	春天
+T29	Time-Explicit 228 238	1979年的一个春天
+T30	Person-Name 239 242	邓小平
+T31	Person-Name 243 251	主政广东的习仲勋
+T32	Location-Name 255 259	你们广东
+T33	Location-Nominal 260 264	一个地方
+R5	Part-Whole Arg1:T33 Arg2:T32	
+T34	Location-Nominal 266 272	一个经济特区
+R6	General-Special Arg1:T34 Arg2:T33	
+T35	Organization-Nominal 273 275	中央
+T36	Person-Pronoun 280 282	你们
+T37	Person-Pronoun 296 298	你们
+R7	Part-Whole Arg1:T31 Arg2:T36	
+T38	Person-Name 311 316	邓小平爷爷
+T39	Location-Nominal 324 328	中国大地
+T40	Location-Name 335 337	神州
+T41	Location-Name 170 172	中国
+*	Coreference T40 T41
+T42	Location-Nominal 340 344	天地之间
+T43	Person-Pronoun 345 347	我们
+T44	Organization-Name 345 349;350 352	我们的新 中国
+T45	Organization-Name 364 370	我们的新中国
+T46	Time-Implicit 374 380	发展的新纪元
+T47	Location-Name 381 385	中国南海
+T48	Location-Nominal 381 386	中国南海边
+T49	Thing-Nominal 402 406	座座金山
+T50	Thing-Nominal 392 395	座座城
+R8	Located Arg1:T50 Arg2:T48	
+R9	Located Arg1:T49 Arg2:T48	
+T51	Time-Explicit 407 410;411 412	这个春 天
+*	Coreference T51 T29
+T52	Thing-Nominal 412 414	春风
+T53	Time-Explicit 450 461	1992年又是一个春天
+T54	Person-Name 462 465	邓小平
+T55	Thing-Nominal 417 419	春潮
+T56	Thing-Nominal 422 424	春雷
+T57	Thing-Nominal 427 429	桃花
+T58	Thing-Nominal 431 436	芬芳的花朵
+T59	Person-Nominal 437 439	人儿
+T60	Thing-Nominal 439 440	脸
+R10	Part-Whole Arg1:T60 Arg2:T59	
+T61	Location-Nominal 465 469	南巡途中
+T62	Abstract 474 495	“解放思想、抓住机遇、深化改革”的重要讲话
+T63	Person-Name 496 501	邓小平爷爷
+T64	Abstract 496 504	邓小平爷爷的讲话
+T65	Thing-Nominal 505 507	春雨
+T66	Thing-Nominal 512 520	即将发芽的小树苗
+T67	Thing-Nominal 522 527	金色的阳光
+T68	Thing-Nominal 529 538	正在茁壮成长的嫩芽
+T69	Organization-Name 539 545	我们的新中国
+T70	Person-Pronoun 539 541	我们
+T71	Person-Pronoun 364 366	我们
+T72	Organization-Name 558 564	我们的新中国
+T73	Person-Pronoun 558 560	我们
+T74	Time-Implicit 548 557	改革开放的大好时机
+T75	Time-Implicit 564 569	美好的明天
+T76	Location-Name 575 577	中国
+T77	Location-Nominal 575 584	中国沿海的经济特区
+T78	Thing-Nominal 585 589	雨后春笋
+T79	Abstract 595 599	改革开放
+T80	Abstract 548 552	改革开放
+T81	Location-Nominal 595 604	改革开放的光明大道
+T82	Time-Explicit 614 618	这个春天
+*	Coreference T82 T53
+T83	Location-Nominal 620 622	人间
+T84	Thing-Nominal 623 625	春光
+T85	Thing-Nominal 634 637	红木棉
+T86	Thing-Nominal 639 644	英雄的花朵
+T87	Person-Nominal 645 647	人儿
+T88	Thing-Nominal 647 648	脸
+R11	Part-Whole Arg1:T88 Arg2:T87	
+T89	Time-Explicit 658 669	1997年还是一个春天
+T90	Person-Name 670 673	邓小平
+T91	Person-Pronoun 677 679	我们
+T92	Person-Pronoun 682 683	您
+T93	Person-Pronoun 691 693	我们
+T94	Person-Pronoun 698 699	您
+T95	Person-Pronoun 701 702	您
+T96	Time-Explicit 704 709	1997年
+T97	Location-Name 710 712	香港
+T98	Location-Nominal 712 718;719 724	这片饱经历史 沧桑的土地
+T99	Location-Nominal 726 735	这片属于中国的土地
+*	Coreference T98 T97 T99
+T100	Person-Pronoun 743 744	您
+T101	Location-Nominal 760 762	天国
+T102	Time-Explicit 763 768	1997年
+T103	Location-Nominal 775 777	祖国
+T104	Location-Name 768 770	香港
+*	Coreference T103 T76 T120
+R12	Part-Whole Arg1:T104 Arg2:T103	
+T105	Person-Pronoun 785 786	您
+T106	Thing-Nominal 793 799	铁腕般的手腕
+R13	Use Arg1:T105 Arg2:T106	
+T107	Person-Name 804 809	邓小平爷爷
+T108	Person-Pronoun 810 811	您
+T109	Person-Nominal 814 816	人民
+T110	Person-Nominal 834 837	老百姓
+T111	Person-Pronoun 838 839	您
+T112	Person-Nominal 841 846	人民的儿子
+R14	General-Special Arg1:T112 Arg2:T111	
+T113	Person-Pronoun 847 848	您
+T114	Person-Nominal 853 855	人民
+T115	Person-Nominal 856 864	富强起来的中国人
+T116	Person-Pronoun 871 872	您
+T117	Person-Pronoun 878 879	您
+T118	Person-Pronoun 885 886	您
+T119	Time-Explicit 887 891	这个春天
+*	Coreference T119 T89
+T120	Location-Name 891 895	神州大地
+T121	Thing-Nominal 911 914	小燕子
+T122	Person-Nominal 921 925	举国上下
+T123	Person-Name 927 930	邓小平
+T124	Person-Name 933 938	邓小平爷爷
+T125	Person-Pronoun 939 940	您
+T126	Metric 948 951	十七年
+T127	Organization-Name 966 969	新中国
+T128	Person-Nominal 980 982	人们
+T129	Person-Nominal 990 996	亿万万中国人
+T130	Person-Name 1001 1004	邓小平
+*	Coreference T115 T114 T109 T129
+T131	Person-Name 1010 1013	邓小平
+T132	Location-Name 1014 1017	新中国
+T133	Person-Name 1032 1037	邓小平爷爷
+T134	Person-Pronoun 1038 1039	您
+T135	Person-Pronoun 1046 1048	我们
+T136	Person-Pronoun 1050 1051	您

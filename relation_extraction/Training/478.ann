@@ -1,0 +1,178 @@
+T1	Time-Implicit 0 4	近千年间
+T2	Thing-Nominal 5 7	庙宇
+T3	Thing-Nominal 23 25	灯油
+T4	Thing-Nominal 18 20	香火
+T5	Person-Nominal 28 30	香客
+T6	Thing-Nominal 55 57	庙宇
+T7	Time-Implicit 39 43	近千年间
+T8	Thing-Nominal 48 51	建筑物
+T9	Time-Explicit 62 64	明代
+T10	Thing-Nominal 65 68	龙泉寺
+T11	Thing-Nominal 69 72	苦竹寺
+T12	Person-Nominal 94 107	观世音、文殊、财神、弥勒佛
+T13	Person-Nominal 110 115	天下诸神位
+T14	Thing-Nominal 118 150	一尊一尊慈眉善目、笑容可掬或是一尊一尊怒目横瞪、凶神恶煞般的石像
+T15	Thing-Pronoun 151 153	他们
+*	Coreference T15 T14
+T16	Location-Nominal 158 160	寺内
+T17	Person-Nominal 169 171	僧人
+T18	Thing-Pronoun 210 212	他们
+T19	Person-Nominal 225 229	大多数人
+T20	Location-Nominal 260 263	庙舍里
+T21	Person-Nominal 264 265	神
+T22	Thing-Nominal 268 270	庙舍
+T23	Person-Nominal 195 196	神
+R1	Part-Whole Arg1:T18 Arg2:T23	
+T24	Person-Nominal 284 285	人
+T25	Person-Nominal 310 312	穷人
+T26	Person-Nominal 305 307	富人
+T27	Person-Nominal 301 302	民
+T28	Person-Nominal 297 298	官
+T29	Person-Nominal 293 294	女
+T30	Person-Nominal 289 290	男
+T31	Person-Nominal 317 319	远客
+T32	Person-Nominal 328 330	邻人
+T33	Person-Nominal 339 341	良人
+T34	Person-Nominal 351 353	坏人
+T35	Person-Nominal 360 362	恶人
+T36	Person-Nominal 409 413	每一个人
+T37	Location-Nominal 405 409	人世间里
+T38	Thing-Nominal 389 399	高高神位上的尊尊神灵
+T39	Person-Nominal 367 375	端坐莲池的观世音
+T40	Thing-Nominal 419 423	三元枇杷
+T41	Time-Implicit 424 430	枇杷熟的时候
+T42	Person-Pronoun 433 434	你
+T43	Thing-Nominal 436 447	蜀南竹海三元乡这块土地
+T44	Thing-Nominal 450 454	青山与翠
+T45	Thing-Nominal 457 464	点缀的白墙灰瓦
+T46	Thing-Nominal 467 474	处处的农家小院
+T47	Thing-Nominal 487 489	枇杷
+T48	Thing-Nominal 494 500	金黄色的波峰
+T49	Thing-Nominal 505 511	一个一个山峦
+T50	Thing-Nominal 514 520	一个一个沟谷
+T51	Thing-Nominal 527 532	多少颗果树
+T52	Person-Pronoun 545 546	你
+T53	Location-Nominal 553 556	脑子里
+T54	Person-Pronoun 621 622	你
+T55	Location-Name 618 620	三元
+T56	Thing-Nominal 634 643	一颗成熟带露的枇杷
+T57	Thing-Nominal 648 650	皮衣
+T58	Thing-Nominal 651 657	金黄色的果肉
+T59	Thing-Nominal 660 662	汁液
+T60	Person-Pronoun 672 673	你
+T61	Thing-Pronoun 682 683	它
+*	Coreference T61 T56
+T62	Location-Nominal 685 687	嘴里
+T63	Thing-Nominal 703 716	这一颗颗泛着黄金色泽的枇杷
+T64	Location-Nominal 733 737	篼里筐里
+T65	Location-Nominal 740 744	箱里车里
+T66	Thing-Nominal 747 749	县城
+T67	Thing-Nominal 755 763;764 769	这一颗颗泛着黄金 色泽的枇杷
+T68	Thing-Nominal 779 790	一家家一户户居住的小楼
+T69	Thing-Nominal 791 796	奔跑的小车
+T70	Thing-Nominal 797 804	时尚光鲜的衣着
+T71	Thing-Nominal 805 813	过日子的柴米油盐
+T72	Thing-Nominal 814 824;825 828	这一颗颗泛着黄金色泽 的枇杷
+T73	Person-Nominal 830 833	三元人
+T74	Thing-Nominal 834 835	田
+R2	Ownership Arg1:T73 Arg2:T74	
+T75	Thing-Nominal 841 842	地
+T76	Person-Nominal 837 840	三元人
+R3	Ownership Arg1:T76 Arg2:T75	
+T77	Person-Nominal 844 847	三元人
+T78	Location-Name 862 865	三元乡
+T79	Thing-Nominal 874 876	星空
+T80	Time-Implicit 880 889	白天阳光灿烂的时候
+T81	Thing-Nominal 893 900	天上闪烁的星星
+T82	Thing-Nominal 901 911	一颗颗光芒四射的黄金
+T83	Thing-Nominal 912 915;916 921	闪烁的 一颗颗黄金
+T84	Location-Nominal 922 927	蓝天白云间
+T85	Thing-Nominal 937 940	车车灯
+T86	Location-Name 942 959	三元乡境内的公路旁或在枇杷林子深处
+T87	Thing-Nominal 963 968	一户农家乐
+R4	Located Arg1:T87 Arg2:T86	
+T88	Thing-Nominal 976 980	二层小楼
+T89	Thing-Nominal 982 990	青瓦旧式三合宅院
+T90	Location-Nominal 991 993	院内
+T91	Thing-Nominal 993 995	门庭
+R5	Located Arg1:T91 Arg2:T90	
+T92	Thing-Nominal 998 1000	鲜花
+T93	Location-Nominal 1004 1006	院外
+T94	Thing-Nominal 1006 1010	桃李果蔬
+R6	Located Arg1:T94 Arg2:T93	
+T95	Thing-Nominal 1018 1020	山峦
+T96	Thing-Nominal 1028 1032	丛丛修竹
+T97	Thing-Nominal 1023 1025	雾霭
+T98	Location-Nominal 1039 1044	这样的院里
+T99	Thing-Nominal 1049 1054	自采的清茶
+T100	Thing-Nominal 1065 1067	枇杷
+T101	Person-Nominal 1069 1072	同行人
+T102	Person-Nominal 1080 1082	老农
+T103	Thing-Nominal 1116 1118	苦笋
+T104	Location-Name 1125 1127	三元
+T105	Location-Nominal 1128 1134	枇杷林子深处
+T106	Person-Pronoun 1138 1140	我们
+T107	Thing-Nominal 1144 1149	苦笋炖土鸡
+T108	Thing-Nominal 1153 1154	鸡
+T109	Thing-Nominal 1159 1165	头颈翅膀脚爪
+T110	Location-Nominal 1168 1169;1170 1171	汤 里
+R7	Located Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 1181 1182	鹅
+T112	Thing-Nominal 1189 1192	腊猪蹄
+T113	Thing-Nominal 1194 1199	一碟老腊肉
+T114	Thing-Nominal 1207 1214	新鲜鸡杂、鹅杂
+T115	Thing-Nominal 1218 1223	素菜和泡菜
+T116	Thing-Nominal 1224 1225	酒
+T117	Person-Pronoun 1229 1230;1231 1232	自 己
+T118	Thing-Nominal 1235 1237	白干
+T119	Thing-Nominal 1240 1241	桌
+T120	Thing-Nominal 1242 1246	三杯两盏
+T121	Location-Nominal 1250 1252	桌上
+T122	Person-Nominal 1263 1265	老农
+T123	Metric 1275 1277	几杯
+T124	Person-Nominal 1278 1280	老农
+T125	Location-Name 1290 1291;1292 1294	三 元乡
+T126	Location-Nominal 1300 1307	黑里透红的脸上
+T127	Thing-Nominal 1310 1315	深深的沟纹
+R8	Located Arg1:T127 Arg2:T126	
+T128	Location-Nominal 1316 1318	眼里
+T129	Thing-Nominal 1325 1326	头
+T130	Thing-Nominal 1329 1330	手
+T131	Person-Pronoun 1346 1348	自己
+T132	Time-Explicit 1369 1371	明朝
+T133	Location-Nominal 1380 1382	民间
+T134	Location-Nominal 1374 1376	民间
+T135	Location-Nominal 1386 1388	民间
+T136	Location-Name 1392 1398	川南农村地区
+T137	Person-Nominal 1405 1407	农人
+T138	Person-Pronoun 1409 1411	自己
+*	Coreference T138 T137
+T139	Thing-Pronoun 1459 1460	它
+T140	Location-Nominal 1444 1446	川南
+T141	Location-Nominal 1469 1473	川南地区
+T142	Thing-Nominal 1534 1536	酒席
+T143	Location-Nominal 1513 1517	蜀南民间
+T144	Person-Nominal 1485 1490	广大劳动者
+T145	Location-Nominal 1556 1559	酒席间
+T146	Person-Nominal 1571 1572	人
+T147	Person-Nominal 1668 1670	老农
+T148	Location-Name 1697 1699	三元
+T149	Thing-Nominal 1699 1704	特色的车灯
+T150	Location-Nominal 1710 1715	农村家庭中
+T151	Person-Nominal 1715 1719	公婆媳妇
+T152	Person-Nominal 1848 1850	老农
+T153	Location-Name 1863 1865	三元
+T154	Person-Nominal 1795 1797	众人
+T155	Thing-Nominal 1821 1826	桌上的土酒
+T156	Location-Nominal 1821 1823	桌上
+R9	Located Arg1:T155 Arg2:T156	
+T157	Person-Nominal 1763 1765	听者
+T158	Person-Pronoun 1854 1856	我们
+T159	Person-Name 1886 1889	山海风
+T160	Person-Name 1892 1895	严成勇
+T161	Person-Nominal 1896 1903	四川省作协会员
+T162	Time-Explicit 1904 1911	1966年2月
+T163	Location-Name 1914 1923	四川省长宁县桃坪乡
+T164	Time-Explicit 1924 1929	1997年
+T165	Abstract 1941 1946;1947 1948	《冬夜围炉 》
+T166	Abstract 1952 1958	《闲啜散酒》

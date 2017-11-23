@@ -1,0 +1,299 @@
+T1	Time-Implicit 0 2	那年
+T2	Location-Name 3 9	长冈乡园塘村
+T3	Time-Implicit 2 18	驻长冈乡园塘村建设新农村工作期间
+*	Coreference T1 T3
+T4	Person-Nominal 19 21	笔者
+T5	Time-Implicit 23 27	一大清早
+T6	Organization-Nominal 31 34	村委会
+T7	Location-Nominal 31 39	村委会房后的小路
+T8	Location-Nominal 46 48	山间
+T9	Location-Nominal 49 51	小道
+R1	Part-Whole Arg1:T9 Arg2:T8	
+T10	Person-Nominal 68 70	自己
+*	Coreference T10 T4
+T11	Location-Name 85 88	园塘村
+T12	Location-Nominal 92 94	竹村
+*	Coreference T11 T12
+T13	Location-Nominal 95 99	山湾湾里
+T14	Location-Nominal 100 104	溪水两旁
+T15	Location-Nominal 105 109	房前房后
+T16	Thing-Nominal 117 119	黄竹
+R2	Located Arg1:T16 Arg2:T15	
+R3	Located Arg1:T16 Arg2:T14	
+R4	Located Arg1:T16 Arg2:T13	
+T17	Thing-Pronoun 120 121;122 123	它 们
+*	Coreference T17 T16
+T18	Thing-Nominal 124 126	青山
+T19	Location-Nominal 137 139	山底
+T20	Location-Nominal 142 144	山巅
+T21	Location-Nominal 146 148	山里
+T22	Location-Nominal 150 152	山外
+T23	Location-Name 154 160	长冈乡园塘村
+T24	Location-Nominal 162 165	新农村
+*	Coreference T23 T24
+T25	Location-Nominal 173 175	乡村
+T26	Location-Name 192 195	园塘村
+T27	Thing-Nominal 196 198	竹子
+R5	Located Arg1:T27 Arg2:T26	
+T28	Person-Nominal 204 206	村民
+T29	Thing-Nominal 209 211	金竹
+T30	Thing-Nominal 212 214	贵竹
+T31	Thing-Nominal 215 217	水竹
+T32	Thing-Nominal 218 220	毛竹
+R6	Part-Whole Arg1:T32 Arg2:T27	
+R7	Part-Whole Arg1:T31 Arg2:T27	
+R8	Part-Whole Arg1:T29 Arg2:T27	
+R9	Part-Whole Arg1:T29 Arg2:T27	
+T33	Thing-Nominal 228 230	水竹
+T34	Thing-Nominal 233 235	金竹
+T35	Thing-Nominal 242 244	竹子
+T36	Person-Nominal 250 252;253 254	村民 们
+T37	Thing-Nominal 257 259	竹子
+T38	Thing-Nominal 264 266	水竹
+T39	Location-Nominal 268 270	山脚
+T40	Location-Nominal 272 276	房前屋后
+T41	Location-Nominal 276 282	土脚厚的地方
+*	Coreference T40 T41 T39
+R10	Located Arg1:T38 Arg2:T39	
+R11	Located Arg1:T38 Arg2:T40	
+T42	Thing-Nominal 285 287	水竹
+T43	Thing-Nominal 308 310	桂竹
+T44	Location-Nominal 314 316	山腰
+T45	Location-Nominal 318 320	洼地
+T46	Person-Pronoun 335 336	你
+T47	Thing-Pronoun 338 339	它
+*	Coreference T47 T43
+R12	Located Arg1:T47 Arg2:T44	
+R13	Located Arg1:T47 Arg2:T45	
+T48	Thing-Nominal 347 349	金竹
+T49	Location-Nominal 360 366	土层好的地方
+T50	Location-Nominal 352 353	坡
+R14	Located Arg1:T48 Arg2:T50	
+*	Coreference T50 T49
+T51	Thing-Pronoun 376 377	它
+*	Coreference T51 T48
+T52	Thing-Nominal 386 388	水竹
+T53	Thing-Pronoun 407 408	它
+*	Coreference T53 T52 T56
+T54	Thing-Nominal 409 411	桂竹
+T55	Thing-Nominal 412 414	金竹
+T56	Thing-Pronoun 417 419	它们
+T57	Thing-Nominal 419 421	竹节
+R15	Part-Whole Arg1:T57 Arg2:T52	
+T58	Thing-Nominal 428 430	刷帚
+T59	Thing-Nominal 431 433	扎条
+T60	Thing-Nominal 434 435;436 437	背 篓
+T61	Thing-Nominal 438 442	扁花篾子
+T62	Thing-Nominal 443 446	扁花篾
+T63	Thing-Nominal 448 450	篾刀
+T64	Thing-Nominal 451 452	篾
+T65	Location-Nominal 462 464	地里
+T66	Thing-Nominal 466 470	核桃树皮
+R16	Located Arg1:T66 Arg2:T65	
+T67	Thing-Nominal 474 475	锅
+T68	Time-Implicit 478 480	几天
+R17	Located Arg1:T66 Arg2:T67	
+T69	Thing-Nominal 483 484	蔑
+T70	Thing-Nominal 490 492	竹子
+T71	Thing-Nominal 506 507	篾
+T72	Thing-Nominal 514 521	背篓腰身的扁花
+*	Coreference T71 T72
+T73	Person-Nominal 523 526	篾匠们
+T74	Thing-Nominal 533 536	水竹篾
+T75	Thing-Nominal 544 547	格子花
+T76	Thing-Nominal 538 541	大喜字
+R18	Create Arg1:T73 Arg2:T76	
+R19	Create Arg1:T73 Arg2:T75	
+R20	Use Arg1:T73 Arg2:T74	
+T77	Person-Nominal 553 555	篾匠
+T78	Thing-Nominal 556 557;558 559	水 竹
+T79	Thing-Nominal 560 563	丫头竹
+*	Coreference T79 T78 T80
+T80	Thing-Pronoun 564 566	它们
+T81	Thing-Nominal 578 580	桂竹
+T82	Thing-Nominal 585 587	水竹
+T83	Thing-Pronoun 590 592	它们
+T84	Thing-Nominal 592 594	竹节
+*	Coreference T83 T81
+R21	Part-Whole Arg1:T84 Arg2:T81	
+T85	Thing-Nominal 601 603	碗口
+T86	Thing-Nominal 609 611	桂竹
+T87	Thing-Pronoun 619 621	它们
+T88	Thing-Nominal 627 629	水竹
+T89	Thing-Nominal 630 632	金竹
+T90	Thing-Nominal 642 643	篾
+T91	Thing-Nominal 646 648	桂竹
+T92	Thing-Nominal 651 653	水竹
+T93	Thing-Nominal 673 674	它
+T94	Thing-Nominal 676 679;680 682	背篓的 筒子
+*	Coreference T93 T94
+*	Coreference T87 T91 T90
+T95	Person-Nominal 685 687	篾匠
+T96	Thing-Nominal 689 691	桂竹
+T97	Thing-Nominal 692 695	娃儿竹
+*	Coreference T96 T97
+T98	Person-Nominal 698 700	娃儿
+T99	Person-Nominal 701 703	丫头
+T100	Thing-Nominal 727 729	金竹
+T101	Thing-Nominal 731 733	竹子
+T102	Person-Nominal 736 738	皇帝
+R22	Part-Whole Arg1:T100 Arg2:T101	
+T103	Thing-Pronoun 741 742	它
+T104	Thing-Nominal 747 749	水竹
+T105	Thing-Nominal 750 752	桂竹
+T106	Thing-Nominal 755 757	竹节
+R23	Part-Whole Arg1:T103 Arg2:T106	
+T107	Thing-Pronoun 788 789	它
+T108	Thing-Nominal 771 774	节把儿
+R24	Part-Whole Arg1:T108 Arg2:T107	
+T109	Thing-Nominal 796 797	篾
+*	Coreference T107 T109
+*	Coreference T103 T100
+T110	Thing-Nominal 803 805	匹篾
+T111	Thing-Nominal 813 815	金竹
+*	Coreference T110 T111
+T112	Thing-Nominal 819 821	金竹
+T113	Thing-Nominal 825 833	背篓的骨架和绲口
+*	Coreference T112 T113 T114 T115 T116
+T114	Thing-Pronoun 834 835	它
+T115	Thing-Nominal 836 839	当家篾
+T116	Thing-Nominal 840 843	顶梁柱
+T117	Person-Nominal 846 848	篾匠
+T118	Thing-Nominal 849 851	金竹
+T119	Thing-Nominal 852 855	皇帝竹
+*	Coreference T118 T119
+T120	Location-Nominal 857 858	家
+T121	Thing-Nominal 861 862	竹
+R25	Located Arg1:T121 Arg2:T120	
+T122	Person-Nominal 863 865	子孙
+T123	Person-Nominal 875 877	村民
+T124	Person-Nominal 886 889	村民们
+T125	Thing-Nominal 892 893	竹
+T126	Thing-Pronoun 903 904	它
+*	Coreference T126 T125
+T127	Thing-Nominal 925 927	竹子
+T128	Thing-Nominal 928 930	木头
+T129	Thing-Nominal 932 934	木头
+T130	Thing-Nominal 936 937	草
+T131	Thing-Nominal 939 940	草
+T132	Thing-Nominal 942 944	它们
+*	Coreference T132 T127
+T133	Thing-Nominal 946 947	木
+T134	Thing-Nominal 949 950	木
+T135	Thing-Nominal 953 954	草
+T136	Thing-Nominal 956 957	草
+T137	Thing-Nominal 958 960	木头
+T138	Thing-Pronoun 963 965	它们
+T139	Thing-Nominal 969 970	草
+T140	Thing-Pronoun 973 975	它们
+T141	Thing-Pronoun 984 986	它们
+T142	Thing-Pronoun 1004 1006	它们
+T143	Person-Pronoun 1002 1003	你
+T144	Thing-Nominal 1007 1008	根
+R26	Part-Whole Arg1:T144 Arg2:T142	
+T145	Thing-Nominal 1013 1016	地下茎
+T146	Thing-Nominal 1017 1019	竹根
+T147	Thing-Nominal 1020 1022	鞭根
+T148	Thing-Nominal 1023 1025	竹秆
+R27	Part-Whole Arg1:T145 Arg2:T142	
+R28	Part-Whole Arg1:T146 Arg2:T142	
+R29	Part-Whole Arg1:T147 Arg2:T142	
+R30	Part-Whole Arg1:T148 Arg2:T142	
+T149	Thing-Pronoun 1048 1050	它们
+T150	Thing-Pronoun 1054 1056	它们
+T151	Thing-Nominal 1059 1061	竹笋
+T152	Time-Implicit 1065 1069	四五十天
+T153	Thing-Nominal 1072 1074	老竹
+T154	Thing-Pronoun 1085 1087	它们
+T155	Location-Nominal 1089 1094	水肥的地方
+R31	Located Arg1:T154 Arg2:T155	
+T156	Thing-Pronoun 1094 1096	它们
+T157	Thing-Pronoun 1102 1104	它们
+T158	Location-Nominal 1106 1108	枯包
+R32	Located Arg1:T157 Arg2:T158	
+T159	Thing-Pronoun 1109 1111	它们
+T160	Thing-Pronoun 1117 1119	它们
+T161	Thing-Pronoun 1136 1138	它们
+T162	Location-Nominal 1142 1144	屋檐
+T163	Thing-Pronoun 1157 1159	它们
+T164	Person-Nominal 1171 1173	古人
+T165	Thing-Pronoun 1199 1201	它们
+T166	Thing-Pronoun 1212 1214	它们
+T167	Thing-Pronoun 1219 1221	它们
+T168	Thing-Pronoun 1233 1235	它们
+T169	Person-Nominal 1239 1241	别人
+T170	Thing-Pronoun 1242 1244	它们
+T171	Location-Nominal 1245 1246	山
+T172	Location-Nominal 1249 1250	山
+T173	Thing-Pronoun 1252 1254	它们
+R33	Near Arg1:T170 Arg2:T171	
+T174	Thing-Pronoun 1259 1261	它们
+T175	Location-Nominal 1262 1263	水
+R34	Near Arg1:T174 Arg2:T175	
+T176	Location-Nominal 1266 1267	水
+T177	Thing-Pronoun 1269 1271	它们
+T178	Thing-Pronoun 1276 1278	它们
+T179	Person-Nominal 1293 1298	我们的祖先
+T180	Thing-Pronoun 1299 1301	它们
+T181	Thing-Nominal 1302 1304	梅花
+T182	Thing-Nominal 1305 1307	兰草
+T183	Thing-Nominal 1308 1310	菊花
+T184	Person-Nominal 1319 1322	四君子
+R35	Part-Whole Arg1:T183 Arg2:T184	
+R36	Part-Whole Arg1:T182 Arg2:T184	
+R37	Part-Whole Arg1:T181 Arg2:T184	
+R38	Part-Whole Arg1:T180 Arg2:T184	
+T185	Thing-Nominal 1326 1328	梅花
+T186	Thing-Nominal 1329 1331	兰草
+T187	Thing-Nominal 1332 1334	菊花
+T188	Thing-Pronoun 1338 1340	它们
+T189	Thing-Pronoun 1343 1344;1345 1346	它 们
+T190	Thing-Pronoun 1355 1357	它们
+T191	Thing-Pronoun 1418 1420	它们
+T192	Thing-Pronoun 1461 1463	它们
+T193	Thing-Pronoun 1483 1485	它们
+T194	Thing-Pronoun 1505 1507	它们
+T195	Person-Pronoun 1533 1534	你
+T196	Thing-Pronoun 1546 1548	它们
+T197	Thing-Nominal 1555 1557	梅花
+T198	Thing-Nominal 1560 1562	兰草
+T199	Thing-Nominal 1565 1567	菊花
+T200	Thing-Pronoun 1587 1588;1589 1590	它 们
+T201	Location-Nominal 1595 1596	屋
+T202	Thing-Pronoun 1605 1606	它
+T203	Thing-Nominal 1612 1614	凉席
+T204	Thing-Nominal 1620 1622	筷子
+T205	Thing-Nominal 1628 1630	躺椅
+T206	Thing-Nominal 1634 1636	竹凳
+T207	Thing-Nominal 1640 1642	竹篓
+T208	Thing-Nominal 1646 1648	竹担
+T209	Thing-Nominal 1655 1657	簸箕
+T210	Thing-Nominal 1658 1660	米筛
+T211	Thing-Nominal 1661 1663	撮箕
+T212	Thing-Nominal 1664 1666	晒席
+T213	Thing-Nominal 1687 1689	竹笋
+T214	Thing-Nominal 1691 1692	竹
+T215	Person-Nominal 1707 1709	子孙
+T216	Person-Nominal 1714 1716	万民
+T217	Thing-Pronoun 1717 1719	它们
+T218	Person-Pronoun 1756 1757	我
+T219	Person-Nominal 1798 1800	笔者
+*	Coreference T218 T219 T221 T222 T223 T224 T225
+T220	Time-Implicit 1802 1806	三十多年
+T221	Person-Nominal 1809 1811	农民
+T222	Person-Nominal 1812 1814	工人
+T223	Person-Nominal 1815 1817	教师
+T224	Person-Nominal 1818 1822	特约记者
+T225	Person-Nominal 1823 1825	秘书
+T226	Location-Nominal 1858 1861	新农村
+T227	Thing-Nominal 1865 1868	笔记本
+R39	Ownership Arg1:T219 Arg2:T227	
+T228	Person-Nominal 1899 1901	自己
+T229	Person-Nominal 1947 1949	同事
+T230	Person-Nominal 1962 1964	自己
+R40	Social Arg1:T230 Arg2:T229	
+T231	Person-Pronoun 2053 2054	我
+T232	Person-Pronoun 2079 2080	我
+T233	Person-Nominal 2080 2082	写者
+*	Coreference T233 T232
+T234	Location-Nominal 78 79	村

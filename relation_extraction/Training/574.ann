@@ -1,0 +1,337 @@
+T1	Time-Explicit 3 12	上世纪六十年代中期
+T2	Person-Pronoun 13 14	我
+T3	Person-Nominal 37 39	母亲
+T4	Person-Nominal 30 35	印象最烈者
+*	Coreference T3 T4
+R1	Family Arg1:T2 Arg2:T3	
+T5	Person-Pronoun 40 41	我
+T6	Location-Name 44 60	华坪县船房乡高桥村的一户贫苦农家
+T7	Person-Nominal 62 65	父、母
+T8	Person-Nominal 72 74	农民
+*	Coreference T7 T8
+T9	Person-Pronoun 76 77	我
+R2	Family Arg1:T9 Arg2:T7	
+T10	Person-Nominal 84 86	父亲
+T11	Thing-Nominal 104 106	水库
+T12	Thing-Nominal 108 110	国道
+T13	Thing-Nominal 112 114	桥梁
+T14	Person-Pronoun 118 119	我
+T15	Person-Nominal 127 129	母亲
+T16	Person-Pronoun 136 137	她
+*	Coreference T16 T15
+T17	Person-Nominal 150 152	母亲
+T18	Person-Pronoun 159 160	她
+*	Coreference T18 T17
+T19	Person-Nominal 174 176	父亲
+T20	Location-Nominal 180 181	家
+T21	Person-Nominal 182 184	女人
+T22	Person-Pronoun 188 189	她
+T23	Person-Nominal 194 196	男人
+T24	Person-Pronoun 200 201	她
+*	Coreference T21 T22
+T25	Person-Pronoun 208 209	她
+T26	Person-Nominal 221 225	其她农妇
+T27	Time-Implicit 233 237	每天晨曦
+T28	Person-Pronoun 240 241	她
+T29	Location-Nominal 245 247	地里
+T30	Thing-Nominal 248 251	猪食叶
+T31	Thing-Nominal 253 255	茅草
+T32	Thing-Nominal 278 279	菜
+T33	Thing-Nominal 281 282	菜
+T34	Thing-Nominal 298 300	锄头
+T35	Person-Nominal 303 307	生产队长
+T36	Location-Nominal 316 318	田地
+T37	Thing-Nominal 341 345	锅碗瓢盆
+T38	Person-Nominal 355 357	子女
+T39	Person-Nominal 361 363	外公
+T40	Person-Nominal 364 366	外婆
+T41	Time-Implicit 367 370	晚饭后
+T42	Thing-Nominal 375 376	猪
+T43	Thing-Nominal 376 377	鸡
+T44	Person-Pronoun 382 383	她
+R3	Family Arg1:T44 Arg2:T40	
+R4	Family Arg1:T44 Arg2:T39	
+R5	Family Arg1:T44 Arg2:T38	
+R6	Use Arg1:T28 Arg2:T34	
+R7	Social Arg1:T28 Arg2:T35	
+T45	Person-Pronoun 382 383	她
+T46	Thing-Nominal 386 390	针线簸箕
+T47	Person-Nominal 392 393;394 396	全 家人
+T48	Person-Nominal 398 400	衣服
+T49	Person-Nominal 402 405	千层底
+T50	Person-Pronoun 419 420	她
+T51	Person-Pronoun 425 426	她
+T52	Time-Implicit 448 450	晚年
+T53	Person-Pronoun 451 452	她
+T54	Person-Pronoun 467 469	你们
+T55	Person-Pronoun 484 485	她
+T56	Person-Nominal 502 504	母亲
+T57	Person-Nominal 506 508	子女
+R8	Family Arg1:T56 Arg2:T57	
+T58	Person-Pronoun 518 519	她
+T59	Thing-Nominal 523 524	瓜
+T60	Thing-Nominal 525 526	瓜
+T61	Thing-Nominal 528 529	豆
+T62	Thing-Nominal 530 532	豆;
+T63	Thing-Nominal 532 534	庄稼
+T64	Thing-Nominal 544 546	肥猪
+T65	Person-Pronoun 585 586	我
+T66	Time-Implicit 591 596	每天上学前
+T67	Person-Nominal 597 599	母亲
+T68	Thing-Nominal 641 643	山泉
+T69	Thing-Nominal 653 656	的庄稼
+T70	Time-Implicit 662 664	此时
+T71	Person-Pronoun 665 666	我
+T72	Person-Nominal 692 694	老师
+T73	Time-Implicit 710 715	四十多年后
+T74	Person-Pronoun 717 718	我
+T75	Person-Nominal 748 750	母亲
+T76	Person-Nominal 852 854	好人
+T77	Person-Pronoun 868 869	我
+T78	Location-Nominal 889 891	船房
+T79	Location-Nominal 891 893	大山
+T80	Person-Nominal 894 896	母亲
+T81	Location-Name 930 933	狮子山
+T82	Location-Name 942 945	乌木河
+T83	Person-Pronoun 951 952	我
+T84	Person-Pronoun 968 969	我
+T85	Thing-Nominal 984 985	柴
+T86	Person-Pronoun 1000 1002	我们
+T87	Time-Implicit 1025 1027	那时
+T88	Location-Nominal 1028 1030	村子
+T89	Thing-Nominal 1033 1034	山
+R9	Near Arg1:T89 Arg2:T88	
+T90	Person-Nominal 1040 1043	村民们
+T91	Metric 1045 1048	八公里
+T92	Location-Name 1051 1054	狮子山
+T93	Metric 1061 1065	三个小时
+T94	Time-Implicit 1068 1071	星期天
+T95	Time-Implicit 1072 1075	节假日
+T96	Person-Pronoun 1080 1081	我
+T97	Person-Nominal 1091 1093	母亲
+T98	Person-Pronoun 1094 1095	我
+R10	Family Arg1:T97 Arg2:T98	
+T99	Person-Pronoun 1111 1112	我
+T100	Thing-Nominal 1118 1119	柴
+T101	Location-Nominal 1123 1126	半山腰
+T102	Time-Implicit 1127 1129	傍晚
+T103	Person-Nominal 1130 1132	母亲
+T104	Person-Pronoun 1141 1142	我
+T105	Person-Nominal 1143 1146	母子俩
+T106	Thing-Nominal 1148 1149	柴
+T107	Location-Nominal 1154 1155	家
+R11	Located Arg1:T100 Arg2:T101	
+T108	Thing-Name 1187 1190	狮子山
+T109	Location-Nominal 1192 1195	船房乡
+R12	Located Arg1:T108 Arg2:T109	
+T110	Location-Nominal 1231 1233	村庄
+T111	Person-Nominal 1243 1246	庄稼人
+T112	Thing-Nominal 1252 1253	山
+T113	Person-Pronoun 1276 1277	我
+*	Coreference T112 T108
+T114	Thing-Nominal 1286 1288	树木
+T115	Thing-Nominal 1291 1293	大山
+T116	Thing-Nominal 1300 1302	山泉
+T117	Person-Name 1307 1311	鲁迅先生
+T118	Time-Implicit 1340 1342	那时
+T119	Person-Pronoun 1343 1344	我
+T120	Person-Nominal 1372 1374	先贤
+*	Coreference T120 T117
+T121	Person-Pronoun 1414 1415	我
+T122	Person-Nominal 1422 1424	农民
+T123	Person-Nominal 1467 1469	母亲
+T124	Person-Pronoun 1473 1474	我
+T125	Person-Nominal 1506 1507;1508 1509	农 人
+T126	Thing-Nominal 1520 1522	稻谷
+T127	Person-Pronoun 1530 1531	我
+T128	Person-Pronoun 1550 1551	我
+T129	Person-Nominal 1560 1562	弟弟
+R13	Family Arg1:T128 Arg2:T129	
+T130	Person-Pronoun 1573 1574	我
+T131	Person-Nominal 1582 1585	小领导
+*	Coreference T130 T131
+T132	Person-Pronoun 1602 1603	我
+T133	Person-Nominal 1607 1609	母亲
+T134	Location-Nominal 1610 1611	城
+T135	Time-Implicit 1621 1625	十天半月
+T136	Person-Pronoun 1626 1627	她
+*	Coreference T136 T133
+T137	Person-Pronoun 1642 1643	她
+T138	Location-Nominal 1653 1657	乡下老家
+T139	Person-Pronoun 1658 1659	她
+T140	Person-Nominal 1660 1662	父亲
+T141	Thing-Nominal 1668 1670	包谷
+T142	Metric 1671 1673	五亩
+T143	Thing-Nominal 1674 1677	柿子树
+T144	Thing-Nominal 1684 1685	鸡
+T145	Thing-Nominal 1686 1687	猪
+T146	Thing-Nominal 1688 1689	鱼
+T147	Person-Pronoun 1695 1696	她
+T148	Thing-Nominal 1703 1704	她
+T149	Person-Nominal 1714 1716	母亲
+T150	Location-Nominal 1724 1726	山村
+T151	Person-Pronoun 1733 1734	她
+T152	Person-Pronoun 1738 1739	我
+T153	Person-Pronoun 1741 1742	你
+*	Coreference T152 T153 T154
+T154	Person-Nominal 1756 1758	自己
+T155	Person-Nominal 1759 1761	老妈
+*	Coreference T155 T151 T158
+T156	Person-Nominal 1788 1790	大伙
+T157	Person-Pronoun 1804 1805	你
+T158	Person-Pronoun 1806 1807	我
+T159	Time-Implicit 1827 1830	孩提时
+T160	Person-Nominal 1831 1833	母亲
+T161	Person-Pronoun 1847 1848	我
+T162	Person-Pronoun 1857 1858	她
+*	Coreference T162 T160
+T163	Thing-Nominal 1900 1902	脐带
+T164	Thing-Nominal 1933 1934	牛
+T165	Thing-Nominal 1936 1937	犊
+T166	Thing-Nominal 1940 1941	羊
+T167	Person-Pronoun 1947 1948	我
+T168	Person-Nominal 1953 1955	母亲
+T169	Person-Nominal 2024 2026	母亲
+T170	Person-Nominal 2035 2037	穷人
+T171	Time-Implicit 2057 2061	晚饭时分
+T172	Location-Nominal 2062 2067	我家大门外
+T173	Person-Nominal 2070 2076	讨饭的老婆婆
+T174	Person-Pronoun 2079 2080	她
+*	Coreference T174 T173
+T175	Thing-Nominal 2095 2097	拐杖
+R14	Use Arg1:T173 Arg2:T175	
+T176	Thing-Nominal 2101 2102	狗
+T177	Person-Pronoun 2105 2106	她
+T178	Location-Nominal 2113 2117	我家门口
+T179	Person-Pronoun 2130 2131	她
+T180	Person-Nominal 2152 2154	母亲
+T181	Person-Pronoun 2155 2156	她
+T182	Location-Nominal 2159 2160	屋
+T183	Person-Pronoun 2162 2163	她
+T184	Person-Pronoun 2178 2179	她
+T185	Person-Nominal 2199 2201	母亲
+T186	Thing-Nominal 2217 2220	搪瓷缸
+T187	Thing-Nominal 2214 2216	盖子
+R15	Part-Whole Arg1:T187 Arg2:T186	
+T188	Thing-Nominal 2229 2231	布袋
+R16	Located Arg1:T186 Arg2:T188	
+T189	Person-Pronoun 2235 2236	她
+T190	Person-Pronoun 2240 2241	她
+T191	Thing-Nominal 2243 2247	旧羊毛毯
+T192	Person-Pronoun 2248 2249	她
+T193	Thing-Nominal 2267 2270	搪瓷缸
+T194	Person-Pronoun 2272 2273	我
+T195	Thing-Nominal 2276 2277	柴
+T196	Person-Nominal 2302 2304	母亲
+T197	Person-Pronoun 2309 2310	我
+T198	Person-Nominal 2319 2321	母亲
+T199	Person-Pronoun 2326 2327	我
+T200	Person-Pronoun 2330 2331	她
+T201	Person-Pronoun 2346 2348	我们
+T202	Time-Implicit 2360 2366	两天后的早晨
+T203	Person-Nominal 2367 2369	母亲
+T204	Thing-Nominal 2371 2373	大门
+T205	Thing-Nominal 2381 2384	搪瓷缸
+T206	Location-Nominal 2394 2396	门口
+R17	Located Arg1:T205 Arg2:T206	
+T207	Thing-Nominal 2403 2405	草药
+R18	Located Arg1:T207 Arg2:T206	
+T208	Person-Nominal 2406 2408	我们
+T209	Person-Nominal 2408 2411	全家人
+*	Coreference T208 T209
+T210	Person-Nominal 2418 2420	母亲
+T211	Person-Pronoun 2428 2429	她
+T212	Person-Nominal 2446 2447;2448 2449	母 亲
+T213	Person-Pronoun 2477 2478	她
+T214	Person-Pronoun 2504 2505	我
+T215	Person-Nominal 2535 2537	母亲
+T216	Person-Pronoun 2543 2544	我
+T217	Thing-Nominal 2571 2573	锣锅
+T218	Thing-Nominal 2577 2580	猪食桶
+T219	Thing-Nominal 2591 2592	米
+T220	Thing-Nominal 2597 2598	米
+T221	Person-Pronoun 2610 2611	我
+T222	Thing-Nominal 2617 2618	米
+T223	Thing-Nominal 2626 2627	米
+T224	Person-Pronoun 2634 2635	我
+T225	Thing-Nominal 2644 2645	猪
+T226	Thing-Nominal 2647 2648	猪
+T227	Person-Nominal 2659 2661	母亲
+T228	Person-Pronoun 2668 2669	我
+T229	Thing-Nominal 2672 2673	猪
+T230	Person-Pronoun 2681 2682	我
+T231	Person-Pronoun 2694 2695	我
+T232	Thing-Nominal 2697 2698	米
+T233	Thing-Nominal 2701 2704	猪食桶
+T234	Thing-Nominal 2710 2712	小鸡
+T235	Person-Pronoun 2730 2731	我
+T236	Thing-Nominal 2734 2736	竹条
+R19	Use Arg1:T235 Arg2:T236	
+T237	Person-Pronoun 2750 2751	我
+T238	Location-Nominal 2762 2764	菜园
+T239	Person-Nominal 2770 2772	母亲
+T240	Person-Pronoun 2794 2795	我
+T241	Time-Explicit 2805 2807	下午
+T242	Thing-Nominal 2810 2812	老鹰
+T243	Location-Nominal 2814 2816	房顶
+R20	Located Arg1:T242 Arg2:T243	
+T244	Thing-Nominal 2823 2824	鸡
+T245	Person-Nominal 2829 2831	母亲
+T246	Time-Implicit 2844 2847	两天后
+T247	Thing-Nominal 2850 2851	鸡
+T248	Person-Nominal 2860 2862	母亲
+T249	Location-Nominal 2884 2886	农村
+T250	Thing-Nominal 2889 2890	鸡
+T251	Thing-Nominal 2900 2902	盐巴
+T252	Thing-Nominal 2902 2904	茶叶
+T253	Metric 2909 2911	几尺
+T254	Thing-Nominal 2911 2915	兰咔叽布
+T255	Person-Nominal 2920 2922	孩子
+T256	Person-Nominal 2927 2929	母亲
+R21	Family Arg1:T256 Arg2:T255	
+T257	Time-Implicit 2938 2941	年轻时
+T258	Person-Nominal 2942 2944	母亲
+T259	Location-Nominal 2945 2946	村
+T260	Person-Nominal 2951 2953	美女
+*	Coreference T258 T260
+T261	Person-Nominal 2957 2959	帅哥
+T262	Person-Pronoun 2963 2964	她
+T263	Person-Pronoun 2981 2982	她
+T264	Location-Nominal 2983 2985	地里
+T265	Location-Nominal 2988 2990	邻村
+T266	Person-Nominal 2991 2995	一位帅哥
+T267	Person-Pronoun 3003 3004	她
+R22	Social Arg1:T266 Arg2:T267	
+T268	Person-Nominal 3030 3032	母亲
+T269	Person-Nominal 3021 3025	周围的人
+T270	Person-Nominal 3057 3059	帅哥
+T271	Location-Nominal 3063 3065	水潭
+T272	Person-Pronoun 3075 3076	她
+T273	Person-Nominal 3079 3081	母亲
+T274	Person-Nominal 3085 3087	强者
+*	Coreference T273 T274
+T275	Person-Pronoun 3089 3090	我
+T276	Person-Pronoun 3111 3112	她
+T277	Person-Pronoun 3140 3141	她
+T278	Time-Implicit 3181 3183	近年
+T279	Person-Nominal 3185 3187	母亲
+T280	Person-Pronoun 3201 3202	她
+*	Coreference T280 T279
+T281	Time-Implicit 3211 3214	十多年
+T282	Location-Nominal 3274 3275	县
+T283	Location-Nominal 3276 3277	乡
+T284	Location-Name 3308 3311	狮子山
+T285	Thing-Nominal 3329 3330	果
+T286	Location-Nominal 3331 3333	山上
+*	Coreference T286 T284
+R23	Located Arg1:T285 Arg2:T286	
+T287	Location-Nominal 3334 3335	村
+T288	Location-Nominal 3336 3338	林中
+R24	Part-Whole Arg1:T287 Arg2:T288	
+T289	Location-Name 3347 3349	船房
+T290	Person-Nominal 3359 3361	村民
+T291	Location-Nominal 3362 3363;3364 3365	村 庄
+T292	Person-Pronoun 3373 3374	我
+T293	Time-Implicit 3374 3376	儿时
+T294	Person-Pronoun 3387 3388	我
+T295	Location-Nominal 3426 3428	森林

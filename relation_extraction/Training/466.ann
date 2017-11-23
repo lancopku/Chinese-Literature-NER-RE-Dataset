@@ -1,0 +1,184 @@
+T1	Person-Pronoun 0 1	我
+T2	Location-Name 9 11	邕江
+T3	Location-Nominal 2 7	居往的地方
+T4	Metric 15 18	一千米
+T5	Person-Pronoun 21 22	我
+T6	Location-Nominal 24 26	江边
+T7	Thing-Nominal 30 35	清新的空气
+T8	Location-Nominal 38 40	两岸
+T9	Thing-Nominal 40 45	悦目的景色
+R1	Located Arg1:T9 Arg2:T8	
+T10	Location-Name 58 60	南宁
+T11	Thing-Nominal 70 72	晚霞
+T12	Location-Nominal 74 78	西边天空
+R2	Located Arg1:T11 Arg2:T12	
+T13	Person-Pronoun 82 83	我
+T14	Location-Nominal 89 92	河堤上
+T15	Thing-Nominal 96 97	风
+T16	Thing-Nominal 94 95	江
+T17	Thing-Nominal 102 104	落日
+T18	Thing-Nominal 108 110	晚霞
+T19	Location-Nominal 111 115	那江面上
+T20	Thing-Nominal 118 125	片片闪光的波粼
+R3	Located Arg1:T18 Arg2:T19	
+T21	Thing-Nominal 126 127;128 129	华 灯
+T22	Thing-Nominal 132 137	街灯与晚霞
+T23	Person-Nominal 147 148	人
+T24	Person-Nominal 173 177	几个孩童
+T25	Person-Nominal 193 200	一对白发老夫妇
+T26	Location-Nominal 212 215	石凳上
+T27	Location-Nominal 218 223	;林郁道里
+T28	Person-Nominal 224 228	几对情侣
+T29	Location-Pronoun 242 244	这里
+*	Coreference T29 T27
+T30	Person-Nominal 247 249	人们
+T31	Person-Pronoun 280 282	他们
+T32	Location-Nominal 267 270	河堤上
+T33	Person-Nominal 273 279	成百上千的人
+T34	Time-Implicit 259 266	每天清晨和黄昏
+*	Coreference T31 T30
+T35	Thing-Nominal 292 293	球
+T36	Thing-Nominal 322 327	清新的空气
+T37	Location-Pronoun 320 322	这里
+T38	Thing-Nominal 328 333	优美的环境
+T39	Person-Nominal 335 337	人们
+T40	Time-Implicit 375 378	十年前
+T41	Thing-Nominal 358 360	江水
+T42	Thing-Nominal 348 350	轻风
+T43	Time-Implicit 380 383	那时候
+T44	Thing-Nominal 384 386	河堤
+T45	Thing-Nominal 396 398	洪水
+T46	Thing-Nominal 400 402	猛兽
+T47	Thing-Nominal 408 413	单溥的堤坝
+T48	Person-Nominal 417 418	人
+T49	Time-Explicit 423 428	2001年
+T50	Thing-Nominal 430 432	洪水
+T51	Thing-Nominal 435 437	堤坝
+T52	Person-Nominal 494 498	人民群众
+T53	Thing-Nominal 489 491	洪水
+T54	Person-Nominal 472 478	几百名解放军
+T55	Person-Nominal 457 459	市民
+T56	Thing-Nominal 450 452	洪水
+T57	Thing-Nominal 457 464	市民的生命财产
+R4	Ownership Arg1:T55 Arg2:T57	
+T58	Time-Implicit 469 471	这时
+T59	Location-Nominal 555 559	堤坝之外
+T60	Thing-Nominal 550 554	滚滚洪水
+R5	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 544 548	血肉之躯
+T62	Thing-Nominal 537 542	一道道人墙
+T63	Location-Nominal 526 530	洪水之中
+T64	Thing-Nominal 510 512	河堤
+T65	Thing-Nominal 513 515	材料
+T66	Person-Nominal 503 506	战士们
+T67	Thing-Nominal 564 569	身上的衣服
+T68	Location-Nominal 564 566	身上
+R6	Located Arg1:T67 Arg2:T68	
+T69	Thing-Nominal 572 579	一条条布的护拦
+T70	Person-Nominal 584 587	一层人
+T71	Thing-Nominal 580 584	一层衣服
+T72	Thing-Nominal 600 602	缺口
+T73	Thing-Nominal 603 605	洪水
+T74	Person-Nominal 606 611	这些勇士们
+T75	Thing-Nominal 611 616	坚实的躯体
+T76	Thing-Nominal 672 674	缺口
+T77	Metric 663 668	十多个小时
+T78	Location-Nominal 652 659	黄黄的泥浆水中
+T79	Person-Pronoun 644 646	他们
+T80	Person-Pronoun 630 632	他们
+*	Coreference T79 T74
+T81	Person-Nominal 688 692	南宁市民
+T82	Thing-Nominal 696 701	食物和茶水
+T83	Person-Nominal 703 707	这些群众
+T84	Person-Nominal 711 717	老婶婶老伯伯
+T85	Person-Nominal 719 721	干部
+T86	Person-Nominal 723 725	学生
+T87	Person-Nominal 727 729	工人
+T88	Thing-Nominal 732 740	一碗碗稀饭和茶水
+T89	Location-Nominal 742 745;746 749	解放军 的手中
+T90	Person-Nominal 751 759	这些坚强的男子汉
+T91	Person-Pronoun 768 770	他们
+*	Coreference T91 T90
+T92	Thing-Nominal 783 790	一点稀饭或茶水
+T93	Thing-Nominal 799 801	身体
+T94	Thing-Nominal 810 812	坚石
+T95	Thing-Nominal 818 822	堤坝缺口
+T96	Person-Pronoun 827 829	他们
+T97	Thing-Nominal 850 852	洪水
+T98	Thing-Nominal 856 864	人民群众生命财产
+T99	Thing-Nominal 870 872	血汗
+T100	Person-Nominal 877 879	军民
+T101	Thing-Nominal 879 881	鱼水
+T102	Thing-Nominal 891 895	邕江堤坝
+T103	Person-Nominal 907 912	两岸的居民
+T104	Thing-Nominal 917 919	洪水
+T105	Time-Explicit 923 928	2003年
+T106	Thing-Nominal 929 931	政府
+T107	Thing-Nominal 937 941	南北两岸
+T108	Thing-Nominal 942 946	防洪大堤
+T109	Thing-Nominal 949 952	堤路园
+T110	Thing-Nominal 954 957	堤路园
+T111	Time-Implicit 954 962	堤路园修筑完成时
+T112	Person-Nominal 963 967	南宁市民
+T113	Person-Nominal 972 978	前来参观的人
+T114	Thing-Nominal 983 986	堤路园
+T115	Thing-Nominal 987 991	防洪大堤
+T116	Thing-Nominal 992 996	道路交通
+T117	Thing-Nominal 997 1001	休闲园林
+T118	Thing-Nominal 1011 1013	堤坝
+T119	Thing-Nominal 1016 1018	道路
+T120	Thing-Nominal 1028 1029	花
+T121	Thing-Nominal 1021 1022	树
+T122	Thing-Nominal 1037 1042	清澈的江水
+T123	Thing-Nominal 1045 1051	时尚的建筑群
+T124	Thing-Nominal 1054 1061	十座跨江的大桥
+T125	Location-Name 1071 1073	南宁
+T126	Person-Nominal 1096 1098	人们
+T127	Thing-Nominal 1078 1080	邕江
+T128	Thing-Pronoun 1101 1102	她
+*	Coreference T128 T127
+T129	Thing-Nominal 1110 1121	那些历史文化和人文景观
+T130	Location-Name 1122 1127	邕江大桥旁
+T131	Thing-Nominal 1129 1132	冬泳亭
+R7	Located Arg1:T131 Arg2:T130	
+T132	Person-Pronoun 1136 1137	我
+T133	Person-Nominal 1194 1198	一代伟人
+T134	Location-Name 1177 1179	邕江
+T135	Person-Name 1154 1161	65岁的毛泽东
+T136	Time-Explicit 1146 1153	1958年冬天
+T137	Location-Pronoun 1167 1169	这里
+T138	Thing-Nominal 1171 1173	邕江
+T139	Person-Nominal 1246 1251	冬泳的群众
+T140	Time-Implicit 1231 1233	每年
+T141	Thing-Nominal 1222 1228	这座“冬泳亭
+T142	Person-Nominal 1203 1207	南宁人民
+T143	Person-Name 1208 1211	毛泽东
+T144	Thing-Nominal 1264 1266	寒风
+T145	Person-Nominal 1269 1271	人们
+T146	Person-Nominal 1282 1283	人
+T147	Person-Nominal 1292 1296	南宁人民
+T148	Person-Name 1297 1300	毛主席
+T149	Person-Pronoun 1351 1352	我
+T150	Person-Pronoun 1355 1356	他
+T151	Person-Pronoun 1366 1367	他
+T152	Location-Name 1346 1348	邕江
+T153	Person-Name 1335 1338	毛泽东
+T154	Person-Pronoun 1330 1331	我
+T155	Thing-Nominal 1322 1325	我的脸
+T156	Person-Pronoun 1322 1323	我
+R8	Part-Whole Arg1:T155 Arg2:T156	
+T157	Location-Nominal 1384 1387	水面上
+T158	Person-Pronoun 1394 1395	他
+T159	Location-Nominal 1404 1410	亭边的古树上
+T160	Thing-Nominal 1417 1421	他的外衣
+T161	Person-Pronoun 1417 1418	他
+R9	Part-Whole Arg1:T160 Arg2:T161	
+*	Coreference T150 T153
+T162	Person-Nominal 1435 1439	一代伟人
+T163	Location-Nominal 1453 1456	河堤上
+T164	Thing-Nominal 1457 1461	民生广场
+R10	Located Arg1:T164 Arg2:T163	
+T165	Person-Nominal 1471 1473	人们
+T166	Thing-Nominal 1482 1484	歌喉
+T167	Location-Name 1491 1495	邕江上空
+T168	Person-Nominal 1499 1501	人们

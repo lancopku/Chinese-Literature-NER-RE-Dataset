@@ -1,0 +1,559 @@
+T1	Thing-Nominal 4548 4551	火山群
+T2	Thing-Nominal 4556 4560	蓝天白云
+T3	Thing-Nominal 4561 4565	幽水黛林
+T4	Thing-Nominal 4567 4569	石龙
+T5	Thing-Nominal 4570 4572	石海
+T6	Thing-Nominal 4573 4575	群山
+T7	Thing-Nominal 4575 4577	云水
+T8	Person-Name 4580 4585	张爱萍将军
+T9	Thing-Nominal 4592 4594	火山
+T10	Person-Nominal 4609 4610	人
+T11	Location-Nominal 4624 4628	五大连池
+T12	Person-Pronoun 4630 4631	我
+T13	Thing-Nominal 4636 4639	格球山
+T14	Thing-Pronoun 4640 4641	她
+*	Coreference T14 T13
+T15	Thing-Nominal 4651 4658	南、北格拉球山
+T16	Thing-Pronoun 4689 4690	你
+*	Coreference T16 T15
+T17	Thing-Nominal 4690 4696	脚下的黑土地
+T19	Thing-Name 4717 4720	格球山
+T18	Thing-Name 4702 4705	格球山
+T20	Thing-Pronoun 4722 4723	她
+*	Coreference T20 T19
+T21	Thing-Nominal 4734 4742	‘七仙女’的浴池
+T22	Metric 4746 4750	500米
+T23	Thing-Nominal 4744 4756	直径500米的格球山天池
+T24	Thing-Pronoun 4758 4759	她
+*	Coreference T24 T23
+T25	Thing-Nominal 4808 4817	一本永远读不完的书
+T26	Person-Pronoun 4202 4204	我们
+T27	Thing-Nominal 4206 4213	栈道回廊的长椅
+T28	Person-Nominal 4217 4224	一对年轻的恋人
+T29	Person-Pronoun 4228 4229	我
+T30	Person-Pronoun 4230 4232	他俩
+T31	Thing-Nominal 4234 4236	照片
+*	Coreference T28 T30
+T32	Person-Pronoun 4241 4242	我
+T33	Thing-Nominal 4242 4247	旁边的椅子
+T34	Person-Nominal 4249 4251	姑娘
+T35	Person-Nominal 4252 4254	小伙
+T36	Person-Nominal 4257 4259	老公
+T37	Person-Pronoun 4267 4268	我
+T38	Person-Nominal 4275 4277	小伙
+T39	Person-Pronoun 4280 4281	你
+T40	Person-Nominal 4306 4308	老公
+T41	Time-Implicit 4311 4313	去年
+T42	Location-Name 4313 4315	冰岛
+T43	Thing-Nominal 4315 4317	火山
+T44	Time-Explicit 4320 4322	三月
+T45	Location-Name 4322 4323;4324 4325	日 本
+T46	Person-Pronoun 4339 4340	你
+T47	Person-Pronoun 4350 4351	她
+*	Coreference T47 T34
+T48	Thing-Nominal 4357 4369	一道黑黢黢的火山岩大裂缝
+T49	Thing-Nominal 4374 4379	地下的岩浆
+T50	Thing-Nominal 4382 4384;4385 4387	那条 裂缝
+T51	Thing-Nominal 4392 4394	火山
+T52	Person-Pronoun 4405 4406	你
+T53	Person-Pronoun 4415 4416	咱
+T54	Person-Pronoun 4426 4427	我
+T55	Person-Nominal 4434 4436	有人
+T56	Person-Pronoun 4440 4441	你
+T57	Thing-Nominal 4442 4444	石海
+T58	Thing-Nominal 4446 4448	泊水
+T59	Person-Pronoun 4453 4454	你
+T60	Thing-Pronoun 4456 4458	它们
+T61	Thing-Nominal 4442 4445;4446 4448	石海和 泊水
+*	Coreference T60 T61
+T62	Person-Nominal 4469 4471	老婆
+T63	Person-Pronoun 4476 4477	咱
+T64	Person-Nominal 4531 4533	恋人
+T65	Person-Pronoun 4537 4538	我
+T66	Person-Pronoun 4539 4541	他们
+R1	Social Arg1:T28 Arg2:T26	
+T67	Time-Implicit 4061 4066	第二天清早
+T68	Person-Pronoun 4067 4069	我们
+T69	Location-Nominal 4070 4072	温泊
+T70	Thing-Nominal 4080 4084	片片白云
+T71	Thing-Nominal 4090 4092	阳光
+T72	Thing-Nominal 4104 4106	白云
+T73	Thing-Nominal 4111 4121;4122 4123	灰黑色火山岩形成的石 海
+T74	Thing-Nominal 4125 4130	浮动的白云
+T75	Thing-Nominal 4131 4133	蓝天
+T76	Thing-Nominal 4140 4145	千万只海龟
+T77	Location-Nominal 4146 4148	沙滩
+R2	Located Arg1:T76 Arg2:T77	
+T78	Thing-Nominal 4152 4157	清澈的泊水
+T79	Thing-Nominal 4162 4167	水边的苔藓
+T80	Thing-Nominal 4168 4173	水底的藻类
+T81	Thing-Nominal 4178 4182;4183 4185	天光景物 泊水
+T82	Time-Implicit 3848 3850	那天
+T83	Person-Pronoun 3851 3853	我们
+T84	Location-Name 3855 3858	北饮泉
+T85	Location-Name 3862 3865	南饮泉
+T86	Thing-Nominal 3866 3873	南泉景区的冷泉
+T87	Thing-Nominal 3876 3878	泉水
+T88	Metric 3883 3891	摄氏零上3―4度
+T89	Thing-Nominal 3897 3899	温泉
+T90	Thing-Nominal 3912 3913	脚
+T91	Thing-Nominal 3914 3916	泉水
+T92	Person-Pronoun 3920 3922	我们
+T93	Thing-Nominal 3924 3927	泡脚票
+T94	Thing-Nominal 3929 3931	泉水
+T95	Thing-Nominal 3934 3935	脚
+T96	Abstract 3938 3943	‘三伏’天
+T97	Thing-Nominal 3944 3945	脚
+T98	Thing-Nominal 3947 3948	水
+T99	Thing-Nominal 3960 3962	脚踝
+T100	Thing-Nominal 3964 3966	头顶
+T101	Time-Implicit 4032 4036	晚七时许
+T102	Thing-Nominal 4036 4038	落日
+T103	Person-Pronoun 4046 4048	我们
+T104	Location-Nominal 4055 4058	泡脚池
+R3	Use Arg1:T92 Arg2:T93	
+R4	Part-Whole Arg1:T97 Arg2:T92	
+T105	Person-Pronoun 3470 3472	我们
+T106	Location-Nominal 3473 3480	‘火山情旅馆’
+T107	Location-Name 3489 3492	药泉山
+T108	Location-Name 3493 3497	五大连池
+T109	Location-Name 3500 3503	药泉镇
+T111	Thing-Name 3516 3519	石龙河
+T110	Thing-Name 3507 3511	乌德林河
+*	Coreference T111 T110
+T112	Thing-Name 3523 3526	古白河
+T113	Thing-Nominal 3529 3530;3531 3534	火 山熔岩
+T114	Thing-Nominal 3538 3540	湖泊
+T115	Thing-Name 3543 3547	乌德林池
+T116	Thing-Name 3557 3561	五大连池
+T117	Thing-Nominal 3565 3567	农场
+T118	Person-Nominal 3570 3572	老人
+T119	Person-Nominal 3579 3585	不少蒙族家庭
+T120	Thing-Nominal 3587 3590	勒勒车
+R5	Use Arg1:T119 Arg2:T120	
+T121	Location-Name 3597 3599	泉山
+T122	Location-Name 3602 3605	药泉山
+T123	Thing-Name 3608 3611	钟灵寺
+T124	Thing-Name 3615 3619	二龙眼泉
+T125	Thing-Nominal 3623 3625	泉水
+T126	Thing-Nominal 3626 3627	眼
+T127	Person-Pronoun 3620 3622	他们
+*	Coreference T127 T119
+R6	Use Arg1:T127 Arg2:T125	
+T128	Thing-Name 3631 3634	南饮泉
+T129	Thing-Nominal 3635 3637	泉水
+T130	Thing-Nominal 3643 3645	水草
+T131	Thing-Nominal 3648 3650	牛羊
+T132	Person-Nominal 3654 3656	人丁
+T133	Person-Pronoun 3664 3666	我们
+T134	Location-Nominal 3667 3670	药泉山
+T135	Location-Nominal 3667 3674	药泉山的观音顶
+T136	Thing-Nominal 3675 3677	阵雨
+T137	Thing-Nominal 3682 3683	伞
+T138	Person-Nominal 3684 3686	山民
+R7	Social Arg1:T138 Arg2:T133	
+T139	Person-Nominal 3694 3698	雕刻师傅
+T140	Thing-Nominal 3701 3711	几枚用米粒刻字的坠链
+R8	Create Arg1:T139 Arg2:T140	
+T141	Location-Name 3716 3717	津
+T142	Person-Nominal 3720 3723	孩子们
+T143	Thing-Nominal 3728 3729	雨
+T144	Person-Pronoun 3732 3734	我们
+T145	Thing-Name 3738 3741	钟灵寺
+T146	Thing-Name 3742 3745	钟灵寺
+T147	Thing-Nominal 3757 3773	世界上唯一一座建在火山口里的寺院
+*	Coreference T147 T146
+T148	Thing-Nominal 3779 3786	郁郁葱葱的翠柏
+T149	Thing-Nominal 3790 3797	冉冉升起的香烟
+T150	Thing-Nominal 3824 3826	山门
+T151	Person-Pronoun 3827 3829	我们
+T152	Location-Nominal 3830 3834	二龙眼泉
+T153	Thing-Nominal 3836 3837	水
+T154	Thing-Nominal 3838 3839	眼
+T155	Location-Name 3395 3399	五大连池
+T156	Time-Implicit 3402 3404	几日
+T157	Thing-Name 3414 3418	五大连池
+T158	Thing-Nominal 3420 3427	周边的新老火山
+T159	Time-Implicit 3458 3460	几日
+T160	Location-Nominal 3292 3297	格球山农场
+T161	Person-Pronoun 3302 3304	我们
+T162	Person-Nominal 3306 3310	场部领导
+R9	Social Arg1:T161 Arg2:T162	
+T163	Person-Nominal 3321 3332	老熟人和格球山兄弟姐妹
+R10	Social Arg1:T163 Arg2:T161	
+T164	Person-Pronoun 3348 3350	我们
+T165	Time-Explicit 3364 3369	第五天清晨
+T166	Person-Pronoun 3369 3371	我们
+T167	Location-Nominal 3373 3378	格球山农场
+T168	Location-Nominal 3384 3388	第二故乡
+*	Coreference T168 T167
+T169	Thing-Nominal 2642 2644	小路
+T170	Thing-Nominal 2647 2649	青草
+T171	Thing-Nominal 2650 2651	车
+T172	Thing-Nominal 2663 2664	雨
+T173	Person-Pronoun 2665 2667	我们
+T174	Thing-Nominal 2672 2677	湿滑的黑土
+T175	Thing-Nominal 2679 2680	鞋
+T176	Thing-Nominal 2682 2689	成群的大黄蚊子
+T177	Person-Pronoun 2691 2692	你
+T178	Person-Name 2703 2712	陪同前来的司机小高
+T179	Person-Pronoun 2713 2715	我们
+T180	Location-Name 2717 2720	西沟子
+R11	Social Arg1:T179 Arg2:T178	
+T181	Person-Pronoun 2740 2742	我们
+T182	Thing-Nominal 2749 2757	西北方的那块墓地
+T183	Person-Nominal 2766 2771	我们的同学
+T184	Person-Nominal 2772 2774	战友
+T185	Person-Nominal 2796 2807	熟识的、陌生的格球山人
+T186	Time-Implicit 2819 2822	几十年
+T187	Thing-Nominal 2837 2839	棉被
+T188	Thing-Nominal 2844 2846	背心
+T189	Thing-Nominal 2847 2849	裤衩
+T190	Thing-Nominal 2864 2866	小咬
+T191	Thing-Nominal 2871 2873	蚊子
+T192	Person-Pronoun 2876 2878	他们
+T193	Person-Nominal 2884 2886	知青
+T194	Organization-Nominal 2890 2892	连队
+T195	Location-Nominal 2900 2903	北林子
+T196	Location-Nominal 2904 2907	西林子
+T197	Location-Nominal 2908 2910;2911 2912	南林 子
+T198	Location-Nominal 2912 2919	三片原始次生林
+T199	Location-Name 2940 2943	格球山
+T200	Location-Nominal 2952 2957	四、五分场
+T201	Location-Name 2961 2965	小兴安岭
+T202	Thing-Nominal 2977 2979	榛子
+T203	Thing-Nominal 2983 2986	黄花菜
+T204	Thing-Nominal 2990 2993	野蘑菇
+T205	Person-Pronoun 3003 3004	我
+T206	Time-Implicit 3005 3008	几年前
+T207	Location-Nominal 3022 3026	几个分场
+T208	Person-Nominal 3030 3032	人们
+T209	Location-Nominal 3036 3038	总场
+T210	Location-Nominal 3039 3042	一分场
+T211	Location-Nominal 3047 3051	原居住地
+T212	Thing-Nominal 3056 3059	推土机
+T213	Person-Nominal 3071 3074	有的人
+T214	Thing-Nominal 3075 3076	车
+T215	Thing-Nominal 3090 3093;3094 3097	汽车和 摩托车
+*	Coreference T192 T185
+R12	Part-Whole Arg1:T197 Arg2:T198	
+R13	Part-Whole Arg1:T195 Arg2:T198	
+R14	Part-Whole Arg1:T196 Arg2:T198	
+R15	Use Arg1:T213 Arg2:T215	
+T216	Thing-Nominal 3228 3233	土坯茅草屋
+T217	Thing-Nominal 3283 3288	格球山农场
+T218	Person-Pronoun 3272 3273	我
+T219	Time-Implicit 3269 3272	这几天
+T220	Thing-Nominal 3101 3110	宽敞的水泥浇注的路
+T221	Thing-Nominal 3114 3121	灯杆上的装饰灯
+T222	Thing-Nominal 3122 3127	道边的花坛
+T223	Thing-Nominal 3128 3147	道两旁泄水沟外侧栽种的整齐划一的行道树
+T224	Thing-Nominal 3148 3159;3160 3173	矗立在眼前和远处的已建 成或正在建设中的成片的楼群
+T225	Person-Pronoun 3176 3177	我
+T226	Location-Nominal 3180 3184	天津近郊
+T227	Thing-Nominal 3191 3194	一头牛
+T228	Thing-Nominal 3195 3199	一挂马车
+T229	Thing-Nominal 3202 3207	一只鸡或鸭
+T230	Thing-Nominal 3208 3214	昔日的地窨子
+T231	Thing-Nominal 3215 3218	草窝棚
+T232	Thing-Nominal 3219 3220;3221 3223	马 架子
+T233	Thing-Nominal 3237 3249	红砖红瓦的平房居民区宿舍
+T234	Time-Explicit 3258 3260	两年
+T235	Time-Implicit 2459 2462	几年前
+T236	Location-Nominal 2481 2487	苗木繁育基地
+T237	Person-Pronoun 2502 2504	我们
+T238	Location-Name 2506 2509	西沟子
+T239	Metric 2518 2519;2520 2522	千 来米
+T240	Thing-Nominal 2526 2532	大片的次生林
+T241	Thing-Nominal 2533 2536	灌木丛
+T242	Thing-Nominal 2537 2541	榛棵子林
+T243	Person-Pronoun 2544 2546	我们
+T244	Thing-Nominal 2552 2555	五味子
+T245	Thing-Nominal 2556 2558	榛子
+T246	Thing-Nominal 2559 2562	野葡萄
+T247	Thing-Nominal 2565 2574	石龙和散落的火山石
+T248	Thing-Nominal 2576 2578	草地
+T249	Thing-Nominal 2579 2580;2581 2585	大 片的湿地
+T250	Thing-Nominal 2586 2590	塔头墩子
+T251	Thing-Nominal 2591 2594	水泡子
+T252	Thing-Nominal 2595 2597	溪水
+T253	Thing-Nominal 2607 2609	狗鱼
+T254	Person-Pronoun 2610 2612	我们
+T255	Person-Pronoun 2624 2626	我们
+T256	Location-Name 2637 2640	西沟子
+T257	Thing-Nominal 2635 2641;2642 2644	通往西沟子的 小路
+T258	Person-Pronoun 2181 2183	我们
+T259	Location-Name 2186 2189	西林子
+T260	Organization-Name 2186 2191	西林子一连
+T261	Location-Nominal 2186 2193	西林子一连旧址
+T262	Thing-Nominal 2209 2216	一片片的次生林
+T263	Person-Pronoun 2194 2195	我
+T264	Person-Nominal 2196 2200	战友小镭
+R16	Social Arg1:T263 Arg2:T264	
+T265	Location-Nominal 2221 2223	旧址
+T266	Thing-Nominal 2226 2236	几间存放农机具的仓库
+R17	Located Arg1:T266 Arg2:T265	
+T267	Thing-Nominal 2237 2238;2239 2252	一 个停放大型农机和车辆的场院
+R18	Located Arg1:T267 Arg2:T265	
+T268	Thing-Nominal 2247 2249	车辆
+T269	Thing-Nominal 2242 2246	大型农机
+T270	Thing-Nominal 2254 2260	老营地的东西
+T271	Person-Pronoun 2267 2268	我
+T272	Thing-Nominal 2270 2273	马架子
+T273	Thing-Nominal 2274 2277	茅草屋
+T274	Thing-Nominal 2282 2283	马
+T275	Thing-Nominal 2286 2287	牛
+T276	Thing-Nominal 2290 2292	牛棚
+T277	Thing-Nominal 2293 2295	马厩
+T278	Person-Pronoun 2302 2304	我们
+T279	Organization-Nominal 2297 2299;2300 2301	基建 连
+T280	Thing-Nominal 2308 2316	黑土下面的黄粘土
+T281	Thing-Nominal 2321 2323	砖坯
+T282	Thing-Nominal 2324 2326	瓦坯
+T283	Thing-Nominal 2330 2332	红砖
+T284	Thing-Nominal 2333 2335	红瓦
+T285	Thing-Nominal 2340 2346	红色的砖瓦房
+T286	Person-Pronoun 2348 2350	我们
+T287	Location-Nominal 2354 2358	连队宿舍
+T288	Person-Pronoun 2359 2360;2361 2362	我 们
+T289	Person-Nominal 2401 2403	有人
+T290	Location-Nominal 2409 2413	连队宿舍
+T291	Person-Nominal 2416 2421;2422 2426	来自天南地 北的知青
+T292	Person-Nominal 2435 2437	知青
+T293	Person-Pronoun 2453 2454	我
+T294	Time-Implicit 1916 1920	转天清晨
+T295	Person-Pronoun 1921 1922	我
+T296	Thing-Nominal 1928 1930	口琴
+T297	Location-Nominal 1938 1952	我生活过的一分场四连旧址下坡
+T298	Thing-Nominal 1957 1971	我常倚靠其上吹奏口琴的火山石
+T299	Location-Nominal 1974 1976;1977 1993	那块 各连队战友休息时踢足球的平坦场地
+T300	Thing-Nominal 2008 2011	灌木丛
+T301	Thing-Nominal 2012 2014	溪沟
+T302	Thing-Nominal 2015 2018	水泡子
+T303	Thing-Nominal 2019 2022	青草地
+T304	Location-Nominal 2027 2036	格球山农场水上公园
+T305	Person-Nominal 2038 2042	我的战友
+T306	Person-Pronoun 2048 2050	他们
+T307	Thing-Nominal 2050 2059	初恋时坐过的火山石
+T308	Person-Pronoun 2107 2109	他们
+T309	Thing-Nominal 2157 2159;2160 2161	黑土 地
+T310	Person-Pronoun 2170 2172	我们
+R19	Ownership Arg1:T295 Arg2:T296	
+T311	Person-Nominal 1978 1982	连队战友
+T312	Time-Explicit 1568 1574	一九七三年秋
+T313	Person-Pronoun 1575 1576	我
+T314	Location-Name 1577 1578	津
+T315	Person-Nominal 1583 1593	千百万知青中的幸运儿
+R20	Part-Whole Arg1:T313 Arg2:T315	
+T316	Person-Nominal 1595 1598	弟兄们
+T317	Person-Pronoun 1606 1607	我
+T318	Person-Nominal 1610 1622	休戚与共、朝夕相处的战友
+R21	Social Arg1:T317 Arg2:T318	
+T319	Person-Nominal 1624 1627	弟兄们
+T320	Person-Pronoun 1636 1637	我
+T321	Person-Nominal 1642 1644	自己
+T322	Person-Nominal 1653 1655	自己
+T323	Time-Explicit 1669 1673	五个年头
+T324	Thing-Nominal 1679 1682	黑土地
+T325	Thing-Pronoun 1659 1660	她
+*	Coreference T325 T324
+T326	Person-Nominal 1684 1687	弟兄们
+T327	Person-Pronoun 1696 1697	我
+T328	Time-Explicit 1731 1740	二O一一年七月中旬
+T329	Person-Pronoun 1741 1742	我
+T330	Person-Nominal 1743 1749	几位知青战友
+R22	Social Arg1:T329 Arg2:T330	
+T331	Location-Nominal 1751 1766	阔别三十八年的黑龙江格球山农场
+T332	Person-Pronoun 1770 1772	我们
+T333	Location-Name 1783 1785	天津
+T334	Thing-Nominal 1786 1793	D177次列车
+T335	Metric 1793 1796	八小时
+T336	Location-Name 1797 1800	哈尔滨
+T337	Location-Name 1802 1805	哈尔滨
+T338	Thing-Nominal 1812 1828	‘哈尔滨――格球山’的长途大轿车
+T339	Location-Nominal 1802 1810	哈尔滨道外客运站
+T340	Metric 1831 1834	八小时
+T341	Time-Explicit 1838 1842	晚七点半
+T342	Location-Nominal 1844 1853	达格球山农场客运站
+T343	Thing-Nominal 1862 1867	夕阳的余辉
+T344	Thing-Nominal 1870 1879	一幢幢新建起的楼房
+T345	Thing-Nominal 1883 1884	车
+T346	Person-Pronoun 1885 1886	我
+T347	Person-Pronoun 1909 1910	我
+T348	Thing-Nominal 1438 1444	北大荒的沃土
+T349	Thing-Nominal 1453 1461	北大荒的山山水水
+T350	Location-Name 1470 1474	小兴安岭
+T351	Thing-Nominal 1479 1483	彤云烟霞
+T352	Thing-Nominal 1488 1494	黑油油的土地
+T353	Thing-Nominal 1499 1508	数十万知青的血与汗
+T354	Person-Nominal 1499 1504	数十万知青
+T355	Person-Pronoun 1511 1513	我们
+T356	Thing-Nominal 1515 1521	沉甸甸的谷穗
+T357	Thing-Nominal 1522 1528	金灿灿的麦浪
+T358	Thing-Nominal 1529 1539	硕果累累的土豆和大豆
+T359	Person-Pronoun 1540 1542	我们
+R23	Part-Whole Arg1:T355 Arg2:T354	
+*	Coreference T359 T355
+T360	Time-Explicit 1008 1014	一九七零年秋
+T361	Thing-Nominal 1019 1025	战友赶得牛车
+T362	Person-Nominal 1019 1021	战友
+T363	Location-Nominal 1026 1029	南林子
+T364	Thing-Nominal 1034 1037	格球山
+T365	Metric 1046 1049	十几里
+T366	Person-Nominal 1054 1056	老人
+T367	Thing-Nominal 1057 1063	格球山的天池
+T368	Thing-Nominal 1071 1073	池水
+R24	Located Arg1:T367 Arg2:T364	
+T369	Person-Pronoun 1085 1086	我
+T370	Person-Nominal 1087 1089	战友
+R25	Social Arg1:T369 Arg2:T370	
+T371	Thing-Nominal 1091 1094	拖拉机
+T372	Location-Nominal 1095 1098	南林子
+T373	Location-Nominal 1109 1115	格球山的北坡
+T374	Time-Explicit 1124 1126	中秋
+T375	Thing-Nominal 1126 1128	古木
+T376	Thing-Nominal 1141 1143	山雉
+T377	Thing-Nominal 1149 1151	群狍
+T378	Thing-Nominal 1157 1162	泡子里的水
+T379	Thing-Nominal 1163 1165	镜面
+T380	Thing-Nominal 1168 1172	蓝天白云
+T381	Person-Pronoun 1186 1188	我们
+T382	Thing-Nominal 1189 1190;1191 1195	木 棍和镰刀
+R26	Use Arg1:T381 Arg2:T382	
+T383	Person-Nominal 1211 1215	一位猎人
+T384	Person-Pronoun 1216 1217	他
+*	Coreference T384 T383 T385
+T385	Person-Pronoun 1226 1227	他
+T386	Thing-Nominal 1236 1237	山
+T387	Thing-Nominal 1238 1239	草
+T388	Thing-Nominal 1240 1241	林
+T389	Thing-Nominal 1250 1251;1252 1253	野 兽
+T390	Person-Nominal 1264 1266	猎人
+T391	Thing-Nominal 1264 1273	猎人下的夹子和套子
+T392	Location-Nominal 1289 1291	山顶
+T393	Thing-Nominal 1295 1297	天池
+T394	Thing-Nominal 1311 1312;1313 1317	寂 静的山林
+T395	Thing-Nominal 1320 1322	野猪
+T396	Thing-Nominal 1323 1324	狼
+T397	Thing-Nominal 1325 1327	黑熊
+T398	Person-Pronoun 1333 1335	我们
+T399	Person-Nominal 1342 1344	猎人
+T400	Person-Pronoun 1357 1358	我
+T401	Person-Nominal 1359 1361	战友
+R27	Social Arg1:T400 Arg2:T401	
+T402	Thing-Nominal 1365 1370	身后的火山
+T403	Person-Pronoun 1379 1380	他
+T404	Thing-Nominal 1398 1402	天池的水
+T405	Thing-Nominal 1404 1408	地下的火
+T406	Person-Pronoun 1412 1414	我们
+T407	Person-Pronoun 1423 1425	我们
+T408	Thing-Nominal 1428 1429	火
+T409	Thing-Nominal 1426 1427	水
+T410	Location-Nominal 562 565	北大荒
+T411	Time-Implicit 577 583	六十年代末期
+T412	Person-Pronoun 601 603	我们
+T413	Organization-Nominal 603 606	武装连
+T414	Location-Name 608 612	小兴安岭
+T415	Location-Nominal 608 617	小兴安岭的深山老林
+T416	Person-Pronoun 621 622;623 624	我 们
+T417	Location-Nominal 630 634	中苏边境
+T418	Location-Nominal 642 644	驻地
+T419	Location-Name 652 660	黑龙江边的黑河镇
+T420	Thing-Nominal 646 649	几道岭
+R28	Part-Whole Arg1:T419 Arg2:T417	
+T421	Person-Pronoun 667 669	我们
+T422	Metric 672 678	零下四十来度
+T423	Thing-Nominal 687 689	钢枪
+T424	Thing-Nominal 692 694	板斧
+T425	Location-Nominal 697 701	林海雪原
+T426	Thing-Nominal 704 709	脚下的积雪
+T427	Metric 710 714	一尺来深
+T428	Location-Nominal 736 738	雪地
+T429	Thing-Nominal 743 744;745 754	一 行行各种野兽的足迹
+T430	Location-Nominal 756 758	驻地
+T431	Location-Nominal 759 762	采伐点
+T432	Thing-Nominal 775 777	领口
+T433	Thing-Nominal 778 780	袖口
+T434	Thing-Nominal 792 797	晶莹的冰霜
+T435	Thing-Nominal 781 784	裤脚口
+T436	Time-Explicit 798 800	中午
+T437	Person-Nominal 807 809	大伙
+T438	Thing-Nominal 811 813	火堆
+T439	Thing-Nominal 817 819	馒头
+T440	Thing-Nominal 821 822	雪
+T441	Thing-Nominal 825 827	咸菜
+T442	Thing-Nominal 843 845	太阳
+T443	Person-Pronoun 848 850	我们
+T444	Location-Nominal 857 859	驻地
+T445	Thing-Nominal 864 866;867 868	。明 月
+T446	Location-Nominal 874 876	室外
+T447	Thing-Nominal 879 881	月光
+T448	Thing-Nominal 879 905	月光绘制成的壮丽的、大自然的、林海雪原的雄伟黑白画卷
+T449	Thing-Nominal 909 911	夜鹰
+T450	Thing-Nominal 935 936	肺
+T451	Thing-Nominal 937 938	脾
+T452	Thing-Nominal 941 942	肝
+T453	Thing-Nominal 943 944	肠
+T454	Thing-Nominal 968 970	冰雪
+T455	Thing-Nominal 979 981	山林
+T456	Person-Pronoun 987 988;989 990	我 们
+T457	Thing-Nominal 997 999	冰雪
+T458	Person-Nominal 519 523	莘莘学子
+T459	Thing-Nominal 456 458	冰雪
+T460	Thing-Nominal 461 464	黑土地
+R29	Located Arg1:T459 Arg2:T460	
+T461	Person-Pronoun 473 475	我们
+T462	Thing-Nominal 490 492	冰雪
+T463	Person-Nominal 500 503	有的人
+T464	Person-Nominal 506 509	有的人
+T465	Person-Nominal 513 516;517 523	更多的 昔日莘莘学子
+T466	Location-Nominal 313 317	嫩江之滨
+T467	Location-Nominal 318 322	格球山下
+T468	Location-Name 325 329	贝加尔湖
+T469	Person-Pronoun 336 338	我们
+T470	Thing-Nominal 339 346	津门淅沥的秋雨
+T471	Thing-Nominal 352 357	稀落的雪花
+T472	Person-Pronoun 358 360	我们
+T473	Location-Nominal 364 373	黑龙江省格球山农场
+T475	Location-Nominal 382 387	格球山北侧
+T474	Thing-Nominal 375 380	格球山农场
+T476	Person-Pronoun 11 12	我
+T477	Thing-Nominal 15 24	逆时方向的光轨列车
+T478	Time-Explicit 27 31	半世纪前
+T479	Time-Explicit 33 38	1962年
+T480	Thing-Nominal 45 54	一辆观光空气动力车
+T481	Person-Pronoun 57 58	我
+T482	Thing-Nominal 135 142	微澜不惊的湖面
+T483	Thing-Nominal 145 147	双桨
+T484	Thing-Nominal 148 149	水
+T485	Thing-Nominal 151 153	蓝天
+T486	Thing-Nominal 155 156	舟
+T487	Thing-Nominal 156 158	浮云
+T488	Thing-Nominal 192 196	大风大浪
+T489	Time-Explicit 208 216	一九六九年中秋节
+T490	Thing-Nominal 217 219	秋雨
+T491	Thing-Nominal 222 224	秋风
+T492	Location-Nominal 233 237	天津东站
+T493	Person-Pronoun 238 239	我
+T494	Person-Nominal 240 252	千余名天津市支边的中学生
+R30	Social Arg1:T493 Arg2:T494	
+T495	Location-Name 255 258	黑龙江
+T496	Person-Nominal 259 261	知青
+T497	Thing-Nominal 254 263	赴黑龙江的知青专列
+T498	Person-Nominal 273 276	亲人们
+T499	Thing-Nominal 284 286	列车
+T500	Thing-Nominal 293 295	雨幕
+T501	Thing-Nominal 297 299	津门
+*	Coreference T499 T497
+T502	Time-Explicit 227 231	这天下午
+T504	Thing-Name 392 397	南格拉球山
+T505	Thing-Name 398 403	北格拉球山
+T503	Thing-Name 388 391	格球山
+T506	Thing-Pronoun 406 407	它
+*	Coreference T506 T503 T508 T512
+T507	Location-Nominal 408 423	五大连池世界地质公园自然风景区
+T508	Thing-Nominal 408 432	五大连池世界地质公园自然风景区周边十四座火山之一
+T509	Location-Nominal 436 441	景区的西部
+T510	Person-Pronoun 442 444	我们
+T511	Location-Nominal 444 446	农场
+T512	Thing-Pronoun 449 450	它

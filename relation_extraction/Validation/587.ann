@@ -1,0 +1,263 @@
+T1	Thing-Nominal 15 17	迷雾
+T2	Location-Pronoun 22 23	她
+T3	Location-Pronoun 37 38	她
+T4	Location-Pronoun 52 53	她
+T5	Location-Pronoun 67 68	她
+T6	Location-Pronoun 82 83	她
+T7	Person-Nominal 84 89	美丽的少妇
+T8	Thing-Nominal 91 92	腰
+T9	Location-Pronoun 101 102	她
+T10	Location-Name 103 107	南山竹海
+*	Coreference T9 T10
+T11	Person-Pronoun 110 111	我
+T12	Location-Name 118 122	南山竹海
+T13	Thing-Nominal 123 125	翠竹
+T14	Person-Pronoun 134 135	你
+T15	Person-Pronoun 141 142	你
+T16	Thing-Nominal 150 152	细竹
+T17	Location-Nominal 174 176	竹海
+R1	Located Arg1:T13 Arg2:T12	
+T18	Thing-Nominal 181 183	泉水
+T19	Thing-Nominal 186 188	溪流
+T20	Thing-Nominal 191 192	鸟
+T21	Thing-Nominal 220 222	野花
+T22	Thing-Nominal 223 225	蝴蝶
+T23	Location-Nominal 231 235	山村江南
+T24	Location-Name 246 250	南山竹海
+T25	Location-Name 253 258	石岩里古镇
+R2	Part-Whole Arg1:T25 Arg2:T24	
+T26	Location-Pronoun 266 267	它
+*	Coreference T26 T25
+T28	Thing-Nominal 278 280	古桥
+T29	Thing-Nominal 281 283	流水
+T30	Thing-Nominal 284 286	农家
+T31	Thing-Nominal 290 293	摇纺车
+T32	Thing-Nominal 294 295	布
+T33	Thing-Nominal 297 298	磨
+T34	Thing-Nominal 299 300	米
+T35	Abstract 310 314	吴越文化
+T27	Abstract 268 272	吴越文化
+T36	Location-Nominal 321 323	竹林
+T37	Thing-Nominal 325 327	野兔
+R3	Located Arg1:T37 Arg2:T36	
+T38	Thing-Nominal 330 331	鸟
+T39	Location-Nominal 333 335	山野
+T40	Location-Nominal 335 337	古村
+R4	Located Arg1:T38 Arg2:T36	
+T41	Person-Pronoun 344 345	你
+T42	Location-Nominal 366 368	江南
+T43	Person-Pronoun 375 376	你
+T44	Thing-Nominal 392 394	古桥
+T45	Thing-Nominal 395 397	古墙
+T46	Thing-Nominal 398 401	古树边
+T47	Location-Name 418 421	石岩里
+T48	Thing-Nominal 422 424	古桥
+R5	Located Arg1:T48 Arg2:T47	
+T49	Thing-Pronoun 426 427	它
+*	Coreference T49 T48
+T50	Thing-Nominal 435 437	桥身
+T51	Thing-Nominal 443 445	山石
+R6	Part-Whole Arg1:T51 Arg2:T50	
+T52	Location-Nominal 448 451	桥面上
+T53	Thing-Nominal 456 458	花草
+R7	Located Arg1:T53 Arg2:T52	
+T54	Time-Implicit 462 464	雨天
+T55	Thing-Nominal 476 478	古桥
+T56	Person-Nominal 491 496	桥边的游人
+T57	Location-Nominal 505 508	桥面上
+T58	Thing-Nominal 524 526	古墙
+T59	Person-Nominal 537 541	古代君王
+T60	Person-Nominal 550 552	艺人
+T61	Person-Name 553 556	宋徽宗
+*	Coreference T60 T61
+R8	General-Special Arg1:T60 Arg2:T59	
+T62	Thing-Nominal 563 565	古墙
+T63	Thing-Nominal 566 568	青苔
+*	Coreference T63 T62
+T64	Thing-Nominal 586 588	青砖
+R9	Part-Whole Arg1:T64 Arg2:T62	
+T65	Abstract 579 583	吴越文化
+T66	Thing-Nominal 601 603	青烟
+T67	Location-Nominal 606 608	砖缝
+R10	Located Arg1:T66 Arg2:T67	
+T68	Person-Pronoun 627 628	我
+T69	Thing-Nominal 673 675	泥土
+T70	Thing-Nominal 678 680	青烟
+T71	Thing-Nominal 690 692	古树
+T72	Thing-Nominal 696 698	烈日
+T73	Person-Nominal 703 705	前人
+T74	Thing-Nominal 706 707	树
+T75	Person-Nominal 707 709	后人
+T76	Thing-Nominal 715 716	森
+T77	Thing-Nominal 720 721	枝
+T78	Thing-Nominal 722 723	叶
+R11	Part-Whole Arg1:T77 Arg2:T74	
+R12	Part-Whole Arg1:T78 Arg2:T74	
+T79	Person-Nominal 727 729	帝王
+T80	Thing-Nominal 733 735	华盖
+T81	Location-Name 739 742	石岩里
+T82	Metric 750 753	十万亩
+T83	Location-Nominal 753 755	竹林
+T84	Metric 758 760	万亩
+T85	Location-Nominal 760 762	茶园
+T86	Metric 765 767	千年
+T87	Thing-Nominal 767 769	古树
+T88	Metric 772 775	八百年
+T89	Thing-Nominal 775 778	古村落
+T90	Thing-Nominal 781 783	双溪
+T91	Thing-Nominal 785 787	龙头
+T92	Thing-Nominal 790 792	沟壑
+T93	Thing-Nominal 793 795	石桥
+T94	Thing-Nominal 796 800	古朴人家
+T95	Thing-Nominal 805 807	流水
+T96	Thing-Nominal 811 813	鸟雀
+T97	Thing-Nominal 816 818	远山
+T98	Thing-Nominal 818 820	斜阳
+T99	Location-Nominal 832 834	都市
+T100	Person-Name 863 868	庄子老前辈
+T101	Location-Pronoun 872 874	此地
+T102	Location-Pronoun 877 878	此
+T103	Person-Pronoun 888 889	他
+*	Coreference T103 T100
+T104	Abstract 891 896	无为”理论
+T105	Abstract 905 909	“无为”
+T106	Location-Nominal 917 919	竹海
+T107	Location-Nominal 926 930	溪流泉畔
+T108	Thing-Nominal 933 935	古桥
+T109	Thing-Nominal 936 938	古树
+T110	Thing-Nominal 939 941	古墙
+T111	Thing-Nominal 946 947	茶
+T112	Thing-Nominal 948 949	茗
+*	Coreference T111 T112
+T113	Person-Nominal 958 960	诗人
+T114	Thing-Nominal 971 972	墨
+T115	Location-Name 983 986	石岩里
+T116	Location-Nominal 987 990	森林里
+R13	Part-Whole Arg1:T116 Arg2:T115	
+T117	Thing-Pronoun 1008 1009	它
+T118	Thing-Nominal 1012 1016	陈年老酒
+T119	Metric 1019 1021	万里
+T120	Abstract 1041 1045	吴越文化
+T121	Location-Pronoun 1047 1049	这里
+T122	Abstract 1051 1055	吴越文化
+T123	Thing-Nominal 1063 1065	树林
+T124	Location-Nominal 1076 1080	千年古镇
+*	Coreference T121 T124
+T125	Thing-Nominal 1111 1113	丘陵
+T126	Location-Nominal 1121 1129;1130 1134	吴越文化原生态文 化群落带
+T127	Thing-Pronoun 1088 1089	她
+T128	Location-Name 1137 1140	石岩里
+T129	Location-Name 1141 1144	百鸟林
+R14	Part-Whole Arg1:T129 Arg2:T128	
+T130	Thing-Nominal 1145 1147	古树
+R15	Located Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 1150 1152	枯藤
+R16	Located Arg1:T131 Arg2:T129	
+T132	Person-Name 1160 1163	马致远
+T133	Thing-Nominal 1165 1167	枯藤
+T134	Thing-Nominal 1167 1169	老树
+T135	Thing-Nominal 1169 1171	昏鸦
+T136	Thing-Nominal 1172 1174	小桥
+T137	Thing-Nominal 1174 1176	流水
+T138	Thing-Nominal 1176 1178	人家
+T139	Person-Pronoun 1190 1191	你
+T140	Location-Nominal 1196 1197;1198 1199	树 林
+T141	Metric 1201 1204	十几里
+*	Coreference T129 T140
+T142	Thing-Nominal 1216 1217	鸟
+T143	Thing-Nominal 1228 1230	树叶
+T144	Location-Name 1250 1253	百鸟林
+T145	Thing-Nominal 1266 1267	鸟
+R17	Located Arg1:T145 Arg2:T144	
+T146	Thing-Nominal 1272 1274	画眉
+T147	Thing-Nominal 1275 1278	灰喜鹊
+T148	Thing-Nominal 1279 1282	白头鹎
+T149	Thing-Nominal 1283 1285	攀雀
+R18	General-Special Arg1:T146 Arg2:T145	
+R19	General-Special Arg1:T147 Arg2:T145	
+R20	General-Special Arg1:T148 Arg2:T145	
+R21	General-Special Arg1:T149 Arg2:T145	
+T150	Thing-Nominal 1296 1298	如须
+T151	Thing-Nominal 1299 1302	山椒鸟
+T152	Thing-Nominal 1303 1305	画眉
+T153	Thing-Nominal 1306 1309	啄花鸟
+R22	General-Special Arg1:T150 Arg2:T145	
+R23	General-Special Arg1:T151 Arg2:T145	
+R24	General-Special Arg1:T152 Arg2:T145	
+R25	General-Special Arg1:T153 Arg2:T145	
+T154	Thing-Nominal 1317 1319	金鸡
+T155	Thing-Nominal 1320 1324	黄腹角雉
+T156	Thing-Nominal 1325 1329	红腹角雉
+T157	Thing-Nominal 1330 1332	小隼
+T158	Thing-Nominal 1333 1338	白颈长尾雉
+T159	Thing-Nominal 1351 1352	鸟
+R26	General-Special Arg1:T158 Arg2:T159	
+R27	General-Special Arg1:T157 Arg2:T159	
+R28	General-Special Arg1:T156 Arg2:T159	
+R29	General-Special Arg1:T155 Arg2:T159	
+R30	General-Special Arg1:T154 Arg2:T159	
+T160	Location-Name 1356 1359	百鸟林
+T161	Location-Name 1368 1371	石岩里
+T162	Person-Pronoun 1375 1376	我
+T163	Time-Implicit 1379 1388	一个风和日丽的春天
+T164	Person-Pronoun 1389 1390	我
+T165	Location-Name 1391 1394	石岩里
+T166	Person-Nominal 1420 1422	工匠
+T167	Location-Name 1435 1437	玉湖
+T168	Location-Name 1439 1442	石岩里
+T169	Thing-Nominal 1451 1452	山
+R31	Near Arg1:T169 Arg2:T167	
+T170	Location-Nominal 1460 1462	湖边
+T171	Location-Nominal 1467 1469	湖水
+T172	Location-Pronoun 1473 1474	她
+*	Coreference T172 T167
+T173	Location-Nominal 1488 1490	湖边
+T174	Thing-Nominal 1500 1502	湖水
+T175	Location-Name 1527 1529	玉湖
+T176	Thing-Nominal 1537 1539	碧玉
+T177	Location-Name 1546 1549	石岩里
+R32	Part-Whole Arg1:T175 Arg2:T177	
+T178	Person-Name 1553 1556	贾宝玉
+T179	Thing-Nominal 1561 1565	通灵宝玉
+R33	Ownership Arg1:T178 Arg2:T179	
+T180	Thing-Nominal 1571 1572	云
+T181	Thing-Nominal 1576 1577	天
+T182	Location-Nominal 1583 1585	湖面
+T183	Location-Nominal 1586 1588	草丛
+T184	Location-Nominal 1602 1604	湖面
+T185	Location-Nominal 1622 1624	江南
+T186	Location-Name 1630 1632	玉湖
+T187	Person-Name 1633 1636	朱自清
+T188	Thing-Nominal 1636 1637	笔
+R34	Use Arg1:T187 Arg2:T188	
+T189	Location-Name 1639 1642	梅雨潭
+T190	Thing-Nominal 1659 1661	树林
+R35	Near Arg1:T190 Arg2:T186	
+T191	Location-Nominal 1671 1673	湖面
+T192	Location-Name 1676 1678	玉湖
+T193	Location-Name 1708 1710	玉湖
+T194	Time-Implicit 1729 1731	当年
+T195	Person-Name 1731 1733	徽宗
+T196	Person-Nominal 1737 1742	一美貌女子
+T197	Thing-Nominal 1755 1757	碧玉
+T198	Location-Nominal 1759 1761	湖中
+R36	Located Arg1:T197 Arg2:T198	
+T199	Location-Nominal 1768 1770	湖中
+T200	Thing-Nominal 1775 1778	这块玉
+*	Coreference T197 T200
+T201	Thing-Nominal 1779 1781	湖水
+T202	Location-Name 1797 1799	玉湖
+T203	Location-Nominal 1809 1811	竹海
+T204	Thing-Nominal 1816 1818	泉水
+T205	Thing-Nominal 1818 1820	山涧
+T206	Location-Name 1828 1832	南山竹海
+T207	Person-Pronoun 1842 1843	我
+T208	Location-Pronoun 1854 1855	你
+T209	Person-Pronoun 1856 1857	我
+*	Coreference T208 T206
+T210	Person-Name 1867 1868;1869 1871	李 清照
+T211	Thing-Nominal 1881 1882	溪
+T212	Thing-Nominal 1882 1883	亭
+T213	Thing-Nominal 1897 1898	舟
+T214	Thing-Nominal 1901 1903	藕花
+T215	Thing-Nominal 1916 1918	鸥鹭

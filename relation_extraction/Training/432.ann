@@ -1,0 +1,221 @@
+T1	Person-Pronoun 0 1	我
+T2	Thing-Nominal 8 9	书
+T3	Person-Pronoun 12 13	我
+T4	Metric 21 24	几千本
+T5	Time-Implicit 26 29	小时候
+T6	Person-Nominal 34 36	祖父
+T7	Person-Nominal 37 39	父亲
+T8	Person-Pronoun 40 41	我
+T9	Abstract 43 48	《弟子规》
+T10	Time-Implicit 49 54	高中毕业后
+T11	Person-Pronoun 55 56	我
+T12	Abstract 58 60;61 67	《如 何栽种水稻》
+T13	Abstract 68 71	《春》
+T14	Abstract 72 75	《秋》
+T15	Abstract 76 79	《家》
+T16	Time-Implicit 80 85	公安工作后
+T17	Abstract 88 106	《新时期公安基层建设与管理实用手册》
+T18	Person-Pronoun 111 112	我
+T19	Thing-Nominal 126 127	书
+T20	Person-Nominal 128 130	父亲
+T21	Thing-Nominal 137 138	书
+T22	Person-Pronoun 140 142	自己
+T23	Location-Nominal 157 160	被窝里
+T24	Thing-Nominal 161 164	手电筒
+T25	Time-Implicit 171 175	我八岁时
+R1	Family Arg1:T20 Arg2:T18	
+R2	Family Arg1:T8 Arg2:T6	
+R3	Family Arg1:T8 Arg2:T7	
+T26	Person-Nominal 176 178	父亲
+T27	Person-Pronoun 179 180	我
+T28	Person-Nominal 188 190	孝子
+T29	Thing-Nominal 191 193	肚子
+R4	Part-Whole Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 197 198	鱼
+T31	Thing-Nominal 194 196	河冰
+T32	Person-Nominal 199 201	母亲
+T33	Person-Pronoun 205 206	我
+R5	Family Arg1:T27 Arg2:T26	
+T34	Abstract 213 218	《弟子规》
+T35	Abstract 219 224	《弟子规》
+T36	Person-Name 227 229	孔子
+T37	Person-Nominal 237 239	学生
+T38	Thing-Pronoun 244 245	它
+T39	Person-Nominal 248 250	学生
+T40	Thing-Nominal 253 257	六门功课
+T41	Thing-Nominal 261 265	一门功课
+T42	Person-Nominal 280 282	父母
+T43	Person-Nominal 285 289	兄弟姊妹
+T44	Person-Pronoun 320 322	我们
+T45	Person-Nominal 322 332	一家五代同堂14口人
+T46	Person-Nominal 333 335	父亲
+T47	Abstract 341 346	《弟子规》
+T48	Person-Nominal 366 368	长者
+T49	Person-Nominal 374 376	长者
+T50	Time-Implicit 385 390	我上小学时
+T51	Person-Pronoun 385 386	我
+T52	Person-Nominal 391 393	父亲
+T53	Person-Pronoun 396 397	我
+T54	Person-Pronoun 406 407	我
+T55	Person-Nominal 410 412	长辈
+T56	Person-Nominal 415 417	晚辈
+T57	Person-Nominal 424 425;426 427	长 辈
+T58	Time-Implicit 427 431	坐下以后
+T59	Time-Implicit 432 437	让你坐下时
+T60	Person-Pronoun 433 434	你
+T61	Person-Pronoun 438 439	你
+T62	Person-Nominal 457 458	人
+T63	Person-Nominal 464 466	父亲
+T64	Person-Pronoun 468 469	我
+R6	Family Arg1:T64 Arg2:T63	
+T65	Person-Nominal 471 472	人
+T66	Person-Pronoun 477 479	自身
+T67	Person-Nominal 501 503	人家
+T68	Person-Pronoun 509 511	自己
+T69	Person-Pronoun 526 527	我
+T70	Person-Nominal 541 547;548 551	有礼貌、有才 能的人
+T71	Person-Pronoun 558 560	自己
+T72	Time-Implicit 565 570	高中毕业后
+T73	Person-Nominal 571 574	村领导
+T74	Person-Pronoun 576 577	我
+T75	Person-Pronoun 579 580	我
+T76	Location-Nominal 581 583	村里
+T77	Person-Nominal 584 589	团支部书记
+T78	Person-Nominal 590 594	妇女主任
+T79	Person-Pronoun 597 598	我
+T80	Organization-Nominal 599 600	党
+T81	Person-Pronoun 603 604	我
+T82	Location-Nominal 605 613	一片刚开垦的地里
+T83	Thing-Nominal 614 616	水稻
+T84	Thing-Nominal 622 624	水稻
+T85	Person-Pronoun 626 627	我
+T86	Person-Nominal 630 632	学生
+T87	Thing-Nominal 635 637	水稻
+T88	Thing-Nominal 644 645	书
+T89	Person-Pronoun 646 647	我
+T90	Abstract 650 658	《如何栽种水稻》
+T91	Thing-Nominal 661 664	农作物
+T92	Thing-Nominal 665 666	书
+T93	Location-Nominal 669 671	我村
+T94	Thing-Nominal 671 673	稻子
+T95	Thing-Nominal 685 686;687 688	书 本
+T96	Thing-Nominal 705 706	水
+T97	Thing-Nominal 713 714	水
+T98	Thing-Nominal 720 721	药
+T99	Thing-Nominal 722 724	书本
+T100	Person-Nominal 732 734	老师
+T101	Person-Pronoun 736 737	我
+T102	Thing-Nominal 742 744	稻子
+T103	Metric 752 754	千斤
+T104	Time-Implicit 760 762	秋后
+T105	Person-Nominal 763 766	社员们
+T106	Location-Nominal 772 775	自己村
+T107	Thing-Nominal 776 778	大米
+T108	Person-Pronoun 782 783	我
+T109	Person-Name 784 796	雷神庙联中校长常宏传同志
+T110	Organization-Nominal 799 801	学校
+T111	Location-Nominal 802 805	毕业班
+T112	Person-Pronoun 828 829	我
+T113	Time-Implicit 841 846	第二年秋天
+T114	Person-Pronoun 847 848	我
+T115	Person-Nominal 852 858	三不脱离干部
+T116	Person-Name 861 869;870 874	现任滨州市市委书 记孙德汉
+T117	Organization-Nominal 879 884	县委组织部
+T118	Organization-Nominal 906 911	高一等学校
+T119	Person-Nominal 917 923	三不脱离干部
+T120	Person-Nominal 936 942	城关公社领导
+T121	Person-Pronoun 943 944	我
+T122	Person-Pronoun 953 954	我
+T123	Thing-Nominal 951 952	书
+T124	Location-Nominal 962 967	高一等学校
+T125	Person-Nominal 973 980	一名公安女民警
+T126	Time-Explicit 983 988	1985年
+T127	Organization-Name 989 991;992 996	牟平 区共青团
+T128	Location-Nominal 997 1000	总工会
+T129	Thing-Nominal 1006 1007	书
+T130	Location-Nominal 1025 1034	中央委员张富贵工地
+T131	Time-Implicit 1036 1039	广播时
+T132	Person-Name 1040 1043	张富贵
+T133	Person-Pronoun 1044 1045	我
+T134	Person-Nominal 1046 1050	所有的人
+T135	Person-Pronoun 1058 1059	我
+T136	Person-Nominal 1060 1065	“大家闺秀
+T137	Person-Pronoun 1069 1070	我
+T138	Organization-Name 1071 1078	烟台广播电视台
+T139	Person-Nominal 1080 1083	播音员
+T140	Thing-Nominal 1086 1089	推荐信
+T141	Person-Pronoun 1091 1092	我
+T142	Person-Nominal 1113 1114	人
+T143	Organization-Nominal 1121 1124	公安局
+T144	Person-Pronoun 1131 1132	我
+T145	Thing-Nominal 1127 1128	书
+T146	Thing-Nominal 1129 1130	报
+T147	Person-Pronoun 1144 1145	我
+T148	Abstract 1150 1168	《新时期公安基层建设与管理实用手册》
+T149	Metric 1172 1177	4000页
+T150	Thing-Nominal 1169 1179	这本近4000页的书
+T151	Person-Pronoun 1226 1227	我
+T152	Person-Pronoun 1237 1238	我
+T153	Person-Pronoun 1253 1254	我
+T154	Time-Implicit 1262 1266	近几年来
+T155	Person-Pronoun 1267 1268	我
+T156	Abstract 1269 1275	《人民公安》
+T157	Time-Explicit 1276 1282	《山东公安》
+T158	Time-Explicit 1283 1290	《烟台公安报》
+T159	Time-Explicit 1291 1297	《山东老年》
+T160	Abstract 1298 1302;1303 1306	《老干部 之友》
+T161	Time-Explicit 1307 1313	《烟台晚报》
+T162	Metric 1323 1329	1000余篇
+T163	Metric 1331 1336	2009年
+T164	Metric 1341 1345	70余篇
+T165	Metric 1351 1355	60周年
+T166	Abstract 1358 1363;1364 1365	《我和车子 》
+T167	Abstract 1366 1377	《与祖国同行的老年人》
+T168	Organization-Name 1378 1383	烟台老龄委
+T169	Abstract 1403 1409	《我和车子》
+T170	Person-Pronoun 1414 1415	我
+T171	Person-Name 1418 1424;1425 1426	中央委员张富 贵
+T172	Abstract 1433 1439	《二斤粮票》
+T173	Time-Explicit 1440 1445	2010年
+T174	Organization-Name 1455 1472	第八届“中华颂”全国散文赛艺术大赛
+T175	Time-Explicit 1476 1481	2011年
+T176	Person-Pronoun 1481 1482	我
+T177	Abstract 1484 1485;1486 1492	《 母亲的纺车》
+T178	Location-Name 1524 1530	北京京西宾馆
+T179	Person-Pronoun 1537 1538	我
+T180	Person-Nominal 1539 1544	一名高中生
+T181	Person-Nominal 1545 1552	一名团支部书记
+T182	Person-Nominal 1553 1557	妇女主任
+T183	Person-Nominal 1560 1566	一名新式农民
+T184	Thing-Nominal 1567 1568	书
+T185	Person-Nominal 1572 1578	一名新式农民
+T186	Person-Pronoun 1570 1571	我
+T187	Organization-Name 1586 1592	烟台教育学院
+T188	Person-Nominal 1596 1606	一名“工农兵大学生”
+T189	Person-Pronoun 1610 1611	我
+T190	Person-Nominal 1612 1623	一名普通“工农兵大学生
+T191	Person-Nominal 1626 1631	一名播音员
+T192	Person-Nominal 1634 1640	一名公安干警
+T193	Person-Nominal 1641 1646	一名公务员
+T194	Thing-Nominal 1649 1650	书
+T195	Person-Pronoun 1651 1652	我
+T196	Person-Pronoun 1659 1661	自己
+T197	Thing-Nominal 1672 1683	较新颖、立意较深的文章
+T198	Thing-Nominal 1685 1687	书本
+T199	Person-Pronoun 1689 1690	我
+T200	Person-Pronoun 1695 1696	我
+T201	Person-Pronoun 1701 1702	我
+T202	Person-Nominal 1703 1711	一名不懂事的学生
+T203	Person-Nominal 1714 1723	一名对社会有用的人
+T204	Person-Pronoun 1724 1725	我
+T205	Person-Pronoun 1730 1731	我
+T206	Person-Nominal 1732 1736	启蒙老师
+T207	Thing-Nominal 1738 1739	书
+*	Coreference T45 T44
+R7	Family Arg1:T52 Arg2:T51	
+*	Coreference T71 T69
+T208	Person-Pronoun 772 774	自己
+*	Coreference T208 T105
+R8	Social Arg1:T109 Arg2:T108	
+R9	Social Arg1:T133 Arg2:T132	
+*	Coreference T195 T196

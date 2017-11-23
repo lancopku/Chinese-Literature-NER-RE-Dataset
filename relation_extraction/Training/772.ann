@@ -1,0 +1,231 @@
+T1	Location-Nominal 0 3	绿化带
+T2	Thing-Nominal 0 7	绿化带里的草叶
+R1	Located Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 14 20	扑面而来的风
+T4	Thing-Nominal 25 26	骨
+T5	Thing-Pronoun 29 30	它
+*	Coreference T5 T3
+T6	Person-Pronoun 39 40	我
+T7	Thing-Nominal 43 45	肌肤
+R2	Part-Whole Arg1:T7 Arg2:T6	
+T8	Person-Pronoun 57 58	我
+T9	Thing-Nominal 64 66	领口
+T10	Location-Nominal 69 71	河堤
+T11	Thing-Nominal 77 82	初春的晨雾
+T12	Thing-Nominal 83 84	纱
+T13	Thing-Nominal 89 91	小鸟
+T14	Metric 107 110	一两只
+T15	Thing-Nominal 155 160	萌新的树叶
+T16	Thing-Nominal 161 163	枝杈
+T17	Thing-Nominal 174 175	花
+T18	Person-Pronoun 205 207	我们
+T19	Thing-Nominal 214 215	桃
+T20	Thing-Nominal 215 216	李
+T21	Thing-Nominal 216 217	樱
+T22	Thing-Nominal 217 218	兰
+T23	Location-Nominal 221 222	山
+T24	Location-Nominal 223 224	水
+T25	Person-Pronoun 237 238	我
+T26	Thing-Nominal 242 250	连接着两岸的大桥
+T27	Metric 241 242	座
+T28	Person-Nominal 253 259;260 262	经历过沧桑的 老人
+T29	Thing-Pronoun 268 269	它
+*	Coreference T29 T26
+T30	Thing-Nominal 279 281	河水
+T31	Thing-Nominal 314 320	出身体的石头
+T32	Thing-Nominal 334 336	泥沙
+T33	Person-Pronoun 339 340	你
+T34	Person-Pronoun 356 358	自己
+*	Coreference T34 T33
+T35	Thing-Nominal 363 365	河水
+T36	Person-Pronoun 368 369	你
+T37	Thing-Nominal 373 375	岸树
+T38	Location-Name 403 406	绵远河
+T39	Location-Nominal 409 413	美丽的河
+T40	Metric 407 409	一条
+*	Coreference T39 T38 T41
+T41	Location-Nominal 416 427	似乎永远都没有疲倦的河
+T42	Metric 414 416	一条
+T43	Location-Name 429 432	绵远河
+T44	Person-Pronoun 440 441	我
+T45	Location-Pronoun 448 449	它
+*	Coreference T45 T43 T49 T50 T53
+T46	Location-Nominal 448 453	它的发源地
+T47	Location-Name 454 459	九顶山南麓
+*	Coreference T47 T46
+T48	Location-Name 471 475	沱江上游
+T49	Location-Name 471 478	沱江上游的正源
+T50	Location-Pronoun 488 489	它
+T51	Location-Nominal 501 503	良田
+T52	Metric 497 501	数十万亩
+T53	Location-Nominal 494 495	河
+T54	Location-Name 508 510	绵竹
+T55	Location-Name 511 515	德阳城区
+T56	Location-Name 524 527	绵远河
+T57	Person-Nominal 529 534	这里的人们
+T58	Location-Name 538 541	母亲河
+*	Coreference T58 T56
+T59	Location-Name 548 551	绵远河
+T60	Person-Pronoun 555 556	我
+T61	Time-Implicit 558 565	在参加工作以后
+T62	Person-Pronoun 572 573	我
+T63	Location-Nominal 572 582	我现在生活的这片土地
+T64	Location-Name 586 590	川西坝子
+*	Coreference T63 T64 T65 T67
+T65	Location-Nominal 598 603	主要产粮区
+T66	Location-Name 611 615	天府之国
+T67	Location-Nominal 621 625	这块平原
+T68	Location-Name 627 631	德阳市区
+T69	Location-Name 636 639	绵远河
+T70	Location-Name 640 643	石亭江
+T71	Location-Name 644 649	金堂的赵镇
+T72	Location-Name 657 661	沱江上游
+T73	Location-Name 662 665;666 679	举世闻 名的古蜀文明腹地“三星堆”
+T74	Location-Name 693 697	德阳市区
+T75	Location-Nominal 704 712	绵绵几百里的丘陵
+T76	Location-Nominal 715 717	山脚
+T77	Location-Nominal 718 720	上游
+*	Coreference T77 T72
+T78	Location-Name 727 732	德阳黄许镇
+T79	Location-Pronoun 733 735	此地
+*	Coreference T79 T78
+T80	Location-Nominal 737 739	河道
+T81	Time-Explicit 750 754	三国时期
+T82	Organization-Nominal 754 756	蜀国
+T83	Location-Name 769 772	白马关
+T84	Person-Name 776 783	刘备的军师庞统
+T85	Person-Name 776 778	刘备
+T86	Thing-Nominal 784 786	白马
+T87	Location-Name 789 791	雒城
+T88	Thing-Nominal 795 796	箭
+T89	Person-Nominal 804 806	人们
+T90	Location-Name 812 815	庞统祠
+T91	Person-Pronoun 818 819	他
+*	Coreference T91 T84
+T92	Location-Nominal 833 836	点将台
+T93	Person-Name 839 841	张飞
+T94	Thing-Nominal 839 843	张飞军帐
+T95	Location-Nominal 839 847	张飞军帐所设之地
+*	Coreference T95 T92
+T96	Location-Name 855 858	落凤坡
+T97	Location-Name 860 865	诸葛双忠祠
+T98	Person-Pronoun 887 888	我
+T99	Time-Explicit 889 896	上世纪七十年代
+T100	Person-Nominal 898 901	父母亲
+T101	Location-Name 903 905	德阳
+T102	Time-Implicit 907 911	那个时候
+*	Coreference T102 T99
+T103	Location-Name 912 916	德阳县城
+T104	Location-Nominal 918 928	呈“十字”形的四条街
+T105	Metric 925 927	四条
+T106	Location-Nominal 929 931	街道
+T107	Thing-Nominal 941 946	城区的房屋
+T108	Location-Nominal 959 962	县政府
+T109	Location-Nominal 963 969	南街的邮电局
+T110	Thing-Nominal 970 973	三层楼
+T111	Thing-Nominal 974 979	最高的建筑
+T112	Thing-Nominal 983 991	十字路口的钟鼓楼
+*	Coreference T112 T111 T115 T117
+T113	Time-Explicit 993 1000	上世纪文革时期
+T114	Organization-Nominal 1002 1005	县革委
+T115	Thing-Pronoun 1032 1034	此楼
+T116	Time-Explicit 1036 1051	清乾隆五十二年(1787年)秋
+T117	Thing-Nominal 1059 1064	这座最建筑
+T118	Location-Nominal 1075 1077	东街
+T119	Location-Nominal 1081 1093	横跨在绵远河两岸的东大桥
+T120	Location-Nominal 1097 1115	当时绵远河在城区河段中唯一的一座大桥
+*	Coreference T120 T119
+T121	Time-Implicit 1116 1120	那个时候
+T122	Time-Implicit 1097 1099	当时
+*	Coreference T122 T121 T116
+T123	Person-Pronoun 1120 1121	我
+T124	Organization-Nominal 1122 1124	高一
+T125	Time-Explicit 1133 1139	“文革”期间
+T126	Organization-Nominal 1140 1142	学校
+T127	Time-Implicit 1156 1161	夏天的时候
+T128	Person-Nominal 1166 1169	伙伴们
+T129	Location-Nominal 1170 1172	河边
+T130	Location-Nominal 1178 1180	河堤
+T131	Thing-Nominal 1188 1190	石条
+T132	Thing-Nominal 1195 1196	水
+T133	Thing-Nominal 1209 1210	鱼
+T134	Thing-Nominal 1206 1207	河
+T135	Person-Nominal 1217 1218	人
+T136	Person-Nominal 1239 1242	同学们
+T137	Location-Nominal 1243 1245	河边
+T138	Thing-Nominal 1246 1249	鹅卵石
+T139	Thing-Nominal 1255 1258	混凝土
+T140	Thing-Nominal 1253 1262	浇筑混凝土用的石头
+*	Coreference T140 T138 T141
+T141	Thing-Name 1268 1271	广子石
+T142	Person-Nominal 1275 1280	沙石社的人
+T143	Location-Nominal 1272 1274	河边
+T144	Person-Pronoun 1293 1295	我们
+T145	Organization-Nominal 1299 1302	沙石社
+R3	Ownership Arg1:T142 Arg2:T145	
+T146	Thing-Nominal 1327 1329	皮肤
+T147	Thing-Nominal 1336 1338	手掌
+T148	Thing-Nominal 1343 1345	水泡
+T149	Person-Pronoun 1363 1365	我们
+T150	Person-Nominal 1377 1380	男生们
+T151	Thing-Nominal 1388 1389	水
+T152	Location-Nominal 1382 1387	较远的地方
+T153	Time-Implicit 1412 1421	高中毕业都近四十年
+T154	Time-Implicit 1427 1432	青葱的年代
+T155	Location-Nominal 1452 1456	这块土地
+T156	Person-Pronoun 1457 1458	我
+T157	Location-Name 1460 1463;1464 1465	第二故 乡
+*	Coreference T157 T155
+T158	Location-Name 1472 1475	绵远河
+T159	Location-Nominal 1491 1502	那个只有四条街的小县城
+*	Coreference T159 T103 T160 T163
+T160	Location-Nominal 1507 1521	有三四十条公交线路的中等城市
+T161	Time-Implicit 1540 1542	从前
+T162	Location-Nominal 1542 1551	从城边擦过的绵远河
+T163	Location-Nominal 1543 1544	城
+T164	Location-Nominal 1554 1556	城市
+T165	Location-Nominal 1561 1565	两岸高楼
+T166	Location-Nominal 1567 1569	道路
+T167	Location-Nominal 1572 1576	市区河段
+T168	Thing-Nominal 1583 1584	桥
+T169	Metric 1581 1583	一座
+T170	Thing-Nominal 1602 1604	大桥
+T171	Metric 1600 1602	九座
+T172	Person-Nominal 1605 1607	居民
+T173	Location-Nominal 1654 1656	河边
+T174	Organization-Nominal 1668 1670	政府
+T175	Location-Nominal 1684 1693	三四十米宽的绿化带
+T176	Time-Implicit 1699 1701	当年
+T177	Location-Nominal 1701 1707;1708 1709	被拆除的钟鼓 楼
+T178	Location-Nominal 1728 1732	东山脚处
+T179	Location-Nominal 1733 1737	百尺高楼
+T180	Location-Nominal 1747 1755	背靠群山的钟鼓楼
+T181	Location-Nominal 1760 1765	奔涌的大河
+T182	Location-Nominal 1766 1768;1769 1772	崛起 的新城
+T183	Location-Nominal 1773 1779	这座仿古建筑
+*	Coreference T183 T180
+T184	Metric 1774 1775	座
+T185	Location-Nominal 1782 1784	城市
+T186	Person-Nominal 1806 1816	这片热土上勤劳的人们
+T187	Location-Nominal 1827 1829;1830 1833	河边 的竹林
+T188	Location-Nominal 1834 1836	沙滩
+T189	Thing-Nominal 1837 1840	小木船
+T190	Location-Nominal 1845 1850	河边的田野
+T191	Thing-Nominal 1851 1853	犁铧
+T192	Thing-Nominal 1854 1856	炊烟
+T193	Location-Nominal 1859 1867	靠山脚的一些地方
+T194	Location-Nominal 1870 1872	农房
+T195	Location-Nominal 1876 1879	养殖场
+T196	Location-Nominal 1880 1890;1891 1892	供市民休闲娱乐的农家 乐
+T197	Person-Nominal 1881 1883	市民
+T198	Thing-Nominal 1896 1899	自来水
+T199	Thing-Nominal 1900 1902	电视
+T200	Location-Name 1923 1926	绵远河
+T201	Person-Pronoun 1958 1959	我
+T202	Location-Name 1941 1947	从前的绵远河
+T203	Location-Name 1949 1955	眼前的绵远河
+*	Coreference T203 T202 T200
+T204	Location-Name 1977 1980	绵远河
+T205	Location-Pronoun 1981 1982	你
+*	Coreference T205 T204
+T206	Person-Pronoun 1989 1990	我

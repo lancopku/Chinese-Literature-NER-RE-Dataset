@@ -1,0 +1,64 @@
+T1	Person-Pronoun 0 1	我
+T2	Person-Name 10 12	魏小
+T3	Person-Pronoun 16 17	他
+T4	Person-Pronoun 35 36	他
+T5	Person-Pronoun 41 42	我
+T6	Person-Name 54 56	魏小
+T7	Person-Name 69 71	魏小
+T8	Person-Pronoun 89 90	他
+T9	Person-Pronoun 92 93	我
+R1	Social Arg1:T2 Arg2:T1	
+R2	Social Arg1:T4 Arg2:T5	
+T10	Time-Explicit 96 99	两年前
+T11	Person-Nominal 99 103	他的父亲
+T12	Person-Name 103 105	老魏
+*	Coreference T12 T11
+T13	Person-Nominal 120 121;122 123	父 亲
+T14	Person-Pronoun 127 128	他
+R3	Family Arg1:T14 Arg2:T13	
+T15	Person-Nominal 138 144	十六岁的小兽
+T16	Person-Pronoun 158 159	我
+T17	Thing-Nominal 160 162	衣袋
+R4	Ownership Arg1:T16 Arg2:T17	
+T18	Person-Pronoun 172 173	他
+T19	Person-Pronoun 174 175	他
+T20	Thing-Nominal 178 179	钱
+T21	Thing-Nominal 188 190	双手
+R5	Part-Whole Arg1:T21 Arg2:T19	
+T22	Person-Pronoun 200 201	我
+T23	Person-Nominal 214 216	大佛
+T24	Person-Pronoun 218 219	我
+T25	Person-Pronoun 231 232	他
+T26	Person-Nominal 231 239	他身边的那位女孩
+T27	Thing-Nominal 231 242	他身边的那位女孩的下腹
+T28	Person-Nominal 261 266	无辜的生命
+T29	Person-Pronoun 268 269	我
+T30	Location-Nominal 278 282	这座城市
+T31	Location-Nominal 293 296	黑网吧
+T32	Location-Nominal 298 300	摩房
+T33	Location-Nominal 301 303	发廊
+T34	Location-Nominal 304 307	小酒馆
+T35	Location-Nominal 308 311	歌舞厅
+T36	Person-Nominal 324 328;329 330	堕落的老 少
+T37	Person-Pronoun 340 341	我
+T38	Person-Nominal 392 393	谁
+T39	Person-Nominal 396 400	那些孩子
+T40	Person-Pronoun 406 408	他们
+T41	Person-Name 414 416	老魏
+T42	Person-Nominal 417 421	他的工友
+R6	Social Arg1:T42 Arg2:T41	
+T43	Person-Name 422 424	魏小
+T44	Person-Nominal 425 429	他的劣伴
+R7	Social Arg1:T44 Arg2:T43	
+T45	Person-Nominal 434 441	萍踪浪迹的女人
+T46	Person-Pronoun 442 444	他们
+T47	Person-Pronoun 466 468	他们
+T48	Person-Pronoun 496 497	我
+T49	Thing-Nominal 506 510	我的眼泪
+R8	Part-Whole Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 513 516	电脑桌
+T51	Person-Pronoun 518 519	我
+T52	Thing-Nominal 522 527	自己的眼泪
+T53	Thing-Nominal 528 532	这种眼泪
+*	Coreference T53 T52
+R9	Family Arg1:T43 Arg2:T41	

@@ -1,0 +1,154 @@
+T1	Thing-Nominal 0 2	青菜
+T2	Thing-Nominal 5 13	菠菜、大蒜、莴笋
+T3	Thing-Pronoun 21 23	她们
+T4	Person-Nominal 49 51	人们
+T5	Thing-Pronoun 54 56	她们
+T6	Thing-Pronoun 67 69	她们
+T7	Location-Nominal 93 95	舞台
+T8	Person-Nominal 106 109	后来者
+T9	Thing-Nominal 115 154	小青菜、生菜、茼蒿、豇豆、四季豆、苋菜、茄子、辣椒、猫耳菜、瓠子、黄瓜、空心菜
+T10	Location-Nominal 166 171	我家菜园里
+R1	Located Arg1:T9 Arg2:T10	
+T11	Person-Nominal 178 179	妈
+T12	Person-Pronoun 180 181	我
+R2	Family Arg1:T11 Arg2:T12	
+T13	Person-Nominal 192 193	子
+*	Coreference T12 T13
+T14	Person-Nominal 205 207	自己
+T15	Person-Pronoun 212 213	她
+*	Coreference T15 T11
+T16	Location-Nominal 223 226	菜园里
+T17	Person-Pronoun 231 232	我
+T18	Person-Pronoun 236 237	她
+T19	Thing-Nominal 244 246	太阳
+T20	Metric 248 250	几日
+T21	Time-Implicit 248 250	几日
+T22	Person-Nominal 264 265	妈
+T23	Person-Pronoun 271 272	她
+*	Coreference T23 T22
+T24	Person-Pronoun 273 274	我
+T25	Thing-Nominal 292 295	花斑秃
+T26	Person-Pronoun 299 300	我
+T27	Person-Pronoun 302 303	她
+T28	Time-Implicit 306 311	一段时间后
+T29	Person-Pronoun 312 313	我
+T30	Thing-Nominal 315 320	生菜、茼蒿
+T31	Thing-Nominal 332 336	小青菜秧
+T32	Person-Pronoun 344 345	我
+T33	Thing-Nominal 362 365	小芽儿
+T34	Person-Nominal 378 382	路过的人
+T35	Thing-Nominal 385 387	菜种
+T36	Person-Pronoun 401 403	他们
+*	Coreference T36 T34
+T37	Thing-Nominal 407 409	菜种
+T38	Time-Implicit 421 423	去年
+T39	Person-Pronoun 454 455	妈
+T40	Person-Pronoun 456 457	她
+T41	Metric 481 484	十八棵
+T42	Thing-Nominal 497 500	小菜秧
+T43	Person-Pronoun 509 511	我们
+T44	Person-Pronoun 527 529	我们
+T45	Thing-Nominal 534 537	虫子们
+T46	Time-Implicit 542 545	几天后
+T47	Thing-Nominal 547 550	小菜秧
+T48	Person-Nominal 560 561	妈
+T49	Thing-Nominal 573 576	老驴草
+T50	Location-Nominal 600 603	菜园里
+T51	Thing-Nominal 600 607	菜园里的空心菜
+R3	Located Arg1:T51 Arg2:T50	
+T52	Thing-Pronoun 612 613	她
+*	Coreference T52 T51
+T53	Thing-Nominal 621 623	韭菜
+T54	Thing-Nominal 633 637	下面的根
+R4	Part-Whole Arg1:T54 Arg2:T53	
+T55	Location-Nominal 646 649	菜园里
+T56	Location-Nominal 658 660;661 662	油锅 里
+T57	Thing-Nominal 664 668	蒜泥姜末
+R5	Located Arg1:T57 Arg2:T56	
+T58	Thing-Nominal 671 674	空心菜
+T59	Metric 681 683	一盘
+T60	Thing-Nominal 681 698	一盘色香味俱全又非常养眼的炒空心菜
+T61	Thing-Nominal 703 706	空心菜
+T62	Person-Nominal 718 720	主人
+T63	Thing-Nominal 726 728	种子
+T64	Thing-Nominal 732 733	水
+T65	Person-Nominal 743 744	妈
+T66	Thing-Nominal 749 752	空心菜
+T67	Person-Pronoun 745 746	我
+T68	Location-Nominal 761 763;764 771	门前 一只空置花盆里
+T69	Metric 764 766	一只
+T70	Thing-Nominal 780 782	薄膜
+T71	Person-Pronoun 787 788	我
+T72	Person-Pronoun 796 797	她
+*	Coreference T72 T65
+T73	Person-Pronoun 804 805	我
+T74	Thing-Nominal 807 810	空心菜
+T75	Person-Pronoun 815 816	她
+T76	Thing-Nominal 824 827	空心菜
+T77	Person-Pronoun 830 831	我
+T78	Thing-Nominal 833 835	生菜
+T79	Thing-Nominal 836 838	茼蒿
+T80	Person-Pronoun 846 847	妈
+T81	Person-Pronoun 856 857	我
+T82	Location-Nominal 865 870	路边菜园里
+T83	Thing-Nominal 872 874	蔬菜
+R6	Located Arg1:T83 Arg2:T82	
+T84	Person-Nominal 885 887	有人
+T85	Person-Nominal 891 892	妈
+T86	Person-Name 897 900	苏大姐
+T87	Person-Pronoun 903 904	妈
+T88	Location-Nominal 907 909	乡下
+T89	Person-Pronoun 926 927	你
+*	Coreference T86 T85 T89
+T90	Thing-Nominal 928 930	生菜
+T91	Person-Pronoun 935 936	我
+T92	Location-Nominal 935 940	我那块地上
+T93	Metric 942 945	几十棵
+T94	Person-Pronoun 949 950	你
+T95	Person-Nominal 961 963	有人
+T96	Person-Nominal 964 965	妈
+T97	Person-Nominal 971 972	妈
+T98	Location-Nominal 995 998	生菜地
+T99	Person-Pronoun 999 1000	我
+T100	Person-Nominal 1002 1003	妈
+T101	Person-Nominal 1006 1007	人
+T102	Person-Nominal 1008 1009	妈
+T103	Person-Nominal 1014 1018	家门口人
+T104	Person-Nominal 1019 1021	人家
+T105	Person-Pronoun 1025 1026	你
+T106	Metric 1037 1039	几棵
+T107	Thing-Nominal 1039 1042	生菜秧
+T108	Person-Nominal 1046 1047	人
+T109	Thing-Nominal 1050 1052	菜秧
+T110	Person-Nominal 1065 1067	人家
+T111	Person-Nominal 1069 1071	自己
+T112	Person-Nominal 1077 1079	人家
+T113	Person-Pronoun 1088 1089	你
+T114	Person-Nominal 1096 1102	邪头八角的人
+T115	Time-Implicit 1103 1105	晚上
+T116	Person-Pronoun 1113 1114	你
+T117	Person-Pronoun 1117 1118	你
+T118	Person-Nominal 1142 1144	自己
+T119	Person-Nominal 1149 1150	妈
+T120	Location-Nominal 1163 1165	乡下
+T121	Location-Nominal 1172 1174	乡下
+T122	Time-Implicit 1177 1183	种菜栽菜时节
+T123	Thing-Nominal 1189 1191	菜秧
+T124	Person-Nominal 1202 1203	妈
+T125	Thing-Nominal 1204 1207	生菜秧
+T126	Person-Nominal 1210 1212	别人
+T127	Person-Nominal 1217 1219	别人
+T128	Thing-Nominal 1220 1224	猫耳菜秧
+T129	Time-Implicit 1225 1227	那天
+T130	Person-Name 1229 1233	董家大嫂
+T131	Person-Name 1236 1240	董家大嫂
+T132	Metric 1265 1267	两天
+T133	Person-Pronoun 1275 1276	你
+*	Coreference T133 T124
+T134	Person-Pronoun 1283 1284	你
+T135	Thing-Nominal 1297 1305	乡下的一块块菜园
+T136	Person-Pronoun 1268 1269	我
+*	Coreference T136 T131
+T137	Time-Implicit 24 26	春天
+T138	Location-Nominal 1297 1299	乡下
+R7	Located Arg1:T135 Arg2:T138	

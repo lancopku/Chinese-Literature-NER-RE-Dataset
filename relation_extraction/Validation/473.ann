@@ -1,0 +1,356 @@
+T1	Thing-Nominal 0 3	那座寺
+T2	Location-Nominal 6 8	北国
+R1	Located Arg1:T1 Arg2:T2	
+T3	Location-Nominal 12 21	故乡南山坡的林海里
+T4	Thing-Nominal 23 26	南山寺
+*	Coreference T4 T1
+T5	Thing-Nominal 28 32	世外桃源
+T6	Location-Nominal 36 44	黄昏飘拂的炊烟里
+T7	Thing-Nominal 45 50	清幽的晚钟
+T8	Location-Nominal 55 57	耳畔
+R2	Located Arg1:T7 Arg2:T8	
+T9	Location-Nominal 62 67	这些图景里
+T10	Thing-Nominal 74 82	一幅幅放映的胶片
+T11	Thing-Nominal 125 129	山寺桃花
+T12	Thing-Nominal 139 146	漫山遍野的桃花
+T13	Location-Name 100 105	南山寺周围
+T14	Thing-Nominal 106 108	桃花
+R3	Located Arg1:T14 Arg2:T13	
+T15	Location-Nominal 164 166	空中
+T16	Person-Pronoun 169 170	我
+T17	Location-Nominal 174 177	家门口
+T18	Thing-Nominal 178 180	南山
+T19	Thing-Nominal 188 191	一棵树
+T20	Thing-Nominal 192 195	两棵树
+T21	Thing-Nominal 196 198	桃花
+T22	Person-Pronoun 212 213	我
+T23	Location-Nominal 271 274	山峰上
+T24	Time-Implicit 268 270	那时
+T25	Thing-Nominal 246 250	一大片地
+T26	Thing-Nominal 235 240	很多的桃花
+T27	Thing-Nominal 216 218	花蕾
+T28	Time-Implicit 230 234	某个早晨
+T29	Thing-Nominal 278 282	苍松翠柏
+R4	Located Arg1:T29 Arg2:T23	
+T30	Thing-Nominal 283 288	半山坡桃花
+T31	Thing-Nominal 293 294	风
+T32	Thing-Nominal 300 302	桃花
+T33	Thing-Nominal 309 311	肺叶
+T34	Thing-Nominal 312 315	南山寺
+T35	Thing-Nominal 316 321	小小的山寺
+T36	Thing-Nominal 322 328	一条小路尽头
+T37	Location-Nominal 330 332	山门
+T38	Location-Nominal 333 336	寺旁边
+T39	Thing-Nominal 340 345	潺潺的溪水
+R5	Located Arg1:T39 Arg2:T38	
+T40	Location-Nominal 352 354	山下
+T41	Location-Nominal 357 361	寺的顶部
+T42	Thing-Nominal 362 366	木制的飞
+R6	Located Arg1:T42 Arg2:T41	
+T43	Person-Nominal 377 381	两个僧人
+T44	Location-Nominal 373 375	寺里
+T45	Thing-Nominal 389 394	灰色的僧袍
+T46	Thing-Nominal 405 409	黄色褡裢
+T47	Person-Pronoun 441 442	我
+T48	Person-Pronoun 452 454	他们
+*	Coreference T48 T43
+T49	Time-Implicit 455 457	那时
+T50	Person-Pronoun 457 458	我
+T51	Time-Implicit 467 471	很多年后
+T52	Person-Pronoun 472 473	我
+T53	Person-Pronoun 476 478	他们
+T54	Thing-Nominal 505 507	白云
+T55	Thing-Nominal 522 523	马
+T56	Thing-Nominal 528 533	潜伏的雄狮
+T57	Person-Pronoun 484 486	自己
+*	Coreference T57 T53
+T58	Thing-Nominal 539 544	绵绵的山峦
+T59	Thing-Nominal 545 552	波澜壮阔的大海
+T60	Time-Implicit 554 559	有风的夜里
+T61	Thing-Nominal 562 564	森林
+T62	Thing-Nominal 610 614	一场风暴
+T63	Thing-Nominal 617 619	桃花
+T64	Thing-Nominal 622 624	柳笛
+T65	Location-Nominal 630 632	街上
+T66	Person-Nominal 634 643	很多戴着红袖章的人
+T67	Thing-Nominal 644 649	繁华的闹市
+T68	Thing-Nominal 652 655	大字报
+T69	Person-Nominal 658 661	这个人
+T70	Person-Nominal 664 667	那个人
+T71	Thing-Nominal 676 680	火药味儿
+T72	Time-Implicit 693 697	那天上午
+T73	Thing-Nominal 698 700	太阳
+T74	Thing-Nominal 704 705	风
+T75	Thing-Nominal 706 707	云
+T76	Location-Nominal 709 711	街上
+T77	Person-Nominal 716 718	祖母
+T78	Person-Pronoun 720 721	我
+R7	Family Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 722 723	门
+T80	Person-Pronoun 724 725	我
+T81	Location-Nominal 727 729	家里
+T82	Thing-Nominal 730 731;732 733	木 梯
+R8	Located Arg1:T82 Arg2:T81	
+T83	Thing-Nominal 736 741	阁楼的天窗
+T84	Person-Nominal 750 752	人流
+T85	Location-Name 759 761	南山
+T86	Thing-Nominal 771 773	红旗
+T87	Thing-Nominal 776 778	锣鼓
+T88	Person-Nominal 779 785	这些男男女女
+T89	Thing-Nominal 797 799	手臂
+T90	Thing-Nominal 793 796	红袖章
+R9	Part-Whole Arg1:T89 Arg2:T88	
+T91	Person-Pronoun 812 813	我
+T92	Person-Pronoun 838 840	他们
+*	Coreference T92 T88
+T93	Person-Nominal 849 851	斗士
+T94	Person-Nominal 865 867	祖母
+T95	Person-Pronoun 869 870	我
+R10	Family Arg1:T95 Arg2:T94	
+T96	Thing-Nominal 871 874	南山寺
+T97	Person-Pronoun 879 880	我
+T98	Person-Pronoun 893 894	我
+T99	Thing-Nominal 903 907	那座山寺
+T100	Person-Pronoun 908 909	我
+T101	Time-Implicit 936 938	那时
+T102	Thing-Nominal 924 930	暗红色的山门
+T103	Thing-Nominal 917 923	暗红色的外墙
+T104	Person-Pronoun 977 978	我
+T105	Person-Pronoun 988 989	我
+T106	Thing-Nominal 1002 1005	南山寺
+T107	Thing-Nominal 1009 1015	一片断壁残垣
+T108	Thing-Nominal 1016 1026	这座始建于清朝的山寺
+T109	Metric 1031 1035	三百多年
+T110	Thing-Nominal 1048 1050	遗址
+T111	Thing-Nominal 1053 1060	一片静寂的废墟
+T112	Time-Implicit 1063 1068	那些日子里
+T113	Person-Pronoun 1069 1070	我
+T114	Location-Nominal 1074 1081	那附近的山坡上
+T115	Thing-Nominal 1082 1086	茂盛的树
+R11	Located Arg1:T115 Arg2:T114	
+T116	Thing-Nominal 1088 1092	葳蕤的草
+R12	Located Arg1:T116 Arg2:T114	
+T117	Location-Nominal 1097 1102	潺潺溪水里
+T118	Thing-Nominal 1103 1108	美丽的卵石
+R13	Located Arg1:T118 Arg2:T117	
+T119	Thing-Nominal 1113 1123;1124 1130	零落的香炉、蒲团和一 些寺里的物品
+T120	Person-Pronoun 1150 1151	我
+T121	Location-Nominal 1154 1162	铺满青草的山坡上
+T122	Thing-Nominal 1163 1165	天空
+T123	Location-Nominal 1166 1168	身边
+T124	Thing-Nominal 1168 1172	几只蚂蚁
+R14	Located Arg1:T124 Arg2:T123	
+T125	Thing-Pronoun 1179 1181	它们
+*	Coreference T125 T124
+T126	Thing-Nominal 1190 1197	黑色的小小身影
+T127	Location-Nominal 1204 1207	草丛里
+T128	Person-Pronoun 1208 1209	我
+T129	Thing-Pronoun 1212 1214	它们
+T130	Thing-Nominal 1219 1221	天空
+T131	Person-Pronoun 1237 1238	我
+T132	Thing-Nominal 1256 1258	天地
+T133	Time-Implicit 1266 1268	那时
+T134	Thing-Pronoun 1275 1276	它
+T135	Thing-Nominal 1281 1286	鲜花、美酒
+T136	Person-Nominal 1298 1299	人
+T137	Location-Nominal 1347 1352	这个星球上
+T138	Thing-Nominal 1370 1377	眼前的断壁残瓦
+T139	Thing-Nominal 1391 1393	天空
+T140	Person-Pronoun 1398 1399	我
+T141	Thing-Nominal 1428 1436	那片桃林绿叶纷披
+T142	Thing-Nominal 1437 1439	小桃
+T143	Thing-Nominal 1440 1442	硬币
+T144	Person-Nominal 1451 1455	一群群人
+T145	Person-Pronoun 1448 1449	我
+T146	Location-Name 1456 1458	南山
+T147	Location-Nominal 1461 1464	山寺里
+T148	Person-Nominal 1464 1471	那个年老的僧人
+T149	Location-Nominal 1472 1481	一棵粗壮的桃树枝上
+T150	Thing-Nominal 1482 1486	一根麻绳
+R15	Use Arg1:T148 Arg2:T150	
+T151	Person-Pronoun 1487 1488;1489 1490	自 己
+*	Coreference T151 T148 T152
+T152	Person-Pronoun 1499 1500	他
+T153	Thing-Nominal 1500 1502	眼睛
+R16	Part-Whole Arg1:T153 Arg2:T152	
+T154	Thing-Nominal 1509 1515	通往天堂的路
+T155	Thing-Nominal 1519 1520	庙
+T156	Person-Pronoun 1527 1528	他
+T157	Person-Pronoun 1536 1538	肉体
+T158	Person-Nominal 1544 1545	人
+T159	Person-Pronoun 1547 1548	他
+T160	Location-Nominal 1569 1576	那“古寺寒山上
+T161	Location-Nominal 1564 1567	山林间
+T162	Person-Pronoun 1591 1592	他
+T163	Person-Pronoun 1594 1596	自己
+*	Coreference T163 T162
+T164	Thing-Nominal 1606 1608	青山
+T165	Person-Pronoun 1659 1660	我
+T166	Person-Pronoun 1664 1665	他
+T167	Person-Pronoun 1612 1613	他
+T168	Location-Nominal 1674 1679	这个世界上
+T169	Time-Implicit 1679 1681	每天
+T170	Person-Nominal 1683 1686	很多人
+T171	Person-Pronoun 1696 1697	我
+T172	Thing-Nominal 1700 1702	桃花
+T173	Thing-Nominal 1717 1719	桃花
+T174	Thing-Nominal 1737 1744	温暖明亮的阳光
+T175	Location-Nominal 1756 1761	蓝天白云下
+T176	Thing-Nominal 1762 1769	漫山遍野的桃花
+T177	Thing-Nominal 1772 1774	云霞
+T178	Time-Implicit 1778 1781	那时候
+T179	Thing-Nominal 1782 1787	桃花的花瓣
+T180	Person-Nominal 1829 1830	人
+T181	Thing-Pronoun 1834 1836	它们
+*	Coreference T181 T179
+T182	Thing-Nominal 1844 1846	桃花
+T183	Thing-Nominal 1849 1851	樱花
+T184	Thing-Nominal 1863 1865	风雨
+T185	Thing-Nominal 1869 1870	花
+T186	Thing-Nominal 1871 1872	花
+T187	Person-Nominal 1877 1878	人
+T188	Thing-Nominal 1961 1965	北国的雪
+T189	Thing-Nominal 1937 1940	那山寺
+T190	Thing-Nominal 1933 1936	那桃林
+T191	Thing-Nominal 1929 1932	那山坡
+T192	Thing-Nominal 1911 1913	月亮
+T193	Thing-Nominal 1906 1908	太阳
+T194	Thing-Nominal 1975 1980	故乡的山野
+T195	Person-Pronoun 1991 1992	我
+T196	Location-Name 1999 2003	南山寺前
+T197	Metric 2014 2018	三十余年
+T198	Thing-Nominal 2022 2026	松柏桃林
+T199	Thing-Nominal 2067 2072	新的南山寺
+T200	Thing-Nominal 2077 2079	庙宇
+T201	Location-Nominal 2041 2045	山道两边
+T202	Thing-Nominal 2045 2050	凌乱的杂草
+R17	Located Arg1:T202 Arg2:T201	
+T203	Location-Nominal 2032 2034	山上
+T204	Thing-Nominal 2038 2040	民房
+R18	Located Arg1:T204 Arg2:T203	
+T205	Thing-Nominal 2108 2130	山门、天王殿、大雄宝殿和法堂、藏经阁、方丈堂
+T206	Time-Implicit 2141 2143	此时
+T207	Thing-Nominal 2159 2161	佛家
+T208	Location-Nominal 2165 2167	山间
+T209	Person-Pronoun 2171 2172	我
+T210	Person-Nominal 2173 2174	姑
+R19	Family Arg1:T210 Arg2:T209	
+T211	Person-Nominal 2177 2180	一个人
+T212	Person-Nominal 2181 2190	一个半路出家的女尼
+T213	Person-Nominal 2192 2199	姑少年时的朋友
+T214	Person-Pronoun 2200 2201	她
+*	Coreference T214 T212
+T215	Location-Nominal 2203 2211	附近的寺庙宿舍里
+T216	Thing-Nominal 2213 2222	一个典型的农家小院
+T217	Thing-Nominal 2223 2226	木杖子
+T218	Thing-Nominal 2229 2230	墙
+T219	Person-Nominal 2285 2289	中年女尼
+T220	Person-Nominal 2267 2268	人
+T221	Person-Name 2262 2266	慧圆法师
+T222	Person-Name 2257 2260	王美贤
+T223	Person-Pronoun 2250 2251	我
+T224	Thing-Nominal 2241 2248	那扇紧闭的柴门
+T225	Thing-Nominal 2236 2237	手
+T226	Person-Pronoun 2233 2234	我
+R20	Part-Whole Arg1:T225 Arg2:T226	
+T227	Person-Pronoun 2296 2298	我们
+T228	Location-Nominal 2299 2301	屋里
+T229	Person-Nominal 2304 2308	慧圆法师
+T230	Person-Pronoun 2327 2328	我
+T231	Person-Nominal 2329 2330	姑
+R21	Family Arg1:T231 Arg2:T230	
+T232	Location-Nominal 2332 2336	中间堂屋
+T233	Location-Nominal 2340 2345	左边的卧室
+T234	Location-Pronoun 2346 2348	这里
+*	Coreference T234 T233
+T235	Thing-Nominal 2357 2361	一铺火炕
+T236	Thing-Nominal 2364 2372	绛灰色的暗花床单
+T237	Location-Nominal 2376 2378	室内
+T238	Thing-Nominal 2387 2392	一张小方桌
+T239	Location-Nominal 2384 2386	炕边
+R22	Located Arg1:T238 Arg2:T239	
+T240	Location-Nominal 2393 2395	上面
+T241	Thing-Nominal 2397 2407	两副碗筷，一只暖水瓶
+R23	Located Arg1:T241 Arg2:T240	
+T242	Person-Pronoun 2408 2410	我们
+T243	Location-Nominal 2412 2414	炕前
+T244	Thing-Nominal 2450 2453	几只鸟
+T245	Location-Nominal 2432 2446	那棵粗壮的枝繁叶茂的老榆树上
+R24	Located Arg1:T244 Arg2:T245	
+T246	Thing-Nominal 2423 2428	开着的窗口
+T247	Location-Nominal 2416 2419	木凳上
+T248	Location-Nominal 2472 2475;2476 2479	旁边的 果树上
+T249	Thing-Nominal 2481 2489	密密麻麻的铃铛果
+R25	Located Arg1:T249 Arg2:T248	
+T250	Person-Pronoun 2508 2509	我
+T251	Person-Name 2520 2522	慧圆
+T252	Thing-Nominal 2533 2536;2537 2538	黄色僧 袍
+T253	Thing-Nominal 2542 2547	黄色的僧鞋
+T254	Location-Nominal 2539 2541	脚上
+R26	Located Arg1:T253 Arg2:T254	
+T255	Person-Pronoun 2560 2561	她
+*	Coreference T255 T251
+T256	Person-Nominal 2566 2573	几十年前的朋友
+T257	Time-Implicit 2566 2570	几十年前
+T258	Person-Pronoun 2574 2575	我
+T259	Person-Nominal 2583 2585	女尼
+T260	Person-Pronoun 2586 2588	我们
+T261	Person-Nominal 2590 2597	一盆红红的果子
+T262	Thing-Nominal 2601 2605	外面的树
+T263	Location-Nominal 2601 2603	外面
+R27	Located Arg1:T262 Arg2:T263	
+T264	Person-Nominal 2613 2615	佛祖
+T265	Person-Pronoun 2623 2624	我
+T266	Thing-Nominal 2626 2630	一枚果子
+T267	Person-Pronoun 2640 2641	我
+T268	Person-Nominal 2649 2650	佛
+T269	Person-Name 2654 2656	慧圆
+T270	Person-Nominal 2717 2718	人
+T271	Person-Nominal 2705 2712	若水向善的智者
+T272	Person-Nominal 2693 2697	心中的人
+T273	Person-Nominal 2690 2691	佛
+T274	Thing-Nominal 2680 2682	眸子
+T275	Person-Pronoun 2678 2679	她
+T276	Person-Pronoun 2666 2668	自己
+*	Coreference T276 T269 T275
+T277	Thing-Nominal 2686 2687	水
+T278	Person-Pronoun 2676 2677	我
+T279	Person-Pronoun 2750 2751	她
+T280	Person-Pronoun 2752 2754	自己
+T281	Person-Pronoun 2787 2788	她
+T282	Person-Pronoun 2812 2814	自己
+T283	Thing-Nominal 2820 2822	浮尘
+T284	Thing-Nominal 2837 2841	寒窗秋雨
+T285	Location-Pronoun 2859 2862	这些年
+T286	Location-Nominal 2845 2850	黄卷青灯下
+T287	Thing-Nominal 2876 2878	禅房
+T288	Thing-Nominal 2886 2894	一条通往彼岸的路
+T289	Person-Nominal 2895 2896	佛
+T290	Person-Pronoun 2904 2905	她
+T291	Thing-Nominal 2922 2927	窗外的夕阳
+T292	Location-Nominal 2922 2924	窗外
+R28	Located Arg1:T291 Arg2:T292	
+T293	Thing-Nominal 2931 2934	铃铛果
+T294	Thing-Nominal 2937 2941	一层金光
+T295	Thing-Nominal 2942 2949	树梢的婆娑绿叶
+T296	Location-Nominal 2950 2952	风中
+R29	Located Arg1:T295 Arg2:T296	
+T297	Person-Nominal 2963 2965	工人
+T298	Location-Nominal 3049 3054	这片蓝天下
+T299	Location-Nominal 3027 3034	天堂和地狱之间
+T300	Person-Nominal 3021 3023	人们
+T301	Person-Pronoun 3000 3001	我
+T302	Person-Pronoun 2995 2996	我
+T303	Thing-Nominal 3062 3067	黄昏的晚钟
+T304	Time-Implicit 3059 3061	此刻
+T305	Thing-Nominal 3085 3087	大地
+T306	Thing-Nominal 3089 3091	天空
+T307	Person-Name 3121 3124	吕娅南
+T308	Time-Explicit 3125 3130	1982年
+T309	Organization-Name 3133 3142	青海师范大学中文系
+T310	Location-Name 3145 3147	南京
+T311	Person-Nominal 3148 3156	中国散文学会会员
+T312	Person-Nominal 3157 3166	江苏省作家协会会员
+T313	Time-Explicit 3167 3172	1981年
+T314	Time-Explicit 3182 3187	2010年
+T315	Person-Name 3218 3221	吕娅南

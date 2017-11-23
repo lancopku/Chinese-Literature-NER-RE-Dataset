@@ -1,0 +1,213 @@
+T1	Person-Pronoun 2156 2157	我
+T2	Thing-Nominal 2158 2160	鸟儿
+T3	Thing-Pronoun 2163 2165	它们
+*	Coreference T3 T2
+T4	Person-Pronoun 2186 2187	我
+T5	Thing-Pronoun 2193 2195	它们
+T6	Thing-Nominal 2188 2190	花儿
+*	Coreference T5 T6
+T7	Thing-Nominal 2220 2222	碧草
+T8	Thing-Nominal 2228 2230	黄鹂
+T9	Person-Name 2235 2239	(杜甫)
+T10	Thing-Nominal 2244 2245	鸟
+T11	Thing-Nominal 2240 2241	草
+T12	Thing-Nominal 2255 2257	白鹅
+T13	Thing-Pronoun 2260 2262	它们
+*	Coreference T13 T12
+T14	Person-Nominal 2274 2277;2278 2281	脚步匆 匆的人
+T15	Person-Pronoun 2285 2286	你
+T16	Thing-Nominal 2306 2308	碧草
+T17	Thing-Nominal 2312 2314	黄鹂
+T18	Person-Nominal 1984 1986	洋人
+T19	Person-Pronoun 1995 1996	我
+T20	Person-Nominal 1997 2000	门外汉
+*	Coreference T20 T19
+T21	Abstract 2021 2030;2031 2033	“三分治病，七分养 病”
+T22	Person-Pronoun 2048 2050	我们
+T23	Person-Pronoun 2074 2076	我们
+T24	Person-Pronoun 2119 2121	我们
+T25	Location-Nominal 1785 1788	小公园
+T26	Person-Pronoun 1791 1792	我
+T27	Location-Pronoun 1800 1801	它
+*	Coreference T27 T25
+T28	Person-Nominal 1821 1827	小公园里的人
+T29	Person-Nominal 1853 1858	悠闲的人们
+T30	Person-Nominal 1871 1873	女性
+T31	Person-Pronoun 1876 1878	她们
+T32	Thing-Nominal 1880 1887	色彩艳丽的服装
+R1	Ownership Arg1:T31 Arg2:T32	
+T33	Thing-Nominal 1906 1908	手臂
+R2	Part-Whole Arg1:T33 Arg2:T31	
+T34	Person-Pronoun 1913 1914	我
+T35	Thing-Nominal 1917 1919	眼睛
+R3	Part-Whole Arg1:T35 Arg2:T34	
+T36	Person-Pronoun 1920 1922	她们
+T37	Thing-Nominal 1924 1927	这棵树
+T38	Thing-Nominal 1930 1933	那棵树
+T39	Person-Pronoun 1941 1942	我
+T40	Person-Pronoun 1957 1958	我
+T41	Person-Pronoun 1499 1500	我
+T42	Location-Nominal 1502 1505	小公园
+T43	Person-Pronoun 1506 1507	我
+T44	Person-Nominal 1513 1515	别人
+T45	Thing-Nominal 1527 1531	一条小路
+T46	Location-Nominal 1533 1535	公园
+T47	Thing-Nominal 1546 1548	有的
+T48	Thing-Nominal 1551 1553	有的
+T49	Thing-Nominal 1590 1594	这样的路
+T50	Person-Nominal 1604 1607	设计者
+T51	Person-Pronoun 1611 1612	他
+T52	Person-Nominal 1614 1616	游者
+T53	Person-Pronoun 1658 1660	我们
+T54	Person-Nominal 1671 1673	自己
+T55	Person-Pronoun 1763 1764	我
+T56	Location-Nominal 1766 1769	小公园
+R4	Located Arg1:T45 Arg2:T46	
+R5	Social Arg1:T43 Arg2:T44	
+*	Coreference T53 T54
+T57	Thing-Nominal 1237 1240	花鸟树
+T58	Thing-Nominal 1246 1248	公园
+T59	Location-Nominal 1253 1256	小公园
+T60	Thing-Nominal 1260 1262	鲜花
+R6	Located Arg1:T60 Arg2:T59	
+T61	Thing-Nominal 1274 1283	一丛丛的各色小野花
+T62	Thing-Nominal 1284 1286	野花
+T63	Person-Pronoun 1314 1315	你
+T64	Thing-Nominal 1330 1331	花
+T65	Thing-Nominal 1340 1345	早开的梅花
+T66	Thing-Nominal 1346 1351	晚开的桂花
+T67	Thing-Nominal 1356 1358	梅花
+T68	Thing-Nominal 1361 1365	贴梗海棠
+T69	Thing-Nominal 1366 1369	白玉兰
+T70	Thing-Nominal 1373 1376	杜鹃花
+T71	Thing-Nominal 1370 1372	樱花
+T72	Thing-Nominal 1377 1379	枳花
+T73	Thing-Nominal 1384 1395	从春到秋一直开放的月季
+T74	Thing-Nominal 1396 1399	这些花
+T75	Thing-Nominal 1427 1429	枳花
+T76	Thing-Pronoun 1435 1436	它
+*	Coreference T76 T75 T77
+T77	Thing-Pronoun 1458 1459	它
+T78	Thing-Nominal 1467 1469	积雪
+T79	Person-Name 1475 1477;1478 1479	温庭 筠
+T80	Thing-Nominal 1482 1484	枳花
+T81	Thing-Nominal 1485 1487	驿墙
+R7	General-Special Arg1:T64 Arg2:T65	
+R8	General-Special Arg1:T64 Arg2:T66	
+R9	General-Special Arg1:T64 Arg2:T68	
+R10	General-Special Arg1:T64 Arg2:T69	
+R11	General-Special Arg1:T64 Arg2:T71	
+R12	General-Special Arg1:T64 Arg2:T70	
+R13	General-Special Arg1:T64 Arg2:T72	
+R14	Part-Whole Arg1:T73 Arg2:T74	
+T82	Thing-Nominal 814 815	树
+T83	Thing-Nominal 819 825	各种各样的鸟
+T84	Thing-Nominal 832 833	鸟
+T85	Thing-Pronoun 837 839	它们
+*	Coreference T85 T84
+T86	Person-Pronoun 868 869	我
+T87	Thing-Nominal 881 887	鸣声悦耳的鸟
+T88	Person-Pronoun 898 899	我
+T89	Thing-Pronoun 904 906	它们
+*	Coreference T89 T87
+T90	Thing-Pronoun 939 941	它们
+T91	Thing-Pronoun 965 967	它们
+T92	Person-Nominal 985 988	音乐家
+T93	Location-Nominal 998 1001	小公园
+T94	Location-Nominal 1003 1008	交通主干道
+T95	Location-Nominal 1010 1014	大渡河路
+*	Coreference T95 T94
+T96	Person-Pronoun 1015 1016	我
+T97	Thing-Nominal 1018 1019	书
+T98	Thing-Nominal 1030 1032	汽车
+T99	Person-Pronoun 1033 1034	我
+T100	Person-Pronoun 1052 1053	我
+T101	Thing-Nominal 1058 1060	鸟儿
+T102	Person-Pronoun 1066 1067	我
+T103	Thing-Nominal 1076 1080	涓涓山泉
+T104	Thing-Nominal 1082 1084	山泉
+T105	Person-Pronoun 1098 1099	我
+T106	Person-Name 1117 1120	白居易
+T107	Thing-Nominal 1112 1114	玉盘
+T108	Thing-Nominal 1107 1111	大珠小珠
+T109	Thing-Nominal 1130 1132	山泉
+T110	Thing-Nominal 1136 1140	它的岩石
+T111	Thing-Nominal 1172 1174	岩石
+T112	Thing-Nominal 1187 1191	悬崖峭壁
+T113	Thing-Nominal 1192 1194	山泉
+T114	Thing-Nominal 1216 1218	飞瀑
+T115	Location-Nominal 514 517	小公园
+T116	Thing-Nominal 520 524	矮小树种
+T117	Thing-Nominal 535 543	十几棵高大的树木
+T118	Thing-Nominal 546 550	几棵梧桐
+T119	Location-Nominal 553 560	一块方方的地盘
+T120	Thing-Nominal 562 573	中几个长长的大理石凳子
+T121	Thing-Nominal 577 581	一个凉亭
+T122	Person-Pronoun 587 588	我
+T123	Thing-Nominal 591 594	梧桐亭
+*	Coreference T123 T121
+T124	Thing-Nominal 595 598	梧桐树
+T125	Thing-Nominal 604 608	阵阵清风
+T126	Thing-Nominal 611 613	叶子
+T127	Thing-Nominal 634 635;636 640	北 边的樟树
+T128	Thing-Nominal 643 645	梧桐
+T129	Thing-Nominal 652 654	微风
+T130	Thing-Nominal 655 657	枝叶
+T131	Thing-Nominal 668 670	枝叶
+T132	Thing-Nominal 673 688	洒在地上的斑斑驳驳的妩媚的阳光
+T133	Person-Nominal 708 709	人
+T134	Person-Pronoun 720 721	我
+T135	Thing-Nominal 733 736	樟树亭
+T136	Person-Pronoun 737 738	我
+T137	Thing-Nominal 742 745	石凳子
+T138	Thing-Nominal 767 769	清风
+T139	Thing-Nominal 795 797	樟叶
+T140	Thing-Nominal 804 809	银川唐来渠
+T141	Location-Name 804 806	银川
+R15	Part-Whole Arg1:T131 Arg2:T127	
+T142	Thing-Nominal 214 215	树
+T143	Thing-Nominal 223 225	小河
+T144	Thing-Nominal 223 229	小河边的垂柳
+T145	Thing-Nominal 231 244	柔柔的长长的长满嫩叶的枝条
+R16	Part-Whole Arg1:T145 Arg2:T144	
+T146	Person-Nominal 273 277	大家闺秀
+T147	Thing-Nominal 294 295	水
+T148	Person-Name 312 314	雍陶
+T149	Thing-Nominal 316 322	翠绿色的湖水
+T150	Person-Name 365 368	柳宗元
+T151	Thing-Nominal 325 329	十只白鹅
+T152	Thing-Pronoun 353 355	它们
+*	Coreference T152 T151 T158
+T153	Thing-Nominal 370 375	它们的小屋
+T154	Thing-Pronoun 383 385	它们
+T155	Thing-Nominal 389 390	水
+T156	Thing-Nominal 395 397	清水
+T157	Person-Nominal 433 435	游人
+T158	Thing-Pronoun 436 438	它们
+T159	Thing-Nominal 448 449	箭
+T160	Person-Name 464 467	骆宾王
+T161	Person-Nominal 475 477	游人
+T162	Thing-Nominal 475 480	游人的食物
+T163	Thing-Nominal 484 486	双翅
+R17	Part-Whole Arg1:T163 Arg2:T158	
+T164	Thing-Nominal 488 490	树影
+T165	Person-Name 504 507	常建)
+T166	Location-Nominal 0 4	我家北面
+T167	Thing-Nominal 5 13	数十米宽的绿化带
+T168	Metric 5 9	数十米宽
+T169	Thing-Nominal 16 19	绿化带
+T170	Location-Nominal 23 28	伟陇度假村
+T171	Organization-Name 39 42	公安局
+T172	Location-Nominal 49 55	开放式小公园
+T173	Location-Nominal 56 59	小公园
+T174	Person-Nominal 74 78	百八十人
+T175	Location-Pronoun 93 94	它
+*	Coreference T175 T172
+T176	Person-Pronoun 96 97	我
+T177	Thing-Nominal 102 105	小公园
+T178	Thing-Nominal 131 132	树
+T179	Thing-Nominal 143 144	树
+T180	Location-Nominal 168 172	长风公园
+T181	Person-Nominal 173 174	人
+T182	Thing-Nominal 177 178	树
+T183	Location-Nominal 185 188	小公园

@@ -1,0 +1,270 @@
+T1	Thing-Nominal 5 9	彭州古镇
+T2	Thing-Nominal 0 4	西蜀名山
+T3	Thing-Nominal 10 11	星
+T4	Thing-Nominal 12 13	井
+T5	Thing-Nominal 15 16	地
+T6	Thing-Nominal 17 18	蚕
+T7	Location-Name 21 23	湔江
+T8	Location-Name 29 31	西山
+T9	Thing-Nominal 25 27	官渠
+T10	Location-Name 0 2	西蜀
+R1	Located Arg1:T2 Arg2:T10	
+T11	Location-Name 5 7	彭州
+R2	Located Arg1:T1 Arg2:T11	
+T12	Location-Name 33 35	茂汶
+T13	Thing-Nominal 36 40	葛仙山镇
+T14	Time-Explicit 42 45	东汉末
+T15	Metric 50 53	二千岁
+T16	Thing-Nominal 56 58	峰岩
+T17	Metric 69 72	二亿年
+T18	Time-Explicit 61 64	二叠纪
+T20	Location-Name 80 84	三星遗址
+T21	Location-Name 87 90	葛仙山
+T22	Thing-Nominal 92 96	地质奇观
+R3	Located Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 75 78	野鸭河
+R4	Located Arg1:T23 Arg2:T20	
+T19	Thing-Nominal 99 101	峰丛
+T24	Thing-Nominal 108 114	八十一洞奇景
+T25	Location-Name 108 112	八十一洞
+R5	Located Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 115 119	冰川漂砾
+T27	Location-Name 120 121;122 123	青 藏
+T28	Thing-Nominal 127 131	二十四峰
+T29	Person-Name 146 148	王勃
+T30	Person-Name 148 150	调元
+T31	Location-Name 155 157	葛山
+T32	Person-Nominal 163 169	皓灵五老真人
+T33	Person-Nominal 134 136	葛仙
+T34	Person-Nominal 136 138	蒲仙
+T35	Person-Nominal 138 140	阳仙
+T36	Location-Nominal 141 143	仙山
+T37	Location-Nominal 159 162	仙峰上
+T38	Thing-Nominal 171 172	剑
+T40	Metric 190 192	剑剑
+T41	Location-Nominal 196 200	蓬莱仙境
+T42	Person-Nominal 201 207	芙蓉莲花圣母
+T43	Thing-Nominal 208 209	丹
+T44	Metric 227 229	丹丹
+T45	Thing-Nominal 233 235	青龙
+T46	Thing-Nominal 235 237	黑龙
+T47	Thing-Nominal 237 239	石龙
+T48	Thing-Nominal 239 241	黄龙
+T49	Thing-Nominal 241 243	鸟龙
+T39	Thing-Nominal 173 182;183 189	紫霄青灵紫云清和松 阳清溪玉霄剑
+T50	Thing-Nominal 211 226	黄龙安和聚雁通明白云白石仙子丹
+T51	Person-Nominal 245 247	仙翁
+T52	Thing-Nominal 250 251	云
+T53	Thing-Nominal 252 253	雨
+T54	Person-Nominal 258 260	仙女
+T55	Location-Nominal 266 268	桃园
+T56	Metric 269 271	洞洞
+T57	Person-Nominal 271 273	仙家
+T58	Person-Nominal 274 275	人
+T59	Person-Nominal 279 281	百姓
+T60	Thing-Nominal 283 285	楠木
+T61	Thing-Nominal 286 287	荫
+T62	Person-Nominal 290 292	百姓
+T63	Person-Nominal 288 292	一方百姓
+R6	General-Special Arg1:T63 Arg2:T62	
+T64	Person-Nominal 298 302	四方黎民
+T65	Person-Nominal 300 302	黎民
+R7	General-Special Arg1:T64 Arg2:T65	
+T66	Metric 293 295	万年
+T67	Location-Nominal 303 306	楠木场
+T68	Thing-Nominal 309 311	铜壶
+T69	Time-Implicit 313 315	五更
+T70	Thing-Nominal 311 313	鱼钥
+T71	Thing-Nominal 317 318	箭
+T72	Thing-Nominal 319 320	江
+T73	Thing-Nominal 352 356	风雨廊桥
+T74	Thing-Nominal 363 364	河
+T75	Thing-Nominal 358 360	鸭子
+T76	Thing-Nominal 365 369	塔形字库
+T77	Thing-Nominal 371 373	篙杆
+T78	Thing-Nominal 379 380	水
+T79	Location-Nominal 381 383	古镇
+T80	Location-Name 397 400	葛仙山
+T81	Thing-Nominal 402 403	山
+T82	Time-Explicit 390 392	唐时
+T83	Thing-Nominal 392 394	木头
+T84	Person-Nominal 405 407	人丁
+T85	Thing-Nominal 407 408	水
+T86	Metric 415 417	路路
+T87	Metric 423 425	路路
+T88	Location-Nominal 429 432	万红路
+T89	Location-Nominal 433 437	蒲沟张泉
+T91	Location-Nominal 438 441	红岩子
+T90	Location-Nominal 442 445	万白路
+T94	Location-Nominal 451 454	河坝场
+T95	Location-Nominal 455 459	葛仙山镇
+T96	Person-Nominal 460 461	人
+T97	Thing-Nominal 462 463	地
+T98	Metric 471 473	千年
+T99	Thing-Nominal 473 475	古塔
+T100	Location-Nominal 478 481	宝头寺
+T101	Metric 483 485	百载
+T102	Thing-Nominal 485 487	牌坊
+T103	Location-Nominal 490 493	古官桑
+T104	Person-Name 495 497	李特
+T105	Location-Nominal 502 505	老熙林
+T106	Person-Name 507 509	云鹄
+T107	Thing-Nominal 509 510	石
+T108	Thing-Nominal 512 513	碑
+T109	Person-Name 514 517	李闯王
+T110	Thing-Nominal 522 523	尺
+T111	Time-Explicit 532 533	汉
+T112	Person-Name 533 535	刘秀
+T113	Location-Name 538 541	观音泉
+T114	Person-Nominal 544 546	后人
+T115	Location-Name 549 552	白果庵
+T116	Metric 552 554	千年
+T117	Thing-Name 554 556	银杏
+T118	Location-Name 560 563	葛仙山
+T119	Metric 563 565	亿岁
+T120	Thing-Name 565 567	岩石
+T121	Thing-Nominal 571 578	葛仙山地质奇观
+T122	Location-Name 571 574	葛仙山
+R8	Located Arg1:T121 Arg2:T122	
+T123	Thing-Nominal 552 556	千年银杏
+T124	Thing-Nominal 563 567	亿岁岩石
+R9	Located Arg1:T124 Arg2:T118	
+R10	Located Arg1:T123 Arg2:T115	
+T125	Location-Name 583 586	熙林院
+T126	Location-Name 591 593	彭州
+T127	Location-Name 596 599	花园村
+T128	Thing-Nominal 601 603	李花
+T129	Thing-Nominal 602 603	花
+R11	General-Special Arg1:T128 Arg2:T129	
+T130	Location-Name 586 587;588 591	摩 岩造字
+R12	Near Arg1:T130 Arg2:T125	
+T131	Location-Name 607 610	熙玉园
+T132	Thing-Nominal 612 614	桃林
+T133	Thing-Nominal 613 614	林
+R13	General-Special Arg1:T132 Arg2:T133	
+T134	Location-Nominal 618 621	桃花源
+T135	Thing-Nominal 624 626	野味
+T136	Thing-Nominal 627 628	凤
+T137	Thing-Nominal 632 634	青松
+T138	Location-Nominal 638 641	白杨湾
+T139	Thing-Nominal 644 646	芙蓉
+T140	Location-Nominal 647 648;649 650	花 园
+R14	Located Arg1:T139 Arg2:T138	
+R15	Part-Whole Arg1:T140 Arg2:T138	
+T141	Location-Nominal 651 654	花拱桥
+T142	Location-Nominal 659 663	熙玉花园
+T143	Metric 664 666	沟沟
+T144	Thing-Nominal 666 668	绿树
+T145	Thing-Nominal 669 670	阴
+T146	Thing-Nominal 671 673	瓜果
+T147	Location-Nominal 676 680	楠新乐江
+T148	Metric 681 683	处处
+T149	Thing-Nominal 687 689	蔬菜
+T150	Thing-Nominal 683 685	阡陌
+T151	Location-Nominal 692 694	华南
+T152	Thing-Nominal 696 698	烟叶
+T153	Thing-Nominal 700 702	薄膜
+R16	Located Arg1:T144 Arg2:T142	
+R17	Located Arg1:T146 Arg2:T142	
+R18	Located Arg1:T149 Arg2:T147	
+R19	Located Arg1:T150 Arg2:T147	
+R20	Located Arg1:T152 Arg2:T151	
+R21	Located Arg1:T153 Arg2:T151	
+T154	Thing-Nominal 710 712	大蒜
+T155	Thing-Nominal 724 726	泉水
+T156	Thing-Nominal 719 721	山泉
+T157	Location-Name 721 724	筛子泉
+R22	Located Arg1:T155 Arg2:T157	
+R23	Located Arg1:T156 Arg2:T157	
+T158	Thing-Nominal 728 730	土地
+T160	Thing-Nominal 740 742	山梁
+T161	Thing-Nominal 732 733	泉
+T159	Thing-Nominal 736 738	沟溪
+T162	Location-Nominal 733 736	涌泉沟
+T163	Person-Nominal 743 746	夏蛮王
+T164	Person-Nominal 750 752	县官
+T165	Person-Nominal 757 760	葛仙翁
+T166	Thing-Nominal 772 775	乌龟坟
+T167	Location-Nominal 787 790	中正寺
+T168	Thing-Nominal 775 778	杨家碾
+T169	Thing-Nominal 790 793	燕子窝
+T170	Thing-Nominal 778 780	响碑
+T171	Thing-Nominal 793 795	玉河
+T172	Location-Name 802 805	大曲村
+T173	Thing-Nominal 807 809	红旗
+T174	Person-Nominal 812 814	农民
+T175	Thing-Nominal 817 819	山野
+T176	Person-Nominal 820 823	葛仙翁
+T177	Person-Nominal 834 836	黎民
+T178	Person-Nominal 843 844	众
+T179	Organization-Nominal 838 840	党委
+T180	Organization-Nominal 850 852	政府
+T181	Thing-Nominal 858 861	新农村
+T182	Location-Nominal 859 861	农村
+T183	Thing-Nominal 863 864	园
+T184	Thing-Nominal 865 866	山
+T185	Thing-Nominal 867 869	基地
+T186	Metric 862 864	一园
+T187	Metric 864 866	一山
+T188	Metric 866 869	三基地
+T189	Thing-Nominal 880 883	巡逻队
+T190	Person-Nominal 890 892	刘氏
+T191	Thing-Nominal 892 894	鼓业
+T192	Thing-Nominal 896 898	报纸
+T193	Location-Name 900 902	葛山
+T194	Thing-Nominal 909 910	舟
+T195	Thing-Nominal 911 912	诗
+T196	Thing-Nominal 914 918	故乡小河
+T197	Location-Nominal 914 916	故乡
+R24	Located Arg1:T196 Arg2:T197	
+T198	Thing-Nominal 921 923	书法
+T199	Person-Nominal 924 926	老人
+T200	Location-Nominal 931 934	敬老院
+T201	Person-Nominal 934 936	老人
+T202	Location-Nominal 943 946	幸福院
+T203	Person-Nominal 946 948	残儿
+R25	Ownership Arg1:T201 Arg2:T200	
+R26	Ownership Arg1:T203 Arg2:T202	
+T204	Location-Name 954 958	葛仙山镇
+T205	Time-Implicit 972 977	改革三十年
+T206	Thing-Nominal 977 979	镇貌
+T207	Location-Nominal 977 978	镇
+R27	Located Arg1:T206 Arg2:T207	
+T208	Location-Nominal 992 994	乡村
+T209	Location-Nominal 1004 1006	田园
+T210	Thing-Nominal 1007 1008	花
+T211	Thing-Nominal 1008 1011	农家乐
+T212	Thing-Nominal 1011 1012	雨
+T213	Thing-Nominal 1013 1014;1015 1016	春 笋
+T214	Person-Nominal 1032 1033	人
+T215	Metric 1043 1045	万民
+T216	Person-Nominal 1044 1045	民
+T217	Thing-Nominal 1051 1052	粮
+T218	Thing-Name 1053 1054	猪
+T219	Metric 1058 1060	千年
+T220	Thing-Nominal 1060 1062	农税
+T221	Thing-Nominal 1061 1062	税
+R28	General-Special Arg1:T220 Arg2:T221	
+T222	Thing-Nominal 1067 1069	基地
+T223	Thing-Nominal 1071 1072	河
+T224	Thing-Nominal 1079 1080	城
+T225	Abstract 1088 1091	十八大
+T226	Thing-Nominal 1092 1094	东风
+T227	Metric 1096 1099	三十年
+T228	Thing-Nominal 1100 1102	步伐
+T229	Abstract 1110 1112	小康
+R29	Social Arg1:T33 Arg2:T35	
+R30	Social Arg1:T34 Arg2:T33	
+R31	Social Arg1:T34 Arg2:T35	
+R32	Near Arg1:T80 Arg2:T79	
+R33	Near Arg1:T88 Arg2:T89	
+R34	Near Arg1:T89 Arg2:T91	
+T92	Location-Nominal 446 450	花园葛山
+R35	Near Arg1:T90 Arg2:T92	
+R36	Near Arg1:T92 Arg2:T94	
+R37	Ownership Arg1:T96 Arg2:T95	
+R38	Located Arg1:T97 Arg2:T95	
+R39	Located Arg1:T99 Arg2:T95	
+R40	Ownership Arg1:T174 Arg2:T172	
+R41	Located Arg1:T169 Arg2:T167	
+R42	Located Arg1:T171 Arg2:T167	

@@ -1,0 +1,116 @@
+T1	Location-Name 4 6	江南
+T2	Thing-Pronoun 11 12	它
+T3	Location-Name 26 28	江南
+T4	Person-Pronoun 45 46	你
+T5	Location-Name 48 50	江南
+T6	Thing-Nominal 50 57	这块神奇的沃土
+T7	Person-Pronoun 60 61	你
+T8	Thing-Nominal 76 79	绿的山
+T9	Thing-Nominal 80 83	绿的水
+T10	Thing-Nominal 84 89	绿色的田野
+T11	Thing-Nominal 90 95	绿色的荷塘
+T12	Location-Nominal 98 100	周围
+T13	Thing-Nominal 114 121	一片绿色的海洋
+T14	Person-Nominal 128 130	世人
+T15	Thing-Nominal 123 126	这片海
+T16	Person-Nominal 153 157	文人雅士
+T17	Thing-Nominal 215 216	风
+T18	Thing-Nominal 207 213	那漫山的竹海
+T19	Thing-Nominal 219 221	绿浪
+T20	Location-Name 170 172	江南
+T21	Thing-Nominal 175 180	群山与松柏
+R1	Located Arg1:T21 Arg2:T20	
+T22	Thing-Pronoun 191 192	它
+T23	Thing-Nominal 193 206	辽阔的森林植物园和天然氧吧
+T24	Thing-Nominal 227 228;229 237	绿 阴深处的白墙瓦房
+T25	Location-Nominal 227 228;229 232	绿 阴深处
+R2	Located Arg1:T24 Arg2:T25	
+T26	Thing-Nominal 241 253	那绿海中扬起的帆船与灯塔
+T27	Thing-Nominal 256 258	原野
+T28	Thing-Nominal 265 267	峰峦
+T29	Thing-Pronoun 281 282	它
+T30	Person-Nominal 283 294	一个憨厚壮实的江南汉子
+*	Coreference T29 T27
+T31	Thing-Nominal 297 299	双臂
+T32	Thing-Nominal 302 304	胸膛
+T33	Person-Nominal 306 308	农人
+T34	Person-Nominal 311 313	村妇
+T35	Thing-Nominal 314 315	桑
+T36	Person-Nominal 317 319	牧童
+T37	Thing-Nominal 322 324	牛羊
+T38	Person-Nominal 334 336	农人
+T39	Thing-Nominal 337 339	镜子
+T40	Location-Nominal 341 344	水田里
+T41	Person-Pronoun 345 346	你
+T42	Person-Pronoun 347 348	我
+T43	Thing-Nominal 416 426	黄山的松、石、云、瀑
+T44	Thing-Nominal 416 418	黄山
+T45	Thing-Nominal 438 445	(黄山)迎客松
+T46	Thing-Nominal 450 463	悬崖峭壁中大大小小的黄山松
+T47	Location-Nominal 450 455	悬崖峭壁中
+R3	Located Arg1:T46 Arg2:T47	
+T48	Thing-Pronoun 477 479	它们
+*	Coreference T48 T46
+T49	Location-Name 528 530	江南
+T50	Thing-Nominal 533 542	好山，好水，好地方
+R4	Located Arg1:T50 Arg2:T49	
+T51	Thing-Nominal 554 558	桂林山水
+T52	Thing-Nominal 544 551	黄山情侣太平湖
+T53	Thing-Nominal 562 570	一湖翡翠般的绿水
+T54	Person-Nominal 579 580	人
+T55	Thing-Pronoun 586 587	你
+*	Coreference T55 T53
+T56	Person-Nominal 589 598	一个美丽的绿衣仙子
+T57	Person-Nominal 602 604;605 607	八方 游客
+T58	Person-Nominal 612 614	众人
+T59	Person-Pronoun 615 616	你
+T60	Person-Pronoun 621 622	你
+T61	Thing-Nominal 626 628	笑脸
+T62	Thing-Nominal 634 636	碧波
+T63	Thing-Nominal 631 633	珍珠
+T64	Thing-Nominal 641 646	澄澈的湖水
+T65	Thing-Nominal 647 652	千层的绿浪
+T66	Person-Nominal 656 659	江南人
+T67	Location-Name 674 676	江南
+T68	Thing-Nominal 687 689	绿茶
+T69	Thing-Nominal 682 684	翠荷
+T70	Thing-Nominal 691 693	杨柳
+T71	Thing-Nominal 698 700	绿桂
+T72	Thing-Nominal 723 724	田
+T73	Thing-Nominal 725 726	房
+T74	Thing-Nominal 727 729	森林
+T75	Location-Name 734 736	江南
+T76	Thing-Nominal 736 740	这块绿洲
+T77	Person-Pronoun 780 781	我
+T78	Person-Pronoun 810 811	我
+T79	Thing-Nominal 827 829	雾霾
+T80	Thing-Nominal 834 835	树
+T81	Thing-Nominal 836 837	林
+T82	Thing-Nominal 847 851	这块绿洲
+T83	Location-Name 845 847	江南
+T84	Location-Nominal 863 867	万里北国
+T85	Metric 868 870	千里
+T86	Location-Nominal 871 873	南疆
+T87	Location-Name 877 879	江南
+T88	Location-Name 888 890	江南
+T89	Location-Name 893 895	江南
+T90	Thing-Nominal 895 902	这块神奇的土地
+T91	Person-Nominal 908 917	文人雅士和英雄豪杰
+T92	Person-Nominal 934 935;936 938	江 南人
+T93	Person-Nominal 960 963	江南人
+T94	Person-Pronoun 958 959	我
+T95	Person-Pronoun 964 965	我
+T96	Person-Pronoun 973 974	我
+T97	Person-Pronoun 975 977	自己
+*	Coreference T97 T96
+T98	Thing-Nominal 979 983	一棵绿树
+T99	Thing-Nominal 984 988	一片绿叶
+T100	Thing-Pronoun 995 997	自己
+T101	Thing-Nominal 1014 1018;1019 1020	那绿的江 南
+T102	Thing-Nominal 797 799	绿洲
+*	Coreference T100 T99
+T103	Location-Nominal 991 993	绿洲
+R5	Located Arg1:T99 Arg2:T103	
+T104	Metric 921 924	几千年
+T105	Location-Name 544 546	黄山
+R6	Located Arg1:T52 Arg2:T105	

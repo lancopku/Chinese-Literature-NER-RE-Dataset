@@ -1,0 +1,118 @@
+T1	Thing-Nominal 5 8	玉兰花
+T2	Thing-Nominal 24 26	玉兰
+T3	Thing-Nominal 30 32	土壤
+R1	Located Arg1:T2 Arg2:T3	
+T4	Person-Nominal 61 63	观者
+T5	Thing-Nominal 75 78	玉兰花
+T6	Thing-Nominal 118 120	花苞
+T7	Thing-Nominal 148 151	小蜜蜂
+T8	Thing-Nominal 165 168	玉兰花
+T9	Thing-Nominal 192 194	花儿
+T10	Person-Nominal 213 215	仙女
+T11	Thing-Nominal 225 228	玉兰花
+T12	Person-Nominal 238 240	少女
+T13	Person-Nominal 260 262	少女
+T14	Thing-Nominal 278 281	玉兰花
+T15	Thing-Nominal 294 297	玉兰花
+T16	Thing-Nominal 307 310	玉兰花
+T17	Person-Nominal 316 318	大家
+T18	Thing-Nominal 350 353	玉兰花
+T19	Person-Nominal 363 366	赏花者
+T20	Thing-Nominal 371 374	玉兰花
+T21	Person-Nominal 382 390	北方的多数养花者
+T22	Thing-Nominal 394 396	玉兰
+T23	Thing-Nominal 448 450	玉兰
+T24	Location-Nominal 457 459	南方
+T25	Location-Nominal 464 466	北方
+T26	Thing-Nominal 473 475	土壤
+T27	Location-Nominal 496 498	南方
+T28	Location-Nominal 500 502	北方
+T29	Thing-Nominal 522 525	玉兰花
+T30	Location-Nominal 532 534	北方
+T31	Thing-Nominal 542 544	风雨
+T32	Thing-Nominal 552 554	枝芽
+T33	Thing-Nominal 564 566	主干
+T34	Thing-Nominal 605 608	玉兰花
+T35	Thing-Nominal 622 624	树枝
+T36	Thing-Nominal 632 633;634 635	花 朵
+T37	Thing-Nominal 661 664	玉兰花
+T38	Person-Nominal 710 712	女孩
+T39	Thing-Nominal 725 728	玉兰花
+T40	Thing-Nominal 731 732	枝
+T41	Thing-Nominal 745 747	芽苞
+T42	Thing-Nominal 756 758	叶子
+T43	Thing-Nominal 763 766	玉兰花
+T44	Thing-Nominal 792 795	玉兰花
+T45	Thing-Nominal 800 802	草木
+T46	Thing-Nominal 805 806	人
+T47	Thing-Nominal 808 811	;草木
+T48	Thing-Nominal 814 815	人
+T49	Thing-Nominal 820 822	玉兰
+T50	Person-Nominal 834 836	主人
+R2	Ownership Arg1:T50 Arg2:T49	
+T51	Thing-Nominal 846 848	土壤
+T52	Person-Nominal 853 855	主人
+T53	Person-Nominal 865 867	土壤
+T54	Thing-Nominal 887 889	屏风
+T55	Thing-Nominal 891 893	花儿
+T56	Person-Nominal 897 899	主人
+T57	Thing-Nominal 907 909	玉兰
+R3	Ownership Arg1:T56 Arg2:T57	
+T58	Thing-Nominal 917 919	花儿
+T59	Person-Nominal 923 925	主人
+T60	Thing-Nominal 934 936	玉兰
+T61	Person-Nominal 944 946	主人
+T62	Thing-Nominal 960 963	玉兰花
+T63	Thing-Nominal 975 977	玉兰
+T64	Thing-Nominal 986 988	玉兰
+T65	Thing-Nominal 1018 1020	高树
+T66	Thing-Nominal 1054 1056	玉兰
+T67	Thing-Nominal 1166 1168	玉兰
+T68	Thing-Nominal 1201 1202	鸟
+T69	Thing-Nominal 1181 1182	花
+T70	Person-Nominal 1226 1228	路人
+T71	Person-Nominal 1268 1270	主人
+T72	Thing-Nominal 1271 1273	玉兰
+R4	Ownership Arg1:T71 Arg2:T72	
+T73	Thing-Nominal 1282 1284	玉兰
+T74	Person-Nominal 1289 1291	众人
+T75	Thing-Nominal 1300 1303	玉兰花
+T76	Time-Implicit 0 1	春
+T77	Thing-Nominal 50 52	花朵
+T78	Thing-Nominal 56 57	玉
+R5	Part-Whole Arg1:T77 Arg2:T2	
+T79	Thing-Nominal 87 89	笑脸
+T80	Thing-Pronoun 152 154	它们
+*	Coreference T80 T7
+T81	Thing-Nominal 209 212	白裙子
+R6	Ownership Arg1:T10 Arg2:T81	
+T82	Person-Nominal 220 222	路人
+T83	Thing-Nominal 223 224	手
+R7	Part-Whole Arg1:T83 Arg2:T10	
+T84	Thing-Nominal 415 416	根
+R8	Part-Whole Arg1:T84 Arg2:T22	
+T85	Thing-Nominal 422 424	肉根
+T86	Thing-Pronoun 613 614	它
+*	Coreference T86 T34
+T87	Thing-Nominal 617 619	花木
+T88	Thing-Nominal 704 708	白色上衣
+R9	Ownership Arg1:T38 Arg2:T88	
+T89	Time-Implicit 721 724	花开前
+T90	Thing-Nominal 721 722	花
+*	Coreference T90 T39
+T91	Time-Implicit 748 751	花落后
+T92	Thing-Nominal 748 749	花
+R10	Located Arg1:T41 Arg2:T40	
+R11	Located Arg1:T42 Arg2:T40	
+T93	Person-Nominal 875 877	主人
+T94	Thing-Nominal 938 939	枝
+T95	Thing-Nominal 940 941	叶
+R12	Part-Whole Arg1:T94 Arg2:T60	
+R13	Part-Whole Arg1:T95 Arg2:T60	
+T96	Thing-Nominal 949 951	玉兰
+R14	Ownership Arg1:T61 Arg2:T96	
+T97	Thing-Nominal 1013 1015	飞瀑
+T98	Thing-Nominal 1028 1029	山
+T99	Thing-Nominal 1031 1032	水
+T100	Person-Nominal 1134 1136	自己
+T101	Thing-Nominal 1191 1192	天

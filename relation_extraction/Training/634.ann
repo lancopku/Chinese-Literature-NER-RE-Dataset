@@ -1,0 +1,113 @@
+T1	Person-Name 2618 2621	司马迁
+T2	Person-Nominal 2625 2626	人
+T3	Thing-Nominal 2634 2636	泰山
+T4	Thing-Nominal 2640 2642	鸿毛
+T5	Person-Name 3019 3022	季羡林
+T6	Abstract 3023 3029	《阅世心语》
+T7	Person-Name 3058 3062	圣人庄周
+T8	Person-Pronoun 3074 3075	我
+T9	Person-Pronoun 3079 3080	我
+T10	Person-Pronoun 3084 3085	我
+T11	Person-Pronoun 3089 3090	我
+T12	Person-Pronoun 3095 3096	他
+*	Coreference T12 T7
+T13	Person-Nominal 3152 3154	生者
+T14	Person-Nominal 3157 3159	死者
+T15	Person-Nominal 3199 3201	禅师
+T16	Person-Nominal 3206 3208	天子
+T17	Person-Nominal 3211 3213	王侯
+T18	Person-Nominal 3274 3280	我等凡夫俗子
+T19	Person-Nominal 2784 2788	古代帝王
+T20	Person-Nominal 72 76	芸芸众生
+T21	Location-Nominal 127 132	妇产科医院
+T22	Location-Nominal 133 136	殡仪馆
+T23	Person-Nominal 141 142	人
+T24	Person-Nominal 172 174	亲属
+T25	Person-Pronoun 288 289	我
+T26	Person-Nominal 293 297	人间大众
+T27	Person-Nominal 299 306	正剧和喜剧演员
+T28	Person-Nominal 347 351	不少的人
+T29	Person-Nominal 364 380	一切有人性凭良心爱智慧求定力的人
+T30	Person-Nominal 437 441	人渣歹徒
+T31	Person-Nominal 444 453	心存善良懂得天理者
+T32	Person-Nominal 476 480	人类先祖
+T33	Person-Nominal 523 533	飞扬跋扈、巧取豪夺者
+T34	Person-Nominal 538 541	一个个
+*	Coreference T34 T33
+T35	Person-Nominal 609 610;611 622	那 些心狠手毒、为非作歹的
+T36	Person-Nominal 626 628	别人
+T37	Person-Pronoun 632 634	他们
+T38	Person-Name 664 667	希特勒
+T39	Person-Name 668 671;672 673	东条英 机
+T40	Person-Nominal 664 671;672 680	希特勒、东条英 机之类的战争罪犯
+*	Coreference T37 T35
+T41	Person-Nominal 697 716	欺行霸市的黑恶势力、凶杀暴乱的犯罪分子
+T42	Person-Nominal 717 718	谁
+T43	Person-Nominal 736 737	人
+T44	Person-Nominal 874 877	全人类
+T45	Thing-Nominal 902 904	白驹
+T46	Person-Pronoun 970 971	你
+T47	Person-Nominal 1035 1037	好人
+T48	Person-Nominal 1056 1058	人类
+T49	Person-Pronoun 1089 1090	我
+T50	Person-Nominal 1094 1097	一个人
+T51	Person-Name 1106 1111	已故的鲁迅
+T52	Person-Name 1112 1115	钱学森
+T53	Person-Name 1116 1122	健在的袁隆平
+T54	Person-Nominal 1146 1148	人类
+T55	Person-Nominal 1161 1163	伟人
+T56	Person-Nominal 1167 1169	人们
+T57	Person-Nominal 1189 1193	芸芸众生
+T58	Person-Pronoun 1409 1411	我们
+T59	Person-Nominal 1472 1475	一个人
+T60	Person-Pronoun 1477 1478	他
+*	Coreference T60 T59
+T61	Person-Nominal 1505 1508	任何人
+T62	Person-Nominal 1545 1547	本人
+T63	Person-Nominal 1640 1649	有幸享受如此待遇者
+T64	Person-Nominal 1657 1661	民间大众
+T65	Person-Nominal 1670 1673	一个人
+T66	Person-Nominal 1749 1752	很多人
+T67	Person-Nominal 1774 1781	肇事的头号凶手
+T68	Thing-Nominal 1789 1792	显微镜
+T69	Person-Nominal 1799 1801	人类
+T70	Thing-Nominal 1806 1815	成千上万的隐形杀手
+T71	Thing-Nominal 1819 1829	各种各样的病菌和病毒
+*	Coreference T71 T70 T73
+T72	Person-Nominal 1832 1834	人类
+T73	Thing-Pronoun 1846 1848	它们
+T74	Person-Nominal 1874 1876	人类
+T75	Thing-Nominal 1911 1922	令人谈之色变的癌症肿瘤
+T76	Thing-Nominal 1923 1934	令人尴尬难堪的艾滋梅毒
+T77	Thing-Nominal 1935 1956;1957 1974	令人哭笑不得的以“三高”(高血压、高血脂、 高血糖)为害的心脑血管疾病和糖尿病
+T78	Abstract 1943 1956;1957 1961	“三高”(高血压、高血脂、 高血糖)
+T79	Abstract 1977 1983	《生命时报》
+T80	Person-Nominal 1992 1999	全世界死亡人数
+T81	Location-Name 2006 2008	美国
+T82	Person-Nominal 2013 2017;2018 2019	2400 人
+T83	Person-Nominal 2029 2043	每年死于脑卒中和心肌梗塞的人
+T84	Metric 2056 2059	12秒
+T85	Person-Nominal 2061 2064	一个人
+T86	Thing-Nominal 2066 2071	心脑血管病
+T87	Person-Nominal 2116 2125	许许多多无辜的生命
+T88	Thing-Nominal 2252 2255	冷兵器
+T89	Thing-Nominal 2246 2250	杀人武器
+T90	Thing-Nominal 2256 2259	热兵器
+T91	Thing-Nominal 2266 2280	将整个地球毁灭若干次的核武器
+T92	Location-Nominal 2287 2296	那个唯一的超级大国
+T93	Person-Nominal 2425 2434	全世界死于车祸的人
+T94	Person-Nominal 2504 2507	旁观者
+T95	Person-Nominal 2544 2546	英雄
+T96	Person-Nominal 2548 2550	美人
+T97	Person-Nominal 2552 2554	美人
+T98	Thing-Nominal 2556 2558	金钱
+T99	Person-Nominal 2564 2566	英雄
+T100	Person-Nominal 2568 2570	美人
+T101	Person-Nominal 2574 2578	所有的人
+T102	Person-Nominal 2688 2690	后者
+T103	Person-Nominal 2649 2651	前者
+T104	Person-Nominal 2761 2763	人类
+T105	Person-Nominal 2942 2946	“上帝”
+T106	Person-Nominal 2954 2964	“非上帝”的芸芸众生
+T107	Person-Nominal 2859 2862	一个人
+T108	Person-Nominal 3162 3163	人

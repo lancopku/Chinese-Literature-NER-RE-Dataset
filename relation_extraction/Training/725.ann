@@ -1,0 +1,53 @@
+T1	Person-Pronoun 0 1	你
+T2	Person-Pronoun 3 4	我
+T3	Thing-Nominal 14 16	彩蝶
+T4	Thing-Nominal 17 19	猎物
+T5	Thing-Nominal 28 30	牢笼
+T6	Person-Pronoun 42 43	我
+T7	Person-Pronoun 44 45	你
+T8	Person-Pronoun 53 55	自己
+*	Coreference T8 T7
+T9	Person-Nominal 80 83	倾听者
+T10	Person-Pronoun 84 85	你
+T11	Thing-Nominal 90 93	梧桐树
+T12	Person-Pronoun 107 108	我
+T13	Thing-Pronoun 113 114	你
+*	Coreference T13 T11 T14 T17
+T14	Thing-Pronoun 120 121	您
+T15	Thing-Nominal 191 193	肩膀
+R1	Part-Whole Arg1:T15 Arg2:T14	
+T16	Person-Nominal 360 361	人
+T17	Thing-Pronoun 383 384	你
+T18	Metric 397 399	一座
+T19	Thing-Nominal 399 400	山
+T20	Thing-Nominal 404 405	海
+T21	Person-Pronoun 475 476	你
+T22	Person-Pronoun 492 493	你
+*	Coreference T22 T21 T23
+T23	Person-Pronoun 540 542	自己
+T24	Person-Pronoun 607 608	我
+T25	Person-Pronoun 616 617	你
+T26	Thing-Nominal 631 634	暴风雨
+T27	Time-Implicit 638 642	于此同时
+T28	Location-Nominal 652 654	屋檐
+T29	Thing-Nominal 659 661	雨水
+T30	Thing-Pronoun 663 664	我
+T31	Thing-Nominal 673 674	血
+R2	Part-Whole Arg1:T31 Arg2:T30	
+T32	Person-Pronoun 682 683	你
+T33	Person-Pronoun 698 700	我们
+T34	Thing-Nominal 704 706	皱纹
+T35	Thing-Nominal 712 713	脸
+T36	Person-Pronoun 717 718	你
+T37	Person-Nominal 756 758	别人
+T38	Person-Pronoun 825 826	你
+T39	Person-Pronoun 836 837	我
+T40	Person-Pronoun 847 848	我
+T41	Thing-Nominal 849 854	弱小的身躯
+R3	Part-Whole Arg1:T41 Arg2:T40	
+T42	Person-Pronoun 857 858	我
+T43	Person-Pronoun 876 877	我
+T44	Person-Pronoun 888 889	我
+T45	Thing-Nominal 899 900	树
+T46	Thing-Nominal 902 904	枯木
+T47	Person-Pronoun 918 919	你

@@ -1,0 +1,376 @@
+T1	Thing-Nominal 0 2	阳光
+T2	Thing-Nominal 5 7	天空
+T3	Thing-Nominal 10 14	满塘荷花
+T4	Thing-Nominal 15 17	溪水
+T5	Thing-Nominal 20 22	屋宇
+T6	Thing-Nominal 25 27	鸟儿
+T7	Time-Implicit 67 69	史前
+T8	Location-Name 72 75	黄家庄
+T9	Thing-Nominal 79 81	土地
+T10	Thing-Nominal 88 90	山峦
+T11	Thing-Nominal 94 96	田野
+T12	Person-Pronoun 105 106	你
+T13	Person-Nominal 61 62	人
+T14	Thing-Nominal 166 167	天
+T15	Thing-Nominal 178 180	空气
+T16	Thing-Nominal 193 194	天
+T17	Person-Nominal 208 212	每一个人
+T18	Location-Nominal 228 231	晒谷场
+T19	Thing-Nominal 239 241	星辰
+T20	Location-Nominal 237 239	天上
+T21	Thing-Nominal 268 270	星星
+R1	Located Arg1:T19 Arg2:T20	
+T22	Person-Nominal 279 281	母亲
+T23	Person-Pronoun 282 283	我
+R2	Family Arg1:T23 Arg2:T22	
+T24	Person-Nominal 284 286	牛郎
+T25	Person-Nominal 287 289	织女
+T26	Thing-Nominal 296 298	星星
+T27	Person-Pronoun 299 301	我们
+T28	Person-Pronoun 314 315	我
+T29	Thing-Nominal 317 319	银河
+T30	Thing-Nominal 340 341	手
+T31	Thing-Nominal 351 353	星星
+T32	Person-Pronoun 355 356	我
+T34	Thing-Nominal 366 368	星星
+T35	Person-Pronoun 370 372	我们
+T36	Thing-Nominal 373 374	天
+T37	Location-Name 390 393	长寿畈
+T38	Thing-Nominal 399 404	一个山嘴子
+T40	Thing-Nominal 438 442	参天古木
+T41	Location-Name 448 449;450 452	黄 家庄
+T42	Person-Nominal 455 458	创始人
+T43	Person-Nominal 471 473	自己
+T44	Location-Nominal 484 488	仙山福地
+T45	Person-Nominal 492 494	族人
+T46	Location-Name 502 505	黄家庄
+T47	Location-Nominal 517 519	故乡
+T49	Person-Nominal 529 532	每个人
+T50	Time-Implicit 532 534	儿时
+T51	Location-Nominal 548 550	村庄
+T52	Location-Nominal 582 584	故乡
+T53	Person-Nominal 596 598	母亲
+T54	Person-Nominal 586 589	每个人
+T55	Person-Nominal 603 605	父亲
+R3	Family Arg1:T55 Arg2:T53	
+T56	Person-Nominal 610 612	乡亲
+R4	Social Arg1:T56 Arg2:T55	
+R5	Social Arg1:T56 Arg2:T53	
+T57	Location-Nominal 616 618	故乡
+T58	Location-Nominal 654 656	故乡
+T59	Thing-Nominal 658 665	一根无形的线绳
+T60	Person-Nominal 693 695	人们
+T61	Thing-Nominal 695 697	心房
+T62	Location-Name 713 716	黄家庄
+T63	Person-Pronoun 727 728	我
+T64	Person-Pronoun 738 739	我
+T65	Person-Nominal 742 744	乡亲
+T66	Person-Pronoun 752 753	我
+T67	Location-Nominal 767 769	村庄
+T68	Thing-Nominal 779 783	高墙深院
+T69	Thing-Nominal 787 791	古屋老宅
+T71	Thing-Nominal 861 868	普通的民居老宅
+T72	Thing-Nominal 869 879	城市现代化的高楼大厦
+T73	Thing-Nominal 889 893	一幢屋子
+T74	Person-Nominal 902 904	族人
+T75	Location-Nominal 916 918	村庄
+T76	Thing-Nominal 921 931	一棵若大无比的古樟树
+T77	Thing-Nominal 942 944	木瓜
+T78	Person-Nominal 953 955	六人
+T79	Thing-Nominal 957 959	臂膀
+R6	Ownership Arg1:T78 Arg2:T79	
+T80	Person-Nominal 964 970	村庄里的人们
+T81	Thing-Nominal 980 984	这棵古树
+T82	Time-Implicit 985 987	儿时
+T83	Person-Nominal 991 994	老人们
+T84	Thing-Nominal 998 1002	一棵神树
+T85	Person-Pronoun 1003 1004	你
+T86	Thing-Pronoun 1017 1018	它
+T87	Thing-Pronoun 1023 1024	它
+*	Coreference T86 T84
+T88	Person-Pronoun 1029 1030	你
+T89	Person-Nominal 1035 1037;1038 1039	老人 们
+T91	Thing-Nominal 1095 1098	古樟树
+T92	Thing-Nominal 1123 1126	古樟树
+T93	Person-Pronoun 1133 1134	我
+T94	Person-Pronoun 1142 1143	我
+T95	Thing-Nominal 1158 1159;1160 1162	古 樟树
+T96	Thing-Nominal 1169 1171	古樟
+T97	Thing-Nominal 1176 1180	几棵小树
+T98	Thing-Nominal 1181 1193	一种可结木瓜果的藤状植物
+T99	Thing-Nominal 1195 1198	古樟树
+T100	Thing-Nominal 1226 1229	古樟树
+T101	Thing-Nominal 1244 1249	绝妙的大树
+T103	Location-Nominal 1260 1262	村子
+T104	Thing-Nominal 1273 1274	山
+T105	Thing-Nominal 1278 1282	一道围屏
+T106	Location-Nominal 1285 1289	一个盆地
+T107	Location-Name 1290 1293	黄家庄
+T108	Time-Implicit 1300 1302	白天
+T109	Location-Nominal 1307 1309	山岚
+R7	Near Arg1:T107 Arg2:T109	
+T110	Location-Nominal 1317 1319	村庄
+T111	Time-Implicit 1320 1322	中午
+T112	Person-Nominal 1329 1330	人
+T113	Thing-Nominal 1322 1324	日轮
+T114	Location-Name 1363 1365;1366 1367	黄家 庄
+T115	Thing-Nominal 1384 1387	古樟树
+T116	Location-Nominal 1390 1395	一座土地庙
+T117	Location-Nominal 1399 1402	土地庙
+T118	Location-Nominal 1404 1408	南方乡村
+T119	Person-Nominal 1427 1432	村庄老人们
+T120	Person-Pronoun 1434 1436	我们
+T121	Person-Nominal 1438 1440	后人
+*	Coreference T121 T120
+T122	Person-Nominal 1449 1452	乡村人
+T123	Location-Name 1465 1468	黄家庄
+T124	Thing-Nominal 2642 2644	稻米
+T126	Thing-Nominal 2661 2663	石头
+T127	Metric 2667 2672	二十多公分
+T128	Thing-Nominal 2673 2674	槽
+T129	Thing-Nominal 2687 2694	一个固定的支柱
+T130	Thing-Nominal 2695 2702	一根长长的杆子
+T131	Thing-Nominal 2704 2713	两个圆形的石头轮子
+T132	Thing-Nominal 2721 2723	稻谷
+T133	Thing-Nominal 2725 2727	辗槽
+T134	Thing-Nominal 2730 2731	牛
+T135	Thing-Nominal 2733 2737	石轮架子
+T136	Location-Nominal 2751 2753	辗屋
+T137	Location-Nominal 2762 2764	辗屋
+T138	Thing-Nominal 2780 2787	一只红腹的小鸟
+T139	Location-Nominal 2788 2790	辗屋
+T140	Person-Pronoun 2800 2801	我
+T141	Thing-Nominal 2794 2797	一棵树
+R9	Located Arg1:T138 Arg2:T141	
+T142	Person-Pronoun 2812 2813	我
+T143	Person-Pronoun 2819 2820	我
+T144	Thing-Pronoun 2841 2842	它
+T145	Thing-Nominal 2847 2849	小鸟
+T146	Person-Pronoun 2850 2851	我
+T147	Thing-Pronoun 2854 2855	它
+T148	Person-Pronoun 2874 2875	我
+T149	Thing-Nominal 2879 2881	树枝
+T150	Person-Pronoun 2887 2888	我
+T151	Thing-Nominal 2894 2896	手机
+R10	Use Arg1:T150 Arg2:T151	
+T152	Thing-Nominal 2903 2905	枝桠
+T153	Thing-Pronoun 2908 2909	它
+T154	Thing-Pronoun 2913 2914	它
+*	Coreference T145 T147
+T155	Thing-Nominal 2918 2920	尾巴
+T156	Person-Pronoun 2931 2932	我
+T157	Thing-Pronoun 2939 2940	它
+T158	Person-Nominal 2949 2951	母亲
+T159	Person-Pronoun 2955 2956	我
+R11	Family Arg1:T158 Arg2:T159	
+T160	Thing-Nominal 2961 2965	那只鸟儿
+T161	Thing-Pronoun 2966 2967	它
+T162	Thing-Nominal 2975 2977	树枝
+R12	Located Arg1:T161 Arg2:T162	
+*	Coreference T161 T160
+T163	Person-Pronoun 2979 2980	我
+T164	Thing-Pronoun 2985 2986	它
+T165	Thing-Nominal 2987 2989	眼睛
+T166	Person-Pronoun 2992 2993	我
+T167	Thing-Nominal 2995 2999	它的眼睛
+T168	Thing-Nominal 3018 3022	这只鸟儿
+T169	Person-Pronoun 3024 3025	我
+T173	Thing-Nominal 3109 3116	百年老树的影子
+T174	Thing-Nominal 3119 3122	那些树
+T175	Location-Nominal 3135 3137	家乡
+T177	Thing-Nominal 3167 3171	家乡的路
+T178	Thing-Nominal 3174 3176	房子
+T179	Thing-Nominal 3179 3181	池塘
+T180	Thing-Nominal 3188 3190	辗屋
+T181	Location-Nominal 3200 3204	城里乡村
+T182	Person-Nominal 3205 3206;3207 3208	孩 子
+T183	Thing-Nominal 3213 3218	一堆的玩具
+T184	Location-Nominal 3222 3226	儿童乐园
+T185	Person-Pronoun 3235 3237	他们
+T186	Person-Pronoun 3240 3242	我们
+T188	Person-Pronoun 3260 3262	他们
+T189	Person-Pronoun 3273 3275	我们
+T190	Person-Pronoun 3289 3290	我
+T191	Location-Nominal 1479 1481	村庄
+T192	Person-Nominal 1490 1491	人
+T193	Person-Nominal 1500 1504	村里的人
+T194	Person-Pronoun 1517 1519	他们
+T195	Person-Nominal 1523 1526	街市人
+T196	Person-Pronoun 1534 1536	他们
+T197	Person-Pronoun 1552 1554	他们
+R13	Social Arg1:T194 Arg2:T195	
+T198	Person-Nominal 1585 1588	都市人
+R14	Social Arg1:T197 Arg2:T198	
+T199	Person-Pronoun 1601 1603	他们
+T201	Thing-Nominal 1664 1668	一口水塘
+T202	Thing-Nominal 1678 1679	水
+T204	Location-Nominal 1685 1690	南方的村庄
+T205	Thing-Nominal 1697 1699	水塘
+T206	Thing-Nominal 1701 1703	水塘
+T207	Person-Nominal 1710 1712	人们
+R15	Use Arg1:T207 Arg2:T206	
+T208	Thing-Nominal 1742 1744	水塘
+T210	Location-Nominal 1760 1762	田地
+T211	Thing-Nominal 1765 1769	一把青菜
+T212	Thing-Nominal 1772 1774	水塘
+T213	Thing-Nominal 1785 1786	水
+T214	Thing-Nominal 1795 1797	衣服
+T215	Thing-Nominal 1797 1799	鞋子
+T216	Time-Implicit 219 225	月朗星稀的夜
+T217	Time-Implicit 263 267	小的时候
+R16	Family Arg1:T24 Arg2:T25	
+T218	Thing-Nominal 332 334	天空
+T33	Location-Nominal 360 365	纯净的家乡
+T219	Thing-Nominal 407 416	一道天然的绿色屏障
+T220	Thing-Nominal 418 420	屏障
+T39	Location-Name 425 431	偌大的黄家庄
+T221	Person-Nominal 464 466	高人
+T48	Location-Nominal 522 527	永远的村庄
+*	Coreference T48 T47
+T222	Time-Implicit 589 591	儿时
+T223	Time-Implicit 683 688	夜深人静时
+T70	Person-Nominal 842 847	村子里的人
+T224	Thing-Nominal 932 934	树身
+T225	Thing-Nominal 945 949	腾状植物
+T90	Person-Nominal 1077 1085	村子里的每一个人
+T102	Location-Nominal 1252 1257	绝妙的村庄
+T226	Location-Nominal 1295 1299	盆地中央
+R17	Part-Whole Arg1:T107 Arg2:T226	
+T227	Time-Implicit 1333 1335	夜间
+T228	Location-Nominal 1371 1382	可遇而不可求的一处仙境
+T229	Person-Nominal 1505 1507	个个
+*	Coreference T229 T193
+T230	Thing-Nominal 1557 1558	田
+T231	Thing-Nominal 1559 1560	山
+R18	Ownership Arg1:T197 Arg2:T230	
+R19	Ownership Arg1:T197 Arg2:T231	
+T232	Thing-Nominal 1562 1567	丰饶的物产
+R20	Ownership Arg1:T197 Arg2:T232	
+T233	Person-Pronoun 1614 1616	他们
+*	Coreference T233 T199
+T234	Location-Nominal 1659 1663	村子前边
+R21	Located Arg1:T201 Arg2:T234	
+R22	Located Arg1:T205 Arg2:T204	
+T200	Thing-Nominal 1747 1751	清清的水
+T203	Time-Implicit 1756 1759	小时候
+T209	Location-Nominal 1804 1806	水塘
+T235	Person-Nominal 1814 1817	孩子们
+T236	Thing-Nominal 1819 1821	屁股
+R23	Part-Whole Arg1:T236 Arg2:T235	
+T237	Location-Nominal 1828 1830	水塘
+T238	Person-Nominal 1847 1849	父母
+T239	Time-Implicit 1859 1861	现在
+T240	Location-Nominal 1873 1877	村子西边
+T241	Thing-Nominal 1878 1882	一条小溪
+R24	Located Arg1:T241 Arg2:T240	
+T242	Thing-Nominal 1886 1888	水流
+T243	Thing-Nominal 1893 1895	溪水
+T244	Thing-Nominal 1905 1912	一条寂寞的小溪
+T245	Thing-Nominal 1915 1918	这条河
+T246	Location-Nominal 1923 1930	村庄上首的大山
+T247	Location-Name 1934 1936	淦河
+T248	Thing-Nominal 1941 1943	鸟儿
+T249	Location-Name 1953 1955	家乡
+T250	Person-Pronoun 1956 1957	我
+T251	Location-Nominal 1960 1963	小溪边
+T252	Thing-Nominal 1976 1982	几只调皮的狗
+T253	Location-Nominal 1983 1985	小溪
+T254	Location-Nominal 1990 1992	上游
+T255	Thing-Nominal 2006 2007	牛
+T256	Thing-Pronoun 2008 2009	它
+*	Coreference T256 T255
+T257	Thing-Nominal 2011 2017	青草汁液的唇
+R25	Part-Whole Arg1:T257 Arg2:T255	
+T258	Thing-Nominal 2019 2022	小溪水
+T259	Location-Nominal 2029 2033	纯净的溪
+T260	Person-Pronoun 2035 2036	我
+T261	Location-Nominal 2056 2062	这片静默土地
+T262	Thing-Nominal 2077 2080	蚕豆花
+T263	Thing-Nominal 2081 2084	豌豆花
+T264	Person-Pronoun 2096 2097	我
+T265	Person-Pronoun 2108 2109	我
+T266	Location-Nominal 2120 2125	家乡的土地
+T267	Person-Pronoun 2135 2136	我
+T268	Thing-Nominal 2150 2154	头顶的天
+T269	Thing-Nominal 2163 2165	太阳
+T270	Thing-Nominal 2170 2172;2173 2176	一块 蓝水晶
+T271	Thing-Nominal 2178 2189	村子下首那棵古老的樟树
+T272	Thing-Nominal 2192 2194	树影
+T273	Thing-Nominal 2197 2205	一幅不需修饰的画
+T274	Location-Nominal 2207 2209	树林
+T275	Thing-Nominal 2211 2218	自然倒下的大树
+R26	Located Arg1:T275 Arg2:T274	
+T276	Location-Nominal 2219 2221	树上
+T277	Thing-Nominal 2222 2227	厚厚的青苔
+R27	Located Arg1:T277 Arg2:T276	
+T278	Thing-Nominal 2230 2236	那棵横倒的树
+T279	Location-Nominal 2242 2247	山下的水库
+T280	Thing-Nominal 2250 2257	山头上的映山红
+T281	Person-Pronoun 2270 2271	我
+T282	Thing-Nominal 2281 2285	我的脊背
+R28	Part-Whole Arg1:T282 Arg2:T281	
+T283	Location-Nominal 2300 2302	家乡
+T284	Thing-Nominal 2319 2321	大山
+T285	Person-Pronoun 2341 2342	我
+T286	Location-Nominal 2345 2350	华北的平原
+T287	Time-Implicit 2362 2364	冬天
+T288	Person-Nominal 2364 2366	人们
+T289	Thing-Nominal 2375 2377	太阳
+T290	Thing-Nominal 2394 2401	平原上的上的风
+T291	Thing-Nominal 2406 2411	家乡的阳光
+T292	Time-Explicit 2413 2417	一年四季
+T293	Thing-Nominal 2431 2436	每一道山梁
+T294	Thing-Nominal 2437 2441	每一棵树
+T295	Thing-Nominal 2442 2446	每一根草
+T296	Thing-Nominal 2449 2451	庄稼
+T297	Thing-Nominal 2452 2454	土地
+T298	Thing-Nominal 2455 2457	房屋
+T299	Thing-Nominal 2458 2460	道路
+T300	Person-Pronoun 2471 2472	我
+T301	Thing-Nominal 2482 2483	酒
+T302	Location-Nominal 2489 2491	家乡
+T303	Thing-Nominal 2491 2499	农家院子里的餐桌
+T304	Thing-Nominal 2501 2504	糯谷酒
+T305	Person-Pronoun 2517 2518	我
+R29	Located Arg1:T304 Arg2:T303	
+T306	Person-Pronoun 2522 2523	我
+T307	Person-Nominal 2535 2537	乡亲
+R30	Social Arg1:T307 Arg2:T306	
+T308	Thing-Nominal 2565 2567	粮食
+T309	Person-Pronoun 2573 2574	我
+T310	Person-Nominal 2579 2582	家乡人
+R31	Social Arg1:T309 Arg2:T310	
+T311	Person-Pronoun 2599 2600	我
+T312	Thing-Nominal 2591 2592;2593 2596	这 篇文章
+T313	Thing-Nominal 2611 2614	糯谷酒
+T314	Location-Nominal 2619 2621	村子
+T315	Location-Nominal 2625 2633	一处独立的“辗屋
+T125	Thing-Nominal 2647 2652	北方的石磨
+T316	Thing-Nominal 2715 2723	经过粗加工的稻谷
+R8	Located Arg1:T316 Arg2:T133	
+T317	Location-Nominal 2860 2862	树上
+T318	Location-Nominal 2949 2954	母亲的墓地
+T319	Thing-Nominal 2971 2977	不远处的树枝
+T320	Thing-Nominal 2985 2989	它的眼睛
+T170	Thing-Nominal 3034 3045	这只和人如此亲近的鸟儿
+T171	Thing-Nominal 3053 3058	家乡的鸟儿
+T321	Thing-Pronoun 3070 3071	它
+*	Coreference T321 T171
+T172	Location-Nominal 3087 3094	乡间蜿蜒的山路
+T176	Thing-Nominal 3159 3166	不会挪窝的古树
+T322	Person-Nominal 3200 3206;3207 3208	城里乡村的孩 子
+T187	Time-Implicit 3255 3259	若干年后
+T323	Location-Nominal 3306 3308	故乡
+T324	Location-Nominal 3349 3354	村子对面山
+T325	Person-Pronoun 3363 3364	我
+T326	Person-Pronoun 3385 3386	我
+T327	Person-Pronoun 3406 3407	我
+T328	Person-Pronoun 3434 3435	我
+T329	Thing-Nominal 3445 3447	大树
+T330	Thing-Nominal 3450 3451	根
+R32	Part-Whole Arg1:T330 Arg2:T329	
+T331	Location-Nominal 3457 3459	家乡
+T332	Location-Nominal 3460 3473	那个永远让我魂牵梦绕的山村
+*	Coreference T332 T331
+T333	Thing-Nominal 799 803	所有建筑
+R33	General-Special Arg1:T225 Arg2:T77	

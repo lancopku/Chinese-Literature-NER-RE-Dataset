@@ -1,0 +1,297 @@
+T1	Time-Implicit 0 7	那一年清明节后
+T2	Person-Nominal 8 12	生产队长
+T3	Organization-Nominal 8 11	生产队
+R1	Ownership Arg1:T2 Arg2:T3	
+T4	Person-Name 12 15	娇守云
+*	Coreference T2 T4
+T5	Person-Pronoun 16 17	我
+T6	Time-Implicit 19 22	这几天
+T7	Organization-Name 22 27	东南沟蜂场
+T8	Thing-Nominal 28 31	黑瞎子
+T9	Thing-Nominal 32 34	蜂箱
+T10	Time-Implicit 35 39	昨天夜里
+T11	Thing-Nominal 43 46	两箱蜂
+T12	Person-Pronoun 48 49	你
+T13	Person-Pronoun 57 58	你
+T14	Metric 66 68	几天
+T15	Organization-Nominal 68 70	蜂场
+*	Coreference T15 T7
+*	Coreference T12 T5
+R2	Social Arg1:T4 Arg2:T5	
+T16	Time-Implicit 72 75	第二天
+T17	Person-Pronoun 76 77	我
+T18	Thing-Nominal 82 89	7.62”步枪
+T19	Metric 91 93	几天
+T20	Thing-Nominal 94 96	干粮
+T21	Organization-Name 98 103	东南沟蜂场
+T22	Organization-Nominal 106 108	蜂场
+T23	Location-Nominal 112 121	小山岗阳面的山坡上
+T24	Thing-Nominal 124 130	四十几箱蜂子
+T25	Thing-Nominal 131 135	蜂场小房
+T26	Thing-Nominal 136 140	木刻楞堆
+T27	Metric 144 148	十平方米
+T28	Thing-Nominal 151 155	三块木板
+T29	Thing-Nominal 159 160	门
+R3	Part-Whole Arg1:T29 Arg2:T25	
+R4	Part-Whole Arg1:T28 Arg2:T29	
+T30	Thing-Nominal 164 165	锁
+T31	Thing-Nominal 168 170	门栓
+T32	Time-Implicit 171 173	晚上
+T33	Location-Nominal 174 176	屋里
+T34	Thing-Nominal 179 181	木棍
+T35	Thing-Nominal 184 185	门
+R5	Located Arg1:T34 Arg2:T35	
+T36	Thing-Nominal 190 192	窗户
+T37	Thing-Nominal 194 196	窗扇
+T38	Metric 200 202	一尺
+T39	Thing-Nominal 206 208	玻璃
+T40	Thing-Nominal 211 212	墙
+R6	Located Arg1:T39 Arg2:T40	
+T41	Location-Nominal 220 222	屋里
+T42	Thing-Nominal 224 226	炉灶
+T43	Thing-Nominal 228 230	大锅
+R7	Located Arg1:T42 Arg2:T41	
+R8	Located Arg1:T43 Arg2:T41	
+T44	Thing-Nominal 235 237	火炕
+R9	Located Arg1:T44 Arg2:T41	
+T45	Person-Nominal 238 241	养蜂员
+T46	Person-Name 242 243;244 246	原 老六
+*	Coreference T45 T46 T47
+T47	Person-Pronoun 247 248	他
+T48	Person-Pronoun 250 251	我
+R10	Social Arg1:T47 Arg2:T48	
+T49	Time-Implicit 251 254	刚开春
+T50	Thing-Nominal 257 258	蜂
+T51	Thing-Nominal 261 263	蜂箱
+R11	Located Arg1:T50 Arg2:T51	
+T52	Thing-Nominal 267 269	蜂子
+T53	Location-Nominal 273 275	外面
+T54	Person-Pronoun 279 280	他
+T55	Person-Pronoun 284 285	我
+T56	Thing-Nominal 286 289	黑瞎子
+T57	Thing-Nominal 291 293	蜂蜜
+T58	Time-Implicit 315 318	睡觉前
+T59	Location-Nominal 319 320	天
+T60	Metric 327 329	一宿
+T61	Person-Pronoun 330 331	我
+T62	Person-Pronoun 332 333	他
+T63	Time-Implicit 338 341	头几天
+T64	Time-Implicit 361 365	一天夜里
+T65	Person-Pronoun 366 367	我
+T66	Location-Nominal 369 371	外面
+T67	Thing-Nominal 376 377	枪
+R12	Use Arg1:T65 Arg2:T67	
+T68	Thing-Nominal 382 390	一个黑乎乎的家伙
+T69	Person-Pronoun 406 407	我
+T70	Thing-Pronoun 409 410	它
+*	Coreference T70 T68
+T71	Thing-Nominal 418 421	黑瞎子
+T72	Person-Pronoun 431 432	我
+T73	Thing-Nominal 435 436	枪
+R13	Use Arg1:T72 Arg2:T73	
+T74	Thing-Nominal 441 444	黑瞎子
+T75	Person-Pronoun 449 450	我
+T76	Thing-Nominal 463 465	步枪
+*	Coreference T73 T76
+T77	Thing-Nominal 468 470	枪栓
+R14	Part-Whole Arg1:T77 Arg2:T76	
+T78	Thing-Nominal 472 474	弹壳
+T79	Thing-Nominal 478 480	子弹
+R15	Located Arg1:T79 Arg2:T78	
+R16	Part-Whole Arg1:T78 Arg2:T76	
+T80	Thing-Nominal 489 492	黑瞎子
+T81	Thing-Nominal 504 506	枪管
+R17	Part-Whole Arg1:T81 Arg2:T76	
+T82	Person-Pronoun 507 508	我
+T83	Person-Pronoun 514 515	我
+T84	Location-Nominal 519 521	地上
+T85	Thing-Nominal 525 527	胳膊
+R18	Part-Whole Arg1:T85 Arg2:T83	
+T86	Thing-Nominal 529 531	脑袋
+R19	Part-Whole Arg1:T86 Arg2:T83	
+T87	Thing-Nominal 537 540	黑瞎子
+T88	Thing-Nominal 541 542	弹
+R20	Located Arg1:T88 Arg2:T87	
+T89	Thing-Nominal 575 578	黑瞎子
+T90	Thing-Nominal 593 594	枪
+T91	Time-Implicit 599 602	开枪时
+T92	Thing-Nominal 602 604	枪口
+T93	Metric 606 608	一尺
+T94	Thing-Nominal 612 614	火苗
+T95	Thing-Pronoun 615 616	它
+*	Coreference T95 T89
+T96	Thing-Nominal 618 620	火光
+T97	Thing-Nominal 625 627	枪管
+T98	Thing-Nominal 631 634	那支枪
+R21	Part-Whole Arg1:T92 Arg2:T98	
+R22	Part-Whole Arg1:T97 Arg2:T98	
+T99	Person-Pronoun 639 640	我
+T100	Location-Nominal 642 644	地上
+T101	Time-Explicit 655 663	大约过了五六分钟
+T102	Person-Pronoun 673 674	我
+T103	Thing-Nominal 678 679	手
+T104	Thing-Nominal 680 681	脚
+R23	Part-Whole Arg1:T103 Arg2:T102	
+R24	Part-Whole Arg1:T104 Arg2:T102	
+T105	Location-Nominal 689 690	屋
+T106	Thing-Nominal 691 693	木杠
+T107	Thing-Nominal 694 695	门
+R25	Located Arg1:T106 Arg2:T107	
+R26	Use Arg1:T102 Arg2:T106	
+T108	Time-Explicit 698 700	这时
+T109	Person-Pronoun 700 701	我
+T110	Time-Implicit 710 712	初春
+T111	Location-Nominal 712 714	山里
+T112	Person-Pronoun 722 723	我
+T113	Thing-Nominal 738 739	汗
+T114	Time-Explicit 760 763	这一夜
+T115	Person-Pronoun 763 764	我
+T116	Location-Nominal 766 769	炕沿上
+T117	Time-Implicit 772 774	天亮
+T118	Person-Pronoun 776 777	我
+T119	Thing-Nominal 780 783	那支枪
+T120	Thing-Nominal 785 786	枪
+T121	Thing-Nominal 787 789	木托
+*	Coreference T119 T120
+R27	Part-Whole Arg1:T121 Arg2:T120	
+T122	Thing-Nominal 799 801	枪管
+T123	Thing-Nominal 802 804	枪机
+R28	Part-Whole Arg1:T123 Arg2:T120	
+R29	Part-Whole Arg1:T122 Arg2:T120	
+T124	Metric 808 811	七八米
+T125	Person-Pronoun 813 814	我
+T126	Thing-Nominal 816 819	黑瞎子
+T127	Thing-Nominal 824 826	血迹
+T128	Thing-Nominal 831 834	小山头
+T129	Location-Nominal 837 839	地上
+T130	Thing-Nominal 842 843	血
+R30	Located Arg1:T130 Arg2:T129	
+T131	Thing-Nominal 844 847	黑瞎子
+T132	Location-Pronoun 849 851	这里
+*	Coreference T132 T129
+T133	Thing-Nominal 862 864	小河
+T134	Location-Nominal 866 868	河边
+T135	Thing-Nominal 868 870	血迹
+T136	Thing-Pronoun 874 875	它
+*	Coreference T136 T131
+T137	Thing-Nominal 879 881	小河
+T138	Metric 884 887	10米
+T139	Thing-Nominal 888 889	水
+R31	Located Arg1:T137 Arg2:T139	
+T140	Person-Nominal 899 902	养蜂员
+T141	Location-Nominal 903 905	河里
+T142	Thing-Nominal 909 910	水
+T143	Thing-Nominal 912 914;915 916	人参 汤
+T144	Thing-Nominal 917 920	黑瞎子
+T145	Thing-Nominal 924 925	血
+R32	Part-Whole Arg1:T145 Arg2:T144	
+T146	Thing-Pronoun 925 926	它
+*	Coreference T144 T146 T148 T149
+T147	Thing-Nominal 933 936	人参汤
+T148	Thing-Pronoun 943 944	它
+T149	Thing-Pronoun 954 955	它
+T150	Location-Nominal 961 964	养蜂场
+T151	Thing-Pronoun 967 968	它
+T152	Time-Implicit 979 983	打那天起
+T153	Person-Pronoun 986 987	我
+T154	Location-Nominal 989 991	蜂场
+T155	Thing-Nominal 996 997	熊
+T156	Location-Nominal 1001 1003	蜂场
+T157	Person-Pronoun 1007 1008	我
+T158	Organization-Nominal 1010 1012	公社
+T159	Person-Name 1018 1028	公社武装部助理刘玉章
+R33	Ownership Arg1:T159 Arg2:T158	
+R34	Social Arg1:T157 Arg2:T159	
+T160	Person-Pronoun 1033 1034	他
+*	Coreference T160 T159
+T161	Person-Pronoun 1045 1046	我
+T162	Person-Pronoun 1054 1055	他
+T163	Thing-Nominal 1063 1065	枪支
+T164	Thing-Nominal 1075 1078	那支枪
+T165	Person-Pronoun 1085 1086	他
+T166	Person-Pronoun 1088 1089	你
+T167	Person-Nominal 1090 1096	武装基干民兵
+T168	Thing-Nominal 1102 1103	枪
+T169	Person-Pronoun 1108 1109	你
+T170	Location-Name 1116 1118	蜂场
+T171	Thing-Nominal 1120 1121	枪
+T172	Location-Nominal 1127 1129	库里
+T173	Thing-Nominal 1131 1132	枪
+R35	Located Arg1:T173 Arg2:T172	
+T174	Thing-Nominal 1135 1138	那支枪
+T175	Person-Pronoun 1147 1148	你
+T176	Person-Pronoun 1156 1157	我
+*	Coreference T175 T176 T169 T166 T167 T161
+T177	Person-Pronoun 1163 1164	他
+T178	Person-Pronoun 1171 1172	我
+T179	Time-Implicit 1175 1179	那个年代
+T180	Time-Explicit 1228 1234	四月二十八日
+T181	Person-Pronoun 1234 1235	我
+T182	Organization-Name 1237 1241	绥化铁路
+T183	Person-Nominal 1241 1243	司机
+R36	Ownership Arg1:T183 Arg2:T182	
+T184	Thing-Nominal 1237 1248	绥化铁路司机录取通知书
+T185	Time-Explicit 1249 1256	“五一节”那天
+*	Coreference T181 T183
+T186	Person-Pronoun 1256 1257	我
+T187	Location-Name 1260 1263	西丰沟
+T188	Person-Nominal 1260 1268	西丰沟的父老乡亲
+T189	Person-Nominal 1269 1273	我的同学
+T190	Person-Nominal 1274 1276	战友
+R37	Social Arg1:T186 Arg2:T188	
+R38	Social Arg1:T186 Arg2:T189	
+R39	Social Arg1:T186 Arg2:T190	
+T191	Person-Pronoun 1277 1278	我
+T192	Location-Name 1282 1290	北大荒这块黑土地
+T193	Organization-Name 1302 1310	绥化铁路司机学校
+T194	Time-Explicit 1301 1314	在绥化铁路司机学校学习期间
+T195	Person-Pronoun 1315 1316	我
+T196	Person-Name 1317 1320	刘玉章
+T197	Thing-Nominal 1322 1323	信
+T198	Thing-Nominal 1324 1325	信
+T199	Thing-Nominal 1332 1335	那支枪
+T200	Person-Pronoun 1336 1337	他
+*	Coreference T200 T196
+T201	Thing-Nominal 1338 1340	回信
+T202	Person-Pronoun 1344 1345	我
+T203	Time-Implicit 1344 1347	我走后
+T204	Person-Pronoun 1347 1348	他
+T205	Person-Nominal 1354 1358	武装部长
+R40	Social Arg1:T204 Arg2:T205	
+T206	Person-Nominal 1363 1365	部长
+*	Coreference T206 T205
+T207	Person-Pronoun 1367 1368	他
+*	Coreference T207 T202 T215
+T208	Organization-Nominal 1383 1385	蜂场
+T209	Thing-Nominal 1387 1389	枪支
+T210	Thing-Nominal 1403 1406	黑瞎子
+T211	Time-Implicit 1399 1401	夜里
+T212	Person-Pronoun 1414 1416	我们
+T213	Person-Nominal 1420 1422	上级
+T214	Person-Nominal 1423 1427	他的家人
+T215	Person-Pronoun 1423 1424	他
+R41	Social Arg1:T212 Arg2:T213	
+R42	Social Arg1:T212 Arg2:T214	
+R43	Social Arg1:T212 Arg2:T215	
+T216	Location-Name 1435 1437	西丰
+T217	Person-Pronoun 1450 1452	我们
+T218	Thing-Nominal 1460 1461	手
+T219	Thing-Nominal 1466 1467	信
+R44	Located Arg1:T219 Arg2:T218	
+T220	Person-Pronoun 1468 1469	我
+R45	Part-Whole Arg1:T218 Arg2:T220	
+T221	Person-Nominal 1474 1476	部长
+T222	Person-Nominal 1477 1479	助理
+R46	Social Arg1:T222 Arg2:T221	
+T223	Person-Pronoun 1485 1486	我
+T224	Person-Pronoun 1492 1494	他们
+T225	Person-Pronoun 1502 1503	我
+T226	Person-Nominal 1509 1518	一个二十岁的年轻人
+*	Coreference T225 T226
+T227	Person-Pronoun 1552 1553	我
+T228	Person-Pronoun 1569 1570	我
+T229	Person-Pronoun 1582 1583	我
+T230	Person-Pronoun 1609 1610	我
+T231	Person-Pronoun 1618 1619	我
+R47	Social Arg1:T223 Arg2:T222	
+R48	Social Arg1:T223 Arg2:T221	

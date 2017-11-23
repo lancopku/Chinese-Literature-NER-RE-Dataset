@@ -1,0 +1,213 @@
+T1	Location-Name 0 3	桂花树
+T2	Thing-Nominal 7 8	根
+T3	Thing-Nominal 9 10	叶
+T4	Thing-Nominal 12 15	桂花树
+T5	Location-Nominal 25 31	红色旅游景区
+T6	Location-Name 32 35	桂花树
+*	Coreference T1 T5
+T7	Person-Name 36 43	红三军政委万涛
+T8	Person-Name 51 58	土家妹子冉启秀
+T9	Location-Name 87 90	桂花树
+T10	Location-Nominal 97 101	四合大院
+*	Coreference T10 T9
+T11	Person-Name 109 111	万涛
+T12	Person-Name 124 127	冉启秀
+T13	Person-Name 115 117	万涛
+T14	Person-Pronoun 129 130	我
+T15	Person-Nominal 169 172	读书郎
+T16	Person-Nominal 187 190	老太婆
+T17	Person-Name 191 193	万涛
+*	Coreference T17 T15
+T18	Person-Name 194 197	冉启秀
+*	Coreference T18 T16
+T19	Person-Nominal 207 209	夫妻
+T20	Time-Explicit 212 217	1923年
+T21	Location-Name 225 231	濯河坝三门滩
+T22	Person-Name 232 235	冉启秀
+T23	Thing-Nominal 238 241	大花轿
+T24	Location-Name 247 254	曾家沟万家大院
+T25	Thing-Nominal 257 261	红绸盖头
+T26	Person-Nominal 273 275	新娘
+T27	Person-Nominal 281 283	新郎
+T28	Person-Name 283 286	万诗楷
+*	Coreference T28 T27
+R1	Family Arg1:T26 Arg2:T27	
+T29	Person-Name 299 306	万诗楷和冉启秀
+T30	Person-Nominal 315 318	小夫妻
+*	Coreference T30 T29
+T31	Thing-Nominal 329 332	桂花树
+T32	Thing-Nominal 337 338	书
+T33	Thing-Nominal 342 343	鞋
+T34	Location-Name 360 363	桂花树
+T35	Location-Name 366 369	官家渡
+T36	Location-Nominal 372 374	山外
+R2	Part-Whole Arg1:T35 Arg2:T34	
+T37	Person-Name 392 395	万诗楷
+T38	Person-Nominal 406 408	娇妻
+R3	Family Arg1:T38 Arg2:T37	
+T39	Person-Nominal 417 419	自己
+*	Coreference T39 T37
+T40	Location-Name 420 423	曾家沟
+T41	Person-Name 432 435	冉启秀
+*	Coreference T41 T38
+T42	Person-Nominal 440 442	公婆
+R4	Family Arg1:T41 Arg2:T42	
+T43	Person-Name 449 452	万诗楷
+R5	Family Arg1:T41 Arg2:T37	
+T44	Person-Name 464 467	万诗楷
+T45	Person-Name 470 473	冉启秀
+T46	Location-Nominal 478 481	院门边
+T47	Location-Name 487 490	山垭口
+T48	Thing-Nominal 502 503	信
+T49	Thing-Nominal 506 508	照片
+T50	Person-Name 509 512	万诗楷
+T51	Location-Name 514 516	重庆
+T52	Thing-Nominal 528 534	万诗楷的照片
+T53	Person-Name 537 540	冉启秀
+T54	Person-Name 553 556	冉启秀
+T55	Location-Name 557 560	桂花树
+T56	Thing-Nominal 574 576	月儿
+T57	Thing-Nominal 580 582	桂花
+T58	Person-Name 584 587	冉启秀
+T59	Person-Name 591 594	万诗楷
+T60	Person-Pronoun 598 599	她
+T61	Person-Pronoun 607 608	他
+*	Coreference T60 T58
+*	Coreference T61 T59
+T62	Person-Pronoun 626 627	她
+T63	Person-Name 660 663	万诗楷
+T64	Location-Name 665 668	曾家沟
+T65	Thing-Nominal 679 681	桂花
+T66	Thing-Nominal 691 693	桂花
+T67	Location-Nominal 706 708	院子
+T68	Thing-Nominal 714 716	桂花
+T69	Thing-Nominal 719 721	桂花
+T70	Person-Name 742 745	冉启秀
+T71	Location-Nominal 760 764	桂花树下
+T72	Person-Name 782 785	冉启秀
+T73	Thing-Nominal 794 797	桂花树
+T74	Thing-Pronoun 801 802	你
+T75	Person-Pronoun 809 810	我
+T76	Person-Name 811 813	诗楷
+T77	Person-Name 817 819	诗楷
+T78	Person-Name 823 825	诗楷
+T79	Person-Name 833 836	冉启秀
+*	Coreference T75 T79
+T80	Person-Name 860 863	冉启秀
+T81	Person-Name 880 883	冉启秀
+T82	Location-Nominal 905 908	四合院
+T83	Person-Name 910 913	冉启秀
+T84	Person-Name 917 920	万诗楷
+R6	Family Arg1:T83 Arg2:T84	
+T85	Person-Nominal 959 960;961 962	少 妇
+*	Coreference T83 T85
+T86	Thing-Nominal 976 979	桂花树
+T87	Thing-Nominal 997 1000	桂花树
+T88	Thing-Nominal 987 988	火
+T89	Thing-Nominal 1007 1010	桂花树
+T90	Person-Name 1011 1013	诗楷
+T91	Person-Pronoun 1018 1020	我们
+T92	Thing-Nominal 1026 1029	桂花树
+T93	Person-Name 1034 1036	诗楷
+T94	Person-Pronoun 1043 1045	我们
+T95	Person-Name 1053 1056	冉启秀
+T96	Thing-Nominal 1076 1078	桂花
+T97	Person-Name 1086 1089	冉启秀
+T98	Thing-Nominal 1096 1099	桂花树
+T99	Person-Name 1101 1104	冉启秀
+T100	Thing-Nominal 1110 1113	桂花树
+T101	Person-Name 1117 1120	冉启秀
+T102	Person-Name 1132 1135	冉启秀
+T103	Metric 1141 1143	五斤
+T104	Person-Pronoun 1145 1146	我
+T105	Thing-Nominal 1175 1178	桂花树
+T106	Location-Nominal 1182 1184	万家
+T107	Person-Nominal 1189 1191	地主
+T108	Person-Nominal 1192 1196	公公婆婆
+T109	Location-Nominal 1204 1207	四合院
+T110	Person-Name 1208 1211	冉启秀
+R7	Family Arg1:T110 Arg2:T108	
+R8	Located Arg1:T105 Arg2:T109	
+T111	Location-Nominal 994 996	院子
+R9	Located Arg1:T86 Arg2:T111	
+T112	Person-Nominal 1224 1227	万家人
+T113	Person-Nominal 1231 1234	万家鬼
+T114	Person-Name 1240 1243	万诗楷
+*	Coreference T112 T110
+T115	Person-Name 1265 1268	冉启秀
+*	Coreference T115 T113
+T116	Person-Name 1279 1282	冉启秀
+T117	Person-Pronoun 1299 1300	她
+T118	Person-Name 1302 1305	万诗楷
+*	Coreference T117 T116
+T119	Person-Pronoun 1310 1311	她
+T120	Time-Explicit 1326 1331	1984年
+T121	Person-Name 1340 1343	冉启秀
+T122	Thing-Nominal 1356 1362	一本红色证书
+T123	Person-Pronoun 1364 1365	她
+*	Coreference T123 T121 T124
+T124	Person-Nominal 1367 1372	烈士的遗孀
+T125	Person-Name 1373 1376	万诗楷
+T126	Person-Nominal 1367 1369	烈士
+*	Coreference T125 T126 T127 T128
+T127	Person-Pronoun 1381 1382	他
+T128	Person-Name 1385 1386;1387 1388	万 涛
+T129	Location-Name 1404 1406	洪湖
+T130	Person-Name 1418 1421	冉启秀
+T131	Person-Name 1446 1449	冉启秀
+T132	Person-Pronoun 1470 1471	我
+T133	Person-Name 1481 1483	万涛
+T134	Person-Nominal 1491 1495	土家男儿
+*	Coreference T133 T134 T171
+T135	Person-Name 1506 1509	冉启秀
+T136	Person-Nominal 1517 1521	土家妹子
+*	Coreference T135 T136 T172
+R10	Family Arg1:T135 Arg2:T133	
+T137	Person-Name 1586 1589	万诗楷
+T138	Person-Name 1595 1598	冉启秀
+T139	Thing-Nominal 1602 1605	桂花树
+T140	Person-Name 1618 1621	宋之问
+T141	Thing-Nominal 1644 1646	桂花
+T142	Person-Name 1650 1653	冉启秀
+T143	Thing-Nominal 1664 1666	花轿
+T144	Person-Name 1676 1679	冉启秀
+T145	Person-Nominal 1680 1690	土家最最痴情的奇女子
+*	Coreference T144 T145
+T146	Location-Name 1692 1695	五陵山
+T147	Location-Name 1698 1701	阿蓬江
+T148	Person-Name 1704 1707	冉启秀
+T149	Location-Name 1710 1713	桂花树
+T150	Location-Name 1718 1721	桂花树
+T151	Person-Name 1723 1726	冉启秀
+T152	Person-Name 1727 1730	冉启秀
+T153	Location-Name 1732 1735	桂花树
+R11	Family Arg1:T45 Arg2:T44	
+T154	Thing-Nominal 74 75	月
+T155	Thing-Nominal 79 80	桂
+T156	Thing-Nominal 142 143	泪
+*	Coreference T74 T73
+T157	Person-Nominal 930 931	郎
+T158	Person-Nominal 934 935	郎
+T159	Person-Nominal 938 939	郎
+T160	Person-Nominal 965 969	半老徐娘
+T161	Time-Implicit 971 975	一个雨夜
+T162	Location-Nominal 1058 1060	地上
+T163	Thing-Nominal 1063 1065	肝肠
+R12	Part-Whole Arg1:T163 Arg2:T95	
+T164	Time-Implicit 1126 1131	大病一场后
+T165	Thing-Nominal 1154 1155	泪
+T166	Thing-Nominal 1248 1250	神像
+T167	Thing-Nominal 1254 1256	照片
+R13	Located Arg1:T167 Arg2:T166	
+T168	Time-Explicit 1409 1412	六十年
+T169	Thing-Nominal 1422 1424	泪水
+T170	Person-Nominal 1474 1479	编故事的人
+*	Coreference T132 T170
+T171	Person-Nominal 1535 1537	男儿
+T172	Person-Nominal 1542 1544	妹子
+T173	Thing-Nominal 1556 1557	天
+T174	Thing-Nominal 1558 1559	地
+T175	Thing-Nominal 1623 1625	桂子
+T176	Thing-Nominal 1625 1626	月
+T177	Thing-Nominal 1629 1630	天
+T178	Thing-Nominal 1631 1632	云

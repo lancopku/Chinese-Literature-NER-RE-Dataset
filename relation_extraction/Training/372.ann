@@ -1,0 +1,301 @@
+T1	Location-Name 0 5	沅陵柳林汊
+T2	Location-Nominal 6 14	我美丽可爱的故乡
+*	Coreference T1 T2 T7 T11
+T3	Person-Pronoun 6 7	我
+T4	Time-Implicit 16 20	孩提时代
+T5	Person-Pronoun 21 22	我
+T6	Person-Name 30 47	时任北大教授的著名文学家沈从文先生
+T7	Location-Pronoun 51 52	它
+T8	Time-Explicit 55 60;61 62	一九三四年 春
+T9	Person-Pronoun 63 64	他
+*	Coreference T9 T6 T16
+T10	Location-Name 65 69	故乡凤凰
+T11	Location-Name 72 75	柳林汊
+T12	Person-Pronoun 78 79	他
+T13	Thing-Nominal 80 84	一封家书
+R1	Create Arg1:T12 Arg2:T13	
+T14	Time-Implicit 89 91	这时
+T15	Location-Name 94 97	柳林汊
+T16	Person-Pronoun 103 104	我
+T17	Location-Nominal 113 120	这样好看的地方
+R2	General-Special Arg1:T17 Arg2:T11	
+T18	Person-Nominal 134 138	唐人宋人
+T19	Thing-Nominal 138 139	画
+T20	Metric 145 147	一年
+T21	Time-Implicit 159 161	当时
+T22	Person-Pronoun 161 162	他
+T23	Location-Nominal 161 168	他停靠的第一站
+T24	Location-Name 170 179	沅水河畔的明月山处
+*	Coreference T23 T24
+T25	Thing-Nominal 180 186	山河丹霞地貌
+T26	Thing-Nominal 189 190	山
+T27	Thing-Nominal 191 194	田螺形
+T28	Location-Nominal 195 197	山上
+T29	Thing-Nominal 199 206	粉墙黛瓦的庙宇
+R3	Located Arg1:T29 Arg2:T28	
+T30	Location-Nominal 210 218	郁郁葱葱的树荫中
+R4	Located Arg1:T29 Arg2:T30	
+T31	Location-Nominal 228 233	庙下悬崖上
+T32	Thing-Name 235 238	明月洞
+R5	Located Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 244 250	玉盘似的月亮
+T34	Time-Implicit 253 255	夜晚
+T35	Thing-Nominal 262 264	灯塔
+T36	Thing-Nominal 269 273	夜航船只
+T37	Location-Name 280 283	明月山
+T38	Person-Nominal 293 297	日本武士
+T39	Thing-Nominal 305 310	这无价之宝
+*	Coreference T39 T33
+T40	Location-Name 329 332	明月山
+T41	Metric 334 337	两公里
+T42	Location-Name 342 347	柳林汊小镇
+T43	Time-Implicit 348 350	早年
+T44	Location-Nominal 351 355	这河汊畔
+T45	Thing-Nominal 356 363	锣大鼓大的柳树
+T46	Thing-Nominal 375 379	鸟的乐园
+*	Coreference T46 T45 T49
+T47	Thing-Nominal 380 385	成群的白鹭
+T48	Location-Nominal 390 393	柳树上
+R6	Located Arg1:T47 Arg2:T48	
+T49	Thing-Nominal 390 392	柳树
+T50	Location-Name 396 399	柳林汊
+T51	Time-Explicit 416 421	一九八六年
+T52	Location-Name 422 428	五强溪水电站
+T53	Thing-Nominal 435 437	电坝
+T54	Thing-Nominal 439 449	大量质地坚硬的鹅卵石
+T55	Location-Name 452 456	马鞍州的
+T56	Thing-Nominal 452 458	马鞍州的卵石
+T57	Thing-Nominal 466 468	好钢
+T58	Thing-Nominal 470 472	刀刃
+T59	Thing-Nominal 490 492	大坝
+*	Coreference T59 T53
+R7	Located Arg1:T53 Arg2:T52	
+T60	Thing-Nominal 499 502	奠基石
+T61	Thing-Pronoun 506 508	它们
+*	Coreference T61 T56
+T62	Time-Explicit 516 521	一九九六底
+T63	Thing-Nominal 521 523	电坝
+T64	Abstract 528 533	总装机容量
+T65	Metric 534 537;538 541	120 万千瓦
+T66	Location-Nominal 543 554	湖南省最大的水力发电站
+*	Coreference T66 T52
+T67	Person-Nominal 556 558	人们
+T68	Person-Nominal 572 574	人们
+T69	Location-Name 584 592	神马修练的纱场坪
+T70	Person-Pronoun 596 597	我
+T71	Time-Implicit 598 600	童年
+T72	Person-Pronoun 606 607	我
+T73	Location-Name 610 617	柳林汊中心小学
+T74	Location-Nominal 606 625	我就读的柳林汊中心小学门前的一个大草坪
+R8	Near Arg1:T74 Arg2:T73	
+*	Coreference T74 T69 T81 T108
+T75	Location-Nominal 626 628	地面
+T76	Thing-Nominal 631 637	几十个足球场
+T77	Metric 631 634	几十个
+T78	Thing-Nominal 645 648	马鞭草
+T79	Thing-Nominal 666 676	偌大的一床碧绿色地毯
+T80	Location-Nominal 679 681	地面
+R9	Located Arg1:T79 Arg2:T80	
+T81	Location-Pronoun 682 684	这里
+T82	Location-Nominal 685 692	理想的露天剧院
+R10	General-Special Arg1:T82 Arg2:T81	
+T83	Time-Implicit 710 712	那时
+T84	Person-Pronoun 713 714	我
+T85	Thing-Nominal 727 732	演出的节目
+T86	Thing-Nominal 733 765	走钢丝、顶碗、钻火圈、耍火流星、空中飞人、叠罗汉、马术等传统节目
+*	Coreference T85 T86 T103
+T87	Person-Pronoun 766 767	你
+T88	Person-Nominal 769 770;771 772	演 员
+T89	Thing-Nominal 774 781	滚边多纽扣便衣
+T90	Thing-Nominal 785 788	灯笼裤
+R11	Use Arg1:T88 Arg2:T89	
+R12	Use Arg1:T88 Arg2:T90	
+T91	Person-Nominal 789 791	男的
+T92	Thing-Nominal 793 796	英雄巾
+R13	Use Arg1:T91 Arg2:T92	
+T93	Person-Nominal 797 799	女的
+T94	Thing-Nominal 804 807	蝴蝶结
+R14	Use Arg1:T93 Arg2:T94	
+T95	Person-Nominal 815 816	人
+T96	Person-Pronoun 822 824	他们
+*	Coreference T96 T88 T104 T106
+T97	Person-Pronoun 838 839	你
+T98	Person-Nominal 841 845	玩马术的
+T99	Location-Nominal 847 856	那飞奔的无鞍马背上
+T100	Person-Pronoun 881 883	他们
+R15	General-Special Arg1:T88 Arg2:T91	
+R16	General-Special Arg1:T88 Arg2:T93	
+R17	General-Special Arg1:T88 Arg2:T98	
+T101	Time-Implicit 900 902	当时
+T102	Person-Pronoun 903 904	我
+T103	Thing-Nominal 906 910	这些节目
+T104	Person-Nominal 920 924	那些演员
+T105	Person-Pronoun 925 926	我
+T106	Person-Nominal 925 934	我心目中崇拜的偶像
+T107	Time-Implicit 936 938	春天
+T108	Location-Name 944 954	纱场坪这天然的娱乐场
+T109	Thing-Nominal 956 958	风筝
+T110	Person-Pronoun 960 961	我
+T111	Time-Implicit 961 963	童年
+T112	Thing-Nominal 970 975	湛蓝的天幕
+T113	Thing-Nominal 977 983	棉团似的白云
+R18	Located Arg1:T113 Arg2:T112	
+T114	Thing-Nominal 985 992	悠闲飘飞的风筝
+T115	Thing-Nominal 998 1009	春燕、蝙蝠、蝴蝶、蜈蚣
+T116	Thing-Nominal 1011 1013	它们
+*	Coreference T116 T114
+T117	Thing-Nominal 1020 1025	和煦的春风
+T118	Person-Pronoun 1047 1048	我
+T119	Thing-Nominal 1057 1059	风筝
+T120	Person-Pronoun 1063 1064	我
+T121	Thing-Nominal 1068 1070	线轴
+T122	Thing-Nominal 1075 1077	风筝
+T123	Thing-Nominal 1090 1092	风筝
+T124	Thing-Nominal 1098 1100	线轴
+T125	Thing-Nominal 1097 1102	拿线轴的手
+T126	Thing-Nominal 1064 1066	一手
+T127	Thing-Nominal 1071 1073	一手
+R19	Part-Whole Arg1:T126 Arg2:T120	
+R20	Part-Whole Arg1:T127 Arg2:T120	
+R21	Part-Whole Arg1:T125 Arg2:T120	
+T128	Thing-Nominal 1110 1112	风筝
+T129	Thing-Pronoun 1124 1125	它
+T130	Person-Pronoun 1131 1132	我
+T131	Thing-Nominal 1141 1144	遥控器
+T132	Thing-Pronoun 1150 1151	它
+*	Coreference T129 T128
+T133	Person-Pronoun 1164 1165	你
+T134	Time-Implicit 1171 1173	这时
+T135	Person-Pronoun 1173 1174	我
+T136	Thing-Nominal 1175 1181	蓝天上的风筝
+T137	Location-Nominal 1203 1209	美丽的草坪上
+T138	Thing-Nominal 1210 1219	几个积满水的大弹坑
+R22	Located Arg1:T138 Arg2:T137	
+T139	Location-Nominal 1221 1227	健美的人体上
+T140	Location-Nominal 1230 1235	几个大疮疤
+*	Coreference T140 T139
+T141	Metric 1210 1212	几个
+T142	Metric 1230 1232	几个
+T143	Person-Nominal 1248 1252	日本强盗
+T144	Organization-Nominal 1256 1260	中国政府
+T145	Location-Name 1261 1264	柳林汊
+T146	Thing-Nominal 1266 1268	纱厂
+T147	Thing-Nominal 1270 1272	飞机
+R23	Use Arg1:T143 Arg2:T147	
+T148	Thing-Nominal 1273 1275	炸弹
+T149	Person-Pronoun 1289 1291	他们
+*	Coreference T149 T143
+T150	Organization-Nominal 1297 1299	政府
+*	Coreference T150 T144
+T151	Person-Pronoun 1315 1316	我
+T152	Thing-Nominal 1319 1322	那弹坑
+*	Coreference T152 T138
+T153	Person-Nominal 1327 1331	日本强盗
+T154	Person-Pronoun 1325 1326	我
+T155	Time-Implicit 1338 1341	解放后
+T156	Location-Name 1342 1345	纱厂坪
+T157	Thing-Nominal 1350 1352	水田
+T158	Location-Name 1354 1357	黄毛溪
+T159	Location-Name 1362 1365	滚水坝
+T160	Location-Nominal 1370 1372	溪边
+R24	Located Arg1:T157 Arg2:T156	
+T161	Thing-Nominal 1375 1385	1500米长的穿山洞
+R25	Located Arg1:T161 Arg2:T160	
+T162	Metric 1375 1380	1500米
+T163	Thing-Nominal 1390 1398;1399 1402	这新开的100多 亩良田
+*	Coreference T163 T157
+T164	Metric 1394 1398;1399 1400	100多 亩
+T165	Location-Name 1418 1421	柳林汊
+T166	Thing-Nominal 1408 1410	稻谷
+T167	Metric 1410 1414	5万多斤
+T168	Time-Implicit 1403 1405	每年
+T169	Person-Nominal 1421 1427	100多居民
+T170	Thing-Nominal 1428 1430	口粮
+T171	Time-Implicit 1433 1435	从此
+T172	Location-Name 1435 1441	闲置的纱厂坪
+*	Coreference T172 T156
+T173	Person-Nominal 1443 1448	柳林汊人民
+T174	Thing-Nominal 1455 1459;1460 1466	一座“广 积粮”的仓库
+T175	Location-Name 1473 1476	柳林汊
+T176	Location-Name 1479 1482	夸父山
+R26	Near Arg1:T176 Arg2:T175	
+R27	Near Arg1:T160 Arg2:T158	
+T177	Location-Name 1485 1488	撑架山
+*	Coreference T177 T176 T191
+T178	Location-Nominal 1490 1496	省级森林公园
+R28	General-Special Arg1:T178 Arg2:T177	
+T179	Location-Nominal 1497 1499	园内
+T180	Thing-Nominal 1499 1508	飞瀑流泉，丹霞奇石
+R29	Located Arg1:T180 Arg2:T179	
+T181	Person-Nominal 1516 1518	夸父
+T182	Thing-Nominal 1524 1525	日
+T183	Thing-Nominal 1530 1532	夕阳
+T184	Person-Pronoun 1538 1539	他
+T185	Thing-Nominal 1541 1545	三块巨石
+T186	Thing-Nominal 1546 1547	锅
+T187	Thing-Nominal 1548 1549	饭
+T188	Thing-Nominal 1550 1555	倒出的米汤
+T189	Thing-Nominal 1557 1563	乳白色的溪流
+T190	Location-Name 1569 1572	米汤溪
+T191	Location-Name 1574 1582	丹霞地貌的夸父山
+T192	Location-Nominal 1592 1593;1594 1597	三 座大山
+T193	Location-Nominal 1606 1610	山顶山麓
+T194	Thing-Nominal 1610 1612	植被
+R30	Part-Whole Arg1:T193 Arg2:T192	
+T195	Time-Implicit 1615 1617	四季
+T196	Location-Name 1623 1627	绿色丹霞
+T197	Location-Nominal 1628 1635	平静如镜的江面
+T198	Thing-Nominal 1636 1640	山水倒影
+T199	Location-Name 1651 1654	夸父山
+T200	Location-Nominal 1655 1663	不远的悬崖绝壁处
+R31	Near Arg1:T200 Arg2:T199	
+T201	Thing-Name 1666 1677	龙角岩、箱子岩、界破岩
+T202	Location-Name 1698 1700	桂林
+T203	Location-Name 1716 1719	柳林汊
+T204	Thing-Nominal 1720 1722	金子
+T205	Time-Implicit 1723 1725	冬天
+T206	Thing-Nominal 1732 1734	金子
+T207	Person-Name 1736 1739	沈从文
+T208	Thing-Nominal 1740 1742	家书
+R32	Create Arg1:T207 Arg2:T208	
+T209	Location-Name 1746 1749	柳林汊
+T210	Thing-Nominal 1753 1761	遍地黄金的聚宝盆
+T211	Time-Implicit 1762 1766	解放前后
+T212	Time-Implicit 1773 1778	改革开放后
+T213	Organization-Nominal 1779 1780	党
+T214	Person-Nominal 1787 1789	人们
+T215	Time-Implicit 1797 1802	九十年代初
+T216	Time-Implicit 1803 1812	黄金开采的鼎盛时期
+*	Coreference T216 T215
+T217	Person-Nominal 1813 1821	五湖四海的淘金者
+T218	Location-Nominal 1822 1829	这“黄金海岸”
+*	Coreference T218 T209
+T219	Location-Nominal 1836 1841	众多的金矿
+T220	Location-Name 1843 1848	二五三金矿
+T221	Location-Nominal 1850 1858	出类拔萃的佼佼者
+*	Coreference T221 T220
+T222	Thing-Nominal 1871 1875	一枝红杏
+T223	Person-Nominal 1880 1885	该矿的股东
+T224	Person-Nominal 1888 1894;1895 1897	腰缠万贯的大 富翁
+R33	General-Special Arg1:T224 Arg2:T223	
+T225	Thing-Nominal 1900 1903	大房子
+T226	Thing-Nominal 1906 1909	小车子
+T227	Time-Implicit 1910 1912	如今
+T228	Location-Name 1913 1916	柳林汊
+T229	Thing-Nominal 1926 1934	狭窄的鹅卵石街道
+T230	Thing-Nominal 1937 1944	平展的水泥街道
+T231	Thing-Nominal 1945 1954	美轮美奂的高楼大厦
+T232	Thing-Nominal 1956 1960	雨后春笋
+T233	Location-Name 1969 1971	湘西
+T234	Person-Name 1972 1975	沈从文
+T235	Person-Name 1978 1981	黄永玉
+T236	Person-Name 1984 1987	宋祖英
+T237	Thing-Nominal 1972 1977	沈从文的笔
+T238	Thing-Nominal 1978 1983	黄永玉的画
+T239	Thing-Nominal 1984 1989	宋祖英的歌
+R34	Ownership Arg1:T234 Arg2:T237	
+R35	Ownership Arg1:T235 Arg2:T238	
+R36	Ownership Arg1:T236 Arg2:T239	
+T240	Location-Name 1990 1993	柳林汊
+T241	Location-Name 1995 1997	湘西
+R37	Part-Whole Arg1:T240 Arg2:T241	

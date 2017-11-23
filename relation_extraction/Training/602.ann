@@ -1,0 +1,256 @@
+T1	Thing-Nominal 0 2	大地
+T2	Thing-Nominal 5 7	田水
+T3	Location-Name 10 13	白衣港
+T4	Time-Implicit 29 31	清晨
+T6	Location-Nominal 40 42	山岭
+T10	Thing-Nominal 52 56	蒙蒙细雨
+T13	Person-Nominal 71 72	爹
+T14	Thing-Nominal 75 77	嗓门
+T15	Time-Implicit 107 110	第一天
+T16	Thing-Nominal 120 121	天
+T17	Person-Nominal 123 124	爹
+T18	Location-Nominal 126 128	街上
+T23	Location-Nominal 144 146	禾场
+T24	Thing-Nominal 150 151	香
+T25	Thing-Nominal 152 153	烛
+T26	Thing-Nominal 157 159	鞭炮
+T27	Person-Nominal 171 173	农家
+T28	Thing-Nominal 184 185	天
+T29	Thing-Nominal 189 191	蛙们
+T30	Thing-Nominal 197 199	燕子
+T31	Location-Nominal 201 203	田原
+T32	Thing-Nominal 206 208	害虫
+T33	Person-Nominal 209 211	全家
+T34	Time-Implicit 211 213	大早
+T35	Thing-Nominal 216 220	好饭好菜
+T36	Thing-Nominal 223 225	米酒
+T37	Person-Nominal 227 228	爹
+R1	Family Arg1:T37 Arg2:T33	
+T38	Thing-Nominal 238 240	早饭
+T39	Location-Nominal 242 244	农舍
+T41	Person-Nominal 252 254	人马
+T42	Thing-Nominal 260 262	赤脚
+T43	Person-Nominal 255 258	一个个
+*	Coreference T43 T41
+T44	Thing-Nominal 265 267	蓑衣
+R2	Part-Whole Arg1:T42 Arg2:T43	
+T45	Thing-Nominal 270 272	斗笠
+R3	Use Arg1:T41 Arg2:T44	
+R4	Use Arg1:T41 Arg2:T45	
+T46	Thing-Nominal 276 280	斜风细雨
+T47	Person-Nominal 281 283	每人
+T48	Thing-Nominal 287 290	干稻草
+T49	Location-Nominal 293 295	田里
+T50	Thing-Nominal 297 298	秧
+T52	Thing-Nominal 307 311	绿色地毯
+R5	Located Arg1:T50 Arg2:T49	
+T56	Person-Pronoun 359 360	我
+T57	Person-Pronoun 377 378	你
+T58	Person-Pronoun 390 392	我们
+T59	Thing-Nominal 393 395	沟水
+T60	Person-Nominal 400 402	爹娘
+R8	Family Arg1:T58 Arg2:T57	
+T61	Time-Implicit 405 408	大清早
+T62	Person-Nominal 414 417	城里人
+T63	Thing-Nominal 420 422	鞋袜
+T64	Person-Nominal 425 426	爹
+T65	Person-Pronoun 433 434	他
+*	Coreference T65 T64
+T66	Thing-Nominal 439 440	秧
+T68	Thing-Nominal 456 458	稻草
+T70	Person-Nominal 468 470	小孩
+T71	Thing-Nominal 471 473	头发
+R9	Ownership Arg1:T70 Arg2:T71	
+T72	Person-Nominal 484 486	农民
+T73	Person-Nominal 497 498	爹
+T74	Person-Name 501 503	孟子
+T75	Location-Nominal 549 551	秧田
+T76	Thing-Nominal 553 554	水
+R10	Located Arg1:T76 Arg2:T75	
+T77	Thing-Nominal 559 561	双脚
+T78	Thing-Nominal 563 565	浮泥
+R11	Located Arg1:T77 Arg2:T78	
+T79	Thing-Nominal 569 571	冷水
+T80	Thing-Nominal 604 606	蚂蝗
+T83	Thing-Nominal 618 622	我的脚杆
+T84	Person-Pronoun 628 629	我
+T85	Thing-Nominal 634 635	血
+R13	Part-Whole Arg1:T85 Arg2:T84	
+T89	Person-Pronoun 658 659	我
+T90	Thing-Nominal 659 661	眼皮
+R14	Ownership Arg1:T89 Arg2:T90	
+T92	Thing-Pronoun 683 684	它
+T93	Person-Pronoun 681 682	我
+T94	Thing-Nominal 689 692	小竹棍
+T95	Thing-Pronoun 693 694	它
+T96	Location-Nominal 702 704	田埂
+T97	Person-Nominal 713 714	爹
+T98	Person-Pronoun 715 716	我
+T99	Thing-Nominal 722 724	蚂蝗
+T100	Person-Pronoun 736 737	你
+T101	Thing-Nominal 757 759	蚂蝗
+R15	Family Arg1:T97 Arg2:T98	
+T102	Time-Implicit 767 769	春天
+T105	Thing-Nominal 785 787	太阳
+T106	Location-Nominal 791 793	云层
+R16	Near Arg1:T105 Arg2:T106	
+T107	Person-Nominal 796 797	人
+T108	Thing-Nominal 802 804	蓑衣
+T109	Thing-Nominal 806 808	斗笠
+T110	Person-Pronoun 814 816	我们
+*	Coreference T110 T107
+R17	Use Arg1:T110 Arg2:T108	
+R18	Use Arg1:T110 Arg2:T109	
+T111	Thing-Nominal 825 826;827 828	泥 水
+T112	Thing-Nominal 830 832	秧苗
+R19	Located Arg1:T112 Arg2:T111	
+T117	Thing-Nominal 876 877	牛
+T118	Location-Nominal 881 883	田野
+T119	Thing-Nominal 888 890	波光
+T125	Location-Nominal 931 933	田中
+T124	Thing-Nominal 928 929	秧
+T126	Thing-Nominal 935 938	一个个
+*	Coreference T126 T124
+T127	Location-Nominal 943 945	田里
+T130	Thing-Nominal 976 983	嘹亮悠长的声音
+T131	Person-Nominal 988 990	汉子
+T133	Thing-Nominal 1000 1004	满垅稻田
+T134	Thing-Nominal 1010 1012	春水
+T135	Thing-Nominal 1016 1017	风
+T136	Thing-Nominal 1021 1022	云
+T137	Thing-Nominal 1026 1028;1029 1030	布谷 鸟
+T139	Location-Nominal 1070 1072	水田
+T140	Thing-Nominal 1078 1080	秧苗
+T141	Person-Nominal 1082 1088	全家男女老少
+T142	Person-Nominal 1093 1095	每人
+T145	Thing-Nominal 1111 1113	手腕
+R24	Part-Whole Arg1:T145 Arg2:T142	
+T146	Person-Nominal 1134 1136	二姐
+T147	Thing-Nominal 1141 1142	鸡
+T148	Thing-Nominal 1143 1144	米
+T149	Person-Pronoun 1151 1152	我
+R26	Family Arg1:T149 Arg2:T146	
+T150	Person-Pronoun 1157 1159	他们
+T151	Person-Pronoun 1174 1176	他们
+T152	Person-Pronoun 1177 1178	我
+T153	Thing-Nominal 1179 1181	秧苗
+T154	Location-Nominal 1184 1185	田
+R27	Located Arg1:T153 Arg2:T154	
+T155	Person-Nominal 1188 1189	爹
+T156	Thing-Nominal 1195 1200	‘烟壶蔸’
+T157	Person-Nominal 1228 1229	爹
+T158	Person-Pronoun 1236 1237	我
+T159	Thing-Nominal 1282 1284	秧苗
+T160	Person-Nominal 1305 1306	村
+T161	Person-Nominal 1307 1308	村
+R28	Social Arg1:T160 Arg2:T161	
+T162	Person-Nominal 1309 1310	组
+T163	Person-Nominal 1311 1312	组
+R29	Social Arg1:T162 Arg2:T163	
+T164	Person-Nominal 1313 1314	户
+T165	Person-Nominal 1315 1316	户
+R30	Social Arg1:T164 Arg2:T165	
+T166	Person-Nominal 1342 1344	农家
+T167	Time-Implicit 1362 1366	晌午时分
+T168	Person-Nominal 1367 1368	妈
+T169	Thing-Nominal 1371 1378	一袋油炸红薯片
+T170	Thing-Nominal 1379 1382	炒花生
+T171	Thing-Nominal 1383 1386	爆米花
+T172	Person-Pronoun 1403 1405	我们
+R31	Family Arg1:T172 Arg2:T168	
+T173	Thing-Nominal 1408 1409	手
+R32	Ownership Arg1:T172 Arg2:T173	
+T174	Thing-Nominal 1412 1414	腰杆
+T175	Location-Nominal 1417 1419	田埂
+T176	Thing-Nominal 1424 1428	胜利果实
+T177	Person-Nominal 1470 1472	妹子
+T178	Person-Pronoun 1474 1475	我
+T179	Thing-Nominal 1485 1487	鼻头
+T180	Thing-Nominal 1487 1489	嘴巴
+T181	Thing-Nominal 1496 1500	一群鸽子
+T182	Location-Nominal 1501 1503	天空
+T183	Thing-Nominal 1537 1539	青山
+T184	Thing-Nominal 1540 1542	绿水
+T185	Thing-Nominal 1534 1536	笑脸
+T186	Thing-Nominal 1531 1533	汗珠
+T187	Thing-Nominal 1580 1582	土地
+T188	Person-Nominal 1586 1587	人
+T189	Person-Nominal 1592 1593	人
+T190	Thing-Nominal 1594 1598	一粒种子
+T191	Person-Nominal 1628 1630	农民
+T192	Thing-Nominal 1632 1634	汗水
+T193	Time-Explicit 1668 1672	一个星期
+T194	Time-Explicit 1659 1661	五一
+T195	Person-Pronoun 1673 1675	我们
+T196	Thing-Nominal 1682 1684	风雨
+T197	Thing-Nominal 1687 1689	太阳
+T198	Person-Nominal 1691 1693	绣女
+T199	Thing-Nominal 1700 1701	腰
+T200	Thing-Nominal 1704 1705	牙
+T202	Location-Name 1735 1738	白衣港
+T203	Location-Nominal 1739 1741	稻田
+R33	Part-Whole Arg1:T203 Arg2:T202	
+T204	Person-Nominal 1762 1764	农民
+T205	Person-Nominal 1773 1777	一个农民
+T206	Person-Nominal 1816 1818	农民
+T207	Thing-Nominal 1819 1820;1821 1822	五 谷
+T208	Person-Nominal 1833 1836	青壮年
+T209	Person-Nominal 1863 1867	留守老人
+T210	Person-Nominal 1868 1870	妇女
+T211	Person-Pronoun 1934 1935	我
+T212	Person-Nominal 1936 1939	父辈们
+T213	Thing-Nominal 1949 1953	勤劳双手
+T214	Person-Pronoun 1925 1926	我
+T19	Thing-Nominal 130 134	两斤猪肉
+T20	Thing-Nominal 137 141	一只雄鸡
+T5	Thing-Nominal 32 37	淡淡的雾霭
+T7	Location-Nominal 43 45	屋舍
+T8	Location-Nominal 46 48	村梢
+T9	Location-Nominal 49 51	田园
+T11	Location-Nominal 59 61	大地
+R34	Part-Whole Arg1:T14 Arg2:T13	
+R35	Use Arg1:T17 Arg2:T24	
+R36	Use Arg1:T17 Arg2:T25	
+T12	Person-Nominal 162 168	“天地老爷”
+T21	Time-Implicit 182 184	此时
+T22	Location-Nominal 302 306	块块秧田
+T40	Thing-Nominal 317 323	根根嫩绿秧苗
+R6	Located Arg1:T40 Arg2:T22	
+T51	Location-Nominal 328 334	毛茸茸的枝丫
+T53	Thing-Nominal 338 343	晶莹的雨珠
+R7	Located Arg1:T53 Arg2:T51	
+T54	Thing-Nominal 447 452	哗哗的泥水
+T55	Location-Nominal 463 465	田里
+T67	Thing-Nominal 549 554	秧田中的水
+T69	Thing-Nominal 611 615	两条蚂蝗
+R12	Located Arg1:T69 Arg2:T83	
+T81	Thing-Nominal 638 640	一条
+T82	Thing-Nominal 648 657	另一条没喂饱的蚂蝗
+T86	Thing-Nominal 670 680	这条贪婪的“吸血鬼”
+*	Coreference T86 T81
+T87	Thing-Nominal 781 784	一担秧
+T88	Location-Nominal 835 842	雨过天晴的田埂
+T91	Thing-Nominal 848 852	十个脚趾
+T103	Location-Nominal 858 864	窄窄的田埂路
+R20	Located Arg1:T91 Arg2:T103	
+T104	Location-Nominal 873 883	刚刚被牛耕耘过的田野
+T113	Thing-Nominal 896 900	周边绿树
+T114	Location-Nominal 896 905	周边绿树环绕的村庄
+T115	Thing-Nominal 906 913	天上的蓝天白云
+R21	Near Arg1:T114 Arg2:T104	
+T116	Thing-Nominal 916 926	一幅美丽的田园山水画
+T120	Thing-Nominal 946 952	一幅老的画卷
+T121	Thing-Nominal 956 962	一幅新的画卷
+T122	Person-Nominal 986 990	哪位汉子
+R22	Located Arg1:T140 Arg2:T139	
+T123	Person-Nominal 1063 1069	德高望重的爹
+R23	Family Arg1:T123 Arg2:T141	
+T128	Thing-Nominal 1096 1099	六蔸禾
+T129	Thing-Nominal 1115 1118	脚膝盖
+R25	Located Arg1:T181 Arg2:T182	
+R37	Ownership Arg1:T191 Arg2:T192	
+T132	Thing-Nominal 1677 1679	头皮
+R38	Part-Whole Arg1:T132 Arg2:T195	
+T138	Location-Nominal 1722 1727	十几亩稻田
+T143	Location-Nominal 1735 1741	白衣港的稻田
+T144	Person-Pronoun 1885 1887	他们

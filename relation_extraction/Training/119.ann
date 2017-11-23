@@ -1,0 +1,210 @@
+T1	Time-Implicit 0 6	春节大假期间
+T2	Person-Pronoun 7 8	我
+T3	Location-Name 12 24	乌鲁木齐雅玛里克山的顶巅
+T4	Location-Nominal 25 27	山上
+T5	Thing-Nominal 28 30	冰雪
+R1	Located Arg1:T5 Arg2:T4	
+T6	Location-Nominal 33 35	空中
+T7	Thing-Nominal 38 40	小雪
+R2	Located Arg1:T7 Arg2:T6	
+T8	Thing-Nominal 41 42	风
+T9	Thing-Nominal 47 49	刀子
+T10	Person-Nominal 52 53	人
+T11	Thing-Nominal 53 55	肌肤
+T12	Location-Nominal 56 58	山上
+T13	Thing-Nominal 61 68	隐隐约约的路迹
+R3	Located Arg1:T13 Arg2:T12	
+T14	Person-Nominal 70 78	管理山林的清洁工
+T15	Thing-Nominal 72 74	山林
+T16	Thing-Nominal 85 87	寒风
+T17	Person-Pronoun 98 99	我
+T18	Person-Pronoun 104 105	我
+T19	Thing-Pronoun 110 111	它
+T20	Thing-Nominal 128 129	根
+T21	Person-Pronoun 139 141	自己
+T22	Thing-Nominal 141 145	愿走的路
+T23	Person-Pronoun 148 150	自己
+T24	Thing-Nominal 156 158	雪天
+T25	Location-Nominal 158 168	高低错落的茫茫山野中
+T26	Person-Pronoun 171 172	我
+T27	Person-Pronoun 183 184	我
+T28	Location-Nominal 187 198	人生的坎坷道和荆棘林中
+T29	Thing-Nominal 227 234	这山的地形坡谷
+T30	Person-Pronoun 234 235	我
+T31	Person-Pronoun 246 247	我
+T32	Thing-Nominal 251 259	一根长长的干树枝
+T33	Thing-Nominal 260 264	探路之物
+T34	Person-Nominal 282 283	人
+T35	Time-Implicit 315 319	古今中外
+T36	Person-Nominal 323 330	只胜不败的将军
+T37	Person-Pronoun 345 346	我
+T38	Metric 352 357	零下21度
+R4	Use Arg1:T31 Arg2:T32	
+T39	Person-Pronoun 358 359	我
+T40	Person-Pronoun 372 373	我
+T41	Thing-Nominal 376 380	两个毛衣
+T42	Thing-Nominal 386 391	藏蓝色大衣
+T43	Location-Nominal 392 396	大衣领内
+T44	Thing-Nominal 400 405;406 408	黑白间点的 围巾
+R5	Located Arg1:T44 Arg2:T43	
+T45	Person-Pronoun 409 410	我
+T46	Thing-Nominal 414 416	帽子
+T47	Person-Nominal 420 422	人们
+T48	Thing-Nominal 440 442	帽子
+T49	Thing-Nominal 442 444	头皮
+T50	Thing-Nominal 452 454	帽子
+T51	Thing-Nominal 456 458	大脑
+T52	Thing-Nominal 459 465	大自然的清气
+T53	Thing-Nominal 472 474	头脑
+T54	Thing-Nominal 520 521	山
+T55	Thing-Nominal 522 523	海
+T56	Person-Nominal 551 552	人
+T57	Person-Nominal 556 557	人
+T58	Person-Nominal 561 562	人
+T59	Person-Nominal 566 567	人
+T60	Person-Nominal 574 575	人
+T61	Person-Nominal 579 580	人
+T62	Person-Nominal 584 585	人
+T63	Person-Nominal 590 591	人
+T64	Person-Nominal 594 595	人
+T65	Thing-Pronoun 650 651	它
+T66	Person-Pronoun 652 653	我
+T67	Thing-Nominal 657 659	帽子
+R6	Ownership Arg1:T66 Arg2:T67	
+T68	Person-Pronoun 670 671	我
+T69	Thing-Nominal 697 699	雪花
+T70	Person-Pronoun 700 701	我
+T71	Thing-Nominal 706 708	树木
+T72	Person-Pronoun 709 710	我
+T73	Location-Nominal 715 725	这些坡坡岭岭道旁渠畔
+T74	Thing-Nominal 726 730;731 738	白杨、垂 柳、青草、野花
+R7	Located Arg1:T74 Arg2:T73	
+T75	Time-Implicit 739 741	夏季
+T76	Thing-Nominal 760 762	秋风
+T77	Thing-Pronoun 765 767	它们
+*	Coreference T77 T74
+T78	Thing-Nominal 768 770	叶子
+R8	Part-Whole Arg1:T78 Arg2:T77	
+T79	Thing-Nominal 773 775	枝干
+R9	Part-Whole Arg1:T79 Arg2:T77	
+T80	Person-Nominal 792 794	女子
+T81	Person-Nominal 800 802	男子
+T82	Person-Pronoun 816 817	谁
+T83	Person-Pronoun 826 827	我
+T84	Person-Nominal 831 843	同一个时间段和年龄段的人
+T85	Person-Nominal 860 862	女子
+T86	Person-Nominal 875 877	女子
+T87	Person-Nominal 883 885	徐娘
+T88	Person-Nominal 890 892	男子
+T89	Person-Nominal 905 907	男子
+T90	Thing-Nominal 910 912	土灰
+T91	Thing-Nominal 908 909	面
+T92	Person-Nominal 924 928	不同龄者
+T93	Thing-Nominal 967 969	目光
+T94	Person-Pronoun 972 973	我
+T95	Time-Implicit 976 980	15年前
+T96	Location-Nominal 998 1000	眼前
+T97	Thing-Nominal 1001 1003	山野
+R10	Located Arg1:T97 Arg2:T96	
+T98	Time-Implicit 1006 1008	秋天
+T99	Thing-Nominal 1011 1013	银装
+T100	Person-Pronoun 1025 1026	我
+T101	Location-Nominal 1045 1047	山顶
+T102	Thing-Nominal 1048 1050	凉亭
+R11	Located Arg1:T102 Arg2:T101	
+T103	Location-Nominal 1054 1056	山巅
+T104	Person-Pronoun 1057 1058	我
+T105	Person-Pronoun 1071 1072	我
+T106	Location-Nominal 1076 1080	脑腔中的
+T107	Thing-Nominal 1080 1085	杂质和腐物
+R12	Located Arg1:T107 Arg2:T106	
+T108	Person-Pronoun 1103 1104	我
+T109	Time-Implicit 1122 1126	少年时代
+T110	Time-Implicit 1127 1129	那时
+*	Coreference T110 T109
+T111	Person-Pronoun 1170 1171	我
+T112	Metric 1176 1180	60多年
+T113	Person-Pronoun 1188 1189	我
+T114	Person-Pronoun 1205 1206	我
+T115	Person-Pronoun 1222 1223	我
+T116	Time-Implicit 1227 1229	此时
+T117	Location-Pronoun 1229 1231	此地
+T118	Person-Pronoun 1232 1233	我
+T119	Thing-Nominal 1238 1242	苍天厚土
+T120	Person-Nominal 1263 1264	人
+T121	Person-Pronoun 1268 1269	我
+T122	Person-Pronoun 1278 1279	我
+T123	Thing-Nominal 1280 1281	胸
+R13	Part-Whole Arg1:T123 Arg2:T122	
+T124	Thing-Nominal 1284 1297	西北名城乌鲁木齐的千楼万厦
+T125	Location-Name 1284 1292	西北名城乌鲁木齐
+R14	Located Arg1:T124 Arg2:T125	
+T126	Thing-Nominal 1300 1302	雪花
+T127	Person-Pronoun 1307 1308	我
+T128	Thing-Nominal 1308 1310	双手
+R15	Part-Whole Arg1:T128 Arg2:T127	
+T129	Thing-Nominal 1312 1314	雪花
+T130	Person-Pronoun 1317 1318	我
+T131	Location-Nominal 1320 1322	眼前
+T132	Thing-Nominal 1325 1332	一枚枚六角雪花
+T133	Person-Pronoun 1336 1337	我
+T134	Location-Nominal 1337 1338;1339 1342	手 心儿里
+R16	Located Arg1:T132 Arg2:T134	
+T135	Thing-Pronoun 1344 1345	它
+*	Coreference T135 T132
+T136	Thing-Nominal 1366 1368	雪花
+T137	Time-Implicit 1373 1378	春夏秋三季
+T138	Person-Pronoun 1378 1379	你
+T139	Thing-Pronoun 1384 1385	她
+*	Coreference T139 T136
+T140	Person-Pronoun 1391 1392	你
+T141	Thing-Pronoun 1397 1398	她
+T143	Person-Pronoun 1405 1406	你
+T142	Time-Implicit 1412 1414	寒冬
+T144	Thing-Nominal 1417 1419	雪花
+T145	Person-Nominal 1429 1432	许多人
+T146	Person-Pronoun 1447 1448	他
+T147	Time-Implicit 1442 1444	冬季
+T148	Thing-Nominal 1449 1451	雪花
+*	Coreference T146 T145
+T149	Time-Implicit 1452 1454	冬季
+T150	Person-Pronoun 1459 1460	他
+T151	Thing-Nominal 1470 1472	雪花
+T152	Thing-Nominal 1475 1476	脑
+T153	Person-Pronoun 1478 1479	谁
+T154	Time-Implicit 1480 1482	冬季
+T155	Person-Pronoun 1488 1489	他
+T156	Thing-Nominal 1496 1498	雪花
+T157	Time-Implicit 1488 1499	他忽有一天又想起雪花时
+T158	Thing-Nominal 1500 1502	雪花
+T159	Thing-Nominal 1505 1507	流水
+T160	Time-Implicit 1514 1516	冬季
+T161	Thing-Nominal 1528 1530	雪花
+T162	Thing-Nominal 1536 1540	玉树琼枝
+T163	Thing-Nominal 1544 1553	栩栩如生的冰雕雪人
+T164	Thing-Nominal 1557 1570	茫茫千里壮观气派的冰雪世界
+T165	Thing-Pronoun 1572 1573	我
+T166	Thing-Pronoun 1581 1582	它
+T167	Thing-Pronoun 1591 1592	它
+*	Coreference T165 T163
+T168	Person-Nominal 1598 1601	许多人
+T169	Time-Implicit 1615 1617	春天
+T170	Thing-Nominal 1621 1632	山明水秀万紫千红的胜景
+T171	Thing-Nominal 1679 1683	人间诸事
+T172	Person-Nominal 1698 1700	少年
+T173	Person-Nominal 1747 1749	人们
+T174	Person-Pronoun 1875 1876	我
+T175	Thing-Nominal 1917 1918	金
+T176	Thing-Nominal 1923 1925	飞雪
+T177	Person-Pronoun 1926 1927	我
+T178	Thing-Nominal 1941 1948	许多车辆和行人
+T179	Person-Pronoun 1949 1951	他们
+T180	Person-Nominal 1946 1948	行人
+*	Coreference T179 T180
+T181	Person-Pronoun 1972 1973	我
+T182	Person-Nominal 1982 1983	人
+T183	Thing-Nominal 1993 1995	雪花
+T184	Person-Pronoun 1997 1998	我
+T185	Thing-Nominal 2000 2001	山
+T186	Thing-Nominal 2002 2004	路迹
+T187	Person-Pronoun 2007 2008	我

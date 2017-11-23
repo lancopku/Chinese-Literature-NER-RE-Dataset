@@ -1,0 +1,42 @@
+T1	Thing-Nominal 4 6	彩排
+T2	Time-Implicit 7 9	每天
+T3	Thing-Nominal 11 15	现场直播
+T4	Person-Pronoun 42 44	自已
+T5	Thing-Nominal 45 47	滴水
+T6	Thing-Nominal 48 49	石
+T7	Thing-Nominal 68 72	中国书画
+T8	Metric 93 97	有限时间
+T9	Thing-Nominal 131 133	信息
+T10	Location-Nominal 134 137	脑海里
+R1	Located Arg1:T9 Arg2:T10	
+T11	Thing-Nominal 143 145	信息
+T12	Thing-Nominal 148 150	绘画
+T13	Thing-Nominal 155 160	这样的作品
+*	Coreference T13 T12
+T14	Abstract 173 176	正能量
+T15	Abstract 179 184	人间的大爱
+T16	Thing-Name 284 286	自然
+T17	Thing-Nominal 289 291	真经
+T18	Thing-Nominal 295 301	创作出的作品
+T19	Person-Nominal 302 304	名师
+T20	Thing-Nominal 326 331	学到的知识
+T21	Thing-Nominal 191 197	任何一门知识
+T22	Thing-Nominal 334 336	作品
+*	Coreference T22 T18
+T23	Thing-Nominal 342 344	书画
+T24	Thing-Nominal 361 363	画面
+T25	Thing-Nominal 372 374	书画
+T26	Thing-Nominal 418 422	书画作品
+T27	Person-Pronoun 424 425	你
+T28	Person-Pronoun 442 443	你
+T29	Thing-Nominal 455 459	你的书画
+T30	Person-Pronoun 455 456	你
+R2	Create Arg1:T30 Arg2:T29	
+T31	Person-Pronoun 469 470	你
+T32	Thing-Nominal 475 477	书画
+T33	Thing-Nominal 494 498	中国书画
+T34	Person-Pronoun 502 503	你
+T35	Person-Pronoun 510 511	我
+T36	Abstract 526 528	心灯
+T37	Thing-Nominal 532 536	中国书画
+T38	Thing-Nominal 572 576	中国书画

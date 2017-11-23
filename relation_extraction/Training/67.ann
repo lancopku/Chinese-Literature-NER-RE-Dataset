@@ -1,0 +1,169 @@
+T1	Thing-Nominal 0 4	一场春雨
+T2	Time-Implicit 12 16	暮春三月
+T3	Time-Implicit 19 24	暮春的一天
+T4	Person-Pronoun 24 25	我
+T5	Thing-Nominal 31 39	那车水马龙的街道
+T6	Location-Nominal 31 40	那车水马龙的街道上
+T7	Location-Nominal 54 65	一不知名的建筑工地旁边
+T8	Location-Pronoun 76 79	这工地
+*	Coreference T8 T7
+T9	Location-Nominal 80 86	镇集市的一角
+R1	Near Arg1:T8 Arg2:T9	
+T10	Person-Nominal 87 93	施工的工人们
+T11	Person-Pronoun 105 107	他们
+*	Coreference T11 T10
+T12	Person-Nominal 109 118	二三十岁的青壮男女
+R2	General-Special Arg1:T12 Arg2:T11	
+T13	Location-Nominal 119 124	干活的场地
+T14	Location-Nominal 131 136;137 146	那矗立云端 的运料架周围与上下
+T15	Thing-Nominal 131 136;137 141	那矗立云端 的运料架
+T16	Thing-Nominal 152 157	这尊运料架
+*	Coreference T16 T15 T23
+T17	Location-Nominal 159 165	整个建筑工地
+T18	Location-Nominal 54 63	一不知名的建筑工地
+*	Coreference T17 T18
+T19	Thing-Nominal 172 181	一个整体作业流水线
+T20	Person-Nominal 182 187	建筑工人们
+T21	Person-Nominal 202 213	运料架下面的那个小伙子
+T22	Thing-Nominal 219 229	装满混凝土料的方兜车
+R3	Use Arg1:T21 Arg2:T22	
+T23	Thing-Nominal 202 205	运料架
+T24	Thing-Nominal 232 242	运料架传送器的底座板
+R4	Part-Whole Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 248 250	嘴巴
+R5	Part-Whole Arg1:T25 Arg2:T21	
+T26	Thing-Nominal 252 254	口哨
+R6	Create Arg1:T21 Arg2:T26	
+T27	Thing-Nominal 257 258;259 260	毛 巾
+R7	Use Arg1:T21 Arg2:T27	
+T28	Thing-Nominal 262 264	脸颊
+R8	Part-Whole Arg1:T28 Arg2:T21	
+T29	Thing-Nominal 265 270	成串的汗水
+R9	Located Arg1:T29 Arg2:T28	
+T30	Thing-Nominal 278 282	送料底座
+*	Coreference T30 T24
+T31	Person-Nominal 292 303	运料架上边的那对小伙子
+R10	Social Arg1:T31 Arg2:T21	
+T32	Thing-Nominal 309 312	料兜车
+R11	Use Arg1:T31 Arg2:T32	
+T33	Thing-Nominal 318 319;320 321	房 顶
+T34	Thing-Nominal 333 344	古今流传下来的劳动号子
+T35	Person-Nominal 348 358	房顶那三个弓背打蹲的
+T36	Thing-Nominal 362 364	披刀
+R12	Use Arg1:T35 Arg2:T36	
+T37	Thing-Nominal 367 374	兜车的混凝土料
+T38	Thing-Nominal 385 387	眼睛
+T39	Thing-Nominal 401 405	流行歌曲
+T40	Organization-Nominal 412 416	运料车队
+T41	Thing-Nominal 412 427	运料车队那“笛笛笛笛”的喇叭声
+T42	Person-Nominal 430 434	构筑工人
+T43	Thing-Nominal 430 441;442 446	构筑工人那“叮叮当当” 的砌砖声
+R13	Create Arg1:T40 Arg2:T41	
+R14	Create Arg1:T42 Arg2:T43	
+T44	Thing-Nominal 449 464	搅拌机器那“呼呼隆隆”的和料声
+T45	Thing-Nominal 449 453	搅拌机器
+T46	Thing-Nominal 468 476	一曲动听的交响乐
+T47	Time-Implicit 478 480	暮春
+T48	Location-Nominal 481 490	那一望无际的乡野里
+T49	Thing-Nominal 499 501	麦田
+R15	Located Arg1:T49 Arg2:T48	
+T50	Thing-Nominal 510 512	果园
+R16	Located Arg1:T50 Arg2:T48	
+T51	Thing-Nominal 521 523	水面
+R17	Located Arg1:T51 Arg2:T48	
+T52	Thing-Nominal 532 534	林间
+R18	Located Arg1:T52 Arg2:T48	
+T53	Thing-Pronoun 491 497	那浓郁葱茏的
+*	Coreference T53 T49
+T54	Thing-Pronoun 502 508	那花枝招展的
+*	Coreference T54 T50
+T55	Thing-Pronoun 513 519	那鹅鸣鱼跃的
+*	Coreference T55 T51
+T56	Thing-Pronoun 524 530	那枝丫吐翠的
+*	Coreference T56 T52
+T57	Thing-Pronoun 536 537	这
+T58	Thing-Nominal 540 549	一幅优雅精美的画卷
+T59	Time-Implicit 556 558	暮春
+T60	Location-Nominal 559 568	那一眼难尽的乡野里
+T61	Thing-Pronoun 569 575	那靛蓝镶银的
+T62	Thing-Nominal 576 579	豌豆花
+*	Coreference T61 T62
+R19	Located Arg1:T62 Arg2:T60	
+T63	Thing-Nominal 587 590	油菜花
+T64	Thing-Nominal 598 601	萝卜花
+T65	Thing-Nominal 609 612	泡桐花
+R20	Located Arg1:T63 Arg2:T60	
+R21	Located Arg1:T64 Arg2:T60	
+R22	Located Arg1:T65 Arg2:T60	
+T66	Thing-Pronoun 580 586	那黄里透青的
+*	Coreference T66 T63
+T67	Thing-Pronoun 591 597	那白边紫心的
+*	Coreference T67 T64
+T68	Thing-Pronoun 602 608	那紫边白心的
+*	Coreference T68 T65
+T69	Person-Nominal 615 616	人
+T70	Time-Implicit 621 623	暮春
+T71	Location-Nominal 624 633	那一马平川的乡野里
+T72	Thing-Nominal 641 644	温苗床
+T73	Thing-Nominal 652 655	葡萄架
+T74	Thing-Nominal 663 666	农用车
+T75	Thing-Nominal 674 677	厂房楼
+R23	Located Arg1:T72 Arg2:T71	
+R24	Located Arg1:T73 Arg2:T71	
+R25	Located Arg1:T74 Arg2:T71	
+R26	Located Arg1:T75 Arg2:T71	
+T76	Thing-Pronoun 634 640	那伏卧地头的
+*	Coreference T76 T72
+T77	Thing-Pronoun 645 651	那星罗棋布的
+*	Coreference T77 T73
+T78	Thing-Pronoun 656 662	那沿路奔驰的
+*	Coreference T78 T74
+T79	Thing-Pronoun 667 673	那独占鳌头的
+*	Coreference T79 T75
+T80	Time-Implicit 680 682	暮春
+T81	Time-Implicit 738 740	暮春
+T82	Time-Implicit 795 797	暮春
+T83	Time-Implicit 843 845	暮春
+T84	Time-Implicit 893 895	暮春
+T85	Thing-Nominal 680 685	暮春的小河
+T86	Thing-Nominal 690 692	河水
+R27	Part-Whole Arg1:T86 Arg2:T85	
+T87	Thing-Nominal 700 709	水下悠然自得的鱼虾
+T88	Thing-Nominal 713 723	水下见隐隐闪动的翠草
+T89	Thing-Nominal 727 736	水下蠕蠕前行的河蚌
+R28	Located Arg1:T87 Arg2:T86	
+R29	Located Arg1:T88 Arg2:T86	
+R30	Located Arg1:T89 Arg2:T86	
+T90	Location-Nominal 738 743	暮春的河滩
+T91	Thing-Nominal 748 750	黄沙
+R31	Located Arg1:T91 Arg2:T90	
+T92	Location-Nominal 758 760	滩上
+*	Coreference T92 T90
+T93	Thing-Nominal 760 767	机车轮胎的声响
+R32	Located Arg1:T93 Arg2:T92	
+T94	Location-Nominal 771 773	滩上
+T95	Thing-Nominal 773 780	年轻小伙的锹声
+R33	Located Arg1:T95 Arg2:T94	
+T96	Person-Nominal 773 777	年轻小伙
+T97	Location-Nominal 784 786	滩上
+T98	Thing-Nominal 786 793	漂亮姑娘的歌喉
+R34	Located Arg1:T98 Arg2:T97	
+T99	Person-Nominal 786 790	漂亮姑娘
+T100	Thing-Nominal 795 800	暮春的太阳
+T101	Thing-Nominal 805 807	阳光
+T102	Location-Nominal 814 817	河面上
+T103	Location-Nominal 824 827	渔船内
+T104	Thing-Nominal 827 829	鱼虾
+T105	Thing-Nominal 838 839	画
+T106	Thing-Nominal 843 848	暮春的春风
+T107	Location-Nominal 859 862	泥土里
+T108	Thing-Nominal 862 864	泥土
+T109	Thing-Nominal 872 875	草木丛
+T110	Thing-Nominal 876 878	百花
+R35	Located Arg1:T109 Arg2:T110	
+T111	Thing-Nominal 905 911	暮春里的小河
+T112	Thing-Nominal 923 929	暮春里的太阳
+T113	Thing-Nominal 932 938	暮春里的春风
+*	Coreference T111 T85
+*	Coreference T112 T100
+*	Coreference T113 T106

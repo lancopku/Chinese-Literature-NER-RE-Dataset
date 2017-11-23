@@ -1,0 +1,246 @@
+T1	Time-Implicit 0 2	清晨
+T2	Thing-Nominal 3 8	红红的太阳
+T3	Location-Nominal 10 12	东方
+T4	Location-Nominal 15 16	屋
+T5	Thing-Nominal 22 31	挂在客厅墙上的红花
+T6	Location-Nominal 24 26	客厅
+T7	Thing-Nominal 26 27	墙
+T8	Person-Pronoun 34 35	我
+T9	Person-Nominal 42 44	老伴
+T10	Thing-Nominal 56 60	这些红花
+*	Coreference T10 T5 T12 T17 T19
+T11	Person-Pronoun 63 64	她
+*	Coreference T11 T9
+T12	Thing-Nominal 67 70	无价宝
+T13	Time-Implicit 75 79	元旦那天
+T14	Person-Name 80 85	小孙子林林
+T15	Person-Pronoun 90 92	奶奶
+T16	Person-Pronoun 93 94	我
+*	Coreference T16 T14
+T17	Thing-Nominal 95 97	红花
+T18	Person-Pronoun 100 101	她
+*	Coreference T18 T15
+T19	Thing-Pronoun 107 108	它
+T21	Thing-Nominal 131 133	奖牌
+T22	Thing-Nominal 140 143	大红花
+T23	Metric 137 140	51朵
+T24	Thing-Nominal 148 150	金牌
+T25	Metric 145 148	51块
+T26	Metric 152 155	21朵
+T27	Thing-Nominal 155 158	中红花
+T28	Metric 160 163	21块
+T29	Thing-Nominal 163 165	银牌
+T30	Metric 167 170	28朵
+T31	Thing-Nominal 170 173	小红花
+T32	Metric 175 178	28块
+T33	Thing-Nominal 178 180	铜牌
+T34	Metric 182 184	块块
+T20	Person-Pronoun 120 124	咱(们)
+T35	Person-Nominal 124 128	中国选手
+*	Coreference T35 T20
+T36	Person-Pronoun 190 191	咱
+T37	Person-Nominal 191 194	中国人
+*	Coreference T37 T36
+T38	Thing-Nominal 207 209	阳光
+T39	Metric 205 207	一缕
+T40	Location-Nominal 212 214	客厅
+T41	Thing-Nominal 215 216	墙
+T42	Thing-Nominal 218 220	红花
+T43	Person-Pronoun 229 230	我
+T44	Thing-Nominal 236 245	浩大壮观的黄河之水
+T45	Person-Nominal 251 253	爷辈
+T46	Person-Nominal 254 256	父辈
+T47	Person-Nominal 257 259	吾辈
+T48	Person-Nominal 260 262	儿辈
+T49	Person-Nominal 263 265	孙辈
+R1	Family Arg1:T46 Arg2:T45	
+R2	Family Arg1:T47 Arg2:T46	
+R3	Family Arg1:T48 Arg2:T47	
+R4	Family Arg1:T49 Arg2:T48	
+T50	Time-Explicit 292 299	1948年8月
+T51	Person-Pronoun 289 290	我
+T52	Person-Nominal 300 302	父亲
+T53	Person-Nominal 303 305	爷爷
+R5	Family Arg1:T52 Arg2:T51	
+R6	Family Arg1:T53 Arg2:T52	
+T54	Person-Nominal 307 311	普通农民
+R7	General-Special Arg1:T54 Arg2:T52	
+R8	General-Special Arg1:T54 Arg2:T53	
+T55	Abstract 318 322	三座大山
+T56	Time-Implicit 314 317	旧社会
+T57	Person-Nominal 328 330	母亲
+T58	Person-Pronoun 332 333	我
+R9	Family Arg1:T57 Arg2:T51	
+T59	Person-Nominal 342 344	子女
+T60	Location-Nominal 359 363	村西土壕
+T61	Person-Nominal 385 386	人
+T62	Time-Implicit 375 377	天明
+T63	Person-Nominal 394 396	爷爷
+T64	Person-Nominal 351 353	父亲
+T65	Time-Implicit 353 355	夜里
+T66	Time-Explicit 401 404	第二年
+T67	Location-Nominal 405 407	家乡
+T68	Time-Explicit 429 436	上世纪五十年代
+T69	Organization-Nominal 420 424	我们全家
+T70	Person-Nominal 426 428	爷爷
+T71	Person-Pronoun 440 441	我
+T72	Person-Pronoun 444 445	他
+*	Coreference T72 T70
+T73	Thing-Nominal 447 452	紧攥的拳头
+R10	Part-Whole Arg1:T73 Arg2:T72	
+T74	Person-Nominal 454 456	父亲
+T75	Person-Nominal 457 461	我们孙辈
+T76	Organization-Nominal 464 466	国家
+T77	Organization-Nominal 472 474	中国
+*	Coreference T77 T76
+T78	Thing-Nominal 490 492	帽子
+T79	Person-Nominal 551 553	父亲
+T80	Time-Explicit 554 561	上世纪八十年代
+T81	Person-Nominal 565 566	我
+T82	Person-Pronoun 569 570	他
+*	Coreference T82 T79 T86 T106
+T83	Person-Pronoun 574 576	我们
+T84	Person-Nominal 579 584	你们两代人
+*	Coreference T84 T83 T85
+T85	Person-Nominal 606 608	孩子
+T86	Person-Pronoun 622 623	我
+T87	Time-Explicit 631 642	2001年7月13日晚
+T88	Person-Name 643 654	世界奥运会主席萨马兰奇
+T89	Location-Name 655 658	莫斯科
+T90	Time-Explicit 672 677	2008年
+T91	Location-Name 678 682	中国北京
+T92	Person-Pronoun 685 687	我们
+T93	Location-Nominal 687 689	街道
+T94	Thing-Nominal 689 691	炮竹
+T95	Thing-Nominal 695 697	锣鼓
+T96	Person-Nominal 705 707	老伴
+T97	Person-Nominal 717 720	二儿媳
+T98	Time-Explicit 746 748	晚上
+T99	Person-Nominal 749 752	全家人
+T100	Person-Nominal 753 755	父亲
+T101	Person-Nominal 756 758	爷爷
+T102	Thing-Nominal 759 761	遗像
+T103	Thing-Nominal 763 764	香
+T104	Person-Pronoun 767 768	我
+T105	Person-Nominal 771 773	爷爷
+T106	Person-Nominal 774 776	爸爸
+T107	Person-Pronoun 777 779	您们
+R11	Part-Whole Arg1:T105 Arg2:T107	
+R12	Part-Whole Arg1:T106 Arg2:T107	
+T108	Person-Pronoun 790 791	我
+T109	Time-Explicit 791 793	当晚
+T110	Thing-Nominal 807 809	炮竹
+T111	Thing-Nominal 809 811	礼花
+T112	Location-Nominal 803 805	五洲
+T113	Thing-Nominal 816 818	热泪
+T114	Thing-Nominal 819 820	眶
+T115	Person-Nominal 820 821	人
+T116	Person-Nominal 844 849	我的儿女们
+T117	Time-Explicit 852 856	九十年代
+T118	Organization-Nominal 857 859	我国
+T119	Organization-Nominal 878 880	悉尼
+T120	Person-Nominal 882 884	女儿
+T121	Organization-Nominal 885 887	学校
+T122	Person-Nominal 894 896	爸爸
+T123	Person-Nominal 897 899	妈妈
+*	Coreference T122 T104 T124 T139 T148
+*	Coreference T123 T96 T140
+T124	Person-Pronoun 925 926	我
+T125	Thing-Nominal 930 932	眼泪
+R13	Part-Whole Arg1:T125 Arg2:T124	
+T126	Person-Nominal 936 938	孩子
+*	Coreference T126 T120
+T127	Person-Nominal 984 987	儿女们
+*	Coreference T127 T116
+T128	Person-Nominal 1020 1023	二儿子
+T129	Time-Implicit 1023 1024;1025 1026	前 年
+T130	Time-Implicit 996 1000	每年不时
+T131	Organization-Nominal 1029 1033	西安交大
+T132	Person-Nominal 1029 1036	西安交大研究生
+T133	Person-Nominal 1037 1040	大儿子
+T134	Person-Nominal 1040 1049	北京理工大学研究生
+T135	Organization-Nominal 1040 1046	北京理工大学
+T136	Location-Nominal 1054 1056	北京
+T137	Organization-Nominal 1058 1062	外资企业
+T138	Metric 1056 1058	一家
+T139	Person-Nominal 1073 1074	爸
+T140	Person-Nominal 1075 1076	妈
+T141	Person-Pronoun 1077 1079	您们
+R14	Part-Whole Arg1:T139 Arg2:T141	
+R15	Part-Whole Arg1:T140 Arg2:T141	
+T142	Thing-Nominal 1092 1096	奥运圣火
+T143	Abstract 113 118	北京奥运会
+T144	Abstract 272 276	北京奥运
+T145	Abstract 663 672	第29届世界奥运会
+T146	Abstract 861 870	第27届世界奥运会
+T147	Person-Name 1100 1105	小孙女毛毛
+T148	Person-Nominal 1111 1113	爷爷
+T149	Thing-Nominal 1137 1146	来自奥林匹亚的圣火
+T150	Thing-Pronoun 1147 1148	它
+*	Coreference T150 T149
+T151	Time-Explicit 1159 1171	2008年8月8日晚8时
+T152	Abstract 1172 1181	第29届世界奥运会
+T153	Location-Nominal 1182 1184	北京
+T154	Person-Nominal 1189 1192	全家人
+T155	Time-Implicit 1207 1211	每天傍晚
+T156	Person-Nominal 1212 1215	全家人
+T157	Person-Nominal 1232 1234	老伴
+T158	Thing-Nominal 1235 1237	红绸
+T159	Thing-Nominal 1241 1243	红花
+T160	Organization-Nominal 1253 1255	中国
+T161	Thing-Nominal 1257 1259	奖牌
+T162	Person-Pronoun 1262 1263	她
+T163	Location-Nominal 1268 1273	客厅墙中央
+T164	Thing-Nominal 1277 1279	红花
+T165	Metric 1275 1277	一朵
+T166	Person-Nominal 1281 1283	大儿
+T167	Person-Nominal 1284 1286	儿媳
+T168	Person-Pronoun 1307 1308	我
+R16	Family Arg1:T167 Arg2:T166	
+R17	Family Arg1:T133 Arg2:T139	
+R18	Family Arg1:T133 Arg2:T140	
+R19	Family Arg1:T128 Arg2:T139	
+R20	Family Arg1:T128 Arg2:T140	
+R21	Family Arg1:T127 Arg2:T122	
+R22	Family Arg1:T127 Arg2:T123	
+R23	Family Arg1:T166 Arg2:T168	
+R24	Family Arg1:T167 Arg2:T168	
+T169	Time-Explicit 1349 1354	8月24日
+T170	Abstract 1355 1360	北京奥运会
+T171	Location-Nominal 1365 1371	我家客厅墙上
+T172	Metric 1374 1378	100朵
+T173	Thing-Nominal 1378 1380	红花
+T174	Person-Nominal 1381 1384	全家人
+T175	Thing-Nominal 1385 1387	红花
+T176	Person-Nominal 1399 1401	爷爷
+T177	Person-Nominal 1402 1404	父亲
+T178	Thing-Nominal 1404 1406	遗像
+T179	Thing-Nominal 1399 1406	爷爷、父亲遗像
+T180	Person-Pronoun 1419 1420	我
+T181	Person-Nominal 1423 1425	爷爷
+T182	Person-Nominal 1426 1428	爸爸
+T183	Abstract 1431 1435	北京奥运
+T184	Person-Nominal 1446 1451	我国运动员
+T185	Metric 1454 1457	51块
+T186	Thing-Nominal 1457 1459	金牌
+T187	Metric 1460 1463	21块
+T188	Thing-Nominal 1463 1465	银牌
+T189	Metric 1466 1469	28块
+T190	Thing-Nominal 1469 1471	铜牌
+T191	Person-Pronoun 1478 1479;1480 1481	您 们
+R25	Part-Whole Arg1:T181 Arg2:T191	
+R26	Part-Whole Arg1:T182 Arg2:T191	
+T192	Person-Nominal 1485 1489	中华民族
+T193	Thing-Nominal 1503 1507	五星红旗
+T194	Person-Nominal 1539 1541	老伴
+T195	Person-Name 1542 1546	孙子林林
+T196	Person-Pronoun 1531 1532	我
+T197	Thing-Nominal 1564 1566	阳光
+T198	Time-Implicit 1561 1563	这时
+T199	Thing-Nominal 1572 1574	红花
+T200	Person-Pronoun 1583 1584	我
+T201	Person-Nominal 1608 1612	中华民族
+T202	Thing-Nominal 1618 1621	报春花
+T203	Thing-Nominal 1569 1574	墙上的红花
+T204	Thing-Nominal 1589 1593	这些红花
+*	Coreference T204 T203 T202

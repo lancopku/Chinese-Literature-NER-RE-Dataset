@@ -1,0 +1,117 @@
+T1	Location-Nominal 0 1	家
+T2	Location-Nominal 8 9	家
+T3	Person-Nominal 11 15	每个儿女
+T4	Person-Pronoun 34 35	我
+T5	Person-Pronoun 48 49	我
+T6	Person-Nominal 53 55	妈妈
+T7	Person-Pronoun 58 59	我
+T8	Thing-Nominal 63 68	香喷喷的饭
+T9	Person-Nominal 69 71	爸爸
+T10	Person-Pronoun 72 73	我
+R1	Family Arg1:T10 Arg2:T9	
+T11	Thing-Nominal 76 81	热腾腾的茶
+T12	Thing-Nominal 82 84	我家
+T13	Location-Nominal 86 88	农村
+R2	Located Arg1:T12 Arg2:T13	
+T14	Thing-Nominal 99 102	脚丫子
+T15	Location-Nominal 112 114	炕上
+T16	Thing-Nominal 116 121;122 123	热乎乎的被 窝
+T17	Person-Nominal 128 130	妈妈
+T18	Person-Pronoun 131 132	我
+T19	Person-Nominal 135 137	爸爸
+T20	Person-Pronoun 138 139	我
+T21	Thing-Nominal 140 141	茶
+T22	Thing-Nominal 133 134	饭
+T23	Person-Pronoun 143 144	我
+T24	Thing-Nominal 148 149	脚
+R3	Part-Whole Arg1:T24 Arg2:T23	
+T25	Thing-Nominal 153 154	手
+R4	Part-Whole Arg1:T25 Arg2:T23	
+T26	Location-Nominal 158 160	学校
+T27	Person-Nominal 160 162	老师
+T28	Thing-Nominal 163 165	屁股
+T29	Person-Nominal 168 170	老师
+T30	Person-Pronoun 177 178	我
+T31	Thing-Nominal 200 201	脚
+T32	Thing-Nominal 205 206	手
+T33	Thing-Nominal 213 214	脚
+T34	Thing-Nominal 218 227	风云的爸爸织的毛袜
+T35	Thing-Nominal 233 243	风云的爸爸织的毛手套
+T36	Person-Nominal 256 261	你们的儿子
+T37	Thing-Nominal 247 252	再大的风雪
+T38	Person-Nominal 264 268	爸爸妈妈
+T39	Person-Pronoun 270 271	我
+T40	Person-Pronoun 291 292	我
+T41	Person-Nominal 294 299	满月的女儿
+R5	Family Arg1:T40 Arg2:T41	
+R6	Family Arg1:T38 Arg2:T39	
+T42	Person-Nominal 321 323	父母
+T43	Person-Name 334 336	风云
+T44	Person-Pronoun 342 343	我
+*	Coreference T44 T43
+T45	Person-Nominal 346 350	爸爸妈妈
+T46	Person-Pronoun 354 355	我
+T47	Person-Pronoun 376 378	他们
+T48	Person-Nominal 383 391	一位算卦的老爷爷
+T49	Person-Pronoun 395 396	我
+T50	Person-Nominal 415 417	爸爸
+T51	Thing-Nominal 419 421	骡子
+T52	Person-Pronoun 423 424	我
+T53	Metric 427 430	几公里
+T54	Thing-Nominal 425 434	离家几公里外的医院
+T55	Person-Nominal 439 441	妈妈
+T56	Person-Pronoun 443 444	我
+T57	Person-Nominal 452 455;456 457	爸爸妈 妈
+T58	Person-Nominal 469 475	算卦的老爷爷
+T59	Person-Pronoun 478 479	我
+T60	Person-Pronoun 496 497	我
+T61	Person-Name 496 502	我的“风云”
+T62	Time-Implicit 510 514	当天晚上
+T63	Location-Nominal 515 516;517 520	我 的嘴巴
+T64	Person-Nominal 536 540	爸爸妈妈
+T65	Person-Pronoun 544 545	我
+T66	Person-Pronoun 564 565	我
+T67	Person-Nominal 570 573	一家人
+T68	Person-Nominal 582 586	爸爸妈妈
+T69	Person-Pronoun 590 591	我
+T70	Person-Pronoun 600 601	我
+T71	Person-Pronoun 614 615	我
+T72	Time-Implicit 615 618	小时候
+T73	Person-Nominal 629 631	爸爸
+T74	Person-Pronoun 638 639	我
+T75	Person-Pronoun 640 641	我
+T76	Person-Pronoun 646 647	他
+T77	Person-Pronoun 659 660	他
+T78	Person-Nominal 670 672	妈妈
+T79	Person-Pronoun 697 698	我
+T80	Thing-Nominal 702 708	她满眼的泪花
+T81	Person-Nominal 714 716	妈妈
+T82	Person-Pronoun 720 721	我
+T83	Person-Pronoun 726 727	我
+T84	Person-Pronoun 728 729	你
+T85	Thing-Nominal 729 731	腿脚
+T86	Person-Pronoun 741 742	她
+T87	Person-Nominal 755 757	妈妈
+T88	Person-Pronoun 766 767	我
+T89	Person-Nominal 775 777	爸爸
+T90	Person-Pronoun 786 787	我
+T91	Person-Pronoun 791 792	我
+T92	Person-Nominal 796 800	我的爸爸
+T93	Thing-Nominal 803 805;806 812	养育 我的乡村小屋
+T94	Person-Nominal 827 828	妻
+T95	Thing-Nominal 834 836	房子
+T96	Person-Pronoun 852 853	我
+T97	Person-Pronoun 859 860	我
+R7	Social Arg1:T48 Arg2:T47	
+R8	Family Arg1:T78 Arg2:T77	
+R9	Part-Whole Arg1:T80 Arg2:T81	
+R10	Part-Whole Arg1:T85 Arg2:T84	
+*	Coreference T86 T81
+R11	Family Arg1:T88 Arg2:T87	
+R12	Family Arg1:T89 Arg2:T87	
+R13	Family Arg1:T91 Arg2:T92	
+R14	Family Arg1:T94 Arg2:T97	
+R15	Use Arg1:T50 Arg2:T51	
+R16	Part-Whole Arg1:T14 Arg2:T5	
+R17	Located Arg1:T16 Arg2:T15	
+R18	Ownership Arg1:T27 Arg2:T26	

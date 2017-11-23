@@ -1,0 +1,275 @@
+T1	Time-Implicit 0 4	去年春天
+T2	Time-Implicit 5 12	春暖花开的时候
+T3	Thing-Nominal 7 8	花
+T4	Person-Pronoun 13 14	我
+T5	Person-Nominal 13 16	我老公
+R1	Family Arg1:T4 Arg2:T5	
+T6	Person-Pronoun 20 21	我
+T7	Person-Pronoun 23 24	他
+*	Coreference T7 T5 T15
+T8	Thing-Nominal 27 30	小礼物
+T9	Person-Pronoun 33 34	我
+T10	Person-Pronoun 37 38	我
+T11	Person-Pronoun 49 50	我
+T12	Thing-Nominal 52 54	袋子
+T13	Thing-Nominal 64 69	两只小乌龟
+R2	Located Arg1:T13 Arg2:T12	
+*	Coreference T8 T13
+T14	Person-Pronoun 82 83	我
+T15	Person-Pronoun 84 85	你
+T16	Person-Pronoun 88 89	我
+T17	Thing-Nominal 98 99	鱼
+T18	Thing-Nominal 106 109	小乌龟
+T19	Person-Pronoun 110 111	我
+T20	Person-Nominal 118 121	我老公
+T21	Person-Pronoun 127 128	你
+*	Coreference T21 T19 T22 T24
+T22	Person-Pronoun 135 136	你
+T23	Thing-Pronoun 140 142	它们
+*	Coreference T23 T18 T26 T29
+T24	Person-Pronoun 145 146	我
+T25	Person-Pronoun 158 159	我
+T26	Thing-Pronoun 162 164	他们
+T27	Person-Pronoun 177 178	我
+T28	Time-Implicit 182 184	每天
+T29	Thing-Pronoun 186 188	它们
+T30	Person-Pronoun 199 200	我
+T31	Thing-Nominal 207 210	雄乌龟
+T32	Thing-Nominal 216 219	雌乌龟
+T33	Person-Pronoun 231 232	你
+T34	Thing-Pronoun 235 236	它
+*	Coreference T34 T31 T35 T41
+T35	Thing-Pronoun 237 238	它
+T36	Thing-Nominal 241 242	头
+R3	Part-Whole Arg1:T36 Arg2:T35	
+T37	Thing-Nominal 247 249	四肢
+R4	Part-Whole Arg1:T37 Arg2:T35	
+T38	Location-Nominal 259 261	外面
+T39	Thing-Nominal 262 265	小尾巴
+R5	Part-Whole Arg1:T39 Arg2:T35	
+T40	Person-Pronoun 273 274	你
+T41	Thing-Pronoun 279 280	它
+T42	Thing-Pronoun 281 282	它
+T43	Thing-Nominal 283 284	雷
+T44	Person-Pronoun 292 293	我
+T45	Person-Pronoun 294 295	我
+T46	Thing-Nominal 299 304	你这好小子
+*	Coreference T46 T42
+T47	Thing-Nominal 320 323	雌乌龟
+T48	Thing-Pronoun 324 325	它
+T49	Person-Pronoun 340 341	你
+T50	Thing-Pronoun 346 347	它
+T51	Thing-Pronoun 348 349	它
+*	Coreference T51 T50 T48 T47
+T52	Person-Pronoun 360 361	我
+T53	Thing-Nominal 365 368	雄乌龟
+T54	Time-Implicit 372 375	有一天
+T55	Person-Pronoun 376 377	我
+T56	Person-Nominal 384 387	雌乌龟
+T57	Thing-Nominal 388 391	小尾巴
+T58	Thing-Nominal 392 396	两只小脚
+R6	Part-Whole Arg1:T57 Arg2:T56	
+R7	Part-Whole Arg1:T58 Arg2:T56	
+T59	Thing-Nominal 397 400	雄乌龟
+T60	Person-Pronoun 407 408	我
+T61	Thing-Nominal 414 419	这只雄乌龟
+*	Coreference T59 T61
+T62	Thing-Nominal 420 424	食肉动物
+T63	Person-Pronoun 427 428	我
+T64	Person-Nominal 433 436	我老公
+T65	Thing-Pronoun 441 443	它们
+T66	Thing-Nominal 444 447	乌龟粮
+T67	Thing-Nominal 456 459	雌乌龟
+T68	Person-Pronoun 465 466	我
+T69	Person-Pronoun 476 477	我
+T70	Thing-Nominal 482 487	这只雌乌龟
+*	Coreference T67 T70
+T71	Person-Pronoun 490 491	我
+T72	Thing-Pronoun 494 496	它们
+T73	Thing-Nominal 504 509	两个小盆里
+R8	Located Arg1:T72 Arg2:T73	
+T74	Thing-Nominal 514 519	这只雌乌龟
+T75	Person-Pronoun 520 521	我
+T76	Time-Implicit 521 523	每天
+T77	Time-Implicit 428 430	平时
+T78	Thing-Pronoun 528 529	它
+T79	Thing-Pronoun 532 533	它
+*	Coreference T79 T78 T74 T81 T83
+T80	Person-Nominal 541 544	有心人
+T81	Thing-Nominal 545 550	这只雌乌龟
+T82	Person-Pronoun 551 552	我
+R9	Ownership Arg1:T11 Arg2:T13	
+T83	Thing-Pronoun 558 559	它
+T84	Person-Pronoun 568 569	我
+T85	Person-Pronoun 574 575	我
+T86	Thing-Nominal 577 582	这只雌乌龟
+T87	Thing-Pronoun 582 583	它
+*	Coreference T86 T87
+T88	Time-Implicit 587 589	每天
+T89	Person-Pronoun 589 590	我
+T90	Thing-Pronoun 591 592	它
+T91	Thing-Nominal 592 594	龟粮
+T92	Thing-Pronoun 595 596	它
+T93	Thing-Pronoun 603 604	它
+T94	Person-Pronoun 607 608	我
+T95	Thing-Pronoun 609 610	它
+T96	Thing-Nominal 611 613	龟粮
+*	Coreference T95 T93 T92 T90
+T97	Metric 633 636	几个月
+T98	Thing-Nominal 637 643	这两只小乌龟
+T99	Thing-Pronoun 650 652	它们
+*	Coreference T99 T98
+T100	Location-Nominal 656 657	外
+T101	Person-Pronoun 662 663	我
+T102	Thing-Nominal 665 670	两只小乌龟
+T103	Location-Nominal 676 678	房间
+T104	Location-Nominal 680 682;683 684	地板 上
+R10	Part-Whole Arg1:T104 Arg2:T103	
+T105	Thing-Pronoun 686 688	它们
+T106	Thing-Nominal 688 692	两个乌龟
+*	Coreference T106 T105
+R11	Located Arg1:T105 Arg2:T104	
+T107	Thing-Nominal 708 711	雄乌龟
+T108	Thing-Nominal 717 720	雌乌龟
+T109	Thing-Nominal 728 731	雄乌龟
+T110	Thing-Pronoun 738 739	它
+T111	Thing-Nominal 740 742	肚子
+R12	Part-Whole Arg1:T110 Arg2:T111	
+T112	Location-Nominal 744 746	地板
+T113	Person-Pronoun 768 769	我
+T114	Time-Implicit 782 785	有一天
+T115	Person-Pronoun 786 787	我
+T116	Location-Nominal 791 796	很远的地方
+T117	Location-Nominal 804 805	家
+T118	Thing-Nominal 816 819	雄乌龟
+T119	Location-Nominal 814 815	家
+T120	Thing-Nominal 828 830	小盆
+R13	Located Arg1:T118 Arg2:T120	
+T121	Person-Pronoun 846 847	我
+T122	Thing-Pronoun 850 851	它
+*	Coreference T122 T118 T123 T126 T128 T131
+T123	Thing-Pronoun 863 864	它
+T124	Person-Pronoun 872 873	我
+T125	Thing-Nominal 886 890	我的毛巾
+R14	Ownership Arg1:T124 Arg2:T125	
+T126	Thing-Pronoun 892 893	它
+T127	Thing-Nominal 894 896	小盆
+R15	Located Arg1:T125 Arg2:T127	
+T128	Thing-Pronoun 899 900	它
+T129	Thing-Nominal 904 906	毛巾
+T130	Person-Pronoun 914 915	我
+T131	Thing-Nominal 917 922	这只小乌龟
+T132	Person-Pronoun 931 932	它
+R16	Part-Whole Arg1:T131 Arg2:T132	
+T133	Person-Pronoun 936 937	我
+T134	Thing-Pronoun 941 942	它
+T135	Thing-Nominal 944 948	我的宝贝
+*	Coreference T134 T135 T141 T144 T149 T150 T156
+T136	Person-Pronoun 951 952	我
+T137	Thing-Nominal 951 955	我的房间
+T138	Person-Pronoun 968 969	我
+T139	Thing-Nominal 973 974	锅
+T140	Thing-Nominal 976 978	蚂蚁
+R17	Located Arg1:T140 Arg2:T139	
+T141	Thing-Pronoun 991 992	它
+T142	Person-Pronoun 998 999	我
+T143	Person-Pronoun 1007 1008	我
+T144	Thing-Pronoun 1012 1013	你
+T145	Person-Pronoun 1020 1022	我们
+T146	Person-Pronoun 1036 1037	我
+T147	Thing-Nominal 1040 1041	牛
+T148	Thing-Nominal 1042 1043	虎
+T149	Thing-Pronoun 1049 1050	它
+T150	Thing-Pronoun 1056 1057	它
+T151	Location-Nominal 1059 1063	窗帘下面
+R18	Located Arg1:T150 Arg2:T151	
+T152	Thing-Nominal 1059 1061	窗帘
+T153	Person-Pronoun 1066 1067	我
+T154	Person-Pronoun 1074 1075	我
+T155	Person-Pronoun 1087 1088	我
+T156	Thing-Pronoun 1089 1090	它
+T157	Time-Implicit 1098 1100	冬天
+T158	Person-Pronoun 1106 1107	我
+T159	Thing-Nominal 1109 1114	两只小乌龟
+T160	Person-Nominal 1137 1139	人家
+T161	Person-Pronoun 1147 1148	我
+T162	Person-Pronoun 1166 1167	我
+T163	Metric 1171 1173	几天
+T164	Person-Pronoun 1174 1175	我
+T165	Thing-Nominal 1176 1178	乌龟
+T166	Location-Nominal 1196 1198	水里
+T167	Thing-Pronoun 1199 1200	它
+*	Coreference T165 T167
+R19	Located Arg1:T167 Arg2:T166	
+T168	Thing-Nominal 1207 1209	龟粮
+T169	Thing-Nominal 1211 1212	水
+T170	Thing-Nominal 1214 1216	乌龟
+T171	Time-Implicit 1226 1228	冬天
+T172	Person-Pronoun 1229 1230	我
+T173	Person-Pronoun 1233 1234	我
+T174	Person-Pronoun 1252 1253	我
+T175	Location-Nominal 1254 1256	水里
+T176	Thing-Nominal 1260 1262	龟粮
+R20	Located Arg1:T176 Arg2:T175	
+T177	Thing-Pronoun 1265 1267	它们
+*	Coreference T177 T170
+T178	Metric 1269 1271	几天
+T179	Thing-Nominal 1283 1285	龟粮
+T180	Person-Pronoun 1295 1296	我
+T181	Person-Pronoun 1306 1307	我
+T182	Person-Pronoun 1309 1310	我
+T183	Thing-Nominal 1315 1317	乌龟
+T184	Person-Pronoun 1323 1324	我
+T185	Time-Implicit 1326 1328	几天
+T186	Thing-Nominal 1331 1332	水
+T187	Thing-Nominal 1339 1341	龟粮
+R21	Located Arg1:T187 Arg2:T186	
+T188	Thing-Pronoun 1344 1346	它们
+*	Coreference T183 T188 T195 T198
+T189	Time-Implicit 1353 1355	此时
+T190	Person-Pronoun 1348 1349	我
+T191	Person-Pronoun 1350 1351	我
+T192	Person-Pronoun 1356 1357	我
+T193	Person-Pronoun 1370 1371	我
+T194	Person-Nominal 1378 1381	老天爷
+T195	Thing-Pronoun 1384 1386	它们
+T196	Location-Nominal 1405 1407	外地
+T197	Person-Pronoun 1412 1413	我
+T198	Thing-Nominal 1420 1425	两只小乌龟
+T199	Thing-Nominal 1428 1429	人
+T200	Location-Nominal 1430 1432	外地
+T201	Thing-Nominal 1434 1435	心
+R22	Part-Whole Arg1:T201 Arg2:T197	
+T202	Thing-Nominal 1437 1440	小乌龟
+T203	Time-Implicit 1444 1447	过完年
+T204	Person-Pronoun 1449 1450	我
+T205	Person-Nominal 1452 1454	自己
+T206	Location-Nominal 1455 1456	家
+*	Coreference T204 T205
+T207	Person-Pronoun 1457 1458	我
+T208	Thing-Nominal 1466 1469	小乌龟
+T209	Thing-Pronoun 1472 1474	它们
+*	Coreference T208 T209 T211 T215 T217
+T210	Person-Pronoun 1483 1484	我
+T211	Thing-Pronoun 1486 1488	它们
+T212	Thing-Nominal 1495 1497	眼睛
+R23	Part-Whole Arg1:T212 Arg2:T211	
+T213	Person-Pronoun 1503 1504	我
+T214	Person-Nominal 1505 1507	主人
+*	Coreference T213 T214 T216
+T215	Thing-Pronoun 1514 1516	我们
+T216	Person-Pronoun 1520 1521	你
+T217	Thing-Pronoun 1526 1528	它们
+T218	Thing-Nominal 1533 1535	身体
+R24	Part-Whole Arg1:T218 Arg2:T217	
+T219	Person-Pronoun 1536 1537	我
+T220	Thing-Pronoun 1548 1550	它们
+T221	Person-Nominal 1552 1556	我的孩子
+T222	Person-Pronoun 1560 1561	我
+T223	Person-Nominal 1572 1574	老公
+T224	Person-Pronoun 1576 1577	我
+T225	Thing-Nominal 1578 1580	礼物
+T226	Thing-Nominal 1583 1586	小龟龟
+T227	Thing-Nominal 1587 1591	我的宝贝
+*	Coreference T226 T227 T225
+R25	Ownership Arg1:T224 Arg2:T225	

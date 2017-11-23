@@ -1,0 +1,169 @@
+T1	Time-Explicit 0 5	1960年
+T2	Person-Pronoun 6 7	我
+T3	Location-Name 8 16	铁道部第三设计院
+T4	Time-Explicit 20 25	当年的9月
+*	Coreference T4 T1
+T5	Location-Name 30 38	大兴安岭原始林区
+T6	Location-Name 41 43	塔河
+T7	Location-Name 44 46	古莲
+T8	Time-Implicit 68 77	那个风雪交加的夜晚
+T9	Time-Implicit 89 91	那天
+T10	Person-Pronoun 92 93	我
+T11	Organization-Nominal 96 99	大旗组
+T12	Thing-Nominal 107 109	铁路
+T13	Thing-Nominal 118 120	树林
+T14	Person-Pronoun 123 125	我们
+T15	Thing-Nominal 128 130	镰刀
+T16	Thing-Nominal 130 132	斧头
+T17	Thing-Nominal 148 149;150 151	仪 器
+T18	Location-Name 183 189	大兴安岭地区
+T19	Time-Implicit 198 205	早晨八、九点钟
+T20	Time-Implicit 208 210;211 215	晚上 三点多钟
+T21	Person-Nominal 248 250	大家
+T22	Time-Implicit 264 271	决定收工回返时
+T23	Person-Nominal 279 281	大家
+T24	Location-Nominal 286 288	山下
+T25	Location-Nominal 295 300	来时的道路
+T26	Person-Name 303 309	我们组的老方
+T27	Person-Nominal 312 316	退伍军人
+T28	Metric 311 312	名
+*	Coreference T27 T26 T39 T40
+T29	Location-Name 320 322	东北
+T30	Location-Name 325 327	江南
+T31	Location-Name 330 332	临江
+T32	Organization-Nominal 340 343	八路军
+T33	Location-Nominal 346 348	夜路
+T34	Location-Nominal 358 360	村落
+T35	Thing-Nominal 366 368	行人
+T36	Location-Nominal 368 370	道路
+T37	Location-Nominal 373 377	原始林区
+T38	Thing-Nominal 384 386	向导
+T39	Person-Pronoun 391 392	他
+T40	Person-Name 406 408	老方
+T41	Person-Pronoun 410 412	我们
+T42	Thing-Nominal 415 416	眼
+T43	Person-Nominal 437 445	会给找寻我们的人
+T44	Person-Pronoun 441 443	我们
+*	Coreference T44 T41
+T45	Person-Pronoun 450 452	我们
+T46	Location-Nominal 456 466	山上已经勘测过的线路
+T47	Person-Name 483 485	老方
+T48	Person-Nominal 487 489	大伙
+T49	Thing-Nominal 508 512	干的树枝
+T50	Person-Nominal 513 515	大家
+T51	Thing-Nominal 529 532	干树枝
+T52	Person-Name 534 536	老方
+T53	Person-Nominal 537 541	防火组长
+*	Coreference T53 T52
+T54	Thing-Nominal 543 545	火柴
+T55	Thing-Nominal 546 548	篝火
+T56	Thing-Nominal 555 560	熊熊的烈火
+T57	Person-Pronoun 572 574	我们
+T58	Person-Pronoun 598 600	我们
+T59	Thing-Nominal 612 617	大块的乌云
+T60	Thing-Nominal 618 625	冷飕飕的西北风
+T61	Time-Implicit 633 635	今晚
+*	Coreference T61 T8
+T62	Time-Explicit 647 649;650 653	10 月5日
+T63	Time-Explicit 657 664	农历的八月十五
+T64	Time-Explicit 665 674	一年一度的中秋佳节
+*	Coreference T64 T63 T62 T65 T72
+T65	Time-Explicit 644 646	这天
+T66	Location-Nominal 676 681	祖国的南方
+T67	Person-Nominal 691 692	人
+T68	Thing-Nominal 698 700	月饼
+T69	Person-Pronoun 705 707	我们
+T70	Location-Name 711 715	大兴安岭
+T71	Time-Implicit 720 722	冬季
+T72	Time-Implicit 723 725	当时
+T73	Person-Pronoun 742 744	我们
+T74	Thing-Nominal 747 749	棉衣
+T75	Thing-Nominal 749 751	棉裤
+T76	Thing-Nominal 752 754	大衣
+T77	Thing-Nominal 754 756	皮帽
+T78	Thing-Nominal 759 761	篝火
+T79	Person-Pronoun 779 780	我
+T80	Organization-Nominal 784 788	抗日联军
+T81	Time-Implicit 782 784	当年
+T82	Person-Pronoun 814 816	他们
+R1	Ownership Arg1:T82 Arg2:T80	
+T83	Person-Nominal 820 822	日寇
+T84	Person-Pronoun 830 832	我们
+T85	Thing-Nominal 855 857	肚子
+T86	Thing-Nominal 872 874	粮食
+T87	Organization-Nominal 875 877	国家
+T88	Time-Explicit 887 900	六○年正是三年自然灾害期间
+T89	Organization-Nominal 901 903	国家
+T90	Person-Nominal 919 923	技术人员
+T91	Person-Nominal 969 971	工人
+T92	Person-Pronoun 978 980	他们
+*	Coreference T92 T91
+T93	Thing-Nominal 984 986	馒头
+T94	Thing-Nominal 987 989	口袋
+T95	Thing-Nominal 1003 1006	馒头渣
+T96	Person-Nominal 1012 1013	人
+T97	Thing-Nominal 1019 1020	嘴
+T98	Location-Nominal 1039 1042	食品店
+T99	Thing-Nominal 1044 1048	高级糕点
+T100	Person-Name 1084 1086	老方
+T101	Person-Pronoun 1091 1092	他
+*	Coreference T100 T101
+T102	Organization-Nominal 1095 1097	部队
+T103	Person-Pronoun 1109 1111	我们
+T104	Person-Pronoun 1120 1122	老方
+T105	Thing-Nominal 1127 1128	兵
+T106	Thing-Nominal 1129 1130	人
+T107	Thing-Nominal 1125 1130	当过兵的人
+R2	Part-Whole Arg1:T107 Arg2:T104	
+T108	Person-Pronoun 1131 1132	他
+T109	Person-Pronoun 1133 1135	我们
+*	Coreference T108 T104
+T110	Person-Nominal 1144 1145	人
+T111	Thing-Nominal 1153 1155	篝火
+T112	Thing-Nominal 1159 1161	野兽
+T113	Person-Pronoun 1164 1166	我们
+T114	Person-Nominal 1173 1174	人
+T115	Person-Nominal 1181 1187	值班站岗的人
+T116	Thing-Nominal 1223 1225	雪花
+T117	Person-Nominal 1229 1230	人
+T118	Person-Nominal 1292 1293	人
+T119	Thing-Nominal 1293 1294	身
+R3	Part-Whole Arg1:T119 Arg2:T118	
+T120	Person-Nominal 1265 1267	大伙
+T121	Person-Name 1261 1263	老方
+T122	Thing-Nominal 1304 1306	积雪
+T123	Metric 1302 1304	一层
+R4	Located Arg1:T122 Arg2:T119	
+T124	Thing-Nominal 1316 1317	雪
+T125	Thing-Nominal 1323 1325	干柴
+T126	Thing-Nominal 1341 1342	眼
+T127	Person-Pronoun 1352 1354	我们
+T128	Thing-Nominal 1355 1356	火
+T129	Thing-Nominal 1361 1365	测量工具
+T130	Thing-Nominal 1386 1387	腿
+T131	Metric 1384 1386	两条
+T132	Thing-Nominal 1400 1402	树根
+T133	Person-Pronoun 1404 1405	我
+T134	Metric 1397 1398;1399 1400	一 个
+T135	Person-Name 1418 1420	老王
+T136	Person-Pronoun 1435 1437	我们
+T137	Person-Nominal 1457 1458	人
+T138	Thing-Nominal 1462 1463	马
+T139	Metric 1460 1462	一匹
+T140	Person-Pronoun 1464 1466	我们
+T141	Person-Name 1477 1480	苗队长
+T142	Person-Name 1481 1484	张书记
+T143	Person-Pronoun 1487 1489	我们
+T144	Person-Pronoun 1496 1498	我们
+T145	Person-Pronoun 1513 1515	他们
+*	Coreference T145 T142 T141 T146 T151 T152
+T146	Person-Pronoun 1536 1538	他们
+T147	Thing-Nominal 1551 1556	刚烙的大饼
+T148	Thing-Nominal 1561 1563	开水
+T149	Thing-Nominal 1582 1590	一斤重一个的大饼
+*	Coreference T149 T147
+T150	Person-Pronoun 1623 1625	我们
+T151	Person-Nominal 1642 1644	队长
+T152	Person-Nominal 1645 1647	书记
+T153	Time-Implicit 1702 1704	当年
+T154	Person-Nominal 1707 1709	倭寇

@@ -1,0 +1,97 @@
+T1	Person-Nominal 21 24	西方人
+T2	Person-Nominal 29 32	中国人
+T3	Thing-Nominal 454 457	葡萄酒
+R1	Social Arg1:T1 Arg2:T2	
+T5	Location-Name 3 5	美国
+T6	Time-Implicit 892 897	许多世纪前
+T7	Person-Nominal 904 910	欧洲宫廷贵族
+T8	Person-Nominal 786 789	西方人
+T4	Location-Name 468 470	香槟
+T9	Location-Name 472 474	法国
+R2	Part-Whole Arg1:T4 Arg2:T9	
+T10	Thing-Nominal 25 28	葡萄酒
+T11	Person-Nominal 42 45	常用品
+R3	Part-Whole Arg1:T10 Arg2:T11	
+T12	Thing-Nominal 33 34	茶
+R4	Part-Whole Arg1:T12 Arg2:T11	
+T13	Person-Nominal 61 64	法国人
+T14	Person-Pronoun 83 85	他们
+T15	Organization-Nominal 67 69	中国
+T16	Person-Nominal 203 206	欧洲人
+T17	Person-Nominal 212 214	教徒
+T18	Person-Nominal 223 225	上帝
+T19	Thing-Nominal 232 235	葡萄酒
+T20	Person-Nominal 260 262	人们
+T21	Person-Nominal 428 430	国人
+T22	Person-Nominal 934 936	国人
+T23	Thing-Nominal 1146 1150	名品葡萄
+T24	Thing-Nominal 606 609	葡萄酒
+T25	Person-Nominal 540 543	法国人
+T26	Person-Nominal 119 121;122 123	西方 人
+T27	Organization-Nominal 278 282	西方国家
+T28	Thing-Nominal 296 299	葡萄酒
+T29	Thing-Nominal 314 316	冰酒
+T30	Thing-Nominal 319 324	成熟的葡萄
+T31	Metric 378 385	百分之八十以上
+T32	Thing-Nominal 365 371	欧洲的葡萄酒
+T33	Location-Pronoun 480 484	那个地区
+*	Coreference T33 T4
+T34	Thing-Nominal 494 496	葡萄
+T35	Thing-Nominal 499 500	酒
+T36	Thing-Nominal 504 506	气酒
+T37	Location-Nominal 519 523	中国南方
+T38	Location-Name 459 461	法国
+T39	Time-Implicit 1103 1106	前不久
+T40	Person-Nominal 1447 1451	大多数人
+T41	Person-Nominal 1458 1460	个人
+T42	Thing-Name 1154 1157	黑珍珠
+T43	Thing-Name 1158 1162	马斯卡特
+T44	Thing-Name 1163 1166	美人指
+T45	Thing-Name 1167 1170	金手指
+T46	Person-Nominal 772 774	人们
+T47	Thing-Nominal 899 902	中国茶
+T48	Thing-Nominal 921 924	葡萄酒
+T49	Person-Nominal 941 949	西方钟爱葡萄酒者
+T50	Person-Nominal 973 976	美国人
+T51	Thing-Name 981 984	碧螺春
+T52	Thing-Name 985 987	龙井
+T53	Thing-Name 1171 1174	寒香蜜
+T54	Thing-Name 1175 1178	醉香妃
+T55	Location-Nominal 1223 1226	园区内
+T56	Thing-Nominal 1256 1259	葡萄酒
+T57	Person-Nominal 1265 1268	西方人
+T58	Thing-Nominal 1269 1270	茶
+T59	Person-Pronoun 1260 1261	我
+T60	Person-Pronoun 1305 1306	我
+T61	Thing-Nominal 1311 1313	葡萄
+T62	Thing-Nominal 1329 1337	经过酿制的葡萄酒
+T63	Person-Nominal 1365 1367	我们
+T64	Person-Pronoun 1399 1400	我
+T65	Thing-Nominal 1213 1215	葡萄
+T66	Thing-Nominal 1081 1084	葡萄酒
+T67	Location-Nominal 1092 1096	北方地区
+T68	Location-Nominal 1098 1100	全国
+T69	Thing-Nominal 613 615	葡萄
+T70	Person-Nominal 705 715	那些著名酒庄的所有者
+T71	Person-Pronoun 719 721	自己
+*	Coreference T71 T70
+T72	Person-Nominal 725 727	作家
+T73	Person-Pronoun 728 730	自己
+T74	Thing-Nominal 728 732	自己作品
+R5	Create Arg1:T72 Arg2:T74	
+T75	Person-Nominal 735 737	读者
+R6	Social Arg1:T72 Arg2:T75	
+T76	Thing-Nominal 12 14	美酒
+T77	Thing-Nominal 93 94	酒
+T78	Thing-Nominal 98 103	盛酒的器皿
+T79	Thing-Nominal 125 127	美酒
+T80	Time-Implicit 253 259	民富国强之后
+T81	Person-Nominal 178 180	国人
+T82	Metric 326 330	零下八度
+T83	Metric 1009 1011;1012 1013	几十 年
+T84	Thing-Nominal 1017 1020	葡萄酒
+T85	Person-Nominal 1050 1053	酿造师
+T86	Person-Nominal 1054 1057	品酒师
+T87	Person-Nominal 1064 1067	一群人
+R7	Part-Whole Arg1:T42 Arg2:T23	
+R8	Part-Whole Arg1:T43 Arg2:T23	

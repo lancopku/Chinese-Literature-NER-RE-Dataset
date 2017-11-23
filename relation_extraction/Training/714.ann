@@ -1,0 +1,17 @@
+T1	Person-Pronoun 21 23	自己
+T2	Person-Pronoun 59 60	你
+T3	Person-Pronoun 61 62	我
+T4	Thing-Nominal 63 64	心
+R1	Part-Whole Arg1:T4 Arg2:T3	
+T5	Thing-Nominal 68 70	旭日
+T6	Thing-Nominal 74 76	暖阳
+T7	Thing-Nominal 83 85	光芒
+T8	Person-Pronoun 89 90	你
+T9	Person-Pronoun 122 124	自己
+T10	Thing-Nominal 135 137	桥梁
+T11	Location-Nominal 141 144	道路上
+T12	Thing-Nominal 159 161	风雨
+T13	Thing-Nominal 188 189	心
+T14	Thing-Nominal 190 191	骨
+T15	Thing-Nominal 211 213	凤凰
+T16	Thing-Nominal 215 216	火

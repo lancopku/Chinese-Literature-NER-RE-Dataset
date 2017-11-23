@@ -1,0 +1,250 @@
+T1	Person-Pronoun 3 4	我
+T2	Person-Pronoun 16 17	你
+T3	Time-Implicit 29 33	十月之初
+T4	Person-Nominal 41 45	几位同事
+T5	Location-Name 47 51	额济纳旗
+T6	Thing-Nominal 52 54	胡杨
+T7	Person-Nominal 59 61	同事
+T8	Thing-Nominal 88 89;90 91	秋 阳
+T9	Location-Nominal 97 99	市区
+T10	Thing-Name 101 104	河雅路
+T11	Location-Name 106 111	阿佑旗小城
+T12	Thing-Nominal 125 130	辽袤的戈壁
+T13	Thing-Nominal 172 177	初秋的戈壁
+T14	Thing-Nominal 184 186	秋阳
+T15	Thing-Nominal 202 209	初经秋风的野草
+T16	Thing-Nominal 226 230	一场秋雨
+T17	Thing-Nominal 234 236	小草
+T18	Thing-Nominal 247 249	春日
+T19	Thing-Nominal 289 291	阳光
+T20	Thing-Nominal 329 333	一洼亮水
+T21	Thing-Nominal 378 380	野草
+T22	Thing-Nominal 415 417	草木
+T23	Thing-Nominal 426 431	金色的沙漠
+T24	Person-Nominal 453 460	急急赶路的人们
+T25	Thing-Nominal 498 503	寂寞的戈壁
+T26	Person-Nominal 506 508	自己
+T27	Thing-Nominal 513 515	镜头
+T28	Thing-Nominal 518 520	戈壁
+T29	Person-Pronoun 543 544	我
+T30	Thing-Nominal 546 548	车窗
+T31	Thing-Nominal 552 555	一棵树
+T32	Thing-Pronoun 561 562	它
+T33	Thing-Nominal 563 570	空空落落的戈壁
+T34	Person-Pronoun 582 583	我
+T35	Thing-Nominal 590 592	胡杨
+T36	Thing-Nominal 594 596	乔木
+T37	Person-Pronoun 599 600	我
+T38	Thing-Nominal 610 612	胡杨
+T39	Person-Nominal 614 617	苦行僧
+T40	Thing-Nominal 633 637	一片乱石
+T41	Thing-Nominal 655 657	戈壁
+T42	Thing-Nominal 685 686	山
+T43	Thing-Nominal 696 697	丘
+T44	Thing-Nominal 716 722	平展展的戈壁
+T45	Thing-Pronoun 749 750	它
+*	Coreference T45 T43 T47
+T46	Person-Nominal 759 761	人类
+T47	Thing-Pronoun 766 767	它
+T48	Thing-Pronoun 770 771	它
+T49	Thing-Pronoun 783 784	它
+T50	Person-Pronoun 795 797	我们
+T51	Location-Name 800 802	黑河
+T52	Thing-Nominal 800 807	黑河的一座大桥
+T53	Thing-Nominal 814 819	水边的胡杨
+T54	Thing-Nominal 829 844	最耐旱耐碱御风沙的戈壁上的英雄
+*	Coreference T54 T53 T220
+T55	Thing-Nominal 854 855	水
+T56	Thing-Nominal 863 867	它们的脚
+R1	Part-Whole Arg1:T56 Arg2:T53	
+T57	Location-Nominal 856 860	黑河两岸
+T58	Thing-Nominal 889 891	河水
+T59	Thing-Nominal 895 900	清明的水面
+T60	Thing-Nominal 913 918	站着的胡杨
+T61	Thing-Pronoun 920 921	它
+T62	Thing-Nominal 937 944	自己的一枝一杈
+R2	Part-Whole Arg1:T62 Arg2:T61	
+T63	Thing-Nominal 952 954	脚跟
+R3	Part-Whole Arg1:T63 Arg2:T61	
+T64	Thing-Nominal 959 964	戈壁的沙土
+T65	Person-Pronoun 991 992	我
+T66	Thing-Nominal 998 1011	此前路过的那片死去的胡杨林
+T67	Thing-Nominal 1012 1014	墓园
+T68	Person-Pronoun 1019 1020	我
+T69	Thing-Nominal 1026 1031	死去的胡杨
+T70	Thing-Nominal 1062 1064	头颅
+T71	Thing-Nominal 1070 1072	身躯
+T72	Location-Nominal 1091 1099	它们的最终的墓地
+T73	Thing-Pronoun 1100 1102	它们
+T74	Thing-Nominal 1116 1118	墓碑
+T75	Thing-Nominal 1105 1110	自己的身体
+T76	Thing-Nominal 1172 1174	胡杨
+T77	Person-Pronoun 1218 1220	我们
+T78	Location-Name 1222 1226	额济纳旗
+T79	Person-Nominal 1229 1231	大家
+T80	Thing-Nominal 1237 1239	胡杨
+T81	Thing-Nominal 1255 1257	斜阳
+T82	Location-Nominal 1266 1273	城东那片胡杨林
+T83	Person-Nominal 1151 1153	人类
+T84	Person-Pronoun 1286 1287	我
+T85	Thing-Nominal 1299 1305	黑压压的人头
+T86	Thing-Nominal 1307 1313	胡杨树的叶子
+T87	Person-Nominal 1317 1319	人类
+T88	Thing-Nominal 1343 1352	夕阳下的那片胡杨林
+T89	Thing-Nominal 1365 1371	此时的胡杨树
+T90	Thing-Nominal 1375 1382	自己金色的丽影
+T91	Thing-Nominal 1388 1395	静静的黑河水面
+T92	Thing-Nominal 1409 1413	西方油画
+T93	Thing-Nominal 1433 1436	向日葵
+T94	Person-Pronoun 1451 1452	我
+T95	Thing-Nominal 1462 1464	胡杨
+T96	Time-Implicit 1471 1473	翌日
+T97	Person-Pronoun 1474 1476	我们
+T98	Time-Implicit 1491 1493	昨晚
+T99	Thing-Nominal 1493 1503	不曾足意的那片胡杨林
+T100	Thing-Nominal 1506 1508	门票
+T101	Thing-Nominal 1515 1524	一条浅栗色的木栈道
+T102	Person-Pronoun 1525 1527	我们
+T103	Person-Pronoun 1535 1537	我们
+T104	Thing-Nominal 1541 1543	胡杨
+T105	Thing-Nominal 1563 1571	以族人自处的胡杨
+T106	Thing-Nominal 1578 1586	秋日的明朗的阳光
+T107	Thing-Nominal 1589 1591	林木
+T108	Thing-Nominal 1606 1611	蓬勃的红柳
+T109	Thing-Nominal 1621 1623	胡杨
+T110	Person-Pronoun 1633 1634	我
+T111	Thing-Nominal 1636 1638	胡杨
+T112	Person-Pronoun 1646 1647	我
+T113	Person-Name 1662 1663	子
+T114	Person-Nominal 1665 1667	弟子
+T115	Thing-Nominal 1719 1721	胡杨
+T116	Person-Nominal 1723 1728	夫子之弟子
+T117	Thing-Nominal 1762 1764;1765 1768	老树 的身躯
+T118	Thing-Nominal 1773 1779	灰褐色的皮相
+T119	Thing-Nominal 1783 1790	深浅不一的沟纹
+T120	Person-Nominal 1802 1804	儒者
+T121	Thing-Nominal 1829 1834	它们的冠冕
+T122	Thing-Nominal 1845 1846	棚
+T123	Person-Nominal 1867 1869	诗人
+T124	Thing-Nominal 1902 1904	冠发
+T125	Thing-Nominal 1906 1909	葫芦状
+T126	Person-Nominal 1910 1912	女子
+T127	Thing-Nominal 1924 1929	金色的树冠
+T128	Thing-Nominal 1935 1941	一截枯黑的干
+T129	Thing-Nominal 1942 1944	手臂
+T130	Thing-Nominal 1955 1957	小树
+T131	Thing-Nominal 1970 1972	躯干
+T132	Thing-Nominal 1976 1978	冠冕
+T133	Thing-Nominal 1993 2003	细密又略显细碎的叶片
+T134	Thing-Nominal 2005 2008;2009 2012	金黄色 的叶片
+T135	Person-Pronoun 2036 2037	我
+T136	Thing-Nominal 2073 2078	春季的胡杨
+T137	Thing-Nominal 2098 2100	戈壁
+T138	Thing-Pronoun 2115 2116	它
+*	Coreference T138 T136
+T139	Thing-Nominal 2124 2126	果实
+T140	Thing-Nominal 2128 2130	苞囊
+T141	Thing-Nominal 2131 2133;2134 2141	一串 一串菱型的果实
+T142	Thing-Nominal 2142 2144	鞭炮
+T143	Time-Implicit 2152 2156	五六月间
+T144	Thing-Nominal 2158 2160	阳光
+T145	Thing-Nominal 2163 2165	苞囊
+T146	Thing-Nominal 2170 2177	淡紫色羽状的花
+T147	Thing-Nominal 2186 2191	成熟的种子
+T148	Thing-Nominal 2193 2194;2195 2196	小 伞
+T149	Thing-Nominal 2203 2205	胡杨
+T150	Thing-Nominal 2212 2216	胡杨的花
+T151	Thing-Nominal 2228 2232	胡杨的花
+T152	Thing-Pronoun 2240 2241	它
+T153	Thing-Nominal 2243 2244	叶
+T154	Thing-Nominal 2245 2246	花
+T155	Thing-Nominal 2268 2273	每一片叶脉
+T156	Thing-Nominal 2280 2285	每一个枝桠
+T157	Thing-Nominal 2289 2291	太阳
+T158	Time-Implicit 2333 2341	6000多万年前
+T159	Thing-Nominal 2342 2353	第三世纪残余的古老树种
+T160	Location-Name 2355 2359	古地中海
+T161	Location-Name 2360 2364	中国新疆
+T162	Location-Name 2365 2369	河西走廊
+T163	Person-Pronoun 2386 2387	我
+T164	Thing-Nominal 2395 2399	一棵老树
+T165	Thing-Pronoun 2402 2403	它
+*	Coreference T165 T164
+T166	Thing-Nominal 2415 2420	古老的树种
+T167	Abstract 2472 2476	工业文明
+T168	Abstract 2463 2467	农业文明
+T169	Location-Name 2482 2484	楼兰
+T170	Location-Name 2485 2487	龟兹
+T171	Location-Nominal 2489 2498	辉煌一时的西域古国
+T172	Thing-Nominal 2500 2508	一片片枯死的胡杨
+T173	Thing-Nominal 2513 2514;2515 2521	汹 涌而来的黄沙
+T174	Time-Explicit 2528 2532	13世纪
+T175	Person-Name 2532 2536	马可波罗
+T176	Location-Name 2538 2541	元大都
+T177	Location-Name 2544 2546	黑城
+T178	Location-Name 2549 2553	额济纳旗
+T179	Location-Nominal 2558 2567	西夏创建的著名城市
+*	Coreference T179 T177
+T180	Thing-Nominal 2578 2580	黄沙
+T181	Time-Explicit 2585 2593	20世纪40年代
+T182	Location-Name 2595 2597	黑河
+T183	Location-Name 2598 2601	北大河
+T184	Location-Name 2594 2607	由黑河、北大河贯注的居延海
+T185	Metric 2609 2617	300多平方公里
+T186	Thing-Nominal 2609 2620	300多平方公里的湖面
+T187	Thing-Nominal 2630 2634	一片汪洋
+T188	Thing-Nominal 2640 2642	黄沙
+T189	Location-Name 2646 2649	额济纳
+T190	Thing-Nominal 2653 2655	风沙
+T191	Time-Explicit 2661 2667	984年4月
+T192	Thing-Nominal 2670 2677	扬起的一场沙尘
+T193	Location-Name 2682 2684	北京
+T194	Location-Name 2685 2687	济南
+T195	Location-Name 2692 2694	徐州
+T196	Location-Name 2697 2699	南京
+T197	Location-Name 2712 2716	河西走廊
+T198	Location-Name 2717 2721	河套平原
+T199	Thing-Nominal 2740 2743	胡杨林
+T200	Thing-Nominal 2766 2768	化石
+T201	Thing-Nominal 2766 2775	化石一般坚硬的身躯
+T202	Person-Nominal 2786 2788	英雄
+T203	Thing-Nominal 2823 2836	孕育并记载了西域文明的胡杨
+T204	Thing-Nominal 2840 2848	儒家文化的传承者
+*	Coreference T204 T203 T205
+T205	Thing-Pronoun 2850 2851	它
+T206	Person-Nominal 2868 2870	人类
+T207	Thing-Nominal 2880 2887	大地上的胡杨树
+T208	Person-Pronoun 2893 2894	我
+T209	Thing-Nominal 2920 2922	胡杨
+T210	Person-Nominal 2936 2938	人类
+T211	Person-Nominal 2961 2973	一群失去了精神家园的弃儿
+*	Coreference T211 T210
+T212	Time-Implicit 2985 2989	中午时分
+T213	Person-Pronoun 2990 2992	我们
+T214	Thing-Nominal 2994 3022	居延海日出后燃起的湖岸上大片大片紫灰色的芦花升腾起的光芒
+T215	Thing-Nominal 3006 3016	大片大片紫灰色的芦花
+T216	Location-Name 2994 2997	居延海
+*	Coreference T7 T4
+R4	Located Arg1:T15 Arg2:T13	
+T217	Thing-Nominal 225 232;233 236	被一场秋雨唤来 的小草
+T218	Person-Nominal 491 493	人类
+*	Coreference T32 T31
+R5	Located Arg1:T31 Arg2:T33	
+T219	Location-Nominal 585 587	戈壁
+R6	Located Arg1:T35 Arg2:T219	
+R7	General-Special Arg1:T36 Arg2:T35	
+R8	Located Arg1:T43 Arg2:T44	
+T220	Thing-Pronoun 868 870	它们
+R9	Located Arg1:T63 Arg2:T64	
+R10	Part-Whole Arg1:T70 Arg2:T69	
+R11	Part-Whole Arg1:T71 Arg2:T69	
+*	Coreference T75 T73
+*	Coreference T79 T77
+R12	Part-Whole Arg1:T117 Arg2:T115	
+R13	Part-Whole Arg1:T118 Arg2:T115	
+R14	Part-Whole Arg1:T121 Arg2:T115	
+R15	Part-Whole Arg1:T127 Arg2:T115	
+R16	Part-Whole Arg1:T131 Arg2:T130	
+R17	Part-Whole Arg1:T132 Arg2:T130	
+R18	Part-Whole Arg1:T133 Arg2:T130	
+R19	Part-Whole Arg1:T134 Arg2:T130	

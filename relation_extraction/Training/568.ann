@@ -1,0 +1,413 @@
+T1	Time-Implicit 0 2	清早
+T2	Person-Name 7 15	书法家颜其刚老师
+T3	Location-Name 18 20	安微
+T4	Person-Nominal 24 26	画家
+T5	Person-Pronoun 31 32	他
+*	Coreference T5 T2
+T6	Location-Nominal 33 36	工作室
+T7	Person-Pronoun 40 41	我
+R1	Social Arg1:T7 Arg2:T2	
+T8	Person-Pronoun 44 45	我
+T9	Thing-Nominal 48 49	车
+R2	Use Arg1:T8 Arg2:T9	
+T10	Location-Nominal 54 58	他的住所
+T11	Person-Nominal 62 67	一位中年人
+T12	Thing-Nominal 72 74	扇面
+T13	Person-Pronoun 99 100	我
+T14	Person-Name 108 111	颜老师
+T15	Person-Pronoun 120 121	我
+T16	Person-Nominal 126 128	画者
+*	Coreference T16 T11 T19
+T17	Thing-Nominal 139 141	礼帽
+T18	Thing-Nominal 146 148	夹克
+T19	Person-Pronoun 196 197	他
+T20	Person-Nominal 229 231	此君
+T21	Person-Nominal 235 237	才子
+*	Coreference T20 T21 T23
+T22	Time-Implicit 243 248	一袋烟功夫
+T23	Person-Pronoun 249 250	他
+T24	Time-Implicit 260 262	这时
+T25	Person-Pronoun 263 264	他
+T26	Person-Pronoun 271 272	我
+R3	Social Arg1:T25 Arg2:T26	
+T27	Person-Pronoun 280 281	我
+T28	Person-Pronoun 284 285	他
+T29	Person-Name 301 304	徐老师
+T30	Location-Nominal 307 309	药店
+T31	Person-Nominal 324 326	仁兄
+T32	Person-Pronoun 327 328	我
+T33	Person-Pronoun 340 341	我
+T34	Thing-Nominal 343 344	车
+T35	Thing-Nominal 353 354	药
+R4	Located Arg1:T34 Arg2:T35	
+T36	Thing-Pronoun 315 316	药
+R5	Located Arg1:T36 Arg2:T30	
+T37	Person-Pronoun 357 359	我们
+T38	Person-Nominal 362 364	病人
+T39	Person-Nominal 365 367	病人
+R6	Social Arg1:T31 Arg2:T32	
+T42	Person-Name 387 391	藏舟蒲人
+T43	Person-Nominal 392 397	安徽枞阳人
+T41	Time-Explicit 398 403	1960年
+T40	Person-Name 380 385	画家江沛鸿
+*	Coreference T40 T42 T43 T46
+T44	Time-Explicit 406 411	1987年
+T45	Organization-Name 414 420	合肥职工大学
+T46	Person-Nominal 428 433	工艺美术师
+T47	Person-Nominal 437 439	父亲
+R7	Family Arg1:T46 Arg2:T47	
+T48	Time-Explicit 471 476	1978年
+T49	Time-Explicit 514 518	984年
+T50	Person-Nominal 526 532	企业文化领导
+T51	Organization-Nominal 522 524	国企
+T52	Person-Nominal 560 566	安徽著名诗人
+T53	Person-Nominal 567 570	国画家
+T54	Person-Nominal 571 574	书法家
+T55	Person-Name 574 579	贺泽海先生
+*	Coreference T55 T54 T53 T52 T56
+T56	Person-Nominal 558 559	师
+T57	Person-Nominal 591 604	合肥民间艺术研究所常务理事
+T58	Person-Nominal 606 614	文摘书画院副院长
+T59	Organization-Name 591 600	合肥民间艺术研究所
+T60	Organization-Name 606 611	文摘书画院
+T61	Person-Nominal 618 620	画家
+*	Coreference T61 T58 T57
+R8	Ownership Arg1:T61 Arg2:T59	
+R9	Ownership Arg1:T61 Arg2:T60	
+T62	Location-Name 624 627	大别山
+T63	Metric 627 629	百米
+T64	Person-Pronoun 654 656	我们
+T65	Location-Nominal 659 662	小餐馆
+T66	Person-Pronoun 689 691	我们
+T67	Thing-Nominal 708 710	餐桌
+T68	Person-Pronoun 711 713	我们
+T69	Person-Pronoun 748 750	我们
+T70	Person-Nominal 752 754	画家
+T71	Location-Name 763 765	铁砦
+T72	Location-Name 770 772	大悟
+T73	Metric 774 778	几十公里
+T74	Thing-Nominal 796 797	车
+T75	Person-Nominal 800 802	大家
+T76	Location-Name 807 810	大别山
+T77	Person-Pronoun 817 819	我们
+T78	Thing-Nominal 820 822	汽车
+T79	Location-Nominal 827 831	铁砦山下
+R10	Near Arg1:T78 Arg2:T79	
+T80	Person-Nominal 841 844	三轮车
+T81	Thing-Nominal 852 854	山路
+T82	Thing-Nominal 862 863	路
+*	Coreference T82 T81
+T83	Thing-Nominal 869 872	三轮车
+T84	Person-Pronoun 886 888	我们
+T85	Thing-Nominal 889 891	汽车
+R11	Use Arg1:T77 Arg2:T78	
+T86	Location-Nominal 899 902	山路间
+T87	Person-Pronoun 907 909	我们
+T88	Location-Nominal 912 915	山道边
+T89	Thing-Nominal 910 911	车
+R12	Near Arg1:T89 Arg2:T88	
+T90	Location-Name 928 930	铁砦
+T91	Location-Name 931 933	铁砦
+T92	Location-Nominal 936 938	灵山
+*	Coreference T91 T92
+T93	Person-Pronoun 944 945	我
+T94	Location-Name 953 955	铁砦
+T95	Time-Explicit 959 963	光绪二年
+T96	Location-Nominal 972 976	北乡铁砦
+T97	Location-Name 985 988	木兰山
+T98	Location-Nominal 990 994	铁砦庙宇
+T99	Location-Name 995 997	大庙
+T100	Location-Name 998 1000	中庙
+T101	Location-Name 1001 1004	金顶庙
+R13	Part-Whole Arg1:T101 Arg2:T98	
+R14	Part-Whole Arg1:T100 Arg2:T98	
+R15	Part-Whole Arg1:T99 Arg2:T98	
+T102	Location-Name 1010 1013	金顶庙
+T103	Metric 1022 1024	百米
+T104	Location-Nominal 1026 1028	石台
+R16	Part-Whole Arg1:T102 Arg2:T104	
+T105	Thing-Nominal 1056 1058	石梯
+T106	Person-Pronoun 1075 1077	我们
+T107	Location-Nominal 1081 1085	荆棘丛林
+T108	Thing-Nominal 1087 1089	山路
+T109	Location-Nominal 1098 1102	交叉路口
+*	Coreference T31 T28
+T110	Person-Nominal 1103 1105	画家
+T111	Person-Name 1106 1109	徐老师
+T112	Person-Pronoun 1114 1115	我
+T113	Person-Name 1116 1119	颜老师
+T114	Person-Name 1130 1133	郦道元
+T115	Person-Pronoun 1155 1156	我
+T116	Person-Name 1157 1160	颜老师
+T117	Location-Name 1167 1171	铁砦金顶
+T118	Location-Nominal 1172 1174	石台
+T119	Metric 1177 1183	90余平方米
+T120	Location-Nominal 1189 1191	架屋
+*	Coreference T120 T117 T123 T122 T121
+T121	Location-Name 1201 1204	祖师殿
+T122	Location-Name 1205 1208	娘娘殿
+T123	Location-Name 1209 1212	玉皇阁
+T124	Person-Nominal 1214 1218	当地百姓
+T125	Location-Name 1245 1247	金顶
+T126	Location-Name 1315 1318	金鼓圈
+T127	Location-Name 1324 1328	金鼓天池
+T128	Location-Nominal 1333 1334	湖
+*	Coreference T128 T127
+T129	Thing-Name 1336 1339	仙人石
+R17	Located Arg1:T129 Arg2:T128	
+T130	Location-Name 1357 1360	金鼓河
+T131	Thing-Nominal 1362 1364	卧龙
+T132	Location-Name 1367 1370	大顶山
+T133	Location-Name 1371 1374	铁砦山
+T134	Location-Name 1389 1392	八一湖
+T135	Thing-Nominal 1396 1400	乡村公路
+T136	Thing-Nominal 1410 1412	玉带
+T137	Thing-Nominal 1423 1425	楼房
+T138	Location-Nominal 1434 1436	乡村
+T139	Location-Nominal 1442 1445	新农村
+T140	Location-Name 1458 1460	铁砦
+T141	Person-Nominal 1464 1466	画家
+T142	Thing-Nominal 1477 1479	画板
+T143	Thing-Nominal 1472 1474	笔墨
+R18	Use Arg1:T141 Arg2:T143	
+T144	Time-Implicit 1483 1485	晚间
+T145	Person-Pronoun 1486 1488	我们
+T146	Person-Nominal 1508 1510	画家
+T147	Time-Implicit 1511 1513	下午
+T148	Thing-Nominal 1523 1524	酒
+T149	Thing-Nominal 1528 1529	菜
+T150	Person-Pronoun 1533 1535	我们
+T151	Person-Nominal 1538 1540	军人
+T152	Time-Explicit 1555 1557	昱日
+T153	Person-Pronoun 1563 1564	我
+T154	Person-Nominal 1579 1583	战友画家
+T155	Time-Implicit 1583 1585	昨晚
+T156	Time-Explicit 1603 1605	今天
+T157	Person-Pronoun 1621 1622	我
+T158	Person-Nominal 1623 1625	画家
+T159	Location-Nominal 1628 1630	宾馆
+T160	Person-Pronoun 1632 1634	他们
+T161	Person-Pronoun 1644 1646	我们
+T162	Location-Name 1654 1658	大悟丰店
+T163	Location-Nominal 1661 1666	明清古民居
+T164	Location-Nominal 1667 1670	车窗外
+T165	Location-Nominal 1679 1683	红叶树林
+T166	Person-Name 1684 1687	颜老师
+T167	Person-Pronoun 1688 1690	我们
+T168	Thing-Nominal 1701 1704	乌桕树
+T169	Time-Implicit 1705 1708	前不久
+T170	Location-Name 1709 1712	大别山
+T171	Location-Name 1713 1715	大悟
+*	Coreference T170 T171
+T172	Location-Pronoun 1726 1728	这里
+*	Coreference T172 T165
+T173	Thing-Nominal 1731 1734	乌桕树
+R19	Located Arg1:T168 Arg2:T165	
+T174	Location-Nominal 1740 1743	水塘边
+T175	Location-Nominal 1744 1747	悬崖上
+T176	Location-Nominal 1748 1751	丘陵里
+T177	Location-Nominal 1752 1755	盆地中
+T178	Location-Nominal 1756 1759	屋舍旁
+T179	Location-Nominal 1760 1763	树丛中
+T180	Thing-Pronoun 1770 1771	它
+T181	Thing-Nominal 1775 1778	乌桕树
+T182	Thing-Nominal 1779 1781	树叶
+R20	Part-Whole Arg1:T182 Arg2:T181	
+*	Coreference T180 T181
+R21	Located Arg1:T173 Arg2:T174	
+R22	Located Arg1:T173 Arg2:T175	
+R23	Located Arg1:T173 Arg2:T176	
+R24	Located Arg1:T173 Arg2:T177	
+R25	Located Arg1:T173 Arg2:T179	
+R26	Located Arg1:T173 Arg2:T178	
+T183	Person-Nominal 1786 1788	儿童
+T184	Location-Nominal 1845 1847	田野
+T185	Thing-Nominal 1852 1855	乌桕树
+T186	Thing-Nominal 1856 1858	枝干
+R27	Part-Whole Arg1:T186 Arg2:T185	
+T187	Thing-Nominal 1862 1864	杉木
+T188	Thing-Nominal 1865 1867	竹子
+T189	Thing-Nominal 1868 1870	桐树
+T190	Metric 1879 1881	一米
+T191	Thing-Nominal 1890 1892	大枝
+T192	Thing-Nominal 1894 1896	小杈
+R28	Part-Whole Arg1:T192 Arg2:T191	
+R29	Part-Whole Arg1:T191 Arg2:T185	
+T193	Thing-Nominal 1899 1901	树杈
+T194	Person-Nominal 1904 1906	孩童
+T195	Time-Implicit 1914 1917	小时候
+T196	Location-Nominal 1921 1922	家
+T197	Thing-Nominal 1924 1925	牛
+T198	Location-Nominal 1927 1929	山坡
+R30	Located Arg1:T197 Arg2:T198	
+T199	Thing-Nominal 1930 1932	牛儿
+T200	Location-Nominal 1933 1935	山野
+T201	Thing-Nominal 1939 1941	青草
+T202	Person-Nominal 1942 1945	孩子们
+R31	Located Arg1:T199 Arg2:T200	
+T203	Thing-Nominal 1948 1950	树杈
+T204	Thing-Nominal 1954 1955	蝉
+R32	Located Arg1:T204 Arg2:T203	
+T205	Location-Nominal 1962 1966	自家屋顶
+T206	Thing-Nominal 1978 1979	树
+T207	Location-Nominal 1992 1994	山坡
+T208	Thing-Nominal 1999 2001	牛儿
+T209	Person-Pronoun 2014 2015	我
+T210	Thing-Nominal 2026 2027	车
+T211	Person-Name 2032 2035	颜老师
+T212	Person-Nominal 2043 2047	一位村妇
+T213	Location-Name 2052 2055	九房沟
+T214	Location-Pronoun 2048 2050	此处
+*	Coreference T214 T213
+T215	Person-Nominal 2056 2058	村妇
+T216	Location-Pronoun 2061 2063	这里
+T217	Location-Name 2065 2068	九房沟
+*	Coreference T216 T217
+T218	Person-Pronoun 2069 2071	我们
+T219	Person-Nominal 2073 2075	村妇
+T220	Metric 2087 2089	百米
+T221	Location-Nominal 2092 2094	山沟
+T222	Thing-Nominal 2104 2106	民居
+T223	Thing-Nominal 2108 2110	民居
+R33	Located Arg1:T222 Arg2:T221	
+T224	Person-Nominal 2126 2133	一位颜姓的后生
+T225	Person-Pronoun 2135 2137	我们
+R34	Social Arg1:T224 Arg2:T225	
+T226	Person-Pronoun 2138 2139	他
+*	Coreference T226 T224
+T227	Person-Pronoun 2151 2152	他
+T228	Location-Name 2154 2157	九房沟
+T229	Time-Explicit 2160 2163	明末清
+T230	Person-Nominal 2167 2171	颜氏族人
+T231	Location-Pronoun 2178 2180	这里
+T232	Person-Nominal 2185 2187	秀才
+T233	Person-Nominal 2188 2190	举人
+T234	Time-Explicit 2195 2201	解放战争时期
+T235	Person-Nominal 2204 2209	国民党要员
+T236	Location-Name 2215 2217	台湾
+T237	Person-Pronoun 2218 2220	我们
+T238	Location-Nominal 2224 2225;2226 2227	民 居
+T239	Thing-Nominal 2230 2232	门楣
+R35	Located Arg1:T239 Arg2:T238	
+T240	Location-Nominal 2248 2250	弄堂
+T241	Person-Nominal 2257 2259	老人
+T242	Person-Nominal 2273 2275	老人
+T243	Person-Pronoun 2285 2286;2287 2288	我 们
+T244	Person-Nominal 2293 2295	老人
+T245	Person-Pronoun 2300 2302	我们
+T246	Person-Nominal 2315 2317	画家
+T247	Location-Nominal 2321 2323	村口
+T248	Location-Nominal 2324 2326	谷场
+R36	Part-Whole Arg1:T248 Arg2:T247	
+T249	Person-Pronoun 2332 2333	我
+T250	Thing-Nominal 2338 2340	相机
+R37	Use Arg1:T249 Arg2:T250	
+T251	Thing-Nominal 2343 2347	古老民居
+T252	Location-Pronoun 2367 2369	这里
+T253	Thing-Nominal 2385 2387	民居
+T254	Thing-Pronoun 2390 2391	它
+*	Coreference T254 T253
+T255	Location-Pronoun 2401 2403	这里
+T256	Person-Nominal 2422 2424	子民
+T257	Person-Nominal 2431 2433	画家
+T258	Person-Nominal 2445 2450	新时代人民
+T259	Thing-Nominal 2442 2444	民居
+T260	Person-Nominal 2466 2470	几位老师
+T261	Person-Pronoun 2474 2475	我
+T262	Person-Nominal 2489 2491	画家
+T263	Person-Pronoun 2505 2506	我
+T264	Location-Name 2542 2545	九房沟
+T265	Location-Name 2552 2555	丰店镇
+T266	Person-Nominal 2556 2558	领导
+T267	Person-Pronoun 2563 2565	我们
+R38	Social Arg1:T266 Arg2:T267	
+T268	Time-Implicit 2566 2568	此时
+T269	Person-Pronoun 2568 2569	我
+T270	Person-Nominal 2572 2574	画家
+T271	Time-Explicit 2574 2576	昨晚
+T272	Person-Pronoun 2589 2590	他
+*	Coreference T272 T270
+T273	Person-Pronoun 2596 2597	我
+T274	Thing-Nominal 2607 2608	酒
+T275	Person-Nominal 2613 2618	位战友画家
+T276	Person-Nominal 2622 2624	大家
+T277	Person-Nominal 2629 2631	宾主
+T278	Person-Pronoun 2638 2639	我
+T279	Person-Nominal 2643 2645	画家
+T280	Person-Nominal 2653 2661;2662 2665	这位军人情结浓厚 的兄长
+*	Coreference T279 T280
+T281	Thing-Nominal 2671 2673	汽车
+T282	Location-Nominal 2677 2679	山梁
+T283	Location-Nominal 2689 2691	盆地
+T284	Location-Pronoun 2692 2694	这里
+T285	Person-Nominal 2704 2707	颜老师
+T286	Person-Pronoun 2710 2712	我们
+T287	Location-Nominal 2718 2722	他的家乡
+T288	Person-Pronoun 2718 2719	他
+*	Coreference T288 T285 T289
+T289	Person-Nominal 2726 2731;2732 2733	这位古稀老 人
+T290	Location-Nominal 2747 2749	村口
+T291	Person-Nominal 2762 2764	老人
+T292	Thing-Nominal 2767 2771	古老银杏
+T293	Thing-Nominal 2782 2784	树叶
+R39	Part-Whole Arg1:T293 Arg2:T292	
+T294	Time-Implicit 2855 2860	千二百多年
+T295	Thing-Nominal 2867 2868	枝
+T296	Thing-Nominal 2869 2870	叶
+T297	Thing-Nominal 2876 2877	果
+T298	Thing-Nominal 2884 2886	树干
+R40	Part-Whole Arg1:T292 Arg2:T298	
+R41	Part-Whole Arg1:T297 Arg2:T292	
+R42	Part-Whole Arg1:T296 Arg2:T292	
+R43	Part-Whole Arg1:T295 Arg2:T292	
+T299	Thing-Nominal 2888 2890	古树
+T300	Thing-Nominal 2902 2904	民居
+T301	Thing-Nominal 2906 2908	房屋
+T302	Thing-Nominal 2916 2918	民居
+T303	Thing-Nominal 2919 2921	古银
+T304	Person-Nominal 2933 2935	老人
+T305	Thing-Nominal 2939 2941	水桶
+T306	Thing-Nominal 2944 2946	双杖
+R44	Use Arg1:T304 Arg2:T306	
+T307	Person-Pronoun 2952 2953	我
+T308	Person-Nominal 2957 2959	老人
+R45	Social Arg1:T307 Arg2:T308	
+T309	Person-Nominal 2963 2965	老人
+T310	Person-Nominal 2980 2984	旁边的人
+T311	Person-Nominal 2985 2987	老人
+T312	Person-Nominal 2995 2997	老人
+T313	Time-Explicit 2997 2999	今年
+T314	Time-Explicit 3004 3008	解放初期
+T315	Person-Nominal 3009 3012	老党员
+*	Coreference T312 T315 T318
+T316	Person-Nominal 3013 3016	儿孙们
+R46	Family Arg1:T316 Arg2:T312	
+T317	Location-Nominal 3018 3020	城里
+T318	Person-Pronoun 3027 3028	他
+T319	Location-Nominal 3030 3032	城里
+T320	Person-Nominal 3037 3039	老人
+T321	Location-Nominal 3045 3050	自己的家乡
+T322	Person-Nominal 3067 3070	乡亲们
+T323	Person-Nominal 3071 3073	大家
+*	Coreference T323 T322
+T324	Person-Pronoun 3073 3074	你
+T325	Person-Pronoun 3076 3077	我
+T326	Person-Nominal 3087 3089	老人
+T327	Person-Name 3101 3104	李先念
+T328	Location-Pronoun 3107 3109	这里
+T329	Person-Nominal 3110 3112	有人
+T330	Person-Nominal 3114 3117	八路军
+T331	Organization-Name 3120 3123	共产党
+T332	Person-Nominal 3130 3135	当地老百姓
+T333	Person-Nominal 3141 3144	八路军
+T334	Person-Pronoun 3154 3155	我
+T335	Person-Nominal 3180 3183	老人们
+T336	Location-Nominal 3219 3221	县城
+T337	Person-Nominal 3228 3231	朋友们
+T338	Person-Nominal 3238 3240	大家
+T339	Person-Pronoun 3253 3254	我
+T340	Person-Nominal 3255 3257	战友
+R47	Social Arg1:T339 Arg2:T337	
+R48	Social Arg1:T339 Arg2:T340	
+T341	Person-Pronoun 3272 3273	我
+T342	Person-Pronoun 3281 3283	我们

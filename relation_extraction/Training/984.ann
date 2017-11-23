@@ -1,0 +1,56 @@
+T1	Person-Pronoun 1 2	我
+T2	Thing-Nominal 5 8	一只鸟
+T3	Thing-Nominal 19 22	一座山
+T4	Thing-Nominal 30 34	一些鸟雀
+T6	Location-Name 51 54	九宫山
+T7	Person-Pronoun 58 59	我
+T8	Thing-Nominal 65 69	一群鸟雀
+T9	Person-Pronoun 70 72	我们
+T10	Location-Nominal 74 76	山南
+T11	Thing-Nominal 74 84	山南刚开辟出来的道路
+T12	Location-Nominal 89 92	车窗外
+T13	Thing-Nominal 89 90	车
+T14	Thing-Nominal 96 101	雀跃的鸟雀
+T15	Thing-Pronoun 102 104	它们
+*	Coreference T15 T14
+T16	Person-Pronoun 114 116	我们
+T17	Thing-Nominal 116 118	蜗牛
+T18	Thing-Nominal 125 132	一只花翎的鸟雀
+T19	Person-Pronoun 136 138	我们
+T20	Location-Nominal 139 141	车顶
+R1	Located Arg1:T18 Arg2:T20	
+T21	Thing-Nominal 143 148	长长的嘴喙
+R2	Part-Whole Arg1:T21 Arg2:T18	
+T22	Person-Pronoun 161 163	我们
+T23	Thing-Pronoun 169 170	它
+*	Coreference T23 T18
+T24	Person-Pronoun 174 176	我们
+T25	Location-Nominal 179 180	山
+T26	Location-Nominal 187 189	地方
+T27	Thing-Pronoun 190 191	它
+T29	Thing-Nominal 203 210	路旁的一棵树上
+T30	Thing-Nominal 211 213	尾部
+T31	Person-Pronoun 215 217	我们
+R4	Part-Whole Arg1:T30 Arg2:T27	
+T32	Thing-Nominal 224 231	一线白色的粪便
+R5	Part-Whole Arg1:T32 Arg2:T27	
+T33	Location-Nominal 236 239	树丛中
+T34	Thing-Pronoun 244 245	它
+T35	Time-Explicit 244 251	它转身的一瞬间
+T36	Person-Pronoun 252 253	我
+T37	Thing-Pronoun 258 259	它
+T38	Thing-Nominal 260 261	水
+T39	Thing-Nominal 259 266	如水一般的明眸
+R6	Part-Whole Arg1:T39 Arg2:T37	
+T41	Person-Nominal 269 273	我们孩童
+T42	Person-Pronoun 281 283	我们
+T44	Location-Nominal 296 298	山南
+T45	Location-Nominal 299 301	山北
+T47	Person-Nominal 309 312	一个人
+T5	Thing-Nominal 44 47	一座山
+R7	Located Arg1:T14 Arg2:T12	
+R3	Located Arg1:T27 Arg2:T29	
+R8	Located Arg1:T32 Arg2:T33	
+T28	Thing-Pronoun 258 259	它
+T40	Thing-Nominal 291 294	这座山
+T43	Thing-Nominal 305 308	一座墓

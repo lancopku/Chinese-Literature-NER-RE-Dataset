@@ -1,0 +1,344 @@
+T1	Thing-Nominal 1 3	云深
+T2	Thing-Nominal 5 14	一幅天地浑然的幻景
+R1	General-Special Arg1:T2 Arg2:T1	
+T3	Thing-Nominal 15 16	云
+T4	Thing-Nominal 17 18	雾
+T5	Person-Name 25 29	唐人贾岛
+T6	Thing-Name 31 38	《寻隐者不遇》
+R2	Create Arg1:T5 Arg2:T6	
+T7	Location-Nominal 40 42	松下
+T8	Person-Nominal 43 45	童子
+T9	Person-Nominal 47 48	师
+T10	Thing-Nominal 49 50	药
+T11	Location-Nominal 54 57	此山中
+T12	Thing-Nominal 58 59	云
+T13	Thing-Nominal 68 70	云深
+T14	Thing-Nominal 72 81	一遭硝烟弥漫的尘劫
+R3	General-Special Arg1:T14 Arg2:T13	
+T15	Location-Name 82 84	关山
+T16	Person-Name 92 96	南宋陆游
+T17	Person-Nominal 145 154	咏吟“云深”的诗人
+R4	General-Special Arg1:T17 Arg2:T16	
+R5	General-Special Arg1:T17 Arg2:T5	
+T18	Person-Name 163 183	唐朝豪放不羁、号称“饮中八仙”之一的张旭
+R6	General-Special Arg1:T17 Arg2:T18	
+T19	Thing-Nominal 104 107	残角声
+T21	Thing-Nominal 112 115	断鸿影
+T20	Thing-Nominal 108 109	关
+T22	Thing-Nominal 109 110	月
+T23	Thing-Nominal 117 118	云
+T24	Thing-Nominal 116 117	塞
+T25	Thing-Nominal 193 195	雨色
+T26	Location-Nominal 197 200	云深处
+T27	Thing-Nominal 203 204	衣
+T28	Location-Name 207 216	广西融水苗族自治县
+T29	Location-Nominal 207 220	广西融水苗族自治县县城近郊
+R7	Part-Whole Arg1:T29 Arg2:T28	
+T30	Location-Name 220 225	“真仙岩”
+T31	Location-Nominal 220 229	“真仙岩”的穴壁上
+R8	Part-Whole Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 230 232	云深
+R9	Located Arg1:T32 Arg2:T31	
+T33	Thing-Nominal 236 252	两个高巍逾丈、遒劲无匹的朱红大字
+*	Coreference T33 T32
+T34	Location-Nominal 253 261	题刻如林的摩崖上
+R10	Located Arg1:T33 Arg2:T34	
+T35	Person-Name 266 267;268 272	北 宋司马光
+T36	Time-Explicit 279 285	明朝泰定三年
+T37	Thing-Name 279 291	明朝泰定三年的“平瑶碑”
+T38	Thing-Name 266 267;268 278	北 宋司马光的“家人卦”
+T39	Thing-Nominal 307 309	云深
+T40	Thing-Nominal 357 359	云深
+T41	Time-Explicit 314 321	民纪十七年三月
+T42	Time-Explicit 324 331	一九二八年三月
+*	Coreference T42 T41 T43
+T43	Time-Explicit 332 333	这
+T44	Location-Name 364 366	宜北
+T45	Person-Name 366 368	卢涛
+T46	Location-Name 372 374	宜北
+T47	Location-Name 377 380	宜北县
+*	Coreference T47 T46 T48
+T48	Location-Name 386 396	广西环江毛难族自治县
+T49	Person-Name 398 400	卢涛
+T50	Person-Name 403 405	寿慈
+*	Coreference T50 T49 T51 T54
+T51	Person-Nominal 406 415	著名的壮族爱国将领
+T52	Time-Implicit 417 421	民国初年
+T53	Thing-Nominal 422 431	护国战争、护法战争
+T54	Person-Nominal 439 449	黔军总司令兼贵州省长
+T55	Time-Implicit 452 454	斯时
+*	Coreference T55 T52
+T56	Person-Name 456 458	卢涛
+T57	Thing-Nominal 461 463	云深
+T58	Person-Pronoun 468 469	他
+*	Coreference T58 T56 T65 T68
+T59	Person-Name 470 472	朱德
+T60	Person-Name 473 476	范石生
+R11	Social Arg1:T58 Arg2:T59	
+R12	Social Arg1:T58 Arg2:T60	
+T61	Time-Explicit 485 493	一九二七年十一月
+T62	Organization-Nominal 495 503	南昌起义幸存部队
+T63	Person-Name 513 515	朱德
+T64	Thing-Nominal 517 522	一封亲笔信
+R13	Create Arg1:T63 Arg2:T64	
+T65	Person-Name 526 533	时在广州的卢焘
+T66	Location-Name 528 530	广州
+T67	Person-Nominal 523 524	人
+T68	Person-Pronoun 535 536	他
+T69	Person-Name 538 545;546 557	率部驻防湘粤赣 边的第十六军军长范石生
+T70	Organization-Name 560 562	红军
+R14	Part-Whole Arg1:T62 Arg2:T70	
+T71	Person-Name 567 569	卢涛
+T72	Person-Name 570 572	朱德
+T73	Person-Name 573 576	范石生
+T74	Person-Nominal 579 587	云南讲武堂的同学
+T75	Person-Nominal 601 608	义结金兰的兄弟
+T76	Person-Name 609 611	卢涛
+T77	Person-Nominal 614 615	兄
+*	Coreference T77 T76
+T78	Thing-Nominal 619 624	朱德的来信
+*	Coreference T78 T64
+T79	Time-Implicit 616 625	当收到朱德的来信后
+T80	Person-Name 626 627;628 629	卢 涛
+T81	Person-Name 633 636	范石生
+T82	Person-Name 640 643	蒋介石
+T83	Organization-Nominal 650 655	朱德的部队
+*	Coreference T83 T62 T100 T188 T192
+T84	Thing-Nominal 661 668	钱粮和武器弹药
+T85	Organization-Nominal 670 675	朱德的部队
+T86	Organization-Name 678 685	范石生的十六军
+T87	Organization-Name 687 694	北伐军总预备队
+*	Coreference T87 T86 T94
+T88	Person-Name 678 681	范石生
+R15	Ownership Arg1:T88 Arg2:T86	
+T89	Person-Name 697 699	卢涛
+T90	Person-Nominal 702 717	北伐军大本营高等顾问、高级参谋
+*	Coreference T90 T89
+T91	Person-Name 720 722	卢涛
+T92	Thing-Nominal 722 732	这封指令性很强的来信
+T93	Person-Name 733 736	范石生
+T94	Organization-Name 747 750	十六军
+T95	Person-Nominal 753 759	一位神秘人物
+T96	Person-Name 760 778	四十七师副师长兼一四○团团长“王楷”
+*	Coreference T95 T96 T97 T98 T99
+T97	Person-Name 779 784	这“王楷”
+T98	Person-Name 786 788	朱德
+T99	Person-Pronoun 789 790	他
+T100	Organization-Nominal 792 794	部队
+T101	Organization-Name 797 799	国军
+T102	Thing-Nominal 804 815	番号、有薪饷和军需用品
+T103	Organization-Nominal 819 828	南昌起义的幸存部队
+T104	Person-Name 834 837	蒋介石
+T105	Time-Implicit 850 859	一九二八年元旦过后
+T106	Time-Explicit 850 857	一九二八年元旦
+T107	Person-Name 871 874	范石生
+T108	Location-Name 892 894	广州
+T109	Person-Name 895 897	卢涛
+T110	Person-Name 900 903	卢、范
+T111	Person-Name 900 901	卢
+*	Coreference T111 T109
+T112	Person-Name 902 903	范
+*	Coreference T112 T107
+T113	Location-Nominal 908 910;911 915	北伐 军大本营
+T114	Person-Name 920 922	卢涛
+T115	Time-Implicit 927 932	一个多月后
+T116	Location-Name 933 937	广西融县
+T117	Location-Name 941 948	融水苗族自治县
+*	Coreference T117 T116
+T118	Location-Name 933 955	广西融县县城(今融水苗族自治县县城)南关码头
+R16	Part-Whole Arg1:T118 Arg2:T116	
+T119	Thing-Nominal 957 966	一艘人货混装的轮船
+T120	Location-Nominal 967 969	船上
+T121	Thing-Nominal 972 985	一辆当地“无路可走”的汽车
+R17	Located Arg1:T121 Arg2:T120	
+T122	Person-Nominal 991 1002	一位“分路扬镳”的人物
+T123	Person-Name 1003 1005	卢涛
+T124	Person-Name 1009 1011	卢涛
+T125	Person-Name 1012 1015	范石生
+T126	Person-Name 1024 1027	蒋介石
+T127	Location-Name 1039 1041	贵阳
+T128	Person-Pronoun 1042 1043	他
+*	Coreference T128 T124 T122 T123
+T129	Person-Name 1044 1048;1049 1052	贵州省长 周西成
+T130	Thing-Nominal 1055 1056	车
+R18	Social Arg1:T129 Arg2:T128	
+T131	Location-Name 1061 1063	广州
+T132	Location-Name 1066 1068	香港
+T133	Location-Name 1070 1072	香港
+T134	Person-Pronoun 1073 1074	他
+T135	Thing-Nominal 1076 1088	一辆七座的“雪佛莱”轿车
+T136	Person-Name 1092 1095	李济深
+T137	Person-Name 1092 1101	李济深的司机曹孝端
+R19	Social Arg1:T137 Arg2:T136	
+T138	Time-Implicit 1105 1107	当时
+T139	Location-Name 1114 1118	广西梧州
+T140	Thing-Nominal 1108 1109;1110 1111	公 路
+T141	Person-Name 1119 1121	卢涛
+T142	Location-Name 1127 1129	梧州
+*	Coreference T142 T139
+T143	Thing-Nominal 1138 1139	船
+T144	Thing-Nominal 1140 1141	车
+T145	Location-Name 1148 1154	融县南关码头
+*	Coreference T145 T118
+T146	Person-Nominal 1156 1176	生于“宜北”邻县、享誉“护国战争”的英雄
+*	Coreference T146 T141 T152
+T147	Person-Nominal 1181 1187	融县地方官员
+T148	Person-Name 1194 1199	明朝徐霞客
+T149	Location-Name 1181 1183	融县
+T150	Location-Name 1211 1216	“真仙岩”
+T151	Person-Pronoun 1220 1222	他们
+T152	Person-Name 1227 1239	礼帽长衫、商人打扮的卢涛
+T153	Person-Nominal 1240 1242	众人
+T154	Location-Nominal 1247 1255	宏大的真仙岩前殿
+R20	Part-Whole Arg1:T154 Arg2:T150	
+T155	Person-Name 1305 1308	宋真宗
+T156	Thing-Nominal 1308 1316	四块硕大的御书碑
+T157	Thing-Name 1281 1287;1288 1303	“‘颐堂’、 ‘西江’、‘瑞云’、‘精忠’”
+*	Coreference T156 T157
+T158	Person-Name 1318 1320	卢涛
+T159	Location-Name 1324 1336	南宋“融州・清远军”磨崖
+T160	Thing-Nominal 1342 1345	放生池
+R21	Located Arg1:T160 Arg2:T159	
+T161	Location-Nominal 1347 1349	池旁
+R22	Near Arg1:T160 Arg2:T161	
+T162	Thing-Nominal 1350 1353	米一盆
+R23	Located Arg1:T162 Arg2:T161	
+T163	Person-Name 1354 1356	卢涛
+T164	Thing-Nominal 1358 1359	盆
+*	Coreference T164 T162
+T165	Thing-Nominal 1362 1364	手指
+R24	Use Arg1:T158 Arg2:T165	
+T166	Thing-Nominal 1365 1367	米粒
+R25	Located Arg1:T166 Arg2:T164	
+T167	Person-Nominal 1375 1379	随同人员
+T168	Person-Name 1385 1388	曹孝端
+R26	Part-Whole Arg1:T168 Arg2:T167	
+T169	Thing-Nominal 1396 1397	食
+T170	Thing-Nominal 1398 1399	天
+T171	Person-Nominal 1394 1395	民
+T172	Person-Nominal 1406 1410	地方官员
+T173	Person-Name 1413 1415	卢涛
+*	Coreference T172 T147
+T174	Thing-Nominal 1420 1424	文房四宝
+T175	Location-Nominal 1419 1430	“文房四宝”齐备的禅房
+T176	Person-Name 1431 1433	卢涛
+T177	Person-Nominal 1444 1445;1446 1447	众 人
+T178	Thing-Nominal 1437 1443	“云深”二字
+T179	Thing-Nominal 1449 1453	“云深”
+*	Coreference T179 T178
+T180	Person-Name 1456 1458	卢涛
+T181	Thing-Nominal 1480 1484	“云深”
+T182	Person-Name 1492 1494	卢涛
+T183	Person-Pronoun 1502 1503	他
+*	Coreference T183 T182
+T184	Person-Name 1505 1508	蒋介石
+T185	Person-Nominal 1511 1515	共产党人
+T186	Person-Pronoun 1519 1520	他
+T187	Person-Name 1522 1524	朱德
+R27	General-Special Arg1:T185 Arg2:T187	
+T188	Organization-Nominal 1525 1528	其所部
+T189	Person-Pronoun 1539 1540	他
+T190	Person-Name 1543 1545	朱德
+T191	Thing-Nominal 1565 1567	云深
+T192	Organization-Nominal 1576 1580	这支部队
+T193	Person-Name 1589 1591	卢涛
+T194	Person-Nominal 1593 1597	草莽英雄
+T195	Time-Explicit 1598 1611	光绪二十五年(1899年)
+T196	Location-Name 1611 1621	庆远(今广西宜州市)
+T197	Person-Pronoun 1624 1625	他
+T198	Time-Implicit 1632 1635	从军前
+T199	Person-Pronoun 1641 1642	他
+T200	Person-Name 1648 1649;1650 1655	南 宋诗人陆游
+T201	Thing-Nominal 1690 1692	云深
+T202	Person-Name 1698 1700	陆游
+*	Coreference T202 T200
+T203	Thing-Nominal 1711 1714	残角声
+T204	Thing-Nominal 1715 1716	关
+T205	Thing-Nominal 1716 1717	月
+T206	Thing-Nominal 1719 1722	断鸿影
+T207	Thing-Nominal 1723 1724	塞
+T208	Thing-Nominal 1724 1725	云
+T209	Person-Name 1728 1735	客居异乡的卢涛
+*	Coreference T209 T193 T211 T225 T232 T234 T237
+T210	Thing-Nominal 1740 1746	熟悉的军号声
+T211	Person-Pronoun 1750 1752	自己
+T212	Thing-Nominal 1754 1759	失群的孤雁
+T213	Person-Pronoun 1765 1766	他
+T214	Person-Name 1778 1780	朱德
+T215	Organization-Nominal 1781 1784	其所部
+T216	Person-Name 1793 1796	蒋介石
+T217	Person-Name 1797 1799	卢涛
+T218	Person-Nominal 1807 1814	这位“委员长”
+*	Coreference T218 T216
+T219	Location-Name 1816 1818	台湾
+T220	Person-Name 1826 1828	卢涛
+T221	Organization-Name 1833 1835	军统
+T222	Thing-Nominal 1833 1840	军统的暗杀名单
+T223	Thing-Nominal 1825 1831	“卢涛”二字
+R28	Located Arg1:T223 Arg2:T222	
+T224	Time-Explicit 1841 1850;1851 1862	一九四九年十一月十 四日上午、贵阳解放前夕
+T225	Person-Name 1863 1871	时年六十八的卢涛
+T226	Person-Name 1872 1885	国民党第八十九军军长刘伯龙
+T227	Organization-Name 1872 1875	国民党
+T228	Location-Name 1890 1893	贵阳市
+T229	Organization-Name 1872 1880	国民党第八十九军
+T230	Location-Nominal 1890 1900	贵阳市郊二桥转湾塘处
+T231	Person-Name 1905 1907	朱德
+T232	Person-Name 1908 1915	情同手足的卢涛
+T233	Person-Nominal 1921 1940	这位人民共和国副主席、人民解放军总司令
+*	Coreference T233 T231
+T234	Person-Name 1943 1947	寿慈先生
+T235	Thing-Nominal 1960 1962	挽联
+R29	Create Arg1:T231 Arg2:T235	
+T236	Person-Nominal 1964 1966	英雄
+T237	Person-Name 1982 1984	卢涛
+T238	Person-Nominal 1989 1995	中央立传烈士
+R30	General-Special Arg1:T238 Arg2:T237	
+T239	Person-Nominal 1998 2000	英雄
+T240	Time-Explicit 2047 2055	1927年11月
+T241	Person-Name 2056 2058	朱德
+T242	Organization-Nominal 2060 2069	南昌起义幸存的部队
+T243	Location-Name 2071 2075	湘南地区
+T244	Person-Name 2084 2086	朱德
+T245	Person-Nominal 2095 2096	人
+T246	Person-Name 2103 2105	卢焘
+T247	Person-Pronoun 2107 2108	他
+T248	Person-Name 2110 2142	当时率部驻防湘粤赣边的滇军第16军军长、云南讲武堂的老同学范石生
+T249	Person-Name 2144 2145	范
+*	Coreference T249 T248 T247 T246 T251
+T250	Organization-Name 2148 2150	红军
+T251	Person-Name 2173 2175	卢焘
+T252	Person-Name 2185 2186	范
+T253	Person-Pronoun 2188 2189	他
+*	Coreference T253 T252
+T254	Person-Name 2192 2195	蒋介石
+T255	Organization-Nominal 2200 2205	朱德的部队
+*	Coreference T255 T242
+T256	Person-Name 2208 2209	范
+T257	Thing-Nominal 2238 2245	钱粮、武器弹药
+T258	Organization-Nominal 2247 2252	朱德的部队
+T259	Person-Name 2261 2264	申赤兵
+T260	Time-Explicit 2275 2280	1927年
+T261	Organization-Name 2032 2035	中国网
+T262	Organization-Name 2158 2161	中国网
+T263	Thing-Name 2037 2045	《爱国将领卢涛》
+R31	Create Arg1:T261 Arg2:T263	
+T264	Thing-Name 2163 2171	《爱国将领卢涛》
+R32	Create Arg1:T262 Arg2:T264	
+T265	Person-Name 2281 2292	时任贵州省主席的周西城
+T266	Person-Name 2293 2295	卢涛
+T267	Location-Name 2296 2298	香港
+T268	Person-Pronoun 2299 2300	他
+*	Coreference T268 T265 T272
+T269	Thing-Nominal 2302 2312	一辆七座的雪佛莱轿车
+T270	Thing-Pronoun 2313 2314	这
+*	Coreference T270 T269 T271 T275
+T271	Thing-Nominal 2315 2320;2321 2323	贵州第一辆 汽车
+T272	Person-Name 2324 2325	周
+T273	Location-Name 2327 2329	广州
+T274	Person-Name 2326 2340	在广州李济深的汽车司机曹孝端
+*	Coreference T137 T274
+T275	Thing-Nominal 2341 2342	车
+R33	Social Arg1:T9 Arg2:T8	
+T276	Person-Nominal 33 35	隐者
+*	Coreference T9 T276

@@ -1,0 +1,114 @@
+T1	Person-Pronoun 1 2	她
+T2	Person-Pronoun 5 6	她
+T3	Person-Pronoun 9 10	她
+T4	Person-Pronoun 21 22	我
+T5	Person-Name 26 29	辛夷坞
+T7	Person-Nominal 93 94	人
+T8	Thing-Nominal 100 101	词
+T9	Location-Nominal 107 109	城堡
+T10	Location-Nominal 116 121;122 124	富丽堂皇的 宫殿
+T11	Person-Pronoun 126 128	自我
+T12	Person-Pronoun 130 132	自我
+T14	Person-Pronoun 146 148	自己
+T15	Person-Pronoun 178 179	他
+T16	Abstract 32 44	《致我们终将逝去的青春》
+T17	Metric 46 48	一句
+T6	Thing-Nominal 30 32	小说
+T18	Time-Implicit 160 166	在青葱岁月里
+T19	Person-Nominal 172 173	人
+T20	Thing-Nominal 184 188	满天繁星
+T21	Thing-Nominal 190 192	星空
+T22	Time-Implicit 197 199	如今
+T23	Person-Pronoun 204 205	我
+T24	Thing-Nominal 215 220	奔流的江河
+T25	Person-Pronoun 236 238	我们
+T26	Metric 267 269	每每
+T27	Time-Implicit 246 248	当初
+T28	Person-Nominal 277 281	筷子兄弟
+T30	Thing-Nominal 26 32	辛夷坞的小说
+R2	General-Special Arg1:T30 Arg2:T6	
+T29	Person-Pronoun 305 307	自己
+T31	Person-Pronoun 320 321	我
+T32	Metric 328 333	多少个日夜
+T33	Person-Pronoun 336 338	独自
+T34	Thing-Nominal 346 348	道路
+T35	Thing-Name 371 373	月亮
+T36	Person-Pronoun 379 380	我
+T37	Person-Pronoun 389 390	我
+T41	Thing-Nominal 367 369	玉磐
+*	Coreference T35 T41
+T42	Location-Nominal 389 393	我的家乡
+T43	Thing-Nominal 394 395	花
+T44	Thing-Nominal 396 398	海洋
+T45	Person-Pronoun 408 410	我们
+T46	Person-Nominal 414 416	家人
+T47	Person-Nominal 417 419	朋友
+T49	Person-Nominal 459 460	人
+T50	Metric 469 471	万年
+T51	Thing-Nominal 477 479	单车
+T52	Location-Nominal 489 491	阳台
+T53	Time-Implicit 524 536	在那紧张如锣鼓轰鸣的岁月
+T54	Person-Nominal 545 547	大家
+T55	Thing-Nominal 564 566	纸笺
+T56	Thing-Nominal 571 572	石
+T57	Thing-Nominal 573 575	大海
+T58	Thing-Nominal 582 587	苦涩的咖啡
+T59	Person-Nominal 590 591	人
+T60	Metric 606 608	一场
+T61	Time-Implicit 603 606	荒年里
+T62	Metric 630 632	一座
+T63	Location-Nominal 632 633	城
+T64	Metric 636 638	一个
+T65	Person-Nominal 638 639	人
+T66	Person-Pronoun 649 651	我们
+T67	Person-Nominal 653 654	人
+T68	Metric 651 653	每个
+T69	Person-Nominal 651 654	每个人
+*	Coreference T69 T66
+T70	Person-Nominal 658 660	某人
+T71	Thing-Nominal 663 665	行囊
+T72	Person-Pronoun 673 674	她
+T73	Location-Nominal 694 696	城市
+T74	Location-Nominal 704 706	河畔
+T75	Person-Pronoun 721 722	你
+T76	Location-Nominal 723 725	城市
+T77	Person-Nominal 725 728	一个人
+T78	Person-Pronoun 728 730	独自
+*	Coreference T78 T77
+T79	Location-Nominal 713 717	漫漫长路
+T80	Location-Nominal 734 736	小路
+T81	Person-Pronoun 741 742	你
+T82	Location-Pronoun 746 749	那座城
+T83	Location-Pronoun 751 754	那条街
+T84	Location-Pronoun 755 759	那个路口
+T85	Person-Nominal 773 775	仙女
+T86	Person-Name 790 793	辛夷坞
+T87	Thing-Nominal 838 842	风干的纸
+T88	Person-Pronoun 859 861	我们
+T89	Person-Pronoun 928 929	我
+T90	Location-Nominal 928 931	我的城
+T91	Location-Nominal 956 960	我的城堡
+*	Coreference T91 T90
+T92	Person-Pronoun 962 963	我
+T93	Person-Pronoun 956 957	我
+T94	Person-Pronoun 974 975	我
+T95	Person-Nominal 1013 1015	朋友
+T96	Person-Nominal 1017 1020	每个人
+T97	Person-Pronoun 1026 1027	你
+*	Coreference T97 T95
+T98	Person-Pronoun 980 981	我
+T100	Location-Pronoun 1030 1033	那座城
+T99	Person-Nominal 141 144	每个人
+*	Coreference T99 T14
+T13	Location-Nominal 204 208	我的城池
+T38	Thing-Nominal 351 353	花香
+T39	Thing-Nominal 354 356	虫鸣
+T40	Thing-Nominal 357 359	河床
+R1	Located Arg1:T38 Arg2:T34	
+R3	Located Arg1:T39 Arg2:T34	
+T101	Thing-Nominal 361 363	明镜
+R4	Located Arg1:T101 Arg2:T40	
+R5	Family Arg1:T46 Arg2:T45	
+R6	Social Arg1:T47 Arg2:T45	
+T48	Location-Nominal 451 455	楼梯转角
+R7	Part-Whole Arg1:T80 Arg2:T76	

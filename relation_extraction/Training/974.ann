@@ -1,0 +1,171 @@
+T5	Person-Nominal 18 21	一般人
+T6	Location-Nominal 37 39	小屋
+T7	Thing-Nominal 18 24	一般人的小屋
+T8	Location-Name 48 50	商洛
+T9	Location-Name 52 57	湖北、河南
+T10	Location-Name 58 62	商南县城
+T11	Location-Name 64 69	丹凤、山阳
+T13	Location-Nominal 78 85	一道狭窄的山谷
+T15	Location-Nominal 86 93	一条宽大的公路
+T1	Location-Name 3 9	南阳的诸葛庐
+T2	Location-Name 10 16	西湖的子云亭
+T3	Location-Nominal 97 102	太吉河桥头
+T4	Location-Name 97 100	太吉河
+T16	Thing-Nominal 105 107	车辆
+T17	Person-Nominal 107 109	行人
+T18	Thing-Nominal 132 136	我的小屋
+T19	Person-Pronoun 132 133	我
+T20	Person-Pronoun 137 138	我
+T21	Thing-Pronoun 142 143	它
+*	Coreference T21 T18
+T22	Location-Nominal 146 150	小山前边
+T23	Location-Nominal 151 157	丹江河的旁侧
+T24	Location-Name 151 154	丹江河
+T25	Time-Implicit 158 163	晴朗的早晨
+T26	Location-Nominal 164 171	小屋四周的村落
+T27	Location-Nominal 179 183	我的窗口
+T28	Person-Pronoun 179 180	我
+T29	Thing-Nominal 186 188	白光
+R1	Located Arg1:T29 Arg2:T27	
+T30	Location-Nominal 190 192;193 197	村落 绿林深处
+T31	Thing-Nominal 207 209	小鸟
+T32	Location-Nominal 219 222	公路上
+T33	Location-Nominal 222 225	小桥上
+T34	Person-Nominal 232 234	行人
+T35	Location-Nominal 239 246	山间人家房顶上
+T36	Thing-Nominal 247 249	炊烟
+R2	Located Arg1:T36 Arg2:T35	
+T38	Thing-Nominal 259 267	一幅亮丽的晨炊图
+T39	Time-Explicit 274 276	这时
+T40	Location-Nominal 283 285	河边
+T41	Thing-Nominal 289 293	新鲜空气
+R3	Located Arg1:T41 Arg2:T40	
+T42	Thing-Nominal 296 298	霜露
+T43	Thing-Nominal 304 306	小屋
+T44	Time-Implicit 316 322	下午闲暇时候
+T45	Location-Nominal 330 334	河边小路
+T46	Location-Nominal 337 341	山间泉边
+T47	Time-Explicit 350 354	黄昏时分
+T48	Thing-Nominal 355 359	我的小屋
+T49	Person-Pronoun 355 356	我
+T50	Thing-Nominal 363 365	亮光
+T51	Metric 361 363	一丝
+T52	Thing-Nominal 368 372	我的小屋
+T53	Person-Pronoun 382 383	我
+T54	Person-Pronoun 368 369	我
+T55	Person-Nominal 394 396	别人
+T56	Person-Pronoun 398 399	我
+T57	Location-Nominal 410 414	我的小屋
+T58	Person-Pronoun 410 411	我
+T59	Location-Nominal 415 423	绿色海洋里的小岛
+T60	Location-Name 431 436	金丝大峡谷
+T61	Location-Name 437 440	商洛山
+T62	Location-Name 466 468	太吉
+T63	Location-Name 476 479	商洛山
+T64	Location-Nominal 465 470;471 473	而太吉河的 山水
+T65	Location-Nominal 484 488	我的小屋
+T66	Location-Nominal 491 496	太吉河山水
+T67	Person-Pronoun 484 485	我
+T68	Person-Nominal 504 506	美人
+T69	Metric 509 511	一颗
+T70	Location-Nominal 504 508	美人脸上
+T71	Thing-Nominal 511 514	小红痣
+R4	Located Arg1:T71 Arg2:T70	
+T72	Person-Nominal 516 517	人
+T73	Location-Pronoun 523 525	这里
+*	Coreference T73 T65
+T74	Location-Nominal 529 531;532 536	板栗 盛产基地
+T75	Thing-Nominal 529 531	板栗
+T76	Time-Implicit 539 543	深秋季节
+T77	Location-Nominal 544 548	小屋后边
+T78	Location-Nominal 550 554	板栗树林
+T79	Thing-Nominal 565 567	板栗
+T80	Location-Name 576 580	古城西安
+T81	Time-Implicit 581 583	现在
+T82	Person-Nominal 586 590	中外游人
+T83	Location-Nominal 597 600	山脚下
+T84	Thing-Nominal 603 606	柿子树
+T85	Location-Nominal 603 607	柿子树上
+T86	Thing-Nominal 610 614	小红灯笼
+R5	Located Arg1:T86 Arg2:T85	
+T87	Location-Nominal 615 619	小屋近处
+T88	Location-Nominal 620 624	河水两岸
+T89	Location-Nominal 628 630	地里
+T90	Location-Nominal 626 627	地
+T91	Thing-Nominal 633 642	黄澄澄的大玉米穗子
+R6	Located Arg1:T91 Arg2:T89	
+T92	Location-Nominal 643 652	小屋对面的大青山上
+T93	Thing-Nominal 655 657	山泉
+T94	Thing-Nominal 663 665	雨雾
+T95	Person-Nominal 668 669	人
+T96	Thing-Nominal 683 685	阳光
+T98	Thing-Nominal 689 698	一条闪闪发光的银链
+T99	Location-Nominal 700 702	山顶
+T100	Location-Nominal 719 731	在这充满诗情画意的大山中
+T101	Location-Name 738 743	金丝大峡谷
+T102	Location-Nominal 749 755	国家森林公园
+*	Coreference T102 T101
+T103	Location-Name 758 771	中国西部陕西省商南县新开岭
+T104	Thing-Nominal 776 778	古栈
+T105	Thing-Nominal 778 780	流泉
+T106	Thing-Nominal 780 782	飞瀑
+T107	Thing-Nominal 783 785	碧潭
+T108	Thing-Nominal 785 787	溶洞
+T109	Thing-Nominal 788 790	秀石
+T110	Thing-Nominal 790 792	峻峰
+T111	Thing-Nominal 793 795	幽谷
+T112	Thing-Nominal 798 802	原生林木
+T113	Abstract 818 824	“秦岭奇峡”
+T114	Location-Nominal 847 851	我的小屋
+T115	Location-Name 853 856	金丝峡
+T116	Metric 858 862	十五公里
+T117	Location-Name 864 867	太吉河
+T118	Location-Nominal 870 872	一路
+T119	Thing-Nominal 870 877	一路的小黄菊花
+R7	Located Arg1:T119 Arg2:T118	
+T120	Location-Nominal 884 886	河流
+T121	Location-Nominal 891 896	轻捷的小径
+T122	Person-Nominal 902 904	游人
+T123	Metric 906 908	万里
+T124	Time-Explicit 931 933	如今
+T125	Thing-Nominal 934 938	高速公路
+T126	Location-Nominal 945 947	全国
+T127	Thing-Nominal 949 951	车辆
+T128	Location-Nominal 952 954	小屋
+T129	Location-Nominal 963 965	小屋
+T130	Location-Pronoun 985 987	这里
+*	Coreference T130 T129
+T131	Person-Nominal 988 992	大人小孩
+T132	Person-Nominal 993 997	我的常客
+*	Coreference T131 T132
+T133	Person-Nominal 1002 1004	文人
+T134	Person-Nominal 1010 1014	上级领导
+T135	Person-Pronoun 1025 1026	我
+T136	Thing-Nominal 1031 1035	我的小屋
+T137	Location-Name 1043 1046	太吉河
+T138	Thing-Nominal 1043 1049	太吉河的眼睛
+*	Coreference T138 T136
+T139	Location-Nominal 1052 1058	黑暗的苍穹下
+T140	Location-Nominal 1062 1068	柔软的草坪上
+T141	Location-Nominal 1076 1084	头顶上的那片星空
+T142	Location-Nominal 1089 1091	山间
+T143	Person-Nominal 1093 1094	人
+T144	Thing-Nominal 1097 1099	夜莺
+R8	Located Arg1:T144 Arg2:T142	
+T145	Location-Nominal 1102 1104	小屋
+T146	Person-Nominal 1113 1117	过往行人
+T147	Person-Pronoun 1145 1146	我
+T148	Person-Pronoun 1166 1167	我
+T149	Location-Nominal 1174 1178	我的小屋
+T150	Location-Name 1179 1182	太吉河
+T151	Location-Nominal 1179 1187	太吉河未来的中心
+*	Coreference T151 T149
+T152	Location-Nominal 1188 1193	金丝峡山水
+T153	Location-Name 1188 1191	金丝峡
+T154	Location-Name 1194 1197	太吉河
+T155	Location-Name 1201 1206	金丝大峡谷
+T156	Person-Nominal 1207 1210	商洛人
+T157	Thing-Nominal 1221 1223	大海
+T158	Thing-Nominal 1224 1226	森林
+T159	Location-Nominal 1221 1229	大海和森林的故乡
+T12	Location-Pronoun 1157 1159	这里

@@ -1,0 +1,187 @@
+T1	Time-Implicit 0 2	早晨
+T2	Person-Nominal 8 12	一位老者
+T3	Thing-Nominal 14 16	大笔
+R1	Use Arg1:T2 Arg2:T3	
+T4	Thing-Nominal 19 22	水泥地
+T5	Thing-Nominal 25 27	大字
+T6	Person-Pronoun 36 37	他
+*	Coreference T6 T2 T14 T22
+T7	Person-Pronoun 44 45	我
+T8	Time-Implicit 84 86	每月
+T9	Thing-Nominal 86 88	工资
+T10	Person-Pronoun 92 93	我
+T11	Thing-Pronoun 110 111	啥
+T12	Person-Nominal 112 116	另一老者
+T13	Person-Pronoun 128 129	我
+T14	Person-Nominal 136 138	老者
+T15	Person-Pronoun 147 148	我
+T16	Organization-Nominal 149 151	单位
+T17	Person-Pronoun 159 160	他
+T18	Thing-Nominal 152 156	退休工资
+T19	Metric 164 167	千多元
+T20	Metric 172 175	三千多
+T21	Person-Pronoun 171 172	我
+T22	Person-Nominal 197 203	写大字的老者
+T23	Person-Pronoun 205 206	我
+T24	Thing-Nominal 259 263	劳动成果
+T25	Person-Nominal 266 272	家庭任何成员
+T26	Person-Nominal 286 294	亲戚朋友街坊邻居
+R2	Social Arg1:T26 Arg2:T23	
+R3	Family Arg1:T25 Arg2:T23	
+T27	Person-Pronoun 295 296	谁
+R4	Part-Whole Arg1:T27 Arg2:T26	
+R5	Create Arg1:T23 Arg2:T24	
+T28	Thing-Nominal 329 333	动、植物
+T29	Person-Nominal 340 344	多数老人
+T30	Metric 364 366	两毛
+T31	Person-Pronoun 367 368	谁
+R6	Part-Whole Arg1:T31 Arg2:T29	
+T32	Metric 373 375	两毛
+T33	Person-Nominal 382 383	人
+T34	Organization-Nominal 402 410	家庭、单位、社会
+T35	Thing-Nominal 433 437	劳动成果
+T36	Person-Name 463 468	邻居王大妈
+T37	Thing-Nominal 469 471	腰腿
+R7	Ownership Arg1:T36 Arg2:T37	
+T38	Thing-Nominal 473 475	手脚
+R8	Ownership Arg1:T36 Arg2:T38	
+T39	Thing-Nominal 487 489	筋骨
+R9	Ownership Arg1:T36 Arg2:T39	
+T40	Person-Pronoun 494 495	我
+*	Coreference T36 T40
+T41	Time-Implicit 500 502	年轻
+T42	Person-Pronoun 527 528	我
+T43	Person-Nominal 531 535	贪官污吏
+T44	Thing-Nominal 544 553	中药、西药、营养品
+T45	Person-Name 567 570	李大爷
+T46	Thing-Nominal 571 575	鸡鱼肉蛋
+T47	Time-Implicit 580 582	天天
+T48	Metric 590 593	一两年
+T49	Thing-Nominal 596 599	高血压
+T50	Thing-Nominal 602 605	脑血栓
+T51	Person-Nominal 621 623	老伴
+T52	Thing-Nominal 617 618	炕
+T53	Time-Implicit 614 616	天天
+R10	Family Arg1:T51 Arg2:T45	
+T54	Person-Pronoun 645 646	我
+T55	Person-Pronoun 648 649	他
+*	Coreference T55 T45
+T56	Time-Implicit 651 658	风和日丽的日子
+T57	Location-Nominal 661 664	院子里
+T58	Person-Pronoun 672 673	他
+T59	Person-Name 691 694	孙大爷
+T60	Time-Implicit 695 698	上班时
+T61	Thing-Nominal 721 726	扑克、麻将
+T62	Person-Name 744 747	张大婶
+T63	Location-Nominal 748 750	家里
+T64	Location-Nominal 766 768	街上
+R11	Near Arg1:T64 Arg2:T63	
+T65	Organization-Nominal 784 786	谁家
+T66	Person-Nominal 787 788	爹
+T67	Person-Nominal 789 790	娘
+T68	Person-Nominal 791 793	婆媳
+T69	Person-Name 810 812	张三
+T70	Person-Name 813 815	李四
+T71	Person-Nominal 818 821	某老公
+T72	Person-Nominal 824 826	媳妇
+R12	Family Arg1:T72 Arg2:T71	
+T73	Person-Nominal 827 831	谁家媳妇
+T74	Person-Nominal 838 840	人们
+T75	Person-Nominal 845 848	两口子
+T76	Organization-Nominal 859 861	社会
+T77	Person-Nominal 951 956	以前老人们
+T78	Thing-Nominal 959 960	花
+T79	Thing-Nominal 963 964	柳
+T80	Thing-Nominal 966 967	鸟
+T81	Thing-Nominal 970 971	鸡
+T82	Thing-Nominal 975 976	花
+T83	Thing-Nominal 977 978	柳
+T84	Thing-Nominal 979 980	鸟
+T85	Thing-Nominal 981 982	鸡
+T86	Person-Nominal 989 992	老年人
+T87	Thing-Nominal 996 998	大钱
+T88	Thing-Name 1048 1050	夕阳
+T89	Time-Implicit 1056 1059	年轻时
+T90	Person-Nominal 1071 1072;1073 1074	别 人
+T91	Person-Pronoun 1080 1082	自己
+*	Coreference T91 T86
+R13	Social Arg1:T90 Arg2:T86	
+T92	Person-Pronoun 1087 1089	我们
+T93	Abstract 1100 1104	和谐社会
+T94	Person-Nominal 1105 1107	人人
+T95	Person-Nominal 1108 1109	人
+T96	Person-Nominal 1121 1124	老年人
+T97	Organization-Nominal 1166 1168	国家
+T98	Location-Nominal 1169 1172	国际上
+T99	Person-Pronoun 1185 1187	个人
+T100	Person-Name 1206 1209	任奶奶
+T101	Metric 1210 1213	82岁
+T102	Thing-Nominal 1214 1216	腿脚
+R14	Ownership Arg1:T100 Arg2:T102	
+T103	Person-Nominal 1227 1232	义务清洁工
+R15	General-Special Arg1:T103 Arg2:T100	
+T104	Thing-Nominal 1235 1245	易拉罐、废纸箱等垃圾
+T105	Person-Pronoun 1260 1262	个人
+*	Coreference T105 T100
+T106	Metric 1264 1266;1267 1270	20 00元
+T107	Person-Nominal 1277 1283	需要帮助的人
+T108	Person-Name 1285 1288	朱师傅
+T109	Metric 1289 1292	78岁
+T110	Person-Nominal 1293 1299	城里退休工人
+R16	General-Special Arg1:T110 Arg2:T108	
+T111	Person-Nominal 1304 1306	儿子
+R17	Family Arg1:T111 Arg2:T108	
+T112	Person-Nominal 1310 1313	五口人
+R18	Part-Whole Arg1:T111 Arg2:T112	
+R19	Part-Whole Arg1:T108 Arg2:T112	
+T113	Thing-Nominal 1316 1318	馍馍
+T114	Metric 1322 1325	一毛钱
+T115	Metric 1318 1320	每斤
+T116	Person-Pronoun 1330 1331	他
+*	Coreference T116 T108
+T117	Person-Name 1339 1342	牛爷爷
+T118	Metric 1343 1346	83岁
+T119	Metric 1352 1356	3.6亩
+T120	Thing-Nominal 1352 1357	3.6亩地
+T121	Metric 1358 1362	1.0亩
+T122	Metric 1367 1371	2.6亩
+T123	Person-Nominal 1372 1376	三个儿子
+R20	Family Arg1:T123 Arg2:T117	
+T124	Metric 1372 1374	三个
+T125	Person-Pronoun 1378 1380	自己
+*	Coreference T125 T117 T131 T133 T137
+T126	Thing-Nominal 1384 1388	十几只羊
+T127	Metric 1384 1387	十几只
+R21	Ownership Arg1:T117 Arg2:T126	
+T128	Metric 1393 1398	9.5万元
+T129	Thing-Nominal 1391 1393	存款
+T130	Person-Nominal 1400 1403	儿女们
+R22	Family Arg1:T130 Arg2:T117	
+T131	Person-Nominal 1406 1408	老爹
+R23	Family Arg1:T130 Arg2:T131	
+T132	Person-Pronoun 1424 1425	谁
+R24	Part-Whole Arg1:T132 Arg2:T130	
+T133	Person-Nominal 1436 1439	老人家
+T134	Time-Implicit 1457 1459	年前
+T135	Organization-Nominal 1459 1460;1461 1465	镇 上卫生院
+T136	Person-Nominal 1467 1469	老人
+T137	Person-Pronoun 1472 1473	他
+T138	Person-Nominal 1477 1481	60岁的
+R25	Social Arg1:T138 Arg2:T137	
+T139	Person-Pronoun 1485 1486	他
+T140	Person-Pronoun 1490 1491	我
+T141	Person-Nominal 1506 1508	老伴
+R26	Family Arg1:T139 Arg2:T141	
+T142	Thing-Nominal 1511 1516	低矮的土屋
+T143	Thing-Nominal 1520 1521;1522 1523	伙 房
+T144	Time-Implicit 1524 1526	一天
+T145	Thing-Nominal 1528 1532	两个煤球
+T146	Metric 1528 1530	两个
+T147	Person-Pronoun 1537 1538	我
+T148	Person-Pronoun 1539 1540	他
+T149	Person-Pronoun 1545 1546	他
+T150	Person-Nominal 1554 1556	老年
+T151	Organization-Nominal 1574 1582	国家、社会、家庭
+T152	Organization-Nominal 1605 1607	社会
+T153	Person-Nominal 1625 1627	别人
+T154	Person-Nominal 1648 1652	中华民族

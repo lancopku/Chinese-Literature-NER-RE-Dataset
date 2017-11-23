@@ -1,0 +1,466 @@
+T1	Location-Nominal 2 5	太平洋
+T2	Organization-Nominal 6 10	我的故国
+T3	Person-Pronoun 6 7	我
+T4	Person-Pronoun 12 13	我
+T5	Person-Nominal 13 20	八十有余的父亲
+T6	Person-Nominal 25 27	父亲
+T7	Thing-Nominal 25 31	父亲种的树木
+T8	Person-Pronoun 40 41	我
+T9	Thing-Pronoun 33 35	它们
+T10	Thing-Pronoun 45 47	它们
+T11	Thing-Nominal 48 55	我乡梦里的神木
+*	Coreference T11 T10
+*	Coreference T9 T7
+T12	Thing-Nominal 59 61	枣树
+T13	Time-Implicit 62 68	六岁时的五月
+T14	Person-Pronoun 69 70	我
+T15	Location-Nominal 71 75	南国福州
+T16	Person-Nominal 76 78	母亲
+T18	Location-Nominal 84 91	河北盐山张家营
+T19	Person-Nominal 92 97	六岁的孩子
+T20	Thing-Nominal 102 107	千里盐碱地
+T21	Person-Pronoun 114 115	我
+T22	Person-Nominal 125 127	奶奶
+T23	Person-Pronoun 135 136	她
+T24	Thing-Nominal 137 142	很多的青草
+T25	Person-Nominal 143 146	三堂姐
+T26	Person-Name 143 148	三堂姐俊茹
+T27	Person-Pronoun 149 150	我
+T28	Location-Nominal 151 153	地里
+T29	Person-Pronoun 157 158	我
+T30	Person-Pronoun 159 160	我
+T31	Person-Nominal 159 162	我父亲
+T32	Time-Implicit 159 164	我父亲儿时
+R2	Family Arg1:T31 Arg2:T29	
+T34	Thing-Nominal 159 170	我父亲儿时栽的一棵枣树
+T35	Person-Pronoun 171 175	六岁的我
+T36	Thing-Nominal 177 179	枣树
+T37	Location-Nominal 188 191	盐碱地
+T38	Person-Pronoun 203 204	我
+T39	Thing-Nominal 207 209	花木
+T40	Location-Nominal 207 216	花木葱茂的福州市郊
+T41	Location-Nominal 226 230	盐碱地里
+T42	Thing-Nominal 226 233	盐碱地里的枣树
+T43	Thing-Pronoun 234 235	它
+*	Coreference T43 T42
+T44	Person-Nominal 247 252	六岁的孩子
+T45	Thing-Nominal 257 261	枣树的根
+T46	Thing-Nominal 257 259	枣树
+R3	Part-Whole Arg1:T45 Arg2:T46	
+T47	Thing-Pronoun 272 273	它
+*	Coreference T47 T45
+T48	Person-Pronoun 281 285	六岁的我
+T49	Person-Nominal 287 289	奶奶
+T50	Person-Nominal 296 299	一个人
+T51	Person-Nominal 304 305;306 307	奶 奶
+T52	Person-Pronoun 308 309	我
+T53	Person-Nominal 310 316	老张家的闺女
+*	Coreference T53 T52
+T54	Person-Pronoun 319 320	我
+T55	Person-Nominal 329 331	祖母
+T56	Time-Implicit 341 346	别后一个月
+T58	Person-Nominal 347 355	只见过一面的祖母
+T59	Location-Nominal 358 366	在祖籍的盐碱地里
+T60	Person-Pronoun 368 369	她
+T62	Thing-Nominal 371 379	只见过一面的枣树
+T63	Person-Pronoun 382 383	我
+T64	Time-Implicit 393 395	中年
+T65	Person-Pronoun 396 397	我
+T66	Thing-Nominal 399 409	我家前院后院的大橡树
+T67	Location-Nominal 399 405	我家前院后院
+R4	Located Arg1:T66 Arg2:T67	
+T68	Person-Nominal 414 416	父亲
+T69	Thing-Nominal 414 419	父亲的枣树
+R5	Create Arg1:T68 Arg2:T69	
+T70	Thing-Pronoun 421 422	它
+*	Coreference T70 T69
+T71	Thing-Nominal 422 426	铁杆绿叶
+T72	Thing-Nominal 434 435	树
+T73	Thing-Nominal 445 448	红枣儿
+T74	Person-Pronoun 438 439	我
+T75	Thing-Nominal 450 452	枣儿
+T76	Person-Pronoun 459 460	我
+T77	Thing-Nominal 473 475	枣树
+T78	Thing-Nominal 477 483	根深叶茂果甜
+T80	Person-Pronoun 500 501	我
+T81	Person-Nominal 500 504	我老父亲
+T82	Thing-Nominal 518 521	芭蕉树
+T83	Person-Pronoun 532 534	他们
+T84	Organization-Nominal 522 528	现在的开发商
+T86	Location-Nominal 535 543	几小条或小块绿地
+T87	Thing-Nominal 535 548	几小条或小块绿地的住宅楼盘
+T88	Thing-Name 551 555	某某花园
+T89	Person-Pronoun 562 563	我
+T90	Location-Nominal 566 570	福州西郊
+T91	Person-Pronoun 570 571	我
+T92	Thing-Nominal 570 575	我童年的家
+R8	Located Arg1:T92 Arg2:T90	
+T93	Metric 576 578	两幢
+T94	Thing-Nominal 576 581	两幢公寓楼
+T95	Thing-Nominal 585 587	树和
+T96	Thing-Nominal 587 589	花木
+T97	Person-Pronoun 593 594	我
+T98	Location-Nominal 593 595	我家
+T99	Location-Nominal 593 598	我家的单元
+T100	Location-Nominal 599 601	一楼
+T101	Person-Pronoun 602 603	我
+T102	Person-Nominal 607 609	父亲
+T104	Thing-Nominal 613 616	芭蕉根
+T105	Person-Pronoun 619 621	自己
+T106	Metric 627 629	几户
+T107	Person-Nominal 627 631	几户邻居
+T108	Thing-Nominal 633 636	芭蕉树
+T109	Time-Implicit 644 646	几年
+T110	Thing-Nominal 650 654	。芭蕉树
+T111	Thing-Nominal 660 662	蕉叶
+T112	Thing-Nominal 671 673	蕉叶
+T113	Thing-Nominal 678 680	果实
+T115	Time-Implicit 688 702	那是个还不会听雨打芭蕉的年纪
+T116	Person-Nominal 711 713	父亲
+T118	Person-Pronoun 718 719	他
+T119	Thing-Nominal 715 725	一大串他刚砍下的芭蕉
+T120	Thing-Nominal 726 731	每一只芭蕉
+T121	Person-Nominal 733 736	成年人
+T122	Thing-Nominal 733 739	成年人的手臂
+R9	Part-Whole Arg1:T122 Arg2:T121	
+T123	Thing-Nominal 744 746	芭蕉
+T124	Thing-Nominal 787 789	芭蕉
+T125	Thing-Nominal 797 800	年夜饭
+T126	Location-Nominal 808 810	我家
+T127	Person-Nominal 828 830	父母
+T128	Location-Nominal 838 840	农场
+T129	Time-Implicit 828 847	父母被送“学习班”和农场而断炊的日子里
+T130	Person-Pronoun 848 849	我
+T131	Time-Implicit 849 851	一天
+T132	Metric 853 855	七个
+T133	Thing-Nominal 853 858	七个大芭蕉
+T134	Time-Implicit 859 863	几十年后
+T135	Location-Nominal 864 868	纽约长岛
+T136	Location-Nominal 869 872	菜店里
+T137	Thing-Nominal 872 876	南美芭蕉
+R10	Located Arg1:T137 Arg2:T136	
+T138	Thing-Nominal 877 879	红薯
+T139	Person-Nominal 885 887;888 889	西裔 人
+T140	Thing-Nominal 890 892	芭蕉
+T141	Person-Pronoun 903 904	我
+T142	Metric 907 909	几根
+T143	Thing-Nominal 907 911	几根芭蕉
+T144	Time-Implicit 919 921	童年
+T145	Thing-Nominal 930 935	新鲜芭蕉叶
+T146	Person-Pronoun 938 939	我
+T147	Person-Pronoun 953 954	我
+T148	Thing-Nominal 956 958	芭蕉
+T149	Location-Nominal 968 970	蕉叶
+T150	Thing-Nominal 968 973	蕉叶的雨滴
+T151	Location-Nominal 982 984	我家
+T152	Thing-Nominal 989 992	芭蕉树
+T153	Person-Pronoun 994 995	我
+T154	Person-Nominal 1001 1006	梦里的父亲
+T155	Person-Nominal 1008 1009;1010 1011	大 人
+T156	Person-Nominal 1014 1016	老人
+T157	Person-Pronoun 1017 1018	他
+T158	Thing-Nominal 1019 1021	芭蕉
+T159	Thing-Nominal 1023 1025	芭蕉
+T160	Thing-Nominal 1040 1043	香椿树
+T161	Location-Nominal 1044 1046	我家
+T162	Person-Nominal 1047 1052	福州的邻居
+T163	Location-Nominal 1047 1049	福州
+T164	Thing-Nominal 1058 1060	香椿
+T165	Thing-Nominal 1062 1064	香椿
+T166	Thing-Nominal 1068 1073	亚热带的树
+T167	Location-Nominal 1068 1071	亚热带
+T168	Person-Nominal 1074 1076	父亲
+T169	Location-Nominal 1076 1084	在我家厨房的门外
+T170	Thing-Nominal 1086 1091	一株香椿树
+T171	Metric 1086 1088	一株
+R11	Located Arg1:T170 Arg2:T169	
+T172	Person-Nominal 1094 1095	人
+T173	Person-Nominal 1101 1104	香椿树
+T174	Thing-Nominal 1110 1115	细长的树苗
+T175	Thing-Nominal 1179 1184	香椿炒鸡蛋
+T176	Thing-Nominal 1190 1193	香椿树
+T177	Location-Nominal 1197 1199	福州
+T178	Thing-Nominal 1209 1212	香椿树
+T179	Thing-Nominal 1209 1215	香椿树的顶冠
+R12	Part-Whole Arg1:T179 Arg2:T178	
+T180	Person-Pronoun 1221 1222	我
+T181	Thing-Nominal 1224 1226	香椿
+T182	Thing-Nominal 1236 1239	一棵树
+T183	Thing-Nominal 1250 1253	香椿树
+T184	Thing-Nominal 1255 1259	许多新芽
+T185	Metric 1263 1265	一个
+T186	Thing-Nominal 1263 1267	一个顶冠
+T187	Metric 1270 1272	多个
+T188	Thing-Nominal 1270 1274	多个顶冠
+T189	Thing-Nominal 1275 1281	能摘取的嫩芽
+T190	Thing-Nominal 1286 1287	树
+T191	Person-Nominal 1307 1308	人
+T192	Thing-Nominal 1314 1316	风雨
+T193	Person-Pronoun 1341 1342	我
+T194	Person-Nominal 1346 1348	父亲
+T196	Thing-Pronoun 1356 1357	它
+T197	Thing-Pronoun 1364 1365	它
+T198	Thing-Nominal 1375 1378	桂花树
+T199	Time-Explicit 1379 1384	八十年代初
+T200	Person-Nominal 1385 1387	父亲
+T201	Thing-Nominal 1399 1400	房
+T202	Location-Nominal 1401 1404	我家里
+T203	Thing-Nominal 1409 1410	树
+T204	Thing-Nominal 1411 1413	花的
+T205	Thing-Nominal 1406 1415	可以种树养花的院子
+T206	Time-Implicit 1416 1418	那时
+T207	Person-Pronoun 1418 1419	我
+T209	Organization-Nominal 1428 1430	大学
+T210	Location-Name 1434 1435	宁
+T211	Thing-Nominal 1441 1446	后院的花木
+T212	Location-Nominal 1441 1443	后院
+R14	Located Arg1:T211 Arg2:T212	
+T213	Person-Nominal 1454 1456	父亲
+T214	Thing-Nominal 1458 1461	桂花树
+T215	Thing-Nominal 1462 1465	桂花树
+T216	Thing-Nominal 1466 1472	我母亲的属树
+*	Coreference T215 T216
+T217	Person-Pronoun 1473 1474	她
+T218	Time-Implicit 1475 1482	在桂花开的季节
+T219	Thing-Nominal 1484 1486	桂花
+T220	Thing-Nominal 1492 1494	桂花
+T221	Person-Pronoun 1499 1500	我
+T222	Time-Implicit 1501 1505	在北京时
+T223	Location-Nominal 1507 1509	南国
+T224	Thing-Nominal 1507 1514	南国的三秋桂子
+T225	Person-Name 1516 1519	郁达夫
+T226	Person-Name 1519 1522	徐志摩
+T227	Thing-Nominal 1527 1532	桂花栗子汤
+T228	Person-Pronoun 1537 1539	他们
+T229	Time-Implicit 1549 1554	漂洋过海后
+T230	Time-Implicit 1560 1561;1562 1563	秋 季
+T231	Thing-Nominal 1574 1576	桂花
+T232	Time-Implicit 1580 1583	近年来
+T233	Person-Nominal 1585 1588	父母亲
+T234	Location-Nominal 1589 1592	灵谷寺
+T235	Thing-Nominal 1593 1594	桂
+T236	Location-Nominal 1600 1602	市区
+T237	Person-Nominal 1607 1609	父母
+T238	Person-Nominal 1614 1617	，父亲
+T239	Metric 1620 1622	几棵
+T240	Thing-Nominal 1623 1626	桂花树
+T241	Location-Nominal 1629 1635	新居的阳台前
+R16	Located Arg1:T240 Arg2:T241	
+T243	Thing-Nominal 1648 1652	那所房子
+T244	Person-Nominal 1654 1656	主人
+T245	Thing-Nominal 1657 1662	那几棵桂花
+T246	Person-Nominal 1676 1679	有心人
+T247	Thing-Pronoun 1681 1683	它们
+*	Coreference T247 T245
+T248	Thing-Pronoun 1686 1688	它们
+T249	Thing-Pronoun 1696 1698	它们
+T250	Person-Nominal 1685 1692	采它们回家的人
+T251	Person-Nominal 1702 1704	父亲
+T252	Person-Nominal 1709 1711	父母
+T253	Location-Nominal 1716 1722	小高层的四楼
+T254	Person-Pronoun 1723 1726	他们组
+T256	Metric 1732 1736	五十多年
+T257	Location-Nominal 1748 1753	金色的港湾
+T258	Person-Nominal 1754 1756	父亲
+T259	Location-Nominal 1758 1762	在阳台上
+T260	Thing-Nominal 1763 1767	盆栽花木
+T261	Thing-Nominal 1770 1773	桂花树
+R17	Located Arg1:T260 Arg2:T259	
+T262	Thing-Nominal 1792 1795	枇杷树
+T263	Thing-Nominal 1796 1799	枇杷树
+T264	Time-Explicit 1799 1817	在父母八十年代中建好的家终于被拆了时
+T265	Person-Nominal 1800 1802	父母
+T266	Location-Nominal 1823 1825	二楼
+T267	Thing-Nominal 1833 1839	对着院子的窗
+T268	Thing-Pronoun 1845 1846	它
+T269	Thing-Nominal 1845 1849	它的纹叶
+R19	Part-Whole Arg1:T269 Arg2:T268	
+*	Coreference T268 T263
+T271	Time-Implicit 1862 1867	“大”年里
+T272	Thing-Nominal 1867 1869	果实
+T273	Thing-Nominal 1872 1874	我家
+T274	Thing-Nominal 1875 1880	这棵枇杷树
+T275	Thing-Nominal 1884 1885	果
+T276	Thing-Nominal 1887 1888	叶
+T277	Thing-Nominal 1889 1892	枇杷叶
+T278	Thing-Nominal 1893 1897	止咳良药
+T279	Thing-Pronoun 1898 1900	它们
+T280	Person-Nominal 1901 1904	我母亲
+T281	Person-Pronoun 1901 1902	我
+R20	Family Arg1:T280 Arg2:T281	
+T282	Metric 1907 1912	一年又一年
+T284	Person-Nominal 1921 1924	我女儿
+T285	Person-Pronoun 1925 1926	我
+T286	Metric 1936 1938	一碗
+T287	Person-Nominal 1936 1940	一碗外婆
+T288	Thing-Nominal 1936 1946	一碗外婆熬的枇杷叶汤
+T289	Person-Pronoun 1947 1952	十二岁的她
+T290	Thing-Nominal 1956 1962	中国传统汤药
+T291	Person-Nominal 1970 1972	外公
+T293	Thing-Nominal 1975 1978	枇杷叶
+T295	Thing-Nominal 1984 1986	蜂蜜
+T296	Person-Nominal 1987 1989	女儿
+T297	Thing-Nominal 1998 2000	药片
+T298	Person-Nominal 2001 2002	人
+T299	Thing-Nominal 2014 2016	房子
+T300	Time-Implicit 2013 2019	老房子被拆后
+T301	Thing-Nominal 2020 2023	枇杷树
+T302	Metric 2034 2036	几株
+T303	Thing-Nominal 2036 2042	邻人的枇杷树
+T304	Person-Nominal 2036 2038	邻人
+R21	Ownership Arg1:T304 Arg2:T303	
+T305	Location-Nominal 2045 2052	残砖碎瓦的旧地
+T306	Location-Nominal 2053 2055	城南
+T307	Thing-Nominal 2057 2059	枇杷
+T308	Location-Nominal 2063 2073	在拥挤窄小的旧民宅区
+T309	Thing-Pronoun 2080 2082	它们
+*	Coreference T309 T307
+T310	Thing-Pronoun 2086 2088	它们
+T311	Metric 2093 2095	几幢
+T312	Person-Nominal 2096 2100	有识之士
+T313	Thing-Nominal 2093 2112	几幢在有识之士奔走下保留下来的明清民宅
+T314	Thing-Nominal 2124 2126	壁砖
+R22	Part-Whole Arg1:T314 Arg2:T313	
+T315	Location-Nominal 2136 2141	紧靠城门里
+T317	Location-Nominal 2147 2151	宅前房后
+T318	Thing-Nominal 2152 2162	现在仅存地名的荷花塘
+T319	Location-Nominal 2163 2165	墙外
+T320	Thing-Name 2166 2174	橹声不断的秦淮河
+T321	Time-Implicit 2175 2177	那时
+T322	Person-Pronoun 2177 2179	他们
+T323	Person-Name 2184 2186	李白
+T324	Thing-Nominal 2184 2192	李白笔下的长干里
+T327	Location-Nominal 2203 2207	后院高楼
+T328	Time-Explicit 2208 2209	现
+T329	Thing-Nominal 2211 2213	砖头
+T330	Time-Implicit 2219 2222	想当年
+T331	Location-Pronoun 2222 2225	这府里
+T332	Person-Nominal 2228 2230	女儿
+T333	Person-Nominal 2233 2237	深闺佳人
+T334	Location-Nominal 2241 2243	窗前
+T336	Person-Nominal 2252 2254	母亲
+T337	Location-Nominal 2257 2267	宁波黄氏世家的祖府里
+T338	Thing-Nominal 2257 2267	宁波黄氏世家的祖府里
+T339	Person-Nominal 2257 2263	宁波黄氏世家
+T340	Person-Pronoun 2272 2273	我
+T341	Thing-Nominal 2275 2280	孔子的祖府
+T342	Person-Name 2275 2277	孔子
+T343	Thing-Nominal 2287 2292	外祖的祖府
+T344	Person-Pronoun 2293 2294	我
+T345	Person-Pronoun 2293 2298	我这一代人
+T346	Person-Pronoun 2303 2304	我
+T347	Thing-Nominal 2311 2316	自己的祖府
+T348	Person-Pronoun 2319 2321	我们
+T349	Location-Nominal 2332 2334	市里
+T350	Location-Pronoun 2336 2339	这地方
+T351	Location-Nominal 2341 2345	城南老区
+T352	Person-Pronoun 2346 2347	我
+T353	Thing-Nominal 2349 2355	父亲的枇杷树
+T354	Person-Nominal 2349 2351	父亲
+R26	Ownership Arg1:T354 Arg2:T353	
+T355	Thing-Nominal 2356 2362	它周围的瓦砾
+T356	Location-Nominal 2356 2359	它周围
+T357	Person-Pronoun 2363 2364	我
+T358	Thing-Nominal 2368 2374	这里的枇杷树
+T359	Location-Pronoun 2368 2371	这里的
+T360	Thing-Nominal 2380 2389	这里仅存的明清民宅
+T361	Location-Pronoun 2380 2382	这里
+R27	Located Arg1:T360 Arg2:T361	
+R28	Near Arg1:T355 Arg2:T356	
+T362	Thing-Pronoun 2396 2398	它们
+*	Coreference T362 T360 T358
+T363	Thing-Nominal 2400 2407	这老区里的老根
+T364	Time-Implicit 2409 2413	几十年后
+T365	Person-Nominal 2413 2415	女儿
+T366	Person-Pronoun 2420 2421	我
+T367	Thing-Nominal 2425 2426	根
+T368	Time-Implicit 2427 2430	到那时
+T369	Person-Pronoun 2430 2434	白发的我
+T370	Location-Nominal 2436 2441	在枇杷树下
+T371	Person-Nominal 2443 2445	父亲
+T372	Person-Nominal 2452 2454	母亲
+T373	Metric 13 17	八十有余
+R29	Family Arg1:T5 Arg2:T4	
+R30	Create Arg1:T6 Arg2:T7	
+T374	Person-Pronoun 48 49	我
+R1	Family Arg1:T16 Arg2:T14	
+R31	Family Arg1:T22 Arg2:T21	
+R32	Create Arg1:T31 Arg2:T34	
+R33	Located Arg1:T42 Arg2:T41	
+T17	Location-Nominal 263 265	地下
+R34	Located Arg1:T45 Arg2:T17	
+T33	Metric 273 276	几十年
+T375	Time-Implicit 273 276	几十年
+R35	Family Arg1:T55 Arg2:T54	
+T57	Person-Pronoun 399 400	我
+R36	Part-Whole Arg1:T71 Arg2:T70	
+T61	Thing-Nominal 428 430	秋风
+T376	Thing-Nominal 462 465	那田地
+T377	Thing-Nominal 469 471	工地
+R37	Part-Whole Arg1:T78 Arg2:T77	
+T378	Location-Nominal 485 488;489 491	那块土 地里
+T79	Person-Nominal 484 488;489 496	在那块土 地里长眠的祖母
+T379	Time-Explicit 522 524	现在
+T85	Time-Implicit 605 611	一天父亲下班
+T103	Metric 644 646	几年
+T380	Location-Nominal 660 665	蕉叶包杆处
+T114	Time-Implicit 821 825	“文革”
+T117	Abstract 821 824	“文革
+T381	Organization-Name 832 837	“学习班”
+T382	Thing-Nominal 943 947	干枯的叶
+T383	Location-Nominal 949 951	鸡窝
+R6	Located Arg1:T382 Arg2:T383	
+R7	Create Arg1:T157 Arg2:T158	
+T384	Person-Nominal 1053 1056	没有人
+T385	Thing-Nominal 1123 1128	碗口粗的树
+T386	Thing-Nominal 1123 1125	碗口
+T387	Thing-Nominal 1129 1131	香椿
+T388	Person-Nominal 1135 1139	懂得的人
+T389	Thing-Nominal 1145 1150	香椿的嫩芽
+T390	Thing-Nominal 1145 1147	香椿
+R38	Part-Whole Arg1:T389 Arg2:T390	
+T391	Thing-Nominal 1152 1153	盐
+T392	Thing-Nominal 1157 1159	鸡蛋
+T393	Person-Pronoun 1168 1169	我
+T394	Location-Name 1170 1172	长岛
+T395	Thing-Nominal 1200 1202	台风
+T396	Thing-Nominal 1216 1218	台风
+T397	Thing-Nominal 1245 1247	台风
+T398	Time-Implicit 1245 1249	台风过后
+R39	Part-Whole Arg1:T184 Arg2:T183	
+T399	Time-Implicit 1297 1301	那个年纪
+T195	Thing-Nominal 1346 1348;1349 1353	父亲 的香椿树
+R13	Create Arg1:T194 Arg2:T195	
+*	Coreference T196 T195
+T400	Thing-Nominal 1397 1398	地
+T208	Location-Name 1422 1424	南京
+T401	Location-Name 1425 1427	北京
+R15	Create Arg1:T213 Arg2:T214	
+T402	Person-Nominal 1466 1469	我母亲
+T403	Person-Pronoun 1466 1467	我
+R40	Family Arg1:T402 Arg2:T403	
+*	Coreference T217 T402
+T404	Thing-Nominal 1476 1478	桂花
+T405	Thing-Nominal 1612 1614	居所
+T242	Location-Nominal 1723 1729	他们组建的家
+T255	Time-Implicit 1732 1736	五十多年
+T406	Location-Nominal 1835 1837	院子
+T270	Thing-Nominal 1849 1856;1857 1858	。黄澄澄的枇杷 果
+*	Coreference T279 T277
+T283	Time-Implicit 1907 1917;1918 1920	一年又一年彻夜痛咳的 冬季
+T407	Time-Implicit 1921 1929	我女儿随我探亲时
+R18	Create Arg1:T287 Arg2:T288	
+T408	Metric 1947 1950	十二岁
+R41	Family Arg1:T287 Arg2:T284	
+R42	Family Arg1:T291 Arg2:T289	
+T292	Location-Nominal 1973 1978;1979 1981	那碗枇杷叶 汤里
+R43	Located Arg1:T303 Arg2:T305	
+T294	Location-Nominal 2133 2134;2135 2146	这 些紧靠城门里的殷实人家
+T316	Time-Implicit 2131 2133	当年
+R44	Located Arg1:T318 Arg2:T317	
+R45	Located Arg1:T320 Arg2:T319	
+T325	Thing-Nominal 2194 2195;2196 2201	一 孔小月亮窗
+R46	Located Arg1:T325 Arg2:T327	
+R23	Located Arg1:T358 Arg2:T359	
+T326	Location-Nominal 2400 2404	这老区里
+R24	Located Arg1:T363 Arg2:T326	

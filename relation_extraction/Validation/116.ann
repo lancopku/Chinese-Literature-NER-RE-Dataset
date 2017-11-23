@@ -1,0 +1,320 @@
+T1	Person-Pronoun 2 4	我们
+T2	Thing-Nominal 21 23	美食
+T3	Person-Pronoun 24 26	我,
+T4	Thing-Nominal 32 34	粽子
+T5	Thing-Nominal 37 47	母亲亲手包裹的端午粽
+T6	Person-Nominal 37 39	母亲
+T7	Thing-Nominal 40 41	手
+R1	Create Arg1:T6 Arg2:T5	
+R2	Part-Whole Arg1:T7 Arg2:T6	
+T8	Thing-Nominal 50 52	箬叶
+T9	Person-Pronoun 72 73	我
+T10	Person-Pronoun 84 85	我
+T11	Thing-Nominal 86 88	老家
+T12	Location-Name 89 93	龙游北乡
+R3	Located Arg1:T11 Arg2:T12	
+T13	Time-Implicit 94 98	每年端午
+T14	Location-Nominal 99 103	家家户户
+T15	Thing-Nominal 106 108	粽子
+T16	Person-Nominal 120 122	父母
+T17	Thing-Nominal 125 128	端午粽
+T18	Person-Pronoun 131 132	我
+T19	Time-Implicit 131 141	我要参加高考的那一年
+T20	Time-Implicit 143 147	端午那天
+T21	Location-Nominal 151 153	江南
+T22	Time-Implicit 154 158	梅雨季节
+T23	Thing-Nominal 154 156	梅雨
+T24	Person-Nominal 159 161	天公
+T25	Metric 171 175	四天四夜
+T26	Thing-Nominal 176 179	大暴雨
+T27	Location-Nominal 180 184	学校旁边
+T28	Thing-Nominal 185 192	那条窄窄的小溪
+R4	Located Arg1:T28 Arg2:T27	
+T29	Thing-Nominal 193 195	河水
+T30	Location-Nominal 198 200	两岸
+T31	Thing-Nominal 198 203	两岸的农田
+R5	Located Arg1:T31 Arg2:T30	
+T32	Thing-Nominal 206 210	一片汪洋
+T33	Organization-Name 213 217	塔石中学
+T34	Thing-Nominal 218 226	那条唯一的小木桥
+T35	Thing-Nominal 228 230	洪水
+T36	Organization-Nominal 237 239	学校
+T37	Time-Implicit 245 248	端午节
+T38	Person-Pronoun 248 249	谁
+T39	Thing-Nominal 253 254	桥
+T40	Location-Nominal 255 256	家
+T41	Person-Pronoun 257 258	我
+T42	Organization-Nominal 260 262	学校
+T43	Location-Nominal 263 264	家
+T44	Metric 266 271	二十多公里
+T45	Thing-Nominal 272 274	公路
+T46	Thing-Nominal 282 284	洪水
+T47	Thing-Nominal 287 291	公共汽车
+T48	Time-Implicit 299 305	今年的端午节
+T49	Person-Nominal 310 312	母亲
+T50	Thing-Nominal 313 314	手
+T51	Thing-Nominal 316 319	端午粽
+R6	Create Arg1:T49 Arg2:T51	
+R7	Part-Whole Arg1:T50 Arg2:T49	
+T52	Person-Pronoun 321 322	谁
+T53	Time-Implicit 326 333	临近放学的时候
+T54	Thing-Nominal 334 350	一个头戴笠帽，身穿蓑衣的熟悉身影
+T55	Location-Nominal 354 361	我们的教室门口
+T56	Person-Pronoun 354 356	我们
+T57	Person-Nominal 363 365	来人
+T58	Person-Nominal 368 370	父亲
+T59	Person-Pronoun 371 372	我
+R8	Family Arg1:T59 Arg2:T58	
+T60	Location-Nominal 376 378	教室
+T61	Location-Nominal 381 383	走廊
+T62	Person-Nominal 387 389	父亲
+T63	Thing-Nominal 391 393	蓑衣
+R9	Ownership Arg1:T62 Arg2:T63	
+T64	Thing-Nominal 402 412	那绾得很高很高的裤脚
+T65	Thing-Nominal 419 420	水
+T66	Thing-Nominal 425 429	半个走廊
+T67	Person-Nominal 430 432	父亲
+T68	Person-Pronoun 434 435	我
+R10	Family Arg1:T68 Arg2:T67	
+T69	Thing-Nominal 441 447;448 450	那双满是老茧 的手
+R11	Part-Whole Arg1:T69 Arg2:T67	
+T70	Thing-Nominal 455 460	脸上的雨水
+T71	Location-Nominal 455 457	脸上
+R12	Located Arg1:T70 Arg2:T71	
+T72	Person-Pronoun 462 463	我
+T73	Location-Nominal 469 472	怀里掏
+T74	Thing-Nominal 473 477	一个小包
+R13	Located Arg1:T74 Arg2:T73	
+T75	Location-Nominal 480 484	我的手里
+T76	Person-Pronoun 480 481	我
+R14	Located Arg1:T74 Arg2:T75	
+T77	Person-Pronoun 485 486	我
+T78	Thing-Nominal 497 501	两个粽子
+T79	Thing-Nominal 504 507	落汤鸡
+T80	Person-Nominal 510 512	父亲
+T81	Location-Nominal 515 518	小溪上
+T82	Thing-Nominal 518 527	那摇摇欲坠的小木桥
+R15	Located Arg1:T82 Arg2:T81	
+T83	Person-Pronoun 528 529	我
+T84	Person-Nominal 533 535	父亲
+T85	Thing-Nominal 539 544	这么大的雨
+T86	Thing-Nominal 545 551	那么急的洪水
+T87	Metric 553 558	二十多公里
+T88	Thing-Nominal 559 560	路
+T89	Thing-Nominal 565 569	两个粽子
+T90	Person-Nominal 575 577	父亲
+T91	Thing-Nominal 579 580	头
+R16	Part-Whole Arg1:T91 Arg2:T90	
+T92	Person-Nominal 582 600	一个懂事的，知道自己做错了事的小孩子
+T93	Person-Pronoun 616 617	我
+T94	Person-Pronoun 622 623	他
+T95	Thing-Nominal 626 628	粽子
+*	Coreference T94 T90
+T96	Person-Pronoun 641 642	我
+T97	Person-Nominal 644 646	父母
+T98	Thing-Nominal 649 652	端午粽
+T99	Time-Implicit 655 667	刚刚参加工作的那年端午节
+T100	Time-Implicit 668 671	那时候
+*	Coreference T100 T99
+T101	Location-Nominal 672 679	我们青工宿舍里
+T102	Person-Pronoun 672 674	我们
+T103	Person-Pronoun 684 685	我
+T104	Person-Nominal 689 694	快乐单身汉
+T105	Time-Implicit 696 701	端午节那天
+T106	Person-Nominal 703 705	大家
+T107	Thing-Nominal 707 710	端午粽
+T108	Location-Nominal 713 714	家
+T109	Thing-Nominal 715 718	端午粽
+T110	Person-Pronoun 719 721	我们
+T111	Person-Nominal 721 724	四个人
+T112	Thing-Nominal 733 735	田螺
+T113	Thing-Nominal 737 739	啤酒
+T114	Person-Nominal 751 754	邮递员
+T115	Location-Nominal 755 757	楼下
+T116	Person-Pronoun 763 764	我
+T117	Person-Pronoun 769 770	我
+T118	Thing-Nominal 773 775	邮件
+T119	Person-Pronoun 776 777	我
+T120	Location-Nominal 779 780	楼
+T121	Person-Nominal 781 784	邮递员
+T122	Person-Pronoun 786 787	我
+T123	Thing-Nominal 787 796	一个寄自龙游的包裹
+T124	Person-Pronoun 797 798	我
+T125	Person-Pronoun 805 806	我
+T126	Thing-Nominal 815 817	包裹
+T127	Person-Pronoun 821 822	谁
+T128	Location-Nominal 827 829	里面
+T129	Thing-Nominal 835 838	好东西
+T130	Person-Pronoun 839 840	我
+T131	Location-Nominal 848 850	里面
+T132	Thing-Nominal 853 858	四只端午粽
+R17	Located Arg1:T132 Arg2:T131	
+T133	Person-Nominal 864 866	同事
+T134	Person-Pronoun 881 882	我
+T135	Person-Nominal 897 899	父亲
+T136	Person-Pronoun 900 901	我
+T137	Time-Implicit 907 909	晚上
+T138	Person-Pronoun 910 911	我
+T139	Thing-Nominal 923 925	信纸
+T140	Person-Nominal 927 929	父亲
+T141	Thing-Nominal 957 963	那几个端午粽
+T142	Metric 968 972	几百公里
+T143	Thing-Nominal 973 975	邮费
+T144	Person-Nominal 982 989	生产队的小会计
+T145	Person-Nominal 1005 1006	人
+T146	Thing-Nominal 1008 1009	牙
+T147	Time-Implicit 1012 1014	后来
+T148	Person-Pronoun 1015 1016	我
+T149	Location-Nominal 1021 1023	城里
+T150	Person-Nominal 1027 1031	父亲母亲
+R18	Family Arg1:T150 Arg2:T148	
+T151	Time-Implicit 1032 1038	年年的端午节
+T152	Location-Name 1040 1044	龙游北乡
+T153	Thing-Nominal 1046 1048	汽车
+T154	Thing-Nominal 1050 1052	火车
+T155	Person-Pronoun 1054 1055	我
+T156	Thing-Nominal 1056 1059	端午粽
+T158	Person-Nominal 1062 1064	父亲
+T159	Person-Nominal 1068 1070	母亲
+T157	Person-Nominal 1075 1077	两人
+T160	Person-Nominal 1089 1091	熟人
+T161	Metric 1102 1105	二十年
+T162	Person-Pronoun 1107 1109	我们
+T163	Person-Nominal 1109 1111	夫妻
+T164	Thing-Nominal 1121 1123	粽子
+T165	Person-Nominal 1131 1133	父母
+T166	Thing-Nominal 1135 1138	端午粽
+T167	Person-Pronoun 1139 1141	我们
+T168	Person-Nominal 1145 1147	父母
+T169	Thing-Nominal 1162 1169	那么几个端午粽
+T170	Metric 1176 1181	一百多公里
+T171	Thing-Nominal 1188 1191	车票钱
+T172	Thing-Nominal 1200 1203	邮寄费
+T173	Person-Pronoun 1208 1210	我们
+T174	Location-Nominal 1211 1213	城里
+T175	Thing-Nominal 1215 1226	一筐名牌的“嘉兴粽子”
+T176	Person-Pronoun 1230 1232	我们
+T177	Person-Nominal 1236 1238	父母
+T178	Person-Pronoun 1279 1281	我们
+T179	Person-Pronoun 1283 1285	他们
+*	Coreference T179 T177
+T180	Thing-Nominal 1288 1291	端午粽
+R19	Family Arg1:T177 Arg2:T176	
+T181	Time-Implicit 1299 1302	端午节
+T182	Person-Pronoun 1303 1305	他们
+T183	Person-Pronoun 1313 1315	他们
+T184	Thing-Nominal 1321 1324	端午粽
+R20	Create Arg1:T183 Arg2:T184	
+T185	Thing-Nominal 1317 1318	手
+R21	Part-Whole Arg1:T185 Arg2:T183	
+T186	Person-Pronoun 1326 1328	他们
+T187	Person-Pronoun 1332 1334	我们
+T188	Location-Nominal 1339 1343	九霄云外
+T189	Time-Implicit 1348 1350	去年
+T190	Person-Nominal 1351 1353	儿子
+T191	Location-Nominal 1360 1364	大学校园
+T192	Person-Nominal 1365 1367	我们
+T193	Person-Nominal 1368 1370	儿子
+R22	Family Arg1:T193 Arg2:T192	
+T194	Person-Pronoun 1400 1402	我们
+T195	Time-Implicit 1427 1430	端午节
+T196	Time-Implicit 1431 1433	那天
+*	Coreference T196 T195
+T197	Person-Pronoun 1434 1436	我们
+T198	Person-Nominal 1442 1444	父母
+T199	Person-Nominal 1445 1446	人
+T200	Thing-Nominal 1449 1452	端午粽
+T201	Thing-Nominal 1456 1459	端午粽
+T202	Person-Nominal 1460 1462	妻子
+T203	Location-Nominal 1468 1469;1470 1471	学 校
+T204	Person-Nominal 1472 1474	儿子
+T205	Person-Nominal 1480 1482	儿子
+T206	Thing-Nominal 1483 1485	手机
+R23	Ownership Arg1:T205 Arg2:T206	
+T207	Person-Nominal 1491 1493	儿子
+T208	Thing-Nominal 1494 1497	端午粽
+T209	Person-Nominal 1499 1501	儿子
+T210	Thing-Nominal 1517 1519	粽子
+T211	Thing-Nominal 1519 1523	学校食堂
+T212	Location-Nominal 1519 1521	学校
+R24	Located Arg1:T211 Arg2:T212	
+T213	Location-Nominal 1550 1555	妻子的眼里
+T214	Thing-Nominal 1560 1562	泪水
+R25	Located Arg1:T214 Arg2:T213	
+T215	Person-Nominal 1550 1552	妻子
+T216	Person-Pronoun 1575 1576	我
+T217	Person-Nominal 1580 1589	一向性格倔强的妻子
+T218	Thing-Nominal 1600 1602	眼泪
+T219	Person-Nominal 1607 1609	妻子
+T220	Person-Nominal 1618 1620	妻子
+T221	Person-Pronoun 1629 1630	我
+T222	Person-Nominal 1637 1639	父母
+R26	Family Arg1:T222 Arg2:T221	
+T223	Person-Pronoun 1649 1651	我们
+T224	Person-Pronoun 1664 1666	我们
+T225	Thing-Nominal 1667 1670	端午粽
+T226	Thing-Nominal 1680 1682	粽子
+T227	Thing-Nominal 1687 1689	粽子
+T228	Person-Nominal 1692 1694	父母
+T229	Person-Nominal 1695 1697	儿女
+R27	Family Arg1:T229 Arg2:T228	
+T230	Person-Pronoun 1703 1705	他们
+*	Coreference T230 T228
+T231	Thing-Nominal 1710 1713;1714 1716	简单的 粽子
+T232	Person-Nominal 1720 1722	子女
+T233	Person-Nominal 1735 1737	父母
+T234	Person-Pronoun 1740 1742	自己
+*	Coreference T234 T233 T238
+T235	Thing-Nominal 1743 1748	一把晴雨伞
+T236	Person-Nominal 1760 1763	儿女们
+T237	Location-Nominal 1764 1767	头顶上
+T238	Person-Pronoun 1769 1771	他们
+T239	Person-Pronoun 1776 1778	他们
+T240	Person-Nominal 1780 1782	儿女
+T241	Person-Pronoun 1790 1793	这把伞
+T242	Person-Pronoun 1806 1808	他们
+T243	Person-Pronoun 1810 1812	他们
+T244	Person-Nominal 1823 1826	儿女们
+T245	Thing-Nominal 1816 1819	这把伞
+T246	Person-Nominal 1834 1835	人
+T247	Person-Nominal 1832 1833	人
+T248	Person-Nominal 1854 1855	人
+T249	Person-Nominal 1878 1881	儿女们
+T250	Person-Nominal 1891 1893	父母
+T251	Person-Pronoun 1900 1902	自己
+*	Coreference T251 T250
+T252	Person-Nominal 1907 1909	子女
+T253	Person-Pronoun 1910 1912	我们
+T254	Person-Nominal 1922 1924	父母
+T255	Person-Nominal 1931 1933	父母
+T256	Person-Pronoun 1937 1939	我们
+T257	Person-Pronoun 1953 1955	我们
+T258	Person-Nominal 1959 1961	父母
+T259	Person-Nominal 1962 1965	那上帝
+T260	Person-Pronoun 1967 1969	我们
+T261	Person-Pronoun 1995 1997	我们
+T262	Person-Nominal 2003 2005	父母
+T263	Thing-Nominal 2027 2028	钱
+T264	Thing-Nominal 2031 2033	礼品
+T265	Person-Pronoun 2040 2042	我们
+T266	Person-Nominal 2052 2054	父母
+T267	Thing-Nominal 2065 2069	一把青菜
+T268	Thing-Nominal 2070 2075	一瓶霉豆腐
+T269	Thing-Nominal 2076 2080	一坛咸菜
+T270	Person-Pronoun 2083 2085	他们
+T271	Thing-Nominal 2090 2092	粽子
+*	Coreference T270 T266
+T272	Person-Nominal 2099 2101	父母
+T273	Person-Nominal 2117 2119	父母
+T274	Person-Pronoun 2129 2131	我们
+T275	Person-Nominal 2134 2136	父母
+T276	Person-Pronoun 2137 2139	我们
+T277	Person-Nominal 2142 2144	父母
+T278	Person-Pronoun 2145 2147	我们
+T279	Person-Nominal 2156 2158	父母
+T280	Person-Pronoun 2163 2165	他们
+*	Coreference T280 T279
+T281	Person-Nominal 2171 2173	儿女
+T282	Person-Pronoun 2180 2182	他们
+T283	Person-Nominal 2183 2185	父母
+T284	Person-Pronoun 2190 2192	他们

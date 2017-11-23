@@ -1,0 +1,100 @@
+T1	Location-Name 1 4	安西村
+T2	Thing-Nominal 7 9	乌鸦
+T3	Metric 10 12	一种
+T4	Metric 15 17	一种
+T5	Time-Implicit 19 21	事先
+T6	Metric 23 25	一切
+T7	Thing-Pronoun 36 37	它
+T8	Thing-Name 12 14	天物
+*	Coreference T8 T2 T9 T7
+T9	Thing-Name 26 29	先知者
+T10	Person-Nominal 44 49	安西村的人
+T11	Location-Name 44 47	安西村
+T12	Person-Pronoun 52 54	他们
+*	Coreference T12 T10
+T13	Thing-Nominal 62 63	柴
+T14	Thing-Nominal 63 64	米
+T15	Thing-Nominal 64 65	油
+T16	Thing-Nominal 65 66	盐
+T17	Location-Name 82 85	安西村
+T18	Location-Nominal 85 92	通向外面的大路
+T19	Location-Nominal 94 97	村西头
+*	Coreference T19 T18
+T20	Location-Nominal 100 109	穿越荒冈坟地的路途
+T21	Location-Nominal 119 121	村庄
+R1	Near Arg1:T21 Arg2:T20	
+T22	Location-Nominal 128 130	冈头
+R2	Near Arg1:T22 Arg2:T21	
+T23	Metric 133 134	个
+T24	Metric 147 149	一些
+T25	Thing-Nominal 154 156	碎石
+T26	Time-Implicit 157 159	后来
+T27	Thing-Nominal 160 167	泛上来的黄泥土
+T28	Location-Nominal 170 172	肚里
+T29	Time-Implicit 184 187	下雨天
+T30	Thing-Nominal 190 191	水
+T31	Location-Nominal 192 195	路两旁
+T32	Thing-Nominal 200 202	杂草
+T33	Thing-Pronoun 208 209	它
+T34	Thing-Nominal 210 212	肌体
+T35	Location-Nominal 218 228	站在安西村的任一角落
+T36	Metric 239 241	几百
+T37	Thing-Nominal 257 260	红叶李
+T38	Thing-Nominal 261 263	香樟
+T39	Thing-Nominal 264 267	广玉兰
+T40	Thing-Pronoun 244 246	那些
+T41	Thing-Nominal 250 252	禾香
+*	Coreference T40 T41
+T42	Location-Nominal 253 255	田里
+R3	Located Arg1:T41 Arg2:T42	
+T43	Thing-Pronoun 272 274	它们
+R4	Part-Whole Arg1:T39 Arg2:T43	
+R5	Part-Whole Arg1:T38 Arg2:T43	
+R6	Part-Whole Arg1:T37 Arg2:T43	
+T44	Location-Nominal 276 282	安西村的南方
+T45	Metric 289 291	一夏
+T46	Metric 295 298	一大截
+T47	Location-Nominal 299 301	南方
+T48	Location-Nominal 302 307	暖风的故乡
+*	Coreference T47 T48
+T49	Thing-Nominal 309 311	树木
+T50	Location-Nominal 319 324	缺氧的村庄
+T51	Thing-Nominal 343 345	炊烟
+T52	Person-Nominal 355 362	安西村的后生们
+T53	Metric 372 374	一个
+T54	Location-Nominal 377 380	安西村
+T55	Person-Pronoun 394 396	他们
+*	Coreference T55 T52 T57 T62
+T56	Person-Nominal 402 406	招工的人
+T57	Person-Pronoun 412 414	他们
+T58	Thing-Nominal 417 418	钱
+T59	Time-Implicit 422 424	夏日
+T60	Thing-Nominal 424 428	疯长的树
+T61	Location-Nominal 431 434	安西村
+T62	Person-Pronoun 436 438	他们
+T63	Time-Implicit 438 443	逢年过节时
+T64	Thing-Nominal 445 447	亲人
+T65	Thing-Nominal 449 451	家书
+T66	Metric 452 454	一个
+T67	Location-Nominal 454 456	地址
+T68	Location-Nominal 458 473	悲伤与失落时能让灵魂安宁的处所
+T69	Location-Nominal 474 476;477 489	是受 伤与痛苦时疗伤养病的场所
+*	Coreference T68 T67 T69
+T70	Location-Name 490 493	安西村
+T71	Thing-Nominal 494 496	墙土
+T72	Metric 497 499	一剂
+T73	Thing-Nominal 500 501	药
+T74	Metric 504 507	一小撮
+T75	Thing-Nominal 517 518	血
+T76	Location-Name 519 522	安西村
+T77	Thing-Nominal 519 525	安西村的面容
+T78	Metric 526 528	一张
+T79	Thing-Nominal 528 530	膏药
+T80	Thing-Pronoun 533 534	它
+*	Coreference T80 T79
+T81	Person-Pronoun 543 544	我
+T82	Location-Nominal 549 551	故园
+T83	Location-Name 563 566	安西村
+*	Coreference T83 T82
+T84	Thing-Nominal 573 575	夕阳
+T85	Location-Nominal 573 576	夕阳下

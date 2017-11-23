@@ -1,0 +1,235 @@
+T1	Location-Name 0 2	眉山
+T2	Location-Name 18 20	眉山
+T3	Person-Name 22 25	苏东坡
+T4	Location-Name 41 43	眉山
+T5	Location-Name 59 61	眉山
+T6	Location-Name 67 69	眉山
+T7	Thing-Nominal 119 121	香茗
+T8	Thing-Nominal 123 125	美酒
+T9	Person-Nominal 166 168	人类
+T10	Time-Implicit 231 233	如今
+T11	Location-Name 466 468	眉山
+T12	Person-Nominal 473 477	眉山人民
+T13	Time-Implicit 478 481	几千年
+T14	Person-Nominal 624 626	自己
+T15	Location-Name 631 633	眉山
+T16	Location-Name 647 649	眉山
+T17	Location-Name 661 663	眉山
+T18	Person-Nominal 667 671	眉山人民
+T19	Person-Pronoun 696 697	我
+T20	Time-Implicit 697 699	今天
+T21	Location-Name 729 731	眉山
+T22	Location-Name 751 753	中国
+T23	Person-Name 777 779	东坡
+T24	Person-Nominal 843 847	三苏父子
+T25	Location-Name 849 851	眉山
+T26	Person-Nominal 852 857	唐宋八大家
+T27	Person-Name 877 879	李密
+T28	Location-Name 882 888	犍为郡武阳县
+T29	Location-Name 890 892;893 897	眉山 市彭山县
+*	Coreference T28 T29
+T30	Person-Pronoun 899 900	他
+*	Coreference T30 T27
+T31	Person-Name 916 918	彭祖
+T32	Organization-Name 977 985	(中国生命科学院
+T33	Organization-Name 986 992	中国长寿协会
+T34	Location-Name 1003 1009	彭山长寿之乡
+T35	Organization-Name 1017 1022	丹棱大雅堂
+T36	Time-Explicit 1025 1027	唐代
+T37	Person-Name 1027 1031	诗圣杜甫
+T38	Person-Name 1033 1042	北宋书法大家黄庭坚
+T39	Organization-Nominal 1050 1053	诗书堂
+*	Coreference T35 T39
+T40	Person-Name 1067 1070	苏东坡
+T41	Time-Implicit 1070 1073	千百年
+T42	Person-Nominal 1077 1079	世人
+T43	Organization-Name 1082 1090	联合国教科文组织
+T44	Time-Implicit 1093 1105	0000年――2000年
+T45	Person-Nominal 1105 1111	世界杰出代表
+T46	Person-Name 1119 1122	苏东坡
+*	Coreference T46 T45 T48 T50
+T47	Location-Name 1123 1125	中国
+T48	Person-Name 1126 1128	孔子
+T49	Person-Name 1129 1132	苏东坡
+T50	Person-Name 1133 1136	孙中山
+T51	Location-Name 1139 1141	法国
+T52	Time-Implicit 1150 1161	1000――2000年
+T53	Person-Nominal 1161 1165	世界英雄
+T54	Location-Name 1169 1171	中国
+T55	Person-Name 1178 1181	苏东坡
+*	Coreference T55 T53
+T56	Person-Pronoun 1182 1183	我
+T57	Person-Name 1186 1189	苏东坡
+T58	Person-Nominal 1209 1213	杰出人物
+T59	Person-Nominal 1232 1234	人们
+*	Coreference T57 T58
+T60	Location-Name 1295 1297	眉山
+T61	Location-Name 1315 1317	中国
+T62	Person-Nominal 1362 1370	各种社会地位的人
+T63	Location-Name 1381 1383	眉山
+T64	Person-Nominal 1387 1389	人们
+T65	Person-Nominal 1421 1427	几乎所有的人
+T66	Person-Name 1430 1435	眉山的东坡
+T67	Location-Name 1499 1501	眉山
+T68	Location-Name 1516 1518	眉山
+T69	Location-Name 1533 1537	四川盆地
+T70	Location-Name 1540 1544	成都平原
+R1	Part-Whole Arg1:T70 Arg2:T69	
+T71	Location-Nominal 1547 1555	天府之国中心地带
+*	Coreference T70 T71
+T72	Location-Nominal 1556 1559	古蜀国
+T73	Location-Name 1560 1562	蚕丛
+T74	Location-Name 1563 1565	鱼凫
+T75	Location-Name 1566 1568	武阳
+*	Coreference T74 T72 T73 T75
+T76	Location-Name 1605 1607	眉山
+T77	Time-Implicit 1603 1605	现今
+T78	Time-Explicit 1621 1623	秦汉
+T81	Location-Name 1628 1630	郡治
+T82	Location-Name 1633 1636	彭山县
+R2	Part-Whole Arg1:T81 Arg2:T82	
+T83	Location-Name 1638 1641	武阳国
+T84	Location-Name 1642 1644	彭山
+R3	Part-Whole Arg1:T83 Arg2:T84	
+T85	Location-Name 1645 1647	蚕丛
+T86	Location-Name 1648 1650	青神
+R4	Part-Whole Arg1:T85 Arg2:T86	
+T87	Location-Name 1656 1658	武阳
+T88	Location-Name 1659 1666	眉山到青神一带
+T89	Location-Nominal 1677 1679	市场
+T90	Person-Nominal 1672 1674	商贾
+T91	Person-Name 1682 1686	西汉王褒
+T92	Location-Nominal 1707 1709	茶市
+T93	Location-Name 1695 1697	武阳
+T94	Thing-Nominal 1698 1699	茶
+R5	Part-Whole Arg1:T92 Arg2:T93	
+T97	Time-Explicit 1726 1732	孝武建元六年
+T98	Location-Nominal 1737 1738	县
+T99	Person-Nominal 1741 1743	汉户
+T100	Location-Name 1761 1763	犍山
+T101	Location-Nominal 1779 1780	县
+T102	Location-Name 1782 1783	道
+T103	Location-Name 1784 1786	江阳
+T104	Location-Name 1787 1789	武阳
+T105	Location-Name 1790 1792	南安
+T106	Location-Name 1793 1795	资中
+T107	Location-Name 1796 1797	符
+T108	Location-Name 1798 1799	牛
+T109	Location-Name 1804 1806	南广
+T110	Location-Name 1807 1809	汉阳
+T111	Location-Name 1810 1812	存阝
+T112	Location-Name 1822 1824	朱提
+T113	Location-Name 1825 1827	堂琅
+T114	Time-Explicit 1832 1834	秦汉
+T115	Time-Explicit 1835 1837	晋代
+T116	Location-Name 1838 1839	犍
+T117	Location-Name 1840 1841	郡
+T118	Location-Name 1847 1849	安岳
+T119	Location-Name 1850 1852	乐至
+T120	Location-Name 1858 1862	遂宁一带
+T121	Location-Name 1866 1868	宜宾
+T122	Location-Name 1869 1871	高县
+T123	Location-Name 1872 1874	屏山
+T124	Location-Name 1875 1877	泸州
+T125	Location-Name 1878 1884	贵州北部一带
+T126	Location-Name 1887 1890	长江;
+R7	Part-Whole Arg1:T122 Arg2:T121	
+R8	Part-Whole Arg1:T123 Arg2:T121	
+R9	Part-Whole Arg1:T124 Arg2:T121	
+T127	Location-Name 1894 1896	雅安
+T128	Location-Name 1897 1899	名山
+T129	Location-Name 1900 1907	峨眉山以西一带
+T130	Location-Name 1911 1913	成都
+T131	Location-Name 1914 1916	双流
+T132	Location-Name 1920 1923	龙泉驿
+T133	Location-Name 1927 1935	四川天府富庶之地
+R10	Part-Whole Arg1:T131 Arg2:T130	
+R11	Part-Whole Arg1:T132 Arg2:T130	
+R12	Part-Whole Arg1:T128 Arg2:T127	
+R13	Part-Whole Arg1:T129 Arg2:T127	
+R14	Part-Whole Arg1:T116 Arg2:T117	
+T134	Person-Nominal 1956 1958	人民
+T135	Person-Name 2000 2006	商代大夫彭祖
+T136	Location-Name 2071 2073	彭山
+T137	Location-Name 2074 2076	眉山
+T138	Location-Nominal 2082 2086	长寿之乡
+*	Coreference T137 T138 T136
+T139	Location-Name 2087 2089	彭山
+T140	Location-Name 2090 2092	眉山
+T141	Person-Nominal 2094 2098	百岁老人
+T142	Person-Name 2132 2134	苏东
+T143	Location-Nominal 2153 2157	鱼米之乡
+T144	Location-Name 2158 2160	岷江
+T145	Location-Name 2161 2163	沱江
+T146	Location-Name 2164 2167	青衣江
+T147	Location-Name 2169 2172	犍为郡
+R15	Part-Whole Arg1:T146 Arg2:T147	
+R16	Part-Whole Arg1:T145 Arg2:T147	
+R17	Part-Whole Arg1:T144 Arg2:T147	
+*	Coreference T144 T143 T146 T145
+T148	Location-Nominal 2174 2178	佳茗之乡
+T149	Location-Nominal 2179 2183	美酒之乡
+T150	Location-Nominal 2185 2187	酒城
+T151	Location-Nominal 2188 2190	酒都
+T152	Location-Name 2191 2193	茅台
+T153	Location-Name 2196 2199	犍为郡
+*	Coreference T150 T149 T151 T152
+R18	Part-Whole Arg1:T152 Arg2:T153	
+R19	Part-Whole Arg1:T151 Arg2:T153	
+R20	Part-Whole Arg1:T150 Arg2:T153	
+T154	Location-Nominal 2201 2205	丝绸之乡
+T155	Location-Nominal 2206 2210	旅游之乡
+T156	Location-Name 2211 2213;2214 2215	峨眉 山
+T157	Location-Name 2216 2219	瓦屋山
+T158	Location-Name 2220 2223	彭祖山
+T159	Location-Name 2228 2231	犍为郡
+*	Coreference T156 T155 T157 T158
+R21	Part-Whole Arg1:T158 Arg2:T159	
+R22	Part-Whole Arg1:T157 Arg2:T159	
+R23	Part-Whole Arg1:T156 Arg2:T159	
+T160	Location-Name 2310 2312	眉山
+T161	Person-Nominal 2330 2332	名士
+T162	Person-Nominal 2336 2338	名女
+T163	Time-Implicit 2341 2346	此后两千年
+T164	Person-Nominal 2347 2351	眉山名人
+T165	Time-Explicit 2356 2358	北宋
+T166	Time-Explicit 2359 2361	南宋
+T167	Person-Nominal 2367 2369	进士
+T168	Person-Nominal 2383 2387	眉山名人
+T169	Person-Name 2407 2410	宋仁宗
+T170	Person-Nominal 2417 2421	好学之士
+T171	Location-Name 2424 2426	眉山
+T172	Person-Pronoun 2429 2431	我们
+T173	Location-Name 2438 2440	眉山
+T174	Location-Nominal 2453 2458	千载诗书城
+*	Coreference T174 T173
+T175	Person-Name 2465 2468	苏东坡
+T176	Person-Name 2486 2489	苏东坡
+T177	Location-Name 2569 2575	我的家乡眉州
+T178	Person-Nominal 2589 2592	士大夫
+T179	Person-Nominal 2601 2605	宗族亲戚
+T180	Person-Nominal 2613 2615	民众
+T181	Person-Nominal 2639 2642	农夫们
+T182	Time-Explicit 2669 2671	商代
+T183	Time-Explicit 2672 2674	周代
+T184	Time-Implicit 2675 2679	春秋战国
+T185	Time-Explicit 2681 2682	秦
+T186	Time-Explicit 2684 2686	汉唐
+T187	Person-Name 2719 2722	苏东坡
+T188	Location-Name 2723 2725	徐州
+T189	Time-Explicit 2728 2740	元丰七年即公元1084年
+T190	Location-Name 2743 2745	眉州
+T191	Person-Name 2750 2755	知州黎希声
+T192	Person-Name 2762 2765	苏东坡
+T193	Person-Pronoun 2772 2773	他
+*	Coreference T193 T191
+T194	Person-Nominal 2825 2829	家乡人民
+T195	Time-Implicit 2855 2858	几百年
+T196	Person-Name 2859 2861	李密
+T197	Location-Name 2875 2877	眉山
+T198	Time-Implicit 2895 2898	千余年
+T199	Person-Name 2899 2901	彭祖
+T200	Person-Name 2903 2905	彭祖
+T95	Location-Name 1721 1725	“犍为郡
+T79	Location-Name 1624 1627	犍为郡
+T80	Person-Nominal 2941 2943	仁者

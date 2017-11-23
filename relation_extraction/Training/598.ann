@@ -1,0 +1,61 @@
+T1	Location-Name 4 6	界湾
+T2	Thing-Nominal 12 14	芦苇
+T3	Location-Nominal 20 22	岸边
+T4	Thing-Nominal 25 27	宠柳
+R1	Located Arg1:T4 Arg2:T3	
+T5	Thing-Nominal 35 37	风雨
+T6	Thing-Nominal 41 42	叶
+R2	Part-Whole Arg1:T6 Arg2:T4	
+T7	Thing-Nominal 49 50	腰
+T8	Thing-Nominal 51 52	根
+R3	Part-Whole Arg1:T8 Arg2:T4	
+T9	Person-Nominal 54 58	村里老人
+T10	Thing-Nominal 65 66	树
+T11	Thing-Nominal 68 69	风
+T12	Thing-Nominal 94 95	雨
+T13	Thing-Nominal 92 93	风
+T14	Thing-Pronoun 96 98	他们
+*	Coreference T14 T4
+T15	Thing-Nominal 108 110	芦苇
+T16	Thing-Nominal 123 124	风
+T17	Thing-Nominal 125 126	雨
+T18	Thing-Nominal 131 133	柳树
+T19	Thing-Nominal 153 155	柳树
+T20	Time-Explicit 176 179	端午节
+T21	Thing-Nominal 180 182	粽子
+T22	Thing-Nominal 186 188	苇叶
+R4	Part-Whole Arg1:T22 Arg2:T21	
+T23	Thing-Nominal 194 196	苞米
+T24	Thing-Nominal 201 203	高粱
+T25	Thing-Nominal 209 211	苞米
+T26	Thing-Nominal 212 214	高粱
+T27	Thing-Nominal 214 216	叶片
+R5	Part-Whole Arg1:T27 Arg2:T26	
+R6	Part-Whole Arg1:T27 Arg2:T25	
+T28	Thing-Nominal 230 232	芦苇
+T29	Person-Nominal 239 241	人们
+T30	Thing-Nominal 244 245	水
+T31	Thing-Nominal 246 247	泥
+T32	Thing-Nominal 255 256	虫
+T33	Thing-Nominal 257 258	蛇
+T34	Thing-Nominal 267 269	苇叶
+T35	Thing-Nominal 274 276	糯米
+R7	Located Arg1:T35 Arg2:T34	
+T36	Person-Nominal 280 282	自己
+T37	Thing-Nominal 298 300	苞米
+T38	Thing-Nominal 301 303	高粱
+T39	Thing-Nominal 304 306	叶片
+R8	Part-Whole Arg1:T39 Arg2:T38	
+R9	Part-Whole Arg1:T39 Arg2:T37	
+T40	Person-Nominal 309 311	人们
+T41	Person-Nominal 321 323	君子
+T42	Thing-Nominal 324 326	芦苇
+T43	Thing-Nominal 332 334	香草
+T44	Person-Nominal 334 336	美人
+T45	Person-Pronoun 352 353	我
+T46	Location-Name 356 358	界湾
+T47	Thing-Nominal 362 364	芦苇
+R10	Located Arg1:T47 Arg2:T46	
+T48	Thing-Nominal 379 381	朝阳
+T49	Thing-Nominal 385 386	风
+T50	Thing-Nominal 391 393	清水

@@ -1,0 +1,387 @@
+T1	Time-Explicit 5 7	清代
+T2	Location-Nominal 5 13	清代书院那栋楼上
+T3	Thing-Nominal 5 15	清代书院那栋楼上的灯
+R1	Located Arg1:T3 Arg2:T2	
+T4	Person-Nominal 21 27	官方的官员们
+T5	Metric 28 31	几十人
+T6	Thing-Nominal 34 36	茶杯
+T7	Thing-Nominal 39 42	公文包
+T8	Thing-Nominal 45 48	笔记本
+T9	Person-Nominal 49 52	老同志
+T10	Thing-Nominal 54 57	旱烟斗
+T11	Organization-Nominal 70 72	会议
+T12	Location-Name 74 78	龙舟坪镇
+T13	Metric 89 91	三个
+T14	Person-Name 98 105	伟人邓小平同志
+T15	Time-Explicit 98 116	伟人邓小平同志的中国特色社会主义理论
+T16	Abstract 117 121	改革开放
+T17	Location-Name 143 145	清江
+T19	Person-Pronoun 171 172	我
+T20	Organization-Nominal 179 181	县委
+T21	Person-Pronoun 183 184	我
+T22	Location-Name 186 188	清江
+T23	Organization-Nominal 206 211	省政府组织
+T24	Thing-Nominal 221 240	挖土机、推土机、碾压机、粉碎机、载重车
+T25	Location-Name 242 244	黄河
+T26	Location-Name 246 248	长江
+T27	Location-Nominal 250 254	江汉平原
+T28	Location-Name 261 264	隔河岩
+T29	Location-Name 190 193	隔河岩
+T18	Location-Name 164 169	清江隔河岩
+T30	Location-Name 266 269	隔河岩
+T31	Time-Explicit 297 309	1987年1月15日清晨
+T32	Time-Explicit 310 314	开工那天
+T33	Person-Pronoun 315 316	我
+T34	Location-Name 318 327	清江隔河岩的工地边
+T35	Location-Nominal 331 335	清江沿岸
+T36	Metric 369 372	千万年
+T37	Location-Name 367 375	沉睡千万年的清江
+T38	Person-Pronoun 382 383	我
+T39	Person-Nominal 384 388	土家儿女
+T40	Location-Name 392 397	清江隔河岩
+T41	Location-Nominal 406 409	工地上
+T42	Person-Nominal 423 426	工人们
+T43	Location-Nominal 432 434	窝棚
+T44	Location-Nominal 436 438	草铺
+T45	Thing-Nominal 440 443	冰楂饭
+T46	Thing-Nominal 450 452	砂浆
+T47	Location-Name 455 459	清江大坝
+T48	Person-Pronoun 460 461	我
+T49	Person-Pronoun 462 464	他们
+*	Coreference T49 T42
+T50	Metric 478 480	两倍
+T51	Thing-Nominal 488 490	食物
+T52	Person-Nominal 493 495	农民
+T54	Thing-Nominal 513 521	住的、吃的粮油菜
+T55	Person-Nominal 529 531	工人
+T56	Metric 532 535	两千个
+T57	Thing-Nominal 542 545	土石方
+T58	Thing-Nominal 548 552	水泥钢筋
+T59	Metric 553 559	30万立方米
+T61	Thing-Nominal 562 565	一座山
+T62	Metric 577 580	06米
+T63	Metric 583 587	130米
+T64	Metric 591 595	674米
+T65	Location-Name 600 602	清江
+T66	Metric 608 614	34亿立方米
+T67	Location-Name 618 620	清江
+T68	Metric 620 626	一百亿立方米
+T69	Location-Name 670 676	荆江沿岸坝堤
+T70	Metric 678 683	一千三百万
+T71	Person-Nominal 683 685	人民
+T72	Metric 686 692	二千三百万亩
+T73	Thing-Nominal 692 694	良田
+T74	Time-Explicit 699 706	导流洞封堵那天
+T75	Location-Name 736 740	清江沿岸
+T76	Person-Nominal 736 745	清江沿岸的土家儿女
+T77	Location-Nominal 766 769	山坡上
+T78	Person-Nominal 766 772	山坡上的人群
+T79	Location-Name 784 786	清江
+T80	Thing-Nominal 797 802	巨大的闸门
+T81	Location-Nominal 818 820	坝上
+T82	Location-Nominal 827 830	江岸上
+T83	Person-Pronoun 850 851	我
+T84	Person-Nominal 853 857	土家儿女
+T85	Location-Name 872 874	清江
+T86	Person-Pronoun 883 884	我
+T87	Location-Name 895 900	隔河岩大坝
+T88	Organization-Nominal 916 920	移民县委
+T89	Person-Pronoun 921 922	我
+T90	Location-Name 923 926	资丘镇
+T91	Person-Nominal 928 932;933 934	镇党委书 记
+T92	Location-Name 937 939	资丘
+T93	Person-Name 950 954	贺龙元帅
+T94	Time-Implicit 954 956	当年
+T95	Location-Nominal 954 963	当年浴血奋战的故土
+T96	Person-Nominal 964 968	土家儿女
+T97	Person-Nominal 971 974	先烈们
+T98	Location-Name 989 993;994 1000	“七十七 烈士纪念塔”
+T99	Person-Pronoun 1004 1006	他们
+T100	Person-Pronoun 1016 1017	我
+T101	Metric 1020 1022	5名
+T102	Person-Nominal 1022 1024	干部
+T103	Abstract 1026 1031	“三为主”
+T104	Location-Name 1037 1040	陈家坡
+T105	Metric 1045 1048	110
+T106	Metric 1058 1063	300余人
+T107	Person-Nominal 1076 1081	分管的镇长
+T108	Location-Name 1083 1087	资丘东街
+T109	Person-Nominal 1089 1092	钉子户
+T110	Person-Pronoun 1097 1098	我
+T111	Person-Nominal 1099 1101	镇长
+T112	Location-Nominal 1111 1113	他家
+T113	Person-Pronoun 1125 1126	他
+*	Coreference T113 T109
+T115	Person-Nominal 1127 1137	一位催人泪下的老石匠
+T116	Person-Name 1127 1140	一位催人泪下的老石匠谢永海
+T117	Location-Nominal 1142 1144	故土
+T118	Time-Implicit 1155 1162	移民搬迁的时候
+T119	Person-Pronoun 1163 1164	他
+T120	Person-Nominal 1165 1167	自己
+T121	Thing-Nominal 1165 1170	自己的棺材
+T122	Location-Nominal 1172 1176;1177 1182	清江岸边 的一个石洞
+T124	Person-Pronoun 1184 1186	我们
+T125	Person-Pronoun 1191 1192	我
+*	Coreference T125 T119
+T126	Person-Pronoun 1196 1197	我
+T127	Person-Pronoun 1200 1202	你们
+T128	Person-Pronoun 1204 1205	我
+T129	Location-Nominal 1207 1212	这个石洞里
+T130	Person-Nominal 1214 1216	大伙
+T131	Person-Nominal 1226 1228	老人
+T132	Location-Name 1234 1236	清江
+T133	Location-Name 1246 1248	清江
+T134	Person-Pronoun 1249 1250	他
+*	Coreference T134 T131
+T135	Location-Name 1251 1253	清江
+T136	Time-Implicit 1262 1269	1990年春天
+T137	Person-Nominal 1270 1273	老石匠
+T138	Thing-Nominal 1278 1281	清江水
+T139	Thing-Nominal 1283 1287	灿烂的灯
+T140	Person-Pronoun 1300 1302	我们
+T141	Thing-Nominal 1310 1312	水泥
+T142	Thing-Nominal 1314 1316	岩洞
+人
+T144	Location-Nominal 1326 1328	江底
+T145	Time-Implicit 1332 1335	三十年
+T146	Person-Pronoun 1341 1342	我
+T147	Person-Nominal 1368 1373	镇党委书记
+T148	Location-Nominal 1377 1381	县委大院
+T149	Time-Implicit 1393 1402	一个春光明媚的深夜
+T150	Location-Nominal 1403 1407	清代书院
+T151	Person-Nominal 1420 1422	领导
+T152	Location-Nominal 1416 1418	县里
+T153	Abstract 1428 1439	党的十一届三中全会精神
+T154	Person-Name 1440 1445	邓小平同志
+T155	Abstract 1440 1450	邓小平同志的南行讲话
+T156	Location-Name 1454 1456	长阳
+T158	Location-Name 1472 1476	龙舟坪镇
+T159	Location-Name 1501 1514;1515 1516	旧书院(县委、政府办公地址 )
+T160	Organization-Nominal 1526 1528	超市
+T162	Thing-Nominal 1536 1542	一栋新办公楼
+T163	Person-Nominal 1554 1556	祖先
+T164	Organization-Nominal 1593 1595	县委
+T165	Person-Nominal 1611 1615	党员群众
+T166	Location-Nominal 1621 1626	城区、乡镇
+T167	Time-Implicit 1651 1654	两个月
+T168	Organization-Nominal 1655 1660	县委、政府
+T169	Organization-Nominal 1662 1668	县级领导班子
+T170	Organization-Nominal 1669 1675	人民代表会议
+T171	Metric 1685 1688	85%
+T172	Organization-Nominal 1698 1700	县委
+T173	Person-Nominal 1702 1704	民众
+T174	Organization-Nominal 1712 1719	县委、政府机关
+T176	Location-Nominal 1727 1737	宜万铁路，高速公路旁
+T177	Location-Nominal 1738 1744	318国道中
+T178	Location-Name 1747 1750	白寺坪
+T179	Location-Name 1751 1754	丹水河
+T180	Metric 1755 1758;1759 1760	20公 里
+T181	Location-Nominal 1761 1766	经济开发区
+T182	Location-Name 1767 1774	龙舟坪、永和坪
+T183	Location-Nominal 1792 1794	乡镇
+T184	Organization-Nominal 1797 1810	全县各乡镇、部、办、委、局
+T185	Person-Nominal 1816 1818	领导
+T186	Location-Nominal 1826 1833	全国各地的城市
+T187	Location-Name 1864 1866	黄河
+T188	Location-Name 1868 1870	长江
+T189	Location-Name 1878 1880;1881 1890	白寺 坪、永和坪、丹水河
+T190	Metric 1891 1895	四千多个
+T191	Time-Implicit 1891 1899	四千多个日日夜夜
+T192	Organization-Nominal 1902 1904	工厂
+T193	Location-Name 1905 1908	白寺坪
+T194	Location-Nominal 1913 1916	工厂里
+T195	Time-Implicit 1931 1933	清晨
+T196	Person-Pronoun 1934 1935	我
+T197	Location-Name 1938 1942	清江大道
+T198	Location-Name 1950 1957	龙舟坪、永和坪
+T199	Location-Name 1960 1991;1992 2026	“清江国际”、“江天一色”、“清江瑞景”、“帝王一号”、“民族 大厦”、“电力大厦”、“兴业大厦”、“政府大楼”、县人民医院外科大楼
+T200	Metric 2027 2030	几十幢
+T201	Location-Name 2047 2052;2053 2068	“福园小区 ”、“泰丰花园”、“清江瑞华”
+T203	Location-Nominal 2097 2107	一个现代化的土家县城
+T204	Location-Nominal 2144 2146	户外
+T205	Thing-Nominal 2131 2134	红绿灯
+T206	Location-Name 2153 2168	“清江大道”、“龙舟大道”两旁
+T207	Thing-Nominal 2169 2171	绿树
+R2	Located Arg1:T207 Arg2:T206	
+T208	Location-Nominal 2186 2197	龙舟大道两旁的集市贸易
+T209	Organization-Nominal 2203 2220	鳞次栉比的超市、商店、杂货铺、地摊
+T210	Person-Pronoun 2260 2261	我
+T211	Location-Name 2225 2243	提篮小卖、喧哗西门、四冲街、中心市场
+T212	Location-Name 2263 2267	清代书院
+T213	Location-Name 2275 2280	“时代超市
+T214	Thing-Nominal 2282 2299	时装、鞋袜、皮具、蔬菜、水果、粮油
+R3	Located Arg1:T214 Arg2:T213	
+T215	Person-Nominal 2317 2321	游人顾客
+T216	Location-Name 2323 2329	“步行街”上
+T217	Organization-Nominal 2341 2343	超市
+T218	Location-Name 2345 2351	清江国际大楼
+T219	Location-Nominal 2359 2368;2369 2380	热热闹闹、熙熙攘攘 、擦肩而过的长途汽车站
+T220	Person-Nominal 2396 2398	旅客
+T221	Location-Name 2403 2414	宜昌、武汉、上海、深圳
+T222	Person-Nominal 2419 2421	旅客
+T223	Person-Nominal 2440 2442	旅客
+T224	Metric 2463 2466	二十里
+T225	Location-Nominal 2463 2473	二十里的三环长街两侧
+T226	Thing-Nominal 2478 2499	宾馆、超市、店铺、路旁、亲水平台上的霓虹灯
+T227	Location-Nominal 2478 2495	宾馆、超市、店铺、路旁、亲水平台上
+R4	Located Arg1:T226 Arg2:T227	
+T228	Location-Name 2509 2513;2514 2523	新码头夜 市，清江，花坪广场
+T229	Thing-Nominal 2548 2550	汤圆
+T230	Thing-Nominal 2552 2554	啤酒
+T231	Thing-Nominal 2556 2558	野味
+T232	Person-Nominal 2581 2583	人们
+T233	Location-Name 2588 2592	龙舟坪镇
+T234	Location-Nominal 2599 2605	历史悠久古镇
+T235	Person-Nominal 2613 2617	历史文人
+T236	Abstract 2622 2628	“八景之称”
+T237	Location-Name 2629 2634	龙舟坪县城
+T238	Physical 2636 2645	一个春光明媚的周日
+T239	Person-Pronoun 2646 2648	我们
+T240	Metric 2648 2650	几个
+T241	Person-Nominal 2650 2652	同伴
+T242	Location-Name 2657 2659;2660 2662	龙舟 新城
+T243	Thing-Nominal 2681 2683	电梯
+T244	Metric 2685 2689	三十余层
+T245	Location-Name 2685 2698	三十余层“江天一色”的楼顶
+T246	Location-Nominal 2701 2706	顶坪走廊边
+T247	Location-Name 2719 2720;2721 2727	粼 粼波光的清江
+T248	Thing-Nominal 2732 2736	帆船渔舟
+T249	Location-Name 2743 2746	龙舟坪
+T250	Location-Nominal 2759 2763	宝塔峰峦
+T251	Location-Name 2764 2775	“乌催耕”、“观音阁”
+T252	Location-Name 2852 2855	将军山
+T253	Location-Name 2776 2780	清罗春台
+T254	Person-Nominal 2861 2863	诗人
+T255	Person-Name 2932 2935	李景威
+T256	Location-Name 2938 2941	龙舟坪
+T257	Location-Name 2944 2946	清江
+T258	Person-Nominal 2957 2959	将军
+T259	Metric 2962 2964;2965 2966	数百 年
+T260	Location-Name 2974 2978	将军山上
+T261	Location-Nominal 2989 2991	山下
+T262	Person-Nominal 3517 3521	爷爷奶奶
+T263	Person-Nominal 3523 3524	子
+T264	Person-Nominal 3525 3526	孙
+T265	Thing-Nominal 3543 3545	龙舟
+T266	Location-Nominal 3553 3555	古镇
+T267	Abstract 3558 3561	中国梦
+T268	Abstract 3562 3565	小康春
+T269	Person-Pronoun 3567 3569	我们
+T270	Thing-Nominal 3394 3395	日
+T271	Location-Nominal 3402 3403	窗
+T272	Location-Nominal 3396 3398	西山
+T273	Thing-Nominal 3399 3401	晚霞
+R5	Located Arg1:T273 Arg2:T271	
+R6	Located Arg1:T270 Arg2:T272	
+T274	Person-Pronoun 3404 3406	我们
+T275	Location-Nominal 3408 3419	汉白玉、石板路的走廊上
+T276	Thing-Name 3426 3437	精心雕刻的土家廪君神像
+T277	Person-Name 3433 3435	廪君
+T278	Organization-Nominal 3439 3446	全国艺术行业中
+T279	Thing-Nominal 3449 3454;3455 3457	走廊上的指 路灯
+T280	Location-Nominal 3449 3452	走廊上
+R7	Located Arg1:T279 Arg2:T280	
+T281	Person-Nominal 3465 3470	一双双恋人
+T282	Person-Nominal 3497 3502	一对对夫妻
+T283	Thing-Nominal 2994 2996	村舍
+T284	Person-Nominal 2997 3000	土家妹
+T285	Thing-Nominal 3005 3009	一江春水
+T286	Thing-Nominal 3010 3012	浓茶
+T288	Metric 3012 3014	一杯
+T289	Thing-Nominal 3017 3020	庆功酒
+T290	Location-Name 3032 3034	军岭
+T291	Thing-Nominal 3058 3060	怪石
+T292	Thing-Nominal 3063 3065	泉水
+T293	Location-Name 3041 3045	叹气沟里
+T294	Thing-Nominal 3068 3070	瀑布
+T295	Time-Implicit 3088 3090	夏天
+T296	Location-Nominal 3093 3097	避暑仙地
+T297	Person-Pronoun 3116 3117	你
+T298	Location-Nominal 3119 3123	凤凰头上
+T299	Thing-Nominal 3127 3131	苍松翠柏
+T300	Thing-Nominal 3132 3134	古木
+T301	Thing-Nominal 3137 3139	青草
+T302	Location-Nominal 3150 3152	山腰
+T303	Thing-Nominal 3153 3155	麦苗
+T304	Thing-Nominal 3161 3165	玉米红薯
+T305	Thing-Nominal 3176 3178	夕阳
+T306	Thing-Nominal 3181 3183	晚霞
+T307	Thing-Nominal 3187 3192	寂寞的凤凰
+T308	Location-Nominal 3195 3197	山顶
+R8	Located Arg1:T307 Arg2:T308	
+T309	Thing-Nominal 3199 3201	明月
+T310	Location-Nominal 3219 3221	古镇
+T311	Location-Nominal 3233 3240	东岭的六角亭下
+T312	Metric 3244 3247	数百条
+T313	Location-Name 3248 3267;3268 3272	石板街、古渡街、老街、黄龙路、秋潭路、 亲水平台
+T314	Thing-Nominal 3274 3276	山花
+T315	Thing-Nominal 3279 3281	桂花
+T316	Location-Nominal 3289 3293	廉政画廊
+T317	Person-Nominal 3301 3303	游人
+T318	Person-Nominal 3304 3308	子孙后代
+T319	Location-Nominal 3311 3319	亲水平台的亭阁里
+T320	Person-Nominal 3320 3324	土家儿女
+T321	Thing-Nominal 3331 3337	叹气沟的清泉
+T322	Location-Name 3331 3334	叹气沟
+R9	Located Arg1:T321 Arg2:T322	
+T323	Location-Nominal 3350 3352	江堤
+T324	Thing-Nominal 3353 3355	桃花
+T325	Thing-Nominal 3357 3359	杨柳
+R10	Located Arg1:T324 Arg2:T323	
+R11	Located Arg1:T325 Arg2:T323	
+T326	Person-Nominal 3369 3370;3371 3372	土 妹
+T327	Person-Nominal 3380 3382	男儿
+R12	Part-Whole Arg1:T10 Arg2:T9	
+T328	Person-Nominal 98 100	伟人
+R13	Part-Whole Arg1:T14 Arg2:T328	
+T329	Thing-Nominal 336 338	车流
+T330	Thing-Nominal 342 344	人流
+T331	Thing-Nominal 347 349	彩旗
+T332	Thing-Nominal 352 354	锣鼓
+T333	Thing-Nominal 357 359	万炮
+T334	Location-Nominal 364 366	山谷
+R14	Located Arg1:T329 Arg2:T35	
+R15	Located Arg1:T330 Arg2:T35	
+R16	Located Arg1:T331 Arg2:T35	
+R17	Located Arg1:T332 Arg2:T35	
+R18	Located Arg1:T333 Arg2:T35	
+T335	Thing-Nominal 445 446	血
+T336	Thing-Nominal 447 448	汗
+R19	Part-Whole Arg1:T335 Arg2:T42	
+R20	Part-Whole Arg1:T336 Arg2:T42	
+T53	Thing-Nominal 575 576	坝
+T60	Thing-Nominal 600 605	清江第一坝
+T337	Thing-Nominal 618 628	清江一百亿立方米的水
+R21	Located Arg1:T337 Arg2:T67	
+T338	Thing-Nominal 634 640	空空白流的水
+T339	Thing-Nominal 654 656	洪水
+T340	Thing-Nominal 707 712	温柔的冬阳
+T341	Thing-Nominal 714 716	江水
+T342	Thing-Nominal 724 726	清风
+T343	Thing-Nominal 748 750	潮水
+T344	Thing-Nominal 754 759;760 765	导流洞四周 的峰峰岭岭
+T345	Location-Nominal 754 759	导流洞四周
+R22	Located Arg1:T344 Arg2:T345	
+T346	Thing-Nominal 807 812	肆虐的江水
+T347	Thing-Nominal 842 844	唢呐
+T348	Thing-Nominal 846 848	鞭炮
+T349	Thing-Name 984 993;994 1000	巍然耸立的“七十七 烈士纪念塔”
+T114	Person-Nominal 1146 1148	母亲
+T123	Person-Nominal 1234 1237;1238 1239	清江砾 土
+T143	Person-Nominal 1318 1322;1323 1324	尊敬的老 人
+T157	Metric 1651 1654	两个月
+T161	Location-Nominal 2027 2032	几十幢大楼
+T175	Thing-Nominal 2069 2080	正在施工的拌和机，吊车
+T202	Thing-Nominal 2113 2121	大街小巷水泥公路
+T350	Thing-Nominal 2123 2130	纵横交错的珠网
+T351	Thing-Nominal 2136 2143	浮在水面的航标
+T352	Location-Nominal 2138 2140	水面
+R23	Located Arg1:T351 Arg2:T352	
+T353	Thing-Nominal 2866 2868	军岭
+T354	Thing-Nominal 2874 2876	众峰
+T355	Thing-Nominal 2882 2886	铁马金戈
+T356	Thing-Nominal 2890 2892	古庙
+T357	Person-Nominal 2898 2900	邑人
+T358	Person-Name 2902 2903;2904 2906	李 景威
+T359	Person-Nominal 2907 2909	将军
+T287	Location-Nominal 3021 3023	江岸

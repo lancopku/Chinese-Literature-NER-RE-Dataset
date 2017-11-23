@@ -1,0 +1,79 @@
+T1	Time-Explicit 0 8	上个世纪四十年代
+T2	Person-Nominal 9 11	祖父
+T3	Location-Nominal 18 26	左江边的一条小街
+T4	Person-Nominal 37 39	祖母
+T5	Location-Pronoun 41 43	那里
+*	Coreference T5 T3
+T6	Thing-Nominal 44 48	糯米沙糕
+T7	Person-Nominal 55 57	祖父
+T8	Thing-Nominal 63 70	桄榔粉冲出的糊
+T9	Location-Nominal 83 85	故乡
+T10	Person-Pronoun 89 90	我
+T11	Time-Implicit 88 97	在我开始懂事的时候
+T12	Thing-Nominal 99 103	弯弯月亮
+T13	Thing-Nominal 105 106	弦
+T14	Thing-Nominal 110 115	心爱的琵琶
+T15	Person-Pronoun 109 110	我
+T16	Thing-Nominal 117 119	电视
+T17	Thing-Nominal 134 136	波浪
+T18	Person-Nominal 144 148	异域游子
+T19	Person-Pronoun 152 154	自己
+*	Coreference T19 T18
+T20	Location-Nominal 166 170	故乡土地
+T21	Location-Nominal 171 173	故乡
+T22	Location-Pronoun 174 175	你
+*	Coreference T22 T21 T23
+T23	Location-Pronoun 178 179	你
+T24	Person-Nominal 185 188	心上人
+T25	Location-Nominal 190 194	天涯海角
+T26	Thing-Nominal 197 202	蔚蓝的天空
+T27	Person-Pronoun 204 205	你
+R1	Ownership Arg1:T27 Arg2:T23	
+T28	Thing-Nominal 216 224	宪(谐音)木砧板
+T29	Person-Pronoun 249 250	它
+R2	Create Arg1:T29 Arg2:T28	
+T30	Person-Nominal 266 270	成亿人口
+T31	Location-Nominal 281 285	古老森林
+T32	Thing-Nominal 290 292	树种
+T33	Person-Pronoun 301 303	我们
+T34	Thing-Nominal 307 315	这古老稀缺的树种
+*	Coreference T34 T28
+T35	Thing-Nominal 318 324	竹片粘合砧板
+T36	Thing-Nominal 325 330	龙眼木砧板
+T37	Person-Pronoun 332 334	我们
+T38	Thing-Pronoun 339 340	你
+R3	Part-Whole Arg1:T38 Arg2:T29	
+T39	Person-Nominal 371 373	人类
+T40	Location-Nominal 378 380	故乡
+T41	Location-Name 381 383	越南
+T42	Thing-Nominal 392 393	江
+T43	Metric 390 392	一条
+T44	Person-Nominal 394 396	父亲
+T45	Location-Name 398 400	左江
+T46	Person-Pronoun 401 402	他
+*	Coreference T46 T44
+T47	Thing-Nominal 407 412	最清澈的河
+T48	Metric 405 407	一条
+T49	Person-Nominal 413 415	母亲
+T50	Location-Nominal 417 421	那条石桥
+R4	Located Arg1:T47 Arg2:T45	
+T51	Location-Nominal 429 434	一条大石桥
+*	Coreference T51 T50
+T52	Metric 429 431	一条
+T53	Person-Pronoun 422 423	她
+*	Coreference T53 T49
+T54	Person-Nominal 435 438;439 441	故乡的 人们
+T55	Person-Pronoun 466 467	我
+T56	Location-Nominal 472 474	故乡
+T57	Person-Pronoun 475 476	我
+T58	Organization-Nominal 477 479	小学
+T59	Thing-Nominal 487 489	油灯
+T60	Metric 485 487	一盏
+T61	Person-Nominal 490 494	祖宗四代
+T62	Person-Pronoun 496 497	它
+R5	Create Arg1:T62 Arg2:T59	
+T63	Thing-Nominal 514 516	火苗
+T64	Thing-Nominal 528 529	酒
+T65	Metric 526 528	一杯
+T66	Person-Pronoun 539 540	我
+T67	Thing-Nominal 550 551	雾
