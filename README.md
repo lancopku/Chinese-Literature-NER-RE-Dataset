@@ -4,7 +4,7 @@ A Discourse-Level Named Entity Recognition and Relation Extraction Dataset  for 
 We provide a new Chinese literature dataset for Named Entity Recognition (NER) and Relation Extraction (RE). The dataset is described at https://arxiv.org/pdf/1711.07010.pdf
 # Tagging Set
 
-We define 6 entity tags and 9 relation tags based on several available NER and RE datasets but with some additional categories specific to Chinese literature text. 
+We define 7 entity tags and 9 relation tags based on several available NER and RE datasets but with some additional categories specific to Chinese literature text. 
 ![ner.png](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset/blob/master/ner.png)
 ![relation.png](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset/blob/master/relation.png)
 
