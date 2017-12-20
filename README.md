@@ -36,11 +36,19 @@ Type: one of the relation tags.
 
 
 bibtex
+
 @inproceedings{dnerre,
+
 author = {Jingjing Xu and Ji Wen and Xu Sun and Qi Su},
+
 title = {A Discourse-Level Named Entity Recognition and Relation Extraction Dataset for Chinese Literature Text}, 
+
 journal = {CoRR},
+
 volume = {abs/1711.07010},
+
 year = {2017},
+
 url = http://arxiv.org/abs/1711.07010
+
 }
