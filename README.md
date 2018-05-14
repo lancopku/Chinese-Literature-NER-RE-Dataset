@@ -35,7 +35,7 @@ Arg1 and Arg2: two entities associated with a relation.
 Type: one of the relation tags.
 
 
-bibtex
+## Citation
 
 @inproceedings{dnerre,
 
